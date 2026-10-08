@@ -59,7 +59,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 | `pipeline/` | the nightly pipeline: `lib`, `orchestrator`, `ingest`, `caption`, `extract`, `code`, `summarize`, `link`, `validate`, `review`, `render` |
 | `content/` | generated knowledge base (markdown + frontmatter) |
 | `data/` | generated machine data: manifest, captions (Microsoft only), code JSON, indexes, graph, roadmap, overrides |
-| `site/` | Astro site, deployed to GitHub Pages |
+| `site/` | Astro site, deployed to GitHub Pages; `site/src/about/about.md` is the owner's hand-written About text (D83), the one prose file that is not generated: edit it directly |
 | `packages/mcp/` | the `bc-observatory` MCP server (npx) |
 | `plugin/` | Claude Code plugin (skills + MCP config) |
 | `infra/mini/` | Mac Mini provisioning and nightly runner scripts |

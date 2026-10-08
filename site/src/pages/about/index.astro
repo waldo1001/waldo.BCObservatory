@@ -1,0 +1,89 @@
+---
+/**
+ * /about/ (D83, docs/specs/about-page.md): the owner's hand-written text (site/src/about/about.md, the `about`
+ * collection), the pipeline and the galaxy key drawn, the seven "for who" cards, the install commands under #agents,
+ * live counts and the housekeeping lines. No tier or review badge: this page is not generated.
+ */
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+import Telescope from "../../components/Telescope.astro";
+import GalaxyKey from "../../components/GalaxyKey.astro";
+import { latestRun } from "../../lib/state";
+import { wrapTables } from "../../lib/links";
+import { MCP_COMMANDS, MCP_TOOLS, REPO, countRows, fillCounts, personas, splitHtml, type AboutCounts } from "../../lib/about";
+const base = import.meta.env.BASE_URL;
+const names = ["topics", "objects", "apps", "localizations", "features", "videos", "posts", "changes", "digests", "sources"] as const;
+const counts = Object.fromEntries(await Promise.all(names.map(async (c) => [c, (await getCollection(c)).length]))) as AboutCounts;
+const [entry] = await getCollection("about");
+if (!entry) throw new Error("site/src/about/about.md is missing");
+const html = wrapTables(fillCounts(entry.rendered?.html ?? "", counts));
+const { whoWhy, how, forWho } = splitHtml(html);
+// the How section: heading, the telescope, the captions list, the key, the galaxy caption
+const iUl = how.indexOf("<ul"), iP = how.lastIndexOf("<p");
+const howHead = iUl > 0 ? how.slice(0, iUl) : how, howList = iUl > 0 && iP > iUl ? how.slice(iUl, iP) : iUl > 0 ? how.slice(iUl) : "", howCap = iUl > 0 && iP > iUl ? how.slice(iP) : "";
+const cards = personas(base, REPO);
+const rows = countRows(counts, base);
+const run = latestRun();
+const n = (x: number) => x.toLocaleString("en");
+---
+<List title="About · BC Observatory" description="Who made BC Observatory, why, how the nightly runs, who it is for, and how to connect an agent." section="about" crumb="About">
+  <p class="eyebrow">about</p>
+  <h1>About BC Observatory</h1>
+  <div class="prose about">
+    <Fragment set:html={whoWhy} />
+    <Fragment set:html={howHead} />
+    <Telescope counts={counts} />
+    <Fragment set:html={howList} />
+    <GalaxyKey />
+    <Fragment set:html={howCap} />
+    <Fragment set:html={forWho} />
+    <ul class="cards" aria-label="Who this is for">
+      {cards.map((c) => (
+        <li>
+          <b>{c.who}</b>
+          <q>{c.ask}</q>
+          <p>{c.answer}</p>
+          <span class="links">{c.links.map((l) => <a href={l.href}>{l.label}</a>)}</span>
+        </li>
+      ))}
+    </ul>
+
+    <h2 id="agents">For your agent</h2>
+    <p>Every page has a markdown twin (the <code>.md</code> button on every page, <a href={`${base}about.md`}>this one included</a>), every section an <a href={`${base}llms.txt`}>llms.txt</a>, and the MCP server reads the same files: {MCP_TOOLS.join(", ")}.</p>
+    <pre><code>{MCP_COMMANDS.join("\n")}</code></pre>
+    <p>Without any install: <a href={`${base}llms.txt`}>llms.txt</a>, GitMCP and DeepWiki (badges in the <a href={REPO}>README</a>).</p>
+
+    <h2 id="counts">What is in it today</h2>
+    <ul class="counts">
+      {rows.map((r) => <li><a href={r.href}><b>{n(r.count)}</b> {r.label}</a><span>{r.text}</span></li>)}
+    </ul>
+
+    <h2 id="house">Housekeeping</h2>
+    <p class="meta">Last nightly: {run ? <>{run.date} ({run.status}, {n(run.items_changed)} items new or changed)</> : "none yet"}.</p>
+    <p class="meta">Code MIT, generated content CC BY 4.0; third-party material keeps its own terms. Unofficial; not affiliated with Microsoft.</p>
+    <p class="meta">
+      <a href={REPO}>Repository</a> · <a href={`${REPO}/blob/main/AGENTS.md`}>AGENTS.md</a> · <a href={`${REPO}/blob/main/docs/PLAN.md`}>Plan</a> ·
+      <a href={`${REPO}/blob/main/docs/RUNBOOK.md`}>Runbook</a> · <a href={`${REPO}/blob/main/CONTENT-NOTICE.md`}>Content notice</a> ·
+      <a href={`${REPO}/blob/main/sources.yaml`}>sources.yaml</a> · <a href={`${base}llms.txt`}>llms.txt</a> · <a href={`${base}rss.xml`}>RSS</a>
+    </p>
+  </div>
+</List>
+<style>
+  /* text stays at reading width; the two drawings and the card grid take the full 960 */
+  .about { max-width: 960px; }
+  .about > :global(p), .about > :global(ul:not(.cards):not(.counts)), .about > :global(h2) { max-width: 72ch; }
+  .about :global(h2) { scroll-margin-top: 16px; }
+  .cards { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .cards li { display: flex; flex-direction: column; gap: 6px; margin: 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); }
+  .cards b { font-size: 16px; }
+  .cards q { font: 500 14px var(--font-mono); color: var(--accent); }
+  .cards p { margin: 0; color: var(--text-2); font-size: 14px; flex: 1 1 auto; }
+  .cards .links { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 14px; }
+  .counts { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 6px 20px; }
+  .counts li { margin: 0; display: grid; gap: 2px; font-size: 14px; }
+  .counts a { text-decoration: none; color: var(--text); }
+  .counts a:hover { text-decoration: underline; }
+  .counts b { font-variant-numeric: tabular-nums; }
+  .counts span { color: var(--muted); }
+  .about pre { max-width: 100%; overflow-x: auto; }
+</style>

@@ -10,9 +10,7 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **About page, D83** (`docs/specs/about-page.md`, M21). Status: proposed 2026-10-08, nothing implemented. Start with
-  task 1 (the copy file, `site/src/lib/about.ts` and the six tests, red). Until it lands, readers see no About entry in
-  the nav and the install commands only at the bottom of the home page.
+None.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -22,6 +20,12 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-08, live after the next good nightly:**
+- **About page, D83** (`docs/specs/about-page.md`, M21): `/about/` and `/about.md`, "About" last in the nav and behind
+  the wordmark's small line, the owner's Who and Why (`site/src/about/about.md`, hand-written, pinned by test), the
+  pipeline as a telescope and the galaxy key as inline SVG (`Telescope.astro`, `GalaxyKey.astro`, stacked under
+  1000 px), seven "for who" cards, the install commands under `#agents` (the home page lost its `<pre>`, the footer
+  links there), live counts, `llms.txt` "Start here". No content change, no nightly needed: live on the next Pages
+  build. Deviations in the spec's section 12.
 - **Derive on push, D81** (`docs/specs/derive-on-push.md`, M19): `npm run nightly -- --stages derive` reruns the
   render block (digests, sources, indexes, graph) on committed content, no ingest, no LLM, no run report, and commits
   `content: derive <date> (<sha>)`. `nightly.yml` runs it on a push to main touching `pipeline/link|render|lib/**`,

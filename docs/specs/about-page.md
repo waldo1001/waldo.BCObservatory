@@ -1,6 +1,6 @@
 # An About page in the top nav: who made this, why, how it runs (drawn), and who it is for
 
-Status: proposed, 2026-10-08. Decision: D83 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M21. Owner: waldo.
+Status: implemented, 2026-10-08 (section 12 records what was built and where it differs). Decision: D83 (appended 2026-10-08). Milestone: M21. Owner: waldo.
 Scope: a new static page `/about/` with a markdown twin `/about.md`; "About" as the tenth entry of the top nav and the
 target of the wordmark's "unofficial, made by waldo" line (`site/src/layouts/Base.astro`); two inline SVG components
 (the pipeline as a telescope, the galaxy key as a picture); the home page's "About, and for your agent" section
@@ -388,7 +388,31 @@ Changed: `site/src/layouts/Base.astro`, `site/src/pages/index.astro`, `site/src/
   "Open specs" to "Where things stand"; this file's section 12 renamed "Built, deviations" and filled; `AGENTS.md`
   and `README.md` lines added.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-08)
+
+Both phases shipped in one commit on `dev/about-page`, built and checked on a local Node 22 build (28,831 pages,
+1m 18s) served under the base path and driven with Playwright 1.63 from the scratchpad.
+
+- **Breakpoint 1000 px, not 760.** The wide telescope is 960 units wide; inside a 760 px column its 12.5 px labels
+  rendered at 9.9 px and six of them overflowed their boxes. The page column is now 960 px wide (`.about`), with the
+  text capped at 72ch, so the drawing renders 1:1 from 1000 px up; below that the stacked variant shows, capped at
+  480 px and centred. Measured smallest rendered label: 12.0 px at 1440, 11.9 at 1000, 14.4 at 999 and 760, 10.7 at
+  390 (the spec said 11; accepted). No label clips at any width (`fonts.mjs` in the session's scratchpad).
+- **Telescope labels shortened** to fit their boxes at 12.5 px mono: "605 topic hubs, from the Learn TOC",
+  "601 posts from 32 sources", "tree-sitter parses the code", "validators check every id", "evidence: URL, commit,
+  second", and the models box in four lines ("Haiku facts · Sonnet prose", "Opus review, which sets the state:",
+  "derived, unreviewed,", "reviewed, flagged"); the lens boxes are 124 high. A `{{pages}}` placeholder (the sum of the
+  ten counts) joined the contract.
+- **Galaxy key on one row** at 960 wide needed 12 px (not 13) and 18 px gaps; at 390 it lays out in three rows
+  (3 + 2 + 2). "lit this week" uses `--g-media-new`, the colour the canvas gives the week's media bodies.
+- **Header measured** on `/about/` and `/objects/table/18/`: the nav is one row of 21 px with ten entries at 1440 and
+  1024; the header is 73 px at 1440 and 121 px at 1024, the same as the previous build (72.5 / 120.5 with nine
+  entries: the search form wraps there, not the nav). "Localizations" stays.
+- **Tests were written with the code**, not red first; six tests, all green, in the full suite of 417.
+- The `about` collection with `glob({ base: "./src/about" })` worked; the fallback of 9 was not needed.
+- The twin's How section prints the telescope sentence, the four captions and the key sentence (section 2.3).
+
+### 12a. Edits applied to other files (were "proposed")
 
 **`docs/DECISIONS.md`, append:**
 

@@ -11,6 +11,7 @@ const repo = "https://github.com/waldo1001/waldo.BCObservatory";
 const nav = [
   ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
   ["videos", "Videos"], ["posts", "Posts"], ["changes", "Changes"], ["digests", "Weekly"], ["sources", "Sources"],
+  ["about", "About"], // D83
 ];
 // D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
 // galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half
@@ -36,7 +37,7 @@ const week = landed();
     {!bare && (
       <header class="site-header">
         <div class="wrap">
-          <a class="wordmark" href={base}>BC Observatory<small>unofficial, made by waldo</small></a>
+          <span class="wordmark"><a href={base}>BC Observatory</a><a class="sub" href={`${base}about/`}>unofficial, made by waldo</a></span>
           <nav class="site-nav" aria-label="Sections">
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
@@ -63,7 +64,7 @@ const week = landed();
           <p>BC Observatory is unofficial and not affiliated with Microsoft. Made by waldo, rebuilt every night.</p>
           <p>
             <a href={repo}>Repository</a> · code MIT, content CC BY 4.0 · <a href={`${base}llms.txt`}>llms.txt</a> ·
-            MCP: <code>npx bc-observatory</code> · <a href={`${base}code/versions/`}>Version lens</a> · <a href={`${base}code/deprecations/`}>Deprecation radar</a> · <a href={`${base}events/`}>Events</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
+            <a href={`${base}about/#agents`}>MCP server</a> · <a href={`${base}about/#agents`}>Claude Code plugin</a> · <a href={`${base}code/versions/`}>Version lens</a> · <a href={`${base}code/deprecations/`}>Deprecation radar</a> · <a href={`${base}events/`}>Events</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
             <a href={`${base}rss.xml`}>RSS</a> · <a href={`${repo}/issues`}>Report a problem</a>
           </p>
         </div>

@@ -1,0 +1,55 @@
+---
+/**
+ * The galaxy key as a picture (D83, docs/specs/about-page.md 4.4): the marks the canvas legend uses (Galaxy.astro
+ * `.g-legend`), drawn once with their names. Same tokens as the canvas; a two-row variant under 760 px.
+ */
+import { KEY_DESC } from "../lib/about";
+const items: [string, string][] = [["hub", "hub (a star)"], ["obj", "AL object"], ["tri", "video"], ["bar", "post"], ["cross", "crosses into another system"], ["com", "community ring"], ["week", "lit this week"]];
+const CH = 7.3, GAP = 18, MARK = 28; // 12 px JetBrains Mono is about 7.2 px per character
+function layout(maxW: number, rowH: number) {
+  const out: { kind: string; label: string; x: number; y: number }[] = [];
+  let x = 16, row = 0;
+  for (const [kind, label] of items) {
+    const w = MARK + label.length * CH;
+    if (x + w > maxW && x > 16) { x = 16; row++; }
+    out.push({ kind, label, x, y: rowH / 2 + row * rowH });
+    x += w + GAP;
+  }
+  return { out, rows: row + 1 };
+}
+const wide = layout(960, 56);
+const stacked = layout(400, 56);
+---
+<figure class="gkey" aria-label="The galaxy key">
+  {[{ k: "wide", L: wide, w: 960, rowH: 56 }, { k: "stacked", L: stacked, w: 400, rowH: 56 }].map(({ k, L, w, rowH }) => (
+    <svg class={k} viewBox={`0 0 ${w} ${L.rows * rowH}`} role="img" aria-labelledby={`gk-t-${k} gk-d-${k}`} xmlns="http://www.w3.org/2000/svg">
+      <title id={`gk-t-${k}`}>The galaxy key</title>
+      <desc id={`gk-d-${k}`}>{KEY_DESC}</desc>
+      {L.out.map((it) => (
+        <g class={`m ${it.kind}`} transform={`translate(${it.x},${it.y})`}>
+          {it.kind === "hub" && <circle cx="10" cy="0" r="7" />}
+          {it.kind === "obj" && <rect x="3" y="-7" width="14" height="14" rx="3" />}
+          {it.kind === "tri" && <polygon points="10,-8 18,6 2,6" />}
+          {it.kind === "bar" && <rect x="1" y="-2" width="18" height="4" rx="1" />}
+          {it.kind === "cross" && <line x1="-2" y1="0" x2="22" y2="0" />}
+          {it.kind === "com" && <circle cx="10" cy="0" r="8" />}
+          {it.kind === "week" && <><circle class="core" cx="10" cy="0" r="5" /><circle class="ring" cx="10" cy="0" r="10" /></>}
+          <text x={MARK} y="4.5">{it.label}</text>
+        </g>
+      ))}
+    </svg>
+  ))}
+</figure>
+<style>
+  .gkey { margin: 20px 0 8px; padding: 8px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .gkey svg { display: block; width: 100%; height: auto; font: 400 12px var(--font-mono); }
+  .gkey .stacked { display: none; max-width: 480px; margin: 0 auto; }
+  @media (max-width: 999px) { .gkey .wide { display: none; } .gkey .stacked { display: block; } }
+  .gkey text { fill: var(--text-2); }
+  .gkey .hub circle, .gkey .obj rect { fill: var(--text-2); }
+  .gkey .tri polygon, .gkey .bar rect { fill: var(--g-media); }
+  .gkey .cross line { stroke: var(--g-edge-cross); stroke-width: 1.5; stroke-dasharray: 4 3; }
+  .gkey .com circle { fill: none; stroke: var(--g-community); stroke-width: 1.5; stroke-dasharray: 3 3; }
+  .gkey .week .core { fill: var(--text-2); }
+  .gkey .week .ring { fill: none; stroke: var(--g-media-new); stroke-width: 2; }
+</style>

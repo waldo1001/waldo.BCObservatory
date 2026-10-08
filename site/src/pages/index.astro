@@ -3,7 +3,6 @@ import { getCollection } from "astro:content";
 import Base from "../layouts/Base.astro";
 import Galaxy from "../components/Galaxy.astro";
 import Badges from "../components/Badges.astro";
-import { latestRun } from "../lib/state";
 import { questions } from "../lib/questions";
 import { pageSystem, systemLabel } from "../lib/page";
 const [topics, features, objects, localizations, videos, posts, digests, sources, changes] = await Promise.all(
@@ -11,7 +10,6 @@ const [topics, features, objects, localizations, videos, posts, digests, sources
 );
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
-const run = latestRun();
 const digest = [...digests].sort((a, b) => b.id.localeCompare(a.id))[0];
 // newly lit: the newest videos and posts
 const dated = [...videos.map((e) => ({ e, dir: "videos" })), ...posts.map((e) => ({ e, dir: "posts" }))]
@@ -65,18 +63,12 @@ const sections = [
     </section>
 
     <section class="wrap block agents" aria-labelledby="agents">
-      <h2 class="section-title" id="agents">About, and for your agent</h2>
+      <h2 class="section-title" id="agents">About</h2>
       <p class="lead">
         Business Central from every angle at once: Microsoft Learn, the actual code, the roadmap, the sessions and the community
         blogs, woven into one knowledge base. Every claim points at its evidence. Built for AI agents first, and for you.
       </p>
-      <p>Every page has a markdown twin, every section an <a href={`${base}llms.txt`}>llms.txt</a>, and there is an MCP server over the same files.</p>
-      <pre><code>claude mcp add bc-observatory -- npx -y bc-observatory@latest
-claude plugin marketplace add waldo1001/waldo.BCObservatory</code></pre>
-      <p class="meta">
-        {run ? <>Last nightly {run.date}: {run.status}, {n(run.items_changed)} items new or changed. </> : null}
-        Open source: <a href={repo}>the repository</a>, <a href={`${repo}/blob/main/AGENTS.md`}>AGENTS.md</a>, <a href={`${repo}/blob/main/sources.yaml`}>the source registry</a>.
-      </p>
+      <p>Who made this, why, how it runs and who it is for: <a href={`${base}about/`}>About BC Observatory</a>. For your agent: the MCP server and the Claude Code plugin are explained there too (<a href={`${base}about/#agents`}>the two commands</a>).</p>
     </section>
   </main>
 </Base>
@@ -88,5 +80,4 @@ claude plugin marketplace add waldo1001/waldo.BCObservatory</code></pre>
   .cards a:hover { border-color: var(--line-strong); }
   .cards b { font-size: 17px; }
   .cards p { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: 14px; }
-  .agents pre { max-width: 760px; }
 </style>

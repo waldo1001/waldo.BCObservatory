@@ -749,3 +749,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the hash (list pages keep theirs in the query: events, atlas, search), kind pills and deep links from the Upcoming
   page and the change page breadcrumb (later), hiding the pills without JavaScript (an inert pressed pill tells the
   truth). Spec: `docs/specs/changes-repo-pills.md`.
+- **D83 The site explains itself on one page, in the owner's voice.** `/about/` is the tenth nav entry and the target
+  of the wordmark's "unofficial, made by waldo"; it holds the owner's first-person Who and Why, the pipeline drawn as a
+  telescope and the galaxy key as a picture (both inline SVG on the design tokens, a stacked variant under 1000 px),
+  seven "for who" cards pairing a real question with the page that answers it, the install commands under `#agents`,
+  live counts and the housekeeping lines. The prose is one hand-written file, `site/src/about/about.md` (the `about`
+  collection), rendered by the page and served as `/about.md`; never under `content/`, no tier or review badge, a
+  byline that says the owner wrote it; `tests/unit/about.test.ts` pins the owner's corrections (no Hodor, no ALOps).
+  The home page's About section is a pointer; the footer links "MCP server" and "Claude Code plugin" to `#agents`;
+  `llms.txt` lists About first under "Start here". Rejected: a photo; the text under `content/`; strings in the Astro
+  page; About in the footer only; a model-written bio; commands in the footer; hard-coded counts; `Page.astro`.
+  Spec: `docs/specs/about-page.md`.

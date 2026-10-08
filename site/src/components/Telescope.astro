@@ -1,0 +1,86 @@
+---
+/**
+ * The pipeline drawn as a telescope (D83, docs/specs/about-page.md 4.3): five sources on the left, the lens (the
+ * deterministic stage, then the models) in the middle, two mirrors (the site, the MCP server) on the right. Inline
+ * SVG on the design tokens, so it follows the theme. A stacked variant replaces it under 760 px (CSS only).
+ */
+import { TELESCOPE_DESC, totalPages, type AboutCounts } from "../lib/about";
+interface Props { counts: AboutCounts }
+const { counts } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const n = (x: number) => x.toLocaleString("en");
+interface Node { x: number; y: number; w: number; h: number; title: string; subs: string[]; href?: string; kind: "source" | "lens" | "model" | "mirror" }
+const sources = (x: number, w: number, y0: number, step: number): Node[] => [
+  { title: "Microsoft Learn", subs: [`${n(counts.topics)} topic hubs, from the Learn TOC`], href: `${base}topics/` },
+  { title: "microsoft/BCApps", subs: [`${n(counts.objects)} AL objects, BC28 to BC30`], href: `${base}objects/` },
+  { title: "Microsoft 365 roadmap", subs: [`${n(counts.features)} features with their status`], href: `${base}features/` },
+  { title: "YouTube", subs: [`${n(counts.videos)} videos, timestamped`], href: `${base}videos/` },
+  { title: "Community blogs", subs: [`${n(counts.posts)} posts from ${n(counts.sources)} sources`], href: `${base}sources/` },
+].map((s, i) => ({ ...s, x, y: y0 + i * step, w, h: 46, kind: "source" as const }));
+const lensA = (x: number, y: number, w: number): Node => ({ x, y, w, h: 124, kind: "lens", title: "Deterministic first",
+  subs: ["tree-sitter parses the code", "validators check every id", "evidence: URL, commit, second"] });
+const lensB = (x: number, y: number, w: number): Node => ({ x, y, w, h: 124, kind: "model", title: "Models, only on what changed",
+  subs: ["Haiku facts · Sonnet prose", "Opus review, which sets the state:", "derived, unreviewed,", "reviewed, flagged"] });
+const mirrors = (x: number, w: number, y1: number, y2: number): Node[] => [
+  { x, y: y1, w, h: 78, kind: "mirror", title: "The site", subs: [`${n(totalPages(counts))} pages, the galaxy,`, "a markdown twin per page"], href: base },
+  { x, y: y2, w, h: 78, kind: "mirror", title: "The MCP server and the plugin", subs: ["npx bc-observatory", "llms.txt per section"], href: "#agents" },
+];
+const wide = { vb: "0 0 960 400", sources: sources(16, 280, 24, 68), a: lensA(336, 44, 272), b: lensB(336, 196, 272), mirrors: mirrors(656, 288, 72, 236) };
+const stacked = { vb: "0 0 400 880", sources: sources(16, 368, 28, 58), a: lensA(16, 356, 368), b: lensB(16, 500, 368), mirrors: mirrors(16, 368, 660, 772) };
+const mid = (nd: Node) => ({ x: nd.x + nd.w / 2, y: nd.y + nd.h / 2 });
+const caption = "nightly · Mac Mini · Claude subscription · no API keys";
+---
+<figure class="telescope" aria-label="The pipeline">
+  {[{ k: "wide", L: wide }, { k: "stacked", L: stacked }].map(({ k, L }) => (
+    <svg class={k} viewBox={L.vb} role="img" aria-labelledby={`tele-t-${k} tele-d-${k}`} xmlns="http://www.w3.org/2000/svg">
+      <title id={`tele-t-${k}`}>How BC Observatory is built: the pipeline as a telescope</title>
+      <desc id={`tele-d-${k}`}>{TELESCOPE_DESC}</desc>
+      <g class="light" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-opacity=".55">
+        {k === "wide"
+          ? L.sources.map((s) => <path d={`M${s.x + s.w},${s.y + s.h / 2} C${s.x + s.w + 30},${s.y + s.h / 2} ${L.a.x - 30},${mid(L.a).y} ${L.a.x},${mid(L.a).y}`} />)
+          : <path d={`M${mid(L.sources[4]).x},${L.sources[4].y + L.sources[4].h} V${L.a.y}`} />}
+        <path d={`M${mid(L.a).x},${L.a.y + L.a.h} V${L.b.y}`} />
+        {k === "wide"
+          ? L.mirrors.map((m) => <path d={`M${L.b.x + L.b.w},${mid(L.b).y} C${L.b.x + L.b.w + 40},${mid(L.b).y} ${m.x - 40},${mid(m).y} ${m.x},${mid(m).y}`} />)
+          : <>
+              <path d={`M${mid(L.b).x},${L.b.y + L.b.h} V${L.mirrors[0].y}`} />
+              <path d={`M${L.b.x + L.b.w},${L.b.y + L.b.h - 12} H${L.b.x + L.b.w + 8} V${mid(L.mirrors[1]).y} H${L.mirrors[1].x + L.mirrors[1].w}`} />
+            </>}
+      </g>
+      {k === "wide" && (
+        <g class="col" fill="var(--muted)" font-size="12">
+          <text x="16" y="14">LIGHT IN · the sources</text>
+          <text x="336" y="14">THE LENS · every night</text>
+          <text x="656" y="14">THE MIRRORS · what you read</text>
+        </g>
+      )}
+      {[...L.sources, L.a, L.b, ...L.mirrors].map((nd) => {
+        const body = (
+          <g class={`node ${nd.kind}`}>
+            <rect x={nd.x} y={nd.y} width={nd.w} height={nd.h} rx="8" />
+            <text class="t" x={nd.x + 12} y={nd.y + 20}>{nd.title}</text>
+            {nd.subs.map((s, i) => <text class="s" x={nd.x + 12} y={nd.y + 38 + i * 17}>{s}</text>)}
+          </g>
+        );
+        return nd.href ? <a href={nd.href}>{body}</a> : body;
+      })}
+      <text class="cap" x={mid(L.a).x} y={k === "wide" ? 388 : 868} text-anchor="middle">{caption}</text>
+    </svg>
+  ))}
+</figure>
+<style>
+  .telescope { margin: 16px 0 8px; }
+  .telescope svg { display: block; width: 100%; height: auto; font-family: var(--font-mono); }
+  .telescope .stacked { display: none; max-width: 480px; margin: 0 auto; }
+  /* below 1000 px the wide drawing would render its 12.5 px labels under 10 px: the stacked one takes over */
+  @media (max-width: 999px) { .telescope .wide { display: none; } .telescope .stacked { display: block; } }
+  .telescope .node rect { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1.25; }
+  .telescope .node.model rect { stroke: var(--g-media); }
+  .telescope .node.mirror rect { stroke: var(--accent); }
+  .telescope .node .t { fill: var(--text); font: 600 15px var(--font-ui); }
+  .telescope .node .s { fill: var(--text-2); font-size: 12.5px; }
+  .telescope a .node rect:hover { stroke: var(--text-2); }
+  .telescope a { text-decoration: none; }
+  .telescope .cap { fill: var(--muted); font-size: 12px; }
+  .telescope .col { font-weight: 500; letter-spacing: .04em; }
+</style>

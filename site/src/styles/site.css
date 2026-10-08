@@ -20,8 +20,10 @@ img { max-width: 100%; }
 /* header */
 .site-header { border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-top: 14px; padding-bottom: 14px; }
-.wordmark { color: var(--text); text-decoration: none; font-weight: 700; font-size: 19px; letter-spacing: -0.01em; }
-.wordmark small { display: block; color: var(--muted); font: 400 12px var(--font-mono); letter-spacing: 0; }
+.wordmark { color: var(--text); font-weight: 700; font-size: 19px; letter-spacing: -0.01em; }
+.wordmark a { color: inherit; text-decoration: none; }
+.wordmark .sub { display: block; color: var(--muted); font: 400 12px var(--font-mono); letter-spacing: 0; } /* D83: links to /about/ */
+.wordmark .sub:hover { text-decoration: underline; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 14px; flex: 1 1 auto; }
 .site-nav a { color: var(--text-2); text-decoration: none; }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--text); text-decoration: underline; }
