@@ -1,7 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { captionOf, captionText } from "../../pipeline/render/object.js";
-import { majorsText, pageRecord, pathLabel } from "../../pipeline/render/search.js";
+import { mkdtempSync, readFileSync, readdirSync, statSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { writeText } from "../../pipeline/lib/fsx.js";
+import { sha256 } from "../../pipeline/lib/text.js";
+import { kindOfType, majorsText, pageRecord, pathLabel, renderSearchIndex } from "../../pipeline/render/search.js";
 
 test("a hub's record says where it sits, how big it is and whether its narrative was reviewed (D65 5.1)", () => {
   const r = pageRecord("topics/business-central/business-functionality/sales/subscription-billing", {
@@ -84,4 +89,35 @@ test("objects carry their name, namespace, system, majors, inbound and subscribe
   assert.equal(be.inbound, 0);
   assert.equal(majorsText(["29"]), "29");
   assert.equal(majorsText(undefined), null);
+});
+
+test("shards split by kind under content-hashed names; the manifest says which; old and stale shards are swept (D86 4.3)", () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-idx-"));
+  const content = join(root, "content"), data = join(root, "data"), dir = join(data, "index");
+  const page = (p: string, fm: Record<string, unknown>) => writeText(join(content, `${p}.md`), `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n\n# x\n`);
+  page("topics/a", { type: "topic", title: "A", summary: "", tier: "official" });
+  page("features/1", { type: "feature", title: "F", summary: "", tier: "official" });
+  page("releases/al-18.0", { type: "release", title: "AL Language extension 18.0", summary: "", tier: "official" });
+  page("videos/v", { type: "video", title: "V", summary: "", tier: "official" });
+  page("changes/bcapps/1", { type: "change", title: "C", summary: "", tier: "official" });
+  page("objects/table/18", { type: "object", title: 'Table 18 "Customer"', summary: "", tier: "official", object_type: "table", object_id: 18, name: "Customer" });
+  writeText(join(dir, "pages-1.json"), "[]\n");
+  writeText(join(dir, "pages-objects-9-000000000000.json"), "[]\n");
+  writeText(join(dir, "objects.json"), "{}\n");
+  const m = renderSearchIndex(content, data);
+  assert.deepEqual(m.shards.map((s) => [s.kind, s.count]), [["hubs", 3], ["media", 2], ["objects", 1]]);
+  for (const s of m.shards) {
+    assert.match(s.file, s.kind === "objects" ? /^pages-objects-1-[0-9a-f]{12}\.json$/ : new RegExp(`^pages-${s.kind}-[0-9a-f]{12}\\.json$`));
+    const text = readFileSync(join(dir, s.file), "utf8");
+    assert.equal(s.file.slice(-17, -5), sha256(text).slice(0, 12), "the name carries the content's hash");
+    assert.equal(s.sha256, sha256(text));
+  }
+  assert.deepEqual(JSON.parse(readFileSync(join(dir, m.shards[0].file), "utf8")).map((r: { type: string }) => r.type).sort(), ["feature", "release", "topic"], "a release (D85) is a starting point");
+  const names = readdirSync(dir).sort();
+  assert.ok(!names.includes("pages-1.json") && !names.includes("pages-objects-9-000000000000.json"), "old and stale shards are gone");
+  assert.ok(names.includes("objects.json"), "other index files stay");
+  assert.equal(kindOfType("digest"), "hubs");
+  const before = readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]);
+  renderSearchIndex(content, data);
+  assert.deepEqual(readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]), before, "a quiet night rewrites nothing");
 });

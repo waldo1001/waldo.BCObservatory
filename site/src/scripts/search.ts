@@ -173,8 +173,11 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
   input.value = params.get("q") ?? "";
   let tab = tabOf(params.get("type"));
   status.textContent = "Loading the index...";
-  let index: Index;
-  try { index = await loadPages(base, ["hubs", "media", "objects"]); } catch { status.textContent = "The search index is not available right now."; return; }
+  // first paint after the hubs and media shards (D86 2.2); the AL objects fill in when their shards arrive
+  let index: Index, waiting = "";
+  try { index = await loadPages(base, ["hubs", "media"]); } catch { status.textContent = "The search index is not available right now."; return; }
+  waiting = "loading AL objects…";
+  const objects = loadPages(base, ["objects"]).then(() => { waiting = ""; run(); }).catch(() => { waiting = ""; run(); });
   const paintTabs = (counts: Map<string, number> | null) => {
     const all = counts ? [...counts.values()].reduce((a, c) => a + c, 0) : null;
     for (const b of tabs()) {
@@ -198,7 +201,7 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     const hits = search(index, q);
     const groups = groupHits(hits);
     paintTabs(new Map(groups.map((g) => [g.def.id, g.hits.length])));
-    status.textContent = statusLine(raw, groups);
+    status.textContent = `${statusLine(raw, groups)}${waiting ? ` (${waiting})` : ""}`;
     hintsEl.innerHTML = hintsHtml(shownHints(q, hits, hints(index, q, hits)), base);
     const html = (tab ? "" : exactHtml(q, hits, base)) + resultsHtml(groups, base, tab);
     out.innerHTML = html || (tab && groups.length ? `<p class="meta">No ${esc(GROUPS.find((g) => g.id === tab)?.label.toLowerCase() ?? "results")} for "${esc(raw)}". <button type="button" class="btn" data-all>Show all types</button></p>` : "");
@@ -233,4 +236,5 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     if (first) location.href = first.href;
   });
   run();
+  void objects;
 }

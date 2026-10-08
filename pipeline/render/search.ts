@@ -1,11 +1,12 @@
 /**
- * Search index for the MCP server and other agents (PLAN 4.7, D35): data/index/pages-<n>.json + index-manifest.json.
+ * Search index for the site, the MCP server and other agents (PLAN 4.7, D35, D86): data/index/index-manifest.json and
+ * the page shards it lists, pages-hubs-<sha12>.json, pages-media-<sha12>.json and pages-objects-<n>-<sha12>.json.
  *
  * One record per content page (path, type, title, summary, tier, system, date, tags, plus a few type facts such as
- * object type/id, country, source), in shards of at most SHARD_BYTES, sorted by path so a quiet night rewrites
- * nothing. The manifest lists the shards with their sha256; clients fetch a shard only when its hash changed and build
- * their own MiniSearch index from the records (no coupling to MiniSearch's serialisation format). Pagefind serves the
- * site's own search later (M3 UI).
+ * object type/id, name, country, source, inbound references), in shards of at most SHARD_BYTES per kind, sorted by path
+ * so a quiet night rewrites nothing. The names carry the content's sha256, so a browser keeps a shard in Cache Storage
+ * until it changes, and the manifest lists each shard with its kind and hash. The site and the MCP rank the records
+ * with the shared scorer of packages/search (D86); the site searches its own index, Pagefind was never built.
  */
 import { relative, resolve } from "node:path";
 import matter from "gray-matter";
@@ -33,7 +34,11 @@ export interface PageRecord {
    *  (references, callers, pages, event subscribers, Learn pages) and its event subscribers, for ranking. */
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
 }
-export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string }[]; by_type: Record<string, number> }
+export type ShardKind = "hubs" | "media" | "objects";
+export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string; kind: ShardKind }[]; by_type: Record<string, number> }
+export const SHARD_KINDS: ShardKind[] = ["hubs", "media", "objects"];
+/** The shard a page type lives in (D86): starting points (hubs, apps, features, localizations, sources, digests, releases), media (videos, posts, code changes), AL objects. */
+export const kindOfType = (type: string): ShardKind => (type === "object" ? "objects" : type === "video" || type === "post" || type === "change" ? "media" : "hubs");
 
 const PATH_MAX = 40;
 /** A hub's TOC path above it, " › "-joined; longer than 40 characters keeps the last two parts. */
@@ -121,26 +126,32 @@ export function renderSearchIndex(contentDir: string, dataDir: string): IndexMan
   }
   records.sort((a, b) => a.path.localeCompare(b.path));
   const dir = resolve(dataDir, "index");
+  // D86: one set of shards per kind, so the site loads objects only when a query asks for them; content-hashed names,
+  // so a browser keeps a shard until it changes
   const shards: IndexManifest["shards"] = [];
-  let buf: PageRecord[] = [], size = 0;
-  const flush = () => {
-    if (!buf.length) return;
-    const file = `pages-${shards.length + 1}.json`;
-    const text = `${JSON.stringify(buf)}\n`;
-    const p = resolve(dir, file);
-    if (!exists(p) || readText(p) !== text) writeText(p, text);
-    shards.push({ file, count: buf.length, sha256: sha256(text) });
-    buf = []; size = 0;
-  };
-  for (const r of records) {
-    const n = JSON.stringify(r).length + 1;
-    if (size + n > SHARD_BYTES) flush();
-    buf.push(r); size += n;
+  for (const kind of SHARD_KINDS) {
+    const mine = records.filter((r) => kindOfType(r.type) === kind);
+    const parts: PageRecord[][] = [];
+    let buf: PageRecord[] = [], size = 0;
+    for (const r of mine) {
+      const n = JSON.stringify(r).length + 1;
+      if (size + n > SHARD_BYTES && buf.length) { parts.push(buf); buf = []; size = 0; }
+      buf.push(r); size += n;
+    }
+    if (buf.length) parts.push(buf);
+    parts.forEach((part, i) => {
+      const text = `${JSON.stringify(part)}\n`, sha = sha256(text);
+      // objects always carry their number (two files today); hubs and media only when they ever need a second file
+      const file = `pages-${kind}${kind === "objects" || parts.length > 1 ? `-${i + 1}` : ""}-${sha.slice(0, 12)}.json`;
+      const p = resolve(dir, file);
+      if (!exists(p)) writeText(p, text);
+      shards.push({ file, count: part.length, sha256: sha, kind });
+    });
   }
-  flush();
+  // sweep: unlisted page shards, the old unhashed pages-<n>.json among them
   for (const f of listFiles(dir, ".json")) {
     const name = f.slice(f.lastIndexOf("/") + 1);
-    if (/^pages-\d+\.json$/.test(name) && !shards.some((s) => s.file === name)) removeIfExists(f);
+    if (/^pages-.+\.json$/.test(name) && !shards.some((s) => s.file === name)) removeIfExists(f);
   }
   const by_type: Record<string, number> = {};
   for (const r of records) by_type[r.type] = (by_type[r.type] ?? 0) + 1;

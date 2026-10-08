@@ -48,8 +48,11 @@ export function liveText(h: SearchHits): string {
 }
 
 export function mountLiveSearch(input: HTMLInputElement, api: GalaxyApi, base: string): void {
-  let index: Promise<Index | null> | null = null;
-  const load = () => (index ??= loadPages(base, ["hubs", "media", "objects"]).catch(() => null));
+  // D86 2.2: hubs and media on focus; the objects when the query asks for one (a reference, a number, a type word) or
+  // the reader has typed three characters
+  let index: Promise<Index | null> | null = null, objects: Promise<Index | null> | null = null;
+  const load = () => (index ??= loadPages(base, ["hubs", "media"]).catch(() => null));
+  const loadObjects = () => (objects ??= loadPages(base, ["objects"]).catch(() => null));
   const live = document.createElement("span");
   live.className = "skip"; live.setAttribute("aria-live", "polite"); live.id = "q-live";
   input.insertAdjacentElement("afterend", live);
@@ -59,7 +62,11 @@ export function mountLiveSearch(input: HTMLInputElement, api: GalaxyApi, base: s
   const run = async () => {
     const q = input.value.trim();
     if (q.length < 2) { if (last) { last = ""; api.setSearch(null); live.textContent = ""; } return; }
-    const idx = await load();
+    let idx = await load();
+    if (idx && !objects) {
+      const pq = parse(q, idx);
+      if (q.length >= 3 || pq.ref || pq.number !== null || pq.types.length) idx = await loadObjects();
+    } else if (objects) idx = await objects;
     if (input.value.trim() !== q || !idx) return; // the reader kept typing
     last = q;
     const h = hitsFor(idx, q, api.hasStar, api.starFacts);
@@ -67,7 +74,7 @@ export function mountLiveSearch(input: HTMLInputElement, api: GalaxyApi, base: s
     live.textContent = liveText(h);
   };
   input.addEventListener("focus", () => { load(); });
-  input.addEventListener("input", () => { clearTimeout(timer); timer = window.setTimeout(run, 150); });
+  input.addEventListener("input", () => { clearTimeout(timer); timer = window.setTimeout(run, objects ? 150 : 300); });
   input.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { e.preventDefault(); if (input.value) { input.value = ""; last = ""; api.setSearch(null); live.textContent = ""; } else input.blur(); }
     if (e.key === "ArrowDown") { const first = document.querySelector<HTMLElement>("#g-panel .g-list button, #g-panel .g-list a"); if (first) { e.preventDefault(); first.focus(); } }

@@ -38,3 +38,15 @@ test("field: queries list the objects that have the field, exact name first", ()
   assert.deepEqual(findObjects(rows, "field:no.", fields).map((h) => h.note), ['field "no."', 'field "no."']);
   assert.deepEqual(pks("field:posting date"), [], "without the field index there is nothing to list yet");
 });
+
+test("the palette reads the shared index's object records: references with the ids that start with the digits, names, fields (D86 2.2)", async () => {
+  const { pageToRecord, prepare } = await import("@bc-observatory/search");
+  const { paletteHits } = await import("../../site/src/scripts/palette.js");
+  const o = (pk: string, id: number, name: string, over: Record<string, unknown> = {}) => ({ path: `objects/${pk}`, type: "object", title: `${pk.startsWith("table") ? "Table" : "Page"} ${id} "${name}"`, summary: "", tier: "official", object_type: pk.split("/")[0], object_id: id, name, app: "Base Application", namespace: "Microsoft.Sales.Customer", ...over });
+  const index = prepare([o("table/18", 18, "Customer", { inbound: 300 }), o("table/1800", 1800, "Customer Ledger Setup"), o("page/21", 21, "Customer Card"), o("table/18-be", 18, "Customer", { country: "be", app: "BE layer", title: 'Table 18 "Customer" (BE)' }),
+    { path: "topics/x", type: "topic", title: "Customer topics", summary: "", tier: "official" }].map(pageToRecord));
+  assert.deepEqual(paletteHits(index, "t18").map((h) => h.href), ["objects/table/18", "objects/table/18-be", "objects/table/1800"]);
+  assert.deepEqual(paletteHits(index, "customer").map((h) => h.href).slice(0, 2), ["objects/table/18", "objects/table/18-be"], "objects only, the base first");
+  assert.equal(paletteHits(index, "t18")[0].sub, "Base Application · Microsoft.Sales.Customer");
+  assert.deepEqual(paletteHits(index, "field:posting", { "posting date": ["page/21"] }).map((h) => [h.href, h.note]), [["objects/page/21", 'field "posting date"']]);
+});
