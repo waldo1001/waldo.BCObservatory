@@ -16,6 +16,12 @@ spec path, decision, milestone, status and where to start; a coding session take
   lands, readers see bare roadmap ids ("573253") on 6 source pages (58 on yt-microsoft) and in the Features tables of
   61 video pages.
 
+- **Week code changes**: `docs/specs/week-code-changes.md`, D80, M18. Status: proposed 2026-10-08, nothing
+  implemented. Start with section 5 (the failing `landed.json` tests in `tests/unit/galaxy-layout.test.ts`), then
+  `landedChanges` in `pipeline/link/graph.ts` (phase A ships alone). Until it lands, the week's code changes (82 change
+  pages on 2026-10-08) appear in no "this week" view: not in the header pill, not in the galaxy's lens, and `/changes/`
+  has no nav entry.
+
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
 edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
