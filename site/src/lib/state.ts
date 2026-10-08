@@ -15,10 +15,11 @@ export function latestRun(): RunSummary | null {
 }
 
 /** The week (data/graph/landed.json, D66): its videos and posts, and its code changes (D80), for the header pill (D70). */
-export function landed(p = join(DATA, "graph", "landed.json")): { anchor: string | null; count: number; changes: number } {
-  if (!existsSync(p)) return { anchor: null, count: 0, changes: 0 };
+export function landed(p = join(DATA, "graph", "landed.json")): { anchor: string | null; count: number; changes: number; hasChanges: boolean } {
+  if (!existsSync(p)) return { anchor: null, count: 0, changes: 0, hasChanges: false };
   const j = JSON.parse(readFileSync(p, "utf8")) as { anchor?: string | null; items?: unknown[]; changes?: unknown[] };
-  return { anchor: j.anchor ?? null, count: j.items?.length ?? 0, changes: j.changes?.length ?? 0 };
+  // D81: hasChanges is false while the pipeline has not computed the week's changes yet (no key), true for []
+  return { anchor: j.anchor ?? null, count: j.items?.length ?? 0, changes: j.changes?.length ?? 0, hasChanges: Array.isArray(j.changes) };
 }
 
 function countJson(dir: string): number {

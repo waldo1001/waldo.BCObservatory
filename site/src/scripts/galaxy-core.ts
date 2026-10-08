@@ -92,6 +92,11 @@ export function pickerRows<N>(
 /** D80: the kinds of the this-week lens, in pill order: videos, posts, code changes. */
 export type WeekKind = "v" | "p" | "c";
 export const WEEK_KINDS: readonly WeekKind[] = ["v", "p", "c"];
+/**
+ * D81: the pills the week offers. Without a `changes` key landed.json predates the code that computes the week's
+ * changes: that is "not computed yet", not "no changes", so there is no Code pill rather than a false "Code 0".
+ */
+export const weekPills = (hasCode: boolean): readonly WeekKind[] => (hasCode ? WEEK_KINDS : WEEK_KINDS.filter((k) => k !== "c"));
 /** The hash's `kinds=` ("c", "v,p"): unknown letters dropped; empty, missing or all unknown means all three. */
 export const parseKinds = (s: string | null | undefined): Set<WeekKind> => parsePills(s, WEEK_KINDS);
 /** The hash value for the pills: null when all three are on (the hash leaves `kinds` out), else the letters in pill order. */

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -100,6 +100,11 @@ test("this-week pills (D80): parse, write and toggle the kinds; the last pill ne
   assert.deepEqual([...toggleKind(new Set(["c"]), "c")].sort(), ["c", "p", "v"]);
   assert.deepEqual([...toggleKind(new Set(["v"]), "c")].sort(), ["c", "v"]);
   assert.deepEqual([...parseHash("#lens=landed&kinds=c")], [["lens", "landed"], ["kinds", "c"]]);
+});
+
+test("week pills (D81): the Code pill only when landed.json computed the week's changes", () => {
+  assert.deepEqual(weekPills(false), ["v", "p"]);
+  assert.deepEqual(weekPills(true), ["v", "p", "c"]);
 });
 
 test("week code groups (D80): tooling by repo, breaking first, then feature, fix, the rest other", () => {

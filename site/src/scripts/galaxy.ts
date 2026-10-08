@@ -53,7 +53,8 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu, WEEK_KINDS, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
+import { groupChanges, landedRingsOn, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -145,7 +146,10 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     return new Set(g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id));
   })();
   // D80: the this-week pills (videos, posts, code) decide which stars the lens lights; the hash carries them as kinds=
-  let weekKinds = new Set<WeekKind>(WEEK_KINDS);
+  // D81: no `changes` key = the week's code changes are not computed yet: Videos and Posts only, no "Code 0"
+  const hasCode = Array.isArray(week.changes);
+  const weekAll = weekPills(hasCode);
+  let weekKinds = new Set<WeekKind>(weekAll);
   const weekTotals: Record<WeekKind, number> = { v: week.items.filter((i) => i[1] === "v").length, p: week.items.filter((i) => i[1] === "p").length, c: weekChanges.length };
   let lit = new Set<string>();
   const computeLit = () => {
@@ -904,7 +908,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   /** The week's changes in a system (or all); the system of a change is its page's `system`. */
   const changesIn = (sys: string | null) => weekChanges.filter((c) => !sys || c[5] === sys);
   /** "and N code changes →" under the media of the week, outside the lens: opens the lens on the Code pill. */
-  const codeLine = (sys: string | null) => { const n = changesIn(sys).length; return n ? `<p class="g-meta"><a href="#lens=landed&amp;kinds=c${sys ? `&amp;system=${esc(sys)}` : ""}">and ${n} code ${n === 1 ? "change" : "changes"} →</a></p>` : ""; };
+  const codeLine = (sys: string | null) => { const n = hasCode ? changesIn(sys).length : 0; return n ? `<p class="g-meta"><a href="#lens=landed&amp;kinds=c${sys ? `&amp;system=${esc(sys)}` : ""}">and ${n} code ${n === 1 ? "change" : "changes"} →</a></p>` : ""; };
   /** Media titles: this week's from landed.json, the rest from the ego graph of the open star; the id is the fallback. */
   const mediaTitle = new Map<string, string>(week.items.filter((i) => i[4]).map((i) => [i[0], i[4]!]));
   const targetRow = (t: Target) => {
@@ -929,7 +933,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const pill = (k: WeekKind, label: string, shape: string) => `<button type="button" class="g-kind-pill" data-kind="${k}" aria-pressed="${weekKinds.has(k)}"${pillDisabled(weekKinds.has(k), counts[k]) ? " disabled" : ""}><span class="g-shape ${shape}" aria-hidden="true"></span>${label} <small>${counts[k]}</small></button>`;
     const media = weekKinds.has("v") || weekKinds.has("p") ? landedRows((hubs, k) => (weekKinds.has(k as WeekKind)) && (!sys || hubs.some((h) => byId.get(h)?.group === sys))) : "";
     const code = weekKinds.has("c") ? changesIn(sys) : [];
-    return `<div class="g-kinds" role="group" aria-label="What landed">${pill("v", "Videos", "tri")}${pill("p", "Posts", "bar")}${pill("c", "Code", "dia")}</div>
+    return `<div class="g-kinds" role="group" aria-label="What landed">${pill("v", "Videos", "tri")}${pill("p", "Posts", "bar")}${hasCode ? pill("c", "Code", "dia") : ""}</div>
       ${media ? `<h3>Videos and posts</h3>${media}` : ""}
       ${code.length ? `<h3>Code changes</h3>${codeGroups(code)}<p class="g-meta"><a href="${esc(base)}changes/week/">This week's changes on one page →</a></p>` : ""}`;
   };
@@ -1099,7 +1103,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     panelBody.querySelector("[data-clear-lens]")?.addEventListener("click", () => setLens("", true));
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-kind]")) b.addEventListener("click", () => {
       const k = b.dataset.kind as WeekKind;
-      weekKinds = toggleKind(weekKinds, k); computeLit(); setLens("landed", true);
+      weekKinds = togglePill(weekKinds, k, weekAll); computeLit(); setLens("landed", true);
       panelBody.querySelector<HTMLElement>(`[data-kind="${k}"]`)?.focus();
     });
     for (const d of panelBody.querySelectorAll<HTMLDetailsElement>("details[data-group]")) d.addEventListener("toggle", () => saveGroup(d.dataset.group as CodeGroup, d.open));
@@ -1172,7 +1176,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const parts: string[] = [];
     if (lens?.search) parts.push(`q=${encodeURIComponent(lens.search)}`);
     else if (lens) parts.push(`lens=${encodeURIComponent(lens.id)}`);
-    const kp = lens?.id === "landed" ? kindsParam(weekKinds) : null;
+    const kp = lens?.id === "landed" ? pillsParam(weekKinds, weekAll) : null;
     if (kp) parts.push(`kinds=${kp}`);
     if (level === 2 && focusSys) parts.push(`system=${focusSys.id}`);
     if (level === 3 && focusStar) parts.push(`star=${encodeURIComponent(focusStar.id)}`);
@@ -1365,7 +1369,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const pick = l?.startsWith("pick:") ? l.slice(5) : null;
     if (l && !pick && lensById.has(l)) {
       lens = null;
-      if (l === "landed") { weekKinds = usableKinds(parseKinds(h.get("kinds")), weekTotals); computeLit(); }
+      if (l === "landed") { weekKinds = usablePills(parsePills(h.get("kinds"), weekAll), weekTotals, weekAll); computeLit(); }
       if (star) { level = 3; focusSys = sysById.get(star.group) ?? null; focusStar = star; }
       else if (sys) { level = 2; focusSys = sys; focusStar = null; }
       setLens(l, !!(star || sys));

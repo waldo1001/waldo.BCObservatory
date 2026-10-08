@@ -10,13 +10,16 @@ const base = import.meta.env.BASE_URL;
 const p = resolve(process.cwd(), "..", "data", "graph", "landed.json");
 const week = (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : {}) as { anchor?: string | null; days?: number; changes?: LandedChange[] };
 const rows = week.changes ?? [];
+// D81: no `changes` key means the pipeline has not computed this week's list yet, which is not the same as none
+const computed = Array.isArray(week.changes);
 const pages = new Map((await getCollection("changes")).map((c) => [`change/${c.id}`, c]));
 const LABEL: Record<string, string> = { breaking: "Breaking", features: "Features", fixes: "Fixes", other: "Other", tooling: "Tooling (AL-Go, BCQuality)" };
 const span = week.anchor ? `the ${week.days ?? 7} days up to ${week.anchor}` : "the last 7 days";
 ---
 <List section="changes" title="Code changes this week · BC Observatory" description={`Change pages merged in ${span}, grouped by kind.`}>
   <p class="eyebrow"><a href={`${base}changes/`}>Code changes</a> / this week</p>
-  <h1>{rows.length} code {rows.length === 1 ? "change" : "changes"} in {span}</h1>
+  <h1>{computed ? `${rows.length} code ${rows.length === 1 ? "change" : "changes"} in ${span}` : `Code changes in ${span}`}</h1>
+  {!computed && <p class="meta">This week's list is computed by the pipeline after the code that produces it lands; until then see <a href={`${base}changes/`}>all changes</a>.</p>}
   <p class="lede">Change pages of Microsoft's Business Central repositories merged in {span}, the same week as the galaxy's <a href={`${base}#lens=landed&kinds=c`}>this-week lens</a>. Pull requests without a page (bots, backports, no source change) are counted in the <a href={`${base}digests/`}>weekly digest</a>. All changes: <a href={`${base}changes/`}>Code changes</a>.</p>
   {groupChanges(rows).map(({ group, rows: rs }) => (
     <section>
