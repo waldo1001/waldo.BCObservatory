@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T13:26:00.585Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 974d582e8056096fa994097e6f93822fc4534f11d85a1e8fab5d7d71a034115e
@@ -149,7 +149,7 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [573329](../features/573329.md)
+- [Use conditional visibility in the updated Word add-in](../features/573329.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

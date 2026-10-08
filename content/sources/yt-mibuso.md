@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T13:26:00.585Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: efac43569ff2ebea3592edcd4be549e5e64a65c2b00a0455580eec71f4ba783d
@@ -165,11 +165,11 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [573255](../features/573255.md)
-- [573333](../features/573333.md)
-- [573338](../features/573338.md)
-- [573352](../features/573352.md)
-- [573362](../features/573362.md)
+- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 2 videos
+- [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 1 video
+- [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 1 video
+- [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
+- [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T13:26:00.585Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 33e420f45e16ff99d00d15c0f6aff79c8513e235f740e26069cb142c73f783db
@@ -157,8 +157,8 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [573315](../features/573315.md)
-- [573332](../features/573332.md)
+- [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
+- [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

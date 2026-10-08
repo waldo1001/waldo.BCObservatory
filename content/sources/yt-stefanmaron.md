@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T13:26:00.585Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: aad70dfa46819c3936a580bd7499838a9aa68716a2cf1b26f56bab0ae3034efc
@@ -139,7 +139,7 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [573351](../features/573351.md)
+- [Track AL compiler diagnostics in automated builds](../features/573351.md): Development, generally available, GA 2026-10, 1 video
 
 ## Most recent
 

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T13:26:00.585Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8af0d1e32430f50e51aca9a447630c1b257eb1d6530bea4d3d44ab4397156ad0
@@ -186,19 +186,19 @@ Items per quarter, oldest first:
 
 ## Roadmap features it demonstrates
 
-- [573304](../features/573304.md)
-- [573312](../features/573312.md)
-- [573313](../features/573313.md)
-- [573315](../features/573315.md)
-- [573316](../features/573316.md)
-- [573322](../features/573322.md)
-- [573332](../features/573332.md)
-- [573352](../features/573352.md)
-- [573354](../features/573354.md)
-- [573357](../features/573357.md)
-- [573362](../features/573362.md)
-- [573368](../features/573368.md)
-- [573371](../features/573371.md)
+- [Access application links through ModuleInfo](../features/573354.md): Development, generally available, GA 2026-10, 1 video
+- [Actions on reports and pages can now inherit tooltips](../features/573313.md): Development, generally available, GA 2026-10, 1 video
+- [Administrators can turn SIFT indexes on/off](../features/573316.md): Governance and administration, generally available, GA 2026-10, 1 video
+- [Calculate withholding tax automatically in expense reports](../features/573304.md): Expense Agent, in preview, GA 2027-04, 1 video
+- [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
+- [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 1 video
+- [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
+- [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
+- [Restrict global symbol resolution to a minor version](../features/573357.md): Development, generally available, GA 2026-10, 1 video
+- [Run data queries with MCP Server](../features/573312.md): Copilot and agents, generally available, GA 2026-10, 1 video
+- [Show recently searched in Tell Me](../features/573371.md): User experiences, generally available, GA 2026-10, 1 video
+- [Show recently used in lookups](../features/573368.md): User experiences, generally available, GA 2026-10, 1 video
+- [Use system audit fields in analysis mode and in profiles](../features/573322.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 
 ## Most recent
 
