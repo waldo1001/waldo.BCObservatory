@@ -253,6 +253,11 @@ DECISIONS, M19 shipped in PLAN, the HANDOFF entry moved, the RUNBOOK paragraph, 
 - **The week page heading.** With the key missing the `h1` reads "Code changes in <span>" instead of "0 code changes
   in <span>", and the "computed by the pipeline" line follows it. With `changes: []` it reads "0 code changes in the
   7 days up to 2026-10-08" (checked on a build).
+- **The first derive on the Mini** (run 37784084107, dispatched by hand) was green in 3 min 45 s, not the "about a
+  minute" of section 1: `npm ci` and checkout about 1 min, the five render phases 48 s (sources 21 s, graph 9 s), the
+  leak gate before the commit about 70 s. It committed `content: derive 2026-10-08 (c3b25a23)` (d687e6dee1) with
+  section 1's diff exactly: `landed.json` with 82 changes and the 6 source pages. The `pages` run it started was
+  green, and the live `graph/landed.json` has 82 changes.
 - **Checked on the built site with headless Chromium** in all three cases: key missing (Videos 2 and Posts 18 pressed,
   no Code pill, `#lens=landed&kinds=c` opens on both and the hash drops `kinds`), 82 changes (three pills, the Code
   block), `changes: []` (three pills, "Code 0"). `scripts/ui-sweep.mjs`: 34 states, 0 squeezed rows.
