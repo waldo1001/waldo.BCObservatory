@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.212Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -257,7 +257,7 @@ narrative: generated
 
 > Finance built-in reports in Business Central: an overview of report categories, payables and receivables analytics, building financial reports from account categories, and sustainability reports. It answers questions about which finance reports exist and how to analyze vendor, customer and ledger data.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

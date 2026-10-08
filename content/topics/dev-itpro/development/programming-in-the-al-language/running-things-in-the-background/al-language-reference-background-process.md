@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1ae103645a3a5f146eb64c28d04e5ccef220750136548d2fbf8efdf1277fdfcd

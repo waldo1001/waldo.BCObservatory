@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:07.205Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -628,7 +628,7 @@ narrative: generated
 
 > General business functionality in Business Central: features shared across business areas, such as posting and batch posting, comments, extended text, archiving, email, tasks, job queues, general journals, and Excel export. Subtopics cover incoming documents, workflows and approvals, and electronic data exchange. It answers how-to and setup questions.
 
-Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > General business functionality · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

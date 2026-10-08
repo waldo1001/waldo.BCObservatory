@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:07.812Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -166,7 +166,7 @@ narrative: generated
 
 > Business Central on-premises update pages list cumulative updates, hotfixes and regulatory features per release wave. They answer which updates exist for versions 26, 27 and 28; the version 26 and 27 pages also give build numbers and support article references. An archive subtopic covers older versions 13 to 25 that no longer receive updates.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central on-premises updates · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:40.238Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -274,7 +274,7 @@ narrative: generated
 
 > Norwegian banking and payments in Business Central: remittance setup (agreements, accounts, vendors), creating, testing, exporting and cancelling vendor payments, handling return files and errors, OCR and KID customer payments, and EHF electronic invoicing. It answers setup and procedure questions for these Norway-specific processes.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

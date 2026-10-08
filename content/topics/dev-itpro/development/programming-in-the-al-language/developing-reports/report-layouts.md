@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -251,7 +251,7 @@ narrative: generated
 
 > Report layouts in Business Central cover Word, Excel, RDLC/RDL and custom layout types, plus how to create, assign, select and update them. It answers questions about designing layouts, defining multiple layouts in AL, barcodes, fonts, hyperlinks and custom renderers.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report layouts · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/",
+  "input_hash": "00584d833576de3748b72ed0338fea83fa77cd2f87cf7448a3a1b874a20a3388",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:46:31.368Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "The cleanup script actually removes older versions of every installed module, not only BCContainerHelper. The key point is still broadly accurate."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019891,
+    "posts_in_call": 4
+  }
+}

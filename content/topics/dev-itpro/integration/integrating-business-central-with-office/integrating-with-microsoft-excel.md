@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.718Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Integrating Business Central with Microsoft Excel covers viewing, editing, importing and reporting with Excel. It answers questions about Open in Excel and Edit in Excel, permission sets that control Edit in Excel, importing data through Excel or configuration packages, and Excel report layouts.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Excel · tier official · system reporting · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Excel · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

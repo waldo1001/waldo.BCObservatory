@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:08.949Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Microsoft Entra ID authentication for Business Central on-premises. It covers the available protocols (OpenID Connect and WS-Federation), how to configure each, and how they relate across versions. Use it to choose a method, set up single sign-on, or plan a migration.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Configuring user authentication](../configuring-user-authentication.md) > Authenticating with Microsoft Entra ID · tier official · system administration · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Configuring user authentication](../configuring-user-authentication.md) > Authenticating with Microsoft Entra ID · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

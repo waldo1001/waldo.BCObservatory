@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,8 +49,7 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos:
-    - video/EurgqGU1jG0
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -74,7 +73,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -86,7 +85,7 @@ narrative: generated
 
 > Testing best practices for Business Central extensions: a Customer Rewards sample extension built and then tested with the Application Test Toolkit, plus the testing steps required before Marketplace validation. It answers questions about writing test codeunits and about pre-submission checks.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Testing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -125,6 +124,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../../changes/bcquality/204.md) (code change): "Composed review validation now enforces that selected leaf worklists are executed in order"
 - [#62 Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)](../../../../../changes/bcquality/62.md) (code change): "Six new testing knowledge articles added to BCQuality covering UI handlers, table relations"
 - [#96 Add missing AL review leaf skills](../../../../../changes/bcquality/96.md) (code change): "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry"
-- [20260504 - Super fast tests covering 100% of your code](../../../../../videos/EurgqGU1jG0.md) (video): "automated testing; code coverage; interfaces; test patterns"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

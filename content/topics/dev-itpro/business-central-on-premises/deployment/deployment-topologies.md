@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:44.768Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Deployment topologies for Business Central on-premises: demonstration, single-computer, two-computer and three-computer setups. It answers questions about which components go on which machine and what pre-installation, installation and post-installation tasks each layout needs.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Deployment topologies · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Deployment topologies · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -24,7 +24,7 @@ review:
   flags:
     - quote-check
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,7 +189,7 @@ quotes:
 
 > Multiple VAT numbers for customers in Business Central (2024 release wave 2), in public preview and expected in version 25.0. Covers setup of alternative VAT registrations per country, use in sales documents, VAT entries, VAT return and settlement filters, and extensibility interfaces.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fdzTWZyT6mI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 17:46 · tier official · reviewed
+[Watch on YouTube](https://www.youtube.com/watch?v=fdzTWZyT6mI) · Microsoft Dynamics 365 Business Central (YouTube) · 2024-10-08 · 17:46 · tier official · reviewed (checked by Opus)
 
 ## Overview
 

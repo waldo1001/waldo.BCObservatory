@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -339,6 +339,7 @@ links:
   localizations: []
   videos:
     - video/eUkx_VCcyoU
+    - video/M1S2_bgLd3Q
   posts:
     - post/thinkaboutit-be/7181
   guidelines: []
@@ -372,7 +373,7 @@ children:
 coverage:
   learn: 54
   code: 12
-  video: 1
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -396,7 +397,7 @@ narrative: generated
 
 > Developing reports in AL for Business Central: report objects, datasets, layouts (Word, Excel, RDL), request pages, report extensions, substitution, obsoleting, telemetry, performance, testing and troubleshooting. It answers how to build, extend, format, expose, monitor and retire reports.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing reports · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -462,6 +463,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
+- [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
 
 ## Business Central pages and reports
 

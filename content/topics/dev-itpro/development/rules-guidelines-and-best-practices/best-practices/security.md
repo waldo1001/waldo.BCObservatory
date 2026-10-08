@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:29.082Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

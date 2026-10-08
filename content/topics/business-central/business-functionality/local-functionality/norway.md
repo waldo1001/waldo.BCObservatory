@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.637Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -403,7 +403,7 @@ narrative: generated
 
 > Norway local functionality in Business Central: VAT and SAF-T reporting, remittance and electronic banking, OCR/KID payments, EHF invoicing, recurring sales orders, payroll import, and applying entries in closed periods. It answers setup and how-to questions for Norway-specific processes.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Norway · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Norway · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

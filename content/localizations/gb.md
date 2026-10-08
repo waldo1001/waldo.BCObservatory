@@ -2,19 +2,19 @@
 id: localization/gb
 type: localization
 title: UnitedKingdom (GB)
-summary: United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and 13-period straight-line depreciation.
+summary: United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and straight-line depreciation over up to 13 accounting periods.
 tier: official
 language: en
 tags:
   - localization
   - gb
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:27:45.476Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -104,13 +104,13 @@ learn_folder: LocalFunctionality/UnitedKingdom
 
 # UnitedKingdom (GB)
 
-> United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and 13-period straight-line depreciation.
+> United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and straight-line depreciation over up to 13 accounting periods.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-kingdom.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-kingdom.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The UK layer adds 317 objects: 263 of its own and the rest changing W1 objects. The largest block is VAT reporting. Making Tax Digital (MTD) objects (codeunits 10530 to 10541, liability, payment and return tables, a fraud prevention header control add-in) handle HMRC connection, OAuth 2.0, period retrieval, return creation and submission, liabilities and payments. The older GovTalk codeunits and EC Sales List objects handle XML submission. Report 130 "EC Sales List" and table 747 "VAT Report Archive" gain procedures, fields and events for this.
+The UK layer adds 317 objects: 263 of its own and the rest changing W1 objects. The largest block is VAT reporting. Making Tax Digital (MTD) objects (codeunits 10530 to 10541, liability, payment and return tables, a fraud prevention header control add-in) handle HMRC connection, OAuth 2.0, period retrieval, return creation and submission, liabilities and payments. The GovTalk codeunits and EC Sales List objects handle XML submission. Report 130 "EC Sales List" and table 747 "VAT Report Archive" gain procedures, fields and events for this.
 
 Reverse charge VAT is supported by fields on items, item templates, sales and purchase lines, posted lines and the setup tables, plus checks in Sales-Post. Company Information gets statutory fields such as registered name and address and a supplementary VAT registration number. Address lookup is provided by two postcode providers (GetAddress.io and Ideal Postcodes, "IPC") with page extensions on many cards.
 

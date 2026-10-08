@@ -10,21 +10,21 @@ tags:
   - inventory
 system: inventory
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 97133fe992b631fa7a25c72dc5d815d51506ed128cfe696a383c8770bfeac2c5
+  input_hash: 6c15b4d043cb18b84676b8c3ee0c1b66c2475834c015f873df115b26cb5430e5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/SalesAndInventoryForecast/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SalesAndInventoryForecast/app
     title: src/Apps/W1/SalesAndInventoryForecast/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -172,4 +172,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 46656 | [D365 BASIC ISV - Sales and Inventory Forecast](../objects/permissionsetextension/46656.md) |  |
 | 48056 | [INTELLIGENT CLOUD - Sales and Inventory Forecast](../objects/permissionsetextension/48056.md) |  |
 
-Source: [src/Apps/W1/SalesAndInventoryForecast/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/SalesAndInventoryForecast/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SalesAndInventoryForecast/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SalesAndInventoryForecast/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

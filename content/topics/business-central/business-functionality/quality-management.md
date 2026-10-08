@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.464Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,6 @@ links:
   videos:
     - video/m8-7-JKq4dc
     - video/sqjb_gsXqM8
-    - video/WACQbAEVOJg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -132,7 +131,7 @@ children:
 coverage:
   learn: 11
   code: 7
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -151,7 +150,7 @@ narrative: generated
 
 > Quality management in Business Central is a Microsoft-published extension for automatic, manual, and scheduled quality inspections in purchasing, production, assembly, and warehouse processes. It answers questions about performing inspections, blocking lots, handling failed items, setup, and troubleshooting.
 
-Path: [Business functionality](../business-functionality.md) > Quality management · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Quality management · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -188,9 +187,8 @@ Further pages cover what happens after an inspection. They describe scheduled in
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "quality inspection; item tracking; non-compliant items; test results"
+- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
 - [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Quality Management Extension; Drop Shipment Process Enhancements; Purchase Order Matching"
-- [What's new in SCM: Overview (2026 release wave 2)](../../../videos/WACQbAEVOJg.md) (video): "quality management; routing; Quality inspection blocking transfers; Quality inspection auto-assignment recommendation"
 
 ## Business Central pages and reports
 

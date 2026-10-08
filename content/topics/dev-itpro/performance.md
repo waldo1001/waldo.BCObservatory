@@ -7,12 +7,12 @@ tier: official
 language: en
 system: platform
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -80,8 +80,7 @@ links:
   topics: []
   localizations: []
   videos:
-    - video/snVsG69X-kw
-    - video/XcQFvNnKpxk
+    - video/D7GxnNiGQ14
   posts:
     - post/demiliani-com/13096
     - post/duiliotacconi-com/1983
@@ -98,7 +97,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 2
+  video: 1
   blog: 6
   guideline: 0
 bc_forms: []
@@ -132,7 +131,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Manage Database Index Usage in Business Central.](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Disabling indexes reduces storage usage and improves insert/update/delete performance"
 - [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "reducing load on the primary database and improving overall performance"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../posts/waldo-be/318461.md) (community post): "Performance improved dramatically after the fix: query count dropped from 19,946 to 18"
-- [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "Load Balancing; VM scaling; Automatic VM Scale-Out; Database Scaling and Monitoring"
-- [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "performance testing before go-live with performance toolkit concurrency testing"
+- [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

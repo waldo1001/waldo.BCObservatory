@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:29.432Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > User-facing report handling in Business Central: running, previewing, printing, scheduling and saving reports, managing saved settings for reports and batch jobs, and choosing default printers. It answers how-to questions about report request pages, filters, layouts and printer selection.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > How users work with reports · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > How users work with reports · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

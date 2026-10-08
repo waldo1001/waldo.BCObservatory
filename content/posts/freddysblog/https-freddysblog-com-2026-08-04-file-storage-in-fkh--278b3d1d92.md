@@ -14,12 +14,12 @@ tags:
   - containers
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:48:09.664Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
 
 # File storage in Fkh (Freddy’s Kubernetes Helper)
 
-[Read the post](https://freddysblog.com/2026/08/04/file-storage-in-fkh/) · Freddys blog (Freddy Kristiansen) · 2026-08-04 · 946 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/04/file-storage-in-fkh/) · Freddys blog (Freddy Kristiansen) · 2026-08-04 · 946 words · tier community · reviewed (checked by Opus)
 
 > Fkh file storage provides versioned, authenticated file management in Azure blob storage for Business Central containers, eliminating the need for SAS URLs or secret credentials. It includes CLI commands for uploading, downloading, listing, and removing files with version control.
 

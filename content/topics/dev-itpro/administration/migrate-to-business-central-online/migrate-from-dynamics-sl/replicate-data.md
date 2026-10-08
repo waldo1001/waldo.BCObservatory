@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.597Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Data replication from Dynamics SL to Business Central online. It explains how replication works (large and small table flows, Azure BLOB storage, Azure Data Factory, change tracking) and how to run, monitor and troubleshoot it on the Cloud Migration Management page.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Replicate data · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Replicate data · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

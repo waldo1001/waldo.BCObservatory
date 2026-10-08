@@ -10,21 +10,21 @@ tags:
   - integration
 system: integration
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f73049c572a22a6938709cef5f3975cec777de85f32e045170221f20b4dac188
+  input_hash: d844c8641ece0ef577e0469bf39496afa98435193ec41831c5bedc3c04298128
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/FieldServiceIntegration/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/FieldServiceIntegration/app
     title: src/Apps/W1/FieldServiceIntegration/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -275,4 +275,4 @@ First-party app · folder `src/Apps/W1/FieldServiceIntegration/app` · namespace
 | 6619 | [FS D365 BUS PREMIUM](../objects/permissionsetextension/6619.md) |  |
 | 6620 | [FS D365 FULL ACCESS](../objects/permissionsetextension/6620.md) |  |
 
-Source: [src/Apps/W1/FieldServiceIntegration/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/FieldServiceIntegration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/FieldServiceIntegration/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/FieldServiceIntegration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

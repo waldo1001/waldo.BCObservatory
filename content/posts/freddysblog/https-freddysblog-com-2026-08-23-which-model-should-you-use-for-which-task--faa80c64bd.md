@@ -2,7 +2,7 @@
 id: post/freddysblog/https-freddysblog-com-2026-08-23-which-model-should-you-use-for-which-task--faa80c64bd
 type: post
 title: Which AI Model Should You Use for Which Task?
-summary: "A framework for matching AI models to tasks based on four dimensions: verifiability, task difficulty, cost and latency sensitivity, and consequence of a miss. Weaker models work well on verifiable, mechanical tasks with good harnesses and skills, while stronger models handle high-stakes, hard-to-verify work where judgment is essential."
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - reasoning models
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,17 +90,9 @@ preview:
 
 # Which AI Model Should You Use for Which Task?
 
-[Read the post](https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/) · Freddys blog (Freddy Kristiansen) · 2026-08-23 · 3747 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task/) · Freddys blog (Freddy Kristiansen) · 2026-08-23 · 3747 words · tier community · **flagged** (a review found a problem)
 
-> A framework for matching AI models to tasks based on four dimensions: verifiability, task difficulty, cost and latency sensitivity, and consequence of a miss. Weaker models work well on verifiable, mechanical tasks with good harnesses and skills, while stronger models handle high-stakes, hard-to-verify work where judgment is essential.
-
-## Key points
-
-- Verifiability is the master lever - if you can cheaply catch mistakes, you can use a weaker model
-- Match model tier to task profile: strong models for reasoning-heavy, poorly verifiable work; cheap models for mechanical, highly verifiable tasks run at volume
-- Harnesses (structured output, tools, retries, checks) and skills (pre-written runbooks) let you reach down to cheaper models by moving difficulty out of the model into the environment
-- The four dimensions - verifiability, difficulty, cost sensitivity, and consequence - often pull against each other; decompose tasks and use different models for different pieces when they conflict
-- Routing services and self-hosting offer alternatives to hard-coding one model, but keep high-stakes, unverifiable decisions under your own control while letting routers handle verifiable, low-stakes traffic
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

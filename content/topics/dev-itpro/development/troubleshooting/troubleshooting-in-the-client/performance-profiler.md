@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:35.052Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > The Performance Profiler section covers recording and analyzing business process performance in the Business Central client, and scheduling profiling for specific users and activity types. It answers questions about finding bottlenecks, reading call trees and time spent, and sharing or downloading profiles.
 
-Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting in the client](../troubleshooting-in-the-client.md) > Performance Profiler · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

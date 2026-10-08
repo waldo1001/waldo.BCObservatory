@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -240,7 +240,7 @@ narrative: generated
 
 > Inventory costing design details in Business Central: costing methods, cost components, item application, cost adjustment, expected cost posting, valuation, revaluation, variance, rounding, and reconciliation with the general ledger. It answers how costs are calculated, forwarded, adjusted and posted to G/L, including assembly and production orders.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Inventory costing · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Inventory costing · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

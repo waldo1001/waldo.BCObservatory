@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,7 @@ narrative: generated
 
 > Integrating Business Central with Power Apps: how to build apps on Business Central data, best practices for canvas apps, sample apps on GitHub, and application lifecycle management for Power Platform solutions. It answers questions on design, development and delivery of Power Apps solutions.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Apps · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Apps · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

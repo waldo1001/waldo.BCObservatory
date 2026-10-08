@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:09.127Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:09.166Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -130,7 +130,9 @@ features:
     status: ga
     t: 20
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573384"
   - name: Page scripting localization
     status: ga
     t: 73
@@ -220,7 +222,7 @@ The release adds full localization (steps, error messages and tooltips), recordi
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Page scripting tool | generally available | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
+| Page scripting tool | generally available (roadmap [573384](../features/573384.md)) | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
 | Page scripting localization | generally available (roadmap [573384](../features/573384.md)) | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
 | Multiple selection in grids | generally available (roadmap [573384](../features/573384.md)), demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
 | Message and error dialogue validation | generally available (roadmap [573384](../features/573384.md)), demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |

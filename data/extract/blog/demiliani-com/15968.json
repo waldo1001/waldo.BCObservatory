@@ -15,8 +15,7 @@
   ],
   "systems": [
     "development",
-    "platform",
-    "reporting"
+    "platform"
   ],
   "topics": [
     "al query objects",
@@ -26,12 +25,7 @@
     "locking behavior",
     "performance"
   ],
-  "objects": [
-    {
-      "type": "query",
-      "name": "AL Query objects"
-    }
-  ],
+  "objects": [],
   "features": [
     "ReadState property",
     "transaction isolation levels",

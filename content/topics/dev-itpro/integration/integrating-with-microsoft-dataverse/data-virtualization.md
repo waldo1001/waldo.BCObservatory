@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:37.894Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Data virtualization covers Business Central virtual tables in Microsoft Dataverse. It answers questions about how virtual tables expose Business Central data to Power Platform, how to model and relate them, how to manage them as solutions (ALM), and common FAQs.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data virtualization · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Dataverse](../integrating-with-microsoft-dataverse.md) > Data virtualization · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

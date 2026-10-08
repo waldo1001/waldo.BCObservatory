@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:33.183Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,7 @@ narrative: generated
 
 > Migration of on-premises data (Business Central, Dynamics GP, SL, NAV) to Business Central online. It answers questions about the migration process and phases, choosing between full migration and reimplementation, running and managing cloud migration, GP-specific data mapping, and common requirements and FAQs.
 
-Path: [Development and administration](../development-and-administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../development-and-administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

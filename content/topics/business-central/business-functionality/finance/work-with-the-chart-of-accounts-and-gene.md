@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -294,7 +294,7 @@ narrative: generated
 
 > Chart of accounts and general ledger (G/L) work in Business Central: account structure, posting and reversing entries, allocations, deferrals, budgets, revaluation, review, analysis, and audit exports. It answers how-to and setup questions for G/L accounting tasks.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Work with the chart of accounts and general ledger (G/L) · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -361,7 +361,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Ensure Consistency in Journals With Journal Check](../../../../videos/kuKwjRyNcoE.md) (video): "Journal Check; Enable Data Check Setting; Journal Check Fact Box"
 - [Safeguard G/L Accounts From Deletion](../../../../videos/lcu53ikOk7s.md) (video): "Check GL account usage setting; Check GL account deletion after field"
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
-- [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry; Correct dimension in Business Central"
+- [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry in Business Central; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
 - [Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent](../../../../videos/XJ0JHHQ7GzA.md) (video): "posting groups; Business posting groups; Product posting groups"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"

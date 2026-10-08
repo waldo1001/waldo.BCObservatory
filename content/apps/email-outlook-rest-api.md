@@ -10,21 +10,21 @@ tags:
   - platform
 system: platform
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c9e7e2beb2d84609bad5103d24d14f3a4d468d02b9e192b880dea2ffafd9543c
+  input_hash: f30031f7da28be261bf63fa6dd0e00925295d6d7cf69e0552eb76f6c4aed9414
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app
     title: src/Apps/W1/Email - Outlook REST API/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -144,4 +144,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Outlook REST API](../objects/entitlement/outlook-rest-api.md) |  |
 
-Source: [src/Apps/W1/Email - Outlook REST API/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Email - Outlook REST API/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

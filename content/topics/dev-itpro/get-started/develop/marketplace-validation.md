@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:24.927Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,7 @@ narrative: generated
 
 > Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.
 
-Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

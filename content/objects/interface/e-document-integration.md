@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: "26.0"
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 588665f9753315aa33b62bcfde71a21b8ba46803808e5ecb91a15b31f8c67dcc
@@ -100,13 +100,6 @@ EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at fe31a425](ht
 - `GetDocumentCountInBatch(var TempBlob: Codeunit "Temp Blob"): Integer` (obsolete 26.0: Removed, now part of ReceiveDocuments method in IDocumentReceiver interface. Temp Blob list param determines the count.): Use it to define how many received documents in batch import.
 - `GetIntegrationSetup(var SetupPage: Integer; var SetupTable: Integer)` (obsolete 26.0: Moved out of interface. Replaced by OnBeforeOpenServiceIntegrationSetupPage event on Service Page.): Use it to define the integration setup of a service
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "E-Document Integration")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "E-Document Integration"`
-
 ## Across versions
 
 - Present in: BC29-30
@@ -126,3 +119,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 - procedure SendBatch: Pending 26.0, "Replaced by Send method in IDocumentSender interface. EDocument record will contain multiple records when using batch."
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "E-Document Integration")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

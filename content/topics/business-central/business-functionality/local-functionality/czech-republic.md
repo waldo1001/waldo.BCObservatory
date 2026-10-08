@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:42.630Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,7 +357,7 @@ narrative: generated
 
 > Czech Republic local functionality in Business Central: the Core and Advanced Localization Packs, fixed assets, manufacturing cost returns, and subtopics for finance, VAT, banking, advance payments, payables and receivables, inventory, and general user control. It answers questions about Czech accounting and tax compliance features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Czech Republic · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

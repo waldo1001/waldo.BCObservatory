@@ -13,12 +13,12 @@ tags:
   - online
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:00.607Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -89,7 +89,7 @@ preview:
 
 # September 2026 Cumulative Updates for Dynamics 365 Business Central
 
-[Read the post](https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-09-08 · 139 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/09/september-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-09-08 · 139 words · tier community · reviewed (checked by Opus)
 
 > September 2026 cumulative updates are available for Dynamics 365 Business Central across multiple release waves (28.5, 27.11, and 26.17). Online customers will be automatically upgraded to version 28.5 and should verify compatibility with customizations before applying updates.
 

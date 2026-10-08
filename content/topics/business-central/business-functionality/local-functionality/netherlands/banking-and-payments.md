@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:15.891Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,7 +171,7 @@ narrative: generated
 
 > Banking and payments in the Dutch (Netherlands) version of Business Central: telebanking, payment and collection proposals, payment history export, cash/bank/giro journals, bank statement import, and SEPA ISO 20022 payments. It answers how-to and setup questions for domestic and foreign payment flows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

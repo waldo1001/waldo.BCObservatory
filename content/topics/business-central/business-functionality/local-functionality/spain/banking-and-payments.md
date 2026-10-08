@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:46.510Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,7 +123,7 @@ narrative: generated
 
 > Spanish banking and payments in Business Central: CCC bank codes, bank account setup for electronic payments, AEB N34.1 and other export formats, paying vendors and voiding exports, payment days and non-payment periods, and reporting cash payments with the 340 declaration. Answers setup and how-to questions for Spain.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

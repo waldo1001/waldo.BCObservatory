@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:09.160Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Delivery reminders in the German version of Business Central: setting up terms, levels and text, assigning codes to vendors, generating or creating reminders, printing test reports and issuing them. It answers how-to questions about chasing late vendor deliveries.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

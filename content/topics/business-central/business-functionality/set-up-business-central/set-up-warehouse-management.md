@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:16.682Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -257,7 +257,7 @@ narrative: generated
 
 > Warehouse management setup in Business Central: bins, bin types, bin contents, put-away templates, warehouse employees, directed put-away and pick, FEFO picking, breaking bulk, and converting or restructuring locations. It answers how to configure locations and warehouse structures.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up warehouse management · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up warehouse management · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -302,7 +302,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11001 Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations](../../../../changes/bcapps/11001.md) (code change): "validation to prevent migration when legacy or purchase-header locations use unsupported warehouse settings"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "Copy Location duplicates warehouse configuration, settings, and operational setup"
-- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Put-Away Templates for Bin Assignment; Bin Policy Features for Basic Warehouse"
+- [What's New: Warehouse Management (2023 release wave 2)](../../../../videos/8KMcu4B_eTk.md) (video): "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates for Bin Assignment"
 
 ## Business Central pages and reports
 

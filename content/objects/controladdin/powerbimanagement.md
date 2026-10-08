@@ -13,12 +13,12 @@ versions:
   last_changed: "28"
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 733253ac0344dc0a403283ea65c637233c7ba14533ba0b51db940a0c86e9a4f3
@@ -113,13 +113,6 @@ From the extracted call graph of BC29 (graphify-al on the snapshot checkout): ca
 - [Page 6324 "Power BI Element Addin Host"](../page/6324.md) (9 calls: `InitializeAddIn → AddBottomPadding`, `InitializeAddIn → EmbedPowerBIDashboard`, `InitializeAddIn → EmbedPowerBIDashboardTile`, …)
 - [Page 6325 "Power BI Embedded Report Part"](../page/6325.md) (9 calls: `PushFiltersToAddin → UpdateReportFilters`, `SetReport → EmbedPowerBIDashboard`, `SetReport → EmbedPowerBIDashboardTile`, …)
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "controladdin", object_name: "PowerBIManagement")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node controladdin "PowerBIManagement"`
-
 ## Across versions
 
 - Present in: BC24-30
@@ -130,3 +123,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 - procedure SetSettings: Pending 26.0 (#if not CLEAN26), "Use SetBookmarksVisible, SetFiltersVisible, AddBottomPadding, SetTransparentBackground, and SetPageSelectionVisible instead. The other options are no longer supported."
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). The call sections above are our own, per object, from the BC29 call graph. For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "controladdin", object_name: "PowerBIManagement")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

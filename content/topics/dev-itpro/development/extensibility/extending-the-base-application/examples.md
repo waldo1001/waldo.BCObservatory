@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.651Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,7 @@ narrative: generated
 
 > Worked examples of extending the Business Central base application: dates, currency exchange rate adjustments, templates, document sharing, email, error messages, invoice posting, item charges, pricing, Shopify, Data Archive and e-documents. Use it to find which events, interfaces, enums and codeunits to use for a given extension scenario.
 
-Path: [Development](../../../development.md) > [Extensibility](../../extensibility.md) > [Extending the base application](../extending-the-base-application.md) > Examples · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Extensibility](../../extensibility.md) > [Extending the base application](../extending-the-base-application.md) > Examples · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

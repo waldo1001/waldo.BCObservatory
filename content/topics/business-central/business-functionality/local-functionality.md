@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:16.521Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -875,7 +875,7 @@ narrative: generated
 
 > Local functionality in Business Central covers country-specific features and regulatory compliance for 20+ countries and regions, plus guidance on localization strategy, validated localization apps and regulatory alerts. It answers where to find per-country setup and how-to content for tax, banking, e-invoicing and statutory reporting.
 
-Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Local functionality · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

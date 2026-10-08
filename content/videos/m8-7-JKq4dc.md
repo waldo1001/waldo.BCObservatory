@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:50:28.544Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:28.581Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,8 +224,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/573350
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -504,12 +503,10 @@ features:
     verified: false
     status_source: video
   - name: Quantity Selection Options in Quality Inspections
-    status: ga
+    status: unclear
     t: 2373
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573350"
+    status_source: video
   - name: Sample Quantity Field in Quality Management
     status: unclear
     t: 2386
@@ -735,7 +732,7 @@ The second part covers configuration: inspection results, quality tests and data
 | Quality Management Setup | status not stated, demoed | [35:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2133s) |
 | Inspection Actions for Non-Conforming Items | status not stated, demoed | [37:24](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2244s) |
 | Item Tracking Change in Quality Management | status not stated, demoed | [39:10](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2350s) |
-| Quantity Selection Options in Quality Inspections | generally available (roadmap [573350](../features/573350.md)), demoed | [39:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s) |
+| Quantity Selection Options in Quality Inspections | status not stated, demoed | [39:33](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2373s) |
 | Sample Quantity Field in Quality Management | status not stated, demoed | [39:46](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2386s) |
 | Quality Inspection Workflow Events | status not stated, demoed | [40:32](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2432s) |
 | Workflow Conditions for Quality Inspections | status not stated, demoed | [41:19](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2479s) |
@@ -744,8 +741,6 @@ The second part covers configuration: inspection results, quality tests and data
 | Inventory Movement Workflow Responses | status not stated, demoed | [42:29](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2549s) |
 | Quality Management API Integration | status not stated | [42:50](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2570s) |
 | Built-in Quality Management Workflows | status not stated, demoed | [43:30](https://www.youtube.com/watch?v=m8-7-JKq4dc&t=2610s) |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,7 +141,7 @@ narrative: generated
 
 > Outbound warehouse processes in Business Central cover picking and shipping items for sales orders, transfer orders, purchase returns and service orders. The pages answer questions about the four outbound methods, inventory picks, warehouse picks and shipments, cross-docking, and finding assigned warehouse work.
 
-Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Outbound warehouse processes · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Outbound warehouse processes · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 

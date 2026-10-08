@@ -9,12 +9,12 @@ tags:
   - localization
   - es
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:26:43.433Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -197,7 +197,7 @@ learn_folder: LocalFunctionality/Spain
 
 > Spain (ES) localization of Business Central 29. It covers the Cartera module (bills, bill groups, payment orders), SII VAT reporting, VAT reports 340/347/349, equivalence charges, CCC bank codes, AEB electronic payment files, due date limits and local ledger reporting. Use it for questions on Spanish tax, banking and collection features.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/spain/banking-and-payments.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/spain/banking-and-payments.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -15,12 +15,12 @@ tags:
   - al extensions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:43.718Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:43.758Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -34,6 +34,13 @@ evidence:
     commit: null
     t: 39
     quote: we need to distinguish between what break does and what continue does.
+  - kind: video
+    url: https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=53s
+    title: The "Continue" Keyword Finally Comes to AL — 3 Practical Examples (BC 2025 Wave 1)
+    date: "2025-07-28T01:08:33.000Z"
+    commit: null
+    t: 53
+    quote: The break will um will terminate the loop. We will go to the next statement in the code after the loop.
   - kind: video
     url: https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=149s
     title: The "Continue" Keyword Finally Comes to AL — 3 Practical Examples (BC 2025 Wave 1)
@@ -99,6 +106,9 @@ quotes:
   - t: 39
     text: we need to distinguish between what break does and what continue does.
     check: exact
+  - t: 53
+    text: The break will um will terminate the loop. We will go to the next statement in the code after the loop.
+    check: exact
   - t: 149
     text: we test if the number is an even number and if it's an even number we skip it
     check: fuzzy
@@ -114,7 +124,7 @@ quotes:
 
 > The continue keyword in AL for loops (for, while, repeat): skips the current iteration and moves to the next without ending the loop. Covers the difference from break, with three code examples: even numbers, sales invoice lines with customer emails, and a Microsoft IRS forms extension.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=9-eo7b2xg8Q) · Business Central Musings · 2025-07-28 · 11:29 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=9-eo7b2xg8Q) · Business Central Musings · 2025-07-28 · 11:29 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -124,13 +134,12 @@ Three examples are shown: a simple for loop that skips even numbers, a loop over
 
 ## Key points
 
-- continue is a new AL keyword for loops: for, while and repeat.
-- break ends the loop; continue skips only the current iteration and moves to the next one.
-- In the first example, a for loop tests whether a number is even and skips it with continue.
-- A second example applies continue to sales invoice lines and customer emails.
-- A third example uses the Microsoft IRS forms extension, with table 1099 form do header and codeunit Coordinate IRS 1099 send email.
-- continue is optional and not a breaking change; code can be restructured to avoid it.
-- It can be used instead of refactoring a whole function.
+- continue is a new AL keyword in Business Central 2025 wave 1, used inside for, while and repeat loops.
+- break ends the loop and runs the next statement after it; continue skips only the current iteration and moves to the next one.
+- In the first example, a for loop from 1 to 10 uses the mod operator to find even numbers and skips them with continue.
+- The second example (pseudo code) loops posted sales invoice lines from the last 30 days. It uses continue to skip customers already stored in a temporary emailed-customer table, so each customer gets one thank-you email.
+- The third example is Microsoft code in the IRS Forms extension: while looping 1099 form headers, if the vendor cannot be found it logs an error and uses continue to move to the next record.
+- Code can always be restructured to avoid continue, but the speaker suggests using it instead of spending time refactoring a whole loop or function.
 
 ## Chapters
 
@@ -143,9 +152,9 @@ Three examples are shown: a simple for loop that skips even numbers, a loop over
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| continue keyword in AL | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=11s) |  |
+| Feature | Status | At |
+|---|---|---|
+| continue keyword in AL | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=11s) |
 
 ## AL objects mentioned
 
@@ -159,6 +168,7 @@ Not found in BC28-30: table "1099 form do header", codeunit "Coordinate IRS 1099
 ## Quotes
 
 - [0:39](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=39s) "we need to distinguish between what break does and what continue does."
+- [0:53](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=53s) "The break will um will terminate the loop. We will go to the next statement in the code after the loop."
 - [2:29](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=149s) "we test if the number is an even number and if it's an even number we skip it"
 - [3:08](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=188s) "continue which means don't get here but rather here at the end and increment i to three"
 - [8:14](https://www.youtube.com/watch?v=9-eo7b2xg8Q&t=494s) "instead of spending the time to refactor all this function"

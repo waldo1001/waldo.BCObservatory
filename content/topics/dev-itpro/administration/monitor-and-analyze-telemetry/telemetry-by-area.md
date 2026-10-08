@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:51.738Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -392,7 +392,7 @@ narrative: generated
 
 > Telemetry by area is a reference set of pages, one per telemetry area in Business Central. Each lists the events, custom dimensions and sample KQL queries for Application Insights. It answers questions about what is logged, which event ID to query, and how to diagnose problems in areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP.
 
-Path: [Administration](../../administration.md) > [Monitor and analyze telemetry](../monitor-and-analyze-telemetry.md) > Telemetry by area · tier official · system platform · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Monitor and analyze telemetry](../monitor-and-analyze-telemetry.md) > Telemetry by area · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

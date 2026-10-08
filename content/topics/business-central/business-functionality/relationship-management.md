@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:27.161Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -393,7 +393,7 @@ narrative: generated
 
 > Relationship management in Business Central covers contacts, segments, interactions, sales opportunities, marketing campaigns and the Dynamics 365 Sales integration. It answers setup, how-to and reporting questions for managing customer relationships.
 
-Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Relationship management · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -7,11 +7,11 @@
   "words": 947,
   "summary": "Business Central now supports native data mirroring to Microsoft Fabric, allowing users to replicate their tables as Delta Parquet files in OneLake with SQL query access. The feature enters public preview in release wave 2 (likely version 29.1) and requires only workspace setup and table selection with no impact on BC performance or API limits.",
   "key_points": [
-    "Native mirroring to Fabric via a new integration app eliminates the need for custom data extraction solutions",
-    "Data syncs within minutes, with deletes replicated and no field-level selection required",
-    "Monitoring pages in BC and Fabric provide sync status, error visibility, and analysis mode capabilities",
-    "BC licensing has no extra cost; Fabric costs apply only for capacity consumption, with first 1 TB free per capacity unit",
-    "Nine Power BI apps receive Fabric-based versions with multi-company options"
+    "Native mirroring to Fabric via a new Fabric integration app removes the need for custom data extraction solutions",
+    "Mirror runs a few minutes behind BC, deletes are replicated, and whole tables are copied rather than selected fields",
+    "New BC monitoring pages show sync runs and per-table details, with logs also pushed to Fabric",
+    "No extra BC license cost; Fabric needs a running capacity, replication compute is free, 1 TB storage per capacity unit is free, and querying consumes capacity",
+    "All nine Power BI apps get Fabric-based and multi-company versions"
   ],
   "systems": [
     "reporting",

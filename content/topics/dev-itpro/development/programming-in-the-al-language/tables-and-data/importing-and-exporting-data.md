@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,7 +110,7 @@ narrative: generated
 
 > Importing and exporting data in AL covers XMLport objects (schema, namespaces, request pages, properties, triggers) and exporting data to Excel with the Excel Buffer table. It answers questions about moving data between Business Central and external sources in XML or Excel format.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Importing and exporting data · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Importing and exporting data · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

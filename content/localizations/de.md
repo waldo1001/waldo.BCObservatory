@@ -9,12 +9,12 @@ tags:
   - localization
   - de
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:26:01.270Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -115,7 +115,7 @@ learn_folder: LocalFunctionality/Germany
 
 > Germany (DE) localization of Business Central 29. It covers VAT reporting with ELMA5 and ELSTER, VIES/EU sales lists, e-invoicing (XRechnung, ZUGFeRD, Peppol BIS 3.0 DE), purchase delivery reminders, GoBD/GDPdU digital audit export, Intrastat, BilMoG exchange rate valuation and physical inventory orders.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/germany.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/germany.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -122,7 +122,7 @@ narrative: generated
 
 > Power BI integration with Business Central: enabling it, building reports on Business Central data, embedding reports in pages, extracting data for ETL, and improving dataset load performance. It answers setup, report authoring, embedding and data-loading questions.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power BI · tier official · system reporting · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power BI · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

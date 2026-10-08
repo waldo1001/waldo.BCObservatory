@@ -2,21 +2,21 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 963 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 964 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
   - repository
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c1da4967284c897f2dd78073cd1e85cb7427cb06202853ce713af081b7da5ea8
+  input_hash: a80dd1eb237941acda7cce9ef577b9219059900fa39bd529c384cee050a6c72b
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -998,13 +998,14 @@ links:
     - change/bcapps/12428
     - change/bcapps/11629
     - change/bcapps/12078
+    - change/bcapps/12306
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 963
+item_count: 964
 footprint:
   systems:
     - id: development
@@ -1012,7 +1013,7 @@ footprint:
     - id: finance
       weight: 372
     - id: integration
-      weight: 319
+      weight: 321
     - id: inventory
       weight: 162
     - id: manufacturing
@@ -1021,13 +1022,13 @@ footprint:
       weight: 141
   topics:
     - id: bc30
-      weight: 909
+      weight: 910
     - id: main
-      weight: 909
+      weight: 910
     - id: fix
       weight: 550
     - id: feature
-      weight: 322
+      weight: 323
     - id: bc29
       weight: 54
     - id: releases/29.x
@@ -1072,7 +1073,7 @@ last_item: "2026-10-07"
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 963 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 964 code changes in the knowledge base, 2026-07-07 to 2026-10-07, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1080,10 +1081,10 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (575) | bc30 (909) | codeunit Gen. Jnl.-Post Line (23) |
-| finance (372) | main (909) | table Expense Report Header (16) |
-| integration (319) | fix (550) | table Purchase Line (14) |
-| inventory (162) | feature (322) | codeunit Item Jnl.-Post Line (13) |
+| development (575) | bc30 (910) | codeunit Gen. Jnl.-Post Line (23) |
+| finance (372) | main (910) | table Expense Report Header (16) |
+| integration (321) | fix (550) | table Purchase Line (14) |
+| inventory (162) | feature (323) | codeunit Item Jnl.-Post Line (13) |
 | manufacturing (159) | bc29 (54) | page Expense Agent Setup Wizard (13) |
 | sales (141) | releases/29.x (54) | codeunit Expense Report Approval Mgmt (11) |
 |  | refactor (42) | page Expense Agent Setup (11) |
@@ -1098,10 +1099,11 @@ last_item: "2026-10-07"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 81
+- 2026-Q4: **************************************** 82
 
 ## Most recent
 
+- [#12306 Warn before releasing a purchase order that was already sent electronically](../changes/bcapps/12306.md) (2026-10-07)
 - [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](../changes/bcapps/12078.md) (2026-10-07)
 - [#11629 Fix Norwegian SAF-T 1.30 export issues](../changes/bcapps/11629.md) (2026-10-07)
 - [#12428 Add Copilot feature trial interface](../changes/bcapps/12428.md) (2026-10-07)
@@ -1121,6 +1123,5 @@ Items per quarter, oldest first:
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../changes/bcapps/12261.md) (2026-10-06)
 - [#9347 Fix IssueDate in E-Documents for Germany](../changes/bcapps/9347.md) (2026-10-06)
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../changes/bcapps/12309.md) (2026-10-06)
-- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../changes/bcapps/12188.md) (2026-10-06)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

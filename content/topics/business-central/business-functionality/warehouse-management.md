@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:25.040Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -355,7 +355,7 @@ narrative: generated
 
 > Warehouse management in Business Central covers inbound, outbound and internal warehouse processes, plus configuration options, bin and document concepts, and inventory and warehouse reporting. It answers questions about which warehouse setup or document applies, and about barcode printing.
 
-Path: [Business functionality](../business-functionality.md) > Warehouse management · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Warehouse management · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 

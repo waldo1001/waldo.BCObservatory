@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:51.589Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > Profiles in Business Central AL development: how to define user roles that control which pages and reports a user sees. It answers questions about profile objects, profile extensions, page customization objects, and creating or moving profiles through the client.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Profiles · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Profiles · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

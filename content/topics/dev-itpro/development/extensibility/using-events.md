@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,7 +150,7 @@ narrative: generated
 
 > Events in Business Central AL development: event types, publishing, raising and subscribing, isolated events, discovering events with Event Recorder, deprecating external business events, UI notifications, and a workflow events walkthrough. It answers how to extend application behavior through events.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Using events · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Using events · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

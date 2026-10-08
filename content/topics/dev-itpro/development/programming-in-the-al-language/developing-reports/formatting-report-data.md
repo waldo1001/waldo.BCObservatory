@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:24.483Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Formatting report data in AL covers how to control the display of field values in report datasets: decimal precision, dates, booleans, enums, currencies, and regional formats. It answers questions about AutoFormatType, AutoFormatExpr, DecimalPlaces, the Format method, and report Language and FormatRegion settings.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Formatting report data · tier official · system reporting · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Formatting report data · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:10.225Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,7 +146,6 @@ links:
     - video/8037fdtrU1o
     - video/bvGdaxC3sq8
     - video/KQRT25igPTk
-    - video/NwMLT-k6J6Q
   posts:
     - post/thinkaboutit-be/7443
   guidelines: []
@@ -159,7 +158,7 @@ children: []
 coverage:
   learn: 13
   code: 13
-  video: 4
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -184,7 +183,7 @@ narrative: generated
 
 > Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready.
 
-Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -225,7 +224,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Contoso Demo Tool (2025 release wave 1)](../../../videos/8037fdtrU1o.md) (video): "Modular demo data architecture; Code-based demo data definition"
 - [Introducing: Contoso Demo Tool (2023 release wave 2)](../../../videos/bvGdaxC3sq8.md) (video): "Demo Data Module Interface; Helper Code Units for Demo Data"
 - [Guidelines for Using the Welcome Banner](../../../videos/KQRT25igPTk.md) (video): "welcome banner; onboarding experience; user checklists; role center"
-- [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:46.199Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

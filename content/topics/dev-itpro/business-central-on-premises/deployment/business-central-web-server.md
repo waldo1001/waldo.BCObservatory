@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:23.174Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,7 @@ narrative: generated
 
 > The Business Central web server section covers deploying and configuring the web server components on IIS for on-premises installations. It answers questions about web server instances, navsettings.json settings, IIS features, SSL/HTTPS, Kerberos delegation, multiple instances with PowerShell, and tenant host names.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central web server · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central web server · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

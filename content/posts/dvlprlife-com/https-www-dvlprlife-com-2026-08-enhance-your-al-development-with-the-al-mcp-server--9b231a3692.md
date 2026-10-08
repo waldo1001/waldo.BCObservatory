@@ -14,12 +14,12 @@ tags:
   - model context protocol
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:21.935Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,6 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - integration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -88,17 +87,17 @@ preview:
 
 # Enhance Your AL Development with the AL MCP Server
 
-[Read the post](https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/) · DvlprLife (Brad Prendergast) · 2026-08-21 · 1112 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/) · DvlprLife (Brad Prendergast) · 2026-08-21 · 1112 words · tier community · reviewed (checked by Opus)
 
 > The AL MCP server is a Model Context Protocol server that exposes tools allowing AI agents to download symbols, build, compile, and publish AL projects directly. It enables agents like GitHub Copilot to verify their own code changes automatically, removing the need for manual compilation steps between AI suggestions and deployment.
 
 ## Key points
 
-- AL MCP server ships with AL development tools and provides a standardized interface for AI agents to perform core AL development tasks
-- Setup requires the AL Language extension, .NET 8 runtime, and optionally adding altool to PATH; configuration can be stored in .vscode/mcp.json and shared with teams
-- The server exposes tools including al_build, al_compile, al_publish, al_downloadsymbols, al_symbolsearch, and authentication tools for cloud environments
-- AI agents can now independently compile code, read errors, and iterate fixes without human intervention, enabling fully automated development workflows
-- This foundation enables future automated workflows where agents can handle symbol download, code generation, building, and publishing without manual steps
+- The AL MCP server ships with the AL development tools and gives AI agents tools to download symbols, build, compile, publish, search symbols, get diagnostics, list dependencies and sign in to cloud environments.
+- Setup needs the AL Language extension (which provides altool) and the .NET 8 runtime, and altool may need to be on PATH. Registering the server with workspace scope writes .vscode/mcp.json, which can be committed and shared.
+- With these tools an agent can compile, read errors and fix its own code, so the developer no longer passes results between Copilot and the compiler.
+- Copilot also has the AL Language extension's own tools and tends to prefer them. Users can review and toggle which tools are available.
+- In the demo, plain Copilot built a Region table and page plus Customer table and page extensions, compiled them and published them. Results can vary between runs, and custom instructions or agents make them more consistent.
 
 ## Quotes
 

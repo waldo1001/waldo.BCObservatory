@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/thinkaboutit-be/8204",
+  "input_hash": "e257f10ca6b80e714366ae76437651dedf5ddbc8b1189fc18e660282982b6ab8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:46:22.313Z",
+  "issues": [
+    "Summary, key points, features and versions all match the post.",
+    "All three quotes appear word for word in the post.",
+    "Minor gap: the page leaves out that customers can still use their own Azure OpenAI subscription, but nothing it says is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032907,
+    "posts_in_call": 4
+  }
+}

@@ -10,21 +10,21 @@ tags:
   - platform
 system: platform
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 61651d3a501e7a20a7cc87306f035391d6e3b2427c5831f8d5f628ae554fe631
+  input_hash: 17325386e6d3866fae19acc692c6097611440e6c9dc87da42f5491424f311b6d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Email%20-%20Microsoft%20365%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20Microsoft%20365%20Connector/app
     title: src/Apps/W1/Email - Microsoft 365 Connector/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -100,4 +100,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 | 4503 | [Email Conn. - Objects](../objects/permissionset/4503.md) | Email Microsoft 365 Connector - Objects |
 
-Source: [src/Apps/W1/Email - Microsoft 365 Connector/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Email%20-%20Microsoft%20365%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Email - Microsoft 365 Connector/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20Microsoft%20365%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

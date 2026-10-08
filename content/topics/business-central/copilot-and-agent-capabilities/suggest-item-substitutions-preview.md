@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.835Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,7 +72,7 @@ narrative: generated
 
 > Suggest item substitutions with Copilot (preview) covers an AI capability that finds similar or interchangeable items and assigns them as substitutes. It answers how to use the feature, how results are scored and edited, and what its capabilities, limits and responsible-use practices are.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest item substitutions (preview) · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

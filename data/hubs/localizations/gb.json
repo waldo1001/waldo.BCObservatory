@@ -2,8 +2,8 @@
   "country": "GB",
   "version": "29",
   "input_hash": "86386e05f5ccc2ea0a48b7495658a81f3e3fd2c0aba4a3029c06e49e290a29ea",
-  "summary": "United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and 13-period straight-line depreciation.",
-  "overview": "The UK layer adds 317 objects: 263 of its own and the rest changing W1 objects. The largest block is VAT reporting. Making Tax Digital (MTD) objects (codeunits 10530 to 10541, liability, payment and return tables, a fraud prevention header control add-in) handle HMRC connection, OAuth 2.0, period retrieval, return creation and submission, liabilities and payments. The older GovTalk codeunits and EC Sales List objects handle XML submission. Report 130 \"EC Sales List\" and table 747 \"VAT Report Archive\" gain procedures, fields and events for this.\n\nReverse charge VAT is supported by fields on items, item templates, sales and purchase lines, posted lines and the setup tables, plus checks in Sales-Post. Company Information gets statutory fields such as registered name and address and a supplementary VAT registration number. Address lookup is provided by two postcode providers (GetAddress.io and Ideal Postcodes, \"IPC\") with page extensions on many cards.\n\nLearn documents these under the United Kingdom local functionality page, with separate pages for Making Tax Digital, fraud prevention data, reverse charges, VAT audit reports, APACS checks, remittance advice, posting date warning, statutory information, Ideal Postcodes and straight-line depreciation.",
+  "summary": "United Kingdom (GB) localization of Business Central 29. It covers Making Tax Digital VAT returns to HMRC, GovTalk and EC Sales List submission, reverse charge VAT, VAT audit reports, postcode address lookup, APACS check printing, UK sales and purchase report layouts, and straight-line depreciation over up to 13 accounting periods.",
+  "overview": "The UK layer adds 317 objects: 263 of its own and the rest changing W1 objects. The largest block is VAT reporting. Making Tax Digital (MTD) objects (codeunits 10530 to 10541, liability, payment and return tables, a fraud prevention header control add-in) handle HMRC connection, OAuth 2.0, period retrieval, return creation and submission, liabilities and payments. The GovTalk codeunits and EC Sales List objects handle XML submission. Report 130 \"EC Sales List\" and table 747 \"VAT Report Archive\" gain procedures, fields and events for this.\n\nReverse charge VAT is supported by fields on items, item templates, sales and purchase lines, posted lines and the setup tables, plus checks in Sales-Post. Company Information gets statutory fields such as registered name and address and a supplementary VAT registration number. Address lookup is provided by two postcode providers (GetAddress.io and Ideal Postcodes, \"IPC\") with page extensions on many cards.\n\nLearn documents these under the United Kingdom local functionality page, with separate pages for Making Tax Digital, fraud prevention data, reverse charges, VAT audit reports, APACS checks, remittance advice, posting date warning, statutory information, Ideal Postcodes and straight-line depreciation.",
   "key_points": [
     "Making Tax Digital for VAT: retrieve obligations, create, release and submit returns, get liabilities and payments, with HMRC OAuth 2.0 setup.",
     "Fraud prevention headers for MTD, with tables for default, session and missing headers and a web client control add-in.",
@@ -229,5 +229,23 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.13156
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:27:45.476Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview calls the GovTalk codeunits \"older\"; the input says nothing about which came first. Removed.",
+      "Summary says \"13-period straight-line depreciation\"; the Learn page says up to 13 accounting periods. Reworded.",
+      "Minor: the open Purchase Line only gets \"Reverse Charge Item\"; \"Reverse Charge\" is on the posted purchase lines. The key point is acceptable read broadly, so it is unchanged."
+    ],
+    "input_hash": "86386e05f5ccc2ea0a48b7495658a81f3e3fd2c0aba4a3029c06e49e290a29ea",
+    "cost_usd": 0.2286828,
+    "applied": [
+      "summary",
+      "overview"
+    ],
+    "rejected_edits": []
   }
 }

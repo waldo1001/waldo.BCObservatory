@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.418Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,7 +210,7 @@ narrative: generated
 
 > Cost accounting in Business Central: terminology, setup of cost types, cost centers and cost objects, transferring ledger entries, allocating costs, cost budgets, and built-in reports. It answers how-to and concept questions about analyzing costs by type, location, and bearer.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Accounting for costs · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

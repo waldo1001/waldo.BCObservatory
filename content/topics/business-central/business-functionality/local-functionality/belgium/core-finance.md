@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:18.438Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > Core finance for the Belgian version of Business Central covers three local tasks: applying and unapplying general ledger entries, creating financial journals for CODA bank statements, and exporting general ledger balances to ACCON Plus. It answers how-to questions about these Belgium-specific finance procedures.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

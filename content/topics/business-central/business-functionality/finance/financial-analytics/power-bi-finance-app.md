@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:17.993Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -240,7 +240,7 @@ narrative: generated
 
 > The Power BI finance app section covers the embedded Finance Power BI app in Business Central: its setup, semantic model, KPI definitions, and individual reports. It answers questions about receivables, payables, profitability, liquidity, liabilities, budgets, and ledger entry analysis.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Power BI finance app · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Power BI finance app · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

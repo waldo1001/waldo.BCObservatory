@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9507277fab89bdc820579e63c7ab15049c92519f27f579aa39576a365abfef6f
@@ -85,16 +85,13 @@ PaymentPractices · Microsoft.Finance.Analysis · BC29-30 · [source at fe31a425
 - `CalculateHeaderTotals(var PaymentPracticeHeader: Record "Payment Practice Header"; var PaymentPracticeData: Record "Payment Practice Data")`: Calculates scheme-specific header totals after standard totals are generated.
 - `CalculateLineTotals(var PaymentPracticeLine: Record "Payment Practice Line"; var PaymentPracticeData: Record "Payment Practice Data")`: Calculates scheme-specific line totals for the currently visible slice of data. The caller is responsible for applying any filters (period, company size, etc.) on PaymentPracticeData before invoking this method, and for restoring them afterwards.
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "PaymentPracticeSchemeHandler")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "PaymentPracticeSchemeHandler"`
-
 ## Across versions
 
 - Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "PaymentPracticeSchemeHandler")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

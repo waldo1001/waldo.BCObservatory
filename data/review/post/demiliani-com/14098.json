@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/14098",
+  "input_hash": "abeb8ecf52088db3a725dc2582bbf68eee5faea51dca479dd08b92d451731bc6",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.060Z",
+  "issues": [
+    "The post is a general essay about the gap between using AI coding tools and architecting multi-agent AI systems.",
+    "Business Central is never mentioned; ERPs come up only generically, so the post is not about Business Central."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048649,
+    "posts_in_call": 4
+  }
+}

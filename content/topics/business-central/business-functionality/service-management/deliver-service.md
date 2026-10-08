@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:41.709Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,7 +133,7 @@ narrative: generated
 
 > Deliver service in Business Central Service Management covers the tasks for carrying out service work: creating quotes and orders, allocating resources, working on service tasks, lending loaners, posting, and invoicing. It answers how-to questions about each step of the service delivery flow.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Deliver service · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Deliver service · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

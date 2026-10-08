@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:52.375Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -303,7 +303,7 @@ narrative: generated
 
 > Russia local functionality in Business Central: country-specific features for finance, payables and receivables, fixed assets, VAT, tax accounts, banking, bill of lading printing, and human resources. It answers setup and usage questions for Russian statutory and accounting requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Russia · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Russia · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

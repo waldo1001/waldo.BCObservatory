@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:20.300Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -289,7 +289,7 @@ narrative: generated
 
 > Financial reporting in Business Central covers building, running, auditing and troubleshooting financial reports based on row and column definitions, account categories, dimensions and budgets. It answers questions about designing reports, Excel and PDF output, telemetry, KPI web services and balancing reports to the general ledger.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Financial reporting · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

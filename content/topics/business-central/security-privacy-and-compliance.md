@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:17.518Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Security, privacy, and compliance in Business Central: personal security best practices for users, plus a Compliance subtopic on accounting standards, country and ISO certifications, service architecture, availability, and trial features that connect to other Microsoft services.
 
-Path: Security, privacy, and compliance · tier official · system none · narrative reviewed by Opus
+Path: Security, privacy, and compliance · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:53:13.583Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:13.620Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,10 +143,12 @@ features:
     verified: false
     status_source: video
   - name: B2B Catalogs with Currency Code
-    status: unclear
+    status: ga
     t: 562
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
 objects_mentioned:
   - page market catalog
   - page B2B catalogs
@@ -214,7 +216,7 @@ The demo covers the new Market Catalog page and getting market catalogs from Sho
 | Multi-currency Market Support | status not stated, demoed | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |
 | Point of Sale Market Definition | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |
 | B2B Catalog Company Locations | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |
-| B2B Catalogs with Currency Code | status not stated, demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
+| B2B Catalogs with Currency Code | generally available (roadmap [573342](../features/573342.md)), demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

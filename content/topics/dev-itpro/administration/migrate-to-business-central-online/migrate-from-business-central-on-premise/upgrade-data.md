@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:41.499Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Upgrade data covers running data upgrade during cloud migration from earlier Business Central on-premises versions, and how to skip the API data upgrade to shorten upgrade time. It answers questions on prerequisites, process, error handling, monitoring, and per-company disabling of API upgrade.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Upgrade data · tier official · system platform · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Upgrade data · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

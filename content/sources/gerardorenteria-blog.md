@@ -8,12 +8,12 @@ language: es
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7a8b271b32b5079fc6b0dc6d254034d5fa354efa9fd75d0e6c745fa711dd503b
@@ -124,7 +124,7 @@ footprint:
     - id: development
       weight: 85
     - id: administration
-      weight: 41
+      weight: 40
     - id: copilot
       weight: 26
     - id: finance
@@ -195,7 +195,7 @@ last_item: "2026-09-23"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (85) | feature requests (14) | codeunit MyCodeunit (2) |
-| administration (41) | al development (12) | codeunit MyCodeunitTests (2) |
+| administration (40) | al development (12) | codeunit MyCodeunitTests (2) |
 | copilot (26) | localization (11) | table Vendor Ledger Entries (2) |
 | finance (25) | user experience (10) | codeunit 1255 (1) |
 | platform (25) | copilot (9) | codeunit 415 (1) |

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:04.955Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,7 @@ narrative: generated
 
 > Managing contacts in Business Central: creating person and company contacts, linking them to customers, vendors and banks, merging duplicates, syncing to Outlook, and organizing contacts with groups and profiles. It answers how-to questions on contact setup and maintenance.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage contacts · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

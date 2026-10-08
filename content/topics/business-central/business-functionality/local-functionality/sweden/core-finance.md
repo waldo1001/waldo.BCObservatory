@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:33.077Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Core finance for the Swedish version of Business Central covers automatic account codes and posting groups, SIE import and export of general ledger data, and printing balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Sweden](../sweden.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Sweden](../sweden.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

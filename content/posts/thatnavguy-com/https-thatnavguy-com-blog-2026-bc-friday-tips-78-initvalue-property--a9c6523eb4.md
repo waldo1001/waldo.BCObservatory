@@ -12,12 +12,12 @@ tags:
   - record initialization
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:50.182Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,8 +66,7 @@ quotes:
     why_it_matters: Clarifies when InitValue applies and that it does not modify existing data
   - text: You can't set InitValue on a standard field through a table extension.
     why_it_matters: Important limitation when extending standard tables
-code_objects_mentioned:
-  - other InitValue
+code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
@@ -85,7 +84,7 @@ preview:
 
 # BC Friday Tips #78 InitValue Property
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-07 · 110 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-78-initvalue-property/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-07 · 110 words · tier community · reviewed (checked by Opus)
 
 > The InitValue property sets a default value for new table fields when records are created, initialized, or cleared. This property applies only to new records and cannot be used on standard fields through table extensions.
 
@@ -100,12 +99,6 @@ preview:
 
 - "It only kicks in when a new record is created, or via Init(), Clear(), or ClearAll(). It won't touch existing records." (Clarifies when InitValue applies and that it does not modify existing data)
 - "You can't set InitValue on a standard field through a table extension." (Important limitation when extending standard tables)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- other "InitValue"
 
 ## Context
 

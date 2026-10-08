@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,7 +118,7 @@ narrative: generated
 
 > Developing for the Business Central mobile app (tablet and phone) with AL: strategy choices, screen size design, page limitations, role centers, barcode scanning, and browser-based testing. It answers questions about how to build and test mobile-friendly extensions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Developing for the Business Central mobile app · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Developing for the Business Central mobile app · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

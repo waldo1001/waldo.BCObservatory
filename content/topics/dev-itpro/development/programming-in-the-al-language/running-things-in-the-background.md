@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,11 +79,11 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language
     - topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background/al-language-reference-background-process
   localizations: []
-  videos: []
+  videos:
+    - video/D7GxnNiGQ14
   posts:
     - post/aardvarklabs-blog/3837
     - post/demiliani-com/13961
-    - post/demiliani-com/14203
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
   guidelines: []
   changes:
@@ -102,8 +102,8 @@ children:
 coverage:
   learn: 7
   code: 0
-  video: 0
-  blog: 4
+  video: 1
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -114,7 +114,7 @@ narrative: generated
 
 > Background processing in AL for Business Central: the job queue, page background tasks, and the task scheduler, plus operational limits for background sessions, child sessions and scheduled tasks. It helps answer which mechanism to use, how to set it up, and how errors and limits are handled.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Running things in the background · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Running things in the background · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -154,7 +154,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#148 Add Job Queue reliability and scheduling guidance](../../../../changes/bcquality/148.md) (code change): "Require external side effects in Job Queue handlers to be idempotent"
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL transactions roll back"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "moving blocking work to the background instead of waiting for user input"
+- [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../../../videos/D7GxnNiGQ14.md) (video): "background processing; job queue; page background task; task scheduler"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:44.262Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,7 +188,7 @@ narrative: generated
 
 > Upgrade guidance for on-premises Business Central 2022 release wave 2 (version 21). It covers upgrade paths from version 14 (unmodified or customized C/AL), versions 15-20, versions 18/19 and version 20, plus C/AL to AL conversion, permission and report changes, moving tables between extensions, and installing version 21 updates. Use it for how-to and upgrade path questions about these upgrades.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2022 release wave 2 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2022 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

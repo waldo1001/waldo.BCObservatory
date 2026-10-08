@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:49.727Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -330,7 +330,7 @@ narrative: generated
 
 > Switzerland local functionality in Business Central covers Swiss VAT statements, banking and payments (ESR, LSV+, QR-bills, SEPA), core finance, purchasing delivery reminders, inventory picking lists, and Swiss post codes. It answers how-to questions on Swiss-specific setup, reporting and processing.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Switzerland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

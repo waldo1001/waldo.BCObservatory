@@ -9,12 +9,12 @@ tags:
   - localization
   - nl
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:24:04.605Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -102,15 +102,15 @@ learn_folder: LocalFunctionality/Netherlands
 
 > Netherlands (NL) localization of Business Central 29. It covers Dutch telebanking (payment and collection proposals, payment history, BTL91/BBV/PAYMUL and SEPA export), CBG bank/giro and cash journals, bank statement import, electronic VAT and ICP declarations via Digipoort, the tax audit file, CMR notes, Dutch post codes and Intrastat.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/netherlands.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/netherlands.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Dutch layer is built around telebanking. Transaction modes, proposals, payment history and export protocols are own tables, pages and reports (11000000 range). Transaction Mode Code fields are added to customers, vendors, employees, ledger entries, sales and purchase documents and journal lines. Bank accounts, customer bank accounts and vendor bank accounts get account holder fields. SEPA credit transfer and direct debit exports are extended, and SEPA CAMT statement import is supported. Learn documents telebanking, the three payment scenarios, SEPA activation and docket reports.
+The Dutch layer is built around telebanking. Transaction modes, proposals, payment history and export protocols are own pages, reports and codeunits, mostly numbered in the 11000000 range. Transaction Mode Code fields are added to customers, vendors, employees, ledger entries, sales and purchase documents and journal lines. Bank accounts, customer bank accounts and vendor bank accounts get account holder fields. SEPA credit transfer and direct debit exports are extended, and SEPA CAMT statement import is supported. Learn documents telebanking, the three payment scenarios, SEPA activation and docket reports.
 
-Bank/Giro and Cash journals (CBG statements) are own pages and codeunits. They tie into GenJnlManagement and Payment Tolerance Management and add fields to G/L Entry for applying and unapplying entries. Source Code Setup gets cash and bank journal source codes. Learn describes posting these journals, importing and reconciling bank statements, and printing test reports.
+Bank/Giro and Cash journals (CBG statements) are own pages and codeunits. They tie into GenJnlManagement and Payment Tolerance Management, and Gen. Journal Template gets a No. of CBG Statements field. Source Code Setup gets cash and bank journal source codes. Learn describes posting these journals, importing and reconciling bank statements, and printing test reports. Separately, G/L Entry gains fields such as Open, Remaining Amount and Applies-to ID so that G/L entries can be applied and unapplied.
 
-Tax and statutory features include electronic VAT and ICP declarations sent through Digipoort (setup, VAT categories, certificates, response messages), the tax authority audit file, CMR notes for sales, transfer and return shipments, and the VIES declaration. The layer also adds Dutch post code import with update logging, Intrastat export, and service document extensions.
+Tax and statutory features include electronic VAT and ICP declarations sent through Digipoort (setup, VAT categories, certificates, response messages), the tax authority audit file, CMR notes for sales, transfer and return shipments, and the VIES declaration. Company Information gets a Fiscal Entity No. field. Learn also covers editing document amounts on purchase invoices and credit memos. The layer also adds Dutch post code import with update logging, Intrastat export, and service document extensions.
 
 ## Key points
 

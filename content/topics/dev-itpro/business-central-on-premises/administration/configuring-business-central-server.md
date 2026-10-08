@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:56.619Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Configuring Business Central Server (on-premises) covers how to change server instance settings after installation and a full reference of those settings. It answers questions about how to apply configuration (Setup, PowerShell, config file) and what each setting controls, such as database, security, web services and debugging.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central server · tier official · system administration · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central server · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

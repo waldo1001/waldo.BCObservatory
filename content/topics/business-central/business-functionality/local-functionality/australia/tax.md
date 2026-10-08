@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:58.226Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ narrative: generated
 
 > Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries. It answers setup and how-to questions for Australian tax compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

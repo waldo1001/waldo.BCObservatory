@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:40.654Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > Migrating tables and fields between Business Central extensions using migration.json, in both directions along the dependency graph, plus the India Data Migration Toolkit for upgrading from Dynamics NAV 2016 India. It answers questions about moving table ownership, ordering, and constraints.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Related articles](../related-articles.md) > Migrating tables and fields between extensions · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Related articles](../related-articles.md) > Migrating tables and fields between extensions · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

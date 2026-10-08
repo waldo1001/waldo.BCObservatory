@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:42.739Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -315,7 +315,7 @@ narrative: generated
 
 > Develop covers how partners build, publish, maintain and retire Business Central apps and per-tenant extensions. It answers questions on getting started as a publisher, customization options, localization, marketplace submission, update lifecycle, and Microsoft versus partner responsibilities.
 
-Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Develop · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

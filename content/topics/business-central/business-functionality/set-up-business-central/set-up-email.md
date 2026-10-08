@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:59.580Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ narrative: generated
 
 > Email setup in Business Central: configuring email accounts and connectors (Microsoft 365, Current User, SMTP), email scenarios and sender addresses, SMTP with OAuth 2.0 in multitenant setups, and the Outlook business inbox add-in. It answers configuration, requirement and deployment questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up email · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up email · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

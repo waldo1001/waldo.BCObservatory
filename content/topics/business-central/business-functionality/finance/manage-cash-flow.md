@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:11.917Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Cash flow management in Business Central: forecasting and analyzing cash inflows and outflows from sales, purchasing and fixed assets. It answers questions about the cash flow forecast, the analysis charts and worksheet on the Accountant Role Center, and building forecast reports from financial report definitions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage cash flow · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage cash flow · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -13,12 +13,12 @@ versions:
   last_changed: "30"
   deprecated: "27.0"
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 19bbce6088c8b27f553de91e8270c6f801401ebf575b16a226531176e6b8ef4d
@@ -100,13 +100,6 @@ EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [
 
 - 2026-09-30 [#12070 Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps](../../changes/bcapps/12070.md) (main, BC30, fix)
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "IPurchaseLineAccountProvider")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "IPurchaseLineAccountProvider"`
-
 ## Across versions
 
 - Present in: BC29-30
@@ -118,3 +111,7 @@ Procedure bodies and the full call graph are not stored here (D10). They are in 
 - object: Pending 27.0, "Replaced by IPurchaseLineProvider"
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "IPurchaseLineAccountProvider")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

@@ -212,5 +212,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.228322
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:26:43.433Z",
+    "verdict": "approve",
+    "issues": [
+      "The link between No Taxable entries and reports 340/347/349 is inferred: the input has No Taxable objects and a VAT Statement No Taxable calculation, but the Learn pages for these reports do not mention No Taxable entries.",
+      "Overview says CCC parts are on 'customer, vendor' records; in the code they are on Customer Bank Account and Vendor Bank Account (key point 5 states this correctly).",
+      "VAT Cash Regime is also added to General Ledger Setup, which the overview does not mention (an omission, not an error)."
+    ],
+    "input_hash": "728a782a3bf93aeb4b1668cc52506b76168cdd3fcbea64c7a7ad480bc332e63d",
+    "cost_usd": 0.40974679999999997,
+    "applied": [],
+    "rejected_edits": []
   }
 }

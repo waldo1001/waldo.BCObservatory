@@ -26,40 +26,7 @@
     "al compiler",
     "debugging"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "test codeunits"
-    },
-    {
-      "type": "table",
-      "name": "fixture tables"
-    },
-    {
-      "type": "enum",
-      "name": "fixture enums"
-    },
-    {
-      "type": "interface",
-      "name": "fixture interface"
-    },
-    {
-      "type": "page",
-      "name": "fixture pages"
-    },
-    {
-      "type": "report",
-      "name": "fixture report"
-    },
-    {
-      "type": "query",
-      "name": "fixture query"
-    },
-    {
-      "type": "xmlport",
-      "name": "fixture XMLports"
-    }
-  ],
+  "objects": [],
   "features": [
     "integration testing against real dependencies",
     "in-process XML report rendering",
@@ -67,8 +34,7 @@
     "query execution",
     "filter processing",
     "syntax tree based parsing",
-    "auto-provisioning with test toolkit",
-    "coverage analysis"
+    "auto-provisioning with test toolkit"
   ],
   "versions": [
     "v2.0.0",

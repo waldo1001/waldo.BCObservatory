@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,8 @@ links:
   topics:
     - topic/dev-itpro/development/extensibility
   localizations: []
-  videos: []
+  videos:
+    - video/qABlX4AL3GM
   posts: []
   guidelines: []
   changes:
@@ -96,7 +97,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -108,7 +109,7 @@ narrative: generated
 
 > Extending AL objects covers how extensions change existing Business Central objects without modifying base code. It answers questions about page, table, report, enum and permission set extensions, event types, and application areas.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extending AL objects · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extending AL objects · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -141,5 +142,6 @@ Start with the object type you want to change. Page extension, table extension a
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

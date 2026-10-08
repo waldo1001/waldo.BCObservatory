@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,7 +86,7 @@ narrative: generated
 
 > Fulfill service contracts in Business Central Service management covers creating service contracts and contract quotes, managing contract lines and lifecycle, changing annual amounts, and handling service items under multiple contracts. It answers how-to questions about contract setup and maintenance.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Fulfill service contracts · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Fulfill service contracts · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

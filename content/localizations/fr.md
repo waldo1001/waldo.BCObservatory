@@ -9,12 +9,12 @@ tags:
   - localization
   - fr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:27:23.025Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -123,15 +123,11 @@ learn_folder: LocalFunctionality/France
 
 > France localization of Business Central 29. It adds French payment management with payment slips, RIB bank keys, the FEC tax audit export, fiscal year closing, accelerated (derogatory) depreciation, SIREN/SIRET identifiers, DEB Intrastat and service declarations. It answers questions about local setup, posting rules and reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/france.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/france.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The French layer is dominated by payment management: payment classes, statuses, steps, payment slips (with archive), payment addresses and step ledgers. These come as FR objects (pages 10831 to 10854, codeunits 10831 to 10844) plus a second set of non-suffixed objects (codeunit 10860 "Payment Management", pages 10860 to 10882). Bank, customer and vendor bank accounts get French RIB fields (Agency Code, RIB Key, RIB Checked). Learn documents creating, posting, archiving and exporting payment slips, payment classes, payment addresses and parameter export/import.
-
-Finance changes cover the FEC audit file export (codeunits 10826 to 10830, an Audit File Export format enum extension), fiscal period and fiscal year closing (new fields on table 50 "Accounting Period", table 98 "General Ledger Setup" posting ranges), G/L entry application (Applies-to ID, Letter, Letter Date on table 17 "G/L Entry"), delayed unrealized VAT, and local ledger reports such as journals, trial balances and the GL/Cust. Ledger Reconciliation. Fixed assets add derogatory (accelerated) depreciation through new fields on posting groups, depreciation books and ledger entries, and extra procedures in disposal and posting codeunits.
-
-Elsewhere the country adds SIREN/SIRET and company registration fields on Company Information, Customer, Vendor and Contact, VAT Paid on Debits and goods/services text on sales invoices, DEB Intrastat objects, and French service declaration extensions. Learn also covers UBL 2.1 and Factur-X e-invoicing and E-Reporting FR, though the code listed here shows no dedicated objects for them.
+The French layer is dominated by payment management: payment classes, statuses, steps, payment slips (with archive), payment addresses and step ledgers. These come as an FR-suffixed object set (for example codeunit 10837 \"Payment Management FR\", codeunit 10834 \"Payment-Apply FR\", page 10843 \"Payment Slip FR\" and page 10834 \"Payment Class FR\") plus a second set of non-suffixed objects (codeunit 10860 \"Payment Management\", pages 10860 to 10882). Bank, customer and vendor bank accounts get French RIB fields (Agency Code, RIB Key, RIB Checked). Learn documents creating, posting, archiving and exporting payment slips, payment classes, payment addresses and parameter export/import.\n\nFinance changes cover the FEC audit file export (codeunits 10826 to 10830, an Audit File Export format enum extension), fiscal period and fiscal year closing (new fields on table 50 \"Accounting Period\", table 98 \"General Ledger Setup\" posting ranges), G/L entry application (Applies-to ID, Letter, Letter Date on table 17 \"G/L Entry\"), delayed unrealized VAT, and local ledger reports such as journals, trial balances and the GL/Cust. Ledger Reconciliation. Fixed assets add derogatory (accelerated) depreciation through new fields on posting groups, depreciation books and ledger entries, and extra procedures in disposal and posting codeunits.\n\nElsewhere the country adds company identifiers: SIRET No., APE Code, Trade Register, Legal Form and Stock Capital on Company Information, the same registration fields plus SIREN No. on Contact, and SIREN No. on Customer and Vendor. It also adds VAT Paid on Debits and goods/services text on sales invoices, DEB Intrastat objects, and French service declaration extensions. Learn also covers UBL 2.1 and Factur-X e-invoicing and E-Reporting FR, though the code listed here shows no dedicated objects for them.
 
 ## Key points
 
@@ -140,7 +136,7 @@ Elsewhere the country adds SIREN/SIRET and company registration fields on Compan
 - FEC tax audit export built on the Audit File Export framework, with opening balances and data checks
 - Fiscal period and year closing: Fiscally Closed, Fiscal Closing Date and Period Reopened Date on Accounting Period, plus posting allowed range on General Ledger Setup
 - Accelerated depreciation with derogatory books, posting group accounts and FA reports
-- SIREN, SIRET, APE code, Trade Register, Legal Form and Stock Capital on Company Information, Contact, Customer and Vendor
+- Company identifiers: SIRET No., APE Code, Trade Register, Legal Form and Stock Capital on Company Information; registration fields and SIREN No. on Contact; SIREN No. on Customer and Vendor
 - French sales invoice specifics: VAT Paid on Debits and goods/services text on standard sales reports
 - DEB Intrastat reporting (obligation level) and French service declaration (DES) extensions
 

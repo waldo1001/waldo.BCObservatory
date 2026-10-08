@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.205Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > New Zealand tax functionality in Business Central: GST posting setup, GST on prepayments, GST settlement reports, VAT exchange rate adjustment, and withholding tax (WHT) setup, calculation and settlement. It answers how-to questions for NZ tax configuration and reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 64248a63cc116c9c1a40d8ff79e9b9e2f43a156a0b7f1ed09d9d1800b2f44365
@@ -87,18 +87,15 @@ An object of the [DK localization](../../localizations/dk.md), not part of W1.
 - `GetResponseStream(): InStream`: Returns the contents of the HTTP response as an InStream.
 - `GetResponseBodyAsText(): Text`: Returns the contents of the HTTP response as text.
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "Elec. VAT Decl. Response")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "Elec. VAT Decl. Response"`
-
-A DK country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.
-
 ## Across versions
 
 - Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Elec. VAT Decl. Response")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.
+
+A DK country object, not part of W1: the default corpus does not have it; `bcatlas_list_countries` shows which countries the atlas has.

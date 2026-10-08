@@ -10,21 +10,21 @@ tags:
   - reporting
 system: reporting
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c384bd08cf9ed31187603f3a077217d1ac6b56f2fd6a79323745a13da80e21e9
+  input_hash: 78b3f66469e3032d0ccf4a0840c8c3467efd3fd0db5378211a51838a99aec1cb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PowerBIReports/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PowerBIReports/app
     title: src/Apps/W1/PowerBIReports/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -680,4 +680,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [What's New: Power BI Embedding (For Developers) (2025 release wave 1)](../videos/RU3D3RMAvVI.md) (video, 2025-04-01): names Page 37059 "Finance Report"
 - [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) (video, 2025-04-01): names Page 37026 "Item Availability"
 
-Source: [src/Apps/W1/PowerBIReports/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PowerBIReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PowerBIReports/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PowerBIReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

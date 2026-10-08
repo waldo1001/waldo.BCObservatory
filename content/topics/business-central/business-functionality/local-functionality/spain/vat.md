@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,7 @@ narrative: generated
 
 > Spanish VAT functionality in Business Central: Equivalence Charges, VAT statements, telematic export in text and XML, SII setup, and the tax authority reports 340, 347 and 349. It answers how to set up, generate and submit these declarations.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

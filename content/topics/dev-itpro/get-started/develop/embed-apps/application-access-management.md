@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:23:34.154Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Application Access Management covers how embed app ISVs and VARs control which customers can create online environments for their apps. It answers questions about enabling access management, registering VARs, approving tenants, and using the Application Access Management API.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > Application Access Management · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > Application Access Management · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

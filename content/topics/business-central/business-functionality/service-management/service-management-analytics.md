@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:32.951Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -390,7 +390,7 @@ narrative: generated
 
 > Service management analytics in Business Central covers service statistics and a set of 37 service management reports. It answers questions about analyzing service contracts, quotes, orders, items, resources, and profitability, and about what each report shows and which fields or options it offers.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Service management analytics · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

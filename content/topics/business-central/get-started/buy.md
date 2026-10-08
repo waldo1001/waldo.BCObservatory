@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:22:33.824Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ narrative: generated
 
 > The Buy section covers how to get started with Business Central: signing up for a free trial and doing the initial setup. It answers questions about trial paths by country, assisted setup guides, company information, user creation, permissions and role-specific home pages.
 
-Path: [Get started](../get-started.md) > Buy · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Buy · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

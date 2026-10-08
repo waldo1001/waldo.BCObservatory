@@ -8,12 +8,12 @@ language: en
 tags:
   - channel
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8af0d1e32430f50e51aca9a447630c1b257eb1d6530bea4d3d44ab4397156ad0
@@ -130,8 +130,6 @@ footprint:
     - id: other NavApp.GetCurrentModuleInfo
       weight: 1
   features:
-    - id: feature/573332
-      weight: 2
     - id: feature/573304
       weight: 1
     - id: feature/573312
@@ -143,6 +141,8 @@ footprint:
     - id: feature/573316
       weight: 1
     - id: feature/573322
+      weight: 1
+    - id: feature/573332
       weight: 1
     - id: feature/573352
       weight: 1

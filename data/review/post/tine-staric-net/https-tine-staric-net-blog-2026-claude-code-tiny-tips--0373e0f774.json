@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/",
+  "input_hash": "6ad55fc29e41db398d89fedd64e8a96d6b21a3886fac007a6c307fd358894eaf",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:46:46.128Z",
+  "issues": [
+    "Post is about Claude Code terminal and VS Code tips and porting agents from Copilot; it never mentions Business Central or AL, so it is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026604,
+    "posts_in_call": 4
+  }
+}

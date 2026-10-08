@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:18.313Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,7 @@ narrative: generated
 
 > Troubleshooting and FAQs for Business Central covers the Tell Me search, the Copilot experience, minimum system requirements, and the Business Central app for Microsoft Teams. It answers questions about how these features work, what they need, and how they are controlled.
 
-Path: [Get started](../get-started.md) > Troubleshooting and FAQs · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Troubleshooting and FAQs · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

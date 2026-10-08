@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:58.855Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -292,7 +292,8 @@ links:
     - topic/business-central/business-functionality/project-management/project-management-analytics/power-bi-projects-app
     - topic/business-central/business-functionality/project-management/project-management-analytics/built-in-project-reports
   localizations: []
-  videos: []
+  videos:
+    - video/dD_2NEs3A40
   posts: []
   guidelines: []
 learn_toc_path:
@@ -307,7 +308,7 @@ children:
 coverage:
   learn: 33
   code: 31
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -349,7 +350,7 @@ narrative: generated
 
 > Project management analytics in Business Central covers the ways to analyze project data: the Power BI Projects app, built-in project reports, ad-hoc Data Analysis on lists, and work-in-process (WIP) monitoring. It answers questions about project KPIs, budget and cost performance, profitability, invoicing, WIP and which report or tool to use.
 
-Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Project management](../project-management.md) > Project management analytics · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -379,6 +380,12 @@ The page on monitoring project progress and performance covers the WIP feature, 
 - [Ad-hoc analysis of projects data](https://learn.microsoft.com/dynamics365/business-central/ad-hoc-analysis-projects): Learn how to use the data analysis mode to analyze projects data.
 - [Monitor project progress and performance](https://learn.microsoft.com/dynamics365/business-central/projects-how-monitor-progress-performance): Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of projects while they're ongoing.
 - [Project analytics](https://learn.microsoft.com/dynamics365/business-central/projects-analytics-overview): Business Central has features that can help you gather, analyze, and share data from your projects for business intelligence and decision-making in your organization.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Project Management (2024 release wave 1)](../../../../videos/dD_2NEs3A40.md) (video): "Power BI reports in Project list"
 
 ## Business Central pages and reports
 

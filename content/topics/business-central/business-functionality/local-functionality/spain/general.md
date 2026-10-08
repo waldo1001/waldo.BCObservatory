@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:15.477Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,7 @@ narrative: generated
 
 > Spain general local functionality in Business Central: due date calculation under legal payment-delay limits, corrective invoices, NACE codes on company information, and operation codes for Report 340 VAT declarations. Answers setup and compliance questions for Spanish companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

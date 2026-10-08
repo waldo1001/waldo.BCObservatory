@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:54.210Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Italian local inventory functionality in Business Central: setting up fiscal inventory valuation and initial item costs. It answers how to configure valuation methods, components valuation, estimated WIP consumption, valuation types per item, and starting costs used for average year cost.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Inventory · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

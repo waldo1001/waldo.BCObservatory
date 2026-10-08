@@ -10,21 +10,21 @@ tags:
   - integration
 system: integration
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 662d9c5f8c258cf440e9c78683b873bac3924f7997f05c584891f2a16e3cef59
+  input_hash: 72f9022b6e4ef37ee1e83a7d6ce81cc63fcce09b7b6687ee328a155886e53646
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/MasterDataManagement/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/MasterDataManagement/app
     title: src/Apps/W1/MasterDataManagement/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -243,4 +243,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../videos/BlkW7VC52c0.md) (video, 2025-10-06): names Page 7230 "Master Data Management Setup"
 
-Source: [src/Apps/W1/MasterDataManagement/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/MasterDataManagement/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/MasterDataManagement/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/MasterDataManagement/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

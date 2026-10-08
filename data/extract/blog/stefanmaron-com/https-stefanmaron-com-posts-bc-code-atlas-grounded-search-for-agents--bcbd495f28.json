@@ -5,7 +5,7 @@
   "source": "stefanmaron-com",
   "published_at": "2026-08-10T05:00:00.000Z",
   "words": 1023,
-  "summary": "bc-code-atlas is an MCP server that provides AI coding agents with grounded, verifiable access to BC's Base Application source code across versions and countries, eliminating hallucinations by linking every result back to real AL files through semantic search and exact-source lookups.",
+  "summary": "bc-code-atlas is an MCP server, with a hosted instance and a self-host option, that lets AI agents or humans search Business Central Base Application source across versions and country variants. It combines semantic search, an exact call/subscribe/extend graph built on graphify-al, exact-source lookup tools, and version and country diffing so every hit can be checked against the real AL file. The author notes it is young: the public instance has no real authentication and has had outages.",
   "key_points": [
     "Addresses AI agent hallucination by ensuring all code results are verifiable against actual BC source files",
     "Offers semantic search for behavior-based discovery and exact structural graph analysis for precise call tracing",
@@ -14,8 +14,7 @@
   ],
   "systems": [
     "development",
-    "platform",
-    "copilot"
+    "platform"
   ],
   "topics": [
     "ai agents",

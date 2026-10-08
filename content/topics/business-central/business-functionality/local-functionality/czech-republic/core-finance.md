@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:38.493Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ narrative: generated
 
 > Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:22.281Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,8 @@ links:
   topics:
     - topic/business-central/business-functionality/local-functionality/denmark
   localizations: []
-  videos: []
+  videos:
+    - video/hcu7T3qLdDA
   posts: []
   guidelines: []
   changes:
@@ -65,7 +66,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -78,7 +79,7 @@ narrative: generated
 
 > Danish VAT functionality in Business Central: printing the VAT Reconciliation report, showing VAT registration numbers with country codes in Intrastat, and VAT-VIES reporting with the EC Sales List. It answers setup and reporting questions for Danish VAT compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -108,6 +109,7 @@ Start with the VAT-VIES page if you trade within the EU, since it covers the reg
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9543 Support VAT return reporting frequencies in Denmark](../../../../../changes/bcapps/9543.md) (code change): "The Danish electronic VAT declaration system now supports multiple reporting frequencies"
+- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../../../../videos/hcu7T3qLdDA.md) (video): "The Danish Bookkeeping Act; SAF-T; certification; audit file export; vat reporting"
 
 ## Business Central pages and reports
 

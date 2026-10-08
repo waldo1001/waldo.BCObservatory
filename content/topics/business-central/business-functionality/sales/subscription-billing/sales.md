@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.861Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,7 @@ narrative: generated
 
 > Sales in Subscription billing covers selling subscription lines to customers in Business Central: sales quotes and orders with subscription lines, price calculation, foreign currency handling, and credit memos or cancellations. It answers how-to questions on these sales-side tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Sales · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

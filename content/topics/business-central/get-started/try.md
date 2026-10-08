@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:13.761Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,7 @@ narrative: generated
 
 > The Try section covers starting and managing a Business Central trial: signing up, extending the trial, first setup tasks, converting to a subscription, and fixing sign-up problems. It answers questions about trial length, sample data, extensions, and self-service sign-up errors.
 
-Path: [Get started](../get-started.md) > Try · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Try · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:17.645Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Printer extensions in Business Central let AL developers send reports directly to web-connected printers. The section answers questions about the OnAfterSetupPrinters and OnAfterDocumentPrintReady events, printer and report payloads, and routing reports to email, physical, or other printer endpoints.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing printer extensions · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing printer extensions · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

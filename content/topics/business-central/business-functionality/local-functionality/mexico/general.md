@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:27.247Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,7 @@ narrative: generated
 
 > Mexico general local functionality in Business Central: electronic accounting export to the SAT as XML, deposits and troubleshooting reports in the Mexican version, and vendor payment export with SEPA Credit Transfer or AMC Banking 365 Fundamentals. It answers setup and how-to questions for these tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

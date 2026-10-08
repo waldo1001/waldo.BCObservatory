@@ -2,19 +2,19 @@
 id: localization/nz
 type: localization
 title: NewZealand (NZ)
-summary: New Zealand localization of Business Central 29. It adds GST posting with BAS reporting, withholding tax (WHT), IRD numbers and adjustment notes, tax invoices, EFT bank payments, post-dated checks, cost-plus pricing and NZ address handling. It answers which objects, fields and reports carry these local features.
+summary: New Zealand localization of Business Central 29. It adds GST posting with BAS reporting, withholding tax (WHT), IRD numbers and adjustment notes, tax invoices, EFT bank payments, post-dated checks, cost-plus pricing and NZ address handling. Use it to find the objects, fields and reports that carry these local features.
 tier: official
 language: en
 tags:
   - localization
   - nz
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:29:59.304Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -159,17 +159,17 @@ learn_folder: LocalFunctionality/NewZealand
 
 # NewZealand (NZ)
 
-> New Zealand localization of Business Central 29. It adds GST posting with BAS reporting, withholding tax (WHT), IRD numbers and adjustment notes, tax invoices, EFT bank payments, post-dated checks, cost-plus pricing and NZ address handling. It answers which objects, fields and reports carry these local features.
+> New Zealand localization of Business Central 29. It adds GST posting with BAS reporting, withholding tax (WHT), IRD numbers and adjustment notes, tax invoices, EFT bank payments, post-dated checks, cost-plus pricing and NZ address handling. Use it to find the objects, fields and reports that carry these local features.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/new-zealand.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/new-zealand.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The NZ layer is built mostly on an APAC code base shared with Australia, so many objects and fields carry ABN, BAS and GST names. It adds 170 own objects and changes W1 objects, with 459 fields, 210 procedures and 21 events added. The main areas are GST and BAS (BAS Management, BAS setup pages, GST entries, settlement fields on VAT Entry), withholding tax (WHTManagement, WHT posting groups, WHT Entry, certificates and settlement), and tax invoices and tax credit memos (TaxInvoiceManagement, posted tax document pages and reports).
+The NZ layer uses a shared APAC code base. Object names such as AU/NZ Statement and Enable GST (Australia) show the link to Australia, so many objects and fields carry ABN, BAS and GST names. It adds 170 objects of its own and changes W1 objects, adding 459 fields, 210 procedures and 21 events. The main areas are GST and BAS (BAS Management, BAS setup pages, GST entry pages, settlement fields on VAT Entry), withholding tax (WHTManagement, WHT posting groups, WHT Entry, certificates and settlement), and tax invoices and tax credit memos (TaxInvoiceManagement, posted tax document pages and reports).
 
-Posting is extended through added procedures in Gen. Jnl.-Post Line, Sales-Post, Purch.-Post, the prepayment codeunits and the invoice posting codeunits. They handle WHT, full GST on prepayments, ACY amounts and adjustment applies-to. Setup sits in General Ledger Setup (Enable GST, Enable WHT, Enable IRD No., Enable Tax Invoices), Sales & Receivables Setup and Purchases & Payables Setup.
+Posting is extended through procedures added to Gen. Jnl.-Post Line, Sales-Post, Purch.-Post, the prepayment codeunits and the invoice posting codeunits. These handle WHT, full GST on prepayments and ACY amounts. Adjustment applies-to logic is added to Gen. Journal Line, Sales Header, Purchase Header and Cust. Entry-Edit. Setup is in General Ledger Setup (Enable GST (Australia), Enable WHT, Enable IRD No., Enable Tax Invoices, Full GST on Prepayment), Sales & Receivables Setup and Purchases & Payables Setup.
 
-Banking adds EFT Management, EFT Register, the Transfer EFT Register and Create EFT File reports, and post-dated checks. Learn documents the local features: Addresses in New Zealand, withholding tax setup and settlement, IRD numbers and adjustment notes, GST posting and prepayments, EFT, cost-plus pricing, statutory financial reports, and e-invoicing with Peppol PINT A-NZ.
+Banking adds EFT Management, EFT Register, the Transfer EFT Register and Create EFT File reports, and post-dated checks. Learn covers these local features: addresses in New Zealand, withholding tax setup and settlement, IRD numbers and adjustment notes, GST posting and prepayments, EFT, cost-plus pricing, statutory financial reports, and e-invoicing with Peppol PINT A-NZ.
 
 ## Key points
 

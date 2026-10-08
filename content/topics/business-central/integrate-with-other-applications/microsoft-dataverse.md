@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:54.909Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Microsoft Dataverse integration for Business Central: connecting to Dataverse, setting up user accounts, ownership models, table and field mappings, manual and scheduled synchronization, Power Automate flows, and troubleshooting sync errors. It answers setup, configuration and error questions for syncing with other Dynamics 365 apps.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Dataverse · tier official · system integration · narrative reviewed by Opus
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Dataverse · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:21:55.918Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,7 @@ narrative: generated
 
 > Incoming documents in Business Central: setting up the feature, creating records from files, camera, or existing documents, using OCR to convert PDFs to e-invoices, and converting records to purchase invoices or journal lines. It answers how-to questions on setup, creation, linking, and view management.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Incoming documents · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Incoming documents · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

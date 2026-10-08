@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.099Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,7 +113,7 @@ narrative: generated
 
 > Upgrading Business Central on-premises to 2024 release wave 2 (version 25): upgrade paths, installing a version 25 update, report and permission changes, and application and data upgrade steps. It answers questions about which steps and tools apply to a given source version and what changes to expect.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2024 release wave 2 (v25) · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2024 release wave 2 (v25) · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

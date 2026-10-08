@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:19:58.610Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,7 +178,7 @@ narrative: generated
 
 > Exchange data covers how Business Central exchanges data with external files and services: data exchange definitions, bank payment file export and import, SEPA credit transfer and direct debit, Yodlee bank feeds, and sending, receiving and OCR conversion of electronic documents. It answers setup and field-mapping questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Exchange data · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Exchange data · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

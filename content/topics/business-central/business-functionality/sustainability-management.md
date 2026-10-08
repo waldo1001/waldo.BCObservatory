@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -470,7 +470,7 @@ narrative: generated
 
 > Sustainability management in Business Central covers tracking greenhouse gas emissions, water and waste intensity: setup, chart of sustainability accounts, journals, certificates, scorecards, carbon credits, CBAM and EPR. It answers how to configure, record, analyze and report sustainability data, including Scope 3 value chain tracking.
 
-Path: [Business functionality](../business-functionality.md) > Sustainability management · tier official · system sustainability · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Sustainability management · tier official · system sustainability · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -522,7 +522,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Introducing: Sustainability in Business Central emissions tracking; csrd compliance; esg reporting; greenhouse gas"
 - [What's New: Default Sustainability Information (2025 release wave 1)](../../../videos/2_yYu3RgYwo.md) (video): "Default Sustainability Information; sustainability setup; emissions; carbon equivalent"
 - [What's New: Sustainability Copilot (2025 release wave 2)](../../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation; copilot; sustainability journal; emission factors"
-- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../../../videos/i-MTLNYwA9o.md) (video): "Track Your Energy Consumption energy tracking esg compliance csrd regulations sustainability"
+- [What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)](../../../videos/i-MTLNYwA9o.md) (video): "Track Your Energy Consumption emissions reporting energy sources kilowatt hours"
 - [What's New: Copilot for Sustainability (2025 release wave 1)](../../../videos/JBGuaqk5nXk.md) (video): "Copilot; emissions calculation; sustainability journal; emission factors"
 - [What's New: Value Chain Automation with Assembly Orders (2025 release wave 1)](../../../videos/JoGW2xlIq0I.md) (video): "emissions tracking; sustainability setup; Sustainability Value Entry"
 - [What's New in Sustainability: Reporting for CBAM and EPR](../../../videos/kD8kX14VVZE.md) (video): "Reporting for CBAM and EPR carbon pricing emissions tracking compliance reporting"

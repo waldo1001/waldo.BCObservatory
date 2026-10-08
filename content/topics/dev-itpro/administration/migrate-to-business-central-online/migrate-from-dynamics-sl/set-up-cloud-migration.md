@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:01.195Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Cloud migration setup for Dynamics SL to Business Central online. It covers the connection and pipeline architecture, running the Cloud Migration Setup guide, and configuring global and per-company migration settings. It answers questions about setup steps, connections and migration options.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Set up cloud migration · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Set up cloud migration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

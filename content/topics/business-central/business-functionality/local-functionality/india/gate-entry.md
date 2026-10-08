@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:33.927Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Gate entry in the Business Central India localization covers recording goods entering and leaving the organization. It answers questions on setting up gate entry tracking and number series, and on creating and attaching inward and outward gate entries to purchase, sales, transfer and return documents.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Gate entry · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Gate entry · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

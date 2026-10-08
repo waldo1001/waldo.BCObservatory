@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:58.763Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,7 @@ narrative: generated
 
 > Belgium local functionality in Business Central covers VAT and Intrastat reporting, electronic banking and payments (SEPA, domiciliation, CODA), core finance tasks, and general bookkeeping setup. It answers how-to and setup questions for Belgian tax, trade and bank processes.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

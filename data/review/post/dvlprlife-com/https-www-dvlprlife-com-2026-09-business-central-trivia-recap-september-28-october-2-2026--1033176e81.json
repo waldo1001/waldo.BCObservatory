@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/",
+  "input_hash": "69b7ac7868ae70563168ec73981708c4af09d9933eb76f9632ab8ec8396435f4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:11.548Z",
+  "issues": [
+    "Post is a community trivia recap; it does not cover any Copilot product functionality, only a trivia category name, so the copilot system tag is unsupported.",
+    "Listed features describe the trivia website, not Business Central capabilities, and would mislead agents.",
+    "Keyboard shortcut quote has no value for Business Central knowledge."
+  ],
+  "applied": [
+    "dropped 1 quote(s)",
+    "dropped 8 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032053,
+    "posts_in_call": 4
+  }
+}

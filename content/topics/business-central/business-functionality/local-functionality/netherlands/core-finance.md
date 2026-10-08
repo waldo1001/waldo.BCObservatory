@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:00.172Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Core finance for the Netherlands local version of Business Central covers two general ledger topics: applying and unapplying G/L entries, and requiring descriptions on G/L entries to support audit trails. It answers questions about Dutch-specific general ledger behavior.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

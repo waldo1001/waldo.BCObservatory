@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,7 +204,7 @@ narrative: generated
 
 > Migration from Business Central on-premises to Business Central online: the cloud migration process and its phases, preparation, setup, data replication, data upgrade, and completion. It answers what to do at each phase and how to configure, run, monitor, and finish a migration.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Business Central on-premises · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

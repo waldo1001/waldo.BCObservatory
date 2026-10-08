@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:10.062Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

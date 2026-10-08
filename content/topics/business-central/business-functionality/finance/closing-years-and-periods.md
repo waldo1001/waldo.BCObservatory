@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,7 +205,7 @@ narrative: generated
 
 > Closing years and periods covers how to close accounting periods and fiscal years in Business Central. It answers questions about pre-closing checks, posting period controls, cost allocation, currency and VAT tasks, the Close Income Statement batch job, and posting the year-end closing entry.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Closing years and periods · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

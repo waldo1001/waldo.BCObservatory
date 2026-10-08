@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:33.251Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -281,7 +281,7 @@ narrative: generated
 
 > Security, privacy, and compliance in Business Central covers protecting data and controlling access, how the online service is built and run, auditing of data changes and admin events, and privacy and compliance resources. It answers questions about security controls, reliability, audit trails, certifications, and data residency.
 
-Path: Security, privacy, and compliance · tier official · system none · narrative reviewed by Opus
+Path: Security, privacy, and compliance · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

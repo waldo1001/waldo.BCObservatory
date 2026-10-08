@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:51.104Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,7 @@ narrative: generated
 
 > Planning service in Business Central Service Management covers service pricing, repair status, allocation status, and how service order status derives from item repair statuses. It answers questions about how prices are applied to service orders and how statuses change as work progresses or resources are reallocated.
 
-Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Planning service · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Service management](../service-management.md) > Planning service · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

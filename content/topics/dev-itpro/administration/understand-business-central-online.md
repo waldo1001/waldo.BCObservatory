@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,7 +189,7 @@ narrative: generated
 
 > Business Central online fundamentals: infrastructure (tenants, environments, companies), environment types, update cycles, version numbers, operation limits, country/region and language availability, trials and subscriptions, reseller setup, delegated admin access and technical support. It answers questions on how the online service is organized, run and supported.
 
-Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Understand Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

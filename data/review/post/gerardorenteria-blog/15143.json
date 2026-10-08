@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15143",
+  "input_hash": "4e932be26916a72301ce84d033949d86bb86b8a0fc9ef13b5576b196a119fbce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.060Z",
+  "issues": [
+    "Summary, key points and objects are accurate; all listed objects are named in the post or its code.",
+    "Administration system has no support; the post is about sales document dimensions and AL development.",
+    "Dimension value inheritance is not discussed as a feature; inheritance only appears as an event parameter name.",
+    "Quote is real but in Spanish; the post also has an English version of the same sentence. Kept because it is accurate and useful."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048649,
+    "posts_in_call": 4
+  }
+}

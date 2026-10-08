@@ -3,7 +3,7 @@
   "version": "29",
   "input_hash": "e5d9073ef84f2fad714ec24889c99336610be53b1bf6241199489ecf7c80aad7",
   "summary": "Italy (IT) localization of Business Central 29 covering Italian VAT (non-deductible VAT, VAT settlement, VAT transactions reports), withholding tax and contributions, customer and vendor bills with SEPA, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian fixed asset depreciation and subcontracting. It answers what Italy adds to W1 and where.",
-  "overview": "The Italian layer is large: 551 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most of the change is on posting and document tables. Sales, purchase, journal and VAT entry tables gain fields such as Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Fiscal Code. Codeunits Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry most of the new events and procedures.\n\nOwn objects cover the local features. These are bills and bill posting groups, withholding tax and INPS contributions, periodic VAT settlement, the annual VAT communication, G/L book and VAT register printing, Spesometro and Datifattura exports, the FatturaPA export and Fattura setup, payment lines for installment terms, LIFO and fiscal inventory valuation, compressed depreciation, and the Intrastat IT extensions. Learn documents these in the Italy local functionality pages. Subcontracting is documented as deprecated and replaced by a separate Subcontracting app, with a migration for sandboxes.\n\nDevelopers can hook the new events in posting, bill handling, VAT report validation, fixed asset batch posting and the cash flow worksheet. Setup is concentrated on General Ledger Setup, Company Information, VAT Posting Setup, Payment Terms and the Fattura Setup page.",
+  "overview": "The Italian layer is large: 551 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most of the change is on posting and document tables. Sales, purchase, journal and VAT entry tables gain fields such as Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Fiscal Code. Codeunits Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry many of the new events and procedures.\n\nOwn objects cover the local features. These are bills and bill posting groups, withholding tax and INPS contributions, periodic VAT settlement, the annual VAT communication, G/L book and VAT register printing, Spesometro and Datifattura exports, the FatturaPA export and Fattura setup, payment lines for installment terms, LIFO and fiscal inventory valuation, compressed depreciation, and the Intrastat IT extensions. Learn documents these in the Italy local functionality pages. Subcontracting is documented as deprecated and replaced by a separate Subcontracting app, with a migration for sandboxes.\n\nDevelopers can hook the new events in posting, bill handling, VAT report validation, fixed asset batch posting and the cash flow worksheet. Setup is concentrated on General Ledger Setup, Company Information, VAT Posting Setup, Payment Terms and the Fattura Setup page.",
   "key_points": [
     "VAT: non-deductible VAT, Deductible % on lines and VAT entries, VAT posting setup fields, Calc. and Post VAT Settlement with rounding and minimum payable, and Italian VAT statements.",
     "VAT transactions reports: suggest lines by threshold, validate, export as .ccf files, correct or cancel reports and record tax authority receipt numbers.",
@@ -263,5 +263,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.278744
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:28:44.854Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry 'most' of the new events and procedures. The input lists 23 events of 92 and 26 procedures of 337 for these codeunits, so 'most' is unsupported. Changed to 'many'."
+    ],
+    "input_hash": "e5d9073ef84f2fad714ec24889c99336610be53b1bf6241199489ecf7c80aad7",
+    "cost_usd": 0.4969068,
+    "applied": [
+      "overview"
+    ],
+    "rejected_edits": []
   }
 }

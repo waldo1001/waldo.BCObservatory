@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,7 +357,7 @@ narrative: generated
 
 > Pages and the user interface in Business Central AL development: page types, role centers, actions, views, profiles, deep links, and mobile app development. It also covers the control add-in style guide, role-based UI customization, and page inspection. Use it for questions on designing, extending, and debugging the UI.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

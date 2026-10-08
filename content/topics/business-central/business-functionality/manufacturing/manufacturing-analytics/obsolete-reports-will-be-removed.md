@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.379Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,7 +160,7 @@ narrative: generated
 
 > Obsolete manufacturing analytics reports in Business Central that will be removed. It covers cost reports (calculation, cost shares, BOM compare), and machine center and work center list and load reports. Use it to identify what each retiring report shows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Obsolete reports (will be removed) · tier official · system platform · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Obsolete reports (will be removed) · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

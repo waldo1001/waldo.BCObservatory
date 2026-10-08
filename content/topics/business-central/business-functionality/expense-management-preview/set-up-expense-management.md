@@ -11,7 +11,7 @@ review:
   at: "2026-10-06T15:20:30.221Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -137,7 +137,7 @@ narrative: generated
 
 > Expense management (preview) setup in Business Central covers the general settings, the Expense Agent, categories, rules and policies, expense users and teams, mileage rates, and per diem and mileage allowances. Use it to answer questions about what to configure before employees submit and process expenses.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Set up expense management · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.799Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -416,7 +416,7 @@ narrative: generated
 
 > Spain local functionality in Business Central: VAT declarations and SII, banking and payment exports, VERI*FACTU electronic invoicing and Cartera bills, statutory finance reports, and general items such as due dates and NACE codes. It answers setup, generation and submission questions for Spanish compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Spain · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Spain · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

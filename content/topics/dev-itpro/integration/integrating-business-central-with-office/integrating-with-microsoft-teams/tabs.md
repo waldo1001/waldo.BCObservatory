@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:38.364Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Business Central tabs in Microsoft Teams: how to create them programmatically in channels and chats through the Microsoft Graph API, and how to customize the recommended list pages shown when users configure a tab. It answers setup and customization questions for developers.
 
-Path: [Integration](../../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../../integrating-business-central-with-office.md) > [Integrating with Microsoft Teams](../integrating-with-microsoft-teams.md) > Tabs · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../../integrating-business-central-with-office.md) > [Integrating with Microsoft Teams](../integrating-with-microsoft-teams.md) > Tabs · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

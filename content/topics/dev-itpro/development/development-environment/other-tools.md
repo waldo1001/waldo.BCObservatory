@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > Other development tools for Business Central: Page Inspection for examining page structure and data sources, the Txt2Al tool for converting C/AL objects to AL, and the table data viewer for inspecting tenant tables. Answers questions about debugging pages, converting NAV 14 code, and viewing table contents.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Other tools · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Other tools · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.260Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > Core finance for Russia in Business Central covers local currency information and exchange rate import from Russian banks, general ledger correspondence, and financial reports. It answers questions about setting up these features, building statutory reports, and comparing results with budgets.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

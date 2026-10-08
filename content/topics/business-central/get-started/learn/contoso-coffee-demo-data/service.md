@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:50.830Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Contoso Coffee demo data for Service Management in Business Central. It covers the sample resources, skills, service items and loaner items, plus two walkthroughs: service orders and service contracts for service items.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Service · tier official · system service · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Service · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

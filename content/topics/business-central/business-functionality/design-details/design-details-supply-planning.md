@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,7 +132,7 @@ narrative: generated
 
 > Supply planning design details in Business Central: how the planning system balances supply and demand, applies reordering policies and planning parameters, and uses reservation, order tracking, action messaging, the planning assignment table and transfers. Answers how-it-works questions about planning logic.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Supply planning · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Supply planning · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

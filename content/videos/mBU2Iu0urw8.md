@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:50.281Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:50.373Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -70,7 +70,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573338
   topics: []
   localizations: []
   videos: []
@@ -245,10 +246,12 @@ features:
     verified: false
     status_source: video
   - name: Language Server Protocol (LSP) for AL
-    status: unclear
+    status: ga
     t: 1187
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573338"
   - name: LSP folding range endpoint
     status: unclear
     t: 1395
@@ -443,7 +446,7 @@ The second half covers the ALMCP server and AL CLI tool (.NET tools installable 
 | Agent database statistics access | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=788s) |
 | Agent stack trace analysis | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=824s) |
 | ALMCP GitHub Copilot integration | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=994s) |
-| Language Server Protocol (LSP) for AL | status not stated, demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |
+| Language Server Protocol (LSP) for AL | generally available (roadmap [573338](../features/573338.md)), demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |
 | LSP folding range endpoint | status not stated | [23:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1395s) |
 | BCbench evaluation framework | status not stated | [24:51](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1491s) |
 | Hidden test verification method | status not stated | [25:20](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1520s) |
@@ -462,6 +465,8 @@ The second half covers the ALMCP server and AL CLI tool (.NET tools installable 
 | Agent-assisted telemetry analysis | status not stated, demoed | [42:48](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2568s) |
 | Agent pull request commenting | status not stated | [43:57](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2637s) |
 | Custom AL code analyzers with MCP server | status not stated | [39:30](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=2370s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

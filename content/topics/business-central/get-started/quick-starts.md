@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:22:11.597Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ narrative: generated
 
 > Business Central quick starts are beginner guides for first-time setup and basic daily tasks. They answer questions on company information, chart of accounts and bank accounts, sales, procurement, reports and documents output, and business intelligence.
 
-Path: [Get started](../get-started.md) > Quick starts · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Quick starts · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

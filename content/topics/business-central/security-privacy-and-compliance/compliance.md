@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:11.701Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,7 @@ narrative: generated
 
 > Compliance in Business Central covers how the application and the online service meet regulatory, certification, and SLA requirements. It answers questions about accounting standards support, country certifications, ISO and industry certifications, service architecture and availability, and trial features that connect to other Microsoft services.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative reviewed by Opus
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Compliance · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

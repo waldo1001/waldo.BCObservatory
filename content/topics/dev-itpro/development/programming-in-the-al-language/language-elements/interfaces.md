@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Interfaces in AL: how to declare them, implement them in codeunits, give methods default implementations, extend interfaces, and manage method changes over time. It answers questions about polymorphism, the is and as operators, and safely adding or removing interface methods in published extensions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Interfaces · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Interfaces · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -120,7 +120,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#98 Add P0 event and interface compatibility knowledge](../../../../../changes/bcquality/98.md) (code change): "Guidelines for extending published interfaces with versioned siblings and BC25+ extends syntax"
 - [Another Look at App Integration in Business Central – Part 2](../../../../../posts/jpearson-blog/1419.md) (community post): "Apps can integrate without direct dependencies by implementing interfaces defined in a shared app integration layer"
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies, preventing immediate breaking changes"
-- [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "default implementation for al interfaces; required pending attribute"
+- [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "Default implementation for AL interfaces; Required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

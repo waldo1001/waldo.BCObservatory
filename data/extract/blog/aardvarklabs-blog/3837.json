@@ -7,11 +7,10 @@
   "words": 982,
   "summary": "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete. Introduced in Business Central 2019 Wave 2, they prevent users from repeatedly refreshing pages while waiting for operations to finish by using the OnPageBackgroundTaskCompleted trigger to update data and UI automatically.",
   "key_points": [
-    "Background page tasks were introduced in BC 15.2 (2019 Wave 2) and handle periodic page refreshes without user intervention",
-    "Architecture requires a static Card page with an embedded ListPart that performs the refresh, coordinated through the StartRefresh procedure",
-    "The OnPageBackgroundTaskCompleted trigger fires when a background task finishes, allowing re-queuing of tasks and automatic data refresh via the RefreshData procedure",
-    "Beyond auto-refresh, background tasks excel at monitoring long-running work like posting routines, displaying messages, navigating pages, or triggering AI processes upon completion",
-    "Task tracking uses an integer variable (PbtTaskId) to ensure the correct background task result is processed without intercepting other tasks"
+    "Page background tasks arrived in BC 2019 Wave 2 (15.2) and let a page refresh itself so users do not have to keep refreshing by hand",
+    "Refreshing a page also refreshes its background worker, so the design needs a static host page and a dynamic page that gets refreshed. The example uses a Card with an embedded ListPart, started through a StartRefresh procedure",
+    "OnPageBackgroundTaskCompleted fires for any completed page background task, so the code compares the TaskId with the stored PbtTaskId before it requeues the task and calls RefreshData",
+    "The codeunit only sleeps here, but it could do real long-running work such as posting. When the work finishes, the page could show a message, navigate somewhere else or start an AI process"
   ],
   "systems": [
     "platform",

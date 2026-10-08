@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 742906014cd32d72de9f51e1942e10b4326dd559ddabc7d08c06192ff1c2394d
@@ -63,7 +63,7 @@ footprint:
     - id: development
       weight: 18
     - id: administration
-      weight: 16
+      weight: 15
     - id: platform
       weight: 13
     - id: reporting
@@ -132,7 +132,7 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (18) | telemetry (9) | codeunit 1350 (1) |
-| administration (16) | troubleshooting (6) | codeunit implementation codeunit (1) |
+| administration (15) | troubleshooting (6) | codeunit implementation codeunit (1) |
 | platform (13) | performance (5) | codeunit ISC Process Update Queue Meth (1) |
 | reporting (11) | kql (3) | interface Invoice Posting Interface (1) |
 | copilot (4) | performance troubleshooting (3) | other BC Telemetry Buddy (1) |

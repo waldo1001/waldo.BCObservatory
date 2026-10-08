@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:22.627Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -179,7 +179,7 @@ narrative: generated
 
 > Assembly analytics covers the Business Central reports and analytics for assembly activity: BOM listings, sub-assemblies, end items, raw materials, where-used, cost share, item availability over time, and assemble-to-order sales. It answers questions about what each report shows and when to use it.
 
-Path: [Business functionality](../../business-functionality.md) > [Assembly management](../assembly-management.md) > Assembly analytics · tier official · system assembly · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Assembly management](../assembly-management.md) > Assembly analytics · tier official · system assembly · narrative reviewed (checked by Opus)
 
 ## Overview
 

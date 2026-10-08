@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:30.090Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Troubleshooting guides for Business Central web services (OData, API and SOAP). They answer questions about failed calls, HTTP status codes, OData error codes, how AL runtime exceptions map to OData errors, and which telemetry and debugging tools help find the cause.
 
-Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting guides (TSGs)](../troubleshooting-guides-tsgs.md) > Troubleshoot web services · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Troubleshooting](../../troubleshooting.md) > [Troubleshooting guides (TSGs)](../troubleshooting-guides-tsgs.md) > Troubleshoot web services · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

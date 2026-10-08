@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Power Automate integration with Business Central covers building no code/low code workflows with the Business Central connector. It answers questions about flow types, triggers and actions, using flows in Business Central, and troubleshooting automated flows.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Automate · tier official · system integration · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Automate · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

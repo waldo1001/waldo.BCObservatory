@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,6 +71,7 @@ links:
     - video/YTA8c2XyTX4
   posts:
     - post/aardvarklabs-blog/2907
+    - post/aardvarklabs-blog/3579
     - post/aardvarklabs-blog/3631
   guidelines: []
   changes:
@@ -86,7 +87,7 @@ coverage:
   learn: 5
   code: 0
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -97,7 +98,7 @@ narrative: generated
 
 > Power Automate integration with Business Central: how administrators set up access and permissions, how to create automated and instant flows, and how to manage existing flows. It answers questions about triggers, actions, the Business Central connector, Teams integration, and flow management.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Automate · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Power Automate · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -129,9 +130,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download scheduled report outputs"
 - [Debugging Business Event Subscriptions in Business Central](../../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Event Subscriptions page lists all subscriptions, events, and notification URLs"
+- [Creating a Low-Cost RFID System with Business Central and Power Automate](../../../../posts/aardvarklabs-blog/3579.md) (community post): "Power Automate acts as middleware between the ESP32 and Business Central"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Using Power Automate for Business Central SFTP handles file uploads"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Job Queue Business Event and Templates; Power Automate New Designer Support"
-- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; power automate; copilot; flow creation"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; natural language; automation"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Business Events via Power Automate; Data Change Events via Power Automate"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

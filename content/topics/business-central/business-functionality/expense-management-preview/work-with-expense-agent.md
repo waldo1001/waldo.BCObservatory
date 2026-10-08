@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-07T01:17:01.427Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,7 +102,7 @@ narrative: generated
 
 > Expense Agent in Business Central (preview) covers the end-to-end user workflow: uploading receipts, creating mileage expenses, reviewing and editing expenses, building and submitting reports, approving or sending them back, and using the mobile app. It answers how-to questions for requesters and approvers.
 
-Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with Expense Agent · tier official · system copilot · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Expense management (preview)](../expense-management-preview.md) > Work with Expense Agent · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

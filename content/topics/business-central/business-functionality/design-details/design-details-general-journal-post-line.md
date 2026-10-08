@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:13.574Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > General journal post line design details for Business Central: how Codeunit 12 handles general ledger, VAT, customer and vendor ledger posting. Answers questions about the posting interface, the posting engine, and Apply, Unapply and Reverse operations.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: General journal post line · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: General journal post line · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

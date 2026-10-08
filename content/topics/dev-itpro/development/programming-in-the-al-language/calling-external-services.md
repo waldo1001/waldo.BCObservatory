@@ -7,12 +7,12 @@ tier: official
 language: en
 system: development
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -91,7 +91,6 @@ links:
   videos:
     - video/qNHUj3ZEang
   posts:
-    - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/2953
     - post/demiliani-com/13640
     - post/kauffmann-nl/8332
@@ -117,7 +116,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -154,7 +153,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "The Email - Outlook REST API connector now skips attachments without contentBytes"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../../changes/bcquality/100.md) (code change): "Webhook eligibility checks and validation token renewal patterns"
-- [How to Work with JSON in Business Central’s AL Code](../../../../posts/aardvarklabs-blog/1826.md) (community post): "Working with JSON in Business Central AL involves understanding JSON structures"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "how to consume external APIs from within Business Central by making HTTP requests using the HttpClient data type"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"

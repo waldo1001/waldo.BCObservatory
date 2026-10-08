@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:11.748Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Fixed assets functionality specific to Russia in Business Central: depreciation, charges, inventory, gratuitous receipts, release, movement and write-off acts, sales, and viewing posted charge entries. It answers how to post and track fixed assets under Russian requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

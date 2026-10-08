@@ -16,12 +16,12 @@ tags:
   - tooling
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:26.755Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,7 +65,6 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - copilot
 versions_mentioned: []
 preview:
   embeddable: true
@@ -81,17 +80,17 @@ preview:
 
 # The Engineering Stairway to Heaven
 
-[Read the post](https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/) · Freddys blog (Freddy Kristiansen) · 2026-08-15 · 2663 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven/) · Freddys blog (Freddy Kristiansen) · 2026-08-15 · 2663 words · tier community · reviewed (checked by Opus)
 
 > Engineering is evolving through a stairway of six ascending steps, from traditional code-writing to orchestrating systems of AI agents. The post describes how engineers move from doing all work themselves, to prompting, adding context, building harnesses, designing feedback loops, and finally architecting multi-agent graphs. Business Central lags behind in AI tooling and context compared to mainstream development stacks.
 
 ## Key points
 
-- Engineering now includes prompt engineering (asking the AI), context engineering (providing knowledge), harness engineering (giving tools and permissions), loop engineering (designing autonomous cycles), and graph engineering (orchestrating multiple agents).
-- Vibe coding (accepting AI output without understanding it) skips essential rigor and only works with guardrails; tools like Lovable embed architectural structure and context handling automatically.
-- Business Central developers lack the AI tooling, context, and agent infrastructure that mainstream stacks now offer, requiring community and partner collaboration to close the gap.
-- Each step builds on previous ones; classical engineering principles (craftsmanship, architecture, system design) remain foundational at every level, just applied to AI-driven components.
-- The stairway is unfinished with emerging steps like evaluation engineering, memory engineering, and environment engineering likely to appear.
+- The post describes a stairway of engineering steps: old school coding, prompt, context, harness, loop and graph engineering, with each step building on the one below.
+- Context matters more than clever prompting, harnesses give the AI tools and permissions, loops add autonomy, and graphs orchestrate many specialised agents.
+- Vibe coding gets no step of its own. It is fine for prototypes but risky in production without real code understanding; tools like Lovable build guardrails in.
+- The author says AL and Business Central tooling, model context and agents trail mainstream stacks, and calls for partners, Microsoft and the community to work together.
+- The stairway is unfinished; evaluation, memory and environment engineering are named as possible next steps.
 
 ## Quotes
 

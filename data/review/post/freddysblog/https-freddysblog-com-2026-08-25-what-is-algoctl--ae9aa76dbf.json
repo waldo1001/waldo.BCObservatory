@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/25/what-is-algoctl",
+  "input_hash": "62c7d5be4e4522e48dbf3bcf808541cf831190658f1ce408f1d5c0e7eaa9ba9e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:09.390Z",
+  "issues": [
+    "Summary, key points, features and quotes are supported by the post.",
+    "Quote 1 is short but accurate.",
+    "The post does not support the integration system tag."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040562,
+    "posts_in_call": 4
+  }
+}

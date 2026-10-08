@@ -3,7 +3,7 @@
   "version": "29",
   "input_hash": "6584ce5f18e701d6aa687530cd470355a5ef09cb6cef62bd2057ce860d344fbc",
   "summary": "Canada (CA) localization of Business Central 29. It covers sales tax and GST/HST calculation and reporting, GIFI codes, bank deposits and reconciliation, and EFT electronic payments. It also carries the North American (NA) report set and extra Mexico (SAT/CFDI, DIOT) objects. It answers what the Canadian layer adds to W1 tax, banking, sales and purchase objects.",
-  "overview": "The Canadian layer is built on the sales tax model: Tax Area, Tax Jurisdiction, Tax Detail and Tax Group. Codeunit 398 \"Sales Tax Calculate\" gains events and an external tax engine hook, and the posting codeunits (Sales-Post, Purch.-Post, Serv-Documents Mgt.) gain procedures that post sales tax to G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field. Learn documents sales tax, GST/HST reporting, use and purchase tax, unrealized sales tax and sales payment discounts.\n\nBanking adds deposits, bank reconciliation worksheets and EFT export. The EFT export has codeunits for ACH, RB, Cecoban and IAT formats, with fields on Bank Account, Customer/Vendor Bank Account and Gen. Journal Line. GIFI codes are added to G/L Account and documented on Learn, including export of balances for tax preparation software. Also added are many NA reports (sales, purchases, inventory, jobs, resources), Yodlee bank feeds, Ceridian payroll import, PEPPOL 3.0 NA and a Shopify tax match feature.\n\nThe package also holds Mexican objects: CFDI e-invoicing with PAC and SAT catalogs, DIOT, and many fields on sales, transfer and company tables. The code summary does not tie these to Canadian requirements, and no Learn page in the input covers them.",
+  "overview": "The Canadian layer is built on the sales tax model: Tax Area, Tax Jurisdiction, Tax Detail and Tax Group. Codeunit 398 \"Sales Tax Calculate\" gains events and an external tax engine hook. Sales-Post and Purch.-Post gain procedures that post sales tax to G/L, and Purch.-Post also calculates and posts provincial sales tax. On the service side, Serv-Documents Mgt. adds sales tax calculation events and Serv-Posting Journals Mgt. adds an event for posting sales tax to G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field. Learn documents sales tax, GST/HST reporting, use and purchase tax, unrealized sales tax and sales payment discounts.\n\nBanking adds deposits, bank reconciliation worksheets and EFT export. The EFT export has codeunits for ACH, RB, Cecoban and IAT formats, with fields on Bank Account, Customer/Vendor Bank Account and Gen. Journal Line. GIFI codes are added to G/L Account and documented on Learn, including export of balances for tax preparation software. Also added are many NA reports (purchases, inventory, jobs, resources), Yodlee bank feeds, Ceridian payroll import, PEPPOL 3.0 NA and a Shopify tax match feature.\n\nThe package also holds Mexican objects: CFDI e-invoicing with PAC and SAT catalogs, DIOT, and many fields on sales, transfer and company tables. The code summary does not tie these to Canadian requirements, and no Learn page in the input covers them.",
   "key_points": [
     "Sales tax engine: Tax Area, Tax Jurisdiction and Tax Detail changes, with an external tax engine interface and codeunit 398 events.",
     "GST/HST and provincial tax: GST/HST fields on G/L Entry, VAT Entry and Purchase Line, provincial tax area codes, and purchase/use tax handling.",
@@ -11,7 +11,7 @@
     "Deposits and bank reconciliation: Posted Deposit/Bank Rec. codeunits and permission sets, plus Navigate support for deposits.",
     "EFT electronic payments in ACH, RB, Cecoban and IAT formats via Export Payments/EFT codeunits and bank account fields.",
     "Check printing changes: Check Ledger Entry, Check Preview and Print Check Helper.",
-    "NA report set for sales, purchases, inventory and jobs, plus Yodlee, Ceridian payroll and a Shopify tax match feature.",
+    "NA report set for purchases, inventory, jobs and resources, plus Yodlee, Ceridian payroll and a Shopify tax match feature.",
     "Mexican CFDI, SAT and DIOT objects are also present in the code."
   ],
   "areas": [
@@ -271,5 +271,22 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.24923
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:25:02.486Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says Serv-Documents Mgt. gains procedures that post sales tax to G/L. In the input only Sales-Post and Purch.-Post add PostSalesTaxToGL. Serv-Documents Mgt. adds sales tax calculation events, GetUseExternalTaxEngine and TestTaxGroup. The service-side post-to-G/L event is on Serv-Posting Journals Mgt.",
+      "The NA report set is described as covering sales. The visible own-object lists show purchase, inventory, job and resource reports, not a customer-side sales report set. Wording narrowed to what is shown."
+    ],
+    "input_hash": "6584ce5f18e701d6aa687530cd470355a5ef09cb6cef62bd2057ce860d344fbc",
+    "cost_usd": 0.4490428,
+    "applied": [
+      "overview",
+      "key_points"
+    ],
+    "rejected_edits": []
   }
 }

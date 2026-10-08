@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:58.943Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Belgian VAT and Intrastat functionality in Business Central: VAT declarations, annual listings, EC sales lists, manual VAT corrections, non-deductible VAT, and Intrastat setup, printing and export to OneGate. It answers how-to questions for Belgian tax and trade reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

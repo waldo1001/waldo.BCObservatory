@@ -9,12 +9,12 @@ tags:
   - localization
   - be
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:23:40.147Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -132,7 +132,7 @@ learn_folder: LocalFunctionality/Belgium
 
 > Belgium (BE) localization of Business Central 29. It covers Belgian VAT reporting with non-deductible VAT, Intrastat, CODA bank statements, electronic banking (domestic, international, SEPA payments), domiciliation direct debits, enterprise numbers, legal ledger reports and PEPPOL 3.0. It answers where Belgian-specific setup, fields and reports live.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/belgium.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/belgium.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

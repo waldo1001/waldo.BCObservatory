@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:16.997Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,7 +155,7 @@ narrative: generated
 
 > Upgrading on-premises Business Central to 2021 release wave 1 (version 18) from versions 14, 15, 16 and 17. It answers questions on upgrade paths, C/AL to AL conversion, permission set migration, moving tables between extensions, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 1 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 1 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

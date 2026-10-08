@@ -10,7 +10,7 @@
     "Carta de Porte: transport, vehicle, trailer, insurer and customs fields on sales and transfer documents, with SAT catalogs for fixed assets and items.",
     "DIOT report: setup through Assisted Setup, vendor type of operation, optional withholding tax reporting.",
     "Electronic accounting export of chart of accounts, trial balance and journal transactions to SAT using SAT Account Code on G/L Account.",
-    "RFC and CURP tax identification types on customers, vendors, employees and company information.",
+    "RFC and CURP tax identification types on customers, vendors and company information, with an RFC No. field also added on employees.",
     "VAT recalculation and unrealized VAT handling for foreign currency payments, added in Gen. Jnl.-Post Line.",
     "EFT export codeunits (ACH, RB, Cecoban, IAT) and bank deposits and reconciliation, plus North American sales tax calculation with external tax engine hooks."
   ],
@@ -262,5 +262,21 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.321408
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:29:07.562Z",
+    "verdict": "fix",
+    "issues": [
+      "Key point 6 says RFC and CURP are on employees. The input only shows RFC No. (and License No.) added to Employee, with no CURP field. CURP No. is added on Customer, Vendor and Company Information. The Learn page on tax identification types covers customers and vendors.",
+      "Small point: saying the Mexican CFDI Wizard 'guides setup' is inferred from the page name. It is acceptable."
+    ],
+    "input_hash": "88ac680b31e247861112774a5da67cff9c8f7620c5a525f1531f615c4b0ab540",
+    "cost_usd": 0.4431348,
+    "applied": [
+      "key_points"
+    ],
+    "rejected_edits": []
   }
 }

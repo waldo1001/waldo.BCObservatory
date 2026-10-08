@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.623Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,7 @@ narrative: generated
 
 > .NET interoperability from AL in on-premises Business Central: declaring dotnet packages and types, using control add-ins, serializing types, subscribing to events, and migrating from .NET Framework to .NET Standard. It answers how-to and compatibility questions for on-premises deployments only.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Using .NET (on-premises only) · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Using .NET (on-premises only) · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:25:04.817Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -103,7 +103,7 @@ narrative: generated
 
 > The Sell section covers how partners resell Business Central Online, sell apps through Marketplace, onboard customers, and customize the product. It answers questions about reseller enrollment, licensing, app plans and entitlements, onboarding tools, and configuration packages.
 
-Path: [Get started](../get-started.md) > Sell · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Sell · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

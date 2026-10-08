@@ -10,21 +10,21 @@ tags:
   - platform
 system: platform
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a108bd4cd63118288f20d705e41865094d40adfd32fc227d787c3a95069df01d
+  input_hash: e80a46f38ae55bac173f35fe15dd88e761acfc201c0b7976c35ff2e27a461d3f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app
     title: src/Apps/W1/External File Storage - SFTP Connector/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -131,4 +131,4 @@ First-party app · folder `src/Apps/W1/External File Storage - SFTP Connector/ap
 |---|---|---|
 |  | [Ext. SFTP Connector](../objects/entitlement/ext-sftp-connector.md) |  |
 
-Source: [src/Apps/W1/External File Storage - SFTP Connector/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External File Storage - SFTP Connector/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20SFTP%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

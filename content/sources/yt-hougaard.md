@@ -8,12 +8,12 @@ language: en
 tags:
   - channel
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 33e420f45e16ff99d00d15c0f6aff79c8513e235f740e26069cb142c73f783db

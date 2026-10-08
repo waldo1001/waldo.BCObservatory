@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:58.372Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > Withholding tax in the Italian version of Business Central: how to set it up for vendor purchases and third-party services, and how to print the Withholding Taxes reports for amounts payable to the Italian government. It answers setup and reporting questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Withholding tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Withholding tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

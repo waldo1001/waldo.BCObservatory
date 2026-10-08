@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:38.557Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Microsoft 365 integration in Business Central: opening files in OneDrive, saving contacts to Outlook, sharing records in Teams, merging data into Word templates, and viewing or editing data in Excel. It answers how-to questions about using these apps with Business Central data.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Get the most out of Microsoft 365 apps · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

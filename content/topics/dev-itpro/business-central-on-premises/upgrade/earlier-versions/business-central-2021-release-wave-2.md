@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:56.174Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,7 @@ narrative: generated
 
 > Upgrading on-premises Business Central to 2021 release wave 2 (version 19) from versions 14 to 18. Covers technical upgrade steps, C/AL to AL conversion with Txt2Al, moving tables between extensions with migration.json, permission set upgrades, installing version 19 cumulative updates, the India data migration toolkit, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 2 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2021 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

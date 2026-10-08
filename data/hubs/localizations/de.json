@@ -209,5 +209,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.14768799999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:26:01.270Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview lists 'DACH report selections' among W1 objects extended with fields. DACH Report Selections (table 26100) is an object Germany adds itself. The W1 change is the InitDACHReportSelection procedure in Report Selection Mgt. This is a small wording point.",
+      "Key point 4 says the Buyer Reference setting is 'on customers'. The input has an E-Document Customer Card DE page extension, an E-Document Buyer Reference enum, and Learn features 'Buyer Reference Mandatory' and 'Buyer Reference field'. Where the setting sits is a reasonable inference but is not stated outright.",
+      "Key point 8 puts physical inventory orders together with Intrastat. Both are in the Inventory area, so this is acceptable, but they are separate features."
+    ],
+    "input_hash": "cb91a5ff1b1b02e8672686195eaa4a7b9362085ac8a28471a6bd19f89943b379",
+    "cost_usd": 0.2541348,
+    "applied": [],
+    "rejected_edits": []
   }
 }

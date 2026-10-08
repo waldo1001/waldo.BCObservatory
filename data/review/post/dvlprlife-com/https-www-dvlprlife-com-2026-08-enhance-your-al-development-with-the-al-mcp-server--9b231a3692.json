@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/",
+  "input_hash": "8bca6267d2c86cad3158e070744ad9b178eda3a9e5da0c38075dc3dba45cc3f0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:21.935Z",
+  "issues": [
+    "Key points overstated autonomy: the post says the demo was interactive and full automation is a possible future, not something already done without humans.",
+    "Key points left out the overlap with the AL Language extension's own Copilot tools and the demo results.",
+    "Quote 2's explanation adds a claim about design decisions that the post does not make. The quote is still useful, so it stays.",
+    "The integration system tag has no support in the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037779,
+    "posts_in_call": 4
+  }
+}

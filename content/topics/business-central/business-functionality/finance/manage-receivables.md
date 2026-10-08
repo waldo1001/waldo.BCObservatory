@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:23.051Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,7 +343,7 @@ narrative: generated
 
 > Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,7 +348,7 @@ narrative: generated
 
 > Built-in sales reports in Business Central: receivables and customer balance reports, order and back-order reports, salesperson reports, and printable sales documents (quotes, order confirmations, invoices, credit memos, shipments, return receipts). It also covers variants for subscription billing, QR codes and sustainability data. It answers what each report shows and which filters and options it has.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Built-in sales reports · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

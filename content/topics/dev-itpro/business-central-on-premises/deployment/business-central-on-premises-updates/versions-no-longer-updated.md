@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:19:17.855Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,7 @@ narrative: generated
 
 > Archive of update pages for Business Central on-premises versions that no longer receive updates, from version 13 (October 2018) to version 25 (2024 release wave 2). It answers questions about which cumulative updates, hotfixes and regulatory features were released for each older version, and when.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Deployment](../../deployment.md) > [Business Central on-premises updates](../business-central-on-premises-updates.md) > Versions no longer updated · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Deployment](../../deployment.md) > [Business Central on-premises updates](../business-central-on-premises-updates.md) > Versions no longer updated · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

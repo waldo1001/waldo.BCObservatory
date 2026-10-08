@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 67025ec59477024443ad17cd73c4435ee388c1360468e633252b6cad7c3f7692

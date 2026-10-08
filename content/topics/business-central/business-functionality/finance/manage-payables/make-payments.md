@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -242,7 +242,7 @@ narrative: generated
 
 > Making vendor payments in Business Central: payment journals, Suggest Vendor Payments, checks (print, void, positive pay), electronic bank export (SEPA Credit Transfer, AMC Banking 365 Fundamentals), immediate settlement of purchase invoices, and general journals. It answers how-to and setup questions on paying vendors.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Make payments · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

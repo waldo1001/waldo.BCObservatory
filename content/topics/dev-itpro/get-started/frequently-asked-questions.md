@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:56.385Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ narrative: generated
 
 > Frequently asked questions for Business Central cover AppSource app publishing, testing, updating and validation, AL development, library apps, migrating to Business Central online, and the Windows client deprecation. It answers practical how-and-why questions for partners, developers and admins.
 
-Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Frequently asked questions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

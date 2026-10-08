@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > Entitlements and permissions in Business Central: how license-based entitlements, permissions and permission sets differ, how the license plans are structured, and what the special permission sets (SUPER, D365 BASIC, SYSTEM APP) provide. It answers questions about access control and licensing.
 
-Path: [Administration](../administration.md) > Entitlements and permissions · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Entitlements and permissions · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

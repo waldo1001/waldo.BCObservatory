@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -433,6 +433,7 @@ links:
     - video/giNi8WtCX_s
     - video/oIoH3gxc0uk
     - video/Pt8LrNv_Lgc
+    - video/QdWPlIV3Avk
     - video/SdQVQLNXVS0
     - video/tzX0qB9tiBs
     - video/vnaySMIKnp8
@@ -472,7 +473,7 @@ children:
 coverage:
   learn: 65
   code: 110
-  video: 9
+  video: 10
   blog: 1
   guideline: 0
 bc_forms:
@@ -596,7 +597,7 @@ narrative: generated
 
 > Manufacturing in Business Central covers planning, running and costing production orders, from creation through posting consumption, output, scrap and capacity to finishing, reversing and cost adjustment. It answers how-to questions on production order handling, journals, corrections, subcontracting and analytics.
 
-Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -665,6 +666,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "production bom; document attachments; bom versions; version comparison"
 - [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "flushing methods; production orders; material consumption"
 - [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations; operational times"
+- [What's new in SCM: Subcontracting (2026 release wave 2)](../../../videos/QdWPlIV3Avk.md) (video): "production orders; routing; work in progress items"
 - [What's New in Manufacturing: Order Processing (2025 release wave 1)](../../../videos/SdQVQLNXVS0.md) (video): "production order; usability; bulk status change; attachments; scheduling; safety lead time"
 - [What's New in Manufacturing: Reverse Production Order Transactions (2025 release wave 1)](../../../videos/tzX0qB9tiBs.md) (video): "reverse production order transactions; production order reopening"
 - [What's New in Manufacturing: Integration to Warehouse (2025 release wave 1)](../../../videos/vnaySMIKnp8.md) (video): "warehouse putaway; production output; directed putaway and pick"

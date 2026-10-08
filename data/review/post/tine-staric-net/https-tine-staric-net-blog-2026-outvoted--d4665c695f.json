@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/",
+  "input_hash": "3e8cff9f831172cafe7c00371d13d05a07b1933d7f6a93255872fa001c879f39",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:47:06.819Z",
+  "issues": [
+    "The post covers LLM agent sessions in general: prompt caching costs, attention, and handoffs. Business Central comes up only once, as a passing reference to the base app in a subagent example.",
+    "Several key points get the post wrong. It calls handoffs a deliberate cache burn, but the page says they avoid cache invalidation. It also says resumed sessions are billed at full input rates, when the post says the cache-read rate applies.",
+    "The integration system has no support in the post."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037591,
+    "posts_in_call": 4
+  }
+}

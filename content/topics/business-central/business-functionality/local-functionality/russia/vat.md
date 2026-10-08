@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.536Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Russia VAT functionality in Business Central: uploading VAT purchase and sales books and declarations to XML, customer prepayment VAT, VAT reinstatement, VAT settlement, and the vendor tax agent scheme. It answers setup and process questions for each of these.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

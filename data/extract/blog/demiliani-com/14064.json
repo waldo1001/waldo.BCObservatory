@@ -7,11 +7,11 @@
   "words": 3849,
   "summary": "Guide for migrating Business Central-related Azure and Power Platform resources from West Europe or North Europe to the new Italy North region. Covers strategic reasons for migration, detailed step-by-step procedures for Azure services (Application Insights, Storage, Function Apps, Logic Apps, SQL Database, Azure OpenAI) and Power Platform environments, migration strategies to minimize downtime, cost considerations, and post-migration reconfiguration tasks.",
   "key_points": [
-    "Italy North datacenter provides lower latency for Italian users, local data residency, and regulatory compliance benefits, with only 22ms average latency to Western Europe.",
-    "Power Platform geo-to-geo migration requires Microsoft Support request with 10+ days lead time and causes unavoidable downtime; Azure services can migrate with parallel-run approach for zero-user downtime.",
-    "Most Azure services (Application Insights, Storage, Function Apps, Logic Apps, SQL Database, Azure OpenAI) must be recreated in the new region since Azure lacks a built-in move function; existing configuration and data must be manually copied.",
-    "Power Platform components outside solutions (canvas apps, cloud flows not in solutions, enterprise policies, DLP rules) do not automatically migrate and require manual recreation post-migration.",
-    "Coordination between Power Platform (must request first) and Azure migrations is critical; run parallel environments briefly to minimize costs while ensuring complete testing before switching production traffic."
+    "Moving Azure services to Italy North is optional; average latency is about 22 ms from Italy North to West Europe, so most services are barely affected.",
+    "Most Azure resources (Application Insights, Storage, Function Apps, Logic Apps, Azure OpenAI) are recreated in the new region and their data and settings copied over; Azure SQL can also use Resource Mover.",
+    "Power Platform geo-to-geo migration requires a Microsoft Support request at least 10 days ahead, involves downtime and cannot run in parallel with the old environment.",
+    "Canvas apps and flows outside solutions, enterprise policies, DLP rules and environment groups do not migrate and must be recreated.",
+    "Business Central needs updated connection strings and endpoints afterward, such as the telemetry connection string and the Power Platform environment references."
   ],
   "systems": [
     "administration",

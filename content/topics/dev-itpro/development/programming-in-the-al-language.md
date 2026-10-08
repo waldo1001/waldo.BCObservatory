@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.931Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -441,7 +441,7 @@ narrative: generated
 
 > Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions.
 
-Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:01.204Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Tax accounts for Russia in Business Central: how personal income tax payments are accounted for in payroll, and how to import the KLADR address database. It answers questions about tax accrual, payment orders to tax authorities, and loading Russian address data.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Tax accounts · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Tax accounts · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

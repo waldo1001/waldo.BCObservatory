@@ -9,12 +9,12 @@ tags:
   - localization
   - mx
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:29:07.562Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -199,7 +199,7 @@ learn_folder: LocalFunctionality/Mexico
 
 > Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with SAT certificates and PAC web services, Carta de Porte shipments, DIOT reporting, electronic accounting export, RFC/CURP tax IDs, VAT recalculation on foreign currency payments, EFT bank exports, and deposits. It also carries a North American sales tax layer.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/mexico.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/mexico.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -216,7 +216,7 @@ Learn documents the features in pages for electronic invoicing, PAC web services
 - Carta de Porte: transport, vehicle, trailer, insurer and customs fields on sales and transfer documents, with SAT catalogs for fixed assets and items.
 - DIOT report: setup through Assisted Setup, vendor type of operation, optional withholding tax reporting.
 - Electronic accounting export of chart of accounts, trial balance and journal transactions to SAT using SAT Account Code on G/L Account.
-- RFC and CURP tax identification types on customers, vendors, employees and company information.
+- RFC and CURP tax identification types on customers, vendors and company information, with an RFC No. field also added on employees.
 - VAT recalculation and unrealized VAT handling for foreign currency payments, added in Gen. Jnl.-Post Line.
 - EFT export codeunits (ACH, RB, Cecoban, IAT) and bank deposits and reconciliation, plus North American sales tax calculation with external tax engine hooks.
 

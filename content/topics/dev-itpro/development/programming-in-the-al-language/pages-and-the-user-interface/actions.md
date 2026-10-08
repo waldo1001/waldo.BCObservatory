@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:18.859Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -133,7 +133,7 @@ narrative: generated
 
 > Actions in Business Central AL pages: how to add, organize and promote actions, the modern action bar with split buttons, common promoted action groups, and prompt actions that launch Copilot. Answers questions on actionref syntax, action areas, placement guidelines and release-wave behavior changes.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Actions · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

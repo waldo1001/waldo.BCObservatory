@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:03.160Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,7 +205,7 @@ narrative: generated
 
 > Security in Business Central covers online tenant security, multifactor authentication, encryption, network restrictions with service tags, record-level security filters, and persona-based guidance. It answers questions about protecting data, controlling access, and securing online and on-premises deployments.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative reviewed by Opus
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Security · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

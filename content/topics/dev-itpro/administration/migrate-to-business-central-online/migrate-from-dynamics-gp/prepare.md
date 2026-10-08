@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.387Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Preparation for migrating from Dynamics GP on-premises to Business Central online. Covers prerequisites for the destination environment, the source system and the self-hosted integration runtime infrastructure. Also covers planning recommendations on migration strategy, the migration assessment tool, data scope, and a migration approach that includes backup, replication and upgrade steps. Use it to check what is needed before starting and how to plan.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Prepare · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Prepare · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

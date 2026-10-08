@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:11.266Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,7 +210,8 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/assembly-management/assembly-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/dD_2NEs3A40
   posts: []
   guidelines: []
 learn_toc_path:
@@ -223,7 +224,7 @@ children:
 coverage:
   learn: 20
   code: 33
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -266,7 +267,7 @@ narrative: generated
 
 > Assembly management in Business Central covers building items from components and resources, using assembly BOMs, assembly orders, assemble-to-order and assemble-to-stock flows. It answers how-to, setup, posting and undo questions, plus a subtopic on assembly reports and analytics.
 
-Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Assembly management · tier official · system assembly · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -304,6 +305,12 @@ For corrections and accounting, see "Undo Assembly Posting" and "Design details 
 - [Understanding Assemble to Order and Assemble to Stock](https://learn.microsoft.com/dynamics365/business-central/assembly-assemble-to-order-or-assemble-to-stock): Learn about assembling items for sales orders or to keep in stock for future sales.
 - [Undo Assembly Posting](https://learn.microsoft.com/dynamics365/business-central/assembly-how-to-undo-assembly-posting): Learn how correct mistakes in a posted assembly order.
 - [Work with assembly BOMs](https://learn.microsoft.com/dynamics365/business-central/assembly-how-work-assembly-boms): You create an assembly BOM to specify the components required to put together the item that the BOM represents.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Assembly-to-order in projects; Assembly policy setting in projects"
 
 ## Business Central pages and reports
 

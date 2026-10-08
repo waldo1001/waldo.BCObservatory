@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.620Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -137,7 +137,7 @@ narrative: generated
 
 > Built-in fixed assets analytics tools in Business Central cover disposing or retiring, insuring, maintaining, budgeting and reclassifying fixed assets. It answers how-to questions about posting disposals, managing insurance coverage, tracking maintenance costs, budgeting assets, and transferring, splitting or combining assets.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Built-in fixed assets analytics tools · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Built-in fixed assets analytics tools · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

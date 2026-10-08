@@ -16,12 +16,12 @@ tags:
   - ci/cd
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:50.060Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,7 +65,6 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - integration
 versions_mentioned:
   - BC 29
 preview:
@@ -82,7 +81,7 @@ preview:
 
 # BC on Linux: A Working Web Client, Faster Boots, Local Dev on Mac and Linux, and a Fast Lane in AL-Go
 
-[Read the post](https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-10 · 1307 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-10 · 1307 words · tier community · reviewed (checked by Opus)
 
 > Running Business Central on Linux now supports a working web client for local development, achieving cold boot times of 79 seconds and test runs of 1,067 tests in 69 seconds. The project includes AL-Go integration with a Linux fast lane for pull requests and snapshot-based caching for even faster development cycles.
 

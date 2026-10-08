@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:24.979Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,7 +86,7 @@ narrative: generated
 
 > Migration overview for moving from Dynamics SL on-premises to Business Central online. It answers questions about the end-to-end process, which SL data is migrated and how it is mapped, how to manage and track a cloud migration, and how SL work processes compare to Business Central.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Overview · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics SL](../migrate-from-dynamics-sl.md) > Overview · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

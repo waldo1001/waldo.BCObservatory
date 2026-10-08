@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:01.735Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -149,7 +149,7 @@ narrative: generated
 
 > Testing in Business Central covers writing AL tests (test codeunits, methods, test pages, handlers, test runners), running them in Visual Studio Code, mocking HttpClient calls, performance testing, and UI acceptance testing with page scripting. It answers how-to and setup questions for testing apps.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Testing · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

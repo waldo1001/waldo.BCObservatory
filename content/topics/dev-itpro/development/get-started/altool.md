@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:12.842Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,7 +71,7 @@ narrative: generated
 
 > ALTool is the cross-platform command-line tool for compiling and packaging AL extensions for Business Central. This section answers questions about what the AL Development Tools package contains, how ALTool fits into CI/CD pipelines, and which commands it offers.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Get started](../get-started.md) > ALTool · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:49.452Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Inventory cost reporting and general ledger reconciliation in Business Central. It answers questions about manually adjusting item costs, posting inventory costs to the G/L, restricting backdated postings, scheduling cost jobs, and managing inventory periods.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage inventory costs](../manage-inventory-costs.md) > Report inventory costs and reconcile with the general ledger · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage inventory costs](../manage-inventory-costs.md) > Report inventory costs and reconcile with the general ledger · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

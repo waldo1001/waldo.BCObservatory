@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:25.918Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Formatting values in AL covers how Business Central displays and converts data: the Format method for dates, times, decimals and other types, field-level decimal formatting properties, and file handling with text encodings. It answers questions about format strings, amount and currency display, and encoding choices for import and export.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Formatting values · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Formatting values · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

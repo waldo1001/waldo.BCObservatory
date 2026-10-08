@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,7 @@ narrative: generated
 
 > Company consolidation in Business Central: combining general ledger data from subsidiaries or business units into a consolidated company. It answers questions about what consolidation supports (different charts of accounts, currencies, fiscal years, environments) and how to set it up, simply or in advanced mode.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Consolidate financial data from multiple companies · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

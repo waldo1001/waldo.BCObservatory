@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:29.976Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:30.013Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,7 +85,9 @@ links:
   features:
     - feature/573345
     - feature/573347
+    - feature/573350
     - feature/573355
+    - feature/573358
   topics: []
   localizations: []
   videos: []
@@ -145,10 +147,12 @@ features:
     verified: false
     status_source: video
   - name: Machine center calendar entries availability check
-    status: unclear
+    status: ga
     t: 456
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573358"
   - name: Direct transfer posting modes selection
     status: ga
     t: 582
@@ -157,10 +161,12 @@ features:
     roadmap_ids:
       - "573347"
   - name: Partial shipment for direct transfer shipment and receipt mode
-    status: unclear
+    status: ga
     t: 645
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573347"
   - name: Transfer route specification for direct transfer mode
     status: unclear
     t: 669
@@ -182,20 +188,26 @@ features:
     verified: false
     status_source: video
   - name: Quality inspection user role permissions
-    status: unclear
+    status: ga
     t: 989
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573350"
   - name: Quality inspection auto-assignment recommendation
-    status: unclear
+    status: ga
     t: 978
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573350"
   - name: Quality inspection passed/failed quantity auto-update
-    status: unclear
+    status: ga
     t: 1054
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573350"
 objects_mentioned:
   - other Planning Worksheet
   - other Machine Center
@@ -267,16 +279,16 @@ It then covers transfers: choosing a posting mode for direct transfers, partial 
 | Inventory put-away for subcontracted operations | generally available (roadmap [573355](../features/573355.md)), demoed | [2:48](https://www.youtube.com/watch?v=WACQbAEVOJg&t=168s) |
 | Create released production orders from planning worksheet | status not stated, demoed | [4:41](https://www.youtube.com/watch?v=WACQbAEVOJg&t=281s) |
 | Dynamic field visibility for parallel routings | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=WACQbAEVOJg&t=418s) |
-| Machine center calendar entries availability check | status not stated, demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |
+| Machine center calendar entries availability check | generally available (roadmap [573358](../features/573358.md)), demoed | [7:36](https://www.youtube.com/watch?v=WACQbAEVOJg&t=456s) |
 | Direct transfer posting modes selection | generally available (roadmap [573347](../features/573347.md)), demoed | [9:42](https://www.youtube.com/watch?v=WACQbAEVOJg&t=582s) |
-| Partial shipment for direct transfer shipment and receipt mode | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) |
+| Partial shipment for direct transfer shipment and receipt mode | generally available (roadmap [573347](../features/573347.md)), demoed | [10:45](https://www.youtube.com/watch?v=WACQbAEVOJg&t=645s) |
 | Transfer route specification for direct transfer mode | status not stated, demoed | [11:09](https://www.youtube.com/watch?v=WACQbAEVOJg&t=669s) |
 | In-transit location for transfers | status not stated, demoed | [12:23](https://www.youtube.com/watch?v=WACQbAEVOJg&t=743s) |
 | Inventory put-away and pick for partial transfers | status not stated, demoed | [13:30](https://www.youtube.com/watch?v=WACQbAEVOJg&t=810s) |
 | Quality inspection blocking transfers | status not stated, demoed | [15:25](https://www.youtube.com/watch?v=WACQbAEVOJg&t=925s) |
-| Quality inspection user role permissions | status not stated, demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |
-| Quality inspection auto-assignment recommendation | status not stated, demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |
-| Quality inspection passed/failed quantity auto-update | status not stated, demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |
+| Quality inspection user role permissions | generally available (roadmap [573350](../features/573350.md)), demoed | [16:29](https://www.youtube.com/watch?v=WACQbAEVOJg&t=989s) |
+| Quality inspection auto-assignment recommendation | generally available (roadmap [573350](../features/573350.md)), demoed | [16:18](https://www.youtube.com/watch?v=WACQbAEVOJg&t=978s) |
+| Quality inspection passed/failed quantity auto-update | generally available (roadmap [573350](../features/573350.md)), demoed | [17:34](https://www.youtube.com/watch?v=WACQbAEVOJg&t=1054s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

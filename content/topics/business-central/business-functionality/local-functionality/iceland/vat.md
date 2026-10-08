@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.338Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > VAT functionality for Iceland in Business Central. It covers printing VAT summary information on sales and purchase documents, and mapping chart of accounts entries to IRS tax numbers for data files sent to the tax authorities.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Iceland](../iceland.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Iceland](../iceland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

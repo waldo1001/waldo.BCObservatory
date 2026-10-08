@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -565,7 +565,7 @@ narrative: generated
 
 > Inventory in Business Central covers item setup, counting and adjustment, tracking by serial, lot and package numbers, reservations, transfers, availability, variants, BOMs and responsibility centers. It answers how-to questions about managing items and stock. A subtopic covers inventory analytics.
 
-Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -10,21 +10,21 @@ tags:
   - integration
 system: integration
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d22fec871eb9cbcfa50b1a55ba7a095f0fbfed86a5b0b5f58550000aa074e342
+  input_hash: 41d5495da0012ad729c0426f21af4e40031c2139ce2387a333ae5112580b9d58
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Shopify/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Shopify/app
     title: src/Apps/W1/Shopify/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -867,4 +867,4 @@ Possibly related: these roadmap features have "Shopify" in their title. A name m
 - [Process Shopify order changes, exchanges, and refunds](../features/573343.md) (ga, GA 2026-10)
 - [Synchronize tariff numbers and origin values with Shopify](../features/573344.md) (ga, GA 2026-10)
 
-Source: [src/Apps/W1/Shopify/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Shopify/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Shopify/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Shopify/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,7 @@ links:
   topics:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
-  videos:
-    - video/kAFdLxb2ghc
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +53,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -66,7 +65,7 @@ narrative: generated
 
 > Map E-Documents (preview) covers the deprecated Copilot feature E-documents Matching Assistance, which matches incoming e-invoice lines to purchase order lines. It answers what the feature did, how matching works, and that the Payables Agent replaces it.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Map E-Documents (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -90,11 +89,5 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 
 - [FAQ for mapping e-documents with purchase orders](https://learn.microsoft.com/dynamics365/business-central/faqs-map-edocuments): This FAQ provides information about the AI technology used in Business Central, key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 - [Map e-documents to purchase order lines with Copilot](https://learn.microsoft.com/dynamics365/business-central/map-edocuments-with-copilot): Learn about how to use Copilot to map e-documents to purchase order lines.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: E-Documents (2024 release wave 1)](../../../videos/kAFdLxb2ghc.md) (video): "E-documents core app; Third-party access point integration app; PayPal B3 format"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

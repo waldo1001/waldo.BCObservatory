@@ -9,12 +9,12 @@ tags:
   - localization
   - us
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:31:04.547Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -199,24 +199,24 @@ learn_folder: LocalFunctionality/UnitedStates
 
 > United States (US) localization of Business Central 29. It covers sales tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 forms with IRIS submission, EFT and ACH bank payments, deposits, and bank reconciliation. It also carries North American reports and Mexico/Canada-related objects.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-states.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-states.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The US layer is built around sales tax. It extends Tax Area, Tax Jurisdiction and Tax Detail, adds an external tax engine hook, and changes the Sales, Purchase and Service posting codeunits with many events and procedures for sales tax calculation, rounding, prepayments and unrealized tax. Learn documents the basic tax setup, sales tax, use tax and purchase tax, and unrealized sales tax with payment discounts.
+The US layer is built around sales tax. It extends Tax Area (including Use External Tax Engine), Tax Jurisdiction and Tax Detail. It adds external tax engine procedures to codeunit 398 Sales Tax Calculate. It changes the Sales, Purchase and Service posting codeunits with many events and procedures for sales tax calculation, posting to G/L, rounding and prepayments. Gen. Jnl.-Post Line gets unrealized VAT procedures. Learn documents the basic tax setup, sales tax, use tax and purchase tax, and unrealized sales tax with sales payment discounts.
 
-The second large block is IRS reporting. Own codeunits, tables, pages and interfaces cover IRS 1099 form boxes, reporting periods, vendor setup, form documents, printing, email, and transmission through IRIS (OAuth client, XML generation, response processing). The IRS 1096 form is also supported. Vendor, purchase header, purchase line and ledger entry tables get 1099 code and amount fields. Learn pages cover setup, tracking, submission, and the regulatory box format changes.
+The second large block is IRS reporting. The country's own codeunits, tables and pages cover IRS 1099 form boxes, reporting periods, vendor form boxes, form documents, printing, email and transmission through IRIS (OAuth client, XML generation, response processing). A FIRE helper also exists. The IRS 1096 form is supported as well. Vendor gets an IRS 1099 Code field and purchase lines get IRS 1099 Liable. Purchase headers, general journal lines and vendor ledger entries get 1099 code and amount fields. Learn pages cover setup, tracking, submission and the regulatory box format changes.
 
-Banking adds electronic payments and EFT export (ACH, RB, Cecoban, IAT) driven by data exchange definitions, check printing helpers, deposits, and the bank reconciliation worksheet. The layer also holds many North American reports, Mexico CFDI/SAT e-invoicing and DIOT objects, Canadian fields, Yodlee, Ceridian payroll, Shopify tax matching, and GP and SL 1099 migration.
+Banking adds electronic payment and EFT export (ACH, RB, Cecoban, IAT) driven by data exchange definitions, a check printing helper, deposits and bank reconciliation objects. The layer also holds many North American reports, Mexico CFDI/SAT e-invoicing and DIOT objects, Canadian fields (GIFI, GST/HST, provincial tax), Yodlee, Ceridian payroll, Shopify tax matching, and GP and SL 1099 migration.
 
 ## Key points
 
-- Sales tax: Tax Area, Tax Jurisdiction and Tax Detail extensions, with an external tax engine option (codeunit 398 "Sales Tax Calculate") and events in Sales-Post, Purch.-Post and service posting.
-- IRS 1099: 1099 code and amount fields on vendors, purchase documents and ledger entries, form boxes, reporting periods, form documents, printing and email to vendors.
-- IRIS electronic submission of 1099 forms, plus magnetic media (FIRE helper) and the IRS 1096 form for paper transmission.
-- EFT and ACH payment export (US, Canada and Mexico formats) using data exchange definitions, with electronic payment fields on bank accounts and journal lines.
-- Deposits and bank reconciliation worksheet, with permission sets and posted records; Learn notes that deprecated North American features moved to the standard version in 2023 release wave 2.
-- Unrealized sales tax and sales payment discounts are handled in Gen. Jnl.-Post Line.
+- Sales tax: Tax Area, Tax Jurisdiction and Tax Detail extensions, an external tax engine option (procedures in codeunit 398 "Sales Tax Calculate" plus a Use External Tax Engine field on Tax Area), and sales tax events in Sales-Post, Purch.-Post and service posting.
+- IRS 1099: IRS 1099 Code on vendors, IRS 1099 Liable on purchase lines, and code and amount fields on purchase headers, journal lines and vendor ledger entries. Own objects cover form boxes, reporting periods, form documents, printing and email to vendors.
+- IRIS electronic submission of 1099 forms. Learn also mentions magnetic media submission, and a Helper FIRE codeunit exists. The IRS 1096 form is used to transmit paper 1099 forms.
+- EFT and ACH payment export (US, Canada and Mexico formats) using data exchange definitions, with electronic payment fields on bank accounts and general journal lines.
+- Deposits and bank reconciliation objects with their own permission sets. Learn notes that deprecated North American bank reconciliation features moved to the standard version in 2023 release wave 2.
+- Gen. Jnl.-Post Line adds unrealized VAT procedures (CustUnrealizedVAT, VendUnrealizedVAT, PostUnrealVATEntry). Learn covers unrealized sales tax and sales payment discounts.
 - Many North American reports for sales, purchases, inventory, projects and service, such as Aged Accounts Payable NA and Inventory Valuation.
 - Mexico CFDI/SAT e-invoicing, DIOT, Canadian GST/HST and provincial tax fields, Shopify tax matching and GP/SL 1099 migration are also present.
 

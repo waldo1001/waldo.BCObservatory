@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.066Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Auditing for Denmark in Business Central covers exporting accounting data as CSV files to Regnskab Basis, exporting and importing SAF-T audit files for the Danish tax authorities, and mapping GL accounts to the Danish tax authority standard chart of accounts. Use it for questions about meeting Danish bookkeeping law and tax authority requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Auditing · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

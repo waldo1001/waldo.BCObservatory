@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,7 @@ narrative: generated
 
 > Payment reconciliation in Business Central: importing bank statements or bank feeds, applying payments automatically to open customer and vendor entries, and reconciling bank accounts. It answers questions on automatic application, match confidence, Text-to-Account mapping, manual review, and handling unmatched or differing amounts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Manage payables](../manage-payables.md) > Apply payments automatically and reconcile bank accounts · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

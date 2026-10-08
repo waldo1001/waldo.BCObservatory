@@ -5,7 +5,7 @@
   "source": "thinkaboutit-be",
   "published_at": "2026-09-01T12:03:46.000Z",
   "words": 650,
-  "summary": "The classic XML Mapping pane for Word report layouts in Business Central has started rejecting newly inserted fields as of August 2026, though existing mapped fields remain functional. Microsoft recommends switching to the newer Word add-in data picker, available since Business Central 2025 wave 2, which offers a more modern interface and avoids legacy XML mapping issues.",
+  "summary": "A community forum user reports that since August 2026, fields newly inserted through the classic XML Mapping pane in Word report layouts show placeholder text instead of data, while older mapped fields keep working; the cause appears to sit in Word rather than Business Central. The author advises moving to the Word add-in data picker, available since 2025 wave 2 (BC27), which inserts fields through Add Data and avoids the legacy mapping layer.",
   "key_points": [
     "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026, showing placeholder text instead of actual values",
     "The issue appears to be in Word's XML mapping layer rather than Business Central itself",
@@ -28,8 +28,7 @@
     "Word add-in data picker",
     "Word add-in for report layouts",
     "Add Data field insertion",
-    "conditional visibility controls",
-    "developer tab elimination"
+    "conditional visibility controls"
   ],
   "versions": [
     "BC27",

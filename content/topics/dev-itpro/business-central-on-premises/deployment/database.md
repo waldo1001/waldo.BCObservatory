@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:11.221Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Database deployment for Business Central on-premises: creating and altering application and tenant databases, SQL Server authentication, SQL Server installation considerations, moving to Azure SQL Database, controlling database size, and fixing SQL connection problems.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Database · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Database · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

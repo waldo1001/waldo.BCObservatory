@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -414,7 +414,7 @@ narrative: generated
 
 > Service management in Business Central covers scheduling service calls, managing service orders and contracts, tracking repair parts, assigning personnel, and issuing estimates and invoices. It answers how-to questions on contracts, delivery, planning and statuses, and service reports. Premium experience only.
 
-Path: [Business functionality](../business-functionality.md) > Service management · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Service management · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

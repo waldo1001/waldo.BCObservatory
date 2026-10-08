@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:34.712Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ narrative: generated
 
 > Microsoft Power BI integration with Business Central: licensing, enabling and connecting online and on-premises environments, building reports in Power BI Desktop, showing reports in FactBoxes, and using the built-in Power BI apps. It answers setup, architecture, and report-building questions.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power BI · tier official · system reporting · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power BI · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

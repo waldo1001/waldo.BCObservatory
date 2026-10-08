@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:42.286Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -132,7 +132,7 @@ narrative: generated
 
 > Approval workflows in Business Central built from templates: creating workflows, setting up workflow users and approval users, configuring notifications, and exporting or importing workflows. It answers setup questions, such as who approves, in what order, and how they are notified.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up approval workflows based on templates · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up approval workflows based on templates · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

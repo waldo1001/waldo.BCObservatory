@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:23:05.439Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ narrative: generated
 
 > Deprecated tables in Business Central covers tables that were deprecated, with mappings to new table names for code rewrites from 2020 release wave 1 onward, plus a list of deprecated tables in the India version for 2021 release wave 2. It answers which tables are obsolete, what replaces them, and when data migration may be needed.
 
-Path: [Deprecated features](../deprecated-features.md) > Deprecated tables · tier official · system none · narrative reviewed by Opus
+Path: [Deprecated features](../deprecated-features.md) > Deprecated tables · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

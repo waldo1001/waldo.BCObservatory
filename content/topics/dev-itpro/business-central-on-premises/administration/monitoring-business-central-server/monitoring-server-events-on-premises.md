@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:55.858Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,7 +123,7 @@ narrative: generated
 
 > Monitoring Business Central server events on-premises covers the admin, operational and debug events the server writes through Event Tracing for Windows. It answers questions about viewing events in Event Viewer or PowerShell, collecting trace data with Logman, Performance Monitor or PerfView, and limiting telemetry traces.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Monitoring Business Central server](../monitoring-business-central-server.md) > Monitoring server events on-premises · tier official · system administration · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Administration](../../administration.md) > [Monitoring Business Central server](../monitoring-business-central-server.md) > Monitoring server events on-premises · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

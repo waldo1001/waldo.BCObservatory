@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -340,9 +340,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data
   localizations: []
   videos:
-    - video/a1LQ3-SCtPE
     - video/OLN-2Ec2GMM
-    - video/uCJ48biqLf8
   posts:
     - post/aardvarklabs-blog/2333
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1
@@ -371,7 +369,7 @@ children:
 coverage:
   learn: 56
   code: 24
-  video: 3
+  video: 1
   blog: 3
   guideline: 0
 bc_forms:
@@ -407,7 +405,7 @@ narrative: generated
 
 > Tables and data in AL covers how to define Business Central tables, read and modify records, use queries, FlowFields, indexing (SIFT and NCCI), streaming, and XMLport or Excel import and export. It also covers number sequences and DataTransfer for bulk moves. It answers syntax, performance, and how-to questions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Tables and data · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Tables and data · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -455,9 +453,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Essential Guides to Data Imports in Business Central](../../../../posts/aardvarklabs-blog/2333.md) (community post): "AL code patterns for handling JSON, delimited data, Excel files, and XML formats"
 - [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
-- [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "table extensions companion tables database joins schema redesign"
 - [What’s New: AL Runtime and Database (2024 release wave 1)](../../../../videos/OLN-2Ec2GMM.md) (video): "number sequence; change log cleanup; alter key; field tooltips; translatable texts"
-- [FieldExist() and Field() get a text overload](../../../../videos/uCJ48biqLf8.md) (video): "FieldExist() text overload; Field() text overload; Accessing table extension fields"
 
 ## Business Central pages and reports
 

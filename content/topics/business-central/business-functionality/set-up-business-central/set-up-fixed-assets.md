@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.141Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,7 +148,7 @@ narrative: generated
 
 > Fixed assets setup in Business Central: general FA information, depreciation books and methods, user-defined depreciation tables, insurance, and maintenance. It answers questions about what to configure before registering and depreciating fixed assets, and where each setting lives.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

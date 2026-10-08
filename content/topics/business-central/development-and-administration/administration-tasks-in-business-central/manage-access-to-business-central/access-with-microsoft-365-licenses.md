@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:09.606Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > Access with Microsoft 365 licenses in Business Central lets Microsoft 365 license holders view Business Central data through Microsoft Teams with read-only access. It answers questions about what the feature is, how to set it up, how user access is authenticated and provisioned, and common licensing and permission questions.
 
-Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Access with Microsoft 365 licenses · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../../../development-and-administration.md) > [Administration tasks in Business Central](../../administration-tasks-in-business-central.md) > [Manage access to Business Central](../manage-access-to-business-central.md) > Access with Microsoft 365 licenses · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

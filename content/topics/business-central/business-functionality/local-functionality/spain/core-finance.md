@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:21.075Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ narrative: generated
 
 > Core finance for Spain in Business Central covers general ledger setup, transaction numbering, official account book and invoice book reports, year-end income statement closing, and ASC export of financial reports. It answers how-to questions about Spanish statutory finance tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

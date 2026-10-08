@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:44.894Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Microsoft OneDrive integration in Business Central: opening and sharing files in OneDrive for Business, saving Excel workbooks and report files, and admin setup for online and on-premises deployments. It answers how-to, configuration and FAQ questions.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft OneDrive · tier official · system none · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft OneDrive · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

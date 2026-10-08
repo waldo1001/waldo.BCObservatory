@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -173,7 +173,7 @@ narrative: generated
 
 > Built-in finance analysis tools in Business Central cover budget versus actual comparison, cash flow analysis on the Accountant Role Center, the payment practices report, and the general ledger and chart of accounts structure. It answers questions about monitoring budget variance, viewing cash trends and forecasts, reporting vendor payment times, and setting up accounts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance analysis tools · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Financial analytics](../financial-analytics.md) > Built-in finance analysis tools · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

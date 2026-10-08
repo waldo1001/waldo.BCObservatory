@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/",
+  "input_hash": "8c69b2be5560e78a3003f2ab638dadbeaca84757299126db42bac8f2a7b2d58e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.247Z",
+  "issues": [
+    "The listed objects are generic fixture categories from the companion test repo, not named AL objects.",
+    "The coverage flag is described as not yet shipped, so coverage analysis is not an actual feature."
+  ],
+  "applied": [
+    "dropped 8 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047236,
+    "posts_in_call": 4
+  }
+}

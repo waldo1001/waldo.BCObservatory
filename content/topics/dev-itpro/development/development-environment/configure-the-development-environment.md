@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:14.903Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,8 +102,7 @@ links:
     - topic/dev-itpro/development/development-environment
     - topic/dev-itpro/development/development-environment/configure-the-development-environment/json-files
   localizations: []
-  videos:
-    - video/TY82NR2hGEg
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -117,7 +116,7 @@ children:
 coverage:
   learn: 10
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -129,7 +128,7 @@ narrative: generated
 
 > Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces. It answers setup, configuration and IP protection questions, with a subtopic on the JSON files.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure the development environment · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,11 +161,5 @@ Other pages cover project-level settings: the runtime property in app.json for t
 - [Resource exposure policy setting](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection): Explains how to set the resource exposure policy for allowing download or debugging into extension to see the source code.
 - [Running a container-based development environment](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development): Overview of how to run a container-based development.
 - [Use GitHub Codespaces for AL development](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al): GitHub Codespaces gives you a ready-to-use, cloud-hosted development environment for AL that runs in your browser.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension for Linux; DevOps syntax highlighting"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

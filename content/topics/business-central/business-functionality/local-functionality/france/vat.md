@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.016Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > The France VAT section covers French localization reporting in Business Central: exporting general ledger entries for tax audits, exporting them to XML for archiving, and meeting Declaration of Trade in Goods (DEB) requirements. It answers questions about audit files, year-end archiving and DEB setup.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

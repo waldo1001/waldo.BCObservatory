@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -453,7 +453,7 @@ narrative: generated
 
 > Customization of Business Central for administrators and users: role-based page layouts, Premium experience, colored Cue indicators, and extensions. It answers how to tailor the interface and features, and what individual extensions do, how they are set up, and their limits.
 
-Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../development-and-administration.md) > Customize Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

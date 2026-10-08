@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:26.790Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Banking and payments in the Italian version of Business Central: automatic payments and bills, issuing vendor payments and customer bills with SEPA Credit Transfer and SEPA Direct Debit, and payment terms with installments. It answers setup and processing questions for Italian bill and payment handling.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

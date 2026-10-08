@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,7 @@ narrative: generated
 
 > AL code best practices for Business Central extensions: naming conventions, file structure, formatting, deprecation with obsolete attributes and CLEAN symbols, prefix and suffix rules, and validation rules for Marketplace submission. It answers how to write, name, and retire AL code consistently.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > AL code · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > AL code · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

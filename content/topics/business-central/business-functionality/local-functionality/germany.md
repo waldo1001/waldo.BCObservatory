@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:19.698Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -291,7 +291,7 @@ narrative: generated
 
 > Germany local functionality in Business Central: VAT reporting (ELMA5, VAT-VIES), GoBD digital audit exports, e-invoicing (XRechnung, ZUGFeRD, Peppol BIS 3.0 DE), Intrastat, purchase delivery reminders, year-end currency adjustment and the vendor payments list report. It answers setup, submission and compliance questions for German companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Germany · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

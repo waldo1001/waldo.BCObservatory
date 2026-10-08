@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,7 @@ narrative: generated
 
 > Upgrade guidance for on-premises Business Central 2025 release wave 2 (version 27). It answers questions about upgrade paths, pre-upgrade considerations, installing a version 27 update, and upgrading the System and Base Application from versions 25 and 26.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2025 release wave 2 (v27) · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2025 release wave 2 (v27) · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

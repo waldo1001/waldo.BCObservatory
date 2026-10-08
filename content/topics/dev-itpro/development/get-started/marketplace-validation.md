@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.595Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > Marketplace validation covers what partners need to do before and after submitting Business Central apps to AppSource: the technical validation checklist and FAQ, Application Insights telemetry for submission and breaking-changes validation, and guidance on landing pages and videos. It answers questions on passing validation, diagnosing failures, and presenting an app.
 
-Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Get started](../get-started.md) > Marketplace validation · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

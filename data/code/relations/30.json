@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "ad9b529a78c818ba25c24aecd093442a6c7a3852",
+      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
       "4",
       9494,
-      "ad9b529a78c818ba25c24aecd093442a6c7a3852",
+      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
       "4",
       6926
     ]
@@ -143985,7 +143985,13 @@
       "OnBeforeManualReleasePurchaseDoc": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/6103",
+            "proc": "OnBeforeManualReleasePurchaseDoc",
+            "app": "EDocument"
+          }
+        ]
       },
       "OnBeforeManualReopenPurchaseDoc": {
         "kind": "integration",
@@ -282625,7 +282631,7 @@
     }
   },
   "dead_events": {
-    "count": 22523
+    "count": 22522
   },
   "unresolved": [
     {
@@ -292817,9 +292823,9 @@
     "drilldown_page": 518,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5187,
+    "subscribes": 5188,
     "edges": 20561,
     "published_events": 26100,
-    "dead_events": 22523
+    "dead_events": 22522
   }
 }

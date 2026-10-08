@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ narrative: generated
 
 > Translation of Business Central extensions using XLIFF files. It covers how layered translation sources override each other by language priority and app dependencies, and how to generate and edit XLIFF files with namespace-aware IDs.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Translation · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

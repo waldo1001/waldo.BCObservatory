@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
-  videos: []
+  videos:
+    - video/qABlX4AL3GM
   posts:
     - post/aardvarklabs-blog/3761
     - post/demiliani-com/12836
@@ -119,7 +120,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 0
+  video: 1
   blog: 6
   guideline: 0
 bc_forms: []
@@ -131,7 +132,7 @@ narrative: generated
 
 > Indexing data for performance in AL covers SumIndexField Technology (SIFT) and Nonclustered Columnstore Indexes (NCCI) for fast sums over numeric columns. It answers questions about how each works with SQL Server, performance and maintenance trade-offs, tuning and tracing, and migrating from SIFT to NCCI.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Indexing data for performance · tier official · system platform · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Indexing data for performance · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -171,5 +172,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Table indexes in Business Central speed up reads but slow down writes"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added through development via AppSource apps"
+- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Unified table storage for extensions; Cross-field indexes spanning base and extension tables"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

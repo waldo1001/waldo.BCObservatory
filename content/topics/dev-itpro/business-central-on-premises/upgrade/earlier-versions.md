@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.753Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -353,7 +353,7 @@ narrative: generated
 
 > Earlier versions covers on-premises Business Central upgrade documentation for each release from spring 2019 (v.14) through 2024 release wave 1 (version 24). It answers which upgrade paths exist to a given version, how to run the technical upgrade, convert C/AL to AL, move tables between extensions, and install updates.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Earlier versions · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Earlier versions · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

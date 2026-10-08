@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:26.116Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > General Netherlands local functionality in Business Central: printing CMR notes under the UN CMR Convention, and subscribing to and importing Dutch post code data and monthly updates. It answers questions on CMR documents and on post code import in the Dutch version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

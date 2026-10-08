@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:18.746Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ narrative: generated
 
 > Embed apps in Business Central are partner-branded solutions built on the platform. This section covers what an embed app is, partner qualification, use of the application family name in URLs, deployment through LCS, access management for customers, and the App Management API.
 
-Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Embed apps · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Embed apps · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

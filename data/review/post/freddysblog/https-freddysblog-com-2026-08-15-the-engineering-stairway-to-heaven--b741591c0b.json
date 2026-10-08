@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven",
+  "input_hash": "2cf47de0635e97800598a5d41b2bb4fd58c486c187316ae3f93b0771f59f3949",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:26.755Z",
+  "issues": [
+    "Key point on vibe coding goes too far: the post says it is useful for prototypes, demos and experiments, not that it only works with guardrails.",
+    "The post never mentions Business Central Copilot features, so the copilot system tag is unsupported.",
+    "The quote is accurate."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.069519,
+    "posts_in_call": 3
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:31.927Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,7 @@ narrative: generated
 
 > Setting up quality management in Business Central: prerequisites, permission sets, assisted setup, inspection results, templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up quality management · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up quality management · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

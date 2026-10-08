@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:35.706Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,7 +104,7 @@ narrative: generated
 
 > System and application reference documentation describes how the Business Central application is split into modular layers (System Application and Business Foundation) and how to build or contribute AL modules to the System Application. It answers questions about application structure, module architecture rules, and the contribution workflow.
 
-Path: [Development](../development.md) > System and application reference documentation · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > System and application reference documentation · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:21:08.662Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,7 +127,7 @@ narrative: generated
 
 > Workflows in Business Central: automation and approvals using Power Automate flows and built-in approval workflow templates. It answers questions about flow types, workflow events and responses, and how to send, approve, reject, delegate and administer approval requests.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Workflows · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Workflows · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

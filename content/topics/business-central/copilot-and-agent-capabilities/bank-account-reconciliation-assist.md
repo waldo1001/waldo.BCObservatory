@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:16.844Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Bank account reconciliation assist covers the Copilot (preview) feature in Business Central that matches bank transactions with ledger entries and suggests G/L accounts for unmatched ones. It answers how-to questions on using it and FAQ questions on what it does.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Bank account reconciliation assist · tier official · system finance · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Bank account reconciliation assist · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

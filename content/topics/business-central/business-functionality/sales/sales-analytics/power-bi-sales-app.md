@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:39.116Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -292,7 +292,7 @@ narrative: generated
 
 > The Power BI Sales app section covers the Business Central sales analytics app: its individual reports, the semantic model behind them, and the KPI and measure definitions. It answers questions about what each report shows, which metrics it uses, and who it is meant for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Power BI Sales app · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:18:47.888Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -173,7 +173,7 @@ narrative: generated
 
 > Report and document layouts in Business Central: layout types (Word, Excel, RDLC, external, composite), choosing and assigning layouts, themes and header/footer setup, designing Word layouts, Excel and RDLC layouts, and available fonts. It answers how to change the look of sales, purchase and other external documents.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Change the look of externally facing documents · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

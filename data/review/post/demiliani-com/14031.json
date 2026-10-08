@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/demiliani-com/14031",
+  "input_hash": "351fd5cb7ec40489edb58e17922797eb3b33769d61a0a7397f1b671079a34e3a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:48:09.664Z",
+  "issues": [
+    "Key point claiming 10 to 100 times slowdown is not in the post text; the measured times are only shown as images.",
+    "Version 11 refers to the runtime, not Business Central version 11; summary adjusted.",
+    "'query Query' is a generic mention of Query objects not using the cache, not a named object.",
+    "Quotes are present in the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055838,
+    "posts_in_call": 4
+  }
+}

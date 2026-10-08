@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:51.886Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Microsoft Word integration in Business Central: designing Word report layouts with the Business Central add-in, mapping data fields through the XML Mapping pane, and using Word templates for bulk communications with customers, vendors, and contacts.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Word · tier official · system none · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Word · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

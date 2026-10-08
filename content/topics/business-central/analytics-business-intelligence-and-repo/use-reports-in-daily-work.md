@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.578Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,8 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
   localizations: []
-  videos: []
+  videos:
+    - video/z7UTBiCNOo8
   posts: []
   guidelines: []
 learn_toc_path:
@@ -110,7 +111,7 @@ children: []
 coverage:
   learn: 8
   code: 9
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -131,7 +132,7 @@ narrative: generated
 
 > Using reports in Business Central daily work: running, previewing, printing, scheduling and sharing reports, plus saved settings, layouts, default printers, bookmarks and raw data export to Excel or XML. It answers how-to questions about handling standard reports as an end user.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Use reports in daily work · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -162,6 +163,12 @@ Start with the landing page, then go to "Run and print reports" for the basic wo
 - [Share and Export Reports with the Report Inbox](https://learn.microsoft.com/dynamics365/business-central/ui-work-report-inbox): Learn how to use the Report Inbox page to download, share, export, and delete reports in Business Central.
 - [Specify a Default Printer](https://learn.microsoft.com/dynamics365/business-central/ui-specify-printer-selection-reports): Learn about the different ways to set up printers to be used by default for print jobs.
 - [Use reports in your daily work](https://learn.microsoft.com/dynamics365/business-central/reports-use-reports): Provides an overview of the reporting features in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../videos/z7UTBiCNOo8.md) (video): "Report Customization in Excel; Slicer Controls for Report Filtering"
 
 ## Business Central pages and reports
 

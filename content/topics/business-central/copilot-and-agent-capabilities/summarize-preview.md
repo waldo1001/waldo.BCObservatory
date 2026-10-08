@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:48.465Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,6 @@ links:
   localizations: []
   videos:
     - video/fgWFOMPJd6U
-    - video/HjsOuhThGKk
     - video/q0TxpWfm9rc
   posts:
     - post/demiliani-com/12439
@@ -65,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 3
+  video: 2
   blog: 1
   guideline: 0
 bc_forms: []
@@ -77,7 +76,7 @@ narrative: generated
 
 > Summarize (preview) covers Copilot's summarize capability in Business Central, which turns records such as customers, items and sales orders into bullet-point insights in the FactBox pane. It answers how to use and control summaries, how responsible AI applies, and how to troubleshoot Expense Agent issues.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Summarize (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -109,7 +108,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../posts/demiliani-com/12439.md) (community post): "Summary FactBox uses AI to generate role-tailored record summaries"
 - [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../../videos/fgWFOMPJd6U.md) (video): "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
-- [What's New: Summarize with Copilot (2025 release wave 1)](../../../videos/HjsOuhThGKk.md) (video): "Summarize with Copilot; Summary fact box; Interactive summary drill-down"
 - [What's New: Enhancements to Copilot Summaries (2025 release wave 2)](../../../videos/q0TxpWfm9rc.md) (video): "Enhancements to Copilot Summaries ai insights multi-language support interactive"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

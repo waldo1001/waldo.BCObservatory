@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:01.671Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -394,7 +394,7 @@ narrative: generated
 
 > Release notes for Business Central minor updates from 15.2 (2019 release wave 2) through 27.5 (2025 release wave 2), plus the 26.0 and 27.0 preview pages. They answer what changed in a given update: hotfixes, feature changes, localization updates, telemetry, deprecations and upgrade notes.
 
-Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed by Opus
+Path: [What's new and planned](../what-s-new-and-planned.md) > Updates for earlier major versions · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

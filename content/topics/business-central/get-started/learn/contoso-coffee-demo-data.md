@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:45.373Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -235,7 +235,7 @@ narrative: generated
 
 > Contoso Coffee demo data is a fictitious company dataset for learning Business Central. It covers manufacturing, warehousing, service and quality management scenarios, and answers questions about how to set up and walk through each with sample data.
 
-Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Contoso Coffee demo data · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -358,7 +358,7 @@ narrative: generated
 
 > Upgrade documentation for Business Central on-premises: supported upgrade paths, per-release upgrade guides from v14 through v29, known issues, and related conversion and table migration articles. It answers which route reaches a target version, what to check first, and which steps apply.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../business-central-on-premises.md) > Upgrade · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

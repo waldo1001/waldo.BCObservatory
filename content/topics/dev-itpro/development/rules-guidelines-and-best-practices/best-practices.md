@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:48.858Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -152,8 +152,7 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security
   localizations: []
-  videos:
-    - video/JI5KlMxrtoA
+  videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
@@ -198,7 +197,7 @@ children:
 coverage:
   learn: 17
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -210,7 +209,7 @@ narrative: generated
 
 > Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure and prepare extensions for Marketplace validation.
 
-Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -275,6 +274,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#87 Fix knowledge corpus integrity issues](../../../../changes/bcquality/87.md) (code change): "BCQuality knowledge articles and skill documentation were corrected to fix broken references"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Always validate fields to ensure all business logic executes properly"
-- [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "ISO 5055 code quality assessment; ISO 5055 Quality Scoring System"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

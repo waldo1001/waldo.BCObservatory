@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:17.864Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > Legacy fixed asset reports in Business Central that are marked for removal: Fixed Asset Analysis, Fixed Asset Details, and Fixed Asset Projected Value. It answers questions about what each report shows, such as valuation, depreciation, ledger entries, and projected book value.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Legacy reports (will be removed) · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

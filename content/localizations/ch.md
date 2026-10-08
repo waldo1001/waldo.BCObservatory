@@ -9,12 +9,12 @@ tags:
   - localization
   - ch
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:25:29.286Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -170,15 +170,15 @@ learn_folder: LocalFunctionality/Switzerland
 
 > Switzerland (CH) localization of Business Central 29. It covers Swiss electronic payments (QR-bill, ESR, LSV+, SEPA with Swiss rules), Swiss VAT statements with ciphers and VAT exchange rates, delivery reminders, quote management, physical inventory, and bank and post code directories. It answers how Swiss payment, VAT and document features are built.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/switzerland.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/switzerland.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Swiss layer centers on payments. QR-bill objects (codeunits 11502, 11512 to 11519, pages 11510 to 11518) create, scan, decode and print QR-bills and handle incoming documents. ESR (EsrMgt), LSV+ (LSVMgt, LSV journal pages) and DTA (DtaMgt) cover the older Swiss methods. Swiss rules are added to SEPA credit transfer and direct debit export, and to CAMT 053 and 054 import. Fields on vendor and customer bank accounts, journal lines and purchase headers carry ESR, giro, clearing and payment form data.
+The Swiss layer centers on payments. QR-bill objects (codeunits 11502, 11512 to 11514 and 11516 to 11519, pages 11510 to 11518) create, scan, decode and print QR-bills and handle incoming documents. ESR (EsrMgt), LSV+ (LSVMgt, LSV journal pages) and DTA (DtaMgt) cover the other Swiss payment methods. Swiss rules are added to SEPA credit transfer and direct debit export, and to CAMT 053 and 054 import. Fields on vendor and customer bank accounts, journal lines and purchase headers carry ESR, giro, clearing and payment form data.
 
-In finance, the Swiss VAT statement uses cipher codes (pages 11023 and 11024, codeunit 26100 "Update VAT-CH"). VAT entries, G/L accounts and currency exchange rates gain foreign currency and VAT exchange rate fields, and the Exch. Rate Adjustment report gets a valuation method and VAT entry adjustment. Provisional G/L balances and DACH report selections are also added. Many objects are shared with the German and Austrian layers (DACH).
+In finance, the Swiss VAT statement uses cipher codes (pages 11023 \"VAT Cipher Codes\" and 11024 \"VAT Cipher Setup\", plus cipher fields on VAT posting setup and VAT statement lines). The layer also adds codeunit 26100 \"Update VAT-CH\". VAT entries, G/L accounts and currency exchange rates gain foreign currency and VAT exchange rate fields, and the Exch. Rate Adjustment report gets a valuation method and VAT entry adjustment. Provisional G/L balances and DACH report selections are also added. Several objects carry DACH naming or come from the German and Austrian localizations, such as VAT Statement Germany, VAT Statement AT and Update VAT-AT.
 
-Other additions are delivery reminders for vendors, sales quote management (quote status, subtotals, levels, positions), physical inventory orders, and Swiss post code and bank directory imports. Learn documents these under "Switzerland local functionality" and its sub-pages.
+Other additions are delivery reminders for vendors, sales quote management (quote status, subtotals, levels, positions), physical inventory orders, and Swiss post code and bank directory imports. Learn documents these under \"Switzerland local functionality\" and its sub-pages.
 
 ## Key points
 
@@ -186,7 +186,7 @@ Other additions are delivery reminders for vendors, sales quote management (quot
 - ESR, LSV+ and DTA payment methods: ESR file import and printing, LSV collection journals with file export, DTA setup.
 - SEPA credit transfer and direct debit exports with Swiss payment form and payment type fields on table 1226 "Payment Export Data", plus Swiss CAMT 053/054 import.
 - Swiss VAT statement with VAT cipher setup, VAT exchange rate fields and VAT exchange rate adjustment on table 254 "VAT Entry" and the Exch. Rate Adjustment report.
-- Delivery reminders for vendors: terms, levels, text, issue and test report, with own tables and pages.
+- Delivery reminders for vendors: terms, levels, text, issuing and a test report, with their own pages, codeunits and page extensions.
 - Sales quote management and posting changes: quote status, probability, subtotals, levels and positions on sales lines and archives.
 - Foreign currency balances on G/L accounts and provisional balance view for journals.
 - Imports of Swiss post codes and bank clearing numbers (Bank Directory).

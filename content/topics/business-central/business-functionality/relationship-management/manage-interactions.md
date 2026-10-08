@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:25.523Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,7 @@ narrative: generated
 
 > Interaction management in Business Central relationship management: recording communications with contacts and segments, using interaction templates, handling attachments, and setting up automatic recording for documents, emails, and phone calls. It answers how-to questions on creating, logging, and configuring interactions.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage interactions · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage interactions · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

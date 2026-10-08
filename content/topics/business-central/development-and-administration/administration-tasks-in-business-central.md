@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -502,7 +502,7 @@ narrative: generated
 
 > Administration tasks in Business Central: access and licensing, user settings and profiles, data control, company creation, job queues, web services, API templates, indexes, printers, languages and trial extension. It answers how-to questions for administrators running an environment.
 
-Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../development-and-administration.md) > Administration tasks in Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

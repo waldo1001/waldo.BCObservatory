@@ -2,7 +2,7 @@
 id: post/freddysblog/https-freddysblog-com-2026-08-17-which-tasks-should-you-delegate-to-ai-agents--f78dfaac86
 type: post
 title: Which Tasks Should You Delegate to AI Agents?
-summary: "A framework for deciding which tasks to delegate to AI agents based on four dimensions: economic attractiveness, agent feasibility, verifiability, and risk. The weakest dimension determines the maximum autonomy level, categorizing tasks as delegate now, delegate with guardrails, or not yet."
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - decision framework
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-07T23:47:34.466Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -94,16 +94,9 @@ preview:
 
 # Which Tasks Should You Delegate to AI Agents?
 
-[Read the post](https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents/) · Freddys blog (Freddy Kristiansen) · 2026-08-17 · 2797 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents/) · Freddys blog (Freddy Kristiansen) · 2026-08-17 · 2797 words · tier community · **flagged** (a review found a problem)
 
-> A framework for deciding which tasks to delegate to AI agents based on four dimensions: economic attractiveness, agent feasibility, verifiability, and risk. The weakest dimension determines the maximum autonomy level, categorizing tasks as delegate now, delegate with guardrails, or not yet.
-
-## Key points
-
-- Four scoring dimensions determine delegation readiness: economic value, technical capability, verification ability, and safety
-- The weakest dimension sets the ceiling for autonomy; strong scores on three dimensions cannot override a weak score on one
-- Tasks can be refined through guardrails and design changes to enable safer delegation without full autonomy
-- Verifiability and risk are often underrated but critical gates; silent failures on these dimensions are particularly dangerous
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

@@ -15,12 +15,12 @@ tags:
   - build automation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:17.757Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,7 +81,6 @@ code_objects_mentioned:
 systems:
   - development
   - platform
-  - integration
 versions_mentioned:
   - v2.2
   - v2.3
@@ -102,7 +101,7 @@ preview:
 
 # Weekly Recap: August 14-21
 
-[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-21/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-21 · 1123 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-21/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-21 · 1123 words · tier community · reviewed (checked by Opus)
 
 > This weekly recap covers AL Runner releases (v2.2-v2.3.1) with coverage reporting and watch mode improvements, CI/CD fixes for parallel dependency resolution and Linux builds, a major catch-up of bc-code-atlas's stale graphify-al fork that revealed hidden AL-specific behaviors and tree-sitter parser changes, and various smaller tool fixes. It highlights infrastructure improvements that prevent silent failures in builds and dependency resolution.
 
@@ -134,7 +133,7 @@ As named in the post. A name that matches one object page by exact type and name
 
 ## Context
 
-- Features: coverage reporting, watch mode, inline execute, release gating, parallel dependency resolution, Linux fast lane CI/CD, AL code analysis, deprecation notices
+- Features: coverage reporting, watch mode, inline execute, release gating, parallel dependency resolution, Linux fast lane CI/CD, deprecation notices
 - Versions: v2.2, v2.3, v2.3.1, tree-sitter-al 4.0, AL Language v18
 
 Source: Stefan Maron, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

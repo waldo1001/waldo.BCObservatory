@@ -15,12 +15,12 @@ tags:
   - developer tools
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:35.750Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,17 +85,17 @@ preview:
 
 # AL Runner v2.2 and v2.3: Coverage, Quick Scripts, and a Watch Mode You Can Trust
 
-[Read the post](https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-20 · 1364 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-20 · 1364 words · tier community · reviewed (checked by Opus)
 
 > AL Runner v2.2 and v2.3 added code coverage reporting, a quick-script execute command for testing snippets without a codeunit, and fixed a watch mode that was recompiling mid-save during file bursts. The releases also included roughly 130 behavioral fixes to align the runner with real Business Central, with startup performance improvements.
 
 ## Key points
 
-- Coverage reporting shows which lines of AL code tests actually execute using BC's internal compiler tracking mechanism
-- Execute command runs bare AL snippets directly without requiring a full test codeunit wrapper
-- Watch mode now waits for file changes to stabilize instead of firing at a fixed interval, preventing false failures during branch switches or bulk operations
-- 130+ fixes align runner behavior with real BC across areas like TestPage, events, transactions, and report filters
-- Startup overhead reduced by roughly a quarter, with warm test runs improving from 23 seconds to 5 seconds on trivial fixtures
+- The --coverage flag gives a statement-level report of which AL lines tests actually ran, based on the compiler's own internal tracking
+- The execute command runs a bare AL snippet or a full pasted codeunit without needing a test codeunit
+- Watch mode now waits until file changes settle (capped at 10 seconds) instead of a fixed quarter-second delay, avoiding false failures on branch switches or bulk edits
+- Editing an existing object's body in watch mode now re-tests without a full app rebuild, about 18x faster on a 2,000-object app
+- About 130 fixes align runner behavior with real BC (TestPage, manual event subscribers, transactions, report filters), and startup overhead dropped by roughly a quarter
 
 ## Quotes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Company hub in Business Central is a landing page for working across multiple companies and environments. It covers adding companies through environment links, using the dashboard for financial overview and assigned tasks, and troubleshooting connection and refresh problems.
 
-Path: [Business functionality](../business-functionality.md) > Company hub · tier official · system administration · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Company hub · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

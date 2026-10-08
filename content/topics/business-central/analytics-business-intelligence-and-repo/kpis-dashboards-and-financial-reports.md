@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:03.895Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -216,7 +216,6 @@ links:
   localizations: []
   videos:
     - video/9g1vwaXmy2s
-    - video/fy96_jdL1PQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -230,7 +229,7 @@ children:
 coverage:
   learn: 14
   code: 87
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -329,7 +328,7 @@ narrative: generated
 
 > KPIs, dashboards, and financial reports in Business Central: how to build financial reports from account categories, how to choose and monitor KPIs, and how to use Power BI and the Power BI apps with Business Central data. It answers setup, concept, and Power BI integration questions.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > KPIs, dashboards, and financial reports · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -365,7 +364,6 @@ Start with the KPI page if you are deciding what to measure. Use the financial r
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "reporting capabilities; training strategy; user adoption; learning management"
 
 ## Business Central pages and reports
 

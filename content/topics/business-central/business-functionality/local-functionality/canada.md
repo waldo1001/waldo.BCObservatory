@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:28.073Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Canada local functionality in Business Central: sales tax and GST/HST reporting, use and purchase tax, deposits and electronic vendor payments, GIFI codes, and troubleshooting reports. It answers Canada-specific setup and reporting questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

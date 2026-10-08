@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:07.738Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > Service management reports and related tasks in Business Central: allocating resources such as technicians, posting service documents, and viewing service statistics. It answers questions about dispatching, what posting creates, and how to analyze service performance.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Service management · tier official · system service · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Service management · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

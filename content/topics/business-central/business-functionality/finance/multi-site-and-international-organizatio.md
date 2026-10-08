@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:01.507Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,7 +204,7 @@ narrative: generated
 
 > Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

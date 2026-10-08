@@ -3,8 +3,10 @@
 > Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,
 > joined by exact file path to the AL object pages. Tier official, metadata only. Frontmatter: schemas/frontmatter.change.json.
 
-1080 changes, newest first.
+1082 changes, newest first.
 
+- [#12306 Warn before releasing a purchase order that was already sent electronically](bcapps/12306.md): A warning now appears when releasing a purchase order that was already electronically sent, preventing silent re-export of the same e-document with the same identifier that would later cause conflicts. (main, 2026-10-07, feature)
+- [#2392 AL-Go Telemetry Enhancements: repository fork and hosting information](al-go/2392.md): AL-Go telemetry now captures whether a repository is a fork and its GitHub hosting type (GitHub.com, GHEC, or GHES), helping distinguish workflows across different environments without sending server details to telemetry. (main, 2026-10-07, feature)
 - [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](bcapps/12078.md): The Export to Excel scenario now allocates significantly less memory by reusing a CellDecorator instance, eliminating redundant ExcelBuf record calculations, and reducing method call overhead during column processing. (releases/29.x, 2026-10-07, performance)
 - [#11629 Fix Norwegian SAF-T 1.30 export issues](bcapps/11629.md): Norwegian SAF-T 1.30 export now correctly reports header versions, handles credit amounts as non-negative, excludes unselected dimensions from the XML, and counts transaction groups consistently across split files. (main, 2026-10-07, fix)
 - [#12428 Add Copilot feature trial interface](bcapps/12428.md): Added a public Copilot feature trial interface to System Application, enabling applications to initiate trials, query remaining quota, and consume trial usage with corresponding implementation codeunits and tests. (main, 2026-10-07, feature)
@@ -1090,25 +1092,18 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12514 Revert Expense API test re-enablement and consolidated fixes](https://github.com/microsoft/BCApps/pull/12514) (open into main, draft, updated 2026-10-07)
-- [#11955 Slice 626975: [Expense Agent] Alternate approvers - Delegated/Substitutes (November '26)](https://github.com/microsoft/BCApps/pull/11955) (open into main, updated 2026-10-07)
-- [#10660 Bug 611704: Align Tax Transaction Value ID assignment with G/L Entry pattern](https://github.com/microsoft/BCApps/pull/10660) (open into main, updated 2026-10-07)
-- [#12507 [DK][Nemhandel] Remove app-level response size cap on Nemhandelsregisteret lookup](https://github.com/microsoft/BCApps/pull/12507) (open into main, updated 2026-10-07)
-- [#12262 Financial reporting a few improvements](https://github.com/microsoft/BCApps/pull/12262) (open into main, updated 2026-10-07)
-- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](https://github.com/microsoft/BCApps/pull/9326) (open into main, updated 2026-10-07)
-- [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](https://github.com/microsoft/BCApps/pull/9359) (open into main, updated 2026-10-07)
-- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](https://github.com/microsoft/BCApps/pull/11665) (open into main, updated 2026-10-07)
-- [#11670 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](https://github.com/microsoft/BCApps/pull/11670) (open into releases/29.x, updated 2026-10-07)
-- [#12161 [MAIN]-FIX-Bug 652365](https://github.com/microsoft/BCApps/pull/12161) (open into main, updated 2026-10-07)
+- [#11633 Fix #11371: Prevent invalid FatturaPA RegimeFiscale values](https://github.com/microsoft/BCApps/pull/11633) (open into main, updated 2026-10-07)
 - [#12494 [Bug][SubscriptionBilling] Incorrect deferral amount sign for negative lines in contract invoices and credit memos](https://github.com/microsoft/BCApps/pull/12494) (open into main, updated 2026-10-07)
 - [#12292 Fix #10964: Use VAT registration number fallback in FatturaPA file name](https://github.com/microsoft/BCApps/pull/12292) (open into main, updated 2026-10-07)
 - [#12216 Fix #10839: Use document bank account IBAN in FatturaPA](https://github.com/microsoft/BCApps/pull/12216) (open into main, updated 2026-10-07)
 - [#12156 Fix #11391: [IT] Derive FatturaPA recipient routing for PEC and foreign customers](https://github.com/microsoft/BCApps/pull/12156) (open into main, updated 2026-10-07)
-- [#12096 Fix #11398: [IT] Print payment schedule on standard sales invoice](https://github.com/microsoft/BCApps/pull/12096) (open into main, updated 2026-10-07)
 - [#12079 [Extensibility Request] Add extensibility to E-Document and Peppol](https://github.com/microsoft/BCApps/pull/12079) (open into main, updated 2026-10-07)
 - [#11744 Fixes #11605 - GetCurrencyCode Error](https://github.com/microsoft/BCApps/pull/11744) (open into main, updated 2026-10-07)
 - [#11662 Fix #11390: Use ISO country codes in FatturaPA export](https://github.com/microsoft/BCApps/pull/11662) (open into main, updated 2026-10-07)
+- [#11661 Fix #11389: Prevent invalid FatturaPA Provincia values](https://github.com/microsoft/BCApps/pull/11661) (open into main, updated 2026-10-07)
+- [#11660 Fix #11377: Prevent invalid FatturaPA CAP values](https://github.com/microsoft/BCApps/pull/11660) (open into main, updated 2026-10-07)
 - [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](https://github.com/microsoft/BCApps/pull/11555) (open into main, updated 2026-10-07)
+- [#11263 Update ConnectivityAppDefinitions.Codeunit.al](https://github.com/microsoft/BCApps/pull/11263) (open into main, updated 2026-10-07)
 - [#11258 [GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework](https://github.com/microsoft/BCApps/pull/11258) (open into main, updated 2026-10-07)
 - [#10575 Calculate Inventory: scope Default Dimension reads by source table](https://github.com/microsoft/BCApps/pull/10575) (open into main, updated 2026-10-07)
 - [#10557 10275 subscription billing dimensions](https://github.com/microsoft/BCApps/pull/10557) (open into main, updated 2026-10-07)
@@ -1117,9 +1112,16 @@ Open pull requests (no page until merged), most recently updated first; then the
 - [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](https://github.com/microsoft/BCApps/pull/9182) (open into main, updated 2026-10-07)
 - [#9103 Add missing var modifier to OnCalculatePreciseCostAmountsOnAfterFilterOpenInboundItemLedgerEntry](https://github.com/microsoft/BCApps/pull/9103) (open into main, updated 2026-10-07)
 - [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](https://github.com/microsoft/BCApps/pull/9096) (open into main, updated 2026-10-07)
-- [#12185 Fix orphaned field monitoring flags in change log setup](https://github.com/microsoft/BCApps/pull/12185) (open into main, updated 2026-10-07)
-- [#11661 Fix #11389: Prevent invalid FatturaPA Provincia values](https://github.com/microsoft/BCApps/pull/11661) (open into main, updated 2026-10-07)
-- [#11660 Fix #11377: Prevent invalid FatturaPA CAP values](https://github.com/microsoft/BCApps/pull/11660) (open into main, updated 2026-10-07)
+- [#12096 Fix #11398: [IT] Print payment schedule on standard sales invoice](https://github.com/microsoft/BCApps/pull/12096) (open into main, updated 2026-10-07)
+- [#11532 Fix Navigate override for Production Order documents by respecting IsHandled on OnAfterShowRecords of Document Entry](https://github.com/microsoft/BCApps/pull/11532) (open into main, updated 2026-10-07)
+- [#11502 feat: Add new event](https://github.com/microsoft/BCApps/pull/11502) (open into main, updated 2026-10-07)
+- [#12514 Revert Expense API test re-enablement and consolidated fixes](https://github.com/microsoft/BCApps/pull/12514) (open into main, updated 2026-10-07)
+- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](https://github.com/microsoft/BCApps/pull/11665) (open into main, updated 2026-10-07)
+- [#12435 [Financial Reports] Faster row/column definition entry and custom schedule email subject](https://github.com/microsoft/BCApps/pull/12435) (open into main, updated 2026-10-07)
+- [#12466 Hide Navigate and Reverse Transaction on sustainability posting preview](https://github.com/microsoft/BCApps/pull/12466) (open into main, updated 2026-10-07)
+- [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](https://github.com/microsoft/BCApps/pull/12160) (open into main, updated 2026-10-07)
+- [#11527 E-document payment improvements](https://github.com/microsoft/BCApps/pull/11527) (open into main, updated 2026-10-07)
+- [#12262 Financial reporting a few improvements](https://github.com/microsoft/BCApps/pull/12262) (open into main, updated 2026-10-07)
 
 Open issues:
 
@@ -1145,12 +1147,11 @@ Releases:
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
 - [#2293 Add support for protectedSettings to override lower priority settings](https://github.com/microsoft/AL-Go/pull/2293) (open into main, updated 2026-10-07)
+- [#2396 Fix deployment environment discovery pagination](https://github.com/microsoft/AL-Go/pull/2396) (open into main, updated 2026-10-07)
 - [#2273 Enhance customALGoFiles feature](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-10-07)
 - [#2309 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](https://github.com/microsoft/AL-Go/pull/2309) (open into main, updated 2026-10-07)
 - [#2397 Support calling AL-Go workflows as reusable workflows (workflow_call)](https://github.com/microsoft/AL-Go/pull/2397) (open into main, draft, updated 2026-10-07)
-- [#2396 Fix deployment environment discovery pagination](https://github.com/microsoft/AL-Go/pull/2396) (open into main, updated 2026-10-07)
 - [#2385 Issue 2336 - Option to fail deployment](https://github.com/microsoft/AL-Go/pull/2385) (open into main, updated 2026-10-07)
-- [#2392 AL-Go Telemetry Enhancements: repository fork and hosting information](https://github.com/microsoft/AL-Go/pull/2392) (open into main, updated 2026-10-07)
 - [#2343 RunTests action](https://github.com/microsoft/AL-Go/pull/2343) (open into main, updated 2026-10-06)
 - [#2361 Fix incremental PR builds affected by baseline drift](https://github.com/microsoft/AL-Go/pull/2361) (open into main, updated 2026-10-06)
 - [#2265 move the BuildInitialize hook to after determine build project](https://github.com/microsoft/AL-Go/pull/2265) (open into main, updated 2026-10-05)

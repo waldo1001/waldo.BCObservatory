@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4023",
+  "input_hash": "ea18dd278e435f1a288b1221d066f7ce92bd697bfbd7af3843b2689c96f5eafd",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:46:22.313Z",
+  "issues": [
+    "The summary and key points correctly describe the PowerShell deployment script: dependency sorting, version checks, pteInstall upload and status polling.",
+    "Both quotes are word for word from the post.",
+    "The Admin API v2.29 version, the 7-Zip step and the circular dependency check all appear in the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032907,
+    "posts_in_call": 4
+  }
+}

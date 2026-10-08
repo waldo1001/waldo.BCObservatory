@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:06.446Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Replicate data covers how data moves from an on-premises Dynamics GP database to Business Central online, how to run and manage replication from the Cloud Migration Management page, and how to validate migrated data. It answers process, monitoring, troubleshooting and validation questions.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Replicate data · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Dynamics GP](../migrate-from-dynamics-gp.md) > Replicate data · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

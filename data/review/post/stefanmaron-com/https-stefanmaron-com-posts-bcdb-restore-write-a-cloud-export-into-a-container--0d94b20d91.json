@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/",
+  "input_hash": "4d9566c449e567e2789469e360222f55229d67ceca507389c41ae72681d37118",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:43.808Z",
+  "issues": [
+    "Key point on company mapping is wrong about ambiguous cases. When more than one company holds data on either side, the tool lists what it found and refuses to guess. The page described this as verbose logging.",
+    "Summary, objects, versions and quotes all match the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056176,
+    "posts_in_call": 4
+  }
+}

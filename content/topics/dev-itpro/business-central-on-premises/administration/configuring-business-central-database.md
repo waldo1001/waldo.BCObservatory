@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,7 +104,7 @@ narrative: generated
 
 > Configuring the Business Central database for on-premises deployments: SQL Server installation considerations, compatibility level, performance tuning, index management, table partitioning, data compression, and read scale-out. It answers setup and tuning questions about the SQL database behind Business Central.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central database · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Configuring Business Central database · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:32.621Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -387,7 +387,7 @@ narrative: generated
 
 > GST in the India localization of Business Central: setup, sales and purchase transactions, returns, advance payments, TDS/TCS, cess, e-invoice, e-way bill, input service distribution, reconciliation and settlement. It answers how GST is calculated and posted to the general ledger in each scenario.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > GST · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > GST · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

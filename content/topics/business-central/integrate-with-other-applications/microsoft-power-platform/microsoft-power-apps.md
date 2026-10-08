@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:41.700Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Microsoft Power Apps integration with Business Central: how to build apps on Business Central data, including custom UI, AI Builder, and augmented or mixed-reality options. It answers questions about connecting Power Apps to a Business Central environment through the Power Apps connector, using API tables and custom APIs, and building canvas apps.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Power Platform](../microsoft-power-platform.md) > Microsoft Power Apps · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:44.415Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Migrating tables and fields between extensions in on-premises Business Central: how to move table and field data from a releasing extension to a receiving extension. It answers questions about the migration.json file, dependency graph direction, transition extensions, and synchronization ordering.
 
-Path: [Development](../../../development.md) > [Extension lifecycle](../../extension-lifecycle.md) > [Migration](../migration.md) > Migrating tables and fields between extensions (on-premises) · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Extension lifecycle](../../extension-lifecycle.md) > [Migration](../migration.md) > Migrating tables and fields between extensions (on-premises) · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

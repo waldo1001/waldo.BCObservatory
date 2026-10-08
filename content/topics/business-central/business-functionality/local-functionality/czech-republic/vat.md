@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:52.744Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -183,7 +183,7 @@ narrative: generated
 
 > Czech VAT functionality in Business Central: VAT date and periods, reverse charge, non-deductible VAT, VAT exchange rate and local-currency correction, unreliable payer checks, and reporting (VAT statement, control report, VIES, VAT returns, Intrastat). It answers setup and reporting questions for Czech VAT compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

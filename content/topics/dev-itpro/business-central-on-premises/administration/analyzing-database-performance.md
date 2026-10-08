@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:03.176Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Analyzing database performance for Business Central on-premises covers how to find and troubleshoot slow SQL queries. It answers questions about the SqlLongRunningThreshold setting, reading long-running queries in the Event Log, and using SQL Server Query Store.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Analyzing database performance · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

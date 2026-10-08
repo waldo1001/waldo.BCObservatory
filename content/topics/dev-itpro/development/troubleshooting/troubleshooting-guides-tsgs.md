@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.471Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,7 @@ narrative: generated
 
 > Troubleshooting guides (TSGs) for Business Central development and administration. They cover cloud migration problems, report errors and slow performance, and web service failures (OData, API, SOAP). Use them for questions about causes of errors, telemetry to check, and fixes.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting guides (TSGs) · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting guides (TSGs) · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

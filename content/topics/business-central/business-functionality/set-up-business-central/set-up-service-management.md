@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:42.437Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,7 +162,7 @@ narrative: generated
 
 > Setting up service management in Business Central: service items, components, loaners, service hours, standard service codes, fault reporting, pricing, resource allocation, contracts, order and repair statuses, and troubleshooting guidelines. It answers how-to-configure questions for the Premium service experience.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up service management · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up service management · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

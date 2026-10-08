@@ -7,11 +7,11 @@
   "words": 444,
   "summary": "The Manage Apps page in the Business Central admin center controls the stack of apps running on an environment, including the Base Application, Microsoft first-party apps, ISV apps, and per-tenant extensions. You can view, upload, install, update, or uninstall apps depending on their type, though new global apps must be sourced from the marketplace rather than installed directly.",
   "key_points": [
-    "BC environments consist of multiple app layers: Base Application, Microsoft apps, ISV apps, and per-tenant extensions that are all managed from the admin center",
-    "Different app types have different capabilities: global apps can be updated or uninstalled but not installed locally; per-tenant extensions support full lifecycle management; dev extensions are view-only",
-    "Per-tenant extension deployment has moved to the admin center with options for immediate or scheduled installation using either Add or Force Sync modes",
-    "Extension Management in the client is being phased out, with PTE deployment moving entirely to the admin center or Admin Center API by 2027 release wave 1",
-    "Always test uninstalls in a sandbox environment first and export database backups before deleting app data, as recovery requires point-in-time restore within 28 days"
+    "An environment is a stack of apps: Base Application, Microsoft first-party apps, ISV apps and per-tenant extensions, all reviewed on the admin center Manage Apps page",
+    "Global apps can be viewed, updated and uninstalled but not installed here, because new ones come from the marketplace. PTEs support the full lifecycle. Dev extensions can only be viewed and uninstalled",
+    "Installing a PTE means choosing a deployment schedule and a sync mode (Add or Force Sync), then tracking progress on the Operations page. New PTEs can only use the immediate or next update window schedules",
+    "Client-side upload through Extension Management is expected to be removed in 2027 release wave 1, so move PTE deployment to the admin center or the Admin Center API",
+    "Rehearse uninstalls in a sandbox first. Deleting app data can only be undone with a point-in-time restore within 28 days, so export the database beforehand. Dependent apps are uninstalled too"
   ],
   "systems": [
     "administration",

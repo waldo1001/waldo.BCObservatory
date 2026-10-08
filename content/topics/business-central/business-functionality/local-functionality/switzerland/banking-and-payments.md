@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:34.650Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -165,7 +165,7 @@ narrative: generated
 
 > Swiss banking and payments in Business Central: ESR, LSV+ direct debit, QR-bills and SEPA credit transfers, plus bank clearing number import and the Vendor Payments List report. Answers how-to questions on collecting, exporting, importing, posting and printing Swiss payments.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Banking & Payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Banking & Payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

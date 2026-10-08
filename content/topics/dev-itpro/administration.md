@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:20.864Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -391,7 +391,7 @@ narrative: generated
 
 > Administration of Business Central online: how tenants and environments are organized, run, monitored, supported and migrated to. It answers questions on the admin center, permissions and licensing, setup and onboarding, telemetry, technical support, admin APIs and migration.
 
-Path: Administration · tier official · system administration · narrative reviewed by Opus
+Path: Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

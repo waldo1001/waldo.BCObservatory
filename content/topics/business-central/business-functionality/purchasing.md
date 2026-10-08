@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -555,7 +555,7 @@ narrative: generated
 
 > Purchasing in Business Central covers the purchase process from quotes and orders to invoices, returns, approvals and electronic documents. It answers how-to questions on posting, matching, correcting and cancelling purchase documents, and points to a subtopic on purchasing analytics.
 
-Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

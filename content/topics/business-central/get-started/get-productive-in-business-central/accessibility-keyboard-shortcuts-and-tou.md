@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:11.552Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,7 @@ narrative: generated
 
 > Accessibility, keyboard shortcuts, and touch and pen gestures in Business Central. It answers questions about assistive features, PC and macOS shortcuts, access keys, and gestures on tablets and phones.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Accessibility, keyboard shortcuts, and touch gestures · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Accessibility, keyboard shortcuts, and touch gestures · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

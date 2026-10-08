@@ -2,18 +2,18 @@
 id: source/sauravdhyani-com
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, administration, platform."
+summary: "Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T09:42:06.385Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 497263211a0617bf65e20447900470952eda94b05ab2cbdb41616236f539a730
@@ -71,15 +71,15 @@ footprint:
   systems:
     - id: development
       weight: 22
-    - id: administration
-      weight: 18
     - id: platform
       weight: 16
+    - id: administration
+      weight: 15
     - id: finance
       weight: 10
-    - id: integration
-      weight: 6
     - id: copilot
+      weight: 5
+    - id: integration
       weight: 5
   topics:
     - id: al development
@@ -134,7 +134,7 @@ last_item: "2026-10-07"
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, administration, platform.
+> Saurav Dhyani (MVP): 26 posts in the knowledge base, 2025-09-04 to 2026-10-07, mostly about development, platform, administration.
 
 [https://www.sauravdhyani.com](https://www.sauravdhyani.com) · blog · tier community
 
@@ -143,11 +143,11 @@ last_item: "2026-10-07"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (22) | al development (10) | table General Journal Templates (2) |
-| administration (18) | automation (3) | table General Ledger Setup (2) |
-| platform (16) | business central 2026 (3) | table User Setup (2) |
+| platform (16) | automation (3) | table General Ledger Setup (2) |
+| administration (15) | business central 2026 (3) | table User Setup (2) |
 | finance (10) | extensions (3) | codeunit No. Series (1) |
-| integration (6) | github copilot (3) | codeunit No. Series - Impl. (1) |
-| copilot (5) | bc28 (2) | interface INotification (1) |
+| copilot (5) | github copilot (3) | codeunit No. Series - Impl. (1) |
+| integration (5) | bc28 (2) | interface INotification (1) |
 |  | configuration (2) | other app.json (1) |
 |  | database performance (2) | other copilot-instructions.md (1) |
 |  | date formulas (2) | other File.Download (1) |

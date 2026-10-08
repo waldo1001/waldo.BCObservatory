@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:52.700Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -231,7 +231,7 @@ narrative: generated
 
 > New Zealand local functionality in Business Central: GST and withholding tax, Peppol PINT A-NZ e-invoicing, banking and EFT, statutory finance reports, and NZ address and IRD number handling. It answers setup and usage questions for NZ-specific requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > New Zealand · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > New Zealand · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -2,7 +2,7 @@
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-claude-code-tiny-tips--0373e0f774
 type: post
 title: "Claude Code: Tiny Tips"
-summary: Claude Code is an AI development tool with several lesser-known terminal commands and VS Code integration tips that improve workflow efficiency. The post covers keyboard shortcuts, agent porting considerations, and advanced features like model switching and advisor mode for developers migrating from Copilot or optimizing their Claude Code usage.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - workflow optimization
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-07T23:46:46.128Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,17 +78,9 @@ preview:
 
 # Claude Code: Tiny Tips
 
-[Read the post](https://tine.staric.net/blog/2026/claude-code-tiny-tips/) · Tech Adventures in Business Central (Tine Staric) · 2026-09-07 · 391 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2026/claude-code-tiny-tips/) · Tech Adventures in Business Central (Tine Staric) · 2026-09-07 · 391 words · tier community · **flagged** (a review found a problem)
 
-> Claude Code is an AI development tool with several lesser-known terminal commands and VS Code integration tips that improve workflow efficiency. The post covers keyboard shortcuts, agent porting considerations, and advanced features like model switching and advisor mode for developers migrating from Copilot or optimizing their Claude Code usage.
-
-## Key points
-
-- Map keyboard shortcuts in VS Code to create new Claude Code terminals without mouse interaction
-- Configure terminal settings to prevent the shell from intercepting VS Code commands like Ctrl+B
-- Use /tui fullscreen to clean up the terminal interface and reduce redraw flicker
-- Agents cannot be directly ported from Copilot to Claude Code due to different tool naming conventions
-- Advanced commands like /model opusplan, /doctor, /advisor, and /rewind optimize performance and debugging
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

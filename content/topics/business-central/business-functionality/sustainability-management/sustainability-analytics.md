@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -193,7 +193,7 @@ narrative: generated
 
 > Sustainability analytics in Business Central covers ways to analyze sustainability data: ad-hoc Data Analysis, financial reports, standard sustainability reports, external ESG reporting for CSRD, and the Power BI sustainability app. It answers questions about which tool to use for emissions, CO2e, carbon fee and ESG analysis.
 
-Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability analytics · tier official · system sustainability · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability analytics · tier official · system sustainability · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,9 +108,11 @@ links:
     - video/1ft4o9lQzsU
     - video/BofJJPqgrTI
     - video/hn92Al_x-s8
+    - video/hSJW3LiOBxg
     - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
+    - video/z7UTBiCNOo8
   posts:
     - post/thinkaboutit-be/7750
     - post/thinkaboutit-be/7813
@@ -127,7 +129,7 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 7
+  video: 9
   blog: 4
   guideline: 0
 bc_forms:
@@ -145,7 +147,7 @@ narrative: generated
 
 > Report layout development in Business Central: layout types (Word, Excel, RDLC, external, composite), designing and mapping fields, themes and header/footer layouts, choosing the layout a report uses, and available fonts. It answers how to create, edit, import, export and assign report layouts.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report layouts · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report layouts · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -190,9 +192,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "translatable reports; excel layouts; power query; api integration"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
+- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "Excel Layout Multiple Data Sheets; Power Pivot Relationships in Excel"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced Document Reporting; document layout; table builder"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"
+- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Excel Layouts for Built-in Reports; Report Customization in Excel"
 
 ## Business Central pages and reports
 

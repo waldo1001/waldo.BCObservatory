@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.771Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,7 +158,7 @@ narrative: generated
 
 > Spanish electronic invoicing and Cartera functionality in Business Central: VERI*FACTU reporting to AEAT (embedded mode or B2Brouter), SII invoice and credit memo types, and the Cartera modules for receivables and payables bills. It answers setup and scope questions for Spain compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Electronic invoices · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Spain](../spain.md) > Electronic invoices · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

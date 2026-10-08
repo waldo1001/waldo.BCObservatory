@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-language-tests-executable-spec/",
+  "input_hash": "14762d32da9a0bfae4ced0718e74515b2804422341f950235e5bccd5c42437cb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.436Z",
+  "issues": [
+    "Summary and key points match the post, including the version range, the CI matrix growth and the test-first workflow.",
+    "Every listed version appears in the post, and the quote is word for word."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037097,
+    "posts_in_call": 4
+  }
+}

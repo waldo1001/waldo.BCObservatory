@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:14:28.848Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -336,7 +336,7 @@ narrative: generated
 
 > Release notes and plans for Business Central: the 2026 release wave 1 updates (28.0 preview, 28.1 to 28.5), the 2026 release wave 2 update 29.0, and an index of earlier minor updates from 15.2 to 27.5. Use it to find what changed or is planned in a given version.
 
-Path: What's new and planned · tier official · system none · narrative reviewed by Opus
+Path: What's new and planned · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

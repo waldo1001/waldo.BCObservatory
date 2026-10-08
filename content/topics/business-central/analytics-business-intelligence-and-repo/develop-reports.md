@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -150,7 +150,7 @@ narrative: generated
 
 > Report development in Business Central: building report layouts (Word, Excel, RDLC, external, composite) and report datasets in AL. It answers how to create, edit, import, export and assign layouts, how datasets, layouts and request pages fit together, and how to tune report-related AL code.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Develop reports · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

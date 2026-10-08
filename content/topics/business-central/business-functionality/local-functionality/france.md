@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:03.821Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -312,7 +312,7 @@ narrative: generated
 
 > France local functionality in Business Central covers VAT and audit reporting, banking and payments, e-invoicing, core finance and year-end, and fixed assets. It answers setup and how-to questions about the French localization.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

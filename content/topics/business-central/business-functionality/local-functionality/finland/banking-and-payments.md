@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:05.605Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Finnish banking and payments functionality in Business Central: electronic banking with LM03 and LUM2 formats, bank reference file setup, payment file generation for vendors, SEPA credit transfer export, and disregarding payment discounts. It answers setup and how-to questions for domestic and foreign payments in the Finnish version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

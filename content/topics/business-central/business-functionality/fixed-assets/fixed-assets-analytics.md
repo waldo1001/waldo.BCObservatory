@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:53.640Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -392,7 +392,7 @@ narrative: generated
 
 > Fixed assets analytics in Business Central covers ways to analyze fixed asset data: ad-hoc Data Analysis on FA and GL ledger entries, built-in tools, standard and Excel reports, and legacy reports slated for removal. It answers questions about asset values, depreciation, insurance, maintenance and which report to use.
 
-Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Fixed assets](../fixed-assets.md) > Fixed assets analytics · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

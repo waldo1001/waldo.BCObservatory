@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:09.813Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -160,7 +160,7 @@ narrative: generated
 
 > The Power BI sustainability app section covers the Sustainability Power BI app, its individual reports, the semantic model, and the KPIs and measures behind them. It answers questions about which report shows emissions, water, waste, social (ESG), target and baseline data, and how the data is modeled.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sustainability management](../../sustainability-management.md) > [Sustainability analytics](../sustainability-analytics.md) > Power BI sustainability app · tier official · system sustainability · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sustainability management](../../sustainability-management.md) > [Sustainability analytics](../sustainability-analytics.md) > Power BI sustainability app · tier official · system sustainability · narrative reviewed (checked by Opus)
 
 ## Overview
 

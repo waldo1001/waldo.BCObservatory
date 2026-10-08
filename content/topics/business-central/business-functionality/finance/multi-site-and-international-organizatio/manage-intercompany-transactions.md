@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:51.359Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,7 +172,7 @@ narrative: generated
 
 > Intercompany transactions in Business Central: setting up partners, shared chart of accounts and dimensions, posting intercompany documents and journals, handling the inbox and outbox, and allocating purchase costs to partner companies. It answers setup, posting and processing questions for multi-entity organizations.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

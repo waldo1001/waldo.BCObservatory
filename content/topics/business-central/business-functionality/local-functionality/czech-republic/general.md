@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:46.371Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > Czech general local functionality in Business Central covers extended user control (user-to-employee assignment, posting and document date validation, access control for payment orders, bank statements, journals and more) and modern search on lists. It answers questions about Czech-specific user restrictions and list search behavior.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

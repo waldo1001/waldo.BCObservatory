@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -225,7 +225,7 @@ narrative: generated
 
 > Built-in production reports in Business Central cover BOM cost and structure, production order costs and status, capacity and routing, shortages, subcontracting, and item labels. It answers which report shows a given manufacturing figure, what it filters on, and what it contains.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Built-in production reports · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

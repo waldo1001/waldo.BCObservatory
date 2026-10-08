@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.505Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Program building blocks in AL covers operators, statements, system-defined variables, access modifiers and XML comments. It answers questions about AL syntax, operator precedence, flow control, symbol visibility and inline code documentation.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Program building blocks · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Program building blocks · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

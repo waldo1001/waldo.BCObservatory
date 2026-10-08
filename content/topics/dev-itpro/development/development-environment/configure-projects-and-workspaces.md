@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:02.232Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.885Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > TCS (Tax Collected at Source) in the Business Central India localization: setup, calculation on sales and receipts, threshold handling, Section 206C(1H), adjustments, and payment to government authorities. It answers how to configure and post TCS and how to correct and deposit it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TCS · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TCS · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:51.300Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -418,7 +418,7 @@ narrative: generated
 
 > Service management reports in Business Central: reference pages for each analytic, test, and document report covering service contracts, contract quotes, service orders, service items, resources, and profitability. Use it to find what a given report shows and which fields or options it offers.
 
-Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Service management](../../service-management.md) > [Service management analytics](../service-management-analytics.md) > Service management reports · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

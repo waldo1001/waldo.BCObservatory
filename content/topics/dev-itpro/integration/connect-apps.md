@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:33.901Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Connect apps covers building integrations with Business Central through REST APIs and OData. It answers questions about creating custom API pages and queries, authenticating (Microsoft Entra ID, basic auth, service-to-service OAuth 2.0), filtering, and request tips such as batching and localization.
 
-Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

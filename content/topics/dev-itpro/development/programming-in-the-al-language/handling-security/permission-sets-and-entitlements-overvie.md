@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.702Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,7 +163,7 @@ narrative: generated
 
 > Permission sets and entitlements in Business Central AL development: defining permission set and entitlement objects, composing and extending permission sets, setting object permissions, inherent permissions, exporting to XML, upgrading from legacy permissions, and analyzing permission telemetry.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Permission sets and entitlements overview · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Permission sets and entitlements overview · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

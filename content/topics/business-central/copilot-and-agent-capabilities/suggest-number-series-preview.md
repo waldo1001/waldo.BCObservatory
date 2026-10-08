@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:27.085Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Suggest number series with Copilot (preview) covers using AI to create and modify number series for entities and feature areas from natural language or structured input. It answers questions about how to generate and review suggestions, what the feature can do, and its limits and responsible use.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Suggest number series (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

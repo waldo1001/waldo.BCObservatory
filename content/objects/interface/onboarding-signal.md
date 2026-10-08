@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cb1542daa0ca4f5d7c323dda79866488ec079b9d6b209d79f42253518fdd4a09
@@ -94,16 +94,13 @@ Base Application · System.Feedback · BC23-30 · [source at fe31a425](https://g
 
 - `IsOnboarded(): Boolean`: Should check whether the onboarding criteria has been met.
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "Onboarding Signal")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "Onboarding Signal"`
-
 ## Across versions
 
 - Present in: BC23-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Onboarding Signal")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

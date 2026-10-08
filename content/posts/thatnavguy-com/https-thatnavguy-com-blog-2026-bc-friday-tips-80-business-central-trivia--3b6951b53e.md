@@ -12,14 +12,13 @@ tags:
   - leaderboard
   - trivia
   - engagement
-system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:17.757Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -69,8 +68,7 @@ quotes:
   - text: More engaging than yet another training document
     why_it_matters: Emphasizes the gamified approach makes learning more motivating than traditional resources
 code_objects_mentioned: []
-systems:
-  - development
+systems: []
 versions_mentioned: []
 preview:
   embeddable: true
@@ -86,7 +84,7 @@ preview:
 
 # BC Friday Tips #80 Business Central Trivia
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-21 · 87 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-21 · 87 words · tier community · reviewed (checked by Opus)
 
 > Business Central Trivia is a website where users can test their BC knowledge, earn points, and compete on a leaderboard. It provides an engaging alternative to traditional training materials for consultants, developers, and power users.
 

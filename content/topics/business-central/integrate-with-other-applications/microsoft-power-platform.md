@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:30.848Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,7 +172,7 @@ narrative: generated
 
 > Microsoft Power Platform integration with Business Central covers the Business Central connector, Power Apps, Power Automate, Power BI, and Power Pages on Dataverse virtual tables. It answers questions about connecting each service, building apps, flows and reports, and giving external users access to data.
 
-Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Power Platform · tier official · system platform · narrative reviewed by Opus
+Path: [Integrate with other applications](../integrate-with-other-applications.md) > Microsoft Power Platform · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

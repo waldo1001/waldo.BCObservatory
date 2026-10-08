@@ -1,0 +1,29 @@
+{
+  "video_id": "9-eo7b2xg8Q",
+  "item_id": "video/yt-bcmusings/9-eo7b2xg8Q",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Key point 'continue is optional and not a breaking change' is not supported: the transcript never mentions breaking changes. It only says some commenters note code can be restructured to avoid continue.",
+    "Third example key point repeats garbled caption names ('table 1099 form do header', 'Coordinate IRS 1099 send email'). Reworded to stay close to the captions without stating exact object names.",
+    "The feature status can be backed by a quote. The speaker says AL did not have continue until 2025 wave 1, has it now and already uses it. Set to ga with that quote.",
+    "System 'reporting' is not supported by the transcript, but the systems field cannot be edited here.",
+    "Added a quote on how break differs from continue."
+  ],
+  "input_hash": "a0daa7c5601f31029e4b0d0ea79f907320b4bab6a8cb885cf5c59f1bf25e8b41",
+  "by": "opus",
+  "at": "2026-10-07T23:22:43.718Z",
+  "applied": [
+    "quote at 54s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [
+    "status continue keyword in AL -> ga: evidence not verbatim or does not state the status"
+  ],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.07327700000000001
+  }
+}

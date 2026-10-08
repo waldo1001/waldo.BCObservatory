@@ -2,7 +2,7 @@
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-to-claude-code--b9d049c181
 type: post
 title: Copilot is agent-first, Claude Code is skill-first
-summary: Copilot uses an agent-first architecture where you select a persona before interacting, while Claude Code is skill-first with a single agent throughout a session. Understanding this difference is crucial when migrating custom agents between platforms, as agents that step into conversations in Copilot map to skills in Claude Code, while those that fork and report map to subagents.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - workflow design
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-07T23:47:21.935Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,17 +72,9 @@ preview:
 
 # Copilot is agent-first, Claude Code is skill-first
 
-[Read the post](https://tine.staric.net/blog/2026/copilot-to-claude-code/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-21 · 1097 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2026/copilot-to-claude-code/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-21 · 1097 words · tier community · **flagged** (a review found a problem)
 
-> Copilot uses an agent-first architecture where you select a persona before interacting, while Claude Code is skill-first with a single agent throughout a session. Understanding this difference is crucial when migrating custom agents between platforms, as agents that step into conversations in Copilot map to skills in Claude Code, while those that fork and report map to subagents.
-
-## Key points
-
-- Copilot agents come in two types: runSubagent agents that fork and report back (equivalent to Claude Code subagents), and dropdown agents that prepend instructions to the current conversation (equivalent to skills)
-- Claude Code skills cannot restrict tools since they are inline text read by the main agent, while Copilot agents could guarantee tool restrictions; critical tool restrictions require Claude Code subagents instead
-- Migrating workflows requires sorting each agent by its actual isolation behavior rather than file type, not translating agents one-to-one between platforms
-- Skills from Copilot transfer directly to Claude Code without changes, but dropdown agents require restructuring
-- Determine whether to use a skill or subagent by asking if it needs on-demand invocation and whether work belongs in the current conversation or an isolated context
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Context
 

@@ -16,12 +16,12 @@ tags:
   - authentication
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:50.182Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,7 @@ preview:
 
 # Accessing Fkh containers using a terminal
 
-[Read the post](https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal/) · Freddys blog (Freddy Kristiansen) · 2026-08-06 · 1261 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal/) · Freddys blog (Freddy Kristiansen) · 2026-08-06 · 1261 words · tier community · reviewed (checked by Opus)
 
 > Fkh provides secure, just-in-time terminal access to Business Central containers running in Kubernetes clusters through three methods: kubectl with PowerShell, WinRM access via CLI, or WinRM access via VS Code. Each approach prioritizes security by avoiding public exposure and standing credentials.
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:02.608Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Auditing in Business Central covers how to track data changes, audit security-related tables, and review events sent to Microsoft Purview. It answers questions about who changed what and when, which tools to use, and which administrative events are logged.
 
-Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Auditing · tier official · system none · narrative reviewed by Opus
+Path: [Security, privacy, and compliance](../security-privacy-and-compliance.md) > Auditing · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

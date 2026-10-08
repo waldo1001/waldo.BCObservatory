@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:39.726Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > On-premises security for Business Central covers authentication, server hardening, SSL/HTTPS, X.509 certificates, database encryption (TDE, BitLocker), and SQL Server permissions. It answers how to secure the web client, server, database and network connections in an on-premises deployment.
 
-Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > On-premises · tier official · system none · narrative reviewed by Opus
+Path: [Security, privacy, and compliance](../../security-privacy-and-compliance.md) > [Security](../security.md) > On-premises · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

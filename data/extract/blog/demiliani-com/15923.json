@@ -5,13 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2026-09-17T08:38:44.000Z",
   "words": 626,
-  "summary": "Azure Functions Flex Consumption plan now supports rolling updates for zero-downtime deployments. This feature gradually replaces instances instead of restarting all at once, allowing in-progress executions to complete and maintaining availability during deployment.",
-  "key_points": [
-    "Rolling updates drain instances in small batches and scale out new instances with updated code to maintain capacity",
-    "Feature is only available on Flex Consumption plan, not on Consumption or Premium plans",
-    "Requires backward-compatible changes since old and new instances run together briefly during deployment",
-    "Comparison shows deployment slots on other plans don't guarantee zero downtime like rolling updates do"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "platform"
   ],

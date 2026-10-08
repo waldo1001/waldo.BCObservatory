@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:08.228Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,7 +123,7 @@ narrative: generated
 
 > Monitoring the Business Central on-premises server: performance counters for client sessions, SQL connections, data caching and scheduled tasks, plus server events written through Event Tracing for Windows. It answers questions about checking server instance health and collecting event or trace data.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Monitoring Business Central server · tier official · system administration · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Administration](../administration.md) > Monitoring Business Central server · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

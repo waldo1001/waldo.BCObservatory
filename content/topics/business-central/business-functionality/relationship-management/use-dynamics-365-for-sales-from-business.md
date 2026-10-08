@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:45.528Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Using Dynamics 365 Sales with Business Central: coupling and synchronizing records with Dataverse or Dynamics 365 Sales, managing customers, orders, quotes, pricing and invoices across both systems, and checking synchronization job errors. It answers how-to questions about linking records and fixing sync problems.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Use Dynamics 365 for Sales from Business Central · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Use Dynamics 365 for Sales from Business Central · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

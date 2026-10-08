@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:13.898Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -261,7 +261,7 @@ narrative: generated
 
 > The Power BI Manufacturing app section describes the app's reports, its semantic model and its KPIs and measures. It answers questions about capacity utilization, work center and machine center load, production order status and cost, WIP, scrap, and variances.
 
-Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Manufacturing](../../manufacturing.md) > [Manufacturing analytics](../manufacturing-analytics.md) > Power BI manufacturing app · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

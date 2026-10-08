@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:45.452Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Warehouse counting in Business Central covers physical inventory counts, adjustments and reclassification using orders, recordings and journals. It answers questions about cycle counting, bin-level counts, adjustment bins and how warehouse adjustments reconcile with the item ledger.
 
-Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Warehouse counting · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Warehouse counting · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:37.954Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,7 +110,8 @@ links:
   topics:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
-  videos: []
+  videos:
+    - video/jJxBswIy_Xw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -124,7 +125,7 @@ children: []
 coverage:
   learn: 9
   code: 13
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -149,7 +150,7 @@ narrative: generated
 
 > Subscription Billing contracts in Business Central: customer and vendor subscription contracts, subscriptions, planned subscription lines, renewal, cancellation, price updates, and deferrals. It answers questions about setting up and managing recurring billing contracts and their lifecycle.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Contracts · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Contracts · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -181,6 +182,12 @@ Other pages cover lifecycle tasks: renewing contracts through sales quotes and o
 - [Subscriptions](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/service-objects): You can use subscriptions in subscription billing.
 - [Update prices](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/price-update): You can update prices in subscription billing.
 - [Vendor subscription contracts](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contracts): You can use vendor subscription contracts in subscription billing.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "contracts; billing proposals; pricing; automation; usage-based billing; contract management"
 
 ## Business Central pages and reports
 

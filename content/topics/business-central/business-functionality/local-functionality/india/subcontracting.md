@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:24.463Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,7 @@ narrative: generated
 
 > Subcontracting in the India localization of Business Central: setup of locations, vendors and items, creating subcontracting orders from released production orders, sending materials by delivery challan, GST liability, and job work reports. It answers how-to questions about the subcontracting process.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Subcontracting · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Subcontracting · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

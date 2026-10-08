@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/15968",
+  "input_hash": "2a8adbdcc9f586c12944d4807176c151b8e071490c2e5ebeeed5b84dcac4017d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:22.313Z",
+  "issues": [
+    "The object entry is the generic query object type, not a specific object named in the post, so it is dropped.",
+    "The reporting system is a weak fit: the post covers transaction isolation and locking for queries, not reporting.",
+    "The summary, key points, versions and the one quote are accurate."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032907,
+    "posts_in_call": 4
+  }
+}

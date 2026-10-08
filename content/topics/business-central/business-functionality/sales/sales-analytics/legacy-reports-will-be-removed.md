@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.865Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,7 @@ narrative: generated
 
 > Legacy sales analytics reports in Business Central that are marked for removal: Customer - Sales list, Customer - Top 10 list, Customer List, Sales Reservation Avail., and Sales Statistics. Use it to find what each report shows, which filters it offers, and what it is used for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Legacy reports (will be removed) · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Sales analytics](../sales-analytics.md) > Legacy reports (will be removed) · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

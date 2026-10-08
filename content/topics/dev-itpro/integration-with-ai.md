@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:54.518Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -345,7 +345,7 @@ narrative: generated
 
 > Integration with AI in Business Central covers how partners and developers build AI features: Copilot extensions in AL, machine learning APIs, Model Context Protocol (MCP) servers, and custom agents (preview). It answers setup, design, connection and responsible-use questions.
 
-Path: Integration with AI · tier official · system copilot · narrative reviewed by Opus
+Path: Integration with AI · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

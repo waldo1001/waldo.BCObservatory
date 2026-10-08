@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal",
+  "input_hash": "b75f7830fb99645b598de5620b0f623e8926ae43a5d4496107815999bcf9ff3d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.182Z",
+  "issues": [
+    "The three access options, the WinRM recommendation, the lockout policy and the VS Code output all match the post.",
+    "The lockout point leaves out that the policy matters when a container is opened to the internet. That is a small omission and does not make the point wrong.",
+    "There are no quotes, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025068,
+    "posts_in_call": 4
+  }
+}

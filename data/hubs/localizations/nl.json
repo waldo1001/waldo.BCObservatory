@@ -3,7 +3,7 @@
   "version": "29",
   "input_hash": "d4c78db0b103916e713c6430a34bc0eaa159c6d4ea1be57090be72c70c880049",
   "summary": "Netherlands (NL) localization of Business Central 29. It covers Dutch telebanking (payment and collection proposals, payment history, BTL91/BBV/PAYMUL and SEPA export), CBG bank/giro and cash journals, bank statement import, electronic VAT and ICP declarations via Digipoort, the tax audit file, CMR notes, Dutch post codes and Intrastat.",
-  "overview": "The Dutch layer is built around telebanking. Transaction modes, proposals, payment history and export protocols are own tables, pages and reports (11000000 range). Transaction Mode Code fields are added to customers, vendors, employees, ledger entries, sales and purchase documents and journal lines. Bank accounts, customer bank accounts and vendor bank accounts get account holder fields. SEPA credit transfer and direct debit exports are extended, and SEPA CAMT statement import is supported. Learn documents telebanking, the three payment scenarios, SEPA activation and docket reports.\n\nBank/Giro and Cash journals (CBG statements) are own pages and codeunits. They tie into GenJnlManagement and Payment Tolerance Management and add fields to G/L Entry for applying and unapplying entries. Source Code Setup gets cash and bank journal source codes. Learn describes posting these journals, importing and reconciling bank statements, and printing test reports.\n\nTax and statutory features include electronic VAT and ICP declarations sent through Digipoort (setup, VAT categories, certificates, response messages), the tax authority audit file, CMR notes for sales, transfer and return shipments, and the VIES declaration. The layer also adds Dutch post code import with update logging, Intrastat export, and service document extensions.",
+  "overview": "The Dutch layer is built around telebanking. Transaction modes, proposals, payment history and export protocols are own pages, reports and codeunits, mostly numbered in the 11000000 range. Transaction Mode Code fields are added to customers, vendors, employees, ledger entries, sales and purchase documents and journal lines. Bank accounts, customer bank accounts and vendor bank accounts get account holder fields. SEPA credit transfer and direct debit exports are extended, and SEPA CAMT statement import is supported. Learn documents telebanking, the three payment scenarios, SEPA activation and docket reports.\n\nBank/Giro and Cash journals (CBG statements) are own pages and codeunits. They tie into GenJnlManagement and Payment Tolerance Management, and Gen. Journal Template gets a No. of CBG Statements field. Source Code Setup gets cash and bank journal source codes. Learn describes posting these journals, importing and reconciling bank statements, and printing test reports. Separately, G/L Entry gains fields such as Open, Remaining Amount and Applies-to ID so that G/L entries can be applied and unapplied.\n\nTax and statutory features include electronic VAT and ICP declarations sent through Digipoort (setup, VAT categories, certificates, response messages), the tax authority audit file, CMR notes for sales, transfer and return shipments, and the VIES declaration. Company Information gets a Fiscal Entity No. field. Learn also covers editing document amounts on purchase invoices and credit memos. The layer also adds Dutch post code import with update logging, Intrastat export, and service document extensions.",
   "key_points": [
     "Telebanking: payment and collection proposals, payment history, and export via BTL91 (ABN AMRO, Rabobank), BBV, PAYMUL and SEPA ISO 20022 (credit transfer pain.001, direct debit pain.008).",
     "Transaction Mode Code is added to customers, vendors, employees, templates, ledger entries and sales and purchase documents to drive payment handling.",
@@ -159,5 +159,22 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.16156399999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:24:04.605Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says transaction modes, proposals, payment history and export protocols are own tables. The input lists own pages, reports and codeunits in the 11000000 range, but none of the added tables appear in the listed objects. Changed to pages, reports and codeunits.",
+      "Overview says the CBG journals add the G/L Entry application fields. The input lists those fields as a separate apply and unapply feature with its own Learn page. Moved them into their own sentence.",
+      "Small gaps, now added to the overview: Gen. Journal Template gets a 'No. of CBG Statements' field, Company Information gets a Fiscal Entity No., and Learn documents editing document amounts on purchase invoices and credit memos."
+    ],
+    "input_hash": "d4c78db0b103916e713c6430a34bc0eaa159c6d4ea1be57090be72c70c880049",
+    "cost_usd": 0.2285548,
+    "applied": [
+      "overview"
+    ],
+    "rejected_edits": []
   }
 }

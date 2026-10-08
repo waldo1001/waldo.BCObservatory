@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.729Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Warehouse management design details in Business Central: how availability to pick and to reserve is calculated from bin content, allocations and reservations, and how warehouse entries are created and numbered. It answers questions about warehouse quantity mechanics and entry creation.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Warehouse management · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 

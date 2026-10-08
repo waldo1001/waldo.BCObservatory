@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.775Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,7 +170,8 @@ links:
   topics:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
-  videos: []
+  videos:
+    - video/jJxBswIy_Xw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -184,7 +185,7 @@ children: []
 coverage:
   learn: 18
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -197,7 +198,7 @@ narrative: generated
 
 > Subscription billing analytics covers the Power BI Subscription Billing app for Business Central: setup, semantic model, KPI definitions, and the reports for recurring revenue, churn, contract value, forecasts, and deferrals. It answers questions about what each report shows and how to set up the app.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Subscription billing analytics · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Subscription billing analytics · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -238,6 +239,12 @@ The report pages fall into groups. Overview and year-over-year reports give a hi
 - [Total Contract Value Analysis (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-analysis): The Total Contract Value Analysis report provides a detailed analysis of your total contract value, breaking it down into its key contributing components.
 - [Total Contract Value Year-Over-Year (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-total-contract-value-year-over-year): The Total Contract Value Year-Over-Year report compares TCV trends across periods.
 - [Vendor Deferrals (Power BI Report)](https://learn.microsoft.com/dynamics365/business-central/SRB/analytics/subscription-powerbi-vendor-deferrals): The Vendor Deferrals report outlines deferred costs and liabilities by vendor.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "Power BI Embedded Reporting; Excel Reports for Subscription Billing"
 
 ## Business Central pages and reports
 

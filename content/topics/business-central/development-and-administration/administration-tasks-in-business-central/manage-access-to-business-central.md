@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:27.484Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -177,7 +177,7 @@ narrative: generated
 
 > Managing access to Business Central: licensing, user accounts, environment access, permissions and security groups. It answers questions on who can use the system, how to grant permissions, how to use security groups, and how Microsoft 365 licenses give read-only access through Teams.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage access to Business Central · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage access to Business Central · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

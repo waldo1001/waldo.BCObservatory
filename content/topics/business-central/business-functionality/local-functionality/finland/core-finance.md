@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.653Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Core finance for the Finnish version of Business Central covers automatic account codes, automatic account posting group setup, and posting of depreciation differences to the general ledger. It answers questions about Finland-specific finance posting setup and depreciation required by Finnish tax law.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

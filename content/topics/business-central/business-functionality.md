@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T13:37:16.092Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -3831,7 +3831,7 @@ narrative: generated
 
 > Business functionality in Business Central covers the business processes the product supports: finance, sales, purchasing, inventory, projects, fixed assets, manufacturing, warehouse, service, sustainability, Shopify, local functionality, setup and design details. It answers setup, how-to and which-feature questions by area.
 
-Path: Business functionality · tier official · system none · narrative reviewed by Opus
+Path: Business functionality · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

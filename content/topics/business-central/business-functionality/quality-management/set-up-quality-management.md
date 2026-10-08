@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:26.153Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,8 +70,7 @@ links:
   topics:
     - topic/business-central/business-functionality/quality-management
   localizations: []
-  videos:
-    - video/m8-7-JKq4dc
+  videos: []
   posts:
     - post/olofsimren-com/3696
   guidelines: []
@@ -85,7 +84,7 @@ children: []
 coverage:
   learn: 5
   code: 5
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms:
@@ -102,7 +101,7 @@ narrative: generated
 
 > Setting up quality management in Business Central covers base setup and permissions, inspection results, inspection templates, generation rules, and workflows. It answers questions about configuring how quality inspections are created, evaluated, and acted on.
 
-Path: [Business functionality](../../business-functionality.md) > [Quality management](../quality-management.md) > Set up quality management · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Quality management](../quality-management.md) > Set up quality management · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -135,7 +134,6 @@ Start with the setup and configuration page, then configure results and template
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Quality Management in Business Central Version 28](../../../../posts/olofsimren-com/3696.md) (community post): "Inspection templates define parameters and accepted values; generation rules link templates to items"
-- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Flexible Quality Configuration; Automated Non-Compliant Item Handling"
 
 ## Business Central pages and reports
 

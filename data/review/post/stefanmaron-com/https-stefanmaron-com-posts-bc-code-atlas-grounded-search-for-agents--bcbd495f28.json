@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
+  "input_hash": "98389162f28c50be6face423a48170f79c0199df41e844a58af07912585c03c1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.060Z",
+  "issues": [
+    "Summary overstates the benefit as eliminating hallucinations; the post only promises results that can be checked against real files and admits the project is still early.",
+    "Copilot system is not supported; the post is about external AI coding agents, not BC Copilot features.",
+    "Objects SalesLine and SalesLineReserve appear in the sample search output, so they stay.",
+    "Key points and features match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048649,
+    "posts_in_call": 4
+  }
+}

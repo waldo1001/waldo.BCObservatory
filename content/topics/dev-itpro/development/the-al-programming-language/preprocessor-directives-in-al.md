@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.967Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > AL preprocessor directives cover conditional compilation (#if, #else, #elif, #endif, #define, #undef), regions (#region, #endregion) and pragmas (#pragma warning, #pragma implicitwith). It answers questions about compiling code conditionally, suppressing warnings and organizing code in large files.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Preprocessor directives in AL · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Preprocessor directives in AL · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

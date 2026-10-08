@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e62449a20b56fb7c91e6ad00de44b6a4c1ff4e8c8038c0a86b0ebe84f4498ab8
@@ -76,11 +76,11 @@ footprint:
     - id: platform
       weight: 29
     - id: integration
-      weight: 9
+      weight: 7
     - id: administration
-      weight: 6
+      weight: 5
     - id: copilot
-      weight: 2
+      weight: 1
     - id: finance
       weight: 1
   topics:
@@ -113,21 +113,21 @@ footprint:
       weight: 2
     - id: other MsDyn365Bc.On.Linux
       weight: 2
-    - id: codeunit CertificateOfSupplyPartiallyShippedOrder
-      weight: 1
     - id: codeunit Codeunit.Run
       weight: 1
     - id: codeunit SalesLineReserve
       weight: 1
-    - id: codeunit test codeunits
-      weight: 1
     - id: codeunit Test codeunits
       weight: 1
-    - id: enum fixture enums
-      weight: 1
-    - id: interface fixture interface
-      weight: 1
     - id: other AL Language Tests
+      weight: 1
+    - id: other al-compile
+      weight: 1
+    - id: other AL-Go
+      weight: 1
+    - id: other al-go-compile-bench
+      weight: 1
+    - id: other al-smart-compile
       weight: 1
   features: []
 first_item: "2025-06-02"
@@ -146,16 +146,16 @@ last_item: "2026-09-10"
 |---|---|---|
 | development (53) | testing (10) | other AL Runner (5) |
 | platform (29) | al development (8) | other BusinessCentral.AL.Language.Tests (3) |
-| integration (9) | al runner (8) | other bc-code-atlas (2) |
-| administration (6) | claude code (5) | other MsDyn365Bc.On.Linux (2) |
-| copilot (2) | ci/cd (4) | codeunit CertificateOfSupplyPartiallyShippedOrder (1) |
-| finance (1) | docker (4) | codeunit Codeunit.Run (1) |
-|  | performance (4) | codeunit SalesLineReserve (1) |
-|  | ci/cd pipeline (3) | codeunit test codeunits (1) |
-|  | code analysis (3) | codeunit Test codeunits (1) |
-|  | code quality (3) | enum fixture enums (1) |
-|  |  | interface fixture interface (1) |
-|  |  | other AL Language Tests (1) |
+| integration (7) | al runner (8) | other bc-code-atlas (2) |
+| administration (5) | claude code (5) | other MsDyn365Bc.On.Linux (2) |
+| copilot (1) | ci/cd (4) | codeunit Codeunit.Run (1) |
+| finance (1) | docker (4) | codeunit SalesLineReserve (1) |
+|  | performance (4) | codeunit Test codeunits (1) |
+|  | ci/cd pipeline (3) | other AL Language Tests (1) |
+|  | code analysis (3) | other al-compile (1) |
+|  | code quality (3) | other AL-Go (1) |
+|  |  | other al-go-compile-bench (1) |
+|  |  | other al-smart-compile (1) |
 
 ## Flight path
 

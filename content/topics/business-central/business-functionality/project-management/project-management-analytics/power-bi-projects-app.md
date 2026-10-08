@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:46.107Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,7 +162,7 @@ narrative: generated
 
 > The Power BI Projects app section covers the project analytics reports, the underlying semantic model, and the KPI and measure reference for Business Central projects. It answers questions about budget performance, profitability, realization, invoiced sales, tasks, timelines, and how the data is modeled.
 
-Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Power BI projects app · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

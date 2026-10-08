@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:55.310Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > Deprecated application features in Business Central W1 across release waves 2020 to 2027, plus objects deleted from the Base App and first-party apps in 2025 release wave 1 (v26). It answers what was removed or deprecated, when, and how to move off it.
 
-Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative reviewed by Opus
+Path: [Deprecated features](../deprecated-features.md) > Application · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -5,7 +5,7 @@
   "source": "freddysblog",
   "published_at": "2026-08-05T10:00:00.000Z",
   "words": 3766,
-  "summary": "Fkh is a Kubernetes-based development container platform deployed in your own Azure subscription. The post breaks down all cost components, shows how expenses scale with concurrent containers, and demonstrates that typical scenarios cost $42-$192 per month per container when properly optimized for working hours.",
+  "summary": "Fkh runs in your own Azure subscription. This post lists every cost component, explains how each one scales with concurrent containers and Windows node size, and gives example monthly bills. With an 8-hour working day and scale-to-zero, cost per container falls to roughly $30 to $60 at 10 to 40 containers. Running 24/7 costs several times more, so StopFkh, spot nodes and right-sizing matter.",
   "key_points": [
     "Four cost buckets exist: always-billed infrastructure, usage-based scaling, conditional features, and free components",
     "Windows node pool compute dominates variable costs and scales to zero outside working hours, while Linux SQL node and Premium SSD form a fixed baseline",
@@ -15,8 +15,7 @@
   ],
   "systems": [
     "platform",
-    "development",
-    "integration"
+    "development"
   ],
   "topics": [
     "kubernetes",

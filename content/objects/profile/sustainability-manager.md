@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 66bd3ed6ca28abfa976d61bdb7e313e136d4b2e34c80654f26ddc5bb032f6d6a
@@ -84,16 +84,13 @@ Sustainability · Microsoft.Sustainability.RoleCenters · captioned "Sustainabil
 |---|---|
 | Caption | Sustainability Manager |
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "profile", object_name: "SUSTAINABILITY MANAGER")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node profile "SUSTAINABILITY MANAGER"`
-
 ## Across versions
 
 - Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "profile", object_name: "SUSTAINABILITY MANAGER")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

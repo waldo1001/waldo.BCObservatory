@@ -9,12 +9,12 @@ tags:
   - localization
   - ca
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:25:02.486Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -199,13 +199,13 @@ learn_folder: LocalFunctionality/Canada
 
 > Canada (CA) localization of Business Central 29. It covers sales tax and GST/HST calculation and reporting, GIFI codes, bank deposits and reconciliation, and EFT electronic payments. It also carries the North American (NA) report set and extra Mexico (SAT/CFDI, DIOT) objects. It answers what the Canadian layer adds to W1 tax, banking, sales and purchase objects.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/canada.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/canada.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Canadian layer is built on the sales tax model: Tax Area, Tax Jurisdiction, Tax Detail and Tax Group. Codeunit 398 "Sales Tax Calculate" gains events and an external tax engine hook, and the posting codeunits (Sales-Post, Purch.-Post, Serv-Documents Mgt.) gain procedures that post sales tax to G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field. Learn documents sales tax, GST/HST reporting, use and purchase tax, unrealized sales tax and sales payment discounts.
+The Canadian layer is built on the sales tax model: Tax Area, Tax Jurisdiction, Tax Detail and Tax Group. Codeunit 398 "Sales Tax Calculate" gains events and an external tax engine hook. Sales-Post and Purch.-Post gain procedures that post sales tax to G/L, and Purch.-Post also calculates and posts provincial sales tax. On the service side, Serv-Documents Mgt. adds sales tax calculation events and Serv-Posting Journals Mgt. adds an event for posting sales tax to G/L. Purchases add provincial tax area codes, GST/HST fields and a Tax To Be Expensed field. Learn documents sales tax, GST/HST reporting, use and purchase tax, unrealized sales tax and sales payment discounts.
 
-Banking adds deposits, bank reconciliation worksheets and EFT export. The EFT export has codeunits for ACH, RB, Cecoban and IAT formats, with fields on Bank Account, Customer/Vendor Bank Account and Gen. Journal Line. GIFI codes are added to G/L Account and documented on Learn, including export of balances for tax preparation software. Also added are many NA reports (sales, purchases, inventory, jobs, resources), Yodlee bank feeds, Ceridian payroll import, PEPPOL 3.0 NA and a Shopify tax match feature.
+Banking adds deposits, bank reconciliation worksheets and EFT export. The EFT export has codeunits for ACH, RB, Cecoban and IAT formats, with fields on Bank Account, Customer/Vendor Bank Account and Gen. Journal Line. GIFI codes are added to G/L Account and documented on Learn, including export of balances for tax preparation software. Also added are many NA reports (purchases, inventory, jobs, resources), Yodlee bank feeds, Ceridian payroll import, PEPPOL 3.0 NA and a Shopify tax match feature.
 
 The package also holds Mexican objects: CFDI e-invoicing with PAC and SAT catalogs, DIOT, and many fields on sales, transfer and company tables. The code summary does not tie these to Canadian requirements, and no Learn page in the input covers them.
 
@@ -217,7 +217,7 @@ The package also holds Mexican objects: CFDI e-invoicing with PAC and SAT catalo
 - Deposits and bank reconciliation: Posted Deposit/Bank Rec. codeunits and permission sets, plus Navigate support for deposits.
 - EFT electronic payments in ACH, RB, Cecoban and IAT formats via Export Payments/EFT codeunits and bank account fields.
 - Check printing changes: Check Ledger Entry, Check Preview and Print Check Helper.
-- NA report set for sales, purchases, inventory and jobs, plus Yodlee, Ceridian payroll and a Shopify tax match feature.
+- NA report set for purchases, inventory, jobs and resources, plus Yodlee, Ceridian payroll and a Shopify tax match feature.
 - Mexican CFDI, SAT and DIOT objects are also present in the code.
 
 Narrative written by Sonnet from the code diff and 8 Learn page summaries. In numbers: Canada (CA) localization of Business Central in BC29: 611 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.

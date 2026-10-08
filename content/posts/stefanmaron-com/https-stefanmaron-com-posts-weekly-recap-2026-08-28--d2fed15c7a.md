@@ -16,12 +16,12 @@ tags:
   - testing
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:09.390Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -77,16 +77,17 @@ preview:
 
 # Weekly Recap: August 21-28
 
-[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-28/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-28 · 1443 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-28/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-28 · 1443 words · tier community · reviewed (checked by Opus)
 
 > Weekly recap covering AL Runner CI tooling fixes, Linux fast lane pipeline bugs, a major OpenPageInspection browser extension rewrite for cross-browser support, and Azure CLI authentication contributions to the navapi Business Central API client.
 
 ## Key points
 
-- AL Runner's changelog generator now handles scoped commit prefixes and automatically maintains the Unreleased section from commit history
-- Linux fast lane fixed directory path handling bugs by switching from space-separated to newline-separated lists and made test steps handle zero-test projects
-- OpenPageInspection rewritten as a WXT project supporting Chromium and Firefox with improved page inspection using BC's native Ctrl+Alt+F1 shortcut
-- navapi gained optional Azure CLI authentication allowing users to avoid storing client secrets, with identity pinning for multi-account scenarios
+- AL Runner hit a CI incident where a PR body describing the skip-ci directive ended up in the squash commit and skipped required checks; a pre-merge script now scans PR titles and bodies for it
+- The AL Runner changelog generator now understands scoped commit prefixes and keeps the Unreleased section current from commit history
+- Linux fast lane fixes: newline-separated directory lists to handle spaces in folder names, compile-only projects with zero tests no longer fail, and a fallback for the moved compiler binary in BC 29 preview
+- OpenPageInspection was rebuilt as a WXT project for Chromium and Firefox, triggering page inspection through BC's own Ctrl+Alt+F1 keydown
+- navapi gained optional Azure CLI token authentication with identity pinning so users need no stored client secret
 
 ## AL objects mentioned
 

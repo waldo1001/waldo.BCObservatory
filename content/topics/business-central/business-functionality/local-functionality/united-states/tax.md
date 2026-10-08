@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,7 +182,7 @@ narrative: generated
 
 > US tax in Business Central: sales tax, use and purchase tax, unrealized sales tax, and IRS 1099 and 1096 forms. It answers questions about tax setup, jurisdictions and groups, 1099 vendor tracking, form format changes, and submitting forms to the IRS.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -222,7 +222,7 @@ Start with Basic Tax Setup and Sales tax for general tax configuration. For 1099
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
-- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "1099 reporting; irs integration; us tax forms; vendor setup; electronic filing"
+- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "Automated IRS1099 Reporting; 1099 reporting; irs integration; us tax forms; vendor setup"
 
 ## Business Central pages and reports
 

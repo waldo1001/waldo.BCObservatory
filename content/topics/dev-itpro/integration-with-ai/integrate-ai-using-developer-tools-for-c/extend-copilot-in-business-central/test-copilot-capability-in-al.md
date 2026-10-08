@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:37.921Z"
   flags: []
 generated:
-  at: "2026-10-07T00:21:33.880Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ narrative: generated
 
 > Testing Copilot capabilities and agents in AL for Business Central: the Evaluation framework (formerly AI Test Toolkit), JSONL and YAML datasets, writing AI tests and agent tests, and best practices for non-determinism, safety, languages and model changes.
 
-Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Test Copilot capability in AL · tier official · system copilot · narrative reviewed by Opus
+Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Test Copilot capability in AL · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

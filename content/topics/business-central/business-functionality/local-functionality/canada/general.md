@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:43.497Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > General Canadian local functionality in Business Central: GIFI codes for tax reporting and troubleshooting reports in the Canadian version. It answers questions about assigning GIFI codes to G/L accounts, exporting balances for tax software, and printing finance troubleshooting reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

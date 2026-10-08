@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242",
+  "input_hash": "8039289dec30627b1931bb5cd248b4ebe23b0b8e8382a39d23abe6bae5a87f15",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:54.040Z",
+  "issues": [
+    "Summary and key points match the post.",
+    "Quote 2 is only a section heading and adds little value.",
+    "Administration as a system is not really supported; the post is about migration planning, not admin tasks."
+  ],
+  "applied": [
+    "dropped 1 quote(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030917,
+    "posts_in_call": 4
+  }
+}

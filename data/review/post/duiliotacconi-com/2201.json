@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/2201",
+  "input_hash": "c479003c5a36aec047cb0fa2bb9e5e21bc325cdf95897c55836e5be0ba3fa1a3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:09.790Z",
+  "issues": [
+    "The post is about table design limits for developers and the platform. It says nothing about administration, so that tag is dropped.",
+    "The key point on the 8KB limit oversimplifies a little: the post's conclusion still calls it a hard limit, but one that depends on each field's SQL data type. It is acceptable as written.",
+    "The field count, index limit and key-mixing claims match the post. All three quotes appear in the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036957,
+    "posts_in_call": 4
+  }
+}

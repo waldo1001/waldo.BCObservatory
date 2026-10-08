@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:06.493Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,7 @@ narrative: generated
 
 > Migration of Dynamics SL on-premises data to Business Central online: overview, preparation, cloud migration setup, data replication, data upgrade, and completion. It answers questions about the end-to-end process, setup steps, running and monitoring replication, and post-migration tasks such as users and permissions.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics SL · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics SL · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

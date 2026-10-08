@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,7 +324,7 @@ narrative: generated
 
 > Set up sales in Business Central covers configuring customers, salespeople, prices and discounts, shipping, document sending, payment services, posting policies and stockout warnings. It answers setup questions before sales processes start, and includes a subtopic on subscription billing setup.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

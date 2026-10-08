@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,7 +348,7 @@ narrative: generated
 
 > Migration to Business Central online from on-premises Business Central, Dynamics NAV, Dynamics GP, Dynamics SL, or any SQL source. It answers questions about choosing a migration route, running each phase, custom migrations, FAQs, and troubleshooting.
 
-Path: [Administration](../administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Migrate to Business Central online · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

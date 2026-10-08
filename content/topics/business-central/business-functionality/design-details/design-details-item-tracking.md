@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,7 +138,7 @@ narrative: generated
 
 > Item tracking design details in Business Central: how serial, lot and package numbers are tracked through the reservation system, posting, planning, warehouse and availability. It answers questions about the tables involved, how active and historic entries differ, and how tracking interacts with reservations and planning.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Item tracking · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Item tracking · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

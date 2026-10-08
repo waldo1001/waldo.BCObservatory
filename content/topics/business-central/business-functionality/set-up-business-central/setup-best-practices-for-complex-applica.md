@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.450Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ narrative: generated
 
 > Setup best practices for complex Business Central application areas, mainly costing methods and supply planning. It answers questions about which costing method or reordering policy fits which items and business environment, and which setup fields to configure.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Setup best practices for complex application areas · tier official · system administration · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Setup best practices for complex application areas · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

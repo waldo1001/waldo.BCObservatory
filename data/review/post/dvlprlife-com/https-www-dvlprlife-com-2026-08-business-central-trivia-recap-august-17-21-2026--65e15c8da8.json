@@ -1,0 +1,27 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/",
+  "input_hash": "2eeeb9e0d90333f23e4de6bdaf241dcab73d454e062188a204a3c443c2ffcd22",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:06.962Z",
+  "issues": [
+    "The post recaps a community Business Central trivia game. It does not describe product functionality.",
+    "Neither the reporting system nor the platform system is supported by the post.",
+    "The listed features belong to the trivia website (sounds, streaks, medals, flair, mobile menu), not to Business Central, so they would mislead agents and are dropped.",
+    "The summary is rewritten to make clear that the new features belong to the trivia site."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 7 feature(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037912,
+    "posts_in_call": 4
+  }
+}

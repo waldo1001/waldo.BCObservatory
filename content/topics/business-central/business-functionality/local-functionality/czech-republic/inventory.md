@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:33.023Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,7 +147,7 @@ narrative: generated
 
 > Czech local inventory functionality in Business Central: extra fields on ledger and value entries, physical inventory and counting documents, movement templates, SKU templates, rounding accounts, transfer order posting groups, and inventory reports. It answers questions about how the Czech version differs from base inventory handling.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

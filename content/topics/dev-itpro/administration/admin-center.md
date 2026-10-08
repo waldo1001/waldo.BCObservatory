@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.343Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -266,6 +266,7 @@ links:
     - video/42adOzECiA0
     - video/HixajKEd-A4
     - video/KNy2KujjheU
+    - video/LerAo-GGl8U
     - video/uv2NsSD5P7U
     - video/wPEZ3U5j4zw
   posts:
@@ -290,7 +291,7 @@ children:
 coverage:
   learn: 31
   code: 0
-  video: 8
+  video: 9
   blog: 8
   guideline: 0
 bc_forms: []
@@ -302,7 +303,7 @@ narrative: generated
 
 > The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.
 
-Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -363,6 +364,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Upgrade to Preview (2025 release wave 2)](../../../videos/42adOzECiA0.md) (video): "Copy Production Data to Sandbox and Upgrade to Preview"
 - [What's new: Match Production Database Configuration (2026 release wave 2)](../../../videos/HixajKEd-A4.md) (video): "sandbox configuration; production database matching; admin center"
 - [What's new: Database Export Enhancements (2026 release wave 2)](../../../videos/KNy2KujjheU.md) (video): "database export; admin center; operations page; reliability; visibility"
+- [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Multi-Tenant Administration via MCP"
 - [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "update management; major versions; minor updates; grace period; enforced updates"
 - [What's New: Flexible Update Management (2025 release wave 1)](../../../videos/wPEZ3U5j4zw.md) (video): "Flexible update management - General availability; Five-month update period"
 

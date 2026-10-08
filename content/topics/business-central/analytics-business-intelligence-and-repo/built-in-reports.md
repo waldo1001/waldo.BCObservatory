@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.594Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -615,7 +615,7 @@ narrative: generated
 
 > Built-in reports in Business Central across finance, sales, purchasing, fixed assets, project, assembly, manufacturing and service management. It answers which reports exist for each area, how to reach them through the Report Explorer, and how to analyze activity. It also covers the Notification Email report and report generation telemetry.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Built-in reports · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Built-in reports · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

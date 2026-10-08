@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6634996257036493772",
+  "input_hash": "b9eb8d9e8b6b9b7c06ec0db9a77fefb2e40e9b9b715d62e154a087b0d8eb0d32",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:34.210Z",
+  "issues": [
+    "The buffer codeunit is never named in the post; dropped that object.",
+    "Summary, key points, bands, thresholds, digest and version claims match the post.",
+    "Post also names Sales Header and Purchase Header, which are not listed, but they cannot be added with these edits."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034878,
+    "posts_in_call": 4
+  }
+}

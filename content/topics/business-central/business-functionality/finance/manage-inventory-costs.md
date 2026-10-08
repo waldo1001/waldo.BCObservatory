@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,7 +201,7 @@ narrative: generated
 
 > Inventory cost management in Business Central: costing methods, unit and standard cost calculation, cost adjustment, item charges, revaluation, and fixing item applications. It answers how costs are calculated, adjusted, corrected, and reconciled with the general ledger.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage inventory costs · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage inventory costs · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

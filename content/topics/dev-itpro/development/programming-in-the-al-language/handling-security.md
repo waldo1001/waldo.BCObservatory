@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.639Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -222,7 +222,7 @@ narrative: generated
 
 > Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

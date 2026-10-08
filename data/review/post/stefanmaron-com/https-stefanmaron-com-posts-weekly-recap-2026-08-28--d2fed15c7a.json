@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/",
+  "input_hash": "67e4ea29b198b668ba6acab11316872dd4fc0cb27c3338b15b94b904b5afb44d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:09.390Z",
+  "issues": [
+    "Summary and objects are accurate.",
+    "Key points left out the main AL Runner story: prose describing the skip-ci directive in a squash-merged PR body caused GitHub to skip the required check, and it was fixed with a pre-merge title/body check script."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040562,
+    "posts_in_call": 4
+  }
+}

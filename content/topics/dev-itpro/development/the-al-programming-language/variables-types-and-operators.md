@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:43.821Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ narrative: generated
 
 > Variables, types, and operators in AL covers user-defined and system-defined variables, protected variables, automatic type conversion, and the operator families (arithmetic, relational, boolean, conditional, compound). It answers questions about syntax, evaluation order, and resulting data types.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Variables, types, and operators · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

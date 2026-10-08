@@ -15,12 +15,12 @@ tags:
   - extension compatibility
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:34.466Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -70,20 +70,20 @@ preview:
 
 # I Can Turn Off My Code. I Can't Turn Off Yours.
 
-[Read the post](https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-18 · 1749 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-18 · 1749 words · tier community · reviewed (checked by Opus)
 
 > When developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers including base app code and third-party extensions. The post argues that triggers should run by default because developers cannot know at compile time what logic they would disable, and proposes the platform should dynamically check at runtime whether anything is registered on a trigger before deciding whether to skip the expensive per-row execution.
 
 ## Key points
 
-- Setting RunTrigger false disables all subscriber logic, not just the developer's own code, making it a decision that shouldn't be made at the call site
-- Bulk operations like DeleteAll skip per-row execution for performance, but forcing row-by-row trigger execution when nothing is registered wastes that performance gain unnecessarily
-- The platform should check at runtime whether code is registered on a trigger and fall back to bulk SQL operations when nothing needs to run, making RunTrigger true safe by default
-- ModifyAll currently has no way to request Validate() triggers at all, only OnModify, forcing developers to choose between correctness and performance with no middle ground
-- SQL Server, Salesforce, and other systems handle this differently - either by moving checks to the database level or by batching trigger invocations over sets instead of individual rows
+- Setting RunTrigger to false disables every subscriber on the table, including base app and third-party extension code, which the caller cannot know about when writing the code.
+- In a journal import, merging three Modify calls per line into one gave about 20% speedup with no change in which triggers ran; removing Modify entirely (32%) was rejected because it would skip a third-party subscriber.
+- Proposal: keep RunTrigger, but make true mean run the trigger only if something is registered, and otherwise fall back to the same bulk SQL operation used with false.
+- A separate gap: ModifyAll cannot request field Validate logic, so respecting validate subscribers forces a slow record-by-record loop.
+- Other systems differ: Rails, Django and Hibernate bypass callbacks on bulk paths, SQL Server, Oracle and PostgreSQL offer per-statement set-based triggers, and Salesforce Apex triggers always get batches of records.
 
 ## Context
 
-- Features: RunTrigger parameter, Insert trigger, Modify trigger, DeleteAll trigger, ModifyAll operation, Validate trigger, OnModify trigger
+- Features: RunTrigger parameter, Insert trigger, Modify trigger, ModifyAll operation, Validate trigger, OnModify trigger
 
 Source: Stefan Maron, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

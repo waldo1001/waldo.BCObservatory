@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:50.968Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Fixed asset depreciation for the India localization of Business Central. It covers setup under the Income Tax Act 1961 and Companies Act 2013, and how depreciation is calculated with FA blocks, additional depreciation and multiple shifts.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Fixed asset · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Fixed asset · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

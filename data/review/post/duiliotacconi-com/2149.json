@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/2149",
+  "input_hash": "4484e753d6ad075171a5af15545a6057153fe1db303c7bd5069f80d28b3d84d9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:00.607Z",
+  "issues": [
+    "The page said 23.x had identical code. It did not: 23.x lacked the SetLoadFields call, and the author found the same no-cache behavior in 23.6 once it was added.",
+    "The post presents the guidance on single-record reads (FindFirst, FindLast, Get) as lower impact, not as a strict ban.",
+    "The quote omits an ellipsis but is otherwise faithful."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043531,
+    "posts_in_call": 4
+  }
+}

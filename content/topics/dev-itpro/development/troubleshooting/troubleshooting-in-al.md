@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Troubleshooting in AL covers tools and guidance for finding and fixing problems in Business Central extensions: the AL debugger, snapshot debugging, the AL Profiler, Page Inspection, performance articles, and printing troubleshooting. It answers questions on debugging, performance hot spots, page structure and printer errors.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in AL · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in AL · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:39.128Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,7 @@ narrative: generated
 
 > Segments in Business Central relationship management: creating segments, adding contacts, refining or reducing the contact list with filters, and logging interactions with segment members. It answers questions about grouping contacts for marketing campaigns and bulk communications.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage segments · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage segments · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

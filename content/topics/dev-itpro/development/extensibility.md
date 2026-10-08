@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -372,7 +372,7 @@ narrative: generated
 
 > Extensibility in Business Central AL development: how to extend code flow, tables, pages, reports, enums, and permission sets without changing base code. It also covers events, requesting changes to Microsoft's code, client add-ins, Power BI embedding, and System Application modules.
 
-Path: [Development](../development.md) > Extensibility · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > Extensibility · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

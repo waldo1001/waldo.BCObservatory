@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:50.629Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Related upgrade articles for Business Central on-premises: converting version 14 C/AL code to AL with the Txt2Al tool, and migrating tables and fields between extensions with migration.json. It answers questions about code conversion steps, table ownership moves, ordering and constraints, and the India Data Migration Toolkit.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Related articles · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Related articles · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

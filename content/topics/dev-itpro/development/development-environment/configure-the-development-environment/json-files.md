@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:35.240Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > JSON configuration files used in AL development for Business Central: app.json, launch.json, Directory.app.props.json and migration.json. It answers questions about extension manifest settings, debugging and publishing setup, shared app properties, and data migration between extensions.
 
-Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Development environment](../../development-environment.md) > [Configure the development environment](../configure-the-development-environment.md) > JSON files · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

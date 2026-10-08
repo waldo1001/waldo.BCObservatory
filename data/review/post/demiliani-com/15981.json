@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/15981",
+  "input_hash": "15158ab5decfcec7d02faae29531060133d2bcd4e2226882ae944370bd469169",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:14.080Z",
+  "issues": [
+    "The real-time analytics feature appears only in the post's general description of Fabric. The post does not present it as part of BC mirroring.",
+    "The summary, key points and both quotes match the post."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033379,
+    "posts_in_call": 4
+  }
+}

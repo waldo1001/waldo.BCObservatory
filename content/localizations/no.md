@@ -9,12 +9,12 @@ tags:
   - localization
   - "no"
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:29:36.485Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -127,15 +127,15 @@ learn_folder: LocalFunctionality/Norway
 
 > Norway (NO) localization of Business Central 29. Covers Norwegian VAT codes, proportional VAT, electronic VAT returns and SAF-T export, remittance and OCR/KID electronic banking, EHF and PEPPOL e-invoicing, recurring orders and payroll import. Answers where Norway extends W1 tables, codeunits and reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/norway.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/norway.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Norwegian layer adds a large block of finance and banking functionality. VAT is extended with a single VAT Code field on journals, ledger entries and lines (fields such as VAT Code, VAT Number and VAT Base Amount Type on table 81 "Gen. Journal Line" and table 254 "VAT Entry"), proportional deduction on table 325 "VAT Posting Setup", and VAT reporting codes with trade settlement and SAF-T fields on table 344 "VAT Reporting Code". Own codeunits implement SAF-T export (codeunit 10673 "Generate SAF-T File", codeunit 10692 "Generate SAF-T 1.3 File") and electronic VAT return submission (codeunits 10680 to 10691). Learn documents these under Norwegian VAT reporting, Setup and generate SAF-T files, Norwegian VAT Codes and Proportional VAT.
+The Norwegian layer adds a large block of finance and banking functionality. VAT is extended with a single VAT Code field on journals, lines, G/L accounts and VAT entries (VAT Code, VAT Number and VAT Base Amount Type on table 81 "Gen. Journal Line"; VAT Code, VAT Number and Base Amount Type on table 254 "VAT Entry"). Proportional deduction is set up on table 325 "VAT Posting Setup", and table 344 "VAT Reporting Code" gets trade settlement, reverse charge and SAF-T fields. Norway's own codeunits implement SAF-T export (codeunit 10673 "Generate SAF-T File", codeunit 10692 "Generate SAF-T 1.3 File") and electronic VAT return submission (the Elec. VAT codeunits, such as codeunit 10685 "Elec. VAT Submit Return" and codeunit 10680 "Elec. VAT OAuth Mgt."). Learn documents these under Norwegian VAT reporting, Setup and generate SAF-T files, Norwegian VAT Codes and Proportional VAT.
 
-Payments and banking are covered by the Remittance module (objects 15000000 and up), which handles remittance accounts and agreements, payment suggestions, export to bank, return file import, error handling and the Waiting Journal. Vendor, journal and ledger entry tables get remittance, KID and Norges Bank fields. Norway also adds OCR payment import, KID setup on Sales & Receivables Setup, SEPA CT and pain.002/CAMT.054 import, and regulatory reporting codes.
+Payments and banking are covered by the Remittance objects (numbered from 15000000). They handle remittance accounts and agreements, payment suggestions, export to bank, return file import, error handling and the Waiting Journal. Vendor, purchase header, journal and vendor ledger entry tables get remittance, KID and Norges Bank fields. Norway also adds OCR payment import, KID setup on Sales & Receivables Setup, changes to SEPA credit transfer export, import of pain.002 and CAMT.054 files, and regulatory reporting codes.
 
-Sales and service e-invoicing supports EHF and PEPPOL BIS 3.0. Customers and sales, reminder and finance charge documents get GLN, Account Code and E-Invoice fields, and own codeunits check and export documents. Other local features are recurring orders from blanket orders, payroll transaction import, and the Application always Allowed setting for applying entries in closed periods.
+Sales and service e-invoicing supports EHF and PEPPOL BIS 3.0. Customers get Account Code and E-Invoice fields. Sales, reminder and finance charge documents get GLN, Account Code and E-Invoice fields. Norway's own codeunits check and export these documents. Other local features are recurring orders from blanket orders, payroll transaction import, and the Application always Allowed setting for applying entries in closed periods.
 
 ## Key points
 
@@ -145,8 +145,8 @@ Sales and service e-invoicing supports EHF and PEPPOL BIS 3.0. Customers and sal
 - Remittance payments: accounts, agreements, suggestions, test report, bank export (SEPA, Telepay, BBS), return file import and error pages.
 - OCR and KID: OCR payment import into the cash receipt journal, OCR Journal - Test report, KID setup on sales documents, giro printing.
 - EHF and PEPPOL 3.0 e-invoicing for sales, service, reminders and finance charge memos, using GLN, Account Code and E-Invoice fields and file path setup.
-- Recurring orders: recurring groups, blanket order codes and a Create Recurring Orders batch job.
-- Payroll import into general journals, and Application always Allowed for closed periods.
+- Recurring orders: recurring groups with date formulas, recurring group codes on blanket sales orders, and a Create Recurring Orders batch job.
+- Payroll import into general journals, and Application always Allowed in General Ledger Setup and User Setup for applying entries in closed periods.
 
 Narrative written by Sonnet from the code diff and 42 Learn page summaries. In numbers: Norway (NO) localization of Business Central in BC29: 278 objects of its own, 75 W1 objects changed (240 fields and 5 events added). From the code; country apps outside the Base Application are not included yet.
 

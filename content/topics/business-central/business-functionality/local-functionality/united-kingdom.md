@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -187,7 +187,7 @@ narrative: generated
 
 > United Kingdom local functionality in Business Central (GB): VAT and Making Tax Digital, banking and payments such as check printing, fixed asset straight-line depreciation, and general features like address lookup. It answers setup and how-to questions for the British version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United Kingdom · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > United Kingdom · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

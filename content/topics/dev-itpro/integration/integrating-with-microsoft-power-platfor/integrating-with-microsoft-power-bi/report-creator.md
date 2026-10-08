@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:50.333Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Report creator covers building Power BI reports on Business Central data. It answers questions about creating reports in Power BI Desktop with the connector, APIs and OData web services, and about preparing reports to show in Power BI FactBoxes on list pages.
 
-Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · narrative reviewed by Opus
+Path: [Integration](../../../integration.md) > [Integrating with Microsoft Power Platform](../../integrating-with-microsoft-power-platfor.md) > [Integrating with Microsoft Power BI](../integrating-with-microsoft-power-bi.md) > Report creator · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

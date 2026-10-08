@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.826Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,7 @@ narrative: generated
 
 > Sweden local functionality in Business Central: how the Swedish version handles VAT, EU third-party purchase transactions, automatic account codes, SIE import and export, and balance sheet and income statement reports. It answers setup and usage questions for Swedish accounting and compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Sweden · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Sweden · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

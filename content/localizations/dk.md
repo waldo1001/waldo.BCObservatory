@@ -9,12 +9,12 @@ tags:
   - localization
   - dk
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:26:21.404Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -52,11 +52,11 @@ learn_folder: LocalFunctionality/Denmark
 
 > Denmark (DK) localization adds OIOUBL electronic invoicing, NemHandel registration status, electronic VAT return submission to skat.dk, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, payroll import and a C5 data migration. It answers how Danish legal and e-invoicing needs are met in Business Central.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Danish layer is made almost entirely of its own objects (431) plus table and page extensions; no W1 object is listed as changed. The largest blocks are the C5 data migration (codeunits, pages and xmlports with a "C5" prefix), the OIOUBL extension (check, export and subscriber codeunits, with table and page extensions on sales, reminder, finance charge memo and service documents), and the finance codeunits for electronic VAT declaration, SAF-T and Regnskab Basis export.
+All 431 objects in the Danish layer are the country's own objects, including 80 page extensions and 50 table extensions. No W1 object is listed as changed. The largest blocks are the C5 data migration (codeunits and pages with a "C5" prefix, such as "C5 Data Migration Mgt." and "C5 Wizard Integration"), the OIOUBL extension (check, export and subscriber codeunits, with table and page extensions on sales, reminder, finance charge memo and service documents), and the finance codeunits for electronic VAT declaration, SAF-T and Regnskab Basis export.
 
 Bank-related code covers FIK: codeunits such as "FIKManagement", "FIK_MatchBankRecLines" and "FIK_ReadFile", fixed-width bank export, and page extensions on vendor, payment journal and payment reconciliation pages. Payroll import uses data exchange definitions and the "Data Exch. Imp.- Proløn" xmlport. The eServices area adds OIOUBL format handling for E-Documents, and NemHandel status checks via HTTP interfaces.
 

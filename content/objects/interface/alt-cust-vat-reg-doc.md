@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: efa87d9b6c6f8f0d5dc051d8789366877dc5a0a54038f47f0b0d01a9bdb480be
@@ -101,16 +101,13 @@ Base Application · Microsoft.Finance.VAT.Registration · BC25-30 · [source at 
 - [Codeunit 205 "Alt. Cust. VAT Reg. Doc. Impl."](../codeunit/205.md)
 - [Enum 205 "Alt. Cust VAT Reg. Doc."](../enum/205.md)
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "Alt. Cust. VAT Reg. Doc.")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "Alt. Cust. VAT Reg. Doc."`
-
 ## Across versions
 
 - Present in: BC25-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). The call sections above are our own, per object, from the BC29 call graph. For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Alt. Cust. VAT Reg. Doc.")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

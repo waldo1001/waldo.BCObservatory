@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ narrative: generated
 
 > Integration of Business Central with Microsoft Teams, aimed at AL developers. It covers Teams cards, card details and tabs, customizing cards with the Brick field group and AL events, detecting Teams sessions, and FAQs on link unfurling, stage view, licensing and permissions.
 
-Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Teams · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Integrating Business Central with Office apps and Microsoft 365](../integrating-business-central-with-office.md) > Integrating with Microsoft Teams · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

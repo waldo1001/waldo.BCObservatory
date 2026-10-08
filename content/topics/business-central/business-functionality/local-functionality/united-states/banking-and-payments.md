@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:44.116Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,7 @@ narrative: generated
 
 > Banking and payments in the US version of Business Central: creating bank deposits, paying vendors by exporting payments with AMC Banking 365 Fundamentals (US) or SEPA credit transfer (EU), and reconciling bank accounts. It answers how-to questions about these three tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United States](../united-states.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

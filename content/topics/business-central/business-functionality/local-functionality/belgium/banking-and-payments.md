@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:35.537Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -180,7 +180,7 @@ narrative: generated
 
 > Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols and payment files, domiciliation direct debits, and CODA bank statement import, application and posting. It answers setup and how-to questions for these processes.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

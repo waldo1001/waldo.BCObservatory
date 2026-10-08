@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:05.624Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -129,7 +129,7 @@ narrative: generated
 
 > Personalizing Business Central: moving, hiding and showing page elements, choosing list layouts, saving list views, bookmarking pages on the role center, and where personalization is stored. It also explains why a page may be locked from personalization.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Personalize Business Central · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Personalize Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

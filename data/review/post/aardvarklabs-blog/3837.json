@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3837",
+  "input_hash": "44feedc8710c30bf556516cae328dd1b2e33df7c94533c920c5baed6ed72e9c8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.182Z",
+  "issues": [
+    "Key point 2 said the pattern requires a Card page. The post only requires one static page and one dynamic page, and picks a Card with a ListPart for this example. Rewrote that point.",
+    "Objects, features and quotes are supported by the post and its code."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025068,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.693Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ narrative: generated
 
 > Power BI apps for Business Central: how to install the connector and template apps, set up standard, fiscal, or week-based calendars, and use the semantic models and KPIs by functional area. Also covers multi-language use, back links to source documents, and FAQ topics such as licensing and refresh.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI apps for Business Central · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI apps for Business Central · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

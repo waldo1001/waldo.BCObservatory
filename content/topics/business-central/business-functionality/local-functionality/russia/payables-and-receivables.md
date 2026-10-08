@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.543Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,7 +115,7 @@ narrative: generated
 
 > Russian local functionality for payables and receivables in Business Central: customer and vendor agreements, prepayments and prepayment differences, letters of attorney, customs declaration tracking, and vendor and customer reports. It answers setup and usage questions for these features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Payables and receivables · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Payables and receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

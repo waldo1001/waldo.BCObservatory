@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:23.066Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -241,7 +241,7 @@ narrative: generated
 
 > Built-in project reports in Business Central cover quotes, budget comparison, billing, WIP, item usage, journals, registers, and resource reports. Use it to find which report answers a question about project costs, invoicing, planning lines, or resource capacity and usage.
 
-Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Built-in project reports · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Project management](../../project-management.md) > [Project management analytics](../project-management-analytics.md) > Built-in project reports · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:23.659Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,6 @@ links:
   videos:
     - video/KmuTVkodRXM
     - video/nMiLzdfidos
-    - video/TY82NR2hGEg
   posts:
     - post/aardvarklabs-blog/3255
   guidelines: []
@@ -59,7 +58,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 3
+  video: 2
   blog: 1
   guideline: 0
 bc_forms: []
@@ -71,7 +70,7 @@ narrative: generated
 
 > Namespaces in AL cover how AL code is grouped into logical units to avoid naming conflicts and allow object name reuse. The section answers questions about namespace declaration, using directives, nested namespaces, scope resolution, and how to adopt namespaces in existing code with tooling.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Namespaces in AL · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Language elements](../language-elements.md) > Namespaces in AL · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -103,7 +102,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Navigating Namespace Changes in Business Central 28](../../../../../posts/aardvarklabs-blog/3255.md) (community post): "Fully qualified names enable direct object reference without using statements"
 - [All new goodies about AL Namespace in BC 2025 wave 2](../../../../../videos/KmuTVkodRXM.md) (video): "AL namespace; record id formatting; system reflection; fully qualified names"
-- [What's New: AL Language (2026 release wave 1)](../../../../../videos/nMiLzdfidos.md) (video): "namespaces; fully qualified names; symbol downloads; workspace compilation"
-- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../../videos/TY82NR2hGEg.md) (video): "Namespaces in AL language; Using directives for namespace imports"
+- [What's New: AL Language (2026 release wave 1)](../../../../../videos/nMiLzdfidos.md) (video): "json support; data transfer; namespaces; fully qualified names"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

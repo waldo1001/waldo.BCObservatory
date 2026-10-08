@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:29.221Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,6 @@ links:
   localizations: []
   videos:
     - video/jqVt0hYDfz0
-    - video/qmLVKyHRhNc
   posts:
     - post/aardvarklabs-blog/1822
     - post/aardvarklabs-blog/2936
@@ -125,7 +124,7 @@ children: []
 coverage:
   learn: 7
   code: 28
-  video: 2
+  video: 1
   blog: 2
   guideline: 0
 bc_forms:
@@ -165,7 +164,7 @@ narrative: generated
 
 > Data analytics and reporting in Business Central covers data analysis on lists and queries, queries as datasets and OData web services, Excel layout reports, and Power BI integration and embedding. It answers questions about choosing an analysis option and building or embedding reports.
 
-Path: [Development](../development.md) > Data analytics and reporting · tier official · system reporting · narrative reviewed by Opus
+Path: [Development](../development.md) > Data analytics and reporting · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -203,7 +202,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central Queries: Simplifying Complex Data](../../../posts/aardvarklabs-blog/1822.md) (community post): "Queries simplify complex data retrieval by defining linked data items"
 - [Integrating Analysis Views in Business Central Extensions](../../../posts/aardvarklabs-blog/2936.md) (community post): "package and deploy Analysis Views in extensions"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
-- [Introducing: Analyze Data on Lists and Queries (2023 release wave 2)](../../../videos/qmLVKyHRhNc.md) (video): "AL Queries for analytics; Data sets for Excel layouts"
 
 ## Business Central pages and reports
 

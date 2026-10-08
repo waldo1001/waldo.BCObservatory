@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,7 +156,7 @@ narrative: generated
 
 > Shopify integration for Business Central through the Shopify Connector. It covers connecting stores, synchronizing items, prices, inventory, customers, companies and orders, technical details such as API versions and extensibility, and troubleshooting sync problems.
 
-Path: [Integration](../integration.md) > Integrating with Shopify · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Integrating with Shopify · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -227,7 +227,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility"
 - [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
 - [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Logging Mode Option Field; Shopify API Quarterly Versioning"
-- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Custom Fields and Meta Fields Support; Translation Synchronization; Customer-Specific Pricing via Catalogs"
+- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "shopify connector; custom fields; meta fields; product synchronization; translations; localization"
 - [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Sync in foreground mode; Logging mode configuration; Customer validation"
 - [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Tariff code synchronization; B2B company synchronization; Market-based catalogs"
 

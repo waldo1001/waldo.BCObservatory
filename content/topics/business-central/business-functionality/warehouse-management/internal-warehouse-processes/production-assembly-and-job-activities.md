@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.521Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Internal warehouse handling of production, assembly, and project (job) activities in Business Central. It answers questions about picking or moving components, putting away output, and how basic and advanced warehouse configurations differ for these flows.
 
-Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Production, assembly, and job activities · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Warehouse management](../../warehouse-management.md) > [Internal warehouse processes](../internal-warehouse-processes.md) > Production, assembly, and job activities · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:03.681Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ narrative: generated
 
 > Manufacture built-in reports and analysis in Business Central: production reports and analytics, load versus capacity on work and machine centers, and posting capacity outside production orders. It answers questions about analyzing manufacturing activity, spotting bottlenecks, and recording nonproduction time.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Manufacture · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Manufacture · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

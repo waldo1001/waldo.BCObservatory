@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:24.317Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,7 +170,7 @@ narrative: generated
 
 > Migrating on-premises Dynamics GP to Business Central online: the process, preparation, cloud migration setup, data replication, data upgrade and final completion steps. It answers questions about phases, prerequisites, configuration, monitoring, validation, and post-migration users and permissions.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics GP · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics GP · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

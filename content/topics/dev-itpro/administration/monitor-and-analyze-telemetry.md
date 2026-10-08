@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:26.157Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -347,7 +347,7 @@ narrative: generated
 
 > Telemetry monitoring in Business Central covers turning on Application Insights telemetry, the available event IDs, analysis with KQL and Power BI, alerting, and cost control. It answers questions about setup, which events exist, how to query them, and how to manage cost and retention.
 
-Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Monitor and analyze telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

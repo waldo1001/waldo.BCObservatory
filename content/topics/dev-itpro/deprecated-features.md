@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:17.199Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -260,7 +260,7 @@ narrative: generated
 
 > Deprecated features in Business Central covers what has been removed or replaced in the platform, application, local versions, tables and AL code. It answers what is deprecated, when (release waves 2020 to 2027), what replaces it, and how Microsoft times code obsoletion.
 
-Path: Deprecated features · tier official · system none · narrative reviewed by Opus
+Path: Deprecated features · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

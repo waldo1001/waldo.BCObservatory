@@ -10,21 +10,21 @@ tags:
   - inventory
 system: inventory
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4f0c2626f59efb3409846fa048b00f5866d2035c2224ca163306c455d8a44d49
+  input_hash: 370e89844cb693a493999e9feb739cb3b70160136e4f73bcd1e47989d0035edb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Intrastat/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Intrastat/app
     title: src/Apps/W1/Intrastat/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -276,4 +276,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4814 | [INTELLIGENT CLOUD - Intr. Core](../objects/permissionsetextension/4814.md) |  |
 | 4815 | [LOCAL - Intr. Core](../objects/permissionsetextension/4815.md) |  |
 
-Source: [src/Apps/W1/Intrastat/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Intrastat/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Intrastat/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Intrastat/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

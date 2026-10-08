@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:23:33.114Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Deployment of Business Central embed apps: how to build deployment packages (BACPACs, branding, manifest.json, database requirements) and how ISV partners use Lifecycle Services (LCS) to upload, deploy to rings, and onboard customers. Answers questions about package structure and the LCS deployment workflow.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > Deployment · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > Deployment · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -8,12 +8,12 @@ language: en
 tags:
   - channel
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 687039ab5962deb69038fdd0f25a2f726eadfa74811134983f6176d0bfb48592
@@ -70,9 +70,11 @@ links:
     - feature/573345
     - feature/573346
     - feature/573347
+    - feature/573348
     - feature/573350
     - feature/573352
     - feature/573355
+    - feature/573358
     - feature/573359
     - feature/573360
     - feature/573361
@@ -683,11 +685,11 @@ footprint:
   features:
     - id: feature/573255
       weight: 6
+    - id: feature/573342
+      weight: 4
     - id: feature/573254
       weight: 3
     - id: feature/573320
-      weight: 3
-    - id: feature/573342
       weight: 3
     - id: feature/573362
       weight: 3
@@ -697,9 +699,9 @@ footprint:
       weight: 2
     - id: feature/573313
       weight: 2
-    - id: feature/573318
+    - id: feature/573315
       weight: 2
-    - id: feature/573322
+    - id: feature/573318
       weight: 2
 first_item: "2023-10-23"
 last_item: "2026-10-01"
@@ -789,9 +791,11 @@ Items per quarter, oldest first:
 - [573345](../features/573345.md)
 - [573346](../features/573346.md)
 - [573347](../features/573347.md)
+- [573348](../features/573348.md)
 - [573350](../features/573350.md)
 - [573352](../features/573352.md)
 - [573355](../features/573355.md)
+- [573358](../features/573358.md)
 - [573359](../features/573359.md)
 - [573360](../features/573360.md)
 - [573361](../features/573361.md)

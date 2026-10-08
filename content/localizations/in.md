@@ -9,12 +9,12 @@ tags:
   - localization
   - in
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:28:02.015Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -52,7 +52,7 @@ learn_folder: LocalFunctionality/India
 
 > India (IN) localization adds GST (including Cess, ISD, TDS/TCS on GST), e-invoice, gate entry, subcontracting, voucher interface, fixed asset depreciation by block and shift, and stale check handling. It answers which objects implement Indian tax and compliance features and where Learn documents them.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/india.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/india.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

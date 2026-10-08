@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -442,7 +442,7 @@ narrative: generated
 
 > Set up finance covers the accounting configuration of Business Central: chart of accounts, posting groups, payment terms and methods, currencies, VAT and other taxes, collections (reminders, finance charges), fiscal periods, Intrastat, audit trail codes, and financial reports. It answers how-to-configure questions for each area.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

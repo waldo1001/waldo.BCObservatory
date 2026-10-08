@@ -16,12 +16,12 @@ tags:
   - code suggestions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:37.909Z"
   flags: []
 generated:
-  at: "2026-10-06T18:29:51.257Z"
+  at: "2026-10-07T23:22:37.968Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -158,7 +158,7 @@ quotes:
 
 > GitHub Copilot in VS Code, run in agent mode with Claude as the LLM, analyzing an unfamiliar AL project (a subscription billing app) to produce an app blueprint and a markdown README. Shows the prompt used and the resulting functional areas, features, APIs, reports and business processes.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qFGTq40UinE) · Business Central Musings · 2025-09-23 · 11:14 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=qFGTq40UinE) · Business Central Musings · 2025-09-23 · 11:14 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -173,8 +173,7 @@ The presenter loads a subscription billing app, uses agent mode with Claude as t
 - Project analysis was run in agent mode with Claude as the LLM on the loaded AL project.
 - The prompt used: 'You are a functional consultant in charge with creating the blueprint for subscription billing app'.
 - The generated blueprint covered functional areas, features, pages, actions, APIs, reports and business processes.
-- Copilot converted the analysis into a markdown README suitable for GitHub or DevOps repositories.
-- Blueprint quality depends on how clear and well structured the project code is.
+- Copilot converted the analysis into a markdown README that can be pushed to GitHub or DevOps as documentation.
 
 ## Chapters
 
@@ -189,15 +188,15 @@ The presenter loads a subscription billing app, uses agent mode with Claude as t
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| GitHub Copilot inline suggestions in VS Code | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=qFGTq40UinE&t=68s) |  |
-| GitHub Copilot chat interface | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=qFGTq40UinE&t=23s) |  |
-| GitHub Copilot agent mode for project analysis | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=qFGTq40UinE&t=249s) |  |
-| Copilot code refactoring assistance | status not stated | [1:47](https://www.youtube.com/watch?v=qFGTq40UinE&t=107s) |  |
-| Copilot-generated AL object creation | status not stated | [2:01](https://www.youtube.com/watch?v=qFGTq40UinE&t=121s) |  |
-| App blueprint generation from project analysis | status not stated, demoed | [5:13](https://www.youtube.com/watch?v=qFGTq40UinE&t=313s) |  |
-| Markdown README generation from analysis | status not stated, demoed | [8:58](https://www.youtube.com/watch?v=qFGTq40UinE&t=538s) |  |
+| Feature | Status | At |
+|---|---|---|
+| GitHub Copilot inline suggestions in VS Code | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=qFGTq40UinE&t=68s) |
+| GitHub Copilot chat interface | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=qFGTq40UinE&t=23s) |
+| GitHub Copilot agent mode for project analysis | status not stated, demoed | [4:09](https://www.youtube.com/watch?v=qFGTq40UinE&t=249s) |
+| Copilot code refactoring assistance | status not stated | [1:47](https://www.youtube.com/watch?v=qFGTq40UinE&t=107s) |
+| Copilot-generated AL object creation | status not stated | [2:01](https://www.youtube.com/watch?v=qFGTq40UinE&t=121s) |
+| App blueprint generation from project analysis | status not stated, demoed | [5:13](https://www.youtube.com/watch?v=qFGTq40UinE&t=313s) |
+| Markdown README generation from analysis | status not stated, demoed | [8:58](https://www.youtube.com/watch?v=qFGTq40UinE&t=538s) |
 
 ## Quotes
 

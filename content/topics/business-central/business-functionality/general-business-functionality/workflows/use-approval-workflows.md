@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ narrative: generated
 
 > Approval workflows in Business Central: how users send, approve, reject, delegate and cancel approval requests, and how admins enable, delete, restrict records and review archived workflow step instances. It answers practical how-to questions about running and maintaining approval workflows.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Workflows](../workflows.md) > Use approval workflows · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Workflows](../workflows.md) > Use approval workflows · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -220,7 +220,7 @@ narrative: generated
 
 > Troubleshooting in the Business Central client covers tools for inspecting pages, understanding error dialogs, viewing database locks and table information, finding missing indexes, discovering events, exporting report data, and profiling performance. It also covers personalization, role customization, permissions, and on-premises mobile app issues.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting in the client · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

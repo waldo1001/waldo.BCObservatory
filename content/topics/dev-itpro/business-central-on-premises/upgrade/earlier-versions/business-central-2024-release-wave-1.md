@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:53.308Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,7 @@ narrative: generated
 
 > Business Central 2024 release wave 1 (version 24) on-premises upgrade documentation. It covers upgrade paths from C/AL (version 14) and from versions 15-23, installing a version 24 update, moving tables between extensions, permission set and report changes, and the compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2024 release wave 1 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2024 release wave 1 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

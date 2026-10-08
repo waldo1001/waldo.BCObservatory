@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:35.768Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,7 +71,7 @@ narrative: generated
 
 > Legacy inventory reports in Business Central that are marked for removal: Inventory Availability Plan and Item Age Composition - Quantity. It answers questions about what each report shows, how it is filtered, and what it is used for.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Legacy reports (will be removed) · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

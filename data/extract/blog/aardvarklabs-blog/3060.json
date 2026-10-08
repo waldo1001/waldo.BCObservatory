@@ -5,12 +5,12 @@
   "source": "aardvarklabs-blog",
   "published_at": "2026-08-14T12:00:00.000Z",
   "words": 4545,
-  "summary": "This post demonstrates using Copilot Chat and other AI tools to accelerate Business Central software development by extracting functional requirements from unstructured sources like meeting transcripts, then designing a real-world accounting system for a space travel agency that tracks asset depreciation by time and usage events, manages launch-based mission costing, and integrates with Business Central for GL posting.",
+  "summary": "Shows a simple AI-assisted workflow for Business Central projects. Copilot Chat pulls functional requirements out of a sample meeting transcript for a fictional space travel agency that needs usage-based asset depreciation and launch costing. A second prompt then turns those requirements into a Business Central functional design document that identifies the extension development needed.",
   "key_points": [
-    "Functional requirements documents should capture what a system must do (not how), making them ideal for Copilot Chat to extract from meetings, emails, and transcripts",
-    "A space travel agency accounting system must track reusable assets with usage-based depreciation (launches, flight hours, engine burns) alongside time-based methods, grouped into LaunchEvents that consume assets",
-    "The system requires bidirectional sync with Business Central for asset masters and GL posting, plus telemetry ingestion APIs, refurbishment workflows, cost allocation, and full audit traceability from GL back to source telemetry and approvals",
-    "Functional design moves from requirements (what) to implementation specifics (how), requiring product knowledge and AL extension development for features Business Central does not provide natively"
+    "Functional requirements describe what the system must do, not how, and should be testable as yes or no statements; Copilot Chat is well suited to extracting them from transcripts or emails.",
+    "The example system groups reusable assets into LaunchEvents, depreciates them by time and by usage, handles refurbishment capitalisation and allocates mission costs.",
+    "Business Central serves as the GL and invoicing system, with batched journal posting, a two-way sync and full audit traceability back to telemetry and approvals.",
+    "The functional design prompt adds product specifics, and the AL Development Collection extension supplies helpful boilerplate."
   ],
   "systems": [
     "finance",

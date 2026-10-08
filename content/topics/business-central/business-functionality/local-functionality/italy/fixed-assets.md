@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:08.293Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Italian fixed assets functionality in Business Central: alternate depreciation methods (anticipated, accelerated, reduced), compressed depreciation, creating multiple fixed asset cards from purchase invoices, and printing Depreciation Book reports. It answers setup and how-to questions for Italy.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

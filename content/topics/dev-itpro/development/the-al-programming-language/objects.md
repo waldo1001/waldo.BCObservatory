@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:06.484Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,7 +178,7 @@ narrative: generated
 
 > AL object types in Business Central: codeunits, pages, page extensions, tables, table extensions, keys, enums, queries, reports, XMLports, control add-ins, profiles, entitlements and permission sets. It answers questions about what each object does, its key properties, and how to extend or customize it.
 
-Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [The AL programming language](../the-al-programming-language.md) > Objects · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:21.756Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -302,7 +302,7 @@ narrative: generated
 
 > Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

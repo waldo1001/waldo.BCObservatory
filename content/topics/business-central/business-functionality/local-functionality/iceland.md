@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:36.644Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,7 +131,7 @@ narrative: generated
 
 > Iceland local functionality in Business Central: VAT summaries on documents, IRS number mapping, electronic invoicing rules for single-copy invoices, deletion of posted documents, audit data export, and the W1 core app migration from version 24.0. It answers Icelandic compliance and setup questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Iceland · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Iceland · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

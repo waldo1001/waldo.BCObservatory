@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:01.809Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,7 +142,6 @@ links:
   localizations: []
   videos:
     - video/205F8ljmInU
-    - video/hcu7T3qLdDA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -159,7 +158,7 @@ children:
 coverage:
   learn: 15
   code: 4
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -180,7 +179,7 @@ narrative: generated
 
 > Denmark local functionality in Business Central covers Danish legal and regulatory needs: auditing and SAF-T, VAT reporting, banking and FIK payments, OIOUBL electronic invoicing, and payroll import from Danish providers. It answers setup and compliance questions for Danish companies.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Denmark · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -218,7 +217,6 @@ Start with the landing page for the overall picture, then open the subtopic that
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../videos/205F8ljmInU.md) (video): "Danish Bookkeeping Act; audit trail; saf-t export; e-invoicing"
-- [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../../../videos/hcu7T3qLdDA.md) (video): "SAF-T (Standard Audit File - Tax) Export; Public Standard Chart of Accounts"
 
 ## Business Central pages and reports
 

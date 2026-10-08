@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:06.520Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,7 +96,7 @@ narrative: generated
 
 > Banking and payments functionality specific to the New Zealand version of Business Central. It covers bank cash flow comparison, check installments, electronic funds transfer (EFT) for vendors, and bank reconciliation and deposit slip reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

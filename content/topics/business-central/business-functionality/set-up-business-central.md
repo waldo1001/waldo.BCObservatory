@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:14:06.450Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1160,7 +1160,7 @@ narrative: generated
 
 > Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, change auditing, and app access on desktop and mobile. It also links to setup guides for each functional area (finance, sales, inventory, manufacturing and more), email, printers, workflows and data import.
 
-Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

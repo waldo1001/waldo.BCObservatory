@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:55.042Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ narrative: generated
 
 > Purchasing in the Austrian version of Business Central covers delivery reminders for overdue vendor deliveries. It answers questions about setting up reminder terms, levels, and text, assigning codes to vendors, generating or creating reminders, and printing test reports before issuing.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

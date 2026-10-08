@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3983",
+  "input_hash": "2ac75e79ff0abb76451ba4ef584116ae88c499daf481561e45f39497f40b2b58",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:11.548Z",
+  "issues": [
+    "Content is accurate and quotes are verbatim.",
+    "Reporting system tag is weak; the post only mentions slower reporting as a past side effect, not reporting functionality."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032053,
+    "posts_in_call": 4
+  }
+}

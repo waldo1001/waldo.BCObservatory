@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,7 +118,7 @@ narrative: generated
 
 > Electronic invoicing for Mexico in Business Central: CFDI XML invoices, SAT certificates, PAC web services, invoice generation, and Carta de Porte packing slips and transfer orders. It answers setup, stamping, and compliance questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Electronic invoice · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Electronic invoice · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

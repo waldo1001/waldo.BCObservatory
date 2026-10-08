@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/08/05/the-pricing-of-fkh",
+  "input_hash": "19d66cadb31f3c25314ac3bbfd54a8e193fc4140b177948a9e89fe0b6d840d12",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:48:09.664Z",
+  "issues": [
+    "Summary range of $42 to $192 per container mixes tables: $192 is from the 24/7 scenario, not the working-hours one, and working-hours figures go from about $30 to several hundred depending on count and SKU.",
+    "System 'integration' is not supported; the post is about Azure infrastructure cost, with AL-Go only mentioned in passing.",
+    "Key points, features and quote are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055838,
+    "posts_in_call": 4
+  }
+}

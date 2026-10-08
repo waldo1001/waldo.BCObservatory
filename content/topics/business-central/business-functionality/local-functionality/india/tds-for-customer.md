@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.969Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > TDS for customer in the India local functionality covers Tax Deducted at Source on customer payments. It answers questions about setting up TDS master data, calculating TDS on customer documents, and tracking TDS certificates receivable from customers.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS for customer · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS for customer · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

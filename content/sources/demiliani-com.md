@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f2d4af0e9739e677a1751886d44308b7294888550d9055ea4a58c3312ef5e454
@@ -142,7 +142,7 @@ footprint:
     - id: copilot
       weight: 46
     - id: reporting
-      weight: 6
+      weight: 5
   topics:
     - id: performance
       weight: 13
@@ -209,7 +209,7 @@ last_item: "2026-10-05"
 | integration (66) | security (9) | codeunit Agent (1) |
 | administration (46) | automation (6) | codeunit AOAI Chat Completion Params (1) |
 | copilot (46) | azure logic apps (6) | codeunit AOAI Chat Messages (1) |
-| reporting (6) | on-premises (6) | codeunit AOAI Operation Response (1) |
+| reporting (5) | on-premises (6) | codeunit AOAI Operation Response (1) |
 |  | agents (5) | codeunit AzureOpenAI (1) |
 |  | azure functions (5) | codeunit File Management (1) |
 |  | azure openai (5) | codeunit Memory Mapped File (1) |

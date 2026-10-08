@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:56.701Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,7 +163,7 @@ narrative: generated
 
 > Upgrading Business Central on-premises to 2020 release wave 2 (version 17) from versions 14, 15 and 16. Covers upgrade paths (technical upgrade or application refactoring), per-source technical upgrade steps, converting C/AL to AL with Txt2Al, moving tables and fields between extensions with migration.json, installing version 17 cumulative updates, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 2 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

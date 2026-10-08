@@ -13,12 +13,12 @@ tags:
   - posting groups
 system: purchasing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -87,7 +87,7 @@ preview:
 
 # Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-24 · 257 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-prices-incl-vat--prod-posting-group/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-24 · 257 words · tier community · reviewed (checked by Opus)
 
 > Business Central v28.2 changed how it handles VAT Product Posting Group changes on G/L Account purchase lines when Prices Incl. VAT is enabled. Previously the total including VAT remained constant, but now the unit cost recalculates and the total amount decreases.
 

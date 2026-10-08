@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:22.706Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,7 +117,7 @@ narrative: generated
 
 > Norway-specific general functionality in Business Central: recurring sales orders built from blanket orders and recurring groups, payroll transaction import via the Payroll Data Definitions extension, KID number setup, and document printing setup for giro and KID. It answers setup and how-to questions for Norwegian localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

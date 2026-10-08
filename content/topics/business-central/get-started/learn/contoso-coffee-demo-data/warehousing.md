@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:17.872Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,7 @@ narrative: generated
 
 > Contoso Coffee warehousing demo data in Business Central, covering three warehouse locations that show basic, mixed and advanced configurations. It answers questions about how receiving, put-away, picking, moving and shipping work in each setup.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Warehousing · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

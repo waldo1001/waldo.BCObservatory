@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:44.484Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -343,7 +343,7 @@ narrative: generated
 
 > Administration for Business Central on-premises covers tools and setup for running a deployment: the Administration Shell and Administration Center, server, web server and database configuration, authentication, encryption, monitoring, and integrations with Entra ID, Excel, Outlook, Key Vault and Dynamics 365 Sales. It answers how-to questions about configuring and operating on-premises environments.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative reviewed by Opus
+Path: [Business Central on-premises](../business-central-on-premises.md) > Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

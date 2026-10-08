@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.659Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,7 +147,7 @@ narrative: generated
 
 > Contoso Coffee manufacturing demo walkthroughs for Business Central. They cover production BOMs, routings, capacity, flushing, planning, variants and subcontracting, and answer how-to questions about setting up and running these scenarios with sample data.
 
-Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Manufacturing · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Learn](../../learn.md) > [Contoso Coffee demo data](../contoso-coffee-demo-data.md) > Manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

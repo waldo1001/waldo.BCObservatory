@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:27.874Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ narrative: generated
 
 > The Business Central mobile app section for on-premises deployments covers what the app is, how to install it on iOS, Android and Windows devices, how to use HTTPS and certificates, and how to troubleshoot common problems. It answers setup, security and error-resolution questions.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central mobile app · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Deployment](../deployment.md) > Business Central mobile app · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

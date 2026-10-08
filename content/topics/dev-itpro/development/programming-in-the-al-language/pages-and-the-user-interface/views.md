@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:24.168Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Views on Business Central list pages in AL: how to define alternative filtered, sorted and laid-out views, migrate legacy Role Center views to modern list views, and export and package analysis views in extensions. It answers questions about defining, migrating and distributing views.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

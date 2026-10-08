@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,6 @@ links:
   localizations: []
   videos:
     - video/PZVTTem-nZw
-    - video/qABlX4AL3GM
     - video/TH70oJI4Ae0
   posts:
     - post/aardvarklabs-blog/2827
@@ -114,7 +113,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 3
+  video: 2
   blog: 4
   guideline: 0
 bc_forms: []
@@ -126,7 +125,7 @@ narrative: generated
 
 > Defining table structures in AL covers how to build Business Central tables: the table object, fields, keys, triggers, system fields, table extensions, relationships, tooltips, and optimized text search. It answers questions about syntax, properties, and extensibility of tables.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Defining table structures · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Defining table structures · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -176,7 +175,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
-- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes; data modeling"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

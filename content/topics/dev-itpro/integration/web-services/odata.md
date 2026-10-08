@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:00.498Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,7 +164,7 @@ narrative: generated
 
 > OData web services in Business Central: how to query, filter, modify and batch data, publish metadata, handle limits, tune performance and troubleshoot errors. It answers questions about URI construction, JSON and AtomPub formats, unbound actions, FlowFilters, containments, associations, paging and error codes.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > OData · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > OData · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/8157",
+  "input_hash": "3d906f00df37ee446d67c923eea7d3f416d4c3fb384e9abd98cdeca912b71554",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:46:31.368Z",
+  "issues": [
+    "The post covers GitHub Copilot Chat changes in VS Code and never mentions Business Central or AL.",
+    "The copilot system tag could wrongly suggest Business Central Copilot features."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019891,
+    "posts_in_call": 4
+  }
+}

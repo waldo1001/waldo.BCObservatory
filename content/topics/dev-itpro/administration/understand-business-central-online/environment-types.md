@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:21.770Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > Environment types in Business Central online: production, sandbox, preview, test and demo environments. It answers questions about which environment to use, how to create trials or partner sandboxes, how to preview major updates, and how quotas apply.
 
-Path: [Administration](../../administration.md) > [Understand Business Central online](../understand-business-central-online.md) > Environment types · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Understand Business Central online](../understand-business-central-online.md) > Environment types · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

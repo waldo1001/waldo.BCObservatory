@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:16:38.281Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,7 +324,7 @@ narrative: generated
 
 > Expense management (preview) in Business Central covers employee expense reports, travel requests, approval, VAT reclaim, posting, and reimbursement, with or without the AI-based Expense Agent. It answers questions about setup, daily workflows, how the agent works, and troubleshooting.
 
-Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Expense management (preview) · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

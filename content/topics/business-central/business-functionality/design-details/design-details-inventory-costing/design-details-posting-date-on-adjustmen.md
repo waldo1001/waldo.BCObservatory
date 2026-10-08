@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:15.277Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Posting date handling on adjustment value entries created by the Adjust Cost - Item Entries batch job. It answers how the date is assigned, how it compares to the source entry in revaluation and item charge cases, and how to fix the "Posting Date is not within your range of allowed posting dates" error.
 
-Path: [Business functionality](../../../business-functionality.md) > [Design details](../../design-details.md) > [Design details: Inventory costing](../design-details-inventory-costing.md) > Design details: Posting date on adjustment value entry · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Design details](../../design-details.md) > [Design details: Inventory costing](../design-details-inventory-costing.md) > Design details: Posting date on adjustment value entry · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -7,12 +7,12 @@ tier: official
 language: en
 system: projects
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 25b04dd04a24a1236d625a4a2fdfa91ce6c5febc910fc55e0dee15736d3478d6

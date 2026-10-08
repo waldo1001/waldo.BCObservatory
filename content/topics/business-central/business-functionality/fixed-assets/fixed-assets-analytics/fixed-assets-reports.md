@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:54.665Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -285,7 +285,7 @@ narrative: generated
 
 > Fixed assets reports in Business Central: standard and Excel reports for fixed asset book value, depreciation, acquisitions, ledger entries and registers, plus insurance and maintenance reports. Use it to find which report answers a question about asset values, postings, insurance coverage or service dates.
 
-Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Fixed assets reports · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Fixed assets](../../fixed-assets.md) > [Fixed assets analytics](../fixed-assets-analytics.md) > Fixed assets reports · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

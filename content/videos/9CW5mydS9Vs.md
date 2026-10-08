@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:30.871Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:30.942Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,17 +167,17 @@ features:
     verified: false
     status_source: video
   - name: Native data-driven test support
-    status: unclear
+    status: ga
     t: 1506
     verified: false
-    status_source: video
-  - name: Custom context interface for data-driven tests
-    status: ga
-    t: 1591
-    verified: true
     status_source: roadmap
     roadmap_ids:
       - "573333"
+  - name: Custom context interface for data-driven tests
+    status: announced
+    t: 1591
+    verified: true
+    status_source: video
   - name: Agent-assisted test writing and review
     status: unclear
     t: 1713
@@ -310,8 +310,8 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | AI test artifacts and multiple executions | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1142s) |  |
 | Copilot feature testing framework | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1235s) |  |
 | Agentic test simulation and step verification | status not stated, demoed | [23:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1411s) |  |
-| Native data-driven test support | status not stated, demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
-| Custom context interface for data-driven tests | generally available (roadmap [573333](../features/573333.md)), demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
+| Native data-driven test support | generally available (roadmap [573333](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
+| Custom context interface for data-driven tests | announced, demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
 | Agent-assisted test writing and review | status not stated | [28:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1713s) |  |
 | Performance test suite for long-running tests | status not stated | [29:18](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1758s) |  |
 | Test type filtering with subtype and transaction filters | status not stated | [31:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1893s) |  |

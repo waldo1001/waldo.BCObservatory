@@ -2,7 +2,7 @@
 id: post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-autonomous-agent-weekend--030ecee688
 type: post
 title: "AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing"
-summary: AL Runner, a testing framework for Business Central, achieved significant progress through autonomous agent loops over a weekend, adding 832 new tests and implementing a Windows cross-check workflow that discovered platform-level differences between Linux and Windows BC instances. The suite now passes 59% of Microsoft's 40,530 base-app tests, revealing both permission configuration issues and genuine behavioral differences that need addressing.
+summary: Stefan Maron describes a weekend of autonomous agent loops on AL Runner, shipped as v2.11.0, and its companion AL language test suite, which grew by 832 tests. A new nightly Windows workflow found a missing TestPermissions property in about 100 test codeunits and 8 behavioral differences between BC on Linux and real BC. A full run of Microsoft's BaseApp tests now passes 59.2%, and a hang was traced to a dropped report MaxIteration property.
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - platform differences
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:00.607Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -69,13 +69,10 @@ quotes:
   - text: 59.2% is coverage of everything AL Runner can discover, not coverage of what Microsoft actually runs day to day.
     why_it_matters: Clarifies what test coverage percentages mean and that Microsoft itself disables over 40% of available tests, providing context for improvement targets.
 code_objects_mentioned:
-  - codeunit CertificateOfSupplyPartiallyShippedOrder
   - other SymbolReference.json
-  - other BaseApp test surface
 systems:
   - development
   - platform
-  - administration
 versions_mentioned:
   - v2.11.0
 preview:
@@ -92,17 +89,17 @@ preview:
 
 # AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing
 
-[Read the post](https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-08 · 1359 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-08 · 1359 words · tier community · reviewed (checked by Opus)
 
-> AL Runner, a testing framework for Business Central, achieved significant progress through autonomous agent loops over a weekend, adding 832 new tests and implementing a Windows cross-check workflow that discovered platform-level differences between Linux and Windows BC instances. The suite now passes 59% of Microsoft's 40,530 base-app tests, revealing both permission configuration issues and genuine behavioral differences that need addressing.
+> Stefan Maron describes a weekend of autonomous agent loops on AL Runner, shipped as v2.11.0, and its companion AL language test suite, which grew by 832 tests. A new nightly Windows workflow found a missing TestPermissions property in about 100 test codeunits and 8 behavioral differences between BC on Linux and real BC. A full run of Microsoft's BaseApp tests now passes 59.2%, and a hang was traced to a dropped report MaxIteration property.
 
 ## Key points
 
-- Autonomous agents working in coordinated loops merged 351 pull requests and added 832 tests in five days to the AL Runner test suite.
-- A nightly Windows workflow discovered that Linux CI had false positives; the first run caught 672 failures including 659 permission issues affecting 96 test codeunits.
-- Eight behavioral differences between Linux and Windows BC instances were identified and filed, including SingleInstance codeunit state loss and IsolatedStorage encryption failures on Linux.
-- AL Runner now passes 23,985 of Microsoft's 40,530 base-app tests (59.2%), though Microsoft itself disables 16,141 of these tests in its own pipelines.
-- A report MaxIteration bug in metadata reconstruction caused a test to execute 101,000 extra times; this bug was fixed at five call sites.
+- AL Runner shipped v2.11.0 after 351 merged PRs. The companion test suite went from 2,346 to 3,178 tests in five days.
+- A manual check against a SaaS sandbox, followed by a nightly Windows container workflow, exposed tests passing on Linux CI but failing on real BC. Most failures came from a missing TestPermissions property.
+- Eight Linux-versus-Windows differences were filed, including lost SingleInstance codeunit state and IsolatedStorage encryption doing nothing under Linux. Five are closed.
+- AL Runner passes 23,985 of 40,530 Microsoft BaseApp tests (59.2%). Microsoft itself disables 16,141 of them, so a figure adjusted to the tests Microsoft actually runs is still being worked out.
+- Rebuilding report metadata from SymbolReference.json dropped MaxIteration, so one report dataitem looped 101,001 times. The bug was fixed at 5 call sites.
 
 ## Quotes
 
@@ -113,11 +110,7 @@ preview:
 
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "CertificateOfSupplyPartiallyShippedOrder"
 - other "SymbolReference.json"
-- other "BaseApp test surface"
-
-Not found in BC28-30: codeunit "CertificateOfSupplyPartiallyShippedOrder".
 
 ## Context
 

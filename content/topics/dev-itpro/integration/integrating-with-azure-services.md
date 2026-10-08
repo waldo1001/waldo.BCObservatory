@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:06.293Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ narrative: generated
 
 > Integrating Business Central with Azure services: Key Vault for extension secrets, Azure Functions calls, and telemetry in Application Insights. It answers questions about setting up key vaults, monitoring Azure Function and key vault secret telemetry, and enabling, analyzing and alerting on telemetry.
 
-Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

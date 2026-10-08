@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:48:51.841Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:51.876Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -72,7 +72,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573342
   topics: []
   localizations: []
   videos: []
@@ -119,10 +120,12 @@ features:
     verified: false
     status_source: video
   - name: Price synchronization for catalogs linked to markets
-    status: unclear
+    status: ga
     t: 7
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
 objects_mentioned: []
 quotes:
   - t: 20
@@ -183,7 +186,9 @@ A demo shows the new currency handling field in the order processing section of 
 | Presentment currency support in Shopify order processing | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=NMO822Jf_4E&t=56s) |
 | Currency handling field on Shopify shop card | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=NMO822Jf_4E&t=73s) |
 | Processed currency field in orders | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=NMO822Jf_4E&t=152s) |
-| Price synchronization for catalogs linked to markets | status not stated | [0:07](https://www.youtube.com/watch?v=NMO822Jf_4E&t=7s) |
+| Price synchronization for catalogs linked to markets | generally available (roadmap [573342](../features/573342.md)) | [0:07](https://www.youtube.com/watch?v=NMO822Jf_4E&t=7s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

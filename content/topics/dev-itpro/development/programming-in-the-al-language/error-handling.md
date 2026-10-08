@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -178,7 +178,7 @@ narrative: generated
 
 > Error handling in Business Central AL covers how to raise, catch, collect and present runtime errors, and how to design code that fails gracefully. It answers questions about error dialogs, try methods, collectible errors, actionable errors with Fix-it and Show-it actions, UX guidelines, and error telemetry.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Error handling · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

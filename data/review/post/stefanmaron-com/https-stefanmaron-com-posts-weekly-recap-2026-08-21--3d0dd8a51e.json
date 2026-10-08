@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/",
+  "input_hash": "0a49452350881a5145e4cabbbb546f21a55bce578f971db16d8650c8114fdeed",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:17.757Z",
+  "issues": [
+    "Summary, key points and both quotes are supported by the post.",
+    "Feature 'AL code analysis' is not described in the post; LinterCop is only mentioned as reaching end of life.",
+    "System 'integration' has no support; the post is about dev tooling and CI/CD."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041435,
+    "posts_in_call": 4
+  }
+}

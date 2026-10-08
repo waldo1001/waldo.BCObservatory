@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:57.818Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Czech localization of Business Central for payables and receivables: compensation between customers and vendors, balance reconciliations, exchange rate adjustments, sales correcting documents, ARES contact updates, and output document layout. It answers how to set up and use these Czech-specific features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Payables and Receivables · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

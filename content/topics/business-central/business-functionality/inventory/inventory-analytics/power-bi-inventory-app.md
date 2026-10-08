@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:42.869Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,7 +211,7 @@ narrative: generated
 
 > The Power BI inventory app section describes the app's reports, KPIs and measures, and semantic model for Business Central inventory analytics. It answers questions about stock levels, bins, lots and serial numbers, supply and demand, ABC classification, and forecasting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory app · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

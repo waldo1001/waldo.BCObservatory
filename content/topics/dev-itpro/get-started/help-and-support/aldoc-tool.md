@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:23:37.857Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -65,7 +65,7 @@ narrative: generated
 
 > The ALDoc tool section covers generating reference documentation from AL source code for Business Central apps, and adding extra content to the generated output. It answers questions about installing prerequisites such as DocFx and .NET, building a static help website, and using overwrite files.
 
-Path: [Get started](../../get-started.md) > [Help and support](../help-and-support.md) > ALDoc tool · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Help and support](../help-and-support.md) > ALDoc tool · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

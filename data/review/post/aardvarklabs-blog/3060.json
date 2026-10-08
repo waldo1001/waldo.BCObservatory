@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3060",
+  "input_hash": "c88bd772c573b088a31a36e18e4612c629572cac8e4c75f1c05f01bf96d516dd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:26.755Z",
+  "issues": [
+    "The summary calls the space travel agency system real world, but it is a made-up example scenario used to show the AI workflow.",
+    "The summary leaves out that the second step produces a Business Central functional design document with the help of the AL Development Collection extension.",
+    "Objects and quotes match entities and lines in the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.069519,
+    "posts_in_call": 3
+  }
+}

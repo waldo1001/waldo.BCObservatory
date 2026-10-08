@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:06.323Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1431,7 +1431,7 @@ narrative: generated
 
 > Finance in Business Central covers accounting and bookkeeping: general ledger, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, period closing, analytics, E-Documents and multi-company setups. It answers setup, posting, reporting and how-to questions for finance work.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

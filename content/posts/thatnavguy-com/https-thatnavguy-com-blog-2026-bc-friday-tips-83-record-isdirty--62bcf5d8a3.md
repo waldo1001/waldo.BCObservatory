@@ -12,12 +12,12 @@ tags:
   - best practices
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:46:10.773Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #83 Check Whether a Record Has Changed
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-02 · 124 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-83-record-isdirty/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-02 · 124 words · tier community · reviewed (checked by Opus)
 
 > The Record.IsDirty() method detects whether a record has been modified without requiring manual tracking. This pattern simplifies code when applying multiple field updates to a record.
 

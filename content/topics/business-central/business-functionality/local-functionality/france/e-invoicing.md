@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.018Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,7 @@ narrative: generated
 
 > E-invoicing for France in Business Central: how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and how to use the E-Reporting FR e-document format. It answers setup and compliance questions about French e-invoicing reform, PDP delivery and tax authority reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > E-invoicing · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > E-invoicing · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -9,12 +9,12 @@ tags:
   - localization
   - se
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:30:38.215Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -77,7 +77,7 @@ learn_folder: LocalFunctionality/Sweden
 
 > Sweden (SE) localization of Business Central 29. It covers SIE import and export of general ledger data, automatic account codes, EU third-party purchase trade for VAT and VIES, Swedish balance sheet and income statement reports, PEPPOL 3.0 additions, and Swedish-layout document reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/sweden.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/sweden.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:17:22.451Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -266,7 +266,7 @@ narrative: generated
 
 > Electronic data exchange in Business Central: the Data Exchange Framework, data exchange definitions, electronic documents (PEPPOL, OCR), bank file import and export, SEPA credit transfer and direct debit, Yodlee bank feeds, and currency rates. It answers questions on concepts, setup and field mapping.
 
-Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Exchange data electronically · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [General business functionality](../general-business-functionality.md) > Exchange data electronically · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

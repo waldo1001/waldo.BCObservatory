@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:42.483Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Building Copilot user experiences in Business Central with the PromptDialog page type. It covers creating the page, designing prompt, generate and content modes, error handling, and launching Copilot features from prompt actions. It answers how-to questions for AL developers.
 
-Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Build Copilot user experience · tier official · system copilot · narrative reviewed by Opus
+Path: [Integration with AI](../../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../../integrate-ai-using-developer-tools-for-c.md) > [Extend Copilot in Business Central](../extend-copilot-in-business-central.md) > Build Copilot user experience · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

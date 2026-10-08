@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.119Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Shopify tax matching (preview) covers an AI-powered feature in Business Central US that maps tax information from Shopify orders to Tax Jurisdictions. It answers questions about what the feature does, how to enable and configure it per shop, and how to review, approve, undo and handle rate conflicts.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Shopify tax matching (preview) · tier official · system integration · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Shopify tax matching (preview) · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

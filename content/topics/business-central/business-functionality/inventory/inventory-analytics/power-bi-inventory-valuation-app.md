@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:04.115Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,7 +99,7 @@ narrative: generated
 
 > The Power BI inventory valuation app shows inventory value across an organization, by overview, item and location. It answers questions about what each report shows, which balance and variance measures it uses, and how they are calculated.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Power BI inventory valuation app · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

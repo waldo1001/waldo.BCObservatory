@@ -9,12 +9,12 @@ tags:
   - localization
   - ru
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:30:20.954Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -272,7 +272,7 @@ learn_folder: LocalFunctionality/Russia
 
 > Russia (RU) localization of Business Central 29. It covers VAT ledgers and settlement, G/L correspondence, prepayments and prepayment differences, tax registers and tax differences, fixed assets, cash and bank payment orders, Russian print forms (TORG-12, Factura-Invoice, M-4, CO-3, CO-4), customs declarations and red storno inventory. It answers what Russia adds to W1.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/russia.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/russia.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

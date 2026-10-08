@@ -14,12 +14,12 @@ tags:
   - upgrade planning
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:46:09.790Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,6 @@ code_objects_mentioned: []
 systems:
   - platform
   - administration
-  - development
 versions_mentioned:
   - "29.0"
   - "28.6"
@@ -95,7 +94,7 @@ preview:
 
 # October 2026 Cumulative Updates for Dynamics 365 Business Central
 
-[Read the post](https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-10-08 · 160 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-10-08 · 160 words · tier community · reviewed (checked by Opus)
 
 > October 2026 cumulative updates for Dynamics 365 Business Central are available, including Business Central 2026 Wave 2 release with version 29.0 for online customers and updates for on-premises versions 28.6, 27.12, and 26.18. Organizations should verify implementation readiness and compatibility with customizations before upgrading.
 

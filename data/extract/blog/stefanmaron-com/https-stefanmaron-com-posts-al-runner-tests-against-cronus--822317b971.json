@@ -5,13 +5,13 @@
   "source": "stefanmaron-com",
   "published_at": "2026-09-01T16:30:00.000Z",
   "words": 1615,
-  "summary": "AL Runner, a testing tool for Business Central AL code, now supports testing against real Cronus demo data via the --test-data flag, restores breakpoint debugging through Debug Adapter Protocol, enables per-test coverage attribution for mutation testing, and introduces TDD mode for agentic development workflows.",
+  "summary": "AL Runner, an in-memory test runner for Business Central AL code, gained several capabilities through v2.10.0: a --test-data flag that loads real Cronus demo rows from the BC backup, restored breakpoint debugging via a Debug Adapter Protocol server, per-test coverage for mutation testing, and TDD mode that now works with watch. v2.8.0 also makes compilation fail whenever the BC compiler reports an error.",
   "key_points": [
-    "The --test-data flag hydrates the in-memory test database with 39,231 real rows from the Cronus backup (344 tables), enabling tests to find bugs that only appear with real setup data present.",
-    "Breakpoint debugging restored via --dap protocol with precise pause boundaries aligned to AL statement execution, supporting next/stepIn/stepOut operations.",
-    "Per-test coverage tracking (perTestCoverage field) enables mutation testing tools to narrow down which tests actually exercise a mutated line, reducing test suite execution time from ~5 hours to minutes.",
-    "--tdd mode allows tests referencing unimplemented symbols to fail gracefully rather than causing compilation errors, with inference generating stubs for inferable signatures.",
-    "Behavior change in v2.8.0: compilation now fails when BC's compiler reports errors, matching real BC service tier behavior."
+    "The --test-data flag fills the in-memory database from the Cronus backup in the BC artifact cache. On BC 28.1 W1 that is 344 tables and 39,231 rows, so tests can catch bugs that depend on setup data.",
+    "--dap brings back breakpoint debugging with per-statement stepping, using the same statement hook as coverage, and offers both TCP and stdio transports.",
+    "A new perTestCoverage field (v2.8.0) shows which statements each test executed. Mutation tools such as LethAL can then run each mutant only against the tests that touched the changed line, instead of the full suite, which took about five hours in one measured run.",
+    "--tdd turns tests that reference missing symbols into failed tests with a diagnostic, can generate stubs for signatures it can infer, and now works together with --watch.",
+    "Behavior change in v2.8.0: compilation stops with exit code 3 on any compiler error, matching what a real BC service tier would refuse to publish."
   ],
   "systems": [
     "development",

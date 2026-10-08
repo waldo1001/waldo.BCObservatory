@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e01570e44fd892e45360d527a8e097ef16cabdbf58b572683b8f9dfaca19ae6
@@ -69,7 +69,7 @@ footprint:
     - id: development
       weight: 19
     - id: administration
-      weight: 12
+      weight: 11
     - id: reporting
       weight: 6
     - id: manufacturing
@@ -139,7 +139,7 @@ last_item: "2026-10-07"
 |---|---|---|
 | platform (28) | telemetry (6) | table Sales Line (2) |
 | development (19) | al development (4) | codeunit 54001 (1) |
-| administration (12) | performance (4) | codeunit Base64 Convert (1) |
+| administration (11) | performance (4) | codeunit Base64 Convert (1) |
 | reporting (6) | performance optimization (4) | codeunit Base64 Convert Impl. (1) |
 | manufacturing (4) | sql server (4) | codeunit Low-Level Code Calculator (1) |
 | crm (2) | concurrency (3) | codeunit Purchase-Post (1) |

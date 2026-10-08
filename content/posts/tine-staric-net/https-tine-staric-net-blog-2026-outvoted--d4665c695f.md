@@ -2,7 +2,7 @@
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-outvoted--d4665c695f
 type: post
 title: Context is a voting chamber
-summary: Long agent sessions balance cost efficiency through prompt caching with attention degradation, where context acts as a voting chamber where older information dilutes focus on current objectives. Understanding when to start fresh sessions or use handoffs versus maintaining warm caches determines productivity and actual token costs.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - llm performance
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-07T23:47:06.819Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -89,17 +89,9 @@ preview:
 
 # Context is a voting chamber
 
-[Read the post](https://tine.staric.net/blog/2026/outvoted/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-31 · 1916 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2026/outvoted/) · Tech Adventures in Business Central (Tine Staric) · 2026-08-31 · 1916 words · tier community · **flagged** (a review found a problem)
 
-> Long agent sessions balance cost efficiency through prompt caching with attention degradation, where context acts as a voting chamber where older information dilutes focus on current objectives. Understanding when to start fresh sessions or use handoffs versus maintaining warm caches determines productivity and actual token costs.
-
-## Key points
-
-- Prompt caching makes long sessions affordable at cache-read rates (one-tenth of input cost), with costs growing quadratically but remaining manageable until cache expires after 5 minutes to 1 hour of inactivity
-- Attention mechanisms distribute weight across all context tokens proportionally to relevance, causing older or duplicate information to compete equally with current objectives, especially middle-context content
-- Context acts like a voting chamber where multiple versions of the same information (files edited repeatedly, earlier drafts, abandoned approaches) all influence the next token equally despite recency weighting
-- Handoffs between focused sessions and subagents for parallel reading preserve only eliminated options and their reasoning, not full transcripts, resetting context while avoiding costly cache invalidation
-- Resuming old sessions burns cache at full input rates; starting fresh with summaries is more efficient than recomputing against accumulated 600k+ token prefixes
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

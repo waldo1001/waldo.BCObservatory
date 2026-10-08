@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T13:37:17.677Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -365,7 +365,7 @@ narrative: generated
 
 > Integration of Business Central with other applications: Microsoft Office and 365, Power Platform, Dataverse, Dynamics 365 Sales, Field Service and Shopify. It answers questions about which integration to use, how data is synchronized, and where to find setup details.
 
-Path: Integrate with other applications · tier official · system none · narrative reviewed by Opus
+Path: Integrate with other applications · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

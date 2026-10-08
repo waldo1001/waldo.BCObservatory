@@ -215,5 +215,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.197252
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:24:37.396Z",
+    "verdict": "approve",
+    "issues": [
+      "The overview says Gen. Jnl.-Post Line, Sales-Post and Purch.-Post are extended with WHT and GST procedures. Only Gen. Jnl.-Post Line adds both. Sales-Post and Purch.-Post add WHT procedures, while the GST procedures are in Sales Post Invoice, Purch. Post Invoice and the prepayment posting codeunits. This is a small imprecision.",
+      "Learn topics on settlement exchange rate adjustment for VAT entries and on the AU Balance Sheet and Income Statement reports are not mentioned, even though the code supports them (settlement fields on VAT Entry and Currency Exchange Rate, reports 28024 and 28025). This is optional to add.",
+      "Some of the AU layer's own reports look like they serve other Asia-Pacific countries (WHT PND 1 to 3, Certificate of Creditable tax, WHT E-Filing). The narrative correctly leaves them out of the AU feature list."
+    ],
+    "input_hash": "581b8eaf531324d0a79839331f9e33e54fd50bb2c5a85b76709fb385f5ab9e69",
+    "cost_usd": 0.3609708,
+    "applied": [],
+    "rejected_edits": []
   }
 }

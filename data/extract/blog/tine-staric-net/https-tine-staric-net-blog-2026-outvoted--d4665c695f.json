@@ -5,14 +5,8 @@
   "source": "tine-staric-net",
   "published_at": "2026-08-31T08:00:00.000Z",
   "words": 1916,
-  "summary": "Long agent sessions balance cost efficiency through prompt caching with attention degradation, where context acts as a voting chamber where older information dilutes focus on current objectives. Understanding when to start fresh sessions or use handoffs versus maintaining warm caches determines productivity and actual token costs.",
-  "key_points": [
-    "Prompt caching makes long sessions affordable at cache-read rates (one-tenth of input cost), with costs growing quadratically but remaining manageable until cache expires after 5 minutes to 1 hour of inactivity",
-    "Attention mechanisms distribute weight across all context tokens proportionally to relevance, causing older or duplicate information to compete equally with current objectives, especially middle-context content",
-    "Context acts like a voting chamber where multiple versions of the same information (files edited repeatedly, earlier drafts, abandoned approaches) all influence the next token equally despite recency weighting",
-    "Handoffs between focused sessions and subagents for parallel reading preserve only eliminated options and their reasoning, not full transcripts, resetting context while avoiding costly cache invalidation",
-    "Resuming old sessions burns cache at full input rates; starting fresh with summaries is more efficient than recomputing against accumulated 600k+ token prefixes"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "copilot",
     "integration",

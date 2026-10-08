@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:12.080Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -136,7 +136,7 @@ narrative: generated
 
 > Banking and payments in the French localization of Business Central: payment management with payment classes, statuses, steps and addresses, plus creating, posting, archiving and exporting payment slips. It answers setup and how-to questions for customer and vendor payments, including SEPA.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

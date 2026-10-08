@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.958Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,7 +118,7 @@ narrative: generated
 
 > Analysis assist is a Copilot preview feature in Business Central that turns natural language instructions into analysis views on list pages. The section answers what it does, how to ask Copilot for analysis tabs with rows, columns, filters and aggregations, and common questions about it.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Analysis assist · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Analysis assist · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

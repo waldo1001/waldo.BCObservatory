@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -174,7 +174,7 @@ narrative: generated
 
 > Query objects in AL: how to define dataitems and columns, link and join tables, filter, aggregate, extract date parts, read results in code, and analyze query data interactively. It answers questions about building and using queries instead of record variables.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Using Query objects · tier official · system reporting · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > Using Query objects · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

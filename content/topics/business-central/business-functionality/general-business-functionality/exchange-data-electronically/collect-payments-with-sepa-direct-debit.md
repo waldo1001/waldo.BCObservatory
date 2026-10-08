@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:59.205Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -137,7 +137,7 @@ narrative: generated
 
 > SEPA direct debit collection in Business Central, plus related bank setup and data exchange pages. It answers questions on setting up mandates and export formats, exporting collection XML files, setting up bank accounts, Yodlee bank feeds, the AMC Banking 365 Fundamentals extension, and XML schemas for data exchange definitions.
 
-Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Collect payments with SEPA direct debit · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [General business functionality](../../general-business-functionality.md) > [Exchange data electronically](../exchange-data-electronically.md) > Collect payments with SEPA direct debit · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

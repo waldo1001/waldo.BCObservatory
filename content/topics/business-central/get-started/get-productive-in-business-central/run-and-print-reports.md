@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:24:43.476Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Running, previewing, printing and scheduling reports, and running batch jobs and XMLports, in Business Central. It answers questions about saving report output to PDF, Word or Excel, saved settings for reports and batch jobs, default printers, and test reports before posting sales or purchase documents.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Run and print reports · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,7 @@ narrative: generated
 
 > Subcontracting in Business Central manufacturing: how to delegate production operations to vendors. It answers questions about subcontracting purchase orders, the worksheet, component supply and transfers, item charges on receipts, and WIP transfers between subcontractors.
 
-Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Subcontracting · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Subcontracting · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

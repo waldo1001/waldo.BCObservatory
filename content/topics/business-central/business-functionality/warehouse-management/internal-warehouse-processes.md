@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:50.308Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ narrative: generated
 
 > Internal warehouse processes in Business Central: handling production, assembly and job components and output, moving items within and between locations, and counting and adjusting warehouse inventory. It answers which page, journal or setup applies in basic versus advanced warehouse configurations.
 
-Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Internal warehouse processes · tier official · system warehouse · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Warehouse management](../warehouse-management.md) > Internal warehouse processes · tier official · system warehouse · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:02.904Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > Setup best practices for supply planning in Business Central: how to configure reordering policies, item-level planning parameters, and global planning setup. It answers questions about which policy suits which items, which fields to set, and how to avoid stockouts while controlling inventory cost.
 
-Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Setup best practices for complex application areas](../setup-best-practices-for-complex-applica.md) > Setup best practices: Supply planning · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Setup best practices for complex application areas](../setup-best-practices-for-complex-applica.md) > Setup best practices: Supply planning · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

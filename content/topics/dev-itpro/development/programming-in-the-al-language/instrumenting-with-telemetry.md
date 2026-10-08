@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,15 +89,14 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry
   localizations: []
   videos:
-    - video/7rIHz0zrgWU
-    - video/b54ehH4AlFA
+    - video/mnxOSl1Y9PI
   posts:
-    - post/demiliani-com/13369
     - post/waldo-be/317845
   guidelines: []
   changes:
     - change/al-go/2229
     - change/al-go/2379
+    - change/al-go/2392
     - change/al-go/2395
     - change/bcapps/10573
     - change/bcapps/10897
@@ -113,8 +112,8 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 2
-  blog: 2
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 700c86efba6976ff1f579dab7d994f43d63ff87525ee22bc8315bb5d045228dd
@@ -125,7 +124,7 @@ narrative: generated
 
 > Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -161,13 +160,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2229 Surface empty BCPT results as a warning instead of silent success](../../../../changes/al-go/2229.md) (code change): "BCPT performance tests that run but produce no log entries now show a warning"
 - [#2379 Avoid CI/CD runs for template SHA-only system updates](../../../../changes/al-go/2379.md) (code change): "Checks if files were actually updated or removed before persisting a new template SHA"
+- [#2392 AL-Go Telemetry Enhancements: repository fork and hosting information](../../../../changes/al-go/2392.md) (code change): "AL-Go telemetry now captures whether a repository is a fork and its GitHub hosting type"
 - [#2395 Prevent workflow telemetry failures from failing the workflow](../../../../changes/al-go/2395.md) (code change): "WorkflowPostProcess telemetry failures no longer cause the entire workflow to fail"
 - [#10573 BC IQ - Adding data categorization](../../../../changes/bcapps/10573.md) (code change): "Data categorization support was added to the Data Classification Evaluation"
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
 - [#9307 Added missing event call so the search results page subscribes to the…](../../../../changes/bcapps/9307.md) (code change): "Added missing event subscription call to Data Search Result Records page"
-- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../../posts/demiliani-com/13369.md) (community post): "hardware and network telemetry parameters in page views"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
-- [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "Long running AL telemetry - total and exclusive time; Long running AL SQL statistics"
-- [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
+- [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../../../videos/mnxOSl1Y9PI.md) (video): "Telemetry for AL Developers; Security for Developers; Extensibility Overview"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

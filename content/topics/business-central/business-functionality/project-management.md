@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -471,7 +471,7 @@ narrative: generated
 
 > Project management in Business Central covers creating projects with tasks and planning lines, budgeting, recording resource and item usage, time sheets, supplies, invoicing, assemble-to-project, and WIP methods. It answers how-to questions across the project lifecycle, and its analytics subtopic covers reports and Power BI.
 
-Path: [Business functionality](../business-functionality.md) > Project management · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Project management · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -518,7 +518,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9083 Bug 639857: Project journal ignores task-level Bill-to Customer for pricing](../../../changes/bcapps/9083.md) (code change): "Project journal pricing now respects task-level bill-to customer settings"
 - [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"
 - [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"
-- [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Project Management; terminology change; location code initialization"
+- [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Jobs renamed to Projects; Project details box visible by default"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"
 - [What's New: Project Management Receive Project Items with Receipts or Put-Aways(2025 release wave 1)](../../../videos/sVlPlmok5U8.md) (video): "Project Management Receive Project Items with Receipts or Put-Aways"

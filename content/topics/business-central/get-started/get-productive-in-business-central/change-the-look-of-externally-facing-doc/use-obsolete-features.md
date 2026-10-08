@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:13.743Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,7 +87,7 @@ narrative: generated
 
 > Obsolete features for externally facing document layouts in Business Central: creating, modifying, importing, exporting, assigning and updating custom RDLC and Word report layouts. It answers questions about how the older custom layout approach worked and how to manage layouts with it.
 
-Path: [Get started](../../../get-started.md) > [Get productive in Business Central](../../get-productive-in-business-central.md) > [Change the look of externally facing documents](../change-the-look-of-externally-facing-doc.md) > Use obsolete features · tier official · system platform · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Get productive in Business Central](../../get-productive-in-business-central.md) > [Change the look of externally facing documents](../change-the-look-of-externally-facing-doc.md) > Use obsolete features · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

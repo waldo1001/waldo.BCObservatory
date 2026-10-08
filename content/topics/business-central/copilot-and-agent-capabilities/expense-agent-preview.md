@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,9 +108,11 @@ links:
   videos:
     - video/4TE8uwIi91k
     - video/ARKckFygbWQ
+    - video/cWVhWBMbXb4
     - video/egE6UdOfar0
     - video/Fz8NLByllRc
     - video/P1V4jy08YM8
+    - video/pjML7lXSsd0
     - video/q-udoJPGUKE
     - video/qZALauRY_So
     - video/rSGCNMIBcpc
@@ -118,6 +120,7 @@ links:
     - video/vyQnSxRGJDA
   posts:
     - post/thinkaboutit-be/7920
+    - post/thinkaboutit-be/8022
   guidelines: []
   changes:
     - change/bcapps/10631
@@ -131,8 +134,8 @@ children:
 coverage:
   learn: 10
   code: 3
-  video: 10
-  blog: 1
+  video: 12
+  blog: 2
   guideline: 0
 bc_forms:
   - 4400
@@ -146,7 +149,7 @@ narrative: generated
 
 > Expense Agent (preview) in Business Central is an AI agent that automates expense handling. This section covers admin setup, uploading receipts and creating mileage expenses, reviewing and editing expenses, building and submitting reports, approver actions, and the mobile app.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Expense Agent (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -186,11 +189,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "New expense policy evaluation framework with dedicated tables, pages, and APIs"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent in public preview, a new Expense Management module"
+- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
+- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates"
 - [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../videos/egE6UdOfar0.md) (video): "Introducing: Expense Agent in Business Central (2026 release wave 1). Topics: expense management; ai agent; receipt processing"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Expense Agent: Mileage Allowances; mileage allowances; expense agent"
 - [Expense Agent: Configuration (2026 release wave 1)](../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; configuration wizard; approval workflow; mileage expenses; per diem"
+- [Introducing: Expense Management (2026 release wave 1)](../../../videos/pjML7lXSsd0.md) (video): "Expense agent with AI-driven categorization; Expense collection and itemization"
 - [Introducing: Web App for Expense Agent (2026 release wave 1)](../../../videos/q-udoJPGUKE.md) (video): "Web App for Expense Agent ai extraction receipt processing expense approval"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent; Pre-approval AI Suggestions; Team-based Approval Setup"
 - [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; approval process; approvers; email notifications"

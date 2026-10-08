@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:23.617Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Microsoft Excel integration with Business Central: viewing and editing data in Excel, setting up the Excel add-in for on-premises, importing data from Excel or configuration packages, and building Excel report layouts. It answers how-to and setup questions for these tasks.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Excel · tier official · system reporting · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Excel · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

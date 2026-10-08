@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.947Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -326,7 +326,7 @@ narrative: generated
 
 > Pages in AL for Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), layout controls, FactBoxes, tooltips, discoverability, tiles, Power BI embedding and onboarding tips. Answers how to design, lay out and extend pages.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Pages · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Pages · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

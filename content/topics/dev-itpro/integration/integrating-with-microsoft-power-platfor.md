@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.119Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -218,7 +218,7 @@ narrative: generated
 
 > Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, building apps and flows, reports, external user access, and connecting agents to Business Central.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

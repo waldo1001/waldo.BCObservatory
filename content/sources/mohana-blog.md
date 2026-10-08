@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 592e8deff00f7ad60e04b7d9fd576a7752f3af4a114d3853ce428a91e15d8f34
@@ -70,9 +70,9 @@ item_count: 26
 footprint:
   systems:
     - id: administration
-      weight: 19
+      weight: 16
     - id: development
-      weight: 14
+      weight: 13
     - id: integration
       weight: 13
     - id: inventory
@@ -142,8 +142,8 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| administration (19) | mcp server (3) | table Customer (2) |
-| development (14) | migration (3) | api contacts (1) |
+| administration (16) | mcp server (3) | table Customer (2) |
+| development (13) | migration (3) | api contacts (1) |
 | integration (13) | vendor management (3) | api countriesRegions (1) |
 | inventory (9) | al development (2) | api currencies (1) |
 | platform (9) | automation (2) | api customers (1) |

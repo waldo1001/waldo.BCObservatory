@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,7 +79,7 @@ narrative: generated
 
 > Event-based integration of Business Central with external systems: business events (preview) that notify or trigger external systems via Dataverse and Power Automate, and webhooks that push notifications when entities change. It answers questions on subscribing to events, registering webhooks, and handling notifications.
 
-Path: [Integration](../integration.md) > Integrating with external systems using events · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Integrating with external systems using events · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

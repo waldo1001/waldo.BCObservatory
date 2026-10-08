@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:44.207Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -487,7 +487,7 @@ narrative: generated
 
 > The Get started section of Business Central covers trials, first setup, learning resources, everyday use, troubleshooting and support. It answers questions about what the product supports, how to try or buy it, how to learn it, and how end users work in it day to day.
 
-Path: Get started · tier official · system none · narrative reviewed by Opus
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

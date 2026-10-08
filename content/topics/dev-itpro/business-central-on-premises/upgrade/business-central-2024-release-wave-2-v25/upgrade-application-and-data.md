@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:13.261Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Upgrade application and data for Business Central on-premises version 25 (2024 release wave 2). It covers three paths: unmodified C/AL, customized C/AL, and Microsoft System and Base Application upgrades. It answers questions about which steps and tools apply to a given source version.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Business Central 2024 release wave 2 (v25)](../business-central-2024-release-wave-2-v25.md) > Upgrade application and data · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Business Central 2024 release wave 2 (v25)](../business-central-2024-release-wave-2-v25.md) > Upgrade application and data · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

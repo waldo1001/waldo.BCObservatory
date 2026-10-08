@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -402,7 +402,7 @@ narrative: generated
 
 > Subscription billing in Business Central covers recurring invoicing for contractually agreed services: contracts, sales and purchasing with subscription lines, recurring billing proposals, billing automation, posting, usage-based billing, and Power BI analytics. It answers setup, how-to, and lifecycle questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Subscription billing · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Sales](../sales.md) > Subscription billing · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

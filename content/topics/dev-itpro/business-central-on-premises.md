@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:34.902Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -340,7 +340,7 @@ narrative: generated
 
 > Business Central on-premises covers deploying, administering and upgrading on-premises installations. It answers questions on planning and installing, securing and configuring servers, tools and integrations, choosing upgrade paths from v14 through v29, and migrating legacy help content to the Business Central format.
 
-Path: Business Central on-premises · tier official · system none · narrative reviewed by Opus
+Path: Business Central on-premises · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

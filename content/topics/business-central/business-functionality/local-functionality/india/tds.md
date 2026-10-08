@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:13.238Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,7 +118,7 @@ narrative: generated
 
 > TDS (Tax Deducted at Source) in the India localization of Business Central: setup, calculation on purchases and payments, threshold rules, Section 194Q, provisional entries, adjustments, and payment to government. It answers how to configure and post TDS.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > TDS · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

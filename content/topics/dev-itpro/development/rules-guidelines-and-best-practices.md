@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:29.632Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -193,7 +193,7 @@ narrative: generated
 
 > Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation.
 
-Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

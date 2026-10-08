@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:30.197Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,7 +140,7 @@ narrative: generated
 
 > Italian VAT functionality in Business Central: VAT codes and rates, VAT transaction reports (prepare, create, export, correct), VAT statement submission, G/L book and VAT register printing, and Intrastat reports for Italy. It answers setup and how-to questions for Italian tax compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:22.125Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Deep links in Business Central: how to build URLs that open specific content in the web client or the mobile app. Answers questions about URL parameters such as company, page, report, table, mode, profile, filter and bookmark, and the ms-businesscentral URI scheme.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Creating deep links · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Creating deep links · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

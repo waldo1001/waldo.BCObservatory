@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T01:54:03.703Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bd541f09c19e72ac15eda0a4cf555cab573354e15dd7a32257e8773972c5448e
@@ -109,9 +109,9 @@ footprint:
     - id: development
       weight: 46
     - id: reporting
-      weight: 40
+      weight: 39
     - id: platform
-      weight: 23
+      weight: 22
     - id: administration
       weight: 20
     - id: integration
@@ -150,8 +150,6 @@ footprint:
       weight: 1
     - id: codeunit Semantic Data Search
       weight: 1
-    - id: other BCQuality
-      weight: 1
     - id: other GitHub Copilot
       weight: 1
     - id: other Power BI Monitor
@@ -161,6 +159,8 @@ footprint:
     - id: page Capacity
       weight: 1
     - id: page Copilot & agent capabilities
+      weight: 1
+    - id: page Data Administration
       weight: 1
   features: []
 first_item: "2025-07-31"
@@ -179,16 +179,16 @@ last_item: "2026-10-05"
 |---|---|---|
 | copilot (46) | al development (14) | page Customer Ledger Entries (2) |
 | development (46) | power bi (11) | report Report Objects (2) |
-| reporting (40) | reporting (8) | codeunit Rest Api Helper (1) |
-| platform (23) | code generation (7) | codeunit Sales Posting Helper (1) |
+| reporting (39) | reporting (8) | codeunit Rest Api Helper (1) |
+| platform (22) | code generation (7) | codeunit Sales Posting Helper (1) |
 | administration (20) | analytics (6) | codeunit Sales Posting Helper Test (1) |
 | integration (17) | copilot (6) | codeunit Semantic Data Search (1) |
-|  | github copilot (6) | other BCQuality (1) |
-|  | release wave 2 (6) | other GitHub Copilot (1) |
-|  | agents (5) | other Power BI Monitor (1) |
-|  | copilot chat (4) | page API page (1) |
-|  |  | page Capacity (1) |
+|  | github copilot (6) | other GitHub Copilot (1) |
+|  | release wave 2 (6) | other Power BI Monitor (1) |
+|  | agents (5) | page API page (1) |
+|  | copilot chat (4) | page Capacity (1) |
 |  |  | page Copilot & agent capabilities (1) |
+|  |  | page Data Administration (1) |
 
 ## Flight path
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,6 +109,7 @@ links:
   videos:
     - video/564XMP2IyLM
     - video/b-ixzwDS41c
+    - video/DnZJ2iOgIjI
   posts:
     - post/duiliotacconi-com/1601
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
@@ -125,7 +126,7 @@ children: []
 coverage:
   learn: 8
   code: 17
-  video: 2
+  video: 3
   blog: 2
   guideline: 0
 bc_forms:
@@ -154,7 +155,7 @@ narrative: generated
 
 > Control your data covers Business Central administration of data: auditing changes, classifying and masking sensitive data, retention policies, encryption, storage cleanup, archiving, personal data requests, and database locks. It answers questions on who changed data, privacy handling, and reducing database size.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Control your data · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -195,6 +196,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
+- [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"
 
 ## Business Central pages and reports
 

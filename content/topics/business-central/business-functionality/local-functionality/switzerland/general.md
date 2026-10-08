@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.955Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Swiss (CH) general local functionality in Business Central: importing Swiss post codes from Swiss Post, and Swiss-specific behavior of purchase and sales documents. It answers questions about post code updates, posting descriptions, subtotals, invoice rounding and shipment printing.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

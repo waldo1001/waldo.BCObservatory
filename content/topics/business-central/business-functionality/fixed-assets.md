@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:33.278Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -481,7 +481,7 @@ narrative: generated
 
 > Fixed assets in Business Central: setting up, acquiring, depreciating, revaluing and managing capital assets across their lifecycle, plus depreciation methods, a rounding troubleshooting extension, and a subtopic on analytics and reports. It answers how-to and which-method questions.
 
-Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
 
 ## Overview
 

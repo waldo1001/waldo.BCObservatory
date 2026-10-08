@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/",
+  "input_hash": "f8a1115b1ee9999b811d3e11ec29c6e9233e66d756e2a116c49a70f9c488e7a4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:50.060Z",
+  "issues": [
+    "Summary, key points and the quote match the post; the quote is verbatim.",
+    "Integration system is not supported; the post covers development tooling, containers and CI pipelines, not integration scenarios."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048649,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619",
+  "input_hash": "5640daf583cbfc87425310ce777896b22f243d5da36221ae8a3ecef8a4552267",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:15.884Z",
+  "issues": [
+    "Second key point was garbled: it implied Body layouts are restricted, while the post says only Body layouts (not Default) can receive a theme and header/footer.",
+    "Rewrote key points to also cover the Word-only limitation and the AL properties.",
+    "Objects, features, versions and systems are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037876,
+    "posts_in_call": 4
+  }
+}

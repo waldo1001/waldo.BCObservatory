@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:19.577Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Tax in the Canadian version of Business Central: setting up use tax and purchase tax, reporting GST/HST, reporting sales tax with tax areas and jurisdictions, and configuring unrealized sales tax with sales payment discounts. It answers Canada-specific tax setup and reporting questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

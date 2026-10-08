@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.949Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -279,7 +279,7 @@ narrative: generated
 
 > Get started covers setting up AL development for Business Central: installing Visual Studio Code and the AL Language extension, editor tools (code actions, navigation, Explorer, formatter, outline), Designer, telemetry, translations, runtime packages, and the ALTool, Ready to Go and Marketplace validation subtopics. It answers how-to and tooling questions for new AL developers.
 
-Path: [Development](../development.md) > Get started · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > Get started · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

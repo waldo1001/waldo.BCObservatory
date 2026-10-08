@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:14:33.845Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,7 +383,7 @@ narrative: generated
 
 > The Get started section of Business Central documentation is the entry point for orientation, partner development and selling, FAQs, and help and support. It answers what Business Central can do, how partners build and sell apps and extensions, and where to find common answers.
 
-Path: Get started · tier official · system none · narrative reviewed by Opus
+Path: Get started · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,7 +188,7 @@ narrative: generated
 
 > Inventory setup in Business Central: general inventory parameters, item cards and types, units of measure, categories, pictures, locations, stockkeeping units and responsibility centers. It answers how to configure and maintain the master data that inventory runs on.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up inventory · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up inventory · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -369,7 +369,7 @@ narrative: generated
 
 > Built-in inventory and warehouse reports in Business Central: what each report shows, who uses it, and which questions it answers. Covers availability and planning, valuation and costs, sales and purchase analysis, item analysis (ABC, aging, expiration, dimensions), warehouse bin and shipment reports, and barcode/QR label reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Inventory](../../inventory.md) > [Inventory analytics](../inventory-analytics.md) > Built-in inventory and warehouse reports · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

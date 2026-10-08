@@ -10,21 +10,21 @@ tags:
   - copilot
 system: copilot
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 333afff6dc14a82cbe557a2f7977855dcb43a7171ec432f7d37f1830a8a11e3b
+  input_hash: 2932d9419ea59d58fdd8e800a985700ad2aa28fa38ea2d7eda1fe0f5fc095de4
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AgentDesignExperience/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AgentDesignExperience/app
     title: src/Apps/W1/AgentDesignExperience/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -235,4 +235,4 @@ First-party app · folder `src/Apps/W1/AgentDesignExperience/app` · namespace `
 |---|---|---|
 |  | [Agent Designer](../objects/entitlement/agent-designer.md) |  |
 
-Source: [src/Apps/W1/AgentDesignExperience/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/AgentDesignExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AgentDesignExperience/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AgentDesignExperience/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

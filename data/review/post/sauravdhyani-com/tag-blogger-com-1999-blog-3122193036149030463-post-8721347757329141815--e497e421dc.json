@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815",
+  "input_hash": "20549b0c9df4d1c25a993149592bf0013a37b54dd2c81c1a7f7c138a5620badf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:14.080Z",
+  "issues": [
+    "Quote 2 joins two separate sentences, and the second one is changed: in the post it is a sentence opener followed by a bulleted list. So it is not verbatim.",
+    "The integration system is not supported. The post is about evolving the AL interface contract in development, not about integration.",
+    "The summary, key points, the INotification object and the features all match the post."
+  ],
+  "applied": [
+    "dropped 1 quote(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033379,
+    "posts_in_call": 4
+  }
+}

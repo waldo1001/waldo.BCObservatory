@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:34.744Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,7 @@ narrative: generated
 
 > Swiss VAT in Business Central: creating and printing Swiss VAT statements (current and older version), how VAT amounts and exchange rates are adjusted, and how to handle VAT rate changes. Answers questions about Swiss VAT reporting and rate changes.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

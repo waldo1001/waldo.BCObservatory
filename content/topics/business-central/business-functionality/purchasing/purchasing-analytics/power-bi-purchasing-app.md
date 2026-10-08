@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:12.298Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -251,7 +251,7 @@ narrative: generated
 
 > The Power BI Purchases app section covers the app, its semantic model, KPI and measure reference, and each purchasing report. It answers questions about what a report shows, which measures it uses, and how the data is structured for spend, vendor, budget, return and trend analysis.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Power BI purchasing app · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Power BI purchasing app · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:55.174Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -434,7 +434,7 @@ narrative: generated
 
 > Purchasing analytics in Business Central covers the Power BI Purchases app, built-in purchasing and payables reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about which report or tool fits a purchasing, vendor, or spend question and what each one shows.
 
-Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Purchasing](../purchasing.md) > Purchasing analytics · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

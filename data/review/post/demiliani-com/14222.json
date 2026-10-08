@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/demiliani-com/14222",
+  "input_hash": "b42d5a129b9ee966b408933eecb0fcac424a3096e0eac3a03e200e910958d383",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:46:46.823Z",
+  "issues": [
+    "Size reduction, fallback behavior, BCContainerHelper breakage and manual install fix all match the post.",
+    "Page omits the post's note that BCContainerHelper is heading for deprecation, which is not an error."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027605,
+    "posts_in_call": 4
+  }
+}

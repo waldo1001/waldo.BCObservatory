@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.451Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > VAT functionality in the German version of Business Central: setting up and creating VAT reports (ELMA5 export), correcting submitted reports, declaring VAT-VIES, and configuring VAT and Intrastat report selections. It answers setup, submission and correction questions for German VAT reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

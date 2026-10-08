@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:37.084Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Upgrading Business Central on-premises to 2026 release wave 1 (version 28). It covers upgrade paths, pre-upgrade considerations for v26 and later, and the steps to upgrade from versions 25, 26, or 27 and install a version 28 update. It answers questions about how to get to v28 and what to check first.
 
-Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2026 release wave 1 (v28) · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../business-central-on-premises.md) > [Upgrade](../upgrade.md) > Business Central 2026 release wave 1 (v28) · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:24.768Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -130,7 +130,7 @@ narrative: generated
 
 > Marketplace technical validation FAQ for Business Central apps. It answers questions about app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process, and support channels.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Marketplace validation](../marketplace-validation.md) > Marketplace technical validation FAQ · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T14:23:56.689Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -244,7 +244,7 @@ narrative: generated
 
 > Sustainability Value Chain in Business Central covers tracking Scope 3 and embedded CO2e emissions through purchasing, transfers, production, assembly, sales, service, item journals and fixed assets. It answers questions about setup, the Carbon Tracking Method (average or specific), lot tracking, default emission data and how sustainability value entries are created.
 
-Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability Value Chain · tier official · system sustainability · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Sustainability management](../sustainability-management.md) > Sustainability Value Chain · tier official · system sustainability · narrative reviewed (checked by Opus)
 
 ## Overview
 

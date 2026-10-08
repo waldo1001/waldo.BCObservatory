@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:49.998Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -452,7 +452,7 @@ narrative: generated
 
 > Inventory analytics in Business Central covers Power BI apps, built-in inventory and warehouse reports, legacy reports marked for removal, and ad-hoc analysis with the Data Analysis feature. It answers questions about stock levels, valuation, supply and demand, item analysis, and which tool fits which role.
 
-Path: [Business functionality](../../business-functionality.md) > [Inventory](../inventory.md) > Inventory analytics · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Inventory](../inventory.md) > Inventory analytics · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

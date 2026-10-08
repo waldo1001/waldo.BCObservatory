@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:36.422Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Legacy purchasing analytics reports in Business Central that are marked for removal: Aged Accounts Payable, Payments on Hold, Vendor - List, and Vendor - Top 10 List. It answers questions about what each report shows and who uses it.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Legacy reports (will be removed) · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Legacy reports (will be removed) · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

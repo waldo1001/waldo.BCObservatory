@@ -11,12 +11,12 @@ tags:
   - trivia
   - learning
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:34.466Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -82,16 +82,17 @@ preview:
 
 # Business Central Trivia Recap: August 10–14, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-10-14-2026/) · DvlprLife (Brad Prendergast) · 2026-08-17 · 241 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-10-14-2026/) · DvlprLife (Brad Prendergast) · 2026-08-17 · 241 words · tier community · reviewed (checked by Opus)
 
 > A recap of Business Central Trivia week (August 10-14, 2026) with 250 questions across five days, 68% answer accuracy, and three new site features including full leaderboard visibility, answer statistics, and leaderboard link after hour completion.
 
 ## Key points
 
-- Business Central Trivia had 250 questions over 5 days with 1,807 total answers and 68% accuracy rate
-- Highest single player score was 208 correct answers out of 250
-- Three new features launched: expanded leaderboard view, answer statistics showing how others responded, and leaderboard link after using all hourly answers
-- Data center power and cooling issue occurred but was resolved quickly without disrupting the round
+- The trivia round ran five days with 50 questions per day, 250 in total, drawing 1,807 answers of which 68% were correct.
+- The best player answered 208 of 250 correctly, which is not the same as the top score since questions have different point values.
+- A power and cooling problem at the data center hit one day, but recovery was quick and the round continued.
+- New site features: a full leaderboard, answer statistics shown after each question, and a leaderboard link once the hourly answers are used up.
+- A new round with fresh questions started right away; feedback can be sent through the site's issue link or directly.
 
 ## Quotes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -680,7 +680,7 @@ narrative: generated
 
 > Sales in Business Central covers the sales process from customer setup and quotes through orders, shipments, invoicing, posting, returns and corrections. It also covers delivery dates, drop and special orders, prepayments, campaigns, and two subtopics: sales analytics and subscription billing. It answers how-to and setup questions.
 
-Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Sales · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

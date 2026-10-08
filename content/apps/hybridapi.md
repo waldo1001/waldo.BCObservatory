@@ -10,21 +10,21 @@ tags:
   - administration
 system: administration
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 24b6e7f7beef0760139567e5afbe63715e6b3f7cb2ecdc2112a688bd31962a65
+  input_hash: cbba2d800a76dba13b47417aa18a007635155faf60a2a0ce83f1977c856d7332
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/HybridAPI/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridAPI/app
     title: src/Apps/W1/HybridAPI/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -77,4 +77,4 @@ First-party app · folder `src/Apps/W1/HybridAPI/app` · namespace `Microsoft.Da
 | 40024 | [Cloud Mig Product Type API](../objects/page/40024.md) |  |
 | 40026 | [Cloud Mig Status Detail API](../objects/page/40026.md) |  |
 
-Source: [src/Apps/W1/HybridAPI/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/HybridAPI/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridAPI/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridAPI/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

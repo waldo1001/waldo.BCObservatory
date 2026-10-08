@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:51.564Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Migrating Dynamics NAV on-premises to Business Central online: the overall migration path through BC14, the BC14 reimplementation option, and converting C/AL customizations to AL extensions. It answers questions about route choice, data preparation and customization conversion.
 
-Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics NAV · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../administration.md) > [Migrate to Business Central online](../migrate-to-business-central-online.md) > Migrate from Dynamics NAV · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

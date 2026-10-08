@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/",
+  "input_hash": "299b1a7e7c5f0b31c157dcf9552782d4d4279ff82a2f09a1d8d7c8f20dbd231d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:17.757Z",
+  "issues": [
+    "Content matches the short tip about the trivia site.",
+    "System 'development' is not supported; the post is a community learning tip for consultants, developers and power users, not about development."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041435,
+    "posts_in_call": 4
+  }
+}

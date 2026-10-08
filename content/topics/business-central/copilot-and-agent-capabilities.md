@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:16.469Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -431,7 +431,7 @@ narrative: generated
 
 > Copilot and agent capabilities in Business Central: an overview of AI features, availability by country/region and language, the Copilot FAQ, Advanced Tell Me, and subtopics for admin control and each Copilot feature or agent. It answers what a feature does, where it is available, how to set it up, and how responsible AI applies.
 
-Path: Copilot and agent capabilities · tier official · system copilot · narrative reviewed by Opus
+Path: Copilot and agent capabilities · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

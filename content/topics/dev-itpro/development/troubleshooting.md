@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.948Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -341,7 +341,7 @@ narrative: generated
 
 > Troubleshooting for Business Central development covers tools and guides for gathering information, finding causes and fixing problems. It answers questions on client tools, AL debugging and profiling, telemetry setup and analysis, and guides for migration, report and web service errors.
 
-Path: [Development](../development.md) > Troubleshooting · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > Troubleshooting · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

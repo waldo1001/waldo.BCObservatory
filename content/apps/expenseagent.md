@@ -10,21 +10,21 @@ tags:
   - copilot
 system: copilot
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: e8ca98e2382f42833315ec4d0c5f20fe8e93c44a272e4cf40fa27bfab23c3215
+  input_hash: a260ffcd6d5c292f631abcc3c1d9c1b1e564638ebcb8105937cd7d7931458b43
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/ExpenseAgent/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseAgent/app
     title: src/Apps/W1/ExpenseAgent/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -753,4 +753,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) (video, 2026-04-27): names Page 6996 "Expense Agent Setup"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../videos/qZALauRY_So.md) (video, 2026-04-27): names Page 6951 "Expense Users"
 
-Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

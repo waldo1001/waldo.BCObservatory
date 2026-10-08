@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:38.147Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > Report triggers and events in AL for Business Central: events raised during report generation, printing, and export. Answers questions about patching documents, setting up printers, custom rendering, and customizing export filenames.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report triggers and events · tier official · system reporting · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Developing reports](../developing-reports.md) > Report triggers and events · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

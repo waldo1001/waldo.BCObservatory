@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:30.259Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > VAT in the Dutch (NL) version of Business Central: setting up and submitting electronic VAT and ICP declarations through Digipoort, configuring VAT categories, and creating an audit file for the Dutch tax authority. It answers setup, certificate, submission and audit file questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Netherlands](../netherlands.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

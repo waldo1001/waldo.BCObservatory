@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,8 +91,9 @@ links:
   localizations: []
   videos:
     - video/9CW5mydS9Vs
+    - video/EurgqGU1jG0
     - video/JI9OpaBx0nk
-    - video/Q-oazDEucLE
+    - video/V4zCPAsYi_Y
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831
   guidelines: []
@@ -115,7 +116,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 3
+  video: 4
   blog: 1
   guideline: 0
 bc_forms:
@@ -136,7 +137,7 @@ narrative: generated
 
 > Testing in Business Central covers writing automated AL tests (test codeunits, test methods, test pages, handler methods, test runners), a worked purchase invoice discount example, an app testing FAQ, and the Performance Toolkit extension for workload and regression testing.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Testing · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Testing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -180,9 +181,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
 - [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
-- [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "deterministic testing; propagated dependencies; application test library"
+- [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
+- [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "100% code coverage testing pattern; Fast automated testing framework"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
-- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents; Automated path coverage verification; Approval testing"
+- [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 
 ## Business Central pages and reports
 

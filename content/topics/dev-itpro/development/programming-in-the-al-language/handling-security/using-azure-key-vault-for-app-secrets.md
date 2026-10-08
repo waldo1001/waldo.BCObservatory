@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:02.513Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ narrative: generated
 
 > Azure Key Vault use for app secrets in Business Central extensions: how to set up app key vaults for online and on-premises deployments, retrieve secrets in AL code, and monitor secret access with telemetry. It answers setup, permission, coding, and diagnostics questions.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Handling security](../handling-security.md) > Using Azure Key Vault for app secrets · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,6 +205,7 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
+    - video/lNASlydCidI
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/2467
@@ -227,7 +228,7 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 1
+  video: 2
   blog: 8
   guideline: 0
 bc_forms: []
@@ -239,7 +240,7 @@ narrative: generated
 
 > Developer tools for Copilot in Business Central: what counts as a Copilot extension, the System.AI module and PromptDialog page type, Azure OpenAI setup and Business Central AI resources, Help preparation, and the transparency note. It answers planning, setup and design questions for partners building generative AI features in AL.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate AI using developer tools for Copilot · tier official · system copilot · narrative reviewed by Opus
+Path: [Integration with AI](../integration-with-ai.md) > Integrate AI using developer tools for Copilot · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -290,5 +291,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "custom extension called Planning Parameter Worksheet uses Copilot"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Microsoft-managed Azure OpenAI resources for Copilot extensions (now generally available)"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

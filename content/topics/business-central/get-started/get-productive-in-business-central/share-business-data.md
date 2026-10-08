@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:26:15.382Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Sharing Business Central data with others through links, Microsoft Teams, OneDrive and Excel. It answers questions about copying links, sharing records to Teams, opening files in OneDrive, and viewing or editing list data in Excel.
 
-Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Share business data · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Get productive in Business Central](../get-productive-in-business-central.md) > Share business data · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

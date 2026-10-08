@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T05:17:08.437Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 19268ae7b32a887852618f15b7dc5d3a38161231e52f47c5c37e218955b1bdfd
@@ -114,13 +114,13 @@ item_count: 70
 footprint:
   systems:
     - id: development
-      weight: 68
+      weight: 66
     - id: administration
       weight: 30
     - id: platform
       weight: 26
     - id: integration
-      weight: 13
+      weight: 12
     - id: reporting
       weight: 11
     - id: finance
@@ -186,10 +186,10 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (68) | al development (21) | table Sales Header (4) |
+| development (66) | al development (21) | table Sales Header (4) |
 | administration (30) | user experience (9) | table Sales Invoice Header (3) |
 | platform (26) | best practices (6) | api api (1) |
-| integration (13) | extensions (6) | api Exclude_APIV2 (1) |
+| integration (12) | extensions (6) | api Exclude_APIV2 (1) |
 | reporting (11) | developer tools (5) | codeunit codeunit (1) |
 | finance (10) | performance (5) | codeunit Config. Package Management (1) |
 |  | codeunit (4) | codeunit Dimension CaptionClass Mgmt (1) |

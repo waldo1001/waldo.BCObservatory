@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:18.409Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > Invoicing prepayments covers how to set up, create, post and correct prepayment invoices and credit memos for sales and purchase orders in Business Central. It answers questions about prepayment percentages, accounts, number series, and fixing invoiced prepayments.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Invoicing prepayments · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Invoicing prepayments · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

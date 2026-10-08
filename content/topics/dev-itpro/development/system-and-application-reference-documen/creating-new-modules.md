@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:23.589Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,7 +98,7 @@ narrative: generated
 
 > Creating new modules covers how to build, change, and contribute AL modules in the Business Central System Application. It answers questions about environment setup, module architecture rules, facade and implementation codeunits, .NET wrapper modules, tests, and the Git workflow.
 
-Path: [Development](../../development.md) > [System and application reference documentation](../system-and-application-reference-documen.md) > Creating new modules · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [System and application reference documentation](../system-and-application-reference-documen.md) > Creating new modules · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

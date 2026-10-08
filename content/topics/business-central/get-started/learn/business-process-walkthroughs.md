@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:20:47.065Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -163,7 +163,7 @@ narrative: generated
 
 > Business process walkthroughs in Business Central are step-by-step scenarios using the CRONUS demonstration company. They answer how-to questions on sales campaigns, prepayments, purchase approvals, projects and WIP, warehouse picking, cash flow forecasts, and the Shopify Connector.
 
-Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Business process walkthroughs · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Learn](../learn.md) > Business process walkthroughs · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

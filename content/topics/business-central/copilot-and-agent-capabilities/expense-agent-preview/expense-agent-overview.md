@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,6 @@ links:
   videos:
     - video/6rm45dSB6xg
     - video/cVfZoDwKYpI
-    - video/cWVhWBMbXb4
     - video/e_x5QF0vXgs
     - video/GwrMf1umTFg
     - video/NI6WYze-JSU
@@ -82,7 +81,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 7
+  video: 6
   blog: 0
   guideline: 0
 bc_forms:
@@ -97,7 +96,7 @@ narrative: generated
 
 > Expense Agent (preview) in Business Central is an AI-powered agent that automates the expense lifecycle. This section answers questions about what it does, how it processes emails and receipts, and how it checks expenses against rules and policies.
 
-Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../../copilot-and-agent-capabilities.md) > [Expense Agent (preview)](../expense-agent-preview.md) > Expense Agent overview · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -132,7 +131,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Mileage Expense Calculation"
-- [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates; Mileage rate setup table"
 - [Expense Agent: Mobile Experience (2026 release wave 1)](../../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent mobile app; Receipt capture with native OS detection; AI extraction of expense details"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "What's new in Expense Agent: Project Handling shows project tracking in Expense Agent"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"

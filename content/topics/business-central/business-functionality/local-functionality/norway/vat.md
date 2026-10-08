@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:10.804Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -149,7 +149,7 @@ narrative: generated
 
 > Norwegian VAT functionality in Business Central: VAT codes, entering one VAT code in journals, proportional VAT deduction, VAT reconciliation reporting, electronic VAT returns via ID-Porten, and SAF-T file setup and export. It answers setup and usage questions for Norway-specific VAT.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Norway](../norway.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

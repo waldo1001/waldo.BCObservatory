@@ -10,21 +10,21 @@ tags:
   - finance
 system: finance
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 9e0521f50e1aae6ea2e97a6c6d2981b9e284be39bd1a6b6cc611fc191a18a3f4
+  input_hash: c7e3f8a2d7a06690fc34698db6232927f8d033c5cf90ff5d8dbc3fd05d965db3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PaymentPractices/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PaymentPractices/app
     title: src/Apps/W1/PaymentPractices/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -208,4 +208,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 692 | [INTELLIGENT CLOUD - Paym. Prac.](../objects/permissionsetextension/692.md) |  |
 | 693 | [LOCAL - Paym. Prac.](../objects/permissionsetextension/693.md) |  |
 
-Source: [src/Apps/W1/PaymentPractices/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PaymentPractices/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PaymentPractices/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PaymentPractices/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

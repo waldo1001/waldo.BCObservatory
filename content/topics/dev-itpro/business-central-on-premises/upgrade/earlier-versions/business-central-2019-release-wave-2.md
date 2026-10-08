@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:54.040Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Upgrading on-premises Business Central from version 14 (Spring 2019) to version 15 (2019 release wave 2), plus installing version 15 updates and a compatibility matrix for upgrade paths. It answers questions about upgrade strategies, technical upgrade tasks, unmodified application upgrades, and minimum versions for upgrades.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2019 release wave 2 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2019 release wave 2 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

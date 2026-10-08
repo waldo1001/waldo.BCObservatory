@@ -10,21 +10,21 @@ tags:
   - development
 system: development
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1e69cbd3b7b8b234296ba0e71eb9c053d3ebe6356320837cb0915f96733116bd
+  input_hash: dee957292b56e4b05da7ac71dbd30fd0f31096f94b89a01b9713ac5e82b4f47a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PlanConfiguration/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PlanConfiguration/app
     title: src/Apps/W1/PlanConfiguration/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -75,4 +75,4 @@ First-party app · folder `src/Apps/W1/PlanConfiguration/app` · namespace `Syst
 |---|---|---|
 | 9032 | [Upgrade Custom User Groups](../objects/codeunit/9032.md) |  |
 
-Source: [src/Apps/W1/PlanConfiguration/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/PlanConfiguration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PlanConfiguration/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PlanConfiguration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

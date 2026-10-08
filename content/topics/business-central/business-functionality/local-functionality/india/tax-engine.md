@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:01.979Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ narrative: generated
 
 > The Tax engine section covers the configurable Tax Engine for India in Business Central. It answers questions about setting up tax types, rates and use cases, scripting and lookups, design best practices, and importing or exporting configuration as JSON.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Tax engine · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [India](../india.md) > Tax engine · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

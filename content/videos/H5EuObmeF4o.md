@@ -20,18 +20,25 @@ tags:
   - al development
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:22:41.011Z"
   flags: []
 generated:
-  at: "2026-10-07T21:12:03.732Z"
+  at: "2026-10-07T23:22:41.076Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
     summarize-video: 2
   input_hash: d552966ea13ac0db879b4d8ab428212c9fb28a50f823e121baa35c8a8063e1dd
 evidence:
+  - kind: video
+    url: https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s
+    title: "Advanced Tell Me search: preview"
+    date: "2025-09-07T22:07:27.000Z"
+    commit: null
+    t: 418
+    quote: Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users.
   - kind: video
     url: https://www.youtube.com/watch?v=H5EuObmeF4o&t=12s
     title: Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)
@@ -127,9 +134,9 @@ features:
     verified: false
     status_source: video
   - name: Advanced Tell Me search
-    status: unclear
+    status: preview
     t: 345
-    verified: false
+    verified: true
     status_source: video
   - name: Autofill with Copilot field suggestions
     status: unclear
@@ -344,7 +351,7 @@ quotes:
 
 > Walkthrough of Business Central 2025 release wave 2 (BC27 preview sandbox) covering Copilot and agents, MCP server, development, finance, administration and manufacturing changes. Evidence for what the presenter lists for the wave, including some dated items such as the sales order agent in October 2025 and the payables agent in more countries in November 2025.
 
-[Watch on YouTube](https://www.youtube.com/watch?v=H5EuObmeF4o) · Business Central Musings · 2025-09-07 · 33:45 · tier community · **unreviewed** (machine-generated)
+[Watch on YouTube](https://www.youtube.com/watch?v=H5EuObmeF4o) · Business Central Musings · 2025-09-07 · 33:45 · tier community · reviewed (checked by Opus)
 
 ## Overview
 
@@ -384,7 +391,7 @@ The rest covers 20-language chat support, localization items, AL and page script
 |---|---|---|---|
 | Enhanced sales order agent | status not stated | [4:48](https://www.youtube.com/watch?v=H5EuObmeF4o&t=288s) |  |
 | MCP server for Business Central | status not stated | [5:03](https://www.youtube.com/watch?v=H5EuObmeF4o&t=303s) |  |
-| Advanced Tell Me search | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) |  |
+| Advanced Tell Me search | preview, demoed | [5:45](https://www.youtube.com/watch?v=H5EuObmeF4o&t=345s) | "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users." ([6:58](https://www.youtube.com/watch?v=H5EuObmeF4o&t=418s)) |
 | Autofill with Copilot field suggestions | status not stated, demoed | [8:18](https://www.youtube.com/watch?v=H5EuObmeF4o&t=498s) |  |
 | Payables agent contextual invoice drafts | status not stated | [9:02](https://www.youtube.com/watch?v=H5EuObmeF4o&t=542s) |  |
 | Agent task instructions enhancement | status not stated | [9:13](https://www.youtube.com/watch?v=H5EuObmeF4o&t=553s) |  |

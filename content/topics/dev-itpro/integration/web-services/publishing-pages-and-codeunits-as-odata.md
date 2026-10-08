@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:08.742Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,7 +92,7 @@ narrative: generated
 
 > Publishing pages, queries, and codeunits as OData and SOAP web service endpoints in Business Central. It answers questions on publishing steps, OData V4 bound actions, UI handling in web services, troubleshooting errors, and the SOAP feature key removed in version 30.0.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Publishing pages and codeunits as OData/SOAP web service endpoints · tier official · system service · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Publishing pages and codeunits as OData/SOAP web service endpoints · tier official · system service · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:15.671Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,7 @@ narrative: generated
 
 > Updating and hotfixing covers how Business Central apps and extensions are updated, upgraded and hotfixed over their lifecycle. It answers questions on submitting app updates, version numbering, upgrade code, hotfixing Marketplace apps, and how service updates and breaking changes affect extensions.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Updating and hotfixing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

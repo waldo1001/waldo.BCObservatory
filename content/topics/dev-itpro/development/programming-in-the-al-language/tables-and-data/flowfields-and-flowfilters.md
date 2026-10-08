@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:22.410Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > FlowFields and FlowFilters in AL are virtual fields that calculate and display values dynamically without storing data. The section answers questions about how to create them, which FlowField types exist, how CalcFormula works, and how FlowFilters limit calculations at runtime.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Tables and data](../tables-and-data.md) > FlowFields and FlowFilters · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

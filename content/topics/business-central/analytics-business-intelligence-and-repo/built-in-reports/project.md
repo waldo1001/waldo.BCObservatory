@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:12.291Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -113,7 +113,7 @@ narrative: generated
 
 > Project built-in reporting and monitoring in Business Central: Project Reports and the Report Explorer, work-in-process (WIP) calculation and posting to the general ledger, and recording consumption or usage of project resources and items. It answers questions about analyzing project activity, valuing ongoing projects, and logging usage.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Project · tier official · system projects · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Built-in reports](../built-in-reports.md) > Project · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

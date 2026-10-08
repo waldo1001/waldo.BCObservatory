@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:05.121Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -167,7 +167,7 @@ narrative: generated
 
 > Austria local functionality in Business Central: VAT statements and reporting, purchasing delivery reminders, the Vendor Payments List report, and general audit export and setup reports. It helps answer how to set up, run and print these Austria-specific features.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Austria · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

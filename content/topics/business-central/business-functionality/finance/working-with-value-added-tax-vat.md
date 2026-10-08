@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:08.129Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -202,7 +202,6 @@ links:
     - topic/business-central/business-functionality/finance/working-with-value-added-tax-vat/set-up-vat
   localizations: []
   videos:
-    - video/4IumfDNN8GU
     - video/fdzTWZyT6mI
     - video/MWXwtRr6-Wk
   posts:
@@ -249,7 +248,7 @@ children:
 coverage:
   learn: 15
   code: 60
-  video: 3
+  video: 2
   blog: 2
   guideline: 0
 bc_forms:
@@ -320,7 +319,7 @@ narrative: generated
 
 > Value Added Tax (VAT) in Business Central: setup, VAT on sales and purchases, non-deductible VAT, rate changes, multiple registration numbers, number validation, EU third-party trade, built-in reports and submission to tax authorities. It answers how-to questions on configuring, posting, correcting and reporting VAT.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with Value Added Tax (VAT) · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Working with Value Added Tax (VAT) · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -388,7 +387,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "dimension handling, and VAT processing to maintain financial data integrity"
 - [Change Behaviour on VAT Prod. Posting Group - Prices Incl. VAT in v28.2](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-prices-incl-vat-prod-posting-group--3b717ab825.md) (community post): "VAT Product Posting Group changes; Prices Incl. VAT; vat; pricing"
 - [Dynamics 365 Business Central – How to change the VAT amount on a Purchase Invoice or Purchase Order](../../../../posts/thedynamicsexplorer-com/9815.md) (community post): "Set Max. VAT Difference Allowed in General Ledger Setup to permit changes"
-- [How to Use Posting Groups in Business Central (2025)](../../../../videos/4IumfDNN8GU.md) (video): "vat posting; VAT Posting Setup"
 - [Introducing: Multiple VAT Numbers for Customers (2024 release wave 2)](../../../../videos/fdzTWZyT6mI.md) (video): "Multiple VAT Numbers for Customers (2024 release wave 2). Topics: multiple vat numbers; customers; vat registration"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date in Business Central; VAT Date field; VAT setup"
 

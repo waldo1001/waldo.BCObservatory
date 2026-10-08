@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:19.662Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ narrative: generated
 
 > Human resources for the Russian localization of Business Central covers payroll, absence registration, dismissal, charges and deductions, staff list changes, and vacation planning. It answers how-to questions about HR and payroll processes for Russian employees.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Human resources · tier official · system hr · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Russia](../russia.md) > Human resources · tier official · system hr · narrative reviewed (checked by Opus)
 
 ## Overview
 

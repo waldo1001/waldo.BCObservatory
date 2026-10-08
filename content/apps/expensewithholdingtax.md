@@ -10,21 +10,21 @@ tags:
   - development
 system: development
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c4dfa07a7cbae8ba6be6a1e6926e06d3e027a73ec0c8496daddb614c299b3ca4
+  input_hash: d48203ae05ec3b42000fe71d7b17ecda59216cb6d62fdb74f07bfa3135feac19
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/ExpenseWithholdingTax/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseWithholdingTax/app
     title: src/Apps/W1/ExpenseWithholdingTax/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -117,4 +117,4 @@ First-party app · folder `src/Apps/W1/ExpenseWithholdingTax/app` · namespace `
 |---|---|---|
 | 7058 | [Exp. Withholding Tax](../objects/permissionset/7058.md) | Expense Withholding Tax |
 
-Source: [src/Apps/W1/ExpenseWithholdingTax/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/ExpenseWithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExpenseWithholdingTax/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseWithholdingTax/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

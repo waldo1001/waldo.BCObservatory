@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.946Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -321,7 +321,6 @@ links:
     - topic/dev-itpro/development/the-al-programming-language/code-analysis
   localizations: []
   videos:
-    - video/D_Lur52IrIg
     - video/eUkx_VCcyoU
   posts: []
   guidelines: []
@@ -338,7 +337,7 @@ children:
 coverage:
   learn: 45
   code: 0
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -350,7 +349,7 @@ narrative: generated
 
 > The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, error handling, labels, access modifiers, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, behavior, and how-to-write-AL questions.
 
-Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative reviewed by Opus
+Path: [Development](../development.md) > The AL programming language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -394,7 +393,6 @@ Start with "Programming in AL" for the fundamentals, then move to the subtopics:
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "al mcp; language server protocol; symbol search; interface design"
 - [What's New: AL Language (2025 release wave 1)](../../../videos/eUkx_VCcyoU.md) (video): "AL Language; resources; pages; reports; strings; json; yaml"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

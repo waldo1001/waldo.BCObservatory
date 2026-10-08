@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:20.856Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,7 +155,7 @@ narrative: generated
 
 > Upgrade guidance for Business Central on-premises 2020 release wave 1 (version 16). It answers questions about upgrade paths from versions 13, 14 and 15, C/AL to AL conversion, moving tables between extensions with migration.json, installing version 16 updates, and the upgrade compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 1 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2020 release wave 1 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

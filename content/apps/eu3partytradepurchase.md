@@ -10,21 +10,21 @@ tags:
   - finance
 system: finance
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 37b33838aeb4796b6e53575ef8bc73e40131a1bae1988bd9ae6ca81cad36645c
+  input_hash: 00357f0d158198f3805676145cd8395b7470086b96ba07f458e137a38055c0f3
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/EU3PartyTradePurchase/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EU3PartyTradePurchase/app
     title: src/Apps/W1/EU3PartyTradePurchase/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -139,4 +139,4 @@ First-party app · folder `src/Apps/W1/EU3PartyTradePurchase/app` · namespace `
 |---|---|---|
 | 4880 | [EU3PartyTrade - Objects](../objects/permissionset/4880.md) |  |
 
-Source: [src/Apps/W1/EU3PartyTradePurchase/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/EU3PartyTradePurchase/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/EU3PartyTradePurchase/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EU3PartyTradePurchase/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

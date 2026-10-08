@@ -5,7 +5,7 @@
   "source": "mohana-blog",
   "published_at": "2026-09-07T04:27:35.000Z",
   "words": 498,
-  "summary": "Business Central 2026 Release Wave 2 introduces Recently Used in Lookups, which surfaces frequently searched or selected records directly in lookup dialogs to reduce repetitive searches and speed up data entry for common tasks like vendor, customer, and item selection.",
+  "summary": "BC29 (2026 release wave 2) adds Recently Used in Lookups: lookup dialogs can show records a user recently searched for or selected, personalized per user, so common values like vendors or customers are picked by switching to the Recent view instead of searching again. The author found Global Search activity also influences the list and wishes manually entered values were included and Recent could open by default.",
   "key_points": [
     "Recently used records appear personalized in lookup dialogs based on individual user activity patterns",
     "Feature covers lookups for customers, vendors, items, locations, dimensions, country codes, and payment terms",
@@ -29,7 +29,6 @@
   "features": [
     "Recently Used in Lookups",
     "personalized lookup suggestions",
-    "lookup performance",
     "global search integration"
   ],
   "versions": [

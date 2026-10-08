@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:28:06.778Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Examples of moving off deprecated Business Central features. Covers the North American bank reconciliation and deposits removal, the move from user groups to permission sets or security groups, and the move from legacy views to modern list views.
 
-Path: [Deprecated features](../../deprecated-features.md) > [Application](../application.md) > Examples of how to uptake deprecations · tier official · system none · narrative reviewed by Opus
+Path: [Deprecated features](../../deprecated-features.md) > [Application](../application.md) > Examples of how to uptake deprecations · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

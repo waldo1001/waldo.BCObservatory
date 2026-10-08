@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:55.177Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Business inbox in Outlook covers the Business Central add-in for Outlook: how to get it, how to optimize Outlook for it, how to use it, and how to work with Business Central email without Outlook. It answers deployment, requirement and usage questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up email](../set-up-email.md) > Set up your business inbox in Microsoft Outlook · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up email](../set-up-email.md) > Set up your business inbox in Microsoft Outlook · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

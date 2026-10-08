@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5e9c5f01f71a5d2e830f8e690f799b803507f15be315eab072ea76a89e58e1ef
@@ -65,17 +65,17 @@ item_count: 21
 footprint:
   systems:
     - id: development
-      weight: 22
+      weight: 21
     - id: platform
-      weight: 15
+      weight: 13
     - id: administration
-      weight: 9
-    - id: copilot
       weight: 8
-    - id: reporting
-      weight: 4
+    - id: copilot
+      weight: 6
     - id: integration
-      weight: 3
+      weight: 2
+    - id: reporting
+      weight: 2
   topics:
     - id: al development
       weight: 6
@@ -137,12 +137,12 @@ last_item: "2026-10-08"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (22) | al development (6) | api Business Central API page (1) |
-| platform (15) | cumulative updates (5) | codeunit Agent (1) |
-| administration (9) | community (3) | other PageBackgroundTask (1) |
-| copilot (8) | gamification (3) | other Unit of Measure (1) |
-| reporting (4) | github copilot (3) | page 9110 (1) |
-| integration (3) | learning (3) | page ABC Analysis Setup (1) |
+| development (21) | al development (6) | api Business Central API page (1) |
+| platform (13) | cumulative updates (5) | codeunit Agent (1) |
+| administration (8) | community (3) | other PageBackgroundTask (1) |
+| copilot (6) | gamification (3) | other Unit of Measure (1) |
+| integration (2) | github copilot (3) | page 9110 (1) |
+| reporting (2) | learning (3) | page ABC Analysis Setup (1) |
 |  | release waves (3) | page Agents (1) |
 |  | trivia (3) | page Index Management (1) |
 |  | version management (3) | page Item Ledger Entries (1) |

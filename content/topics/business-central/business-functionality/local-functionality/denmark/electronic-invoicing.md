@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:00.433Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,7 @@ narrative: generated
 
 > Electronic invoicing in the Danish version of Business Central uses the OIOUBL extension to create XML documents in UBL 2.0 format for Danish public sector customers. It answers questions about setup, customer fields (GLN, account code, profile code), and generating invoices, credit memos, reminders and finance charge memos.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

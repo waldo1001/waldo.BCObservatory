@@ -12,14 +12,13 @@ tags:
   - gamification
   - user interface
   - features
-system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:46:11.548Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -39,13 +38,6 @@ evidence:
     commit: null
     t: null
     quote: AI & Copilot improved from being one of the hardest categories last week to 71% correct answers this week.
-  - kind: blog
-    url: https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/
-    title: "Business Central Trivia Recap: September 28–October 2, 2026"
-    date: "2026-10-04"
-    commit: null
-    t: null
-    quote: You can answer using the 1 to 4 keys, and press Enter to move to the next question.
 links:
   learn: []
   objects: []
@@ -66,11 +58,8 @@ words: 442
 quotes:
   - text: AI & Copilot improved from being one of the hardest categories last week to 71% correct answers this week.
     why_it_matters: Shows user familiarity with AI and Copilot capabilities is increasing as a knowledge area
-  - text: You can answer using the 1 to 4 keys, and press Enter to move to the next question.
-    why_it_matters: Demonstrates improved user experience through keyboard shortcuts for faster engagement
 code_objects_mentioned: []
-systems:
-  - copilot
+systems: []
 versions_mentioned: []
 preview:
   embeddable: true
@@ -86,7 +75,7 @@ preview:
 
 # Business Central Trivia Recap: September 28–October 2, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/) · DvlprLife (Brad Prendergast) · 2026-10-04 · 442 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/) · DvlprLife (Brad Prendergast) · 2026-10-04 · 442 words · tier community · reviewed (checked by Opus)
 
 > A recap of the Business Central Trivia event from September 28 to October 2, 2026, highlighting that 61% of answers were correct, performance by category, and new features added to the trivia website including dark mode, notifications, improved stats tracking, and faster gameplay.
 
@@ -101,10 +90,5 @@ preview:
 ## Quotes
 
 - "AI & Copilot improved from being one of the hardest categories last week to 71% correct answers this week." (Shows user familiarity with AI and Copilot capabilities is increasing as a knowledge area)
-- "You can answer using the 1 to 4 keys, and press Enter to move to the next question." (Demonstrates improved user experience through keyboard shortcuts for faster engagement)
-
-## Context
-
-- Features: dark mode, light mode, notifications, Today card, streak tracking, keyboard shortcuts, stats tracking, installable app
 
 Source: DvlprLife, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

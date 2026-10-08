@@ -15,12 +15,12 @@ tags:
   - authentication
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:35.750Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
 
 # New feature in Fkh: A KeyVault and secrets handling
 
-[Read the post](https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling/) · Freddys blog (Freddy Kristiansen) · 2026-08-19 · 1216 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/19/new-feature-in-fkh-keyvault-and-secrets-handling/) · Freddys blog (Freddy Kristiansen) · 2026-08-19 · 1216 words · tier community · reviewed (checked by Opus)
 
 > Fkh now deploys an Azure Key Vault in your own subscription to securely store and manage secrets like admin passwords and API tokens. You can manage secrets through VS Code or CLI commands, reference them in parameters using @secretName@ syntax, and prepare for future integration with AL-Go repositories and container access.
 

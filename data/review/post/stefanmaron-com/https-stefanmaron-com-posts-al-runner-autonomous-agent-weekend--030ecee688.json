@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
+  "input_hash": "6b396f40e5fca645b3cfb3919cf0e22ade7c76d88679fe9fcdcee60b24bf1ae0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:47:00.607Z",
+  "issues": [
+    "The 832 new tests went to the companion BusinessCentral.AL.Language.Tests suite, not AL Runner itself. The summary and key points conflated the two.",
+    "The MaxIteration bug made a report dataitem run 101,001 times. The page said a test executed that many extra times.",
+    "CertificateOfSupplyPartiallyShippedOrder is a test inside an ERM sales documents codeunit, not a codeunit. BaseApp test surface is not an AL object.",
+    "The administration system is not supported.",
+    "The reason given for quote 2 says over 40% of tests are disabled. By the post's figures it is about 39.8%. The quote text itself is accurate."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 2 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043531,
+    "posts_in_call": 4
+  }
+}

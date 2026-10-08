@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:48.575Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -349,7 +349,7 @@ narrative: generated
 
 > Deployment of Business Central on-premises: planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases, and support lifecycle. It answers questions about how to plan, install and secure an on-premises environment, and points to subtopics for web server, database, mobile app, topologies and updates.
 
-Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative reviewed by Opus
+Path: [Business Central on-premises](../business-central-on-premises.md) > Deployment · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

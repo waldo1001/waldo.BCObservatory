@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,7 +62,6 @@ links:
   videos:
     - video/DVgclv3alZU
     - video/fy96_jdL1PQ
-    - video/hSJW3LiOBxg
   posts:
     - post/thinkaboutit-be/7753
   guidelines: []
@@ -76,7 +75,7 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 3
+  video: 2
   blog: 1
   guideline: 0
 bc_forms:
@@ -90,7 +89,7 @@ narrative: generated
 
 > Power BI and Business Central covers how Power BI works with Business Central: built-in Power BI apps, reports and dashboards, KPI metrics and scorecards, and Power BI semantic models in Excel. It answers questions about viewing, refreshing, embedding and analyzing Business Central data in Power BI.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI and Business Central · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [KPIs, dashboards, and financial reports](../kpis-dashboards-and-financial-reports.md) > Power BI and Business Central · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -123,8 +122,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Embedded in Business Central"
-- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports; al development; report embedding"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Dashboards"
 
 ## Business Central pages and reports
 

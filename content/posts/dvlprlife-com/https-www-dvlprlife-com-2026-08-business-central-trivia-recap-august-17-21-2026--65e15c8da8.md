@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-08-business-central-trivia-recap-august-17-21-2026--65e15c8da8
 type: post
 title: "Business Central Trivia Recap: August 17–21, 2026"
-summary: This recap covers a five-day Business Central Trivia event in August 2026 with 250 questions, 2,963 answers, and 67 percent accuracy. It highlights game statistics, the most and least difficult categories, and new features added including sounds, streaks tracking, medals, leaderboard enhancements, and improved mobile experience.
+summary: "Recap of a five-day Business Central trivia round at BusinessCentralTrivia.com: 250 questions, 2,963 answers and 67 percent correct, with participation rising sharply toward Friday. Sustainability, Subscription Billing and Keyboard Shortcuts were the hardest categories. The trivia site also added new game features such as answer sounds, streak statistics and leaderboard medals. These are not Business Central product features."
 tier: community
 language: en
 tags:
@@ -13,14 +13,13 @@ tags:
   - statistics
   - user experience
   - mobile
-system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:06.962Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -61,9 +60,7 @@ quotes:
   - text: Friday had more than twice the answers of Monday. There were many new players during this week.
     why_it_matters: Shows how engagement patterns changed during the week, with growing participation despite typical patterns that usually show declining activity
 code_objects_mentioned: []
-systems:
-  - reporting
-  - platform
+systems: []
 versions_mentioned: []
 preview:
   embeddable: true
@@ -79,22 +76,19 @@ preview:
 
 # Business Central Trivia Recap: August 17–21, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/) · DvlprLife (Brad Prendergast) · 2026-08-22 · 610 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/) · DvlprLife (Brad Prendergast) · 2026-08-22 · 610 words · tier community · reviewed (checked by Opus)
 
-> This recap covers a five-day Business Central Trivia event in August 2026 with 250 questions, 2,963 answers, and 67 percent accuracy. It highlights game statistics, the most and least difficult categories, and new features added including sounds, streaks tracking, medals, leaderboard enhancements, and improved mobile experience.
+> Recap of a five-day Business Central trivia round at BusinessCentralTrivia.com: 250 questions, 2,963 answers and 67 percent correct, with participation rising sharply toward Friday. Sustainability, Subscription Billing and Keyboard Shortcuts were the hardest categories. The trivia site also added new game features such as answer sounds, streak statistics and leaderboard medals. These are not Business Central product features.
 
 ## Key points
 
-- The trivia game had 250 questions across five days with increasing participation, peaking on Friday with 928 answers versus 434 on Monday
-- Sustainability, Subscription Billing, and Keyboard Shortcuts were the hardest categories while Navigation and User Interface, Purchase Management, and Name That Page were easiest
-- New features launched including answer sounds, player statistics and streaks tracking, medals on leaderboard, flair decoration options, and responsive mobile menu improvements
+- Answers per day grew from 434 on Monday to 928 on Friday, and the round had 64 percent more answers than the previous one at similar accuracy
+- Hardest categories: Sustainability, Subscription Billing and Keyboard Shortcuts. Easiest: Navigation and User Interface, Purchase Management and Name That Page
+- The new trivia website features (sounds, personal stats and streaks, medals, podium counts, flair, better phone layout) arrived after this round ended
+- The next round starts on August 24 in the same format with new questions
 
 ## Quotes
 
 - "Friday had more than twice the answers of Monday. There were many new players during this week." (Shows how engagement patterns changed during the week, with growing participation despite typical patterns that usually show declining activity)
-
-## Context
-
-- Features: answer sounds, streak tracking, statistics page, medals on leaderboard, podium counts, player flair, mobile responsive menu
 
 Source: DvlprLife, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

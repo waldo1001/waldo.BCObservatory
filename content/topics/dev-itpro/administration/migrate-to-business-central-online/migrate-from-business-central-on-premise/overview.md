@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.605Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Overview of migrating from Business Central on-premises to online. It covers the end-to-end cloud migration process and its five phases, the Cloud Migration Management page, and the version 14 reimplementation tool for essential data only. Use it to understand the process and choose an approach.
 
-Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Overview · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Migrate to Business Central online](../../migrate-to-business-central-online.md) > [Migrate from Business Central on-premises](../migrate-from-business-central-on-premise.md) > Overview · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

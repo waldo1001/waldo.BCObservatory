@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:03.562Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -321,7 +321,7 @@ narrative: generated
 
 > Italy local functionality in Business Central: VAT, withholding tax, banking and payments, core finance, inventory valuation, fixed assets, and general setup such as company information and Intrastat templates. It answers setup, how-to and reporting questions for Italian compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Italy · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

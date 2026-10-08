@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:42.900Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Core finance for the New Zealand version of Business Central covers local finance functions: calculating distribution amounts, printing statutory balance sheet reports, and printing income statements. It answers questions about NZ-specific financial reporting tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -13,12 +13,12 @@ tags:
   - module management
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:46:31.368Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #81 Keep BCContainerHelper Up to Date
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-09-11 · 122 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-09-11 · 122 words · tier community · reviewed (checked by Opus)
 
 > BCContainerHelper is a PowerShell module for Business Central container workflows. Keeping it updated ensures you get the latest bug fixes and performance improvements that may resolve container issues.
 

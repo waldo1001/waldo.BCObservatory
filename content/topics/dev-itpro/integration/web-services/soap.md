@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.266Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > SOAP web services in Business Central: how to consume them from client applications. It answers questions about converting bookmark keys to record IDs, keeping data when using static proxies, finding company names with SystemService, and handling optional fields.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > SOAP · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > SOAP · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:41.849Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,7 +89,7 @@ narrative: generated
 
 > Technical support management for Business Central covers troubleshooting tools, escalating issues to Microsoft, reporting performance problems, and reporting production outages. It answers questions about gathering diagnostics and about how admins open support requests.
 
-Path: [Administration](../administration.md) > Manage technical support · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../administration.md) > Manage technical support · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

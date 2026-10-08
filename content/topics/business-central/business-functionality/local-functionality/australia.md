@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:29.795Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,7 +284,7 @@ narrative: generated
 
 > Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

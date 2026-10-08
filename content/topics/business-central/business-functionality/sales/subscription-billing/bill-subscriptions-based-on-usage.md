@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,7 @@ narrative: generated
 
 > Usage-based billing in Business Central subscription billing: importing supplier usage data, mapping it to subscriptions, pricing it, and invoicing customers and vendors. It answers questions on data exchange definitions, suppliers, references, subscription linking, pricing options, and rebilling corrections.
 
-Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Bill subscriptions based on usage · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Sales](../../sales.md) > [Subscription billing](../subscription-billing.md) > Bill subscriptions based on usage · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

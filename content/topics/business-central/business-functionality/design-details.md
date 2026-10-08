@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:09.791Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -344,7 +344,7 @@ narrative: generated
 
 > Design details for Business Central explain how complex features work internally: supply planning, inventory costing, warehouse availability, item tracking, general journal posting, dimension set entries and non-deductible VAT. Use it for how-it-works questions about calculation logic, tables and posting behavior.
 
-Path: [Business functionality](../business-functionality.md) > Design details · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Design details · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

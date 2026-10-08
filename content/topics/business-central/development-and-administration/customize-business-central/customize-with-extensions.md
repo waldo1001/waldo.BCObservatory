@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -441,7 +441,7 @@ narrative: generated
 
 > Extensions for Business Central: how to install, uninstall and manage apps, plus individual extensions for migration, payments, banking, insights, forecasting and country-specific needs (UK, DK, EU). Answers what each extension does, how it is set up, and its limits or deprecation status.
 
-Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../../development-and-administration.md) > [Customize Business Central](../customize-business-central.md) > Customize with extensions · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

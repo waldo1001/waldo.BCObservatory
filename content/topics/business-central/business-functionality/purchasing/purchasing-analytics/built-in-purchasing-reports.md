@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:41.840Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,7 @@ narrative: generated
 
 > Built-in purchasing reports in Business Central cover aged payables, vendor balances and trial balances, vendor ledger day books, open purchase orders, purchase history and statistics, item/vendor catalogs, purchase reservation availability, and document layouts such as purchase orders and e-document invoice previews. Use it to find what each report shows, who uses it, and which report fits a given purchasing or payables question.
 
-Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Purchasing](../../purchasing.md) > [Purchasing analytics](../purchasing-analytics.md) > Built-in purchasing reports · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

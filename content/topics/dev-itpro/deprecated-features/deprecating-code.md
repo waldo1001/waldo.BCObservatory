@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:23:13.858Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,7 +64,7 @@ narrative: generated
 
 > Deprecating code in Business Central AL covers how code is marked obsolete and how to handle deprecated language constructs. It answers questions about preprocessor symbols and obsolete attributes, and about the deprecation of explicit and implicit 'with' statements.
 
-Path: [Deprecated features](../deprecated-features.md) > Deprecating code · tier official · system none · narrative reviewed by Opus
+Path: [Deprecated features](../deprecated-features.md) > Deprecating code · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

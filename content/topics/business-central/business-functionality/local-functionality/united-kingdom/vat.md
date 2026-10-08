@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,7 @@ narrative: generated
 
 > United Kingdom VAT functionality in Business Central: Making Tax Digital VAT return submission to HMRC, VAT setup in journals, VAT audit and day book reports, and reverse charge VAT. It answers how-to questions for the British version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [United Kingdom](../united-kingdom.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

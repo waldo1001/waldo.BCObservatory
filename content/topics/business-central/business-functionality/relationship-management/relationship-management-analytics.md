@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -231,7 +231,7 @@ narrative: generated
 
 > Relationship management analytics covers the built-in reports for Business Central relationship management (marketing/CRM). It answers questions about reports for contacts, campaigns, opportunities, sales cycles, segments and questionnaires, plus cover sheets, labels and email merge letters.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Relationship management analytics · tier official · system crm · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Relationship management analytics · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

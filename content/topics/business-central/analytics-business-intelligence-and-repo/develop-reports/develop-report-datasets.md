@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,7 +66,7 @@ narrative: generated
 
 > Report dataset development in Business Central: an overview of building reports with datasets, layouts (Excel, Word, RDL) and request pages, plus performance guidance for AL developers. It answers questions about report structure, layout choices, and tuning AL code, pages, and web services.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · narrative reviewed by Opus
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Develop reports](../develop-reports.md) > Develop report datasets · tier official · system reporting · narrative reviewed (checked by Opus)
 
 ## Overview
 

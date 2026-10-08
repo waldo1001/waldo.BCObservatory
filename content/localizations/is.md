@@ -9,12 +9,12 @@ tags:
   - localization
   - is
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:28:24.750Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -58,13 +58,13 @@ learn_folder: LocalFunctionality/Iceland
 
 > Iceland (IS) localization for Business Central 29 delivered as the IS Core app. It covers IRS number mapping of the chart of accounts, VAT reconciliation and balancing reports, document retention rules for deleting posted invoices and credit memos, and electronic invoicing notification. It answers questions about Icelandic tax authority reporting and local setup.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/iceland.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/iceland.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Iceland layer centres on IS IRS mapping. New tables (IS IRS Groups, IS IRS Numbers, IS IRS Types, with legacy IRS Numbers, IRS Groups and IRS Types tables) and pages let users define tax authority codes. The field "IRS Number" on G/L Account maps posting accounts to them. Learn describes this as the basis for compliant data files and reports for the tax authorities.
+The Iceland layer centres on IS IRS mapping. New tables (IS IRS Groups, IS IRS Numbers, IS IRS Types, plus tables IRS Numbers, IRS Groups and IRS Types) and pages let users define tax authority codes. The field "IRS Number" on G/L Account maps posting accounts to them. Learn describes this as the basis for compliant data files and reports for the tax authorities.
 
-Local reports include IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number and IS IRS notification. Report extensions adjust purchase order, purchase invoice, purchase credit memo and blanket sales order layouts. Sales & Receivables Setup gains "Electronic Invoicing" and "Credit Memo Nos. Paym. Disc." fields, and Learn explains that the IRS Notification report prints the legal statement needed when invoices are printed several times.
+Local reports include IS VAT Reconciliation A, IS VAT Balancing Report, IS IRS Details, IS Trial Balance - IRS Number and IS IRS notification, alongside reports named VAT Reconciliation A, VAT Balancing Report and IRS notification. Report extensions extend the IS Order, IS Purch Credit Memo, IS Purchase Invoice and IS Blanket Sales Order reports. Sales & Receivables Setup gains "Electronic Invoicing" and "Credit Memo Nos. Paym. Disc." fields, and Cust. Ledger Entry gains "Credit Memo Document". Learn explains that when invoices are printed several times, the IRS Notification report is printed from Sales & Receivables Setup with the required legal statements.
 
 The localization is packaged as the IS Core app, with table "IS Core App Setup", codeunits "IS Core Install", "IS Core Upgrade" and "Enable IS Core App", and permission sets. Codeunit "IS Docs Retention Period" with an enum extension supports document deletion rules. Learn documents the migration to the app model from version 24.0 as a one-time manual data migration. Depreciation Book gains "Residual Value %" and "Revalue in Year Purch.".
 

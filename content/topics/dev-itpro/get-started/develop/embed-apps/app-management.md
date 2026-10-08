@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:21:17.236Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,7 @@ narrative: generated
 
 > App Management covers the App Management API and how ISVs use it to manage Business Central app deployments, updates, and customer environments. It answers questions about the API entities, ISV update workflows, and upgrading apps with breaking changes using ForceSync.
 
-Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > App Management · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../../get-started.md) > [Develop](../../develop.md) > [Embed apps](../embed-apps.md) > App Management · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

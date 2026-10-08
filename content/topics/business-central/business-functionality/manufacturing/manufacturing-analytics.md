@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:10.187Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -446,7 +446,7 @@ narrative: generated
 
 > Manufacturing analytics in Business Central covers the Power BI Manufacturing app, built-in production reports, on-screen analysis of work center and machine center load, and obsolete reports that will be removed. It answers which report or KPI shows a given production figure, and how to compare load against capacity.
 
-Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Manufacturing](../manufacturing.md) > Manufacturing analytics · tier official · system manufacturing · narrative reviewed (checked by Opus)
 
 ## Overview
 

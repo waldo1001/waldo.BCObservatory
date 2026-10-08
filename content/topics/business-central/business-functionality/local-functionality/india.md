@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:15.599Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -352,7 +352,7 @@ narrative: generated
 
 > India local functionality in Business Central covers tax and compliance features: GST, TDS, TCS, the Tax Engine, vouchers, fixed asset depreciation, gate entry and subcontracting. It also covers audit trail and edit logs, charge assignment, and stale checks. It answers how to set up, calculate and post these items.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > India · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

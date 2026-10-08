@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15130",
+  "input_hash": "f74bfd8b55a4bd36b5e3e069f54c3c59d033864fb4c57d9c404a261b9827eb40",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:48:09.664Z",
+  "issues": [
+    "The Agents and Copilot section has no listed ideas, so a key point about agent enhancements overstates the content; only a Copilot reconciliation idea appears under finance.",
+    "Version '2026 JUL' is the month of the ideas list, not a product version, but it cannot be removed through the edit fields.",
+    "Objects and quote are referenced in the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.055838,
+    "posts_in_call": 4
+  }
+}

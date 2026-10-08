@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/15923",
+  "input_hash": "3576ff03d341c338adb37e17c4f326b7fc1dd21153c7c1d3de51256c15dda3c1",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:46:25.409Z",
+  "issues": [
+    "Post covers rolling updates for Azure Functions on the Flex Consumption plan and never mentions Business Central.",
+    "Content of the page is otherwise accurate, but the topic is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034507,
+    "posts_in_call": 4
+  }
+}

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:27:11.038Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ narrative: generated
 
 > Dimension set entries in Business Central: how unique combinations of dimension values are stored and referenced by a dimension set ID. It answers questions about the table structure, which tables carry the Dimension Set ID field, and how the tree search finds or assigns a set.
 
-Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Dimension set entries · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Design details](../design-details.md) > Design details: Dimension set entries · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:53.065Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,7 +78,7 @@ narrative: generated
 
 > Microsoft Outlook integration with Business Central: deploying the Outlook add-in, saving Business Central contacts to Outlook and Teams, and setting up email when Outlook is not used. It answers questions about installation options, contact synchronization, and email setup.
 
-Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Outlook · tier official · system crm · narrative reviewed by Opus
+Path: [Integrate with other applications](../../integrate-with-other-applications.md) > [Microsoft Office apps and Microsoft 365](../microsoft-office-apps-and-microsoft-365.md) > Microsoft Outlook · tier official · system crm · narrative reviewed (checked by Opus)
 
 ## Overview
 

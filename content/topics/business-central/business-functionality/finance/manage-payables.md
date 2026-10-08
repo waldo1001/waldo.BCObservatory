@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -446,7 +446,7 @@ narrative: generated
 
 > Managing payables in Business Central: paying vendors, reconciling bank accounts, blocking vendors, handling disputes, payment tolerances, item charges, analytics, and related receivables topics such as collections, SEPA Direct Debit and late payment prediction. It answers how-to and setup questions.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage payables · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage payables · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

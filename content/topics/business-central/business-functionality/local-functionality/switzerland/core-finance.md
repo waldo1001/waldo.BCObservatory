@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:14.133Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,7 @@ narrative: generated
 
 > Core finance for the Swiss version of Business Central covers general ledger balances, Swiss G/L accounts, temporary balance previews in journals, VAT exchange rate adjustment, and the G/L Setup Information report. It answers questions about Swiss-specific general ledger behavior and checks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

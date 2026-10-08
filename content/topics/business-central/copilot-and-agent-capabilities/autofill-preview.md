@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:10.498Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,7 +68,7 @@ narrative: generated
 
 > Autofill with Copilot (preview) in Business Central fills blank editable fields on card and document pages with suggestions that users review. It answers questions about how the feature works, where suggestions come from, and its responsible AI aspects such as permissions, security, and data residency.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Autofill (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 

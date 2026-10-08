@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/freddysblog/https://freddysblog.com/2026/09/15/the-end-justifies-the-means",
+  "input_hash": "5ae92cec65e720a2bc91052dca930e7b691ab576b70ca106a7f962ec84298ada",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-07T23:46:25.409Z",
+  "issues": [
+    "Post is a general essay on AI safety, conscience and human oversight with no Business Central content.",
+    "Out of scope for a Business Central knowledge base."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034507,
+    "posts_in_call": 4
+  }
+}

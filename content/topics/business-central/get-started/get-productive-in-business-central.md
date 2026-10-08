@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T05:20:55.378Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -436,7 +436,7 @@ narrative: generated
 
 > Everyday use of Business Central: navigation and search (Tell Me, Role Explorer), data entry, dates, filtering, notifications, user settings, personalization, reports, document layouts, sharing, Microsoft 365 apps, accessibility, performance and Copilot. It answers how-to questions for end users.
 
-Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Get productive in Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

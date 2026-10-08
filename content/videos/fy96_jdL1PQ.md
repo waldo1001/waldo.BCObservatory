@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:07.413Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:07.511Z"
+  at: "2026-10-07T23:41:05.192Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -71,7 +71,8 @@ links:
   learn: []
   objects:
     - object/table/32
-  features: []
+  features:
+    - feature/573329
   topics: []
   localizations: []
   videos: []
@@ -222,10 +223,12 @@ features:
     verified: false
     status_source: video
   - name: Word Central addin for report layouts
-    status: unclear
+    status: ga
     t: 2817
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573329"
   - name: RDLC phase-out for standard reports
     status: unclear
     t: 2881
@@ -326,8 +329,10 @@ The second half covers reporting. It begins with choosing a tool from the requir
 | Report Object with Multiple Layouts | status not stated | [29:03](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=1743s) |
 | Word report layouts | status not stated | [46:38](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2798s) |
 | Excel report layouts | status not stated | [44:22](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2662s) |
-| Word Central addin for report layouts | status not stated | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |
+| Word Central addin for report layouts | generally available (roadmap [573329](../features/573329.md)) | [46:57](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2817s) |
 | RDLC phase-out for standard reports | status not stated | [48:01](https://www.youtube.com/watch?v=fy96_jdL1PQ&t=2881s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

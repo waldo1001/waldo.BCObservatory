@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:57.591Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,7 +91,7 @@ narrative: generated
 
 > Australian local functionality in Business Central: address handling, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage pricing, and Payment Times Reporting. It answers questions about setting up and using these Australia-specific features.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

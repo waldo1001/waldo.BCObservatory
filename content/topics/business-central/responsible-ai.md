@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:57.470Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,8 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
-    - video/fgWFOMPJd6U
+    - video/lNASlydCidI
+    - video/qP0id91bIlA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -165,7 +166,7 @@ children: []
 coverage:
   learn: 16
   code: 0
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -177,7 +178,7 @@ narrative: generated
 
 > Responsible AI documentation for Business Central: application cards and FAQs for Copilot features and agents. It answers questions about what each AI feature does, its limitations, safety and permission controls, human review, and how to give feedback.
 
-Path: Responsible AI · tier official · system copilot · narrative reviewed by Opus
+Path: Responsible AI · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -220,6 +221,7 @@ There are no subtopics. The pages are standalone and share a similar structure. 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "content safety; data privacy; responsible ai"
-- [Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot](../../videos/fgWFOMPJd6U.md) (video): "Harm testing for AI responses; Accuracy and grounding testing"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../videos/lNASlydCidI.md) (video): "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer on Output Screens"
+- [What's New: Designing Generative AI Experiences (2024 Release Wave 1)](../../videos/qP0id91bIlA.md) (video): "Building user trust in AI features; AI-generated content preview and discard; AI confidence level marking"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

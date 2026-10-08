@@ -7,10 +7,10 @@
   "words": 1200,
   "summary": "This post provides practical PowerShell examples for automating extension management in Business Central using the Administration API, including deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions.",
   "key_points": [
-    "Authenticate with the Business Central Administration API using client credentials to obtain an access token for multipart requests",
-    "Deploy extensions using the pteInstall endpoint with specific parameters like deploymentSchedule, syncMode, languageId, and EULA acceptance",
-    "Poll the operations endpoint after deployment to monitor installation status and detect succeeded, failed, or canceled operations",
-    "Uninstall extensions by checking dependencies first, then calling the uninstall endpoint with parameters for update window, dependents, and data deletion"
+    "Get a bearer token via the client credentials flow and reuse the header for every Administration API call",
+    "Install a .app through the pteInstall endpoint with a multipart form request carrying the file plus deploymentSchedule, syncMode, languageId, acceptIsvEula and dependency options; the upload is limited to 50 MB",
+    "Poll the app operations endpoint to track the deployment until it reports succeeded, failed or canceled, with failures returning an error message",
+    "Before uninstalling, call uninstallRequirements; then post to the uninstall endpoint with update window, dependents and delete-data settings and poll until done"
   ],
   "systems": [
     "integration",

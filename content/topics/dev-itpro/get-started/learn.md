@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:31.898Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ narrative: generated
 
 > The Learn section of Business Central gathers orientation material: an overview of supported business functionality, design details for complex features, CRONUS walkthroughs, Contoso Coffee demo data, and partner resources. It answers what Business Central can do, how some features work internally, and where partners find learning and community support.
 
-Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

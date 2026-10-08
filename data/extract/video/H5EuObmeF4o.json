@@ -131,10 +131,10 @@
     {
       "name": "Advanced Tell Me search",
       "description": "Advanced search functionality in Tell Me that uses AI to find pages and reports. Users can type search terms and get results based on AI-powered search capabilities.",
-      "status": "unclear",
-      "status_evidence_t": null,
-      "status_evidence_quote": null,
-      "status_evidence_verified": false,
+      "status": "preview",
+      "status_evidence_t": 418.9,
+      "status_evidence_quote": "Feature management. And yes, advance. Tell me more. Tell me preview. Uh, let's turn it on here for all users.",
+      "status_evidence_verified": true,
       "t_start": 345.3,
       "t_end": 489.4,
       "is_demoed": true,
@@ -967,9 +967,21 @@
       "check": "exact"
     },
     {
+      "t": 1768.6,
+      "text": "If you enable concurrent inventory posting, it processes lines by type and number.",
+      "why_it_matters": "Supports the key point about concurrent inventory posting sorting lines by type and number to reduce deadlocks.",
+      "check": "exact"
+    },
+    {
       "t": 1828.7,
       "text": "We expand that solution to meet local needs by adding capabilities that include logistic flows that manage contractor transfers.",
       "why_it_matters": "Describes subcontracting and logistics capabilities being added to W1 solution.",
+      "check": "exact"
+    },
+    {
+      "t": 1861.4,
+      "text": "So this is already in the Italian localization and uh it's now this is now included in the W1 solution.",
+      "why_it_matters": "Supports the key point that subcontracting moves from the Italian localization into W1.",
       "check": "exact"
     },
     {

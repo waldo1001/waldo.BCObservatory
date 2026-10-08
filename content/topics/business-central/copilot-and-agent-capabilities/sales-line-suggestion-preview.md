@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.006Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -67,7 +67,7 @@ narrative: generated
 
 > Sales line suggestions with Copilot (preview) covers how Copilot helps users add lines to sales quotes, orders, and invoices from natural language prompts. It answers questions about finding products, finding documents by reference, matching criteria, confidence scoring, and AI limitations and responsible use.
 
-Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales line suggestion (preview) · tier official · system sales · narrative reviewed by Opus
+Path: [Copilot and agent capabilities](../copilot-and-agent-capabilities.md) > Sales line suggestion (preview) · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

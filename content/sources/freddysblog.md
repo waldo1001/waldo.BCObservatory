@@ -8,12 +8,12 @@ language: en
 tags:
   - blog
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-06T23:39:50.809Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 66a7ffb459a5815b1b170d960ba09c154f501c5411fb8a952a9a7c3834773222
@@ -60,9 +60,9 @@ footprint:
     - id: administration
       weight: 5
     - id: copilot
-      weight: 5
+      weight: 4
     - id: integration
-      weight: 3
+      weight: 1
   topics:
     - id: kubernetes
       weight: 4
@@ -103,8 +103,8 @@ last_item: "2026-09-15"
 | development (12) | kubernetes (4) |  |
 | platform (9) | azure (3) |  |
 | administration (5) | fkh (3) |  |
-| copilot (5) | authentication (2) |  |
-| integration (3) | automation (2) |  |
+| copilot (4) | authentication (2) |  |
+| integration (1) | automation (2) |  |
 |  | containers (2) |  |
 |  | cost optimization (2) |  |
 |  | security (2) |  |

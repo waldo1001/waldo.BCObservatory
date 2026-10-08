@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:29.578Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,7 @@ narrative: generated
 
 > Sales opportunity management in Business Central: setting up sales cycles and stages, creating opportunities for contacts and salespeople, processing them to quotes, orders or closure, and logging email exchanges. It answers how-to questions on each step of an opportunity's life.
 
-Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage sales opportunities · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Relationship management](../relationship-management.md) > Manage sales opportunities · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

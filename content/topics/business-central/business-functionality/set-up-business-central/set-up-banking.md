@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:09.100Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,7 +143,7 @@ narrative: generated
 
 > Banking setup in Business Central: bank account cards, bank feeds (Envestnet Yodlee), AMC Banking 365 Fundamentals, SEPA and other payment formats, and check layouts. It answers questions about configuring bank accounts, importing statements, exporting payments, and printing checks.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up banking · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

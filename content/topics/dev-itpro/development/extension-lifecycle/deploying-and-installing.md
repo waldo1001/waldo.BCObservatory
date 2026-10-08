@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,6 +75,7 @@ links:
   localizations: []
   videos:
     - video/px1MOyXfmnQ
+    - video/WU2fLjIQSuU
   posts:
     - post/demiliani-com/12116
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
@@ -91,7 +92,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
+  video: 2
   blog: 2
   guideline: 0
 bc_forms: []
@@ -103,7 +104,7 @@ narrative: generated
 
 > Deploying and installing covers how to publish, synchronize, install, upgrade, unpublish and uninstall Business Central extensions, write install code, and maintain Marketplace apps and per-tenant extensions. It answers questions on extension lifecycle tasks and Marketplace offer submission.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Deploying and installing · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -140,5 +141,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../../posts/demiliani-com/12116.md) (community post): "Old PTE versions are now automatically unpublished in SaaS"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Per-tenant extension deployment has moved to the admin center"
 - [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"
+- [What's New: AL Go for GitHub (2023 release wave 2)](../../../../videos/WU2fLjIQSuU.md) (video): "AL Go for GitHub DevOps solution; Settings configuration types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

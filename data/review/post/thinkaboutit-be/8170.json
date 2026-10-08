@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/8170",
+  "input_hash": "190da0706170e805907293972a962e22d94ee611ac5f0380a9c28448608b7de2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:25.409Z",
+  "issues": [
+    "BCQuality is a code review knowledge base installed as a plugin, not an AL object; removed from objects.",
+    "Summary, key points and quotes match the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034507,
+    "posts_in_call": 4
+  }
+}

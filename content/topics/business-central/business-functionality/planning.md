@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,7 @@ narrative: generated
 
 > Planning in Business Central covers how the planning system balances supply and demand. It answers questions about forecasts, MPS and MRP runs, order-by-order planning, production orders from sales orders, replanning, location effects, and order tracking.
 
-Path: [Business functionality](../business-functionality.md) > Planning · tier official · system inventory · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Planning · tier official · system inventory · narrative reviewed (checked by Opus)
 
 ## Overview
 

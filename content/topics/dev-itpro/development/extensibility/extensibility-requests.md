@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.709Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,7 @@ narrative: generated
 
 > Extensibility requests in Business Central: how to ask Microsoft for changes to the AL codebase through the BCApps repository, how to design and justify new events (including IsHandled events), and how to contribute a change directly. It answers questions about request guidelines, event types, and the IsHandled pattern.
 
-Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extensibility requests · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extensibility](../extensibility.md) > Extensibility requests · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

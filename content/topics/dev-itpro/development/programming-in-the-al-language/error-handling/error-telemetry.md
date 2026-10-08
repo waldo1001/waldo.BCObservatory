@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:48.243Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > Error telemetry in Business Central AL covers how to analyze error-related events in Application Insights: error dialogs from the Error method, permission errors, user votes on error messages, and feature telemetry. It answers questions about event IDs, dimensions, KQL analysis and logging with the Telemetry AL module.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Error handling](../error-handling.md) > Error telemetry · tier official · system platform · narrative reviewed by Opus
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Error handling](../error-handling.md) > Error telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

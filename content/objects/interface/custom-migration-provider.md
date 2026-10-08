@@ -13,12 +13,12 @@ versions:
   last_changed: null
   deprecated: null
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d7d4b66d7c32d490856c645341ebabcf2555b3842fdcb9061bf8e62183029685
@@ -87,16 +87,13 @@ HybridBaseDeployment · Microsoft.DataMigration · BC29-30 · [source at fe31a42
 - `SetupMigrationSetupTableMappings()`: Sets up the migration setup table mappings. These mappings are used to replicate the data during the setup to SaaS, so the on-premise data can be used to configure the migration. It is recommended to move a small subset of the tables that do not contain large amounts of data, otherwise the setup wil...
 - `GetDemoDataType(): Enum "Company Demo Data Type"`: Returns the demo data type that will be used to create the companies in SaaS. Most common types are: "Production - Setup Data Only" - setup data only - this will populate the setup. "Create New - No Data" - empty company. In this case you need to ensure that the setup data is created. This option is...
 
-## Ask your agent
-
-Procedure bodies and the full call graph are not stored here (D10). They are in bc-code-atlas, an external MCP server by Stefan Maron (MIT, not hosted here; default corpus w1-28, W1 of BC28), which the bc-observatory plugin connects:
-
-- `bcatlas_resolve_node(object_type: "interface", object_name: "Custom Migration Provider")`, then `bcatlas_get_neighbors` or `bcatlas_get_procedure_body` on the returned id.
-- CLI: `node bc-code-atlas.js resolve-node interface "Custom Migration Provider"`
-
 ## Across versions
 
 - Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).
+
+## Ask your agent
+
+Procedure bodies are not stored here (D10). For a procedure body or the calls of one procedure, ask bc-code-atlas (external, by Stefan Maron, MIT; default corpus w1-28), which the bc-observatory plugin connects: `bcatlas_resolve_node(object_type: "interface", object_name: "Custom Migration Provider")`, then `bcatlas_get_procedure_body` or `bcatlas_get_neighbors` on the returned id.

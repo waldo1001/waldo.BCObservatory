@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,7 @@ narrative: generated
 
 > Web services security in Business Central covers authentication options (basic, OAuth, service-to-service), certificates, supported cipher suites for outgoing HTTPS calls, and network restriction with Azure service tags. It answers questions on securing OData and SOAP endpoints and API integrations.
 
-Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Web services security · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../../integration.md) > [Web services](../web-services.md) > Web services security · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

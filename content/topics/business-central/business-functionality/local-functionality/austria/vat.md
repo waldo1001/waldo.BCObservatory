@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:45.545Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,7 @@ narrative: generated
 
 > VAT functionality in the Austrian version of Business Central. It covers creating a VAT statement, including temporary 5% rates and FDF export, and VAT reporting through the VAT Statement AT and VAT-VIES Declaration XML reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:56.746Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -380,7 +380,7 @@ narrative: generated
 
 > The Learn section of Business Central getting-started content covers hands-on learning material: process walkthroughs in the CRONUS demo company, Contoso Coffee demo data scenarios, user resources, and a video library. It answers where to learn and practice the product.
 
-Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../get-started.md) > Learn · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

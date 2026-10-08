@@ -324,6 +324,20 @@
         }
       ]
     },
+    "change/al-go/2392": {
+      "kind": "change",
+      "key": "change/al-go/2392",
+      "hash": "0f76685b4c55c240c46b568d7df74f8d44fe9df0af4e3add6d1daeb436368719",
+      "title": "#2392 AL-Go Telemetry Enhancements: repository fork and hosting information",
+      "source": "al-go-prs",
+      "at": "2026-10-07T23:41:42.103Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+          "quote": "AL-Go telemetry now captures whether a repository is a fork and its GitHub hosting type"
+        }
+      ]
+    },
     "change/al-go/2395": {
       "kind": "change",
       "key": "change/al-go/2395",
@@ -8077,6 +8091,15 @@
           "quote": "Fixed a page opening issue caused by the FlowField 'Last Run By User' in Financial Report tables"
         }
       ]
+    },
+    "change/bcapps/12306": {
+      "kind": "change",
+      "key": "change/bcapps/12306",
+      "hash": "68adf94326ceac51a47dc84408fa4cf9fe0fd078460d778907f1b3e8e34d6f7e",
+      "title": "#12306 Warn before releasing a purchase order that was already sent electronically",
+      "source": "bcapps-prs",
+      "at": "2026-10-07T23:41:47.787Z",
+      "matches": []
     },
     "change/bcapps/12307": {
       "kind": "change",
@@ -23698,11 +23721,24 @@
     "video/_JkZCp64jNw": {
       "kind": "video",
       "key": "video/_JkZCp64jNw",
-      "hash": "fdf25ee660f325742609c3c024dc305d5fb78214bf58b5fc400621c0d21da34b",
+      "hash": "6bf4bcdfe15613cb488d0e631f358b2368f5b4ed6b1cf108731ecb23b516fa9c",
       "title": "Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:43.786Z",
-      "matches": []
+      "at": "2026-10-07T23:41:51.557Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
+          "quote": "Sales Order Agent; Sales Order Agent Item Availability Feature"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
+          "quote": "Payables Agent; E-Document Connector; Purchase Document Draft"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/autofill-preview",
+          "quote": "Copilot Autofill; Copilot Summarize; Sustainability Module Expansion"
+        }
+      ]
     },
     "video/_nmA6xJXKiY": {
       "kind": "video",
@@ -23753,14 +23789,14 @@
     "video/-_TaZY2Clh0": {
       "kind": "video",
       "key": "video/-_TaZY2Clh0",
-      "hash": "977e50de67a5e39f3f359af2ef3f1623f305ac492a7ae4b633666ab5f9d80e69",
+      "hash": "be5f6f9a14f026ee9ab66ed40841a900d8fbc33a4a0af8f7769cb0356e43bc45",
       "title": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:18:35.572Z",
+      "at": "2026-10-07T23:41:36.367Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "Concurrency in Business Central: Parallel processes without deadlocks"
+          "quote": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts"
         }
       ]
     },
@@ -24005,16 +24041,11 @@
     "video/1OiiA7SgqBY": {
       "kind": "video",
       "key": "video/1OiiA7SgqBY",
-      "hash": "1cac790b4b5c27e4056b7f1b9f0f996eaea96b55a1fee6b30069a3e503e691e8",
+      "hash": "1b63f18caced0a918971ca84079c591f0e8b81f461ca93d9f4f48161d32d82ff",
       "title": "#BCTalent Stories: SOCITAS",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:20.680Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
-          "quote": "API and AI Model Integration; Business Central Performance and Features"
-        }
-      ]
+      "at": "2026-10-07T23:41:35.910Z",
+      "matches": []
     },
     "video/1QuV_vkbNVU": {
       "kind": "video",
@@ -24065,14 +24096,14 @@
     "video/1xdpUmeun-s": {
       "kind": "video",
       "key": "video/1xdpUmeun-s",
-      "hash": "e2cbbcdd932ec8982566f95409afc0a989a5a35de4c9e0a640b5ae84ae2e148d",
+      "hash": "c66bef90fa3dbacccebc5776302382abb4140df3eeb3c177098b21078d5f89ce",
       "title": "Business Central Under the Hood episode 12: Evolving AL for Performance",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:20.680Z",
+      "at": "2026-10-07T23:41:35.910Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "performance optimization; data transfer; set load fields; read isolation"
+          "quote": "Evolving AL for Performance optimization data transfer set load fields"
         }
       ]
     },
@@ -24111,14 +24142,18 @@
     "video/22duXC6j_No": {
       "kind": "video",
       "key": "video/22duXC6j_No",
-      "hash": "04e93a4f799abb5bd00d417a5c6226cc08ff789211019ebcb206605cd869191b",
+      "hash": "fb96cc4a325b963db81c49c574bda767752e17633afd8f17b2321b746563c05b",
       "title": "Manage all your Apps And Updates in Admin Center for Business Central",
       "source": "yt-hougaard",
-      "at": "2026-10-07T00:19:04.062Z",
+      "at": "2026-10-07T23:41:42.756Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/admin-center",
           "quote": "Manage all your Apps And Updates in Admin Center for Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/automation-api/extension",
+          "quote": "app management; extensions; pte; dependencies; updates; app installation"
         }
       ]
     },
@@ -24153,11 +24188,16 @@
     "video/2L975eUy0nI": {
       "kind": "video",
       "key": "video/2L975eUy0nI",
-      "hash": "d66741b93906ec98551af42c09379f1e7b7d8878ad1185ccecc45ab932d2b3eb",
+      "hash": "1a93902e6de4256672b95df13be8b7d155ffe8c84af51b1dfe7d027d687201ae",
       "title": "BCTalent Stories: Rui from Acadon",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:20.680Z",
-      "matches": []
+      "at": "2026-10-07T23:41:35.910Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development",
+          "quote": "business central consultant erp solutions training programs"
+        }
+      ]
     },
     "video/2N2NhNH7dsk": {
       "kind": "video",
@@ -24180,14 +24220,14 @@
     "video/2nXR8XUpx1Y": {
       "kind": "video",
       "key": "video/2nXR8XUpx1Y",
-      "hash": "7a6471a170f2c8c973c944c020d6e38a293d6fb5ad75b5b1b91088a062206048",
+      "hash": "7677bf86bf0a469c3a3ac17950afa8560d6a66549875328b1a3def83b68a8414",
       "title": "BCTalent Stories: Carcyn & Olivia from Clients First",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:25.643Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/company-hub",
-          "quote": "erp implementation; training; consulting; onboarding"
+          "topic": "topic/business-central/business-functionality/finance",
+          "quote": "career development; talent program; onboarding; work-life balance; erp implementation"
         }
       ]
     },
@@ -24277,18 +24317,14 @@
     "video/3tmaVpPTQLw": {
       "kind": "video",
       "key": "video/3tmaVpPTQLw",
-      "hash": "e34d54d36b583dc7eabd8d464d768a71cda765a7d862856047249b902bc8d458",
+      "hash": "df26f48f7641a60783f03e84e789accae83abcadcac22f2b9c72a874cbb77a5c",
       "title": "What's New: Shopify Connector B2B Functionality (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:07.748Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/online-store-with-shopify",
-          "quote": "Shopify Connector B2B Functionality; B2B on Shopify Platform; B2B Customizable Buying Experience"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "Order Status Synchronization; Order Editing with Refunds; Automatic Credit Memo Creation"
+          "quote": "Shopify connector; b2b; order editing; company synchronization; customer synchronization"
         }
       ]
     },
@@ -24365,14 +24401,18 @@
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "60e8c2bdb81415bce712c16b18914f147d3be71047cefea749bcdbcc14a3444c",
+      "hash": "8c9e29ef5b7142a98d1542e40616e3cb1cc44ce3afceb8b14b8679e0c4b6b9aa",
       "title": "MCP Server and API Queries (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:20.808Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "mcp server; api queries; power bi apps; external agents"
+          "quote": "API queries in MCP server; Analytics API reference documentation"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/web-services/apis/analytics-api-reference",
+          "quote": "Analytics API reference documentation; MCP server configuration"
         }
       ]
     },
@@ -24626,14 +24666,14 @@
     "video/669rJN75L2g": {
       "kind": "video",
       "key": "video/669rJN75L2g",
-      "hash": "28137ad7f7d1cd19d7d71ed6a3fb4b58baec473ff5f1be0069b3fbaea772673c",
+      "hash": "793471f6ca135c09ceeac290cf555027b6c9ecce82cbb890522dd6245bdb4d77",
       "title": "Introducing: Tenant Discovery Endpoint (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:06.076Z",
+      "at": "2026-10-07T23:41:42.756Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/admin-center/admin-center-api",
-          "quote": "Tenant Discovery Endpoint; Manageable Tenants API; S2S App Authentication"
+          "quote": "Tenant Discovery Endpoint; admin center api; manageable tenants; s2s authentication"
         }
       ]
     },
@@ -25010,10 +25050,10 @@
     "video/8hfWClPLSiI": {
       "kind": "video",
       "key": "video/8hfWClPLSiI",
-      "hash": "9fc820082c9038ad6f390f116fe90ba3cf3a6fdc568f0705dedff1c5e25ce397",
+      "hash": "425278bf8b61a6c8d669f2e5298408b33a50b36331df0fed44faa3eea70e94a3",
       "title": "#BCTalent: Because talent is not bought - it's made",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.064Z",
+      "at": "2026-10-07T23:41:56.143Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/human-resources",
@@ -25056,10 +25096,10 @@
     "video/8KMcu4B_eTk": {
       "kind": "video",
       "key": "video/8KMcu4B_eTk",
-      "hash": "290c92d85fa117fc187601d9c0fc7251eabd1d60b6671b48f3a53df9b154ea64",
+      "hash": "d4251ec52f9ff6eba6757b126017d5f3c6aac636bcf580180549cc985dd81e44",
       "title": "What's New: Warehouse Management (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:44.096Z",
+      "at": "2026-10-07T23:41:52.523Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/warehouse-management",
@@ -25067,25 +25107,29 @@
         },
         {
           "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-warehouse-management",
-          "quote": "Put-Away Templates for Bin Assignment; Bin Policy Features for Basic Warehouse"
+          "quote": "Warehouse Configuration Toggles and Drop-Downs; Put-Away Templates for Bin Assignment"
         },
         {
           "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
-          "quote": "Item tracking integration in pick details; Reservation impact on pick quantity"
+          "quote": "Item tracking integration in pick details; Reservation impact on pick quantity adjustment"
         }
       ]
     },
     "video/8t3WaWh7K9Y": {
       "kind": "video",
       "key": "video/8t3WaWh7K9Y",
-      "hash": "a536674c32fb090b244b098c658f3c914947863f06f5202e3602c2890d658d0c",
+      "hash": "e8f3909cb5e825fc4f90a38d3104c3830a53ec10cfb0d95fa476fc663c2b3cd9",
       "title": "What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:17.236Z",
+      "at": "2026-10-07T23:41:35.910Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/development-environment/configure-the-development-environment",
           "quote": "Open In VS Code action on extension management page"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/ready-to-go",
+          "quote": "AL-Go for GitHub repository access"
         }
       ]
     },
@@ -25120,18 +25164,14 @@
     "video/94Lqd7Ap8YQ": {
       "kind": "video",
       "key": "video/94Lqd7Ap8YQ",
-      "hash": "339d05b89d1aab8b084d30fedae276d0a460756d669160b702a28f86d3c15a83",
+      "hash": "5c87bb43bc333edecc7c1aeb3f90db4f19692e718a87db4e81e93ce92b357e78",
       "title": "#BCTalent and AI: A Partner’s Guide",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:24.791Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "ai upskilling; partner enablement; ai power users; generative ai"
-        },
-        {
-          "topic": "topic/dev-itpro/responsible-ai",
-          "quote": "AI Power User Certification Path; Partner Technical Upskilling in AI"
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "AI Functionality Across Microsoft Products; Partner Technical Upskilling"
         }
       ]
     },
@@ -25160,14 +25200,18 @@
     "video/9CW5mydS9Vs": {
       "kind": "video",
       "key": "video/9CW5mydS9Vs",
-      "hash": "d4f045ba1c871392758a52e97eefd2f4a1939714fcf3e65946118165d4bc2817",
+      "hash": "ac90087b90c2ab2e631dbc64abdb1b05391f192c5d1de32bdd464e1a0741263f",
       "title": "Microsoft presents: Tests, dependencies, runners and evals for BC applications",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:19:17.236Z",
+      "at": "2026-10-07T23:41:35.910Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "deterministic testing; propagated dependencies; application test library"
+          "quote": "Tests dependencies runners and evals for BC applications"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "MCP server for test execution AI test runner"
         }
       ]
     },
@@ -25266,42 +25310,46 @@
     "video/9zQZHfXK-PQ": {
       "kind": "video",
       "key": "video/9zQZHfXK-PQ",
-      "hash": "ffc82d21ae5c96e33cd3289fc5ea14d4a7f5d081e2ab5189d71d055f1c71653b",
+      "hash": "237bf08af04827780f58692b791bc8dd45c17e7d418ea9ec02593e7152d02fb3",
       "title": "From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:19:22.473Z",
+      "at": "2026-10-07T23:41:35.910Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
           "quote": "Using GitHub Copilot to Automate Business Central Documentation"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "AI agents with specification context Developer agent with plans"
         }
       ]
     },
     "video/a1LQ3-SCtPE": {
       "kind": "video",
       "key": "video/a1LQ3-SCtPE",
-      "hash": "0f8fe35fa1966648e22e628228d7ea21f07997cfed3551e4ccb074a8d41bf523",
+      "hash": "403ec643854067089bef90e675dded30b367ffe658cca356e0afa2f736ebc33c",
       "title": "What's New: Server and Database - A Faster Data Stack (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:40.229Z",
+      "at": "2026-10-07T23:41:34.196Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
-          "quote": "table extensions companion tables database joins schema redesign"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "performance optimization; on-premises upgrade; database views"
         }
       ]
     },
     "video/a4DaacZvOMM": {
       "kind": "video",
       "key": "video/a4DaacZvOMM",
-      "hash": "77a709308a6c244c60010d4e1ddaec927b9888240f26014c5725c02eebe012e1",
+      "hash": "d1b32f9bbcf37a10e49031dce7ea0d0c7a35d641f7caf3bb243bea79d7a68e00",
       "title": "#BCTalent Stories: Sandlapper",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:01.849Z",
+      "at": "2026-10-07T23:42:04.592Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-dynamics-gp",
-          "quote": "gp to bc migration; certification; partner training; onboarding"
+          "topic": "topic/dev-itpro/administration/onboard-your-customers",
+          "quote": "BC Talent Program; Cross Skills Program; partner training; onboarding"
         }
       ]
     },
@@ -25368,14 +25416,14 @@
     "video/aNRzlbxVPWE": {
       "kind": "video",
       "key": "video/aNRzlbxVPWE",
-      "hash": "9a27a3a1f9ce06bfd1bb9ed7cbcb045bb7a943d53f131c5b4dcf9cd97f5506e8",
+      "hash": "723693d67525e5dfb116b1cae0c31f775abdd98f7021568ebec54d9de5dbd61e",
       "title": "Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:28.352Z",
+      "at": "2026-10-07T23:41:36.828Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "How to Write Agent Evals in AL"
+          "quote": "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
         }
       ]
     },
@@ -25631,28 +25679,28 @@
     "video/BLG85XynogQ": {
       "kind": "video",
       "key": "video/BLG85XynogQ",
-      "hash": "ba57a264a5fbed0f9b1334a63cf8e9a8644f9ea9e8097fe1aad98d4407809150",
+      "hash": "989cd8d4a7cac38ebb167f8b72f16140ac3e4e5cbe5d4dc5bbdb83b55f18dc3d",
       "title": "Mavericks of Business Central: Use your professional background to your advantage",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:23.354Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance",
-          "quote": "Business Central as a product; Domain-specific implementation knowledge"
+          "quote": "career development; consultant skills; domain knowledge; financial background; implementation"
         }
       ]
     },
     "video/BlkW7VC52c0": {
       "kind": "video",
       "key": "video/BlkW7VC52c0",
-      "hash": "6d627690933d68f43d917c1c5fd7e7d6736db986bf91c302dab73de91d027ea9",
+      "hash": "4484634c4f891de574ba7c941f90a52f7e09d613cd9e858cd97b9485701c6284",
       "title": "Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)",
       "source": "yt-bcmusings",
-      "at": "2026-10-07T00:19:06.076Z",
+      "at": "2026-10-07T23:41:42.756Z",
       "matches": [
         {
           "topic": "topic/business-central/development-and-administration/synchronize-master-data-across-companies",
-          "quote": "Master Data Management Setup; Configuration Packages; Custom data copy solution"
+          "quote": "copying data between companies; master data management; company synchronization"
         }
       ]
     },
@@ -25788,18 +25836,18 @@
     "video/c3paEbmDNmM": {
       "kind": "video",
       "key": "video/c3paEbmDNmM",
-      "hash": "62c465525aa76077da01f57c2f11a8efeda283c1b86b3ec3b1f7e05a1eca19cb",
+      "hash": "ce100f0873263910021ddf46cd3ae521a4751c02788a922e7f63879f99fffb41",
       "title": "What's New: Server and Database - New Reporting Capabilities (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:12.018Z",
+      "at": "2026-10-07T23:41:57.951Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
-          "quote": "Data Analysis on Queries; Server-Side Analysis Views on Queries"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets",
+          "quote": "Server-Side Analysis Views on Queries; Excel Layout Multiple Data Sheets"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects",
-          "quote": "Data Analysis on Queries; Server-Side Analysis Views on Queries"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
+          "quote": "Data Analysis on Queries; Analysis views on queries"
         }
       ]
     },
@@ -25820,18 +25868,18 @@
     "video/c91E6IykUnk": {
       "kind": "video",
       "key": "video/c91E6IykUnk",
-      "hash": "d190587c9101718634c7d091177e8cc8e993954aca9f12fe5a864c99e23a0984",
+      "hash": "a818d49af65dee936e850f7fb6518a0e81d8277c5eb969297e16ed93ea5f4e38",
       "title": "Episode 519: The Last Frontier: Can AI Finally Conquer BC Report Layouts?",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:20:33.550Z",
+      "at": "2026-10-07T23:41:51.557Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
           "quote": "AI assistance for RDL report creation; AI assistance for Word layout design"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP integration for telemetry log analysis; Telemetry analysis through MCP"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense management agent; BC quality workflow with agenting"
         }
       ]
     },
@@ -25999,14 +26047,14 @@
     "video/cWVhWBMbXb4": {
       "kind": "video",
       "key": "video/cWVhWBMbXb4",
-      "hash": "e8a0a2e05036490faf70c818e81457bb82308cf13026ff75e09624f1f30ba8cf",
+      "hash": "486e5c7b194b5572d47f2c7d4a3cc341dbabfa0e7b2bd6ed18bdd9012476a3c3",
       "title": "What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:33.550Z",
+      "at": "2026-10-07T23:41:51.557Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview/expense-agent-overview",
-          "quote": "Date-range mileage allowances; Vehicle-type-specific mileage rates; Mileage rate setup table"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Date-range mileage allowances; Vehicle-type-specific mileage rates"
         }
       ]
     },
@@ -26027,22 +26075,18 @@
     "video/D_Lur52IrIg": {
       "kind": "video",
       "key": "video/D_Lur52IrIg",
-      "hash": "e90598720732a4103853b1cdda33b2160c85dcdd5960f6d58e3545749ee1f7fe",
+      "hash": "36591ae34633a8812944d346866bc90be6ab13d988e5d69d9d326389d017da27",
       "title": "What's new in AL and Tools (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:22.882Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/the-al-programming-language",
-          "quote": "al mcp; language server protocol; symbol search; interface design"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Data-driven testing framework; Test handler interface for lifecycle hooks; Static call graph analysis"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "interface design; default implementation; public resources"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "field type migration; big integer; table extension key improvements"
+          "topic": "topic/dev-itpro/integration-with-ai",
+          "quote": "Agent-assisted production investigation; Launch profiling MCP proxy"
         }
       ]
     },
@@ -26117,11 +26161,20 @@
     "video/D7GxnNiGQ14": {
       "kind": "video",
       "key": "video/D7GxnNiGQ14",
-      "hash": "615ea3f739fc8c343174d16774c3f071743b8ba4f849a52f57bc323ea72fdd4b",
+      "hash": "2446d7df83cf29ee51285938b96c550cc21c66580cca965e79a91c7d7a9ec3db",
       "title": "20260223 - If You Can’t Make It Fast, Make It Feel Fast",
       "source": "yt-areopa",
-      "at": "2026-10-07T00:18:36.683Z",
-      "matches": []
+      "at": "2026-10-07T23:41:36.367Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
+          "quote": "background processing; job queue; page background task; task scheduler"
+        },
+        {
+          "topic": "topic/dev-itpro/performance",
+          "quote": "If You Can't Make It Fast, Make It Feel Fast"
+        }
+      ]
     },
     "video/d8SZ81uxj_k": {
       "kind": "video",
@@ -26140,18 +26193,22 @@
     "video/dD_2NEs3A40": {
       "kind": "video",
       "key": "video/dD_2NEs3A40",
-      "hash": "e9f76c61e5aaa0af2f5f9890ae17ff69cec0a65a19e3db7d6c0fe0f82c758a5c",
+      "hash": "97509a263704e5cc049e04ea71a8e25119bca9036cc83ab057b3c48041eeaed9",
       "title": "What's New: Project Management (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:28.757Z",
+      "at": "2026-10-07T23:42:03.276Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/project-management",
-          "quote": "Project Management; terminology change; location code initialization"
+          "quote": "Jobs renamed to Projects; Project details box visible by default"
         },
         {
-          "topic": "topic/business-central/business-functionality/warehouse-management",
-          "quote": "warehouse picks; assembly-to-order; warehouse pick creation"
+          "topic": "topic/business-central/business-functionality/project-management/project-management-analytics",
+          "quote": "Power BI reports in Project list"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/assembly-management",
+          "quote": "Assembly-to-order in projects; Assembly policy setting in projects"
         }
       ]
     },
@@ -26204,11 +26261,16 @@
     "video/DnZJ2iOgIjI": {
       "kind": "video",
       "key": "video/DnZJ2iOgIjI",
-      "hash": "3ced19e132606caa9fee85ebc490c0a9e3e01503b53829aaf0371163f69cd8e7",
+      "hash": "6758b0a631a27f7f4f8d179f03403831e98ccb46ac006a1e0a3fe1df9d4fd01d",
       "title": "What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:06.076Z",
-      "matches": []
+      "at": "2026-10-07T23:41:42.756Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
+          "quote": "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"
+        }
+      ]
     },
     "video/DpYJOkwKxTY": {
       "kind": "video",
@@ -26245,11 +26307,20 @@
     "video/dSPRY1_f1S0": {
       "kind": "video",
       "key": "video/dSPRY1_f1S0",
-      "hash": "757590cbb872203754852c07100f2d95f69079152fd31f8ce93d6bdcbb07c7c9",
+      "hash": "9f256eb9ec657947c0d0e77703697f264bcd70938e64558aebebe8a00cff6905",
       "title": "AL Go for GitHub February Office Hour",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:42.724Z",
-      "matches": []
+      "at": "2026-10-07T23:41:34.196Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "ci/cd pipeline; test apps; online deployment"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+          "quote": "Container Helper Telemetry; AL Go Architecture Transition"
+        }
+      ]
     },
     "video/dUpixjiNaGY": {
       "kind": "video",
@@ -26356,10 +26427,10 @@
     "video/ecYXnXULijI": {
       "kind": "video",
       "key": "video/ecYXnXULijI",
-      "hash": "6b62eb4472ac20477e67d66ae03a8d24c4ad09f30b0800c5642eb7003507d9a5",
+      "hash": "77f07cd581b2d505d86e576e47c41f3bf0b5cb5b6db5d912eabce265f67d7061",
       "title": "Let's Build a Plug & Play Claude Code Setup for AL Development - The Business Central Coding Stream",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T00:19:32.891Z",
+      "at": "2026-10-07T23:41:36.828Z",
       "matches": []
     },
     "video/eDi32pS8eMo": {
@@ -26460,22 +26531,18 @@
     "video/EurgqGU1jG0": {
       "kind": "video",
       "key": "video/EurgqGU1jG0",
-      "hash": "933db56008a98723ba0b53dbcb4668421c01a3da4434999c3fb073609dfd6d8f",
+      "hash": "7830da59d6bac39e46867de1654b3fef220423a288b87da04d5d28c7fcdc720a",
       "title": "20260504 - Super fast tests covering 100% of your code",
       "source": "yt-areopa",
-      "at": "2026-10-07T00:19:22.882Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "automated testing; code coverage; interfaces; test patterns"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "100% code coverage testing pattern; Fast automated testing framework"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "interfaces; context interfaces pattern; environment interfaces"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-apis",
-          "quote": "api integration; api testing without external calls"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/calling-external-services",
+          "quote": "Payment API integration with environment-aware mode switching"
         }
       ]
     },
@@ -26625,22 +26692,14 @@
     "video/fgWFOMPJd6U": {
       "kind": "video",
       "key": "video/fgWFOMPJd6U",
-      "hash": "83f118632607fbc1c814f2eb87721db94469c5127861baa38393c424e6b5ccc1",
+      "hash": "4145b43d1bfe530d2a4b4f894c0d0c285fc438563da5c4676172d07f7511bb4b",
       "title": "Business Central Under the Hood 11: New Data-Driven Copilot Experiences – Summarize with Copilot",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:39.812Z",
+      "at": "2026-10-07T23:41:51.557Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/summarize-preview",
           "quote": "Summarize with Copilot; Multi-Prompt Pipeline for Summarization"
-        },
-        {
-          "topic": "topic/business-central/responsible-ai",
-          "quote": "Harm testing for AI responses; Accuracy and grounding testing"
-        },
-        {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
-          "quote": "telemetry; prompt engineering; ai testing; grounding"
         }
       ]
     },
@@ -26698,18 +26757,18 @@
     "video/Fk6kWTe3f2Y": {
       "kind": "video",
       "key": "video/Fk6kWTe3f2Y",
-      "hash": "2caf959813ff44f36c3b8ae84281f690344d7ce7a045c895d9aa0b081d270b5c",
+      "hash": "7eea5c3af744b64c7f29c3f6cc1d18a79edfaa34f4416fe149e27fdf88b760c2",
       "title": "Deploy Analysis Views with AL Code in Business Central 2026 Wave 1 (No Manual Setup)",
       "source": "yt-bcmusings",
-      "at": "2026-10-07T16:27:28.954Z",
+      "at": "2026-10-07T23:41:57.951Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
-          "quote": "Analysis views packaged in AL extensions; Ad hoc analysis mode"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets",
+          "quote": "Analysis views packaged in AL extensions; Analysis JSON export"
         },
         {
-          "topic": "topic/dev-itpro/development/extensibility/extending-al-objects",
-          "quote": "Analysis views via AL code; Copilot for analysis view suggestions"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
+          "quote": "Ad hoc analysis mode; Analysis view dimensions and pivoting"
         }
       ]
     },
@@ -26748,14 +26807,18 @@
     "video/FUtePZVZLKs": {
       "kind": "video",
       "key": "video/FUtePZVZLKs",
-      "hash": "078eb5a98bd959461a4e0e61eda3134c060dd0282d182f5be589b42a91b83015",
+      "hash": "16e6f3e9905f4118de14e82589d1b3b9069b9dab4a1ea6cea27242dc8b3809fd",
       "title": "AI consuming AI output. #businesscentral #bc #msdyn365bc",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:20:24.461Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "ai output consumption; documentation generation; extension development"
+          "quote": "AI consuming AI output; extension development; ai-driven workflows"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "documentation generation; extension development; business process"
         }
       ]
     },
@@ -26799,22 +26862,22 @@
     "video/fy96_jdL1PQ": {
       "kind": "video",
       "key": "video/fy96_jdL1PQ",
-      "hash": "3f5d41037f4c9efa644b407448b89bcb3dca49dda857614aba962976f58571e0",
+      "hash": "ce55e1f9f19c7b832646ed2058a881b953265e4b34b55a35c2d41b45114d5225",
       "title": "Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:20:12.824Z",
+      "at": "2026-10-07T23:41:57.951Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports",
-          "quote": "reporting capabilities; training strategy; user adoption; learning management"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Multiple report layouts; RDLC reports and layouts"
         },
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "PowerBI integration and reporting; PowerBI Embedded in Business Central"
+          "quote": "PowerBI integration and reporting; PowerBI Dashboards"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "Multiple report layouts; RDLC reports and layouts; Word report layouts"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
+          "quote": "Analysis views on list pages; Report Object with Multiple Layouts"
         }
       ]
     },
@@ -27023,14 +27086,14 @@
     "video/GM0DNxu39LM": {
       "kind": "video",
       "key": "video/GM0DNxu39LM",
-      "hash": "42d05f113bd1409f95c92ebf3d8bf8424c32ee43fe6dbd3d8faba553bf63c52a",
+      "hash": "d59114b7578bea72da6284a18c418a7a2ec4eb338c45221c363f75400e88f4f1",
       "title": "What's New: E-Documents Connectors (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:25.397Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "e-documents; connectors; appsource; electronic invoicing; integration setup"
+          "quote": "E-Documents Connectors; connectors; electronic invoicing; integration setup"
         }
       ]
     },
@@ -27065,24 +27128,24 @@
     "video/gVjrKPHlrgM": {
       "kind": "video",
       "key": "video/gVjrKPHlrgM",
-      "hash": "a7a286bf1048b4745c888e01a3204731669bb73e4a9bb66c0f0a2092cd332e78",
+      "hash": "7fc8b58a46e30cdfbaf236a4978bafe01b01e2c58e744bd541217cda3be04ff8",
       "title": "What's New: E-Documents ZUGFeRD Format (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:25.397Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "e-documents; zugferd; pdf-a3; germany; invoicing; hybrid documents"
+          "quote": "E-Documents ZUGFeRD Format; zugferd; pdf-a3; germany; invoicing"
         }
       ]
     },
     "video/Gwgpj1U1wxI": {
       "kind": "video",
       "key": "video/Gwgpj1U1wxI",
-      "hash": "50dd98e7444813f733b0d39e75babf66f0a6060b20a094648daee9747bbd3126",
+      "hash": "1d6ebcd6042c7fb543d691daae439b2954e2065f049b58486b9a35a63307d7a1",
       "title": "Introduction to Business Central Cloud Migration (2023)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:51.539Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
@@ -27129,18 +27192,14 @@
     "video/H_PHi8pe53w": {
       "kind": "video",
       "key": "video/H_PHi8pe53w",
-      "hash": "c0f7db89c0471435b63f3a334e759922eb76afbab67ec7c410f61c37092780d2",
+      "hash": "23cad78bf30656350f67ce38bd8ae775646a3fd31ffc70c9f946f4e5ea22e46d",
       "title": "Business Central 29 0 Default Implementations in AL Interfaces",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:22.882Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "default implementation for al interfaces; required pending attribute"
-        },
-        {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deprecating-code",
-          "quote": "interface evolution; breaking changes; migration path"
+          "quote": "Default implementation for AL interfaces; Required pending attribute"
         }
       ]
     },
@@ -27183,14 +27242,14 @@
     "video/h6a8BVzvuZ4": {
       "kind": "video",
       "key": "video/h6a8BVzvuZ4",
-      "hash": "7a74efb0824ccfd60e700c526ef97362f72e317692d2868ea8f32ce45d77af40",
+      "hash": "635b7e91d79cff05e60c2319564a8c9211532133ab400a2c76a0738ddcccd2a8",
       "title": "What's New: E-Documents and Clearance Model (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:29.872Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "Clearance model for e-documents; E-document workflow orchestration"
+          "quote": "clearance model; e-documents; regulatory compliance; e-invoicing; workflow"
         }
       ]
     },
@@ -27211,10 +27270,10 @@
     "video/hba7KVWrIwY": {
       "kind": "video",
       "key": "video/hba7KVWrIwY",
-      "hash": "2389299b4fd91b68d67162ebd46a02a8f3ffb7947b7202bc1e0e1444228b196c",
+      "hash": "007813a978c8ec5c107950c56143e916b8c99775fbe8768a4cda6e18942fb1e2",
       "title": "What's New: E-Documents (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:25.397Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
@@ -27225,50 +27284,50 @@
     "video/Hct_HE0KzEc": {
       "kind": "video",
       "key": "video/Hct_HE0KzEc",
-      "hash": "a2ff246ed4f519c2ac5964eea9dd2e23fb288471b91d7e103c4e955c76dcab4c",
+      "hash": "1d52badebaf952ea8ba55a87f7e877b9b229a00b93ff86ce7a3aec5af5c6c697",
       "title": "Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:20:30.459Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Microsoft 365 Copilot Integration; Natural Language Invoice Processing"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/payables-agent",
+          "quote": "Expense Agent; Natural Language Invoice Processing; AI-Enhanced Payables"
         },
         {
           "topic": "topic/business-central/business-functionality/finance/manage-payables",
-          "quote": "Expense Agent; AI-Enhanced Payables Processing; AI-Driven Business Growth"
+          "quote": "Expense Agent; Natural Language Invoice Processing; AI-Enhanced Payables Processing"
         }
       ]
     },
     "video/hcu7T3qLdDA": {
       "kind": "video",
       "key": "video/hcu7T3qLdDA",
-      "hash": "1b0228bd235c3b898d07e1ccfb2c9b436ba5a943ed5a93f8fd4f76d442665fed",
+      "hash": "2c44848e6a0ad64a1891c735e6ddb42cac6b0ec60ad69763ffa68f048e471ce7",
       "title": "What's New: The Danish Bookkeeping Act (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:29.872Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/local-functionality/denmark",
-          "quote": "SAF-T (Standard Audit File - Tax) Export; Public Standard Chart of Accounts"
+          "topic": "topic/business-central/business-functionality/local-functionality/denmark/vat",
+          "quote": "The Danish Bookkeeping Act; SAF-T; certification; audit file export; vat reporting"
         }
       ]
     },
     "video/Hdp4KbbGpQA": {
       "kind": "video",
       "key": "video/Hdp4KbbGpQA",
-      "hash": "63789508dcd6f12b6f67e884e0acb497b7dd60292a49e9c9c7f75114fca7716d",
+      "hash": "95f10bf3fbc3432daab9c16ad4497f63c2be9664d08a673d500cd206843691e3",
       "title": "Business Central Under the Hood episode 15: BC-Bench: How we evaluate AI on AL tasks",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:22.882Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "test generation; code review; code refactoring; feature addition"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Coding agents; AL2 MCP Server; Mini BC Agent; GitHub Copilot"
         },
         {
-          "topic": "topic/business-central/responsible-ai",
-          "quote": "ai evaluation; tool evaluation; claude opus 4.5 performance"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "MCP servers; Tool evaluation; AL code parity with Python"
         }
       ]
     },
@@ -27311,18 +27370,18 @@
     "video/HjsOuhThGKk": {
       "kind": "video",
       "key": "video/HjsOuhThGKk",
-      "hash": "347c1b4f4ed1cf48628d4c787de8907033c4cb10d8a538f6e57f30d42202e5c4",
+      "hash": "c1cc7d0457eea65ee106d982534a9adc44999ef9b297753da54d6e4aace06461",
       "title": "What's New: Summarize with Copilot (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:30.459Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/summarize-preview",
-          "quote": "Summarize with Copilot; Summary fact box; Interactive summary drill-down"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
+          "quote": "Copilot summaries; summary fact box; AI assistant; drill-down"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Summary fact box; Copilot pane; Refresh summary button; Developer influence"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/analysis-assist",
+          "quote": "Summarize with Copilot; Summary fact box; Interactive summary drill-down"
         }
       ]
     },
@@ -27394,32 +27453,28 @@
     "video/HSgTJbyi0a4": {
       "kind": "video",
       "key": "video/HSgTJbyi0a4",
-      "hash": "79bcfb35de5e8e36c36ac1d16e3682c7971bd56a87000450a50cf5e3ef8a52f6",
+      "hash": "4918c4f7dfedcadc1830b2e1961b19d295b8b10c702836aca8fc4055d306ecaf",
       "title": "The Human Aspect of Onboarding",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:06.076Z",
+      "at": "2026-10-07T23:41:42.756Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/onboard-your-customers",
-          "quote": "Onboarding framework; Personalized onboarding experience; Scalable partner onboarding"
+          "quote": "onboarding; user experience; new users; guidance; partner enablement"
         }
       ]
     },
     "video/hSJW3LiOBxg": {
       "kind": "video",
       "key": "video/hSJW3LiOBxg",
-      "hash": "9ab27ec4dbd8974682b573afa170d95dbba14f3529716a04f41dd89c23a6487d",
+      "hash": "eab75c4edf7ef6f02a8c9e3335961cc1c68d0c3b2b7e4b39830f445815b7ecd5",
       "title": "What's New: Power BI and Reporting for Developers (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:12.824Z",
+      "at": "2026-10-07T23:41:57.951Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
-          "quote": "power bi integration; analytical reports; al development; report embedding"
-        },
-        {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "Report visual embedding; Multi-page report support; Excel Layout Multiple Data Sheets"
+          "quote": "Excel Layout Multiple Data Sheets; Power Pivot Relationships in Excel"
         }
       ]
     },
@@ -27462,32 +27517,36 @@
     "video/HYqjpyHZ84Q": {
       "kind": "video",
       "key": "video/HYqjpyHZ84Q",
-      "hash": "d30331dba55a0e4c7a970476294a1fc69a02c8723a07706bbd5a8db9fad387d0",
+      "hash": "d63b2a7ec14c6c59eaafbabe88b51b02ae218098736832c796e2b330e6c9d971",
       "title": "AL-Go for Github March Office Hour",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:22.882Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-          "quote": "al-go; github; ci-cd; incremental builds; deployment to environment"
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "Update AL-Go system files on multiple branches; Incremental builds"
         },
         {
-          "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "al-go; github; ci-cd; al-go settings reference"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "Publish apps from pull requests; GitHub Packages for internal dependencies"
         }
       ]
     },
     "video/i-MTLNYwA9o": {
       "kind": "video",
       "key": "video/i-MTLNYwA9o",
-      "hash": "a55c01abede387bd23452b2096518690fe54e715658d5c02997ed8efe680d4ec",
+      "hash": "c9bbb78f7a24a636437edb18fe6faece444bc921f6b7348d4ed6c28eb39bb0af",
       "title": "What's New in Sustainability: Track Your Energy Consumption (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:58.862Z",
+      "at": "2026-10-07T23:42:03.567Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sustainability-management",
-          "quote": "Track Your Energy Consumption energy tracking esg compliance csrd regulations sustainability"
+          "quote": "Track Your Energy Consumption emissions reporting energy sources kilowatt hours"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sustainability-management/sustainability-value-chain",
+          "quote": "Track Your Energy Consumption csrd regulations sustainability journal"
         }
       ]
     },
@@ -27576,13 +27635,13 @@
     "video/IIdtxatSw7A": {
       "kind": "video",
       "key": "video/IIdtxatSw7A",
-      "hash": "a8a7bce153252502d5abd6bf73b348476f7b2076d69de46284e10783430ef849",
+      "hash": "4abb5f6f2be5f989730de4343db5faf2e33aacf3fe9a86594fa2195daeaa5f23",
       "title": "Business Central Under the Hood episode 10: Hackers Are at the Gate! Business Central & Security.",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:06.702Z",
+      "at": "2026-10-07T23:41:42.756Z",
       "matches": [
         {
-          "topic": "topic/business-central/development-and-administration",
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
           "quote": "security; cyber threats; ransomware; password management; secure by default"
         }
       ]
@@ -27604,14 +27663,14 @@
     "video/ILaWnh0V394": {
       "kind": "video",
       "key": "video/ILaWnh0V394",
-      "hash": "04fc2c10e0efd8a3cd8f5ec8ea26665d834fd38992eb5857c3dc8f42e730d115",
+      "hash": "5270848156b3eccc5211ca8164edba87af22e53863bedee68806ad3a14f548e4",
       "title": "Bridging the talent gap together!",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.064Z",
+      "at": "2026-10-07T23:41:56.143Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/human-resources",
-          "quote": "talent gap; reskilling program; career development; guided learning"
+          "quote": "talent gap; reskilling program; career development; partner recruitment"
         }
       ]
     },
@@ -27802,14 +27861,18 @@
     "video/JI5KlMxrtoA": {
       "kind": "video",
       "key": "video/JI5KlMxrtoA",
-      "hash": "c9955136c24bae2007f011d0ad0253e4f9b13fa0246c4c913d9ac89e323285fb",
+      "hash": "725f5f44ac0d5e00fc013e8f06c75a56d59716768fd28e0b9343069b87f4aa96",
       "title": "How Good Can AL Code Get? — A Live ISO 5055 Review",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T00:19:23.967Z",
+      "at": "2026-10-07T23:41:42.997Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-          "quote": "ISO 5055 code quality assessment; ISO 5055 Quality Scoring System"
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "Code quality; static analysis; al cops; Default Analyzers Configuration"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "Read Isolation and Concurrency Rule; Lock release on variable scope"
         }
       ]
     },
@@ -27830,14 +27893,22 @@
     "video/jJxBswIy_Xw": {
       "kind": "video",
       "key": "video/jJxBswIy_Xw",
-      "hash": "cf74b53e2630abebb26b3d09365fd0ca94c745db5adeff517d0fb9dcc077aabf",
+      "hash": "776866f12639aa4b5b0c52f3f2e23d2ae81a13472d4b2d3058559b2ff6e83ad2",
       "title": "What's New: Subscription Billing (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:02.370Z",
+      "at": "2026-10-07T23:42:04.592Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/sales/subscription-billing",
           "quote": "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/contracts",
+          "quote": "contracts; billing proposals; pricing; automation; usage-based billing; contract management"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/sales/subscription-billing/subscription-billing-analytics",
+          "quote": "Power BI Embedded Reporting; Excel Reports for Subscription Billing"
         }
       ]
     },
@@ -27997,10 +28068,10 @@
     "video/k0pugXY4CEw": {
       "kind": "video",
       "key": "video/k0pugXY4CEw",
-      "hash": "bb205ce1d0b24ad3bb3563752010e925c8097d55e754b6851e5111db695ac0db",
+      "hash": "6ee15e7457671a486fc35f995e5cda1d48dad00ed8d089bab17afc30e61e291d",
       "title": "What's New: IRS1099 Integration with IRIS (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:29.872Z",
+      "at": "2026-10-07T23:41:46.846Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/united-states/tax",
@@ -28039,14 +28110,14 @@
     "video/kAFdLxb2ghc": {
       "kind": "video",
       "key": "video/kAFdLxb2ghc",
-      "hash": "81cea2828e8fdfd3a381af2df8efc5e6d38bba862f98cd5f0b69cc100b333e98",
+      "hash": "7d36cb926b90faade75c645a209b4301d20252045a7ff5f6a9413b6131319026",
       "title": "What's New: E-Documents (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:57.479Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview",
-          "quote": "E-documents core app; Third-party access point integration app; PayPal B3 format"
+          "topic": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
+          "quote": "e-documents; electronic invoicing; purchase order matching; paypal b3 format; peppol format"
         }
       ]
     },
@@ -28071,14 +28142,14 @@
     "video/KbXzMR4n4h8": {
       "kind": "video",
       "key": "video/KbXzMR4n4h8",
-      "hash": "d0760b682733a707c7820f0bf7c4f48ca12c00d6cd08334991b76cc823289b3c",
+      "hash": "e4663268b4886da9de002c74c3853361213dae0e90bb34456455f597f2ab530b",
       "title": "What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:52.524Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/entitlements-and-permissions",
-          "quote": "app monetization; appsource; partner center; commercial marketplace"
+          "topic": "topic/dev-itpro/development/get-started/marketplace-validation",
+          "quote": "app monetization; appsource; partner center; commercial marketplace; isv licensing"
         }
       ]
     },
@@ -28153,14 +28224,18 @@
     "video/KkOr-hX0frQ": {
       "kind": "video",
       "key": "video/KkOr-hX0frQ",
-      "hash": "be6ef94fb8cc35925835aeb4b64c20d7b75377df37d2885917a063cbe09244e5",
+      "hash": "6c01ff62204c2c3e76ab35ae3004a7c38f91848296394c5e4e1d6cafe6140198",
       "title": "How to Migrate Business Central Table Fields from Integer to BigInteger | Version 29 Preview",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:23.967Z",
+      "at": "2026-10-07T23:41:39.412Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/migration",
-          "quote": "field type change; schema synchronization; extension dependency; narrowing conversion"
+          "quote": "Big integer migration; integer overflow; field type change"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "schema synchronization; code cop; destructive change"
         }
       ]
     },
@@ -28389,14 +28464,22 @@
     "video/LerAo-GGl8U": {
       "kind": "video",
       "key": "video/LerAo-GGl8U",
-      "hash": "548f35df2c662f51fec01e32a07f7a8c566a5cb1176f75ccc3948cf4ee20e631",
+      "hash": "b236d99e6c0424802533b04ecdcb2e939120d7ced66db153e431e021401caf52",
       "title": "Microsoft presents: Next level administration skills with the admin MCP server and agents",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:19:06.702Z",
+      "at": "2026-10-07T23:41:43.581Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "mcp server; admin center api; agents; multi-tenant administration"
+          "quote": "admin MCP server and agents. Topics: mcp server; admin center api"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/admin-center",
+          "quote": "Admin MCP Server for Business Central; Multi-Tenant Administration via MCP"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/automation-api/extension",
+          "quote": "Agent tool invocation via MCP; Extension uninstall limitation; Publish extension API limitation"
         }
       ]
     },
@@ -28444,18 +28527,22 @@
     "video/lNASlydCidI": {
       "kind": "video",
       "key": "video/lNASlydCidI",
-      "hash": "664e5142999249dcb533b3487ac9309a6fb5d6c0690480f402fbc1d055e31536",
+      "hash": "22cc3fc62993bd91ff32339836f61eb9daa3ce56ece787d195eb5e1c84dd5888",
       "title": "What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:39.959Z",
+      "at": "2026-10-07T23:41:53.628Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/marketing-text-suggestions",
-          "quote": "Marketing Text Suggestions Built-in Capability"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
+          "quote": "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist",
-          "quote": "Bank Account Reconciliation Assistance Built-in Capability"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central",
+          "quote": "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"
+        },
+        {
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "Responsible AI Principles and Guidelines; AI-generated Content Disclaimer on Output Screens"
         }
       ]
     },
@@ -28485,14 +28572,14 @@
     "video/lpwDSdEJrIQ": {
       "kind": "video",
       "key": "video/lpwDSdEJrIQ",
-      "hash": "011d7ea8b81c3db05cc1318d3cafb84fb057acd0c7b6f968c10ec62d6907c175",
+      "hash": "f360533255881e9e73967165fc93c3de91ecc52e43e1fe4346e4a738e738dc5a",
       "title": "Business Central Under the Hood episode 5: How To Make Your AL Code Super Fast",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:31.616Z",
+      "at": "2026-10-07T23:41:36.828Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "AL code performance; database optimization; sql queries; indexing; caching"
+          "quote": "al code performance; database optimization; sql queries; indexing; caching"
         }
       ]
     },
@@ -28527,28 +28614,23 @@
     "video/LuAHCXiwYn4": {
       "kind": "video",
       "key": "video/LuAHCXiwYn4",
-      "hash": "af657bd8855b1e22192708465d4688851e0deaee33c3141a5b8e283abae5d85a",
+      "hash": "969ab92928e4f8872241509a8add51a54591dd4a46accc84e7c7856b3b2ba869",
       "title": "Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T00:19:23.870Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "claude profiles; agent configuration; mcp server; Per-folder MCP server configuration"
-        }
-      ]
+      "at": "2026-10-07T23:41:39.412Z",
+      "matches": []
     },
     "video/LW2JNV01sJo": {
       "kind": "video",
       "key": "video/LW2JNV01sJo",
-      "hash": "117d53bc891f707fe8acafda37bafa37b26dc43f697adc51f2e2fe192228e59d",
+      "hash": "9390216e8557a4e87f7716f70dbc3a55b28195f6c60cb49334eacce44d3dcfc2",
       "title": "Meet the OptimAL Performance Initiative",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:37.246Z",
+      "at": "2026-10-07T23:41:36.367Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "OptimAL Performance Initiative agent capabilities for performance management"
+          "quote": "Meet the OptimAL Performance Initiative. Agent capabilities for performance management"
         }
       ]
     },
@@ -28583,18 +28665,22 @@
     "video/m8-7-JKq4dc": {
       "kind": "video",
       "key": "video/m8-7-JKq4dc",
-      "hash": "ae912117f04368ef1e9640c216d8c4bbd169c6317c8aef8b72e4d51e53a3641d",
+      "hash": "d3eccb8df84709b5e2f999da9c78d4f95dcb7947496379666c5c8578ad2e002f",
       "title": "Introducing: Quality Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:42.965Z",
+      "at": "2026-10-07T23:42:00.304Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "quality inspection; item tracking; non-compliant items; test results"
+          "quote": "Quality inspection; item tracking; non-compliant items; test results"
         },
         {
-          "topic": "topic/business-central/business-functionality/quality-management/set-up-quality-management",
-          "quote": "Flexible Quality Configuration; Automated Non-Compliant Item Handling"
+          "topic": "topic/business-central/business-functionality/design-details/design-details-item-tracking",
+          "quote": "Item Tracking Preservation in Quality Process; Item Tracking Change in Quality Management"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/general-business-functionality/workflows/use-approval-workflows",
+          "quote": "Quality Inspection Workflow Events; Built-in Quality Management Workflows"
         }
       ]
     },
@@ -28615,14 +28701,14 @@
     "video/mBU2Iu0urw8": {
       "kind": "video",
       "key": "video/mBU2Iu0urw8",
-      "hash": "ef05a2337fd23452c4b732e5c5e2fb8bc96af56ad5bb8603d1a662ddfac84bae",
+      "hash": "6daf15f6e07c3f4da17be96a6bc5410fd96f99816bd497e5a88a8a37c533c505",
       "title": "Microsoft presents: Agentic development with AL developer tools and ALMCP deep dive",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:19:31.616Z",
+      "at": "2026-10-07T23:41:36.828Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "Agentic development with AL developer tools; Agent modes; skills; tools"
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "Agentic development with AL developer tools and ALMCP deep dive"
         }
       ]
     },
@@ -28841,18 +28927,14 @@
     "video/N_J1HB_fUCM": {
       "kind": "video",
       "key": "video/N_J1HB_fUCM",
-      "hash": "121b227778a2e6b86b89a7180c1abf790c7615ff07bea9fd42a9c706049dd38b",
+      "hash": "69e3e46cae7ea3952d10f6df130fd84452d9724082cc95255386995a7767eb44",
       "title": "What's new in Finance: Overview (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:24.834Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-value-added-tax-vat",
-          "quote": "Excise taxes; self-billing; withholding taxes; localization"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/finance/set-up-and-use-e-documents",
-          "quote": "Self-billing PEPPOL format support; Invoicing for France GA"
+          "quote": "excise taxes; self-billing; withholding taxes; peppol; bonded locations; ad valorem; localization"
         }
       ]
     },
@@ -28873,14 +28955,14 @@
     "video/n4qog_IpKqw": {
       "kind": "video",
       "key": "video/n4qog_IpKqw",
-      "hash": "938f4747e10eaaea41a33616d19fe254c6167013aa00583a41ad9d425824522a",
+      "hash": "f72301bdf77cfc11d9bb7d7bf5e5b4ae4a75adb437b4bde9a32f9d12367cbf5c",
       "title": "BCTalent Stories: Navitrans",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:57.253Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
-          "quote": "Business Central adoption; consultant training; professional certification"
+          "topic": "topic/dev-itpro/administration/onboard-your-customers",
+          "quote": "reskilling program; talent recruitment; business central adoption; consultant training"
         }
       ]
     },
@@ -29010,22 +29092,22 @@
     "video/nMiLzdfidos": {
       "kind": "video",
       "key": "video/nMiLzdfidos",
-      "hash": "69ae7624f85965bcc4b51ab102e4a23c5c5050bd5fdb27a97ca7387905da3fc1",
+      "hash": "7aefbb460827884f4cf74f0e505bbd7fb087c60343aba9af5bff6d92abc07a5f",
       "title": "What's New: AL Language (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:37.813Z",
+      "at": "2026-10-07T23:41:42.465Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al",
-          "quote": "namespaces; fully qualified names; symbol downloads; workspace compilation"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "AI-assisted code generation with AL constraints; Iterative prototyping with AI; AI agent feedback loop"
+          "quote": "json support; data transfer; namespaces; fully qualified names"
         },
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "AL MCP server for non-VS Code agents; Automated agentic pipelines with AL MCP; Business Central troubleshooting MCP server"
+          "quote": "AL MCP server for non-VS Code agents; Automated agentic pipelines with AL MCP"
+        },
+        {
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
+          "quote": "Copilot-assisted error debugging; Copilot performance profiling without profiler"
         }
       ]
     },
@@ -29132,14 +29214,18 @@
     "video/NwMLT-k6J6Q": {
       "kind": "video",
       "key": "video/NwMLT-k6J6Q",
-      "hash": "cd7f594bf63b1ec81ebf48372c639a1c5c845f65cbfe0f6eb8395b037e7cf0b7",
+      "hash": "91a7a4ae776903c8b7fac39fc920c47b977945ac0a05bad606a78f3c8afb951d",
       "title": "What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:06.702Z",
+      "at": "2026-10-07T23:41:43.581Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/prepare-business-central",
+          "topic": "topic/dev-itpro/administration/onboard-your-customers",
           "quote": "onboarding; customer journey; personalization; trial experience; questionnaire"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/role-centers",
+          "quote": "Custom role center loading with user context; Welcome banner text customization"
         }
       ]
     },
@@ -29403,14 +29489,22 @@
     "video/p-pwG6f5srY": {
       "kind": "video",
       "key": "video/p-pwG6f5srY",
-      "hash": "bb12f25293e315049122eaa51162065c5a9be2c1ec76515c22c16fb22d522eea",
+      "hash": "596a1bbbef62dee8286808b5175c372bd8a36b741aa322605b708310714f63ed",
       "title": "What's New: Shopify Connector (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:07.315Z",
+      "at": "2026-10-07T23:41:47.787Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-shopify",
-          "quote": "Custom Fields and Meta Fields Support; Translation Synchronization; Customer-Specific Pricing via Catalogs"
+          "quote": "shopify connector; custom fields; meta fields; product synchronization; translations; localization"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/online-store-with-shopify",
+          "quote": "Shopify Connector (2024 release wave 2). Topics: shopify connector"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/manage-payables/apply-payments-automatically-and-reconci",
+          "quote": "Multi-Payment Reconciliation Capability; Suggest Shopify Payments Journal Action"
         }
       ]
     },
@@ -29555,14 +29649,18 @@
     "video/pjML7lXSsd0": {
       "kind": "video",
       "key": "video/pjML7lXSsd0",
-      "hash": "dabf40e8989b7a76eacd5bd2077026cdb65bffeb0d83466082f97e3a57eeba70",
+      "hash": "c7a47765e4f49ac89967267dcccd0b8498f231f06fe2acca8363273eaabb7c3f",
       "title": "Introducing: Expense Management (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:31.136Z",
+      "at": "2026-10-07T23:41:46.846Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/expense-management-preview/work-with-expense-agent",
-          "quote": "Expense agent with AI-driven categorization; Expense collection and itemization; Expense approval workflow"
+          "topic": "topic/business-central/business-functionality/expense-management-preview/understand-expense-agent",
+          "quote": "Expense agent with AI-driven categorization; Expense collection and itemization"
+        },
+        {
+          "topic": "topic/business-central/copilot-and-agent-capabilities/expense-agent-preview",
+          "quote": "Expense agent with AI-driven categorization; Expense collection and itemization"
         }
       ]
     },
@@ -29633,18 +29731,18 @@
     "video/Q-oazDEucLE": {
       "kind": "video",
       "key": "video/Q-oazDEucLE",
-      "hash": "deb511380cb8262d787f26cf53253205961d2cccd57afc9ebd2098fce03c6280",
+      "hash": "d3666c8e7250b9f68d3a03a69f79b9bbace97c01bbc9af51a1dad974fae5bec2",
       "title": "20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL",
       "source": "yt-areopa",
-      "at": "2026-10-07T00:19:31.227Z",
+      "at": "2026-10-07T23:41:39.412Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "AI code generation for legacy AL refactoring; AI Agent for test execution and verification"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
+          "quote": "debug logging via telemetry interception; observational test patterns"
         },
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "Test-driven development with AI agents; Automated path coverage verification; Approval testing"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "ai agents; refactoring; AI code generation for legacy AL"
         }
       ]
     },
@@ -29679,16 +29777,11 @@
     "video/q2Fu_dqn2qo": {
       "kind": "video",
       "key": "video/q2Fu_dqn2qo",
-      "hash": "00484e3b2f096417153c8730500a813f82795bdae2918c280fe2b63378c2c188",
+      "hash": "f39cd4f3f8e386461f897f87e689660d43dccd5736c15c80bff3e90606e591e6",
       "title": "What's New: Enhanced Demo Data (2026 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:15.317Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/sales/subscription-billing",
-          "quote": "Sales Demo Data Enhancements; Subscription Billing Demo Data"
-        }
-      ]
+      "at": "2026-10-07T23:41:57.951Z",
+      "matches": []
     },
     "video/q7ZokiKuhcw": {
       "kind": "video",
@@ -29729,18 +29822,22 @@
     "video/qABlX4AL3GM": {
       "kind": "video",
       "key": "video/qABlX4AL3GM",
-      "hash": "a3c9c8a665686984b22ea355acae3d2f6a9d649aa165ca2bc89d92e140f9c634",
+      "hash": "01f215acc09ce160e84899a9cb7363d7732b52e6d07b941d2810dd6e7c0b38c1",
       "title": "Business Central 29.0: Major Change to Table Extensions & SQL.",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:37.813Z",
+      "at": "2026-10-07T23:41:42.465Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "table extensions; sql storage model; database performance; indexes; data modeling"
+          "topic": "topic/dev-itpro/development/extensibility/extending-al-objects",
+          "quote": "table extensions; sql storage model; database performance; indexes"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+          "quote": "Unified table storage for extensions; Cross-field indexes spanning base and extension tables"
         },
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "Partial record loading with set load field; Avoid direct SQL operations; Compiler warnings"
+          "quote": "Improved database operation performance for extensions; Partial record loading with set load field"
         }
       ]
     },
@@ -29783,18 +29880,22 @@
     "video/QdWPlIV3Avk": {
       "kind": "video",
       "key": "video/QdWPlIV3Avk",
-      "hash": "7efd6599ab101dce8434cce8a0c4777f4e876e99a5bd13db9eac4b8ad46a83ba",
+      "hash": "7622051582348f15cde7b5d44866326c1719777eec852341b4d31916f84a0300",
       "title": "What's new in SCM: Subcontracting (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:09.616Z",
+      "at": "2026-10-07T23:42:00.304Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
           "quote": "Subcontracting extension; Component supply method; Vendor location tracking"
         },
         {
-          "topic": "topic/business-central/business-functionality/warehouse-management/inbound-warehouse-processes",
-          "quote": "Warehouse receipt for subcontracting operations; Inventory put-away for basic warehouse locations"
+          "topic": "topic/business-central/business-functionality/manufacturing",
+          "quote": "production orders; routing; work in progress items"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/warehouse-management",
+          "quote": "Warehouse integration for subcontracting; Warehouse receipt for subcontracting operations"
         }
       ]
     },
@@ -29940,22 +30041,14 @@
     "video/qmLVKyHRhNc": {
       "kind": "video",
       "key": "video/qmLVKyHRhNc",
-      "hash": "6f9706d594523135ffbcfa173930869af0e91d9e2eb505daaf16668756f61014",
+      "hash": "839e3b14a72f88a074221e9f19c1b70a4bc492b42f31e133e9e98f92849486ea",
       "title": "Introducing: Analyze Data on Lists and Queries (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:28.667Z",
+      "at": "2026-10-07T23:41:57.951Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis",
-          "quote": "Analyze data on list pages; Share data analysis; Analysis menu"
-        },
-        {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
-          "quote": "data visualization; pivoting data; grouping and filtering; analysis"
-        },
-        {
-          "topic": "topic/dev-itpro/development/data-analytics-and-reporting",
-          "quote": "AL Queries for analytics; Data sets for Excel layouts"
+          "quote": "Analyze data on list pages; Analyze data on query objects"
         }
       ]
     },
@@ -29976,18 +30069,18 @@
     "video/qP0id91bIlA": {
       "kind": "video",
       "key": "video/qP0id91bIlA",
-      "hash": "fb62994c475fcfc2e813af7e032a4a5206cc9f2c70fd49fa6672d55b5463bec3",
+      "hash": "2955d3db6f4e0f120f783dd27f7b35f5be11e1d91b8bdac9b9a987ea333943b1",
       "title": "What's New: Designing Generative AI Experiences (2024 Release Wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:42.250Z",
+      "at": "2026-10-07T23:41:53.628Z",
       "matches": [
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "Designing Generative AI Experiences; Suggest sales lines with Copilot; Prompt dialogue"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
+          "quote": "Suggest sales lines with Copilot; Output mode regeneration and iteration"
         },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/analysis-assist",
-          "quote": "Analysis assist; Dialogue prompt actions; Sparkle action icon"
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "Building user trust in AI features; AI-generated content preview and discard; AI confidence level marking"
         }
       ]
     },
@@ -30036,34 +30129,25 @@
     "video/QT3RKx9rGJA": {
       "kind": "video",
       "key": "video/QT3RKx9rGJA",
-      "hash": "0994f202bf83e8fdab65d9a15aa500845f9a6eb231be47c4ce0daa62e30b5d0b",
+      "hash": "5bb9cfd46117afd8cd809b7dd933f62ef09a59ba47c62fa90ab171fa9e832104",
       "title": "AL Go for GitHub January Office Hour",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:37.246Z",
+      "at": "2026-10-07T23:41:36.367Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "AL Go for GitHub conditional settings build modes preprocessor symbols versioning strategy"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/handling-security/permission-sets-and-entitlements-overvie",
+          "quote": "Single Sign-On Enforcement; Key Vault Credential Configuration"
         }
       ]
     },
     "video/qwEnuR0vgYo": {
       "kind": "video",
       "key": "video/qwEnuR0vgYo",
-      "hash": "066fa01318a0ca7c168de03ce4010e69eb6829daa8aad169506f225b694502e8",
+      "hash": "9a5b65cceec90ba452a7a7fc7ddcc6525b9801243732871706c0500990817c6b",
       "title": "Business Central 29.0 Is GA: New Environment",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:13.764Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "environment creation; version 29.0 ga; sandbox production setup"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/prepare-business-central",
-          "quote": "Localization Selection in Environment Setup; Version 28 Deprecation"
-        }
-      ]
+      "at": "2026-10-07T23:41:43.581Z",
+      "matches": []
     },
     "video/qYW5wo0fKgA": {
       "kind": "video",
@@ -30082,10 +30166,10 @@
     "video/Qz-V7qvOY-8": {
       "kind": "video",
       "key": "video/Qz-V7qvOY-8",
-      "hash": "d477706174d8662143fbfd65687e0303ca9986f8daab1ccc9476dbe4ea4990b9",
+      "hash": "abbe7b0b3a97d3f570c8b7f027002e6795f95d5e68eeeb8d023b5cdb4ad56b93",
       "title": "What's New: Enhancements in E-Documents (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:25.397Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": []
     },
     "video/qZALauRY_So": {
@@ -30132,27 +30216,27 @@
     "video/R57aHqQRrAA": {
       "kind": "video",
       "key": "video/R57aHqQRrAA",
-      "hash": "d2ef3108f62217e57ab686c29ec88eef816769dd5412b968f2c149e0672c6b5e",
+      "hash": "14c188420f71d4bb92c6e8c5f8b9de8d16133fbde266c9c0daabf94ea2bc083a",
       "title": "What's New: Enhanced Power BI for Purchasing (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:16.754Z",
+      "at": "2026-10-07T23:42:01.887Z",
       "matches": []
     },
     "video/r8HWIk5E0c0": {
       "kind": "video",
       "key": "video/r8HWIk5E0c0",
-      "hash": "a10c554c383da4dc392b739d295ecc62877378f4cc3787afa70d91ab66c2a992",
+      "hash": "7f7fac271f211510d838770966895a5caa786c8181fce83ff150277372ce6372",
       "title": "Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:31.543Z",
+      "at": "2026-10-07T23:41:46.846Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene",
-          "quote": "Reverse journal entry; Correct dimension in Business Central"
+          "quote": "Reverse journal entry in Business Central; Correct dimension in Business Central"
         },
         {
           "topic": "topic/business-central/business-functionality/finance/working-with-dimensions",
-          "quote": "Correct dimension in Business Central; Change dimension process"
+          "quote": "Correct dimension in Business Central"
         }
       ]
     },
@@ -30299,38 +30383,25 @@
     "video/rm-FstU_I80": {
       "kind": "video",
       "key": "video/rm-FstU_I80",
-      "hash": "a63fc0878c85f4f64cb175f2d7cd89cebb0fd08424e019090a438c19f7d8b511",
+      "hash": "962fde5b3001908cf3854b56210c0469ca996c54d3ec4f92c6de4593ac93616c",
       "title": "20260831 - Business Central MCP Server, standard and custom",
       "source": "yt-areopa",
-      "at": "2026-10-07T00:20:42.250Z",
+      "at": "2026-10-07T23:41:53.628Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "Model Context Protocol; mcp server; Business Central MCP Server; MCP Server Configuration"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
-          "quote": "MCP Server Connection in Copilot Studio; Copilot Agent Query Execution; MCP integration"
+          "quote": "Model Context Protocol (MCP); MCP Server Standard for Business Central; MCP integration with VS Code"
         }
       ]
     },
     "video/rmPtE94fby0": {
       "kind": "video",
       "key": "video/rmPtE94fby0",
-      "hash": "8c40ace516daa1826d923dae4824073ad26bd1331affef63800468dc506edadd",
+      "hash": "daf6574a263cede6542674143662d89109d49cf288184838f91982abd99028a5",
       "title": "BCTalent Stories: Ciellos",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:35.644Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "Copilot and AI skills in Business Central"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/sales",
-          "quote": "career transition; consulting skills; ai and copilot; soft skills; business processes"
-        }
-      ]
+      "at": "2026-10-07T23:41:42.465Z",
+      "matches": []
     },
     "video/RNR4wsFeedI": {
       "kind": "video",
@@ -30446,18 +30517,14 @@
     "video/S5Xw-b8YF-c": {
       "kind": "video",
       "key": "video/S5Xw-b8YF-c",
-      "hash": "41129dc2cb16a1c083581168a80f570cadf436b75b9d1c5a7283618a5fdfac02",
+      "hash": "69eda94122de186e13d292ff8bd3e61537dd5dbb04a90fe9386d4b67e1c4e591",
       "title": "What's New: APIs in E-Documents (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:05.161Z",
+      "at": "2026-10-07T23:41:48.901Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration/web-services",
+          "topic": "topic/business-central/copilot-and-agent-capabilities/map-e-documents-preview",
           "quote": "E-Documents APIs; E-Document Business Events; Create E-Document from External Sources"
-        },
-        {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
-          "quote": "Custom Agents with Copilot Studio Integration"
         }
       ]
     },
@@ -30550,11 +30617,16 @@
     "video/sIWz2yPqLpo": {
       "kind": "video",
       "key": "video/sIWz2yPqLpo",
-      "hash": "441f1c6059ba1fde007e98d963343b04bbe5f542925d91b6e910fcf18d2feec5",
+      "hash": "d805929335ea34af6a006c271218c5bb286cdbbd68c7d5cc51e00a8163a65d6b",
       "title": "Business Central BC29: Control Global Symbol Versions",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:36.636Z",
-      "matches": []
+      "at": "2026-10-07T23:41:42.465Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "Global Symbol Download; Global Source Enforce Minor Version"
+        }
+      ]
     },
     "video/sk5CaXnvvng": {
       "kind": "video",
@@ -30573,22 +30645,14 @@
     "video/snVsG69X-kw": {
       "kind": "video",
       "key": "video/snVsG69X-kw",
-      "hash": "26bcea0e4c702d48e5d03fe653a6f74e4a96531f87e6da700c7f7ac2213b9712",
+      "hash": "1c3282dc49e0c614a2ca238d5ad48059eda53167318a9d120544b11cb0b11004",
       "title": "Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:45.372Z",
+      "at": "2026-10-07T23:41:34.196Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "Load Balancing; VM scaling; Automatic VM Scale-Out; Database Scaling and Monitoring"
-        },
-        {
           "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler",
-          "quote": "In-client performance profiler; Performance toolkit; Telemetry and performance logging"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
-          "quote": "Application insights telemetry; Database lock space monitoring; Telemetry and performance logging"
+          "quote": "In-client performance profiler; Database locks page"
         }
       ]
     },
@@ -30722,14 +30786,14 @@
     "video/T63y0F_38SI": {
       "kind": "video",
       "key": "video/T63y0F_38SI",
-      "hash": "7e665302140f3239212684bdf044b8b1d74f8c07bc8aeddc14ffc2b298f5caea",
+      "hash": "eca68a6cc125cc5d9c2f3d5527b2a7e9b6c8e9daf30d26ecf692d8bcb81cc54c",
       "title": "Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:31.116Z",
+      "at": "2026-10-07T23:41:51.811Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-automat",
-          "quote": "Create Power Automate Flows with Copilot; power automate; copilot; flow creation"
+          "quote": "Create Power Automate Flows with Copilot; natural language; automation"
         }
       ]
     },
@@ -30750,10 +30814,10 @@
     "video/tCmDKBszA1w": {
       "kind": "video",
       "key": "video/tCmDKBszA1w",
-      "hash": "877f1cab49f4542004a9901693f22d66c54b07dd0e17d08056bdf2b551e4af4c",
+      "hash": "d84c69b9f8014aab652ddf785156c7cade867fb9fdfcba38170b85832870ea99",
       "title": "What's New: E-Invoicing (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.487Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": []
     },
     "video/tDcT_51ktqo": {
@@ -30781,10 +30845,10 @@
     "video/TH70oJI4Ae0": {
       "kind": "video",
       "key": "video/TH70oJI4Ae0",
-      "hash": "860639755309cb83572e87033c331d68804f680509cd8f446a29f59705ad7676",
+      "hash": "e637e4dc0d1e6db2ad1ade9c02fbf603c32ece7270b73ee79d9a51f8c8fe919b",
       "title": "Business Central 29: How Many Fields Can a Table Really Have?",
       "source": "yt-saurav",
-      "at": "2026-10-07T00:19:27.398Z",
+      "at": "2026-10-07T23:41:39.412Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
@@ -30831,14 +30895,18 @@
     "video/tjHDcjwsOIE": {
       "kind": "video",
       "key": "video/tjHDcjwsOIE",
-      "hash": "37185b12548a75cc92ed15a4f79eb73de986e66b667de9b21be6ff202d3ba895",
+      "hash": "a1e5529d7ce91c6653b7b95dddc4e81af469a13c97d28e28686b4f6f1228bc18",
       "title": "What's New: Going Open Source with the New GitHub Repository for Business Central (2024 release w 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:36.636Z",
+      "at": "2026-10-07T23:41:42.465Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "github repository; open source; community contributions; al-go"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Pull request testing phase; GitHub PR debugging with file changes view"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/updating-and-hotfixing",
+          "quote": "BC apps GitHub repository; Community contribution to BC 240"
         }
       ]
     },
@@ -30854,11 +30922,20 @@
     "video/tMqCSibSRug": {
       "kind": "video",
       "key": "video/tMqCSibSRug",
-      "hash": "227a7c592dd21f9abbc7ea2da1c991df040fb8dfb79d390a41f471506ad8468d",
+      "hash": "bea35e2233934e97be9f8844b9b977da15ef7d676386d0f42cdfdc6baecbbfc9",
       "title": "ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T00:19:36.636Z",
-      "matches": []
+      "at": "2026-10-07T23:41:42.465Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
+          "quote": "ALCops; lintercop; code analysis; code cops; al language"
+        },
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
+          "quote": "ALCops MCP server; ALCops MCP quick fix automation"
+        }
+      ]
     },
     "video/tP-0VcN7fcU": {
       "kind": "video",
@@ -30899,14 +30976,14 @@
     "video/trjbhZvZTCY": {
       "kind": "video",
       "key": "video/trjbhZvZTCY",
-      "hash": "4a3dd33a43fd4d2af3cf1bfeb206914aa0f070c66590b00de5f45f813a1b8f3d",
+      "hash": "1cceeb45743283d476cdf28533db71777e9b7ef512bee17c1f72f974edd941a0",
       "title": "#BCTalent in EMEA: Bridging The Talent Gap Together",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.519Z",
+      "at": "2026-10-07T23:41:56.143Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/human-resources",
-          "quote": "talent development; workforce training; ai skills; retention"
+          "quote": "talent development; workforce training; retention; team upskilling"
         }
       ]
     },
@@ -30936,36 +31013,32 @@
     "video/Ty6ZvzJYAvI": {
       "kind": "video",
       "key": "video/Ty6ZvzJYAvI",
-      "hash": "63cc21ac92c565f8af04b07cbc158d80f59c75ee0b51d633d298ab7e1c540225",
+      "hash": "aafd669edabe818ce620ba619bcbde19a6f0c677cd8a41a83a34b2e26fbe8986",
       "title": "Episode 521: 50 Developers, Zero Playbook: The Leadership Conversation Nobody's Having",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:19:27.398Z",
+      "at": "2026-10-07T23:41:39.412Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Custom agents and orchestration; Custom agents for Business Central"
+          "quote": "Custom agents for Business Central; AI-assisted code optimization"
         },
         {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
-          "quote": "AI agents for administration; Telemetry component in administration"
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "Responsible AI model usage by developer experience level"
         }
       ]
     },
     "video/TY82NR2hGEg": {
       "kind": "video",
       "key": "video/TY82NR2hGEg",
-      "hash": "02ec75f15083ef2c8d2a6b60a358f5ddd2167dcd72a39015b1e016a175f2e711",
+      "hash": "31d7fca459bb618e474ae87b9c688cc2edca581ca1af6b486c6ca24d80a1c4f8",
       "title": "What's New: Business Central Developer Tools (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:27.398Z",
+      "at": "2026-10-07T23:41:39.412Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/namespaces-in-al",
-          "quote": "Namespaces in AL language; Using directives for namespace imports"
-        },
-        {
           "topic": "topic/dev-itpro/development/development-environment/configure-the-development-environment",
-          "quote": "AL language extension for Linux; DevOps syntax highlighting"
+          "quote": "AL language extension; Linux support; namespaces; using directives"
         }
       ]
     },
@@ -31040,14 +31113,14 @@
     "video/uCJ48biqLf8": {
       "kind": "video",
       "key": "video/uCJ48biqLf8",
-      "hash": "58512d0077699cbf6fe6ffee25c127dcf5056ad723b69794bbb597e0282fe163",
+      "hash": "685c0d748f1c5459d7d022f1acf8d77719e50a5ba97db41b10d06a819fe56249",
       "title": "FieldExist() and Field() get a text overload",
       "source": "yt-bcmusings",
-      "at": "2026-10-07T00:19:36.636Z",
+      "at": "2026-10-07T23:41:42.103Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
-          "quote": "FieldExist() text overload; Field() text overload; Accessing table extension fields"
+          "quote": "FieldExist() and Field() get a text overload"
         }
       ]
     },
@@ -31072,18 +31145,14 @@
     "video/Ug_uM59DRRE": {
       "kind": "video",
       "key": "video/Ug_uM59DRRE",
-      "hash": "2c9736cd17183148dcaafde0d973658d35415a808c193ee75d889f29ce57592f",
+      "hash": "a7aa2fe4a68cb3d287ef89b74e1d9336a7b17ff4a9abeb16c437185c9735659f",
       "title": "Demo or Disaster? How to build better Business Central demos?",
       "source": "yt-areopa",
-      "at": "2026-10-07T00:19:30.551Z",
+      "at": "2026-10-07T23:41:36.828Z",
       "matches": [
         {
           "topic": "topic/business-central/get-started/learn/contoso-coffee-demo-data/manufacturing",
           "quote": "Contoso Coffee demo data framework; Demo data module codeunit pattern"
-        },
-        {
-          "topic": "topic/dev-itpro/development/get-started/ready-to-go",
-          "quote": "Demo Data Generator Tool; Kontoso Framework; open source"
         }
       ]
     },
@@ -31187,18 +31256,22 @@
     "video/uMKLsKfKPc0": {
       "kind": "video",
       "key": "video/uMKLsKfKPc0",
-      "hash": "fd042e601c21baeabb90ab515e26edc8b2a78d1d0f246323e21c06324f6af00c",
+      "hash": "425b083f618c97723ee3a24c6a2bf1732afee3150f790f8196c9c118d60e544c",
       "title": "Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:20:42.148Z",
+      "at": "2026-10-07T23:41:53.628Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
+          "quote": "Copilot Studio; agents; agent builder; Declarative Agent Manifest"
         },
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP Connector; MCP server connection for Business Central"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi",
+          "quote": "MCP server connection for Business Central; Power Automate connectors in Copilot Studio"
+        },
+        {
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "Agent security warnings and lifecycle management; Agent analytics and session reporting"
         }
       ]
     },
@@ -31395,11 +31468,16 @@
     "video/vDGrVHQHLA0": {
       "kind": "video",
       "key": "video/vDGrVHQHLA0",
-      "hash": "b9bb1f9feb95a0c9b3de239bfcd1a9271af662dd92b01529a53112d3b5094658",
+      "hash": "b3e2229e41042fc81c112104a1e48e3ca44fd6534dfa76cd7e0bd0388cc8a960",
       "title": "AL-Go for Github May Office Hour",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:37.381Z",
-      "matches": []
+      "at": "2026-10-07T23:41:42.103Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "Input Validation for Workflows; AL-Go Settings Schema Property; Fail Pull Requests on New Warnings"
+        }
+      ]
     },
     "video/VEVo5LgCGfw": {
       "kind": "video",
@@ -31487,18 +31565,18 @@
     "video/Vo5DgXnKiPo": {
       "kind": "video",
       "key": "video/Vo5DgXnKiPo",
-      "hash": "5aa0f9d18b2905187e84440ccd38098933f4369c268e7458396491536a5217a5",
+      "hash": "31288a887c17b642df2cbc6593234e9c9eb2786ae8938977f8d7b61065dbbda3",
       "title": "Microsoft presents: Large scale development with AL-Go",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:18:38.451Z",
+      "at": "2026-10-07T23:41:36.367Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-          "quote": "al-go; devops; large-scale development; custom templates"
+          "topic": "topic/dev-itpro/development/get-started",
+          "quote": "Large scale development with AL-Go. devops; large-scale development"
         },
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry",
-          "quote": "telemetry; application insights; AL-Go telemetry module"
+          "quote": "AL-Go telemetry module; Partner telemetry connection string setting"
         }
       ]
     },
@@ -31708,24 +31786,11 @@
     "video/WACQbAEVOJg": {
       "kind": "video",
       "key": "video/WACQbAEVOJg",
-      "hash": "f558590b80a3fec2549eb76fcc3008821545a1a2a89ed67357a3ce2298dcf565",
+      "hash": "a18faea17de8e3f9eb075b7e7dd2a5863a7efc8dbdca1c8ffa2f1a7e546f2be8",
       "title": "What's new in SCM: Overview (2026 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T16:27:44.044Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/business-functionality/manufacturing/subcontracting",
-          "quote": "Subcontracting comments and attachments on purchase lines; Inventory put-away for subcontracted operations"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/warehouse-management",
-          "quote": "Inventory put-away; machine center calendar; in-transit locations; Quality inspection blocking transfers"
-        },
-        {
-          "topic": "topic/business-central/business-functionality/quality-management",
-          "quote": "quality management; routing; Quality inspection blocking transfers; Quality inspection auto-assignment recommendation"
-        }
-      ]
+      "at": "2026-10-07T23:42:00.304Z",
+      "matches": []
     },
     "video/Wc8WlLZUCJc": {
       "kind": "video",
@@ -31739,14 +31804,14 @@
     "video/weDf53bJOL4": {
       "kind": "video",
       "key": "video/weDf53bJOL4",
-      "hash": "9937399a555209e6249bec9c2801c2580254c2ec77d56f2514c8039581861cd2",
+      "hash": "b1e526618a483d0cb72bb1066d1822ed32be27541332918ff33dc07493350b8e",
       "title": "What's New in AL: Go for GitHub (2024 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:41.849Z",
+      "at": "2026-10-07T23:41:42.103Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "GitHub actions; security; federated credentials; managed identity; nuget support"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "GitHub actions referenced by commit SHA; Pre-commit for file consistency; Federated credentials and managed identities"
         }
       ]
     },
@@ -31767,28 +31832,28 @@
     "video/whtP2i7zeso": {
       "kind": "video",
       "key": "video/whtP2i7zeso",
-      "hash": "7ab913487adc8d232516f0ed40f9f8ba0057fc998cbc93fbeac7d427083cd3a5",
+      "hash": "e8bbd1a21b484a84381d4e5a2adccb30740f9bc7fa044462294814e7006f1bc6",
       "title": "What's New: Enhancements in Intrastat (2025 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.487Z",
+      "at": "2026-10-07T23:41:57.639Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/finance/multi-site-and-international-organizatio",
-          "quote": "Mandatory fields for Intrastat documents; Multiple VAT numbers support for Intrastat"
+          "quote": "Intrastat; mandatory fields; vat numbers; regulatory compliance; intercompany reporting"
         }
       ]
     },
     "video/WI_3mjpQ2JU": {
       "kind": "video",
       "key": "video/WI_3mjpQ2JU",
-      "hash": "543bd0771a4d0b7b3f6ce9a6cc6f19115d02f59de282311e567f71b64489590a",
+      "hash": "ea04c7dc3d75031c1cd7fb0560f02d42640ab7191ea41bfa2e0cc75b6b8110b8",
       "title": "What's New: Automated IRS1099 Reporting (2024 release wave 1)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:23.568Z",
+      "at": "2026-10-07T23:41:45.367Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/local-functionality/united-states/tax",
-          "quote": "1099 reporting; irs integration; us tax forms; vendor setup; electronic filing"
+          "quote": "Automated IRS1099 Reporting; 1099 reporting; irs integration; us tax forms; vendor setup"
         }
       ]
     },
@@ -31804,11 +31869,16 @@
     "video/WjFx9yYf1js": {
       "kind": "video",
       "key": "video/WjFx9yYf1js",
-      "hash": "80d7a672dfd687f96fbf60e98da297170dbd0caebb8e192bbfe93f43fc14d635",
+      "hash": "0ee39c076cacf31e91517235b6a96caecc0931dd3c26a5c25b41fff512a3c8a1",
       "title": "Vibe Coding Risks in Business Central. #businesscentral #bc #podcast",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:19:30.551Z",
-      "matches": []
+      "at": "2026-10-07T23:41:36.828Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
+          "quote": "coding risks; extensions; personal tools; risk surface; posting routines"
+        }
+      ]
     },
     "video/WL3m2dffwU8": {
       "kind": "video",
@@ -32009,28 +32079,28 @@
     "video/XcQFvNnKpxk": {
       "kind": "video",
       "key": "video/XcQFvNnKpxk",
-      "hash": "3410aee892557b168926e752030ef57ad948b01fbcc89e50688e326696899815",
+      "hash": "aa28fe452fb0577a953dd90d20ede44b939ce1beee10c55fe37d2ab05869a041",
       "title": "What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:18:40.229Z",
+      "at": "2026-10-07T23:41:36.367Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "performance testing before go-live with performance toolkit concurrency testing"
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-with-telemetry",
+          "quote": "Telemetry analysis; concurrency testing; deadlock detection"
         }
       ]
     },
     "video/xez5m71_Yig": {
       "kind": "video",
       "key": "video/xez5m71_Yig",
-      "hash": "510d2e1e5be9042b47244bcf00fce9f3915ef52007918fc9709ef0a42e9bfc9e",
+      "hash": "9d71597ec99462b303687dfb6292d5a539f18abd3711a3d52bfdc9b571d95812",
       "title": "#BCTalent in North America: Bridging the Talent Gap Together",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.519Z",
+      "at": "2026-10-07T23:41:56.143Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/human-resources",
-          "quote": "talent acquisition; training programs; coaching; retention"
+          "quote": "talent acquisition; training programs; coaching; partner engagement; retention"
         }
       ]
     },
@@ -32111,14 +32181,14 @@
     "video/xk3JFul0HfM": {
       "kind": "video",
       "key": "video/xk3JFul0HfM",
-      "hash": "99daecf164ef93962bcb3054d614e144ffcf7de3804118b61afcf630e03b4130",
+      "hash": "2e6b55c4171d97aec8302d8affcac34da98c9096a3d27c3f85932276ef3c0af8",
       "title": "Mike Morton on the Business Central talent gap",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.519Z",
+      "at": "2026-10-07T23:41:56.143Z",
       "matches": [
         {
           "topic": "topic/business-central/business-functionality/human-resources",
-          "quote": "talent development; workforce expansion; reskill program; partner training"
+          "quote": "talent development; workforce expansion; reskill program; partner training; talent retention"
         }
       ]
     },
@@ -32212,14 +32282,14 @@
     "video/xWOddQt1GUM": {
       "kind": "video",
       "key": "video/xWOddQt1GUM",
-      "hash": "9fdafdd113c30e1dd946b98c78d1c98aa3928f84bdb8aaaaf6b43a1b1bdf59f7",
+      "hash": "65b45d5eaae59ef64cce01f1f952af4b17ec1dd44375fca327c533d18059a6bc",
       "title": "Episode 515: Stop Coding, Start Architecting: How AI Is Reshaping the BC Developer Role",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:19:41.849Z",
+      "at": "2026-10-07T23:41:42.103Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/testing",
-          "quote": "AI-generated test creation for AL; TDD approach for AL with AI; Automated testing"
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
+          "quote": "Agent preview and agent playground; Unified interfaces for AI; Enable troubleshooting MCP server"
         }
       ]
     },
@@ -32254,19 +32324,19 @@
     "video/y4yexz_hWPc": {
       "kind": "video",
       "key": "video/y4yexz_hWPc",
-      "hash": "cabe8b30698cbd87e6b6d585d4278b3f070aa3b5ed64b6e54d1bb0dcb1760c73",
+      "hash": "f2b412fbce7cd306b712e91a7a829707326f9b6fa96f8a16debd11b1c188336a",
       "title": "#BCTalent in APAC: Bridging the Talent Gap Together",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:19:13.764Z",
+      "at": "2026-10-07T23:41:43.581Z",
       "matches": []
     },
     "video/y5rOAnAkuN8": {
       "kind": "video",
       "key": "video/y5rOAnAkuN8",
-      "hash": "8c765d21e7326a48c938f57b9804dc961557a6a3ac47ab36a4577be5cfb98e42",
+      "hash": "a41a2afaca2cbed851d8f3b25dc69b1cafdb640e120d2fa91e862d976f2ab6a9",
       "title": "Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)",
       "source": "yt-stefanmaron",
-      "at": "2026-10-07T00:18:43.604Z",
+      "at": "2026-10-07T23:41:34.196Z",
       "matches": []
     },
     "video/y8WfOiJYDPs": {
@@ -32318,14 +32388,14 @@
     "video/YIeE63Kn8sI": {
       "kind": "video",
       "key": "video/YIeE63Kn8sI",
-      "hash": "007eb4bd64ba4dac86730bbc8e8d46e68a0855f2e803affa9301fcd27d07600e",
+      "hash": "897c0a8492c9a254ed6b62345efecea9a750fd34c95f0159cd8550709c7a5182",
       "title": "Episode 517: Flip the Script: Start with Your Business Problem, Not the AI Tool",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:20:35.379Z",
+      "at": "2026-10-07T23:41:51.557Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai",
-          "quote": "ai strategy; business process optimization; ai implementation approach; ai governance"
+          "topic": "topic/business-central/copilot-and-agent-capabilities",
+          "quote": "ai strategy; business process optimization; opportunity to cash workflow"
         }
       ]
     },
@@ -32460,22 +32530,18 @@
     "video/YX9UfUF0EsA": {
       "kind": "video",
       "key": "video/YX9UfUF0EsA",
-      "hash": "61cd66eda78bb86c7c4f0d07c63949eaddcbe9e8a3db346a54a52a4c5ae2ec36",
+      "hash": "372d3ee71ebed8fb63298cd441c7dca099959bd8ef62508c1de6ad58dc166c6b",
       "title": "Microsoft presents: Introducing M365 Copilot Chat in Business Central",
       "source": "yt-mibuso",
-      "at": "2026-10-07T00:20:35.379Z",
+      "at": "2026-10-07T23:41:51.557Z",
       "matches": [
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/microsoft-copilot-in-business-central-pr",
-          "quote": "M365 Copilot chat in Business Central; Chat history persistence across Microsoft 365"
+          "quote": "M365 Copilot chat in Business Central; Business Central data access"
         },
         {
           "topic": "topic/business-central/copilot-and-agent-capabilities/sales-order-agent",
-          "quote": "Sales order agent; Agentic loop for multi-step queries"
-        },
-        {
-          "topic": "topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist",
-          "quote": "LLM-powered bank reconciliation; LLM-powered auto-fill"
+          "quote": "Sales order agent; Page and record context in Copilot chat"
         }
       ]
     },
@@ -32541,18 +32607,22 @@
     "video/z7UTBiCNOo8": {
       "kind": "video",
       "key": "video/z7UTBiCNOo8",
-      "hash": "7f9e28f6c93b051900b7ca061f5f0e38c8d06a1b56cbd97a51b8fd074a03d778",
+      "hash": "4dd7107140d290970ec0ff3f1426a88d6185aac9f2b4e56fc47208d5322769ea",
       "title": "What's Cooking in Business Central: Excel Reports that Become Generally Available",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:20:17.076Z",
+      "at": "2026-10-07T23:41:57.071Z",
       "matches": [
         {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
           "quote": "Excel Layouts for Built-in Reports; Report Customization in Excel"
         },
         {
-          "topic": "topic/business-central/business-functionality/finance/financial-analytics/power-bi-finance-app",
-          "quote": "Finance Analytics Documentation; Excel Reports with Copilot Integration"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
+          "quote": "Report Customization in Excel; Slicer Controls for Report Filtering"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/finance/financial-analytics",
+          "quote": "Finance Analytics Documentation; Alternative Analysis Methods Documentation"
         }
       ]
     },
@@ -32568,14 +32638,14 @@
     "video/zE6uElxwSMQ": {
       "kind": "video",
       "key": "video/zE6uElxwSMQ",
-      "hash": "881932cb6b482be52be7480350f7b229a512d68da02eb6bbe959bd33eb8a4c1a",
+      "hash": "da0bbdc88020a98aaa6209b0c9334087ada72b7e28d2e550919c5d38effe9c47",
       "title": "Carglass Sweden",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:05.297Z",
+      "at": "2026-10-07T23:42:04.592Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online",
-          "quote": "cloud migration; Cloud-based Business Central ERP"
+          "topic": "topic/business-central/development-and-administration/migrate-to-business-central-online",
+          "quote": "cloud migration; booking management; real-time visibility; scalability"
         }
       ]
     },
@@ -32637,18 +32707,14 @@
     "video/zQg48VT0crU": {
       "kind": "video",
       "key": "video/zQg48VT0crU",
-      "hash": "a708302b275cfab8d15b6d943c3d48435e5cbc9c99cce593e332417215131a79",
+      "hash": "e8c40f55bf47118a01599acc7ba80171ee047a6d3eaaec15741de514fdde8d47",
       "title": "Episode 522: What Was Your Eureka Moment with AI? Smarter Workflows for BC Development",
       "source": "yt-dynamicscorner",
-      "at": "2026-10-07T00:19:41.849Z",
+      "at": "2026-10-07T23:41:42.103Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "AL development; code generation; model testing; AI-assisted driver development"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP servers; AL-MCP server integration with Claude; Custom MCP for BC performance"
+          "quote": "AL language syntax knowledge gaps in AI models; Multi-model workflow orchestration; AL MCP server integration with Claude"
         }
       ]
     },
@@ -32706,14 +32772,14 @@
     "video/zy-Tg9bBtHc": {
       "kind": "video",
       "key": "video/zy-Tg9bBtHc",
-      "hash": "b57bc42ee4f6011f4683aab00c38cab17118a4c8ed45c109ed588308bce90087",
+      "hash": "23cd4203c45c3cac94f90e9efe856f265061ff96842ac2f6138f73cc5438da5b",
       "title": "What's New: E-Documents and E-Shipments (2025 release wave 2)",
       "source": "yt-microsoft",
-      "at": "2026-10-07T00:21:22.487Z",
+      "at": "2026-10-07T23:41:59.103Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/warehouse-management/outbound-warehouse-processes",
-          "quote": "E-Shipments; E-Transfer Shipments; Sales Shipment E-Documents"
+          "topic": "topic/business-central/business-functionality/local-functionality",
+          "quote": "electronic documents; localization; regulatory requirements"
         }
       ]
     }

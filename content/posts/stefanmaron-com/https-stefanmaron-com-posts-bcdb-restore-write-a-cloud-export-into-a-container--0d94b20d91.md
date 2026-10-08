@@ -16,12 +16,12 @@ tags:
   - bacpac
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:46:43.808Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -101,17 +101,17 @@ preview:
 
 # bcdb restore: Write a Cloud Export Into a Container
 
-[Read the post](https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-10 · 1305 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-10 · 1305 words · tier community · reviewed (checked by Opus)
 
 > The bcdb restore tool writes cloud exports directly into a running Docker container without requiring matching schemas, intelligently handling mismatches by skipping missing tables and columns. It restored a production environment in 10 seconds and supports flexible identity table handling, company mapping, and dry-run preview modes.
 
 ## Key points
 
-- Restore works against containers with different extension sets, skipping mismatches instead of failing
-- Excludes identity and platform tables by default to prevent login failures and service tier corruption
-- Auto-maps company data when one company exists on each side, with verbose logging for ambiguous cases
-- Streams and bulk-copies rows without loading full tables to memory, preserving identity values and SQL decimal amounts
-- Provides --dry-run flag to preview the entire plan before execution
+- Restore works against containers with different extension sets, skipping missing tables and columns instead of failing
+- Identity and platform tables (users, access control, company, tenant profile, NAV App) are excluded by default to avoid login lockouts and service tier breakage
+- Company data is auto-mapped and logged when exactly one company has data on each side; with more, the tool refuses to guess
+- Rows are streamed and bulk-copied, identity values are preserved and amounts are carried as SqlDecimal
+- --dry-run previews the full plan without writing, and table creation is opt-in via --create
 
 ## Quotes
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > User settings and profile management in Business Central for administrators. It answers questions about setting company, role, language, region, time zone and teaching tips for users, and about creating, assigning and customizing profiles and role-based page layouts.
 
-Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · narrative reviewed by Opus
+Path: [Development and administration](../../development-and-administration.md) > [Administration tasks in Business Central](../administration-tasks-in-business-central.md) > Manage user settings · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

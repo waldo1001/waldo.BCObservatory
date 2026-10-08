@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:39.666Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,7 @@ narrative: generated
 
 > Mexico tax functionality in Business Central: DIOT reporting of vendor purchase VAT to SAT, RFC and CURP tax identification types for customers and vendors, and VAT recalculation on foreign currency payments. Answers setup and usage questions for these Mexico tax tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Tax · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Mexico](../mexico.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 

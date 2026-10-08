@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-07T09:49:55.895Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,7 +76,7 @@ narrative: generated
 
 > Sandbox environments for Business Central AL development: how online and container sandboxes differ, how to run a container-based environment with Docker and BCContainerHelper, and how to test extensions under different user plans and entitlements.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Work in sandboxes · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Work in sandboxes · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

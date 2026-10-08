@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:17.835Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ narrative: generated
 
 > Developing APIs in Business Central covers building REST/OData v4 web services in AL with API pages (read-write) and API queries (read-only). It answers questions on custom API development, authentication, filtering, request tips, troubleshooting, performance and telemetry.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing APIs · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Developing APIs · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

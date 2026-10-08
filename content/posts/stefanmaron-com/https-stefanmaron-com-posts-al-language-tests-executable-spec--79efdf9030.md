@@ -15,12 +15,12 @@ tags:
   - documentation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:50.436Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # AL Language Tests: An Executable Spec for How BC Actually Behaves
 
-[Read the post](https://stefanmaron.com/posts/al-language-tests-executable-spec/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-03 · 977 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/al-language-tests-executable-spec/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-03 · 977 words · tier community · reviewed (checked by Opus)
 
 > The BusinessCentral.AL.Language.Tests repository creates an executable specification of AL language behavior by running tests against real BC service tiers across multiple versions. It ensures AL Runner (an AL emulator) behaves accurately and provides a reference for undocumented AL features verified by CI.
 

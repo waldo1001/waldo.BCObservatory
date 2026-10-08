@@ -9,12 +9,12 @@ tags:
   - localization
   - it
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:28:44.854Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -248,11 +248,11 @@ learn_folder: LocalFunctionality/Italy
 
 > Italy (IT) localization of Business Central 29 covering Italian VAT (non-deductible VAT, VAT settlement, VAT transactions reports), withholding tax and contributions, customer and vendor bills with SEPA, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian fixed asset depreciation and subcontracting. It answers what Italy adds to W1 and where.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The Italian layer is large: 551 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most of the change is on posting and document tables. Sales, purchase, journal and VAT entry tables gain fields such as Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Fiscal Code. Codeunits Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry most of the new events and procedures.
+The Italian layer is large: 551 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most of the change is on posting and document tables. Sales, purchase, journal and VAT entry tables gain fields such as Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Fiscal Code. Codeunits Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry many of the new events and procedures.
 
 Own objects cover the local features. These are bills and bill posting groups, withholding tax and INPS contributions, periodic VAT settlement, the annual VAT communication, G/L book and VAT register printing, Spesometro and Datifattura exports, the FatturaPA export and Fattura setup, payment lines for installment terms, LIFO and fiscal inventory valuation, compressed depreciation, and the Intrastat IT extensions. Learn documents these in the Italy local functionality pages. Subcontracting is documented as deprecated and replaced by a separate Subcontracting app, with a migration for sandboxes.
 

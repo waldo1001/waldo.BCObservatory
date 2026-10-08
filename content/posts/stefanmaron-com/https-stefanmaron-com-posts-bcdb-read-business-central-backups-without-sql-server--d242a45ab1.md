@@ -14,12 +14,12 @@ tags:
   - testing
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:47:06.819Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-07T22:42:12.892Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -83,17 +83,17 @@ preview:
 
 # Introducing bcdb: Read a Business Central Backup Without SQL Server
 
-[Read the post](https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-01 · 1356 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/) · Stefan Maron (Stefan Maron, MVP) · 2026-09-01 · 1356 words · tier community · reviewed (checked by Opus)
 
 > bcdb is a tool that reads SQL Server backup files (.bak) and Business Central cloud exports (.bacpac) directly without requiring SQL Server or a restore process. It decodes table data using AL field names when provided with extension symbols and supports library and CLI usage.
 
 ## Key points
 
-- Reads .bak and .bacpac files directly by parsing pages and the system catalog without needing SQL Server
-- Outputs AL field names and types when given extension symbols; otherwise uses SQL column names
-- Available as a .NET global tool and self-contained native binaries for multiple platforms
-- Extensively tested against SQL Server restores to verify byte-for-byte accuracy on real production databases
-- Designed to support AL Runner by enabling it to work with real data without needing exact extension versions
+- Reads .bak and .bacpac files directly by parsing pages and the system catalog, with no SQL Server or restore needed
+- Gives AL field names and types when passed the .app symbols; otherwise it uses SQL column names
+- Ships as a .NET global tool, a NuGet library (BcDb.Core) and native binaries for several platforms
+- Checked page by page against fresh SQL Server restores, with over 99.9% of pages identical. It refuses unsupported backup types and column types rather than guessing
+- Built mainly so AL Runner can use real customer data without needing the exact extension versions
 
 ## Quotes
 

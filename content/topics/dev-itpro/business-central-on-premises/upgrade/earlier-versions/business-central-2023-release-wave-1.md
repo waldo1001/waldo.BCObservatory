@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:36.641Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -171,7 +171,7 @@ narrative: generated
 
 > Upgrade documentation for Business Central on-premises 2023 release wave 1 (version 22). It covers upgrade paths from version 14 and versions 15-21, technical and application upgrade steps, C/AL to AL conversion, table migration between extensions, permissions, reports, and the compatibility matrix.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 1 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central 2023 release wave 1 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

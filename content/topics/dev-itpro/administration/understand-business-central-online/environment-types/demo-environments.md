@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:25.430Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,7 @@ narrative: generated
 
 > Demo environments for Business Central: how to choose between an MDX demo environment, a prospect trial, and a sandbox, and how to set up and enhance each one. It answers questions about demo setup options, Contoso Coffee demo data, connectivity apps, and Sales and Field Service integrations.
 
-Path: [Administration](../../../administration.md) > [Understand Business Central online](../../understand-business-central-online.md) > [Environment types](../environment-types.md) > Demo environments · tier official · system administration · narrative reviewed by Opus
+Path: [Administration](../../../administration.md) > [Understand Business Central online](../../understand-business-central-online.md) > [Environment types](../environment-types.md) > Demo environments · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

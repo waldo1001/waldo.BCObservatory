@@ -211,5 +211,20 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.15529199999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:23:40.147Z",
+    "verdict": "approve",
+    "issues": [
+      "Key point on domiciliation lists Customer field 'VAT Liable' next to 'Domiciliation No.'. Both are Customer fields, but nothing in the input links VAT Liable to domiciliation, so the grouping could mislead.",
+      "Key point on Enterprise No. and Branch No. could be read as saying Branch No. is on customers, vendors, contacts and document headers. In the input, Branch No. is only on Company Information.",
+      "Overview wording 'journal template names made mandatory with upgrade tags' mixes two things. The upgrade tags cover upgrading journal template names, and the Learn page says templates become mandatory through a General Ledger Setup field. Also, the tariff number import reports are the country's own reports, not extensions."
+    ],
+    "input_hash": "245acd78b60d4d88d67438f1a689120f12f0c5b61dbddf6ddf80ed777f89cf69",
+    "cost_usd": 0.281908,
+    "applied": [],
+    "rejected_edits": []
   }
 }

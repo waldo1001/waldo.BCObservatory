@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -135,6 +135,7 @@ links:
     - topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central/test-copilot-capability-in-al
   localizations: []
   videos:
+    - video/lNASlydCidI
     - video/NE7NIjpkX3c
     - video/QCo-uIfPs9g
     - video/UgagVZVKCso
@@ -157,7 +158,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 4
+  video: 5
   blog: 2
   guideline: 0
 bc_forms: []
@@ -169,7 +170,7 @@ narrative: generated
 
 > Extending Copilot in Business Central with AL: building a Copilot capability with the System.AI module and Azure OpenAI, designing the user experience with the PromptDialog page type, and testing capabilities and agents. It answers how-to questions for AL developers.
 
-Path: [Integration with AI](../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../integrate-ai-using-developer-tools-for-c.md) > Extend Copilot in Business Central · tier official · system copilot · narrative reviewed by Opus
+Path: [Integration with AI](../../integration-with-ai.md) > [Integrate AI using developer tools for Copilot](../integrate-ai-using-developer-tools-for-c.md) > Extend Copilot in Business Central · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -205,6 +206,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11375 Obsolete GPT-5.5 chat and add GPT-5.6 Ceres deployments](../../../../changes/bcapps/11375.md) (code change): "Sales Order Agent attachment extraction and item search callers migrated"
 - [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "Create a new Copilot codeunit that accepts customer data as parameters"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "automatically upgrade raw service technician notes into professional, customer-facing text for invoices"
+- [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../../videos/lNASlydCidI.md) (video): "Copilot for Business Central; System Actions for Generate; AI Module for Copilot Generation"
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../videos/QCo-uIfPs9g.md) (video): "Copilot Prompt Actions on Card and Document Pages"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot development; prompt engineering; Copilot Function with Prompt Engineering"

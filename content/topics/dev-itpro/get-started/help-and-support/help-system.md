@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:23:30.654Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > The Help system section covers how Business Central help content is written, contributed, configured, and migrated. It answers questions about authoring standards, context-sensitive help properties, hosting custom help, contributing through GitHub, and moving legacy help to the current format.
 
-Path: [Get started](../../get-started.md) > [Help and support](../help-and-support.md) > Help system · tier official · system none · narrative reviewed by Opus
+Path: [Get started](../../get-started.md) > [Help and support](../help-and-support.md) > Help system · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

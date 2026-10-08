@@ -14,8 +14,7 @@
     "Interface evolution can now separate concerns between backward compatibility and controlled contract strengthening"
   ],
   "systems": [
-    "development",
-    "integration"
+    "development"
   ],
   "topics": [
     "al interfaces",
@@ -55,10 +54,6 @@
     {
       "text": "With a default implementation, the interface method can contain a method body that provides fallback behavior.",
       "why_it_matters": "Explains the core mechanism that enables backward compatibility when interfaces evolve"
-    },
-    {
-      "text": "Default implementations reduce that immediate blast radius. They are especially useful when an interface is consumed by many implementations.",
-      "why_it_matters": "Clarifies the key benefit for extension ecosystems with distributed implementations across teams"
     }
   ]
 }

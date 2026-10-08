@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -121,7 +121,7 @@ narrative: generated
 
 > Subscription billing setup in Business Central: general contract defaults, contract types, subscription packages and lines, item subscription options, importing contracts, job queue automation, and permission sets. It answers questions on configuring recurring billing before use.
 
-Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up sales](../set-up-sales.md) > Set up subscription billing · tier official · system sales · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Set up Business Central](../../set-up-business-central.md) > [Set up sales](../set-up-sales.md) > Set up subscription billing · tier official · system sales · narrative reviewed (checked by Opus)
 
 ## Overview
 

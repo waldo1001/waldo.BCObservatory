@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,12 +205,14 @@ links:
   videos:
     - video/3UcLmXqyl44
     - video/aNRzlbxVPWE
+    - video/MKuOgMWXJ_8
+    - video/moPzf04Mwlc
     - video/nbGw2g3KMXI
     - video/Vq9Nk6_uxmQ
+    - video/WFAZLsUTk20
   posts:
     - post/bertverbeek-nl/1290
     - post/demiliani-com/13755
-    - post/katson-com/4530
     - post/kauffmann-nl/8436
     - post/vondervoort-be/84
   guidelines: []
@@ -229,8 +231,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 4
-  blog: 5
+  video: 7
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -241,7 +243,7 @@ narrative: generated
 
 > Designing and coding agents (preview) covers how to design, create, configure, run, iterate and code custom Business Central agents with the AI development toolkit in sandboxes. It answers questions on instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API.
 
-Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative reviewed by Opus
+Path: [Integration with AI](../integration-with-ai.md) > Designing and coding agents (preview) · tier official · system copilot · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -294,12 +296,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
 - [Dynamics 365 Business Central agents: announcing new updates.](../../../posts/demiliani-com/13755.md) (community post): "Custom Business Central agents can now be deployed to production starting with update 28.1"
-- [Meet Custom Agents in Business Central](../../../posts/katson-com/4530.md) (community post): "Custom agents in Business Central improve efficiency and reduce human error"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Production agents require manual conversion to AL code by exporting the agent XML configuration"
 - [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
-- [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL"
+- [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
+- [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
+- [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
+- [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

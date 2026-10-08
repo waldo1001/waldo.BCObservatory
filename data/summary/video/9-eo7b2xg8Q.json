@@ -4,13 +4,12 @@
   "summary": "The continue keyword in AL for loops (for, while, repeat): skips the current iteration and moves to the next without ending the loop. Covers the difference from break, with three code examples: even numbers, sales invoice lines with customer emails, and a Microsoft IRS forms extension.",
   "overview": "The video explains the new continue keyword in AL and how it differs from break. Break ends the loop, while continue jumps to the end of the current iteration and goes on with the next one. The presenter notes that the examples are made up, except one that comes from a Microsoft extension.\n\nThree examples are shown: a simple for loop that skips even numbers, a loop over sales invoice lines tied to customer emails, and code in the Microsoft IRS forms extension (table 1099 form do header and codeunit Coordinate IRS 1099 send email). The presenter says continue is optional, so it is not a breaking change, and that the code could be restructured to avoid it. It can also save time compared with refactoring a whole function.",
   "key_points": [
-    "continue is a new AL keyword for loops: for, while and repeat.",
-    "break ends the loop; continue skips only the current iteration and moves to the next one.",
-    "In the first example, a for loop tests whether a number is even and skips it with continue.",
-    "A second example applies continue to sales invoice lines and customer emails.",
-    "A third example uses the Microsoft IRS forms extension, with table 1099 form do header and codeunit Coordinate IRS 1099 send email.",
-    "continue is optional and not a breaking change; code can be restructured to avoid it.",
-    "It can be used instead of refactoring a whole function."
+    "continue is a new AL keyword in Business Central 2025 wave 1, used inside for, while and repeat loops.",
+    "break ends the loop and runs the next statement after it; continue skips only the current iteration and moves to the next one.",
+    "In the first example, a for loop from 1 to 10 uses the mod operator to find even numbers and skips them with continue.",
+    "The second example (pseudo code) loops posted sales invoice lines from the last 30 days. It uses continue to skip customers already stored in a temporary emailed-customer table, so each customer gets one thank-you email.",
+    "The third example is Microsoft code in the IRS Forms extension: while looping 1099 form headers, if the vendor cannot be found it logs an error and uses continue to move to the next record.",
+    "Code can always be restructured to avoid continue, but the speaker suggests using it instead of spending time refactoring a whole loop or function."
   ],
   "audience": [
     "developer"

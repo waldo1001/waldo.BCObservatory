@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.933Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -356,7 +356,7 @@ narrative: generated
 
 > Development environment for Business Central covers setting up and using AL tooling in Visual Studio Code: configuration, projects and workspaces, code analysis, compile/publish/debug, testing, sandboxes, app manifests and extra tools. It answers setup, build, debug and test questions for extension developers.
 
-Path: [Development](../development.md) > Development environment · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../development.md) > Development environment · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

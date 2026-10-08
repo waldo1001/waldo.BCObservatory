@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.929Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -523,7 +523,7 @@ narrative: generated
 
 > Development for Business Central covers building AL extensions: tooling setup in Visual Studio Code, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, AL-Go for GitHub, and troubleshooting. It answers how-to, syntax, build, deploy and debug questions for extension developers.
 
-Path: Development · tier official · system development · narrative reviewed by Opus
+Path: Development · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

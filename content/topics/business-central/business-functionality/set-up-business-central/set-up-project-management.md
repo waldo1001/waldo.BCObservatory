@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,7 @@ narrative: generated
 
 > Project management setup in Business Central covers resources, resource costs, prices and capacity, projects, project prices, project posting groups, and time sheets with approval. It answers questions about the configuration needed before projects can record usage, cost, and revenue.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up project management · tier official · system projects · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up project management · tier official · system projects · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-82-excel-buffer-character-limit/",
+  "input_hash": "f3cf98445ce577d3d561369a944c15ace7ba225ce7a605e73a5fa401e4e115ac",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-07T23:46:22.313Z",
+  "issues": [
+    "The 250 character limit, the error raised instead of truncation and the advice to validate first all match the post.",
+    "Both quotes are word for word.",
+    "Excel Buffer is listed as type other because the post does not give its object type, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032907,
+    "posts_in_call": 4
+  }
+}

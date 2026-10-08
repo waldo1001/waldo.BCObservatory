@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.930Z"
   flags: []
 generated:
-  at: "2026-10-07T21:13:11.969Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -472,7 +472,7 @@ narrative: generated
 
 > Integration in Business Central covers how to connect the product to external systems and Microsoft services. It answers questions on web services and APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify.
 
-Path: Integration · tier official · system integration · narrative reviewed by Opus
+Path: Integration · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

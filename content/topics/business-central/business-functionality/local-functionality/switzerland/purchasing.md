@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:20.016Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,7 +117,7 @@ narrative: generated
 
 > Purchasing for the Swiss version of Business Central covers delivery reminders to vendors: setup, code assignment, manual creation, batch generation, test reports, and issuing. It answers how to chase overdue vendor deliveries in the Swiss localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Purchasing · tier official · system purchasing · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Switzerland](../switzerland.md) > Purchasing · tier official · system purchasing · narrative reviewed (checked by Opus)
 
 ## Overview
 

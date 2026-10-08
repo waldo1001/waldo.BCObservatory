@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:10.908Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -131,7 +131,7 @@ narrative: generated
 
 > Upgrade guidance for Business Central on-premises spring 2019 (v.14). It covers technical upgrade, application code merging, single-tenant and multitenant data upgrade, cumulative update installation, codeunit 1 replacement, and upgrade considerations. It answers how to move from earlier Dynamics NAV or Business Central versions.
 
-Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central spring 2019 · tier official · system platform · narrative reviewed by Opus
+Path: [Business Central on-premises](../../../business-central-on-premises.md) > [Upgrade](../../upgrade.md) > [Earlier versions](../earlier-versions.md) > Business Central spring 2019 · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

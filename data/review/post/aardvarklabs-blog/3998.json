@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3998",
+  "input_hash": "6784d23c6c6c28602402b7524810ac9f5527ce209181697a16af4d78ef4956cd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:27.148Z",
+  "issues": [
+    "First key point wrongly ties the access token to multipart requests only; the post uses the token for all Administration API calls.",
+    "Rest of the page is accurate and the quote is verbatim."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.057215,
+    "posts_in_call": 4
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,7 +318,6 @@ links:
     - topic/dev-itpro/integration/web-services/soap
   localizations: []
   videos:
-    - video/S5Xw-b8YF-c
     - video/sk5CaXnvvng
   posts: []
   guidelines: []
@@ -345,7 +344,7 @@ children:
 coverage:
   learn: 294
   code: 1
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -358,7 +357,7 @@ narrative: generated
 
 > Web services in Business Central: OData, SOAP and API endpoints, how to publish and secure them, and how to monitor, tune and troubleshoot them. It answers questions on endpoint setup, authentication, telemetry, performance patterns, error diagnosis and refactoring legacy integration records.
 
-Path: [Integration](../integration.md) > Web services · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Web services · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -408,7 +407,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9702 Default new E-Document services to import v2 and let users select the draft format](../../../changes/bcapps/9702.md) (code change): "New E-Document services now default to the v2 import pipeline and expose a draft format selector"
 - [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
 - [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs from translatable AL labels"
-- [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document from External Sources"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Web services; odata; http status codes; error handling"
 
 ## Business Central pages and reports

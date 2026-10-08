@@ -1,0 +1,28 @@
+{
+  "video_id": "H5EuObmeF4o",
+  "item_id": "video/yt-bcmusings/H5EuObmeF4o",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Summary and key points are supported by the transcript, including the dates (sales order agent GA October 2025, payables agent in more countries November 2025, audit trail November 2025, invoice matching January 2026).",
+    "The 'Truncate table data using new methods' description presents media fields, try functions and flow field filters as supported. The presenter is reading out constraints and says 'we can't truncate tables when used with filters on flow fields', so the description overstates support. There is no edit field for descriptions, so this is noted here only.",
+    "Advanced Tell Me search is shown behind a preview feature in Feature management, so its status is set to preview.",
+    "Added quotes for concurrent inventory posting line sorting and for subcontracting moving from the Italian localization into W1. Both are key points without a supporting quote.",
+    "Some caption garbling is carried into feature names (Checka, SQL core per information, KPI resources). It is left as is because it matches the transcript."
+  ],
+  "input_hash": "9495b5e6b80ef4be96c6e634f532cd6dda566ce54fa6a593e277623e6396912e",
+  "by": "opus",
+  "at": "2026-10-07T23:22:41.011Z",
+  "applied": [
+    "Advanced Tell Me search: status preview",
+    "quote at 1769s",
+    "quote at 1861s"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.170925
+  }
+}

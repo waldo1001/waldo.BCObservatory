@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.954Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,7 +90,7 @@ narrative: generated
 
 > Working with apps covers how to configure and package Business Central extensions in AL: app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps. It answers setup and manifest questions for extension developers.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-07T16:30:41.512Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -206,6 +206,7 @@ links:
     - video/BwBR8JwwQa4
     - video/gy_6QnFpiEw
     - video/NMO822Jf_4E
+    - video/p-pwG6f5srY
   posts: []
   guidelines: []
   changes:
@@ -232,7 +233,7 @@ children:
 coverage:
   learn: 16
   code: 46
-  video: 7
+  video: 8
   blog: 0
   guideline: 0
 bc_forms:
@@ -290,7 +291,7 @@ narrative: generated
 
 > Online store with Shopify covers the Shopify Connector for Business Central: connecting a shop and synchronizing items, inventory, prices, customers, companies, orders, transactions and payouts. It answers setup, sync configuration, POS, tax matching, background jobs, troubleshooting, technical FAQ and support questions.
 
-Path: [Business functionality](../business-functionality.md) > Online store with Shopify · tier official · system integration · narrative reviewed by Opus
+Path: [Business functionality](../business-functionality.md) > Online store with Shopify · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -349,13 +350,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
 - [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify integration now supports Unlisted status when creating products"
 - [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Sync Catalog Prices report now supports filtering by individual catalogs"
-- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify Connector B2B Functionality; B2B on Shopify Platform; B2B Customizable Buying Experience"
+- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify connector; b2b; order editing; company synchronization; customer synchronization"
 - [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Product Information Management in Shopify Connector; Item Variant Image Export to Shopify; Item Attributes for Shopify Options"
 - [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "Shopify Connector; Meta Fields Import/Export; Language Translation Synchronization"
 - [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "Shopify Connector - Overview; Item variant images and attributes support; Shopify collections import"
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
 - [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "shopify connector; market pricing; multi-currency; price catalogs"
 - [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Processing of Presentment Currencies in Shopify; multi-currency"
+- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Shopify Connector (2024 release wave 2). Topics: shopify connector"
 
 ## Business Central pages and reports
 

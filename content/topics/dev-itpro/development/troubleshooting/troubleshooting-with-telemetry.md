@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.785Z"
   flags: []
 generated:
-  at: "2026-10-07T05:23:51.651Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,7 +111,7 @@ narrative: generated
 
 > Troubleshooting with telemetry in Business Central covers turning on telemetry to Azure Application Insights, the available telemetry events, analysis with KQL and Power BI, alerting, and using telemetry to diagnose performance problems. It answers setup, analysis, alerting and performance questions.
 
-Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting with telemetry · tier official · system platform · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Troubleshooting](../troubleshooting.md) > Troubleshooting with telemetry · tier official · system platform · narrative reviewed (checked by Opus)
 
 ## Overview
 

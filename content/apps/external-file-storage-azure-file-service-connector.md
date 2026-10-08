@@ -10,21 +10,21 @@ tags:
   - platform
 system: platform
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fd406bd3d0c8d03a248bd75ece4564b98b50e6fb69ff00304f3e674da0c66801
+  input_hash: 523a8cb857acf14f89d15a37c34ea15b0d1fa8d5203720aa928bfd11d7fe19c6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app
     title: src/Apps/W1/External File Storage - Azure File Service Connector/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -131,4 +131,4 @@ First-party app · folder `src/Apps/W1/External File Storage - Azure File Servic
 |---|---|---|
 |  | [Ext. File Share Connector](../objects/entitlement/ext-file-share-connector.md) |  |
 
-Source: [src/Apps/W1/External File Storage - Azure File Service Connector/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External File Storage - Azure File Service Connector/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20Azure%20File%20Service%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

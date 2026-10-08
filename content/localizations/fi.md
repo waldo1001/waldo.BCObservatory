@@ -9,12 +9,12 @@ tags:
   - localization
   - fi
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-07T23:26:56.206Z"
   flags: []
 generated:
-  at: "2026-10-07T21:07:03.029Z"
+  at: "2026-10-07T23:32:29.863Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -101,7 +101,7 @@ learn_folder: LocalFunctionality/Finland
 
 > Finland (FI) localization of Business Central 29. It covers bank reference files and reference numbers, domestic and foreign payment files, SEPA pain.001.001.09 export, automatic account codes, Finnish Intrastat, VAT-VIES declaration, depreciation differences, and Finnish service reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/finland.md) · narrative **unreviewed** (machine-written)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/finland.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

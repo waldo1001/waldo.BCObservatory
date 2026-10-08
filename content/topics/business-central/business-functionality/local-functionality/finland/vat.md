@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:25.276Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,7 @@ narrative: generated
 
 > Finnish VAT functionality in Business Central: printing Intrastat reports, showing VAT information on sales invoices, and the VAT-VIES declaration. It answers questions on Finnish VAT and EU trade reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

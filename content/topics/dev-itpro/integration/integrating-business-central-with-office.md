@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,7 +184,7 @@ narrative: generated
 
 > Integration of Business Central with Office apps and Microsoft 365: Excel, OneDrive, Teams, Word and the Outlook add-in. It answers questions about editing and reporting in Excel, sharing documents, Teams cards and tabs, Word layouts and templates, and deploying the Outlook add-in.
 
-Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · narrative reviewed by Opus
+Path: [Integration](../integration.md) > Integrating Business Central with Office apps and Microsoft 365 · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 

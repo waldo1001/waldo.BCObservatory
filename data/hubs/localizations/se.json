@@ -138,5 +138,19 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.06942999999999999
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-07T23:30:38.215Z",
+    "verdict": "approve",
+    "issues": [
+      "The summary's 'Swedish-layout document reports' and the last key point's 'Swedish layouts' go slightly beyond the input. The input only shows report extensions (for example 'SE Order', 'SE Reminder', 'SE Service - Invoice') and does not say they contain Swedish layouts. 'Report extensions for sales, purchase, service and reminder documents' would be more exact.",
+      "Minor omission: the narrative does not mention the 23 replaced W1 tables or the posting buffer and posted journal line fields ('VAT Base Amount (LCY)', 'Source Posting Date'). This is acceptable for a hub summary."
+    ],
+    "input_hash": "b4143de9e2b5dcb882eac51b1eafc39390bf52eccacecd272aca4c4483b5007b",
+    "cost_usd": 0.1241788,
+    "applied": [],
+    "rejected_edits": []
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-10-07T13:37:30.849Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,7 +97,7 @@ narrative: generated
 
 > Migration in the Business Central extension lifecycle: generating .delta files with Compare-NAVApplicationObject for conversion to extensions, and moving table and field data between extensions on-premises. It answers questions about delta generation, migration.json, dependency direction, transition extensions and synchronization order.
 
-Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Migration · tier official · system development · narrative reviewed by Opus
+Path: [Development](../../development.md) > [Extension lifecycle](../extension-lifecycle.md) > Migration · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 

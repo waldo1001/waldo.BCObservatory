@@ -10,21 +10,21 @@ tags:
   - inventory
 system: inventory
 review:
-  state: unreviewed
+  state: derived
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-07T21:10:59.019Z"
+  at: "2026-10-07T23:36:24.645Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 08d267cbe317fc2a0926b0d249a5aedb5a6a13736f3c13646b2be270bfae272f
+  input_hash: 0addd64f06785877096884da3b7e44a011e57a1b29038dfc610eeffdd21e87bd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Quality%20Management/app
+    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Quality%20Management/app
     title: src/Apps/W1/Quality Management/app (main)
     date: null
-    commit: ad9b529a78c818ba25c24aecd093442a6c7a3852
+    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
     t: null
     quote: null
 links:
@@ -568,4 +568,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Qlty. Manager](../objects/profile/qlty-manager.md) | Quality Manager |
 
-Source: [src/Apps/W1/Quality Management/app](https://github.com/microsoft/BCApps/tree/ad9b529a78c818ba25c24aecd093442a6c7a3852/src/Apps/W1/Quality%20Management/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Quality Management/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Quality%20Management/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

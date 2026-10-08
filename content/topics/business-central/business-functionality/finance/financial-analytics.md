@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:11.860Z"
   flags: []
 generated:
-  at: "2026-10-07T15:52:42.721Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -502,7 +502,7 @@ links:
   localizations: []
   videos:
     - video/fxrVyBD8UoU
-    - video/HI7VcPzR2OE
+    - video/z7UTBiCNOo8
   posts: []
   guidelines: []
   changes:
@@ -716,7 +716,7 @@ narrative: generated
 
 > Financial analytics in Business Central covers the tools for analyzing and reporting finance data: the Power BI finance app, Financial Reporting, built-in analysis tools and reports, ad-hoc Data Analysis, and multi-company consolidation. It answers questions about choosing a tool, setting it up, and reading its results.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Financial analytics · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Financial analytics · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -757,7 +757,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10604 [Main]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../changes/bcapps/10604.md) (code change): "Financial report and row definitions now import successfully between companies"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "Report 11564 now correctly includes foreign currency opening balances"
 - [What's New: Enhanced Financial Analytics (2026 release wave 1)](../../../../videos/fxrVyBD8UoU.md) (video): "Enhanced Financial Analytics (2026 release wave 1). Topics: financial analytics; excel layouts; deferral reports"
-- [What's New: Financial Management - Overview (2024 release wave 1)](../../../../videos/HI7VcPzR2OE.md) (video): "GL Revaluation and Currency Code on GL Entries; Excel Reports for Financial Data; Consolidation"
+- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Finance Analytics Documentation; Alternative Analysis Methods Documentation"
 
 ## Business Central pages and reports
 

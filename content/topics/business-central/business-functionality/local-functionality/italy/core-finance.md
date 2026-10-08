@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:34.995Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,7 @@ narrative: generated
 
 > Core finance for the Italian version of Business Central covers fiscal year closing, how debit and credit amounts are defined in journals and ledger entries, and the restrictions on reversing journal entries. It answers how-to and rule questions for Italian accounting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Core finance · tier official · system finance · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Italy](../italy.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/8211",
+  "input_hash": "121f334b8a30612b50bce8f30f956738a247af2dbeee8dac0158a350a5640650",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-07T23:46:14.080Z",
+  "issues": [
+    "The reporting system is not supported. The post is about how roadmaps are communicated, not about reporting.",
+    "The 2026 release wave 2 version label is not stated explicitly. The post only mentions wave 2 in general terms and version 29 in October 2026. It is left in place because this review cannot remove version labels.",
+    "The summary, key points, features and the quote match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033379,
+    "posts_in_call": 4
+  }
+}

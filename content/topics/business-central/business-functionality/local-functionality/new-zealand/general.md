@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:32.677Z"
   flags: []
 generated:
-  at: "2026-10-07T02:32:59.251Z"
+  at: "2026-10-08T00:04:31.553Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,7 @@ narrative: generated
 
 > New Zealand general local functionality in Business Central: address handling with DPID and postal codes, cost plus percentage sales pricing, and IRD numbers with adjustment notes for GST. It answers setup and usage questions for NZ-specific tax and address needs.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > General · tier official · system localization · narrative reviewed by Opus
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [New Zealand](../new-zealand.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
 
 ## Overview
 
