@@ -1,7 +1,6 @@
 # The changes list filters by repository: BCApps, AL-Go and BCQuality pills
 
-Status: proposed, 2026-10-08. Decision: D82 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M20
-(reserved). Owner: waldo.
+Status: built, 2026-10-08. Decision: D82. Milestone: M20. Owner: waldo.
 Scope: the site's changes index page (`site/src/pages/changes/index.astro`), one new pure helper module
 `site/src/scripts/pills-core.ts` with its unit test, the three D80 pill helpers in `site/src/scripts/galaxy-core.ts`
 that become wrappers over it, and one global style block in `site/src/styles/site.css`. Every claim below was verified
@@ -386,7 +385,26 @@ Changed:
 - [ ] D82 appended to `docs/DECISIONS.md` with the measured numbers; the M20 row in `docs/PLAN.md` set to shipped;
       the HANDOFF entry moved to "Where things stand"; this section 12 renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
+
+Built 2026-10-08 in one commit, together with derive on push (D81). Applied as section 12 proposed: D82 in DECISIONS,
+M20 shipped in PLAN, the HANDOFF entry moved.
+
+- **Measured** on the committed content: 1,083 change pages, BCApps 965, AL-Go 28, BCQuality 90, as the spec said. The
+  built `/changes/` page has three `.pill-btn` buttons with `data-count` 965, 28 and 90, `data-repo` on every row
+  (965, 28, 90), 0 `data-astro-cid` attributes, 595,443 bytes, the heading `1,083 changes`, and the kinds line
+  unchanged: `2 breaking · 353 feature · 619 fix · 10 obsoletion · 27 other · 29 performance · 43 refactor`.
+- **Headless pass, all eight steps green.** AL-Go off: 1,055 rows, `?repo=bcapps,bcquality`, `1,055 of 1,083 shown`.
+  BCQuality alone: 90 rows and `51 feature · 23 fix · 11 other · 5 refactor`, as section 2 predicted. The last pill
+  brings all back and removes `repo`. `?repo=al-go`: 28 rows; `?repo=al-go,nope` is rewritten to `?repo=al-go`;
+  `?repo=nope#x` drops `repo` and keeps the hash. Space on a focused pill toggles it. At 390 px, scrollWidth 390.
+- **Readable commas.** `URLSearchParams` writes the comma as `%2C` (`?repo=bcapps%2Cbcquality`), which the headless
+  pass caught. The script writes `url.search` with `%2C` turned back into `,`, so the URL is the section 2 form.
+- **`replaceState` only when the URL changes**, and it keeps `history.state`.
+- **Overlap with D81 resolved in the same branch.** D81's galaxy uses `parsePills`, `pillsParam`, `togglePill` and
+  `usablePills` directly over its two- or three-pill set; `galaxy-core.ts` keeps the D80 wrappers and adds
+  `weekPills`. `tests/unit/galaxy-core.test.ts` keeps its D80 tests unchanged and gains D81's `weekPills` test.
+- **Galaxy unaffected:** `scripts/ui-sweep.mjs` reports 34 states, 0 squeezed rows.
 
 **`docs/DECISIONS.md`**: append the D82 text from section 3, numbers re-measured, ending with
 "Spec: `docs/specs/changes-repo-pills.md`."

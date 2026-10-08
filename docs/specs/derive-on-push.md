@@ -1,6 +1,6 @@
 # Derived data catches up with the code: a `derive` stage on push, and no "Code 0" from data that predates it
 
-Status: proposed, 2026-10-08. Decision: D81 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M19 (reserved). Owner: waldo.
+Status: built, 2026-10-08. Decision: D81. Milestone: M19. Owner: waldo.
 Scope: a third orchestrator stage, `derive`, that reruns the deterministic render block on the committed content and
 commits the result (`pipeline/orchestrator/nightly.ts`); `.github/workflows/nightly.yml` runs it on a push to main
 that touches the code which shapes derived data; the galaxy, the header and `/changes/week/` treat a `landed.json`
@@ -228,7 +228,34 @@ Changed: `pipeline/orchestrator/nightly.ts`, `.github/workflows/nightly.yml`, `s
 - [ ] Phase C checked on a local build in both cases (key missing, key empty).
 - [ ] RUNBOOK paragraph; D81 appended; PLAN M19 shipped; HANDOFF entry moved; section 12 renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
+
+Built 2026-10-08 in three commits (phases A and B together, then C). Applied as section 12 proposed: D81 in
+DECISIONS, M19 shipped in PLAN, the HANDOFF entry moved, the RUNBOOK paragraph, the AGENTS line.
+
+- **Measured.** `npm run nightly -- --stages derive` on the committed content took 6.7 s on the Mac (digests 0.5 s,
+  sources 2.1 s, search index 1.0 s, objects index 1.1 s, graph 1.6 s). The diff was section 1's table exactly:
+  `data/graph/landed.json` gains `changes` (82) and the 6 `content/sources/yt-*.md` pages get D79's titles.
+- **The first derive is not push-triggered.** Section 6 task 5 expected the push of phase B to trigger a derive "because
+  the phase changes `pipeline/**`". It changes `pipeline/orchestrator/**` and `.github/**`, and neither is a trigger
+  path, so the first derive was started by hand (`gh workflow run nightly -f stages=derive`). The paths stay as
+  decided; the RUNBOOK says to start a derive by hand after an orchestrator change.
+- **`run-nightly.sh` changed after all.** Section 4.2 said it needs no change. Its memory-restart loop reads the
+  newest run report's stop reason; a derive writes none, so it would read the nightly's, and a nightly that stopped on
+  memory would restart the derive up to six times. A derive now sets `restarts=0`.
+- **The run summary prints a derive line.** `scripts/run-summary.ts` printed the newest run report, which after a
+  derive is the nightly's and would read as this run's. With `STAGES=derive` it prints one line instead.
+- **Digests and sources are timed phases.** In the full run they were bare calls; inside `renderDerived` all five steps
+  log `phase <name>: <ms>`.
+- **The galaxy toggles over the pill set it shows.** Without `changes` the pill set is `["v", "p"]` (`weekPills` in
+  `galaxy-core.ts`) and the panel uses the generic helpers of `pills-core.ts` (D82) over it, so a reader who turns off
+  both visible pills gets both back, instead of an invisible Code pill staying on alone over an empty panel.
+- **The week page heading.** With the key missing the `h1` reads "Code changes in <span>" instead of "0 code changes
+  in <span>", and the "computed by the pipeline" line follows it. With `changes: []` it reads "0 code changes in the
+  7 days up to 2026-10-08" (checked on a build).
+- **Checked on the built site with headless Chromium** in all three cases: key missing (Videos 2 and Posts 18 pressed,
+  no Code pill, `#lens=landed&kinds=c` opens on both and the hash drops `kinds`), 82 changes (three pills, the Code
+  block), `changes: []` (three pills, "Code 0"). `scripts/ui-sweep.mjs`: 34 states, 0 squeezed rows.
 
 **`docs/DECISIONS.md`**: the D81 text from section 3, ending with "Spec: `docs/specs/derive-on-push.md`."
 

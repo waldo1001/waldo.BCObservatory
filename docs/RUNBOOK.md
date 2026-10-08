@@ -7,6 +7,11 @@ Operational notes. Provisioning lives in `infra/mini/`; the nightly in `.github/
 - The nightly runs at 00:00 UTC on the Mac Mini runner (label `bcobs`). Check the run report in
   `data/manifest/_runs/<date>.json` or the workflow summary.
 - `runner-health.yml` opens a pinned issue when the runner is offline or the nightly failed; it closes it again.
+- Derived data (D81). A push to main that touches `pipeline/link|render|lib/**`, `schemas/**` or `config/**` runs
+  `nightly` with stages `derive` on the Mini: the render block only (digests, sources, indexes, graph), no ingest, no
+  LLM, no run report, about a minute with `npm ci`; it commits `content: derive <date> (<sha>)` when something
+  changed. By hand: Actions → nightly → Run workflow → stages `derive`, or `gh workflow run nightly -f stages=derive`.
+  A change to the orchestrator itself is not a trigger path: start a derive by hand after one.
 
 ## Provisioning the Mac Mini
 

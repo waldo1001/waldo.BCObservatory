@@ -10,18 +10,7 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Derive on push**: `docs/specs/derive-on-push.md`, D81, M19. Status: proposed 2026-10-08, nothing implemented.
-  Start with section 5 (`tests/unit/nightly.test.ts`, `--stages derive`), then extract `renderDerived` from
-  `pipeline/orchestrator/nightly.ts:433-439`. Until it lands, derived data follows the code only at the next night run
-  (00:00 UTC): on 2026-10-08 the galaxy showed "Code 0" and D79's source pages kept bare roadmap ids for the rest of
-  the day.
-- `docs/specs/changes-repo-pills.md`, D82, M20. The changes index (`/changes/`) gets three pills, BCApps, AL-Go and
-  BCQuality, each with its count, with the this-week pills' semantics (D80: all on, toggles, the last never off),
-  `?repo=` in the URL, a "N of M shown" line and kind counts that follow the filter; the D80 helpers move into
-  `site/src/scripts/pills-core.ts` as generic functions and `galaxy-core.ts` wraps them. Status: proposed
-  2026-10-08, nothing implemented. Start with task 1 of section 6: the unit test `tests/unit/pills-core.test.ts`
-  (section 5), then the module, then the page. No content commit: nothing under `content/` or `data/` changes.
-  Until it lands, readers see one list of every change page (1,083 on 2026-10-08) with no way to pick a repository.
+None.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -31,6 +20,14 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-08, live after the next good nightly:**
+- **Derive on push, D81** (`docs/specs/derive-on-push.md`, M19): `npm run nightly -- --stages derive` reruns the
+  render block (digests, sources, indexes, graph) on committed content, no ingest, no LLM, no run report, and commits
+  `content: derive <date> (<sha>)`. `nightly.yml` runs it on a push to main touching `pipeline/link|render|lib/**`,
+  `schemas/**` or `config/**`, and by hand (stages `derive`). The galaxy hides the Code pill while `landed.json` has
+  no `changes` key. Deviations in the spec's section 12.
+- **Changes repo pills, D82** (`docs/specs/changes-repo-pills.md`, M20): `/changes/` has BCApps, AL-Go and BCQuality
+  pills with counts, `?repo=` in the URL, "N of M shown" and kind counts that follow the filter; the D80 helpers live
+  in `site/src/scripts/pills-core.ts`. No content commit. Deviations in the spec's section 12.
 - **Week code changes, D80** (`docs/specs/week-code-changes.md`, M18): the this-week lens has Videos, Posts and Code
   pills (`#lens=landed&kinds=c`), the week's change pages grouped by kind with Breaking and Features open; the header
   pill reads "N new · M PRs"; "Changes" is in the nav; `/changes/week/`. The next nightly writes `landed.json` with a

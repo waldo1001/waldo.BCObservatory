@@ -77,4 +77,5 @@ npm run check:leak                # community text never in the public tree (shi
 npm run llm:ping                  # one uncached claude -p call: proves subscription auth + model family
 npm run ingest                    # discovery only (git, RSS, APIs), writes data/manifest
 npm run nightly -- --dry-run      # full orchestrator with LLM_CACHE_ONLY=1
+npm run nightly -- --stages derive  # re-render derived data only (writes content/ and data/), D81
 ```

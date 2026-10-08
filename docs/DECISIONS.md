@@ -714,3 +714,38 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (the map and the list would disagree), grouping by `behavior_change`, a backport subgroup (4 pages; backports show
   as "also in 29.x"), one combined count in the header (the media count drowns), media-only default pills (the
   problem stays). Spec: `docs/specs/week-code-changes.md`.
+- **D81 Derived data follows the code within the hour, not the night.** The render block of the nightly (digests,
+  sources and coverage, search and objects indexes, the graph) is deterministic and runs on committed content. Until
+  now it ran only in a full run inside the night window (D41), so a change to what it writes (D79's titles, D80's
+  `changes` in `landed.json`) waited up to a day, and the galaxy read the old file as "Code 0". A third orchestrator
+  stage, `derive`, runs that block alone (`renderDerived`, shared with the full run): no guard, no ingest, no item
+  loop, no LLM, no run report. It commits `content: derive <date> (<sha>)` through the same leak gate and
+  `commitTracked` as the nightly, and exits non-zero on any error. `nightly.yml` runs it on a push to main that
+  touches `pipeline/link/**`, `pipeline/render/**`, `pipeline/lib/**`, `schemas/**` or `config/**`, and on
+  `workflow_dispatch`, in the same concurrency group, so it queues behind a live nightly and never runs beside one. It
+  ignores the night window because it spends nothing. Its commit touches only `content/` and `data/`, outside the
+  trigger paths, so it cannot trigger itself. `run-nightly.sh` never restarts a derive on memory (the newest run
+  report is the nightly's) and the run summary prints a derive line instead of that report. The galaxy treats a
+  `landed.json` without `changes` as "not computed yet": Videos and Posts pills only, no "Code 0"; `/changes/week/`
+  says the list is computed by the pipeline. Measured on 2026-10-08: a derive takes about 7 s on the Mac and rewrites
+  `landed.json` (82 changes) and 6 source pages. Rejected: rendering the graph in the Pages build (two truths: the
+  site would differ from the committed `data/` that agents and the MCP read), a manual-only stage (it was needed on
+  the day it shipped and nobody ran it), letting the 06/12/18 crons run full outside catch-up (budget and ingest for a
+  render problem), a post-push ubuntu job that commits (a second committer racing the Mini's checkpoints), keeping
+  "Code 0" for missing data. Spec: `docs/specs/derive-on-push.md`.
+- **D82 The changes list filters by repository, with the galaxy's pills.** The changes index listed every change
+  page of the three repositories in one list (1,083 rows on 2026-10-08: BCApps 965, AL-Go 28, BCQuality 90) and no
+  row said which repository it came from. The page gets three pills, BCApps, AL-Go and BCQuality, each with its
+  count, with the semantics of the this-week pills (D80): all on by default, each one toggles, the last one never
+  turns off, a pill with nothing behind it is disabled only while off. The state is `?repo=bcapps,al-go` in the
+  query string (commas kept readable), left out when all three are on, and a link whose repositories have no page
+  falls back to all three. A count line reads `N of M shown` while filtered; the kind counts follow the shown rows.
+  The D80 helpers move into `site/src/scripts/pills-core.ts` as generic functions over any pill set (`parsePills`,
+  `pillsParam`, `togglePill`, `usablePills`, `pillDisabled`); `galaxy-core.ts` keeps its names as wrappers and its
+  tests, and D81's galaxy pills use the generic ones over a two- or three-pill set. The pill style is the global
+  `.pills` and `.pill-btn` in `site.css` (D53: no scoped style on a 1,083-row page). Deterministic, browser-side,
+  no page in `content/` or `data/` changes. Rejected: a radio row with an All pill (a second pill pattern next to
+  D80's), one index page per repository (three more pages and 1,083 more rows in the tar, D53 and D76), the state in
+  the hash (list pages keep theirs in the query: events, atlas, search), kind pills and deep links from the Upcoming
+  page and the change page breadcrumb (later), hiding the pills without JavaScript (an inert pressed pill tells the
+  truth). Spec: `docs/specs/changes-repo-pills.md`.
