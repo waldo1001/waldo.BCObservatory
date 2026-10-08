@@ -10,7 +10,11 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-None.
+- **AL extension changelog**: `docs/specs/al-extension-changelog.md`, D85, M23. Status: proposed 2026-10-08, nothing
+  implemented. Start with section 5 tests 1-10 (the parser, `tests/unit/changelog-md.test.ts`, fixture cut from the
+  real asset with the section 7 commands), then `pipeline/ingest/changelog-md.ts` and `marketplace.ts` (phase A ships
+  alone, no page). Until it lands, the observatory holds nothing about the AL Language extension: no page, no search
+  record, no digest line; `whats_new` cannot answer "what changed in the AL extension".
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
