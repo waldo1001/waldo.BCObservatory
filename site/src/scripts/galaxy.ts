@@ -53,7 +53,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, portSpot, sortRows, toggleKind, versionMenu, WEEK_KINDS, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu, WEEK_KINDS, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -146,6 +146,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   })();
   // D80: the this-week pills (videos, posts, code) decide which stars the lens lights; the hash carries them as kinds=
   let weekKinds = new Set<WeekKind>(WEEK_KINDS);
+  const weekTotals: Record<WeekKind, number> = { v: week.items.filter((i) => i[1] === "v").length, p: week.items.filter((i) => i[1] === "p").length, c: weekChanges.length };
   let lit = new Set<string>();
   const computeLit = () => {
     lit = oldLit ?? new Set([...week.items.filter((i) => weekKinds.has(i[1] as WeekKind)).flatMap((i) => i[3]), ...(weekKinds.has("c") ? weekChanges.flatMap((c) => c[3]) : [])].filter((id) => byId.has(id)));
@@ -925,7 +926,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   /** The lens panel's week (D80): three pills, the media of the kinds that are on, then the code changes by group. */
   const weekPanel = (sys: string | null) => {
     const counts: Record<WeekKind, number> = { v: mediaIn(sys, "v").length, p: mediaIn(sys, "p").length, c: changesIn(sys).length };
-    const pill = (k: WeekKind, label: string, shape: string) => `<button type="button" class="g-kind-pill" data-kind="${k}" aria-pressed="${weekKinds.has(k)}"${counts[k] ? "" : " disabled"}><span class="g-shape ${shape}" aria-hidden="true"></span>${label} <small>${counts[k]}</small></button>`;
+    const pill = (k: WeekKind, label: string, shape: string) => `<button type="button" class="g-kind-pill" data-kind="${k}" aria-pressed="${weekKinds.has(k)}"${pillDisabled(weekKinds.has(k), counts[k]) ? " disabled" : ""}><span class="g-shape ${shape}" aria-hidden="true"></span>${label} <small>${counts[k]}</small></button>`;
     const media = weekKinds.has("v") || weekKinds.has("p") ? landedRows((hubs, k) => (weekKinds.has(k as WeekKind)) && (!sys || hubs.some((h) => byId.get(h)?.group === sys))) : "";
     const code = weekKinds.has("c") ? changesIn(sys) : [];
     return `<div class="g-kinds" role="group" aria-label="What landed">${pill("v", "Videos", "tri")}${pill("p", "Posts", "bar")}${pill("c", "Code", "dia")}</div>
@@ -1364,7 +1365,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const pick = l?.startsWith("pick:") ? l.slice(5) : null;
     if (l && !pick && lensById.has(l)) {
       lens = null;
-      if (l === "landed") { weekKinds = parseKinds(h.get("kinds")); computeLit(); }
+      if (l === "landed") { weekKinds = usableKinds(parseKinds(h.get("kinds")), weekTotals); computeLit(); }
       if (star) { level = 3; focusSys = sysById.get(star.group) ?? null; focusStar = star; }
       else if (sys) { level = 2; focusSys = sys; focusStar = null; }
       setLens(l, !!(star || sys));

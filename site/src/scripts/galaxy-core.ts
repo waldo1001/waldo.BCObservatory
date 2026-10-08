@@ -106,6 +106,15 @@ export function toggleKind(on: Set<WeekKind>, k: WeekKind): Set<WeekKind> {
   if (next.has(k)) next.delete(k); else next.add(k);
   return next.size ? next : new Set(WEEK_KINDS);
 }
+/**
+ * The pills a reader can actually use: when none of the kinds that are on has anything this week (a `kinds=c` link
+ * before the week has code changes), all three come back on, so the lens never opens empty and stuck.
+ */
+export function usableKinds(on: Set<WeekKind>, counts: Record<WeekKind, number>): Set<WeekKind> {
+  return WEEK_KINDS.some((k) => on.has(k) && counts[k] > 0) || !WEEK_KINDS.some((k) => counts[k] > 0) ? on : new Set(WEEK_KINDS);
+}
+/** A pill is disabled only when it has nothing this week and is off: a pressed pill can always be switched off. */
+export const pillDisabled = (pressed: boolean, count: number) => !pressed && count === 0;
 export type CodeGroup = "breaking" | "features" | "fixes" | "other" | "tooling";
 export const CODE_GROUPS: readonly CodeGroup[] = ["breaking", "features", "fixes", "other", "tooling"];
 /** D80: a change's group in the week's code list. Not BCApps -> tooling; then breaking, feature, fix, the rest other. */

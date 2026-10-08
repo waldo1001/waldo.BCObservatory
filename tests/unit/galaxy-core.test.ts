@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, portSpot, sortRows, toggleKind, versionMenu } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -116,4 +116,16 @@ test("week code groups (D80): tooling by repo, breaking first, then feature, fix
   assert.deepEqual(groupChanges(rows).map((g) => [g.group, g.rows.map((x) => x[0])]), [
     ["breaking", ["change/bcapps/5"]], ["features", ["change/bcapps/3"]], ["fixes", ["change/bcapps/1", "change/bcapps/4"]], ["tooling", ["change/al-go/2"]],
   ]);
+});
+
+test("this-week pills (D80): a link to an empty kind falls back to all; a pressed pill is never disabled", () => {
+  const sorted = (s: Set<string>) => [...s].sort().join("");
+  // the live site before the nightly wrote `changes`: kinds=c would open on nothing, with the Code pill stuck
+  assert.equal(sorted(usableKinds(new Set(["c"]), { v: 2, p: 18, c: 0 })), "cpv");
+  assert.equal(sorted(usableKinds(new Set(["c"]), { v: 2, p: 18, c: 82 })), "c");
+  assert.equal(sorted(usableKinds(new Set(["v", "c"]), { v: 2, p: 18, c: 0 })), "cv", "one usable kind is enough");
+  assert.equal(sorted(usableKinds(new Set(["c"]), { v: 0, p: 0, c: 0 })), "c", "an empty week stays as asked");
+  assert.equal(pillDisabled(true, 0), false);
+  assert.equal(pillDisabled(false, 0), true);
+  assert.equal(pillDisabled(false, 3), false);
 });
