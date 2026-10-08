@@ -15,6 +15,13 @@ spec path, decision, milestone, status and where to start; a coding session take
   real asset with the section 7 commands), then `pipeline/ingest/changelog-md.ts` and `marketplace.ts` (phase A ships
   alone, no page). Until it lands, the observatory holds nothing about the AL Language extension: no page, no search
   record, no digest line; `whats_new` cannot answer "what changed in the AL extension".
+- **Search**: `docs/specs/search.md`, D86, M24. Status: proposed 2026-10-08, nothing implemented. Start with
+  phase A task 1: `packages/search` (parser, synonyms, scorer, hints) and `tests/unit/search-core.test.ts` from the
+  spec's section 4.1-4.2 tables, then the golden fixture of section 5; phase A ships alone with a site build. Until it
+  lands: `Sales Header` lists table extensions above Table 36, `cu 80` and `t36` find nothing outside the Ctrl+K
+  palette, events, fields and procedures are not searchable anywhere, `36` matches "Microsoft 365", the MCP ranks
+  differently from the site and its `system` filter never matches an object, and every search page view downloads
+  the whole 13 MB index.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
