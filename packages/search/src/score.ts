@@ -364,10 +364,13 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   s += countryPoints(q, r, country);
   if (q.types.length && objectish) s += 3;
   s = lift(s);
-  // 25k object pages and 120k symbols would drown a generic query: a digit, a type word, a member word, a kind or the
-  // name lifts the demotion (the name, not the caption: "subscription" is the caption of Table 8057 "Subscription
-  // Header" and Page 8060 "Service Object", and must not lift them over the Subscription billing hub)
-  if (objectish && !q.kind && !q.types.length && !(eq && byName) && !/\d/.test(q.raw) && !OBJECT_WORDS.test(q.raw)) { s *= 0.6; why.push("demoted"); }
+  // 25k object pages and 120k symbols would drown a generic query: a digit, a type word, a member word or a kind lifts
+  // the demotion; for an object page also its name (the name, not the caption: "subscription" is the caption of Table
+  // 8057 "Subscription Header" and must not lift it over the Subscription billing hub); for a symbol an event-shaped
+  // word ("OnAfterPostSalesDoc"), not its name (six enum values are named "Posting")
+  const lifted = q.kind || q.types.length || /\d/.test(q.raw) || OBJECT_WORDS.test(q.raw)
+    || (object && eq && byName) || (symbol && ms.some((m) => /^on[a-z]/.test(m.term.text) && m.term.alts.some((a) => a.startsWith("on "))));
+  if (objectish && !lifted) { s *= 0.6; why.push("demoted"); }
   return { s, why };
 }
 function countryPoints(q: ParsedQuery, r: SearchRecord, country: string | null): number {
@@ -403,7 +406,8 @@ export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kin
     if (opts.kinds && !opts.kinds.includes(r.kind)) continue;
     if (opts.filter && !opts.filter(r)) continue;
     const { s, why } = scoreRecord(index, r, q);
-    if (s > 0) hits.push({ r, s, why, band: s >= 900 || why.includes("name") ? "exact" : "match" });
+    // the exact band: a reference, or the record's own name equal to the query and not demoted as generic
+    if (s > 0) hits.push({ r, s, why, band: s >= 900 || (why.includes("name") && !why.includes("demoted")) ? "exact" : "match" });
   }
   hits.sort(byRank);
   return opts.limit ? hits.slice(0, opts.limit) : hits;

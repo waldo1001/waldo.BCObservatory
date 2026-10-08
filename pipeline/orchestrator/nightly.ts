@@ -54,7 +54,8 @@ import { narrateChangeWeeks } from "../summarize/changes-week.js";
 import { refreshFileIndex } from "../code/files-index.js";
 import { githubCalls } from "../lib/github.js";
 import { renderSearchIndex } from "../render/search.js";
-import { renderObjectsIndex } from "../render/objects-index.js";
+import { objectPagesByKey, renderObjectsIndex, type ObjectPages } from "../render/objects-index.js";
+import { renderSymbolsIndex } from "../render/symbols-index.js";
 import { renderDigests } from "../render/digest.js";
 import { renderGraph } from "../link/graph.js";
 import { renderSourcesAndCoverage } from "../render/source.js";
@@ -473,7 +474,10 @@ export async function renderDerived(opts: NightlyOptions, now: Date, date: strin
   });
   await phase("sources", async () => { try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); } });
   await phase("search-index", async () => { try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); } });
-  await phase("objects-index", async () => { try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
+  // the object pages are read once for both (D86): objects.json, fields.json, events.json, then the symbols index
+  let objectPages: ObjectPages | null = null;
+  await phase("objects-index", async () => { try { objectPages = objectPagesByKey(contentDirOf(opts)); renderObjectsIndex(contentDirOf(opts), opts.dataDir, objectPages); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
+  await phase("symbols-index", async () => { try { renderSymbolsIndex(contentDirOf(opts), opts.dataDir, objectPages ?? undefined); } catch (e) { errors.push(`symbols index: ${(e as Error).message.slice(0, 200)}`); } });
   await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, "", { today: date }); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
 }
 

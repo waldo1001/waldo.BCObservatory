@@ -2,11 +2,11 @@
  * The object finder (D46): Ctrl/Cmd+K (or the header button) opens a palette that jumps to an AL object. `t18`,
  * `table 18`, `cu 80`, `Customer`, `page customer list` and `field:Posting Date` all work. Names rank with the shared
  * scorer of packages/search (D86), so the palette, the search page and the MCP agree. The palette reads the object
- * shards of the shared search index (index-loader.ts) when it first opens, never with the page; findObjects keeps
- * the explorer's lookup over index/objects.json rows.
+ * shards of the shared search index (index-loader.ts) when it first opens, never with the page, and a symbol shard on
+ * a `field:`, `event:`, `proc:` or `value:` prefix; findObjects keeps the explorer's lookup over index/objects.json.
  */
-import { countriesOf, hrefOf, parseQuery, prepare, search, type Index, type SearchRecord } from "@bc-observatory/search";
-import { loadPages } from "./index-loader.js";
+import { countriesOf, hrefOf, parseQuery, prepare, search, symbolLine, type Index, type SearchRecord } from "@bc-observatory/search";
+import { kindsFor, loadPages, loadSymbols } from "./index-loader.js";
 
 type Row = [string, string, number | null, string, string | null, string | null, string | null, ...unknown[]]; // pk, type, id, name, app, ns, obsolete (+ atlas columns)
 interface Hit { row: Row; note?: string; rank: number }
@@ -72,47 +72,36 @@ export function findObjects(rows: Row[], q: string, fields?: Record<string, stri
 export interface PalHit { href: string; title: string; sub: string; note?: string }
 
 /**
- * The palette over the shared index's object records (D86 2.2): a reference with the ids that start with its digits,
- * else names ranked by the shared scorer; `field:` lists the objects that have a field of that name (fields.json).
+ * The palette over the shared index (D86 2.2): a reference with the ids that start with its digits, else names ranked
+ * by the shared scorer; `field:`, `event:`, `proc:` and `value:` list the symbols of that name, under their objects.
  */
-export function paletteHits(index: Index, q: string, fields?: Record<string, string[]>): PalHit[] {
+export function paletteHits(index: Index, q: string): PalHit[] {
   const s = q.trim();
   if (!s) return [];
-  const objects = index.byType.get("object") ?? [];
-  const recs = objects.map((i) => index.records[i]);
-  const hit = (r: SearchRecord, note?: string): PalHit => ({ href: r.id, title: r.title, sub: [r.app ?? "", r.page?.namespace ?? ""].filter(Boolean).join(" · ") + (r.page?.obsolete && r.page.obsolete !== "No" ? " · obsolete" : ""), ...(note ? { note } : {}) });
-  const fieldQ = /^field:\s*(.*)$/i.exec(s);
-  if (fieldQ) {
-    if (!fields) return [];
-    const needle = fieldQ[1].toLowerCase().trim();
-    if (!needle) return [];
-    const byPk = new Map(recs.map((r) => [r.id.slice("objects/".length), r]));
-    const out: { h: PalHit; rank: number }[] = [];
-    for (const [name, pks] of Object.entries(fields)) {
-      const rank = name === needle ? 0 : name.startsWith(needle) ? 1 : name.includes(needle) ? 2 : -1;
-      if (rank < 0) continue;
-      for (const pk of pks) { const r = byPk.get(pk); if (r) out.push({ h: hit(r, `field "${name}"`), rank }); }
-    }
-    return out.sort((a, b) => a.rank - b.rank || a.h.title.localeCompare(b.h.title, "en", { numeric: true })).slice(0, 60).map((x) => x.h);
-  }
   const pq = parseQuery(s, { countries: countriesOf(index) });
+  if (pq.kind) {
+    if (!pq.terms.length) return [];
+    return search(index, pq, { kinds: [pq.kind], limit: 60 }).map((h) => ({ href: h.r.id, title: `${h.r.name}`, sub: symbolLine(h.r), ...(h.why.find((w) => w.startsWith("matched ")) ? { note: h.why.find((w) => w.startsWith("matched "))! } : {}) }));
+  }
+  const objects = index.byType.get("object") ?? [];
+  const hit = (r: SearchRecord, note?: string): PalHit => ({ href: r.id, title: r.title, sub: [r.app ?? "", r.page?.namespace ?? ""].filter(Boolean).join(" · ") + (r.page?.obsolete && r.page.obsolete !== "No" ? " · obsolete" : ""), ...(note ? { note } : {}) });
   const hits = search(index, pq, { kinds: ["page"], filter: (r) => r.type === "object" }).slice(0, 60).map((h) => hit(h.r, h.why.find((w) => w.startsWith("matched "))));
   if (pq.ref) {
     const ref = pq.ref, digits = String(ref.id);
-    const more = recs.filter((r) => r.objectType === ref.type && r.objectId != null && !r.country && String(r.objectId).startsWith(digits) && r.objectId !== ref.id).sort((a, b) => (a.objectId ?? 0) - (b.objectId ?? 0));
+    const more = objects.map((i) => index.records[i]).filter((r) => r.objectType === ref.type && r.objectId != null && !r.country && String(r.objectId).startsWith(digits) && r.objectId !== ref.id).sort((a, b) => (a.objectId ?? 0) - (b.objectId ?? 0));
     hits.push(...more.slice(0, 20).map((r) => hit(r)));
   }
   return hits;
 }
 
 export function mountPalette(base: string): void {
-  let fields: Promise<Record<string, string[]>> | null = null;
   const load = () => loadPages(base, ["objects"]).catch(() => null);
-  const loadFields = () => (fields ??= fetch(`${base}index/fields.json`).then((r) => r.json()).then((j) => j.fields as Record<string, string[]>).catch(() => ({})));
+  // a field:, event:, proc: or value: prefix loads that symbol shard (D86 2.2)
+  const loadKind = (q: string, index: Index) => { const pq = parseQuery(q, { countries: countriesOf(index) }); return pq.kind ? loadSymbols(base, kindsFor(pq)).catch(() => index) : Promise.resolve(index); };
   const dlg = document.createElement("dialog");
   dlg.className = "pal";
   dlg.innerHTML = `<form method="dialog" class="pal-form"><label class="skip" for="pal-q">Find an AL object</label>
-    <input id="pal-q" type="search" autocomplete="off" spellcheck="false" placeholder="table 18, cu 80, Customer, page customer list, field:Posting Date" />
+    <input id="pal-q" type="search" autocomplete="off" spellcheck="false" placeholder="t18, cu 80, Customer, page customer list, field:Posting Date, event:OnAfterPost" />
     <button type="submit" class="icon-btn" aria-label="Close">×</button></form>
     <p class="pal-status meta" aria-live="polite">Type to find an object. Enter opens it; ↑↓ move; Esc closes.</p>
     <ul class="pal-list" role="listbox" aria-label="Objects"></ul>`;
@@ -127,13 +116,14 @@ export function mountPalette(base: string): void {
   let timer = 0;
   const run = async () => {
     const q = input.value;
-    const index = await load();
-    const f = /^field:/i.test(q) ? await loadFields() : undefined;
+    let index = await load();
+    if (index) index = await loadKind(q, index);
     if (input.value !== q) return;
     if (!index) { status.textContent = "The object index is not available right now."; return; }
-    hits = paletteHits(index, q, f); active = 0;
+    hits = paletteHits(index, q); active = 0;
     const n = index.byType.get("object")?.length ?? 0;
-    status.textContent = q.trim() ? (hits.length ? `${hits.length === 60 ? "First 60" : hits.length} objects` : "No object matches. Try a type and id (t18), a name, or field:Name.") : `${n.toLocaleString("en")} AL objects. Type to find one.`;
+    const what = /^\s*(fields?|events?|procs?|procedures?|values?)\s*:/i.test(q) ? "members" : "objects";
+    status.textContent = q.trim() ? (hits.length ? `${hits.length === 60 ? "First 60" : hits.length} ${what}` : "No match. Try a type and id (t18), a name, or field:, event:, proc: and a name.") : `${n.toLocaleString("en")} AL objects. Type to find one.`;
     render();
   };
   const open = () => { if (!dlg.open) dlg.showModal(); input.select(); load().then(() => { if (!input.value) run(); }); };

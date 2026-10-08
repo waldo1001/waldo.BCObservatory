@@ -10,7 +10,7 @@
 import {
   hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
 } from "@bc-observatory/search";
-import { countriesNow, loadPages } from "./index-loader.js";
+import { countriesNow, kindsFor, loadPages, loadSymbols } from "./index-loader.js";
 
 /** An index row: a page record of data/index/pages-*.json. */
 export type Row = PageRecord;
@@ -119,7 +119,8 @@ export function resultsHtml(groups: Group[], base: string, tab: string): string 
 
 /**
  * "Exactly this", above the groups: the referenced object with its country twins as links ("also in BE, NL"), the
- * objects carrying a bare number across types, or the first symbols of a kind: query.
+ * objects carrying a bare number across types, a country's localization page for its code alone, or the first symbols
+ * of a kind: query.
  */
 export function exactHtml(q: ParsedQuery, hits: Hit[], base: string): string {
   let body = "";
@@ -132,6 +133,11 @@ export function exactHtml(q: ParsedQuery, hits: Hit[], base: string): string {
     const ids = hits.filter((h) => !h.r.country).slice(0, 12);
     if (!ids.length) return "";
     body = `<ul class="rows">${ids.map((h) => rowHtml(h, base, false)).join("")}</ul>`;
+  } else if (q.countries.length && !q.terms.length) {
+    // a country code alone ("BE") opens on its localization page, above the country layer's objects
+    const loc = hits.filter((h) => h.r.type === "localization" && h.band === "exact");
+    if (!loc.length) return "";
+    body = `<ul class="rows">${loc.map((h) => rowHtml(h, base, false)).join("")}</ul>`;
   } else if (q.kind) {
     const syms = hits.filter((h) => h.r.kind === q.kind).slice(0, 5);
     if (!syms.length) return "";
@@ -177,7 +183,19 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
   let index: Index, waiting = "";
   try { index = await loadPages(base, ["hubs", "media"]); } catch { status.textContent = "The search index is not available right now."; return; }
   waiting = "loading AL objects…";
-  const objects = loadPages(base, ["objects"]).then(() => { waiting = ""; run(); }).catch(() => { waiting = ""; run(); });
+  let objectsIn = false;
+  const objects = loadPages(base, ["objects"]).then(() => { objectsIn = true; waiting = ""; run(); }).catch(() => { waiting = ""; run(); });
+  // the symbols (fields, events, procedures, values) after the objects: in an idle callback, at once for a kind: query
+  const asked = new Set<string>();
+  const idle = (f: () => void) => { if (typeof requestIdleCallback === "function") requestIdleCallback(f, { timeout: 2000 }); else setTimeout(f, 200); };
+  const wantSymbols = (q: ParsedQuery) => {
+    const need = kindsFor(q).filter((k) => !asked.has(k));
+    if (!need.length) return;
+    for (const k of need) asked.add(k);
+    waiting = "loading symbols…";
+    const go = () => loadSymbols(base, need).then(() => { waiting = ""; run(); }).catch(() => { waiting = ""; });
+    if (q.kind) go(); else idle(go);
+  };
   const paintTabs = (counts: Map<string, number> | null) => {
     const all = counts ? [...counts.values()].reduce((a, c) => a + c, 0) : null;
     for (const b of tabs()) {
@@ -198,6 +216,7 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     history.replaceState(null, "", url);
     if (!raw) { out.innerHTML = ""; hintsEl.innerHTML = ""; paintTabs(null); status.textContent = `${index.records.length.toLocaleString("en")} pages indexed. Try "t18", "Sales-Post", "OnAfterPostSalesDoc" or "BE".`; return; }
     const q = parse(raw, index);
+    if (objectsIn) wantSymbols(q);
     const hits = search(index, q);
     const groups = groupHits(hits);
     paintTabs(new Map(groups.map((g) => [g.def.id, g.hits.length])));

@@ -26,8 +26,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import {
-  countriesOf, hints, pageToRecord, parseQuery, prepare, search as rank, symbolLine, systemOf, typeOfWord,
-  type Hit, type Index, type PageRecord, type SearchRecord,
+  KIND_OF, countriesOf, hints, pageToRecord, parseQuery, prepare, search as rank, symbolLine, symbolRecords, systemOf, typeOfWord,
+  type Hit, type Index, type PageRecord, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 
@@ -84,9 +84,24 @@ async function loadIndex(): Promise<void> {
   if (!LOCAL) mkdirSync(cacheDir, { recursive: true });
   for (const s of manifest.shards) all.push(...(JSON.parse(await shard(s.file, s.sha256)) as PageRecord[]));
   pages = all;
-  index = prepare(all.map(pageToRecord));
+  const idx = prepare(all.map(pageToRecord));
+  // the symbols index (D86 4.4): fields, events, global procedures and enum values, under their objects' records
+  let sm: SymbolsManifest | null = null;
+  try { sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest; } catch { sm = null; }
+  if (sm) {
+    const byPath = new Map(idx.records.map((r) => [r.id, r]));
+    for (const [k, e] of Object.entries(sm.kinds) as [SymbolShard, SymbolsManifest["kinds"][SymbolShard]][]) {
+      const files = e.files ?? (e.file ? [e.file] : []);
+      for (const f of files) {
+        const doc = JSON.parse(await shard(f, files.length === 1 ? e.sha256 : `${e.sha256}-${f}`)) as { rows: unknown[][] };
+        prepare(symbolRecords(KIND_OF[k], doc.rows, (pk) => byPath.get(`objects/${pk}`)), idx);
+      }
+    }
+  }
+  index = idx;
   loadedAt = Date.now();
 }
+interface SymbolsManifest { major: string; kinds: Record<SymbolShard, { file?: string; files?: string[]; sha256: string; count: number }> }
 
 const url = (path: string) => `${SITE}${path}/`;
 const line = (r: PageRecord, tag = "") => `- ${r.title}${r.caption ? ` (captioned "${r.caption}")` : ""} [${r.type}${r.tier ? `, ${r.tier}` : ""}${r.date ? `, ${r.date}` : ""}] path=${r.path}${tag}${r.path_label ? `\n  in: ${r.path_label}` : ""}${r.stats ? `\n  ${r.stats}` : ""}\n  ${r.summary}`;
@@ -316,8 +331,8 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path).",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, AL object name and caption, summary, tags) with the site's own scorer: per query word title or caption 3, tags 2, summary 1, through the exact word, a prefix, the plural, a synonym (client = customer, G/L = general ledger) or one typo; a name equal to the query +10; an object reference ('t36', 'cu 80', 'table 11300 BE') or a bare id ('36') goes straight to the object; base app before first-party app before country layer, then an object's importance (what references, calls and documents it); hubs by size and review state. Hybrid by default: the exact band (references and exact names) stays on top and the rest is fused with a meaning ranking, so a paraphrase still finds the page; each hit says [keyword], [meaning] or [both]. mode 'keyword' for the scorer alone, 'semantic' for meaning only. Filters: type (topic, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table').",
-    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, AL object name and caption, summary, tags) with the site's own scorer: per query word title or caption 3, tags 2, summary 1, through the exact word, a prefix, the plural, a synonym (client = customer, G/L = general ledger) or one typo; a name equal to the query +10; an object reference ('t36', 'cu 80', 'table 11300 BE') or a bare id ('36') goes straight to the object; base app before first-party app before country layer, then an object's importance (what references, calls and documents it); hubs by size and review state. Hybrid by default: the exact band (references and exact names) stays on top and the rest is fused with a meaning ranking, so a paraphrase still finds the page; each hit says [keyword], [meaning] or [both]. mode 'keyword' for the scorer alone, 'semantic' for meaning only. Fields, published events, global procedures and enum values (W1 and apps, the major the object pages are built from) are searchable too ('OnAfterPostSalesDoc', 'Posting Date', or a prefix: 'event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit names its object and its path ends in #event-<Name>, #field-<id>, #proc-<Name> or #value-<ordinal>. Filters: type (topic, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
+    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));

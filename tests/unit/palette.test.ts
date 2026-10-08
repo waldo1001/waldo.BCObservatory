@@ -48,5 +48,10 @@ test("the palette reads the shared index's object records: references with the i
   assert.deepEqual(paletteHits(index, "t18").map((h) => h.href), ["objects/table/18", "objects/table/18-be", "objects/table/1800"]);
   assert.deepEqual(paletteHits(index, "customer").map((h) => h.href).slice(0, 2), ["objects/table/18", "objects/table/18-be"], "objects only, the base first");
   assert.equal(paletteHits(index, "t18")[0].sub, "Base Application · Microsoft.Sales.Customer");
-  assert.deepEqual(paletteHits(index, "field:posting", { "posting date": ["page/21"] }).map((h) => [h.href, h.note]), [["objects/page/21", 'field "posting date"']]);
+  const { symbolToRecord } = await import("@bc-observatory/search");
+  const t18 = index.records.find((r) => r.id === "objects/table/18")!;
+  prepare([symbolToRecord("field", ["table/18", "Posting Date", 5, "Date", null], t18), symbolToRecord("event", ["table/18", "OnAfterX", "integration", 0, null, null], t18)], index);
+  assert.deepEqual(paletteHits(index, "field:posting").map((h) => [h.href, h.title, h.sub]), [["objects/table/18#field-5", "Posting Date", 'field 5 of Table 18 "Customer" · Date']], "field: lists fields, linked to their row");
+  assert.deepEqual(paletteHits(index, "event:OnAfter").map((h) => h.href), ["objects/table/18#event-OnAfterX"]);
+  assert.ok(!paletteHits(index, "posting").some((h) => h.href.includes("#")), "without a prefix the palette lists objects only");
 });

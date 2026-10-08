@@ -45,7 +45,9 @@ export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
   }
   // 3. typos
   for (const t of typoWords(index, q)) {
-    const words = t.words.map((w) => ({ w, n: index.vocab.get(w) ?? 0 })).sort((a, b) => b.n - a.n).slice(0, 3);
+    // how many pages carry the word (symbols are not pages)
+    const pagesWith = (w: string) => (index.postings.get(w) ?? []).reduce((n, i) => n + (index.records[i].kind === "page" ? 1 : 0), 0);
+    const words = t.words.map((w) => ({ w, n: pagesWith(w) })).sort((a, b) => b.n - a.n).slice(0, 3);
     const swap = (w: string) => q.raw.replace(new RegExp(t.term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"), w);
     out.push({ text: `${t.term}: no page; ${words.map((x) => `${x.w} (${x.n.toLocaleString("en")} ${x.n === 1 ? "page" : "pages"})`).join(", ")}`, query: swap(words[0].w) });
   }

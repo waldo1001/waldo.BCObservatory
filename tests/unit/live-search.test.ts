@@ -137,6 +137,7 @@ test("the results page: Exactly this, country layers after the apps, symbol grou
   assert.match(exact, /also in <a href="\/b\/objects\/table\/36-be\/">BE<\/a>, <a href="\/b\/objects\/table\/36-nl\/">NL<\/a>/);
   assert.match(exactHtml(parse("36", index), rank(index, "36"), "/b/"), /Table 36[\s\S]*Page 36/, "a bare number lists the id across types");
   assert.equal(exactHtml(parse("sales header", index), rank(index, "sales header"), "/b/"), "", "words get no exact block");
+  assert.match(exactHtml(parse("BE", index), rank(index, "BE"), "/b/"), /Exactly this[\s\S]*href="\/b\/localizations\/be\/">Belgium \(BE\)/, "a country code alone opens on its localization page");
   const groups = groupHits(rank(index, "Sales Header"));
   assert.deepEqual(byApp(groups.find((g) => g.def.id === "object")!.hits).map(([a]) => a), ["Base Application", "Subscription Billing", "BE layer", "NL layer"]);
   assert.equal(groupOf({ type: "object", kind: "event" }), "event");
@@ -144,4 +145,24 @@ test("the results page: Exactly this, country layers after the apps, symbol grou
   assert.equal(hintsHtml([{ text: 'Did you mean "cu 80" (codeunit 80)?', query: "cu 80" }], "/b/"), '<p class="sr-hints"><a href="/b/search/?q=cu%2080" data-q="cu 80">Did you mean &quot;cu 80&quot; (codeunit 80)?</a></p>');
   assert.equal(hintsHtml([{ text: "For how-to, start with the hub: Sales.", path: "topics/sales" }], "/b/"), '<p class="sr-hints">For how-to, start with the hub: <a href="/b/topics/sales/">Sales</a>.</p>');
   assert.equal(hintsHtml([], "/b/"), "");
+});
+
+test("object pages anchor every field, value, published event and procedure (D86 4.5)", async () => {
+  const cwd = process.cwd();
+  process.chdir(new URL("../../site/", import.meta.url).pathname); // versions.ts reads ../config at import
+  const { anchorMembers } = await import("../../site/src/lib/versions.js");
+  process.chdir(cwd);
+  const html = `<h2 id="fields">Fields</h2>\n<table><tbody>\n<tr>\n<td>20</td>\n<td>Posting Date</td>\n</tr>\n</tbody></table>
+<h2 id="events-published">Events published</h2>\n<ul>\n<li><code>OnAfterPostSalesDoc(var SalesHeader: Record "Sales Header")</code> (integration)</li>\n</ul>
+<h2 id="procedures">Procedures</h2>\n<ul>\n<li><code>CopyToTempLines(SalesHeader: Record "Sales Header")</code>: copies</li>\n</ul>
+<h2 id="values">Values</h2>\n<table><tbody>\n<tr>\n<td>3</td>\n<td>Credit Memo</td>\n</tr>\n</tbody></table>
+<h2 id="keys">Keys</h2>\n<table><tbody>\n<tr>\n<td>1</td>\n<td>PK</td>\n</tr>\n</tbody></table>
+<h2 id="event-subscriptions">Event subscriptions</h2>\n<ul>\n<li><code>OnX(a)</code></li>\n</ul>`;
+  const out = anchorMembers(html);
+  assert.match(out, /<tr id="field-20">\n<td>20<\/td>/);
+  assert.match(out, /<li id="event-OnAfterPostSalesDoc"><code>OnAfterPostSalesDoc\(/);
+  assert.match(out, /<li id="proc-CopyToTempLines"><code>CopyToTempLines\(/);
+  assert.match(out, /<tr id="value-3">/);
+  assert.doesNotMatch(out, /id="field-1"|id="value-1"/, "other tables keep their rows plain");
+  assert.match(out, /<li><code>OnX\(/, "subscriptions are not published events");
 });

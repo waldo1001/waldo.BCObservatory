@@ -75,4 +75,19 @@ export function markMembers(html: string, h: ObjectHistory | null): string {
   return out;
 }
 
+/**
+ * Per-member anchors (D86 4.5), so a search hit on a symbol lands on its row: `id="field-<id>"` on a row of the Fields
+ * table, `id="value-<ordinal>"` on a row of the Values table, `id="event-<Name>"` on an item under "Events published",
+ * `id="proc-<Name>"` under "Procedures". The same two shapes markMembers reads; AL has no overloading, so a name is
+ * unique per object. The markdown twins keep their section anchors only.
+ */
+export function anchorMembers(html: string): string {
+  const row = (part: string, kind: string) => part.replace(/<tr>(\s*)<td>(\d+)<\/td>/g, (_m, sp: string, id: string) => `<tr id="${kind}-${id}">${sp}<td>${id}</td>`);
+  const item = (part: string, kind: string) => part.replace(/<li><code>([A-Za-z_][\w]*)\(/g, (_m, name: string) => `<li id="${kind}-${name}"><code>${name}(`);
+  return html.split(/(?=<h2 id=")/).map((part) => {
+    const id = /^<h2 id="([^"]+)"/.exec(part)?.[1];
+    return id === "fields" ? row(part, "field") : id === "values" ? row(part, "value") : id === "events-published" ? item(part, "event") : id === "procedures" ? item(part, "proc") : part;
+  }).join("");
+}
+
 const decode = (s: string) => s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");

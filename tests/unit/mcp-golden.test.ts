@@ -38,6 +38,14 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
       }
     }
     assert.deepEqual(failures, []);
+    // a symbol hit names what it is and where, its path carries the anchor, the doc line follows (D86 2.3)
+    if (symbols) {
+      const ev = await call("search", { query: "OnAfterPostSalesDoc", limit: 3 });
+      assert.match(ev, /^- OnAfterPostSalesDoc \(event of Codeunit 80 "Sales-Post", integration, \d+ subscribers?\) path=objects\/codeunit\/80#event-OnAfterPostSalesDoc \[keyword\]\n  \S/m);
+      assert.match(ev.split("\n")[0], /^\d+ results, keyword \(exact band: 1\)/);
+      assert.match(await call("search", { query: "Posting Date", kind: "field", limit: 3 }), /^- Posting Date \(field \d+ of Table \d+ "[^"]+", Date\) path=objects\/table\/\d+#field-\d+/m);
+      assert.doesNotMatch(await call("search", { query: "Posting Date", kind: "page", limit: 10 }), /#field-/);
+    }
     // get_object resolves names, captions, country objects and references
     assert.match(await call("get_object", { type: "table", idOrName: "Sales Header" }), /^---\nid: object\/table\/36\n/);
     assert.match(await call("get_object", { type: "codeunit", idOrName: "Sales-Post" }), /^---\nid: object\/codeunit\/80\n/);

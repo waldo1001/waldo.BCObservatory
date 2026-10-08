@@ -7,7 +7,7 @@ import Neighbourhood from "../../../components/Neighbourhood.astro";
 import OneHop from "../../../components/OneHop.astro";
 import { siteLinks, wrapTables } from "../../../lib/links";
 import { objectSystem, trimBody } from "../../../lib/page";
-import { markMembers, objectHistory } from "../../../lib/versions";
+import { anchorMembers, markMembers, objectHistory } from "../../../lib/versions";
 import type { Lookup } from "../../../lib/relations";
 export async function getStaticPaths() {
   const all = await getCollection("objects");
@@ -27,7 +27,8 @@ const base = import.meta.env.BASE_URL;
 const fm = entry.data;
 const history = objectHistory(entry.id);
 // the timeline component replaces the markdown's short "Across versions" list
-const html = markMembers(trimBody(siteLinks(entry.rendered?.html ?? "", base, `objects/${entry.id}`)), history)
+// D86: per-member anchors (#field-20, #event-OnAfterPostSalesDoc) for the search's symbol hits
+const html = anchorMembers(markMembers(trimBody(siteLinks(entry.rendered?.html ?? "", base, `objects/${entry.id}`)), history))
   .replace(/<h2 id="across-versions">[\s\S]*?(?=<h2|$)/, "");
 const c = fm.counts ?? {};
 const stats = [

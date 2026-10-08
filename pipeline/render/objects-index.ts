@@ -27,7 +27,9 @@ export interface FieldsIndex { schema: "bcobs-fields@1"; major: string | null; c
 export type EventRow = [string, string, string, string | null, [string, string][]];
 export interface EventsIndex { schema: "bcobs-events@1"; major: string | null; count: number; subscriptions: number; rows: EventRow[] }
 
-export function renderObjectsIndex(contentDir: string, dataDir: string): { objects: number; fields: number; events: number; field_docs: number } {
+/** The object pages, read once (D86): objects.json rows and the page key of every W1 and app object by its code key. */
+export interface ObjectPages { rows: ObjectRow[]; pageOfKey: Map<string, string> }
+export function objectPagesByKey(contentDir: string): ObjectPages {
   const rows: ObjectRow[] = [];
   const pageOfKey = new Map<string, string>();
   const root = resolve(contentDir, "objects");
@@ -42,13 +44,22 @@ export function renderObjectsIndex(contentDir: string, dataDir: string): { objec
     if (!fm.country) pageOfKey.set(objectKey({ type: fm.object_type, id: fm.object_id ?? null, name: String(fm.name) }), pk);
   }
   rows.sort((a, b) => a[0].localeCompare(b[0]));
+  return { rows, pageOfKey };
+}
+/** The major the object pages are rendered from: the first of narrative_order with a W1 snapshot. */
+export function pagesMajor(dataDir: string): string | null {
+  const v = loadConfig<{ narrative_order: string[] }>("versions");
+  return v.narrative_order.find((m) => exists(resolve(snapshotDir(dataDir, m, "w1"), "manifest.json"))) ?? null;
+}
+
+export function renderObjectsIndex(contentDir: string, dataDir: string, pages: ObjectPages = objectPagesByKey(contentDir)): { objects: number; fields: number; events: number; field_docs: number } {
+  const { rows, pageOfKey } = pages;
   const dir = resolve(dataDir, "index");
   const write = (name: string, obj: unknown) => { const p = resolve(dir, name), text = `${JSON.stringify(obj)}\n`; if (!exists(p) || readText(p) !== text) writeText(p, text); };
   write("objects.json", { schema: "bcobs-objects@1", count: rows.length, rows } satisfies ObjectsIndex);
 
   // fields from the preferred major (the one the pages are rendered from), W1 + first-party apps
-  const v = loadConfig<{ narrative_order: string[] }>("versions");
-  const major = v.narrative_order.find((m) => exists(resolve(snapshotDir(dataDir, m, "w1"), "manifest.json"))) ?? null;
+  const major = pagesMajor(dataDir);
   const fields = new Map<string, Set<string>>();
   if (major) {
     for (const part of ["w1", APPS]) {
