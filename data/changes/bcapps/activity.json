@@ -1,6 +1,110 @@
 {
   "open": [
     {
+      "number": 12517,
+      "title": "Suppress AS0099 for existing extension field IDs",
+      "url": "https://github.com/microsoft/BCApps/pull/12517",
+      "base": "main",
+      "major": "30",
+      "author": "thloke",
+      "labels": [
+        "AL: Apps (W1)"
+      ],
+      "draft": true,
+      "created_at": "2026-10-08T05:36:09Z",
+      "updated_at": "2026-10-08T05:36:28Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12518,
+      "title": "[29.X]Page cannot open because of FlowField 'Last Run By User'- #12304",
+      "url": "https://github.com/microsoft/BCApps/pull/12518",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "neeleshsinghal",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-08T05:36:10Z",
+      "updated_at": "2026-10-08T05:36:13Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12516,
+      "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
+      "url": "https://github.com/microsoft/BCApps/pull/12516",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-07T23:22:16Z",
+      "updated_at": "2026-10-08T05:24:23Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11850,
+      "title": "[master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.",
+      "url": "https://github.com/microsoft/BCApps/pull/11850",
+      "base": "main",
+      "major": "30",
+      "author": "neeleshsinghal",
+      "labels": [
+        "Ownership: Manual",
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-09-24T12:23:20Z",
+      "updated_at": "2026-10-08T05:21:39Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12465,
+      "title": "[main] Wrong Financial entries in Import Duty GST Calculation",
+      "url": "https://github.com/microsoft/BCApps/pull/12465",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": true,
+      "created_at": "2026-10-07T08:26:34Z",
+      "updated_at": "2026-10-08T04:17:21Z",
+      "community_contribution": false
+    },
+    {
+      "number": 12461,
+      "title": "[29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
+      "url": "https://github.com/microsoft/BCApps/pull/12461",
+      "base": "releases/29.x",
+      "major": "29",
+      "author": "sanjmaurya",
+      "labels": [
+        "Team: SCM"
+      ],
+      "draft": false,
+      "created_at": "2026-10-07T06:51:18Z",
+      "updated_at": "2026-10-08T04:14:56Z",
+      "community_contribution": false
+    },
+    {
+      "number": 11757,
+      "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
+      "url": "https://github.com/microsoft/BCApps/pull/11757",
+      "base": "main",
+      "major": "30",
+      "author": "Shikhverma",
+      "labels": [
+        "Team: Finance"
+      ],
+      "draft": false,
+      "created_at": "2026-09-23T08:07:54Z",
+      "updated_at": "2026-10-08T04:03:27Z",
+      "community_contribution": false
+    },
+    {
       "number": 12514,
       "title": "Revert Expense API test re-enablement and consolidated fixes",
       "url": "https://github.com/microsoft/BCApps/pull/12514",
@@ -64,37 +168,6 @@
       "community_contribution": false
     },
     {
-      "number": 11757,
-      "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
-      "url": "https://github.com/microsoft/BCApps/pull/11757",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-09-23T08:07:54Z",
-      "updated_at": "2026-10-08T01:04:09Z",
-      "community_contribution": false
-    },
-    {
-      "number": 11850,
-      "title": "[master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.",
-      "url": "https://github.com/microsoft/BCApps/pull/11850",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Ownership: Manual",
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-09-24T12:23:20Z",
-      "updated_at": "2026-10-08T01:04:02Z",
-      "community_contribution": false
-    },
-    {
       "number": 11855,
       "title": "[Master]-Dispute Status code is not retained in some scenarios within the Vendor/Purchase Side, but works well in Customer/Sales side",
       "url": "https://github.com/microsoft/BCApps/pull/11855",
@@ -154,21 +227,6 @@
       "draft": false,
       "created_at": "2026-10-02T05:34:29Z",
       "updated_at": "2026-10-08T01:02:39Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12516,
-      "title": "[master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.",
-      "url": "https://github.com/microsoft/BCApps/pull/12516",
-      "base": "main",
-      "major": "30",
-      "author": "neeleshsinghal",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": false,
-      "created_at": "2026-10-07T23:22:16Z",
-      "updated_at": "2026-10-08T01:00:34Z",
       "community_contribution": false
     },
     {
@@ -1014,21 +1072,6 @@
       "community_contribution": false
     },
     {
-      "number": 12465,
-      "title": "[main] Wrong Financial entries in Import Duty GST Calculation",
-      "url": "https://github.com/microsoft/BCApps/pull/12465",
-      "base": "main",
-      "major": "30",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": true,
-      "created_at": "2026-10-07T08:26:34Z",
-      "updated_at": "2026-10-07T13:49:41Z",
-      "community_contribution": false
-    },
-    {
       "number": 12418,
       "title": "#12375 Make OpenEDocument method public",
       "url": "https://github.com/microsoft/BCApps/pull/12418",
@@ -1207,21 +1250,6 @@
       "draft": false,
       "created_at": "2026-09-10T13:34:40Z",
       "updated_at": "2026-10-07T12:51:37Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12461,
-      "title": "[29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
-      "url": "https://github.com/microsoft/BCApps/pull/12461",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "sanjmaurya",
-      "labels": [
-        "Team: SCM"
-      ],
-      "draft": true,
-      "created_at": "2026-10-07T06:51:18Z",
-      "updated_at": "2026-10-07T12:50:40Z",
       "community_contribution": false
     },
     {
@@ -1514,21 +1542,6 @@
       "draft": false,
       "created_at": "2026-10-06T15:07:20Z",
       "updated_at": "2026-10-06T21:27:25Z",
-      "community_contribution": false
-    },
-    {
-      "number": 12198,
-      "title": "[29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents",
-      "url": "https://github.com/microsoft/BCApps/pull/12198",
-      "base": "releases/29.x",
-      "major": "29",
-      "author": "Shikhverma",
-      "labels": [
-        "Team: Finance"
-      ],
-      "draft": false,
-      "created_at": "2026-10-01T11:24:07Z",
-      "updated_at": "2026-10-06T09:55:45Z",
       "community_contribution": false
     },
     {

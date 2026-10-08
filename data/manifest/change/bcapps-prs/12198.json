@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12198",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents",
+  "url": "https://github.com/microsoft/BCApps/pull/12198",
+  "published_at": "2026-10-08T04:02:47Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-08T05:36:33.848Z"
+    },
+    "fetched": {
+      "at": "2026-10-08T05:37:17.240Z",
+      "change_class": "code",
+      "files": 16,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-08T05:37:26.909Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004251
+    },
+    "linked": {
+      "at": "2026-10-08T05:37:27.118Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "fe31a4253b4aa8fde426364f132f5689d4dfcddf"
+    },
+    "published": {
+      "at": "2026-10-08T05:37:27.166Z",
+      "path": "content/changes/bcapps/12198.md"
+    }
+  },
+  "input_hash": "47ed09ca325f485d61415c1d6926ab8f0518336d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12198,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "47ed09ca325f485d61415c1d6926ab8f0518336d",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "source currency inconsistency for lcy postings and cash posting on sales documents"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3484f74745481d613c9f88d1cd1ef6d91b8b337707cb0430faa2229b52dea94c"
+}

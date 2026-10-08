@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3697577773817687094",
+  "url": "https://www.sauravdhyani.com/2026/09/how-to-migrate-business-central-table.html",
+  "title": "How to Migrate Business Central Table Fields from Integer to BigInteger.",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-08T05:30:00.000Z",
+  "words": 2364,
+  "summary": "Business Central version 29 enables developers to migrate table fields from Integer to BigInteger without data loss during upgrades when targeting runtime 18.0 or later. This addresses scenarios where record identifiers exceed the 32-bit integer limit, while requiring careful handling of dependent code that may face narrowing conversions.",
+  "key_points": [
+    "Integer to BigInteger field migration is a non-destructive schema change supported only in runtime 18.0 and later.",
+    "AppSourceCop rule AS0141 warns about potential breaking changes when BigInteger fields are narrowed to Integer, Option, or Enum types in dependent expressions.",
+    "Developers must update dependent variables, fix compiler narrowing warnings, and validate CalcFormula assignments before publishing upgraded extensions.",
+    "The feature solves long-standing problems with high-volume systems that accumulate millions of records and exceed the 32-bit integer maximum of 2,147,483,647."
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "table fields",
+    "data type migration",
+    "biginteger",
+    "compiler warnings",
+    "appsourcecop",
+    "upgrade scenarios",
+    "schema synchronization"
+  ],
+  "objects": [],
+  "features": [
+    "Integer to BigInteger field migration",
+    "AppSourceCop rule AS0141",
+    "Schema synchronization",
+    "CalcFormula evaluation",
+    "Narrowing conversion warnings",
+    "Property context validation"
+  ],
+  "versions": [
+    "version 29",
+    "runtime 18.0",
+    "Fall 2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Every valid Integer value is also a valid BigInteger value. The conversion is widening, not narrowing, so existing data is preserved.",
+      "why_it_matters": "This clarifies the technical foundation that makes the feature safe and non-destructive compared to other field type changes."
+    },
+    {
+      "text": "A BigInteger value assigned to an Integer can overflow silently or throw a runtime error. Treat every warning as a potential bug.",
+      "why_it_matters": "This emphasizes the critical importance of addressing compiler warnings to prevent runtime failures in dependent code."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.01385,
+    "posts_in_call": 1
+  }
+}
