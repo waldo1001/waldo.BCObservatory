@@ -3,6 +3,8 @@
  * the list view's sort.
  */
 
+import { parsePills, pillDisabled, pillsParam, togglePill, usablePills } from "./pills-core.js";
+
 /** `#system=finance&lens=version:30` -> Map; the older single-key form (`#star=object/table/18`) parses the same. */
 export function parseHash(hash: string): Map<string, string> {
   const out = new Map<string, string>();
@@ -91,30 +93,18 @@ export function pickerRows<N>(
 export type WeekKind = "v" | "p" | "c";
 export const WEEK_KINDS: readonly WeekKind[] = ["v", "p", "c"];
 /** The hash's `kinds=` ("c", "v,p"): unknown letters dropped; empty, missing or all unknown means all three. */
-export function parseKinds(s: string | null | undefined): Set<WeekKind> {
-  const on = new Set((s ?? "").split(",").map((x) => x.trim()).filter((x): x is WeekKind => (WEEK_KINDS as readonly string[]).includes(x)));
-  return on.size ? on : new Set(WEEK_KINDS);
-}
+export const parseKinds = (s: string | null | undefined): Set<WeekKind> => parsePills(s, WEEK_KINDS);
 /** The hash value for the pills: null when all three are on (the hash leaves `kinds` out), else the letters in pill order. */
-export function kindsParam(on: Set<WeekKind>): string | null {
-  const ks = WEEK_KINDS.filter((k) => on.has(k));
-  return ks.length === WEEK_KINDS.length || !ks.length ? null : ks.join(",");
-}
+export const kindsParam = (on: Set<WeekKind>): string | null => pillsParam(on, WEEK_KINDS);
 /** Toggle one pill; switching off the last one turns all three on, so the list is never empty. */
-export function toggleKind(on: Set<WeekKind>, k: WeekKind): Set<WeekKind> {
-  const next = new Set(on);
-  if (next.has(k)) next.delete(k); else next.add(k);
-  return next.size ? next : new Set(WEEK_KINDS);
-}
+export const toggleKind = (on: Set<WeekKind>, k: WeekKind): Set<WeekKind> => togglePill(on, k, WEEK_KINDS);
 /**
  * The pills a reader can actually use: when none of the kinds that are on has anything this week (a `kinds=c` link
  * before the week has code changes), all three come back on, so the lens never opens empty and stuck.
  */
-export function usableKinds(on: Set<WeekKind>, counts: Record<WeekKind, number>): Set<WeekKind> {
-  return WEEK_KINDS.some((k) => on.has(k) && counts[k] > 0) || !WEEK_KINDS.some((k) => counts[k] > 0) ? on : new Set(WEEK_KINDS);
-}
-/** A pill is disabled only when it has nothing this week and is off: a pressed pill can always be switched off. */
-export const pillDisabled = (pressed: boolean, count: number) => !pressed && count === 0;
+export const usableKinds = (on: Set<WeekKind>, counts: Record<WeekKind, number>): Set<WeekKind> => usablePills(on, counts, WEEK_KINDS);
+/** A pill is disabled only when it has nothing this week and is off: a pressed pill can always be switched off (D82: pills-core). */
+export { pillDisabled };
 export type CodeGroup = "breaking" | "features" | "fixes" | "other" | "tooling";
 export const CODE_GROUPS: readonly CodeGroup[] = ["breaking", "features", "fixes", "other", "tooling"];
 /** D80: a change's group in the week's code list. Not BCApps -> tooling; then breaking, feature, fix, the rest other. */

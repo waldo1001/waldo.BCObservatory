@@ -3,22 +3,28 @@ import { getCollection } from "astro:content";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
+import { CHANGE_REPOS, kindsLine, repoOf } from "../../scripts/pills-core";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("changes")).sort((a, b) => String(b.data.merged_at).localeCompare(String(a.data.merged_at)) || b.data.number - a.data.number);
-const kinds = [...new Set(all.map((c) => String(c.data.change_kind)))].sort();
+// D82: one pill per repository, each with its count; the kinds line follows the shown rows in the browser
+const perRepo = new Map(CHANGE_REPOS.map(([slug]) => [slug, all.filter((c) => repoOf(c.id) === slug).length]));
 // D80: the same week as the galaxy's this-week lens
 const p = resolve(process.cwd(), "..", "data", "graph", "landed.json");
 const week = ((existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : {}) as { changes?: unknown[] }).changes ?? [];
 ---
 <List section="changes" title="Code changes · BC Observatory" description="Merged pull requests of Microsoft's Business Central code, joined to the AL objects they changed.">
   <p class="eyebrow">Code changes</p>
-  <h1>{all.length} changes</h1>
+  <h1>{all.length.toLocaleString("en")} changes</h1>
   <p class="lede">Merged pull requests of Microsoft's Business Central repositories (<a href="https://github.com/microsoft/BCApps">BCApps</a>, <a href="https://github.com/microsoft/AL-Go">AL-Go</a>, <a href="https://github.com/microsoft/BCQuality">BCQuality</a>) that touch their source, described in our words; BCApps changes link to the AL object pages they changed. Metadata only: no source text. Agents: <a href={`${base}changes/llms.txt`}>llms.txt</a>. What is still open: <a href={`${base}changes/upcoming/`}>upcoming</a>.</p>
   {week.length > 0 && <p class="meta"><a href={`${base}changes/week/`}>This week: {week.length} {week.length === 1 ? "change" : "changes"} →</a></p>}
-  <p class="meta">{kinds.map((k) => `${all.filter((c) => c.data.change_kind === k).length} ${k}`).join(" · ")}</p>
+  <div class="pills" role="group" aria-label="Repository">
+    {CHANGE_REPOS.map(([slug, label]) => <button type="button" class="pill-btn" data-pill={slug} data-count={perRepo.get(slug)} aria-pressed="true">{label} <small>{(perRepo.get(slug) ?? 0).toLocaleString("en")}</small></button>)}
+    <span class="pill-count mono-meta" aria-live="polite"></span>
+  </div>
+  <p class="meta" data-kinds>{kindsLine(all.map((c) => String(c.data.change_kind)))}</p>
   <ul class="list">
     {all.map((c) => (
-      <li>
+      <li data-repo={repoOf(c.id)} data-kind={String(c.data.change_kind)}>
         <a href={`${base}changes/${c.id}/`}>{c.data.title}</a>
         <span class="row-meta"><span class="badge">{c.data.change_kind}</span>{c.data.breaking && <span class="badge obsolete">breaking</span>}{c.data.community_contribution && <span class="badge">community contribution</span>}</span>
         <div class="meta">{c.data.base_branch}{c.data.major ? ` · BC${c.data.major}` : ""} · {String(c.data.merged_at).slice(0, 10)} · {(c.data.objects_touched ?? []).length} {(c.data.objects_touched ?? []).length === 1 ? "object" : "objects"}</div>
@@ -27,3 +33,30 @@ const week = ((existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : {}) as { ch
     ))}
   </ul>
 </List>
+<script>
+  // D82: the repository pills (D80 semantics, pills-core); the state is ?repo= in the query, left out when all are on
+  import { CHANGE_REPOS, kindsLine, parsePills, pillDisabled, pillsParam, togglePill, usablePills } from "../../scripts/pills-core";
+  const all = CHANGE_REPOS.map(([slug]) => slug);
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>(".pills .pill-btn[data-pill]")];
+  const count = document.querySelector<HTMLElement>(".pills .pill-count");
+  const kindsEl = document.querySelector<HTMLElement>("[data-kinds]");
+  const rows = [...document.querySelectorAll<HTMLElement>("ul.list > li[data-repo]")];
+  if (buttons.length && count && kindsEl) {
+    const counts = Object.fromEntries(buttons.map((b) => [b.dataset.pill!, Number(b.dataset.count) || 0])) as Record<string, number>;
+    let on = usablePills(parsePills(new URLSearchParams(location.search).get("repo"), all), counts, all);
+    const apply = () => {
+      const kinds: string[] = [];
+      for (const li of rows) { li.hidden = !on.has(li.dataset.repo!); if (!li.hidden) kinds.push(li.dataset.kind ?? ""); }
+      for (const b of buttons) { const pressed = on.has(b.dataset.pill!); b.setAttribute("aria-pressed", String(pressed)); b.disabled = pillDisabled(pressed, counts[b.dataset.pill!] ?? 0); }
+      count.textContent = on.size < all.length ? `${kinds.length.toLocaleString("en")} of ${rows.length.toLocaleString("en")} shown` : "";
+      kindsEl.textContent = kindsLine(kinds);
+      const url = new URL(location.href), v = pillsParam(on, all);
+      if (v) url.searchParams.set("repo", v); else url.searchParams.delete("repo");
+      // URLSearchParams writes the comma as %2C; ?repo=al-go,bcquality is the readable form a reader can share
+      url.search = url.searchParams.toString().replace(/%2C/gi, ",");
+      if (url.href !== location.href) history.replaceState(history.state, "", url);
+    };
+    for (const b of buttons) b.addEventListener("click", () => { on = togglePill(on, b.dataset.pill!, all); apply(); });
+    apply();
+  }
+</script>

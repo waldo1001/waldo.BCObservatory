@@ -200,6 +200,14 @@ td code { font-size: 12.5px; }
 .badge.status-other { border-color: currentColor; color: var(--status-other); }
 .badge.obsolete { border-color: currentColor; color: var(--accent); }
 .pill { display: inline-block; font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: 999px; background: var(--accent-surface); color: var(--accent); white-space: nowrap; }
+/* D82: toggle pills on list pages (the changes list's repositories), the look of the galaxy's this-week pills (D80); global, not scoped (D53) */
+.pills { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin: 12px 0 4px; }
+.pill-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--text-2); background: var(--surface); border: 1px solid var(--line-strong); border-radius: 999px; cursor: pointer; }
+.pill-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+.pill-btn:disabled { opacity: .45; cursor: default; }
+.pill-btn small { font: inherit; opacity: .8; }
+.pills .pill-count { margin-left: 4px; }
+@media (pointer: coarse) { .pill-btn { min-height: 44px; } }
 .chip-sys { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); }
 .chip-sys::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--muted)); }
 .tag { display: inline-block; font: 400 11px var(--font-mono); color: var(--muted); border: 1px solid var(--line); border-radius: var(--r-badge); padding: 1px 6px; }
