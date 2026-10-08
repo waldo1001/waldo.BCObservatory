@@ -21,7 +21,7 @@
     { "q": "subscription", "expect": "topics/business-central/business-functionality/sales/subscription-billing", "where": "top", "covers": "D65 hub rule survives" },
     { "q": "page subscriptions", "expect": "objects/page/8059", "where": "first-object", "covers": "caption plus type word" },
     { "q": "OnAfterPostSalesDoc", "expect": "objects/codeunit/80#event-OnAfterPostSalesDoc", "where": "top", "covers": "event by name" },
-    { "q": "event: OnAfterPostSales", "expect": "objects/codeunit/80#event-OnAfterPostSalesDoc", "where": "top3", "covers": "prefix on a symbol name under a kind (the spec's `event: OnAfterPost` equals the name of 22 events called OnAfterPost; see section 13)" },
+    { "q": "event: OnAfterPostSales", "expect": "objects/codeunit/80#event-OnAfterPostSalesDoc", "where": "top3", "covers": "prefix on a symbol name under a kind (the spec's `event: OnAfterPost` equals the name of 9 events called OnAfterPost; see section 13)" },
     { "q": "event: OnAfterPost", "where": "first-symbol", "kind": "event", "name": "OnAfterPost", "covers": "an event named exactly as the query comes first" },
     { "q": "Posting Date", "where": "first-symbol", "kind": "field", "name": "Posting Date", "within": { "id": "objects/table/36#field-20", "n": 5 }, "covers": "field by name, owners by importance" },
     { "q": "field:Posting Date", "where": "first-symbol", "kind": "field", "name": "Posting Date", "within": { "id": "objects/table/36#field-20", "n": 5 }, "covers": "kind prefix" },

@@ -797,3 +797,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   this-week lens and header pill (D80; a source that moves twice a month); a Haiku pass linking entries to hubs and
   objects (a later spec); the pre-4.0 monthly updates (no version sections, 90 KB, 2016 to 2019). Spec:
   `docs/specs/al-extension-changelog.md`.
+- **D86 One deterministic scorer, a symbols index, lazy hashed shards.** Site and MCP rank with the same code:
+  `packages/search` (private workspace package, zero dependencies) parses the query (`t36`, `cu 80`, `table 36
+  BE`, bare numbers as ids, `field:`/`event:`/`proc:` prefixes, `bc30`, country codes, quoted phrases, plurals, one
+  typo from five letters, a committed synonym list) and scores page and symbol records with the D65 rules plus a
+  layer order (base app, first-party app, country) and an importance signal (an object's references, callers,
+  pages, subscribers and Learn pages, log-normalised per type). The MCP pins the exact band on top and fuses the
+  rest with the D63 meaning ranking; MiniSearch goes. A symbols index (fields, events, global procedures, enum
+  values of the pages' major, W1 and apps, tuple rows in content-hashed files) makes `OnAfterPostSalesDoc` and
+  `Posting Date` answerable; object pages get per-member anchors at site build. Page shards are split by kind
+  (hubs, media, objects) under content-hashed names; the site keeps them in Cache Storage and loads objects and
+  symbols only when the query asks. Deterministic did-you-mean hints. Amends D13 (no Pagefind: the site searches its
+  own index) and D35/D63 (no MiniSearch). Rejected: Pagefind (its BM25 replaces ours and body text of 25k templated
+  object pages is noise), vectors on the site (9 MB), LLM query rewriting, appending meaning hits after every
+  keyword hit (buries D63's paraphrase wins), a bare number as a version, a published search package. Built with
+  these refinements (spec section 13): a caption equal to the query scores but lifts no demotion and pins nothing;
+  app pages rank with the narrative rule as "none"; symbols are demoted on a generic query like objects and only an
+  event-shaped word lifts them; a demoted hit stays out of the exact band. Spec: `docs/specs/search.md`.

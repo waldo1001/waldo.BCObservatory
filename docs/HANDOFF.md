@@ -10,20 +10,25 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Search**: `docs/specs/search.md`, D86, M24. Status: proposed 2026-10-08, nothing implemented. Start with
-  phase A task 1: `packages/search` (parser, synonyms, scorer, hints) and `tests/unit/search-core.test.ts` from the
-  spec's section 4.1-4.2 tables, then the golden fixture of section 5; phase A ships alone with a site build. Until it
-  lands: `Sales Header` lists table extensions above Table 36, `cu 80` and `t36` find nothing outside the Ctrl+K
-  palette, events, fields and procedures are not searchable anywhere, `36` matches "Microsoft 365", the MCP ranks
-  differently from the site and its `system` filter never matches an object, and every search page view downloads
-  the whole 13 MB index.
-
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
 edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-09, live after the next good nightly:**
+- **Search, D86** (`docs/specs/search.md`, M24): one scorer for the site and the MCP in `packages/search` (parser,
+  synonyms, layer order, importance, hints); `t36`, `cu 80`, `table 11300 BE`, `36`, `BE`, `custmer`, `client` and
+  `Sales Header` land where a BC person expects; the MCP pins the exact band over its meaning fusion, tags hits
+  `[keyword]`/`[meaning]`/`[both]`, filters by system, country, app, object type and kind, resolves captions and
+  country objects in `get_object`, and `whats_new` stops at today. Page shards split by kind under hashed names in
+  Cache Storage; a symbols index (fields, events, global procedures, enum values) with anchors on object pages; the
+  palette answers `field:`, `event:`, `proc:` from it. The next nightly (or a derive) writes `data/index/` in the new
+  shape: hashed `pages-*` names with `kind`, `symbols-manifest.json` and four symbol files, no `pages-1.json`; until
+  then the site reads the old manifest as one objects kind and has no symbols. `bc-observatory@0.3.0` (one bundled
+  `dist/server.js`, no MiniSearch) is ready to publish with `publish-mcp`; plugin 0.2.2 carries the skill advice.
+  Deviations in the spec's section 13.
 
 **Shipped 2026-10-08, live after the next good nightly:**
 - **AL extension changelog, D85** (`docs/specs/al-extension-changelog.md`, M23): a `vsmarketplace` source

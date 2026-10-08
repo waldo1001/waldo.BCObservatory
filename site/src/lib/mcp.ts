@@ -14,13 +14,13 @@ export const ATLAS_URL = "https://bc-code-atlas.stefanmaron.dev/mcp";
 
 /** The nine tools, in the server's order (packages/mcp/src/server.ts registerTool), each with the ask it answers. */
 export const TOOLS: Tool[] = [
-  { name: "search", title: "Search the knowledge base", what: "Every page by title, AL object caption, summary and tags; hybrid (keywords plus meaning), so a paraphrase still finds the page. Filter by type, tier or galaxy system.", example: "search('posting preview')" },
+  { name: "search", title: "Search the knowledge base", what: "Every page by title, AL object name and caption, summary and tags, plus fields, events and procedures, ranked like the site's search (t36, cu 80, plurals, one typo, synonyms); hybrid (keywords plus meaning), so a paraphrase still finds the page. Filter by type, tier, galaxy system, country, app, object type or kind.", example: "search('posting preview')" },
   { name: "ls", title: "List pages", what: "Browse the page tree; an empty path lists the sections.", example: "ls('objects/table')" },
   { name: "cat", title: "Read a page", what: "The full markdown of a page: frontmatter with evidence and links, then the body.", example: "cat('localizations/be')" },
-  { name: "get_object", title: "Look up an AL object", what: "An object of W1 or a first-party app by type and id or exact name: fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages.", example: "get_object('table', '18')" },
+  { name: "get_object", title: "Look up an AL object", what: "An object of W1, a first-party app or a country layer by type and id, reference, name or caption: fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages.", example: "get_object('table', '18')" },
   { name: "diff_object", title: "What changed in an object", what: "Member-level changes of a W1 object between two consecutive versions: fields, events, procedures, keys, properties, obsolete state.", example: "diff_object('codeunit', 'Sales-Post', '29', '30')" },
   { name: "localization", title: "A country localization", what: "What a country layer adds to or changes in W1, with its Learn local functionality hub.", example: "localization('BE')" },
-  { name: "whats_new", title: "What is new", what: "Videos, posts, roadmap features, AL extension releases and code changes (merged pull requests) dated on or after a date, newest first.", example: "whats_new('2026-10-01')" },
+  { name: "whats_new", title: "What is new", what: "Videos, posts, roadmap features, AL extension releases and code changes (merged pull requests) dated on or after a date and up to today, newest first.", example: "whats_new('2026-10-01')" },
   { name: "blog_footprint", title: "A source's footprint", what: "What a blog or channel covers: its posts or videos and the systems they touch.", example: "blog_footprint('kauffmann-nl')" },
   { name: "feedback", title: "Report a problem with a page", what: "A prefilled GitHub issue link for a page (wrong fact, missing evidence, broken link). Nothing is sent by the agent.", example: "feedback('objects/table/18', 'field 7 is wrong')" },
 ];
@@ -70,7 +70,7 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
     "### Without any install", "",
     `[llms.txt](${site}llms.txt) lists every section; every page has a markdown twin at its URL plus \`.md\`; GitMCP and DeepWiki (badges in the [README](${repo})) read the repository directly.`, "",
     "## How it answers", "",
-    "The server fetches `index/` and the page markdown from the published site over HTTPS and caches them by hash in `~/.cache/bc-observatory/` (refreshed daily). Search is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once, checked by SHA-256) computed locally; `BC_OBSERVATORY_EMBEDDINGS=0` turns the model off. `BC_OBSERVATORY_LOCAL` reads a checkout instead; `BC_OBSERVATORY_SITE` points at another deployment. Nothing is sent anywhere: `feedback` only returns a link.", "",
+    "The server fetches `index/` and the page markdown from the published site over HTTPS and caches them by hash in `~/.cache/bc-observatory/` (refreshed daily). Search ranks like the site's own search and is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once, checked by SHA-256) computed locally; `BC_OBSERVATORY_EMBEDDINGS=0` turns the model off. `BC_OBSERVATORY_LOCAL` reads a checkout instead; `BC_OBSERVATORY_SITE` points at another deployment. Nothing is sent anywhere: `feedback` only returns a link.", "",
     `Source: [packages/mcp](${repo}/tree/main/packages/mcp) and [plugin](${repo}/tree/main/plugin) in the repository, MIT.`, "",
   ];
   return L.join("\n");

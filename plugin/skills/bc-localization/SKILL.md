@@ -6,7 +6,7 @@ description: Business Central country localizations (BE, NL, DE, FR, US, ...) - 
 # Business Central localizations
 
 1. `localization(country)` with the two-letter code (BE, NL, DE, ...): the country layer against W1 for the current release, with its Learn local functionality hub.
-2. For a W1 object a country changes, `get_object(type, id)` lists the countries that replace it; country-only objects are listed on the localization page (they have no object page).
-3. `search(query, type: "localization")` when the country is unclear.
+2. For a W1 object a country changes, `get_object(type, id)` lists the countries that replace it. A country's own objects have pages too (`objects/table/11300-be`): `search(name, country: "BE")`, `search("table 11300 BE")` or `get_object("table", "11300", country: "BE")`.
+3. `search(query, type: "localization")` when the country is unclear; `search("BE")` opens on the Belgium page.
 
 Country layers here are the Base Application's; country apps shipped separately are not covered yet. Say so when a question needs them.

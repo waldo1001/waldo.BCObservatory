@@ -111,7 +111,7 @@ waldo.BCObservatory/                  public, MIT (code) + CC-BY-4.0 (content)
 │  ├─ manifest/<pillar>/<source>/*.json      one state file per item; _runs/<date>.json run reports (heartbeat)
 │  ├─ captions/microsoft/<videoId>.{vtt,segments.json}   full text allowed (Microsoft channel only)
 │  ├─ code/<major>/<cc>/objects-<type>-<n>.jsonl + manifest.json; code/diffs/ code/timelines/ code/deprecations/ code/events/ code/graph/
-│  ├─ index/                          search.json (MiniSearch, sharded), docs-objects.json, features.json, objects.json, sources.json, coverage.json, index-manifest.json
+│  ├─ index/                          index-manifest.json + pages-<kind>-<sha12>.json, symbols-manifest.json + symbols-<kind>-<sha12>.json (D86), docs-objects.json, objects.json, coverage.json
 │  ├─ graph/                          summary.json (galaxy, ≤500 KB, baked layout), ego/<nodeId>.json, full.jsonl
 │  ├─ roadmap/                        dated m365 API snapshots + diff
 │  └─ overrides/*.yaml                human correction layer, merged last (prev overrides.json idea)
@@ -363,8 +363,9 @@ Layout baked at build time (d3-force, fixed seed) into `graph/summary.json`; the
 type/tier/country/version; page-level ego graphs render SVG from `graph/ego/<id>.json`. No tokens involved.
 Design tokens start from `prev/design/tokens.json` + `HANDOFF.md`.
 
-**Search:** Pagefind over summaries/bodies with filters (`type`, `tier`, `version`, `country`); the MCP uses
-`data/index/search.json` (MiniSearch, shards < 15 MB) because Pagefind fragments are awkward outside a browser.
+**Search:** the site searches its own index with `packages/search` (D86); the MCP uses the same scorer and fuses the
+D63 meaning ranking under the exact band. Page shards by kind under hashed names (`data/index/pages-*.json`), a symbols
+index of fields, events, global procedures and enum values (`data/index/symbols-*.json`), loaded lazily from Cache Storage.
 `llms.txt` at root plus per section (`/topics/llms.txt`, `/objects/llms.txt`, …) with a Stripe-style agent preamble
 (cite the tier, check version applicability, never invent object IDs); `llms-full.txt` excludes transcripts.
 
@@ -433,7 +434,7 @@ blogs; all videos newest-first.
 | **M21 about page** | "About" in the top nav: the owner's Who and Why, the pipeline as a telescope and the galaxy key as pictures, seven "for who" cards with real questions and links, the install commands under `#agents`, live counts; markdown twin; home section shrunk to a pointer (`docs/specs/about-page.md`, D83, shipped 2026-10-08) | 1 day in two phases | none: deterministic, no LLM |
 | **M22 MCP page** | `/mcp/` and `/mcp.md`: what to ask, the nine tools, the plugin's skills and the atlas, install steps for Claude Code, other MCP clients, VS Code, a checkout, no install; "MCP" in the nav before "About", short nav labels Objects and Countries (D84, shipped 2026-10-08, no spec) | half a day | none: deterministic, no LLM |
 | **M23 AL extension changelog** | the AL Language extension's marketplace changelog as an official source: gallery API, both tracks merged per version, snapshot and diff on change, one page per extension version under `content/releases/` with "what changed on this page", `/releases/` from the home card and the Changes lede (a twelfth nav entry wrapped the header), in the search index and `whats_new`, a line in the weekly digest (`docs/specs/al-extension-changelog.md`, D85, shipped 2026-10-08) | 1.5 to 2 days in three phases | none: deterministic, no LLM |
-| **M24 search** | one deterministic scorer for the site and the MCP (parser with abbreviations, references, countries, kinds, plurals, one typo, a committed synonym list; layer order and an importance signal), the MCP's D63 meaning ranking fused under a pinned exact band, page shards split by kind under hashed names loaded lazily from Cache Storage, a symbols index of fields, events, global procedures and enum values with per-member anchors on object pages, MCP filters by system, country, app, object type and kind, `get_object` by caption and country, did-you-mean hints (`docs/specs/search.md`, D86, proposed) | 5 to 7 days in four phases | none: deterministic, no LLM |
+| **M24 search** | one deterministic scorer for the site and the MCP (parser with abbreviations, references, countries, kinds, plurals, one typo, a committed synonym list; layer order and an importance signal), the MCP's D63 meaning ranking fused under a pinned exact band, page shards split by kind under hashed names loaded lazily from Cache Storage, a symbols index of fields, events, global procedures and enum values with per-member anchors on object pages, MCP filters by system, country, app, object type and kind, `get_object` by caption and country, did-you-mean hints (`docs/specs/search.md`, D86, shipped 2026-10-09) | 5 to 7 days in four phases | none: deterministic, no LLM |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification

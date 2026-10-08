@@ -1,6 +1,6 @@
 # Search that finds what you mean: one scorer for the site and the MCP, symbols, lazy shards
 
-Status: proposed, 2026-10-08. Decision: D86 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M24 (reserved). Owner: waldo.
+Status: implemented, 2026-10-09 (section 13 records what was built and where it differs). Decision: D86 (appended 2026-10-09). Milestone: M24. Owner: waldo.
 Scope: the search box, the results page, the galaxy live search and the Ctrl+K palette on the site; the `search`,
 `get_object` and `whats_new` tools of the MCP package; the page index records and their shards; a new symbols index
 (fields, events, procedures, enum values); a shared query parser, synonym list and scorer under `packages/search/`;
@@ -552,7 +552,7 @@ search-index,mcp}.test.ts`, `plugin/skills/{bc-lookup,bc-whats-new,bc-localizati
 - [ ] `bc-observatory@0.3.0` builds to one `dist/server.js` without MiniSearch and starts over stdio.
 - [ ] `docs/DECISIONS.md` D86 appended, PLAN M24 row marked built, HANDOFF entry removed, this section renamed "Built, deviations" with what differs.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Proposed edits to other files (applied 2026-10-09, see section 13)
 
 - `docs/DECISIONS.md`: the D86 text of section 3.
 - `docs/PLAN.md` section 5, before `v0.2+`:
@@ -562,3 +562,148 @@ search-index,mcp}.test.ts`, `plugin/skills/{bc-lookup,bc-whats-new,bc-localizati
 - `docs/HANDOFF.md` "Open specs, not yet implemented": the entry this spec session adds (see the commit).
 - `AGENTS.md` line "The MCP server ... serves exactly these": add "search covers fields, events and procedures
   (`data/index/symbols-*.json`, D86)" once phase C lands.
+
+## 13. What was built and where it differs (2026-10-09)
+
+Four commits on `dev/search`, one per phase: A the shared scorer, B the hashed lazy shards, C the symbols index, D the
+words. Gates on the last one: `npm run typecheck` (root, `packages/search`, `packages/mcp`, `site`), `npm test` (453
+tests, 452 pass, 1 skipped: the real potion-base-8M model test, as before), `npm run build --workspace=bc-observatory`
+(one `dist/server.js`, `grep -c @bc-observatory/search` 0, answers `initialize` over stdio), the site build on Node 22.
+
+### 13.1 Golden set and timings
+
+All 29 rows of `tests/fixtures/search-golden.json` pass on the site scorer (test 2) and on the MCP in keyword and
+default mode (test 3). Both run over an index rendered from the committed `content/` and `data/code/` into a temporary
+directory (`tests/helpers/search-golden.ts`), not over the committed `data/index/`: that one is rewritten by the
+nightly and lags a change of the record shape by a night, so a golden test that read it would fail on the very commit
+that adds the fields it needs. The "skip while `symbols-manifest.json` is absent" rule therefore never fires; the
+symbol rows were marked `pending` until phase C and are live since.
+
+| Measure (node 20, M-series laptop) | Spec budget | Measured |
+|---|---|---|
+| `prepare()` of 28,784 page records | | 0.37 s |
+| `prepare()` of 123,208 symbol records appended | | 0.80 s |
+| `prepare()` in all (151,992 records) | about 150 ms | 1.24 s, off the keystroke path (the site prepares symbols in an idle callback) |
+| `search()` median over the golden queries | under 20 ms | 0.9 ms |
+| `search()` max | under 50 ms, tripwire 150 ms | 18.5 ms (`OnAfterPostSalesDoc`, the first query that sorts the vocabulary) |
+
+Real scores behind the order (`npx tsx` over the rendered index): `Sales Header` Table 36 21.03, Table extension 8053
+18.50, `10567-gb`, `18661-in`, `18838-in` 18.00; `customer` Table 18 17.17, Table extension 10832-fr 14.00, Page 36954
+"Customers" 13.70; `custmer` Table 18 10.17 (`matched "customer"`); `subscription` the Subscription billing hub 16.27,
+the app page 14.56, the analytics hub 14.39; `Posting Date` first fields Table 36, 38, 81, 83, 32; `event:
+OnAfterPostSales` OnAfterPostSalesDoc 6.50 (8 subscribers) above its three siblings at 6.05; `proc: CopyToTempLines`
+Codeunit 80 14.55 above Codeunit 90 14.46. `maxInbound` per type: table 499 (Table 5340, not Table 18 as 4.2 assumed;
+Table 18 has 338 and importance 0.94), codeunit 427 (Codeunit 408), page 172, pageextension 9, report 9, xmlport 8,
+query 6; enums, extensions of tables and permission sets carry no inbound relations, so their importance is 0.
+
+### 13.2 Sizes
+
+| File (rendered 2026-10-08 from this commit) | Raw bytes | Gzipped | Spec |
+|---|---|---|---|
+| `pages-hubs-<sha12>.json` | 527,264 | 88,092 | about 0.8 MB raw |
+| `pages-media-<sha12>.json` | 1,496,206 | 371,031 | about 1.3 MB raw |
+| `pages-objects-1-` and `-2-<sha12>.json` | 8,388,360 + 6,764,017 | 558,608 + 440,403 | about 11.4 MB raw in two files |
+| all page shards | 17,175,847 (13,472,154 before) | 1,458,134 (1,251,682 before) | |
+| `symbols-fields/events/procs/values` | 4,080,204 / 2,473,931 / 2,927,852 / 281,627 | 673,038 / 309,690 / 492,349 / 58,155 | 4.1 / 2.5 / 3.0 / 0.3 MB raw, about 2 MB gzipped |
+
+- The object records grow by 3.7 MB raw (200 KB gzipped) with `name`, `namespace`, `system`, `present_in`, `inbound`
+  and `subscribers`; the spec's 11.4 MB for objects did not count them.
+- First paint on `/search/` waits for the hubs and media shards, 459 KB gzipped, not the "about 250 KB" of 2.2: the
+  media shard alone (videos, posts and 1,083 code changes with their summaries) is 371 KB. It is still "a few hundred
+  kilobytes before the first results" (section 1) against 1.25 MB before; trimming media summaries is a later call.
+- `npx tsx scripts/site-size.ts site/dist` on a build with the new index rendered locally: 742.7 MB tar bytes of
+  900 MB, `index` 36.3 MB in 16 files (the page shards plus the 9.8 MB of symbols), under the 800 MB warning.
+
+### 13.3 Scoring, refined against the data
+
+The rules of 4.2 hold; these refinements came from running the golden set on the real index, each the smallest change
+that made a row pass without breaking another:
+
+- **Summary words still score 1 per term** ("as today"), so the worked values of 4.2 read 1 to 2 points higher:
+  Table 18 for `customer` 17.3 on the hand-built records of test 1 (16.0 + summary 1 + table prior 0.3).
+- **A caption equal to the query scores +10 but lifts no demotion and pins nothing** (`why` says `caption`, not
+  `name`). With the lift on captions, Table 8057 "Subscription Header" and Page 8060 "Service Object", both captioned
+  "Subscription", ranked above the Subscription billing hub; Page 22 "Customer List" (captioned "Customers") above
+  Table 18 for `customers`.
+- **A plural equals the name of an object or a symbol** (`customers` equals Customer, +10 in full); a page title still
+  equals the query only word for word. Without it Page 36954, named "Customers", took `customers`.
+- **App pages rank with the narrative rule as "none" (-2)**, as D77 ranks a derived hub: the Subscription Billing app
+  page (377 members) beat the reviewed hub by 0.3 for `subscription` and broke the D65 golden row.
+- **Symbols get no layer points, and are demoted ×0.6 on a generic query like objects.** Their name does not lift the
+  demotion; a kind, a type or member word, a digit or an event-shaped CamelCase word (`OnAfterPostSalesDoc`) does.
+  Without it six enum values named "Posting" topped `posting` and procedures named "Customer" sat second for
+  `customer` in the MCP.
+- **The exact band** is a reference (900 and up: the object 1000, its country twins 900, other countries' twins 850)
+  or the record's own name equal to the query (exactly, as a plural or through a synonym) when not demoted. 4.2 said
+  `s >= 1000` or +10; twins at 900 then fused with meaning and tied, a synonym match (`client`) did not pin.
+- **Type words** drop objects and symbols of other types and add 3 to objects of the named type; a type word alone
+  (`tables`, `cu`) stays a searched word. **A version word** keeps only records that say they are present in that
+  major: object records gain `present_in` ("23-30", gaps listed), which 4.3 did not list; other pages drop out.
+- **A country alone** (`BE`) gives its localization page 20 points (exact band) and its objects 3 + importance.
+- **A question** drops its question words (`how`, `do`, `the`, ...) before matching.
+- **Stemming**: `es` only after s, x, z, ch, sh (`invoices` -> invoice), plurals before `-ing`/`-ed` (`postings` ->
+  post). **Synonyms**: the abbreviation pairs work both ways; `client` -> customer, `supplier` -> vendor, `stock` ->
+  inventory, `debtor`, `creditor` one way only, or `customer` found every page about the web client. The taxonomy
+  aliases are copied into `SYSTEM_ALIASES` (a test keeps them equal to `config/taxonomy.json`) and resolve the
+  `system` filter (`g/l` is finance); as word alternates they would make every Inventory page match "item".
+- **Countries** come from the loaded index (localization pages and country objects), not from
+  `config/countries.json`: the published MCP has no config folder.
+- **Postings** cover a page's name, title, caption, tags and summary, a symbol's name only (its tooltip still scores);
+  `Index.postings` is `Map<string, number[]>` (appendable) rather than `Uint32Array`.
+- **The golden row `event: OnAfterPost`** cannot hold: 9 objects publish an event named exactly OnAfterPost (Codeunits 81, 82, 91, 92, 900, 5706, 5707, 5981, ...), which
+  equals the query. It became two rows: `event: OnAfterPostSales` (OnAfterPostSalesDoc in the top 3, the prefix rule)
+  and `event: OnAfterPost` (the first symbol is an event named OnAfterPost).
+
+### 13.4 Shards, loader, site
+
+- Shard names as 4.3; hubs and media get a number only if they ever need a second file. The loader reads a manifest of
+  before D86 (no `kind`, `pages-<n>.json`) as one objects kind, so the site works on the night between the merge and
+  the first nightly, without symbols.
+- `kindsFor()` returns the shard names (`fields`, `events`, ...) and `loadSymbols(base, kinds)` takes them.
+- The explorer keeps `findObjects` over `objects.json` (risk table default; section 8 moves it later); the palette
+  reads the object shards, and `field:`, `event:`, `proc:`, `value:` from the symbol shards (it no longer reads
+  `fields.json`, which the nightly still writes for agents). The atlas and the events page keep `objects.json`.
+- "Exactly this" also opens a country code alone on its localization page (`BE`), or the grouped page showed the BE
+  layer's objects above it. The did-you-mean line shows when nothing or only weak words matched (best score under 6),
+  and always for a typo, a reference and a question. The Enum values tab, like Other, shows only when it has hits.
+- Verified headless (Playwright 1.63 over `site/dist` served under `/waldo.BCObservatory/`, the index rendered
+  locally): `/search/?q=customer` fetched the two manifests, `pages-hubs`, `pages-media`, then both `pages-objects`
+  and, idle, the four symbol files; the first status line read "240 results ... (loading AL objects…)"; a reload
+  fetched the two manifests only, every shard came from Cache Storage `bcobs-index-v1`. `Sales Header`: Table 36 first
+  under Base Application. `t36`: the Exactly this block. `OnAfterPostSalesDoc`: the Events group, link
+  `objects/codeunit/80/#event-OnAfterPostSalesDoc`, and the anchor exists (`<li id="event-OnAfterPostSalesDoc">`);
+  `#proc-CopyToTempLines` on Codeunit 80 and `#field-20` on Table 36 too. `custmer`: rows say `matched "customer"`,
+  the hint "custmer: no page; customer (677 pages)". `cx 80`: "Did you mean "cu 80" (codeunit 80)?". `table 36 BE`:
+  Table 36 with "BE has no table 36 of its own; the W1 table applies". `36`: five objects, Table 36 first. `BE`:
+  Belgium first. Palette: `cu 80` -> Codeunit 80, 800, 802; `event:OnAfterPostSalesDoc` -> the anchored event. Home:
+  `subscription` lit 14 stars, first Subscription billing.
+
+### 13.5 Symbols index
+
+- Event docs and procedure docs are cut at 160 characters like tooltips (4.4 cut only tooltips); the measured sizes
+  then match section 1's within 2%. Subscribers come from `events.json` of the same major. `built_at` moves only when
+  the content does, so a quiet night rewrites nothing; a kind's `sha256` is its file's.
+- `objectPagesByKey(contentDir)` returns `objects.json`'s rows and the key map; the nightly reads it once and hands it
+  to `renderObjectsIndex` and `renderSymbolsIndex` (the `symbols-index` phase right after `objects-index`, in
+  `renderDerived`, so a derive on push writes it too).
+
+### 13.6 MCP
+
+- The stdio fixture tests of `tests/unit/mcp.test.ts` were dropped by D84's rewrite of that file (spec 5 test 8 says
+  "keep"); they are back next to the D84 tests, adapted: `client` now finds Table 18 in keyword mode through the
+  synonym, a word no synonym knows (`buyer`) through meaning only, tagged `[meaning]`.
+- A symbol hit's second line is its doc line or tooltip: the rows of 4.4 hold no signature.
+- Hints print as `Hint: ...` lines under the results, with the query or page to try.
+- `get_object`: a W1 or app object wins over its country twins unless a country is asked (a trailing line names the
+  twins); the name before the caption (`Customers` is Page 36954's name and Page 22's caption); two candidates of the
+  same standing are listed. `cat` strips a symbol path's anchor. `kind` also takes `page`.
+- `build.ts` marks each dependency and its subpaths external (`@modelcontextprotocol/sdk/server/mcp.js`);
+  `@bc-observatory/search` and `esbuild` are devDependencies of the package.
+- The plugin goes to 0.2.2 with the skill edits of 2.3 (as D75 did); `site/src/lib/mcp.ts` says what the tools do now.
+
+### 13.7 Not done here
+
+- `data/index/` on `origin/main` changes with the next nightly or derive (DoD line 4); `bc-observatory@0.3.0` waits for
+  the owner's `publish-mcp` run.
+- D85 (AL extension changelog) had not landed when this branch was finished: its `release` pages go to the hubs shard
+  (`kindOfType`, pinned by `tests/unit/search-index.test.ts`) and score like any page; nothing else waits on it.
