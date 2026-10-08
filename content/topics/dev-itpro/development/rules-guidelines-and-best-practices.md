@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:29.632Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -165,12 +165,14 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10878
     - change/bcapps/11036
-    - change/bcapps/9351
     - change/bcapps/9865
-    - change/bcapps/9876
-    - change/bcapps/9896
     - change/bcapps/9905
+    - change/bcquality/146
+    - change/bcquality/153
+    - change/bcquality/156
+    - change/bcquality/157
 learn_toc_path:
   - Development
   - Rules, guidelines, and best practices
@@ -226,11 +228,13 @@ Start with the obsolete AL page if you need to retire code in an extension. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10878 Ruleset hardening: promote five low-risk rules to Error](../../../changes/bcapps/10878.md) (code change): "Ruleset hardening: promote five low-risk rules to Error"
 - [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../changes/bcapps/11036.md) (code change): "Pragmas are narrowly scoped to actual violations found in analyzer diagnostics"
-- [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../../changes/bcapps/9351.md) (code change): "Removed inefficient algorithm causing quadratic time complexity during contract renewal detection"
 - [#9865 [Main] - 'Greater Than' Withholding Tax Calculation Rule is not app…](../../../changes/bcapps/9865.md) (code change): "The withholding tax calculation now respects the configured calculation rule"
-- [#9876 [Subscription Billing] Rename progress tracker](../../../changes/bcapps/9876.md) (code change): "Codeunit 8035 was renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
-- [#9896 Rename PBI embedded pages](../../../changes/bcapps/9896.md) (code change): "Page names for 127 embedded Power BI reports were updated"
 - [#9905 [Bug][SubscriptionBilling] Contract lines of type G/L Account never post to the selected G/L account](../../../changes/bcapps/9905.md) (code change): "Contract lines of type G/L Account now post to the G/L account specified on the line"
+- [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../changes/bcquality/146.md) (code change): "AppSource affix requirement now correctly scoped to apps with AppSourceCop enabled"
+- [#153 Promote knowledge for Microsoft-owned review skills](../../../changes/bcquality/153.md) (code change): "Moves 29 knowledge articles and 56 companion samples used by Microsoft-endorsed review skills"
+- [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../changes/bcquality/156.md) (code change): "Adds 17 AL/BC knowledge articles with good and bad samples across style, data modeling, web services"
+- [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../changes/bcquality/157.md) (code change): "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

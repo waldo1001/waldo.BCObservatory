@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,9 @@ links:
     - change/bcapps/10127
     - change/bcapps/10277
     - change/bcapps/10795
+    - change/bcapps/11238
     - change/bcapps/11511
+    - change/bcapps/11669
     - change/bcapps/9297
     - change/bcapps/9333
     - change/bcapps/9451
@@ -176,13 +178,15 @@ Start with the outbound process overview to choose a method. Then go to the page
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10127 [Extensibility Request] issue 30379: enable grouped pick printing](../../../../changes/bcapps/10127.md) (code change): "Report 5754 now exposes pick headers before printing through an event"
+- [#10127 [Extensibility Request] issue 30379: enable grouped pick printing](../../../../changes/bcapps/10127.md) (code change): "enable grouped pick printing. Report 5754 now exposes pick headers"
 - [#10277 Slice 554749: Inventory put-away/pick support for subcontracting purchase lines and WIP item transfers](../../../../changes/bcapps/10277.md) (code change): "Inventory put-away and pick functionality is now supported for subcontracting"
 - [#10795 [master] Discrepancy in inventory picks when the quantity exceeds the available inventory.](../../../../changes/bcapps/10795.md) (code change): "Fixed a calculation error in inventory pick creation that was incorrectly dropping shortage lines"
+- [#11238 [29.X]- The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory](../../../../changes/bcapps/11238.md) (code change): "Available to Take logic in the Pick Worksheet was inflated"
 - [#11511 [29.x]Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../../changes/bcapps/11511.md) (code change): "posting an inventory pick for a non-ATO sales line could fail when an unrelated ATO line"
+- [#11669 Fix reserved-lot re-picking after warehouse reclassification](../../../../changes/bcapps/11669.md) (code change): "A sales line can now re-pick its reserved lot after"
 - [#9297 [Main]- Error The Bin Content does not exist.Not able to post an Inventory Pick for Assemble to Order](../../../../changes/bcapps/9297.md) (code change): "Fixed a bug preventing posting of inventory picks for assemble-to-order items"
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
-- [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "The OnBeforeCreateWhseActivHeader event in the Create Pick codeunit now includes"
+- [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"
 - [#9532 [Master]Error when creating a Pick "Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking."](../../../../changes/bcapps/9532.md) (code change): "Fixes warehouse pick creation by checking all ship-type bins for picked-not-shipped quantities"
 
 ## Business Central pages and reports

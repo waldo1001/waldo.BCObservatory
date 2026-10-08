@@ -7,15 +7,15 @@
   "words": 2364,
   "summary": "Business Central version 29 enables developers to migrate table fields from Integer to BigInteger without data loss during upgrades when targeting runtime 18.0 or later. This addresses scenarios where record identifiers exceed the 32-bit integer limit, while requiring careful handling of dependent code that may face narrowing conversions.",
   "key_points": [
-    "Integer to BigInteger field migration is a non-destructive schema change supported only in runtime 18.0 and later.",
-    "AppSourceCop rule AS0141 warns about potential breaking changes when BigInteger fields are narrowed to Integer, Option, or Enum types in dependent expressions.",
-    "Developers must update dependent variables, fix compiler narrowing warnings, and validate CalcFormula assignments before publishing upgraded extensions.",
-    "The feature solves long-standing problems with high-volume systems that accumulate millions of records and exceed the 32-bit integer maximum of 2,147,483,647."
+    "In version 29, with runtime 18.0 or later, an existing Integer table field can be changed to BigInteger without losing data. Schema sync converts the SQL column from int to bigint.",
+    "The migration only works one way. Changing BigInteger back to Integer is not supported because it narrows the value and can lose data.",
+    "The compiler warns when a BigInteger field is narrowed to Integer, Option or Enum in property contexts such as TableRelation or CalcFormula WHERE clauses.",
+    "AppSourceCop rule AS0141 flags how the field type change may affect dependent extensions, so those extensions should be tested before publishing.",
+    "Recommended steps: widen dependent variables and return types, check CalcFormula target types, and test with values above 2,147,483,647."
   ],
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "table fields",

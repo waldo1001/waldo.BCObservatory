@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:17.835Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,17 +106,15 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
   guidelines: []
   changes:
-    - change/bcapps/10031
-    - change/bcapps/10331
-    - change/bcapps/11007
+    - change/bcapps/10130
     - change/bcapps/11701
-    - change/bcapps/12325
-    - change/bcapps/9859
+    - change/bcapps/9725
     - change/bcquality/149
-    - change/bcquality/93
+    - change/bcquality/156
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -128,7 +126,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 198bbaa7e4c9ee4e788121e511fb23fa78de1ec0a3f9625833096531ab5a506e
@@ -177,13 +175,11 @@ The remaining pages support running APIs in practice: tips on requests and heade
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10031 Add AI-assisted policy evaluation backend to Expense Agent](../../../../changes/bcapps/10031.md) (code change): "New APIs for expense policies, policy evaluations, and policies"
-- [#10331 [Master]-Missing VAT Identifier in Peppol XML for Zero-Value Invoice](../../../../changes/bcapps/10331.md) (code change): "VAT Identifier is now included in PEPPOL XML output for zero-value invoices"
-- [#11007 Add Travel Request API lifecycle to Expense Agent](../../../../changes/bcapps/11007.md) (code change): "scoped OData endpoints with proper authorization and linked"
+- [#10130 [ExpenseAgent] Expose VatSpecifications on Expense API Page](../../../../changes/bcapps/10130.md) (code change): "The Expense API page now exposes VAT specifications through a new part"
 - [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
-- [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Expense API tests are re-enabled by consolidating authentication mechanisms"
-- [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../../../changes/bcapps/9859.md) (code change): "Provides 50+ API pages for expense data access and management"
+- [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 uses strongly typed enums with member names in metadata"
-- [#93 Fix lifecycle compatibility guidance](../../../../changes/bcquality/93.md) (code change): "Updated API versioning guidance to require separate page objects for version-specific shapes"
+- [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
+- [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "Use it to see how Microsoft designs standard APIs and copy objects"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

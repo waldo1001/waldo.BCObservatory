@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,6 +89,9 @@ links:
   changes:
     - change/bcapps/11257
     - change/bcapps/11262
+    - change/bcapps/11890
+    - change/bcapps/11950
+    - change/bcapps/12117
     - change/bcapps/9820
     - change/bcquality/148
 learn_toc_path:
@@ -150,6 +153,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11257 Fix duplicate retention continuations for Waiting jobs](../../../../changes/bcapps/11257.md) (code change): "Fix duplicate retention continuations for Waiting jobs"
 - [#11262 Fix retention policy deletion-limit stop propagation](../../../../changes/bcapps/11262.md) (code change): "Fix retention policy deletion-limit stop propagation"
+- [#11890 Adding an in-product email storage cleanup](../../../../changes/bcapps/11890.md) (code change): "Scheduler proactively sends admins remediation steps"
+- [#11950 Adding an in-product email storage cleanup (backport to releases/29.x)](../../../../changes/bcapps/11950.md) (code change): "Adds codeunits for cleanup, a runner, a scheduler and inbox row deletion"
+- [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "platform interrupts a job queue run, the log entry message now says"
 - [#9820 Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent](../../../../changes/bcapps/9820.md) (code change): "Job Queue Entry GetXmlContent method now uses ReadCommitted isolation when reading"
 - [#148 Add Job Queue reliability and scheduling guidance](../../../../changes/bcquality/148.md) (code change): "Require external side effects in Job Queue handlers to be idempotent"
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves"

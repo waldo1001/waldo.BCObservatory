@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,14 +56,15 @@ links:
     - change/bcapps/10893
     - change/bcapps/10969
     - change/bcapps/11163
-    - change/bcapps/11632
+    - change/bcapps/11294
     - change/bcapps/11635
     - change/bcapps/11727
     - change/bcapps/11848
+    - change/bcapps/12198
     - change/bcapps/9254
     - change/bcapps/9349
-    - change/bcapps/9405
     - change/bcapps/9686
+    - change/bcapps/9789
     - change/bcapps/9943
 learn_toc_path:
   - Business functionality
@@ -123,15 +124,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10893 Bug 648568: [29.x] Incorrect currency conversion rates for new currencies](../../../../changes/bcapps/10893.md) (code change): "Currency exchange rates in the demo dataset have been corrected to resolve inaccurate conversion values"
 - [#10969 [MAIN][All-e]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/10969.md) (code change): "Source currency is now consistently applied to local currency postings and cash posting"
 - [#11163 [29.x]Adjustment Amount is not accurate in the Exch. Rate Adjmt. Ledger Entries page if an Unrealized Gain gest registered and a second adjustment turns into a Loss.](../../../../changes/bcapps/11163.md) (code change): "Exchange Rate Adjustment process now correctly calculates individual adjustment amounts"
-- [#11632 [29.X]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.](../../../../changes/bcapps/11632.md) (code change): "Fixed source currency amount calculation in the General Journal posting"
-- [#11635 Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged](../../../../changes/bcapps/11635.md) (code change): "source currency amount handling in foreign currency general ledger entries"
+- [#11294 [Master]-Source Currency Amount calculation causes discrepancies with Foreign Currency G/L Entries whit Reversal Charge VAT.](../../../../changes/bcapps/11294.md) (code change): "Corrects how the source currency amount is calculated in foreign currency entries"
+- [#11635 Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged](../../../../changes/bcapps/11635.md) (code change): "source currency amount is handled when general ledger entries"
 - [#11727 Bug 650737: Description for new currencies should be aligned with existing full descriptions](../../../../changes/bcapps/11727.md) (code change): "Currency labels in demo data now include country names"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "foreign currency opening balance is not included. Report 11564"
-- [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter logic was corrected to properly apply filters"
+- [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Fixed source currency handling for LCY postings and cash posting on sales"
+- [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter not working. Codeunit 699"
 - [#9349 [master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed](../../../../changes/bcapps/9349.md) (code change): "Reversal of foreign-currency payments with gain-loss entries now works correctly"
-- [#9405 [FI] Delocalize FI Currency Exchange Rate import into FI Core](../../../../changes/bcapps/9405.md) (code change): "Finnish currency exchange rate import functionality moved from the base application"
 - [#9686 [Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.](../../../../changes/bcapps/9686.md) (code change): "Foreign currency unrealized gain/loss posting now selects the correct payables account"
-- [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoice in USD with deferral shows 0 Amount LCY"
+- [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../changes/bcapps/9789.md) (code change): "vendor payments applied to several invoices in foreign currency"
+- [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoices in foreign currency now correctly display"
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (community post): "configurable currency symbols on numeric fields to help finance users"
 - [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../../../../videos/u1oO9MEg9kc.md) (video): "GL Account Revaluation; currency revaluation; exchange rate adjustments"
 

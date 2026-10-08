@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:51.589Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,8 @@ links:
   posts:
     - post/aardvarklabs-blog/2523
   guidelines: []
+  changes:
+    - change/bcquality/207
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -109,10 +111,11 @@ Start with Designing Profiles for the overall picture, including role centers, p
 - [Profile object](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-profile-object): Description of the profile object, which allows you to build an individual experience for each user profile.
 - [Using the client to create profiles](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client): Gives an overview of how to create profiles by using the client together with Visual Studio Code.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Step-by-Step Guide to Page Customizations for Business Central in AL](../../../../../posts/aardvarklabs-blog/2523.md) (community post): "A profile definition links customizations to a role center and applies them"
+- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "AccessByPermission for permission gating on Role Centers"
+- [Step-by-Step Guide to Page Customizations for Business Central in AL](../../../../../posts/aardvarklabs-blog/2523.md) (community post): "Page customization objects in AL change a page's layout for a specific profile"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

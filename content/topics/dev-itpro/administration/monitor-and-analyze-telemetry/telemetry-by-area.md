@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:51.738Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -367,8 +367,7 @@ links:
     - topic/dev-itpro/administration/monitor-and-analyze-telemetry
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/13369
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -381,7 +380,7 @@ coverage:
   learn: 61
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: c86e830d946d5c66be423238373d8b30efeed709899c3779960807433a93a132
@@ -476,11 +475,5 @@ Start with the Telemetry area overview page, which lists the available areas and
 - [User Checklist Trace Telemetry \| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-user-checklist-trace): Learn about the user checklist telemetry in Business Central
 - [Web Service Publish Failure Trace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-publish-failure-trace): Learn about the web service publish failure telemetry in Business Central
 - [Web Service Request Trace](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace): Learn about the web service request telemetry in Business Central
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

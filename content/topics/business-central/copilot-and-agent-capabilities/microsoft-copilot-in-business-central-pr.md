@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:12.958Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,7 +60,6 @@ links:
   videos:
     - video/06vgkq2EXmA
     - video/2uXVammbab0
-    - video/58yOwN3GY2Q
     - video/gvIGhtqADS0
     - video/mhfjycxWTyY
     - video/TSLXzbeyE7Y
@@ -82,7 +81,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 9
+  video: 8
   blog: 1
   guideline: 0
 bc_forms: []
@@ -131,7 +130,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../posts/demiliani-com/12927.md) (community post): "Copilot Chat uses Bing Search and retrieval augmented generation to answer user questions"
 - [Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central](../../../videos/06vgkq2EXmA.md) (video): "How we built Copilot Chat in Business Central"
 - [What's New: Chat with Copilot (2025 release wave 1)](../../../videos/2uXVammbab0.md) (video): "Chat with Copilot; natural language queries; record filtering"
-- [Microsoft Copilot in Business Central](../../../videos/58yOwN3GY2Q.md) (video): "Copilot as everyday AI companion; Marketing Tech suggestions"
 - [Conversational Chat using Copilot in Dynamics 365 Business Central ( 2024 release wave 1)](../../../videos/gvIGhtqADS0.md) (video): "Conversational Chat using Copilot in Dynamics 365 Business Central"
 - [Business Central Gets a New Microsoft Copilot Chat Experience](../../../videos/mhfjycxWTyY.md) (video): "Business Central Gets a New Microsoft Copilot Chat Experience; unified experience; conversational ai"
 - [What's new: Explore the new Microsoft Copilot Chat in Business Central (2026 release wave 2)](../../../videos/TSLXzbeyE7Y.md) (video): "Microsoft Copilot Chat in Business Central; sales tax configuration assistance; Copilot recommendations"

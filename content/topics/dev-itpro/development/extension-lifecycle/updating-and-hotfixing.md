@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:15.671Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -134,6 +134,6 @@ Start with "Lifecycle of apps and extensions" for the overall model. Then read "
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany which can cause data races"
+- [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code must not use ChangeCompany. New quality rule and knowledge article prevent upgrade code from using ChangeCompany"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

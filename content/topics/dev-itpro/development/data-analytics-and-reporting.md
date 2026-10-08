@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:29.221Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,8 +112,6 @@ links:
   videos:
     - video/jqVt0hYDfz0
   posts:
-    - post/aardvarklabs-blog/1822
-    - post/aardvarklabs-blog/2936
     - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
@@ -126,7 +124,7 @@ coverage:
   learn: 7
   code: 28
   video: 1
-  blog: 3
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -200,8 +198,6 @@ For Excel reporting, "Working with Excel layouts" covers creating, configuring a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Queries: Simplifying Complex Data](../../../posts/aardvarklabs-blog/1822.md) (community post): "Queries simplify complex data retrieval by defining linked data items"
-- [Integrating Analysis Views in Business Central Extensions](../../../posts/aardvarklabs-blog/2936.md) (community post): "package and deploy Analysis Views in extensions"
 - [Business Central data in Fabric: the way it should be](../../../posts/waldo-be/318707.md) (community post): "Native mirroring to Fabric via a new Fabric integration app removes the need for custom data extraction"
 - [What's Cooking in Business Central: Delivering Analysis Views in AL Extensions](../../../videos/jqVt0hYDfz0.md) (video): "Delivering Analysis Views in AL Extensions. Topics: analysis views; al extensions"
 

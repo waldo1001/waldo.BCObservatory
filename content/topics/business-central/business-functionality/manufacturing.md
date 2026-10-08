@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -444,20 +444,14 @@ links:
   changes:
     - change/bcapps/10131
     - change/bcapps/10173
-    - change/bcapps/10278
-    - change/bcapps/10336
     - change/bcapps/10369
     - change/bcapps/10423
     - change/bcapps/10546
     - change/bcapps/10879
-    - change/bcapps/11304
     - change/bcapps/12059
-    - change/bcapps/12066
     - change/bcapps/12068
     - change/bcapps/9075
     - change/bcapps/9087
-    - change/bcapps/9118
-    - change/bcapps/9196
     - change/bcapps/9660
     - change/bcapps/9670
     - change/bcapps/9803
@@ -642,21 +636,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10131 [Extensibility Request] issue 30298: allow production scheduling direction control](../../../changes/bcapps/10131.md) (code change): "Production order line quantity changes can now be extended to control scheduling direction"
 - [#10173 [Extensibility Request] issue 30129: expose manufacturing cost calculation events](../../../changes/bcapps/10173.md) (code change): "Manufacturing extensions can now separate setup and runtime costs during standard cost calculation"
-- [#10278 Subcontracting Operation Notes](../../../changes/bcapps/10278.md) (code change): "Comments and attachments flow to subcontracting purchase orders as blank lines"
-- [#10336 [Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change](../../../changes/bcapps/10336.md) (code change): "during standard cost changes by skipping unconditional SKU cost updates when"
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../changes/bcapps/10369.md) (code change): "Table relations in the Production BOM Comment Line table are corrected"
 - [#10423 Bug 620761: Move subconracting tests from base app to subcontracting app](../../../changes/bcapps/10423.md) (code change): "production-order requisition line descriptions are restored after vendor validation"
-- [#10546 [Main] Reopening and re-finishing production order reposts backward-flushed routing capacityupdate](../../../changes/bcapps/10546.md) (code change): "reopening and re-finishing a production order would incorrectly repost backward-flushed routing"
+- [#10546 [Main] Reopening and re-finishing production order reposts backward-flushed routing capacityupdate](../../../changes/bcapps/10546.md) (code change): "Reopening and re-finishing a production order no longer reposts backward-flushed"
 - [#10879 [Main]Reopening and re-finishing production order reposts backward-flushed routing capacityInitial commit](../../../changes/bcapps/10879.md) (code change): "Production order reopening and re-finishing now correctly handles backward-flushed routing capacity"
-- [#11304 [Master]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/11304.md) (code change): "prevents duplicate production order status checks when the unit of measure code"
-- [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reverse Production Entry fails when production output is posted using a non-base Unit of Measure"
-- [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../changes/bcapps/12066.md) (code change): "Removed CLEAN27 tags from assembly, inventory, manufacturing, and planning codeunits"
+- [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
-- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Production Order Component and routing line calculation issues resolved"
-- [#9196 [Master] - What If Impact on Planning and Supply](../../../changes/bcapps/9196.md) (code change): "manufacturing and inventory scenarios. New What-If Scenario"
-- [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Production order component line pages now properly link component consumption quantities"
+- [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"
 - [#9670 [Main] - Posting from Released production order affects Firm planned production order with same ID.](../../../changes/bcapps/9670.md) (code change): "Posting from Released production order affects Firm planned production order"
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"

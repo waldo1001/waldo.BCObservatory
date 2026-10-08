@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:04.115Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10285
 learn_toc_path:
   - Business functionality
   - Inventory
@@ -126,6 +128,12 @@ Start with the landing page for the scope of the app, then open the report page 
 - [Inventory Valuation KPIs and measures (Power BI)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-kpis): The Inventory Valuation App KPIs provides a page to clearly identify all KPIs and Measures used in the Inventory Valuation Report.
 - [Inventory valuation landing page (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-app): The Inventory Landing Page gives an overview of how the Inventory Report works.
 - [Inventory Valuation Overview (Power BI report)](https://learn.microsoft.com/dynamics365/business-central/inventory-valuation-powerbi-inventory-valuation-overview): The Inventory Valuation Overview report shows item values on a location by location basis.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10285 [Extensibility Request] issue 29642: add Inventory Valuation events](../../../../../changes/bcapps/10285.md) (code change): "Inventory Valuation report 10139 now exposes two integration events to let extensions skip items"
 
 ## Business Central pages and reports
 

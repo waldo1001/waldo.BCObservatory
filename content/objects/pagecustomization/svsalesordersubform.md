@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:32:29.863Z"
+  at: "2026-10-08T06:17:47.117Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d907548f7e9f0ff2d1af58ab9d0b59ebb51dc3a6df841be3c179417776779310
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al
     title: src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al (releases/29.x)
     date: null
-    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
+    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Page customization "SVSalesOrderSubform" in AgentSamples (System.Agents.Designer.AgentSamples.SalesValidation). Introduced in BC29, still in BC30.
 
-AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al) · facts from BC29
+AgentSamples · System.Agents.Designer.AgentSamples.SalesValidation · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/AgentSamples/app/SalesValidation/Profile/SVSalesOrderSubform.PageCust.al) · facts from BC29
 
 ## Across versions
 

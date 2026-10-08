@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:32:29.863Z"
+  at: "2026-10-08T06:17:47.117Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 10113597371bce4095a200bc32c369d21d690242637247f0d3f1379952c5ed56
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
+    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "PEPPOL Purchase Delivery Info Provider" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPurchaseDeliveryInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

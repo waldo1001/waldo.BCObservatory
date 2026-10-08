@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:11.917Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,7 +78,7 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/9421
+    - change/bcapps/8959
     - change/bcapps/9528
 learn_toc_path:
   - Business functionality
@@ -157,7 +157,7 @@ Start with the cash flow overview to learn the terms. Then use the analysis page
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9421 [Event Request] codeunit 367 "CheckManagement": add OnFinancialVoidCh…](../../../../changes/bcapps/9421.md) (code change): "OnFinancialVoidCheckOnBeforePostBalanceAccount enables extension of void check"
+- [#8959 Deliverable 638799: Spend Requests in Base App](../../../../changes/bcapps/8959.md) (code change): "Spend Requests allow users to create requisitions for planned expenses"
 - [#9528 636017 Move CashFlow report action tooltips to report objects (W1)](../../../../changes/bcapps/9528.md) (code change): "Cash Flow report action tooltips are moved from role center page actions to the report objects"
 
 ## Business Central pages and reports

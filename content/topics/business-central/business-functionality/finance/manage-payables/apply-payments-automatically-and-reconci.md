@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:48.170Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,8 +72,7 @@ links:
     - topic/business-central/business-functionality/finance/manage-payables
   localizations: []
   videos: []
-  posts:
-    - post/thedynamicsexplorer-com/10232
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10425
@@ -94,7 +93,7 @@ coverage:
   learn: 5
   code: 6
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 389
@@ -146,8 +145,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9051 [639592][ALAppExtensions #30277][Event Request] Codeunit 426 "Payment Tolerance Management" OnPmtTolGenJnlOnAfterCheckConditions](../../../../../changes/bcapps/9051.md) (code change): "Codeunit 426 Payment Tolerance Management exposes event allowing subscribers to modify general journal lines"
 - [#9356 [Main]-Payment XML file generated from EB Payment Journal upon selecting "FCY Symbol" includes currency text](../../../../../changes/bcapps/9356.md) (code change): "Payment XML files exported from EB Payment Journal now correctly exclude currency text"
 - [#9674 Fix missing table permissions on Stale Check action in Check Management Subscriber](../../../../../changes/bcapps/9674.md) (code change): "Stale Check action was failing due to missing Modify permissions"
-- [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../../changes/bcapps/9789.md) (code change): "payment discount tolerance was calculated twice for vendor payments with Applies-to ID in foreign currency"
-- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "three methods for posting customer cash receipts in Business Central"
+- [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../../changes/bcapps/9789.md) (code change): "payment discount tolerance was calculated twice for vendor payments"
 
 ## Business Central pages and reports
 

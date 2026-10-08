@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:52.744Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -158,6 +158,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10047
+    - change/bcapps/11242
     - change/bcapps/9598
 learn_toc_path:
   - Business functionality
@@ -223,7 +225,9 @@ This section describes the Czech localization of VAT in Business Central. It has
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9598 [main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL](../../../../../changes/bcapps/9598.md) (code change): "A new public codeunit provides VAT Statement calculation events for Czech localization, replacing an obsolete event"
+- [#10047 [main] bug 646167 - Enhance VIES Declaration pages: update option captions for declaration types](../../../../../changes/bcapps/10047.md) (code change): "Updates the option captions for declaration types on the CZ VIES Declaration Header"
+- [#11242 [main] bug 640925 - Enhance draft and proforma invoice report layouts and upgrade tag definitions](../../../../../changes/bcapps/11242.md) (code change): "Pro Forma Invoice VAT is now calculated from temporary sales lines"
+- [#9598 [main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL](../../../../../changes/bcapps/9598.md) (code change): "VAT Statement Calculation CZL were moved to a new codeunit"
 
 ## Business Central pages and reports
 

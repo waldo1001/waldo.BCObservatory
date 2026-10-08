@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.595Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,7 +82,8 @@ links:
     - topic/dev-itpro/development/get-started
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/12142
   guidelines: []
   changes:
     - change/bcapps/9407
@@ -98,7 +99,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 53ce797e950f6a3e38fee50d94f2f88c2ce01a405f20e5a08997bcaf5c12a1f7
@@ -145,6 +146,7 @@ Two telemetry pages help when validation fails. One describes submission validat
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9407 Add Microsoft apps view to AppSource product list (Fix ADO #642217)](../../../../changes/bcapps/9407.md) (code change): "A new predefined view called "Microsoft apps" was added to the AppSource Product List page"
-- [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Seven new AppSource validation guidance articles added to help AL developers"
+- [#142 Add AL-focused AppSource validation guidance](../../../../changes/bcquality/142.md) (code change): "Six community AppSource knowledge articles with paired good and bad AL samples"
+- [Dynamics 365 Business Central: checking for breaking changes on obsoleted, internal and OnPrem objects.](../../../../posts/demiliani-com/12142.md) (community post): "AppSourceCop configuration settings validateObsoleteSymbols, validateInternalSymbols, validateOnPremSymbols"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

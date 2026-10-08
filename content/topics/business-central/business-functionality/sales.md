@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -474,38 +474,41 @@ links:
   videos:
     - video/PIWxU93eCT4
   posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
     - post/thedynamicsexplorer-com/10326
   guidelines: []
   changes:
-    - change/bcapps/10005
     - change/bcapps/10083
     - change/bcapps/10123
     - change/bcapps/10128
     - change/bcapps/10165
     - change/bcapps/10171
     - change/bcapps/10279
-    - change/bcapps/10368
+    - change/bcapps/10290
     - change/bcapps/10513
-    - change/bcapps/10716
     - change/bcapps/10875
+    - change/bcapps/10877
     - change/bcapps/10901
     - change/bcapps/10902
+    - change/bcapps/11023
     - change/bcapps/11157
     - change/bcapps/11304
     - change/bcapps/11562
     - change/bcapps/11667
     - change/bcapps/12145
     - change/bcapps/8914
+    - change/bcapps/9118
     - change/bcapps/9222
+    - change/bcapps/9224
     - change/bcapps/9374
     - change/bcapps/9439
     - change/bcapps/9440
+    - change/bcapps/9445
+    - change/bcapps/9583
     - change/bcapps/9638
-    - change/bcapps/9653
     - change/bcapps/9656
     - change/bcapps/9688
-    - change/bcapps/9898
     - change/bcapps/9937
     - change/bcapps/9947
     - change/bcapps/9960
@@ -522,7 +525,7 @@ coverage:
   learn: 133
   code: 139
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 7
@@ -734,39 +737,42 @@ The Sales section describes the day-to-day sales workflow. You register customer
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../changes/bcapps/10005.md) (code change): "error handling across all undo scenarios for sales, purchases, and transfers"
-- [#10083 [main]- Negative Shipped and Invoiced Quantities appear on Sales Order Lines after using the Copy Document from a Sales Credit Memo.](../../../changes/bcapps/10083.md) (code change): "Negative Shipped and Invoiced Quantities appear on Sales Order Lines after using the Copy Document"
+- [#10083 [main]- Negative Shipped and Invoiced Quantities appear on Sales Order Lines after using the Copy Document from a Sales Credit Memo.](../../../changes/bcapps/10083.md) (code change): "Negative Shipped and Invoiced Quantities appear on Sales Order Lines"
 - [#10123 [Extensibility Request] issue 30401: add credit memo sales line filter event](../../../changes/bcapps/10123.md) (code change): "add credit memo sales line filter event. An integration event OnUpdateSalesDocumentOnBeforeFindSetCreditMemoSalesLine"
 - [#10128 [Extensibility Request] issue 30357: add prepayment credit memo confirmation event](../../../changes/bcapps/10128.md) (code change): "add prepayment credit memo confirmation event. A handled event is added to the prepayment credit memo posting"
-- [#10165 [Extensibility Request] issue 29901: expose item application entry before find](../../../changes/bcapps/10165.md) (code change): "expose item application entry before find. An event is added before retrieving a filtered item application entry"
+- [#10165 [Extensibility Request] issue 29901: expose item application entry before find](../../../changes/bcapps/10165.md) (code change): "undoing a drop shipment, so subscribers can adjust loaded fields"
 - [#10171 [Extensibility Request] issue 30110: add prepayment update events](../../../changes/bcapps/10171.md) (code change): "add prepayment update events. Sales prepayment posting now exposes two integration events"
 - [#10279 [Extensibility Request] issue 30414: add sales budget navigation events](../../../changes/bcapps/10279.md) (code change): "add sales budget navigation events. Integration events are added to the Sales Budget Overview Matrix page"
-- [#10368 Bug 614967: Skip mismatched TransferFields in posting](../../../changes/bcapps/10368.md) (code change): "Sales and Purchase posting now skip fields with mismatched types"
+- [#10290 [Main] -Drop shipment undo receipt fails for service and non-inventory items.](../../../changes/bcapps/10290.md) (code change): "Undo receipt and undo shipment operations now work correctly for drop shipments"
 - [#10513 [Extensibility Request] issue 30270: expose JobPostLine before calculating totals](../../../changes/bcapps/10513.md) (code change): "Sales invoice posting exposes a new event that provides access"
-- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../changes/bcapps/10716.md) (code change): "creating a purchase order from a sales order with drop shipment"
 - [#10875 [Master] Partial Warehouse Shipment with Lot-Tracked Item Fails on Second Shipment Due to Auto-Populated Bin Code and Item Tracking Quantity Validation Error ("You cannot select more than 0 units")Initial commit](../../../changes/bcapps/10875.md) (code change): "Fixed a bug where partial warehouse shipments of lot-tracked items failed"
+- [#10877 [MAIN]-Bug 648518 Source Currency VAT Amount is zero on G/L Entry when posting sales invoice with Line Discount Deferral Code and Discount Posting is No Discounts](../../../changes/bcapps/10877.md) (code change): "Source Currency VAT Amount being posted as zero on G/L entries"
 - [#10901 [Extensibility Request] issue 30428: add sales order line update event](../../../changes/bcapps/10901.md) (code change): "A new event OnBeforeUpdateSalesOrderLineIfExist allows extensions to intercept"
-- [#10902 [Extensibility Request] issue 30424: add prepayment update event](../../../changes/bcapps/10902.md) (code change): "A handled integration event was added to allow extensions to control prepayment"
+- [#10902 [Extensibility Request] issue 30424: add prepayment update event](../../../changes/bcapps/10902.md) (code change): "Handled integration event added to allow extensions to control prepayment amount updates"
+- [#11023 BE's PEPPOL "escompte" compensation](../../../changes/bcapps/11023.md) (code change): "Belgian PEPPOL invoices and credit memos keep the payment discount AllowanceCharge"
 - [#11157 [main] Bug 647991 Assembly-to-Order Item Incorrectly Blocks Shipment of Unrelated Sales Order Line](../../../changes/bcapps/11157.md) (code change): "Assemble-to-Order sales lines from incorrectly blocking the shipment of unrelated"
 - [#11304 [Master]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/11304.md) (code change): "Validation of the item number field on sales lines now prevents duplicate production"
-- [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % accepts 5 decimal places through Configuration Package import"
-- [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment quantities"
+- [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % field now consistently accepts the same number of decimal places"
+- [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment"
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
-- [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Changing Sales Order Line Description on a Sales Order unexpectedly changes"
+- [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
+- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"
 - [#9222 [Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.](../../../changes/bcapps/9222.md) (code change): "prepayment invoices with invoice discounts applied were not correctly including tax"
+- [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Copy Sales Document report changed in the W1 and APAC layers"
 - [#9374 [master] Contact No. Lookup on Sales Quote returns All Customers instead of related Contacts after Updating to v28.2 - regression.](../../../changes/bcapps/9374.md) (code change): "Contact lookup on Sales Quote documents now correctly filters to show only contacts"
 - [#9439 [Extensibility Request] issue 30330: add OnCancelInvoiceOnBeforeConfirm event](../../../changes/bcapps/9439.md) (code change): "confirmation message shown when cancelling a posted sales invoice"
 - [#9440 [Extensibility Request] issue 30331: add event to adjust corrective credit memo confirmation text](../../../changes/bcapps/9440.md) (code change): "adjust the confirmation text when a posted sales invoice is being corrected"
-- [#9638 Fixed Filtering the Sales Order List using the 'Delayed' view the list shows sales orders that are out of scope](../../../changes/bcapps/9638.md) (code change): "Fixed filtering logic in Sales Order List page for the 'Delayed' view"
-- [#9653 [Master][ALL-E] No Reservation created when the item is selected by Description in Sales Lines](../../../changes/bcapps/9653.md) (code change): "Automatic reservation is now properly created when items are selected by description lookup in sales lines"
+- [#9445 [Extensibility Request] issue 30173: add integration events to Sales Line Discounts page](../../../changes/bcapps/9445.md) (code change): "integration events are added to the Sales Line Discounts page"
+- [#9583 636017 Move Sales report action tooltips to report objects](../../../changes/bcapps/9583.md) (code change): "Sales report action tooltips are moved from page actions to the report objects"
+- [#9638 Fixed Filtering the Sales Order List using the 'Delayed' view the list shows sales orders that are out of scope](../../../changes/bcapps/9638.md) (code change): "Sales Order List page now correctly filters sales orders when using the 'Delayed' view"
 - [#9656 [main] - Incorrect Prepayment Invoice Amount for Sales Orders with Invoice Discount, Prices Including VAT and negative non-inventory line.](../../../changes/bcapps/9656.md) (code change): "Fixes incorrect prepayment invoice amounts for sales orders with invoice discounts"
-- [#9688 [main] Hidden breaking change and instability on sales/purchase line insert](../../../changes/bcapps/9688.md) (code change): "Fixed unreliable header existence checks for sales and purchase line insertion"
-- [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../changes/bcapps/9898.md) (code change): "creating a Purchase Order from a Sales Order"
+- [#9688 [main] Hidden breaking change and instability on sales/purchase line insert](../../../changes/bcapps/9688.md) (code change): "Makes the v28 check that blocks inserting sales and purchase lines without an existing header more reliable"
 - [#9937 Fix error when selecting item as the line type in German language](../../../changes/bcapps/9937.md) (code change): "Fixed an error that occurred when selecting an item as the line type in German language"
-- [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Line type captions in sales and purchase documents can now display up to 30 characters"
+- [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
-- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "When copying documents in Sales Order processing, not all fields transfer"
+- [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
+- [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "sales credit memo with an inventory item automatically creates item ledger"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.785Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,11 +83,10 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/demiliani-com/13369
     - post/duiliotacconi-com/1501
     - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
-    - post/waldo-be/318461
+    - post/waldo-be/318371
   guidelines: []
 learn_toc_path:
   - Development
@@ -100,7 +99,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 5
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -145,10 +144,9 @@ To analyze data, use the free Power BI apps (usage, error, performance, administ
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../../posts/demiliani-com/13369.md) (community post): "diagnose whether slow page performance is caused by client infrastructure"
-- [Client Crash? Check Error Dialog signal](../../../../posts/duiliotacconi-com/1501.md) (community post): "Troubleshooting client crashes in online Dynamics 365 Business Central requires using telemetry signals"
-- [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "Wait Statistics in Dynamics 365 Business Central Online provides telemetry data"
-- [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "sqlServerSessionId to Long Running Queries telemetry signals, enabling identification"
-- [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "ask natural language questions about Business Central telemetry data instead of writing complex KQL queries"
+- [Client Crash? Check Error Dialog signal](../../../../posts/duiliotacconi-com/1501.md) (community post): "telemetry is the way to investigate client crashes. Start from the operation id shown at the crash"
+- [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "AI can analyze exported wait statistics telemetry to provide performance insights"
+- [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "Investigation workflow involves isolating lock timeouts, filtering lock snapshots"
+- [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../../posts/waldo-be/318371.md) (community post): "BC Telemetry Buddy is a VSCode extension and Model Context Protocol tool"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

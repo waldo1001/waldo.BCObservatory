@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:32.523Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,6 +161,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10311
+    - change/bcapps/12053
 learn_toc_path:
   - Business functionality
   - Sustainability management
@@ -223,6 +226,13 @@ To start, pick the page that matches the task. For quick exploration, use ad-hoc
 - [Handle External ESG reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-esg-reporting): Learn how to set up, run and export External ESG reports.
 - [Sustainability financial reporting](https://learn.microsoft.com/dynamics365/business-central/sustainability-fin-reporting): Describes how to use financial reports to create various views and reports for analyzing sustainability performance data.
 - [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports): Explore the sustainability reports and analytics in the standard version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10311 [Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC](../../../../changes/bcapps/10311.md) (code change): "Sustainability entries can now be found more easily through a Find"
+- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../../changes/bcapps/12053.md) (code change): "Removes code marked for cleanup in version 27 from the Sustainability, Power BI Reports"
 
 ## Business Central pages and reports
 

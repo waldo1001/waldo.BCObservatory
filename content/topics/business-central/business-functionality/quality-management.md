@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.464Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,8 +118,8 @@ links:
   localizations: []
   videos:
     - video/m8-7-JKq4dc
-    - video/sqjb_gsXqM8
-  posts: []
+  posts:
+    - post/olofsimren-com/3696
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -131,8 +131,8 @@ children:
 coverage:
   learn: 11
   code: 7
-  video: 2
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 20400
@@ -187,8 +187,8 @@ Further pages cover what happens after an inspection. They describe scheduled in
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
 - [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
-- [What's New: Supply Chain Management - overview (2026 release wave 1)](../../../videos/sqjb_gsXqM8.md) (video): "Quality Management Extension; Drop Shipment Process Enhancements; Purchase Order Matching"
 
 ## Business Central pages and reports
 

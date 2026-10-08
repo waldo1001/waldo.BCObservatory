@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:19.662Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,8 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/12820
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -90,7 +91,7 @@ coverage:
   learn: 6
   code: 3
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 8700
@@ -132,6 +133,12 @@ A good starting point is the installation considerations page, then the compatib
 - [Optimizing SQL Server Performance with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance): Describes how to optimize performance when accessing data from the SQL Server database.
 - [Setting SQL Compatibility Level to Optimize Database Performance](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/optimize-sql-set-compatibility-level): Enable query optimizer features in a database by setting the compatibility level
 - [Using Table Partitioning and Data Compression](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/using-sql-partitioning-and-compression): Learn how to use table partitioning and data compression to improve data access performance in Business Central online.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central on-premises and SQL Server 2025.](../../../../posts/demiliani-com/12820.md) (community post): "SQL Server 2025 introduces significant improvements for Dynamics 365 Business Central on-premises"
 
 ## Business Central pages and reports
 

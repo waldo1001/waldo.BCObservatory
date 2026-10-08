@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.543Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9652
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -146,5 +148,11 @@ Letters of attorney and custom declaration pages are for document-driven tasks. 
 - [Setting up customer and vendor agreements in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements): Russian localization provides features for managing customer and vendor agreements.
 - [Setting up customer prepayments in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-customer-prepayments): This article describes how to set up and manage customer prepayments in Business Central for Russia.
 - [Setting up vendor prepayments in Russia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Russia/how-to-set-up-vendor-prepayments): Russian localization adds features for managing vendor prepayments.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9652 [Extensibility Request] issue 30358: add OnBeforeOnPreReport event to Redraw Receivable Bills report](../../../../../changes/bcapps/9652.md) (code change): "Adds an OnBeforeOnPreReport integration event to the ES Redraw Receivable Bills report"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

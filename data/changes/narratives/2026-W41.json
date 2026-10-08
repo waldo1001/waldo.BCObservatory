@@ -1,21 +1,25 @@
 {
   "week": "2026-W41",
-  "input_hash": "7b6acf5342919068c1d2017e9677eb96fbb7ecc6f954c5f17bef0d9d87225d92",
-  "text": "Two breaking removals lead the week: #12290 deletes code kept behind CLEAN27 in Service Management, including obsolete ES and IT objects, and #12293 does the same in Warehouse, so extensions still using those elements must be updated. Several new capabilities change behaviour. #12428 adds a public Copilot feature trial interface, #12207 marks MCP Data Query Tools as billable with a pricing acknowledgement before activation, and #12242 lifts the evaluation-company limit on Power BI report deployment. #11560 lets self-billed purchase invoices and credit memos export as Peppol BIS 3.0 e-documents, #12306 warns before releasing an already sent purchase order, and #12064 supports hash and percent characters in SharePoint paths. Other additions include #12213 (row and column definition preview), #11748 (bonded locations for excise tax), #11604 (Shopify delivery timestamp) and #10212 (SetReferenceType on SignedXml). Fixes cluster in manufacturing (#11959, #12188, #12059, #11994), Shopify (#12260, #12215, #12214, #12139), Subscription Billing (#10446, #11637, #10182), e-documents and tax reporting (#11629, #9347, #12055, #12127, #11848), and Email (#12118, #12463). Performance work covers #12078 for Excel export and #12307 for a set-based upgrade. BCQuality gained several knowledge articles, for example #213 and #215.",
-  "changes": 64,
+  "input_hash": "eddc0494d0651f1118b465173c9274d701be8c5800cbdd1b756ee17dbfd97f83",
+  "text": "Two removals break code this week: #12290 deletes CLEAN27 code from Service Management across W1 and many localizations, including obsolete ES and IT objects, and #12293 does the same for Warehouse, so extensions still using those elements must be updated. Among behaviour changes, #12198 fixes inconsistent Source Currency on G/L entries for LCY and cash postings, #12141 corrects project ledger costs for non-deductible VAT in a foreign-currency project, and #11848 includes foreign currency opening balances in report 11564. Manufacturing fixes cover finishing orders with rounding differences (#11959), reserved quantities after planning (#12188), undoing output in a non-base unit (#12059) and #11994. Subscription Billing gets #10446, #10182 and #11637. Shopify fixes are #12260, #12215, #12214 and #12139, plus delivery timestamps in #11604. E-documents add self-billed Peppol export (#11560), a warning before releasing an already sent purchase order (#12306), a visible error for unmatched order responses (#12055) and a German IssueDate fix (#9347). New capabilities include the Copilot trial interface (#12428), billable MCP Data Query Tools (#12207), SharePoint paths with hash and percent characters (#12064), Power BI deployment beyond evaluation companies (#12242) and SetReferenceType on SignedXml (#10212). Performance work covers Excel export (#12078) and the dimension upgrade (#12307). BCQuality added knowledge articles, including #213 and #215.",
+  "changes": 65,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.06693,
-  "at": "2026-10-08T01:26:53.141Z",
+  "cost_usd": 0.068124,
+  "at": "2026-10-08T05:36:33.848Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-08T02:14:14.417Z",
+    "at": "2026-10-08T06:31:22.257Z",
     "verdict": "approve",
     "issues": [
-      "#11848 is grouped under 'e-documents and tax reporting', but it fixes foreign currency opening balances in a G/L account sheet report (Report 11564). That is financial reporting, not tax reporting. Minor grouping imprecision."
+      "#11994 is cited with no description; it fixes copying production planning lines to a requisition worksheet via Carry Out Action Msg. - Plan.",
+      "The Subscription Billing (#10446, #10182, #11637) and Shopify (#12260, #12215, #12214, #12139) numbers are listed without saying what they fix, which makes them less useful to readers.",
+      "'the dimension upgrade' for #12307 is vague; it is the set-based DataTransfer backfill of Default Dimension ParentId.",
+      "#11604 is flagged as a feature, not a fix, though the word 'plus' partly separates it from the Shopify fixes.",
+      "Some behaviour changes are left out (e.g. #11629 SAF-T, #12213 financial report preview, #11748 excise bonded locations); this is a choice of what to include, not an error."
     ],
-    "input_hash": "7b6acf5342919068c1d2017e9677eb96fbb7ecc6f954c5f17bef0d9d87225d92",
-    "cost_usd": 0.16309600000000002,
+    "input_hash": "eddc0494d0651f1118b465173c9274d701be8c5800cbdd1b756ee17dbfd97f83",
+    "cost_usd": 0.16794399999999998,
     "applied": [],
     "rejected_edits": []
   }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -312,8 +312,8 @@ links:
   localizations: []
   videos:
     - video/lofGuQRe1BM
-    - video/qlFEdXPjX6A
   posts:
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f
   guidelines: []
 learn_toc_path:
@@ -331,8 +331,8 @@ children:
 coverage:
   learn: 78
   code: 0
-  video: 2
-  blog: 1
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: defd0492f4609b8df28918a63713a9e6e91e5111b577b9e113e0dbc1e52441a2
@@ -361,8 +361,8 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [BC Friday Tips #33 Month Enum](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca.md) (community post): "Developers can reuse these existing enums rather than creating custom ones"
 - [BC Friday Tips #47 Enum Display Order](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-47-enum-display-order--7214ec5a2f.md) (community post): "Enum display order is determined by code sequence, not ordinal numbers"
 - [What's New: AL - Language (2024 release wave 2)](../../../../videos/lofGuQRe1BM.md) (video): "AL language; tables; pages; interfaces; queries; ternary operator"
-- [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AL Language (2025 release wave 2). Topics: al language; allowing customizations; mask type; extended data types"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12135
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -131,6 +133,12 @@ The pages are independent task guides. Start with Making Tax Digital - Submittin
 - [Print VAT Audit Reports](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports): Learn how Business Central supports the British requirements for VAT audits.
 - [Print VAT Reports [GB]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-print-vat-reports): This article explains the various VAT reports and provides guidance on how to print each of them.
 - [Set Up Reverse Charges on VAT [UK]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat): Learn how you can use reverse charge VAT accounting for a specific range of items to prevent Missing Trader Intercommunity Fund Fraud (MTIC).
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12135 Fix Reverse Charge VAT upgrade migration](../../../../../changes/bcapps/12135.md) (code change): "Reverse Charge VAT upgrade migration to properly transfer legacy values"
 
 ## Business Central pages and reports
 

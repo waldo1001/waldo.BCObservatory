@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:02.513Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/8999
-    - change/bcquality/92
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -127,7 +126,6 @@ The developer page shows how to configure key vault URLs in the app.json manifes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management using SecretText"
-- [#92 Correct security and privacy knowledge guidance](../../../../../changes/bcquality/92.md) (code change): "SecretText HTTP guidance updated to use HttpRequestMessage.SetSecretRequestUri with HttpClient.Send"
+- [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

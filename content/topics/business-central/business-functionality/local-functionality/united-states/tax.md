@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -129,6 +129,8 @@ links:
     - video/WI_3mjpQ2JU
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10884
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -217,10 +219,11 @@ Start with Basic Tax Setup and Sales tax for general tax configuration. For 1099
 - [Track data and use the IRS 1099 form](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-1099-use): Learn how to post documents to calculate information for your 1099 tax forms.
 - [Unrealized sales tax and sales payment discounts](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts): You can use the General Ledger Setup page to set up unrealized sales tax in the US version.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10884 [Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../../../changes/bcapps/10884.md) (code change): "Background posting of recurring journals no longer fails with a 'scheduled for posting' error on IRS 1099 invoice lines"
 - [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
 - [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "Automated IRS1099 Reporting; 1099 reporting; irs integration; us tax forms; vendor setup"
 

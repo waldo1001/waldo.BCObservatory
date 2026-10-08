@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:42.119Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,8 +116,8 @@ Start with the overview page for the list of tasks. Then read the page on workin
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10129 [Extensibility Request] issue 30342: allow skipping blocked item checks](../../../../changes/bcapps/10129.md) (code change): "Service contract invoicing now allows extensions to skip blocked item and service item validation"
-- [#10345 [Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit](../../../../changes/bcapps/10345.md) (code change): "Invoiced to Date field on service contracts failed to reset when a second unposted service invoice was deleted"
+- [#10129 [Extensibility Request] issue 30342: allow skipping blocked item checks](../../../../changes/bcapps/10129.md) (code change): "ServContractManagement gets two separate IsHandled events"
+- [#10345 [Main][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit](../../../../changes/bcapps/10345.md) (code change): "Invoiced to Date field on service contracts failed to reset"
 - [#10867 [29.x][ALL-E]Issues with Service Contract Invoicing and Retrospective Billing--when the second unposted Service Invoice is deleted the values on the Service Contract are no longer reset--The "Invoiced to Date" field does not resetInitial commit- #10345Initial commit](../../../../changes/bcapps/10867.md) (code change): "Fixed Service Contract invoicing to properly reset the Invoiced to Date field"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

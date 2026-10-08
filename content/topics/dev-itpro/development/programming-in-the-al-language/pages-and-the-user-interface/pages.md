@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.947Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -291,17 +291,16 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/1756
     - post/aardvarklabs-blog/2063
     - post/demiliani-com/12439
   guidelines: []
   changes:
     - change/bcapps/10377
     - change/bcapps/11901
+    - change/bcapps/11920
     - change/bcapps/11960
-    - change/bcapps/12061
+    - change/bcquality/117
     - change/bcquality/160
-    - change/bcquality/207
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -314,7 +313,7 @@ coverage:
   learn: 33
   code: 0
   video: 0
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 181f7afb514c5280b30dcfe6b295f39a7433117d6ea6eddd11fd76cbbb17916a
@@ -387,12 +386,11 @@ A third group covers helping users find and learn the UI: Tell me, page discover
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10377 [Main][ALL-E] Sales Price from customer card and Purcase Price from vendor card is showing "All Customers/All Vendors" as header instead of the specific customer/vendor informationInitial commit](../../../../../changes/bcapps/10377.md) (code change): "Price List Lines page now displays the correct customer or vendor name"
-- [#11901 Fix expense policy category mode](../../../../../changes/bcapps/11901.md) (code change): "Category field becomes locked when page is opened in single-category context"
+- [#11901 Fix expense policy category mode](../../../../../changes/bcapps/11901.md) (code change): "The category field is locked when the Expense Policies page is opened"
+- [#11920 Add title to field monitoring feature pages](../../../../../changes/bcapps/11920.md) (code change): "Field Monitoring Setup, Monitored Field Log Entries and Monitored Fields Worksheet pages now have a title"
 - [#11960 [BC14] Classify historical entry pages as Archive in Tell Me](../../../../../changes/bcapps/11960.md) (code change): "Changed UsageCategory from Lists to History on five read-only historical entry pages"
-- [#12061 [Master] - Bug 651754: Expense Management - Captions and ToolTips update](../../../../../changes/bcapps/12061.md) (code change): "Expense Management pages now display improved captions and tooltips"
-- [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and ToolTip from source table fields"
-- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "AL0573 warning: in-list set-membership tests in Visible/Enabled/Editable/StyleExpr"
-- [Effortless Layout Editing in Business Central](../../../../../posts/aardvarklabs-blog/1756.md) (community post): "Drag and drop fields onto pages, adjust properties, and show/hide actions"
+- [#117 tooltip: PR review flags genuinely-missing tooltips instead of deferring to AA0218](../../../../../changes/bcquality/117.md) (code change): "PR review now independently flags genuinely missing tooltips on page fields"
+- [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and, from BC24 runtime 13.0, ToolTip"
 - [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
 

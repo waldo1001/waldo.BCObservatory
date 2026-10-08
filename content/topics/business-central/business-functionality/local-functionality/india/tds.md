@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:13.238Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,7 +153,7 @@ Start with the general setup page, then the calculation page. Use the 194Q, thre
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12007 [Main]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.](../../../../../changes/bcapps/12007.md) (code change): "Fixed incorrect TDS amount calculation when applying payments to purchase invoices via Applies-to ID"
+- [#12007 [Main]-TDS Amount incorrectly calculated under Tax Information Factbox if you use Applies-to ID in the Indian version.](../../../../../changes/bcapps/12007.md) (code change): "Fixed incorrect TDS amount calculation when applying payments to purchase invoices"
 - [#9201 [Main]-Incident 51000001072719 : [BC-IN][28.1] Wrong TDS amount is being reflected on the TDS Entries page while posting a Purchase Invoice against a foreign (NRI) vendor.](../../../../../changes/bcapps/9201.md) (code change): "Fixed TDS amount currency conversion for foreign vendors without PAN"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

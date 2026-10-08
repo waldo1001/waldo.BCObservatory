@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:35.052Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,8 +48,6 @@ links:
   posts:
     - post/duiliotacconi-com/1694
   guidelines: []
-  changes:
-    - change/bcquality/180
 learn_toc_path:
   - Development
   - Troubleshooting
@@ -98,11 +96,10 @@ Start with the Performance Profiler overview to learn the basic recording and an
 - [Performance Profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview): Describes how to use the Performance Profiler page in Business Central to troubleshoot slow processes.
 - [Scheduled performance profiler overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/scheduled-performance-profiler-overview): Describes how to use the Profiler Schedules page in Business Central to troubleshoot slow processes across time.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#180 Normalize recoverable leaf finding ranges](../../../../../changes/bcquality/180.md) (code change): "performance audit findings when the line number falls within the valid range"
 - [SQL Statement in AL Profiles](../../../../../posts/duiliotacconi-com/1694.md) (community post): "SQL Statement collection in AL performance profiles available in Business Central 2025 Wave 2"
 - [What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)](../../../../../videos/0qt0Zy9ZsRo.md) (video): "Analyze Performance Issues with Scheduled Profiles performance troubleshooting"
 - [Snapshot Debugging vs AL Profiler in Business Central — When to Use Each](../../../../../videos/B8PLDeZ73Y4.md) (video): "Snapshot Debugging vs AL Profiler in Business Central"

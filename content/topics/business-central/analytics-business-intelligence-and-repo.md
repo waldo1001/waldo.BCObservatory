@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -993,7 +993,7 @@ Start with the overview page to pick the approach, then move to the subtopic tha
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "analytics tools like Power BI, Data Analysis mode, and APIs enable dashboards"
+- [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "Business Central analytics tools like Power BI, Data Analysis mode, and APIs enable dashboards"
 
 ## Business Central pages and reports
 

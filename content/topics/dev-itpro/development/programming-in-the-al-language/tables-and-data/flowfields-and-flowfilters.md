@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:22.410Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,7 @@ Start with the creation page if you need to define a field, then read the two ov
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "FlowFields with identical table filters into a single OUTER APPLY"
+- [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "FlowFields that use the same table and the same filters into one OUTER APPLY"
 - [Quick Tip: CalcFields vs SetAutoCalcFields in AL](../../../../../posts/thinkaboutit-be/7846.md) (community post): "FlowFields in Business Central are not stored in the database and must be calculated explicitly"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

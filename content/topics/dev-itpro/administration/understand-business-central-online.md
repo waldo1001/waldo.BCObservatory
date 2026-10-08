@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,7 +156,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/demiliani-com/12734
     - post/demiliani-com/15895
   guidelines: []
 learn_toc_path:
@@ -170,7 +169,7 @@ coverage:
   learn: 16
   code: 7
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 9
@@ -230,7 +229,6 @@ Partner-facing pages cover reselling, delegated admin access through GDAP, and t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Business Central tenants for Italian customers will be deployed to the Italy North datacenter"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
 
 ## Business Central pages and reports

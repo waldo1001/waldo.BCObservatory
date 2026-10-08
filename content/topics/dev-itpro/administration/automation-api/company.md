@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5455c712c60e3e588db257f8c6ebc431c48458920f3da943e0ab8641399e982a
@@ -43,8 +43,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/12320
 learn_toc_path:
   - Administration
   - Automation API
@@ -73,11 +71,5 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 - [(automation API) Get company](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_company_get): Gets a company object in the automation API for Dynamics 365 Business Central.
 - [company resource type (automation)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_company): A company object (automation) in Dynamics 365 Business Central.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../../../../changes/bcapps/12320.md) (code change): "Fixed 409 conflict errors in APIV2 Company Info E2E tests"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

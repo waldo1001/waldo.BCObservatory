@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:46.770Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,9 +323,7 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10088
     - change/bcapps/11730
-    - change/bcapps/9341
     - change/bcapps/9912
 learn_toc_path:
   - Business functionality
@@ -494,10 +492,8 @@ Start with "Set up financial processes" to find the right task. Then open the ar
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10088 Harden base ruleset: promote 21 rules back to Error](../../../../changes/bcapps/10088.md) (code change): "Harden base ruleset: promote 21 rules back to Error"
 - [#11730 Bug 649042: [Expense Agent] It would be nice if default data setup included number series for users, reports, etc.](../../../../changes/bcapps/11730.md) (code change): "Number series for spend requests added to demo data setup"
-- [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../../changes/bcapps/9341.md) (code change): "Empty layout element added to page 8901 Finance Manager Role Center"
-- [#9912 Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep](../../../../changes/bcapps/9912.md) (code change): "IRS Forms assisted setup registration removed by the CLEAN25 sweep"
+- [#9912 Restore the IRS Forms assisted setup registration removed by the CLEAN25 sweep](../../../../changes/bcapps/9912.md) (code change): "IRS Forms setup wizard registration that was accidentally removed"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:26.157Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -320,11 +320,13 @@ links:
     - video/BOY2442wHSc
     - video/F_pssS0FtUc
   posts:
+    - post/demiliani-com/13369
+    - post/duiliotacconi-com/1501
+    - post/duiliotacconi-com/1537
     - post/waldo-be/317845
-    - post/waldo-be/318371
-    - post/waldo-be/318423
-    - post/waldo-be/318571
   guidelines: []
+  changes:
+    - change/bcapps/10573
 learn_toc_path:
   - Administration
   - Monitor and analyze telemetry
@@ -380,14 +382,15 @@ Business Central can send telemetry to Azure Application Insights, for online an
 - [Telemetry FAQ (Frequently Asked Questions)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-faq): See frequently asked questions we get on telemetry in Business Central
 - [Turn sending telemetry to application insights on or off](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights): Learn how you can get richer telemetry by connecting your Business Central with Application Insights for telemetry.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10573 BC IQ - Adding data categorization](../../../changes/bcapps/10573.md) (code change): "Data categorization for BC IQ to codeunit 1751 Data Classification Eval"
+- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../../posts/demiliani-com/13369.md) (community post): "Business Central now includes hardware and network telemetry parameters in page views"
+- [Client Crash? Check Error Dialog signal](../../../posts/duiliotacconi-com/1501.md) (community post): "Dashboard tiles built on RT0030 (by failure reason, details, stack trace and timeline) showed InvalidOperation errors"
+- [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "KQL telemetry queries that count platform hotfix deployments by local hour"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
-- [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../posts/waldo-be/318371.md) (community post): "query Business Central telemetry data through natural conversation"
-- [BC Telemetry Buddy – 84 commits later..](../../../posts/waldo-be/318423.md) (community post): "BC Telemetry Buddy evolved from a proof of concept to a production-ready tool for analyzing Business Central telemetry"
-- [I built the tool .. but forgot the skill..](../../../posts/waldo-be/318571.md) (community post): "Building effective AI tools for telemetry analysis requires more than access"
 - [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
 - [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "telemetry data usage analytics power bi reporting go-live optimization"

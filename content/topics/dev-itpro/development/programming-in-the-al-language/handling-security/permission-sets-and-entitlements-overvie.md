@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.702Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,8 +138,14 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3348
   guidelines: []
+  changes:
+    - change/bcapps/10449
+    - change/bcapps/12255
+    - change/bcapps/8947
+    - change/bcapps/9599
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -152,7 +158,7 @@ coverage:
   learn: 14
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: f33e0b05969bd241cd9a1772129a10fa1fed0a52c873f9fef18f928c6cfd523a
@@ -200,5 +206,15 @@ Three telemetry pages cover auditing and troubleshooting: permission changes, pe
 - [Permissions on Objects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissions-on-database-objects): This article provides an overview of permissions on objects in Business Central.
 - [permissionSet resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/resources/dynamics_permissionset): A permission set object in Dynamics 365 Business Central.
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../../../changes/bcapps/10449.md) (code change): "Removes references to the soon-to-be-obsoleted table"
+- [#12255 Fix overwrite import of exported system permission sets](../../../../../changes/bcapps/12255.md) (code change): "System permission set imports with overwrite option now correctly"
+- [#8947 [Permissions] Add Where-Used and Permissions Overview navigation actions](../../../../../changes/bcapps/8947.md) (code change): "Permission Sets list gains Where-Used and Permissions Overview actions"
+- [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "A new event subscriber codeunit enables programmatic opening of the permission set"
+- [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../../../posts/aardvarklabs-blog/3348.md) (community post): "permission sets and profiles limit which pages and fields the agent can see"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

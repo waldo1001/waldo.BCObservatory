@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,7 +106,6 @@ links:
   changes:
     - change/bcapps/10179
     - change/bcapps/12213
-    - change/bcapps/12304
 learn_toc_path:
   - Business functionality
   - Finance
@@ -203,7 +202,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10179 [master] Financial Report Recalculate clears Global Dimension filters](../../../../../changes/bcapps/10179.md) (code change): "Recalculating a financial report no longer clears Global Dimension filters"
 - [#12213 [Financial Reports] Add row and column definition preview](../../../../../changes/bcapps/12213.md) (code change): "Financial report row and column definitions now include preview capability"
-- [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "Fixed a page opening issue caused by the FlowField 'Last Run By User' in Financial Report tables"
 
 ## Business Central pages and reports
 

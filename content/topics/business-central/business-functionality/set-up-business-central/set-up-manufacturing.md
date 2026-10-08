@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:21.756Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,7 +201,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10336
     - change/bcapps/10343
     - change/bcapps/10364
     - change/bcapps/10369
@@ -212,6 +211,8 @@ links:
     - change/bcapps/9123
     - change/bcapps/9177
     - change/bcapps/9277
+    - change/bcapps/9787
+    - change/bcapps/9818
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -343,7 +344,6 @@ A separate group of pages covers subcontracting: assigning work centers to vendo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10336 [Main]- Incorrect calculation of single-level capacity and material cost for Stockkeeping Units (SKU) when running cost changes in the Standard Cost Worksheet and implementing the Standard Cost change](../../../../changes/bcapps/10336.md) (code change): "Fixed incorrect calculation of single-level capacity and material costs for stockkeeping units"
 - [#10343 [Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet](../../../../changes/bcapps/10343.md) (code change): "when they access the obsolete Subcontracting Worksheet page, with options to"
 - [#10364 Create released production orders from planning worksheet](../../../../changes/bcapps/10364.md) (code change): "creating released production orders directly instead of creating firm planned orders"
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../../changes/bcapps/10369.md) (code change): "to properly filter by version. The Version Code field now shows all"
@@ -351,9 +351,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing"
 - [#9122 Bug 641488: Add "Calendar Entries Available Until" FlowField to Work/Machine Center](../../../../changes/bcapps/9122.md) (code change): "new FlowField called Calendar Entries Available Until has been added to Work Center and Machine Center"
-- [#9123 Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel](../../../../changes/bcapps/9123.md) (code change): "Show Next/Previous Operation No. on routing lines when Type = Parallel"
+- [#9123 Bug 641489: Show Next/Previous Operation No. on routing lines when Type = Parallel](../../../../changes/bcapps/9123.md) (code change): "Next Operation No. and Previous Operation No. fields on routing lines"
 - [#9177 [master] - Calculate Calendar reports missing from Work/Machine Center Cards and missing filter fields on request pages](../../../../changes/bcapps/9177.md) (code change): "Calculate Calendar reports are now accessible from Work Center and Machine Center Cards"
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9277.md) (code change): "PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy"
+- [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "enabling early detection of missing configuration before downstream"
+- [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,6 +139,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12261
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Dataverse
@@ -194,6 +196,12 @@ Start with the "Integrate with Microsoft Dataverse via data sync" page for the b
 - [Customizing option mappings with Microsoft Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping): Learn how to customize option mappings in an integration with Microsoft Dataverse.
 - [Generate AL Proxy Tables for Dataverse](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-table-proxy-generator): Use the AL Table Proxy Generator to create Business Central integration tables from Microsoft Dataverse tables and their relationships.
 - [Integrate with Microsoft Dataverse via data sync](https://learn.microsoft.com/dynamics365/business-central/admin-common-data-service): Introduction to how to integrate and use Microsoft Dataverse and its components to connect to other Dynamics 365 applications.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../../changes/bcapps/12261.md) (code change): "The Dataverse synchronization job reschedule logic now checks both the scheduled task's next run time"
 
 ## Business Central pages and reports
 

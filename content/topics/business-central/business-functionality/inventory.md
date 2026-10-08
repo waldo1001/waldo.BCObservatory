@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -430,10 +430,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10150
-    - change/bcapps/9118
     - change/bcapps/9180
-    - change/bcapps/9224
-    - change/bcapps/9464
     - change/bcapps/9531
     - change/bcapps/9602
     - change/bcapps/9631
@@ -617,12 +614,9 @@ Start with "Managing inventory" for the overall picture, then "Create item cards
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../changes/bcapps/10150.md) (code change): "Strict Expiration Posting in Item Tracking Code now clarifies that it uses"
-- [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Fixes applied to Sales Line and Sales Shipment Line across multiple localization"
-- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "are now copied to their posted documents, matching the behavior"
-- [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Multiple fixes across inventory, sales, and warehouse functionality"
-- [#9464 [Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line](../../../changes/bcapps/9464.md) (code change): "extensions to perform custom item tracking validation"
+- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers are now copied"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../changes/bcapps/9531.md) (code change): "items with multiple SKUs sharing the same Production BOM"
-- [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "Fixed incorrect user experience workflow when adding attributes to item categories"
+- [#9602 User experience for adding attribute in item categories is wrong](../../../changes/bcapps/9602.md) (code change): "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page"
 - [#9631 [Main]- "Filter by Attribute" action does not apply the filter under specific circumstances](../../../changes/bcapps/9631.md) (code change): "The 'Filter by Attribute' action on the Item List page now preserves user-applied filters"
 - [#9705 [master] Transfer Order header deletion blocked by reserved quantity — inconsistent with line deletion and all other document types](../../../changes/bcapps/9705.md) (code change): "Transfer order headers can now be deleted despite having reserved quantities"
 - [#9745 [main] Implement item variant caching in calculate inventory](../../../changes/bcapps/9745.md) (code change): "The Calculate Inventory report now caches item variant information to reduce redundant database lookups"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:27.835Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,13 +148,13 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10011
     - change/bcapps/10124
     - change/bcapps/10136
     - change/bcapps/10172
-    - change/bcapps/10176
     - change/bcapps/10281
+    - change/bcapps/11208
     - change/bcapps/11336
+    - change/bcapps/11436
     - change/bcapps/11567
     - change/bcapps/9984
 learn_toc_path:
@@ -279,13 +279,13 @@ Start with the overview of tasks to manage payments to vendors, which links the 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../../changes/bcapps/10011.md) (code change): "Purch. Cr. Memo Line avoids full-key scans when Order No. is empty"
 - [#10124 [Extensibility Request] issue 30400: add credit memo line filter event](../../../../../changes/bcapps/10124.md) (code change): "A new integration event allows extensions to filter purchase credit memo lines before they are selected"
-- [#10136 [CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds](../../../../../changes/bcapps/10136.md) (code change): "Swiss SEPA CT export now automatically extracts the clearing number from the IBAN"
+- [#10136 [CH][SEPA CT] Export requires both IBAN and Clearing No. for domestic payments and refunds](../../../../../changes/bcapps/10136.md) (code change): "Swiss SEPA CT export now automatically extracts the clearing number"
 - [#10172 [Extensibility Request] issue 30111: add purchase prepayment update events](../../../../../changes/bcapps/10172.md) (code change): "Three integration events are added to the purchase prepayment line update procedure"
-- [#10176 [Main][all-e]Prepayment Invoice and Quantity Change Issue in Business Central](../../../../../changes/bcapps/10176.md) (code change): "Fixed an issue where prepayment invoices were not handled correctly when purchase or sales line quantities were changed"
 - [#10281 [Extensibility Request] issue 30416: add purchase budget navigation events](../../../../../changes/bcapps/10281.md) (code change): "The purchase budget overview matrix page now exposes before and after integration events"
-- [#11336 [master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11336.md) (code change): "Report 400 now includes applied vendor refund entries"
+- [#11208 [Master]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../../../changes/bcapps/11208.md) (code change): "Purchase invoice lines of type G/L Account where enabling Prices Including VAT"
+- [#11336 [master] Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11336.md) (code change): "Report 400 now includes applied vendor refund entries that share a payment's document number"
+- [#11436 [29.X]-Purchase invoice lines of type G/L Account where enabling 'Prices Including VAT' and changing the VAT Prod. Posting Group causes recalculation of the Direct Unit Cost Incl. VAT and Line Amount - Related to Bug 632380](../../../../../changes/bcapps/11436.md) (code change): "Purchase invoice lines of type G/L Account where enabling Prices Including VAT"
 - [#11567 [29.x]Report 400 (Remittance Advice) Does Not Include Applied Vendor Refund Entries Resulting in Incorrect Total Calculation](../../../../../changes/bcapps/11567.md) (code change): "Report 400 Remittance Advice now includes applied vendor refund"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../../../changes/bcapps/9984.md) (code change): "Error with unposted prepayment amounts on Order"
 - [Comparing the Pay Vendor Process in Dynamics SL with Dynamics 365 Business Central](../../../../../videos/fpc_XlVEnWw.md) (video): "Payment journals; Suggest vendor payments wizard; Vendor priority functionality"

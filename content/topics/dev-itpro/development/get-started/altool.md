@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:12.842Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,12 +42,12 @@ links:
     - topic/dev-itpro/development/get-started
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692
   guidelines: []
   changes:
     - change/al-go/2304
     - change/al-go/2327
-    - change/al-go/2376
     - change/al-go/2382
 learn_toc_path:
   - Development
@@ -60,7 +60,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 280951ab58ff0d16566c5b5922b1480da263f6efcf002cab84ac99778cd40934
@@ -103,7 +103,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2304 Support framework-dependent (flat) AL Language extension layout](../../../../changes/al-go/2304.md) (code change): "Get-ALTool probes nested bin/win32 or bin/linux paths first"
 - [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../../../../changes/al-go/2327.md) (code change): "AL-Go pipeline now supports skipping the upgrade phase"
-- [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now correctly handles project and app paths"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
+- [Enhance Your AL Development with the AL MCP Server](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md) (community post): "The AL MCP server ships with the AL development tools and gives AI agents tools"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

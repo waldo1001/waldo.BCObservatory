@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:18.859Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10979
+    - change/bcquality/207
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -172,5 +173,6 @@ Start with Actions overview and Adding actions to a page. Then read Promoted act
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10979 [Master] Promote Excise Taxes action on Item card](../../../../../changes/bcapps/10979.md) (code change): "Excise Taxes action is now more prominent on the Item Card"
+- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "in-list set-membership tests in client expressions such as Visible or Enabled on actions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

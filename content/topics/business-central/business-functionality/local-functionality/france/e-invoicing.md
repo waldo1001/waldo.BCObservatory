@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.018Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,6 @@ The second page covers the E-Reporting FR e-document format. It generates struct
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../../changes/bcapps/9355.md) (code change): "SIRET No. field repositioned on Company Information page. ExportFacturXDocument codeunit"
+- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../../changes/bcapps/9355.md) (code change): "Export Factur-X Document codeunit in the French E-Document app"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:31.927Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,8 +71,7 @@ links:
     - topic/business-central/business-functionality/set-up-business-central
   localizations: []
   videos: []
-  posts:
-    - post/olofsimren-com/3696
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -85,7 +84,7 @@ coverage:
   learn: 5
   code: 5
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 20400
@@ -128,12 +127,6 @@ A practical order is: complete setup and permissions, define results, create tem
 - [Quality management setup and configuration](https://learn.microsoft.com/dynamics365/business-central/qms-setup): Learn how to set up and configure quality management features, including prerequisites, initial setup steps, and common scenarios.
 - [Quality management workflows](https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows): Learn how to automate quality management processes using workflows.
 - [Set up quality inspection generation rules](https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules): Learn how to configure inspection generation rules to automate quality inspections based on business transactions.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Quality Management in Business Central Version 28](../../../../posts/olofsimren-com/3696.md) (community post): "Quality Management in Business Central Version 28. Business Central version 28 introduces native quality management functionality"
 
 ## Business Central pages and reports
 

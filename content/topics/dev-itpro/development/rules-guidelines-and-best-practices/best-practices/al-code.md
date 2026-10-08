@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,14 +62,20 @@ links:
     - post/thinkaboutit-be/8132
   guidelines: []
   changes:
-    - change/bcapps/10869
+    - change/bcapps/10559
     - change/bcapps/11036
+    - change/bcapps/11609
     - change/bcapps/11682
     - change/bcapps/12078
     - change/bcapps/9700
+    - change/bcquality/105
+    - change/bcquality/128
     - change/bcquality/136
-    - change/bcquality/156
+    - change/bcquality/147
     - change/bcquality/161
+    - change/bcquality/193
+    - change/bcquality/198
+    - change/bcquality/65
     - change/bcquality/95
 learn_toc_path:
   - Development
@@ -125,14 +131,20 @@ Start with the general best practices page for conventions, then read the rules 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../../../../changes/bcapps/10869.md) (code change): "Withholding tax test for payment posting was reformatted to fix indentation"
+- [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../../changes/bcapps/10559.md) (code change): "AL0659 and AL0685 overrides are removed from base.ruleset.json"
 - [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../../changes/bcapps/11036.md) (code change): "Rule enforcement becomes stricter going forward, requiring contributors to avoid these patterns"
+- [#11609 [Main]-Reduce redundant record restriction checks in item journal line](../../../../../changes/bcapps/11609.md) (code change): "Record restriction checks in item journal operations are optimized"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../../changes/bcapps/11682.md) (code change): "Replaced broad AA0073 suppression with compliant temporary-record variable names"
 - [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](../../../../../changes/bcapps/12078.md) (code change): "Reuses the default CellDecorator instead of creating new instances for each column-row combination"
-- [#9700 Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer](../../../../../changes/bcapps/9700.md) (code change): "Change eliminates false positives with the AA0237 rule that flags non-temporary variables"
-- [#136 Add community knowledge: AL boolean operators do not short-circuit](../../../../../changes/bcquality/136.md) (code change): "AL boolean operators (and, or, xor) do not guarantee short-circuit evaluation"
-- [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../../changes/bcquality/156.md) (code change): "Each pattern includes bad and good code examples with frontmatter metadata and description"
-- [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "modal pages hold locks and must be called before write operations begin"
+- [#9700 Rename TempCustomMigrationTableBuffer back to CustomMigrationTableBuffer](../../../../../changes/bcapps/9700.md) (code change): "Removes the Temp prefix that violated AA0237 on a non-temporary variable"
+- [#105 Promote validated community knowledge](../../../../../changes/bcquality/105.md) (code change): "Community AL best practice articles are promoted to Microsoft-endorsed knowledge"
+- [#128 knowledge: improve review precision from BCApps PR 10080 feedback](../../../../../changes/bcquality/128.md) (code change): "Two knowledge articles revised after maintainers gave thumbs-down feedback"
+- [#136 Add community knowledge: AL boolean operators do not short-circuit](../../../../../changes/bcquality/136.md) (code change): "AL boolean operators do not short-circuit"
+- [#147 ShowMandatory + OnQueryClosePage Check](../../../../../changes/bcquality/147.md) (code change): "Two new UI community knowledge articles with code examples demonstrate best practices"
+- [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "Recommended structure follows Base Application's Commit before Page.RunModal pattern"
+- [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../../changes/bcquality/193.md) (code change): "Clarify locale-safe DateFormula Evaluate inputs. Adds a Microsoft Style article"
+- [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
+- [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
 

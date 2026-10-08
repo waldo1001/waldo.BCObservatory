@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,6 +51,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/thedynamicsexplorer-com/37042
     - post/thedynamicsexplorer-com/9364
   guidelines: []
 learn_toc_path:
@@ -63,7 +64,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 92a2c846413dc9b61a9d662da08d828d1f735dc798d654dafdffd2807dfd21bc
@@ -104,6 +105,7 @@ Start with the overview to learn the concepts, then read the licensing page to s
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central – A Closer look at the Free “Internal Administrator” and “Dynamics 365 Administrator” Licences](../../../posts/thedynamicsexplorer-com/9364.md) (community post): "Business Central offers free administrative licenses to Microsoft 365 tenant administrators"
+- [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../posts/thedynamicsexplorer-com/37042.md) (community post): "edit the licence, turn on Customise Permissions and delete permission sets"
+- [Dynamics 365 Business Central – A Closer look at the Free “Internal Administrator” and “Dynamics 365 Administrator” Licences](../../../posts/thedynamicsexplorer-com/9364.md) (community post): "The Internal Administrator licence is given automatically to Microsoft 365 Global Administrators"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

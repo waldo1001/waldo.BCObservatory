@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -309,8 +309,18 @@ links:
   localizations: []
   videos:
     - video/-SGaVGOkiF0
-  posts: []
+    - video/kDiDMPEaU0E
+  posts:
+    - post/bertverbeek-nl/1162
+    - post/thedynamicsexplorer-com/36954
   guidelines: []
+  changes:
+    - change/bcapps/10005
+    - change/bcapps/10011
+    - change/bcapps/10368
+    - change/bcapps/10611
+    - change/bcapps/11095
+    - change/bcapps/9133
 learn_toc_path:
   - Business functionality
   - Finance
@@ -323,8 +333,8 @@ children:
 coverage:
   learn: 25
   code: 94
-  video: 1
-  blog: 0
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms:
   - 6
@@ -486,11 +496,20 @@ The section also includes pages on customer-side topics: collecting balances wit
 - [SEPA Direct Debit in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-collect-payments-with-sepa-direct-debit): With your customer's consent, you can collect payments directly from the customer's bank account according to the SEPA format.
 - [Use item charges to account for extra trade costs](https://learn.microsoft.com/dynamics365/business-central/payables-how-assign-item-charges): Use item charges to assign costs such as freight, insurance, and duties to purchases (landed cost), or non-inventoriable costs on sales shipments.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../../changes/bcapps/10005.md) (code change): "Error messages when reversing shipped or received lines now distinguish between"
+- [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../changes/bcapps/10011.md) (code change): "Credit memo posting now skips unnecessary table lookups when source keys are empty"
+- [#10368 Bug 614967: Skip mismatched TransferFields in posting](../../../../changes/bcapps/10368.md) (code change): "Sales and Purchase posting now skip fields with mismatched types"
+- [#10611 [main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../../changes/bcapps/10611.md) (code change): "Posting a purchase credit memo created with Copy Document from a posted invoice"
+- [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
+- [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
+- [Document amount on Purchase Invoice Header](../../../../posts/bertverbeek-nl/1162.md) (community post): "feature to compare document-level totals with line-level amounts on purchase invoices"
+- [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../../../../posts/thedynamicsexplorer-com/36954.md) (community post): "Recurring Purchase Lines automatically default General Ledger accounts and other details onto purchase invoices"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
+- [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial receipt lines"
 
 ## Business Central pages and reports
 

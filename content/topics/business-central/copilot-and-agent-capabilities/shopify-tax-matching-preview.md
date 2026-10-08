@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.119Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,10 +50,7 @@ links:
     - change/bcapps/10409
     - change/bcapps/11722
     - change/bcapps/11899
-    - change/bcapps/9751
     - change/bcapps/9772
-    - change/bcapps/9784
-    - change/bcapps/9792
     - change/bcapps/9796
 learn_toc_path:
   - Copilot and agent capabilities
@@ -108,12 +105,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Shopify Copilot Tax Matching Agent adds a headless matching engine"
 - [#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)](../../../changes/bcapps/10409.md) (code change): "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
-- [#11722 [Shopify] Rename tax matching and add configurable processing limit](../../../changes/bcapps/11722.md) (code change): "Shopify Tax Matching feature is renamed to Shopify Tax Matching"
-- [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "The Shopify Tax Matching Agent now correctly handles North American orders"
-- [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../../changes/bcapps/9751.md) (code change): "Invoice Date is now extracted and populated in the purchase draft"
+- [#11722 [Shopify] Rename tax matching and add configurable processing limit](../../../changes/bcapps/11722.md) (code change): "Shopify Tax Matching now read Shopify Tax Matching, and AL object"
+- [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "The Shopify Tax Matching Agent now runs only for US and Canadian orders"
 - [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"
-- [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fixed defects in V2 draft migration for XRechnung, PINT A-NZ, and Factura-E"
-- [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../../changes/bcapps/9792.md) (code change): "now migrated to the V2 draft import pipeline, enabling the draft-based workflow"
 - [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
 - [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
 

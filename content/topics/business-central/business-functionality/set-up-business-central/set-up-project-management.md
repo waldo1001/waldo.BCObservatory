@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.101Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/10211
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -145,6 +147,12 @@ Start with the page on resources, time sheets, and projects for an overview of t
 - [Set up projects, prices, and project posting groups](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-jobs): Describes how to set up general information about projects.
 - [Set Up Resources, Time Sheets, and Projects](https://learn.microsoft.com/dynamics365/business-central/projects-setup-projects): This topic outlines how to set up resources, time sheets, to manage projects and their budgets.
 - [Set up time sheets and their approval](https://learn.microsoft.com/dynamics365/business-central/projects-how-setup-time-sheets): Learn how to use time sheets to track time for projects and resources.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#10211 [master] Projects WIP related field tooltips missing broken grammar outdated terminology](../../../../changes/bcapps/10211.md) (code change): "Tooltips for WIP-related fields in the Job table were fixed"
 
 ## Business Central pages and reports
 

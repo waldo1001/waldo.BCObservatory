@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:38.493Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -141,8 +141,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10951
-    - change/bcapps/10982
     - change/bcapps/12134
 learn_toc_path:
   - Business functionality
@@ -205,8 +203,6 @@ This section collects the Czech localization pages for core finance. They cover 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10951 [main] bug 648707 - Fix typo in Compensation CZC report paragraph label](../../../../../changes/bcapps/10951.md) (code change): "Fixed a typo in a paragraph label within the Compensation CZC report"
-- [#10982 [Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)](../../../../../changes/bcapps/10982.md) (code change): "Test TestReminderAutomationLogsInteractionWithIssuedReminderNumber was disabled in Czech"
 - [#12134 [main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing](../../../../../changes/bcapps/12134.md) (code change): "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

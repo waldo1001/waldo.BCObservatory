@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.119Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,6 +188,7 @@ links:
   guidelines: []
   changes:
     - change/al-go/2346
+    - change/bcapps/12242
 learn_toc_path:
   - Integration
   - Integrating with Microsoft Power Platform
@@ -254,7 +255,8 @@ Power Pages on virtual tables is described on its own page in this section. It i
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Power Platform deployment workflows and updated the dependabot configuration"
+- [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
+- [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
 
 ## Business Central pages and reports
 

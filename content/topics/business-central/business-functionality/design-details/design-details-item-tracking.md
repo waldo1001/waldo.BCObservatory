@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -106,9 +106,6 @@ links:
     - change/bcapps/10624
     - change/bcapps/10716
     - change/bcapps/10934
-    - change/bcapps/8905
-    - change/bcapps/9346
-    - change/bcapps/9464
     - change/bcapps/9465
     - change/bcapps/9466
     - change/bcapps/9651
@@ -177,17 +174,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10150 [Bug 617189] Clarify strict expiration posting tooltip](../../../../changes/bcapps/10150.md) (code change): "First-Expired-First-Out picking for tracked items, independent of the location"
 - [#10254 Fix 644744: Undo subcontracting receipt keys Item Entry Relation with Capacity Ledger Entry No.](../../../../changes/bcapps/10254.md) (code change): "item entry relations from the actual posted Output Item Ledger Entry"
 - [#10624 [MAIN]-Bug 647352 Issue with lot no assignment after posting a transfer order](../../../../changes/bcapps/10624.md) (code change): "Transfer shipments for tracked items now correctly consume the matching lot"
-- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "Item tracking is defined for item 1000 in the Requisition Line"
-- [#10934 [29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level](../../../../changes/bcapps/10934.md) (code change): "Item tracking validation for lot numbers now occurs at the sales order level"
-- [#8905 [Master] Different source reference on reservation entries created directly from Job Planning Line and via a warehouse pick.](../../../../changes/bcapps/8905.md) (code change): "Reservation entries from job planning lines maintain consistent source references"
-- [#9346 [master]-Cannot delete Project Planning Line due to incorrect reservation entries](../../../../changes/bcapps/9346.md) (code change): "correctly handles reservation entries when deleting project planning"
-- [#9464 [Extensibility Request] issue 30349: add OnBeforeCheckTrackingIfRequired event to Item Journal Line](../../../../changes/bcapps/9464.md) (code change): "add OnBeforeCheckTrackingIfRequired event to Item Journal Line"
-- [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "add OnBeforeTestFirstApplyItemLedgerEntryTracking event"
+- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "Fixes the item tracking error raised for the requisition line"
+- [#10934 [29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level](../../../../changes/bcapps/10934.md) (code change): "Changes how Item Tracking Data Collection validates assigned lot numbers"
+- [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking"
 - [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "extend OnCheckExpirationDateOnBeforeAssignExpirationDate event"
-- [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "A new parameter SkipNewExpirationDateCheck was added to the OnCheckExpirationDateOnAfterCalcSumLot event"
+- [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot"
 - [#9754 [Extensibility Request] issue 30380: add OnSplitPostedWhseReceiptLineOnNotFindWhseItemEntryRelation event](../../../../changes/bcapps/9754.md) (code change): "Item Tracking Management, allowing extensions to customize the handling of posted warehouse receipt lines"
-- [#9864 [Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event](../../../../changes/bcapps/9864.md) (code change): "TestTransferLine procedure on the Transfer Header table, enabling extensions to observe or extend transfer line testing logic"
-- [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../../changes/bcapps/9898.md) (code change): "Reservation Entries from being created when generating a Purchase Order from a Sales Order"
-- [#9982 [Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit](../../../../changes/bcapps/9982.md) (code change): "Item tracking validation for lot numbers now occurs at the warehouse pick level"
+- [#9864 [Extensibility Request] issue 29078: Add OnBeforeTestTransferLine event](../../../../changes/bcapps/9864.md) (code change): "An OnBeforeTestTransferLine integration event was added to the TestTransferLine"
+- [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../../changes/bcapps/9898.md) (code change): "Reservation Entry does not exist error when creating a Purchase Order from a Sales Order"
+- [#9982 [Main] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order levelInitial Commit](../../../../changes/bcapps/9982.md) (code change): "item tracking validation for assigned lot numbers was evaluated at the warehouse pick level"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

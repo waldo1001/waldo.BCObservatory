@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -209,15 +209,13 @@ links:
   posts:
     - post/aardvarklabs-blog/1609
     - post/aardvarklabs-blog/2467
-    - post/aardvarklabs-blog/2663
-    - post/aardvarklabs-blog/2965
     - post/demiliani-com/13611
-    - post/olofsimren-com/3585
-    - post/olofsimren-com/3630
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
+    - change/bcapps/10408
     - change/bcapps/12428
+    - change/bcquality/84
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -229,7 +227,7 @@ coverage:
   learn: 24
   code: 0
   video: 2
-  blog: 8
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -281,14 +279,12 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Copilot feature trial interface to System Application, enabling applications"
+- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "uses AI to match Shopify tax lines to Business Central tax jurisdictions"
+- [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
+- [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central that automates customer address extraction"
-- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central address records"
-- [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "compares two authentication methods for Azure OpenAI in Business Central: unmanaged and managed"
-- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
+- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../../posts/demiliani-com/13611.md) (community post): "System.AI namespace currently wraps Chat Completions and provides guardrails, telemetry"
-- [Copilot Inventory Queries](../../../posts/olofsimren-com/3585.md) (community post): "Copilot extension for Business Central helps manufacturing companies manage inventory"
-- [Copilot in Planning Parameter Worksheet](../../../posts/olofsimren-com/3630.md) (community post): "custom extension called Planning Parameter Worksheet uses Copilot"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Microsoft-managed Azure OpenAI resources for Copilot extensions (now generally available)"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"

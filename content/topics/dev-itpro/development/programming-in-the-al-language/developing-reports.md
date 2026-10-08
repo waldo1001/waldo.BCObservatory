@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -339,9 +339,11 @@ links:
   localizations: []
   videos:
     - video/eUkx_VCcyoU
+    - video/M1S2_bgLd3Q
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thinkaboutit-be/7181
+    - post/thinkaboutit-be/7813
   guidelines: []
   changes:
     - change/bcapps/10270
@@ -349,13 +351,11 @@ links:
     - change/bcapps/10489
     - change/bcapps/11137
     - change/bcapps/11211
-    - change/bcapps/12242
+    - change/bcapps/7938
     - change/bcapps/9428
     - change/bcapps/9433
     - change/bcapps/9453
-    - change/bcapps/9580
     - change/bcapps/9949
-    - change/bcquality/147
     - change/bcquality/183
 learn_toc_path:
   - Development
@@ -373,8 +373,8 @@ children:
 coverage:
   learn: 54
   code: 12
-  video: 1
-  blog: 2
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 21
@@ -449,21 +449,21 @@ For running reports in production, the telemetry, performance and troubleshootin
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../../changes/bcapps/10270.md) (code change): "XML documentation for Quality Management procedures has been repaired and improved"
-- [#10404 Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes](../../../../changes/bcapps/10404.md) (code change): "Word document layout added to Spend Request Document report"
+- [#10404 Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes](../../../../changes/bcapps/10404.md) (code change): "Word layout was added to the Spend Request Document report"
 - [#10489 MSlenejennum/647452/new header and footer layouts and report themes](../../../../changes/bcapps/10489.md) (code change): "New composite report parts management codeunit seeds 11 header/footer designs and 3 themes"
 - [#11137 Composite Report Parts: seed via a report extension instead of install/upgrade code](../../../../changes/bcapps/11137.md) (code change): "Report extension replaces SeedPart-based install/upgrade code for seeding"
-- [#11211 [Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions](../../../../changes/bcapps/11211.md) (code change): "Report layout creation and management now prevents duplicate names"
-- [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is now available to all companies"
-- [#9428 637301 Report layout override lifecycle](../../../../changes/bcapps/9428.md) (code change): "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override records"
+- [#11211 [Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions](../../../../changes/bcapps/11211.md) (code change): "Fixes composite report layout defects: a new layout can no longer overwrite"
+- [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "the Create Inspection report and the receiving and warehouse"
+- [#9428 637301 Report layout override lifecycle](../../../../changes/bcapps/9428.md) (code change): "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override"
 - [#9433 636017 Move Item Price List and Res. Price List report action tooltip…](../../../../changes/bcapps/9433.md) (code change): "Report action tooltips for Item Price List and Res. Price List reports are moved"
 - [#9453 [Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)](../../../../changes/bcapps/9453.md) (code change): "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call"
-- [#9580 636017 Move Manufacturing report action tooltips to report objects](../../../../changes/bcapps/9580.md) (code change): "Tooltips for 7 manufacturing reports moved from pages to reports. Leverages the 2025 release wave 1 feature"
-- [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Report layout administration pages now decode composite layout references, add description fields"
-- [#147 ShowMandatory + OnQueryClosePage Check](../../../../changes/bcquality/147.md) (code change): "ShowMandatory property draws an asterisk but doesn't enforce requirements"
+- [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Composite layout administration pages get UI improvements"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "In AL, the Subtype, HeaderFooterPart and ThemePart properties configure this"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
+- [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "BC28 introduces enhanced document reporting features including an improved Word add-in"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
+- [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
 
 ## Business Central pages and reports
 

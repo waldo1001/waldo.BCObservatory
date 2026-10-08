@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,15 +82,13 @@ links:
     - topic/dev-itpro/integration/web-services
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/jpearson-blog/1485
   guidelines: []
   changes:
-    - change/bcapps/10680
-    - change/bcapps/11016
     - change/bcapps/11171
     - change/bcapps/12133
     - change/bcapps/12194
-    - change/bcquality/100
     - change/bcquality/149
 learn_toc_path:
   - Integration
@@ -103,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 4cc591df9ed392d40fdbd824d2af29a0ad8b2630152dcb1497a0ce948eb96f88
@@ -147,12 +145,10 @@ Detailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10680 Maintenance update](../../../../changes/bcapps/10680.md) (code change): "Certificate validation enforcement added to Shopify authentication management"
-- [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../../changes/bcapps/11016.md) (code change): "enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2"
 - [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated against their expected host"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
-- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials"
-- [#100 Add P0 integration and control add-in runtime guidance](../../../../changes/bcquality/100.md) (code change): "Extended web-services and UI reviewer detection capabilities"
+- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "disable default credentials by default and require callers to opt in"
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "API enum fields are published: under schema 2.0 by member name"
+- [Calling Business Central APIs Without a Client Secret](../../../../posts/jpearson-blog/1485.md) (community post): "Federated credentials enable token exchange between managed identity and app registration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

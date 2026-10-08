@@ -6,13 +6,13 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed source currency handling for LCY postings and cash posting on sales documents to ensure consistency across all regions.",
+  "summary": "Fixes inconsistent Source Currency values on G/L entries for LCY postings and for cash posting on sales documents. The fix changes Gen. Jnl.-Post Line in the W1 layer and several localized layers in the 29.x release.",
   "key_points": [
-    "Corrects source currency assignment when posting in local currency",
-    "Addresses inconsistency in cash postings on sales documents",
-    "Affects the Gen. Jnl.-Post Line codeunit across all localization layers",
-    "Updates test cases to validate the currency handling fix",
-    "Applied to multiple regional variants (APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, W1)"
+    "Corrects how source currency is set when posting in local currency",
+    "Fixes the source currency inconsistency for cash posting on sales documents",
+    "Changes codeunit 12 Gen. Jnl.-Post Line in W1 and the APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Adds tests to ERMSourceCurrency in the W1, CZ, ES, IT and RU test layers",
+    "Backport to the releases/29.x branch"
   ],
   "change_kind": "fix",
   "behavior_change": true,

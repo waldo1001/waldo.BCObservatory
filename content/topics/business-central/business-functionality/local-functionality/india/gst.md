@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:32.621Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -465,7 +465,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10100 [Bug 644091] Separate B2B and B2C HSN summaries in GSTR-1 report](../../../../../changes/bcapps/10100.md) (code change): "The GSTR-1 report now handles B2B and B2C HSN summaries separately"
 - [#11154 Fix AL0254 compile error in Stock Register for Job Work report](../../../../../changes/bcapps/11154.md) (code change): "Stock Register for Job Work report in GST Subcontracting (IN) now compiles"
 - [#11648 [MAIN]: When receiving a payment from an SEZ (Special Economic Zone) customer under the "Without Payment of Duty" scenario, GST is being calculated incorrectly in the Bank Receipt Voucher in the Indian version.](../../../../../changes/bcapps/11648.md) (code change): "Fixed GST calculation for Special Economic Zone customers in Bank Receipt"
-- [#8935 [Main]-[Escalated] [Strategic] [BC-IN]Online: Performance issue in General journal line from June 17th 2026 - 2606170030006074](../../../../../changes/bcapps/8935.md) (code change): "Removed redundant SaveRecord calls from TCS journal page extensions causing performance degradation"
+- [#8935 [Main]-[Escalated] [Strategic] [BC-IN]Online: Performance issue in General journal line from June 17th 2026 - 2606170030006074](../../../../../changes/bcapps/8935.md) (code change): "Removed a redundant CurrPage.SaveRecord() call from 31 India journal and voucher page extensions in the GST"
 - [#9199 [Main]-Incident 21000001049308 : [BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly](../../../../../changes/bcapps/9199.md) (code change): "purchase invoice with Non-availment GST can now be posted when a default deferral template is configured"
 - [#9354 Incident 51000001074180 : [BC-IN] GST Component code alignment issue in Pay GST Calculation details.](../../../../../changes/bcapps/9354.md) (code change): "GST Settlement calculation now processes components in the configured Return & Reco Sequence order"
 - [#9550 [Main]-[BC-IN] Purchase invoice with a deferral schedule and Non-availment GST is not functioning correctly](../../../../../changes/bcapps/9550.md) (code change): "Purchase invoices with non-availment GST and deferral templates now post correctly"

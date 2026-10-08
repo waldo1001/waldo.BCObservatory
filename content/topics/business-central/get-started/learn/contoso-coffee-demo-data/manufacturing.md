@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.659Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,6 @@ links:
   changes:
     - change/bcapps/9179
     - change/bcapps/9273
-    - change/bcapps/9276
     - change/bcapps/9277
     - change/bcapps/9278
 learn_toc_path:
@@ -186,9 +185,8 @@ Start with "Introduction to Contoso Coffee Manufacturing" to see the sample prod
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9179 Contoso demodata renaming](../../../../../changes/bcapps/9179.md) (code change): "manufacturing routing demo data codeunit were renamed for consistency"
+- [#9179 Contoso demodata renaming](../../../../../changes/bcapps/9179.md) (code change): "Contoso Coffee demo data codeunit Create Mfg Prod. Routing were renamed"
 - [#9273 Extend Contoso Mfg shop calendar range to cover next-year due dates](../../../../../changes/bcapps/9273.md) (code change): "Contoso Coffee Manufacturing demo data calendar now covers the next calendar year"
-- [#9276 Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9276.md) (code change): "Add second subcontractor (Local Assembly) to Contoso Coffee manufacturing demo data"
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9277.md) (code change): "Add PRODUCED item template to Contoso Coffee manufacturing demo data"
 - [#9278 Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data](../../../../../changes/bcapps/9278.md) (code change): "Add Standard Tasks with work instructions to Contoso Coffee manufacturing demo data"
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.931Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -361,13 +361,11 @@ links:
   videos:
     - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
-  posts:
-    - post/aardvarklabs-blog/2838
-    - post/demiliani-com/13931
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/11507
-    - change/bcapps/11609
+    - change/bcquality/195
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -394,7 +392,7 @@ coverage:
   learn: 340
   code: 36
   video: 2
-  blog: 2
+  blog: 0
   guideline: 0
 bc_forms:
   - 16
@@ -490,9 +488,7 @@ Start with the Programming in AL page and Program building blocks for syntax. Th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
-- [#11609 [Main]-Reduce redundant record restriction checks in item journal line](../../../changes/bcapps/11609.md) (code change): "Removes unnecessary record restriction checks from item journal line processing"
-- [Importing Multi-Tab Excel Files into Business Central](../../../posts/aardvarklabs-blog/2838.md) (community post): "Use Excel's sheet-specific tab reading to separate header and line data while maintaining relationships"
-- [Dynamics 365 Business Central: Using Semantic Search from AL](../../../posts/demiliani-com/13931.md) (community post): "embedding-based semantic search as a native AL capability"
+- [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 

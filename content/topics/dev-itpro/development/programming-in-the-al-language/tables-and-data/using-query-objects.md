@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -210,7 +210,7 @@ Start with Query Overview, then read Data Item Links and Filtering in Query obje
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Queries: Simplifying Complex Data](../../../../../posts/aardvarklabs-blog/1822.md) (community post): "Query objects link multiple tables together with join conditions"
+- [Business Central Queries: Simplifying Complex Data](../../../../../posts/aardvarklabs-blog/1822.md) (community post): "Query objects let AL developers combine and filter data from several tables"
 - [Step-by-Step Guide to Business Central API Queries](../../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured with API settings automatically expose data to external systems"
 
 ## Business Central pages and reports

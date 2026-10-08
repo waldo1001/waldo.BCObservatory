@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:53.515Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -207,15 +207,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10094
-    - change/bcapps/10285
     - change/bcapps/10430
     - change/bcapps/10663
-    - change/bcapps/12188
-    - change/bcapps/9005
+    - change/bcapps/9062
     - change/bcapps/9212
     - change/bcapps/9398
     - change/bcapps/9467
-    - change/bcquality/192
 learn_toc_path:
   - Business functionality
   - Design details
@@ -292,15 +289,12 @@ Start with "Design details - Inventory costing" for the overview, then "Costing 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "Standard-cost items now correctly use Standard Cost instead of Direct Unit Cost"
-- [#10285 [Extensibility Request] issue 29642: add Inventory Valuation events](../../../../changes/bcapps/10285.md) (code change): "Inventory Valuation report 10139 now exposes two integration events"
-- [#10430 [Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]](../../../../changes/bcapps/10430.md) (code change): "ACY amount calculations on value entries are now preserved"
+- [#10430 [Master]-ACY amount on Value Entries is recalculated from LCY when the document currency equals the Additional Reporting Currency, causing a mismatch with G/L Entries]](../../../../changes/bcapps/10430.md) (code change): "ACY amounts on value entries are no longer recalculated from LCY"
 - [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../changes/bcapps/10663.md) (code change): "Stock Card report shows incorrect received quantity"
-- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "Fixed calculation error in inventory profile offsetting for manufacturing"
-- [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Entry number allocation for Item Ledger and Value Entries is protected"
+- [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../changes/bcapps/9062.md) (code change): "incorrect consumption amount shown for production orders in the Inventory Valuation - WIP report"
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Manufacturing-enabled installations route to production data XMLPorts"
-- [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Assembly overhead costs are now recalculated consistently after updating"
+- [#9398 [Main]Incorrect Cost Amount (Actual) in Value Entries after posting Assembly Process and calulating the assembly standard costsInitial commit](../../../../changes/bcapps/9398.md) (code change): "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost"
 - [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "InsertPostValueEntryToGL changed from local to public"
-- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "item posting, reservations, warehouse adjustments, and requisition workflows"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Existing on-hand inventory retains its original cost and is not revalued when you change"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "iterative adjustment for high-volume items; specific order adjustment"
 

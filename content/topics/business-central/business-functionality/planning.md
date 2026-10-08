@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:38.666Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -127,6 +127,7 @@ links:
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0
+    - post/olofsimren-com/3779
     - post/thedynamicsexplorer-com/7097
   guidelines: []
   changes:
@@ -145,7 +146,7 @@ coverage:
   learn: 9
   code: 26
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 291
@@ -223,11 +224,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../changes/bcapps/10030.md) (code change): "Calculate Regenerative Plan twice for SKU-only multi-level BOM structures"
 - [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../changes/bcapps/10166.md) (code change): "preserving distinct cable and cut-length requirements instead of aggregating quantities"
-- [#11522 [main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders](../../../changes/bcapps/11522.md) (code change): "Production order copying in Order Planning now restricts the destination to nonrecurring Planning-type worksheets"
-- [#11994 [Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../changes/bcapps/11994.md) (code change): "Carry Out Action Message - Planning report failed to copy production orders to requisition worksheets"
+- [#11522 [main] [Order Planning] Production copy allows Req. worksheet templates that cannot create production orders](../../../changes/bcapps/11522.md) (code change): "Production order copying in Order Planning now restricts the destination to nonrecurring Planning-type worksheets only"
+- [#11994 [Master]- [Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../changes/bcapps/11994.md) (code change): "Copying production planning lines to a requisition worksheet through the Carry Out Action Msg."
 - [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../changes/bcapps/9538.md) (code change): "Requisition Worksheet batch after viewing a different batch"
 - [Approval Workflows for Item Journals and Requisition Worksheets](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "Requisition and planning worksheets can require approval before converting"
 - [Create Purchase Orders from Drop Shipments](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7334878023159275001--89079995d0.md) (community post): "drop shipment lines are now visible and included in order planning calculations"
+- [Approval Workflows in Planning Worksheet](../../../posts/olofsimren-com/3779.md) (community post): "approval workflow support to planning, requisition, and subcontracting worksheets at the batch level"
 - [Dynamics 365 Business Central – How to use the “Recurring Requisition Worksheet” for Recurring Purchase Orders](../../../posts/thedynamicsexplorer-com/7097.md) (community post): "Recurring Requisition Worksheet automates repeated purchases of the same items by preserving worksheet lines"
 
 ## Business Central pages and reports

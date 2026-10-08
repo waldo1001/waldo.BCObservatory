@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:41.709Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -102,7 +102,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10056
-    - change/bcapps/10126
     - change/bcapps/10422
     - change/bcapps/10424
     - change/bcapps/10735
@@ -169,14 +168,13 @@ Start with the overview page, which lists the tasks in order. Then use the how-t
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10056 [Master]- Cartera: Service Credit Memo cannot be posted - settlement check ignores Applies-to Doc. No. and Application Method.](../../../../changes/bcapps/10056.md) (code change): "Service credit memos in Spanish localization can now be posted"
-- [#10126 [Extensibility Request] issue 30389: allow skipping service item confirmation](../../../../changes/bcapps/10126.md) (code change): "ServItemManagement codeunit now allows extensions to skip the service item confirmation dialog"
 - [#10422 [Extensibility Request] issue 30423: expose previous service header](../../../../changes/bcapps/10422.md) (code change): "Service Header event subscribers now receive the previous record state through the OnValidateShipToCodeOnBeforeDeleteLines event"
 - [#10424 [Extensibility Request] issue 30421: allow custom travel cost lookup](../../../../changes/bcapps/10424.md) (code change): "A handled event is added to the travel cost lookup process in service order management"
 - [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../../changes/bcapps/10735.md) (code change): "Mark as Accepted action added to posted sales, purchase, and service invoice"
 - [#11114 [Master][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachments.](../../../../changes/bcapps/11114.md) (code change): "Document Type is now correctly set to Invoice or Credit Memo when attachments are transferred"
-- [#11798 [main] Bug 650733 External Doc No. now mandatory on Service Invoice](../../../../changes/bcapps/11798.md) (code change): "External Document Number validation is now enforced as mandatory when posting service invoices"
-- [#8878 [Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank](../../../../changes/bcapps/8878.md) (code change): "Service Item Card now populates Ship-to Country/Region Code from the customer's default location"
-- [#9344 [master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries](../../../../changes/bcapps/9344.md) (code change): "When posting a service order without an external document number, the service order number is now correctly copied"
+- [#11798 [main] Bug 650733 External Doc No. now mandatory on Service Invoice](../../../../changes/bcapps/11798.md) (code change): "posting a service invoice wrongly required an External"
+- [#8878 [Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank](../../../../changes/bcapps/8878.md) (code change): "Service Item Card now fills in the Ship-to Country"
+- [#9344 [master]- Posting service order without External document no. will copy the 'Service Order No.' to GL entries](../../../../changes/bcapps/9344.md) (code change): "Posting service order without External document no. will copy the 'Service Order No.' to GL entries"
 - [#9778 [Extensibility Request] issue 30362: add OnPostDocumentLinesOnBeforeInsertPostedHeaders event to Service-Post](../../../../changes/bcapps/9778.md) (code change): "A new integration event OnPostDocumentLinesOnBeforeInsertPostedHeaders enables extensions to control which posted service document is created"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

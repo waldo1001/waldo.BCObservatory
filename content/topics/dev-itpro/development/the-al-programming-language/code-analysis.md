@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -84,8 +84,10 @@ links:
     - video/JI5KlMxrtoA
     - video/tMqCSibSRug
   posts:
+    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/vondervoort-be/130
     - post/vondervoort-be/147
+    - post/vondervoort-be/24
   guidelines: []
   changes:
     - change/al-go/2257
@@ -96,26 +98,26 @@ links:
     - change/al-go/2331
     - change/al-go/2342
     - change/bcapps/10086
-    - change/bcapps/10209
     - change/bcapps/10251
     - change/bcapps/10514
     - change/bcapps/10516
-    - change/bcapps/10559
-    - change/bcapps/10878
+    - change/bcapps/11160
     - change/bcapps/11682
     - change/bcquality/109
+    - change/bcquality/110
     - change/bcquality/112
     - change/bcquality/118
     - change/bcquality/119
     - change/bcquality/124
-    - change/bcquality/128
     - change/bcquality/146
     - change/bcquality/150
     - change/bcquality/172
     - change/bcquality/173
     - change/bcquality/178
+    - change/bcquality/179
+    - change/bcquality/180
+    - change/bcquality/204
     - change/bcquality/54
-    - change/bcquality/84
 learn_toc_path:
   - Development
   - The AL programming language
@@ -127,7 +129,7 @@ coverage:
   learn: 7
   code: 0
   video: 2
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -156,34 +158,36 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2257 Test Result Analyzer fails if no stack trace is available](../../../../changes/al-go/2257.md) (code change): "Test Result Analyzer to handle XML elements without stack traces"
 - [#2283 Fix issue 2267: appsourcecop.json is not created for testapps](../../../../changes/al-go/2283.md) (code change): "AppSourceCop analyzer was applied to test apps but configuration file"
-- [#2300 Make failOn: newWarning work with workspace compilation](../../../../changes/al-go/2300.md) (code change): "detects newly introduced AL compiler warnings when workspace compilation"
-- [#2323 Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation](../../../../changes/al-go/2323.md) (code change): "Custom analyzers are now cleared in test and BCPT-test folders"
+- [#2300 Make failOn: newWarning work with workspace compilation](../../../../changes/al-go/2300.md) (code change): "failOn: newWarning setting now detects newly introduced AL compiler warnings"
+- [#2323 Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation](../../../../changes/al-go/2323.md) (code change): "Fix enableCodeAnalyzersOnTestApps not disabling customCodeCops in workspace compilation"
 - [#2330 Emit valid SARIF URIs for AL code analysis paths containing spaces](../../../../changes/al-go/2330.md) (code change): "Emit valid SARIF URIs for AL code analysis paths containing spaces"
 - [#2331 Support trackALAlertsInGitHub for workspace compilation build path](../../../../changes/al-go/2331.md) (code change): "Support trackALAlertsInGitHub for workspace compilation build path"
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Prevents AL1153 compiler errors from runtime version mismatches"
 - [#10086 Make AA0194 an error in the base ruleset](../../../../changes/bcapps/10086.md) (code change): "Make AA0194 an error in the base ruleset"
-- [#10209 Promote AA0471, AA0472 and AA0474 to Error in the base ruleset](../../../../changes/bcapps/10209.md) (code change): "Three analyzer rules are promoted from None to Error in the base ruleset"
-- [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "Five AL analysis rules were promoted from Warning to Error"
+- [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "Five analyzer rules were promoted back to Error by removing their overrides"
 - [#10514 Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error](../../../../changes/bcapps/10514.md) (code change): "Five AL analyzer rules moved back to Error severity in the ruleset hierarchy"
 - [#10516 Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error](../../../../changes/bcapps/10516.md) (code change): "Six AL compiler rules are promoted from Warning to Error severity"
-- [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../changes/bcapps/10559.md) (code change): "Two analyzer rules AL0659 and AL0685 are promoted to Error severity"
-- [#10878 Ruleset hardening: promote five low-risk rules to Error](../../../../changes/bcapps/10878.md) (code change): "Five diagnostic rules are promoted from Warning to Error level in the ruleset"
+- [#11160 Ruleset hardening: promote three mechanical rules to Error](../../../../changes/bcapps/11160.md) (code change): "promote three mechanical rules to Error. The BCApps base ruleset now treats"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../changes/bcapps/11682.md) (code change): "Code validated with BCApps ruleset and analyzers"
 - [#109 style-review: calibrate variable-declaration order (AA0021) to info](../../../../changes/bcquality/109.md) (code change): "variable-declaration-order rule (AA0021) severity is calibrated down from minor to info level"
-- [#112 Add precision guards for systematic agent false-positive patterns](../../../../changes/bcquality/112.md) (code change): "Quality rules now include precision guards to prevent the agent from emitting"
+- [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../changes/bcquality/110.md) (code change): "review skills now report only findings backed by a BCQuality knowledge file"
+- [#112 Add precision guards for systematic agent false-positive patterns](../../../../changes/bcquality/112.md) (code change): "Six new knowledge articles across breaking-changes, error-handling, performance"
 - [#118 knowledge: 3 FP-suppression guards from BC apps negative feedback](../../../../changes/bcquality/118.md) (code change): "Three knowledge articles are added to clarify AL facts that were incorrectly flagged"
 - [#119 Add batch-2 FP guards: sentence-case action captions + PK Get is transaction-cached](../../../../changes/bcquality/119.md) (code change): "Two knowledge articles were added to guide developers about correct use"
 - [#124 Add FP guards: field relocation to tableextension + event parameter addition (bug 642303)](../../../../changes/bcquality/124.md) (code change): "BCQuality adds two false-positive guards to prevent incorrect breaking-change flags"
-- [#128 knowledge: improve review precision from BCApps PR 10080 feedback](../../../../changes/bcquality/128.md) (code change): "BCQuality knowledge articles improve precision based on feedback from BCApps code review"
-- [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../../changes/bcquality/146.md) (code change): "Quality rules were refined to eliminate false positives about missing cleanups"
+- [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../../changes/bcquality/146.md) (code change): "three false-positive guards from BCApps PR 10277, 10278 and 10346"
 - [#150 Simplify standalone AL code review skill](../../../../changes/bcquality/150.md) (code change): "The standalone AL code review skill is renamed from bcquality-al-review to al-code-review"
 - [#172 Support standalone runners and complete app-folder reviews](../../../../changes/bcquality/172.md) (code change): "AL review skills now support standalone runners and folder-based app reviews"
 - [#173 Frame app review as one standalone plugin example](../../../../changes/bcquality/173.md) (code change): "BCQuality documentation now presents the project as a general skill plugin model"
-- [#178 Separate deterministic analyzer rules from BCQuality](../../../../changes/bcquality/178.md) (code change): "deterministic analyzer rules and their documentation are removed from BCQuality"
-- [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "Review findings now include a human-readable domain label"
-- [#84 Package BCQuality as an installable plugin (experiment)](../../../../changes/bcquality/84.md) (code change): "BCQuality is packaged as an installable Claude plugin via marketplace"
+- [#178 Separate deterministic analyzer rules from BCQuality](../../../../changes/bcquality/178.md) (code change): "Deterministic analyzer rules and their documentation are removed from BCQuality"
+- [#179 Add bounded knowledge retrieval](../../../../changes/bcquality/179.md) (code change): "Adds bounded, lossless knowledge retrieval for BCQuality review skills"
+- [#180 Normalize recoverable leaf finding ranges](../../../../changes/bcquality/180.md) (code change): "Normalize recoverable leaf finding ranges. Review findings whose primary line"
+- [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
+- [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label on every finding"
+- [Introducing ALCops — LinterCop's Next Chapter](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
+- [Rethinking LinterCop: Preparing for the Next Chapter](../../../../posts/vondervoort-be/24.md) (community post): "LinterCop, a code analyzer for AL, faces architectural limitations"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "Code quality; static analysis; al cops; Default Analyzers Configuration"
 - [ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)](../../../../videos/tMqCSibSRug.md) (video): "ALCops; lintercop; code analysis; code cops; al language"
 

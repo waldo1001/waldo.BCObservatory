@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:09.741Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -71,7 +71,7 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/11023
+    - change/bcapps/8183
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -151,7 +151,7 @@ Start with the overview, then do the electronic invoicing setup and the PAC setu
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11023 BE's PEPPOL "escompte" compensation](../../../../../changes/bcapps/11023.md) (code change): "Belgian PEPPOL invoices now apply discount compensation"
+- [#8183 Handle failure to manually create E-Document from posted doc with no …](../../../../../changes/bcapps/8183.md) (code change): "E-Document creation now correctly reports failure when a posted document cannot be converted"
 
 ## Business Central pages and reports
 

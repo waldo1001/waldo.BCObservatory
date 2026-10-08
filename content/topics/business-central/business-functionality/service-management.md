@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:45.537Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -351,6 +351,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10126
     - change/bcapps/11152
     - change/bcapps/12290
 learn_toc_path:
@@ -449,8 +450,9 @@ Start with the overview page to confirm the Premium requirement. Then go to cont
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10126 [Extensibility Request] issue 30389: allow skipping service item confirmation](../../../changes/bcapps/10126.md) (code change): "ServItemManagement codeunit now allows extensions to skip"
 - [#11152 [29.x]Mark as Accepted in posted documents for Spanish SII](../../../changes/bcapps/11152.md) (code change): "A new Mark As Accepted action was added to posted sales, purchase, and service invoice"
-- [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Remove CLEAN27 from Service Management. Service Management objects are cleaned"
+- [#12290 Remove CLEAN27 from Service Management](../../../changes/bcapps/12290.md) (code change): "Removes code that had been kept behind the CLEAN27"
 - [What's New: Service Management (2024 release wave 1)](../../../videos/N8Unj6WLB6U.md) (video): "Service quote; service order; service contract; service items; invoicing policy"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "service archiving; service filing; service contract filing improvements"
 

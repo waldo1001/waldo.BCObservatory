@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.212Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,6 +151,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9371
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - Built-in reports
@@ -284,6 +286,12 @@ For custom reporting, the page on building financial reports explains how to ana
 - [Build financial reports using financial data and account categories](https://learn.microsoft.com/dynamics365/business-central/bi-how-work-account-schedule): Describes how to use financial reports to create various views and reports for analyzing financial performance data.
 - [Built-in finance reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/finance-reports): Explore the built-in financial reports in the standard version of Business Central.
 - [Sustainability reports and analytics](https://learn.microsoft.com/dynamics365/business-central/sustainability-reports): Explore the sustainability reports and analytics in the standard version of Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9371 Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported](../../../../changes/bcapps/9371.md) (code change): "Report 11015 Export Business Data now stores generated ZIP files in the Report Inbox"
 
 ## Business Central pages and reports
 

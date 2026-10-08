@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -309,7 +309,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10663
-    - change/bcapps/9062
     - change/bcapps/9081
     - change/bcapps/9582
     - change/bcapps/9774
@@ -429,9 +428,8 @@ Start with the overview page, then go to the page for the report you need. For e
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10663 [Main]-Stock card report shows incorrect received quantity](../../../../../changes/bcapps/10663.md) (code change): "Stock Card report now correctly shows received quantities and costs"
-- [#9062 [Master]-Production Order - WIP shows incorrect consumption amount.](../../../../../changes/bcapps/9062.md) (code change): "The Inventory Valuation - WIP report now correctly displays consumption amounts"
 - [#9081 Bug 637846: Item Age Composition '...before' quantity reflected only last entry](../../../../../changes/bcapps/9081.md) (code change): "Report 5808 now correctly displays item age composition quantities"
-- [#9582 636017 Move Inventory report action tooltips to report objects](../../../../../changes/bcapps/9582.md) (code change): "11 inventory reports now have tooltips defined at the report level"
+- [#9582 636017 Move Inventory report action tooltips to report objects](../../../../../changes/bcapps/9582.md) (code change): "Report action tooltips for 11 inventory reports are moved from page actions to the report objects themselves"
 - [#9774 [Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9774.md) (code change): "Item Sales Statistics report when "Only Items with Sales" and "Breakdown By Variant" are both enabled"
 - [#9777 [Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9777.md) (code change): "Item Sales Statistics report now exposes an integration event that allows extensions to override the skip decision"
 

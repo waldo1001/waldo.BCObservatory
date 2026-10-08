@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,14 +53,10 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10545
-    - change/bcapps/8924
     - change/bcquality/132
     - change/bcquality/158
     - change/bcquality/159
     - change/bcquality/202
-    - change/bcquality/204
-    - change/bcquality/62
     - change/bcquality/96
 learn_toc_path:
   - Development
@@ -115,14 +111,10 @@ Start with "Building an Advanced Sample Extension" to get the sample in place, t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10545 [Master] - Bug 647253: [WHT] Inconsistency with the Payments](../../../../../changes/bcapps/10545.md) (code change): "Test code formatting corrected in the withholding tax payment test"
-- [#8924 [QM] Fixed overflow runtime error](../../../../../changes/bcapps/8924.md) (code change): "overflow runtime error in the Quality Inspection Header table. Test utility"
 - [#132 Refine self-improvement review guidance](../../../../../changes/bcquality/132.md) (code change): "UI handler tests allowed to use semantic capture/reset/assert patterns"
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Use TestPage field .Visible()/.Enabled() to verify UI rendering state"
-- [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../../changes/bcquality/159.md) (code change): "using events to exclude invalid table relations in tests, committing shared test fixtures"
+- [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../../changes/bcquality/159.md) (code change): "Table Relation Test hook was checked against BCApps source"
 - [#202 Restore deterministic review fixture coverage](../../../../../changes/bcquality/202.md) (code change): "Registers 23 paired knowledge articles across data modeling, error handling, performance, security, style, testing, UI, upgrade and web services"
-- [#204 Validate composed reviews against the expected leaf worklist](../../../../../changes/bcquality/204.md) (code change): "Composed review validation now enforces that selected leaf worklists are executed in order"
-- [#62 Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)](../../../../../changes/bcquality/62.md) (code change): "Six new testing knowledge articles added to BCQuality covering UI handlers, table relations"
 - [#96 Add missing AL review leaf skills](../../../../../changes/bcquality/96.md) (code change): "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,10 +115,11 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10029
     - change/bcapps/10631
+    - change/bcapps/10755
     - change/bcapps/10799
     - change/bcapps/11483
-    - change/bcapps/9477
     - change/bcapps/9578
     - change/bcapps/9646
     - change/bcapps/9648
@@ -197,10 +198,11 @@ Day-to-day use is split into sales and purchase pages. Sales covers creating and
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "E-document import helpers and providers updated to support additional validation scenarios"
+- [#10029 [Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation](../../../../changes/bcapps/10029.md) (code change): "Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message"
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "enhancements to e-document processing, expense report policy evaluations"
+- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "OData metadata download and the Microsoft 365 E-Document GraphClient"
 - [#10799 Remove OnPrem scope from Table 1226 "Payment Export Data".SetSwissExport](../../../../changes/bcapps/10799.md) (code change): "Payment Export Data table is now callable from Cloud extensions"
 - [#11483 [E-Documents Core] - Linkage & Traceability](../../../../changes/bcapps/11483.md) (code change): "E-Documents module now provides linkage and traceability by adding lookup functions"
-- [#9477 [main]-Invalid SEPA export file format when SEPA Non-Euro Export enabled](../../../../changes/bcapps/9477.md) (code change): "SEPA credit transfer export format is corrected when SEPA Non-Euro Export is enabled"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
 - [#9646 [Bug]: [DE] XRechnung/ZUGFeRD — no posting-time error when SELLER CONTACT (BG-6) source data is incomplete, producing non-compliant e-invoices](../../../../changes/bcapps/9646.md) (code change): "E-Document posting now validates that seller contact information"
 - [#9648 [master]-[BE] [PEPPOL] There is a problem between the totals on the invoice printout and the XML PEPPOL with Payment discount](../../../../changes/bcapps/9648.md) (code change): "Fixed discrepancy between invoice printout and PEPPOL XML totals"

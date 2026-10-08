@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:32:29.863Z"
+  at: "2026-10-08T06:17:47.117Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: b26094d2c3b8847fc8a16934eccb61731ffe35da30175fdb32cc3627f8195020
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/CZ/CoreLocalizationPack/app/Src/Profiles/AccountantCZCZL.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/CZ/CoreLocalizationPack/app/Src/Profiles/AccountantCZCZL.Profile.al
     title: src/Apps/CZ/CoreLocalizationPack/app/Src/Profiles/AccountantCZCZL.Profile.al (releases/29.x)
     date: null
-    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
+    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "Accountant CZ CZL" (CZ) in the CZ country layer (Microsoft.Finance.RoleCenters). Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance.RoleCenters · captioned "Accountant CZ" · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/CZ/CoreLocalizationPack/app/Src/Profiles/AccountantCZCZL.Profile.al) · facts from BC29
+CZ country layer · Microsoft.Finance.RoleCenters · captioned "Accountant CZ" · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/CZ/CoreLocalizationPack/app/Src/Profiles/AccountantCZCZL.Profile.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

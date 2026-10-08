@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:43.491Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,6 @@ links:
     - video/uMKLsKfKPc0
     - video/V_ZyGeF5JXE
   posts:
-    - post/aardvarklabs-blog/1818
     - post/bertverbeek-nl/1290
   guidelines: []
 learn_toc_path:
@@ -63,7 +62,7 @@ coverage:
   learn: 2
   code: 3
   video: 3
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 8350
@@ -107,7 +106,6 @@ Start with the MCP server configuration page to decide what agents may access an
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
 - [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Copilot Studio provides chat options, many Power Platform connectors, model selection"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
 - [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "MCP server connection for Business Central; Power Automate connectors in Copilot Studio"

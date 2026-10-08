@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,13 +73,14 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos: []
+  videos:
+    - video/px1MOyXfmnQ
   posts:
     - post/aardvarklabs-blog/3998
-    - post/demiliani-com/12116
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
   guidelines: []
   changes:
+    - change/al-go/2376
     - change/bcapps/11065
 learn_toc_path:
   - Development
@@ -91,8 +92,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 0
-  blog: 3
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -136,9 +137,10 @@ A FAQ addresses managing and submitting Marketplace offers through Partner Cente
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now finds project and app paths that contain umlauts"
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions"
-- [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../../posts/demiliani-com/12116.md) (community post): "Old PTE versions are now automatically unpublished in SaaS"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
+- [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

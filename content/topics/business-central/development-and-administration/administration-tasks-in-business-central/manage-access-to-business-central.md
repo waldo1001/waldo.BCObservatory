@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:27.484Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,6 +119,8 @@ links:
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be
   guidelines: []
+  changes:
+    - change/bcapps/11989
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -208,10 +210,11 @@ Two subtopics go deeper. Grant user permissions covers creating users by license
 - [Control Access Using Security Groups](https://learn.microsoft.com/dynamics365/business-central/ui-security-groups): This article describes how to use security groups to define user permissions.
 - [Manage Access to Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-access-overview): Administrators use a layered approach to controlling access to Business Central and its capabilities.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11989 [Bug 500351] Allow Effective Permissions for delegated admins and helpdesk](../../../../changes/bcapps/11989.md) (code change): "Effective Permissions page now works for delegated admins and helpdesk"
 - [BC Friday Tips #31 Block Users using Security Group](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be.md) (community post): "Environment-level security groups in Azure AD restrict access to Business Central"
 
 ## Business Central pages and reports

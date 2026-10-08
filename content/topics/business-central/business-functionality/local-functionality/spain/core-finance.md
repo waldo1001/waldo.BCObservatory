@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:21.075Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,7 +93,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/9066
     - change/bcapps/9306
     - change/bcapps/9886
 learn_toc_path:
@@ -153,7 +152,6 @@ Start with the Transaction numbers page, which explains how sequential numbers g
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9066 [master][ALAppExtensions #30068][ES] Codeunit 7000000 CarteraManagement - Refactor the Functions InsertReceivableDocs and InsertPayableDocs](../../../../../changes/bcapps/9066.md) (code change): "Affects Spanish localization finance features for receivables and payables"
 - [#9306 [Main] Unbalanced G/L Entries if you apply a Payment and a Posted Purchase Invoice having both different Posting Groups and using the "Applies-to Document No." on the line instead of using Apply Entries in the Spanish version.Initial commit](../../../../../changes/bcapps/9306.md) (code change): "Fixed unbalanced G/L entries when applying a payment to a purchase invoice"
 - [#9886 [Master] Expense Report posting FCY rounding mismatch "Expense Report Posting Test" fail in Spain only (Source Currency Amount 649.97 vs 650](../../../../../changes/bcapps/9886.md) (code change): "foreign currency rounding mismatch in expense report posting for Spain"
 

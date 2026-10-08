@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:34.744Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11206
+    - change/bcapps/9734
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -111,6 +114,13 @@ For reporting, start with "Create and print a Swiss VAT statement [CH]". It desc
 - [How to Print Swiss VAT Statements (older version)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-): Learn how to print the Swiss VAT statement to use it for quarterly tax reporting.
 - [Swiss Value Added [CH]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/swiss-value-added-tax): This article explains several enhancements that have been made to the Swiss VAT reporting features.
 - [VAT rates for Switzerland](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Switzerland/vat-rates-for-switzerland): Learn how to manage VAT rate changes using the VAT rate change tool.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11206 [CH] When posting with FCY, VAT G/L Entry stores VAT base amount in Source Currency Amount instead of VAT amount](../../../../../changes/bcapps/11206.md) (code change): "In the Swiss (CH) localization, VAT G/L entries posted in a foreign currency"
+- [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "VAT advance return or VAT statement by adding four lines"
 
 ## Business Central pages and reports
 

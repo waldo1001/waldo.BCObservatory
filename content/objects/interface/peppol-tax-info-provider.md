@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:32:29.863Z"
+  at: "2026-10-08T06:17:47.117Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 605e069b415ecb55351a06e79362e6999a81b75a3e6a5a28693af78f16c2a3ae
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al
     title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al (releases/29.x)
     date: null
-    commit: fe31a4253b4aa8fde426364f132f5689d4dfcddf
+    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Interface "PEPPOL Tax Info Provider" in PEPPOL (Microsoft.Peppol). 14 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC29-30 · [source at fe31a425](https://github.com/microsoft/BCApps/blob/fe31a4253b4aa8fde426364f132f5689d4dfcddf/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al) · facts from BC29
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLTaxInfoProvider.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -99,7 +99,7 @@ PEPPOL · Microsoft.Peppol · BC29-30 · [source at fe31a425](https://github.com
 
 ## Recent changes
 
-- 2026-09-10 [#11023 BE's PEPPOL "escompte" compensation](../../changes/bcapps/11023.md) (main, BC30, feature)
+- 2026-09-10 [#11023 BE's PEPPOL "escompte" compensation](../../changes/bcapps/11023.md) (main, BC30, fix)
 
 ## Across versions
 

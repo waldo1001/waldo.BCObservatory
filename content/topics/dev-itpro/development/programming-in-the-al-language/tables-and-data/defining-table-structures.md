@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,17 +88,18 @@ links:
     - post/aardvarklabs-blog/2827
     - post/aardvarklabs-blog/3983
     - post/duiliotacconi-com/2201
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-55-captionclass--dc79ed3961
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
   guidelines: []
   changes:
     - change/bcapps/10009
-    - change/bcapps/10031
     - change/bcapps/10064
     - change/bcapps/10235
     - change/bcapps/10367
-    - change/bcapps/11002
     - change/bcapps/11748
     - change/bcapps/9168
+    - change/bcapps/9725
     - change/bcquality/125
     - change/bcquality/158
     - change/bcquality/208
@@ -114,7 +115,7 @@ coverage:
   learn: 7
   code: 0
   video: 2
-  blog: 4
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: f4fef1b2446c586c258d687af1fd453a03d9d093168b44db9f072869a19e2480
@@ -160,19 +161,20 @@ Smaller pages cover specific topics: system fields that every table gets automat
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10009 Disable low-usage Change Log Entry index](../../../../../changes/bcapps/10009.md) (code change): "The Change Log Entry table's Key4 index on Notification Message Id is disabled to improve write performance"
-- [#10031 Add AI-assisted policy evaluation backend to Expense Agent](../../../../../changes/bcapps/10031.md) (code change): "Added Expense Policy Evaluation table to record immutable results"
 - [#10064 Add support for “External Document No.” in Subscription Contracts Fixes #8818](../../../../../changes/bcapps/10064.md) (code change): "Added External Document No. field to Subscription Contracts"
 - [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../../changes/bcapps/10235.md) (code change): "Subscription Line start date changes are now blocked when billing has occurred"
 - [#10367 [Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)](../../../../../changes/bcapps/10367.md) (code change): "Added OptimizeForTextSearch property to Description and Source Task No. fields"
-- [#11002 [Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation](../../../../../changes/bcapps/11002.md) (code change): "Added Excise Tax Rate table and list page for flexible duty models"
 - [#11748 [Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations](../../../../../changes/bcapps/11748.md) (code change): "Added bonded-location treatment enum with Suspend/Ignore options for excise calculations"
 - [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
-- [#125 knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract](../../../../../changes/bcquality/125.md) (code change): "Three data-modeling knowledge articles with executable tests clarify cascading delete behavior"
+- [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../../changes/bcapps/9725.md) (code change): "New Item Excise Tax table (7415) stores multiple tax types per item"
+- [#125 knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract](../../../../../changes/bcquality/125.md) (code change): "Owning tables must delete dependent records manually since AL lacks cascading delete"
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../../changes/bcquality/208.md) (code change): "Table relation fields shorter than their target compile cleanly but fail at runtime"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
 - [Business Central v29: SQL Table Extensions Redesign Explained](../../../../../posts/aardvarklabs-blog/3983.md) (community post): "storing all custom fields directly in the primary SQL table"
 - [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "Maximum of 1018 regular fields can be defined in a table"
+- [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "Integer to BigInteger field migration is a non-destructive schema change supported"
+- [BC Friday Tips #55 CaptionClass](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-55-captionclass--dc79ed3961.md) (community post): "CaptionClass property enables dynamic captions that adapt based on data"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"

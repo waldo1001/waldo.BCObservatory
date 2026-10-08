@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.967Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,8 +52,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcquality/193
 learn_toc_path:
   - Development
   - The AL programming language
@@ -99,11 +97,5 @@ The overview page is the best starting point. It introduces conditional directiv
 - [AL Preprocessor Directives Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directives-in-al): Learn how to use conditional, region, and pragma preprocessor directives and define symbols in AL for Microsoft Dynamics 365 Business Central extensions.
 - [Pragma Directives in AL Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-pragma): Explore the pragma directives and supported actions that control compiler warnings and implicit record contexts in Microsoft Dynamics 365 Business Central.
 - [Region Directives for Organizing AL Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/directives/devenv-directive-region): Learn how to use the region directive in AL to organize code into collapsible blocks and improve readability in Microsoft Dynamics 365 Business Central.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../changes/bcquality/193.md) (code change): "DateFormula Evaluate calls require language-independent literals to work correctly"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

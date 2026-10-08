@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -283,12 +283,13 @@ links:
   videos:
     - video/f_i4_BRz-oA
   posts:
-    - post/demiliani-com/12123
+    - post/demiliani-com/12116
+    - post/demiliani-com/12422
   guidelines: []
   changes:
-    - change/bcapps/9569
     - change/bcapps/9601
     - change/bcquality/177
+    - change/bcquality/93
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -306,7 +307,7 @@ coverage:
   learn: 35
   code: 0
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 149000
@@ -367,10 +368,11 @@ Subtopics go deeper on each phase: migration and moving tables and fields betwee
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9569 Enforce permissions when reviewing orphaned extension data](../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
-- [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
+- [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"
+- [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
+- [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
 - [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "AL extensibility; migration patterns; migrator framework; extension points"
 
 ## Business Central pages and reports

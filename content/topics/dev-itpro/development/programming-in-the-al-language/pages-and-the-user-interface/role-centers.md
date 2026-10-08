@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.963Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,8 +76,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcquality/207
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -129,11 +127,5 @@ Start with Designing Role Centers for the concepts, then read the simple AL code
 - [Designing Role Centers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers): Learn how to create user-focused home pages called role centers that boost productivity and streamline navigation.
 - [Get Users Started with the Checklist](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/onboarding-checklist): Learn how to customize the checklist that users can launch from the Welcome banner.
 - [Simple Role Center Code Example in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-simple-role-center-example): Learn from a complete AL code example that builds a simple Role Center page and a profile that assigns the Role Center to users in Business Central.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../../../../../changes/bcquality/207.md) (code change): "Role Centers cannot use triggers or procedures for permission gating due to AL0378"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

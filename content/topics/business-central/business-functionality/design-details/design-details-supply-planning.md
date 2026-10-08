@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,19 +95,16 @@ links:
   changes:
     - change/bcapps/10030
     - change/bcapps/10166
-    - change/bcapps/10225
-    - change/bcapps/10259
-    - change/bcapps/10716
     - change/bcapps/11411
-    - change/bcapps/11476
     - change/bcapps/12124
     - change/bcapps/12188
+    - change/bcapps/9118
     - change/bcapps/9196
+    - change/bcapps/9224
     - change/bcapps/9346
     - change/bcapps/9449
     - change/bcapps/9538
     - change/bcapps/9788
-    - change/bcapps/9898
     - change/bcapps/9963
     - change/bcquality/192
 learn_toc_path:
@@ -170,20 +167,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../changes/bcapps/10030.md) (code change): "planning worksheets generate all required planning lines in a single run"
 - [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../changes/bcapps/10166.md) (code change): "Transfer demand profile handling now supports an event that allows extensions"
-- [#10225 [Master]-When we run the Order Planning Worksheet by Project, a supply suggestion is created for items that are already received but not invoiced in Purchase Orders, but only after updating Order and Posting Dates on Purchase Order.](../../../../changes/bcapps/10225.md) (code change): "Order Planning Worksheet now correctly ignores items from purchase orders"
-- [#10259 Slice 550732: Keep routing descriptions when vendor changes](../../../../changes/bcapps/10259.md) (code change): "Subcontracting requisitions now preserve routing line descriptions from the production order"
-- [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "creating a purchase order from a sales order including DROP Shipment"
 - [#11411 [Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529](../../../../changes/bcapps/11411.md) (code change): "Fixed inconsistent able-to-make calculations in BOM analysis when a component's"
-- [#11476 [29.X]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529- #11411](../../../../changes/bcapps/11476.md) (code change): "Fixed inconsistent able-to-make results in item availability by BOM level"
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Fixed default bin assignment for drop shipments when creating purchase orders"
-- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "Reserved quantities now correctly match expected quantities in manufacturing"
-- [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "What-If Impact analysis feature enables users to examine how supply chain changes"
-- [#9346 [master]-Cannot delete Project Planning Line due to incorrect reservation entries](../../../../changes/bcapps/9346.md) (code change): "Bug fix in the base application's inventory tracking system"
+- [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "reserved quantities did not match the expected quantities after planning"
+- [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "planning, availability check and item budget Excel reports"
+- [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "supply what-if analysis to analyze the negative impact of supply changes on demand"
+- [#9224 [main] GitHub event batch 1746](../../../../changes/bcapps/9224.md) (code change): "Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document"
+- [#9346 [master]-Cannot delete Project Planning Line due to incorrect reservation entries](../../../../changes/bcapps/9346.md) (code change): "Fixes a bug where a Project Planning Line could not be deleted because incorrect reservation entries existed"
 - [#9449 [Extensibility Request] issue 30334: fix OnAfterCarryOutToReqWksh record order](../../../../changes/bcapps/9449.md) (code change): "OnAfterCarryOutToReqWksh integration event now passes the target requisition"
 - [#9538 [main]- Requests to Approve: Open Record shows wrong Requisition Worksheet batch after viewing a different batch](../../../../changes/bcapps/9538.md) (code change): "Req. Worksheet page now correctly displays the intended requisition batch"
 - [#9788 [Master]-Incorrect Reservation Split Generated After Replanning a Replenishment Production Order Created by MRP Planning Run](../../../../changes/bcapps/9788.md) (code change): "replanning production orders with multiple component lines using the same item"
-- [#9898 [Main]-The Reservation Entry does not exist error when creating a Purchase Order from a Sales Order](../../../../changes/bcapps/9898.md) (code change): "Reverted changes that prevented Reservation Entries from being created"
 - [#9963 [Extensibility Request] issue 30384: expose planning suggestions variable](../../../../changes/bcapps/9963.md) (code change): "Item Availability by Event page is now accessible"
-- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "supply chain management functional knowledge domain added with nine scoped rules"
+- [#192 Add SCM functional knowledge domain](../../../../changes/bcquality/192.md) (code change): "SCM functional knowledge domain added with nine scoped rules"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

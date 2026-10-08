@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:01.735Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,8 +115,7 @@ links:
   localizations: []
   videos:
     - video/B8cWQGwajwQ
-  posts:
-    - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -129,7 +128,7 @@ coverage:
   learn: 11
   code: 0
   video: 1
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 149000
@@ -188,7 +187,6 @@ Start with the testing overview, then the test codeunits and test pages articles
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests"
 - [In Preview: User Acceptance Testing with the Page Scripting Tool (2024 release wave 1)](../../../../videos/B8cWQGwajwQ.md) (video): "user acceptance testing; page scripting tool; script recording and playback"
 
 ## Business Central pages and reports

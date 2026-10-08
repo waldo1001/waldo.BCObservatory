@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.451Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,7 +142,7 @@ VAT-VIES declarations and Intrastat setup are handled on their own pages. Intras
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "performance issue with VAT advance return and VAT statement calculations in German environments"
+- [#9734 [Master]-Performance issue when calculating the VAT advance return / VAT statement (Base Application, German environment) - Copy](../../../../../changes/bcapps/9734.md) (code change): "performance issue when calculating the VAT advance return / VAT statement"
 
 ## Business Central pages and reports
 

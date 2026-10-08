@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,6 @@ links:
     - video/vpJg1BxIrs0
   posts:
     - post/aardvarklabs-blog/3120
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9
     - post/thedynamicsexplorer-com/9227
   guidelines: []
   changes:
@@ -123,7 +122,7 @@ coverage:
   learn: 3
   code: 48
   video: 5
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 116
@@ -214,12 +213,11 @@ Start with the page on working with dimensions to set up the basics. Move to the
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10566 [main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../changes/bcapps/10566.md) (code change): "Global Dimension 1 and 2 filters from G/L Account are now read and passed"
+- [#10566 [main] Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../changes/bcapps/10566.md) (code change): "Dimension filters are applied with SetFilter on the query dimension columns"
 - [#10571 [Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10571.md) (code change): "Deferral Summary - G/L report now correctly filters and displays totals"
-- [#10874 [29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10874.md) (code change): "The Deferral Summary-GL Report now properly supports filtering by global dimensions"
+- [#10874 [29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10874.md) (code change): "Deferral Summary - G/L report now applies global dimension filters to its totals"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
-- [BC Friday Tips #51 Dimension No. in Dimension Value](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-51-dimension-no-in-dimension-value--f3607da2e9.md) (community post): "Dimension Value table has a hidden Global Dimension No. field"
-- [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Business Central separates GL accounts from dimensions"
+- [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Allowed Values Filter on the GL Account card restricts which dimension values can be posted"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"
 - [Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics](../../../../videos/BC82BSrtng0.md) (video): "Segments; dimensions; default dimensions; posting; reporting; migration"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Correct dimension in Business Central"

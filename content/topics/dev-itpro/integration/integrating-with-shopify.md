@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,19 +98,18 @@ links:
     - change/bcapps/10467
     - change/bcapps/10619
     - change/bcapps/10741
-    - change/bcapps/10775
+    - change/bcapps/11094
     - change/bcapps/11096
     - change/bcapps/11373
-    - change/bcapps/11400
     - change/bcapps/11407
     - change/bcapps/11603
     - change/bcapps/11604
     - change/bcapps/11611
     - change/bcapps/11658
     - change/bcapps/11854
-    - change/bcapps/11866
     - change/bcapps/12214
     - change/bcapps/12215
+    - change/bcapps/8587
     - change/bcapps/9126
     - change/bcapps/9138
     - change/bcapps/9146
@@ -118,7 +117,13 @@ links:
     - change/bcapps/9211
     - change/bcapps/9221
     - change/bcapps/9313
+    - change/bcapps/9316
     - change/bcapps/9404
+    - change/bcapps/9581
+    - change/bcapps/9682
+    - change/bcapps/9751
+    - change/bcapps/9784
+    - change/bcapps/9860
 learn_toc_path:
   - Integration
   - Integrating with Shopify
@@ -189,10 +194,10 @@ For developers and administrators, the technical FAQ covers product compatibilit
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10034 [Shopify] Don't block Shops page when user lacks extension permissions](../../../changes/bcapps/10034.md) (code change): "The Shopify Shops page no longer fails to open on Belgian environments"
-- [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Two new cues on the Shopify Activities page display counts of skipped sync records"
-- [#10143 Handle non-invoice or currupt PDF extraction](../../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs"
+- [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Shopify Activities page display counts of skipped sync records and API errors"
+- [#10143 Handle non-invoice or currupt PDF extraction](../../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs that return empty data"
 - [#10162 Fix stale start status in e-document import pipeline](../../../changes/bcapps/10162.md) (code change): "e-document import pipeline now uses the initial processing status"
-- [#10256 [Shopify] Fix customer matching when phone numbers contain spaces](../../../changes/bcapps/10256.md) (code change): "Shopify connector now normalizes phone numbers before search"
+- [#10256 [Shopify] Fix customer matching when phone numbers contain spaces](../../../changes/bcapps/10256.md) (code change): "When exporting customers to Shopify, the connector now strips phone numbers"
 - [#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice](../../../changes/bcapps/10307.md) (code change): "Shopify Order Totals factbox now correctly resolves and displays totals"
 - [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Shopify connector now captures and persists tax area code"
 - [#10417 [Shopify] Pace raw-text GraphQL calls to prevent excessive throttling](../../../changes/bcapps/10417.md) (code change): "Shopify connector now paces GraphQL requests issued through the raw-text overload"
@@ -200,27 +205,32 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10467 [Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning](../../../changes/bcapps/10467.md) (code change): "Fixed Shopify exchange refund handling when the replacement item is more expensive"
 - [#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue](../../../changes/bcapps/10619.md) (code change): "database index is added to the Shopify Order Header table on the"
 - [#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout](../../../changes/bcapps/10741.md) (code change): "Shopify return-with-exchange processing by ensuring exchange credit memos retain order identifiers"
-- [#10775 [Shopify] Optimize unmapped cue counts](../../../changes/bcapps/10775.md) (code change): "Shopify cue counts for unmapped items now use stored SystemId fields"
+- [#11094 [FS] Prevent duplicate Field Service customer assets during item synchronization](../../../changes/bcapps/11094.md) (code change): "Field Service Integration now prevents duplicate Customer Assets by setting Products"
 - [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "French PEPPOL exports now correctly handle billing profiles, identifiers"
 - [#11373 [Shopify] Improve shop navigation and background sync guidance](../../../changes/bcapps/11373.md) (code change): "Shopify integration adds shop-filtered payment actions to the Shop Card"
-- [#11400 [Shopify] Handle missing variant mapping in product action](../../../changes/bcapps/11400.md) (code change): "Shopify product action now validates that a linked Shopify Variant still exists"
 - [#11407 [Shopify] Keep exchange shipments eligible for synchronization](../../../changes/bcapps/11407.md) (code change): "Exchange-refund Shopify orders now sync their shipments correctly"
 - [#11603 [Shopify] Show configured product status in Add to Shopify confirmation](../../../changes/bcapps/11603.md) (code change): "Shopify connector now displays the configured product status"
 - [#11604 fix: capture Shopify fulfillment deliveredAt timestamp](../../../changes/bcapps/11604.md) (code change): "Shopify connector now captures and displays the fulfillment delivery timestamp"
 - [#11611 [Shopify] Add GraphQL type to request telemetry](../../../changes/bcapps/11611.md) (code change): "Shopify request telemetry now includes a GraphQL Type custom dimension"
 - [#11658 [Shopify] Limit webhook subscription payload fields](../../../changes/bcapps/11658.md) (code change): "Shopify webhook subscriptions now request only the required fields"
 - [#11854 [Shopify] Make refund currency codes read-only](../../../changes/bcapps/11854.md) (code change): "Currency Code and Presentment Currency Code fields on the Shopify Refund Header table are now read-only"
-- [#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist](../../../changes/bcapps/11866.md) (code change): "The Sync Shipments To Shopify action on the Shopify Orders page is now disabled when no Shopify orders are available"
 - [#12214 [Shopify] Store currency handling for auto-created orders](../../../changes/bcapps/12214.md) (code change): "Shopify connector now persists the currency handling mode used during order processing"
 - [#12215 [Shopify] Link grouped invoice to all originating orders](../../../changes/bcapps/12215.md) (code change): "Invoice document linking to Shopify orders now correctly associates a single invoice"
+- [#8587 [Shopify] Make codeunit 30272 "Shpfy Update Price Source" public](../../../changes/bcapps/8587.md) (code change): "Partners handling OnBeforeCalculateUnitPrice can bind this codeunit"
 - [#9126 [Shopify] Base price-sync bulk threshold on changed price count](../../../changes/bcapps/9126.md) (code change): "Product price synchronization with Shopify now triggers bulk operations based on the count of changed variants"
 - [#9138 [Shopify] Add Belgium localization for company tax id mapping (Enterprise No.)](../../../changes/bcapps/9138.md) (code change): "Belgium localization for company tax id mapping for Belgian B2B company sync"
-- [#9146 [Shopify] Fix GraphQL rate limiter under-waiting after elapsed time](../../../changes/bcapps/9146.md) (code change): "Shopify connector's GraphQL rate limiter was waiting incorrectly"
-- [#9188 [Shopify] Create BC customer on order import when Shopify customer has no default address](../../../changes/bcapps/9188.md) (code change): "Shopify connector now handles customer sync when no default address"
-- [#9211 [Shopify] Surface skipped records and sent JSONL for bulk price sync](../../../changes/bcapps/9211.md) (code change): "Shopify bulk price sync now creates skipped records with error details"
+- [#9146 [Shopify] Fix GraphQL rate limiter under-waiting after elapsed time](../../../changes/bcapps/9146.md) (code change): "Rate limiter waited too short when time had passed since the last Shopify response"
+- [#9188 [Shopify] Create BC customer on order import when Shopify customer has no default address](../../../changes/bcapps/9188.md) (code change): "ensuring orders are properly linked to newly created BC customers"
+- [#9211 [Shopify] Surface skipped records and sent JSONL for bulk price sync](../../../changes/bcapps/9211.md) (code change): "Failed variants in bulk price sync now generate Shopify Skipped Records with Shopify error messages"
 - [#9221 [Shopify] Uptake Admin GraphQL API to version 2026-07](../../../changes/bcapps/9221.md) (code change): "The Shopify connector now supports the Admin GraphQL API version 2026-07"
 - [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../changes/bcapps/9313.md) (code change): "The Shopify variant sync now correctly distinguishes between variants that have stale local timestamps"
+- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../changes/bcapps/9316.md) (code change): "Bill-to Customer No. falls back to Sell-to Customer No. when it would otherwise stay blank"
 - [#9404 [Shopify] Fix Sync Prices using stale WorkDate from SingleInstance cache](../../../changes/bcapps/9404.md) (code change): "Fix Sync Prices using stale WorkDate from SingleInstance cache"
+- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "The Shopify Status for Created Products option now offers Unlisted"
+- [#9682 [E-Document Formats][OIOUBL] Migrate NAV PR 247162 into BCApps](../../../changes/bcapps/9682.md) (code change): "New OIOUBL e-document format reader for Denmark that parses OIOUBL XML invoices"
+- [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../../changes/bcapps/9751.md) (code change): "Invoice Date on the purchase draft is now filled from the extracted invoice date"
+- [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fixes defects in the V2 draft import for XRechnung, PINT A-NZ and Factura-E"
+- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents"
 - [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify skipped records page; Logging mode field for Shopify connector; Show record functionality"
 - [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "shopify connector; sales channels; product export; channel activation"
 - [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"

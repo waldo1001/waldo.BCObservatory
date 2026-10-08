@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9920693bd7e95c4806b31370bed527d3470c4497897c472bacd24b9531e2ac97
@@ -76,7 +76,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcquality/195
     - change/bcquality/216
 learn_toc_path:
   - Development
@@ -116,7 +115,6 @@ Path: [Development](../../../development.md) > [Programming in the AL language](
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#195 Add foundational AL developer knowledge](../../../../../changes/bcquality/195.md) (code change): "Install and upgrade codeunit execution ordering clarified"
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../../../../../changes/bcquality/216.md) (code change): "procedures that modify a record should take the record as a var parameter"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -45,6 +45,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11319
+    - change/bcapps/9569
 learn_toc_path:
   - Administration
   - Automation API
@@ -79,5 +80,6 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
+- [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

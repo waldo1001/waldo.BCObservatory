@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.929Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -396,15 +396,23 @@ links:
   localizations: []
   videos:
     - video/mnxOSl1Y9PI
-  posts: []
+  posts:
+    - post/demiliani-com/11858
   guidelines: []
   changes:
-    - change/bcapps/10149
-    - change/bcapps/10675
+    - change/bcapps/10545
     - change/bcapps/10828
+    - change/bcapps/10869
+    - change/bcapps/10927
+    - change/bcapps/11002
+    - change/bcapps/8745
+    - change/bcapps/9351
     - change/bcapps/9600
     - change/bcapps/9605
+    - change/bcapps/9643
     - change/bcapps/9650
+    - change/bcapps/9876
+    - change/bcquality/87
 learn_toc_path:
   - Development
 toc_file: dev-itpro/TOC.md
@@ -424,7 +432,7 @@ coverage:
   learn: 523
   code: 77
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 16
@@ -567,12 +575,20 @@ Later topics cover quality and delivery: Rules, guidelines, and best practices (
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10149 Improve the Index Mgmt page discoverability](../../changes/bcapps/10149.md) (code change): "Index Mgmt page can be opened directly from Tell Me search"
-- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../changes/bcapps/10675.md) (code change): "Temporarily suppress AS0072 compiler warnings on obsolete tags"
+- [#10545 [Master] - Bug 647253: [WHT] Inconsistency with the Payments](../../changes/bcapps/10545.md) (code change): "Fixes bug 647253 about withholding tax inconsistency"
 - [#10828 Avoid remote attachment checks during FactBox refresh](../../changes/bcapps/10828.md) (code change): "Attachment FactBox navigation performance improved by deferring external file existence checks"
+- [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../changes/bcapps/10869.md) (code change): "Withholding Tax Mgmt. codeunit 6785 is modified in releases"
+- [#10927 [Change Log] Preserve SystemId for unloaded record modifications](../../changes/bcapps/10927.md) (code change): "Change Log Management now preserves the SystemId from persisted"
+- [#11002 [Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation](../../changes/bcapps/11002.md) (code change): "Excise duty calculation now supports specific-per-unit, ad valorem"
+- [#8745 Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers](../../changes/bcapps/8745.md) (code change): "Table Information Cache refresh now aggregates metrics when duplicate table numbers are encountered"
+- [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../changes/bcapps/9351.md) (code change): "Contract renewal detection in the Sales-Post subscribers was reworked"
 - [#9600 Uptake sift disable enable support](../../changes/bcapps/9600.md) (code change): "Index management pages now support viewing and disabling SIFT indexes on relevant tables"
 - [#9605 [Quality Management] UI actions to restore default shipped source configurations](../../changes/bcapps/9605.md) (code change): "Quality Management adds UI actions to restore, reset, or recreate default source configurations"
-- [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverted changes to the withholding tax calculation logic for 'Greater Than' rules"
+- [#9643 Update SII subscribers SkipMissingPermissions](../../changes/bcapps/9643.md) (code change): "Updates the SkipMissingPermissions setting on event subscribers"
+- [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverts the earlier change from PR 9515 to how the 'Greater Than' withholding tax calculation"
+- [#9876 [Subscription Billing] Rename progress tracker](../../changes/bcapps/9876.md) (code change): "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
+- [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"
+- [GitHub Copilot Coding Agent helps you stay strong on the bike…](../../posts/demiliani-com/11858.md) (community post): "GitHub Copilot Coding Agent helps you stay strong on the bike. The author assigned an urgent issue"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
 
 ## Business Central pages and reports

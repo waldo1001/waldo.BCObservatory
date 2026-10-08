@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,13 +322,13 @@ links:
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
-    - post/gerardorenteria-blog/12961
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
   changes:
     - change/bcapps/10134
-    - change/bcapps/10238
     - change/bcapps/10247
+    - change/bcapps/9038
+    - change/bcapps/9896
     - change/bcquality/214
 learn_toc_path:
   - Development
@@ -348,7 +348,7 @@ coverage:
   learn: 69
   code: 0
   video: 2
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -397,13 +397,13 @@ This section covers how to build and shape the Business Central user interface w
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10134 [Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI](../../../../changes/bcapps/10134.md) (code change): "Focus now moves to newly created theme or header/footer parts"
-- [#10238 Remove consumed credits from Payables Agent setup](../../../../changes/bcapps/10238.md) (code change): "Consumed Copilot credits section removed from Payables Agent setup page"
+- [#10134 [Bug 646487] Composite layout: focus fix, body-layout gating, and setup UI](../../../../changes/bcapps/10134.md) (code change): "Focus now moves to the newly created theme or header/footer part"
 - [#10247 [SOA] Show Cc recipients on email messages](../../../../changes/bcapps/10247.md) (code change): "Sales Order Agent email cards now display Cc recipients in a read-only field"
+- [#9038 [master][Bug]: Page 615 "IC Inbox Transactions".RunInboxTransactions](../../../../changes/bcapps/9038.md) (code change): "IsFoundationEnabled check replaced by IsBasicOnlyEnabled in RunInboxTransactions"
+- [#9896 Rename PBI embedded pages](../../../../changes/bcapps/9896.md) (code change): "Embedded Power BI report pages in the Power BI Reports"
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../../../../changes/bcquality/214.md) (code change): "handle multi-document routing through Page Management instead of hard-coded mappings"
-- [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property supports None (default, visible) and Concealed"
+- [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property for table fields supports None and Concealed"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
-- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "sort Business Central list pages by any predefined table key"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
 - [What's New: Business Central User Experience (2024 release wave 2)](../../../../videos/rWZcmEwwVHg.md) (video): "Access Keys for Additional Languages; Modernized Search with Full-Text Index; Faster Column Resizing"

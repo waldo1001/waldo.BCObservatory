@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.033Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11657
+    - change/bcapps/11734
     - change/bcapps/9352
 learn_toc_path:
   - Business functionality
@@ -166,6 +168,8 @@ Start with "Set up value-added tax" and "Posting group setup" for the core confi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11657 Fix VIES integrity check: tolerate country-code prefix on echoed VAT number (uptake fix)](../../../../../changes/bcapps/11657.md) (code change): "VIES integrity check for VAT numbers now tolerates country-code prefixes"
+- [#11734 [VIES Integration] Per-environment daily request rate-limit](../../../../../changes/bcapps/11734.md) (code change): "per-tenant daily rate-limit of 2000 VIES lookups prevents"
 - [#9352 [FI] Obsolete unused 'Print on Invoice' VAT setting](../../../../../changes/bcapps/9352.md) (code change): "Obsolete unused 'Print on Invoice' VAT setting. The unused 'Print on Invoice' VAT field"
 - [What's New: VAT Date in Business Central (2023 release wave 2)](../../../../../videos/MWXwtRr6-Wk.md) (video): "VAT Date Usage field options; Default VAT Date setting; Control VAT Period setup"
 

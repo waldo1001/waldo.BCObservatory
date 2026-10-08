@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -197,7 +197,6 @@ links:
     - change/bcapps/10753
     - change/bcapps/11626
     - change/bcapps/12196
-    - change/bcapps/12261
     - change/bcapps/9127
     - change/bcapps/9322
 learn_toc_path:
@@ -263,7 +262,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data Management now allows subsidiary environments to synchronize master data"
 - [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts"
 - [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled"
-- [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../changes/bcapps/12261.md) (code change): "Stop repeated rescheduling of Dataverse synch jobs on bulk changes"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "dataverse integration; data synchronization; virtual tables; data change events"

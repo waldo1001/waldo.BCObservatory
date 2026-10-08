@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.653Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9405
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -102,6 +104,12 @@ The depreciation page is separate. It describes calculating and posting to the g
 - [Automatic account codes in the Finnish version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes): You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Finnish version.
 - [Posting Depreciation Differences [FI]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences): Calculate and post the difference in accumulated depreciation between different depreciation methods in the general ledger.
 - [Set Up Automatic Account Posting Groups [FI]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups): In the Finnish version, an automatic account posting group must be created to use automatic account codes.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9405 [FI] Delocalize FI Currency Exchange Rate import into FI Core](../../../../../changes/bcapps/9405.md) (code change): "Finnish currency exchange rate import functionality moved from the base application"
 
 ## Business Central pages and reports
 

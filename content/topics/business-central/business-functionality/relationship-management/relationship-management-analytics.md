@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:35.268Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -190,6 +190,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/9024
     - change/bcapps/9544
 learn_toc_path:
   - Business functionality
@@ -277,6 +278,7 @@ Start with the overview page to find the report you need. Then open its page to 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9024 [Master] - Chance of success % does not validate correctly when using the action type "Update" in Opportunity](../../../../changes/bcapps/9024.md) (code change): "Chance of Success % on an opportunity entry now validates correctly when the Update action type is used"
 - [#9544 636017 Move CRM report action tooltips to report objects](../../../../changes/bcapps/9544.md) (code change): "CRM report action tooltips are moved from page actions to report objects"
 
 ## Business Central pages and reports

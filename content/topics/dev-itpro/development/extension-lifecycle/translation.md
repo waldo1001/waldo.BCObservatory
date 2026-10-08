@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:14.345Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,6 +97,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#12062 [Master]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12062.md) (code change): "Workflow event labels in the Quality Management app are now properly localized"
 - [#12097 [29.X]-[Quality Management] Workflow events are not localized](../../../../changes/bcapps/12097.md) (code change): "Event labels for quality workflows now support localization"
-- [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present"
+- [🚫 Never Publish an AL Extension with Missing Translations Again](../../../../posts/gerardorenteria-blog/14381.md) (community post): "A VS Code extension that validates translation files are present before publishing AL extensions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

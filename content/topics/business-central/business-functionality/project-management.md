@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -386,7 +386,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10211
     - change/bcapps/10361
     - change/bcapps/9083
     - change/bcapps/9280
@@ -513,7 +512,6 @@ Start with the overview page "Project management", then "Create a project card f
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10211 [master] Projects WIP related field tooltips missing broken grammar outdated terminology](../../../changes/bcapps/10211.md) (code change): "Field tooltips for Work in Progress fields in the Job table were corrected"
 - [#10361 [main] Line Discount Amount Rounding Discrepancy When Transferring Project Planning Lines to Sales Invoice](../../../changes/bcapps/10361.md) (code change): "Line Discount Amount is now correctly preserved when transferring project planning lines"
 - [#9083 Bug 639857: Project journal ignores task-level Bill-to Customer for pricing](../../../changes/bcapps/9083.md) (code change): "Project journal pricing now respects task-level bill-to customer settings"
 - [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"

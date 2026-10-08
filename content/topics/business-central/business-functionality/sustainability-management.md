@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -379,10 +379,8 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10051
-    - change/bcapps/10311
     - change/bcapps/10541
     - change/bcapps/10613
-    - change/bcapps/12053
     - change/bcapps/9478
     - change/bcapps/9613
 learn_toc_path:
@@ -512,11 +510,9 @@ Start with the overview, then follow setup and the chart of sustainability accou
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10051 Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers](../../../changes/bcapps/10051.md) (code change): "Preview posting in sustainability journals no longer creates gaps in Sustainability Ledger Entry"
-- [#10311 [Master] - Slice 640778: [Sustainability] Sustainability Entries should be more easy to find like other entries across BC](../../../changes/bcapps/10311.md) (code change): "Sustainability entries can now be found more easily through a Find Entries action"
+- [#10051 Bug 642053: [master] [Sustainability] Preview Posting Creates Gaps in Sustainability Ledger Entry Numbers](../../../changes/bcapps/10051.md) (code change): "Preview posting collects sustainability ledger entries in memory"
 - [#10541 [Master] - Slice 641375: [Sustainability] Collect Amount from G/L Entries: track collected entries to prevent double counting](../../../changes/bcapps/10541.md) (code change): "Collect function excludes previously collected entries based on the relation table"
-- [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Sustainability ledger entries are now reversed when their related general ledger"
-- [#12053 Remove-Sustainability-CLEAN27-tags-for-Wave2-2026](../../../changes/bcapps/12053.md) (code change): "Removed CLEAN27 tags and obsolete code from Sustainability"
+- [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Reversing a G/L transaction now also reverses the sustainability ledger"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Introducing: Sustainability in Business Central emissions tracking; csrd compliance; esg reporting; greenhouse gas"

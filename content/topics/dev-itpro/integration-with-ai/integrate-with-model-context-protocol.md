@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:35.934Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,11 +89,8 @@ links:
     - post/aardvarklabs-blog/2724
     - post/aardvarklabs-blog/3775
     - post/bertverbeek-nl/1183
-    - post/demiliani-com/11666
-    - post/demiliani-com/13391
     - post/gerardorenteria-blog/12682
     - post/katson-com/4678
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -105,7 +102,7 @@ coverage:
   learn: 6
   code: 3
   video: 8
-  blog: 8
+  blog: 5
   guideline: 0
 bc_forms:
   - 8350
@@ -152,13 +149,10 @@ For AL developers who want agents to build and publish extensions, the AL MCP Se
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../posts/aardvarklabs-blog/2724.md) (community post): "Model Context Protocol servers enable AI agents to interact with Business Central data"
-- [Connect Claude to Business Central MCP: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/3775.md) (community post): "connect Claude to Business Central MCP server using a locally hosted Python proxy"
+- [Connect Claude to Business Central MCP: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/3775.md) (community post): "Connect Claude to Business Central MCP: A Step-by-Step Guide"
 - [Microsoft Agent Framework and Business Central MCP server](../../../posts/bertverbeek-nl/1183.md) (community post): "Business Central MCP server enables AI agents to connect to Business Central through the Microsoft Agent Framework"
-- [An MCP server for Dynamics 365 Business Central? Why not?](../../../posts/demiliani-com/11666.md) (community post): "An MCP server for Dynamics 365 Business Central allows AI agents and Copilot tools to access ERP data"
-- [Dynamics 365 Business Central: BCMCPProxy vNext](../../../posts/demiliani-com/13391.md) (community post): "bridges Model Context Protocol clients with Business Central's API"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages in Business Central 27.1, allows APIs to describe themselves to AI assistants"
-- [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "Connect external AI agents to Business Central using the Model Context Protocol"
-- [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "connecting it to Claude Desktop via Azure App Registration for delegated authentication to Business Central"
+- [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "Enhanced MCP Server; MCP Configuration Validations; Support for Multiple MCP Hosts"
 - [MCP Server and API Queries (2026 release wave 1)](../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server; Analytics API reference documentation"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central; Default Configuration Mode; Named Configurations; Dynamic Tools System"

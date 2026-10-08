@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:15.587Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/9590
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -107,6 +109,12 @@ The pages are standalone and there are no subtopics. Start with the business uni
 - [Print balance sheet reports [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports): Use the Balance Sheet report to view the company's balance sheet in the Australian version.
 - [Print income statements [AU]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements): Learn how to view the company's annual income statement in the Australian version.
 - [Set Up Business Units for Business Activity Statements (AU)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements): Learn how to consolidate the financial statements of various companies into one financial statement.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9590 Error message "Consolidated must be equal to Yes" when Exporting BAS Calculation Worksheet for consolidated Company in Australian localisationInitial commit](../../../../../changes/bcapps/9590.md) (code change): "Exporting the BAS Calculation Worksheet for a consolidated company"
 
 ## Business Central pages and reports
 

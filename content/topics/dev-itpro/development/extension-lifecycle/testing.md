@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,21 +91,30 @@ links:
   localizations: []
   videos:
     - video/9CW5mydS9Vs
+    - video/D_Lur52IrIg
+    - video/eUkx_VCcyoU
     - video/EurgqGU1jG0
     - video/JI9OpaBx0nk
+    - video/qlFEdXPjX6A
     - video/V4zCPAsYi_Y
   posts:
+    - post/jpearson-blog/1590
+    - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
     - post/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831
   guidelines: []
   changes:
     - change/al-go/2342
     - change/bcapps/10055
-    - change/bcapps/10990
+    - change/bcapps/10065
+    - change/bcapps/11637
     - change/bcapps/11654
     - change/bcapps/11712
+    - change/bcapps/11747
     - change/bcapps/12325
     - change/bcapps/12463
+    - change/bcapps/8924
     - change/bcapps/9293
+    - change/bcquality/159
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -116,8 +125,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 4
-  blog: 1
+  video: 7
+  blog: 3
   guideline: 0
 bc_forms:
   - 149000
@@ -174,16 +183,25 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Fixed incremental builds in AL-Go that were corrupting buildMode-specific artifacts"
 - [#10055 Fix: migrating a document attachment deletes shared Tenant Media](../../../../changes/bcapps/10055.md) (code change): "Introduces three new unit tests verifying shared media protection"
-- [#10990 Add-Expense-VAT-settings-to-Contoso-demo-tool](../../../../changes/bcapps/10990.md) (code change): "Test utilities for Shopify were adjusted to work"
-- [#11654 Repair and re-enable Expense Agent permission and posted-history tests](../../../../changes/bcapps/11654.md) (code change): "Repair and re-enable Expense Agent permission and posted-history tests"
-- [#11712 [Master] - Bug 624708: [Expense Management] Users sync - There should be a configuration wizard to ask if the Employees should be created behind if no match is found](../../../../changes/bcapps/11712.md) (code change): "Added configuration wizard to Expense Users page. Automatically creates employee records"
-- [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Removed 51 Expense API test exclusions while preserving 9 non-API exclusions"
+- [#10065 [Quality Management] Quality Inspection User assignment fixes](../../../../changes/bcapps/10065.md) (code change): "Tests for user assignment added to the misc test codeunit"
+- [#11637 [Master]- Create Documents on Recurring Billing ignores the Partner filter and fails when a vendor billing proposal exists](../../../../changes/bcapps/11637.md) (code change): "Create Documents on Recurring Billing now respects the Partner filter. New tests added"
+- [#11654 Repair and re-enable Expense Agent permission and posted-history tests](../../../../changes/bcapps/11654.md) (code change): "Expense Agent tests were repaired and re-enabled. The fixes cover permission checks"
+- [#11712 [Master] - Bug 624708: [Expense Management] Users sync - There should be a configuration wizard to ask if the Employees should be created behind if no match is found](../../../../changes/bcapps/11712.md) (code change): "Expense user synchronization gets new logic in the Expense User table. Tests were added"
+- [#11747 [master][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../changes/bcapps/11747.md) (code change): "Fixed a Sales Line does not exist error when exploding an Assembly BOM. Added test coverage"
+- [#12325 [Expense tests] Re-enable reviewed APIs and consolidate Expense fixes](../../../../changes/bcapps/12325.md) (code change): "Clean test codeunit execution is turned on"
 - [#12463 Fix Email upgrade writing during no-transaction upgrade test](../../../../changes/bcapps/12463.md) (code change): "Email Installer no longer re-registers email tables based on allowed-table"
+- [#8924 [QM] Fixed overflow runtime error](../../../../changes/bcapps/8924.md) (code change): "Adds a regression test in the miscellaneous QM tests codeunit"
 - [#9293 [Bug][SubscriptionBilling] Process Usage Data Billing uses lines marked Processing Status = Error (currency mismatch)](../../../../changes/bcapps/9293.md) (code change): "Six new tests added covering the corrected behavior"
-- [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application"
+- [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../changes/bcquality/159.md) (code change): "AL testing patterns from an external BC testing expert's blog"
+- [Why do all my tests show up twice in the test explorer?](../../../../posts/jpearson-blog/1590.md) (community post): "Tests show up twice in the VS Code test explorer when the pre-release AL Language extension"
+- [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests"
+- [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application to run"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
+- [What's new in AL and Tools (2026 release wave 2)](../../../../videos/D_Lur52IrIg.md) (video): "Data-driven testing framework; Test handler interface for lifecycle hooks; Static call graph analysis"
+- [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
 - [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "100% code coverage testing pattern; Fast automated testing framework"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
+- [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 
 ## Business Central pages and reports

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:25.918Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,6 +51,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/1696
     - post/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7
   guidelines: []
   changes:
@@ -66,7 +67,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 980024bd723a3011e5f11fc2464d1bb306e6a0f3d31a1c678caca9be5e61a1b0
@@ -108,6 +109,7 @@ Start with the Format method page for general text conversion. Use the field for
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10359 Add activity log amount formatting metadata](../../../../changes/bcapps/10359.md) (code change): "Amount fields in the Expense Activity Log Entry table now include currency-aware formatting metadata"
+- [Understanding ToText() in Business Central 2025](../../../../posts/aardvarklabs-blog/1696.md) (community post): "ToText() is a quick display helper added in BC 2025 Wave 1"
 - [Format Cheatsheet](../../../../posts/tine-staric-net/https-tine-staric-net-blog-2025-format-cheatsheet--8c69d461e7.md) (community post): "Format() supports 9 different format codes (0-7 and 9) that produce different output styles for the same data type"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

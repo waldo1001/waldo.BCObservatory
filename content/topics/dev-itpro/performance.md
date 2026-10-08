@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -83,11 +83,15 @@ links:
     - video/D7GxnNiGQ14
   posts:
     - post/demiliani-com/13096
-    - post/duiliotacconi-com/1983
+    - post/demiliani-com/13254
+    - post/demiliani-com/13369
     - post/duiliotacconi-com/2001
+    - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
-    - post/waldo-be/318461
+    - post/waldo-be/318212
   guidelines: []
+  changes:
+    - change/al-go/2229
 learn_toc_path:
   - Performance
 toc_file: dev-itpro/TOC.md
@@ -97,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 5
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -120,15 +124,18 @@ Path: Performance · tier official · system platform · no narrative yet
 - [Performance Overview for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-overview): Learn different ways to improve the performance of Business Central as a functional consultant, a developer, or an administrator.
 - [Performance Tips for Business Users](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-users): Learn tips for choosing a browser and network connection, and for working faster and more efficiently in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2229 Surface empty BCPT results as a warning instead of silent success](../../changes/al-go/2229.md) (code change): "BCPT performance tests produce a results file with no entries"
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
-- [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../posts/duiliotacconi-com/1983.md) (community post): "ability to enable or disable database indexes directly in the UI"
+- [Dynamics 365 Business Central: understanding the Database Wait Statistics page.](../../posts/demiliani-com/13254.md) (community post): "Understanding wait categories, task counts, wait times, signal waits helps identify performance bottlenecks"
+- [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
+- [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
 - [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "reducing load on the primary database and improving overall performance"
-- [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../posts/waldo-be/318461.md) (community post): "Performance improved dramatically after the fix: query count dropped from 19,946 to 18"
+- [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

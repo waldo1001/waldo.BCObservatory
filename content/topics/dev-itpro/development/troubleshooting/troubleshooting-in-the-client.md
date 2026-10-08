@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -164,6 +164,8 @@ links:
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725
   guidelines: []
+  changes:
+    - change/bcapps/10335
 learn_toc_path:
   - Development
   - Troubleshooting
@@ -256,10 +258,11 @@ This section collects tools and pages that help developers, administrators, and 
 - [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10335 Unblock bc login due to pp failures](../../../../changes/bcapps/10335.md) (code change): "Prevents sign-in blocking when linked Power Platform environment lookup fails"
 - [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you quickly find"
 
 ## Business Central pages and reports

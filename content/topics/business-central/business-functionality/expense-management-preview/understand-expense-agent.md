@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:10.440Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,8 +66,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10032
-    - change/bcapps/10386
-    - change/bcapps/10431
     - change/bcapps/10670
 learn_toc_path:
   - Business functionality
@@ -127,8 +125,6 @@ Start with the overview to get the scope, then read the email page if intake is 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10032 Fix Agent List and Agent Task List filter and refresh issues (AB#646062)](../../../../changes/bcapps/10032.md) (code change): "Fixed filter visibility and refresh issues on Agent List"
-- [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../../changes/bcapps/10386.md) (code change): "Archived custom agents can now be viewed for auditing but are protected from modification"
-- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../../changes/bcapps/10431.md) (code change): "Reference links to archived agents and their tasks now open the Agent Card"
 - [#10670 Add Agent Task Log JSON export](../../../../changes/bcapps/10670.md) (code change): "Agent Task Log now supports JSON export of selected rows with detailed context"
 - [Expense Agent: Finance Controlling (2026 release wave 1)](../../../../videos/54uIhzZq3Os.md) (video): "Expense Agent; Default dimensions on employee records; Billable information"
 

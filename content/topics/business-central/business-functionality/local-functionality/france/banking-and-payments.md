@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:12.080Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/9140
-    - change/bcapps/9987
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -173,7 +172,6 @@ Start with the Payment Management overview for the concepts. Then set up payment
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9140 Remap object IDs during Payment Management FR data](../../../../../changes/bcapps/9140.md) (code change): "Payment Management FR now automatically remaps legacy report"
-- [#9987 Fix Payment Management FR data update paths and per-company feature status](../../../../../changes/bcapps/9987.md) (code change): "Fixed French payment management data migration path by centralizing migration logic"
 
 ## Business Central pages and reports
 

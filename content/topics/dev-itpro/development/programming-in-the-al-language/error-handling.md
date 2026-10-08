@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,6 +153,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a
   guidelines: []
   changes:
+    - change/bcapps/12117
     - change/bcquality/99
 learn_toc_path:
   - Development
@@ -217,9 +218,10 @@ For diagnosis, the page on the error dialog explains what users see and what the
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "confusing 'job has stopped' error message with 'run was interrupted' message"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "covering try-function semantics, upgrade phase data writes, install-versus-upgrade dispatch logic, ErrorInfo privacy"
-- [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Error Messages with Recommendations extension to transform error messages"
-- [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Good error messages are clear about what went wrong"
+- [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface"
+- [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

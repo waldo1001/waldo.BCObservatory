@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:17.483Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -289,7 +289,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10495
-    - change/bcapps/9583
     - change/bcapps/9960
 learn_toc_path:
   - Business functionality
@@ -401,7 +400,6 @@ This section documents the standard sales reports in Business Central. They fall
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10495 MSlenejennum/647454/sales internal new body layouts and obsolete current](../../../../../changes/bcapps/10495.md) (code change): "Three sales reports receive new internal Word body layouts"
-- [#9583 636017 Move Sales report action tooltips to report objects](../../../../../changes/bcapps/9583.md) (code change): "Sales report action tooltips are moved from page actions to the report objects"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../../../changes/bcapps/9960.md) (code change): "LookupSalesDoc procedure made public in Copy Sales Document report"
 
 ## Business Central pages and reports

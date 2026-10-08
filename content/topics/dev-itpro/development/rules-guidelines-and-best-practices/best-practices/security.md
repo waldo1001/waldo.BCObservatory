@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:29.082Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,11 +46,9 @@ links:
     - post/demiliani-com/13588
   guidelines: []
   changes:
-    - change/bcapps/10065
     - change/bcapps/10346
     - change/bcapps/8556
-    - change/bcquality/110
-    - change/bcquality/131
+    - change/bcquality/157
     - change/bcquality/187
     - change/bcquality/49
     - change/bcquality/99
@@ -106,11 +104,9 @@ Start with the layered security model page for the big picture, then move to the
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10065 [Quality Management] Quality Inspection User assignment fixes](../../../../../changes/bcapps/10065.md) (code change): "Improved validation logic in permission management codeunit"
 - [#10346 Fix activity log indirect permissions](../../../../../changes/bcapps/10346.md) (code change): "All activity writes remain code-mediated through Expense Activity Log Mgt"
-- [#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions](../../../../../changes/bcapps/8556.md) (code change): "InherentPermissions added to Quality Inspection Setup and Generation Rule tables to control access"
-- [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../../changes/bcquality/110.md) (code change): "Privacy and UI/accessibility code review skills now emit only knowledge-backed findings instead of general agent-generated findings"
-- [#131 Correct table-level data classification guidance](../../../../../changes/bcquality/131.md) (code change): "table-level data classification is inherited by fields unless explicitly overridden"
+- [#8556 [Quality Management] Enforce rules and restrictions with indirect and implicit permissions](../../../../../changes/bcapps/8556.md) (code change): "Quality Management uses InherentPermissions so that, when"
+- [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../../changes/bcquality/157.md) (code change): "Security, error handling, UI, upgrade, web services and AppSource guidance on permission sets"
 - [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
 - [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"
 - [#99 Add lifecycle error and privacy knowledge](../../../../../changes/bcquality/99.md) (code change): "ErrorInfo privacy exposure, and FeatureTelemetry logging, plus related review skills"

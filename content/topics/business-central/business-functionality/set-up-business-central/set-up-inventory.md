@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:44.974Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,7 +142,6 @@ links:
   changes:
     - change/bcapps/11155
     - change/bcapps/12124
-    - change/bcapps/9180
     - change/bcapps/9933
 learn_toc_path:
   - Business functionality
@@ -229,7 +228,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11155 Fix missing default item journal batch in Contoso Inventory setup](../../../../changes/bcapps/11155.md) (code change): "Inventory's default item journal batch is now created with its template"
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Prevent default-bin assignment for drop shipments during validation"
-- [#9180 Copy record links to posted Phys. Invt. Order and Recording headers](../../../../changes/bcapps/9180.md) (code change): "Record links attached to physical inventory order and recording headers"
 - [#9933 [MAIN]-Fix-Bug 644909 Cant modify Item Template after Item deletion](../../../../changes/bcapps/9933.md) (code change): "Item Template validation no longer fails with warehouse entry errors"
 - [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (community post): "warehouse setup; location management; configuration; business central 2026"
 

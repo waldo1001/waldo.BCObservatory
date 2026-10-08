@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:19.132Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,7 +125,7 @@ Start with "Manage human resources" for the overall picture: employee records, e
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11113 [Master][All-e][FTE][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”.](../../../changes/bcapps/11113.md) (code change): "Last Name field is now visible and editable on the Employee Relatives page"
+- [#11113 [Master][All-e][FTE][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”.](../../../changes/bcapps/11113.md) (code change): "The Last Name field is now visible and editable on the Employee Relatives page"
 - [#11214 [29.x][All-e][SaaS] Last name of the employee relative is not editable when customized using “Profile (Role)”](../../../changes/bcapps/11214.md) (code change): "Last Name field added to the Employee Relatives page layout"
 - [👥 Human Resources Module in Business Central🚀](../../../posts/gerardorenteria-blog/9061.md) (community post): "The Human Resources module in Business Central provides employee management, absence tracking"
 

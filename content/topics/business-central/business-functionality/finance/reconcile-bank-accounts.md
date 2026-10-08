@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.600Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,8 +84,7 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos: []
-  posts:
-    - post/thedynamicsexplorer-com/10232
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10630
@@ -102,7 +101,7 @@ coverage:
   learn: 6
   code: 10
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 39
@@ -165,10 +164,9 @@ Start with "Manage bank accounts" or "Reconcile bank accounts" for the basics, t
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10630 Extend OnBeforeCheckBankAcc to skip specific bank reversal checks](../../../../changes/bcapps/10630.md) (code change): "reversing bank account ledger entries"
+- [#10630 Extend OnBeforeCheckBankAcc to skip specific bank reversal checks](../../../../changes/bcapps/10630.md) (code change): "skip specific bank reversal checks when reversing bank account ledger entries"
 - [#11055 Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11055.md) (code change): "Bank reconciliation now exposes UI controls to allow users to process duplicate transactions"
-- [#11056 29.x: Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11056.md) (code change): "Bank reconciliation pages now expose functionality for handling duplicate transactions from bank statement imports"
-- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Bank Reconciliation method streamlines operations by posting cash receipts and reconciling them simultaneously"
+- [#11056 29.x: Allow bank rec. duplicated transactions surfaced in UI](../../../../changes/bcapps/11056.md) (code change): "Bank Acc. Reconciliation and Payment Reconciliation Journal pages now expose an existing option to allow duplicated transactions"
 
 ## Business Central pages and reports
 

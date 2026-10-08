@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,6 +87,11 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
   guidelines: []
   changes:
+    - change/bcapps/10067
+    - change/bcapps/10352
+    - change/bcapps/10370
+    - change/bcapps/10382
+    - change/bcapps/10438
     - change/bcapps/9217
 learn_toc_path:
   - Development
@@ -142,6 +147,11 @@ Start with the object type you want to change. Page extension, table extension a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10067 [Quality Management] Enable Bin code selection for transfer disposition in workflow response](../../../../changes/bcapps/10067.md) (code change): "Bin code selection is now available for transfer disposition in workflow responses"
+- [#10352 [Master]-Bug 646964: Withholding Tax Prod. Posting Group is missing o…](../../../../changes/bcapps/10352.md) (code change): "New page extension adds the withholding tax product posting group"
+- [#10370 [Master]-Bug 647018: Withholding tax for Employees and GL Accounts](../../../../changes/bcapps/10370.md) (code change): "WHT product posting group is inherited from the G/L balance account"
+- [#10382 [Expense Agent] Fix administrative recall history access](../../../../changes/bcapps/10382.md) (code change): "Recalls by someone other than the submitter are logged as BC User activity"
+- [#10438 [Master] - Bug 647272: [Expense Agent] Unwanted caption in expense report FactBox](../../../../changes/bcapps/10438.md) (code change): "Expense Report FactBox caption changed to Expense Report"
 - [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "table extension fields are stored in the database"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes"

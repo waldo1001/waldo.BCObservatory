@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:48.858Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,33 +154,22 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
   changes:
+    - change/bcapps/10675
     - change/bcapps/11870
-    - change/bcapps/8745
-    - change/bcapps/9571
-    - change/bcquality/105
     - change/bcquality/108
     - change/bcquality/114
     - change/bcquality/130
     - change/bcquality/132
     - change/bcquality/133
-    - change/bcquality/134
     - change/bcquality/135
     - change/bcquality/137
-    - change/bcquality/146
-    - change/bcquality/147
-    - change/bcquality/152
-    - change/bcquality/153
-    - change/bcquality/156
-    - change/bcquality/157
     - change/bcquality/175
     - change/bcquality/183
     - change/bcquality/196
-    - change/bcquality/210
-    - change/bcquality/65
-    - change/bcquality/87
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -198,7 +187,7 @@ coverage:
   learn: 17
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -248,31 +237,20 @@ Start with AL code best practices for the baseline conventions. Then read testin
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../../../changes/bcapps/10675.md) (code change): "Pragmas temporarily suppress the AppSourceCop AS0072 error on elements"
 - [#11870 Reduce allocations in the "Export to Execl" scenario](../../../../changes/bcapps/11870.md) (code change): "The Export to Excel scenario now allocates less memory by reusing objects"
-- [#8745 Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers](../../../../changes/bcapps/8745.md) (code change): "Table Information Cache refresh now aggregates metrics when duplicate table numbers are encountered"
-- [#9571 [Master]-Opening price list from Customer Card is extremely slow on large datasets (~220s) due to AddAllSourceType call](../../../../changes/bcapps/9571.md) (code change): "Price list opening from a customer card is optimized to avoid a slow AddAllSourceType call"
-- [#105 Promote validated community knowledge](../../../../changes/bcquality/105.md) (code change): "Eight new articles on AppSource, UI, error handling, and security move from community to Microsoft knowledge layer"
 - [#108 Complete AL review knowledge readiness](../../../../changes/bcquality/108.md) (code change): "AL review knowledge expanded with new guidance on telemetry, Query objects, AppSource, breaking changes, and security"
 - [#114 Document the skill-vs-knowledge boundary so BC facts land in knowledge files](../../../../changes/bcquality/114.md) (code change): "Skills should contain mechanics while knowledge files hold Business Central facts"
 - [#130 knowledge(performance): align SetLoadFields placement with AL Guidelines](../../../../changes/bcquality/130.md) (code change): "align SetLoadFields placement with AL Guidelines by placing filters before SetLoadFields"
 - [#132 Refine self-improvement review guidance](../../../../changes/bcquality/132.md) (code change): "BCQuality guidance refined to reduce false positives in event handling, UI testing, performance analysis"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../changes/bcquality/133.md) (code change): "Good pattern: use explicit field-by-field mapping with Evaluate for type conversions to fail loudly"
-- [#134 knowledge(performance): add community rules for performance](../../../../changes/bcquality/134.md) (code change): "Covers critical patterns like partial-record behavior, transaction-safe HTTP handling"
 - [#135 Correct severe misconception about SetCurrentKey in the knowledge base](../../../../changes/bcquality/135.md) (code change): "Using SetCurrentKey when sorting is unnecessary hurts performance"
 - [#137 Add community guidance and review support for Business Central agents](../../../../changes/bcquality/137.md) (code change): "20 community-authored guidance rules covering agent registration, permissions, profiles"
-- [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../../changes/bcquality/146.md) (code change): "All three false positives were verified against actual BCApps code before writing the rules"
-- [#147 ShowMandatory + OnQueryClosePage Check](../../../../changes/bcquality/147.md) (code change): "Two new UI community knowledge articles with code examples demonstrate best practices"
-- [#152 knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company](../../../../changes/bcquality/152.md) (code change): "Best practice is to keep direct cross-company writes only for trigger-free hand-off tables"
-- [#153 Promote knowledge for Microsoft-owned review skills](../../../../changes/bcquality/153.md) (code change): "Knowledge articles for data modeling, events, performance, security, UI, and web services"
-- [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "18 new AL/BC development patterns added covering style conventions, data modeling, web services"
-- [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../../../../changes/bcquality/157.md) (code change): "18 articles document patterns for data modeling, testing, style, security, error handling"
-- [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine documented patterns for custom document dispatch, printing, email, and report selections"
+- [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine new AL/BC patterns document best practices for document distribution"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Included bad and good AL code samples for each rule to guide developers"
-- [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Five new source-backed AL reliability rules added: base quantity derivation"
-- [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../../../../changes/bcquality/210.md) (code change): "upgrade code from using ChangeCompany, which can cause data races, duplicate upgrades"
-- [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added covering data-modeling patterns, AppSource conventions, and styling best practices"
-- [#87 Fix knowledge corpus integrity issues](../../../../changes/bcquality/87.md) (code change): "BCQuality knowledge articles and skill documentation were corrected to fix broken references"
+- [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
+- [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Always validate fields to ensure all business logic executes properly"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

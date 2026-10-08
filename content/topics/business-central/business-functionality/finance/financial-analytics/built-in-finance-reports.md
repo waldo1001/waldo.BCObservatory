@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -495,6 +495,7 @@ links:
     - change/bcapps/11115
     - change/bcapps/11517
     - change/bcapps/11574
+    - change/bcapps/12304
     - change/bcapps/9129
     - change/bcapps/9142
     - change/bcapps/9894
@@ -731,11 +732,12 @@ Start with "Built-in finance reports in Business Central". It gives the overview
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10252 Adjust audit log tables](../../../../../changes/bcapps/10252.md) (code change): "Audit log table references deleted from Financial Report Auditing"
+- [#10252 Adjust audit log tables](../../../../../changes/bcapps/10252.md) (code change): "Removes audit log table references from the Financial Report Auditing codeunit"
 - [#10412 Fixes in Excel reports for Aged Accounts.](../../../../../changes/bcapps/10412.md) (code change): "Aged Accounts Excel reports now properly handle customers and vendors"
-- [#11115 [29.x ]Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../../changes/bcapps/11115.md) (code change): "Trial Balance Excel reports now correctly apply global dimension filters"
-- [#11517 [29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../../changes/bcapps/11517.md) (code change): "export import of a report definition fails if the statuses"
+- [#11115 [29.x ]Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../../changes/bcapps/11115.md) (code change): "Trial Balance Excel reports now correctly apply global dimension filters when generating data"
+- [#11517 [29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../../changes/bcapps/11517.md) (code change): "Importing a financial report row definition into another company"
 - [#11574 [main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty](../../../../../changes/bcapps/11574.md) (code change): "Financial Report Open in Excel fails with duplicate Excel Buffer"
+- [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "a financial reports page could not open because of the FlowField"
 - [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
 - [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"

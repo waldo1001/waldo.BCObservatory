@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:53.939Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,11 +45,9 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10352
-    - change/bcapps/10370
+    - change/bcapps/9479
     - change/bcapps/9481
     - change/bcapps/9515
-    - change/bcapps/9973
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -101,10 +99,8 @@ Start with the overview page to understand the voucher types and the template an
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10352 [Master]-Bug 646964: Withholding Tax Prod. Posting Group is missing o…](../../../../../changes/bcapps/10352.md) (code change): "Withholding Tax Product Posting Group field added to General Journal page"
-- [#10370 [Master]-Bug 647018: Withholding tax for Employees and GL Accounts](../../../../../changes/bcapps/10370.md) (code change): "Withholding tax for employees now inherits the WHT product posting group"
+- [#9479 [Master]-]Withholding Tax Entries are not generated at payment because the Withholding Tax. Prod. Posting Group field gets not transferred to the payment line](../../../../../changes/bcapps/9479.md) (code change): "Withholding Tax Prod. Posting Group field is now carried over to the payment line"
 - [#9481 [Withholding Tax] FCY documents get wrongly rounded to LCY precision …](../../../../../changes/bcapps/9481.md) (code change): "Foreign currency withholding tax documents no longer incorrectly round amounts"
-- [#9515 [Master] - 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../../../../changes/bcapps/9515.md) (code change): "The 'Greater Than' withholding tax calculation rule and other rule options are now applied correctly"
-- [#9973 [WHT]-Withholding Tax is not deducted from Expense Report lines based on the Expense Category during posting](../../../../../changes/bcapps/9973.md) (code change): "Withholding Tax is not deducted from Expense Report lines"
+- [#9515 [Master] - 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../../../../changes/bcapps/9515.md) (code change): "withholding tax calculation rule was not 'Less than'. New ShouldCreateWithholdingTax procedure"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

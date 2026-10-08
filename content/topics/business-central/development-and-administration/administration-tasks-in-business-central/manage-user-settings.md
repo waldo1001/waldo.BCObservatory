@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:28.766Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10991
     - change/bcapps/11184
     - change/bcapps/9946
 learn_toc_path:
@@ -106,7 +105,6 @@ Start with the user settings page for per-user preferences. Move to the users an
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10991 [Main]Cannot Rename User Due to Financial Report Audit Log Permissions - Copy](../../../../changes/bcapps/10991.md) (code change): "User Management now correctly updates Financial Report Audit Log entries when a user is renamed"
 - [#11184 [29.x][All-e][FTE][SaaS] Cannot Rename User Due to Financial Report Audit Log Permissions](../../../../changes/bcapps/11184.md) (code change): "User Management now updates Financial Report Audit Log entries when a user is renamed"
 - [#9946 Fix Retrieve Users overwriting existing users' custom Role Center (AB#641534)](../../../../changes/bcapps/9946.md) (code change): "Fixed a regression where Retrieve Users silently overwrote all existing users' custom Role Centers"
 - [What's Cooking in Business Central: Limiting the Available Product Languages](../../../../videos/OszitKuf8t0.md) (video): "Limiting the Available Product Languages; language settings; administration; user settings; product languages"

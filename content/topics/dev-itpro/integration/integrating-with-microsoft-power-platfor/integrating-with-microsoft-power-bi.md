@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,9 +91,9 @@ links:
   localizations: []
   videos:
     - video/6Zb7VAvLVm4
+    - video/EVntnDFE1R4
   posts:
     - post/aardvarklabs-blog/2017
-    - post/thinkaboutit-be/7753
     - post/thinkaboutit-be/7943
     - post/thinkaboutit-be/7995
   guidelines: []
@@ -109,8 +109,8 @@ children:
 coverage:
   learn: 8
   code: 2
-  video: 1
-  blog: 4
+  video: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 6316
@@ -161,10 +161,10 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
-- [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI"
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
-- [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Most Business Central Power BI issues stem from configuration problems"
+- [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Business Central Power BI issues stem from configuration problems rather than Power BI itself"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"
+- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Power BI embed experience improvements; Power BI scorecard support in Business Central"
 
 ## Business Central pages and reports
 

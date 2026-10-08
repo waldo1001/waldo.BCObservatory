@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.930Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -376,9 +376,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10230
-    - change/bcapps/11386
-    - change/bcapps/11484
-    - change/bcapps/11896
     - change/bcapps/8698
     - change/bcapps/9257
     - change/bcapps/9401
@@ -516,13 +513,10 @@ The subtopics go deeper. Web services is the largest and covers OData, SOAP and 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version](../../changes/bcapps/10230.md) (code change): "Sales credit memos under One-Stop-Shop regime now generate SII XML"
-- [#11386 Fix E-Doc. Item Charge Mapping codeunit ID](../../changes/bcapps/11386.md) (code change): "E-Doc. Item Charge Mapping codeunit ID was corrected from 6532 to 6246"
-- [#11484 [E-Documents Core] - Supported type direction configuration](../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
-- [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../changes/bcapps/11896.md) (code change): "Master Data Management now correctly preserves destination blobs when source blobs exceed capacity limits"
 - [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (code change): "E-documents now track order responses and acknowledgements as lifecycle events"
 - [#9257 Hide Provide feedback action on E-Document Purchase Draft when user-i…](../../changes/bcapps/9257.md) (code change): "The Provide feedback action on the E-Document Purchase Draft page is now hidden"
-- [#9401 Fix Incoming Documents default processed filter](../../changes/bcapps/9401.md) (code change): "Fix Incoming Documents default processed filter"
-- [#9434 [Main]-"Factura Duplicada" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.](../../changes/bcapps/9434.md) (code change): "Factura Duplicada error message appears under SII History"
+- [#9401 Fix Incoming Documents default processed filter](../../changes/bcapps/9401.md) (code change): "Incoming Documents page now defaults to showing only unprocessed records"
+- [#9434 [Main]-"Factura Duplicada" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.](../../changes/bcapps/9434.md) (code change): "users now get a non-blocking warning when a purchase document's Vendor Invoice No."
 - [#9454 Fix site scoped contextinfo](../../changes/bcapps/9454.md) (code change): "Fix site scoped contextinfo. SharePoint request-digest calls"
 - [#9952 Show address lines 1-3 in address lookup display text](../../changes/bcapps/9952.md) (code change): "address lookup modal for Ideal Postcodes now displays address lines"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services"

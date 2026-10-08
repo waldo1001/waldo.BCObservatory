@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.100Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,7 @@ Start with "Using approval workflows" for the concepts, then go to "Approve or r
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Approval Workflows for Item Journals and Requisition Worksheets](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5164599344222477027--9edacb0c44.md) (community post): "approval workflows for item journals, requisition worksheets, and planning worksheets"
-- [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "Approval workflows now lock planning worksheet batches and prevent line modifications until approval completes"
+- [Approval Workflows in Planning Worksheet](../../../../../posts/olofsimren-com/3779.md) (community post): "Business Central version 28 adds approval workflow support to planning, requisition, and subcontracting"
 
 ## Business Central pages and reports
 

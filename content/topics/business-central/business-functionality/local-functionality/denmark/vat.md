@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:22.281Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,7 @@ Start with the VAT-VIES page if you trade within the EU, since it covers the reg
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9543 Support VAT return reporting frequencies in Denmark](../../../../../changes/bcapps/9543.md) (code change): "The Danish electronic VAT declaration system now supports multiple reporting frequencies"
+- [#9543 Support VAT return reporting frequencies in Denmark](../../../../../changes/bcapps/9543.md) (code change): "Danish electronic VAT declaration now reads SKAT VAT return periods with their reporting"
 - [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../../../../videos/hcu7T3qLdDA.md) (video): "The Danish Bookkeeping Act; SAF-T; certification; audit file export; vat reporting"
 
 ## Business Central pages and reports

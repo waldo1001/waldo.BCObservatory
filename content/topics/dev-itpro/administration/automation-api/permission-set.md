@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f303ff1d659dca414e1c4ad32cafa5be7c4e8e6ccac7a9e0d865dfd96dc67cbf
@@ -44,7 +44,7 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10449
+    - change/bcapps/9599
 learn_toc_path:
   - Administration
   - Automation API
@@ -78,6 +78,6 @@ Path: [Administration](../../administration.md) > [Automation API](../automation
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../../changes/bcapps/10449.md) (code change): "Permission sets referencing the obsolete 'Extension Execution Info' table are cleaned up"
+- [#9599 Add event subscriber for OpenPermissionSetPage](../../../../changes/bcapps/9599.md) (code change): "Adds the codeunit to the Permission Sets - Objects permission set"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:52.381Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,9 +74,9 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10072
     - change/bcapps/10873
-    - change/bcapps/11238
-    - change/bcapps/11669
+    - change/bcapps/10924
     - change/bcapps/9264
 learn_toc_path:
   - Business functionality
@@ -146,9 +146,9 @@ Start with the Move Items overview to see which approach matches your configurat
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10072 [main] - Serial and Lot number mismatch when item is produced via Production Order and moved to inventory through an Internal Put-away](../../../../../changes/bcapps/10072.md) (code change): "Registering a warehouse put-away now checks each line"
 - [#10873 [Master]-The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory](../../../../../changes/bcapps/10873.md) (code change): "The Available to Take logic is incorrect or inaccurate in the Pick Worksheet"
-- [#11238 [29.X]- The Available to Take logic is incorrect or inaccurate in the Pick Worksheet as it includes Ship and Receive bin inventory](../../../../../changes/bcapps/11238.md) (code change): "The Available to Take logic in the Pick Worksheet incorrectly included inventory"
-- [#11669 Fix reserved-lot re-picking after warehouse reclassification](../../../../../changes/bcapps/11669.md) (code change): "Reserved lot re-picking is now possible after warehouse reclassification"
+- [#10924 [main] Bug 648630 Movement Worksheet Creates Incorrect Warehouse Movement for FEFO Lot-Tracked Items](../../../../../changes/bcapps/10924.md) (code change): "Movement Worksheet Creates Incorrect Warehouse Movement for FEFO"
 - [#9264 [master] Bin Capacity Policy "Prohibit More Than Max. Cap." fails and allows more than the maximum Capacity, when you split lines on Inventory Movement](../../../../../changes/bcapps/9264.md) (code change): "Bin Capacity Policy 'Prohibit More Than Max. Cap.' was incorrectly allowing overflow"
 
 ## Business Central pages and reports

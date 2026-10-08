@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,13 +76,13 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2204
-    - post/aardvarklabs-blog/2333
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2866
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
   guidelines: []
   changes:
+    - change/bcapps/10331
     - change/bcapps/11968
     - change/bcapps/12051
     - change/bcapps/12309
@@ -99,7 +99,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 0701107680ab6374a75be6625747535fbf73f4ee24b8643401abc0d15b654ac8
@@ -143,15 +143,15 @@ For Excel, "Exporting data to Excel using ExcelBuffer" shows how to create a wor
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10331 [Master]-Missing VAT Identifier in Peppol XML for Zero-Value Invoice](../../../../../changes/bcapps/10331.md) (code change): "PEPPOL XML export now includes the VAT identifier for zero-value invoices"
 - [#11968 Bug 648782: omit the buyer PartyTaxScheme when the company has no VAT registration](../../../../../changes/bcapps/11968.md) (code change): "PartyTaxScheme block is skipped entirely when VAT Registration No. is empty"
 - [#12051 [Peppol] Fix Remittance Advice XML line count, Note order and invoice reference](../../../../../changes/bcapps/12051.md) (code change): "Peppol remittance advice XML export now correctly reports"
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "import comma-separated values (CSV) customer data into Business Central by parsing delimited files"
-- [Essential Guides to Data Imports in Business Central](../../../../../posts/aardvarklabs-blog/2333.md) (community post): "Guide to data import and export operations in Business Central using AL code"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "Data is parsed into separate staging tables before creating actual sales orders"
-- [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "Process headers first, then lines, using the stored keys to establish parent-child relationships"
-- [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML files in Business Central using AL code without specialized XML codeunits"
+- [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "Importing Multi-Tab Excel Files into Business Central"
+- [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "Importing XML into Business Central with AL"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "export data from Business Central to CSV format using the CSV Buffer"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

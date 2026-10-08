@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -80,7 +80,8 @@ links:
     - topic/business-central/business-functionality/finance/manage-receivables
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/10232
   guidelines: []
   changes:
     - change/bcapps/10376
@@ -100,7 +101,7 @@ coverage:
   learn: 6
   code: 6
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 389
@@ -155,6 +156,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10819 [Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path](../../../../../changes/bcapps/10819.md) (code change): "OnAfterGetLedgEntryInfo event is re-fired during payment proposal creation"
 - [#8953 [Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores "Period Count" specified by user.](../../../../../changes/bcapps/8953.md) (code change): "Aged Accounts Receivable and Payable Excel reports now correctly respect the Period Count parameter"
 - [#9673 Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts](../../../../../changes/bcapps/9673.md) (code change): "Payment reconciliation journal posting now rounds imported bank fee amounts"
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Cash receipts and reconciling them simultaneously when importing bank statements"
 
 ## Business Central pages and reports
 

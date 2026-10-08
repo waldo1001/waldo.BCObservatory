@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:23.051Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -234,20 +234,21 @@ links:
   localizations: []
   videos:
     - video/Dkd8_cGzIvc
+    - video/O2RPBlr_GiE
     - video/UTxX4XPLcgQ
   posts:
-    - post/thedynamicsexplorer-com/37202
+    - post/thedynamicsexplorer-com/10232
   guidelines: []
   changes:
+    - change/bcapps/10005
     - change/bcapps/10011
-    - change/bcapps/10176
     - change/bcapps/10504
     - change/bcapps/11158
     - change/bcapps/11209
+    - change/bcapps/9089
     - change/bcapps/9195
     - change/bcapps/9282
     - change/bcapps/9586
-    - change/bcapps/9652
     - change/bcapps/9775
 learn_toc_path:
   - Business functionality
@@ -260,7 +261,7 @@ children:
 coverage:
   learn: 19
   code: 60
-  video: 2
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -388,18 +389,19 @@ Start with "Overview of tasks to manage receivables" to choose the right payment
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../changes/bcapps/10011.md) (code change): "Sales Cr.Memo Line exits early when Applies-to Doc. No. is empty"
-- [#10176 [Main][all-e]Prepayment Invoice and Quantity Change Issue in Business Central](../../../../changes/bcapps/10176.md) (code change): "Bug fix for prepayment invoice handling with quantity changes"
+- [#10005 Improve error messages when there are no quantities to reverse in shipped/received lines in Sales/Purchase/Transfer](../../../../changes/bcapps/10005.md) (code change): "Error messages when reversing shipped or received lines now distinguish between"
+- [#10011 Improve performance when posting credit memos by skipping unnecessary lookups on empty keys](../../../../changes/bcapps/10011.md) (code change): "Credit memo posting now skips unnecessary table lookups when source keys are empty"
 - [#10504 [Reminders] Complete the communication texts model uptake](../../../../changes/bcapps/10504.md) (code change): "Reminder attachment and email communication model is now the permanent behavior"
 - [#11158 [Master]-"The record in table Reminder Line already exists." error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used](../../../../changes/bcapps/11158.md) (code change): "Fixed a duplicate record error in Reminder Communication when creating reminders"
 - [#11209 [29.x]-"The record in table Reminder Line already exists." error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used.](../../../../changes/bcapps/11209.md) (code change): "Fixed an error that occurred when creating reminders for customers with all open"
-- [#9195 Fix Aged Accounts Receivable (Report 120) performance on large ledger history](../../../../changes/bcapps/9195.md) (code change): "Aged Accounts Receivable report now loads only necessary columns from Detailed"
+- [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "Customer, vendor, ledger entry and General Ledger Setup tables change"
+- [#9195 Fix Aged Accounts Receivable (Report 120) performance on large ledger history](../../../../changes/bcapps/9195.md) (code change): "Aged Accounts Receivable report (Report 120) now reads only the four columns"
 - [#9282 [Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.](../../../../changes/bcapps/9282.md) (code change): "Contact history descriptions in reminder automation now display the registered reminder number"
 - [#9586 [master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.](../../../../changes/bcapps/9586.md) (code change): "The Customer Card now applies a default date filter in the OnAfterGetCurrRecord function"
-- [#9652 [Extensibility Request] issue 30358: add OnBeforeOnPreReport event to Redraw Receivable Bills report](../../../../changes/bcapps/9652.md) (code change): "add OnBeforeOnPreReport event to Redraw Receivable Bills report"
 - [#9775 [Main]-Issued Reminders are printed without any header or footer in the United Kingdom version](../../../../changes/bcapps/9775.md) (code change): "The Reminder report in the United Kingdom version now displays header and footer content"
-- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance is a Business Central feature that automatically writes off small unpaid invoice balances"
+- [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "application of cash to invoices"
 - [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
+- [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"
 - [What's New: Financial Management - Reminder Automation (2024 release wave 1)](../../../../videos/UTxX4XPLcgQ.md) (video): "reminder automation; role center; customer communication; batch jobs"
 
 ## Business Central pages and reports

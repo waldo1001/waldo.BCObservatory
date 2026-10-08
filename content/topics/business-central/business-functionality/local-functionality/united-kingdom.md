@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:47.961Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -221,7 +221,7 @@ The section's own pages also include a fixed assets article on straight-line dep
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12157 Mark GetAddress.io objects as obsolete](../../../../changes/bcapps/12157.md) (code change): "The GetAddress.io UK postcode lookup app objects are marked obsolete"
+- [#12157 Mark GetAddress.io objects as obsolete](../../../../changes/bcapps/12157.md) (code change): "GetAddress.io UK postcode app objects are marked obsolete"
 
 ## Business Central pages and reports
 

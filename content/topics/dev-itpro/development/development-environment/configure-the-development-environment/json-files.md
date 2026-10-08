@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:35.240Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,8 +58,7 @@ links:
     - topic/dev-itpro/development/development-environment/configure-the-development-environment
   localizations: []
   videos: []
-  posts:
-    - post/thinkaboutit-be/8037
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -73,7 +72,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 97a60099de3f57aa35b1e3024b22b1155f4987a8e2e3acd6871eb679a94b641f
@@ -108,11 +107,5 @@ Start with the app.json page, which defines extension metadata, dependencies, ve
 - [JSON Files for AL Extension Projects](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-files): Learn how to configure the app.json manifest for AL extension projects in Business Central, including runtime, features, dependencies, and IDs.
 - [Launch JSON file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-json-launch-file): Description of the settings of the launch JSON file for AL in Business Central.
 - [Migration JSON file](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-migration-json-file): Description of the JSON file for data migration for AL in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Quick Tip: Runtime Version and Business Central Version Are Not the Same Thing](../../../../../posts/thinkaboutit-be/8037.md) (community post): "Runtime version is set in app.json and controls AL language features"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,8 +108,9 @@ links:
   localizations: []
   videos:
     - video/564XMP2IyLM
+    - video/b-ixzwDS41c
+    - video/DnZJ2iOgIjI
   posts:
-    - post/duiliotacconi-com/1601
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
   guidelines: []
   changes:
@@ -124,8 +125,8 @@ children: []
 coverage:
   learn: 8
   code: 17
-  video: 1
-  blog: 2
+  video: 3
+  blog: 1
   guideline: 0
 bc_forms:
   - 107
@@ -190,9 +191,10 @@ Start with Auditing changes or Classifying data sensitivity for compliance needs
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12152 [MCP] Clear environment description after environment copy](../../../../changes/bcapps/12152.md) (code change): "Clear environment description after environment copy"
-- [When Auditing meets Telemetry: a practical example.](../../../../posts/duiliotacconi-com/1601.md) (community post): "Change Log records what changed (user, date, deletion event) but not always why"
 - [BC Friday Tips #79 Change Log Deletion on One Field](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf.md) (community post): "Enable deletion logging on only one field in the primary key"
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
+- [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
+- [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,7 +182,6 @@ links:
   localizations: []
   videos:
     - video/1ugAYeEZLaU
-    - video/4IumfDNN8GU
     - video/5E6ikveL6N0
     - video/5zXQ_aIT03s
     - video/fIktVTGZkjE
@@ -201,19 +200,16 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10184
-    - change/bcapps/10227
     - change/bcapps/10248
     - change/bcapps/10334
-    - change/bcapps/10884
     - change/bcapps/11324
-    - change/bcapps/8959
     - change/bcapps/9071
-    - change/bcapps/9089
     - change/bcapps/9339
     - change/bcapps/9343
     - change/bcapps/9415
+    - change/bcapps/9421
     - change/bcapps/9455
-    - change/bcapps/9841
+    - change/bcapps/9570
     - change/bcquality/57
 learn_toc_path:
   - Business functionality
@@ -225,7 +221,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 13
+  video: 12
   blog: 3
   guideline: 0
 bc_forms:
@@ -334,26 +330,22 @@ Two pages describe allocation. One covers allocating to multiple G/L accounts wi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10184 [Mai][German Localization] Recurring Frequency DateFormula Exports as Invariant Tokens (+1D/+1Y) Instead of Localized UI Tokens (+1T/+1J) in ExcelInital commit](../../../../changes/bcapps/10184.md) (code change): "Recurring General Journal page now exports recurring frequency date formulas in localized"
-- [#10227 Fix regression introduced by Apply-to-Oldest optimization](../../../../changes/bcapps/10227.md) (code change): "Gen. Jnl.-Post Line codeunit was fixed to resolve a regression"
-- [#10248 Bug 646799: Spend Request fields in Posted Gen. Journal Line have wrong/different field numbers in country versions (correct in w1)](../../../../changes/bcapps/10248.md) (code change): "Posted Gen. Journal Line table are corrected to match the base"
+- [#10184 [Mai][German Localization] Recurring Frequency DateFormula Exports as Invariant Tokens (+1D/+1Y) Instead of Localized UI Tokens (+1T/+1J) in ExcelInital commit](../../../../changes/bcapps/10184.md) (code change): "Recurring Frequency on page 283 is now bound to a text variable"
+- [#10248 Bug 646799: Spend Request fields in Posted Gen. Journal Line have wrong/different field numbers in country versions (correct in w1)](../../../../changes/bcapps/10248.md) (code change): "Spend Request field numbers in the Posted Gen. Journal Line table"
 - [#10334 Add integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup dataitem OnAfterGetRecord trigger after Modify.](../../../../changes/bcapps/10334.md) (code change): "integration event OnAfterGetRecordOnAfterConfirmAndModify in the General Posting Setup"
-- [#10884 [Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../../changes/bcapps/10884.md) (code change): "IRS 1099 subscriber no longer persists journal lines directly, preventing errors when background posting"
-- [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "General Ledger Setup. Currency field in General Ledger Setup is now hidden"
-- [#8959 Deliverable 638799: Spend Requests in Base App](../../../../changes/bcapps/8959.md) (code change): "Spend Requests link to journal entries and purchase documents for automatic updates during posting"
-- [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "correcting the source currency handling in transactions"
-- [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "Excluded from Calculation field logic moved from Spain-specific implementation to W1 base"
-- [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister event now exposes NextEntryNo, NextVATEntryNo, and NextTransactionNo"
-- [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "Integration events added to table 98 General Ledger Setup"
+- [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled"
+- [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
+- [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"
+- [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "New events were added to table 98 General Ledger Setup"
 - [#9415 [ALAppExtensions #30294][Event Change Request] Report 12121 "G/L Book - Print" - "OnPreDataItemOnAfterSetGLBookEntryFilters"](../../../../changes/bcapps/9415.md) (code change): "A new integration event is added to the G/L Book - Print report"
-- [#9455 Update permissions for G/L Transaction table](../../../../changes/bcapps/9455.md) (code change): "Permission sets for general ledger transactions are updated across multiple localization layers"
-- [#9841 Indent the case block under the IsHandled guard](../../../../changes/bcapps/9841.md) (code change): "Indent the case block under the IsHandled guard"
-- [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "ledger posting, entry application, dimension handling, and VAT processing"
+- [#9421 [Event Request] codeunit 367 "CheckManagement": add OnFinancialVoidCh…](../../../../changes/bcapps/9421.md) (code change): "balance-account posting logic in financial void check operations"
+- [#9455 Update permissions for G/L Transaction table](../../../../changes/bcapps/9455.md) (code change): "Access to the G/L Transaction table is added across Base Application"
+- [#9570 [Master]-Rounding Differences in ARAP with Deferrals and Non-Deductible VAT](../../../../changes/bcapps/9570.md) (code change): "Changes the core posting logic in codeunit 12"
+- [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance"
 - [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
-- [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journals retain lines after posting with updated posting dates"
+- [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
-- [How to Use Posting Groups in Business Central (2025)](../../../../videos/4IumfDNN8GU.md) (video): "Posting Groups; Business Posting Groups; Product Posting Groups; Customer Posting Groups"
 - [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting Groups; Business Posting Groups; Product Posting Groups; Customer Posting Groups"
 - [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "posting control; general ledger setup; accounting periods"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"

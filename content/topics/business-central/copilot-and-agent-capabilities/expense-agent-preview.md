@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T06:31:25.130Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,7 +120,6 @@ links:
     - video/vyQnSxRGJDA
   posts:
     - post/thinkaboutit-be/7920
-    - post/thinkaboutit-be/8022
   guidelines: []
   changes:
     - change/bcapps/10631
@@ -135,7 +134,7 @@ coverage:
   learn: 10
   code: 3
   video: 12
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
@@ -187,9 +186,8 @@ Administrators should begin with the setup page. End users can go straight to th
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "New expense policy evaluation framework with dedicated tables, pages, and APIs"
+- [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent in public preview, a new Expense Management module"
-- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Expense Agent adds support for Danish, French, Spanish languages"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates"
