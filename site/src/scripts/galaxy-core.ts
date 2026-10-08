@@ -10,7 +10,7 @@ export function parseHash(hash: string): Map<string, string> {
     const i = part.indexOf("=");
     if (i <= 0) continue;
     const k = part.slice(0, i), v = decodeURIComponent(part.slice(i + 1));
-    if (["system", "star", "lens", "q", "view", "tilt"].includes(k) && v) out.set(k, v);
+    if (["system", "star", "lens", "q", "view", "tilt", "kinds"].includes(k) && v) out.set(k, v);
   }
   return out;
 }
@@ -85,4 +85,38 @@ export function pickerRows<N>(
       marker: group === "Localization" ? "loc" : l.kind === "youtube" ? "tri" : l.kind === "blog" ? "bar" : "dot",
     }))
     .sort((a, b) => b.n - a.n || a.label.localeCompare(b.label, "en"));
+}
+
+/** D80: the kinds of the this-week lens, in pill order: videos, posts, code changes. */
+export type WeekKind = "v" | "p" | "c";
+export const WEEK_KINDS: readonly WeekKind[] = ["v", "p", "c"];
+/** The hash's `kinds=` ("c", "v,p"): unknown letters dropped; empty, missing or all unknown means all three. */
+export function parseKinds(s: string | null | undefined): Set<WeekKind> {
+  const on = new Set((s ?? "").split(",").map((x) => x.trim()).filter((x): x is WeekKind => (WEEK_KINDS as readonly string[]).includes(x)));
+  return on.size ? on : new Set(WEEK_KINDS);
+}
+/** The hash value for the pills: null when all three are on (the hash leaves `kinds` out), else the letters in pill order. */
+export function kindsParam(on: Set<WeekKind>): string | null {
+  const ks = WEEK_KINDS.filter((k) => on.has(k));
+  return ks.length === WEEK_KINDS.length || !ks.length ? null : ks.join(",");
+}
+/** Toggle one pill; switching off the last one turns all three on, so the list is never empty. */
+export function toggleKind(on: Set<WeekKind>, k: WeekKind): Set<WeekKind> {
+  const next = new Set(on);
+  if (next.has(k)) next.delete(k); else next.add(k);
+  return next.size ? next : new Set(WEEK_KINDS);
+}
+export type CodeGroup = "breaking" | "features" | "fixes" | "other" | "tooling";
+export const CODE_GROUPS: readonly CodeGroup[] = ["breaking", "features", "fixes", "other", "tooling"];
+/** D80: a change's group in the week's code list. Not BCApps -> tooling; then breaking, feature, fix, the rest other. */
+export function codeGroup(id: string, kind: string, breaking: number): CodeGroup {
+  if (!id.startsWith("change/bcapps/")) return "tooling";
+  if (breaking || kind === "breaking") return "breaking";
+  return kind === "feature" ? "features" : kind === "fix" ? "fixes" : "other";
+}
+/** The week's changes per group, in group order; empty groups left out, rows keep their order. */
+export function groupChanges<T extends [string, string, string, string[], string, string, number, string[]]>(rows: readonly T[]): { group: CodeGroup; rows: T[] }[] {
+  const by = new Map<CodeGroup, T[]>();
+  for (const r of rows) { const k = codeGroup(r[0], r[1], r[6]); (by.get(k) ?? by.set(k, []).get(k)!).push(r); }
+  return CODE_GROUPS.filter((k) => by.has(k)).map((group) => ({ group, rows: by.get(group)! }));
 }

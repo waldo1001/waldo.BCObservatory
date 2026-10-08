@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { landedRingsOn, mediaMeta, parseHash, pickerRows, portSpot, sortRows, versionMenu } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, portSpot, sortRows, toggleKind, versionMenu } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -84,4 +84,36 @@ test("pickerRows: the lens picker's rows, by count then label, with a marker by 
   assert.deepEqual(src.map((r) => [r.id, r.n, r.marker]), [["src:pr", 4, "dot"], ["src:blog", 2, "bar"], ["src:yt", 1, "tri"], ["src:none", 0, "dot"]]);
   for (const r of [...loc, ...src]) assert.equal(r.n, nodes.filter(lenses.find((l) => l.id === r.id)!.match).length, "count = the stars the lens lights");
   assert.deepEqual(pickerRows(lenses, nodes, "Nope"), []);
+});
+
+test("this-week pills (D80): parse, write and toggle the kinds; the last pill never turns off", () => {
+  const set = (s: string) => [...parseKinds(s)].sort().join("");
+  assert.equal(set("c"), "c");
+  assert.equal(set("p,v"), "pv");
+  assert.equal(set("c,c"), "c");
+  for (const s of ["", "x", "x,y"]) assert.equal(set(s), "cpv", JSON.stringify(s));
+  assert.equal(set(undefined as unknown as string), "cpv");
+  assert.equal(kindsParam(new Set(["v", "p", "c"])), null);
+  assert.equal(kindsParam(new Set(["p", "v"])), "v,p");
+  assert.equal(kindsParam(new Set(["c"])), "c");
+  assert.deepEqual([...toggleKind(new Set(["v", "p", "c"]), "c")].sort(), ["p", "v"]);
+  assert.deepEqual([...toggleKind(new Set(["c"]), "c")].sort(), ["c", "p", "v"]);
+  assert.deepEqual([...toggleKind(new Set(["v"]), "c")].sort(), ["c", "v"]);
+  assert.deepEqual([...parseHash("#lens=landed&kinds=c")], [["lens", "landed"], ["kinds", "c"]]);
+});
+
+test("week code groups (D80): tooling by repo, breaking first, then feature, fix, the rest other", () => {
+  assert.equal(codeGroup("change/al-go/2392", "feature", 0), "tooling");
+  assert.equal(codeGroup("change/bcquality/213", "other", 0), "tooling");
+  assert.equal(codeGroup("change/bcapps/12290", "obsoletion", 1), "breaking");
+  assert.equal(codeGroup("change/bcapps/1", "breaking", 0), "breaking");
+  assert.equal(codeGroup("change/bcapps/12152", "feature", 0), "features");
+  assert.equal(codeGroup("change/bcapps/2", "fix", 0), "fixes");
+  for (const k of ["refactor", "performance", "other"]) assert.equal(codeGroup("change/bcapps/3", k, 0), "other");
+  type Row = [string, string, string, string[], string, string, number, string[]];
+  const r = (id: string, kind: string, b = 0): Row => [id, kind, "2026-10-05", [], id, "finance", b, []];
+  const rows = [r("change/bcapps/1", "fix"), r("change/al-go/2", "feature"), r("change/bcapps/3", "feature"), r("change/bcapps/4", "fix"), r("change/bcapps/5", "fix", 1)];
+  assert.deepEqual(groupChanges(rows).map((g) => [g.group, g.rows.map((x) => x[0])]), [
+    ["breaking", ["change/bcapps/5"]], ["features", ["change/bcapps/3"]], ["fixes", ["change/bcapps/1", "change/bcapps/4"]], ["tooling", ["change/al-go/2"]],
+  ]);
 });

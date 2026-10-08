@@ -214,6 +214,19 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-panel :global(.g-shape.tri) { background: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--g-media); }
   .g-panel :global(.g-shape.bar) { height: 3px; }
   .g-panel :global(.g-shape.new.tri) { border-bottom-color: var(--g-media-new); }
+  /* D80: the code diamond, the this-week pills, the code groups */
+  .g-panel :global(.g-shape.dia) { width: 7px; height: 7px; transform: rotate(45deg); background: var(--accent); }
+  .g-panel :global(.g-media > .g-shape.dia) { margin-top: 7px; margin-left: 1px; }
+  .g-panel :global(.g-kinds) { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; }
+  .g-panel :global(.g-kind-pill) { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--text-2); background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: 999px; cursor: pointer; }
+  .g-panel :global(.g-kind-pill[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .g-panel :global(.g-kind-pill:disabled) { opacity: .45; cursor: default; }
+  .g-panel :global(.g-kind-pill .g-shape) { display: inline-block; }
+  .g-panel :global(.g-kind-pill small) { font: inherit; opacity: .8; }
+  @media (pointer: coarse) { .g-panel :global(.g-kind-pill) { min-height: 44px; } }
+  .g-panel :global(details.g-group) { margin: 4px 0; }
+  .g-panel :global(details.g-group > summary) { cursor: pointer; padding: 6px 0; font: 500 13px var(--font-ui); color: var(--text); }
+  .g-panel :global(details.g-group > summary small) { font: 400 12px var(--font-mono); color: var(--text-2); margin-left: 4px; }
   .g-panel :global(.g-shape.new.bar) { background: var(--g-media-new); }
   /* exit dock (HANDOFF D section 4): the primary instrument, then two columns; real links, 44px */
   .g-panel :global(.g-dock) { display: grid; gap: 6px; }

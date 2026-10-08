@@ -31,7 +31,9 @@ interface Node {
 }
 interface Edge { s: string; t: string; type: string }
 interface Summary { systems: Sys[]; nodes: Node[]; edges: Edge[]; sysedges?: [string, string, number][]; touches?: Record<string, string[]>; reach?: Record<string, Record<string, number>> }
-interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?, string?][] }
+/** D80: [change id, change_kind, merge day, stars it touches, title, system, breaking 0 | 1, backport majors]. */
+type LandedChange = [string, string, string, string[], string, string, number, string[]];
+interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?, string?][]; changes?: LandedChange[] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
 interface Lens { id: string; label: string; group: string; kind?: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
@@ -51,7 +53,7 @@ export interface GalaxyApi {
 type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
-import { landedRingsOn, mediaMeta, parseHash, pickerRows, portSpot, sortRows, versionMenu, type MajorMeta, type PickerRow, type SortKey } from "./galaxy-core.js";
+import { groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, portSpot, sortRows, toggleKind, versionMenu, WEEK_KINDS, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -137,10 +139,18 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const bright = (n: Node) => (n.ev !== undefined ? 0.35 + 0.65 * Math.sqrt(n.ev / maxEv) : n.type === "object" && g.nodes.some((x) => x.ev !== undefined) ? 0.35 : 0.5 + 0.5 * n.weight / maxW);
   // landed this week: from the pipeline's week (the run date), never the reader's clock; older graphs fall back to lit_at
   const landedMedia = new Set(week.items.map((i) => i[0]));
-  const lit = new Set<string>(week.anchor ? week.items.flatMap((i) => i[3]).filter((id) => byId.has(id)) : (() => {
+  const weekChanges = week.changes ?? [];
+  const oldLit = week.anchor ? null : (() => {
     const today = new Date(), weekAgo = new Date(today.getTime() - 7 * 864e5).toISOString().slice(0, 10), now = today.toISOString().slice(0, 10);
-    return g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id);
-  })());
+    return new Set(g.nodes.filter((n) => n.lit_at && n.lit_at.length === 10 && n.lit_at >= weekAgo && n.lit_at <= now).map((n) => n.id));
+  })();
+  // D80: the this-week pills (videos, posts, code) decide which stars the lens lights; the hash carries them as kinds=
+  let weekKinds = new Set<WeekKind>(WEEK_KINDS);
+  let lit = new Set<string>();
+  const computeLit = () => {
+    lit = oldLit ?? new Set([...week.items.filter((i) => weekKinds.has(i[1] as WeekKind)).flatMap((i) => i[3]), ...(weekKinds.has("c") ? weekChanges.flatMap((c) => c[3]) : [])].filter((id) => byId.has(id)));
+  };
+  computeLit();
   // caption order inside each system never changes between frames (D44)
   const rank = ranksByGroup(g.nodes);
   const versions = [...new Set(g.nodes.flatMap((n) => n.cv ?? []))].sort();
@@ -878,17 +888,50 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const m = mediaMeta(kind, source ? byId.get(`source/${source}`)?.label : null, date);
     return `<li><a class="g-media" href="${esc(base + pathOf({ id }))}"><span class="g-shape ${kind === "v" ? "tri" : "bar"}${landedMedia.has(id) ? " new" : ""}" aria-hidden="true"></span><span>${esc(byId.get(id)?.label ?? mediaTitle.get(id) ?? id)}</span><small class="g-meta-line"><span class="g-kind">${m.kind}</span>${m.parts.map((p) => `<span>· ${esc(p)}</span>`).join("")}</small></a></li>`;
   };
+  /** A code change row (D80), the media row's layout: diamond and title, then `[kind] · system · date · also in 29.x`. */
+  const codeRow = (c: LandedChange) => {
+    const parts = [sysById.get(c[5])?.label ?? c[5], c[2], ...(c[7].length ? [`also in ${c[7].map((v) => `${v}.x`).join(", ")}`] : [])];
+    return `<li><a class="g-media" href="${esc(base + pathOf({ id: c[0] }))}"><span class="g-shape dia" aria-hidden="true"></span><span>${esc(c[4])}</span><small class="g-meta-line"><span class="g-kind">${esc(c[1])}</span>${parts.map((p) => `<span>· ${esc(p)}</span>`).join("")}</small></a></li>`;
+  };
+  const GROUP_LABEL: Record<CodeGroup, string> = { breaking: "Breaking", features: "Features", fixes: "Fixes", other: "Other", tooling: "Tooling" };
+  const GROUP_OPEN: Record<CodeGroup, boolean> = { breaking: true, features: true, fixes: false, other: false, tooling: false };
+  /** The reader's open or folded choice per group; storage may be absent (private window, preview): the defaults then. */
+  const groupOpen = (k: CodeGroup): boolean => { try { const v = JSON.parse(localStorage.getItem("bcobs-week-groups") ?? "{}")[k]; return typeof v === "boolean" ? v : GROUP_OPEN[k]; } catch { return GROUP_OPEN[k]; } };
+  const saveGroup = (k: CodeGroup, open: boolean) => { try { const all = JSON.parse(localStorage.getItem("bcobs-week-groups") ?? "{}"); all[k] = open; localStorage.setItem("bcobs-week-groups", JSON.stringify(all)); } catch { /* storage unavailable: the choice lasts this page */ } };
+  const codeGroups = (rows: LandedChange[]) => groupChanges(rows).map(({ group, rows: rs }) =>
+    `<details class="g-group" data-group="${group}"${groupOpen(group) ? " open" : ""}><summary>${GROUP_LABEL[group]} <small>${rs.length}</small></summary><ul class="g-list">${rs.map(codeRow).join("")}</ul></details>`).join("");
+  /** The week's changes in a system (or all); the system of a change is its page's `system`. */
+  const changesIn = (sys: string | null) => weekChanges.filter((c) => !sys || c[5] === sys);
+  /** "and N code changes →" under the media of the week, outside the lens: opens the lens on the Code pill. */
+  const codeLine = (sys: string | null) => { const n = changesIn(sys).length; return n ? `<p class="g-meta"><a href="#lens=landed&amp;kinds=c${sys ? `&amp;system=${esc(sys)}` : ""}">and ${n} code ${n === 1 ? "change" : "changes"} →</a></p>` : ""; };
   /** Media titles: this week's from landed.json, the rest from the ego graph of the open star; the id is the fallback. */
   const mediaTitle = new Map<string, string>(week.items.filter((i) => i[4]).map((i) => [i[0], i[4]!]));
   const targetRow = (t: Target) => {
     const id = targetId(t), star = byId.get(id);
     return star ? row(star) : `<li><a href="${esc(base + pathOf({ id }))}"><span class="g-dot sq" style="--dot: var(--muted)"></span><span>${esc(targetLabel(t))}</span><small>page</small></a></li>`;
   };
-  const landedRows = (filter: (hubs: string[]) => boolean, cap = 40) => {
-    const items = week.items.filter((i) => filter(i[3]));
+  const landedRows = (filter: (hubs: string[], kind: string) => boolean, cap = 40) => {
+    const items = week.items.filter((i) => filter(i[3], i[1]));
     return items.length ? `<ul class="g-list">${items.slice(0, cap).map(([id, k, d, , , src]) => mediaRow(id, k, d, src)).join("")}</ul>${items.length > cap ? `<p class="g-meta">and ${items.length - cap} more</p>` : ""}` : "";
   };
   const weekLabel = () => (week.anchor ? `the ${week.days} days up to ${week.anchor}` : "the last 7 days");
+  /** D80: the week's media of one kind in a system (or all), by the hubs they link. */
+  const mediaIn = (sys: string | null, k: WeekKind) => week.items.filter((i) => i[1] === k && (!sys || i[3].some((h) => byId.get(h)?.group === sys)));
+  const weekMeta = (sys: string | null) => {
+    const media = (weekKinds.has("v") ? mediaIn(sys, "v").length : 0) + (weekKinds.has("p") ? mediaIn(sys, "p").length : 0), code = weekKinds.has("c") ? changesIn(sys).length : 0;
+    const parts = [media ? `${media} videos and posts` : "", code ? `${code} code ${code === 1 ? "change" : "changes"}` : ""].filter(Boolean);
+    return parts.length ? `: ${parts.join(" and ")} landed in ${esc(weekLabel())}` : "";
+  };
+  /** The lens panel's week (D80): three pills, the media of the kinds that are on, then the code changes by group. */
+  const weekPanel = (sys: string | null) => {
+    const counts: Record<WeekKind, number> = { v: mediaIn(sys, "v").length, p: mediaIn(sys, "p").length, c: changesIn(sys).length };
+    const pill = (k: WeekKind, label: string, shape: string) => `<button type="button" class="g-kind-pill" data-kind="${k}" aria-pressed="${weekKinds.has(k)}"${counts[k] ? "" : " disabled"}><span class="g-shape ${shape}" aria-hidden="true"></span>${label} <small>${counts[k]}</small></button>`;
+    const media = weekKinds.has("v") || weekKinds.has("p") ? landedRows((hubs, k) => (weekKinds.has(k as WeekKind)) && (!sys || hubs.some((h) => byId.get(h)?.group === sys))) : "";
+    const code = weekKinds.has("c") ? changesIn(sys) : [];
+    return `<div class="g-kinds" role="group" aria-label="What landed">${pill("v", "Videos", "tri")}${pill("p", "Posts", "bar")}${pill("c", "Code", "dia")}</div>
+      ${media ? `<h3>Videos and posts</h3>${media}` : ""}
+      ${code.length ? `<h3>Code changes</h3>${codeGroups(code)}<p class="g-meta"><a href="${esc(base)}changes/week/">This week's changes on one page →</a></p>` : ""}`;
+  };
   const exitLink = (href: string, label: string, n: string | number | null, primary = false) => `<a class="g-exit${primary ? " primary" : ""}" href="${esc(href)}">${esc(label)}${n !== null && n !== "" ? ` <span>${esc(String(n))}</span>` : ""}</a>`;
   /** The exit dock: real links to the instruments that answer what the picture cannot. */
   function exitDock(n: Node): string {
@@ -1004,15 +1047,15 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       for (const n of g.nodes) if (lensSet.has(n.id)) per.set(n.group, (per.get(n.group) ?? 0) + 1);
       const extra = (n: Node) => (lens!.version ? [n.cv?.includes(lens!.version) ? `changed in BC${lens!.version}` : "", n.ob?.includes(lens!.version) ? "obsolete" : ""].filter(Boolean).join(", ") : "");
       html = `<p class="g-kicker">lens · ${esc(lens.group.toLowerCase())}${scope ? ` · ${esc(scope.label)}` : ""}</p><h2 tabindex="-1">${esc(lens.label)}</h2>
-        <p class="g-meta">${hits.length} stars light up${scope ? ` in ${esc(scope.label)}` : ""}${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}${lens.id === "landed" ? `: ${week.items.length} videos and posts landed in ${esc(weekLabel())}` : ""}.</p>
+        <p class="g-meta">${hits.length} stars light up${scope ? ` in ${esc(scope.label)}` : ""}${lens.lines && hits.length > 1 ? ", joined into a constellation" : ""}${lens.id === "landed" ? weekMeta(scope?.id ?? null) : ""}.</p>
         <p>${lens.exit ? `<a class="btn" href="${esc(lens.exit.href)}">${esc(lens.exit.label)}</a> ` : ""}<button type="button" class="btn" data-clear-lens>Clear the lens</button></p>
-        ${lens.id === "landed" ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows((hubs) => !scope || hubs.some((h) => byId.get(h)?.group === scope.id))}` : ""}
+        ${lens.id === "landed" ? weekPanel(scope?.id ?? null) : ""}
         ${!scope && !reach.length && per.size > 1 ? `<h3>Per system</h3><ul class="g-list">${[...per].sort((a, b) => b[1] - a[1]).map(([id, c]) => `<li><button type="button" data-sys="${esc(id)}" data-keep-lens><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${c}</small></button></li>`).join("")}</ul>` : ""}
         ${reach.length ? `<h3>Systems it writes about</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} items</small></button></li>`).join("")}</ul>` : ""}
         <h3>Stars</h3><ul class="g-list">${hits.slice(0, 150).map((n) => row(n, extra(n))).join("")}</ul>`;
     } else if (level === 1) {
       html = `<p class="g-kicker">galaxy</p><h2 tabindex="-1">${g.systems.length} systems</h2><p class="g-meta">${g.nodes.length} stars. Systems sit next to the ones they share the most links with. Pick a system, or a lens to see where something touches the galaxy.</p><ul class="g-list">${g.systems.map((s) => `<li><button type="button" data-sys="${esc(s.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(s.id)})"></span><span>${esc(s.label)}</span><small>${g.nodes.filter((n) => n.group === s.id).length}</small></button></li>`).join("")}</ul>
-        ${week.items.length ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows(() => true, 12)}` : ""}`;
+        ${week.items.length ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows(() => true, 12)}` : ""}${codeLine(null)}`;
     } else if (level === 2 && focusSys) {
       const stars = g.nodes.filter((n) => n.group === focusSys!.id).sort((a, b) => b.weight - a.weight);
       const plots = focusSys.plots ?? [];
@@ -1020,7 +1063,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       html = `<p class="g-kicker">system</p><h2 tabindex="-1">${esc(focusSys.label)}</h2><p class="g-meta">${stars.length} stars, brightest first${plots.length ? `; ${plots.reduce((s, p) => s + p[5], 0)} AL objects in ${plots.length} namespace plots` : ""}.</p>
         ${came ? `<div class="g-arrival"><p>From <button type="button" data-star="${esc(came.from.id)}">${esc(came.from.label)}</button>: ${came.count} ${came.count === 1 ? "object" : "objects"} here by ${esc(KIND[came.kind] ?? came.kind)}, none of them a star.</p><ul class="g-list">${came.targets.map(targetRow).join("")}</ul></div>` : ""}
         <ul class="g-list">${stars.slice(0, 150).map((n) => row(n)).join("")}</ul>${stars.length > 150 ? `<p class="g-meta">and ${stars.length - 150} more</p>` : ""}
-        ${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12) ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12)}` : ""}`;
+        ${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12) ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows((hubs) => hubs.some((h) => byId.get(h)?.group === focusSys!.id), 12)}` : ""}${codeLine(focusSys.id)}`;
     } else if (level === 3 && focusStar) {
       const n = focusStar, near = (adj.get(n.id) ?? []).map((id) => byId.get(id)!).filter(Boolean).sort((a, b) => b.weight - a.weight);
       const inside = near.filter((x) => x.group === n.group), outside = near.filter((x) => x.group !== n.group);
@@ -1053,6 +1096,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
     panelBody.querySelector("[data-clear-lens]")?.addEventListener("click", () => setLens("", true));
+    for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-kind]")) b.addEventListener("click", () => {
+      const k = b.dataset.kind as WeekKind;
+      weekKinds = toggleKind(weekKinds, k); computeLit(); setLens("landed", true);
+      panelBody.querySelector<HTMLElement>(`[data-kind="${k}"]`)?.focus();
+    });
+    for (const d of panelBody.querySelectorAll<HTMLDetailsElement>("details[data-group]")) d.addEventListener("toggle", () => saveGroup(d.dataset.group as CodeGroup, d.open));
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-thing]")) {
       const [plane, i, code] = b.dataset.thing!.split("|");
       b.addEventListener("click", () => takeSample({ plane: plane as PlaneId, i: Number(i), ...(code ? { code } : {}) }));
@@ -1122,6 +1171,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const parts: string[] = [];
     if (lens?.search) parts.push(`q=${encodeURIComponent(lens.search)}`);
     else if (lens) parts.push(`lens=${encodeURIComponent(lens.id)}`);
+    const kp = lens?.id === "landed" ? kindsParam(weekKinds) : null;
+    if (kp) parts.push(`kinds=${kp}`);
     if (level === 2 && focusSys) parts.push(`system=${focusSys.id}`);
     if (level === 3 && focusStar) parts.push(`star=${encodeURIComponent(focusStar.id)}`);
     if (level === 2 && tilt > 0) parts.push("tilt=1");
@@ -1313,6 +1364,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const pick = l?.startsWith("pick:") ? l.slice(5) : null;
     if (l && !pick && lensById.has(l)) {
       lens = null;
+      if (l === "landed") { weekKinds = parseKinds(h.get("kinds")); computeLit(); }
       if (star) { level = 3; focusSys = sysById.get(star.group) ?? null; focusStar = star; }
       else if (sys) { level = 2; focusSys = sys; focusStar = null; }
       setLens(l, !!(star || sys));
