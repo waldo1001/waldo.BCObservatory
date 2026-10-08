@@ -352,6 +352,10 @@ proves it: 0 squeezed rows, as before.
   `site/src/scripts/changes-pills.ts` with a `mount` function is fine if the coder prefers the events page's shape.
 - **Counts drift nightly.** The pills print the build's counts and the tests use the measured numbers of
   2026-10-08 only as fixtures; nothing is hard-coded on the page. The coder re-measures before the headless check.
+- **Overlap with derive on push (D81, `docs/specs/derive-on-push.md`).** That spec reads `usableKinds` and may extract
+  a `weekPills(hasCode)` helper in `galaxy-core.ts` (its sections 2 and 5). Whichever ships second rebases over the
+  other; the wrappers of 4.2 keep every D80 export name, so the merge is mechanical. Default: read its "Built,
+  deviations" section before task 3.
 - **A fourth repository later.** `CHANGE_REPOS` is the one place to add it; `sources.yaml:85-116` lists the three
   `github-pr` sources today. An entry with no pages yet renders a disabled pill with `0`.
 
