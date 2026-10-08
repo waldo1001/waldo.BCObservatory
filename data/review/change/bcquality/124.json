@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/124",
+  "input_hash": "d673418ba04ec749b9fa9730ba9308bd39b5be60466e634598cd31a3536fcc9f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:35.207Z",
+  "issues": [
+    "Two knowledge articles were added to suppress reviewer false positives. The content matches the description.",
+    "No Business Central code changes, so breaking false is right. Setting behavior_change to false and change kind to fix are both defensible."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024675,
+    "changes_in_call": 6
+  }
+}

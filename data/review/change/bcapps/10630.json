@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10630",
+  "input_hash": "0c9819e9fd80a3077b083f56b1a4bf8eada471be06eda99d97eba1e5c8d57ad0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:05.813Z",
+  "issues": [
+    "Key point claims product changes in SE; SE only received test changes, base app changes are in W1, APAC, BE, CH, ES, FR, IT, RU.",
+    "Default reversal behavior is unchanged unless a subscriber sets the new parameters; this is an additive extensibility change, so behavior_change set to false."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023517,
+    "changes_in_call": 6
+  }
+}

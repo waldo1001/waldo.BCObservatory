@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11436",
+  "input_hash": "25e960f18b3f055dbe5c4958c4f44f0200e2ebc4b14548696782b624fb5295d3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:49.872Z",
+  "issues": [
+    "The summary says the amounts now 'correctly recalculate', but the title presents that recalculation as the bug. The description gives no detail beyond the work item link.",
+    "The key points speculate about calculation errors that the given material does not describe."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020698,
+    "changes_in_call": 6
+  }
+}

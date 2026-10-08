@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2025-04-07T14:49:37.000Z",
   "words": 360,
-  "summary": "Dynamics 365 Business Central 2025 Wave 1 (version 26) begins deprecating SOAP web services for Microsoft UI pages, disabling this capability by default while allowing re-enablement via Feature Management. Custom UI pages exposed as SOAP will continue working through version 28, but the feature will be completely removed in version 29, requiring migration to OData or API endpoints.",
+  "summary": "Starting with Business Central 2025 Wave 1 (version 26), exposing Microsoft UI pages as SOAP endpoints is off by default. It can be turned back on with a Feature Management key, and it will be removed for good in version 29. Custom pages exposed as SOAP still work but should move to OData. Exposing Microsoft UI pages as OData now gives warnings and stops being possible in version 30, so custom OData pages should move to APIs.",
   "key_points": [
     "SOAP exposure for Microsoft UI pages is disabled by default in version 26, with permanent removal planned for version 29",
     "Custom UI pages using SOAP will continue working but should migrate to OData endpoints",

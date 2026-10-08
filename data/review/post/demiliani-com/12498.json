@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/demiliani-com/12498",
+  "input_hash": "784aa012cd409ede8d35859ae528b42483d936192c5285ec44629cf2c30f6a7a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:13.830Z",
+  "issues": [
+    "The listed object MaskType is a field property, not an AL object, and should not be in the object list.",
+    "The summary claims authorized access, but the post only says values can be revealed on demand by the user.",
+    "The title says MaskedType, but the post body consistently uses MaskType, so the page uses the right name.",
+    "Key points, features, versions and the quote match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03201,
+    "posts_in_call": 4
+  }
+}

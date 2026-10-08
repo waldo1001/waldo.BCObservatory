@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10136",
+  "input_hash": "ba99f05b196f9221710545322ded7c20796fff0ec1ad5b9adf0fa403a680b88a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:53.609Z",
+  "issues": [
+    "behavior_change should be true: blank Clearing No. previously caused an error or an invalid MmbId; now it is extracted from the IBAN.",
+    "Key point 1 has a typo ('Clears number').",
+    "The 'no behavior change' point applies only to vendor payments with a clearing number, per the risk section; customer refunds could change."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025215,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,10 @@
   ],
   "summary": "Workflow event labels in the Quality Management app are now properly localized for international users.",
   "key_points": [
-    "Workflow events in Quality Management were missing localization",
-    "Event labels are now marked for localization",
-    "Improves user experience in non-English environments",
-    "Fixes issue AB#649824"
+    "Quality Management workflow events were not localized",
+    "Fix changes the Qlty. Workflow Setup codeunit",
+    "Workflow event texts should now appear in the user's language",
+    "Fixes AB#649824"
   ],
   "change_kind": "fix",
   "behavior_change": true,

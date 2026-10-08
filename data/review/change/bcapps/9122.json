@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9122",
+  "input_hash": "1b3f75407ddd7ebd0828087056f0bbf8bf1d4aded88c698ea8cf3705fe3c434b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:14.162Z",
+  "issues": [
+    "The PR is labelled as a bug, but it adds a new FlowField and UI fields, so classifying it as a feature is reasonable. All points are supported by the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020006,
+    "changes_in_call": 6
+  }
+}

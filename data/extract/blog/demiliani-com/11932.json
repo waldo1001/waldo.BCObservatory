@@ -5,14 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2025-06-16T15:39:02.000Z",
   "words": 476,
-  "summary": "Azure Logic Apps can now use Azure SQL as a storage provider instead of Azure Storage for workflow state and runtime data, enabling better performance tuning, predictable costs, and enterprise-grade reliability features for standard logic app instances.",
-  "key_points": [
-    "Azure Logic Apps traditionally use Azure Storage which can cause performance delays, especially in loops and connector actions",
-    "Azure SQL as a storage provider allows fine-tuning throughput and scaling based on workflow needs",
-    "Configuration requires enabling Azure services in SQL networking settings and selecting SQL storage type during Logic Apps creation",
-    "SQL acts as primary storage while Azure Storage remains as secondary for platform configuration hosting",
-    "Workflow state, run history, and runtime artifacts are stored in the SQL database in automatically created tables"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "integration",
     "platform"

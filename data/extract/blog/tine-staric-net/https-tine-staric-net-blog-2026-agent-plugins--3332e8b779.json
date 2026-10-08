@@ -7,16 +7,15 @@
   "words": 1523,
   "summary": "Distribution of custom agents to teams is accomplished through plugins, which package agents, skills, and MCP configurations in a shared repository that team members can install with one click in GitHub Copilot or Claude Code. The post explains how to set up marketplace and plugin manifests to enable seamless sharing across ecosystems without manual file copying.",
   "key_points": [
-    "Plugins enable one-click installation of agents and skills for entire teams without manual setup or file copying",
-    "A single plugin repository works for both GitHub Copilot and Claude Code using shared agents/ and skills/ folders",
-    "Marketplace manifests (.github/plugin/marketplace.json and .claude-plugin/marketplace.json) turn a repository into a discoverable plugin source",
-    "Plugin manifests and directory structure are minimal, requiring only metadata files and standard folder naming conventions",
-    "Teams can register plugin repositories in editor settings and receive updates automatically without reinstalling plugins"
+    "A plugin bundles agents, skills and MCP config you already have into a repo that teammates can install in one step, so nobody copies files by hand.",
+    "One repo serves both GitHub Copilot and Claude Code, using a marketplace manifest for each tool at .github/plugin/marketplace.json and .claude-plugin/marketplace.json.",
+    "Each plugin manifest only needs a name, description, version and author. Both tools read the shared agents/ and skills/ folders by default.",
+    "Do not split agents into a folder per tool: the Copilot extension in VS Code merges every plugin.json and installs the agents twice. Put both tools' names in one tools array instead.",
+    "Each skill needs its own subfolder directly under skills/, and deeper nesting of skill folders does not work. Teammates pick up changes with one sync command, with no reinstall."
   ],
   "systems": [
     "copilot",
-    "development",
-    "integration"
+    "development"
   ],
   "topics": [
     "agents",
@@ -34,8 +33,7 @@
     "agent distribution",
     "skill sharing",
     "MCP configuration sharing",
-    "cross-ecosystem plugin support",
-    "automatic plugin updates"
+    "cross-ecosystem plugin support"
   ],
   "versions": [],
   "language": "en",

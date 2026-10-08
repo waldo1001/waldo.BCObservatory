@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11274",
+  "input_hash": "b21a032865331061b88939592d6fab7caa88e5562be2df7b85ead113fadfe6e5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:13.165Z",
+  "issues": [
+    "The third key point says the tests cover item tracking scenarios. The tests only live in an item tracking test codeunit, and the scenario they cover is the undo with a blank bin code, so the point was reworded."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01306,
+    "changes_in_call": 6
+  }
+}

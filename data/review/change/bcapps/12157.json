@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12157",
+  "input_hash": "61f43cf7cd96675441758f2fe3716129aed9cb0848f61fe156aa013558f1b317",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:52.626Z",
+  "issues": [
+    "Nothing given says the GetAddress.io service is being retired.",
+    "The breaking flag is not supported. Marking objects obsolete and removing page extensions and the test app does not make dependent extensions fail to compile. The description also rates the risk as low because the app is already uninstalled."
+  ],
+  "applied": [
+    "summary rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026042,
+    "changes_in_call": 6
+  }
+}

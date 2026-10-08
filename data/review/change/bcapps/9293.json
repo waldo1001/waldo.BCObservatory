@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9293",
+  "input_hash": "9d9637181b10aeef4d61da7afadf7b262afa42a5773d7aca2d8bb162c7d490e7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:54.745Z",
+  "issues": [
+    "The summary and key points match the description. Minor omission: lines that process successfully now get Processing Status Ok, and the import status can clear back to Ok."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018696,
+    "changes_in_call": 6
+  }
+}

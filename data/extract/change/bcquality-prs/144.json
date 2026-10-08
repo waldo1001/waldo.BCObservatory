@@ -4,13 +4,13 @@
   "title": "Avoid Public Event publisher",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "A new knowledge article explains that event publishers should be declared local or internal rather than public, since the access modifier controls who can raise the event (not who can subscribe), and public publishers create immutable caller contracts after release. Four existing Microsoft-layer publishers had their unnecessary public access modifiers removed.",
+  "summary": "A new community knowledge article with samples advises declaring event publishers local or internal instead of public, because the access modifier controls who may raise an event, not who may subscribe. Sample files of four existing Microsoft-layer articles drop their incidental public modifier.",
   "key_points": [
-    "Event publisher access modifiers govern who may raise the event, not who may subscribe to it",
-    "Making a publisher public creates a permanent caller contract that cannot be narrowed after release",
-    "Publishers should be local (when raised only by their declaring object) or internal (behind a public facade)",
-    "A new community knowledge article documents this design principle with code samples",
-    "Four existing Microsoft publishers were corrected to remove incidental public modifiers"
+    "Publisher access modifiers govern who may raise the event, not who may subscribe",
+    "A public publisher becomes a caller contract that cannot be narrowed after release",
+    "Use local when only the declaring object raises it, internal behind a public facade",
+    "New community article with good and bad samples",
+    "Four publishers in existing Microsoft-layer sample files lose their incidental public modifier"
   ],
   "change_kind": "feature",
   "behavior_change": false,

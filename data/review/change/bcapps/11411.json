@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11411",
+  "input_hash": "65627fbe44c0b790d3bf7d4b9e9097925800dd3592ff383702a0b488f52bfe9c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:14.684Z",
+  "issues": [
+    "The description is only a work item link. The summary is based on the title and the small change to Calculate BOM Tree plus the new tests, which together support it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017996,
+    "changes_in_call": 6
+  }
+}

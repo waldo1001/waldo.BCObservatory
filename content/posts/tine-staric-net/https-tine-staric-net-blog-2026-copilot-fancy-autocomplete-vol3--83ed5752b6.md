@@ -16,12 +16,12 @@ tags:
   - workflow automation
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:45.108Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -94,7 +94,7 @@ preview:
 
 # Copilot is just a fancy autocomplete (vol.3) - Steps towards agentic development
 
-[Read the post](https://tine.staric.net/blog/2026/copilot-fancy-autocomplete-vol3/) · Tech Adventures in Business Central (Tine Staric) · 2026-07-01 · 2972 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2026/copilot-fancy-autocomplete-vol3/) · Tech Adventures in Business Central (Tine Staric) · 2026-07-01 · 2972 words · tier community · reviewed (checked by Opus)
 
 > This post explains five progressive steps toward agentic development: custom agents tailored to specific workflows, skills for reusable task sequences, reflection loops to improve agent instructions, sub-agents for parallel research with isolated context windows, and background agents running in terminals or pipelines without direct supervision.
 

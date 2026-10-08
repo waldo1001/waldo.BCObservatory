@@ -1,0 +1,20 @@
+{
+  "item_id": "change/al-go-prs/2342",
+  "input_hash": "64a0a1effdeba3abb0be4a45d2afff0d7d79a45d7e6c59b4722cf7cbb7ff5424",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:11.413Z",
+  "issues": [
+    "Summary and key points match the description: buildMode is passed to DetermineBuildProject, build-mode-prefixed masks are used, and extraction still goes to the build-mode-agnostic folders.",
+    "Flags are correct. buildMode is an internal action input, so this is not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018359,
+    "changes_in_call": 6
+  }
+}

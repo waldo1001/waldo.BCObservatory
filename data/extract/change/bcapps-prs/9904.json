@@ -8,10 +8,10 @@
   ],
   "summary": "The payables agent can now see and set vendor posting groups and tax identification numbers because the invoicing tab is visible in the agent profile, and the agent has permission to write VAT registration log entries.",
   "key_points": [
-    "Unhides the invoicing tab on the vendor card in the payables agent profile",
-    "Grants the agent write permission for VAT registration log entries",
-    "Allows the agent to complete vendor creation without permission errors when setting tax IDs and posting groups",
-    "Resolves stalled vendor creation workflow in the payables agent"
+    "Makes the invoicing tab on the vendor card visible again in the payables agent profile",
+    "Grants the agent indirect insert permission on the VAT registration log, which is written when the VAT registration number is validated",
+    "The agent can now set the vendor posting groups and the CIF or NIF without permission errors",
+    "Unblocks vendor creation that previously stalled"
   ],
   "change_kind": "fix",
   "behavior_change": true,

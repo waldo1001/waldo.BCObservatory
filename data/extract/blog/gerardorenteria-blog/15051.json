@@ -5,7 +5,7 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-07-17T20:12:38.000Z",
   "words": 1237,
-  "summary": "The Change Log Blame View extension reorganizes standard change log data into a matrix-style view where rows represent fields and columns represent events, making it easier to track when specific record values changed, by whom, and why.",
+  "summary": "The Change Log Blame View extension reorganizes standard Change Log Entry data for one record into a matrix, with fields as rows and change events as columns, showing change type, date, user and resulting value. It can be added to any page through a page extension action that passes the table and primary key to the CL Blame page.",
   "key_points": [
     "Matrix layout displays change history with fields as rows and events as columns for easier timeline visualization",
     "Filters and groups change log entries by table and primary key, excluding audit fields to reduce clutter",

@@ -8,9 +8,9 @@
   ],
   "summary": "The withholding tax posting calculation is corrected to prevent unbalanced G/L entries when multiple withholding tax rates apply to a single purchase invoice.",
   "key_points": [
-    "Fixes incorrect G/L entry balancing when multiple withholding tax rates exist on one purchase invoice",
-    "Changes made to withholding tax purchase subscribers codeunit",
-    "Minimal code change suggesting a logic fix rather than architectural refactoring"
+    "Fixes unbalanced G/L entries when one purchase invoice uses several withholding tax rates",
+    "The change is in the Wthldg Tax Purch. Subscribers codeunit of the WithholdingTax app",
+    "Small change of 4 added and 2 removed lines in one file, with no tests included"
   ],
   "change_kind": "fix",
   "behavior_change": true,

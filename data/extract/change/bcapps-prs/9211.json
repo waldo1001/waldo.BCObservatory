@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Shopify bulk price sync now creates skipped records with error details when variants fail on Shopify, and stores sent JSONL data on bulk operations when logging is enabled for troubleshooting.",
+  "summary": "When a bulk price sync reverts variants that Shopify rejected, the Shopify connector now logs a Shopify Skipped Record with the Shopify error message for each one. When Logging Mode is All, it also stores the sent JSONL on the bulk operation, and a new action lets you download it.",
   "key_points": [
     "Failed variants in bulk price sync now generate Shopify Skipped Records with Shopify error messages instead of silently reverting",
     "Skipped records reference the linked BC Item Variant or Item to show users exactly which product failed and why",

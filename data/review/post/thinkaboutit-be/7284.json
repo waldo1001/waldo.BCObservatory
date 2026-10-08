@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7284",
+  "input_hash": "b7c7a94a8fceffdc97a63d48aa386ffccd0a9957018127d17fbead01014a23e2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:00.974Z",
+  "issues": [
+    "Quote 1 is only a pair of agent names with no context, so it adds nothing useful; dropped.",
+    "Topic payroll is not supported by the post, but topics cannot be edited here.",
+    "Summary, key points, features and versions otherwise match the release lists in the post."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026829,
+    "posts_in_call": 4
+  }
+}

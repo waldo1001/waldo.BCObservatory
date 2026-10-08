@@ -7,15 +7,14 @@
   "words": 433,
   "summary": "Business Central Designer Mode enables drag-and-drop field editing through Visual Studio Code by pressing F6 instead of F5, automatically generating AL code from the visual changes made to pages without requiring manual coding.",
   "key_points": [
-    "Press F6 in VS Code to start Business Central in Designer Mode instead of Debugger Mode",
-    "Drag and drop fields onto pages, adjust properties, and show/hide actions through a visual interface",
-    "Designer Mode updates AL code automatically after you save changes by pressing Alt+F6",
-    "Designer Mode works for layouts and visual properties but not for triggers or advanced page logic",
-    "Enables collaborative work with end users to visualize layout changes in real time"
+    "Pressing F6 in VS Code starts Business Central in Designer Mode; F5 starts the debugger",
+    "In Designer Mode you can add fields with drag and drop, change field properties, show or hide actions and set importance",
+    "Stop designing, save with Download Code checked, then press Alt+F6 in VS Code to pull the generated AL into the page extension",
+    "Triggers and other advanced page logic cannot be handled in Designer Mode",
+    "Lets developers adjust layouts together with end users and see the results right away"
   ],
   "systems": [
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "page layout editing",
@@ -48,7 +47,6 @@
     "Field property editing",
     "Action management",
     "Auto code generation from visual changes",
-    "Page preview in design mode",
     "Collaborative layout design"
   ],
   "versions": [],

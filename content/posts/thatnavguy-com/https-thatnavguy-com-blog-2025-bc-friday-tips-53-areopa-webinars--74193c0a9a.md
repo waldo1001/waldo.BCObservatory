@@ -14,12 +14,12 @@ tags:
   - ai
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:47.777Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
 
 # BC Friday Tips #53 Areopa Webinars
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-24 · 90 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-24 · 90 words · tier community · reviewed (checked by Opus)
 
 > Areopa hosts free webinars for Business Central consultants covering performance troubleshooting, AL development, Power Platform, AI, and test automation, led by MVPs and industry experts.
 

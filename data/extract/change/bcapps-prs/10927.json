@@ -8,11 +8,11 @@
   ],
   "summary": "Change Log Management now preserves the SystemId from persisted records when modifications are recorded without the record being loaded first, fixing incorrect null SystemId values in change entries.",
   "key_points": [
-    "Uses already-loaded record data from Change Log instead of reading database when SystemId is null",
-    "Maintains existing public signatures and behavior without adding database queries",
-    "Adds test coverage for modifying records by primary key without pre-loading",
-    "Fixes SystemId on modification entries in change log",
-    "Resolves issue where failed insert attempts had separate platform trigger timing behavior"
+    "When an incoming modification has a null SystemId, Change Log uses the persisted record it already loaded",
+    "No extra database read; the populated-SystemId path and public signatures stay unchanged",
+    "Fixes Changed Record SystemId on modification entries",
+    "Change Log entries for failed inserts are a separate platform issue and are not addressed",
+    "Adds a regression test for modifying a record by primary key without loading it first"
   ],
   "change_kind": "fix",
   "behavior_change": true,

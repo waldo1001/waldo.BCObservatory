@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Two new UI community knowledge articles with code examples demonstrate best practices for marking required fields and validating request page input to prevent common defects like fields appearing optional or losing user input on validation errors.",
   "key_points": [
-    "ShowMandatory property draws an asterisk but doesn't enforce requirements; use TestField or NotBlank to enforce and show the field is required",
-    "OnPreReport runs after the request page closes, so validation errors there lose user input; validate in OnQueryClosePage instead",
-    "Guard OnQueryClosePage validation with CloseAction to avoid errors when users cancel",
-    "Keep OnPreReport validation for reports with no request page",
-    "Articles include bad and good AL code examples to illustrate the defects and correct approaches"
+    "ShowMandatory only draws the asterisk and TestField or NotBlank only enforce, so a required field needs both",
+    "The problem is worst on DelayedInsert list pages, where the error appears only after the user leaves the row",
+    "OnPreReport runs after the request page closes, so validate in OnQueryClosePage too to keep the user's input",
+    "Guard the OnQueryClosePage check on CloseAction so Cancel does not trap the user, and keep the OnPreReport check for runs with no request page",
+    "Both articles include bad and good AL samples"
   ],
   "change_kind": "feature",
   "behavior_change": false,

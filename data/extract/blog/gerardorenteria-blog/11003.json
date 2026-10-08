@@ -5,7 +5,7 @@
   "source": "gerardorenteria-blog",
   "published_at": "2025-05-25T17:20:11.000Z",
   "words": 2247,
-  "summary": "LLMs have training cutoff dates that limit their knowledge to specific points in time, causing them to provide outdated information about APIs, frameworks, and tools. The post explains how MCP Context7, a protocol that connects AI agents to real-time documentation sources, helps mitigate this problem by providing current information from official documentation.",
+  "summary": "Explains why LLM training cutoff dates cause outdated answers about APIs and tools, and how to mitigate it in VS Code. A question about the Business Central Admin Center API for listing dependent apps to uninstall gets a wrong answer by default, a correct one with the Fetch tool, and a correct one when the Context7 MCP server is added and the prompt ends with use context7.",
   "key_points": [
     "LLM training cutoffs create knowledge limitations where models can only reference information up to their last training date, potentially providing obsolete advice about APIs and frameworks",
     "Models may suggest outdated libraries, deprecated products, or incorrect security practices without awareness they are no longer valid",
@@ -14,7 +14,6 @@
   ],
   "systems": [
     "development",
-    "copilot",
     "integration"
   ],
   "topics": [

@@ -8,12 +8,12 @@
   ],
   "summary": "Anthropic privacy notice components are removed from Expense Agent with the original page marked for future removal, while upgrade logic attempts to clean up persisted legacy data.",
   "key_points": [
-    "Anthropic registration and approval checks removed from Expense Agent setup",
-    "Privacy notice page marked pending obsolete and wrapped in conditional compilation",
-    "Upgrade process cleans up legacy privacy notice records without blocking upgrades",
-    "Legacy notice ID retained temporarily for data migration purposes"
+    "Anthropic registration, approval checks, capability requirements and active privacy notice UI removed from Expense Agent",
+    "Page 7078 Anthropic Privacy Notice kept unchanged, marked pending obsolete and wrapped in #if not CLEAN29",
+    "Per-database upgrade attempts to delete the legacy privacy notice and its approval records without blocking the upgrade",
+    "Legacy notice ID kept only as migration data so existing records can be deleted"
   ],
-  "change_kind": "refactor",
+  "change_kind": "obsoletion",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

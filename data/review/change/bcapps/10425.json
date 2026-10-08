@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10425",
+  "input_hash": "e042337abf929303593ce9afe30629bf0910210c36051b16859abb15c61f0c39",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:13.869Z",
+  "issues": [
+    "Fix matches the description: Remaining Amt. (LCY) is now calculated with CalcFields in report 10083, and a test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024466,
+    "changes_in_call": 6
+  }
+}

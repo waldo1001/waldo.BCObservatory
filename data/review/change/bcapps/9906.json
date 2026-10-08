@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9906",
+  "input_hash": "c8aec1eb2c7c044721f4a7ec231042d338632292ad496e404acea2c289566b6f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:14.162Z",
+  "issues": [
+    "The summary and key points match the description. The logging call moved to OnPostReport in both the W1 and NA layers, and regression tests were added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020006,
+    "changes_in_call": 6
+  }
+}

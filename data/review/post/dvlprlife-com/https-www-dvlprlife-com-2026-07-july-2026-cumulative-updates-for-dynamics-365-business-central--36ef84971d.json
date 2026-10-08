@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/",
+  "input_hash": "fe53aeb84c5de10c0c81936f67f2ba2904d72946cdc6dec1aa4b4884c4186cc9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:29.905Z",
+  "issues": [
+    "The post does not support the integration system; it is only about cumulative update availability.",
+    "The three version numbers listed as features are really versions, but they are accurate, so they are kept."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037157,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9085",
+  "input_hash": "d1d71d7c028ed88cb86b01987a19f6e48532353e4ac75f27d6734ffb571b1a19",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.282Z",
+  "issues": [
+    "Summary and key points match the description: CheckDirectTransferAllowed raises a guided error for pick/shipment source locations, and a negative test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020196,
+    "changes_in_call": 6
+  }
+}

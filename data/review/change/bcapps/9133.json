@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9133",
+  "input_hash": "1dcb98cf05527fb09980923a2579de6404b8acbcb3ab8929d25a6b7c02b1d53d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.083Z",
+  "issues": [
+    "The key point says the change covers all localized versions, but only 10 layers changed (APAC, BE, CH, ES, FI, GB, IT, NA, RU, W1). Reworded to match.",
+    "The summary, change kind and flags are supported by the title and files."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016613,
+    "changes_in_call": 6
+  }
+}

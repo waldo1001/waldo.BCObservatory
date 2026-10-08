@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9737",
+  "input_hash": "586c07733bc3c1f74cba5a538e7a29028e7c4dd203eca6d07d5b3285cc6c2033",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:16.021Z",
+  "issues": [
+    "Summary and key points match the description. The author states runtime behaviour is unchanged and the payloads are equivalent, so behavior_change false is supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020238,
+    "changes_in_call": 6
+  }
+}

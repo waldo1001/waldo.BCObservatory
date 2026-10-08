@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12070",
+  "input_hash": "786330005cc26aceac910b51574c4a96e70c312e3caf0b71c0ed147274c7904d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.331Z",
+  "issues": [
+    "Summary and key points match the description table. No behavior change in default builds, as stated."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019188,
+    "changes_in_call": 6
+  }
+}

@@ -8,11 +8,11 @@
   ],
   "summary": "Codeunit 30272 \"Shpfy Update Price Source\" is now public, allowing partners to reference it for custom Shopify price calculation logic through explicit bind/unbind subscriptions.",
   "key_points": [
-    "Partners can now use BindSubscription on this codeunit to apply their custom pricing logic",
-    "The codeunit only reads non-sensitive Shop configuration data",
-    "Making it public does not auto-activate subscriptions; partners must explicitly bind them",
-    "Internal getters on the pricing calculator remain restricted",
-    "Enables customization of Shopify connector price calculations through the existing event subscriber pattern"
+    "Access on codeunit 30272 changes from Internal to Public",
+    "Partners handling OnBeforeCalculateUnitPrice can bind this codeunit so the pricing engine uses the Shop's currency, VAT and discount settings",
+    "The codeunit only reads non-sensitive Shop configuration",
+    "EventSubscriberInstance is Manual, so subscriptions stay inactive until a partner binds them",
+    "Getters on codeunit 30182 remain internal"
   ],
   "change_kind": "feature",
   "behavior_change": false,

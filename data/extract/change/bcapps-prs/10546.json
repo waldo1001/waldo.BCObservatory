@@ -8,11 +8,9 @@
   ],
   "summary": "Fixed an issue where reopening and re-finishing a production order would incorrectly repost backward-flushed routing capacity entries.",
   "key_points": [
-    "Production order status management now correctly handles routing capacity postings when orders are reopened",
-    "Backward-flushed routing capacities are properly recalculated during re-finishing",
-    "Bug fix prevents duplicate or incorrect capacity ledger entries in manufacturing workflows",
-    "Changes to codeunit 5407 'Prod. Order Status Management'",
-    "Test coverage added to verify the fix"
+    "Reopening and then re-finishing a production order no longer reposts backward-flushed routing capacity",
+    "Fix made in codeunit 5407 \"Prod. Order Status Management\"",
+    "New test added in the SCM production orders test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

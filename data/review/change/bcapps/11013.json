@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11013",
+  "input_hash": "f05bdd91af0745692d74d32c97cf122034e8decc0fe2dd62f93574f34d8e2c83",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:09.832Z",
+  "issues": [
+    "The page matches the description: 43 aliases removed from one file, 517 to 474 declarations, and all assembly blocks kept.",
+    "Not breaking is supported by the author's argument that Cloud extensions cannot use DotNet aliases. The author did not compile the change, so this is verified by static scans only."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019427,
+    "changes_in_call": 6
+  }
+}

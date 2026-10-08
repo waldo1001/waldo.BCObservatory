@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10128",
+  "input_hash": "a1ee20cd201033bec9ad211c3adeb336738cc12dbef83ca4397db7d2cf2243d1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:08.956Z",
+  "issues": [
+    "behavior_change should be false; a handled event is added and the standard confirmation remains the default."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013321,
+    "changes_in_call": 6
+  }
+}

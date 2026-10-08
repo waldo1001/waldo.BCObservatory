@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Rounding differences in accounts receivable/payable with deferrals and non-deductible VAT are corrected in the Gen. Jnl.-Post Line codeunit across all localization layers. Test cases were added to verify the fix.",
+  "summary": "Gen. Jnl.-Post Line (codeunit 12) is changed in 11 localization layers to fix rounding differences in receivables and payables when deferrals and non-deductible VAT are combined. Tests for non-deductible VAT were added in W1 and IT.",
   "key_points": [
-    "Fixes rounding calculation issues in journal posting with deferrals and non-deductible VAT combinations",
-    "Updates applied consistently across 11 localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU)",
-    "Test coverage added for non-deductible VAT scenarios to prevent regression",
-    "Affects the core posting logic in codeunit 12",
-    "No breaking changes to public interfaces or events"
+    "Fixes rounding differences when posting with deferrals and non-deductible VAT",
+    "Same change applied in W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU",
+    "New tests in the W1 and IT NonDedVATMisc test codeunits",
+    "Changes the core posting logic in codeunit 12"
   ],
   "change_kind": "fix",
   "behavior_change": true,

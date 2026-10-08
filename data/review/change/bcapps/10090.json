@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10090",
+  "input_hash": "aa668e94adb91ac778132b76765e6ff3f11cff7e11ba7fd4ba620e0e29f6030f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:41.397Z",
+  "issues": [
+    "The reasons given ('for maintainability', 'security governance', 'separation of concerns') are mild inferences, but the facts are supported. Refactor with no behavior change fits the statement that the prompt tests are not affected."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025283,
+    "changes_in_call": 6
+  }
+}

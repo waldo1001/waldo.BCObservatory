@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9098",
+  "input_hash": "042244c34f573f340c8b6c61ca331318e15b7c565f192a6c6b43340f30e9c59b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:37.791Z",
+  "issues": [
+    "Summary, key points and flags match the description.",
+    "The misspelled event OnRunOnAfterVendLedgEntryMofidy is obsoleted under CLEAN29, but the page lists no obsoletions. These edit fields cannot add one."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025175,
+    "changes_in_call": 6
+  }
+}

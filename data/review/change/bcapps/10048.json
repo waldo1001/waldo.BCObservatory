@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10048",
+  "input_hash": "ab2c4372a0fc12e30557601cb1829e2837d21e79af088058d6e300015c8bd636",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:39.068Z",
+  "issues": [
+    "Matches the description. GTIN is exported with scheme 0160 in both formats, blank values are left out, and tests were added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013503,
+    "changes_in_call": 6
+  }
+}

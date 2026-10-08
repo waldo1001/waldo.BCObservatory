@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13385",
+  "input_hash": "f0ad2f5783b9bfa03b4852a916513a1b0c141c3ba267882fc4a62ee542cfc98e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:32.961Z",
+  "issues": [
+    "The summary says there are hundreds of suggestions, but the post lists only several dozen ideas.",
+    "The summary claims the list exists to guide development priorities. The post does not say this; it only asks readers whether the ideas would improve the product.",
+    "Key points, systems, features and the quote are supported well enough."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049766,
+    "posts_in_call": 4
+  }
+}

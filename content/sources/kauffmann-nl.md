@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 76187aea2ebebd6c31b58869eb8af9bbfcc31c9ced1da2527411ddb843ea4b18
@@ -78,10 +78,6 @@ footprint:
     - id: installation
       weight: 1
   objects:
-    - id: codeunit Http Endpoint configuration
-      weight: 1
-    - id: other Agent Design Experience
-      weight: 1
     - id: other Endpoint/OAuth management module
       weight: 1
     - id: other OAuth2 module
@@ -105,12 +101,12 @@ last_item: "2026-04-03"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (4) | agent designer (2) | codeunit Http Endpoint configuration (1) |
-| development (3) | al code (2) | other Agent Design Experience (1) |
-| administration (2) | agent design (1) | other Endpoint/OAuth management module (1) |
-| integration (2) | ai agents (1) | other OAuth2 module (1) |
-| platform (1) | app deployment (1) | other Rest Client module (1) |
-|  | authentication (1) | page Agent Card (1) |
+| copilot (4) | agent designer (2) | other Endpoint/OAuth management module (1) |
+| development (3) | al code (2) | other OAuth2 module (1) |
+| administration (2) | agent design (1) | other Rest Client module (1) |
+| integration (2) | ai agents (1) | page Agent Card (1) |
+| platform (1) | app deployment (1) |  |
+|  | authentication (1) |  |
 |  | azure entra id (1) |  |
 |  | business central agents (1) |  |
 |  | certificates (1) |  |

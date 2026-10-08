@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9690",
+  "input_hash": "4208eef794c48031c20f195d1bf50a9021c75a4eb2ba542deef270aa9b0473b5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:16.021Z",
+  "issues": [
+    "Content matches the description: an IStructuredFormatReader handler, enum extension binding, tests and a sample XML resource.",
+    "'For automatic routing' in one key point is a small embellishment, but it is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020238,
+    "changes_in_call": 6
+  }
+}

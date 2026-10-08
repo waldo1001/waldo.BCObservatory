@@ -10,17 +10,17 @@
     "integration",
     "inventory"
   ],
-  "summary": "Service Management objects are cleaned up by removing CLEAN27 code artifacts across multiple localization layers, including deprecated pages and codeunits.",
+  "summary": "Removes code that had been kept behind the CLEAN27 symbol in Service Management across W1 and many localization layers. This deletes obsolete ES and IT pages and codeunits for updating posted service invoices and shipments and strips the related code from service tables, pages, page extensions, reports and codeunits.",
   "key_points": [
-    "Removed CLEAN27 markers and associated code from service management functionality",
-    "Deleted deprecated pages for posted service invoice and shipment updates in localized versions",
-    "Removed codeunits related to service invoice header editing in Spanish and Italian localizations",
-    "Cleaned up page extensions and report modifications that contained CLEAN27 logic",
-    "Applied cleanup across W1 (worldwide), ES (Spain), IT (Italy), NA (North America), BE (Belgium), CH (Switzerland), FI (Finland), GB (Great Britain), and NO (Norway) layers"
+    "Removed CLEAN27-guarded code from service documents, history pages, tables and reports",
+    "Deleted ES and IT pages for updating posted service invoices and shipments",
+    "Deleted the ES and IT codeunits for editing service invoice and shipment headers",
+    "Cleaned NA service page extensions and event subscribers",
+    "Touches W1, APAC, BE, CH, ES, FI, GB, IT, NA and NO layers"
   ],
   "change_kind": "refactor",
   "behavior_change": false,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "service",

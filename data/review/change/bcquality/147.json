@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/147",
+  "input_hash": "32b7bb52e10a27b35461534835f070a249fb7db1d02afcddb11327b539676a05",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:37.215Z",
+  "issues": [
+    "Key point 1 says TestField or NotBlank both enforce and show the requirement. The article says they enforce but render nothing, so they need to be paired with ShowMandatory.",
+    "Key point 2 says to validate in OnQueryClosePage instead, but the article says to validate there as well and keep the check in OnPreReport."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019062,
+    "changes_in_call": 6
+  }
+}

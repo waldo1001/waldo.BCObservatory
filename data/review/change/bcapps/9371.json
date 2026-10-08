@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9371",
+  "input_hash": "0209e85a5f2fe2c53da232373f8d42d56ce7f2b42d78d2b521da683ea0e37db4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.615Z",
+  "issues": [
+    "One key point says background sessions can no longer download files to clients, which suggests a new restriction. Background sessions never had a client; the fix moves the output to the Report Inbox."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02123,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,9 @@
   ],
   "summary": "The Expense Policies page now locks the expense category field when opened for a specific category, automatically applies that category to new policies, and reads page-link filters from supported filter groups.",
   "key_points": [
-    "Category field becomes locked when page is opened in single-category context",
-    "New expense policies automatically inherit the filtered category",
-    "Page-link filter reading now supports multiple filter groups",
-    "Improves user experience for category-scoped policy management"
+    "The category field is locked when the Expense Policies page is opened for a single category",
+    "New expense policies get the filtered category automatically",
+    "The page-link filter is read from the supported filter groups"
   ],
   "change_kind": "fix",
   "behavior_change": true,

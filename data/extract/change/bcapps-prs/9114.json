@@ -6,15 +6,15 @@
   "systems_joined": [
     "projects"
   ],
-  "summary": "Re-enables the Data Sensitivity classification test in CI by introducing an app-level exclusion mechanism to grandfathered apps still shipping unclassified fields, allowing new regressions to be caught while existing classification debt is addressed per-app.",
+  "summary": "Re-enables the Data Sensitivity classification test (CU 135153 TestDataSensitivities) in CI. A temporary allow-list exempts apps that still ship unclassified fields, so new unclassified tables in other apps now fail the test.",
   "key_points": [
-    "Re-enables disabled test CU 135153 TestDataSensitivities that validates all shipped fields have Data Sensitivity classifications",
-    "Introduces temporary allow-list mechanism for apps with unclassified fields via GetAppsPendingDataClassification",
-    "Test still fails for unclassified tables in apps not on the allow-list, ensuring new regressions are caught",
-    "CI configuration updated to trigger full test runs when disabled-test lists change",
-    "No public code changes; test refinement and CI automation only"
+    "Removes TestDataSensitivities from the disabled-test list so it runs in CI again",
+    "Adds GetAppsPendingDataClassification as a temporary allow-list of app ids with unclassified fields",
+    "Tables from apps not on the list still fail the test, which catches new regressions",
+    "AL-Go settings now trigger a full build when the disabled-test lists change",
+    "Small change to codeunit 1765 Projects-Data Classification in the Base Application"
   ],
-  "change_kind": "fix",
+  "change_kind": "other",
   "behavior_change": false,
   "breaking": false,
   "obsoletions": [],

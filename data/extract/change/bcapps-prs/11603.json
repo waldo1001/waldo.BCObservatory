@@ -13,9 +13,9 @@
     "Obsoletes SetIsActive in favor of SetProductStatus",
     "Adds regression test coverage for all three product statuses"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "integration"

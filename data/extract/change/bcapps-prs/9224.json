@@ -9,13 +9,13 @@
     "manufacturing",
     "warehouse"
   ],
-  "summary": "Multiple fixes across inventory, sales, and warehouse functionality, including corrections to item journal posting, sales document copying, and warehouse document creation in various localization layers.",
+  "summary": "A batch of fixes for linked work items and ALAppExtensions issues changes Item Jnl.-Post Line, Copy Sales Document, Sales Price Calc. Mgt., Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document. The description does not say what each fix does.",
   "key_points": [
-    "Item Journal Posting Line codeunit updated across multiple localization layers (W1, APAC, CH, ES, IT, RU) with enhanced logic",
-    "Sales Document Copy report modified to improve document copying behavior",
-    "Sales Price Calculation Management codeunit refinements",
-    "Calculate Plan and Warehouse Source Create Document reports adjusted",
-    "Fixes address issues across inventory, sales, and warehouse modules"
+    "Item Jnl.-Post Line codeunit changed in the W1, APAC, CH, ES, IT and RU layers",
+    "Copy Sales Document report changed in the W1 and APAC layers",
+    "Sales Price Calc. Mgt. codeunit changed in W1",
+    "Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document reports get small additions in W1",
+    "Links eight work items and several ALAppExtensions issues"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -8,11 +8,11 @@
   ],
   "summary": "Expense approval workflow now shows a clear, actionable error message when the current user lacks a User Setup record, with a link to open the configuration page.",
   "key_points": [
-    "New helper function GetCurrentUserSetupForApproval replaces generic platform error with user-friendly messaging",
-    "Error message instructs users to configure their User Setup and explains why it is needed",
-    "Navigation action allows users to open the Approval User Setup page directly from the error",
-    "Error helper guarded to check read permissions on User Setup before showing navigation",
-    "Applied consistently across all expense report and approval workflow pages"
+    "New internal helper GetCurrentUserSetupForApproval replaces the generic missing-record platform error",
+    "Error message asks the user to configure their User Setup because the expense approval workflow is enabled",
+    "Error includes an action to open the Approval User Setup page, shown only with read permission on User Setup",
+    "Used on the Expense Report, Expense Report List, Expense Reports, Manager Expense Report and Manager Expense Reports pages and the Expense Report Header table",
+    "Tests added for the missing User Setup scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

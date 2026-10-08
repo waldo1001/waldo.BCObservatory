@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/192",
+  "input_hash": "679c65368927e18a35768dd0ef953bd21bbe248f123ca21aed86958899b1ff3b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:27.895Z",
+  "issues": [
+    "Key point describing the review skill as separate from generic finance rules misstates the description, which defines reciprocal ownership with Finance."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029301,
+    "changes_in_call": 6
+  }
+}

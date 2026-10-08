@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/11739",
+  "input_hash": "878d26e93b7abbe02c39d27d36fa210fb86d93d2c714865da645150d84c0ee3f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:14.122Z",
+  "issues": [
+    "Key point claimed linking inherits Copilot Studio settings; the post says settings are inherited from the linked Power Platform environment.",
+    "Sales Order Agent is listed as an object of type other; it is an agent feature, not an AL object, and is already covered in features."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036874,
+    "posts_in_call": 4
+  }
+}

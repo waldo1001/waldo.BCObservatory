@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9397",
+  "input_hash": "8815d21e829370915661f69789864b28a7e3ac2c4a612a0a1f7afdb7bae49da4",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.610Z",
+  "issues": [
+    "Summary and key points match the description: Text000 label accidentally moved to Protected Var is returned to Var in W1, NA and RU layers.",
+    "Breaking false is reasonable since the description says the move only happened in master."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014474,
+    "changes_in_call": 6
+  }
+}

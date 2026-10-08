@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/katson-com/4756",
+  "input_hash": "5825323a239de6e7fb3c43342491b8701fd704a2926378a62f5c756493560b61",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:10.625Z",
+  "issues": [
+    "The post talks about AI agents and harnesses in general and never names Copilot, so the copilot system tag is unsupported.",
+    "Summary, key points and both quotes are otherwise accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031984,
+    "posts_in_call": 4
+  }
+}

@@ -13,12 +13,12 @@ tags:
   - job queue
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:48.630Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -104,16 +104,16 @@ preview:
 
 # D365 Business Central: How to Fix Missing Sales Invoices in the API
 
-[Read the post](https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-20 · 162 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-20 · 162 words · tier community · reviewed (checked by Opus)
 
 > The Sales Invoices API in Business Central aggregates posted and unposted invoices from two source tables. When invoices are missing from the API results, running the API Data Upgrade process from the API Data Upgrade List page resolves the issue by synchronizing the underlying Sales Invoice Entity Aggregate table.
 
 ## Key points
 
-- The Sales Invoices API consolidates data from Sales Header (unposted) and Sales Invoice Header (posted) tables
-- Missing invoices indicate the Sales Invoice Entity Aggregate table is out of sync
-- The API Data Upgrade process must be scheduled and run as a job queue entry to restore missing data
-- Run the upgrade outside business hours for optimal performance
+- The Sales Invoices API is built on the Sales Invoice Entity Aggregate table, which combines unposted invoices from Sales Header with posted ones from Sales Invoice Header
+- Missing invoices in the API most likely mean the aggregate table did not update properly
+- Fix: on the API Data Upgrade List page, select SALES INVOICES and choose Schedule Upgrades, which creates a Job Queue Entry
+- Schedule the job queue entry, ideally outside business hours; when it finishes, the missing invoices should appear in the API
 
 ## Quotes
 

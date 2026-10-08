@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13369",
+  "input_hash": "bad2f903b43bf5f363b4990eeec4146da4092884723102dd674169f3c691721e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:02.099Z",
+  "issues": [
+    "The reporting system is not supported; the post is about telemetry monitoring with KQL, not reporting.",
+    "Summary and key points are otherwise accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021676,
+    "posts_in_call": 4
+  }
+}

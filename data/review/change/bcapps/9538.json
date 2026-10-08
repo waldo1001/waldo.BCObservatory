@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9538",
+  "input_hash": "7475c9457d6a003337acee85c24cec70d445424671b7841e61d8c66183fcbbba",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:16.021Z",
+  "issues": [
+    "Matches the root cause and solution in the description. The description's code sample calls OpenedFromWkshBatchRecord while naming the helper GetCurrentJnlBatchName; the page uses the stated helper name."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020238,
+    "changes_in_call": 6
+  }
+}

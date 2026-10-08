@@ -6,12 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Order Planning Worksheet now correctly ignores items from purchase orders that have already been received but not invoiced, preventing unnecessary supply suggestions when the worksheet is run by project.",
+  "summary": "Fixes Order Planning Worksheet run by project creating supply suggestions for items already received but not invoiced on purchase orders, which happened after the order and posting dates on the purchase order were updated. The change is in the Get Unplanned Demand codeunit.",
   "key_points": [
-    "Fixed logic in Get Unplanned Demand codeunit to handle received-but-not-invoiced purchase order items correctly",
-    "Supply suggestions are no longer created for items already covered by existing purchase orders",
-    "Issue occurred regardless of updates to order and posting dates on purchase orders",
-    "Behavior aligns with expected project-based order planning workflow"
+    "Get Unplanned Demand codeunit adjusted",
+    "No supply suggestion for received but not invoiced purchase order items when planning by project",
+    "Issue appeared after updating Order and Posting Dates on the purchase order",
+    "Order planning tests updated"
   ],
   "change_kind": "fix",
   "behavior_change": true,

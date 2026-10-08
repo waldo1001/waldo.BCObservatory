@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Sales Order Agent now fully supports item variants, including variant selection, availability checks, and pricing. Variants are resolved through intelligent selection, validated against candidates, and retained only when safe substitutions, with empty variants left unchanged and unsafe alternatives discarded.",
+  "summary": "The Sales Order Agent now resolves customer requests to a specific item variant and uses it for availability, pricing and quote or order creation. Variant alternatives are kept only when classified as safe, and Variant Code stays empty when no variant was requested. If no suitable variant is available, the agent tells the customer and does not create a quote.",
   "key_points": [
     "Item Selector now runs consistently for all search result types and includes variant code in its output with safety classifications",
     "Variant alternatives are retained only when explicitly classified as safe, preserving form, fit, function, and safety",

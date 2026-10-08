@@ -16,12 +16,12 @@ tags:
   - release management
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:04.426Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,7 +91,7 @@ preview:
 
 # Weekly Review: Business Central AL Development – May 17–23, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/) · DvlprLife (Brad Prendergast) · 2026-05-26 · 793 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/05/weekly-review-business-central-al-development-may-17-23-2026/) · DvlprLife (Brad Prendergast) · 2026-05-26 · 793 words · tier community · reviewed (checked by Opus)
 
 > A weekly curated review of Business Central AL development community posts from May 17 - 23, 2026, covering AI-driven developer tooling, security considerations for VS Code extensions, container management automation, agentic development workflows, and release management practices.
 

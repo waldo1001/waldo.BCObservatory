@@ -8,14 +8,14 @@
   ],
   "summary": "A new parameter SkipNewExpirationDateCheck was added to the OnCheckExpirationDateOnAfterCalcSumLot event, allowing subscribers to bypass the mandatory New Expiration Date validation during item journal posting without affecting other logic.",
   "key_points": [
-    "Adds var SkipNewExpirationDateCheck parameter to OnCheckExpirationDateOnAfterCalcSumLot integration event",
-    "Subscribers can set this parameter to true to skip the TestField check for New Expiration Date",
-    "Allows bypassing validation without requiring replication of entire procedures or affecting downstream events",
-    "Non-breaking change to existing subscribers",
-    "Applied across W1 base layer and all country-specific layers (ES, APAC, CH, RU, IT)"
+    "Adds var SkipNewExpirationDateCheck parameter to the OnCheckExpirationDateOnAfterCalcSumLot integration event in codeunit 22",
+    "Subscribers can set it to true to skip only the New Expiration Date TestField check",
+    "Avoids using OnBeforeCheckExpirationDate IsHandled, which would require replicating the procedure and skip downstream events",
+    "Parameter defaults to false; adding it is non-breaking for existing subscribers",
+    "Mirrored in W1 and the ES, APAC, CH, RU and IT layers"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

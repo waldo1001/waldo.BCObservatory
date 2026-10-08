@@ -6,11 +6,11 @@
   "systems_joined": [
     "crm"
   ],
-  "summary": "The Chance of Success percentage field in opportunities now validates correctly when using the Update action type. A validation fix and test cases were added to ensure the field accepts only values between 0 and 100.",
+  "summary": "Chance of Success % on an opportunity entry now validates correctly when the Update action type is used. The fix is in the Opportunity Entry table, and tests were added.",
   "key_points": [
-    "Fixed validation logic for Chance of Success % field in Opportunity Entry table",
-    "Added test coverage for the Update action type scenario",
-    "Validation now properly enforces percentage range constraints"
+    "Fixed Chance of Success % validation in the Opportunity Entry table",
+    "Fixes the case where the Update action type is used on an opportunity",
+    "Added test coverage in the marketing opportunity tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

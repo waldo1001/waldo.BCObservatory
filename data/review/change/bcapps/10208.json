@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10208",
+  "input_hash": "9f748b96a09dfa26a11152ab2346dd97faec033cc0fd1a356b3a00ab9cc480bc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:12.655Z",
+  "issues": [
+    "Summary, key points and flags match the description and the diff scope.",
+    "The quote reorders the description wording slightly, but its meaning is kept."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020321,
+    "changes_in_call": 6
+  }
+}

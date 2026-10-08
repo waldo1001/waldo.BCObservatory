@@ -13,12 +13,12 @@ tags:
   - al development
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:36.372Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
 
 # BC Friday Tips #74 Copy Document and Custom Field
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-26 · 122 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-26 · 122 words · tier community · reviewed (checked by Opus)
 
 > When adding custom fields to Sales Header or Sales Invoice Header tables, developers must consider how the Copy Document feature will handle those fields. The post explains that custom fields are automatically copied along with documents, requiring developers to decide whether values should be copied, cleared, or recalculated to maintain data integrity.
 
@@ -115,6 +115,6 @@ As named in the post. A name that matches one object page by exact type and name
 
 ## Context
 
-- Features: Copy Document, Custom Fields, Data Validation
+- Features: Copy Document, Custom Fields
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

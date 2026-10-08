@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13299",
+  "input_hash": "802ff78e46632ff3c8d2142a9daf26aceb38399008d8e0fc104d8c7d91d3a06a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:37.697Z",
+  "issues": [
+    "Copilot is listed as a system but the post never mentions Copilot or AI features",
+    "Summary, key points, objects, features and quotes otherwise match the post; quotes come from the English section"
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040452,
+    "posts_in_call": 4
+  }
+}

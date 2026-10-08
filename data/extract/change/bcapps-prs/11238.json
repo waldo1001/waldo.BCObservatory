@@ -8,10 +8,10 @@
   ],
   "summary": "The Available to Take logic in the Pick Worksheet incorrectly included inventory from Ship and Receive bins. The calculation was corrected to exclude these bin types from availability calculations.",
   "key_points": [
-    "Available to Take quantity in Pick Worksheet was inflated by including Ship and Receive bin inventory",
-    "Modified Warehouse Availability Management codeunit to properly filter bins",
-    "Pick Worksheet now shows accurate available inventory for picking operations",
-    "Extensive test coverage added for the corrected logic"
+    "Available to Take in the Pick Worksheet was inflated by Ship and Receive bin inventory",
+    "Warehouse Availability Mgt. codeunit changed to correct the calculation",
+    "Fix targets the 29.x release branch",
+    "Large test additions in the W1, IT and RU SCM inventory test codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

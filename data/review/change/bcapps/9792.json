@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9792",
+  "input_hash": "e1a433fb84d7776cc0c3bf302e0abbf22797d812307d88c7af9d38e5268a3ac5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:56.369Z",
+  "issues": [
+    "Key point says PEPPOL handlers for both countries reuse existing UBL readers. Only the DE handler reuses the XRechnung reader; the FR one is a new UBL reader.",
+    "Round-trip claim overstated: SIRET identifiers are mapped back on import, while the Leitweg-ID is stored in a new DE field and not yet shown in the UI."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019834,
+    "changes_in_call": 6
+  }
+}

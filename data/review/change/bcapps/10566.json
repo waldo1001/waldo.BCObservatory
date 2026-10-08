@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10566",
+  "input_hash": "dcb838713b176227732609a82136edc9a8ced0ab1dd3abc15b2344fb92c25795",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.214Z",
+  "issues": [
+    "The claim that dimension filters were added to RequestFilterFields is not stated in the description. The description only notes they were missing, and the stated solution covers only the codeunit. I dropped that point.",
+    "Tests added in TrialBalanceExcelReports were not mentioned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022694,
+    "changes_in_call": 6
+  }
+}

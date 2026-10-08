@@ -8,11 +8,11 @@
   ],
   "summary": "Sustainability entries can now be found more easily through a Find Entries action on the Sustainability Ledger Entries page and new Sustainability Value Entries actions on Item Card and Item List pages.",
   "key_points": [
-    "Added Find Entries (Navigate) action with Ctrl+Alt+Q shortcut to Sustainability Ledger Entries page",
-    "Added Sustainability Value Entries action to Item Card's Related → History → Entries section",
-    "Added Sustainability Value Entries action to Item List page",
-    "New actions are only visible when Item Emissions is enabled in Sustainability Setup",
-    "Follows existing patterns used on Sustainability Value Entries page"
+    "Find entries (Navigate) action with Ctrl+Alt+Q shortcut added to the Sustainability Ledger Entries page",
+    "The Find entries action matches the pattern already used on the Sustainability Value Entries page",
+    "Sustainability Value Entries action added to the Item Card under Related, History, Entries, filtered by Item No.",
+    "The same action added to the Item List page",
+    "Both item actions are visible only when Item Emissions is enabled in Sustainability Setup"
   ],
   "change_kind": "feature",
   "behavior_change": true,

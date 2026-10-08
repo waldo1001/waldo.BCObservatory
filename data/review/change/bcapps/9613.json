@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9613",
+  "input_hash": "70d4783e67f44d59f63a07af690e1ce4542e11b22b98b2bc7b4785f89b78d5cc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:00.615Z",
+  "issues": [
+    "Key point merged two fixes: undo purchase receipt recomputes value entries, while service documents now post emissions at all.",
+    "Small INGST e-invoice codeunit change not covered; acceptable omission."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024915,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14351",
+  "input_hash": "23a33d084e40eaf3522ab68110e183e2396c1d53194aa8e7721b317e23067aa9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:26.425Z",
+  "issues": [
+    "Administration system is not supported by the post, which is a development and accessibility extension; dropped.",
+    "Listed objects are file names given by the post; page extension files are typed as page, acceptable but imprecise.",
+    "Quote 2 is a slightly truncated version of the post sentence; still accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037219,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10326",
+  "input_hash": "ab0ba9f3d7ad0113b561b71da2a4e6c1802f8a0edc0451d7fdefd0b69cccaf3d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:56.091Z",
+  "issues": [
+    "The post uses Sales Invoice and Sales Shipment for documents, not as table names, so these table objects are not supported.",
+    "The post never names Inventory Valuation as a feature.",
+    "Summary, key points and quote are accurate."
+  ],
+  "applied": [
+    "dropped 2 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025286,
+    "posts_in_call": 4
+  }
+}

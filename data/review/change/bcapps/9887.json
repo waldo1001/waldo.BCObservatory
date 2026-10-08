@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9887",
+  "input_hash": "31d66f2de3950189f15d2998cc59ea300f993c846d58e75d0fc19204407fddef",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:31.052Z",
+  "issues": [
+    "Setting ReplicateData = false means the table is no longer replicated during cloud migration. That is a behaviour change, so the flag is corrected and the key point claiming no behavioural changes has been replaced."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017925,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13043",
+  "input_hash": "aa22676485c87354bba2f78d94c9fc27cb754e33149d71526475fb111ca22140",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:01.644Z",
+  "issues": [
+    "Summary and key points correctly describe the post as a list of November 2025 ideas.",
+    "The object 'Translation Codeunit' is not a real object name. The post only uses that phrase loosely, so the entry is dropped.",
+    "Both quotes are close to the text of the ideas and are kept. The Item Jnl.-Post Line codeunit and the General Ledger Entries page are both named in the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035636,
+    "posts_in_call": 4
+  }
+}

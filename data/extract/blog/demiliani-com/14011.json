@@ -5,17 +5,17 @@
   "source": "demiliani-com",
   "published_at": "2026-07-30T14:55:28.000Z",
   "words": 1132,
-  "summary": "Visual Studio Code Agent Hooks enable custom shell commands to execute at specific points during agent sessions to audit, enforce security policies, and log file access and tool usage. This is useful for compliance when AI coding agents modify AL projects, capturing details that Git history alone cannot track.",
+  "summary": "Explains VS Code Agent Hooks (in preview) as deterministic shell commands that run at agent lifecycle events, as opposed to skills that the model decides to use. The author shares a hook for AL projects that logs SessionStart, PreToolUse and PostToolUse events to a Markdown audit file, which records reads, commands and session context that Git history misses.",
   "key_points": [
-    "Agent Hooks intercept the agent loop deterministically at lifecycle events (SessionStart, PreToolUse, PostToolUse, Stop, etc.), unlike agent skills which are probabilistically invoked by the model.",
-    "Hooks capture an audit trail of every file read/write, terminal commands, and tool calls with timestamps and session IDs, which Git alone cannot provide.",
-    "Eight hook events are available to run custom commands at predefined stages during agent sessions for security, compliance, code quality, and workflow automation.",
-    "Hooks sit at the policy-enforcement layer outside agent reasoning, enabling security guardrails like preventing dangerous operations (rm -rf, DROP TABLE) and enforcing code standards."
+    "Hooks fire at lifecycle events without model judgment, while skills are loaded only when the model thinks they are relevant",
+    "VS Code supports eight hook events, configured as JSON files that map events to commands",
+    "The shared audit hook goes in the .github folder of an AL project and writes timestamp, session id, event, tool and detail rows to an audit log",
+    "An environment variable in the hook config controls which events get logged",
+    "Unlike Git diffs, the log captures file reads, terminal commands, uncommitted actions and session context"
   ],
   "systems": [
     "development",
-    "copilot",
-    "administration"
+    "copilot"
   ],
   "topics": [
     "agent hooks",

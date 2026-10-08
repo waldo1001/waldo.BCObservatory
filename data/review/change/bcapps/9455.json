@@ -1,0 +1,27 @@
+{
+  "item_id": "change/bcapps-prs/9455",
+  "input_hash": "69b87a57c39d10826dcb553c6596ef6cb89a695c9be5c8ad39f1ca23e874ebea",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.584Z",
+  "issues": [
+    "Permission level (read) is not stated anywhere in the input; claim unsupported.",
+    "IT, APAC, ES, NL and BE layers only changed codeunits/reports, not permission sets, so the layer list for permission sets is wrong.",
+    "Changes also add permissions to codeunit Gen. Jnl.-Post Reverse, date compress reports, Adjust Add. Reporting Currency and User Management, which the page omits.",
+    "RU d365purchdocedit has a modified line, so 'only additions' is not fully supported.",
+    "PR fixes a work item; fix fits better than feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026296,
+    "changes_in_call": 6
+  }
+}

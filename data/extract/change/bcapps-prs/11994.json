@@ -6,13 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Fixed a bug where the Carry Out Action Message - Planning report failed to copy production orders to requisition worksheets due to missing destination fields being populated.",
+  "summary": "Copying production planning lines to a requisition worksheet through the Carry Out Action Msg. - Plan. report no longer fails because of missing destination fields. The report now fills in the needed fields, and a new test covers the scenario.",
   "key_points": [
-    "Report was unable to complete production order copy operations to requisition worksheets",
-    "Missing field mappings prevented data transfer between source and destination records",
-    "Added field population logic to the Carry Out Action Msg. - Plan. report",
-    "Test coverage added to verify the fix works correctly",
-    "Supply chain management planning operations now function as intended"
+    "Production Copy to Req. Wksh. in the planning worksheet previously failed due to missing destination fields",
+    "Report Carry Out Action Msg. - Plan. now populates the missing fields",
+    "New test added in SCM Plan Req. Wksht."
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12007",
+  "input_hash": "be7095701cc50b44a408ea359da3473ca3e1256e408be976d2ae2730cc1e4356",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:13.688Z",
+  "issues": [
+    "Key point 1 says the summing logic was corrected. The description says the summing was already correct and a later expression overwrote it, so the point was reworded.",
+    "The version bump also updates the registered version in TDS Tax Configuration, which the points did not mention."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018552,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10458",
+  "input_hash": "65c6072ccc8a7917a53d6a40947e061b43127bc40ca005bb50146023cb76f59e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:08.512Z",
+  "issues": [
+    "A tooltip text update tied to a work item fix is not a feature; changed change_kind to fix.",
+    "Summary and key points are otherwise supported, though thin."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023224,
+    "changes_in_call": 6
+  }
+}

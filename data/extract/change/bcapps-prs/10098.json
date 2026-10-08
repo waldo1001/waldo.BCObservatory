@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Tests for expense posting with VAT calculations in the Expense Agent are re-enabled by moving them from a disabled tests list back to the main test suite.",
+  "summary": "Expense Agent VAT posting tests are re-enabled by removing them from the disabled tests list. The PR also makes a small change to the IT version of the Gen. Jnl.-Post Line codeunit and a one-line change to the VAT test codeunit.",
   "key_points": [
-    "Expense Agent VAT posting tests were previously disabled and are now re-enabled",
-    "Tests moved from DisabledTests folder configuration to active ExpensePostingVATTest codeunit",
-    "Minor adjustment made to Gen. Jnl.-Post Line codeunit base application code",
-    "Addresses issue AB#646563",
-    "Validates VAT handling in expense posting scenarios"
+    "Expense Agent VAT posting tests taken off the disabled tests list",
+    "One-line change in the ExpensePostingVATTest codeunit",
+    "Seven lines added to the IT layer Gen. Jnl.-Post Line codeunit",
+    "Linked to work item AB#646563"
   ],
   "change_kind": "fix",
   "behavior_change": false,

@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Quality inspection user assignment now properly validates table relations when manually selecting users and prompts for self-assignment when editing unassigned inspections.",
+  "summary": "Fixes a table relation error when manually selecting an assigned user on a quality inspection, and shows a self-assignment notification when modifying an inspection that has no assigned user.",
   "key_points": [
-    "Fixed table relation error during manual user selection in quality inspections",
-    "Added self-assignment notification prompt for unassigned quality inspections",
-    "Improved validation logic in permission management codeunit",
-    "Enhanced test coverage for user assignment scenarios"
+    "Manually selecting an assigned user no longer raises a table relation error",
+    "Modifying an unassigned quality inspection now prompts a self-assignment notification",
+    "Changes in Qlty. Inspection Header table and Qlty. Permission Mgmt. codeunit",
+    "Tests for user assignment added to the misc test codeunit, with some tests moved out of the test table codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

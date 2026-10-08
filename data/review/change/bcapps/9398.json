@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9398",
+  "input_hash": "d822dda78bcc2315dd9452d489b1949083a6508bc998520c20bd2e542656e5f5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.222Z",
+  "issues": [
+    "The summary is vague and puts the recalculation in the wrong place. It runs in the order cost calculation of the adjustment, not after an item standard cost update, and the summary leaves out the Value Entry cost symptom.",
+    "The new test is not mentioned."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018258,
+    "changes_in_call": 6
+  }
+}

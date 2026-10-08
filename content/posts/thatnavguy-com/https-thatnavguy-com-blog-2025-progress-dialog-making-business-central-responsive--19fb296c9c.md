@@ -13,12 +13,12 @@ tags:
   - responsive application
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:02.904Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # Progress Dialog: Making Business Central Responsive
 
-[Read the post](https://thatnavguy.com/blog/2025/progress-dialog-making-business-central-responsive/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-07 · 533 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/progress-dialog-making-business-central-responsive/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-07 · 533 words · tier community · reviewed (checked by Opus)
 
 > Progress Dialog provides user feedback during long-running ERP tasks in Business Central, reducing uncertainty and duplicate actions. This post explains when to use Progress Dialog, shows AL code examples, and provides seven best practices for writing clear, confidence-building progress messages.
 

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/175",
+  "input_hash": "149d3e1465a55dc576505e42acb83364c14c237809ba9790f498fab00edbf357",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:11.036Z",
+  "issues": [
+    "Key point 1 says all nine patterns cover document dispatch, printing, email and report selections; only some of them do. Rewrote the key points by topic."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02058,
+    "changes_in_call": 6
+  }
+}

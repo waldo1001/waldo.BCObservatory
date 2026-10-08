@@ -8,14 +8,14 @@
   ],
   "summary": "Fixed 409 conflict errors in APIV2 Company Info E2E tests by disabling test isolation to allow commits to take effect, and changed Environment Information reads to no longer write the singleton record.",
   "key_points": [
-    "Disabled test isolation on APIV2 Company Info E2E test codeunit so Commit() succeeds and web-service calls can access records",
-    "Modified GetEnvironmentDescription to use direct Get() instead of GetEnvironmentInformationSafe, preventing unintended writes on read operations",
-    "Added test cleanup to restore original company and environment descriptions after E2E tests run",
-    "Environment Information singleton record is now created only on first write rather than first read",
-    "Resolves 409 'record in table being updated' conflicts that prevented both test methods from running"
+    "Test isolation disabled on the APIV2 Company Info E2E codeunit so Commit() takes effect before web-service calls",
+    "GetEnvironmentDescription now uses Get() and no longer inserts the Environment Information record on read",
+    "TestGetCompanyAndEnvironmentDescriptions restores the original company and environment descriptions after the GET",
+    "Environment Information row is now created on first write instead of first read",
+    "Fix still has to be validated in NAV, where both test methods are currently disabled"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

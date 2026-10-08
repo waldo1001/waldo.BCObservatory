@@ -8,9 +8,9 @@
   ],
   "summary": "Expense Agent setup now includes distance unit of measure configuration, enabling users to specify the unit of measure for mileage expense calculations.",
   "key_points": [
-    "Adds Distance UOM configuration field to Expense Agent setup",
-    "Allows users to define the unit of measure for distance-based mileage expenses",
-    "Modifies the CreateExpenseAgentSetup codeunit to support this configuration"
+    "Adds Distance UOM configuration to the Expense Agent",
+    "Lets users define the unit of measure for distance-based mileage expenses",
+    "Implemented in the Create Expense Agent Setup codeunit"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -4,7 +4,7 @@
   "title": "Clarify page field caption and tooltip inheritance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Quality rules now clarify that bound page fields inherit Caption and ToolTip from source table fields, reducing false recommendations for redundant properties and aligning guidance with runtime behavior.",
+  "summary": "Knowledge articles now state that bound page fields inherit Caption and, from BC24 runtime 13.0, ToolTip from their source table fields. Agents should inspect source fields before flagging missing properties, which avoids redundant page-level captions and tooltips.",
   "key_points": [
     "Recognizes caption inheritance from table fields to bound page fields",
     "Documents tooltip inheritance from BC24 runtime 13.0 onwards",
@@ -13,7 +13,7 @@
     "Requires source field inspection before reporting missing properties"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

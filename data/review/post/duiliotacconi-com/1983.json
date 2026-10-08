@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/duiliotacconi-com/1983",
+  "input_hash": "9979f2619deb858b9c03984b2cf6d2541d5280a14e43941161292ec41980d39c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:24.339Z",
+  "issues": [
+    "Table Information is a page in the post, not a table, so that object entry is wrong.",
+    "One key point says the release is ground-breaking. The author only calls it close to ground-breaking for online, so that point needs softer wording.",
+    "The other key points match the post. The missing features listed include Indexed Views and an AL API."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022971,
+    "posts_in_call": 4
+  }
+}

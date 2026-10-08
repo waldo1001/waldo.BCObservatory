@@ -10,7 +10,7 @@
     "integration",
     "sustainability"
   ],
-  "summary": "Base Application and bundled apps temporarily suppress AS0072 compiler warnings on 29.0 obsolete tags during v30 preparation until permanent remediation is completed.",
+  "summary": "Pragmas temporarily suppress the AppSourceCop AS0072 error on elements that still carry ObsoleteTag 29.0 in the Base Application, its country layers, and six W1 apps, so v30 clean builds compile. The tags are left unchanged, and a permanent fix is tracked in Bug 647877.",
   "key_points": [
     "Added pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements and their country localizations",
     "Wrapped obsolete elements in E-Document, Expense Agent, Sales Order Agent, Shopify, Subscription Billing, and Sustainability apps",

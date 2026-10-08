@@ -8,11 +8,11 @@
   ],
   "summary": "Finnish currency exchange rate import functionality moved from the base application layer to the FI Core extension, with the original code retained as obsolete for backward compatibility.",
   "key_points": [
-    "New codeunit 13415 in FI Core handles fixed-format import logic with OnBeforeFileImport event",
-    "Page extension 13414 adds Import Exchange Rates action to Currencies page in FI Core",
-    "Original codeunit 32000001 marked obsolete and pending removal in version 29.0",
-    "Existing tests preserved; no new test codeunit added",
-    "Public OnBeforeFileImport event remains available as obsolete"
+    "New codeunit 13415 in FI Core holds the fixed-format import logic and keeps the OnBeforeFileImport event",
+    "Page extension 13414 in FI Core adds a visible Import Exchange Rates action to the Currencies page",
+    "BaseApp codeunit 32000001 is kept under CLEAN29 and marked Pending obsolete for version 29.0",
+    "The original BaseApp page action stays, but it is now hidden and marked Pending",
+    "Existing BaseApp test 144001 is kept, and FI Core gets a new test codeunit for the import"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

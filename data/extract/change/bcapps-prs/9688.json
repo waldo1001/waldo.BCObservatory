@@ -7,17 +7,17 @@
     "purchasing",
     "sales"
   ],
-  "summary": "Fixed unreliable header existence checks for sales and purchase line insertion by renaming the control variable, adding an explicit verification procedure, and providing a dedicated method to suppress the check. These changes resolve false-positive errors while preventing invalid inserts.",
+  "summary": "Makes the v28 check that blocks inserting sales and purchase lines without an existing header more reliable, since it raised false-positive errors. The suppress switch is renamed, a SetSuppress...ExistsVerification procedure is added, the header is checked with an explicit Get, and temporary lines skip the check.",
   "key_points": [
-    "Renamed HasSalesHeader and HasPurchaseHeader variables to SuppressSalesHeaderExistsVerification and SuppressPurchaseHeaderExistsVerification to clarify intent",
-    "Added SetSuppressSalesHeaderExistsVerification() and SetSuppressPurchaseHeaderExistsVerification() procedures as alternatives to SetSalesHeader() and SetPurchaseHeader()",
-    "Implemented explicit header existence checks in VerifySalesHeaderExists() and VerifyPurchaseHeaderExists() instead of relying on GetSalesHeader() and GetPurchaseHeader()",
-    "Skip verification for temporary sales and purchase lines",
-    "Retained original parameter names in OnBeforeGetSalesHeader() and OnBeforeGetPurchaseHeader() events to avoid breaking changes"
+    "Sales Line variable HasSalesHeader renamed to SuppressSalesHeaderExistsVerification to show it is a skip switch",
+    "New SetSuppressSalesHeaderExistsVerification() so the switch can be set without SetSalesHeader()/ClearSalesHeader()",
+    "VerifySalesHeaderExists() now uses an explicit SalesHeader.Get() instead of GetSalesHeader()",
+    "Verification is skipped for temporary lines; OnBeforeGetSalesHeader keeps its HasSalesHeader parameter name",
+    "Purchase Line receives the symmetrical changes; tests updated in SCM Orders VI"
   ],
   "change_kind": "fix",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "purchasing",

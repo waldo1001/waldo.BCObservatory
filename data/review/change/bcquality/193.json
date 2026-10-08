@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/193",
+  "input_hash": "5c76872521a52c254889dace3d69728096cd90ae262008a41959c6c6416628ef",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:27.895Z",
+  "issues": [
+    "Validation point overstated: fixtures were prepared, not stated to pass all checks.",
+    "Page omitted the style review routing update and new evaluation fixture pair."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029301,
+    "changes_in_call": 6
+  }
+}

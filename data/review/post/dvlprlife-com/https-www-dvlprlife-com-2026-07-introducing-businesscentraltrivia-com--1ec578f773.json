@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/",
+  "input_hash": "b8c57333e6730ff52e1a0615735a67176b7c7837330391e6c17238c465ddb3cc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:12.946Z",
+  "issues": [
+    "Summary, key points and quotes match the post about the trivia site and its four-day test.",
+    "The platform system does not fit; the post is a community learning game, not about the Business Central platform."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031526,
+    "posts_in_call": 4
+  }
+}

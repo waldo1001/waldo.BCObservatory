@@ -2,7 +2,7 @@
 id: post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
 type: post
 title: "BC Friday Tips #56 Understand Missing Fields in Copy Documents"
-summary: When copying documents in Sales Order processing, not all fields transfer to Posted Sales Shipment and Posted Sales Invoice. Shipping Agent Code and Service Code only appear in header tables, not line tables, which can leave key fields blank. Copying from Archived Sales Orders preserves more data than copying from Posted Invoices.
+summary: Some Sales Order fields do not carry over to posted shipments and invoices. For example, Shipping Agent Code and Shipping Agent Service Code exist on both Sales Header and Sales Line but only reach the Sales Shipment Header and Sales Invoice Header. As a result, copying from a posted invoice can leave fields blank, and the post recommends copying from an archived sales order instead.
 tier: community
 language: en
 tags:
@@ -13,12 +13,12 @@ tags:
   - data fields
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:16.843Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,9 +67,6 @@ code_objects_mentioned:
   - table Sales Line
   - table Sales Shipment Header
   - table Sales Invoice Header
-  - table Posted Sales Shipment
-  - table Posted Sales Invoice
-  - table Archived Sales Order
 systems:
   - sales
 versions_mentioned: []
@@ -87,9 +84,9 @@ preview:
 
 # BC Friday Tips #56 Understand Missing Fields in Copy Documents
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-14 · 133 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-14 · 133 words · tier community · reviewed (checked by Opus)
 
-> When copying documents in Sales Order processing, not all fields transfer to Posted Sales Shipment and Posted Sales Invoice. Shipping Agent Code and Service Code only appear in header tables, not line tables, which can leave key fields blank. Copying from Archived Sales Orders preserves more data than copying from Posted Invoices.
+> Some Sales Order fields do not carry over to posted shipments and invoices. For example, Shipping Agent Code and Shipping Agent Service Code exist on both Sales Header and Sales Line but only reach the Sales Shipment Header and Sales Invoice Header. As a result, copying from a posted invoice can leave fields blank, and the post recommends copying from an archived sales order instead.
 
 ## Key points
 
@@ -110,14 +107,9 @@ As named in the post. A name that matches one object page by exact type and name
 - [table 37 "Sales Line"](../../objects/table/37.md)
 - [table 110 "Sales Shipment Header"](../../objects/table/110.md)
 - [table 112 "Sales Invoice Header"](../../objects/table/112.md)
-- table "Posted Sales Shipment"
-- table "Posted Sales Invoice"
-- table "Archived Sales Order"
-
-Not found in BC28-30: table "Posted Sales Shipment", table "Posted Sales Invoice", table "Archived Sales Order".
 
 ## Context
 
-- Features: copy documents, sales order processing, posted documents, archived documents, field mapping
+- Features: copy documents, sales order processing, posted documents, archived documents
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

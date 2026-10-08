@@ -2,7 +2,7 @@
 id: source/waldo-be
 type: source
 title: waldo's blog
-summary: "waldo's blog (waldo (Eric Wauters), MVP): 17 posts in the knowledge base, 2025-04-30 to 2026-10-02, mostly about development, administration, platform."
+summary: "waldo's blog (waldo (Eric Wauters), MVP): 17 posts in the knowledge base, 2025-04-30 to 2026-10-02, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 742906014cd32d72de9f51e1942e10b4326dd559ddabc7d08c06192ff1c2394d
@@ -62,12 +62,12 @@ footprint:
   systems:
     - id: development
       weight: 18
-    - id: administration
-      weight: 15
     - id: platform
       weight: 13
+    - id: administration
+      weight: 12
     - id: reporting
-      weight: 11
+      weight: 8
     - id: copilot
       weight: 4
     - id: integration
@@ -96,15 +96,9 @@ footprint:
   objects:
     - id: codeunit 1350
       weight: 1
-    - id: codeunit implementation codeunit
-      weight: 1
     - id: codeunit ISC Process Update Queue Meth
       weight: 1
     - id: interface Invoice Posting Interface
-      weight: 1
-    - id: other BC Telemetry Buddy
-      weight: 1
-    - id: other bc-telemetry-buddy-mcp
       weight: 1
     - id: other Fabric integration app
       weight: 1
@@ -123,7 +117,7 @@ last_item: "2026-10-02"
 
 # waldo's blog
 
-> waldo's blog (waldo (Eric Wauters), MVP): 17 posts in the knowledge base, 2025-04-30 to 2026-10-02, mostly about development, administration, platform.
+> waldo's blog (waldo (Eric Wauters), MVP): 17 posts in the knowledge base, 2025-04-30 to 2026-10-02, mostly about development, platform, administration.
 
 [https://www.waldo.be](https://www.waldo.be) · blog · tier community · full text opted in
 
@@ -132,16 +126,15 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (18) | telemetry (9) | codeunit 1350 (1) |
-| administration (15) | troubleshooting (6) | codeunit implementation codeunit (1) |
-| platform (13) | performance (5) | codeunit ISC Process Update Queue Meth (1) |
-| reporting (11) | kql (3) | interface Invoice Posting Interface (1) |
-| copilot (4) | performance troubleshooting (3) | other BC Telemetry Buddy (1) |
-| integration (2) | vscode extension (3) | other bc-telemetry-buddy-mcp (1) |
-|  | ai (2) | other Fabric integration app (1) |
-|  | ai agents (2) | page Synchronization details (1) |
-|  | azure data explorer (2) | page Synchronization overview (1) |
-|  | community (2) | table Active Sessions (1) |
-|  |  | table Invoice Post. Buffer (1) |
+| platform (13) | troubleshooting (6) | codeunit ISC Process Update Queue Meth (1) |
+| administration (12) | performance (5) | interface Invoice Posting Interface (1) |
+| reporting (8) | kql (3) | other Fabric integration app (1) |
+| copilot (4) | performance troubleshooting (3) | page Synchronization details (1) |
+| integration (2) | vscode extension (3) | page Synchronization overview (1) |
+|  | ai (2) | table Active Sessions (1) |
+|  | ai agents (2) | table Invoice Post. Buffer (1) |
+|  | azure data explorer (2) |  |
+|  | community (2) |  |
 
 ## Flight path
 

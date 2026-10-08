@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11186",
+  "input_hash": "c4e071f7de80886b887e646587b10424ecd4fccac360b9ca1e202b74b651860a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:51.214Z",
+  "issues": [
+    "The description is only a work-item link, but the title and changed files (report 20 across localized layers plus added tests) support the page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016371,
+    "changes_in_call": 6
+  }
+}

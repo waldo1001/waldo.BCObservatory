@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/duiliotacconi-com/2117",
+  "input_hash": "f8de9a7f62e3a2d55fc1087bef61db23e7297723fd6e09929cbe48663469c26f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:12.946Z",
+  "issues": [
+    "Summary, key points, objects, versions and quotes match the post.",
+    "The integration system is not supported by the post, which only covers platform encoding behaviour and AL development."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031526,
+    "posts_in_call": 4
+  }
+}

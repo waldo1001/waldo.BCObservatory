@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10543",
+  "input_hash": "0a2ce853c5e762194ca21abfdf7a303cee08c86265defe7c9ee881a98ac58ac3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:24.573Z",
+  "issues": [
+    "Key point claiming no tax implications is not stated; description only says no QR code is included because documents are unposted."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024424,
+    "changes_in_call": 6
+  }
+}

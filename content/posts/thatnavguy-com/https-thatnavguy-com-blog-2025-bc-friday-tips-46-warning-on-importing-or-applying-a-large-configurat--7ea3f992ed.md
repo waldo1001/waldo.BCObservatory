@@ -13,12 +13,12 @@ tags:
   - user impact
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:23.060Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -38,13 +38,6 @@ evidence:
     commit: null
     t: null
     quote: Large packages can slow down performance and even block other users while they're being processed.
-  - kind: blog
-    url: https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/
-    title: "BC Friday Tips #46 Warning on Importing or Applying a Large Configuration Package"
-    date: "2025-09-05"
-    commit: null
-    t: null
-    quote: "Import: when the file is larger than 3MB. Apply: when the package has more than 5,000 records."
 links:
   learn: []
   objects:
@@ -66,8 +59,6 @@ words: 131
 quotes:
   - text: Large packages can slow down performance and even block other users while they're being processed.
     why_it_matters: Explains the business impact of large configuration packages on system availability and user productivity
-  - text: "Import: when the file is larger than 3MB. Apply: when the package has more than 5,000 records."
-    why_it_matters: Defines the exact thresholds that trigger performance warnings in Business Central
 code_objects_mentioned:
   - codeunit Config. Package Management
 systems:
@@ -88,7 +79,7 @@ preview:
 
 # BC Friday Tips #46 Warning on Importing or Applying a Large Configuration Package
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-05 · 131 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-46-warning-on-importing-or-applying-a-large-configuration-package/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-05 · 131 words · tier community · reviewed (checked by Opus)
 
 > Business Central warns when importing or applying large configuration packages because they can degrade performance and lock out users. Import warnings trigger at files over 3MB, and apply warnings trigger at packages with more than 5,000 records total.
 
@@ -102,7 +93,6 @@ preview:
 ## Quotes
 
 - "Large packages can slow down performance and even block other users while they're being processed." (Explains the business impact of large configuration packages on system availability and user productivity)
-- "Import: when the file is larger than 3MB. Apply: when the package has more than 5,000 records." (Defines the exact thresholds that trigger performance warnings in Business Central)
 
 ## AL objects mentioned
 
@@ -112,6 +102,6 @@ As named in the post. A name that matches one object page by exact type and name
 
 ## Context
 
-- Features: configuration package import, configuration package application, performance warnings, system load management
+- Features: configuration package import, configuration package application, performance warnings
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

@@ -7,11 +7,11 @@
   "words": 953,
   "summary": "BC28 introduces enhanced document reporting features including an improved Word add-in with a redesigned data picker, a new table builder for layouts, lifecycle status management for user-defined layouts, company-level default document language, tooltips on reports, modernized report selection pages, and 36 new document APIs covering sales, purchasing, inventory, and assembly document types.",
   "key_points": [
-    "The Word add-in's data picker redesign makes field insertion easier with double-click capability, auto-advancing cursors in tables, cross-item search, and dark mode support.",
-    "Table Builder preview feature lets users configure and insert full table structures in one dialog, eliminating manual column-by-column field insertion.",
-    "Layouts can now have lifecycle states (Draft, Pending Approval, Approved, Retired) visible only to admins, controlling which layouts appear to users on report request pages.",
-    "Company-level default language code setting resolves document language based on customer card, then company default, then user UI language.",
-    "36 new APIs provide integration access to previously unavailable document types across sales, purchasing, inventory, and assembly without custom AL code."
+    "The Word add-in data picker is redesigned: fields insert on double-click, the cursor moves to the next cell in tables, one search covers all data items, a new action shows metadata, and dark mode is supported.",
+    "Table Builder, still in preview, adds an Insert Table action that builds the header, repeater, mapped columns and an optional footer from a single dialog.",
+    "User-defined layouts can be Draft, Pending Approval, Approved or Retired. Only Approved ones appear on report request pages, and layouts shipped by extensions are not covered yet.",
+    "A new Default Language Code on Company Information is used after the customer card language and before the user's UI language.",
+    "36 new API endpoints cover sales, purchasing, inventory and assembly documents. The modernized report selection pages come in a later 28.x minor update."
   ],
   "systems": [
     "reporting",

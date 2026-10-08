@@ -6,15 +6,14 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Test code formatting corrected in the withholding tax payment test to clarify procedure boundaries and indentation, with no change to the test's functional behavior.",
+  "summary": "Fixes bug 647253 about withholding tax inconsistency with payments by changing the Withholding Tax Mgmt. codeunit. A test checks that posting a payment without a Purchases journal template fails with the expected missing template error.",
   "key_points": [
-    "Test setup, posting action, and validation statements were given consistent indentation",
-    "Procedure closing structure was corrected for clarity",
-    "The test still verifies posting fails when Purchases journal template is missing",
-    "No functional behavior changes to the application"
+    "Withholding Tax Mgmt. codeunit 6785 is modified to address the payments inconsistency bug",
+    "Test added that verifies posting fails when the Purchases journal template is missing",
+    "Description only mentions test formatting, which understates the app code change"
   ],
-  "change_kind": "refactor",
-  "behavior_change": false,
+  "change_kind": "fix",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

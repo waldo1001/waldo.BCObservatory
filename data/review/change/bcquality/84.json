@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/84",
+  "input_hash": "0710cb39b935c0358df17da0d6fed5ee065f7a52b0a6b0d014bd69921f6bda2d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:37.791Z",
+  "issues": [
+    "The description says the plugin works across CLIs (Copilot CLI and Claude Code), not only as a Claude plugin. It is also described as an experiment."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025175,
+    "changes_in_call": 6
+  }
+}

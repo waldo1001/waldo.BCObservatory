@@ -8,10 +8,8 @@
   ],
   "summary": "The E-Doc. Item Charge Mapping codeunit ID was corrected from 6532 to the properly assigned ID 6246.",
   "key_points": [
-    "Codeunit ID changed from 6532 to 6246",
-    "Fixes object identifier mismatch in EDocument module",
-    "One-line change in codeunit declaration",
-    "Ensures correct assignment of module resources"
+    "Codeunit E-Doc. Item Charge Mapping now uses its assigned ID 6246 instead of 6532",
+    "One-line change to the codeunit declaration in the E-Document app"
   ],
   "change_kind": "fix",
   "behavior_change": false,

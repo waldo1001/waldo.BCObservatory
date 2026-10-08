@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9464",
+  "input_hash": "fb1095cf20c6a99aa67e19cc4e30f63ddb8e96c722851daae0cbe74635111929",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:27.500Z",
+  "issues": [
+    "behavior_change should be false: the new event has no default effect.",
+    "One key point says the change itself gives line and item context in errors. Only subscribers can do that.",
+    "'All country layers' is not supported; only W1 and seven country layers were changed."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02234,
+    "changes_in_call": 6
+  }
+}

@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Shopify Copilot Tax Matching Agent adds a headless matching engine that uses AI to match Shopify tax lines to Business Central tax jurisdictions, creates tax areas, and includes comprehensive unit tests.",
   "key_points": [
-    "Implements tax matching engine with GPT-4.1 capability registration and deterministic provenance tracking",
-    "Builds or reuses Tax Areas and seeds Tax Details for matched jurisdictions",
-    "Includes configurable review-mode gate to hold Sales Document creation until human verification",
-    "Adds comprehensive test app with AITest suites, unit tests, and accuracy datasets for matching logic",
-    "Adds table extensions and permission sets to support tax matching workflow in Shopify connector"
+    "Registers a Copilot capability and calls GPT-4.1 to match Shopify tax-line titles to Business Central Tax Jurisdictions",
+    "Builds or reuses a Tax Area and seeds Tax Details",
+    "Tracks provenance (Created by Agent, Verified) and handles low-confidence matches deterministically",
+    "Configurable review-mode gate can hold Sales Document creation",
+    "Adds a test app with AITest suites, unit tests and accuracy datasets; the review UI ships in part 3"
   ],
   "change_kind": "feature",
   "behavior_change": true,

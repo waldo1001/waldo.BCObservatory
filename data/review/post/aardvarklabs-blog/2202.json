@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2202",
+  "input_hash": "6c8d94dd07ab3b6a9ec57389a46ec40e59a1840fa887cef4aeec3c1e55760d66",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:37.734Z",
+  "issues": [
+    "The post is about AL development code. Nothing in it supports the 'administration' system, so it is dropped.",
+    "Every listed object appears in the code samples, and the quote matches the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024211,
+    "posts_in_call": 4
+  }
+}

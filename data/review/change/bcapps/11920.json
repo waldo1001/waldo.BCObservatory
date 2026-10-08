@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11920",
+  "input_hash": "924ab20160aee5e557f96bfc419194af0f9b460f2e0e63b892f9f925e873cd1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:39.052Z",
+  "issues": [
+    "Claims about clarity and consistency are not supported by the PR",
+    "Line count key point adds nothing useful"
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018438,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12261",
+  "input_hash": "80fad0e24456cfc6d5fab451909ebae9572a2d44d344c409cfb59a09ee8c42b7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:54.887Z",
+  "issues": [
+    "Key point claiming the hundreds of reschedules per second 'have been eliminated' goes too far. The PR shows a local fix validated by tests, not a confirmed result in production.",
+    "The rest is supported: the extra Earliest Start Date/Time guard, the lock before SetTaskReady, the new internal procedure and tests T112/T113."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017484,
+    "changes_in_call": 6
+  }
+}

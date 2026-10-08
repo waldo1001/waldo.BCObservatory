@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10259",
+  "input_hash": "d37e0ed077fcbac7f8801a65ef3604681a2a3d97cdb39e9a18d46efb4129a5a1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:13.869Z",
+  "issues": [
+    "Summary left out the fallback for a routing line on another work center and said descriptions were blank when only Description 2 is meant."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024466,
+    "changes_in_call": 6
+  }
+}

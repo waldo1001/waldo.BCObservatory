@@ -4,13 +4,13 @@
   "title": "Add source-verified Finance knowledge and review domain",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Nine new finance domain knowledge articles with AL examples guide developers on proper ledger posting, entry application, dimension handling, and VAT processing to maintain financial data integrity.",
+  "summary": "Adds a Microsoft-owned Finance knowledge domain with nine articles, each paired with bad and good AL samples, plus a new al-finance-review skill. The articles cover posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance and Normal VAT amounts.",
   "key_points": [
-    "Nine atomic knowledge articles covering finance posting, ledger entry modification, dimension handling, and VAT processing",
-    "Each article includes bad and good AL code examples demonstrating mistakes and correct approaches",
-    "Articles address common mistakes like direct ledger modification, improper dimension copying, and fabricated settlement",
-    "Finance domain now owns pure G/L, customer/vendor/detailed/VAT and financial-posting records",
-    "Shared conventions match existing quality standards with leaf-count diagnostics and application-area usage"
+    "Nine Finance articles with eighteen bad/good AL sample companions",
+    "Rules target mistakes like direct ledger modification, copying only shortcut dimensions and fabricated settlement via status flags",
+    "New al-finance-review skill for reviewing code in the Finance domain",
+    "Finance owns G/L, customer/vendor, detailed and VAT records; item, value and warehouse records stay with SCM",
+    "All Finance articles use application-area all; leaf-count diagnostics follow the conventions from #192"
   ],
   "change_kind": "feature",
   "behavior_change": false,

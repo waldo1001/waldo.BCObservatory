@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9038",
+  "input_hash": "0e1ca776d50f372a7544877e0d165da7b1ec02bffeede11fc8872139a58e2bfb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:42.914Z",
+  "issues": [
+    "The description talks about users who are 'more than basic', meaning the Basic experience check (IsBasicOnlyEnabled). It does not mention permissions, so the permission wording is not supported.",
+    "The claim about elevated user roles is speculative.",
+    "The page change is in W1 only. CH, CZ, NL and W1 changes are test codeunits."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020503,
+    "changes_in_call": 6
+  }
+}

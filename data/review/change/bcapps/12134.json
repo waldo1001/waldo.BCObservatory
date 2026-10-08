@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12134",
+  "input_hash": "7bcb80a60f317ecb37fee06733c242bcf0a8fba7d922b1fe7edb822c11cabc0b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.402Z",
+  "issues": [
+    "Payment orders are issued rather than posted. The wording is slightly loose but not misleading.",
+    "Other points match the description, including the explicit deletion of approval entries and the new Approvals actions."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019837,
+    "changes_in_call": 6
+  }
+}

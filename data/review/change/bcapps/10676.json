@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10676",
+  "input_hash": "c19ec7a6ef8e7e8c9b16d6ba881d955d4dbf2ee11c0dbfea20737e01d87b2c57",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:30.913Z",
+  "issues": [
+    "The page matches the description of switching from Evaluate to ScriptDataTypeMgmt.Text2Number for tax rate validation and decimal range fields."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014692,
+    "changes_in_call": 6
+  }
+}

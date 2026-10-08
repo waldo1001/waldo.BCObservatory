@@ -8,11 +8,10 @@
   ],
   "summary": "The 'Greater Than' withholding tax calculation rule and other rule options are now applied correctly in withholding tax posting setup by replacing hard-coded threshold checks with a rule-aware procedure.",
   "key_points": [
-    "Fixed incorrect withholding tax calculations when using rules other than 'Less than'",
-    "Created a reusable ShouldCreateWithholdingTax procedure that respects the configured calculation rule",
-    "Updated threshold checks across multiple codeunits to use the new rule-aware logic instead of hard-coded comparisons",
-    "Withholding tax is now created or suppressed based on the actual configured rule, not always the 'Less than' rule",
-    "Added comprehensive tests to verify correct behavior for all calculation rule options"
+    "Withholding tax was created or suppressed wrongly when the calculation rule was not 'Less than'",
+    "New ShouldCreateWithholdingTax procedure in Withholding Tax Mgmt. respects the configured Wthldg. Tax Calculation Rule",
+    "Hard-coded Abs(Amount) < Min. Inv. Amount checks replaced in the journal subscriber, the management codeunit and the purchase subscriber codeunits",
+    "Tests added in the withholding tax test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

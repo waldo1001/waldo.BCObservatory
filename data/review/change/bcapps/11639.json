@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11639",
+  "input_hash": "bed7057563c2b1c28165c26da881b120d4b54d94ebf521eae06af310b11245b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:34.413Z",
+  "issues": [
+    "The summary reads approval limits as being for vendors. In the title, [VENDOR] most likely tags who did the work, and nothing given supports vendor-based approval limits.",
+    "The key point about vendor-based approval configuration is unsupported, and so is the claim that managers configure the limits.",
+    "The description is only a work item link, so the details of the routing logic can only be inferred from the changed objects."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015429,
+    "changes_in_call": 6
+  }
+}

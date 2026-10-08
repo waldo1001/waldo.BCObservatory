@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8752",
+  "input_hash": "cee0209a9c5edb479e139f2ac2e631cdc69d3c9449671079fd63eb70ec6442b8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:31.905Z",
+  "issues": [
+    "The page is accurate: actions are enabled per line through OnAfterGetCurrRecord, and a regression test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016704,
+    "changes_in_call": 6
+  }
+}

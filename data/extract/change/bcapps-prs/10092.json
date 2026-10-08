@@ -8,11 +8,11 @@
   ],
   "summary": "Two new cues on the Shopify Activities page display counts of skipped sync records and API errors, making background job issues visible without manually opening logs.",
   "key_points": [
-    "Added Skipped Records cue that counts records from background Shopify syncs and drills down to details",
-    "Added API Errors cue showing count of logged errors with red styling and drill-down to error logs",
-    "Both cues use FlowFields on the Shpfy Cue table for calculation",
-    "Addresses visibility gap where background job issues were invisible due to GuiAllowed restrictions",
-    "No breaking changes, purely additive cues following existing Shopify Activities patterns"
+    "Added a Skipped Records cue that counts all Shpfy Skipped Record entries, turns amber when above zero and drills down to the Skipped Records page",
+    "Added an API Errors cue that counts log entries with errors, turns red when above zero and drills down to error-filtered Log Entries",
+    "Two new FlowFields (10, 11) on the Shpfy Cue table back the cues",
+    "Makes skipped records and errors from background Job Queue syncs visible, since the skipped-record notification needs GuiAllowed",
+    "Additive only and follows the existing cue pattern; no breaking changes"
   ],
   "change_kind": "feature",
   "behavior_change": true,

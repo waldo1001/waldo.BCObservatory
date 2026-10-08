@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/156",
+  "input_hash": "1e7997c4b3dea72554c2e0a1b0de282142004a33216f73c51d212908197496d2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:57.446Z",
+  "issues": [
+    "The file list holds 17 articles, not 18: there are only two web-services articles (editable key fields on insert, stored derived fields). No CalcFields/FlowFields article was added, although the description lists one."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029713,
+    "changes_in_call": 6
+  }
+}

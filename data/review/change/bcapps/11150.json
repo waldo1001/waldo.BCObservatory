@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11150",
+  "input_hash": "4d9f003ce418e77fed77e43ad84d4c9c22cfd7f9648074bc1b7dbc1e91dee646",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:47.743Z",
+  "issues": [
+    "Matches the single-file change that restores DataClassification on the approver name field of Spend Request.",
+    "The compliance key point is a mild generalization but harmless."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019046,
+    "changes_in_call": 6
+  }
+}

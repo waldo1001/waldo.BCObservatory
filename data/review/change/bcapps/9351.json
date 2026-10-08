@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9351",
+  "input_hash": "eaa5fe24d6fe9562ca580fdea132dbe87cf889136e3e7bb5ea9c5816697c93ca",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "The title says the O(N²) detection took about 28% of batch CPU. It does not say CPU drops by 28%, so key point 3 overstates it.",
+    "The 'Refactored subscriber logic' point is vague."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

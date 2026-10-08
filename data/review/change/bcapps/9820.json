@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9820",
+  "input_hash": "e9b7e2752f69292a6f48c873bd81eef87ba0a0cc2959024d3f1bdba8ed13b9ba",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:56.369Z",
+  "issues": [
+    "Accurate: a one-line ReadIsolation hint before CalcFields(XML). The description states no observable behavior change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019834,
+    "changes_in_call": 6
+  }
+}

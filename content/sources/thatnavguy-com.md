@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 19268ae7b32a887852618f15b7dc5d3a38161231e52f47c5c37e218955b1bdfd
@@ -116,11 +116,11 @@ footprint:
     - id: development
       weight: 66
     - id: administration
-      weight: 30
-    - id: platform
       weight: 26
+    - id: platform
+      weight: 25
     - id: integration
-      weight: 12
+      weight: 11
     - id: reporting
       weight: 11
     - id: finance
@@ -151,12 +151,6 @@ footprint:
       weight: 4
     - id: table Sales Invoice Header
       weight: 3
-    - id: api api
-      weight: 1
-    - id: api Exclude_APIV2
-      weight: 1
-    - id: codeunit codeunit
-      weight: 1
     - id: codeunit Config. Package Management
       weight: 1
     - id: codeunit Dimension CaptionClass Mgmt
@@ -170,6 +164,12 @@ footprint:
     - id: codeunit Item Jnl.-Post Batch
       weight: 1
     - id: codeunit Item Jnl.-Post Line
+      weight: 1
+    - id: codeunit Math
+      weight: 1
+    - id: codeunit Prod. Order Status Management
+      weight: 1
+    - id: codeunit Regex
       weight: 1
   features: []
 first_item: "2025-04-11"
@@ -187,17 +187,17 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (66) | al development (21) | table Sales Header (4) |
-| administration (30) | user experience (9) | table Sales Invoice Header (3) |
-| platform (26) | best practices (6) | api api (1) |
-| integration (12) | extensions (6) | api Exclude_APIV2 (1) |
-| reporting (11) | developer tools (5) | codeunit codeunit (1) |
-| finance (10) | performance (5) | codeunit Config. Package Management (1) |
-|  | codeunit (4) | codeunit Dimension CaptionClass Mgmt (1) |
-|  | troubleshooting (4) | codeunit Filter Tokens (1) |
-|  | vs code (4) | codeunit Gen. Jnl.-Post Batch (1) |
-|  | ai (3) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
-|  |  | codeunit Item Jnl.-Post Batch (1) |
-|  |  | codeunit Item Jnl.-Post Line (1) |
+| administration (26) | user experience (9) | table Sales Invoice Header (3) |
+| platform (25) | best practices (6) | codeunit Config. Package Management (1) |
+| integration (11) | extensions (6) | codeunit Dimension CaptionClass Mgmt (1) |
+| reporting (11) | developer tools (5) | codeunit Filter Tokens (1) |
+| finance (10) | performance (5) | codeunit Gen. Jnl.-Post Batch (1) |
+|  | codeunit (4) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
+|  | troubleshooting (4) | codeunit Item Jnl.-Post Batch (1) |
+|  | vs code (4) | codeunit Item Jnl.-Post Line (1) |
+|  | ai (3) | codeunit Math (1) |
+|  |  | codeunit Prod. Order Status Management (1) |
+|  |  | codeunit Regex (1) |
 
 ## Flight path
 

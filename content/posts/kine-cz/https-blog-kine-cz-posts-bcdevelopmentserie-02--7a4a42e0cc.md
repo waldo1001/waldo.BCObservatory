@@ -15,12 +15,12 @@ tags:
   - code-review
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:09.637Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -62,16 +62,12 @@ quotes:
   - text: AI is good servant but bad master
     why_it_matters: Summarizes the core principle that AI is a tool requiring human judgment and oversight, not a replacement for developer expertise and decision-making.
 code_objects_mentioned:
-  - codeunit PostSalesOrder
   - codeunit 50100
   - codeunit 50200
-  - codeunit ProcessPurchaseOrder
-  - table Customer Card
   - table Currency Exchange Rate
 systems:
   - development
   - platform
-  - copilot
 versions_mentioned: []
 preview:
   embeddable: true
@@ -87,7 +83,7 @@ preview:
 
 # Business Central Development Serie - Part 2: Using AI for BC development
 
-[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02/) · Kine's info (Kamil Sacek, MVP) · 2026-03-10 · 4113 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02/) · Kine's info (Kamil Sacek, MVP) · 2026-03-10 · 4113 words · tier community · reviewed (checked by Opus)
 
 > AI tools can accelerate Business Central development when used responsibly with clear guidelines, proper security practices, and human oversight. Success requires understanding AI limitations, establishing coding standards before deployment, implementing CI/CD pipelines, and maintaining developer accountability for code quality and business logic.
 
@@ -107,14 +103,11 @@ preview:
 
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
-- codeunit "PostSalesOrder"
 - codeunit "50100"
 - codeunit "50200"
-- codeunit "ProcessPurchaseOrder"
-- table "Customer Card"
 - [table 330 "Currency Exchange Rate"](../../objects/table/330.md)
 
-Not found in BC28-30: codeunit "PostSalesOrder", codeunit "50100", codeunit "50200", codeunit "ProcessPurchaseOrder", table "Customer Card".
+Not found in BC28-30: codeunit "50100", codeunit "50200".
 
 ## Context
 

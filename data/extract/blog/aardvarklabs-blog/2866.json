@@ -7,10 +7,11 @@
   "words": 1134,
   "summary": "The post demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code without specialized XML codeunits. It walks through a practical example of extracting purchase order data from an XML file and populating custom tables, highlighting the hierarchical node-based navigation required for XML parsing.",
   "key_points": [
-    "XML files use strict hierarchical structures with nodes and attributes that allow predictable navigation compared to JSON formats",
-    "The example uses XmlDocument, XmlNodeList, XmlNode, and XmlElement objects to recursively drill through nested XML elements",
-    "cXML is a 1999 standard for commerce data exchange but real-world implementations often deviate from strict schema definitions, requiring manual exception handling",
-    "The ParseXML procedure extracts vendor IDs, order headers, line items with quantities, part IDs, descriptions, unit prices, and unit of measure from a sample purchase order"
+    "XML is meant to follow a schema (XSD), so code can select fixed node paths and expect the data to be there, unlike typical JSON handling",
+    "The example uses only the built-in XmlDocument, XmlNodeList, XmlNode, XmlElement and attribute types, with nested loops over child elements and no helper codeunits",
+    "cXML dates from 1999, but in practice sources often ignore the definitions, so each one needs its own exception handling",
+    "ParseXML reads the vendor ID, order date and ID, and line quantity, part ID, description, price, currency and unit of measure into custom header and line tables",
+    "The author found the manual approach painful and asks whether readers use XMLports instead"
   ],
   "systems": [
     "integration",
@@ -26,10 +27,6 @@
     "vendor data"
   ],
   "objects": [
-    {
-      "type": "codeunit",
-      "name": "ParseXML procedure"
-    },
     {
       "type": "table",
       "name": "ARD_cXMLPOHeader"

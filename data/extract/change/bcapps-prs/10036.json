@@ -7,15 +7,15 @@
     "development",
     "crm"
   ],
-  "summary": "Sales Order Agent now correctly maps unknown senders to alternative contacts and routes replies to the mapped contact's email address while preserving thread context and original recipients.",
+  "summary": "Fixes Sales Order Agent contact lookup and reply routing when a sender's email is mapped to a different contact. Lookup, filtering and recipient resolution now consider E-Mail 2 and the task contact override, and replies go to the mapped contact's primary email in the same thread.",
   "key_points": [
-    "Contact lookup resolves sender mappings stored in SOA Task Contact Override",
-    "E-Mail 2 field on Contact table stores alternate email addresses for persistent mappings",
-    "Reply routing respects contact mappings and addresses replies to the mapped contact's primary email",
-    "Contact List exposes OnBeforeFindRecord event handled only during SOA sessions",
-    "Agent instructions updated to accept mapped contacts without requiring user confirmation"
+    "Contact lookup resolves the contact stored in SOA Task Contact Override for the active input message",
+    "Lookup, security filtering and known-sender checks consider both E-Mail and E-Mail 2",
+    "Replies stay in the original thread but are addressed to the mapped contact, keeping CC and BCC",
+    "New Contact List OnBeforeFindRecord event, with the subscriber bound only during SOA sessions",
+    "Agent instructions treat the mapped contact as authoritative instead of asking for help over the mismatch"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

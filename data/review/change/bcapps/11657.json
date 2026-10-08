@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11657",
+  "input_hash": "3282546139202dc4bec605a2adefa9d422be7e5d554b0bf9b8e04b29dfc5fa6e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.300Z",
+  "issues": [
+    "Key point 5 has two errors. They are failing tests, not failing mocks. They need a local mock service, not a live VIES service, and they run only in the NAV uptake gate."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019056,
+    "changes_in_call": 6
+  }
+}

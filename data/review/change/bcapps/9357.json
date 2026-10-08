@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9357",
+  "input_hash": "5589fbaa1adb41b57787c14f8f5854f3d5ad8aad407418a453d1344821ae0141",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:22.579Z",
+  "issues": [
+    "Content matches the description: hidden field after Price, available via personalization, maps to table field 7."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015263,
+    "changes_in_call": 6
+  }
+}

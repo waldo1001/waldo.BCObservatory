@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/how-to-write-error-messages-that-help/",
+  "input_hash": "0e2655adf0ba8c28c11ce93191128eea7c74c58a9502e55bad98f74d6f588193",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:14.122Z",
+  "issues": [
+    "Administration system is not supported; the post is about how developers write error messages, not admin tasks.",
+    "Quote uses a hyphen where the post has a dash, but the wording matches."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036874,
+    "posts_in_call": 4
+  }
+}

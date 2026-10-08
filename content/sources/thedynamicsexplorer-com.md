@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e06792e46e099b2169473c9c7b0805dd7bfa80d01f07ebec493fb74b0740f3af
@@ -67,11 +67,11 @@ footprint:
     - id: purchasing
       weight: 9
     - id: reporting
-      weight: 8
-    - id: administration
-      weight: 6
+      weight: 7
     - id: sales
       weight: 6
+    - id: administration
+      weight: 4
     - id: inventory
       weight: 4
   topics:
@@ -114,11 +114,11 @@ footprint:
       weight: 2
     - id: other Allocation Accounts
       weight: 1
-    - id: other Allowed Values Filter
-      weight: 1
     - id: other Breakdown account balance filters
       weight: 1
     - id: other General Journal
+      weight: 1
+    - id: other General Ledger Account Card
       weight: 1
   features: []
 first_item: "2025-04-11"
@@ -137,16 +137,16 @@ last_item: "2026-05-18"
 |---|---|---|
 | finance (23) | migration (4) | page General Ledger Entries (3) |
 | purchasing (9) | purchase invoices (4) | page Cash Receipt Journal (2) |
-| reporting (8) | dimensions (3) | page Chart of Accounts (2) |
-| administration (6) | dynamics gp (3) | page Customer List (2) |
-| sales (6) | general ledger (3) | page GP Company Migration Configuration (2) |
+| reporting (7) | dimensions (3) | page Chart of Accounts (2) |
+| sales (6) | dynamics gp (3) | page Customer List (2) |
+| administration (4) | general ledger (3) | page GP Company Migration Configuration (2) |
 | inventory (4) | analysis mode (2) | page Inventory Setup (2) |
 |  | chart of accounts (2) | page Purchase Invoice (2) |
 |  | document numbering (2) | page Purchase Lines (2) |
 |  | inventory management (2) | other Allocation Accounts (1) |
-|  | journal posting (2) | other Allowed Values Filter (1) |
-|  |  | other Breakdown account balance filters (1) |
+|  | journal posting (2) | other Breakdown account balance filters (1) |
 |  |  | other General Journal (1) |
+|  |  | other General Ledger Account Card (1) |
 
 ## Flight path
 

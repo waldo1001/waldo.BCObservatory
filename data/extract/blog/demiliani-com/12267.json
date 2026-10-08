@@ -7,11 +7,11 @@
   "words": 328,
   "summary": "Business Central version 27 introduces the Rec.Truncate AL method to enable efficient bulk deletion of table rows in SaaS environments. This method supports filters and AutoIncrement field management but has limitations including no support for OnDelete triggers, media fields, or use within try functions.",
   "key_points": [
-    "New Rec.Truncate method in version 27 allows efficient bulk deletion matching filters with fewer operations than DeleteAll",
-    "Method requires delete permission and no security filters on the table to execute",
-    "When used with filters, the platform copies data to temporary table for overhead; recommended only for significant row deletions",
-    "Does not support tables with OnDelete triggers, media/mediaset fields, try functions, or filters on FlowFields",
-    "AutoIncrement fields can be reset to 0 or set to their pre-truncation value through method parameters"
+    "Business Central version 27 adds the AL method Rec.Truncate on the Record API to delete table rows matching filters as efficiently as possible",
+    "Parameters let you check whether a table cannot be truncated and choose whether AutoIncrement fields restart at 0 or keep their previous value",
+    "With filters, the platform moves the kept data to a temporary table and back, so filters are only worth using when deleting many rows",
+    "The user needs delete permission and must have no security filters on the table",
+    "Not supported: tables with OnDelete triggers or event subscriptions, media or mediaset fields, use inside try functions, and filters on FlowFields; IF Rec.Truncate THEN can be used to fall back to DeleteAll"
   ],
   "systems": [
     "development",

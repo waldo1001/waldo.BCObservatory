@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9688",
+  "input_hash": "b4d5b14f2ec5c89c6d8424c6805777d4f695973c6ac2c33144f8ae2cae71a166",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:35.207Z",
+  "issues": [
+    "breaking is set to true without support. The description says the publisher parameter name was kept specifically to avoid breaking changes. The title's 'hidden breaking change' refers to the existing v28 check that is being fixed.",
+    "The summary claims a new explicit verification procedure. In fact, an explicit Get check was added inside the existing VerifySalesHeaderExists.",
+    "The Purchase Line names are inferred from the description's 'symmetrical changes'. The key points now state this more cautiously."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024675,
+    "changes_in_call": 6
+  }
+}

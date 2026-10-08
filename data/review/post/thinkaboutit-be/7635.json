@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/7635",
+  "input_hash": "468b9252fea74d963622d3fce7cc939350ee39b37c8709cdb7495e287a5d0610",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:14.110Z",
+  "issues": [
+    "Copilot is not mentioned anywhere in the post; dropped that system.",
+    "Summary, key points, features and quotes are supported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034523,
+    "posts_in_call": 4
+  }
+}

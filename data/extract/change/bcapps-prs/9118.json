@@ -8,13 +8,13 @@
     "inventory",
     "manufacturing"
   ],
-  "summary": "Batch of bug fixes addressing issues across sales, inventory, and manufacturing modules including corrections to line item handling, journal posting, and production order calculations.",
+  "summary": "A batch of changes linked to 11 ALAppExtensions GitHub issues, touching Sales Line, Sales Shipment Line, Item Jnl.-Post Line, Prod. Order Component, Calculate Prod. Order, routing, planning, availability check and item budget Excel reports across W1 and several localization layers. The description does not say what each change does.",
   "key_points": [
-    "Fixes applied to Sales Line and Sales Shipment Line across multiple localization layers",
-    "Item Journal Post Line codeunit corrected across regional versions",
-    "Production Order Component and routing line calculation issues resolved",
-    "Item availability checking and planning parameter retrieval improved",
-    "Import and export of item budget reports enhanced"
+    "Groups changes for 11 ALAppExtensions GitHub issues and 11 work items",
+    "Sales Line and Sales Shipment Line changed in W1 and many localization layers",
+    "Item Jnl.-Post Line changed in W1, APAC, CH, ES, IT and RU",
+    "Prod. Order Component, Calculate Prod. Order, Calculate Routing Line, Planning-Get Parameters and Item-Check Avail. changed",
+    "Export and Import Item Budget Excel reports changed"
   ],
   "change_kind": "fix",
   "behavior_change": true,

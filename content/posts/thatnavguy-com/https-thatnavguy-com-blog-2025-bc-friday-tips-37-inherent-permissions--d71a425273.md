@@ -12,12 +12,12 @@ tags:
   - inherent permissions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:27.323Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -94,7 +94,7 @@ preview:
 
 # BC Friday Tips #37 Inherent Permissions
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-07-04 · 77 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-37-inherent-permissions/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-07-04 · 77 words · tier community · reviewed (checked by Opus)
 
 > Inherent Permissions in AL allow developers to grant temporary access during code execution without assigning permissions to individual users. This reduces permission management overhead and improves security by controlling access through code rather than user assignments.
 

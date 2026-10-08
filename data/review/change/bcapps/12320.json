@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12320",
+  "input_hash": "5d117ceb1aae7b66c2adb08f9984f2a6fe5a577c5aadd82e6927ecdfaa01d5a5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:06.528Z",
+  "issues": [
+    "behavior_change should be true. GetEnvironmentDescription no longer inserts the Environment Information row on read, so the row is now created on first write. The return value stays the same.",
+    "The key point claiming the 409 is resolved overstates it. The author was not sure the NAV runner uses isolation, and the tests were not run.",
+    "The restore of the original descriptions applies only to TestGetCompanyAndEnvironmentDescriptions, after its GET."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022455,
+    "changes_in_call": 6
+  }
+}

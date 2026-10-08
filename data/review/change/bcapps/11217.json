@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11217",
+  "input_hash": "134a10d295a31edfb27ea216be3dfa023fc07fb2da44ee9c62cde2065dc98654",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:59.187Z",
+  "issues": [
+    "Matches the description: certificate capture for items and lots, propagation through purchase and sales lines, the commodity enum, the tracking codeunit, the report and permissions."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028859,
+    "changes_in_call": 6
+  }
+}

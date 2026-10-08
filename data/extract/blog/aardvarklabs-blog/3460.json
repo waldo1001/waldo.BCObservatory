@@ -5,7 +5,7 @@
   "source": "aardvarklabs-blog",
   "published_at": "2026-05-15T12:00:00.000Z",
   "words": 1571,
-  "summary": "Native SFTP support was briefly introduced in Business Central 28 via a new SFTP Client codeunit, enabling asynchronous file operations with external servers. However, Microsoft removed this feature due to security hardening concerns, requiring users to use Azure Functions as an alternative for SFTP connectivity.",
+  "summary": "Business Central 28 added a native SFTP Client codeunit (ID 9762) for listing, uploading, downloading and deleting files on SFTP servers from AL code. The author shows a sample that keeps the connection settings in Isolated Storage. An update says Microsoft has since decided to remove or deprecate the module because of platform hardening, so SFTP will again need alternatives such as Azure Functions.",
   "key_points": [
     "SFTP Client codeunit (ID 9762) provided native SFTP operations: list files, upload, download, and delete",
     "Feature was removed after initial release due to platform hardening requirements and scope concerns",

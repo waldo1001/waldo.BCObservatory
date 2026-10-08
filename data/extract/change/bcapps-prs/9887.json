@@ -8,14 +8,13 @@
   ],
   "summary": "Table 6845 'Spend Request To G/L Link' is configured to exclude data replication, aligning with its parent Spend Request tables that already have this setting.",
   "key_points": [
-    "Adds ReplicateData = false property to the Spend Request To G/L Link table",
-    "Ensures consistency with parent Spend Request tables which already exclude replication",
+    "Adds ReplicateData = false to table 6845 Spend Request To G/L Link",
+    "The link table is now excluded from data replication, like the parent Spend Request tables",
     "Resolves a cloud migration guard failure for an unreviewed table",
-    "Low-risk metadata correction with no behavioral changes",
-    "No new tests needed as this is a property alignment only"
+    "No tests added because this is only a table property change"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

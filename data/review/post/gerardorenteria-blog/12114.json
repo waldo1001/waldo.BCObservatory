@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12114",
+  "input_hash": "648d692e0e5403f73960b12195891d1241a9528a828dd6adebfabc4f1a60f094",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:23.708Z",
+  "issues": [
+    "Summary added an unsupported purpose about guiding product priorities.",
+    "Key point described item personalization; the post only mentions personalizing more shelf number fields.",
+    "Version value is a month label rather than a product version, but it cannot be edited here."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02761,
+    "posts_in_call": 4
+  }
+}

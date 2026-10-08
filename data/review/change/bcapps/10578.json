@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10578",
+  "input_hash": "7021ecb8b7b83c839bec620903c8f2240109708f209dc556971f329091842f8b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:15.614Z",
+  "issues": [
+    "The four event names, the read-only RecordRef parameters and the same-table mapping scenario all match the description.",
+    "Additive events: feature, no behavior change, not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022352,
+    "changes_in_call": 6
+  }
+}

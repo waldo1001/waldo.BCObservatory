@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9422",
+  "input_hash": "8f43739ede7dca568bd01caf1fb8954046e7d02f28270f730667427ec15bd681",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:59.557Z",
+  "issues": [
+    "The content matches the description. The work is linked as a bug fix, but the change relaxes a guard to allow new edits, so feature is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018172,
+    "changes_in_call": 6
+  }
+}

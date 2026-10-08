@@ -7,11 +7,11 @@
   "words": 174,
   "summary": "Business Central update 28.1 enables deploying custom agents to production environments and introduces GPT-5.3-chat as the default model for Copilot, rolling out from May to June. A new UI setting lets users view and select models for custom agents, with programmatic control via AL methods coming soon.",
   "key_points": [
-    "Custom Business Central agents can now be deployed to production starting with update 28.1",
-    "GPT-5.3-chat becomes the default model for Copilot, rolling out gradually across regions",
-    "New UI on the Agents page displays current model usage and allows model selection",
-    "Model selection can be controlled programmatically through AL methods",
-    "Existing agents automatically use the new model when available in the tenant"
+    "Starting with update 28.1, custom Business Central agents can be deployed to production environments",
+    "GPT-5.3-chat becomes the default Copilot model, rolling out gradually across regions between May and June",
+    "A new setting on the Agents page shows which model each custom agent uses and lets you pick another",
+    "An AL method to set the model from code is announced but not yet available",
+    "Existing agents switch to the new model on their own, but the author advises testing them once the model selector appears"
   ],
   "systems": [
     "copilot",

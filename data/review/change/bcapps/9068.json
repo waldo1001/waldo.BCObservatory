@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9068",
+  "input_hash": "bb44a976eef83452bc756a47dc79e0256ca1e8a011c619923b02567821e27331",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.512Z",
+  "issues": [
+    "The summary says an 'event request was added'. The change actually adds the requested event OnBeforeCheckFreelyTransferableMaximumAmount, so the wording is fixed.",
+    "The rest of the page is supported: the codeunit is in the NL layer, and adding an event changes no behaviour."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014869,
+    "changes_in_call": 6
+  }
+}

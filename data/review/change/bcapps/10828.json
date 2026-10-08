@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10828",
+  "input_hash": "561ad766c2594820c6a8139a539b37e2ebcc9c695da98e20a474ffeeaa48fc2f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:51.214Z",
+  "issues": [
+    "Summary and key points match the description: HasContent() now uses stored data, FactBox refresh makes no provider calls, export and preview fail explicitly, Expense Agent hash updates are best effort.",
+    "The page leaves out that the old file-existence helper was removed and that batch ZIP export now fails on missing files. Minor gaps only."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016371,
+    "changes_in_call": 6
+  }
+}

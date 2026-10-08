@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2921",
+  "input_hash": "da309d2e3c23cead0ca24621dc09b742174a8e19580a3a9fa7f358ca730bc9e9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:54.941Z",
+  "issues": [
+    "Second key point says the podcasts covered AI, workflow and AL Development; in the post those were topics discussed at events, and the podcasts were MVPbuzzChat, Dynamics Corner and a DUG Diverse Minds talk on diversity.",
+    "Systems copilot and integration are not supported; the post does not mention Copilot or integration work.",
+    "Features AI capabilities and Workflow automation are only conversation topics, not BC features the post describes."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 feature(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033875,
+    "posts_in_call": 4
+  }
+}

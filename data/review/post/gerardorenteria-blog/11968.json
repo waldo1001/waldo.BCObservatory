@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11968",
+  "input_hash": "7d5f50f230476064606d15fd9ee158133008c5aa01a383c061ed2b17c3947a49",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:23.060Z",
+  "issues": [
+    "Key point 2 calls the FactBox a Related Record FactBox shown on any card. In the post, Related Record is a section on the task card, and the FactBox is called User Tasks; the post adds it to the Customer Card as an example. Key points rewritten.",
+    "PTECustomerCardExt is a page extension, not a page, but the post does name it, so it is kept.",
+    "The post is in Spanish and English; the content is about Business Central."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026167,
+    "posts_in_call": 4
+  }
+}

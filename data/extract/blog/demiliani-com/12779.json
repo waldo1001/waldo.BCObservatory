@@ -7,15 +7,14 @@
   "words": 1164,
   "summary": "LLMEvaluator is a Windows application for systematically comparing Azure OpenAI models across custom tasks by measuring response time, token consumption, costs, and ROI indicators. It helps organizations select the best AI model for their specific needs by running concurrent evaluations and providing comprehensive performance metrics.",
   "key_points": [
-    "Evaluation requires defining metrics aligned with your specific use case (accuracy, speed, relevance, etc.), not relying solely on public benchmarks",
-    "LLMEvaluator runs concurrent Azure OpenAI model evaluations using semaphore-based throttling to compare performance in parallel",
-    "The application measures eight key metrics including response time, token consumption, throughput, cost estimation, and compression ratio",
-    "ROI indicator (1-10 scale) combines response time (45%), cost (45%), and output tokens (10%) to recommend the best model for your task",
-    "Models are configured in appsettings.json with endpoints, API keys, deployment names, and per-million-token pricing for cost comparisons"
+    "Choose evaluation metrics that fit your own use case and use public benchmarks only to shortlist models",
+    "LLMEvaluator runs one prompt against several Azure OpenAI models in parallel, using semaphore-based throttling",
+    "Metrics include response time, token usage, throughput, token efficiency, context utilization, cost estimate and compression ratio",
+    "A 1 to 10 ROI score weights response time 45%, cost 45% and output tokens 10%, and ranks the top three models",
+    "Instances, models and per-million-token prices are set in appsettings.json, and .NET 9.0 or later is required"
   ],
   "systems": [
     "copilot",
-    "integration",
     "development"
   ],
   "topics": [

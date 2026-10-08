@@ -6,10 +6,9 @@
   "systems_joined": [],
   "summary": "An Austrian localization issue where new employees created from templates lacked an employee posting group assignment has been fixed by applying the EMPLEXP posting group to employee templates.",
   "key_points": [
-    "ADMINISTRATION and IT employee templates now have an employee posting group assigned",
-    "The Austrian localization subscriber previously cleared the field, now it assigns EMPLEXP",
-    "Demo employees generated from these templates now receive the correct posting group",
-    "Tests added to verify posting groups on templates and generated demo employees"
+    "ADMINISTRATION and IT employee templates in the AT demo data now get an employee posting group",
+    "The AT subscriber used to clear the field and now assigns EMPLEXP",
+    "Demo employees created from these templates now carry the posting group"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2333",
+  "input_hash": "e774db5f86be90861716d7e8f8737d07fb34333d46f104c46c5092950217a30c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:08.766Z",
+  "issues": [
+    "The post is a short intro followed by a list of links to six import guides. The summary and key points fit that, but they read a little as if the post explains the patterns itself.",
+    "Nothing in the post supports the administration system; it covers development and integration only.",
+    "Quote 3 is a fragment with changed capitalization and only restates the generic goal, so it adds little."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028405,
+    "posts_in_call": 4
+  }
+}

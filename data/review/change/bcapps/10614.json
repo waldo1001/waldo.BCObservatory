@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10614",
+  "input_hash": "7368c6d0e46f441b96c5b6f7df87b29b9550ff35e644fb4bce8c268934b8dda0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:58.087Z",
+  "issues": [
+    "Caption and FactBox renaming is a UI wording improvement, not a new feature; change_kind set to other"
+  ],
+  "applied": [
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023537,
+    "changes_in_call": 6
+  }
+}

@@ -6,10 +6,10 @@
   "systems_joined": [],
   "summary": "Fixed discrepancy between invoice printout and PEPPOL XML totals in Belgium when payment discounts are applied by correcting how taxable amounts are calculated.",
   "key_points": [
-    "Added PEPPOL tax calculation logic for Belgian payment discount handling",
-    "Created test codeunit to verify payment discount calculations",
-    "Extended PEPPOL format enumeration for new calculation type",
-    "Ensures taxable amount is correctly computed as total minus discount percentage"
+    "Added codeunit PEPPOL30 BE Tax Info for Belgian tax amounts with payment discount",
+    "Updated the PEPPOL 3.0 Format BE enum extension alongside the new codeunit",
+    "Taxable amount is based on the total minus the payment discount percentage",
+    "Added a test codeunit covering payment discount scenarios"
   ],
   "change_kind": "fix",
   "behavior_change": true,

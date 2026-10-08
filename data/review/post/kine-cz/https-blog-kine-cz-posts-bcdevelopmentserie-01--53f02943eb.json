@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-01/",
+  "input_hash": "5e51047b5c28a691a80b6e148e9868c0c3d6fc41b9162439a1302c73d7464038",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:31.818Z",
+  "issues": [
+    "A key point claims 11 topics. The plan lists 10 entries including this introduction, and the key point leaves out the AI usage part.",
+    "The post does not support the integration system."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037669,
+    "posts_in_call": 4
+  }
+}

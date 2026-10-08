@@ -7,11 +7,11 @@
   "words": 1951,
   "summary": "VS Code Agent Hooks allow developers to automatically run scripts at specific lifecycle events to provide dynamic context to AI agents before and during sessions. The post demonstrates how to use SessionStart and PreCompact hooks to ask onboarding questions, store answers, and reinject context when conversations are compacted, enabling agents to adapt their behavior based on project type, technology stack, and experience level.",
   "key_points": [
-    "Agent hooks execute at 8 defined lifecycle points and receive/respond with JSON to influence agent behavior",
-    "SessionStart hook fires once when a session begins and can ask questions to establish context before any user input",
-    "PreCompact hook fires before conversation compaction to re-inject onboarded context so the agent doesn't lose session information",
-    "Hooks use JSONL files to persistently store session answers and profiles (junior, mid, senior) to tailor agent responses",
-    "Hooks provide dynamic runtime context complementary to instructions and custom prompts, not replacing them"
+    "Agent hooks are commands or scripts that VS Code runs at eight lifecycle events, receiving event data as JSON and replying with JSON to steer the agent.",
+    "Hook definitions are JSON files placed in .github/hooks and load automatically with no extra configuration.",
+    "A SessionStart hook runs once per new session and has the agent ask about stack, experience level and project type, then save the answers to a JSONL file.",
+    "Markdown profiles for junior, mid and senior developers adjust agent behavior based on the onboarding answers.",
+    "A PreCompact hook reads the saved answers and active profile before conversation compaction and reinjects them so context is not lost."
   ],
   "systems": [
     "development",

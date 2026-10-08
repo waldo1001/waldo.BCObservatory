@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Fixed incorrect duplicate detection when moving an expense report line between open reports by excluding the source line from the validation check.",
+  "summary": "Moving an expense report line to another open expense report no longer raises a false duplicate expense violation. The duplicate check no longer compares the moved line against its own source line.",
   "key_points": [
-    "Duplicate validation now excludes the originating line when a line is moved to another report",
-    "Prevents false duplicate warnings when relocating expense report lines",
-    "True duplicates within or across reports are still detected correctly",
-    "Updated tests to cover the move scenario"
+    "The duplicate check no longer treats a moved line as a duplicate of its originating line",
+    "Removes false duplicate warnings when a line is moved between open expense reports",
+    "Real duplicates within or across reports, including posted ones, should still be detected",
+    "Small change (+2 -2) in the Expense Report Line table of the Expense Agent app"
   ],
   "change_kind": "fix",
   "behavior_change": true,

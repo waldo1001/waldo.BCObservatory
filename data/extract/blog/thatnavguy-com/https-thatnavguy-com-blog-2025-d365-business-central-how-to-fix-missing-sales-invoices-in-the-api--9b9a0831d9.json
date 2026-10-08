@@ -7,10 +7,10 @@
   "words": 162,
   "summary": "The Sales Invoices API in Business Central aggregates posted and unposted invoices from two source tables. When invoices are missing from the API results, running the API Data Upgrade process from the API Data Upgrade List page resolves the issue by synchronizing the underlying Sales Invoice Entity Aggregate table.",
   "key_points": [
-    "The Sales Invoices API consolidates data from Sales Header (unposted) and Sales Invoice Header (posted) tables",
-    "Missing invoices indicate the Sales Invoice Entity Aggregate table is out of sync",
-    "The API Data Upgrade process must be scheduled and run as a job queue entry to restore missing data",
-    "Run the upgrade outside business hours for optimal performance"
+    "The Sales Invoices API is built on the Sales Invoice Entity Aggregate table, which combines unposted invoices from Sales Header with posted ones from Sales Invoice Header",
+    "Missing invoices in the API most likely mean the aggregate table did not update properly",
+    "Fix: on the API Data Upgrade List page, select SALES INVOICES and choose Schedule Upgrades, which creates a Job Queue Entry",
+    "Schedule the job queue entry, ideally outside business hours; when it finishes, the missing invoices should appear in the API"
   ],
   "systems": [
     "integration",

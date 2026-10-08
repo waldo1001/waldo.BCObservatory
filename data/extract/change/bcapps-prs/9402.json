@@ -8,11 +8,11 @@
   ],
   "summary": "RSA private key import from PEM format now works correctly by using the proper RSA cryptographic service provider type instead of the base RSA type.",
   "key_points": [
-    "Fixed runtime failure when calling RSA.ToSecretXmlString with PEM private keys",
-    "RSAEncryptionHelper.ImportFromPem now receives the correct RSACryptoServiceProvider type",
-    "PEM key material remains wrapped as SecretText outside debuggable boundaries",
-    "Added test coverage for private key PEM import functionality",
-    "Public API unchanged; low risk update"
+    "Fixes a runtime failure when RSA.ToSecretXmlString is called with a PEM private key",
+    "The PEM is now imported into the RSACryptoServiceProvider type that RSAEncryptionHelper.ImportFromPem requires",
+    "PEM key material stays wrapped as SecretText outside the existing non-debuggable helper",
+    "The test app gets friend access so it can reuse the internal PEM export helper",
+    "A test was added for importing a private key from PEM. The public API is unchanged"
   ],
   "change_kind": "fix",
   "behavior_change": true,

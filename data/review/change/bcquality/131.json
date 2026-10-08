@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/131",
+  "input_hash": "f41730f7c893a0dd0e7a93359894ef974bc50d52df0c74131fbf35caeab3f3ee",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:40.738Z",
+  "issues": [
+    "Key point on the 19 BCApps comments is muddled: those comments were false positives caused by the old guidance requiring redundant field-level declarations, and the fix suppresses them.",
+    "Summary wording 'false-positive guidance violations' is imprecise."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034954,
+    "changes_in_call": 6
+  }
+}

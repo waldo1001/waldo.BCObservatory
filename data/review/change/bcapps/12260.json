@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12260",
+  "input_hash": "40f39132a2af907a41549bd255e66af5aafbe0e37783360e63a72306f131c774",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:06.528Z",
+  "issues": [
+    "Matches the description: the action opens the order transaction list, filters on the Shop field instead of the obsolete Shop Code FlowField, and the tests were updated."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022455,
+    "changes_in_call": 6
+  }
+}

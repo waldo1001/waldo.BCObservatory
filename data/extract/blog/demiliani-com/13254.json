@@ -7,16 +7,15 @@
   "words": 2147,
   "summary": "The Database Wait Statistics page in Business Central shows how Azure SQL database time is spent waiting for resources rather than executing queries. Understanding wait categories, task counts, wait times, signal waits, and their ratios helps identify performance bottlenecks like CPU pressure, lock contention, or I/O delays.",
   "key_points": [
-    "Wait statistics quantify where database time is spent waiting (disk I/O, locks, CPU) rather than doing useful work",
-    "Five key metrics to analyze: Wait Category, Waiting Tasks Count, Wait Time, Max Wait Time, and Signal Wait Time ratio",
-    "Signal wait time divided by total wait time reveals CPU pressure; ratios above 20% indicate significant CPU bottleneck",
-    "Focus analysis on categories with highest total wait time, not highest task counts, and calculate average wait per task",
-    "Regular snapshots over time (comparing Database Wait Statistics at time X and X+N) reveal what the database was waiting for during that period"
+    "The Database Wait Statistics page shows data from sys.dm_db_wait_stats for the tenant database. The waits are grouped into categories and add up from the time the database started.",
+    "The page has six columns: Wait Category, Waiting Tasks Count, Wait Time, Max Wait Time, Signal Wait Time and Database start time.",
+    "To get the signal wait ratio, divide signal wait time by wait time. Below 10% is normal and above 20% means significant CPU pressure.",
+    "Rank categories by total wait time rather than count, and divide wait time by count to get the average wait per task.",
+    "To see what the database waited on during a specific period, take snapshots at two points in time and compare them."
   ],
   "systems": [
     "platform",
-    "administration",
-    "reporting"
+    "administration"
   ],
   "topics": [
     "performance",

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10368",
+  "input_hash": "c3cb2ebf6229337c41da0093efa4094a1c67c15a51c89f370a71bf6bb97099ee",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:58.087Z",
+  "issues": [
+    "Not all localized layers are touched (e.g. FR and NO purchase posting not in the file list); 'all localized versions' overstated"
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023537,
+    "changes_in_call": 6
+  }
+}

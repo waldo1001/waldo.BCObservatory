@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11959",
+  "input_hash": "a21aac9e9e13d709d819ad20e37fed73b599cf53c0b694c593b2ecd2a6e7b8d9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:00.875Z",
+  "issues": [
+    "The description is only a work-item link, so only the title and file list can be checked. The summary fits the title.",
+    "The key points 'Adjusts quantity calculations' and 'consumed quantities did not match tracked quantities' claim more detail than the title and the +1 -2 code change support, so I replaced them."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024618,
+    "changes_in_call": 6
+  }
+}

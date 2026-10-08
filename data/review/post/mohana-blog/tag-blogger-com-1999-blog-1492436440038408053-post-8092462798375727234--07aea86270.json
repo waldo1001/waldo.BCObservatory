@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234",
+  "input_hash": "230f4af5724cc3bb3aff6d1bf20316162467a3b11e78e16805a6c1c1ab5924f4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:04.179Z",
+  "issues": [
+    "The copilot system is unsupported: the post connects BC to Claude Desktop and never mentions Copilot.",
+    "Quote 1 has a slightly different dash from the post but the wording is accurate.",
+    "Everything else matches the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043299,
+    "posts_in_call": 4
+  }
+}

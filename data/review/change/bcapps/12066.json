@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/12066",
+  "input_hash": "68d637e0e8312a91f1f94c1f8de22574157d778ed85c50762889afdd1006bd42",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.370Z",
+  "issues": [
+    "The page says only tags were removed. With about 11,345 lines deleted, the change actually deletes the obsolete code guarded by CLEAN27 across assembly, inventory and manufacturing objects.",
+    "Removing previously obsoleted members can stop extensions that still reference them from compiling, so breaking should be true.",
+    "The description is empty. The scope comes from the title and the file list."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040221,
+    "changes_in_call": 6
+  }
+}

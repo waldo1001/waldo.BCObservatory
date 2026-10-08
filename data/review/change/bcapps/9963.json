@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9963",
+  "input_hash": "0dd5d41eed440b65efa6e2c265a1cc6ce20ae51190d2dfb7d0526db4a2e7f053",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:11.413Z",
+  "issues": [
+    "Matches the one-line change that moves IncludePlanningSuggestions into the protected variable section of page 5530.",
+    "Calling an extensibility addition a feature, with no behavior change, is reasonable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018359,
+    "changes_in_call": 6
+  }
+}

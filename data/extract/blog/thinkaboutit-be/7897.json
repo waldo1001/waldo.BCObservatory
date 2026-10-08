@@ -7,11 +7,11 @@
   "words": 1109,
   "summary": "Managing Business Central SaaS updates in the Admin Center allows you to schedule, delay, and respond to rollout pauses. This matters because environments upgraded to a problematic version cannot be rolled back, while postponement controls and notification setup help you avoid becoming the test cohort for production issues.",
   "key_points": [
-    "Major updates occur twice yearly with a staged rollout, and Microsoft pauses when critical issues occur mid-rollout",
-    "Environments already upgraded during a pause are not rolled back and remain stuck with the issue, while unupgraded ones are rescheduled seven days after the original date",
-    "Set up notification recipients to receive proactive alerts about version availability, scheduled updates, failures, pauses, and extension compatibility warnings",
-    "Schedule updates toward the end of the allowed window rather than immediately at GA to avoid early production issues",
-    "You can control the update window timing and scheduled date but cannot skip major updates"
+    "Two major updates a year plus monthly minor ones roll out in stages, and Microsoft pauses the rollout when a critical issue appears",
+    "Environments upgraded before a pause stay on the faulty version; held environments are rescheduled seven days after their original date",
+    "Configure notification recipients to get emails about new versions, schedules, failures, pauses and per-tenant extension compatibility",
+    "Set an update window of at least six hours outside business hours and pick the update date deliberately, near the end of the allowed period",
+    "Updates can be delayed but not skipped; Microsoft-localized environments get up to five months, partner-localized about 60 days"
   ],
   "systems": [
     "administration",

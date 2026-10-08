@@ -8,13 +8,11 @@
   ],
   "summary": "Bin code selection is now available for transfer disposition in workflow responses for quality inspections, matching the behavior of the manual disposition form.",
   "key_points": [
-    "Adds bin code selection capability to transfer disposition in workflow response options",
-    "Aligns workflow behavior with manual quality inspection disposition form",
-    "Affects Quality Management workflow response handling",
-    "Minimal code changes with net reduction in lines",
-    "Resolves synchronization issue between workflow and manual processes"
+    "Workflow response options for transfer disposition now let you choose a bin code",
+    "Behaviour now matches the manual quality inspection disposition form",
+    "Change is limited to the Qlty. Workflow Resp. Options page extension"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

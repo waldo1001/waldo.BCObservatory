@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10866",
+  "input_hash": "f9c4515c3bbca3995b66d85e8132e6e01b7a28515285452ab0e1c7896fd2a78e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:40.416Z",
+  "issues": [
+    "The tests key point is not supported: the only changed file is the AT employee template codeunit (+2 -1).",
+    "This is the 29.x backport of the same fix."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01713,
+    "changes_in_call": 6
+  }
+}

@@ -12,12 +12,12 @@ tags:
   - emojis
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:31.053Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,7 +67,7 @@ preview:
 
 # BC Friday Tips #36 Emoji in BC
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-36-emoji-in-bc/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-27 · 93 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-36-emoji-in-bc/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-27 · 93 words · tier community · reviewed (checked by Opus)
 
 > Emojis can be displayed in Business Central to improve user experience by providing quick visual cues for statuses, warnings, and categories. They help users scan data faster and identify issues at a glance, but should be used sparingly to avoid negatively impacting the interface.
 

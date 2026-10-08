@@ -8,11 +8,10 @@
   ],
   "summary": "The user experience for adding attributes to item categories was corrected by modifying the item category attributes page and related test coverage.",
   "key_points": [
-    "Fixed incorrect user experience workflow when adding attributes to item categories",
-    "Updated the Item Category Attributes page layout and interaction",
-    "Enhanced test coverage for item category attribute operations",
-    "Adjusted item variant attribute value mapping table validation",
-    "Improved consistency across localized test implementations"
+    "Fixes the experience of adding attributes to item categories (bug 641060)",
+    "Item Category Attributes page reworked, with code removed overall",
+    "Small change in the Item Var. Attr. Value Mapping table",
+    "SCM item category tests extended and template tests updated in W1, CZ and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

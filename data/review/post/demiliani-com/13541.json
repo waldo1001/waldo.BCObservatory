@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/13541",
+  "input_hash": "9d5ca748fbfe3eb741d809ad334eccf7e72b305282d52e5d2f4b42cf8e603124",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:06.715Z",
+  "issues": [
+    "Key point expanded PTE into a wrong long form; the post gives no expansion.",
+    "Copilot system not supported; the post refers to generic AI tools, not Business Central Copilot."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037516,
+    "posts_in_call": 4
+  }
+}

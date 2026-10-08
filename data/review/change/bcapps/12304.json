@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12304",
+  "input_hash": "0875e63d6e41e4658083af5f76c7f46cd41cac1e6232f16a1fa41d4d9051871e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:06.528Z",
+  "issues": [
+    "The description is only a work item link. The claims about moving from a FlowField to stored fields and aligning with audit log entries are not supported by anything given.",
+    "Nothing given says which pages failed to open. The title only says a page could not open because of the FlowField 'Last Run By User'."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022455,
+    "changes_in_call": 6
+  }
+}

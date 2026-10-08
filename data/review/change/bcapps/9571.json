@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9571",
+  "input_hash": "2ccba4818c14087200a02a080d4ee460acfb09cfe2cf27ef0521ceda4e515954",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.882Z",
+  "issues": [
+    "No description; the claim that the AddAllSourceType call was removed and that opening time drops to an acceptable level is not supported by the given material.",
+    "Performance change with no stated functional difference; behavior_change set to false."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017136,
+    "changes_in_call": 6
+  }
+}

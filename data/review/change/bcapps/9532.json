@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9532",
+  "input_hash": "eb79b4af672586a76d1d9456bab996c91932b16891b0da409b6624174f1739eb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:43.515Z",
+  "issues": [
+    "Summary and key points match the description: the new CalcQtyOnShipmentBins helper sums across all Ship-type bins, and the Bin Mandatory and Shipment Bin Code guard is kept.",
+    "The test file adds 248 lines, which backs the test coverage point."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020629,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Fixed a failure when exploding Assembly BOMs on sales orders for foreign-currency customers by changing the Sales Subscription Line lookup to use cached data before querying the database.",
+  "summary": "Fixed a 'Sales Line does not exist' error when exploding an Assembly BOM on a sales order for a foreign-currency customer. GetDate() in the Sales Subscription Line table now reuses the cached in-memory Sales Line via GetSalesLine before falling back to a database lookup.",
   "key_points": [
     "Exploding BOMs on foreign-currency sales orders raised 'Sales Line does not exist' error",
     "Root cause was direct database lookup of Sales Line during BOM explosion when the line only existed in memory",

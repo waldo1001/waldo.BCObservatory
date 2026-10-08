@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Functions InsertReceivableDocs and InsertPayableDocs in CarteraManagement codeunit were refactored to improve code organization and maintainability.",
+  "summary": "The InsertReceivableDocs and InsertPayableDocs functions in the Spanish CarteraManagement codeunit (7000000) were refactored, following an ALAppExtensions request.",
   "key_points": [
-    "Refactored InsertReceivableDocs function logic",
-    "Refactored InsertPayableDocs function logic",
-    "Affects Spanish localization finance features for receivables and payables",
-    "Code structure improved without changing behavior",
-    "Addresses internal quality bug fix"
+    "Refactors InsertReceivableDocs in codeunit 7000000 CarteraManagement",
+    "Refactors InsertPayableDocs in the same codeunit",
+    "Only the ES localization layer is changed",
+    "Originates from ALAppExtensions issue 30068"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

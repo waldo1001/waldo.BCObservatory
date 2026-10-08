@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10172",
+  "input_hash": "c29f724c1e62b76914cd63cc452d6e8f6742807e455353d993a7e711ac7ad5f7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:26.119Z",
+  "issues": [
+    "The description says standard behavior is preserved when no subscriber intervenes; adding events is not a behavior change, so behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017866,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/katson-com/4678",
+  "input_hash": "3bf433bd3690d30af999cd7a58a8be86d6ef14890a031443586a5237c3fb1706",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:46.818Z",
+  "issues": [
+    "Object 'page PAG30008' is not named in the post; it only appears inside an API action name, so it was dropped.",
+    "Key point conflated Microsoft's Windows-only proxy with Cursor support, which the post attributes to the Python version.",
+    "Key points omitted the May 2026 endpoint move and the need to upgrade and clear the token cache.",
+    "Versions field lists dates rather than BC versions; cannot be edited here."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037561,
+    "posts_in_call": 4
+  }
+}

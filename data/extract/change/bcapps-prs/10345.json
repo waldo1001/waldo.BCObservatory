@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed an issue where the Invoiced to Date field on service contracts failed to reset when a second unposted service invoice was deleted, by improving the logic to count only non-reversed ledger entries.",
   "key_points": [
-    "Service contract invoicing no longer gets stuck when deleting multiple unposted invoices",
-    "The logic now ignores reversed ledger entries that remain after invoice deletion",
-    "Invoiced to Date correctly resets to zero on invoice deletion",
-    "Only original sale entries without corresponding reversals are counted as invoiced",
-    "Fixes blocking of new service invoices after deleting unposted invoices"
+    "Deleting a second unposted service invoice now resets Invoiced to Date on the contract lines",
+    "Reversed ledger entry pairs left by earlier deleted invoices are now ignored",
+    "Invoiced to Date resets to a blank date (0D) on each invoice deletion",
+    "Only original Sale entries that have no reversing entry count as invoiced",
+    "A correct new service invoice can be created again after the deletions"
   ],
   "change_kind": "fix",
   "behavior_change": true,

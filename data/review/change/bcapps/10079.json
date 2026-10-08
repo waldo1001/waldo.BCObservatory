@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10079",
+  "input_hash": "fbb7417aab252bfd5ca829bf4d8da3024d52df509027dd7fe6806a1f35a1ca1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:40.738Z",
+  "issues": [
+    "Description states default behavior is identical; the change only adds extension points, so behavior_change should be false.",
+    "Adding a parameter to an integration event does not break existing subscribers; breaking=false is correct."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034954,
+    "changes_in_call": 6
+  }
+}

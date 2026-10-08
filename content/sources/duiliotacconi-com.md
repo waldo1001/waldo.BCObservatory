@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e01570e44fd892e45360d527a8e097ef16cabdbf58b572683b8f9dfaca19ae6
@@ -70,11 +70,11 @@ footprint:
       weight: 19
     - id: administration
       weight: 11
-    - id: reporting
-      weight: 6
+    - id: inventory
+      weight: 2
     - id: manufacturing
-      weight: 4
-    - id: crm
+      weight: 2
+    - id: sales
       weight: 2
   topics:
     - id: telemetry
@@ -118,9 +118,9 @@ footprint:
       weight: 1
     - id: enum DT Document Type
       weight: 1
-    - id: other Cloud Customer Management System (CCMS)
-      weight: 1
     - id: other CreateSequentialGuid in AL
+      weight: 1
+    - id: other Database.LockTimeoutDuration Method
       weight: 1
   features: []
 first_item: "2025-05-30"
@@ -140,15 +140,15 @@ last_item: "2026-10-07"
 | platform (28) | telemetry (6) | table Sales Line (2) |
 | development (19) | al development (4) | codeunit 54001 (1) |
 | administration (11) | performance (4) | codeunit Base64 Convert (1) |
-| reporting (6) | performance optimization (4) | codeunit Base64 Convert Impl. (1) |
-| manufacturing (4) | sql server (4) | codeunit Low-Level Code Calculator (1) |
-| crm (2) | concurrency (3) | codeunit Purchase-Post (1) |
+| inventory (2) | performance optimization (4) | codeunit Base64 Convert Impl. (1) |
+| manufacturing (2) | sql server (4) | codeunit Low-Level Code Calculator (1) |
+| sales (2) | concurrency (3) | codeunit Purchase-Post (1) |
 |  | database optimization (3) | codeunit Sales-Post (1) |
 |  | debugging (2) | codeunit System.Runtime.Base64Convert (1) |
 |  | indexes (2) | codeunit Version Management (1) |
 |  | query optimization (2) | enum DT Document Type (1) |
-|  |  | other Cloud Customer Management System (CCMS) (1) |
 |  |  | other CreateSequentialGuid in AL (1) |
+|  |  | other Database.LockTimeoutDuration Method (1) |
 
 ## Flight path
 

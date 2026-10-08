@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10680",
+  "input_hash": "0c1e3156867350f38d7b8eac078b3bdba286122997189a694e20a214aa4ef599",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.881Z",
+  "issues": [
+    "The PR is titled only 'Maintenance update' and has no description of the changes.",
+    "The claim about certificate validation and security checks is not supported by anything given.",
+    "The changes are small additions across many codeunits; what they do cannot be determined."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018575,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10176",
+  "input_hash": "fb780d6d7f07ad54ba247561c25ed23a85e9400e77171f278a7ad81170223ae3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:51.429Z",
+  "issues": [
+    "The description gives only the bug title, so the summary's account of what was fixed is vague but consistent with the title.",
+    "Sales Line was not changed in the DACH, NL and SE layers. The NL and DACH layers changed only Purchase Line. So it is wrong to say purchase and sales were updated consistently in all localizations.",
+    "Tests were added only in the W1 and RU layers."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022262,
+    "changes_in_call": 6
+  }
+}

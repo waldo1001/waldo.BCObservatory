@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10631",
+  "input_hash": "03dd450ce2ffdb5994bfa2eb908ee50dbf707fd7c89cb37ac346b80dd9cd8f69",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:33.570Z",
+  "issues": [
+    "Several key points make claims the PR does not support: 'additional validation scenarios', 'improved performance and accuracy' for Excel aging reports, and localization updates 'for consistency'.",
+    "The Agent Instruction Editor page was modified, not newly added."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042928,
+    "changes_in_call": 6
+  }
+}

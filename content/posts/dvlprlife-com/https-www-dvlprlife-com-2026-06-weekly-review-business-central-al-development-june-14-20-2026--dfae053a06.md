@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-14-20-2026--dfae053a06
 type: post
 title: "Weekly Review: Business Central AL Development – June 14–20, 2026"
-summary: The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.
+summary: Weekly community roundup for June 14 to 20, 2026, featuring a single post by Stefano Demiliani on using Microsoft's AL MCP Server from GitHub Copilot CLI. The featured post covers installing the AL tools as a global .NET package, registering the MCP server over STDIO, and letting CLI agents download symbols, compile, check diagnostics and run AppSourceCop without VS Code.
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - automation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:46.335Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,9 +78,9 @@ preview:
 
 # Weekly Review: Business Central AL Development – June 14–20, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/) · DvlprLife (Brad Prendergast) · 2026-06-22 · 348 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/) · DvlprLife (Brad Prendergast) · 2026-06-22 · 348 words · tier community · reviewed (checked by Opus)
 
-> The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.
+> Weekly community roundup for June 14 to 20, 2026, featuring a single post by Stefano Demiliani on using Microsoft's AL MCP Server from GitHub Copilot CLI. The featured post covers installing the AL tools as a global .NET package, registering the MCP server over STDIO, and letting CLI agents download symbols, compile, check diagnostics and run AppSourceCop without VS Code.
 
 ## Key points
 

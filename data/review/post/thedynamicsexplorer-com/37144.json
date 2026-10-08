@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37144",
+  "input_hash": "c8369d6166c55962f9793fef299d13dd42b11dae3283c02c9a96af37b9e64f44",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:33.076Z",
+  "issues": [
+    "The summary and first key point state the reason for the No. Series restriction as fact, but the author says it is only an assumption.",
+    "Placeholder descriptions match the post's list; %6 is the fiscal year of the posting date.",
+    "Quotes are taken from the post (quote 2 is a faithful truncation)."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032608,
+    "posts_in_call": 4
+  }
+}

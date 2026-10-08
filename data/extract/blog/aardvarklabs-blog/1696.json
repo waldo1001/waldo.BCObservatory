@@ -5,12 +5,13 @@
   "source": "aardvarklabs-blog",
   "published_at": "2025-04-25T12:00:00.000Z",
   "words": 1095,
-  "summary": "The ToText() method, new in Business Central 2025 Wave 1, converts various data types to text using default formatting without accepting additional parameters. The post demonstrates how ToText() outputs look for decimal, integer, byte, boolean, date, time, datetime, duration, GUID, and version types, comparing results to the Format method.",
+  "summary": "ToText(), new in Business Central 2025 Wave 1, turns values of many AL data types into text using a fixed default format with no formatting options, though date and time types take an optional boolean for invariant output. The post shows the results for decimal, big integer, integer, byte, boolean, date, time, datetime, duration, GUID and version, noting output mostly matches Format(value, 0, 0) and that it does not replace Format.",
   "key_points": [
-    "ToText() is a new method in BC 2025 Wave 1 that quickly converts variable values to text strings with default formatting",
-    "Date and time types accept a boolean parameter that switches between locale and invariant formatting",
-    "ToText() maintains full decimal precision for decimals, unlike the default Decimal field display which restricts to two decimals",
-    "Special formatting behaviors include byte values showing ASCII integer values, GUID values omitting braces, and two-digit month/day/year expressions for dates"
+    "ToText() is a quick display helper added in BC 2025 Wave 1 and is not a replacement for the Format method",
+    "Date, time, datetime and duration ToText() accept a boolean; the default is false, and true gives invariant output like Format(value, 0, 9)",
+    "Decimal ToText() keeps the full precision of the value, while a default Decimal field shows two decimals",
+    "Byte ToText() returns the integer value rather than the ASCII character, GUIDs lose their braces, and dates use two-digit month, day and year",
+    "A sample card page ARD_ToTextExample shows each type next to its ToText() result"
   ],
   "systems": [
     "development"

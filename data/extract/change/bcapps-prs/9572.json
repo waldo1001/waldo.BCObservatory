@@ -8,7 +8,7 @@
     "purchasing",
     "development"
   ],
-  "summary": "The E-Document Purchase Order Matching Copilot feature is marked as obsolete pending removal in version 29.0, with its core objects moved to a deprecation warning state while the replacement E-Document Purchase Draft experience handles order matching through a different code path.",
+  "summary": "The five E-Document Purchase Order Matching Copilot objects are marked obsolete pending with tag 29.0 and remain functional during the deprecation window. The feature is superseded by the E-Document Purchase Draft experience, and the shared Matching Assistance Copilot capability stays registered.",
   "key_points": [
     "Five Copilot-specific objects in the order matching module are marked ObsoleteState = Pending with ObsoleteTag 29.0",
     "The shared 'E-Document Matching Assistance' Copilot capability remains active for the E-Document AI Tool Processor import flow",
@@ -17,8 +17,8 @@
     "No persisted data migration needed as the buffer table is temporary"
   ],
   "change_kind": "obsoletion",
-  "behavior_change": true,
-  "breaking": true,
+  "behavior_change": false,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "E-Doc. PO Copilot Matching",

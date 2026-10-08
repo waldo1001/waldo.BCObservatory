@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -319,7 +319,6 @@ links:
   posts:
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be
     - post/gerardorenteria-blog/10921
     - post/gerardorenteria-blog/11452
     - post/gerardorenteria-blog/11766
@@ -346,7 +345,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 11
+  blog: 10
   guideline: 0
 bc_forms:
   - 19010
@@ -401,7 +400,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [August 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699.md) (community post): "August 2026 cumulative updates are available for Dynamics 365 Business Central"
 - [September 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920.md) (community post): "September 2026 cumulative updates are available for Dynamics 365 Business Central"
-- [October 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-october-2026-cumulative-updates-for-dynamics-365-business-central--a64e9af8be.md) (community post): "Organizations should verify implementation readiness and compatibility with customizations before upgrading"
 - [(2025 MAY) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/10921.md) (community post): "Cumulative updates for Business Central replace previously released updates across multiple versions"
 - [(2025 JUL) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11452.md) (community post): "Cumulative updates for Business Central replace previous updates and fix vulnerabilities"
 - [(2025 AUG) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11766.md) (community post): "Three actively maintained versions have cumulative updates: v26, v25, and v24"

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10123",
+  "input_hash": "b6297d47a884945529c2689710d01ddab018d26aa5c90c5d61a3849aabb6996e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:00.529Z",
+  "issues": [
+    "Event name, its position before FindSet and the list of layers all match the changed files and the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019104,
+    "changes_in_call": 6
+  }
+}

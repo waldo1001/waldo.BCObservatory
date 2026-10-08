@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -85,7 +85,6 @@ links:
     - post/demiliani-com/13096
     - post/duiliotacconi-com/1983
     - post/duiliotacconi-com/2001
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
     - post/waldo-be/318461
   guidelines: []
@@ -98,7 +97,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -128,7 +127,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../posts/duiliotacconi-com/1983.md) (community post): "ability to enable or disable database indexes directly in the UI"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
-- [Manage Database Index Usage in Business Central.](../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Disabling indexes reduces storage usage and improves insert/update/delete performance"
 - [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "reducing load on the primary database and improving overall performance"
 - [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../posts/waldo-be/318461.md) (community post): "Performance improved dramatically after the fix: query count dropped from 19,946 to 18"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"

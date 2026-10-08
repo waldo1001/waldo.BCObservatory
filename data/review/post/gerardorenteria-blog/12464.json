@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12464",
+  "input_hash": "5a8b5482bfaa32c9338fcb8a1ade8205fb3384c8ea84cac45786985b1d4ed783",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:43.812Z",
+  "issues": [
+    "Sales and purchasing appear only as example bookmark folders; the solution itself is a navigation and personalization tool, so those systems are not supported.",
+    "GDRGBusinessManagerRCExt is a page extension of the Business Manager Role Center in the post, not a page; the listed type is wrong, so it is dropped.",
+    "Summary, key points, features and quotes are otherwise supported by the English section of the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034199,
+    "posts_in_call": 4
+  }
+}

@@ -4,16 +4,16 @@
   "title": "Add precision guards for systematic agent false-positive patterns",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Quality rules now include precision guards to prevent the agent from emitting documented false-positive patterns, such as missing tooltips on bound page fields, misunderstanding of Boolean page trigger defaults, and incorrectly flagging unfiltered drilldowns.",
+  "summary": "Adds six knowledge articles that act as precision guards against recurring agent false positives. They cover tooltips on bound page fields, Boolean page triggers that default to true, filters defined outside the diff, CalcFields in both GetRecord triggers, and unreleased symbol or schema changes that need no breaking-change or upgrade handling.",
   "key_points": [
-    "Added precision guards to suppress four recurring false-positive findings that BC reviewers confirmed: missing tooltips on bound fields (inherit from table), Boolean page triggers defaulting to true, effective filters outside the diff, and CalcFields in different lifecycle triggers",
-    "Breaking-change and upgrade reviews now require that affected symbols actually shipped in a released version, preventing false positives for new or unreleased-cycle apps",
-    "Guards are narrowly scoped and documented with developer confirmation from evaluation feedback",
-    "Direction is strictly conservative without suppressing genuine knowledge-backed findings",
-    "Two BC developers confirmed the page-trigger default-return semantics"
+    "Six new knowledge articles across breaking-changes, error-handling, performance, ui and upgrade",
+    "Bound page fields inherit the source table field's ToolTip, so they should not be flagged",
+    "Boolean page triggers return true by default; only an explicit exit(false) cancels",
+    "CalcFields in both OnAfterGetRecord and OnAfterGetCurrRecord is not redundant, and the effective filter may be defined outside the diff",
+    "Changes to symbols or schema that never shipped in a release are not breaking and need no upgrade path"
   ],
-  "change_kind": "refactor",
-  "behavior_change": false,
+  "change_kind": "feature",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

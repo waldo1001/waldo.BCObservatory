@@ -4,15 +4,15 @@
   "title": "Correct performance knowledge guidance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Multiple performance knowledge articles were refined to correct semantic guidance on partial records, transactions, N+1 queries, SIFT indexes, bulk writes, and read isolation, with unsafe examples replaced and two overly broad rules removed.",
+  "summary": "Several performance knowledge articles and their samples were corrected for partial records, transactions, N+1 lookups, SIFT, bulk writes and read isolation. The invalid filter-only SetLoadFields rule and the generic production-scale article were removed, and an unsafe Sales Header deletion sample was replaced with a staging-table scenario.",
   "key_points": [
-    "Corrected semantics and code samples across six performance guidance topics",
-    "Removed invalid filter-only fields rule and generic production-scale article",
-    "Narrowed guidance on singletons, TextBuilder, dictionaries, and temporary tables",
-    "Preserved behavior consistency between paired good and bad examples",
-    "Replaced unsafe Sales Header deletion scenario with staging-table approach"
+    "Corrected the semantics and samples for partial records, transactions, N+1 lookups, SIFT, bulk writes and read isolation",
+    "Removed the invalid filter-only fields rule and the generic production-scale article",
+    "Narrowed the singleton, TextBuilder, dictionary and temporary-table guidance",
+    "Paired good and bad examples now keep the same behaviour",
+    "Replaced the unsafe Sales Header deletion sample with a staging-table scenario"
   ],
-  "change_kind": "refactor",
+  "change_kind": "fix",
   "behavior_change": false,
   "breaking": false,
   "obsoletions": [],

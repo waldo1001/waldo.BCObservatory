@@ -6,7 +6,7 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Subcontracting requisitions now preserve routing line descriptions from the production order when the vendor changes, falling back to work-center descriptions only when the routing line is missing or has blank descriptions.",
+  "summary": "When the vendor changes on a subcontracting requisition line, Description and Description 2 are now kept from the matching production order routing line. The work-center descriptions are still used when the routing line is missing, belongs to another work center, or has a blank Description 2.",
   "key_points": [
     "Description and Description 2 fields are retained from matching production order routing lines instead of refreshing from the work center",
     "Work-center fallback is preserved when routing line is missing, belongs to another work center, or has blank Description 2",

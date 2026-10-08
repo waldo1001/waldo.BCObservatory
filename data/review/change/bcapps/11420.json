@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11420",
+  "input_hash": "a7fb582d86c2ae1e8bccad221de3f2f28ac8944d73434eb1c7fb4b100f5e2fa6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:14.684Z",
+  "issues": [
+    "'One-line change to page property' is a guess about how the change was made. Only a single added line is known."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017996,
+    "changes_in_call": 6
+  }
+}

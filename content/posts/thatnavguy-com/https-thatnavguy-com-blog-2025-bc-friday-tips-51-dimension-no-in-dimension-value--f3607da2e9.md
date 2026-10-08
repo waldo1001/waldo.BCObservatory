@@ -13,12 +13,12 @@ tags:
   - hidden fields
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:57.907Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
 
 # BC Friday Tips #51 Dimension No. in Dimension Value
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-10 · 81 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-10 · 81 words · tier community · reviewed (checked by Opus)
 
 > The Dimension Value table contains a hidden Global Dimension No. field that reveals which shortcut dimension a dimension code belongs to, avoiding the need to check General Ledger Setup and improving lookup performance.
 

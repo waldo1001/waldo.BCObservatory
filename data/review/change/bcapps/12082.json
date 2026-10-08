@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12082",
+  "input_hash": "07a7a11fac7fd77b8f503cd81b3396af4d143a96cf9746b719a401e391f303ca",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:11.036Z",
+  "issues": [
+    "The summary leaves out that the fix is in the Italian layer and concerns the Show Document action on Transfer Lines (page 5749), which opened the wrong transfer order."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02058,
+    "changes_in_call": 6
+  }
+}

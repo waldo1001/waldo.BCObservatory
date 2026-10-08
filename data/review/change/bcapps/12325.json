@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12325",
+  "input_hash": "7f786eb689a40cc7178b77a3dc0c72328ed1416e811a6673c64912419c566476",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:14.709Z",
+  "issues": [
+    "The page leaves out that 193 temporary method-specific exclusions were added to the existing APIV1 and APIV2 DisabledTests manifests.",
+    "The production Travel Request Approval codeunit was also modified, alongside the consolidated denied-approval error capture. Whether this changes runtime behavior is not clear from the input, so the flag is kept.",
+    "The key point about no test scope changes overstates the description, which only rules out unrelated new test scope."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023383,
+    "changes_in_call": 6
+  }
+}

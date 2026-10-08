@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/",
+  "input_hash": "3a41281be5688f4383e82d6e5e536bed1cbada5b671beed9873a82c86dbc6670",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:06.435Z",
+  "issues": [
+    "Post never names a Configuration Package page object; it only mentions an unnamed page listing errors, so the object is dropped.",
+    "Integration system is not supported by the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026613,
+    "posts_in_call": 4
+  }
+}

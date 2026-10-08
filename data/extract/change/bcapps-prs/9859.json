@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Expense Agent app (preview) is now integrated into BCApps, providing AI-powered expense management capabilities including approval workflows, report handling, and API endpoints for integration with external systems.",
+  "summary": "The Expense Agent (Preview) app source is moved into BCApps as a W1 app with country apps for AT, AU, CA, DE, DK, ES, FR, GB, NZ and US. It covers expense reports, approvals, an agent with Copilot capability, and API pages.",
   "key_points": [
-    "Adds expense management module with AI agent capabilities for automating expense workflows and approvals",
-    "Provides 50+ API pages for expense data access and management including reports, itemizations, and participants",
-    "Introduces role-based permission sets for agents and admins alongside core business entity tables",
-    "Includes localized event subscribers for multiple regions (AT, AU, CA, DE, DK, ES, FR, GB, NZ, US)",
-    "Supports agent consumption tracking, KPI monitoring, and email-based task scheduling features"
+    "Brings the Expense Agent (Preview) app and its country-specific event subscriber apps into BCApps",
+    "Includes about 40 API pages for expenses, expense reports, lines, attachments, projects and setup",
+    "Adds tables, pages and posting codeunits for expense reports, approvals and posted reports",
+    "Ships permission sets for the agent and for Expense Management admin, edit and read access",
+    "Includes agent consumption tracking, KPIs, and email retrieval with task scheduling"
   ],
   "change_kind": "feature",
   "behavior_change": true,

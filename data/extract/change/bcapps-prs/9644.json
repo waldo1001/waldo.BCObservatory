@@ -6,12 +6,11 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Fixed an issue where copying sales quotations failed when document lines were associated with assembly items. The fix adjusts handling in the Copy Document Management codeunit to properly process assembly-linked lines.",
+  "summary": "Fixed an issue where a Team Member user could not copy a sales quotation when its lines were associated with assembly. Copy Document Mgt. was adjusted in W1 and several localization layers, with a new test added.",
   "key_points": [
-    "Resolves copying failure for sales quotations with assembly-associated lines",
-    "Updates Copy Document Management logic across multiple localization layers",
-    "Includes test coverage for the assembly line copy scenario",
-    "Affects team member workflow in repair item processes"
+    "Team Member users can now copy sales quotations whose lines are linked to assembly",
+    "Copy Document Mgt. updated in W1 and the ES, IT, NA, NL and RU layers",
+    "New test coverage added in the SCM copy document tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -5,7 +5,7 @@
   "source": "aardvarklabs-blog",
   "published_at": "2026-07-17T12:00:00.000Z",
   "words": 509,
-  "summary": "Index optimization in Business Central improves database performance but requires careful management. This post shows how to use Copilot to analyze SQL Server's missing index data and generate AL code recommendations, then provides a tested methodology for implementation with performance benchmarking at each step.",
+  "summary": "The post shows how to export the Database Missing Indexes table to Excel and use a Copilot prompt to generate AL tableextension index recommendations. It then advises benchmarking with the Performance Profiler before and after, applying only about five indexes at a time, and weighing faster reads against slower writes, especially on GL Entry.",
   "key_points": [
     "Export the Database Missing Indexes table and use Copilot to generate AL code recommendations prioritized by estimated benefit",
     "Benchmark system performance before and after applying indexes, measuring both read and write operations",
@@ -14,7 +14,6 @@
   ],
   "systems": [
     "platform",
-    "reporting",
     "copilot"
   ],
   "topics": [

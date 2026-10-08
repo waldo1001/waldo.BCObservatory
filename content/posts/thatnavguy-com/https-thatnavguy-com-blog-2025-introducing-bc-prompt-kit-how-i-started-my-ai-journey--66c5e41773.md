@@ -15,12 +15,12 @@ tags:
   - refactoring
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:16.448Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -69,14 +69,9 @@ quotes:
     why_it_matters: This reframes AI as a practical tool for handling repetitive tasks rather than a replacement for developer judgment, which is crucial for professional adoption.
   - text: You own the code, even if AI generates it. Take full responsibility before releasing to production.
     why_it_matters: This establishes clear accountability for AI-generated code, which is essential for maintaining code quality and security in production systems.
-code_objects_mentioned:
-  - table table
-  - page page
-  - codeunit codeunit
-  - api api
+code_objects_mentioned: []
 systems:
   - development
-  - copilot
 versions_mentioned: []
 preview:
   embeddable: true
@@ -92,7 +87,7 @@ preview:
 
 # Introducing BC Prompt Kit: How I Started My AI Journey
 
-[Read the post](https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-17 · 564 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-17 · 564 words · tier community · reviewed (checked by Opus)
 
 > BC Prompt Kit is a collection of organized prompts for developers to adopt AI in Business Central and AL development. It covers base development, feature analysis, documentation, and refactoring, designed to help developers overcome initial skepticism and integrate AI into their daily workflow.
 
@@ -107,17 +102,6 @@ preview:
 
 - "AI isn't magical or perfect, but it genuinely helps with the tedious parts of development." (This reframes AI as a practical tool for handling repetitive tasks rather than a replacement for developer judgment, which is crucial for professional adoption.)
 - "You own the code, even if AI generates it. Take full responsibility before releasing to production." (This establishes clear accountability for AI-generated code, which is essential for maintaining code quality and security in production systems.)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- table "table"
-- page "page"
-- codeunit "codeunit"
-- api "api"
-
-Not found in BC28-30: table "table", page "page", codeunit "codeunit".
 
 ## Context
 

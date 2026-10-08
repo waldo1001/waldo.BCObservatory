@@ -8,7 +8,7 @@
     "integration",
     "finance"
   ],
-  "summary": "Five codeunits now use native AL HTTP types (HttpClient, HttpRequestMessage) instead of the legacy Http Web Request Mgt. codeunit for internal HTTP operations, reducing dependency on deprecated patterns while maintaining backward compatibility where needed.",
+  "summary": "Six callers, including currency exchange rate updates, external accountant invitations, JSON structure retrieval, OData metadata download and the Microsoft 365 E-Document GraphClient, now use native AL HTTP types instead of the legacy Http Web Request Mgt. codeunit. A new CreateMetadataRequest procedure is added while the old CreateMetadataWebRequest stays for compatibility.",
   "key_points": [
     "Migrated currency exchange rates, external accountant invitations, JSON structure retrieval, and OData metadata calls from legacy to native HTTP types",
     "Preserved public API compatibility in ODataUtility by keeping the old CreateMetadataWebRequest procedure while adding new CreateMetadataRequest with native types",

@@ -4,7 +4,7 @@
   "title": "Package BCQuality as an installable plugin (experiment)",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "BCQuality is packaged as an installable Claude plugin via marketplace and plugin manifests, with a bridge skill enabling code-review functionality in plugin hosts without modifying the existing knowledge or routing logic.",
+  "summary": "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts. It adds marketplace and plugin manifests plus a bridge skill that bootstraps the existing entry protocol for AL code review, without changing knowledge or routing logic.",
   "key_points": [
     "Added `.claude-plugin/marketplace.json` to declare a single-plugin marketplace",
     "Added `.claude-plugin/plugin.json` plugin manifest with name, description, and version",

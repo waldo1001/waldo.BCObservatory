@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11541",
+  "input_hash": "7e84d4398270f554572e736ed17b0f16e26b92d2ce14a663686e095c907504e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:06.605Z",
+  "issues": [
+    "Key point claims mileage settings consolidated on both setup surfaces; Only Shortest Route moved into the wizard only, old control hidden.",
+    "Summary is vague about wizard 'validation handling' and omits endpoint/routing changes (missing setup no longer defaults to production).",
+    "Communication status navigation is added on the setup page; the status page itself is only renamed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025292,
+    "changes_in_call": 6
+  }
+}

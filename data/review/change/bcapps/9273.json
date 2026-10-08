@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9273",
+  "input_hash": "1a58c1a922e225966005c375cf43051238aca2724c568d06864e24197ec364e2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:09.911Z",
+  "issues": [
+    "Key point 5 presents regenerating demo data as performed validation; the description only lists it as a suggested functional check, and the actual validation was language-server diagnostics."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024473,
+    "changes_in_call": 6
+  }
+}

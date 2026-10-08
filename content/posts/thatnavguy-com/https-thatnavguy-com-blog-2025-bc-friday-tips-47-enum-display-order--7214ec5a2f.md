@@ -12,12 +12,12 @@ tags:
   - ordinal values
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:13.830Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,8 +66,7 @@ quotes:
     why_it_matters: This clarifies a fundamental misunderstanding developers might have about how enums are rendered in the UI.
   - text: You can rearrange values without renumbering the ordinals.
     why_it_matters: This demonstrates a practical benefit of understanding enum display mechanics, enabling cleaner code maintenance.
-code_objects_mentioned:
-  - enum Enum (unspecified in post)
+code_objects_mentioned: []
 systems:
   - development
 versions_mentioned: []
@@ -85,7 +84,7 @@ preview:
 
 # BC Friday Tips #47 Enum Display Order
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-12 · 74 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-47-enum-display-order/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-12 · 74 words · tier community · reviewed (checked by Opus)
 
 > Enum values in AL display in the order they appear in code, not by their ordinal values. This allows developers to rearrange enum values without needing to renumber ordinals.
 
@@ -99,14 +98,6 @@ preview:
 
 - "Enum values in AL are displayed based on their order in the code, not their ordinal." (This clarifies a fundamental misunderstanding developers might have about how enums are rendered in the UI.)
 - "You can rearrange values without renumbering the ordinals." (This demonstrates a practical benefit of understanding enum display mechanics, enabling cleaner code maintenance.)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- enum "Enum (unspecified in post)"
-
-Not found in BC28-30: enum "Enum (unspecified in post)".
 
 ## Context
 

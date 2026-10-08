@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7503",
+  "input_hash": "3ea889c05f5e7d5591dbeb3daf6a3f0c75beace006c88da505371ff1bef12257",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:16.730Z",
+  "issues": [
+    "The post mentions Query objects as a developer concept and never names a page called Query, so I dropped that object.",
+    "The summary, key points, the permission requirement, the 2023 wave 2 availability and the 100,000-row optimization all match the post.",
+    "Both quotes appear in the post."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041848,
+    "posts_in_call": 4
+  }
+}

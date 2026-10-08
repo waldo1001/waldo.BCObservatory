@@ -6,13 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Subscription billing now handles drop shipment scenarios and blank default quantity settings correctly by using serial quantity values and subscribing to drop shipment purchase order events.",
+  "summary": "Subscription Billing now creates subscriptions at sales order release from the existing quantity per serial number, using Qty. to Ship only as a fallback, so a blank Default Quantity to Ship works. It also fake-invoices sales orders released through drop shipment purchase receipts.",
   "key_points": [
-    "Falls back to serial quantity instead of relying on 'Qty. to ship' field when it is zero",
-    "Fixes issue where blank 'Default Quantity to Ship' setting caused subscription creation to fail",
-    "Adds subscription handling for sales orders closed by drop shipment purchase order receipts",
-    "Fake invoicing now correctly applied to sales orders released through drop shipment path",
-    "Tests added to verify both scenarios"
+    "Subscription creation uses QtyPerSerialNo and falls back to Qty. to Ship only when it is zero",
+    "Handles Sales & Receivables Setup with Default Quantity to Ship set to Blank",
+    "Subscribes to sales orders closed by a drop shipment purchase order and sets the same values as the normal path",
+    "Tests added for both scenarios"
   ],
   "change_kind": "fix",
   "behavior_change": true,

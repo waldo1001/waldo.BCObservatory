@@ -32,8 +32,7 @@
   "features": [
     "configuration package import",
     "configuration package application",
-    "performance warnings",
-    "system load management"
+    "performance warnings"
   ],
   "versions": [],
   "language": "en",
@@ -41,10 +40,6 @@
     {
       "text": "Large packages can slow down performance and even block other users while they're being processed.",
       "why_it_matters": "Explains the business impact of large configuration packages on system availability and user productivity"
-    },
-    {
-      "text": "Import: when the file is larger than 3MB. Apply: when the package has more than 5,000 records.",
-      "why_it_matters": "Defines the exact thresholds that trigger performance warnings in Business Central"
     }
   ],
   "trimmed_for_policy": 0,

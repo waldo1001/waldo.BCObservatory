@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13761",
+  "input_hash": "383242e02320ed059deae4d3d0237e9910eeef11486b1949d9635bba3ee8cddc",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:07.820Z",
+  "issues": [
+    "The post covers VS Code extension security in general after a GitHub breach: allowlist policy, icacls, WDAC, private marketplace and Azure Artifacts.",
+    "Business Central and AL are never mentioned, so the post is out of scope even though the page content itself is accurate."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033582,
+    "posts_in_call": 4
+  }
+}

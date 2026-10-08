@@ -15,12 +15,12 @@ tags:
   - ci/cd pipeline
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:40.475Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,17 +86,17 @@ preview:
 
 # Optimizing BC Code History Downloads with HTTP Range Requests
 
-[Read the post](https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1948 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1948 words · tier community · reviewed (checked by Opus)
 
 > Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures in PowerShell scripts and implementing HTTP Range requests to reduce bandwidth usage from 800MB-2GB+ per country artifact to roughly 120MB, cutting cumulative compute time by 86% across 50 parallel countries.
 
 ## Key points
 
-- Silent error suppression ($ErrorActionPreference = "SilentlyContinue") masked multiple bugs including expression parsing, null array indexing, and incorrect git commit patterns that were causing re-processing and duplicates.
-- ZIP files store a central directory at the end, enabling selective downloads via HTTP Range requests: download only the 64KB header to find the Applications folder location, then download just that byte range instead of the entire 800MB-2GB file.
-- Range request approach reduced download time from 18 seconds to 1 second per country (88% bandwidth savings) and total cumulative compute time from nearly 12 days to 38 hours daily across two workflows running 50 countries in parallel.
-- Implementation uses Python standard library only (struct, zlib, tempfile) for ZIP parsing and selective extraction in-memory, with PowerShell orchestration and curl for HTTP, with automatic fallback to full download if range approach fails.
-- Additional optimizations included targeted git fetch (only needed branches instead of --all) and cleanup of 196 obsolete vNext branches, enabling daily processing of hotfix-heavy sandbox artifacts across roughly 50 countries.
+- Removing the global SilentlyContinue error setting exposed hidden bugs: an arithmetic parsing mistake, null array indexing, missing Applications folders, and a vNext grep mismatch that caused re-processing and duplicates.
+- Because a ZIP keeps its central directory at the end, the pipeline fetches the last 64KB, finds the Applications entries, and downloads only that byte range with HTTP Range requests.
+- In a German benchmark the download dropped from 18 seconds to about 1 second, with roughly 88% less bandwidth. Combined compute across both daily workflows fell from nearly 12 days to about 38 hours.
+- A small stdlib-only Python script parses the ZIP and decompresses in memory, a PowerShell wrapper and curl handle the HTTP calls, and every failure falls back to the old full download.
+- Targeted git fetches and the cleanup of 196 obsolete vNext branches also cut run time.
 
 ## Quotes
 

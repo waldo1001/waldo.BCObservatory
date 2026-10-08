@@ -8,14 +8,14 @@
   ],
   "summary": "Billing document creation now scales to millions of subscription lines through code optimizations, database indexes, transaction checkpoints, and progress tracking, eliminating redundant lookups and event dispatch overhead.",
   "key_points": [
-    "New Progress Tracker codeunit provides reusable ETA dialog for long-running operations with Job Queue safety",
-    "Transaction commits added at intervals (per 10 contracts, per document) to prevent timeout on large datasets",
-    "Dictionary-based aggregation and SetLoadFields replace O(n) loops and uncached Gets for performance",
-    "Database indexes added or extended on BillingLine, SubscriptionLine, UsageDataBilling, and related tables",
-    "Removed redundant event subscribers by inlining logic into hot paths to reduce dispatch overhead"
+    "New Progress Tracker codeunit gives a reusable, GuiAllowed-guarded ETA dialog that is safe for Job Queue runs",
+    "Commit checkpoints added every 10 contracts in billing proposals and per document on the non-posting creation path; per-commitment commit removed in usage data billing",
+    "New subscriber codeunit skips redundant unit price and cost calculations when inserting billing document lines",
+    "Dictionary-based aggregation, SetLoadFields and IsEmpty checks replace costly loops and lookups",
+    "New or extended keys on Billing Line, Subscription Line, Usage Data Billing and Usage Data Generic Import; three event subscribers inlined into hot paths"
   ],
   "change_kind": "performance",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

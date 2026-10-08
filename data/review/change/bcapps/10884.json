@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10884",
+  "input_hash": "dfe611ed338329f6319df20d8a434e420160e4a0415702cdd5c50ea6b343648f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:09.832Z",
+  "issues": [
+    "Key point 1 calls the problem 'double-persistence'. The real cause is that Modify(true) fired OnModify again and hit the scheduled-for-posting check, which made the posting fail.",
+    "The summary leaves out the user-visible symptom: recurring journal background posting failed for IRS 1099 invoice lines.",
+    "The description says the procedure and both call sites were removed, but the codeunit diff is only +1 -1. The wording follows the description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019427,
+    "changes_in_call": 6
+  }
+}

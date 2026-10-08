@@ -12,12 +12,12 @@ tags:
   - recurrence patterns
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:57.623Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -70,16 +70,16 @@ preview:
 
 # BC Friday Tips #33 Month Enum
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-05 · 70 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-33-month-enum/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-05 · 70 words · tier community · reviewed (checked by Opus)
 
 > Business Central includes built-in enums for month and day-of-week recurrence patterns. Developers can reuse these existing enums rather than creating custom ones, saving development time.
 
 ## Key points
 
-- Enum 4691 provides month recurrence values
-- Enum 4690 offers day-of-week recurrence values
-- Both enums include additional values beyond basic usage
-- ValuesAllowed property can filter unwanted enum values
+- Enum 4691 Recurrence - Month already provides month values, so a custom enum is not needed
+- Enum 4690 Recurrence - Day of Week covers weekdays
+- The Day of Week enum also contains extra values such as Day and Weekday
+- Use the ValuesAllowed property to hide values you do not want
 
 ## AL objects mentioned
 
@@ -90,6 +90,6 @@ As named in the post. A name that matches one object page by exact type and name
 
 ## Context
 
-- Features: Enum 4691, Enum 4690, ValuesAllowed property
+- Features: ValuesAllowed property
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

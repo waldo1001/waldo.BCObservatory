@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9955",
+  "input_hash": "4841c5cc438455812206f4e1ee9cb4545dfea44d70b90494fe79d4d7b697c0a8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:12.573Z",
+  "issues": [
+    "The description is thin, but the title and the risk note (a revert of a regression) support the summary. Tests were updated."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018543,
+    "changes_in_call": 6
+  }
+}

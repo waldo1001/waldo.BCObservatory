@@ -8,11 +8,10 @@
   ],
   "summary": "Sales Return Order Archive pages now display return-receipt quantities instead of shipment quantities. Return quantity fields are added and bound to archive records, while shipment fields are hidden by default but remain for extensibility.",
   "key_points": [
-    "Added 'Return Qty. to Receive' and 'Return Qty. Received' fields to page 6628 bound to Sales Line Archive",
-    "Hid shipment-related fields ('Qty. to Ship' and 'Quantity Shipped') by default while preserving them for extensions",
-    "Added test coverage in SCMArchiveOrders codeunit for return quantity validation across archive snapshots",
-    "No changes to table schema, posting logic, or archive timing behavior",
-    "Archive controls are retained for page-extension compatibility and personalization"
+    "Added Return Qty. to Receive and Return Qty. Received to page 6628, bound to the Sales Line Archive record",
+    "Qty. to Ship and Quantity Shipped are hidden by default but kept for page-extension compatibility and personalization",
+    "Added test SalesReturnOrderArchiveShowsStoredReturnQuantities to SCM Archive Orders in W1 and ES",
+    "No changes to table schema, posting, archive timing or invoiced quantities"
   ],
   "change_kind": "fix",
   "behavior_change": true,

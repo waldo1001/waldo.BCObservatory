@@ -8,14 +8,13 @@
   ],
   "summary": "The Get Catalogs action on the Shopify Catalogs page now displays a clearer tooltip explaining that it only retrieves B2B catalogs for companies already imported into Business Central.",
   "key_points": [
-    "Tooltip updated to clarify the Get Catalogs action's behavior",
-    "Users learn that the action depends on having synced companies",
-    "No catalogs are returned if no companies have been imported",
-    "Shopify integration provides better guidance to users",
-    "Minor text change to improve user experience"
+    "The tooltip on the Get Catalogs action of the Shpfy Catalogs page was updated",
+    "The tooltip now says the action only retrieves B2B catalogs for companies that have already been imported",
+    "If no companies have been synced, no catalogs are returned",
+    "The previous tooltip only said 'Get catalogs from Shopify.'"
   ],
   "change_kind": "fix",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

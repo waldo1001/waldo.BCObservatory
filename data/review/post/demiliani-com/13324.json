@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/13324",
+  "input_hash": "74386329a4cbf51f50c724f3341c1231051e6a7383dce4ef533d050e0acc3245",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:57:09.979Z",
+  "issues": [
+    "Post is mainly about Azure Logic Apps storage design; Business Central relevance comes only from the mention of the BC managed connector, which is enough to keep it.",
+    "Summary, key points, load test figures and quotes match the post.",
+    "Quote 1 is a shortened form of a longer sentence but keeps its meaning."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043055,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10462",
+  "input_hash": "282034522bf80f8aa1925bdd854adbdd8a2186826ed473b30e97d0a606e5f4ec",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:46.868Z",
+  "issues": [
+    "Supported: ConsiderRefundsInQuantityAndAmounts now also reduces the discount amount and presentment discount amount by the refunded share.",
+    "Minor: only one unit test plus two helpers were added, but the page says 'unit tests' (plural)."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018501,
+    "changes_in_call": 6
+  }
+}

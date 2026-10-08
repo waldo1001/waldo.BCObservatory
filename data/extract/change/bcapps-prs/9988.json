@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense Agent permissions are restructured to isolate API access, making subscriber permissions mandatory for Employee synchronization and deletion, while narrowing agent-facing APIs to an agent-only permission set.",
+  "summary": "Fixes Expense Agent Employee event subscribers so they can sync and delete Expense Users without callers needing Expense User permissions, using method-scoped inherent permissions. Adds an API.ReadWrite.All application entitlement and moves internal agent APIs out of the Expense Management - Objects permission set.",
   "key_points": [
     "New entitlement 'EA - Azure AD Application API' grants Expense Agent application API.ReadWrite.All access mapped to 'Expense Mgmt. Edit'",
     "Employee event subscribers now have method-scoped inherent permissions for synchronization and deletion logic",
@@ -14,7 +14,7 @@
     "Existing customer and partner Employee permission sets unaffected by changes",
     "Comprehensive test suite added covering synchronization, deletion guards, and multiple permission profiles"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

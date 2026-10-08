@@ -6,7 +6,7 @@
   "systems_joined": [
     "warehouse"
   ],
-  "summary": "Reserved lot re-picking is now possible after warehouse reclassification by correcting the calculation of reserved quantity on inventory to account for registered shipment quantities before adding outstanding pick calculations.",
+  "summary": "A sales line can now re-pick its reserved lot after the original pick was registered, the unposted shipment was deleted and the stock was moved back to a pick bin by warehouse reclassification. CalcLineReservedQtyOnInvt now applies the existing shipment-bin guard to registered quantity, which avoids the Nothing to handle error.",
   "key_points": [
     "Fixed issue where reserved lots could not be re-picked after warehouse reclassification and shipment deletion",
     "Modified Warehouse Availability Mgt.CalcLineReservedQtyOnInvt to apply shipment-bin guard to registered quantities",

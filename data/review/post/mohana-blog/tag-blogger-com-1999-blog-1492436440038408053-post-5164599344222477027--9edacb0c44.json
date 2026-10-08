@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-5164599344222477027",
+  "input_hash": "8c18e4a49e19bdd644998c2c0a43ab3d19d14398d881aa6cdbecf34d7466a463",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:57.608Z",
+  "issues": [
+    "The two objects listed as tables are workflow templates in the post, not tables. Dropped them.",
+    "The rest of the summary, key points and quotes are supported."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03507,
+    "posts_in_call": 4
+  }
+}

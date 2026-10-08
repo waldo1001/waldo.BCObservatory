@@ -16,12 +16,12 @@ tags:
   - vs code
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:45.108Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,7 +65,6 @@ code_objects_mentioned: []
 systems:
   - copilot
   - development
-  - integration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -81,17 +80,17 @@ preview:
 
 # Distributing Agents with Plugins
 
-[Read the post](https://tine.staric.net/blog/2026/agent-plugins/) · Tech Adventures in Business Central (Tine Staric) · 2026-07-03 · 1523 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2026/agent-plugins/) · Tech Adventures in Business Central (Tine Staric) · 2026-07-03 · 1523 words · tier community · reviewed (checked by Opus)
 
 > Distribution of custom agents to teams is accomplished through plugins, which package agents, skills, and MCP configurations in a shared repository that team members can install with one click in GitHub Copilot or Claude Code. The post explains how to set up marketplace and plugin manifests to enable seamless sharing across ecosystems without manual file copying.
 
 ## Key points
 
-- Plugins enable one-click installation of agents and skills for entire teams without manual setup or file copying
-- A single plugin repository works for both GitHub Copilot and Claude Code using shared agents/ and skills/ folders
-- Marketplace manifests (.github/plugin/marketplace.json and .claude-plugin/marketplace.json) turn a repository into a discoverable plugin source
-- Plugin manifests and directory structure are minimal, requiring only metadata files and standard folder naming conventions
-- Teams can register plugin repositories in editor settings and receive updates automatically without reinstalling plugins
+- A plugin bundles agents, skills and MCP config you already have into a repo that teammates can install in one step, so nobody copies files by hand.
+- One repo serves both GitHub Copilot and Claude Code, using a marketplace manifest for each tool at .github/plugin/marketplace.json and .claude-plugin/marketplace.json.
+- Each plugin manifest only needs a name, description, version and author. Both tools read the shared agents/ and skills/ folders by default.
+- Do not split agents into a folder per tool: the Copilot extension in VS Code merges every plugin.json and installs the agents twice. Put both tools' names in one tools array instead.
+- Each skill needs its own subfolder directly under skills/, and deeper nesting of skill folders does not work. Teammates pick up changes with one sync command, with no reinstall.
 
 ## Quotes
 
@@ -99,6 +98,6 @@ preview:
 
 ## Context
 
-- Features: plugin marketplace installation, agent distribution, skill sharing, MCP configuration sharing, cross-ecosystem plugin support, automatic plugin updates
+- Features: plugin marketplace installation, agent distribution, skill sharing, MCP configuration sharing, cross-ecosystem plugin support
 
 Source: Tech Adventures in Business Central, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

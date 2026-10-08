@@ -9,22 +9,16 @@
   ],
   "summary": "Amount formatting now supports displaying currency symbols or ISO codes before or after values using AL format-string tokens, with a new Default position option that defers to General Ledger Setup settings.",
   "key_points": [
-    "Currency Symbol Position enum gains Default value with IDs re-mapped",
-    "Amount formatting uses AL `<S,...>` tokens to embed currency text as part of formatting",
-    "Foreign currencies can now inherit position settings from General Ledger Setup when their position is Default",
-    "Upgrade code preserves existing configuration across all country layers",
-    "Tests split into session-isolated codeunits covering symbol/code combinations and positions"
+    "Currency Symbol Position enum gains a Default value and its existing values are re-IDed",
+    "Amount formatting emits currency text through AL <S,...> format tokens instead of plain text",
+    "Foreign currencies set to Default use the General Ledger Setup position",
+    "Upgrade code keeps stored General Ledger Setup and Currency values meaningful in W1 and affected country layers",
+    "Amount format tests split into session-isolated codeunits covering symbols, codes, positions and never-show"
   ],
   "change_kind": "feature",
   "behavior_change": true,
   "breaking": true,
-  "obsoletions": [
-    {
-      "object": "Currency Symbol Position",
-      "member": null,
-      "replacement": null
-    }
-  ],
+  "obsoletions": [],
   "systems": [
     "finance"
   ],

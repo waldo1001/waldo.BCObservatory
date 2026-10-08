@@ -8,11 +8,11 @@
   ],
   "summary": "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation. The connector transparently migrates legacy non-expiring tokens to expiring tokens during API calls and refreshes tokens before expiry, with a user notification when the refresh token expires.",
   "key_points": [
-    "New token fields and expiry tracking added to the Shopify Registered Store table",
-    "Automatic token migration from non-expiring to expiring tokens during first API call",
-    "Refresh token orchestrator integrated into every API call via the Communication Manager",
-    "Reactive 401 error handling with single retry on token refresh failure",
-    "User notification on Shop Card when refresh token expires"
+    "New Token Expires At and Refresh Token Expires At fields on Shpfy Registered Store New; the refresh token is kept in IsolatedStorage",
+    "New installs request expiring tokens, and legacy non-expiring tokens are migrated once per shop when an API call runs",
+    "EnsureValidAccessToken is called from GetAccessToken, so every API call refreshes a token that is close to expiry",
+    "An unexpected 401 response forces a single token refresh followed by one retry",
+    "The Shop Card shows a reconnect notification when the refresh token has expired"
   ],
   "change_kind": "feature",
   "behavior_change": true,

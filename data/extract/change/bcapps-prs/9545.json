@@ -9,11 +9,11 @@
   ],
   "summary": "Report action tooltips for Cost Accounting reports are moved from page actions to report objects themselves, eliminating duplication and ensuring consistent tooltips across all invocations of these reports.",
   "key_points": [
-    "Tooltips for 16 Cost Accounting reports moved to report objects",
-    "Duplicate tooltips removed from page actions in W1 and country layers",
-    "Changes propagated across 18 country layer forks",
+    "Tooltips for 16 Cost Accounting reports moved to the report objects",
+    "Duplicate tooltips removed from page actions in W1 and the country layers",
+    "40 page forks across 18 country layers updated to match W1",
     "Metadata-only change with no runtime behavior impact",
-    "Cleanup continuation following same pattern used for other modules"
+    "Continues the same cleanup pattern already applied to other modules"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

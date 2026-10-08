@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9878",
+  "input_hash": "ddaf96e51d6b1de146d81cc2671fae4f6fe53a077f863bb0450702364523d05a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:39.068Z",
+  "issues": [
+    "Matches the description. The external document number is now exported as BuyerOrderReferencedDocument/IssuerAssignedID for invoices and credit memos, with a regression test."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013503,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10134",
+  "input_hash": "40aac1084cb4a0d4957cbd1776cea5fb73457f207b2f012aaa12afb3d27f5510",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:08.512Z",
+  "issues": [
+    "Key point 2 overstated the bugs as data loss. Multi-select delete only removed the focused part, and config rows used a wrong key or collided when blank.",
+    "The removed ThemeandHeaderFooterBox page could affect extensions that reference it, but the input does not show it was ever released, so breaking stays false."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023224,
+    "changes_in_call": 6
+  }
+}

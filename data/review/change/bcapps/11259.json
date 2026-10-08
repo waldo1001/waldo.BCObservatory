@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11259",
+  "input_hash": "62554d44e45c47c33cc0c94eb75008a00991c4926b7cf2321cd132a7f64eb7c9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:21.329Z",
+  "issues": [
+    "Summary and key points match the description: OnOpenPage now loads the stored key into ServiceKeyText, test added, obsolete pages 10501/10503 intentionally unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021568,
+    "changes_in_call": 6
+  }
+}

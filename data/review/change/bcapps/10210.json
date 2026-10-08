@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10210",
+  "input_hash": "373b984b1f3b6afa4aa2fbfa75a98638291f285109eead0a00f46f9cc7709c1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:32.369Z",
+  "issues": [
+    "The event name OnAfterDeleteBlanketOrderLine for report 291 does not appear in the given description. Only OnAfterDeleteSalesLinesLoop for report 299 is named.",
+    "The rest is supported: the two subscribers, the public DeleteSalesServiceCommitments on Sales Header shared by four deletion paths, the XML docs and the three tests."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024978,
+    "changes_in_call": 6
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - bc28
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:52.447Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -74,7 +74,6 @@ quotes:
 code_objects_mentioned:
   - report Item – ABC Analysis
   - page ABC Analysis Setup
-  - api Business Central API page
 systems:
   - development
   - integration
@@ -96,7 +95,7 @@ preview:
 
 # Weekly Review: Business Central AL Development – June 7–13, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/) · DvlprLife (Brad Prendergast) · 2026-06-15 · 840 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-7-13-2026/) · DvlprLife (Brad Prendergast) · 2026-06-15 · 840 words · tier community · reviewed (checked by Opus)
 
 > A weekly roundup of Business Central AL development resources from June 7 - 13, 2026, covering agentic development patterns, AI assistant instructions for developers, AL performance optimization techniques, the new Item - ABC Analysis report in BC28, and a proof-of-concept RFID scanning system integrated via Power Automate.
 
@@ -119,7 +118,6 @@ As named in the post. A name that matches one object page by exact type and name
 
 - report "Item – ABC Analysis"
 - [page 7160 "ABC Analysis Setup"](../../objects/page/7160.md)
-- api "Business Central API page"
 
 Not found in BC28-30: report "Item – ABC Analysis".
 

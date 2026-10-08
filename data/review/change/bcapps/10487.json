@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10487",
+  "input_hash": "06413da3200be973864ab6d3ff9a32fbd91b0dc295c3cfc20c82082dd649c466",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:53.353Z",
+  "issues": [
+    "The summary and key points match the description: an additive integration event in report 1131, with the line passed by var and the Cost Allocation Source passed for context.",
+    "The flags are right: it is a feature with no behaviour change and nothing breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019088,
+    "changes_in_call": 6
+  }
+}

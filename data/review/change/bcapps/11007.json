@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11007",
+  "input_hash": "0fa182facdf7cead1fed167335711c94ea51e04189c9c7afe2aa88faefc0fed3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:00.681Z",
+  "issues": [
+    "Key point on 'cascade delete protection' is ambiguous; description says deletion is blocked while expense reports reference the travel request and financial documents are never cascade-deleted."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029788,
+    "changes_in_call": 6
+  }
+}

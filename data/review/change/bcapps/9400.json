@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9400",
+  "input_hash": "c191fbf0dd7c787273fc2570d95b896f6adc398a5c5b195b61ea7c532cbacfab",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:18.987Z",
+  "issues": [
+    "Feedback now goes to a different OCV area, so behaviour does change. The page's claim of no behavioural impact is wrong."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019464,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/8905",
+  "input_hash": "ef78c684abace0f9f3fe5f78f904d2b298829873a0521a02db3c2f4e00ab15d9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:18.987Z",
+  "issues": [
+    "The description gives only the bug title. The upgrade codeunits and upgrade tags were changed, but nothing says exactly what data they migrate.",
+    "Key point 5 is vague and not supported by anything given."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019464,
+    "changes_in_call": 6
+  }
+}

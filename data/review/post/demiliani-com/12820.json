@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/demiliani-com/12820",
+  "input_hash": "1e563286ddb0bee122ff7fbb6eeb08cccf223d108a0f654281b675dc5ed2c8ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:17.935Z",
+  "issues": [
+    "Key point claimed limits nearly doubled; only RAM doubled while cores went from 24 to 32.",
+    "Columnstore key point was imprecise about ordered indexes and tempdb sorting.",
+    "Versions list includes SQL Server 2024, which the post never mentions; cannot be removed via these fields.",
+    "System development is not supported by the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033353,
+    "posts_in_call": 4
+  }
+}

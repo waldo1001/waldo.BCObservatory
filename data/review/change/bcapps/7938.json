@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/7938",
+  "input_hash": "061e482682012015f612c2bf832db3dc456e5cd8b2ed6ed9126704240f82f1c4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "The description is only a bug link. The claims about actionable UI in the receiving and warehouse guides go beyond what was given: the warehouse guide only lost one line.",
+    "The claim about new codeunit procedures is speculative.",
+    "This is a bug fix (Bugs/632378), not a feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

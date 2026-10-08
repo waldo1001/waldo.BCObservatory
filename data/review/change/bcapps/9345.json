@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9345",
+  "input_hash": "bc0bc8bf7918befe67284771c23bb9f46f114716e4d8ef141c9b2b42d64d1a99",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.512Z",
+  "issues": [
+    "behavior_change=true is wrong. The PR only adds integration event publishers, and existing rendering is unchanged unless someone subscribes.",
+    "The summary and key points match the title and the files."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014869,
+    "changes_in_call": 6
+  }
+}

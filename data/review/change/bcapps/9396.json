@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9396",
+  "input_hash": "9ce19aeb12a017597c8ed54e2b71c8c78295dcacd8b84c326592ccd4f1613ef6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:29.855Z",
+  "issues": [
+    "All points are supported by the description: the purchase orders created in the current run are captured and marked, filtering is aligned with PurchLineExists, there is a fallback for an updated open PO, and two tests were added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024712,
+    "changes_in_call": 6
+  }
+}

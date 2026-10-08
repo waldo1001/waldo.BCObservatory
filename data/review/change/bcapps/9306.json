@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9306",
+  "input_hash": "a8e1024819847be350cdc88b2cb0a02c58b0ece3c1c06c0ad5bcbfc0116694a3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:39.374Z",
+  "issues": [
+    "The summary and key points follow the cause and solution in the description, including the apply and unapply symmetry and the inline-only failure path.",
+    "The ES layer scope is stated correctly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

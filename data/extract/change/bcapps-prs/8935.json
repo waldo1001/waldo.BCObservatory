@@ -4,13 +4,13 @@
   "title": "[Main]-[Escalated] [Strategic] [BC-IN]Online: Performance issue in General journal line from June 17th 2026 - 2606170030006074",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Removed redundant SaveRecord calls from TCS journal page extensions that were causing performance degradation during line entry by triggering unnecessary database writes and workflow evaluations.",
+  "summary": "Removed a redundant CurrPage.SaveRecord() call from 31 India journal and voucher page extensions in the GST, TCS, TDS and Tax Base apps. The extra call caused a database write and a workflow evaluation for every line, which made line entry slow. Tax calculation is unchanged.",
   "key_points": [
-    "Eliminated redundant CurrPage.SaveRecord() from UpdateTaxAmount() method in TCS journal pages",
-    "Aligns TCS pages with GST, TDS, and Tax Base pages that were already fixed",
-    "Reduces unnecessary database writes and workflow evaluations during journal line entry",
-    "Tax calculation behavior remains unchanged",
-    "Addresses performance lag in environments with many enabled workflows"
+    "Removes one redundant CurrPage.SaveRecord() line from each of 31 page extensions",
+    "Affects General, Cash Receipt, Payment, Purchase and Sales journals and Bank and Cash vouchers in INGST, INTCS, INTDS and INTaxBase",
+    "Avoids an extra database write and workflow evaluation per journal line",
+    "Fixes lag that was worse in environments with many enabled workflows",
+    "Tax calculation behaviour is stated to be unchanged"
   ],
   "change_kind": "performance",
   "behavior_change": true,

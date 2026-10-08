@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11722",
+  "input_hash": "22b4aee8e4f13222b84bf3fb12178ff3ba38ba9451941b5d8f45e5425dc3a70b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:12.617Z",
+  "issues": [
+    "The summary calls the limit an 'automatic rollover', but it is a rolling order limit. The summary also leaves out the fail-closed behavior and the Azure Key Vault source."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020642,
+    "changes_in_call": 6
+  }
+}

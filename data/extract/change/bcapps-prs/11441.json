@@ -8,11 +8,11 @@
   ],
   "summary": "The Expense Agent scheduler authorization error message is now clearer, providing specific guidance to users about missing permissions and directing them to request 'Can Configure Agent' access from an administrator.",
   "key_points": [
-    "Error message is more descriptive and actionable",
-    "Includes localized field and page captions as placeholders",
-    "Maintains existing rejection behavior for both missing access and missing Can Configure Agent permissions",
-    "No changes to authorization, scheduling, or permissions logic",
-    "Message is consistently applied across wizard and scheduler paths"
+    "Ambiguous scheduler authorization error replaced with actionable guidance to ask an administrator for Can Configure Agent access",
+    "Message uses the localized field caption and Expense Agent Setup page caption as placeholders, with a translator comment",
+    "Both denial paths (no access control entry, or entry without Can Configure Agent) keep their existing rejection behavior",
+    "No changes to authorization, scheduling, permissions or schema",
+    "Wizard paths that reach the scheduler also show the new message"
   ],
   "change_kind": "fix",
   "behavior_change": true,

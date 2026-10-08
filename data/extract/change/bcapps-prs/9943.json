@@ -8,10 +8,9 @@
   ],
   "summary": "Purchase invoices in foreign currency now correctly display the Amount LCY field in the Deferral Schedule view instead of showing zero values.",
   "key_points": [
-    "Fixed incorrect Amount LCY calculation for deferrals on purchase invoices using foreign currency",
-    "Updated Deferral Utilities codeunit to handle currency conversion properly",
-    "Added test cases across multiple localizations to verify the fix",
-    "Ensures deferral schedules accurately reflect local currency amounts"
+    "Purchase invoices in a foreign currency (USD) with deferrals no longer show 0 Amount LCY in the Deferral Schedule view",
+    "The fix is in codeunit 1720 Deferral Utilities",
+    "Tests were added in the W1, APAC, BE, CA, RU and US test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14894",
+  "input_hash": "2f415b561fd76502259c445495bea8fc05f55368be6a5f11d3189204bc615db5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:46.335Z",
+  "issues": [
+    "PostSalesLine and InsertCustomer are procedures in the post, not codeunits; drop both objects.",
+    "Administration system is not supported by the post.",
+    "Context management belongs to the author's earlier post, not this one; drop that feature.",
+    "Summary, key points and quote otherwise match the post."
+  ],
+  "applied": [
+    "dropped 2 object(s)",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042729,
+    "posts_in_call": 4
+  }
+}

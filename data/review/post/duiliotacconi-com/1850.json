@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/duiliotacconi-com/1850",
+  "input_hash": "2239b8a2ef7d5e5072e33c67c025382fac8923cc1bf9ee44b6d0919021aafc96",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:04.179Z",
+  "issues": [
+    "Summary wrongly lists filters as a fallback trigger; per the post filtered truncate uses a save-and-restore technique, and only FlowField filters cause fallback.",
+    "Key point says truncate fails or cannot be used under constraints; the post says it falls back to row-by-row deletion.",
+    "Rec.Truncate is a method, not an AL object, so the object entry was dropped."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043299,
+    "posts_in_call": 4
+  }
+}

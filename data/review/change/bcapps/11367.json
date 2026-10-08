@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11367",
+  "input_hash": "3dd4396e16c658d16da714945a89a7e0011373beba3e8a18f158c7aa162abcbd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:39.890Z",
+  "issues": [
+    "Third key point overstates the test: it covers the undo fix, not item tracking and reservation functionality in general.",
+    "Summary and fix classification are supported by title and changed undo codeunits."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01831,
+    "changes_in_call": 6
+  }
+}

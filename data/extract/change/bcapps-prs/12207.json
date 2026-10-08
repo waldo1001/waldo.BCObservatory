@@ -8,11 +8,11 @@
   ],
   "summary": "Data Query Tools for MCP are now marked billable with a pricing acknowledgement requirement before activation. When imported, users are prompted to confirm pricing; headless imports default to disabled.",
   "key_points": [
-    "Data Query Tools marked as billable feature in MCP Server Feature enum",
-    "New reusable MCP billing confirmation page added for billable features",
-    "Activation requires explicit pricing acknowledgement in GUI sessions",
-    "Existing Data Query Tools opt-ins reset during upgrade",
-    "Headless imports default to disabled state"
+    "Data Query Tools are now billable and need a pricing acknowledgement before activation",
+    "A reusable MCP billing confirmation page is added for billable server features",
+    "A JSON import that requests Data Query Tools shows the prompt in GUI sessions; answering No, or importing headless, leaves it disabled",
+    "Upgrade resets existing Data Query Tools opt-ins, and the MCP capability is changed to Microsoft billed",
+    "A learn-more link to the pricing and terms is added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2382",
+  "input_hash": "abe9b174a84ba40760cdf33a268a2201452fb81d648f9304eac1a47e4234248f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.331Z",
+  "issues": [
+    "Accurate. 'Failed silently' loosely describes zero artifacts matching and a fallback to the main artifacts, as explained in the key points."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019188,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11609",
+  "input_hash": "b930bec91ad3c28d1ef84c83f873d0fde40302789ae51dd5a03b476edacea9da",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.331Z",
+  "issues": [
+    "Test file change is purely additive (+116 -0), so the tests were added, not updated.",
+    "Summary, change_kind and flags are consistent with the title and the bug description."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019188,
+    "changes_in_call": 6
+  }
+}

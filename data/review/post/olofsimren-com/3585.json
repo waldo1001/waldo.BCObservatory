@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/olofsimren-com/3585",
+  "input_hash": "747de0cffb88d2f167ded627097daba8a951db1f9f7ef10d1b494c545444bff7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:57.907Z",
+  "issues": [
+    "Summary frames the extension as built for manufacturing companies; the post only says most of the author's customers are manufacturers.",
+    "Key point claims all credentials go to isolated storage; only the API key is stored there, the endpoint and deployment name sit in a setup table."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029882,
+    "posts_in_call": 4
+  }
+}

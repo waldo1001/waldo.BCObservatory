@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/demiliani-com/11858",
+  "input_hash": "9b30f693ec8cb119c581fd2bfe09587f31cd98adf77508e46c98a063da066892",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:00:48.630Z",
+  "issues": [
+    "The copilot system label suggests Business Central Copilot, but the post is about the GitHub Copilot Coding Agent working on an AL repository.",
+    "The post does not support the integration system.",
+    "The preview version refers to the GitHub feature, not a Business Central release. The versions field cannot be edited here.",
+    "The summary leaves out that the agent added new events to the AL code."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020545,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10438",
+  "input_hash": "4f3f68882acc210e147d017b5b596f0a8fdc561d4b7a7fca45e30510cf16c8dd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:27.278Z",
+  "issues": [
+    "The summary's 'instead of inherited names' is unsupported because the PR does not say what the old caption was.",
+    "The key point about the six hosts misstates the audit: it verified that the hosts inherit the owning page caption and none overrides it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018245,
+    "changes_in_call": 6
+  }
+}

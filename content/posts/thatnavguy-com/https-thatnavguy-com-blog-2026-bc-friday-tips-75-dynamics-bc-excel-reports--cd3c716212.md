@@ -13,12 +13,12 @@ tags:
   - development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:27.659Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #75 Dynamics BC Excel Reports
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-17 · 86 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-17 · 86 words · tier community · reviewed (checked by Opus)
 
 > Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension rather than the Base Application, requiring developers to add it as a dependency when extending these objects.
 

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/97",
+  "input_hash": "029c4cb1f3791868d985f3e707eceec099c1eb524988ee6eb0942736d4de20f0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:50.333Z",
+  "issues": [
+    "Key point 5 is wrong: the PR only cites the source links and does not add documentation about them.",
+    "Key point 2 leaves out that the sample locks and processes only the exact selected keys."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019365,
+    "changes_in_call": 6
+  }
+}

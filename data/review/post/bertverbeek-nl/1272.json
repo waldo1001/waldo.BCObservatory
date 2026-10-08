@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/bertverbeek-nl/1272",
+  "input_hash": "7a276afb6a48d43dc5c80bef75f2f129a879fafbe3cee8b84496487e4008a520",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:44.042Z",
+  "issues": [
+    "First key point says the Agent codeunit is used at install time to register the agent. The post only says the agent is registered on install and uses the Agent codeunit to create it.",
+    "The administration system is not supported. The post is about AL development only."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031551,
+    "posts_in_call": 4
+  }
+}

@@ -7,11 +7,11 @@
   "words": 1113,
   "summary": "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data and perform actions like querying, creating, and modifying records. The post explains MCP concepts, demonstrates setting up an MCP server for the sales quote process, configuring it in Copilot Studio, and highlights security considerations such as limiting data exposure through custom APIs.",
   "key_points": [
-    "MCP is the evolution of Common Data Model that standardizes actions, data, and reasoning surfaces for AI agents to communicate with business systems",
-    "MCP servers require a defined goal and scope with configurable access controls for read, create, modify, delete, and bound actions on specific objects",
-    "Agents can be created in Copilot Studio using MCP servers as tools, enabling conversational interaction to perform tasks like creating sales quotes",
-    "Security is critical - exposing APIs through MCP makes them available to external sources, so custom APIs should be created to limit sensitive data exposure",
-    "MCP server configuration shows visible agent task logs that reveal how the agent discovers and uses available operations and schemas"
+    "The post presents MCP as the next step after the Common Data Model, standardizing actions, data and reasoning surfaces for AI agents",
+    "An MCP server configuration in Business Central should have a clear goal and scope, with read, create, modify, delete and bound action permissions set per API",
+    "Copilot Studio offers a ready-made Business Central MCP tool that connects to an environment, a server configuration and a company, so an agent can create sales quotes through conversation",
+    "The Agent Tasks view in Copilot Studio shows the agent finding the operations and schemas the MCP server exposes",
+    "Anything exposed through MCP becomes reachable from outside, so purpose-built custom APIs should be used to limit which fields are shared"
   ],
   "systems": [
     "copilot",
@@ -35,22 +35,6 @@
     {
       "type": "api",
       "name": "Business Central 2.0 API"
-    },
-    {
-      "type": "table",
-      "name": "Items"
-    },
-    {
-      "type": "table",
-      "name": "Customers"
-    },
-    {
-      "type": "table",
-      "name": "Sales Quotes"
-    },
-    {
-      "type": "table",
-      "name": "Sales Quote Lines"
     }
   ],
   "features": [

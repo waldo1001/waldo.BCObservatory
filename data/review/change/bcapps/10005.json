@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10005",
+  "input_hash": "45e22bf2b85c1388808d74685aa6051d1c99049f5998688f9681fea2b5c364d0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:11.413Z",
+  "issues": [
+    "The key point about the second error suggests a new message. The description says the existing AlreadyReversedErr is kept for the per-line check.",
+    "The reported scenario was comment or blank lines filtered out of the selection in Undo Return Shipment. The key points now state this.",
+    "Summary and flags are fine."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018359,
+    "changes_in_call": 6
+  }
+}

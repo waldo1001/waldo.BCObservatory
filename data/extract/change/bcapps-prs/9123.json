@@ -8,11 +8,11 @@
   ],
   "summary": "Next Operation No. and Previous Operation No. fields on routing lines now automatically show when routing type is Parallel instead of remaining hardcoded invisible, eliminating the need for manual personalization.",
   "key_points": [
-    "Fields visibility now binds to routing type: shows for Parallel, hides for Serial",
-    "Visibility can be controlled via SetParallelFieldsVisible setter on subform",
-    "Parent routing cards trigger visibility updates in OnAfterGetRecord and Type field OnValidate",
-    "Workaround no longer needed for ISV apps that previously personalized these fields manually",
-    "UI tests added to verify automatic field visibility"
+    "Next and Previous Operation No. are no longer hardcoded hidden on the Routing Lines and Routing Version Lines subforms",
+    "Fields show when routing Type is Parallel and hide when it is Serial",
+    "New public SetParallelFieldsVisible setter on the subforms controls visibility",
+    "Routing and Routing Version cards call the setter from OnAfterGetRecord and the Type field OnValidate",
+    "Change also applied to the IT layer routing subforms"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -13,12 +13,12 @@ tags:
   - business logic
 system: inventory
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:36.135Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,7 +91,7 @@ preview:
 
 # BC Friday Tips #69 Item Blocked Fields
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-10 · 109 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-69-item-blocked-fields/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-10 · 109 words · tier community · reviewed (checked by Opus)
 
 > The Item table in Business Central has multiple blocked fields (Blocked, Sales Blocked, Purchasing Blocked, Service Blocked) that control item restrictions. Checking only the main Blocked field can miss module-specific restrictions and cause logic errors.
 

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9810",
+  "input_hash": "1fcb3f9721d757280ebeb3ecb5c42ae54244f09c3a54e180cba355942ed554f6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:40.148Z",
+  "issues": [
+    "Matches the description: CurrPage.Update(true) in the Code OnValidate is now limited to interactive clients and skipped for OData sessions.",
+    "The first key point says 'removed', which is loose wording for 'scoped', but it is acceptable in context."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019112,
+    "changes_in_call": 6
+  }
+}

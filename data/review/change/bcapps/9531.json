@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9531",
+  "input_hash": "e04eb75ba9d3c55c85a0caa58babf11c0f05c68aa5da151f04d96d40e8f6583e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:18.987Z",
+  "issues": [
+    "The description supports the page: the IsChild enumerator bug, the switch to a TryGet lookup, and the regression test."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019464,
+    "changes_in_call": 6
+  }
+}

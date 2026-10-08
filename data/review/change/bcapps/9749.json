@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9749",
+  "input_hash": "56b91dafde3912130179621d53a6d81bf2d059bc527165559458349900450d13",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:51.961Z",
+  "issues": [
+    "Summary and key points match the description: discount AllowanceCharge now uses the lines' VAT categories, there is one TaxSubtotal per category, and line taxable amounts are reported before the header discount.",
+    "Calling the old ReverseCharge 'synthetic' is slightly loose but harmless."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02093,
+    "changes_in_call": 6
+  }
+}

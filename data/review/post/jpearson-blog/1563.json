@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/jpearson-blog/1563",
+  "input_hash": "c8fe1acc1855d1fad6cd2aaa41892e38b1423ce7f9358d1a1edca0ea137d5eb1",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:59:45.957Z",
+  "issues": [
+    "Post is about using Azure DevOps Wiki and docfx for static documentation sites; Business Central is not its subject, with only a passing reference to the author's AL Test Runner docs."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027261,
+    "posts_in_call": 4
+  }
+}

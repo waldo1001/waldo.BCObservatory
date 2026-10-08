@@ -13,17 +13,17 @@
     "fixed-assets",
     "purchasing"
   ],
-  "summary": "Three AL linting rules (AL0606, AA0161, AA0448) are promoted from warnings to errors, requiring developers to fix deprecated `with` statements, narrow the scope of intentional `AssertError` uses in test infrastructure, and replace technical field/table names with localized captions in user-facing messages.",
+  "summary": "The BCApps base ruleset now treats AL0606, AA0161 and AA0448 as errors instead of warnings. Code across apps and layers was updated to remove deprecated with statements, narrowly scope intentional AssertError uses, and show localized captions instead of technical field and table names in messages.",
   "key_points": [
-    "AL0606 rule promoted: refactor 17 diagnostic-derived suffix sites to remove deprecated `with` statements and qualify record members explicitly",
-    "AA0161 rule promoted: restrict intentional `AssertError` uses in test libraries to ID-qualified pragmas with documented acceptance rationale",
-    "AA0448 rule promoted: replace 50 flagged `FieldName`/`TableName` expressions with localized caption equivalents in user-displayed messages",
-    "Ruleset count reduced from 72 to 69 rules",
-    "Developer extensions must fix these violations at source; broad suppressions no longer permitted"
+    "AL0606: 17 deprecated with statements removed and record members qualified explicitly",
+    "AA0161: 29 intentional AssertError uses in test libraries kept under narrow, documented pragma scopes",
+    "AA0448: 50 FieldName/TableName expressions in displayed messages replaced with captions",
+    "Ruleset entries drop from 72 to 69; AL0424 stays a warning",
+    "New violations in the repository now fail compilation"
   ],
-  "change_kind": "breaking",
-  "behavior_change": false,
-  "breaking": true,
+  "change_kind": "refactor",
+  "behavior_change": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "development"

@@ -8,10 +8,11 @@
   ],
   "summary": "Purchase invoice line totals now correctly reflect manual VAT adjustments from the statistics page when using mixed VAT groups, fixing a mismatch issue by recalculating grouped VAT amounts.",
   "key_points": [
-    "VAT totals on purchase invoice subforms now update when manual VAT adjustments are made from the statistics page",
-    "Grouped VAT recalculation is triggered only when VAT differences exist on the invoice lines",
-    "Fixes mismatch between line totals and statistics totals when mixed VAT groups are used",
-    "Changes applied across all localization layers (Base Application, North America, Belgium)"
+    "VAT amount on the purchase invoice subform now reflects manual VAT adjustments made on the Statistics page",
+    "Grouped VAT is recalculated with CalcVATAmountLines only when lines carry a VAT Difference",
+    "Subform totals are overridden to match the statistics when mixed VAT groups are used",
+    "Document Totals codeunit changed in the W1, NA and BE layers",
+    "Test added in DocumentTotalsPages"
   ],
   "change_kind": "fix",
   "behavior_change": true,

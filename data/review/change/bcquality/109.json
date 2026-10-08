@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/109",
+  "input_hash": "0d09f539072f19623175820427ed392d72bc2bcfce6a13f4ff21aa66027bb08b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:20.334Z",
+  "issues": [
+    "behavior_change should be true. The review skill will now emit AA0021 findings at info instead of minor, which changes what the agent outputs."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017028,
+    "changes_in_call": 6
+  }
+}

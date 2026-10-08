@@ -4,7 +4,7 @@
   "title": "[Shopify] Rename tax matching and add configurable processing limit",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "The Shopify Tax Matching Agent feature is renamed to Shopify Tax Matching in user-facing references, and a configurable per-company processing limit with automatic rollover is added to control request volume.",
+  "summary": "Customer-facing references to Shopify Tax Matching Agent now read Shopify Tax Matching, and AL object names stay unchanged. A new fail-closed, per-company rolling order limit is configured through the ShopifyTaxMatchingProcessingLimit Azure Key Vault value, and new telemetry covers configuration problems and limit exhaustion.",
   "key_points": [
     "Renamed customer-facing references from 'Shopify Tax Matching Agent' to 'Shopify Tax Matching' while keeping internal AL object names unchanged",
     "Implemented a fail-closed, per-company rolling order limit configurable via Azure Key Vault setting ShopifyTaxMatchingProcessingLimit",

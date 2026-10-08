@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11562",
+  "input_hash": "c45d4b8ea853ad0b3c5dc3e384f3d3c325c25d6e155f216be0cb0cf65da932fd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.253Z",
+  "issues": [
+    "The table change is a single added line. Calling it 'validation logic' is not supported by what was given.",
+    "'Ensures data consistency regardless of input method' is filler and adds nothing.",
+    "Tests were added in five layers (W1, APAC, IT, NA, NO). The page does not say this."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017874,
+    "changes_in_call": 6
+  }
+}

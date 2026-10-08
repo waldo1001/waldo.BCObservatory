@@ -8,13 +8,13 @@
     "platform",
     "integration"
   ],
-  "summary": "Ten new and extended integration events were added across the base application and SMTP email modules to enable partners to customize standard behavior without modifying base application code.",
+  "summary": "Ten partner event requests were implemented in one batch, adding new integration events or extra parameters on existing ones in the base application and the SMTP email modules. Default behavior is unchanged.",
   "key_points": [
-    "New events for intercompany inbox/outbox management in sales invoices and credit memos",
-    "Job Queue Entry events for status changes and message display",
-    "Sequence number management events for number generation",
-    "Copy Document Management events for sales shipment line handling",
-    "SMTP email events to thread EmailMessageId through AddFrom operations"
+    "New events in ICInboxOutboxMgt before the outbox sales invoice and credit memo loops",
+    "Job Queue Entry gets OnAfterShowStatusMsg and OnBeforeSetStatus; Sequence No. Mgt. gets before/after events for GetLastEntryNoFromTable",
+    "Copy Document Mgt. gets two IsHandled events for copying sales shipment lines",
+    "EmailMessageId is passed through SMTP AddFrom and OnBeforeAddFrom",
+    "Extra parameters on OnBeforeFindOrderSalesHeader (CRMSalesOrder) and OnBeforeExportExcel (FileName), plus a new NL bank account number event"
   ],
   "change_kind": "feature",
   "behavior_change": false,

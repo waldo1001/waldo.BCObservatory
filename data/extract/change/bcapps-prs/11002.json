@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Excise duty calculation now supports rate-based models (specific-per-unit, ad valorem, hybrid) alongside the legacy item and fixed-asset rates, with a new rate table and calculation type enum to resolve duties before calculating taxable amounts.",
+  "summary": "Excise duty calculation now supports specific-per-unit, ad valorem and hybrid rates through a new Excise Tax Rate table, list page and Excise Calculation Type enum. For item ledger entries, the final rate and calculation type are now applied before the taxable amount is calculated. Existing item/fixed-asset rates are migrated to the new table.",
   "key_points": [
     "Added Excise Tax Rate table and list page for flexible duty models",
     "Introduced Excise Calculation Type enum with specific-per-unit, ad valorem, and hybrid options",

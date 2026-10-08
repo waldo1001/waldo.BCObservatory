@@ -7,11 +7,11 @@
   "words": 715,
   "summary": "Building a late payment prediction model in Microsoft Fabric using AutoML instead of the native Business Central feature. The post demonstrates how to export BC customer ledger data, engineer features from payment history, train an automated machine learning model, and score open invoices to forecast payment dates for cash flow planning.",
   "key_points": [
-    "AutoML automates machine learning workflow steps like model selection and feature engineering, making AI accessible beyond data scientists",
-    "Feature engineering extracts payment patterns including customer history, payment terms, and posting dates to train the prediction model",
-    "Only closed invoices are used for training to ensure reliable historical data, while open invoices receive predictions for expected close dates",
-    "The trained model and predictions are registered in MLflow and stored in Fabric lakehouse for use in Power BI and other analytics tools",
-    "Data export from Business Central occurs through APIs or bc2adls integration into Fabric for the unified analytics workflow"
+    "AutoML in Fabric automates model selection, hyperparameter tuning and feature engineering, opening ML to non data scientists",
+    "Business Central customer ledger data reaches Fabric via API or bc2adls; features include payment term days, posting month and weekday, and per-customer payment history",
+    "Only closed invoices train the model; open invoices get predicted days open plus a customer-average baseline and an expected close date",
+    "The trained model is registered in MLflow, and scored results go to a lakehouse table usable in Power BI for cash flow",
+    "The author calls it an experiment; training can take up to 30 minutes"
   ],
   "systems": [
     "finance",

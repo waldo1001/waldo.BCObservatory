@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10877",
+  "input_hash": "73d7c8e301ca716fc18979730fb3e025106b0e3bac8771a1ef9b0ad1b3806a30",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:09.832Z",
+  "issues": [
+    "The summary says 'across all scenarios' and a key point says the formula applies 'in all cases'. The description only states the result when all three conditions are present, so both claims go too far.",
+    "The rest is supported: Sales Post Invoice was changed in 8 layers and tests were added in 5 layers."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019427,
+    "changes_in_call": 6
+  }
+}

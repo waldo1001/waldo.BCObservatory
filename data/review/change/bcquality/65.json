@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/65",
+  "input_hash": "8453dc3e614b8b91f158f654d17fc2bf3d6ec1c083524383db28c72f9debdcd6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:12.353Z",
+  "issues": [
+    "The content is accurate overall: 7 articles, two new domains, paired good and bad samples, and a validated count of 199.",
+    "One key point has a typo ('codunits') and is vague. The description names codeunit 310 No. Series and the obsolete-pending NoSeriesManagement (codeunit 396)."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01916,
+    "changes_in_call": 6
+  }
+}

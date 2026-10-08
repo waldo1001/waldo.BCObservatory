@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10205",
+  "input_hash": "1088345de6be8090b0f8a8767457c139ca5de30f3bea2093cc8033c6f61ec3aa",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:45.380Z",
+  "issues": [
+    "Summary, flags and obsoletions match the description; both Params objects are guarded out under CLEAN29, which is the removal convention."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024922,
+    "changes_in_call": 6
+  }
+}

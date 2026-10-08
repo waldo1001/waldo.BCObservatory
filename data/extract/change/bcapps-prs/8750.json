@@ -8,11 +8,11 @@
   ],
   "summary": "Transfer order lines flagged as WIP items now skip the standard item-availability warning check since WIP items are intermediate goods managed by subcontracting, not subject to regular inventory constraints.",
   "key_points": [
-    "Added event subscriber to suppress availability check for Transfer WIP Item lines",
-    "Prevents incorrect inventory warnings for intermediate goods in subcontracting workflow",
-    "Non-WIP transfer lines continue to perform availability checks as before",
-    "Includes tests to verify WIP lines skip the check while non-WIP lines remain unchanged",
-    "Uses feature flag guard to ensure compatibility with legacy versions"
+    "New subscriber to Transfer Line OnBeforeCheckItemAvailable sets IsHandled when Transfer WIP Item is true",
+    "Changing Quantity on a WIP transfer line no longer raises the item-availability warning",
+    "Non-WIP transfer lines still run the availability check",
+    "Subscriber only runs when subcontracting is enabled and skips temporary records",
+    "New test codeunit plus a spy codeunit check whether the availability check ran"
   ],
   "change_kind": "fix",
   "behavior_change": true,

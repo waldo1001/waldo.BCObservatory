@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9320",
+  "input_hash": "089933b0d851f38813d23ba96cd40afe6e52cf1e6eb1f290d6ade951c59d64da",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "The page is supported by the description. It leaves out one detail: tariff change detection on export now ignores separators. That is a minor omission."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

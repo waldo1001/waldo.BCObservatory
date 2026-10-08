@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10826",
+  "input_hash": "16d9f4bbc51548ae8907f15ce1b022a20ab455fb8a9c39edb67c6b289e6dbce4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:07.626Z",
+  "issues": [
+    "The page says posting is skipped when translations are missing. SkipPostingExpenseReport() returns true today, so posting is always skipped.",
+    "The page does not mention the changes to Expense Rule Validation and CreateExpenseGLAccounts, which are in the files but not described."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028932,
+    "changes_in_call": 6
+  }
+}

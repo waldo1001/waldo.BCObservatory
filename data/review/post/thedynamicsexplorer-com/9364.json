@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/9364",
+  "input_hash": "8d19cafdf4dfee2992cbdfb5e9bf182fdbd935295401f9a2083d8534bbcbe580",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:32.331Z",
+  "issues": [
+    "A key point claimed read-only access to all areas for both licences, but the post states that only for the Internal Administrator licence.",
+    "Missing the note that these users are not pulled in by the Update users from Microsoft 365 action and must open Business Central via its URL."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029367,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11611",
+  "input_hash": "b82b6a509f1a53bc7009f51437ae5973fda2db9d0bfb763e4cd07ce409f5c76d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:09.054Z",
+  "issues": [
+    "Accurate; the telemetry dimension is additive and behavior_change true is defensible because telemetry output changes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018912,
+    "changes_in_call": 6
+  }
+}

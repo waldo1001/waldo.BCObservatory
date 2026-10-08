@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/10232",
+  "input_hash": "a76c9f64543b4e062bc86edda893d6342311c9881d4d06d6fd41f923451e6278",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:02.570Z",
+  "issues": [
+    "Summary, key points, objects, features and quote match the post.",
+    "Administration system is not supported; the post is about sales cash posting and bank reconciliation, not admin work."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026924,
+    "posts_in_call": 4
+  }
+}

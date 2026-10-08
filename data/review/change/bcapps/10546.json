@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10546",
+  "input_hash": "5f06098c28a8da54747f2499c9378d8743f63d53172f6665cfc234d81868268e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.881Z",
+  "issues": [
+    "Key point about recalculating backward-flushed capacities during re-finishing is not supported; the fix stops the repost.",
+    "Key point about capacity ledger entries is an inference not stated in the PR."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018575,
+    "changes_in_call": 6
+  }
+}

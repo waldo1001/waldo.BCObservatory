@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9960",
+  "input_hash": "7c004470999141cad2cd25eed4da49f9031ab7102f37f5400b224e303d6668c5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:56.755Z",
+  "issues": [
+    "Everything matches the description: LookupSalesDoc goes from local to public in W1 and APAC, and behaviour is preserved."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014187,
+    "changes_in_call": 6
+  }
+}

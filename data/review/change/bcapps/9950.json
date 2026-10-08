@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9950",
+  "input_hash": "36edfd1eca6098c71fd62895f34ebbbc65d8e3f00dbf14d615fe022c70209d50",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:41.397Z",
+  "issues": [
+    "The page matches the stated cause and fix: subscribers removed, temp WHT entries cleared in OnAfterBindSubscription, and unused using statements removed."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025283,
+    "changes_in_call": 6
+  }
+}

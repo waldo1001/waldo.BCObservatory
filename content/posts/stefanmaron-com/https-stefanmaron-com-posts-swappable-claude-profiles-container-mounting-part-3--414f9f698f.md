@@ -15,12 +15,12 @@ tags:
   - configuration management
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:06.715Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
 
 # Swappable Claude Profiles: Per-Project Configs via Container Mounting (Part 3)
 
-[Read the post](https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/) · Stefan Maron (Stefan Maron, MVP) · 2026-03-16 · 1116 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/swappable-claude-profiles-container-mounting-part-3/) · Stefan Maron (Stefan Maron, MVP) · 2026-03-16 · 1116 words · tier community · reviewed (checked by Opus)
 
 > Claude Code profiles enable project-specific configurations by mounting host directories as ~/.claude inside containers, allowing separate contexts, instructions, and agents for different work types. The profile system makes it practical to maintain AL development, telemetry investigation, and other specialized contexts without switching tools.
 

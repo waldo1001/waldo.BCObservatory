@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10336",
+  "input_hash": "fc6884e48bf73ac456d40d1cbaa122fcaf88647faf2dd5910037c40114035f0b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:55.565Z",
+  "issues": [
+    "The summary says SKU updates are skipped when the Load SKU Cost on Manufacturing setting is disabled. The description only says the report ignored that setting and now skips SKU updates 'in this mode', so the direction is not stated and is likely wrong."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017657,
+    "changes_in_call": 6
+  }
+}

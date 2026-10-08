@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10283",
+  "input_hash": "395b10340164143a5b02ec1c66aca6fe2dbdd37f026e826cb4845f5b7a5bfc9c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:31.905Z",
+  "issues": [
+    "The page is accurate: events are added after the standard header and line filters in FillTimeSheetLineBuffer, and the change is additive."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016704,
+    "changes_in_call": 6
+  }
+}

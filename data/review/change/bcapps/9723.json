@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9723",
+  "input_hash": "cb8cedaf6b4108200448972f6272785ee141458ef3cf42c40c7fbecd27a61d0a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:41.397Z",
+  "issues": [
+    "Key point lists a DE layer, but the files touch DACH, not DE.",
+    "Saying the changes are 'consistent across all layers' overstates it. Posting logic is not changed in the DACH, FR, IS, NL and NO layers, and IS only changes the Vendor Card."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025283,
+    "changes_in_call": 6
+  }
+}

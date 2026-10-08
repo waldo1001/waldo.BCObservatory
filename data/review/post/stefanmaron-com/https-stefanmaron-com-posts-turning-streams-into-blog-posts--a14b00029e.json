@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/turning-streams-into-blog-posts/",
+  "input_hash": "c35146bb75b1eb51dfb4951cab1074bd11f4cad8d563a93982a2cb7b15003c54",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:29.353Z",
+  "issues": [
+    "The post is about a content workflow. It ties to BC only through the stream topics and the CentralQ community tool.",
+    "The copilot and integration systems are not supported. The post does not cover BC Copilot features or BC integrations.",
+    "The summary is rewritten to make the BC context clear. The quote and key points are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028155,
+    "posts_in_call": 4
+  }
+}

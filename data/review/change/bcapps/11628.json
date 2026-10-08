@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11628",
+  "input_hash": "e096d5959d2d20531d3f9ec54b3e0c3c2dcab65d104e06330e6961f24d799f54",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:45.616Z",
+  "issues": [
+    "Key point 5 says the API preserves data through posting. It is the snapshots that are preserved through posting; the API only exposes them.",
+    "The page leaves out that entries are written only when policy evaluation is enabled and the report is pending approval."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022171,
+    "changes_in_call": 6
+  }
+}

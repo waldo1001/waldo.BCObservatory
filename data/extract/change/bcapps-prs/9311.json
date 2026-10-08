@@ -9,11 +9,11 @@
   ],
   "summary": "Withholding tax support for employee transactions has been added, allowing users to calculate and track employee-related withholding taxes similar to existing purchase-based functionality with new employee setup tables, calculation logic, and ledger entries.",
   "key_points": [
-    "New employee withholding tax feature with setup tables including groups, group lines, and threshold accumulators",
-    "Employee withholding calculation codeunit for transaction processing and subscriber patterns",
-    "Extended employee card and employee ledger entry to support withholding tax tracking",
-    "Withholding tax posting setup extended to support both purchase and expense transactions",
-    "Permission sets updated to include new employee-related withholding tax objects"
+    "New employee withholding tax setup: groups, group lines, threshold period, calculation base and method enums, and a threshold accumulator",
+    "New employee withholding calculation codeunit and posting subscribers",
+    "Employee card, employee ledger entry and Withholding Tax Entry extended for employee withholding",
+    "New Expense Withholding Tax app extends expense categories, tax posting setup and threshold accumulator",
+    "Gen. Jnl.-Post Line updated in all localization layers, and permission sets include the new objects"
   ],
   "change_kind": "feature",
   "behavior_change": true,

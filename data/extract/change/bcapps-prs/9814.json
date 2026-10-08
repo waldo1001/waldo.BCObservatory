@@ -13,9 +13,9 @@
     "Removed companion test codeunit for partner testing",
     "Eliminates anti-pattern of public API advertising functionality unavailable to third parties"
   ],
-  "change_kind": "breaking",
+  "change_kind": "other",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "integration",

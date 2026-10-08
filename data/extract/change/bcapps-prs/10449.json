@@ -8,12 +8,12 @@
     "administration",
     "integration"
   ],
-  "summary": "Permission set references to an obsoleted table are removed from the page inspector and VS Code integration modules.",
+  "summary": "Removes references to the soon-to-be-obsoleted table \"Extension Execution Info\" from three permission sets: D365 Basic - Read, Page Inspection and VSC Intgr. - Admin. It also moves the Page Inspector changes from Platform into BCApps, updating the Page Inspection pages and the VS Code helper codeunit.",
   "key_points": [
-    "Permission sets referencing the obsolete 'Extension Execution Info' table are cleaned up",
-    "Page Inspector changes consolidated into BCApps from Platform",
-    "Simplified permission set definitions with reduced references",
-    "References removed from D365 Basic Read, Page Inspection, and VS Code Integration Admin permission sets"
+    "Removes \"Extension Execution Info\" from the D365 Basic - Read, Page Inspection and VSC Intgr. - Admin permission sets",
+    "The table is about to be obsoleted",
+    "Page Inspector changes are moved from Platform into BCApps",
+    "Page Inspection Extensions page and Page Inspection VS Code Helper codeunit are reworked"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

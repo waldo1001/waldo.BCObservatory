@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10924",
+  "input_hash": "5ad226f968934e4a8aa10d90f00be8e83cfa3402a0dd4a301ebcf95cd4c19856",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:16.324Z",
+  "issues": [
+    "The fix only subtracts quantity on outbound bins. The description names pending picks as part of the root cause, but the fix doesn't handle them.",
+    "The key point that the fix prevents sourcing from the ship zone misreads the description, which says movements never source from it.",
+    "Missing details: the subtraction happens only when called from the Movement Worksheet, is clamped at zero, and comes with regression tests."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024532,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11068",
+  "input_hash": "529d1139f82416448ca191ad5d23e51ffbe68671c2fc660226fb80366831c32d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:08.033Z",
+  "issues": [
+    "Everything on the page matches the description: the stale SystemId filter is cleared before a new search, and empty searches reset correctly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.012546,
+    "changes_in_call": 6
+  }
+}

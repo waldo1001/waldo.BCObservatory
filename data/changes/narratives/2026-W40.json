@@ -1,9 +1,26 @@
 {
   "week": "2026-W40",
-  "input_hash": "38b5b37d210ff50c98a66f65fa710942d81445f7c61071a4721091a0e7cdc7d9",
-  "text": "Two changes break existing behaviour. #12194 makes Http Web Request Mgt. and SOAP Web Service Request Mgt. disable default credentials unless callers opt in with SetUseDefaultCredentials(true) on-premises, and #12157 marks the GetAddress.io UK postcode objects obsolete as the service is retired. Security work also includes #12133, which blocks file:// URLs in Web Request Helper, and #11967, which stops Edit in Excel on User table pages. #10755 moves five codeunits to native HttpClient. Fixes cluster in Subscription Billing (#10347, #10210, #11824, #10447, #10156), subcontracting and manufacturing (#12082, #12080, #12068, #11945, #11938, #11644, #11368), Shopify (#11899, #11866, #11854) and regional tax or audit files (#12119, #12008, #12007, #11941, #11907, #11852, #11632, #12134). E-document work covers German SEPA Direct Debit mapping (#8429), service selection (#9642), per-type direction (#11484) and PEPPOL output (#12051, #11968). The Expense Agent gains travel request handling (#12074), policy history (#11628) and approval limits (#11639), and expense configuration writes move to admins (#11996). Power BI deployment now works outside evaluation companies (#12189). Other additions: Fabric export setup (#11314), Payables Agent email cleanup (#11890, #11950), and pre-release NuGet support in AL-Go (#2367). BCQuality added guidance in #210, #207 and #205.",
+  "input_hash": "14a6a172ec0760eef0a14fa66cd7f37df13a63b78c83add514124287d9455971",
+  "text": "Four breaking changes lead the week, all in BCApps. #12194 turns off default credentials in Http Web Request Mgt. and SOAP Web Service Request Mgt., so on-premises callers must now opt in with SetUseDefaultCredentials(true). #11484 adds per-document-type direction (Incoming, Outgoing or Both) to E-Document services. #12066 and #12053 remove CLEAN27 code across Base Application, localizations and several apps. Also, #12133 makes Web Request Helper reject file:// URLs and #12157 marks the GetAddress.io objects obsolete. Subscription Billing got fixes in #10347, #10210, #11824, #10447 and #10156. Subcontracting fixes include #12080, #11945, #11938, #11644 and #11368. Expense Agent work includes approval limits in #11639, policy evaluation history in #11628 and travel request changes in #12074, with #11996 limiting configuration edits to admins. Tax and localization fixes cover #12119 for APAC unrealized VAT, #12008 and #12007 for Indian TDS, #11632 for source currency amounts with reverse charge VAT and #11852 for Spanish allocation accounts. Shopify Tax Matching changed in #11899 and #11722. Power BI deployment now works outside evaluation companies (#12189), Fabric export setup arrives in #11314, and #11967 blocks Edit in Excel on User table pages. AL-Go changed in #2382, #2379, #2367, #2380 and #2378, and BCQuality #204 tightens review validation.",
   "changes": 80,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.08140779999999999,
-  "at": "2026-10-07T15:30:42.268Z"
+  "cost_usd": 0.0830658,
+  "at": "2026-10-08T01:26:53.141Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-08T02:14:39.452Z",
+    "verdict": "fix",
+    "issues": [
+      "The opening 'Breaking changes lead the week' groups #12133 with the breaking #12194, but #12133 is flagged as a fix, not a breaking change.",
+      "#12157 sits in the same breaking/cleanup sentence as #12066 and #12053, but it is not flagged as breaking. Only #12194, #11484, #12066 and #12053 are flagged breaking.",
+      "#11632 is about source currency amounts on foreign-currency G/L entries with reverse charge VAT. 'Reverse charge source amounts' is a loose wording."
+    ],
+    "input_hash": "14a6a172ec0760eef0a14fa66cd7f37df13a63b78c83add514124287d9455971",
+    "cost_usd": 0.2176284,
+    "applied": [
+      "text"
+    ],
+    "rejected_edits": []
+  }
 }

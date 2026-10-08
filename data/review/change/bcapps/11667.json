@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11667",
+  "input_hash": "8d292b60bd3b0dbe22ba7f741066a988bf8a402c4bfbe4fdeba87b648b11742b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:39.052Z",
+  "issues": [
+    "Fifth key point duplicates the second",
+    "Test key point should note W1 and ES layers"
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018438,
+    "changes_in_call": 6
+  }
+}

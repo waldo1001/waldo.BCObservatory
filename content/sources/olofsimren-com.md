@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 922a3241bdd89111ded2d21e54dade684e8aea97f5c3dd272fdd41c35a2ff062
@@ -54,7 +54,7 @@ item_count: 10
 footprint:
   systems:
     - id: manufacturing
-      weight: 10
+      weight: 9
     - id: administration
       weight: 6
     - id: copilot
@@ -126,7 +126,7 @@ last_item: "2026-09-01"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| manufacturing (10) | azure openai (2) | codeunit 50100 (1) |
+| manufacturing (9) | azure openai (2) | codeunit 50100 (1) |
 | administration (6) | compliance (2) | codeunit 70666591 (1) |
 | copilot (5) | copilot (2) | other Capacity Ledger Entries (1) |
 | inventory (5) | mrp (2) | other Copilot Inventory Queries extension (1) |

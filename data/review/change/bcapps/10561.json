@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10561",
+  "input_hash": "317da7294217aad56c26382d04405e05794fc942a3751fc599853878d8f774f2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:24.573Z",
+  "issues": [
+    "Description only links work items; claims that existing fields and auto-population/validation logic were extended specifically for mileage are inferred, not supported. Key points restated to what the file list shows."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024424,
+    "changes_in_call": 6
+  }
+}

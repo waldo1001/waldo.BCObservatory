@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/",
+  "input_hash": "b7fb57ebf33f11ed1b39a7f1430497ea5d35515641f5406252e30de92c83b486",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:13.678Z",
+  "issues": [
+    "The last key point calls the work multi-hour, but the post describes one refactoring run of about an hour, so I reworded it.",
+    "The integration system is not supported: the demo project happened to be an integration extension, but the post is not about integration.",
+    "The objects are tools and a plugin rather than AL objects. They are listed as other, so they are kept.",
+    "Both quotes appear in the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028133,
+    "posts_in_call": 4
+  }
+}

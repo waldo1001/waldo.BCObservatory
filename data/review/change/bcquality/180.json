@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/180",
+  "input_hash": "2a1dffcff5524b6e0ebf68dae5beeef4faa5f2e3becbe3f8b92f7120b6a8d2fe",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:30.375Z",
+  "issues": [
+    "Summary limits the change to performance findings; the rule applies to any leaf meeting the conditions",
+    "Key point 1 omits the start-line not equal to line and no suggested-code conditions; added regression test not mentioned"
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017318,
+    "changes_in_call": 6
+  }
+}

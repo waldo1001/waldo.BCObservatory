@@ -13,12 +13,12 @@ tags:
   - cheatsheet
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:02.904Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,7 +67,7 @@ preview:
 
 # Format Cheatsheet
 
-[Read the post](https://tine.staric.net/blog/2025/format-cheatsheet/) · Tech Adventures in Business Central (Tine Staric) · 2025-10-07 · 293 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://tine.staric.net/blog/2025/format-cheatsheet/) · Tech Adventures in Business Central (Tine Staric) · 2025-10-07 · 293 words · tier community · reviewed (checked by Opus)
 
 > A reference guide showing how the Format() function outputs different data types (DateTime, Date, Time, Guid, Decimal, Boolean, Option, Enum, Duration, RecordId, DateFormula) across nine format options (0-7 and 9), helping developers quickly find the correct format specification for their needs.
 

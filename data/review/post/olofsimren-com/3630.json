@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/olofsimren-com/3630",
+  "input_hash": "11be31ce3fa975f43f755fb44913c80c7852c5d684213f8c887e3b3670070346",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:34.242Z",
+  "issues": [
+    "The manufacturing system is not supported; the post covers inventory planning parameters, and its examples use purchase replenishment.",
+    "The summary, key points, objects and features otherwise match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04843,
+    "posts_in_call": 4
+  }
+}

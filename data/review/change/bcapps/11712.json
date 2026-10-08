@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/11712",
+  "input_hash": "410208441f1a7cdd5160b728e01a246e2d8ad5e0b15ca6fd549a5cbcdeffb9b5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:54.058Z",
+  "issues": [
+    "No description was given and no wizard page appears among the changed objects, so the claim that a configuration wizard was added is unsupported.",
+    "The point about reducing onboarding setup work is speculation.",
+    "The title calls this a bug, so fix fits better than feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014652,
+    "changes_in_call": 6
+  }
+}

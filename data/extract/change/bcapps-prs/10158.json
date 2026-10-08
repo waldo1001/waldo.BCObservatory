@@ -8,11 +8,10 @@
   ],
   "summary": "Project Sales by Project chart now displays project description and customer name in the tooltip alongside the project number to help users identify projects and customers without reducing visual readability.",
   "key_points": [
-    "Adds Project Description and Customer Name fields to the Power BI visual tooltip",
-    "Keeps Project No. as the compact chart axis to maintain readability",
-    "Leverages existing fields already present in the Sales semantic model",
-    "Enables users to cross-reference project and customer details within the tooltip",
-    "No changes to chart axis, measures, sorting, or filters"
+    "Adds Project Description and Customer Name to the tooltip of the Project Sales by Project visual",
+    "Keeps Project No. as the compact chart axis so labels stay readable",
+    "Updates the Jobs query and the Project table of the Sales semantic model along with the visual definition",
+    "Chart axis, measures, sorting and filters are unchanged"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12064",
+  "input_hash": "f9de62169bd225d4869c6f9aae2d324dfb14f6a067cdca8078d68c22623b8d18",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:00.875Z",
+  "issues": [
+    "A key point says read-back verification was removed from the product. It was only left out of this pull request and is handled in separate work."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024618,
+    "changes_in_call": 6
+  }
+}

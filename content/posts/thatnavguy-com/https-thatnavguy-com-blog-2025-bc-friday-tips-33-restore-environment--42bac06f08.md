@@ -13,12 +13,12 @@ tags:
   - tenant administration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:57.623Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -77,16 +77,16 @@ preview:
 
 # BC Friday Tips #34 Restore Environment
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-06 · 137 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-06-06 · 137 words · tier community · reviewed (checked by Opus)
 
 > Business Central allows administrators to restore an environment from a previous point in time using the Admin Center, enabling recovery of accidentally deleted data from backups within the past 28 days. This feature helps protect against data loss incidents by allowing point-in-time recovery.
 
 ## Key points
 
-- Restore environments to any point within the last 28 days through the Admin Center
-- Navigate to environment settings, select Restore, choose a previous date and time, then name the restored environment
-- Copy recovered data back to production after successful restoration
-- Provides protection against accidental data deletion in production environments
+- An environment can be restored to any point within the last 28 days from the Admin Center
+- Steps: open the environment, select Restore, pick a date and time before the data loss, give the restored environment a name and type, then confirm
+- After the restore completes, the recovered data can be copied back to production
+- Useful for recovering accidentally deleted production data when no other backup exists
 
 ## Quotes
 
@@ -94,6 +94,6 @@ preview:
 
 ## Context
 
-- Features: Environment Restore, Point-in-time Recovery, Backup Management, Admin Center
+- Features: Environment Restore, Point-in-time Recovery, Admin Center
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

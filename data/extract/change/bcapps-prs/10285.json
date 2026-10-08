@@ -8,10 +8,9 @@
   ],
   "summary": "Inventory Valuation report 10139 now exposes two integration events to let extensions skip items and adjust Value Entry filters, matching the W1 report's extensibility.",
   "key_points": [
-    "Added OnAfterGetRecord publisher to skip items during report processing",
-    "Added AdjustItemLedgEntryToAsOfDate publisher to refine valuation entry filters",
-    "Enables extensions to compile for North America without changes",
-    "Maintains compatibility with W1 Inventory Valuation report events"
+    "New publisher in the OnAfterGetRecord trigger of NA report 10139 lets subscribers skip an item",
+    "New publisher in AdjustItemLedgEntryToAsOfDate, after the initial Value Entry filters, lets subscribers refine those filters",
+    "Both publishers mirror the W1 Inventory Valuation report so extensions built against W1 can compile on North America"
   ],
   "change_kind": "feature",
   "behavior_change": false,

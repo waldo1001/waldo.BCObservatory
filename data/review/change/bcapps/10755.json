@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10755",
+  "input_hash": "51add8c1534c7589a9612dc052cf24f41c6a587f510cec9e41da94c226d4d1da",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:43.571Z",
+  "issues": [
+    "Summary said five codeunits; six were migrated, including GraphClient in the Microsoft 365 E-Document connector.",
+    "Description calls Http Web Request Mgt. legacy, not deprecated."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024942,
+    "changes_in_call": 6
+  }
+}

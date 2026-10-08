@@ -1,0 +1,23 @@
+{
+  "item_id": "change/al-go-prs/2229",
+  "input_hash": "3ad52db5358086ad42909c1d9a92dbe156f35d528aa32de2ed1691e47cc8b033",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.474Z",
+  "issues": [
+    "AnalyzeTests.ps1 is described but not among the changed files, so the key point about a warning annotation in AnalyzeTests is unsupported.",
+    "The build still succeeds. The summary now reports the empty result instead of staying silent."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025374,
+    "changes_in_call": 6
+  }
+}

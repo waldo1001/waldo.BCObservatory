@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Expense Agent now supports approval limits for vendors, allowing managers to configure spending thresholds in user setup and enabling automatic approval workflow routing based on expense amounts.",
+  "summary": "The Expense Agent gains approval limits. New fields on User Setup and Expense User hold the limits, and the approval management codeunit now takes them into account when approving expense reports. Upgrade code and new interim approval tests are included.",
   "key_points": [
-    "Added approval limit fields to User Setup and Expense User tables for vendor-based approval configuration",
-    "Enhanced approval management logic to evaluate and route expenses based on configured spending limits",
-    "Updated manager and user-facing pages to display and manage approval limits",
-    "Added upgrade logic to initialize approval setup for existing systems",
-    "Expanded test coverage with new approval scenario tests for limit-based workflows"
+    "Approval limit fields added to the User Setup table extension and the Expense User table",
+    "The fields are shown on the Approval User Setup page extension, the Expense User page and the Expense Users API",
+    "Expense Report Approval Mgmt updated to use the limits during approval",
+    "Expense report and manager pages, and the Expense Report Header table, adjusted",
+    "Upgrade codeunit extended, and a large interim approval test suite added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

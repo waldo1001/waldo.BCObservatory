@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11736",
+  "input_hash": "214bc90a3f8ce792d5b37bbed6ef75782b95894540e6ba0e2bb33955dcee2177",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:56.926Z",
+  "issues": [
+    "Key point claims blocked calls emit security audit and telemetry; per the description only the call that hits the limit emits them, and blocked lookups are not counted."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025367,
+    "changes_in_call": 6
+  }
+}

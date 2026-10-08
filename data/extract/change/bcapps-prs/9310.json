@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Sales Order Agent now opens the item availability page with filters set from the agent context, allowing users to see filtered inventory data when checking availability from the agent panel.",
+  "summary": "The Sales Order Agent can now open the multi-item availability page from the agent panel with filters applied. The availability page was extended, an Item table extension was added, and the agent instructions were updated.",
   "key_points": [
-    "Added table extension to store item availability data from agent",
-    "Enhanced multi-items availability page to display filtered results",
-    "Updated item search logic to work with agent context",
-    "Simplified session filter validation logic",
-    "Modified agent instructions to support filtered availability queries"
+    "Item availability can be opened from the Sales Order Agent panel with filters set by the agent",
+    "SOA Multi Items Availability page substantially extended",
+    "New table extension SOA Item Ext on the item table",
+    "Small changes to SOA Item Search and SOA Session Filter",
+    "Agent instructions prompt updated and shortened"
   ],
   "change_kind": "feature",
   "behavior_change": true,

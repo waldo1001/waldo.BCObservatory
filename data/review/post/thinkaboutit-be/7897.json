@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/7897",
+  "input_hash": "5c5ce99e615462ddb3d96e3779b36f992ee8d1d7bcb66d57d4432b235c9efc67",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:16.612Z",
+  "issues": [
+    "One key point says environments upgraded during a pause are not rolled back; the post says this applies to environments upgraded before the pause was called.",
+    "Other content, features and versions are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024688,
+    "posts_in_call": 4
+  }
+}

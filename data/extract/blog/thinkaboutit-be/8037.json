@@ -5,18 +5,17 @@
   "source": "thinkaboutit-be",
   "published_at": "2026-07-24T12:41:05.000Z",
   "words": 646,
-  "summary": "Runtime version in app.json determines which AL language features are available and controls compatibility with platform versions. Developers often confuse runtime version with platform (internal) version or release wave name, but only runtime version matters for code compilation and customer system requirements.",
+  "summary": "Explains that Business Central has three different version numbers: the platform/internal build, the release wave name and the app.json runtime version. Only the runtime version decides which AL features compile, and it sets the minimum platform an extension can be published to. Gives the runtime-to-wave mapping and advises setting the lowest runtime you need explicitly.",
   "key_points": [
-    "Runtime version is set in app.json and controls AL language features available; platform version is the actual service build shown in admin center",
-    "Runtime version must be same or later than target environments support; extensions publish only to environments with equal or newer runtimes",
-    "Setting runtime too low causes missing features; too high requires newer platform versions customers may not have reached",
-    "Omitting the runtime property defaults to latest major version supported by VS Code, which changes with tool updates",
-    "Lower runtime is preferred when serving customers on staggered update schedules to avoid blocking installation"
+    "Runtime version in app.json controls which AL language features and compiler behaviors are available; the platform build and release wave name are separate numbers",
+    "An extension can only be published to environments whose runtime is the same as or newer than its own",
+    "A runtime set too low breaks newer features; set too high, it requires a platform customers may not have yet",
+    "If runtime is omitted, the compiler uses the latest major it supports, which changes as the tooling updates",
+    "Runtime 15.0, 16.0 and 17.0 map to internal versions 26.0, 27.0 and 28.0, so the offset is not constant; partners on staggered updates should target the lowest runtime that meets their needs"
   ],
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "runtime version",

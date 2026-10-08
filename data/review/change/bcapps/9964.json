@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9964",
+  "input_hash": "77eda07c32f763cc65f9f35da9fd84dec869df0f85fed6d5dd64e805af8ddc25",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:46.868Z",
+  "issues": [
+    "Supported: the option field becomes the extensible enum Job Archive Option, and existing values stay assignment-compatible, so it is not breaking.",
+    "The quote paraphrases the description slightly ('This PR replaces' became 'Replaces'). This is minor and the quote field cannot be edited."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018501,
+    "changes_in_call": 6
+  }
+}

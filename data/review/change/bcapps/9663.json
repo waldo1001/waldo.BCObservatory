@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9663",
+  "input_hash": "c6c2fe0d14d36a7325b13ff6d3cd908c2edbea3d802a39a9c8f3d4946a6ef5ef",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:38.059Z",
+  "issues": [
+    "The description lists tests only for the customer, vendor and item current migrators and the item historical migrator. The page claims coverage for all historical migrators, which is not supported.",
+    "'Buffer tables ... with detailed posting setup' is garbled. The PR adds detailed customer and vendor ledger entry buffers, a value entry buffer and an inventory posting setup buffer."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029976,
+    "changes_in_call": 6
+  }
+}

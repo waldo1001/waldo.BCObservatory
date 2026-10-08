@@ -2,7 +2,7 @@
 id: post/thatnavguy-com/https-thatnavguy-com-blog-2026-same-blog-new-site--387af44d7a
 type: post
 title: Same Blog, New Site
-summary: That NAV Guy migrated his blog from WordPress to a static site built with Astro, GitHub, and Vercel. The change improves site performance and simplifies maintenance while preserving all existing content and series.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -11,12 +11,12 @@ tags:
   - astro
   - static site
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-08T01:54:53.633Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,16 +91,9 @@ preview:
 
 # Same Blog, New Site
 
-[Read the post](https://thatnavguy.com/blog/2026/same-blog-new-site/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-04 · 216 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/same-blog-new-site/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-04 · 216 words · tier community · **flagged** (a review found a problem)
 
-> That NAV Guy migrated his blog from WordPress to a static site built with Astro, GitHub, and Vercel. The change improves site performance and simplifies maintenance while preserving all existing content and series.
-
-## Key points
-
-- Blog migrated from WordPress to Astro-generated static HTML for faster load times and easier deployment
-- Two hundred posts from 2019 onward were converted from WordPress XML to Markdown files
-- All existing content including BC Friday Tips and the UX Series remain accessible
-- Site now hosted on GitHub with Vercel deployment for instant updates
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

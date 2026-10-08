@@ -8,11 +8,11 @@
   ],
   "summary": "Expense Agent now captures policy evaluation history at the report level, storing outcomes and flagged categories in the activity log during submission and resubmission with deduplication per submission round.",
   "key_points": [
-    "Report-level policy evaluation summaries added to expense activity history",
-    "Activity logger captures submission/resubmission events and line evaluation confirmations",
-    "Passed/failed counts and distinct flagged category codes are stored in activity entries",
-    "Category overflow handled with a final '...' array entry for display",
-    "Read-only API exposes snapshots and preserves data through posting"
+    "Report-level policy evaluation summaries are added to expense activity history",
+    "Submission, resubmission and successful line evaluation confirmation invoke the history logger",
+    "At most one PolicyEvaluated entry is written per submission round, only when policy evaluation is enabled and the report is pending approval",
+    "Entries store the outcome, passed/failed counts and distinct flagged category codes, with a final '...' entry on overflow",
+    "Snapshots are exposed through the existing read-only activity API and preserved through posting"
   ],
   "change_kind": "feature",
   "behavior_change": true,

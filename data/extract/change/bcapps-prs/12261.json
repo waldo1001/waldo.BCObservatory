@@ -8,11 +8,11 @@
   ],
   "summary": "The Dataverse synchronization job reschedule logic now checks both the scheduled task's next run time and the job queue entry's earliest start date to avoid repeated rescheduling during bulk changes, reducing unnecessary Service Bus costs.",
   "key_points": [
-    "Added guard check for job queue entry's earliest start date in addition to scheduled task's next run time",
-    "Job queue entries are now locked before calling SetTaskReady to serialize concurrent reschedules",
-    "Extracted reschedule logic into testable internal procedure RescheduleJobQueueEntriesForTable",
-    "Production telemetry showed hundreds of reschedule messages per second that have been eliminated",
-    "Tests added to verify correct rescheduling behavior and detect stale task scheduler state"
+    "Reschedule now also checks the job queue entry's Earliest Start Date/Time and skips jobs already due within the reschedule window",
+    "Job queue entry is locked before SetTaskReady, and status, task ID and earliest start are re-checked under the lock so concurrent sessions do not each reschedule",
+    "Reschedule loop moved into new internal procedure RescheduleJobQueueEntriesForTable so tests can call it",
+    "Targets telemetry showing one reschedule per changed record, which drove Service Bus cost",
+    "New tests cover moving a later job to about 30 seconds and not rescheduling again when the task's Not Before is stale"
   ],
   "change_kind": "fix",
   "behavior_change": true,

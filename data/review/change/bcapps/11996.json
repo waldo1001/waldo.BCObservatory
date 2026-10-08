@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11996",
+  "input_hash": "33a0f683f47f7f8bb26de332487d55180a26a1cb25740986c6dce4d95c27178f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:19.023Z",
+  "issues": [
+    "This is a permission restriction that fixes a work item (AB#648885), so it is a fix rather than a feature.",
+    "The rest of the page matches the description."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013702,
+    "changes_in_call": 6
+  }
+}

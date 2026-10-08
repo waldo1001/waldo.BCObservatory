@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcquality-prs/54",
+  "input_hash": "2e18140b114e32dccd0606e0caec5bfcd468f55b679ca3aac4417c80329cd640",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:44.759Z",
+  "issues": [
+    "Summary overstates: the consumer keeps its domain map for legacy findings, and correct rendering of new domains depends on the BC-ALAgents counterpart PR.",
+    "Review leaves now emit a new field on findings, so output behavior changes; behavior_change set to true.",
+    "Key point says absent domain triggers legacy fallback; description says consumers may use a fallback."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024692,
+    "changes_in_call": 6
+  }
+}

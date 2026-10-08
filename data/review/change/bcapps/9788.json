@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9788",
+  "input_hash": "0e400b624b99f5b1de3ce74c7a040d71c73ce955b0ec88430a805ea5ce0861b0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:58.456Z",
+  "issues": [
+    "The page matches the description: a subscriber to OnAfterShouldDeleteReservEntry forces the reservation split to be rebuilt, and a test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0231,
+    "changes_in_call": 6
+  }
+}

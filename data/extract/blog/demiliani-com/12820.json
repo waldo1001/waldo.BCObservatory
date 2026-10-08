@@ -7,16 +7,15 @@
   "words": 418,
   "summary": "SQL Server 2025 introduces significant improvements for Dynamics 365 Business Central on-premises environments, including higher resource limits for Standard Edition, enhanced columnstore indexes, improved locking and query optimization, persistent statistics on secondary replicas, AI capabilities, and Fabric mirroring support.",
   "key_points": [
-    "SQL Server 2025 Standard Edition now supports up to 32 CPU cores and 256GB RAM, nearly double the previous limits",
-    "Columnstore indexes can now be created or rebuilt online using tempdb for improved query performance",
-    "Optional Parameter Plan Optimization (OPPO) reduces parameter sniffing issues and ensures more predictable query performance",
-    "Statistics are preserved on secondary replicas after failover, preventing performance degradation from statistics rebuild",
-    "New AI-ready capabilities include sp_invoke_external_rest_endpoint, vector data type, and vector search functionality"
+    "SQL Server 2025 Standard Edition raises limits to 32 CPU cores and 256 GB RAM, up from 24 cores and 128 GB",
+    "Ordered columnstore indexes can be built or rebuilt online; online ordered clustered builds sort in tempdb, which can help queries but slow the build",
+    "Optional Parameter Plan Optimization chooses plans from runtime parameters, easing parameter sniffing problems",
+    "Statistics now persist on secondary replicas after restart or failover, avoiding rebuilds",
+    "Adds AI endpoint calls, vector types and search, and Fabric mirroring; in-place upgrade is supported from SQL Server 2014, and 2016 support ends in 2026"
   ],
   "systems": [
     "platform",
-    "administration",
-    "development"
+    "administration"
   ],
   "topics": [
     "sql server 2025",

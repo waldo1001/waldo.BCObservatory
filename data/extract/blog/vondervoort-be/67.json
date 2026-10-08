@@ -5,7 +5,7 @@
   "source": "vondervoort-be",
   "published_at": "2025-11-22T09:56:15.000Z",
   "words": 735,
-  "summary": "Dutch Dynamics Community hosted an event in November 2025 with sessions on integrating Dynamics 365 Sales and SharePoint for document management, and connecting Business Central with D365 Supply Chain Management's Warehouse Only Mode for advanced warehouse capabilities.",
+  "summary": "Recap of a Dutch Dynamics Community evening in November 2025, covering two of the five parallel sessions. One showed a document management approach that links Dynamics 365 Sales and SharePoint through Dataverse metadata and PnP Modern Search. The other covered connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode for advanced warehousing; no dual-rights license exists yet, and the setup can be a step towards Finance and Operations.",
   "key_points": [
     "Dynamics 365 and SharePoint can be integrated to store documents with metadata enriched from Dataverse, enabling users to search by context rather than file location.",
     "PnP Modern Search allows SharePoint users without Dynamics access to find documents using metadata, bridging structured and unstructured document management.",
@@ -15,8 +15,7 @@
   ],
   "systems": [
     "integration",
-    "warehouse",
-    "sales"
+    "warehouse"
   ],
   "topics": [
     "document management",

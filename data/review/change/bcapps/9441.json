@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9441",
+  "input_hash": "e1b8fd63897dd60dbd7185e9e0ab78eebfee6d1e75173d60d382f064c3b73027",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:06.654Z",
+  "issues": [
+    "New IsHandled integration event and extracted local procedure match the description; standard behaviour is preserved when not handled."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020666,
+    "changes_in_call": 6
+  }
+}

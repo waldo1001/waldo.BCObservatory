@@ -5,13 +5,13 @@
   "source": "bertverbeek-nl",
   "published_at": "2025-05-12T08:50:11.000Z",
   "words": 630,
-  "summary": "BC2ADLS now supports Microsoft Fabric's Open Mirroring feature, allowing Business Central data to be exported to a Fabric Landing Zone in CSV or Parquet format without requiring manual notebook processing. Fabric automatically handles change data capture and replication, enabling faster data access from Business Central to Fabric.",
+  "summary": "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring. Business Central data files go to a Fabric Landing Zone, and Fabric does the CDC processing itself, so no notebook is needed. Setup requires a Landing Zone string, a _metadata.json file created through Schema Export, and a __rowMarker__ column in the exported files.",
   "key_points": [
-    "Open Mirroring requires a _metadata.json file describing the table schema with key columns and column data types",
-    "CSV files are now supported alongside Parquet format in Open Mirroring",
-    "The __rowMarker__ column indicates operation type: 0 for inserts, 1 for updates, 2 for deletes",
-    "File names must be in 20-digit continuous number format; resetting a table resets the number sequence",
-    "BC2ADLS v26.32 adds Open Mirroring support, currently in preview"
+    "Open Mirroring now accepts CSV as well as Parquet, which lets bc2adls feed Fabric without a notebook",
+    "Configure the Landing Zone string in bc2adls; authentication is the same as the regular Fabric integration",
+    "Schema Export creates the _metadata.json file, which defines the key columns and column data types",
+    "__rowMarker__ values: 0 means insert, 1 update, 2 delete; bc2adls does not use 4 (upsert)",
+    "File names must be 20-digit continuous numbers, and resetting a table restarts the numbering; the feature is in preview in both bc2adls and Fabric"
   ],
   "systems": [
     "integration",
@@ -30,7 +30,6 @@
   "features": [
     "Open Mirroring",
     "CSV export",
-    "Parquet export",
     "Landing Zone integration",
     "Schema export",
     "Change data capture"

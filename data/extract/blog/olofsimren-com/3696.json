@@ -5,13 +5,13 @@
   "source": "olofsimren-com",
   "published_at": "2026-04-08T12:24:46.000Z",
   "words": 1395,
-  "summary": "Business Central version 28 introduces native quality management functionality that enables inspection of goods across purchase receipts, production, assembly, and sales returns. Organizations can define inspection templates, generate inspections automatically or manually, record results, and enforce quarantine processes - eliminating the need for third-party add-ons for basic quality control requirements.",
+  "summary": "Business Central version 28 adds a native Quality Management module for inspecting goods at purchase receipt, production output, assembly output, sales returns and in ad-hoc or scheduled checks. Templates, generation rules, inspection records, result-based usage blocking and quarantine workflows are covered. The extension was not installed automatically on upgrade and had to be added from AppSource.",
   "key_points": [
-    "Quality inspections can be triggered automatically when posting receipts, completing production orders, or finishing assemblies, or created manually for ad-hoc checks",
-    "Inspection templates define parameters (weight, dimensions, visual checks) and accepted values; generation rules link templates to items, vendors, customers, and processes via table filters",
-    "Quality inspection results control what actions are allowed on inventory (sell, consume, etc.), and workflows can move rejected items to quarantine locations or trigger notifications",
-    "Built-in printouts include Certificate of Analysis, Non Conformance Report, and Inspection Report; inspections can be conducted by item, lot, serial number, or package number",
-    "This native module provides a simpler alternative to existing third-party solutions for organizations with standard quality management needs"
+    "Inspection templates hold user-defined test codes with value types, accepted ranges and optional lookups to any table; generation rules link templates to items, vendors, customers and processes through table filters",
+    "Inspections can be created automatically on purchase receipt posting, production order finish or assembly completion, or manually for audits and complaints, by item, lot, serial or package number",
+    "Any failed line fails the whole inspection; result setup controls whether failed or pending lots, serials or packages can be sold or consumed",
+    "Workflows can move failed inventory to a chosen location or bin; the author expects standard notification responses can also be added",
+    "Certificate of Analysis, Non Conformance Report and Inspection Report printouts are available from the inspection header; the app had to be installed manually from AppSource after upgrading"
   ],
   "systems": [
     "manufacturing",
@@ -43,10 +43,6 @@
     {
       "type": "table",
       "name": "Quality Inspection Results"
-    },
-    {
-      "type": "page",
-      "name": "Quality Workflow"
     },
     {
       "type": "report",

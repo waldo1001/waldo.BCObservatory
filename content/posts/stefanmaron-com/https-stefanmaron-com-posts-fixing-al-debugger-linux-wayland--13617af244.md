@@ -14,12 +14,12 @@ tags:
   - troubleshooting
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:32.040Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,17 +81,17 @@ preview:
 
 # Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland
 
-[Read the post](https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/) · Stefan Maron (Stefan Maron, MVP) · 2025-10-31 · 938 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/) · Stefan Maron (Stefan Maron, MVP) · 2025-10-31 · 938 words · tier community · reviewed (checked by Opus)
 
 > The AL Language Extension debugger fails on Linux with Wayland/Hyprland, showing empty Call Stack and Variables panels despite successfully connecting to Business Central. Using VS Code Dev Containers to run the AL Language Server inside an Ubuntu container while keeping the VS Code UI on Hyprland restores full debugging functionality.
 
 ## Key points
 
-- Debugger connects and breakpoints trigger on Wayland, but Call Stack and Variables panels remain empty due to socket-based IPC communication breaking
-- X11 and Wayland handle event loops and IPC differently; Wayland's stricter sandboxing interferes with the AL Language Server's display server communication
-- VS Code Dev Containers bypass the display server problem by running the AL extension in an Ubuntu container and communicating via network protocol instead
-- Solution requires disabling interactive login in AL settings and configuring a devcontainer.json with .NET 8.0 and the AL extension installed in the container
-- Dev Containers provide reproducible environments and avoid switching to X11-based window managers
+- On Hyprland (Wayland), the AL debugger connects and stops at breakpoints, but the Call Stack and Variables panels stay empty because state updates never arrive
+- Downgrading the AL extension and VS Code, adding .NET 8, forcing XWayland and trying other installs all failed
+- Fix: run the AL extension in an Ubuntu Dev Container while the VS Code UI stays on the host, so the two talk over the Remote protocol and no display server is involved
+- Setup needs a devcontainer.json with .NET 8.0 and the AL extension, the Remote Development extension, and al.useInteractiveLogin set to false
+- An alternative is to use an X11 session such as i3 for AL work. The issue was reported to Microsoft as AL GitHub issue 8150
 
 ## Quotes
 

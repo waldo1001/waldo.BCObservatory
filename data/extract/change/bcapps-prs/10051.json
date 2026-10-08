@@ -7,7 +7,7 @@
     "sustainability",
     "development"
   ],
-  "summary": "Preview posting in sustainability journals no longer creates gaps in Sustainability Ledger Entry numbers by intercepting inserts before database persistence and using temporary in-memory rows instead of consuming AutoIncrement identities.",
+  "summary": "Preview posting of journal lines and documents that carry sustainability emissions no longer leaves gaps in Sustainability Ledger Entry numbers. Preview rows are now collected in memory under temporary numbers instead of being inserted, so no AutoIncrement identity is used. Normal posting is unchanged.",
   "key_points": [
     "Preview posting collects sustainability ledger entries in memory instead of physically inserting them to avoid consuming AutoIncrement identity numbers",
     "Adds interception logic to shared insert operation to redirect preview rows to temporary storage",

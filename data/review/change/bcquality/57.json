@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/57",
+  "input_hash": "ef647fd78002198279e56abc33f9fa84a4e48f8aaa5098b3ea4cde44fb935d16",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:27.895Z",
+  "issues": [
+    "Summary and key points omit the new al-finance-review skill named in the description.",
+    "Key point on shared conventions conflated separate items and called them existing quality standards; description says they match #192."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029301,
+    "changes_in_call": 6
+  }
+}

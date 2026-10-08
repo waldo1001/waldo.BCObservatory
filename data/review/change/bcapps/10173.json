@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10173",
+  "input_hash": "958527d8f571130338564365cfbaa977c3b48a6273defad6e1e73fb603d56a24",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:46.868Z",
+  "issues": [
+    "Supported: the change adds events and IsHandled entry points in Calculate Standard Cost (W1 and IT) and Mfg. Cost Calculation Mgt. with no behavior change.",
+    "The summary mentions only standard cost calculation, while expected production-order line costs are also covered. The key points cover this, so it is minor."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018501,
+    "changes_in_call": 6
+  }
+}

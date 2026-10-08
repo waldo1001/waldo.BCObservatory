@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9365",
+  "input_hash": "ebcaac7ecf1f2d0d9a838e6b20dc5ee4238f9471c7fd442b068e754ec5d938c3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.882Z",
+  "issues": [
+    "breaking=true is unsupported; the removed helpers are described as dead/unused and nothing shows they were public.",
+    "Locking the label changes generated usernames in non-English languages, so behavior does change.",
+    "PR fixes a work item, so fix fits better than refactor."
+  ],
+  "applied": [
+    "kind fix",
+    "behaviour change true",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017136,
+    "changes_in_call": 6
+  }
+}

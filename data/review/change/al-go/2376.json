@@ -1,0 +1,26 @@
+{
+  "item_id": "change/al-go-prs/2376",
+  "input_hash": "016215cb6e367d5c622fd489a0d377516d9fc9256e3a83aef5c98a14d8898c2a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.253Z",
+  "issues": [
+    "behavior_change should be true: incremental builds now detect modified projects and apps whose paths contain special characters, which they failed to do before.",
+    "The key point about core.quotepath implies a persistent git configuration change. It is actually passed per command with -c.",
+    "The key point saying tests cover 'different character sets' goes beyond what was given. Tests were added but their scope is not described.",
+    "The original encoding is restored after the git command runs. The page leaves this out."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017874,
+    "changes_in_call": 6
+  }
+}

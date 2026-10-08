@@ -1,0 +1,27 @@
+{
+  "item_id": "change/bcquality-prs/112",
+  "input_hash": "6e9dd47a3914425f1e0b8af84a2032845f6dbf249ef15216e30f9e51771df570",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:20.334Z",
+  "issues": [
+    "The changed files are six new knowledge articles. The do.md and review-skill edits named in the description are not among the changed files.",
+    "change_kind refactor is wrong because new guidance content was added.",
+    "behavior_change should be true, since the guards change which findings the agent emits.",
+    "Key points described edits to the review skills instead of the added articles."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind feature",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017028,
+    "changes_in_call": 6
+  }
+}

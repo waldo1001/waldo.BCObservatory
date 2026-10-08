@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9217",
+  "input_hash": "4d11d012de7be91f39426d903720038fe63505fdf7f8ace10b27cd5448246507",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:34.413Z",
+  "issues": [
+    "Changing a procedure from internal to public only widens access. Runtime behaviour does not change, so behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015429,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,9 @@
   ],
   "summary": "An integration event allows extensions to override VAT registration number formatting in Intrastat reports before standard concatenation logic runs.",
   "key_points": [
-    "New OnBeforeGetVATRegNo integration event added to IntrastatReportManagement codeunit",
-    "Event enables subscribers to provide correct VAT ID and bypass standard formatting",
-    "Solves issue where stored VAT registration numbers including country prefix caused invalid partner VAT IDs",
-    "Includes IsHandled parameter for subscribers to skip standard logic"
+    "New OnBeforeGetVATRegNo integration event in GetVATRegNo of IntrastatReportManagement",
+    "Subscribers can return their own VAT registration number and set IsHandled to skip the standard concatenation",
+    "Lets extensions avoid invalid partner VAT IDs when the stored number already includes the country prefix"
   ],
   "change_kind": "feature",
   "behavior_change": false,

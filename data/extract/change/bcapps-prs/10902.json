@@ -8,11 +8,10 @@
   ],
   "summary": "A handled integration event was added to allow extensions to control prepayment amount updates when correcting posted sales invoices.",
   "key_points": [
-    "New `UpdateSalesOrderLinePrepmtAmount` event fires before prepayment amounts are updated",
-    "Subscribers can mark the event as handled to prevent standard prepayment updates",
-    "Event added across W1, APAC, and ES layers in Correct Posted Sales Invoice codeunit",
-    "Provides extensibility for custom prepayment handling logic",
-    "Enables subscribers to skip automatic prepayment restoration"
+    "Handled integration event added in UpdateSalesOrderLinePrepmtAmount, before prepayment amounts are updated",
+    "Fires after currency initialization in the Correct Posted Sales Invoice codeunit",
+    "Subscribers can set it as handled to skip the standard prepayment amount updates",
+    "Added in the W1, APAC and ES layers"
   ],
   "change_kind": "feature",
   "behavior_change": false,

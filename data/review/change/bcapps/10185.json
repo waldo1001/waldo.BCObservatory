@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10185",
+  "input_hash": "38d10f072ffd703dec6717161c31eb8f1657c0f7a75ed56b1b959f3be2166cfa",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:12.655Z",
+  "issues": [
+    "Matches the description. The title says Reduce Contacts but the object is report 5186 Remove Contacts, and the page correctly uses Remove Contacts."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020321,
+    "changes_in_call": 6
+  }
+}

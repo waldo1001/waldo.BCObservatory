@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12238",
+  "input_hash": "923f152a0d2e68ed80931f2f14c9d77ca9cce6fba7251eabd7f8cf4b772512be",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:32.898Z",
+  "issues": [
+    "The post is about AL development only. Nothing in it supports the administration system, so I dropped it.",
+    "The summary, key points, quotes and named objects all match the post. GDRGErrorMsgFixImpl is an enum extension, but its name is correct."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.059747,
+    "posts_in_call": 4
+  }
+}

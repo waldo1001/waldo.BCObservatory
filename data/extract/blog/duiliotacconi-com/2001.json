@@ -58,10 +58,6 @@
   },
   "quotes": [
     {
-      "text": "capability of disabling / enabling indexes at will",
-      "why_it_matters": "This is the core feature of the release that enables proactive performance optimization by allowing administrators to control indexes without requiring direct SQL access on-premises"
-    },
-    {
       "text": "Bad Index = Zero Read and High Updates. Bad Indexes should be disabled.",
       "why_it_matters": "Provides a simple decision rule for identifying indexes that consume resources during writes but provide no query benefits, making them candidates for removal"
     },

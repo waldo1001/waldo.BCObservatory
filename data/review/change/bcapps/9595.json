@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9595",
+  "input_hash": "db150a7582161a2e58c2a2213af84942fc2cacc75816461afd949d6a83d05c94",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:58.784Z",
+  "issues": [
+    "Content matches the PR summary. Old methods were marked obsolete but are not named, so the empty obsoletions list is acceptable. Nothing given indicates a breaking change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

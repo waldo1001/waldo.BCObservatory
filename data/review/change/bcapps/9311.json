@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9311",
+  "input_hash": "d5d6c117b0e8f24cdbe6d84f95c49ff42d8cdddf696a92884eee4f1c24129bf9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:00.615Z",
+  "issues": [
+    "Claim that posting setup now supports both purchase and expense transactions is not supported; a new Expense Withholding Tax app extends posting setup, expense categories and threshold accumulator.",
+    "Gen. Jnl.-Post Line changes across all localization layers were not mentioned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024915,
+    "changes_in_call": 6
+  }
+}

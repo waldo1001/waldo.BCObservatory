@@ -8,11 +8,11 @@
   ],
   "summary": "Adds an `IsHandled` event to CheckManagement codeunit that allows partners to replace the balance-account posting logic in financial void check operations.",
   "key_points": [
-    "New event `OnFinancialVoidCheckOnBeforePostBalanceAccount` enables extension of void check financial posting",
-    "Balance-account posting logic extracted into a new local procedure for cleaner code structure",
-    "Default behavior preserved when event is unsubscribed",
-    "Supports partners implementing custom void check scenarios",
-    "Affects all localization layers (W1, APAC, NA, RU)"
+    "New IsHandled event OnFinancialVoidCheckOnBeforePostBalanceAccount in codeunit 367 CheckManagement",
+    "Lets subscribers replace the balance-account posting in FinancialVoidCheck",
+    "Balance-account case block moved unchanged into a new local procedure FinancialVoidPostBalanceAccount",
+    "Default behavior preserved when no subscriber handles the event",
+    "Changed in the W1, APAC, NA and RU layers"
   ],
   "change_kind": "feature",
   "behavior_change": false,

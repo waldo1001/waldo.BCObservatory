@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090",
+  "input_hash": "e7d89998f75e45da9b96fe05da7640acbc0bec4cbc9bf51a77a27b2d634abe9a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:56:40.475Z",
+  "issues": [
+    "The summary, key points, objects and features all match the post: the 11 supported pages, the missing ProcessNewRecordFromAPI hook, registering fields with RegisterFieldSet, and the caller-wins priority.",
+    "All three quotes appear in the post and are useful.",
+    "The custom page 50200 is not listed as an object. That is acceptable and needs no edit."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049582,
+    "posts_in_call": 4
+  }
+}

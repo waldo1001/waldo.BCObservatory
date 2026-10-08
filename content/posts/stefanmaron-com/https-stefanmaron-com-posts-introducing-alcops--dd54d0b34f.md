@@ -16,12 +16,12 @@ tags:
   - ai tooling
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:40.475Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -93,17 +93,17 @@ preview:
 
 # Introducing ALCops — LinterCop's Next Chapter
 
-[Read the post](https://stefanmaron.com/posts/introducing-alcops/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1542 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/introducing-alcops/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-27 · 1542 words · tier community · reviewed (checked by Opus)
 
 > ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers (ApplicationCop, DocumentationCop, FormattingCop, LinterCop, PlatformCop, TestAutomationCop) to address structural limitations including GitHub rate limits, overgrown feature scope, and rule severity constraints. It improves code quality through better rule severity defaults, 30 code fixes, correctness fixes, and distributes via NuGet with MCP server support for AI tooling integration.
 
 ## Key points
 
-- ALCops replaces LinterCop with six domain-specific analyzers instead of one monolithic tool, allowing teams to opt into only the analysis domains they need
-- Distributed via NuGet using reflection to support multiple AL versions with minimal DLL duplication (net8.0 for AL 16+ and netstandard2.1 for older versions)
-- Includes 30 code fixes (versus LinterCop's 5-6), improved rule descriptions for AI understanding, and correctness fixes that surface previously hidden issues
-- Ships an MCP server exposing analyzers to Claude Code and other MCP-compatible clients, with deterministic code fix application rather than LLM interpretation
-- LinterCop is deprecated and maintained only through end of 2026 with no new rules or implementation changes planned
+- ALCops replaces LinterCop with six domain-specific analyzers, so teams turn on only the domains they care about instead of suppressing rules in a ruleset.
+- It ships on NuGet with net8.0 (AL 16+) and netstandard2.1 builds, one DLL per analyzer, using reflection to cover several AL versions.
+- It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes and clearer rule descriptions. Migrated code may show new warnings.
+- An MCP server (v0.1 alpha) exposes the analyzers to MCP clients such as Claude Code, and the fix routine applies code fixes directly, so results are deterministic.
+- LinterCop is deprecated: no new rules or implementation changes, kept working as long as practical, likely until the end of 2026. LinterCop and ALCops share diagnostic IDs, so they should not run together.
 
 ## Quotes
 

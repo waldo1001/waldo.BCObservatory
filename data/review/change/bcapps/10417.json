@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10417",
+  "input_hash": "4c5cb734ae2cd051c6e003eebdcee8a264f692405c09a6f90a5a023b236c8807",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:46.868Z",
+  "issues": [
+    "Accurate: the raw-text ExecuteGraphQL overload now passes an expected cost of 10 instead of 0, which restores pacing before requests and between throttled retries."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018501,
+    "changes_in_call": 6
+  }
+}

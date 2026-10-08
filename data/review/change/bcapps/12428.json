@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12428",
+  "input_hash": "a14578c7ed09667065093026ba54328bb8f8ccb8cb4b2467cb71ad7ccb969d98",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:56.344Z",
+  "issues": [
+    "Key point 1 calls both codeunits public interfaces, but the description only calls the trial interface public; the implementation codeunit is its backing implementation."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017787,
+    "changes_in_call": 6
+  }
+}

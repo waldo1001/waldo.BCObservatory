@@ -8,11 +8,11 @@
   ],
   "summary": "Inventory's default item journal batch is now created with its template during Contoso setup, removing the dependency on Manufacturing, Service, or Jobs modules for this creation.",
   "key_points": [
-    "Item journal batch is generated alongside its template in the item journal template creation helper",
-    "Common and Warehouse module generation no longer requires Manufacturing, Service, or Jobs to create the default batch",
-    "Batch settings are preserved using existing helper functionality",
-    "Three regression tests validate batch creation, template handling, and settings preservation",
-    "No breaking changes to numbering or dependencies"
+    "Create Item Journal Template now also creates Inventory's default item journal batch",
+    "Common and Warehouse generation no longer depends on Manufacturing, Service or Jobs to create that batch",
+    "Reuses an existing helper and keeps the settings of a batch that already exists",
+    "Three regression tests cover batch creation, an existing template without a batch, and keeping customized settings",
+    "No numbering or dependency changes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

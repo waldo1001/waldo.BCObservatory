@@ -8,14 +8,13 @@
   ],
   "summary": "The OnSumPurchLines2OnBeforeDivideAmount event now exposes the PurchLineQty parameter by reference, allowing subscribers to adjust the purchase line quantity before amount division calculations run.",
   "key_points": [
-    "Added var PurchLineQty parameter to OnSumPurchLines2OnBeforeDivideAmount event signature",
-    "Enables extensions to modify quantity before DivideAmount logic executes",
-    "Change propagated across all country-specific layers (APAC, BE, CH, ES, FI, GB, IT, NA, RU, W1)",
-    "Supports specialized purchasing modes like amount-only processing",
-    "Event fires at the right point in SumPurchLines2 function"
+    "Added a var PurchLineQty: Decimal parameter at the end of OnSumPurchLines2OnBeforeDivideAmount",
+    "Subscribers can change the quantity used before DivideAmount runs in SumPurchLines2",
+    "Applied to W1 and every country layer with its own Purch.-Post copy (APAC, BE, CH, ES, FI, GB, IT, NA, RU)",
+    "Requested to support amount-only purchasing modes in partner solutions"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": true,
   "obsoletions": [],
   "systems": [

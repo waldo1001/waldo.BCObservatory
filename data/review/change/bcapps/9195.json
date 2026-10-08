@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9195",
+  "input_hash": "ef1e7bf183469d688381196ef22f0cf39f3e74be7badf04d08c12b6534af93cd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.141Z",
+  "issues": [
+    "SetLoadFields does not remove the N+1 pattern. The per-row loop still runs and only its per-row SQL cost goes down.",
+    "The word 'significantly' in the summary is not supported by the description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015938,
+    "changes_in_call": 6
+  }
+}

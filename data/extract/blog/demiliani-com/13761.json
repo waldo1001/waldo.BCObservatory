@@ -5,14 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2026-05-21T06:50:51.000Z",
   "words": 972,
-  "summary": "Visual Studio Code extensions run with full IDE privileges and pose security risks if compromised, as demonstrated by a malware-infected Nx Console extension that compromised GitHub. The post explains multiple strategies to control extension deployment, including allowlist policies, file system permissions, WDAC, private marketplaces, and Azure Artifacts.",
-  "key_points": [
-    "VS Code extensions are not sandboxed and have full access to the file system, terminal, and credential stores, making them security-critical targets.",
-    "Version 1.96+ introduces extensions.allowed policy enforceable via Group Policy to whitelist approved extensions and control auto-updates.",
-    "File system permissions via icacls and Windows Defender Application Control (WDAC) can block unauthorized .vsix file installations.",
-    "Private VS Code marketplace (for GitHub Enterprise) and Azure Artifacts provide controlled, private distribution channels for extensions.",
-    "Developer machines accumulate secrets and control the supply chain start, making them equally critical to production infrastructure security."
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "development",
     "administration",

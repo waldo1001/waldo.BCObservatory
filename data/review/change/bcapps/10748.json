@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10748",
+  "input_hash": "5ce2948ffd374e96e2a9bf0418b6e0ce838da4e006835d1748614b15a42c8843",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:05.813Z",
+  "issues": [
+    "Summary and key points match the description: new GetForCurrentAgentSession method, call sites fixed, upgrade routines now loop over all setups."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023517,
+    "changes_in_call": 6
+  }
+}

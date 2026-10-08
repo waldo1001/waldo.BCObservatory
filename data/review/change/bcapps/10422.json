@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10422",
+  "input_hash": "9d4a291da48ad4e1b0b97a11bb46929d432b79ad6c4327e7696a32178c495a97",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:26.119Z",
+  "issues": [
+    "Appending a parameter to an existing event adds extensibility only and does not change runtime behavior, so behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017866,
+    "changes_in_call": 6
+  }
+}

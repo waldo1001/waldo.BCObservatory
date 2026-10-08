@@ -5,13 +5,13 @@
   "source": "gerardorenteria-blog",
   "published_at": "2025-09-07T20:54:12.000Z",
   "words": 873,
-  "summary": "A curated list of user-submitted improvement ideas for Dynamics 365 Business Central covering development, financial management, inventory, sales, purchasing, manufacturing, service management, and administration. The ideas represent feature requests and enhancement suggestions organized by functional area to guide product development priorities.",
+  "summary": "A monthly roundup of Business Central Ideas portal suggestions from August 2025, listing each idea with its author and grouped by area such as development, financial management, general, inventory, manufacturing, purchasing, reporting, sales, service, tenant administration and warehousing.",
   "key_points": [
-    "Ideas span development tools like debugger improvements and temporary table enhancements",
-    "Financial management requests include recurring billing integration, SAF-T support, and bank reconciliation improvements",
-    "Sales and purchasing areas focus on document workflows, tax integration, and multilingual functionality",
-    "Manufacturing, inventory, and service management suggestions address batch expiration, item personalization, and service contracts",
-    "Administration and general features propose role centre customization, dark mode, and enhanced search capabilities"
+    "Development ideas include viewing all rows of temporary tables in the debugger and making SetSelectionFilter work with temporary tables",
+    "Finance ideas include recurring billing in cash flow forecast, full SAF-T support in W1 and carrying bank statement lines to the next reconciliation",
+    "General and reporting ideas include dark mode, language-based report layouts and multilingual email bodies for sales and purchase documents",
+    "Manufacturing, inventory and service ideas include blocking expired batches, more shelf number fields and zero-amount service contract invoices",
+    "Tenant administration ideas include custom role centre tiles and installing PTEs during the update window"
   ],
   "systems": [
     "finance",

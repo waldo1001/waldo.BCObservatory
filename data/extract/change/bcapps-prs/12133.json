@@ -8,11 +8,11 @@
   ],
   "summary": "Web Request Helper now rejects file:// URLs before creating HTTP requests to prevent unauthorized local file access through crafted URLs.",
   "key_points": [
-    "Added validation to block file URI scheme in GetResponseTextInternal",
-    "File URLs are rejected with a false return instead of unhandled error",
-    "No behavior change for http/https URLs",
-    "Reuses existing IsValidUri and IsSecureHttpUrl scheme checks",
-    "Security fix preventing server-side file read attacks"
+    "Blocks the file URI scheme in GetResponseTextInternal before HttpWebRequest.Create is called",
+    "Callers get a false return instead of an unhandled error",
+    "No behavior change for http and https URLs",
+    "Reuses the existing IsValidUri check, so invalid URIs now fail earlier",
+    "Security fix that stops crafted URLs from reading files on the server"
   ],
   "change_kind": "fix",
   "behavior_change": true,

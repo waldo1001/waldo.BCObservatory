@@ -14,12 +14,12 @@ tags:
   - purchase orders
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:17.935Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
 
 # BC Friday Tips #57 Use TestStatusOpen Procedure
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-21 · 101 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-21 · 101 words · tier community · reviewed (checked by Opus)
 
 > When adding new fields to Sales or Purchase documents in Business Central, use the TestStatusOpen procedure during validation to ensure fields cannot be edited after the document is released. This prevents accidental changes to important order data and maintains workflow consistency.
 

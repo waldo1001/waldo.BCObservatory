@@ -13,17 +13,16 @@
     "development",
     "sustainability"
   ],
-  "summary": "Clean27 deprecation tags have been removed from numerous manufacturing, assembly, and inventory-related objects across localization layers and extensions, completing the cleanup for Wave 2 2026.",
+  "summary": "Removes the obsolete code that was kept under CLEAN27 conditional compilation in assembly, inventory, manufacturing and planning objects of the Base Application, its localization layers, and the Subcontracting, Sustainability and CZ Advanced Localization Pack apps.",
   "key_points": [
-    "Removed CLEAN27 tags from Subcontracting extension codeunits",
-    "Removed CLEAN27 tags from Sustainability Manufacturing codeunits",
-    "Removed CLEAN27 tags from base application objects across W1, APAC, DACH, ES, FI, FR, GB, IT, NA, and RU layers",
-    "Removed CLEAN27 tags from assembly, inventory, manufacturing, and planning codeunits and tables",
-    "Removed CLEAN27 tags from role centers and setup pages in localization layers"
+    "Deletes code previously marked obsolete and guarded by CLEAN27 tags",
+    "Affects Base Application objects in W1 and several localization layers such as APAC, CH, DACH, ES, FI, GB, IT, NA and RU",
+    "Also cleans up Subcontracting, Sustainability and CZ Advanced Localization Pack subscribers",
+    "Extensions still using the removed obsolete members must be updated"
   ],
   "change_kind": "obsoletion",
   "behavior_change": false,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "assembly",

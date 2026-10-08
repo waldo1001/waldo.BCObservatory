@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1822",
+  "input_hash": "193571ade9847a38dd25658e39016e9e71844ee54f91251216549f614179a8af",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:00:31.053Z",
+  "issues": [
+    "A key point named only four join types. The post says four but goes on to describe five, including Cross Join.",
+    "The first key point overstated queries as replacing SQL access; the post says they offer some SQL-like capabilities without real SQL access.",
+    "Summary, objects, features and quotes are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029096,
+    "posts_in_call": 4
+  }
+}

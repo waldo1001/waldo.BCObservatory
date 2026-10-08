@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10209",
+  "input_hash": "91a513014508daa3e124d13017f5ab5f37e2faaae6d57666a34ff576833139f7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:00.529Z",
+  "issues": [
+    "Key point said every violation was fixed with a currency AutoFormatExpression. The WHT Threshold Accumulator uses an empty expression for LCY instead, and AA0471 was cleared through the page control inheriting from the field.",
+    "The last key point was generic filler.",
+    "This is analyzer ruleset hardening rather than a functional fix, so change_kind should be other."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019104,
+    "changes_in_call": 6
+  }
+}

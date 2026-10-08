@@ -16,12 +16,12 @@ tags:
   - ai-assisted development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:57:13.678Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -76,7 +76,6 @@ code_objects_mentioned:
   - other al-smart-compile
 systems:
   - development
-  - integration
   - platform
 versions_mentioned:
   - BC v18+
@@ -94,17 +93,17 @@ preview:
 
 # AL Development with Claude Code: A Multi-Agent Workflow
 
-[Read the post](https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/) · Stefan Maron (Stefan Maron, MVP) · 2026-01-28 · 1252 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/) · Stefan Maron (Stefan Maron, MVP) · 2026-01-28 · 1252 words · tier community · reviewed (checked by Opus)
 
 > AL development with Claude Code works best using a multi-agent workflow where specialized agents handle planning, development, code review, testing, and diagnostics sequentially. This approach keeps context manageable by writing results to files and reading only relevant documents, enabling extended development cycles and consistent output quality.
 
 ## Key points
 
-- Sub-agent workflows with document-driven architecture prevent context overflow and allow sessions to resume across days
-- Three main commands (/plan, /develop, /test) orchestrate sequential agents with approval gates between planning phases
-- The al-compile tool solves AL compiler invocation complexity by auto-detecting VS Code settings and running diagnostics
-- Code review agents can identify issues like DRY violations before manual inspection, improving quality before testing
-- Multi-hour refactoring tasks (1 hour unattended in demo) produce consistent results by having experienced developers direct agents rather than typing code
+- Sub-agents write their results to files and return only a one-line summary, which keeps the main session's context small and lets work resume later
+- The /plan, /develop and /test commands run agents in sequence, with approval gates between the planning steps
+- The al-compile tool from al-smart-compile finds the AL compiler, the analyzers and the package cache on its own; a diagnostics agent uses it to fix issues until the build is clean
+- A code-review agent working in a fresh context found issues such as DRY violations before the author reviewed the code
+- In the demo, about an hour of unattended refactoring touched 42 files and compiled with no errors
 
 ## Quotes
 

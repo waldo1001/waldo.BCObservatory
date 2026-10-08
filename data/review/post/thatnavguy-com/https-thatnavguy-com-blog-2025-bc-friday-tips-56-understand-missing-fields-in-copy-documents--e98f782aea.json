@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/",
+  "input_hash": "93bd3c71edd54e5ad1ae3055ed0ced68e4f937b8df755daf740ef824f0d32541",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:16.843Z",
+  "issues": [
+    "Posted Sales Shipment, Posted Sales Invoice and Archived Sales Order are document names, not table objects named in the post. The post names Sales Header, Sales Line, Sales Shipment Header and Sales Invoice Header as tables.",
+    "The summary mixed up two things: fields not carrying over when a sales order is posted, and the Copy Document action. Rewritten to keep them apart.",
+    "Field mapping is a vague feature label that the post does not support."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 3 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020248,
+    "posts_in_call": 4
+  }
+}

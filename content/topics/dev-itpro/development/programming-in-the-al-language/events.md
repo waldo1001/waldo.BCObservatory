@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,6 +116,7 @@ links:
   videos:
     - video/P-7dYVfB73E
   posts:
+    - post/gerardorenteria-blog/15143
     - post/waldo-be/317951
     - post/waldo-be/318335
   guidelines: []
@@ -137,7 +138,7 @@ coverage:
   learn: 11
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: abbe2c0b8371aa379754387fd9ae9dc2c4a5b22601897dafe6d868eba89992ac
@@ -193,6 +194,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#152 knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company](../../../../changes/bcquality/152.md) (code change): "ChangeCompany does not move trigger execution context to the target company"
 - [#213 knowledge(events): database trigger setup flags may only be set to true](../../../../changes/bcquality/213.md) (code change): "database trigger setup flags in the Global Triggers event can only be set to true"
 - [#93 Fix lifecycle compatibility guidance](../../../../changes/bcquality/93.md) (code change): "event handling with IsHandled, and data transfer skipping triggers. Updated API versioning"
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "The OnAfterGetRecDefaultDimIDProcedure integration event in the DimensionManagement codeunit fires after"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "Business Central v26 removed invocation of 82 obsoleted events from the legacy invoice posting system"
 - [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "Event Recorder captures events in order of execution with event type classification"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Events; extensibility; componentization; code customization; extensions; cloud migration; event telemetry"

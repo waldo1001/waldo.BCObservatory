@@ -8,11 +8,10 @@
   ],
   "summary": "Contact email validation is restored during purchase document creation, fixing a regression where email validation was skipped.",
   "key_points": [
-    "Added email validation logic back to Purchase Header table across all localization layers",
-    "Updated purchase document pages (Order, Invoice, Quote, Credit Memo, Return Order, Blanket Order) to enforce validation",
-    "Addresses regression from previous change that removed necessary validation checks",
-    "Validation applies consistently across multiple regional versions (NA, GB, CH, ES, IT, etc.)",
-    "Ensures email addresses are properly validated when selecting contacts in purchase documents"
+    "Fixes contact email not being validated when purchase documents are created",
+    "Regression from earlier change 460343",
+    "Small changes to the Purchase Header table and the purchase document pages (Order, Invoice, Quote, Credit Memo, Return Order, Blanket Order)",
+    "Applied across many country layers, such as NA, GB, CH, ES, IT and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

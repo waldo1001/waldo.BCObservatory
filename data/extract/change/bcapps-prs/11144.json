@@ -8,9 +8,9 @@
   ],
   "summary": "The Post Inventory Cost to G/L report now handles cases where concatenated dimension text exceeds 250 characters without failing.",
   "key_points": [
-    "Fixed report failure when dimension text concatenation surpasses 250 character limit",
-    "Enhanced test coverage for inventory costing operations with longer dimension values",
-    "Changes maintain compatibility with existing reporting functionality"
+    "Post Inventory Cost to G/L no longer fails when the concatenated dimension text is longer than 250 characters",
+    "Change is in report 1002 in the Base Application",
+    "Inventory report tests updated to cover the long dimension text scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

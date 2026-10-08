@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9479",
+  "input_hash": "c7d5387a92a15275aced8f8021c3962c16c2dda3906f4c24823f4d185314bcc0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:18.987Z",
+  "issues": [
+    "The title says Withholding Tax Entries were missing at payment. The page wrongly calls them withholding tax journal entries.",
+    "The field is 'Withholding Tax. Prod. Posting Group'. Expanding it to 'production posting group' is not supported by the input."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019464,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/10878",
+  "input_hash": "c422e8cc65444f55dad670be675bc4cae2c61ec4c371b9b0f7deb189ad8b037d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:24.075Z",
+  "issues": [
+    "Marked as breaking without support. The ruleset only affects this repo's own build, and the PR says the public wrappers and the move-negative behavior were kept for compatibility.",
+    "The key point saying developers must fix findings in 52 files misreads the PR. Those fixes and suppressions are already made in this PR.",
+    "This is code hardening and cleanup, so refactor fits better than breaking."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind refactor",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02517,
+    "changes_in_call": 6
+  }
+}

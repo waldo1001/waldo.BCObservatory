@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9894",
+  "input_hash": "4f8be56a869914ba29195079f030afde631b0116b1055b0ee5eb107987a05b6e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:10.533Z",
+  "issues": [
+    "Summary and key points match the description: a new request-page option, off by default, and zero-value rows suppressed unless it is turned on.",
+    "Calling it a feature is reasonable because a new option was added. The default output also changes, so behavior_change true is correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026433,
+    "changes_in_call": 6
+  }
+}

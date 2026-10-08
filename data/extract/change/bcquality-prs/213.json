@@ -4,13 +4,13 @@
   "title": "knowledge(events): database trigger setup flags may only be set to true",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "A new quality rule checks that database trigger setup flags in the Global Triggers event can only be set to true, preventing subscribers from inadvertently clearing flags set by other integrations or system features.",
+  "summary": "Adds a knowledge article and review check: subscribers to GetDatabaseTableTriggerSetup (Global Triggers) or OnAfterGetDatabaseTableTriggerSetup (codeunit 49) should only set the shared trigger flags to true. Assigning false or a lookup result can clear flags that other features or apps rely on.",
   "key_points": [
-    "Detects when subscribers assign false to database trigger setup flags, which can disable Dataverse sync, webhooks, data archive, or change logging",
-    "Carves out demo data tools and test sessions where flag clearing is acceptable",
-    "Recommends using table-specific mechanisms instead of subscribing directly to system codeunits",
-    "Applies to AL versions 15 and later",
-    "Added to the al-events-review skill with both good and bad code samples"
+    "Flags subscribers that assign false or a lookup result to the shared database trigger setup flags",
+    "Clearing flags can turn off Dataverse sync, API webhooks, data archive or another app's triggers; a direct Global Triggers subscriber can also clear the change log flags",
+    "Demo data tool and Backup Management test library usages are carved out",
+    "Recommends codeunit 49's integration events over direct system codeunit subscriptions, or table-specific mechanisms when the tables are known",
+    "Wired into al-events-review and review fixtures with good and bad samples; applies to version 15 and later"
   ],
   "change_kind": "feature",
   "behavior_change": false,

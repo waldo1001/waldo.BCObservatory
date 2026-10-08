@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9145",
+  "input_hash": "ff162e231fe7e35ed8024aa57b6218991dd057e7cc531852b50adb1d66f885c9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.437Z",
+  "issues": [
+    "The description mentions new wrapper pages 6117 and 6131 and says page 6111 is unchanged. The file list adds no such pages and modifies page 6111 (+31), so the key point about two wrapper CardParts has no support."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024405,
+    "changes_in_call": 6
+  }
+}

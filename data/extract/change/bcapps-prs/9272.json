@@ -17,13 +17,7 @@
   "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
-  "obsoletions": [
-    {
-      "object": "Create Whse Location",
-      "member": "TransitLocationTok",
-      "replacement": null
-    }
-  ],
+  "obsoletions": [],
   "systems": [
     "inventory",
     "warehouse"

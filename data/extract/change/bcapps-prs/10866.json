@@ -6,11 +6,10 @@
   "systems_joined": [],
   "summary": "Austrian localization now assigns the EMPLEXP employee posting group when creating new employee templates and demo employees, fixing a bug where the posting group field was incorrectly cleared.",
   "key_points": [
-    "ADMINISTRATION and IT employee templates now have the correct posting group assigned",
-    "Demo employees created from these templates inherit the proper Employee Posting Group",
-    "Subscriber logic changed from clearing the field to explicitly assigning EMPLEXP posting group",
-    "Tests added to verify posting group on templates and generated demo employees",
-    "Fixes an issue specific to Austrian localization"
+    "ADMINISTRATION and IT employee templates in the AT demo data now get an employee posting group",
+    "Demo employees created from these templates now carry the posting group",
+    "The subscriber now assigns EMPLEXP instead of clearing the field",
+    "Backport to releases/29.x"
   ],
   "change_kind": "fix",
   "behavior_change": true,

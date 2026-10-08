@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9682",
+  "input_hash": "55251c43ca96455b2744ffaa5e7751450201156fb4c3dc34e4bd6d78bf734623",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:17.041Z",
+  "issues": [
+    "Key point says the helper replaces 'private XML parsing'; description says it replaces NAV's EDocument XML Helper.",
+    "internalsVisibleTo grant in E-Document Core for the test app was not mentioned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017496,
+    "changes_in_call": 6
+  }
+}

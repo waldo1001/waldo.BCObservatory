@@ -4,13 +4,13 @@
   "title": "Add foundational AL developer knowledge",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Five foundational AL development guidelines are added covering document initialization, rounding operations, interface casting, UI refresh behavior, and upgrade execution order.",
+  "summary": "Adds seven foundational AL knowledge articles covering document default initialization, directed rounding, guarded interface casts, dropdown visibility, page-part refresh, and install/upgrade ordering and version context. Related review skills get targeted retrieval cues.",
   "key_points": [
-    "Document initialization and directed rounding practices documented with examples",
-    "Interface casting guard patterns for runtime 15.0+ and BC 25+",
-    "Dropdown visibility and page-part refresh guidance added",
-    "Install and upgrade codeunit execution ordering clarified",
-    "Review retrieval skills updated to target these new knowledge articles"
+    "Document initialization in InitRecord and directed rounding guidance with samples",
+    "Guarded interface casting with is (runtime 15.0, BC 25+)",
+    "Dropdown fieldgroup visibility and UpdatePropagation page refresh guidance",
+    "Install/upgrade codeunits have no order; AppVersion meaning depends on execution context",
+    "Data modeling, interfaces, UI and upgrade review skills updated with retrieval cues"
   ],
   "change_kind": "feature",
   "behavior_change": false,

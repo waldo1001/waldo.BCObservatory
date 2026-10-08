@@ -2,7 +2,7 @@
 id: source/katson-com
 type: source
 title: Katson.com
-summary: "Katson.com (Dmitry Katson, MVP): 5 posts in the knowledge base, 2025-11-05 to 2026-07-17, mostly about copilot, development, integration."
+summary: "Katson.com (Dmitry Katson, MVP): 5 posts in the knowledge base, 2025-11-05 to 2026-07-17, mostly about development, copilot, integration."
 tier: community
 language: en
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0c4171d8a46759812fd5bf82aeacc0a5b2af1d0c4a2536e5ea1caca077dcc9fb
@@ -48,15 +48,15 @@ full_text: false
 item_count: 5
 footprint:
   systems:
-    - id: copilot
-      weight: 7
     - id: development
       weight: 6
+    - id: copilot
+      weight: 5
     - id: integration
       weight: 3
-    - id: platform
-      weight: 2
     - id: administration
+      weight: 1
+    - id: platform
       weight: 1
   topics:
     - id: ai agents
@@ -82,8 +82,6 @@ footprint:
   objects:
     - id: page Model Context Protocol (MCP) Server Configurations
       weight: 1
-    - id: page PAG30008
-      weight: 1
   features: []
 first_item: "2025-11-05"
 last_item: "2026-07-17"
@@ -91,7 +89,7 @@ last_item: "2026-07-17"
 
 # Katson.com
 
-> Katson.com (Dmitry Katson, MVP): 5 posts in the knowledge base, 2025-11-05 to 2026-07-17, mostly about copilot, development, integration.
+> Katson.com (Dmitry Katson, MVP): 5 posts in the knowledge base, 2025-11-05 to 2026-07-17, mostly about development, copilot, integration.
 
 [https://katson.com](https://katson.com) · blog · tier community
 
@@ -99,11 +97,11 @@ last_item: "2026-07-17"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (7) | ai agents (2) | page Model Context Protocol (MCP) Server Configurations (1) |
-| development (6) | business central api (2) | page PAG30008 (1) |
+| development (6) | ai agents (2) | page Model Context Protocol (MCP) Server Configurations (1) |
+| copilot (5) | business central api (2) |  |
 | integration (3) | mcp (2) |  |
-| platform (2) | setup (2) |  |
-| administration (1) | agentic coding (1) |  |
+| administration (1) | setup (2) |  |
+| platform (1) | agentic coding (1) |  |
 |  | agentic development (1) |  |
 |  | agents (1) |  |
 |  | ai automation (1) |  |

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/bertverbeek-nl/1209",
+  "input_hash": "558d6832ba63ec220766341a50b50cda564540a2a4659181ef019ef9a1b32def",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:37.697Z",
+  "issues": [
+    "Feature about automatic table sync is not described in the post",
+    "Quote 1 only restates that the app is on AppSource and adds little value",
+    "Key points omit the required order of steps: upgrade the PTE to 27.47.0 or later and install the AppSource app at 27.46.0 or later before the migration app"
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040452,
+    "posts_in_call": 4
+  }
+}

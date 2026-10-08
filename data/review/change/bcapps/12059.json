@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12059",
+  "input_hash": "021bbcdc39d4b312559d8ba8a0edd53f6919eef5c5fc3e80f7e2532d706a6658",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:16.417Z",
+  "issues": [
+    "The key point about unit of measure conversions is speculative. The pull request gives only the title and a work item link, so the mechanism of the fix is unknown."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013847,
+    "changes_in_call": 6
+  }
+}

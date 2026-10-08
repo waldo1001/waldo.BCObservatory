@@ -7,11 +7,12 @@
     "inventory",
     "sales"
   ],
-  "summary": "Reverted changes that prevented Reservation Entries from being created when generating a Purchase Order from a Sales Order, fixing an error about missing reservation entries.",
+  "summary": "Reverts an earlier change (PR 242051) to Item Tracking Management and Sales Line-Planning that caused a 'Reservation Entry does not exist' error when creating a Purchase Order from a Sales Order. The earlier change had targeted reservation entries for serial numbers assigned in that flow.",
   "key_points": [
-    "Reverts a prior change that had broken reservation entry creation when creating purchase orders from sales orders",
-    "Restores functionality in Item Tracking Management and Sales Line Planning codeunits",
-    "Removes test code that was added with the problematic change"
+    "Reverts PR 242051, which dealt with reservation entries for serial numbers when creating a purchase order from a sales order card",
+    "Fixes the 'Reservation Entry does not exist' error when creating a purchase order from a sales order",
+    "Changes Item Tracking Management and Sales Line-Planning codeunits",
+    "Removes test code from SCM Order Planning III"
   ],
   "change_kind": "fix",
   "behavior_change": true,

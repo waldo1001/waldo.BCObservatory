@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9087",
+  "input_hash": "6bedd4332b0b410f4101baf6df417ee64298802d3afe2c3dacdfdbb33fe03985",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:39.068Z",
+  "issues": [
+    "Summary and key points match the description: the lookup now leaves out the target order when the source status matches the target status, the same way Copy Sales/Purchase Document does."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013503,
+    "changes_in_call": 6
+  }
+}

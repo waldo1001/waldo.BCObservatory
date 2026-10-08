@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9478",
+  "input_hash": "939f3c369df46840f2a21fe41664762aab32a4288428b4de3ec473a2e418ece6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:36.501Z",
+  "issues": [
+    "Content matches the description: manual and automatic reversal, three new fields, negated emission fields, and posting on the original date.",
+    "The description names codeunits 6230 and 6231, but the files show only codeunit 6243 being added. The page does not name codeunit IDs, so this is not an error on the page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019276,
+    "changes_in_call": 6
+  }
+}

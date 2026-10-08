@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10515",
+  "input_hash": "e9f2b2ad80b1993b768aad4b3c8004f16d89338729b7bcc0a25594348e0360b0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:27.278Z",
+  "issues": [
+    "Matches the description: the separated hash and instruction handling, a single final modify of user ID, E-document service code and hash, and the standalone hash persistence kept for upgrade and drift callers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018245,
+    "changes_in_call": 6
+  }
+}

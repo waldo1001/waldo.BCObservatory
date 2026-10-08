@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "The performance guidance for replacing FindFirst with Record.Get now clarifies that additional business filters must be preserved, either by keeping the filtered FindFirst or by enforcing equivalent conditions after Get.",
   "key_points": [
-    "Prevents false-positive recommendations when lookups combine full primary-key filters with other business conditions",
-    "Documents that Record.Get ignores normal record filters, only respecting security filters",
-    "Recommends two valid alternatives: retain filtered FindFirst or explicitly check business conditions after Get",
-    "Extends examples to show both the problematic pattern and correct solutions",
-    "Ensures performance recommendations do not introduce behavior-changing corrections"
+    "Guidance still recommends Get for lookups filtered only on the full primary key",
+    "Notes that Record.Get ignores normal record filters, so a SetRange before Get does not keep a business condition",
+    "Two valid alternatives: keep the filtered FindFirst, or check the condition explicitly after a successful Get",
+    "FindFirst with an extra required filter is no longer flagged as a defect, avoiding false-positive review advice",
+    "Bad and good samples extended with a Blocked filter example, and the article added to the performance evaluation fixtures"
   ],
   "change_kind": "fix",
   "behavior_change": false,

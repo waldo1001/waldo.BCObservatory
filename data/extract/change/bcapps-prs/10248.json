@@ -6,13 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Spend Request field numbers in the Posted Gen. Journal Line table are corrected to match the base W1 version across all country localizations.",
+  "summary": "Spend Request field numbers in the Posted Gen. Journal Line table (181) are corrected in 13 country layers so they match the W1 version.",
   "key_points": [
-    "Field ID mismatches in Posted Gen. Journal Line table across country versions are fixed",
-    "Changes applied to 12 country localization layers (APAC, BE, CH, ES, FI, FR, GB, IT, NA, NL, NO, RU, SE)",
-    "Aligns country-specific tables with the correct W1 field numbering",
-    "No functional behavior change to end users",
-    "Fixes compilation or data consistency issues for extensions targeting specific countries"
+    "Spend Request field IDs in Posted Gen. Journal Line differed between country versions and W1",
+    "Corrected in the APAC, BE, CH, ES, FI, FR, GB, IT, NA, NL, NO, RU and SE layers",
+    "Country tables now use the same field numbering as W1"
   ],
   "change_kind": "fix",
   "behavior_change": false,

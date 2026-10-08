@@ -4,13 +4,13 @@
   "title": "Fix Payment Management FR data update paths and per-company feature status",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Fixed French payment management data migration path by centralizing migration logic, adding separate upgrade tags for object ID remapping, and removing cross-company feature status duplication that incorrectly marked migrations as complete in unmigrated companies.",
+  "summary": "Centralizes the French payment data migration in a new codeunit so the Feature Management path also remaps payment step object IDs, and adds an upgrade tag to repair companies migrated before remapping existed. Feature status is no longer copied to every company after a data update, in the Payment Management FR app and the three GB apps.",
   "key_points": [
-    "Created new codeunit to consolidate payment data migration, ensuring Feature Management path also remaps object IDs",
-    "Added separate upgrade tag for remapping to repair companies that migrated before remapping was added",
-    "Removed cross-company ModifyAll pattern from feature codeunits that incorrectly copied completion status across all companies",
-    "Fixed bank account field direction so RIB data migrates correctly to base application fields",
-    "Improved data update requirement check to count all migrated tables and avoid skipping migrations in companies without bank accounts"
+    "New codeunit 10844 holds the single migration implementation, so the Feature Management data update also remaps object IDs",
+    "Separate upgrade tag for remapping repairs companies that migrated before remapping was added",
+    "Removed cross-company ModifyAll from AfterUpdate in the FR and GB feature codeunits that wrongly marked other companies as Complete",
+    "Fixed bank account field transfer direction so RIB data moves from base application fields into the app fields",
+    "Data update check now counts all migrated tables and no longer writes upgrade tags"
   ],
   "change_kind": "fix",
   "behavior_change": true,

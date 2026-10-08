@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/waldo-be/318212",
+  "input_hash": "0a5bf6dc8c1ace1ce083a1cf089a3a727e794040a16447afd36e2598c9d04728",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:35.159Z",
+  "issues": [
+    "Key point 2 states as fact that the data is lost when the database moves between servers; the author only offers that as a guess. Reworded.",
+    "Everything else, including the quote, matches the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029678,
+    "posts_in_call": 4
+  }
+}

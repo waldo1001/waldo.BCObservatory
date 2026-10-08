@@ -6,14 +6,14 @@
   "systems_joined": [],
   "summary": "Deterministic analyzer rules and their documentation are removed from BCQuality, leaving only knowledge that adds BC-specific context beyond what the compiler already enforces.",
   "key_points": [
-    "18 deterministic rules removed including CodeCop formatting rules and compiler-enforced checks like AS0062, AS0011, AS0007",
-    "Knowledge samples and markdown files for style, AppSource, and breaking changes rules deleted",
-    "Review skills updated to remove detection logic for retired rules",
-    "BCQuality focuses on BC-specific reasoning rather than mechanical facts already enforced by tooling",
-    "Division of responsibility established between compiler/analyzer and BCQuality knowledge base"
+    "18 deterministic rules and their samples are retired, including CodeCop formatting and style rules, AS0062, AS0011, AS0007 and compiler-enforced subscriber parameter matching",
+    "The Style, AppSource and Breaking Changes review skills no longer contain detection or example logic for these rules",
+    "The admission test now excludes compiler and analyzer duplicates for both review and authoring",
+    "Analyzer-related knowledge stays only when it adds exceptions, version boundaries, cross-object implications or remediation constraints",
+    "Deterministic tooling handles mechanical facts, while BCQuality focuses on BC-specific reasoning"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9066",
+  "input_hash": "6ccf8756e9c1aff3cf075dccf42c30915418b803f329dfa8ef4f4bd383ab8031",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.610Z",
+  "issues": [
+    "Description is only a work item link; claims of improved maintainability, unchanged behavior and an internal quality bug fix are not supported.",
+    "Key points reworded to stick to what the title and file list show."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014474,
+    "changes_in_call": 6
+  }
+}

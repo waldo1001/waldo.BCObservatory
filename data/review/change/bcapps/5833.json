@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/5833",
+  "input_hash": "5fa6730a5b2247f09be23b17dd0f03a4c72285a307da76ed915bb7a9d505e507",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The Graph API toggle, the helper codeunits, the upgrade defaulting existing accounts to legacy REST and the tests are all supported.",
+    "The page correctly leaves out the GraphAuthClientCredentials bug fix, since that file is not in the changed files.",
+    "Marking it as a behaviour change fits, because new accounts default to Graph."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2025-05-20T09:41:17.000Z",
   "words": 434,
-  "summary": "GitHub Copilot Coding Agent, available in preview, can autonomously handle Business Central AL code issues by exploring repositories, proposing changes, and creating pull requests for developer review. This capability helps developers manage urgent tasks without interrupting other activities.",
+  "summary": "The author assigned an urgent issue on an internal Business Central app to the GitHub Copilot Coding Agent from GitHub Mobile while out cycling. The agent worked in a cloud environment run on GitHub Actions and opened a pull request that added new events to the AL code, which the author reviewed and accepted. The agent is in preview and has to be enabled on the GitHub organization or account.",
   "key_points": [
     "Copilot Coding Agent runs in a secure cloud-based development environment using GitHub Actions",
     "The agent explores the repository and automatically proposes AL code modifications based on issues",
@@ -13,9 +13,7 @@
     "The feature must be enabled on your GitHub organization or account to use"
   ],
   "systems": [
-    "development",
-    "copilot",
-    "integration"
+    "development"
   ],
   "topics": [
     "github",

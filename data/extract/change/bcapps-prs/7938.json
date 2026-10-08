@@ -7,15 +7,14 @@
     "development",
     "integration"
   ],
-  "summary": "Quality inspection generation rule warnings can now be directly acted upon through actionable UI elements in the receiving and warehouse guides, making it easier for users to handle issues with inspection rules.",
+  "summary": "Fixes bug 632378 by making the Quality Management inspection generation rule warning actionable. The changes touch the generation rule table, the rules page, the management codeunit, the Create Inspection report and the receiving and warehouse setup guide pages.",
   "key_points": [
-    "Warnings about quality inspection generation rules can now be acted on directly in the receiving guide and warehouse guide pages",
-    "Management codeunit extended with new procedures to support actionable warnings",
-    "Test coverage added for generation rule validation",
-    "Receiving guide page now includes action handling for generation rule issues",
-    "Improved user experience for managing quality inspection configurations"
+    "Makes the warning about quality inspection generation rules actionable",
+    "Changes span the generation rule table, the rules page, the management codeunit and the Create Inspection report",
+    "Small adjustments to the receiving and warehouse generation rule setup guides",
+    "Tests and test library helpers added for generation rules"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

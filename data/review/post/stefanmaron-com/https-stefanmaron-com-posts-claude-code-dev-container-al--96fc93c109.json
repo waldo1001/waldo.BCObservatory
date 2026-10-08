@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/claude-code-dev-container-al/",
+  "input_hash": "cbddd4a7556cda2edebc26bd76625bb9b8547721f34a6842f8e3acefce389d99",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:44.042Z",
+  "issues": [
+    "Summary claims AL development tools are already installed and that network isolation is in place. The post says AL-specific configuration is still missing and that network isolation comes from the official Anthropic container, which is planned as the future base. The current build only strips git credentials.",
+    "The integration system is not supported by the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031551,
+    "posts_in_call": 4
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Job Queue displays a clearer message when the platform interrupts a run, including the attempt number, and adds telemetry tracking for interruptions.",
+  "summary": "When the platform interrupts a job queue run, the log entry message now says the run was interrupted by a service restart or update, shows the attempt number, and says a retry is scheduled. The existing 0000PCR telemetry signal gets a JobQueueInterruptedAttempt dimension.",
   "key_points": [
     "Replaces confusing 'job has stopped' error message with 'run was interrupted' message that includes the attempt number",
     "Derives attempt number from log entries sharing the same System Task Id",

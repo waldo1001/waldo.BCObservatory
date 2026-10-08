@@ -4,12 +4,11 @@
   "title": "[Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "A previous fix for e-document imports in German localisation is reverted because purchase and sales line handling was modified elsewhere, resolving errors during ZUGfERD and XRECHNUNG document imports.",
+  "summary": "An earlier fix in the German XRechnung and ZUGFeRD import codeunits is reverted. The error 'You cannot insert a purchase line without a purchase header' is now handled by a separate change to Purchase Line and Sales Line in another PR.",
   "key_points": [
-    "Reverts a prior fix to e-document import logic in German localisation",
-    "Addresses incompatibility with changes to purchase and sales line tables",
-    "Fixes failed imports of ZUGfERD and XRECHNUNG formatted documents",
-    "Changes affect codeunits for both ZUGfERD and XRECHNUNG import processes"
+    "Reverts a previous fix in the XRechnung and ZUGFeRD import codeunits of the German e-document app",
+    "The revert is done because Purchase Line and Sales Line were changed in another PR",
+    "Linked to the bug where these imports failed because a purchase line had no purchase header"
   ],
   "change_kind": "fix",
   "behavior_change": true,

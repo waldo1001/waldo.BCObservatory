@@ -7,10 +7,11 @@
   "words": 1231,
   "summary": "Business Central Query objects allow developers to combine data from multiple tables using joins and filters, similar to SQL queries. Queries simplify complex data retrieval by defining linked data items with columns and join types, and can be exposed in Business Central for analysis and reporting.",
   "key_points": [
-    "Query objects link multiple tables together with join conditions, replacing the need for direct SQL access",
-    "Four SQL join types control how data combines: Inner, Left Outer, Right Outer, and Full Outer joins",
-    "Queries are declared with a source table, dependent data items with DataItemLink definitions, and filtered columns",
-    "Queries can be exposed in Business Central UI for searching and analyzing, then exported to Excel or pivot table analysis"
+    "Query objects let AL developers combine and filter data from several tables, giving some SQL-like capabilities without direct SQL access",
+    "A query starts with a source data item, and dependent data items are attached using DataItemLink, DataItemTableFilter and SqlJoinType",
+    "Left means the parent data item and Right means the nested dependent one; the post covers inner, left outer, right outer, full outer and cross joins",
+    "The example query joins Customer with Cust. Ledger Entry using a left outer join, filtered to invoices and credit memos",
+    "With UsageCategory set, the query can be found through Tell Me, exported to Excel or analyzed in pivot mode"
   ],
   "systems": [
     "development",

@@ -7,10 +7,11 @@
   "words": 1193,
   "summary": "A consultant created a Business Central configuration audit extension using AI-assisted vibe coding to check for 200+ data issues like circular BOMs, missing posting groups, and incomplete setups. The AI agent generated over 5400 lines of code in basic structures, requiring minimal manual adjustments and making the project feasible where writing it manually would have been impractical.",
   "key_points": [
-    "Vibe coding (AI-assisted development) enabled writing 5400 lines of validation logic that would have been impractical to create manually",
-    "The extension checks for 200+ configuration issues including circular BOM references, missing calendars, incomplete posting setups, and blocked dimensions",
-    "AI agents work best for generating large amounts of basic code but struggled with complex features like Excel export formatting",
-    "The audit extension is available free on AppSource and includes subjective checks that users can customize based on their needs"
+    "Vibe coding with an AI agent produced about 5400 lines of code for more than 200 data checks, far more than the author would have written by hand",
+    "Checks include circular production BOM references, work centers without calendars, missing posting groups, incomplete posting setups and defaulted blocked dimensions",
+    "The agent did well on tables and individual check functions, but the results report was poorly structured and it failed at Excel export, so that idea was dropped",
+    "Asking the agent to suggest more checks and to generate documentation of all checks as a CSV worked well",
+    "The extension is free on AppSource. Some checks are subjective, such as flagging missing sales accounts in posting setups"
   ],
   "systems": [
     "administration",
@@ -23,20 +24,7 @@
     "data validation",
     "extension development"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Configuration checks table"
-    },
-    {
-      "type": "report",
-      "name": "Configuration Audit report"
-    },
-    {
-      "type": "page",
-      "name": "Configuration Audit page"
-    }
-  ],
+  "objects": [],
   "features": [
     "configuration validation",
     "data quality checks",

@@ -6,16 +6,15 @@
   "systems_joined": [
     "service"
   ],
-  "summary": "Service contract invoicing now allows extensions to skip blocked item and service item validation checks independently, enabling contracts to be invoiced when appropriate despite blocked or deleted references.",
+  "summary": "ServContractManagement gets two separate IsHandled events so extensions can skip the blocked service item check or the blocked item and variant check. This lets them keep invoicing contracts whose references were later blocked or deleted.",
   "key_points": [
-    "Added IsHandled event to CheckServiceItemBlockedForAll for skipping service item validation",
-    "Added IsHandled event to CheckItemServiceBlocked for skipping item and variant validation",
-    "Enables extensions to bypass blocked-item checks independently",
-    "Allows active contracts to continue invoicing when business logic permits",
-    "Service contract invoicing no longer stops due to blocked referenced items"
+    "IsHandled event added before the service item check in CheckServiceItemBlockedForAll",
+    "Separate IsHandled event added before the item and variant check in CheckItemServiceBlocked",
+    "Each check can be skipped independently by subscribers",
+    "Default behavior is unchanged; checks still stop invoicing unless handled"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

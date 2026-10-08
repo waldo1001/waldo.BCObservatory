@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/102",
+  "input_hash": "682a50b5ab7c25a87f2ebb5b8c4e9e164b7520e0ee1ffd60a36f8a1b2f4dbf1d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.615Z",
+  "issues": [
+    "behavior_change should be true. Label-scope findings move from info, which the engine dropped, to minor, so the review skill will now report them. The corrected article guidance also changes review output."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02123,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9352",
+  "input_hash": "0e1ed750b6bbe8bd1517cc603accab09adb21629feecde94198d49d53acbf5ef",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:06.654Z",
+  "issues": [
+    "Obsoletions of field 13400 on tables 323 and 324 are supported as Pending. Removal wording is slightly loose (removed at CLEAN29, column dropped at CLEANSCHEMA32) but acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020666,
+    "changes_in_call": 6
+  }
+}

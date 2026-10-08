@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10741",
+  "input_hash": "f66d56ac3eb7725a26c30dc992020ddd4e576c7c21abf98657b623852b8d7aa3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:15.614Z",
+  "issues": [
+    "All four fixes (identifiers, document link, totals exclusion, Tax section layout) are covered accurately.",
+    "Fix with a behavior change and not breaking is correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022352,
+    "changes_in_call": 6
+  }
+}

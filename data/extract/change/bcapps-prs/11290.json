@@ -8,11 +8,11 @@
   ],
   "summary": "The Expense Agent now manages Microsoft Entra permissions scoped to individual companies, adding company-specific grants on activation and removing them on deactivation while preserving other permissions and disabling the shared application only when no active companies remain.",
   "key_points": [
-    "Entra permissions are now company-scoped rather than global, with exactly one grant per active company",
-    "Existing global grants are preserved when adding company-specific grants during activation",
-    "Company grants are cleanly removed during deactivation without affecting global or other-company permissions",
-    "The shared Entra application is disabled only when no non-empty company grants exist",
-    "Non-SUPER users need Agent - Admin, Expense Mgmt. Admin, SECURITY, and Expense Agent permission sets to manage registrations"
+    "Activation always adds exactly one Expense Agent permission for the current company",
+    "An existing global grant is kept and the current-company grant is still added",
+    "Deactivation removes only the current-company grant and keeps global, other-company and unrelated permissions",
+    "The shared Entra application is disabled when no other non-empty company grant remains",
+    "SUPER needs no extra permission sets; non-SUPER users need Agent - Admin, Expense Mgmt. Admin, SECURITY and Expense Agent"
   ],
   "change_kind": "fix",
   "behavior_change": true,

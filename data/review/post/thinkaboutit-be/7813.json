@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7813",
+  "input_hash": "5afc0cd8511e8c93936210bdfcafd7e232bc6f515464af5ec945e4c32bf6f16d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:37.092Z",
+  "issues": [
+    "The lifecycle key point was garbled. It suggested the states themselves are visible only to admins. In the post, only Approved layouts show to users, other states are admin only, and the feature covers user-defined layouts but not extension layouts.",
+    "The key points did not mention that Table Builder is a preview or that the modernized report selection pages arrive in a later 28.x update rather than at GA. I rewrote the key points.",
+    "The summary, features, systems and the single quote are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045132,
+    "posts_in_call": 4
+  }
+}

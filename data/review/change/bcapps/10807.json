@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10807",
+  "input_hash": "812babd2ad5de6bb28c36f945f8b02c448f211eb9a14132e322eeca7dc843d49",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:43.037Z",
+  "issues": [
+    "Everything matches the description: the OnQueryClosePage confirm, the blank Employee No. case and the test handlers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016551,
+    "changes_in_call": 6
+  }
+}

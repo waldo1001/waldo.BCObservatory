@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9600",
+  "input_hash": "4fff0db453b633a37ac8f7cc054cd527607e1fa2fc6ed3d183bff345daf2488b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:54.075Z",
+  "issues": [
+    "The description supports viewing, disabling and enabling SIFT indexes, plus the primary key reference fixes the platform uptake needs.",
+    "Both changed pages are named correctly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026644,
+    "changes_in_call": 6
+  }
+}

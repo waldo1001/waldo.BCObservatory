@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10311",
+  "input_hash": "b8618fc30db29dceab5666803491a76f6fec43f2c2d5a71803f192acfb0c77aa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:13.869Z",
+  "issues": [
+    "Last key point said all the new actions follow the Value Entries page pattern; the description says only the Find entries action matches that pattern."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024466,
+    "changes_in_call": 6
+  }
+}

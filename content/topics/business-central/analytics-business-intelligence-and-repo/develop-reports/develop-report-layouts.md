@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,12 +108,11 @@ links:
     - video/1ft4o9lQzsU
     - video/BofJJPqgrTI
     - video/hn92Al_x-s8
-    - video/hSJW3LiOBxg
     - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
-    - video/z7UTBiCNOo8
   posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5
     - post/thinkaboutit-be/7750
     - post/thinkaboutit-be/7813
     - post/thinkaboutit-be/8096
@@ -129,8 +128,8 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 9
-  blog: 4
+  video: 7
+  blog: 5
   guideline: 0
 bc_forms:
   - 9650
@@ -184,19 +183,18 @@ Two pages cover applying layouts: one on setting the default layout per company 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts in Business Central 29.0: branding is split into three separate parts"
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../posts/thinkaboutit-be/7750.md) (community post): "simplifies designing Word layouts for document reports by enabling easy field insertion"
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "improved Word add-in with a redesigned data picker, a new table builder for layouts"
-- [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "The classic XML Mapping pane for Word report layouts in Business Central has started rejecting newly inserted fields"
+- [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
 - [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "translatable reports; excel layouts; power query; api integration"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
-- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "Excel Layout Multiple Data Sheets; Power Pivot Relationships in Excel"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced Document Reporting; document layout; table builder"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"
-- [What's Cooking in Business Central: Excel Reports that Become Generally Available](../../../../videos/z7UTBiCNOo8.md) (video): "Excel Layouts for Built-in Reports; Report Customization in Excel"
 
 ## Business Central pages and reports
 

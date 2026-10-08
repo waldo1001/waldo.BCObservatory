@@ -5,7 +5,7 @@
   "source": "jpearson-blog",
   "published_at": "2025-07-04T11:44:19.000Z",
   "words": 1252,
-  "summary": "Calling Business Central APIs from Azure resources without client secrets is possible using managed identities and federated credentials for token exchange. This approach eliminates the need to store and rotate secret credentials, reducing security risks when integrating Static Web Apps or Azure Functions with Business Central.",
+  "summary": "Explains how an Azure Function or Static Web App backend can call Business Central APIs without a client secret: the function gets a managed identity token, then exchanges it via a federated credential on the app registration for a token that BC accepts. The author notes this still works but a newer post describes a better way that calls BC directly from a managed identity.",
   "key_points": [
     "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets",
     "Federated credentials enable token exchange between the managed identity token and an app registration token",
@@ -28,18 +28,12 @@
     "token exchange",
     "service-to-service"
   ],
-  "objects": [
-    {
-      "type": "api",
-      "name": "API page"
-    }
-  ],
+  "objects": [],
   "features": [
     "Managed Identity Authentication",
     "Federated Credentials",
     "Service-to-Service Authentication",
     "Token Exchange",
-    "OAuth Token Management",
     "Entra Application Integration"
   ],
   "versions": [],

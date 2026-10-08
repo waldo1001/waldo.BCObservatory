@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -355,6 +355,7 @@ links:
     - post/aardvarklabs-blog/1696
     - post/aardvarklabs-blog/3118
     - post/aardvarklabs-blog/3267
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
   guidelines: []
 learn_toc_path:
   - Development
@@ -368,7 +369,7 @@ coverage:
   learn: 46
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: d4267e15f9f94d7855fa46b178b2b257bd0a228598657f0f87aa90b3a2357688
@@ -437,5 +438,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Understanding ToText() in Business Central 2025](../../../../../posts/aardvarklabs-blog/1696.md) (community post): "ToText() is a new method in BC 2025 that quickly converts variable values to text"
 - [Leveraging RecordRef and FieldRef for Dynamic Coding](../../../../../posts/aardvarklabs-blog/3118.md) (community post): "use weakly typed RecordRef and FieldRef objects in Business Central AL"
 - [Overcoming Integer Limits in Business Central with BigInteger](../../../../../posts/aardvarklabs-blog/3267.md) (community post): "BigInteger is a signed 64-bit type supporting 9.2 quintillion values"
+- [Record.IsDirty in Business Central 29: a worked example](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "new API in Business Central 29 that lets AL code check"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

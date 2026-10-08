@@ -8,10 +8,9 @@
   ],
   "summary": "A new event subscriber codeunit enables programmatic opening of the permission set details card based on client signals.",
   "key_points": [
-    "Adds event subscriber in System Application to handle permission set card opening",
-    "Allows client signals to trigger display of permission set details card",
-    "Updates permission set objects to support the new subscriber",
-    "Provides extensibility point for permission set workflows"
+    "Adds the codeunit Permission Set Card Subscriber to the System Application",
+    "The subscriber opens the permission set details card for the values it is given, so signals from the client can open it",
+    "Adds the new codeunit to the Permission Sets - Objects permission set"
   ],
   "change_kind": "feature",
   "behavior_change": true,

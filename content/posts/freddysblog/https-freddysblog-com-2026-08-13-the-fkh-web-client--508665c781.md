@@ -14,12 +14,12 @@ tags:
   - github authentication
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:18.053Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
 
 # The Fkh Web Client
 
-[Read the post](https://freddysblog.com/2026/08/13/the-fkh-web-client/) · Freddys blog (Freddy Kristiansen) · 2026-08-13 · 657 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://freddysblog.com/2026/08/13/the-fkh-web-client/) · Freddys blog (Freddy Kristiansen) · 2026-08-13 · 657 words · tier community · reviewed (checked by Opus)
 
 > Fkh Web Client is a web-based interface that allows developers to manage Kubernetes containers and clusters from a phone without requiring VS Code or CLI installation. It uses GitHub authentication and centralized backend logic, making it simple and secure for performing quick operational tasks.
 

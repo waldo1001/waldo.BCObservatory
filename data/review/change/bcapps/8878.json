@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/8878",
+  "input_hash": "e68867d5d4ef45d05176a78c9297b22ae7a93ec9e5f953b172cb87c8ed94205c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:22.579Z",
+  "issues": [
+    "Summary and key point claim the value is derived from the customer's default shipping location; nothing given states the source of the value.",
+    "Only a one-line page change plus a test is known."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015263,
+    "changes_in_call": 6
+  }
+}

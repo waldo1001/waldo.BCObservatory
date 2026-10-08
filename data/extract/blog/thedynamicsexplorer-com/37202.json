@@ -5,7 +5,7 @@
   "source": "thedynamicsexplorer-com",
   "published_at": "2026-03-30T09:00:00.000Z",
   "words": 470,
-  "summary": "Payment Tolerance is a Business Central feature that automatically writes off small unpaid invoice balances, but it only works when cash receipts are entered with the Payment document type selected. The post explains common setup mistakes that prevent this functionality from triggering.",
+  "summary": "Payment Tolerance in Business Central can automatically write off small remaining invoice balances when a payment is applied. The post shows that tolerance is only taken when the Cash Receipt Journal line has Document Type set to Payment; otherwise no tolerance warning appears and no tolerance GL entry posts.",
   "key_points": [
     "Payment tolerance settings are configured in General Ledger Setup using a percentage of invoice value with a maximum limit",
     "Cash receipt journal entries must have Payment as the document type for payment tolerance to apply automatically",

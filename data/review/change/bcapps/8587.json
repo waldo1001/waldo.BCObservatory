@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8587",
+  "input_hash": "7765e168b78c76f6b36a272f72e5c272871f17bd480164037928b9f48795f5cf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:36.597Z",
+  "issues": [
+    "The first key point gets the bind purpose wrong. Binding the codeunit makes the pricing engine use the Shop's currency, VAT and discount settings. It does not apply the partner's own logic."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018454,
+    "changes_in_call": 6
+  }
+}

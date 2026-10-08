@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10084",
+  "input_hash": "c33d7143191c0f8bb9bbd66ce7348602060e9fd437657962e3545811a72c05e2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:45.030Z",
+  "issues": [
+    "The PR fixes a work item: the agent could not edit a field that already existed because the field was hidden. That makes this a fix rather than a feature."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015865,
+    "changes_in_call": 6
+  }
+}

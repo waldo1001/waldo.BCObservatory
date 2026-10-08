@@ -6,12 +6,12 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Purchase invoice lines of G/L Account type now correctly recalculate VAT-related amounts when enabling prices including VAT and changing the VAT product posting group.",
+  "summary": "Adjusts Purchase Line handling for G/L Account purchase invoice lines with Prices Including VAT enabled, where changing the VAT Prod. Posting Group caused Direct Unit Cost Incl. VAT and Line Amount to be recalculated. Related tests were updated.",
   "key_points": [
-    "Fixed incorrect recalculation of Direct Unit Cost and Line Amount when VAT settings change on G/L Account purchase lines",
-    "Addresses issue AB#649415 where prices including VAT flag interaction with VAT posting group changes caused calculation errors",
-    "Changes applied across all localization layers and includes test adjustments",
-    "Small code modifications to Purchase Line table logic"
+    "Targets G/L Account purchase lines with Prices Including VAT when the VAT Prod. Posting Group changes",
+    "One-line change in the Purchase Line table in every localization layer",
+    "Prices Incl. VAT document tests adjusted in W1 and ES",
+    "Linked to work item AB#649415 and related to bug 632380"
   ],
   "change_kind": "fix",
   "behavior_change": true,

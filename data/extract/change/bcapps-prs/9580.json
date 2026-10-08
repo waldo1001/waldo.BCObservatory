@@ -11,11 +11,11 @@
   ],
   "summary": "Manufacturing report action tooltips are moved from page actions to report objects themselves, allowing tooltips to be defined once and inherited across all pages that invoke the reports.",
   "key_points": [
-    "Tooltips for 7 manufacturing reports (Capacity Task List, Inventory Valuation - WIP, Prod. Order - Shortage List, Production Order Statistics, Quantity Explosion of BOM, Subcontractor - Dispatch List, Where-Used Top Level) moved from pages to reports",
-    "Leverages the 2025 release wave 1 feature where running objects in actions defaults to UI descriptors on target object",
-    "Duplicate tooltip entries removed from 15 pages and role centers across W1 and IT layers",
-    "Completes the manufacturing area migration with 0 remaining items to classify",
-    "No behavior change, metadata-only refactoring"
+    "ToolTips for 7 Manufacturing reports now live on the report objects instead of the page actions that run them",
+    "Page actions inherit the report tooltip via the 2025 release wave 1 UI descriptor defaulting feature",
+    "Duplicate action tooltips removed from 15 W1 pages and role centers plus 5 IT layer forks",
+    "Completes the Manufacturing area, with 0 remaining reported by classify",
+    "Metadata-only, tooltip-only change"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

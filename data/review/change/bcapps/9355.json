@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9355",
+  "input_hash": "da631e4b27cdc2c9549f2aee7d5f576c08d87a6b1e2305b824b0ab7d42ccfaf8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.615Z",
+  "issues": [
+    "The key point claiming no new dependencies is not supported by the input; it is an inference.",
+    "The codeunit is ExportFacturXDocument, and the PR references two work items (AB#442216 and AB#642156), not only one."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02123,
+    "changes_in_call": 6
+  }
+}

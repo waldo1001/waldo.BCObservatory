@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13391",
+  "input_hash": "689fca1948e64b534c2baffcadd4d9e9acc7149643e8f01cb4a91cdbb411e109",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:55.282Z",
+  "issues": [
+    "The post covers MCP clients such as Claude Desktop and Cursor, not Copilot, so the copilot system tag is not supported.",
+    "The rest matches the post, and both quotes are accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031996,
+    "posts_in_call": 4
+  }
+}

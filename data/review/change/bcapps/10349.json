@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10349",
+  "input_hash": "784296b3a41461d03fa1773e2130b38d7646aebfda1c118d1203ec9441ebf73b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:55.565Z",
+  "issues": [
+    "The key point saying the tables gained registration number fields goes beyond what was given. The files show that the E-Document, vendor and Company Information tables and pages were extended, but not what those fields hold."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017657,
+    "changes_in_call": 6
+  }
+}

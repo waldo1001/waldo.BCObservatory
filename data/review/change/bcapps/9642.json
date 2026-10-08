@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9642",
+  "input_hash": "a41c95893f5774df1324d61e643a6f4ecfd26e947c55a48be0acab0ccce78ed0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:13.688Z",
+  "issues": [
+    "Summary and key points are supported.",
+    "The obsoletions list is empty, but the PR obsoletes FindEDocumentService and OnAfterFindEDocumentService in both export codeunits. This edit format cannot add them."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018552,
+    "changes_in_call": 6
+  }
+}

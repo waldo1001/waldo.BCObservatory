@@ -8,11 +8,10 @@
   ],
   "summary": "An integration event was added to the ReturnSalesDocTypeString procedure in report 1701 so that extensions can override the document type text shown in the Deferral Summary - Sales report.",
   "key_points": [
-    "New IsHandled-style event allows subscribers to replace hardcoded document type text",
-    "Procedure is local with case statement mapping each type to text",
-    "Default behavior unchanged when no subscriber handles the event",
-    "Named return parameter added for clean event override capability",
-    "Fixes issue AB#639936"
+    "New IsHandled-style integration event added to ReturnSalesDocTypeString in report 1701",
+    "Subscribers can replace the hardcoded document type text the report shows",
+    "Procedure now uses a named return value so the event can set the result",
+    "Default output unchanged when no subscriber handles the event"
   ],
   "change_kind": "feature",
   "behavior_change": false,

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9362",
+  "input_hash": "42d60ec28a3afe3a817883882ccd6c18679b3c596b605175b914fa4b88115188",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:08.512Z",
+  "issues": [
+    "The Finnish report fields are now populated only when the FIVATVIESDeclaration feature is enabled, and the shared W1, BE and SE layouts gain new fields. That is a behavior change, so behavior_change is now true.",
+    "Key points otherwise match the description."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023224,
+    "changes_in_call": 6
+  }
+}

@@ -6,15 +6,15 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The default pricing calculation implementation was updated with a minor code cleanup that removes 4 lines from the Price Calculation Management codeunit.",
+  "summary": "The default pricing implementation in codeunit 7001 Price Calculation Mgt. was updated for v30 by removing 4 lines. The PR is linked as a fix for work item AB#651521; the description does not explain the exact effect.",
   "key_points": [
-    "Removed 4 lines of code from Price Calculation Management",
-    "Updates default pricing implementation for Business Central v.30",
-    "No functional behavior change, only cleanup",
-    "Addresses defect AB#651521"
+    "Removes 4 lines from codeunit 7001 Price Calculation Mgt.",
+    "Updates the default pricing implementation on main (BC30)",
+    "Linked as a fix for work item AB#651521",
+    "No tests were added"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

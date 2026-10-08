@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9005",
+  "input_hash": "54e091534a576b21514dc5d3ac5ad039f3d77bef177eeb64142c8e52b0454246",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:20.864Z",
+  "issues": [
+    "Key point 4 says the fix covers all regional layers, but the input only lists W1, APAC, CH, ES, IT and RU. Reworded to drop 'all'."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

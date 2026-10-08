@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Transfers of WIP items configured on production routings are now preserved when production orders are created from the Planning Worksheet, maintaining the connection between planning and production orders.",
+  "summary": "The Transfer WIP Item setting and transfer descriptions from routing lines are now kept on Planning Routing Lines and carried through Planning Worksheet carry-out to production order routing lines. Previously they were lost when production orders were created from the Planning Worksheet.",
   "key_points": [
     "Transfer WIP Item and transfer descriptions are now stored on planning routing lines",
     "Values are propagated from routing lines through Planning Worksheet carry-out to production order routing lines",

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11115",
+  "input_hash": "14458f96b2503c5356fc3387d8282b8e3e728742f8df2de0d4441978fce8cf1e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:11.196Z",
+  "issues": [
+    "The key point about RequestFilterFields was vague. The description says the dimension filters were missing from RequestFilterFields, and each report changes one line, so the point should say the reports now expose the global dimension filters.",
+    "The by-period and prev-year reports are out of scope. The page does not claim otherwise."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020139,
+    "changes_in_call": 6
+  }
+}

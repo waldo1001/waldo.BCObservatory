@@ -8,10 +8,10 @@
   ],
   "summary": "The Last Name field is now visible and editable on the Employee Relatives page, allowing users to view and modify employee relative information.",
   "key_points": [
-    "Added the missing Last Name field to the Employee Relatives page layout",
-    "The field was present in the underlying table but not exposed in the UI",
-    "Added automated tests to verify the field can be edited and saved",
-    "Fixes the issue where users could not access the last name field due to profile customization"
+    "Last Name field added to the Employee Relatives page in W1 and ES",
+    "The field already existed in the Employee Relative table but was not on the page",
+    "Small changes to the Employee Relative table in W1 and ES",
+    "UI tests added in W1, CZ, ES and RU to check the value can be edited and saved"
   ],
   "change_kind": "fix",
   "behavior_change": true,

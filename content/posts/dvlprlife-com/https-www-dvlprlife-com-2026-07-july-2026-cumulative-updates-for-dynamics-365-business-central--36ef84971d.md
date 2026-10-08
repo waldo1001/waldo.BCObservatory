@@ -13,12 +13,12 @@ tags:
   - compatibility
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:29.905Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -71,7 +71,6 @@ code_objects_mentioned: []
 systems:
   - platform
   - administration
-  - integration
 versions_mentioned:
   - "28.3"
   - "27.9"
@@ -93,7 +92,7 @@ preview:
 
 # July 2026 Cumulative Updates for Dynamics 365 Business Central
 
-[Read the post](https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-07-09 · 139 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-07-09 · 139 words · tier community · reviewed (checked by Opus)
 
 > July 2026 cumulative updates are available for Dynamics 365 Business Central across multiple release waves (28.3, 27.9, and 26.15). Online customers will be automatically upgraded to version 28.3 and should verify compatibility with customizations before applying updates.
 

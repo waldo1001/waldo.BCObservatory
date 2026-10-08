@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/8771",
+  "input_hash": "ea8b4eac48ddb1fe101d6e58ce1585755c23d0d3347345af787adcebbe2d104f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:03.158Z",
+  "issues": [
+    "behavior_change should be false: the change only adds an event, and the default path is unchanged when no subscriber handles it.",
+    "Summary and key point overstated it as resolving the security-filter issue. The event only lets partners work around it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02633,
+    "changes_in_call": 6
+  }
+}

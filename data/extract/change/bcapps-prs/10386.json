@@ -8,11 +8,11 @@
   ],
   "summary": "Archived custom agents can now be viewed for auditing but are protected from modification across all authoring surfaces, blocking direct changes and closing persistence gaps in the agent card and instruction history.",
   "key_points": [
-    "Archived agents are now read-only in the configure agent page with Update action disabled",
-    "Test agent page blocks archived agents with an error instead of opening, since the same information is available elsewhere",
-    "Fixed two persistence gaps: instruction drill-down from agent card now opens read-only, and instruction history rename no longer modifies archived agents",
-    "All modifications are conditional on archived state, so non-archived agents and failed lookups remain unaffected",
-    "No schema, permission, or upgrade impact; changes are isolated to the Agent Design Experience app"
+    "Archived agents are read-only on the configure agent page, with Update disabled",
+    "The test agent page shows an error for archived agents instead of opening, because the same information is available elsewhere",
+    "Closes two persistence gaps: the instruction drill-down from the agent card now opens read-only, and renaming a version in instruction history is guarded",
+    "Test agent and Customize profile actions are disabled, and Set as current instructions is disabled in instruction history",
+    "Every guard depends on the archived substate and treats the agent as not archived if the lookup fails, so working agents stay unaffected"
   ],
   "change_kind": "feature",
   "behavior_change": true,

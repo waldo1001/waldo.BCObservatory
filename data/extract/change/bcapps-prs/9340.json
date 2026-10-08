@@ -6,16 +6,15 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "The OnAfterGLFinishPosting event in the Gen. Jnl.-Post Line codeunit now includes a NextVATEntryNo variable parameter, allowing event subscribers to access the next VAT entry number during posting.",
+  "summary": "The OnAfterGLFinishPosting event in codeunit 12 \"Gen. Jnl.-Post Line\" now passes NextVATEntryNo as a var parameter. Subscribers can read and change the next VAT entry number after G/L posting finishes. The change is made in every localization layer.",
   "key_points": [
-    "Added NextVATEntryNo variable to OnAfterGLFinishPosting event",
-    "Change applied across all localization layers (W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU)",
-    "Enables event subscribers to reference the next VAT entry number",
-    "Small code change replicated consistently across regional variants"
+    "OnAfterGLFinishPosting now exposes NextVATEntryNo as a var parameter",
+    "Applied to Gen. Jnl.-Post Line in the W1, APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Subscribers can read or change the next VAT entry number"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
-  "breaking": true,
+  "behavior_change": false,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "finance"

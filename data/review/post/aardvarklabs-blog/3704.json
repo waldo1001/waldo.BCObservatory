@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3704",
+  "input_hash": "661eee899ec848a87aa51dbe4d73c53f0c86b3782176be056ca8df0feb0ef015",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:54:29.905Z",
+  "issues": [
+    "Summary, key points, objects and the quote are all supported by the post.",
+    "The API page and the Report Layouts page extension use loose type labels (api, other), but the names are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037157,
+    "posts_in_call": 4
+  }
+}

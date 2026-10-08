@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/12196",
+  "input_hash": "1e9dda5a3d7dc8cffb86c73e8cc778897a1928890b620437f470c8372afd3f9a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.370Z",
+  "issues": [
+    "Summary and points match the description and the two changed pages plus tests.",
+    "Fix classification and behavior change flag are appropriate."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040221,
+    "changes_in_call": 6
+  }
+}

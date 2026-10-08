@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2334",
+  "input_hash": "12e530b32ca873a5d8e8d9e9d19b1ab5188b9c46f502b0ac9abd213578e4783f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:29.855Z",
+  "issues": [
+    "Accurate. The one-line helper change removes the underscore-to-dash replacement, tests and release notes were added, and the quote comes from the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024712,
+    "changes_in_call": 6
+  }
+}

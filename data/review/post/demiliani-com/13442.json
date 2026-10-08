@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/demiliani-com/13442",
+  "input_hash": "99c73735930628d3bf328fea189efb7403912ce5a92034dc0496fd33ba4fe4ac",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:56:34.347Z",
+  "issues": [
+    "The command, settings and version claim all match the post.",
+    "Quote 2 keeps the original typo, but it is verbatim from the post."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03807,
+    "posts_in_call": 4
+  }
+}

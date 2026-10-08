@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10253",
+  "input_hash": "75ccbf874d81bda0f23e48fb336de4bf44d68dc976a2ab525d7430cf71aab255",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:36.501Z",
+  "issues": [
+    "The page misreads the change. The description cites platform bug 646707 to explain why ShowCanCreateAgent can be called after a Commit in third-party code. The actual change makes sure computing ShowCanCreateAgent starts no write transaction.",
+    "The key point saying ShowCanCreateAgent is now called after Commit is wrong, and nothing given supports the claim that the change aligns with platform-side changes."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019276,
+    "changes_in_call": 6
+  }
+}

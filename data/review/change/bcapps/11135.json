@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11135",
+  "input_hash": "9c5ae0a1efd3b10f4df90abf4ae0f903305ac2b8aca19a03520f97dd5ced9c37",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.491Z",
+  "issues": [
+    "Key point 4 says dimension validation caused the reset. The description says validating the No. field reset the dimensions to item or account defaults."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013535,
+    "changes_in_call": 6
+  }
+}

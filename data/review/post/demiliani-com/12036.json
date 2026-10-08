@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/12036",
+  "input_hash": "48a4073c342b414acfc02028bbe65a86fb8417965574096fe4fc211ee15226d7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:00:19.047Z",
+  "issues": [
+    "All four objects are named in the post.",
+    "Quotes match the post; the third differs only in trailing punctuation.",
+    "Summary and key points reflect the author's proposals about the Description property and OpenAPI support."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034071,
+    "posts_in_call": 4
+  }
+}

@@ -5,13 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2025-08-15T08:51:00.000Z",
   "words": 460,
-  "summary": "Azure Logic Apps offer two versions of the Azure Blob Storage Connector: built-in connectors that run natively in the Logic Apps runtime, and managed connectors deployed in Azure. The built-in version processes all existing blobs on first execution then new/updated files, while the managed version ignores existing files and only works in root folders, affecting workflow behavior and security when virtual networks are involved.",
-  "key_points": [
-    "Built-in connectors execute directly within Azure Logic Apps runtime while managed connectors are hosted in Azure and run on shared clusters",
-    "Azure Blob Storage built-in connector processes existing blobs first, then subsequent new/modified files; managed connector ignores existing files and subfolders",
-    "When using virtual networks, managed connectors execute outside the VNet on shared clusters while built-in connectors run within the same VNet as the Logic App",
-    "Selecting the wrong connector type can cause unexpected problems when moving workflows between Consumption and Standard Logic App plans"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "integration"
   ],

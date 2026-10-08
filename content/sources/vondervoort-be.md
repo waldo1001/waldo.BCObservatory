@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cfb43d1e73fcdd25b780b4856c0a9f73b64f394342935092beb003f9c7a43d65
@@ -57,8 +57,6 @@ footprint:
       weight: 3
     - id: copilot
       weight: 2
-    - id: sales
-      weight: 1
     - id: warehouse
       weight: 1
   topics:
@@ -102,8 +100,8 @@ last_item: "2026-09-06"
 | platform (5) | al development (2) |  |
 | integration (3) | al language (2) |  |
 | copilot (2) | code analysis (2) |  |
-| sales (1) | copilot (2) |  |
-| warehouse (1) | linting (2) |  |
+| warehouse (1) | copilot (2) |  |
+|  | linting (2) |  |
 |  | agentic ai (1) |  |
 |  | ai integration (1) |  |
 |  | ai pair programming (1) |  |

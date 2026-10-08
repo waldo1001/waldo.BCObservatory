@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12118",
+  "input_hash": "cbb0103904fa3c7729080285c9ab0f3da66a61c5d3d9ceeddf21669e3150d564",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:14.709Z",
+  "issues": [
+    "The page matches the description: Email Inbox was added to the record reference adapter with indirect read, a per-company upgrade tag registers the table, and new tests were added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023383,
+    "changes_in_call": 6
+  }
+}

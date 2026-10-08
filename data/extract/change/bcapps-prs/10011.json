@@ -9,11 +9,11 @@
   ],
   "summary": "Credit memo posting now skips unnecessary table lookups when source keys are empty, improving performance for both purchase and sales credit memos without changing functional behavior.",
   "key_points": [
-    "Purch. Cr. Memo Line avoids full-key scans when Order No. is empty",
-    "Sales Cr.Memo Line exits early when Applies-to Doc. No. is empty",
-    "Prevents broad table scans during credit memo posting operations",
-    "Performance optimization maintains existing functional behavior",
-    "Applied across all localization layers"
+    "Purch. Cr. Memo Line only runs the Purch. Inv. Line lookup when Order No. is filled in",
+    "Sales Cr.Memo Line exits early when the header's Applies-to Doc. No. is empty",
+    "Avoids broad table scans during credit memo posting and related lookups",
+    "Functional behavior is unchanged",
+    "Applied in W1 and several country layers"
   ],
   "change_kind": "performance",
   "behavior_change": false,

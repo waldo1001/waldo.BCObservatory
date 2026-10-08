@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Inventory Profile Offsetting codeunit now correctly handles reservation entries when deleting project planning lines, resolving an issue that prevented deletion of planning lines with reservation data.",
+  "summary": "Fixes a bug where a Project Planning Line could not be deleted because incorrect reservation entries existed. The fix is in the Inventory Profile Offsetting codeunit, which is used for planning, and a test was added for the scenario.",
   "key_points": [
-    "Corrects reservation entry handling in the Inventory Profile Offsetting logic",
-    "Allows project planning lines to be deleted without obstruction",
-    "Bug fix in the base application's inventory tracking system",
-    "Includes comprehensive test coverage for the scenario"
+    "Changes reservation handling in codeunit Inventory Profile Offsetting",
+    "Addresses incorrect reservation entries that blocked deleting project planning lines",
+    "Adds a regression test to the SCM planning tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

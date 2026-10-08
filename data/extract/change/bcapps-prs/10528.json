@@ -8,13 +8,13 @@
     "platform",
     "inventory"
   ],
-  "summary": "Receipt on invoice tracking can now be configured at the purchase order line level instead of just header level, with vendor-level defaults that cascade to new purchase lines.",
+  "summary": "Receipt on invoice can now be set per purchase order line, not just per purchase order. Lines inherit the value from the header, which in turn inherits from a new vendor-level setting.",
   "key_points": [
-    "Adds receipt on invoice control per purchase order line via new field in Purchase Line",
-    "Introduces vendor-level receipt on invoice default setting in Vendor table",
-    "Purchase lines inherit receipt on invoice from header or vendor configuration",
-    "Column is hidden by default under personalization in Purchase Order page",
-    "Includes upgrade logic to migrate existing header-level settings"
+    "Adds a receipt on invoice setting per purchase order line",
+    "Introduces a vendor-level receipt on invoice setting shown on the Vendor Card",
+    "Lines inherit from the purchase header, which inherits from the vendor",
+    "New line column is hidden by default under personalization on the purchase order page",
+    "Upgrade code and upgrade tags added alongside the new fields"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -8,7 +8,7 @@
     "purchasing",
     "platform"
   ],
-  "summary": "Line type captions in sales and purchase documents can now display up to 30 characters instead of 20, supporting longer localized text like French allocation account names without formatting failures.",
+  "summary": "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters, such as the French allocation account caption. A new FormatTypeAsText() returning Text[30] replaces FormatType(): Text[20], which stays as an obsolete wrapper.",
   "key_points": [
     "Added FormatTypeAsText() method returning Text[30] to sales, purchase, and standard line tables",
     "Updated UI and lookup paths to use the new 30-character formatting method",
@@ -16,9 +16,9 @@
     "Introduced new Text[30] events for subscribers needing wider output capacity",
     "Added regression tests covering long localized captions and legacy event precedence"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "Purchase Line",
@@ -27,26 +27,6 @@
     },
     {
       "object": "Sales Line",
-      "member": "FormatType",
-      "replacement": "FormatTypeAsText"
-    },
-    {
-      "object": "Purch. Inv. Line",
-      "member": "FormatType",
-      "replacement": "FormatTypeAsText"
-    },
-    {
-      "object": "Purch. Cr. Memo Line",
-      "member": "FormatType",
-      "replacement": "FormatTypeAsText"
-    },
-    {
-      "object": "Sales Invoice Line",
-      "member": "FormatType",
-      "replacement": "FormatTypeAsText"
-    },
-    {
-      "object": "Sales Cr.Memo Line",
       "member": "FormatType",
       "replacement": "FormatTypeAsText"
     }

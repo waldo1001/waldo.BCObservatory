@@ -8,13 +8,13 @@
     "development",
     "platform"
   ],
-  "summary": "The spend request report layout was backported to address a platform issue affecting the report's rendering, along with data classification updates on the user ID field.",
+  "summary": "Backports to 29.x the Spend Request Document report layout and data classification on a user ID field. The spend request table, card, list and report objects change, along with Expense Agent subscribers and tests. The description notes that the report is still affected by a platform issue.",
   "key_points": [
-    "Report layout for spend request document updated with a new Word template",
-    "Data classification added to user ID field in spend request table",
-    "Page layouts enhanced for spend request card and list views",
-    "Privacy subscription adjustments for expense agent module",
-    "Test updates to reflect layout and data classification changes"
+    "Spend Request Document report and its Word layout updated as a backport",
+    "Data classification set on a user ID field",
+    "Spend Request table, card, list, subform and status enum modified",
+    "Expense Agent privacy and event subscribers adjusted",
+    "Spend request tests updated"
   ],
   "change_kind": "fix",
   "behavior_change": true,

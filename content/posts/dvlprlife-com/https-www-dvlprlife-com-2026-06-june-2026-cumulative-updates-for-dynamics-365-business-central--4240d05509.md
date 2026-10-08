@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509
 type: post
 title: June 2026 Cumulative Updates for Dynamics 365 Business Central
-summary: June 2026 cumulative updates for Dynamics 365 Business Central are released across multiple versions (28.2, 27.8, 26.14, and 25.18). Online customers will be automatically upgraded to version 28.2 over the coming days or weeks, while on-premises customers can download updates directly and should verify compatibility with their customizations before applying.
+summary: "Roundup of the June 2026 cumulative update links for Business Central on-premises: 28.2, 27.8 and 26.14 are June releases, while the listed 2024 Wave 2 update 25.18 is dated April 2026. Online tenants move to 28.2 automatically over days or weeks with an email notice, and readers should check readiness and compatibility of their modifications with a partner before applying updates."
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - on-premises deployment
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:57.218Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -94,16 +94,17 @@ preview:
 
 # June 2026 Cumulative Updates for Dynamics 365 Business Central
 
-[Read the post](https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-06-08 · 152 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/) · DvlprLife (Brad Prendergast) · 2026-06-08 · 152 words · tier community · reviewed (checked by Opus)
 
-> June 2026 cumulative updates for Dynamics 365 Business Central are released across multiple versions (28.2, 27.8, 26.14, and 25.18). Online customers will be automatically upgraded to version 28.2 over the coming days or weeks, while on-premises customers can download updates directly and should verify compatibility with their customizations before applying.
+> Roundup of the June 2026 cumulative update links for Business Central on-premises: 28.2, 27.8 and 26.14 are June releases, while the listed 2024 Wave 2 update 25.18 is dated April 2026. Online tenants move to 28.2 automatically over days or weeks with an email notice, and readers should check readiness and compatibility of their modifications with a partner before applying updates.
 
 ## Key points
 
-- Four cumulative updates released for different release waves: 2026 Wave 1 (28.2), 2025 Wave 2 (27.8), 2025 Wave 1 (26.14), and 2024 Wave 2 (25.18)
-- Online customers receive automatic upgrade to version 28.2 with email notification
-- Organizations should confirm readiness and compatibility with customizations before upgrading
-- Work with a Microsoft Partner to assess upgrade needs and compatibility
+- Links are given for 2026 Wave 1 (28.2), 2025 Wave 2 (27.8) and 2025 Wave 1 (26.14), all dated June 2026
+- The 2024 Wave 2 entry is 25.18, dated April 2026
+- Online customers are upgraded to 28.2 automatically and notified by email
+- Confirm readiness and compatibility of modifications, ideally with a Microsoft Partner, before applying
+- Older updates can be found in the cumulative updates archive
 
 ## Quotes
 

@@ -7,10 +7,11 @@
   "words": 553,
   "summary": "The Microsoft Learn Docs MCP server enables developers to access real-time official Microsoft documentation within GitHub Copilot and IDEs in agent mode. It provides accurate, up-to-date information during Business Central development by connecting AI tools directly to Microsoft Learn.",
   "key_points": [
-    "MCP server connects AI assistants to official Microsoft Learn documentation via https://learn.microsoft.com/api/mcp endpoint",
-    "Activate Copilot in agent mode to access the microsoft_docs_search tool in VS Code, Visual Studio, and other IDEs",
-    "Configure by updating mcp.json with the Microsoft Docs MCP server URL",
-    "Delivers precise answers based on current documentation rather than relying on training cutoff dates"
+    "The Microsoft Learn Docs MCP server lets AI assistants search and retrieve official Microsoft documentation through the endpoint https://learn.microsoft.com/api/mcp",
+    "In VS Code it is enabled by adding a server entry with that URL to mcp.json",
+    "Once Copilot runs in agent mode, the microsoft_docs_search tool becomes available",
+    "An example prompt asks how to query the Business Central catalog for business event definitions",
+    "Coverage is planned to grow to more Microsoft documentation sources with better query understanding"
   ],
   "systems": [
     "development",

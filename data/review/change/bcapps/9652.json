@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9652",
+  "input_hash": "8a5498327287aaea084eda80ea97076440d282884eb52c15fdad96a8bff8ab5b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:31.052Z",
+  "issues": [
+    "The new event is guarded by IsHandled, which starts as false, so the report behaves as before unless an extension subscribes. behavior_change should be false.",
+    "The report exists only in the ES localization layer. The summary now says so."
+  ],
+  "applied": [
+    "summary rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017925,
+    "changes_in_call": 6
+  }
+}

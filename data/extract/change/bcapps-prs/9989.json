@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Sales Order Agent now skips the Item Selector dialog for exact item matches without variants, reducing latency and token usage while preserving the selector for items with variants or broader search results.",
+  "summary": "The Sales Order Agent no longer calls the Item Selector when an exact item search returns exactly one item and that item has no variants. This cuts latency and token use. Items with variants and standard or broader searches still go through the Item Selector.",
   "key_points": [
     "Item Selector is bypassed only for exact single matches without variants",
     "Items with variants continue using Item Selector as before",

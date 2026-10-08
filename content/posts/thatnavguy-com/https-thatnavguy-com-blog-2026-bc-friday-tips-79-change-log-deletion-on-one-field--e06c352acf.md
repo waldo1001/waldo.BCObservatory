@@ -13,12 +13,12 @@ tags:
   - performance optimization
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:18.053Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,7 +85,7 @@ preview:
 
 # BC Friday Tips #79 Change Log Deletion on One Field
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-14 · 113 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-79-change-log-deletion-on-one-field/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-08-14 · 113 words · tier community · reviewed (checked by Opus)
 
 > Enabling deletion logging on a single primary key field is sufficient to track who deleted a record in Business Central, avoiding unnecessary duplicate Change Log entries. This approach keeps the change log smaller and easier to review.
 

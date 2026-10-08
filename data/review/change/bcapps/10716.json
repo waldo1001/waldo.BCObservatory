@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10716",
+  "input_hash": "6cb656d3d0de43df15f1ef52c5a0eb44630e6acc8620ca8c04132524f16c6b6e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:43.037Z",
+  "issues": [
+    "The description has only the title, so the key points that explain how Order Planning Mgt. and Sales Line-Planning were changed are guesses.",
+    "Replaced them with points grounded in the title and the changed files."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016551,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/10251",
+  "input_hash": "7b134da86de8f3f4197456b370f90a9adc9f56d9c7cbd7749bbde8ec250da14b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:11.545Z",
+  "issues": [
+    "The F&unctions group was not removed. Only its Visible = false was dropped, which makes the promoted action reachable again.",
+    "Nine deferred rules are listed, not seven.",
+    "Making the hidden group visible on the ES Account Schedule Names page is a user-visible change, so behavior_change should be true."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020162,
+    "changes_in_call": 6
+  }
+}

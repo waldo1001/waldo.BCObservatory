@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Subscription contract renewal detection was optimized to eliminate O(N²) algorithmic complexity that consumed approximately 28 percent of batch posting CPU time.",
+  "summary": "Contract renewal detection in the Subscription Billing Sales-Post subscribers was reworked to remove O(N²) behavior. Before the fix, this check took about 28% of batch posting CPU.",
   "key_points": [
-    "Removed inefficient algorithm causing quadratic time complexity during contract renewal detection",
-    "Improves performance of sales posting operations in Subscription Billing module",
-    "Reduces CPU consumption during batch posting by approximately 28 percent",
-    "Refactored contract renewal subscriber logic"
+    "Contract renewal detection in the Sales-Post subscribers no longer scales quadratically",
+    "The old check took about 28% of batch posting CPU",
+    "The change is limited to codeunit 8001 Sub. Contr. Renewal Subcribers",
+    "Intended to speed up sales posting when Subscription Billing is used"
   ],
   "change_kind": "performance",
   "behavior_change": false,

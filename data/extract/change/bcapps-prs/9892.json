@@ -9,11 +9,11 @@
   ],
   "summary": "Subcontracting app object IDs are renumbered to avoid conflicts with partner-reserved ranges, affecting codeunits, tables, pages, and other objects throughout the app.",
   "key_points": [
-    "All Subcontracting app object IDs shifted to prevent collisions with partner ID ranges",
-    "178 files modified across manufacturing, master data, purchasing, and other modules",
-    "Object numbering updated consistently for all extensions, pages, and codeunits",
+    "Subcontracting app object IDs renumbered to avoid clashing with the partner ID range",
+    "Port of PR #9891 to main",
     "Quality Management dependency range updated",
-    "No behavioral changes to functionality, pure ID restructuring"
+    "New upgrade codeunit and upgrade tag added alongside install code changes",
+    "Renumbering touches codeunits, tables, table and page extensions, enums, reports and permission sets"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

@@ -16,12 +16,12 @@ tags:
   - development tools
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:26.425Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -70,12 +70,10 @@ quotes:
     why_it_matters: "Demonstrates the core value: eliminating the 15-30 minute container startup time that slows down development cycles."
   - text: AL Runner is a pure CLI tool - cross-platform, no GUI, machine-readable output. That makes it a natural fit for coding agents.
     why_it_matters: Shows how the design intentionally supports AI agent integration for automated test-driven development workflows.
-code_objects_mentioned:
-  - codeunit Test codeunits
+code_objects_mentioned: []
 systems:
   - development
   - platform
-  - administration
 versions_mentioned:
   - BC 26
   - BC 27
@@ -94,7 +92,7 @@ preview:
 
 # AL Runner: Run AL Unit Tests Without a BC Service Tier
 
-[Read the post](https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/) · Stefan Maron (Stefan Maron, MVP) · 2026-04-24 · 2128 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/) · Stefan Maron (Stefan Maron, MVP) · 2026-04-24 · 2128 words · tier community · reviewed (checked by Opus)
 
 > AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests in-memory without a BC service tier, Docker, or SQL Server, completing test runs in seconds instead of 20-30 minutes. It uses the BC compiler's public API to convert AL objects to C#, rewrites runtime types with mocks, and compiles everything with Roslyn for fast local testing.
 
@@ -110,14 +108,6 @@ preview:
 
 - "AL Runner drops that overhead entirely. Transpilation, in-memory compilation, and test execution all happen in seconds." (Demonstrates the core value: eliminating the 15-30 minute container startup time that slows down development cycles.)
 - "AL Runner is a pure CLI tool - cross-platform, no GUI, machine-readable output. That makes it a natural fit for coding agents." (Shows how the design intentionally supports AI agent integration for automated test-driven development workflows.)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- codeunit "Test codeunits"
-
-Not found in BC28-30: codeunit "Test codeunits".
 
 ## Context
 

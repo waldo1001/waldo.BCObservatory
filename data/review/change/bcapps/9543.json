@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9543",
+  "input_hash": "dad8c5302bd94d5a6707e8446f61588c5b26f9475e57546aca7076661a1a4336",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:40.148Z",
+  "issues": [
+    "Key point 4 reads as if the legacy fallback sits behind a flag named ReportingFrequencyEnabled. The description says only that a legacy quarterly fallback is feature-flagged and that this secret was created.",
+    "The key points leave out the Q2 boundary correction and the warning telemetry for an invalid flag configuration."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019112,
+    "changes_in_call": 6
+  }
+}

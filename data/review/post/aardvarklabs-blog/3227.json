@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3227",
+  "input_hash": "ea5ce1f0d78dff9f33d6c83522db58f89cf6c9efedf6c4104936e8eb223be052",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:47.943Z",
+  "issues": [
+    "This is a general essay about AI and team productivity. Business Central only appears once, as an example of something people build.",
+    "The post contains no Business Central functionality, AL objects or product features, so the page does not belong in a Business Central knowledge base.",
+    "Quote 2 changes the punctuation from the original, and the 60 to 81 percent figure comes from a summary of an external linked study."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028141,
+    "posts_in_call": 4
+  }
+}

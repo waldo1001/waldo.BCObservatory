@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37042",
+  "input_hash": "aaa7d0f343b2cedd800c89781cac2a3560931a53d1f2cecdc8218b90eb826dc1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:52.157Z",
+  "issues": [
+    "Key point claiming changes apply only to new users and not existing ones is not stated in the post.",
+    "Post also mentions controlling partner access through the Delegated Admin agent - Partner licence, which is missing from the key points."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026015,
+    "posts_in_call": 4
+  }
+}

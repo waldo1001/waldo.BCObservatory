@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10467",
+  "input_hash": "1ba9d9b5c41e515a27269e5decddb13c554fe81e4e39493d25f4c458d867f9fa",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:44.267Z",
+  "issues": [
+    "Summary and key points match the description: conflict check and stored hash exclude exchange lines, balancing Refund Account line skipped when exchange lines exist, two new tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01705,
+    "changes_in_call": 6
+  }
+}

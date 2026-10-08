@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10278",
+  "input_hash": "8d9de8b0e1ebb54b7364b46677416e37a6bdde2000f74016cde85e08887b411f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:08.512Z",
+  "issues": [
+    "Key point 2 merged two flows: comments go to purchase orders as attached blank lines, while eligible production-order attachments go to the related purchase line.",
+    "Breaking flag is supported: the Base App Document Attachment Details integration event gained a parameter and existing subscribers must be updated."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023224,
+    "changes_in_call": 6
+  }
+}

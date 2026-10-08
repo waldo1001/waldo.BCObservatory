@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14663",
+  "input_hash": "e01124c1b525c0df73393397c67c9e24e005b8c2c0fde9c86c5d1e27e91926be",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:10.625Z",
+  "issues": [
+    "The post only covers the Copilot memory tool in VS Code and its three scopes; it never mentions Business Central or AL.",
+    "Summary and key points match the post, but the subject is not Business Central."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031984,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9734",
+  "input_hash": "652bea91aa6bcc310f398888956b8039b35266fd73609c8f404bfeb4103ebc71",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:16.021Z",
+  "issues": [
+    "The description has only a work item link. Nothing given confirms that keys were added; the diff only shows 4 added lines per VAT Entry table file.",
+    "The change touches both CH and DACH layers, so describing it as only German is too narrow.",
+    "'No behavior changes for users or extensions' is not supported by anything given."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020238,
+    "changes_in_call": 6
+  }
+}

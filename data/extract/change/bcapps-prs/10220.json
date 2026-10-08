@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Calculate Inventory report now skips processing iterations when the Warehouse Entry table contains no records, improving performance for environments without warehouse functionality.",
+  "summary": "The Calculate Inventory report now skips its per-iteration Warehouse Entry processing when the Warehouse Entry table is completely empty. This avoids needless work in databases that have no warehouse entries.",
   "key_points": [
-    "Added early exit condition when Warehouse Entry table is empty",
-    "Prevents unnecessary iterations through the report processing loop",
-    "Reduces processing overhead in standard inventory counting scenarios",
-    "Applied to both base application layers"
+    "Added a check for an empty Warehouse Entry table in the Calculate Inventory report",
+    "When the table is empty, Warehouse Entry processing is skipped on each iteration",
+    "Applied to both the W1 and RU Base Application layers"
   ],
   "change_kind": "performance",
   "behavior_change": false,

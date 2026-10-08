@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2271",
+  "input_hash": "3a69bf976c07a63f7ffadfba9f490a8b098f7557a1e366e394b2cc88402be8b5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:53.591Z",
+  "issues": [
+    "A key point says the file must be renamed to .RDL, but the post also allows typing the full file path in the open dialog.",
+    "The rest of the page is supported: the Customer List example, the Tablix and expression details, and the comparison of Excel, Word and RDLC."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032602,
+    "posts_in_call": 4
+  }
+}

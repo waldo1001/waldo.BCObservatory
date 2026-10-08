@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9598",
+  "input_hash": "e4941187661e665218c2305eef036ce84d25dbd157309ebb16771a0fa1dd907d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.867Z",
+  "issues": [
+    "The new codeunit does not replace the obsolete OnBeforeOpenPageVATEntryTotaling event. Its replacement, OnRunVATEntriesOnAfterSetVATEntryFilters, could not be used because it lived in an internal codeunit, and that is what this PR addresses.",
+    "The summary wrongly suggests that this change breaks existing extensions. Moving events out of an internal codeunit makes them reachable from other apps."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020415,
+    "changes_in_call": 6
+  }
+}

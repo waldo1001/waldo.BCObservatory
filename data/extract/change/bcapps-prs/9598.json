@@ -4,13 +4,12 @@
   "title": "[main] bug 633618 - Add VAT Statement Calc. Events CZL codeunit and integrate with VAT Statement Calculation CZL",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "A new public codeunit provides VAT Statement calculation events for Czech localization, replacing an obsolete event that was inaccessible in an internal codeunit and breaking existing extensions.",
+  "summary": "The local events of the internal codeunit VAT Statement Calculation CZL were moved to a new codeunit, VAT Statement Calc. Events CZL. Other apps can now subscribe to them, including the event that replaces the obsolete OnBeforeOpenPageVATEntryTotaling.",
   "key_points": [
-    "New public codeunit 'VAT Statement Calc. Events CZL' exposes calculation events",
-    "Moves events from internal 'VAT Statement Calculation CZL' to make them accessible",
-    "Replaces obsolete event 'OnBeforeOpenPageVATEntryTotaling'",
-    "Fixes breaking change where new event was in internal codeunit",
-    "Updates permissions and page integration accordingly"
+    "New codeunit 11775 VAT Statement Calc. Events CZL holds the VAT statement calculation events",
+    "Events moved out of the internal VAT Statement Calculation CZL codeunit",
+    "Lets extensions use the replacement for the obsolete OnBeforeOpenPageVATEntryTotaling event",
+    "VAT Statement Preview Line CZL page and the CZ Core Pack permission set updated"
   ],
   "change_kind": "fix",
   "behavior_change": false,

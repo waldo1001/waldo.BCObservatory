@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-07-al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing--1510616044
 type: post
 title: "AL EventLens 0.1.6: the handler lens, and a fix that needed fixing"
-summary: AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.
+summary: AL EventLens 0.1.6 for VS Code adds a CodeLens over test handler functions that shows how many tests use each handler, or marks it unused, so dead handlers are easy to spot. The release also has ten fixes, mostly parser bugs that silently dropped or invented events, plus index, reveal and command palette fixes. It also describes how a review caught a regression introduced by one of those fixes.
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - event subscribers
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:12.946Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,16 +78,17 @@ preview:
 
 # AL EventLens 0.1.6: the handler lens, and a fix that needed fixing
 
-[Read the post](https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 740 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 740 words · tier community · reviewed (checked by Opus)
 
-> AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.
+> AL EventLens 0.1.6 for VS Code adds a CodeLens over test handler functions that shows how many tests use each handler, or marks it unused, so dead handlers are easy to spot. The release also has ten fixes, mostly parser bugs that silently dropped or invented events, plus index, reveal and command palette fixes. It also describes how a review caught a regression introduced by one of those fixes.
 
 ## Key points
 
-- Handler lens displays usage counts for MessageHandler, ConfirmHandler, PageHandler and other test handler functions, with clickable references
-- Identifies dead test code by showing unused handlers that accumulate when tests are deleted but their handlers remain
-- Parser fixes address critical issues where apostrophes, attribute names in strings, unclosed brackets, and quoted colons caused events to be dropped or invented
-- Automated differential testing found that a preprocessor directive fix inadvertently created a new bug where trailing comments could fabricate publishers
+- Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler, or marks them unused
+- Counting is scoped to the declaring test codeunit, so the lens needs no index and works as soon as a file opens; it has its own enable setting
+- Parser fixes cover apostrophes in directive text, attribute names inside strings, unclosed EventSubscriber attributes and quoted parameter names with colons
+- Non-parser fixes cover index loss on save, Reveal Subscriber selecting nothing, wrong cursor line and argument-only commands in the palette
+- A differential harness comparing old and new parsers found that the directive fix let trailing comments create fake publishers
 
 ## Quotes
 
@@ -95,7 +96,7 @@ preview:
 
 ## Context
 
-- Features: Handler CodeLens, Test handler usage tracking, Parser bug fixes, Unused handler detection, Subscriber reveal, Differential testing
+- Features: Handler CodeLens, Test handler usage tracking, Parser bug fixes, Unused handler detection, Subscriber reveal
 - Versions: 0.1.6
 
 Source: DvlprLife, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

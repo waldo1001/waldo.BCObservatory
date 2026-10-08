@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12231",
+  "input_hash": "0e4db5551e790f0a6fef60b5ee960f1a654675f7243be01f6728c49ac36667b5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:37.312Z",
+  "issues": [
+    "The summary claims the post links to cloud update resources. The post lists the latest update numbers and links only to on-premises update lists, so the summary was rewritten.",
+    "Key points, quotes and systems are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032019,
+    "posts_in_call": 4
+  }
+}

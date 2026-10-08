@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:37.084Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,8 +58,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts:
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -72,7 +71,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: a2f92bceaf479bc775b034d22d378cbefa3e722b436187aa4531b067299c5c74
@@ -108,11 +107,5 @@ Start with the overview page, which explains the required upgrade paths, interme
 - [Install a Business Central 2026 release wave 1 (version 28) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v28): This article describes the tasks required for getting the monthly version 28 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade to Business Central 2026 release wave 1 (version 28)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v28): Describes how to upgrade an unmodified Business Central version 25 and later to version 28
 - [Upgrading to Dynamics 365 Business Central 2026 release wave 1](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v28): Provides an overview of Business Central 2026 release wave 1 upgrade process.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central 2026 Release Wave 1 Installation Guide: Requirements, Prerequisites, and Setup Walkthrough](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5740395756527498087--f6c529e55c.md) (community post): "Business Central 2026 Release Wave 1 (BC28) installation requires Windows 11 or Windows Server"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

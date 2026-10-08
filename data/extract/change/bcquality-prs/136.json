@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Two community knowledge articles explain AL's lack of short-circuit evaluation for boolean operators and recommend using case statements as alternatives for complex condition chains.",
   "key_points": [
-    "AL boolean operators (and, or, xor) do not guarantee short-circuit evaluation, meaning all operands are evaluated regardless of the left operand's result",
-    "Demonstrates how this can cause silent bugs like accessing uninitialized records or array out-of-bounds conditions",
-    "Provides pattern for or conditions using early exit (if A then exit(true); exit(B);) instead of nested if rewrite",
-    "Recommends case true/false of statements as flatter alternative for condition chains longer than three nested if statements",
-    "Includes good and bad code examples for both boolean operator patterns and case statement usage"
+    "AL gives no short-circuit guarantee for and, or or xor, so guards should not rely on operand order",
+    "Shows silent bugs such as reading a field from a record Get did not load, or evaluating an out-of-range subscript",
+    "For or, use an early exit (if A then exit(true); exit(B);) rather than the nested if rewrite used for and",
+    "Recommends case true/false of as a flat alternative once a guard chain goes past about three nested ifs",
+    "Includes good and bad AL samples for both articles"
   ],
   "change_kind": "feature",
   "behavior_change": false,

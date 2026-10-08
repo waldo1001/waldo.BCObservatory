@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thinkaboutit-be/7852",
+  "input_hash": "a03547888f3d5c09d79a212764038042a26a54cb38316e88f68799a34d6e02a3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:36.115Z",
+  "issues": [
+    "The system 'copilot' is misleading: the post covers GitHub Copilot as a coding assistant, not Copilot features in Business Central.",
+    "The summary should mention the post's own note that it conflated two billing models and has a follow-up correction.",
+    "The multipliers and the quote match the post text."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021248,
+    "posts_in_call": 4
+  }
+}

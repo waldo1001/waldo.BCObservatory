@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9783",
+  "input_hash": "b7f606e2a194085d4f109b86de5234b9b42aefe658984499dbc1f9c54e2c6b02",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:40.148Z",
+  "issues": [
+    "The key point 'Preserves reservation integrity throughout the posting process' is not supported by the description.",
+    "Tests were added in SCMCostingPurchReturnsII and adjusted in SCMCostingBatch."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019112,
+    "changes_in_call": 6
+  }
+}

@@ -8,11 +8,11 @@
   ],
   "summary": "The UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations instead of row-by-row processing to backfill ParentId fields in Default Dimension records, significantly reducing upgrade runtime on large tables.",
   "key_points": [
-    "Replaces per-row Get and Modify operations with four set-based DataTransfer joins (Item, Customer, Vendor, Employee)",
-    "Scopes destination rows by Table ID and blank ParentId to prevent cross-matching between entity types",
-    "Preserves existing behavior while reducing SQL round-trips from millions to a single set-based operation",
-    "Applied consistently across all localization layers (W1, AT, BE, CH, IT, NL, NO, RU)",
-    "Audit fields are intentionally not restamped, consistent with other upgrade DataTransfer operations"
+    "Replaces per-row Get and Modify with four set-based DataTransfer joins (Item, Customer, Vendor, Employee)",
+    "Destination rows are filtered by Table ID and blank ParentId so entity types cannot cross-match",
+    "Behavior is preserved while upgrade runtime no longer grows with row count",
+    "Applied in the W1, AT, BE, CH, IT, NL, NO and RU upgrade codeunits",
+    "Audit fields are not restamped, consistent with the sibling DataTransfer steps"
   ],
   "change_kind": "performance",
   "behavior_change": false,

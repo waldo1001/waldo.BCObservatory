@@ -14,12 +14,12 @@ tags:
   - best practices
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:47.370Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -97,7 +97,7 @@ preview:
 
 # BC Friday Tips #68 Always Use Field Validation
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-03 · 124 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-68-always-use-field-validation/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-03 · 124 words · tier community · reviewed (checked by Opus)
 
 > Field validation in Business Central extensions ensures all business logic runs and prevents data corruption when other apps subscribe to validation events. Bypassing validation can create hidden bugs by skipping trigger logic even when fields appear correct.
 

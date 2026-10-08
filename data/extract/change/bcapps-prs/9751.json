@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Invoice Date is now extracted and populated in the purchase draft, and Due Date can be recovered from payment terms when not at the top level in electronic documents.",
+  "summary": "Invoice Date on the purchase draft is now filled from the extracted invoice date in both the ADI and MLLM readers. When the top-level due date is missing, the MLLM reader now takes the Due Date from payment_means.payment_due_date.",
   "key_points": [
     "Invoice Date field is mapped from extracted invoice date in both ADI and MLLM readers",
     "Due Date fallback added to check payment_means.payment_due_date when top level due date is missing",

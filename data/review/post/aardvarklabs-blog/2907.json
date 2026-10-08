@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2907",
+  "input_hash": "2ffa482b8c013879b6da1218753f95baf44135b6b57ab25c5f4be097b998cff8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:57:46.818Z",
+  "issues": [
+    "Pages, permission set, retry behavior and quotes all match the post.",
+    "Minor omission: the activity log also shows whether a 200 or 210 response came back, but this does not require a fix."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037561,
+    "posts_in_call": 4
+  }
+}

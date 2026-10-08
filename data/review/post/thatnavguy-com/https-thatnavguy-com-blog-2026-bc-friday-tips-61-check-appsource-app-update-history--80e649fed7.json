@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-61-check-appsource-app-update-history/",
+  "input_hash": "25042e17004e9892992f5df7202fb17f26944d5a6d3dc3dc9c6b24446317bf96",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:14.291Z",
+  "issues": [
+    "The fourth key point is worded awkwardly and adds a compatibility claim the post does not make. Rewrote the key points.",
+    "The features 'AppSource app discovery' and 'app version checking' are not supported. The post only says to check the last updated date and the update history."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018493,
+    "posts_in_call": 4
+  }
+}

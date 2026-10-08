@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9775",
+  "input_hash": "15441ee24564d509d5322636892fff2ecb7477ed69ff9fa56912911a04f1457b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:38.059Z",
+  "issues": [
+    "The bug title supports the summary. Both the GB Reminder report AL file and its RDLC layout changed. The claim that the RDLC now includes header and footer sections is a reasonable reading of the diff stats."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029976,
+    "changes_in_call": 6
+  }
+}

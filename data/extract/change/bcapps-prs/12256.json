@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Payables Agent Setup now excludes users with Agent license type from the eligible invoice creator list to prevent access-control errors when agent accounts create posted invoices.",
+  "summary": "Automatic user selection in Payables Agent Setup now skips users with the Agent license type. Before this, saving the setup or activating the agent could fail when an agent account had created a posted purchase invoice in the last 30 days, because the platform rejects an agent configuring another agent.",
   "key_points": [
     "Agent license type users are filtered out from automatic user selection",
     "Preserves existing non-agent user eligibility criteria",

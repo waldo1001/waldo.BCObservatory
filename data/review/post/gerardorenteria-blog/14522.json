@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14522",
+  "input_hash": "2853ec60b189abc6fc6b7335327b8bc1f98832b88a623a1652dec67b342bb581",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:25.710Z",
+  "issues": [
+    "Post is mainly about VS Code agent hooks, with an AL extension as one onboarding option; relevance to Business Central is marginal but acceptable for AL developers.",
+    "One key point wrongly says the junior, mid and senior profiles are stored in JSONL files; in the post the profiles are separate markdown files, and JSONL holds only the session answers and logs.",
+    "Both quotes appear in the English section of the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047046,
+    "posts_in_call": 4
+  }
+}

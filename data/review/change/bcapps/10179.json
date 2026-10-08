@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10179",
+  "input_hash": "8a4fad5dd7e4fc4f51715e98acc684afeaf786acea662285ddf673ae805dcee8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.384Z",
+  "issues": [
+    "The summary and key points match the stated issue, cause and fix. Regression tests were added in six localization layers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027164,
+    "changes_in_call": 6
+  }
+}

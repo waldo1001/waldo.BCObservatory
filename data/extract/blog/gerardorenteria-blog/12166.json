@@ -5,18 +5,17 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-03-29T19:38:04.000Z",
   "words": 1236,
-  "summary": "This extension enables users to export critical time and planning information from Business Central (customer meetings, order dates, project schedules) as ICS calendar files for seamless integration with Outlook, Teams, Google Calendar, and Apple Calendar. It provides two complementary approaches: record-level contextual actions and field-level assist edits that pre-populate calendar events with relevant data.",
+  "summary": "A sample extension creates RFC 5545 ICS calendar files from Business Central, shown on the Customer Card and the Sales Order, for use in Outlook, Teams, Google or Apple Calendar. It offers a record-level action and AssistEdit on date fields. Both prefill event details that users can adjust before the file downloads.",
   "key_points": [
-    "Bridges the disconnect between Business Central scheduling data and external calendar tools used daily by employees",
-    "Implements RFC 5545 compliant ICS format supported universally across all modern calendar platforms",
-    "Offers dual integration: record-level actions from main pages and field-level assists with visual indicators on date fields",
-    "Automatically preconfigures calendar events with business context (titles, locations, organizer emails, dates) that users can customize before exporting",
-    "Reduces duplicate work and missed deadlines by synchronizing planning information across systems without manual data entry"
+    "Business Central planning dates are disconnected from the calendar tools users work in every day.",
+    "Uses the RFC 5545 ICS format, which common calendar platforms can read.",
+    "Record-level action on the Customer Card prefills a meeting with the customer name, the customer address, the user's email and the next working day.",
+    "AssistEdit on the Posting Date field of the Sales Order prefills a high-priority event at 9:00 AM. The pattern can be reused on any date field.",
+    "Objects include a temporary buffer table, generator and helper codeunits, a configuration page, two page extensions and a permission set."
   ],
   "systems": [
     "integration",
-    "sales",
-    "projects"
+    "sales"
   ],
   "topics": [
     "calendar integration",
@@ -47,14 +46,6 @@
     {
       "type": "page",
       "name": "ICS Event Configuration"
-    },
-    {
-      "type": "page",
-      "name": "Sales Order ICS Export"
-    },
-    {
-      "type": "page",
-      "name": "Customer Card ICS Export"
     },
     {
       "type": "permissionset",

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9702",
+  "input_hash": "ac0c47b5406fed80ce130713a62b82c764cb453b52d8f66ee0a87959fc28edfc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.584Z",
+  "issues": [
+    "Summary generalizes to 'existing connectors maintain their prior import versions'; only the ForNAV connector is pinned to Version 1.0.",
+    "Key points are supported."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026296,
+    "changes_in_call": 6
+  }
+}

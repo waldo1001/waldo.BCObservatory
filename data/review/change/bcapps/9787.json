@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9787",
+  "input_hash": "aea7af3233fbbb8c2b2178362573e1f60202f5e548db7fb054a1ff76e7177008",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:35.207Z",
+  "issues": [
+    "The key point that the notification appears in the subcontracting workflow to prevent future process failures is vague and not supported. The only UI file changed is the Work Center Card page extension.",
+    "The summary and flags are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024675,
+    "changes_in_call": 6
+  }
+}

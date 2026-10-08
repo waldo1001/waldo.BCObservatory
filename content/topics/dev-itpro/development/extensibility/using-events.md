@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,8 @@ links:
   localizations: []
   videos:
     - video/P-7dYVfB73E
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/15143
   guidelines: []
   changes:
     - change/bcapps/10036
@@ -139,7 +140,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -206,6 +207,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9950 [Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)](../../../../changes/bcapps/9950.md) (code change): "Withholding Tax entries from a previous posting preview appear on unrelated documents"
 - [#145 Process Context via manual event subscriber pattern](../../../../changes/bcquality/145.md) (code change): "manual event subscriber bindings tied to variable scope instead of singleton flags"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
+- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

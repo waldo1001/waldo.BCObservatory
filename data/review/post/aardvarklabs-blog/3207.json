@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3207",
+  "input_hash": "4023a866fa813898ba0d9e87755ab730747b6fa600db633d919b726d6c2d9761",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:36.115Z",
+  "issues": [
+    "The post is a Star Wars themed image prompt and is not about Business Central."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021248,
+    "posts_in_call": 4
+  }
+}

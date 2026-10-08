@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/11321",
+  "input_hash": "27b89f6d20a37e91837ef0690a56324d066c574e895459b5b39d5dd495193d5c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:33.442Z",
+  "issues": [
+    "Calling the change a minor cleanup with no functional change is not supported. The title updates the default pricing implementation and the PR is linked as a fix for AB#651521.",
+    "The empty description does not say what the 4 removed lines did.",
+    "behavior_change is set to true because the PR is filed as a fix to the default pricing behaviour."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017372,
+    "changes_in_call": 6
+  }
+}

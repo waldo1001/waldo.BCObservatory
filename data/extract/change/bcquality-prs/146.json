@@ -4,7 +4,7 @@
   "title": "knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Quality rules were refined to eliminate false positives about missing cleanups in insert-only transfers, mandatory affixes in non-AppSource apps, and permission context lowering in tests. Three knowledge articles were added or updated with better preconditions to keep genuine defects reportable.",
+  "summary": "Three BCQuality knowledge articles were added or updated to stop false positives: insert-only transfers that rely on the caller to clean up first, member affixes in apps that do not configure an AppSourceCop mandatory affix, and permission tests that lower the context through a composed role. Genuine defects remain reportable.",
   "key_points": [
     "New article clarifies that insert-only transfers are safe when the caller's OnValidate trigger cleans up the target range first",
     "AppSource affix requirement now correctly scoped to apps with AppSourceCop enabled and configured with mandatory affix",

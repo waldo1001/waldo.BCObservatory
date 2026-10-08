@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9985",
+  "input_hash": "a95564ad7a1e270032c822cfe3102dc4a99844a9ebf5f1f8a91fe1309222e6b1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:55.797Z",
+  "issues": [
+    "The title describes a bug: users could increase the quantity on a corrective credit memo for Service or Non-Inventory lines, and posting it left negative Received and Invoiced values on the purchase order. The page reads this as a new feature that allows the increase, which is the opposite.",
+    "change_kind should be fix, not feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018243,
+    "changes_in_call": 6
+  }
+}

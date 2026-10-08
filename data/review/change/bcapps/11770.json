@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11770",
+  "input_hash": "e19c8b02dcdf591e586927a0b98c6caf5c216a1e8bae53d9fe4df0971877aa09",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:33.442Z",
+  "issues": [
+    "The description is only a work item link. The claim that the change removes the dangling Expense Report No. reference guesses at the mechanism of a 4-line addition."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017372,
+    "changes_in_call": 6
+  }
+}

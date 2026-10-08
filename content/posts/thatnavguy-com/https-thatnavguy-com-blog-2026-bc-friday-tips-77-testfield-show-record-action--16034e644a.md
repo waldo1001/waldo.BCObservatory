@@ -13,12 +13,12 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -90,7 +90,7 @@ preview:
 
 # BC Friday Tips #77 TestField Show Record Action
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-31 · 163 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-77-testfield-show-record-action/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-07-31 · 163 words · tier community · reviewed (checked by Opus)
 
 > TestField automatically adds a Show Record button to error dialogs when field validation fails, letting users jump directly to the problem record. This feature works natively for tables with single primary keys like Customer, but not for compound primary key tables like Sales Header.
 

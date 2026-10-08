@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "German ZUGFeRD and PEPPOL BIS 3.0 DE formats and French Factur-X and PEPPOL BIS 3.0 FR formats are now migrated to the V2 draft import pipeline, enabling the draft-based workflow and Copilot-assisted matching previously unavailable for these localized e-document formats.",
   "key_points": [
-    "ZUGFeRD and Factur-X handlers implement both CII XML parsing and PDF/A-3 container extraction",
-    "PEPPOL BIS 3.0 handlers for both countries reuse existing UBL readers adapted for their regional specifications",
-    "French SIRET identifiers and German Leitweg-ID values are preserved during round-trip import-export cycles",
-    "New enum extension values added for Read into Draft and Structure Received workflows",
-    "German table extension field stores buyer reference data on E-Document Purchase Header"
+    "ZUGFeRD and Factur-X handlers parse CII XML and can extract it from a PDF/A-3 container",
+    "PEPPOL BIS 3.0 DE reuses the existing XRechnung UBL reader; Peppol BIS 3.0 FR gets a new UBL reader",
+    "French SIRET party identifiers written on export are mapped back on import",
+    "New Buyer Reference DE field on E-Document Purchase Header stores the Leitweg-ID but is not shown in the UI yet",
+    "New Read into Draft and Structure Received enum values; selecting these formats on a service defaults the read into draft implementation"
   ],
   "change_kind": "feature",
   "behavior_change": true,

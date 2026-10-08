@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "SEPA credit transfer export format is corrected when SEPA Non-Euro Export is enabled to ensure exported XML files comply with the SEPA schema.",
+  "summary": "Fixes an invalid SEPA credit transfer export file that was produced when SEPA Non-Euro Export is enabled. The SEPA CT pain.001.001.09 xmlport was changed in several localization layers.",
   "key_points": [
-    "SEPA CT pain.001.001.09 XMLport modified across multiple localization layers (BE, CH, ES, FR, IT, NL, NO, W1)",
-    "Fix applies to SEPA Non-Euro Export functionality that was generating invalid XML files",
-    "Test coverage added across multiple localization test layers to validate the corrected export format",
-    "Changes ensure generated SEPA files meet the required pain.001.001.09 schema specification"
+    "The SEPA CT pain.001.001.09 xmlport was modified in the BE, CH, ES, FR, IT, NL, NO and W1 layers",
+    "Fixes an invalid export file format when SEPA Non-Euro Export is enabled",
+    "SEPA credit transfer tests were added in several localization test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

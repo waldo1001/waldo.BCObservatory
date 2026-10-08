@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9443",
+  "input_hash": "da1412f264d0e8d88e0527bdd4ebb7c1e9990b7e8163cae017b6e0f305dd810a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:27.500Z",
+  "issues": [
+    "Event name, parameters, IsHandled flag and the 14 layers all match the description. Default behavior is unchanged when no subscriber handles the event."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02234,
+    "changes_in_call": 6
+  }
+}

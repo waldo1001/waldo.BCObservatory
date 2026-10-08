@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 998c5bc0e20f935dd640c53bc09b484157abea5f803b2addcf2f672f03b7ffc5
@@ -63,9 +63,9 @@ footprint:
       weight: 6
     - id: reporting
       weight: 4
-    - id: administration
-      weight: 3
     - id: finance
+      weight: 2
+    - id: purchasing
       weight: 2
   topics:
     - id: agents
@@ -132,8 +132,8 @@ last_item: "2026-09-30"
 | integration (11) | data export (4) | codeunit Agent Message (1) |
 | development (6) | fabric (2) | codeunit Agent Task (1) |
 | reporting (4) | open mirroring (2) | codeunit Agent Task Builder (1) |
-| administration (3) | agent design (1) | codeunit Agent Task Message Builder (1) |
-| finance (2) | agent framework (1) | enum Copilot Capability (1) |
+| finance (2) | agent design (1) | codeunit Agent Task Message Builder (1) |
+| purchasing (2) | agent framework (1) | enum Copilot Capability (1) |
 |  | agent registration (1) | interface IAgentExperimental (1) |
 |  | ai (1) | interface IAgentFactory (1) |
 |  | ai agents (1) | interface IAgentMetadata (1) |

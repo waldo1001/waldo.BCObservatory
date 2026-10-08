@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9550",
+  "input_hash": "69b89627b4009302607278a5a500ccd4df343f438f21d5545d179aa00d71a800",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:20.334Z",
+  "issues": [
+    "Calling the base validation 'too strict' is a mild interpretation, but it fits the description of the validation error blocking posting.",
+    "Everything else is supported by the description and the single changed subscriber codeunit."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017028,
+    "changes_in_call": 6
+  }
+}

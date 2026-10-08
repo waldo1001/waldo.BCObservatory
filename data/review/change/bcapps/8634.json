@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/8634",
+  "input_hash": "3ca1ce76850d2a50144117dd2fddcc2c75de76c056ea459bb1795aa5390ccb92",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.576Z",
+  "issues": [
+    "Key point 5 claims the platform enforces MCP requests based on the capability status, but the description says platform-side enforcement is a separate change tracked in platform-core, not part of this PR.",
+    "Key point 4 wording was slightly off: existing configurations are left untouched on deactivation, so re-activating restores the feature."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022984,
+    "changes_in_call": 6
+  }
+}

@@ -4,13 +4,13 @@
   "title": "2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Two new UI pattern articles document how to avoid client expression issues in page fields and how to properly gate role center visibility by permissions using AccessByPermission instead of triggers or procedures.",
+  "summary": "Two new UI knowledge articles were added. One covers in-list set-membership tests in client expressions such as Visible or Enabled on actions, groups and parts, which only raise warning AL0573. The other covers using AccessByPermission for permission gating on Role Centers, where triggers and procedures are not allowed.",
   "key_points": [
-    "AL0573 warning: in-list set-membership tests in Visible/Enabled/Editable/StyleExpr must be replaced with or-chains or OnAfterGetCurrRecord patterns",
-    "Role Centers cannot use triggers or procedures for permission gating due to AL0378/AL0569 errors",
-    "AccessByPermission is the declarative fix for permission-based gating on parts, actions, and fields in Role Centers",
-    "Articles explain scoping, remediation patterns, and reference real examples from BCApps",
-    "New tokens and mappings added to al-ui-review.md to guide diagnostics without over-firing on valid comparisons"
+    "In-list tests in Enabled/Visible/Editable/StyleExpr are an error on fields (AL0322) but only warning AL0573 on actions, groups and parts",
+    "Remediation: an or-chain, or a global Boolean recomputed in OnAfterGetCurrRecord and OnValidate; plain comparisons stay valid",
+    "Role Centers cannot have triggers (AL0378) or procedures (AL0569), so AccessByPermission on parts, actions and fields is the declarative fix for permission gating",
+    "AccessByPermission removes UI elements and is not a security boundary; setup or feature-flag gating is out of scope",
+    "al-ui-review.md gains tokens and mappings, and both articles are registered in review-fixtures.json"
   ],
   "change_kind": "feature",
   "behavior_change": false,

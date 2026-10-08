@@ -6,13 +6,11 @@
   "systems_joined": [
     "service"
   ],
-  "summary": "When posting a service order without an external document number, the service order number is now correctly copied to GL entries instead of remaining blank.",
+  "summary": "Posting a service order without an External Document No. no longer copies the Service Order No. into the G/L entries. The fix is in Serv-Documents Mgt. in the W1, NA, ES and IT layers.",
   "key_points": [
-    "Service orders without external document numbers now populate GL entry document references",
-    "Fixes inconsistent behavior where GL entries lacked document identification",
-    "Changes applied across multiple localization layers (W1, NA, ES, IT)",
-    "Test coverage added for the posting scenario",
-    "Ensures audit trail clarity in general ledger records"
+    "Fixes the Service Order No. being copied into G/L entries when no External Document No. is set",
+    "Serv-Documents Mgt. (codeunit 5988) changed in the W1, NA, ES and IT layers",
+    "Service posting invoice tests added in W1 and NA"
   ],
   "change_kind": "fix",
   "behavior_change": true,

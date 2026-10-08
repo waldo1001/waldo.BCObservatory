@@ -13,9 +13,9 @@
     "SetAgentDefaults helper method removed as dead code",
     "Reduces code complexity in the Sales Order Agent setup module"
   ],
-  "change_kind": "refactor",
-  "behavior_change": false,
-  "breaking": true,
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "copilot"

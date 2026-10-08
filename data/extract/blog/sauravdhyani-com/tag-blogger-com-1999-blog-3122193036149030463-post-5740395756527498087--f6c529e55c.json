@@ -7,11 +7,11 @@
   "words": 664,
   "summary": "Business Central 2026 Release Wave 1 (BC28) installation requires Windows 11 or Windows Server 2022/2025, .NET 8, SQL Server compatibility level 160/170, and 16 GB RAM minimum. This guide details system prerequisites, hardware requirements, software components, and a step-by-step installation process to help consultants and administrators avoid common deployment issues.",
   "key_points": [
-    "BC28 requires Windows 11 or Windows Server 2022/2025; older operating systems are not supported for new deployments",
-    "Minimum 16 GB RAM for server environments and 32-64 GB recommended for large extension development projects exceeding 1,000 objects",
-    ".NET 8, .NET Framework 4.8, IIS 10, and SQL Server with compatibility level 160 or 170 are mandatory components",
-    "Common installation failures stem from missing prerequisites like SQL Full-Text Search, incorrect .NET versions, or insufficient memory before Setup begins",
-    "Nine-step validation and configuration process covers OS verification, hardware checks, SQL Server setup, .NET installation, and Web Client configuration"
+    "BC28 runs on Windows Server 2022/2025 or Windows 11 Pro, Enterprise or Education. Windows Server is preferred for production, and older operating systems are discouraged for new deployments.",
+    "Plan for at least 16 GB RAM. Extension projects with more than 1,000 objects benefit from 32 to 64 GB.",
+    "Server and web components need .NET 8 and .NET Framework 4.8, plus IIS 10 for the web client. The database must be at SQL compatibility level 160 or 170, or Azure SQL.",
+    "Typical failures come from missing prerequisites, such as SQL Full-Text Search, the wrong .NET version, too little memory or no administrator rights.",
+    "A nine-step walkthrough runs from checking the OS and hardware to a test login in the web client."
   ],
   "systems": [
     "platform",

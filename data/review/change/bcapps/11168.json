@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11168",
+  "input_hash": "ef011ec3e4054a5237f6c4569475ef6de1a813a62c5d121c7af18e4f4ec1d64e",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:00.681Z",
+  "issues": [
+    "Supported by description: field 40 restored to Vendor Invoice No. with handlers, tests, UI and docs aligned.",
+    "behavior_change true is debatable since this is a rename back, but the field name visible in the UI changes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029788,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9582",
+  "input_hash": "be5f58b067d868e4db0270df94bbd35cb0848f024fff56cabbb5a0aaa98d633e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:58.456Z",
+  "issues": [
+    "Key point 2 mixes up the scopes. In W1, 21 action tooltips were removed across 7 pages. In the country layers, 43 page forks across 18 layers were cleaned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0231,
+    "changes_in_call": 6
+  }
+}

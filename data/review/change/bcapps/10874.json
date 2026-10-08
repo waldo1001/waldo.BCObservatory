@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10874",
+  "input_hash": "dc31705f5d2342b8645e1341da46be679575d1d7641a6fe35a28bc0e0e5beb3c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.727Z",
+  "issues": [
+    "The claim that report columns and grouping logic were updated is unsupported; only the report file and tests changed, with no detail given.",
+    "The last key point repeats the summary."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018515,
+    "changes_in_call": 6
+  }
+}

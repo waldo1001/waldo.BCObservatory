@@ -7,16 +7,15 @@
   "words": 640,
   "summary": "This post explains how to create, configure, and register agents programmatically in Business Central using AL code instead of relying solely on configuration. It covers agent interfaces, capability registration, setup pages, and KPI tracking needed for production-ready, ALM-compatible agent solutions.",
   "key_points": [
-    "Register agents by extending the Copilot Capability enum and using the Agent codeunit during installation",
+    "Register the agent as a Copilot capability by extending the Copilot Capability enum and registering it on install",
     "Implement IAgentFactory to control agent creation, setup experience, and access; implement IAgentMetadata to control runtime display and UI",
-    "Use IAgentTaskExecution to analyze agent messages and provide user intervention suggestions with pre-built buttons",
-    "Create setup pages using PageType ConfigurationDialog with SourceTableTemporary set to true and a User Security ID field",
-    "Build KPI pages as CardPart pages with cuegroups and User Security ID field, assigned via IAgentMetadata methods"
+    "Use IAgentTaskExecution to annotate agent messages, offer user intervention suggestions, and set page context such as currency and language",
+    "Create setup pages using PageType ConfigurationDialog with a temporary source table that has a User Security ID field",
+    "Build KPI pages as CardPart pages with cuegroups and a User Security ID field, assigned via the IAgentMetadata implementation"
   ],
   "systems": [
     "copilot",
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "agents",

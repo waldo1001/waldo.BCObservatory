@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12080",
+  "input_hash": "adbcd50809e5506b3bf0255b60e682d2c03dc4828381f66565d834d8a90a1b72",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:14.134Z",
+  "issues": [
+    "Accurate; the summary does not say the fix is limited to the IT layer, which the title and file paths show."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026202,
+    "changes_in_call": 6
+  }
+}

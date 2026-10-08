@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7181",
+  "input_hash": "2243ae03839ab37815d549a469f8ef5163dd96359e2b47b6783c7953af416296",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:57.907Z",
+  "issues": [
+    "Listed objects are generic concepts, not named AL objects.",
+    "Version 2025 refers to the conference year rather than a Business Central version; it cannot be removed with the available edits.",
+    "Summary, key points and quotes otherwise match the post."
+  ],
+  "applied": [
+    "dropped 3 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029882,
+    "posts_in_call": 4
+  }
+}

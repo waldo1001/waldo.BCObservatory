@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10437",
+  "input_hash": "611219a1107a4dac5584705b1c9e8d30cea415e1c20456e366f1117a567e9532",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:03.351Z",
+  "issues": [
+    "The second key point mixes up concepts. Payment occurrences have replay protection and original-occurrence linkage. Retry belongs to message delivery, deduplication belongs to incoming lifecycle messages, and 'approved invoices' belongs to the French messages."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027346,
+    "changes_in_call": 6
+  }
+}

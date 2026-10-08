@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/12992",
+  "input_hash": "73a47527df266702282afb2787ec8c94eb9892c885c7c15475aa62947d5a2b0e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:59.812Z",
+  "issues": [
+    "The summary suggests YAMPI was also released under Directions for Partners. The post says that only for CCMS and presents YAMPI as a separate tool.",
+    "The feature 'mcp server integration' and the system 'integration' are not supported. The post says joining YAMPI with CCMS might only happen someday."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036312,
+    "posts_in_call": 4
+  }
+}

@@ -16,8 +16,8 @@
     "Changes guarded by CLEAN29/CLEANSCHEMA29 for backward compatibility during cleanup"
   ],
   "change_kind": "obsoletion",
-  "behavior_change": false,
-  "breaking": true,
+  "behavior_change": true,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "Payables Agent Setup",

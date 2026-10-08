@@ -7,11 +7,11 @@
   "words": 2248,
   "summary": "API pages and API queries are two distinct REST API object types in Business Central with different purposes. API pages support full CRUD operations and are best for write operations, while API queries are optimized for read-only access with multi-table joins and server-side aggregation. Understanding when to use each type is critical for performance and integration design.",
   "key_points": [
-    "API pages support full CRUD operations (create, read, update, delete) and are designed for data exchange with single-table sources",
-    "API queries are read-only, support multi-table server-side joins, aggregations with SIFT indexes, and automatically group results like SQL GROUP BY",
-    "Design choices at the property level (ODataKeyFields, Enums, DelayedInsert, EntityCaption) have significant downstream consequences for consuming systems like Power Automate and Power BI",
-    "The default choice for read-only scenarios should be API query; API pages should be used when write operations or webhook subscriptions are needed",
-    "Separate concerns by using API pages for writes and API queries for reads, each filtered and refreshable independently"
+    "API pages support full CRUD on a single source table, deep insert and webhooks, with related data via subpages and $expand",
+    "API queries are read-only, join multiple tables in one SQL statement, and aggregate via the Method property with an implicit GROUP BY and SIFT support",
+    "Property choices such as SystemId as OData key, alphanumeric enum names under schema version 2.0, DelayedInsert and avoiding ODataEDMType affect consumers like Power Automate",
+    "Default to API queries for read-only scenarios; use API pages for writes, webhooks or deep insert, ideally combining both with separate write and read paths",
+    "For Power BI, build one focused API query per data domain with DataAccessIntent ReadOnly and LastModifiedOn filtering, then relate them in the semantic model"
   ],
   "systems": [
     "integration",
@@ -28,16 +28,7 @@
     "power bi",
     "power automate"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "API page"
-    },
-    {
-      "type": "query",
-      "name": "API query"
-    }
-  ],
+  "objects": [],
   "features": [
     "CRUD operations",
     "multi-table joins",

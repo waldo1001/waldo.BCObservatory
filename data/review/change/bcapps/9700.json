@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9700",
+  "input_hash": "0a8389a84a26468d77d13320945a71c7cafba474fe3886a6e0c26024d399f90d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:15.454Z",
+  "issues": [
+    "Key point calls the AA0237 hits 'false positives'; the description says the Temp prefix on a non-temporary variable is a genuine rule violation under stricter rulesets."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02025,
+    "changes_in_call": 6
+  }
+}

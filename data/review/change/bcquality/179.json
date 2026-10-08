@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcquality-prs/179",
+  "input_hash": "39814f923172678a8f630d29a02e14f9c156e01df85f2df80962409c7ed7abcb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:35.391Z",
+  "issues": [
+    "The summary says retrieval is validated through GUID-scoped scratch paths. In the PR, the GUID-scoped scratch and report paths belong to the review leaves, and what gets validated is each leaf's Task return before rollup.",
+    "The PR adds new retrieval tools and changes how review skills fetch knowledge and report results. That makes it a feature with a behavior change, not a behavior-neutral refactor.",
+    "The strict UTF-8 and path-safety checks apply to article and sample body retrieval, not to catalog paging."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind feature",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022112,
+    "changes_in_call": 6
+  }
+}

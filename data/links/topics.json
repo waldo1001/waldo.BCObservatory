@@ -15655,14 +15655,18 @@
     "post/aardvarklabs-blog/3060": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3060",
-      "hash": "68f76e4be5726e40f1925c8fb63baee44cf43777d4a3b87e70f1af0944603dbc",
+      "hash": "8eafea38b7a6a847f84bd3094b3d1c8a4fc7bdc6d443e8be51780f56984e00f9",
       "title": "Getting Started with AI for Rapid Software Development for Business Central",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:18:31.311Z",
+      "at": "2026-10-08T01:51:05.530Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
-          "quote": "using Copilot Chat and other AI tools to accelerate Business Central software development"
+          "quote": "Copilot Chat pulls functional requirements out of a sample meeting transcript"
+        },
+        {
+          "topic": "topic/dev-itpro/development",
+          "quote": "AI-assisted workflow for Business Central projects"
         }
       ]
     },
@@ -16014,39 +16018,39 @@
     "post/aardvarklabs-blog/3837": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3837",
-      "hash": "3e25fb4ccd0eaa13341a461db328175e9b3ab0c56ae2973f6ce34f08b1ad8129",
+      "hash": "3412fbd730d45732b2b23fa1a73b5b7ac6da12a6a3377a7acaa25ff2e9230038",
       "title": "Background Page Tasks in Business Central Explained",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:18:43.846Z",
+      "at": "2026-10-08T01:51:07.322Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/running-things-in-the-background",
-          "quote": "Background page tasks enable pages to automatically refresh themselves or trigger actions when long-running processes complete"
+          "quote": "Background page tasks enable pages to automatically refresh themselves"
         }
       ]
     },
     "post/aardvarklabs-blog/3915": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3915",
-      "hash": "b5917fd91862edb0c7b37da7ca60605d4271b6750245af60ff6460c471c76270",
+      "hash": "4a59567b0d74ca7205ec8c49489d428f58ed5ba9296642c650dcf93ffbd07b98",
       "title": "Efficient AI Development in Business Central: Caveman Mode Explained",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:19:41.840Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "AI Development in Business Central: Caveman Mode Explained. Caveman Mode is a communication technique"
-        }
-      ]
+      "at": "2026-10-08T01:51:07.595Z",
+      "matches": []
     },
     "post/aardvarklabs-blog/3928": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3928",
-      "hash": "8ca49dffd725d3f74a1bc2426eca6cdd24ebc1047c112962c5bf5c46464df39f",
+      "hash": "a9b1c021a51e70ac21c1b97d0a2ba720c74bc5656f0f52f0dda433e57ae35e57",
       "title": "Understanding Business Central’s Format Address Codeunit",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:18:43.846Z",
-      "matches": []
+      "at": "2026-10-08T01:51:07.322Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/local-functionality",
+          "quote": "country-specific formatting rules from the Country Region table"
+        }
+      ]
     },
     "post/aardvarklabs-blog/3950": {
       "kind": "post",
@@ -16065,32 +16069,36 @@
     "post/aardvarklabs-blog/3983": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3983",
-      "hash": "18fce89d7d64a8263b9f166db3de1a4cc64e33d49754eaf7755d23b2bfa19799",
+      "hash": "295ff12983e7e331d8a3b2f0db18435eb6cfefe826036ecd0a0365d61c8c5465",
       "title": "Business Central v29: SQL Table Extensions Redesign Explained",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:18:43.846Z",
+      "at": "2026-10-08T01:51:07.322Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
-          "quote": "storing all custom fields directly in the primary SQL table instead of creating separate extension tables"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
+          "quote": "storing all custom fields directly in the primary SQL table"
         }
       ]
     },
     "post/aardvarklabs-blog/3998": {
       "kind": "post",
       "key": "post/aardvarklabs-blog/3998",
-      "hash": "2b5e38338238c132b87946ff72773e9cdde51461ddc97e598fa271dc97a50f3b",
+      "hash": "81d2251ae01c99c8ce5990dd6aa7f65e5d0e6676df626dc14e26f9880833f41c",
       "title": "Mastering Business Central API for App Management",
       "source": "aardvarklabs-blog",
-      "at": "2026-10-07T00:19:00.474Z",
+      "at": "2026-10-08T01:51:17.919Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/automation-api",
+          "topic": "topic/dev-itpro/administration/automation-api/extension",
           "quote": "automating extension management in Business Central using the Administration API"
         },
         {
-          "topic": "topic/dev-itpro/administration/automation-api/extension",
-          "quote": "Deploy extensions using the pteInstall endpoint with specific parameters"
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/admin-center/admin-center-api",
+          "quote": "PowerShell examples for automating extension management in Business Central using the Administration API"
         }
       ]
     },
@@ -16298,18 +16306,18 @@
     "post/bertverbeek-nl/1318": {
       "kind": "post",
       "key": "post/bertverbeek-nl/1318",
-      "hash": "a995e79bde67f719672acfa2e052960527865aeda720d2d877cc4e3f3c5cb576",
+      "hash": "5ece5311db9e1c4f18d455d58d1e823a48e09f167fa36a99736d1380b4ffc16f",
       "title": "Native connection with Fabric in Business Central",
       "source": "bertverbeek-nl",
-      "at": "2026-10-07T00:19:00.474Z",
+      "at": "2026-10-08T01:51:17.919Z",
       "matches": [
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
           "quote": "Business Central introduces native integration with Microsoft Fabric for data synchronization"
         },
         {
-          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
-          "quote": "Sync operates directly from the SQL database using change logs"
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization",
+          "quote": "Native Fabric integration syncs from the SQL change log instead of APIs or bc2adls"
         }
       ]
     },
@@ -17383,38 +17391,56 @@
     "post/demiliani-com/14031": {
       "kind": "post",
       "key": "post/demiliani-com/14031",
-      "hash": "fde078f1a245cb8eae5a4bc4cef4c5866a4b41e6cf371f35f2c16c79e6e475ac",
+      "hash": "a830c37bb0a2c55c112dedaf77e950b73a884458417c80385054ef8b4af28388",
       "title": "Dynamics 365 Business Central: AL transaction isolation levels and cache usage.",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:19:49.582Z",
+      "at": "2026-10-08T01:51:07.595Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "higher isolation levels bypassing the cache on every read"
+          "quote": "Record.ReadIsolation sets the isolation level for reads on a specific record instance"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/reading-data",
-          "quote": "Record.ReadIsolation method controls database transaction isolation"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+          "quote": "only Default and ReadUncommitted serve Get() from the NST cache"
         }
       ]
     },
     "post/demiliani-com/14064": {
       "kind": "post",
       "key": "post/demiliani-com/14064",
-      "hash": "0a2ff886cbc2ae59e05cdd244246170f7a86cf78acb82fe96813938692e67658",
+      "hash": "b6c0c0b7e8ebb811d81925b81ac90b4b625d423adde33d484e88c3600b288968",
       "title": "How can I move my Business Central-related Azure resources to a new Azure region?",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:19:11.315Z",
-      "matches": []
+      "at": "2026-10-08T01:51:19.675Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-azure-services",
+          "quote": "migrating Business Central-related Azure and Power Platform resources from West Europe"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor",
+          "quote": "Power Platform environments, migration strategies to minimize downtime"
+        },
+        {
+          "topic": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
+          "quote": "telemetry connection string and the Power Platform environment references"
+        }
+      ]
     },
     "post/demiliani-com/14098": {
       "kind": "post",
       "key": "post/demiliani-com/14098",
-      "hash": "aa7621c2047ff30f27347454c67a97399d432e34002d05bd82fb9d1c6790bb83",
+      "hash": "7ca822ca9560a532decde6a54e266a2b51d66c3e8029147f4f5c9110a60ae425",
       "title": "The skill gap between using AI and architecting AI.",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:19:49.582Z",
-      "matches": []
+      "at": "2026-10-08T01:51:07.595Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al",
+          "quote": "ai architecture; multi-agent systems; system design; production readiness"
+        }
+      ]
     },
     "post/demiliani-com/14131": {
       "kind": "post",
@@ -17442,14 +17468,14 @@
     "post/demiliani-com/14182": {
       "kind": "post",
       "key": "post/demiliani-com/14182",
-      "hash": "2ea7f442e4c13428ce11868ffdbe7a44e22ee062737a92cc07cc4eb1d142e876",
+      "hash": "ac6879f2f07c6bb93f85053e8289ca45e28f9188e09a2f7409079d38fbf5f560",
       "title": "New EU rules for software: what you need to know.",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:19:43.604Z",
+      "at": "2026-10-08T01:51:07.595Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security",
-          "quote": "Developers are responsible for damage regardless of intent if they cannot prove professional development"
+          "quote": "New EU rules for software: what you need to know"
         }
       ]
     },
@@ -17512,10 +17538,10 @@
     "post/demiliani-com/15923": {
       "kind": "post",
       "key": "post/demiliani-com/15923",
-      "hash": "2d7ddbe5dd7290af18cfdcff7694a640823c8b7cf523e79684f5d7898b2c9078",
+      "hash": "27d31ca595a00c3e257ac5c2b446b7ffe8701780b473b8a7138ed076987ee50f",
       "title": "Azure Functions: rolling updates are now generally available on Flex consumption.",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:18:43.846Z",
+      "at": "2026-10-08T01:51:07.322Z",
       "matches": []
     },
     "post/demiliani-com/15935": {
@@ -17535,14 +17561,18 @@
     "post/demiliani-com/15968": {
       "kind": "post",
       "key": "post/demiliani-com/15968",
-      "hash": "9db7dad86cad7984ced08a843dcfd99d04cac994ed622d1b1ded926facdc4015",
+      "hash": "e13c63565651d8a5a608db921a2c9dc7a18a0b6d1af4ac6998155a4806124ef1",
       "title": "Dynamics 365 Business Central: AL Query objects and the new ReadState property.",
       "source": "demiliani-com",
-      "at": "2026-10-07T00:19:43.604Z",
+      "at": "2026-10-08T01:51:07.595Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/using-query-objects",
-          "quote": "AL query objects now support the ReadState property in Dynamics 365 Business Central 2026"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
+          "quote": "AL query objects now support the ReadState property in Dynamics 365 Business Central"
+        },
+        {
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
+          "quote": "ReadState property lets developers specify transaction isolation levels for individual queries"
         }
       ]
     },
@@ -17848,36 +17878,36 @@
     "post/duiliotacconi-com/2149": {
       "kind": "post",
       "key": "post/duiliotacconi-com/2149",
-      "hash": "653317285dfac109b3c1707ee592652bb83416d9ba6968c0aec687beb8e6ce31",
+      "hash": "0b54d734b3647ccb5c97ea829a0c9e565083e6a728997648545ebf04825a749d",
       "title": "Partial Record vs NST Caching : the strange case of Calculate Low Level Code",
       "source": "duiliotacconi-com",
-      "at": "2026-10-07T00:18:45.173Z",
+      "at": "2026-10-08T01:51:07.322Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "SetLoadFields prevents NST caching for partial records, causing repeated SQL queries"
+          "quote": "performance regressions when combined with NST caching in Business Central"
+        },
+        {
+          "topic": "topic/business-central/business-functionality/manufacturing/manufacturing-analytics/built-in-production-reports",
+          "quote": "Calculate Low Level Code report creates multiple SQL queries"
         }
       ]
     },
     "post/duiliotacconi-com/2201": {
       "kind": "post",
       "key": "post/duiliotacconi-com/2201",
-      "hash": "adaf08b07ad9514baeff2d316b87c4975e0d063a8a6de00da5991c651c7a2331",
+      "hash": "779c4364fca4003fb55a55081d79a6ec15004a23cf7d596c6ec685d45a84246c",
       "title": "Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2",
       "source": "duiliotacconi-com",
-      "at": "2026-10-07T21:12:34.437Z",
+      "at": "2026-10-08T01:51:07.595Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
-          "quote": "table structure limits in Dynamics 365 Business Central 2026 Wave 2 (version 29)"
-        },
-        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "field count limits, SQL Server 8KB record size constraints, key/index limits"
+          "quote": "Maximum of 1018 regular fields can be defined in a table"
         },
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
-          "quote": "Base table fields and extension fields can be mixed in the same index"
+          "quote": "The 8KB SQL Server limit applies only to primitive data types"
         }
       ]
     },
@@ -18072,63 +18102,44 @@
         }
       ]
     },
-    "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/": {
-      "kind": "post",
-      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-17-21-2026/",
-      "hash": "06b3c925ff96172bdcfcca94dd35e974c38d98f19dfd8721a735acddf1d8028d",
-      "title": "Business Central Trivia Recap: August 17–21, 2026",
-      "source": "dvlprlife-com",
-      "at": "2026-10-07T00:20:16.988Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo/use-reports-in-daily-work",
-          "quote": "trivia game had 250 questions across five days with increasing participation"
-        }
-      ]
-    },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-24-28-2026/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/business-central-trivia-recap-august-24-28-2026/",
-      "hash": "456fdb9f837784fe8edc5d2ae7135aa15afb7f0eb1a9785605d7d06658331ea9",
+      "hash": "31edf4ae5da56179320d810ed430a9408828f1570113218ad07f9d1c99246efc",
       "title": "Business Central Trivia Recap: August 24–28, 2026",
       "source": "dvlprlife-com",
-      "at": "2026-10-07T00:19:47.971Z",
+      "at": "2026-10-08T01:51:12.914Z",
       "matches": []
     },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/enhance-your-al-development-with-the-al-mcp-server/",
-      "hash": "2f11e68c7029cecced78743cfa78cc130959c3996a3c55cce285d65097c3a19d",
+      "hash": "60f2d926b0fd7386863621958c49e969d348f7e460a8a90377819553fdb75e0c",
       "title": "Enhance Your AL Development with the AL MCP Server",
       "source": "dvlprlife-com",
-      "at": "2026-10-07T00:19:47.971Z",
-      "matches": []
+      "at": "2026-10-08T01:51:12.914Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "The AL MCP server ships with the AL development tools and gives AI agents tools"
+        }
+      ]
     },
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/08/quick-tips-find-a-field-on-a-business-central-page/",
-      "hash": "aa5b6d74428e78dc26210f3bc135ad82c4c973da85783eda95d2965e021da7bb",
+      "hash": "61a48c439af622674caba836d95d58e4ffdf6f98549796ebee5cf8fb5b8ee3de",
       "title": "Quick Tips: Find a Field on a Business Central Page",
       "source": "dvlprlife-com",
-      "at": "2026-10-07T00:19:47.971Z",
+      "at": "2026-10-08T01:51:12.914Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-          "quote": "Page Inspection is a built-in tool in Business Central that helps you"
-        }
-      ]
-    },
-    "post/dvlprlife-com/https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/": {
-      "kind": "post",
-      "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/09/business-central-trivia-recap-september-28-october-2-2026/",
-      "hash": "c6cead13bf4e2d317fd57c0d9f72ae081d57c05184e4c9edd967980b794977f1",
-      "title": "Business Central Trivia Recap: September 28–October 2, 2026",
-      "source": "dvlprlife-com",
-      "at": "2026-10-07T00:20:46.981Z",
-      "matches": [
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client",
+          "quote": "Page Inspection is a built-in tool in Business Central that helps you quickly find"
+        },
         {
-          "topic": "topic/business-central/copilot-and-agent-capabilities",
-          "quote": "A recap of the Business Central Trivia event from September 28 to October 2, 2026"
+          "topic": "topic/dev-itpro/development/troubleshooting/troubleshooting-in-al",
+          "quote": "field names, numbers, and data types simultaneously, useful for AL development"
         }
       ]
     },
@@ -18149,22 +18160,18 @@
     "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/": {
       "kind": "post",
       "key": "post/dvlprlife-com/https://www.dvlprlife.com/2026/10/october-2026-cumulative-updates-for-dynamics-365-business-central/",
-      "hash": "12cbe9556b3bb7828c277a2d2bb5fcf283900a76aa06453e2d33c2407faba799",
+      "hash": "ded3448c16af8292d4b20a674d011f8c9863fd899bb6b6b484697620b551986b",
       "title": "October 2026 Cumulative Updates for Dynamics 365 Business Central",
       "source": "dvlprlife-com",
-      "at": "2026-10-07T21:12:26.810Z",
+      "at": "2026-10-08T01:51:07.322Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29",
-          "quote": "Business Central 2026 Wave 2 now available for new customers"
+          "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
+          "quote": "Business Central 2026 Wave 2 release with version 29.0 for online customers"
         },
         {
-          "topic": "topic/dev-itpro/business-central-on-premises/upgrade",
-          "quote": "Organizations should verify implementation readiness and compatibility with customizations before upgrading"
-        },
-        {
-          "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "Online customers auto-upgrading to version 29.0 with email notification"
+          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise",
+          "quote": "organizations should verify implementation readiness and compatibility"
         }
       ]
     },
@@ -18185,10 +18192,10 @@
     "post/freddysblog/https://freddysblog.com/2026/08/05/the-pricing-of-fkh": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/08/05/the-pricing-of-fkh",
-      "hash": "9ee4f942f0dd1f2f96518fd747479dafbbd555d0d34ba8103f5afa05a24ce8c3",
+      "hash": "0e7d2548cd9f94760d5c9643bbdda8ae2c084dcad8d943897d450a44c9a09ff7",
       "title": "The price of running Fkh (Freddy’s Kubernetes Helper)",
       "source": "freddysblog",
-      "at": "2026-10-07T00:18:47.072Z",
+      "at": "2026-10-08T01:51:13.137Z",
       "matches": []
     },
     "post/freddysblog/https://freddysblog.com/2026/08/06/accessing-fkh-containers-using-a-terminal": {
@@ -18222,28 +18229,27 @@
     "post/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/08/15/the-engineering-stairway-to-heaven",
-      "hash": "24926932950ad7ae7dbf1c15fb1a34865bdfc35cedbf07b54972a59666fbdde2",
+      "hash": "b9a195920fbac8b90e5740645d354ebd00cefa70d4fa5f6087311525329554b8",
       "title": "The Engineering Stairway to Heaven",
       "source": "freddysblog",
-      "at": "2026-10-07T00:19:47.971Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Engineering is evolving through a stairway of six ascending steps from"
-        }
-      ]
+      "at": "2026-10-08T01:51:12.914Z",
+      "matches": []
     },
     "post/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/08/17/which-tasks-should-you-delegate-to-ai-agents",
-      "hash": "7ecaba5ae541bd33208813f7f7fa6f85b3017e18db4081b9c7a32d03b9688bff",
+      "hash": "2ed32e0268ee738d70f85632f9bc1164d37edb7ac4ca85cd31034cac781c0083",
       "title": "Which Tasks Should You Delegate to AI Agents?",
       "source": "freddysblog",
-      "at": "2026-10-07T00:20:46.981Z",
+      "at": "2026-10-08T01:51:21.636Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "A framework for deciding which tasks to delegate to AI agents based on four dimensions"
+          "quote": "Which Tasks Should You Delegate to AI Agents"
+        },
+        {
+          "topic": "topic/business-central/responsible-ai",
+          "quote": "task delegation; autonomous systems; risk management"
         }
       ]
     },
@@ -18264,23 +18270,27 @@
     "post/freddysblog/https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/08/23/which-model-should-you-use-for-which-task",
-      "hash": "6a66720c5db28087b31e174149a6ddf8c8e3a43d1fc86d15b4bd9df7c6dbcb62",
+      "hash": "a49123f9188a2c1e93731c50d55b61a7c30a03ab903a3f6e460d8d82e79389a2",
       "title": "Which AI Model Should You Use for Which Task?",
       "source": "freddysblog",
-      "at": "2026-10-07T00:20:48.371Z",
+      "at": "2026-10-08T01:51:21.636Z",
       "matches": []
     },
     "post/freddysblog/https://freddysblog.com/2026/08/25/what-is-algoctl": {
       "kind": "post",
       "key": "post/freddysblog/https://freddysblog.com/2026/08/25/what-is-algoctl",
-      "hash": "f8a1eb22499199cfd2b2f488f046135333e6b56163878b05895c140832349d93",
+      "hash": "2fe0cccf0170539172a79ffca911addd2520d105d490b70725349bc07c861f6d",
       "title": "What is ALGoCtl?",
       "source": "freddysblog",
-      "at": "2026-10-07T00:19:48.425Z",
+      "at": "2026-10-08T01:51:12.914Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/get-started/altool",
-          "quote": "ALGoCtl is a command-line tool that automates AL-Go for GitHub"
+          "quote": "ALGoCtl is a command-line tool that automates AL-Go for GitHub repository management"
+        },
+        {
+          "topic": "topic/dev-itpro/development/get-started/marketplace-validation",
+          "quote": "CreateRelease for automated release management and input validation for error prevention"
         }
       ]
     },
@@ -19244,28 +19254,32 @@
     "post/gerardorenteria-blog/15130": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/15130",
-      "hash": "60813b1944ebf3852c8d235d3a19d15db601fa159705a398f8d37b3b0923135a",
+      "hash": "6b6da903b93c200bfef71b66e1a72f71abea357b611128cb531f1f99ecdf0897",
       "title": "New Application Ideas of Dynamics 365 Business Central (2026 JUL)",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-07T16:27:37.143Z",
+      "at": "2026-10-08T01:51:05.530Z",
       "matches": [
         {
-          "topic": "topic/business-central/business-functionality/finance/manage-cash-flow",
-          "quote": "Requests cover financial reconciliation, payment processing, inventory management, and reporting capabilities"
+          "topic": "topic/business-central/copilot-and-agent-capabilities/bank-account-reconciliation-assist",
+          "quote": "Copilot and agents, financial management, development, inventory"
         }
       ]
     },
     "post/gerardorenteria-blog/15143": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/15143",
-      "hash": "6bab9aee378fce71b5119048d64109f44a605749b12ba3434166b1d1bc9e9d01",
+      "hash": "4b0fc0ddcc2afa8646e6e79d8306b196e7c95bcc1e3f6d9e5dcb0e54bf33c217",
       "title": "🧩 Deriving dimensions in Business Central beyond Default Dimensions",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-07T00:21:05.297Z",
+      "at": "2026-10-08T01:51:23.335Z",
       "matches": [
         {
+          "topic": "topic/dev-itpro/development/extensibility/using-events",
+          "quote": "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"
+        },
+        {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/events",
-          "quote": "Hook into OnAfterGetRecDefaultDimIDProcedure to extend"
+          "quote": "The OnAfterGetRecDefaultDimIDProcedure integration event in the DimensionManagement codeunit fires after"
         }
       ]
     },
@@ -19317,31 +19331,32 @@
     "post/gerardorenteria-blog/1940": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/1940",
-      "hash": "1b915f3e16af853865e8a86bbf91e2bad30bf117a505a619a387586f4c7300cc",
+      "hash": "b5d4fea045aeb7c6bd6818bace43c5ecf4011506b79acd364c2012635f259fca",
       "title": "BcContainerHelper – versions",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-07T00:19:52.395Z",
-      "matches": []
+      "at": "2026-10-08T01:51:12.914Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
+          "quote": "BcContainerHelper is a PowerShell module for managing Business Central containers for testing"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
+          "quote": "Introduces support for online sandboxes and pre-installed Business Central instances"
+        }
+      ]
     },
     "post/gerardorenteria-blog/1968": {
       "kind": "post",
       "key": "post/gerardorenteria-blog/1968",
-      "hash": "32a84a7a8aec1168245a12bcc7e79c3a8314de63ed96ea6a0c3d5e2c6bcda746",
+      "hash": "7abc5c7976e1b7c7e23cd8d7dfcac6ba046eee1ea0fd5ce5b7e1d6cc27a7e079",
       "title": "Visual Studio Code – versions",
       "source": "gerardorenteria-blog",
-      "at": "2026-10-07T00:19:54.908Z",
+      "at": "2026-10-08T01:51:13.448Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c",
-          "quote": "Support for multiple AI models and providers, including Claude, Copilot, ChatGPT, and custom API keys"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "MCP (Model Context Protocol) servers enable extensible tool ecosystems for agents"
-        },
-        {
-          "topic": "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview",
-          "quote": "Agent-first development became central with autonomous task completion, background agents, and multi-agent orchestration"
+          "quote": "agents; ai development; copilot; claude; mcp servers"
         }
       ]
     },
@@ -19652,22 +19667,22 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1170961607735589786",
-      "hash": "6391ce5a000f1286abe334cdda883e96a563b6634805c6ac068b1e90931755d9",
+      "hash": "f32ea2d662c4d762eb4a08f8a8bc9eb1469c23d896a800689090fc4c4421b4f6",
       "title": "Managing Apps in the Business Central Admin Center",
       "source": "mohana-blog",
-      "at": "2026-10-07T00:19:14.641Z",
+      "at": "2026-10-08T01:51:19.675Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/admin-center",
-          "quote": "Manage Apps page in the Business Central admin center controls the stack of apps"
-        },
-        {
-          "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
-          "quote": "per-tenant extensions support full lifecycle management"
+          "quote": "The Manage Apps page in the Business Central admin center controls the stack"
         },
         {
           "topic": "topic/dev-itpro/development/extension-lifecycle/deploying-and-installing",
-          "quote": "Per-tenant extension deployment has moved to the admin center"
+          "quote": "Installing a PTE means choosing a deployment schedule and a sync mode"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration/customize-business-central/customize-with-extensions",
+          "quote": "per-tenant extensions, all reviewed on the admin center Manage Apps page"
         }
       ]
     },
@@ -19692,18 +19707,18 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1483211802825342389": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1483211802825342389",
-      "hash": "aa714bb26c3de90019538670c4fdd78f6bf3537c88e6d74dc435cb6c6d8b637b",
+      "hash": "0fbab36aa977f56cb3bcb5ec7efff0b48b07fb960fd6e6538c10bf31d8ef957b",
       "title": "Business Central 2026 Wave 2: Preview Images Directly in the Web Client",
       "source": "mohana-blog",
-      "at": "2026-10-07T00:18:47.072Z",
+      "at": "2026-10-08T01:51:13.137Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-          "quote": "Business Central 2026 Wave 2 introduces native image preview functionality in the web client"
+          "quote": "native image preview functionality in the web client, allowing users to view"
         },
         {
           "topic": "topic/dev-itpro/development/extensibility/developing-client-add-ins",
-          "quote": "Developers can implement custom image previews using File.ViewFromStream() method"
+          "quote": "Developers can implement custom image previews using File.ViewFromStream()"
         }
       ]
     },
@@ -19746,41 +19761,58 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3088305037286723104",
-      "hash": "945e4b0fad197735548a75ed948b6b8c3ef69d8d6951e7727f3f00ab31182c9b",
+      "hash": "d6ad6076f43f2b1c95ce2c8115f48aba09c9ceff61888b6cd1e911a2db7e93fd",
       "title": "Business Central 2026 Release Wave 2 (v29.0) Is Generally Available",
       "source": "mohana-blog",
-      "at": "2026-10-07T05:18:57.004Z",
+      "at": "2026-10-08T01:51:13.137Z",
       "matches": [
-        {
-          "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
-          "quote": "Preview sandboxes created before GA will be automatically deleted"
-        },
         {
           "topic": "topic/dev-itpro/administration/understand-business-central-online/environment-types",
           "quote": "Version 29.0 is the default option for new online environments"
+        },
+        {
+          "topic": "topic/dev-itpro/development/development-environment/work-in-sandboxes",
+          "quote": "Preview sandboxes created before GA will be automatically deleted"
         }
       ]
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-3210455512131359826",
-      "hash": "623d46a788f049c3a8b3976e054257080175e3b9b3f909e7f2f2943a258f1c02",
+      "hash": "03fc6ae5d7e188171a0494a861d9daac99f0162349861c644e66de49d46945a8",
       "title": "Record.IsDirty in Business Central 29: a worked example",
       "source": "mohana-blog",
-      "at": "2026-10-07T05:18:55.455Z",
-      "matches": []
+      "at": "2026-10-08T01:51:13.448Z",
+      "matches": [
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data",
+          "quote": "Record.IsDirty() returns true when in-memory values differ"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/data-types",
+          "quote": "new API in Business Central 29 that lets AL code check"
+        }
+      ]
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619",
-      "hash": "f9bbaecaeef7c908663d5b48c7788be9ee6ed1cda1dfdcc9d82f5f301e8cbd1c",
+      "hash": "9e099687770af155f554d08a814220fa2f2f44785672538f45dacd553c2179c6",
       "title": "Composite Layouts in Business Central 29.0: Brand One Report End to End",
       "source": "mohana-blog",
-      "at": "2026-10-07T00:20:16.988Z",
+      "at": "2026-10-08T01:51:23.296Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
-          "quote": "composite layouts where branding is split into three separate parts"
+          "quote": "Composite layouts split a document into a Body layout plus a reusable header/footer"
+        },
+        {
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
+          "quote": "Composite layouts in Business Central 29.0: branding is split into three separate parts"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports",
+          "quote": "In AL, the Subtype, HeaderFooterPart and ThemePart properties configure this"
         }
       ]
     },
@@ -19877,16 +19909,11 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242",
-      "hash": "64d2e690224f6e7ce4ae331385f0912d53c3486bfa23ea734b48fd2de0578e8c",
+      "hash": "a574399cfdcf0fc955ed7e8c2835b5da9e409b0d003f444fec9f5f6a096ad9ab",
       "title": "Dynamics NAV, GP and SL: Why I Think Customers Should Start Planning Now",
       "source": "mohana-blog",
-      "at": "2026-10-07T00:18:31.311Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise",
-          "quote": "Migration from Dynamics NAV, GP, or SL to Business Central should be planned early"
-        }
-      ]
+      "at": "2026-10-08T01:51:05.530Z",
+      "matches": []
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6099911235084496190": {
       "kind": "post",
@@ -20023,11 +20050,16 @@
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8684128894807176700": {
       "kind": "post",
       "key": "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8684128894807176700",
-      "hash": "dbfe96636b0824f50bca84a4dacfe037b36ec45965808f4f7607b884096030c5",
+      "hash": "cade2843f80859faadc607c3900f61808ecee788a7c81eaa722ce4cb84321297",
       "title": "Recently Used Lookup Values Improve Everyday Productivity (BC29)",
       "source": "mohana-blog",
-      "at": "2026-10-07T16:27:49.598Z",
-      "matches": []
+      "at": "2026-10-08T01:51:23.335Z",
+      "matches": [
+        {
+          "topic": "topic/business-central/business-functionality/set-up-business-central/set-up-sales",
+          "quote": "lookup dialogs can show records a user recently searched for or selected, personalized per user"
+        }
+      ]
     },
     "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8913658799123411419": {
       "kind": "post",
@@ -20327,18 +20359,18 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3728891053687741480",
-      "hash": "edb369c1a9deec499808c01a8f2b5ee65f557292fdb1f6907e1ca58946375841",
+      "hash": "67092aaf3f33db79d5795e108602c52594120cd4ef3b81633fc636750555cc84",
       "title": "Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T13:32:27.311Z",
+      "at": "2026-10-08T01:51:13.137Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "administrators can now turn SIFT indexes on or off directly in the application"
+          "topic": "topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance",
+          "quote": "SIFT indexes maintain pre-calculated aggregate information using SQL indexed views"
         },
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
-          "quote": "SIFT indexes maintain pre-calculated aggregate information using SQL indexed views"
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
+          "quote": "administrators can now turn SIFT indexes on or off directly"
         }
       ]
     },
@@ -20359,18 +20391,18 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4052415603111434126",
-      "hash": "b84ca856d8dda4389365fcb3dac127dc3a7ace8b83c6e309e58d2828ee989681",
+      "hash": "ed744bda6417930b4caecc61276ae4ad0a44c388e70d0b86461415ce145879ea",
       "title": "Manage Database Index Usage in Business Central.",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:19:14.641Z",
+      "at": "2026-10-08T01:51:19.675Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance",
           "quote": "manage database indexes directly from the client without SQL access"
         },
         {
-          "topic": "topic/dev-itpro/performance",
-          "quote": "Disabling indexes reduces storage usage and improves insert/update/delete performance"
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central",
+          "quote": "Administrators can view index details (name, size, usage statistics, enabled status)"
         }
       ]
     },
@@ -20395,14 +20427,18 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430",
-      "hash": "d77bd5aa5ea3675943a0fc3b7ed226168b4125ad7d978079353bc6e6e613c687",
+      "hash": "bad5d8ba11aa52783f8636c530072f36f32454be2d43305dc1ed4de9e1621ff7",
       "title": "Business Central 2026 Release Wave 2 Preview Is Now Available",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:19:52.527Z",
+      "at": "2026-10-08T01:51:13.448Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28",
           "quote": "Business Central 2026 release wave 2 (version 29.0) preview is now available"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle",
+          "quote": "AL extensions, custom pages and reports, APIs, integrations"
         }
       ]
     },
@@ -20464,14 +20500,18 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-5876765753602227342",
-      "hash": "f583594e59e64343b5eb4df3238f13316d808c487664358a6b13387c263ad0b8",
+      "hash": "31834bf4e465fd2d9b304a67a37f11faad3fbaf2af3cacf4092f07ade42a4477",
       "title": "Business Central 29.0: Major Change to Table Extensions and SQL Storage.",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:19:52.527Z",
+      "at": "2026-10-08T01:51:13.448Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures",
-          "quote": "Extension fields now physically reside in the same SQL table as base table fields"
+          "topic": "topic/dev-itpro/development/extensibility/extending-al-objects",
+          "quote": "table extension fields are stored in the database"
+        },
+        {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/indexing-data-for-performance",
+          "quote": "cross-table indexes, can improve query performance"
         }
       ]
     },
@@ -20556,44 +20596,43 @@
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-8721347757329141815",
-      "hash": "4cf6eb351d63e94c12609dd0d50107e2c8528b5f6bf6c17bc48e8e46d5fa2ac3",
+      "hash": "c0ac81c09bd4021c25be0dc1fc7d3f98a05c6cf4f4b242c001641ffc19632d4a",
       "title": "Evolve AL Interfaces with Default Implementations in Business Central 29.0",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:19:52.527Z",
+      "at": "2026-10-08T01:51:13.448Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/programming-in-the-al-language/language-elements/interfaces",
-          "quote": "Interfaces can now provide default method bodies, preventing immediate breaking changes"
+          "quote": "Interfaces can now provide default method bodies"
+        },
+        {
+          "topic": "topic/dev-itpro/development/extension-lifecycle/migration",
+          "quote": "interface evolution can now separate concerns between backward compatibility"
         }
       ]
     },
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736",
-      "hash": "56742ec011e422830006aef5de8c27d1b0c372272a9910ea0ca77e0d50158b53",
+      "hash": "69c4841d4352f3e8482f24a4f79b38efa44caa91336a0191b9f18f3589d4962e",
       "title": "Business Central ToolTip and ToolTipML Properties Are Now Available on Pages",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:19:52.527Z",
+      "at": "2026-10-08T01:51:13.448Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
-          "quote": "ToolTip and ToolTipML can now be defined at the page object level in AL code"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
+          "quote": "ToolTip and ToolTipML properties directly on page objects"
         }
       ]
     },
     "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9211406592049654259": {
       "kind": "post",
       "key": "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9211406592049654259",
-      "hash": "8b2127e68cc9506facdd99408f0227e722b73522bae02440a7cfd20602c39a75",
+      "hash": "a578122f22e54b236e6effa57623f5bf7c6fbac0dd91b6993e330a0cbe95e90b",
       "title": "Business Central Version 29: Recently Searched in Tell Me and Recently Used Lookups",
       "source": "sauravdhyani-com",
-      "at": "2026-10-07T00:18:48.566Z",
-      "matches": [
-        {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings",
-          "quote": "Recently Searched in Tell Me displays previous search history for quick access"
-        }
-      ]
+      "at": "2026-10-08T01:51:13.137Z",
+      "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/": {
       "kind": "post",
@@ -20621,24 +20660,19 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/",
-      "hash": "97a8b4cc9be4b3eafc5a10975aad9ae9b87959ce66d28765011c6e9dd5cd2e9b",
+      "hash": "ac3ed38509aeaf236d011307913fdbeab84b2fa7ec87b561f2aa1cd94149697d",
       "title": "AL Runner: A Weekend of Autonomous Agents, a Windows Cross-Check, and 59% of Microsoft's Tests Passing",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:57.882Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/development-environment/testing",
-          "quote": "AL Runner, a testing framework for Business Central, achieved significant progress"
-        }
-      ]
+      "at": "2026-10-08T01:51:16.637Z",
+      "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/",
-      "hash": "bbec00f48e1b7578b3fbe5cc973eba08a41d99722cd895c4ed65b1f3f2e1d17b",
+      "hash": "a30a0b5915e81c4ddc3277e4cd644c84c7b3af397460b290968d17528b966632",
       "title": "AL Runner v2.2 and v2.3: Coverage, Quick Scripts, and a Watch Mode You Can Trust",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:57.882Z",
+      "at": "2026-10-08T01:51:16.637Z",
       "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/": {
@@ -20658,10 +20692,10 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-tests-against-cronus/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-tests-against-cronus/",
-      "hash": "46f0adfd68435bcaf16c4589d82015255ca35e764f767c44615beba0641df7ca",
+      "hash": "bc9f5610ffe59921a33d6861ca8cf849cbbb95548c10d982d68ebf4eb0f4027e",
       "title": "AL Runner: Testing Against Real Cronus Data, Debugging Restored, and Mutation-Ready Coverage",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:57.882Z",
+      "at": "2026-10-08T01:51:16.637Z",
       "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-v2-emit-through-bc/": {
@@ -20694,50 +20728,50 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bc-code-atlas-grounded-search-for-agents/",
-      "hash": "4f83329a89462e86fc43b17833d63592d77ecbcad64a214f476e42a290cd7450",
+      "hash": "aec6adcb894dd61b0dbd6605aa1862996c01a678f7f7f2d2e1caae534f1cc4fb",
       "title": "Introducing bc-code-atlas: Real BC Source for Coding Agents, Not a Guess",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:54.545Z",
+      "at": "2026-10-08T01:51:16.637Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol",
-          "quote": "bc-code-atlas is an MCP server that provides AI coding agents"
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language",
+          "quote": "lets AI agents or humans search Business Central Base Application source"
         }
       ]
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bc-linux-boot-time-and-al-go-fast-lane/",
-      "hash": "d3e6f626abefbf906cee51981e3f2071005f3021fef63baac7a287d08016c3aa",
+      "hash": "c5678a63b9dda76c2e1a992908ec2a09ed3627f382fa58e1af3ff029d4a771f6",
       "title": "BC on Linux: A Working Web Client, Faster Boots, Local Dev on Mac and Linux, and a Fast Lane in AL-Go",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:54.545Z",
+      "at": "2026-10-08T01:51:16.637Z",
       "matches": []
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-read-business-central-backups-without-sql-server/",
-      "hash": "d61017c64b91eb5bbb903a98aa663c876d9d0532c903a2b7cb5d8561cfa56afc",
+      "hash": "c855550866426495cb36705589c8c63e540a9271b84af831db14bab0d0debce9",
       "title": "Introducing bcdb: Read a Business Central Backup Without SQL Server",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:18:48.566Z",
+      "at": "2026-10-08T01:51:13.137Z",
       "matches": [
         {
-          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
-          "quote": "bcdb is a tool that reads SQL Server backup files"
+          "topic": "topic/dev-itpro/development/development-environment/testing",
+          "quote": "reads SQL Server backup files directly without requiring SQL Server"
         }
       ]
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/bcdb-restore-write-a-cloud-export-into-a-container/",
-      "hash": "8b851123aa005b96e3aca6026ddfe4257d62154c67cab66da522e1664f0984d5",
+      "hash": "d27e1917969efaaf91fdc9c85161cbfd12eb8c7cec239b74da0ab7404154c57b",
       "title": "bcdb restore: Write a Cloud Export Into a Container",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:54.545Z",
+      "at": "2026-10-08T01:51:16.637Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise",
+          "topic": "topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data",
           "quote": "bcdb restore tool writes cloud exports directly into a running Docker container"
         }
       ]
@@ -20841,14 +20875,14 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/",
-      "hash": "2a71cb5827c67ce09f6b9a12c006b93a6f9add7ee7c989e95ea803c48928eb61",
+      "hash": "73e98ae4e0ccea95d5207a5ad1043634b567d4a5f5445ce6f4747182be5fe0c6",
       "title": "I Can Turn Off My Code. I Can't Turn Off Yours.",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:54.545Z",
+      "at": "2026-10-08T01:51:16.056Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance",
-          "quote": "RunTrigger false disables all subscriber logic not just the developer's"
+          "quote": "developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers"
         }
       ]
     },
@@ -20946,32 +20980,28 @@
     "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-21/",
-      "hash": "fdfba6173324552458b0bfe2ccfb095d127cedff9c6af8f132e5ee06e4f15cf6",
+      "hash": "de7e3265ef76d8cfe169c42b23d60192da4f6ff8fd572e5125666595face35f8",
       "title": "Weekly Recap: August 14-21",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:59.707Z",
+      "at": "2026-10-08T01:51:16.056Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "AL Runner now gates releases on test suite completion"
-        },
-        {
-          "topic": "topic/dev-itpro/development/the-al-programming-language/code-analysis",
-          "quote": "bc-code-atlas's fork caught up 677 commits discovering undocumented AL-specific behaviors"
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Runner releases with coverage reporting and watch mode improvements"
         }
       ]
     },
     "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/": {
       "kind": "post",
       "key": "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-28/",
-      "hash": "ae7b87678b5a47f27a729a4395c0d061fb1f04d19b4993673cd807a771a74b44",
+      "hash": "eb503a9805b8ac2721b4d9fc4f920800ca44dd2dd4350f9b4de3d714149e9c4d",
       "title": "Weekly Recap: August 21-28",
       "source": "stefanmaron-com",
-      "at": "2026-10-07T00:19:59.707Z",
+      "at": "2026-10-08T01:51:16.056Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/extension-lifecycle/testing",
-          "quote": "AL Runner's changelog generator now handles scoped commit prefixes"
+          "topic": "topic/dev-itpro/development/get-started/altool",
+          "quote": "AL Runner CI tooling fixes, Linux fast lane pipeline bugs"
         }
       ]
     },
@@ -21802,15 +21832,6 @@
         }
       ]
     },
-    "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/": {
-      "kind": "post",
-      "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-80-business-central-trivia/",
-      "hash": "ba20e9e4d7b0bbeb8be450939f25f8f4a875ec89ca1d21035400208c0ad53f29",
-      "title": "BC Friday Tips #80 Business Central Trivia",
-      "source": "thatnavguy-com",
-      "at": "2026-10-07T00:19:57.821Z",
-      "matches": []
-    },
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-81-keep-bccontainerhelper-up-to-date/",
@@ -21888,13 +21909,13 @@
     "post/thatnavguy-com/https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/": {
       "kind": "post",
       "key": "post/thatnavguy-com/https://thatnavguy.com/blog/2026/implement-bcquality-agentic-workflow-business-central/",
-      "hash": "4dba64534779fa7e64650b5ca317753f1cf7ff2e39663ea2efcba49d85d76507",
+      "hash": "fa1c0a2f3765a9ee962d2889f056c63068f0161fc22669017970067b4ff1faad",
       "title": "How to implement Microsoft BCQuality in your GitHub Pull Request",
       "source": "thatnavguy-com",
-      "at": "2026-10-07T00:19:58.536Z",
+      "at": "2026-10-08T01:51:16.056Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
           "quote": "BCQuality is a reference library covering AL code quality best practices"
         }
       ]
@@ -23013,14 +23034,18 @@
     "post/thinkaboutit-be/8096": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8096",
-      "hash": "1b150e765e873cc9380b82832979bca924a19c511fc64dbaabd099890dfa2b3d",
+      "hash": "af9a75e67b746936224932c48c0b5e51e1f3d5993a500dadf3447afa345b2874",
       "title": "Quick Tip: It’s Time to Move to the Word Add-in Data Picker",
       "source": "thinkaboutit-be",
-      "at": "2026-10-07T00:20:19.763Z",
+      "at": "2026-10-08T01:51:23.296Z",
       "matches": [
         {
+          "topic": "topic/dev-itpro/development/programming-in-the-al-language/developing-reports/report-layouts",
+          "quote": "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
+        },
+        {
           "topic": "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts",
-          "quote": "The classic XML Mapping pane for Word report layouts in Business Central has started rejecting newly inserted fields"
+          "quote": "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
         }
       ]
     },
@@ -23063,30 +23088,25 @@
     "post/thinkaboutit-be/8132": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8132",
-      "hash": "1a0776dcffd6e9d36f731f5703e0ec004584fe3a2249f9eca96b2b63fb3159b8",
+      "hash": "c9bfa41ad7ac66b4a4d96cfdc32db4c3de17dab56360ffba4d7470ba77b6d20d",
       "title": "BCQuality: A Shared Quality Bar for AL Code, Built for Agents",
       "source": "thinkaboutit-be",
-      "at": "2026-10-07T00:20:05.831Z",
+      "at": "2026-10-08T01:51:16.056Z",
       "matches": [
         {
-          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-          "quote": "BCQuality catches subtle AL mistakes that pass compilation but violate best practices"
+          "topic": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/al-code",
+          "quote": "BCQuality is Microsoft's open repository of quality knowledge for AL code"
         }
       ]
     },
     "post/thinkaboutit-be/8157": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8157",
-      "hash": "5fdfd457e95ffc5ebc3b8e64d92a362922b3db8e89142e5fd7d8a0c3dd8ca9b5",
+      "hash": "91e4a3b25be3a46b43fde4184f9965d7ca0a66002822feb23c2655dc5b54e850",
       "title": "Quick Tip: GitHub Copilot Chat Modes Are Now Agents, and Edit Mode Is Gone",
       "source": "thinkaboutit-be",
-      "at": "2026-10-07T00:20:05.831Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "Chat modes are now called agent roles: Agent, Ask, and Plan"
-        }
-      ]
+      "at": "2026-10-08T01:51:16.056Z",
+      "matches": []
     },
     "post/thinkaboutit-be/8170": {
       "kind": "post",
@@ -23141,14 +23161,18 @@
     "post/thinkaboutit-be/8211": {
       "kind": "post",
       "key": "post/thinkaboutit-be/8211",
-      "hash": "e4ebe04a87852367b009986169126304cf342338f8eb46b744dbfb113d04c7e7",
+      "hash": "f5e606133afe230954497e1069811941b814d39f44a5a87927d7d4e281d92cf3",
       "title": "Quick Tip: Business Central Release Plans Are Going Away. Where Do You Look Now?",
       "source": "thinkaboutit-be",
-      "at": "2026-10-07T00:18:48.566Z",
+      "at": "2026-10-08T01:51:07.963Z",
       "matches": [
         {
           "topic": "topic/dev-itpro/administration/understand-business-central-online",
-          "quote": "Business Central release cadence remains unchanged with two major releases per year"
+          "quote": "Business Central roadmap information to the AI at Work roadmap, starting September 2026"
+        },
+        {
+          "topic": "topic/business-central/development-and-administration",
+          "quote": "release cadence remains unchanged with two major releases per year"
         }
       ]
     },
@@ -23242,16 +23266,11 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/claude-code-tiny-tips/",
-      "hash": "f36d03413d601c1c146d0a05e92f85ab4678bb48baf83520c67a67dc6dbb2d6d",
+      "hash": "3ed2846825788ad3562fd0455e1d5acceaf609b8cf8e8205215d0cc5dde7f561",
       "title": "Claude Code: Tiny Tips",
       "source": "tine-staric-net",
-      "at": "2026-10-07T00:20:05.831Z",
-      "matches": [
-        {
-          "topic": "topic/dev-itpro/development/get-started",
-          "quote": "Claude Code is an AI development tool with several lesser-known terminal commands"
-        }
-      ]
+      "at": "2026-10-08T01:51:15.105Z",
+      "matches": []
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-fancy-autocomplete-vol3/": {
       "kind": "post",
@@ -23265,19 +23284,19 @@
     "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-to-claude-code/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/copilot-to-claude-code/",
-      "hash": "a2a9db29b5b86193eb98d9eaea056e161b8e0c39e402e2fd59c7ffc55c3c1d19",
+      "hash": "4058190d3c9c9efcd8ee8d8fdd7a504573b681502d8f41c33236db247b5d1a10",
       "title": "Copilot is agent-first, Claude Code is skill-first",
       "source": "tine-staric-net",
-      "at": "2026-10-07T00:20:51.942Z",
+      "at": "2026-10-08T01:51:21.636Z",
       "matches": []
     },
     "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/": {
       "kind": "post",
       "key": "post/tine-staric-net/https://tine.staric.net/blog/2026/outvoted/",
-      "hash": "93c87779c2e4deb48b551a4b9d82cb28283d542984b5b583a934c705a228eb4b",
+      "hash": "f8c4b7eef0de59466d98c93bfc28c9a8bcf10d00ac29c991f73d35390212e4c0",
       "title": "Context is a voting chamber",
       "source": "tine-staric-net",
-      "at": "2026-10-07T00:20:51.942Z",
+      "at": "2026-10-08T01:51:21.636Z",
       "matches": []
     },
     "post/vondervoort-be/130": {
@@ -23643,28 +23662,32 @@
     "post/waldo-be/318707": {
       "kind": "post",
       "key": "post/waldo-be/318707",
-      "hash": "42509ae3a940d87dba5494e0fb3640d56cf597f576ef32a263a8eee9080bb879",
+      "hash": "2f24048d5c693e85ab6865697872967101a78f3bae8aa9c20f1842a8e714386c",
       "title": "Business Central data in Fabric: the way it should be",
       "source": "waldo-be",
-      "at": "2026-10-07T00:20:19.050Z",
+      "at": "2026-10-08T01:51:23.296Z",
       "matches": [
         {
-          "topic": "topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi",
-          "quote": "Business Central now supports native data mirroring to Microsoft Fabric"
+          "topic": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central",
+          "quote": "Business Central now supports native data mirroring to Microsoft Fabric, allowing users to replicate"
         },
         {
-          "topic": "topic/business-central/analytics-business-intelligence-and-repo",
-          "quote": "replicate their tables as Delta Parquet files in OneLake with SQL query access"
+          "topic": "topic/dev-itpro/development/data-analytics-and-reporting",
+          "quote": "Native mirroring to Fabric via a new Fabric integration app removes the need for custom data extraction"
+        },
+        {
+          "topic": "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi",
+          "quote": "All nine Power BI apps get Fabric-based and multi-company versions"
         }
       ]
     },
     "post/waldo-be/318712": {
       "kind": "post",
       "key": "post/waldo-be/318712",
-      "hash": "531f8b8d3304d5192d191272e0d021e57d47794cae2c49795cdd9a48f54ee0ef",
+      "hash": "885b06795b614c59cdaf1780261f6a992db70f9ce74ac48ca19ad1ad81f79527",
       "title": "The Business Central 2026 release wave 2 docs nobody asked for ..",
       "source": "waldo-be",
-      "at": "2026-10-07T00:20:05.810Z",
+      "at": "2026-10-08T01:51:15.105Z",
       "matches": []
     },
     "video/_1LhwG2ZgFw": {

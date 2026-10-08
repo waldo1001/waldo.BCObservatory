@@ -6,12 +6,11 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "The data search result records page now subscribes to the same event as the search page itself to ensure consistent event handling.",
+  "summary": "The Data Search Result Records page now makes an event call it was missing, so it subscribes to the same event as the data search itself.",
   "key_points": [
-    "Added missing event subscription call to Data Search Result Records page",
-    "Synchronizes event handling between search page and results page",
-    "Ensures consistent behavior across search functionality",
-    "Fixes event subscription gap in data search feature"
+    "Added a missing event call to page 2682 Data Search Result Records",
+    "The results page now uses the same event as the search itself",
+    "Small change of two added lines"
   ],
   "change_kind": "fix",
   "behavior_change": true,

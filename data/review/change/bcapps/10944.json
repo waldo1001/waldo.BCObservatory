@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10944",
+  "input_hash": "3542b5eb13e77393760044685e9d38744562bd5c7554565c54bddd4a900c62fe",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:11.196Z",
+  "issues": [
+    "Summary and key points match the description: early blocked validation in both reports and a narrower customer blocked check that allows Ship-only blocks."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020139,
+    "changes_in_call": 6
+  }
+}

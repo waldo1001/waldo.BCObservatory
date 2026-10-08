@@ -5,7 +5,7 @@
   "source": "thatnavguy-com",
   "published_at": "2025-11-14T00:00:00.000Z",
   "words": 133,
-  "summary": "When copying documents in Sales Order processing, not all fields transfer to Posted Sales Shipment and Posted Sales Invoice. Shipping Agent Code and Service Code only appear in header tables, not line tables, which can leave key fields blank. Copying from Archived Sales Orders preserves more data than copying from Posted Invoices.",
+  "summary": "Some Sales Order fields do not carry over to posted shipments and invoices. For example, Shipping Agent Code and Shipping Agent Service Code exist on both Sales Header and Sales Line but only reach the Sales Shipment Header and Sales Invoice Header. As a result, copying from a posted invoice can leave fields blank, and the post recommends copying from an archived sales order instead.",
   "key_points": [
     "Shipping Agent Code and Shipping Agent Service Code exist in Sales Header/Line but only appear in Posted Shipment/Invoice headers",
     "Copying from Posted Sales Invoice can result in missing fields compared to copying from Archived Sales Order",
@@ -38,26 +38,13 @@
     {
       "type": "table",
       "name": "Sales Invoice Header"
-    },
-    {
-      "type": "table",
-      "name": "Posted Sales Shipment"
-    },
-    {
-      "type": "table",
-      "name": "Posted Sales Invoice"
-    },
-    {
-      "type": "table",
-      "name": "Archived Sales Order"
     }
   ],
   "features": [
     "copy documents",
     "sales order processing",
     "posted documents",
-    "archived documents",
-    "field mapping"
+    "archived documents"
   ],
   "versions": [],
   "language": "en",

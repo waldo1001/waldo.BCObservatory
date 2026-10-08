@@ -1,9 +1,22 @@
 {
   "week": "2026-W41",
-  "input_hash": "c00a6b8baa2b1f2c3b840fa1cfb737c7e0937f05fbccccbb91065de3d152a7b4",
-  "text": "The largest behaviour changes this week touch billing and platform features. #12207 marks MCP Data Query Tools as billable and requires a pricing acknowledgement before activation, with headless imports defaulting to disabled. #12428 adds a public Copilot feature trial interface to System Application. #12242 opens Power BI report deployment to all companies, not only evaluation ones, and #12064 lets the SharePoint connector handle hash and percent characters in paths. #9953 renames AppSource text to Marketplace. Finance and localization fixes include #11629 for Norwegian SAF-T 1.30 export, #11848 for foreign currency opening balances in report 11564, #12127 for the Austrian U30 form, #9347 for German IssueDate, #12141 for non-deductible VAT on foreign-currency projects and #12135 for the Reverse Charge VAT upgrade. E-documents gain Peppol export of self-billed purchase documents in #11560, while #12055 now shows an error for unmatched Order Responses. Manufacturing fixes cover #11959, #12188, #12059 and #11994. Subscription Billing fixes are #10446, #10182 and #11637. Shopify received #11604, #12215, #12214, #12260 and #12139. Cleanup includes CLEAN27 removal in #12290 and #12293, and performance work in #12078 and #12307. BCQuality added knowledge articles, among them #214, #208 and #177.",
-  "changes": 62,
+  "input_hash": "7b6acf5342919068c1d2017e9677eb96fbb7ecc6f954c5f17bef0d9d87225d92",
+  "text": "Two breaking removals lead the week: #12290 deletes code kept behind CLEAN27 in Service Management, including obsolete ES and IT objects, and #12293 does the same in Warehouse, so extensions still using those elements must be updated. Several new capabilities change behaviour. #12428 adds a public Copilot feature trial interface, #12207 marks MCP Data Query Tools as billable with a pricing acknowledgement before activation, and #12242 lifts the evaluation-company limit on Power BI report deployment. #11560 lets self-billed purchase invoices and credit memos export as Peppol BIS 3.0 e-documents, #12306 warns before releasing an already sent purchase order, and #12064 supports hash and percent characters in SharePoint paths. Other additions include #12213 (row and column definition preview), #11748 (bonded locations for excise tax), #11604 (Shopify delivery timestamp) and #10212 (SetReferenceType on SignedXml). Fixes cluster in manufacturing (#11959, #12188, #12059, #11994), Shopify (#12260, #12215, #12214, #12139), Subscription Billing (#10446, #11637, #10182), e-documents and tax reporting (#11629, #9347, #12055, #12127, #11848), and Email (#12118, #12463). Performance work covers #12078 for Excel export and #12307 for a set-based upgrade. BCQuality gained several knowledge articles, for example #213 and #215.",
+  "changes": 64,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.06392,
-  "at": "2026-10-07T20:00:32.874Z"
+  "cost_usd": 0.06693,
+  "at": "2026-10-08T01:26:53.141Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-08T02:14:14.417Z",
+    "verdict": "approve",
+    "issues": [
+      "#11848 is grouped under 'e-documents and tax reporting', but it fixes foreign currency opening balances in a G/L account sheet report (Report 11564). That is financial reporting, not tax reporting. Minor grouping imprecision."
+    ],
+    "input_hash": "7b6acf5342919068c1d2017e9677eb96fbb7ecc6f954c5f17bef0d9d87225d92",
+    "cost_usd": 0.16309600000000002,
+    "applied": [],
+    "rejected_edits": []
+  }
 }

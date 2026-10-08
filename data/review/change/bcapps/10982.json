@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/10982",
+  "input_hash": "6b223e4d498d24b6df4fdc800df2abd4fa44add42f1978257f7d0070ab160c4b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:11.196Z",
+  "issues": [
+    "The summary says the PR re-enables the test, but only the Reminder CZL report changes (one line). The PR fixes the report so the disabled test can pass and be enabled again.",
+    "The key point that the test was disabled only in Czech localization is slightly off. The work item covers IT and CZ, and this PR targets CZ.",
+    "Product code changes to fix a failing scenario, so behavior_change should be true."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020139,
+    "changes_in_call": 6
+  }
+}

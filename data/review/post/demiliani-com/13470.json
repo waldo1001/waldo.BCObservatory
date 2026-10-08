@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/13470",
+  "input_hash": "7332497560fef98842ebf5f709871e32f021eaf85a9f06cb86d6d4cfad2b5c70",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:33.076Z",
+  "issues": [
+    "Summary, key points and quote are supported by the post; the quote appears word for word in the conclusion.",
+    "Model Context Protocol is a protocol, not an AL api object, so that object entry is miscategorized and dropped.",
+    "The Business Central connector is named in the post and kept."
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032608,
+    "posts_in_call": 4
+  }
+}

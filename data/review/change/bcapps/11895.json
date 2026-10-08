@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11895",
+  "input_hash": "d1c1522727df3039e91268c490b0a3311be8bb7ca1b974be7fac3855a8bd74b7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:35.613Z",
+  "issues": [
+    "Accurate; confirm and message are GUI-guarded, which is a minor detail not needed on the page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01697,
+    "changes_in_call": 6
+  }
+}

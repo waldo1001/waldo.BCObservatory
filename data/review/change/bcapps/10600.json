@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10600",
+  "input_hash": "1cf43649c0cbb210907de32a0ac35b53b46fcdb8da53238be8014cf4c4d70238",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:07.626Z",
+  "issues": [
+    "The summary and key points match the description.",
+    "The subscriber now requires Reclassify CO2e % to have a value. This changes behaviour but does not break compilation."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028932,
+    "changes_in_call": 6
+  }
+}

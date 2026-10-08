@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9118",
+  "input_hash": "d05e0b65a8043c4ee1e56f30c34f8898944559d9f5542270f9a2a9b373a6212f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:36.648Z",
+  "issues": [
+    "The description only lists linked GitHub issues and work items. It says nothing about what each change does, so claims like corrections to line handling, posting or production order calculations, 'improved' and 'enhanced' are unsupported.",
+    "The summary and key points were rewritten to stick to the files and objects that changed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019678,
+    "changes_in_call": 6
+  }
+}

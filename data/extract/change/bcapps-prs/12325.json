@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense API tests are re-enabled by consolidating authentication mechanisms and removing API-specific test exclusions, while fixing policy snapshot test issues and preserving non-API exclusions.",
+  "summary": "Expense Agent API tests are re-enabled. Eleven Expense API and helper paths move to shared authentication, 51 Expense API exclusions are removed, and nine non-API exclusions stay. Clean test codeunit execution is turned on, and 193 temporary API exclusions are added to the existing APIV1 and APIV2 manifests.",
   "key_points": [
     "Migrated 11 Expense API and helper paths to shared authentication",
-    "Removed 51 Expense API test exclusions while preserving 9 non-API exclusions",
-    "Enabled existing clean test codeunit execution using existing DisabledTests selectors",
-    "Consolidated fixes for policy URL composition, response isolation, and permission handling",
-    "No new runner implementations or test scope changes introduced"
+    "Removed 51 Expense API test exclusions; kept 9 non-API Expense exclusions",
+    "Enabled the existing enableCleanTestCodeunitExecution setting using existing DisabledTests selectors",
+    "Added 193 temporary method-specific exclusions to the existing APIV1 and APIV2 manifests, to be removed in a follow-up PR",
+    "Consolidated test fixes for policy URL composition, response isolation, assigned-user filtering and denied-approval handling"
   ],
   "change_kind": "fix",
   "behavior_change": false,

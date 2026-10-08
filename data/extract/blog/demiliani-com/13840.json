@@ -5,14 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2026-06-16T07:56:52.000Z",
   "words": 1897,
-  "summary": "Azure Logic Apps Standard can securely connect to Azure OpenAI through a private endpoint without public internet exposure. The post explains how to configure a virtual network with subnets, create a private endpoint for Azure OpenAI, disable public access, enable VNet integration on Logic Apps, and use managed identity authentication instead of API keys.",
-  "key_points": [
-    "Private endpoint creates a private network interface for Azure OpenAI accessible via a private IP within the VNet",
-    "Logic Apps Standard requires VNet integration with subnet delegation to route outbound traffic privately",
-    "System-assigned managed identity replaces API key authentication, following least privilege with Cognitive Services OpenAI User role",
-    "DNS resolution within VNet returns the private IP, while external traffic sees public IP which is disabled after setup",
-    "All traffic flows through Microsoft backbone network infrastructure, never reaching the public internet"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "integration",
     "copilot",

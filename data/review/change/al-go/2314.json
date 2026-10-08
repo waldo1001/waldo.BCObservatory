@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2314",
+  "input_hash": "607b116015cc621d2e1fb8397daff473b1256b028dbcfee160a9b6b8e93b4423",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:12.353Z",
+  "issues": [
+    "Everything is supported: a 3-attempt chain with 30-second waits, continue-on-error on the first two attempts, a fix for ETIMEDOUT errors, and no added time when the download succeeds."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01916,
+    "changes_in_call": 6
+  }
+}

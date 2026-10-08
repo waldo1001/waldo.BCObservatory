@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9549",
+  "input_hash": "c4db7d0aa20d80ddf7afa23bcc3f97a45b9e87260ef93cd9dda06c1397a5be4b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:38.059Z",
+  "issues": [
+    "Key point 1 says the reports include 'vendor statements', but none of the 18 listed reports is a vendor statement; they are balance, trial balance, label, order, payment receipt, purchase list and register reports.",
+    "Summary, flags and the other key points match the description."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029976,
+    "changes_in_call": 6
+  }
+}

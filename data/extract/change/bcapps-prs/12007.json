@@ -6,10 +6,10 @@
   "systems_joined": [],
   "summary": "Fixed incorrect TDS amount calculation when applying payments to purchase invoices via Applies-to ID in the Indian version. The system was deducting the gross payment amount instead of the TDS base, resulting in over-deducted TDS.",
   "key_points": [
-    "Corrected calculation logic in the Applies-to ID TDS use case to properly sum applied TDS base amounts",
-    "Removed an erroneous expression that was overwriting the calculated applied amount with the gross payment amount",
-    "Bumped use-case version from 5 to 6 to ensure the corrected configuration is re-imported",
-    "TDS now calculates correctly for single and multiple applied payments"
+    "Removed an expression in the Applies-to ID TDS use case that replaced the summed TDS base of applied payments with the gross Amount to Apply",
+    "AppliedAmount now keeps the summed TDS base used for the taxable amount excluding applied amounts",
+    "Use-case version raised from 5 to 6, and the registered version in TDS Tax Configuration updated so the corrected use case is re-imported",
+    "TDS now comes out correctly for one or more applied payments"
   ],
   "change_kind": "fix",
   "behavior_change": true,

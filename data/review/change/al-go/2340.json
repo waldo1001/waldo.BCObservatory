@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2340",
+  "input_hash": "69c87da0c3928dfa9852df4486c40b416b9d022b5ff97ceb90669689a747c123",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:39.890Z",
+  "issues": [
+    "Summary, key points and flags match the description; opt-in setting with default false means no behavior change for existing users."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01831,
+    "changes_in_call": 6
+  }
+}

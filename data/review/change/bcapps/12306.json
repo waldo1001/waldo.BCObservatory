@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12306",
+  "input_hash": "d19c78c0de81569685fbd160e2eb1f486666d7ac1de60333bbecf42b6b77ce65",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:56.344Z",
+  "issues": [
+    "Key point 4 says the change supports Peppol integration, but the description says Peppol OrderChange is not supported and the warning is a stopgap.",
+    "Summary and flags are otherwise supported. Calling it a feature is defensible, although it fixes a work item."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017787,
+    "changes_in_call": 6
+  }
+}

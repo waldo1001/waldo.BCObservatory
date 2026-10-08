@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10165",
+  "input_hash": "061e2cb0ef66c9ff32c4ae328ca1c2c97ed26bf28509895d8f11bcf80b908409",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:53.609Z",
+  "issues": [
+    "Only an event is added; standard behavior is unchanged without subscribers, so behavior_change should be false.",
+    "The PR does not resolve the JIT error by itself; it lets subscribers avoid it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025215,
+    "changes_in_call": 6
+  }
+}

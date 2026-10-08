@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10010",
+  "input_hash": "4ae6dad5d0d8325d89032543b32255808809e505c459fe65d7df3ccb5e22936b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:53.353Z",
+  "issues": [
+    "The page matches the description: four API pages in the automate group and three buffer tables.",
+    "The change only adds new objects, so it is a feature and not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019088,
+    "changes_in_call": 6
+  }
+}

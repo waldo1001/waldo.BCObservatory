@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11649",
+  "input_hash": "147ee9ff0c9b8ec404702187810a7f4abee82fc5a799debae49599a3ce19f76f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:59.823Z",
+  "issues": [
+    "The crm system is not supported; the post only covers customer, vendor and sales order cards, so sales and purchasing are enough.",
+    "Objects, features, quotes and key points all match the post. The page extensions are not listed, but that is not an error."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025084,
+    "posts_in_call": 4
+  }
+}

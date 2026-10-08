@@ -5,18 +5,17 @@
   "source": "duiliotacconi-com",
   "published_at": "2026-02-13T13:56:26.000Z",
   "words": 1114,
-  "summary": "Dynamics 365 Business Central 2025 Wave 2 optimizes SmartSQL by combining multiple FlowFields with identical table filters into a single OUTER APPLY statement, reducing SQL queries and improving query performance. This enhancement matters for applications with many FlowFields querying the same data pool.",
+  "summary": "Starting with Business Central 27.0 (2025 Wave 2), SmartSQL puts all FlowFields that use the same table and the same filters into one OUTER APPLY, instead of one OUTER APPLY per FlowField. This removes duplicate data retrieval and changes the execution plan. It is always on by default.",
   "key_points": [
-    "FlowFields sharing the same table and filters now consolidate into one OUTER APPLY instead of separate ones, eliminating redundant data retrieval",
-    "SmartSQL automatically groups SUM, AVERAGE, COUNT, MIN, MAX, EXISTS, and LOOKUP aggregations when they target the same data",
-    "This optimization is enabled by default in version 27.0 and has no configuration needed",
-    "Indexed views (V-SIFTs) are excluded from grouping to maintain their specialized behavior",
-    "The feature reduces network chatter and improves execution plans, with measurable impact on telemetry signals like page views and long-running query traces"
+    "Before v27, SmartSQL sent one SQL statement per record set, with one OUTER APPLY for each FlowField",
+    "In v27, FlowFields with the same source table and the same filters share one OUTER APPLY",
+    "Aggregations that can be grouped: SUM, AVERAGE and COUNT; MIN and MAX (with COUNT too if indexed); EXISTS and LOOKUP",
+    "Maintained indexed views (V-SIFTs) are not grouped with non-indexed FlowFields",
+    "The post suggests checking pageViews (CL0001) and long running SQL query (RT0005) telemetry after upgrading to see the effect"
   ],
   "systems": [
     "platform",
-    "development",
-    "reporting"
+    "development"
   ],
   "topics": [
     "flowfield optimization",

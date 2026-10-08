@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/introducing-alcops/",
+  "input_hash": "6fc74f8dbabd0fd7f5fe3473132949fdcd8961f1487fc65cdf9cb7784d5530ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:40.475Z",
+  "issues": [
+    "Key point 5 says LinterCop is maintained only through the end of 2026. The post hedges this as probable, so the point overstates it. Reworded.",
+    "The summary, objects, features, versions and quote are supported. The quote changes a dash character but keeps the meaning."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049582,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/10921",
+  "input_hash": "f92481a28ef2b7c1d1989b679041780e5dde7272a659e7902d9534bbc526ee7a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:04.620Z",
+  "issues": [
+    "One key point says cloud and on-premises both have update tracks. The post never mentions cloud; its linked lists are on-premises.",
+    "The 'version management' feature is vague and not supported by the post.",
+    "The summary is acceptable."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024902,
+    "posts_in_call": 4
+  }
+}

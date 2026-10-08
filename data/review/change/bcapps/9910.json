@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9910",
+  "input_hash": "61766443c2eceb2574bc2383db661edd31195e1a9d600695534240b409248ea2",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:48.759Z",
+  "issues": [
+    "The summary and key points match the description. The page leaves out the System Application AOAI deployment changes and the resource file renames, but nothing it says is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016871,
+    "changes_in_call": 6
+  }
+}

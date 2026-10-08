@@ -7,11 +7,11 @@
   "words": 284,
   "summary": "Data Agents in Microsoft Fabric enable users to ask natural language questions about Business Central data without using APIs. The feature works with Mirrored Data sources for near real-time data synchronization and can be integrated into Copilot Studio for enhanced user experience.",
   "key_points": [
-    "Data Agents leverage Fabric's native data storage, avoiding direct API calls to Business Central",
-    "Mirrored Data sources provide near real-time data when synchronized via bc2adls",
-    "Agent instructions can configure joins between tables to answer complex queries across multiple data sources",
-    "Limiting tables to 100 columns maintains query quality and performance",
-    "Integration with Copilot Studio enables deployment as AI applications for business users"
+    "Fabric Data Agents answer natural language questions on Business Central data already stored in Fabric, without API calls",
+    "Mirrored data sources synced with bc2adls give near real-time data",
+    "Keep tables at 100 columns or fewer, or answer quality drops",
+    "Agent instructions let it join tables, for example Customer Ledger Entries with Customer to group by City",
+    "Querying Fabric instead of the MCP server or APIs keeps load off Business Central users, and the agent can be added to Copilot Studio"
   ],
   "systems": [
     "copilot",

@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9637",
+  "input_hash": "3cb41a7d3c02d7c8b56421edee58e9877c086c22e118c4050dbfe218baaa5cb7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:27.500Z",
+  "issues": [
+    "The summary says ten events, but the PR covers ten event-request work items and some of them add two events. Reworded to match.",
+    "Key points leave out the CRM quote, NL bank account and Config. Excel Exchange changes, so I added them.",
+    "Flags are supported: the description says default behavior is unchanged and the changes only add things."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02234,
+    "changes_in_call": 6
+  }
+}

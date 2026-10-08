@@ -10,9 +10,9 @@
   "summary": "Undo receipt and undo shipment operations now work correctly for drop shipments involving service and non-inventory items by removing unnecessary cost application filters and adding a fallback lookup method through drop shipment links.",
   "key_points": [
     "Removed 'Cost Application' filter from drop shipment application entry lookup to include cost-less entries for non-inventoriable items",
-    "Added null check when finding item application entries to skip missing records instead of erroring",
-    "Implemented fallback method to locate sales shipment lines through drop shipment document links when item ledger entry path fails",
-    "Enables both undo shipment and undo receipt operations to complete successfully for service and non-inventory drop shipments"
+    "Guarded the item application entry lookup so a missing entry is skipped instead of erroring",
+    "Added fallback lookup of the sales shipment line through the drop shipment document link when the item ledger entry path finds nothing",
+    "Enables both undo shipment and undo receipt for service and non-inventory drop shipments"
   ],
   "change_kind": "fix",
   "behavior_change": true,

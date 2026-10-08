@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11960",
+  "input_hash": "d61d6cfb7110d9ad93e2a32045debd1d4d3e1cadd48fc0a5ee6dd6fe466ac49c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.331Z",
+  "issues": [
+    "The linked work item describes a bug: the pages wrongly appear as Lists instead of Archive. This is a categorization fix, not a feature."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019188,
+    "changes_in_call": 6
+  }
+}

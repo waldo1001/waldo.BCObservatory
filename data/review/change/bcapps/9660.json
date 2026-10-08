@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9660",
+  "input_hash": "4c92b8c343493d46a2457ef4cacd196e82cc26d42b414961f9a779124e4e3709",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.222Z",
+  "issues": [
+    "The summary and key points get the trigger wrong. Per the title, the problem is a firm planned order and a released production order sharing the same Document No., not duplicate item numbers.",
+    "The description has no detail, so the summary should stick to what the title says."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018258,
+    "changes_in_call": 6
+  }
+}

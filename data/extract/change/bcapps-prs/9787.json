@@ -8,11 +8,10 @@
   ],
   "summary": "A notification now alerts users when a vendor lacks a subcontracting location code, enabling early detection of missing configuration before downstream processes require it.",
   "key_points": [
-    "New actionable notification added to alert users of missing vendor subcontracting location codes",
-    "Notification appears in the subcontracting workflow to prevent future process failures",
-    "Helps users identify and fix configuration issues proactively",
-    "Changes affect the Work Center Card UI and notification management codeunit",
-    "Test coverage added for the new notification functionality"
+    "Adds an actionable notification when a vendor has no subcontracting location code",
+    "Notification logic lives in Subc. Notification Mgmt.; the Work Center Card page extension is updated to use it",
+    "Lets users spot the missing setup before a later process needs it",
+    "UI tests added for the new notification"
   ],
   "change_kind": "feature",
   "behavior_change": true,

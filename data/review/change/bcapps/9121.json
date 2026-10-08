@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9121",
+  "input_hash": "25d8fa3f1a50c62e0e7a3e3a1e87f4e7342c62841183de8666a4b1bac34f3cc5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:20.864Z",
+  "issues": [
+    "The summary says 'transfer-type items', but the fix applies to transfer-type item ledger entries."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Payables Agent app now includes an email storage cleanup solution to help administrators identify and remove duplicate email records, accessible through an in-product interface.",
+  "summary": "The Payables Agent app adds an email storage cleanup page, reachable only via a URL parameter, that helps admins find duplicate email records and clean up email storage. A scheduler proactively sends admins steps for remediation.",
   "key_points": [
-    "Adds new codeunits and tables to manage email storage cleanup operations",
-    "Introduces setup configuration and duplicate detection buffer for cleanup tasks",
-    "Provides pages for administrators to view and manage email duplicates and cleanup settings",
-    "Includes a scheduler to run cleanup proactively",
-    "Updates permission sets to grant access to cleanup functionality"
+    "New PA Email Storage Cleanup and PA Email Duplicates pages, accessible only via URL parameter",
+    "New cleanup setup table and duplicate buffer table",
+    "Cleanup, runner, inbox row delete and scheduler codeunits added",
+    "Scheduler proactively sends admins remediation steps",
+    "Payables Agent admin permission set updated for the new objects"
   ],
   "change_kind": "feature",
   "behavior_change": true,

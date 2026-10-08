@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11435",
+  "input_hash": "57df587c0da3b748424e8c3f8e70436383a70bd2db2efaa99462dbf9b846f01d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:36.020Z",
+  "issues": [
+    "The key point about schema validation for Nemhandel and MTD is wrong for MTD. MTD gets only a size cap and an early exit on non-2xx responses.",
+    "PII minimization applies only to Nemhandel telemetry, not to every rejection path.",
+    "The PR fixes a linked work item and hardens existing integrations, so fix fits better than feature."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019416,
+    "changes_in_call": 6
+  }
+}

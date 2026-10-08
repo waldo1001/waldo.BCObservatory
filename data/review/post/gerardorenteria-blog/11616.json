@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11616",
+  "input_hash": "55e6662dad6a3954618451e556c669a1ffa053d30e61c0526d419fbb19604463",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:02.904Z",
+  "issues": [
+    "Summary presents the October 2025 to March 2026 window as a release when the post describes planned capabilities.",
+    "Key point claims deprecated features are removed and optional features now mandatory; the post only links to lists and says deprecated items will not be in future versions and that some optional features may become mandatory.",
+    "Quotes are verbatim from the English section."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037941,
+    "posts_in_call": 4
+  }
+}

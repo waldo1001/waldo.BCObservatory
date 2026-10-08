@@ -6,14 +6,14 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Purchase order correction now allows quantity increases for Service and Non-Inventory items, which updates the purchase order with negative received and invoiced values when the corrective credit memo is posted.",
+  "summary": "Fixes corrective credit memos from posted purchase invoices with Service or Non-Inventory lines. Before, the quantity could be increased, and posting the credit memo left negative Received and Invoiced values on the original purchase order. Purchase Line and Correct Posted Purch. Invoice are changed in W1 and the localization layers.",
   "key_points": [
-    "Service and Non-Inventory item types can now have their corrective credit memo quantities increased",
-    "Posting the corrected invoice updates the purchase order with negative received and invoiced values",
-    "Changes applied across multiple localization layers for consistent behavior",
-    "Test coverage added to validate the new functionality"
+    "Addresses quantity increases on corrective credit memos for Service and Non-Inventory purchase lines",
+    "Before the fix, posting such a credit memo left negative Received and Invoiced values on the purchase order",
+    "Changes Purchase Line (table 39) and Correct Posted Purch. Invoice (codeunit 1313) across W1 and the localization layers",
+    "Adds tests to O365CorrectPurchaseInvoice in several layers"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

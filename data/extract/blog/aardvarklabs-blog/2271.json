@@ -7,11 +7,11 @@
   "words": 1189,
   "summary": "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports in Business Central. This post explains RDLC fundamentals, how to edit existing report layouts with Microsoft Report Builder, and when to use RDLC versus Excel and Word reporting formats.",
   "key_points": [
-    "RDLC reports are self-hosted and can contain data, unlike RDL which requires separate hosting",
-    "Microsoft Report Builder (from Power BI team) is required; files must have .RDL extension to open",
-    "Report elements use exact positioning and can grow/shrink, enabling pixel-perfect layouts",
-    "Tablix is the powerful data element that functions as table or matrix with row/column grouping",
-    "Expressions can control almost any property including visibility, color, and calculated values"
+    "RDLC can self-host a report and hold its data, while RDL only defines the report and needs separate hosting",
+    "Editing needs Microsoft Report Builder; it only opens RDL files, so rename the exported .rdlc or type the full path in the open dialog",
+    "Elements sit at exact positions and can grow or shrink, which gives pixel-precise printed output",
+    "A Tablix connects to a dataset and supports row and column groups, so it can act as a table or a matrix",
+    "Almost any property can be driven by an expression; new layouts are uploaded through Report Layouts with RDLC chosen as the format"
   ],
   "systems": [
     "reporting",

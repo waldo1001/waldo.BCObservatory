@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13744",
+  "input_hash": "b285bff0745907bb91066209abc5e0b1dba74d59bea877a5e730d21c4e9ac967",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:57.106Z",
+  "issues": [
+    "Summary claimed updates fix vulnerabilities across all versions; the post only says some updates fix vulnerabilities.",
+    "Summary said the list starts at v14; the post lists versions back to v13 (2018 Wave 2).",
+    "Version list labels v24 as 2023 Wave 2, which mirrors the post itself."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027774,
+    "posts_in_call": 4
+  }
+}

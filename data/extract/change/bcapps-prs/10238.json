@@ -8,13 +8,12 @@
   ],
   "summary": "The Payables Agent setup page no longer displays consumed Copilot credits information, and the related calculation code has been removed as part of monetization changes.",
   "key_points": [
-    "Consumed Copilot credits section removed from Payables Agent setup page",
-    "Internal PACostEstimate codeunit deleted as it was only used by removed UI controls",
-    "Change aligns with upcoming monetization changes for the Payables Agent",
-    "No other references to removed functionality remain in the codebase",
-    "Low-risk change with no impact on extensions"
+    "Consumed Copilot credits section removed from the Payables Agent Setup page",
+    "Internal PA cost estimate codeunit deleted because only the removed controls used it",
+    "Removal is tied to upcoming monetization changes",
+    "Author confirmed no remaining references to the removed codeunit or controls"
   ],
-  "change_kind": "obsoletion",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

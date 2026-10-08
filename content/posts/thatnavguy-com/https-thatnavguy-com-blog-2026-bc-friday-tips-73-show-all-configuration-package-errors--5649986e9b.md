@@ -12,12 +12,12 @@ tags:
   - data migration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:06.435Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,11 +66,9 @@ quotes:
     why_it_matters: Identifies the core capability that speeds up troubleshooting during package implementation
   - text: This makes it much faster to review and fix issues.
     why_it_matters: Highlights the practical benefit of using this feature for efficient problem resolution
-code_objects_mentioned:
-  - page Configuration Package
+code_objects_mentioned: []
 systems:
   - administration
-  - integration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -86,7 +84,7 @@ preview:
 
 # BC Friday Tips #73 Show All Configuration Package Errors
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-29 · 92 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-73-show-all-configuration-package-errors/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-29 · 92 words · tier community · reviewed (checked by Opus)
 
 > When applying a Configuration Package in Business Central, users can view all errors on a single page by clicking the Error section, allowing faster review and resolution without checking entries individually.
 
@@ -101,14 +99,6 @@ preview:
 
 - "you can view all Configuration Package errors on a single page" (Identifies the core capability that speeds up troubleshooting during package implementation)
 - "This makes it much faster to review and fix issues." (Highlights the practical benefit of using this feature for efficient problem resolution)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- page "Configuration Package"
-
-Not found in BC28-30: page "Configuration Package".
 
 ## Context
 

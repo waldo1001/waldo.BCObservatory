@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9062",
+  "input_hash": "7b2776754a405d31e425d8d5bfe46ab1b101791de07b02199db1aba10b88f05d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:12.353Z",
+  "issues": [
+    "The description gives no technical detail beyond the bug title. The page stays generic enough to be supported, but 'financial reporting is now more accurate' is filler.",
+    "The page should name both reports: 'Inventory Valuation - WIP' (Base Application) and 'Inventory Valuation - WIP CZA' (AdvancedLocalizationPack)."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01916,
+    "changes_in_call": 6
+  }
+}

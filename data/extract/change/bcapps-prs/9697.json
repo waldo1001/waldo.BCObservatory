@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Mexican CFDI e-invoice generation now correctly calculates SubTotal and tax amounts by rounding line values individually before summing them, and validates rounding models locally before PAC submission to prevent validation errors.",
+  "summary": "Mexican CFDI stamp requests now recalculate SubTotal as the sum of line amounts rounded to 6 decimals, excluding retention lines, and recompute Total to match. Before calling the PAC, rounding models are checked locally against per-line tax amounts. Other models are tried only if the PAC rejects the document with a rounding error.",
   "key_points": [
     "SubTotal is recalculated as the sum of individually rounded line amounts to comply with CFDI40108 requirements",
     "Total is recomputed after SubTotal adjustment to maintain consistency with CFDI40119 standards",

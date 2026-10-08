@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -282,7 +282,8 @@ links:
   localizations: []
   videos:
     - video/f_i4_BRz-oA
-  posts: []
+  posts:
+    - post/demiliani-com/12123
   guidelines: []
   changes:
     - change/bcapps/9569
@@ -305,7 +306,7 @@ coverage:
   learn: 35
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 149000
@@ -369,6 +370,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
+- [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../posts/demiliani-com/12123.md) (community post): "extensions must be compiled with .NET Standard assemblies when published to service tiers"
 - [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "AL extensibility; migration patterns; migrator framework; extension points"
 
 ## Business Central pages and reports

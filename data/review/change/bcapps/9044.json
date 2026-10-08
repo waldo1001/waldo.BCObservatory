@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9044",
+  "input_hash": "1e6235bc17b15444cdb36dd857b3d5ee6c5376a4aaa0cc11bed89f55e26c301d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:42.914Z",
+  "issues": [
+    "Key points invent details: that validation logic was added back to the table, that the pages now enforce validation, and that the check happens when selecting contacts. The files show only small changes to the Purchase Header table and the document pages.",
+    "The regression source (460343) is named in the description and is kept."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020503,
+    "changes_in_call": 6
+  }
+}

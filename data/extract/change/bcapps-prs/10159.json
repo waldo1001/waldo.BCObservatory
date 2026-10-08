@@ -7,12 +7,12 @@
     "development",
     "finance"
   ],
-  "summary": "A warning notification alerts users when Power BI Account Categories Mappings are missing during finance setup, helping them identify a common configuration issue.",
+  "summary": "The Power BI Reports Setup page now warns users when Power BI Account Categories mappings are missing, a common problem in customer setups. The check is implemented in the Finance Installation Handler codeunit.",
   "key_points": [
-    "Detects missing Power BI Account Categories Mappings in the Power BI Reports Setup",
-    "Displays a warning notification to users when the mappings are not configured",
-    "Addresses a frequent customer issue with Power BI integration",
-    "Added to Finance Installation Handler to trigger during finance setup"
+    "Detects missing Power BI Account Categories mappings",
+    "Shows a warning on the PowerBI Reports Setup page",
+    "Check logic added to the Finance Installation Handler codeunit",
+    "Targets a frequent customer configuration issue"
   ],
   "change_kind": "feature",
   "behavior_change": true,

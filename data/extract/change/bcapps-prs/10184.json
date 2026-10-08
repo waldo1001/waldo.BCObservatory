@@ -8,11 +8,11 @@
   ],
   "summary": "The Recurring General Journal page now exports recurring frequency date formulas in localized UI tokens (like +1T for German) instead of invariant tokens (+1D) when exporting to Excel or OData.",
   "key_points": [
-    "Page field binding changed from direct table field to text variable using Format() for localized display",
-    "On validation, entered text is evaluated and converted back to DateFormula for storage",
-    "Fixes German and other localization exports to show localized date formula tokens",
-    "Applied across multiple language layers (W1, APAC, ES, IT, RU)",
-    "Includes test coverage for the conversion logic"
+    "Recurring Frequency on page 283 is now bound to a text variable holding Format() of the DateFormula, so exports use session-language tokens",
+    "Entered text is converted back with Evaluate and stored as the DateFormula on validation",
+    "Fixes German exports showing +1D/+1Y instead of +1T/+1J in Excel",
+    "Page changed in the W1, APAC, ES, IT and RU layers",
+    "Unit tests added in ERMGeneralJournalUT across several country layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

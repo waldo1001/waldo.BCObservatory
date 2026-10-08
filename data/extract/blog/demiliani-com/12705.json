@@ -5,13 +5,8 @@
   "source": "demiliani-com",
   "published_at": "2025-11-02T20:58:38.000Z",
   "words": 1066,
-  "summary": "This post explores how Large Language Models experience performance degradation as they approach their context window limits through practical testing with GPT-4.1 and GPT-5. It demonstrates that both models encounter dramatic slowdowns around 400,000 characters and provides strategies for developers to optimize LLM applications by managing context size effectively.",
-  "key_points": [
-    "Context window represents the maximum text an LLM can process in a single request, with measurable impacts on response time and quality",
-    "Performance degradation occurs at approximately 400,000 characters for GPT-4.1 and at 600,000+ characters for GPT-5, with response times spiking to 60+ seconds",
-    "Attention mechanism complexity scales quadratically with input length, causing exponential increases in computational cost near limits",
-    "Developers should stay within 80-85 percent of theoretical token limits and implement context pruning, document chunking, and proper token counting"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "copilot",
     "development",

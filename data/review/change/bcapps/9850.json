@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9850",
+  "input_hash": "c95269d4c668bf1cc556b8a04cbe4998e85c7de739829ed4cf8b745d6faee930",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:29.855Z",
+  "issues": [
+    "Summary and key points match the description: the variant code is now passed to the temporary sales and purchase lines, and the missing purchase line assignment was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024712,
+    "changes_in_call": 6
+  }
+}

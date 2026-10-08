@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thinkaboutit-be/7683",
+  "input_hash": "5fab8aaecf9c785e556cb8ca749a0a7a56bea35f175fa69bef9906d489a22322",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:06.715Z",
+  "issues": [
+    "Key point on property choices added Power BI, but the post ties those property consequences to Power Automate and Power Apps.",
+    "Key point on separation mixed the write/read split with the per-domain query advice for Power BI; independent filtering and refresh applies to domain queries.",
+    "Listed objects are generic object types, not named objects in the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037516,
+    "posts_in_call": 4
+  }
+}

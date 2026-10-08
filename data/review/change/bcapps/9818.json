@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9818",
+  "input_hash": "0ece14f02dc911cbb1c1d535045d61a9691c456afd1ccb6a116e6511e54522e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:40.148Z",
+  "issues": [
+    "The key point 'Setup wizard integrated with app installation process' is not supported. The given material shows a Business Setup extension codeunit change and a Manufacturing Setup page extension change, not an install hook.",
+    "The rest matches the description: three steps, review of company defaults, Manual Setup still available, and tests."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019112,
+    "changes_in_call": 6
+  }
+}

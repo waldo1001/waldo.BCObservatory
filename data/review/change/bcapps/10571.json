@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10571",
+  "input_hash": "5add427d00baaec0e76650aa8b54bb8f4708dbf7196916822a4d18d0aba5395d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:24.573Z",
+  "issues": [
+    "Description is only a work item link; summary relies on the title and file list, which support it at a general level."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024424,
+    "changes_in_call": 6
+  }
+}

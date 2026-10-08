@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/13254",
+  "input_hash": "76248a019ffbfa687493f82bd16263730e9dd359e5d865f2bd4b21e694c97c32",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:15.885Z",
+  "issues": [
+    "Key point 2 talks about five key metrics. The post actually describes six columns, including Database start time, and gives five reading principles. The key point is rewritten.",
+    "The post does not support the reporting system. It is about database performance diagnostics, so reporting is dropped.",
+    "The summary, the object and the features match the post."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042195,
+    "posts_in_call": 4
+  }
+}

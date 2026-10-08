@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9220",
+  "input_hash": "2456b4cbae8d2877981216ea4fe10cf804d0b25ce99d7633700ad4e13a1911b3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:20.864Z",
+  "issues": [
+    "Key point 1 says all four tables exist in both source and historical form, but only PJTran and PJTranEx got HybridSL source tables. PJProj and PJEmploy are historical tables only.",
+    "Key point 3 says the setting is not connected to wizard pages. The description says it is not yet shown on the SL migration configuration pages, and the Hybrid Wizard codeunit did get replication mappings."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10430",
+  "input_hash": "9d37edaa2089f57f68fc9147cca3fe1307537e3d1c5e445ce8ba1fc231455651",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:55.565Z",
+  "issues": [
+    "The changes are not in all localization layers. Only the W1, APAC, CH, ES, IT and RU base app layers changed.",
+    "The description is empty, so the summary rests on the title alone. It is consistent with the title."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017657,
+    "changes_in_call": 6
+  }
+}

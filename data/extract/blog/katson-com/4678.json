@@ -7,11 +7,11 @@
   "words": 1475,
   "summary": "The post explains how to connect external AI agents (Claude, Cursor, GitHub Copilot, etc.) to Business Central using the Model Context Protocol (MCP), focusing on a new multiplatform Python-based MCP proxy that enables agents to read and write data in Business Central. It covers setup, usage, and troubleshooting for production agent deployments.",
   "key_points": [
-    "Agents differ from copilots by running tools in loops and self-deciding which data to query, versus copilots providing deterministic question-answer flows.",
-    "Microsoft's BC MCP Server only initially worked with Copilot Studio; the new BcMCPProxy enables other agents like Claude Desktop, VS Code, and Cursor to access Business Central.",
-    "A multiplatform Python version of BcMCPProxy simplifies installation (pip install), works cross-platform on Mac, Windows, and Linux, and integrates better with IDEs than the .NET version.",
-    "Setup requires Azure AD App Registration with specific permissions, device-code login, and configuration file generation for different MCP clients.",
-    "Common issues include aggressive top parameter limits on results and 401/400 errors requiring permission verification or endpoint updates; explicit requests help retrieve complete datasets."
+    "Copilots follow a fixed ask, search, answer flow, while agents choose their own tools and run them in a loop until the task is done.",
+    "As of January 2026 the BC MCP Server could only be used by a Copilot Studio agent; Microsoft's Windows-only BcMCPProxy.exe opened it to Claude Desktop and VS Code.",
+    "The author's Python bc-mcp-proxy installs via pip, runs on Mac, Windows and Linux, and one setup command handles device-code sign-in and generates configs for Cursor, VS Code and Claude Desktop.",
+    "Prerequisites are an Azure AD app registration with public client flows and delegated Financials.ReadWrite.All and user_impersonation permissions, plus an active MCP Server Configuration on page 8351.",
+    "Agents often add a top limit of 50, so ask explicitly for all records; a May 2026 endpoint move requires bc-mcp-proxy 0.1.4 or later and clearing the cached token."
   ],
   "systems": [
     "copilot",
@@ -31,10 +31,6 @@
     {
       "type": "page",
       "name": "Model Context Protocol (MCP) Server Configurations"
-    },
-    {
-      "type": "page",
-      "name": "PAG30008"
     }
   ],
   "features": [

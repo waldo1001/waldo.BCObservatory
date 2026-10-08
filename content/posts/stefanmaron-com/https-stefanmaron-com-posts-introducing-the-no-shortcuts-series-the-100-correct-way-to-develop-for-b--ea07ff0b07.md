@@ -15,12 +15,12 @@ tags:
   - technical debt
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:53.043Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -79,7 +79,7 @@ preview:
 
 # Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central
 
-[Read the post](https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/) · Stefan Maron (Stefan Maron, MVP) · 2025-06-02 · 529 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-business-central/) · Stefan Maron (Stefan Maron, MVP) · 2025-06-02 · 529 words · tier community · reviewed (checked by Opus)
 
 > A series introduction on best practices for Business Central AL development that prioritizes maintainability, upgrade safety, and AppSource readiness over shortcuts. It targets experienced developers seeking to reduce technical debt and build sustainable, future-proof extensions.
 

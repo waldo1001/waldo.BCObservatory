@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9838",
+  "input_hash": "ef19e1745cca981654b7f9840ff76c185b8dff5ab111249f83684ac18aa333c5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:53.023Z",
+  "issues": [
+    "Key point mislabeled rim as the indirect read; the change adds r to the existing im on Privacy Notice."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025675,
+    "changes_in_call": 6
+  }
+}

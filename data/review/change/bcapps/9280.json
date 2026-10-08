@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9280",
+  "input_hash": "9cd148fa57fa6540698974617849919fdb9bfd4b4cf7f5aac224664ddada8f2f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.512Z",
+  "issues": [
+    "The page matches the description: the Modify() call in OnValidate, the xRec guard and the three tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014869,
+    "changes_in_call": 6
+  }
+}

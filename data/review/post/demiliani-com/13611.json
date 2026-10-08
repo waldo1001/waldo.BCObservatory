@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/13611",
+  "input_hash": "ad05a1ccbed2e74c5f864e71927af7d376dbec9e13918ec3b2cdde6aa3adee7d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:55:37.092Z",
+  "issues": [
+    "The summary and key points match the post, including how Responses API compares with Chat Completions and the current state of System.AI in Business Central.",
+    "The post names all five listed objects: the AzureOpenAI codeunit, AOAI Chat Messages, AOAI Chat Completion Params, AOAI Operation Response and the AOAI Model Type enum.",
+    "There are no quotes, and the features and systems are supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045132,
+    "posts_in_call": 4
+  }
+}

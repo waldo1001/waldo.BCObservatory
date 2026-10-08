@@ -4,13 +4,12 @@
   "title": "Surface empty BCPT results as a warning instead of silent success",
   "repo": "microsoft/AL-Go",
   "systems_joined": [],
-  "summary": "BCPT performance tests that run but produce no log entries now show a warning instead of silently succeeding, making empty results visible in the GitHub step summary.",
+  "summary": "When BCPT performance tests produce a results file with no entries, GetBcptSummaryMD now returns a message that appears in the GitHub step summary instead of an empty string. A missing results file still yields an empty summary.",
   "key_points": [
-    "GetBcptSummaryMD now distinguishes between missing results files and files with no entries",
-    "Empty BCPT results generate an informational message in the GitHub step summary",
-    "AnalyzeTests emits a warning annotation as a defense-in-depth measure when results file exists but is empty",
-    "Tests added for ReadBcptFile and GetBcptSummaryMD to cover missing and empty result scenarios",
-    "Build no longer succeeds silently when BCPT tests produce no output"
+    "GetBcptSummaryMD distinguishes a missing results file from one with no entries",
+    "An empty BCPT results file now produces a visible message under Performance test results",
+    "A missing results file still returns an empty string because no test was run",
+    "Pester tests added for ReadBcptFile and GetBcptSummaryMD covering missing and empty files"
   ],
   "change_kind": "fix",
   "behavior_change": true,

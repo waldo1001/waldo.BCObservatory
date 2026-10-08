@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10522",
+  "input_hash": "5a85be788f2f965c63fa3a13bd1d6d97bd7a952384eb5bae0f6befbbd9a0f73d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:27.278Z",
+  "issues": [
+    "Both fixes (destination bin excluded from the availability sum, buffer recorded under a blank From Bin) are described correctly."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018245,
+    "changes_in_call": 6
+  }
+}

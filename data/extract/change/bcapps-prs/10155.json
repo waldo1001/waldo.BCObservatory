@@ -8,11 +8,11 @@
   ],
   "summary": "Expense Agent now includes comprehensive expense locations for all country/regions with corresponding expense rule headers and conditions to support more detailed per-diem and rule configuration.",
   "key_points": [
-    "Added expense locations covering all country/regions through new codeunit 7124 Create Expense Locations",
-    "Created new codeunits for setting up expense rule conditions (7126) and rule headers (7128) as separate setup operations",
-    "Refactored expense category creation logic for better organization",
-    "Expanded Expense Agent Setup page with additional configuration options",
-    "Updated demo data and setup logic to use the new location-based configuration structure"
+    "New codeunit 7124 Create Expense Locations adds locations for essentially all countries and regions",
+    "New codeunits 7126 and 7128 create the matching expense rule conditions and rule headers",
+    "Expense category creation code was reworked",
+    "Demo data codeunits were reduced and adjusted alongside the new setup codeunits",
+    "Permission sets updated for the new objects"
   ],
   "change_kind": "feature",
   "behavior_change": true,

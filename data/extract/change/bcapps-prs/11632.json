@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed source currency amount calculation in the General Journal posting line codeunit to prevent discrepancies with foreign currency G/L entries when using reversal charge VAT.",
+  "summary": "Fixed how Gen. Jnl.-Post Line calculates source currency amounts, so G/L entries in a foreign currency with reverse charge VAT no longer show discrepancies.",
   "key_points": [
-    "Corrected source currency amount logic in Gen. Jnl.-Post Line codeunit across all localization layers",
-    "Added test cases to verify foreign currency G/L entries with reversal charge VAT",
-    "Changes applied to W1 and regional implementations (APAC, BE, CH, ES, FI, FR, IT, NA, NO, RU, CZ)",
-    "Test coverage expanded for source currency calculations in multiple localization-specific test codeunits"
+    "Corrected source currency amount calculation in codeunit 12 Gen. Jnl.-Post Line",
+    "Codeunit changed in W1 and the APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Tests added to ERM Source Currency in W1, CZ, ES, IT and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12139",
+  "input_hash": "9ce041ef97b524b45198836f6d13cb7a5f53c46048213dbeae73cb9a38576463",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:06.528Z",
+  "issues": [
+    "Summary, key points and flags match the description: the action is disabled for empty filtered views, the test covers populated, empty and populated views, and the change is non-breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022455,
+    "changes_in_call": 6
+  }
+}

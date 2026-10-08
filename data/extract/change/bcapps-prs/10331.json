@@ -6,12 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The PEPPOL XML generation now includes the VAT identifier even for invoices with zero values, fixing a compliance issue with Peppol standards.",
+  "summary": "PEPPOL XML export now includes the VAT identifier for zero-value invoices, where it was previously missing. The fix is in the PEPPOL30 Impl. codeunit, and BIS billing tests were added.",
   "key_points": [
-    "VAT Identifier is now included in PEPPOL XML output for zero-value invoices",
-    "Modifications made to the PEPPOL30 implementation codeunit",
-    "New test cases added to verify VAT identifier presence in billing documents",
-    "Addresses a missing field in XML generation that is required by Peppol specifications"
+    "The VAT identifier is no longer missing from PEPPOL XML for zero-value invoices",
+    "The fix is in codeunit 37201 PEPPOL30 Impl.",
+    "Tests were added to the PEPPOL BIS billing test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

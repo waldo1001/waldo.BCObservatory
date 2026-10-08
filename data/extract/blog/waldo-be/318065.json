@@ -5,18 +5,17 @@
   "source": "waldo-be",
   "published_at": "2025-07-25T07:00:00.000Z",
   "words": 1154,
-  "summary": "The BCTalent program created Business Central escape rooms where trainees complete consultant or developer tasks within BC to unlock progression. The framework-based app tracks progress via events and telemetry, with potential for future use by ISVs and at industry events.",
+  "summary": "For a Red Carpet event in Microsoft's BCTalent program, the author and AJ built a proof-of-concept Business Central app that runs escape rooms. Consultant and developer venues contain rooms that unlock as trainees complete tasks inside BC. Tasks are checked automatically through event subscribers and test codeunits, progress is logged with telemetry, and the author hopes the framework will later reach ISVs and events.",
   "key_points": [
-    "Escape rooms are BC apps organized as venues (consultant and developer themed) with sequential rooms unlocked by completing tasks",
-    "System auto-evaluates task completion using event subscriptions and test codeunits to detect user actions like record creation or code changes",
-    "Framework app uses interfaces for each entity type with HTML resource files for instructions and solutions",
-    "Telemetry and Azure Data Explorer dashboards track completion times, hints used, and participant progress",
-    "Future plans include releasing the framework for ISVs to create custom rooms for products, interviews, and training"
+    "A venue is a set of rooms, and each room unlocks only after all tasks in the previous room are done; there are separate venues for consultants and developers",
+    "Tasks evaluate themselves, for example by subscribing to OnAfterInsert to detect a new customer, or by running test codeunits to check fields and behavior",
+    "The framework app defines interfaces for almost every entity, each venue app implements them, and every task and room needs its own implementation codeunit",
+    "Instructions and solutions are HTML resource files loaded through the GetResource capability; rooms also offer hints and full solutions",
+    "Telemetry records timings, tasks and hints used, shown in Azure Data Explorer dashboards; the author hopes the framework will become available to ISVs and for interviews or training"
   ],
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "training",
@@ -27,12 +26,7 @@
     "telemetry",
     "interfaces"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "implementation codeunit"
-    }
-  ],
+  "objects": [],
   "features": [
     "Escape Room Framework",
     "Task Auto-Evaluation",

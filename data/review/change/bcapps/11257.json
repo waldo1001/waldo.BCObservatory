@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11257",
+  "input_hash": "a4f8dc7d28d0ed5a859804aa6cfad8b22bd2974e5192446c06cfb009aabc5906",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:09.054Z",
+  "issues": [
+    "All claims, including the six new regression tests and IsEmpty Waiting checks, are supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018912,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9648",
+  "input_hash": "c24d7cad763ea4f19cec4ffd9d755c7df3a75c64fd5a22caa551de00debfccb9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:16.021Z",
+  "issues": [
+    "'Extended PEPPOL format enumeration for new calculation type' is speculative. The enum extension was only modified (+4 -2), most likely to use the new tax info codeunit, and that is not stated either."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020238,
+    "changes_in_call": 6
+  }
+}

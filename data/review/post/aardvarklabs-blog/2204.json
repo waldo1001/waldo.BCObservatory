@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2204",
+  "input_hash": "bc67a5fe63e10d73ea6d2247de75020568b897944a48de4eecfbfd35fef1c679",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:45.957Z",
+  "issues": [
+    "Summary, key points, objects and features match the post's CSV staging import walkthrough.",
+    "Administration system tag is not supported; the post is a developer import example, not an admin task."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027261,
+    "posts_in_call": 4
+  }
+}

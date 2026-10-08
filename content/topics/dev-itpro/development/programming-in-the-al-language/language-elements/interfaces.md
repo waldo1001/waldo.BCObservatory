@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#98 Add P0 event and interface compatibility knowledge](../../../../../changes/bcquality/98.md) (code change): "Guidelines for extending published interfaces with versioned siblings and BC25+ extends syntax"
 - [Another Look at App Integration in Business Central – Part 2](../../../../../posts/jpearson-blog/1419.md) (community post): "Apps can integrate without direct dependencies by implementing interfaces defined in a shared app integration layer"
-- [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies, preventing immediate breaking changes"
+- [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies"
 - [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "Default implementation for AL interfaces; Required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"
 

@@ -6,14 +6,14 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Reverted changes to the withholding tax calculation logic for 'Greater Than' rules in the purchase withholding tax posting setup that were causing incorrect calculations.",
+  "summary": "Reverts the earlier change from PR 9515 to how the 'Greater Than' withholding tax calculation rule is applied. The journal subscriber, withholding tax management and purchase subscriber codeunits return to their previous logic, and the tests added by that PR are removed.",
   "key_points": [
-    "Reverted previous changes to withholding tax journal subscriber logic",
-    "Removed test cases that were added in the original change",
-    "Restored withholding tax management codeunit to prior version",
-    "Affects purchase transaction withholding tax processing"
+    "Undoes the changes made in PR 9515",
+    "Withholding Tax Jnl Subscriber, Withholding Tax Mgmt. and Wthldg Tax Purch. Subscribers codeunits revert to their earlier logic",
+    "Test cases added by the original PR are removed",
+    "Affects withholding tax handling on purchase transactions"
   ],
-  "change_kind": "fix",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

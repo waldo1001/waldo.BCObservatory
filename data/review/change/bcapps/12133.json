@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12133",
+  "input_hash": "66e421bbd79cf19f624a7f52187993ad539ee654eec6343d59f11aa2a87b6605",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.331Z",
+  "issues": [
+    "Key point says it reuses IsSecureHttpUrl. The description says it reuses IsValidUri and only mirrors the IsSecureHttpUrl/IsHttpUrl scheme checks."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019188,
+    "changes_in_call": 6
+  }
+}

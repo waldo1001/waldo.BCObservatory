@@ -5,7 +5,7 @@
   "source": "thinkaboutit-be",
   "published_at": "2026-05-04T12:25:34.000Z",
   "words": 980,
-  "summary": "When choosing an AI assistant for AL development, GitHub Copilot in VS Code excels for code generation with codebase context, while Claude.ai or Claude desktop offer better value for reasoning-heavy tasks like architecture and error analysis due to frontier model access without Copilot cost multipliers. The decision depends on the task type and the new usage-based billing model effective June 2026.",
+  "summary": "GitHub Copilot's usage-based billing with model multipliers, starting June 1, prompts a task-based choice of AI tool for AL work. Copilot in VS Code suits code generation that needs workspace context, while Claude.ai or the desktop app gives frontier reasoning models without multipliers for architecture, review and error analysis. The author later noted that this post conflated two billing models and pointed readers to a follow-up correction.",
   "key_points": [
     "GitHub Copilot has structural advantage in VS Code due to editor integration and access to workspace symbols and AL objects",
     "Claude.ai and Claude desktop app provide frontier reasoning models without Copilot multipliers, making them cheaper for complex analysis and architecture work",
@@ -14,8 +14,7 @@
     "The June 1 pricing change makes the cost of frontier models inside Copilot visible and may justify moving reasoning work to separate tools"
   ],
   "systems": [
-    "development",
-    "copilot"
+    "development"
   ],
   "topics": [
     "al development",

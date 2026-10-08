@@ -7,10 +7,10 @@
   "words": 581,
   "summary": "Dynamics 365 Business Central 2025 Wave 2 introduces Guid.CreateSequentialGuid, a new AL statement that generates sequential GUIDs instead of random ones, reducing index fragmentation and improving performance for GUID-based keys and systemId fields without requiring SQL roundtrips.",
   "key_points": [
-    "Sequential GUIDs reduce index fragmentation and page splits compared to randomly generated GUIDs from CreateGuid",
-    "Generation happens at middleware (session) level, eliminating unnecessary roundtrips to SQL Server",
-    "Developers should replace CreateGuid with CreateSequentialGuid in new implementations or refactored code",
-    "Sequential GUIDs are placed contiguously during I/O operations, improving performance in writing, reading, and index maintenance"
+    "Guid.CreateSequentialGuid, new in Business Central 2025 Wave 2, produces consecutive GUIDs instead of the random ones from CreateGuid.",
+    "GUIDs are generated on the NST middle tier, so no extra roundtrip to SQL Server is needed.",
+    "The main benefit is fewer page splits and less index fragmentation; generation may also be slightly faster.",
+    "The author recommends replacing CreateGuid with CreateSequentialGuid in new or refactored code, since GUIDs are increasingly common in API-facing tables."
   ],
   "systems": [
     "development",
@@ -26,9 +26,7 @@
   "objects": [],
   "features": [
     "Guid.CreateSequentialGuid",
-    "sequential GUID generation",
-    "index optimization",
-    "performance improvement"
+    "sequential GUID generation"
   ],
   "versions": [
     "2025 Wave 2"

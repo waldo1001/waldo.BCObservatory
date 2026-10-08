@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3496",
+  "input_hash": "649b7760c9422e5e267902c33184c9a2269e1379c445824e6cccef65562a6987",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:07.820Z",
+  "issues": [
+    "The post is about creating Skills in Microsoft 365 Copilot Cowork for a project status email workflow.",
+    "It never mentions Business Central, AL or any Business Central functionality, so it is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033582,
+    "posts_in_call": 4
+  }
+}

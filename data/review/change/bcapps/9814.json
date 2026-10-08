@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9814",
+  "input_hash": "36d43491c086f2c382a11867dd8a1848b08f8a3b65a3cab1c30204a038556849",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:56.369Z",
+  "issues": [
+    "Breaking flag overstated: the removed methods only worked for Microsoft-published callers, so third-party extensions could never call them successfully.",
+    "Change kind set to other because this is a revert that removes API surface for internal use only."
+  ],
+  "applied": [
+    "kind other",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019834,
+    "changes_in_call": 6
+  }
+}

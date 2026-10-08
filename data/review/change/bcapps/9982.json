@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9982",
+  "input_hash": "b9b70bff419d2612deb6f593a2a56cec4f203164707b8b2d92980f7fd842d653",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:36.020Z",
+  "issues": [
+    "The title is a bug report title describing the faulty behaviour (validation looked at the warehouse pick level instead of the sales order level). The page reads it the other way round, as though validation was deliberately moved to the pick level.",
+    "Nothing given supports the claims that sales orders can now proceed without lot numbers or that validation logic was moved. The codeunit change only adds lines (+183 -0)."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019416,
+    "changes_in_call": 6
+  }
+}

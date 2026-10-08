@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2283",
+  "input_hash": "e5df1f73b4e20d9d71b32f570b2bcf8eaf6ac8eaf8cca7538b93fc6c1c42fa6c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:58.784Z",
+  "issues": [
+    "Matches the description: New-AppSourceCopJson is now also called for test and bcpt app folders, which prevents AS0054."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

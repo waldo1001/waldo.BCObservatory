@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10086",
+  "input_hash": "c6075182464c16df077ea4d99cf9427abc6b1768e3d074892ba5986a225ee6ae",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:56.755Z",
+  "issues": [
+    "This is a code analysis ruleset change with matching page updates, not a bug fix. change_kind set to other.",
+    "The ruleset only covers the base application, so not breaking is correct. Saying pages were updated to comply is a fair inference from the files changed."
+  ],
+  "applied": [
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014187,
+    "changes_in_call": 6
+  }
+}

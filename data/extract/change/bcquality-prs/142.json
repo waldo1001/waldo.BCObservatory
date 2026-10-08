@@ -4,12 +4,12 @@
   "title": "Add AL-focused AppSource validation guidance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Seven new AppSource validation guidance articles added to help AL developers avoid common issues like hardcoded time zones, UI calls in web services, and missing usage categories on entry points.",
+  "summary": "Six community AppSource knowledge articles with paired good and bad AL samples now cover profile objects, invariant date literals, page extension action placement, UI calls in web-service paths, UsageCategory on searchable entry points, and time-zone offsets. The AppSource review skill routes AL signals to them.",
   "key_points": [
-    "Introduces seven paired good/bad AL code examples for AppSource compliance",
-    "Covers company-open subscriptions, profile objects, date literals, page actions, web-service UI calls, entry point configuration, and time-zone handling",
-    "Updates the AppSource review skill to direct specific AL signals to relevant guidance articles",
-    "Focuses narrowly on AL source patterns without duplicating privacy, style, security, or upgrade domain rules"
+    "Adds six AppSource articles, each with good and bad AL examples",
+    "Covers profiles as AL objects, invariant date literals, addfirst/addlast action placement, web-service UI calls, UsageCategory, and time-zone offsets",
+    "Updates the AppSource review skill to point concrete AL signals at the new guidance",
+    "Avoids duplicating privacy, style, security, and upgrade domain rules"
   ],
   "change_kind": "feature",
   "behavior_change": false,

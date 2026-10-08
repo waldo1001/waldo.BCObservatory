@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10341",
+  "input_hash": "e476a0eb38111002887054c49501d0c387d3da209e16c74e1e3dee6c1d0e73c3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:36.501Z",
+  "issues": [
+    "change_kind 'refactor' is wrong. The change removes active functionality (registration, approval checks, privacy notice UI) and marks page 7078 pending obsolete, so 'obsoletion' fits better.",
+    "The description says the upgrade only attempts to delete legacy records. It does not say the legacy notice ID is kept 'temporarily'; it is kept as migration data."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind obsoletion"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019276,
+    "changes_in_call": 6
+  }
+}

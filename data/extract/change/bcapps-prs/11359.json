@@ -8,10 +8,10 @@
   ],
   "summary": "Sustainability posting now correctly tracks specific emissions for lots and serial numbers across transfer orders, preventing the use of average emissions on later sales.",
   "key_points": [
-    "Transfer order emissions tracking now respects specific lot and serial numbers instead of aggregating them",
-    "The transfer shipment application traversal is restricted to entries matching the same lot and serial number",
-    "Fixes cases where multiple tracked items with different emissions were incorrectly averaged during transfer receipts",
-    "Preserves specific tracking emissions through the entire supply chain from transfer to sale"
+    "Transfer shipment application traversal is restricted to entries with the same Lot No. and Serial No. as the transfer entry",
+    "Prevents emissions from other lots or serials in the same transfer from being aggregated",
+    "Later sales of Specific-tracked items use the selected tracking emission instead of an average",
+    "Added a posting test covering the scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

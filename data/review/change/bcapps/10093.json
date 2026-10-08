@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10093",
+  "input_hash": "c1d6d0bdbb0306c678240e181110804a74e1690ee783a1e34af0554794ceff4d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.881Z",
+  "issues": [
+    "Content matches the description: VAT gross-up helper, applied to sales and purchase price paths, gated on Prices Including VAT, tests added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018575,
+    "changes_in_call": 6
+  }
+}

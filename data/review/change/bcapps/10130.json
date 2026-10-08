@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10130",
+  "input_hash": "c396063a28aef63c7c3773970663336cf37ba34c8058e0cc43d5aabb0c06de28",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.094Z",
+  "issues": [
+    "The key points about minimal changes, local validation and no risks repeat the author's claims and do not describe the change. They are replaced with points about the actual changed objects."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018646,
+    "changes_in_call": 6
+  }
+}

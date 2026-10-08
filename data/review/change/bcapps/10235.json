@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10235",
+  "input_hash": "bc793a2466f27cf93c3575c55281a92f27de65fbd0b521be2b595308ca268fb8",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.881Z",
+  "issues": [
+    "Summary and key points match the description: check moved to OnValidate, existence-based check, temporary record exemption, new archive key, by-value event."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018575,
+    "changes_in_call": 6
+  }
+}

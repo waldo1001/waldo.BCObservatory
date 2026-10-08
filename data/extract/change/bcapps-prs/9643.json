@@ -8,13 +8,12 @@
     "development",
     "platform"
   ],
-  "summary": "Spanish SII feature codeunits now use SkipMissingPermissions attribute on their subscriber methods to handle permission scenarios appropriately.",
+  "summary": "Updates the SkipMissingPermissions setting on event subscribers in the Spanish SII codeunits of the ES Base Application. The PR gives no further detail on the reason.",
   "key_points": [
-    "SkipMissingPermissions attribute added to SII subscriber methods across multiple codeunits",
-    "Affects VAT, purchase, and sales document subscribers in the Spanish localization",
-    "Changes event subscription behavior when required permissions are absent",
-    "Localization-specific change for Spanish Intrastat Information System (SII) integration",
-    "Minimal code changes focused on attribute application"
+    "Touches SII subscriber codeunits for VAT, sales and purchase documents, plus upload, management and scheme code codeunits",
+    "Also changes the SII data classification and sandbox cleanup codeunits",
+    "Limited to the ES localization layer",
+    "Small line-level edits across nine codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

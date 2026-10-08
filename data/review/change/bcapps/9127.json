@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9127",
+  "input_hash": "3b944ccfc7cb298d4fb4dc96fa2f92a3c911e48f30a6762a144c97f070ffb767",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.141Z",
+  "issues": [
+    "The new interface, enum, setup field and call-site routing are described accurately. Defaults are unchanged for commercial tenants."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015938,
+    "changes_in_call": 6
+  }
+}

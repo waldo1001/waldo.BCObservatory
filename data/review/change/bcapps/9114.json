@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9114",
+  "input_hash": "e420442d87e56bf265a538aee5243658adc0f16f64039be9bc26599d89d7d142",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The key point saying there are no public code changes conflicts with the file list: codeunit 1765 Projects-Data Classification in the Base Application changed (+2 lines).",
+    "This mainly re-enables a test and adjusts CI, so change_kind other fits better than fix.",
+    "The summary wording 'exclusion mechanism to grandfathered apps' is awkward."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

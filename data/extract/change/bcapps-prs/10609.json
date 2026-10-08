@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Non-deductible VAT validation for purchase lines sharing the same VAT identifier is now applied consistently across all purchase line types and locations.",
+  "summary": "Fixes inconsistent validation of Non-Deductible VAT % on purchase lines that share the same VAT identifier. Two lines were removed from the Non-Ded. VAT Impl. codeunit, and tests were updated and added across the W1, AU, CZ, IT and RU layers.",
   "key_points": [
-    "Fixed inconsistent validation logic in Non-Deductible VAT implementation",
-    "Validation now applies uniformly regardless of purchase line type",
-    "Updated test coverage across multiple localization layers (AU, CZ, IT, RU, W1)",
-    "Removed redundant validation code from base implementation",
-    "Added comprehensive unit tests for edge cases"
+    "Addresses inconsistent Non-Deductible VAT % validation for purchase lines with the same VAT identifier",
+    "Small change in codeunit Non-Ded. VAT Impl. (2 lines removed)",
+    "New unit tests in the W1 NonDeductibleUT codeunit and the CZ purchase posting tests",
+    "Existing non-deductible VAT posting tests adjusted in several localization layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

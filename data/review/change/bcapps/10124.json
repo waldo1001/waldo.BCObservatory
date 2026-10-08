@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10124",
+  "input_hash": "23f8cf33318510efeccaf974f87c6473b9c72d4d649e0d0f2742c4374307245c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.282Z",
+  "issues": [
+    "New event, its parameters and the six layers (APAC, ES, IT, NA, NL, W1) all match the files and description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020196,
+    "changes_in_call": 6
+  }
+}

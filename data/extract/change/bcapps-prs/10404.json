@@ -10,11 +10,10 @@
   ],
   "summary": "A Word layout was added to the Spend Request Document report, and several fixes were applied to the Spend Request feature based on manual testing feedback.",
   "key_points": [
-    "Word document layout added to Spend Request Document report",
-    "Minor fixes applied to Spend Request feature following manual testing",
-    "Updates to Spend Request table, card page, and list page logic",
-    "Test cases updated to reflect changes",
-    "Platform workaround noted for layout merging issues"
+    "Word layout added to the Spend Request Document report",
+    "Minor Spend Request fixes from manual test feedback across the table, card, list and subform pages",
+    "Spend Request tests updated in the Base App and Expense Agent test apps",
+    "Known platform issue: the layout merges correctly only when you use a copy of it"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11994",
+  "input_hash": "89d336fe234eeb71a3c70f1c4007ff23cd32d1b4a86151142b79009ae04d8d1c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:16.417Z",
+  "issues": [
+    "The summary wording is awkward, and the cause stated as missing field mappings is assumed.",
+    "The key point about operations functioning as intended is filler."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013847,
+    "changes_in_call": 6
+  }
+}

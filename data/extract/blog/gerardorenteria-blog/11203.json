@@ -7,11 +7,11 @@
   "words": 1107,
   "summary": "The post presents a comprehensive list of feature improvement ideas submitted to Dynamics 365 Business Central for May 2025, organized by functional areas including finance, sales, inventory, manufacturing, and more. It serves as a resource for developers, consultants, and users seeking proposed enhancements across all Business Central modules.",
   "key_points": [
-    "Over 80 improvement suggestions span multiple areas: data migration, development tools, financial management, inventory, manufacturing, sales, purchasing, service management, and administration.",
-    "Development-focused ideas include enhancements to CSVBuffer, Variant functions, Bank Account Reconciliation, Edit in Excel, and AppSource delivery options.",
-    "Finance suggestions address VAT reporting, Intrastat improvements, bank reconciliation features, and currency handling in journal posting.",
-    "Cross-module ideas cover Copilot integration for business rules assessment, support for vision-enabled OpenAI models, and improved lock timeout tracking.",
-    "Regional and localization improvements include EU VAT validation, E-Documents enhancements, and country-specific reporting like OSS for Austria."
+    "The post lists community improvement ideas for Business Central from May 2025, grouped by area such as data migration, development, finance, inventory, manufacturing, sales, purchasing, service and tenant administration.",
+    "Development ideas include CSVBuffer export with varying column counts, GetType/GetSubType for Variants, preprocessors in app.json, an event in the Transfer Extended Text codeunit and parallel AppSource version delivery.",
+    "Finance ideas cover Intrastat statistical value and country of origin, bank reconciliation changes, additional-currency amounts in posting previews and source currency VAT amounts in VAT entries.",
+    "General ideas include Copilot assessing business rules in description fields, vision-enabled OpenAI model support, tri-state lock timeout tracking and Mandatory Fields for non-developers.",
+    "Localization and sales ideas include EU VAT validation, E-Documents line types, OSS reporting for Austria and several Shopify Connector requests."
   ],
   "systems": [
     "development",
@@ -58,10 +58,6 @@
     {
       "type": "table",
       "name": "Security Groups"
-    },
-    {
-      "type": "page",
-      "name": "Fixed Asset Projected Value"
     },
     {
       "type": "page",

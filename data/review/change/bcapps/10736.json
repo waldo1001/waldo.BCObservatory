@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10736",
+  "input_hash": "c45c3735b4dc89584a075fd7a52c768d35dc78fdf12541332b5dd86f04bb2007",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.214Z",
+  "issues": [
+    "The key point saying changes reach all localization layers is wrong. Only the W1, NA and BE Document Totals codeunits were changed.",
+    "A new test in DocumentTotalsPages was not mentioned."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022694,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/8935",
+  "input_hash": "ffe2a49ad3b744ad1ae89a0b1914e20cd0bb1a64e4ed3fe3ff09e7cb60bf11ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:36.597Z",
+  "issues": [
+    "The description only mentions 8 TCS files, but the PR changes 31 page extensions across the INGST, INTCS, INTDS and INTaxBase apps. The page wrongly limits the change to TCS.",
+    "The key point saying GST, TDS and Tax Base pages were already fixed is contradicted by the changed files, which edit those pages too."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018454,
+    "changes_in_call": 6
+  }
+}

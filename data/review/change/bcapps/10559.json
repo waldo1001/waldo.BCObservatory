@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10559",
+  "input_hash": "11d2f645d2fefd361673e54b3a5b38407790c090d897fa6146606f41d40ac508",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:33.570Z",
+  "issues": [
+    "Key point says the rules moved from Warning to Error, but the description only says the overrides were removed. It never names the previous severity.",
+    "106 is the number of inserted lines. The census counts 53 sites (12 for AL0659 and 41 for AL0685), each with a disable/restore pair, so '106 pragma suppressions' is wrong.",
+    "The summary wording 'unavoidable or low-risk schema changes' is muddled. The violations are accepted because the fixes would be breaking changes."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042928,
+    "changes_in_call": 6
+  }
+}

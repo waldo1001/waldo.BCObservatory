@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7299",
+  "input_hash": "7ab21a00bd1f87a6ac9a79aafb0f4dcbb099ac6b0cea5e9ec8a2daf40a240308",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:59.812Z",
+  "issues": [
+    "Summary, key points, features and quotes all match the post.",
+    "The system 'platform' is not supported; the post covers developer tooling in VSCode, not the BC platform.",
+    "Quote 3 swaps the dash for a hyphen, which is acceptable."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036312,
+    "posts_in_call": 4
+  }
+}

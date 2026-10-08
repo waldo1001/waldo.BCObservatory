@@ -8,10 +8,11 @@
   ],
   "summary": "A variable name in custom migration mapping is restored from TempCustomMigrationTableBuffer to CustomMigrationTableBuffer to prevent misleading naming and rule violations.",
   "key_points": [
-    "Variable renamed in AddCustomMigrationMapping page to reflect its actual usage as a handle, not a data buffer",
-    "Change eliminates false positives with the AA0237 rule that flags non-temporary variables with Temp prefix",
-    "Naming is now consistent with earlier versions and NAV 28.x backport",
-    "Purely cosmetic change with no behavioral impact"
+    "Variable in the Add Custom Migration Mapping page renamed back to CustomMigrationTableBuffer",
+    "The variable is only a handle for calling SaveMigrationTableMapping, not a data buffer",
+    "Removes the Temp prefix that violated AA0237 on a non-temporary variable, an error in the NAV build",
+    "Restores the pre-#9200 name, consistent with the NAV 28.x backport and PR #9663",
+    "Naming-only change with no behavior impact"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

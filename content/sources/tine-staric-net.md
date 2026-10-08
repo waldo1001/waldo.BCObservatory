@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9434b4e1d93c27b9e53bf641e9af8fd29a46b16a7822ae3fd53f64de363f3e15
@@ -55,7 +55,7 @@ footprint:
     - id: development
       weight: 10
     - id: integration
-      weight: 3
+      weight: 2
   topics:
     - id: claude code
       weight: 3
@@ -103,7 +103,7 @@ last_item: "2026-09-07"
 |---|---|---|
 | copilot (10) | claude code (3) | other AL Symbols MCP (1) |
 | development (10) | al development (2) | other BC Code Intelligence (1) |
-| integration (3) | context management (2) | other BC Container Helper (1) |
+| integration (2) | context management (2) | other BC Container Helper (1) |
 |  | copilot (2) | other TelemetryBuddy (1) |
 |  | skills (2) |  |
 |  | agent architecture (1) |  |

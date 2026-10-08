@@ -5,7 +5,7 @@
   "source": "duiliotacconi-com",
   "published_at": "2026-07-22T13:51:07.000Z",
   "words": 1071,
-  "summary": "Dynamics 365 Business Central 2026 Wave 1 adds sqlServerSessionId to Long Running Queries telemetry signals, enabling identification of blocking sessions in lock timeout scenarios, especially in multitenant environments where blocking sessions run on different NSTs.",
+  "summary": "Business Central 2026 Wave 1 (v28) adds sqlServerSessionId to Long Running Queries telemetry (RT0005) and other signals that carry a SQL statement. When a Lock Snapshot (RT0013) shows a blocking SQL session without an AL stack trace because the blocker ran on another service tier, this ID can be traced through RT0005 to find the offending AL session and method.",
   "key_points": [
     "sqlServerSessionId is now included in all telemetry traces containing sqlStatement values, making it possible to correlate lock timeouts across NSTs",
     "Lock Snapshot signals (RT0013) cannot provide AL Stack Trace for blocking sessions running on separate NSTs, creating a gap that sqlServerSessionId helps fill",
@@ -14,8 +14,7 @@
   ],
   "systems": [
     "platform",
-    "development",
-    "reporting"
+    "development"
   ],
   "topics": [
     "telemetry",

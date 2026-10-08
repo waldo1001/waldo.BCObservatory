@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6f3129e973c27a65fe1a39a4977c5f90db317749bdaf86ed2465013e09dfa25e
@@ -150,13 +150,13 @@ footprint:
     - id: main
       weight: 90
     - id: feature
-      weight: 54
+      weight: 51
     - id: fix
-      weight: 20
-    - id: refactor
-      weight: 13
+      weight: 23
     - id: other
-      weight: 3
+      weight: 11
+    - id: refactor
+      weight: 5
   objects: []
   features: []
 first_item: "2026-07-09"
@@ -174,10 +174,10 @@ last_item: "2026-10-06"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (164) | main (90) |  |
-| platform (23) | feature (54) |  |
-| administration (8) | fix (20) |  |
-| copilot (8) | refactor (13) |  |
-| integration (4) | other (3) |  |
+| platform (23) | feature (51) |  |
+| administration (8) | fix (23) |  |
+| copilot (8) | other (11) |  |
+| integration (4) | refactor (5) |  |
 | reporting (3) |  |  |
 
 ## Flight path

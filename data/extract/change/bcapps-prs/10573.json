@@ -6,12 +6,11 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Data categorization support was added to the Data Classification Evaluation Data codeunit to enhance data classification capabilities in Business Central.",
+  "summary": "Adds data categorization for BC IQ to codeunit 1751 Data Classification Eval. Data in the Base Application. The pull request gives no further details on which data is categorized.",
   "key_points": [
-    "Data categorization functionality added to codeunit 1751",
-    "Supports improved data classification evaluation",
-    "Minimal code addition with 30 lines",
-    "Part of BC IQ feature set"
+    "Codeunit 1751 Data Classification Eval. Data extended with 30 added lines",
+    "Change is labelled as BC IQ data categorization",
+    "The description gives no details or test notes"
   ],
   "change_kind": "feature",
   "behavior_change": true,

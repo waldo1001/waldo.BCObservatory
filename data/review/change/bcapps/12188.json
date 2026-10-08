@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12188",
+  "input_hash": "8a7817498f64ddc01272189db2d6cfabf7886686f96533aaf80b8d7444c78e88",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:54.887Z",
+  "issues": [
+    "The description is only a work item link. Nothing given says what logic changed, so 'calculation error' is speculation.",
+    "The summary leaves out that the issue happens after planning, which the title says."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017484,
+    "changes_in_call": 6
+  }
+}

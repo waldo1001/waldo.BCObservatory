@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/159",
+  "input_hash": "a96787572bd5ac8a72c228b4eb0c0c693960d1a788fb891b87ffb3c6d25ef727",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:52.830Z",
+  "issues": [
+    "Summary says commit before lazy initialization; the PR says the Commit belongs inside the lazy Initialize().",
+    "Only the Table Relation Test hook was verified against BCApps source, not all patterns."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028794,
+    "changes_in_call": 6
+  }
+}

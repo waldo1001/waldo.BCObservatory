@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11339",
+  "input_hash": "ccb6dd2cee601e2c4f8d73769589c55f14e866404de88851002c70a15ac053ec",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:13.165Z",
+  "issues": [
+    "Everything matches the description: the new CheckLineCanBeMatched guard, the two page entry points, the codeunit-level enforcement, the error text and both tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01306,
+    "changes_in_call": 6
+  }
+}

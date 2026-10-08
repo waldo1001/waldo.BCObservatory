@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11318",
+  "input_hash": "0d4eaa9009af34efaf3d76be7a18c338df4b19e890fb462a5b29d1b9be5aecbd",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:35.391Z",
+  "issues": [
+    "Only the caption and tooltip change. The PR says field ID, name, type and behavior are unchanged, so the flags are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022112,
+    "changes_in_call": 6
+  }
+}

@@ -6,12 +6,11 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Production order component line pages now properly link component consumption quantities to their originating production order when a firm planned order contains components with the same item number.",
+  "summary": "The Act. Consumption Qty shown for components of a firm planned production order no longer includes amounts from a released production order with the same document number and the same component. The fix is in the Prod. Order Components and Prod. Order Comp. Line List pages.",
   "key_points": [
-    "Fixes incorrect consumption quantity references for components in firm planned orders",
-    "Clarifies which production order a component's quantities point to when duplicate items exist",
-    "Updates both the Component Line List page and the Components page",
-    "Includes test coverage for the scenario"
+    "Consumption quantity for firm planned order components wrongly pointed to a released order with the same Document No.",
+    "Fix applied to the Prod. Order Components and Prod. Order Comp. Line List pages in the W1 and IT layers",
+    "Test added in SCMAvailabilitybyEvent"
   ],
   "change_kind": "fix",
   "behavior_change": true,

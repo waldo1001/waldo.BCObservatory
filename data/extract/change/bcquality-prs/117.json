@@ -6,14 +6,14 @@
   "systems_joined": [],
   "summary": "PR review now independently flags genuinely missing tooltips on page fields instead of deferring to compiler analyzer AA0218, which can be disabled or downgraded in team rulesets.",
   "key_points": [
-    "Adds detection for missing tooltips on bound fields where source field also lacks tooltip",
-    "Adds detection for missing tooltips on unbound controls",
-    "Preserves existing guard against false positives on inherited tooltips",
-    "Clarifies that AA0218 severity is configurable per app and often downgraded",
-    "Improves accessibility by ensuring PR review acts as safety net"
+    "Bound fields whose source field also lacks a ToolTip are now flagged as medium",
+    "Unbound controls without a ToolTip are now flagged as medium",
+    "Bound fields inheriting a ToolTip from the source field are still not flagged",
+    "Notes that AA0218 severity is set per app and is often downgraded or disabled",
+    "Anti-pattern now covers both over-flagging inherited fields and staying silent on real gaps"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -13,12 +13,12 @@ tags:
   - performance
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:01:14.577Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -89,7 +89,7 @@ preview:
 
 # BC Friday Tips #29 Gaps in Customer Ledger Entries
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-25 · 79 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-29-gaps-in-customer-ledger-entries/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-25 · 79 words · tier community · reviewed (checked by Opus)
 
 > Customer Ledger Entries in Business Central use General Ledger Entry numbers instead of sequential numbering, which explains gaps in entry numbers and was designed historically to improve performance. Vendor Ledger Entries follow the same design pattern.
 

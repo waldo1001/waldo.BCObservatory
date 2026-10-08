@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,11 +98,10 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos:
-    - video/qABlX4AL3GM
+    - video/IAacWsvav1E
   posts:
     - post/aardvarklabs-blog/3761
     - post/demiliani-com/12836
-    - post/duiliotacconi-com/2201
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
@@ -121,7 +120,7 @@ coverage:
   learn: 9
   code: 0
   video: 1
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 35d16713950930e7d6df2a51e27b0d618b69b36f632ac1361932d9d0e629cddb
@@ -168,10 +167,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "refined existing guidance on indexing, buffered inserts, aggregate processing"
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Optimizing Business Central Indexes for Performance with Copilot"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Sequential GUIDs insert data in order, keeping related records clustered"
-- [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "Base table fields and extension fields can be mixed in the same index"
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Table indexes in Business Central speed up reads but slow down writes"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added through development via AppSource apps"
-- [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../../videos/qABlX4AL3GM.md) (video): "Unified table storage for extensions; Cross-field indexes spanning base and extension tables"
+- [What's New: Enhanced Index Management (2026 release wave 1)](../../../../../videos/IAacWsvav1E.md) (video): "Enhanced Index Management database performance storage optimization index lifecycle"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

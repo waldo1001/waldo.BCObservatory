@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/thinkaboutit-be/7175",
+  "input_hash": "023ee9d4c6068e8f7bbad8d548f0e38267b15408e72128010c459a08625dfab8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:06.791Z",
+  "issues": [
+    "The post does not name a report object, only the title of a session about report objects and layouts.",
+    "Cloud Hub, Migration programs and Learning Journeys are Companial offerings, not Business Central features. AI in ERP is only a hashtag.",
+    "The post does not support sales as a system, and does not say the sales session is about integration.",
+    "Quote 2 is just a session title, and its explanation reads too much into it."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 object(s)",
+    "dropped 4 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036101,
+    "posts_in_call": 4
+  }
+}

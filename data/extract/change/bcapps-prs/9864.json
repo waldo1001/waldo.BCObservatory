@@ -8,14 +8,13 @@
   ],
   "summary": "An OnBeforeTestTransferLine integration event was added to the TestTransferLine procedure on the Transfer Header table, enabling extensions to observe or extend transfer line testing logic.",
   "key_points": [
-    "New OnBeforeTestTransferLine event fires at the start of TestTransferLine procedure",
-    "Allows add-on developers to hook into transfer line validation logic",
-    "Event added to W1 and all regional layers (RU, NA, IT)",
-    "Follows standard naming convention for before-events",
-    "Enables custom scenarios for transfer line item tracking checks"
+    "New OnBeforeTestTransferLine event raised at the start of TestTransferLine on the Transfer Header table",
+    "Lets add-on developers hook into the transfer line item tracking quantity check",
+    "Added in W1 and mirrored to the RU, NA and IT layers",
+    "Event name follows the convention for events at the start of a procedure"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

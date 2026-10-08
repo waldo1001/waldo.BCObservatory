@@ -9,11 +9,11 @@
   ],
   "summary": "SharePoint connector now supports file paths containing hash and percent characters by adding separate decoded-path APIs backed by ResourcePath endpoints, with a new REST Base Folder Path Format setting to control URL decoding behavior.",
   "key_points": [
-    "New decoded-path SharePoint Client APIs using ResourcePath endpoints for file operations",
-    "New REST Base Folder Path Format setting (defaults to URL) controlling whether configuration paths are URL-decoded",
-    "URL-based public client APIs remain unchanged",
-    "Affects file upload, download, delete, listing, and folder operations in SharePoint connector",
-    "Synchronous read-back verification removed to avoid extra file downloads in posting transactions"
+    "New decoded-path SharePoint Client APIs backed by ResourcePath endpoints handle names containing # and %",
+    "The connector uses them for file upload, download, delete, listing and existence checks, and for folder operations",
+    "New REST Base Folder Path Format setting defaults to URL (also for existing rows); Decoded Path keeps literal names like Reports%20Archive",
+    "Existing URL-based public client APIs are unchanged and Graph accounts are not affected",
+    "Attachment paths and filenames are never unescaped; only the base folder and the site prefix taken from the URL are decoded"
   ],
   "change_kind": "feature",
   "behavior_change": true,

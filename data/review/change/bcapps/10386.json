@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10386",
+  "input_hash": "f08520f8eaf2b005312660aa49a0842d07bb743d73b0324589031d30ad5a4556",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:51.429Z",
+  "issues": [
+    "Key point 4 says the modifications are conditional. According to the description, it is the guards that depend on Substate = Archived, and they treat the agent as not archived if its record cannot be read.",
+    "The rest of the page is supported by the description."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022262,
+    "changes_in_call": 6
+  }
+}

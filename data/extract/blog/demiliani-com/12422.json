@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2025-08-27T08:33:24.000Z",
   "words": 367,
-  "summary": "Business Central 2024 Wave 2 introduced embedded resources in extensions, but runtime packages lacked support until version 26.3. Use the resourceFolders property in app.json and NavApp.GetResource to access images and files in your AL extensions.",
+  "summary": "From version 25.2 (2024 Wave 2), Business Central extensions can embed resources: you declare them with resourceFolders in app.json and read them with NavApp.GetResource. On-premises runtime packages made with Get-NavAppRuntimePackage could not load embedded resources up to version 26.2, so the full package had to be published. Support arrived in 26.3 (platform 26.0.35604.0).",
   "key_points": [
     "Extensions can declare resource folders using the resourceFolders property in app.json",
     "AL code accesses embedded resources via the NavApp.GetResource method",
@@ -35,7 +35,6 @@
     "Resource folders in extensions",
     "Embedded resources support",
     "Runtime packages",
-    "AL code compilation",
     "Resource access from AL code"
   ],
   "versions": [

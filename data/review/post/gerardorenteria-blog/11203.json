@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11203",
+  "input_hash": "5443671f007c3eea4f69183b69d1086091d9e833a2028b6ee7675324fd55cc52",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:00:53.043Z",
+  "issues": [
+    "Key point on finance claims VAT reporting; the finance ideas concern VAT entry source currency fields, while a VAT report encoding idea sits under reports.",
+    "Fixed Asset Projected Value is described in the post as an Excel report, not a page.",
+    "Summary calls the list comprehensive although the post presents only some ideas; minor."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036844,
+    "posts_in_call": 4
+  }
+}

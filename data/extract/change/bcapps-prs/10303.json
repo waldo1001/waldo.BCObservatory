@@ -8,9 +8,9 @@
   ],
   "summary": "The French version now correctly preserves the SIREN field on a customer record when modifying a linked contact's common fields, fixing an issue where the field was being cleared.",
   "key_points": [
-    "Fixes SIREN field being cleared when updating linked contact common fields in French version",
-    "Modified Contact table FR-specific implementation",
-    "Updated marketing contacts test coverage to verify the fix",
+    "Fixes the SIREN field being cleared on the linked customer when a contact's common field is modified in the French version",
+    "Changes the FR-specific Contact table",
+    "Updates the FR marketing contacts tests",
     "Addresses bug AB#647015"
   ],
   "change_kind": "fix",

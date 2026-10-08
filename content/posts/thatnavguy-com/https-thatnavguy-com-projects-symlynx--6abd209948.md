@@ -14,12 +14,12 @@ tags:
   - version control
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:36.115Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -62,7 +62,6 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - platform
 versions_mentioned: []
 preview:
   embeddable: true
@@ -78,16 +77,17 @@ preview:
 
 # SymLynx
 
-[Read the post](https://thatnavguy.com/projects/symlynx/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-06 · 570 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/projects/symlynx/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-06 · 570 words · tier community · reviewed (checked by Opus)
 
 > SymLynx is a VS Code extension that solves the problem of duplicating configuration files across multiple Business Central repositories by using symbolic links to point to a single master copy, eliminating file synchronization issues and config drift.
 
 ## Key points
 
-- Developers working across multiple BC repos face the challenge of maintaining identical config files in many places, creating maintenance overhead and inconsistency
-- Symbolic links work at the filesystem level, allowing apps like VS Code and AI tools to transparently read and write to a single source file as if it were local to each project
-- SymLynx automates symlink creation through a VS Code panel with export/import capabilities, eliminating the need for terminal commands or admin prompts
-- The approach solves config drift issues and ensures AI agents behave consistently across all projects by reading from one authoritative location
+- Developers with many BC repos end up copying the same AI agent and config files into every repo, and those copies drift apart.
+- A symbolic link works at the filesystem level, so VS Code, compilers and AI tools read and write the single source file as if it were local.
+- SymLynx creates symlinks from a right-click menu in VS Code, usually without a terminal or admin rights; enabling Windows Developer Mode fixes most permission errors.
+- A panel in the Explorer sidebar lists all links, and export/import copies the link layout to other projects.
+- Links break when the target path is missing, so keep linked files out of git with .gitignore.
 
 ## Quotes
 

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/al-go-prs/2330",
+  "input_hash": "89a7649d41ee8278948d442669c43fe5fcf0e6b7d7d74a86423c774c676827d3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:17.041Z",
+  "issues": [
+    "behavior_change should be true: the emitted SARIF uri values are now percent-encoded."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017496,
+    "changes_in_call": 6
+  }
+}

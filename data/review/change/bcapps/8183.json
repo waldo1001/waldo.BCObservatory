@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8183",
+  "input_hash": "55cf3ab65bf8f7ec34ccbc88e73b8a14342df9b9131d1865d26faf7c000bd2fd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.615Z",
+  "issues": [
+    "The key point about no explicit error is garbled. The bug was that the success message appeared when creation failed without throwing an explicit error."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02123,
+    "changes_in_call": 6
+  }
+}

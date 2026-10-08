@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9356",
+  "input_hash": "9ef247cfe1b41b8d68c2794d5737505bd0839de94247933ddde5b3f3258a9399",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "The title describes the bug, and the summary correctly reads it as fixed. The four BE report changes and the added test match the file list."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

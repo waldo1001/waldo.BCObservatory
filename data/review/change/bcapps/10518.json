@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10518",
+  "input_hash": "6ba0b2c4779f24083f9ae713cd5c12ebb4a29e845875f84f19bfccddf13ce370",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:44.267Z",
+  "issues": [
+    "Adding a new event does not change existing behavior, so behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01705,
+    "changes_in_call": 6
+  }
+}

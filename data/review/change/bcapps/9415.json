@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9415",
+  "input_hash": "31cb8f09e8cca2f694c1f659bb05b33684465c970f8e69b2940eb6e37c8c092a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The page matches the description: one new event in OnPreDataItem, raised after the GLBookEntry filters are set and before the FindFirst gap check.",
+    "The IT layer is not mentioned, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

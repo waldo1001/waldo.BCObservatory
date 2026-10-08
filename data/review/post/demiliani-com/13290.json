@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13290",
+  "input_hash": "91ff019e258b0a1740b22ebd8da26346876ced4b52c02e8ea2fa5f399d43f3ee",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:57:09.979Z",
+  "issues": [
+    "Post deals only with Azure Functions storage account sharing and never mentions Business Central or any BC component.",
+    "Page content is otherwise accurate, but the post is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043055,
+    "posts_in_call": 4
+  }
+}

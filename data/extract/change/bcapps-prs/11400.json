@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "The Shopify product action now validates that a linked Shopify Variant still exists before allowing users to sync products, and shows clear error messages when the mapping has been deleted.",
+  "summary": "The Show product in Shopify action on the Item Card and Item List is now enabled only when the item has a Shopify Variant linked through an enabled shop. If the variant mapping disappears before the action runs, users get clear guidance instead of a raw database filter error.",
   "key_points": [
     "Action enabled only when item has a valid Shopify Variant linked through an enabled shop",
     "Clear error guidance provided if variant mapping disappears between page rendering and action invocation",

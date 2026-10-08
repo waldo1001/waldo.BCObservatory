@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10174",
+  "input_hash": "3b8393dad2d87fb0276d9e79c3a0308d95872560c653f3e823b73345488cfe0c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:48.759Z",
+  "issues": [
+    "The change pulls existing logic into its own procedure and adds an IsHandled integration event. Standard behaviour stays the same unless an extension subscribes, so behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016871,
+    "changes_in_call": 6
+  }
+}

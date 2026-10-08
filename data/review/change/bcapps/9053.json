@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9053",
+  "input_hash": "f262d95ebd95d26e75fbf4ffb8b3fea5c3ddd27efe154897bf7df6220f58f0b4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.437Z",
+  "issues": [
+    "Two key points are background or trivia (the procedure being local with a case statement, and the work item number) rather than what changed."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024405,
+    "changes_in_call": 6
+  }
+}

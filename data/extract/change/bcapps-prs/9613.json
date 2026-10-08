@@ -8,11 +8,11 @@
   ],
   "summary": "Sustainability module fixes for carbon tracking with item charges, value chain posting, and setup validations. Corrects proportional CO2e distribution across split item ledger entries, adds missing value entries for undo operations, and improves field visibility and defaults.",
   "key_points": [
-    "Item charge CO2e now distributed proportionally across split item ledger entries and tracking specifications",
-    "Undo purchase receipt and service documents now properly reverse and recreate sustainability value entries",
-    "Added validation warning when specific carbon tracking method is enabled without corresponding item tracking setup",
-    "CO2e per Unit field added to Item Journal page for better visibility and editability",
-    "Installation Multiplier default value set to 1 for distance-based Scope 3 emissions in purchase documents"
+    "Item charge CO2e is now spread proportionally across split item ledger entries and tracking specifications",
+    "Undo purchase receipt now recomputes sustainability value entries, and service documents now post emissions",
+    "A message warns when the Specific carbon tracking method is used without serial or lot specific item tracking",
+    "CO2e per Unit field added to the Sust. Item Journal page",
+    "Installation Multiplier on purchase lines now defaults to 1 for distance-based Scope 3 emissions"
   ],
   "change_kind": "fix",
   "behavior_change": true,

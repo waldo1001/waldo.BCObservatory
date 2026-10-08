@@ -6,11 +6,11 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Aged Accounts Receivable report (Report 120) now loads only necessary columns from Detailed Customer Ledger Entry records, significantly reducing query time on large ledger histories.",
+  "summary": "The Aged Accounts Receivable report (Report 120) now reads only the four columns it needs from Detailed Cust. Ledg. Entry inside its per-row loop. This lowers the per-row SQL cost on databases with long ledger history.",
   "key_points": [
-    "SetLoadFields applied to the Detailed Cust. Ledg. Entry loop to fetch only four required columns (Entry Type, Posting Date, Amount, Amount (LCY))",
-    "Change eliminates N+1 query pattern that scaled with full historical ledger size rather than open receivables",
-    "Update synchronized across W1, ES, and NA localization layers"
+    "SetLoadFields added to the Detailed Cust. Ledg. Entry loop for Entry Type, Posting Date, Amount and Amount (LCY)",
+    "Reduces per-row SQL cost in a loop that scales with detailed ledger history",
+    "Same change applied to the W1, ES and NA base layers"
   ],
   "change_kind": "performance",
   "behavior_change": false,

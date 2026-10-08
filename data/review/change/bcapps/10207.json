@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10207",
+  "input_hash": "4c29efb94db5ef78f630c826b7632ab6bcfae36e2de7d4b2fa6b7644101832b4",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:11.545Z",
+  "issues": [
+    "Matches the description: Truncate with a DeleteAll fallback, preserved hooks, DisableAll moved to the fallback path, and new tests. The PR states the observable outcome is unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020162,
+    "changes_in_call": 6
+  }
+}

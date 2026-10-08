@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10564",
+  "input_hash": "9235a249d6a13c0d556a1f61e6d1a7cc8f8d73ec60eccb68d2545b992d4dbc1f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.214Z",
+  "issues": [
+    "Matches the description: payment method descriptions in the Expense Agent setup codeunit were made clearer. The user-visible text change justifies behavior_change=true."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022694,
+    "changes_in_call": 6
+  }
+}

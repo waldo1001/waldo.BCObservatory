@@ -5,7 +5,7 @@
   "source": "tine-staric-net",
   "published_at": "2025-09-21T08:00:00.000Z",
   "words": 2261,
-  "summary": "Copilot's Agent mode has become the primary approach for AL development over Edits, using AI-assisted tools for code generation and project management. The post recommends settings like Todo List Tool and Max Requests, paired with copilot-instructions.md files, specific LLM models (Claude Sonnet 4, GPT-5, Grok), and MCP servers for enhanced developer productivity.",
+  "summary": "The author says GitHub Copilot Agent mode in VS Code has replaced Edits in her own AL development work. She recommends turning on the Todo List Tool, raising Max Requests, and adding copilot-instructions.md with a project overview. She also names her preferred models (Claude Sonnet 4, GPT-5, Grok Code Fast 1) and MCP servers for AL, and warns that too many tools use up the context window.",
   "key_points": [
     "Agent mode with built-in tools has replaced Edits as the preferred Copilot workflow for AL development",
     "Enable Todo List Tool and increase Max Requests setting to 100 for uninterrupted task execution",
@@ -34,7 +34,6 @@
     "Max Requests setting",
     "copilot-instructions.md",
     "MCP servers",
-    "VS Code integration",
     "model selection"
   ],
   "versions": [],

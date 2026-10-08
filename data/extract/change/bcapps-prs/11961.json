@@ -6,13 +6,13 @@
   "systems_joined": [
     "administration"
   ],
-  "summary": "Security group membership resolution is now cached by user in Effective Permissions, reducing backend calls from ~196K to nearly zero when exporting permissions to Excel by reusing the same codeunit instance across page rows.",
+  "summary": "Effective Permissions Mgt. now caches the security-group access control filter per user, and page 9853 reuses the page's global instance, so Entra group membership is resolved once per user instead of on every row. This targets slow exports of effective permissions to Excel.",
   "key_points": [
-    "Caches security group membership resolution in a Dictionary keyed by user security ID",
-    "Reuses page-level EffectivePermissionsMgt instance instead of creating local instances per row",
-    "Reduces backend calls from approximately 196K (~4 minutes) to negligible for a tenant with 36 security groups",
-    "Cache lasts while the page is open and clears on page refresh",
-    "Group membership changes while the page is open will not be reflected until page reopens"
+    "GetAccessControlFilterForUser results cached in a Dictionary keyed by user security ID",
+    "SetRecordAndRefresh on page 9853 uses the global EffectivePermissionsMgt instead of a local instance",
+    "In the author's measurement, moving through rows no longer adds GetMembers calls",
+    "Cache lasts while the page is open and starts empty when reopened",
+    "Group membership changes made while the page is open show only after reopening"
   ],
   "change_kind": "performance",
   "behavior_change": true,

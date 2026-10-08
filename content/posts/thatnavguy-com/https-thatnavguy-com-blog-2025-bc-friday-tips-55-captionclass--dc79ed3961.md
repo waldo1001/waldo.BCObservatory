@@ -14,12 +14,12 @@ tags:
   - extensions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:21.791Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -82,7 +82,6 @@ code_objects_mentioned:
   - codeunit Dimension CaptionClass Mgmt
 systems:
   - development
-  - administration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -98,7 +97,7 @@ preview:
 
 # BC Friday Tips #55 CaptionClass
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-55-captionclass/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-07 · 104 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-55-captionclass/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-07 · 104 words · tier community · reviewed (checked by Opus)
 
 > CaptionClass is a property that creates dynamic captions changing based on data or context, with dimension fields as a common example. It helps build flexible, context-aware captions using reference codeunits from the base application.
 

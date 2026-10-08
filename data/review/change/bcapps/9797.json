@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9797",
+  "input_hash": "bf350ddc2a0d2d135917ce71bc2d0a5b59182f6b38b24a57c5625831172fe01f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:29.855Z",
+  "issues": [
+    "Accurate. The root cause (Quantity (Base) is always zero), the conversion to the base unit of measure and the re-enabled test are all supported by the description and files."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024712,
+    "changes_in_call": 6
+  }
+}

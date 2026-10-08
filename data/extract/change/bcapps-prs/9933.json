@@ -8,11 +8,10 @@
   ],
   "summary": "Item Template validation no longer fails with warehouse entry errors when modifying templates after item deletion. The fix prevents warehouse entry checks when validating temporary blank-numbered Item records.",
   "key_points": [
-    "Item.TestNoWhseEntriesExist now exits immediately for blank Item numbers",
-    "Resolves validation errors when updating Item Templates after deleting items",
-    "Regression test added covering the deleted-item template-update scenario",
-    "Fix applied to Item table across all regional localization layers",
-    "Warehouse entry queries skipped for temporary blank records used in template validation"
+    "Item.TestNoWhseEntriesExist now exits immediately when Item No. is blank",
+    "Resolves warehouse-entry validation errors when modifying an Item Template after deleting an item",
+    "Fix applied to the Item table in the W1, APAC, CH, ES, GB, IT, NA and RU layers",
+    "Regression tests added in the W1 and CZ UTItemTable test codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

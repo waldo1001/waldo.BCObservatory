@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10899",
+  "input_hash": "d4745b0ecab5eed28bb360aeb75cfacd3af58b32b62175c45d6e92d0ed39c6ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:32.163Z",
+  "issues": [
+    "Adding a non-handled integration event does not change behavior on its own; behavior_change set to false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0197,
+    "changes_in_call": 6
+  }
+}

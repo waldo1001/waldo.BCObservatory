@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10155",
+  "input_hash": "c6a39959428bf94a14b0eda0ed3ae6efc3d9b88ad130c94cfd719fb9d7da0bf3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:46.824Z",
+  "issues": [
+    "The key point saying the Expense Agent Setup page gained configuration options is not supported. The page changed by 22 lines and the content is not described.",
+    "The demo data point is speculative. Demo data codeunits shrank, which suggests the logic moved into the new setup codeunits."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030219,
+    "changes_in_call": 6
+  }
+}

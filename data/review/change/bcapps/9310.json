@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9310",
+  "input_hash": "1c41e55a4573068f78b6378ecc9bab7febf94742cd38270af389d009133e2383",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:35.899Z",
+  "issues": [
+    "The description is only one line. Several key points guess at purposes the input does not support: the table extension 'storing item availability data from agent', the item search change 'working with agent context', and 'filtered availability queries'.",
+    "Key points rewritten to stay with what the file list and title show."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016149,
+    "changes_in_call": 6
+  }
+}

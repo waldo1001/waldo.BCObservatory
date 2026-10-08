@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11824",
+  "input_hash": "56236fdebd74587c56dc0e1ac5e068bf9d271e34fa81182cc8b37da7bd5261a9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:35.613Z",
+  "issues": [
+    "Key point about preventing unnecessary database lookups recasts the fix as a performance gain; the PR is about the Sales Line existing only in memory during BOM explosion."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01697,
+    "changes_in_call": 6
+  }
+}

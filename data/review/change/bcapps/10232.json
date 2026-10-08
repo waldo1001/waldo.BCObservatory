@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10232",
+  "input_hash": "0c9b0e03523f7900084557be6ec69fc38c102f3d494dac843e676106eadb2f75",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:56.792Z",
+  "issues": [
+    "The description supports the summary and key points: an OnOpenPage guard using CurrentUserCanManageAgent, per-agent Can Configure preserved, and Configure All Agents required for first-time setup or unfiltered navigation."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023281,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8115",
+  "input_hash": "ed748666cf4a07e600881d5afb8f2f9fb527b76b384ab400d31c25c65e8c00ef",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:56.615Z",
+  "issues": [
+    "The summary and key points match the description: source codes are now passed, Customer/Vendor are added as dimension sources, contract updates go through SetDefaultDimensions, and billing-time merging is unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02123,
+    "changes_in_call": 6
+  }
+}

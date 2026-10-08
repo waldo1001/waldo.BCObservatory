@@ -7,7 +7,7 @@
     "platform",
     "development"
   ],
-  "summary": "Composite report parts are now seeded via a declarative report extension instead of install/upgrade code, removing the need for elevation and simplifying the data model.",
+  "summary": "The 14 shipped header/footer designs and report themes are now registered through a declarative Composite Layout report extension on Tenant Report Defaults instead of install/upgrade seeding code. The seeding codeunits, upgrade tag and SeedPart tests were removed, which also removes the elevated write path.",
   "key_points": [
     "Report extension replaces SeedPart-based install/upgrade code for seeding header/footer designs and themes",
     "Removes Composite Report Parts Mgt. codeunit, upgrade logic, and associated test suite",
@@ -16,7 +16,7 @@
     "Eliminates permission-elevation issues from the previous approach"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

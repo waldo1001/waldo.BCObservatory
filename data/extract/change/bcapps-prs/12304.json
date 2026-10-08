@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed a page opening issue caused by the FlowField 'Last Run By User' in Financial Report tables by restructuring how the user tracking data is stored and calculated.",
+  "summary": "Fixes a problem where a financial reports page could not open because of the FlowField 'Last Run By User'. The change touches the Financial Report and Financial Report Audit Log tables and the Financial Reports and Acc. Schedule Overview pages.",
   "key_points": [
-    "Pages 490 and 108 couldn't open due to FlowField issues",
-    "Restructured user tracking in Financial Report and Financial Report Audit Log tables",
-    "Changed from FlowField-based calculation to standard field storage",
-    "Added comprehensive test coverage to verify the fix",
-    "Aligns user tracking with audit log entries"
+    "Addresses a page failing to open because of the 'Last Run By User' FlowField",
+    "Changes in table 88 Financial Report and table 8390 Financial Report Audit Log",
+    "Pages 108 Financial Reports and 490 Acc. Schedule Overview adjusted",
+    "Regression tests added to ERM Account Schedule II in the W1, CZ and NA layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

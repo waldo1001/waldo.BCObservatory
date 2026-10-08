@@ -1,0 +1,21 @@
+{
+  "item_id": "change/al-go-prs/2313",
+  "input_hash": "a27944dd3bcd4f025d34f88c498df02c795cc5845e50e3b018fae25e4b1790ce",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:58.784Z",
+  "issues": [
+    "behavior_change should be true: branches whose names contain ] used to install 0 apps and now install their .app files correctly. Paths without brackets behave the same as before."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01893,
+    "changes_in_call": 6
+  }
+}

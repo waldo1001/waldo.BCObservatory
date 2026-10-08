@@ -8,11 +8,11 @@
   ],
   "summary": "Extends BC14 cloud migration to stage customer, vendor, and item subledger transactions alongside G/L entries, enabling migration of open receivables, payables, and inventory for both current and historical data.",
   "key_points": [
-    "Adds buffer tables for customer, vendor, and item ledger entries with detailed posting setup",
-    "Implements current migrators that post open entries through general and item journals to cloud company",
-    "Provides historical migrators to copy archived source entries into HybridBC14HistoricalData app for reference",
-    "Each migrator is gated by module flags to run only when relevant modules are selected",
-    "Includes comprehensive test coverage for all current and historical migrators"
+    "Adds buffer tables for customer, vendor and item ledger entries, detailed ledger entries, value entries and inventory posting setup",
+    "Current migrators post open customer and vendor entries through general journals and rebuild on-hand inventory through positive adjustment item journal lines",
+    "Automatic Cost Posting is left off so item posting does not double-count against the G/L migrator",
+    "Historical migrators copy source entries into archive tables in the HybridBC14HistoricalData app without posting",
+    "Each migrator runs only when its module flag is enabled; tests cover the current migrators and the item historical migrator"
   ],
   "change_kind": "feature",
   "behavior_change": true,

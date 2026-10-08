@@ -6,12 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The IC Dimension Values Selector page now includes a missing field that should be populated when copied from another record.",
+  "summary": "Fixes a field that was missing when dimension values are copied or mapped to IC dimension values through the IC Dim Values Selector page.",
   "key_points": [
-    "Field mapping was missing in the IC Dim Values Selector page",
-    "The field is now included when records are copied",
-    "Affects intercompany dimension value handling",
-    "Small change with 5 lines added"
+    "A field was not carried over when copying dimension values to IC dimension values",
+    "Fix is in page 706 IC Dim Values Selector in the Base Application",
+    "Affects intercompany dimension mapping"
   ],
   "change_kind": "fix",
   "behavior_change": true,

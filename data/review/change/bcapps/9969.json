@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9969",
+  "input_hash": "12c8017ae64517f92c37dbb1372b39c9a9794555333e210e3eae09c7685857d9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:12.756Z",
+  "issues": [
+    "The summary and key points match the description: the new GetFastPrompt procedure, codeunit 7789, the DotNet alias and the ID range expansion.",
+    "The error handling point is backed by the scenarios the author describes testing."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019358,
+    "changes_in_call": 6
+  }
+}

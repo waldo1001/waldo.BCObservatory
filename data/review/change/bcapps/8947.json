@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8947",
+  "input_hash": "db53b3202749fa1956454a12c80357fa975da762be96a4e945708fbcbc9e7a78",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:03.158Z",
+  "issues": [
+    "Key point said both the list and card pages gain both actions. Only the Permission Sets list gets Where-Used and Permissions Overview; the card gets Where-Used only."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02633,
+    "changes_in_call": 6
+  }
+}

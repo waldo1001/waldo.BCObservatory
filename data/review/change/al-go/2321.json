@@ -1,0 +1,21 @@
+{
+  "item_id": "change/al-go-prs/2321",
+  "input_hash": "7342fdd8975eff5a465cc57a834e55c956000e81dc9e5baee74ccf43edd33f6c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:55.797Z",
+  "issues": [
+    "behavior_change should be true. The Deliver steps now run only for the Apps matrix entry instead of once per artifact type, which changes how the workflow runs."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018243,
+    "changes_in_call": 6
+  }
+}

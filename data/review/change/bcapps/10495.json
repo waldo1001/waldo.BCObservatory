@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10495",
+  "input_hash": "87d854cf03723859c62d71b312aac9dac083e5b2c1777573ca0714b7604b9643",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:15.699Z",
+  "issues": [
+    "Content matches the description: new WordBody layouts for reports 107, 114, 115, old Word layouts set to ObsoleteState Pending with tag 30.0, Excel stays default.",
+    "Obsoletions list is empty although old Word layouts are obsoleted; cannot be added with available edits."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019011,
+    "changes_in_call": 6
+  }
+}

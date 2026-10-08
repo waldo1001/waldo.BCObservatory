@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/12313",
+  "input_hash": "0ad346649845808b7b47e9d52f692cbc9f54411413739f9cebd7905f06f6ab9d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:38.800Z",
+  "issues": [
+    "The administration system tag is not supported: the resources the AI set up are Azure infrastructure, not Business Central administration.",
+    "Summary, key points and features match the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030528,
+    "posts_in_call": 4
+  }
+}

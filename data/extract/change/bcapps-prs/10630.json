@@ -8,14 +8,14 @@
   ],
   "summary": "The OnBeforeCheckBankAcc event in the Reversal Entry table gains two Boolean parameters that let extensions skip the Open and Statement No. validations independently when reversing bank account ledger entries.",
   "key_points": [
-    "Two new Boolean parameters added to OnBeforeCheckBankAcc event to control Open and Statement No. validation checks",
-    "Extensions can now skip specific bank reversal checks without handling the entire validation",
-    "Event signature extended with trailing parameters while maintaining compatibility with existing subscribers",
-    "Changes applied across all regional layers (W1, APAC, BE, CH, ES, FR, IT, RU, SE)",
-    "New tests added to verify skipping individual checks during bank entry reversal"
+    "Two Boolean parameters appended to the OnBeforeCheckBankAcc event in the Reversal Entry table",
+    "Extensions can skip the Open check or the Statement No. check independently while other reversal checks still run",
+    "Existing subscribers stay compatible because the new parameters are trailing",
+    "Publisher updated in the W1, APAC, BE, CH, ES, FR, IT and RU layers",
+    "Tests added in W1, ES and SE for skipping each check during bank entry reversal"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

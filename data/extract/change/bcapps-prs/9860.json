@@ -9,15 +9,15 @@
   ],
   "summary": "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents instead of fabricated invoice lines, with configurable mapping strategies to comply with EN 16931 validation rules.",
   "key_points": [
-    "Item charges can be classified as document-level or line-level allowances/charges, or as regular lines with unit codes via new Item Charge E-Invoice Mapping enum",
-    "Per-item-charge override configuration added to store mapping type, reason text, reason code, and fallback unit code",
-    "Codeunit resolves export structure automatically based on charge assignment matching, with integration events for customization",
-    "Document and line totals recalculated to maintain monetary accuracy after charges leave the line set",
-    "XRechnung and ZUGFeRD exporters updated to emit charges in appropriate cac:AllowanceCharge or ram:SpecifiedTradeAllowanceCharge structures"
+    "New Item Charge E-Invoice Mapping setting on E-Document Service: Automatic, document-level or line-level allowance/charge, or line with unit code",
+    "Per-item-charge override for mapping, reason text, reason code and fallback unit code",
+    "Automatic mode uses Value Entry assignments to choose line-level or document-level, with integration events to override the result",
+    "XRechnung and ZUGFeRD exporters emit allowance/charge structures and adjust totals and tax subtotals accordingly",
+    "Removes a duplicate features key that stopped the DE demo data app from compiling"
   ],
   "change_kind": "fix",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "integration"

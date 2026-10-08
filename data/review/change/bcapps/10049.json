@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10049",
+  "input_hash": "a35cd83bb52d3c16ad3d86d29810b3cbdcfc3b16c66aa97a866864714dc4213d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.282Z",
+  "issues": [
+    "Removal of ReplicateData=false from the three Spend Request tables is supported. The cloud migration context fits the CloudMigrationPropertyTest change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020196,
+    "changes_in_call": 6
+  }
+}

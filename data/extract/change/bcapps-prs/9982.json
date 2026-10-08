@@ -6,12 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Item tracking validation for lot numbers now occurs at the warehouse pick level instead of at the sales order level, allowing sales orders to proceed without lot number assignments until the pick operation.",
+  "summary": "Fixes a bug where item tracking validation for assigned lot numbers was evaluated at the warehouse pick level instead of at the sales order level. Logic was added to the Item Tracking Data Collection codeunit, with new tests in the W1 and RU SCM item tracking test codeunits.",
   "key_points": [
-    "Moved validation logic from sales order to warehouse pick stage",
-    "Enables sales orders to be created before lot numbers are assigned",
-    "Improves workflow by deferring lot number requirement to picking phase",
-    "Fixes bug 646429 affecting item tracking validation"
+    "Fixes bug 646429 on item tracking validation for assigned lot numbers",
+    "Validation previously considered the warehouse pick level rather than the sales order level",
+    "New logic added to codeunit 6501 Item Tracking Data Collection",
+    "Regression tests added to the W1 and RU SCM Item Tracking test codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

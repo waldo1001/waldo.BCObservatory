@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11648",
+  "input_hash": "c610fd49960b1cf71fb59ab6ed81ae5a8420ae5f2f673b6008a27806b85bcd24",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.300Z",
+  "issues": [
+    "The summary and key points match the description: the tax engine now recalculates on the Bank Receipt Voucher, the use case gives zero IGST, ledger entries are created and the use-case version is raised."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019056,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13195",
+  "input_hash": "e2c14973b0add8dbfd47975e79027ffbc2a855cc26f82402a4148ea4e45af2b0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:39.637Z",
+  "issues": [
+    "The post labels v27 as 2025 release wave 1 in the first list but as wave 2 in the on-premises list; the key point repeated the wave 1 label as fact.",
+    "Rest of the page matches the post; version list omits v19 to v13 but is not wrong."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027662,
+    "posts_in_call": 4
+  }
+}

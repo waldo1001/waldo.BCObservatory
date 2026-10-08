@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The withholding tax production posting group is now transferred to payment lines during payment processing, fixing missing withholding tax entry generation.",
+  "summary": "The Withholding Tax Prod. Posting Group field is now carried over to the payment line, so Withholding Tax Entries are created again when the payment is posted.",
   "key_points": [
-    "Withholding tax production posting group was not being transferred to payment lines",
-    "This caused withholding tax journal entries to fail to generate at payment",
-    "Added logic in the withholding tax journal subscriber codeunit to handle the transfer",
-    "Includes test coverage for the fix in the test codeunit"
+    "The Withholding Tax Prod. Posting Group field was not transferred to payment lines",
+    "Because of this, no Withholding Tax Entries were generated at payment",
+    "New logic in codeunit Withholding Tax Jnl Subscriber transfers the field",
+    "A test was added to ERM Withholding Tax Tests II"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,8 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thinkaboutit-be/8132
   guidelines: []
   changes:
     - change/bcapps/10869
@@ -82,7 +83,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -133,5 +134,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../../changes/bcquality/156.md) (code change): "Each pattern includes bad and good code examples with frontmatter metadata and description"
 - [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "modal pages hold locks and must be called before write operations begin"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
+- [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

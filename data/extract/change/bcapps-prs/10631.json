@@ -21,11 +21,10 @@
   ],
   "summary": "Integration of 46 commits from main into the BC29 release branch includes enhancements to e-document processing, expense report policy evaluations, agent features, and various localization and financial modules.",
   "key_points": [
-    "E-document import helpers and providers updated to support additional validation scenarios",
-    "New expense policy evaluation framework with dedicated tables, pages, and APIs for policy assessment",
-    "Agent design experience expanded with instruction editor and setup capabilities",
-    "Excel reports aging calculations refactored for improved performance and accuracy",
-    "Multiple localization modules (Germany, USA) and base application components updated for consistency"
+    "Integrates 46 commits from main into releases/29.x, keeping the original order and SHAs",
+    "Expense Agent gains policy evaluation tables, pages, enums and APIs, including posted evaluations",
+    "E-Document, AgentDesignExperience, Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified",
+    "German e-document (XRechnung, ZUGFeRD, PEPPOL) and US IRS 1099 code and Base Application objects also change"
   ],
   "change_kind": "feature",
   "behavior_change": true,

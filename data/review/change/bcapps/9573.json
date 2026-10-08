@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9573",
+  "input_hash": "b7876adccfdc0a98b9391f69061939a01f9dad12a09cb3a8d706e60ab206d625",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:56.369Z",
+  "issues": [
+    "Accurate fix description: navigation at purchase order level, a list for multiple transfer orders, the report now uses the purchase header, and a regression test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019834,
+    "changes_in_call": 6
+  }
+}

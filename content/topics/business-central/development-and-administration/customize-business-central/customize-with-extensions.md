@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -496,7 +496,7 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "AppSource UI text, captions, tooltips, and labels changed to Marketplace terminology"
-- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions support full lifecycle management"
+- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "check the last updated date before installing. Apps without recent updates"
 
 ## Business Central pages and reports

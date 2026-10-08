@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10020",
+  "input_hash": "a776fa3addc74bbb08aee0845e26f84acf0ecb873409ab1d12b1d04b81fe444a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:48.759Z",
+  "issues": [
+    "The description puts the fix in ExpenseRuleValidation, but the changed files are the Expense Rule Card page, the Expense Rule Header table and tests. The described behaviour is still consistent with the page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016871,
+    "changes_in_call": 6
+  }
+}

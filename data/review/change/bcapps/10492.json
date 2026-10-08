@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10492",
+  "input_hash": "7caed090f8858ea8d582a0c3cb615852c6b928274ba42a2e258e95af31ad5659",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:53.353Z",
+  "issues": [
+    "breaking is set to true, but the description says no backward-compatibility impact is expected. Legitimate deletion still works through SOA Filters Impl., and only unauthorized direct deletion is blocked. Set to false.",
+    "The summary and key points are otherwise supported (InherentPermissions changed from RIMDX to RIMX)."
+  ],
+  "applied": [
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019088,
+    "changes_in_call": 6
+  }
+}

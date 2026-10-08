@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10031",
+  "input_hash": "af0f346d3fd253184b8622336ebf48039d126dda28a296da4e7ec9c51a5ad7c2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:56.792Z",
+  "issues": [
+    "The UI colour key point is wrong. Needs Recheck is shown in yellow but is not a non-compliant result, and No Policies is shown in green but is not a compliant result.",
+    "The key points tie atomic completion and stale-buffer protection to the new APIs. The description puts them on MarkPoliciesEvaluated and on Expense Report Line OnModify.",
+    "Keeping breaking=true is justified because the description lists breaking API renames."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023281,
+    "changes_in_call": 6
+  }
+}

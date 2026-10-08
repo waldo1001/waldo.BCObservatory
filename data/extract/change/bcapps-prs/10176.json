@@ -7,13 +7,12 @@
     "purchasing",
     "sales"
   ],
-  "summary": "Fixed an issue where prepayment invoices were not handled correctly when purchase or sales line quantities were changed, with updates applied across all localizations and new test cases added.",
+  "summary": "Fixes an issue with prepayment invoices when the quantity is changed on purchase or sales lines. Purchase Line and Sales Line tables were updated in many localization layers, and tests were added.",
   "key_points": [
-    "Bug fix for prepayment invoice handling with quantity changes",
-    "Updates to Purchase Line and Sales Line tables across all localization layers",
-    "New test cases added for prepayment scenarios",
-    "Changes applied consistently to both purchase and sales documents",
-    "Covers APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE, and W1 localizations"
+    "Fixes prepayment invoice handling when line quantities change",
+    "Purchase Line updated in APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE and W1",
+    "Sales Line updated in the same layers except DACH and NL",
+    "Prepayment tests added in the W1 and RU layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

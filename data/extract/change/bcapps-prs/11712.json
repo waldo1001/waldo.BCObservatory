@@ -6,14 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense user synchronization now includes a configuration wizard that prompts users to automatically create employee records when no matching employee is found during sync.",
+  "summary": "Expense user synchronization gets new logic in the Expense User table and a small change to the Expense Users page. Per the title, it addresses asking whether employees should be created when sync finds no matching employee. Tests were added.",
   "key_points": [
-    "Added configuration wizard to Expense Users page",
-    "Automatically creates employee records when sync finds no matching employees",
-    "Reduces manual data setup work during expense management onboarding",
-    "Test coverage added for the import expense user functionality"
+    "Addresses creating employees when user sync finds no match, per the bug title",
+    "Logic added to the Expense User table, with a small update to the Expense Users page",
+    "Tests added to the import expense user test codeunit"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

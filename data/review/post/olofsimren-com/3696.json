@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/olofsimren-com/3696",
+  "input_hash": "c0a34feb4ae791bdf8869857ba2bfe098d51ae018807cf9e6f0fbec98af4c733",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:53.444Z",
+  "issues": [
+    "Summary omits that the module was not installed automatically on upgrade and had to be added from AppSource, a practical point the author stresses.",
+    "Key point on workflows states notifications as fact; the author only believes standard notification responses can be added.",
+    "page Quality Workflow is not a named object in the post; the workflow is configured through standard workflow setup."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.053792,
+    "posts_in_call": 4
+  }
+}

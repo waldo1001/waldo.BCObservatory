@@ -7,13 +7,13 @@
     "platform",
     "development"
   ],
-  "summary": "Report layout creation and management now prevents duplicate names from overwriting existing layouts, blocks unapproved layouts from becoming defaults, validates default layout status changes, handles empty uploads properly, and allows blank header/footer parts to be created.",
+  "summary": "Fixes composite report layout defects: a new layout can no longer overwrite one with the same name, default layouts must stay Approved, and empty uploads are rejected. Blank header/footer parts can be created. Show layout parts now resolves the effective layout correctly, and status actions read Set as ....",
   "key_points": [
-    "Duplicate layout names are rejected before file upload instead of silently overwriting",
-    "Moving a layout out of Approved status is blocked if it's the current report default",
-    "Only approved layouts can be set as default",
-    "Empty file uploads are validated and rejected with a clear error message",
-    "Blank header/footer parts can now be created with the report's WordXmlPart injected"
+    "New layouts with a taken name are rejected; only Replace deletes the old layout, after a successful upload",
+    "An Approved layout explicitly selected as default cannot change status, and only approved layouts can become default",
+    "Empty uploads are rejected with a dedicated error",
+    "Blank header/footer parts can be created with the report's WordXmlPart",
+    "Show layout parts uses the report's effective layout; status captions changed to Set as ..."
   ],
   "change_kind": "fix",
   "behavior_change": true,

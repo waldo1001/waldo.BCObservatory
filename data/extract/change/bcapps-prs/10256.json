@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Shopify connector now normalizes phone numbers before search and verifies exact matches when finding existing customers, fixing incorrect duplicates with formatted phone numbers.",
+  "summary": "When exporting customers to Shopify, the connector now strips phone numbers down to the plus sign and digits before searching. It accepts a search result only if the phone or email matches exactly. Formatted phone numbers no longer match unrelated Shopify customers, which used to make the export get skipped with a misleading 'already exists' message.",
   "key_points": [
     "Phone numbers are normalized to digits and plus sign before Shopify search",
     "Search results are validated for exact phone and email matches",

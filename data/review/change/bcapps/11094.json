@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11094",
+  "input_hash": "2f682a33075a7b1bd52a97499283046ba079ea88ed13d1bcada6f46454dd92bc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:13.688Z",
+  "issues": [
+    "Key point 'Backward compatible with existing coupled items' is not supported. The risk section is cut off, and the tests show that existing coupled Products are switched to No."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018552,
+    "changes_in_call": 6
+  }
+}

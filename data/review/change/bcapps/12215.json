@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12215",
+  "input_hash": "4207969800ca816acf17859e9e97944762404d26ca707a6cb0b39e9a8c4c1cc5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:14.709Z",
+  "issues": [
+    "Summary and key points match the description: stale filters are cleared before each shipment lookup, and a regression test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023383,
+    "changes_in_call": 6
+  }
+}

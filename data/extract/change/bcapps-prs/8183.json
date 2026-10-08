@@ -11,11 +11,11 @@
   ],
   "summary": "E-Document creation now correctly reports failure when a posted document cannot be converted to an e-document instead of incorrectly showing a success message.",
   "key_points": [
-    "The result of e-document creation is now propagated back through the call chain",
-    "Users see 'The e-document could not be created.' when creation fails",
-    "Fixes cases where no explicit error prevented the false success message",
-    "Multiple page extensions updated to handle the creation result",
-    "Resolves false positive feedback when document type is unsupported"
+    "CreateEDocumentFromPostedDocumentPage now returns whether the e-document was actually created",
+    "The creation result is passed back through the export and processing codeunits",
+    "When creation fails, users see 'The e-document could not be created.'",
+    "Fixes the false success message when creation failed without an explicit error, for example for an unsupported document type",
+    "Posted document page extensions updated to act on the result"
   ],
   "change_kind": "fix",
   "behavior_change": true,

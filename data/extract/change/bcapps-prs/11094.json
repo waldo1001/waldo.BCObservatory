@@ -8,11 +8,11 @@
   ],
   "summary": "Field Service Integration now prevents duplicate Customer Assets by setting Products synchronized from Business Central Items to not convert to Customer Assets, keeping BC as the source of truth for Customer Asset creation.",
   "key_points": [
-    "Products from BC Items now have Convert to Customer Asset set to No",
-    "Default Item-Product mapping includes the new field mapping rule",
-    "Product flag no longer filters Service Items from Customer Asset synchronization",
-    "Runtime enforcement and mapping configuration tested",
-    "Backward compatible with existing coupled items"
+    "Products synchronized from BC Items get Convert to Customer Asset set to No",
+    "The default ITEM-PRODUCT mapping gets an outbound constant false mapping for Convert to Customer Asset",
+    "Existing coupled Products are changed to No on sync, even when the mapping does not contain the new field yet",
+    "The Product flag no longer filters Service Items out of Customer Asset synchronization",
+    "Tests added for runtime enforcement and mapping configuration"
   ],
   "change_kind": "fix",
   "behavior_change": true,

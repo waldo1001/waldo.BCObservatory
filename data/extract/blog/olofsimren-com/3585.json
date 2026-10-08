@@ -5,13 +5,13 @@
   "source": "olofsimren-com",
   "published_at": "2025-10-08T14:01:46.000Z",
   "words": 1001,
-  "summary": "A partner-built Copilot extension for Business Central helps manufacturing companies manage inventory by answering natural language questions about reorder points, replenishment timing, and demand trends. It uses Azure OpenAI as a backend AI model with structured prompts and JSON data from inventory tables to provide suggestions with explanations.",
+  "summary": "Copilot Inventory Queries is a free AppSource extension the author built to answer natural language inventory questions in Business Central, such as reorder points, replenishment timing and demand trends, with explanations. It sends the user question plus JSON inventory data like item ledger entries and open orders to an Azure OpenAI model, guided by a system prompt.",
   "key_points": [
-    "The extension uses Microsoft's Copilot interface tools in AL to build custom AI features for inventory management",
-    "It connects to an Azure OpenAI deployment configured in Azure AI Foundry with credentials stored securely in isolated storage",
-    "Prompts include system instructions that teach the AI model to analyze Business Central inventory data (item ledger entries, open orders) and answer user questions",
-    "The solution optimizes costs by compressing data before sending to the AI model and only including relevant fields",
-    "It demonstrates practical AI use cases like suggesting reorder points, reorder quantities, sales trends, and reordering policies"
+    "Built with the Copilot capability tools Microsoft provides for AL; the author found it simple to create",
+    "Needs an Azure OpenAI model from Azure AI Foundry; endpoint, deployment name and API key go in a setup table, with the API key kept in isolated storage",
+    "A system prompt tells the model it receives Business Central inventory data plus a question and must explain its answer",
+    "Item ledger entry data can be compressed and only relevant, configurable fields are sent to limit response time and cost",
+    "Example queries cover reorder point and quantity, typical sales volume and reordering policy; future ideas include MRP explanations and forecasting"
   ],
   "systems": [
     "copilot",

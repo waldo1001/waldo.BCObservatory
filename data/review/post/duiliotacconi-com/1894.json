@@ -1,0 +1,27 @@
+{
+  "item_id": "blog/duiliotacconi-com/1894",
+  "input_hash": "c139ec78b858da098729f7b85152cfaf4e61c33910bec501fc617425cf4921b1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:55.282Z",
+  "issues": [
+    "The summary credits the new change with reducing the number of SQL queries. SmartSQL already sent a single statement; what the new change removes is duplicate OUTER APPLY blocks.",
+    "The key point on V-SIFTs gets the rule slightly wrong: the post says indexed views cannot be grouped with FlowFields that are not indexed.",
+    "The key point on telemetry overstates the claim. The post only says the impact could be measured, and fewer round trips is the benefit of SmartSQL in general, not of this change.",
+    "Nothing in the post supports the reporting system.",
+    "The objects are fine: the enum is referenced in the demo table code."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031996,
+    "posts_in_call": 4
+  }
+}

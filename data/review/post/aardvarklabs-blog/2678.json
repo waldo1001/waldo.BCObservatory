@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2678",
+  "input_hash": "366a7ddaf50f1ee67680e268f1d62350f4d027c8377b43fc11454841ff453ae8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:06.791Z",
+  "issues": [
+    "Key point 2 says the procedures are grouped into categories. The post does not group them; it lists each one with a short description.",
+    "The rest is supported: the procedure count, the namespace, the .NET comparison and the listed procedures."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036101,
+    "posts_in_call": 4
+  }
+}

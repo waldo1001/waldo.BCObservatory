@@ -7,7 +7,7 @@
     "copilot",
     "development"
   ],
-  "summary": "GPT-5.5 chat deployments are marked obsolete and replaced with GPT-5.6 Ceres deployments that retire on September 11, 2026, with Sales Order Agent callers migrated to the new models.",
+  "summary": "GPT-5.5 chat deployment getters in AOAI Deployments are marked obsolete because those deployments retire on 11 September 2026. New GPT-5.6 Ceres latest and preview getters are added, and Sales Order Agent attachment extraction and item search now use them.",
   "key_points": [
     "GetGPT55ChatLatest() and GetGPT55ChatPreview() methods marked obsolete in version 30.0 with retirement telemetry",
     "New GetGPT56CeresLatest() and GetGPT56CeresPreview() methods added returning gpt-56-ceres deployment models",
@@ -17,7 +17,7 @@
   ],
   "change_kind": "obsoletion",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "AOAI Deployments",

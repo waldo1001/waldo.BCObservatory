@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9071",
+  "input_hash": "ade5fe683c8a0822ba89ad03bcbb7a1ca8d6c900a225ed35d9a3275a7d720cb2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:04.516Z",
+  "issues": [
+    "The PR description is empty. The claim that the fix corrects source currency handling or validation is inferred only from the test file name and is not supported.",
+    "Tests were added in the CZ, ES, IT and W1 ERM Source Currency suites; the RU test file only has one line removed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01855,
+    "changes_in_call": 6
+  }
+}

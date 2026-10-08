@@ -9,11 +9,11 @@
   ],
   "summary": "Sales and Purchase posting now skip fields with mismatched types when transferring from source to posted records, allowing posting to continue even when extension fields reuse the same field numbers with different data types.",
   "key_points": [
-    "TransferFields calls updated to skip fields with type mismatches",
-    "Posting behavior changes to continue instead of blocking on type conflicts",
-    "Compatible same-numbered fields still transfer correctly",
-    "Mismatched fields retain target record default values",
-    "Behavior applied consistently across W1 and all localized versions"
+    "TransferFields calls in Sales-Post and Purch.-Post now skip fields with mismatched types",
+    "Posting continues instead of failing on extension field-number collisions",
+    "Compatible same-numbered fields are still transferred",
+    "Mismatched fields keep the target record's default value",
+    "Applied to W1 and the localized copies of codeunits 80 and 90"
   ],
   "change_kind": "fix",
   "behavior_change": true,

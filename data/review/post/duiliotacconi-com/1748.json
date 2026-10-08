@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/duiliotacconi-com/1748",
+  "input_hash": "ac4b28cf12d9f5cb02240de86c1dd8ee2bfb4f31c19ffa2d17ef780616e5b31f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:59.812Z",
+  "issues": [
+    "The summary and features claim CCMS schedules environment copies. In the post, nightly copy scheduling is only an example of a customer question. The screenshots show rescheduling updates from the Environment Card.",
+    "The key point saying Directions for Partners developed the app is wrong. Duilio and Stefano built the prototype, mostly by vibe coding, and later joined Freddy's Directions for Partners project.",
+    "The CCMS entry under objects is an app, not an AL object."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036312,
+    "posts_in_call": 4
+  }
+}

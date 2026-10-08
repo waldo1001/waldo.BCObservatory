@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9650",
+  "input_hash": "87b13ded6d12d5c11a1b327bc8e7a7f289c5f1bc287391aa68f75b74fc4e0e9d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.882Z",
+  "issues": [
+    "Summary claims the reverted changes caused incorrect calculations; the description only says it reverts PR 9515, which itself addressed the Greater Than rule.",
+    "A pure revert is better classed as other than fix."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017136,
+    "changes_in_call": 6
+  }
+}

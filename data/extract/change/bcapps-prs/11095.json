@@ -8,10 +8,10 @@
   ],
   "summary": "Deferral Code field on released purchase line documents now validates that the purchase header status is open, preventing modification of deferrals on non-open purchase records.",
   "key_points": [
-    "Added missing validation for Deferral Code field on purchase lines",
-    "Validation ensures purchase header status must be 'Open' before allowing deferral code changes",
-    "Applied across all localization layers and base application",
-    "Includes test automation to verify the validation works correctly"
+    "Added the missing TestStatusOpen check to the Deferral Code field on Purchase Line",
+    "Changing Deferral Code on a released purchase document now fails with 'Status must be equal to Open'",
+    "Applied in W1 and the country-specific Purchase Line tables",
+    "Tests added in W1, IT, NA and RU"
   ],
   "change_kind": "fix",
   "behavior_change": true,

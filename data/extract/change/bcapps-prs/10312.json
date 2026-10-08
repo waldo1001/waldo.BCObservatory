@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense Agent now tracks whether VAT specifications were created by the API or manually, prevents modifications to API-created records, and improves error messages when posting expense reports with pending VAT reclaim status.",
+  "summary": "Expense Agent now sets the Source of VAT specification records to Agent when created through the API and Manual when created in the UI, blocks changes and deletions of agent-created records, and gives more specific errors when posting expense reports with pending VAT reclaim status.",
   "key_points": [
-    "Added Source field to VAT specification records to distinguish API-created (Agent) from manually-created (Manual) entries",
-    "Enforced immutability for API-created VAT specifications to prevent unauthorized modifications or deletions",
-    "Skipped certain validations and calculations for agent-created records to handle them differently",
-    "Enhanced error messages during expense report posting with specific guidance for resolving VAT reclaim issues",
-    "Added upgrade logic and comprehensive test coverage for the new VAT specification handling"
+    "Source is set to Agent for API-created VAT specifications and Manual for UI-created ones; the Source field is now non-editable",
+    "Agent-created VAT specification records cannot be modified or deleted, and UpdateVATSpecification no longer overwrites them",
+    "Certain validations and category/subcategory handling apply only to manual entries",
+    "Posting errors for pending VAT reclaim status are more specific and offer navigation actions",
+    "Adds an upgrade codeunit and expanded test coverage"
   ],
   "change_kind": "feature",
   "behavior_change": true,

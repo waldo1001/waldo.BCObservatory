@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11563",
+  "input_hash": "df33f999b4db52b3186bb9b219ce24c8689adbe533c98d0b89abd1955a82716d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:56.926Z",
+  "issues": [
+    "Summary and key points match the description: export of header and line requested delivery period, plus the import fix for line requested delivery date.",
+    "Description interface names differ from object names, but the page does not name them."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025367,
+    "changes_in_call": 6
+  }
+}

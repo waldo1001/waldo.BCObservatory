@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed a bug where payment discount tolerance was calculated twice for vendor payments with Applies-to ID in foreign currency, causing inflated bank amounts and sign errors in GL entries.",
   "key_points": [
-    "Removed guard preventing netted amounts from being persisted when Applies-to ID was set",
-    "Added re-entrancy guard to prevent infinite recursion during amount validation",
-    "Payment discount tolerance now calculated correctly for multi-invoice vendor payments",
-    "Fix applied across all localizations (W1, CH, FR, IT, NL)",
-    "Added regression tests for vendor payment tolerance scenarios"
+    "Removed the GenJnlLineApplID = '' guard so the netted payment amount is saved to the journal line in the Applies-to ID case",
+    "Added a re-entrancy guard in PmtTolGenJnl to stop recursion when Amount is validated",
+    "Vendor payments applied to several invoices in foreign currency no longer double the discount tolerance",
+    "Fix made in the W1, CH, FR, IT and NL layers; customer path unchanged",
+    "Regression tests added in W1 and IT vendor payment tolerance test codeunits"
   ],
   "change_kind": "fix",
   "behavior_change": true,

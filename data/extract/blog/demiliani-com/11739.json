@@ -7,11 +7,11 @@
   "words": 1550,
   "summary": "The post explains how the new Sales Order Agent in Business Central 2025 Wave 1 automates email-based sales quote processing and details the billing models for agentic AI features. It covers Copilot Studio message-based pricing (pay-as-you-go at $0.01 per message or prepaid message packs at $200/month for 25,000 messages), environment linking requirements, and cost scenarios ranging from $77 to $803 monthly based on agent complexity and usage.",
   "key_points": [
-    "Sales Order Agent automatically processes customer email requests, clarifies details through multi-turn conversations, and generates formatted PDF quotes with pricing and availability information",
-    "Business Central must be linked to a Power Platform environment to enable agent billing and inherit Copilot Studio settings",
-    "Two billing models available: prepaid capacity (message packs at $200/month for 25,000 messages) or pay-as-you-go ($0.01 per message), both can run simultaneously with prepaid consumed first",
-    "Agent message consumption varies by task complexity, with costs depending on generative answers, autonomous actions, tenant graph grounding, and agent flow actions",
-    "ROI justification is essential, as agents can reduce manual workload and improve customer satisfaction but require cost-benefit analysis for sustainability"
+    "The Sales Order Agent in 2025 Wave 1 (version 26) reads customer emails, clarifies missing details over multi-turn email, checks item availability and sends a PDF sales quote",
+    "Billing requires linking the Business Central environment to a Power Platform environment; links are one-to-one and must match Azure geo and environment type",
+    "Two billing models exist, prepaid Copilot Studio message packs ($200 per month for 25,000 messages) and pay-as-you-go ($0.01 per message); if both are active, prepaid capacity is used first",
+    "Message consumption depends on task complexity such as generative answers, agent actions, tenant graph grounding and agent flow actions; sample scenarios range from about $77 to $803 per month",
+    "The author stresses weighing costs against ROI and notes that full-code agent solutions may be cheaper for complex, scalable projects"
   ],
   "systems": [
     "copilot",
@@ -27,12 +27,7 @@
     "power platform integration",
     "licensing"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Sales Order Agent"
-    }
-  ],
+  "objects": [],
   "features": [
     "Sales Order Agent",
     "Multi-turn email conversations",

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10032",
+  "input_hash": "6dc4b00d7776d3080c4a7ffd9bd13490f18b48c03d795cb611a5bfc0b8665c60",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:51.961Z",
+  "issues": [
+    "The page accurately covers the move from filter group 0 to group 2, the Agent.IsActive guard, skipping the substate filter for a specific agent, and the hidden system filters."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02093,
+    "changes_in_call": 6
+  }
+}

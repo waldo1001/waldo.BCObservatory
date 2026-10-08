@@ -14,12 +14,12 @@ tags:
   - debugging
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:57:58.506Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -91,7 +91,7 @@ preview:
 
 # BC Friday Tips #59 Allocation Account Design
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-12-05 · 94 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-59-allocation-account-design/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-12-05 · 94 words · tier community · reviewed (checked by Opus)
 
 > Allocation Accounts automate the distribution of revenue or cost amounts through journals and documents. The feature is implemented via Codeunit 2677, which subscribes to an event before posting batch runs, intercepts journal lines, rewrites them, and posts the updated lines.
 

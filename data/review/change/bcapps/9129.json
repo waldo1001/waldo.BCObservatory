@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9129",
+  "input_hash": "20c90cfb85c1563573227305d34606405211888374e880669eb7c5092a631be5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The description is empty, so the page relies on the title and files only. The claims stay at that level: report 29 changed in the W1 and NA layers, and tests changed in the W1, NA and CZ layers.",
+    "The exact fix logic is not described in the source, and the page does not invent it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

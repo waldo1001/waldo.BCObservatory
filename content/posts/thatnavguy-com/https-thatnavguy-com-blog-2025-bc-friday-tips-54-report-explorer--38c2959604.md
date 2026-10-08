@@ -13,12 +13,12 @@ tags:
   - role center
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:32.040Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,7 +85,7 @@ preview:
 
 # BC Friday Tips #54 Report Explorer
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-31 · 90 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-54-report-explorer/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-10-31 · 90 words · tier community · reviewed (checked by Opus)
 
 > The Report Explorer is a discovery tool in Business Central that helps users browse and find available reports from the Role Center or via Tell Me. It lets you locate reports by name or uncover useful ones you might not have known existed.
 

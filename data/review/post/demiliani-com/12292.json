@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/12292",
+  "input_hash": "a8511f1232fae3ad41cbabde57964e9947664252e095a6d942723ccca7198d0e",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:59:45.957Z",
+  "issues": [
+    "Post covers Azure Logic Apps blob storage connector behavior only and never mentions Business Central, so it is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027261,
+    "posts_in_call": 4
+  }
+}

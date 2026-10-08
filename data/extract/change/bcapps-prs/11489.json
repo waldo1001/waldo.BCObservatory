@@ -8,11 +8,10 @@
   ],
   "summary": "The Early Access Preview feature list is cleared to an empty array, and the loader is guarded to handle cases where no preview features are found.",
   "key_points": [
-    "Early Access Preview features resource emptied",
-    "Added guard check for FindFirst() to prevent errors on empty data",
-    "Fixes bug where loader couldn't handle zero preview features",
-    "Guided Experience sample resource unchanged",
-    "Maintains valid JSON format"
+    "Shipped Early Access Preview features resource is now an empty JSON array",
+    "Loader guards its FindFirst() call when parsing yields zero records",
+    "Guided Experience sample resource is unchanged",
+    "Resolves ADO bug 650199"
   ],
   "change_kind": "fix",
   "behavior_change": true,

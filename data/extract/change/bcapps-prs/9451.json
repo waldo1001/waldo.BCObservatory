@@ -8,11 +8,10 @@
   ],
   "summary": "The OnBeforeCreateWhseActivHeader event in the Create Pick codeunit now includes a temporary Warehouse Activity Line parameter, allowing subscribers to inspect pick lines before a warehouse activity header is created.",
   "key_points": [
-    "Added temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader event",
-    "Enables subscribers to inspect pick lines before header creation",
-    "Allows decision logic for routing lines to new or existing pick headers",
-    "Parameter is trailing so existing subscribers remain compatible",
-    "Supports complex scenarios with Sales, Transfer, and Purchase Return Orders"
+    "Adds a temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader in codeunit 7312 Create Pick",
+    "Subscribers can inspect temporary pick lines before the warehouse activity header is created",
+    "Lets subscribers decide whether a new header is needed or lines should go to an existing pick",
+    "Supports adding new Sales, Transfer, and Purchase Return Order lines to an existing warehouse pick"
   ],
   "change_kind": "feature",
   "behavior_change": false,

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9914",
+  "input_hash": "774f79b318af3d926771694941b6a9990654fb79694401d07306d56d3d310720",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:55.797Z",
+  "issues": [
+    "The description supports the page: the row filter is removed and appliesToInvoiceNumber is limited to invoice applications."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018243,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/209",
+  "input_hash": "fe7e3ab9021b871e7fd23c2fab7cd61bb3e7295cf9572217d4e83a9bf84d280f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.004Z",
+  "issues": [
+    "The three articles, the exclusions, the review wiring and the verification steps are all represented accurately.",
+    "Key point 1 simplifies the delete rule, which only applies to deletes called from outside the owning table, but it is still acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023732,
+    "changes_in_call": 6
+  }
+}

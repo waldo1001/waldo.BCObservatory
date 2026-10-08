@@ -8,10 +8,10 @@
   ],
   "summary": "The Email - Outlook REST API connector now skips attachments without contentBytes instead of failing the entire batch, allowing emails with non-file attachments to be imported successfully.",
   "key_points": [
-    "Attachments without contentBytes (item and reference attachments) are now skipped instead of causing batch failure",
-    "File attachments with contentBytes continue to work unchanged",
-    "Unhandled JSON parsing errors that rolled back entire email batches are eliminated",
-    "Regression test added with test payload for non-file attachments"
+    "Attachments without contentBytes (item and reference attachments) are now skipped instead of failing the batch",
+    "File attachments with contentBytes are handled as before",
+    "A single email with a non-file attachment, such as a bounce notification, no longer rolls back every email imported in the run",
+    "Regression test and payload added for non-file attachments"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/7159",
+  "input_hash": "0ff8370f70e68eb83bb40cea0588cca2cea7b960834ccee48bd206b5920df25f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:04.367Z",
+  "issues": [
+    "Summary, key points, features and quotes match the post's highlight list and customer rollout notes.",
+    "System tag sales is not supported; the post only mentions Shopify B2B and Shopify Plus support, not sales processes."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024,
+    "posts_in_call": 4
+  }
+}

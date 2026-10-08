@@ -6,15 +6,14 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "The subcontracting planning logic was refactored to use a new event subscriber that prevents vendor-supplied components from generating separate planning demand while keeping them visible in the planning worksheet. A test was added to verify this behavior.",
+  "summary": "Vendor-supplied components in subcontracting no longer generate separate planning demand but still appear in the planning worksheet for consumption registration. The subscriber now hooks OnAfterFilterLinesWithItemToPlan on Planning Component instead of OnTransferBOMOnBeforeUpdatePlanningComp, and a test covers the behaviour.",
   "key_points": [
-    "Event subscriber changed from OnTransferBOMOnBeforeUpdatePlanningComp to OnAfterFilterLinesWithItemToPlan",
-    "Vendor-supplied components are filtered out during planning to prevent duplicate demand generation",
-    "Vendor-supplied components remain in the planning worksheet for consumption tracking",
-    "New test verifies that vendor-supplied components are not planned separately but can be replanned if supply method changes",
-    "Refactoring improves code organization by moving logic to a more appropriate event hook"
+    "Subscriber moved from OnTransferBOMOnBeforeUpdatePlanningComp to OnAfterFilterLinesWithItemToPlan on Planning Component",
+    "Components with supply method Vendor-Supplied are filtered out so they create no separate requisition lines",
+    "Vendor-supplied components remain in the planning worksheet and production order for consumption tracking",
+    "New test confirms the component is planned again when its supply method changes"
   ],
-  "change_kind": "refactor",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

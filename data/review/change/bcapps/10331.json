@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10331",
+  "input_hash": "1df1ee9f57d9165485a8d1c277032b7793ed86589ce8f623528a4c968e3b48f6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:12.756Z",
+  "issues": [
+    "The description only links the work item. The claims about a Peppol compliance issue and fields required by the Peppol specification are not supported.",
+    "The key point that only names the modified codeunit adds little."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019358,
+    "changes_in_call": 6
+  }
+}

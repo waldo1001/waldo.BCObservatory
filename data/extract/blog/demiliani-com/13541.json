@@ -7,15 +7,14 @@
   "words": 149,
   "summary": "YAMPI version 1.2.1 adds the ability to install Marketplace apps (AppSource) in Dynamics 365 Business Central tenants through AI tools. The tool can resolve app details, check installation status, and manage dependencies automatically.",
   "key_points": [
-    "YAMPI is an Administration MCP server for managing Dynamics 365 Business Central through AI tools",
-    "Version 1.2.1 introduces Marketplace app installation capability from AppSource",
-    "The tool automatically checks if apps are installed and resolves required dependencies",
-    "Users can manage Marketplace apps and PTE (Private Tab Extension) through natural language AI requests",
-    "Installation is done via npm with the command npm install -g @demiliani/d365bc-admin-mcp@1.2.1"
+    "YAMPI is the author's Business Central administration MCP server, now at version 1.2.1",
+    "The update adds installing Marketplace (AppSource) apps into a tenant environment",
+    "YAMPI resolves the app by ID or name, checks whether it is already installed, and installs it along with required dependencies",
+    "Users can now manage Marketplace apps and PTEs on a tenant through AI tools",
+    "Install or upgrade with npm install -g @demiliani/d365bc-admin-mcp@1.2.1, then restart VS Code or the AI tool"
   ],
   "systems": [
     "administration",
-    "copilot",
     "integration"
   ],
   "topics": [

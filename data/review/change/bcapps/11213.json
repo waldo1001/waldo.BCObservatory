@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11213",
+  "input_hash": "660b47cf2b4f17445b090c3b559446f98fbee3721dc02b853eb66f0b44a9f3af",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.727Z",
+  "issues": [
+    "The description says there are no breaking changes. Nothing shows the changed PA Demo Guide procedures can be called from other extensions, so breaking is set to false."
+  ],
+  "applied": [
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018515,
+    "changes_in_call": 6
+  }
+}

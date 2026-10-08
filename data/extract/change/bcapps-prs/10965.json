@@ -6,11 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "VAT specification tests for the Expense Agent are corrected to properly validate tax calculations and API behavior.",
+  "summary": "Fixes the Expense Agent VAT tests. The Expense VAT Spec. API page was changed, and the API and posting VAT test codeunits were updated.",
   "key_points": [
-    "Test cases for expense VAT specification API are fixed",
-    "Expense posting VAT tests are adjusted",
-    "Changes focus on test implementation rather than product functionality"
+    "The Expense VAT Spec. API page (7085) logic was changed",
+    "A test was added to the VAT Spec. API test codeunit",
+    "The expense posting VAT tests were adjusted"
   ],
   "change_kind": "fix",
   "behavior_change": false,

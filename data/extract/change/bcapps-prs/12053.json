@@ -8,16 +8,16 @@
     "sustainability",
     "integration"
   ],
-  "summary": "Removed CLEAN27 tags and obsolete code from Sustainability, PowerBI Reports, and Subscription Billing apps for Wave2 2026 cleanup.",
+  "summary": "Removes code marked for cleanup in version 27 (CLEAN27) from the Sustainability, Power BI Reports, Subscription Billing and E-Document apps. The obsolete Sustainability Power BI embedded pages in Power BI Reports are deleted, and the code and test values that depended on them are removed.",
   "key_points": [
-    "Deleted 12 obsolete Sustainability Power BI embedded page files from the _Obsolete folder",
-    "Removed CLEAN27 tags from multiple objects across Sustainability, PowerBI Reports, and Subscription Billing modules",
-    "Cleaned up related codeunits, table extensions, and page extensions that referenced obsolete functionality",
-    "Removed test enum values and helper code associated with the removed Power BI scenarios"
+    "Deleted 11 obsolete Sustainability Power BI embedded page files from the Power BI Reports _Obsolete folder",
+    "Removed CLEAN27-guarded code from Subscription Billing tables, pages and APIs and from the E-Document table",
+    "Cleaned obsolete code from Sustainability Power BI pages, codeunits, table and page extensions",
+    "Removed related permission set entries and test library enum values"
   ],
   "change_kind": "obsoletion",
   "behavior_change": false,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "sustainability",

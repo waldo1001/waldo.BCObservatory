@@ -13,12 +13,12 @@ tags:
   - developer tools
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:17.331Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,7 +85,7 @@ preview:
 
 # BC Friday Tips #72 Inlay Hints
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-15 · 119 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-72-inlay-hints/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-15 · 119 words · tier community · reviewed (checked by Opus)
 
 > Inlay Hints in VS Code display inline parameter names and return types while coding in AL, helping developers understand function signatures without hovering or jumping to definitions. This feature is particularly useful for procedures with many parameters and can be configured to appear on demand to keep the editor clean.
 

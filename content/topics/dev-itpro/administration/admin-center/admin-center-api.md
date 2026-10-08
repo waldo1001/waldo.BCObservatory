@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -148,6 +148,7 @@ links:
     - video/669rJN75L2g
   posts:
     - post/aardvarklabs-blog/3950
+    - post/aardvarklabs-blog/3998
     - post/aardvarklabs-blog/4023
   guidelines: []
   changes:
@@ -163,7 +164,7 @@ coverage:
   learn: 15
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -200,6 +201,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11741 [MCP] Add company and environment descriptions](../../../../changes/bcapps/11741.md) (code change): "Company and environment descriptions are now stored and exposed via APIs"
 - [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management tasks"
+- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "PowerShell examples for automating extension management in Business Central using the Administration API"
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "PowerShell automation script that deploys Business Central extensions to production by sorting them by dependencies"
 - [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; admin center api; manageable tenants; s2s authentication"
 

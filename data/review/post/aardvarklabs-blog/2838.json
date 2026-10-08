@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2838",
+  "input_hash": "e634eabaa56e5e71554348706200c2a9caf30354ef519f3d5973b0d636d6a390",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:58.506Z",
+  "issues": [
+    "The sales system is not really covered; the post uses custom staging tables reused from an earlier example, not the standard sales area.",
+    "Summary, key points, objects and quote are supported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028416,
+    "posts_in_call": 4
+  }
+}

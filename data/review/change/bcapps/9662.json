@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9662",
+  "input_hash": "88862d9c9bbd0ead9752a8412b4ee837c14c63f93a702614e925a70e8caa2d93",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:27.500Z",
+  "issues": [
+    "The description is only a work item link. The page relies on the title and the changed files, which support the fix in five layers and the new tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02234,
+    "changes_in_call": 6
+  }
+}

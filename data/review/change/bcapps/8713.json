@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8713",
+  "input_hash": "dc87e1f40753a82182e0535019ca1c427d77498985b440fe51f552ace608a5d4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.437Z",
+  "issues": [
+    "The change only adds public procedures that delegate to existing code, so existing runtime behavior does not change. behavior_change should be false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024405,
+    "changes_in_call": 6
+  }
+}

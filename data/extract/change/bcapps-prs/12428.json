@@ -8,10 +8,10 @@
   ],
   "summary": "Added a public Copilot feature trial interface to System Application, enabling applications to initiate trials, query remaining quota, and consume trial usage with corresponding implementation codeunits and tests.",
   "key_points": [
-    "Introduces Copilot Feature Trial and implementation codeunits as public interfaces",
-    "Reorganizes Copilot quota objects into Consumption and Billing folder structure",
-    "Adds required DotNet aliases and AI module dependencies",
-    "Includes System Application tests validating trial state and quota behavior"
+    "Adds a public Copilot Feature Trial codeunit, backed by an implementation codeunit, to start trials, query remaining quota and consume trial usage",
+    "Moves the Copilot quota objects into the Consumption and Billing folder",
+    "Adds the required DotNet aliases and an AI module dependency",
+    "Adds System Application tests for trial state and quota behavior"
   ],
   "change_kind": "feature",
   "behavior_change": true,

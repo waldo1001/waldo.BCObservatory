@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11113",
+  "input_hash": "90cda16dfb026351118d8933e998fa025277271024ec856d100b6fb9a7ef6129",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.727Z",
+  "issues": [
+    "The last key point blames profile customization; the description says the cause was the field missing from the page layout.",
+    "The small table changes in W1 and ES are not explained in the input."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018515,
+    "changes_in_call": 6
+  }
+}

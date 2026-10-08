@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12869",
+  "input_hash": "a1033d3e88150fdcce2bc634bfba86c5d09d75bdf0fd55a4df93d7157dbce55a",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:58:16.448Z",
+  "issues": [
+    "Post is only a Git release link list with no Business Central content; out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026307,
+    "posts_in_call": 4
+  }
+}

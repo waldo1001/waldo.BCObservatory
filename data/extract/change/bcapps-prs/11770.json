@@ -8,10 +8,9 @@
   ],
   "summary": "An issue where posted demo expenses remained in Submitted status with a dangling Expense Report number was fixed in the Expenses API.",
   "key_points": [
-    "Fixed a data consistency issue in the Expense Agent demo data",
-    "Posted expenses were incorrectly left in Submitted status",
-    "Removed the dangling Expense Report number reference",
-    "Changes made to the Expenses API page"
+    "Fixes posted Expense Agent demo expenses that stayed in Submitted status",
+    "Addresses a dangling Expense Report No. on those posted expenses",
+    "The change adds 4 lines to the Expenses API page 6927"
   ],
   "change_kind": "fix",
   "behavior_change": true,

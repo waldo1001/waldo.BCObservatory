@@ -8,10 +8,10 @@
   ],
   "summary": "Sales Order Agent AI operations move to GPT-5.5 chat deployments for attachment extraction, item search expansion, and item selection while leaving other SOA AI calls on GPT-4.1.",
   "key_points": [
-    "Attachment extraction, keyword expansion, and item ranking now use GPT-5.5 chat deployments",
-    "Message and attachment relevance checks remain on GPT-4.1 latest",
-    "Multimodal file support continues for attachment extraction through updated allow-list",
-    "No changes to prompts, schemas, temperature, max tokens, or JSON mode settings"
+    "Attachment extraction, broader item search and item selection now use GPT-5.5 chat deployments",
+    "Relevance checks, mail template validation and signature handling stay on GPT-4.1 latest",
+    "Attachment extraction can still send file parts because GPT-5.5 chat preview is already on the multimodal allow-list",
+    "Prompts, schemas, temperature, max tokens and JSON mode are unchanged; only the deployment is swapped"
   ],
   "change_kind": "other",
   "behavior_change": true,

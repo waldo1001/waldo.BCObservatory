@@ -2,7 +2,7 @@
 id: source/stefanmaron-com
 type: source
 title: Stefan Maron
-summary: "Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, integration."
+summary: "Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: e62449a20b56fb7c91e6ad00de44b6a4c1ff4e8c8038c0a86b0ebe84f4498ab8
@@ -74,15 +74,11 @@ footprint:
     - id: development
       weight: 53
     - id: platform
-      weight: 29
-    - id: integration
-      weight: 7
+      weight: 28
     - id: administration
-      weight: 5
-    - id: copilot
-      weight: 1
-    - id: finance
-      weight: 1
+      weight: 3
+    - id: integration
+      weight: 3
   topics:
     - id: testing
       weight: 10
@@ -113,11 +109,7 @@ footprint:
       weight: 2
     - id: other MsDyn365Bc.On.Linux
       weight: 2
-    - id: codeunit Codeunit.Run
-      weight: 1
     - id: codeunit SalesLineReserve
-      weight: 1
-    - id: codeunit Test codeunits
       weight: 1
     - id: other AL Language Tests
       weight: 1
@@ -129,6 +121,10 @@ footprint:
       weight: 1
     - id: other al-smart-compile
       weight: 1
+    - id: other ALchemist
+      weight: 1
+    - id: other ALCops
+      weight: 1
   features: []
 first_item: "2025-06-02"
 last_item: "2026-09-10"
@@ -136,7 +132,7 @@ last_item: "2026-09-10"
 
 # Stefan Maron
 
-> Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, integration.
+> Stefan Maron (MVP): 28 posts in the knowledge base, 2025-06-02 to 2026-09-10, mostly about development, platform, administration.
 
 [https://stefanmaron.com](https://stefanmaron.com) · blog · tier community
 
@@ -145,17 +141,17 @@ last_item: "2026-09-10"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (53) | testing (10) | other AL Runner (5) |
-| platform (29) | al development (8) | other BusinessCentral.AL.Language.Tests (3) |
-| integration (7) | al runner (8) | other bc-code-atlas (2) |
-| administration (5) | claude code (5) | other MsDyn365Bc.On.Linux (2) |
-| copilot (1) | ci/cd (4) | codeunit Codeunit.Run (1) |
-| finance (1) | docker (4) | codeunit SalesLineReserve (1) |
-|  | performance (4) | codeunit Test codeunits (1) |
-|  | ci/cd pipeline (3) | other AL Language Tests (1) |
-|  | code analysis (3) | other al-compile (1) |
-|  | code quality (3) | other AL-Go (1) |
-|  |  | other al-go-compile-bench (1) |
-|  |  | other al-smart-compile (1) |
+| platform (28) | al development (8) | other BusinessCentral.AL.Language.Tests (3) |
+| administration (3) | al runner (8) | other bc-code-atlas (2) |
+| integration (3) | claude code (5) | other MsDyn365Bc.On.Linux (2) |
+|  | ci/cd (4) | codeunit SalesLineReserve (1) |
+|  | docker (4) | other AL Language Tests (1) |
+|  | performance (4) | other al-compile (1) |
+|  | ci/cd pipeline (3) | other AL-Go (1) |
+|  | code analysis (3) | other al-go-compile-bench (1) |
+|  | code quality (3) | other al-smart-compile (1) |
+|  |  | other ALchemist (1) |
+|  |  | other ALCops (1) |
 
 ## Flight path
 

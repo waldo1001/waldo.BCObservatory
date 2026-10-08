@@ -6,13 +6,12 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Fixed an issue where Source Currency VAT Amount was incorrectly set to zero on G/L entries when posting sales invoices with line discounts, deferral codes, and discount posting set to No Discounts. The VAT amount is now calculated correctly across all scenarios.",
+  "summary": "Fixed Source Currency VAT Amount being posted as zero on G/L entries for sales invoices that combine a line discount, a deferral code and Discount Posting set to No Discounts. In that case the amount is now the calculated VAT, and source currency amounts balance across the G/L entries.",
   "key_points": [
-    "Source Currency VAT Amount now calculates correctly when deferrals, line discounts, and No Discounts posting setting are combined",
-    "The fix ensures VAT calculation uses the formula (Unit Price - Discount) × VAT% in all cases",
-    "All Source Currency amounts now balance correctly across G/L entries",
-    "Test cases added to validate the fix across multiple localization layers",
-    "The posting routine in Sales Post Invoice codeunit was corrected to handle this edge case"
+    "Sales Post Invoice codeunit corrected in the W1 layer and several localized layers",
+    "With deferral, line discount and No Discounts combined, Source Currency VAT Amount now equals (Unit Price - Discount) x VAT%",
+    "Source Currency amounts balance to zero across the posted G/L entries",
+    "Tests added to ERM Source Currency in the W1, CZ, ES, IT and RU layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

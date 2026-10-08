@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "started_at": "2026-10-07T22:42:12.892Z",
-  "finished_at": "2026-10-08T00:06:33.109Z",
+  "started_at": "2026-10-08T01:26:53.141Z",
+  "finished_at": "2026-10-08T02:16:40.204Z",
   "status": "ok",
   "pipeline": "0.2.0",
   "runner": {
@@ -33,7 +33,7 @@
           "removed": 0
         },
         "note": "2157 pages at bf5ffffa9b02",
-        "duration_ms": 10167
+        "duration_ms": 11695
       },
       {
         "id": "learn-devitpro",
@@ -47,7 +47,7 @@
           "removed": 0
         },
         "note": "5893 pages at 925493536e27",
-        "duration_ms": 13779
+        "duration_ms": 17042
       },
       {
         "id": "m365-roadmap",
@@ -61,7 +61,7 @@
           "removed": 0
         },
         "note": "80 Business Central items of 1900; snapshot unchanged",
-        "duration_ms": 555
+        "duration_ms": 616
       },
       {
         "id": "bcquality",
@@ -75,7 +75,7 @@
           "removed": 0
         },
         "note": "435 pages at 86d809b5252a",
-        "duration_ms": 1273
+        "duration_ms": 1585
       },
       {
         "id": "alguidelines",
@@ -89,7 +89,7 @@
           "removed": 0
         },
         "note": "232 pages at 53923c5010f2",
-        "duration_ms": 1116
+        "duration_ms": 1207
       },
       {
         "id": "bcapps",
@@ -97,41 +97,41 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 1,
+          "changed": 0,
           "updated": 0,
-          "unchanged": 2,
+          "unchanged": 3,
           "removed": 0
         },
         "note": "3/3 branches",
-        "duration_ms": 1285
+        "duration_ms": 1008
       },
       {
         "id": "bcapps-prs",
         "kind": "github-pr",
         "ok": true,
         "counts": {
-          "new": 1,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 7,
+          "unchanged": 8,
           "removed": 0
         },
         "note": "9 merged in main, releases/29.x; 0 bots, 1 backports skipped; cursor 2026-10-07",
-        "duration_ms": 5598
+        "duration_ms": 6093
       },
       {
         "id": "al-go-prs",
         "kind": "github-pr",
         "ok": true,
         "counts": {
-          "new": 1,
+          "new": 0,
           "changed": 0,
           "updated": 0,
-          "unchanged": 0,
+          "unchanged": 1,
           "removed": 0
         },
-        "note": "2 merged in main; 1 bots, 0 backports skipped; cursor 2026-10-07",
-        "duration_ms": 3680
+        "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-10-07",
+        "duration_ms": 4027
       },
       {
         "id": "bcquality-prs",
@@ -145,7 +145,7 @@
           "removed": 0
         },
         "note": "1 merged in main; 0 bots, 0 backports skipped; cursor 2026-10-06",
-        "duration_ms": 2340
+        "duration_ms": 2197
       },
       {
         "id": "sandbox-history",
@@ -153,13 +153,13 @@
         "ok": true,
         "counts": {
           "new": 0,
-          "changed": 0,
+          "changed": 4,
           "updated": 0,
-          "unchanged": 8,
+          "unchanged": 4,
           "removed": 0
         },
         "note": "8/8 branches",
-        "duration_ms": 606
+        "duration_ms": 767
       },
       {
         "id": "onprem-history",
@@ -173,7 +173,7 @@
           "removed": 0
         },
         "note": "2/2 branches",
-        "duration_ms": 611
+        "duration_ms": 819
       },
       {
         "id": "yt-microsoft",
@@ -187,7 +187,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 199
+        "duration_ms": 196
       },
       {
         "id": "yt-hougaard",
@@ -201,7 +201,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 171
+        "duration_ms": 101
       },
       {
         "id": "yt-saurav",
@@ -215,7 +215,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 114
+        "duration_ms": 279
       },
       {
         "id": "yt-areopa",
@@ -229,7 +229,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 137
+        "duration_ms": 127
       },
       {
         "id": "yt-mibuso",
@@ -243,7 +243,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 94
+        "duration_ms": 150
       },
       {
         "id": "yt-stefanmaron",
@@ -257,7 +257,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 144
+        "duration_ms": 93
       },
       {
         "id": "yt-bcmusings",
@@ -271,7 +271,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 99
+        "duration_ms": 112
       },
       {
         "id": "yt-dynamicscorner",
@@ -285,7 +285,7 @@
           "removed": 0
         },
         "note": "15 feed entries",
-        "duration_ms": 1122
+        "duration_ms": 85
       },
       {
         "id": "waldo-be",
@@ -299,7 +299,7 @@
           "removed": 0
         },
         "note": "17 posts via WordPress REST",
-        "duration_ms": 4977
+        "duration_ms": 343
       },
       {
         "id": "stefanmaron-com",
@@ -313,7 +313,7 @@
           "removed": 0
         },
         "note": "28 posts via feed",
-        "duration_ms": 4049
+        "duration_ms": 1910
       },
       {
         "id": "kauffmann-nl",
@@ -327,7 +327,7 @@
           "removed": 0
         },
         "note": "3 posts via WordPress REST",
-        "duration_ms": 4363
+        "duration_ms": 6945
       },
       {
         "id": "demiliani-com",
@@ -341,7 +341,7 @@
           "removed": 0
         },
         "note": "88 posts via WordPress REST",
-        "duration_ms": 529
+        "duration_ms": 607
       },
       {
         "id": "freddysblog",
@@ -355,7 +355,7 @@
           "removed": 0
         },
         "note": "10 posts via feed",
-        "duration_ms": 279
+        "duration_ms": 435
       },
       {
         "id": "jpearson-blog",
@@ -369,7 +369,7 @@
           "removed": 0
         },
         "note": "8 posts via WordPress REST",
-        "duration_ms": 347
+        "duration_ms": 5268
       },
       {
         "id": "katson-com",
@@ -383,7 +383,7 @@
           "removed": 0
         },
         "note": "5 posts via feed",
-        "duration_ms": 556
+        "duration_ms": 5634
       },
       {
         "id": "sauravdhyani-com",
@@ -397,7 +397,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 292
+        "duration_ms": 381
       },
       {
         "id": "gerardorenteria-blog",
@@ -411,7 +411,7 @@
           "removed": 0
         },
         "note": "79 posts via WordPress REST",
-        "duration_ms": 458
+        "duration_ms": 654
       },
       {
         "id": "bertverbeek-nl",
@@ -425,7 +425,7 @@
           "removed": 0
         },
         "note": "13 posts via WordPress REST",
-        "duration_ms": 806
+        "duration_ms": 907
       },
       {
         "id": "kine-cz",
@@ -439,7 +439,7 @@
           "removed": 0
         },
         "note": "3 posts via feed",
-        "duration_ms": 297
+        "duration_ms": 263
       },
       {
         "id": "keytogoodcode-com",
@@ -454,7 +454,7 @@
         },
         "deferred": true,
         "note": "scrape-only source: HTML ingest arrives with the blogs milestone (M3)",
-        "duration_ms": 0
+        "duration_ms": 1
       },
       {
         "id": "olofsimren-com",
@@ -468,7 +468,7 @@
           "removed": 0
         },
         "note": "10 posts via WordPress REST",
-        "duration_ms": 800
+        "duration_ms": 882
       },
       {
         "id": "mohana-blog",
@@ -482,7 +482,7 @@
           "removed": 0
         },
         "note": "25 posts via feed",
-        "duration_ms": 414
+        "duration_ms": 409
       },
       {
         "id": "duiliotacconi-com",
@@ -496,7 +496,7 @@
           "removed": 0
         },
         "note": "21 posts via WordPress REST",
-        "duration_ms": 347
+        "duration_ms": 363
       },
       {
         "id": "thinkaboutit-be",
@@ -510,7 +510,7 @@
           "removed": 0
         },
         "note": "61 posts via WordPress REST",
-        "duration_ms": 2029
+        "duration_ms": 1278
       },
       {
         "id": "thatnavguy-com",
@@ -524,7 +524,7 @@
           "removed": 0
         },
         "note": "72 posts via feed",
-        "duration_ms": 200
+        "duration_ms": 187
       },
       {
         "id": "dvlprlife-com",
@@ -538,7 +538,7 @@
           "removed": 0
         },
         "note": "20 posts via feed",
-        "duration_ms": 278
+        "duration_ms": 262
       },
       {
         "id": "tine-staric-net",
@@ -552,7 +552,7 @@
           "removed": 0
         },
         "note": "7 posts via feed",
-        "duration_ms": 317
+        "duration_ms": 290
       },
       {
         "id": "aardvarklabs-blog",
@@ -566,7 +566,7 @@
           "removed": 0
         },
         "note": "81 posts via WordPress REST",
-        "duration_ms": 689
+        "duration_ms": 635
       },
       {
         "id": "vondervoort-be",
@@ -580,7 +580,7 @@
           "removed": 0
         },
         "note": "6 posts via WordPress REST",
-        "duration_ms": 1098
+        "duration_ms": 954
       },
       {
         "id": "thedynamicsexplorer-com",
@@ -594,7 +594,7 @@
           "removed": 0
         },
         "note": "19 posts via WordPress REST",
-        "duration_ms": 377
+        "duration_ms": 453
       },
       {
         "id": "vld-bc-com",
@@ -673,17 +673,17 @@
           }
         ],
         "note": "50 digest entries, 8 unregistered hosts",
-        "duration_ms": 1151
+        "duration_ms": 1080
       }
     ],
     "totals": {
       "sources": 43,
       "failed": 0,
       "deferred": 2,
-      "new": 2,
-      "changed": 1,
+      "new": 0,
+      "changed": 4,
       "updated": 0,
-      "unchanged": 9538,
+      "unchanged": 9537,
       "removed": 0
     }
   },
@@ -711,529 +711,94 @@
       "post_reviews": 50000,
       "change_reviews": 50000
     },
-    "work": 618,
-    "executed": 618,
+    "work": 3,
+    "executed": 3,
     "skips": 0,
     "quota_use": {
-      "video_reviews": {
-        "selected": 615,
-        "available": 615,
-        "limit": 50000
-      },
-      "change_fetch": {
-        "selected": 2,
-        "available": 2,
-        "limit": 100000
-      },
       "code_jobs": {
-        "selected": 1,
-        "available": 1,
+        "selected": 3,
+        "available": 3,
         "limit": 100000
       }
     },
     "note": "stopped: done"
   },
   "llm": {
-    "calls": 1864,
-    "cache_hits": 3,
-    "failures": 305,
+    "calls": 387,
+    "cache_hits": 0,
+    "failures": 0,
     "by_model": {
-      "claude-haiku-4-5-20251001": 140,
-      "claude-opus-5-5": 1721,
-      "claude-sonnet-5-5": 3
+      "claude-haiku-4-5-20251001": 15,
+      "claude-opus-5-5": 370,
+      "claude-sonnet-5-5": 2
     },
-    "cost_usd": 84.92580660000019,
+    "cost_usd": 43.54494439999995,
     "tokens_by_model": {
       "claude-haiku-4-5-20251001": {
-        "calls": 140,
-        "input": 72574,
-        "output": 73410,
-        "cache_read": 6386,
-        "cache_creation": 1052513,
-        "cost_usd": 2.545288599999999
+        "calls": 15,
+        "input": 45,
+        "output": 7989,
+        "cache_read": 0,
+        "cache_creation": 176584,
+        "cost_usd": 0.39315799999999995
       },
       "claude-opus-5-5": {
-        "calls": 810,
-        "input": 1626,
-        "output": 1520509,
-        "cache_read": 1004650,
-        "cache_creation": 6470363,
-        "cost_usd": 82.38051800000014
+        "calls": 370,
+        "input": 748,
+        "output": 749161,
+        "cache_read": 426973,
+        "cache_creation": 3491273,
+        "cost_usd": 43.00179059999995
+      },
+      "claude-sonnet-5-5": {
+        "calls": 2,
+        "input": 4,
+        "output": 1112,
+        "cache_read": 679,
+        "cache_creation": 34683,
+        "cost_usd": 0.1499958
       }
     },
-    "day_cost_usd": 84.925807
+    "day_cost_usd": 128.470751
   },
   "spend": {
-    "today_usd": 0,
+    "today_usd": 84.925807,
     "week_before_usd": 105.463496,
     "night_cap_usd": 100000,
     "week_cap_usd": 100000,
-    "allowance_usd": 99894.536504,
+    "allowance_usd": 99809.610697,
     "binding": "week",
     "exhausted": false,
     "override": true
   },
-  "items_changed": 3,
+  "items_changed": 4,
   "errors": [
-    "blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/ +3 post review: LLM call failed after 3 attempts (blog/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Eu",
-    "blog/dvlprlife-com/https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/ +3 post review: LLM call failed after 3 attempts (blog/dvlprlife-com/https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/ +3 post review): claude error (success): You've hit your session limit · resets 3",
-    "blog/duiliotacconi-com/2117 +3 post review: LLM call failed after 3 attempts (blog/duiliotacconi-com/2117 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/8037 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/8037 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824 +3 post review: LLM call failed after 3 attempts (blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824 +3 post review): claude error (success): You've hit your session limit · reset",
-    "blog/gerardorenteria-blog/15051 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/15051 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/ +3 post review): claude error (success): You've hit your session lim",
-    "blog/thinkaboutit-be/8022 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/8022 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/14979 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14979 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/14469 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14469 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/tine-staric-net/https://tine.staric.net/blog/2026/agent-plugins/ +3 post review: LLM call failed after 3 attempts (blog/tine-staric-net/https://tine.staric.net/blog/2026/agent-plugins/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/B",
-    "blog/demiliani-com/13931 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13931 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/ +3 post review: LLM call failed after 3 attempts (blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/ +3 post review): claude error (success): You've hi",
-    "blog/demiliani-com/13840 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13840 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7977 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7977 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123 +3 post review: LLM call failed after 3 attempts (blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-818643009386692123 +3 post review): claude error (success): You've hit your session limit · r",
-    "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6476700913383925526 +3 post review: LLM call failed after 3 attempts (blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6476700913383925526 +3 post review): claude error (success): You've hit your session limit · ",
-    "blog/gerardorenteria-blog/14717 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14717 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/waldo-be/318604 +3 post review: LLM call failed after 3 attempts (blog/waldo-be/318604 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/3496 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3496 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/14663 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14663 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/3460 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3460 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/3267 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3267 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/projects/symlynx/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/projects/symlynx/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/13695 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13695 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/3315 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3315 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7846 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7846 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/14381 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14381 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thedynamicsexplorer-com/37257 +3 post review: LLM call failed after 3 attempts (blog/thedynamicsexplorer-com/37257 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/olofsimren-com/3696 +3 post review: LLM call failed after 3 attempts (blog/olofsimren-com/3696 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345 +3 post review: LLM call failed after 3 attempts (blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2182793503205531345 +3 post review): claude error (success): You've hit your session limit · ",
-    "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236 +3 post review: LLM call failed after 3 attempts (blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4218333995173748236 +3 post review): claude error (success): You've hit your session limit · ",
-    "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/ +3 post review: LLM call failed after 3 attempts (blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussel",
-    "blog/aardvarklabs-blog/3214 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3214 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/13563 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13563 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7683 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7683 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/14231 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/14231 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/ +3 post review: LLM call failed after 3 attempts (blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels",
-    "blog/katson-com/4727 +3 post review: LLM call failed after 3 attempts (blog/katson-com/4727 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/13993 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/13993 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/ +3 post review): claude error (success): You've hit your session limit · resets 3:1",
-    "blog/demiliani-com/13470 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13470 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090 +3 post review: LLM call failed after 3 attempts (blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090 +3 post review): claude error (success): You've hit your session limit · reset",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-65-freeze-column-property/ +3 post review): claude error (success): You've hit your session limit ",
-    "blog/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/ +3 post review: LLM call failed after 3 attempts (blog/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/ +3 post review): claude error (success): You've hit your session limit ",
-    "blog/bertverbeek-nl/1272 +3 post review: LLM call failed after 3 attempts (blog/bertverbeek-nl/1272 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/vondervoort-be/84 +3 post review: LLM call failed after 3 attempts (blog/vondervoort-be/84 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/duiliotacconi-com/1894 +3 post review: LLM call failed after 3 attempts (blog/duiliotacconi-com/1894 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983 +3 post review: LLM call failed after 3 attempts (blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983 +3 post review): claude error (success): You've hit your session limit · reset",
-    "blog/bertverbeek-nl/1219 +3 post review: LLM call failed after 3 attempts (blog/bertverbeek-nl/1219 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/3032 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/3032 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/13324 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13324 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2953 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2953 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/ +3 post review: LLM call failed after 3 attempts (blog/stefanmaron-com/https://stefanmaron.com/posts/al-development-claude-code-multi-agent-workflow/ +3 post review): claude error (success): You've hit your session l",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/ +3 post review): claude error (success): You've hit your session limit · res",
-    "blog/thinkaboutit-be/7496 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7496 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/13197 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/13197 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/13299 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/13299 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/13385 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/13385 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7402 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7402 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7383 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7383 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/13195 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/13195 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7299 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7299 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-60-devtoys/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-60-devtoys/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am",
-    "blog/thinkaboutit-be/7266 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7266 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/13041 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/13041 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/12961 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12961 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12874 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12874 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/ +3 post review): claude error (success): You've hit your session ",
-    "blog/gerardorenteria-blog/12869 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12869 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2827 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2827 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/vondervoort-be/37 +3 post review: LLM call failed after 3 attempts (blog/vondervoort-be/37 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/12728 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12728 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/katson-com/4530 +3 post review: LLM call failed after 3 attempts (blog/katson-com/4530 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12705 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12705 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/stefanmaron-com/https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/ +3 post review: LLM call failed after 3 attempts (blog/stefanmaron-com/https://stefanmaron.com/posts/fixing-al-debugger-linux-wayland/ +3 post review): claude error (success): You've hit your session limit · resets 3",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-53-areopa-webinars/ +3 post review): claude error (success): You've hit your session limit · reset",
-    "blog/aardvarklabs-blog/2719 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2719 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12623 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12623 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/12460 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12460 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-51-dimension-no-in-dimension-value/ +3 post review): claude error (success): You've hit your sessi",
-    "blog/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/ +3 post review: LLM call failed after 3 attempts (blog/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/ +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Euro",
-    "blog/gerardorenteria-blog/12347 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12347 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7159 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7159 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thedynamicsexplorer-com/10232 +3 post review: LLM call failed after 3 attempts (blog/thedynamicsexplorer-com/10232 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/12238 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12238 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12498 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12498 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/bertverbeek-nl/1173 +3 post review: LLM call failed after 3 attempts (blog/bertverbeek-nl/1173 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/12231 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/12231 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/duiliotacconi-com/1601 +3 post review: LLM call failed after 3 attempts (blog/duiliotacconi-com/1601 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12455 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12455 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2565 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2565 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12422 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12422 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12412 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12412 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12313 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12313 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2204 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2204 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2403 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2403 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12238 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12238 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thinkaboutit-be/7073 +3 post review: LLM call failed after 3 attempts (blog/thinkaboutit-be/7073 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/11649 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/11649 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/olofsimren-com/3545 +3 post review: LLM call failed after 3 attempts (blog/olofsimren-com/3545 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/waldo-be/318065 +3 post review: LLM call failed after 3 attempts (blog/waldo-be/318065 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/jpearson-blog/1535 +3 post review: LLM call failed after 3 attempts (blog/jpearson-blog/1535 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2017 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2017 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12076 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12076 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/2044 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/2044 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/11401 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/11401 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/12002 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/12002 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/1818 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/1818 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/1891 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/1891 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/gerardorenteria-blog/11203 +3 post review: LLM call failed after 3 attempts (blog/gerardorenteria-blog/11203 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/aardvarklabs-blog/1816 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/1816 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-33-restore-environment/ +3 post review): claude error (success): You've hit your session limit · r",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/ +3 post review): claude error (success): You've hit your s",
-    "blog/bertverbeek-nl/1143 +3 post review: LLM call failed after 3 attempts (blog/bertverbeek-nl/1143 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/11817 +3 post review: LLM call failed after 3 attempts (blog/demiliani-com/11817 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/ +3 post review): claude error (success): You've hit y",
-    "blog/aardvarklabs-blog/1696 +3 post review: LLM call failed after 3 attempts (blog/aardvarklabs-blog/1696 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/ +3 post review: LLM call failed after 3 attempts (blog/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/ +3 post review): claude error (success): You've hit your session limit · resets ",
-    "blog/thedynamicsexplorer-com/8821 +3 post review: LLM call failed after 3 attempts (blog/thedynamicsexplorer-com/8821 +3 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "blog/demiliani-com/11654 post review: LLM call failed after 3 attempts (blog/demiliani-com/11654 post review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12139 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12139 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12306 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12306 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10446 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10446 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11848 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11848 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12261 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12261 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12135 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12135 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12055 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12055 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12256 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12256 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/218 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/218 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12213 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12213 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11259 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11259 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8429 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8429 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12167 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12167 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/204 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/204 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11854 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11854 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/12061 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/12061 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11609 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11609 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11741 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11741 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11989 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11989 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11945 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11945 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11967 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11967 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/198 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/198 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11992 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11992 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11484 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11484 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11947 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11947 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11824 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11824 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11939 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11939 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11639 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11639 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11745 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11745 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11846 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11846 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11563 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11563 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11595 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11595 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11262 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11262 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11701 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11701 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10495 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10495 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11648 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11648 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2376 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2376 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11336 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11336 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9982 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9982 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10513 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10513 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11290 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11290 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11541 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11541 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11367 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11367 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11511 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11511 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11260 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11260 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10828 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10828 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11002 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11002 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9644 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9644 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/184 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/184 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11309 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11309 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10798 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10798 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11144 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11144 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11206 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11206 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10670 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10670 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10990 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10990 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10880 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10880 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11055 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11055 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11056 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11056 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11027 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11027 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11184 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11184 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11161 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11161 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10945 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10945 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10979 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10979 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11040 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11040 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11068 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11068 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/11004 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/11004 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/153 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/153 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10795 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10795 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10914 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10914 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10901 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10901 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/130 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/130 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/128 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/128 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10409 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10409 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10613 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10613 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10609 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10609 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10514 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10514 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10663 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10663 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10546 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10546 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10630 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10630 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10279 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10279 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10524 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10524 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10376 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10376 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10603 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10603 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10608 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10608 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10559 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10559 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10298 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10298 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10017 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10017 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10467 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10467 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10230 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10230 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10519 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10519 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10487 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10487 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10232 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10232 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10458 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10458 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10411 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10411 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10342 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10342 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9969 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9969 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10367 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10367 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10034 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10034 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10337 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10337 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/7546 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/7546 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8747 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8747 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10294 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10294 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10248 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10248 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9401 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9401 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9937 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9937 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10174 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10174 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10169 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10169 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9272 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9272 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10158 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10158 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9710 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9710 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10131 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10131 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10208 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10208 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9085 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9085 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9087 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9087 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9360 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9360 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9532 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9532 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10088 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10088 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10056 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10056 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10086 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10086 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/10050 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/10050 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9749 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9749 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9985 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9985 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2342 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2342 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9894 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9894 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9959 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9959 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9327 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9327 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9545 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9545 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8750 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8750 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9549 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9549 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9772 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9772 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9818 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9818 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9850 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9850 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2300 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2300 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9281 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9281 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9446 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9446 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9779 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9779 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9705 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9705 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9717 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9717 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9544 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9544 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9346 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9346 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9690 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9690 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9693 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9693 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2327 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2327 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8698 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8698 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9439 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9439 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9466 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9466 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9605 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9605 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9590 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9590 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9426 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9426 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9333 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9333 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8634 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8634 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2313 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2313 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/al-go-prs/2323 +5 change review: LLM call failed after 3 attempts (change/al-go-prs/2323 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9586 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9586 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9552 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9552 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9434 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9434 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9514 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9514 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9321 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9321 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9416 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9416 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8878 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8878 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9397 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9397 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9168 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9168 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9452 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9452 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9417 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9417 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9349 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9349 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9355 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9355 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/101 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/101 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9068 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9068 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcquality-prs/95 +5 change review: LLM call failed after 3 attempts (change/bcquality-prs/95 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9307 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9307 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9316 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9316 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9313 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9313 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9133 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9133 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8924 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8924 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9211 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9211 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9220 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9220 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9112 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9112 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9098 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9098 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9081 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/9081 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/8935 +5 change review: LLM call failed after 3 attempts (change/bcapps-prs/8935 +5 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "change/bcapps-prs/9109 +1 change review: LLM call failed after 3 attempts (change/bcapps-prs/9109 +1 change review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "digest 2026-W41 review: LLM call failed after 3 attempts (digest 2026-W41 review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)",
-    "digest 2026-W40 review: LLM call failed after 3 attempts (digest 2026-W40 review): claude error (success): You've hit your session limit · resets 3:10am (Europe/Brussels)"
+    "topic/dev-itpro/development/programming-in-the-al-language/events topic review: expected 8 verdicts, got 6 for 6 refs"
   ],
   "captions_retried": 0,
-  "checkpoints": 26,
+  "checkpoints": 0,
   "execution": {
     "stop_reason": "done",
-    "deadline": "2026-10-08T04:17:00.000Z",
-    "items_touched": 618,
+    "deadline": "2026-10-08T04:35:00.000Z",
+    "items_touched": 3,
     "stages_run": {
-      "change:fetched": 2,
-      "code:fetched": 1,
-      "change:extracted": 2,
-      "change:linked": 2,
-      "change:published": 2,
-      "video:reviewed": 615,
-      "video:published": 614,
-      "code:extracted": 1,
-      "code:linked": 1,
-      "code:published": 1
+      "code:fetched": 3,
+      "code:extracted": 3,
+      "code:linked": 3,
+      "code:published": 3
     },
-    "advanced": 1240,
-    "skipped": 1,
+    "advanced": 12,
+    "skipped": 0,
     "failed_attempts": 0,
     "failed_final": 0,
     "no_handler": 0,
     "held": 0,
-    "parked": 0,
+    "parked": 2,
     "quota_charged": {
-      "video_reviews": 615,
-      "change_fetch": 2,
-      "code_jobs": 1,
-      "changes": 2,
-      "graph_jobs": 1
+      "code_jobs": 3,
+      "graph_jobs": 3
     },
-    "regards": [
-      {
-        "at_calls": 25,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 50,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 75,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 100,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 125,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 150,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 175,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 200,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 225,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 250,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 275,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 300,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 325,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 350,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 375,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 400,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 425,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 450,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 475,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 500,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 525,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 550,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 575,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      },
-      {
-        "at_calls": 600,
-        "decision": "reduced",
-        "status": "unavailable:not_configured"
-      }
-    ],
+    "regards": [],
     "errors": [],
     "parked_left": 0
   },
@@ -1242,10 +807,10 @@
     "country_diffs": 46,
     "timelines": 19,
     "deprecations": 3,
-    "written": 46,
+    "written": 28,
     "relations": 3,
     "field_docs": 3,
-    "matrix": true,
+    "matrix": false,
     "docs_objects": {
       "links": 5336,
       "missing": 113,
@@ -1256,11 +821,11 @@
     "graph": {
       "runs": [
         {
-          "major": "30",
+          "major": "28",
           "written": true,
-          "edges": 15790,
-          "unresolved": 1096,
-          "ms": 1705909
+          "edges": 10869,
+          "unresolved": 1255,
+          "ms": 870684
         }
       ]
     },
@@ -1273,60 +838,60 @@
     },
     "pages": {
       "objects": 25645,
-      "written": 25667,
+      "written": 33,
       "removed": 0,
       "localizations": 22,
       "own_objects": 9215
     },
     "related": {
-      "pages": 10085,
-      "rows": 33228,
+      "pages": 10076,
+      "rows": 33178,
       "by_rank": {
         "1": 983,
         "2": 67,
         "3": 20140,
-        "4": 1935,
-        "5": 2980,
+        "4": 1937,
+        "5": 2927,
         "6": 6989,
-        "7": 134
+        "7": 135
       },
       "written": true
     },
     "apps": {
       "apps": 96,
-      "written": 96,
+      "written": 0,
       "removed": 0
     }
   },
   "narrative_reviews": {
     "localization": {
-      "candidates": 22,
-      "reviewed": 22,
-      "fixed": 12,
+      "candidates": 0,
+      "reviewed": 0,
+      "fixed": 0,
       "rejected": 0,
-      "calls": 22,
-      "cost_usd": 6.7675,
+      "calls": 0,
+      "cost_usd": 0,
       "stopped": "done"
     },
     "digest": {
       "candidates": 2,
-      "reviewed": 0,
-      "fixed": 0,
+      "reviewed": 2,
+      "fixed": 1,
       "rejected": 0,
       "calls": 2,
-      "cost_usd": 0,
+      "cost_usd": 0.3807,
       "stopped": "done"
     }
   },
   "changes": {
-    "fetched": 2,
+    "fetched": 0,
     "skipped_non_code": 0,
     "held": 0,
     "pages": 1082,
-    "relinked": 141,
-    "rerendered": 1080,
-    "api_calls": 18,
-    "narrated": 0
+    "relinked": 0,
+    "rerendered": 0,
+    "api_calls": 14,
+    "narrated": 2
   },
   "previews": {
     "probed": 0,
@@ -1338,101 +903,90 @@
   },
   "roadmap_links": {
     "units": 3964,
-    "stale": 110,
-    "calls": 110,
-    "matched": 254,
-    "rejected": 14,
-    "related": 228,
+    "stale": 0,
+    "calls": 0,
+    "matched": 0,
+    "rejected": 0,
+    "related": 0,
     "failed": 0,
-    "cost_usd": 1.7276635999999999,
-    "rejections": [
-      "video/9CW5mydS9Vs f11 -> 573333: quote not verbatim: \"custom context interface for accessing test case data\"",
-      "video/D_Lur52IrIg f3 -> 573339: quote not verbatim: \"AL symbol search now accepts a new source parameter for environment search\"",
-      "video/D_Lur52IrIg f4 -> 573346: quote not verbatim: \"Get next object ID tool in AL MCP examines available object ID ranges\"",
-      "video/D_Lur52IrIg f14 -> 573333: quote not verbatim: \"Test handler pattern providing lifecycle hooks at test codeunit and procedure le\"",
-      "video/D_Lur52IrIg f17 -> 573335: quote not verbatim: \"MCP proxy command allowing agents to start and monitor profiling\"",
-      "video/D_Lur52IrIg f18 -> 573335: quote not verbatim: \"MCP proxy tool enabling agents to capture snapshot recordings on specific enviro\"",
-      "video/EurgqGU1jG0 f6 -> 573333: quote not verbatim: \"Environment interfaces that abstract the execution environment enabling testing \"",
-      "video/EurgqGU1jG0 f8 -> 573333: quote not verbatim: \"Test doubles with stubs and spies allowing controlling and monitoring system beh\"",
-      "video/EurgqGU1jG0 f12 -> 573333: quote not verbatim: \"Record parameter passing for fast testing passing records by reference through p\"",
-      "video/EurgqGU1jG0 f17 -> 573333: quote not verbatim: \"Pure functions for testability writing pure functions with no side effects\""
-    ],
+    "cost_usd": 0,
+    "rejections": [],
     "stopped": "done",
     "classified": 0,
     "unclassified": 0,
     "pages": 696,
     "review": {
-      "candidates": 42,
-      "reviewed": 42,
-      "kept": 178,
-      "dropped": 498,
+      "candidates": 0,
+      "reviewed": 0,
+      "kept": 0,
+      "dropped": 0,
       "failed": 0,
-      "cost_usd": 2.2027802000000003,
+      "cost_usd": 0,
       "stopped": "done"
     }
   },
   "topic_links": {
-    "units": 2289,
-    "stale": 118,
-    "calls": 28,
-    "matched": 163,
-    "rejected": 50,
+    "units": 2286,
+    "stale": 62,
+    "calls": 15,
+    "matched": 77,
+    "rejected": 11,
     "failed": 0,
-    "cost_usd": 0.810242,
+    "cost_usd": 0.39315799999999995,
     "rejections": [
-      "video/y5rOAnAkuN8 -> t384: not a candidate of this item",
-      "video/1OiiA7SgqBY -> t519: not a candidate of this item",
-      "video/1xdpUmeun-s -> t495: not a candidate of this item",
-      "video/QT3RKx9rGJA -> topic/dev-itpro/development/get-started: quote not verbatim: \"AL Go for GitHub January Office Hour. al-go; devops; workflow\"",
-      "video/XcQFvNnKpxk -> t391: not a candidate of this item",
-      "video/ecYXnXULijI -> topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol: quote not verbatim: \"Claude agent sub-agent task delegation; Claude voice prompting in development wo\"",
-      "video/KkOr-hX0frQ -> topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/defining-table-structures: quote not verbatim: \"Migrating tables and fields between extensions\"",
-      "video/LuAHCXiwYn4 -> topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview: quote not verbatim: \"Designing and coding agents; agent configuration; al development setup\"",
-      "video/LuAHCXiwYn4 -> topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol: quote not verbatim: \"Integrate with Model Context Protocol; mcp server; per-folder MCP server configu\"",
-      "video/LuAHCXiwYn4 -> topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c: quote not verbatim: \"developer tools for Copilot; repository analysis; skills framework for AI develo\""
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-6059752303506296242 -> t405: not a candidate of this item",
+      "post/aardvarklabs-blog/3928 -> t401: not a candidate of this item",
+      "post/aardvarklabs-blog/3983 -> topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance: quote not verbatim: \"eliminates JOIN operations and improving performance\"",
+      "post/aardvarklabs-blog/3915 -> t435: not a candidate of this item",
+      "post/gerardorenteria-blog/1940 -> topic/dev-itpro/development/get-started/altool: quote not verbatim: \"PowerShell module for managing Business Central containers including CI/CD pipel\"",
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9211406592049654259 -> t443: not a candidate of this item",
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-9167085598395012736 -> topic/dev-itpro/development/extension-lifecycle/translation: quote not verbatim: \"reducing duplicated tooltip text and improves consistency\"",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-autonomous-agent-weekend/ -> t391: not a candidate of this item",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-coverage-execute-and-a-guard-that-worked/ -> t391: not a candidate of this item",
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-tests-against-cronus/ -> t391: not a candidate of this item"
     ],
     "stopped": "done"
   },
   "topic_reviews": {
-    "candidates": 94,
-    "calls": 103,
-    "reviewed": 114,
-    "kept": 386,
-    "dropped": 499,
-    "failed": 0,
-    "cost_usd": 6.112781999999998,
+    "candidates": 56,
+    "calls": 66,
+    "reviewed": 67,
+    "kept": 207,
+    "dropped": 300,
+    "failed": 1,
+    "cost_usd": 3.8360160000000003,
     "stopped": "done"
   },
   "reviews": {
     "video": {
-      "reviewed": 615,
-      "fixed": 536,
-      "rejected": 1,
-      "calls": 615,
-      "cost_usd": 62.614006
-    },
-    "post": {
-      "reviewed": 119,
-      "fixed": 64,
-      "rejected": 11,
-      "calls": 151,
-      "cost_usd": 0.982152,
-      "candidates": 600,
-      "failed": 481,
-      "reset": 0,
-      "rerendered": 119,
-      "stopped": "done"
-    },
-    "change": {
       "reviewed": 0,
       "fixed": 0,
       "rejected": 0,
-      "calls": 181,
-      "cost_usd": 0,
-      "candidates": 1082,
-      "failed": 1082,
+      "calls": 0,
+      "cost_usd": 0
+    },
+    "post": {
+      "reviewed": 481,
+      "fixed": 269,
+      "rejected": 38,
+      "calls": 121,
+      "cost_usd": 2.63415,
+      "candidates": 481,
+      "failed": 0,
       "reset": 0,
-      "rerendered": 0,
+      "rerendered": 481,
+      "stopped": "done"
+    },
+    "change": {
+      "reviewed": 1082,
+      "fixed": 542,
+      "rejected": 1,
+      "calls": 181,
+      "cost_usd": 4.045731,
+      "candidates": 1082,
+      "failed": 0,
+      "reset": 0,
+      "rerendered": 1082,
       "stopped": "done"
     }
   },
@@ -1455,7 +1009,7 @@
   "leak": {
     "vault": "scanned",
     "raw_docs": 682,
-    "files_scanned": 26617,
+    "files_scanned": 28181,
     "findings": 0,
     "blocked": false
   }

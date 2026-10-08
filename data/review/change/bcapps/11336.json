@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11336",
+  "input_hash": "8b41bf3dded6bd0a7a341ed0772feeb2f55f8e6dcaf0ad2fbf09e4cd84d25ff5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:27.895Z",
+  "issues": [
+    "Key point claiming the total adjustment prevents double-counting is not stated; description says total is adjusted by subtracting line amount so lines reconcile with the total."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029301,
+    "changes_in_call": 6
+  }
+}

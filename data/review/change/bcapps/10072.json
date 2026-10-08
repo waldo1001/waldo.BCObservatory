@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10072",
+  "input_hash": "6683dcf6622e5ecc781b7a836cb1c9d2121be3b6337926201d6ceec320f58e9b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:43.515Z",
+  "issues": [
+    "The summary limits the check to internal put-aways from production orders. The new check runs for every put-away line that has a Serial No.; production orders are only the bug scenario.",
+    "Key point 1 says lot and serial tracking are validated in general. The check actually requires the line's Lot No. to match the Lot No. on the open Item Ledger Entry found by serial number."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020629,
+    "changes_in_call": 6
+  }
+}

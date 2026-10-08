@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/",
+  "input_hash": "a2508f8d8d7ad3a5ddd6d463d76f60de5537ef1300ccf8ef1021cdc32dc26d16",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:32.258Z",
+  "issues": [
+    "Key point 4 gets the technique backwards. The post says a simple SubPageLink is not the standard pattern here. Instead, the part goes in the factboxes area and LoadItemAttributesData is called from OnAfterGetCurrRecord.",
+    "PageBackgroundTask is a platform capability, not an AL object, so it should not be listed under objects.",
+    "The post never mentions Copilot. The AI content is about agentic development tooling, so the copilot system is not supported.",
+    "The versions field holds a date range rather than a version. This field cannot be edited here."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032446,
+    "posts_in_call": 4
+  }
+}

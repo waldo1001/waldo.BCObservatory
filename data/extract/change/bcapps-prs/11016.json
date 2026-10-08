@@ -7,15 +7,15 @@
     "development",
     "integration"
   ],
-  "summary": "OAuth2 integrations now enforce allow-listed redirect URIs, token audiences, and authorities across intercompany, Outlook API, and SharePoint connectors to improve security.",
+  "summary": "Hardens OAuth2 integrations: Intercompany now builds the authority from the tenant GUID over HTTPS and validates the destination host more strictly. The Outlook REST API customer app requires an exact redirect URI match. SII Setup emits audit and telemetry signals for invalid URLs, and the SharePoint connector guidance now recommends Sites.Selected.",
   "key_points": [
-    "Intercompany connector constructs authority from tenant GUID using HTTPS and login.microsoftonline.com",
-    "Outlook REST API redirect URI validated against OAuth2.GetDefaultRedirectUrl()",
-    "SharePoint connector documentation updated to recommend Sites.Selected over broad Sites.ReadWrite.All permission",
-    "SII Setup emits security audit and telemetry for invalid target URLs",
-    "Destination host validation hardened across OAuth2 integration points"
+    "Intercompany connector builds the authority from the tenant GUID with HTTPS and login.microsoftonline.com instead of reading it from setup",
+    "Intercompany destination host validation is stricter",
+    "Outlook REST API redirect URI must exactly match OAuth2.GetDefaultRedirectUrl()",
+    "SharePoint connector README and tooltip now recommend Sites.Selected over Sites.ReadWrite.All",
+    "SII Setup emits security audit and telemetry when the target URL is invalid"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

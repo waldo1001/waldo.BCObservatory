@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -222,6 +222,7 @@ links:
     - post/thedynamicsexplorer-com/9051
     - post/thinkaboutit-be/7181
     - post/thinkaboutit-be/7266
+    - post/thinkaboutit-be/8096
   guidelines: []
 learn_toc_path:
   - Development
@@ -235,7 +236,7 @@ coverage:
   learn: 22
   code: 5
   video: 3
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 21
@@ -306,12 +307,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"
 - [Understanding RDLC Reports in Business Central](../../../../../posts/aardvarklabs-blog/2271.md) (community post): "RDLC reports use Report Definition Language Client to create self-hosted pixel-perfect printed reports"
 - [New Features for Report Lifecycle Management in Business Central 28.1](../../../../../posts/aardvarklabs-blog/3544.md) (community post): "Report layouts now have status states: Draft, Pending Approval, Approved"
-- [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "composite layouts where branding is split into three separate parts"
+- [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "Composite layouts split a document into a Body layout plus a reusable header/footer"
 - [BC Friday Tips #67 Reset Page Number in RDLC](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-67-reset-page-number-in-rdlc--4fc41d0f62.md) (community post): "ResetPageNumber property in RDLC reports restarts page numbering"
 - [BC Friday Tips #76 Barcode Fonts in RDL Reports](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-76-barcode-fonts-in-rdl--2785e5dd8e.md) (community post): "Creating barcodes in Business Central SaaS reports requires setting the FontFamily property"
 - [Dynamics GP to Business Central – How to easily convert your GP word templates to BC word layouts](../../../../../posts/thedynamicsexplorer-com/9051.md) (community post): "Converting Dynamics GP Word templates to Business Central Word layouts can be done efficiently"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../../posts/thinkaboutit-be/7181.md) (community post): "Select layout types based on purpose: Word for documents and email, RDLC"
 - [How Do I Fix: The EnableHyperlinks property has not been set for this report.](../../../../../posts/thinkaboutit-be/7266.md) (community post): "RDLC report layouts contain hyperlinks, the EnableHyperlinks property must be set"
+- [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"

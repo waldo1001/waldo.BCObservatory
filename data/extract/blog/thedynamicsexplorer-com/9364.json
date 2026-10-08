@@ -7,10 +7,11 @@
   "words": 637,
   "summary": "Business Central offers free administrative licenses to Microsoft 365 tenant administrators who perform setup and security tasks. The Internal Administrator and Dynamics 365 Administrator licenses are automatically assigned to Global Administrators and Dynamics 365 Administrators respectively, giving them limited administrative capabilities without purchasing paid licenses.",
   "key_points": [
-    "Internal Administrator license is automatically assigned to Global Administrators in Microsoft 365 when they access Business Central",
-    "Dynamics 365 Administrator license is automatically assigned to Dynamics 365 Administrators in Microsoft 365 when they access Business Central",
-    "Both free licenses enable users to manage other users, assign permissions, and create permission sets with read-only access to all Business Central areas",
-    "These free administrative licenses reduce licensing costs and improve segregation of duties by separating admin tasks from day-to-day operations"
+    "The Internal Administrator licence is given automatically to Microsoft 365 Global Administrators the first time they open Business Central",
+    "The Dynamics 365 Administrator licence is given automatically to holders of that Microsoft tenant role when they open Business Central",
+    "Both free licences allow limited admin work such as managing users, assigning permissions and creating permission sets; Internal Administrator also has read-only access everywhere",
+    "Running Update users from Microsoft 365 does not create these users; they must sign in via the Business Central URL",
+    "Using these licences avoids paying for IT admin seats and improves segregation of duties"
   ],
   "systems": [
     "administration",

@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Adds community knowledge article documenting how to expose process context to extensions using manual event subscriber bindings tied to variable scope instead of singleton flags that persist across failed transactions.",
   "key_points": [
-    "Explains the anti-pattern of using SingleInstance booleans that remain true after rollback",
-    "Describes the safe pattern using manually bound local internal events with public query procedures",
-    "Shows that manual binding lifetime is tied to variable scope, unwinding on errors",
-    "Provides both good and bad code samples illustrating the pattern",
-    "Documents approach currently used in ZUGFeRD and PEPPOL integrations"
+    "A SingleInstance boolean is unsafe because it sits outside the transaction and stays true after a failed run",
+    "Recommended shape: a public query procedure backed by a local InternalEvent",
+    "The event is answered by an internal flag codeunit with manual subscriber instance, bound only for the run",
+    "Binding lifetime follows variable scope, so an error unwinds it; BindSubscription without UnbindSubscription is intended",
+    "Includes good and bad samples; inspired by the ZUGFeRD and PEPPOL DE context logic"
   ],
   "change_kind": "feature",
   "behavior_change": false,

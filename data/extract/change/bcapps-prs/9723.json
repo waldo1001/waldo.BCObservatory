@@ -8,11 +8,11 @@
   ],
   "summary": "Vendors can now specify a number series for self-billed purchase invoices, allowing different numbering schemes based on the vendor. The feature is implemented through new table fields, posting logic updates, and vendor card UI enhancements across all localized versions.",
   "key_points": [
-    "New field added to Vendor table for self-billed purchase invoice number series",
-    "Purchase posting logic modified to use vendor-specific number series when processing self-billed invoices",
-    "Vendor Card page updated to display and manage the new number series setting",
-    "Changes applied consistently across all localization layers (W1, NA, GB, BE, CH, DE, FR, IT, ES, FI, etc.)",
-    "Test coverage added for self-billing purchase document scenarios"
+    "New field on the Vendor table for a self-billed purchase invoice number series",
+    "Purchase posting changed to use the vendor-specific number series for self-billed invoices",
+    "Vendor Card page shows the new number series setting",
+    "Changes are spread across many localization layers (W1, APAC, BE, CH, DACH, ES, FI, FR, GB, IT, NA, NL, NO, RU and others), though not every layer changes posting",
+    "Tests added in the W1, US and CA purchase document test codeunits"
   ],
   "change_kind": "feature",
   "behavior_change": true,

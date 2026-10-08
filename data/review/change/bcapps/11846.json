@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11846",
+  "input_hash": "98091f3cccc2a589562524ba08a0c62fc3d819770e0105e2863f7027d6d3a80c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:58.390Z",
+  "issues": [
+    "Summary and key points match the description: the outgoing branch of ViewSourceFile now downloads the exported file from the log, shows a message about XML preview, and shows a clear message when no file exists. Incoming behavior is unchanged and the flags are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020606,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Fixed inconsistent able-to-make results in item availability by BOM level when a component replenishment method changes from assembly to purchase.",
+  "summary": "Fixed inconsistent able-to-make results in Item Availability by BOM Level when an item's replenishment system changes from Assembly to Purchase. The Calculate BOM Tree codeunit is adjusted and a test is added.",
   "key_points": [
     "Addresses incorrect calculation of assembleable items when BOM component sourcing changes",
     "Updates the BOM tree calculation logic to handle replenishment method transitions",

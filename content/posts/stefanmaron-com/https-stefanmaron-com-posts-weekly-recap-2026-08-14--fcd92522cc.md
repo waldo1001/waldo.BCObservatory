@@ -15,12 +15,12 @@ tags:
   - linux support
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:18.053Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -97,7 +97,7 @@ preview:
 
 # Weekly Recap: August 7-14
 
-[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-14/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-14 · 1839 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/weekly-recap-2026-08-14/) · Stefan Maron (Stefan Maron, MVP) · 2026-08-14 · 1839 words · tier community · reviewed (checked by Opus)
 
 > A weekly recap covering AL Runner v2 improvements closing emulation gaps against real BC, reference suite growth through sandbox-verified testing, bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs, AL-Go fast lane hardening for multi-workflow stability, and compile-time benchmarking showing NuGet-sourced compilation is faster due to smaller dependency caches.
 

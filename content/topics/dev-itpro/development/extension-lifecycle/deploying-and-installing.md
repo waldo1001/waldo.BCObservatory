@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,10 +73,9 @@ links:
   topics:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
-  videos:
-    - video/px1MOyXfmnQ
-    - video/WU2fLjIQSuU
+  videos: []
   posts:
+    - post/aardvarklabs-blog/3998
     - post/demiliani-com/12116
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
   guidelines: []
@@ -92,8 +91,8 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 2
-  blog: 2
+  video: 0
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 659e40a27cf83dd47d095cf06e5ddc91324a34d494c1df16216ce90809e92d5d
@@ -138,9 +137,8 @@ A FAQ addresses managing and submitting Marketplace offers through Partner Cente
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
+- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions"
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../../posts/demiliani-com/12116.md) (community post): "Old PTE versions are now automatically unpublished in SaaS"
-- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Per-tenant extension deployment has moved to the admin center"
-- [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"
-- [What's New: AL Go for GitHub (2023 release wave 2)](../../../../videos/WU2fLjIQSuU.md) (video): "AL Go for GitHub DevOps solution; Settings configuration types"
+- [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

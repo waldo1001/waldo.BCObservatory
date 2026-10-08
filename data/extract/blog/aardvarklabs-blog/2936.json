@@ -7,16 +7,15 @@
   "words": 900,
   "summary": "Business Central AL 17.0 Runtime adds the ability to package and deploy Analysis Views in extensions. You can export Analysis View definitions as JSON files, include them in page or page extension AL code, and deploy them to automatically add pre-built analysis views to list pages in any Business Central environment.",
   "key_points": [
-    "Export analysis views from the UI as JSON definition files using the Export Definition option",
-    "Include JSON files in your AL extension project and reference them in page or page extension code using the analysisviews section",
-    "For page extensions, use addlast or addfirst anchors to position views; for new pages, no anchor is needed",
-    "Packaged analysis views are read-only with a lock indicator, but users can duplicate and edit copies",
-    "This feature ships in Wave 1 2026 and works with standard pages and custom pages alike"
+    "Analysis views built in the UI can be exported as JSON definition files with Export Definition",
+    "AL runtime 17.0 adds an analysisviews section to pages and page extensions, with DefinitionFile pointing to the JSON",
+    "Page extensions need an addfirst or addlast anchor; your own pages do not",
+    "Views shipped in an extension are locked against editing, but users can duplicate them and edit the copy; locked views can be hidden, but the author found no way to unhide them",
+    "The feature was pending release in Wave 1 2026 at the time of writing"
   ],
   "systems": [
     "development",
-    "reporting",
-    "copilot"
+    "reporting"
   ],
   "topics": [
     "analysis views",

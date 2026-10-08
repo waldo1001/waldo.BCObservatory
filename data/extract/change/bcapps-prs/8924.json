@@ -8,9 +8,9 @@
   ],
   "summary": "An overflow runtime error in Quality Inspection Header has been fixed with corresponding test coverage added.",
   "key_points": [
-    "Fixes overflow runtime error in the Quality Inspection Header table",
-    "Test utility code added to support the fix validation",
-    "Comprehensive test case added to verify the fix and prevent regression"
+    "Fixes an overflow runtime error in the Qlty. Inspection Header table",
+    "Adds helper code to the Quality Management test library",
+    "Adds a regression test in the miscellaneous QM tests codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

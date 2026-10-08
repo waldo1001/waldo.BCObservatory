@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-may-31-june-6-2026--8c97173165
 type: post
 title: "Weekly Review: Business Central AL Development – May 31–June 6, 2026"
-summary: "This weekly community review highlights four key posts from May 31 - June 6, 2026: BC 28.1's new model switcher for AI agents defaulting to GPT-5.3-chat, where to download standard Power BI reports after the GitHub repo closure, using date formulas to automate posting period restrictions, and cost optimization strategies for GitHub Copilot now that it bills by token usage instead of per-request."
+summary: "Weekly community roundup for May 31 to June 6, 2026 covering four posts: BC 28.1 making GPT-5.3-chat the default agent model and adding a model switcher (Auto by default) with matching AL APIs, where to get the standard Power BI report files now that the GitHub repo is gone, date formulas for posting period restrictions, and ways to reduce GitHub Copilot spend under token-based billing."
 tier: community
 language: en
 tags:
@@ -16,12 +16,12 @@ tags:
   - token pricing
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:57.218Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -109,9 +109,9 @@ preview:
 
 # Weekly Review: Business Central AL Development – May 31–June 6, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/) · DvlprLife (Brad Prendergast) · 2026-06-09 · 838 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/) · DvlprLife (Brad Prendergast) · 2026-06-09 · 838 words · tier community · reviewed (checked by Opus)
 
-> This weekly community review highlights four key posts from May 31 - June 6, 2026: BC 28.1's new model switcher for AI agents defaulting to GPT-5.3-chat, where to download standard Power BI reports after the GitHub repo closure, using date formulas to automate posting period restrictions, and cost optimization strategies for GitHub Copilot now that it bills by token usage instead of per-request.
+> Weekly community roundup for May 31 to June 6, 2026 covering four posts: BC 28.1 making GPT-5.3-chat the default agent model and adding a model switcher (Auto by default) with matching AL APIs, where to get the standard Power BI report files now that the GitHub repo is gone, date formulas for posting period restrictions, and ways to reduce GitHub Copilot spend under token-based billing.
 
 ## Key points
 

@@ -6,13 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Two new integration events are added to the General Ledger Setup table to enable extensions to monitor and react to changes in setup configuration.",
+  "summary": "New events were added to table 98 General Ledger Setup in response to an event request, in every localization layer.",
   "key_points": [
-    "Integration events added to table 98 General Ledger Setup",
-    "Events added across all localization layers (W1, NA, BE, CH, DACH, ES, FR, GB, IT, NL, NO, RU, SE, APAC)",
-    "Enables extension developers to respond to General Ledger Setup changes",
-    "20 lines of code added per localization",
-    "Addresses a feature request for integration points"
+    "Event request implemented on table 98 General Ledger Setup",
+    "Same addition made in W1 and all 13 localization layers",
+    "About 20 added lines per layer, no removals"
   ],
   "change_kind": "feature",
   "behavior_change": false,

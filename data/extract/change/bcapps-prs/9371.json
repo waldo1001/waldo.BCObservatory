@@ -8,11 +8,11 @@
   ],
   "summary": "Report 11015 Export Business Data now stores generated ZIP files in the Report Inbox when scheduled via Job Queue instead of attempting a client callback that fails in background sessions.",
   "key_points": [
-    "Background sessions can no longer directly download files to clients",
-    "Generated ZIP files are now stored in Report Inbox for scheduled runs",
-    "Interactive report execution continues to download files directly as before",
-    "Users can retrieve scheduled exports from the Report Inbox",
-    "Aligns scheduled report behavior with existing layout report patterns"
+    "Scheduled Job Queue runs failed because the report pushed the ZIP to the client, which background sessions cannot do",
+    "In background sessions with no GUI, the ZIP is now stored in the Report Inbox",
+    "Users download scheduled exports from the Report Inbox",
+    "Running the report interactively still downloads the ZIP directly",
+    "Matches how scheduled layout reports already behave"
   ],
   "change_kind": "fix",
   "behavior_change": true,

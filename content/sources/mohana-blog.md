@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 592e8deff00f7ad60e04b7d9fd576a7752f3af4a114d3853ce428a91e15d8f34
@@ -74,7 +74,7 @@ footprint:
     - id: development
       weight: 13
     - id: integration
-      weight: 13
+      weight: 12
     - id: inventory
       weight: 9
     - id: platform
@@ -144,7 +144,7 @@ last_item: "2026-10-07"
 |---|---|---|
 | administration (16) | mcp server (3) | table Customer (2) |
 | development (13) | migration (3) | api contacts (1) |
-| integration (13) | vendor management (3) | api countriesRegions (1) |
+| integration (12) | vendor management (3) | api countriesRegions (1) |
 | inventory (9) | al development (2) | api currencies (1) |
 | platform (9) | automation (2) | api customers (1) |
 | purchasing (7) | claude desktop (2) | api employees (1) |

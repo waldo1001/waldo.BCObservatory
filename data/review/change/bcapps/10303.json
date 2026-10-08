@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10303",
+  "input_hash": "1e0a8022f6b1fd6b337ba81d94f07a6b5c24d231a3017798c128fe314bb78218",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:44.267Z",
+  "issues": [
+    "The description is only a bug link, so the page rests on the title and file list.",
+    "The test file was modified (+72 -37), but nothing given shows the tests verify the fix, so that point is reworded."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01705,
+    "changes_in_call": 6
+  }
+}

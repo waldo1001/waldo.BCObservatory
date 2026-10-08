@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8914",
+  "input_hash": "ee0a91ec942ba80b462dc66531ed305ccf06456092ab074b9ecc52fac5aee299",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:01.113Z",
+  "issues": [
+    "The key point saying all localized versions are affected overstates the change; only the W1, CH, ES, IT, NA, NO and RU layers are touched."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019691,
+    "changes_in_call": 6
+  }
+}

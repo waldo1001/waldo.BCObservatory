@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10990",
+  "input_hash": "766ebab210c57853ed396d89423f2d9cc13ebd71308f435ca89ade68ea1c4309",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:33.072Z",
+  "issues": [
+    "Description is empty; several key points are speculative (maintainability, two-phase structure, reason for Shopify test changes).",
+    "Title says Add Expense VAT settings, so change_kind should be feature rather than refactor."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind feature"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021616,
+    "changes_in_call": 6
+  }
+}

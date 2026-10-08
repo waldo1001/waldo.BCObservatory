@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2640",
+  "input_hash": "562d16b4ecc9c7e17de1e0100a93e01366f4dc71209bdac71040f8e460b6a94a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:02.570Z",
+  "issues": [
+    "Content is accurate and supported by the post.",
+    "Administration system is not supported; the post covers extension development and API integration."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026924,
+    "posts_in_call": 4
+  }
+}

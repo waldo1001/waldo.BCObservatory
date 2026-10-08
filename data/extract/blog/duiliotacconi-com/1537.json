@@ -5,16 +5,16 @@
   "source": "duiliotacconi-com",
   "published_at": "2025-08-21T14:54:24.000Z",
   "words": 1205,
-  "summary": "Understanding how to choose the optimal update window for Business Central requires analyzing when platform hotfixes are deployed using telemetry data. The post provides a KQL query to track platform hotfix deployments and recommends scheduling based on when Microsoft statistically deploys fewer updates to minimize disruptions to background jobs.",
+  "summary": "Explains how to pick a Business Central Online update window so that application hotfixes, which follow the 6-hour window set in Tenant Admin Center, and most platform hotfixes, which Microsoft times itself, fall in the same period. Gives KQL telemetry queries that count platform hotfix deployments by local hour and weekday to guide job queue scheduling.",
   "key_points": [
-    "Application hotfixes respect the 6-hour update window configured in Tenant Admin Center, while platform hotfixes are deployed independently by Microsoft outside business hours",
-    "A KQL query can analyze component version changes in Application Insights to determine when platform hotfixes occur and identify optimal update windows",
-    "For Italy/Rome timezone, the 2-8 AM window shows the best distribution for minimizing platform hotfix conflicts with long-running processes",
-    "Platform hotfixes deploy least frequently on weekends and on Tuesdays and Fridays, while Wednesday and Thursday see the most deployment activity"
+    "Application hotfixes follow the per-environment 6-hour update window and can be tracked with telemetry signal LC0159; platform hotfixes roll out node by node at times Microsoft decides",
+    "Background sessions and web services get no UI warning, so long jobs such as MRP can break and log errors in Job Queue Log Entry",
+    "The KQL query removes version changes caused by planned upgrades, converts UTC to local time and groups platform hotfix changes by hour or weekday",
+    "For Italian environments the best 6-hour window was 2 to 8 AM, and platform hotfixes were rare before midnight",
+    "Tuesday and Friday showed fewer platform hotfixes, Wednesday and Thursday the most, and weekends almost none"
   ],
   "systems": [
     "administration",
-    "reporting",
     "platform"
   ],
   "topics": [
@@ -29,10 +29,6 @@
     {
       "type": "other",
       "name": "Job Queue Log Entry"
-    },
-    {
-      "type": "other",
-      "name": "Tenant Admin Center"
     }
   ],
   "features": [

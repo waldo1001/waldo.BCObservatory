@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12127",
+  "input_hash": "5ec8c83d382b9c888b658e684f2df4a961cb45cf3e85a62795ad82461106c431",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:32.369Z",
+  "issues": [
+    "Matches the description: the 4.9% VAT columns were missing on the U30 PDF, the fix is Austria-only, and test asserts were added for the PDF fields."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024978,
+    "changes_in_call": 6
+  }
+}

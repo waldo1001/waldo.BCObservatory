@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11381",
+  "input_hash": "cef106e59edbb6bce2c32d013f6625b0ba508663f70e18a6fd9c587c9c785116",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:13.165Z",
+  "issues": [
+    "The summary says incomplete demo data. The description says customer databases may hold fewer country and currency codes than the demo data, so setup is skipped for codes that do not exist."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01306,
+    "changes_in_call": 6
+  }
+}

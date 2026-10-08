@@ -13,12 +13,12 @@ tags:
   - development tips
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:16.612Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #71 BlankZero Property
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-08 · 84 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-71-blankzero-property/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-08 · 84 words · tier community · reviewed (checked by Opus)
 
 > The BlankZero property on numeric fields can be set to true to display empty values instead of zero, reducing visual clutter and helping users focus on meaningful data in optional fields.
 

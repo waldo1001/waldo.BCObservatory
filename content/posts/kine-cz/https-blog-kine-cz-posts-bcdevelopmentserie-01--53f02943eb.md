@@ -16,12 +16,12 @@ tags:
   - performance
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:31.818Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -65,7 +65,6 @@ code_objects_mentioned: []
 systems:
   - development
   - platform
-  - integration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -81,16 +80,17 @@ preview:
 
 # Business Central Development Serie - Part 1: Introduction
 
-[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-01/) · Kine's info (Kamil Sacek, MVP) · 2026-03-03 · 951 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-01/) · Kine's info (Kamil Sacek, MVP) · 2026-03-03 · 951 words · tier community · reviewed (checked by Opus)
 
 > This introduction to a development series explains the importance of architecture, best practices, and long-term maintenance for Business Central extensions, addressing gaps that AI tools alone cannot fill. It covers topics like app types, dependency management, testing, performance, and delivery strategies for developers of all experience levels.
 
 ## Key points
 
-- AI-assisted development lowers barriers to entry but developers need guidance on architecture, patterns, and best practices beyond code generation
-- Long-term commitment to customers requires solutions that are maintainable and future-proof, not just working today
-- The series covers 11 major topics: app types, architecture, dependencies, development process, testing, performance, delivery, and maintenance
-- Understanding code and architectural decisions is critical; AI is a tool to accelerate development, not a replacement for knowledge
+- AI makes it easier to start building Business Central extensions, but it does not cover architecture, delivery or maintenance
+- ERP development is a long-term commitment, so solutions must stay maintainable over the years
+- Planned parts: using AI, PTE vs AppSource apps, extension architecture, dependency management, development process, testing, performance, delivery and maintenance
+- The series is for beginner and experienced developers, with marked sections for consultants, project managers and decision makers
+- Use AI as a tool, but understand the code and the consequences of your design choices
 
 ## Quotes
 

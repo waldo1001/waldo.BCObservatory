@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/215",
+  "input_hash": "bf60e4a81700882467ad59e5df729fa04e8f39d454e05c6f708491b3f42f6402",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.004Z",
+  "issues": [
+    "The summary and key points match the description: the article, the HAVING mechanism through ColumnFilter on a Count column, the Base Application examples, and the review wiring.",
+    "The page leaves out the false-positive exclusions, but that does not make it wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023732,
+    "changes_in_call": 6
+  }
+}

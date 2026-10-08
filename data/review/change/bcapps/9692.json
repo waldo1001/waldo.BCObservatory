@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9692",
+  "input_hash": "bf00f1959d5f0562b6ba93589ce4358de87a2bcb58d42ebd64d76323e1adc1cb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:11.036Z",
+  "issues": [
+    "Matches the description: exact object ID takes precedence over wildcard 0, blank exact records act as exclusions, and only the UI buffer is affected."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02058,
+    "changes_in_call": 6
+  }
+}

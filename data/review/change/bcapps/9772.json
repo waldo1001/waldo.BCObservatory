@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9772",
+  "input_hash": "9c8e755cb29f1238a376ee11689e6f9ad63108be896d28df2aa2021d79c2b4b9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:31.052Z",
+  "issues": [
+    "The summary and key points match the description: zero quantities are kept, quantity is derived from total and price only when it makes sense, no discounts are invented, and unresolved units like HUR are carried through.",
+    "The fix kind and behaviour flags are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017925,
+    "changes_in_call": 6
+  }
+}

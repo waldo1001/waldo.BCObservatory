@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11658",
+  "input_hash": "a67bd03d8c8dcd1050880689f9fd2487bc40df63c1b9756b6f95e679a8a42d0a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:09.836Z",
+  "issues": [
+    "behavior_change should be true: newly created or recreated webhook subscriptions now receive reduced payloads.",
+    "Key point 1 calls these GraphQL queries, but the subscription is created through a GraphQL resource (a mutation). This is minor.",
+    "Other content is supported."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01648,
+    "changes_in_call": 6
+  }
+}

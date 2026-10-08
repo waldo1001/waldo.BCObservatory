@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9973",
+  "input_hash": "d68d847173e87ef692a96993256eca2143a6984223023ad5aaa700bad5994d18",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:45.380Z",
+  "issues": [
+    "Description is only a work item link; key points about Gen. Jnl.-Post Line applying deductions and fixing employee WHT calculation logic are speculative.",
+    "Build config changes registering the ExpenseWithholdingTax app and ruleset edits are not mentioned."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024922,
+    "changes_in_call": 6
+  }
+}

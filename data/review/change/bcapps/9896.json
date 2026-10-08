@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9896",
+  "input_hash": "ba86f2e4c0979364e3d34dcc86d22aef3f25c29d41dce8a7577e485fb485ed6a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:10.533Z",
+  "issues": [
+    "The description is only a work-item link. Nothing says the renaming was done to standardize names or make them more consistent, so that claim was removed.",
+    "The file list shows 127 files with small +2 -2 edits. It does not show exactly what was renamed.",
+    "The page names the modules correctly, based on the object list."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026433,
+    "changes_in_call": 6
+  }
+}

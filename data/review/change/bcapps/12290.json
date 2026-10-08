@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/12290",
+  "input_hash": "0557db55abafc46d97b76440c2e4250696828c5695424b24ea2bd3e2ae6aac68",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:03.524Z",
+  "issues": [
+    "The change deletes whole pages and codeunits (ES and IT update pages and header-edit codeunits) and removes code from Service Header and other public objects. Extensions that still reference them can stop compiling, so breaking should be true.",
+    "The layer list leaves out APAC (the Sales - Tax Invoice report is in that layer).",
+    "The description is empty, so a user-visible behaviour change cannot be confirmed; that flag is left unchanged."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028298,
+    "changes_in_call": 6
+  }
+}

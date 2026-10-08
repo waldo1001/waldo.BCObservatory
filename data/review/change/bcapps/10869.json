@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10869",
+  "input_hash": "cb98db8e0ad095f638fdcb81552026da7b0d1d5188a0ad8258ee6585a3019171",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:06.605Z",
+  "issues": [
+    "Backport of the same change as c3: the app codeunit Withholding Tax Mgmt. is modified (+4 -1) and the test file only adds lines, so this is not a pure reformat.",
+    "Claims of no functional change and improved readability are not supported by the changed files; behavior_change set true based on the bug title and app code change, as the exact edit is not shown."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025292,
+    "changes_in_call": 6
+  }
+}

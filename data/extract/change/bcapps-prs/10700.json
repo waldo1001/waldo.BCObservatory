@@ -9,17 +9,17 @@
     "integration",
     "inventory"
   ],
-  "summary": "Purchase order matching and receipt-on-invoice line tracking capabilities are added to E-Documents integration. New fields and APIs support matching purchase orders with incoming documents and tracking which receipt lines were invoiced.",
+  "summary": "Backport to 29.x that adds a purchase order matching API to the Base Application, with receipt-on-invoice line tracking and a Receipt on Invoice Policy enum. E-Documents PO matching now uses this API. Purchase, vendor and upgrade objects were updated across localization layers.",
   "key_points": [
-    "New PO matching warning enum for E-Documents processing",
-    "Receipt-on-invoice policy enum and line tracking fields added to Purchase Line",
-    "E-Doc PO matching codeunit enhanced with new API functionality",
-    "Vendor and Purchase document schema updates across all localization layers",
-    "Upgrade scripts added for data migration and schema changes"
+    "New Base Application codeunits for PO matching, matching groups, matched order lines and invoiceable receipts",
+    "New Receipt on Invoice Policy enum, plus changes to Vendor, Vendor Card, Purchase Line and Purchase Order Subform",
+    "E-Doc. PO Matching reworked and E-Doc PO Match Warning enum extended",
+    "E-Doc. Create Purchase Invoice simplified",
+    "Upgrade codeunits and upgrade tags added in several layers"
   ],
   "change_kind": "feature",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "purchasing",

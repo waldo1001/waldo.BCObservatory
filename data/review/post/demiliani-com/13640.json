@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/13640",
+  "input_hash": "6ac1728112504fb4a40ba9401e47caa1dbf2c5a4bc978a76daf16368edb9737b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:36.135Z",
+  "issues": [
+    "Keyboard-interactive authentication is a capability of the SSH.NET library. The post's list of methods the BC module supports covers only password and private key, so that feature is dropped.",
+    "The post calls the fingerprint a short hash of the public key. Calling it SHA256 relies only on the sample output, so the key point is reworded.",
+    "Summary and both quotes are supported."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037791,
+    "posts_in_call": 4
+  }
+}

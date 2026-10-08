@@ -2,7 +2,7 @@
 id: post/stefanmaron-com/https-stefanmaron-com-posts-claude-code-dev-container-al--96fc93c109
 type: post
 title: Building a Plug & Play Claude Code Dev Container for AL Development
-summary: Setting up a reusable dev container that runs Claude Code with AL development tools installed, persistent authentication across rebuilds, and network isolation to safely use Claude Code with dangerous permissions enabled in a sandboxed environment.
+summary: Describes building a reusable dev container feature, distributed via GHCR, that installs Claude Code for AL work. Named Docker volumes keep authentication across rebuilds, and stripped git credentials stop Claude Code, running with bypassed permissions, from reaching GitHub. Next steps are AL-specific Claude configuration and moving to Anthropic's official firewall-based dev container.
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - sandbox security
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:44.042Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,6 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - integration
   - platform
 versions_mentioned: []
 preview:
@@ -89,9 +88,9 @@ preview:
 
 # Building a Plug & Play Claude Code Dev Container for AL Development
 
-[Read the post](https://stefanmaron.com/posts/claude-code-dev-container-al/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-20 · 1454 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/claude-code-dev-container-al/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-20 · 1454 words · tier community · reviewed (checked by Opus)
 
-> Setting up a reusable dev container that runs Claude Code with AL development tools installed, persistent authentication across rebuilds, and network isolation to safely use Claude Code with dangerous permissions enabled in a sandboxed environment.
+> Describes building a reusable dev container feature, distributed via GHCR, that installs Claude Code for AL work. Named Docker volumes keep authentication across rebuilds, and stripped git credentials stop Claude Code, running with bypassed permissions, from reaching GitHub. Next steps are AL-specific Claude configuration and moving to Anthropic's official firewall-based dev container.
 
 ## Key points
 

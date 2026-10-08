@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12256",
+  "input_hash": "f48f92a76fe199a2221ed5c94c596ff7f9405bfe519cb897a756f35864d88263",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:29.034Z",
+  "issues": [
+    "The summary suggests the errors happen when agent accounts create invoices. Per the description, saving the setup or activating the agent fails when an agent account created a posted purchase invoice in the last 30 days. Reworded."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020058,
+    "changes_in_call": 6
+  }
+}

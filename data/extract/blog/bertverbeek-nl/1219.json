@@ -7,11 +7,11 @@
   "words": 571,
   "summary": "Agents in Business Central 27.4 allow you to create custom agents that process tasks asynchronously using an orchestrator architecture. The post explains how agents are triggered via task creation, how the orchestrator manages execution with separate sessions and transactions, and how to handle incoming and outgoing messages programmatically.",
   "key_points": [
-    "Custom agents require enabling the feature, assigning AGENT-ADMIN permissions, and setting up billing in a sandbox environment",
-    "Agents are triggered by creating tasks using AgentTaskBuilder codeunit, with the orchestrator handling asynchronous execution in separate sessions",
-    "Tasks can be managed (restarted, stopped, status checked) and support conversation tracking with message IDs for reply threads",
-    "Incoming messages are processed via Job Queue triggers and can include attachments using AgentTaskMessageBuilder",
-    "Outgoing messages must be retrieved by status and type, processed, and marked as Sent using the Agent Message codeunit"
+    "Custom agents (public preview since 27.4) need the Custom Agent capability enabled, the AGENT - ADMIN permission set, a 27.4+ sandbox and billing setup in the tenant",
+    "Agents start working when a task is created with the Agent Task Builder codeunit; the Agent Task codeunit can restart, stop or check the status of tasks",
+    "The orchestrator runs tasks asynchronously and in parallel, each in its own session and transaction with the agent as user",
+    "Incoming emails can be handled by a Job Queue codeunit that uses the email conversation ID to add replies to an existing task via Agent Task Message Builder, including attachments",
+    "Outgoing messages are found by output type and reviewed status, processed, and then marked as Sent with the Agent Message codeunit"
   ],
   "systems": [
     "copilot",

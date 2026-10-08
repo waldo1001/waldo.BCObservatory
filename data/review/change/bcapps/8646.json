@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8646",
+  "input_hash": "16adfb88c5ca4aa272edfd604c25bb41c961169a29cd3630fd41a6b53876866d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.576Z",
+  "issues": [
+    "The page accurately describes the new PEPPOL SE app and the scheme 0007 normalization. Calling it a feature is defensible since it is a new app, though it also fixes failing documents."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022984,
+    "changes_in_call": 6
+  }
+}

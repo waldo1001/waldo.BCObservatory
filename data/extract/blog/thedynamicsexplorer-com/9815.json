@@ -7,11 +7,11 @@
   "words": 416,
   "summary": "Adjusting VAT amounts on purchase invoices and orders when Business Central's calculations differ from supplier invoices requires configuring the maximum allowed VAT difference and enabling the allow VAT difference option in setup pages, then editing VAT via the statistics view.",
   "key_points": [
-    "Set Max. VAT Difference Allowed in General Ledger Setup to permit changes within a specified threshold",
-    "Enable Allow VAT Difference in Purchase & Payables Setup to unlock VAT editing functionality",
-    "Edit VAT amounts on Purchase Invoice page through Invoice > Statistics menu",
-    "Edit VAT amounts on Purchase Order page by drilling into No. of VAT Lines in the Invoicing FastTab",
-    "Adjust VAT to match the supplier's invoice amounts for accurate record keeping"
+    "Set Max. VAT Difference Allowed in General Ledger Setup to define how much the VAT may be changed",
+    "Turn on Allow VAT Difference in Purchase & Payables Setup so VAT can be edited on purchase transactions",
+    "On the Purchase Invoice page, open Invoice > Statistics and edit the VAT Amount",
+    "On the Purchase Order page, open Order > Statistics, then drill down on No. of VAT Lines in the Invoicing FastTab to edit the VAT",
+    "The aim is to match the VAT shown on the supplier's invoice"
   ],
   "systems": [
     "purchasing",
@@ -25,14 +25,6 @@
     "vat difference"
   ],
   "objects": [
-    {
-      "type": "table",
-      "name": "General Ledger Setup"
-    },
-    {
-      "type": "table",
-      "name": "Purchase & Payables Setup"
-    },
     {
       "type": "page",
       "name": "Purchase Invoice"

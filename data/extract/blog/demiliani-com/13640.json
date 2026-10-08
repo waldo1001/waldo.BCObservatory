@@ -7,11 +7,11 @@
   "words": 682,
   "summary": "Business Central 2026 Wave 1 introduced a native SFTP Client codeunit for connecting to SFTP servers from AL code with multiple authentication methods, though Microsoft announced in April 2026 that this module would be removed due to platform hardening requirements.",
   "key_points": [
-    "SFTP Client codeunit in System Application uses SSH.NET library for both synchronous and asynchronous SFTP operations",
-    "Supported authentication methods include username/password, username/private key with or without passphrase",
-    "Server fingerprint (SHA256 hash of public key) must be verified before connecting to prevent man-in-the-middle attacks",
-    "Available methods include GetFileAsStream for downloads, ListFiles for directory listing, and DeleteFile for remote file deletion",
-    "Connection is stateful and must be explicitly closed with SFTPClient.Disconnect()"
+    "The SFTP Client codeunit in the System Application wraps the SSH.NET library so AL code can talk directly to SFTP servers",
+    "Supported sign-in methods are username with password, or username with a private key, with or without a passphrase",
+    "You must register the server's fingerprint, a short hash of its public key, before connecting; this guards against man-in-the-middle attacks",
+    "GetFileAsStream downloads a file, ListFiles lists a path, and DeleteFile removes a remote file; the connection is stateful and needs Disconnect when done",
+    "An April 27, 2026 update says Microsoft will remove or deprecate the module, so Azure Functions and similar alternatives are needed again"
   ],
   "systems": [
     "integration",
@@ -45,7 +45,6 @@
     "SSH-2 library integration",
     "Public key authentication",
     "Password authentication",
-    "Keyboard-interactive authentication",
     "File download via GetFileAsStream",
     "Directory listing via ListFiles",
     "File deletion via DeleteFile"

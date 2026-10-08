@@ -7,13 +7,12 @@
     "purchasing",
     "finance"
   ],
-  "summary": "Non-deductible VAT calculations on purchase and sales invoices are corrected for lines with full VAT calculation type to ensure consistency across all localization layers.",
+  "summary": "Fixes inconsistent Non-Deductible VAT calculations on purchase and sales invoices that contain lines with the Full VAT calculation type. Small additions are made to the Purchase Line and VAT Amount Line tables across the W1 and localized base apps, with new tests.",
   "key_points": [
-    "Fixes inconsistent non-deductible VAT calculations on invoices with full VAT calculation type",
-    "Updates VAT Amount Line table to correct calculation logic",
-    "Updates Purchase Line table to apply consistent rules",
-    "Changes applied across all localization layers (APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE, W1)",
-    "Includes test coverage for non-deductible VAT post basic functionality"
+    "Fixes inconsistent Non-Deductible VAT results on invoices with Full VAT lines",
+    "Small additions to the Purchase Line table in W1 and all localized layers",
+    "VAT Amount Line table also adjusted in W1, APAC, BE, ES, GB, IT, NA and RU",
+    "New tests added to the Non-Deductible VAT posting test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

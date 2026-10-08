@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/jpearson-blog/1583",
+  "input_hash": "c8e3424331a71b2ff14ad712991cd1132effb33ea056c4a015b23eead1359a00",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:37.312Z",
+  "issues": [
+    "The post is a short teaser about putting the Monaco editor in a control add-in. Integration appears only as an example source of text, so the integration system tag is weak and was dropped.",
+    "The summary, key points and quotes are supported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032019,
+    "posts_in_call": 4
+  }
+}

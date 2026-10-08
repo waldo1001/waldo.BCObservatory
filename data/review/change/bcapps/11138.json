@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11138",
+  "input_hash": "a77bef57da0ccd28f115cd6718f547ff6fe976ebea9e8744042ba6c429ca9f45",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:11.196Z",
+  "issues": [
+    "The page matches the description: the redundant self-save was removed, the OnModify guard is unchanged, and tests were added.",
+    "The description says SaveChangesInGenJnlLine and its call sites were removed, but the diff shows only +1 -1 in the subscriber file. Nothing given indicates a breaking public API change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020139,
+    "changes_in_call": 6
+  }
+}

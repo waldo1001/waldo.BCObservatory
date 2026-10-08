@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9307",
+  "input_hash": "5d150c03489974da85a4e5c9f411654c50dd61b93e2b053955cf9fae565ec0a6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:01.113Z",
+  "issues": [
+    "Summary says the results page matches 'the search page itself'; the description says 'the search itself'.",
+    "Two key points are vague filler the PR does not support."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019691,
+    "changes_in_call": 6
+  }
+}

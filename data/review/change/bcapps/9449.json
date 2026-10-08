@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9449",
+  "input_hash": "301775d7dd2938da42f0d2fe1cf0e9b83b575790a5a2673cf8c4bcc79d339688",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:00.529Z",
+  "issues": [
+    "The page matches the description. Note: subscribers written against the 28.1 argument order will now get the target line instead of the source line. The PR presents this as restoring the earlier contract, so breaking is left false."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019104,
+    "changes_in_call": 6
+  }
+}

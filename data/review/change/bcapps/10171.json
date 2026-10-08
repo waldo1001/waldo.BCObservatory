@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10171",
+  "input_hash": "9f8e2064162027e695d048442a4f93ac89e1100a49a42d81cf51810d96d350bf",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:53.609Z",
+  "issues": [
+    "Accurately describes the two new integration events in UpdatePrepmtAmountOnSaleslines across W1 and the listed layers; no behavior change without subscribers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025215,
+    "changes_in_call": 6
+  }
+}

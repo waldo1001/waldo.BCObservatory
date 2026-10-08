@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11565",
+  "input_hash": "b6717f0cad5bd48d3c3f48bebcc92fd00206cf306f242bd99afefcc58660580a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:58:47.777Z",
+  "issues": [
+    "Summary and key points match the changelog content for versions 15.0 to 16.2.",
+    "Analyzer rule numbers and feature names checked against the post.",
+    "Sample codeunits and the Customer Card page are named in the post's code examples.",
+    "Quote is verbatim."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046716,
+    "posts_in_call": 4
+  }
+}

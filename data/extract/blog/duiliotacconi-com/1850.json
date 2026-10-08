@@ -5,13 +5,13 @@
   "source": "duiliotacconi-com",
   "published_at": "2026-02-10T16:34:20.000Z",
   "words": 1186,
-  "summary": "Rec.Truncate is a new AL statement that rapidly deletes all records from a table by unlinking database pages instead of removing rows one by one. It works best when deleting 50-60% or more of a table's content without filters, but falls back to slower row-by-row deletion if constraints are not met, such as when filters are applied, security filters exist, or the table has media fields or marked records.",
+  "summary": "Rec.Truncate is a new AL method based on SQL Server TRUNCATE TABLE that empties a table in milliseconds rather than deleting row by row. If a constraint is hit (system or virtual table, try function, security filters, delete event subscribers, Media fields, many marked rows, FlowField filters) it falls back to slow DeleteAll behavior. With filters it saves rows to keep and restores them, which only pays off when removing about 50-60% or more.",
   "key_points": [
-    "Rec.Truncate is based on SQL Server TRUNCATE TABLE and can delete large tables in milliseconds when all conditions are met",
-    "It does not work efficiently with filters; truncate without filters deletes 50K records far faster than DeleteAll, but with filters it becomes dramatically slower",
-    "The statement has multiple constraints: it cannot be used on system/virtual tables, fails if security filters are active, subscribers to OnBeforeDelete/OnAfterDelete exist, or Media fields are present",
-    "Truncate becomes advantageous when deleting at least 50-60% of table content; deleting less than that negates its benefits due to the overhead of saving and restoring records to keep",
-    "Best use cases are staging tables and log tables that are either completely emptied for refilling or kept entirely, not partial deletions"
+    "Truncating a whole table without filters is far faster than DeleteAll, and the gap grows with more records, indexes and SIFTs",
+    "Listed constraints such as active security filters, OnBeforeDelete/OnAfterDelete subscribers, Media fields, try functions, many marked rows or FlowField filters make it fall back to row-by-row deletion",
+    "Filtered truncate copies rows to keep into a temp table, disables SIFTs, truncates, then restores rows and rebuilds indexes; deleting a small slice was dramatically slower than DeleteAll in the demo",
+    "Lab tests on a one million row Item Ledger Entry clone showed truncate pays off only when deleting at least 50-60% of a table with few indexes",
+    "Best suited to staging and log tables that are emptied completely; test all scenarios before relying on it"
   ],
   "systems": [
     "development",
@@ -27,12 +27,7 @@
     "database optimization",
     "constraints"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Rec.Truncate"
-    }
-  ],
+  "objects": [],
   "features": [
     "Rec.Truncate statement",
     "Fast table clearing",

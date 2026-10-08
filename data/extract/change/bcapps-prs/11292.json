@@ -6,13 +6,13 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Fixed repricing of subcontracting purchase lines in multiple scenarios: carrying out worksheet costs when no price matches, editing dates on released orders, and rescheduling with lead-time adjustments.",
+  "summary": "Fixes repricing of subcontracting purchase lines in four cases: no matching price on carry-out, manually entered worksheet costs being overwritten, date edits on released orders failing, and lead-time-only rescheduling skipping repricing.",
   "key_points": [
-    "Prevents overwriting calculated worksheet costs with raw routing rates when no matching price exists",
-    "Uses standard subcontracting worksheet cost formula as fallback instead of routing rate",
-    "Skips financial repricing for non-open purchase orders to avoid validation errors",
-    "Keys planned-date repricing on the final Order Date to catch all rescheduling scenarios",
-    "Adds comprehensive regression tests covering pricing edge cases and date-edit scenarios"
+    "When no price matches, carry-out uses the standard subcontracting worksheet cost formula instead of the raw routing rate",
+    "Manually entered worksheet Direct Unit Cost is kept instead of being repriced",
+    "Financial repricing is skipped for non-open purchase orders, avoiding line-discount status errors on date edits",
+    "Planned-date repricing is keyed on the resulting Order Date so lead-time-only changes are repriced",
+    "Adds regression tests for these pricing and date-edit cases"
   ],
   "change_kind": "fix",
   "behavior_change": true,

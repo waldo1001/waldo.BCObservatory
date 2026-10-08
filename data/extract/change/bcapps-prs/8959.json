@@ -11,11 +11,11 @@
   ],
   "summary": "Spend Requests allow users to create requisitions for planned expenses and link them to journal entries and purchase documents for automatic updates during posting.",
   "key_points": [
-    "New Spend Request table and pages enable tracking of spending requisitions",
-    "Journal and purchase documents can reference spend requests which update on posting",
-    "Modified general journal check and posting logic to process spend request links",
-    "Feature provides foundation for approval workflows and expense management",
-    "Implementation is partial and awaits additional approval and validation features"
+    "New Spend Request tables, pages, enums and a document report track requests to spend money",
+    "General journal lines and purchase documents can reference a spend request number, which updates the request on posting",
+    "General journal check, posting and reversal logic, plus purchase posting, were extended for spend request links",
+    "The feature is delivered early so the Expense Agent team can build Travel Requisitions on it",
+    "Still incomplete: approvals, an amount check at posting and a report layout are missing"
   ],
   "change_kind": "feature",
   "behavior_change": true,

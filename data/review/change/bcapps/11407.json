@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11407",
+  "input_hash": "c5d67c810d2128d69e98277d3e548b593d84349f83670ce0eb14db9d0b68f64c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:29.587Z",
+  "issues": [
+    "The page matches the description: TransferFields copied the refund ID into Fulfillment Id because both fields use number 30103, and the fix clears that value only when it matches. No schema changes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017399,
+    "changes_in_call": 6
+  }
+}

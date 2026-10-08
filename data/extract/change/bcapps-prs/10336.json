@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Fixed incorrect calculation of single-level capacity and material costs for stockkeeping units during standard cost changes by skipping unconditional SKU cost updates when the Load SKU Cost on Manufacturing setting is disabled.",
+  "summary": "The Implement Standard Cost Change report no longer copies an item's updated cost shares to its stockkeeping units in the Load SKU Cost on Manufacturing mode, where it used to ignore that setting. Users are told to recalculate SKU costs with Calc. Standard Cost on the Stockkeeping Unit Card.",
   "key_points": [
     "The Implement Standard Cost Change report was incorrectly copying item cost shares to SKUs regardless of the Load SKU Cost on Manufacturing setting",
     "Report now skips SKU cost updates in this scenario",

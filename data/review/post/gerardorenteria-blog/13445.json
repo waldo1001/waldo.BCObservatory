@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13445",
+  "input_hash": "5cd718b17809d6d3f7b29ac74c99092df9c99ce2ece31f663e46b0121f65b6a8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:14.291Z",
+  "issues": [
+    "The post is about a general VS Code extension, but it names Business Central AL extension folders as a use case, so it is relevant enough to keep.",
+    "The administration system is not supported by the post, so I dropped it. The rest matches the English section of the post."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018493,
+    "posts_in_call": 4
+  }
+}

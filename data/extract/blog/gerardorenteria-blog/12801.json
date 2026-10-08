@@ -5,7 +5,7 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-01-22T20:45:57.000Z",
   "words": 2149,
-  "summary": "This post demonstrates how to build a Mermaid diagram visualization framework within Business Central that converts real database data into interactive flowcharts, Gantt charts, class diagrams, and other diagram types. The three-layer architecture (AL code, JavaScript control add-in, and Mermaid.js CDN) enables users to generate diagrams dynamically from any Business Central table with customizable themes and scaling options, useful for visualizing customer flows, project timelines, BOM structures, and process documentation.",
+  "summary": "Describes a sample Business Central extension that renders Mermaid.js diagrams from live BC table data. It uses three layers: AL page extensions and codeunits, a JavaScript control add-in bridge, and the Mermaid.js CDN. Examples include a Gantt project timeline from job tasks, customer sales flows, BOM structures and order status flows, with selectable themes and scaling and one-click SVG export.",
   "key_points": [
     "Mermaid.js is a JavaScript library that generates diagrams from text definitions, similar to Markdown syntax",
     "The framework uses a three-layer architecture: AL page extensions and codeunits, a JavaScript control add-in bridge, and the external Mermaid.js CDN library",

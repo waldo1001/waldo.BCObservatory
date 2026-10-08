@@ -13,12 +13,12 @@ tags:
   - workflow optimization
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:04.367Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -97,7 +97,7 @@ preview:
 
 # MSDyn365BC.Sandbox.Code.History - Late Hotfix Handling
 
-[Read the post](https://stefanmaron.com/posts/blog-post-late-hotfix-handling/) · Stefan Maron (Stefan Maron, MVP) · 2025-10-02 · 697 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/blog-post-late-hotfix-handling/) · Stefan Maron (Stefan Maron, MVP) · 2025-10-02 · 697 words · tier community · reviewed (checked by Opus)
 
 > The MSDyn365BC.Sandbox.Code.History repository now handles late hotfixes released by Microsoft with lower version numbers by automatically inserting them in the correct chronological position using git rebase, fixing repository bloat and confusing version order issues. Users with existing clones may need to update branches using provided automation scripts when history is rewritten.
 

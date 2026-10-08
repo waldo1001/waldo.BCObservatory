@@ -7,13 +7,13 @@
     "platform",
     "development"
   ],
-  "summary": "Report layout administration pages now decode composite layout references, add description fields, and provide actions to replace layout files, edit descriptions, and view usage information. Changes are display-only with no schema or data impact.",
+  "summary": "Composite layout administration pages get UI improvements: page 9663 shows decoded part names, and page 9666 gains a Description column plus Replace, Edit description and Show info actions. Page 9668 adds a Description field, and page 9660 enables composite actions only for Word layouts.",
   "key_points": [
-    "Tenant Report Layout Configuration page decodes composite layout names from raw platform format to plain names",
-    "Report Theme and Header/Footer page gains Description column, Replace, Edit description, and Show info line-level actions",
-    "New Report Theme Header/Footer page includes a Description field when creating parts",
-    "Report Layouts page restricts composite layout actions to Word layouts only",
-    "All changes use existing underlying methods with no breaking modifications"
+    "Tenant Report Layout Cfg shows decoded part names instead of the raw guid::name value, display only",
+    "Report Theme and Header/Footer adds Description column, Replace, Edit description and Show info actions, with Replace and Part Status scoped to lines",
+    "New Report Theme Header/Footer page adds a Description field and is reused as the Edit Description dialog",
+    "Report Layouts enables Manage all themes/header-footers and Layout configuration only for Word layouts",
+    "Telemetry no longer includes the raw user-entered layout description"
   ],
   "change_kind": "feature",
   "behavior_change": true,

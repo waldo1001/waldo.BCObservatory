@@ -8,11 +8,9 @@
   ],
   "summary": "The Expense Agent Setup Wizard now allows users to clear the default approver field after it has been saved, fixing a previous restriction that prevented modification.",
   "key_points": [
-    "Default approver can now be cleared in the setup wizard",
-    "Resolves inability to modify the field once saved",
-    "Change made to the Expense Agent Setup Wizard page",
-    "Enables users to remove previously set approver assignments",
-    "Feature requires SaaS environment with Agent framework enabled"
+    "The default approver in the Expense Agent Setup Wizard can now be cleared after it was set through assist edit",
+    "Change is limited to the Expense Agent Setup Wizard page",
+    "Tested manually only, because the page needs SaaS with the Agent framework"
   ],
   "change_kind": "fix",
   "behavior_change": true,

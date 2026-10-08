@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10030",
+  "input_hash": "174d54105a9194a9bed69a9a74b7b078b84bfc3dbf3e1bab077a7279614da41c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:27.278Z",
+  "issues": [
+    "Accurately covers the SKU-aware CalcLevels traversal, the new RecalcSKULowerLevels, the OnValidate now saving the low-level code, and that a second planning run is no longer needed."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018245,
+    "changes_in_call": 6
+  }
+}

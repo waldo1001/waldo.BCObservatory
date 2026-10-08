@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9204",
+  "input_hash": "98883469f146742b6d0579f584ffde9f30fa1b54d659171b2b908316dcb5eaed",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.083Z",
+  "issues": [
+    "Nothing given shows that the field length was extended. Only the Purchase Invoice page changed, not a table, so the summary's mechanism is unsupported.",
+    "The claim that tests check an extended field length is unsupported.",
+    "The summary says all regional versions, but some layers (for example GB) are not in the file list."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016613,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2866",
+  "input_hash": "d262c35ad2146d2bbb33f21f26cc0e16411f7bab1b0ca73a31becbc848e78662",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:59.812Z",
+  "issues": [
+    "The object 'codeunit ParseXML procedure' is wrong: ParseXML is a procedure, and the post never names a codeunit.",
+    "The key point calling the parsing recursive is wrong; the code uses nested loops over child elements.",
+    "The key points leave out the author's conclusion that parsing XML by hand was painful."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.036312,
+    "posts_in_call": 4
+  }
+}

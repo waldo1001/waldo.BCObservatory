@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/waldo-be/318461",
+  "input_hash": "176ea977e7203b817337e1414eb58e2ddd7e077e915099d86821a3037f5d1ced",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:54.941Z",
+  "issues": [
+    "Summary calls the 67.7 hours a daily waste; the post's figures are inconsistent and are given per morning.",
+    "Third key point compares 19,946 queries per morning with 18 queries over seven days as if they covered the same period.",
+    "Quote 1 is a joke line with little value, and its explanation overstates it; the author says he is not really creating an AI."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033875,
+    "posts_in_call": 4
+  }
+}

@@ -6,13 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Page 615 'IC Inbox Transactions' now correctly shows the request page for users with more than basic permissions, fixing a conditional check that was preventing the page from opening properly.",
+  "summary": "RunInboxTransactions on page 615 \"IC Inbox Transactions\" now checks IsBasicOnlyEnabled instead of IsFoundationEnabled. The request page therefore opens for users whose experience is more than Basic. Tests were updated to handle the request page by clicking OK.",
   "key_points": [
-    "Changed IsFoundationEnabled check to IsBasicOnlyEnabled for proper permission validation",
-    "Request page now opens for users with permissions beyond basic",
-    "Tests updated to handle the request page by clicking OK",
-    "Fixes intercompany inbox transaction processing for elevated user roles",
-    "Changes affect multiple localization layers (CH, CZ, NL, W1)"
+    "IsFoundationEnabled check replaced by IsBasicOnlyEnabled in RunInboxTransactions",
+    "Request page now opens when the user is not on the Basic experience",
+    "Page change is in the W1 layer only",
+    "Intercompany tests in the CH, CZ, NL and W1 layers updated to handle the request page with OK"
   ],
   "change_kind": "fix",
   "behavior_change": true,

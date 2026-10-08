@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10511",
+  "input_hash": "9b55c1cabff5773a75c9d29b49db0690a12a24bed66d67f67b6640ba9d24aa64",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:35.899Z",
+  "issues": [
+    "Accurate: the combined remittance text is capped to fit the 140-character SEPA CT ustrd element, which prevents the overflow crash. A test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016149,
+    "changes_in_call": 6
+  }
+}

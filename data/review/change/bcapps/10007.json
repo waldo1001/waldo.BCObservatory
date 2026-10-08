@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10007",
+  "input_hash": "414dda86b5d92a294a1c8583da3b950ffd139a40d339435059561f4b18d78a2c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:56.755Z",
+  "issues": [
+    "The title says the agent should ignore availability when the setting is disabled, which points to correcting existing behaviour. change_kind set to fix.",
+    "The summary and key points match the description."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014187,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "A new integration event OnBeforeOnPreReport is added to the Redraw Receivable Bills report to allow extensions to set request page variables and bypass validations for automated processing in job queues.",
+  "summary": "Adds an OnBeforeOnPreReport integration event to the ES Redraw Receivable Bills report (7000096). Extensions can set the request page variables and, through IsHandled, skip the NewDueDate and journal batch validations so the report can run unattended, for example from a job queue.",
   "key_points": [
     "New OnBeforeOnPreReport integration event fires at the start of OnPreReport trigger",
     "Event exposes request page variables and IsHandled flag by reference",
@@ -15,7 +15,7 @@
     "IsHandled flag initialized to false, controlled by subscribers"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

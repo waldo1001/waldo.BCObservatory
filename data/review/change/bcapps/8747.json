@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/8747",
+  "input_hash": "01babd9bdfcb1b402426765b892751264417f0f5fa93c7e15416afc4c4a47086",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:40.738Z",
+  "issues": [
+    "PR links a work item via 'Fixes' and restricts a field that was wrongly available for Machine Center lines; this is a fix rather than a feature.",
+    "Rest of summary and key points match the description."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034954,
+    "changes_in_call": 6
+  }
+}

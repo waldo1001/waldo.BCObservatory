@@ -7,10 +7,10 @@
   "words": 70,
   "summary": "Business Central includes built-in enums for month and day-of-week recurrence patterns. Developers can reuse these existing enums rather than creating custom ones, saving development time.",
   "key_points": [
-    "Enum 4691 provides month recurrence values",
-    "Enum 4690 offers day-of-week recurrence values",
-    "Both enums include additional values beyond basic usage",
-    "ValuesAllowed property can filter unwanted enum values"
+    "Enum 4691 Recurrence - Month already provides month values, so a custom enum is not needed",
+    "Enum 4690 Recurrence - Day of Week covers weekdays",
+    "The Day of Week enum also contains extra values such as Day and Weekday",
+    "Use the ValuesAllowed property to hide values you do not want"
   ],
   "systems": [
     "development"
@@ -32,8 +32,6 @@
     }
   ],
   "features": [
-    "Enum 4691",
-    "Enum 4690",
     "ValuesAllowed property"
   ],
   "versions": [],

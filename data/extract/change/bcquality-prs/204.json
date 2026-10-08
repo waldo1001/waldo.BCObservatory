@@ -4,16 +4,16 @@
   "title": "Validate composed reviews against the expected leaf worklist",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Composed review validation now enforces that selected leaf worklists are executed in order and completeness is verified through expected manifests, preventing inconsistent reports that omit required domains.",
+  "summary": "The findings-report validator gets an optional expected-composition manifest. It checks that selected leaves, versions, result order and legitimate skips match what the host chose. Duplicate producers are now rejected, and a composition with missing leaves must be reported as partial or failed instead of completed.",
   "key_points": [
-    "Add optional manifest validation to confirm all selected leaves are returned in correct order with matching versions",
-    "Reject duplicate producers and reject partial reports when all leaves should be returned",
-    "Distinguish budget exhaustion from configuration incompatibility in skip reasons",
-    "Coverage calculation sums non-failed leaf worklists, not slot count",
-    "Manifest-free callers still supported but cannot certify completeness"
+    "New optional -ExpectedCompositionPath checks super-skill and leaf IDs, versions, result order and skip reasons against a host-owned manifest",
+    "Duplicate producers and duplicate or returned-and-skipped IDs are rejected even without a manifest",
+    "Missing selected leaves require 'partial' if a non-failed report exists, otherwise 'failed'; budget exhaustion is not turned into a configuration skip",
+    "Coverage is the sum of non-failed leaf worklists and handles zero usable sub-results",
+    "Report JSON schema is unchanged; manifest-free callers are still supported but cannot certify completeness"
   ],
   "change_kind": "feature",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

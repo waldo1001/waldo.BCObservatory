@@ -6,15 +6,15 @@
   "systems_joined": [],
   "summary": "E-Document posting now validates that seller contact information (from salesperson or company data) is complete before generating XRechnung/ZUGFeRD e-invoices, preventing non-compliant XML that would fail validation.",
   "key_points": [
-    "New mandatory check for seller contact fields (name, phone, email) during e-document posting",
-    "Validation mirrors the export logic by checking salesperson first, then falling back to company information",
-    "Error messages identify which field is missing and from which source it was expected",
-    "Applies to both XRechnung and ZUGFeRD formats with dedicated test coverage for each",
-    "Existing documents with incomplete contact data will now fail to post"
+    "New check that seller contact data (BG-6) is complete, run from the Check of the XRechnung and ZUGFeRD formats",
+    "Salesperson Name, Phone No. and E-Mail are required when a salesperson is set and exists; otherwise Company Information Contact Person and Phone No. are required",
+    "Company Information E-Mail is not checked again because the existing BT-34 check already requires it",
+    "Error messages name the missing field and the source it was expected from",
+    "Documents with incomplete contact data that used to post will now fail; 11 tests added to each format's test suite"
   ],
   "change_kind": "fix",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "finance",

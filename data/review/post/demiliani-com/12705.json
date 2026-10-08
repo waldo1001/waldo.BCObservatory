@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/12705",
+  "input_hash": "d5d48fa03d4efb008047d319243c893c5fc006a9cb534edb2300f39900ebcf8c",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:58:34.242Z",
+  "issues": [
+    "The post covers general LLM context window performance testing with GPT-4.1 and GPT-5 and never mentions Business Central.",
+    "Systems like copilot and integration are not supported because no Business Central functionality is discussed."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04843,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11967",
+  "input_hash": "783ef5cd1088c7f75f9cc71ce160e43b0e19aca0ca04c249673e95657a120670",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:12.617Z",
+  "issues": [
+    "Key point 3 says renamed or localized pages are covered. The description says renamed or localized *_Excel web services can't get around the check, which is a different claim.",
+    "The page doesn't say this is only a mitigation. The root cause is in the platform, and workbooks or Users_Excel services that already exist can still publish changes."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020642,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11822",
+  "input_hash": "0e20fb95e5819e3b1851b20af23c9a98c41bb2c4aed3d8e6a812fec89093043e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:14.134Z",
+  "issues": [
+    "Key points call the field lists separate indexes, but the description only gives fields per table, so they may be one key per table.",
+    "The claim about lookups and joins is not supported by the input."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026202,
+    "changes_in_call": 6
+  }
+}

@@ -4,16 +4,14 @@
   "title": "[main] bug 646167 - Enhance VIES Declaration pages: update option captions for declaration types",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "VIES Declaration validation for declaration types is extracted into a dedicated procedure with an integration event, allowing localization partners to customize the handling of Corrective-Supplementary declarations through event subscription.",
+  "summary": "Updates the option captions for declaration types on the CZ VIES Declaration Header CZL table. The description also mentions moving the Corrective-Supplementary check behind an OnBeforeCheckDeclarationType event, but the small diff (+2 -3) does not clearly reflect that.",
   "key_points": [
-    "Validation logic moved from OnValidate trigger to CheckDeclarationType() procedure",
-    "OnBeforeCheckDeclarationType integration event introduced with IsHandled pattern for extensibility",
-    "SK localization can now override Corrective-Supplementary blocking without base app modifications",
-    "Consistent validation applied to both field and Export() action",
-    "CZ behavior unchanged; non-breaking refactor that enables customization"
+    "Changes are limited to table 31075 VIES Declaration Header CZL",
+    "Title describes updated option captions for the Declaration Type field",
+    "Description mentions an OnBeforeCheckDeclarationType event for SK localization, not clearly reflected in the diff size"
   ],
-  "change_kind": "refactor",
-  "behavior_change": false,
+  "change_kind": "fix",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

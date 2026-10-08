@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10795",
+  "input_hash": "bef9df613b143ec0ee204f2a652db52bec6418eb9db8dcae3f74b13467531c6a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:25.129Z",
+  "issues": [
+    "The summary and key points match the description: the Minimum() cap restores the blank-bin shortage line, and the test was added.",
+    "The key point about not affecting the normal case reasonably reads 'normal case' as availability not exceeding demand."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014664,
+    "changes_in_call": 6
+  }
+}

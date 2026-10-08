@@ -8,13 +8,13 @@
   ],
   "summary": "The ServItemManagement codeunit now allows extensions to skip the service item confirmation dialog through a new event parameter while preserving the standard creation logic.",
   "key_points": [
-    "New SkipConfirm parameter added to the pre-confirmation event",
-    "Extensions can suppress the dialog without bypassing item creation",
-    "Maintains backward compatibility with existing full-bypass behavior",
-    "Enables service item creation with standard logic in automated scenarios"
+    "SkipConfirm parameter appended to the existing pre-confirmation event in CreateServItemOnServItemLine",
+    "Subscribers can skip only the confirmation dialog and still go through standard service item creation",
+    "The existing full-bypass behavior is kept",
+    "Requested through extensibility issue 30389"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

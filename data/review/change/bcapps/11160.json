@@ -1,0 +1,27 @@
+{
+  "item_id": "change/bcapps-prs/11160",
+  "input_hash": "d1689b39e1995154cc3ee0d02a24d9a9faef1e066d3280cf3e0339d6f8a9869a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:00.681Z",
+  "issues": [
+    "The ruleset is the repository's own base ruleset; nothing indicates external extensions are affected, so breaking should be false and change_kind not breaking.",
+    "Key point claiming developer extensions must fix violations is unsupported.",
+    "Displayed error messages now use captions instead of technical names, a small user-visible change."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind refactor",
+    "behaviour change true",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029788,
+    "changes_in_call": 6
+  }
+}

@@ -6,16 +6,16 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "An event is added before retrieving a filtered item application entry in the drop shipment undo process, allowing extensions with custom fields to adjust loaded fields and avoid JIT load-field errors.",
+  "summary": "Adds an event in Undo Sales Shipment Line before the filtered Item Application Entry is retrieved when undoing a drop shipment, so subscribers can adjust loaded fields and avoid JIT load-field errors on extension fields.",
   "key_points": [
-    "New event fires before the item application entry is retrieved in UnApplyDropShipment",
-    "Enables extensions to adjust loaded fields on the item application entry record",
-    "Preserves standard optimization by keeping the filtered retrieval intact",
-    "Event propagated to both W1 and RU layer implementations",
-    "Resolves JIT load-field errors when extensions add fields to Item Application Entry"
+    "New event fires before the item application entry is found in UnApplyDropShipment",
+    "Subscribers can adjust which fields are loaded on the Item Application Entry record",
+    "Standard load-field optimization is kept",
+    "Added in both W1 and RU layers",
+    "Lets extensions that add fields to Item Application Entry avoid JIT load-field errors"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

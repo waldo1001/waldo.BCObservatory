@@ -12,12 +12,12 @@ tags:
   - constants
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:01:14.122Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -77,7 +77,7 @@ preview:
 
 # BC Friday Tips #28 Math Codeunit
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-18 · 85 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-28-math-codeunit/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-18 · 85 words · tier community · reviewed (checked by Opus)
 
 > Business Central includes a built-in Math codeunit that provides constants and static methods for mathematical functions like trigonometry, logarithms, and common operations. Developers can use it to avoid duplicating mathematical logic in their code.
 

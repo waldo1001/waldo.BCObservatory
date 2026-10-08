@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9687",
+  "input_hash": "83c1876527eafc85ec045a76c7b35297dde04374fad34619d4777df406dbd9da",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.222Z",
+  "issues": [
+    "Accurate: a blank-value guard in SetFAPostingGroup (W1, DACH, FR, IT) and in SetFATaxDeprGroup (CZ), plus tests.",
+    "Minor wording issue: Group Totals is a report option, not a filter."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018258,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,10 @@
   ],
   "summary": "Sales Subscription Line creation now correctly handles cached Sales Line data during BOM explosion for foreign-currency customers, preventing 'does not exist' errors.",
   "key_points": [
-    "Changed GetDate() to use GetSalesLine() method that checks cached Sales Line first",
-    "Resolves failures when exploding Assembly BOMs on sales orders with foreign currencies",
-    "Prevents unnecessary database lookups when Sales Line is available in memory",
-    "Added test coverage for the foreign-currency BOM explosion scenario"
+    "GetDate() in Sales Subscription Line now calls GetSalesLine() instead of SalesLine.Get()",
+    "The in-memory Sales Line is reused before falling back to a database lookup",
+    "Fixes 'The Sales Line does not exist' error when exploding an Assembly BOM for a foreign-currency customer",
+    "Added a test for the scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

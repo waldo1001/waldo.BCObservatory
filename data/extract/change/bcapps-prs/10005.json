@@ -10,11 +10,11 @@
   ],
   "summary": "Error messages when reversing shipped or received lines now distinguish between no reversible quantities and already-reversed lines, providing clearer guidance for users and AI agents.",
   "key_points": [
-    "Separates misleading 'already reversed' message into two distinct error cases",
-    "First error for lines with no reversible quantities (like comment lines)",
-    "Second error for lines already marked as reversed",
-    "Messages are action-oriented to guide users and agents",
-    "Applies consistent error handling across all undo scenarios for sales, purchases, and transfers"
+    "An empty selection after filtering (for example only comment or blank lines) now raises a new, action-oriented error",
+    "The existing 'already reversed' error is kept only for lines that really are reversed",
+    "Fixes the misleading message first seen in Undo Return Shipment",
+    "Error messages are aligned across undo codeunits for sales, purchase, return and transfer documents",
+    "Tests updated for the new messages"
   ],
   "change_kind": "fix",
   "behavior_change": true,

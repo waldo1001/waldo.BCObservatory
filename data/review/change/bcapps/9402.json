@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9402",
+  "input_hash": "b8e347bfb020e6db18ab0a3c2bcb756d536b927ee0b54ef481ffaa212fa557f4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:24.818Z",
+  "issues": [
+    "The key point about SecretText garbles the description. The description says the key stays wrapped as SecretText outside the existing non-debuggable helper boundary, not outside 'debuggable boundaries'.",
+    "The test app's new friend access in app.json was not mentioned, so it is added as a key point."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018851,
+    "changes_in_call": 6
+  }
+}

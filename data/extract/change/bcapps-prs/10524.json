@@ -6,16 +6,16 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "New public APIs enable external applications to programmatically create purchase order matches with receipts, including a convenience feature to suggest unmatched receipts based on remaining invoice amounts.",
+  "summary": "New public codeunits in the Base Application let other apps, starting with E-Documents, create Matched Order Line records through a validated match group. A helper suggests receipts that could cover the remaining amount to invoice on an order.",
   "key_points": [
-    "Three new public codeunits provide a facade for inserting matched order line records",
-    "A receipt suggestion algorithm discovers unmatched receipts that could cover remaining invoice amounts",
-    "Match group buffers validate all matches quantity-wise before database insertion",
-    "Iterators allow consumers to traverse matches and invoiceable receipts",
-    "All changes are additive with no impact on existing BaseApp matching logic"
+    "New public codeunits act as a facade for inserting Matched Order Line records",
+    "PO Matching Group buffers matches and validates quantities, prepayment and item tracking rules as each match is added",
+    "Existing persisted matches are discovered breadth-first and loaded so validations consider them",
+    "Iterators expose the buffered matches and the invoiceable receipts",
+    "Additive change; existing BaseApp matching logic is not changed"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

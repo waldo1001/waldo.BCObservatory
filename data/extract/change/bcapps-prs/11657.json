@@ -8,11 +8,11 @@
   ],
   "summary": "The VIES integrity check for VAT numbers now tolerates country-code prefixes in echoed responses, normalizing both sides before comparison to prevent false rejection of valid VAT numbers during registration.",
   "key_points": [
-    "Fixed regression where VIES responses echoing VAT numbers with country-code prefix were wrongly rejected as mismatches",
-    "Normalizes both request and response values to prefix-stripped form before integrity check comparison",
-    "Prevents hard block on saving VAT numbers when security checks fail due to cosmetic prefix differences",
-    "Preserves security intent by still rejecting genuinely different numbers or country codes",
-    "Resolves 10 failing mocks in NAV repository uptake tests that require live VIES mock service"
+    "Fixed a regression where VIES responses that echo the VAT number with its country-code prefix were wrongly rejected as mismatches",
+    "Both the request and response numbers are stripped of the prefix before the integrity check compares them",
+    "Removes the hard block on saving a VAT Registration No., because the check runs in its OnValidate",
+    "Numbers or countries that really differ are still rejected",
+    "Fixes 10 failing tests in codeunit 134192, which run only in NAV uptake with a mock service"
   ],
   "change_kind": "fix",
   "behavior_change": true,

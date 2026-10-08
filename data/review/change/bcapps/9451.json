@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9451",
+  "input_hash": "bc6189567bb346ede5425f287df60089c1412eda4531dd6b62b2596c110ff13d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:44.759Z",
+  "issues": [
+    "Key point claiming existing subscribers remain compatible because the parameter is trailing is not stated in the PR; removed.",
+    "Other content supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024692,
+    "changes_in_call": 6
+  }
+}

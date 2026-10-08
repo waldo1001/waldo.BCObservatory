@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12117",
+  "input_hash": "8decb45fc02cd24bcdc90d282a63ffb3fa9dec0e50420c0706eb95aa2424551a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:43.571Z",
+  "issues": [
+    "Summary overstated telemetry; the PR adds an attempt dimension to the existing 0000PCR signal rather than new tracking."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024942,
+    "changes_in_call": 6
+  }
+}

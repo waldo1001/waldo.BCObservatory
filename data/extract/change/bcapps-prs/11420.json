@@ -8,10 +8,9 @@
   ],
   "summary": "The Enable Agent control on the Expense Agent Setup page is now hidden since it should be managed only through the setup wizard.",
   "key_points": [
-    "Enable Agent control visibility removed from Expense Agent Setup page",
-    "Agent enablement now controlled exclusively through the setup wizard",
-    "UI simplification to prevent direct page configuration",
-    "One-line change to page property"
+    "Enable Agent is no longer visible on the Expense Agent Setup page",
+    "Agent enablement is handled through the setup wizard",
+    "Single-line change to the Expense Agent Setup page"
   ],
   "change_kind": "fix",
   "behavior_change": true,

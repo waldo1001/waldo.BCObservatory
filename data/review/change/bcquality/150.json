@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/150",
+  "input_hash": "d7c7d2f7e8d9ed8ff1656d4b767371b86fcca38da4727ecb20bd8cba874ff82d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:34.703Z",
+  "issues": [
+    "The skill rename changes how callers invoke it, so behavior_change should be true.",
+    "breaking true is supported: invocations and allowlists using the old name must be updated."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023058,
+    "changes_in_call": 6
+  }
+}

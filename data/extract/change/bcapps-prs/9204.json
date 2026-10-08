@@ -6,13 +6,11 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Vendor Order No. field is extended beyond 20-character limit to prevent errors in Intercompany Purchase Invoice operations across all regional versions.",
+  "summary": "Fixes an error in Intercompany Purchase Invoice when the Vendor Order No. is longer than 20 characters. The fix changes the Purchase Invoice page in several localization layers, and the intercompany tests are updated.",
   "key_points": [
-    "Increased vendor order number field length beyond 20 characters",
-    "Fixes intercompany purchase invoice errors caused by truncated vendor order numbers",
-    "Changes applied consistently across all localization layers (W1, BE, CH, ES, FI, IT, NA, NL, NO, RU, APAC)",
-    "Test cases updated to validate the extended field length",
-    "Affects Purchase Invoice page and intercompany testing logic"
+    "Addresses an error raised when Vendor Order No. exceeds 20 characters in an intercompany purchase invoice",
+    "Changes page 51 Purchase Invoice in the APAC, BE, CH, ES, FI, IT, NA, NL, NO, RU and W1 layers",
+    "Updates the ERM Intercompany III tests in the W1, CH, CZ and NL layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

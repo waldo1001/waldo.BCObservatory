@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9211",
+  "input_hash": "eaf5f5f462f4dcecc9c9c8d3df8cff3554d5a531a9625900c01c111e15ce6730",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.437Z",
+  "issues": [
+    "Summary says the sent JSONL is stored when logging is enabled, but it is stored only when Logging Mode is All. Skipped records are suppressed only when logging is Disabled."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024405,
+    "changes_in_call": 6
+  }
+}

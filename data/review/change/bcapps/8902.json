@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/8902",
+  "input_hash": "2dc4516178aaa6088bd8acad752a65e18075c68dbc85c4907c2ca2e7cf20df34",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:08.687Z",
+  "issues": [
+    "The first key point says multiple routing lines. The description says multiple production order lines that share the same routing link code."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016324,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9485",
+  "input_hash": "2b9336c8d8cc1a7821d76e9481391c509786398d0f8933373c6aa2a0c38a7760",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:59.557Z",
+  "issues": [
+    "The description is only the bug title. The claims about a newly added status validation that prevents posting, and about errors merged into a single check, are speculative."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018172,
+    "changes_in_call": 6
+  }
+}

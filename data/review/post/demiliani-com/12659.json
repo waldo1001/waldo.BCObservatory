@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/12659",
+  "input_hash": "a29103a97c8c55c829121618ac908a8ed8244f3aee28ce1a8b30ee02ee4fa14d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:32.040Z",
+  "issues": [
+    "The post never names DDoS protection. It only mentions general protection against attacks.",
+    "The integration system is not supported by the post."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024568,
+    "posts_in_call": 4
+  }
+}

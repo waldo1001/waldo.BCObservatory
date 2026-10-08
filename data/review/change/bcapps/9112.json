@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9112",
+  "input_hash": "c37c3cc813428cb45d98184f851e856434c88a714db08f9183d8f643aa804427",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.141Z",
+  "issues": [
+    "The page matches the description: there is a pending-transaction guard on both the manual and the automatic path, and the refund is retried on the next sync."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015938,
+    "changes_in_call": 6
+  }
+}

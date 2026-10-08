@@ -6,7 +6,7 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Document attachment file names now use lower case extensions (.pdf, .xml, .zip) instead of upper case to comply with file naming standards and customer requirements.",
+  "summary": "GetAttachmentFileName on Electronic Document Format now lower cases the file extension, so documents saved to disk or zipped through document sending profiles get .pdf, .xml or .zip instead of upper case extensions. The procedure signature and events are unchanged.",
   "key_points": [
     "GetAttachmentFileName() method now converts file extensions to lower case when building default file names",
     "Affects document sending profiles for both disk and zip file storage",

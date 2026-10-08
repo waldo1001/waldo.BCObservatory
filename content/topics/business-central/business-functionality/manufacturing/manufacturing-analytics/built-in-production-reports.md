@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.323Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -174,9 +174,9 @@ links:
     - topic/business-central/business-functionality/manufacturing/manufacturing-analytics
   localizations: []
   videos:
+    - video/6NuJOL8DEqA
     - video/9X-IWRkI2GM
     - video/JT4ownMbotw
-    - video/VoiUhPb6HQ0
   posts: []
   guidelines: []
   changes:
@@ -271,9 +271,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9079 Bug 631472: Cost Shares Breakdown (WIP) does not filter by Item](../../../../../changes/bcapps/9079.md) (code change): "Cost Shares Breakdown report now correctly filters capacity ledger entries by the selected item"
 - [#9580 636017 Move Manufacturing report action tooltips to report objects](../../../../../changes/bcapps/9580.md) (code change): "Manufacturing report action tooltips are moved from page actions to report objects"
+- [What's New: Manufacturing Analytics (Updated Power BI App) Electronic Documents(2025 release wave 1)](../../../../../videos/6NuJOL8DEqA.md) (video): "Work Center Load Report; Expected Capacity Need Report; Finished Production Order Breakdown Report"
 - [What's New: Manufacturing Analytics (New and Updated Reports) (2025 release wave 1)](../../../../../videos/9X-IWRkI2GM.md) (video): "Production Order VIP Report; Production Cost Shares Report; Work/Machine Center Load Report"
 - [What's New: Manufacturing Analytics (2025 release wave 2)](../../../../../videos/JT4ownMbotw.md) (video): "Manufacturing reports with modernized layouts; Manufacturing analytics landing page"
-- [Manufacturing version 27: use Gitlens & Github BC code history to detect the code differences](../../../../../videos/VoiUhPb6HQ0.md) (video): "Manufacturing reporting changes in BC 2025 Wave 2; Production Order Work in Progress report"
 
 ## Business Central pages and reports
 

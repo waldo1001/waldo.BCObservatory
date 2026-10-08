@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11280",
+  "input_hash": "3ec0d7404994f69e7c763ef1727b65a5096d3a0133c03d335f89151d847f9674",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:49.872Z",
+  "issues": [
+    "The page matches the description: the obsolete guard is removed, the earlier changes are kept, the new test scenarios are listed, and there is no 28.x backport."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020698,
+    "changes_in_call": 6
+  }
+}

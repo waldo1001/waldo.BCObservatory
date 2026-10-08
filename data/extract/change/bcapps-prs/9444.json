@@ -8,11 +8,10 @@
   ],
   "summary": "Three new IsHandled integration events are added to the Purchase Line table, enabling extensions to intervene in item translation, location-based price calculation, and WMS location checks.",
   "key_points": [
-    "OnCopyFromItemOnBeforeGetItemTranslation event lets subscribers skip standard item translation",
-    "OnValidateLocationCodeOnBeforePlanPriceCalcByField event allows conditional price planning replacement",
-    "OnBeforeCheckWMS event enables bypassing standard WMS location validation",
-    "Events pass relevant record context (Rec, xRec, CurrFieldNo) for conditional logic",
-    "Changes applied consistently across all localization layers (W1, APAC, BE, CH, DACH, ES, FI, GB, IT, NA, NL, NO, RU, SE)"
+    "OnCopyFromItemOnBeforeGetItemTranslation lets subscribers skip the standard item translation call in CopyFromItem",
+    "OnValidateLocationCodeOnBeforePlanPriceCalcByField passes Rec, xRec and CurrFieldNo so subscribers can replace price planning on Location Code validation",
+    "OnBeforeCheckWMS lets subscribers bypass the standard WMS location check",
+    "Changes applied in W1 and propagated to the Purchase Line table in all other BaseApp layers"
   ],
   "change_kind": "feature",
   "behavior_change": false,

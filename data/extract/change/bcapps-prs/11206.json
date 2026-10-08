@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "When posting transactions with foreign currency, VAT G/L entries now correctly store the VAT amount in Source Currency Amount instead of the VAT base amount.",
+  "summary": "In the Swiss (CH) localization, VAT G/L entries posted in a foreign currency now store the VAT amount in Source Currency Amount instead of the VAT base amount. Gen. Jnl.-Post Line no longer recalculates source currency amounts when it initializes a system-generated G/L entry.",
   "key_points": [
     "VAT G/L entries during foreign currency posting now use correct source currency amounts",
     "Fixes incorrect storage of VAT base amount instead of VAT amount in Source Currency Amount field",

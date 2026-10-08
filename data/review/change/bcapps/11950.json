@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11950",
+  "input_hash": "cdaa6bafd687fdc7af64b6378cdd7c72db1f5f7bd57cf6db143ac001162dea1f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:33.442Z",
+  "issues": [
+    "The summary does not say this is a backport to releases/29.x.",
+    "The description says the tool proactively sends admins steps for remediation; the summary does not mention this.",
+    "Admin-controlled scheduling is not stated anywhere in the PR."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017372,
+    "changes_in_call": 6
+  }
+}

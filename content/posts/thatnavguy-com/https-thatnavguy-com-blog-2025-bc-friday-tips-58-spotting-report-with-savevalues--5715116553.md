@@ -13,12 +13,12 @@ tags:
   - best practices
 system: reporting
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:58:01.330Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -67,8 +67,7 @@ quotes:
     why_it_matters: Explains the core benefit of the SaveValues feature for improving user efficiency
   - text: If it shows Preview, SaveValues is on. If it shows Preview & Close, SaveValues is off.
     why_it_matters: Provides the key diagnostic method for quickly determining SaveValues status on any report
-code_objects_mentioned:
-  - report not specified
+code_objects_mentioned: []
 systems:
   - reporting
 versions_mentioned: []
@@ -86,7 +85,7 @@ preview:
 
 # BC Friday Tips #58 Spotting Report with SaveValues
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-28 · 132 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-58-spotting-report-with-savevalues/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-11-28 · 132 words · tier community · reviewed (checked by Opus)
 
 > The SaveValues property in Business Central reports remembers user-selected options on the request page. A quick way to check if SaveValues is enabled is examining the Preview button behavior: if it shows only 'Preview', SaveValues is on and keeps the request page open for adjustments; if it shows 'Preview & Close', SaveValues is off and closes the page after each run.
 
@@ -102,14 +101,6 @@ preview:
 
 - "SaveValues helps your reports remember the last options the user picked." (Explains the core benefit of the SaveValues feature for improving user efficiency)
 - "If it shows Preview, SaveValues is on. If it shows Preview & Close, SaveValues is off." (Provides the key diagnostic method for quickly determining SaveValues status on any report)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- report "not specified"
-
-Not found in BC28-30: report "not specified".
 
 ## Context
 

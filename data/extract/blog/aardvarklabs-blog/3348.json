@@ -7,11 +7,11 @@
   "words": 1856,
   "summary": "This post demonstrates how to secure AI agents in Business Central by implementing restrictive profiles, page customizations, and permission sets. It shows the security risks of overly permissive agent configurations and provides step-by-step AL code examples to limit what agents can see and do.",
   "key_points": [
-    "Agents should be treated like users and restricted with profiles and permissions following least-privilege principles",
-    "Profile restrictions prevent agents from seeing restricted pages; permission restrictions prevent data modifications",
-    "Page customizations combined with custom role centers limit the UI elements and pages available to agents",
-    "Permission sets should grant only read access to data tables and execute access to necessary pages and codeunits",
-    "Testing is essential to verify agents cannot be tricked into accessing out-of-scope data or modifying protected records"
+    "Agents navigate pages like users do, so they should be restricted with profiles and permissions and trusted as little as possible",
+    "The first version gave the agent the Business Manager profile plus several broad D365 permission sets, far more access than its task needed",
+    "Page customizations that clear the layout and actions, a custom role center, and a profile limit which pages and fields the agent can see",
+    "A custom permission set gives read-only access to Customer, Vendor and Employee Ledger Entry data and execute rights on the needed objects, and the setup codeunit now assigns this permission set and profile",
+    "Agents still need testing to check they cannot be tricked into reading out-of-scope data or changing records"
   ],
   "systems": [
     "copilot",

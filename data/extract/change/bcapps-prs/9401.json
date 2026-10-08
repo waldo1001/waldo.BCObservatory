@@ -8,10 +8,10 @@
   ],
   "summary": "The Incoming Documents page now defaults to showing only unprocessed records when opened without a filter, while preserving explicit filter choices. This restores the expected behavior after a regression.",
   "key_points": [
-    "Default view shows unprocessed documents (Processed = false) when page opens without a filter",
-    "Explicitly applied filters (both true and false) are now preserved instead of being cleared",
-    "Regression tests added to verify all three filter scenarios work correctly",
-    "No impact on data, permissions, or upgrade process"
+    "Opening the page without a filter again defaults to unprocessed documents (Processed = false)",
+    "An explicit Processed = true filter is no longer cleared, and explicit true or false filters are kept",
+    "Regression tests cover the unfiltered, true and false filter scenarios",
+    "Show All and Show Unprocessed actions keep their existing behavior"
   ],
   "change_kind": "fix",
   "behavior_change": true,

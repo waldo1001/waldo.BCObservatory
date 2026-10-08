@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9225",
+  "input_hash": "dd5d5eb54eedfa624351e34c2499eaed31811d9926f69706476022da9cfcdd9d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:06.605Z",
+  "issues": [
+    "behavior_change should be true: Usage Based Pricing values above Unit Cost Surcharge are now included rather than excluded."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025292,
+    "changes_in_call": 6
+  }
+}

@@ -5,13 +5,8 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-05-18T22:06:00.000Z",
   "words": 885,
-  "summary": "VS Code agents can use a built-in memory system with three scope levels (user, repository, and session) to store preferences and context that persist across conversations. This feature helps agents remember user preferences, project conventions, and temporary task context automatically in future sessions.",
-  "key_points": [
-    "Memory has three scopes: User (persistent across all workspaces, first 200 lines auto-loaded), Repository (scoped to workspace, persists between conversations), and Session (temporary, cleared when chat closes)",
-    "Users tell the agent in natural language what to remember, and it automatically chooses the appropriate scope and creates files to apply in future sessions",
-    "Memory is stored locally on the machine and managed through two chat commands",
-    "The feature must be enabled via 'github.copilot.chat.tools.memory.enabled: true' configuration"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "development",
     "copilot"

@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed a bug where the Description field on sales lines would revert to its original item value after editing, when Calc. Inv. Discount was enabled and Quantity had been validated.",
   "key_points": [
-    "Description field was being overwritten by a database reload after Quantity validation",
-    "The NeedRefreshSalesLine flag was incorrectly set to false after an early-exit, preventing proper cleanup",
-    "Moved the flag reset before the early-exit to ensure RefreshSalesLine doesn't reload uncommitted edits",
-    "Bug occurred in CalculateSalesSubPageTotals when totals were already up-to-date",
-    "Added test coverage to document the fix"
+    "Editing Description after validating Quantity reverted it when Calc. Inv. Discount was enabled",
+    "In CalculateSalesSubPageTotals the NeedRefreshSalesLine reset sat after the TotalsUpToDate early exit, so the flag stayed true",
+    "The reset now runs before the early exit, so RefreshSalesLine no longer reloads the line and drops the edit",
+    "Applied to the W1, BE and NA Document Totals codeunits",
+    "Test added in the Document Totals pages test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

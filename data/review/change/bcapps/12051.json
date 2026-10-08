@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12051",
+  "input_hash": "728b6aead2956795a9e8533eeb182373ee0c4ed2c775cbb540eeec13e100ae12",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.402Z",
+  "issues": [
+    "All points are supported by the description: line count, Note order, vendor invoice reference with fallback, InvoicingPartyReference removed, new test."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019837,
+    "changes_in_call": 6
+  }
+}

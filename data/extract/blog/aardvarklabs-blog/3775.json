@@ -5,7 +5,7 @@
   "source": "aardvarklabs-blog",
   "published_at": "2026-07-24T12:00:00.000Z",
   "words": 886,
-  "summary": "This guide explains how to connect Claude AI desktop to a Business Central MCP server using a locally hosted Python proxy, eliminating authentication complexity. It covers setting up Azure AD app registration, configuring Business Central, installing the proxy tool, and updating Claude's configuration file.",
+  "summary": "Step-by-step guide to connecting Claude Desktop to a Business Central MCP server through a locally hosted Python proxy (bc-mcp-proxy), which reduces authentication and configuration complexity. It covers the Entra ID app registration with redirect URIs and API permissions, registering the app in Business Central, running the proxy setup, and adding the generated config to claude_desktop_config.json.",
   "key_points": [
     "Use a local Python proxy to simplify Claude-to-MCP authentication and configuration",
     "Create an Azure AD app registration with specific redirect URIs and API permissions",

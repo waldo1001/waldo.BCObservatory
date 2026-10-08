@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9439",
+  "input_hash": "bcda335191ceff459decf6e1c7da7b368fe90899b188cc1d4a9bcfbf047552f7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:27.500Z",
+  "issues": [
+    "behavior_change should be false: the event only adds a hook, and the confirmation stays the same unless a subscriber changes it.",
+    "Summary, key points and change_kind are supported by the description."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02234,
+    "changes_in_call": 6
+  }
+}

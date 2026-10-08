@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11154",
+  "input_hash": "a018f848ebb52718a1e226442760823249f552b2ff40eded2a7dcca311063c26",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:51.095Z",
+  "issues": [
+    "Accurate. One small point: AL0254 shows up as an error here, not a warning, but the pragma does suppress the diagnostic."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01503,
+    "changes_in_call": 6
+  }
+}

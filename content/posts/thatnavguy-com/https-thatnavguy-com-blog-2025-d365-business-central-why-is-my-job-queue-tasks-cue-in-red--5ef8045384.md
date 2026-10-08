@@ -12,12 +12,12 @@ tags:
   - configuration
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:01:03.638Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -96,7 +96,7 @@ preview:
 
 # D365 Business Central: Why is my Job Queue Tasks Cue in Red?
 
-[Read the post](https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-05 · 131 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/d365-business-central-why-is-my-job-queue-tasks-cue-in-red/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-05 · 131 words · tier community · reviewed (checked by Opus)
 
 > The Job Queue Tasks cue turns red in Business Central when more than four tasks are queued or processing. You can adjust this threshold through the Cue Setup page or directly in the Cue Setup table using a configuration package.
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11701",
+  "input_hash": "b79e8ef9066844c6fa8455c8ce301a4de15b6cc0ba04ca112a14dc5ae71c79f8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:09.836Z",
+  "issues": [
+    "change_kind 'feature' is wrong: the change removes an option that cannot yet be used. It is not new functionality, so 'fix' fits better.",
+    "The description says four deletions, but the file list shows +1 -0. This does not affect the page content.",
+    "Summary and key points are supported."
+  ],
+  "applied": [
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01648,
+    "changes_in_call": 6
+  }
+}

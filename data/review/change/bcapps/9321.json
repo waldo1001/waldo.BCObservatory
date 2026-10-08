@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9321",
+  "input_hash": "cc54ba03ffaa9638a954c59922f3447a6beb9eada2352efd7dc2f43b98a362b1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "Key point 2 is garbled. The connector uses API version 2026-07, and Shopify has exposed UNLISTED since version 2025-10.",
+    "The export direction (enum name uppercased back to UNLISTED) was left out of the key points."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

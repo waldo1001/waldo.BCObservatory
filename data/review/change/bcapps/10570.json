@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10570",
+  "input_hash": "c9eb1e98964d768ec6a3d38ca7b3d0d3a677e7262adf3bec8f67e4387e8d769a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:25.129Z",
+  "issues": [
+    "Key point 5 merges two separate items. In the description, bounding historical comments with an ellipsis and keeping the Expense Report page extension point are unrelated. Split them.",
+    "The API exposes both latest comments, not only the submitter comment."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014664,
+    "changes_in_call": 6
+  }
+}

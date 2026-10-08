@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10211",
+  "input_hash": "8893d4ccc3fedce513f49a83673aa714c1aaf72b53584fe64d7f291a62de3fa1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:08.956Z",
+  "issues": [
+    "Summary leaves out the missing tooltips that the title mentions.",
+    "Key point calling tooltips documentation strings is inaccurate; they are UI tooltip texts."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013321,
+    "changes_in_call": 6
+  }
+}

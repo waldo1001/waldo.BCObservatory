@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/demiliani-com/12422",
+  "input_hash": "ba81720ab5893fe5a66f0ddb7eb9d7459cd8e72d9c097ad28c9a38defbd2adf9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:37.734Z",
+  "issues": [
+    "The summary leaves out that the runtime package limitation only applies to on-premises, and it does not mention the workaround.",
+    "The feature 'AL code compilation' is not something the post discusses, so it is dropped.",
+    "NavApp.GetResource is a method rather than an AL object, but the post does name it, so it stays.",
+    "The quote matches the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024211,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11063",
+  "input_hash": "7deb7dc8ab0139793f75eb5b9f36fbdec8f5313ba6ba992bac3c4af582f7694f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:15.279Z",
+  "issues": [
+    "Key point claims regression tests were added, but the only changed file is the retrieval codeunit (+0 -12) and the tests checkbox is unchecked."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023088,
+    "changes_in_call": 6
+  }
+}

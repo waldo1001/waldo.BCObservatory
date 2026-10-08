@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8875",
+  "input_hash": "756aa70a8a3b9d2771524bcf07a751a8b623fc6cdb7837a3e18383bb5a156c70",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:37.791Z",
+  "issues": [
+    "Summary and key points match the description of the added Commit() before RunModal in SelectContactAndUpdateEmail."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025175,
+    "changes_in_call": 6
+  }
+}

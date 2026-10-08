@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12460",
+  "input_hash": "4247f8958de2e91a07c756e94fd4f77ec38dea78f6ed067057fd5d1ef01fd9fa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:56.091Z",
+  "issues": [
+    "Summary says the updates come out regularly and that old versions stop after leaving support; the post states neither of these.",
+    "Key points, systems, features and quotes are supported by the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025286,
+    "posts_in_call": 4
+  }
+}

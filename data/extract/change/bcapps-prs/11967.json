@@ -8,11 +8,11 @@
   ],
   "summary": "Edit in Excel now blocks page-based editing for tables that are the User table to prevent authentication corruption when users are edited via Excel and published back. A new check in the Edit in Excel implementation logs telemetry and raises an error before workbook generation.",
   "key_points": [
-    "Adds CheckPageIsSupported validation in codeunit 1482 to block User table pages",
-    "Check runs at all entry points before workbook creation and web service setup",
-    "Uses source table identification to cover all User-based pages including renamed or localized ones",
-    "Logs telemetry event 0000U9E when block occurs",
-    "New tests verify the blocking behavior for pages with User as source table"
+    "Adds CheckPageIsSupported to codeunit 1482 (Edit in Excel Impl.), which blocks pages whose source table is User",
+    "The check runs in all three entry points, and in EditPageInExcel it runs before the web service is created and before OnEditInExcelWithFilters is raised",
+    "The check uses the source table, so it covers every page over User and renamed or localized *_Excel web services can't bypass it",
+    "When the check blocks a page, it logs telemetry 0000U9E and shows an error",
+    "This is a mitigation only: workbooks already downloaded and existing Users_Excel web services can still publish changes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

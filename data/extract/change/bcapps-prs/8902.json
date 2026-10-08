@@ -8,10 +8,10 @@
   ],
   "summary": "Fixed a false warning when creating subcontracting purchase orders from routing lines on production orders with multiple lines sharing the same routing link code by scoping the component location check to the current line.",
   "key_points": [
-    "The warning about component locations appeared incorrectly when processing multiple routing lines with the same routing link code",
-    "Root cause was that the component filter checked the production order and routing link code but not the specific production order line number",
-    "Added line number filter to scope the check to only the current production order line being processed",
-    "Test case added to verify the fix handles phantom components from earlier lines correctly"
+    "A false warning about component location appeared when a production order had several lines sharing the same routing link code",
+    "Root cause: the component check filtered by production order and routing link code but not by production order line number",
+    "Adds a Prod. Order Line No. filter so only the current line's components are checked",
+    "Adds a test where another line's component is already at the subcontracting location"
   ],
   "change_kind": "fix",
   "behavior_change": true,

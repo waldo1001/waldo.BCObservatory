@@ -8,11 +8,11 @@
   ],
   "summary": "Support for snapshotting and migrating historical Dynamics SL project transactions is added to the SL historical data app, including new tables, viewing pages, and configuration options.",
   "key_points": [
-    "New tables store migrated SL project transaction data (PJTran, PJTranEx, PJProj, PJEmploy) in both source and historical formats",
-    "Pages added for viewing batch entries and project transaction details with project card and list extensions",
-    "Configuration field and migration logic introduced but not yet connected to wizard pages or orchestration",
-    "Permission sets updated to allow access to the new objects across all SL migration role sets",
-    "Backports functionality from NAV PR with follow-up wiring deferred"
+    "New HybridSL source tables for PJTran and PJTranEx, plus historical tables for PJTran, PJTranEx, PJProj and PJEmploy",
+    "New pages for historical batch entries and project transaction entries, reachable from Job List and Job Card extensions",
+    "New Migrate Hist. Project Trans. setting and population logic, but the procedure is not yet called by the orchestrator and the setting is not on the configuration pages",
+    "Hybrid Wizard adds PJTran/PJTranEx replication mappings, and a new migration step type is added with reset cleanup",
+    "PJTran/PJTranEx entries added to 10 permission sets"
   ],
   "change_kind": "feature",
   "behavior_change": true,

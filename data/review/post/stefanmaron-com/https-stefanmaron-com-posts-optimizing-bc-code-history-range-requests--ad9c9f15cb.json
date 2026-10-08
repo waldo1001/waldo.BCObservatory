@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/optimizing-bc-code-history-range-requests/",
+  "input_hash": "1bf0842ebb70fc818142269af4457a1c51922e25d83e0e4802bba4de0e5cd92f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:40.475Z",
+  "issues": [
+    "Key point 2 says the first download is a 64KB header. The post reads the last 64KB of the ZIP, where the central directory sits. Corrected.",
+    "The 18-second versus 1-second figure comes from a single German benchmark, not every country. Reworded.",
+    "The summary, objects, features and quote are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049582,
+    "posts_in_call": 4
+  }
+}

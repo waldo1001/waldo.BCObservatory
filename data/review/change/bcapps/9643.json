@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9643",
+  "input_hash": "970adf8d4ddf0b03f563331c53daec1a7290d3eb8ac1f4a3cde8bff2a6356c44",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:35.407Z",
+  "issues": [
+    "Expanding SII as 'Spanish Intrastat Information System' is not supported by the input.",
+    "The description is empty. Nothing says the attribute was newly added or how subscription behaviour changes; the title only says the subscribers' SkipMissingPermissions was updated."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016784,
+    "changes_in_call": 6
+  }
+}

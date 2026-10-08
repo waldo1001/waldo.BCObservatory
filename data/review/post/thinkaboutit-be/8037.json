@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/thinkaboutit-be/8037",
+  "input_hash": "ed25d4c8795be3592b14c33d35ea62d658c1c40928b28f973bd0fedfa64ba7ae",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:12.685Z",
+  "issues": [
+    "Key point 2 gets the publishing rule backwards. The post says the target environment's runtime must be the same as or later than the extension's runtime, not the other way round.",
+    "Key point 4 says the default comes from VS Code. The post says the compiler defaults to the latest major runtime it supports, and that this changes with VS Code or AL Language extension updates.",
+    "The admin center is mentioned only in passing, so the administration system is weakly supported. Dropped it.",
+    "Both quotes match the post word for word. Versions and the runtime mapping are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033039,
+    "posts_in_call": 4
+  }
+}

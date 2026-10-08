@@ -7,11 +7,11 @@
   "words": 1069,
   "summary": "BC Telemetry Buddy now includes a two-layer knowledge base that shares telemetry troubleshooting patterns and investigation playbooks across the community. The tool stores both shared community knowledge and local customer-specific insights as markdown files, allowing the AI to start problem-solving with context rather than from scratch.",
   "key_points": [
-    "Knowledge base has two layers: community articles that ship with the tool and local articles stored in your workspace",
-    "Users can ask the AI to save new telemetry patterns and solutions back to the knowledge base after investigations",
-    "Community articles can be individually excluded if you disagree with their advice",
-    "Knowledge base works across all AI clients (VS Code, Claude Desktop, Cursor, Copilot Chat) at the server level",
-    "Articles are plain markdown files stored in GitHub, encouraging community contributions of proven KQL patterns and playbooks"
+    "The knowledge base has two layers: community articles shipped with the tool and local articles kept in your own workspace, all plain markdown loaded into cache at startup",
+    "After an investigation you can ask the AI to draft an article; it only saves after you confirm, either locally or to the community via a GitHub issue",
+    "A Manage Knowledge Base command in VS Code lists loaded articles and lets you exclude community articles you disagree with, recorded in the config file",
+    "The knowledge base loads at server level, so it works across AI clients such as Claude Desktop, Cursor and Copilot Chat",
+    "Community articles live in the project GitHub repo, and contributions of proven KQL patterns and playbooks are invited"
   ],
   "systems": [
     "reporting",

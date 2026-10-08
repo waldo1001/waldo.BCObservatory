@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10965",
+  "input_hash": "9788bc100e81a858412e282583b54f1055b5cd3b5769c6f42b193727d0b6c922",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:08.033Z",
+  "issues": [
+    "The key point saying the change is about tests rather than product code is wrong: the Expense VAT Spec. API page itself changed (+2 -12).",
+    "Nothing given supports the claim about validating tax calculations; the description is empty apart from the title."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.012546,
+    "changes_in_call": 6
+  }
+}

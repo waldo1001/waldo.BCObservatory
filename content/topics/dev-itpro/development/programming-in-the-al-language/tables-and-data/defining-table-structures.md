@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,8 +86,8 @@ links:
     - video/TH70oJI4Ae0
   posts:
     - post/aardvarklabs-blog/2827
+    - post/aardvarklabs-blog/3983
     - post/duiliotacconi-com/2201
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4
   guidelines: []
   changes:
@@ -171,8 +171,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../../../../../changes/bcquality/208.md) (code change): "Table relation fields shorter than their target compile cleanly but fail at runtime"
 - [How to Use Concealed Text Fields in Business Central AL](../../../../../posts/aardvarklabs-blog/2827.md) (community post): "Developers set MaskType = Concealed on field definitions in AL code"
-- [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "field count limits, SQL Server 8KB record size constraints, key/index limits"
-- [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "Extension fields now physically reside in the same SQL table as base table fields"
+- [Business Central v29: SQL Table Extensions Redesign Explained](../../../../../posts/aardvarklabs-blog/3983.md) (community post): "storing all custom fields directly in the primary SQL table"
+- [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "Maximum of 1018 regular fields can be defined in a table"
 - [BC Friday Tips #78 InitValue Property](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-78-initvalue-property--a9c6523eb4.md) (community post): "The InitValue property sets a default value for new table fields"
 - [Creating TableExtensions in BC29 like we're back in NAV (But Business Central)](../../../../../videos/PZVTTem-nZw.md) (video): "Table extensions; cross-app keys; Load fields for selective field retrieval"
 - [Business Central 29: How Many Fields Can a Table Really Have?](../../../../../videos/TH70oJI4Ae0.md) (video): "table extensions; field limits; sql server columns; data types"

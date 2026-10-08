@@ -15,8 +15,7 @@
   ],
   "systems": [
     "copilot",
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "copilot optimization",
@@ -27,16 +26,7 @@
     "reasoning tokens",
     "cost efficiency"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "PostSalesLine"
-    },
-    {
-      "type": "codeunit",
-      "name": "InsertCustomer"
-    }
-  ],
+  "objects": [],
   "features": [
     "Agent mode",
     "Ask mode",
@@ -44,8 +34,7 @@
     "Reasoning effort calibration",
     "Output format constraints",
     "Conciseness instructions",
-    "Prompt engineering for cost reduction",
-    "Context management"
+    "Prompt engineering for cost reduction"
   ],
   "versions": [],
   "language": "en",

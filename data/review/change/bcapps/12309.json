@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12309",
+  "input_hash": "ac2156e2556742d738d2eae015a6960d20f8826099b9a9716ec0d883c29e674d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:01:54.887Z",
+  "issues": [
+    "Everything on the page is supported by the description: the recursion is replaced by a bounded loop, the base name is shortened before the suffix is added, and the 30-character tests are described accurately."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017484,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/duiliotacconi-com/2074",
+  "input_hash": "489f32ab173aa3eaa4978e03546abc2668eec05f32ea57c05aed675fd7f21517",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:07.850Z",
+  "issues": [
+    "The summary said multitenant only; the post says the problem applies to any setup with several service tiers sharing a database, legacy or multitenant, and to BC Online.",
+    "The reporting system is not supported; the post is about telemetry troubleshooting and AL code, not reporting.",
+    "Key points, objects (codeunit 54001, query 54010), features and versions match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037153,
+    "posts_in_call": 4
+  }
+}

@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "A knowledge article documents that ChangeCompany does not move trigger execution context to the target company; triggers and trigger-event subscribers still run in the calling company. StartSession is recommended for cross-company operations that require proper trigger handling.",
   "key_points": [
-    "ChangeCompany redirects only data access, not trigger execution context",
-    "Triggers, field validation, and database trigger-event subscribers run in the calling company regardless of ChangeCompany",
-    "Setting RunTrigger to false skips trigger code but not trigger events that subscribers receive",
-    "StartSession with company parameter is the recommended approach for cross-company writes requiring proper trigger execution",
-    "Best practice is to keep direct cross-company writes only for trigger-free hand-off tables"
+    "ChangeCompany redirects only the data access of a record variable",
+    "Triggers, field validation and database trigger-event subscribers keep running in the calling company",
+    "Passing RunTrigger false skips trigger code, but subscribers still receive the trigger events",
+    "The recommended approach is StartSession with the company parameter, so the code runs in the target company",
+    "Direct cross-company writes should be limited to trigger-free hand-off tables owned by the extension"
   ],
   "change_kind": "feature",
   "behavior_change": false,

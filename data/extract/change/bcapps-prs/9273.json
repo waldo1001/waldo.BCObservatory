@@ -8,11 +8,10 @@
   ],
   "summary": "Contoso Coffee Manufacturing demo data calendar now covers the next calendar year, preventing backward scheduling from silently clamping production order dates to the current year end.",
   "key_points": [
-    "Expanded Calc. Machine Center Calendar and Calculate Work Center Calendar to generate entries for CurrentYear-1 through CurrentYear+1 instead of ending at CurrentYear",
-    "Fixes silent failure where released production orders with next-year due dates would schedule backwards to 12/31/CurrentYear due to missing calendar entries",
-    "Changed base year in AdjustDate calls from 1903 to 1904 to extend the calendar window by one year",
-    "Demo data only change with minimal risk, adds one extra year of calendar entries per work/machine center",
-    "Validation includes regenerating Contoso data and testing backward scheduling for next-year due dates"
+    "Calc. Machine Center Calendar and Calculate Work Center Calendar now generate entries for CurrentYear-1 through CurrentYear+1",
+    "Fixes backward scheduling silently clamping next-year due dates to 12/31 of the current year",
+    "End date in the AdjustDate calls moved from 19031231D to 19041231D; start date unchanged",
+    "Demo data only; adds one extra year of calendar entries per work and machine center"
   ],
   "change_kind": "fix",
   "behavior_change": true,

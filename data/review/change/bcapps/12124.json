@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12124",
+  "input_hash": "b3b1ecd50104014f39209abaefefd2d1a5df0f540ee2612ccec03ec864278648",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:21.329Z",
+  "issues": [
+    "Accurate: drop-shipment flag set before item/variant validation, default bin skipped for drop shipments, four regression tests. IT layer copy of the table also changed but omission is minor."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021568,
+    "changes_in_call": 6
+  }
+}

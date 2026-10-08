@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10753",
+  "input_hash": "ddb399455064259b71cf1c18b4ad199ec0d013201eaad3a391a1de3508aa8c08",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:33.072Z",
+  "issues": [
+    "Consistent with the description; feature is gated behind Source Environment Name so not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021616,
+    "changes_in_call": 6
+  }
+}

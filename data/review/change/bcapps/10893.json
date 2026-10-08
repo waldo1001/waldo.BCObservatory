@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10893",
+  "input_hash": "042125bf75acab32d4fc45e730c9528b2d8c8fa0cc31bffe80a69bf25e604e68",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:45.030Z",
+  "issues": [
+    "The summary and key points match the codeunit and the CurrencyData.TXT changes in the Contoso demo data on the 29.x branch."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015865,
+    "changes_in_call": 6
+  }
+}

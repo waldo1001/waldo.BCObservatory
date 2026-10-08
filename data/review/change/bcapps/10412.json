@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10412",
+  "input_hash": "35555122f328927665598da5cebc42300ac60225dd557f3ea5e9be5d30cfa748",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:44.267Z",
+  "issues": [
+    "All points are supported: new 0D bucket, index-based ending period lookup, due date filter removed, full-history balance filter, new tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01705,
+    "changes_in_call": 6
+  }
+}

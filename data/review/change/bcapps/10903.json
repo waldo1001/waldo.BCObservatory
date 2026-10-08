@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10903",
+  "input_hash": "dee21dfdcdca6bcbc84d008c8a679fec8a8bd6e6877dc87fe2481108e24b20b2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:37.215Z",
+  "issues": [
+    "behavior_change was true, but the PR only adds an integration event and standard weight recalculation stays the same unless someone subscribes. Set to false."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019062,
+    "changes_in_call": 6
+  }
+}

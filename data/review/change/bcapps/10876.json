@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10876",
+  "input_hash": "6f32771ef3021fd50cee6b39bb21f86dc5ba5fada1220158989ba7c935d3f8aa",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:25.129Z",
+  "issues": [
+    "The summary and key points match the description and the files.",
+    "The systems tags (purchasing, integration) look like a poor fit for Intrastat, but this field cannot be edited."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014664,
+    "changes_in_call": 6
+  }
+}

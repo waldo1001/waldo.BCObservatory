@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11055",
+  "input_hash": "f6a6bdb82ace3ec33a909eae655608f587f27523446ce8a49badc2a0f3c1f97c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:47.743Z",
+  "issues": [
+    "Summary and key points match the description: existing duplicate-transaction option resurfaced on the bank rec and payment reconciliation journal pages, and captions refined.",
+    "Saying it resolves the German customer issue is a light inference from the DE customer CAMT scenario, but acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019046,
+    "changes_in_call": 6
+  }
+}

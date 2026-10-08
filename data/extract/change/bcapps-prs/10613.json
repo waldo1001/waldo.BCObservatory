@@ -7,13 +7,13 @@
     "sustainability",
     "fixed-assets"
   ],
-  "summary": "Sustainability ledger entries are now reversed when their related general ledger or fixed asset transactions are reversed, with the sustainability ledger entries linked by transaction number and the fixed asset's CO2e totals automatically negated.",
+  "summary": "Reversing a G/L transaction now also reverses the sustainability ledger entries linked to it by transaction number, skipping entries already reversed. The reversing FA ledger entry gets a negated Total CO2e, so the fixed asset's Acquisition Total CO2e nets to zero.",
   "key_points": [
-    "Sustainability ledger entries are matched to GL transactions via transaction number",
-    "Reversing a GL or FA transaction now reverses linked sustainability entries",
-    "Already-reversed entries are skipped to prevent double reversal",
-    "Fixed asset acquisition CO2e totals are negated during reversal",
-    "New GL posting event passes transaction number for reversal tracking"
+    "Sustainability ledger entries are stamped with the G/L Transaction No. during General Journal and FA G/L Journal posting",
+    "Reverse Transaction on a G/L transaction reverses the linked sustainability entries through Sust. Entry Reverse Mgt.",
+    "Sustainability entries that were already reversed are skipped",
+    "The reversing FA ledger entry's Total CO2e is negated, so Acquisition Total CO2e nets to zero",
+    "OnCodeOnAfterStartOrContinuePosting now passes NextTransactionNo, and a new event OnInsertReverseEntryOnBeforeInsertFALedgEntry was added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

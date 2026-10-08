@@ -6,13 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Requisition Line table now validates the Order Date correctly to prevent it from being set to dates earlier than the work date, ensuring accurate price calculations in the requisition planning process.",
+  "summary": "When other fields on a Requisition Line are validated, Order Date is no longer set to a date before the work date, so prices are calculated correctly. Starting Date is now only updated through validation, so validating Order Date from code no longer sets it directly.",
   "key_points": [
-    "Order Date validation prevents dates older than work date in Requisition Line",
-    "Starting Date is updated only when it passes validation",
-    "Fixes price calculation issues in Calculate Plan workflow",
-    "Related Starting Date-Time field remains synchronized only when proper validation occurs",
-    "Unit tests added and existing tests updated to reflect corrected behavior"
+    "Validating other Requisition Line fields no longer sets Order Date earlier than the work date",
+    "Fixes outdated prices calculated in the requisition worksheet",
+    "Starting Date is only set through validation, keeping Starting Date-Time in sync",
+    "New test in SCMPlanReqWksht and existing tests adjusted that relied on past order dates"
   ],
   "change_kind": "fix",
   "behavior_change": true,

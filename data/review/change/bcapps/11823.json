@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11823",
+  "input_hash": "0491b0cb772c63baa9abcbcb224722b6eefb57192fbf4769fc7ba3efb1e09955",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:34.413Z",
+  "issues": [
+    "The page follows the bug title. The fix is a one-line codeunit change plus a test, and the page claims nothing beyond that."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015429,
+    "changes_in_call": 6
+  }
+}

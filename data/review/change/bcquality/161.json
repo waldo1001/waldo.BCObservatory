@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/161",
+  "input_hash": "5b2240de1c03baeeae0370c2adba5f84f2f25f0229815925fe08c040001eebe9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:52.830Z",
+  "issues": [
+    "Key point claiming modal pages hold locks is wrong; the PR says modal pages are refused with a runtime error, while Confirm/StrMenu are the prompts that silently hold locks."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028794,
+    "changes_in_call": 6
+  }
+}

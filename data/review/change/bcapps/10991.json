@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10991",
+  "input_hash": "29241aa2549dec3e60dcbd2de7affcafe33298f2253a869b72352da749f4127e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.491Z",
+  "issues": [
+    "Key point 5 claims a test was added, but the only changed files are the two User Management codeunits, so this PR has no test file."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013535,
+    "changes_in_call": 6
+  }
+}

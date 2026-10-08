@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/95",
+  "input_hash": "e8716c9ccf0e5f7ed223b2c15b94c572fa337b035a733da50c71503b87750684",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:04.242Z",
+  "issues": [
+    "The summary and key points match the description: info severity for rules the analyzers already enforce, and correctness defects kept out of the style scope.",
+    "The flags are reasonable. The reviewer's output changes, but no contract or engine changes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02634,
+    "changes_in_call": 6
+  }
+}

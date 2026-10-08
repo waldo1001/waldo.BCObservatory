@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10126",
+  "input_hash": "39a83c235d4dc2883e27d527ba79cfda4ed1aaaa06e98b6c83b65894e7c84e47",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:03.746Z",
+  "issues": [
+    "Default behavior is unchanged. The PR only appends an optional event parameter for subscribers, so behavior_change should be false.",
+    "The point about automated scenarios is not stated in the PR. It was replaced."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01612,
+    "changes_in_call": 6
+  }
+}

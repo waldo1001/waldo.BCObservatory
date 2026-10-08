@@ -4,13 +4,13 @@
   "title": "Add BC performance knowledge from OptimAL learnings",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Added six new performance guidance articles with code examples and refined existing guidance on indexing, buffered inserts, aggregate processing, and FlowField caching based on the OptimAL Performance Initiative.",
+  "summary": "Adds six performance knowledge articles with paired good and bad AL examples on workload-based and overlapping indexes, buffered inserts, aggregate-before-write, scoped reuse and repeated validation. Refines existing guidance on partial loads, temporary buffers, bulk updates, existence checks, primary-key caching and FlowField versus stored totals.",
   "key_points": [
-    "Six new knowledge articles covering workload-based indexes, overlapping indexes, buffered inserts, aggregate-before-write processing, scoped result caching, and repeated validation avoidance",
-    "Each new article includes paired good and bad AL code examples demonstrating best practices",
-    "Refinements to existing performance guidance on partial loads, temporary buffers, bulk updates, existence checks, primary-key caching, and SIFT-specific SetCurrentKey behavior",
-    "Performance-review skill extended to evaluate against the new rules",
-    "All examples are generalized from OptimAL learnings without partner or customer-specific information"
+    "Six new articles on workload-based keys, overlapping indexes, buffered inserts, aggregate-before-write, scoped result reuse and repeated validation",
+    "Each new article has paired good and bad AL examples",
+    "Existing guidance refined for partial loads, temporary buffers, bulk updates, existence checks, primary-key caching and FlowField versus stored-field totals",
+    "SIFT-specific SetCurrentKey case clarified",
+    "Performance-review retrieval and evaluation fixtures extended for the new rules"
   ],
   "change_kind": "feature",
   "behavior_change": false,

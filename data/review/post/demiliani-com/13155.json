@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13155",
+  "input_hash": "a1fd45c5d881413381f07df38545dc1a086080e65099f90cac18fddb5d7d2ea4",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:57:37.697Z",
+  "issues": [
+    "Post is only about storage account setup for Azure Functions and never mentions Business Central",
+    "The integration system tag has no support in the post"
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040452,
+    "posts_in_call": 4
+  }
+}

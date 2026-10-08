@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/12412",
+  "input_hash": "d988906d65f47780e477dbd6e52675f37f152804cf59444d0719d82383d0cc1c",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:59:53.392Z",
+  "issues": [
+    "The post covers VS Code autodiscovery of MCP servers and never mentions Business Central or AL, so it is not about Business Central.",
+    "Smaller problems: a key point turns Microsoft considering a change into a firm plan, and the copilot system has no support in the post."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034727,
+    "posts_in_call": 4
+  }
+}

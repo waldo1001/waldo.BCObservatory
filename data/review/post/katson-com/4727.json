@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/katson-com/4727",
+  "input_hash": "3cd93cebb66c2a7dca4814f4529e8690259dd2bb2388fe4adc205ea64e8c0b8a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:12.978Z",
+  "issues": [
+    "Opinion piece about sharing AI and agentic coding knowledge in the BC community; summary, key points and quotes are supported.",
+    "System copilot is not supported: the post is about general AI coding tools and CentralQ, not the BC Copilot feature.",
+    "System platform has no basis in the post.",
+    "Feature cursor integration overstates a passing mention of early agentic tools in Cursor."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.048923,
+    "posts_in_call": 4
+  }
+}

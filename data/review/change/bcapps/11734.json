@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11734",
+  "input_hash": "1e02932fac3301275fd9575c17964e99679c3d6277b234ff7cf19a0e31fd5cb9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:56.926Z",
+  "issues": [
+    "Key point says tenants exceeding the limit receive an audit entry and telemetry for the rest of the day; the description says only the call that hits the limit emits them and blocked lookups are not counted.",
+    "'10x typical usage' is more precisely 10x the 99th-percentile legitimate daily usage."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025367,
+    "changes_in_call": 6
+  }
+}

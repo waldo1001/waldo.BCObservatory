@@ -12,12 +12,12 @@ tags:
   - field behavior
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:19.478Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -46,8 +46,7 @@ evidence:
     quote: The Keep Description field can be used to preserve your text when switching accounts.
 links:
   learn: []
-  objects:
-    - object/table/81
+  objects: []
   features: []
   topics: []
   localizations: []
@@ -67,8 +66,7 @@ quotes:
     why_it_matters: Explains the core problem that the Keep Description field solves
   - text: The Keep Description field can be used to preserve your text when switching accounts.
     why_it_matters: Describes the key capability and its primary use case
-code_objects_mentioned:
-  - table Gen. Journal Line
+code_objects_mentioned: []
 systems:
   - finance
 versions_mentioned: []
@@ -86,7 +84,7 @@ preview:
 
 # BC Friday Tips #38 Keep Description
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-07-11 · 92 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-38-keep-description/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-07-11 · 92 words · tier community · reviewed (checked by Opus)
 
 > The Keep Description field in General Journals prevents the Description from being cleared when users change the Account Type, which is useful for preserving descriptions in imported or auto-generated journals.
 
@@ -101,12 +99,6 @@ preview:
 
 - "When you change the Account Type, BC clears the Description field by default." (Explains the core problem that the Keep Description field solves)
 - "The Keep Description field can be used to preserve your text when switching accounts." (Describes the key capability and its primary use case)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- [table 81 "Gen. Journal Line"](../../objects/table/81.md)
 
 ## Context
 

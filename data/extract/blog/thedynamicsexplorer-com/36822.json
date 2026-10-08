@@ -5,7 +5,7 @@
   "source": "thedynamicsexplorer-com",
   "published_at": "2025-12-22T11:00:00.000Z",
   "words": 1146,
-  "summary": "When migrating from Dynamics GP to Business Central, historical transaction data is preserved in special tables accessible via customer and account factboxes. Sales, receivables, and financial journal transactions are viewable directly in Business Central without switching to the legacy system, making historical reference and customer inquiries easier to handle.",
+  "summary": "After a Dynamics GP to Business Central migration, historical transactions are stored in special tables rather than as ledger entries. Sales and receivables history, including applied payments, is shown through factbox tiles on the Customer List, and vendor history works the same way. Financial journal history is reached from the Chart of Accounts through the GP Detail Snapshot action.",
   "key_points": [
     "Historical transactions migrate into special tables rather than creating new ledger entries, since they represent already-paid transactions",
     "Sales and receivables transactions are accessible via factbox tiles on the Customer List page, showing both order details and applied payments",
@@ -46,7 +46,6 @@
     "GP Receivables Transactions view",
     "GP Detail Snapshot",
     "Historical transaction drill-down",
-    "Payment reconciliation to invoices",
     "Distribution detail viewing"
   ],
   "versions": [],

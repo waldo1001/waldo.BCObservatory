@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/8924",
+  "input_hash": "164318630a33b2bb49d14e4d6c845d0c1ea56d9b90e5a854a2d48b6f95ea8334",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.150Z",
+  "issues": [
+    "Calling the test comprehensive is not supported; the PR only says a test was added.",
+    "Summary, change kind and flags are supported by the title, labels and changed files."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017502,
+    "changes_in_call": 6
+  }
+}

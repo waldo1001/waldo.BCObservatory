@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/",
+  "input_hash": "6df80f9984b15108f2f8228414fdeeb1a787f74cab1abd2e6611c16bdc064705",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:54:08.766Z",
+  "issues": [
+    "The post is a personal note-taking workflow built on Obsidian, VS Code, iCloud and AI agents. It never mentions Business Central or AL, so it is out of scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028405,
+    "posts_in_call": 4
+  }
+}

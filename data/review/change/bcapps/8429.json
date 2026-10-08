@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/8429",
+  "input_hash": "c47088b8f3c5f3ba68283b7f7870cbf25736f453a811a5e25e5ec7b33e838b75",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.370Z",
+  "issues": [
+    "Summary and key points match the description: PEPPOL payment means code field, fallback to 58, SEPA direct debit data in ZUGFeRD and XRechnung, XSD validator, extensibility events.",
+    "Behavior change true and non-breaking are consistent with the stated fallback for compatibility."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040221,
+    "changes_in_call": 6
+  }
+}

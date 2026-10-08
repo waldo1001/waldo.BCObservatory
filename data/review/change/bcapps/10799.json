@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10799",
+  "input_hash": "551b72b5fa221f3ee0cbdc21d5086babfe09258a38045100a496727adfbe5dcb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:21.329Z",
+  "issues": [
+    "Accurate: only the OnPrem scope attribute removed from SetSwissExport; no logic change, widening access is not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021568,
+    "changes_in_call": 6
+  }
+}

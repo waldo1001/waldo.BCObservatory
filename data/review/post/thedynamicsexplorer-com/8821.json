@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/8821",
+  "input_hash": "372a4e23e729bdf467d65f5e0515cd92e26b5b495ef71236ac527e7a7b0e2292",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:01:26.325Z",
+  "issues": [
+    "Summary, key points, objects, features and quotes all match the post.",
+    "The first method in the summary is slightly compressed: the Chart of Accounts filter is applied before opening the G/L Account Balance page. The key points explain this correctly, so no edit is needed."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03568,
+    "posts_in_call": 4
+  }
+}

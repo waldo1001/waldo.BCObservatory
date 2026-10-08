@@ -13,12 +13,12 @@ tags:
   - communications
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:24.339Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #70 Email Scenario Attachment
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-17 · 85 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-70-email-scenario-attachment/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-04-17 · 85 words · tier community · reviewed (checked by Opus)
 
 > Email scenarios in Business Central can include default attachments that are automatically sent with every email, such as terms and conditions attached to invoice emails. This prevents missed attachments and ensures consistent communication without requiring manual user action each time.
 

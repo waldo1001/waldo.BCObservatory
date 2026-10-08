@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11144",
+  "input_hash": "88b71ccaadf0982fcb0f5cbc34a1c3fa1d7f4c402a13cc27d4552b2bbebcd3ff",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:30.375Z",
+  "issues": [
+    "Key point about maintaining compatibility with existing reporting is not supported by anything given",
+    "Summary is supported by the title; the description only links the work item"
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017318,
+    "changes_in_call": 6
+  }
+}

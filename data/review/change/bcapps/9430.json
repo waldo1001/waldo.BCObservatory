@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9430",
+  "input_hash": "bd5de8d3974604237c4cfc8d7ae04ddb8635367468fa0e9b2e67beef64ec4edb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:39.374Z",
+  "issues": [
+    "A key point overstated the scope as every JSON property read. The description limits the guards to the Get calls in GetInnerObject and GetHeaderFields."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

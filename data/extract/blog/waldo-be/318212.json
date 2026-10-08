@@ -7,11 +7,11 @@
   "words": 962,
   "summary": "Troubleshooting missing indexes in Business Central SaaS environments requires understanding the Missing Indexes page, which reflects SQL DMV data that resets after server restart. Since developers can only add indexes through apps, careful analysis using telemetry to track missing indexes over time helps identify which indexes are truly necessary before implementation.",
   "key_points": [
-    "Indexes can only be added through development via AppSource apps or PTE apps, not through configuration.",
-    "The Missing Indexes page shows SQL DMV data that is lost after database restart or server migration, making it a temporary snapshot.",
-    "Estimated Benefit field calculates usefulness based on seeks, scans, and cost impact to prioritize which indexes to create.",
-    "Tracking missing indexes with telemetry over time across customers and tables provides better analysis than a single snapshot.",
-    "You can remove and modify your own keys without breaking changes, but lack of index usage statistics makes it risky to remove existing indexes."
+    "Indexes can only be added by development, through an AppSource app or a PTE, not through configuration.",
+    "The Missing Indexes page mirrors an in-memory SQL DMV that resets on restart; the author suspects it also resets when the database moves servers, so the snapshot may be very old or very new.",
+    "Estimated Benefit combines seeks, scans, average cost and average impact, and is the field to prioritize.",
+    "Sending daily snapshots of missing indexes to telemetry, as the iFacto Telemetry app does, allows trend analysis across customers, apps and tables.",
+    "AppSourceCop allows removing or changing your own keys, but with no index usage statistics, removing indexes cannot be justified by data."
   ],
   "systems": [
     "platform",

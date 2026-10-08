@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/119",
+  "input_hash": "9bd1fb132f568b38d00085e1f01dd8add6952bdd3ad72abccc71ae0857b925ff",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.474Z",
+  "issues": [
+    "The content matches the two added articles and the example file.",
+    "Minor: knowledge-index.json was only regenerated for validation and not committed, so 'index updated' is loosely worded."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025374,
+    "changes_in_call": 6
+  }
+}

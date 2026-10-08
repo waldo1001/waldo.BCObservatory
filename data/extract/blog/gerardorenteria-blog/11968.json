@@ -7,10 +7,10 @@
   "words": 1105,
   "summary": "The post presents an enhancement to Business Central's standard user task functionality that links tasks directly to specific records like customers or vendors. Instead of standalone tasks, users can now create contextualized tasks from record cards or through a record selector, with a Related Record section for navigation.",
   "key_points": [
-    "User tasks can be linked to specific records (customers, vendors, items, sales orders, or any table) through a new Select Related Record button",
-    "A Related Record FactBox on any card displays only tasks related to that specific record and allows creating new linked tasks automatically",
-    "Tasks created from record cards are automatically contextualized to the current record, and a Go to Related Record button enables quick navigation",
-    "The implementation includes a table extension for contextual fields, a codeunit for linking operations, and page extensions for task cards and record selectors"
+    "A new Select Related Record action on the User Task Card links a task to a record in Customer, Vendor, Item, Sales Order or any other table",
+    "The task card gains a Related Record section, and a Go to Related Record action opens the linked record",
+    "A User Tasks FactBox, added to the Customer Card as an example, lists only that record's tasks and can create new tasks already linked to it",
+    "The solution includes a User Task table extension, a management codeunit, a FactBox, a table selector page, a record selector page and page extensions"
   ],
   "systems": [
     "administration",

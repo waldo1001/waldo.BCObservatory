@@ -6,13 +6,13 @@
   "systems_joined": [
     "warehouse"
   ],
-  "summary": "A data-driven validation check was added to the warehouse activity registration to ensure that lot numbers match the posted item ledger entries when internal put-aways process items from production orders.",
+  "summary": "Registering a warehouse put-away now checks each line that has a Serial No. against the open Item Ledger Entry for that item, variant, location and serial number. If that entry has a Lot No., the line's Lot No. must match it, so a blank or wrong lot can no longer be registered, for example after an internal put-away of produced items.",
   "key_points": [
-    "Warehouse activity registration now validates lot and serial number tracking before registration completes",
-    "The fix compares put-away lines against actual posted Item Ledger Entries instead of relying only on configuration flags",
-    "For put-away lines with serial numbers, the system resolves the corresponding open item ledger entry and verifies lot number consistency",
-    "Prevents lot number mismatches when items move from production orders to inventory via internal put-aways",
-    "Adds enforcement of lot requirements at registration time rather than skipping validation"
+    "New CheckItemTrackingRequiredForPutAway check added to CheckLines in Whse.-Activity-Register",
+    "The check uses the posted Item Ledger Entry instead of item tracking configuration flags",
+    "For put-away lines with a Serial No., the open ledger entry is found by Item, Variant, Location and Serial No.",
+    "If that entry has a Lot No., the put-away line's Lot No. must match it",
+    "Fixes blank lots getting through when a production output is put away with an internal put-away; a test is added"
   ],
   "change_kind": "fix",
   "behavior_change": true,

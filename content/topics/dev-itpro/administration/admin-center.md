@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.343Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -351,7 +351,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9400 Route early preview feedback to the correct OCV area](../../../changes/bcapps/9400.md) (code change): "Early Access Preview feedback now routes to the correct OCV feedback area"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "Application hotfixes respect the 6-hour update window configured in Tenant Admin Center"
-- [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Manage Apps page in the Business Central admin center controls the stack of apps"
+- [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "The Manage Apps page in the Business Central admin center controls the stack"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (community post): "calling the Business Central admin center API from AL"
 - [BC Friday Tips #34 Restore Environment](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08.md) (community post): "Business Central allows administrators to restore an environment from a previous point"
 - [How Do I: Manage and Postpone BC Updates in the Admin Center](../../../posts/thinkaboutit-be/7897.md) (community post): "schedule, delay, and respond to rollout pauses"

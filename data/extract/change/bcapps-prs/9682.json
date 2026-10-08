@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "New OIOUBL e-document format reader for Denmark that parses OIOUBL XML invoices and credit notes into purchase staging tables, enabling structured e-document import using vendor VAT registration, GLN, or PEPPOL identifiers.",
   "key_points": [
-    "OIOUBL format handler codeunit implements IStructuredFormatReader to parse Invoice and CreditNote XML",
-    "Vendor lookup uses VAT registration number, GLN, or PEPPOL participant ID",
-    "Reuses public E-Document PEPPOL Utility helpers instead of private XML parsing",
-    "Includes structured integration tests and OIOUBL invoice/credit note test resources",
-    "Mirrors the same implementation pattern as existing PINT A-NZ handler"
+    "New E-Document OIOUBL Handler codeunit implements IStructuredFormatReader.ReadIntoDraft for OIOUBL Invoice and CreditNote XML",
+    "Vendor lookup by VAT registration number, GLN, or PEPPOL participant ID",
+    "Enum extension registers the handler on E-Doc. Read into Draft",
+    "Uses the public E-Document PEPPOL Utility instead of NAV's EDocument XML Helper",
+    "New OIOUBL test app with structured tests; E-Document Core grants it internalsVisibleTo"
   ],
   "change_kind": "feature",
   "behavior_change": true,

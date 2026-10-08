@@ -6,13 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense Agent setup was expanded with additional locations and per-diem rules in demo and default configuration data. Three new codeunits handle location and rule creation during initialization.",
+  "summary": "Backport to 29.x that adds more expense locations and per-diem rules to the Expense Agent's default and demo data. Three new setup codeunits create the default expense locations, rule headers and rule conditions.",
   "key_points": [
-    "New codeunits for creating expense locations and per-diem rules during setup",
-    "Demo data expanded with more expense locations and rule conditions",
-    "Setup wizard and configuration pages updated to support new configuration options",
-    "Expense rule header and condition tables refined",
-    "Permissions updated for expense management features"
+    "Backport from main to releases/29.x",
+    "New setup codeunits Create Expense Locations, Create Expense Rule Headers and Create Expense Rule Conditions",
+    "Demo data codeunits for locations, rules and categories were reworked to use the new defaults",
+    "Small changes to the Expense Agent Setup page, the setup wizard, the rule tables and permission sets"
   ],
   "change_kind": "feature",
   "behavior_change": true,

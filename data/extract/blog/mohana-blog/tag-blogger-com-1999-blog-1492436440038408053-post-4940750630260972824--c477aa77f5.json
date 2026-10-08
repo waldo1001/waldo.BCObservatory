@@ -5,14 +5,8 @@
   "source": "mohana-blog",
   "published_at": "2026-07-23T07:09:43.000Z",
   "words": 501,
-  "summary": "A SQL Server query shows the estimated completion time for active backup or restore operations by converting the estimated_completion_time value to a readable clock time. This helps database administrators know when long-running operations will finish instead of guessing.",
-  "key_points": [
-    "SQL Server's sys.dm_exec_requests system view contains estimated_completion_time in milliseconds for active backup and restore operations",
-    "The query converts milliseconds to seconds and adds them to the current time using DATEADD to show an actual finish time",
-    "The estimated_completion_time value recalculates continuously as the operation progresses, giving a fresh estimate each query execution",
-    "The percent_complete column shows progress percentage, while estimated_completion_time answers when the operation will finish",
-    "VIEW SERVER STATE permission is required to access the underlying system views"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "administration",
     "platform"

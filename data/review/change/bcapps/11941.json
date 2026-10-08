@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11941",
+  "input_hash": "2f6ac6c46f986f80b432386a8b5fcd17104bbbcf7275cae88bd83293e1a6d7f9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:52.626Z",
+  "issues": [
+    "The page matches the title and the description: fallback to the G/L entry's source type and number for unapplied entries, plus customer and vendor tests. The description speaks of unapplied receivables and payables lines, while the summary follows the title's wording about payment discount lines."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026042,
+    "changes_in_call": 6
+  }
+}

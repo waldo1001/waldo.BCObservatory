@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed source currency amount handling in foreign currency general ledger entries reversal across all localization layers.",
+  "summary": "Fixes how the source currency amount is handled when general ledger entries in a foreign currency are reversed. The fix is a one-line change in the Gen. Jnl.-Post Line codeunit, repeated in 11 localization layers.",
   "key_points": [
     "Corrected source currency amount calculation for FCY GL entries reversal",
     "Applied fix consistently across 11 localization layers (W1, NA, APAC, BE, CH, ES, FI, FR, IT, NO, RU)",

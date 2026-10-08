@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10009",
+  "input_hash": "48832eddc4f3566601772349db9886f90a907d54b22c02b4515e5a17f89d78d7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:51.961Z",
+  "issues": [
+    "Key4 is marked obsolete Pending, so the obsoletion entry is valid.",
+    "The page's flags fit a schema-only performance change: it is not breaking yet, and the Pending state gives notice.",
+    "The summary's 'significant performance drain' is somewhat editorial but backed by the telemetry figures."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02093,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,10 @@
   ],
   "summary": "Added missing indexes to three GP historical snapshot staging tables to improve query performance during data migration.",
   "key_points": [
-    "Added CUSTNMBR, APTODCTY, APTODCNM indexes to GPRM20201 and GPRM30201 tables",
-    "Added IVDOCTYP, DOCNUMBR, LNSEQNBR indexes to GPIVSerialLotNumberHist table",
-    "Indexes improve performance of lookups and joins on these staging tables",
-    "Affects GP historical snapshot data migration tables"
+    "New index on CUSTNMBR, APTODCTY, APTODCNM added to GP RM20201 and GP RM30201",
+    "New index on IVDOCTYP, DOCNUMBR, LNSEQNBR added to GPIVSerialLotNumberHist",
+    "Only key definitions added; no logic changes",
+    "Affects HybridGP historical snapshot staging tables"
   ],
   "change_kind": "performance",
   "behavior_change": false,

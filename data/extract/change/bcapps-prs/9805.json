@@ -8,11 +8,11 @@
   ],
   "summary": "Payables Agent strings are updated to reference the renamed email review option 'Manage per sender' instead of 'Only if untrusted' across tooltips and labels.",
   "key_points": [
-    "Updated Email Folder tooltip in the Known Sender table",
-    "Updated Email review field tooltip in the Payables Agent Setup page",
-    "Updated known-senders review-policy tooltips across page and table",
-    "Updated policy label used in confirmation messages",
-    "Consistent naming for the email review option throughout the Payables Agent"
+    "Email Folder and Email review tooltips on the Payables Agent Setup page now name the 'Manage per sender' option",
+    "Known-senders review-policy tooltips on the page and table updated to the new option name",
+    "Policy label used in messages updated",
+    "Switch-back confirmation prompt updated to the renamed option",
+    "Follow-up to #9693 to remove the remaining references to 'Only if untrusted'"
   ],
   "change_kind": "fix",
   "behavior_change": true,

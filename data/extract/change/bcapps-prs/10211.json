@@ -6,13 +6,12 @@
   "systems_joined": [
     "projects"
   ],
-  "summary": "Field tooltips for Work in Progress fields in the Job table were corrected to fix grammatical issues and update outdated terminology.",
+  "summary": "Tooltips for WIP-related fields in the Job table were fixed: missing tooltips were added, broken grammar was corrected and outdated terminology was updated.",
   "key_points": [
-    "Fixed broken grammar in WIP-related field tooltips",
-    "Updated outdated terminology in tooltip text",
-    "Added missing tooltips for Job table WIP fields",
-    "Changes made to Job table base application object",
-    "Minimal code change affecting only documentation strings"
+    "Adds missing tooltips to WIP-related Job fields",
+    "Corrects broken grammar in WIP tooltip text",
+    "Updates outdated terminology in the tooltips",
+    "Small text-only change in the Job table"
   ],
   "change_kind": "fix",
   "behavior_change": false,

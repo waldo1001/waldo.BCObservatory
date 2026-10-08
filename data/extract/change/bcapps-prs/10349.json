@@ -9,11 +9,11 @@
   ],
   "summary": "E-Document import and export processing now handles registration numbers for vendor matching and supports German FC tax identifiers in multiple document formats.",
   "key_points": [
-    "Registration number becomes final fallback for matching imported vendors in E-Documents",
-    "German FC tax identifiers supported in XRechnung, ZUGFeRD, and PEPPOL exports",
-    "Imported receiving-company registration number validated against Company Information",
-    "Extended E-Document, vendor, and company information tables with registration number fields",
-    "Test coverage added for registration number vendor matching and document export scenarios"
+    "Registration No. is now the last fallback when matching vendors on imported E-Documents",
+    "German FC tax identifiers are supported in XRechnung, ZUGFeRD and PEPPOL exports",
+    "The receiving company's Registration No. on import is checked against Company Information",
+    "E-Document, vendor and Company Information tables and pages were extended",
+    "Tests added for Registration No. vendor matching and for XRechnung and ZUGFeRD exports"
   ],
   "change_kind": "feature",
   "behavior_change": true,

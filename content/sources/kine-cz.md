@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: cceae9e90842df6ad82679d9f30501b9766bb2a7548994ad7fef40ce83ee5cb0
@@ -52,10 +52,6 @@ footprint:
       weight: 3
     - id: administration
       weight: 1
-    - id: copilot
-      weight: 1
-    - id: integration
-      weight: 1
   topics:
     - id: performance
       weight: 2
@@ -88,10 +84,6 @@ footprint:
       weight: 1
     - id: codeunit NoSeriesMgt
       weight: 1
-    - id: codeunit PostSalesOrder
-      weight: 1
-    - id: codeunit ProcessPurchaseOrder
-      weight: 1
     - id: codeunit PurchPost
       weight: 1
     - id: codeunit ReservationEngineMgt
@@ -101,6 +93,10 @@ footprint:
     - id: codeunit WhseManagement
       weight: 1
     - id: table Currency Exchange Rate
+      weight: 1
+    - id: table Reservation Entry
+      weight: 1
+    - id: table Sales Line
       weight: 1
   features: []
 first_item: "2026-03-03"
@@ -120,15 +116,15 @@ last_item: "2026-03-30"
 | development (6) | performance (2) | codeunit 50100 (1) |
 | platform (3) | security (2) | codeunit 50200 (1) |
 | administration (1) | testing (2) | codeunit GenJnlPostLine (1) |
-| copilot (1) | agentic-coding (1) | codeunit ItemTrackingManagement (1) |
-| integration (1) | ai development (1) | codeunit NoSeriesMgt (1) |
-|  | ai-assisted development (1) | codeunit PostSalesOrder (1) |
-|  | ai-development (1) | codeunit ProcessPurchaseOrder (1) |
-|  | app types (1) | codeunit PurchPost (1) |
-|  | architecture (1) | codeunit ReservationEngineMgt (1) |
-|  | best practices (1) | codeunit SalesPost (1) |
-|  |  | codeunit WhseManagement (1) |
-|  |  | table Currency Exchange Rate (1) |
+|  | agentic-coding (1) | codeunit ItemTrackingManagement (1) |
+|  | ai development (1) | codeunit NoSeriesMgt (1) |
+|  | ai-assisted development (1) | codeunit PurchPost (1) |
+|  | ai-development (1) | codeunit ReservationEngineMgt (1) |
+|  | app types (1) | codeunit SalesPost (1) |
+|  | architecture (1) | codeunit WhseManagement (1) |
+|  | best practices (1) | table Currency Exchange Rate (1) |
+|  |  | table Reservation Entry (1) |
+|  |  | table Sales Line (1) |
 
 ## Flight path
 

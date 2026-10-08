@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10447",
+  "input_hash": "7583b486b499340ba54857c6a9762139cea1ed0a037282df615957d3cf2ab961",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:33.442Z",
+  "issues": [
+    "The page accurately reflects both defects, the FilterGroup(2) change, the var parameter, the removed dead code and the new tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017372,
+    "changes_in_call": 6
+  }
+}

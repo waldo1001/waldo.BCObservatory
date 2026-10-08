@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Bank reconciliation pages now expose functionality for handling duplicate transactions from bank statement imports, allowing users to match multiple transactions with the same ID from SEPA and other file formats.",
+  "summary": "Bank Acc. Reconciliation and Payment Reconciliation Journal pages now expose an existing option to allow duplicated transactions when importing bank statements, such as SEPA CAMT files whose transaction IDs can repeat. Related captions were also made more precise.",
   "key_points": [
     "Adds UI controls to surface existing duplicate transaction handling logic in bank reconciliation",
     "Improves captions in reconciliation interfaces for clarity",

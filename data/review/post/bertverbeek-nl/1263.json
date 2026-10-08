@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/bertverbeek-nl/1263",
+  "input_hash": "00079102b8eeca8f2ee6a54d7de89424ee8c0d70e3b3cac4c00678ed0fde7b58",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:44.042Z",
+  "issues": [
+    "Quote 3 joins sentences from separate sections into one string that does not appear in the post as written.",
+    "Summary, key points, and features are otherwise supported."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031551,
+    "posts_in_call": 4
+  }
+}

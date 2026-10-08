@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10901",
+  "input_hash": "92a43d87c0e3567ce331b3cdb57578443c92aa78d078fc21efb3af50a8a23417",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:37.215Z",
+  "issues": [
+    "Event name, IsHandled parameter, purpose and the 12 layers all match the description and file list.",
+    "Last key point is slightly generic but still supported by the description's mention of custom update logic."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019062,
+    "changes_in_call": 6
+  }
+}

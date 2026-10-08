@@ -13,12 +13,12 @@ tags:
   - trigger logic
 system: manufacturing
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:53.392Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,7 +78,7 @@ preview:
 
 # BC Friday Tips #44 Changing Production Order Status
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-22 · 94 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-44-changing-production-order-status/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-22 · 94 words · tier community · reviewed (checked by Opus)
 
 > When a Production Order status changes in Business Central, the system inserts a new record and deletes the old one rather than modifying it. Understanding this behavior helps avoid errors when subscribing to Insert, Modify, or Delete triggers on Production Orders.
 

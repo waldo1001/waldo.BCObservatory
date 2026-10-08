@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9428",
+  "input_hash": "2c0cf53284493fb83cf1dc87462822c95ddbfc55184fb8776c9a650e2342fcf2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:45.380Z",
+  "issues": [
+    "First key point says the new behavior leaves originals visible; that described the old copy behavior that the PR replaces.",
+    "Summary otherwise supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024922,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9572",
+  "input_hash": "49514c8a1665945d1cd1d848b75f462062fff2662b982ce7011ecb6b5a1d8849",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.474Z",
+  "issues": [
+    "Summary wrongly says removal happens in 29.0. 29.0 is the obsolete tag, and removal comes in a later release.",
+    "Pending obsoletion only raises AL0432 warnings and existing callers keep compiling, so breaking should be false.",
+    "The description says the objects remain functional, so behavior_change is set to false. This is uncertain because the page files also changed substantially."
+  ],
+  "applied": [
+    "summary rewritten",
+    "behaviour change false",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025374,
+    "changes_in_call": 6
+  }
+}

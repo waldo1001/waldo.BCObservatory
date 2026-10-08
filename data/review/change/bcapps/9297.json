@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9297",
+  "input_hash": "412d55e11622e8dceaef9b08f68e318638df3696631dc05a4be6853a868606b1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.222Z",
+  "issues": [
+    "Key point 2 is wrong. What happens only during assembly posting is the creation of the ATO output bin content, not the validation."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018258,
+    "changes_in_call": 6
+  }
+}

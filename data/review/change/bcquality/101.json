@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcquality-prs/101",
+  "input_hash": "27ae3578a606ea91ca6112b7390a0f77883401d1e902bcb65e914c5afe79fbea",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:50.333Z",
+  "issues": [
+    "The page matches the one-line change to the documentation example. The finding id now equals references[0].path."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019365,
+    "changes_in_call": 6
+  }
+}

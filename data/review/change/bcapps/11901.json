@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11901",
+  "input_hash": "0f2475b85fc8426b231e370aa439320cc7eba66cdece9f086af1c5db3676fbff",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:12.617Z",
+  "issues": [
+    "Key point 3 claims that filter reading 'now supports multiple filter groups'. The description only says the page-link filter is read from the supported filter groups, and it says nothing about earlier support.",
+    "Key point 4 is generic filler that the description does not support."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020642,
+    "changes_in_call": 6
+  }
+}

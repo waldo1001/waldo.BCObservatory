@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 67025ec59477024443ad17cd73c4435ee388c1360468e633252b6cad7c3f7692
@@ -52,13 +52,13 @@ item_count: 8
 footprint:
   systems:
     - id: integration
-      weight: 11
+      weight: 10
     - id: development
       weight: 9
     - id: platform
       weight: 5
     - id: administration
-      weight: 4
+      weight: 3
   topics:
     - id: authentication
       weight: 2
@@ -83,8 +83,6 @@ footprint:
   objects:
     - id: other WebPageViewer
       weight: 2
-    - id: api API page
-      weight: 1
     - id: codeunit App Integration
       weight: 1
     - id: codeunit Calc. Shipping Charges
@@ -114,15 +112,15 @@ last_item: "2026-03-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| integration (11) | authentication (2) | other WebPageViewer (2) |
-| development (9) | control add-in (2) | api API page (1) |
-| platform (5) | webpageviewer (2) | codeunit App Integration (1) |
-| administration (4) | add-in (1) | codeunit Calc. Shipping Charges (1) |
-|  | al language (1) | codeunit Shipping Agent Integration (1) |
-|  | api permissions (1) | enum App (1) |
-|  | apis (1) | interface IApp (1) |
-|  | app integration (1) | interface IShippingAgentIntegration1.0 (1) |
-|  | architecture (1) | other Microsoft.Dynamics.Nav.Client.WebPageViewer (1) |
+| integration (10) | authentication (2) | other WebPageViewer (2) |
+| development (9) | control add-in (2) | codeunit App Integration (1) |
+| platform (5) | webpageviewer (2) | codeunit Calc. Shipping Charges (1) |
+| administration (3) | add-in (1) | codeunit Shipping Agent Integration (1) |
+|  | al language (1) | enum App (1) |
+|  | api permissions (1) | interface IApp (1) |
+|  | apis (1) | interface IShippingAgentIntegration1.0 (1) |
+|  | app integration (1) | other Microsoft.Dynamics.Nav.Client.WebPageViewer (1) |
+|  | architecture (1) |  |
 |  | azure (1) |  |
 
 ## Flight path

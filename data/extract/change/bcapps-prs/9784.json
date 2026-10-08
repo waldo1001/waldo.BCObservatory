@@ -4,13 +4,13 @@
   "title": "[E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Fixed defects in V2 draft migration for XRechnung, PINT A-NZ, and Factura-E e-document formats, including incorrect reset logic, dead fallback code, and missing field mappings for purchase line matching.",
+  "summary": "Fixes defects in the V2 draft import for XRechnung, PINT A-NZ and Factura-E. Re-reading an XRechnung draft no longer duplicates lines, and unsupported root elements or namespaces are rejected. PINT A-NZ vendor-matching fallbacks now receive values. Credit notes and corrective invoices now map the original invoice reference so they can be applied.",
   "key_points": [
-    "XRechnung: ResetDraft was not called from ReadIntoDraft, causing duplicate lines on re-runs; added root element validation to reject unsupported documents",
-    "PINT A-NZ: VendorParticipantId and vendor address fields were passed by value instead of by reference, making vendor-matching fallbacks unreachable; credit notes missing billing reference mapping",
-    "Factura-E: Corrective invoice number incorrectly mapped to Purchase Order No instead of Applies-to Ext. Invoice No, preventing credit memo matching",
-    "Added three regression tests for XRechnung mirroring OIOUBL test patterns",
-    "Aligns migration defects with DK OIOUBL reference implementation standards"
+    "XRechnung: ReadIntoDraft now calls ResetDraft, so re-runs no longer duplicate lines, and ResetDraft no longer errors when no draft header exists",
+    "XRechnung: unsupported root elements or unexpected namespaces are now rejected with an error",
+    "PINT A-NZ: vendor ID, name and address are now returned to the vendor-matching fallbacks, and credit notes map the billing reference to Applies-to Ext. Invoice No.",
+    "Factura-E: the corrective invoice number now maps to Applies-to Ext. Invoice No. instead of Purchase Order No.",
+    "Three XRechnung regression tests added, mirroring the OIOUBL suite"
   ],
   "change_kind": "fix",
   "behavior_change": true,

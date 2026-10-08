@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/9391",
+  "input_hash": "18e4ffb97868163d49dda938b55d767b43e48db63df4c287560e9015770fd6ad",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:59.398Z",
+  "issues": [
+    "Release Spend Request codeunit is described as managing posting; nothing given supports a posting workflow, only release.",
+    "Claim that enum logic was migrated to new structures is unsupported; only the removal of the SpendRequestType enum is shown.",
+    "Preview page purpose stated as validation before posting is speculative; it is a Spend Req. To G/L Link Preview page.",
+    "Breaking kept true since a Base Application enum was removed, but impact is not confirmed by the description."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028692,
+    "changes_in_call": 6
+  }
+}

@@ -6,16 +6,15 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Price list opening from a customer card is optimized to avoid a slow AddAllSourceType call that caused significant delays on datasets with many price lists.",
+  "summary": "Opening a price list from the Customer Card is made faster on large datasets, where it took around 220 seconds because of the AddAllSourceType call. The logic in Price List Management is reworked and UI tests are added.",
   "key_points": [
-    "Removed inefficient AddAllSourceType call that was causing performance bottleneck",
-    "Price list page now opens much faster on large datasets",
-    "Optimization reduces opening time from approximately 220 seconds to acceptable level",
-    "Changes apply to the Price List Management codeunit",
-    "Test cases added to ensure optimization works correctly"
+    "Addresses slow opening of price lists from the Customer Card on large datasets (~220s)",
+    "Title attributes the slowness to the AddAllSourceType call",
+    "Changes are in the Price List Management codeunit",
+    "New tests added in the Price Lists UI test codeunit"
   ],
   "change_kind": "performance",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

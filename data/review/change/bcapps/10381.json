@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10381",
+  "input_hash": "efff48618ad21446543ab85e36a6e8ccd80d65c688e98d3d62b64c9bb2f5de30",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:34.703Z",
+  "issues": [
+    "Summary misreads 'inconsistent' as consistency across localization layers; the fix is about consistent Non-Deductible VAT results on invoices with Full VAT lines.",
+    "Only Purchase Line and VAT Amount Line are modified, and VAT Amount Line changes only in some layers; the key points claimed specific logic changes that the input does not support."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023058,
+    "changes_in_call": 6
+  }
+}

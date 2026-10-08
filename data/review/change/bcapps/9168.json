@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9168",
+  "input_hash": "5488e080ebe5477df02dec40fd5a87c2d6e9816a3df7068de0d4556778567f62",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:39.374Z",
+  "issues": [
+    "Summary and key points match the description: Bin Content resolution, early receive-bin check, display quantity in the failure notification, fallback and IsReceiveBin helper.",
+    "Flags are reasonable for a bug fix that changes how dispositions behave."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

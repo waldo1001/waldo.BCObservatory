@@ -7,10 +7,10 @@
   "summary": "Czech report extensions add missing fields to draft and pro forma invoices for approval workflows, matching the layout of posted Czech invoices with registration numbers, VAT dates, bank details, and payment information.",
   "key_points": [
     "Two new report extensions (11707, 11708) extend reports 1303 and 1302 with Czech RDLC layouts",
-    "Added header fields include customer registration numbers, VAT date, bank account details, payment symbols, and employee info",
-    "Pro forma extension includes VAT recapitulation section with calculated VAT amount lines",
-    "No QR codes or tax implications since documents are unposted",
-    "Layouts clearly marked as draft/pro forma to distinguish from final tax documents"
+    "Added header fields include registration numbers, VAT date, bank account details, payment symbols, payment terms and method, salesperson and employee info, and exchange rate",
+    "Pro forma extension adds a VAT Amount Line dataitem for VAT recapitulation, reading sales lines directly",
+    "No QR code is included because the documents are not posted",
+    "Layouts are clearly marked as draft or pro forma to distinguish them from final tax documents"
   ],
   "change_kind": "feature",
   "behavior_change": true,

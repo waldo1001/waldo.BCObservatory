@@ -8,11 +8,11 @@
   ],
   "summary": "Subcontracting app now includes a three-step assisted setup wizard that guides users through initial configuration independently, without requiring Manufacturing Setup during installation.",
   "key_points": [
-    "New assisted setup wizard page for Subcontracting with three configuration steps",
-    "Users can review company defaults and navigate configuration pages during app installation",
-    "Manufacturing Setup remains available through Manual Setup for later maintenance",
-    "Setup wizard integrated with app installation process",
-    "Test coverage added for the new setup wizard functionality"
+    "New three-step Subcontracting Setup Wizard page for the initial app configuration",
+    "Users can review company defaults and open the remaining configuration pages without going through Manufacturing Setup",
+    "Guide hooked in through the Subcontracting business setup codeunit; permission set updated for the new page",
+    "Manufacturing Setup stays available through Manual Setup for later maintenance",
+    "UI tests added for the guide"
   ],
   "change_kind": "feature",
   "behavior_change": true,

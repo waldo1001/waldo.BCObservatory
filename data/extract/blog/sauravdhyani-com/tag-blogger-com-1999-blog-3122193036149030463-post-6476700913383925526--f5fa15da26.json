@@ -7,11 +7,11 @@
   "words": 279,
   "summary": "Date formulas enable automatic posting period adjustments in Business Central based on today's date instead of fixed dates. This feature applies to General Ledger Setup, User Setup, and General Journal Templates, reducing manual updates and posting errors.",
   "key_points": [
-    "Date formulas are dynamic expressions that calculate allowed posting ranges relative to today's date",
-    "Date formulas can be applied to General Ledger Setup, User Setup, and General Journal Templates",
-    "Posting restrictions are validated in priority order: User Setup first, then General Ledger Setup, then General Journal Template",
-    "Formulas support relative date calculations like current month, rolling days, and multi-period ranges",
-    "Fixed dates and date formulas can be mixed, allowing one boundary to be dynamic and the other static"
+    "Date formulas define allowed posting ranges relative to the current date, so posting windows move automatically instead of needing manual updates.",
+    "They can be set in General Ledger Setup, User Setup and General Journal Templates.",
+    "Restrictions are checked in order: User Setup, then General Ledger Setup, then General Journal Template when its mandatory toggle is on.",
+    "Examples include current month only, rolling 30 days, previous month close and today only.",
+    "A formula can be used for one boundary while the other boundary stays a fixed date."
   ],
   "systems": [
     "finance",
@@ -61,10 +61,6 @@
     {
       "text": "Date formulas are dynamic expressions that calculate allowed posting ranges relative to today's date.",
       "why_it_matters": "This explains the core concept of how date formulas work as smart boundaries that move with time rather than being static."
-    },
-    {
-      "text": "Posting restrictions are validated in this order: User Setup, General Ledger Setup, General Journal Template.",
-      "why_it_matters": "Understanding the priority of checks is critical for implementing posting restrictions correctly when multiple levels are configured."
     },
     {
       "text": "You can combine formulas with fixed dates - one boundary can be dynamic, the other fixed.",

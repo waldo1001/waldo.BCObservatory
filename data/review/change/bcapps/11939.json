@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11939",
+  "input_hash": "91fbe00a1697ef70bc609f2617bac516d44d7267753c5235b0608a6f5a026c23",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:39.052Z",
+  "issues": [
+    "Change is a bug fix (Bug 650391, root cause described), not a feature",
+    "Key point wrongly says FlowFields were added; existing FlowFields were exposed as page controls"
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018438,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10945",
+  "input_hash": "441499c1dbd4187fb1a798cd4d376bf98d3afb0be69fa74ad4fd0b8439002b05",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:09.832Z",
+  "issues": [
+    "Summary, key points and flags match the description and the changed files (new enum, report extension, layouts, tests).",
+    "Calling the tests 'comprehensive' is a little generous, but 240 added test lines support it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019427,
+    "changes_in_call": 6
+  }
+}

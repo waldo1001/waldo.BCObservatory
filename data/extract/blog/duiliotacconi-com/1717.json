@@ -5,7 +5,7 @@
   "source": "duiliotacconi-com",
   "published_at": "2025-12-10T16:04:37.000Z",
   "words": 920,
-  "summary": "The Database.LockTimeoutDuration method, introduced in Dynamics 365 Business Central 2025 Wave 2 (version 27), lets developers override lock timeout settings in AL code at the statement level. Online environments default to 30 seconds, on-premises to 10 seconds, with a platform maximum of 1.71 million milliseconds (28.5 minutes). Understanding when and how to adjust this value helps prevent timeout errors in business-critical procedures while avoiding deadlocks and blocking chains.",
+  "summary": "Starting with Business Central 2025 Wave 2 (v27), AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout for a specific statement, overriding the global value (30 seconds online, 10 seconds in a v27 on-premises demo database). Setting it to 0 is capped by the platform at 1,710,000 ms (28.5 minutes). The author advises using it only for critical procedures, since low values cause more timeout errors and high values risk blocking chains and deadlocks.",
   "key_points": [
     "Database.LockTimeoutDuration was introduced in BC 2025 Wave 2 (v27) to allow per-statement lock timeout overrides in AL code",
     "Online environments have a 30-second default timeout; on-premises defaults to 10 seconds from the $ndo$dbproperty table",

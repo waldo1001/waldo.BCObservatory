@@ -12,12 +12,12 @@ tags:
   - networking
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:37.734Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -66,7 +66,7 @@ preview:
 
 # August 2025 Auckland D365 BC User Group Event
 
-[Read the post](https://thatnavguy.com/blog/2025/august-2025-auckland-d365-bc-user-group-event/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-25 · 109 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/august-2025-auckland-d365-bc-user-group-event/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-25 · 109 words · tier community · reviewed (checked by Opus)
 
 > A personal reflection on presenting at the Auckland D365 Business Central User Group event, highlighting the value of community engagement and sharing knowledge with peers in the BC community.
 

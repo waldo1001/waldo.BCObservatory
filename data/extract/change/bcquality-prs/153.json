@@ -4,16 +4,16 @@
   "title": "Promote knowledge for Microsoft-owned review skills",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Twenty-nine knowledge articles and fifty-six sample files were moved from the Community layer to the Microsoft layer in the quality rules repository to keep skill ownership aligned with knowledge authority.",
+  "summary": "Moves 29 knowledge articles and 56 companion samples used by Microsoft-endorsed review skills from the Community layer to the Microsoft layer, so they stay available when consumers disable the Community layer. File contents are unchanged, and the Agents corpus stays in Community.",
   "key_points": [
-    "Knowledge articles for data modeling, events, performance, security, UI, and web services moved to Microsoft layer",
-    "Community layer no longer contains Microsoft-endorsed review skill knowledge",
-    "Files are pure renames with no content changes",
-    "Keeps canonical knowledge authority co-located with owned review skills",
-    "Agents corpus remains in Community alongside community-owned skills"
+    "29 articles and 56 samples (data modeling, events, performance, security, UI, web services) moved to the Microsoft layer",
+    "Promoted knowledge stays available when the Community layer is disabled",
+    "Files are pure renames, with no content or sample changes",
+    "Agents corpus remains in Community next to its community-owned skill",
+    "Docs state that canonical skill knowledge belongs in the same shared layer, with custom overrides as the exception"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

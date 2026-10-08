@@ -8,11 +8,11 @@
   ],
   "summary": "Outbound replies in the Sales Order Agent now limit retry attempts to five per message, provide a manual retry action, and isolate failures to prevent blocking other messages.",
   "key_points": [
-    "Capped failed outbound reply attempts at five per message to prevent infinite retries",
-    "Suppresses exhausted replies without recurring telemetry when retry limit is reached",
-    "Added a Retry sending action that resets the attempt count for manual retry",
-    "Isolated individual reply failures so remaining messages continue processing",
-    "Added new Reply Attempt table to track retry history"
+    "Failed outbound reply attempts are capped at five per message",
+    "Replies that have used up their attempts are suppressed without recurring telemetry",
+    "New Retry sending action on the SOA Email Message page resets the attempt count",
+    "A failure in one reply no longer stops the remaining messages from being processed",
+    "New SOA Reply Attempt table and new reply codeunits track attempts and send replies"
   ],
   "change_kind": "feature",
   "behavior_change": true,

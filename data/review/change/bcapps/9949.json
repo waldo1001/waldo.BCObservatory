@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9949",
+  "input_hash": "17350231405989dc51084e4603a788c516de0a0b07d7e8a8e18cfc7415dbe23f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:59.398Z",
+  "issues": [
+    "Summary says all changes are display-only; only the page 9663 name decoding is display-only, while Replace and Edit description change stored data.",
+    "Key point says only existing methods are used; a new UpdateReportLayoutDescription method was added.",
+    "Telemetry privacy fix (raw description no longer logged) was omitted."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028692,
+    "changes_in_call": 6
+  }
+}

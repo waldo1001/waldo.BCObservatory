@@ -6,9 +6,10 @@
   "systems_joined": [],
   "summary": "Czech Republic fixed asset localization now supports bonus depreciation functionality through updates to the depreciation calculation report and setup tables.",
   "key_points": [
-    "Added bonus depreciation calculation logic to the depreciation report for CZ localization",
-    "Extended FADepreciationBook and FASetup tables with bonus depreciation support fields",
-    "Resolves missing feature in Czech fixed asset localization"
+    "Implements missing bonus depreciation functionality in the CZ fixed asset localization",
+    "Calculate Depreciation CZF report updated with bonus depreciation logic",
+    "FA Depreciation Book CZF and FA Setup CZF table extensions updated to support the feature",
+    "Delivered as a bug fix for the Czech localization"
   ],
   "change_kind": "fix",
   "behavior_change": true,

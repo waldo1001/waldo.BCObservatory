@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2304",
+  "input_hash": "27f04d6cc491f20b27c20fb5ec04635faeb3ddb12f6988aae24a0320c5868b1d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.083Z",
+  "issues": [
+    "The description supports this. Note that built-in analyzers in the flat layout are still not handled; that is an altool issue tracked separately. The aldoc fix is pre-emptive."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016613,
+    "changes_in_call": 6
+  }
+}

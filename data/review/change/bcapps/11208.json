@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11208",
+  "input_hash": "d7d99a53b61b871eb86624fe7d9cb47970d217bdf51f165f345d715592da5341",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:14.684Z",
+  "issues": [
+    "The description is only a work item link, so the fix direction comes from the title alone.",
+    "'Applied across all localization layers' overstates what was given. The change touches W1 and 13 localized layers."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017996,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/125",
+  "input_hash": "7b5faacad13d6fef635d8c6e7883dbde85ea03509dcc80462f2ea3fc30bfa133",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:59.398Z",
+  "issues": [
+    "Summary implies executable tests are added; the PR adds markdown articles with good/bad AL examples, and the tests live in an external conformance suite.",
+    "This is documentation content, so change_kind other fits better than feature."
+  ],
+  "applied": [
+    "summary rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028692,
+    "changes_in_call": 6
+  }
+}

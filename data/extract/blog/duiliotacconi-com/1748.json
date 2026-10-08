@@ -5,12 +5,13 @@
   "source": "duiliotacconi-com",
   "published_at": "2025-12-12T10:26:06.000Z",
   "words": 705,
-  "summary": "CCMS is an open-source, free cloud customer management system built in AL that helps Business Central partners automate management of customer tenants and environments, including scheduling environment copies, tracking installed apps, and managing updates across multiple cloud instances.",
+  "summary": "CCMS is a free, open-source Business Central app written in AL for managing partners' cloud customer tenants and environments. It covers environment lists, rescheduling updates, installed apps and available updates, telemetry, capacity and feature management. It grew out of a prototype admin app by Duilio Tacconi and Stefano Demiliani, which was merged with a similar Directions for Partners project after Directions EMEA 2025.",
   "key_points": [
-    "The app is open source and free to use or fork for contributions",
-    "It provides tenant and environment management capabilities integrated into Business Central",
-    "Features include environment scheduling, installed apps tracking, available updates management, telemetry, capacity monitoring, and feature management",
-    "Developed by Directions for Partners in collaboration with the community"
+    "The repo has been open for contributions since 11 December 2025; users can download the app or fork it",
+    "Screens shown include the environment list, rescheduling updates from the Environment Card, installed apps and available updates, telemetry, capacity and feature management",
+    "The app was built because partners keep getting requests like automating environment copies or finding which customers run a given AppSource app version",
+    "The prototype was mostly vibe coded with Claude Sonnet 4.5 and presented next to the YAMPI MCP server in Poznan",
+    "It joined forces with Freddy Kristensen's Directions for Partners project and is promised to stay free"
   ],
   "systems": [
     "administration",
@@ -25,14 +26,8 @@
     "open source",
     "partner tools"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "Cloud Customer Management System (CCMS)"
-    }
-  ],
+  "objects": [],
   "features": [
-    "environment scheduling",
     "installed app tracking",
     "app update management",
     "telemetry monitoring",

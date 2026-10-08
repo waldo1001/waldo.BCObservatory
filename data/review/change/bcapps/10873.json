@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10873",
+  "input_hash": "f6c722a451ce976b954ca6ac750074ca99549d3a3116cea1b5c364d3b7ec5493",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:25.129Z",
+  "issues": [
+    "The description is only a work item link. The summary is supported by the title and the changed files: the availability codeunit plus tests in the W1, IT and RU layers."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014664,
+    "changes_in_call": 6
+  }
+}

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7e816a1461204e1e3094ca0c04239ce883d58cc616a1a46cb22da8c87fecf1c9
@@ -127,15 +127,15 @@ footprint:
     - id: development
       weight: 90
     - id: integration
-      weight: 46
+      weight: 43
     - id: copilot
-      weight: 40
+      weight: 38
     - id: platform
-      weight: 28
-    - id: administration
-      weight: 22
+      weight: 29
     - id: reporting
-      weight: 16
+      weight: 15
+    - id: administration
+      weight: 12
   topics:
     - id: al development
       weight: 20
@@ -198,11 +198,11 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (90) | al development (20) | table Customer (7) |
-| integration (46) | copilot (10) | page Customer Card (5) |
-| copilot (40) | al code (8) | table Sales Header (4) |
-| platform (28) | api (6) | table Vendor (3) |
-| administration (22) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
-| reporting (16) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
+| integration (43) | copilot (10) | page Customer Card (5) |
+| copilot (38) | al code (8) | table Sales Header (4) |
+| platform (29) | api (6) | table Vendor (3) |
+| reporting (15) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
+| administration (12) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
 |  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
 |  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |

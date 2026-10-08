@@ -10,10 +10,10 @@
   "summary": "Excise tax configuration moved from item fields to a dedicated table to support multiple excise tax types per item, with new list and API pages, upgraded journal generation logic, and deprecated legacy fields.",
   "key_points": [
     "New Item Excise Tax table (7415) stores multiple tax types per item, keyed on Item No. + Excise Tax Type Code",
-    "Item Excise Taxes list page (7416) and API page (7417) manage tax configurations with copy-from-item action",
-    "Excise journal generation now iterates the new table and tracks posted status per tax type via new integration events",
-    "Legacy Item excise fields marked obsolete (Pending, tag 29.0) with automatic data migration via upgrade codeunit",
-    "Permission sets updated to cover new objects"
+    "Item Excise Taxes list page (7416), opened from the Item Card with a Copy from Item action, plus an Item Excise Tax API page (7417)",
+    "Excise journal generation iterates the new table with per-tax-type checks; the ILE Excise Tax Posted flag is set only once all applicable tax types are posted",
+    "New OnBefore/OnAfter insert integration events added to journal generation",
+    "Legacy Item excise fields marked obsolete (Pending, tag 29.0) and existing data migrated by the Excise Tax Upgrade codeunit"
   ],
   "change_kind": "feature",
   "behavior_change": true,

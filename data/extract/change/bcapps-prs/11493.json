@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed VAT settlement calculations to properly populate source currency amount and source VAT currency amount in G/L entries when posting VAT settlements.",
+  "summary": "The Calc. and Post VAT Settlement report now fills in Source Currency Amount and Source VAT Currency Amount on the VAT settlement G/L entries it posts. This is a 29.x release fix.",
   "key_points": [
-    "Source currency amounts were not being set in G/L entries created by the Calculate and Post VAT Settlement report",
-    "Fix applied consistently across multiple localizations (AU, BE, ES, IT, NO, W1)",
-    "Test cases added to validate that currency amounts are correctly populated",
-    "Changes made to the VAT Settlement report logic for handling multi-currency scenarios"
+    "G/L entries posted by Calc. and Post VAT Settlement were missing Source Currency Amount and Source VAT Currency Amount",
+    "The report was changed in the AU, BE, ES, IT, NO and W1 layers",
+    "Tests were added to the VAT settlement test codeunits in several localizations"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -7,10 +7,11 @@
   "words": 761,
   "summary": "This post explains how to use Brotli compression instead of gzip to reduce the size of OData API responses from Business Central. Brotli significantly decreases bandwidth usage and transfer times for high-volume API calls by achieving better compression ratios than the default gzip algorithm.",
   "key_points": [
-    "Business Central APIs use HTTP compression by default, primarily gzip, which can be negotiated through Accept-Encoding headers",
-    "Brotli is a more efficient compression algorithm that reduces response sizes dramatically compared to gzip, often by 95% or more for large datasets",
-    "Clients enable Brotli by sending the Accept-Encoding: br header with their API requests",
-    "In C#, HttpClient can automatically decompress Brotli-compressed responses when configured with AutomaticDecompression and the appropriate header"
+    "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding and Content-Encoding headers",
+    "Sending Accept-Encoding: br makes the API return Brotli-compressed responses, which were much smaller in tests on a custom Item API",
+    "For 10000 items the response dropped from roughly 11 MB with gzip to about 515 KB with Brotli",
+    "In C#, an HttpClient with AutomaticDecompression set to Brotli and a br accept header handles decompression transparently",
+    "Brotli may add slight server overhead, though the author saw no significant difference"
   ],
   "systems": [
     "integration",

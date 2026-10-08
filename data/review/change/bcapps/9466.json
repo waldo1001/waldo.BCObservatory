@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9466",
+  "input_hash": "98c0c52b830b331f1d2d5dfee92364abff0ab1334939312e28e988f11c8905cc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:31.222Z",
+  "issues": [
+    "Accurate: three parameters appended after IsHandled. Subscribers bind by parameter name, so this is non-breaking.",
+    "'All country-specific layers' is a little broad. The PR covers the layers that carry their own copy (APAC, CH, ES, IT, RU), but this is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018258,
+    "changes_in_call": 6
+  }
+}

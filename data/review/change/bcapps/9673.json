@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9673",
+  "input_hash": "3baa3f2bfca16deabed571b92de3ccd7ddc08f3793a19f40a6a65520beca77e1",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:06.654Z",
+  "issues": [
+    "Supported by description and codeunit 370 changes plus tests. Key point about bank fee amounts is slightly narrower than the stated solution (rounding payment reconciliation amounts generally) but not wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020666,
+    "changes_in_call": 6
+  }
+}

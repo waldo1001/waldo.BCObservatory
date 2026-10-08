@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-74-copy-document/",
+  "input_hash": "bc729912bf76573f8463a257f58f22b9a15acdf214f75d8c11f68b1733ad076a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:36.372Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "Data Validation is not a feature the post discusses; it only mentions avoiding invalid data when copying documents."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025357,
+    "posts_in_call": 4
+  }
+}

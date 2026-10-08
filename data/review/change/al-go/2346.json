@@ -1,0 +1,25 @@
+{
+  "item_id": "change/al-go-prs/2346",
+  "input_hash": "e1c3ef70a50ffe38b1e0833a99db6c2d28994c73669fe9294720f982816630bb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:00.529Z",
+  "issues": [
+    "Pinning action references is maintenance, not a feature.",
+    "The supply chain security claim is not in the PR text.",
+    "The purpose of the dependabot change is not stated, so it is described only as updated."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019104,
+    "changes_in_call": 6
+  }
+}

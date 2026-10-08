@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,8 @@ links:
     - topic/dev-itpro/development/troubleshooting/troubleshooting-in-the-client/performance-profiler
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725
   guidelines: []
 learn_toc_path:
   - Development
@@ -175,7 +176,7 @@ coverage:
   learn: 13
   code: 32
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 119
@@ -254,6 +255,12 @@ This section collects tools and pages that help developers, administrators, and 
 - [Understanding the error dialog](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-error-dialog): Understand the different parts the error dialog to be able to help mitigate issues for users
 - [View Database Locks](https://learn.microsoft.com/dynamics365/business-central/admin-view-database-locks): Learn how you can view information about customer database locks right from the client interface in Business Central.
 - [View table information](https://learn.microsoft.com/dynamics365/business-central/admin-view-table-information): Learn how you can view information about the database tables in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you quickly find"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9605",
+  "input_hash": "d18ce7ad8625f056564f40040e1ba102a538d54313dcd481d6fab8744815745c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:35.407Z",
+  "issues": [
+    "Summary and key points match the description of the editable card page, the card reset action and the three list actions.",
+    "The systems tag 'manufacturing' is not clearly supported, but that field is not editable here."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016784,
+    "changes_in_call": 6
+  }
+}

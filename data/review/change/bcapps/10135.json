@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10135",
+  "input_hash": "29a78c1a4413380a10f754d24d8e985025f60adbc4cc1cb7f6ab14d7a2f91e59",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.094Z",
+  "issues": [
+    "The page correctly reads this as a revert that removes keys from the CH and DACH VAT Entry tables over CRUD performance concerns. Nothing given shows whether extensions depend on these keys."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018646,
+    "changes_in_call": 6
+  }
+}

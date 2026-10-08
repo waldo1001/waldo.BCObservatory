@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13993",
+  "input_hash": "a1b55d81b56e586840d8d2a0573d714ced7e94943f75e0f53df11a72aa6c71c2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:14.110Z",
+  "issues": [
+    "Feature 'Model Control Protocol (MCP) orchestration' expands MCP in a way the post never does; dropped.",
+    "Key point about the unified report said 'across all tenants'; the post checks environments within a tenant. Key points rewritten.",
+    "Summary, quotes and systems are supported."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034523,
+    "posts_in_call": 4
+  }
+}

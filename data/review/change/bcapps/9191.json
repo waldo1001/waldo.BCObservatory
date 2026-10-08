@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9191",
+  "input_hash": "5046fdd478634a8d32139cf123b331cb347de2a18c8ea3d0ab53acabb3accabc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:36.648Z",
+  "issues": [
+    "The summary leaves out that the change applies only to the IT localization; the description says it is IT-layer only.",
+    "Key points are supported, including the unchanged void signature and the removed labels."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019678,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/same-blog-new-site/",
+  "input_hash": "0c317b2f2d82a01a13ed3a57d9c830993708b0ccd750ee607057ffa7c3b435d1",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:54:53.633Z",
+  "issues": [
+    "The post announces a blog moving from WordPress to Astro and has no Business Central content beyond saying an existing tips series continues.",
+    "One key point says the site is hosted on GitHub, but the post says the source is on GitHub and Vercel deploys it."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.040213,
+    "posts_in_call": 4
+  }
+}

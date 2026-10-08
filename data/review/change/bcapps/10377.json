@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10377",
+  "input_hash": "5149be1d5e29b79c3ae1d63efe5666d5801099312e08264d24ea90cd45f9d247",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:35.899Z",
+  "issues": [
+    "Accurate: the universal source is now added before the specific sources, so the caption shows the selected customer or vendor. Tests were added for both."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016149,
+    "changes_in_call": 6
+  }
+}

@@ -16,12 +16,12 @@ tags:
   - production readiness
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:04.075Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -110,17 +110,17 @@ preview:
 
 # Business Central Development Serie - Part 2b: AI for BC Development — The Knowledge Gap That Ships to Production
 
-[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02b/) · Kine's info (Kamil Sacek, MVP) · 2026-03-30 · 3635 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://blog.kine.cz/posts/bcdevelopmentserie-02b/) · Kine's info (Kamil Sacek, MVP) · 2026-03-30 · 3635 words · tier community · reviewed (checked by Opus)
 
 > AI-generated Business Central code can compile and appear functional while containing hidden bugs that silently corrupt data or cause performance issues. Developers must validate AI output across architecture, performance, standard processes, testing, security, and localization before production use, requiring broad domain expertise and proper guardrails.
 
 ## Key points
 
-- AI produces plausible code that passes basic checks but silently skips business logic like Validate calls, corruption item tracking, or creates performance problems invisible until specific data conditions trigger them
-- Eight common validation dimensions required include architecture decisions, performance patterns, standard BC libraries recognition, AL object design, locking/concurrency, automated testing, CI/CD gates, and security
-- Silent bugs are especially dangerous in ERP systems where wrong ledger entries, corrupted inventory, or load issues affect entire customer companies
-- The correct approach encodes quality standards into AI agent instructions before code generation, rather than trying to catch problems in review
-- Using AI responsibly requires honest self-assessment of knowledge gaps across multiple BC domains; using it irresponsibly amplifies mistakes across larger code volumes
+- AI-generated AL code can compile and pass basic checks while hiding silent bugs: direct field assignment instead of Validate, filters on fields without keys, and database writes in OnAfterGetRecord.
+- Writing Reservation Entry records directly, or building JSON with string concatenation instead of the built-in JSON types, breaks the standard BC infrastructure.
+- Validating AI output takes knowledge across many areas: architecture, performance, standard codeunits, object design, upgrade code, locking, testing, CI/CD, security, telemetry, API integration and localization.
+- Quality rules should be encoded in agent instructions and guardrails before generation, rather than relying on code review afterwards.
+- AI is fine for proofs of concept, learning, low-risk changes and experienced teams with guardrails. It should not ship unvalidated or untested code to production.
 
 ## Quotes
 

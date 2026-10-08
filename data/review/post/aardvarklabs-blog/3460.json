@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3460",
+  "input_hash": "f29c134517d69315d697d3b409412530e8c0d870f96e360fcf8f638af2dfad51",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:17.331Z",
+  "issues": [
+    "The summary calls the SFTP Client operations asynchronous. The post only says that FTP-based integrations are often asynchronous, not that the codeunit itself works that way.",
+    "The post says Microsoft decided to remove the module, either by pulling it or by deprecating it. It names Azure Functions as one alternative, not the only one.",
+    "Key points, objects, features and the quote all match the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030624,
+    "posts_in_call": 4
+  }
+}

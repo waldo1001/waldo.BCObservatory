@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9051",
+  "input_hash": "c06ac69b2084ffd484e5e84b4e571f258d0e2d2e252365394ca6aa6760765b24",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.150Z",
+  "issues": [
+    "Matches the description: a parallel by-reference event is added, NL layer only, and nothing breaks."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017502,
+    "changes_in_call": 6
+  }
+}

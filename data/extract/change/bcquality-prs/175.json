@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Nine new AL/BC patterns document best practices for document distribution, report selections, price calculation extensibility, barcode usage, and posting-cascade field mirroring, with verified examples from Business Central source.",
   "key_points": [
-    "Nine documented patterns for custom document dispatch, printing, email, and report selections",
-    "Guidance for extending Find Entries navigation, price calculation handlers, and price source types",
-    "Rules for matching field types/lengths in TransferFields posting cascades and using barcode modules correctly",
-    "Each pattern includes bad/good code examples and links to relevant BCApps source files",
-    "Entry criteria clarified to recognize document actions, Navigate subscribers, and pricing extensibility topics"
+    "Adds nine knowledge articles, each with bad and good AL examples",
+    "Covers document distribution: Report Selections usage, Print and Email actions, and Find Entries (Navigate) extensions",
+    "Covers pricing extensibility: price calculation handlers, price source types and custom price sources",
+    "Covers TransferFields field mirroring in posting cascades and barcode generation through the Barcode module",
+    "Updates the data-modeling review skill so these topics are in scope, and adds evaluation fixtures"
   ],
   "change_kind": "feature",
   "behavior_change": false,

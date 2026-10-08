@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11493",
+  "input_hash": "2be37ba8e7796586321bbc631a23a2755c2a501e0ca415441e5cbe8d908cc48b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.300Z",
+  "issues": [
+    "The description has only a work item link, so the title and file list are the only sources.",
+    "The summary says 'calculations' were fixed. The title is only about populating the source currency fields on the G/L entries.",
+    "Key point 4 about multi-currency handling logic is not supported by anything given, so it was removed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019056,
+    "changes_in_call": 6
+  }
+}

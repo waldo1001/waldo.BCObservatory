@@ -5,7 +5,7 @@
   "source": "aardvarklabs-blog",
   "published_at": "2026-06-19T12:00:00.000Z",
   "words": 1040,
-  "summary": "Using Power Automate for Business Central SFTP handles file uploads by creating a table with BLOB storage, an API page for integration, and a Power Automate flow that retrieves files from SFTP servers and stores them in Business Central for processing.",
+  "summary": "Shows an alternative to native SFTP in Business Central: a custom table with a BLOB field, list and card pages, and an API page keyed on SystemId. A Power Automate flow reads a file from an SFTP server, creates a record through the API, then uploads the file content to the BLOB so it can be parsed in Business Central. The reverse direction, pushing files to SFTP, can be triggered with Business Events.",
   "key_points": [
     "Create a table with BLOB field to store file content and supporting pages for UI management",
     "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact with the table",
@@ -15,8 +15,7 @@
   ],
   "systems": [
     "integration",
-    "development",
-    "administration"
+    "development"
   ],
   "topics": [
     "sftp",

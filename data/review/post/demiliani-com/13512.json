@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/demiliani-com/13512",
+  "input_hash": "725e330350270beea43d5303cf6b74d06689567fe3bf5a79ad20a8d71b4aa2ac",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:09.637Z",
+  "issues": [
+    "The summary attributed the package's CI/CD and no-GUI purpose to the MCP server. The post presents the MCP server as a tool for AI coding agents.",
+    "The integration system is not supported by the post.",
+    "Quotes are verbatim and the tool list is accurate."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039992,
+    "posts_in_call": 4
+  }
+}

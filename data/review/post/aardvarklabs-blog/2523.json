@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2523",
+  "input_hash": "4c46b5599dd78021d6edad9a5cf1cb8856060f686fabf56a679bc5b4cb884d15",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:37.312Z",
+  "issues": [
+    "One key point says customizations can only change visibility and move fields. The post's own example adds the Search Name field, so that point is inaccurate.",
+    "The point about layered access control overstates the post. It calls customizations a layout tool that can be reused across profiles.",
+    "The post explains the parity remark as matching in-browser page customization, not as keeping function the same across users."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032019,
+    "posts_in_call": 4
+  }
+}

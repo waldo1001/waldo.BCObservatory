@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10167",
+  "input_hash": "7bae876343ffc474309a06f322a90cd38a7d92f42961be45641f982afbf1573c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:08.956Z",
+  "issues": [
+    "Content matches the description; the systems tag says sales rather than pricing, but that field is not editable here."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013321,
+    "changes_in_call": 6
+  }
+}

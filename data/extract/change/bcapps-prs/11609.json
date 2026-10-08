@@ -8,9 +8,9 @@
   ],
   "summary": "Record restriction checks in item journal operations are optimized to eliminate redundant calls that were affecting performance.",
   "key_points": [
-    "Removes unnecessary record restriction checks from item journal line processing",
-    "Improves performance by avoiding duplicate validation calls",
-    "Updates related test codeunit to validate the changes"
+    "Reduces redundant record restriction checks for item journal lines in codeunit 1550 Record Restriction Mgt.",
+    "Aimed at improving performance by avoiding repeated checks",
+    "Adds new tests to the item journal batch workflow test codeunit"
   ],
   "change_kind": "performance",
   "behavior_change": false,

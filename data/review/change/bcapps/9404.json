@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9404",
+  "input_hash": "cdb3a60b27bc76ce497e63a66220f67d31f98c926cea98ece2bf4bea937341a7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The page accurately describes the WorkDate check added to the SetShop guard, the regression test and SetShopAndCatalog staying unchanged."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

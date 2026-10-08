@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 8b0c192003f2d67982a575b63ec442dde71b15761baaaa9de0fdba2082f9bb56
@@ -84,7 +84,9 @@ footprint:
     - id: fix
       weight: 19
     - id: feature
-      weight: 8
+      weight: 7
+    - id: other
+      weight: 1
     - id: refactor
       weight: 1
   objects: []
@@ -105,7 +107,8 @@ last_item: "2026-10-07"
 |---|---|---|
 | platform (41) | main (28) |  |
 | development (28) | fix (19) |  |
-| integration (2) | feature (8) |  |
+| integration (2) | feature (7) |  |
+|  | other (1) |  |
 |  | refactor (1) |  |
 
 ## Flight path

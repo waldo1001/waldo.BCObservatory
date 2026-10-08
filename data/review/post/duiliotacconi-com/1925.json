@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/1925",
+  "input_hash": "3bb9cd6a7ca170d58dcd79e8ce482761abcfc84f43a2a7699dd5afed0b402601",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:34.347Z",
+  "issues": [
+    "The 'copilot' system is not supported: the AI used is GitHub Copilot with Claude Opus, not the Business Central Copilot.",
+    "The 'reporting' system is not supported; the post covers telemetry and performance analysis, not BC reports.",
+    "Summary, key points, object and quote are supported."
+  ],
+  "applied": [
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03807,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-june-14-20-2026/",
+  "input_hash": "cceaeaec08a47edcb3cc03d1dc3db9ebb6cff9db485faa5ae42d5a7ecd5dba67",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:46.335Z",
+  "issues": [
+    "Page is a weekly community roundup featuring one post by Stefano Demiliani; summary framed it as if this post itself were the walkthrough.",
+    "Key points, features and quote are supported by the roundup text."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.042729,
+    "posts_in_call": 4
+  }
+}

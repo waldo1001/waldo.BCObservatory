@@ -6,12 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "A performance issue with VAT advance return and VAT statement calculations in German environments is addressed by adding keys to the VAT Entry table.",
+  "summary": "Addresses a performance issue when calculating the VAT advance return or VAT statement by adding four lines to the VAT Entry table in both the CH and DACH Base Application layers.",
   "key_points": [
-    "Keys added to VAT Entry table in both CH (Swiss) and DACH (German) layers",
-    "Improves query performance for VAT statement calculations",
-    "Targets German localization environments",
-    "No behavior changes for users or extensions"
+    "Targets slow VAT advance return and VAT statement calculation",
+    "Small additions to table 254 VAT Entry in the CH layer",
+    "Matching additions to table 254 VAT Entry in the DACH layer"
   ],
   "change_kind": "performance",
   "behavior_change": false,

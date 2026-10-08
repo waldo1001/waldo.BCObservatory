@@ -12,12 +12,12 @@ tags:
   - blank values
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:01:26.325Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -78,7 +78,6 @@ quotes:
 code_objects_mentioned: []
 systems:
   - integration
-  - administration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -94,7 +93,7 @@ preview:
 
 # BC Friday Tips #27 Replace Blank Values using Transformation Rules
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-11 · 88 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-27-replace-blank-values-using-transformation-rules/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-04-11 · 88 words · tier community · reviewed (checked by Opus)
 
 > Transformation Rules can replace blank values in Business Central using regular expressions. Set the transformation type to "Replace" and use the pattern ^$ to match empty strings without requiring any development.
 
@@ -112,6 +111,6 @@ preview:
 
 ## Context
 
-- Features: Transformation Rules, Regular Expressions, Data Import
+- Features: Transformation Rules, Regular Expressions
 
 Source: That NAV Guy, community blog. Summary, key points and quotes are derived (CONTENT-NOTICE.md); read the original for the full text.

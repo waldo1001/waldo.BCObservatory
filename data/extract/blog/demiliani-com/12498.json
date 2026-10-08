@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2025-09-18T19:09:51.000Z",
   "words": 400,
-  "summary": "Dynamics 365 Business Central 2025 Wave 2 introduces a new MaskType enum property for table fields that allows masking sensitive information in the UI. Users can toggle visibility with an eye button to reveal concealed field values on demand, providing protection from casual observation while allowing authorized access.",
+  "summary": "Business Central 2025 Wave 2 adds a MaskType enum property for table fields. Setting it to Concealed hides the field value in the UI until the user clicks an eye button to reveal it. This gives lightweight UI-only protection from casual observation, because the unmasked data still reaches the browser.",
   "key_points": [
     "MaskType enum property supports None (default, visible) and Concealed (hidden by default, revealed via eye button) values",
     "Supported on Code, Text, Decimal, and Integer fields only, and only on document and card pages, not on list page repeaters or grids",
@@ -25,12 +25,7 @@
     "ui customization",
     "page design"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "MaskType"
-    }
-  ],
+  "objects": [],
   "features": [
     "MaskType enum property",
     "field concealment",

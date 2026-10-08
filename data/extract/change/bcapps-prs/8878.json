@@ -6,12 +6,11 @@
   "systems_joined": [
     "service"
   ],
-  "summary": "Service Item Card now populates Ship-to Country/Region Code from the customer's default location when no specific Ship-to Code is selected.",
+  "summary": "The Service Item Card now fills in the Ship-to Country/Region Code even when the Ship-to Code is blank. A test covering this case was added.",
   "key_points": [
-    "Service Item Card page modified to handle blank Ship-to Code scenarios",
-    "Ship-to Country/Region Code now derives from customer's default shipping location",
-    "Fixes behavior where country/region code was not populated in certain cases",
-    "Test coverage added to verify the fix"
+    "One-line fix on page 5980 Service Item Card",
+    "Ship-to Country/Region Code is now populated when Ship-to Code is blank",
+    "New test added to the SCM-Service Service Items test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2936",
+  "input_hash": "1025b319c713a8a4b9f6b11e6a9be02067dbf275607f8792cc6165a19b656240",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:55.282Z",
+  "issues": [
+    "The key point says the feature ships in Wave 1 2026, but the post says it was still pending release in that wave when written.",
+    "The post only uses Copilot to create the example view, so the copilot system tag does not fit. The Copilot integration feature is kept because the post does mention it.",
+    "The key points leave out that a locked view can be hidden but the author could not find a way to unhide it."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031996,
+    "posts_in_call": 4
+  }
+}

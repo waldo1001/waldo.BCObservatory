@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/katson-com/4530",
+  "input_hash": "b1a4a9e24143d06a8e0db359b6905f70474bbb64e34e501095acec7027204bed",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:58:35.350Z",
+  "issues": [
+    "The post text is only a short reader comment, not the article itself.",
+    "The page states things about custom agents, platform direction and agent-based automation that the comment never supports.",
+    "There is not enough substance to repair the page."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022797,
+    "posts_in_call": 4
+  }
+}

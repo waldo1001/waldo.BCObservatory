@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2724",
+  "input_hash": "8605ba6c306da9f83232216fb725fea20624169f9dc953149fefb977a8c820cf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:07.565Z",
+  "issues": [
+    "A key point says the agent task logs appear in the MCP server configuration, but the post shows them in the Agent Tasks view in Copilot Studio.",
+    "Items, Customers, Sales Quotes and Sales Quote Lines are listed as tables, but the post selects them as API entities in the MCP configuration, not as tables."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 4 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03828,
+    "posts_in_call": 4
+  }
+}

@@ -6,11 +6,10 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Variable and procedure names in the manufacturing routing demo data codeunit were renamed for consistency and clarity.",
+  "summary": "Some variables and procedures in the Contoso Coffee demo data codeunit Create Mfg Prod. Routing were renamed.",
   "key_points": [
-    "Renamed variables and procedures in the manufacturing routing demo data creation",
-    "Affects the Contoso Coffee demo dataset",
-    "Improves naming consistency across the demo data module"
+    "Renames variables and procedures in codeunit 4772 Create Mfg Prod. Routing",
+    "Limited to the manufacturing routing master data in the Contoso Coffee demo dataset"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

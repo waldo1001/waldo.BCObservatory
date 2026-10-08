@@ -8,11 +8,10 @@
   ],
   "summary": "User Management now correctly updates Financial Report Audit Log entries when a user is renamed, ensuring audit records reflect the new user name instead of keeping obsolete references.",
   "key_points": [
-    "Financial Report Audit Log table was missing from user-renaming logic",
-    "Added table to user-renaming handler in User Management codeunit",
-    "Granted required modify and rename permissions for the audit log table",
-    "Audit log entries now update with new user name when user is renamed",
-    "Added test to verify the audit log update behavior"
+    "The Financial Report Audit Log table was missing from the user-renaming logic",
+    "The table was added to the user-renaming handler in User Management, in both the RU and W1 layers",
+    "Modify and rename permissions for the audit log table were granted",
+    "Audit log entries now show the new user name after a user is renamed"
   ],
   "change_kind": "fix",
   "behavior_change": true,

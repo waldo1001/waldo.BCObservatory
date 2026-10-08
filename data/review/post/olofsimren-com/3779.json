@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/olofsimren-com/3779",
+  "input_hash": "369b486a90944b83c6081a506547b2ac2abb0a369561198a93d6c2927a7e95ff",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:27.659Z",
+  "issues": [
+    "Key point 1 says the batch lock lasts until approval completes or is rejected; the post says until it completes or is canceled.",
+    "Other content, objects and quotes are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031649,
+    "posts_in_call": 4
+  }
+}

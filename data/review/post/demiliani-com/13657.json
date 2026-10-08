@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/13657",
+  "input_hash": "81a6bd3702e82d68e3ec93f1e0ddbba2fe7a8955ff187096d0842600c4bdbef0",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:55:37.092Z",
+  "issues": [
+    "The post covers only the Azure Blob Storage smart tier option and never mentions Business Central.",
+    "The summary is accurate for the post, but the post itself is outside Business Central scope."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.045132,
+    "posts_in_call": 4
+  }
+}

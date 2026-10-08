@@ -13,12 +13,12 @@ tags:
   - hidden fields
 system: integration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:59.823Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -87,7 +87,7 @@ preview:
 
 # BC Friday Tips #41 Line Separator in Data Exchange Definition
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-01 · 95 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-41-line-separator-in-data-exchange-definition/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-01 · 95 words · tier community · reviewed (checked by Opus)
 
 > A hidden Line Separator field in Data Exchange Definition allows importing files with different line break formats (LF or CR) without custom development. The field is not visible through normal personalization but can be accessed via Configuration Package or code modifications.
 

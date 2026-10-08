@@ -8,10 +8,10 @@
   ],
   "summary": "The 'Get Order Lines' function on purchase invoices now copies dimension sets from order lines, fixing a bug where dimensions were reset to defaults during line validation.",
   "key_points": [
-    "Dimensions from purchase order lines are now preserved when creating invoice lines via 'Get Order Lines'",
-    "The fix validates the Dimension Set ID from the order line to the invoice line",
-    "Added test case GetOrderLinesCopiesDimensionsToInvoiceLine to verify the behavior",
-    "Resolves issue where dimension validation would reset to item or account defaults"
+    "Get Order Lines now keeps the purchase order line's dimensions on the new invoice lines",
+    "GetPurchaseOrderLines now validates the Dimension Set ID from the order line onto the invoice line",
+    "Before the fix, validating the No. field reset dimensions to item or account defaults",
+    "Added test GetOrderLinesCopiesDimensionsToInvoiceLine"
   ],
   "change_kind": "fix",
   "behavior_change": true,

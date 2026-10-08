@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9989",
+  "input_hash": "5d1722aa2ee05c11bc7bae9f55644c4ef9fb9cdd7a2b8edeb00ff787c322bed0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:10.533Z",
+  "issues": [
+    "The summary calls the Item Selector a dialog. The description treats it as an AOAI call the agent makes, not a UI dialog, so the wording was corrected.",
+    "Key points, the performance kind and the flags are supported by the description."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026433,
+    "changes_in_call": 6
+  }
+}

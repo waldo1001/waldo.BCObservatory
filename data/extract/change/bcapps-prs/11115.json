@@ -8,10 +8,11 @@
   ],
   "summary": "Trial Balance Excel reports now correctly apply global dimension filters (Department) when generating data, fixing incorrect figures that were appearing when dimension filters were combined with date filters.",
   "key_points": [
-    "Dimension filters are now read from the GL Account record and passed to the query-based data collection",
-    "Global Dimension 1 and 2 filters are applied via SetFilter on the query columns for both ending-date and opening-balance passes",
-    "RequestFilterFields are now included in the Excel reports to match the obsolete Trial Balance report behavior",
-    "The fix covers standard, budget, and consolidated trial balance reports that use the shared query-based codeunit"
+    "Global Dimension 1 and 2 filters are now read from the G/L Account request record in the Trial Balance codeunit",
+    "Dimension filters are applied with SetFilter on the query dimension columns for both the ending-date and opening-balance passes",
+    "The standard, budget and consolidated Excel trial balance reports now offer the dimension filters as request filter fields, like the obsolete Trial Balance report",
+    "By-period and previous-year reports use a separate path and are not covered",
+    "Tests added for the dimension-filtered figures"
   ],
   "change_kind": "fix",
   "behavior_change": true,

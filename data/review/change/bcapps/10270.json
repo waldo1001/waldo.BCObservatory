@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10270",
+  "input_hash": "13b90f9bcf48d3597a7e05b02ff327ba695f3da6abb19fc7d519d75efc9d4978",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:13.869Z",
+  "issues": [
+    "Fits the title and description (documentation repair and refactor). The diff is large, so it may include more than doc comments, but nothing given contradicts the page."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024466,
+    "changes_in_call": 6
+  }
+}

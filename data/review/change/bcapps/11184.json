@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11184",
+  "input_hash": "2501534f7a737688494eeb1f35274e750a7a10bbcc8eda71a7a0edfa393711b5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.491Z",
+  "issues": [
+    "The summary and key points match the description and the two changed User Management files (RU and W1).",
+    "The description mentions a test, but no test file is in the changed files. The page does not claim one, so nothing needs changing."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013535,
+    "changes_in_call": 6
+  }
+}

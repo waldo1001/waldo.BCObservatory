@@ -13,12 +13,12 @@ tags:
   - future direction
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:52.447Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Tech Days 2026
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-tech-days-2026/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-12 · 220 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-tech-days-2026/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-06-12 · 220 words · tier community · reviewed (checked by Opus)
 
 > The post reflects on BC Tech Days 2026, highlighting that AI agents dominated conference discussions and have become central to the Business Central community's focus. It emphasizes the shift from curiosity about AI capabilities to practical adoption questions.
 

@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Exporting and importing financial report definitions across companies no longer fails when status values don't exist in the destination company. Status fields in the imported definition are cleared to allow successful import.",
+  "summary": "Importing a financial report row definition (Acc. Schedule Name) into another company no longer fails when its Status code does not exist there. Before the package is applied, status codes missing in the destination company are blanked, so the definition imports with an empty status that the user can set later.",
   "key_points": [
     "Added a procedure to clear non-existing status values from imported packages before applying them",
     "Status codes are company-specific and are not included in exports, causing validation failures",

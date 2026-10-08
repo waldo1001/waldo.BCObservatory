@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/bertverbeek-nl/1173",
+  "input_hash": "6fad42093d159c51b8a815cb650f5cb33de16bbbed0a3f28ee620b2480ba4067",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:23.708Z",
+  "issues": [
+    "Key point merged two steps: per the post the model is registered in MLflow and the scored results are written to a lakehouse table; predictions are not registered in MLflow.",
+    "Summary, quote, features, systems and the 2018 version reference are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02761,
+    "posts_in_call": 4
+  }
+}

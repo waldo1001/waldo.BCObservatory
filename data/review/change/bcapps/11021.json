@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11021",
+  "input_hash": "c28dfec4b0d2d8c90c1aadc7d0d67d6ebe96db1b03563275caba28eab76a65ff",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:58.390Z",
+  "issues": [
+    "The page matches the description: the CLEAN30 guard becomes CLEAN29 and the obsolete tag goes from 30.0 to 29.0, with the action behavior unchanged. No new obsoletion is introduced, so the empty list is correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020606,
+    "changes_in_call": 6
+  }
+}

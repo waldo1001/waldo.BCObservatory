@@ -5,12 +5,13 @@
   "source": "thedynamicsexplorer-com",
   "published_at": "2026-03-02T10:00:00.000Z",
   "words": 878,
-  "summary": "Recurring General Journals in Business Central prevent using standard No. Series due to line persistence after posting. The post explains why this restriction exists and demonstrates two techniques: using Posting No. Series on the batch header, or employing placeholders in the Document No. field to automatically generate unique document numbers based on posting dates without manual updates.",
+  "summary": "Business Central blocks a regular No. Series on Recurring General Journal batches; the author assumes this is because lines stay after posting, so numbers would repeat. Two workarounds are shown: set a Posting No. Series on the batch so posted entries get unique numbers, or put date placeholders in the Document No. field so each posting builds a unique number from the posting date.",
   "key_points": [
-    "Recurring journals retain lines after posting with updated posting dates, preventing direct No. Series usage to avoid number reuse",
-    "Posting No. Series on the batch header generates unique document numbers for posted entries while keeping descriptive numbers on journal lines",
-    "Placeholders like %1 (day), %3 (month), %4 (month name), and %6 (year) dynamically replace in document numbers using the posting date",
-    "Placeholders eliminate manual document number updates for recurring journal postings while creating meaningful, date-based references"
+    "Recurring journal lines remain after posting and their posting date moves forward by the recurring frequency",
+    "The author believes the No. Series block exists to avoid the same number being reused on every posting",
+    "A Posting No. Series on the batch header numbers the posted G/L entries, ignoring the document number typed on the lines",
+    "Placeholders such as %1 day, %2 week, %3 month, %4 month name, %5 accounting period and %6 fiscal year are filled from the posting date",
+    "Placeholders work the same way as in deferrals and remove the need to edit document numbers before each posting"
   ],
   "systems": [
     "finance"

@@ -7,10 +7,10 @@
   "words": 1933,
   "summary": "Business Central version 28 adds approval workflow support to planning, requisition, and subcontracting worksheets at the batch level, allowing managers to review and approve suggested actions before they become real purchase orders or production orders. This feature prevents costly mistakes when planners carry out planning suggestions and addresses compliance requirements for segregation of duties.",
   "key_points": [
-    "Approval workflows now lock planning worksheet batches and prevent line modifications until approval completes or is rejected",
-    "Approvers review the entire batch as a unit and either approve, reject with comments, or delegate the request",
-    "Batch-level approval provides better control than line-level approvals and creates an audit trail of who proposed and authorized planning decisions",
-    "Setup uses the same workflow framework as purchase orders and general journals, configurable through the Workflows page"
+    "Once a requisition, planning or subcontracting worksheet batch is sent for approval, its lines cannot be inserted, changed or deleted, and the batch stays locked until the request completes or is canceled",
+    "Approvers handle the whole batch at once and can approve, reject or delegate it; a rejected batch returns to the planner with comments for rework",
+    "Approval is batch level only, so splitting MRP runs into several batches (by location, product type or planner) keeps approvals manageable",
+    "Setup uses the Requisition Worksheet batch approval workflow template on the Workflows page, with status tracked on Approval Entries and Power Automate support available"
   ],
   "systems": [
     "manufacturing",

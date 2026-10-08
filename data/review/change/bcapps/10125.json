@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10125",
+  "input_hash": "ca67f3bfeb72b415ed7a0f56242175bc71b983e57e48afa53388f3470dcf8e28",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.282Z",
+  "issues": [
+    "behavior_change should be false: the change publishes the existing grouping value through a new event, and default behavior stays the same unless an extension subscribes."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020196,
+    "changes_in_call": 6
+  }
+}

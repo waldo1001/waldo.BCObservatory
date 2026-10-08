@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcquality-prs/178",
+  "input_hash": "ac89bf81fd24432749269ecb7511e6c3189ab7bc29573452b00613227eedac43",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:35.391Z",
+  "issues": [
+    "The review skills no longer detect the retired rules, so review output changes. behavior_change should be true.",
+    "Key point 1 calls AS0062, AS0011 and AS0007 compiler-enforced checks. The PR lists them as rules separate from the compiler-enforced subscriber parameter matching.",
+    "The page leaves out the refined admission test, which now excludes compiler and analyzer duplicates."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022112,
+    "changes_in_call": 6
+  }
+}

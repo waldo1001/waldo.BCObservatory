@@ -2,7 +2,7 @@
 id: post/dvlprlife-com/https-www-dvlprlife-com-2026-08-i-finally-fixed-my-note-taking--bb0593bedf
 type: post
 title: I Finally Fixed My Note-Taking (It Wasn't a Note-Taking Problem)
-summary: A developer explains how they solved their note-taking problem by combining Markdown files in Obsidian with AI agents to automate organization and linking. The approach works by keeping plain text files synced across devices and using AI tools to route tagged content to the appropriate locations without manual filing decisions.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - knowledge-management
   - agents
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-08T01:54:08.766Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -85,17 +85,9 @@ preview:
 
 # I Finally Fixed My Note-Taking (It Wasn't a Note-Taking Problem)
 
-[Read the post](https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/) · DvlprLife (Brad Prendergast) · 2026-08-02 · 1132 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/08/i-finally-fixed-my-note-taking/) · DvlprLife (Brad Prendergast) · 2026-08-02 · 1132 words · tier community · **flagged** (a review found a problem)
 
-> A developer explains how they solved their note-taking problem by combining Markdown files in Obsidian with AI agents to automate organization and linking. The approach works by keeping plain text files synced across devices and using AI tools to route tagged content to the appropriate locations without manual filing decisions.
-
-## Key points
-
-- Plain Markdown files in a synced folder enable multiple tools (Obsidian, VS Code, AI) to access notes simultaneously
-- Daily note template with tagging convention eliminates decisions about where to file content
-- AI agents automatically route tagged items, create new topic files, and maintain wiki links
-- The real problem was note management and filing, not note capture itself
-- Plain text format ensures portability and independence from proprietary tools
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

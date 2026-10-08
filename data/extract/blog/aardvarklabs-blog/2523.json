@@ -7,10 +7,11 @@
   "words": 1090,
   "summary": "Page customizations in Business Central allow developers to tailor page layouts to specific user profiles without modifying core functionality. The post demonstrates how to create page customization objects and profiles in AL code to hide fields and actions, hide financial data from data entry users, and deploy customizations as part of an extension.",
   "key_points": [
-    "Page customizations are profile-specific layout changes that work similarly to page extensions but do not require object IDs",
-    "Customizations can only modify visibility and move fields; they cannot add triggers, procedures, or actions to maintain functional parity across all users",
-    "A profile definition links customizations to a role center and applies them when users switch to that profile",
-    "Multiple profiles can reuse the same customizations, allowing layered access control without code duplication"
+    "Page customization objects in AL change a page's layout for a specific profile. Unlike page extensions they have no object ID, so a name prefix is important to avoid collisions.",
+    "They can hide, move and add fields and hide actions, but cannot add triggers, procedures or actions, matching what in-browser customization allows.",
+    "A profile object names a role center and lists its customizations, and users switch to it via My Settings and the Role field.",
+    "One customization can be referenced by several profiles for reuse.",
+    "Profiles and their customized pages can also be managed by hand from the Profiles (Roles) page."
   ],
   "systems": [
     "development",

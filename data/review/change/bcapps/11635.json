@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11635",
+  "input_hash": "7afce754b1588b33ea9afef34e9e0abc25910654eb29898be79ec36b502c4324",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.253Z",
+  "issues": [
+    "The summary says 'all localization layers', but the change touches 11 specific layers.",
+    "The description gives only a work item link, so details beyond the title are vague. The key points keep to the title."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017874,
+    "changes_in_call": 6
+  }
+}

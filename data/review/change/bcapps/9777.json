@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9777",
+  "input_hash": "7886553c547453f2b83d5c02de7a4162d37bf1913a050392345608ee67356de6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:56.369Z",
+  "issues": [
+    "Accurate: the skip check now uses a SkipRecord variable and a new event fires after CalcFields and before Skip. The description says nothing changes when no subscriber is present."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019834,
+    "changes_in_call": 6
+  }
+}

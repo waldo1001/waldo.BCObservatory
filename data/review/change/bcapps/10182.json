@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10182",
+  "input_hash": "0fd64ee6205a88e6ec41c69ada6c0c6beb93746ca8107e9c2bae99778127bcd7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:29.034Z",
+  "issues": [
+    "Key point 5 says 'invoice discount' where it should say payment discount. Reworded. Everything else is supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020058,
+    "changes_in_call": 6
+  }
+}

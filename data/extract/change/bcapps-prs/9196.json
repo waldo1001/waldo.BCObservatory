@@ -8,13 +8,13 @@
     "manufacturing",
     "purchasing"
   ],
-  "summary": "What-If Impact analysis feature enables users to examine how supply chain changes affect demand and planning in manufacturing and inventory scenarios.",
+  "summary": "Adds a supply what-if analysis to analyze the negative impact of supply changes on demand, with new Supply What-If Scenario and What-If Impact tables and pages plus planning engine codeunits.",
   "key_points": [
-    "New What-If Scenario and What-If Impact tables and pages for analyzing supply changes",
-    "Supply What-If Planning Engine codeunit implements the analysis logic",
-    "Manufacturing Supply What-If Planning Engine handles production-specific scenarios",
-    "Integration with existing requisition worksheet and planning workflows",
-    "Support for transfer orders and purchase orders in impact analysis"
+    "New Supply What-If Scenario and What-If Impact tables with list pages",
+    "New Supply What-If Planning Engine codeunit and a manufacturing-specific engine codeunit",
+    "Planning code touched: Req. Wksh.-Make Order, Carry Out Action Msg. - Plan., Inventory Profile Offsetting and Calc. Item Plan",
+    "Purchase Order Subform, Transfer Order Subform and Released Prod. Order Lines pages modified",
+    "Tests added to SCM Planning and Manufacturing codeunit"
   ],
   "change_kind": "feature",
   "behavior_change": true,

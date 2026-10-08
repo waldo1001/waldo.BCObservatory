@@ -13,8 +13,7 @@
     "BC Prompt Kit organizes prompts into four categories: base development, feature analysis, documentation, and refactoring"
   ],
   "systems": [
-    "development",
-    "copilot"
+    "development"
   ],
   "topics": [
     "ai",
@@ -25,24 +24,7 @@
     "documentation",
     "refactoring"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "table"
-    },
-    {
-      "type": "page",
-      "name": "page"
-    },
-    {
-      "type": "codeunit",
-      "name": "codeunit"
-    },
-    {
-      "type": "api",
-      "name": "api"
-    }
-  ],
+  "objects": [],
   "features": [
     "AI-assisted code generation",
     "Documentation automation",

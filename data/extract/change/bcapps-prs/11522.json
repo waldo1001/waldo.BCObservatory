@@ -9,11 +9,10 @@
   ],
   "summary": "Production order copying in Order Planning now restricts the destination to nonrecurring Planning-type worksheets only, preventing invalid selections that would silently lose production demand when carrying out actions.",
   "key_points": [
-    "Production copy action restricted to Planning worksheet templates with Recurring = false",
-    "Template Type filter added to prevent selecting Requisition worksheets that cannot create production orders",
-    "Option renamed from 'Copy to Req. Wksh.' to 'Copy to Planning Wksh.' to reflect actual constraint",
-    "Prevents silent data loss when production lines are left unprocessed and deleted during nonrecurring batch cleanup",
-    "Validation ensures worksheet destination matches production order carry-out capability"
+    "The production worksheet template lookup is filtered to Template Type = Planning",
+    "The batch lookup is filtered to Recurring = false",
+    "The option caption changed from Copy to Req. Wksh. to Copy to Planning Wksh.",
+    "Prevents production demand being lost silently when inert production lines are deleted during nonrecurring batch cleanup"
   ],
   "change_kind": "fix",
   "behavior_change": true,

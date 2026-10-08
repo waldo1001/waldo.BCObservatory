@@ -8,10 +8,10 @@
   ],
   "summary": "The E-Doc. Data Exchange Impl. codeunit access level is changed from Internal to public, allowing partners to reuse its functions for custom E-Document implementations.",
   "key_points": [
-    "Access modifier removed from codeunit 6152 E-Doc. Data Exchange Impl.",
-    "Partners can now extend and reuse E-Document data exchange functions",
-    "Enables custom E-Document implementations by third parties",
-    "No behavioral changes for existing functionality"
+    "Access = Internal removed from codeunit 6152 E-Doc. Data Exchange Impl.",
+    "Partners can now call its functions from their own E-Document implementations",
+    "A one-line change was also made in table 6139 E-Doc. Service Data Exch. Def.",
+    "No functional change to existing behavior"
   ],
   "change_kind": "feature",
   "behavior_change": false,

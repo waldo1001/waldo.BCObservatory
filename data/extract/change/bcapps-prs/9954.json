@@ -7,13 +7,12 @@
     "integration",
     "purchasing"
   ],
-  "summary": "An action body was accidentally removed from the E-Document app, breaking purchase order pages. The action and its references have been restored to fix the compilation error.",
+  "summary": "An earlier change emptied the body of an E-Document action. Because it was then not emitted, actionrefs pointing to it stopped the Purchase Orders page from opening. This change restores the action body so the pages open again.",
   "key_points": [
-    "An action that was previously removed had no body or RunObject, causing it to not be emitted",
-    "The missing action broke actionref references in purchase order pages",
-    "Action bodies have been restored across multiple E-Document pages and extensions",
-    "Analyzer that should have caught this issue was disabled during the gate check",
-    "Pages can now be opened successfully again"
+    "An earlier change emptied an action's body, leaving it with no OnAction code and no RunObject, so it was not emitted",
+    "Actionrefs to the missing action stopped the purchase order pages from opening",
+    "The action code is restored in the E-Document page, the purchase order page extensions and the line matching objects",
+    "The change was merged because the analyzer was disabled on the BCApps gate"
   ],
   "change_kind": "fix",
   "behavior_change": true,

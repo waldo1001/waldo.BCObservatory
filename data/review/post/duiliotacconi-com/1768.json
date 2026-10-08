@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/duiliotacconi-com/1768",
+  "input_hash": "8378405d2b38b188368445be66cfed1803852535db79d6f46d473555e8539b5e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:39.637Z",
+  "issues": [
+    "System crm is not supported by the post.",
+    "Features describe event logistics, not Business Central functionality.",
+    "The post has waiting lists only for attendees and sponsors; speakers submit sessions through Sessionize. Everyone attending in person must register."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 3 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027662,
+    "posts_in_call": 4
+  }
+}

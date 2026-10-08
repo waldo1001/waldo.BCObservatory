@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "When posting to a period with a VAT Return already in status Released, the system now prevents duplicate error messages from appearing. The VAT Reporting Date Management codeunit was updated to validate the VAT Return status and avoid cascading errors.",
+  "summary": "Posting to a period whose VAT Return is already in status Released should no longer produce multiple error messages. The change updates the VAT Reporting Date Mgt codeunit and makes a one-line change to the VAT Entry table in each layer.",
   "key_points": [
-    "VAT Return status validation added to prevent posting when already Released",
-    "Multiple error messages consolidated into a single validation check",
-    "VAT Reporting Date Management codeunit enhanced with status check logic",
-    "Localizations across all regions (APAC, BE, CH, DACH, ES, FI, FR, IT, NA, NL, NO, RU, W1) updated consistently",
-    "Test coverage added across multiple localization layers to verify the fix"
+    "Addresses duplicate error messages when posting into a period with a Released VAT Return",
+    "VAT Reporting Date Mgt codeunit modified",
+    "VAT Entry table changed in the W1 layer and all localized layers",
+    "Tests added to ERM VAT Sales Purchase in several localization layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

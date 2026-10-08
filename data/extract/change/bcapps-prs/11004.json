@@ -6,12 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The expense report reimbursement process now correctly uses the employee's currency code instead of a potentially incorrect value, fixing an issue where currency mismatches could occur.",
+  "summary": "Fixes how the reimbursement currency code is set on expense reports created by the Create Expense Report codeunit in the Expense Agent app. A test covers the corrected behavior.",
   "key_points": [
-    "Corrected currency code assignment in expense report reimbursement logic",
-    "Applied fix to the Create Expense Report codeunit",
-    "Added test coverage for the corrected behavior",
-    "Prevents currency-related errors in expense processing"
+    "Corrected the reimbursement currency code handling in the Create Expense Report codeunit",
+    "Small code change (+2 -3) in the Expense Agent app",
+    "Added a test in the Expense Agent test app"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/14099",
+  "input_hash": "49a8dae172a47986bd57d2312ff26a7987f80f0094d4da09f8d0589089daa0bc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:09.979Z",
+  "issues": [
+    "Page Inspector appears as the subject of an idea, not as a named page object, so it was removed from objects.",
+    "The feature labelled Copilot for document management overstates the idea, which is about agents saving documents into SharePoint; removed.",
+    "Summary, key points, remaining objects, features and the single quote are supported by the list."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043055,
+    "posts_in_call": 4
+  }
+}

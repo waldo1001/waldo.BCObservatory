@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thinkaboutit-be/7609",
+  "input_hash": "66046dad43bbf8409e64bde82d25527064fa95bfe2e9b542ae0f0594078d54f9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:33.076Z",
+  "issues": [
+    "Summary, key points, features, version requirement and quote are supported by the post.",
+    "The administration system has no support; the post is about a developer tool only.",
+    "The objects list is empty although the post mentions standard tables, but nothing can be added under the edit rules."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032608,
+    "posts_in_call": 4
+  }
+}

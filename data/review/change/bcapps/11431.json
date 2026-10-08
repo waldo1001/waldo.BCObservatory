@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11431",
+  "input_hash": "e96ca4766f46b7dce3141fb3661cf8f02b36ef31b9b52ab07b6d0b0757a69a70",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:51.214Z",
+  "issues": [
+    "Accurately reflects the move from TestField hard errors to rule violations, the header-driven line re-evaluation, the new page field and the added tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016371,
+    "changes_in_call": 6
+  }
+}

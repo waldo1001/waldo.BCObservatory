@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9585",
+  "input_hash": "2b3f758a8afffcdbb82c36c569a2d83c9d82fd8a17c19c3fadc1de7e6cb0f367",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:03.158Z",
+  "issues": [
+    "Key point misstated the cause. The flag reset came after the early exit, so it was never reached when totals were up to date, and the flag stayed true."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02633,
+    "changes_in_call": 6
+  }
+}

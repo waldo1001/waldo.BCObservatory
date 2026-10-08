@@ -8,14 +8,14 @@
   ],
   "summary": "Shopify webhook subscriptions now request only the required fields (id for orders, admin_graphql_api_id and type for bulk operations) instead of receiving full webhook resources, reducing payload size and network overhead.",
   "key_points": [
-    "Added topic-specific includeFields parameters to webhook subscription GraphQL queries",
-    "Orders/create webhooks now request only the id field",
-    "Bulk operations finish webhooks now request admin_graphql_api_id and type fields",
-    "Existing subscriptions are not affected; changes apply to new or recreated subscriptions",
-    "No schema, permission, or upgrade changes required"
+    "Webhook subscriptions are now created with topic-specific includeFields",
+    "ORDERS_CREATE webhooks request only the id field",
+    "BULK_OPERATIONS_FINISH webhooks request only admin_graphql_api_id and type",
+    "Existing subscriptions are not changed; the reduced payload applies to new or recreated ones",
+    "No schema, permission, or upgrade changes"
   ],
   "change_kind": "performance",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

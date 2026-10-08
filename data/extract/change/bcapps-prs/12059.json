@@ -6,11 +6,11 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "The undo production entry function now correctly handles non-base units of measure when reversing production output postings.",
+  "summary": "Reversing a production entry no longer fails when the production output was posted using a non-base unit of measure. The fix is in the Undo Prod. Posting Mgmt. codeunit.",
   "key_points": [
-    "Fixed an issue where reversing production output failed when using non-base units of measure",
-    "Updated the Undo Prod. Posting Mgmt. codeunit to properly account for unit of measure conversions",
-    "Added test coverage to verify the fix handles non-base unit of measure scenarios"
+    "Reversing production output posted with a non-base unit of measure previously failed",
+    "Fix applied in codeunit Undo Prod. Posting Mgmt.",
+    "New test added in SCM Production Orders II"
   ],
   "change_kind": "fix",
   "behavior_change": true,

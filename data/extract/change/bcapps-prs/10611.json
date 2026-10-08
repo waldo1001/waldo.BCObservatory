@@ -6,7 +6,7 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "A corrective purchase credit memo now properly distinguishes itself from a copied credit memo when posting, preventing incorrect rollback of received and invoiced quantities on the original purchase order.",
+  "summary": "Posting a purchase credit memo created with Copy Document from a posted invoice no longer reverts the received and invoiced quantities on the original purchase order. GetPurchaseInvoiceLine now skips the Order No./Order Line No. fallback for inventory item lines without a linked item ledger entry.",
   "key_points": [
     "The Purchase Cr. Memo Line table gains logic to detect whether a credit memo is corrective or merely copied",
     "Posting a copied credit memo no longer reverts the source purchase order line quantities",

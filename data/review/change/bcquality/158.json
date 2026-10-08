@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcquality-prs/158",
+  "input_hash": "ee3d2244b284ad1eae297a792d212a8e3f33e704c042acacfc7da1d230050fb0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:57.446Z",
+  "issues": [
+    "The title says 3 patterns, but the description and files show 4 articles; the page correctly says four."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029713,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10159",
+  "input_hash": "ba80de4cd3c0e8d9d02bb3bc84f6730118dd33a60062fce600aee6fdf50399b8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.384Z",
+  "issues": [
+    "The description is minimal. It does not support the claim that the warning fires during finance setup or installation.",
+    "The input shows a 3-line change to the PowerBI Reports Setup page and 90 lines of logic in the Finance Installation Handler. That is the only placement it supports."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027164,
+    "changes_in_call": 6
+  }
+}

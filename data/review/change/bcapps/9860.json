@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9860",
+  "input_hash": "0466748ece953ec93aaf32c150de62e7287df97188dab601094fd50891795d56",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:15.279Z",
+  "issues": [
+    "Marked breaking, but the change only adds enums, a table extension, a codeunit and a service field; existing extensions keep compiling. Export output changes, which is a behavior change, not a breaking one.",
+    "Fix for the duplicate 'features' key in the DE demo data manifest was not mentioned."
+  ],
+  "applied": [
+    "key points rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023088,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9716",
+  "input_hash": "8fd0e2dd1de5c23668e9743cb095e169d8afe940f4178f32b788ac80cdac82cc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:06.654Z",
+  "issues": [
+    "Additive feature with two new procedures restricted to Microsoft callers; defaults outside SaaS and tests are supported by files and description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020666,
+    "changes_in_call": 6
+  }
+}

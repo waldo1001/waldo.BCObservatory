@@ -13,12 +13,12 @@ tags:
   - team collaboration
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:32.898Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,15 +86,16 @@ preview:
 
 # BC Friday Tips #48 Save Prompt File
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-48-save-prompt-file/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-19 · 82 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-48-save-prompt-file/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-19 · 82 words · tier community · reviewed (checked by Opus)
 
 > Business Central developers can save Copilot prompts in Visual Studio Code to reuse them repeatedly or share them with team members instead of retyping.
 
 ## Key points
 
-- Save prompts in your VS Code workspace or user data folder for persistent reuse
-- Avoid retyping the same prompt by storing it once in your development environment
-- Share standardized prompts across teams for consistent assistance and knowledge transfer
+- You can save a Copilot prompt to a file in VS Code
+- Store it in the workspace or in the User Data folder
+- Saved prompts can be reused at any time without retyping them
+- Team members can share the same saved prompt
 
 ## Quotes
 

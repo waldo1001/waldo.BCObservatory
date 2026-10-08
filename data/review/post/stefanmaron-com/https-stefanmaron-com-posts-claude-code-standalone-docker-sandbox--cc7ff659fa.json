@@ -1,0 +1,26 @@
+{
+  "item_id": "blog/stefanmaron-com/https://stefanmaron.com/posts/claude-code-standalone-docker-sandbox/",
+  "input_hash": "75cad302b5778d3e51562cc1a64c11b4d252572396ed9a68e20cb20b7f9cac68",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:31.818Z",
+  "issues": [
+    "Most of the post is about sandboxing Claude Code. It links to Business Central through the AL dev container repo, the AL instruction file and the planned BcContainerHelper and AL compiler tooling, so I kept it.",
+    "The summary did not mention the AL development context or the planned BC tooling.",
+    "One key point said network blocking is more reliable than git hooks. The post only says the hook was redundant and caused problems.",
+    "The post does not support the platform system."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037669,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12214",
+  "input_hash": "38f7ab6a08e24184a9b5b60404383a48790afb37aced9d50e1f22f4335524219",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:14.709Z",
+  "issues": [
+    "The page matches the description: currency handling is stored in the shared processor from the same shop snapshot, and both wrappers keep the value."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023383,
+    "changes_in_call": 6
+  }
+}

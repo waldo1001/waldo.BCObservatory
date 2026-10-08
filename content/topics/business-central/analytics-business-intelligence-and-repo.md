@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -625,7 +625,6 @@ links:
   videos: []
   posts:
     - post/thinkaboutit-be/7635
-    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -642,7 +641,7 @@ coverage:
   learn: 66
   code: 310
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -995,7 +994,6 @@ Start with the overview page to pick the approach, then move to the subtopic tha
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "analytics tools like Power BI, Data Analysis mode, and APIs enable dashboards"
-- [Business Central data in Fabric: the way it should be](../../posts/waldo-be/318707.md) (community post): "replicate their tables as Delta Parquet files in OneLake with SQL query access"
 
 ## Business Central pages and reports
 

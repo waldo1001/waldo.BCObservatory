@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/duiliotacconi-com/1667",
+  "input_hash": "61c02e7529279a9087c187948abd6a7934df5fea571806c0720934796cf16cd1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:43.812Z",
+  "issues": [
+    "Manufacturing is not discussed in the post; dropped.",
+    "Summary did not say that the new sort order depends on the Feature Management flag for concurrent item ledger and value entry posting; rewritten to make that dependency clear.",
+    "Objects, versions, features and key points are supported by the post and its code snippets."
+  ],
+  "applied": [
+    "summary rewritten",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034199,
+    "posts_in_call": 4
+  }
+}

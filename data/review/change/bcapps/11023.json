@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/11023",
+  "input_hash": "47bc1090da8e12a2cf8dffdc380ef75ee021dc683a89596c1faf25215c92cad4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:46.824Z",
+  "issues": [
+    "This corrects an earlier incorrect fix and resolves a work item, so it is a fix rather than a feature.",
+    "Nothing given confirms that the interface change adds methods. If it does, existing implementers of the PEPPOL Tax Info Provider interface could stop compiling. The breaking flag is left unchanged.",
+    "The analogous BaseApp changes are not mentioned."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030219,
+    "changes_in_call": 6
+  }
+}

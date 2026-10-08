@@ -6,13 +6,13 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "The Shopify Tax Matching Agent now correctly handles North American orders by restricting to US and Canadian orders, scoping Canadian HST/TVH jurisdictions to provinces, matching zero-rate tax lines, and improving the matching algorithm with updated keyword rules and prompt consistency.",
+  "summary": "The Shopify Tax Matching Agent now runs only for US and Canadian orders. It scopes Canadian HST/TVH jurisdictions by province, matches zero-rate tax lines, and holds orders as Tax Match Incomplete when a tax line is left without a jurisdiction. The matching prompt rules were also made consistent.",
   "key_points": [
-    "Tax matching restricted to US and Canadian orders only",
-    "Canadian HST/TVH jurisdictions scoped by province (e.g., ONHST, NSHST) to prevent rate conflicts across provinces",
-    "Zero-rate tax lines now matched like other lines instead of remaining unmatched",
-    "Matching prompt updated with consistent keyword rules, French jurisdiction names, and improved geographic scoping",
-    "Tax Match Review experience updated to show 0% rates as 0.00 and preserve full Shopify tax titles when creating jurisdictions"
+    "Tax matching now runs only for US and Canadian orders",
+    "Generic HST/TVH jurisdictions are scoped by ship-to province (e.g. ONHST, NSHST), while GST stays shared",
+    "Zero-rate lines are matched, and a 0% Tax Detail Rate shows as 0.00 on the review page",
+    "Orders with unmatched tax lines after a match is applied are held as Tax Match Incomplete",
+    "Prompt keyword rules were extended (RST, QST, French names), and new jurisdictions keep the full Shopify tax title"
   ],
   "change_kind": "fix",
   "behavior_change": true,

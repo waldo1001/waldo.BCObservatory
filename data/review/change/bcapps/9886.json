@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9886",
+  "input_hash": "79dc4e4f82db3976cb6feb1094d98e0add0651060641f50ab0e9a79726a09a07",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:40.738Z",
+  "issues": [
+    "Summary and key points match the described ES-layer fix in PostDtldEmplLedgEntries using absolute LCY comparison.",
+    "Page omits that disabled Expense Agent tests were re-enabled, but nothing stated is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034954,
+    "changes_in_call": 6
+  }
+}

@@ -6,14 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Withholding tax for employees now inherits the WHT product posting group from GL accounts when used as balance accounts in general journal lines, enabling support for various employee payment scenarios beyond expense management.",
+  "summary": "When a G/L account is used as the balance account on a General Journal line, the line now inherits the WHT product posting group from that G/L account. This lets withholding tax for employees be used outside expense management.",
   "key_points": [
-    "WHT product posting group can now be inherited from GL account to general journal line",
-    "Supports diverse employee payment types including dividends, stock compensation, and professional services",
-    "GL accounts can function as balance accounts for WHT inheritance",
-    "Extends WHT functionality beyond expense management use cases"
+    "WHT product posting group is inherited from the G/L balance account on general journal lines",
+    "Change is in the WHT Expense Category Mgt. codeunit of the Expense Withholding Tax app",
+    "Intended to let employee WHT also cover other payment types, not only expenses"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

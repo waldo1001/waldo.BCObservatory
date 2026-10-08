@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10880",
+  "input_hash": "589ffa95a3824b555167bfd5db55bff668bef5d11a5f0dbbfa4658798f572f5d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.727Z",
+  "issues": [
+    "Summary says the fix is about consistency 'across localization scenarios'; the inconsistency is between purchase lines sharing a VAT identifier, and localizations only appear in the tests.",
+    "Calling the 2 removed lines 'unnecessary code' is not supported by the input."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018515,
+    "changes_in_call": 6
+  }
+}

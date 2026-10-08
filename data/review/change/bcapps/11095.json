@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11095",
+  "input_hash": "a42131dbf373a718ad67dcc3fb058bb46400e7ef66b90b73f97fd9dca4e4d136",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:53.727Z",
+  "issues": [
+    "'All localization layers' overstates it: the change is in W1 and 13 country layers, and tests are in W1, IT, NA and RU only."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018515,
+    "changes_in_call": 6
+  }
+}

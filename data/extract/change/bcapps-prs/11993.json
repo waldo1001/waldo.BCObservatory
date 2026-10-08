@@ -8,12 +8,12 @@
   ],
   "summary": "The Expense Agent extension now enables HTTP client requests when the setup wizard opens, allowing service communication before full setup completion.",
   "key_points": [
-    "HTTP client allowance is set when the setup wizard initializes",
-    "The setting change runs as a try function to prevent setup blocking on failure",
-    "The allowance is applied before the first service probe for better flow",
-    "The allowance persists for all subsequent agent operations"
+    "The setup wizard enables HTTP client requests for the Expense Agent extension when it opens",
+    "The setting change runs as a try function, so setup stays available if the platform setting cannot be changed",
+    "The allowance is applied before the canary allowlist probe, the wizard's first Expense Agent service request",
+    "The allowance persists, so later registration, processing, notification and deactivation requests use it"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9282",
+  "input_hash": "c0fb5833c35816b51130305b8ba66b397dda3ee447a1abacb5c6f9304340ba65",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:39.374Z",
+  "issues": [
+    "The summary matches the issue and solution in the description.",
+    "The tables, the report and tests across several layers support the key points."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01829,
+    "changes_in_call": 6
+  }
+}

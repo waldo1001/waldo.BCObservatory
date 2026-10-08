@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/9947",
+  "input_hash": "213e70bcb49e02ba32e3b3ed96eb3d40959542c22140a0a2996e746cb7cbfddc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.384Z",
+  "issues": [
+    "Breaking should be false. The old FormatType(): Text[20] and OnBeforeFormatType contracts are kept as obsolete compatibility APIs, so existing extensions still compile and work.",
+    "This fixes a reported failure (AB#645033) when long localized captions are formatted, so change_kind should be fix.",
+    "Obsoletions 3 to 6 (posted invoice and credit memo lines) are not supported. Those files changed by only +1 -1 each, and the description names sales, purchase and standard line tables as the ones with the obsolete wrappers."
+  ],
+  "applied": [
+    "summary rewritten",
+    "kind fix",
+    "breaking false",
+    "dropped 4 obsoletion(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027164,
+    "changes_in_call": 6
+  }
+}

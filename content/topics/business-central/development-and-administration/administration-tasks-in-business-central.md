@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -377,7 +377,8 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c
   guidelines: []
   changes:
     - change/bcapps/9716
@@ -394,7 +395,7 @@ coverage:
   learn: 34
   code: 93
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 1
@@ -553,7 +554,8 @@ Start with "Administrative tasks in Business Central" for an overview, then go t
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9716 Expose AppService location and EUDB membership on Environment Information for internal consumption](../../../changes/bcapps/9716.md) (code change): "Environment Information now exposes App Service location and EU Data Boundary membership"
-- [BC Friday Tips #39 Troubleshoot Connectivity](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-39-troubleshoot-connectivity--d8ef6b6dba.md) (community post): "The Troubleshooting Connectivity page helps diagnose connection issues"
+- [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "administrators can now turn SIFT indexes on or off directly"
+- [Manage Database Index Usage in Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Administrators can view index details (name, size, usage statistics, enabled status)"
 
 ## Business Central pages and reports
 

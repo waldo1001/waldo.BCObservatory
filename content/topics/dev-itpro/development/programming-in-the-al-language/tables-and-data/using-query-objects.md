@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:53.992Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,7 +125,6 @@ links:
   posts:
     - post/aardvarklabs-blog/1822
     - post/aardvarklabs-blog/2017
-    - post/demiliani-com/15968
   guidelines: []
 learn_toc_path:
   - Development
@@ -139,7 +138,7 @@ coverage:
   learn: 9
   code: 24
   video: 0
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 16
@@ -213,7 +212,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Business Central Queries: Simplifying Complex Data](../../../../../posts/aardvarklabs-blog/1822.md) (community post): "Query objects link multiple tables together with join conditions"
 - [Step-by-Step Guide to Business Central API Queries](../../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured with API settings automatically expose data to external systems"
-- [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central 2026"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/vondervoort-be/37",
+  "input_hash": "c9af85f6c3e54fee3fb529945551caeeddf420f80a36aa63ad2ead542d8f1800",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:23.091Z",
+  "issues": [
+    "Key point claimed multiple sessions argued for moving to GitHub; the post describes a single session on that comparison.",
+    "Summary is acceptable; it loosely frames the agents session as BC-specific but stays within reason.",
+    "Quotes are verbatim and useful."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034835,
+    "posts_in_call": 4
+  }
+}

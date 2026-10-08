@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense Agent tests are repaired and re-enabled by fixing permission checks, correcting posted-history fixtures, and removing 14 test exclusions from the disabled-test manifest. Production code remains unchanged.",
+  "summary": "Expense Agent tests were repaired and re-enabled. The fixes cover permission checks, posted-history fixtures and foreign-currency fixtures, and 14 exclusions were removed from the disabled-test manifest. The Travel Requests API page was also adjusted, and HTTP API test exclusions stay in place.",
   "key_points": [
     "Fixed three permission-related tests by organizing permission observations under the correct restricted role before assertions",
     "Replaced invalid posted-history fixture with a properly posted zero-amount line to preserve genuine history",

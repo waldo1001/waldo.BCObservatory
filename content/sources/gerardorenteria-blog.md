@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot."
+summary: "Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, finance."
 tier: community
 language: es
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7a8b271b32b5079fc6b0dc6d254034d5fa354efa9fd75d0e6c745fa711dd503b
@@ -122,17 +122,17 @@ item_count: 78
 footprint:
   systems:
     - id: development
-      weight: 85
+      weight: 86
     - id: administration
-      weight: 40
-    - id: copilot
-      weight: 26
+      weight: 31
     - id: finance
       weight: 25
     - id: platform
       weight: 25
+    - id: copilot
+      weight: 24
     - id: sales
-      weight: 22
+      weight: 21
   topics:
     - id: feature requests
       weight: 14
@@ -186,7 +186,7 @@ last_item: "2026-09-23"
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, copilot.
+> Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, finance.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -194,12 +194,12 @@ last_item: "2026-09-23"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (85) | feature requests (14) | codeunit MyCodeunit (2) |
-| administration (40) | al development (12) | codeunit MyCodeunitTests (2) |
-| copilot (26) | localization (11) | table Vendor Ledger Entries (2) |
-| finance (25) | user experience (10) | codeunit 1255 (1) |
-| platform (25) | copilot (9) | codeunit 415 (1) |
-| sales (22) | cumulative updates (9) | codeunit 90 (1) |
+| development (86) | feature requests (14) | codeunit MyCodeunit (2) |
+| administration (31) | al development (12) | codeunit MyCodeunitTests (2) |
+| finance (25) | localization (11) | table Vendor Ledger Entries (2) |
+| platform (25) | user experience (10) | codeunit 1255 (1) |
+| copilot (24) | copilot (9) | codeunit 415 (1) |
+| sales (21) | cumulative updates (9) | codeunit 90 (1) |
 |  | hotfixes (9) | codeunit CLBlameMgmt (1) |
 |  | on-premises (8) | codeunit DimensionManagement (1) |
 |  | community ideas (6) | codeunit Error Message Handler (1) |

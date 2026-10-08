@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Expense Agent setup codeunits now check for existing country and currency codes before creating configuration records, preventing errors when demo data is incomplete.",
+  "summary": "Expense Agent setup now skips creating expense locations, rule conditions and rule headers for country and currency codes that do not exist. This avoids failures in customer databases that hold less data than the demo data.",
   "key_points": [
     "Added validation to skip expense location setup for non-existing country codes",
     "Added validation to skip expense rule condition setup for missing data",

@@ -2,7 +2,7 @@
 id: post/stefanmaron-com/https-stefanmaron-com-posts-turning-streams-into-blog-posts--a14b00029e
 type: post
 title: Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)
-summary: A developer built a Claude Code skill to automatically convert YouTube live streams into blog posts by downloading captions and frames, then having Claude write structured articles. The pipeline also enriches posts with documentation links, improving discoverability for both readers and AI tools like CentralQ.
+summary: A BC developer built a Claude Code skill that turns his YouTube live coding streams into structured blog posts. It uses captions and extracted frames, then adds a pass that inserts links to official docs. He converted 26 Business Central development streams this way, which also helps the community tool CentralQ because that tool handles written content better than video.
 tier: community
 language: en
 tags:
@@ -15,12 +15,12 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:29.353Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -63,8 +63,6 @@ quotes:
 code_objects_mentioned: []
 systems:
   - development
-  - copilot
-  - integration
 versions_mentioned: []
 preview:
   embeddable: true
@@ -80,9 +78,9 @@ preview:
 
 # Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)
 
-[Read the post](https://stefanmaron.com/posts/turning-streams-into-blog-posts/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-24 · 723 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/turning-streams-into-blog-posts/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-24 · 723 words · tier community · reviewed (checked by Opus)
 
-> A developer built a Claude Code skill to automatically convert YouTube live streams into blog posts by downloading captions and frames, then having Claude write structured articles. The pipeline also enriches posts with documentation links, improving discoverability for both readers and AI tools like CentralQ.
+> A BC developer built a Claude Code skill that turns his YouTube live coding streams into structured blog posts. It uses captions and extracted frames, then adds a pass that inserts links to official docs. He converted 26 Business Central development streams this way, which also helps the community tool CentralQ because that tool handles written content better than video.
 
 ## Key points
 

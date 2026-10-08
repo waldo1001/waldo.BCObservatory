@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9747",
+  "input_hash": "01a076574700f4570e3432fda48f0f2cabba72db1c692e28907c84f79bd68c7d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:08.687Z",
+  "issues": [
+    "The page is accurate. Only the error label text changed, in the IT layer, and a test was added.",
+    "Marking this as a behavior change is reasonable because users now see different message text."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016324,
+    "changes_in_call": 6
+  }
+}

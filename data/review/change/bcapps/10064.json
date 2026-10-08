@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10064",
+  "input_hash": "dbb5ab656716d5526027ba26c371e6969734f22e05eaa10894e430e32bcbac72",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:18.300Z",
+  "issues": [
+    "Matches the description: a field was added to the contract, its value is passed to the generated sales documents and the posted invoice, and a test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019056,
+    "changes_in_call": 6
+  }
+}

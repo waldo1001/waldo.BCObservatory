@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2392",
+  "input_hash": "3ba80fc9c8cc054c94527aeb609dfb70eca5071faf0b0247f0828e2031a04dd5",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:01:56.344Z",
+  "issues": [
+    "Summary and key points match the description, including the Unknown fallback, the 27 tests and no hostnames in telemetry."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017787,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,9 @@
   ],
   "summary": "Sales Line Discount % field now consistently accepts the same number of decimal places whether entered manually or imported via Configuration Package.",
   "key_points": [
-    "Fixed inconsistency where manual entry limited to 2 decimal places but imports allowed 5 decimal places",
-    "Modified the Sales Line Discount table validation logic",
-    "Added tests to verify consistent decimal handling across entry methods",
-    "Ensures data consistency regardless of input method"
+    "Resolves the mismatch where Configuration Package import accepted 5 decimal places for Line Discount % but manual entry allowed only 2",
+    "A one-line change to the Sales Line Discount table (7004) aligns the two entry methods",
+    "Tests added to ERMSalesDocumentsIII in the W1, APAC, IT, NA and NO layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

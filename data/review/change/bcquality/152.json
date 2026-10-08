@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/152",
+  "input_hash": "ff3f46488707036202c71a2521459039f23f62c33979cbd8712e9ac15d6f5c7b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:03.351Z",
+  "issues": [
+    "The page content matches the description. One key point was reworded for precision.",
+    "The description names a community-layer path and says no skill change is needed, but the files are under microsoft/knowledge and al-events-review.md was modified."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027346,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10514",
+  "input_hash": "6fd9d72c258e9c242d7308add3e08e72610511cd46ad41beb1b930b0bd624a19",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:03.214Z",
+  "issues": [
+    "Summary, key points and flags match the description. Only the repo's own build is affected, so breaking=false is reasonable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022694,
+    "changes_in_call": 6
+  }
+}

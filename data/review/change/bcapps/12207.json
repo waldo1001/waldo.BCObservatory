@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12207",
+  "input_hash": "12d31f43c85239207756c8fe6cbebd77a7ce7065e84af8fd45f17c1393ff4588",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:00.875Z",
+  "issues": [
+    "Nothing given says the billable marking is made in the MCP Server Feature enum.",
+    "The GUI-session prompt applies to JSON import, not activation; activation needs acknowledgement in every case.",
+    "The key points left out that the MCP capability is changed to Microsoft billed."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024618,
+    "changes_in_call": 6
+  }
+}

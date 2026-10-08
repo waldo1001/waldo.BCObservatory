@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10488",
+  "input_hash": "55cd487533b4dfb48743d1b1ae428fdb69d89ea9d65802c8e1aba1438163b445",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:53.353Z",
+  "issues": [
+    "The page is accurate. The event fires once per line after TransferFields and before the buffer insert, and it mirrors the existing header events.",
+    "The change is additive and not breaking, so the flags are correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019088,
+    "changes_in_call": 6
+  }
+}

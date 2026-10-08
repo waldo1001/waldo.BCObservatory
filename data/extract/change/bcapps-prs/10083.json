@@ -6,7 +6,7 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Copying a sales credit memo from a posted invoice that contains duplicate items now correctly matches each credit memo line to a distinct invoice line, preventing negative shipped and invoiced quantities on sales order lines.",
+  "summary": "When a sales credit memo created with Copy Document from a posted invoice that has the same item on several lines is posted, each credit memo line now resolves to a different invoice line. This stops negative Quantity Shipped and Quantity Invoiced on one sales order line while another order line stays unchanged.",
   "key_points": [
     "Added an overload to GetSalesInvoiceLine that tracks already-consumed invoice lines to avoid duplicate matching",
     "Introduced FindUnusedSalesInvoiceLine helper method to skip previously matched invoice lines",

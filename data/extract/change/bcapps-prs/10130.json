@@ -8,10 +8,9 @@
   ],
   "summary": "The Expense API page now exposes VAT specifications through a new part, and a new capability is added to the Expense Agent for backwards compatibility.",
   "key_points": [
-    "New VAT Specifications part added to the Expense API page",
-    "New capability exposed to Expense Agent for backwards compatibility",
-    "Changes are minimal and validated locally",
-    "No breaking changes or risks identified"
+    "New VAT Specifications part added to the Expenses API page",
+    "New value added to the Expense Capability enum",
+    "Expense Capabilities Provider updated to expose the new capability to the Expense Agent for backwards compatibility"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -7,10 +7,11 @@
   "words": 363,
   "summary": "The bc2adls extension for exporting Business Central data to Azure Data Lake Storage is now available on AppSource. Users with the existing PTE extension can migrate to the AppSource version using a migration app while preserving their exported data and configuration.",
   "key_points": [
-    "bc2adls moved from PTE to AppSource in 2026, providing easier updates and maintenance",
-    "A dedicated migration app copies data from PTE tables to AppSource tables automatically",
-    "Manual reconfiguration of Azure credentials (Tenant ID, Client ID, Client Secret) is required after migration",
-    "Users should verify migration success and test exports before uninstalling the old PTE extension"
+    "bc2adls is now on AppSource; a migration app moves existing PTE users over without losing data that was already exported",
+    "First upgrade the PTE to 27.47.0 or later and install the AppSource ADLSE app at 27.46.0 or later, then install the migration app",
+    "The migration app copies the ADLSE setup, table, field, timestamp, category, enum translation, deleted record and run tables to the AppSource tables",
+    "Tenant ID, Client ID and Client Secret must be entered again manually in ADLSE Setup after migration",
+    "Check the configuration and test exports, then uninstall the migration app and the old PTE"
   ],
   "systems": [
     "integration"
@@ -71,8 +72,7 @@
   "features": [
     "data export to azure data lake",
     "data export to microsoft fabric",
-    "extension migration",
-    "automatic table sync"
+    "extension migration"
   ],
   "versions": [
     "27.47.0",
@@ -80,10 +80,6 @@
   ],
   "language": "en",
   "quotes": [
-    {
-      "text": "bc2adls is available on appsource: Microsoft Marketplace",
-      "why_it_matters": "Marks the official release of the extension on AppSource, enabling easy discovery and management"
-    },
     {
       "text": "This migration app will automatically copy all the data from the PTE tables to the appsource tables.",
       "why_it_matters": "Explains the key benefit: data preservation during the migration process without manual intervention"

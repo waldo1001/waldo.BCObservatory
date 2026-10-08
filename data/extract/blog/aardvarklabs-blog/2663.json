@@ -5,13 +5,13 @@
   "source": "aardvarklabs-blog",
   "published_at": "2025-09-19T12:00:00.000Z",
   "words": 763,
-  "summary": "The post compares two authentication methods for Azure OpenAI in Business Central: unmanaged (user-controlled) and managed (Microsoft-maintained). Unmanaged offers control and customization but requires maintenance, while managed is simpler, includes grounded Bing search integration when Copilot web search is enabled, and includes costs in the Business Central subscription.",
+  "summary": "The post compares two ways for AL code to authenticate to Azure OpenAI in Business Central. SetAuthorization uses your own Azure OpenAI deployment, which gives you control but you pay for and maintain it. SetManagedResourceAuthorization uses the Microsoft-managed resource, which is included in the Business Central allotment, and it gets grounded Bing search when Copilot web search is enabled.",
   "key_points": [
-    "Unmanaged OpenAI lets you control deployment, location, model updates, and tuning through SetAuthorization, but requires ongoing maintenance",
-    "Managed resource uses SetManagedResourceAuthorization and is included in Business Central allotment without separate Azure billing",
-    "Managed resource with Copilot web search enabled provides grounded Bing search, allowing AI responses supplemented by real-time web data",
-    "Model upgrades in managed resource can change behavior; unmanaged gives control over update timing but requires retuning",
-    "Managed resource simplifies implementation but is not suitable if data containment is a concern"
+    "With SetAuthorization you use your own Azure OpenAI deployment and control the model, update timing, region and tuning, but costs go to your Azure subscription",
+    "SetManagedResourceAuthorization still needs an account name and API key, but its usage counts against the Business Central allotment and Microsoft maintains the service",
+    "If Copilot web search is enabled, the managed resource also gets grounded Bing search, so responses can include current web data",
+    "Grounded search is a preview feature and adds another layer to the OpenAI traffic, so it does not suit cases where data containment matters",
+    "The managed resource moves to newer models as old ones are deprecated, and prompts may then need retesting"
   ],
   "systems": [
     "copilot",
@@ -32,14 +32,6 @@
     {
       "type": "other",
       "name": "AOAI Model Type"
-    },
-    {
-      "type": "other",
-      "name": "SetAuthorization"
-    },
-    {
-      "type": "other",
-      "name": "SetManagedResourceAuthorization"
     }
   ],
   "features": [

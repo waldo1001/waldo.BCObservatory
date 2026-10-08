@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "The OnAfterSetAmountDecimal event in Matrix Management codeunit has its parameters reordered so AmountDecimal appears first, aligning with related events. This requires external subscribers to update their parameter order.",
+  "summary": "Matrix Management (codeunit 9200) reorders an event's parameters so AmountDecimal comes first, matching related events. The description names OnAfterSetAmountDecimal; the title names OnFormatRoundingFactor. Existing subscribers must update their parameter order.",
   "key_points": [
     "Parameter order of OnAfterSetAmountDecimal event changed to put AmountDecimal first",
     "Aligns event signature consistency with related events",

@@ -8,14 +8,13 @@
   ],
   "summary": "The Azure AD Tenant module now includes a method to check if a domain is verified in the tenant's list of verified domains, retrieved from Microsoft Graph.",
   "key_points": [
-    "New IsVerifiedDomain method added to validate domains against tenant's verified domain list",
-    "Uses Microsoft Graph /organization endpoint to retrieve verified domains",
-    "Supports skip review for trusted senders functionality",
-    "Returns empty list if LicensingService change is not deployed",
-    "Part of system-wide trusted sender handling"
+    "New IsVerifiedDomain method on codeunit Azure AD Tenant checks whether a domain is among the tenant's verified domains",
+    "Verified domains come from the Graph /organization endpoint data",
+    "Part of the skip review for trusted senders work",
+    "Depends on a LicensingService change; without it the verified domain list is empty (no crash), so use only after full roll-out"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

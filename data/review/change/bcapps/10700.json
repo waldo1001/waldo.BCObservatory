@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/10700",
+  "input_hash": "278826c402b945686b4008f54ba9079b8e0ede9889f6f938656be0712b24f4d9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:07.626Z",
+  "issues": [
+    "The description is only a work-item link. Nothing given shows existing extensions would break, so breaking is set to false.",
+    "The E-Doc PO Match Warning enum was modified, not added.",
+    "The page omits the new Base Application codeunits (PO Matching, PO Matching Group, Matched Order Line Mgmt., Invoiceable Receipts) that the title calls the PO matching API.",
+    "The page places the Receipt on Invoice Policy enum on Purchase Line. The files given do not show where the enum is used. Vendor and Vendor Card also changed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028932,
+    "changes_in_call": 6
+  }
+}

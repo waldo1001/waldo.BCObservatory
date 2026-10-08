@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/174",
+  "input_hash": "1898258cc4b544c89fc15b057655f6f1130bc6b5611da73bba20dc378f04ca6e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:47.743Z",
+  "issues": [
+    "The description lists small functional changes: folder-path support in the Community Agents review, validator recognition, and a repository guard alignment. So behavior_change should be true.",
+    "Mostly a documentation reorganization rather than a code refactor, so change_kind other fits better."
+  ],
+  "applied": [
+    "kind other",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019046,
+    "changes_in_call": 6
+  }
+}

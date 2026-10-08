@@ -8,10 +8,10 @@
   ],
   "summary": "Expense Report recall authorization is now restricted to the submitter or users with Unlimited Expense Approval, and non-submitter recalls are recorded as administrative activity outside the approval history.",
   "key_points": [
-    "Only the expense report submitter or users with Unlimited Expense Approval permission can recall pending expense reports",
-    "Non-submitter recalls are recorded as BC User activity with Administrator role",
-    "Administrative activity is kept separate from submitter and approver history participation",
-    "Covers genuine submitter, mapped and unmapped administrator, and unauthorized recall scenarios"
+    "Only the captured submitter or a user with Unlimited Expense Approval can recall a pending expense report",
+    "Recalls by someone other than the submitter are logged as BC User activity with a new Administrator role",
+    "Administrative activity is kept out of submitter and approver history",
+    "Tests cover genuine submitter, mapped and unmapped administrator, and unauthorized recall scenarios"
   ],
   "change_kind": "feature",
   "behavior_change": true,

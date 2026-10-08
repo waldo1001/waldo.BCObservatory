@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9123",
+  "input_hash": "30a05dbee26f51621d3bb19d64656518d8f4a2711137ebb3a6b4194e0cc55ff3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.150Z",
+  "issues": [
+    "The description says UI tests were added, but all changed files are pages and none is a test, so that key point is not supported by the diff."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017502,
+    "changes_in_call": 6
+  }
+}

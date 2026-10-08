@@ -8,10 +8,10 @@
   ],
   "summary": "The subcontracting transfer order report now raises a clear validation error when the subcontractor has no Subc. Location Code configured for WIP transfers, instead of showing a generic unhelpful message.",
   "key_points": [
-    "Replaces silent failure with actionable TestField error on blank Subc. Location Code",
-    "WIP transfer path now validates the location code consistently with the components path",
-    "Users get immediate feedback about the misconfigured vendor rather than a generic error at the end of the workflow",
-    "Regression test added to prevent recurrence of the generic error scenario"
+    "Replaces a silent exit with a TestField error on the vendor's blank Subc. Location Code in the WIP transfer path",
+    "WIP transfer path now validates the location code the same way the components path does",
+    "Users see an actionable misconfiguration error instead of the generic 'Nothing to create' message",
+    "Regression test added to the WIP transfer create test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

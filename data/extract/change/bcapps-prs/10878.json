@@ -13,17 +13,17 @@
     "integration",
     "manufacturing"
   ],
-  "summary": "Five diagnostic rules are promoted from Warning to Error level in the ruleset by removing global overrides and fixing the underlying issues in affected application objects across multiple localization layers.",
+  "summary": "Removes the Warning overrides for AL0254, AL0523, AA0242, AA0224 and AW0007 from the base ruleset so they apply as errors. The findings are fixed in code across many localization layers, with narrow suppressions kept for accepted existing behavior.",
   "key_points": [
-    "Five rules (AL0254, AL0523, AA0242, AA0224, AW0007) are promoted from Warning to Error in the base ruleset",
-    "Developers must fix or suppress actionable findings in 52 affected application files",
-    "Real fixes added for recursion, option-model/caption, partial-record, and missing-key issues",
-    "Global warning overrides reduced from 81 to 76 in base.ruleset.json",
-    "Tightly scoped ID-qualified suppressions retained for accepted pre-existing behavior"
+    "Five rules (AL0254, AL0523, AA0242, AA0224, AW0007) now apply at Error level in the repo ruleset",
+    "Partial-record loads fixed by adding fields to SetLoadFields calls",
+    "Missing captions added and prepayment test report request options separated from the internal option",
+    "New Employee Ledger Entry keys added for Closed by Entry No. and NL proposal sorting",
+    "46 ID-qualified suppressions kept; overrides drop from 81 to 76"
   ],
-  "change_kind": "breaking",
+  "change_kind": "refactor",
   "behavior_change": false,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "development",

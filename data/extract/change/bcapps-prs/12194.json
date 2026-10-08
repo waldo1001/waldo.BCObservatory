@@ -9,11 +9,11 @@
   ],
   "summary": "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials by default and require callers to opt in with SetUseDefaultCredentials(true) for on-premises installations, preventing unintended transmission of Business Central service account credentials to external hosts.",
   "key_points": [
-    "Default credentials are turned off by default in Http Web Request Mgt. and SOAP Web Service Request Mgt.",
-    "New SetUseDefaultCredentials(Boolean) method allows callers to opt in to sending default credentials for on-premises environments.",
-    "Fault-response trace logging is disabled by default in Http Web Request Mgt. and must be explicitly enabled.",
-    "Extension Marketplace never sends default credentials, only the AppSource telemetry callback.",
-    "Existing test libraries and local BC server calls opt in to default credentials to maintain Windows authentication support."
+    "Http Web Request Mgt. and SOAP Web Service Request Mgt. no longer use default credentials unless the caller opts in",
+    "New OnPrem SetUseDefaultCredentials(Boolean) lets callers turn default credentials back on",
+    "Fault-response trace logging in Http Web Request Mgt. is now off by default; use SetTraceLogEnabled(true)",
+    "Extension Marketplace never sends default credentials for its AppSource telemetry callback",
+    "Library - Graph Mgt test library opts in because API tests call the local BC server"
   ],
   "change_kind": "breaking",
   "behavior_change": true,

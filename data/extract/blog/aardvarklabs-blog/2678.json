@@ -7,11 +7,11 @@
   "words": 1144,
   "summary": "The Type Helper code unit is a utility in Business Central's System.Reflection namespace containing 74 procedures for data formatting, localization, type conversion, and math functions commonly used in API handling and advanced AL development scenarios.",
   "key_points": [
-    "Type Helper is a modular helper code unit that encapsulates reusable logic for common tasks like formatting, validation, and calculations",
-    "It contains 74 active procedures organized into categories covering dates, times, options, encoding, formatting, and bitwise operations",
-    "Procedures include Evaluate for type conversion, various FormatDate/FormatDateTime methods for localization, and encoding functions like UrlEncode, HtmlEncode, and JavaScriptStringEncode",
-    "The code unit provides timezone handling, UTC datetime operations, currency formatting, and utility functions like TextDistance and SortRecordRef",
-    "AL code compiles to .NET, and Type Helper mirrors .NET Reflection functionality while being tailored for Business Central's needs"
+    "Helper codeunits package reusable logic such as formatting, validation and calculations so the main business logic stays simple",
+    "Type Helper sits in the System.Reflection namespace and has 74 active procedures plus 2 obsolete ones",
+    "It covers evaluation of values, date and time formatting by culture, timezone and UTC handling, and option and field helpers",
+    "It also covers URL, HTML and JavaScript encoding, bitwise and math helpers, amount format strings, TextDistance and SortRecordRef",
+    "The author compares it to .NET Reflection helpers and says it is useful for API handling"
   ],
   "systems": [
     "development",

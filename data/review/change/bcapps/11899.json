@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11899",
+  "input_hash": "50e80958fe04e63ff2ec957ff22c182b05b5cec261e7ceedc04c2907f4a41792",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:52.626Z",
+  "issues": [
+    "Key point 5 wrongly places keeping the full Shopify tax title under the Tax Match Review experience. That change belongs to jurisdiction creation.",
+    "The page leaves out the new handling of orders with unresolved tax lines, which are now held as Tax Match Incomplete.",
+    "The summary calls the prompt updates 'improving the matching algorithm', which overstates them."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026042,
+    "changes_in_call": 6
+  }
+}

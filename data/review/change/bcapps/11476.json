@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11476",
+  "input_hash": "08cd7ef1c8d572a8800a3059fc5a70190ee950e43577e27bedfebb81b8f42e17",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:59.187Z",
+  "issues": [
+    "The summary says a component's replenishment changes. The title only says G-TOP-BOM-02's replenishment changes from assembly to purchase, and nothing says it is a component."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028859,
+    "changes_in_call": 6
+  }
+}

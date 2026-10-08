@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/142",
+  "input_hash": "3eccff8d9002663137a6f62e405123218e784a4799c3ea530bedbcd528807dbc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:28.329Z",
+  "issues": [
+    "The files add only six article sets. No company-open subscription article exists, so the claims of seven articles and of company-open coverage are unsupported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022339,
+    "changes_in_call": 6
+  }
+}

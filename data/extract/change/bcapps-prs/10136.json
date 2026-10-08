@@ -9,14 +9,14 @@
   ],
   "summary": "Swiss SEPA CT export now automatically extracts the clearing number from the IBAN when not explicitly provided, ensuring both values are populated for domestic payments and refunds.",
   "key_points": [
-    "Clears number extraction logic added to handle cases where clearing number is blank",
-    "Payment type determination now uses the extracted clearing number",
-    "MmbId in SEPA CT export file is populated with the correct clearing number",
-    "Tests added to validate the extraction behavior",
-    "No behavior change for payments where clearing number was already provided"
+    "Clearing No. is now extracted from the IBAN when it is blank",
+    "Payment type determination uses the extracted clearing number",
+    "MmbId in the Swiss SEPA CT file is populated with the clearing number instead of an invalid value",
+    "Vendor payments that already have a clearing number produce identical output",
+    "Tests added in both Swiss SEPA CT export test codeunits"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

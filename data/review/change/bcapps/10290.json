@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10290",
+  "input_hash": "f58bba5f5aa5ba39ed7390eef138fa035a793e136295e4e75bc8d4b4c8e1e5e9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:36.806Z",
+  "issues": [
+    "\"Null check\" is the wrong term; the change guards FindFirst with an if statement so missing entries are skipped. Everything else is supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023216,
+    "changes_in_call": 6
+  }
+}

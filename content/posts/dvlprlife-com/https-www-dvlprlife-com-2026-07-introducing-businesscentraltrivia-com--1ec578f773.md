@@ -11,14 +11,13 @@ tags:
   - trivia game
   - knowledge assessment
   - business central
-system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:12.946Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -77,8 +76,7 @@ quotes:
   - text: This is a wide-scale test, so your feedback is incredibly valuable.
     why_it_matters: Explains the community-driven approach to improving the platform through user participation.
 code_objects_mentioned: []
-systems:
-  - platform
+systems: []
 versions_mentioned: []
 preview:
   embeddable: true
@@ -94,7 +92,7 @@ preview:
 
 # Introducing BusinessCentralTrivia.com
 
-[Read the post](https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 193 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/07/introducing-businesscentraltrivia-com/) · DvlprLife (Brad Prendergast) · 2026-07-27 · 193 words · tier community · reviewed (checked by Opus)
 
 > BusinessCentralTrivia.com is an educational trivia game for Business Central users and learners, available on phone and desktop. The site offers pre-set questions across functional, historical, and development knowledge areas, with a test event running in late July 2026 featuring 50 daily questions and hourly play sessions.
 

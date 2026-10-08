@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02/",
+  "input_hash": "3ff2e3f8e4db9b1b813252dc8b815468ab8d379c7476cbb5fa8f25f8c3535998",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:09.637Z",
+  "issues": [
+    "PostSalesOrder and ProcessPurchaseOrder are function names in example prompts, not codeunits.",
+    "Customer Card is a page in the post, not a table.",
+    "The copilot system is not supported: the post covers GitHub Copilot and other external coding assistants, not Business Central Copilot features.",
+    "Summary, key points, features and the quote are otherwise supported."
+  ],
+  "applied": [
+    "dropped 3 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.039992,
+    "posts_in_call": 4
+  }
+}

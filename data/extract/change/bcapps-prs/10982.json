@@ -4,15 +4,15 @@
   "title": "[Main]-Test disabled after BCApps uptake: Reminder Automation Tests.TestReminderAutomationLogsInteractionWithIssuedReminderNumber fails (CZ)",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "A Czech localization report fix re-enables a previously disabled test for reminder automation that logs interactions with issued reminder numbers.",
+  "summary": "A one-line fix in the Czech Reminder CZL report resolves the failure of the reminder automation test that logs interactions with the issued reminder number in CZ, so the disabled test can be enabled again.",
   "key_points": [
-    "Test TestReminderAutomationLogsInteractionWithIssuedReminderNumber was disabled in Czech localization",
-    "Single line change in ReminderCZL.Report.al file",
-    "Addresses failure that occurred after BCApps uptake",
-    "Affects reminder automation functionality in Czech localization"
+    "One-line change in the Reminder CZL report (report 31182)",
+    "Fixes the CZ failure of TestReminderAutomationLogsInteractionWithIssuedReminderNumber",
+    "The test had been disabled after the BCApps uptake",
+    "Affects reminder automation in the Czech localization"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1696",
+  "input_hash": "36197d9c79547fa11dc905c15423eb4da8bee65568d51a2a4cd27a226ee1f1ba",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:14.577Z",
+  "issues": [
+    "Summary claims ToText() accepts no additional parameters, but the post shows date and time types take a boolean that switches to invariant output.",
+    "Key point mentions locale formatting, which the post does not state; the post says false is the default and true gives invariant formatting equal to Format(value,0,9).",
+    "Objects, features and quotes are supported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.04249,
+    "posts_in_call": 4
+  }
+}

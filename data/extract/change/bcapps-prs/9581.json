@@ -6,12 +6,12 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Shopify integration now supports Unlisted status when creating products and displays it in the status field tooltip. An Unlisted value was added to the product status enum with a new codeunit implementing the creation status interface.",
+  "summary": "The Shopify Status for Created Products option on the Shop Card now offers Unlisted, backed by a new codeunit implementing ICreateProductStatusValue. The Status field tooltip on the Shopify Products page now also lists unlisted.",
   "key_points": [
-    "Added Unlisted value to the status picker for new product creation on Shop Card",
+    "Added Unlisted value to the Shpfy Cr. Prod. Status Value enum used by the Status for Created Products picker on the Shop Card",
     "Updated Status field tooltip to include Unlisted alongside Active, Archived, and Draft",
-    "Created new codeunit implementing ICreateProductStatusValue interface for Unlisted status",
-    "Registered new functionality in Shopify Objects permission set"
+    "New codeunit Shpfy CreateProdStatusUnlisted implements ICreateProductStatusValue",
+    "New codeunit added to the Shpfy - Objects permission set"
   ],
   "change_kind": "feature",
   "behavior_change": true,

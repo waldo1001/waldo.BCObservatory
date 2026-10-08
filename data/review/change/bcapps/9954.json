@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9954",
+  "input_hash": "75e8174068654dd846559810bc83b1a2c7d4bad894d8504cb5dc1d3d29eda4c0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:10.533Z",
+  "issues": [
+    "The failure happened at runtime: the Purchase Orders page could not be opened. It was not a compilation error. The action was not emitted because its OnAction was empty and it had no RunObject, so actionrefs pointed to a missing action.",
+    "The first key point says the action itself was removed. Only its body was removed."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026433,
+    "changes_in_call": 6
+  }
+}

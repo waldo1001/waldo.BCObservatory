@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8871",
+  "input_hash": "7e92bbbda561b7c6a963df9288783ce86ebf09d94c2ab011c92602cbf7a426e3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:17.083Z",
+  "issues": [
+    "The description supports this: access restrictions were removed from procedures on page 30144 so extensions can use the dialog without copying it. The facade codeunit changes are in a separate PR, as noted."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016613,
+    "changes_in_call": 6
+  }
+}

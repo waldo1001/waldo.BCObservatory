@@ -6,15 +6,15 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Contoso demo tool for expense management was updated to include VAT rate settings and reorganize GL account setup, improving the initialization of expense demo data.",
+  "summary": "The Expense Agent Contoso demo data now includes expense VAT settings. G/L account demo data was added and registered in the Expense Agent Contoso module and country data, and the Create Expense VAT Rates codeunit was substantially reworked.",
   "key_points": [
-    "VAT rate creation logic was refactored to be more maintainable",
-    "GL account setup was added to the demo data initialization sequence",
-    "Expense categories and subcategories data structures were updated",
-    "Demo data setup follows a clearer two-phase structure (Setup Data then Master Data)",
-    "Test utilities for Shopify were adjusted to work with updated demo data initialization"
+    "Expense VAT settings added to the Contoso demo tool for the Expense Agent",
+    "New G/L account demo data added to the setup data",
+    "Expense Agent Contoso module and country data updated to include the new setup",
+    "Create Expense VAT Rates and Create Expense Categories codeunits reworked",
+    "Some Shopify test codeunits were also modified"
   ],
-  "change_kind": "refactor",
+  "change_kind": "feature",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

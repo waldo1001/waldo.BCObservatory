@@ -15,12 +15,12 @@ tags:
   - page extensions
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:32.258Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -64,11 +64,9 @@ quotes:
 code_objects_mentioned:
   - page 9110
   - page Item Ledger Entries
-  - other PageBackgroundTask
 systems:
   - development
   - platform
-  - copilot
 versions_mentioned:
   - June 28–July 4, 2026
 preview:
@@ -85,16 +83,16 @@ preview:
 
 # Weekly Review: Business Central AL Development – June 28–July 4, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/) · DvlprLife (Brad Prendergast) · 2026-07-06 · 648 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/07/weekly-review-business-central-al-development-june-28-july-4-2026/) · DvlprLife (Brad Prendergast) · 2026-07-06 · 648 words · tier community · reviewed (checked by Opus)
 
 > This weekly review curates Business Central AL development posts from June 28 - July 4, 2026, covering page background tasks, item attribute visibility, agentic development practices, and standardized AI scaffolding for development teams.
 
 ## Key points
 
-- PageBackgroundTask offers an AL-native alternative to JavaScript timers for page behavior needing timed refreshes or background polling without control add-ins
-- Teams can standardize AI-assisted AL development by packaging guidelines, agents, and skillsets into tooling like VS Code extensions versus having developers assemble their own
-- AI-generated code shifts development from complete code specification to code as one artifact produced from prompts, specs, tests, and feedback loops requiring clear acceptance criteria
-- Item Attributes Factbox (page 9110) can be reused on Item Ledger Entries pages using SubPageLink patterns and LoadItemAttributesData method calls
+- PageBackgroundTask is an AL-native option for timed refreshes or polling on pages, instead of JavaScript timers in control add-ins.
+- One team packaged its guidelines, agents, MCP setup and skillsets into a VS Code extension, which raises the question of ready-made tooling versus developers building their own.
+- With AI-generated code, the emphasis moves to defining intent, acceptance criteria, tests and review signals rather than reading every line.
+- Item Attributes Factbox (page 9110) can be added to Item Ledger Entries through a page extension. The part goes in the factboxes area and LoadItemAttributesData is called from OnAfterGetCurrRecord.
 
 ## Quotes
 
@@ -106,7 +104,6 @@ As named in the post. A name that matches one object page by exact type and name
 
 - page "9110"
 - [page 38 "Item Ledger Entries"](../../objects/page/38.md)
-- other "PageBackgroundTask"
 
 Not found in BC28-30: page "9110".
 

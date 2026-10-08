@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,7 @@ links:
   videos:
     - video/6Zb7VAvLVm4
   posts:
+    - post/aardvarklabs-blog/2017
     - post/thinkaboutit-be/7753
     - post/thinkaboutit-be/7943
     - post/thinkaboutit-be/7995
@@ -109,7 +110,7 @@ coverage:
   learn: 8
   code: 2
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 6316
@@ -159,6 +160,7 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI"
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Most Business Central Power BI issues stem from configuration problems"

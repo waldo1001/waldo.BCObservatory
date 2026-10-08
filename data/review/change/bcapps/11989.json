@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11989",
+  "input_hash": "edfc7ddd2960dc29bbee03d853d05fb9c9f714677894a29fb26883600ddb14c3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:11.036Z",
+  "issues": [
+    "Key point 1 says the check is removed; the PR only skips it for users with the Delegated Admin or Helpdesk plan, and the check remains for others.",
+    "Summary, flags and test coverage are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02058,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10067",
+  "input_hash": "1293d515d54ec40b62887a134626ed3fb66e2197c94abc035eee0fb1e571ebc3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:39.068Z",
+  "issues": [
+    "Two key points were filler: the net line reduction and the restated sync issue.",
+    "The PR fixes a bug item and aligns the workflow with the manual disposition form, so fix fits better than feature."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.013503,
+    "changes_in_call": 6
+  }
+}

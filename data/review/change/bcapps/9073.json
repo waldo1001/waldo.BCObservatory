@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9073",
+  "input_hash": "75331dda4aa4668a8e2579cd9b05434a1c2f27dba35f613ee007f9a5bb289629",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:04.516Z",
+  "issues": [
+    "Summary and key points match the description: in-memory mapping with a bulk save, FlowField reuse and progress throttling.",
+    "behavior_change false is acceptable because the output is unchanged, although progress dialog updates are throttled and the messages differ."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01855,
+    "changes_in_call": 6
+  }
+}

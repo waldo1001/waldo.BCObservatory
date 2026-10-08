@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15051",
+  "input_hash": "84e0ae1e8d04e0514df4d0e43b17f71bab8f3157b8cdc41664ce8312710798bc",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:08.942Z",
+  "issues": [
+    "Summary claims the view shows why a value changed; the post only covers which field, when, and which user.",
+    "Object names come from the listed AL files and the code sample; acceptable.",
+    "Quote 2 slightly trims the original sentence but keeps its meaning."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035701,
+    "posts_in_call": 4
+  }
+}

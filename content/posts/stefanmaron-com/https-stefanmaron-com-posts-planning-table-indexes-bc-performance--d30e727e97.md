@@ -2,7 +2,7 @@
 id: post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
 type: post
 title: Planning Table Indexes for the Best Performance
-summary: Table indexes in Business Central speed up reads but slow down writes by 10-20% per index added, creating a tradeoff that requires careful planning. The post explains clustered and non-clustered indexes, SIFT views, columnstore indexes, and practical strategies for choosing which indexes to create based on actual query patterns and access needs.
+summary: "Explains the read versus write trade-off of table indexes in Business Central: clustered and non-clustered indexes, covering indexes with IncludedFields, SIFT views and columnstore indexes. Gives rules of thumb (each index may add 10 to 20 percent write cost, keep SIFT views to one or two on write-heavy tables) and shows how to check index usage with the debugger, execution plans, RT0085 telemetry and the missing index page."
 tier: community
 language: en
 tags:
@@ -14,12 +14,12 @@ tags:
   - query optimization
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:53.591Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -68,14 +68,10 @@ quotes:
     why_it_matters: This core tradeoff explains why indexes must be carefully justified; they solve read performance at the cost of write performance across all DML operations.
   - text: Reducing each to 1 SIFT view resolved the problem completely.
     why_it_matters: Demonstrates that multiple SIFT views cause real-world deadlock problems in production; shows the direct impact of configuration choices on system stability.
-code_objects_mentioned:
-  - other SIFT
-  - other NCCI
-  - query Query objects
+code_objects_mentioned: []
 systems:
   - platform
   - development
-  - finance
 versions_mentioned:
   - v26.0
   - 2025 release wave 1
@@ -93,9 +89,9 @@ preview:
 
 # Planning Table Indexes for the Best Performance
 
-[Read the post](https://stefanmaron.com/posts/planning-table-indexes-bc-performance/) · Stefan Maron (Stefan Maron, MVP) · 2025-08-07 · 2072 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/planning-table-indexes-bc-performance/) · Stefan Maron (Stefan Maron, MVP) · 2025-08-07 · 2072 words · tier community · reviewed (checked by Opus)
 
-> Table indexes in Business Central speed up reads but slow down writes by 10-20% per index added, creating a tradeoff that requires careful planning. The post explains clustered and non-clustered indexes, SIFT views, columnstore indexes, and practical strategies for choosing which indexes to create based on actual query patterns and access needs.
+> Explains the read versus write trade-off of table indexes in Business Central: clustered and non-clustered indexes, covering indexes with IncludedFields, SIFT views and columnstore indexes. Gives rules of thumb (each index may add 10 to 20 percent write cost, keep SIFT views to one or two on write-heavy tables) and shows how to check index usage with the debugger, execution plans, RT0085 telemetry and the missing index page.
 
 ## Key points
 
@@ -109,16 +105,6 @@ preview:
 
 - "Every index you add slows down writes. Insert, update, delete - all of them have to maintain every index on the table." (This core tradeoff explains why indexes must be carefully justified; they solve read performance at the cost of write performance across all DML operations.)
 - "Reducing each to 1 SIFT view resolved the problem completely." (Demonstrates that multiple SIFT views cause real-world deadlock problems in production; shows the direct impact of configuration choices on system stability.)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- other "SIFT"
-- other "NCCI"
-- query "Query objects"
-
-Not found in BC28-30: query "Query objects".
 
 ## Context
 

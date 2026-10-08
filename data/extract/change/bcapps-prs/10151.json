@@ -6,13 +6,13 @@
   "systems_joined": [
     "crm"
   ],
-  "summary": "The VendCont-Update codeunit now elevates read permission to Contact Business Relation during vendor modification, allowing contact synchronization logic to execute properly without users needing additional direct permissions.",
+  "summary": "Vendor changes made through indirect permissions no longer fail when the contact update check reads Contact Business Relation. VendCont-Update now elevates read permission on that table, and CustCont-Update and BankCont-Update get the same small edit.",
   "key_points": [
-    "VendCont-Update codeunit now grants itself read permission to Contact Business Relation table",
-    "Fixes vendor contact relation updates that previously failed due to missing read permissions",
-    "Aligns permission pattern with existing CustCont-Update and BankCont-Update codeunits",
-    "No changes to contact synchronization behavior or user-facing functionality",
-    "Low-risk metadata correction following established permission elevation patterns"
+    "VendCont-Update now has read permission on Contact Business Relation",
+    "Fixes vendor modification failing for users with only indirect Vendor permissions",
+    "CustCont-Update and BankCont-Update are also modified with the same small edit",
+    "Users need no extra direct permissions; the contact synchronization logic itself is unchanged",
+    "No automated test added; modeled on the existing CustVendBank-Update permission pattern"
   ],
   "change_kind": "fix",
   "behavior_change": true,

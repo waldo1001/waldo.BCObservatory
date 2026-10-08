@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/waldo-be/318571",
+  "input_hash": "06f929787cd7d762bc1bc615fe965ca2b10c71730fa3919639bd3ec61ced1a72",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:04.075Z",
+  "issues": [
+    "Key point 4 presents the author's open questions as firm recommendations, so it was reworded to show they are speculative.",
+    "Everything else, including the quote, is supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047221,
+    "posts_in_call": 4
+  }
+}

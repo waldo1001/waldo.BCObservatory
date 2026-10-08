@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10424",
+  "input_hash": "fb4205bbf1e492746470c10486054ecf9e723f19a00f5db2993fcdc39633d3a9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:35.899Z",
+  "issues": [
+    "Accurate description of a new handled event in InsertServCost. The standard path is unchanged when the event is not handled, so behavior_change false is reasonable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016149,
+    "changes_in_call": 6
+  }
+}

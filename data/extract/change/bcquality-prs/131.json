@@ -4,12 +4,13 @@
   "title": "Correct table-level data classification guidance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Privacy guidance now correctly clarifies that table-level data classification is inherited by fields unless explicitly overridden, reducing false-positive guidance violations.",
+  "summary": "Privacy guidance now states that a valid table-level DataClassification is inherited by fields unless they override it. The fixture and related PII article were updated to separate inherited defaults from genuinely unclassified fields, which should stop false-positive review comments asking for redundant field-level declarations.",
   "key_points": [
-    "Table-level DataClassification is inherited by fields and does not require field-level redundant declarations",
-    "Corrected fixture and PII guidance to distinguish inherited defaults from genuinely unclassified fields",
-    "Addresses 19 false-positive privacy comments in BCApps by preventing incorrect redundant field-level declaration patterns",
-    "Verified behavior with AL 18 AppSourceCop that accepts inherited classifications"
+    "Fields inherit a valid table-level DataClassification unless they override it",
+    "Companion .good.al fixture and PII article updated to distinguish inherited defaults from unclassified fields",
+    "Old guidance caused 19 false-positive privacy comments on a BCApps PR",
+    "Findings are kept for fields whose inherited classification is missing or wrong",
+    "Behavior checked against AppSourceCop rule AS0016"
   ],
   "change_kind": "fix",
   "behavior_change": false,

@@ -6,16 +6,16 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The contact-link dialog for unmatched email senders now clearly distinguishes task-level contact overrides from contact data updates, includes the sender's email address, explains that matching uses both Email and Email 2 fields, and explicitly shows E-Mail 2 replacement details.",
+  "summary": "The contact-link dialog for unmatched email senders now clearly separates task-level contact overrides from updating contact data, shows the sender's email address, explains that matching uses both E-Mail and E-Mail 2, and spells out the E-Mail 2 replacement values.",
   "key_points": [
-    "Dialog now displays the unmatched sender's email address to help users understand matching failures",
-    "Clarifies distinction between task-level contact overrides and updating contact master data",
-    "Explains that contact matching checks both Email and Email 2 fields",
-    "Shows E-Mail 2 field replacement confirmation with current and replacement values",
-    "Low risk change affecting only captions and dialog text with no functional changes"
+    "Dialog now shows the unmatched sender's email address",
+    "Clarifies the difference between a task-level contact override and updating contact data",
+    "Explains that matching checks both E-Mail and E-Mail 2",
+    "E-Mail 2 replacement confirmation shows the field, current value and replacement value",
+    "Caption-only change; matching logic and option ordering are unchanged"
   ],
-  "change_kind": "feature",
-  "behavior_change": true,
+  "change_kind": "other",
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

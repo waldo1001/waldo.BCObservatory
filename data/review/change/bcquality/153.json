@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcquality-prs/153",
+  "input_hash": "309a4490cb4df0ba8f7399db0502ce3715066b58e7645c0c69d8a933521c257d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:34.703Z",
+  "issues": [
+    "Summary omits the stated purpose: keeping the knowledge available when consumers disable the Community layer.",
+    "That availability is a consumer-visible effect, so behavior_change should be true even though the files are pure renames.",
+    "The key point saying Community no longer holds Microsoft-endorsed knowledge overreaches; it should be scoped to the promoted articles."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023058,
+    "changes_in_call": 6
+  }
+}

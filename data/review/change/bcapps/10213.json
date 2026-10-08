@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10213",
+  "input_hash": "b975cd820dc91d48b2e61605c0af085d34f18c5bd12aede11e5463ead0593ea9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:58.390Z",
+  "issues": [
+    "The summary overstates the change as Order Date validation. In fact, validating other fields no longer pushes Order Date to a date before the work date.",
+    "The key point 'Starting Date is updated only when it passes validation' misreads the description. Starting Date is now set only through validation, so it is no longer set when Order Date is validated from code.",
+    "The key point that the change fixes the Calculate Plan workflow is unsupported. Calculate Plan was only used for testing."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020606,
+    "changes_in_call": 6
+  }
+}

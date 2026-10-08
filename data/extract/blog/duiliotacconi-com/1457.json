@@ -7,10 +7,11 @@
   "words": 1319,
   "summary": "Dynamics 365 Business Central 26.x introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages. A production environment with 2,000+ background sessions per hour saw nearly all Item Ledger Entry deadlocks disappear after upgrading and enabling these features, though subsequent third-party application deadlocks required targeted optimization.",
   "key_points": [
-    "The new inventory posting engine using Number Sequence objects reduces locking on Item Ledger Entry by changing transaction order, though it initially revealed deadlocks in third-party applications",
-    "Skipping FlowField calculations for hidden page columns significantly reduces query duration, sometimes by over 50 percent on list pages",
-    "When upgrading, enable both features carefully: test concurrency thoroughly with Business Central Performance Toolkit and verify no visible columns depend on hidden FlowFields",
-    "Optimization strategies include using appropriate isolation levels instead of locktable, applying SIFT Bucket No. distributed by session ID, and preferring Number Sequence over Autoincrement for bulk insert performance"
+    "The new 26.x inventory posting engine, built on Number Sequence, practically removed Item Ledger Entry deadlocks and lock timeouts in a busy online manufacturing environment",
+    "Changing the locking order exposed new deadlocks in in-house third-party apps, fixed with read isolation instead of locktable, SIFT tuning with a session-based bucket number, and Number Sequence instead of Autoincrement",
+    "Skipping FlowField calculation for hidden page columns cut page load times, sometimes dramatically when the hidden FlowField lacks an index",
+    "One visible standard column depended on a hidden FlowField and stopped calculating; making the hidden field visible via personalization fixed it",
+    "Test concurrency heavily with BCPT and check for visible fields depending on hidden FlowFields before enabling these features"
   ],
   "systems": [
     "inventory",
@@ -50,8 +51,7 @@
     "Visible FlowField calculation optimization",
     "Number Sequence object for inventory posting",
     "SIFT optimization with bucket distribution",
-    "ReadIsolation isolation level",
-    "Autoincrement deprecation for Number Sequence"
+    "ReadIsolation isolation level"
   ],
   "versions": [
     "26.x",

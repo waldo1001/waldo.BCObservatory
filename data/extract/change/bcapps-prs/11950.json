@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Payables Agent includes new email storage cleanup functionality accessible via URL parameter, allowing admins to identify and remove duplicate emails from inboxes.",
+  "summary": "Backport to BC29 of an email storage cleanup tool for the Payables Agent. It is reachable only through a URL parameter, helps find duplicate inbox emails and proactively sends admins steps for remediation.",
   "key_points": [
-    "Adds email storage cleanup UI page available through URL parameter",
-    "Includes setup table and duplicate detection buffer table",
-    "Provides email inbox row deletion capability",
-    "Scheduled cleanup runner with admin-controlled scheduling",
-    "Extended Payables Agent admin permission set for access control"
+    "Adds the PA Email Storage Cleanup page, reachable only through a URL parameter",
+    "Adds a setup table, a duplicate buffer table and a duplicates page",
+    "Adds codeunits for cleanup, a runner, a scheduler and inbox row deletion",
+    "Extends the Payables Ag. - Adm. permission set",
+    "Backport of PR 11890 to releases/29.x"
   ],
   "change_kind": "feature",
   "behavior_change": true,

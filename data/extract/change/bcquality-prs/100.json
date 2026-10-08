@@ -4,13 +4,13 @@
   "title": "Add P0 integration and control add-in runtime guidance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "New guidance and code samples added for SystemId API-part links, webhook eligibility lifecycle management, control add-in AJAX credential handling, and AL call throttling to improve integration and UI performance.",
+  "summary": "Adds guidance and code samples for linking API parts on SystemId with Multiplicity set, webhook eligibility and validationToken renewal, credentialed AJAX loading of packaged control add-in resources, and throttling AL calls and payload size from control add-ins. The web-services and UI review skills were extended to match.",
   "key_points": [
-    "SystemId API-part multiplicity configuration guidance with code examples",
-    "Webhook eligibility checks and validation token renewal patterns",
-    "Control add-in AJAX requests with proper credential credentials handling",
-    "AL call throttling and payload size optimization for control add-ins",
-    "Extended web-services and UI reviewer detection capabilities"
+    "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity",
+    "Webhook eligibility and validationToken renewal patterns with AL and JS samples",
+    "Control add-in AJAX requests for packaged resources need withCredentials",
+    "Control add-in calls to AL should be serialized and kept within a byte limit",
+    "Web-services and UI review skills gained new tokens, worklist cues and detection boundaries"
   ],
   "change_kind": "feature",
   "behavior_change": false,

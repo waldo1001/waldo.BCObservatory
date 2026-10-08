@@ -8,11 +8,11 @@
   ],
   "summary": "Contoso Coffee manufacturing demo data now includes a second subcontractor (Local Assembly) alongside the renamed Bulk Assembly subcontractor, with corresponding work centers, locations, and routing updates to support dual-sourcing scenarios.",
   "key_points": [
-    "Renamed existing subcontractor to Bulk Assembly (vendor 82000, work center 500, location S82000)",
-    "Added second subcontractor Local Assembly (vendor 83000, work center 600, location S83000)",
-    "Created inventory posting setup entries for both subcontracting locations",
-    "Updated manufacturing routing to point work center 500 to work center 600 with adjusted capacity (100 to 40)",
-    "Demo data is forward-only; existing databases retain original records unless explicitly overwritten"
+    "Existing subcontractor renamed to Bulk Assembly (vendor 82000, work center 500, location code changed from 82000 to S82000)",
+    "New second subcontractor Local Assembly added (vendor 83000, work center 600 with capacity 40, location S83000)",
+    "Inventory posting setup rows added for S82000 and S83000, created after the locations exist",
+    "Routing SP-SCM1009-SUB-2 now uses work center 600 (concurrent capacity 100 to 40); SUB-1 stays on work center 500",
+    "Forward-only demo data: databases already seeded with the old records are not migrated or overwritten"
   ],
   "change_kind": "feature",
   "behavior_change": true,

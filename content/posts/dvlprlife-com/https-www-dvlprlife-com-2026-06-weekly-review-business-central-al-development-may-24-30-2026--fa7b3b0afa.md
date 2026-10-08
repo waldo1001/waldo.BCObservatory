@@ -15,12 +15,12 @@ tags:
   - ai assistance
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:54:57.106Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -96,7 +96,7 @@ preview:
 
 # Weekly Review: Business Central AL Development – May 24–30, 2026
 
-[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/) · DvlprLife (Brad Prendergast) · 2026-06-02 · 1007 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-24-30-2026/) · DvlprLife (Brad Prendergast) · 2026-06-02 · 1007 words · tier community · reviewed (checked by Opus)
 
 > This weekly review covers five major developments in Business Central AL tooling and performance from May 24 - 30, 2026: index management via new DMV queries and disable/enable capabilities in BC 28, running unit tests without the base app to reduce CI time, Microsoft's OptimAL performance partner program, report layout lifecycle states in BC 28.1, and Claude Code configuration for clearer technical writing.
 

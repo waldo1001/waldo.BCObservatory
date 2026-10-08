@@ -8,11 +8,10 @@
   ],
   "summary": "Foreign currency unrealized gain/loss posting now selects the correct payables account when multiple posting groups are used, fixing an issue where wrong accounts were chosen during multi-posting group transactions.",
   "key_points": [
-    "Fixed account selection logic in foreign currency unrealized gain/loss calculations",
-    "Addresses multi-posting group scenarios in FCY applications",
-    "Corrected payables account determination in General Journal posting routine",
-    "Includes test coverage for bank payment application scenarios",
-    "Applied consistently across all localization layers"
+    "Fixes selection of the payables account for unrealized gain/loss in FCY applications that involve multiple posting groups",
+    "Changes codeunit 12 Gen. Jnl.-Post Line",
+    "Same change applied to W1 and the APAC, BE, CH, ES, FI, FR, IT, NA, NO and RU layers",
+    "Adds tests in the Test Bank Payment Application codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

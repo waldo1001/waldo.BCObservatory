@@ -8,11 +8,10 @@
   ],
   "summary": "Report 5754 now exposes pick headers before printing through an event, allowing extensions to implement grouped printing while preserving the default behavior.",
   "key_points": [
-    "Extracted standard pick-header enumeration and printing into a new event handler flow",
-    "Extensions can subscribe to print all picks in one consolidated report run",
-    "Existing default behavior remains unchanged for users without extensions",
-    "Event is marked with IsHandled flag to allow complete replacement of print flow",
-    "Addresses extensibility request to support batch printing of warehouse picks"
+    "Pick-header enumeration and printing extracted into FindAndPrintPickHeaders",
+    "IsHandled event added before that flow exposes the filtered pick headers",
+    "Subscribers can replace per-pick printing with one consolidated report run",
+    "Default printing behavior is preserved when the event is not handled"
   ],
   "change_kind": "feature",
   "behavior_change": false,

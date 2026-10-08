@@ -7,7 +7,7 @@
     "administration",
     "development"
   ],
-  "summary": "Recommended Apps and Connectivity Apps now use the official Marketplace Catalog API with Azure Key Vault integration instead of the deprecated undocumented endpoint that was blocked by WAF.",
+  "summary": "Recommended Apps and Connectivity Apps now get app logos from the official Marketplace Catalog API instead of the undocumented AppSource endpoint, which Azure WAF now blocks. The API key comes from Azure Key Vault and must be provisioned in the environment.",
   "key_points": [
     "Migrated from blocked undocumented endpoint to official catalogapi.azure.com API",
     "Integrated Azure Key Vault for secure API key management using SecretText",
@@ -15,7 +15,7 @@
     "Removed User-Agent spoofing no longer needed with official API",
     "Updated test assertions for new API error response format"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

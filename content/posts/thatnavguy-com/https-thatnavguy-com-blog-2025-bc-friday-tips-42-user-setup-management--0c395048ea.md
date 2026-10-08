@@ -13,12 +13,12 @@ tags:
   - code reuse
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:53.591Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
 
 # BC Friday Tips #42 User Setup Management
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-42-user-setup-management/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-08 · 69 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-42-user-setup-management/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-08 · 69 words · tier community · reviewed (checked by Opus)
 
 > The User Setup Management codeunit provides built-in functions for checking posting dates and retrieving sales/purchase filters, helping developers avoid reinventing common logic and maintain consistency across applications.
 

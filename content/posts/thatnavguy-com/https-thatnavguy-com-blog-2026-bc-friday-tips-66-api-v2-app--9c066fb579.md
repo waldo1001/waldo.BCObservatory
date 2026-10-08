@@ -13,12 +13,12 @@ tags:
   - vs code
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:31.818Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -58,8 +58,7 @@ words: 101
 quotes:
   - text: This app contains the standard API V2 objects used by Business Central.
     why_it_matters: Identifies the purpose of the hidden extension and what developers can access through it
-code_objects_mentioned:
-  - api Exclude_APIV2
+code_objects_mentioned: []
 systems:
   - development
   - integration
@@ -78,26 +77,21 @@ preview:
 
 # BC Friday Tips #66 API v2 app
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-03-06 · 101 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-03-06 · 101 words · tier community · reviewed (checked by Opus)
 
 > The Exclude_APIV2 app is a hidden Microsoft extension in Business Central that contains standard API V2 objects. Developers can explore this app via symbol files in VS Code to understand Microsoft's API design patterns and reference it when building or extending their own APIs.
 
 ## Key points
 
-- Business Central includes hidden Microsoft extensions like the Exclude_APIV2 app
-- The app contains standard API V2 objects that Microsoft uses internally
-- Developers can download symbol files to explore and study these API objects in VS Code
-- The app serves as a reference for designing and extending custom APIs
+- Business Central ships hidden Microsoft extensions, for example the Exclude_APIV2 app
+- The app holds the standard API V2 objects used by Business Central
+- Download the symbols and you can browse the app in VS Code
+- Use it to see how Microsoft designs standard APIs and copy objects you need to extend
+- It also works as a reference when you build your own APIs
 
 ## Quotes
 
 - "This app contains the standard API V2 objects used by Business Central." (Identifies the purpose of the hidden extension and what developers can access through it)
-
-## AL objects mentioned
-
-As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
-
-- api "Exclude_APIV2"
 
 ## Context
 

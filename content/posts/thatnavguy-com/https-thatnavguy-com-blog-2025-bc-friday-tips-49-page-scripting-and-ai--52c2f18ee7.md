@@ -15,12 +15,12 @@ tags:
   - user manuals
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:02.570Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -88,7 +88,7 @@ preview:
 
 # BC Friday Tips #49 Page Scripting and AI
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-49-page-scripting-and-ai/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-26 · 103 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-49-page-scripting-and-ai/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-09-26 · 103 words · tier community · reviewed (checked by Opus)
 
 > Page Scripting records and replays steps in Business Central for automated testing. AI can convert these scripts into user documentation and training manuals, reducing manual writing effort.
 

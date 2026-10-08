@@ -5,7 +5,7 @@
   "source": "duiliotacconi-com",
   "published_at": "2025-10-13T11:51:13.000Z",
   "words": 658,
-  "summary": "In Business Central 2025 Wave 2, a new sorting order for sales and purchase postings by Type and Line No. replaces the legacy Line No.-only sorting to reduce deadlocks in high-concurrency scenarios. This change improves performance but may require refactoring existing Per Tenant Extensions that depend on the old sorting order.",
+  "summary": "In Business Central 2025 Wave 2 (v27), enabling the Feature Management option that lets multiple users post item ledger and value entries at the same time also makes sales and purchase posting process lines ordered by Type and then Line No. instead of Line No. alone, reducing deadlock risk. Per Tenant Extensions that rely on the old line order may need refactoring and should be tested before upgrading.",
   "key_points": [
     "Legacy posting sorted by Line No. only, causing deadlocks with heavy concurrency due to inconsistent resource locking order",
     "Business Central 2025 Wave 2 introduces sorting by Type and Line No. when the feature flag is enabled",
@@ -14,7 +14,6 @@
     "The feature can be disabled via Feature Management to fall back to legacy posting if needed"
   ],
   "systems": [
-    "manufacturing",
     "sales",
     "purchasing"
   ],

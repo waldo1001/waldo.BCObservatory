@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10486",
+  "input_hash": "ee665cdf0201846fedb6f8995ada2d1f88a87dd01986db5a5fc6e099326106fb",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:34.703Z",
+  "issues": [
+    "Summary says 'disposal' instead of disposition and adds an unsupported claim about improving warehouse accuracy.",
+    "change_kind feature is debatable because the PR links a 'Fixes' work item, but it is kept."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023058,
+    "changes_in_call": 6
+  }
+}

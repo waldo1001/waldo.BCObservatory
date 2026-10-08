@@ -10,10 +10,10 @@
   "summary": "Adds agent-driven line matching to the Payables Agent, allowing agents to resolve purchase lines by navigating BC pages instead of using the AL PrepareDraft pipeline when the PAAgentDrivenLineMatching feature flag is enabled.",
   "key_points": [
     "Feature flag PAAgentDrivenLineMatching gates all new behavior, leaving default behavior unchanged",
-    "New historical line data loader retrieves up to 5000 posted purchase invoice lines prioritized by vendor and relevance",
-    "Six new lookup actions added to draft purchase lines for Text-to-Account Mappings, Historical Lines, Chart of Accounts, Items, and Deferral Templates",
+    "New historical line data loader retrieves up to 5000 posted purchase invoice lines from the last year, prioritized by vendor and relevance",
+    "Five new flag-gated lookup actions on draft purchase lines: Text-to-Account Mappings, Historical Purchase Lines, Chart of Accounts, Items, and Deferral Templates",
     "New agent-driven instructions prompt implements a collect-then-synthesize matching strategy across six data sources",
-    "New page customizations provide read-only, locked-down views for agent navigation"
+    "Six new read-only page customizations registered in the Payables Agent profile for agent navigation"
   ],
   "change_kind": "feature",
   "behavior_change": true,

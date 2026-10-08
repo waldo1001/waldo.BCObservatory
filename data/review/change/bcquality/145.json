@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/145",
+  "input_hash": "84cbfb209dddfb25153bf58733918ccd7dee76c3bbca9dc79f6a6ce04d746044",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:37.215Z",
+  "issues": [
+    "Key point 2 says the internal events are manually bound. In the description, a flag codeunit with EventSubscriberInstance = Manual is bound for the run and answers a local InternalEvent behind a public query procedure.",
+    "Key point 5 overstates the link. The description says the article was inspired by the ZUGFeRD and PEPPOL DE logic."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019062,
+    "changes_in_call": 6
+  }
+}

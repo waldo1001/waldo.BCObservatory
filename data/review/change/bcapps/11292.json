@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11292",
+  "input_hash": "bd0c1d9314f1f9349cbe263d41219b028a335b190e92d71627ed835a8b459e19",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:15.699Z",
+  "issues": [
+    "Page omits one of the four fixed paths: carry-out overwriting a manually entered worksheet Direct Unit Cost.",
+    "Summary lists only three of the four scenarios."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019011,
+    "changes_in_call": 6
+  }
+}

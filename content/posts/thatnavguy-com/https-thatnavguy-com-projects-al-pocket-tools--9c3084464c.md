@@ -13,12 +13,12 @@ tags:
   - code navigation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:55:07.820Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -94,7 +94,7 @@ preview:
 
 # AL Pocket Tools
 
-[Read the post](https://thatnavguy.com/projects/al-pocket-tools/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-21 · 159 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/projects/al-pocket-tools/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-05-21 · 159 words · tier community · reviewed (checked by Opus)
 
 > AL Pocket Tools is a VS Code extension that provides utilities for Dynamics 365 Business Central developers to streamline repetitive development tasks like managing app files, updating versions, and navigating code blocks.
 

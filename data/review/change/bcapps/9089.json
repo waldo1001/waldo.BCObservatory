@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/9089",
+  "input_hash": "79386de8c25fcd5f18dd91f4a8c034f590210b9a766ac16f6c86e9f44e3e2655",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:03.158Z",
+  "issues": [
+    "The description is empty, so the content can only be inferred from the title and file list.",
+    "Key point on aligning with a new exclusion framework is speculative.",
+    "Currency changes appear only in some layers (ES, NA), not broadly across regions."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02633,
+    "changes_in_call": 6
+  }
+}

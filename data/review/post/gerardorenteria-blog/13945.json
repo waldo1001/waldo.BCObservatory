@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/gerardorenteria-blog/13945",
+  "input_hash": "26377fe6921a9f16e8f43d3690fc2e2e10c6a0f6f6cd7d50c4cf19a5e556cf21",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:56:33.076Z",
+  "issues": [
+    "Post is bilingual Spanish/English; the English section supports the summary, key points and both quotes.",
+    "The Business Central link is through AL-specific instruction, agent and skill folders; relevance is acceptable.",
+    "The copilot system tag refers to GitHub Copilot rather than in-product Copilot, which is borderline but tolerable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032608,
+    "posts_in_call": 4
+  }
+}

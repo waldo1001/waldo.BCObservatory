@@ -7,10 +7,10 @@
   "words": 381,
   "summary": "New users in Business Central automatically receive full access to their first company based on their assigned license. Administrators can prevent this by modifying permission sets in the License Configuration page.",
   "key_points": [
-    "New users inherit default permissions based on their license type and security group assignments",
-    "The License Configuration page controls which permission sets are automatically granted with each license",
-    "Administrators can remove permission sets like D365 BUS FULL ACCESS to restrict default access",
-    "Changes to license configuration apply only to newly created users, not existing ones"
+    "New users get default permissions from their security groups and from the licence they are assigned",
+    "By default a licence such as Business Central Essential grants full access to the first company a user logs into",
+    "In the Licence Configuration page, edit the licence, turn on Customise Permissions and delete permission sets such as D365 BUS FULL ACCESS",
+    "Partner access can be controlled the same way by editing the Delegated Admin agent - Partner licence"
   ],
   "systems": [
     "administration",

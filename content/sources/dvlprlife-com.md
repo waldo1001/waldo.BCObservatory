@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5e9c5f01f71a5d2e830f8e690f799b803507f15be315eab072ea76a89e58e1ef
@@ -67,15 +67,15 @@ footprint:
     - id: development
       weight: 21
     - id: platform
-      weight: 13
+      weight: 11
     - id: administration
-      weight: 8
+      weight: 7
     - id: copilot
-      weight: 6
-    - id: integration
-      weight: 2
+      weight: 5
     - id: reporting
       weight: 2
+    - id: integration
+      weight: 1
   topics:
     - id: al development
       weight: 6
@@ -98,11 +98,7 @@ footprint:
     - id: ai agents
       weight: 2
   objects:
-    - id: api Business Central API page
-      weight: 1
     - id: codeunit Agent
-      weight: 1
-    - id: other PageBackgroundTask
       weight: 1
     - id: other Unit of Measure
       weight: 1
@@ -122,6 +118,10 @@ footprint:
       weight: 1
     - id: table General Journal Templates
       weight: 1
+    - id: table General Ledger Setup
+      weight: 1
+    - id: table User Setup
+      weight: 1
   features: []
 first_item: "2026-05-26"
 last_item: "2026-10-08"
@@ -137,18 +137,18 @@ last_item: "2026-10-08"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (21) | al development (6) | api Business Central API page (1) |
-| platform (13) | cumulative updates (5) | codeunit Agent (1) |
-| administration (8) | community (3) | other PageBackgroundTask (1) |
-| copilot (6) | gamification (3) | other Unit of Measure (1) |
-| integration (2) | github copilot (3) | page 9110 (1) |
-| reporting (2) | learning (3) | page ABC Analysis Setup (1) |
-|  | release waves (3) | page Agents (1) |
-|  | trivia (3) | page Index Management (1) |
-|  | version management (3) | page Item Ledger Entries (1) |
-|  | ai agents (2) | page Report Layouts (1) |
-|  |  | report Item – ABC Analysis (1) |
-|  |  | table General Journal Templates (1) |
+| development (21) | al development (6) | codeunit Agent (1) |
+| platform (11) | cumulative updates (5) | other Unit of Measure (1) |
+| administration (7) | community (3) | page 9110 (1) |
+| copilot (5) | gamification (3) | page ABC Analysis Setup (1) |
+| reporting (2) | github copilot (3) | page Agents (1) |
+| integration (1) | learning (3) | page Index Management (1) |
+|  | release waves (3) | page Item Ledger Entries (1) |
+|  | trivia (3) | page Report Layouts (1) |
+|  | version management (3) | report Item – ABC Analysis (1) |
+|  | ai agents (2) | table General Journal Templates (1) |
+|  |  | table General Ledger Setup (1) |
+|  |  | table User Setup (1) |
 
 ## Flight path
 

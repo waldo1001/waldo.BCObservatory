@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcquality-prs/98",
+  "input_hash": "74c8ab3fbcccb8f031957717c5cbadd78e0f3e95fd633bc42f7729860e2ff4e6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:50.333Z",
+  "issues": [
+    "The page matches the description. It leaves out the narrowing of the DefaultImplementation and IncludeSender guidance, but nothing it says is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019365,
+    "changes_in_call": 6
+  }
+}

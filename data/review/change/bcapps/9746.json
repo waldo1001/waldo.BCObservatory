@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9746",
+  "input_hash": "ae791ed11e6777a259b3759a9cf6949320e7fd122df19546c581456017e7e78c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:10:11.413Z",
+  "issues": [
+    "Summary and key points match the description of the CheckTariffNo change to use SalesLine.Amount.",
+    "The systems field lists purchasing, but the change is about sales invoices. That field cannot be edited here."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018359,
+    "changes_in_call": 6
+  }
+}

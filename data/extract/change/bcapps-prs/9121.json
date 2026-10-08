@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Production Order, Routing, and Components actions on the Item Ledger Entries page are now clickable for subcontracting transfer-type items by reading the production order from the Subc. Prod. Order fields when the base Order fields point to a transfer order instead.",
+  "summary": "Production Order, Routing and Components actions on the Item Ledger Entries page are now enabled for subcontracting transfer-type entries. When the base Order fields do not point to a production order, the production order is read from the Subc. Prod. Order fields.",
   "key_points": [
     "Actions are now enabled when Subc. Prod. Order No. is set, not just when base Order No. is a production order",
     "SetProdOrderInformationByVariant resolves production order from Subc. Prod. Order fields as a fallback",

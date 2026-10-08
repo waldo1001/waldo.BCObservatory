@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9421",
+  "input_hash": "b98790c5655233320374ad37763568cbcf89db48d83c550b02b758a289612333",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:15.454Z",
+  "issues": [
+    "Key point says 'all localization layers'; the files only show W1, APAC, NA and RU layers being changed."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02025,
+    "changes_in_call": 6
+  }
+}

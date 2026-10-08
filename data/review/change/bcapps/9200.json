@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9200",
+  "input_hash": "38e6303690cfa0baa1654071f1b4f7b53a4c502217483d36d784146d6fd80aa0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.867Z",
+  "issues": [
+    "The summary and key points match the description: the wizard step is skipped, the one-step upgrade has a guard, the mapping page can be closed, and the new OnPrem development action is described correctly.",
+    "The wording 'on-premise companies' is a little loose, since the action inserts the environment's existing companies, but it is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020415,
+    "changes_in_call": 6
+  }
+}

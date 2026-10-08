@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10088",
+  "input_hash": "7396939d4fc3e46d4da5244406d169fd50d7a45a14a32fc4e7236378608452e1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:33.228Z",
+  "issues": [
+    "Key point claimed source fixes in 13 files; 13 is the total including base.ruleset.json, so source fixes span 12 files.",
+    "Fix types also included application area ordering, not only formatting, casing and metadata.",
+    "Summary, change_kind refactor and flags are supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023696,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9545",
+  "input_hash": "1e1ed51a7715c70ff4c738349aff6746d453bbc7ca15ed3f96e8f6986bf838d2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:22.222Z",
+  "issues": [
+    "The key point saying 18 country layer forks is wrong. The description says 40 page forks across 18 country layers.",
+    "Everything else is supported: 16 reports, a tooltip-only metadata change, and the same pattern as earlier cleanups."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047174,
+    "changes_in_call": 6
+  }
+}

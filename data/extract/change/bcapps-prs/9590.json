@@ -6,11 +6,11 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Fixed an error that incorrectly required consolidated companies to have the Consolidated field set to Yes when exporting BAS Calculation Worksheets in the Australian localization.",
+  "summary": "Exporting the BAS Calculation Worksheet for a consolidated company in the Australian localization no longer fails with the error 'Consolidated must be equal to Yes'.",
   "key_points": [
-    "Resolved validation error preventing BAS worksheet export for consolidated companies",
-    "Removed incorrect validation logic from BAS Management codeunit",
-    "Added test coverage for the fix"
+    "Fixes the 'Consolidated must be equal to Yes' error when exporting the BAS Calculation Worksheet for a consolidated company",
+    "Small logic change in codeunit 11601 BAS Management in the AU layer",
+    "Adds a test in the AU BAS Reporting test codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": true,

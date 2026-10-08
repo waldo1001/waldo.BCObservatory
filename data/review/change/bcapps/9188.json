@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9188",
+  "input_hash": "68bc48c919680a6af5e09285e5833f08707f93251f9395fd3b3159da1171a349",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:13:21.437Z",
+  "issues": [
+    "Key point calls CU 30113 'Customer import', but 30113 is Shpfy Cust. By Email/Phone (the mapping path). Customer Import is CU 30117, which already had the fallback."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024405,
+    "changes_in_call": 6
+  }
+}

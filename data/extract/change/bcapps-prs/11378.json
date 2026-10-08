@@ -7,13 +7,13 @@
     "development",
     "integration"
   ],
-  "summary": "The SII Setup table and cross-intercompany connector are enhanced with setup validation and telemetry tracking to monitor data exchange operations and configuration changes.",
+  "summary": "Backport to 29.x of setup and telemetry enhancements for the Cross Intercompany connector and its setup pages and for the Spanish SII Setup table, taken from #11016. Automated intercompany tests were added.",
   "key_points": [
-    "SII Setup table extended with additional configuration fields",
-    "CrossIntercompany connector enhanced with telemetry logging",
-    "Setup validation logic added to modify setup page",
-    "New automated tests added for intercompany and SII functionality",
-    "Partner setup page logic refined"
+    "Backports only the intercompany and SII parts of #11016 to releases/29.x",
+    "CrossIntercompany Connector codeunit gets most of the changes, described as setup and telemetry enhancements",
+    "Cross Intercompany partner and modify setup pages are adjusted",
+    "SII Setup table is changed and the SII endpoint URL validation tests are updated",
+    "New ERM intercompany tests in the W1 and RU layers"
   ],
   "change_kind": "feature",
   "behavior_change": true,

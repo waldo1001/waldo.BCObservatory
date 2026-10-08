@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/117",
+  "input_hash": "c99b13270042780dfcd2e404a03734bca8a1bbb4712ab1dcac576e50d82507ba",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:03.158Z",
+  "issues": [
+    "behavior_change should be true: PR review now raises medium findings for cases it previously left silent."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02633,
+    "changes_in_call": 6
+  }
+}

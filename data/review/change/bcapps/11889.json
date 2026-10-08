@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11889",
+  "input_hash": "1135ce0184322ff32fb6cc2da685313d9a0b2528464396fe5315743cca4a1966",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:50.402Z",
+  "issues": [
+    "Only the Create Expense Agent Setup codeunit changed; no table or page changed, so calling it a new setup field is not supported.",
+    "Title calls it a bug, but the description says the PR adds a configuration, so feature is acceptable."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019837,
+    "changes_in_call": 6
+  }
+}

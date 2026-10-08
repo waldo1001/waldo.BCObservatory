@@ -5,12 +5,13 @@
   "source": "dvlprlife-com",
   "published_at": "2026-07-27T23:55:00.000Z",
   "words": 740,
-  "summary": "AL EventLens 0.1.6 adds a handler lens that shows test usage counts for handler functions in test codeunits, making it easy to spot unused handler code. The release also fixes ten parser bugs that silently dropped or fabricated events, plus addresses issues with directive text, string literals, and subscriber selection.",
+  "summary": "AL EventLens 0.1.6 for VS Code adds a CodeLens over test handler functions that shows how many tests use each handler, or marks it unused, so dead handlers are easy to spot. The release also has ten fixes, mostly parser bugs that silently dropped or invented events, plus index, reveal and command palette fixes. It also describes how a review caught a regression introduced by one of those fixes.",
   "key_points": [
-    "Handler lens displays usage counts for MessageHandler, ConfirmHandler, PageHandler and other test handler functions, with clickable references",
-    "Identifies dead test code by showing unused handlers that accumulate when tests are deleted but their handlers remain",
-    "Parser fixes address critical issues where apostrophes, attribute names in strings, unclosed brackets, and quoted colons caused events to be dropped or invented",
-    "Automated differential testing found that a preprocessor directive fix inadvertently created a new bug where trailing comments could fabricate publishers"
+    "Handler lens shows test usage counts above handler functions such as MessageHandler, ConfirmHandler and PageHandler, or marks them unused",
+    "Counting is scoped to the declaring test codeunit, so the lens needs no index and works as soon as a file opens; it has its own enable setting",
+    "Parser fixes cover apostrophes in directive text, attribute names inside strings, unclosed EventSubscriber attributes and quoted parameter names with colons",
+    "Non-parser fixes cover index loss on save, Reveal Subscriber selecting nothing, wrong cursor line and argument-only commands in the palette",
+    "A differential harness comparing old and new parsers found that the directive fix let trailing comments create fake publishers"
   ],
   "systems": [
     "development"
@@ -29,8 +30,7 @@
     "Test handler usage tracking",
     "Parser bug fixes",
     "Unused handler detection",
-    "Subscriber reveal",
-    "Differential testing"
+    "Subscriber reveal"
   ],
   "versions": [
     "0.1.6"

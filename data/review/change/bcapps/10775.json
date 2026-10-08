@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10775",
+  "input_hash": "f7c787e7b3b0623f0f92a2ac5377aac3593ee9f27e79e8e9377f7b033b02b272",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:43.037Z",
+  "issues": [
+    "The summary says 'unmapped items', but the cues cover unmapped customers, products and companies."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016551,
+    "changes_in_call": 6
+  }
+}

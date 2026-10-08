@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3120",
+  "input_hash": "4c3bd1e875721a6f8e681a137460ae3fec4aab70e41ef60baaac815366acd8fe",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:56:40.475Z",
+  "issues": [
+    "The summary, objects and quote match the post.",
+    "Key point 4 slightly overstates where global dimensions are available: the post says nearly everywhere, not everywhere. This is minor and left as is.",
+    "The administration system is a weak fit but acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.049582,
+    "posts_in_call": 4
+  }
+}

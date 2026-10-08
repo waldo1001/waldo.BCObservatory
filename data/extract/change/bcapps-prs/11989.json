@@ -8,11 +8,11 @@
   ],
   "summary": "The Effective Permissions page now works for delegated admins and helpdesk users in SaaS instead of blocking them, since the underlying platform crash that prompted the original guard has been fixed.",
   "key_points": [
-    "Removes a check that prevented delegated admins and helpdesk users from opening the Effective Permissions page",
-    "Allows the page to work when Authentication Object ID is empty for delegated users",
-    "Platform has resolved the crash that originally required the guard, allowing safe removal for delegated users",
-    "Still blocks non-delegated users without an Entra ID account",
-    "Includes tests covering delegated admin, delegated helpdesk, and non-delegated user scenarios"
+    "Skips the Entra ID check in the Effective Permissions page for users with the Delegated Admin or Helpdesk plan",
+    "Delegated users have an empty Authentication Object ID, so before this fix the page always blocked them",
+    "The platform crash that originally required the guard has been fixed",
+    "Non-delegated users without an Entra ID account still get the error",
+    "Adds tests for delegated admin, delegated helpdesk and non-delegated user cases"
   ],
   "change_kind": "fix",
   "behavior_change": true,

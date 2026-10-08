@@ -4,13 +4,13 @@
   "title": "Add testing knowledge: UI handlers, table relations, asserterror, fixtures (P1+P2)",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Six new testing knowledge articles added to BCQuality covering UI handlers, table relations, fixture setup and assertion error validation with code examples.",
+  "summary": "Adds three testing knowledge articles to BCQuality under microsoft/knowledge/testing: UI handlers in tests, pairing asserterror with expected error checks, and using library codeunits for test fixtures. Each article has a markdown page plus good and bad AL examples.",
   "key_points": [
-    "Addresses LLM knowledge gaps in BC-specific test mechanics like UI handlers, table relations and assertions",
-    "Each article includes good and bad AL code examples plus detailed guidance",
-    "Covers critical runtime errors that look like test failures but require platform-specific fixes",
-    "Articles follow existing BCQuality format with frontmatter, markdown and code files",
-    "Increases BCQuality knowledge base from 192 to 198 articles"
+    "New article on UI handlers needed for UI calls in tests",
+    "New article on pairing asserterror with Assert.ExpectedError and ExpectedErrorCode",
+    "New article on using library codeunits instead of hand-rolled Init/Insert fixtures",
+    "Each article ships as a markdown file with good and bad AL samples",
+    "Content targets BC-specific test mechanics that LLMs tend to get wrong"
   ],
   "change_kind": "feature",
   "behavior_change": false,

@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 497263211a0617bf65e20447900470952eda94b05ab2cbdb41616236f539a730
@@ -70,17 +70,17 @@ item_count: 26
 footprint:
   systems:
     - id: development
-      weight: 22
+      weight: 21
     - id: platform
       weight: 16
     - id: administration
-      weight: 15
+      weight: 13
     - id: finance
       weight: 10
     - id: copilot
       weight: 5
     - id: integration
-      weight: 5
+      weight: 4
   topics:
     - id: al development
       weight: 10
@@ -142,12 +142,12 @@ last_item: "2026-10-07"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (22) | al development (10) | table General Journal Templates (2) |
+| development (21) | al development (10) | table General Journal Templates (2) |
 | platform (16) | automation (3) | table General Ledger Setup (2) |
-| administration (15) | business central 2026 (3) | table User Setup (2) |
+| administration (13) | business central 2026 (3) | table User Setup (2) |
 | finance (10) | extensions (3) | codeunit No. Series (1) |
 | copilot (5) | github copilot (3) | codeunit No. Series - Impl. (1) |
-| integration (5) | bc28 (2) | interface INotification (1) |
+| integration (4) | bc28 (2) | interface INotification (1) |
 |  | configuration (2) | other app.json (1) |
 |  | database performance (2) | other copilot-instructions.md (1) |
 |  | date formulas (2) | other File.Download (1) |

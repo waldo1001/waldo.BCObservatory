@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/kine-cz/https://blog.kine.cz/posts/bcdevelopmentserie-02b/",
+  "input_hash": "3590c3057539a9fca1dee2d9f299f2473fd6383c298a2764da9b9ee1f69f18b4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:04.075Z",
+  "issues": [
+    "Key point 1 has a garbled phrase about item tracking corruption.",
+    "Key point 2 says there are eight validation dimensions, but the post lists more than a dozen. Eight is the number of production extensions the author looked at.",
+    "Quote 1 swaps the post's dash for a hyphen, but the wording matches, so it stays.",
+    "The objects, features and summary are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.047221,
+    "posts_in_call": 4
+  }
+}

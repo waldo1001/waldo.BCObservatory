@@ -5,7 +5,7 @@
   "source": "stefanmaron-com",
   "published_at": "2025-08-07T07:00:00.000Z",
   "words": 2072,
-  "summary": "Table indexes in Business Central speed up reads but slow down writes by 10-20% per index added, creating a tradeoff that requires careful planning. The post explains clustered and non-clustered indexes, SIFT views, columnstore indexes, and practical strategies for choosing which indexes to create based on actual query patterns and access needs.",
+  "summary": "Explains the read versus write trade-off of table indexes in Business Central: clustered and non-clustered indexes, covering indexes with IncludedFields, SIFT views and columnstore indexes. Gives rules of thumb (each index may add 10 to 20 percent write cost, keep SIFT views to one or two on write-heavy tables) and shows how to check index usage with the debugger, execution plans, RT0085 telemetry and the missing index page.",
   "key_points": [
     "Every added index increases insert or update time by 10-20% and can raise deadlock risk in multi-user environments; justify each index by confirming it's actually needed and used",
     "Clustered indexes define physical row ordering and are used by Get() and range queries; non-clustered indexes speed lookups on non-primary-key fields but BC limits you to 40 per table",
@@ -15,8 +15,7 @@
   ],
   "systems": [
     "platform",
-    "development",
-    "finance"
+    "development"
   ],
   "topics": [
     "performance",
@@ -26,20 +25,7 @@
     "table design",
     "query optimization"
   ],
-  "objects": [
-    {
-      "type": "other",
-      "name": "SIFT"
-    },
-    {
-      "type": "other",
-      "name": "NCCI"
-    },
-    {
-      "type": "query",
-      "name": "Query objects"
-    }
-  ],
+  "objects": [],
   "features": [
     "Clustered Indexes",
     "Non-Clustered Indexes",

@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thedynamicsexplorer-com/37257",
+  "input_hash": "388c069c13c74c329afffed2555d9c6662955b43ad3c981b743155cb397adbdd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:55:36.135Z",
+  "issues": [
+    "Summary and key points match the post's setup and posting walkthrough.",
+    "The reporting system is only a passing mention (statistical accounts can also feed financial reports) and is not what the post is about, so it is dropped.",
+    "Objects and features are page or action names the post uses; kept."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037791,
+    "posts_in_call": 4
+  }
+}

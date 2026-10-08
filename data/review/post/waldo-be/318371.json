@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/waldo-be/318371",
+  "input_hash": "63fa064c3a7678f6c10d19501a14ebae6302b49af8ddbf1f3fad31b6a8bc66d1",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:47.777Z",
+  "issues": [
+    "The reporting system is not supported: the post covers telemetry analysis output and charts, not Business Central reports.",
+    "Summary, key points and features are otherwise accurate."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.046716,
+    "posts_in_call": 4
+  }
+}

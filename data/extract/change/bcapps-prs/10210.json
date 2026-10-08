@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed orphaned Sales Subscription Lines left behind by \"Delete Invoiced Sales Orders\" and \"Delete Invd Blnkt Sales Orders\" reports by adding event subscribers and batch deletion procedures on the Sales Header table extension.",
   "key_points": [
-    "Added two event subscribers in Sales Subscription Line Mgmt. codeunit to handle deletion of subscription lines when sales documents are deleted",
-    "Created public DeleteSalesServiceCommitments() procedure on Sales Header table extension to centralize batch deletion logic",
-    "Reports 299 and 291 now trigger subscription line cleanup through OnAfterDeleteSalesLinesLoop and OnAfterDeleteBlanketOrderLine events",
-    "Public procedures include XML documentation to support external callers who need deletion logic",
-    "Added three tests validating cleanup behavior for invoiced orders, blanket orders, and posting scenarios"
+    "Added two event subscribers in Sales Subscription Line Mgmt. so the Delete Invoiced Sales Orders and Delete Invd Blnkt Sales Orders reports also delete Sales Subscription Lines",
+    "Report 299 cleanup hooks OnAfterDeleteSalesLinesLoop so lines are removed even when a Charge (Item) line keeps the order",
+    "New public DeleteSalesServiceCommitments() on the Sales Header extension batch-deletes a document's subscription lines and is shared by both reports, Sales-Post and Sales-Quote to Order",
+    "DeleteSalesServiceCommitment on Sales Line and the new header procedure are public with XML documentation for external callers",
+    "Three new tests cover invoiced orders, blanket orders and posting"
   ],
   "change_kind": "fix",
   "behavior_change": true,

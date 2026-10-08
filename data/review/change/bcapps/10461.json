@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10461",
+  "input_hash": "1778ad8194ce578fd4fe890dfecccf92530ba1766ffa41107370c5d0ab69f153",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:53.353Z",
+  "issues": [
+    "The first key point suggests this PR adds the Failed status to the Agent Runtime. The runtime already added it, and this PR only adopts it.",
+    "The key point about COMMIT is muddled. The transition runs before the send loop because an error cannot be trapped once a COMMIT has happened.",
+    "The page leaves out the upgrade cleanup of attempt rows and the new SOA Set Reply Failed codeunit."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019088,
+    "changes_in_call": 6
+  }
+}

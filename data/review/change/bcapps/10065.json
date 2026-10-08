@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10065",
+  "input_hash": "71e14d75daab81eafc2c72c82771cbabd068a0d41b6ce03b3618d8c9796b0016",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:45.380Z",
+  "issues": [
+    "Key point about improved validation logic in the permission management codeunit is not supported by the description.",
+    "Summary reframes the table relation error fix as validation."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024922,
+    "changes_in_call": 6
+  }
+}

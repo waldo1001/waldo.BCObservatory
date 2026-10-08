@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11441",
+  "input_hash": "accdf269f931018910686a49a378a312b82f5c7e88ca1b0199a9490e50a69538",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:49.872Z",
+  "issues": [
+    "The key point claiming the message applies consistently across wizard and scheduler paths overstates the description. Only wizard paths that reach the scheduler get the new message, and broader wizard handling is out of scope."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020698,
+    "changes_in_call": 6
+  }
+}

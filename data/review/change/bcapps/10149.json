@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10149",
+  "input_hash": "0e3086dc70f2a3beb16cc1de0520652fc632a7a30b1aa9c56f82c57272894db3",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:08:13.869Z",
+  "issues": [
+    "Summary garbled how the page opens: it opens from Tell Me or direct access and then shows a table selection dialog.",
+    "Key point named Indexes List Part as the button target; the description only says a button goes from Table Information to the index management page, replacing a hyperlink."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024466,
+    "changes_in_call": 6
+  }
+}

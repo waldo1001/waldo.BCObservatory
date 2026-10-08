@@ -7,15 +7,15 @@
   "words": 951,
   "summary": "This introduction to a development series explains the importance of architecture, best practices, and long-term maintenance for Business Central extensions, addressing gaps that AI tools alone cannot fill. It covers topics like app types, dependency management, testing, performance, and delivery strategies for developers of all experience levels.",
   "key_points": [
-    "AI-assisted development lowers barriers to entry but developers need guidance on architecture, patterns, and best practices beyond code generation",
-    "Long-term commitment to customers requires solutions that are maintainable and future-proof, not just working today",
-    "The series covers 11 major topics: app types, architecture, dependencies, development process, testing, performance, delivery, and maintenance",
-    "Understanding code and architectural decisions is critical; AI is a tool to accelerate development, not a replacement for knowledge"
+    "AI makes it easier to start building Business Central extensions, but it does not cover architecture, delivery or maintenance",
+    "ERP development is a long-term commitment, so solutions must stay maintainable over the years",
+    "Planned parts: using AI, PTE vs AppSource apps, extension architecture, dependency management, development process, testing, performance, delivery and maintenance",
+    "The series is for beginner and experienced developers, with marked sections for consultants, project managers and decision makers",
+    "Use AI as a tool, but understand the code and the consequences of your design choices"
   ],
   "systems": [
     "development",
-    "platform",
-    "integration"
+    "platform"
   ],
   "topics": [
     "best practices",

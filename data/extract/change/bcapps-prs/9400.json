@@ -8,13 +8,13 @@
   ],
   "summary": "Early Access Preview feedback now routes to the correct OCV feedback area instead of appearing in the general feedback category.",
   "key_points": [
-    "Feedback from Early Access Preview features is now properly tagged with OCV metadata",
-    "Both release-level and feature-level feedback use the EarlyAccessPreview area",
-    "No changes to user-facing prompts or feature names",
-    "Only routing metadata is modified, no behavioral impact"
+    "Feedback from the Early Access Preview Features page was sent without OCV area metadata and landed in the general feedback area",
+    "Feedback at release level and at feature level now goes to the EarlyAccessPreview area",
+    "Feedback prompts and feature names stay the same",
+    "Only routing metadata passed to the platform feedback API is added"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

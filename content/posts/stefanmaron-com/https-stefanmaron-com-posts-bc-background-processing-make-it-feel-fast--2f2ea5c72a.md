@@ -15,12 +15,12 @@ tags:
   - scalability
 system: platform
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:56:34.347Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -81,7 +81,6 @@ quotes:
     why_it_matters: Explains the cloud advantage of database-backed background tasks that enable auto-scaling and server instance load balancing
 code_objects_mentioned:
   - table Job Queue Log Entry
-  - codeunit Codeunit.Run
 systems:
   - platform
   - development
@@ -101,17 +100,17 @@ preview:
 
 # If You Can't Make It Fast, Make It Feel Fast
 
-[Read the post](https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-24 · 1311 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/) · Stefan Maron (Stefan Maron, MVP) · 2026-02-24 · 1311 words · tier community · reviewed (checked by Opus)
 
 > When operations take time despite optimization, BC developers can make them feel faster by moving blocking work to the background instead of waiting for user input. The post explores four background processing tools (Page Background Tasks, StartSession, TaskScheduler, and Job Queue), their use cases, and how BC online's auto-scaling distributes batch workloads across server instances to keep UI sessions responsive.
 
 ## Key points
 
-- User perception matters as much as actual performance; blocking work that doesn't need the user can feel slow even if correct
-- BC offers four layered background processing options suited for different scenarios, from read-only UI calculations to recurring scheduled tasks
-- Job Queue is most capable for recurring work but recurring entries should never error; chain them so failures in transactional entries don't stop the recurring job
-- TaskScheduler and Job Queue work cross-cluster in BC online, allowing heavy batch work to distribute across available servers while keeping UI sessions on responsive instances
-- Medical device manufacturer case study: moving production planning from synchronous to background Job Queue eliminated 2-minute waits and deadlocks with 20 concurrent users
+- How fast a process feels to users matters as much as how fast it actually is; making users wait for work that needs no input from them is a design choice
+- BC offers four layered background options: Page Background Tasks for read-only page data, StartSession for fire-and-forget work, TaskScheduler for database-backed scheduled tasks, and Job Queue for recurring, logged, user-managed jobs
+- Recurring Job Queue entries should never error; let them only find work and create separate transactional entries so one failure does not stop the rest
+- In BC online, TaskScheduler and Job Queue work can run on any server instance in the cluster, while Page Background Tasks and StartSession stay on the caller's instance
+- In a hearing-aid manufacturing case, moving production planning on order release into a Job Queue removed the user wait and made each planning faster by running them one after another
 
 ## Quotes
 
@@ -124,9 +123,6 @@ preview:
 As named in the post. A name that matches one object page by exact type and name links to it; the others stay as named.
 
 - [table 474 "Job Queue Log Entry"](../../objects/table/474.md)
-- codeunit "Codeunit.Run"
-
-Not found in BC28-30: codeunit "Codeunit.Run".
 
 ## Context
 

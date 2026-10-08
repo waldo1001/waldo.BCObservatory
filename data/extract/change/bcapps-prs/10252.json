@@ -6,11 +6,10 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Audit log table references were removed from the Financial Report Auditing codeunit to resolve an issue.",
+  "summary": "Four lines referring to audit log tables were removed from codeunit 8390 Financial Report Auditing, per work item AB#646814.",
   "key_points": [
-    "Audit log table references deleted from Financial Report Auditing codeunit",
-    "4 lines of code removed",
-    "Addresses a specific issue with audit logging in financial reports"
+    "Removes audit log table references from the Financial Report Auditing codeunit",
+    "Change is limited to deleting four lines in one codeunit"
   ],
   "change_kind": "fix",
   "behavior_change": false,

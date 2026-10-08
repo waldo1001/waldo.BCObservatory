@@ -8,11 +8,11 @@
   ],
   "summary": "The MCP server is now registered as a Copilot capability on the Copilot & agent capabilities page, allowing administrators to activate or deactivate it. Deactivating the capability updates the Copilot Settings status, which the platform reads to control MCP availability.",
   "key_points": [
-    "MCP server registered as a Generally Available Copilot capability with standard Activate/Deactivate flow",
-    "Registered automatically on install, on upgrade, and via the Copilot capabilities page subscriber",
-    "Notifications appear on MCP Config pages when the capability is deactivated, with a link to the capabilities page",
-    "Existing MCP configurations remain unchanged when re-activating",
-    "Platform enforces MCP requests based on the Copilot Settings status for the MCP Server capability"
+    "MCP server registered as a Generally Available, not billed Copilot capability with the standard Activate/Deactivate flow",
+    "Capability registered on install, on upgrade (tagged), and through the Copilot capabilities page subscriber",
+    "MCP Config List and Card pages show a notification when the capability is deactivated, with an action to open the capabilities page",
+    "Deactivating leaves existing MCP configurations untouched, so re-activating restores the feature immediately",
+    "Platform-side rejection of MCP requests when the capability is inactive is a separate follow-up change"
   ],
   "change_kind": "feature",
   "behavior_change": true,

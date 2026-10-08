@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2394393585068521549",
+  "input_hash": "bfff5f7fc1f6a375f53da576284a020c4978a2b59a96dfdab307c71133a7255f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:27.659Z",
+  "issues": [
+    "Features list includes generic labels that are not distinct features (Location duplication repeats Copy Location; Warehouse configuration and Setup standardization are benefits, not features).",
+    "Summary, key points, objects and quotes are otherwise supported."
+  ],
+  "applied": [
+    "dropped 3 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031649,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10345",
+  "input_hash": "91b30af0b4635ac670a91c820a9881cfbc58d7e68cc50f7d814020f3aeda9e1d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:25.129Z",
+  "issues": [
+    "The key point says Invoiced to Date resets to 'zero', but the description says it resets to 0D, which is a blank date. Reworded that point."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014664,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/aardvarklabs-blog/1782",
+  "input_hash": "12dfe3632231561453d8b7c880a80a222f0b9037e728d2a7d82c6bde7054aa4e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:04.620Z",
+  "issues": [
+    "The May 14-16 date range is not in the post. It only gives Wednesday 5/14 and says the event runs three days.",
+    "'Business Central Performance Management' is the author's session title, not a product feature.",
+    "The 'administration' system is not supported; the post is about community and networking."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024902,
+    "posts_in_call": 4
+  }
+}

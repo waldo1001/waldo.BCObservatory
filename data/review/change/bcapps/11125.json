@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11125",
+  "input_hash": "7fc2046b2bfb55aca34f09d76ac066514d4e109263062dacee3ad473285f1fed",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:09.832Z",
+  "issues": [
+    "This is the 29.x backport of the same change. The page matches the description and the files.",
+    "No obsoletions and not breaking, since Average stays the default."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019427,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/demiliani-com/13961",
+  "input_hash": "1e3a114c3795aae409c934e34cc5c5bf22dc53840f589fc707acf982657038e4",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:54:27.659Z",
+  "issues": [
+    "Summary and key points accurately reflect the three SaaS incompatibilities and the recommended alternatives; both named codeunits appear in the post.",
+    "Key point 4 calls the technique incompatible with isolation, slightly stronger than the post, which says the primitive does not belong rather than being unsafe; acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031649,
+    "posts_in_call": 4
+  }
+}

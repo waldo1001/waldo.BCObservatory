@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/139",
+  "input_hash": "55d7d6c4a0b7f3d27a40f788ec8ff43548916d42ab313b3bed7d9fb0296df509",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:45.030Z",
+  "issues": [
+    "Key point 3 reads as if a detection was removed. In fact the Detection now excludes event publishers whose only change is an added parameter.",
+    "The page leaves out caveats the PR keeps: publisher access can still make an addition breaking, adding IsHandled is routed to a separate article, and removals, retypes and var flips stay in scope."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015865,
+    "changes_in_call": 6
+  }
+}

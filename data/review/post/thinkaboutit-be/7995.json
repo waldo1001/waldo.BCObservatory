@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/7995",
+  "input_hash": "b5cc889708c196d686cb8bab161818e7516c7a2e9f559d185ef3d27d3ae36739",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:45.108Z",
+  "issues": [
+    "The fourth key point is garbled. The post says transactions look missing because users open the report right after posting, before the dataset has refreshed.",
+    "The other key points, the summary and all three quotes are supported by the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043894,
+    "posts_in_call": 4
+  }
+}

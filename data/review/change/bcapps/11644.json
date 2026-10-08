@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11644",
+  "input_hash": "d78d3a8107ad5030be7261455e7544bc648bc688867f3d866054935349e89d22",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:39.052Z",
+  "issues": [
+    "Summary adds an unsupported claim about maintaining the connection between planning and production orders",
+    "Summary should say the Transfer WIP Item setting and transfer descriptions are preserved"
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018438,
+    "changes_in_call": 6
+  }
+}

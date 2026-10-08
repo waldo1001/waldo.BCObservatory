@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9946",
+  "input_hash": "1a43e8a1a8fe727b8b688113197a29f52fe1d8f26e7087979ac31a75d556b39d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:09:59.398Z",
+  "issues": [
+    "Summary and key points match the description: overwrite of existing Profile ID removed, new users still get the plan default, IsFiltered plumbing removed, regression test added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028692,
+    "changes_in_call": 6
+  }
+}

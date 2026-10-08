@@ -15,8 +15,7 @@
   ],
   "systems": [
     "development",
-    "platform",
-    "copilot"
+    "platform"
   ],
   "topics": [
     "ai-development",
@@ -30,23 +29,11 @@
   "objects": [
     {
       "type": "codeunit",
-      "name": "PostSalesOrder"
-    },
-    {
-      "type": "codeunit",
       "name": "50100"
     },
     {
       "type": "codeunit",
       "name": "50200"
-    },
-    {
-      "type": "codeunit",
-      "name": "ProcessPurchaseOrder"
-    },
-    {
-      "type": "table",
-      "name": "Customer Card"
     },
     {
       "type": "table",

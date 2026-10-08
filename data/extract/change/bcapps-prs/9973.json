@@ -7,13 +7,12 @@
     "finance",
     "development"
   ],
-  "summary": "Withholding tax is now correctly calculated and deducted from expense report lines based on the assigned expense category during posting.",
+  "summary": "Withholding tax is now deducted from expense report lines during posting based on the expense category. The change adds new objects in the ExpenseWithholdingTax app and touches Expense Report posting, the WithholdingTax employee codeunits and Gen. Jnl.-Post Line in all layers.",
   "key_points": [
-    "Added withholding tax support for expense reports through category-based rules",
-    "Created new buffer table and posting handler for expense withholding tax processing",
-    "Extended general journal posting logic to apply withholding tax deductions",
-    "Added new permission set for expense withholding tax functionality",
-    "Fixed calculation logic for employee withholding tax transactions"
+    "Expense Report-Post codeunit updated so withholding tax is handled during expense report posting",
+    "ExpenseWithholdingTax app gains a buffer table, a posting handler codeunit, a General Journal page extension and a permission set",
+    "Gen. Jnl.-Post Line modified in W1 and every country layer, plus changes to the WithholdingTax employee calculation and subscriber codeunits",
+    "Build configuration and AL-Go project settings updated across country projects"
   ],
   "change_kind": "fix",
   "behavior_change": true,

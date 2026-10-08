@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Demo data generation for expense reports now skips the posting step when expense GL account translations are unavailable, preventing validation failures during uptake without affecting report creation.",
+  "summary": "Expense Agent demo data no longer posts expense reports. A temporary SkipPostingExpenseReport() function always returns true, because untranslated Expense GL Account Names made Expense Report-Post fail. Reports are still created, and the skip is meant to be removed once translations exist.",
   "key_points": [
-    "Posting step in demo data generation is guarded by a new SkipPostingExpenseReport() function",
-    "Expense reports are still created; only the posting step is skipped when translations are missing",
-    "Temporary workaround that should be removed once Expense GL Account Names translations are generated",
-    "Affects two historical demo data codeunits: Create Posted Expense Report and Create Posted Expense Reports",
-    "Demo data will not contain posted expense reports until the skip function is removed"
+    "Posting in both historical demo data codeunits (8217 and 8232) is guarded by SkipPostingExpenseReport(), which currently returns true",
+    "Expense reports are still created; only posting is skipped",
+    "Cause: Expense GL Account Names labels are not translated, so the G/L account lookup fails",
+    "Demo data has no posted expense reports until the skip is removed",
+    "Expense Rule Validation and demo G/L account creation code were also changed"
   ],
   "change_kind": "fix",
   "behavior_change": true,

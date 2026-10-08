@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2025/format-cheatsheet/",
+  "input_hash": "a97b3e9e9727f8ae52a93a5f2e8f206466f5edad79c8d4620b0abec897b5dc86",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:59:02.904Z",
+  "issues": [
+    "Summary and key points match the cheatsheet table; Format 8 is correctly excluded.",
+    "The ISO 8601 and fully qualified wording is an interpretation of the shown sample output, acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037941,
+    "posts_in_call": 4
+  }
+}

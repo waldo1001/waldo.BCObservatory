@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4940750630260972824",
+  "input_hash": "935f93659919338a9288035288e8e6ccf84d9aec086c610054ddbf95cf60cf2b",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:54:07.850Z",
+  "issues": [
+    "The post is a generic SQL Server tip about estimating when a backup or restore will finish; it never mentions Business Central or any BC component.",
+    "The extracted content itself is accurate, but the post is out of scope for a Business Central knowledge base."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037153,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11748",
+  "input_hash": "a62b47960107537a701068c17043c41c5b171d8e712461fd38cd66a2357c80cf",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:32.369Z",
+  "issues": [
+    "Content matches the solution section of the description.",
+    "The page leaves out the new Location table and page extensions (bonded location setting) and the in-transit exclusion, but nothing it says is wrong."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024978,
+    "changes_in_call": 6
+  }
+}

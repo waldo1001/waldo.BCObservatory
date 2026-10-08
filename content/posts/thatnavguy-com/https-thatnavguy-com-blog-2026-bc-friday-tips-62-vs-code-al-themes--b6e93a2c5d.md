@@ -13,12 +13,12 @@ tags:
   - tooling
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:57:16.730Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -86,7 +86,7 @@ preview:
 
 # BC Friday Tips #62 VS Code AL Themes
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-01-23 · 80 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-62-vs-code-al-themes/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-01-23 · 80 words · tier community · reviewed (checked by Opus)
 
 > The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark available since version 16.00 to improve code readability and reduce eye strain.
 

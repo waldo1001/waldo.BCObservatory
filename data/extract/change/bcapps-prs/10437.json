@@ -8,11 +8,11 @@
   ],
   "summary": "E-Document message lifecycle infrastructure and French electronic invoicing support added to enable payment and invoice lifecycle communication with message queuing, response handling, VAT allocation, and buyer acceptance or refusal workflows.",
   "key_points": [
-    "Public E-Document message API with IMessageSender and IMessageResponseHandler contracts for extensible lifecycle messaging",
-    "Payment occurrence tracking with applied and reversed payment messages for approved invoices with retry and deduplication support",
-    "French Collected and Negative Collected messages for payment applications and unapplications with proportional VAT allocation",
-    "Buyer acceptance and refusal workflow for incoming purchase invoices with optional refusal reasons and single-response validation",
-    "Background message delivery and response polling with queuing, external reference correlation, and status normalization"
+    "New public E-Document message API with IMessageSender and IMessageResponseHandler contracts, payload persistence, queued delivery, response polling and retry",
+    "Generic applied and reversed payment occurrences with replay protection and links to the original occurrence",
+    "French Collected and Negative Collected messages for payment applications and unapplications, with proportional VAT allocation by rate and category",
+    "Buyer Accepted and Refused messages for incoming purchase invoices, with optional refusal reasons and only one response allowed",
+    "Incoming lifecycle messages are correlated by external IDs, with status normalization, transition validation and deduplication"
   ],
   "change_kind": "feature",
   "behavior_change": true,

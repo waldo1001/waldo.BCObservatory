@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10573",
+  "input_hash": "70968706ccae16b80b1ecaa0b102676deec86a83018f69f40c2003abe139ede7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:07.626Z",
+  "issues": [
+    "The description is an empty template. The claims about improved data classification capabilities are speculation.",
+    "The key point about 30 lines is file size trivia, not a change a developer would care about."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028932,
+    "changes_in_call": 6
+  }
+}

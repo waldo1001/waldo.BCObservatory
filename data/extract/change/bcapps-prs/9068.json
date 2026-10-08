@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "An event request was added to the Check BTL91 codeunit to allow customization of free transfer amount validation in the Dutch localization.",
+  "summary": "Codeunit 11000007 \"Check BTL91\" in the Dutch localization now has an OnBeforeCheckFreelyTransferableMaximumAmount event. Extensions can use it to customize the check of the freely transferable maximum amount.",
   "key_points": [
     "Added OnBeforeCheckFreelyTransferableMaximumAmount event to codeunit 11000007",
     "Enables extensions to intercept and customize BTL91 compliance checks",

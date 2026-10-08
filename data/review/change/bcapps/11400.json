@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11400",
+  "input_hash": "5f3afeb5e1d04e1ceffac73c929e5c461bb4d64bcffc98e99944a3849d9acaf6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:29.587Z",
+  "issues": [
+    "The summary says the action syncs products. It is actually the Show product in Shopify navigation action, which raised a raw database filter error when the variant mapping was missing.",
+    "The quote is garbled (a word is missing), but quote is not an editable field."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017399,
+    "changes_in_call": 6
+  }
+}

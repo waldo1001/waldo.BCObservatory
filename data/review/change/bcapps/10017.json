@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10017",
+  "input_hash": "15b600d45678156644f08b89f4a78e720dbac8c5a56d3a7265771d2dad251839",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:46.868Z",
+  "issues": [
+    "The only changed file is ExpenseReportLine.Table.al (+2 -2). No test files changed, so the key point claiming updated tests is unsupported.",
+    "The description names ExpenseRuleValidation, but the diff only touches the Expense Report Line table. The key points now describe the change at the level of the duplicate check without naming where it lives."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018501,
+    "changes_in_call": 6
+  }
+}

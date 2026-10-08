@@ -7,11 +7,11 @@
   "words": 637,
   "summary": "Dynamics 365 Business Central 2026 Wave 1 introduces the ability to enable or disable database indexes directly in the UI, available per company or across all companies. This feature, combined with telemetry improvements, allows administrators to optimize performance by managing index usage without requiring development environment access.",
   "key_points": [
-    "Index management moved from development environment to client UI in Table Information page",
-    "Granular control available at company level or across all companies simultaneously",
-    "Feature enables faster writes by removing unused indexes and faster reads by activating needed indexes",
-    "Ranks third in performance features since 2023 Wave 2, considered ground-breaking for online versions",
-    "Currently lacks AL API equivalent and tracking of manual index changes"
+    "Version 28 brings back enabling and disabling indexes, now in the client from the Table Information page instead of the development environment",
+    "Indexes can be turned on or off for the current company or for all companies",
+    "Removing unused indexes can speed up writes, and enabling needed ones can speed up reads, but the author warns this needs care",
+    "The author ranks this release third among performance releases since 2023 Wave 2, close to ground-breaking for online",
+    "Gaps remain: no AL API, no control over indexed views, and no record of who changed an index or when"
   ],
   "systems": [
     "platform",
@@ -26,12 +26,7 @@
     "version 28",
     "2026 wave 1"
   ],
-  "objects": [
-    {
-      "type": "table",
-      "name": "Table Information"
-    }
-  ],
+  "objects": [],
   "features": [
     "Enable/Disable Indexes in UI",
     "Optimized Base64 Handling",

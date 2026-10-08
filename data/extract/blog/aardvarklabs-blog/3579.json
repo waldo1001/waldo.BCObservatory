@@ -7,16 +7,14 @@
   "words": 2551,
   "summary": "Building a low-cost RFID scan-in and scan-out system using an ESP32 microcontroller, PN532 RFID reader, Power Automate, and Business Central tables. The system captures location-based scans for resource tracking, automatically handles edge cases like forgotten scan-outs, and stores results in two related tables for monitoring.",
   "key_points": [
-    "Hardware uses ESP32 DEVKIT V1 and PN532 RFID scanner with I2C wiring on a breadboard, configured via web portal to connect to Power Automate",
-    "Power Automate acts as middleware between the ESP32 and Business Central, receiving JSON scan data and forwarding it via API",
-    "Business Central processes scans through two tables: ARD_Scans stores raw data, ARD_ScanTracker handles scan-in/out logic with automatic edge-case handling",
-    "When a tag scans at a new location without scanning out from the previous location, the system auto-completes the previous scan-out and flags it for review",
-    "Scan data flows from hardware to Power Automate HTTP trigger, then to Business Central API page, with an OnInsert trigger automating the scan logic"
+    "The hardware is an ESP32 DEVKIT V1 with a PN532 RFID reader on the I2C bus, configured through a web portal with Wi-Fi, location and the Power Automate endpoint",
+    "Power Automate sits in the middle so the device avoids OAuth; its HTTP trigger parses the JSON array and sends each scan to a Business Central API page",
+    "The ARD_Scans table stores raw scans, and its OnInsert trigger creates or closes records in the ARD_ScanTracker table",
+    "If a tag scans in at a new location while still open somewhere else, the earlier record gets a scan-out time and is flagged as assumed for review",
+    "The device buffers up to 50 timestamped scans locally in case Wi-Fi is down"
   ],
   "systems": [
-    "integration",
-    "warehouse",
-    "projects"
+    "integration"
   ],
   "topics": [
     "rfid",

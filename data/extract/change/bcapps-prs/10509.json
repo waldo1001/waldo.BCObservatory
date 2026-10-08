@@ -4,12 +4,13 @@
   "title": "[IRS Forms] Performance optimization",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "IRS 1099 form box calculation performance improved by optimizing database queries to use more selective index keys and vendor filtering, reducing query execution time from approximately 10 minutes.",
+  "summary": "IRS 1099 form box calculation now queries detailed vendor ledger entries with a current key matching its equality filters and can filter payments by vendor. Profiling had shown one query taking most of a roughly 10-minute run; calculation results are unchanged.",
   "key_points": [
-    "Changed SetCurrentKey in FindRelatedApplicationDetailedVendorLedgerEntries to use Application No., Vendor No., Entry Type instead of Vendor Ledger Entry No., Entry Type",
-    "Added VendorNo parameter to FilterPaymentVendorLedgerEntries to filter by specific vendor when requested",
-    "Existing keys were reused; no schema changes required",
-    "Root cause addressed by reducing unnecessary enumeration of payment history across all vendors"
+    "FindRelatedApplicationDetailedVendorLedgerEntries now uses the existing key Application No., Vendor No., Entry Type instead of Vendor Ledger Entry No., Entry Type",
+    "FilterPaymentVendorLedgerEntries gets a VendorNo parameter and filters on Vendor No. when a specific vendor is requested",
+    "No schema changes; existing keys are reused",
+    "Single-vendor recalculations no longer enumerate payments for the whole period",
+    "Performance gain still to be confirmed by re-profiling; existing tests cover the paths"
   ],
   "change_kind": "performance",
   "behavior_change": false,

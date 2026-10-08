@@ -15,8 +15,7 @@
   ],
   "systems": [
     "development",
-    "platform",
-    "administration"
+    "platform"
   ],
   "topics": [
     "unit testing",
@@ -28,12 +27,7 @@
     "mock testing",
     "development tools"
   ],
-  "objects": [
-    {
-      "type": "codeunit",
-      "name": "Test codeunits"
-    }
-  ],
+  "objects": [],
   "features": [
     "AL unit test execution",
     "In-memory test compilation",

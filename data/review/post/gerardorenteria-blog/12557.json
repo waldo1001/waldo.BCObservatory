@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12557",
+  "input_hash": "cf3ae8ba251c1c632cb207c7b0d417584c29c9e8caa38989b085931638a34e3c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:35.350Z",
+  "issues": [
+    "The Employee and Employee Card objects are a table extension and a page extension in the post, but the page lists them as a plain table and page, so both are dropped.",
+    "The other objects, the summary, the key points and the quotes match the English section of the post."
+  ],
+  "applied": [
+    "dropped 2 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022797,
+    "posts_in_call": 4
+  }
+}

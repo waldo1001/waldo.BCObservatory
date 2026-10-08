@@ -8,12 +8,13 @@
   ],
   "summary": "The Prod. Order Comp. Line List page extension now displays transfer quantity fields (Qty. on Transfer Order, Qty. transf. to Subcontractor, and Qty. in Transit) for subcontracting components.",
   "key_points": [
-    "Added three FlowFields to show subcontracting transfer status quantities",
-    "Qty. on Transfer Order and Qty. transf. to Subcontractor are visible by default",
-    "Qty. in Transit is available as a hidden personalization control",
-    "Resolves missing fields in the Production Components FactBox workflow"
+    "Prod. Order Comp. Line List extension now shows existing subcontracting transfer FlowFields",
+    "Qty. on Transfer Order (Base) and Qty. transf. to Subcontractor are visible by default",
+    "Qty. in Transit (Base) is added as a hidden-by-default personalization control",
+    "Fixes the fields missing from the Production Components FactBox drill-down",
+    "Test ProdOrderCompLinesExposeTransferQuantities added to codeunit 139990"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

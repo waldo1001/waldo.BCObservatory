@@ -6,12 +6,12 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "Assembly overhead costs are now recalculated consistently after updating the item's standard cost, ensuring that per-unit and per-output indirect costs use uniform rounding.",
+  "summary": "Fixes wrong Cost Amount (Actual) in value entries for assembly orders after Calc. Assembly Std. Cost. For assembly orders, the inventory adjustment now recalculates overhead from the cost shares and re-rounds it, so per-unit and per-output indirect costs match.",
   "key_points": [
-    "Assembly overhead recalculation runs after both branches of the indirect cost logic",
-    "Fixes inconsistent rounding between per-unit and per-output indirect costs",
-    "Overhead is recomputed from stable material and capacity amounts multiplied by indirect percentage",
-    "Costs are rounded and indirect cost shares are recalculated after overhead adjustment"
+    "Root cause: per-unit and per-output indirect costs were rounded inconsistently after the standard cost was recalculated with high precision",
+    "For assembly orders, overhead is recomputed after the if/else in codeunit 5896, whichever branch ran",
+    "Costs are rounded, then indirect cost and unit cost are recalculated",
+    "A test was added to SCMCalculateAssemblyCost"
   ],
   "change_kind": "fix",
   "behavior_change": true,

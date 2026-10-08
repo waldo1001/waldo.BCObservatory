@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/10227",
+  "input_hash": "e762bc21778610e49883d5ceb3a831776e5f230ab3aa531dca98e87e0ae8533f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:00.529Z",
+  "issues": [
+    "The layers key point claimed all localization layers. The PR only touches the 11 layers listed. Reworded to name just those."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019104,
+    "changes_in_call": 6
+  }
+}

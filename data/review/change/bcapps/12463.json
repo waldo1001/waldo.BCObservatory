@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12463",
+  "input_hash": "12806fc9dd7e8bf6db4cee8c1135a3bb0a11f537ef145d75f2c3e0ff80d26a84",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:00.875Z",
+  "issues": [
+    "behavior_change should be true: a company with all tags set but no Email Inbox allowed-table row is no longer fixed up during upgrade."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024618,
+    "changes_in_call": 6
+  }
+}

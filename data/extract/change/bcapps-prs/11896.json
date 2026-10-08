@@ -6,13 +6,13 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Master Data Management now correctly preserves destination blobs when source blobs exceed capacity limits, and improves inline media cache handling to apply the newest media state for records arriving on multiple pages.",
+  "summary": "In cross-environment Master Data Management sync, a source blob over 512 KB is no longer sent inline, and now a skip marker keeps the existing destination blob instead of clearing it. The inline media cache now uses last-write-wins per record and field, so the newest media state is applied.",
   "key_points": [
-    "Over-capacity source blobs (>512 KB) are skipped during transfer; a marker prevents clearing the destination blob instead of leaving it empty",
-    "Inline media cache now uses last-write-wins logic per (SystemId, field) to handle records with multiple pages in one batch",
-    "Destination blobs remain unchanged when source is over-capacity rather than being cleared by empty temp values",
-    "Regression tests added to cover both the skip marker behavior and media state application scenarios",
-    "Forward-port of a 29.x fix to 30.x"
+    "Source blobs over 512 KB are not sent inline, which previously cleared the destination blob",
+    "A skip marker carried from materialization to transfer keeps the destination blob unchanged",
+    "Inline media cache is last-write-wins per (SystemId, field) for records arriving on several pages in one batch",
+    "Regression tests added for both cases",
+    "Forward-port of a 29.x fix"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9581",
+  "input_hash": "4a7df8b5d6aced3fb02a4e5e24697a16ef6afbdd6a439ce91d1e0f73e13b849c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:56.576Z",
+  "issues": [
+    "Summary says Unlisted was added to the product status enum; this PR adds it to the Shpfy Cr. Prod. Status Value enum (Status for Created Products). The Product Status enum got Unlisted in earlier PR #9321."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022984,
+    "changes_in_call": 6
+  }
+}

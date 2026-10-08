@@ -10,13 +10,13 @@
   ],
   "summary": "User-facing text that references AppSource has been updated to use Marketplace terminology throughout the application and system components.",
   "key_points": [
-    "AppSource UI text, captions, tooltips, and labels changed to Marketplace terminology",
-    "Updates applied across connectivity apps, e-documents, CRM/Dataverse setup, and extension management",
-    "Technical identifiers, object names, and configuration references remain unchanged",
-    "Affects 24+ pages, codeunits, and tables in multiple modules",
-    "Coordinated with dynamics SMB NAV PR for consistency"
+    "User-facing captions, tooltips, labels and instructional text now say Marketplace instead of AppSource",
+    "Covers Connectivity Apps, E-Documents, Recommended Apps, CRM/Dataverse setup, Power BI and System Application wizards and the gallery",
+    "Technical identifiers, object names, URL constants and AppSourceCop/config references are unchanged",
+    "Ports the matching text changes from a Dynamics SMB NAV PR",
+    "Recommended Apps tests and AppSource Gallery app.json metadata updated"
   ],
-  "change_kind": "feature",
+  "change_kind": "other",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

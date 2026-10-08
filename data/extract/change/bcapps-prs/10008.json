@@ -9,15 +9,15 @@
   ],
   "summary": "Codeunit APIs are now integrated into MCP configuration as a new object type alongside API pages and queries, with unified selection UI and metadata sourced from the Api Web Service table.",
   "key_points": [
-    "Codeunits added as an object type in MCP configuration with parity to API pages and queries",
-    "All API metadata now unified in Api Web Service table instead of separate lookups",
-    "API Overview page redesigned to list pages, queries, and codeunits from single source",
-    "Permission model changed from 'Allow Bound Actions' to 'Allow Actions' for codeunit tool invocation",
-    "V1 APIs and Base Application beta queries excluded from MCP selection"
+    "Codeunits are added as an MCP tool object type, at parity with API pages and queries, with a new CreateCodeunitAPITool facade",
+    "API metadata for pages, queries and codeunits now comes from the Api Web Service table, and only published APIs are listed",
+    "The API Overview page lists pages, queries and codeunits, and its Entity column shows the entity set name",
+    "Allow Bound Actions is renamed to Allow Actions; AllowBoundActions is deprecated, and for codeunit tools Allow Actions is the invoke toggle",
+    "Microsoft and standard beta pages are excluded from selection, while third-party beta pages stay available"
   ],
   "change_kind": "feature",
   "behavior_change": true,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "integration",

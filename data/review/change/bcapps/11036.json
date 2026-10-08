@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11036",
+  "input_hash": "b623eafad528a85baa954e497400bcf13f66d3ea4205407201888153ec16d2e7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:16.324Z",
+  "issues": [
+    "Summary and key points match the description: four rules promoted, with the stated pragma counts and reasons.",
+    "Runtime behaviour doesn't change. Only this repository's build analysis gets stricter, so false flags are acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024532,
+    "changes_in_call": 6
+  }
+}

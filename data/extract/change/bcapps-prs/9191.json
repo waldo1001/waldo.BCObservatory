@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "When disabling Legacy Subcontracting in Manufacturing Setup, the system now offers to install missing required apps inline instead of showing a hard error with no resolution path.",
+  "summary": "In the IT localization, disabling Legacy Subcontracting on Manufacturing Setup no longer stops with a hard error when the Subcontracting or IT Subcontracting Migration app is missing. It now offers to install the missing app; the user then runs the disable action again.",
   "key_points": [
     "Replaced hard error with inline app installation offer for missing Subcontracting or IT Subcontracting Migration apps",
     "Uses ExtensionManagement.InstallMarketplaceExtension pattern, triggering session reload to re-run the disable process",

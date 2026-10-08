@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10608",
+  "input_hash": "05c14fc36ad87ccc3e7809c653cdba7cdf687675948c9fead03b38d2e1f37777",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:27.278Z",
+  "issues": [
+    "Summary and key points match the description: day/week formulas now skip month-end alignment in CalculateNextToDate, month/quarter/year unchanged, and a test codeunit was added.",
+    "The 'explicit end dates' wording comes from the PR title, so it is supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018245,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/10619",
+  "input_hash": "1e5d2043488404be46d82551dbe1cb4d0ce165e2fbbed458a8ed48ac8a310606",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:15.614Z",
+  "issues": [
+    "The key on Has Order State Error and its use for the Unprocessed Order Updates count are described correctly.",
+    "The ~16.5s figure is the scan cost given in the description, and near-instant is the stated expectation."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022352,
+    "changes_in_call": 6
+  }
+}

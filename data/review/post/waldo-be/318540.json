@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/waldo-be/318540",
+  "input_hash": "648cfeba57a83993ba60c6344a120ce79c5e40c824819d4c11234cbbe4519531",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:29.353Z",
+  "issues": [
+    "The copilot system is not supported. The AI help comes from GitHub Copilot or Claude through the Telemetry Buddy MCP, not from Copilot in Business Central.",
+    "The versions 2024 and 2025 are the years of conference sessions, not BC versions. There is no edit field for versions, so this is flagged only.",
+    "The quote is a slight reword of the post's sentence but keeps its meaning. The other content is supported."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028155,
+    "posts_in_call": 4
+  }
+}

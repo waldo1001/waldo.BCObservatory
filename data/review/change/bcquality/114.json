@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/114",
+  "input_hash": "289f0e05f5b0449a9361b719d2826fcd9fc9ebf90068c32cdfc5d3b32034567c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:24.818Z",
+  "issues": [
+    "The PR only adds prose to the documentation and changes no functionality, so 'other' fits better than 'feature'.",
+    "The summary and key points match the description."
+  ],
+  "applied": [
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018851,
+    "changes_in_call": 6
+  }
+}

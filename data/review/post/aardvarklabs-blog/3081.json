@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3081",
+  "input_hash": "ef463af13c2d6f4623f6baf36674bdf8cd92be74945ff99c69db99fdbb1eccec",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-08T01:56:44.042Z",
+  "issues": [
+    "The post is about designing a card game with general Copilot and image generation. It has no connection to Business Central."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031551,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11626",
+  "input_hash": "6a5b9fe5860089175d3f580e9a46226697d2fe5274f1d67e5ce9ef99ffc73736",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:09.836Z",
+  "issues": [
+    "The summary leaves out the minor UX fixes, but these appear implicitly in the description. The other content matches the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01648,
+    "changes_in_call": 6
+  }
+}

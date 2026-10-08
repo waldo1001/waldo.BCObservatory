@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thinkaboutit-be/7328",
+  "input_hash": "822416bd62e5e779290552eb0ac72231cbef05087dfa00565c95df58211b1357",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:39.637Z",
+  "issues": [
+    "Quote 1 duplicates the content of quote 3.",
+    "Summary, key points and features match the post."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027662,
+    "posts_in_call": 4
+  }
+}

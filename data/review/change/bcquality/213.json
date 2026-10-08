@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcquality-prs/213",
+  "input_hash": "4df71ba6a97930931967aa5d7f02037e35cb02b46c77f034f00a5cb1c98d9780",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.004Z",
+  "issues": [
+    "Key point 3 mixes up the recommendation. The article recommends codeunit 49's integration events instead of subscribing directly to system codeunits. It suggests table-specific mechanisms only when the set of tables is known.",
+    "The summary names only Global Triggers, but the rule covers two events: GetDatabaseTableTriggerSetup on Global Triggers and OnAfterGetDatabaseTableTriggerSetup on codeunit 49.",
+    "The page says 'AL versions 15'. The description only says 'Applicable versions: 15 and later', so the key point should not add 'AL'."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023732,
+    "changes_in_call": 6
+  }
+}

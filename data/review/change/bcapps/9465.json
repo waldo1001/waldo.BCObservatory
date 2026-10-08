@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9465",
+  "input_hash": "87413425a4ec3e961f6c5785084495367cb41b947f186b93cfc88b71961ed7e9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:56.755Z",
+  "issues": [
+    "Calling the layer list 'all localization layers' claims more than the PR shows. Only W1, CH, ES, IT, RU and APAC are named, so the key point now lists just those."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014187,
+    "changes_in_call": 6
+  }
+}

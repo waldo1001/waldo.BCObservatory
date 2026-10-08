@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11359",
+  "input_hash": "a602cec2e281983249c7a8d3cc3576c6f65394428484e4b7fb7cd57e0c9ee7cd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:04:51.214Z",
+  "issues": [
+    "The last key point overstates scope as the entire supply chain. The description only says the specific emission is kept across the transfer receipt and the sale that follows."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016371,
+    "changes_in_call": 6
+  }
+}

@@ -8,10 +8,10 @@
   ],
   "summary": "Fixed an issue where changing the VAT product posting group on G/L account lines in purchase invoices with prices including VAT incorrectly recalculated the direct unit cost and line amount.",
   "key_points": [
-    "Corrects VAT recalculation logic for G/L account purchase lines",
-    "Ensures prices including VAT are preserved when changing VAT posting groups",
-    "Updates tests to validate the corrected behavior",
-    "Applied across all localization layers"
+    "One-line change in the Purchase Line table about VAT recalculation for G/L Account lines",
+    "Targets lines with Prices Including VAT when the VAT Prod. Posting Group changes",
+    "Tests in ERM Prices Incl. VAT Doc updated for W1 and ES",
+    "Applied in W1 and 13 localized Base Application layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

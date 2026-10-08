@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcquality-prs/208",
+  "input_hash": "d93146dd78781f4ea609a18f0a870a781cc9fe9f40cb5a6e6f08a9e0dd4c7110",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:06.528Z",
+  "issues": [
+    "Summary and key points match the two knowledge articles on TableRelation field length and on RecordRef.Open with Temp = true.",
+    "The carve-out for ValidateTableRelation/TestTableRelation and the skill wiring are left out, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022455,
+    "changes_in_call": 6
+  }
+}

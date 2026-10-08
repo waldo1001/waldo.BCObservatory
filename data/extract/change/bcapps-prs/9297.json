@@ -8,10 +8,10 @@
   ],
   "summary": "Fixed a bug preventing posting of inventory picks for assemble-to-order items by skipping bin content validation for ATO pick lines, which don't have bin content until assembly posting occurs.",
   "key_points": [
-    "ATO pick lines were incorrectly validated against bin content that doesn't exist yet",
-    "Validation only happens during assembly posting, not before the pick",
-    "Solution skips bin content checks for ATO lines in the validation loop",
-    "Test case added to prevent regression"
+    "Inventory picks for assemble-to-order items failed with 'The Bin Content does not exist'",
+    "The ATO output bin content is created only when the assembly is posted, so it does not exist yet at pick time",
+    "Pick lines marked Assemble to Order are now skipped in the bin content check in CheckQuantityInBinContentForTracking",
+    "A regression test was added to SCMWhseAsmToOrder"
   ],
   "change_kind": "fix",
   "behavior_change": true,

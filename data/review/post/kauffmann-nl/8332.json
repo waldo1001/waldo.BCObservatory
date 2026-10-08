@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/kauffmann-nl/8332",
+  "input_hash": "9e792028266eeab9a85963496e309a9c4025207e986ead53552999d57108bb18",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:59:24.058Z",
+  "issues": [
+    "The post calls Http Endpoint configuration a page, not a codeunit, so that object entry is wrong",
+    "The summary, key points, features and quotes are supported by the post"
+  ],
+  "applied": [
+    "dropped 1 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027026,
+    "posts_in_call": 4
+  }
+}

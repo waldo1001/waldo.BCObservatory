@@ -4,13 +4,13 @@
   "title": "Bug 648577: [IT] Subcontracting migration does not precheck bin-mandatory locations",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "Subcontracting migration now checks bin-mandatory locations for incompatible warehouse settings before processing, blocking the migration if unsupported configurations are found and reporting all violations.",
+  "summary": "The IT subcontracting migration now prechecks legacy vendor and purchase-header locations for unsupported warehouse settings, such as bin mandatory. If any are found it stops with a single error listing every incompatible location and its enabled settings, and leaves migration data untouched.",
   "key_points": [
-    "Adds validation to prevent migration when legacy or purchase-header locations use unsupported warehouse settings",
-    "Reports every incompatible location with each enabled setting listed",
-    "Migration data remains untouched if precheck fails",
-    "Uses explicit error handling instead of relying on platform dialog concatenation",
-    "Includes test coverage for multiple locations and all unsupported warehouse configurations"
+    "Blocks migration when legacy vendor or purchase-header locations use unsupported warehouse settings",
+    "Reports every incompatible location and lists each enabled setting",
+    "Migration data stays untouched when the precheck fails",
+    "Errors collected during the precheck are handled explicitly and raised as one blocking error",
+    "Tests cover multiple locations, all unsupported settings, and migration stopping before vendor data is copied"
   ],
   "change_kind": "fix",
   "behavior_change": true,

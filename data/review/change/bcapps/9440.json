@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/9440",
+  "input_hash": "6855c4d2fb54d76aa697a1568ac28a195b5fcfbcc24f89d51ac05cfb39281d31",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.610Z",
+  "issues": [
+    "behavior_change should be false: the confirmation text starts as the existing CreateCreditMemoQst, so nothing changes unless an extension subscribes."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014474,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10516",
+  "input_hash": "45041e0f72700295f48274e91b4cf1826fa19ee5abcf178446e6b20fd6ab997b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:24.573Z",
+  "issues": [
+    "Matches description: six rule overrides removed, 45 accepted violations suppressed with pragmas, overrides 94 to 88. Refactor is acceptable for a build-only change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024424,
+    "changes_in_call": 6
+  }
+}

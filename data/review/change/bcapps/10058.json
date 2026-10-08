@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10058",
+  "input_hash": "28db96d1df1afe32f0af6344d32317428460630a3bb66c165191a57b2baaaf62",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:43.515Z",
+  "issues": [
+    "The description is empty, so the summary rests on the title only. That is acceptable.",
+    "Key point 3 guesses at intent from the size of the diff. Nothing given supports it, so it is replaced."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020629,
+    "changes_in_call": 6
+  }
+}

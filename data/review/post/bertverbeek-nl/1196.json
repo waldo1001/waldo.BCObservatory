@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/bertverbeek-nl/1196",
+  "input_hash": "6ef6adf3de6bd1c3158ada91609d673a0cfb5b173128d0d3af8a46f0577d688e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:39.637Z",
+  "issues": [
+    "The key point on Copilot Studio said more than the post did; the post only says the agent can be included in Copilot Studio.",
+    "Added the comparison with the MCP server and direct API calls, which the post makes.",
+    "Objects Customer Ledger Entries and Customer are named in the post."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027662,
+    "posts_in_call": 4
+  }
+}

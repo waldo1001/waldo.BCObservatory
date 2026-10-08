@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9741",
+  "input_hash": "49abdeb352e4496efd2317ab364f0a8037447faf7c81098b55e19290fe46444a",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:11:08.687Z",
+  "issues": [
+    "The page matches the description: the fix restores the Transfer WIP Item flag in the copy subscriber, and a test was added."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016324,
+    "changes_in_call": 6
+  }
+}

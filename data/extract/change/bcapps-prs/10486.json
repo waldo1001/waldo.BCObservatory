@@ -6,7 +6,7 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Quality Management now uses selected bin codes when creating transfer orders for quality disposal workflows, improving the accuracy of goods disposition in warehouse operations.",
+  "summary": "The Quality Management transfer disposition now uses the bin code selected in the workflow response when creating a transfer order. The workflow response options page extension and tests were updated to match.",
   "key_points": [
     "Bin code selection is now applied when transferring items through quality disposition workflows",
     "Transfer order creation now respects the selected bin information",

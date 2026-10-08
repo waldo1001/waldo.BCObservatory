@@ -6,17 +6,15 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Three new variables (NextEntryNo, NextVATEntryNo, NextTransactionNo) are added as parameters to the OnAfterInitGLRegister event in the Gen. Jnl.-Post Line codeunit, allowing subscribers to access and modify these entry numbers during GL register initialization.",
+  "summary": "The OnAfterInitGLRegister event raised from StartPosting in codeunit Gen. Jnl.-Post Line now passes NextEntryNo, NextVATEntryNo and NextTransactionNo as var parameters, so subscribers can read and change them.",
   "key_points": [
-    "OnAfterInitGLRegister event now exposes NextEntryNo, NextVATEntryNo, and NextTransactionNo variables",
-    "Subscribers can read and modify entry number variables before GL register completion",
-    "Change applied consistently across all localization layers",
-    "Enables extensions to customize entry numbering behavior",
-    "Fixes issue AB#639006"
+    "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo and NextTransactionNo",
+    "Applied to Gen. Jnl.-Post Line in W1 and all localized layers",
+    "Existing subscribers keep working; new subscribers can use the extra parameters"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
-  "breaking": true,
+  "behavior_change": false,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "finance"

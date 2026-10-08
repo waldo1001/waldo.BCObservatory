@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10158",
+  "input_hash": "56fd8e9ce8dacb7f31420696e661f3f99ba6fe9445c55b73152fc6ebcb97dd5c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:24.384Z",
+  "issues": [
+    "The key point saying the change only reuses fields already in the semantic model conflicts with the file list: Jobs.Query.al (+3) and Project.tmdl (+15 -1) were also changed, not only the visual.",
+    "The key point about cross-referencing repeats the summary, so it was replaced."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027164,
+    "changes_in_call": 6
+  }
+}

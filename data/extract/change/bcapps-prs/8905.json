@@ -9,13 +9,12 @@
     "projects",
     "inventory"
   ],
-  "summary": "Reservation entries created from job planning lines now maintain consistent source references whether created directly or through warehouse picks, with upgrade logic to migrate existing data.",
+  "summary": "Reservation entries for project (job) planning lines now get the same source reference whether they are created directly or through a warehouse or inventory pick. The change touches project warehouse handling, pick creation and posting, and adds upgrade code with upgrade tags for existing data.",
   "key_points": [
-    "Ensures reservation entries from job planning lines have matching source references regardless of creation method",
-    "Adds upgrade logic to migrate existing reservation entries to use consistent references",
-    "Updates warehouse activity and job warehouse management processes to maintain source reference consistency",
-    "Includes extensive test coverage for inventory picks and warehouse picks on job planning lines",
-    "Manages item tracking and reference resolution across multiple warehousing scenarios"
+    "Fixes different source references on reservation entries created from Job Planning Line and via warehouse pick",
+    "Updates Job Warehouse Mgt., Job Planning Line, pick creation, and warehouse activity posting and registering",
+    "Adds upgrade code and upgrade tags across W1 and several local layers",
+    "Adds tests for inventory picks, warehouse picks and upgrade on project planning lines"
   ],
   "change_kind": "fix",
   "behavior_change": true,

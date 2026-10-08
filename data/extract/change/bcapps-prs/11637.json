@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Fixed an issue in recurring billing where the Partner filter was ignored when creating documents, which also prevented document creation when a vendor billing proposal existed.",
+  "summary": "Create Documents in Recurring Billing now respects the Partner filter and no longer fails when a vendor billing proposal exists. The fix is a small change in the Create Billing Documents codeunit, with new tests.",
   "key_points": [
-    "Partner filter is now respected during recurring billing document creation",
-    "Document creation no longer fails due to existing vendor billing proposals",
-    "Bug fix addresses the underlying filter logic in the Create Billing Documents codeunit",
-    "Test coverage added for the recurring billing scenario"
+    "Create Documents on Recurring Billing now respects the Partner filter",
+    "Creating documents no longer fails when a vendor billing proposal exists",
+    "Small change in codeunit Create Billing Documents",
+    "New tests added in Recurring Billing Test"
   ],
   "change_kind": "fix",
   "behavior_change": true,

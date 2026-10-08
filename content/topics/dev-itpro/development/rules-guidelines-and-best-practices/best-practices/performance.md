@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,9 +49,13 @@ links:
     - post/aardvarklabs-blog/3761
     - post/demiliani-com/12836
     - post/demiliani-com/14031
+    - post/demiliani-com/15968
     - post/duiliotacconi-com/1850
+    - post/duiliotacconi-com/1894
     - post/duiliotacconi-com/2149
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
+    - post/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
   guidelines: []
   changes:
@@ -76,7 +80,7 @@ coverage:
   learn: 2
   code: 0
   video: 3
-  blog: 7
+  blog: 11
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -128,10 +132,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields and how to avoid cloning records"
 - [Optimizing Business Central Indexes for Performance with Copilot](../../../../../posts/aardvarklabs-blog/3761.md) (community post): "Benchmark system performance before and after applying indexes"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Performance benchmarks showed 42% improvement on inserts and 31% on updates"
-- [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "higher isolation levels bypassing the cache on every read"
+- [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "Record.ReadIsolation sets the isolation level for reads on a specific record instance"
+- [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../../posts/demiliani-com/15968.md) (community post): "ReadState property lets developers specify transaction isolation levels for individual queries"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "It works best when deleting 50-60% or more of a table's content"
-- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "SetLoadFields prevents NST caching for partial records, causing repeated SQL queries"
+- [FlowFields with same filters and table in a single OUTER APPLY](../../../../../posts/duiliotacconi-com/1894.md) (community post): "reducing SQL queries and improving query performance"
+- [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "performance regressions when combined with NST caching in Business Central"
+- [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "User perception matters as much as actual performance"
+- [I Can Turn Off My Code. I Can't Turn Off Yours.](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md) (community post): "developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"
 - [Concurrency in Business Central: Parallel processes without deadlocks and timeouts](../../../../../videos/-_TaZY2Clh0.md) (video): "Concurrency in Business Central: Parallel processes without deadlocks and timeouts"
 - [Business Central Under the Hood episode 12: Evolving AL for Performance](../../../../../videos/1xdpUmeun-s.md) (video): "Evolving AL for Performance optimization data transfer set load fields"

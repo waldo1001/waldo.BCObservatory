@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11129",
+  "input_hash": "563586fbfad190197848814a46722a77edfab2a313863394877bb5f4acb29019",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:02.004Z",
+  "issues": [
+    "Replacing the custom table permission checks with standard permission errors changes what users see when they lack permissions, so behavior_change should be true.",
+    "Large removals from Qlty. Permission Mgmt. and the test library might affect callers, but nothing given shows those procedures were public, so breaking stays false."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023732,
+    "changes_in_call": 6
+  }
+}

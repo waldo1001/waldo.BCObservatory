@@ -4,16 +4,16 @@
   "title": "Emit human-readable domain label on review findings",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Review findings now include a human-readable domain label owned by BCQuality, eliminating the need for consumer taxonomy maps and allowing new review domains to render correctly without engine changes.",
+  "summary": "BCQuality review leaves now set an optional human-readable domain label on every finding, so BCQuality owns the display label instead of the consumer engine's static map. Once the BC-ALAgents counterpart is merged, new review domains can render with their own label rather than Other.",
   "key_points": [
-    "Adds optional `findings[].domain` field to review output schema with display labels like 'Breaking Changes', 'Performance', 'Security'",
-    "Each AL review leaf skill sets domain on every finding it emits; cross-cutting findings use 'Agent' as domain",
-    "Domain is display text that consumers must preserve exactly without modification or lossy transformation",
-    "Backward compatible: absent domain field triggers legacy fallback behavior in consumers",
-    "Decouples review domain taxonomy from consumer engine, shifting ownership to BCQuality producers"
+    "Adds optional findings[].domain to the shared review output schema",
+    "Each AL review leaf sets a domain label on every finding; cross-cutting super-skill findings use Agent",
+    "al-code-review preserves a leaf finding's domain verbatim during rollup",
+    "Domain is display text that consumers must preserve exactly, without lossy slugification",
+    "Additive and optional: consumers may fall back to the legacy from-sub-skill mapping when domain is absent"
   ],
   "change_kind": "feature",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

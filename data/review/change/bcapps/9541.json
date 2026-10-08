@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9541",
+  "input_hash": "4b52ae4fb0564506a37c6a4ee29469d810eaec58623ad4652f5cfc0f21f1d157",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:41.867Z",
+  "issues": [
+    "'Retry history' overstates what the new SOA Reply Attempt table does. The input supports tracking attempt counts.",
+    "'To prevent infinite retries' is an inference that the input does not state."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020415,
+    "changes_in_call": 6
+  }
+}

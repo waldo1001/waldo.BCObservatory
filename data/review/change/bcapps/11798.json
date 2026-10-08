@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/11798",
+  "input_hash": "340831577da9b0576fe1ecf69718795202ba5642f62ed606ecc9cf495eb19268",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:54.745Z",
+  "issues": [
+    "The title is a bug symptom: External Doc. No. had become mandatory on Service Invoice. The page reads it the other way round, as adding a mandatory check.",
+    "The posting codeunit changes remove more lines than they add (net -5 per layer), which fits relaxing a check rather than adding one.",
+    "The purchasing system tag is not supported by anything given."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018696,
+    "changes_in_call": 6
+  }
+}

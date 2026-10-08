@@ -9,15 +9,15 @@
   ],
   "summary": "E-Document services now support per-document-type direction configuration (Incoming, Outgoing, or Both), allowing administrators to control which document types each service can process and preventing implicit document exchanges.",
   "key_points": [
-    "Adds Direction field to E-Doc. Service Supported Type table with new closed enum E-Doc. Supp. Type Direction",
-    "Enforces direction restrictions in outbound document creation and inbound processing, logging errors when type direction doesn't match",
-    "Upgrade migration converts existing implicit permissions to explicit direction rows, preserving fallback relationships for seven document types",
-    "Seeds built-in services (PDF reader, ForNAV, Payables Agent, Contoso demo) with minimal Incoming-only supported-type rows",
-    "Optimizes supported-type evaluation with single lookup caching and guards batch export against rejected document types"
+    "Adds a Direction field (Incoming, Outgoing, Both) to E-Doc. Service Supported Type, backed by the new closed enum E-Doc. Supp. Type Direction",
+    "Outbound creation, recreate and batch export require Outgoing or Both; V1 and V2 inbound processing require Incoming or Both and log an error otherwise",
+    "A missing supported-type row now denies both directions; built-in services (PDF reader, ForNAV, Payables Agent, demo) are seeded with Incoming rows",
+    "Per-company upgrade turns existing rows into Both and missing types into Incoming, except seven fallback-secondary types left unconfigured",
+    "Uses one lookup for non-fallback types, caches the service record in the V2 rejection path, and fixes recurrent and threshold batch export edge cases"
   ],
   "change_kind": "feature",
   "behavior_change": true,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "integration"

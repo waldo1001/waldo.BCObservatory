@@ -4,13 +4,13 @@
   "title": "Pin all actions that are not currently pinned",
   "repo": "microsoft/AL-Go",
   "systems_joined": [],
-  "summary": "Pinned unpinned GitHub Actions to specific versions across Power Platform deployment workflows and updated the dependabot configuration to manage these pinned versions.",
+  "summary": "References to GitHub actions that were not yet pinned are now pinned in the BuildPowerPlatform, DeployPowerPlatform and PullPowerPlatformChanges actions. The dependabot configuration also gets a small addition.",
   "key_points": [
-    "BuildPowerPlatform, DeployPowerPlatform, and PullPowerPlatformChanges actions now use pinned versions",
-    "Dependabot configuration updated to handle version management for pinned actions",
-    "Improves supply chain security and consistency of action versions in workflows"
+    "Unpinned action references are pinned in the three Power Platform action.yaml files",
+    "Two lines added to .github/dependabot.yml",
+    "No tests, release notes or documentation updates"
   ],
-  "change_kind": "feature",
+  "change_kind": "other",
   "behavior_change": false,
   "breaking": false,
   "obsoletions": [],

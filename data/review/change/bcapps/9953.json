@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9953",
+  "input_hash": "663cda5f46794aafe33d402ea010f412f462df2ead0f45c4f9e75f3a8a4b1f3d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:29.034Z",
+  "issues": [
+    "The '24+ objects' count is wrong: 23 objects are listed, across 26 files.",
+    "This is a UI text rename, not a new feature, so change_kind 'other' fits better."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020058,
+    "changes_in_call": 6
+  }
+}

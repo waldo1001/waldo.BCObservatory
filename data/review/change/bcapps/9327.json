@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9327",
+  "input_hash": "86fa2858defbc5864e166b44b53ddb61090f728427ae45468a0f432ad7a028a9",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:14.162Z",
+  "issues": [
+    "Key point 4 misstates the reactive path: per the description, an unexpected 401 forces one refresh and then one retry. A failed token refresh does not trigger the retry.",
+    "Key point 1 does not name the table (Shpfy Registered Store New) or say that the refresh token is kept in IsolatedStorage. Reworded.",
+    "The summary is supported."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020006,
+    "changes_in_call": 6
+  }
+}

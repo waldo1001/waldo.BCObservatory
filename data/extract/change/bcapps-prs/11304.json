@@ -9,11 +9,11 @@
   ],
   "summary": "Validation of the item number field on sales lines now prevents duplicate production order status checks when the unit of measure code is re-validated, fixing repeated modal dialogs and write-transaction errors.",
   "key_points": [
-    "Added StatusCheckSuspended flag to suppress nested production order status checks during item number validation",
-    "Wrapped unit of measure code validation to prevent redundant status checks triggered by quantity and shipment date updates",
-    "Modified CheckProdOrderStatus codeunit to respect the suspended check flag",
-    "Changes applied across all localization layers and base application",
-    "Includes test coverage for the fix"
+    "Unit of Measure Code validation during No. validation now runs with status checks suspended",
+    "Quantity and Shipment Date validations skip the production order status check when checks are suspended",
+    "Check Prod. Order Status codeunit respects the suspended check so the warning appears only once",
+    "Changes applied to Sales Line in W1 and all localization layers",
+    "Includes tests for the scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

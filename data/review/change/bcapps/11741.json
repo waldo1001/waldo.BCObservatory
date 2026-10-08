@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11741",
+  "input_hash": "6d578dbbfa6540a2ea447febfdc0dcdbb903909750c4abe65d59a18c9ec9f311",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:14.134Z",
+  "issues": [
+    "Summary and key points match the description: BLOB company description, database-wide environment description in System Application, multiline editors, read-only API v2.0 fields, additive change.",
+    "New Environment Information table is not named explicitly but is covered by the database-wide storage point."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026202,
+    "changes_in_call": 6
+  }
+}

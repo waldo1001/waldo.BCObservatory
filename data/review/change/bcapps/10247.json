@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10247",
+  "input_hash": "d9e37bb712580b555035a5420ae8598d33ff79319abdad1c500bff1611a92ff0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:15.699Z",
+  "issues": [
+    "Summary and key points match the description of the Cc field, mapped-reply handling, blank fallback and Email Inbox read permissions; the new nonunique key is not mentioned but that is minor."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019011,
+    "changes_in_call": 6
+  }
+}

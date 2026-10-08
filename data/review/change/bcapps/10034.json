@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10034",
+  "input_hash": "3762527a07cd0c4ac6a5679a4995fc6ec6203ea883da718d5129bf92a5381ab6",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:14.095Z",
+  "issues": [
+    "Summary, key points and flags match the description: a TryFunction wraps the install-status check and the Belgian notification is skipped on error."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019914,
+    "changes_in_call": 6
+  }
+}

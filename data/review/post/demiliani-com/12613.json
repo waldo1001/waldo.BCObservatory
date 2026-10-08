@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/12613",
+  "input_hash": "9aeaa235f7780dc898c9c4357d77f161fdaf045eb5a2c0fac76a541b3d8a75dd",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:58:56.091Z",
+  "issues": [
+    "Summary, key points and quotes match the post.",
+    "One quote's explanation mentions moving preview work to production, which the post does not say. Minor.",
+    "The point that environments failing to update are deleted is left out but not required."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025286,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11419",
+  "input_hash": "552558ef859f944db1fad3de6b14416f6be470b897fd7d6ee4c0e3c06954f3df",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:39.890Z",
+  "issues": [
+    "Description's solution mentions only the non-deductible condition, but the issue statement covers both Non-Deductible and Full Base/Amount types, so the summary is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01831,
+    "changes_in_call": 6
+  }
+}

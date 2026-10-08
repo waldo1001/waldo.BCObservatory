@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/gerardorenteria-blog/12801",
+  "input_hash": "e95d498e135e4b8975255334c89899e23606b3cfdb4ba717dd155854ad65db6b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:16.730Z",
+  "issues": [
+    "The summary was over the 500-character limit, so I rewrote it shorter.",
+    "The Example01 to Example05 objects are listed as pages, but the post describes them as page extensions that add actions to standard lists. The type label is loose, but the objects are named in the post, so I kept them.",
+    "The post says MermaidDisplayOptions stores display preferences and never says what object type it is, so the page label is not supported by the post. I kept it because the post does name the object.",
+    "Everything else, including the diagram types, themes, scaling options and SVG export, is supported by the post."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.041848,
+    "posts_in_call": 4
+  }
+}

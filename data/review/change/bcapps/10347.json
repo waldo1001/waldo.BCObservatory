@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10347",
+  "input_hash": "7274b03ca93da3b033053ccfd90a77a52583094d79846456acfaed172cb099f3",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:02:32.369Z",
+  "issues": [
+    "Accurately describes the single-period day-count fix, the new branch that mirrors customer deferrals, the unaffected multi-period schedules and the eight tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024978,
+    "changes_in_call": 6
+  }
+}

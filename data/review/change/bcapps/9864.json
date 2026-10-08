@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9864",
+  "input_hash": "ebd49ef70f9119efbc47eb86f002fd882124b5105ea20c023f9e82581b5e05ef",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:09:56.755Z",
+  "issues": [
+    "Adding an event does not change standard behaviour, so behavior_change is set to false.",
+    "'All regional layers' claims too much. Only RU, NA and IT are mirrored."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014187,
+    "changes_in_call": 6
+  }
+}

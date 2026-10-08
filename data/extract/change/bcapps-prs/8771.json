@@ -6,16 +6,16 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "An OnBeforeFilterRemovedSourceRecords integration event was added to the Email codeunit to let partners override the default permission checking logic for source records, resolving issues with security-filtered users unable to find attachments.",
+  "summary": "Adds an OnBeforeFilterRemovedSourceRecords integration event with an IsHandled guard, published via the Email codeunit and raised in Email Impl's FilterRemovedSourceRecords. Partners can override the default permission-based filtering, for example to handle users with security filters on source tables.",
   "key_points": [
-    "New integration event allows subscribers to customize how read permissions are checked on source records",
-    "Partners can apply SecurityFiltering or other logic before the permission check runs",
-    "Purely additive change with no impact on existing behavior when the event is not subscribed to",
-    "Follows the existing event pattern in the Email codeunit",
-    "Solves the issue where security-filtered users cannot see attachments in the Add file from source document action"
+    "New OnBefore event with IsHandled is raised at the start of FilterRemovedSourceRecords",
+    "Lets subscribers replace the unfiltered ReadPermission check, for example by setting SecurityFiltering to Ignored",
+    "Default filtering is unchanged when no subscriber sets IsHandled",
+    "Follows the existing event pattern in the Email codeunit's Events region",
+    "Gives partners a way to address missing attachments in Add file from source document for security-filtered users"
   ],
   "change_kind": "feature",
-  "behavior_change": true,
+  "behavior_change": false,
   "breaking": false,
   "obsoletions": [],
   "systems": [

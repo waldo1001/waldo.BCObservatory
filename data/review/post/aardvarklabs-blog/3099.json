@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3099",
+  "input_hash": "6acb52057cd38d94365051c132ed7c297b5363b6d9a32f35b827f8b197b70fbf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:04.179Z",
+  "issues": [
+    "Power Platform appears only as a platform low coders may use; nothing in the post concerns integration, so that feature was dropped.",
+    "Summary, key points and quotes otherwise match the post."
+  ],
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.043299,
+    "posts_in_call": 4
+  }
+}

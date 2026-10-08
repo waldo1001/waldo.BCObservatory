@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/9416",
+  "input_hash": "40ec91339b196bb60eb77f7c22c67307b98e959d24fa6d9f1554d90057505a0c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:12:17.212Z",
+  "issues": [
+    "The summary and key points match the description: two additive events wrap the loop in UpdatePendingPrepaymentSales.",
+    "Marking it a feature that does not break anything is supported."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018574,
+    "changes_in_call": 6
+  }
+}

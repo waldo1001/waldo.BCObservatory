@@ -7,11 +7,11 @@
   "words": 2023,
   "summary": "A gamification system for Dynamics 365 Business Central accelerates user adoption during go-live by letting teams compete in mastering key processes like sales and customer creation. The solution uses three tables and multiple pages to track achievements, points, and leaderboards across user roles.",
   "key_points": [
-    "Gamification addresses resistance to change and low user motivation common in ERP go-lives by fostering healthy competition among teams",
-    "Solution uses three core tables (Achievement Definition, User Achievement Profile, User Achievement Log) with separate pages for users and administrators",
-    "Achievements trigger automatically via events when users perform actions like creating customers, posting sales documents, or creating items",
-    "Users progress through 11 levels from Novice to Mythical, earning points per achievement and viewing individual progress on a gaming dashboard",
-    "Leaderboard page shows cross-user rankings by points and department, making competition transparent and motivating adoption"
+    "Gamification targets resistance to change and low motivation during ERP go-lives by adding healthy competition between teams",
+    "Three tables (Achievement Definition, User Achievement Profile, User Achievement Log) plus a role center with separate user and administrator views",
+    "Event subscribers in the Achievement Events codeunit award points when users create customers, items, vendors, contacts or quotes, or post sales and purchase documents",
+    "Users climb point-based levels from Novice (0-499) up to Ultimate (5,000+) and follow their progress on their profile and the dashboard",
+    "The leaderboard ranks all users by total points with departmental metrics and is presented as the core of the solution"
   ],
   "systems": [
     "sales",
@@ -103,10 +103,6 @@
     {
       "type": "permissionset",
       "name": "GDRG Gaming"
-    },
-    {
-      "type": "interface",
-      "name": "GDRG Gaming User"
     }
   ],
   "features": [

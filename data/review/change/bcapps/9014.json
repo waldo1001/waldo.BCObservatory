@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9014",
+  "input_hash": "a65ab72a5ea159d28423f8e999ab4654240aa65e58c974e9a52ba39f6cdcb8fe",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:38.189Z",
+  "issues": [
+    "A key point says partners can extend the codeunit. The description only says they can reuse its functions.",
+    "The one-line removal in table 6139 is not explained in the input, so it is left undescribed."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.012928,
+    "changes_in_call": 6
+  }
+}

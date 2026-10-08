@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/demiliani-com/11962",
+  "input_hash": "8bdaeeb9429a4e3549d9597ce8033037a7cc8929790549486d42879707a9e143",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:01:32.331Z",
+  "issues": [
+    "Key point generalised a 95 percent reduction as typical; the post only shows that magnitude for the 10000-item case (about 11 MB to 515 KB).",
+    "Added the post's caveat about possible small server-side overhead."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029367,
+    "posts_in_call": 4
+  }
+}

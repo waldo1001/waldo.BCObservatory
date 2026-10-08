@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/07/al-eventlens-0-1-6-the-handler-lens-and-a-fix-that-needed-fixing/",
+  "input_hash": "2c2c2ca2e2f69b5fa0296141c09da237d77527b500328968b40e694610a980a0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:12.946Z",
+  "issues": [
+    "The summary calls all ten fixes parser bugs, but the post says only most were in the parser. Some fixes were about indexing, Reveal Subscriber, cursor placement and the Command Palette.",
+    "Key point 3 says the quoted colon dropped or invented events, but in the post it produced a mangled signature.",
+    "Differential testing describes how the review was done, not a feature of the extension."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.031526,
+    "posts_in_call": 4
+  }
+}

@@ -8,11 +8,11 @@
   ],
   "summary": "The Shopify Connector's product status enum now includes the Unlisted value that Shopify added to its API, correcting the misrepresentation of unlisted products during import.",
   "key_points": [
-    "Added Unlisted value to the Shpfy Product Status enum (30130)",
-    "Shopify API version 2026-07 supports UNLISTED status starting from API version 2025-10",
-    "Import now correctly maps UNLISTED string to Unlisted enum value instead of falling back to Active",
-    "No code changes needed in the mapping logic as the value name matches the cleaned Shopify string",
-    "Existing Active, Archived, and Draft product handling remains unchanged"
+    "Added an Unlisted value to the Shpfy Product Status enum (30130)",
+    "Shopify has exposed UNLISTED since API version 2025-10, and the connector uses version 2026-07",
+    "On import, UNLISTED now maps to Unlisted instead of falling back to Active",
+    "Export uppercases the enum name back to UNLISTED, so no mapping code had to change",
+    "Products wrongly stored as Active are corrected on the next sync"
   ],
   "change_kind": "feature",
   "behavior_change": true,

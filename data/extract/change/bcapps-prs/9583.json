@@ -11,11 +11,11 @@
   ],
   "summary": "Sales report action tooltips are moved from page actions to the report objects themselves, eliminating duplicates across role centers and pages where these reports are invoked.",
   "key_points": [
-    "Tooltip definitions moved from 5 sales reports' action invocations to the report objects",
-    "Action tooltips removed from 9 pages and role centers across W1 and 18 country layers",
-    "Tooltips now apply wherever reports are invoked via the 2025 release wave 1 UI descriptors feature",
-    "Completes the sales area migration, leaving no remaining sales reports with duplicate tooltips",
-    "Metadata-only change with no functional impact on report behavior"
+    "ToolTips for 5 Sales reports now live on the report objects instead of the page actions that run them",
+    "Duplicate action tooltips removed from 9 W1 pages and role centers, including CRM and Finance role centers",
+    "Country layers updated: 3 report fork additions and 52 page fork removals across 18 layers",
+    "Page actions inherit the report tooltip via the 2025 release wave 1 UI descriptor defaulting feature",
+    "Metadata-only change that completes the Sales area"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

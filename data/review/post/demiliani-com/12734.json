@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/demiliani-com/12734",
+  "input_hash": "3c08628ff9799c9f7f136a778d0e2ad511bf020e1556ec731a29d724eff2dee0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:35.350Z",
+  "issues": [
+    "The summary and key point implied every existing environment must be unlinked from Power Platform; the post requires this only for environments that were linked earlier.",
+    "The quotes are verbatim and the latency figures match the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022797,
+    "posts_in_call": 4
+  }
+}

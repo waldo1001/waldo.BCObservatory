@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2025-07-10T08:27:35.000Z",
   "words": 130,
-  "summary": "Starting with SaaS environments, Business Central now automatically unpublishes older versions of private extensions (PTEs) after a new version is installed, keeping only the immediately preceding version to simplify tenant management and prevent clutter.",
+  "summary": "In SaaS environments, Business Central now automatically unpublishes PTE versions that are no longer installed once a newer version of the extension is installed. Besides the current installed version, only the version immediately before it stays published, so old versions no longer pile up in the tenant.",
   "key_points": [
     "Old PTE versions are now automatically unpublished in SaaS when a new version is installed",
     "The version immediately before the current installed version is retained for safety",

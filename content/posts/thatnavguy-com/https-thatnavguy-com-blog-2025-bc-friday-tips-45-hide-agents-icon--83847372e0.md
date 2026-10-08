@@ -12,12 +12,12 @@ tags:
   - role center
 system: copilot
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T01:59:35.159Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -76,7 +76,7 @@ preview:
 
 # BC Friday Tips #45 Hide Agents Icon
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-29 · 104 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-45-hide-agents-icon/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-08-29 · 104 words · tier community · reviewed (checked by Opus)
 
 > Business Central now displays an Agents icon in the Role Center navigation menu. You can hide this icon by deactivating Agents in Copilot & agent capabilities settings, which helps keep the UI clean and prevents confusion for users not using AI Agents yet.
 

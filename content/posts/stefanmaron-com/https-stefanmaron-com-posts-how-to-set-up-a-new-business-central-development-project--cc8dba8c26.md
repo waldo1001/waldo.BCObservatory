@@ -16,12 +16,12 @@ tags:
   - ci/cd
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:57.623Z"
   flags: []
 generated:
-  at: "2026-10-07T12:54:54.417Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -55,8 +55,6 @@ quotes: []
 code_objects_mentioned: []
 systems:
   - development
-  - integration
-  - administration
 versions_mentioned:
   - June 2025
 preview:
@@ -73,17 +71,17 @@ preview:
 
 # How to Set Up a New Business Central Development Project – The 100% Correct Way
 
-[Read the post](https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/) · Stefan Maron (Stefan Maron, MVP) · 2025-06-05 · 2419 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://stefanmaron.com/posts/how-to-set-up-a-new-business-central-development-project/) · Stefan Maron (Stefan Maron, MVP) · 2025-06-05 · 2419 words · tier community · reviewed (checked by Opus)
 
 > This guide covers the essential setup steps for creating a new Business Central AL development project, from project creation and app.json configuration to code analysis and DevOps. It emphasizes starting with proper templates, modern naming conventions, and AL-Go for GitHub to ensure maintainability, CI/CD readiness, and AppSource compatibility.
 
 ## Key points
 
-- Start projects from structured templates like AL-Go rather than the default AL: Go! command to ensure proper project structure and CI/CD readiness
-- Configure app.json correctly with appropriate ID ranges, version numbers independent of BC versions, namespaces, and mandatory dependencies
-- Use consistent object naming with PascalCase, registered affixes as suffixes, and project codes to avoid conflicts and improve discoverability
-- Enable multiple code analyzers (CodeCop, AppSourceCop, PerTenantExtensionCop, UICop, LinterCop) with custom rulesets to catch issues early, even for PTE projects
-- Set up AL-Go for GitHub from the start to automate build, test, sign, and publish workflows while maintaining consistency with Microsoft's practices
+- Start from a template such as the AL-Go for GitHub templates instead of the default AL: Go! command, remove demo objects and download symbols
+- Configure app.json carefully: a sensible ID range (not starting at 50000 for PTEs), a version not tied to BC releases, explicit runtime and application versions, and only needed dependencies
+- Use PascalCase names with the registered affix as a suffix plus a short project code; namespaces with the affix as top level can remove the need for affixes in object names
+- Enable CodeCop, AppSourceCop, PerTenantExtensionCop, UICop and LinterCop, with an AppSourceCop.json per app and external rulesets to balance PTE and AppSource rules
+- Set up AL-Go early for build, test and deploy automation, including ruleset settings and scheduled test workflows
 
 ## Context
 

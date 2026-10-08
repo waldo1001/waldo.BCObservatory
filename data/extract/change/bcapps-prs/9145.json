@@ -9,11 +9,11 @@
   ],
   "summary": "A PDF preview factbox is added to purchase invoice pages to display the original invoice PDF linked to an inbound E-Document, appearing only when relevant and placed above the Incoming Documents factbox.",
   "key_points": [
-    "PDF preview factbox added to Purchase Invoice, Purchase Invoices, Posted Purchase Invoice, and Posted Purchase Invoices pages",
-    "Preview is read-only and only visible when the invoice is linked to an E-Document with a PDF source file",
-    "Uses SubPageLink-driven approach with two wrapper CardParts to ensure reliable refresh on list and card pages",
-    "Connectivity and rendering logic centralized in E-Document Helper codeunit without duplicating code",
-    "No table schema changes or new stored data; purely additive UI enhancement"
+    "PDF preview factbox added to Purchase Invoice, Purchase Invoices, Posted Purchase Invoice and Posted Purchase Invoices pages",
+    "Preview is read-only and shown only when the invoice is linked to an inbound E-Document whose source file is a PDF",
+    "Factbox sits in the Details area above the Incoming Documents factbox",
+    "E-Document Helper resolves the linked E-Document (by E-Document Link for open invoices, Document Record ID for posted) and renders the PDF preview",
+    "No table schema changes or new stored data"
   ],
   "change_kind": "feature",
   "behavior_change": true,

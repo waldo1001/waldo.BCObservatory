@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/aardvarklabs-blog/2816",
+  "input_hash": "62c649c580dabd5cef304ec5e5992ec35a89f6736109d6399f4692f790811343",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:21.791Z",
+  "issues": [
+    "The content matches the post's list of codeunit methods and its email gating example.",
+    "Quote 3 is a closing remark with no informational value, so it is dropped.",
+    "The note for quote 2 calls the scenario a security case, which overstates it slightly. This is minor."
+  ],
+  "applied": [
+    "dropped 1 quote(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03655,
+    "posts_in_call": 4
+  }
+}

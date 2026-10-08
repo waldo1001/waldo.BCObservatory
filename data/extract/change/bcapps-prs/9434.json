@@ -6,7 +6,7 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Spanish version now warns users when a purchase document reuses the same External Document No. across different document types (Invoice vs. Credit Memo) for the same vendor, preventing SII rejection errors that previously only surfaced after posting.",
+  "summary": "In the Spanish version with SII enabled, users now get a non-blocking warning when a purchase document's Vendor Invoice No. or Vendor Cr. Memo No. matches a posted entry of the opposite document type for the same vendor and date. SII would later reject such a document as 'Factura Duplicada'.",
   "key_points": [
     "Added subscribers to validate Vendor Invoice No. and Vendor Cr. Memo No. when SII is enabled",
     "Detects cross-type duplicates (Invoice vs. Credit Memo) that SII treats as identical",

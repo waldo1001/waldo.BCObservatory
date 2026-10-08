@@ -8,11 +8,10 @@
   ],
   "summary": "Payment Journal now displays a batch total showing the cumulative amount selected for payment without requiring posting first.",
   "key_points": [
-    "Adds batch total functionality to Payment Journal page across all localization layers",
-    "Shows cumulative payment amounts for the selected batch",
-    "Reduces need to post journal to preview batch payment totals",
-    "Includes test coverage in ERMGeneralJournalUT codeunit",
-    "Affects multiple localization layers and GenJnlManagement codeunit"
+    "Adds a batch total to the Payment Journal page in W1 and several localization layers",
+    "Lets users see the total selected for payment before posting",
+    "GenJnlManagement codeunit updated in the W1, ES and NL layers",
+    "Adds tests in ERMGeneralJournalUT for several layers"
   ],
   "change_kind": "feature",
   "behavior_change": true,

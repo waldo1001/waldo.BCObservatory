@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11813",
+  "input_hash": "64ef9a5047ef2fb102fc084f8a18e977afc7622aee4f187f97d1c59a16bbe554",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:13.688Z",
+  "issues": [
+    "Key points repeat themselves. The point about SaaS and the Agent framework comes from the testing note and does not describe a requirement of the feature."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018552,
+    "changes_in_call": 6
+  }
+}

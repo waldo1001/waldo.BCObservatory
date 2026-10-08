@@ -6,12 +6,11 @@
   "systems_joined": [
     "inventory"
   ],
-  "summary": "The Inventory Valuation - WIP report now correctly displays consumption amounts for production orders by fixing a calculation issue.",
+  "summary": "Fixes the incorrect consumption amount shown for production orders in the Inventory Valuation - WIP report, along with its Czech counterpart, Inventory Valuation - WIP CZA.",
   "key_points": [
-    "Fixed incorrect consumption amount calculation in the WIP report",
-    "Affects both base application and Czech localization versions",
-    "Added test case to verify the correction",
-    "Production order financial reporting is now more accurate"
+    "Fixes the consumption amount shown for production orders in the WIP valuation report",
+    "The same fix is applied to report 5802 (Base Application) and report 31133 (CZ Advanced Localization Pack)",
+    "A test was added to SCM Manufacturing Reports II"
   ],
   "change_kind": "fix",
   "behavior_change": true,

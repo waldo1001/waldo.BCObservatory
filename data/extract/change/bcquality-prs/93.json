@@ -4,7 +4,7 @@
   "title": "Fix lifecycle compatibility guidance",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "Development guidance and code examples were corrected across multiple AL development topics including error handling, events, upgrades, APIs, and lifecycle management to align with current platform capabilities and best practices.",
+  "summary": "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services and breaking changes were corrected. API page defaults were clarified, version-specific API shapes now need separate page objects, and the web-services review example now follows APIVersion defaulting to beta.",
   "key_points": [
     "Clarified examples and documentation for error collection with ErrorBehavior, event handling with IsHandled, and data transfer skipping triggers",
     "Updated API versioning guidance to require separate page objects for version-specific shapes and aligned examples with APIVersion defaulting to beta",

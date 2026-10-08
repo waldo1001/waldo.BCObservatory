@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9078",
+  "input_hash": "22c108810f472128891d86a92abfb5c1a87972881e586417ebd741899edd53c7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:13:36.597Z",
+  "issues": [
+    "Matches the description: Field ID 24 is added to both grouping sets, with an upgrade re-import and a test."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018454,
+    "changes_in_call": 6
+  }
+}

@@ -8,11 +8,11 @@
   ],
   "summary": "Payment discount percentages on subscription billing invoices now correctly use the contract's payment terms instead of the customer or vendor's payment terms.",
   "key_points": [
-    "Fixed invoice payment discount calculation to respect contract payment terms rather than customer/vendor payment terms",
-    "Added validation of Payment Terms Code after document date is set to trigger recalculation",
-    "Handles sales and purchase invoices differently based on how their payment terms validation works",
-    "Added four new tests covering scenarios where contract terms grant discounts the customer/vendor do not, and vice versa",
-    "Resolves issue where invoice discount percentage could be 0% or higher than contract allows"
+    "Invoices created from contracts now take Payment Discount % from the contract's payment terms, not the customer's or vendor's",
+    "Create Billing Documents re-validates the contract Payment Terms Code after the document date is set",
+    "Sales and purchase headers are handled differently because their payment terms triggers behave differently",
+    "Four new tests cover contract terms that grant a discount and contract terms that remove one, for both customers and vendors",
+    "Before the fix, the payment discount could be missing or larger than the contract terms allow"
   ],
   "change_kind": "fix",
   "behavior_change": true,

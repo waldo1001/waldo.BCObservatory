@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11679",
+  "input_hash": "426ffa01743fddab2f5f20f37a5ebc5a84a12b1681f6a94b4123dd99188d1233",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:15.699Z",
+  "issues": [
+    "Supported by the description and the test file change; the vendor contract mention reflects the reported scenario, while the fix sits in the shared Subscription Line table."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019011,
+    "changes_in_call": 6
+  }
+}

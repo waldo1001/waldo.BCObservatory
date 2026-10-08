@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/10370",
+  "input_hash": "5917da4aeddf9fc0547c249de114ea47e229f44e1830e552730bee866c7b78e7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:56.792Z",
+  "issues": [
+    "The PR is labelled as a bug and fixes a work item, so the change kind should be fix rather than feature.",
+    "The key points say dividends and stock compensation are supported. The description only names these as future design intent; the actual change is inheriting the WHT product posting group from a G/L balance account."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023281,
+    "changes_in_call": 6
+  }
+}

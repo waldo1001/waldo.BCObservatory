@@ -5,7 +5,7 @@
   "source": "dvlprlife-com",
   "published_at": "2026-06-22T13:00:00.000Z",
   "words": 348,
-  "summary": "The AL MCP Server allows GitHub Copilot CLI to access AL development tools like symbol download, compilation, and diagnostics without VS Code, enabling agent-driven validation workflows. This post explains setup and practical CLI-based agent scenarios for automating AL development tasks.",
+  "summary": "Weekly community roundup for June 14 to 20, 2026, featuring a single post by Stefano Demiliani on using Microsoft's AL MCP Server from GitHub Copilot CLI. The featured post covers installing the AL tools as a global .NET package, registering the MCP server over STDIO, and letting CLI agents download symbols, compile, check diagnostics and run AppSourceCop without VS Code.",
   "key_points": [
     "AL MCP Server exposes AL development tools to GitHub Copilot CLI through STDIO protocol",
     "Setup requires installing the global .NET package microsoft.dynamics.businesscentral.development.tools and configuring the MCP server",

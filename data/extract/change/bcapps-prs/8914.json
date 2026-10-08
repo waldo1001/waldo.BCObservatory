@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed an issue where editing a sales order line's description would unexpectedly change invoice totals by ensuring calculations only run when the item number changes.",
   "key_points": [
-    "The Description field validation was unconditionally recalculating totals on every edit",
-    "Total recalculation now only triggers when the item number actually changes",
-    "Prevention of duplicate delta updates to invoice amounts",
-    "Includes test coverage for the fix",
-    "Affects all localized versions of the sales order subform page"
+    "The Description field validation was recalculating totals on every edit",
+    "Totals are now recalculated only when Rec.\"No.\" differs from xRec.\"No.\"",
+    "Stops the line amount being added to the invoice totals a second time",
+    "Adds a test in the Document Totals Pages test codeunit",
+    "The Sales Order Subform page is updated in the W1, CH, ES, IT, NA, NO and RU layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

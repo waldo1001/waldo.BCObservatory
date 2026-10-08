@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11206",
+  "input_hash": "170ca9badd55a20ebeecc03b549fb12c7223ed89c9129cef776df8bc6c4c9e7f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:05:35.391Z",
+  "issues": [
+    "The change is only in the Swiss (CH) layer of codeunit 12, but the summary reads as if it applies everywhere. Summary updated to say CH.",
+    "Key points, kind and flags are supported by the PR."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022112,
+    "changes_in_call": 6
+  }
+}

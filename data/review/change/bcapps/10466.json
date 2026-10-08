@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10466",
+  "input_hash": "2ef0fd561b707d83103be4f884a0340d9d89c02d3ed9a19a4f5a818556d822cb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:07:44.267Z",
+  "issues": [
+    "Matches the description: exact-description item match only when one non-blocked item fits with a matching unit of measure, runs after item reference and text-to-account mapping."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01705,
+    "changes_in_call": 6
+  }
+}

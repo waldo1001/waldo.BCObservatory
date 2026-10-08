@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9344",
+  "input_hash": "a51367188a52c79dbcf09d901f1ff615d6f8ea27c505d30cb86b5d0dd73492e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:34.140Z",
+  "issues": [
+    "The summary reverses the bug. The title describes the faulty behavior: the Service Order No. gets copied to GL entries when the External Document No. is blank. The fix stops this rather than adding it.",
+    "The key points carry the same inverted reading, and the audit trail claim is unsupported."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018472,
+    "changes_in_call": 6
+  }
+}

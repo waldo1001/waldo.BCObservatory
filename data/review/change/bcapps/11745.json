@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/11745",
+  "input_hash": "4e9a37593a5694ebce031daf2503ba8ba30b1ab65d8f9eb12e22d6a05c6befb8",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:54.745Z",
+  "issues": [
+    "Key point 2 is muddled. The fix adds a Purchase Header branch so purchase orders get validated on release. It does not extend coverage to all document types.",
+    "Reminders and finance charge memos also get the new check, and the page left this out."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.018696,
+    "changes_in_call": 6
+  }
+}

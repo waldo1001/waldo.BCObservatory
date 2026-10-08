@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/128",
+  "input_hash": "b1024fd0a1be25d42a226b6ff042c89bce2c5905191b6deebf93f886407ba821",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:06:45.030Z",
+  "issues": [
+    "The PR changes article content to stop the false review comments maintainers flagged. That is a correction, not a refactor.",
+    "Key point 4 is filler and adds nothing the PR states."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.015865,
+    "changes_in_call": 6
+  }
+}

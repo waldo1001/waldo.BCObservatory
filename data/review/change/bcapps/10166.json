@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10166",
+  "input_hash": "741d1abf874a4607ec1c423502d45b10e29061db8c532439863cd9423a0c43df",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:08.512Z",
+  "issues": [
+    "Summary and key points match the description: a new handled event in MaintainPlanningLine, with standard behavior unchanged when nothing subscribes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023224,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9277",
+  "input_hash": "ecfcb1f484e1d7b6989becc07d2ab5d38e1e0784ee53f45cd01813219ef9a3f9",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:06:00.681Z",
+  "issues": [
+    "All points are supported by the description: new codeunit 5310, new overload, idempotent insert, listed template values."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029788,
+    "changes_in_call": 6
+  }
+}

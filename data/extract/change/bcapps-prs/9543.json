@@ -4,13 +4,13 @@
   "title": "Support VAT return reporting frequencies in Denmark",
   "repo": "microsoft/BCApps",
   "systems_joined": [],
-  "summary": "The Danish electronic VAT declaration system now supports multiple reporting frequencies - monthly, quarterly, and semi-annual periods - parsed from SKAT VAT return data, with a legacy quarterly fallback feature flag and enhanced validation.",
+  "summary": "Danish electronic VAT declaration now reads SKAT VAT return periods with their reporting frequency and calculates monthly, quarterly and semi-annual periods. A feature-flagged legacy quarterly fallback remains, and overlapping periods and invalid due dates are rejected.",
   "key_points": [
-    "Added ElecVATDeclRepFrequency enum to represent reporting frequency types",
-    "Extended VAT period calculation logic to handle monthly, quarterly, and semi-annual frequencies",
-    "Implemented validation to prevent overlapping VAT return periods and reject invalid due dates",
-    "Retained legacy quarterly fallback behind feature flag DKElecVAT-ReportingFrequencyEnabled",
-    "Expanded test coverage with focused scenarios for various frequency calculations"
+    "New reporting frequency enum, and period parsing that handles monthly, quarterly and semi-annual periods",
+    "Prevents overlapping VAT return periods and rejects invalid SKAT due dates",
+    "Legacy quarterly calculation kept as a feature-flagged fallback; new key vault secret DKElecVAT-ReportingFrequencyEnabled",
+    "Legacy Q2 boundaries corrected; nested response periods processed regardless of frequency order",
+    "Invalid flag configuration logged as warning telemetry; tests added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

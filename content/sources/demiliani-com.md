@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f2d4af0e9739e677a1751886d44308b7294888550d9055ea4a58c3312ef5e454
@@ -136,13 +136,13 @@ footprint:
     - id: platform
       weight: 68
     - id: integration
-      weight: 66
+      weight: 59
     - id: administration
-      weight: 46
+      weight: 41
     - id: copilot
-      weight: 46
-    - id: reporting
-      weight: 5
+      weight: 38
+    - id: localization
+      weight: 2
   topics:
     - id: performance
       weight: 13
@@ -167,8 +167,6 @@ footprint:
   objects:
     - id: api Dynamics 365 Business Central connector
       weight: 1
-    - id: api Model Context Protocol (MCP)
-      weight: 1
     - id: codeunit Agent
       weight: 1
     - id: codeunit AOAI Chat Completion Params
@@ -189,6 +187,8 @@ footprint:
       weight: 1
     - id: codeunit Queued Export Worker Bad
       weight: 1
+    - id: codeunit Queued Export Worker Good
+      weight: 1
   features: []
 first_item: "2025-04-07"
 last_item: "2026-10-05"
@@ -205,17 +205,17 @@ last_item: "2026-10-05"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (74) | performance (13) | api Dynamics 365 Business Central connector (1) |
-| platform (68) | al development (10) | api Model Context Protocol (MCP) (1) |
-| integration (66) | security (9) | codeunit Agent (1) |
-| administration (46) | automation (6) | codeunit AOAI Chat Completion Params (1) |
-| copilot (46) | azure logic apps (6) | codeunit AOAI Chat Messages (1) |
-| reporting (5) | on-premises (6) | codeunit AOAI Operation Response (1) |
-|  | agents (5) | codeunit AzureOpenAI (1) |
-|  | azure functions (5) | codeunit File Management (1) |
-|  | azure openai (5) | codeunit Memory Mapped File (1) |
-|  | compliance (5) | codeunit Parallel Session Management (1) |
-|  |  | codeunit PDF Document (1) |
+| platform (68) | al development (10) | codeunit Agent (1) |
+| integration (59) | security (9) | codeunit AOAI Chat Completion Params (1) |
+| administration (41) | automation (6) | codeunit AOAI Chat Messages (1) |
+| copilot (38) | azure logic apps (6) | codeunit AOAI Operation Response (1) |
+| localization (2) | on-premises (6) | codeunit AzureOpenAI (1) |
+|  | agents (5) | codeunit File Management (1) |
+|  | azure functions (5) | codeunit Memory Mapped File (1) |
+|  | azure openai (5) | codeunit Parallel Session Management (1) |
+|  | compliance (5) | codeunit PDF Document (1) |
 |  |  | codeunit Queued Export Worker Bad (1) |
+|  |  | codeunit Queued Export Worker Good (1) |
 
 ## Flight path
 

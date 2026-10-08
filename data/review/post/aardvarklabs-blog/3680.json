@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/aardvarklabs-blog/3680",
+  "input_hash": "5d791bdbe1e87d42775beba4bc641507dee7e2141fb47b93eb3fe030f1214e32",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:54:26.795Z",
+  "issues": [
+    "The administration system is not supported; the post is purely about development of a control add-in.",
+    "The objects, features, quotes and key points are accurate. The ARDVendorCard page extension is not listed, but objects cannot be added with these edits."
+  ],
+  "applied": [
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.028195,
+    "posts_in_call": 4
+  }
+}

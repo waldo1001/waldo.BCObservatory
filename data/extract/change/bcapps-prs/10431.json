@@ -10,11 +10,11 @@
   ],
   "summary": "Reference links to archived agents and their tasks now open the Agent Card and Agent Task Log Entries respectively instead of failing or showing unrelated agents, while non-archived agents follow the same navigation paths as before.",
   "key_points": [
-    "Archived agents are now reachable for auditing through proper navigation surfaces",
-    "Agent task references on Inbound E-Documents and agent drill-downs now route to appropriate pages when agents are archived",
-    "Two internal helper methods route navigation based on agent substate to either task pane or card/log views",
-    "Non-archived agents experience no behavior change",
-    "External apps can replicate the logic using existing public APIs without waiting for client-side changes"
+    "Links to an archived agent now open the Agent Card, and links to an archived agent's task open the Agent Task Log Entries",
+    "Fixes links that reported not found or opened an unrelated agent's task list",
+    "Internal helpers Agent Impl.ShowAgent and Agent Task Impl.ShowTask choose the target page from the agent substate",
+    "Inbound E-Documents and PA Purchase Invoice List inline the same check using API that already ships; no new public API",
+    "Non-archived agents still open the task pane as before; tests added for the archived routing"
   ],
   "change_kind": "fix",
   "behavior_change": true,

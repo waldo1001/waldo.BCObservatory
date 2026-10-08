@@ -8,11 +8,11 @@
   ],
   "summary": "Codeunit 8035 was renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker' to avoid name conflicts with objects outside Subscription Billing, with all references updated accordingly.",
   "key_points": [
-    "Renamed codeunit 8035 to include 'Sub. Billing' prefix for explicit ownership",
-    "Updated all references across five Subscription Billing codeunits",
-    "Aligned source filename with the new object name",
-    "Prevents namespace conflicts with external objects",
-    "No behavioral changes, only naming for clarity"
+    "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker' to make clear which app owns it",
+    "References updated in four Subscription Billing codeunits",
+    "Source filename aligned with the new object name",
+    "Avoids object name conflicts with objects outside Subscription Billing",
+    "No change to logic"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

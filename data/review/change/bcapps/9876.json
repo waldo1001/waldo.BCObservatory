@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/9876",
+  "input_hash": "00c4176ec3e9760feacbfc6404e3ad9111b64127bde4488990ecc84b3dca02ee",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:40.148Z",
+  "issues": [
+    "References were updated in four other codeunits, not five; the fifth file is the renamed codeunit itself.",
+    "The conflict is about object names, not namespaces.",
+    "Renaming an object can break dependents that refer to it by name. The codeunit's access level is not given, so breaking stays false."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.019112,
+    "changes_in_call": 6
+  }
+}

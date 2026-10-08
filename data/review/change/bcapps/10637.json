@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/10637",
+  "input_hash": "1ba20869f29e37cc9b1f80d57d601ea7b9d05cfcd07b8d04feeaee182d8a1f6e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:07:05.813Z",
+  "issues": [
+    "breaking set to true is not supported: the emptied country subscribers are kept and only marked ObsoleteState Pending under CLEAN30, so existing extensions keep compiling.",
+    "The description says ten country subscribers are obsoleted (Pending, tag 30.0), but the page lists no obsoletions; these cannot be added with the available edits."
+  ],
+  "applied": [
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.023517,
+    "changes_in_call": 6
+  }
+}

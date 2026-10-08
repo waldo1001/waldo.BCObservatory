@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/12927",
+  "input_hash": "19ae48772bfb65ec79ab4fb25b562f040bdbc9275333260421b54ac07b4550fb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:58:01.644Z",
+  "issues": [
+    "Summary and key points match the post: the help URL in app.json, Bing grounding, the two-level path limit, supported file types, indexing time, and the feature being free.",
+    "Both quotes appear word for word in the post.",
+    "The objects, versions and features are all backed by the text."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.035636,
+    "posts_in_call": 4
+  }
+}

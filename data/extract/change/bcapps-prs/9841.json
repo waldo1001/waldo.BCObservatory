@@ -6,13 +6,12 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "Code indentation in CheckManagement codeunit to align the case block under its IsHandled guard across all regional layers.",
+  "summary": "The case block in FinancialVoidCheck of the CheckManagement codeunit is now indented under its 'if not IsHandled' guard in the APAC, NA, RU and W1 layers. The change is whitespace only.",
   "key_points": [
-    "Reindented case block one level deeper to be nested under the IsHandled condition check",
-    "Applied consistently across all four regional layers (APAC, NA, RU, W1)",
-    "Pure whitespace change with no logic modifications",
-    "Improves code readability and formatting consistency",
-    "Follow-up to a prior refactoring in the FinancialVoidCheck method"
+    "Case block in FinancialVoidCheck indented one level under the IsHandled guard",
+    "Applied in all four layers: APAC, NA, RU and W1",
+    "Whitespace only, no logic changes",
+    "Formatting follow-up to PR #9421"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

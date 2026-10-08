@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices, with good and bad AL code examples for each.",
   "key_points": [
-    "Introduces 7 new knowledge articles on master-table design, number series usage, singleton setup tables, date-modified tracking, blocked field enforcement, application area requirements, and object affixes",
-    "Creates two new domains (data-modeling and appsource) alongside the existing style domain",
-    "Each article includes markdown documentation plus paired good.al and bad.al code samples demonstrating recommended versus problematic patterns",
-    "Articles reference AppSourceCop rules (AS0062, AS0011) and legacy codunits to guide developers toward preferred implementations",
-    "Knowledge index validated with 199 total articles across BCQuality"
+    "Adds 7 knowledge articles on master-table numbering, the No. Series codeunit, singleton setup tables, Last Date Modified, Blocked checks, ApplicationArea and object affixes",
+    "Creates two new domains, data-modeling and appsource; the ApplicationArea article goes in the existing style domain",
+    "Each article has a markdown file plus paired good.al and bad.al samples",
+    "Articles cite AppSourceCop rules AS0062 and AS0011 and recommend codeunit 310 No. Series over the obsolete-pending NoSeriesManagement (codeunit 396)",
+    "Validation reports 199 articles in total with no errors"
   ],
   "change_kind": "feature",
   "behavior_change": false,

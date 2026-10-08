@@ -9,10 +9,10 @@
   ],
   "summary": "Report 400 now includes applied vendor refund entries that share a payment's document number, ensuring the report lines match the total amount instead of showing a discrepancy.",
   "key_points": [
-    "Vendor refunds with matching document numbers now appear as separate lines on the remittance advice report",
-    "The total calculation is adjusted to prevent double-counting refunds already listed as lines",
-    "Payment discount logic is skipped for refund entries to avoid incorrect calculations",
-    "Both PEPPOL export and standard remittance advice report logic updated consistently"
+    "Vendor refunds sharing the payment's Vendor No. and Document No. are now marked and shown as lines on Report 400",
+    "Payment discount logic is skipped for refund entries",
+    "The total is adjusted by the line amount so listed lines reconcile with the printed total",
+    "Both the Base Application report and the PEPPOL remittance advice buffer and export codeunits were updated, with new tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

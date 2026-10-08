@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2025/introducing-bc-prompt-kit-how-i-started-my-ai-journey/",
+  "input_hash": "a8fbe6dde9ce3b5cff95c80ea40bee93bafd0b59f1970b72cd61e1c38c9b7ac4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:58:16.448Z",
+  "issues": [
+    "Objects are generic placeholders, not objects named in the post.",
+    "Post covers AI coding assistance in general, not the Business Central Copilot features, so the copilot system is dropped."
+  ],
+  "applied": [
+    "dropped 4 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026307,
+    "posts_in_call": 4
+  }
+}

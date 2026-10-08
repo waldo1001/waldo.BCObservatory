@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/gerardorenteria-blog/11853",
+  "input_hash": "6e7ad9e3a241426d46fd4130d526345c04944767ed0effac26eed5cc305bd3d7",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:59:38.800Z",
+  "issues": [
+    "Summary, key points and both quotes match the English section of the post.",
+    "Sales and purchasing tags fit because the post gets weather data from customer, vendor and order records.",
+    "The export to the sustainability module is only simulated, and the post says its values are demo figures."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030528,
+    "posts_in_call": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11333",
+  "input_hash": "95427b206d007f17559cd1df493452220ad4025addc4f1609f0582c3fc2cff80",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:05:06.605Z",
+  "issues": [
+    "Summary and key points match the description; omits the BaseApp Spend Request self-modify permission and the quarantined tests, which is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025292,
+    "changes_in_call": 6
+  }
+}

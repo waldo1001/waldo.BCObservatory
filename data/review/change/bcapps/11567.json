@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11567",
+  "input_hash": "ed874d002a938b7226b6b6e32279b8070de9fefd345991e29cfd7f7030a6ff26",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:04:27.895Z",
+  "issues": [
+    "Backport of the same fix to 29.x; summary and key points match the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029301,
+    "changes_in_call": 6
+  }
+}

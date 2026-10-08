@@ -1,0 +1,20 @@
+{
+  "item_id": "blog/demiliani-com/13563",
+  "input_hash": "88b91edbd986c8b89fcc5cfb5d0002f5eca8cca5799b3cdee067c17fc0afd7ad",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:55:57.608Z",
+  "issues": [
+    "Summary, key points, objects and features match the post.",
+    "Quote 2 has a hyphen where the post uses an en dash in the permission set name. The meaning is unchanged, so it is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.03507,
+    "posts_in_call": 4
+  }
+}

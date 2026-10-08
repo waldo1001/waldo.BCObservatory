@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9447",
+  "input_hash": "d37a8d40f7d8934416c59b3fbc42b73640ba3401504aae22e4325e49f0e9670e",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:12:44.759Z",
+  "issues": [
+    "New IsHandled event keeps standard behavior unless a subscriber handles it; behavior_change should be false.",
+    "Change is also mirrored to the IT layer, not mentioned but not required."
+  ],
+  "applied": [
+    "behaviour change false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024692,
+    "changes_in_call": 6
+  }
+}

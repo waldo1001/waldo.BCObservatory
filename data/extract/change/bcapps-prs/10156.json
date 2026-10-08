@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "The Assign Subscription Lines dialog now clearly identifies which sales line it is opened for by displaying the line number and description in its caption, and consolidates subscription package assignment logic to prevent duplicate dialogs when exploding bill-of-materials.",
+  "summary": "The Assign Subscription Lines dialog caption now shows the sales line No. and Description, and a new event lets extensions supply their own caption. During Explode BOM, package assignment now runs only once per component line, so the dialog no longer opens twice per component.",
   "key_points": [
-    "Dialog caption now shows sales line number and description instead of subscription package code",
-    "Subscription package assignment logic consolidated from two separate paths to one post-insert subscriber",
-    "Prevents duplicate dialogs when exploding BOM with multiple components",
-    "New extension event OnAfterGetAssignSubscriptionLinesCaption allows customization",
-    "Fixes a latent defect where lines were committed before their parent sales line was inserted"
+    "Page 8065 caption shows the sales line No. and Description instead of the Subscription Package code",
+    "The previous caption is kept when the page is opened from a Subscription Header",
+    "New event OnAfterGetAssignSubscriptionLinesCaption lets extensions customize the caption",
+    "During Explode BOM the No. validation path is skipped for the line being exploded, so duplicate dialogs no longer appear",
+    "Fixes a latent defect where Sales Subscription Lines were committed before their sales line was inserted"
   ],
   "change_kind": "fix",
   "behavior_change": true,

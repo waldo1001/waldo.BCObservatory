@@ -6,7 +6,7 @@
   "systems_joined": [
     "manufacturing"
   ],
-  "summary": "Subcontracting app gains an app-owned Subcontractor Dispatch List action replacing the legacy Base Application one, while preserving the old action with an obsolete caption to prevent AppSourceCop baseline breaks.",
+  "summary": "Forward-ports the app-owned Subcontractor Dispatch List action to the Subcontracting Work Center Card extension and removes the obsolete modify of the Base Application action, resolving AppSourceCop AS0031. The retained legacy Base Application action is now captioned Subcontractor - Dispatch List (Obsolete).",
   "key_points": [
     "Added app-owned 'Subcontractor Dispatch List' action to Subcontracting page extension",
     "Removed obsolete app-side modification of the legacy Base Application action",
@@ -15,7 +15,7 @@
     "Resolves AppSourceCop baseline break AS0031 when upgrading to version 28.5.53301.0"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

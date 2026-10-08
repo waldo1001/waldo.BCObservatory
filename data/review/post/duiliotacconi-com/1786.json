@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/duiliotacconi-com/1786",
+  "input_hash": "51cd261274f6b11502a17865aa948d11981192969f4f04c1060458a77ba341d7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:57:54.941Z",
+  "issues": [
+    "Second key point says generation happens at middleware session level; the post says it happens on the NST middle tier, with the result influenced by the server the session is connected to.",
+    "Features index optimization and performance improvement are generic benefits, not distinct features."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 2 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033875,
+    "posts_in_call": 4
+  }
+}

@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "BCQuality adds 18 new knowledge articles covering data modeling, testing, style, security, error handling, UI, upgrade, web services, and AppSource patterns with code examples and best practices.",
   "key_points": [
-    "18 articles document patterns for data modeling (WorkDate, Media for pictures, table-type conventions), testing (BCPT, tagging, test structure), and style (business logic, organization)",
-    "Security, error handling, UI, upgrade, and web services guidance covers permission sets, rollback-safe logging, page types, tag nesting, and API write access",
-    "Each article includes bad/good AL code samples and frontmatter to support knowledge base training",
-    "Duplicates or substantial overlaps with existing files were dropped during review",
-    "Updates to review skills link the new articles into relevant code review processes"
+    "18 articles across data modeling (WorkDate, Media for pictures, table-type conventions), testing (BCPT, tagging, test structure) and style",
+    "Security, error handling, UI, upgrade, web services and AppSource guidance on permission sets, rollback-safe logging, page types, upgrade tag nesting, API write access and version bumps",
+    "Sibling good and bad AL samples are included where a code contrast helps",
+    "Four drafted articles were dropped as duplicates or overlaps of existing files",
+    "Review skills updated to reference the new articles"
   ],
   "change_kind": "feature",
   "behavior_change": false,

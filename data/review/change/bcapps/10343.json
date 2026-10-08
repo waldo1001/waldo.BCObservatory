@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/10343",
+  "input_hash": "4fa2ed9e1db376c7e59df19c34a918ac3569989cb166e9d5a55b3e50aea556fb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:08:11.545Z",
+  "issues": [
+    "Supported: a SaaS-only install notification called from OnOpenPage on the W1 and IT pages, logic in Manufacturing Setup Notif., wrapped in #if not CLEAN28."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020162,
+    "changes_in_call": 6
+  }
+}

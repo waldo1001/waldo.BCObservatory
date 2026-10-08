@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/12623",
+  "input_hash": "3a469fc9f7954203139b285be2abd5ff1e97fc87385c3b667754e360e48a18dc",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T01:58:43.812Z",
+  "issues": [
+    "Summary, key points, versions and objects all match the post and its code sample.",
+    "Quote 1 is a shortened but verbatim part of the post sentence; quote 2 is verbatim.",
+    "The Customer table extension is also mentioned but its absence from objects is acceptable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034199,
+    "posts_in_call": 4
+  }
+}

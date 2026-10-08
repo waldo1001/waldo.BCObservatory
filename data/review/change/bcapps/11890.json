@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11890",
+  "input_hash": "b817857c3119e8124da971e52b56e53ba4460cdf3b4321b6da4c16a7595e2ba6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:35.613Z",
+  "issues": [
+    "Summary omits that the cleanup is reachable only via a URL parameter.",
+    "Scheduler key point says it runs cleanup proactively; the description says it proactively sends admins remediation steps."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.01697,
+    "changes_in_call": 6
+  }
+}

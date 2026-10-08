@@ -13,12 +13,12 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-08T02:00:48.630Z"
   flags: []
 generated:
-  at: "2026-10-07T20:00:32.874Z"
+  at: "2026-10-08T01:26:53.141Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
@@ -72,7 +72,6 @@ code_objects_mentioned:
   - codeunit Unit of Measure Management
 systems:
   - development
-  - inventory
 versions_mentioned: []
 preview:
   embeddable: true
@@ -88,15 +87,15 @@ preview:
 
 # BC Friday Tips #32 Unit of Measure Management Codeunit
 
-[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-23 · 69 words · tier community · **unreviewed** (machine-generated)
+[Read the post](https://thatnavguy.com/blog/2025/bc-friday-tips-32-unit-of-measure-management-codeunit/) · That NAV Guy (Teddy Herryanto, MVP) · 2025-05-23 · 69 words · tier community · reviewed (checked by Opus)
 
 > The Unit of Measure Management codeunit provides built-in functions for handling unit of measure conversions and quantity calculations in Business Central. Developers should use it instead of creating custom solutions to ensure consistency and save development time.
 
 ## Key points
 
-- Codeunit includes functions like GetQtyPerUnitOfMeasure, GetResQtyPerUnitOfMeasure, GetQtyRoundingPrecision, RoundQty, CalcBaseQty, and CalcQtyFromBase
-- Using the built-in codeunit eliminates the need to recreate unit of measure conversion logic
-- Provides consistency across applications by leveraging standard Microsoft functionality
+- The Unit of Measure Management codeunit offers functions such as GetQtyPerUnitOfMeasure, GetResQtyPerUnitOfMeasure, GetQtyRoundingPrecision, RoundQty, CalcBaseQty and CalcQtyFromBase
+- Reusing the codeunit means developers do not have to write their own unit of measure conversion logic
+- The stated benefits are saving time and keeping results consistent
 
 ## Quotes
 

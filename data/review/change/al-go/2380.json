@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2380",
+  "input_hash": "3d9e77f475aed9d130008e6ed1338807c51a0738c132553c0b3aff8efcebf34d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-08T02:03:12.617Z",
+  "issues": [
+    "The description supports the summary and key points: a shared Authenticate action, secrets passed through environment variables, preserved credential precedence, and both workflows in both templates."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020642,
+    "changes_in_call": 6
+  }
+}

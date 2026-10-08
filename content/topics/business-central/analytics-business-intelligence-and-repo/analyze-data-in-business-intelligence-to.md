@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:40.443Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-08T02:14:42.423Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/bertverbeek-nl/1318
     - post/thinkaboutit-be/8229
   guidelines: []
 learn_toc_path:
@@ -83,7 +82,7 @@ coverage:
   learn: 5
   code: 3
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 4010
@@ -129,7 +128,6 @@ The section also has performance articles for AL developers. They cover page des
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Native connection with Fabric in Business Central](../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
 - [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../posts/thinkaboutit-be/8229.md) (community post): "simplifies analytics architecture for enterprise data platforms"
 
 ## Business Central pages and reports

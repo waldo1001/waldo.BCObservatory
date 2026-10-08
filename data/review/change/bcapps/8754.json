@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/8754",
+  "input_hash": "5a4af34b9d47aea6b830c8f68de5aa9ee9141afca50d221e1a3d99f5ce3a06d0",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:10:38.059Z",
+  "issues": [
+    "Key point 3 says users now get immediate feedback instead of an error at the end of the workflow. The new TestField error is still raised in CheckCreateWIPTransfer when the transfer order is created, so only the error message changes, not when it appears.",
+    "The description names report 99001501 while the object list says 20501. The page does not cite either number."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.029976,
+    "changes_in_call": 6
+  }
+}

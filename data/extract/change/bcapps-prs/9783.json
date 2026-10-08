@@ -8,11 +8,10 @@
   ],
   "summary": "Purchase return order posting now correctly handles manually reserved lot-tracked items when exact cost reversing is mandatory by automatically deriving the applies-to entry from the existing reservation during posting.",
   "key_points": [
-    "Fixes posting failure for lot-tracked purchase returns with manual reservations when exact cost reversing mandatory is enabled",
-    "Automatically restores the exact-cost reversing link from the reserved item ledger entry when applies-to entry is blank",
-    "Eliminates the need for manual intervention to fill the applies-to entry when a return line is fully reserved",
-    "Preserves reservation integrity throughout the posting process",
-    "Added test coverage for this specific scenario"
+    "Fixes posting failure for lot-tracked purchase returns reserved against the receipt entry when Exact Cost Reversing Mandatory is enabled",
+    "When the return line is fully reserved against an item ledger entry and Appl.-to Item Entry is blank, the value is derived from the reserved entry",
+    "No manual entry of the exact-cost link is needed any more",
+    "Change made in the Purch. Line-Reserve codeunit; new test added and existing costing test adjusted"
   ],
   "change_kind": "fix",
   "behavior_change": true,

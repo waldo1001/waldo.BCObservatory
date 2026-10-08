@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11375",
+  "input_hash": "9a58d1e2d837feec2c1a09d637a41976e9a351f17fe671bbb748f64edc7b6592",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:03:54.058Z",
+  "issues": [
+    "The summary says GPT-5.6 Ceres retires on 11 September 2026. In fact the retiring GPT-5.5 deployments have that date.",
+    "Not breaking: the GPT-5.5 getters are only marked obsolete under CLEAN30 guards and still return their original names."
+  ],
+  "applied": [
+    "summary rewritten",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.014652,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/olofsimren-com/3653",
+  "input_hash": "583b94ed6502191ff005a74babd5a3a8ebca1b93a11841b39d0d700fedee0a81",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T01:56:56.920Z",
+  "issues": [
+    "The three objects are invented names. The post mentions tables, pages and a report but never names them.",
+    "One key point says users can customize the subjective checks, which the post does not say. The post only says some checks are subjective and debatable.",
+    "The Excel point is wrong: the agent could not build the Excel export at all and the idea was dropped. The issue was not formatting."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 3 object(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.033425,
+    "posts_in_call": 4
+  }
+}

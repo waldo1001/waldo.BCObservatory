@@ -8,10 +8,10 @@
   ],
   "summary": "The Sales Order List page now correctly filters sales orders when using the 'Delayed' view, removing orders that fall outside the intended scope.",
   "key_points": [
-    "Fixed filtering logic in Sales Order List page for the 'Delayed' view",
-    "Prevents out-of-scope sales orders from appearing in the filtered view",
-    "Changes applied consistently across all localization layers (NA, NO, RU, W1)",
-    "Single line modification in each localization version"
+    "Fixed filtering in the Sales Order List page for the 'Delayed' view",
+    "Out-of-scope sales orders no longer appear in the Delayed view",
+    "Same one-line change applied in the NA, NO, RU and W1 layers",
+    "Flagged for backport to 28.x"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -8,11 +8,11 @@
   ],
   "summary": "Fixed a Shopify Connector bug where manually set Sell-to Customer No. was overwritten when Bill-to Customer No. failed to map, and added fallback logic to derive Bill-to from Sell-to when unmapped.",
   "key_points": [
-    "Prevent re-mapping Sell-to Customer No. when user manually set it",
-    "Add fallback to derive Bill-to Customer No. from Sell-to when Bill-to remains blank",
-    "Preserve user selections when customer mapping is incomplete",
-    "Non-B2B order imports remain unaffected",
-    "Test added to verify the fix"
+    "Sell-to Customer No. mapping now runs only when Sell-to is blank, so a manually chosen customer is kept",
+    "Bill-to Customer No. falls back to Sell-to Customer No. when it would otherwise stay blank",
+    "Automated imports, where Sell-to starts blank, behave as before",
+    "Only the non-B2B mapping path changed; B2B mapping is untouched",
+    "Test added for a manual Sell-to with an unmapped Bill-to"
   ],
   "change_kind": "fix",
   "behavior_change": true,

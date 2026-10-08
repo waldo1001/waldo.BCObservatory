@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcquality-prs/204",
+  "input_hash": "e13973a58e7ed714e2ec0f867a96ef652af93d2d998a498342f25998eaafce7b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:02:45.616Z",
+  "issues": [
+    "The summary says leaves are executed in order. The validator checks the relative order of returned results; it does not enforce execution.",
+    "Key point 2 is backwards. When selected leaves are missing, the validator now rejects 'completed' and accepts an honest 'partial' (or 'failed' if no non-failed report exists).",
+    "behavior_change should be true: the validator now rejects duplicate producers it used to accept, and it enforces new outcome rules."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022171,
+    "changes_in_call": 6
+  }
+}

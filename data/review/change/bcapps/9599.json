@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/9599",
+  "input_hash": "8668b2382a08234485589fbb94ae4c8ddea07e08926e40a6da4c65b922cd6bac",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-08T02:11:08.687Z",
+  "issues": [
+    "'Provides extensibility point' is not supported. The PR adds a subscriber, not a new event publisher.",
+    "The permission set change only adds the new codeunit to the Permission Sets - Objects permission set."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016324,
+    "changes_in_call": 6
+  }
+}
