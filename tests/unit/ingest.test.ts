@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdirSync, mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { SourceDef } from "../../pipeline/lib/config.js";
@@ -15,6 +15,7 @@ import { parseFeed, wpPostId } from "../../pipeline/ingest/feed.js";
 import { ingestGitContent, pageUrl } from "../../pipeline/ingest/git-content.js";
 import { knownHosts, runIngest } from "../../pipeline/ingest/index.js";
 import { ingestRoadmap } from "../../pipeline/ingest/roadmap.js";
+import { galleryUploads, ingestMarketplace, releaseDates } from "../../pipeline/ingest/marketplace.js";
 import type { IngestContext } from "../../pipeline/ingest/types.js";
 import { ingestYoutube } from "../../pipeline/ingest/youtube.js";
 
@@ -122,6 +123,128 @@ test("roadmap: product filter, snapshot only on change, diff on status change", 
   assert.deepEqual([r2.counts.changed, r2.counts.removed], [1, 1]);
   assert.match(r2.note!, /\(\+0 -1 ~1\)/);
   assert.deepEqual(readdirSync(join(ctx.roadmapDir, "diffs")), ["2026-10-07.json", "2026-10-08.json"]);
+});
+
+// ------------------------------------------------------------------------------------------------ AL extension (D85)
+
+const GALLERY = "https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery";
+const CDN = "https://ms-dynamics-smb.gallerycdn.vsassets.io/extensions/ms-dynamics-smb/al";
+const assetOf = (version: string, ts: number) => `${CDN}/${version}/${ts}/Microsoft.VisualStudio.Services.Content.Changelog`;
+const upload = (version: string, at: string, pre: boolean, ts: number) => ({
+  version, flags: "validated", lastUpdated: at,
+  files: [{ assetType: "Microsoft.VisualStudio.Services.Content.Changelog", source: assetOf(version, ts) }],
+  properties: pre ? [{ key: "Microsoft.VisualStudio.Code.PreRelease", value: "true" }] : [{ key: "Microsoft.VisualStudio.Code.Engine", value: "^1.80.0" }],
+});
+const galleryBody = (uploads: unknown[]) => JSON.stringify({ results: [{ extensions: [{ extensionName: "al", versions: uploads }] }] });
+const UPLOADS = [
+  upload("30.0.2813176", "2026-10-01T13:54:23.493Z", true, 1790862369724),
+  upload("18.0.2819426", "2026-10-01T19:32:21.25Z", false, 1790882651398),
+  upload("18.0.2726309", "2026-09-09T09:44:06.43Z", false, 1788946547879),
+  upload("18.0.2400000", "2026-03-06T10:00:00Z", true, 1772791200000),
+];
+const PRE_MD = [
+  "# Business Central 2027 release wave 1", "## Version 30.0", "", "### Markdown page fields", "- Added `ExtendedDatatype = Markdown`.", "",
+  "# Business Central 2026 release wave 2", "## Version 18.0", "", "### Inherent permissions validation in multi-root workspaces", "", "The compiler now reports AL0720.", "",
+  "### GitHub issues", "- [#8280](https://github.com/microsoft/AL/issues/8280) Fixed `al_publish` hanging.", "",
+].join("\n");
+const STABLE_MD = [
+  "# Business Central 2026 release wave 2", "## Version 18.0", "", "### GitHub issues", "- [#8280](https://github.com/microsoft/AL/issues/8280) Fixed `al_publish` hanging.",
+  "- [#8273](https://github.com/microsoft/AL/issues/8273) Fixed `al_downloadsymbols`.", "", "### Share packaged resources between apps", "", "Apps can now expose resources.", "",
+].join("\n");
+const AL_SRC = src({
+  id: "al-language-extension", kind: "vsmarketplace", tier: "official", full_text: true, url: "https://marketplace.visualstudio.com/items/ms-dynamics-smb.al/changelog",
+  fetch: { api: GALLERY, extension: "ms-dynamics-smb.al" },
+});
+const MAJORS = JSON.parse(readFileSync(join(import.meta.dirname, "../../config/versions.json"), "utf8")).majors;
+const alRoutes = (uploads: unknown[], pre = PRE_MD, stable = STABLE_MD) => ({
+  [GALLERY]: galleryBody(uploads), [assetOf("30.0.2813176", 1790862369724)]: pre, [assetOf("18.0.2819426", 1790882651398)]: stable,
+});
+const releasesOf = (ctx: IngestContext) => join(ctx.roadmapDir, "..", "releases", "al");
+const snapshotOf = (ctx: IngestContext, date = "2026-10-07") => JSON.parse(readFileSync(join(releasesOf(ctx), "snapshots", `${date}.json`), "utf8"));
+
+test("al extension: first run discovers one item per merged version, writes the snapshot and a from-null diff (test 11, 14)", async () => {
+  const http = fakeHttp(alRoutes(UPLOADS));
+  const methods: (string | undefined)[] = [];
+  const spy = (async (url: string, opts?: Parameters<HttpGet>[1]) => { if (url === GALLERY) methods.push(opts?.method); return http(url, opts); }) as HttpGet;
+  const ctx = context(spy, { versions: { majors: MAJORS, repos: {} } });
+  const r = await ingestMarketplace(AL_SRC, ctx);
+  assert.equal(r.counts.new, 2);
+  assert.match(r.note!, /2 versions from 4 uploads; stable 18\.0\.2819426 \(2026-10-01\), pre-release 30\.0\.2813176 \(2026-10-01\)/);
+  assert.match(r.note!, /snapshot written \(\+2 -0 ~0\)/);
+  assert.deepEqual(methods, ["POST"]);
+  const snap = snapshotOf(ctx);
+  assert.deepEqual([snap.tracks.stable.version, snap.tracks.prerelease.version, snap.uploads, snap.extension], ["18.0.2819426", "30.0.2813176", 4, "ms-dynamics-smb.al"]);
+  assert.equal(snap.tracks.stable.bytes, Buffer.byteLength(STABLE_MD));
+  assert.deepEqual(snap.versions.map((v: any) => v.key), ["al-30.0", "al-18.0"]);
+  const diff = JSON.parse(readFileSync(join(releasesOf(ctx), "diffs", "2026-10-07.json"), "utf8"));
+  assert.deepEqual([diff.from, diff.added, diff.entries], [null, ["al-30.0", "al-18.0"], {}]);
+  // test 14: the stable upload is newer: its order and its github-issues body win, the pre-release-only entry is appended
+  const v18 = snap.versions[1];
+  assert.deepEqual(v18.entries.map((e: any) => e.slug), ["github-issues", "share-packaged-resources-between-apps", "inherent-permissions-validation-in-multi-root-workspaces"]);
+  assert.deepEqual(v18.entries[0].issues, [8273, 8280]);
+  assert.equal(v18.merged_tracks, true);
+  assert.equal(snap.versions[0].merged_tracks, false);
+  assert.deepEqual([v18.wave, v18.major, v18.preview_at, v18.released_at], ["2026 release wave 2", "29", "2026-03-06", "2026-09-09"]);
+  const it = ctx.manifest.get("release/al-language-extension/al-18.0")!;
+  assert.deepEqual([it.title, it.published_at, it.tier, it.url], ["AL Language extension 18.0", "2026-09-09T00:00:00.000Z", "official", AL_SRC.url]);
+  assert.deepEqual(it.meta, { version: "18.0", wave: "2026 release wave 2", major: "29", preview_at: "2026-03-06", released_at: "2026-09-09", prerelease: false, entries: 3 });
+  assert.equal((ctx.manifest.get("release/al-language-extension/al-30.0")!.meta as any).prerelease, true);
+});
+
+test("al extension: a quiet night sends one gallery request, downloads nothing and writes nothing (test 12)", async () => {
+  const ctx = context(fakeHttp(alRoutes(UPLOADS)), { versions: { majors: MAJORS, repos: {} } });
+  await ingestMarketplace(AL_SRC, ctx);
+  const http = fakeHttp(alRoutes(UPLOADS));
+  const later = { ...ctx, http, now: new Date("2026-10-08T01:00:00Z") };
+  const r = await ingestMarketplace(AL_SRC, later);
+  assert.equal(r.counts.unchanged, 2);
+  assert.deepEqual(http.seen, [GALLERY]);
+  assert.match(r.note!, /^unchanged; latest 18\.0\.2819426 uploaded 2026-10-01/);
+  assert.deepEqual(readdirSync(join(releasesOf(ctx), "snapshots")), ["2026-10-07.json"]);
+});
+
+test("al extension: a new pre-release upload that adds an entry makes the version stale and diffs the entry (test 13)", async () => {
+  const ctx = context(fakeHttp(alRoutes(UPLOADS)), { versions: { majors: MAJORS, repos: {} } });
+  await ingestMarketplace(AL_SRC, ctx);
+  const id = "release/al-language-extension/al-18.0";
+  const done = ctx.manifest.get(id)!;
+  ctx.manifest.save({ ...done, state: "published", stages: { ...done.stages, fetched: { at: done.stages.discovered!.at }, published: { at: done.stages.discovered!.at } } });
+  // the new pre-release build carries the stable track's issue list and one new entry
+  const pre2 = PRE_MD.replace("### GitHub issues", "### Query ReadState supports ReadCommitted\n\nQueries can now read committed data.\n\n### GitHub issues")
+    .replace("hanging.\n", "hanging.\n- [#8273](https://github.com/microsoft/AL/issues/8273) Fixed `al_downloadsymbols`.\n");
+  const uploads = [upload("30.0.2900000", "2026-10-08T09:00:00Z", true, 1791450000000), ...UPLOADS];
+  const http = fakeHttp({ [GALLERY]: galleryBody(uploads), [assetOf("30.0.2900000", 1791450000000)]: pre2, [assetOf("18.0.2819426", 1790882651398)]: STABLE_MD });
+  const later = { ...ctx, http, now: new Date("2026-10-09T01:00:00Z") };
+  const r = await ingestMarketplace(AL_SRC, later);
+  assert.equal(r.counts.changed, 1);
+  assert.equal(ctx.manifest.get(id)!.state, "stale");
+  assert.match(r.note!, /snapshot written \(\+0 -0 ~1: al-18\.0 \+1 entry\)/);
+  const diff = JSON.parse(readFileSync(join(releasesOf(ctx), "diffs", "2026-10-09.json"), "utf8"));
+  assert.deepEqual([diff.from, diff.changed, diff.entries], ["2026-10-07", ["al-18.0"], { "al-18.0": { added: ["query-readstate-supports-readcommitted"], changed: [], removed: [] } }]);
+  assert.equal(snapshotOf(ctx, "2026-10-09").tracks.prerelease.version, "30.0.2900000");
+});
+
+test("al extension: dates per major.minor from the first pre-release and the first stable upload (test 15)", () => {
+  const uploads = galleryUploads(JSON.parse(galleryBody([
+    upload("18.0.3", "2026-09-09T09:00:00Z", false, 3), upload("18.0.2", "2026-06-01T09:00:00Z", true, 2), upload("18.0.1", "2026-03-06T09:00:00Z", true, 1),
+    upload("16.3.9", "2026-01-22T09:00:00Z", false, 9),
+  ])));
+  assert.deepEqual(uploads.map((u) => [u.version, u.prerelease]), [["18.0.3", false], ["18.0.2", true], ["18.0.1", true], ["16.3.9", false]]);
+  const d = releaseDates(uploads);
+  assert.deepEqual(d.get("18.0"), { preview_at: "2026-03-06", released_at: "2026-09-09" });
+  assert.deepEqual(d.get("16.3"), { preview_at: null, released_at: "2026-01-22" });
+});
+
+test("al extension: a gallery error throws, runIngest isolates it and the last snapshot stays (test 16)", async () => {
+  const ctx = context(fakeHttp(alRoutes(UPLOADS)), { versions: { majors: MAJORS, repos: {} } });
+  await ingestMarketplace(AL_SRC, ctx);
+  const before = readFileSync(join(releasesOf(ctx), "snapshots", "2026-10-07.json"), "utf8");
+  const broken = { ...ctx, http: fakeHttp({ [GALLERY]: { body: "", status: 500 } }), now: new Date("2026-10-08T01:00:00Z") };
+  await assert.rejects(ingestMarketplace(AL_SRC, broken), /HTTP 500/);
+  const [res] = await runIngest([AL_SRC], broken);
+  assert.deepEqual([res.ok, res.kind], [false, "vsmarketplace"]);
+  assert.equal(readFileSync(join(releasesOf(ctx), "snapshots", "2026-10-07.json"), "utf8"), before);
+  assert.deepEqual(readdirSync(join(releasesOf(ctx), "snapshots")), ["2026-10-07.json"]);
 });
 
 test("discovery: suggests unregistered hosts only, creates no items", async () => {

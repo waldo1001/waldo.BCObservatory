@@ -48,7 +48,7 @@ export interface SourceResult {
 
 export const PILLAR_OF: Record<SourceKind, Pillar | null> = {
   "docs-git": "docs", "guidelines-git": "guidelines", "code-git": "code", youtube: "video", blog: "blog",
-  "roadmap-api": "roadmap", discovery: null, "github-pr": "change",
+  "roadmap-api": "roadmap", discovery: null, "github-pr": "change", vsmarketplace: "release",
 };
 
 export function newResult(source: Pick<SourceDef, "id" | "kind">): SourceResult {

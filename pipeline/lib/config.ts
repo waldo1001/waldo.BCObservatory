@@ -5,7 +5,7 @@ import { readJson, readText } from "./fsx.js";
 import { CONFIG_DIR, SOURCES_FILE } from "./paths.js";
 
 export type Tier = "official" | "community";
-export type SourceKind = "blog" | "youtube" | "docs-git" | "code-git" | "guidelines-git" | "roadmap-api" | "discovery" | "github-pr";
+export type SourceKind = "blog" | "youtube" | "docs-git" | "code-git" | "guidelines-git" | "roadmap-api" | "discovery" | "github-pr" | "vsmarketplace";
 
 export interface SourceDef {
   id: string;
@@ -17,7 +17,7 @@ export interface SourceDef {
   language: string;
   full_text: boolean;
   consent?: { evidence: string; at: string; note?: string };
-  fetch?: { feed?: string; rest?: string; scrape?: string; api?: string; product_filter?: string; user_agent?: "default" | "browser" };
+  fetch?: { feed?: string; rest?: string; scrape?: string; api?: string; product_filter?: string; user_agent?: "default" | "browser"; extension?: string };
   channel_id?: string;
   repo?: string;
   branch?: string;

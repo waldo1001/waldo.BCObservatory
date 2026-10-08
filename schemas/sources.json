@@ -36,14 +36,15 @@
       "type": "object", "additionalProperties": false,
       "properties": {
         "feed": { "type": "string", "format": "uri" }, "rest": { "type": "string", "format": "uri" }, "scrape": { "type": "string", "format": "uri" },
-        "api": { "type": "string", "format": "uri" }, "product_filter": { "type": "string" }, "user_agent": { "enum": ["default", "browser"] }
+        "api": { "type": "string", "format": "uri" }, "product_filter": { "type": "string" }, "user_agent": { "enum": ["default", "browser"] },
+        "extension": { "type": "string", "pattern": "^[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+$", "description": "D85: the marketplace item name, <publisher>.<extension>" }
       }
     },
     "source": {
       "type": "object", "required": ["id", "kind", "name", "url"], "additionalProperties": false,
       "properties": {
         "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
-        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery", "github-pr"] },
+        "kind": { "enum": ["blog", "youtube", "docs-git", "code-git", "guidelines-git", "roadmap-api", "discovery", "github-pr", "vsmarketplace"] },
         "name": { "type": "string", "minLength": 2 },
         "url": { "type": "string", "format": "uri" },
         "tier": { "$ref": "#/$defs/tier" },
@@ -66,7 +67,8 @@
       "allOf": [
         { "if": { "properties": { "kind": { "const": "youtube" } } }, "then": { "required": ["channel_id"] } },
         { "if": { "properties": { "kind": { "enum": ["docs-git", "code-git", "guidelines-git", "github-pr"] } } }, "then": { "required": ["repo"] } },
-        { "if": { "properties": { "kind": { "enum": ["blog", "discovery", "roadmap-api"] } } }, "then": { "required": ["fetch"] } }
+        { "if": { "properties": { "kind": { "enum": ["blog", "discovery", "roadmap-api", "vsmarketplace"] } } }, "then": { "required": ["fetch"] } },
+        { "if": { "properties": { "kind": { "const": "vsmarketplace" } } }, "then": { "properties": { "fetch": { "required": ["api", "extension"] } } } }
       ]
     }
   }

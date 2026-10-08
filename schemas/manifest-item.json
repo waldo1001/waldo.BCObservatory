@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "properties": {
     "id": { "type": "string", "description": "<pillar>/<source>/<itemKey>" },
-    "pillar": { "enum": ["docs", "code", "guidelines", "video", "blog", "roadmap", "change"] },
+    "pillar": { "enum": ["docs", "code", "guidelines", "video", "blog", "roadmap", "change", "release"] },
     "source": { "type": "string" },
     "tier": { "enum": ["official", "community"] },
     "title": { "type": "string" },

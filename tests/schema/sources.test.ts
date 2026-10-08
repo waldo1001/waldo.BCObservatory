@@ -66,3 +66,18 @@ test("schema and policy: a github-pr source needs repo and mode metadata-only (D
   const r = withSource((s) => ({ ...s, mode: undefined }), (s) => s.kind === "github-pr");
   assert.ok(r.errors.some((e) => e.includes("pull-request sources must be mode metadata-only")));
 });
+
+test("schema and policy: the AL Language extension is an official vsmarketplace source that needs fetch.extension (D85)", () => {
+  const al = loadSources().find((s) => s.id === "al-language-extension");
+  assert.ok(al, "al-language-extension is registered");
+  assert.deepEqual([al!.kind, al!.tier, al!.full_text, al!.fetch?.extension], ["vsmarketplace", "official", true, "ms-dynamics-smb.al"]);
+  assert.deepEqual(validateSourcesDoc(loadSourcesRaw(), loadSources()).errors, []);
+  const raw = loadSourcesRaw();
+  const without = { ...raw, sources: raw.sources.map((s) => (s.id === al!.id ? { ...s, fetch: { api: s.fetch!.api } } : s)) } as SourcesDoc;
+  assert.ok(validateSourcesDoc(without, loadSources()).errors.some((e) => /extension/.test(e)), "a vsmarketplace source without fetch.extension fails the schema");
+  const noFetch = { ...raw, sources: raw.sources.map((s) => (s.id === al!.id ? (({ fetch: _f, ...rest }) => rest)(s) : s)) } as SourcesDoc;
+  assert.ok(validateSourcesDoc(noFetch, loadSources()).errors.some((e) => /fetch/.test(e)));
+  // another publisher's extension on the same marketplace is not Microsoft's material
+  const r = withSource((s) => ({ ...s, fetch: { ...s.fetch, extension: "someone.al-tools" } }), (s) => s.id === al!.id);
+  assert.ok(r.errors.some((e) => e.includes("tier official is reserved")));
+});

@@ -8,14 +8,17 @@ export const USER_AGENTS = {
 /**
  * `raw`: return the response whatever its status (the preview probe reads headers of refusals too, D60).
  * `headers`: extra request headers (the GitHub client's version, token and ETag, D61).
+ * `method` and `body`: a POST for the marketplace gallery query (D85); every other caller sends GET.
  */
-export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number; raw?: boolean; headers?: Record<string, string> }) => Promise<Response>;
+export type HttpGet = (url: string, opts?: { ua?: keyof typeof USER_AGENTS; accept?: string; timeoutMs?: number; raw?: boolean; headers?: Record<string, string>; method?: "GET" | "POST"; body?: string }) => Promise<Response>;
 
 /** 2xx, and 304 for a conditional request: a "not modified" is an answer, not an error. */
 export const ok = (status: number) => (status >= 200 && status < 300) || status === 304;
 
 export const httpGet: HttpGet = async (url, opts = {}) => {
   const res = await fetch(url, {
+    method: opts.method ?? "GET",
+    body: opts.body,
     headers: { "user-agent": USER_AGENTS[opts.ua ?? "default"], accept: opts.accept ?? "*/*", ...(opts.headers ?? {}) },
     signal: AbortSignal.timeout(opts.timeoutMs ?? 45_000),
     redirect: "follow",

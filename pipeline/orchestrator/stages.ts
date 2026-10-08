@@ -54,6 +54,7 @@ export const STAGE_HANDLERS: StageHandlers = {
   },
   code: { fetched: codeFetched(codeDeps), extracted: codeExtracted(codeDeps), linked: callGraphHandler({ cacheDir: CACHE_DIR }), published: passThrough({}) },
   roadmap: { fetched: passThrough({ from: "snapshot" }), linked: passThrough({}), published: featurePublished() },
+  release: { fetched: passThrough({ from: "snapshot" }), published: passThrough({ page: false }) },
   docs: {
     fetched: gitPageFetched(),
     extracted: docsExtractedHandler(),

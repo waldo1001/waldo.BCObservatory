@@ -6,7 +6,9 @@ import type { SourceDef, SourcesDoc } from "../lib/config.js";
 const OFFICIAL_REPO_OWNERS = new Set(["microsoft", "MicrosoftDocs"]);
 const OFFICIAL_REPOS = new Set(["StefanMaron/MSDyn365BC.Sandbox.Code.History", "StefanMaron/MSDyn365BC.Code.History"]);
 const OFFICIAL_CHANNELS = new Set(["UCLErzd6kpQ0DAJSGsGjtxbA"]);
-const OFFICIAL_HOSTS = new Set(["www.microsoft.com", "learn.microsoft.com"]);
+const OFFICIAL_HOSTS = new Set(["www.microsoft.com", "learn.microsoft.com", "marketplace.visualstudio.com"]);
+/** D85: on the Visual Studio Marketplace only Microsoft's own publishers are official (the AL Language extension). */
+const OFFICIAL_PUBLISHERS = new Set(["ms-dynamics-smb"]);
 
 export interface SourcesValidation { ok: boolean; errors: string[]; warnings: string[] }
 
@@ -43,6 +45,8 @@ function isOfficial(s: SourceDef): boolean {
   if (s.channel_id && OFFICIAL_CHANNELS.has(s.channel_id)) return true;
   try {
     if (s.kind === "roadmap-api" && OFFICIAL_HOSTS.has(new URL(s.fetch?.api ?? s.url).host)) return true;
+    if (s.kind === "vsmarketplace" && OFFICIAL_HOSTS.has(new URL(s.fetch?.api ?? s.url).host) && OFFICIAL_HOSTS.has(new URL(s.url).host)
+      && OFFICIAL_PUBLISHERS.has((s.fetch?.extension ?? "").split(".")[0])) return true;
   } catch { /* fall through */ }
   return false;
 }

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://waldo1001.github.io/waldo.BCObservatory/schemas/release-snapshot.json",
+  "title": "AL Language extension changelog snapshot (data/releases/al/snapshots/<date>.json, D85)",
+  "type": "object",
+  "required": ["taken_at", "hash", "extension", "uploads", "tracks", "dropped_bytes", "versions"],
+  "additionalProperties": false,
+  "properties": {
+    "taken_at": { "type": "string", "format": "date-time" },
+    "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$", "description": "sha256 of canonicalJson(versions)" },
+    "extension": { "type": "string", "pattern": "^[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+$" },
+    "uploads": { "type": "integer", "minimum": 0 },
+    "tracks": {
+      "type": "object", "required": ["stable", "prerelease"], "additionalProperties": false,
+      "properties": { "stable": { "$ref": "#/$defs/track" }, "prerelease": { "$ref": "#/$defs/track" } }
+    },
+    "dropped_bytes": { "type": "integer", "minimum": 0 },
+    "versions": { "type": "array", "items": { "$ref": "#/$defs/version" } }
+  },
+  "$defs": {
+    "date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "track": {
+      "type": ["object", "null"], "required": ["version", "uploaded_at", "asset", "bytes"], "additionalProperties": false,
+      "properties": {
+        "version": { "type": "string" }, "uploaded_at": { "type": "string", "format": "date-time" },
+        "asset": { "type": "string", "format": "uri" }, "bytes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "entry": {
+      "type": "object", "required": ["slug", "level", "title", "body_md", "issues"], "additionalProperties": false,
+      "properties": {
+        "slug": { "type": "string", "pattern": "^(_intro|[a-z0-9][a-z0-9-]*)$" }, "level": { "enum": [3, 4] }, "title": { "type": "string" },
+        "body_md": { "type": "string" }, "issues": { "type": "array", "items": { "type": "integer" } }
+      }
+    },
+    "version": {
+      "type": "object", "required": ["key", "version", "wave", "major", "preview_at", "released_at", "merged_tracks", "entries"], "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "pattern": "^al-[a-z0-9][a-z0-9.-]*$" }, "version": { "type": "string" },
+        "wave": { "type": ["string", "null"] }, "major": { "type": ["string", "null"], "pattern": "^\\d+$" },
+        "preview_at": { "$ref": "#/$defs/date" }, "released_at": { "$ref": "#/$defs/date" },
+        "merged_tracks": { "type": "boolean", "description": "the stable and pre-release changelogs differ for this version" },
+        "entries": { "type": "array", "items": { "$ref": "#/$defs/entry" } }
+      }
+    }
+  }
+}
