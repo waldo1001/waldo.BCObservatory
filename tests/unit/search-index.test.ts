@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { captionOf, captionText } from "../../pipeline/render/object.js";
-import { pageRecord, pathLabel } from "../../pipeline/render/search.js";
+import { majorsText, pageRecord, pathLabel } from "../../pipeline/render/search.js";
 
 test("a hub's record says where it sits, how big it is and whether its narrative was reviewed (D65 5.1)", () => {
   const r = pageRecord("topics/business-central/business-functionality/sales/subscription-billing", {
@@ -64,4 +64,24 @@ test("an AL extension release is dated by its release, pre-release while no stab
   assert.deepEqual([old.status, old.path_label], ["released", "2022 release wave 1"]);
   const undated = pageRecord("releases/al-16.4", { type: "release", title: "AL Language extension 16.4", summary: "", tier: "official", published_at: null, prerelease: true, wave: null, major: null });
   assert.deepEqual([undated.date, undated.path_label], [undefined, undefined]);
+});
+
+test("objects carry their name, namespace, system, majors, inbound and subscribers; a country object sits in its layer (D86 4.3)", () => {
+  const fm = { type: "object", title: 'Table 36 "Sales Header"', summary: "", tier: "official", object_type: "table", object_id: 36, name: "Sales Header", app: "Base Application",
+    namespace: "Microsoft.Sales.Document", present_in: ["23", "24", "25", "26", "27", "28", "29", "30"], links: { learn: new Array(22).fill("u") },
+    relations: { out: 83, referenced_by: 82, pages: 19, extended_by: 7, event_subscribers: 94, calls: 38, called_by: 0 } };
+  const r = pageRecord("objects/table/36", fm);
+  assert.deepEqual({ name: r.name, app: r.app, namespace: r.namespace, system: r.system, present_in: r.present_in, inbound: r.inbound, subscribers: r.subscribers, country: r.country, path_label: r.path_label },
+    { name: "Sales Header", app: "Base Application", namespace: "Microsoft.Sales.Document", system: "sales", present_in: "23-30", inbound: 217, subscribers: 94, country: undefined, path_label: "Base Application" },
+    "inbound = referenced_by 82 + called_by 0 + pages 19 + event_subscribers 94 + Learn pages 22");
+  const be = pageRecord("objects/table/11300-be", { type: "object", title: 'Table 11300 "VAT VIES Correction" (BE)', object_type: "table", object_id: 11300, name: "VAT VIES Correction", app: "Base Application",
+    country: "BE", namespace: "Microsoft.Finance.VAT.Reporting", present_in: ["28", "30"] });
+  assert.equal(be.app, "BE layer", "not 'Base Application'");
+  assert.equal(be.path_label, "BE layer");
+  assert.equal(be.country, "be");
+  assert.equal(be.system, "finance");
+  assert.equal(be.present_in, "28 30", "a gap lists the majors");
+  assert.equal(be.inbound, 0);
+  assert.equal(majorsText(["29"]), "29");
+  assert.equal(majorsText(undefined), null);
 });

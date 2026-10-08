@@ -2,19 +2,22 @@
 import List from "../../layouts/List.astro";
 const base = import.meta.env.BASE_URL;
 // the tabs over the result groups (D65 3.1); the script fills the counts and maps ?type= to one of them
-const tabs: [string, string][] = [["", "All"], ["start", "Start here"], ["roadmap", "Roadmap"], ["video", "Videos"], ["post", "Posts"], ["object", "AL objects"], ["change", "Code changes"], ["localization", "Localizations"], ["source", "Sources"], ["digest", "Digests"], ["other", "Other"]];
+// D86: Fields, Events and Procedures after AL objects; Enum values and Other only when something lands there
+const tabs: [string, string][] = [["", "All"], ["start", "Start here"], ["roadmap", "Roadmap"], ["video", "Videos"], ["post", "Posts"], ["object", "AL objects"], ["field", "Fields"], ["event", "Events"], ["proc", "Procedures"], ["value", "Enum values"], ["change", "Code changes"], ["localization", "Localizations"], ["source", "Sources"], ["digest", "Digests"], ["other", "Other"]];
+const optional = new Set(["value", "other"]);
 ---
 <List title="Search · BC Observatory" description="Search every page of BC Observatory." crumb="Search">
   <div class="search" data-base={base}>
     <h1>Search</h1>
     <form role="search">
       <label for="sq" class="skip">Search query</label>
-      <input id="sq" name="q" type="search" placeholder="table 18, Sales-Post, Belgium, e-documents" autocomplete="off" />
+      <input id="sq" name="q" type="search" placeholder="t18, Sales-Post, OnAfterPostSalesDoc, field:Posting Date, BE" autocomplete="off" />
     </form>
     <div class="sr-tabs" role="tablist" aria-label="Result types">
-      {tabs.map(([id, label]) => <button type="button" role="tab" data-tab={id} aria-selected={id === "" ? "true" : "false"} aria-controls="sr-results" tabindex={id === "" ? 0 : -1} hidden={id === "other"}>{label} <small></small></button>)}
+      {tabs.map(([id, label]) => <button type="button" role="tab" data-tab={id} data-optional={optional.has(id) ? "" : undefined} aria-selected={id === "" ? "true" : "false"} aria-controls="sr-results" tabindex={id === "" ? 0 : -1} hidden={optional.has(id)}>{label} <small></small></button>)}
     </div>
     <p class="status meta" aria-live="polite"></p>
+    <div class="hints" aria-live="polite"></div>
     <div class="results" id="sr-results"></div>
     <p class="meta">Agents use the same index through the MCP server: <code>npx bc-observatory</code>.</p>
   </div>
@@ -41,5 +44,7 @@ const tabs: [string, string][] = [["", "All"], ["start", "Start here"], ["roadma
   .search :global(.results li) { display: grid; gap: 4px; }
   .search :global(.results p) { margin: 0; }
   .search :global(.sr-path) { overflow-wrap: anywhere; }
-  .search :global(.sr-caption), .search :global(.sr-stats) { font-size: 14px; }
+  .search :global(.sr-caption), .search :global(.sr-stats), .search :global(.sr-matched) { font-size: 14px; }
+  .search :global(.sr-hints) { margin: 0 0 12px; font-size: 14px; }
+  .search :global(.sr-twins) { margin: 4px 0 0; }
 </style>

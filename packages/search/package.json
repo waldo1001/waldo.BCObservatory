@@ -1,0 +1,9 @@
+{
+  "name": "@bc-observatory/search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BC Observatory's search: query parser, synonyms, scorer and hints shared by the site and the MCP server (D86). No build step, no dependencies.",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "license": "MIT"
+}

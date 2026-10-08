@@ -21,8 +21,11 @@ test("type + id: exact first, then ids starting with the digits; abbreviations",
   assert.deepEqual(pks("p21"), ["page/21"]);
 });
 
-test("names: exact, then prefix, then word, then substring; a type word narrows", () => {
-  assert.deepEqual(pks("customer"), ["table/18", "page/21", "page/22", "table/1800"]);
+test("names rank with the shared scorer (D86): the exact name first, then the names that start with it; a type word narrows; one typo forgiven", () => {
+  assert.deepEqual(pks("customer"), ["table/18", "table/1800", "page/21", "page/22"], "table 0.3 above page 0.2 among equal starts");
+  assert.deepEqual(pks("custmer"), ["table/18", "table/1800", "page/21", "page/22"]);
+  assert.match(findObjects(rows, "custmer")[0].note ?? "", /matched "customer"/);
+  assert.deepEqual(pks("table"), ["table/18", "table/1800", "table/36"], "a type word alone lists the type");
   assert.deepEqual(pks("page customer"), ["page/21", "page/22"]);
   assert.deepEqual(pks("customer list"), ["page/22"]);
   assert.deepEqual(pks("post"), ["codeunit/80"]);

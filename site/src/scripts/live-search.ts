@@ -1,11 +1,14 @@
 /**
  * Live search on the home page (D44): typing in the header field lights up the matching stars in the galaxy. The
- * search index (the MCP server's, ~7 MB) loads when the field gets focus, never on page load. Enter still submits the
- * form to the search page; Escape clears the field, then blurs it. Hits without a star (most AL objects, videos) count
- * towards their galaxy system and are listed in the panel as plain links.
+ * search index loads when the field gets focus, never on page load, and ranks with the shared scorer of
+ * packages/search (D86), as the search page and the MCP do. Enter still submits the form to the search page; Escape
+ * clears the field, then blurs it. Hits without a star (most AL objects, videos) count towards their galaxy system and
+ * are listed in the panel as plain links. Symbols (fields, events, procedures) have no star and stay out.
  */
+import { search, type Index } from "@bc-observatory/search";
 import type { GalaxyApi } from "./galaxy.js";
-import { loadRows, score, type Row } from "./search.js";
+import { loadPages } from "./index-loader.js";
+import { parse, type Row } from "./search.js";
 
 /** ids: the star ids in panel order; stars: their index rows, same order (path label, members); pages: star-less hits. */
 export interface SearchHits { q: string; ids: string[]; stars: Row[]; reach: Record<string, number>; pages: Row[]; total: number }
@@ -23,8 +26,8 @@ const starClass = (type: string) => (type === "topic" || type === "app" ? 0 : ty
  * Within a class the score decides (it already weighs a hub's size and review state), then members (a hub's or app's
  * Learn pages, objects and media; the star's evidence count otherwise), then the star's weight.
  */
-export function hitsFor(rows: Row[], q: string, hasStar: (id: string) => boolean, facts: (id: string) => StarFacts | undefined = () => undefined): SearchHits {
-  const scored = rows.map((r) => ({ r, s: score(r, q) })).filter((h) => h.s > 0).sort((a, b) => b.s - a.s || a.r.title.localeCompare(b.r.title));
+export function hitsFor(index: Index, q: string, hasStar: (id: string) => boolean, facts: (id: string) => StarFacts | undefined = () => undefined): SearchHits {
+  const scored = search(index, parse(q, index), { kinds: ["page"] }).map((h) => ({ r: h.r.page!, s: h.s }));
   const stars: { r: Row; s: number; size: number; weight: number }[] = [], pages: Row[] = [], reach: Record<string, number> = {};
   for (const { r, s } of scored) {
     const id = nodeIdOf(r.path);
@@ -45,8 +48,8 @@ export function liveText(h: SearchHits): string {
 }
 
 export function mountLiveSearch(input: HTMLInputElement, api: GalaxyApi, base: string): void {
-  let rows: Promise<Row[]> | null = null;
-  const load = () => (rows ??= loadRows(base).catch(() => [] as Row[]));
+  let index: Promise<Index | null> | null = null;
+  const load = () => (index ??= loadPages(base, ["hubs", "media", "objects"]).catch(() => null));
   const live = document.createElement("span");
   live.className = "skip"; live.setAttribute("aria-live", "polite"); live.id = "q-live";
   input.insertAdjacentElement("afterend", live);
@@ -56,10 +59,10 @@ export function mountLiveSearch(input: HTMLInputElement, api: GalaxyApi, base: s
   const run = async () => {
     const q = input.value.trim();
     if (q.length < 2) { if (last) { last = ""; api.setSearch(null); live.textContent = ""; } return; }
-    const list = await load();
-    if (input.value.trim() !== q) return; // the reader kept typing
+    const idx = await load();
+    if (input.value.trim() !== q || !idx) return; // the reader kept typing
     last = q;
-    const h = hitsFor(list, q, api.hasStar, api.starFacts);
+    const h = hitsFor(idx, q, api.hasStar, api.starFacts);
     api.setSearch(h);
     live.textContent = liveText(h);
   };

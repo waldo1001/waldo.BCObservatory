@@ -1,10 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { pageToRecord, prepare, scoreRecord, parseQuery } from "@bc-observatory/search";
 import { hitsFor, liveText, nodeIdOf } from "../../site/src/scripts/live-search.js";
-import { byApp, groupHits, groupOf, rank, resultsHtml, score, statusLine, tabOf, typeParamOf, type Row } from "../../site/src/scripts/search.js";
+import { byApp, exactHtml, groupHits, groupOf, hintsHtml, parse, rank, resultsHtml, statusLine, tabOf, typeParamOf, type Row } from "../../site/src/scripts/search.js";
 
 const row = (path: string, type: string, title: string, system: string | null = "finance", over: Partial<Row> = {}): Row =>
-  ({ path, type, title, summary: `${title} summary`, tier: "official", system, tags: [], ...over });
+  ({ path, type, title, summary: `${title} summary`, tier: "official", system, tags: [], ...(type === "object" ? { object_type: path.split("/")[1], object_id: Number(path.split("/")[2]) || null } : {}), ...over });
+const idx = (rows: Row[]) => prepare(rows.map(pageToRecord));
 
 test("index paths map to galaxy node ids by dropping the plural on the first segment", () => {
   assert.equal(nodeIdOf("objects/table/18"), "object/table/18");
@@ -22,14 +24,14 @@ test("hits split into stars, star-less pages counted per system, best first; an 
     row("objects/codeunit/80", "object", 'Codeunit 80 "Sales-Post"', "sales"),
   ];
   const stars = new Set(["object/table/18", "topic/bc/sales/customers"]);
-  const h = hitsFor(rows, "table 18", (id) => stars.has(id));
+  const h = hitsFor(idx(rows), "table 18", (id) => stars.has(id));
   assert.equal(h.ids[0], "object/table/18", "the exact reference scores highest");
-  const c = hitsFor(rows, "customer", (id) => stars.has(id));
+  const c = hitsFor(idx(rows), "customer", (id) => stars.has(id));
   assert.deepEqual(c.ids.sort(), ["object/table/18", "topic/bc/sales/customers"]);
   assert.deepEqual(c.pages.map((r) => r.path).sort(), ["objects/table/1800", "videos/v1"]);
   assert.deepEqual(c.reach, { sales: 2 });
   assert.equal(c.total, 4);
-  assert.equal(hitsFor(rows, "zzz", () => true).total, 0);
+  assert.equal(hitsFor(idx(rows), "zzz", () => true).total, 0);
 });
 
 // ---------------------------------------------------------------------------------------------- D65 tranche 2
@@ -46,21 +48,23 @@ const subscription = {
   page: row("objects/page/8059", "object", 'Page 8059 "Service Objects"', "sales", { summary: "List of subscription service objects.", caption: "Subscriptions", app: "Subscription Billing" }),
 };
 
-test("scoring ranks the big reviewed hub first, demotes objects on a generic query, and counts the caption (D65 5.2)", () => {
-  const s = (r: Row, q = "subscription") => Math.round(score(r, q) * 10) / 10;
-  assert.equal(s(subscription.billing), 14.1, "title 3 + starts with 3 + log2(48) 5.6 + reviewed 2 + 0.5");
-  assert.equal(s(subscription.setup), 9.2, "title 3 + log2(13) 3.7 + reviewed 2 + 0.5");
-  assert.equal(s(subscription.api), 7.1, "title 3 + starts with 3 + log2(6) 2.6 - no narrative 2 + 0.5");
-  assert.equal(s(subscription.analytics), 12.7, "the parent's title in its tags does not count again: title 3 + starts with 3 + log2(19) 4.2 + reviewed 2 + 0.5");
-  assert.equal(s(hub("finance", "Finance", 256, "reviewed", ["Business functionality"], { summary: "Also covers subscription billing." })), 3.5, "a big hub that has the word in its summary only gets no size bonus: 1 + reviewed 2 + 0.5");
-  assert.equal(s(subscription.video), 5.5, "title 3 + tag 2 + 0.5");
-  assert.equal(s(subscription.codeunit), 2.4, "(title 3 + summary 1) x 0.6");
-  assert.equal(s(subscription.page), 4.2, "(caption 3 + summary 1 + caption starts with 3) x 0.6");
-  assert.equal(s(subscription.page, "page subscriptions"), 6, "a type word lifts the demotion: title (page) 3 + caption 3");
-  assert.equal(score(subscription.page, "page 8059"), 1000, "the exact reference fast path stays");
-  assert.ok(score(row("objects/table/18", "object", 'Table 18 "Customer"'), "customer") > score(row("objects/codeunit/1302", "object", 'Codeunit 1302 "Customer Mgt."'), "customer"), "an object named exactly as the query wins its group");
-  const order = rank(Object.values(subscription), "subscription").map((h) => h.r.path);
-  assert.deepEqual(order, [subscription.billing, subscription.analytics, subscription.setup, subscription.api, subscription.video, subscription.page, subscription.codeunit].map((r) => r.path));
+test("scoring ranks the big reviewed hub first, demotes objects on a generic query, and counts the caption (D65 5.2, now the shared scorer of D86)", () => {
+  const all = [...Object.values(subscription), hub("finance", "Finance", 256, "reviewed", ["Business functionality"], { summary: "Also covers subscription billing." })];
+  const index = idx(all);
+  const s = (r: Row, q = "subscription") => Math.round(scoreRecord(index, index.records.find((x) => x.id === r.path)!, parse(q, index)).s * 100) / 100;
+  assert.equal(s(subscription.billing), 14.58, "title 3 + starts with 3 + log2(48) 5.58 + reviewed 2 + layer 1");
+  assert.equal(s(subscription.setup), 9.7, "title 3 + log2(13) 3.7 + reviewed 2 + 1");
+  assert.equal(s(subscription.api), 6.08, "a plural title meets by its stem: 3 x 0.75 + starts 3 x 0.75 + log2(6) 2.58 - no narrative 2 + 1");
+  assert.equal(s(subscription.analytics), 13.25, "the parent's title in its tags does not count again: title 3 + starts 3 + log2(19) 4.25 + reviewed 2 + 1");
+  assert.equal(s(all.at(-1)!), 4, "a big hub that has the word in its summary only gets no size bonus: 1 + reviewed 2 + 1");
+  assert.equal(s(subscription.video), 6, "title 3 + tag 2 + 1");
+  assert.equal(s(subscription.codeunit), 2.82, "(title 3 + summary 1 + app 0.5 + codeunit 0.2) x 0.6");
+  assert.equal(s(subscription.page), 8.37, "(caption 3 x 0.75 + caption equals the plural 10 + summary 1 + app 0.5 + page 0.2) x 0.6: a caption does not lift");
+  assert.equal(s(subscription.page, "page subscriptions"), 17.45, "a type word lifts the demotion: caption 3 + equals 10 + type 3 + summary 0.75 + 0.5 + 0.2");
+  assert.equal(scoreRecord(index, index.records.find((x) => x.id === subscription.page.path)!, parseQuery("page 8059", { countries: [] })).s, 1000, "the exact reference fast path stays");
+  const two = idx([row("objects/table/18", "object", 'Table 18 "Customer"'), row("objects/codeunit/1302", "object", 'Codeunit 1302 "Customer Mgt."')]);
+  assert.deepEqual(rank(two, "customer").map((h) => h.r.id), ["objects/table/18", "objects/codeunit/1302"], "an object named exactly as the query wins its group");
+  assert.deepEqual(rank(index, "subscription").map((h) => h.r.id), [subscription.billing, subscription.analytics, subscription.setup, subscription.page, subscription.api, subscription.video, all.at(-1)!, subscription.codeunit].map((r) => r.path));
 });
 
 test("results group in the fixed order with a status line, objects by app with Base Application first (D65 5.3)", () => {
@@ -69,10 +73,10 @@ test("results group in the fixed order with a status line, objects by app with B
     row("posts/x/1", "post", "Subscription billing tips", "sales", { tier: "community", date: "2026-01-01" }),
     row("posts/x/2", "post", "Subscription billing tricks", "sales", { tier: "community", date: "2026-02-01" }),
     row("changes/bcapps/1", "change", "#1 Subscription fix", "sales")];
-  const groups = groupHits(rank(rows, "subscription"));
+  const groups = groupHits(rank(idx(rows), "subscription"));
   assert.deepEqual(groups.map((g) => g.def.id), ["start", "roadmap", "video", "post", "object", "change"]);
-  assert.equal(groups[0].hits[0].r.path, subscription.billing.path, "Start here opens on the hub");
-  assert.deepEqual(groups[3].hits.map((h) => h.r.path), ["posts/x/2", "posts/x/1"], "newest first within an equal score");
+  assert.equal(groups[0].hits[0].r.id, subscription.billing.path, "Start here opens on the hub");
+  assert.deepEqual(groups[3].hits.map((h) => h.r.id), ["posts/x/2", "posts/x/1"], "newest first within an equal score");
   assert.deepEqual(byApp(groups[4].hits).map(([a]) => a), ["Base Application", "Subscription Billing"]);
   assert.equal(statusLine("subscription", groups), '12 results for "subscription": 4 to start with, 1 roadmap, 1 video, 2 posts, 3 AL objects, 1 code change');
   assert.equal(statusLine("zzz", []), 'No results for "zzz".');
@@ -104,12 +108,40 @@ test("the galaxy panel lists hubs and apps first, then features, then objects, e
     row("apps/subscription-billing", "app", "Subscription Billing", "sales", { members: 400, path_label: "Sales & Receivables" }), subscription.video];
   const stars = new Set(rows.filter((r) => r.type !== "video").map((r) => nodeIdOf(r.path)));
   const facts = (id: string) => (id === "object/codeunit/8005" ? { ev: 0, weight: 50 } : { ev: 1, weight: 1 });
-  const h = hitsFor(rows, "subscription", (id) => stars.has(id), facts);
+  const h = hitsFor(idx(rows), "subscription", (id) => stars.has(id), facts);
   assert.deepEqual(h.ids, ["app/subscription-billing", "topic/business-central/sales/subscription-billing", "topic/business-central/cloud-migration-api/subscriptions", "feature/9", "object/page/8059", "object/codeunit/8005"]);
   assert.equal(h.stars[1].path_label, "Business functionality › Sales");
   assert.deepEqual(h.pages.map((r) => r.path), ["videos/v-srb"]);
   assert.equal(liveText(h), "6 stars, 1 pages without a star. First: Subscription Billing (Sales & Receivables).");
-  const hubOnly = hitsFor([subscription.billing], "subscription", () => true);
+  const hubOnly = hitsFor(idx([subscription.billing]), "subscription", () => true);
   assert.equal(liveText(hubOnly), "1 star, 0 pages without a star. First: Subscription billing (Sales).");
   assert.equal(nodeIdOf("apps/subscription-billing"), "app/subscription-billing");
+});
+
+// ---------------------------------------------------------------------------------------------- D86 on the results page
+
+test("the results page: Exactly this, country layers after the apps, symbol groups, the did-you-mean line (D86 2.1)", () => {
+  const rows = [
+    row("objects/table/36", "object", 'Table 36 "Sales Header"', "sales", { app: "Base Application", name: "Sales Header", inbound: 217 }),
+    row("objects/table/36-be", "object", 'Table 36 "Sales Header" (BE)', "sales", { app: "BE layer", country: "be", name: "Sales Header", object_id: 36 }),
+    row("objects/table/36-nl", "object", 'Table 36 "Sales Header" (NL)', "sales", { app: "NL layer", country: "nl", name: "Sales Header", object_id: 36 }),
+    row("objects/tableextension/8053", "object", 'Table extension 8053 "Sales Header"', "sales", { app: "Subscription Billing", name: "Sales Header" }),
+    row("objects/page/36", "object", 'Page 36 "Assembly BOM"', "inventory", { app: "Base Application" }),
+    row("localizations/be", "localization", "Belgium (BE)", null, { country: "BE" }),
+  ];
+  const index = idx(rows);
+  const q = parse("t36", index), hits = rank(index, q);
+  const exact = exactHtml(q, hits, "/b/");
+  assert.match(exact, /<h2 class="section-title" id="sr-exact">Exactly this<\/h2>/);
+  assert.match(exact, /href="\/b\/objects\/table\/36\/">Table 36 &quot;Sales Header&quot;<\/a>/);
+  assert.match(exact, /also in <a href="\/b\/objects\/table\/36-be\/">BE<\/a>, <a href="\/b\/objects\/table\/36-nl\/">NL<\/a>/);
+  assert.match(exactHtml(parse("36", index), rank(index, "36"), "/b/"), /Table 36[\s\S]*Page 36/, "a bare number lists the id across types");
+  assert.equal(exactHtml(parse("sales header", index), rank(index, "sales header"), "/b/"), "", "words get no exact block");
+  const groups = groupHits(rank(index, "Sales Header"));
+  assert.deepEqual(byApp(groups.find((g) => g.def.id === "object")!.hits).map(([a]) => a), ["Base Application", "Subscription Billing", "BE layer", "NL layer"]);
+  assert.equal(groupOf({ type: "object", kind: "event" }), "event");
+  assert.equal(groupOf({ type: "object", kind: "page" }), "object");
+  assert.equal(hintsHtml([{ text: 'Did you mean "cu 80" (codeunit 80)?', query: "cu 80" }], "/b/"), '<p class="sr-hints"><a href="/b/search/?q=cu%2080" data-q="cu 80">Did you mean &quot;cu 80&quot; (codeunit 80)?</a></p>');
+  assert.equal(hintsHtml([{ text: "For how-to, start with the hub: Sales.", path: "topics/sales" }], "/b/"), '<p class="sr-hints">For how-to, start with the hub: <a href="/b/topics/sales/">Sales</a>.</p>');
+  assert.equal(hintsHtml([], "/b/"), "");
 });

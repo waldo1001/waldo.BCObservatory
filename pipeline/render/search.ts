@@ -11,6 +11,7 @@ import { relative, resolve } from "node:path";
 import matter from "gray-matter";
 import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
+import { objectSystem } from "../lib/systems.js";
 import { sha256 } from "../lib/text.js";
 
 export const SHARD_BYTES = 8 * 1024 * 1024;
@@ -28,6 +29,9 @@ export interface PageRecord {
   narrative?: "reviewed" | "unreviewed" | "none";
   /** Topic hubs and app pages: the stats line of the result row ("47 Learn pages · 27 objects · 2 videos · reviewed"). */
   stats?: string;
+  /** Objects (D86): the name, the namespace, the majors the object is present in ("23-30"), what points at it
+   *  (references, callers, pages, event subscribers, Learn pages) and its event subscribers, for ranking. */
+  name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
 }
 export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string }[]; by_type: Record<string, number> }
 
@@ -43,6 +47,14 @@ const n = (x: unknown) => (typeof x === "number" && Number.isFinite(x) ? x : 0);
 const plural = (k: number, one: string, many = `${one}s`) => `${k} ${k === 1 ? one : many}`;
 const len = (x: unknown) => (Array.isArray(x) ? x.length : 0);
 
+/** The majors an object is present in, compact: ["23", ..., "30"] -> "23-30"; a gap lists them ("28 30"). */
+export function majorsText(present: unknown): string | null {
+  const ms = (Array.isArray(present) ? present : []).map(Number).filter(Number.isFinite).sort((a, b) => a - b);
+  if (!ms.length) return null;
+  const contiguous = ms.every((m, i) => i === 0 || m === ms[i - 1] + 1);
+  return ms.length === 1 ? String(ms[0]) : contiguous ? `${ms[0]}-${ms.at(-1)}` : ms.join(" ");
+}
+
 /** The record of one page from its frontmatter. */
 export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   // a real date only (published, GA): object and topic pages are regenerated nightly, which is not news
@@ -53,9 +65,18 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
     ...(Array.isArray(fm.tags) && fm.tags.length ? { tags: fm.tags.slice(0, 8).map(String) } : {}),
   };
   if (fm.type === "object") {
-    Object.assign(r, { object_type: fm.object_type, object_id: fm.object_id ?? null, app: fm.app ?? null, obsolete: fm.obsolete?.state ?? null });
-    if (fm.app) r.path_label = String(fm.app);
+    // D86: a country object sits in its country layer, whatever app the code names ("BE layer", as objects.json says)
+    const country = fm.country ? String(fm.country).toLowerCase() : null;
+    const app = country ? `${String(fm.country).toUpperCase()} layer` : fm.app ?? null;
+    const rel = fm.relations ?? {};
+    Object.assign(r, { object_type: fm.object_type, object_id: fm.object_id ?? null, name: String(fm.name ?? ""), app, ...(country ? { country } : {}),
+      namespace: fm.namespace ?? null, system: objectSystem(fm.namespace), obsolete: fm.obsolete?.state ?? null });
+    if (app) r.path_label = String(app);
     if (fm.caption) r.caption = String(fm.caption);
+    const present = majorsText(fm.present_in);
+    if (present) r.present_in = present;
+    r.inbound = n(rel.referenced_by) + n(rel.called_by) + n(rel.pages) + n(rel.event_subscribers) + len(fm.links?.learn);
+    r.subscribers = n(rel.event_subscribers);
   }
   if (fm.type === "topic") {
     // D65: the TOC path above the hub tells the three "Subscriptions" hubs apart, and its words (plus the system) are the

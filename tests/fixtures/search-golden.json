@@ -1,0 +1,33 @@
+{
+  "$comment": "Golden queries of D86 (docs/specs/search.md section 5). where: top (first overall), top3, first-object (first AL object page), first-symbol (first field, event, procedure or value), none (no hits), any; an array means all of them. Extra checks: not_above (no hit whose path contains one of these ranks above the expected one), major (the first hit is present in that major), name/kind (the first symbol's name and kind), within (that record is among the first n symbols), hint (a regular expression one hint must match), hint_path (a hint links that page). pending rows are skipped by the runners until that phase lands.",
+  "rows": [
+    { "q": "table 36", "expect": "objects/table/36", "where": "top", "covers": "reference, as today" },
+    { "q": "t36", "expect": "objects/table/36", "where": "top", "covers": "abbreviation" },
+    { "q": "cu 80", "expect": "objects/codeunit/80", "where": "top", "covers": "abbreviation with a space" },
+    { "q": "codeunit80", "expect": "objects/codeunit/80", "where": "top", "covers": "no space" },
+    { "q": "page 21", "expect": "objects/page/21", "where": "top", "covers": "reference" },
+    { "q": "table 11300 BE", "expect": "objects/table/11300-be", "where": "top", "covers": "country reference (Table 11300 \"VAT VIES Correction\" (BE), a BE-only id)" },
+    { "q": "table 11300", "expect": "objects/table/11300-be", "where": "top", "covers": "an id that exists only in a country layer" },
+    { "q": "36", "expect": "objects/table/36", "where": "first-object", "not_above": ["360", "36623"], "covers": "bare number, no substring" },
+    { "q": "BE", "expect": "localizations/be", "where": "top", "covers": "country code alone" },
+    { "q": "Sales Header", "expect": "objects/table/36", "where": "first-object", "covers": "base before the four extensions named the same" },
+    { "q": "\"Sales Header\"", "expect": "objects/table/36", "where": "first-object", "covers": "phrase" },
+    { "q": "customer", "expect": "objects/table/18", "where": ["first-object", "top3"], "covers": "exact name beats 474 title matches" },
+    { "q": "customers", "expect": "objects/table/18", "where": "first-object", "covers": "stemming" },
+    { "q": "custmer", "expect": "objects/table/18", "where": "first-object", "covers": "one typo" },
+    { "q": "client", "expect": "objects/table/18", "where": "first-object", "covers": "synonym list" },
+    { "q": "Customer Card", "expect": "objects/page/21", "where": "first-object", "covers": "two-word name" },
+    { "q": "Sales-Post", "expect": "objects/codeunit/80", "where": "first-object", "covers": "hyphen kept" },
+    { "q": "subscription", "expect": "topics/business-central/business-functionality/sales/subscription-billing", "where": "top", "covers": "D65 hub rule survives" },
+    { "q": "page subscriptions", "expect": "objects/page/8059", "where": "first-object", "covers": "caption plus type word" },
+    { "q": "OnAfterPostSalesDoc", "expect": "objects/codeunit/80#event-OnAfterPostSalesDoc", "where": "top", "pending": "phase C", "covers": "event by name" },
+    { "q": "event: OnAfterPost", "expect": "objects/codeunit/80#event-OnAfterPostSalesDoc", "where": "top3", "pending": "phase C", "covers": "prefix on a symbol name under a kind" },
+    { "q": "Posting Date", "where": "first-symbol", "kind": "field", "name": "Posting Date", "within": { "id": "objects/table/36#field-20", "n": 5 }, "pending": "phase C", "covers": "field by name, owners by importance" },
+    { "q": "field:Posting Date", "where": "first-symbol", "kind": "field", "name": "Posting Date", "within": { "id": "objects/table/36#field-20", "n": 5 }, "pending": "phase C", "covers": "kind prefix" },
+    { "q": "proc: CopyToTempLines", "expect": "objects/codeunit/80#proc-CopyToTempLines", "where": "top", "pending": "phase C", "covers": "global procedure" },
+    { "q": "bc30 sales", "where": "top", "major": "30", "covers": "version word as a filter" },
+    { "q": "t999999", "where": "none", "hint": "no table 999999", "covers": "missing id hint" },
+    { "q": "cx 80", "where": "none", "hint": "cu 80|codeunit 80", "covers": "unknown abbreviation hint" },
+    { "q": "how do I post a sales invoice", "where": "any", "hint": "start with the hub: Sales\\.", "hint_path": "topics/business-central/business-functionality/sales", "covers": "question hint" }
+  ]
+}

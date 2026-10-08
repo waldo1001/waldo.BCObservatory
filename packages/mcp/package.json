@@ -1,6 +1,6 @@
 {
   "name": "bc-observatory",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "MCP server for BC Observatory: an agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central (Learn, code, roadmap, videos, community blogs).",
   "type": "module",
   "bin": {
@@ -28,12 +28,15 @@
     "model-context-protocol"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json && chmod +x dist/server.js",
+    "build": "tsc -p tsconfig.json --noEmit && tsx build.ts",
     "start": "node dist/server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.1",
-    "minisearch": "^7.2.0",
     "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@bc-observatory/search": "0.1.0",
+    "esbuild": "^0.28.2"
   }
 }

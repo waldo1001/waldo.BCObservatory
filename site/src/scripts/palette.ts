@@ -1,31 +1,43 @@
 /**
  * The object finder (D46): Ctrl/Cmd+K (or the header button) opens a palette that jumps to an AL object. `t18`,
- * `table 18`, `cu 80`, `Customer`, `page customer list` and `field:Posting Date` all work. The compact indexes
+ * `table 18`, `cu 80`, `Customer`, `page customer list` and `field:Posting Date` all work. Names rank with the shared
+ * scorer of packages/search (D86), so the palette, the search page and the MCP agree. The compact indexes
  * (index/objects.json, index/fields.json) load when the palette first opens, never with the page.
  */
+import { parseQuery, prepare, search, type Index, type SearchRecord } from "@bc-observatory/search";
+
 type Row = [string, string, number | null, string, string | null, string | null, string | null, ...unknown[]]; // pk, type, id, name, app, ns, obsolete (+ atlas columns)
 interface Hit { row: Row; note?: string; rank: number }
 
-const ABBR: Record<string, string> = { t: "table", te: "tableextension", p: "page", pe: "pageextension", c: "codeunit", cu: "codeunit", r: "report", q: "query", e: "enum", ee: "enumextension", x: "xmlport", i: "interface", ps: "permissionset" };
-const TYPES = ["table", "tableextension", "page", "pageextension", "codeunit", "report", "reportextension", "query", "xmlport", "enum", "enumextension", "interface", "permissionset", "permissionsetextension", "entitlement", "profile", "controladdin", "pagecustomization"];
 const LABEL: Record<string, string> = { table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report", reportextension: "Report extension", query: "Query", xmlport: "XMLport", enum: "Enum", enumextension: "Enum extension", interface: "Interface", permissionset: "Permission set", permissionsetextension: "Permission set extension", entitlement: "Entitlement", profile: "Profile", controladdin: "Control add-in", pagecustomization: "Page customization" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const title = (r: Row) => `${LABEL[r[1]] ?? r[1]}${r[2] !== null ? ` ${r[2]}` : ""} "${r[3]}"`;
 const byTitle = (a: Hit, b: Hit) => title(a.row).localeCompare(title(b.row), "en", { numeric: true });
 
-/** Rank object rows for a query; exported for the unit test. */
+/** objects.json rows as records of the shared scorer, once per rows array: name, app (a country row's app is "BE layer"), Learn pages as the importance. */
+const indexes = new WeakMap<Row[], { index: Index; rows: Map<SearchRecord, Row>; countries: string[] }>();
+function indexOf(rows: Row[]) {
+  let x = indexes.get(rows);
+  if (x) return x;
+  const map = new Map<SearchRecord, Row>(), countries = new Set<string>();
+  const recs = rows.map((r) => {
+    const country = / layer$/.test(r[4] ?? "") ? (r[4] as string).slice(0, 2).toLowerCase() : null;
+    if (country) countries.add(country);
+    const name = country ? r[3].replace(/ \([A-Z]{2}\)$/, "") : r[3];
+    const rec: SearchRecord = { id: `objects/${r[0]}`, kind: "page", type: "object", name, title: title(r), text: "", objectType: r[1], objectId: r[2], app: r[4], country,
+      layer: country ? 2 : !r[4] || r[4] === "Base Application" ? 0 : 1, importance: 0, inbound: typeof r[9] === "number" ? r[9] : 0 };
+    map.set(rec, r);
+    return rec;
+  });
+  x = { index: prepare(recs), rows: map, countries: [...countries] };
+  indexes.set(rows, x);
+  return x;
+}
+
+/** Rank object rows for a query; exported for the unit test and the explorer. */
 export function findObjects(rows: Row[], q: string, fields?: Record<string, string[]>): Hit[] {
   const s = q.trim();
   if (!s) return [];
-  const ref = /^([a-z]+)\s*(\d+)$/i.exec(s);
-  if (ref) {
-    const type = ABBR[ref[1].toLowerCase()] ?? (TYPES.includes(ref[1].toLowerCase()) ? ref[1].toLowerCase() : null);
-    if (type) {
-      const exact = rows.filter((r) => r[1] === type && r[2] === Number(ref[2]));
-      const prefix = rows.filter((r) => r[1] === type && r[2] !== null && String(r[2]).startsWith(ref[2]) && r[2] !== Number(ref[2])).sort((a, b) => (a[2] ?? 0) - (b[2] ?? 0));
-      return [...exact.map((row) => ({ row, rank: 0 })), ...prefix.slice(0, 20).map((row) => ({ row, rank: 1 }))];
-    }
-  }
   const fieldQ = /^field:\s*(.*)$/i.exec(s);
   if (fieldQ) {
     if (!fields) return [];
@@ -40,20 +52,18 @@ export function findObjects(rows: Row[], q: string, fields?: Record<string, stri
     }
     return hits.sort((a, b) => a.rank - b.rank || byTitle(a, b)).slice(0, 60);
   }
-  // optional type word first: "page customer list"
-  let type: string | null = null, rest = s.toLowerCase();
-  const first = rest.split(/\s+/)[0];
-  if (TYPES.includes(first) || ABBR[first]) { type = ABBR[first] ?? first; rest = rest.slice(first.length).trim(); }
-  if (!rest) return rows.filter((r) => r[1] === type).slice(0, 60).map((row) => ({ row, rank: 3 }));
-  const words = rest.split(/\s+/);
-  const hits: Hit[] = [];
-  for (const r of rows) {
-    if (type && r[1] !== type) continue;
-    const name = r[3].toLowerCase();
-    if (!words.every((w) => name.includes(w))) continue;
-    hits.push({ row: r, rank: name === rest ? 0 : name.startsWith(rest) ? 1 : new RegExp(`\\b${rest.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`).test(name) ? 2 : 3 });
+  const { index, rows: rowOf, countries } = indexOf(rows);
+  const pq = parseQuery(s, { countries });
+  const hits: Hit[] = search(index, pq, { kinds: ["page"], filter: (r) => r.type === "object" }).slice(0, 60).map((h, i) => ({ row: rowOf.get(h.r)!, rank: i, ...(h.why.find((w) => w.startsWith("matched ")) ? { note: h.why.find((w) => w.startsWith("matched "))! } : {}) }));
+  // a jump-to tool: after the referenced object, the ids of that type that start with the digits ("t18" -> 1800, 1801, ...)
+  if (pq.ref) {
+    const ref = pq.ref, digits = String(ref.id);
+    const prefix = rows.filter((r) => r[1] === ref.type && r[2] !== null && String(r[2]).startsWith(digits) && r[2] !== ref.id).sort((a, b) => (a[2] ?? 0) - (b[2] ?? 0));
+    hits.push(...prefix.slice(0, 20).map((row, i) => ({ row, rank: hits.length + i })));
   }
-  return hits.sort((a, b) => a.rank - b.rank || a.row[3].length - b.row[3].length || byTitle(a, b)).slice(0, 60);
+  // a type word alone lists that type
+  if (!hits.length && pq.types.length && !pq.terms.some((t) => !/^[a-z]+$/.test(t.text))) return rows.filter((r) => pq.types.includes(r[1] as never)).slice(0, 60).map((row, i) => ({ row, rank: i }));
+  return hits;
 }
 
 export function mountPalette(base: string): void {
