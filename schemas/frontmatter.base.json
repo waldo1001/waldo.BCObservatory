@@ -5,8 +5,8 @@
   "type": "object",
   "required": ["id", "type", "title", "summary", "tier", "language", "review", "generated", "evidence", "links"],
   "properties": {
-    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest|change|app)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
-    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest", "change", "app"] },
+    "id": { "type": "string", "pattern": "^(topic|feature|object|localization|source|video|post|digest|change|app|release)/[A-Za-z0-9_-][A-Za-z0-9/_.-]*$", "description": "<type>/<slug>; video ids keep the case-sensitive YouTube id" },
+    "type": { "enum": ["topic", "feature", "object", "localization", "source", "video", "post", "digest", "change", "app", "release"] },
     "title": { "type": "string", "minLength": 1 },
     "summary": { "type": "string", "minLength": 1, "maxLength": 600 },
     "tier": { "enum": ["official", "community", "mixed"] },
@@ -27,7 +27,7 @@
       "items": {
         "type": "object", "required": ["kind", "url"],
         "properties": {
-          "kind": { "enum": ["learn", "code", "video", "blog", "guideline", "roadmap"] },
+          "kind": { "enum": ["learn", "code", "video", "blog", "guideline", "roadmap", "marketplace"] },
           "url": { "type": "string" }, "title": { "type": "string" }, "date": { "type": ["string", "null"] },
           "commit": { "type": ["string", "null"] }, "t": { "type": ["integer", "null"] },
           "quote": { "type": ["string", "null"], "maxLength": 240 }

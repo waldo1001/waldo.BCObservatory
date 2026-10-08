@@ -53,3 +53,15 @@ test("a Caption with Comment or Locked parts is read as the reader sees it (D65 
   assert.equal(captionOf({ name: "Service Objects", properties: { Caption: "Subscriptions" } } as any), "Subscriptions");
   assert.equal(captionOf({ name: "Customer", properties: { Caption: "'Customer', Comment = 'x'" } } as any), null, "equal to the name once the comment is gone");
 });
+
+test("an AL extension release is dated by its release, pre-release while no stable upload exists, labelled with its wave (D85, test 22)", () => {
+  const r = pageRecord("releases/al-30.0", {
+    type: "release", title: "AL Language extension 30.0", summary: "AL Language extension 30.0 for Business Central 2027 release wave 1 (BC30).", tier: "official",
+    system: "development", tags: ["markdown page fields"], published_at: "2026-10-01", prerelease: true, wave: "2027 release wave 1", major: "30",
+  });
+  assert.deepEqual([r.type, r.date, r.status, r.path_label], ["release", "2026-10-01", "prerelease", "2027 release wave 1 (BC30)"]);
+  const old = pageRecord("releases/al-9.4", { type: "release", title: "AL Language extension 9.4", summary: "", tier: "official", published_at: "2022-08-08", prerelease: false, wave: "2022 release wave 1", major: null });
+  assert.deepEqual([old.status, old.path_label], ["released", "2022 release wave 1"]);
+  const undated = pageRecord("releases/al-16.4", { type: "release", title: "AL Language extension 16.4", summary: "", tier: "official", published_at: null, prerelease: true, wave: null, major: null });
+  assert.deepEqual([undated.date, undated.path_label], [undefined, undefined]);
+});

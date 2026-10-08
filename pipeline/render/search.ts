@@ -83,6 +83,8 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   if (fm.type === "post") { r.source = fm.source_id; if (fm.source_name) r.path_label = String(fm.source_name); }
   if (fm.type === "video") { r.source = fm.channel; if (fm.source_name) r.path_label = String(fm.source_name); }
   if (fm.type === "feature") { r.status = fm.status; if (fm.area) r.path_label = String(fm.area); }
+  // an AL Language extension version (D85): pre-release until a stable upload exists, labelled with its wave
+  if (fm.type === "release") { r.status = fm.prerelease ? "prerelease" : "released"; if (fm.wave) r.path_label = `${fm.wave}${fm.major ? ` (BC${fm.major})` : ""}`; }
   // a change page (D61): its repository source, and its kind as the status (feature, fix, breaking, ...)
   if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind });
   return r;

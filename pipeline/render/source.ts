@@ -48,14 +48,16 @@ export function renderSourcePage(src: SourceDef, items: Item[], now: Date, featu
   }
   const first = sorted.find((i) => i.fm.published_at)?.fm.published_at ?? null, last = [...sorted].reverse().find((i) => i.fm.published_at)?.fm.published_at ?? null;
   // D61: a pull-request source is a repository; its items are change pages, dated by their merge
-  const kindLabel = src.kind === "youtube" ? "channel" : src.kind === "github-pr" ? "repository" : "blog";
+  // D85: the AL Language extension's changelog is a marketplace "extension" whose items are releases (one per version)
+  const kindLabel = src.kind === "youtube" ? "channel" : src.kind === "github-pr" ? "repository" : src.kind === "vsmarketplace" ? "extension" : "blog";
+  const itemsNoun = src.kind === "youtube" ? "videos" : src.kind === "github-pr" ? "code changes" : src.kind === "vsmarketplace" ? "releases" : "posts";
   const sysTop = top(systems, 6);
-  const summary = `${src.name}${src.author?.name && src.author.name !== src.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : src.author?.mvp ? " (MVP)" : ""}: ${items.length} ${src.kind === "youtube" ? "videos" : src.kind === "github-pr" ? "code changes" : "posts"} in the knowledge base${first ? `, ${String(first).slice(0, 10)} to ${String(last).slice(0, 10)}` : ""}, mostly about ${sysTop.slice(0, 3).map((s) => s.id).join(", ") || "Business Central"}.`;
+  const summary = `${src.name}${src.author?.name && src.author.name !== src.name ? ` (${src.author.name}${src.author.mvp ? ", MVP" : ""})` : src.author?.mvp ? " (MVP)" : ""}: ${items.length} ${itemsNoun} in the knowledge base${first ? `, ${String(first).slice(0, 10)} to ${String(last).slice(0, 10)}` : ""}, mostly about ${sysTop.slice(0, 3).map((s) => s.id).join(", ") || "Business Central"}.`;
   const fm = {
     id: `source/${src.id}`, type: "source", title: src.name, summary, tier: src.tier === "official" ? "official" : "community", language: src.language ?? "en", tags: [kindLabel],
     review: reviewOf(false),
     generated: { at: now.toISOString(), pipeline: PIPELINE_VERSION, prompts: {}, input_hash: sha256(JSON.stringify(sorted.map((i) => i.path))) },
-    evidence: [{ kind: src.kind === "youtube" ? "video" : src.kind === "github-pr" ? "code" : "blog", url: src.url, title: src.name, date: null, commit: null, t: null, quote: null }],
+    evidence: [{ kind: src.kind === "youtube" ? "video" : src.kind === "github-pr" ? "code" : src.kind === "vsmarketplace" ? "marketplace" : "blog", url: src.url, title: src.name, date: null, commit: null, t: null, quote: null }],
     links: { learn: [], objects: [], features: [...features.keys()].sort(), topics: [], localizations: [], videos: sorted.filter((i) => i.fm.type === "video").map((i) => i.fm.id), posts: sorted.filter((i) => i.fm.type === "post").map((i) => i.fm.id), guidelines: [],
       ...(sorted.some((i) => i.fm.type === "change") ? { changes: sorted.filter((i) => i.fm.type === "change").map((i) => i.fm.id) } : {}) },
     source_id: src.id, kind: src.kind, url: src.url, author: src.author?.name ?? null, mvp: !!src.author?.mvp, full_text: !!src.full_text, item_count: items.length,
@@ -72,14 +74,14 @@ export function renderSourcePage(src: SourceDef, items: Item[], now: Date, featu
   lines.push("");
   if (quarters.size) lines.push("## Flight path", "", "Items per quarter, oldest first:", "", ...[...quarters].sort().map(([q, c]) => `- ${q}: ${"*".repeat(Math.min(c, 40))} ${c}`), "");
   if (features.size) {
-    const noun: [string, string] = src.kind === "youtube" ? ["video", "videos"] : src.kind === "github-pr" ? ["code change", "code changes"] : ["post", "posts"];
+    const noun: [string, string] = src.kind === "youtube" ? ["video", "videos"] : src.kind === "github-pr" ? ["code change", "code changes"] : src.kind === "vsmarketplace" ? ["release", "releases"] : ["post", "posts"];
     // count descending, then title; within a count a feature without a page (bare id) goes last
     const title = (f: string) => featureRefs.get(f)?.title || "";
     const order = [...features].sort((a, b) => b[1] - a[1] || Number(!title(a[0])) - Number(!title(b[0])) || title(a[0]).localeCompare(title(b[0])) || a[0].localeCompare(b[0]));
     lines.push("## Roadmap features it demonstrates", "", ...order.map(([f, c]) => featureLine(f, c, noun, featureRefs.get(f))), "");
   }
   lines.push("## Most recent", "", ...[...sorted].reverse().slice(0, 20).map((i) => `- [${cell(String(i.fm.title))}](../${i.path}.md)${i.fm.published_at ? ` (${String(i.fm.published_at).slice(0, 10)})` : ""}`), "");
-  lines.push(`Source: ${src.kind === "youtube" ? "videos" : src.kind === "github-pr" ? "code changes" : "posts"} of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).`, "");
+  lines.push(`Source: ${itemsNoun} of this source in BC Observatory, ${src.kind === "vsmarketplace" ? "Microsoft's changelog text unchanged" : "derived pages only"} (CONTENT-NOTICE.md).`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
 
@@ -97,7 +99,7 @@ export function renderSourcesAndCoverage(contentDir: string, dataDir: string, no
   // source pages
   const bySource = new Map<string, Item[]>();
   for (const p of pages) {
-    const s = p.fm.type === "post" || p.fm.type === "change" ? p.fm.source_id : p.fm.type === "video" ? p.fm.channel : null;
+    const s = p.fm.type === "post" || p.fm.type === "change" || p.fm.type === "release" ? p.fm.source_id : p.fm.type === "video" ? p.fm.channel : null;
     // a change is dated by its merge: the footprint and flight path read published_at
     if (s) bySource.set(s, [...(bySource.get(s) ?? []), p.fm.type === "change" ? { ...p, fm: { ...p.fm, published_at: p.fm.merged_at } } : p]);
   }

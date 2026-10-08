@@ -60,6 +60,7 @@ import { renderGraph } from "../link/graph.js";
 import { renderSourcesAndCoverage } from "../render/source.js";
 import { renderTopics } from "../render/topic.js";
 import { renderFeatureIndex, rerenderFeaturePages } from "../render/feature.js";
+import { renderReleaseIndex, rerenderReleasePages } from "../render/release.js";
 import { linkRoadmap, type LinkRun } from "../link/roadmap.js";
 import { linkTopics, type TopicLinkRun } from "../link/topics.js";
 import { reviewTopicLinks, type TopicReviewRun } from "../review/topics.js";
@@ -426,6 +427,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       renderVideoIndex(contentDirOf(opts));
       renderPostIndex(contentDirOf(opts));
       renderFeatureIndex(contentDirOf(opts), opts.dataDir);
+      // D85: a diff written by tonight's ingest reaches release pages published on earlier nights
+      rerenderReleasePages(manifest, opts.dataDir, contentDirOf(opts), now);
+      renderReleaseIndex(contentDirOf(opts), opts.dataDir);
     });
     report.hubs = await optionalPhase("hubs", () => refreshTopics(deps.sources, manifest, mirrorsDir, opts, errors, {
       quota: execution.stop_reason === "done" ? quotas.hub_refresh ?? 0 : 0, deadline: new Date(execution.deadline), clock: deps.clock ?? (() => new Date()),
