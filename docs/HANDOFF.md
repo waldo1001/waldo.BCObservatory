@@ -30,6 +30,11 @@ questions in its section 12).
   `dist/server.js`, no MiniSearch) is ready to publish with `publish-mcp`; plugin 0.2.2 carries the skill advice.
   Deviations in the spec's section 13.
 
+- **Galaxy key and star intro, D87** (no spec, M25): the key under the canvas shows on every level and lists only the
+  marks that level draws (`legendItems`); the galaxy panel opens with one paragraph on what a star is, from the
+  summary counts (`starIntro`); the panel stays open on the galaxy level until "Got it" (`localStorage`). Two of ten navigation suggestions made on
+  2026-10-08; the other eight (the star panel winning over the lens panel first) are in that session's reply only.
+
 **Shipped 2026-10-08, live after the next good nightly:**
 - **AL extension changelog, D85** (`docs/specs/al-extension-changelog.md`, M23): a `vsmarketplace` source
   `al-language-extension` asks the gallery API (POST, no key) every night, reads the newest stable and pre-release

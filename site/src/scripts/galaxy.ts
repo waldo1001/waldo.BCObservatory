@@ -54,7 +54,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { groupChanges, landedRingsOn, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { groupChanges, landedRingsOn, legendItems, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -70,6 +70,7 @@ const ease = (t: number) => {
 };
 const pathOf = (n: { id: string; url?: string }) => n.url ?? `${n.id.slice(0, n.id.indexOf("/"))}s/${n.id.slice(n.id.indexOf("/") + 1)}/`;
 const TYPE: Record<string, string> = { topic: "topic hub", app: "first-party app", feature: "roadmap feature", object: "AL object", localization: "localization", source: "source", video: "video", post: "community post" };
+const LEGEND: Record<string, string> = { hub: "hub", obj: "AL object", tri: "video", bar: "post", cross: "crosses out", com: "community", week: "this week" };
 const KIND: Record<string, string> = { table_relation: "table relation", calc_formula: "calc formula", source_table: "source table", runs_on: "runs on", lookup_page: "lookup page", drilldown_page: "drill-down page", card_page: "card page", extends: "extends", documents: "documented by", relates: "related hub", localizes: "localized by", demonstrates: "demonstrated by", mentions: "mentioned by", discusses: "discussed by" };
 /** Tier badge words, as Badges.astro writes them. */
 const TIER: Record<string, string> = { official: "official - Microsoft", community: "community - not Microsoft", mixed: "mixed - official and community" };
@@ -901,6 +902,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const GROUP_LABEL: Record<CodeGroup, string> = { breaking: "Breaking", features: "Features", fixes: "Fixes", other: "Other", tooling: "Tooling" };
   const GROUP_OPEN: Record<CodeGroup, boolean> = { breaking: true, features: true, fixes: false, other: false, tooling: false };
   /** The reader's open or folded choice per group; storage may be absent (private window, preview): the defaults then. */
+  // D87: the star intro on the galaxy panel, hidden once the reader has said "Got it"
+  const introSeen = (): boolean => { try { return localStorage.getItem("bcobs-galaxy-intro") === "seen"; } catch { return false; } };
+  const setIntroSeen = (seen: boolean) => { try { if (seen) localStorage.setItem("bcobs-galaxy-intro", "seen"); else localStorage.removeItem("bcobs-galaxy-intro"); } catch { /* storage unavailable: the choice lasts this render */ } };
   const groupOpen = (k: CodeGroup): boolean => { try { const v = JSON.parse(localStorage.getItem("bcobs-week-groups") ?? "{}")[k]; return typeof v === "boolean" ? v : GROUP_OPEN[k]; } catch { return GROUP_OPEN[k]; } };
   const saveGroup = (k: CodeGroup, open: boolean) => { try { const all = JSON.parse(localStorage.getItem("bcobs-week-groups") ?? "{}"); all[k] = open; localStorage.setItem("bcobs-week-groups", JSON.stringify(all)); } catch { /* storage unavailable: the choice lasts this page */ } };
   const codeGroups = (rows: LandedChange[]) => groupChanges(rows).map(({ group, rows: rs }) =>
@@ -1059,7 +1063,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         ${reach.length ? `<h3>Systems it writes about</h3><ul class="g-list">${reach.map(([id, n]) => `<li><button type="button" data-sys="${esc(id)}"><span class="g-dot" style="--dot: var(--sys-${esc(id)})"></span><span>${esc(sysById.get(id)?.label ?? id)}</span><small>${n} items</small></button></li>`).join("")}</ul>` : ""}
         <h3>Stars</h3><ul class="g-list">${hits.slice(0, 150).map((n) => row(n, extra(n))).join("")}</ul>`;
     } else if (level === 1) {
-      html = `<p class="g-kicker">galaxy</p><h2 tabindex="-1">${g.systems.length} systems</h2><p class="g-meta">${g.nodes.length} stars. Systems sit next to the ones they share the most links with. Pick a system, or a lens to see where something touches the galaxy.</p><ul class="g-list">${g.systems.map((s) => `<li><button type="button" data-sys="${esc(s.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(s.id)})"></span><span>${esc(s.label)}</span><small>${g.nodes.filter((n) => n.group === s.id).length}</small></button></li>`).join("")}</ul>
+      // D87: what a star is, once, where the reader lands; "Got it" hides it, "What is a star?" brings it back
+      const counts: Record<string, number> = {};
+      for (const n of g.nodes) counts[n.type] = (counts[n.type] ?? 0) + 1;
+      const intro = introSeen() ? `<p class="g-meta"><button type="button" class="g-linkbtn" data-intro="show">What is a star?</button></p>` : `<div class="g-intro"><p class="g-meta">${esc(starIntro(counts))}</p><p><button type="button" class="btn" data-intro="hide">Got it</button></p></div>`;
+      html = `<p class="g-kicker">galaxy</p><h2 tabindex="-1">${g.systems.length} systems</h2><p class="g-meta">${g.nodes.length} stars. Systems sit next to the ones they share the most links with. Pick a system, or a lens to see where something touches the galaxy.</p>${intro}<ul class="g-list">${g.systems.map((s) => `<li><button type="button" data-sys="${esc(s.id)}"><span class="g-dot" style="--dot: var(--sys-${esc(s.id)})"></span><span>${esc(s.label)}</span><small>${g.nodes.filter((n) => n.group === s.id).length}</small></button></li>`).join("")}</ul>
         ${week.items.length ? `<h3>Landed in ${esc(weekLabel())}</h3>${landedRows(() => true, 12)}` : ""}${codeLine(null)}`;
     } else if (level === 2 && focusSys) {
       const stars = g.nodes.filter((n) => n.group === focusSys!.id).sort((a, b) => b.weight - a.weight);
@@ -1101,6 +1109,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
     panelBody.querySelector("[data-clear-lens]")?.addEventListener("click", () => setLens("", true));
+    for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-intro]")) b.addEventListener("click", () => { setIntroSeen(b.dataset.intro === "hide"); update(); (panelOpen ? panelBody.querySelector<HTMLElement>("[data-intro]") : listBtn)?.focus(); });
     for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-kind]")) b.addEventListener("click", () => {
       const k = b.dataset.kind as WeekKind;
       weekKinds = togglePill(weekKinds, k, weekAll); computeLit(); setLens("landed", true);
@@ -1164,7 +1173,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       b.setAttribute("aria-pressed", String(on)); b.classList.toggle("on", on);
       b.querySelector(".g-lens-n")!.textContent = on ? String(lensSet.size) : "";
     }
-    legend.hidden = level < 2 || mobile() || tilt > 0;
+    // D87: the key says what the canvas draws at this level, on every level
+    legend.innerHTML = legendItems(level, lens?.id).map((k) => `<span class="lg-${k}" aria-hidden="true"></span>${LEGEND[k]}`).join(" ");
+    legend.hidden = mobile() || tilt > 0;
     // an older graph has no plots and no layers files: no Tilt to offer until the nightly writes them
     const canTilt = level === 2 && !!focusSys?.plots?.length;
     tiltWrap.hidden = !canTilt || mobile();
@@ -1188,7 +1199,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const flatten = () => { tilt = 0; tiltAnim = null; sample = null; tiltLens = null; folded = new Set(); hoverThing = null; };
   function update(instant = false) {
     if (level !== 2) flatten();
-    panelOpen = mobile() || (userPanel ?? ((level >= 2 || !!lens) && !narrow()));
+    panelOpen = mobile() || (userPanel ?? ((level >= 2 || !!lens || !introSeen()) && !narrow())); // D87: open on the galaxy level until the reader has read what a star is
     renderPanel(); renderChrome(); renderTable(); setHash(); fly(instant);
   }
   function goGalaxy() { level = 1; focusSys = null; focusStar = null; arrival = null; if (lens && !lens.search && !barLenses.includes(lens)) clearLens(); update(); }

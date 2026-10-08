@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -133,4 +133,18 @@ test("this-week pills (D80): a link to an empty kind falls back to all; a presse
   assert.equal(pillDisabled(true, 0), false);
   assert.equal(pillDisabled(false, 0), true);
   assert.equal(pillDisabled(false, 3), false);
+});
+
+test("legend items follow what the canvas draws per level (D87)", () => {
+  assert.deepEqual(legendItems(1, null), ["hub", "obj", "com"]);
+  assert.deepEqual(legendItems(2, "version:30"), ["hub", "obj", "tri", "bar", "com"]);
+  assert.deepEqual(legendItems(3, undefined), ["hub", "obj", "tri", "bar", "cross", "com"]);
+  assert.deepEqual(legendItems(1, "landed"), ["hub", "obj", "com", "week"]);
+});
+
+test("the star intro counts every type the summary carries and skips the ones it does not (D87)", () => {
+  const s = starIntro({ topic: 605, app: 96, feature: 80, localization: 22, source: 32, object: 300 });
+  assert.equal(s, "A star is a page that other pages link to: 605 Learn hubs, 96 first-party apps, 80 roadmap features, 22 countries, 32 sources and the 300 most connected AL objects. Videos and posts are not stars: they are the triangles and bars drawn beside the hubs they link to once you open a system.");
+  assert.match(starIntro({ topic: 1, object: 2 }), /^A star is a page that other pages link to: 1 Learn hub and the 2 most connected AL objects\./);
+  assert.match(starIntro({ topic: 4 }), /: 4 Learn hubs\. Videos/);
 });

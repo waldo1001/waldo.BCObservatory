@@ -48,7 +48,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
     <span class="skip" id="g-tilt-help">Tilt the system into four planes: media, topic hubs, code and countries. T toggles it, Esc flattens.</span>
   </div>
   <div class="g-planes" hidden></div>
-  <p class="g-legend" hidden><span class="lg-hub" aria-hidden="true"></span>hub <span class="lg-obj" aria-hidden="true"></span>object <span class="lg-tri" aria-hidden="true"></span>video <span class="lg-bar" aria-hidden="true"></span>post <span class="lg-cross" aria-hidden="true"></span>crosses out <span class="lg-com" aria-hidden="true"></span>community</p>
+  <p class="g-legend" hidden aria-label="Key"></p>
   <div class="g-tools">
     <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
     <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
@@ -127,13 +127,17 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
   @media (pointer: coarse) { .g-lensbar :global(.g-lens), .g-lensbar select { min-height: 44px; } }
   .g-legend { position: absolute; left: 120px; bottom: 22px; margin: 0; font: 400 11px var(--font-mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; pointer-events: none; }
-  .g-legend span { display: inline-block; width: 8px; height: 8px; margin-left: 6px; background: var(--muted); }
-  .g-legend .lg-hub { border-radius: 50%; }
-  .g-legend .lg-obj { border-radius: 2px; }
-  .g-legend .lg-tri { background: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--g-media); }
-  .g-legend .lg-bar { height: 3px; background: var(--g-media); }
-  .g-legend .lg-cross { width: 14px; height: 0; background: none; border-top: 1px dashed var(--g-edge-cross); }
-  .g-legend .lg-com { background: none; border: 1px dashed var(--g-community); border-radius: 50%; }
+  .g-legend :global(span) { display: inline-block; width: 8px; height: 8px; margin-left: 6px; background: var(--muted); }
+  .g-legend :global(.lg-hub) { border-radius: 50%; }
+  .g-legend :global(.lg-obj) { border-radius: 2px; }
+  .g-legend :global(.lg-tri) { background: none; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 8px solid var(--g-media); }
+  .g-legend :global(.lg-bar) { height: 3px; background: var(--g-media); }
+  .g-legend :global(.lg-cross) { width: 14px; height: 0; background: none; border-top: 1px dashed var(--g-edge-cross); }
+  .g-legend :global(.lg-com) { background: none; border: 1px dashed var(--g-community); border-radius: 50%; }
+  .g-legend :global(.lg-week) { background: none; border: 1px solid var(--g-media-new); border-radius: 50%; box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px var(--g-media-new); }
+  .g-panel :global(.g-intro) { margin: 0 0 12px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 8px; }
+  .g-panel :global(.g-intro p:last-child) { margin-bottom: 0; }
+  .g-panel :global(.g-linkbtn) { background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .g-tools { position: absolute; right: 16px; top: 10px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: calc(100% - 32px); z-index: 2; }
   .galaxy:global(.g-panel-open) .g-tools { right: 396px; }
   .g-btn, .g-tools .icon-btn {

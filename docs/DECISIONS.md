@@ -814,3 +814,16 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   these refinements (spec section 13): a caption equal to the query scores but lifts no demotion and pins nothing;
   app pages rank with the narrative rule as "none"; symbols are demoted on a generic query like objects and only an
   event-shaped word lifts them; a demoted hit stays out of the exact band. Spec: `docs/specs/search.md`.
+- **D87 The galaxy says what a star is and what the canvas draws.** Two of the ten navigation suggestions of
+  2026-10-08 (the owner's "clicking a star confuses me"). (2) The key under the canvas (`.g-legend`) was hidden on the
+  galaxy level and always listed six marks, two of which (video and post bodies, cross-system edges) are not drawn
+  until a system or a star is in view. It now shows on every level except a phone or a tilt, and lists only what that
+  level draws: hub and AL object and the community ring at level 1, the media bodies from level 2, the dashed cross
+  edge at level 3, the gold ring only under the this-week lens (`legendItems` in `galaxy-core.ts`, tested). (4) The
+  galaxy panel says what a star is, once, from the summary's own counts (`starIntro`: 605 Learn hubs, 96 first-party
+  apps, 80 roadmap features, 22 countries, 32 sources and the 300 most connected AL objects on 2026-10-08) and that
+  videos and posts are not stars. The galaxy panel is closed by default on a wide screen, so it opens until the reader presses "Got it", which hides
+  the paragraph (`localStorage` `bcobs-galaxy-intro`) and lets the panel close as before; "What is a star?" in the
+  panel brings it back. Rejected: a modal or first-visit tour (the panel is the place that already explains the
+  level); hard-coding the type counts (the summary changes nightly); a legend entry for the code diamond (a panel
+  marker, never drawn on the canvas). Not a spec: two self-contained site changes, no pipeline, no new data.

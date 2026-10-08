@@ -124,3 +124,23 @@ export function groupChanges<T extends [string, string, string, string[], string
   for (const r of rows) { const k = codeGroup(r[0], r[1], r[6]); (by.get(k) ?? by.set(k, []).get(k)!).push(r); }
   return CODE_GROUPS.filter((k) => by.has(k)).map((group) => ({ group, rows: by.get(group)! }));
 }
+
+/** D87: the key under the galaxy says only what the canvas draws at this level. */
+export type LegendItem = "hub" | "obj" | "tri" | "bar" | "cross" | "com" | "week";
+export function legendItems(level: number, lensId: string | null | undefined): LegendItem[] {
+  const items: LegendItem[] = ["hub", "obj"];
+  if (level >= 2) items.push("tri", "bar"); // media bodies are drawn beside the hubs of the system in view
+  if (level >= 3) items.push("cross"); // dashed edges to the ports exist only for a focused star
+  items.push("com");
+  if (landedRingsOn(lensId)) items.push("week");
+  return items;
+}
+
+/** D87: one sentence that says what a star is, from the summary's own counts; types with no node are left out. */
+export function starIntro(counts: Record<string, number>): string {
+  const label: Record<string, [string, string]> = { topic: ["Learn hub", "Learn hubs"], app: ["first-party app", "first-party apps"], feature: ["roadmap feature", "roadmap features"], localization: ["country", "countries"], source: ["source", "sources"] };
+  const parts = Object.keys(label).filter((t) => counts[t] > 0).map((t) => `${counts[t]} ${label[t][counts[t] === 1 ? 0 : 1]}`);
+  if (counts.object > 0) parts.push(`the ${counts.object} most connected AL objects`);
+  const list = parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0] ?? "";
+  return `A star is a page that other pages link to: ${list}. Videos and posts are not stars: they are the triangles and bars drawn beside the hubs they link to once you open a system.`;
+}
