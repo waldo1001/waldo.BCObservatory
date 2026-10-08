@@ -88,7 +88,8 @@ export interface NightlyOptions {
   commit: boolean;
   push: boolean;
   guard: boolean;
-  stages: "ingest" | "all";
+  /** D81: `derive` re-renders derived data (digests, sources, indexes, graph) on committed content: no ingest, no LLM. */
+  stages: "ingest" | "all" | "derive";
   pillars?: Pillar[];
   only?: string[];
   /** Caps every item quota (not llm_calls_max) at this number. */
@@ -131,7 +132,8 @@ export interface NightlyDeps {
 type GuardReport = Omit<GuardDecision, "decision"> & { decision: GuardDecision["decision"] | "disabled" };
 export interface RunReport {
   date: string; started_at: string; finished_at: string;
-  status: "ok" | "partial" | "skipped-budget" | "aborted" | "dry-run";
+  /** `derive` (D81) is returned, never written: a derive run leaves the nightly's run report alone. */
+  status: "ok" | "partial" | "skipped-budget" | "aborted" | "dry-run" | "derive";
   pipeline: string; runner: Record<string, string>; guard: GuardReport;
   ingest: { sources: unknown[]; totals: Record<string, number> };
   plan: { quotas: Record<string, number>; work: number; executed: number; skips?: number; quota_use?: unknown; note?: string };
@@ -187,6 +189,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
   const cfg = budget();
   const date = runDate(now, cfg.window.timezone);
   const errors: string[] = [];
+  if (opts.stages === "derive") return derive(opts, deps, started, now, date, errors);
   // D41 catch-up: until the configured run date every run is unlimited, unless this run set its own caps
   const catchUp = (opts.catchUp ?? (!!cfg.catch_up?.until && date <= cfg.catch_up.until)) && !opts.capOverride && !opts.dryRun;
   if (catchUp) { opts = { ...opts, unlimited: true, capOverride: { night_usd: UNLIMITED, week_usd: UNLIMITED } }; log.warn(`catch-up mode until ${cfg.catch_up?.until ?? date}: no quotas, no spend caps`); }
@@ -429,14 +432,7 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0) - narrativeReviewsUsed) : 0,
     }));
-    try {
-      const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
-      renderDigests({ items: manifest.list(), dataDir: opts.dataDir, contentDir: contentDirOf(opts), currentMajor: order[0] }, now);
-    } catch (e) { errors.push(`digest: ${(e as Error).message.slice(0, 200)}`); }
-    try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); }
-    await phase("search-index", async () => { try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); } });
-    await phase("objects-index", async () => { try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
-    await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, "", { today: date }); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
+    await renderDerived(opts, now, date, manifest, errors, phase);
     errors.push(...execution.errors);
     report.plan = {
       quotas, work: plan.work.length, executed: execution.items_touched, skips: plan.skips.length, quota_use: plan.quota_use,
@@ -452,6 +448,56 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
   else if (results.length && totals.failed === results.length) report.status = "aborted";
   else if (totals.failed) report.status = "partial";
   return finish(report, opts, deps.sources);
+}
+
+type Phase = <T>(name: string, fn: () => T | Promise<T>) => Promise<T>;
+const timedPhase: Phase = async (name, fn) => {
+  const t = Date.now();
+  try { return await fn(); } finally { log.info(`phase ${name}: ${Date.now() - t} ms`); }
+};
+
+/**
+ * D81: the deterministic render block both stages run on committed content: digests, sources and coverage, the search
+ * and objects indexes, the graph (landed.json with the week's changes). Each step reports its error and the rest go on.
+ */
+export async function renderDerived(opts: NightlyOptions, now: Date, date: string, manifest: Manifest, errors: string[], phase: Phase = timedPhase): Promise<void> {
+  await phase("digests", async () => {
+    try {
+      const order = loadConfig<{ narrative_order: string[] }>("versions").narrative_order;
+      renderDigests({ items: manifest.list(), dataDir: opts.dataDir, contentDir: contentDirOf(opts), currentMajor: order[0] }, now);
+    } catch (e) { errors.push(`digest: ${(e as Error).message.slice(0, 200)}`); }
+  });
+  await phase("sources", async () => { try { renderSourcesAndCoverage(contentDirOf(opts), opts.dataDir, now); } catch (e) { errors.push(`sources: ${(e as Error).message.slice(0, 200)}`); } });
+  await phase("search-index", async () => { try { renderSearchIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`search index: ${(e as Error).message.slice(0, 200)}`); } });
+  await phase("objects-index", async () => { try { renderObjectsIndex(contentDirOf(opts), opts.dataDir); } catch (e) { errors.push(`objects index: ${(e as Error).message.slice(0, 200)}`); } });
+  await phase("graph", async () => { try { renderGraph(contentDirOf(opts), opts.dataDir, "", { today: date }); } catch (e) { errors.push(`graph: ${(e as Error).message.slice(0, 200)}`); } });
+}
+
+/**
+ * D81: the derive stage. No guard, no recovery of a killed run, no ingest, no plan, no LLM, no run report (the
+ * nightly's report and spend history stay as they are). The leak gate runs before the commit, as for a nightly; a
+ * render error is reported and the run exits non-zero, after committing what rendered.
+ */
+async function derive(opts: NightlyOptions, deps: NightlyDeps, started: Date, now: Date, date: string, errors: string[]): Promise<RunReport> {
+  log.info(`derive ${date}: re-rendering derived data on committed content`);
+  const sha = opts.commit ? (await git(["rev-parse", "--short", "HEAD"], opts.repoDir)).trim() : "";
+  await renderDerived(opts, now, date, new Manifest(resolve(opts.dataDir, "manifest")), errors);
+  const report: RunReport = {
+    date, started_at: started.toISOString(), finished_at: new Date().toISOString(), status: "derive", pipeline: PIPELINE_VERSION,
+    runner: { node: process.version }, guard: { decision: "disabled", status: "ok", five_hour: null, seven_day: null, resets_at: null, headroom: null, factor: 1, facts_only: false },
+    ingest: { sources: [], totals: {} }, plan: { quotas: {}, work: 0, executed: 0, note: "derive only" }, llm: llmStats(), items_changed: 0, errors,
+  };
+  if (opts.commit && !opts.dryRun) {
+    const problems = leakGate(opts, deps.sources);
+    if (problems.length) {
+      errors.push(...problems.slice(0, 20).map((p) => `leak: ${p}`));
+      log.error(`check:leak found ${problems.length} problems; nothing is committed`);
+      return report;
+    }
+    await commitTracked(opts.repoDir, `content: derive ${date} (${sha})`, opts.push);
+  }
+  log.info(`derive: ${errors.length ? `${errors.length} errors` : "ok"}`);
+  return report;
 }
 
 async function finish(report: RunReport, opts: NightlyOptions, sources: SourceDef[] = []): Promise<RunReport> {
@@ -761,7 +807,7 @@ export function parseArgs(argv: string[]): NightlyOptions {
   const list = (f: string) => val(f)?.split(",").map((s) => s.trim()).filter(Boolean);
   const dryRun = has("--dry-run");
   const stages = val("--stages") ?? "all";
-  if (stages !== "ingest" && stages !== "all") throw new Error(`--stages must be ingest or all, got ${stages}`);
+  if (stages !== "ingest" && stages !== "all" && stages !== "derive") throw new Error(`--stages must be ingest, all or derive, got ${stages}`);
   return {
     dryRun, commit: has("--commit") && !dryRun, push: has("--push") && !dryRun, guard: !has("--no-guard"), stages, scheduled: has("--scheduled"),
     pillars: list("--pillars") as Pillar[] | undefined, only: list("--only"),
@@ -774,8 +820,9 @@ export function parseArgs(argv: string[]): NightlyOptions {
 }
 
 /** D41: a cron run outside the night window has nothing to do unless catch-up is on (no report, no commit). */
-export function skipScheduled(opts: Pick<NightlyOptions, "scheduled">, now: Date, cfg = budget()): string | null {
-  if (!opts.scheduled) return null;
+export function skipScheduled(opts: Pick<NightlyOptions, "scheduled"> & Partial<Pick<NightlyOptions, "stages">>, now: Date, cfg = budget()): string | null {
+  // D81: a derive spends nothing, so the night window does not apply to it
+  if (!opts.scheduled || opts.stages === "derive") return null;
   const date = runDate(now, cfg.window.timezone);
   if (cfg.catch_up?.until && date <= cfg.catch_up.until) return null;
   const toMin = (hhmm: string) => { const [h, m] = hhmm.split(":").map(Number); return h * 60 + m; };
@@ -796,7 +843,8 @@ async function main(): Promise<void> {
     http: httpGet, sources: loadSources(), channelAvatar,
     readUsage: () => readPlanUsage({ token: process.env.BCOBS_USAGE_OAUTH_TOKEN, fetch, now: () => new Date() }),
   });
-  process.exit(report.status === "aborted" ? 1 : 0);
+  // D81: a derive has no partial state to speak of; any render or leak error fails the workflow run
+  process.exit(report.status === "aborted" || (report.status === "derive" && report.errors.length) ? 1 : 0);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

@@ -4,6 +4,8 @@ import { listFiles, readJson } from "../pipeline/lib/fsx.js";
 import { RUNS_DIR } from "../pipeline/lib/paths.js";
 import type { RunReport } from "../pipeline/orchestrator/nightly.js";
 
+// D81: a derive run writes no report; the newest one is the nightly's and would read as this run's
+if (process.env.STAGES === "derive") { console.log("### Derive\n\nDerived data re-rendered on committed content (no ingest, no LLM, no run report). The commit, if any, reads `content: derive <date> (<sha>)`."); process.exit(0); }
 const file = listFiles(RUNS_DIR, ".json").at(-1);
 if (!file) { console.log("No run report."); process.exit(0); }
 const r = readJson<RunReport>(resolve(file));

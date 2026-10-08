@@ -20,6 +20,8 @@ npm ci --ignore-scripts --no-audit --no-fund --silent
   # a run that stops on a full heap (stop reason "memory") or still dies of it (exit 134) has committed its
   # checkpoints: start a fresh process at once, so a long unlimited run is not capped by one process's memory
   restarts="${BCOBS_MEMORY_RESTARTS:-6}"
+  # D81: a derive writes no run report, so the newest report is the nightly's: never restart on its stop reason
+  for a in "$@"; do [[ "$a" == derive ]] && restarts=0; done
   for ((attempt = 0; ; attempt++)); do
     rc=0
     npm run -s nightly -- --commit --push "$@" || rc=$?

@@ -27,3 +27,14 @@ test("the repository's own workflows pass the lint", () => {
   const dir = resolve(ROOT, ".github", "workflows");
   for (const f of readdirSync(dir)) assert.deepEqual(lintWorkflow(f, readFileSync(resolve(dir, f), "utf8")), [], f);
 });
+
+test("nightly.yml (D81): a push to main on the render paths runs the derive stage; derive is a dispatch choice", () => {
+  const y = readFileSync(resolve(ROOT, ".github", "workflows", "nightly.yml"), "utf8");
+  assert.match(y, /push:\n\s+branches: \[main\]\n\s+paths: \["pipeline\/link\/\*\*", "pipeline\/render\/\*\*", "pipeline\/lib\/\*\*", "schemas\/\*\*", "config\/\*\*"\]/);
+  assert.match(y, /options: \[all, ingest, derive\]/);
+  assert.match(y, /STAGES: \$\{\{ github\.event_name == 'push' && 'derive' \|\| inputs\.stages \|\| 'all' \}\}/);
+  assert.match(y, /"\$STAGES" == derive/);
+  assert.match(y, /cancel-in-progress: false/, "a queued nightly is never cancelled by a derive");
+  // the derive commit touches content/ and data/ only: no trigger path may cover them, or it would trigger itself
+  for (const p of y.match(/paths: \[(.*)\]/)![1].split(",")) assert.ok(!/content|data/.test(p), p);
+});

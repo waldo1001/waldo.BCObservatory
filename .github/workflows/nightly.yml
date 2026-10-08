@@ -1,7 +1,12 @@
 name: nightly
 # The pipeline. Runs only on the Mac Mini runner (label bcobs) on the Claude subscription, never on pull requests.
 # Every run commits a run report, also when the budget guard skips: that heartbeat keeps the schedule alive.
+# D81: a push to main that changes what shapes derived data runs the derive stage only (render block, no ingest, no
+# LLM, no run report). Its commit touches only content/ and data/, outside these paths, so it cannot trigger itself.
 on:
+  push:
+    branches: [main]
+    paths: ["pipeline/link/**", "pipeline/render/**", "pipeline/lib/**", "schemas/**", "config/**"]
   schedule:
     - cron: "0 0 * * *" # 01:00 CET / 02:00 CEST
     # D41: extra runs during catch-up (config/budget.json catch_up.until); outside catch-up they exit at once
@@ -11,9 +16,9 @@ on:
   workflow_dispatch:
     inputs:
       stages:
-        description: "ingest = discovery only; all = full run"
+        description: "ingest = discovery only; all = full run; derive = re-render derived data, no ingest, no LLM"
         type: choice
-        options: [all, ingest]
+        options: [all, ingest, derive]
         default: all
       pillars:
         description: "comma-separated pillars (docs,code,guidelines,video,blog,roadmap,change); empty = all"
@@ -45,7 +50,7 @@ jobs:
           ref: main
       - name: Guard, ingest, plan, report, commit, push
         env:
-          STAGES: ${{ inputs.stages || 'all' }}
+          STAGES: ${{ github.event_name == 'push' && 'derive' || inputs.stages || 'all' }}
           PILLARS: ${{ inputs.pillars }}
           ONLY: ${{ inputs.only }}
           UNLIMITED: ${{ inputs.unlimited }}
@@ -54,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          [[ "$STAGES" == all || "$STAGES" == ingest ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }
+          [[ "$STAGES" == all || "$STAGES" == ingest || "$STAGES" == derive ]] || { echo "invalid stages: $STAGES" >&2; exit 1; }
           for v in "$PILLARS" "$ONLY"; do [[ "$v" =~ ^[a-z0-9,-]*$ ]] || { echo "invalid input: $v" >&2; exit 1; }; done
           args=(--stages "$STAGES")
           if [[ -n "$PILLARS" ]]; then args+=(--pillars "$PILLARS"); fi
@@ -64,4 +69,6 @@ jobs:
           infra/mini/run-nightly.sh "${args[@]}"
       - name: Run summary
         if: always()
+        env:
+          STAGES: ${{ github.event_name == 'push' && 'derive' || inputs.stages || 'all' }}
         run: npx tsx scripts/run-summary.ts >> "$GITHUB_STEP_SUMMARY" || true

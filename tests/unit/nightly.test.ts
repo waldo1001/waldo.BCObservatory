@@ -223,3 +223,40 @@ test("spend: --night-cap/--week-cap replace the caps for one run and the report 
   assert.deepEqual([more.spend?.allowance_usd, more.spend?.override], [5, true]);
   assert.ok(validate("run-report", report(dir)).ok);
 });
+
+// D81: the derive stage re-renders derived data on committed content: no guard, no ingest, no LLM, no run report
+test("--stages derive: renders the graph and indexes, never ingests or reads usage, writes no run report", async () => {
+  const dir = repo();
+  let fetched = 0, usageRead = 0;
+  const r = await runNightly(opts(dir, { stages: "derive" }), {
+    http: (async () => { fetched++; return new Response(YT); }) as any, sources: [source], handlers: NOOP, flatPlaylist: async () => [],
+    readUsage: async () => { usageRead++; return usage(5, 10)(); },
+  });
+  assert.equal(r.status, "derive");
+  assert.deepEqual([fetched, usageRead, r.llm.calls], [0, 0, 0]);
+  assert.ok(existsSync(join(dir, "data/graph/landed.json")), "the graph phase ran");
+  assert.ok(Array.isArray(JSON.parse(readFileSync(join(dir, "data/graph/landed.json"), "utf8")).changes), "landed.json carries changes");
+  assert.equal(existsSync(join(dir, "data/manifest/_runs")), false, "a derive writes no run report");
+});
+
+test("--stages derive --commit: 'content: derive <date> (<sha>)', and nothing to commit the second time", async () => {
+  const dir = repo();
+  const deps = { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) };
+  const head = execFileSync("git", ["rev-parse", "--short", "HEAD"], { cwd: dir }).toString().trim();
+  const r = await runNightly(opts(dir, { stages: "derive", commit: true }), deps);
+  assert.deepEqual(r.errors, []);
+  assert.match(lastCommit(dir), /^content: derive \d{4}-\d{2}-\d{2} \([0-9a-f]{7,}\)$/);
+  assert.equal(lastCommit(dir), `content: derive 2026-10-07 (${head})`);
+  const count = () => execFileSync("git", ["rev-list", "--count", "HEAD"], { cwd: dir }).toString().trim();
+  const before = count();
+  await runNightly(opts(dir, { stages: "derive", commit: true }), deps);
+  assert.equal(count(), before, "unchanged derived data makes no commit");
+});
+
+test("--stages derive is accepted on the command line and never skipped as a scheduled run", () => {
+  assert.equal(parseArgs(["--stages", "derive"]).stages, "derive");
+  assert.throws(() => parseArgs(["--stages", "nope"]), /ingest, all or derive/);
+  const cfg = { ...budget(), catch_up: undefined };
+  assert.equal(skipScheduled({ scheduled: true, stages: "derive" }, new Date("2026-10-12T10:00:00Z"), cfg), null);
+  assert.match(skipScheduled({ scheduled: true, stages: "all" }, new Date("2026-10-12T10:00:00Z"), cfg) ?? "", /outside the night window/);
+});
