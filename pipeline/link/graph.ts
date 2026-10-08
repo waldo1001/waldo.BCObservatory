@@ -84,6 +84,8 @@ export interface Graph {
     ns: Map<string, { ns: string | null; app: string | null }>; parent: Map<string, string | null>; media: Map<string, Set<string>>;
     /** Objects: Learn pages naming them, countries replacing them, obsolete state, and whether the page is a country layer's. */
     obj: Map<string, { learn: number; countries: string[]; obsolete: string | null; country: boolean }>;
+    /** Change pages (D80): what the week's code list needs and the node does not carry; the merge day stays out of `lit_at`. */
+    change?: Map<string, { kind: string; date: string; breaking: boolean; backports: string[] }>;
     /** Every placed node, stars or not (set by layout): the layers files need every object of a system. */
     pos?: Map<string, { x: number; y: number }>;
   };
@@ -118,7 +120,7 @@ export function buildGraph(contentDir: string, _siteBase = "", related: Record<s
   // AL objects by exact type and name ("table Customer"), as videos and posts name them (link/mentions.ts)
   const byName = objectByName(pages);
   const mentioned = (fm: Record<string, any>) => mentionedObjects(fm, byName);
-  const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map(), obj: new Map() };
+  const aux: Graph["aux"] = { ns: new Map(), parent: new Map(), media: new Map(), obj: new Map(), change: new Map() };
   const addMedia = (hub: string, m: string) => (aux.media.get(hub) ?? aux.media.set(hub, new Set()).get(hub)!).add(m);
   for (const { id, fm, path } of pages) {
     if (fm.type === "digest") continue;
@@ -131,6 +133,11 @@ export function buildGraph(contentDir: string, _siteBase = "", related: Record<s
       aux.obj.set(id, { learn: (fm.links?.learn ?? []).length, countries: (fm.countries ?? []).map(String).sort(), obsolete: fm.obsolete?.state ?? null, country: !!fm.country });
     }
     if (fm.type === "topic") aux.parent.set(id, typeof fm.parent === "string" ? fm.parent : null);
+    // D80: "releases/29.x" -> "29"; a page without a merge date is left out of the week
+    if (fm.type === "change" && /^\d{4}-\d{2}-\d{2}/.test(String(fm.merged_at ?? ""))) {
+      const backports = [...new Set(((fm.backports ?? []) as { base?: string }[]).map((b) => /(\d+)\.x$/.exec(String(b.base ?? ""))?.[1]).filter((x): x is string => !!x))].sort();
+      aux.change!.set(id, { kind: String(fm.change_kind ?? "other"), date: String(fm.merged_at).slice(0, 10), breaking: fm.breaking === true || fm.change_kind === "breaking", backports });
+    }
     const L = fm.links ?? {};
     // D65: an app's hubs are the hubs its objects are documented in
     for (const t of L.topics ?? []) edge(id, t, fm.type === "object" || fm.type === "app" ? "documents" : "relates");
@@ -351,14 +358,38 @@ const withSource = <T extends unknown[]>(t: T, src: string | undefined): T | [..
 /** One landed item: [id, v | p, date, summary stars it links to, title, source id?]. */
 export type LandedItem = [string, string, string, string[], string] | [string, string, string, string[], string, string];
 /** Videos and posts published in the LANDED_DAYS days up to `today`, newest first, with the summary stars they link to, their title and source (D73). */
-export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: LandedItem[] } {
+export function landed(g: Graph, keep: Set<string>, today: string): { anchor: string; days: number; items: LandedItem[]; changes: LandedChange[] } {
   const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
   const hubs = new Map<string, Set<string>>(), src = mediaSources(g);
   for (const e of g.edges) if (!isRelated(e)) for (const [m, h] of [[e.s, e.t], [e.t, e.s]]) if (/^(video|post)\//.test(m) && keep.has(h) && !h.startsWith("source/")) (hubs.get(m) ?? hubs.set(m, new Set()).get(m)!).add(h);
   const items = g.nodes.filter((n) => (n.type === "video" || n.type === "post") && n.lit_at && n.lit_at >= from && n.lit_at <= today)
     .sort((a, b) => b.lit_at!.localeCompare(a.lit_at!) || a.id.localeCompare(b.id))
     .map((n) => withSource([n.id, n.type === "video" ? "v" : "p", n.lit_at!, [...(hubs.get(n.id) ?? [])].sort(), n.label] as [string, string, string, string[], string], src.get(n.id)));
-  return { anchor: today, days: LANDED_DAYS, items };
+  return { anchor: today, days: LANDED_DAYS, items, changes: landedChanges(g, keep, today) };
+}
+
+/** One change of the week (D80): [change id, change_kind, merge day, summary stars it touches, title, system, breaking 0 | 1, backport majors]. */
+export type LandedChange = [string, string, string, string[], string, string, number, string[]];
+/**
+ * Change pages merged in the LANDED_DAYS days up to `today`, newest first. Their stars, by id only: the summary stars
+ * a change links (topics, objects in the summary; never a source), and the app star that implements each object.
+ */
+export function landedChanges(g: Graph, keep: Set<string>, today: string): LandedChange[] {
+  const from = new Date(Date.parse(`${today}T00:00:00Z`) - (LANDED_DAYS - 1) * 864e5).toISOString().slice(0, 10);
+  const info = g.aux.change ?? new Map();
+  const appOf = new Map<string, string[]>();
+  for (const e of g.edges) if (e.type === "implements") for (const [a, o] of [[e.s, e.t], [e.t, e.s]]) if (a.startsWith("app/") && keep.has(a)) (appOf.get(o) ?? appOf.set(o, []).get(o)!).push(a);
+  const stars = new Map<string, Set<string>>();
+  for (const e of g.edges) if (!isRelated(e)) for (const [c, t] of [[e.s, e.t], [e.t, e.s]]) {
+    if (!info.has(c) || t.startsWith("source/")) continue;
+    const set = stars.get(c) ?? stars.set(c, new Set()).get(c)!;
+    if (keep.has(t)) set.add(t);
+    if (e.type === "changes") for (const a of appOf.get(t) ?? []) set.add(a);
+  }
+  return g.nodes.filter((n) => n.type === "change" && info.has(n.id) && info.get(n.id)!.date >= from && info.get(n.id)!.date <= today)
+    .map((n) => ({ n, c: info.get(n.id)! }))
+    .sort((a, b) => b.c.date.localeCompare(a.c.date) || a.n.id.localeCompare(b.n.id))
+    .map(({ n, c }) => [n.id, c.kind, c.date, [...(stars.get(n.id) ?? [])].sort(), n.label, n.group, c.breaking ? 1 : 0, c.backports] as LandedChange);
 }
 
 /** Global TOC order of the topic hubs (data/hubs/topics.json lists them in TOC walk order). */
@@ -428,7 +459,7 @@ const slim = (n: ReturnType<typeof strip>) => (n.url === pathOfId(n.id) ? (({ ur
 /** Ego files keep the plain node: the per-star fields live in the summary only. */
 const egoNode = ({ cross: _c, crossMore: _m, mb: _b, ob: _o, ec: _e, ns: _n, nn: _k, ...n }: GNode) => strip(n);
 
-export interface GraphRun { nodes: number; edges: number; summary_nodes: number; summary_bytes: number; landed: number; ego: number; written: number }
+export interface GraphRun { nodes: number; edges: number; summary_nodes: number; summary_bytes: number; landed: number; landed_changes: number; ego: number; written: number }
 export interface GraphOptions { /** Run date (YYYY-MM-DD): the end of the "landed" week. */ today?: string; /** Relations major; default the first narrative major that has them. */ major?: string }
 
 export function renderGraph(contentDir: string, dataDir: string, siteBase = "", opts: GraphOptions = {}): GraphRun {
@@ -475,5 +506,5 @@ export function renderGraph(contentDir: string, dataDir: string, siteBase = "", 
     if (writeIfChanged(file, `${JSON.stringify({ id, nodes: ns, edges: es })}\n`)) written++;
   }
   for (const f of listFiles(egoDir, ".json")) if (!wanted.has(f)) { removeIfExists(f); written++; }
-  return { nodes: g.nodes.length, edges: g.edges.length, summary_nodes: summaryNodesList.length, summary_bytes: summaryText.length, landed: week.items.length, ego: wanted.size, written };
+  return { nodes: g.nodes.length, edges: g.edges.length, summary_nodes: summaryNodesList.length, summary_bytes: summaryText.length, landed: week.items.length, landed_changes: week.changes.length, ego: wanted.size, written };
 }

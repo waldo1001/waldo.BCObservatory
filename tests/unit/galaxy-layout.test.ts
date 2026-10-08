@@ -122,7 +122,7 @@ test("graph (D66): valid summary and landed week, star fields, golden positions,
   assert.deepEqual(n("object/table/325").ob, ["29"]);
   // Table 18 (sales) points into finance: a port with the object at the far end
   assert.deepEqual(n("object/table/18").cross, [["finance", 1, "table_relation", ["object/table/15"]]]);
-  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes", "yt-ms"]] }, "the post of 09-20 is older than the week");
+  assert.deepEqual(landed, { anchor: "2026-10-07", days: 7, items: [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes", "yt-ms"]], changes: [] }, "the post of 09-20 is older than the week; no change pages, an empty list");
   const fin = s.systems.find((x: any) => x.id === "finance");
   assert.deepEqual(fin.tree, [["topic/fin", "topic/fin/gl"], ["topic/fin", "topic/fin/vat"]]);
   assert.deepEqual(fin.plots.map((p: any) => [p[0], p[5]]).sort(), [["Finance.GeneralLedger.Account", 1], ["Finance.GeneralLedger.Ledger", 1], ["Finance.VAT.Setup", 1]]);
@@ -131,6 +131,7 @@ test("graph (D66): valid summary and landed week, star fields, golden positions,
   if (process.env.BCOBS_UPDATE_GOLDEN) writeFileSync(GOLDEN, `${JSON.stringify(golden, null, 1)}\n`);
   assert.deepEqual(golden, JSON.parse(readFileSync(GOLDEN, "utf8")));
   assert.ok(r.landed === 1);
+  assert.equal(r.landed_changes, 0);
   assert.equal(renderGraph(content, data, "", opts).written, 0, "same input, same output: nothing rewritten");
 });
 
@@ -156,4 +157,28 @@ test("graph (D73): media tuples carry the bare source id, unlisted sources too; 
   assert.equal(m("video/v1")[4], "yt-ms");
   assert.equal(m("post/blog/2")[4], "blog");
   assert.equal(m("post/anon/3").length, 4);
+});
+
+test("graph (D80): the week's change pages ride in landed.json, with the summary stars they touch by id", () => {
+  const { content, data } = fixture();
+  const w = (p: string, fm: Record<string, unknown>) => writeText(join(content, p), page(fm));
+  const change = (repo: string, n: number, fm: Record<string, unknown>) => w(`changes/${repo}/${n}.md`, { id: `change/${repo}/${n}`, type: "change", title: `#${n} Change ${n}`, tier: "official", source_id: `${repo}-prs`, backports: [], breaking: false, ...fm });
+  // an app that implements Table 17: a change to Table 17 also lights the app star (by the implements edge, never by name)
+  w("apps/finapp.md", { id: "app/finapp", type: "app", title: "Finance App", tier: "official", system: "finance", links: L({ objects: ["object/table/17"] }) });
+  change("bcapps", 7, { change_kind: "fix", system: "finance", merged_at: "2026-10-06T08:00:00Z", links: L({ objects: ["object/table/17"] }), backports: [{ number: 8, base: "releases/29.x", url: "u" }, { number: 9, base: "releases/29.x", url: "u" }] });
+  change("bcapps", 5, { change_kind: "obsoletion", breaking: true, system: "sales", merged_at: "2026-10-07T23:59:00Z", links: L({ objects: ["object/table/37"] }) });
+  change("al-go", 9, { change_kind: "feature", system: "development", merged_at: "2026-10-05T10:00:00Z", links: L() });
+  change("bcapps", 3, { change_kind: "fix", system: "finance", merged_at: "2026-09-01T10:00:00Z", links: L({ objects: ["object/table/17"] }) });
+  change("bcapps", 4, { change_kind: "fix", merged_at: "2026-10-04T10:00:00Z", links: L() });
+  const r = renderGraph(content, data, "", { today: "2026-10-07", major: "29" });
+  const landed = JSON.parse(readFileSync(join(data, "graph/landed.json"), "utf8"));
+  assert.ok(validate("landed", landed).ok, JSON.stringify(validate("landed", landed).errors));
+  assert.deepEqual(landed.items, [["video/v1", "v", "2026-10-05", ["object/table/17", "topic/fin/gl"], "GL in 10 minutes", "yt-ms"]], "items unchanged");
+  assert.deepEqual(landed.changes, [
+    ["change/bcapps/5", "obsoletion", "2026-10-07", ["object/table/37"], "#5 Change 5", "sales", 1, []],
+    ["change/bcapps/7", "fix", "2026-10-06", ["app/finapp", "object/table/17"], "#7 Change 7", "finance", 0, ["29"]],
+    ["change/al-go/9", "feature", "2026-10-05", [], "#9 Change 9", "development", 0, []],
+    ["change/bcapps/4", "fix", "2026-10-04", [], "#4 Change 4", "platform", 0, []],
+  ], "newest first; September is outside the week; no system falls back to platform");
+  assert.equal(r.landed_changes, 4);
 });
