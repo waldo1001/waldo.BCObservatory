@@ -113,7 +113,7 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     const withEv = evs.some(Boolean);
     lines.push("## Features", "", withEv ? "| Feature | Status | At | Evidence |" : "| Feature | Status | At |", withEv ? "|---|---|---|---|" : "|---|---|---|");
     x.features.forEach((f, i) => {
-      const rmLinks = rm[i].ids.map((r) => `[${r}](../features/${r}.md)`).join(", ");
+      const rmLinks = rm[i].ids.map((r) => `[${cell(roadmap.entries.get(r)?.title || r)}](../features/${r}.md)`).join(", ");
       const status = `${STATUS_LABEL[statusOf(i)]}${rm[i].ids.length ? ` (roadmap ${rmLinks})` : ""}`;
       lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) |${withEv ? ` ${evs[i]} |` : ""}`);
     });

@@ -17,6 +17,7 @@ import { sha256 } from "../lib/text.js";
 import { objectSystem } from "../link/graph.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf } from "../lib/review.js";
+import { STATUS_LABEL } from "./feature.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
@@ -24,8 +25,18 @@ const top = (m: Map<string, number>, n: number) => [...m].sort((a, b) => b[1] - 
 const quarter = (d: string) => `${d.slice(0, 4)}-Q${Math.floor((Number(d.slice(5, 7)) - 1) / 3) + 1}`;
 
 interface Item { path: string; fm: Record<string, any> }
+/** D79: what a source page prints for a roadmap feature, read from its feature page. Keyed by `feature/<id>`. */
+export interface FeatureRef { title: string; area: string | null; status: string | null; ga_date: string | null }
 
-export function renderSourcePage(src: SourceDef, items: Item[], now: Date): string {
+/** D79: one roadmap feature line, by title, with area, status, GA month and how many items show it. */
+function featureLine(id: string, count: number, noun: [string, string], ref?: FeatureRef): string {
+  const n = id.replace(/^feature\//, "");
+  if (!ref?.title) return `- [${n}](../features/${n}.md)`;
+  const parts = [ref.area, ref.status ? (STATUS_LABEL as Record<string, string>)[ref.status] ?? ref.status : null, ref.ga_date ? `GA ${ref.ga_date}` : null, `${count} ${count === 1 ? noun[0] : noun[1]}`].filter(Boolean);
+  return `- [${cell(ref.title)}](../features/${n}.md): ${parts.join(", ")}`;
+}
+
+export function renderSourcePage(src: SourceDef, items: Item[], now: Date, featureRefs: Map<string, FeatureRef> = new Map()): string {
   const sorted = [...items].sort((a, b) => String(a.fm.published_at ?? "").localeCompare(String(b.fm.published_at ?? "")));
   const systems = new Map<string, number>(), topics = new Map<string, number>(), objects = new Map<string, number>(), features = new Map<string, number>(), quarters = new Map<string, number>();
   for (const { fm } of sorted) {
@@ -60,7 +71,13 @@ export function renderSourcePage(src: SourceDef, items: Item[], now: Date): stri
   }
   lines.push("");
   if (quarters.size) lines.push("## Flight path", "", "Items per quarter, oldest first:", "", ...[...quarters].sort().map(([q, c]) => `- ${q}: ${"*".repeat(Math.min(c, 40))} ${c}`), "");
-  if (features.size) lines.push("## Roadmap features it demonstrates", "", ...[...features.keys()].sort().map((f) => `- [${f.replace(/^feature\//, "")}](../features/${f.replace(/^feature\//, "")}.md)`), "");
+  if (features.size) {
+    const noun: [string, string] = src.kind === "youtube" ? ["video", "videos"] : src.kind === "github-pr" ? ["code change", "code changes"] : ["post", "posts"];
+    // count descending, then title; within a count a feature without a page (bare id) goes last
+    const title = (f: string) => featureRefs.get(f)?.title || "";
+    const order = [...features].sort((a, b) => b[1] - a[1] || Number(!title(a[0])) - Number(!title(b[0])) || title(a[0]).localeCompare(title(b[0])) || a[0].localeCompare(b[0]));
+    lines.push("## Roadmap features it demonstrates", "", ...order.map(([f, c]) => featureLine(f, c, noun, featureRefs.get(f))), "");
+  }
   lines.push("## Most recent", "", ...[...sorted].reverse().slice(0, 20).map((i) => `- [${cell(String(i.fm.title))}](../${i.path}.md)${i.fm.published_at ? ` (${String(i.fm.published_at).slice(0, 10)})` : ""}`), "");
   lines.push(`Source: ${src.kind === "youtube" ? "videos" : src.kind === "github-pr" ? "code changes" : "posts"} of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).`, "");
   return `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
@@ -75,6 +92,8 @@ export function renderSourcesAndCoverage(contentDir: string, dataDir: string, no
     try { fm = matter(readText(f)).data; } catch { continue; }
     if (fm.type) pages.push({ path: relative(contentDir, f).replace(/\.md$/, ""), fm });
   }
+  // D79: roadmap features by page id, so source pages print their titles
+  const featureRefs = new Map<string, FeatureRef>(pages.filter((p) => p.fm.type === "feature").map(({ fm }) => [fm.id, { title: fm.title, area: fm.area ?? null, status: fm.status ?? null, ga_date: fm.ga_date ?? null }]));
   // source pages
   const bySource = new Map<string, Item[]>();
   for (const p of pages) {
@@ -88,7 +107,7 @@ export function renderSourcesAndCoverage(contentDir: string, dataDir: string, no
     if (!items?.length) continue;
     const path = resolve(contentDir, "sources", `${src.id}.md`);
     wanted.add(path);
-    const page = renderSourcePage(src, items, now);
+    const page = renderSourcePage(src, items, now, featureRefs);
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
   }
   for (const f of listFiles(resolve(contentDir, "sources"), ".md")) if (!wanted.has(f)) removeIfExists(f);

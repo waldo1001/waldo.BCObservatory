@@ -156,7 +156,9 @@ test("feature pages list their coverage; video features take the roadmap status 
     ["announced", "video", ["200", "300"]], // 200 is ga, 300 preview: no agreement, the video's own status stays
   ]);
   assert.deepEqual(v.data.links.features, ["feature/200", "feature/300"]);
-  assert.ok(v.content.includes("generally available (roadmap [200](../features/200.md))"));
+  assert.ok(v.content.includes("generally available (roadmap [Use withholding taxes with employee transactions](../features/200.md))"), "D79: the link text is the title");
+  const row2 = v.content.split("\n").find((l) => l.startsWith("| Employee card fields "))!;
+  assert.ok(row2.includes("[Use withholding taxes with employee transactions](../features/200.md)") && row2.includes("[Turn indexes on and off in AL](../features/300.md)"), row2);
 });
 
 test("Opus coverage review: one verdict per link, dropped links leave the pages and stop passing the status", async () => {

@@ -55,7 +55,7 @@ export function areaSystem(area: string | null): string | null {
   return taxonomy().roadmap_areas?.[area] ?? systemFor([area]);
 }
 
-const STATUS_LABEL = { ga: "generally available", preview: "in preview", announced: "announced", unclear: "status unclear" } as const;
+export const STATUS_LABEL = { ga: "generally available", preview: "in preview", announced: "announced", unclear: "status unclear" } as const;
 export const featurePagePath = (contentDir: string, id: string) => resolve(contentDir, "features", `${id}.md`);
 
 export function latestRoadmap(dataDir: string): Map<string, RoadmapEntry> {

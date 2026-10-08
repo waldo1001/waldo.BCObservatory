@@ -6,7 +6,7 @@ import { join } from "node:path";
 import matter from "gray-matter";
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { validateContent } from "../../pipeline/validate/content.js";
-import { renderSourcesAndCoverage } from "../../pipeline/render/source.js";
+import { renderSourcePage, renderSourcesAndCoverage } from "../../pipeline/render/source.js";
 
 const page = (fm: Record<string, unknown>) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join("\n")}\n---\n\nbody\n`;
 const L = { learn: [], objects: [], features: [], topics: [], localizations: [], videos: [], posts: [], guidelines: [] };
@@ -28,4 +28,34 @@ test("source footprint pages and the system x pillar coverage", () => {
   assert.match(s.content, /2026-Q1: \* 1[\s\S]*2026-Q3: \* 1/);
   assert.deepEqual([r.coverage.counts.copilot.posts, r.coverage.counts.sales.objects, r.coverage.counts.finance.learn], [2, 1, 1]);
   assert.deepEqual(validateContent(contentDir).errors.filter((e) => e.includes("sources/")), []);
+});
+
+test("D79: roadmap features are listed by title with area, status, GA and count, most-shown first", () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-src-"));
+  const contentDir = join(root, "content"), dataDir = join(root, "data");
+  const post = (n: string, features: string[]) => page({ ...base(`post/kauffmann-nl/${n}`, "post"), links: { ...L, features }, source_id: "kauffmann-nl", system: "copilot", tags: [], published_at: `2026-0${n}-01T00:00:00Z`, post_id: n, url: "u", author: null, full_text: false, quotes: [] });
+  const feature = (id: string, title: string, area: string, status: string, ga_date: string | null) => page({ ...base(`feature/${id}`, "feature"), title, tier: "official", roadmap_id: id, wave: null, status, roadmap_status: "x", ga_date, preview_date: null, area });
+  writeText(join(contentDir, "posts/kauffmann-nl/1.md"), post("1", ["feature/100", "feature/200"]));
+  writeText(join(contentDir, "posts/kauffmann-nl/2.md"), post("2", ["feature/200"]));
+  writeText(join(contentDir, "posts/kauffmann-nl/3.md"), post("3", ["feature/999"]));
+  writeText(join(contentDir, "features/100.md"), feature("100", "Calculate withholding tax", "Expense Agent", "preview", "2026-10"));
+  writeText(join(contentDir, "features/200.md"), feature("200", "Use withholding taxes", "Finance", "ga", null));
+  renderSourcesAndCoverage(contentDir, dataDir, new Date("2026-10-07T00:00:00Z"));
+  const s = matter(readFileSync(join(contentDir, "sources/kauffmann-nl.md"), "utf8"));
+  const section = s.content.split("## Roadmap features it demonstrates")[1].split("\n## ")[0].trim().split("\n");
+  assert.deepEqual(section, [
+    "- [Use withholding taxes](../features/200.md): Finance, generally available, 2 posts",
+    "- [Calculate withholding tax](../features/100.md): Expense Agent, in preview, GA 2026-10, 1 post",
+    "- [999](../features/999.md)",
+  ]);
+  assert.deepEqual(s.data.links.features, ["feature/100", "feature/200", "feature/999"], "the frontmatter keeps the ids");
+  // feature/999 has no page on purpose: the validator flags exactly that, nothing else
+  assert.deepEqual(validateContent(contentDir).errors.filter((e) => e.includes("sources/") && !e.includes("999")), []);
+});
+
+test("D79: a roadmap title with a pipe is escaped; a video source counts videos", () => {
+  const src = { id: "yt-x", name: "X", kind: "youtube", url: "https://x", tier: "community" } as any;
+  const items = [{ path: "videos/a", fm: { ...base("video/yt-x/a", "video"), links: { ...L, features: ["feature/7"] }, published_at: "2026-01-01T00:00:00Z" } }];
+  const out = renderSourcePage(src, items, new Date("2026-10-07T00:00:00Z"), new Map([["feature/7", { title: "Either | or", area: null, status: "announced", ga_date: "2027-04" }]]));
+  assert.ok(out.includes("- [Either \\| or](../features/7.md): announced, GA 2027-04, 1 video"), out);
 });
