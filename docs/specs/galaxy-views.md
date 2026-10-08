@@ -1,6 +1,7 @@
 # Galaxy views: one place, three views (D66, M8)
 
 Status: implemented, all five phases, 2026-10-07, on main. Decision: D66. Owner: waldo. Section 9 records what was built and where it differs from sections 1 to 8. Design: `design/HANDOFF.views.md`, `HANDOFF.D-galaxy-honest.md`,
+Later: `data/graph/landed.json` also carries the week's code changes (`changes`), and the this-week lens filters by kind (D80, `docs/specs/week-code-changes.md`).
 `HANDOFF.C-neighbourhood.md`, `HANDOFF.A-layered.md`, the three `tokens.<view>.json` and `design/canvas/*.dc.html`.
 This spec says what the pipeline and the site will do per phase, what they will not do, and where the handoffs and
 the code disagree. Numbers below are measured on the data at `c18ab4a8c` (BC30 relations, 2026-10-07) unless marked

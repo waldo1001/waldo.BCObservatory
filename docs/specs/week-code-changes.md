@@ -1,6 +1,6 @@
 # This week shows Microsoft's code changes: kind pills in the this-week lens, a split header pill, a Changes tab
 
-Status: proposed, 2026-10-08. Decision: D80 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M18 (reserved). Owner: waldo.
+Status: implemented, 2026-10-08 (section 12 records what was built and where it differs). Decision: D80 (appended 2026-10-08). Milestone: M18. Owner: waldo.
 Scope: `data/graph/landed.json` gains the week's code changes (`pipeline/link/graph.ts`, `schemas/landed.json`); the
 galaxy's this-week lens gets three kind pills (Videos, Posts, Code) that filter its panel list and the stars it lights,
 with the code list grouped by kind (`site/src/scripts/galaxy.ts`, `galaxy-core.ts`, `Galaxy.astro`); the header pill
@@ -391,16 +391,56 @@ Changed: `schemas/landed.json`, `pipeline/link/graph.ts`, `site/src/lib/state.ts
 
 ## 11. Definition of Done
 
-- [ ] Section 5 tests written first and green; `npm run typecheck && npm test` green.
-- [ ] Section 7's real-data numbers reproduced, or the deviation explained in section 12.
-- [ ] Section 7's site checks pass on a local build; `node scripts/ui-sweep.mjs` reports 0 squeezed rows, including
+- [x] Section 5 tests written first and green; `npm run typecheck && npm test` green.
+- [x] Section 7's real-data numbers reproduced, or the deviation explained in section 12.
+- [x] Section 7's site checks pass on a local build; `node scripts/ui-sweep.mjs` reports 0 squeezed rows, including
       the three new states.
-- [ ] D80 appended to `docs/DECISIONS.md` (section 12 text); PLAN M18 row marked shipped; HANDOFF entry moved from
+- [x] D80 appended to `docs/DECISIONS.md` (section 12 text); PLAN M18 row marked shipped; HANDOFF entry moved from
       "Open specs" to "Where things stand".
-- [ ] `docs/specs/galaxy-views.md`, `this-week-lens.md` and `media-rows.md` each get one line pointing to D80 where
+- [x] `docs/specs/galaxy-views.md`, `this-week-lens.md` and `media-rows.md` each get one line pointing to D80 where
       they describe `landed.json` or the pill.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-08)
+
+Built in three commits on top of the spec, one per phase (A data, B galaxy, C header, nav and week page), then the
+docs. Applied: D80 in `docs/DECISIONS.md` (the section 3 text with the measured numbers), the PLAN M18 row shipped,
+the HANDOFF entry moved, the `AGENTS.md` lookup line, one pointer line each in `galaxy-views.md`, `this-week-lens.md`
+and `media-rows.md`.
+
+Verified: `npm run typecheck`, `npm test` (396 tests, 395 pass, 1 skipped as before); a local render of the graph on
+the committed content (anchor 2026-10-08) and a site build under Node 22 (28,830 pages); a Playwright run on the built
+site; `node scripts/ui-sweep.mjs` over 34 states at 1440 and 390 px, 0 squeezed rows. The rendered `data/graph/` was
+discarded; the next nightly writes it.
+
+| Check | Spec | Measured |
+|---|---|---|
+| changes in the window | 82 | 82 |
+| groups breaking / features / fixes / other / tooling | 4 / 17 / 41 / 5 / 15 | 4 / 17 / 41 / 5 / 15 |
+| changes that light a star | 28 | **76** |
+| distinct stars from code | 55 | **116** |
+| chip, all pills on / code only | 72 / 55 | **130 / 116** |
+| Administration, code only | 5 rows | 5 rows (10212, 12152, 12320, 12255, BCQuality 177) |
+| `landed.json` size | about 19 KB | 24.9 KB |
+| "also in 29.x" tags | 7 main pages with backports | 7 |
+
+Deviations:
+
+- **Code lights more than the spec measured.** The spec counted only the change page's own links. The graph also
+  has the reverse links: a topic hub that lists a change (`links.changes`, D61 phase "topic-hub links") gives a
+  `relates` edge of weight 1 (not a Related row), and `landedChanges` takes every non-Related edge from the change to a
+  summary star. #12152 lights the hub "Control your data", so the owner's example shows on the map. No code change
+  needed; the numbers in D80 are the measured ones.
+- **The header's code half reads "M PRs" at every width.** "82 code changes" wrapped the header row at 1440 px (the
+  search moved to a second row: 121 px against 73). The spec's fallback ("the long label only above 1600 px") would
+  never apply, because the header row is capped at 1440 px (`site.css`, `.site-header .wrap`). The title attribute
+  says "code changes (merged pull requests)". Below 1440 the header wraps as before D80 (D70).
+- **Schema date pattern.** `changes[i][2]` carries a date pattern in `schemas/landed.json`; `items` keeps its schema.
+- **The panel's lens chip** stays the global star count at level 2, as for every lens (unchanged behaviour).
+
+Not done: a pixel count of the rings under the code pill. The ring code is unchanged and draws over `lit`, which the
+pills now compute; the Playwright run checked the chip count and the panel, not the canvas.
+
+## 13. Proposed edits to other files (applied 2026-10-08, see section 12)
 
 **`docs/DECISIONS.md`**: append the D80 text from section 3, with "Spec: `docs/specs/week-code-changes.md`." at the
 end.

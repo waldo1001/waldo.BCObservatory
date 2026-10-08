@@ -695,3 +695,22 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   often first. Deterministic: the titles come from the feature pages and the roadmap snapshot the renderers already
   read. Rejected: title only on source pages, grouping the source list by area with H3s, source pages only, loading
   `latestRoadmap` in the source renderer. Spec: `docs/specs/roadmap-link-titles.md`.
+- **D80 This week includes Microsoft's code, behind kind pills.** The this-week lens and the header pill counted only
+  videos and posts (D66, D70, D73); the week's merged pull requests (82 change pages on 2026-10-08, 1,083 in all) were
+  reachable only through a breadcrumb. `data/graph/landed.json` gains a `changes` array next to `items`: one tuple per
+  change page merged in the window (`landedChanges` in `graph.ts`), with the summary stars it touches by id (its
+  topics, its objects in the summary, the app star that `implements` each object, and the hubs whose pages list it),
+  its kind, system, breaking flag and backport majors. The lens gets three pills, Videos, Posts and Code, all on by
+  default; a pill filters the panel list and the lit stars, the last pill never turns off, and the state is `kinds=`
+  in the hash (left out when all are on; `parseKinds`, `kindsParam`, `toggleKind` in `galaxy-core.ts`). The code list
+  is grouped by `change_kind`, not `behavior_change` (65 of 82 carry it): Breaking, Features, Fixes, Other, then
+  Tooling for AL-Go and BCQuality (`codeGroup`); Breaking and Features open, the reader's choice kept in
+  `localStorage`. The header pill splits into "N new" and "M PRs", each a deep link with its pills; "code changes"
+  wrapped the header at 1440 px. "Changes" joins the top nav, and `/changes/week/` lists the same week. Code lights
+  only stars that already exist: 76 of 82 changes touch one (116 stars; 130 with the media hubs). Amends D70 (the
+  pill), D71 (the rings also mark code stars under the lens) and D73 (a code row follows the media-row layout).
+  Rejected: a separate "MS pull requests" chapter without filters (two controls for one job), changes inside `items`
+  (old readers assume `v` or `p`), a mark on each system that has changes (new drawing code; later), list-only code
+  (the map and the list would disagree), grouping by `behavior_change`, a backport subgroup (4 pages; backports show
+  as "also in 29.x"), one combined count in the header (the media count drowns), media-only default pills (the
+  problem stays). Spec: `docs/specs/week-code-changes.md`.

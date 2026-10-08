@@ -24,7 +24,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    `sources/` (footprints), `digests/` (weekly, with the deprecation radar), `changes/<repo>/<n>` (merged pull
    requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
-   `data/code/drift.json`, `data/graph/` (the galaxy). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
+   `data/code/drift.json`, `data/graph/` (the galaxy; `landed.json` also lists the week's code changes, D80). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
    exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. Procedure
    bodies are not here by policy; object pages list calls and callers per object (`data/code/graph/<major>/`, D67); the
    plugin also connects bc-code-atlas (Stefan Maron) for bodies and per-procedure edges, and every object page says how

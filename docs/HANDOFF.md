@@ -10,11 +10,7 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Week code changes**: `docs/specs/week-code-changes.md`, D80, M18. Status: proposed 2026-10-08, nothing
-  implemented. Start with section 5 (the failing `landed.json` tests in `tests/unit/galaxy-layout.test.ts`), then
-  `landedChanges` in `pipeline/link/graph.ts` (phase A ships alone). Until it lands, the week's code changes (82 change
-  pages on 2026-10-08) appear in no "this week" view: not in the header pill, not in the galaxy's lens, and `/changes/`
-  has no nav entry.
+None open.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -24,6 +20,10 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-08, live after the next good nightly:**
+- **Week code changes, D80** (`docs/specs/week-code-changes.md`, M18): the this-week lens has Videos, Posts and Code
+  pills (`#lens=landed&kinds=c`), the week's change pages grouped by kind with Breaking and Features open; the header
+  pill reads "N new · M PRs"; "Changes" is in the nav; `/changes/week/`. The next nightly writes `landed.json` with a
+  `changes` array (82 on 2026-10-08, 76 lighting a star). Deviations in the spec's section 12.
 - **Roadmap link titles, D79** (`docs/specs/roadmap-link-titles.md`, M17): source pages and video Features tables
   print roadmap titles, not bare ids; source lists add area, status, GA and count, most-shown first. The next nightly
   rewrites 6 source and 61 video pages (no LLM). Deviations in the spec's section 12.

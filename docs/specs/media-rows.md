@@ -1,6 +1,7 @@
 # Media rows: title over the full width, a kind pill, the source
 
 Status: implemented, 2026-10-07 (section 12 records what was built and where it differs). Decision: D73 (appended 2026-10-07). Owner: waldo.
+Later: code change rows in the this-week lens follow this layout with a diamond marker (D80, `docs/specs/week-code-changes.md`).
 Scope: every video and post row in the galaxy's side panel (`site/src/scripts/galaxy.ts` `mediaRow`, styles in
 `site/src/components/Galaxy.astro`), and the three graph files that feed them (`pipeline/link/graph.ts`:
 `landed.json`, the summary's `mb`, the layers files' `media`). Line numbers are measured at `b09c7b072`
