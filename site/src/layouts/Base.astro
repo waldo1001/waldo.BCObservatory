@@ -10,7 +10,8 @@ const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
 const nav = [
   // D84: eleven entries; "Objects" and "Countries" are the nav's short names for the AL objects and Localizations sections, so the
-  // header keeps one row at 1440 px (the section pages keep their titles)
+  // header keeps one row at 1440 px (the section pages keep their titles). D85: a twelfth entry ("Releases") wrapped the header
+  // to 121.5 px at 1440, so /releases/ is reached from the home card and the Changes lede instead (spec section 9 fallback)
   ["topics", "Topics"], ["features", "Roadmap"], ["objects", "Objects"], ["localizations", "Countries"],
   ["videos", "Videos"], ["posts", "Posts"], ["changes", "Changes"], ["digests", "Weekly"], ["sources", "Sources"],
   ["mcp", "MCP"], ["about", "About"], // D84, D83

@@ -777,3 +777,23 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   reading tool descriptions from the server package at build time (zod schemas in the site build; a test that pins
   the list is enough); a client-by-client table (five code blocks read better than one table of JSON). Not a spec:
   one page, one data file, no pipeline.
+- **D85 The observatory watches the AL Language extension changelog, one page per extension version.** The
+  marketplace page `items/ms-dynamics-smb.al/changelog` is a shell that shows the changelog of the highest version
+  number; the gallery API (`extensionquery`, POST, no key) lists every upload with its date, its pre-release flag and
+  an immutable changelog asset. The nightly asks it once for the full upload list (the latest-only flags answer with
+  the highest version, which hides a newer stable upload), reads the newest stable and the newest pre-release asset
+  only when either moved, parses the `## Version x.y` sections (62 on 2026-10-08, the three "9.3 Update n" sections
+  included), merges the two tracks per version (the later upload's order and bodies win) and keeps one manifest item,
+  one page (`content/releases/al-<version>.md`) and one search record per version. Snapshots and diffs
+  (`data/releases/al/`) are written only on change, like the roadmap; the diff names the entries added, changed or
+  removed per version, and the page lists them under "What changed on this page", so the growth of an open version's
+  section is visible by date. Dates come from the gallery's uploads (first pre-release upload, first stable upload);
+  a version with no upload left in the gallery (13 of 62) has no date and never shows in `whats_new`. The BC major
+  comes from the wave H1 matched against `config/versions.json` labels. Microsoft's text is stored verbatim (official
+  tier, full text, like Learn), review state `derived`, no model call. Readers find the pages at `/releases/` from a
+  home card and the Changes index's lede (a twelfth nav entry wrapped the header to 121 px at 1440), in the weekly
+  digest's Releases block and through `whats_new`. Rejected: scraping the HTML page (it shows one track); one page per
+  changelog heading (unstable ids: Microsoft renames headings); a page per upload (185, mostly identical); the
+  this-week lens and header pill (D80; a source that moves twice a month); a Haiku pass linking entries to hubs and
+  objects (a later spec); the pre-4.0 monthly updates (no version sections, 90 KB, 2016 to 2019). Spec:
+  `docs/specs/al-extension-changelog.md`.

@@ -20,6 +20,7 @@ import { latestRoadmap } from "./feature.js";
 import { postPageKey } from "./post.js";
 import { loadSources } from "../lib/config.js";
 import { activityPath, mergedLogPath, type Activity, type MergedKind } from "../ingest/github-prs.js";
+import { latestSnapshot, releasesDir, type ReleaseDiff } from "../ingest/marketplace.js";
 import { loadNarrative, PROMPT_VERSION as NARR_V, STAGE as NARR_STAGE, type WeekNarrative } from "../summarize/changes-week.js";
 import { reviewOf, type Review } from "../lib/review.js";
 import { PIPELINE_VERSION } from "../version.js";
@@ -120,7 +121,8 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
     const p = activityPath(dataDir, x.repo!);
     return exists(p) ? readJson<Activity>(p).releases.filter((r) => inWeek(r.published_at, w)).map((r) => ({ ...r, repo: x.repo! })) : [];
   });
-  if (released.length) lines.push("Releases:", "", ...released.map((r) => `- [${cell(r.repo)} ${cell(r.name)}](${r.url}) (${r.published_at!.slice(0, 10)}${r.prerelease ? ", prerelease" : ""})`), "");
+  const alLines = alExtensionLines(dataDir, contentDir, w);
+  if (released.length || alLines.length) lines.push("Releases:", "", ...released.map((r) => `- [${cell(r.repo)} ${cell(r.name)}](${r.url}) (${r.published_at!.slice(0, 10)}${r.prerelease ? ", prerelease" : ""})`), ...alLines, "");
 
   lines.push("## Deprecation radar", "");
   if (dep) {
@@ -133,6 +135,37 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
     }
   } else lines.push("No code snapshot yet.", "");
   return { page: `---\n${toYaml(fm, { lineWidth: 0, version: "1.1" })}---\n\n${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`, counts };
+}
+
+/**
+ * D85: the AL Language extension versions previewed or released in the week (newest snapshot) and the versions whose
+ * entries changed in the week (the week's diffs, the first snapshot's diff excluded), newest version first.
+ */
+function alExtensionLines(dataDir: string, contentDir: string, w: { start: string; end: string }): string[] {
+  const versions = latestSnapshot(dataDir)?.snap.versions ?? [];
+  const link = (key: string, version: string) => (exists(resolve(contentDir, "releases", `${key}.md`)) ? `[AL Language extension ${cell(version)}](../releases/${key}.md)` : `AL Language extension ${cell(version)}`);
+  const out: string[] = [];
+  for (const v of versions) {
+    const when = [inWeek(v.preview_at, w) ? `previewed ${v.preview_at}` : null, inWeek(v.released_at, w) ? `released ${v.released_at}` : null].filter(Boolean);
+    if (when.length) out.push(`- ${link(v.key, v.version)} ${when.join(", ")}`);
+  }
+  const diffDir = resolve(releasesDir(dataDir), "diffs");
+  const diffs = (exists(diffDir) ? readdirSync(diffDir) : []).filter((f) => f.endsWith(".json") && inWeek(f.slice(0, 10), w)).sort()
+    .map((f) => readJson<ReleaseDiff>(resolve(diffDir, f))).filter((d) => d.from);
+  const tally = new Map<string, { added: number; changed: number; removed: number }>();
+  for (const d of diffs) for (const [key, e] of Object.entries(d.entries ?? {})) {
+    const t = tally.get(key) ?? { added: 0, changed: 0, removed: 0 };
+    t.added += e.added.length; t.changed += e.changed.length; t.removed += e.removed.length;
+    tally.set(key, t);
+  }
+  const order = new Map(versions.map((v, i) => [v.key, i]));
+  for (const [key, t] of [...tally].sort((a, b) => (order.get(a[0]) ?? 1e9) - (order.get(b[0]) ?? 1e9))) {
+    const v = versions.find((x) => x.key === key);
+    const n = (k: number, verb: string) => (k ? `${k} ${k === 1 ? "entry" : "entries"} ${verb}` : null);
+    const parts = [n(t.added, "added"), n(t.changed, "changed"), n(t.removed, "removed")].filter(Boolean);
+    if (parts.length) out.push(`- ${v ? link(key, v.version) : cell(key)}: ${parts.join(", ")}`);
+  }
+  return out;
 }
 
 /** The narrative a digest shows and the page's review block: derived without one, its review's state with one. */

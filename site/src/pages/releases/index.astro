@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import List from "../../layouts/List.astro";
+const base = import.meta.env.BASE_URL;
+// newest version first, as the changelog and content/releases/llms.txt order them
+const parts = (v: string) => (String(v).match(/\d+/g) ?? []).map(Number);
+const cmp = (a: number[], b: number[]) => { for (let i = 0; i < Math.max(a.length, b.length); i++) if ((a[i] ?? 0) !== (b[i] ?? 0)) return (b[i] ?? 0) - (a[i] ?? 0); return 0; };
+const all = (await getCollection("releases")).sort((a, b) => cmp(parts(a.data.version), parts(b.data.version)));
+const wave = (d: Record<string, any>) => (d.wave ? `${d.wave}${d.major ? ` (BC${d.major})` : ""}` : "");
+---
+<List section="releases" title="Releases · BC Observatory" description="Microsoft's changelog of the AL Language extension for Visual Studio Code, one page per extension version.">
+  <p class="eyebrow">Releases</p>
+  <h1>{all.length} AL Language extension versions</h1>
+  <p class="lede">Microsoft's changelog of the AL Language extension for Visual Studio Code, one page per extension version, dates from the marketplace gallery. Agents: <a href={`${base}releases/llms.txt`}>llms.txt</a>.</p>
+  <table>
+    <thead><tr><th scope="col">Version</th><th scope="col">Business Central</th><th scope="col">Preview</th><th scope="col">Released</th><th scope="col">Entries</th></tr></thead>
+    <tbody>{all.map((r) => <tr><td><a href={`${base}releases/${r.id}/`}>{r.data.version}</a></td><td>{wave(r.data)}</td><td>{r.data.preview_at ?? ""}</td><td>{r.data.released_at ?? (r.data.preview_at ? "not yet" : "")}</td><td>{r.data.entry_count}</td></tr>)}</tbody>
+  </table>
+</List>

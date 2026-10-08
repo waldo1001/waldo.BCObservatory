@@ -48,9 +48,14 @@ const apps = defineCollection({
   loader: glob({ pattern: "*.md", base: "../content/apps", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
 });
 
+const releases = defineCollection({
+  // ids are al-<changelog version>: al-18.0, al-4.0.0, al-9.3-update-2 (D85); the dots stay, never slugify
+  loader: glob({ pattern: "*.md", base: "../content/releases", generateId: ({ entry }) => entry.replace(/\.md$/, "") }),
+});
+
 // the owner's hand-written About text (D83): the one prose file that is not generated; it lives in site/, never in content/
 const about = defineCollection({
   loader: glob({ pattern: "about.md", base: "./src/about", generateId: () => "about" }),
 });
 
-export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes, apps, about };
+export const collections = { videos, topics, features, objects, localizations, posts, digests, sources, changes, apps, releases, about };

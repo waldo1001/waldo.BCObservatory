@@ -20,7 +20,7 @@ export const TOOLS: Tool[] = [
   { name: "get_object", title: "Look up an AL object", what: "An object of W1 or a first-party app by type and id or exact name: fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages.", example: "get_object('table', '18')" },
   { name: "diff_object", title: "What changed in an object", what: "Member-level changes of a W1 object between two consecutive versions: fields, events, procedures, keys, properties, obsolete state.", example: "diff_object('codeunit', 'Sales-Post', '29', '30')" },
   { name: "localization", title: "A country localization", what: "What a country layer adds to or changes in W1, with its Learn local functionality hub.", example: "localization('BE')" },
-  { name: "whats_new", title: "What is new", what: "Videos, posts, roadmap features and code changes (merged pull requests) dated on or after a date, newest first.", example: "whats_new('2026-10-01')" },
+  { name: "whats_new", title: "What is new", what: "Videos, posts, roadmap features, AL extension releases and code changes (merged pull requests) dated on or after a date, newest first.", example: "whats_new('2026-10-01')" },
   { name: "blog_footprint", title: "A source's footprint", what: "What a blog or channel covers: its posts or videos and the systems they touch.", example: "blog_footprint('kauffmann-nl')" },
   { name: "feedback", title: "Report a problem with a page", what: "A prefilled GitHub issue link for a page (wrong fact, missing evidence, broken link). Nothing is sent by the agent.", example: "feedback('objects/table/18', 'field 7 is wrong')" },
 ];

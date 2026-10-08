@@ -1,6 +1,6 @@
 # The observatory watches the AL Language extension changelog: one page per extension version
 
-Status: proposed, 2026-10-08. Decision: D85 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M23 (reserved). Owner: waldo.
+Status: implemented, 2026-10-08 (section 12 records what was built and where it differs). Decision: D85 (appended 2026-10-08). Milestone: M23. Owner: waldo.
 Scope: a new official source kind (`vsmarketplace`) that reads the Visual Studio Marketplace gallery for the AL Language
 extension (`ms-dynamics-smb.al`), parses its changelog into one record per extension version, keeps dated snapshots
 and diffs like the roadmap, writes one page per version under `content/releases/`, a Releases list on the site, a
@@ -615,24 +615,100 @@ Changed:
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-24 exist and pass; `npm test`, `npm run typecheck`, `npm run validate:sources` green.
-- [ ] `sources.yaml` has `al-language-extension`, tier official, and the policy accepts it.
-- [ ] A nightly ingest writes one snapshot with 59 versions (or the day's count) and 59 manifest items; the next
+- [x] Tests 1-24 exist and pass; `npm test`, `npm run typecheck`, `npm run validate:sources` green.
+- [x] `sources.yaml` has `al-language-extension`, tier official, and the policy accepts it.
+- [x] A nightly ingest writes one snapshot with 59 versions (or the day's count) and 59 manifest items; the next
       quiet night writes nothing for this source and sends one gallery request.
-- [ ] `content/releases/` has one page per version, each passing `frontmatter.release`; `content/releases/llms.txt`
+- [x] `content/releases/` has one page per version, each passing `frontmatter.release`; `content/releases/llms.txt`
       lists them newest first; `npm run validate:content` green.
-- [ ] `whats_new` returns a version page by its date; `search` filters by `type: release`; the MCP tests pin the new
+- [x] `whats_new` returns a version page by its date; `search` filters by `type: release`; the MCP tests pin the new
       wording.
-- [ ] The weekly digest prints the AL extension lines in "Releases:" for a week with an upload or an entry change.
-- [ ] `/releases/`, `/releases/al-18.0/`, `/releases/al-18.0.md` and `/releases/llms.txt` build; "Releases" is in
+- [x] The weekly digest prints the AL extension lines in "Releases:" for a week with an upload or an entry change.
+- [x] `/releases/`, `/releases/al-18.0/`, `/releases/al-18.0.md` and `/releases/llms.txt` build; "Releases" is in
       the nav (or the section 9 fallback is applied and recorded); the header stays one row at 1440 px.
-- [ ] `CONTENT-NOTICE.md` has the row; `AGENTS.md` names the source among the official ones.
-- [ ] `docs/DECISIONS.md` has D85; `docs/PLAN.md` M23 reads "shipped"; `docs/HANDOFF.md` moves this spec out of
+- [x] `CONTENT-NOTICE.md` has the row; `AGENTS.md` names the source among the official ones.
+- [x] `docs/DECISIONS.md` has D85; `docs/PLAN.md` M23 reads "shipped"; `docs/HANDOFF.md` moves this spec out of
       "Open specs" into "Where things stand"; this file's status line and section 12 are updated.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-08)
 
-D85 text: section 3.
+Three phases on `dev/al-extension-changelog`, one commit each; tests 1-24 written before the code of their phase
+(full suite 441, 440 pass, 1 skipped as before, 0 fail). Checked against the real marketplace on 2026-10-08 with
+`npm run nightly -- --stages ingest --only al-language-extension` twice (first run: "62 versions from 185 uploads;
+stable 18.0.2819426 (2026-10-01), pre-release 30.0.2813176 (2026-10-01); 90,767 bytes before 4.0.0 dropped; snapshot
+written (+62 -0 ~0)", one snapshot of 407,734 bytes and 62 manifest items; second run "unchanged; latest 18.0.2819426
+uploaded 2026-10-01", byte-identical `data/`), a local `published` pass (62 pages, 536 KB, `validate:content` green on
+28,847 pages), a local MCP (`whats_new(since 2026-10-01, type release)` lists `releases/al-30.0`; `cat` returns the
+twin) and a Node 22 site build (28,895 pages) served under the base path and driven with Playwright 1.63. The probe
+output was discarded; the nightly writes the snapshot and the pages.
+
+- **The quiet-night check asks for the full upload list, not the latest-only flags.** `flags: 0x213` answers with the
+  highest version number (30.0.2813176), not the newest upload: the stable 18.0.2819426, uploaded five hours later, is
+  invisible there, so a new stable upload would never be noticed while a higher pre-release exists. The nightly sends
+  one POST with `flags: 51` (649 KB, under a second) and compares both tracks' newest assets with the snapshot; the
+  assets are fetched only when one moved (test 12: one gallery request, no asset request). When something moved both
+  tracks are downloaded (at most two GETs): the snapshot keeps only the merged versions, not each track's parse.
+- **Both tracks are always read.** Section 4.3 step 3 set the pre-release track to null when a stable upload is newer
+  than every pre-release, which on 2026-10-08 would have dropped 30.0 (only the pre-release holds it). The pre-release
+  track is the newest pre-release upload, null only when there is none; the merge rule (later upload wins) is as
+  specified.
+- **62 versions, not 59.** The changelog has 62 `## Version` lines; three are `## Version 9.3 Update 3/2/1`, which the
+  rule `^## Version (\S+)\s*$` would have turned into entries of 9.4 (with their issue lists). The version rule is
+  `^## Version (\d\S*(?:\s+Update\s+\d+)?)\s*$`; their keys are `al-9.3-update-3` and so on (spaces to `-`, lower
+  case: an id cannot hold a space), and they share 9.3's upload dates. 22 wave H1s plus the April '19 tail H1 (the
+  spec counted 21 distinct waves: "2021 release wave 2" appears twice). 399 entries, 273 distinct issues; the tail is
+  90,767 bytes after `\r` stripping (92,001 raw; the spec's 90,717 was measured from another line).
+- **HTML comments are tracked like fences.** The real 18.0 section holds `<!-- ### Runtime changes ... #### Miscellaneous -->`,
+  a commented-out draft. Read as a heading, it would have left an unclosed `<!--` at the end of the "ALTool changes"
+  entry, and the rendered page would have hidden everything after it. A heading inside an open comment is content; a
+  wave or version line closes a comment. Test 10 checks both the ` -->` title rule (on a bare heading) and the real
+  comment. The real `# On-premises` lines are inside bash fences; test 3's stray H1 is placed in the fixture.
+- **Fixture and test details.** `tests/fixtures/al-changelog.md` (109 lines) is cut from the 2026-10-08 pre-release
+  asset; two pieces are placed by hand: a second `### Bug fixes` in 18.0 (test 5; the real repeats are 18.0
+  "Miscellaneous", 17.0 "AL Language changes", 10.0 "New UICop rule") and the stray `# On-premises` after the fence
+  (test 3). Test 6 uses 4.0.0 and 12.7 for `_intro` (the real 18.0 starts with a heading; no text was invented).
+- **Versions are sorted by version number, not by date.** 13 of the 62 versions have no upload left in the gallery
+  (16.4, 15.3, 15.1, 12.4, 12.2, 11.1-11.4, 9.1, 8.0, 7.0.0, 6.4); a date sort put them after 4.0.0. The version order
+  matches the date order for every dated version but one pair a day apart (13.0 released 2024-03-18, 12.7 2024-03-19).
+- **Undated versions have `published_at: null`.** Section 4.6 fell back to the snapshot date, which would have dated 13
+  old versions 2026-10-08 and listed them in every `whats_new` since that day. `frontmatter.release.json` allows null
+  for `published_at`; the summary says "no upload of it left in the marketplace gallery"; the llms.txt line says "no
+  upload date". The manifest item's `published_at` is the date at midnight UTC (`manifest-item.json` wants a date-time).
+- **No "Releases" nav entry: the section 9 fallback.** With twelve entries the nav stays one row but the header wraps
+  to 121.5 px at 1440, 1280 and 1024 (73.5 px with eleven, measured in the same build by removing the link). `/releases/`
+  is reached from the home card "AL extension releases", a "Releases" link in the Changes index's lede, the root
+  `llms.txt` and the source page; the header is 73.5 px at 1440 on `/releases/`, `/releases/al-18.0/`,
+  `/objects/table/18/`, `/about/` and `/changes/`.
+- **Summary wording: "N GitHub issues linked", not "fixed".** Issue links also mark reverts (9.3 Update 2 "Reverted
+  #7081"). `entry_count` and the tags leave out `_intro`; the stats row shows BC major, preview, released, entries,
+  issues.
+- **Frontmatter carries `source_id`** (not in section 4.6), so the source page `content/sources/al-language-extension.md`
+  counts the 62 releases ("extension", evidence kind `marketplace`, footer "Microsoft's changelog text unchanged"
+  instead of "derived pages only").
+- **`sources.yaml` entry has `backfill: { all: true }`.** Without it the default 18-month horizon skips every version
+  older than April 2025 in the plan (`queue.ts` `horizonFor`), and those pages would never be written.
+- **Policy: official only for Microsoft's publisher.** `marketplace.visualstudio.com` joined `OFFICIAL_HOSTS`, and a
+  `vsmarketplace` source is official only when its `fetch.extension` publisher is `ms-dynamics-smb`; test 24 also
+  checks that another publisher's extension is refused. The schema requires `fetch.api` and `fetch.extension` for the kind.
+- **Leak scan:** `data/releases/` and `content/releases/` joined `OFFICIAL_ONLY` in `pipeline/validate/leak.ts` (like
+  the code snapshots): they hold Microsoft's changelog only, so a post quoting it is not a leak on these files.
+- **The pillar** is also registered in `pipeline/lib/queue.ts` (`PILLAR_ORDER`, no quota). A second run on one day
+  diffs against the previous day's snapshot (the roadmap diffs against the same day's file). The diff's `entries` holds
+  only versions whose entries changed; a version whose dates changed is in `changed` without an `entries` record.
+- **MCP:** `tests/unit/mcp.test.ts` pins tool names only, so no expected string changed; the server's instructions,
+  the `search` type list and the `whats_new` description carry the section 2.4 wording, and the MCP page's
+  `whats_new` line (`site/src/lib/mcp.ts`) names the releases too. `search("Markdown page fields")` finds
+  `releases/al-30.0` 10th in hybrid and keyword mode (objects with "Page Fields" in their names score higher) and 1st
+  with `type: "release"`.
+- **The digest** prints one line per version for the week's preview and release ("previewed X, released Y" when both
+  fall in the week) and "n entries added, m changed, k removed" per changed version; a version without a page is named
+  without a link.
+- Release pages run `rerenderReleasePages` and `renderReleaseIndex` in the nightly's `indexes` phase only; the derive
+  stage (D81) does not re-render them (no derived input of theirs changes on a push).
+
+### 12a. Edits applied to other files (were "proposed")
+
+D85 text: section 3, adjusted to the numbers and the nav fallback of section 12 (`docs/DECISIONS.md`).
 
 `docs/PLAN.md` section 5, before the `v0.2+` row:
 
@@ -660,4 +736,4 @@ D85 text: section 3.
 
 `packages/mcp/src/server.ts`: section 2.4 wording.
 
-At ship time the coder renames this section "Built, deviations" and records what differs.
+All applied at ship time; the PLAN row and the HANDOFF entry name the nav fallback.

@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Page from "../../../layouts/Page.astro";
+import { siteLinks, wrapTables } from "../../../lib/links";
+import { trimBody } from "../../../lib/page";
+export async function getStaticPaths() {
+  return (await getCollection("releases")).map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const fm = entry.data;
+const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `releases/${entry.id}`));
+const source = (fm.evidence ?? []).find((e: any) => e.kind === "marketplace");
+const issues = Array.isArray(fm.issues) ? fm.issues.length : 0;
+const stats = [
+  ...(fm.major ? [{ n: `BC${fm.major}`, label: "Business Central" }] : []),
+  ...(fm.preview_at ? [{ n: String(fm.preview_at), label: "preview" }] : []),
+  ...(fm.released_at ? [{ n: String(fm.released_at), label: "released" }] : []),
+  { n: fm.entry_count ?? 0, label: fm.entry_count === 1 ? "entry" : "entries" },
+  { n: issues, label: issues === 1 ? "issue" : "issues" },
+];
+---
+<Page fm={fm} kind={`AL extension release · ${fm.version}${fm.prerelease ? " · pre-release" : ""}`} path={`releases/${entry.id}`} section="releases"
+  crumbs={[{ label: "Releases", href: `${base}releases/` }]} stats={stats}
+  context={source ? { label: "Visual Studio Marketplace changelog", href: source.url } : undefined}>
+  <div class="prose" set:html={wrapTables(html)} />
+</Page>

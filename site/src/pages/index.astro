@@ -5,8 +5,8 @@ import Galaxy from "../components/Galaxy.astro";
 import Badges from "../components/Badges.astro";
 import { questions } from "../lib/questions";
 import { pageSystem, systemLabel } from "../lib/page";
-const [topics, features, objects, localizations, videos, posts, digests, sources, changes] = await Promise.all(
-  ["topics", "features", "objects", "localizations", "videos", "posts", "digests", "sources", "changes"].map((c) => getCollection(c as any)),
+const [topics, features, objects, localizations, videos, posts, digests, sources, changes, releases] = await Promise.all(
+  ["topics", "features", "objects", "localizations", "videos", "posts", "digests", "sources", "changes", "releases"].map((c) => getCollection(c as any)),
 );
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
@@ -25,6 +25,7 @@ const sections = [
   { id: "digests", label: "Weekly", count: digests.length, text: "What changed each week, with a deprecation radar. Also as RSS." },
   { id: "sources", label: "Sources", count: sources.length, text: "Each blog and channel with its footprint and flight path through the galaxy." },
   { id: "changes", label: "Code changes", count: changes.length, text: "Merged pull requests of Microsoft's BCApps that touch AL source, linked to the objects they changed." },
+  { id: "releases", label: "AL extension releases", count: releases.length, text: "Microsoft's changelog of the AL Language extension, one page per version, with what was added to it later." },
 ];
 ---
 <Base title="BC Observatory" section="home" description="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, rebuilt every night.">

@@ -10,11 +10,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **AL extension changelog**: `docs/specs/al-extension-changelog.md`, D85, M23. Status: proposed 2026-10-08, nothing
-  implemented. Start with section 5 tests 1-10 (the parser, `tests/unit/changelog-md.test.ts`, fixture cut from the
-  real asset with the section 7 commands), then `pipeline/ingest/changelog-md.ts` and `marketplace.ts` (phase A ships
-  alone, no page). Until it lands, the observatory holds nothing about the AL Language extension: no page, no search
-  record, no digest line; `whats_new` cannot answer "what changed in the AL extension".
 - **Search**: `docs/specs/search.md`, D86, M24. Status: proposed 2026-10-08, nothing implemented. Start with
   phase A task 1: `packages/search` (parser, synonyms, scorer, hints) and `tests/unit/search-core.test.ts` from the
   spec's section 4.1-4.2 tables, then the golden fixture of section 5; phase A ships alone with a site build. Until it
@@ -31,6 +26,13 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-08, live after the next good nightly:**
+- **AL extension changelog, D85** (`docs/specs/al-extension-changelog.md`, M23): a `vsmarketplace` source
+  `al-language-extension` asks the gallery API (POST, no key) every night, reads the newest stable and pre-release
+  changelog assets only when a track moved, merges them per version and writes `data/releases/al/snapshots|diffs/` on
+  change; one `release` manifest item and page per version (`content/releases/al-<version>.md`, 62 on 2026-10-08),
+  `/releases/` (home card, Changes lede; no nav entry: twelve wrapped the header), the search index, `whats_new` and the
+  digest's Releases block. No content commit: the next nightly writes the snapshot and the 62 pages (no LLM).
+  Deviations in the spec's section 12.
 - **MCP page, D84** (no spec, M22): `/mcp/` and `/mcp.md`, "MCP" in the nav before "About"; seven asks, the nine tools,
   the four skills, five install blocks and "how it answers" (`site/src/lib/mcp.ts`, pinned to the server, the plugin
   and the README by `tests/unit/mcp.test.ts`). Nav labels "Objects" and "Countries" and a 12 px nav gap keep the

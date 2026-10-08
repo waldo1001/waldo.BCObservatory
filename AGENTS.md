@@ -7,7 +7,8 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 
 1. Start at `llms.txt` (root) or the section index `content/<section>/llms.txt`. Every page under `content/` is
    markdown with strict frontmatter (`schemas/frontmatter.*.json`): `id`, `type`, `tier`, `summary`, `evidence`, `links`.
-2. Trust tiers: `official` = Microsoft (Learn, BCApps, BCQuality, Microsoft's channel); `community` = everyone else;
+2. Trust tiers: `official` = Microsoft (Learn, BCApps, BCQuality, Microsoft's channel, the AL Language extension's
+   marketplace changelog); `community` = everyone else;
    `mixed` = hub pages that merge both. Say which tier a claim comes from. `review.state` says what kind of text the
    page holds (D77): `derived` pages hold no model text: facts from the source (code, Learn, roadmap, sources.yaml)
    placed by deterministic code. `unreviewed` marks model text (summaries, narratives) Opus has not checked yet;
@@ -22,7 +23,8 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 5. Sections: `topics/` (Learn hubs), `objects/<type>/<id>` (AL objects of W1 and Microsoft's first-party apps,
    BC28-30), `localizations/`, `features/` (Microsoft 365 roadmap), `videos/`, `posts/` (community, derived),
    `sources/` (footprints), `digests/` (weekly, with the deprecation radar), `changes/<repo>/<n>` (merged pull
-   requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61). Lookups: `data/index/pages-*.json` +
+   requests of Microsoft's Business Central repositories, BCApps ones joined to the object pages they changed, D61),
+   `releases/al-<version>` (the AL Language extension's changelog, one page per version, D85). Lookups: `data/index/pages-*.json` +
    `index-manifest.json` (every page's metadata), `data/index/docs-objects.json` (Learn page <-> object by exact id),
    `data/code/drift.json`, `data/graph/` (the galaxy; `landed.json` also lists the week's code changes, D80). The MCP server (`packages/mcp`, `npx bc-observatory`) serves
    exactly these: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback. Procedure
