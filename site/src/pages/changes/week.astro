@@ -1,0 +1,39 @@
+---
+// D80: the week's change pages, the same window and groups as the galaxy's this-week lens (data/graph/landed.json)
+import { getCollection } from "astro:content";
+import { existsSync, readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import List from "../../layouts/List.astro";
+import { groupChanges } from "../../scripts/galaxy-core";
+type LandedChange = [string, string, string, string[], string, string, number, string[]];
+const base = import.meta.env.BASE_URL;
+const p = resolve(process.cwd(), "..", "data", "graph", "landed.json");
+const week = (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : {}) as { anchor?: string | null; days?: number; changes?: LandedChange[] };
+const rows = week.changes ?? [];
+const pages = new Map((await getCollection("changes")).map((c) => [`change/${c.id}`, c]));
+const LABEL: Record<string, string> = { breaking: "Breaking", features: "Features", fixes: "Fixes", other: "Other", tooling: "Tooling (AL-Go, BCQuality)" };
+const span = week.anchor ? `the ${week.days ?? 7} days up to ${week.anchor}` : "the last 7 days";
+---
+<List section="changes" title="Code changes this week · BC Observatory" description={`Change pages merged in ${span}, grouped by kind.`}>
+  <p class="eyebrow"><a href={`${base}changes/`}>Code changes</a> / this week</p>
+  <h1>{rows.length} code {rows.length === 1 ? "change" : "changes"} in {span}</h1>
+  <p class="lede">Change pages of Microsoft's Business Central repositories merged in {span}, the same week as the galaxy's <a href={`${base}#lens=landed&kinds=c`}>this-week lens</a>. Pull requests without a page (bots, backports, no source change) are counted in the <a href={`${base}digests/`}>weekly digest</a>. All changes: <a href={`${base}changes/`}>Code changes</a>.</p>
+  {groupChanges(rows).map(({ group, rows: rs }) => (
+    <section>
+      <h2>{LABEL[group]} <small class="meta">{rs.length}</small></h2>
+      <ul class="list">
+        {rs.map((c) => {
+          const pg = pages.get(c[0]);
+          return (
+            <li>
+              <a href={`${base}changes/${c[0].slice("change/".length)}/`}>{c[4]}</a>
+              <span class="row-meta"><span class="badge">{c[1]}</span>{c[6] === 1 && <span class="badge obsolete">breaking</span>}{c[7].length > 0 && <span class="badge">also in {c[7].map((v) => `${v}.x`).join(", ")}</span>}</span>
+              <div class="meta">{c[5]} · {c[2]}{pg ? ` · ${(pg.data.objects_touched ?? []).length} ${(pg.data.objects_touched ?? []).length === 1 ? "object" : "objects"}` : ""}</div>
+              {pg && <div>{pg.data.summary}</div>}
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  ))}
+</List>

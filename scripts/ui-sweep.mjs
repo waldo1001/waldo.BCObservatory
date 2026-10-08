@@ -3,7 +3,7 @@
  * Panel list sweep (D78, docs/specs/panel-lists.md 4.3). Not part of CI.
  *
  * Serves site/dist under the base path with `python3 -m http.server`, visits every galaxy panel state (both lens
- * pickers, a lens of each group, the version and this-week lenses, the galaxy panel, three systems, a star panel, a
+ * pickers, a lens of each group, the version and this-week lenses (all kinds, code only, code in one system, D80), the galaxy panel, three systems, a star panel, a
  * Tilt) at 1440 and 390 px, and fails when a `.g-panel` or `details.ask` row has a label of 4+ characters that is
  * narrower than 24 px and taller than 40 px: a label squeezed into a marker column, written one character per line.
  *
@@ -105,6 +105,9 @@ try {
       ["Pick a source", "#lens=pick:source"],
       ...groupFirst.map(([label, id]) => [`lens ${label}: ${id}`, `#lens=${encodeURIComponent(id)}`]),
       ...[...new Set(bar)].map((id) => [`lens ${id}`, `#lens=${encodeURIComponent(id)}`]),
+      // D80: the this-week pills and the code groups
+      ["this week, code only", "#lens=landed&kinds=c"],
+      ["this week, code in administration", "#system=administration&lens=landed&kinds=c"],
       ["galaxy panel", "#"],
       ...sysPick.map((s) => [`system ${s}`, `#system=${s}`]),
       ...(star ? [[`star ${star}`, `#star=${star}`]] : []),

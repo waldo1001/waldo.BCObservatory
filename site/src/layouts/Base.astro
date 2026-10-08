@@ -10,10 +10,10 @@ const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
 const nav = [
   ["topics", "Topics"], ["features", "Roadmap"], ["objects", "AL objects"], ["localizations", "Localizations"],
-  ["videos", "Videos"], ["posts", "Posts"], ["digests", "Weekly"], ["sources", "Sources"],
+  ["videos", "Videos"], ["posts", "Posts"], ["changes", "Changes"], ["digests", "Weekly"], ["sources", "Sources"],
 ];
 // D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
-// galaxy's own "this week" lens chip is the control (D71)
+// galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half
 const week = landed();
 ---
 <html lang="en">
@@ -40,10 +40,12 @@ const week = landed();
           <nav class="site-nav" aria-label="Sections">
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
-          {week.count > 0 && section !== "home" && (
-            <a class="new-pill" href={`${base}#lens=landed`} title={`Videos and posts of the 7 days up to ${week.anchor}, lit in the galaxy`}>
-              <b>{week.count}</b> new this week
-            </a>
+          {(week.count > 0 || week.changes > 0) && section !== "home" && (
+            <span class="new-pill" title={`Videos, posts and code changes (merged pull requests) of the 7 days up to ${week.anchor}, lit in the galaxy`}>
+              {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new{week.changes > 0 ? "" : " this week"}</a>}
+              {week.count > 0 && week.changes > 0 && <span class="sep" aria-hidden="true">·</span>}
+              {week.changes > 0 && <a href={`${base}#lens=landed&kinds=c`}><b>{week.changes}</b> PRs</a>}
+            </span>
           )}
           <form class="site-search" role="search" action={`${base}search/`} method="get">
             <label class="skip" for="q">Search the knowledge base</label>
