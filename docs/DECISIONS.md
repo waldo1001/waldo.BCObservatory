@@ -689,3 +689,9 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   sweeps 15 panel states at 1440 and 390 px and fails on a squeezed label: 108 before, 0 after. Rejected: only the
   markers (leaves the trap), only the CSS fallback (the picker stays the one list without markers or counts),
   `grid-template-areas` on 23 templates. Spec: `docs/specs/panel-lists.md`.
+- **D79 Roadmap links are printed by title.** A link to a roadmap feature page shows the feature's title, never its
+  bare roadmap id. Lists add the area and the status, because a roadmap title often only makes sense within its
+  area. The id stays in the link target and in the frontmatter. Source pages list the features they demonstrate most
+  often first. Deterministic: the titles come from the feature pages and the roadmap snapshot the renderers already
+  read. Rejected: title only on source pages, grouping the source list by area with H3s, source pages only, loading
+  `latestRoadmap` in the source renderer. Spec: `docs/specs/roadmap-link-titles.md`.

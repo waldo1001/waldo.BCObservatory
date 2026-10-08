@@ -1,6 +1,6 @@
 # Roadmap links show the feature's title, not its number
 
-Status: proposed, 2026-10-08. Decision: D79 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M17 (reserved). Owner: waldo.
+Status: shipped 2026-10-08 (commit `68a365e73e`), live after the next nightly. Decision: D79. Milestone: M17. Owner: waldo.
 Scope: the "Roadmap features it demonstrates" list on source pages (`pipeline/render/source.ts`) and the roadmap
 links in the video page's Features table (`pipeline/render/video.ts`). Every claim below was verified against the
 tree at `2035910480` on 2026-10-08. Not in scope: the source frontmatter (`links.features`, `footprint.features`
@@ -220,21 +220,36 @@ Changed: `pipeline/render/source.ts`, `pipeline/render/video.ts`, `pipeline/rend
 
 ## 11. Definition of Done
 
-- [ ] The tests in section 5 fail before the change and pass after; `npm test` and `npm run typecheck` are green.
-- [ ] The site builds under Node 22.
-- [ ] A local render on the committed data shows titles on yt-microsoft and no bare-id lines (not committed).
-- [ ] D79 appended to `docs/DECISIONS.md`; M17 row in `docs/PLAN.md` marked shipped with the date; the HANDOFF entry
+- [x] The tests in section 5 fail before the change and pass after; `npm test` and `npm run typecheck` are green.
+- [x] The site builds under Node 22.
+- [x] A local render on the committed data shows titles on yt-microsoft and no bare-id lines (not committed).
+- [x] D79 appended to `docs/DECISIONS.md`; M17 row in `docs/PLAN.md` marked shipped with the date; the HANDOFF entry
       moved out of "Open specs".
-- [ ] This section 12 renamed "Built, deviations", with the commit sha(s).
+- [x] This section 12 renamed "Built, deviations", with the commit sha(s).
 - [ ] After the next nightly: the live yt-microsoft page lists titles, and no video page has a bare-id roadmap link.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-`docs/DECISIONS.md`, append the D79 text from section 3.
+Built 2026-10-08 on `dev/roadmap-link-titles`, code and tests in `68a365e73e` (feat), docs in the commit after it.
 
-`docs/PLAN.md` section 5, the row as registered, with "proposed" changed to "shipped <date>".
-
-`docs/HANDOFF.md`: move the entry out of "Open specs, not yet implemented" and add one line under "Where things
-stand": source pages and video Features tables print roadmap titles (D79).
-
-`AGENTS.md`, `CONTENT-NOTICE.md`: no change (titles come from the official roadmap; nothing community-derived).
+- Section 5 tests written first; the three changed or new tests failed on the old tree (the existing roadmap-links
+  expectation, the new source-list test, the pipe-escape test). After: `npm test` 394 tests, 393 pass, 0 fail,
+  1 skipped (already skipped before); `npm run typecheck` green; `npm run validate:content` OK; site build under
+  Node 22 OK (28,829 pages), `/sources/yt-microsoft/` shows the titled list.
+- Local render on the committed data (thrown away, not committed): 6 source pages rewritten, sections of
+  58/13/5/2/1/1 lines (yt-microsoft, yt-saurav, yt-mibuso, yt-hougaard, yt-dynamicscorner, yt-stefanmaron), the top
+  four of yt-microsoft exactly as in section 2, 0 bare-id lines. `rerenderVideoPages` on the committed manifest changed
+  61 video pages, only their roadmap Status cells (and `generated.at`); 208 links in 203 cells, 64 distinct ids, all
+  with a title in the latest snapshot; 0 bare-id roadmap links after.
+- Deviation, sort: section 4 says "then title (or the id when there is no ref)", but section 5 expects the page-less
+  `feature/999` after "Calculate withholding tax" at the same count, and `"999"` sorts before letters. Built: count
+  descending, then features with a page before those without, then title, then id. The tests decide.
+- Deviation, test: section 5 expects `validateContent` to report no `sources/` errors, but the fixture's
+  `feature/999` deliberately has no page, so the validator reports it (broken link, missing page); that is the
+  correct behaviour. The test filters those two `999` errors out and asserts nothing else.
+- Extra test: the pipe-escape case runs through `renderSourcePage` directly with a `FeatureRef` map, on a youtube
+  source, so it also covers the `video`/`videos` noun.
+- `video.ts` keeps its own `STATUS_LABEL` (different wording for the video table, as the spec says); only
+  `feature.ts`'s is exported and used by `source.ts`.
+- Open: the last Definition of Done item (live yt-microsoft page and no bare-id video link) waits for the first
+  nightly after the merge; check with `grep -c '(roadmap \[[0-9]*\](' content/videos/*.md | grep -v ':0'`.

@@ -10,12 +10,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Roadmap link titles**: `docs/specs/roadmap-link-titles.md`, D79, M17. Status: proposed 2026-10-08, nothing
-  implemented. Start with section 5 (the failing tests in `tests/unit/sources.test.ts` and
-  `tests/unit/roadmap-links.test.ts`), then `pipeline/render/source.ts:63` and `pipeline/render/video.ts:116`. Until it
-  lands, readers see bare roadmap ids ("573253") on 6 source pages (58 on yt-microsoft) and in the Features tables of
-  61 video pages.
-
 - **Week code changes**: `docs/specs/week-code-changes.md`, D80, M18. Status: proposed 2026-10-08, nothing
   implemented. Start with section 5 (the failing `landed.json` tests in `tests/unit/galaxy-layout.test.ts`), then
   `landedChanges` in `pipeline/link/graph.ts` (phase A ships alone). Until it lands, the week's code changes (82 change
@@ -28,6 +22,11 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-08, live after the next good nightly:**
+- **Roadmap link titles, D79** (`docs/specs/roadmap-link-titles.md`, M17): source pages and video Features tables
+  print roadmap titles, not bare ids; source lists add area, status, GA and count, most-shown first. The next nightly
+  rewrites 6 source and 61 video pages (no LLM). Deviations in the spec's section 12.
 
 **Shipped 2026-10-07, live after the next good nightly:**
 - **Review coverage, D77** (`docs/specs/review-coverage.md`, M15): pages without model text say `derived`
