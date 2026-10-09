@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:20.509Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:20.539Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -211,11 +211,11 @@ The video demos the agent task pane, the system columns, the review bar and the 
 | Feature | Status | At |
 |---|---|---|
 | Updated Business Central icon | status not stated | [0:19](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=19s) |
-| Dedicated agent task pane | generally available (roadmap [573363](../features/573363.md)), demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |
+| Dedicated agent task pane | generally available (roadmap [Manage tasks from all agents in dedicated task pane](../features/573363.md)), demoed | [1:06](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=66s) |
 | Sales order agent | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
 | Payables agent | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
 | Custom agents capability | status not stated | [1:18](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=78s) |
-| Created/updated by system columns | generally available (roadmap [573364](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |
+| Created/updated by system columns | generally available (roadmap [Show avatars for record creators and modifiers in list](../features/573364.md)), demoed | [1:58](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=118s) |
 | Review bar for agent changes | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=161s) |
 | Cancel all agent tasks action | status not stated | [4:38](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=278s) |
 | Enhanced feedback experience | status not stated | [5:25](https://www.youtube.com/watch?v=xJ8gYzvWnTI&t=325s) |

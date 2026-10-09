@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:10.550Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:10.582Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -238,14 +238,14 @@ Demos cover capturing snapshots with call stacks and variables, profiling a sess
 
 | Feature | Status | At |
 |---|---|---|
-| Agentic developer loop | generally available (roadmap [573335](../features/573335.md), [573361](../features/573361.md)), demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |
-| Snapshot debugging MCP | generally available (roadmap [573361](../features/573361.md)), demoed | [2:00](https://www.youtube.com/watch?v=UFLo2XGGS14&t=120s) |
+| Agentic developer loop | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md), [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [0:45](https://www.youtube.com/watch?v=UFLo2XGGS14&t=45s) |
+| Snapshot debugging MCP | generally available (roadmap [Debug recorded Business Central failures with an AI agent](../features/573361.md)), demoed | [2:00](https://www.youtube.com/watch?v=UFLo2XGGS14&t=120s) |
 | AL tool as MCP proxy | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |
 | Visual Studio Code MCP integration | status not stated | [3:28](https://www.youtube.com/watch?v=UFLo2XGGS14&t=208s) |
-| AI language server protocol | generally available (roadmap [573338](../features/573338.md)), demoed | [10:16](https://www.youtube.com/watch?v=UFLo2XGGS14&t=616s) |
-| Sampling profiling MCP | generally available (roadmap [573335](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
-| Session-based profiling workflow | generally available (roadmap [573335](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
-| Telemetry-driven agent investigation | generally available (roadmap [573335](../features/573335.md)), demoed | [4:23](https://www.youtube.com/watch?v=UFLo2XGGS14&t=263s) |
+| AI language server protocol | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [10:16](https://www.youtube.com/watch?v=UFLo2XGGS14&t=616s) |
+| Sampling profiling MCP | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
+| Session-based profiling workflow | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [11:11](https://www.youtube.com/watch?v=UFLo2XGGS14&t=671s) |
+| Telemetry-driven agent investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)), demoed | [4:23](https://www.youtube.com/watch?v=UFLo2XGGS14&t=263s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

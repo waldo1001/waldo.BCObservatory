@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:29.292Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:29.347Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -352,24 +352,24 @@ The main functional areas are mileage handling, credit card feeds, AI-driven tra
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Improved Mileage Handling with Period-Based Rates | preview (roadmap [573254](../features/573254.md)) | [1:50](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=110s) |  |
+| Improved Mileage Handling with Period-Based Rates | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)) | [1:50](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=110s) |  |
 | Vehicle Type-Specific Mileage Rates | status not stated | [2:27](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=147s) |  |
 | Credit Card Feeds Manual Upload | announced | [3:14](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=194s) | "it will not be available from October, it will be available from December, so 2029.2." ([3:29](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=209s)) |
 | Reactive Credit Card Expense Creation | status not stated | [4:08](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=248s) |  |
 | Proactive Credit Card Reconciliation | status not stated | [4:35](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=275s) |  |
-| AI-Driven Travel Expense Policy Compliance | preview (roadmap [573255](../features/573255.md)), demoed | [5:00](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=300s) |  |
-| Policy Flagging for Non-Compliant Expenses | preview (roadmap [573255](../features/573255.md)), demoed | [6:18](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=378s) |  |
+| AI-Driven Travel Expense Policy Compliance | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [5:00](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=300s) |  |
+| Policy Flagging for Non-Compliant Expenses | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [6:18](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=378s) |  |
 | Enhanced Approval History and Audit Trail | announced | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
 | Interim Approvers and Delegate Approvals | announced | [7:01](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=421s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
 | Travel Requests | announced | [7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s) | "it will come gradually from October to December, but all these features will be in next 2 months." ([7:39](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=459s)) |
 | Automatic Travel Expense Assignment | status not stated | [8:33](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=513s) |  |
 | New Mobile App with Offline Support | preview, demoed | [8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s) | "this is available right now in a preview. So, only for testing, but this is this is available." ([8:57](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=537s)) |
-| VAT Reclaim in Expense Reports | preview (roadmap [573262](../features/573262.md)) | [9:58](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=598s) |  |
-| VAT Specification per Expense Line | preview (roadmap [573262](../features/573262.md)) | [11:23](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=683s) |  |
-| Withholding Tax for Employees | preview (roadmap [573304](../features/573304.md)) | [13:10](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=790s) |  |
+| VAT Reclaim in Expense Reports | preview (roadmap [Calculate and report VAT based on expense reports](../features/573262.md)) | [9:58](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=598s) |  |
+| VAT Specification per Expense Line | preview (roadmap [Calculate and report VAT based on expense reports](../features/573262.md)) | [11:23](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=683s) |  |
+| Withholding Tax for Employees | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)) | [13:10](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=790s) |  |
 | Refreshed Web App User Experience | status not stated | [0:51](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=51s) |  |
-| Expanded Language Support | preview (roadmap [573253](../features/573253.md)) | [1:16](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=76s) |  |
-| Worldwide Availability Rollout | preview (roadmap [573253](../features/573253.md)) | [1:28](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=88s) |  |
+| Expanded Language Support | preview (roadmap [More countries and languages](../features/573253.md)) | [1:16](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=76s) |  |
+| Worldwide Availability Rollout | preview (roadmap [More countries and languages](../features/573253.md)) | [1:28](https://www.youtube.com/watch?v=tj1vvsmAMVs&t=88s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

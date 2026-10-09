@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:18.606Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:18.646Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -259,10 +259,10 @@ The demo goes through the setup in Business Central: enabling project tracking i
 
 | Feature | Status | At |
 |---|---|---|
-| Project tracking in Expense Agent web app | preview (roadmap [573259](../features/573259.md)), demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |
-| Project visibility options - all projects vs assigned projects | preview (roadmap [573259](../features/573259.md)), demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |
-| Project resource assignment on project card | preview (roadmap [573259](../features/573259.md)), demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |
-| Project task level resource assignment | preview (roadmap [573259](../features/573259.md)), demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |
+| Project tracking in Expense Agent web app | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [0:37](https://www.youtube.com/watch?v=GwrMf1umTFg&t=37s) |
+| Project visibility options - all projects vs assigned projects | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [0:53](https://www.youtube.com/watch?v=GwrMf1umTFg&t=53s) |
+| Project resource assignment on project card | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [1:46](https://www.youtube.com/watch?v=GwrMf1umTFg&t=106s) |
+| Project task level resource assignment | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [2:07](https://www.youtube.com/watch?v=GwrMf1umTFg&t=127s) |
 | Resource creation and employee linking prerequisites | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=GwrMf1umTFg&t=154s) |
 | Active projects and posting tasks filter | status not stated, demoed | [4:25](https://www.youtube.com/watch?v=GwrMf1umTFg&t=265s) |
 | Project ledger entry creation on expense posting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=GwrMf1umTFg&t=22s) |

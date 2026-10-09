@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:19:10.183Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:10.232Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -180,8 +180,8 @@ The video explains why system audit fields matter for tracking who created or ch
 | Feature | Status | At |
 |---|---|---|
 | System audit fields as flow fields | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=312s) |
-| Audit fields in profile customization | generally available (roadmap [573322](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |
-| Audit fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |
+| Audit fields in profile customization | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [7:03](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=423s) |
+| Audit fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [11:16](https://www.youtube.com/watch?v=H7R_m8Ue38g&t=676s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

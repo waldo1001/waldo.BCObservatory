@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:21.493Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:26.778Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,13 +215,13 @@ The demo builds a meta model of an app once, stores it as JSON and queries it re
 
 | Feature | Status | At |
 |---|---|---|
-| AL Graph | generally available (roadmap [573336](../features/573336.md)), demoed | [0:05](https://www.youtube.com/watch?v=i0gBrA1tx50&t=5s) |
-| AL Graph query language | generally available (roadmap [573336](../features/573336.md)), demoed | [1:38](https://www.youtube.com/watch?v=i0gBrA1tx50&t=98s) |
-| AL Graph DGML export | generally available (roadmap [573336](../features/573336.md)), demoed | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
-| AL Graph SARIF export | generally available (roadmap [573336](../features/573336.md)) | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
-| AL Graph meta model extraction | generally available (roadmap [573336](../features/573336.md)), demoed | [2:19](https://www.youtube.com/watch?v=i0gBrA1tx50&t=139s) |
-| HTTP client caller auditing | generally available (roadmap [573336](../features/573336.md)), demoed | [3:04](https://www.youtube.com/watch?v=i0gBrA1tx50&t=184s) |
-| Non-debuggable to debuggable boundary audit | generally available (roadmap [573336](../features/573336.md)), demoed | [4:13](https://www.youtube.com/watch?v=i0gBrA1tx50&t=253s) |
+| AL Graph | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [0:05](https://www.youtube.com/watch?v=i0gBrA1tx50&t=5s) |
+| AL Graph query language | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [1:38](https://www.youtube.com/watch?v=i0gBrA1tx50&t=98s) |
+| AL Graph DGML export | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
+| AL Graph SARIF export | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)) | [1:56](https://www.youtube.com/watch?v=i0gBrA1tx50&t=116s) |
+| AL Graph meta model extraction | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [2:19](https://www.youtube.com/watch?v=i0gBrA1tx50&t=139s) |
+| HTTP client caller auditing | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [3:04](https://www.youtube.com/watch?v=i0gBrA1tx50&t=184s) |
+| Non-debuggable to debuggable boundary audit | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [4:13](https://www.youtube.com/watch?v=i0gBrA1tx50&t=253s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

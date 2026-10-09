@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:09.176Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:09.221Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -475,7 +475,7 @@ The demo covers the non-agent path: setup of expense users, categories, subcateg
 |---|---|---|
 | Expense agent with AI-driven categorization | status not stated | [0:44](https://www.youtube.com/watch?v=pjML7lXSsd0&t=44s) |
 | Expense collection and itemization | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=pjML7lXSsd0&t=98s) |
-| Expense approval workflow | preview (roadmap [573255](../features/573255.md)), demoed | [3:54](https://www.youtube.com/watch?v=pjML7lXSsd0&t=234s) |
+| Expense approval workflow | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [3:54](https://www.youtube.com/watch?v=pjML7lXSsd0&t=234s) |
 | Credit card provider integration | status not stated | [3:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=221s) |
 | Expense management rules | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=pjML7lXSsd0&t=304s) |
 | Per diem configuration by location | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=pjML7lXSsd0&t=341s) |

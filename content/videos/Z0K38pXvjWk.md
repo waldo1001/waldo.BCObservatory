@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:55.004Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:55.052Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -195,7 +195,7 @@ It also covers defining tooltips on table fields so pages inherit them, which re
 | Feature | Status | At | Evidence |
 |---|---|---|---|
 | ToolTip property on page objects | generally available | [0:20](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=20s) | "Tool tip and or tool tip ML are now available directly on business central page object." ([8:55](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=535s)) |
-| Action tooltip inheritance | generally available (roadmap [573313](../features/573313.md)), demoed | [0:33](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=33s) |  |
+| Action tooltip inheritance | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)), demoed | [0:33](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=33s) |  |
 | Page-level tooltip consistency | status not stated, demoed | [5:24](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=324s) |  |
 | AI agent tooltip support | status not stated | [6:47](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=407s) |  |
 | Table-level tooltip inheritance | status not stated | [3:57](https://www.youtube.com/watch?v=Z0K38pXvjWk&t=237s) |  |

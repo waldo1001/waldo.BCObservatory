@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:42:52.132Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:52.173Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -223,10 +223,10 @@ The demo has an agent work through customer data in about 30 steps and 2 minutes
 
 | Feature | Status | At |
 |---|---|---|
-| Find tables tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
-| Table relations tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
-| Table schema tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
-| Data query tool | generally available (roadmap [573312](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Find tables tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Table relations tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Table schema tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
+| Data query tool | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [1:16](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=76s) |
 | Generic data analysis for agents | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=104s) |
 | Server features configuration UI | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=364s) |
 | MCP server security toggle | status not stated | [7:14](https://www.youtube.com/watch?v=qs1cg-GoDeQ&t=434s) |

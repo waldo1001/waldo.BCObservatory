@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:19:10.533Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:10.578Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,8 +170,8 @@ Both features are demoed. The presenter explains that the lookup feature is plat
 
 | Feature | Status | At |
 |---|---|---|
-| Recently Searched in Tell Me | generally available (roadmap [573371](../features/573371.md)), demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |
-| Recently Used Records in Lookups | generally available (roadmap [573368](../features/573368.md)), demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |
+| Recently Searched in Tell Me | generally available (roadmap [Show recently searched in Tell Me](../features/573371.md)), demoed | [1:23](https://www.youtube.com/watch?v=wS1wVBhNafk&t=83s) |
+| Recently Used Records in Lookups | generally available (roadmap [Show recently used in lookups](../features/573368.md)), demoed | [6:22](https://www.youtube.com/watch?v=wS1wVBhNafk&t=382s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

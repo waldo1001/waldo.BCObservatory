@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:46:54.077Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,10 +193,10 @@ A submitter then picks the project and project task in the categorization tab of
 
 | Feature | Status | At |
 |---|---|---|
-| Project and task visibility in Expense Agent web app | preview (roadmap [573259](../features/573259.md)), demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |
+| Project and task visibility in Expense Agent web app | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [0:17](https://www.youtube.com/watch?v=NI6WYze-JSU&t=17s) |
 | Submitter project assignment capability | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=NI6WYze-JSU&t=81s) |
-| Project tracking configuration in Expense Agent setup | preview (roadmap [573259](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |
-| Expense user to resource linkage | preview (roadmap [573259](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |
+| Project tracking configuration in Expense Agent setup | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [1:44](https://www.youtube.com/watch?v=NI6WYze-JSU&t=104s) |
+| Expense user to resource linkage | preview (roadmap [Use assigned projects only in the web app](../features/573259.md)), demoed | [1:59](https://www.youtube.com/watch?v=NI6WYze-JSU&t=119s) |
 | Manual project assignment fallback in Business Central | status not stated | [2:23](https://www.youtube.com/watch?v=NI6WYze-JSU&t=143s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

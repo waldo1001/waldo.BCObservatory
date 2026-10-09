@@ -21,7 +21,7 @@ review:
   flags:
     - quote-check
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -179,9 +179,9 @@ The demo shows Copilot answering general questions and questions about Business 
 
 | Feature | Status | At |
 |---|---|---|
-| Unified Microsoft Copilot Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [0:18](https://www.youtube.com/watch?v=WL3m2dffwU8&t=18s) |
+| Unified Microsoft Copilot Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:18](https://www.youtube.com/watch?v=WL3m2dffwU8&t=18s) |
 | Copilot with Work IQ integration | status not stated | [0:49](https://www.youtube.com/watch?v=WL3m2dffwU8&t=49s) |
-| Copilot button in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [1:32](https://www.youtube.com/watch?v=WL3m2dffwU8&t=92s) |
+| Copilot button in Business Central | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [1:32](https://www.youtube.com/watch?v=WL3m2dffwU8&t=92s) |
 | Copilot question answering on Business Central data | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=WL3m2dffwU8&t=103s) |
 | Side-by-side data viewing with Copilot | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=WL3m2dffwU8&t=162s) |
 | Multi-turn Copilot conversation | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=WL3m2dffwU8&t=162s) |

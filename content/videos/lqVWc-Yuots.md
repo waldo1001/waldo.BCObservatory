@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:13.585Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:13.624Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -280,8 +280,8 @@ It then covers product classification on the item card with UNSPSC support, and 
 | ESG sales invoice layouts | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=lqVWc-Yuots&t=193s) |  |
 | ESG sales quote layouts | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=lqVWc-Yuots&t=223s) |  |
 | Product classification item card field | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=lqVWc-Yuots&t=256s) |  |
-| Carbon tracking method field | generally available (roadmap [573379](../features/573379.md)), demoed | [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) | "You have new field carbon tracking method and this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
-| Specific carbon costing method | generally available (roadmap [573379](../features/573379.md)) | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "If you want to check specific method, please do it in a sandbox because this is a public preview." ([10:27](https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s)) |
+| Carbon tracking method field | generally available (roadmap [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md)), demoed | [5:58](https://www.youtube.com/watch?v=lqVWc-Yuots&t=358s) | "You have new field carbon tracking method and this is currently in a public preview." ([6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s)) |
+| Specific carbon costing method | generally available (roadmap [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md)) | [6:35](https://www.youtube.com/watch?v=lqVWc-Yuots&t=395s) | "If you want to check specific method, please do it in a sandbox because this is a public preview." ([10:27](https://www.youtube.com/watch?v=lqVWc-Yuots&t=627s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

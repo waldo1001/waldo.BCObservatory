@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:41.310Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:41.408Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -638,7 +638,7 @@ It then explains how the team built it. The team worked AI-first, with 99 percen
 | Expense Subcategories | status not stated, demoed | [58:39](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3519s) |  |
 | Per Diem and Location Configuration | status not stated | [1:00:09](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3609s) |  |
 | Expense Rules Configuration | status not stated, demoed | [1:00:32](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3632s) |  |
-| Expense Policies | preview (roadmap [573255](../features/573255.md)), demoed | [1:02:25](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3745s) | "we are working for the policies as well uh which will come uh pretty soon" ([1:03:01](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3781s)) |
+| Expense Policies | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [1:02:25](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3745s) | "we are working for the policies as well uh which will come uh pretty soon" ([1:03:01](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3781s)) |
 | Expense Report Open Notification | status not stated, demoed | [1:03:31](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3811s) |  |
 | Mileage Expense Configuration | status not stated | [1:04:19](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3859s) |  |
 | Expense Agent Consumption Tracking | status not stated, demoed | [1:04:59](https://www.youtube.com/watch?v=cVfZoDwKYpI&t=3899s) |  |

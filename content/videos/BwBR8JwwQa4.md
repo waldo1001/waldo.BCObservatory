@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:00:20.769Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:20.818Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -204,7 +204,7 @@ It also shows the export direction: customer export now sends tax ID and company
 | Customer export with tax ID and company ID | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
 | Payment terms mapping | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=69s) |
 | Automatic catalog creation with customer-specific pricing | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
-| Shopify shop card tax ID mapping field | generally available (roadmap [573342](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |
+| Shopify shop card tax ID mapping field | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |
 | Company attention field in location | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=186s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

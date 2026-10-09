@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12507",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds",
+  "url": "https://github.com/microsoft/BCApps/pull/12507",
+  "published_at": "2026-10-08T17:08:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    }
+  },
+  "input_hash": "09e9f22f1e3e032df365d1e16ec40479f59ad0ec:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12507,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "09e9f22f1e3e032df365d1e16ec40479f59ad0ec",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "dk nemhandel currency remove unsafe fixed response size caps on scaling customer configured feeds"
+  }
+}

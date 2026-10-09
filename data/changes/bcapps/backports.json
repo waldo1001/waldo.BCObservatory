@@ -512,6 +512,33 @@
       "title_key": "bug 648959 29 x fix serial splitting for non last subcontracting put away lines"
     }
   ],
+  "11961": [
+    {
+      "number": 12419,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T14:17:12Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12419",
+      "title_key": "cache security group resolution in effective permissions"
+    }
+  ],
+  "11992": [
+    {
+      "number": 12182,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T09:06:39Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12182",
+      "title_key": "bug 651670 29 x icm 873674109 irs forms upgrade fails for form box codes containing parentheses"
+    }
+  ],
+  "12080": [
+    {
+      "number": 12158,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T11:48:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12158",
+      "title_key": "bug 649448 fully received wip purchase orders block disable legacy subcontracting"
+    }
+  ],
   "12124": [
     {
       "number": 12269,
@@ -1353,6 +1380,34 @@
       "merged_at": "2026-10-07T07:28:08Z",
       "url": "https://github.com/microsoft/BCApps/pull/12426",
       "title_key": "master data management fix usage telemetry and make it emit max once per day"
+    },
+    {
+      "number": 12460,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T09:20:49Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12460",
+      "title_key": "bug 652253 statutory reporting setup new field for official name"
+    },
+    {
+      "number": 12299,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T09:41:19Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12299",
+      "title_key": "posted purchase invoice order no is blank when invoice rounding creates a generated line requesting backport for v29 and v28"
+    },
+    {
+      "number": 12437,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T13:40:32Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12437",
+      "title_key": "shopify fix tax matching for non us ca orders"
+    },
+    {
+      "number": 12319,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-08T15:16:15Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12319",
+      "title_key": "fix capture shopify fulfillment deliveredat timestamp"
     }
   ]
 }

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:55.507Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:55.556Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -205,10 +205,10 @@ The presenter shows how to get a ModuleInfo for the current app with NavApp.GetC
 
 | Feature | Status | At |
 |---|---|---|
-| ModuleInfo help property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |
-| ModuleInfo ULA property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |
-| ModuleInfo privacy statement property | generally available (roadmap [573354](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |
-| ModuleInfo context sensitive help URL property | generally available (roadmap [573354](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |
+| ModuleInfo help property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [2:33](https://www.youtube.com/watch?v=-vCiEloR61U&t=153s) |
+| ModuleInfo ULA property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [2:44](https://www.youtube.com/watch?v=-vCiEloR61U&t=164s) |
+| ModuleInfo privacy statement property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [2:55](https://www.youtube.com/watch?v=-vCiEloR61U&t=175s) |
+| ModuleInfo context sensitive help URL property | generally available (roadmap [Access application links through ModuleInfo](../features/573354.md)), demoed | [3:00](https://www.youtube.com/watch?v=-vCiEloR61U&t=180s) |
 | ModuleInfo type enhancements | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=-vCiEloR61U&t=99s) |
 | ModuleDependencyInfo type | status not stated, demoed | [6:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=368s) |
 | NavApp.GetCurrentModuleInfo function | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-vCiEloR61U&t=308s) |

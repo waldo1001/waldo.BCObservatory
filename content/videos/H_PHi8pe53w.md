@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:18:38.540Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:38.596Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,8 +194,8 @@ It also demonstrates the required pending attribute, which signals that implemen
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Default implementation for AL interfaces | generally available (roadmap [573352](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
-| Required pending attribute for AL interface methods | generally available (roadmap [573352](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
+| Default implementation for AL interfaces | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [4:14](https://www.youtube.com/watch?v=H_PHi8pe53w&t=254s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
+| Required pending attribute for AL interface methods | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [8:52](https://www.youtube.com/watch?v=H_PHi8pe53w&t=532s) | "Business Central 29 is currently in public preview. So you might you make sure to validate the final behavior" ([15:43](https://www.youtube.com/watch?v=H_PHi8pe53w&t=943s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

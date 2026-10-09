@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:35.087Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -518,22 +518,22 @@ It then covers language and compiler changes: default implementations on interfa
 
 | Feature | Status | At |
 |---|---|---|
-| AL MCP (AL Management Control Platform) | generally available (roadmap [573339](../features/573339.md), [573346](../features/573346.md), [573348](../features/573348.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
-| AL language server with project awareness | generally available (roadmap [573338](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |
+| AL MCP (AL Management Control Platform) | generally available (roadmap [Discover objects in connected Business Central environments](../features/573339.md), [Let agents allocate free AL object IDs](../features/573346.md), [Configure AL MCP workspaces dynamically](../features/573348.md)), demoed | [0:43](https://www.youtube.com/watch?v=D_Lur52IrIg&t=43s) |
+| AL language server with project awareness | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [1:14](https://www.youtube.com/watch?v=D_Lur52IrIg&t=74s) |
 | Symbol search with environment source parameter | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=220s) |
 | Get next object ID tool in AL MCP | status not stated, demoed | [5:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=302s) |
-| Interface default implementations | generally available (roadmap [573352](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |
+| Interface default implementations | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)), demoed | [7:38](https://www.youtube.com/watch?v=D_Lur52IrIg&t=458s) |
 | Public resource folders | status not stated, demoed | [9:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=587s) |
 | Big integer field type migration | status not stated, demoed | [13:40](https://www.youtube.com/watch?v=D_Lur52IrIg&t=820s) |
-| Namespace support in translation IDs | generally available (roadmap [573359](../features/573359.md)), demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |
-| Mixed extension and base field SQL indexes | generally available (roadmap [573315](../features/573315.md)), demoed | [15:39](https://www.youtube.com/watch?v=D_Lur52IrIg&t=939s) |
-| Action tooltip inheritance from page | generally available (roadmap [573313](../features/573313.md)), demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
+| Namespace support in translation IDs | generally available (roadmap [Translate objects with the same name in different namespaces](../features/573359.md)), demoed | [10:36](https://www.youtube.com/watch?v=D_Lur52IrIg&t=636s) |
+| Mixed extension and base field SQL indexes | generally available (roadmap [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md)), demoed | [15:39](https://www.youtube.com/watch?v=D_Lur52IrIg&t=939s) |
+| Action tooltip inheritance from page | generally available (roadmap [Actions on reports and pages can now inherit tooltips](../features/573313.md)), demoed | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |
 | Audit name fields as system fields | status not stated, demoed | [19:10](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1150s) |
-| Record.IsDirty() method | generally available (roadmap [573360](../features/573360.md)), demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |
-| Data-driven testing framework | generally available (roadmap [573333](../features/573333.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |
+| Record.IsDirty() method | generally available (roadmap [Check records for uncommitted changes](../features/573360.md)), demoed | [20:02](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1202s) |
+| Data-driven testing framework | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [20:32](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1232s) |
 | Test handler interface for lifecycle hooks | status not stated, demoed | [23:29](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1409s) |
-| Static call graph analysis | generally available (roadmap [573336](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
-| Agent-assisted production investigation | generally available (roadmap [573335](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
+| Static call graph analysis | generally available (roadmap [Audit AL app accessibility and debugging boundaries](../features/573336.md)), demoed | [25:47](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1547s) |
+| Agent-assisted production investigation | generally available (roadmap [Profile slow Business Central sessions with AI agents](../features/573335.md)) | [30:27](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1827s) |
 | Launch profiling MCP proxy | status not stated, demoed | [31:15](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1875s) |
 | Launch snapshot MCP proxy | status not stated, demoed | [32:44](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1964s) |
 | Isolated storage explicit read isolation level | status not stated | [17:52](https://www.youtube.com/watch?v=D_Lur52IrIg&t=1072s) |

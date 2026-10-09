@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:16:50.281Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -446,7 +446,7 @@ The second half covers the ALMCP server and AL CLI tool (.NET tools installable 
 | Agent database statistics access | status not stated, demoed | [13:08](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=788s) |
 | Agent stack trace analysis | status not stated, demoed | [13:44](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=824s) |
 | ALMCP GitHub Copilot integration | status not stated, demoed | [16:34](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=994s) |
-| Language Server Protocol (LSP) for AL | generally available (roadmap [573338](../features/573338.md)), demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |
+| Language Server Protocol (LSP) for AL | generally available (roadmap [Use AL language intelligence from AI agents and other editors](../features/573338.md)), demoed | [19:47](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1187s) |
 | LSP folding range endpoint | status not stated | [23:15](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1395s) |
 | BCbench evaluation framework | status not stated | [24:51](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1491s) |
 | Hidden test verification method | status not stated | [25:20](https://www.youtube.com/watch?v=mBU2Iu0urw8&t=1520s) |

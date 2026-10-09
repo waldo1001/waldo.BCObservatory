@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:43:27.853Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:27.894Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -240,7 +240,7 @@ The second half covers features described as coming in the November release (29.
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| AI-driven approval policies | preview (roadmap [573255](../features/573255.md)), demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
+| AI-driven approval policies | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:53](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=53s) |  |
 | Enhanced approval history and audit trail | status not stated, demoed | [3:24](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=204s) |  |
 | Employee manual compliance checks | status not stated | [2:47](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=167s) |  |
 | Interim approvers | status not stated | [6:45](https://www.youtube.com/watch?v=M0IzeLSn7qU&t=405s) |  |

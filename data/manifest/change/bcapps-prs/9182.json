@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/9182",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents",
+  "url": "https://github.com/microsoft/BCApps/pull/9182",
+  "published_at": "2026-10-08T10:43:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    }
+  },
+  "input_hash": "7d96b3ad903fdff233ded226c05f644d9f6d8eb2:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9182,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7d96b3ad903fdff233ded226c05f644d9f6d8eb2",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "align pay to name 2 editability with the other pay to address fields on purchase documents"
+  }
+}

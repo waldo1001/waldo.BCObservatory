@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:41.222Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:41.258Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -216,7 +216,7 @@ The demo covers setting up sales tax for a state such as Oregon using data pulle
 
 | Feature | Status | At |
 |---|---|---|
-| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:06](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=6s) |
 | Sales tax configuration assistance | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=42s) |
 | Sales data analysis with Copilot | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=117s) |
 | Copilot recommendations for sales improvement | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=TSLXzbeyE7Y&t=154s) |

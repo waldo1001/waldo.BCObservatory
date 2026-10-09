@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12538",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Remove CLEAN27 for Create Item from Item No. setup fields",
+  "url": "https://github.com/microsoft/BCApps/pull/12538",
+  "published_at": "2026-10-08T17:36:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    }
+  },
+  "input_hash": "695465bba754e86464479456234fe0ad7ae5ca97:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12538,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "695465bba754e86464479456234fe0ad7ae5ca97",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "remove clean27 for create item from item no setup fields"
+  }
+}

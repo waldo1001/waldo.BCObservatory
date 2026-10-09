@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:44.510Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:44.611Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -430,7 +430,7 @@ The second half covers shipping. Agents created with instructions in the client 
 | Agent factory interface | status not stated | [20:17](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1217s) |  |
 | Agent metadata interface for runtime configuration | status not stated | [22:32](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1352s) |  |
 | Take agent task execution interface | status not stated | [23:18](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1398s) |  |
-| Optional interface methods | generally available (roadmap [573352](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) | "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost" ([23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s)) |
+| Optional interface methods | generally available (roadmap [Evolve AL interfaces with default implementations](../features/573352.md)) | [23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s) | "This is a feature that's coming up. Actually, Quintin here worked on it, and he's a he's ready to release it almost" ([23:50](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1430s)) |
 | Complex agent scenarios with user intervention | status not stated | [24:33](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1473s) |  |
 | AI evaluation tools for agents | status not stated, demoed | [26:54](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1614s) |  |
 | Copilot credit consumption visibility in tests | status not stated, demoed | [27:29](https://www.youtube.com/watch?v=MNwTt06ZxwY&t=1649s) |  |

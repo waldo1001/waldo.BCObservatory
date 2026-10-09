@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:10.502Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:10.537Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -240,12 +240,12 @@ It then covers reversing sustainability ledger entries and the fixed asset chang
 
 | Feature | Status | At |
 |---|---|---|
-| Formulas in purchase order and purchase invoice | generally available (roadmap [573374](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |
+| Formulas in purchase order and purchase invoice | generally available (roadmap [Use formulas to calculate emissions in purchase documents](../features/573374.md)), demoed | [0:06](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=6s) |
 | Improved sustainability entry discovery | status not stated | [0:23](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=23s) |
-| Value chain emissions in item journals | generally available (roadmap [573378](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |
-| Scope three tracking by item tracking level | generally available (roadmap [573379](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |
+| Value chain emissions in item journals | generally available (roadmap [Track your carbon footprint with item journals and item reclassification journals](../features/573378.md)), demoed | [0:44](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=44s) |
+| Scope three tracking by item tracking level | generally available (roadmap [Use specific method for carbon footprint calculation when enabling item tracking](../features/573379.md)), demoed | [0:59](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=59s) |
 | ESG report layout with lot details | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=74s) |
-| Sustainability ledger entry reversal | generally available (roadmap [573376](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |
+| Sustainability ledger entry reversal | generally available (roadmap [Reverse Sustainability Ledger entries transaction](../features/573376.md)), demoed | [1:24](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=84s) |
 | Collect from GL with posting memory | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=108s) |
 | Fixed asset emissions in journals | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=268s) |
 | UDR certificate capture | status not stated | [2:02](https://www.youtube.com/watch?v=t_UXxbvgnHY&t=122s) |

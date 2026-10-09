@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:45.190Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:45.234Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -172,7 +172,7 @@ It then describes the version resolution problem in BC 28, where only the major 
 | Feature | Status | At |
 |---|---|---|
 | Global Symbol Download | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=290s) |
-| Global Source Enforce Minor Version | generally available (roadmap [573357](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |
+| Global Source Enforce Minor Version | generally available (roadmap [Restrict global symbol resolution to a minor version](../features/573357.md)), demoed | [9:40](https://www.youtube.com/watch?v=sIWz2yPqLpo&t=580s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

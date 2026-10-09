@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/12435",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Financial Reports] Faster row/column definition entry and custom schedule email subject",
+  "url": "https://github.com/microsoft/BCApps/pull/12435",
+  "published_at": "2026-10-08T21:25:56Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-09T00:25:17.077Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 8,
+      "objects": 5,
+      "unjoined": 3
+    }
+  },
+  "input_hash": "f6a41447d838de830da2c3b90a1a2bf50f0c86c6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12435,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f6a41447d838de830da2c3b90a1a2bf50f0c86c6",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "financial reports faster row column definition entry and custom schedule email subject"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9de55f50f0f2c5ff1945bd5e8e29ef6eea13a67734ad1655f2c78effbce8157d"
+}

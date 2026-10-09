@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:41.717Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:41.759Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -281,15 +281,15 @@ The main part covers the table extension data model. Extension fields are stored
 | .NET 10 runtime | status not stated | [0:33](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=33s) |
 | Streaming-based Excel import | status not stated | [0:46](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=46s) |
 | Recent records virtual table | status not stated | [1:10](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=70s) |
-| Optimized table extensions data model - zero-join | generally available (roadmap [573332](../features/573332.md)), demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |
-| Table extension performance gains | generally available (roadmap [573332](../features/573332.md)), demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |
+| Optimized table extensions data model - zero-join | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)), demoed | [1:57](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=117s) |
+| Table extension performance gains | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)), demoed | [2:52](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=172s) |
 | Index management improvements | status not stated, demoed | [3:47](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=227s) |
-| Runtime-controlled index enablement | generally available (roadmap [573314](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |
-| Cross-table indexes | generally available (roadmap [573315](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |
-| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |
-| System fields in profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |
+| Runtime-controlled index enablement | generally available (roadmap [AL developers can turn indexes on/off in AL code.](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=353s) |
+| Cross-table indexes | generally available (roadmap [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md)) | [6:37](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=397s) |
+| System fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [7:27](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=447s) |
+| System fields in profiles | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [8:56](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=536s) |
 | Permissions overview navigation | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=605s) |
-| Telemetry for Excel export audit | generally available (roadmap [573317](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |
+| Telemetry for Excel export audit | generally available (roadmap [Monitor usage of Open in Excel with telemetry](../features/573317.md)) | [11:45](https://www.youtube.com/watch?v=Sh3ySQSTw-o&t=705s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

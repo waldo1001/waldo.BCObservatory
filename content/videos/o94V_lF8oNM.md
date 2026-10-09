@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:51.120Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:51.162Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -233,10 +233,10 @@ It also shows how submitters can run a policy check before submitting, how chang
 
 | Feature | Status | At |
 |---|---|---|
-| Evaluate compliance with AI | preview (roadmap [573255](../features/573255.md)), demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |
+| Evaluate compliance with AI | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:35](https://www.youtube.com/watch?v=o94V_lF8oNM&t=35s) |
 | Presubmission evaluation | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=o94V_lF8oNM&t=134s) |
-| Policy compliance flagging | preview (roadmap [573255](../features/573255.md)), demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |
-| Policy validation with free text rules | preview (roadmap [573255](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |
+| Policy compliance flagging | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [3:09](https://www.youtube.com/watch?v=o94V_lF8oNM&t=189s) |
+| Policy validation with free text rules | preview (roadmap [AI-Driven Approvals](../features/573255.md)), demoed | [0:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=49s) |
 | Policy check with AI button | status not stated, demoed | [5:00](https://www.youtube.com/watch?v=o94V_lF8oNM&t=300s) |
 | Enhanced receipt itemization | status not stated | [5:49](https://www.youtube.com/watch?v=o94V_lF8oNM&t=349s) |
 | Policy version tracking | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=o94V_lF8oNM&t=375s) |

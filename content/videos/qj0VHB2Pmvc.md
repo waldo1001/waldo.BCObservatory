@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:45:27.342Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:27.381Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -267,15 +267,15 @@ Author features help with chart of accounts categorization and with building row
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Uncategorized accounts views | generally available (roadmap [573324](../features/573324.md)), demoed | [1:13](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=73s) |  |
-| Where used for GL accounts | generally available (roadmap [573324](../features/573324.md)), demoed | [2:03](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=123s) |  |
-| Totaling line account visibility in row definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [2:41](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=161s) |  |
-| Totaling field account visibility in column definitions | generally available (roadmap [573324](../features/573324.md)), demoed | [3:23](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=203s) |  |
+| Uncategorized accounts views | generally available (roadmap [Trace G/L account usage in finance reports](../features/573324.md)), demoed | [1:13](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=73s) |  |
+| Where used for GL accounts | generally available (roadmap [Trace G/L account usage in finance reports](../features/573324.md)), demoed | [2:03](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=123s) |  |
+| Totaling line account visibility in row definitions | generally available (roadmap [Trace G/L account usage in finance reports](../features/573324.md)), demoed | [2:41](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=161s) |  |
+| Totaling field account visibility in column definitions | generally available (roadmap [Trace G/L account usage in finance reports](../features/573324.md)), demoed | [3:23](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=203s) |  |
 | Preview capability for row and column definitions | announced, demoed | [4:07](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=247s) | "The latter is coming in a minor version of 29, but I'll show you here." ([0:45](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=45s)) |
 | Defaulting for row and column definition lines | announced, demoed | [4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s) | "Also coming in a minor to 29 is defaulting. So if you work on a row or column definition and add the lines of" ([4:47](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=287s)) |
-| Report packs | generally available (roadmap [573323](../features/573323.md)), demoed | [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) |  |
-| Change log for financial report definitions | generally available (roadmap [573325](../features/573325.md)), demoed | [6:53](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=413s) |  |
-| Report inbox APIs | generally available (roadmap [573318](../features/573318.md)), demoed | [7:52](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=472s) |  |
+| Report packs | generally available (roadmap [Run multiple financial reports and get a single PDF output](../features/573323.md)), demoed | [5:28](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=328s) |  |
+| Change log for financial report definitions | generally available (roadmap [Financial report changes are now always logged](../features/573325.md)), demoed | [6:53](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=413s) |  |
+| Report inbox APIs | generally available (roadmap [Automate report outputs](../features/573318.md)), demoed | [7:52](https://www.youtube.com/watch?v=qj0VHB2Pmvc&t=472s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

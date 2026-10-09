@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:19:19.527Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:19.580Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -246,15 +246,15 @@ The presenter covers access and licensing, how administrators enable the feature
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified Copilot Chat Experience | generally available (roadmap [573362](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
-| Business Central Data Integration in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Unified Copilot Chat Experience | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:01](https://www.youtube.com/watch?v=mhfjycxWTyY&t=1s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
+| Business Central Data Integration in Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
 | Web Search Integration in Copilot Chat | preview | [3:31](https://www.youtube.com/watch?v=mhfjycxWTyY&t=211s) | "The feature is being introduced as a public preview right now with version 29." ([14:14](https://www.youtube.com/watch?v=mhfjycxWTyY&t=854s)) |
-| Copilot and Agent Capabilities Settings Page | generally available (roadmap [573362](../features/573362.md)), demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
+| Copilot and Agent Capabilities Settings Page | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [6:05](https://www.youtube.com/watch?v=mhfjycxWTyY&t=365s) |  |
 | Microsoft Copilot License Additional Benefits | status not stated | [4:51](https://www.youtube.com/watch?v=mhfjycxWTyY&t=291s) |  |
-| Conversational Interaction Model | generally available (roadmap [573362](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
-| Agent Store Integration | generally available (roadmap [573362](../features/573362.md)), demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
+| Conversational Interaction Model | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [7:58](https://www.youtube.com/watch?v=mhfjycxWTyY&t=478s) |  |
+| Agent Store Integration | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [10:39](https://www.youtube.com/watch?v=mhfjycxWTyY&t=639s) |  |
 | Model Selection in Chat | status not stated, demoed | [11:29](https://www.youtube.com/watch?v=mhfjycxWTyY&t=689s) |  |
-| Multi-step Reasoning in Chat | generally available (roadmap [573362](../features/573362.md)), demoed | [12:09](https://www.youtube.com/watch?v=mhfjycxWTyY&t=729s) |  |
+| Multi-step Reasoning in Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [12:09](https://www.youtube.com/watch?v=mhfjycxWTyY&t=729s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

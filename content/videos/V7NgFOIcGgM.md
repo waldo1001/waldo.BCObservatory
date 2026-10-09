@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:27.294Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:27.326Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -261,7 +261,7 @@ The second half explains how Copilot works: intent detection from conversation h
 
 | Feature | Status | At |
 |---|---|---|
-| Microsoft Copilot Chat in Business Central | generally available (roadmap [573362](../features/573362.md)), demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |
+| Microsoft Copilot Chat in Business Central | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)), demoed | [0:05](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=5s) |
 | Business Central Tools | status not stated, demoed | [7:09](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=429s) |
 | Agentic Loop | status not stated, demoed | [6:37](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=397s) |
 | Intent Detection | status not stated | [6:26](https://www.youtube.com/watch?v=V7NgFOIcGgM&t=386s) |

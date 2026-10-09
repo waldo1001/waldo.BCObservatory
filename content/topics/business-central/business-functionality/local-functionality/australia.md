@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:29.795Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-09T00:29:30.038Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses
     title: Addresses in Australia
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -35,7 +35,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australia-local-functionality
     title: Australia local functionality
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

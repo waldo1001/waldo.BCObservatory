@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:13.593Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:13.641Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -322,7 +322,7 @@ The presenter separates compliance rules from policies. Rules are simple checks 
 | Per diem calculation | preview | [3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s) | "system will automatically calculate per diem and based on your location. So, all of these things are already planned for public preview." ([3:39](https://www.youtube.com/watch?v=egE6UdOfar0&t=219s)) |
 | Itemization | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=egE6UdOfar0&t=206s) |  |
 | Compliance rule checking | status not stated, demoed | [11:05](https://www.youtube.com/watch?v=egE6UdOfar0&t=665s) |  |
-| Policy-based approval process | preview (roadmap [573255](../features/573255.md)) | [11:58](https://www.youtube.com/watch?v=egE6UdOfar0&t=718s) |  |
+| Policy-based approval process | preview (roadmap [AI-Driven Approvals](../features/573255.md)) | [11:58](https://www.youtube.com/watch?v=egE6UdOfar0&t=718s) |  |
 | Shared mailbox expense submission | status not stated, demoed | [6:22](https://www.youtube.com/watch?v=egE6UdOfar0&t=382s) |  |
 | Web app for expense management | status not stated, demoed | [5:36](https://www.youtube.com/watch?v=egE6UdOfar0&t=336s) |  |
 | Microsoft 365 Copilot Chat integration | status not stated | [5:36](https://www.youtube.com/watch?v=egE6UdOfar0&t=336s) |  |

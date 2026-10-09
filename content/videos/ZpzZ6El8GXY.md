@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:45:56.601Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:56.637Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,11 +215,11 @@ The second part covers bookmarking. List views and saved filters can be bookmark
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| System fields in analysis mode | generally available (roadmap [573322](../features/573322.md)), demoed | [0:17](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=17s) |  |
-| Bookmark analysis tab | generally available (roadmap [573319](../features/573319.md)), demoed | [1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s) | "coming in version 29.x, hopefully here in the one of the first minor versions, is ability to bookmark an analysis tab or analysis view." ([1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s)) |
-| Bookmark list views | generally available (roadmap [573319](../features/573319.md)), demoed | [2:41](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=161s) |  |
-| System fields in page designer for profiles | generally available (roadmap [573322](../features/573322.md)), demoed | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
-| Bookmark analysis views and list views in profiles | generally available (roadmap [573319](../features/573319.md)) | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
+| System fields in analysis mode | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [0:17](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=17s) |  |
+| Bookmark analysis tab | generally available (roadmap [Bookmark list views and analysis tabs](../features/573319.md)), demoed | [1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s) | "coming in version 29.x, hopefully here in the one of the first minor versions, is ability to bookmark an analysis tab or analysis view." ([1:49](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=109s)) |
+| Bookmark list views | generally available (roadmap [Bookmark list views and analysis tabs](../features/573319.md)), demoed | [2:41](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=161s) |  |
+| System fields in page designer for profiles | generally available (roadmap [Use system audit fields in analysis mode and in profiles](../features/573322.md)), demoed | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
+| Bookmark analysis views and list views in profiles | generally available (roadmap [Bookmark list views and analysis tabs](../features/573319.md)) | [3:19](https://www.youtube.com/watch?v=ZpzZ6El8GXY&t=199s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:42:53.157Z"
   flags: []
 generated:
-  at: "2026-10-07T22:42:53.196Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -223,11 +223,11 @@ The second change is a set of report inbox APIs. The report inbox holds schedule
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Layout status control | generally available (roadmap [573320](../features/573320.md)), demoed | [0:31](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=31s) |  |
-| Layout lifecycle states | generally available (roadmap [573320](../features/573320.md)), demoed | [1:07](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=67s) |  |
-| Layout administrator control of user visibility | generally available (roadmap [573320](../features/573320.md)), demoed | [1:40](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=100s) |  |
+| Layout status control | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)), demoed | [0:31](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=31s) |  |
+| Layout lifecycle states | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)), demoed | [1:07](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=67s) |  |
+| Layout administrator control of user visibility | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)), demoed | [1:40](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=100s) |  |
 | Developer comment override for layouts | status not stated | [2:28](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=148s) |  |
-| Report inbox APIs | generally available (roadmap [573318](../features/573318.md)) | [3:03](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=183s) |  |
+| Report inbox APIs | generally available (roadmap [Automate report outputs](../features/573318.md)) | [3:03](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=183s) |  |
 | API overview page for report inbox | generally available | [3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s) | "go to the new API overview page that we are also shipping here in version 29" ([3:39](https://www.youtube.com/watch?v=2N2NhNH7dsk&t=219s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

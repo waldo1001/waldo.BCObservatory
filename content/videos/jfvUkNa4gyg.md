@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:22:15.378Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:15.421Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -320,7 +320,7 @@ In a real customer project session, he had the agents analyze existing code for 
 | Iterative refactoring with context preservation | status not stated, demoed | [24:48](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1488s) |
 | Solution planning agent | status not stated, demoed | [27:34](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1654s) |
 | Multi-phase developer agent | status not stated, demoed | [29:47](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=1787s) |
-| AL compiler JSON output | generally available (roadmap [573351](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |
+| AL compiler JSON output | generally available (roadmap [Track AL compiler diagnostics in automated builds](../features/573351.md)), demoed | [35:15](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2115s) |
 | Interface parameters with dependency injection | status not stated, demoed | [36:37](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2197s) |
 | Unpolluted context with agent architecture | status not stated, demoed | [40:16](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2416s) |
 | Cloud Profiles for AI Agent Configuration | status not stated | [39:01](https://www.youtube.com/watch?v=jfvUkNa4gyg&t=2341s) |

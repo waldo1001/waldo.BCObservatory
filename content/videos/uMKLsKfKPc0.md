@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:05.185Z"
   flags: []
 generated:
-  at: "2026-10-07T23:17:05.272Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -439,7 +439,7 @@ Two demos are shown: a compliance agent that checks Business Central users, and 
 | Agent security warnings and lifecycle management | status not stated, demoed | [28:29](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1709s) |  |
 | Agent analytics and session reporting | status not stated | [30:05](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1805s) |  |
 | New Copilot Studio experience | preview, demoed | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "a few days ago a new Copilot Studio experience uh has been has been released that you can you can preview and use." ([31:06](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1866s)) |
-| M365 Copilot chat in Business Central | generally available (roadmap [573362](../features/573362.md)) | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents, right?" ([30:51](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1851s)) |
+| M365 Copilot chat in Business Central | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [30:40](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1840s) | "M365 Copilot chat coming to Business Central. We are working in a way that it comes with the agents, right?" ([30:51](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1851s)) |
 | First-party agents customization | status not stated | [31:46](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1906s) |  |
 | Agent Runtime in Business Central | status not stated, demoed | [32:03](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1923s) |  |
 | Copilot Studio for API and Power Automate integration | status not stated | [32:59](https://www.youtube.com/watch?v=uMKLsKfKPc0&t=1979s) |  |

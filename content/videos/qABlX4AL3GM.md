@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:19:34.291Z"
   flags: []
 generated:
-  at: "2026-10-07T23:19:34.365Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -236,9 +236,9 @@ The presenter covers the main effects: indexes can span base and extension field
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Unified table storage for extensions | generally available (roadmap [573332](../features/573332.md)) | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
-| Cross-field indexes spanning base and extension tables | generally available (roadmap [573315](../features/573315.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
-| Improved database operation performance for extensions | generally available (roadmap [573332](../features/573332.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
+| Unified table storage for extensions | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [1:43](https://www.youtube.com/watch?v=qABlX4AL3GM&t=103s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
+| Cross-field indexes spanning base and extension tables | generally available (roadmap [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
+| Improved database operation performance for extensions | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [12:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=751s) |  |
 | Partial record loading with set load field | status not stated, demoed | [15:32](https://www.youtube.com/watch?v=qABlX4AL3GM&t=932s) |  |
 | Compiler warnings for table column limit | preview | [24:34](https://www.youtube.com/watch?v=qABlX4AL3GM&t=1474s) | "business 29 is currently in public preview. The platform behavior in Microsoft documentation may change before general availability." ([2:31](https://www.youtube.com/watch?v=qABlX4AL3GM&t=151s)) |
 

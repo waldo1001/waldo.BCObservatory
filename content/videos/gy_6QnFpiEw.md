@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:53:13.583Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -211,12 +211,12 @@ The demo covers the new Market Catalog page and getting market catalogs from Sho
 
 | Feature | Status | At |
 |---|---|---|
-| Market Catalog Import | generally available (roadmap [573342](../features/573342.md)), demoed | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |
-| Price Synchronization for Markets | generally available (roadmap [573342](../features/573342.md)), demoed | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |
+| Market Catalog Import | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [5:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=325s) |
+| Price Synchronization for Markets | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [6:21](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=381s) |
 | Multi-currency Market Support | status not stated, demoed | [5:37](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=337s) |
 | Point of Sale Market Definition | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=445s) |
 | B2B Catalog Company Locations | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=477s) |
-| B2B Catalogs with Currency Code | generally available (roadmap [573342](../features/573342.md)), demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
+| B2B Catalogs with Currency Code | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [9:22](https://www.youtube.com/watch?v=gy_6QnFpiEw&t=562s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

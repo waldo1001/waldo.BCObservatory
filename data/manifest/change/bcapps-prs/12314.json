@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12314",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix SaaS state leak in Permissions Test PopulatePermissionBuffer tests",
+  "url": "https://github.com/microsoft/BCApps/pull/12314",
+  "published_at": "2026-10-08T13:13:16Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    }
+  },
+  "input_hash": "132f8c3844b0d8df9f816b3e5fea251589db9796:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12314,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "132f8c3844b0d8df9f816b3e5fea251589db9796",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
+  }
+}

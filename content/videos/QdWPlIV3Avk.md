@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:43:48.340Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -445,8 +445,8 @@ The demo follows one process: set the component supply method on the bill of mat
 | Subcontracting purchase order structure | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=516s) |  |
 | Create production order info line setting | status not stated, demoed | [10:05](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=605s) |  |
 | Subcontracting component transfer lead time | status not stated | [10:34](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=634s) |  |
-| Subcontracting comments and instructions | generally available (roadmap [573345](../features/573345.md)), demoed | [10:48](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=648s) |  |
-| Line attachments for subcontracting instructions | generally available (roadmap [573345](../features/573345.md)), demoed | [11:12](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=672s) |  |
+| Subcontracting comments and instructions | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [10:48](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=648s) |  |
+| Line attachments for subcontracting instructions | generally available (roadmap [Carry subcontracting instructions into purchase orders](../features/573345.md)), demoed | [11:12](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=672s) |  |
 | Subcontracting details fact box | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=726s) |  |
 | Subcontracting comment in routing | status not stated, demoed | [12:36](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=756s) |  |
 | Work in progress item in routing | status not stated, demoed | [13:32](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=812s) |  |
@@ -456,7 +456,7 @@ The demo follows one process: set the component supply method on the bill of mat
 | Closest-match pricing for subcontracting | status not stated, demoed | [20:10](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1210s) |  |
 | Minimum amount rule for subcontracting | status not stated, demoed | [21:45](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1305s) |  |
 | Warehouse receipt for subcontracting operations | status not stated, demoed | [23:23](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1403s) |  |
-| Inventory put-away for basic warehouse locations | generally available (roadmap [573355](../features/573355.md)), demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
+| Inventory put-away for basic warehouse locations | generally available (roadmap [Use inventory put-aways and picks for subcontracting](../features/573355.md)), demoed | [24:53](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1493s) |  |
 | Serial number assignment across multiple levels | status not stated, demoed | [25:47](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1547s) |  |
 | Multiple receiving methods for subcontracting | status not stated, demoed | [26:09](https://www.youtube.com/watch?v=QdWPlIV3Avk&t=1569s) |  |
 

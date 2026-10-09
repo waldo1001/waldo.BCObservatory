@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:17:30.871Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -310,7 +310,7 @@ The second half covers AI. It shows an agent that writes tests interactively in 
 | AI test artifacts and multiple executions | status not stated, demoed | [19:02](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1142s) |  |
 | Copilot feature testing framework | status not stated, demoed | [20:35](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1235s) |  |
 | Agentic test simulation and step verification | status not stated, demoed | [23:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1411s) |  |
-| Native data-driven test support | generally available (roadmap [573333](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
+| Native data-driven test support | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [25:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1506s) |  |
 | Custom context interface for data-driven tests | announced, demoed | [26:31](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1591s) | "This is what we have planned um for the pipeline for coming release" ([28:06](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1686s)) |
 | Agent-assisted test writing and review | status not stated | [28:33](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1713s) |  |
 | Performance test suite for long-running tests | status not stated | [29:18](https://www.youtube.com/watch?v=9CW5mydS9Vs&t=1758s) |  |

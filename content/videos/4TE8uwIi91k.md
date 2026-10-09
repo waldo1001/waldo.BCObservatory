@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:07.495Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:07.545Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -310,7 +310,7 @@ It then shows offline mode, where receipts and expenses are added without a conn
 | Receipt scanning with auto capture | preview, demoed | [0:51](https://www.youtube.com/watch?v=4TE8uwIi91k&t=51s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Bulk receipt upload | preview, demoed | [1:06](https://www.youtube.com/watch?v=4TE8uwIi91k&t=66s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Gallery share functionality for receipts | preview, demoed | [1:44](https://www.youtube.com/watch?v=4TE8uwIi91k&t=104s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
-| Mileage expense creation on mobile | preview (roadmap [573254](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
+| Mileage expense creation on mobile | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [2:13](https://www.youtube.com/watch?v=4TE8uwIi91k&t=133s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Offline mode for receipt handling | preview, demoed | [3:53](https://www.youtube.com/watch?v=4TE8uwIi91k&t=233s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense submission on mobile | preview, demoed | [4:30](https://www.youtube.com/watch?v=4TE8uwIi91k&t=270s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |
 | Expense approval on mobile | preview, demoed | [4:58](https://www.youtube.com/watch?v=4TE8uwIi91k&t=298s) | "you can try it out right now. But be mindful because it's still in preview." ([5:59](https://www.youtube.com/watch?v=4TE8uwIi91k&t=359s)) |

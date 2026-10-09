@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:45:56.649Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:56.685Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -268,16 +268,16 @@ It also shows a set of reusable design building blocks (address, field group, am
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Company information dataset | generally available (roadmap [573321](../features/573321.md)), demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) |  |
+| Company information dataset | generally available (roadmap [Reduce complexity of report datasets](../features/573321.md)), demoed | [0:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=29s) |  |
 | Table builder editing | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=117s) |  |
-| Address design control | generally available (roadmap [573328](../features/573328.md)), demoed | [3:13](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=193s) |  |
-| Field group design control | generally available (roadmap [573328](../features/573328.md)), demoed | [4:05](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=245s) |  |
-| Amounts design control | generally available (roadmap [573328](../features/573328.md)), demoed | [4:50](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=290s) |  |
-| Signature line design control | generally available (roadmap [573328](../features/573328.md)), demoed | [5:03](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=303s) |  |
-| Notes design control | generally available (roadmap [573328](../features/573328.md)), demoed | [5:26](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=326s) |  |
-| Hide-if logical control | generally available (roadmap [573329](../features/573329.md)), demoed | [6:01](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=361s) |  |
-| Theme sample documents | generally available (roadmap [573330](../features/573330.md)), demoed | [7:08](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=428s) |  |
-| Header footer layout templates | generally available (roadmap [573331](../features/573331.md)), demoed | [8:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s) | "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from" ([8:56](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s)) |
+| Address design control | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [3:13](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=193s) |  |
+| Field group design control | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [4:05](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=245s) |  |
+| Amounts design control | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [4:50](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=290s) |  |
+| Signature line design control | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [5:03](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=303s) |  |
+| Notes design control | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)), demoed | [5:26](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=326s) |  |
+| Hide-if logical control | generally available (roadmap [Use conditional visibility in the updated Word add-in](../features/573329.md)), demoed | [6:01](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=361s) |  |
+| Theme sample documents | generally available (roadmap [Design document report themes with the updated Word add-in](../features/573330.md)), demoed | [7:08](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=428s) |  |
+| Header footer layout templates | generally available (roadmap [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md)), demoed | [8:29](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=509s) | "we ship I think eight 10 different header footer layouts. If you want to create your own, you can also get some help from" ([8:56](https://www.youtube.com/watch?v=XLUAuUWtJDw&t=536s)) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

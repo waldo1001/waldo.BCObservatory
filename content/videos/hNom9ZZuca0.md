@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:44:14.554Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:14.587Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -267,16 +267,16 @@ Test handlers provide setup and teardown at several levels. They come in two kin
 
 | Feature | Status | At |
 |---|---|---|
-| Data-driven Testing in AL | generally available (roadmap [573333](../features/573333.md)), demoed | [0:32](https://www.youtube.com/watch?v=hNom9ZZuca0&t=32s) |
-| Test Data Source Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [2:35](https://www.youtube.com/watch?v=hNom9ZZuca0&t=155s) |
-| Data-driven Testing in Visual Studio Code | generally available (roadmap [573333](../features/573333.md)), demoed | [1:29](https://www.youtube.com/watch?v=hNom9ZZuca0&t=89s) |
-| Data-driven Testing in AL Tooling and MCP | generally available (roadmap [573334](../features/573334.md)) | [3:42](https://www.youtube.com/watch?v=hNom9ZZuca0&t=222s) |
-| Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [4:21](https://www.youtube.com/watch?v=hNom9ZZuca0&t=261s) |
-| Opt-in Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
-| Default Test Handlers | generally available (roadmap [573333](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
-| ITestHandler Interface | generally available (roadmap [573333](../features/573333.md)), demoed | [7:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=425s) |
-| Test Handlers Property | generally available (roadmap [573333](../features/573333.md)), demoed | [7:43](https://www.youtube.com/watch?v=hNom9ZZuca0&t=463s) |
-| Test Case Skipping via Test Handlers | generally available (roadmap [573333](../features/573333.md)) | [8:46](https://www.youtube.com/watch?v=hNom9ZZuca0&t=526s) |
+| Data-driven Testing in AL | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [0:32](https://www.youtube.com/watch?v=hNom9ZZuca0&t=32s) |
+| Test Data Source Interface | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [2:35](https://www.youtube.com/watch?v=hNom9ZZuca0&t=155s) |
+| Data-driven Testing in Visual Studio Code | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [1:29](https://www.youtube.com/watch?v=hNom9ZZuca0&t=89s) |
+| Data-driven Testing in AL Tooling and MCP | generally available (roadmap [Run AL tests from command-line and CI/CD workflows](../features/573334.md)) | [3:42](https://www.youtube.com/watch?v=hNom9ZZuca0&t=222s) |
+| Test Handlers | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [4:21](https://www.youtube.com/watch?v=hNom9ZZuca0&t=261s) |
+| Opt-in Test Handlers | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
+| Default Test Handlers | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [5:26](https://www.youtube.com/watch?v=hNom9ZZuca0&t=326s) |
+| ITestHandler Interface | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [7:05](https://www.youtube.com/watch?v=hNom9ZZuca0&t=425s) |
+| Test Handlers Property | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)), demoed | [7:43](https://www.youtube.com/watch?v=hNom9ZZuca0&t=463s) |
+| Test Case Skipping via Test Handlers | generally available (roadmap [Build extensible and data-driven AL test suites](../features/573333.md)) | [8:46](https://www.youtube.com/watch?v=hNom9ZZuca0&t=526s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

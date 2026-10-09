@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12067",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 650359 - Move creating VAT Period to setup demo data level",
+  "url": "https://github.com/microsoft/BCApps/pull/12067",
+  "published_at": "2026-10-08T15:13:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-09T00:24:51.437Z"
+    }
+  },
+  "input_hash": "11a29c3246eb67ae751a5f36d633bc63be12689a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12067,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "11a29c3246eb67ae751a5f36d633bc63be12689a",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 650359 move creating vat period to setup demo data level"
+  }
+}

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:44:40.362Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:40.391Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -273,15 +273,15 @@ The demo creates a mileage expense and shows the withholding tax entries in prev
 
 | Feature | Status | At |
 |---|---|---|
-| Withholding Tax for Employee Expenses | preview (roadmap [573304](../features/573304.md)), demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |
-| Withholding Posting Setup for Employees | preview (roadmap [573304](../features/573304.md)), demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |
-| Multiple Withholding Tax Groups per Category | preview (roadmap [573304](../features/573304.md)), demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |
-| Gross and Net Withholding Tax Calculation | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
-| Configurable Withholding Tax Thresholds | preview (roadmap [573304](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
-| Withholding Tax Entries in Preview Posting | preview (roadmap [573304](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |
-| Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [573304](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |
-| Employee Card Withholding Tax Fields | preview (roadmap [573304](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |
-| Expense Category Withholding Tax Configuration | preview (roadmap [573304](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |
+| Withholding Tax for Employee Expenses | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [0:06](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=6s) |
+| Withholding Posting Setup for Employees | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [1:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=104s) |
+| Multiple Withholding Tax Groups per Category | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [2:44](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=164s) |
+| Gross and Net Withholding Tax Calculation | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
+| Configurable Withholding Tax Thresholds | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [3:32](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=212s) |
+| Withholding Tax Entries in Preview Posting | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [5:52](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=352s) |
+| Withholding Tax Calculation Timing (Invoice vs Payment) | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [7:22](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=442s) |
+| Employee Card Withholding Tax Fields | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [10:11](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=611s) |
+| Expense Category Withholding Tax Configuration | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [10:46](https://www.youtube.com/watch?v=mT_0VKqdEzA&t=646s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

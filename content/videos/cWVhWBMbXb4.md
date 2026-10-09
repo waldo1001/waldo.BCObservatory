@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:44:14.603Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:14.640Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -203,9 +203,9 @@ The setup is shown in Expense Agent setup, a mileage rate setup table and a vehi
 
 | Feature | Status | At |
 |---|---|---|
-| Date-range mileage allowances | preview (roadmap [573254](../features/573254.md)), demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |
-| Vehicle-type-specific mileage rates | preview (roadmap [573254](../features/573254.md)), demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |
-| Mileage rate setup table | preview (roadmap [573254](../features/573254.md)), demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |
+| Date-range mileage allowances | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [0:38](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=38s) |
+| Vehicle-type-specific mileage rates | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [1:21](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=81s) |
+| Mileage rate setup table | preview (roadmap [Add date ranges and vehicle types in your mileage calculation](../features/573254.md)), demoed | [2:41](https://www.youtube.com/watch?v=cWVhWBMbXb4&t=161s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

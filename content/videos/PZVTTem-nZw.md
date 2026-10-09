@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:16:25.805Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:25.855Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,8 +188,8 @@ In BC29, table extensions are no longer stored in separate tables. The video dem
 
 | Feature | Status | At |
 |---|---|---|
-| Table extensions stored in single SQL table | generally available (roadmap [573332](../features/573332.md)), demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |
-| Cross-app keys in table extensions | generally available (roadmap [573315](../features/573315.md)), demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |
+| Table extensions stored in single SQL table | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)), demoed | [4:48](https://www.youtube.com/watch?v=PZVTTem-nZw&t=288s) |
+| Cross-app keys in table extensions | generally available (roadmap [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md)), demoed | [4:07](https://www.youtube.com/watch?v=PZVTTem-nZw&t=247s) |
 | Load fields for selective field retrieval | status not stated | [2:25](https://www.youtube.com/watch?v=PZVTTem-nZw&t=145s) |
 | Compact extension table storage | status not stated | [3:32](https://www.youtube.com/watch?v=PZVTTem-nZw&t=212s) |
 

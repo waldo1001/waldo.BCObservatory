@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:16:21.596Z"
   flags: []
 generated:
-  at: "2026-10-07T23:16:21.642Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -219,8 +219,8 @@ The video walks through the roadmap's filters and its launched and in-developmen
 |---|---|---|---|
 | AI at Work Roadmap | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=128s) |  |
 | Release Plan Discontinuation | status not stated | [1:54](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=114s) |  |
-| Copilot Agent Capabilities - Run Data Queries with MCP Server | generally available (roadmap [573312](../features/573312.md)), demoed | [6:20](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=380s) |  |
-| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview (roadmap [573304](../features/573304.md)), demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
+| Copilot Agent Capabilities - Run Data Queries with MCP Server | generally available (roadmap [Run data queries with MCP Server](../features/573312.md)), demoed | [6:20](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=380s) |  |
+| Dynamics 365 Business Central Expense Agent - Withholding Taxes | preview (roadmap [Calculate withholding tax automatically in expense reports](../features/573304.md)), demoed | [7:37](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=457s) | "the preview available will be on October 2026 typically with CU 0 or CU1 and the roll out start in the next wave" ([7:48](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=468s)) |
 | Roadmap CSV Export | status not stated, demoed | [10:56](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=656s) |  |
 | MCP Server Integration for Roadmap | status not stated, demoed | [11:44](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=704s) |  |
 | Business Central Release Schedule | status not stated | [3:30](https://www.youtube.com/watch?v=x0XF0lBvgEE&t=210s) |  |

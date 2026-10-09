@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:43:53.469Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:53.507Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -308,15 +308,15 @@ The video also covers self-billing (vendor-specific number series and PEPPOL for
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Multiple excise taxes per item | preview (roadmap [573306](../features/573306.md)) | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
+| Multiple excise taxes per item | preview (roadmap [Calculate multiple excise duties per item](../features/573306.md)) | [0:54](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=54s) |  |
 | Bonded location support for excise taxes | announced | [1:44](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=104s) | "Uh again, it will it will be delivered in November, but this is completely new functionality." ([2:30](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=150s)) |
 | Transfer entry type for excise permissions | status not stated | [2:46](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=166s) |  |
 | Ad valorem excise tax calculation | announced | [3:09](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=189s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
 | Hybrid excise tax calculation model | announced | [3:49](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=229s) | "So, this is what is coming in November. What else we have?" ([4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s)) |
-| Self-billing vendor-specific number series | preview (roadmap [573307](../features/573307.md)) | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
+| Self-billing vendor-specific number series | preview (roadmap [Vendor specific number series for Self-billing Invoices](../features/573307.md)) | [4:18](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=258s) |  |
 | Self-billing PEPPOL format support | status not stated | [4:52](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=292s) |  |
 | Cross environment master data management | status not stated | [5:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=315s) |  |
-| Withholding tax for employees | preview (roadmap [573308](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
+| Withholding tax for employees | preview (roadmap [Use withholding taxes (WHT) with employee transactions](../features/573308.md)) | [6:15](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=375s) |  |
 | Invoicing for France GA | generally available | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) | "we introduce invoicing for France. It will be in GA as well" ([8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s)) |
 | Payment terms expansion for Australia and Great Britain | status not stated | [8:17](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=497s) |  |
 | Intrastat reporting for Germany | status not stated | [8:31](https://www.youtube.com/watch?v=N_J1HB_fUCM&t=511s) |  |

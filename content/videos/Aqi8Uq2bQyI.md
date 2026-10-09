@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:43:09.127Z"
   flags: []
 generated:
-  at: "2026-10-07T23:41:05.192Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -222,10 +222,10 @@ The release adds full localization (steps, error messages and tooltips), recordi
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Page scripting tool | generally available (roadmap [573384](../features/573384.md)) | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
-| Page scripting localization | generally available (roadmap [573384](../features/573384.md)) | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
-| Multiple selection in grids | generally available (roadmap [573384](../features/573384.md)), demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
-| Message and error dialogue validation | generally available (roadmap [573384](../features/573384.md)), demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |
+| Page scripting tool | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [0:20](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=20s) | "in this release, we are now moving the page scripting from preview into making it generally available" ([1:00](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=60s)) |
+| Page scripting localization | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)) | [1:13](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=73s) |  |
+| Multiple selection in grids | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)), demoed | [1:51](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=111s) |  |
+| Message and error dialogue validation | generally available (roadmap [Page Scripting enters General Availability](../features/573384.md)), demoed | [2:02](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=122s) |  |
 | Agent-generated page scripts | status not stated | [2:29](https://www.youtube.com/watch?v=Aqi8Uq2bQyI&t=149s) |  |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.

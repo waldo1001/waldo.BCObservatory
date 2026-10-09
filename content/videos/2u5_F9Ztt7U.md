@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:48:32.947Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:32.984Z"
+  at: "2026-10-09T00:29:02.995Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -267,7 +267,7 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 | Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |
 | AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |
 | Word Add-in for Document Reports Enhancement | status not stated | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |
-| Layout Lifecycle Control for Report Layouts | generally available (roadmap [573320](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |
+| Layout Lifecycle Control for Report Layouts | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |
 | Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |
 | Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |
 | Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
