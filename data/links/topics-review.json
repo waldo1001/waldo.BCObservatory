@@ -7020,190 +7020,190 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview": {
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
-        "verdict": "keep",
-        "reason": "Shows how to build custom agents in AL, including the task builder, factory, and capability registration codeunits.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/Q-oazDEucLE@d3666c8e7250b9f6": {
-        "verdict": "drop",
-        "reason": "About using AI coding assistants to refactor legacy AL, not about building Business Central agents.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/Rvgt_VXFr1I@c2710a6a9e070076": {
-        "verdict": "drop",
-        "reason": "About running tests in VS Code; agents come up only as Copilot tooling for developers.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/Ty6ZvzJYAvI@aafd669edabe818c": {
-        "verdict": "drop",
-        "reason": "A leadership and AI-adoption discussion that mentions custom agents only in passing.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/UFLo2XGGS14@e6969d16079d208b": {
-        "verdict": "drop",
-        "reason": "About MCP debugging and profiling tools for developers, which the neighbouring MCP and developer-tools sections cover.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/uMKLsKfKPc0@425b083f618c9772": {
-        "verdict": "drop",
-        "reason": "About building agents in Copilot Studio, a different capability from designing and coding agents in Business Central.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/Vq9Nk6_uxmQ@a2d0675f3631ef6c": {
-        "verdict": "keep",
-        "reason": "Covers building custom agents in Business Central: instructions, profiles, permissions, and the Agent SDK.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/WFAZLsUTk20@1f56f4fab9b3f33d": {
-        "verdict": "keep",
-        "reason": "Covers instruction history in the agent design playground, which is part of designing agents.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/XGEDwzIZQj4@c98ea3df0ca7c39c": {
-        "verdict": "drop",
-        "reason": "About benchmarking AI coding agents on AL bug fixing, not about building Business Central agents.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/xqwJTCPD9tA@16582e92f67ba734": {
-        "verdict": "drop",
-        "reason": "About integration design patterns, with AI agents used only as development helpers.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
-      "video/xWOddQt1GUM@65b45d5eaae59ef6": {
-        "verdict": "drop",
-        "reason": "A broad discussion of AI-assisted development that mentions the agent preview only in passing.",
-        "at": "2026-10-08T06:26:03.524Z"
-      },
       "post/gerardorenteria-blog/14522@bc871fc93f8434cd": {
         "verdict": "drop",
         "reason": "About VS Code hooks for AI coding assistants, not about designing or coding Business Central agents.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/gerardorenteria-blog/14663@8da69a57ded6424a": {
         "verdict": "drop",
         "reason": "About memory for the VS Code coding agent, not about building Business Central agents.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/gerardorenteria-blog/15390@7fe150cbc2483be6": {
         "verdict": "drop",
         "reason": "A list of feature ideas that mentions agents only as one category.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/katson-com/4530@35779f8ccc6e4207": {
         "verdict": "keep",
         "reason": "Kept on its topic tags alone (no usable summary): custom agents in Business Central and developer strategy, which is this section's subject.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/kauffmann-nl/8436@0c5efab89397496f": {
         "verdict": "keep",
         "reason": "Covers the Agent Design Experience and converting an agent into AL code with the Agent template.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-7674654517960739875@c2e1e42133ce4e25": {
         "verdict": "drop",
         "reason": "About AI-assisted AL coding with GitHub Copilot, which the developer tools sibling covers, not about building agents.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-tech-days-2026/@5ba72b3e3ea85e1d": {
         "verdict": "drop",
         "reason": "A conference reflection on how the community is adopting agents, with no design or coding content.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/thinkaboutit-be/7175@05c463c8a40e627e": {
         "verdict": "drop",
         "reason": "A sponsor promotion that only lists agent sessions in passing.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/thinkaboutit-be/7920@ab8bfbd128b2bbbf": {
         "verdict": "drop",
         "reason": "A release roundup that mentions Agent Designer reaching production environments only in passing.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/vondervoort-be/84@4455fc1f995ec710": {
         "verdict": "keep",
         "reason": "An event write-up that describes how developers build agents in Business Central 27.4 that navigate existing pages.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "post/waldo-be/318627@2d6f1f7b0bfb5fa8": {
         "verdict": "drop",
         "reason": "About rolling out an AI coding setup across a team, not about building Business Central agents.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "video/0h8QBNmeORQ@b9260a7b8e1245a1": {
         "verdict": "drop",
         "reason": "A promotional video on the built-in Sales Order and Payables agents, not on designing or coding agents.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "video/3UcLmXqyl44@9ea4c0524241f20f": {
         "verdict": "keep",
         "reason": "Demonstrates exporting and importing agent definitions as XML, part of the agent design and productization workflow.",
-        "at": "2026-10-08T06:26:09.118Z"
+        "at": "2026-10-09T15:19:38.300Z"
       },
       "video/9cOdjHU15rE@44cbfe1de692f4de": {
         "verdict": "drop",
         "reason": "General AI learning/careers overview of Copilot features, not about designing or coding agents.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/AMVAiPTfSrU@e4b24feaa9bc4f8b": {
         "verdict": "drop",
         "reason": "Focuses on Copilot Studio and MCP-based partner agents, which the sibling MCP section covers, not AL agent design.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/aNRzlbxVPWE@723693d67525e5df": {
         "verdict": "keep",
         "reason": "Shows how to write evals in AL for agents, which is part of building agents in AL.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/e4S2LXKAARs@89acd5a399d0b520": {
         "verdict": "drop",
         "reason": "About AI-generated test plans for development, not building BC agents.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/eDi32pS8eMo@dd12269bb0656c31": {
         "verdict": "drop",
         "reason": "About an Advanced Spreadsheets reporting app's AI skills, a different capability.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/EpDIrJE0HzA@655b5cbf1d064734": {
         "verdict": "drop",
         "reason": "Building agents in Copilot Studio via the BC MCP server belongs to the sibling MCP section.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/FUtePZVZLKs@16e6f3e9905f4118": {
         "verdict": "drop",
         "reason": "Too general about AI output in documentation workflows to tie to agent design.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/gd2TycVywv4@4ad9637966e241f1": {
         "verdict": "drop",
         "reason": "About using AI coding assistants (GitHub Copilot) for AL development, not building BC agents.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/Hdp4KbbGpQA@95f10bf3fbc3432d": {
         "verdict": "drop",
         "reason": "Benchmarks AI coding assistants on AL tasks rather than building agents in Business Central.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/jfvUkNa4gyg@675c076c0459bef9": {
         "verdict": "drop",
         "reason": "Uses Claude Code agents to write AL code, which is AI-assisted development, not building BC agents.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/jWJc_D67Vfw@e61a6f7b1c249301": {
         "verdict": "drop",
         "reason": "Personal AI learning methodology, too general.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/MKuOgMWXJ_8@632ba8937966fdc2": {
         "verdict": "keep",
         "reason": "Covers a sample agent's configuration card, dedicated profile, permission sets and instructions, which are parts of agent design.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
       },
       "video/moPzf04Mwlc@10cfe2480ef1c60c": {
         "verdict": "keep",
         "reason": "Shows creating and configuring agents with the no-code agent creation wizard, which matches the 'designing agents' part of the section.",
-        "at": "2026-10-08T06:26:09.977Z"
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
+        "verdict": "keep",
+        "reason": "Shows how to build custom agents in AL, including the task builder, factory, and capability registration codeunits.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/Q-oazDEucLE@d3666c8e7250b9f6": {
+        "verdict": "drop",
+        "reason": "About using AI coding assistants to refactor legacy AL, not about building Business Central agents.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/Rvgt_VXFr1I@c2710a6a9e070076": {
+        "verdict": "drop",
+        "reason": "About running tests in VS Code; agents come up only as Copilot tooling for developers.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/Ty6ZvzJYAvI@aafd669edabe818c": {
+        "verdict": "drop",
+        "reason": "A leadership and AI-adoption discussion that mentions custom agents only in passing.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/UFLo2XGGS14@e6969d16079d208b": {
+        "verdict": "drop",
+        "reason": "About MCP debugging and profiling tools for developers, which the neighbouring MCP and developer-tools sections cover.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/uMKLsKfKPc0@425b083f618c9772": {
+        "verdict": "drop",
+        "reason": "About building agents in Copilot Studio, a different capability from designing and coding agents in Business Central.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/Vq9Nk6_uxmQ@a2d0675f3631ef6c": {
+        "verdict": "keep",
+        "reason": "Covers building custom agents in Business Central: instructions, profiles, permissions, and the Agent SDK.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/WFAZLsUTk20@1f56f4fab9b3f33d": {
+        "verdict": "keep",
+        "reason": "Covers instruction history in the agent design playground, which is part of designing agents.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/XGEDwzIZQj4@c98ea3df0ca7c39c": {
+        "verdict": "drop",
+        "reason": "About benchmarking AI coding agents on AL bug fixing, not about building Business Central agents.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/xqwJTCPD9tA@16582e92f67ba734": {
+        "verdict": "drop",
+        "reason": "About integration design patterns, with AI agents used only as development helpers.",
+        "at": "2026-10-09T15:19:38.305Z"
+      },
+      "video/xWOddQt1GUM@65b45d5eaae59ef6": {
+        "verdict": "drop",
+        "reason": "A broad discussion of AI-assisted development that mentions the agent preview only in passing.",
+        "at": "2026-10-09T15:19:38.305Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/designing-and-coding-agents-preview/coding-agents-in-al": {
