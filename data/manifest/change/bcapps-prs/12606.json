@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/12606",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Obsolete Http Web Request Mgt. codeunit",
+  "url": "https://github.com/microsoft/BCApps/pull/12606",
+  "published_at": "2026-10-09T18:13:05Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-10T00:24:29.273Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "9f954e85cbed82e2c18b77d8513c22a7d2b2e035:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12606,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9f954e85cbed82e2c18b77d8513c22a7d2b2e035",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "obsolete http web request mgt codeunit"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "143849f989b30998bf7ca1849a83c6856b2a0c0165033478f8442df76efad990"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12229",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "#12144 Enable Inbound E-Documents page extensibility",
+  "url": "https://github.com/microsoft/BCApps/pull/12229",
+  "published_at": "2026-10-09T11:49:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "766f633e91e8d5d1468a1410ee8226d2b0df3607:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12229,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "766f633e91e8d5d1468a1410ee8226d2b0df3607",
+    "author": "RadoArvay",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "12144 enable inbound e documents page extensibility"
+  }
+}

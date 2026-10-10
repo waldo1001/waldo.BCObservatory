@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/10445",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount",
+  "url": "https://github.com/microsoft/BCApps/pull/10445",
+  "published_at": "2026-10-09T00:31:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "fcd2704c64729f42612c1959118588424e6ecb2b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10445,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fcd2704c64729f42612c1959118588424e6ecb2b",
+    "author": "miljance",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Finance"
+    ],
+    "community_contribution": true,
+    "title_key": "bug subscription billing contract renewal quote total ignores the billing base period and shows the base period amount instead of the renewal term amount"
+  }
+}

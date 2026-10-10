@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12323",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate API test libraries off Http Web Request Mgt.",
+  "url": "https://github.com/microsoft/BCApps/pull/12323",
+  "published_at": "2026-10-09T11:49:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "11b6166da9cd35b2f87577d6479ddca2531b633c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12323,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "11b6166da9cd35b2f87577d6479ddca2531b633c",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate api test libraries off http web request mgt"
+  }
+}

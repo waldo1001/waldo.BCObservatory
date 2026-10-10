@@ -1,0 +1,193 @@
+{
+  "video_id": "q3xnjJD32kk",
+  "source": "yt-dlp",
+  "segments": [
+    {
+      "t": 6.9,
+      "end": 22.9,
+      "text": ">> Welcome to 2026 release wave two of Business Central. This is a long awaited launch edition video for what's new in MCP server. My name is Kenny Pontoppidan. I'm a program manager in the Business Central team and with me I'm very proud to have my colleague Poor Shot."
+    },
+    {
+      "t": 22.9,
+      "end": 36.4,
+      "text": ">> Everyone, my name is Poor Shot Dwivedi. I'm a senior engineer with the runtime team at Business Central. >> Poor Shot's going to show some excellent demos in a sec. But first let's see what we have overall for you."
+    },
+    {
+      "t": 36.4,
+      "end": 50.8,
+      "text": "We're going to talk about two things, a new tool, actually four new tools for doing queries. And then some some nice improvements of the user experience for setting up MCP in Business Central."
+    },
+    {
+      "t": 50.8,
+      "end": 63.8,
+      "text": "So, the query tool in Business Central, if I should explain it in four sentences, it would be have your MCP host, whatever that is, Copilot Studio, VS Code, or other,"
+    },
+    {
+      "t": 63.8,
+      "end": 74.1,
+      "text": "have those LLMs construct your queries, then we will compile and run them, give you your data, and there's basically no need to use APIs or anything."
+    },
+    {
+      "t": 74.1,
+      "end": 91.4,
+      "text": "It just works like that. We have introduced four new system tools. Um you can see them here in the configuration. When you enable the data tool on the server features, you get a find tables data find tables tool,"
+    },
+    {
+      "t": 91.4,
+      "end": 103.7,
+      "text": "you get a table relations tool, you get a table schema tool, and a data query tool. But it's so boring hearing me talking about that when we can see a live demo."
+    },
+    {
+      "t": 103.7,
+      "end": 116.2,
+      "text": "So, Poor Shot, why why don't you show us what you built? >> All right. So, first of all, the main idea with the data tools was to enable generic data analysis for our users."
+    },
+    {
+      "t": 116.2,
+      "end": 126.6,
+      "text": "Because with the APIs, of course, you have full control over what APIs you have. You define them on your configurations and you get the data according to the APIs that you've set up."
+    },
+    {
+      "t": 126.6,
+      "end": 137.5,
+      "text": "But with the data query tools, it completely depends on the permissions that you already have, the tables that you have access to in Business Central, and how good your agent is at writing AL queries."
+    },
+    {
+      "t": 137.5,
+      "end": 152,
+      "text": "So, in my setup, what I have is I've set up the Business Central MCP, as you can see on the left here. And I've also set up the Microsoft Docs MCP, which is great for agents as well to learn how to write good AL queries,"
+    },
+    {
+      "t": 152,
+      "end": 166.8,
+      "text": "right? And as an example, I asked my agent a very simple question. I asked the agent to get me all my customers, their orders, and for each order also to get the line, as well as just to get an analysis of what is it that people are actually buying,"
+    },
+    {
+      "t": 166.8,
+      "end": 177.7,
+      "text": "right? And as you can see, it does something it takes 30 steps, it takes 2 minutes. It's a good example of a long-running agent. And it comes up with a very good analysis, right?"
+    },
+    {
+      "t": 177.7,
+      "end": 191.6,
+      "text": "It comes up with the customer's summary of what the customers are buying, the number of lines for their orders. And as you can see, there's also nice observations towards the bottom that Atlanta white boat accounts for like 46.2% of open orders."
+    },
+    {
+      "t": 191.6,
+      "end": 202.3,
+      "text": "Okay. Well, let's actually see how this works by looking at what the agent did, right? So, the agent starts by searching for the Business Central tables."
+    },
+    {
+      "t": 202.3,
+      "end": 212.3,
+      "text": "And it will provide some search text and it will get a set of tables that we have in Business Central. And then it starts searching in the documentation, essentially searching for how to write good AL queries."
+    },
+    {
+      "t": 212.3,
+      "end": 229.3,
+      "text": "And as you can see here, it starts searching for Business Central AL query object, nested data items, and so on. >> So, yeah, so we are not So, just for my understanding, so the MCP host is not sending that user query to our MCP server and we'll do that,"
+    },
+    {
+      "t": 229.3,
+      "end": 241.6,
+      "text": "right? So >> Exactly. Yeah, it's a additional MCP server from Microsoft and you're free to use it, but at the same time we have seen that newer models are actually pretty good at writing AL query. So, they don't really end up using it as much."
+    },
+    {
+      "t": 241.6,
+      "end": 257.5,
+      "text": "But then as you can see, the agent starts exploring the different tables that we have in Business Central. And that's what this uh get Business Central table schema is about, right? It will find tables and then it will look at what fields are actually available on all of these tables."
+    },
+    {
+      "t": 257.5,
+      "end": 276.4,
+      "text": "Once it's done with that, it asked me a couple of questions like what is the time period for which I want this analysis and what are the different things I want this analysis to cover. And then finally, it also looked at table relations, essentially understanding how is one table connected to other tables in Business Central because that's how you write good join queries in Business Central,"
+    },
+    {
+      "t": 276.4,
+      "end": 291.1,
+      "text": "right? Once it's done with that, it starts writing the AL queries as you can see here at the bottom. It will start by compiling queries and as you can see, if it compiles a query and it fails, the compilation messages you get is directly from our compiler,"
+    },
+    {
+      "t": 291.1,
+      "end": 302.6,
+      "text": "right? And so often times the agent is able to correct itself and figure out that okay, this is a mistake I made, this is how I need to correct myself. And then finally, it runs the final queries that it has compiled"
+    },
+    {
+      "t": 302.6,
+      "end": 312.8,
+      "text": "and you get the output. An agent is able to access anything. I think this is a very powerful feature for generic data analysis from Business Central. >> Awesome. Super demo, Pooshat."
+    },
+    {
+      "t": 312.8,
+      "end": 323.7,
+      "text": "Thank you so much. One a few things maybe that we should explain here is that since this data is based on queries,"
+    },
+    {
+      "t": 323.7,
+      "end": 336.4,
+      "text": "that also means that this tool can basically has the power of queries and the limitations of queries. >> Exactly. >> So, whatever you can express in an AL query is now available to agents."
+    },
+    {
+      "t": 336.4,
+      "end": 348.7,
+      "text": "If you have data questions that will kind of result in a query that is not supported in the query >> Or even not optimal. >> Or or not optimal, then of course that will not work."
+    },
+    {
+      "t": 348.7,
+      "end": 364.6,
+      "text": ">> Exactly. Yeah. There are also limitations in queries in Business Central on how much data can be returned and for how long the query can run. But I I do think that this is going to be extremely helpful for ad hoc analysis"
+    },
+    {
+      "t": 364.6,
+      "end": 376,
+      "text": "on where no object necessarily exists that joins data this way. All right, the second part of this video is about what"
+    },
+    {
+      "t": 376,
+      "end": 390.4,
+      "text": "the UX we did for configurations and also a security feature in case you want to complete control of whether the MCP server feature as such should be available or not."
+    },
+    {
+      "t": 390.4,
+      "end": 410.7,
+      "text": "So here is the new UX for MCP configurations. You can see that we have added a new box called server features. So we're now trying to distinguish between server features such as such as the data tool and the APIs that are coming below that."
+    },
+    {
+      "t": 410.7,
+      "end": 422.4,
+      "text": "And for each of the day the server features, we then have the box on the right showing which tools I which tools this particular feature will open up for."
+    },
+    {
+      "t": 422.4,
+      "end": 435.8,
+      "text": "Actually, it will be the combination. So if you enable a couple of server features on the system tools box, you would see all the tools that these server features enable."
+    },
+    {
+      "t": 435.8,
+      "end": 452.2,
+      "text": "And then as I mentioned for the security part, we have now a new toggle in in the copilot and agent capabilities page where you can uh activate or deactivate the MCP server as such."
+    },
+    {
+      "t": 452.2,
+      "end": 467.8,
+      "text": "And that's it, Poojat. We just have one more thing and that is if you want to learn more about MCP server in general for Business Central, we have a landing page for you, aka.ms/bcmcp."
+    },
+    {
+      "t": 467.8,
+      "end": 480.7,
+      "text": "And with that, that ends our launch edition video on MCP server. We hope you will enjoy many of the other videos. But Pourchot and I are out."
+    },
+    {
+      "t": 480.7,
+      "end": 484.9,
+      "text": ">> Thank you."
+    }
+  ],
+  "markers": [
+    {
+      "t": 1.964,
+      "text": "[music]"
+    }
+  ],
+  "word_count": 1345
+}

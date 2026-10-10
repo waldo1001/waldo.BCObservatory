@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12332",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[MCP] Add Agent Tools server feature",
+  "url": "https://github.com/microsoft/BCApps/pull/12332",
+  "published_at": "2026-10-09T13:20:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "a1a2ef8b73ed4dd213b5745dfafb41e106fff26a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12332,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a1a2ef8b73ed4dd213b5745dfafb41e106fff26a",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "mcp add agent tools server feature"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12605",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "fix(miapp): honor .miappsnap exclusion list in VerifyMiappSync",
+  "url": "https://github.com/microsoft/BCApps/pull/12605",
+  "published_at": "2026-10-09T10:15:17Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "efc984a5d18e7f4ef3009a1917fbfd6c057a310b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12605,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "efc984a5d18e7f4ef3009a1917fbfd6c057a310b",
+    "author": "mazhelez",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "fix miapp honor miappsnap exclusion list in verifymiappsync"
+  }
+}

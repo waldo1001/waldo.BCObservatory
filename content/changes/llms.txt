@@ -1093,47 +1093,43 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12584 Align subcontracting receipt invoicing with capacity posting](https://github.com/microsoft/BCApps/pull/12584) (open into main, draft, updated 2026-10-09)
-- [#12585 Bug 649862: Restore subcontracting Get Receipt Lines](https://github.com/microsoft/BCApps/pull/12585) (open into main, updated 2026-10-09)
-- [#9048 Uptake/multi order invoice source doc](https://github.com/microsoft/BCApps/pull/9048) (open into main, updated 2026-10-08)
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2756215](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-10-08)
-- [#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856](https://github.com/microsoft/BCApps/pull/6857) (open into main, updated 2026-10-08)
-- [#11733 Fix external storage migration for unsafe attachment filenames](https://github.com/microsoft/BCApps/pull/11733) (open into main, updated 2026-10-08)
-- [#11795 Send Microsoft 365 account emails from the configured (shared) mailbox](https://github.com/microsoft/BCApps/pull/11795) (open into main, updated 2026-10-08)
-- [#11864 Add optional GetDisabledTests read-back to Command Line Test Tool](https://github.com/microsoft/BCApps/pull/11864) (open into main, updated 2026-10-08)
-- [#12332 [MCP] Add Agent Tools server feature](https://github.com/microsoft/BCApps/pull/12332) (open into main, updated 2026-10-08)
-- [#12418 #12375 Make OpenEDocument method public](https://github.com/microsoft/BCApps/pull/12418) (open into main, updated 2026-10-08)
-- [#12561 [Shopify] Preserve tax match after rate conflict](https://github.com/microsoft/BCApps/pull/12561) (open into main, updated 2026-10-08)
-- [#12575 [Backport 29.x] E-Documents supported type direction configuration](https://github.com/microsoft/BCApps/pull/12575) (open into releases/29.x, updated 2026-10-08)
-- [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](https://github.com/microsoft/BCApps/pull/11665) (open into main, updated 2026-10-08)
-- [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](https://github.com/microsoft/BCApps/pull/8874) (open into main, updated 2026-10-08)
-- [#12579 [master] Item Age Composition by Quantity and Value report issue](https://github.com/microsoft/BCApps/pull/12579) (open into main, updated 2026-10-08)
-- [#12558 [main] bug 653463 - Refactor Corrections Posting Mgt. CZL codeunit to improve clarity and fix logic for G/L correction handling](https://github.com/microsoft/BCApps/pull/12558) (open into main, updated 2026-10-08)
-- [#11904 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](https://github.com/microsoft/BCApps/pull/11904) (open into main, updated 2026-10-08)
-- [#11850 [master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.](https://github.com/microsoft/BCApps/pull/11850) (open into main, updated 2026-10-08)
-- [#12262 Financial reporting a few improvements](https://github.com/microsoft/BCApps/pull/12262) (open into main, updated 2026-10-08)
-- [#12160 Deliverable 617319: Move French accelerated depreciation to W1 base application](https://github.com/microsoft/BCApps/pull/12160) (open into main, updated 2026-10-08)
-- [#11527 E-document payment improvements](https://github.com/microsoft/BCApps/pull/11527) (open into main, updated 2026-10-08)
-- [#10444 [Bug][Subscription Billing] "Cancellation Possible Until" is rounded to the end of the month when the Notice Period is expressed in days](https://github.com/microsoft/BCApps/pull/10444) (open into main, updated 2026-10-08)
-- [#10445 [Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount](https://github.com/microsoft/BCApps/pull/10445) (open into main, updated 2026-10-08)
-- [#11205 MSlenejennum/647612/inventory internal new body layouts and obsolete current](https://github.com/microsoft/BCApps/pull/11205) (open into main, updated 2026-10-08)
-- [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](https://github.com/microsoft/BCApps/pull/12098) (open into releases/29.x, updated 2026-10-08)
-- [#12459 [Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](https://github.com/microsoft/BCApps/pull/12459) (open into main, updated 2026-10-08)
-- [#12516 [master] Unposted Purchase Return Orders and Credit Memos should be added to the Find Entries.](https://github.com/microsoft/BCApps/pull/12516) (open into main, updated 2026-10-08)
-- [#12541 Preserve transfer line UOM when toggling Direct Transfer](https://github.com/microsoft/BCApps/pull/12541) (open into main, updated 2026-10-08)
-- [#11555 [SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry](https://github.com/microsoft/BCApps/pull/11555) (open into main, updated 2026-10-08)
-- [#12566 Update tooltips to reflect Microsoft Entra terminology in Fabric setup pages](https://github.com/microsoft/BCApps/pull/12566) (open into main, updated 2026-10-08)
+- [#12579 [master] Item Age Composition by Quantity and Value report issue](https://github.com/microsoft/BCApps/pull/12579) (open into main, updated 2026-10-10)
+- [#12644 Migrate Exchange add-in manifest, Data Exchange XML import, XML Buffer Reader and XSD Parser off XML DOM Management](https://github.com/microsoft/BCApps/pull/12644) (open into main, draft, updated 2026-10-09)
+- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2757682](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-10-09)
+- [#12641 Retire XML DOM Management: ES SII and XML VAT Declaration (native XML)](https://github.com/microsoft/BCApps/pull/12641) (open into main, draft, updated 2026-10-09)
+- [#12640 [MX] Use native XML types to read PAC responses in E-Invoice Mgt. (1/2)](https://github.com/microsoft/BCApps/pull/12640) (open into main, draft, updated 2026-10-09)
+- [#12633 [Security] Remove XML DOM Management from IT/FR/NL/NO/DACH/RU VAT and reporting code](https://github.com/microsoft/BCApps/pull/12633) (open into main, draft, updated 2026-10-09)
+- [#12632 Retire XML DOM Management: Warehouse ADCS (native XML)](https://github.com/microsoft/BCApps/pull/12632) (open into main, draft, updated 2026-10-09)
+- [#12634 Migrate RapidStart off XML DOM Management to native XML types](https://github.com/microsoft/BCApps/pull/12634) (open into main, draft, updated 2026-10-09)
+- [#6857 [BC Idea][TableInformation] : Enhance Indexes List Part with SIFT details, visual indicators, and improved index management #6856](https://github.com/microsoft/BCApps/pull/6857) (open into main, updated 2026-10-09)
+- [#9045 Config. Packages with Native AL XML Data Types](https://github.com/microsoft/BCApps/pull/9045) (open into main, updated 2026-10-09)
+- [#10153 Add DriveId overloads for SharePoint Graph Client drive item operations](https://github.com/microsoft/BCApps/pull/10153) (open into main, updated 2026-10-09)
+- [#11258 [GB] IdealPostcodes: fix provider selection and address retrieval through the Postcode Service Manager framework](https://github.com/microsoft/BCApps/pull/11258) (open into main, updated 2026-10-09)
+- [#12333 Keep the draft unit of measure and variant code when creating the purchase line](https://github.com/microsoft/BCApps/pull/12333) (open into main, updated 2026-10-09)
+- [#12432 [AB#647643] Retain remote files and safely retire verified local references](https://github.com/microsoft/BCApps/pull/12432) (open into main, updated 2026-10-09)
+- [#12561 [Shopify] Preserve tax match after rate conflict](https://github.com/microsoft/BCApps/pull/12561) (open into main, updated 2026-10-09)
+- [#12609 Confirm before deleting attachments from an unfiltered Doc. Attachment List Factbox](https://github.com/microsoft/BCApps/pull/12609) (open into main, updated 2026-10-09)
+- [#12626 Fix AppSource product details opening in write transactions](https://github.com/microsoft/BCApps/pull/12626) (open into main, updated 2026-10-09)
+- [#12636 Migrate W1 misc callers off XML DOM Management (S4 part b)](https://github.com/microsoft/BCApps/pull/12636) (open into main, draft, updated 2026-10-09)
+- [#12635 Retire XML DOM Management from BE INTERVAT VAT reports](https://github.com/microsoft/BCApps/pull/12635) (open into main, draft, updated 2026-10-09)
+- [#12631 Remove XML DOM Management from XML test libraries and SEPA tests](https://github.com/microsoft/BCApps/pull/12631) (open into main, draft, updated 2026-10-09)
+- [#12630 Migrate W1 web service integrations off XML DOM Management](https://github.com/microsoft/BCApps/pull/12630) (open into main, draft, updated 2026-10-09)
+- [#12615 Web Request Helper: native HttpClient for GetResponseTextUsingCharset; obsolete DotNet GetWebResponse/GetWebResponseError](https://github.com/microsoft/BCApps/pull/12615) (open into main, draft, updated 2026-10-09)
+- [#12620 Migrate SOAP Web Service Request Mgt. off DotNet HTTP (GetWebResponse/GetWebResponseError callers)](https://github.com/microsoft/BCApps/pull/12620) (open into main, draft, updated 2026-10-09)
+- [#12629 Add XML Utilities System Application module](https://github.com/microsoft/BCApps/pull/12629) (open into main, draft, updated 2026-10-09)
+- [#12612 [Draft] Default web-service-key auth and consolidate API test fixes](https://github.com/microsoft/BCApps/pull/12612) (open into main, draft, updated 2026-10-09)
+- [#9326 [FI] Delocalize Depreciation Differences into a first-party extension](https://github.com/microsoft/BCApps/pull/9326) (open into main, updated 2026-10-09)
+- [#11660 Fix #11377: Prevent invalid FatturaPA CAP values](https://github.com/microsoft/BCApps/pull/11660) (open into main, updated 2026-10-09)
+- [#11104 Extract NL customization to object extensions v3](https://github.com/microsoft/BCApps/pull/11104) (open into main, updated 2026-10-09)
+- [#12472 Expense Agent Default VAT Setup fails in localized companies](https://github.com/microsoft/BCApps/pull/12472) (open into main, updated 2026-10-09)
+- [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](https://github.com/microsoft/BCApps/pull/12617) (open into main, updated 2026-10-09)
 
 Open issues:
 
-- [#12568 [Bug]: table 77 "Report Selections" Event OnGetEmailBodyVendorTextOnAfterNotFindEmailBodyUsage](https://github.com/microsoft/BCApps/issues/12568) (2026-10-08, Team: Integrations)
-- [#12564 [Bug]: Use MIcrosoft Entra ID caption in Fabric wizard](https://github.com/microsoft/BCApps/issues/12564) (2026-10-08, Ownership: Needs Review, Team: Other)
-- [#12563 [Bug]: Fabric limit increase to 1000](https://github.com/microsoft/BCApps/issues/12563) (2026-10-08, Ownership: Needs Review, Team: Other)
-- [#12560 [Bug]: page 9652 "Report Layout Selection" not searchable in Business central menu](https://github.com/microsoft/BCApps/issues/12560) (2026-10-08, Team: Integrations)
-- [#12559 [W1][Codeunit][6402][E-Doc. Purch. Doc. Helper] Event before inserting the purchase line created from a draft line](https://github.com/microsoft/BCApps/issues/12559) (2026-10-08, Team: SCM)
-- [#12549 [Bug]: Use of first party app in Microsoft Fabric Extension](https://github.com/microsoft/BCApps/issues/12549) (2026-10-08, Approved, Ownership: Needs Review, Team: Other)
-- [#12534 Event Request Codeunit 99000893 "Mfg. Create Put-away" - OnCreateBreakPackageLinesOnAfterCalcQty](https://github.com/microsoft/BCApps/issues/12534) (2026-10-08, Team: SCM)
-- [#12533 Event Request Codeunit 99000893 "Mfg. Create Put-away" - OnAfterUpdateRemQtyToPutAwayBaseFromProdOrderLine](https://github.com/microsoft/BCApps/issues/12533) (2026-10-08, Team: SCM)
+- [#12625 [W1][Codeunit][6154][API Webhook Notification Send] OnBeforeShouldReschedule](https://github.com/microsoft/BCApps/issues/12625) (2026-10-09, Team: Integrations)
+- [#12623 "Warehouse Request" has wrong Table Relation for "Shipping Agent Service Code"](https://github.com/microsoft/BCApps/issues/12623) (2026-10-09, Team: SCM)
+- [#12611 [Bug]: External File Storage - Delete in Storage Browser on ".." entry deletes the whole base folder](https://github.com/microsoft/BCApps/issues/12611) (2026-10-09, Team: Integrations)
+- [#12586 [APAC][Extensibility Request][Report][28026][Financial Analysis Report] Move some variables to protected var for extensibility](https://github.com/microsoft/BCApps/issues/12586) (2026-10-09, Team: Finance)
 
 Releases:
 
@@ -1152,10 +1148,10 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#2273 Enhance customALGoFiles feature](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-10-08)
-- [#2293 Add support for protectedSettings to override lower priority settings](https://github.com/microsoft/AL-Go/pull/2293) (open into main, updated 2026-10-08)
+- [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-10-09)
+- [#2293 Add support for protectedSettings to override lower priority settings](https://github.com/microsoft/AL-Go/pull/2293) (open into main, updated 2026-10-09)
+- [#2400 Update TestUpgradesFromVersion to v8.0](https://github.com/microsoft/AL-Go/pull/2400) (open into main, updated 2026-10-09)
 - [#2399 Fix framework-dependent AL tool invocation on Linux](https://github.com/microsoft/AL-Go/pull/2399) (open into main, draft, updated 2026-10-08)
-- [#2396 Fix deployment environment discovery pagination](https://github.com/microsoft/AL-Go/pull/2396) (open into main, updated 2026-10-07)
 - [#2309 Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency](https://github.com/microsoft/AL-Go/pull/2309) (open into main, updated 2026-10-07)
 - [#2397 Support calling AL-Go workflows as reusable workflows (workflow_call)](https://github.com/microsoft/AL-Go/pull/2397) (open into main, draft, updated 2026-10-07)
 - [#2385 Issue 2336 - Option to fail deployment](https://github.com/microsoft/AL-Go/pull/2385) (open into main, updated 2026-10-07)
@@ -1175,10 +1171,7 @@ Open issues:
 
 - [#2398 [Bug]: AL-Go v9.1/v9.2 splits dependency app filenames containing a comma `](https://github.com/microsoft/AL-Go/issues/2398) (2026-10-07, bug)
 - [#2394 [Bug]: `latestBuild` dependency resolution intermittently picks an older CI/CD run due to stale GitHub workflow-runs API results](https://github.com/microsoft/AL-Go/issues/2394) (2026-10-06, bug)
-- [#2390 [Bug]: AnalyzeTests crashes under strict mode when page scripting results contain both passed and failed tests ("The property 'failure' cannot be found")](https://github.com/microsoft/AL-Go/issues/2390) (2026-10-04)
 - [#2387 [Bug]: DetermineDeploymentEnvironments ignores GitHub environments after the first 30 (no pagination)](https://github.com/microsoft/AL-Go/issues/2387) (2026-10-01, In Progress, bug)
-- [#2381 [Bug]: Dependency artifacts from the current build are not downloaded when the branch name contains a comma (silent fallback to baseline)](https://github.com/microsoft/AL-Go/issues/2381) (2026-09-23, Fix Ready, In Preview, bug)
-- [#2375 [Bug]: Project/App folder with umlaut breaks incremental build check](https://github.com/microsoft/AL-Go/issues/2375) (2026-09-18, Fix Ready, In Preview, bug)
 - [#2373 [Bug]: Incremental PR build reuses an older baseline app than the previous release](https://github.com/microsoft/AL-Go/issues/2373) (2026-09-17, bug)
 - [#2354 [Bug]: Build jobs are failing after upgrade to 9.2 where an installed dependency isn't being seen](https://github.com/microsoft/AL-Go/issues/2354) (2026-08-27, bug)
 - [#2347 [Bug]: Publish to Environment fails, but App was published successfully](https://github.com/microsoft/AL-Go/issues/2347) (2026-08-17, accepted, bug)
@@ -1194,6 +1187,7 @@ Open issues:
 
 Releases:
 
+- [v10.0](https://github.com/microsoft/AL-Go/releases/tag/v10.0) (2026-10-09)
 - [v9.2](https://github.com/microsoft/AL-Go/releases/tag/v9.2) (2026-08-25)
 - [v9.1](https://github.com/microsoft/AL-Go/releases/tag/v9.1) (2026-07-07)
 - [v9.0](https://github.com/microsoft/AL-Go/releases/tag/v9.0) (2026-04-09)
@@ -1203,15 +1197,15 @@ Releases:
 - [v8.0](https://github.com/microsoft/AL-Go/releases/tag/v8.0) (2025-10-15)
 - [v7.3](https://github.com/microsoft/AL-Go/releases/tag/v7.3) (2025-08-29)
 - [v7.2](https://github.com/microsoft/AL-Go/releases/tag/v7.2) (2025-06-04)
-- [v7.1](https://github.com/microsoft/AL-Go/releases/tag/v7.1) (2025-04-30)
 
 ## microsoft/BCQuality: upcoming
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](https://github.com/microsoft/BCQuality/pull/225) (open into main, updated 2026-10-09)
+- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](https://github.com/microsoft/BCQuality/pull/223) (open into main, updated 2026-10-09)
 - [#222 Add cited knowledge consultation skill for Business Central](https://github.com/microsoft/BCQuality/pull/222) (open into main, draft, updated 2026-10-08)
 - [#221 Clarify when HttpClient transport errors need translation](https://github.com/microsoft/BCQuality/pull/221) (open into main, draft, updated 2026-10-08)
-- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](https://github.com/microsoft/BCQuality/pull/223) (open into main, updated 2026-10-08)
 - [#220 Normalize verified citation IDs in accepted report copies](https://github.com/microsoft/BCQuality/pull/220) (open into main, updated 2026-10-06)
 - [#211 knowledge(error-handling): a bare [TryFunction] call propagates its error](https://github.com/microsoft/BCQuality/pull/211) (open into main, draft, updated 2026-10-05)
 - [#155 Add read-only AL development plan guidance](https://github.com/microsoft/BCQuality/pull/155) (open into main, updated 2026-09-28)

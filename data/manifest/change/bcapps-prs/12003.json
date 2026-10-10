@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12003",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied",
+  "url": "https://github.com/microsoft/BCApps/pull/12003",
+  "published_at": "2026-10-09T06:11:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "006d20024373394ca4b133676680fdc9831231a6:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12003,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "006d20024373394ca4b133676680fdc9831231a6",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "project planning lines are created in reverse order when purchase line descriptions are copied"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12326",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.",
+  "url": "https://github.com/microsoft/BCApps/pull/12326",
+  "published_at": "2026-10-09T11:49:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "cc4e6917cb11de6d7016d2cd92f7251545462a7d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12326,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cc4e6917cb11de6d7016d2cd92f7251545462a7d",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "migrate doc exchange and ocr service callers off http web request mgt"
+  }
+}

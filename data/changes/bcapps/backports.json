@@ -575,6 +575,15 @@
       "title_key": "use posted customer information in verifactu recipients"
     }
   ],
+  "12314": [
+    {
+      "number": 12604,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-09T13:33:36Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12604",
+      "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
+    }
+  ],
   "unmatched": [
     {
       "number": 10674,
@@ -1408,6 +1417,20 @@
       "merged_at": "2026-10-08T15:16:15Z",
       "url": "https://github.com/microsoft/BCApps/pull/12319",
       "title_key": "fix capture shopify fulfillment deliveredat timestamp"
+    },
+    {
+      "number": 11760,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-09T07:07:02Z",
+      "url": "https://github.com/microsoft/BCApps/pull/11760",
+      "title_key": "re enable platformartifacturl assignment in container scripts"
+    },
+    {
+      "number": 11958,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-09T09:08:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/11958",
+      "title_key": "bug subscriptionbilling process usage data billing uses lines marked processing status error currency mismatch backport to releases 29 x"
     }
   ]
 }

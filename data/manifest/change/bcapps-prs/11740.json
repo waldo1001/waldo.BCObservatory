@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11740",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility",
+  "url": "https://github.com/microsoft/BCApps/pull/11740",
+  "published_at": "2026-10-09T16:40:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "cd077aa86c52056f8fa4b9bf088fa80f23774f7d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11740,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cd077aa86c52056f8fa4b9bf088fa80f23774f7d",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 636971 expense agent ea scheduler task table grows unbounded with no cleanup or ui visibility"
+  }
+}

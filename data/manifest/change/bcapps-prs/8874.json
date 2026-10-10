@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/8874",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations",
+  "url": "https://github.com/microsoft/BCApps/pull/8874",
+  "published_at": "2026-10-09T15:19:39Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "416472ab13c3e14f10c35c216991106bb9c97df8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 8874,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "416472ab13c3e14f10c35c216991106bb9c97df8",
+    "author": "tomasevicst",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "field service integration rounding error on service line quantity write back for item type service lines with non divisible durations"
+  }
+}

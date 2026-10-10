@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12418",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "#12375 Make OpenEDocument method public",
+  "url": "https://github.com/microsoft/BCApps/pull/12418",
+  "published_at": "2026-10-09T15:05:55Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "4f11d1b9c4328027175cc6af5c5a7faedf3a700e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12418,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4f11d1b9c4328027175cc6af5c5a7faedf3a700e",
+    "author": "RadoArvay",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "12375 make openedocument method public"
+  }
+}

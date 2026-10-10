@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11073",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Validate image content before sending to Computer Vision",
+  "url": "https://github.com/microsoft/BCApps/pull/11073",
+  "published_at": "2026-10-09T11:49:24Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-10T00:24:04.383Z"
+    }
+  },
+  "input_hash": "a5e427c4274e79120ca888b09dd93af3c4b88d18:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11073,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a5e427c4274e79120ca888b09dd93af3c4b88d18",
+    "author": "gggdttt",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "validate image content before sending to computer vision"
+  }
+}
