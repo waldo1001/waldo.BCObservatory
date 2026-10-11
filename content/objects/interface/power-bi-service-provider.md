@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 05dd4ca6756ad70bd4cf0da02d908c52f8edb1b01066c75426dbce5377ebff4c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -88,7 +88,7 @@ relations:
 
 > Interface "Power BI Service Provider" in Base Application (System.Integration.PowerBI). 11 public procedures. Present since at least BC23, still in BC30, changed in BC25, BC28-29.
 
-Base Application · System.Integration.PowerBI · BC23-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC23-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIServiceProvider.Interface.al) · facts from BC29
 
 ## Properties
 

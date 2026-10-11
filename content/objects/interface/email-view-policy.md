@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0989bc68b28c87ce82c5606b7b90a001bf62e4ec465bd85df07562134dc4e8a6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al
     title: src/System Application/App/Email/src/Email/View Policy/EmailViewPolicy.Interface.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Email View Policy" in System Application (System.Email). 8 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Email · BC23-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al) · facts from BC29
+System Application · System.Email · BC23-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Email/src/Email/View%20Policy/EmailViewPolicy.Interface.al) · facts from BC29
 
 ## Procedures
 

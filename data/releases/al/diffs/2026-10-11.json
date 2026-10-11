@@ -1,0 +1,44 @@
+{
+  "from": "2026-10-09",
+  "to": "2026-10-11",
+  "added": [
+    "al-18.1"
+  ],
+  "removed": [],
+  "changed": [
+    "al-30.0",
+    "al-18.0"
+  ],
+  "entries": {
+    "al-30.0": {
+      "added": [
+        "parallel-workspace-compilation",
+        "modify-several-fields-in-one-modifyall-call",
+        "inherent-permissions-validation-in-multi-root-workspaces",
+        "altool-code-coverage-export",
+        "altool-changes",
+        "visual-studio-code-editor-changes",
+        "miscellaneous"
+      ],
+      "changed": [
+        "github-issues",
+        "bug-fixes"
+      ],
+      "removed": [
+        "snapshot-debugging-al-tests"
+      ]
+    },
+    "al-18.0": {
+      "added": [
+        "snapshot-debugging-al-tests"
+      ],
+      "changed": [
+        "github-issues"
+      ],
+      "removed": [
+        "inherent-permissions-validation-in-multi-root-workspaces",
+        "miscellaneous-2"
+      ]
+    }
+  }
+}

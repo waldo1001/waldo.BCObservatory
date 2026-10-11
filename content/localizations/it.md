@@ -14,17 +14,17 @@ review:
   at: "2026-10-07T23:28:44.854Z"
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 1cfbe643cd17c0eb20fe1d9ba18280d57fc409c31c57bb2f8a3a3a9433248f98
+  input_hash: ae7867683b992cf7761a294ae3eca458b190e1a21bdcbe8f9667d1f1c589c1c1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-it
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -236,7 +236,7 @@ links:
 country: IT
 version: "29"
 w1_version: "29"
-added_objects: 355
+added_objects: 356
 replaced_objects: 196
 removed_objects: 0
 added_fields: 829
@@ -269,7 +269,7 @@ Developers can hook the new events in posting, bill handling, VAT report validat
 - Fiscal inventory valuation (average, FIFO, LIFO, discrete LIFO) and fixed asset anticipated, accelerated, reduced and compressed depreciation.
 - Legacy subcontracting with WIP items, subcontractor prices and transfer orders, deprecated in favor of the Subcontracting app.
 
-Narrative written by Sonnet from the code diff and 33 Learn page summaries. In numbers: Italy (IT) localization of Business Central in BC29: 355 objects of its own, 196 W1 objects changed (829 fields and 92 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 33 Learn page summaries. In numbers: Italy (IT) localization of Business Central in BC29: 356 objects of its own, 196 W1 objects changed (829 fields and 92 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -281,7 +281,7 @@ Narrative written by Sonnet from the code diff and 33 Learn page summaries. In n
 | [Inventory](#inventory) | 25 | 36 | 129 |
 | [Sales](#sales) | 39 | 5 | 200 |
 | [Purchases](#purchases) | 33 | 6 | 230 |
-| [Manufacturing](#manufacturing) | 12 | 19 | 13 |
+| [Manufacturing](#manufacturing) | 12 | 20 | 13 |
 | [Foundation](#foundation) | 8 | 20 | 41 |
 | [EServices](#eservices) | 0 | 19 | 0 |
 | [FixedAssets](#fixedassets) | 10 | 2 | 7 |
@@ -364,7 +364,7 @@ Why: Learn states the feature is deprecated and replaced by the Subcontracting a
 
 Objects: [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md) (own), [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md) (own), [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md) (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [page/12152 "Subcontracting Order"](../objects/page/12152-it.md) (own), [codeunit/149951 "IT Subc. Migration"](../objects/codeunit/149951-it.md) (own), [report/12152 "Create Subcontr.Transf. Order"](../objects/report/12152-it.md) (own), [table/99000765 "Manufacturing Setup"](../objects/table/99000765.md).
 
-[All 31 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
+[All 32 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
 ### Foundation
 
@@ -689,7 +689,7 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 
 ## Objects of its own
 
-355 objects only this country has.
+356 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-it.md)
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-it.md)
@@ -746,6 +746,7 @@ Objects: [codeunit/1004 "Job Transfer Line"](../objects/codeunit/1004.md).
 - [codeunit/148122 "Intrastat Report Exp. Ext. IT"](../objects/codeunit/148122-it.md)
 - [codeunit/148123 "Intrastat Report Get Totals"](../objects/codeunit/148123-it.md)
 - [codeunit/149951 "IT Subc. Migration"](../objects/codeunit/149951-it.md)
+- [codeunit/99001048 "Legacy WIP Purchase Guard"](../objects/codeunit/99001048-it.md)
 - [codeunit/99008501 "Legacy Subc. Feature Handler"](../objects/codeunit/99008501-it.md)
 - [codeunit/99008502 "Legacy Subc. Upgrade"](../objects/codeunit/99008502-it.md)
 - [codeunit/99008503 "Legacy Subc. Install"](../objects/codeunit/99008503-it.md)

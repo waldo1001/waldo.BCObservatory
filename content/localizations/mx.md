@@ -14,17 +14,17 @@ review:
   at: "2026-10-07T23:29:07.562Z"
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 0eeb69788033b0a396eb7a7d3b392cc7b7f2b95ee998b59f3f52941584caf28a
+  input_hash: 9d382e29a2e56cebbd9542cd12d99a2849363b912c4d401c90c641d6f7340f6c
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-mx
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -187,7 +187,7 @@ links:
 country: MX
 version: "29"
 w1_version: "29"
-added_objects: 610
+added_objects: 611
 replaced_objects: 147
 removed_objects: 0
 added_fields: 526
@@ -220,7 +220,7 @@ Learn documents the features in pages for electronic invoicing, PAC web services
 - VAT recalculation and unrealized VAT handling for foreign currency payments, added in Gen. Jnl.-Post Line.
 - EFT export codeunits (ACH, RB, Cecoban, IAT) and bank deposits and reconciliation, plus North American sales tax calculation with external tax engine hooks.
 
-Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Mexico (MX) localization of Business Central in BC29: 610 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 12 Learn page summaries. In numbers: Mexico (MX) localization of Business Central in BC29: 611 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -233,7 +233,7 @@ Narrative written by Sonnet from the code diff and 12 Learn page summaries. In n
 | [Purchases](#purchases) | 24 | 42 | 66 |
 | [Inventory](#inventory) | 10 | 31 | 75 |
 | [Service](#service) | 8 | 31 | 0 |
-| [Integration](#integration) | 0 | 23 | 0 |
+| [Integration](#integration) | 0 | 24 | 0 |
 | [(no namespace)](#no-namespace) | 0 | 22 | 0 |
 | [Projects](#projects) | 2 | 15 | 4 |
 | [Foundation](#foundation) | 10 | 6 | 26 |
@@ -324,7 +324,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-mx.md) (own), [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-mx.md) (own), [page/30471 "Shpfy TMA Review"](../objects/page/30471-mx.md) (own), [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-mx.md) (own), [tableextension/30481 "Shpfy TMA Tax Jurisdiction"](../objects/tableextension/30481-mx.md) (own), [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-mx.md) (own).
 
-[All 23 objects of Integration in the diff](?ns=Integration#country-diff)
+[All 24 objects of Integration in the diff](?ns=Integration#country-diff)
 
 ### (no namespace)
 
@@ -590,7 +590,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Objects of its own
 
-610 objects only this country has.
+611 objects only this country has.
 
 - [codeunit/400 "ExternalTaxEngineDefault"](../objects/codeunit/400-mx.md)
 - [codeunit/1267 "Password Helper"](../objects/codeunit/1267-mx.md)
@@ -689,6 +689,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/30476 "Shpfy TMA Notify"](../objects/codeunit/30476-mx.md)
 - [codeunit/30477 "Shpfy TMA Activity Log"](../objects/codeunit/30477-mx.md)
 - [codeunit/30478 "Shpfy TMA Upgrade"](../objects/codeunit/30478-mx.md)
+- [codeunit/30479 "Shpfy TMA Processing Limit"](../objects/codeunit/30479-mx.md)
 - [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-mx.md)
 - [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-mx.md)
 - [codeunit/37352 "PEPPOL30 NA Upgrade"](../objects/codeunit/37352-mx.md)

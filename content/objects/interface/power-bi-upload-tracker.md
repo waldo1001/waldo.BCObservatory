@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0810475285c320f0f7eec46a7b9270533992083fbe1daa60b5839634c02e9e1f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al
     title: src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Interface "Power BI Upload Tracker" in Base Application (System.Integration.PowerBI). 18 public procedures. Introduced in BC28, still in BC30, changed in BC29.
 
-Base Application · System.Integration.PowerBI · BC28-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al) · facts from BC29
+Base Application · System.Integration.PowerBI · BC28-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Modules/System/PowerBI/APIs/PowerBIUploadTracker.Interface.al) · facts from BC29
 
 ## Procedures
 

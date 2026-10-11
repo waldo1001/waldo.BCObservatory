@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7cd8516dfb2ae23bed4b3fa48ae18e6afb53bf634758ec7e32b9867bdec0340d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/System%20Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al
     title: src/System Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -80,7 +80,7 @@ relations:
 
 > Control add-in "OAuthIntegration" in System Application (System.Security.Authentication). 2 public procedures. Introduced in BC24, still in BC30.
 
-System Application · System.Security.Authentication · BC24-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/System%20Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al) · facts from BC29
+System Application · System.Security.Authentication · BC24-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/ControlAddIns/src/OAuthIntegration.Controladdin.al) · facts from BC29
 
 ## Procedures
 

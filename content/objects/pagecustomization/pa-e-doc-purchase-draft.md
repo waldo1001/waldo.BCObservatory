@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: a4edd32d3fbc75dd88e697075cc5983aca6c7bc7dccf103ba79161e75858de06
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Page customization "PA E-Doc. Purchase Draft" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAEDocPurchaseDraft.PageCust.al) · facts from BC29
 
 ## Recent changes
 

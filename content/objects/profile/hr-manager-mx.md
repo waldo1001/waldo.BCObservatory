@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 9f787259b223a0c22af97fd258d588c3fb4d9eba9c16308faa45c56ca5f1a4ec
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al
     title: src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al (releases/29.x)
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "HR MANAGER" (MX) in the MX country layer. Introduced in BC29, still in BC30.
 
-MX country layer · captioned "Human Resources Manager" · BC29-30 · [source at 47ed09ca](https://github.com/microsoft/BCApps/blob/47ed09ca325f485d61415c1d6926ab8f0518336d/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al) · facts from BC29
+MX country layer · captioned "Human Resources Manager" · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/NA/BaseApp/Profiles/HRManager.Profile.al) · facts from BC29
 
 An object of the [MX localization](../../localizations/mx.md), not part of W1.
 

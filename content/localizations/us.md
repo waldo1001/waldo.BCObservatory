@@ -14,17 +14,17 @@ review:
   at: "2026-10-07T23:31:04.547Z"
   flags: []
 generated:
-  at: "2026-10-08T06:17:47.117Z"
+  at: "2026-10-11T00:31:51.816Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 759b51652fa9c0729b101e298146a5303f9a6386c419cbce8bb378f5499fc508
+  input_hash: 03e26cc4e5ce01bc6025b79053bcffb5b8f23a6ef837deefdadd3a521b201566
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-us
     date: null
-    commit: 47ed09ca325f485d61415c1d6926ab8f0518336d
+    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
     t: null
     quote: null
 links:
@@ -187,7 +187,7 @@ links:
 country: US
 version: "29"
 w1_version: "29"
-added_objects: 824
+added_objects: 825
 replaced_objects: 147
 removed_objects: 0
 added_fields: 526
@@ -220,7 +220,7 @@ Banking adds electronic payment and EFT export (ACH, RB, Cecoban, IAT) driven by
 - Many North American reports for sales, purchases, inventory, projects and service, such as Aged Accounts Payable NA and Inventory Valuation.
 - Mexico CFDI/SAT e-invoicing, DIOT, Canadian GST/HST and provincial tax fields, Shopify tax matching and GP/SL 1099 migration are also present.
 
-Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedStates (US) localization of Business Central in BC29: 824 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 15 Learn page summaries. In numbers: UnitedStates (US) localization of Business Central in BC29: 825 objects of its own, 147 W1 objects changed (526 fields and 103 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -234,7 +234,7 @@ Narrative written by Sonnet from the code diff and 15 Learn page summaries. In n
 | [Inventory](#inventory) | 10 | 31 | 75 |
 | [Service](#service) | 8 | 31 | 0 |
 | [DataMigration](#datamigration) | 0 | 33 | 0 |
-| [Integration](#integration) | 0 | 23 | 0 |
+| [Integration](#integration) | 0 | 24 | 0 |
 | [(no namespace)](#no-namespace) | 0 | 22 | 0 |
 | [Foundation](#foundation) | 10 | 8 | 26 |
 | [Projects](#projects) | 2 | 15 | 4 |
@@ -336,7 +336,7 @@ Why: not explained by a Learn page in the input; the code shows the change, not 
 
 Objects: [codeunit/30471 "Shpfy TMA Matcher"](../objects/codeunit/30471-us.md) (own), [codeunit/30472 "Shpfy Tax Area Builder"](../objects/codeunit/30472-us.md) (own), [codeunit/30474 "Shpfy Tax Match Function"](../objects/codeunit/30474-us.md) (own), [page/30471 "Shpfy TMA Review"](../objects/page/30471-us.md) (own), [page/30479 "Shpfy TMA Order Tax Lines Part"](../objects/page/30479-us.md) (own), [tableextension/30470 "Shpfy TMA Shop"](../objects/tableextension/30470-us.md) (own), [enum/30471 "Shpfy Tax Match Review Mode"](../objects/enum/30471-us.md) (own), [permissionset/30470 "Shpfy TMA"](../objects/permissionset/30470-us.md) (own).
 
-[All 23 objects of Integration in the diff](?ns=Integration#country-diff)
+[All 24 objects of Integration in the diff](?ns=Integration#country-diff)
 
 ### (no namespace)
 
@@ -612,7 +612,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 
 ## Objects of its own
 
-824 objects only this country has.
+825 objects only this country has.
 
 - [codeunit/400 "ExternalTaxEngineDefault"](../objects/codeunit/400-us.md)
 - [codeunit/1267 "Password Helper"](../objects/codeunit/1267-us.md)
@@ -742,6 +742,7 @@ Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md).
 - [codeunit/30476 "Shpfy TMA Notify"](../objects/codeunit/30476-us.md)
 - [codeunit/30477 "Shpfy TMA Activity Log"](../objects/codeunit/30477-us.md)
 - [codeunit/30478 "Shpfy TMA Upgrade"](../objects/codeunit/30478-us.md)
+- [codeunit/30479 "Shpfy TMA Processing Limit"](../objects/codeunit/30479-us.md)
 - [codeunit/37350 "PEPPOL30 NA"](../objects/codeunit/37350-us.md)
 - [codeunit/37351 "PEPPOL30 NA Install"](../objects/codeunit/37351-us.md)
 - [codeunit/37352 "PEPPOL30 NA Upgrade"](../objects/codeunit/37352-us.md)
