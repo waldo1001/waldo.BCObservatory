@@ -48,3 +48,54 @@ export function ranksByGroup(nodes: { id: string; group: string; weight: number 
   for (const list of byGroup.values()) list.sort((a, b) => b.weight - a.weight || a.id.localeCompare(b.id)).forEach((n, i) => out.set(n.id, i));
   return out;
 }
+
+export interface Box { x: number; y: number; w: number; h: number }
+/** Overlap of two boxes, strict: boxes that only touch do not overlap (the galaxy's `hit`). */
+const hit = (a: Box, b: Box): boolean => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+
+/** Canvas fonts as literal families: a canvas `font` cannot resolve `var()` and keeps the previous font (D92). */
+export const CANVAS_FONT = {
+  caption: "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif",
+  plot: "400 10px 'JetBrains Mono', ui-monospace, monospace",
+} as const;
+
+/** D92: a caption may cover at most this many other stars, else it gives way. */
+export const CAPTION_MAX_COVER = 1;
+
+export type CaptionSpot = 0 | 1 | 2 | 3;
+/**
+ * D92: where a star's caption goes. Spots, in order: 0 right, 1 left, 2 below, 3 above; 20 px high. Valid: inside
+ * `view` and hitting no `taken` box. Best: the fewest `stars` boxes hit (a box centred on the star, within half a
+ * pixel, is its own dot and is ignored; a neighbour that merely overlaps the star still counts, or a caption could sit
+ * on a big overlapping object square); ties to `prev`, then spot order. Null when no spot is valid or the best covers
+ * more than `maxCover`.
+ */
+export function captionSpot(
+  star: { x: number; y: number; d: number }, w: number, view: ViewRect, taken: readonly Box[], stars: readonly Box[],
+  maxCover = CAPTION_MAX_COVER, prev?: CaptionSpot,
+): { box: Box; spot: CaptionSpot; cover: number } | null {
+  const { x: cx, y: cy, d } = star;
+  const boxes: Box[] = [
+    { x: cx + d / 2 + 6, y: cy - 10, w, h: 20 },
+    { x: cx - d / 2 - 6 - w, y: cy - 10, w, h: 20 },
+    { x: cx - w / 2, y: cy + d / 2 + 4, w, h: 20 },
+    { x: cx - w / 2, y: cy - d / 2 - 24, w, h: 20 },
+  ];
+  const others = stars.filter((s) => Math.abs(s.x + s.w / 2 - cx) > 0.5 || Math.abs(s.y + s.h / 2 - cy) > 0.5);
+  let best: { box: Box; spot: CaptionSpot; cover: number } | null = null;
+  boxes.forEach((box, i) => {
+    if (box.x < view.x0 || box.y < view.y0 || box.x + box.w > view.x1 || box.y + box.h > view.y1) return;
+    if (taken.some((t) => hit(box, t))) return;
+    const spot = i as CaptionSpot, cover = others.filter((s) => hit(box, s)).length;
+    if (!best || cover < best.cover || (cover === best.cover && spot === prev && best.spot !== prev)) best = { box, spot, cover };
+  });
+  const b = best as { box: Box; spot: CaptionSpot; cover: number } | null;
+  return b && b.cover <= maxCover ? b : null;
+}
+
+/** D92: the plot labels to draw: each one that hits no `taken` box and no label kept before it; indices in order. */
+export function visibleLabels(boxes: readonly Box[], taken: readonly Box[]): number[] {
+  const kept: number[] = [];
+  boxes.forEach((b, i) => { if (!taken.some((t) => hit(b, t)) && !kept.some((k) => hit(b, boxes[k]))) kept.push(i); });
+  return kept;
+}

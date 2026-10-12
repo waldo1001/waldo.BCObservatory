@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Panel list sweep (D78, docs/specs/panel-lists.md 4.3). Not part of CI.
+ * Panel list sweep (D78, docs/specs/panel-lists.md 4.3). Not part of CI. The lens states come from the galaxy's Lenses
+ * menu (D92).
  *
  * Serves site/dist under the base path with `python3 -m http.server`, visits every galaxy panel state (both lens
  * pickers, a lens of each group, the version and this-week lenses (all kinds, code only, code in one system, D80), the galaxy panel, three systems, a star panel, a
@@ -72,6 +73,9 @@ const systems = g.systems.map((s) => s.id);
 const sysPick = ["finance", "development", "localization"].filter((s) => systems.includes(s));
 for (const s of systems) if (sysPick.length < 3 && !sysPick.includes(s)) sysPick.push(s);
 const star = [...g.nodes].filter((n) => n.type === "object").sort((a, b) => b.weight - a.weight)[0]?.id;
+// D92: the menu offers countries and sources through the pickers; one lens of each, as the galaxy orders them
+const firstOf = (type, prefix) => { const n = g.nodes.filter((x) => x.type === type).sort((a, b) => a.label.localeCompare(b.label))[0]; return n ? `${prefix}${n.id}` : null; };
+const pickLenses = [["Localization", firstOf("localization", "loc:")], ["Source", firstOf("source", "src:")]].filter(([, id]) => id);
 
 /** Squeezed labels in the open panel and in every `details.ask` menu (opened for the measure). */
 async function measure(p) {
@@ -98,13 +102,13 @@ try {
     const p = await browser.newPage({ viewport: { width: vw, height: 900 } });
     const visit = async (hash, wait = 900) => { await p.goto(B + hash); await p.reload(); await p.waitForTimeout(wait); };
     await visit("");
-    const groupFirst = await p.$$eval("[data-g-lens] optgroup", (gs) => gs.map((o) => [o.label, o.querySelector("option")?.value]).filter(([, v]) => v));
-    const bar = await p.$$eval(".g-lensbar .g-lens[data-lens]", (bs) => bs.map((b) => b.dataset.lens).filter(Boolean));
+    // D92: the Lenses menu: every Version and Time entry, the first entry of every other group (the pickers are above)
+    const menu = await p.$$eval(".g-lensmenu .g-lm-row", (rows) => rows.map((r) => [(r.getAttribute("aria-labelledby") ?? "").replace("g-lm-", ""), [...r.querySelectorAll(".g-lm[data-lens]")].map((b) => b.dataset.lens)]));
+    const menuLenses = menu.flatMap(([grp, ids]) => (grp === "version" || grp === "time" ? ids : ids.slice(0, 1)).map((id) => [grp, id])).filter(([, id]) => id && !id.startsWith("pick:"));
     const states = [
       ["Pick a localization", "#lens=pick:localization"],
       ["Pick a source", "#lens=pick:source"],
-      ...groupFirst.map(([label, id]) => [`lens ${label}: ${id}`, `#lens=${encodeURIComponent(id)}`]),
-      ...[...new Set(bar)].map((id) => [`lens ${id}`, `#lens=${encodeURIComponent(id)}`]),
+      ...[...menuLenses, ...pickLenses].map(([grp, id]) => [`lens ${grp}: ${id}`, `#lens=${encodeURIComponent(id)}`]),
       // D80: the this-week pills and the code groups
       ["this week, code only", "#lens=landed&kinds=c"],
       ["this week, code in administration", "#system=administration&lens=landed&kinds=c"],

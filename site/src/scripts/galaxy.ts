@@ -1,6 +1,6 @@
 /**
  * The galaxy (design/HANDOFF.md section 5, D42, PLAN 4.7; "galaxy, honest" D66): canvas for stars, edges and star
- * labels; DOM for system labels, lens bar, ports, panel and the list view.
+ * labels; DOM for system labels, the bar (lenses and view, D92), ports, panel and the list view.
  *
  * - Levels: galaxy -> system -> star -> page (level 4 flies into the star and opens its page). Wheel, pinch and drag
  *   zoom and pan freely at any level; labels appear as there is room for them and never overlap.
@@ -11,8 +11,9 @@
  *   and pulse = landed this week, while the this-week lens is on (D71); accent frame = changed in the lens version; hollow dashed square = obsolete.
  * - A focused star draws its edges: solid inside its system, dashed to a port per target system (max 6). Ports are
  *   buttons; the panel lists the same crossings, so the ports are never the only way.
- * - Lenses, one at a time: changed in a version (one pill for the remembered major plus a version menu, D72), this week, then type, tier, localization, source, no evidence, and
- *   search. Matching stars keep their brightness and get the lens mark, the rest dims to 0.3.
+ * - Lenses, one at a time, from one Lenses menu (D92): changed in a version (newest first, D72), this week, then type,
+ *   tier, no evidence, and a picker for localizations and sources (D78); search too. A chip names the lens that is on
+ *   and clears it. Matching stars keep their brightness and get the lens mark, the rest dims to 0.3.
  * - Panel: the current scope as lists; the star panel carries the exit dock (real links to the instruments).
  * - List view: the system in view as a sortable table instead of the canvas. Below 480 px the galaxy is a static
  *   locator strip above the panel.
@@ -52,9 +53,9 @@ export interface GalaxyApi {
 }
 type Rect = { x: number; y: number; w: number; h: number };
 
-import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
+import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { groupChanges, landedRingsOn, legendItems, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -97,6 +98,10 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const levelEl = root.querySelector<HTMLElement>(".g-level")!;
   const legend = root.querySelector<HTMLElement>(".g-legend")!;
   const lensBar = root.querySelector<HTMLElement>(".g-lensbar")!;
+  const viewBar = root.querySelector<HTMLElement>(".g-viewbar")!;
+  const lensMenuEl = root.querySelector<HTMLDetailsElement>(".g-lensmenu")!;
+  const lensSummary = lensMenuEl.querySelector<HTMLElement>("summary")!;
+  const chip = root.querySelector<HTMLButtonElement>("[data-g-chip]")!;
   const tiltWrap = root.querySelector<HTMLElement>(".g-tilt")!;
   const tiltInput = root.querySelector<HTMLInputElement>("[data-g-tilt]")!;
   const planesBtn = root.querySelector<HTMLButtonElement>("[data-g-planes]")!;
@@ -107,7 +112,6 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const listBtn = root.querySelector<HTMLButtonElement>("[data-g-list]")!;
   const viewBtn = root.querySelector<HTMLButtonElement>("[data-g-view]")!;
   const fullBtn = root.querySelector<HTMLButtonElement>("[data-g-full]")!;
-  const lensSel = root.querySelector<HTMLSelectElement>("[data-g-lens]")!;
   const fade = root.querySelector<HTMLElement>(".g-fade")!;
 
   let g: Summary;
@@ -177,13 +181,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
 
   // D78: a source's kind from sources.yaml (via the content collection), for the lens picker's marker
   const sourceKinds: Record<string, string> = (() => { try { return JSON.parse(root.dataset.sourceKinds ?? "{}"); } catch { return {}; } })();
-  // lenses: one at a time, built from the data. The bar holds the version and "this week" lenses, the select the rest.
-  const barLenses: Lens[] = [
+  // lenses: one at a time, built from the data, all in the Lenses menu (D92). The version and "this week" lenses keep the
+  // system or star in view; the others go back to the galaxy level.
+  const scopeLenses: Lens[] = [
     ...versions.map((v) => ({ id: `version:${v}`, label: `changed in BC${v}`, group: "Version", version: v, match: (n: Node) => !!n.cv?.includes(v) || !!n.ob?.includes(v), exit: { href: `${base}code/versions/`, label: "Member-level changes per version" } })),
     { id: "landed", label: "this week", group: "Time", match: (n: Node) => lit.has(n.id) },
   ];
   const lenses: Lens[] = [
-    ...barLenses,
+    ...scopeLenses,
     ...["topic", "feature", "object", "localization", "source"].map((t) => ({ id: `type:${t}`, label: `${TYPE[t]}s`, group: "Type", match: (n: Node) => n.type === t })),
     { id: "tier:community", label: "mostly community evidence", group: "Tier", match: (n: Node) => (n.cs ?? 0) >= 0.5 || n.tier === "community" },
     { id: "tier:official", label: "official only", group: "Tier", match: (n: Node) => n.tier === "official" && !(n.cs ?? 0) },
@@ -198,48 +203,16 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }),
   ];
   const lensById = new Map(lenses.map((l) => [l.id, l]));
-  for (const grp of [...new Set(lenses.filter((l) => !barLenses.includes(l)).map((l) => l.group))]) {
-    const og = document.createElement("optgroup"); og.label = grp;
-    for (const l of lenses.filter((x) => x.group === grp && !barLenses.includes(x))) { const o = document.createElement("option"); o.value = l.id; o.textContent = l.label; og.append(o); }
-    lensSel.append(og);
-  }
-  // D72: the version lenses are one pill for the remembered major (newest by default) plus a menu of every major the
-  // graph has changes for, with the count each would light (computed once). Labels and vNext come from config
-  // (`data-majors`), never from the graph. The remembered major lives in memory only: the deep link is the memory.
+  // D72: labels and the vNext flag of every major come from config (`data-majors`), never from the graph
   const majorsMeta: Record<string, MajorMeta> = (() => { try { return JSON.parse(root.dataset.majors ?? "{}"); } catch { return {}; } })();
-  const vCounts = new Map(versions.map((v) => [v, g.nodes.filter(lensById.get(`version:${v}`)!.match).length]));
-  let vRemembered = versionMenu(versions, vCounts, majorsMeta, null).remembered;
-  const vGroup = lensBar.querySelector<HTMLElement>(".g-vlens");
-  const vPill = vGroup?.querySelector<HTMLButtonElement>("[data-g-vpill]") ?? null;
-  const vMenu = vGroup?.querySelector<HTMLDetailsElement>(".g-vmenu") ?? null;
-  const vEntries: HTMLButtonElement[] = [];
-  const lensButtons: HTMLButtonElement[] = [];
-  if (vGroup && vPill && vMenu && vRemembered) {
-    vPill.dataset.lens = `version:${vRemembered}`;
-    lensButtons.push(vPill);
-    vMenu.querySelector("ul")!.innerHTML = versionMenu(versions, vCounts, majorsMeta, null).entries
-      .map((e) => `<li><button type="button" data-pick="${esc(e.id)}" title="${esc(e.title)}"><span>${esc(e.label)}</span><span class="mono-meta">${e.count}</span></button></li>`).join("");
-    for (const b of vMenu.querySelectorAll<HTMLButtonElement>("[data-pick]")) {
-      vEntries.push(b);
-      b.addEventListener("click", () => {
-        const id = b.dataset.pick!;
-        vMenu.open = false;
-        // picking the active major clears the lens, as a pressed pill does; the remembered major stays
-        if (lens?.id === id) setLens("", true); else setLens(id, true);
-        vPill.focus();
-      });
-    }
-    vGroup.hidden = false;
-  }
-  const landedLens = barLenses.find((l) => l.id === "landed")!;
-  const landedBtn = document.createElement("button");
-  landedBtn.type = "button"; landedBtn.className = "g-lens"; landedBtn.dataset.lens = landedLens.id; landedBtn.setAttribute("aria-pressed", "false");
-  landedBtn.innerHTML = `<span>${esc(landedLens.label)}</span> <span class="g-lens-n"></span>`;
-  lensButtons.push(landedBtn);
-  for (const b of lensButtons) b.addEventListener("click", () => setLens(lens?.id === b.dataset.lens ? "" : b.dataset.lens!, true));
-  // the home page's questions menu (D70) stays first, top left, then the version pill, then "this week"
-  const ask = lensBar.querySelector(".g-ask:not(.g-vmenu)");
-  if (vGroup && !vGroup.hidden) vGroup.after(landedBtn); else if (ask) ask.after(landedBtn); else lensBar.prepend(landedBtn);
+  /** D92: the Lenses menu, with the count each entry would light; rebuilt when it opens, so "this week" follows the kind pills. */
+  const menuLenses = lenses.filter((l) => ["Version", "Time", "Type", "Tier", "Coverage"].includes(l.group));
+  const renderLensMenu = () => {
+    const counts = new Map(menuLenses.map((l) => [l.id, g.nodes.filter(l.match).length]));
+    lensMenuEl.querySelector("ul")!.innerHTML = lensMenu(lenses, counts, majorsMeta, lens?.id ?? null).map((grp) =>
+      `<li><p class="g-lm-h" id="g-lm-${grp.id}">${esc(grp.label)}</p><div class="g-lm-row" role="group" aria-labelledby="g-lm-${grp.id}">${grp.entries.map((e) =>
+        `<button type="button" class="g-lm" data-lens="${esc(e.id)}" aria-pressed="${e.on}"${e.title ? ` title="${esc(e.title)}"` : ""}>${esc(e.label)} <small>${e.n}</small></button>`).join("")}</div></li>`).join("");
+  };
 
   const reduce = matchMedia("(prefers-reduced-motion: reduce)");
   let colors: Record<string, string> = {};
@@ -328,9 +301,28 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   };
   const fly = (instant = false) => flyTo(target(), instant, () => { if (level === 3) { focusAt = performance.now(); loop(); } });
 
+  /** D92: the bottom of the controls over the top of the canvas (breadcrumb and bar), relative to the canvas. */
+  const chromeBottom = (): number => {
+    const o = canvas.getBoundingClientRect();
+    let b = 0;
+    for (const el of root.querySelectorAll<HTMLElement>(".g-crumbs, .g-bar")) {
+      const r = el.getBoundingClientRect();
+      if (r.width && r.height) b = Math.max(b, r.bottom - o.top);
+    }
+    return b;
+  };
+  /** D92: where ports, tilt planes and the list view start: 8 px under the measured bar, whatever its height. */
+  let top = 96;
+  const measureTop = (): boolean => {
+    const t = Math.round(chromeBottom() + 8);
+    if (t === top) return false;
+    top = t; root.style.setProperty("--g-top", `${t}px`);
+    return true;
+  };
   const resize = () => {
     const r = canvas.getBoundingClientRect();
     if (!r.width || !r.height) return;
+    measureTop();
     W = r.width; H = r.height; dpr = window.devicePixelRatio || 1;
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
     root.classList.toggle("g-mobile", mobile());
@@ -398,19 +390,22 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     // the system in view: Learn tree guides and namespace plots (decorative: the panel and the list carry the facts)
     const scope = scopeSys();
+    const plotLabels: (Box & { text: string; a: number })[] = [];
     if (scope) {
       const k = level >= 2 ? 1 : smoothstep(0.8, 1, cam.s / sysScale(scope));
       ctx.strokeStyle = colors.tree; ctx.lineWidth = 1; ctx.globalAlpha = 0.7 * k;
       for (const [p, q] of scope.tree ?? []) { const a = byId.get(p), b = byId.get(q); if (a && b) line(toScreen(a.x, a.y), toScreen(b.x, b.y)); }
-      ctx.font = "400 10px var(--font-mono), ui-monospace, monospace"; ctx.textBaseline = "top";
+      // D92: plot labels are collected here and drawn after the captions are placed, only where they hide nothing
+      ctx.font = CANVAS_FONT.plot;
       for (const [path, x, y, w, h, count] of scope.plots ?? []) {
         const p = toScreen(x, y), sw = w * cam.s, sh = h * cam.s;
         if (sw < 3 || sh < 3 || p.x > W || p.y > H || p.x + sw < 0 || p.y + sh < 0) continue;
         ctx.globalAlpha = 0.9 * k; ctx.strokeStyle = colors.plot; ctx.beginPath(); ctx.roundRect(p.x, p.y, sw, sh, Math.min(4, sw / 4)); ctx.stroke();
         if (sw > 70 && sh > 16) {
-          const name = path.split(".").pop()!;
-          ctx.fillStyle = colors.plotLabel; ctx.globalAlpha = 0.85 * k;
-          ctx.fillText(`${name.length > 22 ? `${name.slice(0, 21)}…` : name} ${count}`, p.x + 4, p.y + 3, sw - 8);
+          const name = path.split(".").pop()!, text = `${name.length > 22 ? `${name.slice(0, 21)}…` : name} ${count}`;
+          let tw = plotWidth.get(text);
+          if (tw === undefined) { tw = ctx.measureText(text).width; plotWidth.set(text, tw); }
+          plotLabels.push({ text, x: p.x + 4, y: p.y + 3, w: Math.min(tw, sw - 8), h: 11, a: 0.85 * k });
         }
       }
     }
@@ -451,7 +446,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         const p = toScreen(focusStar.x, focusStar.y), v = visibleRect();
         for (const [sys] of focusStar.cross) {
           const S = sysById.get(sys);
-          if (S) portSpots.push({ sys, ...portSpot(p, toScreen(S.x, S.y), { x0: v.x0 + 24, y0: v.y0 + 110, x1: v.x1 - 24, y1: v.y1 - 56 }) });
+          if (S) portSpots.push({ sys, ...portSpot(p, toScreen(S.x, S.y), { x0: v.x0 + 24, y0: top + 22, x1: v.x1 - 24, y1: v.y1 - 56 }) });
         }
         placePorts();
         if (kOut > 0 && !mobile()) for (const spot of portSpots) {
@@ -462,14 +457,26 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       }
     }
     if (!portSpots.length) placePorts();
-    // stars
+    // stars: a visibility pass first (D92: the captions are placed around the visible stars, then the plot labels where
+    // they hide nothing), then the stars are painted, then the caption plates on top
     const shown: { n: Node; p: { x: number; y: number }; d: number }[] = [];
+    const drawn: { n: Node; p: { x: number; y: number }; d: number; a: number; active: boolean }[] = [];
     const lensV = lens?.version;
     for (const n of g.nodes) {
       const p = toScreen(n.x, n.y), d = diameter(n);
       if (p.x < -d || p.y < -d || p.x > W + d || p.y > H + d) continue;
       const active = n === focusStar || n === hover || n === mark;
       const a = active ? 1 : alpha(n);
+      drawn.push({ n, p, d, a, active });
+      if (a > 0.25 || active) shown.push({ n, p, d });
+    }
+    const taken = placeSystemLabels();
+    const captions = placeStarLabels(shown, taken, t);
+    if (plotLabels.length) {
+      ctx.font = CANVAS_FONT.plot; ctx.textBaseline = "top"; ctx.fillStyle = colors.plotLabel;
+      for (const i of visibleLabels(plotLabels, taken)) { const l = plotLabels[i]; ctx.globalAlpha = l.a; ctx.fillText(l.text, l.x, l.y, l.w); }
+    }
+    for (const { n, p, d, a, active } of drawn) {
       const obsolete = !!lensV && !!n.ob?.includes(lensV);
       ctx.globalAlpha = a;
       ctx.fillStyle = active ? colors.starActive : colors[n.group] ?? colors.field;
@@ -487,7 +494,6 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         else if (!lensV) { ctx.strokeStyle = colors.accent; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 4, 0, Math.PI * 2); ctx.stroke(); }
       }
       if (n === mark) { ctx.strokeStyle = colors.accent; ctx.lineWidth = 2; ctx.globalAlpha = 1; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 8, 0, Math.PI * 2); ctx.stroke(); }
-      if (a > 0.25 || active) shown.push({ n, p, d });
     }
     // media bodies beside the hubs of the system in view: triangle video, bar post, accent when landed this week
     if (level >= 2 && focusSys) {
@@ -519,11 +525,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       }
     }
     ctx.globalAlpha = 1;
-    drawStarLabels(shown, placeSystemLabels(), t);
+    paintStarLabels(captions);
   }
 
   // tilt (A): the planes of the system in view, things sliding from their flat spot to their plane, lines between planes
-  const planesNow = (): Plane[] => planeGeometry({ x0: 24, y0: 112, x1: W - panelW() - 24, y1: H - 36 }, folded);
+  const planesNow = (): Plane[] => planeGeometry({ x0: 24, y0: top, x1: W - panelW() - 24, y1: H - 36 }, folded);
   /** Every thing's spot on its plane at the current tilt (flat spot when tilt is 0). */
   function spotOf(th: Thing, planes: Plane[]): { x: number; y: number } | null {
     const f = layers!, plane = planes[PLANES.indexOf(th.plane)];
@@ -606,7 +612,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const plots = focusSys!.plots ?? [];
       const totals = plots.map(() => [0, 0]);
       f.objects.forEach((o, i) => { const pi = objPlot[i]; if (pi >= 0) { totals[pi][0]++; if (o[3] > 0) totals[pi][1]++; } });
-      ctx.font = "400 10px var(--font-mono), ui-monospace, monospace"; ctx.textBaseline = "top";
+      ctx.font = CANVAS_FONT.plot; ctx.textBaseline = "top";
       plots.forEach(([path, x, y, w, h], i) => {
         const q = [onCode(x, y), onCode(x + w, y), onCode(x + w, y + h), onCode(x, y + h)];
         drawnTiles.push({ i, q });
@@ -662,7 +668,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const p = spotOf(hoverThing, planes);
       if (p) {
         const text = short(thingLabel(hoverThing), 48);
-        ctx.font = "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif"; ctx.textBaseline = "middle";
+        ctx.font = CANVAS_FONT.caption; ctx.textBaseline = "middle";
         const w = ctx.measureText(text).width + 10;
         ctx.globalAlpha = 0.9; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(p.x + 8, p.y - 10, w, 20, 3); ctx.fill();
         ctx.globalAlpha = 1; ctx.fillStyle = colors.text; ctx.fillText(text, p.x + 13, p.y);
@@ -722,23 +728,27 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       ports.innerHTML = want.map(([sys, count, kind, named]) => `<button type="button" class="g-port" data-port="${esc(sys)}" style="--dot: var(--sys-${esc(sys)})"><b>${esc(sysById.get(sys)?.label ?? sys)} →</b><small>${count} ${esc(KIND[kind] ?? kind)} · ${esc(named.map((x) => short(targetLabel(x), 22)).join(", "))}</small></button>`).join("");
       for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
     }
-    // each port at its edge spot, then pushed along the edge until it overlaps no earlier port
-    const placed: Rect[] = [];
-    for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) {
-      const s = portSpots.find((x) => x.sys === b.dataset.port);
-      b.hidden = !s;
-      if (!s) continue;
-      const w = b.offsetWidth || 160, h = b.offsetHeight || 40, x1 = W - panelW() - w - 8, y1 = H - h - 8;
-      const r = { x: Math.min(Math.max(8, s.x - w / 2), x1), y: Math.min(Math.max(96, s.y - h / 2), y1), w, h };
-      const vertical = r.x <= 8 || r.x >= x1;
-      for (let i = 0; i < 12 && placed.some((o) => hit(r, { x: o.x - 4, y: o.y - 4, w: o.w + 8, h: o.h + 8 })); i++) {
-        if (vertical) r.y = r.y + h + 8 > y1 ? 96 + ((r.y + h + 8) % Math.max(1, y1 - 96)) : r.y + h + 8;
-        else r.x = r.x + w + 8 > x1 ? 8 + ((r.x + w + 8) % Math.max(1, x1 - 8)) : r.x + w + 8;
-      }
-      placed.push(r);
-      s.x = r.x + w / 2; s.y = r.y + h / 2;
-      b.style.transform = `translate(${Math.round(r.x)}px, ${Math.round(r.y)}px)`;
+    // D92: each port at its edge spot under the bar; one that would overlap another port, the legend, the nav buttons
+    // or the focused star with its caption takes the nearest free slot on the border, and with none left it is hidden
+    // (the panel's "Crosses into other systems" lists it all the same)
+    const btns = [...ports.querySelectorAll<HTMLButtonElement>("[data-port]")];
+    const live = btns.map((b) => ({ b, s: portSpots.find((x) => x.sys === b.dataset.port) })).filter((x): x is { b: HTMLButtonElement; s: { sys: string; x: number; y: number } } => { x.b.hidden = !x.s; return !!x.s; });
+    if (!live.length) return;
+    const v = visibleRect();
+    const obstacles: Box[] = [legend, prevBtn.parentElement!, levelEl].map(boxOf).filter((r) => r.w > 8 && r.h > 8);
+    if (focusStar) {
+      const p = toScreen(focusStar.x, focusStar.y), d = diameter(focusStar);
+      let capW = textWidth.get(focusStar.id);
+      if (capW === undefined) { ctx.font = CANVAS_FONT.caption; capW = ctx.measureText(focusStar.label.length > 40 ? `${focusStar.label.slice(0, 38)}…` : focusStar.label).width + 10; }
+      obstacles.push({ x: p.x - d / 2 - 6 - capW, y: p.y - 10, w: 2 * capW + d + 12, h: 20 });
     }
+    const boxes = packPorts(live.map(({ b, s }) => ({ x: s.x, y: s.y, w: b.offsetWidth || 160, h: b.offsetHeight || 40 })), { x0: 8, y0: top, x1: v.x1 - 8, y1: v.y1 - 8 }, obstacles);
+    live.forEach(({ b, s }, i) => {
+      const r = boxes[i];
+      if (!r) { b.hidden = true; portSpots = portSpots.filter((x) => x !== s); return; }
+      s.x = r.x + r.w / 2; s.y = r.y + r.h / 2;
+      b.style.transform = `translate(${Math.round(r.x)}px, ${Math.round(r.y)}px)`;
+    });
   }
   const short = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
   const targetLabel = (t: Target) => (typeof t === "string" ? byId.get(t)?.label ?? t : t[1]);
@@ -764,11 +774,13 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     labels.append(b); sysButtons.set(s.id, b);
   }
   const sysOrder = [...g.systems].sort((a, b) => b.r - a.r);
-  /** Screen areas the toolbar, breadcrumb, lens bar, legend and level indicator occupy: no label goes under them. */
-  const chromeRects = (): Rect[] => [crumbs, root.querySelector<HTMLElement>(".g-tools")!, lensBar, legend, levelEl, prevBtn.parentElement!, ...ports.querySelectorAll<HTMLElement>(".g-port:not([hidden])"), ...(panelOpen ? [panel] : [])].map((el) => {
+  /** Screen areas the breadcrumb, the bar's two groups (not its empty middle), legend and level indicator occupy: no label goes under them. */
+  /** An element's box relative to the canvas, 4 px larger on every side. */
+  const boxOf = (el: HTMLElement): Rect => {
     const r = el.getBoundingClientRect(), o = canvas.getBoundingClientRect();
     return { x: r.left - o.left - 4, y: r.top - o.top - 4, w: r.width + 8, h: r.height + 8 };
-  }).filter((r) => r.w > 8 && r.h > 8);
+  };
+  const chromeRects = (): Rect[] => [crumbs, lensBar, viewBar, legend, levelEl, prevBtn.parentElement!, ...ports.querySelectorAll<HTMLElement>(".g-port:not([hidden])"), ...(panelOpen ? [panel] : [])].map(boxOf).filter((r) => r.w > 8 && r.h > 8);
   function placeSystemLabels(): Rect[] {
     const taken: Rect[] = chromeRects();
     for (const s of sysOrder) {
@@ -787,13 +799,17 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
   // star labels on the canvas (D44): each star's caption has a zoom threshold from its weight rank in its system and
   // fades in over a zoom window, brightest first, placed only where there is room; the focused, hovered and marked
-  // stars always get theirs, lens matches next. A caption placed last frame keeps its slot (hysteresis).
+  // stars always get theirs, lens matches next. A caption placed last frame keeps its slot (hysteresis). D92: a caption
+  // takes the spot around its star (right, left, below, above) that covers the fewest other stars, and gives way when
+  // even that one covers more than CAPTION_MAX_COVER; last frame's spot wins a tie, so captions do not hop while zooming.
   let prevPlaced = new Set<string>();
   const placedAt = new Map<string, number>();
+  let prevSpot = new Map<string, CaptionSpot>();
   const textWidth = new Map<string, number>();
-  function drawStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[], now: number) {
-    ctx.font = "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif";
-    ctx.textBaseline = "middle";
+  const plotWidth = new Map<string, number>();
+  type Caption = { r: Box; text: string; alpha: number };
+  function placeStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[], now: number): Caption[] {
+    ctx.font = CANVAS_FONT.caption;
     const forced = (n: Node) => n === focusStar || n === hover || n === mark;
     const near = level === 3 && focusStar ? new Set(adj.get(focusStar.id) ?? []) : null;
     const scope = scopeSys();
@@ -813,7 +829,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       .sort((a, b) => pri(b.n) - pri(a.n));
     const lensCap = lens ? 30 : Infinity, max = mobile() ? 0 : narrow() ? 30 : 60;
     const v = visibleRect();
-    const placed = new Set<string>();
+    // the stars a caption keeps off: the visible ones in view, at system and star level and zoomed into a system by hand
+    const avoid: Box[] = level >= 2 || eff ? shown.filter(({ p }) => p.x >= v.x0 && p.x <= v.x1 && p.y >= v.y0 && p.y <= v.y1).map(({ p, d }) => ({ x: p.x - d / 2, y: p.y - d / 2, w: d, h: d })) : [];
+    const placed = new Set<string>(), spots = new Map<string, CaptionSpot>(), out: Caption[] = [];
     labelsFading = false;
     let count = 0, lensCount = 0;
     for (const { n, p, d, a } of cands) {
@@ -823,9 +841,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const text = n.label.length > 40 ? `${n.label.slice(0, 38)}…` : n.label;
       let w = textWidth.get(n.id);
       if (w === undefined) { w = ctx.measureText(text).width + 10; textWidth.set(n.id, w); }
-      const r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
-      if (r.x + w > v.x1) r.x = p.x - d / 2 - 6 - w;
-      if (!isForced && (r.x < v.x0 || r.x + w > v.x1 || r.y < v.y0 || r.y + r.h > v.y1 || taken.some((o) => hit(r, o)))) continue;
+      const s = captionSpot({ x: p.x, y: p.y, d }, w, v, taken, avoid, isForced ? Infinity : CAPTION_MAX_COVER, prevSpot.get(n.id));
+      let r: Box;
+      if (s) { r = s.box; spots.set(n.id, s.spot); }
+      else if (isForced) {
+        // a forced caption with no valid spot: today's right spot, or the left one at the view's right edge
+        r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
+        if (r.x + w > v.x1) r.x = p.x - d / 2 - 6 - w;
+      } else continue;
       taken.push(r); placed.add(n.id); count++;
       if (lens && lensSet.has(n.id)) lensCount++;
       // a caption that just found room fades in over 300 ms (not under reduced motion)
@@ -834,11 +857,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         const since = now - (placedAt.get(n.id) ?? (placedAt.set(n.id, now), now));
         if (since < 300) { alpha *= since / 300; labelsFading = true; }
       }
+      out.push({ r, text, alpha });
+    }
+    for (const id of placedAt.keys()) if (!placed.has(id)) placedAt.delete(id);
+    prevPlaced = placed; prevSpot = spots;
+    return out;
+  }
+  function paintStarLabels(captions: Caption[]) {
+    ctx.font = CANVAS_FONT.caption;
+    ctx.textBaseline = "middle";
+    for (const { r, text, alpha } of captions) {
       ctx.globalAlpha = 0.82 * alpha; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(r.x, r.y, r.w, r.h, 3); ctx.fill();
       ctx.globalAlpha = alpha; ctx.fillStyle = colors.text; ctx.fillText(text, r.x + 5, r.y + 10);
     }
-    for (const id of placedAt.keys()) if (!placed.has(id)) placedAt.delete(id);
-    prevPlaced = placed;
     ctx.globalAlpha = 1;
   }
 
@@ -851,7 +882,6 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   function setLens(id: string, keepScope = false) {
     leaveSearch();
     lens = lensById.get(id) ?? null;
-    if (lens?.version) vRemembered = lens.version; // D72: a deep link, the menu or a question entry sets the pill
     lensSet = new Set(lens ? g.nodes.filter(lens.match).map((n) => n.id) : []);
     lensLines = [];
     if (lens?.lines) {
@@ -864,19 +894,18 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         lensLines.push(best); inTree.add(best[1]);
       }
     }
-    lensSel.value = lens && !barLenses.includes(lens) ? lens.id : "";
     if (lens && !keepScope) { level = 1; focusSys = null; focusStar = null; }
     if (lens && level === 3 && focusStar && !lensSet.has(focusStar.id)) { level = 2; focusStar = null; }
     update();
   }
-  const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; lensSel.value = ""; };
+  const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; };
   /** A search as an ad-hoc lens (D44): the hits with a star light up, systems with star-less hits glow, the panel lists both. */
   function setSearch(h: SearchHits | null) {
     const had = !!lens?.search;
     if (!h) { if (had) { lens = null; lensSet.clear(); lensLines = []; update(); } return; }
     const set = new Set(h.ids);
     lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, stars: h.stars, pages: h.pages, total: h.total };
-    lensSet = set; lensLines = []; lensSel.value = "";
+    lensSet = set; lensLines = [];
     if (!had && level > 1) { level = 1; focusSys = null; focusStar = null; update(); return; }
     // typing never moves the camera; the panel does not auto-open on narrow screens (the soft keyboard is up)
     if (!had) panelOpen = userPanel ?? !narrow();
@@ -1162,16 +1191,16 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     levelEl.textContent = ["", "galaxy", "system", "star"][level];
     prevBtn.hidden = nextBtn.hidden = level !== 2;
     root.dataset.level = String(level);
-    if (vPill && vRemembered) {
-      vPill.dataset.lens = `version:${vRemembered}`;
-      vPill.querySelector("span")!.textContent = `changed in BC${vRemembered}`;
-      vPill.title = majorsMeta[vRemembered]?.label ?? `BC${vRemembered}`;
-      for (const b of vEntries) { if (lens?.id === b.dataset.pick) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); }
+    // D92: the chip names the lens that is on, with the stars it lights; the menu presses its entry
+    chip.hidden = !lens;
+    if (lens) {
+      const c = lensChip(lens.label, lensSet.size), [text, n] = chip.querySelectorAll("span");
+      text.textContent = c.text; n.textContent = c.count; chip.setAttribute("aria-label", c.aria);
+      if (c.title) chip.title = c.title; else chip.removeAttribute("title");
     }
-    for (const b of lensButtons) {
-      const on = lens?.id === b.dataset.lens;
-      b.setAttribute("aria-pressed", String(on)); b.classList.toggle("on", on);
-      b.querySelector(".g-lens-n")!.textContent = on ? String(lensSet.size) : "";
+    for (const b of lensMenuEl.querySelectorAll<HTMLButtonElement>(".g-lm")) {
+      const id = b.dataset.lens!;
+      b.setAttribute("aria-pressed", String(id === "pick:localization" ? !!lens?.id.startsWith("loc:") : id === "pick:source" ? !!lens?.id.startsWith("src:") : lens?.id === id));
     }
     // D87: the key says what the canvas draws at this level, on every level
     legend.innerHTML = legendItems(level, lens?.id).map((k) => `<span class="lg-${k}" aria-hidden="true"></span>${LEGEND[k]}`).join(" ");
@@ -1202,9 +1231,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     panelOpen = mobile() || (userPanel ?? ((level >= 2 || !!lens || !introSeen()) && !narrow())); // D87: open on the galaxy level until the reader has read what a star is
     renderPanel(); renderChrome(); renderTable(); setHash(); fly(instant);
   }
-  function goGalaxy() { level = 1; focusSys = null; focusStar = null; arrival = null; if (lens && !lens.search && !barLenses.includes(lens)) clearLens(); update(); }
+  function goGalaxy() { level = 1; focusSys = null; focusStar = null; arrival = null; if (lens && !lens.search && !scopeLenses.includes(lens)) clearLens(); update(); }
   function goSystem(s: Sys, fromPort = false, keepLens = false) {
-    if (!lens?.search && !keepLens && !(lens && barLenses.includes(lens))) clearLens();
+    if (!lens?.search && !keepLens && !(lens && scopeLenses.includes(lens))) clearLens();
     if (!fromPort) arrival = null;
     if (focusSys !== s) flatten();
     level = 2; focusSys = s; focusStar = null; update();
@@ -1232,7 +1261,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   nextBtn.addEventListener("click", () => step(1));
   listBtn.addEventListener("click", () => { userPanel = !panelOpen; update(); });
   viewBtn.addEventListener("click", () => { listView = !listView; renderTable(); renderChrome(); setHash(); if (listView) table.querySelector<HTMLElement>("button")?.focus(); else redraw(); });
-  lensSel.addEventListener("change", () => setLens(lensSel.value));
+  // D92: the Lenses menu. A pick closes it and returns focus to "Lenses"; a country or source entry opens the panel
+  // picker instead; the pressed entry clears the lens. The chip clears it too.
+  lensMenuEl.addEventListener("toggle", () => { if (lensMenuEl.open) renderLensMenu(); });
+  lensMenuEl.querySelector("ul")!.addEventListener("click", (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>(".g-lm");
+    if (!b) return;
+    const id = b.dataset.lens!, on = b.getAttribute("aria-pressed") === "true";
+    lensMenuEl.open = false;
+    if (id.startsWith("pick:") && !on) { openPicker(id.slice(5)); return; }
+    setLens(on ? "" : id, scopeLenses.some((l) => l.id === id));
+    lensSummary.focus();
+  });
+  chip.addEventListener("click", () => { setLens("", true); lensSummary.focus(); });
   // the tilt control: a labelled range that follows the hand and snaps to flat or tilted on release
   tiltInput.addEventListener("input", async () => {
     const v = Number(tiltInput.value) / 100;
@@ -1351,6 +1392,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       return;
     }
     if ((e.target as HTMLElement).closest("select, input, .g-table")) return;
+    // D92: arrow keys on the bar's controls never fly the galaxy
+    if (e.key.startsWith("Arrow") && (e.target as HTMLElement).closest(".g-bar")) return;
     const dir: Record<string, [number, number]> = { ArrowRight: [1, 0], ArrowLeft: [-1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] };
     if (level === 3 && dir[e.key] && !(e.target as HTMLElement).closest(".g-panel")) {
       const n = nearestIn(...dir[e.key]);
@@ -1364,6 +1407,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     if ((e.key === "t" || e.key === "T") && level === 2) setTilt(tilt > 0 ? 0 : 1);
   });
   new ResizeObserver(() => resize()).observe(root);
+  // D92: the bar wraps to more rows as controls come and go; whatever it measures sets where ports, planes and the list start
+  const topObserver = new ResizeObserver(() => { if (measureTop()) redraw(); });
+  for (const el of root.querySelectorAll<HTMLElement>(".g-crumbs, .g-bar")) topObserver.observe(el);
   addEventListener("bcobs-theme", () => { readColors(); redraw(); });
   matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => { readColors(); redraw(); });
 
@@ -1389,15 +1435,21 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     if (star) goStar(star); else if (sys) { goSystem(sys); if (h.get("tilt") === "1") setTilt(1, true); } else if (!pick && !listView) return false;
     // #lens=pick:source or pick:localization: open the lens picker on that group (the home page's question entries)
-    if (pick) {
-      const grp = { source: "Source", localization: "Localization" }[pick];
-      const first = lenses.find((x) => x.group === grp);
-      if (first) { lensSel.focus(); lensSel.value = ""; panelOpen = true; renderPanel(); panelBody.innerHTML = `<p class="g-kicker">lens</p><h2 tabindex="-1">Pick a ${esc(pick)}</h2><p class="g-meta">Choose one in the lens list above: the galaxy lights up where it touches Business Central.</p><ul class="g-list">${pickerRows(lenses, g.nodes, grp ?? "").map((x) => `<li><button type="button" data-pick="${esc(x.id)}">${PICK_MARK[x.marker]}<span>${esc(x.label)}</span><small>${x.n}</small></button></li>`).join("")}</ul>`; for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-pick]")) b.addEventListener("click", () => setLens(b.dataset.pick!)); }
-    }
+    if (pick) openPicker(pick);
     if (listView && !star && !sys) { renderTable(); renderChrome(); }
     return true;
   };
+  /** The lens picker on the panel (D78): `#lens=pick:source|localization`, or the menu's Country and Source entries (D92). */
+  function openPicker(pick: string) {
+    const grp = ({ source: "Source", localization: "Localization" } as Record<string, string>)[pick];
+    if (!grp || !lenses.some((x) => x.group === grp)) return;
+    panelOpen = true; renderPanel(); renderChrome();
+    panelBody.innerHTML = `<p class="g-kicker">lens</p><h2 tabindex="-1">${pick === "localization" ? "Pick a country" : "Pick a source"}</h2><p class="g-meta">Choose one: the galaxy lights up where it touches Business Central.</p><ul class="g-list">${pickerRows(lenses, g.nodes, grp).map((x) => `<li><button type="button" data-pick="${esc(x.id)}">${PICK_MARK[x.marker]}<span>${esc(x.label)}</span><small>${x.n}</small></button></li>`).join("")}</ul>`;
+    for (const b of panelBody.querySelectorAll<HTMLButtonElement>("[data-pick]")) b.addEventListener("click", () => setLens(b.dataset.pick!));
+    panelBody.querySelector<HTMLElement>("h2")?.focus({ preventScroll: true });
+  }
   addEventListener("hashchange", () => { if (fromHash()) root.scrollIntoView({ block: "start", behavior: reduce.matches ? "auto" : "smooth" }); });
+  renderLensMenu();
   resize();
   const linked = fromHash();
   if (!linked) update(true);

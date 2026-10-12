@@ -1,7 +1,7 @@
 # Galaxy controls: one Lenses menu beside the view tools, and captions and ports that keep off what they would hide
 
-Status: proposed, 2026-10-12. Decision: D92 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M30
-(reserved). Owner: waldo.
+Status: built 2026-10-12 on `build/galaxy-controls` (phases B, C, A; deviations and measurements in section 12).
+Decision: D92 (text for `docs/DECISIONS.md` in section 12). Milestone: M30. Owner: waldo.
 Scope: the home galaxy's lens bar and tools (`site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`), the
 caption, plot label and port placement on its canvas, and their pure helpers (`site/src/scripts/galaxy-core.ts`,
 `site/src/scripts/galaxy-labels.ts`). Items D3 and D6 of `docs/research/2026-10-12-ux-review.md`. Every claim below
@@ -729,32 +729,233 @@ Not changed, checked: `site/src/components/PageGalaxy.astro`, `site/src/scripts/
 - D92 appended, PLAN M30 marked shipped, HANDOFF entry moved to shipped, RUNBOOK line added, this section 12 renamed
   "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-`docs/DECISIONS.md`, appended at ship time: the D92 text of section 3, with the measured "after" numbers in place of
-the simulated ones, and "Spec: `docs/specs/galaxy-controls.md`."
+Built 2026-10-12 on `build/galaxy-controls` from `04b705c8fb`, in the suggested order B, C, A, tests first:
+`a26d3c3b0a` (B), `454c820e23` (C), `379fcc38b0` (A), `445e34aaeb` (the probe's frame). Measured on a local build of
+`379fcc38b0` with the 2026-10-12 content against the build of `04b705c8fb` on the same content
+(`waldo.BCObservatory-build-base/site/dist`), headless Chromium (Playwright 1.63.0), `scripts/galaxy-density.mjs`.
+On the base build the probe reproduced every "before" number of sections 1.2 and 7.3 exactly.
 
-`docs/PLAN.md` section 5, before the `v0.2+` row:
+### 12.1 What was built, per phase
+
+- **B, captions and plot labels.** `galaxy-labels.ts`: `Box`, `CANVAS_FONT`, `CAPTION_MAX_COVER = 1`, `captionSpot`,
+  `visibleLabels` (tests 6 to 8 plus edge cases: touching boxes, no spot in view, a forced caption). `galaxy.ts`: every canvas `font` is a `CANVAS_FONT` literal; `draw()`
+  collects the plot labels in the plot loop, runs the star visibility pass without painting, places the system labels
+  and the captions (`placeStarLabels`, which calls `captionSpot` with the visible stars in view at system and star
+  level and under `eff`, an empty list at galaxy level, last frame's spot as `prev`, `Infinity` for a forced caption
+  with today's right or left spot as fallback), draws the plot labels `visibleLabels` keeps, paints the stars, media
+  bodies and rings, then the caption plates (`paintStarLabels`). `scripts/galaxy-density.mjs` is the probe of 7.1.
+- **C, ports.** `packPorts` in `galaxy-core.ts` (test 4). `galaxy.ts`: `chromeBottom()` and `top` (8 px under the
+  measured breadcrumb and bar, set as `--g-top` on the galaxy, re-measured in `resize()` and by a `ResizeObserver` on
+  the breadcrumb and bar); `placePorts` packs the ports into `{ x0: 8, y0: top, x1: v.x1 - 8, y1: v.y1 - 8 }` around
+  the legend, nav, level and the focused star with both caption spots, and hides a port with no slot; the port spots
+  start at `top + 22`; `planesNow` starts at `top`; `.g-table` starts at `var(--g-top)`.
+- **A, the two groups.** `lensMenu` and `lensChip` in `galaxy-core.ts` (tests 1 to 3 and 5). `Galaxy.astro`: the DOM
+  order of 4.3 (breadcrumb, bar, labels, ports, planes, list view, legend, nav, level, panel), `div.g-bar` with
+  `div.g-lensbar[role=group]` (Questions, `details.g-lensmenu`, the chip) and `div.g-viewbar[role=group]` (List view,
+  Tilt, Planes, zoom, Show panel, Full screen, "?"), the CSS of 4.3 and the removals listed there; `role="toolbar"`,
+  the select, the version pill and the this-week chip are gone. `galaxy.ts`: `renderLensMenu` (at mount and when the
+  menu opens), one delegated click handler on the menu, the chip in `renderChrome`, `openPicker` (used by the hash and
+  the menu), the keydown guard for arrow keys inside `.g-bar`, `chromeRects` on the two groups, `barLenses` renamed
+  `scopeLenses`. `scripts/ui-sweep.mjs` reads its lens states from the menu.
+
+### 12.2 Deviations
+
+1. **`captionSpot`'s own dot** is a box *centred* on the star (within half a pixel), not any box that *contains* the
+   star's centre. The objects of a namespace plot are squares up to 26 px that overlap; with the contract's rule a
+   neighbour holding the star's centre was ignored, and a caption sat on it (Finance at 1440: "Working with Value Added
+   Tax (VAT)" covered two stars with the cap at one). Measured on the 84 states with phases B and C, before A: captions
+   over a star at system level, 1440 px, 22 to 20 (the target is at most 20); caption-star pairs 85 to 82. Test 6's cases hold unchanged; two cases
+   were added.
+2. **The port area's right and bottom** come from the visible rectangle (`v.x1 - 8`, `v.y1 - 8`), not `W - panelW() -
+   8` and `H - 8`. Identical above 720 px; from 481 to 720 px, with the panel as a bottom sheet, the ports stay above
+   the sheet instead of under it.
+3. **`.g-table` at 720 px and below** also starts at `var(--g-top)` (fallback 136 px, today's value); 4.3 named only
+   the desktop inset.
+4. **`.g-tilt` takes the tools' look**: 13 px UI font, `--r-card` corners, the tools' surface and text colour, besides
+   the 36 px height and the 80 px range of 4.3 (the range keeps the accent). Section 2.1 asks the view toggles to take
+   the tools' look; a mono accent label between `List view` and `−` read as a lens.
+5. **`chromeBottom()`** measures `.g-crumbs` and `.g-bar` once phase A is in (the bar holds both groups). In the C
+   commit, before A, it measured `.g-crumbs, .g-bar, .g-lensbar, .g-tools, .g-viewbar` as 4.4 says.
+6. **`openPicker`** also calls `renderChrome()`, so the breadcrumb, key, chip and the menu's pressed state follow a
+   `#lens=pick:` link (before, the first render of such a link left the breadcrumb empty). It leaves a lens that is on
+   until the reader picks a row (the spec is silent).
+7. **The ui-sweep** also visits one `loc:` and one `src:` lens (the first of each by label, from `summary.json`),
+   because the menu offers those groups only as pickers; the sweep keeps the coverage it had through the select's
+   optgroups. 23 states per width, 46 in all.
+8. **The probe** takes an optional build folder (`node scripts/galaxy-density.mjs <dist>`, for the before), honours
+   `SWEEP_PORT` (default 4189), `SYSTEMS`, `PARTS` (`states`, `bar`) and `DENSITY_JSON`, measures the four named systems
+   at 1280 px too (the 24-state target), counts bar rows over the visible children of `.g-lensbar` and `.g-viewbar`,
+   and measures the bar against the canvas (the section has a 1 px top border; against the section every bottom read
+   1 px lower than the spec's).
+9. **Added, small:** a hover state on the menu chips (`.g-lm:hover`, as the other chips have); the scoped
+   `.galaxy select:focus-visible` rule went with the select; the chip's accent rule is `.g-lensbar .g-chip`, because a
+   bare `.g-chip` loses to `.g-lensbar .g-lens`.
+10. **Risk 9 came true, within the targets:** the real pass admits lower-ranked captions into freed spots (453 placed
+    against 370 simulated), so captions over a star at system level land on the targets (20 and 25), not on the
+    simulated 14 and 19. `CAPTION_MAX_COVER` stays 1.
+11. The canvas serialises the plot font `400 10px 'JetBrains Mono', ...` as `10px "JetBrains Mono", ui-monospace,
+    monospace` (400 is the default weight); that is the string the probe reports.
+12. Seen, not changed (outside the scope): `.g-legend { display: flex }` overrides its `hidden` attribute, so the key
+    still shows while a system is tilted (D87 meant it hidden there; on phones the 720 px rule hides it).
+
+### 12.3 Measured, before and after
+
+Overlaps (sums over 21 systems; system level `#system=<id>`, star level `#star=<heaviest star with cross>`; panel
+open; before = `04b705c8fb`, after = `379fcc38b0`):
+
+| | 1440 system | 1440 star | 1024 system | 1024 star |
+|---|---|---|---|---|
+| captions placed | 118 to 128 | 103 to 129 | 113 to 114 | 66 to 82 |
+| captions over at least one other star | 43 to 20 | 40 to 22 | 56 to 25 | 24 to 14 |
+| caption-star pairs | 91 to 20 | 83 to 22 | 144 to 25 | 52 to 14 |
+| caption-caption overlaps | 0 to 0 | 0 to 0 | 0 to 0 | 0 to 0 |
+| ports drawn (hidden) | 0 | 89 to 89 (0) | 0 | 89 to 89 (0) |
+| port-port overlaps (states) | - | 13 (5) to 0 | - | 17 (7) to 0 |
+| port over a caption | - | 0 to 0 | - | 6 to 0 |
+| port over the bar (states) | - | 0 to 0 | - | 20 (11) to 0 |
+| port over at least one star | - | 19 to 13 | - | 37 to 36 |
+| plot labels drawn; over a caption; under a port | 75 to 61; 11 to 0; - | 207 to 159; 15 to 0; 14 to 0 | 39 to 30; 10 to 0; - | 153 to 78; 7 to 0; 18 to 0 |
+
+The targets of 7.3:
+
+| Measure | Before | After | Target |
+|---|---|---|---|
+| caption-caption overlaps, 84 states | 0 | 0 | 0 |
+| caption-star pairs, 84 states | 370 | **81** | at most 90 |
+| captions placed, 84 states | 400 | **453** | at least 355 |
+| captions over a star, system level, 1440 / 1024 | 43 / 56 | **20 / 25** | at most 20 / 25 |
+| caption-star pairs, the four named systems at 1440, 1280, 1024, both levels (24 states) | 251 | **52** (captions 154 to 179) | at most 60 |
+| plot labels drawn in the caption font | all | none: `10px "JetBrains Mono"` | none |
+| plot label over a caption, 1440 / 1024 | 26 / 17 | **0 / 0** | 0 / 0 |
+| plot label under a port, star level, 1440 / 1024 | 14 / 18 | **0 / 0** | 0 / 0 |
+| port-port overlaps, star level, 1440 / 1024 | 13 / 17 | **0 / 0** | 0 / 0 |
+| port over the bar, 1024 | 20 | **0** | 0 |
+| port over a caption, 1024 | 6 | **0** | 0 |
+| ports hidden for lack of a slot | 0 | **0** | 0 |
+| bar at 1440, system level, panel open | lens bar 2 rows, bottom 116 | **1 row, bottom 82** | 1 row, at most 82 |
+| bar at 1024, system level, panel open | 3 rows, bottom 154, plus the tools row | **2 rows, bottom 120** | at most 2 rows, 124 |
+| bar at 768, system level, panel open | 6 rows, bottom 274 | **3 rows, bottom 162** | at most 170 |
+| bar at 390, galaxy level | 3 rows, 124 px (panel at page y 484) | **1 row, 52 px (panel at 412)** | at most 60 px |
+| first Tab stop in the galaxy, 1440 | Finance (system label) | **Questions** | Questions |
+
+Bar rows, height and bottom (relative to the canvas; before, the lens bar alone, the tools row ended at 46):
+
+| Width | Galaxy level, before / after | `#system=finance`, before / after |
+|---|---|---|
+| 1440 x 900 | 1 row, 32 px, 78 / 1 row, 36 px, 82 | 2 rows, 70 px, 116 / 1 row, 36 px, 82 |
+| 1280 x 800 | 1, 32, 78 / 1, 36, 82 | 2, 70, 116 / 1, 36, 82 |
+| 1024 x 768 | 1, 32, 78 / 1, 36, 82 | 3, 108, 154 / 2, 74, 120 |
+| 768 x 1024 | 2, 70, 116 / 1, 36, 82 | 6, 228, 274 / 3, 116, 162 |
+| 390 x 844 (static) | 3, 124 px; panel at page y 484 / 1, 52 px; 412 | 3, 124 px; 492 / 1, 52 px; 420 |
+
+With a lens on, the chip can add a row: `#system=finance&lens=version:29` measured 1 row at 1440, 2 at 1024, 4 rows
+(bottom 200) at 768, 3 rows at 390.
+
+Bytes (`ls -l`, `gzip -9c | wc -c`, `npx tsx scripts/site-size.ts site/dist`):
+
+| File | Before | After | Cap |
+|---|---|---|---|
+| galaxy chunk, raw | 70,627 (`…DZtsN2mx.js`) | 73,729 (`…DI5eisSu.js`), +3,102 | 76,127 |
+| galaxy chunk, gzipped | 24,073 | 25,179, +1,106 | 26,073 |
+| home CSS chunk | 23,327 (`index.KsWXHiti.css`) | 22,784 (`index.C9Dv7T_0.css`), -543 | +1.5 KB |
+| `index.html` | 21,942 | 21,769, -173 | +300 B |
+| Pages tar | 729,118,720 B, 695.3 MB, 59,135 files | 729,118,720 B, 695.3 MB, 59,135 files (apparent +2,386 B) | under 800 MB |
+
+`diff -rq` of the two builds: only `index.html` and its two chunks differ; one HTML file references each chunk; no
+other page, no graph file.
+
+Checks: `npm run typecheck` passes; `npm test` 492 tests, 491 pass, 1 skipped (the model2vec parity test without
+`BC_OBSERVATORY_MODEL_DIR`), 0 fail; `node scripts/ui-sweep.mjs` 46 states, 0 squeezed rows. Headless, dark and
+light, at 1440, 1024, 768, 480 and 390 px: no horizontal scroll, no control outside the bar, no page error; the
+Lenses menu picks BC29 (chip `changed in BC29 97 ×`, the entry pressed, focus back on `Lenses`), picks it again (lens
+off), picks `this week` at system level (scope kept, the Videos, Posts and Code pills in the panel), picks `Pick a
+country` (the picker, heading `Pick a country`, focus on it, a pick lights the country and presses the Country
+entry); Enter opens the menu, Tab enters it, arrows inside it and on `Lenses` and `List view` at system level leave
+the system alone, Esc closes it and refocuses `Lenses`; the chip clears the lens and keeps the scope; a source chip
+reads `Microsoft Dynamics 365 Busi… 251 ×` with the full name in `title`. Deep links land as before: `#lens=landed`,
+`#lens=pick:source`, `#lens=version:29`, `#lens=version:30`, `#lens=pick:localization`, `#lens=coverage`,
+`#lens=landed&kinds=v,p`, `#lens=landed&kinds=c`, `#system=finance&lens=landed&kinds=c`, `#system=finance&tilt=1`,
+`#view=list`, `#star=object%2Ftable%2F18&system=sales`, `#q=sales%20post`, and the header pill clicked on
+`/changes/week/`. Tab order at galaxy level: Questions, Lenses, List view, −, +, Show panel, Full screen, ?, then the
+system labels. At 1024 px with a two-row bar the tilt planes start at 128 and the list view at 128 (bar bottom 120).
+
+### 12.4 For the integrator
+
+`docs/DECISIONS.md`, appended:
 
 ```text
-| **M30 galaxy controls** | the lens bar as two groups (Questions, a Lenses menu and the active-lens chip; List view, Tilt and the tools) in one wrapping bar whose bottom places ports, planes and the list view; captions that avoid covering stars, plot labels in their own font that give way, ports packed on the border (`docs/specs/galaxy-controls.md`, D92, proposed) | 2 days | none: deterministic, no LLM |
+- **D92 The galaxy's controls are two groups, lenses left and view right, and its captions and ports keep off what
+  they would hide.** (D3 of the 2026-10-12 review) The lens bar mixed six control shapes (the Questions menu, a version
+  pill with a caret menu, a "this week" chip, a native "more lenses" select, a "list view" chip, a tilt range or a
+  "planes" toggle) in a bar capped at `calc(100% - 720px)` with the panel open: 304 px and three rows at 1024 px, 48 px
+  and six rows at 768 px. Now the left group holds Questions, one Lenses menu and a chip for the lens that is on (it
+  clears the lens); the menu lists every lens in groups (Version newest first with counts and config labels, Time,
+  Type, Tier, Coverage, and Country and Source as entries that open the panel pickers of D78), built by `lensMenu` in
+  `galaxy-core.ts`. The right group is the view: List view, Tilt (Planes on a phone), zoom, Show panel, Full screen and
+  the "?" sheet. One bar wraps both, and its measured bottom sets where ports, tilt planes and the list view start.
+  Both groups are `role="group"` (the `toolbar` role promised arrow keys nobody implemented, and those arrows flew the
+  galaxy), they come first in the Tab order (Questions was the 22nd Tab stop, now the first), and the hash and every
+  deep link are unchanged. With the panel open on Finance the bar is one row at 1440 px (bottom 116 to 82), two at 1024
+  (154 to 120, and the tools row is gone), bottom 274 to 162 at 768; on a phone one row of 52 px instead of three of
+  124. Amends D71 (the this-week chip becomes a menu entry: on the home page "this week" is two clicks, from Lenses or
+  Questions) and D72 (the version pill and its caret become the menu's Version row; the remembered major goes).
+  (D6) Measured on 21 systems at 1440 and 1024 px: ports already drew only for a focused star and captions never
+  overlapped each other, so the review's two proposals were the behaviour already; what was wrong is that captions
+  covered neighbouring stars (43 of 118 system-level captions at 1440), plot labels drew in the caption font (a canvas
+  `font` cannot take `var()`), and ports overlapped each other (13 and 17 pairs) and, at 1024, the bar (20). Now a
+  caption takes the spot around its star (right, left, below, above) that covers the fewest other stars and is
+  skipped when that is more than one (`captionSpot`, `CAPTION_MAX_COVER = 1`; a box centred on the star is its own dot,
+  so an overlapping object square still counts); on the same 84 states caption-star pairs fell from 370 to 81,
+  captions placed rose from 400 to 453, captions over a star at system level fell from 43 to 20 at 1440 and 56 to 25 at
+  1024. Plot labels are mono 10 px and yield to captions, ports, labels and the bar (`visibleLabels`; over a caption 43
+  to 0, under a port 32 to 0). Ports take the nearest free slot on the canvas border (`packPorts`; port pairs 30 to 0,
+  over the bar 20 to 0, over a caption 6 to 0, none hidden). Home page only: the galaxy chunk grows 3.1 KB raw and
+  1.1 KB gzipped, the home CSS and `index.html` shrink, the Pages tar stays at 695.3 MB, no other page and no graph
+  file changes. `scripts/galaxy-density.mjs` measures all of it. Rejected: a segmented control holding every lens
+  (seven groups and 71 lenses; D72 rejected one for seven versions); keeping the version pill and the this-week chip
+  beside the menu (three of the shapes and most of the width stay); one native `select` for every lens (no counts in
+  a consistent place, no pressed state, no picker for 55 entries); listing the 22 countries and 33 sources in the
+  menu (55 rows; the panel pickers exist); a full ARIA toolbar with roving tabindex (its arrows collide with the
+  galaxy's and the tilt range's); the tools in the breadcrumb row (collides with the breadcrumb at 1024 px); a strict
+  "no caption over any star" (85 of 154 captions kept on the four busiest systems, none for Platform at 1440); media
+  bodies as caption obstacles (no gain on star overlap; later); hiding plot labels (the only canvas text that names
+  the namespace plots). Spec: `docs/specs/galaxy-controls.md`.
 ```
 
-`docs/HANDOFF.md`, "Open specs, not yet implemented":
+`docs/PLAN.md` section 5, the M30 row:
 
 ```text
-- **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Status: proposed 2026-10-12, nothing implemented.
-  Items D3 and D6 of the 2026-10-12 UX review, home page only, three phases that ship alone: B captions that avoid
-  stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
-  Lenses menu. Start with phase B, task 1 (tests 6 to 8 in `tests/unit/galaxy-labels.test.ts`). Until it lands readers
-  see today's bar (three rows at 1024 px with the panel open) and captions over neighbouring stars.
+| **M30 galaxy controls** | the lens bar as two groups (Questions, a Lenses menu and the active-lens chip; List view, Tilt and the tools) in one wrapping bar whose bottom places ports, planes and the list view; captions that avoid covering stars, plot labels in their own font that give way, ports packed on the border (`docs/specs/galaxy-controls.md`, D92, shipped 2026-10-12) | 2 days | none: deterministic, no LLM |
 ```
 
-`docs/RUNBOOK.md`, after the ui-sweep paragraph (`:112-115`): "`node scripts/galaxy-density.mjs` (D92) serves the same
-build and counts overlapping captions, plot labels, ports and stars per system at 1440 and 1024 px, plus the galaxy
-bar's rows and bottom at five widths. Run it after a change to the canvas labels, the ports or the bar."
+`docs/HANDOFF.md`: remove the "Galaxy controls, D92" entry from "Open specs, not yet implemented", and add under a
+"Shipped 2026-10-12" heading in "Where things stand":
 
-`docs/specs/version-lens.md` and `docs/specs/this-week-lens.md`, under the status line: "Later: D92
-(`docs/specs/galaxy-controls.md`) moves the version pill (this-week chip) into the galaxy's Lenses menu."
+```text
+- **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Items D3 and D6 of the 2026-10-12 UX review, home
+  page only. The galaxy's lens bar is one bar of two groups: left Questions, a Lenses menu with every lens in groups
+  (versions with counts, this week, type, tier, coverage, and Country and Source entries that open the panel pickers)
+  and a chip that names and clears the lens that is on; right List view, Tilt, zoom, panel, full screen and "?". One
+  row at 1440 px with the panel open (was two), two at 1024 (was three plus the tools row), one 52 px row on a phone
+  (was three, 124 px); Questions is the first Tab stop; arrow keys on the bar no longer fly the galaxy; every deep
+  link lands as before. Captions take the spot around their star that covers the fewest other stars (caption-star
+  pairs 370 to 81 on 84 states), plot labels are mono 10 px and give way, ports are packed on the border under the
+  measured bar (port overlaps 30 to 0, over the bar 20 to 0). Galaxy chunk +3.1 KB raw (+1.1 KB gzipped), tar
+  unchanged at 695.3 MB. `node scripts/galaxy-density.mjs` measures it; deviations in the spec's section 12.
+```
 
+`docs/RUNBOOK.md`, after the ui-sweep paragraph:
+
+```text
+Galaxy density probe (D92): after a change to the canvas captions or plot labels, the ports or the galaxy bar, build
+the site (Node 22) and run `node scripts/galaxy-density.mjs`. It serves `site/dist` the way the ui-sweep does (port
+`SWEEP_PORT`, default 4189) and counts overlapping captions, plot labels, ports and stars per system at system and star
+level at 1440 and 1024 px (and the four busiest systems at 1280), plus the galaxy bar's rows and bottom at five widths
+and the first Tab stop. Pass another build's `site/dist` as its argument for a before and after; `PARTS=bar` or
+`PARTS=states` runs one half. The ui-sweep now reads its lens states from the galaxy's Lenses menu (23 per width).
+```
+
+Applied in this branch: the "Later:" lines in `docs/specs/version-lens.md` and `docs/specs/this-week-lens.md`.
 `AGENTS.md`, `CONTENT-NOTICE.md`: nothing.
