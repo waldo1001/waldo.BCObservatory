@@ -6,9 +6,12 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { checkRow, goldenRoot, goldenRows, type GoldenHit } from "../helpers/search-golden.js";
 
-/** The hit lines of a search answer: "- <title> ... path=<id> [keyword]", a symbol "- <name> (<what> of ...) path=<id>#... [keyword]". */
+/**
+ * The hit lines of a search answer: "- <title> ... path=<id> [keyword]", a symbol "- <name> (<what> of ...) path=<id>#... [keyword]",
+ * a Learn article (D94) "- <title> [learn, ...] url=<url> [keyword]": every hit keeps its place in the list.
+ */
 function parseHits(text: string, present: (id: string) => string | undefined): GoldenHit[] {
-  return [...text.matchAll(/^- (.*?) (?:\[[^\]]*\]|\((?:field|event|procedure|value)[^)]*\)) path=(\S+)/gm)].map((m) => {
+  return [...text.matchAll(/^- (.*?) (?:\[[^\]]*\]|\((?:field|event|procedure|value)[^)]*\)) (?:path|url)=(\S+)/gm)].map((m) => {
     const id = m[2], symbol = id.includes("#");
     const kind = symbol ? /#(field|event|proc|value)-/.exec(id)![1] : "page";
     return { id, symbol, object: !symbol && id.startsWith("objects/"), name: symbol ? m[1] : undefined, kind, majorOk: present(id) !== undefined };

@@ -2,16 +2,17 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { KIND_OF, hasMajor, hints, pageToRecord, parseQuery, prepare, search, symbolRecords, type Index, type SearchRecord, type SymbolShard } from "@bc-observatory/search";
+import { KIND_OF, hasMajor, hints, learnRecords, pageToRecord, parseQuery, prepare, search, symbolRecords, type Index, type LearnShard, type SearchRecord, type SymbolShard } from "@bc-observatory/search";
 import { loadConfig } from "../../pipeline/lib/config.js";
 import { checkRow, goldenRoot, goldenRows, type GoldenHit } from "../helpers/search-golden.js";
 
-/** The site's index in node: every page shard, then the symbol shards under their owners. */
+/** The site's index in node: every page shard, the Learn articles (D94), then the symbol shards under their owners. */
 function load(dataDir: string): { index: Index; symbols: boolean } {
   const dir = join(dataDir, "index");
-  const man = JSON.parse(readFileSync(join(dir, "index-manifest.json"), "utf8")) as { shards: { file: string }[] };
+  const man = JSON.parse(readFileSync(join(dir, "index-manifest.json"), "utf8")) as { shards: { file: string }[]; learn?: { file: string } };
   const pages: SearchRecord[] = man.shards.flatMap((s) => (JSON.parse(readFileSync(join(dir, s.file), "utf8")) as any[]).map(pageToRecord));
   const index = prepare(pages);
+  if (man.learn) prepare(learnRecords(JSON.parse(readFileSync(join(dir, man.learn.file), "utf8")) as LearnShard).map(pageToRecord), index);
   const sp = join(dir, "symbols-manifest.json");
   if (!existsSync(sp)) return { index, symbols: false };
   const sm = JSON.parse(readFileSync(sp, "utf8")) as { kinds: Record<SymbolShard, { file?: string; files?: string[] }> };

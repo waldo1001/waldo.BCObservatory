@@ -100,9 +100,12 @@ function normOf(r: SearchRecord): Norm {
   const main = new Set<string>([...indexTokens(r.name, symbol), ...indexTokens(r.title, symbol), ...(r.caption ? indexTokens(r.caption) : [])]);
   // a hub's tags are the titles above it in the Learn TOC: a word of its own title does not count again (D65)
   const own = r.type === "topic" ? new Set(tokenize(r.title)) : null;
-  const tags = (r.tags ?? []).flatMap((t) => indexTokens(t)).filter((t) => !own?.has(t));
+  // a Learn article's tags are the identifiers it documents (D94): each also meets its CamelCase words, in order, so
+  // "include source in symbol file" finds includeSourceInSymbolFile; not deduplicated across tags, so a phrase holds
+  const learn = r.type === "learn";
+  const tags = (r.tags ?? []).flatMap((t) => indexTokens(t, learn)).filter((t) => !own?.has(t));
   const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title)];
-  const n: Norm = { main: [...main], tags: [...new Set(tags)], text: symbol ? null : indexTokens(r.text ?? ""), eqs };
+  const n: Norm = { main: [...main], tags: learn ? tags : [...new Set(tags)], text: symbol ? null : indexTokens(r.text ?? ""), eqs };
   NORM.set(r, n);
   return n;
 }

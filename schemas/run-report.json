@@ -195,6 +195,11 @@
         "video": { "$ref": "#/$defs/reviewCounts" }, "post": { "$ref": "#/$defs/reviewCounts" }, "change": { "$ref": "#/$defs/reviewCounts" }
       }
     },
+    "learn_identifiers": {
+      "description": "D94: Learn items fetched before meta.identifiers existed, filled from their fetched blob; missing = blob not in the mirror (retried next run)",
+      "type": "object", "additionalProperties": false, "required": ["items", "filled", "prefetched", "missing", "ms"],
+      "properties": { "items": { "type": "integer" }, "filled": { "type": "integer" }, "prefetched": { "type": "integer" }, "missing": { "type": "integer" }, "ms": { "type": "integer" } }
+    },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }
   },

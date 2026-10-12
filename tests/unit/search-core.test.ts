@@ -2,8 +2,8 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  ABBR, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, pageToRecord, parseQuery, prepare, scoreRecord, search,
-  stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type PageRecord,
+  ABBR, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
+  stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type LearnShard, type PageRecord,
 } from "@bc-observatory/search";
 
 const COUNTRIES = ["at", "au", "be", "ca", "de", "fr", "gb", "in", "nl", "us"];
@@ -229,6 +229,54 @@ test("symbols: rows become records under their owner, gated, with an anchor and 
   assert.equal(anchorOf("event", "OnAfterPostSalesDoc"), "#event-OnAfterPostSalesDoc");
   assert.equal(hrefOf("/b/", "objects/codeunit/80#event-X"), "/b/objects/codeunit/80/#event-X");
   assert.equal(hrefOf("/b/", "objects/codeunit/80"), "/b/objects/codeunit/80/");
+});
+
+// ---------------------------------------------------------------------------------------------- Learn articles (D94)
+
+const LEARN: LearnShard = {
+  schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/",
+  hubs: [["topics/dev-itpro/development/development-environment/configure-the-development-environment", "… › Development environment › Configure the development environment", "administration"], ["", "AL reference › Methods", null]],
+  rows: [
+    ["dev-itpro/developer/devenv-security-settings-and-ip-protection", "Resource exposure policy setting", "IP protection for extensions.", "2024-01-03", 0, "development",
+      ["ShowMyCode", "resourceExposurePolicy", "applyToDevExtension", "allowDebugging", "allowDownloadingSource", "includeSourceInSymbolFile"]],
+    ["dev-itpro/developer/devenv-json-files", "JSON files", "The app.json and launch.json files.", "2026-08-25", 0, null, ["allowDownloadingSource", "includeSourceInSymbolFile", "repositoryUrl"]],
+    ["dev-itpro/developer/methods-auto/record/record-setrange-method", "Record.SetRange(Any [, Any]) Method", "Sets a simple filter on a field.", "2025-01-01", 1],
+    ["dev-itpro/developer/devenv-symbols", "Symbols", "Symbol files include source in a package.", null, -1],
+  ],
+};
+
+test("Learn rows become records of type learn: the URL as path, the hub as where, the identifiers as tags (D94)", () => {
+  const [sec, json, setrange, symbols] = learnRecords(LEARN);
+  assert.deepEqual(sec, {
+    path: "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection", type: "learn",
+    title: "Resource exposure policy setting", summary: "IP protection for extensions.", tier: "official", system: "development", date: "2024-01-03",
+    tags: ["ShowMyCode", "resourceExposurePolicy", "applyToDevExtension", "allowDebugging", "allowDownloadingSource", "includeSourceInSymbolFile"],
+    path_label: "… › Development environment › Configure the development environment", hub: "topics/dev-itpro/development/development-environment/configure-the-development-environment",
+  });
+  assert.equal(json.system, "administration", "no system of its own: the hub's");
+  assert.deepEqual([setrange.path_label, setrange.hub, setrange.system, setrange.tags], ["AL reference › Methods", undefined, undefined, undefined], "a reference section: a label, no hub page");
+  assert.deepEqual([symbols.path_label, symbols.date, symbols.hub], [undefined, undefined, undefined]);
+  assert.equal(hrefOf("/b/", sec.path), sec.path, "a Learn article opens on learn.microsoft.com");
+  assert.equal(pageToRecord(sec).id, sec.path);
+});
+
+test("identifier tags meet the identifier, its CamelCase words and the phrase; hubs keep their tags as they were (D94)", () => {
+  const i = prepare([...PAGES.map(pageToRecord), ...learnRecords(LEARN).map(pageToRecord)]);
+  const q = (raw: string) => search(i, p(raw)).map((h) => h.r.id.replace(LEARN.base, "L:"));
+  assert.deepEqual(q("includeSourceInSymbolFile"), ["L:dev-itpro/developer/devenv-json-files", "L:dev-itpro/developer/devenv-security-settings-and-ip-protection"], "the two pages that document it; equal scores, newest first");
+  assert.deepEqual(q("include source in symbol file").slice(0, 2).sort(), ["L:dev-itpro/developer/devenv-json-files", "L:dev-itpro/developer/devenv-security-settings-and-ip-protection"]);
+  assert.ok(!q("include source in symbol file").includes("L:dev-itpro/developer/devenv-symbols") || q("include source in symbol file").indexOf("L:dev-itpro/developer/devenv-symbols") > 1, "summary words alone rank below the identifier");
+  assert.deepEqual(q('"include source in symbol file"').sort(), ["L:dev-itpro/developer/devenv-json-files", "L:dev-itpro/developer/devenv-security-settings-and-ip-protection"], "the phrase holds although 'source' is also a word of an earlier tag");
+  assert.equal(q("resourceExposurePolicy")[0], "L:dev-itpro/developer/devenv-security-settings-and-ip-protection");
+  assert.equal(q("allow debugging")[0], "L:dev-itpro/developer/devenv-security-settings-and-ip-protection");
+  assert.equal(q("SetRange")[0], "L:dev-itpro/developer/methods-auto/record/record-setrange-method");
+  const sec = i.records.find((r) => r.id.endsWith("devenv-security-settings-and-ip-protection"))!;
+  assert.equal(scoreRecord(i, sec, p("includeSourceInSymbolFile")).s, 3, "tags 2 + a page's 1; the summary does not name it here");
+  // a hub's tags are TOC titles: no CamelCase split there (D65 as it was)
+  const hub = pageToRecord({ path: "topics/x", type: "topic", title: "Hub", summary: "", tier: "official", tags: ["AppSource"] });
+  const j = prepare([hub]);
+  assert.equal(search(j, p("source")).length, 0, "'AppSource' as a hub tag is one word");
+  assert.equal(indexTokens("includeSourceInSymbolFile", true).join(" "), "includesourceinsymbolfile include source in symbol file");
 });
 
 // ---------------------------------------------------------------------------------------------- hints

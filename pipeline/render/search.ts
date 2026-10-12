@@ -7,11 +7,17 @@
  * so a quiet night rewrites nothing. The names carry the content's sha256, so a browser keeps a shard in Cache Storage
  * until it changes, and the manifest lists each shard with its kind and hash. The site and the MCP rank the records
  * with the shared scorer of packages/search (D86); the site searches its own index, Pagefind was never built.
+ *
+ * D94: learn-<sha12>.json holds one row per Microsoft Learn article (learnShard), which has no page here. The manifest
+ * lists it under `learn`, not under `shards`: every reader of `shards` reads page records, and the MCP releases before
+ * D94 load every entry there.
  */
 import { relative, resolve } from "node:path";
 import matter from "gray-matter";
+import type { LearnHub, LearnRow, LearnShard } from "@bc-observatory/search";
 import { loadConfig } from "../lib/config.js";
 import { exists, listFiles, readJson, readText, removeIfExists, writeText } from "../lib/fsx.js";
+import { Manifest, type ManifestItem } from "../lib/manifest.js";
 import { objectSystem } from "../lib/systems.js";
 import { sha256 } from "../lib/text.js";
 
@@ -35,7 +41,12 @@ export interface PageRecord {
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
 }
 export type ShardKind = "hubs" | "media" | "objects";
-export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string; kind: ShardKind }[]; by_type: Record<string, number> }
+export interface IndexManifest {
+  schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string; kind: ShardKind }[];
+  /** D94: the Learn articles, one shard of tuple rows (packages/search learnRecords reads it) */
+  learn?: { file: string; count: number; sha256: string };
+  by_type: Record<string, number>;
+}
 export const SHARD_KINDS: ShardKind[] = ["hubs", "media", "objects"];
 /** The shard a page type lives in (D86): starting points (hubs, apps, features, localizations, sources, digests, releases), media (videos, posts, code changes), AL objects. */
 export const kindOfType = (type: string): ShardKind => (type === "object" ? "objects" : type === "video" || type === "post" || type === "change" ? "media" : "hubs");
@@ -116,13 +127,95 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   return r;
 }
 
+// ---------------------------------------------------------------------------------------------- Learn (D94)
+
+export const LEARN_BASE = "https://learn.microsoft.com/dynamics365/business-central/";
+/**
+ * Learn reference sections no hub lists: their folder is the "where" of an article without a hub. On 2026-10-12 they
+ * held about 4,190 of the 4,588 articles without one (methods 1,848, diagnostics 922, API v2.0 358, properties 351,
+ * analyzers 281, API v1.0 237, triggers 151, attributes 41); the rest have no label.
+ */
+export const LEARN_SECTIONS: [string, string][] = [
+  ["dev-itpro/developer/methods-auto/", "AL reference › Methods"], ["dev-itpro/developer/diagnostics/", "AL reference › Diagnostics"],
+  ["dev-itpro/developer/properties/", "AL reference › Properties"], ["dev-itpro/developer/triggers-auto/", "AL reference › Triggers"],
+  ["dev-itpro/developer/attributes/", "AL reference › Attributes"], ["dev-itpro/developer/analyzers/", "AL reference › Code analyzers"],
+  ["dev-itpro/api-reference/v2.0/", "API reference › v2.0"], ["dev-itpro/api-reference/v1.0/", "API reference › v1.0"],
+];
+/** A topic hub as the Learn shard needs it: its page path, Learn TOC path, system and own Learn pages (`links.learn`). */
+export interface LearnHubPage { path: string; toc: string[]; system: string | null; learn: string[] }
+/** A Learn description as plain text: an include token becomes its words, a markdown link its text. */
+const INCLUDES: Record<string, string> = { prod_short: "Business Central", prod_long: "Dynamics 365 Business Central" };
+export const plainLearn = (s: string) => s.replace(/\[!INCLUDE\[([^\]]*)\]\([^)]*\)\]/gi, (_, l: string) => INCLUDES[l] ?? l)
+  .replace(/\[([^\]]*)\]\([^)\s]*\)/g, "$1").replace(/\s+/g, " ").trim();
+
+/**
+ * One row per Learn article that is fetched and not skipped (D94), sorted by URL: its title; the extraction's summary
+ * where one exists, else Learn's own description; ms.date; the hub that lists it (a page several hubs list goes to a
+ * hub of its own docs set, then the deepest, then the first by path) or its reference section; the extraction's first
+ * system when it differs from the hub's; the identifiers of the fetched stage. A hub's label is its full TOC path,
+ * shortened like a topic's (pathLabel).
+ */
+export function learnShard(items: ManifestItem[], extracts: Map<string, { summary?: string; systems?: string[] }>, hubPages: LearnHubPage[]): LearnShard {
+  const rootOf = (urlPath: string) => (urlPath.startsWith("dev-itpro/") ? "topics/dev-itpro/" : "topics/business-central/");
+  const hubOfUrl = new Map<string, LearnHubPage>();
+  const better = (a: LearnHubPage, b: LearnHubPage, root: string) =>
+    (a.path.startsWith(root) ? 0 : 1) - (b.path.startsWith(root) ? 0 : 1) || b.toc.length - a.toc.length || a.path.localeCompare(b.path);
+  for (const h of hubPages) {
+    for (const url of h.learn) {
+      const cur = hubOfUrl.get(url);
+      if (!cur || better(h, cur, rootOf(url.slice(LEARN_BASE.length))) < 0) hubOfUrl.set(url, h);
+    }
+  }
+  const live = items.filter((i) => i.stages.fetched && i.state !== "skipped").sort((a, b) => a.url.localeCompare(b.url));
+  const hubKey = (h: LearnHub) => `${h[0]}\u0000${h[1]}`;
+  const hubs = new Map<string, LearnHub>();
+  const pending: { row: LearnRow; hub: LearnHub | null }[] = [];
+  for (const i of live) {
+    const path = i.url.startsWith(LEARN_BASE) ? i.url.slice(LEARN_BASE.length) : i.url;
+    const page = hubOfUrl.get(i.url);
+    const section = page ? undefined : LEARN_SECTIONS.find(([prefix]) => path.startsWith(prefix));
+    const hub: LearnHub | null = page ? [page.path, pathLabel(page.toc), page.system] : section ? ["", section[1], null] : null;
+    if (hub && !hubs.has(hubKey(hub))) hubs.set(hubKey(hub), hub);
+    const ex = extracts.get(i.id), meta = i.meta ?? {};
+    const summary = plainLearn(ex?.summary || String(meta.description ?? ""));
+    const system = ex?.systems?.[0] ?? null;
+    const ids = Array.isArray(meta.identifiers) ? meta.identifiers.map(String) : [];
+    const row: LearnRow = [path, i.title, summary, typeof meta.ms_date === "string" ? meta.ms_date : null, -1, system && system !== hub?.[2] ? system : null, ids];
+    pending.push({ row, hub });
+  }
+  const order = [...hubs.values()].sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
+  const at = new Map(order.map((h, k) => [hubKey(h), k]));
+  const rows = pending.map(({ row, hub }) => {
+    row[4] = hub ? at.get(hubKey(hub))! : -1;
+    // trailing empties go: no identifiers, then no system of its own
+    if (!row[6]?.length) row.length = 6;
+    if (row.length === 6 && row[5] == null) row.length = 5;
+    return row;
+  });
+  return { schema: "bcobs-learn@1", base: LEARN_BASE, hubs: order, rows };
+}
+
+/** The extractions of Learn pages by item id (data/extract/docs/<source>/*.json): summary and systems only. */
+export function learnExtracts(dataDir: string): Map<string, { summary?: string; systems?: string[] }> {
+  const out = new Map<string, { summary?: string; systems?: string[] }>();
+  for (const f of listFiles(resolve(dataDir, "extract", "docs"), ".json")) {
+    try { const x = readJson<{ item_id: string; summary?: string; systems?: string[] }>(f); out.set(x.item_id, { summary: x.summary, systems: x.systems }); } catch { /* a broken file is skipped */ }
+  }
+  return out;
+}
+
 export function renderSearchIndex(contentDir: string, dataDir: string): IndexManifest {
   const records: PageRecord[] = [];
+  const hubPages: LearnHubPage[] = [];
   for (const f of listFiles(contentDir, ".md")) {
     let fm: Record<string, any>;
     try { fm = matter(readText(f)).data; } catch { continue; }
     if (!fm.type) continue;
-    records.push(pageRecord(relative(contentDir, f).replace(/\.md$/, ""), fm));
+    const path = relative(contentDir, f).replace(/\.md$/, "");
+    records.push(pageRecord(path, fm));
+    if (fm.type === "topic" && Array.isArray(fm.links?.learn) && fm.links.learn.length) {
+      hubPages.push({ path, toc: Array.isArray(fm.learn_toc_path) ? fm.learn_toc_path.map(String) : [String(fm.title ?? "")], system: fm.system ? String(fm.system) : null, learn: fm.links.learn.map(String) });
+    }
   }
   records.sort((a, b) => a.path.localeCompare(b.path));
   const dir = resolve(dataDir, "index");
@@ -148,14 +241,24 @@ export function renderSearchIndex(contentDir: string, dataDir: string): IndexMan
       shards.push({ file, count: part.length, sha256: sha, kind });
     });
   }
-  // sweep: unlisted page shards, the old unhashed pages-<n>.json among them
+  // D94: the Learn articles, when the data dir holds the docs manifest
+  let learn: IndexManifest["learn"];
+  const shard = learnShard(new Manifest(resolve(dataDir, "manifest")).list("docs"), learnExtracts(dataDir), hubPages);
+  if (shard.rows.length) {
+    const text = `${JSON.stringify(shard)}\n`, sha = sha256(text), file = `learn-${sha.slice(0, 12)}.json`;
+    const p = resolve(dir, file);
+    if (!exists(p)) writeText(p, text);
+    learn = { file, count: shard.rows.length, sha256: sha };
+  }
+  // sweep: unlisted page shards, the old unhashed pages-<n>.json among them, and an older Learn shard
   for (const f of listFiles(dir, ".json")) {
     const name = f.slice(f.lastIndexOf("/") + 1);
     if (/^pages-.+\.json$/.test(name) && !shards.some((s) => s.file === name)) removeIfExists(f);
+    if (/^learn-.+\.json$/.test(name) && name !== learn?.file) removeIfExists(f);
   }
   const by_type: Record<string, number> = {};
   for (const r of records) by_type[r.type] = (by_type[r.type] ?? 0) + 1;
-  const manifest: IndexManifest = { schema: "bcobs-index@1", pages: records.length, shards, by_type };
+  const manifest: IndexManifest = { schema: "bcobs-index@1", pages: records.length, shards, ...(learn ? { learn } : {}), by_type };
   const mp = resolve(dir, "index-manifest.json");
   const text = `${JSON.stringify(manifest, null, 2)}\n`;
   if (!exists(mp) || readText(mp) !== text) writeText(mp, text);

@@ -54,6 +54,7 @@ test("normal run: ingest, newest-first plan with zero LLM calls, report, commit"
   const r = await runNightly(opts(dir, { commit: true }), { http, sources: [source], handlers: NOOP, flatPlaylist: async () => [], readUsage: usage(5, 10) });
   assert.deepEqual([r.status, r.items_changed, r.plan.work, r.plan.executed, r.llm.calls], ["ok", 2, 2, 2, 0]);
   assert.equal(r.guard.decision, "go");
+  assert.deepEqual({ ...r.learn_identifiers!, ms: 0 }, { items: 0, filled: 0, prefetched: 0, missing: 0, ms: 0 }, "D94: the backfill phase runs and reports, nothing to fill here");
   assert.ok(validate("run-report", report(dir)).ok);
   assert.equal(lastCommit(dir), "content: nightly 2026-10-07 (2 items)");
   assert.ok(existsSync(join(dir, "data/manifest/video/yt-ms/AAAAAAAAAA1.json")));

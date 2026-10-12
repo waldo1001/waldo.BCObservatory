@@ -4,9 +4,11 @@ import { captionOf, captionText } from "../../pipeline/render/object.js";
 import { mkdtempSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { writeText } from "../../pipeline/lib/fsx.js";
+import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { sha256 } from "../../pipeline/lib/text.js";
-import { kindOfType, majorsText, pageRecord, pathLabel, renderSearchIndex } from "../../pipeline/render/search.js";
+import { LEARN_BASE, kindOfType, learnShard, majorsText, pageRecord, pathLabel, plainLearn, renderSearchIndex } from "../../pipeline/render/search.js";
+import { learnRecords, type LearnShard } from "@bc-observatory/search";
+import type { ManifestItem } from "../../pipeline/lib/manifest.js";
 
 test("a hub's record says where it sits, how big it is and whether its narrative was reviewed (D65 5.1)", () => {
   const r = pageRecord("topics/business-central/business-functionality/sales/subscription-billing", {
@@ -120,4 +122,65 @@ test("shards split by kind under content-hashed names; the manifest says which; 
   const before = readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]);
   renderSearchIndex(content, data);
   assert.deepEqual(readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]), before, "a quiet night rewrites nothing");
+});
+
+// ---------------------------------------------------------------------------------------------- Learn (D94)
+
+const learnItem = (path: string, title: string, meta: Record<string, unknown>, over: Partial<ManifestItem> = {}): ManifestItem => ({
+  id: `docs/learn-devitpro/${path}.md`, pillar: "docs", source: "learn-devitpro", tier: "official", title, url: `${LEARN_BASE}${path}`, state: "fetched",
+  stages: { discovered: { at: "2026-10-01T00:00:00.000Z" }, fetched: { at: "2026-10-01T00:00:00.000Z", blob: "b", words: 1, forms: 0 } }, attempts: 0, flags: [], meta, ...over,
+});
+
+test("the Learn shard: one row per fetched article, the hub that lists it, its reference section, lean tuples (D94)", () => {
+  const sec = "dev-itpro/developer/devenv-security-settings-and-ip-protection";
+  const items = [
+    learnItem(sec, "Resource exposure policy setting", { description: "Learn's own words.", ms_date: "2024-01-03", identifiers: ["allowDebugging", "includeSourceInSymbolFile"] }),
+    learnItem("dev-itpro/developer/methods-auto/record/record-setrange-method", "Record.SetRange(Any [, Any]) Method", { description: "Sets a filter in [!INCLUDE[prod_short](../includes/prod_short.md)], see [filters](devenv-filters.md).", ms_date: "2025-01-01", identifiers: [] }),
+    learnItem("dev-itpro/developer/devenv-elsewhere", "Elsewhere", { description: "", ms_date: null }),
+    learnItem("dev-itpro/developer/devenv-gone", "Gone", { description: "x" }, { state: "skipped", skip: "removed-upstream" }),
+    learnItem("dev-itpro/developer/devenv-never", "Never fetched", {}, { state: "discovered", stages: { discovered: { at: "2026-10-01T00:00:00.000Z" } } }),
+  ];
+  const extracts = new Map([[items[0].id, { summary: "Names includeSourceInSymbolFile.", systems: ["development", "administration"] }]]);
+  const hubs = [
+    { path: "topics/dev-itpro/development/development-environment", toc: ["Development", "Development environment"], system: "administration", learn: [`${LEARN_BASE}${sec}`] },
+    { path: "topics/dev-itpro/development/development-environment/configure-the-development-environment", toc: ["Development", "Development environment", "Configure the development environment"], system: "administration", learn: [`${LEARN_BASE}${sec}`] },
+    { path: "topics/business-central/somewhere-else/deeper/and-deeper", toc: ["A", "B", "C", "D"], system: "sales", learn: [`${LEARN_BASE}${sec}`] },
+  ];
+  const doc = learnShard(items, extracts, hubs);
+  assert.deepEqual(doc.hubs, [["", "AL reference › Methods", null], [hubs[1].path, "… › Development environment › Configure the development environment", "administration"]],
+    "a page of three hubs goes to the deepest of its own docs set; a reference section is a hub without a page");
+  assert.deepEqual(doc.rows, [
+    ["dev-itpro/developer/devenv-elsewhere", "Elsewhere", "", null, -1],
+    ["dev-itpro/developer/devenv-security-settings-and-ip-protection", "Resource exposure policy setting", "Names includeSourceInSymbolFile.", "2024-01-03", 1, "development", ["allowDebugging", "includeSourceInSymbolFile"]],
+    ["dev-itpro/developer/methods-auto/record/record-setrange-method", "Record.SetRange(Any [, Any]) Method", "Sets a filter in Business Central, see filters.", "2025-01-01", 0],
+  ], "sorted by URL; the extraction's summary before Learn's description; skipped and never-fetched items left out; trailing empties dropped");
+  const recs = learnRecords(doc);
+  assert.equal(recs[1].path, `${LEARN_BASE}${sec}`);
+  assert.deepEqual([recs[1].hub, recs[1].system, recs[2].system, recs[0].path_label], [hubs[1].path, "development", undefined, undefined]);
+  assert.equal(plainLearn("A [!INCLUDE[prod_long](x.md)] page"), "A Dynamics 365 Business Central page");
+});
+
+test("renderSearchIndex writes the Learn shard beside the page shards, lists it under `learn`, sweeps an old one (D94)", () => {
+  const root = mkdtempSync(join(tmpdir(), "bcobs-learn-"));
+  const content = join(root, "content"), data = join(root, "data"), dir = join(data, "index");
+  const sec = "dev-itpro/developer/devenv-security-settings-and-ip-protection";
+  writeText(join(content, "topics/dev-itpro/configure.md"), `---\ntype: topic\ntitle: Configure the development environment\nsummary: ""\ntier: official\nsystem: administration\nlearn_toc_path: ["Development", "Configure the development environment"]\nlinks:\n  learn:\n    - ${LEARN_BASE}${sec}\n---\n\n# x\n`);
+  writeJson(join(data, "manifest/docs/learn-devitpro/sec.json"), learnItem(sec, "Resource exposure policy setting", { description: "d", ms_date: "2024-01-03", identifiers: ["includeSourceInSymbolFile"] }));
+  writeJson(join(data, "extract/docs/learn-devitpro/sec.json"), { item_id: `docs/learn-devitpro/${sec}.md`, summary: "Names includeSourceInSymbolFile.", systems: ["development"] });
+  writeText(join(dir, "learn-000000000000.json"), "{}\n");
+  const m = renderSearchIndex(content, data);
+  assert.deepEqual(m.shards.map((s) => s.kind), ["hubs"], "the page shards are as they were: the hub only");
+  assert.equal(m.pages, 1, "a Learn article is not a page");
+  assert.match(m.learn!.file, /^learn-[0-9a-f]{12}\.json$/);
+  const text = readFileSync(join(dir, m.learn!.file), "utf8");
+  assert.equal(m.learn!.sha256, sha256(text));
+  assert.equal(m.learn!.count, 1);
+  const doc = JSON.parse(text) as LearnShard;
+  assert.deepEqual(doc.rows, [[sec, "Resource exposure policy setting", "Names includeSourceInSymbolFile.", "2024-01-03", 0, "development", ["includeSourceInSymbolFile"]]]);
+  assert.deepEqual(doc.hubs, [["topics/dev-itpro/configure", "Development › Configure the development environment", "administration"]]);
+  assert.ok(!readdirSync(dir).includes("learn-000000000000.json"), "an older Learn shard is swept");
+  assert.deepEqual(Object.keys(JSON.parse(readFileSync(join(dir, "index-manifest.json"), "utf8"))), ["schema", "pages", "shards", "learn", "by_type"]);
+  // no docs manifest (a fresh data dir): no Learn shard, no `learn` key
+  const bare = mkdtempSync(join(tmpdir(), "bcobs-learn-"));
+  assert.equal(renderSearchIndex(content, join(bare, "data")).learn, undefined);
 });

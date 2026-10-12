@@ -25,12 +25,17 @@ export async function symbolsRenderer(): Promise<((contentDir: string, dataDir: 
   try { return (await import("../../pipeline/render/symbols-index.js" as string)).renderSymbolsIndex; } catch { return null; }
 }
 
-/** A checkout-shaped root: content/ and data/code/ linked to the repository, data/index/ rendered fresh. */
+/**
+ * A checkout-shaped root: content/, data/code/ and the docs manifest and extractions (the Learn shard's input, D94)
+ * linked to the repository, data/index/ rendered fresh.
+ */
 export async function goldenRoot(): Promise<{ root: string; symbols: boolean }> {
   const root = mkdtempSync(join(tmpdir(), "bcobs-golden-"));
   mkdirSync(join(root, "data"), { recursive: true });
   symlinkSync(join(ROOT, "content"), join(root, "content"));
   symlinkSync(join(ROOT, "data", "code"), join(root, "data", "code"));
+  symlinkSync(join(ROOT, "data", "manifest"), join(root, "data", "manifest"));
+  symlinkSync(join(ROOT, "data", "extract"), join(root, "data", "extract"));
   renderSearchIndex(join(ROOT, "content"), join(root, "data"));
   const sym = await symbolsRenderer();
   if (sym) sym(join(ROOT, "content"), join(root, "data"));

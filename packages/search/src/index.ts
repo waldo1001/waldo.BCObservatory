@@ -6,3 +6,4 @@ export * from "./parse.js";
 export * from "./score.js";
 export * from "./hints.js";
 export * from "./anchors.js";
+export * from "./learn.js";
