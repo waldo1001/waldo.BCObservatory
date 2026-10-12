@@ -10,6 +10,33 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
+- **Object pages read like a reference** (`docs/specs/object-page-reading.md`, D89, M27). Status: proposed
+  2026-10-12, nothing implemented. Items B1, B2, B3 (rest), B6, B8 of the UX review, under D88's byte rule: one new
+  module mounted from `Page.astro`'s existing script, no static markup, three build-time reductions (pill titles,
+  neighbourhood captions and paragraph, -3.34 MB). Start with phase 1, task 1 (`tests/unit/object-page-core.test.ts`
+  for `tocWanted`, `sectionCount`, `currentSection`). Until it lands, readers scroll 42,090 px on Table 18 with the
+  stat tiles as the only jumps, and the timeline's version counts lead nowhere.
+- **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). Status: proposed 2026-10-12, nothing implemented. A1, A2,
+  A3, A4 (home), D1, F5 and F6 of the 2026-10-12 UX review within D88's byte rule: one name map, crumbs without the
+  galaxy system (a chip instead), a 56 px phone bar with a Browse sheet and a two-tier header from 900 px, eight
+  instruments with numbers under the home galaxy. Three phases, each lighter on every object page (−94, −125, −8
+  bytes; −6.26 MB in all). Start with phase 1, task 1: `tests/unit/sections.test.ts` and `pipeline/lib/sections.ts`.
+  Until it lands readers see the 2026-10-12 header (215 px on a phone, two or three rows elsewhere) and the system
+  crumb; localization and source pages have no crumb to their section.
+- **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Status: proposed 2026-10-12, nothing implemented.
+  Six items of the 2026-10-12 UX review: the changes, videos and posts indexes render 50 rows plus a title list and
+  load the rest from the media shard (C1), filter pills with live counts on those lists (C2), week cards (C3), source
+  cards (C4), the roadmap tracker filters `/features/` (C5), a compact post card (E1, CSS only; the review's "iframe
+  first" was wrong). Start with phase 0 (the "before" sizes of section 7.1), then any of phases 1 to 3; phase 6 needs
+  phases 4 and 5. Until it lands readers get 600 KB list pages, an inert kinds line, five bullets on `/digests/`, a flat
+  `/sources/`, unlinked tracker numbers and a 470 px post card above the key points.
+- **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Status: proposed 2026-10-12, nothing implemented.
+  Items D3 and D6 of the 2026-10-12 UX review, home page only, three phases that ship alone: B captions that avoid
+  stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
+  Lenses menu. Start with phase B, task 1 (tests 6 to 8 in `tests/unit/galaxy-labels.test.ts`). Until it lands readers
+  see today's bar (three rows at 1024 px with the panel open) and captions over neighbouring stars.
+- **MCP sections**: `docs/specs/mcp-sections.md`, D93, M31. Status: proposed 2026-10-12, nothing implemented. Start with phase A (descriptions, two hours) or phase B task 1: `tests/unit/mcp-sections.test.ts` from section 5 against an empty `packages/mcp/src/sections.ts`. Until it lands: `get_object("codeunit", "80")` returns 177,746 characters, which Claude Code saves to a file (56 pages are over its 50,000-character threshold, 233 over 30,000), `localization("CZ")` 173,865, and `cat` of a symbol path returns the whole page.
+
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
 edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
@@ -40,7 +67,7 @@ questions in its section 12).
   palette answers `field:`, `event:`, `proc:` from it. The next nightly (or a derive) writes `data/index/` in the new
   shape: hashed `pages-*` names with `kind`, `symbols-manifest.json` and four symbol files, no `pages-1.json`; until
   then the site reads the old manifest as one objects kind and has no symbols. `bc-observatory@0.3.0` (one bundled
-  `dist/server.js`, no MiniSearch) is ready to publish with `publish-mcp`; plugin 0.2.2 carries the skill advice.
+  `dist/server.js`, no MiniSearch) was published to npm on 2026-10-09; plugin 0.2.2 carries the skill advice.
   Deviations in the spec's section 13.
 
 - **Galaxy key and star intro, D87** (no spec, M25): the key under the canvas shows on every level and lists only the
