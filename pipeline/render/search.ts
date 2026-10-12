@@ -179,7 +179,8 @@ export function learnShard(items: ManifestItem[], extracts: Map<string, { summar
       if (!cur || better(h, cur, rootOf(url.slice(LEARN_BASE.length))) < 0) hubOfUrl.set(url, h);
     }
   }
-  const live = items.filter((i) => i.stages.fetched && i.state !== "skipped").sort((a, b) => a.url.localeCompare(b.url));
+  // official items only: the leak scan treats this shard as Microsoft text (validate/leak.ts OFFICIAL_ONLY, D94)
+  const live = items.filter((i) => i.tier === "official" && i.stages.fetched && i.state !== "skipped").sort((a, b) => a.url.localeCompare(b.url));
   const hubKey = (h: LearnHub) => `${h[0]}\u0000${h[1]}`;
   const hubs = new Map<string, LearnHub>();
   const pending: { row: LearnRow; hub: LearnHub | null }[] = [];

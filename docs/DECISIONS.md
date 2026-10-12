@@ -911,7 +911,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (8,050 pages for what Learn already serves), folding a version into the fetched stage's input hash (every item would
   go stale and re-enter extraction, an LLM stage), PageRecord objects in the shard (3.7 MB), listing the shard
   under `shards` (MCP 0.3.0 spreads every shard as page records and would fail), splitting CamelCase in every record's
-  tags (hub tags are TOC titles; their rankings would move). Spec: `docs/specs/learn-search.md`.
+  tags (hub tags are TOC titles; their rankings would move). Spec: `docs/specs/learn-search.md`. The shard is
+  official-only output for the leak scan (`OFFICIAL_ONLY` in `pipeline/validate/leak.ts`, as D85 did for release
+  pages) and keeps official items only: its first derive (run 38253780457) was blocked because "AVS Error AVS0109"
+  followed by Learn's own description shares 25 words with a community post that quotes the same error.
 - **D91 Lists load in pages and filter by what they hold; weeks and sources are cards; the post card makes room.** The
   changes, videos and posts indexes shipped every row in one file (595,523, 621,491 and 275,632 bytes on 2026-10-12,
   2,300 rows; every new item added its row for good) and only the changes list had a filter (D82). Each now renders its

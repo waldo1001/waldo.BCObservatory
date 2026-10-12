@@ -139,6 +139,7 @@ test("the Learn shard: one row per fetched article, the hub that lists it, its r
     learnItem("dev-itpro/developer/devenv-elsewhere", "Elsewhere", { description: "", ms_date: null }),
     learnItem("dev-itpro/developer/devenv-gone", "Gone", { description: "x" }, { state: "skipped", skip: "removed-upstream" }),
     learnItem("dev-itpro/developer/devenv-never", "Never fetched", {}, { state: "discovered", stages: { discovered: { at: "2026-10-01T00:00:00.000Z" } } }),
+    learnItem("dev-itpro/developer/devenv-community", "Not Microsoft", { description: "a community docs page" }, { tier: "community" }),
   ];
   const extracts = new Map([[items[0].id, { summary: "Names includeSourceInSymbolFile.", systems: ["development", "administration"] }]]);
   const hubs = [

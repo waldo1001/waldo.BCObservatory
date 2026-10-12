@@ -11,7 +11,7 @@ import type { ManifestItem } from "../../pipeline/lib/manifest.js";
 import { renderFeaturePage } from "../../pipeline/render/feature.js";
 import { learnText } from "../../pipeline/render/topic.js";
 import { relativeLinks, validateContent } from "../../pipeline/validate/content.js";
-import { checkLeak, forEachShingle, leakWords, SHINGLE } from "../../pipeline/validate/leak.js";
+import { checkLeak, forEachShingle, leakWords, officialOnlyOutput, SHINGLE } from "../../pipeline/validate/leak.js";
 
 const NOW = new Date("2026-10-07T01:00:00Z");
 const entry = { id: "573253", title: "More countries", area: "Expense Agent", description: "d", status: "In development", release_phase: "General Availability", ga: "December CY2026", preview: "October CY2026", created: null, modified: null, cloud: [], platforms: [] };
@@ -163,4 +163,11 @@ test("shingle hashing: every window of SHINGLE words, same key for the same word
   forEachShingle(leakWords(`x ${words(SHINGLE)}`), (k) => { again.push(k); });
   assert.equal(again[1], keys[0]);
   assert.deepEqual(leakWords("It's [a](b) GOOD-day, 2026!"), ["it's", "a", "b", "good", "day", "2026"]);
+});
+
+test("the Learn shard is official-only output for the shingle scan; the other index shards are not (D94)", () => {
+  assert.equal(officialOnlyOutput("data/index/learn-ca7550549bfb.json"), true, "built from Learn alone: a post that quotes Learn shares its words");
+  for (const f of ["data/index/pages-media-cae0845e544c.json", "data/index/pages-hubs-7474eefaf26a.json", "data/index/learn-notahash.json", "data/index/learn-ca7550549bfb.json.tmp", "content/videos/x.md"]) {
+    assert.equal(officialOnlyOutput(f), false, f);
+  }
 });

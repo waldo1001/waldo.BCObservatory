@@ -196,8 +196,10 @@ export function communityRawExpected(dataDir: string, sources: SourceDef[]): str
  * pages rendered from those snapshots. No community text ever reaches these steps, so a shared run of words means
  * the post quoted Microsoft's code. Indexing the code itself as official text would cost a gigabyte, hence by path.
  */
-// D85: the AL Language extension's changelog snapshots and the release pages hold Microsoft's changelog text only
-const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//];
+// D85: the AL Language extension's changelog snapshots and the release pages hold Microsoft's changelog text only.
+// D94: the Learn shard is built from Learn alone (the docs manifest, the Learn extractions, the topic hubs' names); its
+// first derive failed on "AVS Error AVS0109" followed by Learn's own description, which a community post quotes
+const OFFICIAL_ONLY = [/^data\/code\//, /^content\/objects\//, /^data\/releases\//, /^content\/releases\//, /^data\/index\/learn-[0-9a-f]{12}\.json$/];
 export const officialOnlyOutput = (rel: string) => OFFICIAL_ONLY.some((re) => re.test(rel));
 
 /** Official text the repo holds: the newest roadmap snapshot and Learn's own page descriptions (manifest meta). */
