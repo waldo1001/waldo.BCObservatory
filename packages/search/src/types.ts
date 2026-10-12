@@ -23,6 +23,10 @@ export interface PageRecord {
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
   /** D94: a Learn article's hub, the topic page that lists it (its `path` is the article's URL on learn.microsoft.com). */
   hub?: string;
+  /** D91, change pages: base branch, the BC major it maps to, objects touched, and the two flags the changes list prints. */
+  branch?: string; major?: string; objects?: number; breaking?: boolean; community?: boolean;
+  /** D91, video pages: the review state the videos list prints as a badge, and the author's poster opt-out. */
+  review?: string; embed?: boolean;
 }
 
 export interface Term {

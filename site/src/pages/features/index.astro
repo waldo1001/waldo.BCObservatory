@@ -1,25 +1,48 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import Facets from "../../components/Facets.astro";
+import { foldFacet, slug } from "../../scripts/facets-core";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("features")).sort((a, b) => String(b.data.ga_date ?? "").localeCompare(String(a.data.ga_date ?? "")) || String(a.data.area ?? "").localeCompare(String(b.data.area ?? "")));
 const label: Record<string, string> = { ga: "generally available", preview: "in preview", announced: "announced", unclear: "status unclear" };
 // roadmap tracker: waves newest first, and per wave how many features sit in each status
 const waves = [...new Set(all.map((f) => f.data.wave ?? "no wave"))];
 const byStatus = (w: string) => Object.fromEntries(["ga", "preview", "announced", "unclear"].map((s) => [s, all.filter((f) => (f.data.wave ?? "no wave") === w && f.data.status === s).length]));
+// D91 C5: the tracker's cells link into the filter below; Wave, Status and Area pills filter the table in place
+const STATUSES = Object.keys(label);
+const waveId = (f: (typeof all)[number]) => slug(String(f.data.wave ?? "no wave"));
+const areaId = (f: (typeof all)[number]) => (f.data.area ? slug(String(f.data.area)) : "none");
+const tally = (ids: string[]) => ids.reduce((m, k) => m.set(k, (m.get(k) ?? 0) + 1), new Map<string, number>());
+const statusN = tally(all.map((f) => String(f.data.status))), areaN = tally(all.map(areaId));
+const areaLabel = new Map(all.map((f) => [areaId(f), f.data.area ? String(f.data.area) : "no area"]));
+const areas = [...areaN].map(([id, count]) => ({ id, label: areaLabel.get(id)!, count })).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, "en"));
+const facets = [
+  { id: "wave", label: "Wave", values: waves.map((w) => ({ id: slug(w), label: w, count: all.filter((f) => waveId(f) === slug(w)).length })) },
+  { id: "status", label: "Status", values: [...statusN.keys()].sort((a, b) => (STATUSES.indexOf(a) + 1 || 99) - (STATUSES.indexOf(b) + 1 || 99) || a.localeCompare(b)).map((s) => ({ id: s, label: label[s] ?? s, count: statusN.get(s)! })) },
+  { id: "area", label: "Area", values: areas, fold: foldFacet(areas.map((a) => a.label)) },
+];
+const cell = (w: string, s?: string) => `?wave=${slug(w)}${s ? `&status=${s}` : ""}`;
 ---
 <List section="features" title="Features · BC Observatory" description="Business Central features from the Microsoft 365 roadmap.">
   <p class="eyebrow">Features</p>
   <h1>{all.length} features</h1>
   <p class="lede">Business Central items on the Microsoft 365 roadmap, the successor of the release plans. Agents: <a href={`${base}features/llms.txt`}>llms.txt</a>.</p>
   <h2>Roadmap tracker</h2>
-  <table>
+  <div class="table-scroll"><table>
     <thead><tr><th scope="col">Wave</th>{Object.values(label).map((l) => <th scope="col">{l}</th>)}</tr></thead>
-    <tbody>{waves.map((w) => { const c = byStatus(w); return <tr><td>{w}</td><td>{c.ga}</td><td>{c.preview}</td><td>{c.announced}</td><td>{c.unclear}</td></tr>; })}</tbody>
-  </table>
-  <h2>All features</h2>
-  <table>
+    <tbody>{waves.map((w) => { const c = byStatus(w); return <tr><td><a href={cell(w)} data-cell>{w}</a></td>{STATUSES.map((s) => <td>{c[s] ? <a href={cell(w, s)} data-cell>{c[s]}</a> : c[s]}</td>)}</tr>; })}</tbody>
+  </table></div>
+  <h2 id="all-features">All features</h2>
+  <Facets kind="feature" facets={facets} />
+  <div class="table-scroll"><table data-facet-table>
     <thead><tr><th scope="col">Feature</th><th scope="col">Area</th><th scope="col">Status</th><th scope="col">GA</th></tr></thead>
-    <tbody>{all.map((f) => <tr><td><a href={`${base}features/${f.id}/`}>{f.data.title}</a></td><td>{f.data.area}</td><td>{label[f.data.status]}</td><td>{f.data.ga_date}</td></tr>)}</tbody>
-  </table>
+    <tbody>{all.map((f) => <tr data-wave={waveId(f)} data-status={f.data.status} data-area={areaId(f)}><td><a href={`${base}features/${f.id}/`}>{f.data.title}</a></td><td>{f.data.area}</td><td>{label[f.data.status]}</td><td>{f.data.ga_date}</td></tr>)}</tbody>
+  </table></div>
 </List>
+<script>
+  // D91 C5: the pills filter the table in place; a tracker cell is a link into them
+  import { mountTableFacets } from "../../scripts/facets";
+  const root = document.querySelector<HTMLElement>("[data-facets]"), table = document.querySelector<HTMLTableElement>("table[data-facet-table]");
+  if (root && table) mountTableFacets(root, table);
+</script>

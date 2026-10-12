@@ -1,11 +1,18 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { radarLine, weekLine, weekState } from "../../lib/digest-cards";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("digests")).sort((a, b) => b.id.localeCompare(a.id));
+// D91 C3: a card per week; the running week by the build's day (UTC), since an unchanged re-render keeps generated.at
+const today = new Date().toISOString().slice(0, 10);
 ---
 <List section="digests" title="Weekly digests · BC Observatory" description="What changed in Business Central each week.">
   <p class="eyebrow">Weekly digests · <a href={`${base}rss.xml`}>RSS</a></p>
   <h1>{all.length} weeks</h1>
-  <ul>{all.map((e) => <li><a href={`${base}digests/${e.id}/`}>{e.id}</a> <span class="meta">{e.data.range.start} to {e.data.range.end} · {e.data.sections.videos} videos, {e.data.sections.posts} posts, {e.data.sections.docs} Learn commits</span></li>)}</ul>
+  <p class="lede">One page per ISO week, Monday to Sunday: the videos, posts, Learn pages and Microsoft pull requests that landed, the roadmap's moves and the deprecation radar. The running week fills in night by night.</p>
+  <ol class="list-cards week-cards">{all.map((e) => {
+    const running = weekState(String(e.data.range.end), today) === "running", radar = radarLine(e.data.sections ?? {});
+    return <li class={`card week-card${running ? " is-running" : ""}`}><p class="week-card-name"><a href={`${base}digests/${e.id}/`}>{e.id}</a>{running && <> <span class="badge">in progress</span></>}</p><p class="mono-meta">{e.data.range.start} to {e.data.range.end}</p><p>{weekLine(e.data.sections ?? {}, running)}</p>{radar && <p class="mono-meta"><a href={`${base}code/deprecations/`}>Radar</a>: {radar}</p>}</li>;
+  })}</ol>
 </List>

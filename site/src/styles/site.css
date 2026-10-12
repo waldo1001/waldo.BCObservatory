@@ -182,7 +182,6 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .stage .kind { font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: var(--r-badge); margin-right: 4px; }
 .stage-card { display: grid; }
 .stage-hero { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; max-height: 280px; object-fit: cover; background: var(--surface-raised); }
-@media (max-width: 600px) { .stage-hero { aspect-ratio: 16 / 9; } }
 .stage-card-body { padding: var(--card-pad); display: grid; gap: 8px; }
 .stage-site { display: flex; align-items: center; gap: 6px; margin: 0; font-weight: 600; color: var(--text); }
 .stage-favicon { width: 16px; height: 16px; border-radius: 3px; }
@@ -257,8 +256,38 @@ td code { font-size: 12.5px; }
 .pill-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
 .pill-btn:disabled { opacity: .45; cursor: default; }
 .pill-btn small { font: inherit; opacity: .8; }
-.pills .pill-count { margin-left: 4px; }
 @media (pointer: coarse) { .pill-btn { min-height: 44px; } }
+/* D91: list pages load in pages and filter (facets, Show more, title list), week and source cards, the compact post card */
+/* E1: from 601 px the post card's image is a 200 px column beside the text; under 600 px it is not shown (lazy, so not fetched).
+   Without :has() the card stays one column with the 280 px image above */
+@media (min-width: 601px) {
+  .stage-card:has(> .stage-hero) { grid-template-columns: 200px minmax(0, 1fr); }
+  .stage-card:has(> .stage-hero) > .stage-hero { aspect-ratio: auto; height: 100%; max-height: none; min-height: 120px; }
+}
+@media (max-width: 600px) { .stage-hero { display: none; } }
+/* C3 and C4: week cards on /digests/, source cards on /sources/ (ol, so the list page's ul padding stays off) */
+.list-cards { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.list-cards > li { display: grid; gap: 6px; align-content: start; }
+.list-cards p { margin: 0; }
+.week-card.is-running { border-style: dashed; }
+.week-card.is-running > :not(.week-card-name) { opacity: .75; }
+.source-card-systems { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+/* C2 and C5: filter blocks of pills with counts; a long facet folds into a closed details */
+.facets { margin: 12px 0 8px; }
+.facets .pills { margin: 4px 0; }
+.facet-label { min-width: 84px; }
+.pill-btn { max-width: 100%; text-align: left; }
+.pill-switch { margin-left: 8px; }
+.facet-fold > summary { cursor: pointer; padding: 6px 0; }
+.list-count:empty { display: none; }
+/* C1: the newest 50 rows, Show more (hidden without JavaScript: .btn would override [hidden]) and the closed title list */
+.list-more { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 16px 0; }
+.list-more > [hidden] { display: none; }
+.list-archive { margin: 8px 0 24px; }
+.list-archive > summary { cursor: pointer; font: 400 12px var(--font-mono); color: var(--muted); }
+.archive { list-style: none; padding: 0; margin: 8px 0 0; columns: 2 320px; column-gap: 24px; font-size: 14px; }
+.archive li { break-inside: avoid; padding: 2px 0; }
+/* end D91 */
 .chip-sys { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); }
 .chip-sys::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--muted)); }
 .tag { display: inline-block; font: 400 11px var(--font-mono); color: var(--muted); border: 1px solid var(--line); border-radius: var(--r-badge); padding: 1px 6px; }

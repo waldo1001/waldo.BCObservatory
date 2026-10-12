@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { parseQuery } from "@bc-observatory/search";
-import { CACHE, createLoader, getJson, kindsFor, prune, type LoaderDeps } from "../../site/src/scripts/index-loader.js";
+import { CACHE, createLoader, getJson, kindsFor, mediaRecords, prune, type LoaderDeps } from "../../site/src/scripts/index-loader.js";
 
 const p = (raw: string) => parseQuery(raw, { countries: ["be"] });
 
@@ -125,4 +125,37 @@ test("the Learn articles load only when asked, from the manifest's `learn` entry
   // a manifest without `learn` (before D94): nothing to load, no error
   const old = createLoader({ fetch: fakeSite({ [`${B}index/index-manifest.json`]: { shards: [] } }).fetch, caches: null }, B);
   assert.equal((await old.loadPages(["learn"])).records.length, 0);
+});
+
+test("mediaRecords: the list pages' records, the manifest revalidated, the media shard once into Cache Storage, a 404 refetches the manifest once (D91 4.6)", async () => {
+  const c = fakeCaches();
+  const files: Record<string, unknown> = {
+    [`${B}index/index-manifest.json`]: { shards: [{ file: "pages-hubs-111111111111.json", kind: "hubs" }, { file: "pages-media-222222222222.json", kind: "media" }, { file: "pages-objects-1-333333333333.json", kind: "objects" }] },
+    [`${B}index/pages-hubs-111111111111.json`]: [rec("topics/a", "topic", "A")],
+    [`${B}index/pages-media-222222222222.json`]: [rec("videos/v", "video", "V"), rec("changes/bcapps/1", "change", "#1 C")],
+    [`${B}index/pages-objects-1-333333333333.json`]: [rec("objects/table/18", "object", 'Table 18 "Customer"')],
+  };
+  const site = fakeSite(files);
+  const deps: LoaderDeps = { fetch: site.fetch, caches: c.caches };
+  assert.deepEqual((await mediaRecords(deps, B)).map((r) => r.path), ["videos/v", "changes/bcapps/1"]);
+  assert.deepEqual(site.seen, [`${B}index/index-manifest.json (no-cache)`, `${B}index/pages-media-222222222222.json`], "the manifest and the media shard only");
+  site.seen.length = 0;
+  assert.equal((await mediaRecords(deps, B)).length, 2);
+  assert.deepEqual(site.seen, [`${B}index/index-manifest.json (no-cache)`], "the shard from Cache Storage");
+  // a deploy race: the manifest names a shard the site no longer serves; the refetched manifest names the new one
+  const race = fakeSite({ [`${B}index/pages-media-444444444444.json`]: [rec("posts/s/1", "post", "P")] });
+  let calls = 0;
+  const raceFetch = async (url: string, init?: RequestInit) => {
+    if (url.endsWith("index-manifest.json")) {
+      race.seen.push(`${url} (${init?.cache})`);
+      return new Response(JSON.stringify({ shards: [{ file: calls++ === 0 ? "pages-media-222222222222.json" : "pages-media-444444444444.json", kind: "media" }] }));
+    }
+    return race.fetch(url, init);
+  };
+  assert.deepEqual((await mediaRecords({ fetch: raceFetch, caches: null }, B)).map((r) => r.path), ["posts/s/1"]);
+  assert.equal(race.seen.filter((u) => u.includes("index-manifest")).length, 2, "the manifest twice");
+  assert.equal(race.seen.filter((u) => u.includes("pages-media-444444444444")).length, 1, "the new shard once");
+  // a manifest without a media shard
+  const bare = fakeSite({ [`${B}index/index-manifest.json`]: { shards: [{ file: "pages-hubs-111111111111.json", kind: "hubs" }] } });
+  assert.deepEqual(await mediaRecords({ fetch: bare.fetch, caches: null }, B), []);
 });

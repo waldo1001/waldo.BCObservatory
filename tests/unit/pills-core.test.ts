@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { CHANGE_REPOS, kindsLine, parsePills, pillDisabled, pillsParam, repoOf, togglePill, usablePills } from "../../site/src/scripts/pills-core.js";
+import { CHANGE_REPOS, parsePills, pickDisabled, pickPill, pillDisabled, pillsParam, repoOf, togglePill, usablePills } from "../../site/src/scripts/pills-core.js";
 
 // D82: the changes list's repository pills, over the generic D80 pill helpers
 const R = ["bcapps", "al-go", "bcquality"] as const;
@@ -40,9 +40,20 @@ test("pillDisabled: only an empty pill that is off", () => {
   assert.deepEqual([pillDisabled(true, 0), pillDisabled(false, 0), pillDisabled(false, 3)], [false, true, false]);
 });
 
-test("kindsLine: kinds A to Z with their counts, empty for nothing", () => {
-  assert.equal(kindsLine(["fix", "feature", "fix"]), "1 feature · 2 fix");
-  assert.equal(kindsLine([]), "");
+// D91: the list pages' click rule; from "all on" a click keeps one pill, later clicks toggle
+test("pickPill: from all on keeps that pill, otherwise toggles, the last one off brings all back, one pill alone toggles", () => {
+  assert.equal(sorted(pickPill(new Set<Repo>(R), "al-go", R)), "al-go");
+  assert.equal(sorted(pickPill(new Set<Repo>(["al-go"]), "bcquality", R)), "al-go,bcquality");
+  assert.equal(sorted(pickPill(new Set<Repo>(["al-go", "bcquality"]), "al-go", R)), "bcquality");
+  assert.equal(sorted(pickPill(new Set<Repo>(["al-go"]), "al-go", R)), ALL);
+  assert.equal(sorted(pickPill(new Set(["x"]), "x", ["x"])), "x");
+});
+
+test("pickDisabled: an empty pill while off, or while its whole facet is on; a pressed pill in a subset never", () => {
+  assert.equal(pickDisabled(true, true, 0), true);
+  assert.equal(pickDisabled(true, false, 0), false);
+  assert.equal(pickDisabled(false, false, 0), true);
+  assert.deepEqual([pickDisabled(false, false, 3), pickDisabled(true, true, 5)], [false, false]);
 });
 
 test("CHANGE_REPOS and repoOf: the three D61 slugs in pill order, the slug from an entry id", () => {

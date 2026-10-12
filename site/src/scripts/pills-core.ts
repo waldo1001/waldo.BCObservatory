@@ -20,18 +20,20 @@ export function togglePill<K extends string>(on: Set<K>, k: K, all: readonly K[]
   if (next.has(k)) next.delete(k); else next.add(k);
   return next.size ? next : new Set(all);
 }
+/** D91: a click on a list page. From "all on" it keeps only that pill; otherwise it toggles, and switching off the last
+ *  pressed pill turns them all on (togglePill). One pill alone behaves as togglePill. */
+export function pickPill<K extends string>(on: Set<K>, k: K, all: readonly K[]): Set<K> {
+  return all.length > 1 && all.every((x) => on.has(x)) ? new Set([k]) : togglePill(on, k, all);
+}
 /** When no pill that is on has anything behind it, every pill comes back on; an all-empty set stays as asked. */
 export function usablePills<K extends string>(on: Set<K>, counts: Record<K, number>, all: readonly K[]): Set<K> {
   return all.some((k) => on.has(k) && counts[k] > 0) || !all.some((k) => counts[k] > 0) ? on : new Set(all);
 }
 /** A pill is disabled only when it has nothing behind it and is off: a pressed pill can always be switched off. */
 export const pillDisabled = (pressed: boolean, count: number): boolean => !pressed && count === 0;
-/** The kind counts line: kinds A to Z, `<n> <kind>` joined with " · ", "" when there is nothing. */
-export function kindsLine(kinds: Iterable<string>): string {
-  const n = new Map<string, number>();
-  for (const k of kinds) n.set(k, (n.get(k) ?? 0) + 1);
-  return [...n.keys()].sort().map((k) => `${n.get(k)} ${k}`).join(" · ");
-}
+/** D91: under pickPill a pill with nothing behind it is disabled while off, and also while its whole facet is on
+ *  (the click would keep only that pill: an empty list). A pressed pill in a subset can always be switched off. */
+export const pickDisabled = (pressed: boolean, facetAllOn: boolean, count: number): boolean => count === 0 && (!pressed || facetAllOn);
 
 /** The changes list's repositories, in pill order, with the label each pill prints (the D61 source slugs). */
 export const CHANGE_REPOS: readonly (readonly [slug: string, label: string])[] =
