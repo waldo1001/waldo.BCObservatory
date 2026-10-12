@@ -1,0 +1,36 @@
+---
+/**
+ * D91 C1 and C2: a media list (changes, videos, posts). The newest 50 rows, pills with counts, "Show more" and a closed
+ * list of every other page by title, so each media page keeps a static link for crawlers and readers without
+ * JavaScript. Rows, counts and titles come from the search index's media records (media-rows.ts), the same records
+ * media-list.ts renders from once the reader acts. No style here: the rules are global in site.css (D53).
+ */
+import Facets from "./Facets.astro";
+import { mediaRows } from "../lib/media-rows";
+import { sourceIcon } from "../lib/preview";
+import { foldFacet } from "../scripts/facets-core";
+import { CHANGE_SWITCHES, LIST_STATIC, changeRow, facetValues, moreText, postRow, staticStatus, titleItem, videoRow, type MediaType } from "../scripts/list-rows";
+interface Props { type: MediaType; noun: string }
+const { type, noun } = Astro.props;
+const rows = mediaRows(type);
+const LABELS: Record<string, string> = { repo: "Repository", kind: "Kind", major: "Major", source: type === "video" ? "Channel" : "Blog", year: "Year" };
+const breaking = type === "change" ? rows.filter((r) => CHANGE_SWITCHES[0].test(r)).length : 0;
+const facets = Object.entries(facetValues(rows, type)).map(([id, values]) => ({
+  id, label: LABELS[id] ?? id, values, fold: foldFacet(values.map((v) => v.label)),
+  ...(id === "kind" ? { switch: { id: "breaking", label: "breaking only", count: breaking } } : {}),
+}));
+// posts: the icon of each blog, so rows the browser renders get the same icon as static ones (D60 phase 2)
+const icons = type === "post" ? Object.fromEntries([...new Set(rows.map((r) => r.source ?? ""))].map((s) => [s, sourceIcon(s)]).filter(([, i]) => i)) : null;
+const rowOf = (r: (typeof rows)[number]) => (type === "change" ? changeRow(r) : type === "video" ? videoRow(r) : postRow(r, icons?.[r.source ?? ""] ?? null));
+const rest = rows.slice(LIST_STATIC);
+const button = moreText(Math.min(LIST_STATIC, rows.length), rows.length).button ?? "";
+---
+<Facets kind={type} facets={facets} />
+<ul class={type === "post" ? "post-rows" : "list"} data-list={type} set:html={rows.slice(0, LIST_STATIC).map(rowOf).join("")} />
+<p class="list-more"><button type="button" class="btn" data-more hidden>{button}</button> <span class="mono-meta" data-more-status aria-live="polite">{staticStatus(rows.length)}</span></p>
+{rest.length > 0 && <details class="list-archive"><summary>The other {rest.length.toLocaleString("en")} {noun} by title</summary><ol class="archive" set:html={rest.map(titleItem).join("")} /></details>}
+{icons && <script is:inline type="application/json" data-icons set:html={JSON.stringify(icons).replace(/</g, "\\u003c")} />}
+<script>
+  import { mountMediaList } from "../scripts/media-list";
+  mountMediaList();
+</script>

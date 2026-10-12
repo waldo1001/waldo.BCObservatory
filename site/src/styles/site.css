@@ -220,7 +220,6 @@ td code { font-size: 12.5px; }
 .pill-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
 .pill-btn:disabled { opacity: .45; cursor: default; }
 .pill-btn small { font: inherit; opacity: .8; }
-.pills .pill-count { margin-left: 4px; }
 @media (pointer: coarse) { .pill-btn { min-height: 44px; } }
 /* D91: list pages load in pages and filter (facets, Show more, title list), week and source cards, the compact post card */
 /* E1: from 601 px the post card's image is a 200 px column beside the text; under 600 px it is not shown (lazy, so not fetched).
@@ -245,6 +244,13 @@ td code { font-size: 12.5px; }
 .pill-switch { margin-left: 8px; }
 .facet-fold > summary { cursor: pointer; padding: 6px 0; }
 .list-count:empty { display: none; }
+/* C1: the newest 50 rows, Show more (hidden without JavaScript: .btn would override [hidden]) and the closed title list */
+.list-more { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 16px 0; }
+.list-more > [hidden] { display: none; }
+.list-archive { margin: 8px 0 24px; }
+.list-archive > summary { cursor: pointer; font: 400 12px var(--font-mono); color: var(--muted); }
+.archive { list-style: none; padding: 0; margin: 8px 0 0; columns: 2 320px; column-gap: 24px; font-size: 14px; }
+.archive li { break-inside: avoid; padding: 2px 0; }
 /* end D91 */
 .chip-sys { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); }
 .chip-sys::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--muted)); }

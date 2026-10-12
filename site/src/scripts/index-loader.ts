@@ -146,3 +146,22 @@ export const hasKind = (base: string, kind: string) => loaderOf(base).has(kind);
 
 /** The country codes of the loaded index, for parseQuery. */
 export const countriesNow = (index: Index) => countriesOf(index);
+
+/** D91: the media records (videos, posts, code changes) as written, for the list pages: the same manifest, the same
+ *  Cache Storage and the same one-time manifest refetch on a 404 as loadKind. A manifest without a media shard gives []. */
+export async function mediaRecords(deps: LoaderDeps, base: string): Promise<PageRecord[]> {
+  for (let attempt = 0; ; attempt++) {
+    const man = await getJson<PagesManifest>(deps, `${base}index/index-manifest.json`, false);
+    try {
+      const parts = await Promise.all(man.shards.filter((s) => s.kind === "media").map((s) => getJson<PageRecord[]>(deps, `${base}index/${s.file}`, true)));
+      void prune(deps, base, "pages-", new Set(man.shards.map((s) => s.file)));
+      return parts.flat();
+    } catch (e) {
+      if (attempt === 0 && e instanceof HttpError && e.status === 404) continue; // a deploy race: the manifest once more
+      throw e;
+    }
+  }
+}
+/** The browser's deps, as loaderOf builds them. */
+export const loadMediaRecords = (base: string): Promise<PageRecord[]> =>
+  mediaRecords({ fetch: (u, i) => fetch(u, i), caches: typeof caches === "undefined" ? null : caches }, base);

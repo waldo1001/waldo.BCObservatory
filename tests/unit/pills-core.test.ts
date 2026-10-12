@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { CHANGE_REPOS, kindsLine, parsePills, pickDisabled, pickPill, pillDisabled, pillsParam, repoOf, togglePill, usablePills } from "../../site/src/scripts/pills-core.js";
+import { CHANGE_REPOS, parsePills, pickDisabled, pickPill, pillDisabled, pillsParam, repoOf, togglePill, usablePills } from "../../site/src/scripts/pills-core.js";
 
 // D82: the changes list's repository pills, over the generic D80 pill helpers
 const R = ["bcapps", "al-go", "bcquality"] as const;
@@ -54,11 +54,6 @@ test("pickDisabled: an empty pill while off, or while its whole facet is on; a p
   assert.equal(pickDisabled(true, false, 0), false);
   assert.equal(pickDisabled(false, false, 0), true);
   assert.deepEqual([pickDisabled(false, false, 3), pickDisabled(true, true, 5)], [false, false]);
-});
-
-test("kindsLine: kinds A to Z with their counts, empty for nothing", () => {
-  assert.equal(kindsLine(["fix", "feature", "fix"]), "1 feature · 2 fix");
-  assert.equal(kindsLine([]), "");
 });
 
 test("CHANGE_REPOS and repoOf: the three D61 slugs in pill order, the slug from an entry id", () => {

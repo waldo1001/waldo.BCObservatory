@@ -34,12 +34,6 @@ export const pillDisabled = (pressed: boolean, count: number): boolean => !press
 /** D91: under pickPill a pill with nothing behind it is disabled while off, and also while its whole facet is on
  *  (the click would keep only that pill: an empty list). A pressed pill in a subset can always be switched off. */
 export const pickDisabled = (pressed: boolean, facetAllOn: boolean, count: number): boolean => count === 0 && (!pressed || facetAllOn);
-/** The kind counts line: kinds A to Z, `<n> <kind>` joined with " · ", "" when there is nothing. */
-export function kindsLine(kinds: Iterable<string>): string {
-  const n = new Map<string, number>();
-  for (const k of kinds) n.set(k, (n.get(k) ?? 0) + 1);
-  return [...n.keys()].sort().map((k) => `${n.get(k)} ${k}`).join(" · ");
-}
 
 /** The changes list's repositories, in pill order, with the label each pill prints (the D61 source slugs). */
 export const CHANGE_REPOS: readonly (readonly [slug: string, label: string])[] =
