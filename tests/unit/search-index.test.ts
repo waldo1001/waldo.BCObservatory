@@ -7,6 +7,7 @@ import { join } from "node:path";
 import { writeText } from "../../pipeline/lib/fsx.js";
 import { sha256 } from "../../pipeline/lib/text.js";
 import { kindOfType, majorsText, pageRecord, pathLabel, renderSearchIndex } from "../../pipeline/render/search.js";
+import { pageToRecord } from "@bc-observatory/search";
 
 test("a hub's record says where it sits, how big it is and whether its narrative was reviewed (D65 5.1)", () => {
   const r = pageRecord("topics/business-central/business-functionality/sales/subscription-billing", {
@@ -120,4 +121,24 @@ test("shards split by kind under content-hashed names; the manifest says which; 
   const before = readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]);
   renderSearchIndex(content, data);
   assert.deepEqual(readdirSync(dir).map((f) => [f, statSync(join(dir, f)).mtimeMs]), before, "a quiet night rewrites nothing");
+});
+
+test("media records carry what the list rows print: a change's branch, major, objects and flags, a video's review and poster opt-out (D91 4.5)", () => {
+  const fm = { type: "change", title: "C", change_kind: "fix", source_id: "bcapps-prs", base_branch: "main", major: "30", objects_touched: [{}, {}, {}, {}, {}], breaking: false, community_contribution: false };
+  const c = pageRecord("changes/bcapps/10005", fm);
+  assert.deepEqual([c.source, c.status, c.branch, c.major, c.objects], ["bcapps-prs", "fix", "main", "30", 5]);
+  assert.ok(!("breaking" in c) && !("community" in c), "false flags are left out");
+  const c2 = pageRecord("changes/bcapps/10005", { ...fm, major: null, objects_touched: [], breaking: true, community_contribution: true });
+  assert.deepEqual([c2.objects, c2.breaking, c2.community], [0, true, true]);
+  assert.ok(!("major" in c2), "no major key without a major");
+  const v = pageRecord("videos/v", { type: "video", title: "V", channel: "yt-x", review: { state: "reviewed" } });
+  assert.equal(v.review, "reviewed");
+  assert.ok(!("embed" in v));
+  const v2 = pageRecord("videos/v", { type: "video", title: "V", channel: "yt-x", embed: false });
+  assert.equal(v2.embed, false);
+  assert.ok(!("review" in v2));
+  const p = pageRecord("posts/s/1", { type: "post", title: "P", source_id: "s", review: { state: "flagged" } });
+  for (const k of ["branch", "major", "objects", "review", "embed"]) assert.ok(!(k in p), `a post has no ${k}`);
+  // the scorer's major is an object's present_in: a change never matches bc30 through it
+  assert.equal(pageToRecord(c).major, undefined);
 });

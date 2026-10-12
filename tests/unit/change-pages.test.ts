@@ -140,7 +140,9 @@ test("published page, object page section, reverse index, digest, search record 
   assert.deepEqual([d.counts.changes, d.counts.changes_behavior, d.counts.changes_obsoletions], [3, 1, 1]);
   assert.match(d.page, /## Code changes\n\n3 pull requests merged, 1 of them touch AL source[\s\S]*microsoft\/BCApps: main: 2 merged \(1 bots, 0 backports\)[\s\S]*\[#101 Payment terms[\s\S]*Obsoletions:\n\n- Payment Terms: Old Field/);
   // search record and graph
-  assert.deepEqual(pageRecord("changes/bcapps/101", fm.data), { path: "changes/bcapps/101", type: "change", title: "#101 Payment terms: due date calculation", summary: fm.data.summary, tier: "official", system: "platform", date: "2026-10-05", tags: fm.data.tags.slice(0, 8), source: "bcapps-prs", status: "feature" });
+  assert.deepEqual(pageRecord("changes/bcapps/101", fm.data), { path: "changes/bcapps/101", type: "change", title: "#101 Payment terms: due date calculation", summary: fm.data.summary, tier: "official", system: "platform", date: "2026-10-05", tags: fm.data.tags.slice(0, 8), source: "bcapps-prs", status: "feature",
+    // D91: what the changes list prints
+    branch: "main", major: "30", objects: 1, community: true });
   assert.ok(fm.data.tags.includes("table payment terms"), "found by object name");
   const g = buildGraph(w.contentDir);
   assert.ok(g.edges.some((e) => e.type === "changes" && [e.s, e.t].includes("change/bcapps/101") && [e.s, e.t].includes("object/table/3")));

@@ -21,6 +21,10 @@ export interface PageRecord {
   path_label?: string; caption?: string; members?: number; narrative?: "reviewed" | "unreviewed" | "none"; stats?: string;
   /** D86: an object's name, namespace, the majors it is present in ("23-30"), inbound references and event subscribers. */
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
+  /** D91, change pages: base branch, the BC major it maps to, objects touched, and the two flags the changes list prints. */
+  branch?: string; major?: string; objects?: number; breaking?: boolean; community?: boolean;
+  /** D91, video pages: the review state the videos list prints as a badge, and the author's poster opt-out. */
+  review?: string; embed?: boolean;
 }
 
 export interface Term {

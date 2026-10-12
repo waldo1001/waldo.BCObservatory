@@ -33,6 +33,10 @@ export interface PageRecord {
   /** Objects (D86): the name, the namespace, the majors the object is present in ("23-30"), what points at it
    *  (references, callers, pages, event subscribers, Learn pages) and its event subscribers, for ranking. */
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
+  /** D91, change pages: base branch, the BC major it maps to, objects touched, and the two flags the changes list prints. */
+  branch?: string; major?: string; objects?: number; breaking?: boolean; community?: boolean;
+  /** D91, video pages: the review state the videos list prints as a badge, and the author's poster opt-out. */
+  review?: string; embed?: boolean;
 }
 export type ShardKind = "hubs" | "media" | "objects";
 export interface IndexManifest { schema: "bcobs-index@1"; pages: number; shards: { file: string; count: number; sha256: string; kind: ShardKind }[]; by_type: Record<string, number> }
@@ -107,12 +111,21 @@ export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
   }
   if (fm.type === "localization") r.country = fm.country;
   if (fm.type === "post") { r.source = fm.source_id; if (fm.source_name) r.path_label = String(fm.source_name); }
-  if (fm.type === "video") { r.source = fm.channel; if (fm.source_name) r.path_label = String(fm.source_name); }
+  if (fm.type === "video") {
+    r.source = fm.channel; if (fm.source_name) r.path_label = String(fm.source_name);
+    // D91: the videos list prints the review badge and drops the poster for an author's opt-out
+    if (fm.review?.state) r.review = String(fm.review.state);
+    if (fm.embed === false) r.embed = false;
+  }
   if (fm.type === "feature") { r.status = fm.status; if (fm.area) r.path_label = String(fm.area); }
   // an AL Language extension version (D85): pre-release until a stable upload exists, labelled with its wave
   if (fm.type === "release") { r.status = fm.prerelease ? "prerelease" : "released"; if (fm.wave) r.path_label = `${fm.wave}${fm.major ? ` (BC${fm.major})` : ""}`; }
   // a change page (D61): its repository source, and its kind as the status (feature, fix, breaking, ...)
-  if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind });
+  // D91: and what the changes list prints: branch, major, objects touched, the breaking and community flags
+  if (fm.type === "change") Object.assign(r, { source: fm.source_id, status: fm.change_kind,
+    ...(fm.base_branch ? { branch: String(fm.base_branch) } : {}), ...(fm.major ? { major: String(fm.major) } : {}),
+    objects: Array.isArray(fm.objects_touched) ? fm.objects_touched.length : 0,
+    ...(fm.breaking ? { breaking: true } : {}), ...(fm.community_contribution ? { community: true } : {}) });
   return r;
 }
 
