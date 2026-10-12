@@ -138,6 +138,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
   @media (pointer: coarse) { .g-lensmenu :global(.g-lm), .g-lensbar :global(.g-lens), .g-viewbar .g-btn { min-height: 44px; } }
   .g-legend { position: absolute; left: 120px; bottom: 22px; margin: 0; font: 400 11px var(--font-mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; pointer-events: none; }
+  .g-legend[hidden] { display: none; } /* the rule above sets display: flex, which beat the hidden attribute: the key showed under a tilt */
   .g-legend :global(span) { display: inline-block; width: 8px; height: 8px; margin-left: 6px; background: var(--muted); }
   .g-legend :global(.lg-hub) { border-radius: 50%; }
   .g-legend :global(.lg-obj) { border-radius: 2px; }

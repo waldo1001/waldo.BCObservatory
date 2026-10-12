@@ -10,11 +10,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Status: proposed 2026-10-12, nothing implemented.
-  Items D3 and D6 of the 2026-10-12 UX review, home page only, three phases that ship alone: B captions that avoid
-  stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
-  Lenses menu. Start with phase B, task 1 (tests 6 to 8 in `tests/unit/galaxy-labels.test.ts`). Until it lands readers
-  see today's bar (three rows at 1024 px with the panel open) and captions over neighbouring stars.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -24,6 +19,16 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-12, live on the next Pages build:**
+- **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Items D3 and D6 of the 2026-10-12 UX review, home
+  page only. The galaxy's lens bar is one bar of two groups: left Questions, a Lenses menu with every lens in groups
+  (versions with counts, this week, type, tier, coverage, and Country and Source entries that open the panel pickers)
+  and a chip that names and clears the lens that is on; right List view, Tilt, zoom, panel, full screen and "?". One
+  row at 1440 px with the panel open (was two), two at 1024 (was three plus the tools row), one 52 px row on a phone
+  (was three, 124 px); Questions is the first Tab stop; arrow keys on the bar no longer fly the galaxy; every deep
+  link lands as before. Captions take the spot around their star that covers the fewest other stars (caption-star
+  pairs 370 to 81 on 84 states), plot labels are mono 10 px and give way, ports are packed on the border under the
+  measured bar (port overlaps 30 to 0, over the bar 20 to 0). Galaxy chunk +3.1 KB raw (+1.1 KB gzipped), tar
+  unchanged at 695.3 MB. `node scripts/galaxy-density.mjs` measures it; deviations in the spec's section 12.
 - **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). One map of section names (`pipeline/lib/sections.ts`) read by
   the nav, crumbs, index titles and h1s, home cards, About, search groups and every `llms.txt`; crumbs follow the
   sections (`site/src/lib/crumbs.ts`) with the galaxy system as a chip in the identity row, so localization and source

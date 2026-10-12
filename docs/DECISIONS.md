@@ -959,3 +959,39 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   `details` or checkbox toggle, a sticky phone bar, one row on laptops (1,520 px needed), dropdown groups, visible
   group labels, short names everywhere, a strip docked in the galaxy, a 70svh cap, "Source on GitHub" as the object
   primary, unquoted titles, an Instruments nav entry. Spec: `docs/specs/wayfinding.md`.
+- **D92 The galaxy's controls are two groups, lenses left and view right, and its captions and ports keep off what
+  they would hide.** (D3 of the 2026-10-12 review) The lens bar mixed six control shapes (the Questions menu, a version
+  pill with a caret menu, a "this week" chip, a native "more lenses" select, a "list view" chip, a tilt range or a
+  "planes" toggle) in a bar capped at `calc(100% - 720px)` with the panel open: 304 px and three rows at 1024 px, 48 px
+  and six rows at 768 px. Now the left group holds Questions, one Lenses menu and a chip for the lens that is on (it
+  clears the lens); the menu lists every lens in groups (Version newest first with counts and config labels, Time,
+  Type, Tier, Coverage, and Country and Source as entries that open the panel pickers of D78), built by `lensMenu` in
+  `galaxy-core.ts`. The right group is the view: List view, Tilt (Planes on a phone), zoom, Show panel, Full screen and
+  the "?" sheet. One bar wraps both, and its measured bottom sets where ports, tilt planes and the list view start.
+  Both groups are `role="group"` (the `toolbar` role promised arrow keys nobody implemented, and those arrows flew the
+  galaxy), they come first in the Tab order (Questions was the 22nd Tab stop, now the first), and the hash and every
+  deep link are unchanged. With the panel open on Finance the bar is one row at 1440 px (bottom 116 to 82), two at 1024
+  (154 to 120, and the tools row is gone), bottom 274 to 162 at 768; on a phone one row of 52 px instead of three of
+  124. Amends D71 (the this-week chip becomes a menu entry: on the home page "this week" is two clicks, from Lenses or
+  Questions) and D72 (the version pill and its caret become the menu's Version row; the remembered major goes).
+  (D6) Measured on 21 systems at 1440 and 1024 px: ports already drew only for a focused star and captions never
+  overlapped each other, so the review's two proposals were the behaviour already; what was wrong is that captions
+  covered neighbouring stars (43 of 118 system-level captions at 1440), plot labels drew in the caption font (a canvas
+  `font` cannot take `var()`), and ports overlapped each other (13 and 17 pairs) and, at 1024, the bar (20). Now a
+  caption takes the spot around its star (right, left, below, above) that covers the fewest other stars and is
+  skipped when that is more than one (`captionSpot`, `CAPTION_MAX_COVER = 1`; a box centred on the star is its own dot,
+  so an overlapping object square still counts); on the same 84 states caption-star pairs fell from 370 to 81,
+  captions placed rose from 400 to 453, captions over a star at system level fell from 43 to 20 at 1440 and 56 to 25 at
+  1024. Plot labels are mono 10 px and yield to captions, ports, labels and the bar (`visibleLabels`; over a caption 43
+  to 0, under a port 32 to 0). Ports take the nearest free slot on the canvas border (`packPorts`; port pairs 30 to 0,
+  over the bar 20 to 0, over a caption 6 to 0, none hidden). Home page only: the galaxy chunk grows 3.1 KB raw and
+  1.1 KB gzipped, the home CSS and `index.html` shrink, the Pages tar stays at 695.3 MB, no other page and no graph
+  file changes. `scripts/galaxy-density.mjs` measures all of it. Rejected: a segmented control holding every lens
+  (seven groups and 71 lenses; D72 rejected one for seven versions); keeping the version pill and the this-week chip
+  beside the menu (three of the shapes and most of the width stay); one native `select` for every lens (no counts in
+  a consistent place, no pressed state, no picker for 55 entries); listing the 22 countries and 33 sources in the
+  menu (55 rows; the panel pickers exist); a full ARIA toolbar with roving tabindex (its arrows collide with the
+  galaxy's and the tilt range's); the tools in the breadcrumb row (collides with the breadcrumb at 1024 px); a strict
+  "no caption over any star" (85 of 154 captions kept on the four busiest systems, none for Platform at 1440); media
+  bodies as caption obstacles (no gain on star overlap; later); hiding plot labels (the only canvas text that names
+  the namespace plots). Spec: `docs/specs/galaxy-controls.md`.

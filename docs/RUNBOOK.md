@@ -114,6 +114,13 @@ panel states at 1440 and 390 px and fails on any row label squeezed into the mar
 dependency: point `PLAYWRIGHT_DIR` at a `node_modules` that holds it (default: the npx cache); without it the sweep
 skips with exit 0.
 
+Galaxy density probe (D92): after a change to the canvas captions or plot labels, the ports or the galaxy bar, build
+the site (Node 22) and run `node scripts/galaxy-density.mjs`. It serves `site/dist` the way the ui-sweep does (port
+`SWEEP_PORT`, default 4189) and counts overlapping captions, plot labels, ports and stars per system at system and star
+level at 1440 and 1024 px (and the four busiest systems at 1280), plus the galaxy bar's rows and bottom at five widths
+and the first Tab stop. Pass another build's `site/dist` as its argument for a before and after; `PARTS=bar` or
+`PARTS=states` runs one half. The ui-sweep now reads its lens states from the galaxy's Lenses menu (23 per width).
+
 ## Atlas in your own Claude Code
 
 - `claude mcp add --transport http bc-code-atlas https://bc-code-atlas.stefanmaron.dev/mcp` (user scope), or install
