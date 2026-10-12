@@ -4,11 +4,12 @@
  * already ships (D88: nothing may add bytes to 25,646 object pages): an "On this page" list of the main column's
  * sections with counts and a back-to-top button (B1); a filter, an order and a compact one-line mode for member sections
  * of 12 rows or more (B2); "Changed in" chips per member section, set also from the timeline's changed majors, and the
- * member pills' titles (B3). A hash naming a row (D86) reveals, opens and scrolls to it, on load and on `hashchange`.
+ * member pills' titles (B3); the neighbourhood's legend lights a kind's lines and nodes (B6). A hash naming a row (D86)
+ * reveals, opens and scrolls to it, on load and on `hashchange`.
  * The pure helpers are in object-page-core.ts, tested.
  */
 import {
-  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
+  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, ringsByNode, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
   sectionCount, sortOrder, tocWanted, transitionHref, versionChips, visibleRows, type Change, type Order, type RowFacts,
 } from "./object-page-core";
 
@@ -245,6 +246,27 @@ function mountTimeline(members: Members[]): void {
   }
 }
 
+/** B6: pointing at or focusing a legend entry dims the diagram but that kind's lines and nodes. */
+function mountNeighbourhood(): void {
+  const svg = document.querySelector<SVGSVGElement>("section.nb svg");
+  if (!svg) return;
+  // lines and nodes are written from the same array in the same order (Neighbourhood.astro), the centre circle between them
+  const rings = ringsByNode([...svg.querySelectorAll("line.e")].map((l) => l.getAttribute("class") ?? ""));
+  [...svg.children].filter((n) => n.localName === "a" || n.localName === "g").forEach((n, i) => { if (rings[i]) n.classList.add(`r-${rings[i]}`); });
+  for (const li of document.querySelectorAll<HTMLElement>(".nb-legend li")) {
+    const ring = li.querySelector(".sw")?.classList[1];
+    if (!ring) continue;
+    const light = (on: boolean) => () => {
+      svg.classList.toggle("dim", on);
+      for (const x of svg.querySelectorAll(`.e.${ring}, .r-${ring}`)) x.classList.toggle("on", on);
+    };
+    li.addEventListener("pointerenter", light(true));
+    li.addEventListener("pointerleave", light(false));
+    li.addEventListener("focusin", light(true));
+    li.addEventListener("focusout", light(false));
+  }
+}
+
 export function mountObjectPage(): void {
   if (!document.querySelector("section.tl")) return;
   // B3: the pill titles left the HTML (2,526 pages); "changed in BC25, BC26" comes back here
@@ -260,6 +282,7 @@ export function mountObjectPage(): void {
     if (m) members.push(m);
   }
   mountTimeline(members);
+  mountNeighbourhood();
   mountToc();
   // popstate too: the finder (palette.ts) sets location.href, and a hit on the hash already in the URL fires no hashchange
   addEventListener("hashchange", reveal);

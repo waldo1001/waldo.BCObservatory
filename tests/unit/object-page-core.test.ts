@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
-  clampColumns, currentSection, listItemName, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted,
+  clampColumns, currentSection, listItemName, ringsByNode, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted,
   transitionHref, versionChips, visibleRows,
   type Change, type RowFacts,
 } from "../../site/src/scripts/object-page-core.js";
@@ -141,4 +141,8 @@ test("transitionHref (B3): the version transition page, none for the timeline's 
   assert.equal(transitionHref("/b/", 26, 23), "/b/code/versions/25__26/");
   assert.equal(transitionHref("/b/", 24, 23), "/b/code/versions/23__24/");
   assert.equal(transitionHref("/b/", 23, 23), null);
+});
+
+test("ringsByNode (B6): a node's ring from the class of the line drawn to it, in the same order", () => {
+  assert.deepEqual(ringsByNode(["e relates", "e relates", "e calls", "e learn"]), ["relates", "relates", "calls", "learn"]);
 });

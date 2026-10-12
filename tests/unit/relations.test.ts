@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { extractSource, loadParser, type AlObject } from "../../pipeline/code/extract.js";
 import { buildRelations, calcTarget, incoming, refName, relationTargets } from "../../pipeline/code/relations.js";
+import { nodeCaption } from "../../site/src/lib/relations.js";
 
 test("refName and relationTargets read AL references the way the compiler does", () => {
   assert.equal(refName("Customer"), "Customer");
@@ -87,4 +88,10 @@ test("relations: subscribers land on the published event, trigger events get the
   assert.deepEqual(Object.keys(rel.events["table/50201"] ?? {}), ["OnAfterValidateEvent(Sell-to Customer No.)"]);
   assert.deepEqual(rel.dead_events, { count: 1 });
   assert.equal(rel.stats.subscribes, 3);
+});
+
+test("nodeCaption (D89 B6): a neighbourhood node is captioned by its name, cut at 28 plus an ellipsis over 30", () => {
+  assert.equal(nodeCaption({ label: 'Table 379 "Detailed Cust. Ledg. Entry"', name: "Detailed Cust. Ledg. Entry" }), "Detailed Cust. Ledg. Entry");
+  assert.equal(nodeCaption({ label: "(v1.0) Create customer defaultDimensions", name: null }), "(v1.0) Create customer defau…", "a Learn page keeps its title, cut");
+  assert.equal(nodeCaption({ label: "x", name: "A name of exactly thirty chars" }), "A name of exactly thirty chars");
 });

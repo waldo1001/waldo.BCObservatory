@@ -144,3 +144,9 @@ export function versionChips(rows: Change[][]): { version: number; count: number
 export function transitionHref(base: string, version: number, oldest: number): string | null {
   return version > oldest ? `${base}code/versions/${version - 1}__${version}/` : null;
 }
+
+/** B6: the ring of the i-th node of the neighbourhood diagram, from the class of the i-th `line.e` ("e relates" -> "relates"):
+ *  Neighbourhood.astro writes the lines and the nodes from the same array, in the same order. */
+export function ringsByNode(lineClasses: string[]): string[] {
+  return lineClasses.map((c) => c.split(/\s+/).find((t) => t && t !== "e") ?? "");
+}
