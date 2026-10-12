@@ -2,6 +2,7 @@
 
 Status: implemented, 2026-10-07. Decision: D71 (amends D70). Owner: waldo.
 Later: D80 (`docs/specs/week-code-changes.md`) splits the header pill into media and code halves and lets the rings mark code stars under the lens.
+Later: D92 (`docs/specs/galaxy-controls.md`) moves the this-week chip into the galaxy's Lenses menu.
 Scope: the galaxy's "landed this week" marks (`site/src/scripts/galaxy.ts`) and the header pill "N new this
 week" (`site/src/layouts/Base.astro`, D70). Nothing in the pipeline changes; `data/graph/landed.json` stays as it
 is. Numbers are measured on the data at `573ac6ae5` (anchor 2026-10-07).

@@ -2,6 +2,7 @@
 
 Status: implemented, 2026-10-07 (phase 1 `5c2e51635`, phase 2 `d9b3c64ac`; deviations in section 12). Decision: D72
 (appended to `docs/DECISIONS.md`). Owner: waldo.
+Later: D92 (`docs/specs/galaxy-controls.md`) moves the version pill into the galaxy's Lenses menu.
 Scope: the galaxy lens bar on the home page, the Objects atlas lens picker, and every place a list of BC majors is
 printed as text (object markdown, app pages, the galaxy panel and list view). Every claim below was verified against
 the tree at `573ac6ae5` on 2026-10-07. Not in scope: new lens semantics (ranges, unions), the member-level
