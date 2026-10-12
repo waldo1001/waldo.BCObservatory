@@ -1,0 +1,17 @@
+---
+/**
+ * D91: a filter block of pills with counts (facets.ts binds it). Each facet is a `.pills` group; a long one sits in a
+ * closed `details.facet-fold` whose summary carries its state. Without JavaScript the pills stay pressed and inert (D82).
+ * No style here: the rules are global in site.css (D53).
+ */
+import { facetSummary } from "../scripts/facets-core";
+interface Value { id: string; label: string; count: number }
+interface FacetProp { id: string; label: string; values: Value[]; fold?: boolean; switch?: Value }
+interface Props { kind: string; facets: FacetProp[] }
+const { kind, facets } = Astro.props;
+const fmt = (n: number) => n.toLocaleString("en");
+---
+<div class="facets" data-facets={kind}>{facets.map((f) => {
+  const group = <div class="pills" role="group" aria-label={f.label} data-facet={f.id}>{!f.fold && <span class="facet-label mono-meta">{f.label}</span>}{f.values.map((v) => <button type="button" class="pill-btn" data-pill={v.id} aria-pressed="true" disabled={v.count === 0}>{v.label} <small>{fmt(v.count)}</small></button>)}{f.switch && <button type="button" class="pill-btn pill-switch" data-switch={f.switch.id} aria-pressed="false" disabled={f.switch.count === 0}>{f.switch.label} <small>{fmt(f.switch.count)}</small></button>}</div>;
+  return f.fold ? <details class="facet-fold"><summary>{facetSummary(f.label, new Set(f.values.map((v) => v.id)), f.values)}</summary>{group}</details> : group;
+})}<p class="list-count mono-meta" aria-live="polite"></p></div>
