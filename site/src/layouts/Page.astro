@@ -79,8 +79,11 @@ const g = fm.generated ?? {};
     // (source-stage.ts): shipped on every page it was 371 bytes × 28,850 pages (D88)
     import { mountConnections, mountLocator } from "../scripts/locator";
     import { mountStageDialog } from "../scripts/source-stage";
+    // D89: an object page's reading aids (section list, member filters, change chips, ...), built from its own markup
+    import { mountObjectPage } from "../scripts/object-page";
     for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
     for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
     mountStageDialog();
+    mountObjectPage();
   </script>
 </Base>

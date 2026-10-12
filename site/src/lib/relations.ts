@@ -6,8 +6,8 @@
  */
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { objectSystem } from "../../../pipeline/lib/systems";
-import { RINGS as CODE_RINGS, sortRows, topKeys, type Ring as CodeRing, type NameRow, type RingRow } from "../scripts/explorer-core";
+import { objectSystem } from "../../../pipeline/lib/systems.js";
+import { RINGS as CODE_RINGS, sortRows, topKeys, type Ring as CodeRing, type NameRow, type RingRow } from "../scripts/explorer-core.js";
 
 interface RelEdge { s: string; t: string; k: string; via?: string; cond?: true }
 interface Relations { edges: RelEdge[]; events: Record<string, Record<string, { kind: string; subs: { s: string; proc: string }[] }>> }
@@ -44,8 +44,18 @@ export function callsFor(major: string): Map<string, CallEdge[]> | null {
 
 export type Ring = "relates" | "referenced" | "pages" | "extensions" | "subscribers" | "calls" | "learn";
 export const RING_LABEL: Record<Ring, string> = { relates: "relates to", referenced: "referenced by", pages: "pages and codeunits on it", extensions: "extended by", subscribers: "event subscribers", calls: "calls", learn: "Learn pages" };
-export interface Neighbour { key: string; ring: Ring; weight: number; label: string; href: string | null; system: string | null; kind: string }
-export interface Lookup { pk: string; title: string; system: string | null; type: string }
+/** `name`: the object's own name, the diagram's caption (D89); null for a Learn page or a key the lookup does not know. */
+export interface Neighbour { key: string; ring: Ring; weight: number; label: string; name: string | null; href: string | null; system: string | null; kind: string }
+export interface Lookup { pk: string; title: string; name: string; system: string | null; type: string }
+/**
+ * A node's caption in the object page's diagram: its name, not its title ("Detailed Cust. Ledg. Entry", not
+ * 'Table 379 "Detailed Cust. Le…"': the type, id and quotes ate 9 to 21 of the 28 characters, D89). Over 30 characters
+ * it is cut at 28 plus an ellipsis, as before. The node's <title> keeps the full label.
+ */
+export function nodeCaption(n: { label: string; name: string | null }): string {
+  const s = n.name ?? n.label;
+  return s.length > 30 ? `${s.slice(0, 28)}…` : s;
+}
 
 const PAGE_KINDS = new Set(["source_table", "lookup_page", "drilldown_page", "card_page"]);
 const CAP = 40;
@@ -224,9 +234,9 @@ export function neighbourhood(key: string, major: string, lookup: (k: string) =>
   const acc = new Map<string, Neighbour>();
   for (const n of rawNeighbours(key, major)) {
     const l = lookup(n.key);
-    acc.set(`${n.ring}|${n.key}`, { key: n.key, ring: n.ring, weight: n.weight, label: l?.title ?? n.key, href: l ? `objects/${l.pk}/` : null, system: l?.system ?? null, kind: l?.type ?? n.key.split("/")[0] });
+    acc.set(`${n.ring}|${n.key}`, { key: n.key, ring: n.ring, weight: n.weight, label: l?.title ?? n.key, name: l?.name ?? null, href: l ? `objects/${l.pk}/` : null, system: l?.system ?? null, kind: l?.type ?? n.key.split("/")[0] });
   }
-  learn.forEach((l, i) => acc.set(`learn|${l.url}`, { key: `learn/${i}`, ring: "learn", weight: 1, label: l.title, href: l.url, system: null, kind: "learn" }));
+  learn.forEach((l, i) => acc.set(`learn|${l.url}`, { key: `learn/${i}`, ring: "learn", weight: 1, label: l.title, name: null, href: l.url, system: null, kind: "learn" }));
   const all = [...acc.values()];
   const totals = Object.fromEntries((Object.keys(RING_LABEL) as Ring[]).map((r) => [r, all.filter((n) => n.ring === r).length])) as Record<Ring, number>;
   // keep the heaviest overall, but every ring that exists keeps at least two

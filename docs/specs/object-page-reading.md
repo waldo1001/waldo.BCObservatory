@@ -1,6 +1,6 @@
 # Object pages read like a reference: a section list, member filters, change chips, a clearer neighbourhood
 
-Status: proposed, 2026-10-12. Decision: D89 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M27
+Status: built 2026-10-12 on branch `build/object-page-reading` (section 12). Decision: D89 (appended to `docs/DECISIONS.md` at ship time). Milestone: M27
 (reserved). Owner: waldo.
 Scope: the browser-side reading aids of the 25,646 AL object pages, items B1, B2, B3 (the part batch 1 did not ship),
 B6 and B8 of `docs/research/2026-10-12-ux-review.md`: one new pure module with tests, one new browser module mounted
@@ -684,11 +684,119 @@ Changed: `site/src/layouts/Page.astro` (the module script), `site/src/styles/sit
 - D89 appended to `docs/DECISIONS.md`; PLAN M27 row marked shipped; HANDOFF entry moved with the measured numbers;
   this spec's section 12 renamed "Built, deviations" with the numbers of 7.2 and any deviation.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-To be made in the implementation PR, not before.
+Built on `build/object-page-reading` from `04b705c8fb` (the same commit and content as the reference build of section
+4.8), one commit per phase. Measured on a full local site build of the branch against the base build of
+`04b705c8fb` (`waldo.BCObservatory-build-base/site/dist`), and in headless Chromium (Playwright) on the branch build
+served under the base path.
 
-### `docs/DECISIONS.md`, appended at ship time
+### What was built, per phase
+
+- **Phase 1 (B1), `fbcd235f44`.** `object-page-core.ts` with `tocWanted`, `sectionCount`, `currentSection`
+  (tested first); `object-page.ts` with `mountObjectPage`, the section list (wide: `nav.otp` at the end of a flex side
+  column, sticky; narrow: `details.otp-d` after the actions row, closed, closing on a pick; placement re-measured on
+  `resize`), the current entry marked on `scroll`, back to top (smooth unless reduced motion, focuses the `h1`), and a
+  plain `reveal`; the import and one call in `Page.astro`'s existing module script; the B1 CSS.
+- **Phase 2 (B2), `ffa19a11ac`.** `rowMatches`, `listItemName`, `clampColumns`, `orderOptions`, `orderLabel`,
+  `sortOrder`, `visibleRows`, `revealPlan`, `parsePill` (tested first); toolbars for the eight member sections of 12+
+  rows: filter with `n of m` and the empty line, the order select, compact one-line rows with "Full text", a click
+  that opens a row (not on a link, a button or the end of a text selection), titles on cut cells after one frame;
+  `reveal` with `revealPlan` on load, `hashchange` and `popstate`; the B2 CSS.
+- **Phase 3 (B3), `2e1c7ab341`.** `pillTitle`, `versionChips`, `transitionHref` (tested first); `pill` in
+  `versions.ts` without `title` and `version-timeline.test.ts` changed to match (`doesNotMatch(/title=/)`); pill
+  titles set by the script on every `.prose .pill`; the "Changed in" chip line with the transition link; the timeline's
+  changed majors as buttons that set the chip in every section that has it and scroll to the first; the B3 CSS.
+- **Phase 4 (B6), `9b7ce1a7e2`.** `nodeCaption` (tested in `relations.test.ts`), `Lookup.name`, `Neighbour.name`, the
+  route's lookup carrying `name`, the caption and the new closing paragraph in `Neighbourhood.astro`; `ringsByNode`
+  (tested) and the legend lighting; the B6 CSS in `Neighbourhood.astro`.
+- **Phase 5 (B8), `c1e8731319`.** `agentPrompt` (tested first); the "Ask your agent" button and in-flow panel with a
+  Copy button after each `bcatlas_` call and "Copy as a prompt", Clipboard API with the `execCommand` fallback,
+  "Copied"/"Copy failed" for 1.5 s, Esc and a click outside the actions row close it; the B8 CSS.
+
+Tests: 501 (500 pass, 1 skipped, as on the base), 17 new; `npm run typecheck` clean. `object-ask-agent.test.ts` and
+`live-search.test.ts` unchanged and green.
+
+### Deviations, with the reason
+
+1. **`parsePill` moved to phase 2.** B2's "Changed in, newest first" order needs the row changes; phase 3 only adds
+   `pillTitle`, `versionChips`, `transitionHref`. Ordering only.
+2. **`orderLabel(section, order)` in the core**, exported and tested, for the Values' "Ordinal" label instead of a
+   special case in the DOM module.
+3. **`versionChips` returns null when every chip would show every row**, a generalisation of "every row names the same
+   one major" (the reason the spec gives: it would filter nothing). Same result on every case of section 5; two rows
+   both "Δ BC25 Δ BC26" now get no chip line either.
+4. **`reveal` also runs on `popstate`.** Measured in Chromium: when the finder (`palette.ts`) sets `location.href` to
+   the hash already in the URL, the browser fires `popstate` and no `hashchange`, so a second hit on a row hidden by a
+   filter typed after the first would not reveal it. A new hash fires both; `reveal` is idempotent.
+5. **CSS beyond 4.7** (all inside the one `/* D89 */` block of `site.css`): `.otp a` gets `align-items: baseline` (the
+   mono count sat high); `.otp-d > summary::after` "▸"/"▾" (a `display: flex` summary loses its disclosure marker);
+   `.pills.mt-v` instead of `.mt-v` (the D89 block sits before `.pills` in `site.css`, whose `margin` would win at equal
+   specificity); `.mt-v a { font-size: 13px }` for the transition link; `.actions > button.btn { font-family: inherit;
+   cursor: pointer }` (a button does not inherit the UI font, and "Ask your agent" is the actions row's only button).
+   CSS is +3,228 B instead of +2,987.
+6. **`relations.ts` imports `../../../pipeline/lib/systems.js` and `../scripts/explorer-core.js`** with the extension:
+   the root `tsc` (node16 resolution) follows `relations.test.ts`'s import of `nodeCaption` and rejects extensionless
+   relative imports. Vite resolves both forms; the build is unchanged.
+7. **The 45% Explanation column is a request the table can only partly meet.** On Table 18 at 1280 px the other
+   columns are at their min-content (Name 210 px: nowrap pills; Notes 207 px: an unbreakable `const(Database::Customer)));`),
+   so Explanation gets 208 px (172 before). Compact rows are one line either way; an opened row wraps in 208 px.
+8. **`agentPrompt` with one call** reads `For <title> in Business Central, use bc-code-atlas: <call>.` (the spec said
+   only "no then clause").
+9. **No `objects` pass in `scripts/ui-sweep.mjs`** (optional in 6.6). A Playwright script outside the repository ran
+   every 7.3 check instead: 106 checks, 1280x900 and 375x812, dark and light, on the branch build, all pass.
+10. **Page bundle +12,960 B**, 1,304 B over the prototype's 11,656 and under the 16 KB ceiling.
+
+Mount cost (risk 9): `mountObjectPage` timed in the page, unthrottled: Codeunit 80 25 to 29 ms (one run 115), Table 37
+37 to 48, Table 18 15 to 24; no long task in a `PerformanceObserver`. Of it, the member wrappers are 1 to 5 ms; the
+rest is the page's layout, forced when the section list measures the main column. Under the 50 ms line, so no
+`requestIdleCallback`. At a 4x CPU throttle it is 89 to 239 ms, most of it the same layout.
+
+### Measured numbers (7.2)
+
+| Measure | Base (`04b705c8fb`) | Branch | Change |
+|---|---|---|---|
+| Pages tar (`scripts/site-size.ts`) | 729,118,720 B = 695.3 MB | 725,667,840 B = 692.1 MB | -3,450,880 B (-3.3 MB) |
+| `objects` section | 455.2 MB | 451.9 MB | -3.3 MB |
+| Files | 59,135 | 59,135 | 0 |
+| Object HTML, 25,666 `objects/**/index.html` | | | -3,501,622 B; 12,138 smaller, none larger |
+| `objects/table/18/index.html` | 154,505 B | 150,391 B | -4,114 (pills -3,692, captions -243, paragraph -179) |
+| `objects/codeunit/80/index.html` | 254,080 B | 251,384 B | -2,696 |
+| `objects/enum/89/index.html` | 11,643 B | 11,458 B | -185 |
+| `objects/table/37/index.html` | 289,565 B | 283,679 B | -5,886 |
+| Page module (`Page.astro_astro_type_script_index_0_lang.*.js`) | 3,313 B (1,656 gzip) | 16,273 B (6,428 gzip) | +12,960 B (+4,772 gzip) |
+| Base stylesheet (`site.css`) | 24,312 B | 27,001 B | +2,689 B |
+| Object route stylesheet (`Neighbourhood.astro`) | 2,621 B | 3,160 B | +539 B |
+
+The object HTML delta equals the sum of section 4.8 to the byte (pill titles -653,511, captions -699,395, paragraph
+-2,148,716), and the tar equals its prediction (725,667,840 B). Census: `class="pill" title=` on 2,526 pages before,
+0 after; the new paragraph on 12,004 pages, the pages with `<section class="nb"`; Table 18 keeps its script and
+stylesheet tags (the same counts as the base); no static `otp`, `mt-bar` or `ask-pop`; `_astro/` holds 61 files on both
+builds, the same names apart from three content hashes. Table 18 without JavaScript: its HTML equals the base's after
+the three build-time changes, apart from the three asset hashes (same length).
+
+7.3 on the branch build, Table 18 unless named: 19 entries with `Fields 165`, `Keys 19`, `Events published 63`,
+`Procedures 71`, `Relations 104`, `Referenced by 170`, `Neighbourhood 311`, `Evidence 1`; the list's top 16 px at
+`scrollY` 20,000; Evidence marked at the bottom; "↑ Top" scrolls up and focuses the title; at 375 px a closed "On
+this page · 19 sections" under the actions that closes on a pick. Page 23,277 px tall (42,090 live); Fields 7,833 px (23,138); Codeunit 80 Events
+published 14,973 px (46,041), subscriber lists hidden until a row opens; Table 37 Fields 12,915 px, Events published
+11,837 px; chips `BC24 3`, `BC25 23`, `BC26 84`, `BC27 10`, `BC28 45`, `BC29 4`; BC26 shows `84 of 165` and links
+`code/versions/25__26/`; the timeline's BC26 sets Fields, Events published and Procedures and scrolls to Fields, BC30
+stays text; `#field-20`, `#proc-AssistEdit`, `#value-3` on Enum 89 and a BC25 event under chip BC26 all land on a
+visible, opened, highlighted row; captions "Detailed Cust. Ledg. Entry", "Serv. Integration Mgt."; the legend lights
+calls by pointer and relates by focus; Copy and "Copy as a prompt" put the section 2 strings on the clipboard, four
+Copy buttons on Table 11300-be with the BE note in the prompt.
+
+### For the integrator
+
+- No data regeneration, no nightly effect: nothing under `content/` or `data/` changed. The HTML reductions (and the
+  new pages' behaviour) arrive with the next Pages build: about -3.3 MB tar on the same content.
+- Merge points with the parallel sessions: `site/src/layouts/Page.astro` (two lines and a comment inside the existing
+  module script), `site/src/styles/site.css` (one block after `.prov dd`, before `/* markdown body */`).
+- The shared build-lock script (`site-build.sh`) exits 1 after a successful build: `status=${pipestatus[1]}` fails in
+  zsh ("read-only variable: status"). The build itself completed (28,899 pages).
+
+### `docs/DECISIONS.md`, to append
 
 - **D89 Object pages read like a reference, built in the browser from the markup they already ship.** Items B1, B2,
   B3 (the rest of it), B6 and B8 of the 2026-10-12 UX review, under D88's rule that no object page gains a byte. One
@@ -703,26 +811,37 @@ To be made in the implementation PR, not before.
   captions its nodes by name, explains its marks in a CSS line, lights a kind from its legend entry and shows the
   explorer link as the section's action, with a shorter closing paragraph; (5) an "Ask your agent" button opens the
   closing paragraph's calls with copy buttons and a prompt; the paragraph stays (D75). A hash naming a member row
-  (D86) clears what hides it, opens it and scrolls to it, on load and on `hashchange`. Measured on the 2026-10-12
-  content: object HTML <n> MB smaller (spec: 3.34), no page larger, Page module +<n> KB once, tar <n> MB. Rejected:
-  tabs over the members (one table and two lists in different places; they hide members from find and anchors); a
-  static section list (15 MB); a "Changed in" column; dropping "BC" from the pill text; hover-expanded captions; seven
-  dash patterns; a filled primary explorer button; a positioned popover; a lazy chunk; a pre-paint class (1.1 MB);
-  filter state in the URL (later). Spec: `docs/specs/object-page-reading.md`.
+  (D86) clears what hides it, opens it and scrolls to it, on load, on `hashchange` and on `popstate` (a finder hit on
+  the hash already in the URL fires no `hashchange`). Measured on the 2026-10-12 content: object HTML 3.34 MB smaller
+  (3,501,622 B, as the spec computed), no page larger, Page module +12.7 KB once (3,313 to 16,273 B), CSS +3.2 KB, tar
+  695.3 to 692.1 MB; Table 18 "Customer" 154.5 to 150.4 KB and its Fields 23,138 to 7,833 px tall, Codeunit 80's
+  Events published 46,041 to 14,973 px. Rejected: tabs over the members (one table and two lists in different places;
+  they hide members from find and anchors); a static section list (15 MB); a "Changed in" column; dropping "BC" from
+  the pill text; hover-expanded captions; seven dash patterns; a filled primary explorer button; a positioned popover;
+  a lazy chunk; a pre-paint class (1.1 MB); filter state in the URL (later). Spec: `docs/specs/object-page-reading.md`.
 
-### `docs/PLAN.md` section 5, a row after M26
+### `docs/PLAN.md` section 5, the M27 row replaced
 
-| **M27 object page reading** | On this page with counts and back to top, member filters, orders and a compact mode, Changed in chips tied to the timeline, a clearer neighbourhood (name captions, key, lit kinds, explorer action), Ask your agent in the actions row; all built in the browser, object HTML 3.3 MB smaller (`docs/specs/object-page-reading.md`, D89, proposed) | 3 to 3.5 days in five phases | none: deterministic, no LLM |
+| **M27 object page reading** | On this page with counts and back to top, member filters, orders and a compact mode, Changed in chips tied to the timeline, a clearer neighbourhood (name captions, key, lit kinds, explorer action), Ask your agent in the actions row; all built in the browser, object HTML 3.34 MB smaller, tar 695.3 to 692.1 MB on the same content (`docs/specs/object-page-reading.md`, D89, shipped 2026-10-12) | 3 to 3.5 days in five phases | none: deterministic, no LLM |
 
-### `docs/HANDOFF.md`, section "Open specs, not yet implemented"
+### `docs/HANDOFF.md`
 
-- **Object pages read like a reference** (`docs/specs/object-page-reading.md`, D89, M27). Status: proposed
-  2026-10-12, nothing implemented. Items B1, B2, B3 (rest), B6, B8 of the UX review, under D88's byte rule: one new
-  module mounted from `Page.astro`'s existing script, no static markup, three build-time reductions (pill titles,
-  neighbourhood captions and paragraph, -3.34 MB). Start with phase 1, task 1 (`tests/unit/object-page-core.test.ts`
-  for `tocWanted`, `sectionCount`, `currentSection`). Until it lands, readers scroll 42,090 px on Table 18 with the
-  stat tiles as the only jumps, and the timeline's version counts lead nowhere.
+Remove the "Object pages read like a reference" entry from "Open specs, not yet implemented", and add under "Where
+things stand":
+
+**Shipped 2026-10-12, live on the next Pages build:**
+- **Object pages read like a reference, D89** (`docs/specs/object-page-reading.md`, M27). Items B1, B2, B3, B6, B8 of
+  the UX review, all built in the browser by `site/src/scripts/object-page.ts` (pure helpers in `object-page-core.ts`,
+  tested) from the existing module script of `Page.astro`: an "On this page" list with counts, sticky in the side column
+  (a closed details on a phone) and a back-to-top button; filter, order and a compact one-line mode for member sections
+  of 12+ rows; "Changed in" chips tied to the timeline's changed majors and the version transition pages; neighbourhood
+  captions by name, a key line, legend-lit kinds and the explorer as the section's action; an "Ask your agent" button
+  with copy buttons and a prompt. A search hit's hash (D86) always lands on a visible, opened row. Three build-time
+  reductions (pill titles, captions, the closing paragraph): local build on the 2026-10-12 content **695.3 to 692.1 MB
+  tar**, object HTML -3.34 MB with no page larger, Page module 3.3 to 16.3 KB once. Table 18's Fields 23,138 to 7,833 px.
+  Later (spec section 8): the list on other page types, a per-procedure atlas call, filter state in the URL,
+  `hidden="until-found"`, the light-theme contrast of pressed pill buttons.
 
 ### `AGENTS.md`, `CONTENT-NOTICE.md`
 
-No change: agents read the markdown twins and the MCP, which this spec does not touch.
+No change: agents read the markdown twins and the MCP, which this change does not touch.

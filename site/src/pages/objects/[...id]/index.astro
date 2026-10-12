@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   // relations name objects by type/id (or type/lower-cased name): one lookup shared by every page (D45)
   const byKey = new Map<string, Lookup>();
   // only W1 and first-party app pages: a country's own object shares its id with other countries (D52)
-  for (const e of all) if (!e.data.country) byKey.set(`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`, { pk: e.id, title: String(e.data.title), system: objectSystem(e.data.namespace), type: String(e.data.object_type) });
+  for (const e of all) if (!e.data.country) byKey.set(`${e.data.object_type}/${e.data.object_id ?? String(e.data.name).toLowerCase()}`, { pk: e.id, title: String(e.data.title), name: String(e.data.name), system: objectSystem(e.data.namespace), type: String(e.data.object_type) });
   const lookup = (k: string) => byKey.get(k) ?? null;
   // Learn titles by URL from every object's evidence: a table's links.learn holds the Learn pages of the pages on it
   // (D65), whose titles live in those pages' evidence

@@ -90,12 +90,11 @@ export function timelineCols(ms: { version: string }[], presentIn: string[], cha
 }
 
 const SYM: Record<Change, string> = { added: "+", removed: "−", changed: "Δ" };
-/** One pill per member with every version it changed in, one title (D88: a pill per version was 56 bytes each, 171 of them on Table 18). */
-const pill = (c: MemberChange[]) => {
-  const by = new Map<Change, string[]>();
-  for (const x of c) by.set(x.change, [...(by.get(x.change) ?? []), `BC${x.version}`]);
-  return `<span class="pill" title="${[...by].map(([k, v]) => `${k} in ${v.join(", ")}`).join("; ")}">${c.map((x) => `${SYM[x.change]} BC${x.version}`).join(" ")}</span>`;
-};
+/**
+ * One pill per member with every version it changed in (D88: a pill per version was 56 bytes each, 171 of them on
+ * Table 18). No title: "changed in BC25, BC26" was 26 bytes a pill on 2,526 pages; object-page.ts sets it (D89, pillTitle).
+ */
+const pill = (c: MemberChange[]) => `<span class="pill">${c.map((x) => `${SYM[x.change]} BC${x.version}`).join(" ")}</span>`;
 
 /**
  * Mark members that changed across versions in the rendered markdown: the field table's name cell and the first code

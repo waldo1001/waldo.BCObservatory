@@ -3,15 +3,16 @@
  * The neighbourhood of an AL object (D45): a radial diagram, built at build time as inline SVG, of the objects it
  * relates to, the objects and pages that reference it, its extensions, its event subscribers, the objects it calls or
  * is called by (D67, where the major has a call graph) and the Learn pages naming it. Every node is a link; the markdown sections below carry the full lists.
+ * D89 (B6): nodes are captioned by name, a CSS line under the legend explains the marks, a legend entry lights its kind
+ * (object-page.ts), and the explorer link is the section's action; the closing paragraph lost 179 bytes on 12,004 pages.
  */
-import { layoutRadial, neighbourhood, RING_LABEL, systemOfKey, type Lookup, type Ring } from "../lib/relations";
+import { layoutRadial, neighbourhood, nodeCaption, RING_LABEL, systemOfKey, type Lookup, type Ring } from "../lib/relations";
 interface Props { objectKey: string; major: string; title: string; system: string | null; lookup: (k: string) => Lookup | null; learn: { url: string; title: string }[] }
 const { objectKey, major, title, system, lookup, learn } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const { nodes, totals } = neighbourhood(objectKey, major, lookup, learn);
 const W = 760, H = 420;
 const placed = layoutRadial(nodes, W, H);
-const short = (s: string) => (s.length > 30 ? `${s.slice(0, 28)}…` : s);
 // captions: heaviest first, up to 14, never two within 12px on the same side of the centre
 const labelled = new Set<typeof placed[number]>();
 const taken: { y: number; left: boolean }[] = [];
@@ -38,7 +39,7 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
         const shape = n.kind === "table" || n.kind === "tableextension"
           ? <rect x={(n.x - n.r).toFixed(1)} y={(n.y - n.r).toFixed(1)} width={(n.r * 2).toFixed(1)} height={(n.r * 2).toFixed(1)} rx={(n.r * 0.25).toFixed(1)} style={`fill: ${colour(n)}`} />
           : <circle cx={n.x.toFixed(1)} cy={n.y.toFixed(1)} r={n.r.toFixed(1)} style={`fill: ${colour(n)}`} />;
-        const label = labelled.has(n) ? <text x={(n.x + (n.x < W / 2 ? -n.r - 4 : n.r + 4)).toFixed(1)} y={(n.y + 4).toFixed(1)} text-anchor={n.x < W / 2 ? "end" : "start"}>{short(n.label)}</text> : null;
+        const label = labelled.has(n) ? <text x={(n.x + (n.x < W / 2 ? -n.r - 4 : n.r + 4)).toFixed(1)} y={(n.y + 4).toFixed(1)} text-anchor={n.x < W / 2 ? "end" : "start"}>{nodeCaption(n)}</text> : null;
         return h ? <a href={h}><title>{n.label} ({RING_LABEL[n.ring]}{n.weight > 1 ? `, ${n.weight} links` : ""})</title>{shape}{label}</a> : <g><title>{n.label}</title>{shape}{label}</g>;
       })}
     </svg>
@@ -46,7 +47,7 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
       {rings.map((r) => <li><span class={`sw ${r}`}></span><a href={SECTION[r]}>{RING_LABEL[r]}</a> <span class="mono-meta">{totals[r]}</span></li>)}
     </ul>
     <p class="nb-actions"><a class="btn" href={explorer}>Open in the neighbourhood explorer</a></p>
-    <p class="meta">One hop, from the extracted metadata (TableRelation, CalcFormula, SourceTable, TableNo, lookup pages, extensions, event subscriptions) and the extracted call graph. The sections below list everything; the diagram shows up to 40. The explorer walks on from here, one neighbour at a time.</p>
+    <p class="meta">One hop out, from the extracted relations and call graph. Up to 40 shown; the sections below list them all.</p>
   </section>
 )}
 <style is:global>
@@ -67,4 +68,11 @@ const explorer = `${base}neighbourhood/?o=${encodeURIComponent(objectKey).replac
   .nb-legend .sw.calls { border-top-style: dotted; }
   .nb-legend .sw.learn { border-top-color: var(--ev-learn-text); }
   .nb-actions { display: flex; align-items: center; gap: 12px; margin: 8px 0 0; }
+  /* D89 (B6): the key of the marks (CSS, not markup: 25,646 pages), a kind lit from its legend entry, the explorer as the section's action */
+  .nb svg.dim > a, .nb svg.dim > g, .nb svg.dim > .e { opacity: .15; transition: opacity var(--t-hover); }
+  .nb svg.dim > .on { opacity: 1; }
+  .nb-legend::after { content: "Square: a table. Circle: any other object, or a Learn page in its own colour. Colour: the object's galaxy system. Size: its number of links. Point at a kind to light its lines."; flex-basis: 100%; color: var(--muted); font-size: 13px; }
+  .nb-actions .btn { border-color: var(--accent); color: var(--accent); }
+  .nb-actions .btn::after { content: "→"; }
+  .nb-actions .btn:hover { color: var(--accent); text-decoration: underline; }
 </style>
