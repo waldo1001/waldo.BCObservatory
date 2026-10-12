@@ -38,4 +38,12 @@ model, search is keyword-only and says so.
 `get_object` takes an id, a reference (`t36`, `36-be`), a name or a caption, and a `country`; `whats_new` lists nothing
 dated after today unless `include_future: true`.
 
+`cat`, `get_object` and `localization` return a page as it is when it fits 30,000 characters. A longer page
+(Codeunit 80 "Sales-Post" is 177,746) comes back as a compact view: the frontmatter with long lists cut, the title
+block, the section keys with their row counts and the first 5 rows of each section. `section` reads one section
+(`fields`, `events`, `procedures`, `calls`, ..., or `frontmatter`), `offset` and `limit` page through it by rows, and
+no answer exceeds 30,000 characters. A symbol's path from `search` (`objects/codeunit/80#event-OnAfterPostSalesDoc`)
+returns just that member. `BC_OBSERVATORY_MAX_CHARS` changes the limit (`0` returns every page whole, as before
+0.4.0).
+
 MIT. Content: see the repository's CONTENT-NOTICE.md (Microsoft content attributed; community content derived only).
