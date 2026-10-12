@@ -1,28 +1,22 @@
 ---
-/** Version timeline (HANDOFF 4): one column per snapshot major; the versions an object changed in use the accent. The scroll to the newest majors is in scripts/chrome.ts (D76). */
-import { majors, type ObjectHistory } from "../lib/versions";
+/**
+ * Version timeline (HANDOFF 4): one column per snapshot major; the versions an object changed in use the accent. A run
+ * of majors that say the same thing (present, unchanged, not present) is one column labelled with the range, "BC23-25"
+ * (D88: a column was 170 bytes with a 40-byte wave title on each of 25,666 object pages; most objects now fit without
+ * the sideways scroll). The scroll to the newest majors, where it still scrolls, is in scripts/chrome.ts (D76).
+ */
+import { majors, timelineCols, type ObjectHistory } from "../lib/versions";
 interface Props { presentIn: string[]; changedIn: string[]; history: ObjectHistory | null; obsolete?: { state?: string; tag?: string } | null }
 const { presentIn, changedIn, history, obsolete } = Astro.props;
-const cols = majors().map(({ version, label }, i) => {
-  const present = presentIn.includes(version);
-  const changed = changedIn.includes(version);
-  const counts = history?.counts.get(version) ?? {};
-  const parts = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k, n]) => `${n} ${k}`);
-  const objChange = history?.change.get(version);
-  const text = !present ? "not present"
-    : i === 0 || !presentIn.includes(majors()[i - 1]?.version) ? (objChange === "added" ? "added" : "present")
-    : changed ? (parts.join(", ") || (objChange === "changed" ? "declaration changed" : "changed"))
-    : "unchanged";
-  return { version, label, present, changed, text };
-});
+const merged = timelineCols(majors(), presentIn, changedIn, history);
 ---
 <section aria-labelledby="timeline" class="tl">
   <h2 class="section-title" id="timeline">Across versions{obsolete?.state && <small>obsolete {String(obsolete.state).toLowerCase()}{obsolete.tag ? ` since ${obsolete.tag}` : ""}</small>}</h2>
   <ol class="timeline">
-    {cols.map((c) => (
+    {merged.map((c) => (
       <li class:list={[{ changed: c.changed, absent: !c.present }]}>
         <span class="dot" aria-hidden="true"></span>
-        <span class="v" title={c.label}>BC{c.version}</span>
+        <span class="v">BC{c.from}{c.to !== c.from ? `-${c.to}` : ""}</span>
         <span class="txt">{c.text}</span>
       </li>
     ))}

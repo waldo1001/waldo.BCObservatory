@@ -99,7 +99,7 @@ function rowHtml(h: Hit, base: string, inApp: boolean): string {
   const stats = r.stats ? `<span class="sr-stats meta">${esc(r.stats)}</span>` : "";
   return `<li><span><a class="row-title" href="${base}${esc(r.path)}/">${esc(r.title)}</a>${caption}${matched(h)}</span>${where}${stats}
       <span class="row-meta"><span class="type-label"${r.system ? ` style="color: var(--sys-${esc(r.system)})"` : ""}>${TYPE[r.type] ?? esc(r.type)}</span>${badge(r.tier)}${r.status ? `<span class="mono-meta">${esc(r.status)}</span>` : ""}${r.date ? `<span class="mono-meta">${esc(r.date)}</span>` : ""}</span>
-      <p class="meta">${esc(cut(r.summary, 220))}</p><span class="mono-meta">${esc(r.path)}.md</span></li>`;
+      <p class="meta">${esc(cut(r.summary, 220))}</p></li>`;
 }
 /** A list with `visible` rows open, the next ones up to `max` behind "Show N more", and a count of the rest. */
 function listHtml(hits: Hit[], base: string, visible: number, max: number, inApp = false): string {
@@ -205,7 +205,8 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
       const n = counts ? (id ? counts.get(id) ?? 0 : all) : null;
       b.querySelector("small")!.textContent = n === null ? "" : n.toLocaleString("en");
       b.classList.toggle("empty", n === 0);
-      if (b.dataset.optional !== undefined) b.hidden = !n && !on; // only when something lands there
+      // a tab shows when something lands there (D88 F3: thirteen tabs with zeros were five rows on a phone); "All" always
+      b.hidden = !!id && !on && (counts ? !n : b.dataset.optional !== undefined);
     }
   };
   const run = () => {

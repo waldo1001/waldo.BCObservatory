@@ -32,7 +32,7 @@ const sections = [
   <main>
     <h1 class="skip">BC Observatory</h1>
     <div id="galaxy"><Galaxy height="calc(100svh - var(--hdr-h, 72px))" questions={questions(base)} /></div>
-    <p class="wrap meta g-help">Systems are domains, placed next to the ones they share the most links with. Stars are hubs on their Learn table of contents and the most connected AL objects in their namespace plots, plus roadmap features, localizations and sources. Click a system to fly in, a star for its connections and where they cross into other systems. Type in the search box to light up matching stars; Enter opens the full results. Esc goes back out; the arrow keys step through systems, or from star to star. "list view" shows the same as a table. Every page's side column shows where it sits here.</p>
+
 
     <section class="wrap block" aria-labelledby="lit">
       <h2 class="section-title" id="lit">Newly lit {digest && <small><a href={`${base}digests/${digest.id}/`}>{digest.id}</a></small>}</h2>
@@ -74,7 +74,7 @@ const sections = [
   </main>
 </Base>
 <style>
-  .g-help { margin-top: 10px; }
+
   .block { margin-top: var(--section-gap-home); }
   .cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .cards a { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; height: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); color: var(--text); text-decoration: none; }

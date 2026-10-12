@@ -54,6 +54,18 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
     <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
     <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show panel</button>
     <button type="button" class="g-btn" data-g-full title="Full screen (F)">Full screen</button>
+    <details class="ask g-keys">
+      <summary aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</summary>
+      <ul>
+        <li><b>Click</b> a system to fly in, a star for its connections; the background flies out one level.</li>
+        <li><kbd>Esc</kbd> out one level; it also clears a lens, flattens a tilt, closes the list.</li>
+        <li><kbd>←</kbd> <kbd>→</kbd> previous or next system; at a star, the nearest star that way (<kbd>↑</kbd> <kbd>↓</kbd> too).</li>
+        <li><kbd>+</kbd> <kbd>−</kbd> zoom; wheel, pinch and drag work as well.</li>
+        <li><kbd>F</kbd> full screen. <kbd>T</kbd> tilt a system into planes.</li>
+        <li><kbd>Tab</kbd> reaches every system label, port and panel row; <kbd>Enter</kbd> opens it.</li>
+        <li>Type in the search box to light up matching stars; <kbd>Enter</kbd> opens the full results.</li>
+      </ul>
+    </details>
   </div>
   <div class="g-nav">
     <button type="button" class="icon-btn" data-g-prev hidden aria-label="Previous system">←</button>
@@ -139,6 +151,12 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-panel :global(.g-intro p:last-child) { margin-bottom: 0; }
   .g-panel :global(.g-linkbtn) { background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .g-tools { position: absolute; right: 16px; top: 10px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: calc(100% - 32px); z-index: 2; }
+  /* D88 (D2): the keyboard sheet behind "?", in place of the paragraph of hints under the galaxy; it opens to the left */
+  .g-keys summary { min-height: 36px; min-width: 36px; justify-content: center; padding: 0; font: 600 14px var(--font-mono); color: var(--text); background: color-mix(in srgb, var(--surface) 92%, transparent); border-color: var(--line-strong); border-radius: var(--r-card); }
+  .g-keys summary::after { content: none; }
+  .g-keys ul { left: auto; right: 0; width: min(380px, calc(100vw - 32px)); padding: 10px 12px; display: grid; gap: 8px; font-size: 13px; color: var(--text-2); }
+  .g-keys li { line-height: 1.4; }
+  .g-keys kbd { font: 500 12px var(--font-mono); color: var(--text); background: var(--surface-raised); border: 1px solid var(--line-strong); border-radius: 4px; padding: 0 5px; }
   .galaxy:global(.g-panel-open) .g-tools { right: 396px; }
   .g-btn, .g-tools .icon-btn {
     min-height: 36px; background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--text); border: 1px solid var(--line-strong);
@@ -268,7 +286,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
     .galaxy canvas { order: 0; } .g-crumbs { order: 1; } .g-lensbar { order: 2; } .g-panel { order: 3; } .g-table { order: 4; }
     .galaxy canvas { position: relative; height: 150px; pointer-events: none; }
     .g-crumbs { position: static; padding: 12px 16px 0; max-width: none; }
-    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { position: static; padding: 8px 16px; max-width: none; }
+    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { position: static; padding: 8px 16px; max-width: none; flex-wrap: wrap; overflow: visible; } /* D88 (D4): two rows, nothing clipped */
     .g-tools, .g-nav, .g-level, .g-ports, .g-labels, .g-planes { display: none; }
     .g-panel, .galaxy:global(.g-panel-open) .g-panel { position: static; height: auto; width: 100%; border: 0; animation: none; padding: 16px; }
     .g-panel :global(.g-dock), .g-panel :global(.g-dock-2) { display: flex; overflow-x: auto; gap: 6px; }

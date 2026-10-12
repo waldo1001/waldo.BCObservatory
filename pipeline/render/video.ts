@@ -111,11 +111,18 @@ export function renderVideoPage(item: ManifestItem, x0: VideoExtraction, s: Vide
     // D74: a column empty on every row is left out; Evidence stays when at least one feature has a verified quote
     const evs = x.features.map((f) => f.status_evidence_verified && f.status_evidence_quote ? `"${cell(f.status_evidence_quote)}" ([${hms(f.status_evidence_t!)}](${at(id, f.status_evidence_t!)}))` : "");
     const withEv = evs.some(Boolean);
-    lines.push("## Features", "", withEv ? "| Feature | Status | At | Evidence |" : "| Feature | Status | At |", withEv ? "|---|---|---|---|" : "|---|---|---|");
-    x.features.forEach((f, i) => {
+    const statuses = x.features.map((f, i) => {
       const rmLinks = rm[i].ids.map((r) => `[${cell(roadmap.entries.get(r)?.title || r)}](../features/${r}.md)`).join(", ");
-      const status = `${STATUS_LABEL[statusOf(i)]}${rm[i].ids.length ? ` (roadmap ${rmLinks})` : ""}`;
-      lines.push(`| ${cell(f.name)} | ${status}${f.is_demoed ? ", demoed" : ""} | [${hms(f.t_start)}](${at(id, f.t_start)}) |${withEv ? ` ${evs[i]} |` : ""}`);
+      return `${STATUS_LABEL[statusOf(i)]}${rm[i].ids.length ? ` (roadmap ${rmLinks})` : ""}${f.is_demoed ? ", demoed" : ""}`;
+    });
+    // D88 (E2): when every feature says the same thing ("status not stated, demoed" seven times), say it once above the table
+    const same = statuses.length > 1 && statuses.every((s) => s === statuses[0]) && !rm.some((r) => r.ids.length);
+    lines.push("## Features", "");
+    if (same) lines.push(`Every feature below: ${statuses[0]}.`, "");
+    lines.push(same ? (withEv ? "| Feature | At | Evidence |" : "| Feature | At |") : withEv ? "| Feature | Status | At | Evidence |" : "| Feature | Status | At |",
+      same ? (withEv ? "|---|---|---|" : "|---|---|") : withEv ? "|---|---|---|---|" : "|---|---|---|");
+    x.features.forEach((f, i) => {
+      lines.push(`| ${cell(f.name)} |${same ? "" : ` ${statuses[i]} |`} [${hms(f.t_start)}](${at(id, f.t_start)}) |${withEv ? ` ${evs[i]} |` : ""}`);
     });
     lines.push("");
     if (rm.some((r) => r.ids.length)) lines.push("A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.", "");

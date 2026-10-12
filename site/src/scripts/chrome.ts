@@ -24,6 +24,8 @@ export function mountChrome(): void {
       if (e.key === "Escape") { e.stopPropagation(); d.open = false; d.querySelector<HTMLElement>("summary")?.focus(); }
     });
   }
+  // D88 (A6): the finder button says Ctrl+K where there is no ⌘ key; the shortcut itself takes both (palette.ts)
+  if (!/Mac|iPhone|iPad/.test(navigator.platform)) for (const b of document.querySelectorAll<HTMLElement>("[data-palette]")) b.textContent = "Ctrl+K";
   for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {
     const root = document.documentElement;
     const now = root.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");

@@ -145,6 +145,18 @@ test("features table (D74): no verified evidence on any row leaves the Evidence 
   for (const r of rows) assert.equal(pipes(r), 4, r);
 });
 
+test("features table (D88 E2): when every feature says the same status it is said once above a two-column table", async () => {
+  const quiet = extraction.features.map((f) => ({ ...f, status: "unclear" as const, status_evidence_verified: false, status_evidence_quote: null, is_demoed: true }));
+  const content = await renderWith(quiet);
+  const [line, table] = content.split("## Features\n\n")[1].split("\n\n");
+  assert.equal(line, "Every feature below: status not stated, demoed.");
+  const rows = table.split("\n");
+  assert.deepEqual(rows.slice(0, 2), ["| Feature | At |", "|---|---|"]);
+  assert.equal(rows.length, 4);
+  for (const r of rows) assert.equal(pipes(r), 3, r);
+  assert.ok(!content.includes("| status not stated"), "no status cell per row");
+});
+
 test("features table (D74): one verified row keeps Evidence; the other row ends with an empty cell", async () => {
   const rows = featureTable(await renderWith(extraction.features));
   assert.deepEqual(rows.slice(0, 2), ["| Feature | Status | At | Evidence |", "|---|---|---|---|"]);

@@ -86,7 +86,8 @@ export function renderDigest(w: { id: string; start: string; end: string }, inp:
   const obsoleting = changePages.filter((c) => (c.fm.obsoletions ?? []).length);
   const counts = { roadmap_added: rAdded.length, roadmap_changed: rChanged.length, videos: videos.length, posts: posts.length, docs: docs.length, deprecations: dep?.count ?? 0, cleanup_due: overdue.length,
     changes: merged.length, changes_behavior: behavior.length, changes_obsoletions: obsoleting.length };
-  const summary = `Business Central, week ${w.id} (${w.start} to ${w.end}): ${counts.videos} videos, ${counts.posts} community posts, ${counts.docs} Learn pages changed, ${counts.roadmap_added} roadmap features added and ${counts.roadmap_changed} changed, ${counts.changes} pull requests merged into the code (${counts.changes_behavior} changing behaviour); ${counts.deprecations} obsolete elements in BC${inp.currentMajor}, ${counts.cleanup_due} with their cleanup due.`;
+  const nn = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`; // "1 video", "2 videos" (D88 F1)
+  const summary = `Business Central, week ${w.id} (${w.start} to ${w.end}): ${nn(counts.videos, "video")}, ${nn(counts.posts, "community post")}, ${nn(counts.docs, "Learn page")} changed, ${nn(counts.roadmap_added, "roadmap feature")} added and ${counts.roadmap_changed} changed, ${nn(counts.changes, "pull request")} merged into the code (${counts.changes_behavior} changing behaviour); ${nn(counts.deprecations, "obsolete element")} in BC${inp.currentMajor}, ${counts.cleanup_due} with their cleanup due.`;
   // the week's narrative is the only model text of a digest (D77); one Opus rejected is withheld (D21)
   const { story, review } = digestReview(loadNarrative(dataDir, w.id));
   const fm = {

@@ -17,7 +17,9 @@ const nav = [
   ["mcp", "MCP"], ["about", "About"], // D84, D83
 ];
 // D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
-// galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half
+// galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half.
+// D88: every byte of this header is on 28,850 pages (1,731 of them before D88): short attributes, no title where an
+// aria-label names the control, the finder's platform label and the theme word come from chrome.ts and site.css
 const week = landed();
 ---
 <html lang="en">
@@ -31,9 +33,7 @@ const week = landed();
     {markdown && <link rel="alternate" type="text/markdown" href={markdown} title="Markdown" />}
     <link rel="alternate" type="application/rss+xml" href={`${base}rss.xml`} title="BC Observatory weekly" />
     <link rel="stylesheet" href={`${base}tokens.css`} />
-    <script is:inline>
-      try { const t = localStorage.getItem("bcobs-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
-    </script>
+    <script is:inline>try{var t=localStorage.getItem("bcobs-theme");if(t=="light"||t=="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
   </head>
   <body data-base={base}>
     <a class="skip" href="#content">Skip to content</a>
@@ -45,17 +45,17 @@ const week = landed();
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
           {(week.count > 0 || week.changes > 0) && section !== "home" && (
-            <span class="new-pill" title={`Videos, posts and code changes (merged pull requests) of the 7 days up to ${week.anchor}, lit in the galaxy`}>
-              {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new{week.changes > 0 ? "" : " this week"}</a>}
+            <span class="new-pill" title="The last 7 days, lit in the galaxy">
+              {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new this week</a>}
               {week.count > 0 && week.changes > 0 && <span class="sep" aria-hidden="true">·</span>}
               {week.changes > 0 && <a href={`${base}#lens=landed&kinds=c`}><b>{week.changes}</b> PRs</a>}
             </span>
           )}
           <form class="site-search" role="search" action={`${base}search/`} method="get">
             <label class="skip" for="q">Search the knowledge base</label>
-            <input id="q" name="q" type="search" placeholder="Search: t18, Sales-Post, OnAfterPostSalesDoc, BE" autocomplete="off" />
-            <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme" title="Switch theme">◐</button>
-            <button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)" title="Find an AL object (Ctrl+K or ⌘K)">⌘K</button>
+            <input id="q" name="q" type="search" placeholder="Search: t18, Sales-Post, BE" autocomplete="off" />
+            <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme">◐</button>
+            <button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)">⌘K</button>
           </form>
         </div>
       </header>
@@ -66,9 +66,8 @@ const week = landed();
         <div class="wrap">
           <p>BC Observatory is unofficial and not affiliated with Microsoft. Made by waldo, rebuilt every night.</p>
           <p>
-            <a href={repo}>Repository</a> · code MIT, content CC BY 4.0 · <a href={`${base}llms.txt`}>llms.txt</a> ·
-            <a href={`${base}mcp/`}>MCP server</a> · <a href={`${base}mcp/#plugin`}>Claude Code plugin</a> · <a href={`${base}code/versions/`}>Version lens</a> · <a href={`${base}code/deprecations/`}>Deprecation radar</a> · <a href={`${base}events/`}>Events</a> · <a href={`${base}coverage/`}>Coverage</a> · <a href={`${base}drift/`}>Drift</a> ·
-            <a href={`${base}rss.xml`}>RSS</a> · <a href={`${repo}/issues`}>Report a problem</a>
+            {/* one line: Astro drops the whitespace at a line break, which glued "·" to the next link */}
+            <a href={repo}>Repository</a> · code MIT, content CC BY 4.0 · <a href={`${base}llms.txt`}>llms.txt</a> · <a href={`${base}mcp/`}>MCP server and plugin</a> · <a href={`${base}objects/#instruments`}>Instruments</a> · <a href={`${base}rss.xml`}>RSS</a> · <a href={`${repo}/issues`}>Report a problem</a>
           </p>
         </div>
       </footer>

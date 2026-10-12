@@ -279,14 +279,28 @@ export function mountStages(root: ParentNode = document): void {
   });
 }
 
-/** The video dialog (phase 2): a chip of a video at a second plays there, on any page without that video's stage. */
-export function mountStageDialog(dialog: HTMLDialogElement): void {
-  const frame = dialog.querySelector<HTMLElement>(".stage-frame")!;
-  const titleEl = dialog.querySelector<HTMLElement>(".stage-dialog-title")!;
-  const ext = dialog.querySelector<HTMLAnchorElement>(".stage-ext")!;
-  dialog.addEventListener("close", () => frame.replaceChildren()); // removing the player stops the audio
-  dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); }); // the backdrop
-  dialog.querySelector("[data-dialog-close]")?.addEventListener("click", () => dialog.close());
+/** The video dialog's markup (phase 2), built on first use: shipped on every page it was 371 bytes × 28,850 pages (D88). */
+export function stageDialogElement(): HTMLDialogElement {
+  const d = document.createElement("dialog");
+  d.className = "stage-dialog";
+  d.setAttribute("aria-label", "Video");
+  d.innerHTML = '<div class="stage-dialog-bar"><span class="stage-dialog-title"></span><a class="stage-ext" href="#" rel="noopener" target="_blank">Watch on YouTube</a><button type="button" class="icon-btn" data-dialog-close aria-label="Close the video">✕</button></div><div class="stage-slot"><div class="stage-frame"></div></div>';
+  return d;
+}
+
+/**
+ * The video dialog (phase 2): a chip of a video at a second plays there, on any page without that video's stage. The
+ * dialog is `given` (a test, or a page that ships one) or created and appended on the first chip click (D88).
+ */
+export function mountStageDialog(given?: HTMLDialogElement): void {
+  const wire = (d: HTMLDialogElement): HTMLDialogElement => {
+    const frame = d.querySelector<HTMLElement>(".stage-frame")!;
+    d.addEventListener("close", () => frame.replaceChildren()); // removing the player stops the audio
+    d.addEventListener("click", (e) => { if (e.target === d) d.close(); }); // the backdrop
+    d.querySelector("[data-dialog-close]")?.addEventListener("click", () => d.close());
+    return d;
+  };
+  let dialog: HTMLDialogElement | null = given ? wire(given) : null;
   document.addEventListener("click", (e) => {
     const a = (e.target as Element | null)?.closest?.<HTMLAnchorElement>('a[data-kind="video"][data-t]');
     if (!a || !plainClick(e)) return;
@@ -294,6 +308,10 @@ export function mountStageDialog(dialog: HTMLDialogElement): void {
     const t = Number(a.dataset.t);
     if (!id || !Number.isFinite(t) || document.querySelector(`figure.stage[data-video="${CSS.escape(id)}"]`)) return;
     e.preventDefault();
+    dialog ??= wire(document.body.appendChild(stageDialogElement()));
+    const frame = dialog.querySelector<HTMLElement>(".stage-frame")!;
+    const titleEl = dialog.querySelector<HTMLElement>(".stage-dialog-title")!;
+    const ext = dialog.querySelector<HTMLAnchorElement>(".stage-ext")!;
     // the chip's own parts (EvidenceChip.astro): its text and its "at 1:16"; the kind tag is not part of the name
     const part = (sel: string) => a.querySelector(sel)?.textContent?.trim() ?? "";
     const name = a.getAttribute("title") || [part(".t"), part(".m")].filter(Boolean).join(" · ") || "YouTube video";

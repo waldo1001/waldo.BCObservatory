@@ -7,7 +7,10 @@ import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const DIR = resolve(process.cwd(), "..", "data", "code", "diffs", "version");
-const VERSIONS = JSON.parse(readFileSync(resolve(process.cwd(), "..", "config", "versions.json"), "utf8")) as { snapshot: string[]; majors: Record<string, { label: string; vnext?: boolean }> };
+type Versions = { snapshot: string[]; majors: Record<string, { label: string; vnext?: boolean }> };
+let versionsCache: Versions | null = null;
+// read on first use, so a unit test can import the pure helpers below from the repository root (D88)
+const VERSIONS = (): Versions => versionsCache ??= JSON.parse(readFileSync(resolve(process.cwd(), "..", "config", "versions.json"), "utf8")) as Versions;
 
 export type Change = "added" | "changed" | "removed";
 export interface MemberChange { version: string; change: Change }
@@ -51,12 +54,48 @@ export function objectHistory(key: string): ObjectHistory | null {
 }
 
 /** Every major with W1 data, full or a skeleton kept for its history (D62), oldest first: the timeline's columns, the galaxy's version menu and the atlas lens (D72). */
-export const majors = () => Object.keys(VERSIONS.majors)
-  .filter((v) => VERSIONS.snapshot.includes(v) || existsSync(resolve(process.cwd(), "..", "data", "code", v, "w1", "manifest.json")))
+export const majors = () => Object.keys(VERSIONS().majors)
+  .filter((v) => VERSIONS().snapshot.includes(v) || existsSync(resolve(process.cwd(), "..", "data", "code", v, "w1", "manifest.json")))
   .sort((a, b) => Number(a) - Number(b))
-  .map((v) => ({ version: v, label: VERSIONS.majors[v]?.label ?? `BC${v}`, vnext: !!VERSIONS.majors[v]?.vnext }));
+  .map((v) => ({ version: v, label: VERSIONS().majors[v]?.label ?? `BC${v}`, vnext: !!VERSIONS().majors[v]?.vnext }));
 
-const pill = (c: MemberChange[]) => c.map((x) => `<span class="pill" title="${x.change} in BC${x.version}">${x.change === "added" ? "+" : x.change === "removed" ? "−" : "Δ"} BC${x.version}</span>`).join(" ");
+export interface TimelineCol { from: string; to: string; present: boolean; changed: boolean; text: string }
+/**
+ * The columns of the version timeline (VersionTimeline.astro): one per major, oldest first, then every run of majors
+ * that say the same quiet thing (present, unchanged, not present) folded into one column labelled with the range,
+ * "BC23-25" (D88: a column was 170 bytes on each of 25,666 object pages, and most objects are quiet most of the time).
+ */
+export function timelineCols(ms: { version: string }[], presentIn: string[], changedIn: string[], history: ObjectHistory | null): TimelineCol[] {
+  const cols: TimelineCol[] = ms.map(({ version }, i) => {
+    const present = presentIn.includes(version);
+    const changed = changedIn.includes(version);
+    const counts = history?.counts.get(version) ?? {};
+    const parts = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k, n]) => `${n} ${k}`);
+    const objChange = history?.change.get(version);
+    const text = !present ? "not present"
+      : i === 0 || !presentIn.includes(ms[i - 1]?.version) ? (objChange === "added" ? "added" : "present")
+      : changed ? (parts.join(", ") || (objChange === "changed" ? "declaration changed" : "changed"))
+      : "unchanged";
+    return { from: version, to: version, present, changed, text };
+  });
+  // a "present" column followed by "unchanged" ones is one range that says "present"; "not present" runs fold too
+  const quiet = (c: TimelineCol) => !c.changed && (c.text === "present" || c.text === "unchanged" || c.text === "not present");
+  const out: TimelineCol[] = [];
+  for (const c of cols) {
+    const last = out[out.length - 1];
+    if (last && quiet(last) && quiet(c) && last.present === c.present) last.to = c.from;
+    else out.push({ ...c });
+  }
+  return out;
+}
+
+const SYM: Record<Change, string> = { added: "+", removed: "−", changed: "Δ" };
+/** One pill per member with every version it changed in, one title (D88: a pill per version was 56 bytes each, 171 of them on Table 18). */
+const pill = (c: MemberChange[]) => {
+  const by = new Map<Change, string[]>();
+  for (const x of c) by.set(x.change, [...(by.get(x.change) ?? []), `BC${x.version}`]);
+  return `<span class="pill" title="${[...by].map(([k, v]) => `${k} in ${v.join(", ")}`).join("; ")}">${c.map((x) => `${SYM[x.change]} BC${x.version}`).join(" ")}</span>`;
+};
 
 /**
  * Mark members that changed across versions in the rendered markdown: the field table's name cell and the first code
