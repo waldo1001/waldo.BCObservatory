@@ -230,6 +230,12 @@ td code { font-size: 12.5px; }
   .stage-card:has(> .stage-hero) > .stage-hero { aspect-ratio: auto; height: 100%; max-height: none; min-height: 120px; }
 }
 @media (max-width: 600px) { .stage-hero { display: none; } }
+/* C3 and C4: week cards on /digests/, source cards on /sources/ (ol, so the list page's ul padding stays off) */
+.list-cards { list-style: none; padding: 0; margin: 16px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.list-cards > li { display: grid; gap: 6px; align-content: start; }
+.list-cards p { margin: 0; }
+.week-card.is-running { border-style: dashed; }
+.week-card.is-running > :not(.week-card-name) { opacity: .75; }
 /* end D91 */
 .chip-sys { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); }
 .chip-sys::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dot, var(--muted)); }
