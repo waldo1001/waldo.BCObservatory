@@ -123,10 +123,23 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .otp a[aria-current] { color: var(--text); border-left-color: var(--accent); background: var(--surface); }
 .otp-d { margin: -16px 0 24px; }
 .otp-d > summary { cursor: pointer; min-height: 40px; display: flex; align-items: center; color: var(--link); font-size: 14px; }
+.otp-d > summary::after { content: "▸"; margin-left: 6px; font-size: 11px; }
+.otp-d[open] > summary::after { content: "▾"; }
 .otp-d .otp { position: static; max-height: none; }
 .otp-d .otp h2 { display: none; }
 .totop { position: fixed; right: 16px; bottom: 16px; z-index: 30; min-height: 40px; padding: 0 14px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 13px var(--font-ui); cursor: pointer; box-shadow: 0 6px 20px rgb(0 0 0 / .25); }
 .totop:hover { border-color: var(--text-2); }
+/* D89 (B2, B3): member toolbars, compact rows, change chips; the target row of a search hit (D86) */
+.mt-bar { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; margin: 8px 0 10px; }
+.mt-bar input[type="search"] { flex: 1 1 200px; max-width: 320px; min-height: 36px; padding: 6px 10px; background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); }
+.mt-bar select { min-height: 36px; padding: 0 8px; background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 13px var(--font-ui); }
+.mt-n { font: 400 12px var(--font-mono); color: var(--muted); }
+.mt-clamp th.mt-wide { width: 45%; }
+.mt-clamp .mt-x { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; cursor: pointer; }
+.mt-clamp .mt-open .mt-x { display: block; -webkit-line-clamp: none; cursor: auto; }
+.mt-clamp > li:not(.mt-open) > ul { display: none; }
+.prose tr[id], .prose li[id] { scroll-margin-top: 16px; }
+.prose tr:target, .prose li:target { background: var(--accent-surface); }
 
 /* markdown body */
 .prose { font-size: 16px; }

@@ -2,10 +2,14 @@
  * D89: the object page reads like a reference. Mounted from Page.astro's one module script (D76) on pages with a version
  * timeline, which every AL object page has and no other page has. Everything here is built from the markup the page
  * already ships (D88: nothing may add bytes to 25,646 object pages): an "On this page" list of the main column's
- * sections with counts and a back-to-top button (B1). A hash naming a row (D86) is scrolled to on load and on
- * `hashchange`. The pure helpers are in object-page-core.ts, tested.
+ * sections with counts and a back-to-top button (B1); a filter, an order and a compact one-line mode for member sections
+ * of 12 rows or more (B2). A hash naming a row (D86) reveals, opens and scrolls to it, on load and on `hashchange`.
+ * The pure helpers are in object-page-core.ts, tested.
  */
-import { currentSection, sectionCount, tocWanted } from "./object-page-core";
+import {
+  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, MIN_ROWS, orderLabel, orderOptions, parsePill, revealPlan, rowMatches, sectionCount,
+  sortOrder, tocWanted, visibleRows, type Change, type Order, type RowFacts,
+} from "./object-page-core";
 
 type Attrs = Record<string, string>;
 function el<K extends keyof HTMLElementTagNameMap>(tag: K, attrs: Attrs = {}, text?: string): HTMLElementTagNameMap[K] {
@@ -82,17 +86,133 @@ function mountToc(): void {
   addEventListener("scroll", frame(mark), { passive: true });
 }
 
-/** D86: a search hit's hash (#field-20, #event-OnAfterPostSalesDoc) lands on its row. */
+interface Row { el: HTMLElement; text: string; changes: Change[]; facts: RowFacts }
+/** A member section with a toolbar (B2): its rows, what the toolbar has set, and how to show it. */
+interface Members { id: string; noun: string; rows: Row[]; query: string; version: number | null; clamped: boolean; input: HTMLInputElement; render: () => void }
+const owner = new Map<Element, Members>();
+
+/** B2: the toolbar of one member section: filter, order, Full text; compact rows on by default where a column clamps. */
+function mountMembers(h: HTMLElement): Members | null {
+  const def = MEMBER_SECTIONS[h.id];
+  const box = sectionNodes(h).find((n) => n.matches("div.table-scroll, ul")) as HTMLElement | undefined;
+  if (!def || !box) return null;
+  const table = box.querySelector("table");
+  const host = table ? table.tBodies[0] : box;
+  if (!host) return null;
+  const els = [...host.children] as HTMLElement[];
+  if (els.length < MIN_ROWS) return null;
+  const headers = table ? [...(table.tHead?.rows[0]?.cells ?? [])].map((c) => c.textContent ?? "") : [];
+  const rows: Row[] = els.map((r) => {
+    const cells = (r as HTMLTableRowElement).cells;
+    const pill = r.querySelector(".pill");
+    const changes: Change[] = pill ? parsePill(pill.textContent ?? "") : [];
+    let facts: RowFacts;
+    if (cells) {
+      const first = cells[1]?.firstChild;
+      const no = Number(cells[0]?.textContent);
+      facts = { no: cells[0]?.textContent?.trim() && Number.isFinite(no) ? no : null, name: (first?.nodeType === Node.TEXT_NODE ? first.textContent : cells[1]?.textContent)?.trim() ?? "", type: cells[2]?.textContent?.trim() ?? "", changes };
+    } else {
+      const code = r.firstElementChild?.tagName === "CODE" && r.firstChild === r.firstElementChild ? r.firstElementChild.textContent : null;
+      facts = { no: null, name: listItemName(code, r.textContent ?? ""), type: "", changes };
+    }
+    return { el: r, text: r.textContent ?? "", changes, facts };
+  });
+  const clamp = clampColumns(h.id, headers);
+  const m: Members = { id: h.id, noun: def.noun, rows, query: "", version: null, clamped: clamp !== null, input: el("input"), render: () => {} };
+  const bar = el("div", { class: "mt-bar" });
+  const input = m.input;
+  for (const [k, v] of Object.entries({ type: "search", placeholder: `Filter ${rows.length.toLocaleString("en")} ${def.noun}`, "aria-label": `Filter the ${def.noun}` })) input.setAttribute(k, v);
+  bar.append(input);
+  const orders = orderOptions(h.id, rows.some((r) => r.changes.length));
+  if (orders.length > 1) {
+    const sel = el("select", { "aria-label": `Order the ${def.noun}` });
+    for (const o of orders) sel.append(el("option", { value: o }, orderLabel(h.id, o)));
+    sel.addEventListener("change", () => { for (const i of sortOrder(rows.map((r) => r.facts), sel.value as Order)) host.append(rows[i].el); });
+    bar.append(sel);
+  }
+  const clampBox = (table ?? box) as HTMLElement;
+  if (clamp) {
+    // compact: the long cells (or a list item up to its nested list) in a one-line box; the pill first so it stays visible
+    for (const r of rows) {
+      if (clamp === "item") {
+        const x = el("div", { class: "mt-x" });
+        const nested = r.el.querySelector(":scope > ul");
+        while (r.el.firstChild && r.el.firstChild !== nested) x.append(r.el.firstChild);
+        const pill = x.querySelector(":scope > .pill");
+        if (pill) x.prepend(pill, " ");
+        r.el.prepend(x);
+      } else {
+        for (const i of clamp) {
+          const td = (r.el as HTMLTableRowElement).cells[i];
+          if (!td) continue;
+          const x = el("div", { class: "mt-x" });
+          x.append(...td.childNodes);
+          td.append(x);
+        }
+      }
+    }
+    clampBox.classList.add("mt-clamp");
+    if (table && clamp !== "item") table.tHead?.rows[0]?.cells[clamp[0]]?.classList.add("mt-wide");
+    // a row whose text is cut gets it as a tooltip, once laid out
+    requestAnimationFrame(() => { for (const x of clampBox.querySelectorAll<HTMLElement>(".mt-x")) if (x.scrollHeight > x.clientHeight + 1) x.title = (x.textContent ?? "").replace(/\s+/g, " ").trim(); });
+    // a click in a row opens it, unless it is on a link or a button, or ends a text selection
+    clampBox.addEventListener("click", (e) => {
+      const t = e.target as Element;
+      if (!m.clamped || t.closest("a, button") || getSelection()?.toString()) return;
+      let row: Element | null = t;
+      while (row && row.parentElement !== host) row = row.parentElement;
+      row?.classList.toggle("mt-open");
+    });
+    const full = el("button", { type: "button", class: "pill-btn", "aria-pressed": "false" }, "Full text");
+    full.addEventListener("click", () => {
+      m.clamped = !m.clamped;
+      clampBox.classList.toggle("mt-clamp", m.clamped);
+      full.setAttribute("aria-pressed", String(!m.clamped));
+    });
+    bar.append(full);
+  }
+  const status = el("span", { class: "mt-n", "aria-live": "polite" });
+  bar.append(status);
+  const empty = el("p", { class: "meta" }, `No ${def.noun} match.`);
+  empty.hidden = true;
+  box.before(bar);
+  box.after(empty);
+  m.render = () => {
+    const vis = visibleRows(rows, m.query, m.version);
+    let n = 0;
+    rows.forEach((r, i) => { r.el.hidden = !vis[i]; if (vis[i]) n++; });
+    status.textContent = m.query.trim() || m.version !== null ? `${n.toLocaleString("en")} of ${rows.length.toLocaleString("en")}` : "";
+    empty.hidden = n > 0;
+  };
+  input.addEventListener("input", () => { m.query = input.value; m.render(); });
+  for (const r of rows) owner.set(r.el, m);
+  return m;
+}
+
+/** D86: a search hit's hash (#field-20, #event-OnAfterPostSalesDoc) lands on its row, whatever the toolbar hides. */
 function reveal(): void {
   let id = "";
   try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
   const t = id ? document.getElementById(id) : null;
-  t?.scrollIntoView({ block: "start" });
+  if (!t) return;
+  const m = owner.get(t);
+  const r = m?.rows.find((x) => x.el === t);
+  if (m && r) {
+    const plan = revealPlan({ query: m.query, version: m.version, matchesQuery: rowMatches(r.text, m.query), matchesVersion: m.version === null || r.changes.some((c) => c.version === m.version), clamped: m.clamped });
+    if (plan.clearQuery) m.input.value = m.query = "";
+    if (plan.clearVersion) m.version = null;
+    if (plan.clearQuery || plan.clearVersion) m.render();
+    if (plan.openRow) t.classList.add("mt-open");
+  }
+  t.scrollIntoView({ block: "start" });
 }
 
 export function mountObjectPage(): void {
   if (!document.querySelector("section.tl")) return;
+  for (const h of document.querySelectorAll<HTMLElement>(".prose h2[id]")) mountMembers(h);
   mountToc();
+  // popstate too: the finder (palette.ts) sets location.href, and a hit on the hash already in the URL fires no hashchange
   addEventListener("hashchange", reveal);
+  addEventListener("popstate", reveal);
   if (location.hash) reveal();
 }
