@@ -1,8 +1,9 @@
 /**
- * The galaxy's pure parts (D66), no canvas and no DOM: the deep-link hash, where a port sits on the canvas edge, and
- * the list view's sort.
+ * The galaxy's pure parts (D66), no canvas and no DOM: the deep-link hash, where a port sits on the canvas edge and
+ * how the ports share the border (D92), the list view's sort, the Lenses menu and its chip (D92).
  */
 
+import type { Box, ViewRect } from "./galaxy-labels.js";
 import { parsePills, pillDisabled, pillsParam, togglePill, usablePills } from "./pills-core.js";
 
 /** `#system=finance&lens=version:30` -> Map; the older single-key form (`#star=object/table/18`) parses the same. */
@@ -28,6 +29,41 @@ export function portSpot(from: { x: number; y: number }, to: { x: number; y: num
   const ts = [dx > 0 ? (r.x1 - cx) / dx : dx < 0 ? (r.x0 - cx) / dx : Infinity, dy > 0 ? (r.y1 - cy) / dy : dy < 0 ? (r.y0 - cy) / dy : Infinity];
   const t = Math.max(0, Math.min(...ts));
   return { x: Math.round(cx + dx * t), y: Math.round(cy + dy * t) };
+}
+
+/**
+ * D92: where each port goes. `want` = each port's spot (from portSpot) and size, in the order of the star's `cross`
+ * (heaviest first). A port first tries its box centred on the spot and clamped into `area`; if that conflicts, it takes
+ * the free slot whose centre is nearest the spot (ties: top, right, bottom, left, then along the edge). Slots for a
+ * w x h port: top y = y0 and bottom y = y1 - h at x = x0 + k(w + gap) while x + w <= x1; right x = x1 - w and left
+ * x = x0 at y = y0 + k(h + gap) while y + h <= y1. Conflict: closer than `gap` to a port placed before it, or hitting
+ * an obstacle. Null when the port is larger than the area or no slot is free.
+ */
+export function packPorts(want: readonly { x: number; y: number; w: number; h: number }[], area: ViewRect, obstacles: readonly Box[], gap = 8): (Box | null)[] {
+  const placed: Box[] = [];
+  const hit = (a: Box, b: Box) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+  const near = (a: Box, b: Box) => a.x < b.x + b.w + gap && b.x < a.x + a.w + gap && a.y < b.y + b.h + gap && b.y < a.y + a.h + gap;
+  const free = (b: Box) => !placed.some((p) => near(b, p)) && !obstacles.some((o) => hit(b, o));
+  return want.map(({ x, y, w, h }) => {
+    if (w > area.x1 - area.x0 || h > area.y1 - area.y0) return null;
+    const centred = { x: Math.min(Math.max(x - w / 2, area.x0), area.x1 - w), y: Math.min(Math.max(y - h / 2, area.y0), area.y1 - h), w, h };
+    let box: Box | null = free(centred) ? centred : null;
+    if (!box) {
+      const slots: Box[] = [];
+      for (let sx = area.x0; sx + w <= area.x1; sx += w + gap) slots.push({ x: sx, y: area.y0, w, h });
+      for (let sy = area.y0; sy + h <= area.y1; sy += h + gap) slots.push({ x: area.x1 - w, y: sy, w, h });
+      for (let sx = area.x0; sx + w <= area.x1; sx += w + gap) slots.push({ x: sx, y: area.y1 - h, w, h });
+      for (let sy = area.y0; sy + h <= area.y1; sy += h + gap) slots.push({ x: area.x0, y: sy, w, h });
+      let bd = Infinity;
+      for (const s of slots) {
+        if (!free(s)) continue;
+        const d = (s.x + w / 2 - x) ** 2 + (s.y + h / 2 - y) ** 2;
+        if (d < bd) { bd = d; box = s; }
+      }
+    }
+    if (box) placed.push(box);
+    return box;
+  });
 }
 
 export type SortKey = "star" | "kind" | "system" | "connections" | "evidence" | "changed";

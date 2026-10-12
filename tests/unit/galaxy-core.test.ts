@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, mediaMeta, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -147,4 +147,24 @@ test("the star intro counts every type the summary carries and skips the ones it
   assert.equal(s, "A star is a page that other pages link to: 605 Learn hubs, 96 first-party apps, 80 roadmap features, 22 countries, 32 sources and the 300 most connected AL objects. Videos and posts are not stars: they are the triangles and bars drawn beside the hubs they link to once you open a system.");
   assert.match(starIntro({ topic: 1, object: 2 }), /^A star is a page that other pages link to: 1 Learn hub and the 2 most connected AL objects\./);
   assert.match(starIntro({ topic: 4 }), /: 4 Learn hubs\. Videos/);
+});
+
+test("packPorts: a port sits at its spot when it is free, else in the nearest free slot on the border (D92)", () => {
+  const area = { x0: 8, y0: 100, x1: 600, y1: 500 };
+  const at = (x: number, y: number) => ({ x, y, w: 220, h: 44 });
+  assert.deepEqual(packPorts([at(300, 100)], area, []), [{ x: 190, y: 100, w: 220, h: 44 }], "centred on the spot, clamped under y0");
+  const six = packPorts(Array.from({ length: 6 }, () => at(300, 100)), area, []);
+  assert.deepEqual(six.map((b) => b && [b.x, b.y]), [[190, 100], [8, 152], [380, 152], [8, 204], [380, 204], [8, 256]]);
+  const gap = 8, boxes = six.filter((b): b is NonNullable<typeof b> => !!b);
+  assert.equal(boxes.length, 6);
+  for (const b of boxes) assert.ok(b.w === 220 && b.h === 44 && b.x >= area.x0 && b.y >= area.y0 && b.x + b.w <= area.x1 && b.y + b.h <= area.y1, "inside the area");
+  boxes.forEach((a, i) => boxes.forEach((b, j) => {
+    if (j <= i) return;
+    const near = a.x < b.x + b.w + gap && b.x < a.x + a.w + gap && a.y < b.y + b.h + gap && b.y < a.y + a.h + gap;
+    assert.ok(!near, `ports ${i} and ${j} keep the gap`);
+  }));
+  assert.deepEqual(packPorts([at(300, 100)], area, [{ x: 150, y: 90, w: 300, h: 60 }]), [{ x: 8, y: 152, w: 220, h: 44 }], "an obstacle on the spot");
+  assert.deepEqual(packPorts([at(100, 20)], { x0: 0, y0: 0, x1: 200, y1: 40 }, []), [null], "larger than the area");
+  assert.deepEqual(packPorts(Array.from({ length: 6 }, () => at(300, 100)), area, []), six, "deterministic");
+  assert.deepEqual(packPorts([], area, []), []);
 });

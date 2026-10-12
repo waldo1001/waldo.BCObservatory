@@ -54,7 +54,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { groupChanges, landedRingsOn, legendItems, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { groupChanges, landedRingsOn, legendItems, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -328,9 +328,28 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   };
   const fly = (instant = false) => flyTo(target(), instant, () => { if (level === 3) { focusAt = performance.now(); loop(); } });
 
+  /** D92: the bottom of the controls over the top of the canvas (breadcrumb and bar), relative to the canvas. */
+  const chromeBottom = (): number => {
+    const o = canvas.getBoundingClientRect();
+    let b = 0;
+    for (const el of root.querySelectorAll<HTMLElement>(".g-crumbs, .g-bar, .g-lensbar, .g-tools, .g-viewbar")) {
+      const r = el.getBoundingClientRect();
+      if (r.width && r.height) b = Math.max(b, r.bottom - o.top);
+    }
+    return b;
+  };
+  /** D92: where ports, tilt planes and the list view start: 8 px under the measured bar, whatever its height. */
+  let top = 96;
+  const measureTop = (): boolean => {
+    const t = Math.round(chromeBottom() + 8);
+    if (t === top) return false;
+    top = t; root.style.setProperty("--g-top", `${t}px`);
+    return true;
+  };
   const resize = () => {
     const r = canvas.getBoundingClientRect();
     if (!r.width || !r.height) return;
+    measureTop();
     W = r.width; H = r.height; dpr = window.devicePixelRatio || 1;
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
     root.classList.toggle("g-mobile", mobile());
@@ -454,7 +473,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         const p = toScreen(focusStar.x, focusStar.y), v = visibleRect();
         for (const [sys] of focusStar.cross) {
           const S = sysById.get(sys);
-          if (S) portSpots.push({ sys, ...portSpot(p, toScreen(S.x, S.y), { x0: v.x0 + 24, y0: v.y0 + 110, x1: v.x1 - 24, y1: v.y1 - 56 }) });
+          if (S) portSpots.push({ sys, ...portSpot(p, toScreen(S.x, S.y), { x0: v.x0 + 24, y0: top + 22, x1: v.x1 - 24, y1: v.y1 - 56 }) });
         }
         placePorts();
         if (kOut > 0 && !mobile()) for (const spot of portSpots) {
@@ -537,7 +556,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
 
   // tilt (A): the planes of the system in view, things sliding from their flat spot to their plane, lines between planes
-  const planesNow = (): Plane[] => planeGeometry({ x0: 24, y0: 112, x1: W - panelW() - 24, y1: H - 36 }, folded);
+  const planesNow = (): Plane[] => planeGeometry({ x0: 24, y0: top, x1: W - panelW() - 24, y1: H - 36 }, folded);
   /** Every thing's spot on its plane at the current tilt (flat spot when tilt is 0). */
   function spotOf(th: Thing, planes: Plane[]): { x: number; y: number } | null {
     const f = layers!, plane = planes[PLANES.indexOf(th.plane)];
@@ -736,23 +755,27 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       ports.innerHTML = want.map(([sys, count, kind, named]) => `<button type="button" class="g-port" data-port="${esc(sys)}" style="--dot: var(--sys-${esc(sys)})"><b>${esc(sysById.get(sys)?.label ?? sys)} →</b><small>${count} ${esc(KIND[kind] ?? kind)} · ${esc(named.map((x) => short(targetLabel(x), 22)).join(", "))}</small></button>`).join("");
       for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) b.addEventListener("click", () => takePort(b.dataset.port!));
     }
-    // each port at its edge spot, then pushed along the edge until it overlaps no earlier port
-    const placed: Rect[] = [];
-    for (const b of ports.querySelectorAll<HTMLButtonElement>("[data-port]")) {
-      const s = portSpots.find((x) => x.sys === b.dataset.port);
-      b.hidden = !s;
-      if (!s) continue;
-      const w = b.offsetWidth || 160, h = b.offsetHeight || 40, x1 = W - panelW() - w - 8, y1 = H - h - 8;
-      const r = { x: Math.min(Math.max(8, s.x - w / 2), x1), y: Math.min(Math.max(96, s.y - h / 2), y1), w, h };
-      const vertical = r.x <= 8 || r.x >= x1;
-      for (let i = 0; i < 12 && placed.some((o) => hit(r, { x: o.x - 4, y: o.y - 4, w: o.w + 8, h: o.h + 8 })); i++) {
-        if (vertical) r.y = r.y + h + 8 > y1 ? 96 + ((r.y + h + 8) % Math.max(1, y1 - 96)) : r.y + h + 8;
-        else r.x = r.x + w + 8 > x1 ? 8 + ((r.x + w + 8) % Math.max(1, x1 - 8)) : r.x + w + 8;
-      }
-      placed.push(r);
-      s.x = r.x + w / 2; s.y = r.y + h / 2;
-      b.style.transform = `translate(${Math.round(r.x)}px, ${Math.round(r.y)}px)`;
+    // D92: each port at its edge spot under the bar; one that would overlap another port, the legend, the nav buttons
+    // or the focused star with its caption takes the nearest free slot on the border, and with none left it is hidden
+    // (the panel's "Crosses into other systems" lists it all the same)
+    const btns = [...ports.querySelectorAll<HTMLButtonElement>("[data-port]")];
+    const live = btns.map((b) => ({ b, s: portSpots.find((x) => x.sys === b.dataset.port) })).filter((x): x is { b: HTMLButtonElement; s: { sys: string; x: number; y: number } } => { x.b.hidden = !x.s; return !!x.s; });
+    if (!live.length) return;
+    const v = visibleRect();
+    const obstacles: Box[] = [legend, prevBtn.parentElement!, levelEl].map(boxOf).filter((r) => r.w > 8 && r.h > 8);
+    if (focusStar) {
+      const p = toScreen(focusStar.x, focusStar.y), d = diameter(focusStar);
+      let capW = textWidth.get(focusStar.id);
+      if (capW === undefined) { ctx.font = CANVAS_FONT.caption; capW = ctx.measureText(focusStar.label.length > 40 ? `${focusStar.label.slice(0, 38)}…` : focusStar.label).width + 10; }
+      obstacles.push({ x: p.x - d / 2 - 6 - capW, y: p.y - 10, w: 2 * capW + d + 12, h: 20 });
     }
+    const boxes = packPorts(live.map(({ b, s }) => ({ x: s.x, y: s.y, w: b.offsetWidth || 160, h: b.offsetHeight || 40 })), { x0: 8, y0: top, x1: v.x1 - 8, y1: v.y1 - 8 }, obstacles);
+    live.forEach(({ b, s }, i) => {
+      const r = boxes[i];
+      if (!r) { b.hidden = true; portSpots = portSpots.filter((x) => x !== s); return; }
+      s.x = r.x + r.w / 2; s.y = r.y + r.h / 2;
+      b.style.transform = `translate(${Math.round(r.x)}px, ${Math.round(r.y)}px)`;
+    });
   }
   const short = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
   const targetLabel = (t: Target) => (typeof t === "string" ? byId.get(t)?.label ?? t : t[1]);
@@ -779,10 +802,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
   const sysOrder = [...g.systems].sort((a, b) => b.r - a.r);
   /** Screen areas the toolbar, breadcrumb, lens bar, legend and level indicator occupy: no label goes under them. */
-  const chromeRects = (): Rect[] => [crumbs, root.querySelector<HTMLElement>(".g-tools")!, lensBar, legend, levelEl, prevBtn.parentElement!, ...ports.querySelectorAll<HTMLElement>(".g-port:not([hidden])"), ...(panelOpen ? [panel] : [])].map((el) => {
+  /** An element's box relative to the canvas, 4 px larger on every side. */
+  const boxOf = (el: HTMLElement): Rect => {
     const r = el.getBoundingClientRect(), o = canvas.getBoundingClientRect();
     return { x: r.left - o.left - 4, y: r.top - o.top - 4, w: r.width + 8, h: r.height + 8 };
-  }).filter((r) => r.w > 8 && r.h > 8);
+  };
+  const chromeRects = (): Rect[] => [crumbs, root.querySelector<HTMLElement>(".g-tools")!, lensBar, legend, levelEl, prevBtn.parentElement!, ...ports.querySelectorAll<HTMLElement>(".g-port:not([hidden])"), ...(panelOpen ? [panel] : [])].map(boxOf).filter((r) => r.w > 8 && r.h > 8);
   function placeSystemLabels(): Rect[] {
     const taken: Rect[] = chromeRects();
     for (const s of sysOrder) {
@@ -1397,6 +1422,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     if ((e.key === "t" || e.key === "T") && level === 2) setTilt(tilt > 0 ? 0 : 1);
   });
   new ResizeObserver(() => resize()).observe(root);
+  // D92: the bar wraps to more rows as controls come and go; whatever it measures sets where ports, planes and the list start
+  const topObserver = new ResizeObserver(() => { if (measureTop()) redraw(); });
+  for (const el of root.querySelectorAll<HTMLElement>(".g-crumbs, .g-bar, .g-lensbar, .g-tools")) topObserver.observe(el);
   addEventListener("bcobs-theme", () => { readColors(); redraw(); });
   matchMedia("(prefers-color-scheme: light)").addEventListener("change", () => { readColors(); redraw(); });
 

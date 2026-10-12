@@ -188,7 +188,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-table :global(.g-tabs button) { min-height: 36px; padding: 0 12px; font: 400 12px var(--font-mono); text-transform: uppercase; color: var(--text-2); background: none; border: 1px solid var(--line-strong); border-radius: var(--r-badge); cursor: pointer; }
   .g-table :global(.g-tabs [aria-selected="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
   /* list view: the system as a sortable table in place of the canvas */
-  .g-table { position: absolute; inset: 128px 16px 56px 16px; overflow: auto; background: var(--g-bg); z-index: 1; }
+  .g-table { position: absolute; inset: var(--g-top, 128px) 16px 56px 16px; overflow: auto; background: var(--g-bg); z-index: 1; } /* D92: under the measured bar */
   .galaxy:global(.g-panel-open) .g-table { right: 396px; }
   .g-table :global(table) { width: 100%; border-collapse: collapse; font-size: 14px; }
   .g-table :global(th), .g-table :global(td) { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
@@ -278,7 +278,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
     .g-ask ul { position: fixed; top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 70vh; }
     .g-vlens { flex: none; }
     .g-legend { display: none; }
-    .g-table, .galaxy:global(.g-panel-open) .g-table { inset: 136px 0 56px 0; right: 0; }
+    .g-table, .galaxy:global(.g-panel-open) .g-table { inset: var(--g-top, 136px) 0 56px 0; right: 0; }
   }
   /* 390 (HANDOFF D responsive): no interactive galaxy; a static 150px locator strip, then the panel as the page */
   @media (max-width: 480px) {
