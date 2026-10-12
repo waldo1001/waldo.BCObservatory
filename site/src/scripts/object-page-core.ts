@@ -120,3 +120,27 @@ export function revealPlan(t: { query: string; version: number | null; matchesQu
 export function parsePill(text: string): Change[] {
   return [...text.matchAll(/([+−Δ])\s*BC(\d+)/g)].map((m) => ({ sym: m[1] as Sym, version: Number(m[2]) }));
 }
+
+const KIND: Record<Sym, string> = { "+": "added", "−": "removed", "Δ": "changed" };
+/** B3: the pill's title, by change kind in order of first appearance: "added in BC24; changed in BC26, BC27" (the D88 wording). */
+export function pillTitle(changes: Change[]): string {
+  const by = new Map<string, string[]>();
+  for (const c of changes) by.set(KIND[c.sym], [...(by.get(KIND[c.sym]) ?? []), `BC${c.version}`]);
+  return [...by].map(([k, v]) => `${k} in ${v.join(", ")}`).join("; ");
+}
+
+/**
+ * B3: the "Changed in" chips of a section: per major, oldest first, the rows naming it (a row once, whatever the kind).
+ * Null without changes, or when every chip would show every row (every row names the same majors): it filters nothing.
+ */
+export function versionChips(rows: Change[][]): { version: number; count: number }[] | null {
+  const n = new Map<number, number>();
+  for (const r of rows) for (const v of new Set(r.map((c) => c.version))) n.set(v, (n.get(v) ?? 0) + 1);
+  const chips = [...n].sort((a, b) => a[0] - b[0]).map(([version, count]) => ({ version, count }));
+  return chips.length && chips.some((c) => c.count < rows.length) ? chips : null;
+}
+
+/** B3: the version transition page that ends in `version`; null for the timeline's oldest major, which has none. */
+export function transitionHref(base: string, version: number, oldest: number): string | null {
+  return version > oldest ? `${base}code/versions/${version - 1}__${version}/` : null;
+}

@@ -1,4 +1,4 @@
-/** D88: the version timeline folds quiet majors into ranges, and a member's change pills are one span with one title. */
+/** D88: the version timeline folds quiet majors into ranges, and a member's change pills are one span (D89: without a title). */
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { markMembers, timelineCols, type ObjectHistory } from "../../site/src/lib/versions.js";
@@ -32,10 +32,11 @@ test("timelineCols: two changed majors in a row stay two columns", () => {
   assert.equal(cols[0].to, "28");
 });
 
-test("markMembers: one pill per member with every version, one title, the symbols kept", () => {
+test("markMembers: one pill per member with every version, the symbols kept, no title (D89: the script sets it)", () => {
   const h = history({}, {}, { "Name": [{ version: "25", change: "changed" }, { version: "26", change: "changed" }], "Telex No.": [{ version: "25", change: "removed" }] });
   const html = markMembers("<table><tr><td>2</td><td>Name</td><td>Text[100]</td></tr><tr><td>10</td><td>Telex No.</td><td>Text[20]</td></tr></table>", h);
-  assert.ok(html.includes('<td>Name <span class="pill" title="changed in BC25, BC26">Δ BC25 Δ BC26</span></td>'), html);
-  assert.ok(html.includes('<td>Telex No. <span class="pill" title="removed in BC25">− BC25</span></td>'), html);
+  assert.ok(html.includes('<td>Name <span class="pill">Δ BC25 Δ BC26</span></td>'), html);
+  assert.ok(html.includes('<td>Telex No. <span class="pill">− BC25</span></td>'), html);
   assert.equal((html.match(/class="pill"/g) ?? []).length, 2, "one span per member, not per version");
+  assert.doesNotMatch(html, /title=/);
 });

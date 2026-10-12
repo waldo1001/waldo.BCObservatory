@@ -3,12 +3,13 @@
  * timeline, which every AL object page has and no other page has. Everything here is built from the markup the page
  * already ships (D88: nothing may add bytes to 25,646 object pages): an "On this page" list of the main column's
  * sections with counts and a back-to-top button (B1); a filter, an order and a compact one-line mode for member sections
- * of 12 rows or more (B2). A hash naming a row (D86) reveals, opens and scrolls to it, on load and on `hashchange`.
+ * of 12 rows or more (B2); "Changed in" chips per member section, set also from the timeline's changed majors, and the
+ * member pills' titles (B3). A hash naming a row (D86) reveals, opens and scrolls to it, on load and on `hashchange`.
  * The pure helpers are in object-page-core.ts, tested.
  */
 import {
-  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, MIN_ROWS, orderLabel, orderOptions, parsePill, revealPlan, rowMatches, sectionCount,
-  sortOrder, tocWanted, visibleRows, type Change, type Order, type RowFacts,
+  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
+  sectionCount, sortOrder, tocWanted, transitionHref, versionChips, visibleRows, type Change, type Order, type RowFacts,
 } from "./object-page-core";
 
 type Attrs = Record<string, string>;
@@ -88,11 +89,11 @@ function mountToc(): void {
 
 interface Row { el: HTMLElement; text: string; changes: Change[]; facts: RowFacts }
 /** A member section with a toolbar (B2): its rows, what the toolbar has set, and how to show it. */
-interface Members { id: string; noun: string; rows: Row[]; query: string; version: number | null; clamped: boolean; input: HTMLInputElement; render: () => void }
+interface Members { h: HTMLElement; rows: Row[]; query: string; version: number | null; clamped: boolean; input: HTMLInputElement; chips: number[]; render: () => void }
 const owner = new Map<Element, Members>();
 
-/** B2: the toolbar of one member section: filter, order, Full text; compact rows on by default where a column clamps. */
-function mountMembers(h: HTMLElement): Members | null {
+/** B2, B3: the toolbar of one member section: filter, order, Full text, Changed in; compact rows by default where a column clamps. */
+function mountMembers(h: HTMLElement, oldest: number): Members | null {
   const def = MEMBER_SECTIONS[h.id];
   const box = sectionNodes(h).find((n) => n.matches("div.table-scroll, ul")) as HTMLElement | undefined;
   if (!def || !box) return null;
@@ -118,7 +119,7 @@ function mountMembers(h: HTMLElement): Members | null {
     return { el: r, text: r.textContent ?? "", changes, facts };
   });
   const clamp = clampColumns(h.id, headers);
-  const m: Members = { id: h.id, noun: def.noun, rows, query: "", version: null, clamped: clamp !== null, input: el("input"), render: () => {} };
+  const m: Members = { h, rows, query: "", version: null, clamped: clamp !== null, input: el("input"), chips: [], render: () => {} };
   const bar = el("div", { class: "mt-bar" });
   const input = m.input;
   for (const [k, v] of Object.entries({ type: "search", placeholder: `Filter ${rows.length.toLocaleString("en")} ${def.noun}`, "aria-label": `Filter the ${def.noun}` })) input.setAttribute(k, v);
@@ -173,6 +174,24 @@ function mountMembers(h: HTMLElement): Members | null {
   }
   const status = el("span", { class: "mt-n", "aria-live": "polite" });
   bar.append(status);
+  // B3: one version at a time, like the galaxy's version pill (D72); the pressed chip again returns to All
+  const vs = versionChips(rows.map((r) => r.changes));
+  const chipEls: HTMLButtonElement[] = [];
+  const toTransition = el("a");
+  if (vs) {
+    const group = el("div", { class: "pills mt-v", role: "group", "aria-label": "Changed in" });
+    group.append(el("span", { class: "mt-n" }, "Changed in"));
+    for (const c of [null, ...vs]) {
+      const b = el("button", { type: "button", class: "pill-btn", "aria-pressed": String(c === null) }, c ? `BC${c.version}` : "All");
+      if (c) b.append(" ", el("small", {}, c.count.toLocaleString("en")));
+      b.addEventListener("click", () => { m.version = c && m.version !== c.version ? c.version : null; m.render(); });
+      chipEls.push(b);
+    }
+    toTransition.hidden = true;
+    group.append(...chipEls, toTransition);
+    bar.append(group);
+    m.chips = vs.map((c) => c.version);
+  }
   const empty = el("p", { class: "meta" }, `No ${def.noun} match.`);
   empty.hidden = true;
   box.before(bar);
@@ -183,6 +202,10 @@ function mountMembers(h: HTMLElement): Members | null {
     rows.forEach((r, i) => { r.el.hidden = !vis[i]; if (vis[i]) n++; });
     status.textContent = m.query.trim() || m.version !== null ? `${n.toLocaleString("en")} of ${rows.length.toLocaleString("en")}` : "";
     empty.hidden = n > 0;
+    chipEls.forEach((b, i) => b.setAttribute("aria-pressed", String((i ? m.chips[i - 1] : null) === m.version)));
+    const href = m.version === null ? null : transitionHref(document.body.dataset.base ?? "/", m.version, oldest);
+    toTransition.hidden = !href;
+    if (href) { toTransition.href = href; toTransition.textContent = `every object changed in BC${m.version}`; }
   };
   input.addEventListener("input", () => { m.query = input.value; m.render(); });
   for (const r of rows) owner.set(r.el, m);
@@ -207,9 +230,36 @@ function reveal(): void {
   t.scrollIntoView({ block: "start" });
 }
 
+/** B3: a changed major's label in the timeline sets that chip in every section that has it (All in the others). */
+function mountTimeline(members: Members[]): void {
+  for (const v of document.querySelectorAll<HTMLElement>(".tl li.changed .v")) {
+    const ver = Number(/^BC(\d+)$/.exec(v.textContent?.trim() ?? "")?.[1]);
+    const has = members.filter((m) => m.chips.includes(ver));
+    if (!has.length) continue;
+    const b = el("button", { type: "button", class: "v", "aria-label": `Show the members changed in BC${ver}` }, v.textContent ?? "");
+    b.addEventListener("click", () => {
+      for (const m of members) if (m.chips.length) { m.version = has.includes(m) ? ver : null; m.render(); }
+      has[0].h.scrollIntoView({ block: "start", behavior: smooth() });
+    });
+    v.replaceWith(b);
+  }
+}
+
 export function mountObjectPage(): void {
   if (!document.querySelector("section.tl")) return;
-  for (const h of document.querySelectorAll<HTMLElement>(".prose h2[id]")) mountMembers(h);
+  // B3: the pill titles left the HTML (2,526 pages); "changed in BC25, BC26" comes back here
+  for (const p of document.querySelectorAll<HTMLElement>(".prose .pill")) {
+    const c = parsePill(p.textContent ?? "");
+    if (c.length) p.title = pillTitle(c);
+  }
+  // the timeline's first major ("BC23-25" gives 23) has no transition page before it
+  const oldest = Number(/\d+/.exec(document.querySelector(".tl .timeline .v")?.textContent ?? "")?.[0] ?? 0);
+  const members: Members[] = [];
+  for (const h of document.querySelectorAll<HTMLElement>(".prose h2[id]")) {
+    const m = mountMembers(h, oldest);
+    if (m) members.push(m);
+  }
+  mountTimeline(members);
   mountToc();
   // popstate too: the finder (palette.ts) sets location.href, and a hit on the hash already in the URL fires no hashchange
   addEventListener("hashchange", reveal);

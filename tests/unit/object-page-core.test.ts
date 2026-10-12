@@ -2,7 +2,8 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
-  clampColumns, currentSection, listItemName, orderLabel, orderOptions, parsePill, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted, visibleRows,
+  clampColumns, currentSection, listItemName, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted,
+  transitionHref, versionChips, visibleRows,
   type Change, type RowFacts,
 } from "../../site/src/scripts/object-page-core.js";
 
@@ -117,4 +118,27 @@ test("parsePill (B2, B3): the changes of a member pill's text", () => {
   assert.deepEqual(parsePill("− BC30"), [{ sym: "−", version: 30 }]);
   assert.deepEqual(parsePill("+ BC24 Δ BC26"), [{ sym: "+", version: 24 }, { sym: "Δ", version: 26 }]);
   assert.deepEqual(parsePill(""), []);
+});
+
+test("pillTitle (B3): the title versions.ts wrote before D89, by change kind in order of first appearance", () => {
+  assert.equal(pillTitle([D(25), D(26)]), "changed in BC25, BC26");
+  assert.equal(pillTitle([{ sym: "−", version: 25 }]), "removed in BC25");
+  assert.equal(pillTitle([{ sym: "+", version: 24 }, D(26), D(27)]), "added in BC24; changed in BC26, BC27");
+  assert.equal(pillTitle(parsePill("+ BC28 − BC28")), "added in BC28; removed in BC28");
+});
+
+test("versionChips (B3): per major, oldest first, the rows naming it; none when a chip would filter nothing", () => {
+  const A = (version: number): Change => ({ sym: "+", version });
+  assert.deepEqual(versionChips([[D(25), D(26)], [D(26)], [], [A(27)]]), [{ version: 25, count: 1 }, { version: 26, count: 2 }, { version: 27, count: 1 }]);
+  assert.equal(versionChips([[D(26)], [D(26)]]), null);
+  assert.equal(versionChips([[], []]), null);
+  assert.deepEqual(versionChips([[D(26)], []]), [{ version: 26, count: 1 }]);
+  assert.deepEqual(versionChips([[A(26), D(26)], [], [D(27)]]), [{ version: 26, count: 1 }, { version: 27, count: 1 }], "a row naming 26 twice counts once");
+  assert.equal(versionChips([[D(25), D(26)], [D(25), D(26)]]), null, "every chip would show every row");
+});
+
+test("transitionHref (B3): the version transition page, none for the timeline's oldest major", () => {
+  assert.equal(transitionHref("/b/", 26, 23), "/b/code/versions/25__26/");
+  assert.equal(transitionHref("/b/", 24, 23), "/b/code/versions/23__24/");
+  assert.equal(transitionHref("/b/", 23, 23), null);
 });

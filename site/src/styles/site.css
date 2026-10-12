@@ -134,12 +134,15 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .mt-bar input[type="search"] { flex: 1 1 200px; max-width: 320px; min-height: 36px; padding: 6px 10px; background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 14px var(--font-ui); }
 .mt-bar select { min-height: 36px; padding: 0 8px; background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); font: 400 13px var(--font-ui); }
 .mt-n { font: 400 12px var(--font-mono); color: var(--muted); }
+.pills.mt-v { margin: 0; flex-basis: 100%; }
+.mt-v a { font-size: 13px; }
 .mt-clamp th.mt-wide { width: 45%; }
 .mt-clamp .mt-x { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; cursor: pointer; }
 .mt-clamp .mt-open .mt-x { display: block; -webkit-line-clamp: none; cursor: auto; }
 .mt-clamp > li:not(.mt-open) > ul { display: none; }
 .prose tr[id], .prose li[id] { scroll-margin-top: 16px; }
 .prose tr:target, .prose li:target { background: var(--accent-surface); }
+.tl .timeline button.v { font: 500 13px var(--font-mono); color: var(--accent); background: none; border: 0; padding: 0; text-align: left; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 
 /* markdown body */
 .prose { font-size: 16px; }
