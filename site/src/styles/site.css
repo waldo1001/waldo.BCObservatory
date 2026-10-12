@@ -112,6 +112,21 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .prov dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; margin: 4px 0 0; font-size: 13px; }
 .prov dt { color: var(--muted); }
 .prov dd { margin: 0; font-family: var(--font-mono); font-size: 12px; color: var(--text-2); }
+/* D89 (B1): On this page, built by object-page.ts; a flex side column so a sticky child sticks for the whole page
+   (a grid item's containing block is its grid area: measured, the grid side lets it scroll away) */
+.columns:has(> .side .otp) > .side { align-self: stretch; display: flex; flex-direction: column; }
+.columns:has(> .side .otp) > .side > * { min-width: 0; }
+.otp { position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; }
+.otp ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; font-size: 14px; }
+.otp a { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 4px 8px; border-left: 2px solid transparent; color: var(--text-2); text-decoration: none; }
+.otp a:hover { color: var(--text); background: var(--surface); }
+.otp a[aria-current] { color: var(--text); border-left-color: var(--accent); background: var(--surface); }
+.otp-d { margin: -16px 0 24px; }
+.otp-d > summary { cursor: pointer; min-height: 40px; display: flex; align-items: center; color: var(--link); font-size: 14px; }
+.otp-d .otp { position: static; max-height: none; }
+.otp-d .otp h2 { display: none; }
+.totop { position: fixed; right: 16px; bottom: 16px; z-index: 30; min-height: 40px; padding: 0 14px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--text); font: 600 13px var(--font-ui); cursor: pointer; box-shadow: 0 6px 20px rgb(0 0 0 / .25); }
+.totop:hover { border-color: var(--text-2); }
 
 /* markdown body */
 .prose { font-size: 16px; }
