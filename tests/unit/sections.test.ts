@@ -13,6 +13,10 @@ test("the nav: eleven names in three groups, short enough for one line at 900 px
   assert.deepEqual(navGroupStarts(), [5, 10]);
   const chars = navSections().reduce((n, s) => n + s.name.length, 0);
   assert.ok(chars <= 90, `nav labels are ${chars} characters`);
+  // the header's CSS spaces the groups apart by nav index: the map and the stylesheet move together
+  const css = readFileSync(new URL("../../site/src/styles/site.css", import.meta.url), "utf8");
+  const rules = [...css.matchAll(/([^{}]*\.site-nav[^{}]*)\{/g)].map((m) => m[1]);
+  for (const i of navGroupStarts()) assert.ok(rules.some((r) => r.includes(`nth-child(${i})`)), `a .site-nav rule selects nth-child(${i})`);
 });
 
 test("content sections in home and About order, each with a one-sentence blurb", () => {

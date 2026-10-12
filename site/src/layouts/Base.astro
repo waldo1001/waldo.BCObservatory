@@ -4,22 +4,20 @@ import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/500.css";
 import "../styles/site.css";
 import { landed } from "../lib/state";
+import { navSections } from "../../../pipeline/lib/sections";
 interface Props { title: string; description?: string; markdown?: string; section?: string; bare?: boolean }
 const { title, description, markdown, section, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
-const nav = [
-  // D84: eleven entries; "Objects" and "Countries" are the nav's short names for the AL objects and Localizations sections, so the
-  // header keeps one row at 1440 px (the section pages keep their titles). D85: a twelfth entry ("Releases") wrapped the header
-  // to 121.5 px at 1440, so /releases/ is reached from the home card and the Changes lede instead (spec section 9 fallback)
-  ["topics", "Topics"], ["features", "Roadmap"], ["objects", "Objects"], ["localizations", "Countries"],
-  ["videos", "Videos"], ["posts", "Posts"], ["changes", "Changes"], ["digests", "Weekly"], ["sources", "Sources"],
-  ["mcp", "MCP"], ["about", "About"], // D84, D83
-];
+// D90: the eleven sections under their one names (pipeline/lib/sections.ts), in three groups that site.css spaces apart
+// (nth-child 5 and 10, pinned by tests/unit/sections.test.ts). Under 900 px the header is a bar (wordmark, search,
+// Browse) and Browse opens the nav, the week pill and Theme as a bottom sheet through the popover API, no script; from
+// 900 px the popover wrapper is display: contents and the header is two tiers: wordmark, pill, search and tools; the nav.
+const nav = navSections();
 // D70: the week's new videos and posts as a pill in the header, on every page but the home page, where the
 // galaxy's own "this week" lens chip is the control (D71); D80 adds the week's code changes as the pill's second half.
-// D88: every byte of this header is on 28,850 pages (1,731 of them before D88): short attributes, no title where an
-// aria-label names the control, the finder's platform label and the theme word come from chrome.ts and site.css
+// D88: every byte of this header is on 28,899 pages: short attributes, no title where an aria-label names the control.
+// D90: the Theme and finder buttons do nothing without script, so chrome.ts builds them into #menu
 const week = landed();
 ---
 <html lang="en">
@@ -41,21 +39,20 @@ const week = landed();
       <header class="site-header">
         <div class="wrap">
           <span class="wordmark"><a href={base}>BC Observatory</a><a class="sub" href={`${base}about/`}>unofficial, made by waldo</a></span>
-          <nav class="site-nav" aria-label="Sections">
-            {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
-          </nav>
-          {(week.count > 0 || week.changes > 0) && section !== "home" && (
-            <span class="new-pill">
-              {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new this week</a>}
-              {week.count > 0 && week.changes > 0 && <span class="sep" aria-hidden="true">·</span>}
-              {week.changes > 0 && <a href={`${base}#lens=landed&kinds=c`}><b>{week.changes}</b> PRs</a>}
-            </span>
-          )}
-          <form class="site-search" role="search" action={`${base}search/`} method="get">
-            <input id="q" aria-label="Search" name="q" type="search" placeholder="Search: t18, Sales-Post, BE" autocomplete="off" />
-            <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme">◐</button>
-            <button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)">⌘K</button>
-          </form>
+          <form class="site-search" role="search" action={`${base}search/`} method="get"><input id="q" aria-label="Search" name="q" type="search" placeholder="Search: t18, Sales-Post, BE" autocomplete="off" /></form>
+          <button type="button" popovertarget="menu">Browse</button>
+          <div id="menu" popover>
+            {(week.count > 0 || week.changes > 0) && section !== "home" && (
+              <span class="new-pill">
+                {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new this week</a>}
+                {week.count > 0 && week.changes > 0 && <span class="sep" aria-hidden="true">·</span>}
+                {week.changes > 0 && <a href={`${base}#lens=landed&kinds=c`}><b>{week.changes}</b> PRs</a>}
+              </span>
+            )}
+            <nav class="site-nav" aria-label="Sections">
+              {nav.map((s) => <a href={`${base}${s.path}`} aria-current={section === s.id ? "page" : undefined}>{s.name}</a>)}
+            </nav>
+          </div>
         </div>
       </header>
     )}
