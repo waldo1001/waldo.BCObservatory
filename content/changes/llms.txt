@@ -1093,12 +1093,19 @@
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
-- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2758734](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-10-10)
-- [#12079 [Extensibility Request] Add extensibility to E-Document and Peppol](https://github.com/microsoft/BCApps/pull/12079) (open into main, updated 2026-10-10)
+- [#12453 Localized file check-in by OneLocBuild Task: Build definition ID 12892: Build ID 2760204](https://github.com/microsoft/BCApps/pull/12453) (open into main, updated 2026-10-11)
+- [#12467 [Master]-Close Income Statement does not split accurately by Dimension values since 28.3](https://github.com/microsoft/BCApps/pull/12467) (open into main, updated 2026-10-11)
+- [#12667 Expose edocument send recreate](https://github.com/microsoft/BCApps/pull/12667) (open into main, updated 2026-10-11)
+- [#12079 [Extensibility Request] Add extensibility to E-Document and Peppol](https://github.com/microsoft/BCApps/pull/12079) (open into main, updated 2026-10-11)
+- [#12147 Bugs/add corp card basics](https://github.com/microsoft/BCApps/pull/12147) (open into main, updated 2026-10-11)
+- [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](https://github.com/microsoft/BCApps/pull/11998) (open into main, updated 2026-10-11)
+- [#12470 Remove CLEAN27 from GB delocalization](https://github.com/microsoft/BCApps/pull/12470) (open into main, updated 2026-10-11)
+- [#12612 [Draft] Default web-service-key auth and consolidate API test fixes](https://github.com/microsoft/BCApps/pull/12612) (open into main, draft, updated 2026-10-11)
+- [#10834 Slice 578380: [Application] Expand ledger entry numbers to 64 bit](https://github.com/microsoft/BCApps/pull/10834) (open into main, draft, updated 2026-10-11)
+- [#12416 Fix Extension Management permission validation](https://github.com/microsoft/BCApps/pull/12416) (open into releases/29.x, updated 2026-10-11)
+- [#10484 [Bug Fix] #177: IRS 1099 orphan fields on Purchase Order/Cr. Memo pages](https://github.com/microsoft/BCApps/pull/10484) (open into main, updated 2026-10-11)
 - [#12609 Confirm before deleting attachments from an unfiltered Doc. Attachment List Factbox](https://github.com/microsoft/BCApps/pull/12609) (open into main, updated 2026-10-10)
 - [#12665 Feature quantity-ready-to-start: Add Quantity Ready to Start readiness tracking for subcontracted manufacturing](https://github.com/microsoft/BCApps/pull/12665) (open into main, draft, updated 2026-10-10)
-- [#12147 Bugs/add corp card basics](https://github.com/microsoft/BCApps/pull/12147) (open into main, updated 2026-10-10)
-- [#12470 Remove CLEAN27 from GB delocalization](https://github.com/microsoft/BCApps/pull/12470) (open into main, updated 2026-10-10)
 - [#12603 Features/extract intercompany module](https://github.com/microsoft/BCApps/pull/12603) (open into main, updated 2026-10-10)
 - [#11850 [master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.](https://github.com/microsoft/BCApps/pull/11850) (open into main, updated 2026-10-10)
 - [#12315 Remove CLEAN27 for Purchases](https://github.com/microsoft/BCApps/pull/12315) (open into main, updated 2026-10-10)
@@ -1106,7 +1113,6 @@ Open pull requests (no page until merged), most recently updated first; then the
 - [#11263 Update ConnectivityAppDefinitions.Codeunit.al](https://github.com/microsoft/BCApps/pull/11263) (open into main, updated 2026-10-10)
 - [#11665 Bug 649580: [Subcontracting] Transfer Shipment report is missing subcontractor and manufacturing references](https://github.com/microsoft/BCApps/pull/11665) (open into main, updated 2026-10-10)
 - [#12599 [Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals](https://github.com/microsoft/BCApps/pull/12599) (open into main, updated 2026-10-10)
-- [#12467 [Master]-Close Income Statement does not split accurately by Dimension values since 28.3](https://github.com/microsoft/BCApps/pull/12467) (open into main, updated 2026-10-10)
 - [#12630 Migrate W1 web service integrations off XML DOM Management](https://github.com/microsoft/BCApps/pull/12630) (open into main, draft, updated 2026-10-10)
 - [#12644 Migrate Exchange add-in manifest, Data Exchange XML import, XML Buffer Reader and XSD Parser off XML DOM Management](https://github.com/microsoft/BCApps/pull/12644) (open into main, draft, updated 2026-10-10)
 - [#12649 [Security] Retire XML DOM Management in country bank/payment files (BE, NL, FI, AT, NO)](https://github.com/microsoft/BCApps/pull/12649) (open into main, draft, updated 2026-10-10)
@@ -1117,15 +1123,10 @@ Open pull requests (no page until merged), most recently updated first; then the
 - [#12617 [Security] Move URL checks from Web Request Helper to System Application Uri module](https://github.com/microsoft/BCApps/pull/12617) (open into main, updated 2026-10-10)
 - [#12622 [Master]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.](https://github.com/microsoft/BCApps/pull/12622) (open into main, draft, updated 2026-10-10)
 - [#12634 Migrate RapidStart off XML DOM Management to native XML types](https://github.com/microsoft/BCApps/pull/12634) (open into main, draft, updated 2026-10-10)
-- [#11660 Fix #11377: Prevent invalid FatturaPA CAP values](https://github.com/microsoft/BCApps/pull/11660) (open into main, updated 2026-10-10)
-- [#8643 Fix Subcontracting feature flag handler ObsoleteReason](https://github.com/microsoft/BCApps/pull/8643) (open into main, updated 2026-10-10)
-- [#12149 [main] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](https://github.com/microsoft/BCApps/pull/12149) (open into main, updated 2026-10-10)
-- [#12153 [Main]-Adjust Cost Creates an Output Value Entry with Entry Type = Variance and Expected Cost = Yes After Reversing a Finished Production Order.](https://github.com/microsoft/BCApps/pull/12153) (open into main, updated 2026-10-10)
-- [#12322 [QM] Destination bin code is now visible and usable for the user](https://github.com/microsoft/BCApps/pull/12322) (open into main, updated 2026-10-10)
-- [#12377 [main] Bug 652758 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.](https://github.com/microsoft/BCApps/pull/12377) (open into main, updated 2026-10-10)
 
 Open issues:
 
+- [#12666 [Bug]: Permissions can only be changed, when Entra Application is disabled](https://github.com/microsoft/BCApps/issues/12666) (2026-10-11, Team: Integrations)
 - [#12652 [W1][MultiObjects] Output journal lines: event after CheckWhse in codeunits 5406 "Output Jnl.-Expl. Route" and 5510 "Production Journal Mgt"](https://github.com/microsoft/BCApps/issues/12652) (2026-10-10, Team: SCM)
 - [#12625 [W1][Codeunit][6154][API Webhook Notification Send] OnBeforeShouldReschedule](https://github.com/microsoft/BCApps/issues/12625) (2026-10-09, Team: Integrations)
 - [#12623 "Warehouse Request" has wrong Table Relation for "Shipping Agent Service Code"](https://github.com/microsoft/BCApps/issues/12623) (2026-10-09, Team: SCM)
@@ -1147,6 +1148,7 @@ Releases:
 
 Open pull requests (no page until merged), most recently updated first; then the newest open issues and the releases.
 
+- [#2402 Move Copilot review engine into AL-Go](https://github.com/microsoft/AL-Go/pull/2402) (open into main, draft, updated 2026-10-11)
 - [#2273 Improve file handling in Update AL-Go System Files](https://github.com/microsoft/AL-Go/pull/2273) (open into main, updated 2026-10-09)
 - [#2293 Add support for protectedSettings to override lower priority settings](https://github.com/microsoft/AL-Go/pull/2293) (open into main, updated 2026-10-09)
 - [#2400 Update TestUpgradesFromVersion to v8.0](https://github.com/microsoft/AL-Go/pull/2400) (open into main, updated 2026-10-09)
