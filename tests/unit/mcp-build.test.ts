@@ -19,7 +19,7 @@ test("the MCP server bundles to one file with the shared scorer inside and no Mi
   assert.match(js, /from "zod"/);
   assert.match(js, /function parseQuery\(/, "the parser is in the bundle");
   const pkg = JSON.parse(readFileSync(join(ROOT, "packages/mcp/package.json"), "utf8"));
-  assert.equal(pkg.version, "0.3.0");
+  assert.equal(pkg.version, /const VERSION = "([^"]+)"/.exec(readFileSync(join(ROOT, "packages/mcp/src/server.ts"), "utf8"))?.[1], "package.json and the server's VERSION agree");
   assert.equal(pkg.dependencies.minisearch, undefined);
   assert.equal(JSON.parse(readFileSync(join(ROOT, "package.json"), "utf8")).dependencies.minisearch, undefined);
 });

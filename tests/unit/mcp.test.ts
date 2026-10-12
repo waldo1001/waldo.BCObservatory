@@ -118,6 +118,22 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
   }
 });
 
+test("D93 phase A: tool descriptions teach call forms, not the scoring formula", async () => {
+  const { client } = await connect({ BC_OBSERVATORY_LOCAL: fixture() });
+  try {
+    const tools = (await client.listTools()).tools;
+    const total = tools.reduce((n, t) => n + (t.description ?? "").length, 0);
+    for (const t of tools) assert.ok((t.description ?? "").length <= 1000, `${t.name}: ${(t.description ?? "").length} characters`);
+    assert.ok(total <= 3300, `the nine descriptions add up to ${total} characters`);
+    const search = tools.find((t) => t.name === "search")!.description!;
+    assert.ok(search.includes("'event: OnAfterPost'"), "the symbol prefixes stay");
+    for (const v of ["topic", "app", "feature", "object", "localization", "video", "post", "change", "source", "digest", "release"]) assert.ok(search.includes(v), `type value ${v}`);
+    assert.ok(!search.includes("+10") && !search.includes("title or caption 3"), "the scoring formula lives in the README");
+  } finally {
+    await client.close();
+  }
+});
+
 test("D86: references, filters, get_object by caption and country, hints", async () => {
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: fixture() });
   try {
