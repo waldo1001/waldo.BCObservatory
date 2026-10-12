@@ -11,7 +11,7 @@
  *
  *   npm --prefix site run build && node scripts/galaxy-density.mjs            # site/dist
  *   SWEEP_PORT=4204 node scripts/galaxy-density.mjs ../other/site/dist         # another build, for a before/after
- *   DENSITY_JSON=/tmp/d.json SYSTEMS=finance,sales node scripts/galaxy-density.mjs
+ *   DENSITY_JSON=/tmp/d.json SYSTEMS=finance,sales PARTS=states node scripts/galaxy-density.mjs   # PARTS: states, bar
  *
  * Classification: a star is a non-gradient fill of one full arc with r <= 14, or of one roundRect with w = h <= 26.5
  * and radius 0.12 w; a media body an 8 x 3 rect or a path starting with moveTo; a caption a fillText with baseline
@@ -72,6 +72,7 @@ for (let i = 0; ; i++) {
 const g = JSON.parse(readFileSync(join(dist, "graph", "summary.json"), "utf8"));
 const topStar = (sys) => g.nodes.filter((n) => n.group === sys && n.cross?.length).sort((a, b) => b.weight - a.weight)[0]?.id;
 const systems = process.env.SYSTEMS ? process.env.SYSTEMS.split(",") : g.systems.map((s) => s.id);
+const parts = (process.env.PARTS ?? "states,bar").split(",");
 
 /** Runs in the page before any script: records what the galaxy canvas draws in its last frame. */
 const init = () => {
@@ -126,9 +127,9 @@ const measure = () => {
   };
 };
 
-/** Runs in the page: the galaxy bar's geometry, relative to the galaxy section. */
+/** Runs in the page: the galaxy bar's geometry, relative to the canvas (the section has a 1 px top border). */
 const barGeo = () => {
-  const sec = document.querySelector("section.galaxy"), o = sec.getBoundingClientRect();
+  const sec = document.querySelector("section.galaxy"), o = sec.querySelector("canvas").getBoundingClientRect();
   const vis = (el) => !!el && !el.hidden && getComputedStyle(el).display !== "none" && el.getBoundingClientRect().width > 0;
   const bar = document.querySelector(".g-bar") ?? document.querySelector(".g-lensbar");
   const groups = [".g-lensbar", ".g-viewbar"].map((q) => document.querySelector(q)).filter(vis);
@@ -146,7 +147,7 @@ const browser = await chromium.launch();
 const res = [], bars = [];
 const visit = async (p, hash, wait) => { await p.goto(B + hash); await p.reload(); await p.waitForTimeout(wait); };
 try {
-  for (const [w, h, only] of [[1440, 900, null], [1280, 800, NAMED], [1024, 768, null]]) {
+  for (const [w, h, only] of parts.includes("states") ? [[1440, 900, null], [1280, 800, NAMED], [1024, 768, null]] : []) {
     const ctx = await browser.newContext({ viewport: { width: w, height: h } });
     await ctx.addInitScript(init);
     await ctx.addInitScript(() => { try { localStorage.setItem("bcobs-galaxy-intro", "seen"); } catch { /* none */ } });
@@ -162,7 +163,7 @@ try {
     }
     await ctx.close();
   }
-  for (const [w, h] of [[1440, 900], [1280, 800], [1024, 768], [768, 1024], [390, 844]]) {
+  for (const [w, h] of parts.includes("bar") ? [[1440, 900], [1280, 800], [1024, 768], [768, 1024], [390, 844]] : []) {
     const ctx = await browser.newContext({ viewport: { width: w, height: h } });
     await ctx.addInitScript(() => { try { localStorage.setItem("bcobs-galaxy-intro", "seen"); } catch { /* none */ } });
     const p = await ctx.newPage();
@@ -181,6 +182,7 @@ try {
   await browser.close();
 }
 
+if (!parts.includes("states")) process.exit(0);
 const sum = (rows, k) => rows.reduce((a, r) => a + (r[k] ?? 0), 0);
 const states = (rows, k) => rows.filter((r) => r[k] > 0).length;
 console.log("\nSums (section 1.2 of the spec):");
