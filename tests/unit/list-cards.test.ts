@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { radarLine, weekLine, weekState } from "../../site/src/lib/digest-cards.js";
+import { countLine, lastStop, sourceKind } from "../../site/src/lib/source-cards.js";
 
 // D91 C3: the digests index is a card per week, the running week by the build's date
 test("weekState: running while the build's day is on or before the week's last day", () => {
@@ -18,4 +19,23 @@ test("weekLine: PRs, videos, posts, Learn pages, roadmap moves, each when above 
 
 test("radarLine: the deprecation radar's two numbers", () => {
   assert.equal(radarLine({ deprecations: 1225, cleanup_due: 1055 }), "1,225 obsolete elements, 1,055 with their cleanup due");
+});
+
+// D91 C4: the sources index is a card per source; the source page names its kind with the same words
+test("sourceKind: the word for a source and for its items", () => {
+  assert.deepEqual(["blog", "youtube", "github-pr", "vsmarketplace", "rss"].map((k) => { const x = sourceKind(k); return `${x.label}/${x.noun}`; }),
+    ["blog/posts", "channel/videos", "repository/changes", "changelog/releases", "rss/items"]);
+});
+
+test("countLine: kind, tier and item count, singular for one", () => {
+  assert.equal(countLine("blog", "community", 81), "blog · community · 81 posts");
+  assert.equal(countLine("blog", "community", 1), "blog · community · 1 post");
+  assert.equal(countLine("vsmarketplace", "official", 63), "changelog · official · 63 releases");
+  assert.equal(countLine("youtube", "official", 523), "channel · official · 523 videos");
+});
+
+test("lastStop: the newest item, date first, then href; null for none", () => {
+  const items = [{ date: "2026-10-01", href: "b" }, { date: "2026-10-02", href: "c" }, { date: "2026-10-02", href: "a" }];
+  assert.deepEqual(lastStop(items), { date: "2026-10-02", href: "a" });
+  assert.equal(lastStop([]), null);
 });

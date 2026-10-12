@@ -1,12 +1,31 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { systemLabel } from "../../lib/page";
+import { sourceIcon } from "../../lib/preview";
+import { countLine, lastStop } from "../../lib/source-cards";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("sources")).sort((a, b) => b.data.item_count - a.data.item_count);
+// D91 C4: each source's newest item across posts, videos, changes (by merge date) and AL extension releases
+type Stop = { date: string; href: string; title: string };
+const stops = new Map<string, Stop[]>();
+const add = (src: unknown, date: unknown, href: string, title: unknown) => {
+  if (!src || !date) return;
+  const k = String(src);
+  (stops.get(k) ?? stops.set(k, []).get(k)!).push({ date: String(date).slice(0, 10), href, title: String(title) });
+};
+for (const e of await getCollection("posts")) add(e.data.source_id, e.data.published_at, `${base}posts/${e.id}/`, e.data.title);
+for (const e of await getCollection("videos")) add(e.data.channel, e.data.published_at, `${base}videos/${e.id}/`, e.data.title);
+for (const e of await getCollection("changes")) add(e.data.source_id, e.data.merged_at, `${base}changes/${e.id}/`, e.data.title);
+for (const e of await getCollection("releases")) add(e.data.source_id, e.data.published_at, `${base}releases/${e.id}/`, e.data.title);
 ---
 <List section="sources" title="Sources · BC Observatory" description="Blogs and channels in the knowledge base and what they cover.">
   <p class="eyebrow">Sources</p>
   <h1>{all.length} sources</h1>
   <p class="lede">Each blog and channel with its footprint: the systems, topics and AL objects it covers, and its flight path through time. Agents: <a href={`${base}sources/llms.txt`}>llms.txt</a>.</p>
-  <ul>{all.map((e) => <li><a href={`${base}sources/${e.id}/`}>{e.data.title}</a> <span class="meta">{e.data.item_count} items · {e.data.tier} · {e.data.footprint.systems.slice(0, 3).map((s: any) => s.id).join(", ")}</span></li>)}</ul>
+  <ol class="list-cards source-cards">{all.map((e) => {
+    const icon = sourceIcon(e.data.source_id), stop = lastStop(stops.get(String(e.data.source_id)) ?? []);
+    const systems: string[] = (e.data.footprint?.systems ?? []).slice(0, 3).map((s: any) => String(s.id));
+    return <li class="card source-card"><p class="source-card-name">{icon && <img class="row-icon" src={icon} alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="strict-origin-when-cross-origin" onerror="this.remove()" />}<a href={`${base}sources/${e.id}/`}>{e.data.title}</a></p><p class="mono-meta">{countLine(String(e.data.kind), String(e.data.tier), Number(e.data.item_count) || 0)}</p>{systems.length > 0 && <p class="source-card-systems">{systems.map((id) => <span class="chip-sys" style={`--dot: var(--sys-${id})`}>{systemLabel(id)}</span>)}</p>}{stop && <p class="meta">Last stop <a href={stop.href}>{stop.title}</a> · {stop.date}</p>}</li>;
+  })}</ol>
 </List>

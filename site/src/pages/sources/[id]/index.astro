@@ -5,6 +5,7 @@ import FlightPath from "../../../components/FlightPath.astro";
 import { siteLinks, wrapTables } from "../../../lib/links";
 import { trimBody } from "../../../lib/page";
 import { sourceIcon } from "../../../lib/preview";
+import { sourceKind } from "../../../lib/source-cards";
 export async function getStaticPaths() {
   const items = [...(await getCollection("posts")).map((e) => ({ e, dir: "posts", src: e.data.source_id })), ...(await getCollection("videos")).map((e) => ({ e, dir: "videos", src: e.data.channel })),
     // D61: a repository's changes, dated by their merge
@@ -25,8 +26,8 @@ const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `sources/${ent
   .replace(/<h2 id="flight-path">[\s\S]*?(?=<h2|$)/, "")
   .replace(/<h2 id="most-recent">[\s\S]*?(?=<h2|<p>Source:|$)/, "");
 ---
-<Page fm={fm} kind={fm.kind === "youtube" ? "channel" : fm.kind === "github-pr" ? "repository" : "blog"} path={`sources/${entry.id}`} section="sources" crumbs={[{ label: "Sources", href: `${base}sources/` }]}
-  stats={[{ n: fm.item_count, label: fm.kind === "youtube" ? "videos" : fm.kind === "github-pr" ? "changes" : "posts" }, ...(fm.first_item ? [{ n: String(fm.first_item).slice(0, 7), label: "first item" }] : [])]}
+<Page fm={fm} kind={sourceKind(String(fm.kind)).label} path={`sources/${entry.id}`} section="sources" crumbs={[{ label: "Sources", href: `${base}sources/` }]}
+  stats={[{ n: fm.item_count, label: sourceKind(String(fm.kind)).noun }, ...(fm.first_item ? [{ n: String(fm.first_item).slice(0, 7), label: "first item" }] : [])]}
   context={{ label: "Visit", href: fm.url }} icon={sourceIcon(fm.source_id)}>
   <div class="prose" set:html={wrapTables(html)} />
   <FlightPath stops={stops.map((s) => ({ ...s, href: `${base}${s.href}` }))} />
