@@ -17,6 +17,19 @@ questions in its section 12).
 
 ## Where things stand
 
+**Shipped 2026-10-12, live on the next Pages build (video Features tables after the next nightly's re-render):**
+- **UX batch 1, bytes first, D88** (no spec, M26). The review behind it: `docs/research/2026-10-12-ux-review.md`,
+  35 proposals A1 to G2 with measurements, and a byte budget at the end; the owner wants all of them within the Pages
+  tar limit (D76). Batch 1 is the reductions and the small fixes: the video dialog is built on the first chip click
+  (`stageDialogElement`), the footer's instrument links are one link to `/objects/#instruments`, the header lost its
+  repeated `title` attributes and long pill title (and says "new this week" in every state), provenance is a closed
+  details, the version timeline folds quiet majors into ranges (`timelineCols`, tested), one change pill per member
+  (`markMembers`, tested), stat chips under 600 px, search hides empty tabs and the `.md` path, digest summaries
+  pluralise, the home help paragraph became a "?" shortcut sheet in the galaxy tools, the phone's lens bar wraps and its
+  system list is a closed details, a video Features table says a shared status once (E2, no LLM). Local build on the
+  2026-10-12 content: **744.2 to 695.3 MB tar**, objects 501.3 to 455.2 MB, files unchanged. Write the first Pages
+  run's number here after the merge. Batches 2 and 3 are specs (see "Open specs" above once written).
+
 **Shipped 2026-10-09, live after the next good nightly:**
 - **Search, D86** (`docs/specs/search.md`, M24): one scorer for the site and the MCP in `packages/search` (parser,
   synonyms, layer order, importance, hints); `t36`, `cu 80`, `table 11300 BE`, `36`, `BE`, `custmer`, `client` and

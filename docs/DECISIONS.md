@@ -827,3 +827,26 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   panel brings it back. Rejected: a modal or first-visit tour (the panel is the place that already explains the
   level); hard-coding the type counts (the summary changes nightly); a legend entry for the code diamond (a panel
   marker, never drawn on the canvas). Not a spec: two self-contained site changes, no pipeline, no new data.
+- **D88 Bytes first: the UX work pays its own way on the Pages tar.** The owner asked on 2026-10-12 to do all 35
+  proposals of `docs/research/2026-10-12-ux-review.md` within the storage limit, which is D76's Pages tar (744.2 MB
+  that morning, warning from 800 MB; a 132-item night adds 13 MB). The rule for every proposal: nothing may add bytes
+  to object pages. What can be built in the browser from the markup already on the page is built there (the shared
+  bundle grows once, 25,666 pages do not); static additions go on single pages only; the reductions ship first and
+  fund the rest. Batch 1 (M26, no spec): the video dialog's 371 bytes are built on the first video chip click
+  (`stageDialogElement` in `source-stage.ts`) instead of shipped on 28,850 pages; the footer's seven instrument links
+  become one link to an Instruments section on `/objects/` (A4, the home strip follows in batch 2); the header drops
+  the `title` attributes that repeated an `aria-label`, the 110-character pill title and 21 placeholder characters,
+  says "new this week" in every state (A5), and gets the finder's platform label and the theme word from `chrome.ts`
+  and `site.css` (A6); the inline theme script is minified; the provenance block is a closed `details` without the
+  64-character hash title (B7); the version timeline folds quiet majors into ranges, "BC23-25 present", and drops the
+  per-major wave title (B5, `timelineCols`, tested); a member's change pills are one span with one title, "Δ BC25 Δ
+  BC26" (B3, `markMembers`, tested); stat tiles are one line of chips under 600 px (B4); the search page hides empty
+  tabs and the markdown path under every hit (F2, F3); digest summaries pluralise (F1); the home page loses the
+  six-line help paragraph for a "?" shortcut sheet in the galaxy tools (D2); the lens bar wraps on a phone (D4) and the
+  phone's system list is a closed details (D5); a video Features table says a status once when every row shares it
+  (E2; the nightly's re-render rewrites those pages, no LLM). Measured on the same content, local build: 744.2 to
+  695.3 MB tar, objects 501.3 to 455.2 MB, 59,135 files unchanged; Enum 89 "Gen. Journal Template Type" 13.4 to 11.6 KB,
+  Table 18 "Customer" 153.5 to 150.6 KB (it changed in every major, so its timeline folds nothing). Rejected: a
+  static "On this page" list (about 600 bytes on 25,666 pages, 15 MB; B1 builds it in the browser, batch 2); dropping
+  the markdown twins' `<link rel="alternate">` (agents use it); a `<base href>` to shorten 18 MB of base-path prefixes
+  (it breaks every in-page `#` anchor). Batches 2 and 3 of the review are specs, written with `bcobs-spec`.
