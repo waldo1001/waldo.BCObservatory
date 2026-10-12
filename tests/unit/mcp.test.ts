@@ -185,3 +185,27 @@ test("reciprocal rank fusion (k = 60) and the filters of a search call", async (
   assert.equal(keep({ id: "o", kind: "page", type: "object", name: "", title: "", layer: 2, importance: 0, system: "finance", country: "be", objectType: "table" }), true);
   assert.equal(keep({ id: "o", kind: "page", type: "object", name: "", title: "", layer: 0, importance: 0, system: "finance", country: null, objectType: "table" }), false);
 });
+
+test("D94: search finds Learn articles by an identifier they document, with their url and hub; type learn filters; ls and whats_new stay pages", async () => {
+  const root = fixture();
+  const base = "https://learn.microsoft.com/dynamics365/business-central/", sec = "dev-itpro/developer/devenv-security-settings-and-ip-protection";
+  writeText(join(root, "content", "topics/dev-itpro/configure.md"), page({ id: "topic/dev-itpro/configure", type: "topic", title: "Configure the development environment", summary: "Setting up AL.", tier: "official", system: "administration",
+    learn_toc_path: ["Development", "Configure the development environment"], links: { learn: [`${base}${sec}`] }, coverage: { learn: 1, code: 0, video: 0, blog: 0 } }, "# Configure"));
+  writeJson(join(root, "data/manifest/docs/learn-devitpro/sec.json"), { id: `docs/learn-devitpro/${sec}.md`, pillar: "docs", source: "learn-devitpro", tier: "official", title: "Resource exposure policy setting",
+    url: `${base}${sec}`, state: "fetched", stages: { fetched: { at: "2026-10-01T00:00:00.000Z", blob: "b" } }, attempts: 0, meta: { description: "Control access to your extension's source.", ms_date: "2026-10-05", identifiers: ["allowDebugging", "includeSourceInSymbolFile"] } });
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root });
+  try {
+    const hit = await call("search", { query: "includeSourceInSymbolFile" });
+    assert.match(hit, /^1 results, keyword \(exact band: 0\) \(read one with cat\(path\); a Learn article's url opens on learn\.microsoft\.com, cat\(hub\) reads its hub\):\n/);
+    assert.match(hit, new RegExp(`^- Resource exposure policy setting \\[learn, official, 2026-10-05\\] url=${base}${sec} \\[keyword\\]\\n  in: Development › Configure the development environment \\(hub: topics/dev-itpro/configure\\)\\n  Control access to your extension's source\\.$`, "m"));
+    assert.match(await call("search", { query: "include source in symbol file" }), /url=https:\/\/learn\.microsoft\.com\/.*devenv-security-settings-and-ip-protection/, "its CamelCase words");
+    assert.match(await call("search", { query: "configure", type: "learn" }), /^No pages match/, "type learn: Learn articles only");
+    assert.match(await call("search", { query: "allow debugging", type: "learn" }), /^1 results/);
+    assert.doesNotMatch(await call("search", { query: "customer" }), /url=/, "an ordinary query is as it was");
+    assert.doesNotMatch(await call("ls", {}), /learn/, "a Learn article is no page to browse");
+    assert.doesNotMatch(await call("whats_new", { since: "2026-10-01" }), /Resource exposure/, "nor news");
+  } finally {
+    await client.close();
+  }
+});

@@ -26,8 +26,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import {
-  KIND_OF, countriesOf, hints, pageToRecord, parseQuery, prepare, search as rank, symbolLine, symbolRecords, systemOf, typeOfWord,
-  type Hit, type Index, type PageRecord, type SearchRecord, type SymbolShard,
+  KIND_OF, countriesOf, hints, learnRecords, pageToRecord, parseQuery, prepare, search as rank, symbolLine, symbolRecords, systemOf, typeOfWord,
+  type Hit, type Index, type LearnShard, type PageRecord, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 
@@ -38,7 +38,7 @@ const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
 const DAY = 86_400_000;
 
 export type { PageRecord };
-interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string; kind?: string }[] }
+interface IndexManifest { schema: string; pages: number; shards: { file: string; count: number; sha256: string; kind?: string }[]; learn?: { file: string; count: number; sha256: string } }
 
 // ---------------------------------------------------------------------------------------------- data access
 
@@ -85,6 +85,10 @@ async function loadIndex(): Promise<void> {
   for (const s of manifest.shards) all.push(...(JSON.parse(await shard(s.file, s.sha256)) as PageRecord[]));
   pages = all;
   const idx = prepare(all.map(pageToRecord));
+  // D94: the Learn articles, searchable but not pages here (ls, whats_new and the meaning ranking read `pages` only)
+  if (manifest.learn) {
+    try { prepare(learnRecords(JSON.parse(await shard(manifest.learn.file, manifest.learn.sha256)) as LearnShard).map(pageToRecord), idx); } catch { /* the pages still search */ }
+  }
   // the symbols index (D86 4.4): fields, events, global procedures and enum values, under their objects' records
   let sm: SymbolsManifest | null = null;
   try { sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest; } catch { sm = null; }
@@ -108,7 +112,9 @@ const line = (r: PageRecord, tag = "") => `- ${r.title}${r.caption ? ` (captione
 const text = (t: string) => ({ content: [{ type: "text" as const, text: t }] });
 /** A symbol hit: name, what it is and where, its path with the anchor, then its doc line. */
 const symbolHit = (r: SearchRecord, tag = "") => `- ${r.name} (${symbolLine(r).replace(/ · /g, ", ")}) path=${r.id}${tag}${r.text ? `\n  ${r.text}` : ""}`;
-const hitLine = (r: SearchRecord, tag = "") => (r.kind === "page" && r.page ? line(r.page, tag) : symbolHit(r, tag));
+/** A Learn article (D94): its URL on learn.microsoft.com instead of a path, and the hub that lists it. */
+const learnLine = (r: PageRecord, tag = "") => `- ${r.title} [learn, official${r.date ? `, ${r.date}` : ""}] url=${r.path}${tag}${r.path_label ? `\n  in: ${r.path_label}${r.hub ? ` (hub: ${r.hub})` : ""}` : ""}\n  ${r.summary}`;
+const hitLine = (r: SearchRecord, tag = "") => (r.kind === "page" && r.page ? (r.type === "learn" ? learnLine(r.page, tag) : line(r.page, tag)) : symbolHit(r, tag));
 
 // ---------------------------------------------------------------------------------------------- embeddings (D63)
 
@@ -220,7 +226,8 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const hintText = hs.length ? `\n${hs.map((h) => `Hint: ${h.text}${h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : ""}`).join("\n")}` : "";
   if (!shown.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.${note}${hintText}`;
   const how = semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
-  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" || mode === "hybrid" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
+  const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url opens on learn.microsoft.com, cat(hub) reads its hub" : "";
+  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" || mode === "hybrid" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
@@ -329,9 +336,9 @@ export function toolFeedback(a: { path: string; message: string }): string {
 
 export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
-    instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path).",
+    instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path). search() also finds Microsoft Learn articles by title, summary and the identifiers they document (type learn): those are not pages here, open their url on learn.microsoft.com.",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, AL object name and caption, summary, tags) with the site's own scorer: per query word title or caption 3, tags 2, summary 1, through the exact word, a prefix, the plural, a synonym (client = customer, G/L = general ledger) or one typo; a name equal to the query +10; an object reference ('t36', 'cu 80', 'table 11300 BE') or a bare id ('36') goes straight to the object; base app before first-party app before country layer, then an object's importance (what references, calls and documents it); hubs by size and review state. Hybrid by default: the exact band (references and exact names) stays on top and the rest is fused with a meaning ranking, so a paraphrase still finds the page; each hit says [keyword], [meaning] or [both]. mode 'keyword' for the scorer alone, 'semantic' for meaning only. Fields, published events, global procedures and enum values (W1 and apps, the major the object pages are built from) are searchable too ('OnAfterPostSalesDoc', 'Posting Date', or a prefix: 'event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit names its object and its path ends in #event-<Name>, #field-<id>, #proc-<Name> or #value-<ordinal>. Filters: type (topic, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page (title, AL object name and caption, summary, tags) with the site's own scorer: per query word title or caption 3, tags 2, summary 1, through the exact word, a prefix, the plural, a synonym (client = customer, G/L = general ledger) or one typo; a name equal to the query +10; an object reference ('t36', 'cu 80', 'table 11300 BE') or a bare id ('36') goes straight to the object; base app before first-party app before country layer, then an object's importance (what references, calls and documents it); hubs by size and review state. Hybrid by default: the exact band (references and exact names) stays on top and the rest is fused with a meaning ranking, so a paraphrase still finds the page; each hit says [keyword], [meaning] or [both]. mode 'keyword' for the scorer alone, 'semantic' for meaning only. Fields, published events, global procedures and enum values (W1 and apps, the major the object pages are built from) are searchable too ('OnAfterPostSalesDoc', 'Posting Date', or a prefix: 'event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit names its object and its path ends in #event-<Name>, #field-<id>, #proc-<Name> or #value-<ordinal>. Microsoft Learn articles are searchable too, by title, summary and the identifiers they document in code ('includeSourceInSymbolFile', or its words): a Learn hit has type learn, a url on learn.microsoft.com instead of a path, and the hub that lists it. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
