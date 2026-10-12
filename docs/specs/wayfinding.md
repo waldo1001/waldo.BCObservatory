@@ -1,6 +1,6 @@
 # Wayfinding: one name per section, crumbs that follow the sections, a header that fits, instruments on the home page
 
-Status: proposed, 2026-10-12. Decision: D90 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M28
+Status: built 2026-10-12 on `build/wayfinding` (section 12), not merged yet. Decision: D90 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M28
 (reserved). Owner: waldo.
 Scope: items A1, A2, A3, A4 (the home part), D1, F5 and F6 of `docs/research/2026-10-12-ux-review.md`, under D88's
 byte rule. The header of every page (`site/src/layouts/Base.astro`, `site/src/styles/site.css`,
@@ -803,43 +803,187 @@ llms heading line only), `tests/unit/about.test.ts`, `tests/unit/release-pages.t
   most 689.5 MB; section 12 records tar, apparent bytes and files after each phase and the shared CSS and JS sizes.
 - D90 appended, PLAN M28 shipped, HANDOFF entry moved, this section renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-**`docs/DECISIONS.md`**, appended at ship time:
+Built 2026-10-12 on branch `build/wayfinding` from `04b705c8fb` (content of `d52b04b7a9`, the same data as
+`bb3a37e016` for every number below), Node 22.23.1. Commits: `e2c9a5066e` phase 1, `8d80daa38e` phase 2,
+`ef83978bdc` phase 3 (with the header CSS trimmed to the budget), `03b5f5d1fb` the Browse button's name, then this
+section. Gates on the last code commit: `npm run typecheck` clean, `npm test` 500 tests, 499 pass, 1 skipped (the
+model2vec parity test without `BC_OBSERVATORY_MODEL_DIR`, skipped before this work too).
+
+### What was built
+
+- **Phase 1, names and crumbs (A2, A3, F5).** `pipeline/lib/sections.ts` (the map, `tests/unit/sections.test.ts`) and
+  `site/src/lib/crumbs.ts` (`trail`, `systemChip`, `actionOrder`, `tests/unit/crumbs.test.ts`). `Page.astro` and
+  `List.astro` render `trail`; the identity row carries `--sys` and the system chip (no chip on localization and source
+  pages); detail routes pass only their parents (an object's type, a hub's parent topic, a post's source). Section
+  index pages take title, eyebrow and h1 from the map (`countLabel`); instrument pages (version lens and its pairs,
+  deprecation radar, event explorer, coverage, drift, neighbourhood) sit under Galaxy / Instruments with titles,
+  crumbs and h1s from `INSTRUMENTS`; `/objects/<type>/` reads Galaxy / AL objects / tables; `/changes/week/` and
+  `/changes/upcoming/` read Galaxy / Code changes / This week, Upcoming; MCP and About are section indexes. Home cards
+  and About's "What is in it today" come from `contentSections()` (a First-party apps card, an AL extension releases
+  row; `AboutCounts.releases`, so `{{pages}}` counts the 63 release pages too); the persona link says "Learn drift";
+  the root `llms.txt` lists the sections under their names in the home order; the 11 section `llms.txt` fallbacks and
+  the 10 pipeline renderers write `llmsTitle(...)`; the galaxy's noscript links, the search groups ("Posts", "Weekly
+  digests") and the search tab ("Weekly digests") say the map's names; `localizations/#heat` is headed "Country
+  heatmap". Video and post pages lead with Watch here / Read it here. The pill lost its `title`, the search label is
+  `aria-label="Search"`.
+- **Phase 2, the header (A1).** `Base.astro`: wordmark, search form, `<button popovertarget="menu">Browse</button>`,
+  `<div id="menu" popover>` holding the pill and the nav from `navSections()`. `chrome.ts` builds the Theme and finder
+  buttons into `#menu` and closes the sheet when the width crosses 900 px. `site.css`: the bar and the sheet under
+  900 px, `#menu { display: contents }` and two tiers from 900 px, the reserved space for the tools under
+  `(scripting: enabled)`, the no-popover fallback; the D70 and D84 comments rewritten; " Theme" at every width.
+  `sections.test.ts` pins the group starts (nth-child 5 and 10) to the stylesheet.
+- **Phase 3, instruments and the home galaxy (A4 home, D1).** `site/src/lib/instruments.ts` (reductions, card copy,
+  `readInstruments`, `tests/unit/instruments.test.ts` on `tests/fixtures/instruments/`), `Instruments.astro` (global
+  `.inst`), the home page's galaxy height, "Further down" line and Instruments section, the same cards on
+  `/objects/#instruments`, the footer link and the Instruments crumb to `#instruments`.
+
+### Measured
+
+Site, `scripts/site-size.ts` on `site/dist` (MB = 2^20):
+
+| build | tar | apparent | files | objects |
+|---|---|---|---|---|
+| base `04b705c8fb` | 695.3 MB (729,118,720) | 636.6 MB (667,526,501) | 59,135 | 455.2 MB |
+| phase 1 | 692.9 MB (726,507,520) | 634.0 MB (664,819,155) | 59,135 | 452.9 MB |
+| phase 2 | 689.3 MB (722,831,360) | 630.6 MB (661,209,881) | 59,135 | 449.9 MB |
+| phase 3, final | **689.1 MB (722,595,840)** | 630.4 MB (660,980,945) | 59,136 | 449.7 MB |
+
+Tar −6.22 MB, apparent −6.24 MB (spec estimate −6.26 MB); the one new file is `_astro/instruments.*.css`, 626 bytes,
+shared by the home page and `/objects/`.
+
+Per page (bytes of the file; header = `<header … </header>`; crumb = `<nav class="breadcrumb" … </nav>`):
+
+| page | base | phase 1 | phase 2 | phase 3 |
+|---|---|---|---|---|
+| `objects/table/18/index.html` | 154,505 | 154,411 (−94) | 154,286 (−125) | **154,278 (−8; −227 in all)** |
+| `objects/enum/89/index.html` | 11,643 | 11,549 | 11,424 | **11,416 (−227)** |
+| Table 18 header | 1,604 | 1,520 | 1,395 | 1,395 |
+| Table 18 crumb | 394 | 313 | 313 | 313 |
+| Enum 89 crumb | 395 | 328 | 328 | 328 |
+| Belgium crumb (its section crumb is back) | 246 | 240 | 240 | 240 |
+| home page header | 1,308 | 1,267 | 1,142 | 1,142 |
+| `index.html` | 21,942 | 22,195 | 22,070 | 24,291 (+2,349: eight cards, the line, an apps card) |
+| `objects/index.html` | 34,991 | 34,903 | 34,778 | 34,746 |
+
+Shared assets: `_astro/Base.*.css` 24,312 → 24,648 (phase 1) → 26,864 final, **+2,552 bytes** (budget +2.5 KB =
+2,560; the untrimmed phase 2 was 27,290 and was trimmed in phase 3); the chrome script
+`Base.astro_astro_type_script_index_0_lang.*.js` 1,226 → 1,685, **+459** (budget +800); `instruments.*.css` 626
+(estimate about 1 KB).
+
+Header height, `.site-header` `getBoundingClientRect().height` after `document.fonts.ready`, headless Chromium, the
+built site served under `/waldo.BCObservatory/`, dark and light the same:
+
+| viewport | before (inner / home) | after (Table 18 and home) | Table 18 crumb top |
+|---|---|---|---|
+| 320 | | 57 px | 81 |
+| 375 | 215 / 176 px | **57 px** | 81 (was 239) |
+| 768, 899 | 151 px | 57 px | 81 |
+| 900 | 151 px | **92.5 px**, nav on one line | 117 |
+| 1024 | 121 px | 92.5 px | 117 |
+| 1280 | 120 / 122 px | **92.5 px** | 117 |
+| 1440 | 122 / 74 px | **92.5 px** | 117 |
+| 1920 | | 92.5 px | 117 |
+
+Other checks, all passed: no horizontal scroll at 320 to 1920; the eleven nav links share one `top` from 900 px;
+Browse opens the sheet at 375 and 768 with and without script (pill first, eleven 44 px rows, "◐ Theme" last with
+script, absent without); Esc closes it with the focus on Browse; a tap on the backdrop and a second press of Browse
+close it; Tab from Browse moves into the sheet; crossing 900 px with the sheet open closes it; the accessible name of
+the button is "Browse"; the `navigation "Sections"` landmark stays in the accessibility tree with `display:
+contents`; the tools arrive without moving the search (its rect is the same with the chrome module blocked, at 900,
+1280 and 1440). The layout-shift entries left in the header are the web font replacing the fallback in the nav
+links, the same on the live site today. Home: the galaxy runs 93 to 852 and the line 852 to 900 at 1440 × 900, 93 to
+752 and 752 to 800 at 1280 × 800; each "Further down" link scrolls its heading to the top and leaves the galaxy at
+its level; the "This week" card scrolls the galaxy into view with the lens on "this week 45"; under 480 px the galaxy
+is the static strip as before. The eight values on the built home page equal section 2.4 (156; 1,225 and 1,055;
+26,296 and 5,163; 20,561 and 8,521; 1,878, 22, 38; 15 of 100; 42 and 40; 6 new · 35 PRs). `/objects/#instruments`
+shows the same eight cards, four per row at 1280. `features/index.html` is titled "Roadmap · BC Observatory"; the
+built `llms.txt` links "[Roadmap]"; the DoD grep finds nothing.
+
+### Deviations, each with its reason
+
+1. **Header order.** The markup is wordmark, form, Browse, `#menu` (pill, then nav), not wordmark, Browse, `#menu`
+   (nav, pill), form. Zero bytes. The phone's focus order then follows what it shows (wordmark, search, Browse; in
+   the sheet the pill, the sections, Theme), the sheet still follows its invoker, and the pill needs no `order: -1`.
+   From 900 px the tab order is wordmark, search, pill, nav, tools.
+2. **Height and `--hdr-h`.** Two tiers measure 92.5 px, so `--hdr-h` is 93px from 900 px and the home galaxy's
+   fallback `var(--hdr-h, 93px)` (spec: about 94).
+3. **Group rules.** From 900 px a group start has a 1 px left border with 12 px padding (the rule is the line's
+   height, not a centred 60% pseudo-element); in the sheet the start link and its row neighbour carry a top border
+   (a 12 px break at the column gap). Both to keep the shared CSS inside +2.5 KB.
+4. **Selectors.** The button is styled as `[popovertarget=menu]`, the menu as `[popover]#menu` (the spec's second
+   form): shorter, and never matching a content heading slugged `menu`.
+5. **Fixed tool widths from 900 px** (Theme 76 px, finder 56 px) so the space the search keeps for them (156 px with
+   the gap) is exact for "⌘K" and "Ctrl+K" alike.
+6. **No sheet transition** at all, so reduced motion has nothing to switch off.
+7. **Neighbourhood explorer h1** stays "Neighbourhood" plus the script's "of Table 18"; its title and crumb are the
+   map's "Neighbourhood explorer". The h1 names the object being explored.
+8. **Two lines outside the D90 block of `site.css`:** the header input's base width is `100%` (its form sizes it),
+   and `.list-page ul:not(.rows):not(.evidence)` gained `:not(.inst)` so the strip on `/objects/` is not indented.
+9. **Week card without computed changes (D81):** value "6 new" as specified, caption "videos and posts of the last 7
+   days; open them in the galaxy". Singulars also cover "1 PR" and "1 new page or report without docs".
+10. **`siteInstrumentCards(base)`** in `instruments.ts`: reads `config/versions.json` and `data/` next to `site/`,
+    once per build; both pages call it instead of repeating the read.
+11. **Search groups:** only the two labels the spec names changed in `search.ts`; the tab "Posts" already matched.
+12. **`objects/<type>/`** keeps its title ("table objects · BC Observatory") and h1 ("3798 table objects"), which the
+    spec does not list; only its crumb follows the map.
+13. **Build lock script:** `site-build.sh` line 16 assigns `status`, a read-only variable in zsh, so it exits 1 after
+    every successful build (the build itself completes and the lock is released). Not in the repository; worth a
+    rename to `rc` for the next sessions.
+
+### For the integrator
+
+- `content/*/llms.txt` (11 files) still say the old headings until the next nightly's derive stage rewrites them
+  (the renderers changed; no page rewrites, no LLM). The site serves the content files, so `/features/llms.txt` says
+  "# BC Observatory: features" until then.
+- Expected overlaps: `Page.astro`'s identity row and actions row (D89 adds "Ask your agent" to object pages: keep
+  both), the module script block untouched; `Galaxy.astro` one import line and the noscript line (D92);
+  the label lines (title, eyebrow, h1) and one import line of the changes, videos, posts, digests, sources and features
+  index pages (D91); `site.css` ends with the `/* D90 */` block.
+- Apply the three texts below.
+
+**`docs/DECISIONS.md`**, to append:
 
 - **D90 Wayfinding: one name per section, crumbs that follow the sections, a header that fits, instruments with
   numbers.** Items A1 to A4, D1, F5 and F6 of the 2026-10-12 UX review, under D88's byte rule. One map,
   `pipeline/lib/sections.ts`, names each section and instrument once, and the nav, crumbs, eyebrows, page titles, h1
-  nouns, home cards, About's counts and both kinds of `llms.txt` read it; the nav says AL objects, Localizations, Code
-  changes, Weekly digests (reverses D84's short labels). Crumbs follow the section tree; the galaxy system is a chip
-  in the identity row, linked into the galaxy, except where the system is the section (localization and source pages
-  link their section index again). Instrument pages sit under Galaxy / Instruments. Under 900 px the header is a 56
-  px bar (wordmark, search, Browse) whose sheet holds the sections in three groups, the week pill and Theme, through
-  the HTML popover API with no script; from 900 px it is two tiers on every page, about 94 px (was 120 to 151 px, and
-  215 on a phone). The theme and finder buttons are built by `chrome.ts`, the search label is an `aria-label`, the
-  pill has no `title`. Eight instruments with last night's numbers sit under the home galaxy and on `/objects/`; the
-  footer and the crumb point at the home strip. The home galaxy leaves 48 px for a "Further down" line (amends D70).
-  Video and post pages lead with their stage action; Open in Claude stays primary elsewhere. Object titles keep their
-  AL quotes. Measured on the same content: object pages 227 bytes lighter each, the site 6.26 MB. Rejected: a
-  script-built or `scripting`-gated menu (no nav when the module fails, a flash when it runs), a `details` or
-  checkbox toggle, a sticky phone bar, one row on laptops (1,520 px needed), dropdown groups, visible group labels,
-  short names everywhere, a strip docked in the galaxy, a 70svh cap, "Source on GitHub" as the object primary,
-  unquoted titles, an Instruments nav entry. Spec: `docs/specs/wayfinding.md`.
+  nouns, home cards, About's counts, the search groups and both kinds of `llms.txt` read it; the nav says AL objects,
+  Localizations, Code changes, Weekly digests (reverses D84's short labels). Crumbs follow the section tree
+  (`site/src/lib/crumbs.ts`); the galaxy system is a chip in the identity row, linked into the galaxy, except where
+  the system is the section (localization and source pages link their section index again). Instrument pages sit
+  under Galaxy / Instruments. Under 900 px the header is a 56 px bar (wordmark, search, Browse) whose sheet holds the
+  week pill, the sections in three groups and Theme, through the HTML popover API with no script; from 900 px it is
+  two tiers on every page, 92.5 px measured (was 120 to 151 px, 74 on the home page at 1440, and 215 on a phone). The
+  theme and finder buttons are built by `chrome.ts`, the search label is an `aria-label`, the pill has no `title`.
+  Eight instruments with last night's numbers (`site/src/lib/instruments.ts`) sit under the home galaxy and on
+  `/objects/`; the footer and the crumb point at the home strip. The home galaxy leaves 48 px for a "Further down" line
+  (amends D70). Video and post pages lead with their stage action; Open in Claude stays primary elsewhere. Object
+  titles keep their AL quotes. Measured on the same content: object pages 227 bytes lighter each (Table 18 154,505 to
+  154,278), tar 695.3 to 689.1 MB, shared CSS +2,552 bytes, chrome script +459, one 626-byte stylesheet added.
+  Rejected: a script-built or `scripting`-gated menu (no nav when the module fails, a flash when it runs), a
+  `details` or checkbox toggle, a sticky phone bar, one row on laptops (1,520 px needed), dropdown groups, visible
+  group labels, short names everywhere, a strip docked in the galaxy, a 70svh cap, "Source on GitHub" as the object
+  primary, unquoted titles, an Instruments nav entry. Spec: `docs/specs/wayfinding.md`.
 
-**`docs/PLAN.md`** section 5, before the `v0.2+` row:
+**`docs/PLAN.md`** section 5, the M28 row becomes:
 
 ```
-| **M28 wayfinding** | one name per section from one map (nav, crumbs, titles, h1s, home cards, About, search groups, llms.txt), crumbs that follow the sections with the galaxy system as an identity chip, a 56 px bar with a Browse sheet under 900 px and a two-tier header above, eight instruments with live numbers on the home page and /objects/, a "Further down" line under the home galaxy, stage-first actions on video and post pages; 227 bytes less per object page (`docs/specs/wayfinding.md`, D90, proposed) | 3 to 4 days in three phases | none: deterministic, no LLM |
+| **M28 wayfinding** | one name per section from one map (nav, crumbs, titles, h1s, home cards, About, search groups, llms.txt), crumbs that follow the sections with the galaxy system as an identity chip, a 56 px bar with a Browse sheet under 900 px and a two-tier header above, eight instruments with live numbers on the home page and /objects/, a "Further down" line under the home galaxy, stage-first actions on video and post pages; 227 bytes less per object page, tar 695.3 to 689.1 MB (`docs/specs/wayfinding.md`, D90, shipped 2026-10-12) | 3 to 4 days in three phases | none: deterministic, no LLM |
 ```
 
-**`docs/HANDOFF.md`**, under "Open specs, not yet implemented":
+**`docs/HANDOFF.md`**: remove the "Wayfinding, D90" entry under "Open specs, not yet implemented" and add under
+"Where things stand", in the "Shipped 2026-10-12" block:
 
-- **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). Status: proposed 2026-10-12, nothing implemented. A1, A2,
-  A3, A4 (home), D1, F5 and F6 of the 2026-10-12 UX review within D88's byte rule: one name map, crumbs without the
-  galaxy system (a chip instead), a 56 px phone bar with a Browse sheet and a two-tier header from 900 px, eight
-  instruments with numbers under the home galaxy. Three phases, each lighter on every object page (−94, −125, −8
-  bytes; −6.26 MB in all). Start with phase 1, task 1: `tests/unit/sections.test.ts` and `pipeline/lib/sections.ts`.
-  Until it lands readers see the 2026-10-12 header (215 px on a phone, two or three rows elsewhere) and the system
-  crumb; localization and source pages have no crumb to their section.
+- **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). One map of section names (`pipeline/lib/sections.ts`) read by
+  the nav, crumbs, index titles and h1s, home cards, About, search groups and every `llms.txt`; crumbs follow the
+  sections (`site/src/lib/crumbs.ts`) with the galaxy system as a chip in the identity row, so localization and source
+  pages link their section index again and instrument pages sit under Galaxy / Instruments. The header is a 57 px bar
+  with a Browse sheet (popover API, works without script) under 900 px and two tiers of 92.5 px from 900 px on every
+  page; Theme and the finder are built by `chrome.ts`. Eight instruments with last night's numbers under the home
+  galaxy and on `/objects/` (`site/src/lib/instruments.ts`), a "Further down" line ending the home page's first screen,
+  Watch here / Read it here leading on video and post pages. Measured on the 2026-10-12 content: object pages 227
+  bytes lighter, **tar 695.3 to 689.1 MB**, files 59,135 to 59,136. The section `llms.txt` headings change with the next
+  nightly's derive stage.
 
-**`AGENTS.md`**, **`CONTENT-NOTICE.md`**: no change. **`docs/RUNBOOK.md`**: no change.
+**`AGENTS.md`**, **`CONTENT-NOTICE.md`**, **`docs/RUNBOOK.md`**: no change.
