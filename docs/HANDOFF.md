@@ -10,12 +10,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Object pages read like a reference** (`docs/specs/object-page-reading.md`, D89, M27). Status: proposed
-  2026-10-12, nothing implemented. Items B1, B2, B3 (rest), B6, B8 of the UX review, under D88's byte rule: one new
-  module mounted from `Page.astro`'s existing script, no static markup, three build-time reductions (pill titles,
-  neighbourhood captions and paragraph, -3.34 MB). Start with phase 1, task 1 (`tests/unit/object-page-core.test.ts`
-  for `tocWanted`, `sectionCount`, `currentSection`). Until it lands, readers scroll 42,090 px on Table 18 with the
-  stat tiles as the only jumps, and the timeline's version counts lead nowhere.
 - **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). Status: proposed 2026-10-12, nothing implemented. A1, A2,
   A3, A4 (home), D1, F5 and F6 of the 2026-10-12 UX review within D88's byte rule: one name map, crumbs without the
   galaxy system (a chip instead), a 56 px phone bar with a Browse sheet and a two-tier header from 900 px, eight
@@ -43,7 +37,20 @@ questions in its section 12).
 
 ## Where things stand
 
-**Shipped 2026-10-12, live for agents once `bc-observatory@0.4.0` is on npm:**
+**Shipped 2026-10-12, live on the next Pages build:**
+- **Object pages read like a reference, D89** (`docs/specs/object-page-reading.md`, M27). Items B1, B2, B3, B6, B8 of
+  the UX review, all built in the browser by `site/src/scripts/object-page.ts` (pure helpers in `object-page-core.ts`,
+  tested) from the existing module script of `Page.astro`: an "On this page" list with counts, sticky in the side column
+  (a closed details on a phone) and a back-to-top button; filter, order and a compact one-line mode for member sections
+  of 12+ rows; "Changed in" chips tied to the timeline's changed majors and the version transition pages; neighbourhood
+  captions by name, a key line, legend-lit kinds and the explorer as the section's action; an "Ask your agent" button
+  with copy buttons and a prompt. A search hit's hash (D86) always lands on a visible, opened row. Three build-time
+  reductions (pill titles, captions, the closing paragraph): local build on the 2026-10-12 content **695.3 to 692.1 MB
+  tar**, object HTML -3.34 MB with no page larger, Page module 3.3 to 16.3 KB once. Table 18's Fields 23,138 to 7,833 px.
+  Later (spec section 8): the list on other page types, a per-procedure atlas call, filter state in the URL,
+  `hidden="until-found"`, the light-theme contrast of pressed pill buttons.
+
+**Shipped 2026-10-12, live for agents (`bc-observatory@0.4.0` published to npm 2026-10-12, run 38252289496):**
 - **MCP sections, D93** (`docs/specs/mcp-sections.md`, M31): `get_object`, `cat` and `localization` return a page whole
   when it fits 30,000 characters and a compact view otherwise (frontmatter with long lists cut, the section keys with
   row counts, the first 5 rows of each section): Codeunit 80 "Sales-Post" 177,746 to 9,504 characters, Table 36 14,800,

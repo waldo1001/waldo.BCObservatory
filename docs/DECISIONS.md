@@ -872,3 +872,24 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   tokens), section files on the site (bytes and files on the tar, D76, D88), a `get_section` tool (a tenth tool for
   what three parameters do), JSON output (agents read the markdown; the page is the contract). Spec:
   `docs/specs/mcp-sections.md` (section 12: what was built and where it differs).
+- **D89 Object pages read like a reference, built in the browser from the markup they already ship.** Items B1, B2,
+  B3 (the rest of it), B6 and B8 of the 2026-10-12 UX review, under D88's rule that no object page gains a byte. One
+  module (`site/src/scripts/object-page.ts`, pure helpers in `object-page-core.ts`, tested), mounted from the
+  existing module script of `Page.astro` on pages with a version timeline, CSS in `site.css` and
+  `Neighbourhood.astro`: (1) an "On this page" list of the main column's sections with what each lists, sticky at the
+  end of a flex side column (a grid item cannot stick past its grid area), a closed details under the actions on a
+  narrow screen, and a back-to-top button; (2) member sections of 12 rows or more get a filter, an order where it
+  means something and a compact one-line mode, on by default; (3) "Changed in" chips per member section, single-select
+  like the version pill (D72), linked to `code/versions/<from>__<to>/` and set from the timeline's changed majors,
+  while the member pill loses its `title` from the HTML and gets it back from the script; (4) the neighbourhood
+  captions its nodes by name, explains its marks in a CSS line, lights a kind from its legend entry and shows the
+  explorer link as the section's action, with a shorter closing paragraph; (5) an "Ask your agent" button opens the
+  closing paragraph's calls with copy buttons and a prompt; the paragraph stays (D75). A hash naming a member row
+  (D86) clears what hides it, opens it and scrolls to it, on load, on `hashchange` and on `popstate` (a finder hit on
+  the hash already in the URL fires no `hashchange`). Measured on the 2026-10-12 content: object HTML 3.34 MB smaller
+  (3,501,622 B, as the spec computed), no page larger, Page module +12.7 KB once (3,313 to 16,273 B), CSS +3.2 KB, tar
+  695.3 to 692.1 MB; Table 18 "Customer" 154.5 to 150.4 KB and its Fields 23,138 to 7,833 px tall, Codeunit 80's
+  Events published 46,041 to 14,973 px. Rejected: tabs over the members (one table and two lists in different places;
+  they hide members from find and anchors); a static section list (15 MB); a "Changed in" column; dropping "BC" from
+  the pill text; hover-expanded captions; seven dash patterns; a filled primary explorer button; a positioned popover;
+  a lazy chunk; a pre-paint class (1.1 MB); filter state in the URL (later). Spec: `docs/specs/object-page-reading.md`.
