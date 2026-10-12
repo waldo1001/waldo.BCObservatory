@@ -12,7 +12,7 @@ import { latestRun } from "../../lib/state";
 import { wrapTables } from "../../lib/links";
 import { MCP_COMMANDS, MCP_TOOLS, REPO, countRows, fillCounts, personas, splitHtml, type AboutCounts } from "../../lib/about";
 const base = import.meta.env.BASE_URL;
-const names = ["topics", "objects", "apps", "localizations", "features", "videos", "posts", "changes", "digests", "sources"] as const;
+const names = ["topics", "objects", "apps", "localizations", "features", "videos", "posts", "changes", "digests", "sources", "releases"] as const;
 const counts = Object.fromEntries(await Promise.all(names.map(async (c) => [c, (await getCollection(c)).length]))) as AboutCounts;
 const [entry] = await getCollection("about");
 if (!entry) throw new Error("site/src/about/about.md is missing");
@@ -26,7 +26,7 @@ const rows = countRows(counts, base);
 const run = latestRun();
 const n = (x: number) => x.toLocaleString("en");
 ---
-<List title="About · BC Observatory" description="Who made BC Observatory, why, how the nightly runs, who it is for, and how to connect an agent." section="about" crumb="About">
+<List title="About · BC Observatory" description="Who made BC Observatory, why, how the nightly runs, who it is for, and how to connect an agent." section="about">
   <p class="eyebrow">about</p>
   <h1>About BC Observatory</h1>
   <div class="prose about">

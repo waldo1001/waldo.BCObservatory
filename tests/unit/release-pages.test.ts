@@ -98,7 +98,7 @@ test("release index: llms.txt newest first, pages of versions the snapshot lacks
   assert.equal(renderReleaseIndex(contentDir, dataDir), 2);
   assert.equal(existsSync(join(contentDir, "releases/al-1.0.md")), false);
   const idx = readFileSync(join(contentDir, "releases/llms.txt"), "utf8");
-  assert.match(idx, /^# BC Observatory: releases\n/);
+  assert.match(idx, /^# BC Observatory: AL extension releases\n/);
   assert.match(idx, /\n2 versions, newest first\.\n\n- \[AL Language extension 30\.0\]\(al-30\.0\.md\): 2027 release wave 1 \(BC30\), preview 2026-10-01, not yet released, 1 entry\n- \[AL Language extension 18\.0\]\(al-18\.0\.md\): 2026 release wave 2 \(BC29\), preview 2026-03-06, released 2026-09-09, 4 entries\n/);
 });
 

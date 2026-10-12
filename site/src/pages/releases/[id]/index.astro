@@ -21,7 +21,7 @@ const stats = [
 ];
 ---
 <Page fm={fm} kind={`AL extension release · ${fm.version}${fm.prerelease ? " · pre-release" : ""}`} path={`releases/${entry.id}`} section="releases"
-  crumbs={[{ label: "Releases", href: `${base}releases/` }]} stats={stats}
+  stats={stats}
   context={source ? { label: "Visual Studio Marketplace changelog", href: source.url } : undefined}>
   <div class="prose" set:html={wrapTables(html)} />
 </Page>

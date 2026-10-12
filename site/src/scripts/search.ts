@@ -25,13 +25,15 @@ export const parse = (q: string, index: Index): ParsedQuery => parseQuery(q, { c
 // ---------------------------------------------------------------------------------------------- groups (D65 3.1, D86)
 
 export interface GroupDef { id: string; label: string; types: string[]; cap: number; one: string; many: string }
-/** The fixed order of the results page; an empty group is omitted. `one`/`many` word the status line. */
+/** The fixed order of the results page; an empty group is omitted. `one`/`many` word the status line. A group that stands
+ * for a section says its name (D90, pipeline/lib/sections.ts; literal here so the browser bundle does not import the map,
+ * tests/unit/sections.test.ts pins them). */
 export const GROUPS: GroupDef[] = [
   { id: "start", label: "Start here", types: ["topic", "app"], cap: 5, one: "to start with", many: "to start with" },
   { id: "learn", label: "Learn articles", types: ["learn"], cap: 5, one: "Learn article", many: "Learn articles" },
   { id: "roadmap", label: "Roadmap", types: ["feature"], cap: 10, one: "roadmap", many: "roadmap" },
   { id: "video", label: "Videos", types: ["video"], cap: 10, one: "video", many: "videos" },
-  { id: "post", label: "Community posts", types: ["post"], cap: 10, one: "post", many: "posts" },
+  { id: "post", label: "Posts", types: ["post"], cap: 10, one: "post", many: "posts" },
   { id: "object", label: "AL objects", types: ["object"], cap: 10, one: "AL object", many: "AL objects" },
   { id: "field", label: "Fields", types: [], cap: 10, one: "field", many: "fields" },
   { id: "event", label: "Events", types: [], cap: 10, one: "event", many: "events" },
@@ -40,7 +42,7 @@ export const GROUPS: GroupDef[] = [
   { id: "change", label: "Code changes", types: ["change"], cap: 10, one: "code change", many: "code changes" },
   { id: "localization", label: "Localizations", types: ["localization"], cap: 10, one: "localization", many: "localizations" },
   { id: "source", label: "Sources", types: ["source"], cap: 10, one: "source", many: "sources" },
-  { id: "digest", label: "Digests", types: ["digest"], cap: 10, one: "digest", many: "digests" },
+  { id: "digest", label: "Weekly digests", types: ["digest"], cap: 10, one: "digest", many: "digests" },
   { id: "other", label: "Other pages", types: [], cap: 10, one: "other page", many: "other pages" },
 ];
 const GROUP_OF_TYPE = new Map(GROUPS.flatMap((g) => g.types.map((t) => [t, g.id] as const)));

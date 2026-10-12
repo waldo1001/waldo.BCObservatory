@@ -3,6 +3,7 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../../../layouts/List.astro";
+import { instrument } from "../../../../../../pipeline/lib/sections";
 import { area, objectsIndex, titleOf } from "../../../../lib/objects";
 interface Member { id?: number | string; name: string; change: string }
 interface ObjDiff { key: string; name: string; change: string; fields?: Member[]; procedures?: Member[]; events?: Member[]; keys?: Member[]; properties?: unknown[] }
@@ -34,8 +35,8 @@ const link = (o: ObjDiff) => (info(o.key) ? `${base}objects/${o.key}/` : null);
 const sum = (d: Diff, k: string) => Object.values((d.summary.by_change?.[k] ?? {}) as Record<string, number>).reduce((a, b) => a + b, 0);
 const slug = (s: string) => s.replace(/\W+/g, "-");
 ---
-<List section="objects" title={`BC${d.from.version} to BC${d.to.version} · BC Observatory`} description={`What changed in the Business Central W1 code between BC${d.from.version} and BC${d.to.version}, by area and object.`} crumb={`BC${d.from.version} to BC${d.to.version}`}>
-  <p class="eyebrow">AL objects · versions</p>
+<List section="instruments" parents={[{ label: instrument("versions").name, href: `${base}${instrument("versions").path}` }]} title={`BC${d.from.version} to BC${d.to.version} · BC Observatory`} description={`What changed in the Business Central W1 code between BC${d.from.version} and BC${d.to.version}, by area and object.`} crumb={`BC${d.from.version} to BC${d.to.version}`}>
+  <p class="eyebrow">Instruments</p>
   <h1>BC{d.from.version} to BC{d.to.version}</h1>
   <p class="lede">Every W1 object added, removed or changed between the two majors, grouped by area (the first namespace segment), with the fields, events, procedures and keys that differ inside a changed object. Agents: <a href={`${base}code/diffs/version/${file}`}>{file}</a>. Back to the <a href={`${base}code/versions/`}>version lens</a>.</p>
   <section class="vl">

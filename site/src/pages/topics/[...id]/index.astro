@@ -15,7 +15,7 @@ const fm = entry.data;
 const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `topics/${entry.id}`));
 const learn = (fm.evidence ?? []).filter((e: any) => e.kind === "learn");
 const L = fm.links ?? {};
-const crumbs = [{ label: "Topics", href: `${base}topics/` }, ...(fm.parent && parentTitle ? [{ label: parentTitle, href: `${base}topics/${String(fm.parent).replace(/^topic\//, "")}/` }] : [])];
+const crumbs = fm.parent && parentTitle ? [{ label: parentTitle, href: `${base}topics/${String(fm.parent).replace(/^topic\//, "")}/` }] : [];
 const stats = [
   { n: fm.coverage?.learn ?? learn.length, label: "Learn pages", href: "#evidence" },
   ...(fm.children?.length ? [{ n: fm.children.length, label: "subtopics", href: "#subtopics" }] : []),

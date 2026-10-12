@@ -24,6 +24,18 @@ export function mountChrome(): void {
       if (e.key === "Escape") { e.stopPropagation(); d.open = false; d.querySelector<HTMLElement>("summary")?.focus(); }
     });
   }
+  // D90: the Theme and finder buttons do nothing without script, so they are built here (not shipped on 28,899 pages),
+  // into the header's #menu: the Browse sheet under 900 px, the first tier of the header from 900 px. The lines below
+  // label and wire them; palette.ts, mounted after this, finds the finder by [data-palette]
+  const menu = document.querySelector<HTMLElement>(".site-header #menu");
+  if (menu) {
+    const tools = document.createElement("span");
+    tools.className = "hdr-tools";
+    tools.innerHTML = '<button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme">◐</button><button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)">⌘K</button>';
+    menu.append(tools);
+    // the sheet belongs to the bar: crossing 900 px closes it
+    matchMedia("(min-width: 900px)").addEventListener("change", () => menu.hidePopover?.());
+  }
   // D88 (A6): the finder button says Ctrl+K where there is no ⌘ key; the shortcut itself takes both (palette.ts)
   if (!/Mac|iPhone|iPad/.test(navigator.platform)) for (const b of document.querySelectorAll<HTMLElement>("[data-palette]")) b.textContent = "Ctrl+K";
   for (const b of document.querySelectorAll("[data-theme-toggle]")) b.addEventListener("click", () => {

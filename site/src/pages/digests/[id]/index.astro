@@ -14,7 +14,7 @@ const fm = entry.data;
 const optedOut = new Set((await getCollection("videos")).filter((v) => v.data.embed === false).map((v) => v.id));
 const html = posterRows(trimBody(siteLinks(entry.rendered?.html ?? "", base, `digests/${entry.id}`)).replace(`href="../../rss.xml"`, `href="${base}rss.xml"`), base, optedOut);
 ---
-<Page fm={fm} kind="weekly digest" path={`digests/${entry.id}`} section="digests" crumbs={[{ label: "Weekly", href: `${base}digests/` }]}
+<Page fm={fm} kind="weekly digest" path={`digests/${entry.id}`} section="digests"
   context={{ label: "Deprecation radar", href: `${base}code/deprecations/` }}>
   <div class="prose" set:html={wrapTables(html)} />
 </Page>

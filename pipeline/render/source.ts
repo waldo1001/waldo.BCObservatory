@@ -18,6 +18,7 @@ import { objectSystem } from "../link/graph.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf } from "../lib/review.js";
 import { STATUS_LABEL } from "./feature.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const stable = (p: string) => p.replace(/^(generated:\n {2}at: ).*$/m, "$1");
@@ -115,7 +116,7 @@ export function renderSourcesAndCoverage(contentDir: string, dataDir: string, no
   for (const f of listFiles(resolve(contentDir, "sources"), ".md")) if (!wanted.has(f)) removeIfExists(f);
   const idx = resolve(contentDir, "sources", "llms.txt");
   const rows = [...wanted].map((f) => matter(readText(f)).data).sort((a: any, b: any) => b.item_count - a.item_count);
-  const text = ["# BC Observatory: sources", "", "> Blogs, channels and code repositories in the knowledge base and what they cover (footprint, flight path). Frontmatter: schemas/frontmatter.source.json.", "",
+  const text = [llmsTitle("sources"), "", "> Blogs, channels and code repositories in the knowledge base and what they cover (footprint, flight path). Frontmatter: schemas/frontmatter.source.json.", "",
     ...rows.map((d: any) => `- [${cell(d.title)}](${d.source_id}.md): ${d.item_count} items, ${d.tier}`), ""].join("\n");
   if (rows.length) { if (!exists(idx) || readText(idx) !== text) writeText(idx, text); } else removeIfExists(idx);
 

@@ -35,6 +35,7 @@ import { PIPELINE_VERSION } from "../version.js";
 import { changesByObjectPath, type ChangeRef } from "./change.js";
 import { loadLocalizationNarrative, PROMPT_VERSION as LOC_V, STAGE as LOC_STAGE, type LocalizationNarrative } from "../summarize/localization.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const TYPE_LABEL: Record<string, string> = {
   table: "Table", tableextension: "Table extension", page: "Page", pageextension: "Page extension", codeunit: "Codeunit", report: "Report",
@@ -676,7 +677,7 @@ function renderCodeIndexes(contentDir: string, w: ObjectWorld, pageKeys: Map<str
   const byType = new Map<string, { pk: string; o: AlObject }[]>();
   for (const [k, pk] of pageKeys) { const o = w.preferred.get(k)!.obj; byType.set(o.type, [...(byType.get(o.type) ?? []), { pk, o }]); }
   const types = [...byType.keys()].sort();
-  const top = ["# BC Observatory: AL objects", "",
+  const top = [llmsTitle("objects"), "",
     "> Every W1 and first-party app object of Business Central (BC" + w.majors.join(", BC") + "), extracted from the code: fields, keys, procedures, events,",
     "> subscriptions, obsolete state, versions, countries that replace it, Learn pages naming it. Frontmatter: schemas/frontmatter.object.json.",
     "> Related objects (both documented in one hub) and the object's first-party app page (content/apps/): data/links/related.json.", "",
@@ -688,7 +689,7 @@ function renderCodeIndexes(contentDir: string, w: ObjectWorld, pageKeys: Map<str
       ...rows.map(({ pk, o }) => `- [${cell(titleOf(o))}](${pk.slice(t.length + 1)}.md): ${o.app ?? ""}${o.obsolete && o.obsolete.state !== "No" ? `, obsolete ${o.obsolete.tag ?? ""}` : ""}`), ""].join("\n");
     writeIfChangedText(resolve(contentDir, "objects", t, "llms.txt"), text);
   }
-  const loc = ["# BC Observatory: localizations", "", "> What each country layer of the Base Application adds to or changes in W1, from the code. Frontmatter: schemas/frontmatter.localization.json.", "",
+  const loc = [llmsTitle("localizations"), "", "> What each country layer of the Base Application adds to or changes in W1, from the code. Frontmatter: schemas/frontmatter.localization.json.", "",
     ...[...byCountry.keys()].sort().map((cc) => `- [${countryNames()[cc.toUpperCase()] ?? cc.toUpperCase()} (${cc.toUpperCase()})](${cc}.md)`), ""];
   if (byCountry.size) writeIfChangedText(resolve(contentDir, "localizations", "llms.txt"), loc.join("\n"));
 }

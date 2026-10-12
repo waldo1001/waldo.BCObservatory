@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("localizations")).sort((a, b) => a.data.title.localeCompare(b.data.title));
 // the country x area heatmap (D49): data/code/diffs/country/matrix.json
@@ -15,13 +16,13 @@ const areas = matrix ? [...matrix.areas].sort((x, y) => total(y) - total(x) || x
 const max = Math.max(1, ...areas.flatMap((a) => ccs.map((cc) => { const c = matrix!.countries[cc].cells[a]; return c ? c.replaced + c.added : 0; })));
 const cell = (cc: string, a: string) => matrix!.countries[cc].cells[a];
 ---
-<List section="localizations" title="Localizations · BC Observatory" description="What each country layer of Business Central adds to or changes in W1.">
-  <p class="eyebrow">Localizations</p>
-  <h1>{all.length} country layers</h1>
+<List section="localizations" title={`${section("localizations").name} · BC Observatory`} description="What each country layer of Business Central adds to or changes in W1.">
+  <p class="eyebrow">{section("localizations").name}</p>
+  <h1>{countLabel("localizations", all.length)}</h1>
   <p class="lede">From the code: objects of their own, W1 objects they change, fields and events they add. Agents: <a href={`${base}localizations/llms.txt`}>llms.txt</a>.</p>
   {matrix && areas.length > 0 && (
     <section aria-labelledby="heat">
-      <h2 class="section-title" id="heat">Where each country touches the code <small>W1 objects replaced + own objects, per area</small></h2>
+      <h2 class="section-title" id="heat">Country heatmap <small>W1 objects replaced + own objects, per area</small></h2>
       <div class="table-scroll"><table class="heat">
         <thead><tr><th>Area</th>{ccs.map((cc) => <th><a href={`${base}localizations/${cc}/`}>{cc.toUpperCase()}</a></th>)}</tr></thead>
         <tbody>{areas.map((a) => <tr><th scope="row">{a}</th>{ccs.map((cc) => { const c = cell(cc, a); const v = c ? c.replaced + c.added : 0; return <td style={`--h: ${(v / max).toFixed(2)}`}>{v ? <a href={`${base}localizations/${cc}/?ns=${encodeURIComponent(a)}#country-diff`} title={`${cc.toUpperCase()} ${a}: ${c!.replaced} W1 objects changed, ${c!.added} own, ${c!.fields_added} fields added`}>{v}</a> : ""}</td>; })}</tr>)}</tbody>

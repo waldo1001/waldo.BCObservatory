@@ -50,7 +50,7 @@ const learn = ((fm.links?.learn ?? []) as string[]).map((url) => ({ url: String(
 const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
 ---
 <Page fm={fm} kind={String(fm.object_type)} path={`objects/${entry.id}`} section="objects"
-  crumbs={[{ label: "AL objects", href: `${base}objects/` }, { label: `${fm.object_type}s`, href: `${base}objects/${fm.object_type}/` }]}
+  crumbs={[{ label: `${fm.object_type}s`, href: `${base}objects/${fm.object_type}/` }]}
   ns={[fm.country ? `${fm.country} country layer` : fm.app, fm.namespace].filter(Boolean).join(" · ")} summary={null} stats={stats}
   context={src ? { label: "Source on GitHub", href: src.url } : undefined} connections={false}>
   <VersionTimeline presentIn={fm.present_in ?? []} changedIn={fm.changed_in ?? []} history={history} obsolete={fm.obsolete} />

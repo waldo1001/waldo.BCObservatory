@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import { systemLabel } from "../../lib/page";
 import { sourceIcon } from "../../lib/preview";
 import { countLine, lastStop } from "../../lib/source-cards";
@@ -19,9 +20,9 @@ for (const e of await getCollection("videos")) add(e.data.channel, e.data.publis
 for (const e of await getCollection("changes")) add(e.data.source_id, e.data.merged_at, `${base}changes/${e.id}/`, e.data.title);
 for (const e of await getCollection("releases")) add(e.data.source_id, e.data.published_at, `${base}releases/${e.id}/`, e.data.title);
 ---
-<List section="sources" title="Sources · BC Observatory" description="Blogs and channels in the knowledge base and what they cover.">
-  <p class="eyebrow">Sources</p>
-  <h1>{all.length} sources</h1>
+<List section="sources" title={`${section("sources").name} · BC Observatory`} description="Blogs and channels in the knowledge base and what they cover.">
+  <p class="eyebrow">{section("sources").name}</p>
+  <h1>{countLabel("sources", all.length)}</h1>
   <p class="lede">Each blog and channel with its footprint: the systems, topics and AL objects it covers, and its flight path through time. Agents: <a href={`${base}sources/llms.txt`}>llms.txt</a>.</p>
   <ol class="list-cards source-cards">{all.map((e) => {
     const icon = sourceIcon(e.data.source_id), stop = lastStop(stops.get(String(e.data.source_id)) ?? []);

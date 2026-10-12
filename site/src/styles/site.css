@@ -30,11 +30,12 @@ img { max-width: 100%; }
 .site-search { display: flex; gap: 8px; align-items: center; }
 .site-search input {
   background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card);
-  font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: min(240px, 60vw);
+  font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: 100%; /* D90: the form sizes it */
 }
-/* D70: wider than the page so wordmark, nav, the week's pill and search fit one row on a laptop; .ask is the galaxy's questions menu */
+/* D70, D90: wider than the page, so the first tier (wordmark, pill, search, tools) and the nav's one line have room; the bar
+   under 900 px and the two tiers from 900 px are in the D90 block. .ask is the galaxy's questions menu */
 .site-header .wrap { max-width: max(var(--page-max), 1440px); gap: 8px 20px; }
-.site-nav { gap: 4px 12px; } /* D84: eleven entries on one row at 1440 */
+.site-nav { gap: 4px 12px; } /* D84, D90: eleven entries, one line from 900 px */
 .ask { position: relative; font-size: 14px; }
 .ask summary { list-style: none; cursor: pointer; color: var(--text-2); min-height: 40px; display: flex; align-items: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line); border-radius: var(--r-card); white-space: nowrap; }
 .ask summary::-webkit-details-marker { display: none; }
@@ -61,8 +62,8 @@ img { max-width: 100%; }
   min-width: 40px; min-height: 40px; cursor: pointer; font: 400 14px var(--font-mono);
 }
 .icon-btn:hover { color: var(--text); border-color: var(--line-strong); }
-/* D88 (A6): the theme button says what it does where there is room; the text lives here, not on 28,850 pages */
-@media (min-width: 900px) { .theme-btn { padding: 0 10px; } .theme-btn::after { content: " Theme"; font: 400 13px var(--font-ui); } }
+/* D88 (A6), D90: the theme button says what it does; the word lives here, not on every page. It shows from 900 px and in the Browse sheet */
+.theme-btn { padding: 0 10px; } .theme-btn::after { content: " Theme"; font: 400 13px var(--font-ui); }
 
 /* footer */
 .site-footer { border-top: 1px solid var(--line); margin-top: 64px; padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
@@ -324,7 +325,7 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
 .list-page .eyebrow { font: 500 12px var(--font-mono); color: var(--muted); text-transform: lowercase; margin: 0 0 8px; }
 .list-page .lede { font-size: 19px; line-height: 1.5; max-width: 62ch; color: var(--text-2); }
 .list-page h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 12px; }
-.list-page ul:not(.rows):not(.evidence) { padding-left: 20px; }
+.list-page ul:not(.rows):not(.evidence):not(.inst) { padding-left: 20px; }
 .list-page ul.list { list-style: none; padding: 0; }
 .list-page ul.list li { padding: 12px 0; border-bottom: 1px solid var(--line); }
 
@@ -340,3 +341,61 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
 .pal-list li.on a, .pal-list a:hover { background: var(--surface-raised); }
 .pal-title { font-weight: 600; }
 .pal-sub { color: var(--muted); font-size: 13px; }
+
+/* D90 */
+/* the galaxy system is a chip in the identity row, not a crumb: the type label and the chip's dot take its colour */
+.identity .type-label { color: var(--sys); }
+.identity > a { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); text-decoration: none; }
+.identity > a::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--sys, var(--muted)); }
+.identity > a:hover { color: var(--text); text-decoration: underline; }
+/* the header: under 900 px a 56 px bar (wordmark, search, Browse); Browse opens #menu (week pill, sections, Theme) as a
+   bottom sheet through the popover API, no script. From 900 px #menu is display: contents and the header is two tiers on
+   every page: wordmark, pill, search, tools; then the nav in three groups (nav index 5 and 10, sections.ts). Menu rules
+   are scoped to [popover]#menu, so a content heading slugged "menu" is never styled by them */
+:root { --hdr-h: 57px; }
+[popovertarget=menu] { display: inline-flex; align-items: center; gap: 6px; flex: none; min-height: 40px; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: var(--r-card); background: none; color: var(--text); font: 600 14px var(--font-ui); cursor: pointer; }
+[popovertarget=menu]::after { content: "▾" / ""; font-size: 11px; color: var(--muted); } /* empty alt: the name stays "Browse" */
+.hdr-tools { display: flex; gap: 8px; }
+@media (max-width: 899.98px) {
+  .site-header .wrap { flex-wrap: nowrap; gap: 8px; padding: 8px 16px; }
+  .wordmark { white-space: nowrap; }
+  .wordmark .sub { display: none; }
+  .site-search { flex: 1 1 auto; min-width: 0; }
+  .site-search input { font-size: 16px; }
+  .site-header .wrap:has(.site-search:focus-within) .wordmark { display: none; }
+  [popover]#menu:popover-open {
+    position: fixed; inset: auto 0 0; margin: 0; width: 100%; max-height: 85dvh; display: flex; flex-direction: column; align-items: flex-start; gap: 12px;
+    padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); background: var(--surface); color: var(--text);
+    border: 0; border-top: 1px solid var(--line-strong); border-radius: var(--r-panel) var(--r-panel) 0 0;
+  }
+  [popover]#menu::backdrop { background: rgba(5, 7, 11, .7); }
+  [popover]#menu .site-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; width: 100%; font-size: 16px; }
+  [popover]#menu .site-nav a { display: flex; align-items: center; min-height: 44px; }
+  /* a group starts a row, under a rule across both columns */
+  [popover]#menu .site-nav a:is(:nth-child(5), :nth-child(10)) { grid-column-start: 1; }
+  [popover]#menu .site-nav :is(a:nth-child(5), a:nth-child(10), a:nth-child(5) + a, a:nth-child(10) + a) { border-top: 1px solid var(--line); }
+  [popover]#menu .pal-btn { display: none; }
+}
+@media (min-width: 900px) {
+  :root { --hdr-h: 93px; }
+  [popovertarget=menu] { display: none; }
+  [popover]#menu { display: contents; }
+  .site-header .wrap { padding: 10px 24px; gap: 6px 16px; }
+  .new-pill { order: 1; }
+  .site-search { order: 2; margin-left: auto; flex: 1 1 160px; max-width: 280px; }
+  .hdr-tools { order: 3; }
+  .theme-btn { width: 76px; }
+  .pal-btn { width: 56px; }
+  .site-nav { order: 9; flex: 1 0 100%; }
+  /* a group starts after a wider gap with a thin rule in it */
+  .site-nav a:is(:nth-child(5), :nth-child(10)) { margin-left: 1px; padding-left: 12px; border-left: 1px solid var(--line); }
+}
+/* until chrome.ts adds the tools, the search keeps their place (76 + 8 + 56 and the 16 px gap), so nothing moves */
+@media (min-width: 900px) and (scripting: enabled) { .site-header .wrap:not(:has(.hdr-tools)) .site-search { margin-right: 156px; } }
+/* no popover API (before Chrome 114, Safari 17, Firefox 125): no Browse, the nav shows in the header as a wrapping row */
+@supports not selector(:popover-open) {
+  [popovertarget=menu] { display: none; }
+  .site-header .wrap { flex-wrap: wrap; }
+  [popover]#menu { display: contents; }
+  .site-nav { order: 9; flex: 1 0 100%; }
+}

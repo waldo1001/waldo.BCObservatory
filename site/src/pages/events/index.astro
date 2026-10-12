@@ -1,10 +1,11 @@
 ---
 import List from "../../layouts/List.astro";
+import { instrument } from "../../../../pipeline/lib/sections";
 const base = import.meta.env.BASE_URL;
 ---
-<List section="objects" title="Event explorer · BC Observatory" description="Every published event of Business Central with the first-party code that subscribes to it." crumb="Events">
-  <p class="eyebrow">AL objects · events</p>
-  <h1>Event explorer</h1>
+<List section="instruments" title={`${instrument("events").name} · BC Observatory`} description="Every published event of Business Central with the first-party code that subscribes to it." crumb={instrument("events").name}>
+  <p class="eyebrow">Instruments</p>
+  <h1>{instrument("events").name}</h1>
   <p class="lede">Every integration, business and internal event the W1 code and Microsoft's first-party apps publish, with the subscribers found in that same code; table and page trigger events appear where something subscribes to them. Most events have no first-party subscriber: they exist for partners. Agents: <a href={`${base}index/events.json`}>events.json</a>.</p>
   <section class="ev" data-base={base} aria-label="Event explorer">
     <form class="ev-bar" onsubmit="return false">

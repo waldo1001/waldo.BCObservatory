@@ -21,6 +21,7 @@ import { PROMPT_VERSION as HUB_V, STAGE as HUB_STAGE } from "../summarize/hub.js
 import type { ReviewedNarrative } from "../review/hub.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const MAX_EVIDENCE = 40;
 export const topicRel = (id: string) => `${id.replace(/^topic\//, "")}.md`;
@@ -227,7 +228,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
     pruneEmpty(dir);
   }
   const index = [
-    "# BC Observatory: topics", "",
+    llmsTitle("topics"), "",
     "> Topic hubs seeded from the Microsoft Learn TOCs: each hub lists what Learn documents in that section, with links out to Learn.",
     "> Hub narratives (from member summaries) and cross-links to videos and blogs are being added. `links.objects` names the AL",
     "> object pages (content/objects/) whose pages and reports the hub's Learn pages name, by exact id (data/index/docs-objects.json).",

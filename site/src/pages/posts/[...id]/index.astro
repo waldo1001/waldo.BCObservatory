@@ -18,7 +18,7 @@ const framable = fm.preview?.embeddable === true || !!fm.preview?.frame_url;
 const site = fm.preview?.site_name || fm.source_name;
 ---
 <Page fm={fm} kind="community post" path={`posts/${entry.id}`} section="posts"
-  crumbs={[{ label: "Posts", href: `${base}posts/` }, ...(fm.source_id ? [{ label: String(fm.source_name ?? fm.source_id), href: `${base}sources/${fm.source_id}/` }] : [])]}
+  crumbs={fm.source_id ? [{ label: String(fm.source_name ?? fm.source_id), href: `${base}sources/${fm.source_id}/` }] : []}
   context={original ? (framable ? { label: "Read it here", href: original, opens: "stage" } : { label: `Read the original${site ? ` on ${site}` : ""}`, href: original }) : undefined}>
   {original && <SourceStage kind="post" title={String(fm.title)} url={original} sourceName={String(fm.source_name ?? fm.source_id ?? "")}
     date={fm.published_at} author={fm.author} words={fm.words} preview={fm.preview} quote={fm.quotes?.[0]?.text} />}

@@ -23,7 +23,7 @@ const stats = [
 ];
 const src = (fm.evidence ?? []).find((e: any) => e.kind === "code");
 ---
-<Page fm={fm} kind="first-party app" path={`apps/${entry.id}`} section="apps" crumbs={[{ label: "Apps", href: `${base}apps/` }]}
+<Page fm={fm} kind="first-party app" path={`apps/${entry.id}`} section="apps"
   ns={fm.namespace_root ?? undefined} stats={stats} context={src ? { label: "Source on GitHub", href: src.url } : undefined}>
   <div class="prose" set:html={wrapTables(html)} />
   <EvidenceList evidence={fm.evidence ?? []} noun="sources" />

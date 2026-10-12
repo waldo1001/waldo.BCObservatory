@@ -2,13 +2,17 @@
 /** Section index pages: header, breadcrumb, then the page's own list markup in one column. */
 import Base from "./Base.astro";
 import Breadcrumb from "../components/Breadcrumb.astro";
-interface Props { title: string; description?: string; section?: string; crumb?: string }
-const { title, description, section, crumb } = Astro.props;
+import { trail, type Crumb } from "../lib/crumbs";
+import type { SectionId } from "../../../pipeline/lib/sections";
+// D90: the crumb follows the section tree, Galaxy / section / parents / crumb; a section index passes no crumb and is
+// the current page. `instruments` matches no nav entry, so instrument pages light none.
+interface Props { title: string; description?: string; section?: SectionId; parents?: Crumb[]; crumb?: string }
+const { title, description, section, parents, crumb } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 <Base title={title} description={description} section={section}>
   <main class="wrap page list-page">
-    <Breadcrumb crumbs={[{ label: "Galaxy", href: base }, { label: crumb ?? title.replace(/ · BC Observatory$/, "") }]} />
+    <Breadcrumb crumbs={trail(base, section ?? null, parents ?? [], crumb ?? null)} />
     <slot />
   </main>
 </Base>

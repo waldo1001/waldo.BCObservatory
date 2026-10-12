@@ -24,6 +24,7 @@ import { latestSnapshot, releasesDir, type ReleaseDiff } from "../ingest/marketp
 import { loadNarrative, PROMPT_VERSION as NARR_V, STAGE as NARR_STAGE, type WeekNarrative } from "../summarize/changes-week.js";
 import { reviewOf, type Review } from "../lib/review.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const day = (d: Date) => d.toISOString().slice(0, 10);
@@ -209,7 +210,7 @@ export function renderDigests(inp: DigestInput, now: Date, back = 1): string[] {
   }
   const idx = resolve(dir, "llms.txt");
   if (!files.length) { removeIfExists(idx); return written; }
-  const text = ["# BC Observatory: weekly digests", "", "> What changed in Business Central each ISO week: roadmap, videos, community posts, Learn commits, code snapshots,", "> deprecation radar. Frontmatter: schemas/frontmatter.digest.json. RSS: ../rss.xml.", "",
+  const text = [llmsTitle("digests"), "", "> What changed in Business Central each ISO week: roadmap, videos, community posts, Learn commits, code snapshots,", "> deprecation radar. Frontmatter: schemas/frontmatter.digest.json. RSS: ../rss.xml.", "",
     ...files.map((f) => `- [${f.replace(/\.md$/, "")}](${f})`), ""].join("\n");
   if (!exists(idx) || readText(idx) !== text) writeText(idx, text);
   return written;

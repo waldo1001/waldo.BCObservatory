@@ -8,6 +8,8 @@ import { getCollection } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import Badges from "../../components/Badges.astro";
 import Breadcrumb from "../../components/Breadcrumb.astro";
+import { trail } from "../../lib/crumbs";
+import { instrument } from "../../../../pipeline/lib/sections";
 import { systems } from "../../lib/page";
 import { relationMajors } from "../../lib/relations";
 import { TYPE_LABEL } from "../../scripts/explorer-core";
@@ -28,9 +30,9 @@ const types = ["table", "page", "codeunit", "report", "query", "xmlport", "enum"
 // an 860 px picture as drawn (rings 160 / 260 around 450, 420); the empty band above and below the rings is cut
 const W = 860, Y0 = 80, H = 650;
 ---
-<Base title="Neighbourhood explorer · BC Observatory" description="What touches one AL object: its code relations on two rings, its event subscribers, the Learn pages and videos naming it." section="objects">
+<Base title={`${instrument("neighbourhood").name} · BC Observatory`} description="What touches one AL object: its code relations on two rings, its event subscribers, the Learn pages and videos naming it." section="instruments">
   <main class="wrap page xp" data-base={base} data-majors={majors.join(" ")} data-common={common} data-exceptions={JSON.stringify(exceptions)} data-labels={JSON.stringify(labels)}>
-    <Breadcrumb crumbs={[{ label: "Galaxy", href: base }, { label: "AL objects", href: `${base}objects/` }, { label: "Neighbourhood" }]} />
+    <Breadcrumb crumbs={trail(base, "instruments", [], instrument("neighbourhood").name)} />
     <h1 class="long xp-h1">Neighbourhood <span class="xp-h1-of"></span></h1>
     <p class="xp-status meta" aria-live="polite"></p>
     <form class="xp-start" hidden>

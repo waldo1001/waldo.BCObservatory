@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import Facets from "../../components/Facets.astro";
 import { foldFacet, slug } from "../../scripts/facets-core";
 const base = import.meta.env.BASE_URL;
@@ -24,9 +25,9 @@ const facets = [
 ];
 const cell = (w: string, s?: string) => `?wave=${slug(w)}${s ? `&status=${s}` : ""}`;
 ---
-<List section="features" title="Features · BC Observatory" description="Business Central features from the Microsoft 365 roadmap.">
-  <p class="eyebrow">Features</p>
-  <h1>{all.length} features</h1>
+<List section="features" title={`${section("features").name} · BC Observatory`} description="Business Central features from the Microsoft 365 roadmap.">
+  <p class="eyebrow">{section("features").name}</p>
+  <h1>{countLabel("features", all.length)}</h1>
   <p class="lede">Business Central items on the Microsoft 365 roadmap, the successor of the release plans. Agents: <a href={`${base}features/llms.txt`}>llms.txt</a>.</p>
   <h2>Roadmap tracker</h2>
   <div class="table-scroll"><table>

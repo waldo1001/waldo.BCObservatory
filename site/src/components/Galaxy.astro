@@ -10,6 +10,7 @@
 import { getCollection } from "astro:content";
 import type { Question } from "../lib/questions";
 import { majors } from "../lib/versions";
+import { section } from "../../../pipeline/lib/sections";
 interface Props { height?: string; label?: string; questions?: Question[] }
 const { height = "min(80vh, 880px)", label = "Galaxy map of Business Central", questions = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
@@ -74,7 +75,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   <p class="g-level mono-meta" aria-live="polite"></p>
   <aside class="g-panel" id="g-panel" hidden aria-label="Galaxy panel"><div class="g-panel-body"></div></aside>
   <div class="g-fade" hidden></div>
-  <noscript><p class="g-noscript">The galaxy needs JavaScript. Browse by section instead: <a href={`${base}topics/`}>topics</a>, <a href={`${base}objects/`}>AL objects</a>, <a href={`${base}features/`}>roadmap</a>.</p></noscript>
+  <noscript><p class="g-noscript">The galaxy needs JavaScript. Browse by section instead: {["topics", "objects", "features"].map((id, i) => <>{i > 0 && ", "}<a href={`${base}${section(id).path}`}>{section(id).name}</a></>)}.</p></noscript>
 </section>
 <script>
   import { mountGalaxy } from "../scripts/galaxy";

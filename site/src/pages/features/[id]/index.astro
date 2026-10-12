@@ -20,7 +20,7 @@ const stats = [
   { n: L.learn?.length ?? 0, label: "Learn pages", href: "#covered-by" },
 ];
 ---
-<Page fm={fm} kind="roadmap feature" path={`features/${entry.id}`} section="features" crumbs={[{ label: "Roadmap", href: `${base}features/` }]} stats={stats}
+<Page fm={fm} kind="roadmap feature" path={`features/${entry.id}`} section="features" stats={stats}
   context={roadmap ? { label: "Microsoft 365 roadmap", href: roadmap.url } : undefined}>
   <div class="prose" set:html={wrapTables(html)} />
   <!-- every source behind the feature as a chip (D64): the roadmap entry, each video at its second, each Learn page -->

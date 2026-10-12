@@ -24,6 +24,7 @@ import { mentionedObjects, objectByName } from "../link/mentions.js";
 import { frontmatterOf } from "../link/related.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const LINK_CAP = 200;
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -189,7 +190,7 @@ export function renderAppPages(dataDir: string, contentDir: string, now = new Da
   }
   run.apps = keep.size;
   for (const f of listFiles(dir, ".md")) if (!keep.has(relative(dir, f).replace(/\.md$/, ""))) { removeIfExists(f); run.removed++; }
-  const index = ["# BC Observatory: first-party apps", "",
+  const index = [llmsTitle("apps"), "",
     "> Microsoft's first-party apps in BCApps (src/Apps/W1), one page each: their objects by type, the Learn hubs that document them,",
     "> the videos and posts that name their objects, roadmap features with the app's name in the title. Frontmatter:",
     "> schemas/frontmatter.app.json. Related pages per app: data/links/related.json.", "",

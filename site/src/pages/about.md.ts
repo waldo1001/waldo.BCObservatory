@@ -7,7 +7,7 @@ import { latestRun } from "../lib/state";
 import { REPO, aboutMarkdown, personas, type AboutCounts } from "../lib/about";
 
 export const GET: APIRoute = async () => {
-  const names = ["topics", "objects", "apps", "localizations", "features", "videos", "posts", "changes", "digests", "sources"] as const;
+  const names = ["topics", "objects", "apps", "localizations", "features", "videos", "posts", "changes", "digests", "sources", "releases"] as const;
   const counts = Object.fromEntries(await Promise.all(names.map(async (c) => [c, (await getCollection(c)).length]))) as AboutCounts;
   const site = `${import.meta.env.SITE}${import.meta.env.BASE_URL}`;
   const md = readFileSync(resolve(process.cwd(), "src", "about", "about.md"), "utf8");

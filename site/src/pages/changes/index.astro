@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import MediaList from "../../components/MediaList.astro";
 const base = import.meta.env.BASE_URL;
 // the h1 counts the collection; the rows, pills and title list come from the media records (D91)
@@ -11,9 +12,9 @@ const all = await getCollection("changes");
 const p = resolve(process.cwd(), "..", "data", "graph", "landed.json");
 const week = ((existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : {}) as { changes?: unknown[] }).changes ?? [];
 ---
-<List section="changes" title="Code changes · BC Observatory" description="Merged pull requests of Microsoft's Business Central code, joined to the AL objects they changed.">
-  <p class="eyebrow">Code changes</p>
-  <h1>{all.length.toLocaleString("en")} changes</h1>
+<List section="changes" title={`${section("changes").name} · BC Observatory`} description="Merged pull requests of Microsoft's Business Central code, joined to the AL objects they changed.">
+  <p class="eyebrow">{section("changes").name}</p>
+  <h1>{countLabel("changes", all.length)}</h1>
   <p class="lede">Merged pull requests of Microsoft's Business Central repositories (<a href="https://github.com/microsoft/BCApps">BCApps</a>, <a href="https://github.com/microsoft/AL-Go">AL-Go</a>, <a href="https://github.com/microsoft/BCQuality">BCQuality</a>) that touch their source, described in our words; BCApps changes link to the AL object pages they changed. Metadata only: no source text. Agents: <a href={`${base}changes/llms.txt`}>llms.txt</a>. What is still open: <a href={`${base}changes/upcoming/`}>upcoming</a>. The AL Language extension's own changelog: <a href={`${base}releases/`}>Releases</a>.</p>
   {week.length > 0 && <p class="meta"><a href={`${base}changes/week/`}>This week: {week.length} {week.length === 1 ? "change" : "changes"} →</a></p>}
   <MediaList type="change" noun="changes" />

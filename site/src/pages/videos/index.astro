@@ -1,14 +1,15 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import MediaList from "../../components/MediaList.astro";
 const base = import.meta.env.BASE_URL;
 // the h1 counts the collection; the rows, pills and title list come from the media records (D91)
 const videos = await getCollection("videos");
 ---
-<List section="videos" title="Videos · BC Observatory" description="Business Central videos as structured, timestamped evidence.">
-  <p class="eyebrow">Videos</p>
-  <h1>{videos.length} videos</h1>
+<List section="videos" title={`${section("videos").name} · BC Observatory`} description="Business Central videos as structured, timestamped evidence.">
+  <p class="eyebrow">{section("videos").name}</p>
+  <h1>{countLabel("videos", videos.length)}</h1>
   <p class="lede">Summaries, chapters, features with verified status quotes and timestamped links. Machine-generated pages carry a badge until Opus reviews them. Agents: <a href={`${base}videos/llms.txt`}>llms.txt</a>.</p>
   <MediaList type="video" noun="videos" />
 </List>

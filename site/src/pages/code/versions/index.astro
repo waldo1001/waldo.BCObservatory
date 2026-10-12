@@ -3,6 +3,7 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../../layouts/List.astro";
+import { instrument } from "../../../../../pipeline/lib/sections";
 import { area, objectsIndex } from "../../../lib/objects";
 interface ObjDiff { key: string; name: string; change: string }
 interface Diff { from: { version: string; commit: string }; to: { version: string; commit: string }; summary: Record<string, any>; objects: ObjDiff[] }
@@ -23,9 +24,9 @@ const areas = (d: Diff) => {
   return { top: all.slice(0, TOP), rest: all.length - TOP, max: all[0]?.[1] ?? 1 };
 };
 ---
-<List section="objects" title="Version lens · BC Observatory" description="What changed in the Business Central W1 code between majors, by area and object, down to fields, events and procedures." crumb="Version lens">
-  <p class="eyebrow">AL objects · versions</p>
-  <h1>Version lens</h1>
+<List section="instruments" title={`${instrument("versions").name} · BC Observatory`} description="What changed in the Business Central W1 code between majors, by area and object, down to fields, events and procedures." crumb={instrument("versions").name}>
+  <p class="eyebrow">Instruments</p>
+  <h1>{instrument("versions").name}</h1>
   <p class="lede">The W1 code of one major against the next, from the extracted metadata: objects added, removed and changed, and inside a changed object the fields, events, procedures and keys that differ. Pick a transition for the full list by area; the <a href={`${base}code/deprecations/`}>deprecation radar</a> is the other half of the story. Agents: the diff JSON per pair ({diffs.map((d, i) => <><a href={`${base}code/diffs/version/${pair(d)}.json`}>{pair(d)}.json</a>{i < diffs.length - 1 ? ", " : ""}</>)}).</p>
   {diffs.length === 0 && <p class="meta">No version diffs yet.</p>}
   {diffs.map((d) => {
