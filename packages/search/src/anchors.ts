@@ -4,8 +4,12 @@ import type { SymbolKind } from "./types.js";
 export const anchorOf = (kind: SymbolKind, key: string | number) => `#${kind}-${key}`;
 /** A symbol's record id: its owner's page path and the anchor, "objects/codeunit/80#event-OnAfterPostSalesDoc". */
 export const symbolId = (ownerPath: string, kind: SymbolKind, key: string | number) => `${ownerPath}${anchorOf(kind, key)}`;
-/** A record id as a site link under `base`: "objects/codeunit/80#event-X" -> "<base>objects/codeunit/80/#event-X". */
+/**
+ * A record id as a site link under `base`: "objects/codeunit/80#event-X" -> "<base>objects/codeunit/80/#event-X". A Learn
+ * article (D94) has no page here: its id is its URL on learn.microsoft.com, returned as it is.
+ */
 export function hrefOf(base: string, id: string): string {
+  if (/^https?:\/\//.test(id)) return id;
   const i = id.indexOf("#");
   return i < 0 ? `${base}${id}/` : `${base}${id.slice(0, i)}/${id.slice(i)}`;
 }

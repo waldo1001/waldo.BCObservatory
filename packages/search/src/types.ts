@@ -21,6 +21,8 @@ export interface PageRecord {
   path_label?: string; caption?: string; members?: number; narrative?: "reviewed" | "unreviewed" | "none"; stats?: string;
   /** D86: an object's name, namespace, the majors it is present in ("23-30"), inbound references and event subscribers. */
   name?: string; namespace?: string | null; present_in?: string; inbound?: number; subscribers?: number;
+  /** D94: a Learn article's hub, the topic page that lists it (its `path` is the article's URL on learn.microsoft.com). */
+  hub?: string;
 }
 
 export interface Term {
