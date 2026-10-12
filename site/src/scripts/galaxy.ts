@@ -52,7 +52,7 @@ export interface GalaxyApi {
 }
 type Rect = { x: number; y: number; w: number; h: number };
 
-import { dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold } from "./galaxy-labels.js";
+import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
 import { groupChanges, landedRingsOn, legendItems, mediaMeta, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, versionMenu, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { bounds, coreSample, corners, inQuad, lerp, mediaSpot, norm, OBSOLETE, PLANE_LABEL, PLANES, planeGeometry, planeRows, plotOf, project, restLines, STAR, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type Sample, type Thing } from "./layers-core.js";
@@ -398,19 +398,22 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     // the system in view: Learn tree guides and namespace plots (decorative: the panel and the list carry the facts)
     const scope = scopeSys();
+    const plotLabels: (Box & { text: string; a: number })[] = [];
     if (scope) {
       const k = level >= 2 ? 1 : smoothstep(0.8, 1, cam.s / sysScale(scope));
       ctx.strokeStyle = colors.tree; ctx.lineWidth = 1; ctx.globalAlpha = 0.7 * k;
       for (const [p, q] of scope.tree ?? []) { const a = byId.get(p), b = byId.get(q); if (a && b) line(toScreen(a.x, a.y), toScreen(b.x, b.y)); }
-      ctx.font = "400 10px var(--font-mono), ui-monospace, monospace"; ctx.textBaseline = "top";
+      // D92: plot labels are collected here and drawn after the captions are placed, only where they hide nothing
+      ctx.font = CANVAS_FONT.plot;
       for (const [path, x, y, w, h, count] of scope.plots ?? []) {
         const p = toScreen(x, y), sw = w * cam.s, sh = h * cam.s;
         if (sw < 3 || sh < 3 || p.x > W || p.y > H || p.x + sw < 0 || p.y + sh < 0) continue;
         ctx.globalAlpha = 0.9 * k; ctx.strokeStyle = colors.plot; ctx.beginPath(); ctx.roundRect(p.x, p.y, sw, sh, Math.min(4, sw / 4)); ctx.stroke();
         if (sw > 70 && sh > 16) {
-          const name = path.split(".").pop()!;
-          ctx.fillStyle = colors.plotLabel; ctx.globalAlpha = 0.85 * k;
-          ctx.fillText(`${name.length > 22 ? `${name.slice(0, 21)}…` : name} ${count}`, p.x + 4, p.y + 3, sw - 8);
+          const name = path.split(".").pop()!, text = `${name.length > 22 ? `${name.slice(0, 21)}…` : name} ${count}`;
+          let tw = plotWidth.get(text);
+          if (tw === undefined) { tw = ctx.measureText(text).width; plotWidth.set(text, tw); }
+          plotLabels.push({ text, x: p.x + 4, y: p.y + 3, w: Math.min(tw, sw - 8), h: 11, a: 0.85 * k });
         }
       }
     }
@@ -462,14 +465,26 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       }
     }
     if (!portSpots.length) placePorts();
-    // stars
+    // stars: a visibility pass first (D92: the captions are placed around the visible stars, then the plot labels where
+    // they hide nothing), then the stars are painted, then the caption plates on top
     const shown: { n: Node; p: { x: number; y: number }; d: number }[] = [];
+    const drawn: { n: Node; p: { x: number; y: number }; d: number; a: number; active: boolean }[] = [];
     const lensV = lens?.version;
     for (const n of g.nodes) {
       const p = toScreen(n.x, n.y), d = diameter(n);
       if (p.x < -d || p.y < -d || p.x > W + d || p.y > H + d) continue;
       const active = n === focusStar || n === hover || n === mark;
       const a = active ? 1 : alpha(n);
+      drawn.push({ n, p, d, a, active });
+      if (a > 0.25 || active) shown.push({ n, p, d });
+    }
+    const taken = placeSystemLabels();
+    const captions = placeStarLabels(shown, taken, t);
+    if (plotLabels.length) {
+      ctx.font = CANVAS_FONT.plot; ctx.textBaseline = "top"; ctx.fillStyle = colors.plotLabel;
+      for (const i of visibleLabels(plotLabels, taken)) { const l = plotLabels[i]; ctx.globalAlpha = l.a; ctx.fillText(l.text, l.x, l.y, l.w); }
+    }
+    for (const { n, p, d, a, active } of drawn) {
       const obsolete = !!lensV && !!n.ob?.includes(lensV);
       ctx.globalAlpha = a;
       ctx.fillStyle = active ? colors.starActive : colors[n.group] ?? colors.field;
@@ -487,7 +502,6 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         else if (!lensV) { ctx.strokeStyle = colors.accent; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 4, 0, Math.PI * 2); ctx.stroke(); }
       }
       if (n === mark) { ctx.strokeStyle = colors.accent; ctx.lineWidth = 2; ctx.globalAlpha = 1; ctx.beginPath(); ctx.arc(p.x, p.y, d / 2 + 8, 0, Math.PI * 2); ctx.stroke(); }
-      if (a > 0.25 || active) shown.push({ n, p, d });
     }
     // media bodies beside the hubs of the system in view: triangle video, bar post, accent when landed this week
     if (level >= 2 && focusSys) {
@@ -519,7 +533,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       }
     }
     ctx.globalAlpha = 1;
-    drawStarLabels(shown, placeSystemLabels(), t);
+    paintStarLabels(captions);
   }
 
   // tilt (A): the planes of the system in view, things sliding from their flat spot to their plane, lines between planes
@@ -606,7 +620,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const plots = focusSys!.plots ?? [];
       const totals = plots.map(() => [0, 0]);
       f.objects.forEach((o, i) => { const pi = objPlot[i]; if (pi >= 0) { totals[pi][0]++; if (o[3] > 0) totals[pi][1]++; } });
-      ctx.font = "400 10px var(--font-mono), ui-monospace, monospace"; ctx.textBaseline = "top";
+      ctx.font = CANVAS_FONT.plot; ctx.textBaseline = "top";
       plots.forEach(([path, x, y, w, h], i) => {
         const q = [onCode(x, y), onCode(x + w, y), onCode(x + w, y + h), onCode(x, y + h)];
         drawnTiles.push({ i, q });
@@ -662,7 +676,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const p = spotOf(hoverThing, planes);
       if (p) {
         const text = short(thingLabel(hoverThing), 48);
-        ctx.font = "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif"; ctx.textBaseline = "middle";
+        ctx.font = CANVAS_FONT.caption; ctx.textBaseline = "middle";
         const w = ctx.measureText(text).width + 10;
         ctx.globalAlpha = 0.9; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(p.x + 8, p.y - 10, w, 20, 3); ctx.fill();
         ctx.globalAlpha = 1; ctx.fillStyle = colors.text; ctx.fillText(text, p.x + 13, p.y);
@@ -787,13 +801,17 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   }
   // star labels on the canvas (D44): each star's caption has a zoom threshold from its weight rank in its system and
   // fades in over a zoom window, brightest first, placed only where there is room; the focused, hovered and marked
-  // stars always get theirs, lens matches next. A caption placed last frame keeps its slot (hysteresis).
+  // stars always get theirs, lens matches next. A caption placed last frame keeps its slot (hysteresis). D92: a caption
+  // takes the spot around its star (right, left, below, above) that covers the fewest other stars, and gives way when
+  // even that one covers more than CAPTION_MAX_COVER; last frame's spot wins a tie, so captions do not hop while zooming.
   let prevPlaced = new Set<string>();
   const placedAt = new Map<string, number>();
+  let prevSpot = new Map<string, CaptionSpot>();
   const textWidth = new Map<string, number>();
-  function drawStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[], now: number) {
-    ctx.font = "600 12px 'Bricolage Grotesque Variable', system-ui, sans-serif";
-    ctx.textBaseline = "middle";
+  const plotWidth = new Map<string, number>();
+  type Caption = { r: Box; text: string; alpha: number };
+  function placeStarLabels(shown: { n: Node; p: { x: number; y: number }; d: number }[], taken: Rect[], now: number): Caption[] {
+    ctx.font = CANVAS_FONT.caption;
     const forced = (n: Node) => n === focusStar || n === hover || n === mark;
     const near = level === 3 && focusStar ? new Set(adj.get(focusStar.id) ?? []) : null;
     const scope = scopeSys();
@@ -813,7 +831,9 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       .sort((a, b) => pri(b.n) - pri(a.n));
     const lensCap = lens ? 30 : Infinity, max = mobile() ? 0 : narrow() ? 30 : 60;
     const v = visibleRect();
-    const placed = new Set<string>();
+    // the stars a caption keeps off: the visible ones in view, at system and star level and zoomed into a system by hand
+    const avoid: Box[] = level >= 2 || eff ? shown.filter(({ p }) => p.x >= v.x0 && p.x <= v.x1 && p.y >= v.y0 && p.y <= v.y1).map(({ p, d }) => ({ x: p.x - d / 2, y: p.y - d / 2, w: d, h: d })) : [];
+    const placed = new Set<string>(), spots = new Map<string, CaptionSpot>(), out: Caption[] = [];
     labelsFading = false;
     let count = 0, lensCount = 0;
     for (const { n, p, d, a } of cands) {
@@ -823,9 +843,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const text = n.label.length > 40 ? `${n.label.slice(0, 38)}…` : n.label;
       let w = textWidth.get(n.id);
       if (w === undefined) { w = ctx.measureText(text).width + 10; textWidth.set(n.id, w); }
-      const r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
-      if (r.x + w > v.x1) r.x = p.x - d / 2 - 6 - w;
-      if (!isForced && (r.x < v.x0 || r.x + w > v.x1 || r.y < v.y0 || r.y + r.h > v.y1 || taken.some((o) => hit(r, o)))) continue;
+      const s = captionSpot({ x: p.x, y: p.y, d }, w, v, taken, avoid, isForced ? Infinity : CAPTION_MAX_COVER, prevSpot.get(n.id));
+      let r: Box;
+      if (s) { r = s.box; spots.set(n.id, s.spot); }
+      else if (isForced) {
+        // a forced caption with no valid spot: today's right spot, or the left one at the view's right edge
+        r = { x: p.x + d / 2 + 6, y: p.y - 10, w, h: 20 };
+        if (r.x + w > v.x1) r.x = p.x - d / 2 - 6 - w;
+      } else continue;
       taken.push(r); placed.add(n.id); count++;
       if (lens && lensSet.has(n.id)) lensCount++;
       // a caption that just found room fades in over 300 ms (not under reduced motion)
@@ -834,11 +859,19 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         const since = now - (placedAt.get(n.id) ?? (placedAt.set(n.id, now), now));
         if (since < 300) { alpha *= since / 300; labelsFading = true; }
       }
+      out.push({ r, text, alpha });
+    }
+    for (const id of placedAt.keys()) if (!placed.has(id)) placedAt.delete(id);
+    prevPlaced = placed; prevSpot = spots;
+    return out;
+  }
+  function paintStarLabels(captions: Caption[]) {
+    ctx.font = CANVAS_FONT.caption;
+    ctx.textBaseline = "middle";
+    for (const { r, text, alpha } of captions) {
       ctx.globalAlpha = 0.82 * alpha; ctx.fillStyle = colors.plate; ctx.beginPath(); ctx.roundRect(r.x, r.y, r.w, r.h, 3); ctx.fill();
       ctx.globalAlpha = alpha; ctx.fillStyle = colors.text; ctx.fillText(text, r.x + 5, r.y + 10);
     }
-    for (const id of placedAt.keys()) if (!placed.has(id)) placedAt.delete(id);
-    prevPlaced = placed;
     ctx.globalAlpha = 1;
   }
 
