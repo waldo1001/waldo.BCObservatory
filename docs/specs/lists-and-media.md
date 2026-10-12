@@ -1,7 +1,7 @@
 # Lists load in pages and filter; weeks and sources become cards; the post card makes room
 
-Status: proposed, 2026-10-12. Decision: D91 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M29
-(reserved). Owner: waldo.
+Status: built 2026-10-12 on `build/lists-and-media` (section 12), awaiting merge. Decision: D91 (reserved, appended to
+`docs/DECISIONS.md` at ship time). Milestone: M29 (reserved). Owner: waldo.
 Scope: six items of the 2026-10-12 UX review (`docs/research/2026-10-12-ux-review.md`): C1 (the changes, videos and posts
 indexes stop shipping every row), C2 (filters on those lists), C3 (week cards on `/digests/`), C4 (source cards on
 `/sources/`), C5 (the roadmap tracker filters `/features/`) and E1 (the post stage's card). Six index pages, one source
@@ -1092,39 +1092,165 @@ Changed:
 
 ## 11. Definition of Done
 
-- [ ] Every row of section 5 is a test and passes; `search-golden` and `mcp-golden` pass unchanged; `npm run typecheck`
+- [x] Every row of section 5 is a test and passes; `search-golden` and `mcp-golden` pass unchanged; `npm run typecheck`
       and `npm test` pass.
-- [ ] 7.2: no object, video or post page changes size; `data-astro-cid` 0 on the six index pages; JavaScript at most
+- [x] 7.2: no object, video or post page changes size; `data-astro-cid` 0 on the six index pages; JavaScript at most
       +12,000 bytes; tar about 0.96 MB under "before" (re-measured), files +0 to +4.
-- [ ] 7.3: 50 rows and total - 50 titles on each list; "no static link at all" is 0.
-- [ ] 7.4: steps 1 to 15 pass; step 16 recorded.
-- [ ] The three list pages fetch nothing for the list until the reader acts (7.4 steps 1 and 7).
+- [x] 7.3: 50 rows and total - 50 titles on each list; "no static link at all" is 0.
+- [x] 7.4: steps 1 to 15 pass; step 16 recorded.
+- [x] The three list pages fetch nothing for the list until the reader acts (7.4 steps 1 and 7).
 - [ ] The derive after phase 5 committed the media shard with the D91 fields; nothing else under `content/` or `data/`
       changed by hand.
 - [ ] D91 appended to `docs/DECISIONS.md` with the measured numbers; the M29 row in `docs/PLAN.md` set to shipped; the
       HANDOFF entry moved to "Where things stand"; section 12 renamed "Built, deviations" with the byte table as built.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-**`docs/DECISIONS.md`**: append the D91 text of section 3, numbers re-measured on the build, ending with
-"Spec: `docs/specs/lists-and-media.md`."
+Built 2026-10-12 on branch `build/lists-and-media` from `04b705c8fb`, in the phases of section 6, one or two commits
+each. Every number below was measured on a local build of that tree with the 2026-10-12 content and the media index
+regenerated locally by `renderSearchIndex` (phase 5's fields; not committed), against the read-only baseline build of
+`04b705c8fb` (tar 729,118,720 bytes, 59,135 files). Gates: `npm run typecheck` clean, `npm test` 510 of 511 passed (1
+skipped, as on main); the headless pass of 7.4 passed 74 of 74 checks (its 15 steps plus extra checks: `?major=29`, kind
+from all on, two years, two blogs, the Area fold, the load failure, focus after "Show more", page errors).
 
-**`docs/PLAN.md` section 5**, before `v0.2+`:
+### 12.1 What was built, per phase
 
-`| **M29 lists and media** | the changes, videos and posts indexes render their newest 50 rows and a title list and load the rest from the media shard on "Show more" or a filter; pills with counts that follow the other filters (repository, kind, breaking only, major; channel or blog and year; wave, status and area with linked tracker cells), a click from "all on" keeps one pill; week cards on /digests/, source cards on /sources/, a compact post card; about 0.96 MB off the Pages tar (`docs/specs/lists-and-media.md`, D91, proposed) | about 4 days in six phases | none: deterministic, no LLM |`
+- **Phase 1, E1.** The post card's image is a 200 px column beside the text from 601 px (`:has()`), hidden under 600 px.
+  Measured on `posts/aardvarklabs-blog/1609/`: at 1280 x 900 the stage is 202 px tall and "Key points" starts at 814 px
+  (1,080 before); at 375 x 812 `.stage-hero` is `display: none` and its image is not requested; a video page's stage
+  stays 16:9.
+- **Phase 2, C3.** `site/src/lib/digest-cards.ts` (`weekState`, `weekLine`, `radarLine`, tested); `/digests/` has the
+  lede and one card per week; the running week (build date on or before its last day) is dashed and says "in progress".
+- **Phase 3, C4.** `site/src/lib/source-cards.ts` (`sourceKind`, `countLine`, `lastStop`, tested); `/sources/` has one
+  card per source (icon, kind, tier, count, top three systems, newest item across posts, videos, changes and releases);
+  the source page's kind and stat tile use `sourceKind`: the AL Language extension's page says "changelog" and "63
+  releases" (+8 bytes on that page, no other source page changed).
+- **Phase 4, filter engine and C5.** `pickPill` and `pickDisabled` in `pills-core.ts`; `facets-core.ts` (pure, tested);
+  `facets.ts` (`bindFacets`, `mountTableFacets`, `writeSearch`); `site/src/components/Facets.astro` renders a filter
+  block. `/features/`: tracker cells link into Wave, Status and Area pills (Area folded), the table filters in place.
+- **Phase 5, media records.** `pageRecord` writes `branch`, `major`, `objects`, `breaking`, `community` on changes and
+  `review`, `embed: false` on videos; both `PageRecord` interfaces gain them. The writer run into a temporary directory:
+  media shard 1,496,206 to 1,554,439 bytes (+58,233; gzip -9 367,932 to 371,871), hubs and objects shards unchanged
+  (same hashes). `search-golden` and `mcp-golden` pass unchanged.
+- **Phase 6, C1 and C2.** `list-rows.ts` (rows, order, facets, facet values, bottom line), `badges.ts` (Badges.astro reads
+  its words from it, output unchanged), `media-rows.ts`, `mediaRecords` and `loadMediaRecords` in `index-loader.ts`,
+  `media-list.ts`, and `site/src/components/MediaList.astro`, which the three list pages render under their unchanged
+  eyebrow, `h1`, lede and this-week line. The D82 inline script, the `data-kinds` line, the row attributes, `kindsLine`
+  and its test and `.pills .pill-count` are gone.
 
-**`docs/HANDOFF.md`**, "Open specs, not yet implemented":
+### 12.2 Deviations
 
-- **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Status: proposed 2026-10-12, nothing implemented.
-  Six items of the 2026-10-12 UX review: the changes, videos and posts indexes render 50 rows plus a title list and
-  load the rest from the media shard (C1), filter pills with live counts on those lists (C2), week cards (C3), source
-  cards (C4), the roadmap tracker filters `/features/` (C5), a compact post card (E1, CSS only; the review's "iframe
-  first" was wrong). Start with phase 0 (the "before" sizes of section 7.1), then any of phases 1 to 3; phase 6 needs
-  phases 4 and 5. Until it lands readers get 600 KB list pages, an inert kinds line, five bullets on `/digests/`, a flat
-  `/sources/`, unlinked tracker numbers and a 470 px post card above the key points.
+1. **Two components the spec did not list.** `Facets.astro` (the filter block, used by the three lists and `/features/`)
+   and `MediaList.astro` (filter block, rows, bottom line, title list, icon map and the one module script). One script
+   entry for the three list pages instead of three, and one copy of the markup.
+2. **The poster URL in `list-rows.ts` is a copy of `listPoster`**, with a unit test that keeps the two equal. Importing
+   `lib/stage.ts` into the list bundle made Rollup split it into a shared 642-byte chunk that every video and post page
+   then loaded as one more request (one more file in the tar).
+3. **The two `/features/` tables sit in the shared `.table-scroll` wrapper** (+64 bytes). Step 12's 390 px check failed:
+   the page was 506 px wide, on the baseline build too.
+4. **`.list-more > [hidden] { display: none; }`** added to 4.11: `.btn` sets `display: inline-flex`, which overrode the
+   `hidden` attribute, so the button showed without JavaScript.
+5. **CSS in one contiguous block** marked `/* D91 */` after the D82 pill rules (the integrator's merge rule), the E1 rules
+   included, instead of E1 at line 149. Line 149 (`aspect-ratio: 16 / 9` under 600 px) is removed as the spec says; the
+   image is not shown there.
+6. **Every value gets a pill.** `facetValues` appends a repository that is not in `CHANGE_REPOS` after the three (label =
+   slug), and a record without a date gets the year "none" ("no date"); `/features/` lists the statuses present, in the
+   table's order then any other, and a feature without an area would get a "no area" pill. Otherwise such rows could
+   never show once the reader filters.
+7. **`mediaRecords` also prunes** page shards the manifest no longer lists from Cache Storage, as `loadKind` does.
+8. **After a failed load** the button stays disabled as specified, and the next pill click tries the load again.
+9. **`tests/unit/change-pages.test.ts`** asserts the exact search record of a change page; it now includes the D91
+   fields. The spec did not name it.
+10. **Pills with a count of 0 at build** carry `disabled` (none on the 2026-10-12 content).
+11. **"Show more" focus:** when the click adds no row, the bottom line takes the focus (`tabindex="-1"`).
+12. **Step 16 (back-forward cache), informational:** in headless Chromium against `python3 -m http.server`, Back after a
+    row click showed the 50 static rows again (the page was not kept). Restoring is section 8's later item.
 
-**`AGENTS.md`**: nothing; `data/index/pages-*.json` stays "every page's metadata", now with a few more facts on change
-and video records.
+### 12.3 Measured numbers
 
-**`CONTENT-NOTICE.md`**: nothing; the lists show the same derived summaries and Microsoft metadata as today, and the
-media shard already carried them.
+| Item | Before, bytes | After, bytes | Change |
+|---|---|---|---|
+| `/changes/` | 595,523 (gzip 129,726) | 161,009 (gzip 46,910) | -434,514 |
+| `/videos/` | 621,491 (gzip 105,164) | 110,643 (gzip 26,851) | -510,848 |
+| `/posts/` | 275,632 (gzip 30,523) | 104,063 (gzip 25,080), icon map 1,893 included | -171,569 |
+| of which the three title lists | | 130,833 + 57,667 + 72,654 = 261,154 | |
+| `/digests/` | 4,382 | 5,654 | +1,272 |
+| `/sources/` | 9,499 | 33,367 | +23,868 |
+| `/features/` | 19,304 | 29,269 | +9,965 |
+| `sources/al-language-extension/` | 7,524 | 7,532 | +8 |
+| media shard `pages-media-<sha12>.json` | 1,496,206 (`a8ae2ca74abf`) | 1,554,439 (`cae0845e544c`) | +58,233 |
+| shared stylesheet `_astro/Base.<hash>.css` | 24,312 | 25,456 | +1,144 |
+| JavaScript `_astro/*.js` | 163,110 in 17 files | 171,486 in 19 files | +8,376 |
+| object, video and post pages (26,882 files) | | | 0 each (per-file sizes identical) |
+| every other file | | | 0 (per-file sizes identical) |
+| **Pages tar** | **729,118,720 (695.3 MB), 59,135 files** | **728,104,960 (694.4 MB), 59,137 files** | **-1,013,760 (-0.97 MB), +2 files** |
+
+JavaScript: a `MediaList` entry (4,809 bytes) and a `facets` chunk (4,205, shared with the `/features/` entry) come;
+the D82 entry of `/changes/` goes. `data-astro-cid` is 0 on the six index pages. Rows and title lists: 50 rows and
+1,033, 566 and 551 titles; "no static link at all" 0 (299 media pages are linked only from their list's title list).
+
+### 12.4 For the integrator
+
+- **Push phases 5 and 6 together** (they are on this branch). The push runs two workflows: `pages.yml` (push on
+  `site/**`) and the derive in `nightly.yml` (`pipeline/render/**`, D81), which rewrites `data/index/` (a new
+  `pages-media-<sha12>.json` and the manifest) and whose finish triggers a second Pages build (`workflow_run`).
+- **Until that derive's Pages build is live**, the site is built on the committed media shard of before D91: change rows
+  print only their day (no branch, major or object count) and no breaking or community badge, the Major facet is one
+  pill "no major 1,083", "breaking only" counts 2 (the kind only) instead of 15, and video rows have no review badge.
+  Everything else (50 rows, title lists, "Show more", Repository, Kind, Channel, Blog and Year filters, cards, the
+  features filters, the post card) works from the first build. Check `/changes/` after the derive's Pages run: rows read
+  `main · BC30 · <day> · <n> objects`, Major shows BC30, BC29 and no major.
+- Apply the three edits below, and delete the "Lists and media, D91" bullet from HANDOFF's "Open specs, not yet
+  implemented".
+
+**`docs/DECISIONS.md`**, append:
+
+- **D91 Lists load in pages and filter by what they hold; weeks and sources are cards; the post card makes room.** The
+  changes, videos and posts indexes shipped every row in one file (595,523, 621,491 and 275,632 bytes on 2026-10-12,
+  2,300 rows; every new item added its row for good) and only the changes list had a filter (D82). Each now renders its
+  newest 50 rows and, in a closed "by title" list, a link to every other page (299 media pages had no other static
+  link: 183 videos, 108 posts, 8 changes); "Show 100 more" and every filter render the rows in the browser from the
+  search index's media shard (D86), which every page can already load and which stays in Cache Storage; nothing is
+  fetched until the reader acts. The media records gain what the rows print: a change's branch, major, object count and
+  breaking and community flags, a video's review state and poster opt-out (+58,233 bytes); the scorer does not read
+  them. Filters are pills whose counts follow the other filters: Repository, Kind, "breaking only" (the flag or the
+  kind, D80's rule) and Major on changes; Channel or Blog and Year on videos and posts; Wave, Status and Area on
+  features, whose tracker cells link into them. On list pages a click from "all on" keeps only that pill and later
+  clicks toggle (`pickPill`), which amends D82's click rule there; the galaxy keeps D80's. A facet with more than eight
+  values or 120 characters of labels sits in a closed details. Weekly digests are cards with the week's numbers and the
+  radar, the running week (by the build date) marked "in progress"; sources are cards with icon, kind, tier, count, top
+  three systems and their newest item, and a source page names its kind with the same words (the AL Language
+  extension's says "changelog" and "63 releases", not "blog" and "posts"). The post stage's card puts its image in a
+  200 px column beside the text and drops it under 600 px, CSS only: "Key points" moves from 1,080 to 814 px at 1280 x
+  900. The review's "70vh iframe first" was wrong: the card has come first since D60. Measured on the 2026-10-12 build:
+  the three lists 1,492,646 to 375,715 bytes (gzip 265,413 to 98,841), the media shard +58,233, the other index pages
+  +35,113, the shared stylesheet +1,144, JavaScript +8,376; no object, video or post page changed size; tar 695.3 to
+  694.4 MB (-1,013,760 bytes), files +2; a new item adds a 100 to 130 byte title line to its list instead of a full
+  row. Rejected: paginated static pages (45 more files and about +0.24 MB, and filters would still need the shard), a
+  rows JSON per list (+0.77 MB in three files), a media shard per type (a lighter "Show more", two more files and a
+  manifest field; later), reading branch and major from the tags (ties the list to the tag order of `change.ts`), D82's
+  toggle on long facets (20 clicks to see one of 21 blogs), a select for long facets (a second control shape), the
+  running week from `generated.at` (an unchanged re-render keeps the old date), the post stage below the key points
+  (the compact card is enough at 1280). Spec: `docs/specs/lists-and-media.md`.
+
+**`docs/PLAN.md` section 5**, replace the M29 row:
+
+`| **M29 lists and media** | the changes, videos and posts indexes render their newest 50 rows and a title list and load the rest from the media shard on "Show more" or a filter; pills with counts that follow the other filters (repository, kind, breaking only, major; channel or blog and year; wave, status and area with linked tracker cells), a click from "all on" keeps one pill; week cards on /digests/, source cards on /sources/, a compact post card; 695.3 to 694.4 MB tar on the same content (`docs/specs/lists-and-media.md`, D91, shipped 2026-10-12) | about 4 days in six phases | none: deterministic, no LLM |`
+
+**`docs/HANDOFF.md`**, "Where things stand", a "Shipped 2026-10-12" entry:
+
+- **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Live after the derive that the merge triggers and its
+  Pages build (until then change rows lack branch, major, object count and badges, video rows the review badge, and the
+  Major facet is one pill). `/changes/`, `/videos/` and `/posts/` render their newest 50 rows and a closed title list of
+  every other page, and load the rest from the search index's media shard on "Show 100 more" or a filter
+  (`MediaList.astro`, `media-list.ts`, rows in `list-rows.ts`, tested); pills with counts that follow the other filters
+  (Repository, Kind, breaking only, Major; Channel or Blog and Year), a click from all on keeps one pill (`pickPill`,
+  amends D82 on lists), state in the query string; `/features/` filters by Wave, Status and Area and the tracker cells
+  link into them; week cards on `/digests/` with the running week "in progress"; source cards on `/sources/`, and the AL
+  Language extension's page says "changelog"; the post card's image is a 200 px column, hidden on phones. Media records
+  gained the change and video facts the rows print (+58 KB). Local build on the 2026-10-12 content: **695.3 to 694.4 MB
+  tar**, the three lists 1.49 MB to 376 KB, no object, video or post page changed, files +2. Later (spec section 8): a
+  media shard per type, restoring "Show more" after Back, the pills on `/changes/week/`.
+
+**`AGENTS.md`**, **`CONTENT-NOTICE.md`**: nothing; `data/index/pages-*.json` stays "every page's metadata", now with a
+few more facts on change and video records.
