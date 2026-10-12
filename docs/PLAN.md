@@ -371,9 +371,9 @@ index of fields, events, global procedures and enum values (`data/index/symbols-
 
 **MCP** (`packages/mcp`, `npx bc-observatory`): downloads `index-manifest.json` from the site on start, fetches
 shards by ETag into `~/.cache/bc-observatory/<hash>/`, refreshes daily. Tools: `search(query, filters)`, `ls(path)`,
-`cat(path)` over a virtual FS mirroring `content/`, `get_object(type, idOrName, version?, country?)`,
-`diff_object(type, id, from, to)`, `localization(cc, version?)`, `whats_new(since|version)`,
-`blog_footprint(sourceId)`, `feedback(pageId, message)` (returns a prefilled GitHub issue URL; no auth). CI smoke test
+`cat(path, section?, offset?, limit?)` over a virtual FS mirroring `content/`, `get_object(type, idOrName, country?, section?, offset?, limit?)`,
+`diff_object(type, id, from, to)`, `localization(cc, section?, offset?, limit?)`, `whats_new(since|version)`,
+`blog_footprint(sourceId)`, `feedback(pageId, message)` (returns a prefilled GitHub issue URL; no auth). A page over 30,000 characters comes back compact with its section keys (D93). CI smoke test
 over stdio against fixture indexes. Package name availability (`bc-observatory`) verified at M4.
 
 **Plugin:** `plugin/` with `.claude-plugin/plugin.json`, `.mcp.json` (the npx server), skills `bc-lookup`,
@@ -441,7 +441,7 @@ blogs; all videos newest-first.
 | **M28 wayfinding** | one name per section from one map (nav, crumbs, titles, h1s, home cards, About, search groups, llms.txt), crumbs that follow the sections with the galaxy system as an identity chip, a 56 px bar with a Browse sheet under 900 px and a two-tier header above, eight instruments with live numbers on the home page and /objects/, a "Further down" line under the home galaxy, stage-first actions on video and post pages; 227 bytes less per object page (`docs/specs/wayfinding.md`, D90, proposed) | 3 to 4 days in three phases | none: deterministic, no LLM |
 | **M29 lists and media** | the changes, videos and posts indexes render their newest 50 rows and a title list and load the rest from the media shard on "Show more" or a filter; pills with counts that follow the other filters (repository, kind, breaking only, major; channel or blog and year; wave, status and area with linked tracker cells), a click from "all on" keeps one pill; week cards on /digests/, source cards on /sources/, a compact post card; about 0.96 MB off the Pages tar (`docs/specs/lists-and-media.md`, D91, proposed) | about 4 days in six phases | none: deterministic, no LLM |
 | **M30 galaxy controls** | the lens bar as two groups (Questions, a Lenses menu and the active-lens chip; List view, Tilt and the tools) in one wrapping bar whose bottom places ports, planes and the list view; captions that avoid covering stars, plot labels in their own font that give way, ports packed on the border (`docs/specs/galaxy-controls.md`, D92, proposed) | 2 days | none: deterministic, no LLM |
-| **M31 MCP sections** | long pages come back compact from get_object, cat and localization (frontmatter with long lists cut, section keys with row counts, the first 5 rows of each section), section, offset and limit read a section in slices of at most 30,000 characters, a symbol path returns its member's row, tool descriptions keep call forms and drop the scoring formula; bc-observatory 0.4.0, plugin 0.2.3 or 0.2.4 (\`docs/specs/mcp-sections.md\`, D93, proposed) | 2 days in two phases | none: deterministic, no LLM, no site bytes |
+| **M31 MCP sections** | long pages come back compact from get_object, cat and localization (frontmatter with long lists cut, section keys with row counts, the first 5 rows of each section), section, offset and limit read a section in slices of at most 30,000 characters, a symbol path returns its member's row, tool descriptions keep call forms and drop the scoring formula; bc-observatory 0.4.0, plugin 0.2.3 (`docs/specs/mcp-sections.md`, D93, shipped 2026-10-12) | 2 days in two phases | none: deterministic, no LLM, no site bytes |
 | **v0.2+** | evidence chips + review-badge UI, 30-vNext, older versions as diffs back to 23/15, Jarvis budget handshake (shared intent file), static embeddings (model2vec potion-8M), MAYBE blogs, yzhums opt-in if agreed | ongoing | per-version gating |
 
 ## 6. Verification

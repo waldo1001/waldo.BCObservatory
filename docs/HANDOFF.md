@@ -35,7 +35,6 @@ spec path, decision, milestone, status and where to start; a coding session take
   stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
   Lenses menu. Start with phase B, task 1 (tests 6 to 8 in `tests/unit/galaxy-labels.test.ts`). Until it lands readers
   see today's bar (three rows at 1024 px with the panel open) and captions over neighbouring stars.
-- **MCP sections**: `docs/specs/mcp-sections.md`, D93, M31. Status: proposed 2026-10-12, nothing implemented. Start with phase A (descriptions, two hours) or phase B task 1: `tests/unit/mcp-sections.test.ts` from section 5 against an empty `packages/mcp/src/sections.ts`. Until it lands: `get_object("codeunit", "80")` returns 177,746 characters, which Claude Code saves to a file (56 pages are over its 50,000-character threshold, 233 over 30,000), `localization("CZ")` 173,865, and `cat` of a symbol path returns the whole page.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -43,6 +42,19 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-12, live for agents once `bc-observatory@0.4.0` is on npm:**
+- **MCP sections, D93** (`docs/specs/mcp-sections.md`, M31): `get_object`, `cat` and `localization` return a page whole
+  when it fits 30,000 characters and a compact view otherwise (frontmatter with long lists cut, the section keys with
+  row counts, the first 5 rows of each section): Codeunit 80 "Sales-Post" 177,746 to 9,504 characters, Table 36 14,800,
+  `localization("CZ")` 5,427. `section`, `offset` and `limit` read one section in slices of at most 30,000 characters
+  (Codeunit 80's 530 events in five calls), `frontmatter` is a section, and `cat` of a symbol path from `search`
+  (`objects/codeunit/80#event-OnAfterPostSalesDoc`) returns that member's row. The slicer is
+  `packages/mcp/src/sections.ts`; `BC_OBSERVATORY_MAX_CHARS` changes the budget (0 = whole pages, as 0.3.0). Tool
+  descriptions keep call forms and drop the scoring formula (3,095 to 3,066 characters with the section sentences).
+  Server 0.4.0 and plugin 0.2.3 in the tree; the owner publishes with `gh workflow run publish-mcp.yml --ref main`,
+  then `gh run watch` and `npm view bc-observatory version` (0.4.0). The site's object pages are unchanged (D88);
+  `/mcp/` and `/mcp.md` say what the three tools do now. Deviations in the spec's section 12.
 
 **Shipped 2026-10-12, live on the next Pages build (video Features tables after the next nightly's re-render):**
 - **UX batch 1, bytes first, D88** (no spec, M26). The review behind it: `docs/research/2026-10-12-ux-review.md`,

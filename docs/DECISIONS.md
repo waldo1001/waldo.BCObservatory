@@ -850,3 +850,25 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   static "On this page" list (about 600 bytes on 25,666 pages, 15 MB; B1 builds it in the browser, batch 2); dropping
   the markdown twins' `<link rel="alternate">` (agents use it); a `<base href>` to shorten 18 MB of base-path prefixes
   (it breaks every in-page `#` anchor). Batches 2 and 3 of the review are specs, written with `bcobs-spec`.
+- **D93 Long pages come back compact, and the MCP server slices them, not the site.** `get_object`, `cat` and
+  `localization` return a page verbatim when it fits 30,000 characters (`BC_OBSERVATORY_MAX_CHARS`, 0 = no limit),
+  else a compact view: the frontmatter without `generated` and with each block list cut to its first 600 characters
+  (at least 3 items), the title block, one line with every section key and its row count, the first 5 rows of each
+  section (200 characters a row) and one `→ n more of m: cat(path, section, offset)` line per cut section. `section`,
+  `offset` and `limit` read one section by rows (a table row, or a list item with its indented lines), never more than
+  the budget per answer; `frontmatter` is a section; a symbol path (`objects/codeunit/80#event-OnAfterPostSalesDoc`)
+  returns that member's row. Keys are fixed for the 25 object-page headings (`events`, `subscriptions`, `calls`,
+  `called_by`, `changes`, `versions`, `countries`, `learn`, ...) and the snake_case heading elsewhere; the slicer is
+  `packages/mcp/src/sections.ts`. Why: Claude Code saves a result over 50,000 characters to a file and warns above
+  10,000 tokens; 56 pages were over 50,000 and 233 over 30,000 on 2026-10-12, Codeunit 80 "Sales-Post" 177,746 (compact
+  9,504), Table 36 "Sales Header" 182,895 (compact 14,800, the largest object). Built: the largest compact view is
+  15,741 (`releases/al-18.0`, median 9,058), the largest slice 29,845, the longest section 11 calls, and 123,126 of
+  123,210 symbol paths resolve to their row (1,382 characters for `OnAfterPostSalesDoc` instead of the page). The server
+  already reads the markdown twins (`pageMarkdown` in `server.ts`), so the Pages tar gains nothing. Tool descriptions
+  keep call forms, filters and values and lose the scoring formula (3,095 to 2,465 characters, 3,066 with the section
+  sentences). `bc-observatory@0.4.0` (the 233 answers change shape, a minor bump under 0.x), plugin 0.2.3. Rejected: a
+  compact view for every page (changes 28,617 answers that fit today), 20 preview rows (Table 39 at 30,927, three pages
+  over the budget), `_meta["anthropic/maxResultSizeChars"]` (raises Claude Code's file threshold to 500,000, not the
+  tokens), section files on the site (bytes and files on the tar, D76, D88), a `get_section` tool (a tenth tool for
+  what three parameters do), JSON output (agents read the markdown; the page is the contract). Spec:
+  `docs/specs/mcp-sections.md` (section 12: what was built and where it differs).
