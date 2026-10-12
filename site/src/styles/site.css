@@ -143,6 +143,11 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .prose tr[id], .prose li[id] { scroll-margin-top: 16px; }
 .prose tr:target, .prose li:target { background: var(--accent-surface); }
 .tl .timeline button.v { font: 500 13px var(--font-mono); color: var(--accent); background: none; border: 0; padding: 0; text-align: left; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+/* D89 (B8): the Ask your agent panel, in flow under the actions row */
+.actions > button.btn { font-family: inherit; cursor: pointer; }
+.ask-pop { flex-basis: 100%; padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: var(--r-panel); background: var(--surface); font-size: 14px; }
+.ask-pop p { margin: 0 0 10px; }
+.ask-pop .pill-btn { min-height: 28px; margin-left: 4px; }
 
 /* markdown body */
 .prose { font-size: 16px; }

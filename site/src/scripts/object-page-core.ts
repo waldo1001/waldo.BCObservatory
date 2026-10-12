@@ -150,3 +150,13 @@ export function transitionHref(base: string, version: number, oldest: number): s
 export function ringsByNode(lineClasses: string[]): string[] {
   return lineClasses.map((c) => c.split(/\s+/).find((t) => t && t !== "e") ?? "");
 }
+
+/**
+ * B8: the "Ask your agent" paragraph's calls as one prompt: `For <title> in Business Central, use bc-code-atlas: <first
+ * call>, then <the others joined by " or "> on the returned id.`, the country note after a space; "" without calls.
+ */
+export function agentPrompt(title: string, calls: string[], note: string | null): string {
+  if (!calls.length) return "";
+  const then = calls.length > 1 ? `, then ${calls.slice(1).join(" or ")} on the returned id` : "";
+  return `For ${title} in Business Central, use bc-code-atlas: ${calls[0]}${then}.${note ? ` ${note}` : ""}`;
+}

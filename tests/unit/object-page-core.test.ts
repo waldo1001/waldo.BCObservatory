@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
-  clampColumns, currentSection, listItemName, ringsByNode, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted,
+  agentPrompt, clampColumns, currentSection, listItemName, ringsByNode, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches, sectionCount, sortOrder, tocWanted,
   transitionHref, versionChips, visibleRows,
   type Change, type RowFacts,
 } from "../../site/src/scripts/object-page-core.js";
@@ -145,4 +145,16 @@ test("transitionHref (B3): the version transition page, none for the timeline's 
 
 test("ringsByNode (B6): a node's ring from the class of the line drawn to it, in the same order", () => {
   assert.deepEqual(ringsByNode(["e relates", "e relates", "e calls", "e learn"]), ["relates", "relates", "calls", "learn"]);
+});
+
+test("agentPrompt (B8): the closing paragraph's calls as one prompt, the country note appended", () => {
+  const calls = ['bcatlas_resolve_node(object_type: "table", object_name: "Customer")', "bcatlas_get_procedure_body", "bcatlas_get_neighbors"];
+  assert.equal(agentPrompt('Table 18 "Customer"', calls, null),
+    'For Table 18 "Customer" in Business Central, use bc-code-atlas: bcatlas_resolve_node(object_type: "table", object_name: "Customer"), then bcatlas_get_procedure_body or bcatlas_get_neighbors on the returned id.');
+  const be = ['bcatlas_resolve_node(object_type: "table", object_name: "VAT VIES Correction")', "bcatlas_get_procedure_body", "bcatlas_get_neighbors"];
+  const note = "A BE country object, not part of W1: the default corpus does not have it; bcatlas_list_countries shows which countries the atlas has.";
+  assert.equal(agentPrompt('Table 11300 "VAT VIES Correction" (BE)', be, note),
+    'For Table 11300 "VAT VIES Correction" (BE) in Business Central, use bc-code-atlas: bcatlas_resolve_node(object_type: "table", object_name: "VAT VIES Correction"), then bcatlas_get_procedure_body or bcatlas_get_neighbors on the returned id. A BE country object, not part of W1: the default corpus does not have it; bcatlas_list_countries shows which countries the atlas has.');
+  assert.equal(agentPrompt('Table 18 "Customer"', [calls[0]], null), 'For Table 18 "Customer" in Business Central, use bc-code-atlas: bcatlas_resolve_node(object_type: "table", object_name: "Customer").', "no then clause with one call");
+  assert.equal(agentPrompt('Table 18 "Customer"', [], null), "");
 });

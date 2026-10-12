@@ -4,12 +4,13 @@
  * already ships (D88: nothing may add bytes to 25,646 object pages): an "On this page" list of the main column's
  * sections with counts and a back-to-top button (B1); a filter, an order and a compact one-line mode for member sections
  * of 12 rows or more (B2); "Changed in" chips per member section, set also from the timeline's changed majors, and the
- * member pills' titles (B3); the neighbourhood's legend lights a kind's lines and nodes (B6). A hash naming a row (D86)
+ * member pills' titles (B3); the neighbourhood's legend lights a kind's lines and nodes (B6); an "Ask your agent" button
+ * that opens the closing paragraph's bc-code-atlas calls with copy buttons and a prompt (B8). A hash naming a row (D86)
  * reveals, opens and scrolls to it, on load and on `hashchange`.
  * The pure helpers are in object-page-core.ts, tested.
  */
 import {
-  clampColumns, currentSection, listItemName, MEMBER_SECTIONS, ringsByNode, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
+  agentPrompt, clampColumns, currentSection, listItemName, MEMBER_SECTIONS, ringsByNode, MIN_ROWS, orderLabel, orderOptions, parsePill, pillTitle, revealPlan, rowMatches,
   sectionCount, sortOrder, tocWanted, transitionHref, versionChips, visibleRows, type Change, type Order, type RowFacts,
 } from "./object-page-core";
 
@@ -267,6 +268,60 @@ function mountNeighbourhood(): void {
   }
 }
 
+/** B8: copy with the Clipboard API, else a selected textarea and execCommand (an http page has no Clipboard API). */
+async function copy(text: string): Promise<boolean> {
+  try { await navigator.clipboard.writeText(text); return true; } catch { /* fall back */ }
+  const ta = el("textarea", { readonly: "", style: "position:fixed;opacity:0" });
+  ta.value = text;
+  document.body.append(ta);
+  ta.select();
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch { /* not supported */ }
+  ta.remove();
+  return ok;
+}
+function copyButton(label: string, text: string): HTMLButtonElement {
+  const b = el("button", { type: "button", class: "pill-btn" }, label);
+  let timer = 0;
+  b.addEventListener("click", async () => {
+    b.textContent = (await copy(text)) ? "Copied" : "Copy failed";
+    clearTimeout(timer);
+    timer = window.setTimeout(() => { b.textContent = label; }, 1500);
+  });
+  return b;
+}
+
+/** B8: an "Ask your agent" button at the end of the actions row opens a copy of the closing paragraph, ready to copy. */
+function mountAsk(): void {
+  const h = document.getElementById("ask-your-agent");
+  const actions = document.querySelector<HTMLElement>(".page .actions");
+  if (!h || !actions) return;
+  const ps: Element[] = [];
+  for (let n = h.nextElementSibling; n?.tagName === "P" && ps.length < 2; n = n.nextElementSibling) ps.push(n);
+  const isCall = (c: Element) => (c.textContent ?? "").startsWith("bcatlas_");
+  const calls = [...(ps[0]?.querySelectorAll("code") ?? [])].filter(isCall).map((c) => c.textContent ?? "");
+  if (!calls.length) return;
+  const btn = el("button", { type: "button", class: "btn", "aria-expanded": "false", "aria-controls": "ask-pop" }, "Ask your agent");
+  const pop = el("div", { id: "ask-pop", class: "ask-pop" });
+  pop.hidden = true;
+  for (const p of ps) {
+    const c = p.cloneNode(true) as Element; // the paragraphs carry no ids
+    for (const code of c.querySelectorAll("code")) if (isCall(code)) code.after(copyButton("Copy", code.textContent ?? ""));
+    pop.append(c);
+  }
+  const title = document.querySelector(".page h1")?.textContent?.trim() ?? "";
+  pop.append(copyButton("Copy as a prompt", agentPrompt(title, calls, ps[1]?.textContent?.trim() || null)));
+  const set = (open: boolean) => { pop.hidden = !open; btn.setAttribute("aria-expanded", String(open)); };
+  btn.addEventListener("click", () => set(pop.hidden));
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || pop.hidden || document.querySelector("dialog[open]")) return;
+    set(false);
+    btn.focus();
+  });
+  document.addEventListener("click", (e) => { if (!pop.hidden && !actions.contains(e.target as Node)) set(false); });
+  actions.append(btn, pop);
+}
+
 export function mountObjectPage(): void {
   if (!document.querySelector("section.tl")) return;
   // B3: the pill titles left the HTML (2,526 pages); "changed in BC25, BC26" comes back here
@@ -283,6 +338,7 @@ export function mountObjectPage(): void {
   }
   mountTimeline(members);
   mountNeighbourhood();
+  mountAsk();
   mountToc();
   // popstate too: the finder (palette.ts) sets location.href, and a hit on the hash already in the URL fires no hashchange
   addEventListener("hashchange", reveal);
