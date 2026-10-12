@@ -102,6 +102,48 @@ export function versionMenu(
   return { remembered: active && vs.includes(active) ? active : vs[0] ?? null, entries };
 }
 
+/** D92: the groups of the Lenses menu, in menu order: the lens group, the menu group's id and its heading. */
+const MENU_GROUPS: readonly [string, LensGroupId, string][] = [
+  ["Version", "version", "Version"], ["Time", "time", "Time"], ["Type", "type", "Type"], ["Tier", "tier", "Tier"],
+  ["Coverage", "coverage", "Coverage"], ["Localization", "country", "Country"], ["Source", "source", "Source"],
+];
+export type LensGroupId = "version" | "time" | "type" | "tier" | "coverage" | "country" | "source";
+export interface LensEntry { id: string; label: string; n: number; on: boolean; title: string | null }
+export interface LensGroup { id: LensGroupId; label: string; entries: LensEntry[] }
+/**
+ * D92, the Lenses menu: every lens in groups, a group with no lens left out. Version entries come from `versionMenu`
+ * (newest first, `BC30 vNext`, the config label as title); Type, Tier, Coverage and Time entries are the lens label and
+ * its count (`counts` by lens id, 0 when missing). Country and Source are one entry each that opens the panel picker
+ * (D78): `n` is the number of lenses in the group, pressed while one of them is on. `on` elsewhere: the entry is `active`.
+ */
+export function lensMenu(
+  lenses: readonly { id: string; label: string; group: string; version?: string }[],
+  counts: ReadonlyMap<string, number>, majors: Record<string, MajorMeta>, active: string | null,
+): LensGroup[] {
+  const out: LensGroup[] = [];
+  for (const [group, id, label] of MENU_GROUPS) {
+    const ls = lenses.filter((l) => l.group === group);
+    if (!ls.length) continue;
+    let entries: LensEntry[];
+    if (id === "version") {
+      const vs = ls.map((l) => l.version ?? l.id.replace(/^version:/, ""));
+      entries = versionMenu(vs, new Map(vs.map((v) => [v, counts.get(`version:${v}`) ?? 0])), majors, null).entries
+        .map((e) => ({ id: e.id, label: e.label, n: e.count, on: e.id === active, title: e.title }));
+    } else if (id === "country" || id === "source") {
+      const [pick, name, prefix] = id === "country" ? ["pick:localization", "Pick a country", "loc:"] : ["pick:source", "Pick a source", "src:"];
+      entries = [{ id: pick, label: name, n: ls.length, on: !!active?.startsWith(prefix), title: null }];
+    } else entries = ls.map((l) => ({ id: l.id, label: l.label, n: counts.get(l.id) ?? 0, on: l.id === active, title: null }));
+    out.push({ id, label, entries });
+  }
+  return out;
+}
+
+/** D92, the active-lens chip: the label cut to 27 characters and "…" past 28 (the full label in title), the count, the name. */
+export function lensChip(label: string, n: number): { text: string; count: string; aria: string; title: string | null } {
+  const cut = label.length > 28;
+  return { text: cut ? `${label.slice(0, 27)}…` : label, count: String(n), aria: `Clear the lens: ${label}`, title: cut ? label : null };
+}
+
 /** The parts of a media row's second line (D73): kind pill, source name, date; unknown parts left out. */
 export function mediaMeta(kind: string, source: string | null | undefined, date: string | null | undefined): { kind: "video" | "post"; parts: string[] } {
   return { kind: kind === "v" ? "video" : "post", parts: [source, date].filter((x): x is string => !!x) };

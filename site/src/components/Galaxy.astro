@@ -2,10 +2,11 @@
 /**
  * The galaxy (HANDOFF 5, PLAN 4.7, D66 "galaxy, honest"). The canvas, ports and panel are driven by
  * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
- * Lens bar: changed in a version (one pill for the remembered major plus a menu of every major, D72), this week, more
- * lenses (type, tier, coverage, localization, source), list view, and
- * at system level the Tilt control (A): the same system as four planes, from graph/layers/<system>.json.
- * Tools: zoom, panel, full screen. With `questions` (the home page, D70), a "Questions" menu opens the lens bar.
+ * One bar, two groups (D92). Left, the lenses: with `questions` (the home page, D70) a "Questions" menu, then one
+ * "Lenses" menu holding every lens (versions, this week, type, tier, coverage, and the country and source pickers),
+ * then a chip naming the lens that is on. Right, the view: List view, at system level Tilt (A: the same system as four
+ * planes, from graph/layers/<system>.json; Planes on a phone), zoom, panel, full screen and the "?" sheet. The bar's
+ * measured bottom places the ports, the tilt planes and the list view.
  */
 import { getCollection } from "astro:content";
 import type { Question } from "../lib/questions";
@@ -20,53 +21,48 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
 ---
 <section class="galaxy" data-base={base} data-majors={JSON.stringify(majorsMeta)} data-source-kinds={JSON.stringify(sourceKinds)} style={`--g-h: ${height}`} aria-label={label} tabindex="-1">
   <canvas aria-hidden="true"></canvas>
-  <div class="g-labels"></div>
-  <div class="g-ports" role="group" aria-label="Where the focused star crosses into other systems"></div>
-  <div class="g-table" hidden></div>
   <nav class="g-crumbs" aria-label="Galaxy position"></nav>
-  <div class="g-lensbar" role="toolbar" aria-label="Lenses">
-    {questions.length > 0 && (
-      <details class="ask g-ask">
-        <summary>Questions</summary>
+  <div class="g-bar">
+    <div class="g-lensbar" role="group" aria-label="Lenses">
+      {questions.length > 0 && (
+        <details class="ask g-ask">
+          <summary>Questions</summary>
+          <ul>
+            {questions.map((q) => <li><a href={q.href}><b>{q.ask}</b><span class="mono-meta">{q.where}</span></a></li>)}
+          </ul>
+        </details>
+      )}
+      <details class="ask g-ask g-lensmenu"><summary>Lenses</summary><ul></ul></details>
+      <button type="button" class="g-lens g-chip" data-g-chip hidden><span></span> <span class="g-lens-n"></span> <span aria-hidden="true">×</span></button>
+    </div>
+    <div class="g-viewbar" role="group" aria-label="View">
+      <button type="button" class="g-btn" data-g-view aria-pressed="false">List view</button>
+      <label class="g-tilt" hidden><span>Tilt</span> <input type="range" min="0" max="100" step="1" value="0" data-g-tilt aria-describedby="g-tilt-help" /></label>
+      <button type="button" class="g-btn" data-g-planes aria-pressed="false" hidden>Planes</button>
+      <span class="skip" id="g-tilt-help">Tilt the system into four planes: media, topic hubs, code and countries. T toggles it, Esc flattens.</span>
+      <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
+      <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
+      <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show panel</button>
+      <button type="button" class="g-btn" data-g-full title="Full screen (F)">Full screen</button>
+      <details class="ask g-keys">
+        <summary aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</summary>
         <ul>
-          {questions.map((q) => <li><a href={q.href}><b>{q.ask}</b><span class="mono-meta">{q.where}</span></a></li>)}
+          <li><b>Click</b> a system to fly in, a star for its connections; the background flies out one level.</li>
+          <li><kbd>Esc</kbd> out one level; it also clears a lens, flattens a tilt, closes the list.</li>
+          <li><kbd>←</kbd> <kbd>→</kbd> previous or next system; at a star, the nearest star that way (<kbd>↑</kbd> <kbd>↓</kbd> too).</li>
+          <li><kbd>+</kbd> <kbd>−</kbd> zoom; wheel, pinch and drag work as well.</li>
+          <li><kbd>F</kbd> full screen. <kbd>T</kbd> tilt a system into planes.</li>
+          <li><kbd>Tab</kbd> reaches every system label, port and panel row; <kbd>Enter</kbd> opens it.</li>
+          <li>Type in the search box to light up matching stars; <kbd>Enter</kbd> opens the full results.</li>
         </ul>
       </details>
-    )}
-    <div class="g-vlens" hidden>
-      <button type="button" class="g-lens" data-g-vpill aria-pressed="false"><span></span> <span class="g-lens-n"></span></button>
-      <details class="ask g-ask g-vmenu">
-        <summary aria-label="Other versions" title="Other versions"></summary>
-        <ul></ul>
-      </details>
     </div>
-    <label class="skip" for="g-lens">More lenses</label>
-    <select id="g-lens" data-g-lens><option value="">more lenses</option></select>
-    <button type="button" class="g-lens" data-g-view aria-pressed="false">list view</button>
-    <label class="g-tilt" hidden><span>tilt</span> <input type="range" min="0" max="100" step="1" value="0" data-g-tilt aria-describedby="g-tilt-help" /></label>
-    <button type="button" class="g-lens" data-g-planes aria-pressed="false" hidden>planes</button>
-    <span class="skip" id="g-tilt-help">Tilt the system into four planes: media, topic hubs, code and countries. T toggles it, Esc flattens.</span>
   </div>
+  <div class="g-labels"></div>
+  <div class="g-ports" role="group" aria-label="Where the focused star crosses into other systems"></div>
   <div class="g-planes" hidden></div>
+  <div class="g-table" hidden></div>
   <p class="g-legend" hidden aria-label="Key"></p>
-  <div class="g-tools">
-    <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
-    <button type="button" class="icon-btn" data-g-in aria-label="Zoom in" title="Zoom in (+)">+</button>
-    <button type="button" class="g-btn" data-g-list aria-expanded="false" aria-controls="g-panel">Show panel</button>
-    <button type="button" class="g-btn" data-g-full title="Full screen (F)">Full screen</button>
-    <details class="ask g-keys">
-      <summary aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</summary>
-      <ul>
-        <li><b>Click</b> a system to fly in, a star for its connections; the background flies out one level.</li>
-        <li><kbd>Esc</kbd> out one level; it also clears a lens, flattens a tilt, closes the list.</li>
-        <li><kbd>←</kbd> <kbd>→</kbd> previous or next system; at a star, the nearest star that way (<kbd>↑</kbd> <kbd>↓</kbd> too).</li>
-        <li><kbd>+</kbd> <kbd>−</kbd> zoom; wheel, pinch and drag work as well.</li>
-        <li><kbd>F</kbd> full screen. <kbd>T</kbd> tilt a system into planes.</li>
-        <li><kbd>Tab</kbd> reaches every system label, port and panel row; <kbd>Enter</kbd> opens it.</li>
-        <li>Type in the search box to light up matching stars; <kbd>Enter</kbd> opens the full results.</li>
-      </ul>
-    </details>
-  </div>
   <div class="g-nav">
     <button type="button" class="icon-btn" data-g-prev hidden aria-label="Previous system">←</button>
     <button type="button" class="icon-btn" data-g-next hidden aria-label="Next system">→</button>
@@ -111,33 +107,35 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-crumbs :global(*) { pointer-events: auto; }
   .g-crumbs :global(button) { background: none; border: 0; padding: 4px 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .g-crumbs :global([aria-current]) { color: var(--text); }
-  /* the lens bar (HANDOFF D section 4): mono 12px toggles, 32px high (44px on touch); the active one in the accent */
-  .g-lensbar { position: absolute; left: 16px; top: 46px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; max-width: calc(100% - 330px); z-index: 2; }
-  .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 720px); }
-  .g-lensbar :global(.g-lens), .g-lensbar select {
+  /* D92: one bar, two groups that wrap: the lenses left, the view right (under the lenses, right-aligned, when both
+     do not fit). The bar's empty middle lets clicks through to the canvas and labels. */
+  .g-bar { position: absolute; left: 16px; right: 16px; top: 46px; z-index: 2; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 6px; pointer-events: none; }
+  .galaxy:global(.g-panel-open) .g-bar { right: 396px; }
+  .g-lensbar, .g-viewbar { pointer-events: auto; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .g-viewbar { margin-left: auto; justify-content: flex-end; }
+  .g-viewbar [data-g-out] { margin-left: 6px; }
+  /* the active-lens chip: mono 12px, 32px high (44px on touch), in the accent */
+  .g-lensbar :global(.g-lens) {
     min-height: 32px; padding: 0 12px; font: 400 12px var(--font-mono); color: var(--text-2); cursor: pointer;
     background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: var(--r-badge);
   }
-  .g-lensbar select { max-width: 200px; }
   /* the questions menu (D70): a lens chip in the accent outline; its list drops over the canvas */
   .g-ask summary { min-height: 32px; padding: 0 12px; font: 600 12px var(--font-mono); color: var(--text); background: var(--g-port-bg); border-color: var(--accent); border-radius: var(--r-badge); }
   .g-ask summary:hover, .g-ask[open] summary { color: var(--accent); border-color: var(--accent); }
   .g-ask ul { z-index: 3; max-height: calc(var(--g-h) - 100px); }
   @media (pointer: coarse) { .g-ask summary { min-height: 44px; } }
-  /* D72: one version pill fused with its caret; the menu lists every major the graph has changes for */
-  .g-vlens { position: relative; display: inline-flex; align-items: stretch; }
-  .g-vlens > :global(.g-lens) { border-top-right-radius: 0; border-bottom-right-radius: 0; }
-  .g-vmenu { position: static; }
-  .g-vmenu summary { min-width: 32px; height: 100%; justify-content: center; padding: 0 8px; margin-left: -1px; font: 400 12px var(--font-mono); color: var(--text-2); border-color: var(--line-strong); border-top-left-radius: 0; border-bottom-left-radius: 0; }
-  .g-vmenu summary:hover, .g-vmenu[open] summary { color: var(--text); border-color: var(--text-2); }
-  .g-vmenu ul { width: min(240px, calc(100vw - 32px)); }
-  .g-vmenu :global(button) { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 32px; padding: 6px 10px; background: none; border: 0; border-radius: var(--r-card); color: var(--text); font: 500 13px var(--font-mono); text-align: left; cursor: pointer; }
-  .g-vmenu :global(button:hover), .g-vmenu :global(button:focus-visible) { background: var(--surface-raised); }
-  .g-vmenu :global(button[aria-current="true"]) { color: var(--accent); background: var(--accent-surface); }
-  @media (pointer: coarse) { .g-vmenu summary, .g-vmenu :global(button) { min-height: 44px; } }
-  .g-lensbar :global(.g-lens[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  /* D92: the Lenses menu, every lens as a chip under its group's heading; the lens that is on is pressed */
+  .g-lensmenu summary { font-weight: 400; color: var(--text-2); border-color: var(--line-strong); }
+  .g-lensmenu summary:hover, .g-lensmenu[open] summary { color: var(--text); border-color: var(--text-2); }
+  .g-lensmenu ul { width: min(400px, calc(100vw - 32px)); padding: 10px 12px; display: grid; gap: 10px; }
+  .g-lensmenu :global(.g-lm-h) { margin: 0 0 4px; font: 500 11px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .g-lensmenu :global(.g-lm-row) { display: flex; flex-wrap: wrap; gap: 6px; }
+  .g-lensmenu :global(.g-lm) { min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--text-2); background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: var(--r-badge); cursor: pointer; }
+  .g-lensmenu :global(.g-lm:hover) { color: var(--text); border-color: var(--text-2); }
+  .g-lensmenu :global(.g-lm[aria-pressed="true"]), .g-lensbar .g-chip { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .g-lensmenu :global(.g-lm small) { font: inherit; opacity: .8; margin-left: 4px; }
   .g-lensbar :global(.g-lens-n:not(:empty)) { margin-left: 4px; }
-  @media (pointer: coarse) { .g-lensbar :global(.g-lens), .g-lensbar select { min-height: 44px; } }
+  @media (pointer: coarse) { .g-lensmenu :global(.g-lm), .g-lensbar :global(.g-lens), .g-viewbar .g-btn { min-height: 44px; } }
   .g-legend { position: absolute; left: 120px; bottom: 22px; margin: 0; font: 400 11px var(--font-mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; pointer-events: none; }
   .g-legend :global(span) { display: inline-block; width: 8px; height: 8px; margin-left: 6px; background: var(--muted); }
   .g-legend :global(.lg-hub) { border-radius: 50%; }
@@ -150,26 +148,26 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-panel :global(.g-intro) { margin: 0 0 12px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 8px; }
   .g-panel :global(.g-intro p:last-child) { margin-bottom: 0; }
   .g-panel :global(.g-linkbtn) { background: none; border: 0; padding: 0; color: var(--link); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
-  .g-tools { position: absolute; right: 16px; top: 10px; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; max-width: calc(100% - 32px); z-index: 2; }
   /* D88 (D2): the keyboard sheet behind "?", in place of the paragraph of hints under the galaxy; it opens to the left */
   .g-keys summary { min-height: 36px; min-width: 36px; justify-content: center; padding: 0; font: 600 14px var(--font-mono); color: var(--text); background: color-mix(in srgb, var(--surface) 92%, transparent); border-color: var(--line-strong); border-radius: var(--r-card); }
   .g-keys summary::after { content: none; }
   .g-keys ul { left: auto; right: 0; width: min(380px, calc(100vw - 32px)); padding: 10px 12px; display: grid; gap: 8px; font-size: 13px; color: var(--text-2); }
   .g-keys li { line-height: 1.4; }
   .g-keys kbd { font: 500 12px var(--font-mono); color: var(--text); background: var(--surface-raised); border: 1px solid var(--line-strong); border-radius: 4px; padding: 0 5px; }
-  .galaxy:global(.g-panel-open) .g-tools { right: 396px; }
-  .g-btn, .g-tools .icon-btn {
+  .g-btn, .g-viewbar .icon-btn {
     min-height: 36px; background: color-mix(in srgb, var(--surface) 92%, transparent); color: var(--text); border: 1px solid var(--line-strong);
     border-radius: var(--r-card); font: 500 13px var(--font-ui); padding: 0 10px; cursor: pointer;
   }
-  .g-btn:hover, .g-tools .icon-btn:hover { border-color: var(--text-2); }
+  .g-btn:hover, .g-viewbar .icon-btn:hover { border-color: var(--text-2); }
+  /* D92: a pressed view toggle (List view, Planes) in the accent, as a pressed lens was */
+  .g-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
   .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
   .g-nav .icon-btn { background: var(--surface); }
   .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; pointer-events: none; }
-  /* tilt (A): a labelled range in the lens bar, plane labels as buttons that fold and unfold their plane */
-  .g-tilt { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--accent); border: 1px solid var(--line-strong); border-radius: var(--r-badge); background: var(--g-port-bg); }
-  .g-tilt input { width: 110px; accent-color: var(--accent); }
-  .g-tilt[hidden], .g-lensbar :global([hidden]) { display: none; }
+  /* tilt (A): a labelled range in the view group, with the tools' look (D92); plane labels as buttons that fold and unfold their plane */
+  .g-tilt { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 10px; font: 500 13px var(--font-ui); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); background: color-mix(in srgb, var(--surface) 92%, transparent); }
+  .g-tilt input { width: 80px; accent-color: var(--accent); }
+  .g-tilt[hidden], .g-bar :global([hidden]) { display: none; }
   .g-planes { position: absolute; inset: 0; pointer-events: none; }
   .g-planes :global(.g-plane) {
     position: absolute; left: 0; top: 0; pointer-events: auto; display: grid; gap: 1px; width: 160px; min-height: 44px; padding: 4px 8px; text-align: right;
@@ -269,25 +267,23 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-fade { position: absolute; inset: 0; background: var(--bg); opacity: 0; transition: opacity 700ms ease-in 300ms; pointer-events: none; }
   .g-fade:global(.on) { opacity: 1; }
   .g-noscript { position: absolute; inset: auto 16px 16px; }
-  .galaxy :global(button:focus-visible), .galaxy :global(a:focus-visible), .galaxy select:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .galaxy :global(button:focus-visible), .galaxy :global(a:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
   @media (max-width: 720px) {
     .g-panel { top: auto; height: 55%; width: 100%; border-left: 0; border-top: 1px solid var(--line); }
-    .galaxy:global(.g-panel-open) .g-tools { right: 16px; }
-    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { max-width: calc(100% - 32px); top: 90px; flex-wrap: nowrap; overflow-x: auto; }
-    .g-tools { top: 44px; }
+    .galaxy:global(.g-panel-open) .g-bar { right: 16px; }
     .g-ask ul { position: fixed; top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: 70vh; }
-    .g-vlens { flex: none; }
     .g-legend { display: none; }
     .g-table, .galaxy:global(.g-panel-open) .g-table { inset: var(--g-top, 136px) 0 56px 0; right: 0; }
   }
   /* 390 (HANDOFF D responsive): no interactive galaxy; a static 150px locator strip, then the panel as the page */
   @media (max-width: 480px) {
     .galaxy { height: auto; touch-action: auto; overflow: visible; display: flex; flex-direction: column; }
-    .galaxy canvas { order: 0; } .g-crumbs { order: 1; } .g-lensbar { order: 2; } .g-panel { order: 3; } .g-table { order: 4; }
+    .galaxy canvas { order: 0; } .g-crumbs { order: 1; } .g-bar { order: 2; } .g-panel { order: 3; } .g-table { order: 4; }
     .galaxy canvas { position: relative; height: 150px; pointer-events: none; }
     .g-crumbs { position: static; padding: 12px 16px 0; max-width: none; }
-    .g-lensbar, .galaxy:global(.g-panel-open) .g-lensbar { position: static; padding: 8px 16px; max-width: none; flex-wrap: wrap; overflow: visible; } /* D88 (D4): two rows, nothing clipped */
-    .g-tools, .g-nav, .g-level, .g-ports, .g-labels, .g-planes { display: none; }
+    .g-bar { position: static; padding: 8px 16px; } /* D88 (D4), D92: the bar wraps, nothing clipped; the tools stay hidden */
+    .g-viewbar :is([data-g-out], [data-g-in], [data-g-list], [data-g-full], .g-keys) { display: none; }
+    .g-nav, .g-level, .g-ports, .g-labels, .g-planes { display: none; }
     .g-panel, .galaxy:global(.g-panel-open) .g-panel { position: static; height: auto; width: 100%; border: 0; animation: none; padding: 16px; }
     .g-panel :global(.g-dock), .g-panel :global(.g-dock-2) { display: flex; overflow-x: auto; gap: 6px; }
     .g-panel :global(.g-exit) { flex: none; }

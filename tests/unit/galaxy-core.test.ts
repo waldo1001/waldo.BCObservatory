@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -167,4 +167,67 @@ test("packPorts: a port sits at its spot when it is free, else in the nearest fr
   assert.deepEqual(packPorts([at(100, 20)], { x0: 0, y0: 0, x1: 200, y1: 40 }, []), [null], "larger than the area");
   assert.deepEqual(packPorts(Array.from({ length: 6 }, () => at(300, 100)), area, []), six, "deterministic");
   assert.deepEqual(packPorts([], area, []), []);
+});
+
+test("parseHash keeps every deep link into the galaxy (D92, spec 2.5)", () => {
+  assert.deepEqual([...parseHash("#lens=landed&kinds=v,p")], [["lens", "landed"], ["kinds", "v,p"]]);
+  assert.deepEqual([...parseHash("#lens=pick:source")], [["lens", "pick:source"]]);
+  assert.deepEqual([...parseHash("#lens=version:29")], [["lens", "version:29"]]);
+  assert.deepEqual([...parseHash("#lens=coverage")], [["lens", "coverage"]]);
+  assert.deepEqual([...parseHash("#system=finance&tilt=1")], [["system", "finance"], ["tilt", "1"]]);
+  assert.deepEqual([...parseHash("#star=object%2Ftable%2F18&system=sales")], [["star", "object/table/18"], ["system", "sales"]]);
+  assert.deepEqual([...parseHash("#view=list")], [["view", "list"]]);
+  assert.deepEqual([...parseHash("#q=sales%20post")], [["q", "sales post"]]);
+});
+
+const MENU_LENSES = [
+  { id: "version:29", label: "changed in BC29", group: "Version", version: "29" },
+  { id: "version:30", label: "changed in BC30", group: "Version", version: "30" },
+  { id: "landed", label: "this week", group: "Time" },
+  { id: "type:topic", label: "topic hubs", group: "Type" },
+  { id: "tier:official", label: "official only", group: "Tier" },
+  { id: "coverage", label: "no Learn page, video or post", group: "Coverage" },
+  { id: "loc:localization/be", label: "Belgium (BE)", group: "Localization" },
+  { id: "loc:localization/nl", label: "Netherlands (NL)", group: "Localization" },
+  { id: "src:source/yt-microsoft", label: "Microsoft", group: "Source" },
+];
+const MENU_COUNTS = new Map([["version:30", 27], ["version:29", 97], ["landed", 45], ["type:topic", 605], ["tier:official", 905], ["coverage", 124]]);
+const MENU_MAJORS = { "30": { label: "2027 release wave 1 (BC30, vNext)", vnext: true }, "29": { label: "2026 release wave 2 (BC29)" } };
+
+test("lensMenu: every lens in seven groups, versions newest first, countries and sources as picker entries (D92)", () => {
+  const m = lensMenu(MENU_LENSES, MENU_COUNTS, MENU_MAJORS, "version:29");
+  assert.deepEqual(m.map((g) => g.id), ["version", "time", "type", "tier", "coverage", "country", "source"]);
+  assert.deepEqual(m.map((g) => g.label), ["Version", "Time", "Type", "Tier", "Coverage", "Country", "Source"]);
+  assert.deepEqual(m[0].entries, [
+    { id: "version:30", label: "BC30 vNext", n: 27, on: false, title: "2027 release wave 1 (BC30, vNext)" },
+    { id: "version:29", label: "BC29", n: 97, on: true, title: "2026 release wave 2 (BC29)" },
+  ]);
+  assert.deepEqual(m[1].entries, [{ id: "landed", label: "this week", n: 45, on: false, title: null }]);
+  assert.deepEqual(m[2].entries, [{ id: "type:topic", label: "topic hubs", n: 605, on: false, title: null }]);
+  assert.deepEqual(m[3].entries, [{ id: "tier:official", label: "official only", n: 905, on: false, title: null }]);
+  assert.deepEqual(m[4].entries, [{ id: "coverage", label: "no Learn page, video or post", n: 124, on: false, title: null }]);
+  assert.deepEqual(m[5].entries, [{ id: "pick:localization", label: "Pick a country", n: 2, on: false, title: null }]);
+  assert.deepEqual(m[6].entries, [{ id: "pick:source", label: "Pick a source", n: 1, on: false, title: null }]);
+});
+
+test("lensMenu: the pressed entry follows the active lens; an older graph without versions; a missing count is 0 (D92)", () => {
+  const pressed = (active: string | null) => lensMenu(MENU_LENSES, MENU_COUNTS, MENU_MAJORS, active).flatMap((g) => g.entries.filter((e) => e.on).map((e) => e.id));
+  assert.deepEqual(pressed("loc:localization/be"), ["pick:localization"]);
+  assert.deepEqual(pressed("src:source/yt-microsoft"), ["pick:source"]);
+  assert.deepEqual(pressed("q:sales"), []);
+  assert.deepEqual(pressed(null), []);
+  assert.deepEqual(pressed("landed"), ["landed"]);
+  const old = lensMenu(MENU_LENSES.filter((l) => l.group !== "Version"), MENU_COUNTS, MENU_MAJORS, null);
+  assert.equal(old[0].id, "time");
+  assert.equal(lensMenu([{ id: "tier:community", label: "mostly community evidence", group: "Tier" }], new Map(), {}, null)[0].entries[0].n, 0);
+  assert.deepEqual(lensMenu([], new Map(), {}, null), []);
+});
+
+test("lensChip: the label cut past 28 characters with the full label in title, the count, the accessible name (D92)", () => {
+  assert.deepEqual(lensChip("changed in BC30", 27), { text: "changed in BC30", count: "27", aria: "Clear the lens: changed in BC30", title: null });
+  assert.deepEqual(lensChip("Microsoft Dynamics 365 Business Central", 212), { text: "Microsoft Dynamics 365 Busi…", count: "212", aria: "Clear the lens: Microsoft Dynamics 365 Business Central", title: "Microsoft Dynamics 365 Business Central" });
+  const l28 = "abcdefghijklmnopqrstuvwxyz12";
+  assert.equal(l28.length, 28);
+  assert.deepEqual(lensChip(l28, 1), { text: l28, count: "1", aria: `Clear the lens: ${l28}`, title: null });
+  assert.equal(lensChip(l28 + "3", 1).text, "abcdefghijklmnopqrstuvwxyz1…");
 });
