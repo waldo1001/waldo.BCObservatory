@@ -1,0 +1,277 @@
+import { test } from "node:test";
+import assert from "node:assert/strict";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
+import { join } from "node:path";
+import { parse as parseYaml } from "yaml";
+import { ROOT } from "../../pipeline/lib/paths.js";
+import { OBJECT_KEYS, anchorView, budgetOf, compactView, findSection, pageView, parsePage, sectionKey, sectionView } from "../../packages/mcp/src/sections.js";
+
+// ---------------------------------------------------------------------------------------------- test 1, a hand-built page (D93 5)
+
+const S = "https://example.test/x/", PATH = "objects/codeunit/9";
+const URLS = Array.from({ length: 30 }, (_, i) => `    - https://learn.microsoft.com/dynamics365/business-central/demo-page-${String(i + 1).padStart(2, "0")}`);
+const FIELDS = Array.from({ length: 12 }, (_, i) => `| ${i + 1} | Field ${i + 1} | Code[20] | Specifies field ${i + 1}. |  |`);
+const EVENTS = Array.from({ length: 8 }, (_, i) => `- \`OnEvent${i + 1}(var Rec: Record "Demo")\` (integration): Raised ${i + 1}.`);
+const SUBS = '  - subscribers: [Codeunit 1 "X"](../codeunit/1.md) OnEvent1Sub';
+const SOURCE = "Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).";
+const FM = ["id: object/codeunit/9", "type: object", 'title: Codeunit 9 "Demo"', "tags:", "  - codeunit", "links:", "  learn:", ...URLS,
+  "generated:", '  at: "2026-10-12T00:00:00.000Z"', "  input_hash: abc", "present_in:", '  - "29"', '  - "30"'];
+const P = ["---", ...FM, "---", "", '# Codeunit 9 "Demo"', "", "> Demo summary.", "",
+  "## Fields", "", "Explanation: the field's ToolTip.", "", "| No. | Name | Type | Explanation | Notes |", "|---|---|---|---|---|", ...FIELDS, "",
+  "## Events published", "", EVENTS[0], SUBS, ...EVENTS.slice(1), "",
+  "## Procedures", "", "- `P1()`", "- `P1(X: Integer)`", "- `P2()`: Does two.", "", "Plus 3 local procedures.", "",
+  "## Countries that replace it", "", "[BE](../../localizations/be.md)", "", SOURCE, "",
+  "## Ask your agent", "", "Procedure bodies are not stored here (D10).", ""].join("\n");
+const FIRST = (key: string) => `Codeunit 9 "Demo", section "${key}": ${S}${PATH}/`;
+const KEYS = "fields, events, procedures, countries, ask, frontmatter";
+const view = (a: { section?: string; offset?: number; limit?: number }, budget = 30_000, path = PATH) => pageView(P, path, a, budget, S);
+
+test("1: parsePage splits sections, rows, continuation lines and the closing text", () => {
+  const p = parsePage(P);
+  assert.deepEqual(p.sections.map((s) => s.key), ["fields", "events", "procedures", "countries", "ask"]);
+  assert.deepEqual(p.sections.map((s) => s.rows.length), [12, 8, 3, 0, 0]);
+  assert.deepEqual(p.sections[1].rows[0].lines, [EVENTS[0], SUBS], "the subscribers line belongs to its event");
+  assert.deepEqual(p.sections[2].tail, ["", "Plus 3 local procedures."]);
+  assert.deepEqual(p.sections[0].rows[0].table, ["| No. | Name | Type | Explanation | Notes |", "|---|---|---|---|---|"]);
+  assert.equal(p.frontmatter, FM.join("\n"));
+  assert.equal(p.preamble, '# Codeunit 9 "Demo"\n\n> Demo summary.');
+});
+
+test("2: section keys: fixed for object headings, snake_case elsewhere, numbered when a heading repeats", () => {
+  assert.equal(sectionKey("Events published"), "events");
+  assert.equal(sectionKey("Fields on this page"), "controls");
+  assert.equal(sectionKey("Objects of its own"), "objects_of_its_own");
+  const twice = parsePage("---\nid: release/al-1\n---\n\n# AL 1\n\n## Bug fixes\n\n- one\n\n## Bug fixes\n\n- two\n");
+  assert.deepEqual(twice.sections.map((s) => s.key), ["bug_fixes", "bug_fixes_2"]);
+  assert.deepEqual(findSection(twice, "bug_fixes_2")?.rows[0].lines, ["- two"]);
+});
+
+test("3: findSection by key, heading or snake_case, case-insensitive", () => {
+  const p = parsePage(P);
+  for (const w of ["events", "Events published", "EVENTS", "events_published"]) assert.equal(findSection(p, w)?.heading, "Events published", w);
+  assert.equal(findSection(p, "foo"), null);
+  assert.equal(findSection(p, "frontmatter")?.rows.length, 43);
+});
+
+test("4: budgetOf", () => {
+  assert.equal(budgetOf(undefined), 30_000);
+  assert.equal(budgetOf(""), 30_000);
+  assert.equal(budgetOf("abc"), 30_000);
+  assert.equal(budgetOf("0"), Infinity);
+  assert.equal(budgetOf("1200"), 5_000);
+  assert.equal(budgetOf("45000"), 45_000);
+});
+
+test("5: a page that fits comes back byte for byte", () => {
+  assert.equal(P.length < 30_000, true);
+  assert.equal(view({}), P);
+  assert.equal(pageView(P, PATH, {}, Infinity, S), P);
+});
+
+test("6: the compact view", () => {
+  const c = view({}, 2000);
+  assert.ok(c.startsWith("---\nid: object/codeunit/9\n"), c.slice(0, 40));
+  assert.ok(!c.includes("generated:") && !c.includes("input_hash"), "generated is dropped");
+  assert.ok(c.includes(URLS[6]) && !c.includes(URLS[7]), "learn keeps demo-page-01 to -07");
+  assert.ok(c.includes(`${URLS[6]}\n    # … 23 more; section: "frontmatter"\n`));
+  assert.ok(c.includes('present_in:\n  - "29"\n  - "30"\n'), "a short list stays whole");
+  assert.ok(c.includes(`Compact view: this page is ${P.length.toLocaleString("en-US")} characters and one answer holds 2,000, so each section shows its first 5 rows.`));
+  assert.ok(c.includes(`Sections: fields (12), events (8), procedures (3), countries, ask, frontmatter. Read one with cat("${PATH}", section: "<key>"); offset and limit page through a long one.`));
+  assert.ok(c.includes(`## Fields\nExplanation: the field's ToolTip.\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS.slice(0, 5).join("\n")}\n→ 7 more of 12: cat("${PATH}", section: "fields", offset: 5)\n`));
+  assert.ok(!c.includes(FIELDS[5]));
+  assert.ok(c.includes(`## Events published\n${EVENTS.slice(0, 5).join("\n")}\n→ 3 more of 8: cat("${PATH}", section: "events", offset: 5)\n`), "without the subscribers line");
+  assert.ok(!c.includes("subscribers:"));
+  assert.ok(c.includes("## Procedures\n- `P1()`\n- `P1(X: Integer)`\n- `P2()`: Does two.\nPlus 3 local procedures.\n"));
+  assert.ok(c.includes(`## Countries that replace it\n[BE](../../localizations/be.md)\n${SOURCE}\n`));
+  assert.ok(c.endsWith("## Ask your agent\nProcedure bodies are not stored here (D10).\n"));
+  assert.ok(!/\n\n\n/.test(c));
+  const fm = /^---\n([\s\S]*?)\n---\n/.exec(c)![1];
+  const y = parseYaml(fm) as { links: { learn: string[] }; present_in: string[] };
+  assert.equal(y.links.learn.length, 7);
+  assert.deepEqual(y.present_in, ["29", "30"]);
+  assert.equal(compactView(P, PATH, 2000), c);
+});
+
+test("7: a section that fits comes back as on the page", () => {
+  assert.equal(view({ section: "fields" }), `${FIRST("fields")}\n\n## Fields\n\nExplanation: the field's ToolTip.\n\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS.join("\n")}\n`);
+});
+
+test("8: offset and limit slice by rows", () => {
+  assert.equal(view({ section: "Events published", offset: 2, limit: 3 }),
+    `${FIRST("events")}\n\n## Events published\n\n${EVENTS.slice(2, 5).join("\n")}\n\nRows 3-5 of 8. Next: cat("${PATH}", section: "events", offset: 5)\n`);
+});
+
+test("9: a table slice repeats its header", () => {
+  assert.equal(view({ section: "fields", offset: 10 }),
+    `${FIRST("fields")}\n\n## Fields\n\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS.slice(10).join("\n")}\n\nRows 11-12 of 12.\n`);
+});
+
+test("10: an offset past the last row reads the closing text", () => {
+  assert.equal(view({ section: "procedures", offset: 3 }), `${FIRST("procedures")}\n\n## Procedures\n\nPlus 3 local procedures.\n`);
+  assert.equal(view({ section: "fields", offset: 12 }), `${FIRST("fields")}\n\n## Fields\n\nNo rows after 12 in section "fields" of ${PATH}.\n`);
+});
+
+test("11: a section without rows ignores offset and comes back whole", () => {
+  assert.equal(view({ section: "countries", offset: 1 }), `${FIRST("countries")}\n\n## Countries that replace it\n\n[BE](../../localizations/be.md)\n\n${SOURCE}\n`);
+});
+
+test("12: the budget cuts a slice before the row that would cross it, keeping continuation lines", () => {
+  const a = sectionView(P, PATH, "events", undefined, undefined, 600, S);
+  assert.ok(a.length <= 600, String(a.length));
+  assert.ok(a.includes(`${EVENTS[0]}\n${SUBS}\n${EVENTS[1]}\n\nRows 1-2 of 8. Next: cat("${PATH}", section: "events", offset: 2)`), a);
+  assert.ok(a.endsWith('offset: 2)\n') && !a.includes("OnEvent3"));
+  // the closing text comes with the last slice when it fits, else the status line points at it
+  assert.ok(view({ section: "procedures", offset: 1 }).endsWith("- `P2()`: Does two.\n\nPlus 3 local procedures.\n\nRows 2-3 of 3.\n"));
+  assert.ok(view({ section: "procedures", offset: 1, limit: 2 }).endsWith(`Rows 2-3 of 3. The section's closing text: cat("${PATH}", section: "procedures", offset: 3)\n`));
+});
+
+test("13-16: a symbol path returns its member's row", () => {
+  assert.equal(view({}, 30_000, `${PATH}#event-OnEvent1`), `Codeunit 9 "Demo", event OnEvent1: ${S}${PATH}/#event-OnEvent1\n\n## Events published\n${EVENTS[0]}\n${SUBS}\n`);
+  const proc = view({}, 30_000, `${PATH}#proc-P1`);
+  assert.ok(proc.startsWith(`Codeunit 9 "Demo", procedure P1: ${S}${PATH}/#proc-P1\n\n## Procedures\n- \`P1()\`\n- \`P1(X: Integer)\`\n`), proc);
+  assert.ok(!proc.includes("P2"));
+  const field = view({}, 30_000, `${PATH}#field-3`);
+  assert.equal(field, `Codeunit 9 "Demo", field 3: ${S}${PATH}/#field-3\n\n## Fields\n| No. | Name | Type | Explanation | Notes |\n|---|---|---|---|---|\n${FIELDS[2]}\n`);
+  assert.ok(!field.includes("| 13 |"));
+  assert.ok(view({ section: "fields", offset: 3 }, 30_000, `${PATH}#field-3`).endsWith(`${FIELDS[2]}\n`), "section, offset and limit are ignored with an anchor");
+  assert.ok(view({}, 30_000, `${PATH}#event-Nope`).startsWith(`(No row for #event-Nope on this page.)\n\n---\nid: object/codeunit/9`));
+  assert.equal(anchorView(P, PATH, "#value-1", S), null, "no values section");
+});
+
+test("17-18: unknown sections and offset without a section answer with the section keys", () => {
+  assert.equal(view({ section: "foo" }), `No section "foo" on ${PATH}. Sections: ${KEYS}.`);
+  assert.equal(view({ offset: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 5). Sections: ${KEYS}.`);
+  assert.equal(view({ limit: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 0). Sections: ${KEYS}.`);
+});
+
+test("19-20: the frontmatter is a section of lines", () => {
+  assert.equal(view({ section: "frontmatter" }), `${FIRST("frontmatter")}\n\n---\n${FM.join("\n")}\n---\n`);
+  assert.equal(view({ section: "frontmatter", limit: 4 }), `${FIRST("frontmatter")}\n\n${FM.slice(0, 4).join("\n")}\n\nRows 1-4 of 43. Next: cat("${PATH}", section: "frontmatter", offset: 4)\n`);
+});
+
+test("21: fenced code is text, not a heading or a row", () => {
+  const md = "---\nid: topic/x\n---\n\n# X\n\n## Example\n\nSome text.\n\n```md\n## Not a heading\n- not a row\n```\n";
+  const p = parsePage(md);
+  assert.deepEqual(p.sections.map((s) => s.key), ["example"]);
+  assert.equal(p.sections[0].rows.length, 0);
+  assert.ok(p.sections[0].head.includes("## Not a heading") && p.sections[0].head.includes("- not a row"));
+});
+
+// ---------------------------------------------------------------------------------------------- test 2, the headings pin
+
+test("every object-page heading the renderer emits has a fixed key, and no other key exists", () => {
+  const src = readFileSync(join(ROOT, "pipeline/render/object.ts"), "utf8");
+  const cut = src.search(/\/\/ -+ localizations/);
+  assert.ok(cut > 0, "the localizations marker");
+  const literals = [...src.slice(0, cut).matchAll(/"## ([^"]+)"/g)].map((m) => m[1]);
+  const headings = [...new Set(literals)];
+  assert.equal(literals.length, 26, literals.join(", "));
+  assert.equal(headings.length, 25);
+  for (const h of headings) assert.ok(OBJECT_KEYS[h], `no key for "## ${h}"`);
+  assert.deepEqual(Object.keys(OBJECT_KEYS).sort(), headings.sort());
+});
+
+// ---------------------------------------------------------------------------------------------- test 3, the committed content
+
+const CONTENT = join(ROOT, "content");
+function mdFiles(dir: string, out: string[] = []): string[] {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, e.name);
+    if (e.isDirectory()) mdFiles(p, out);
+    else if (e.name.endsWith(".md")) out.push(p);
+  }
+  return out;
+}
+const pathOf = (file: string) => file.slice(CONTENT.length + 1).replace(/\.md$/, "");
+const STATUS = /\nRows (\d+)-(\d+) of (\d+)\.(?: Next: cat\("[^"]+", section: "[^"]+", offset: (\d+)\)| The section's closing text: cat\("[^"]+", section: "[^"]+", offset: (\d+)\))?\n$/;
+
+test("real pages: Codeunit 80, Table 18 and Table 36 compact", (t) => {
+  for (const [path, max] of [["objects/codeunit/80", 12_000], ["objects/table/18", 16_000], ["objects/table/36", 16_000]] as const) {
+    const md = readFileSync(join(CONTENT, `${path}.md`), "utf8");
+    const c = compactView(md, path, 30_000);
+    t.diagnostic(`${path}: ${md.length} characters, compact ${c.length}`);
+    assert.ok(c.length < max, `${path}: ${c.length}`);
+    assert.ok(c.startsWith("---\nid: object/"));
+    if (path === "objects/codeunit/80") {
+      const events = /\ncounts:\n(?: {2}.*\n)*? {2}events: (\d+)\n/.exec(md)?.[1];
+      if (events === "530") assert.ok(c.includes('→ 525 more of 530: cat("objects/codeunit/80", section: "events", offset: 5)'));
+      else t.diagnostic(`Codeunit 80 has ${events} events now, not 530: the continuation line is not checked`);
+    }
+  }
+});
+
+test("real pages: every page over the budget has a compact view that parses, and every section reads in slices under it", (t) => {
+  const big = mdFiles(CONTENT).filter((f) => statSync(f).size > 30_000).map((f) => ({ f, md: readFileSync(f, "utf8") })).filter((x) => x.md.length > 30_000);
+  t.diagnostic(`${big.length} pages over 30,000 characters`);
+  assert.ok(big.length > 100);
+  let largestCompact = [0, ""] as [number, string], largestAnswer = [0, ""] as [number, string], mostCalls = [0, ""] as [number, string];
+  const problems: string[] = [];
+  for (const { f, md } of big) {
+    const path = pathOf(f);
+    const c = pageView(md, path, {}, 30_000, S);
+    if (c.length > largestCompact[0]) largestCompact = [c.length, path];
+    if (c.length >= 20_000) problems.push(`${path}: compact ${c.length}`);
+    try { parseYaml(/^---\n([\s\S]*?)\n---\n/.exec(c)![1]); } catch (e) { problems.push(`${path}: compact frontmatter does not parse: ${(e as Error).message.slice(0, 80)}`); }
+    const p = parsePage(md);
+    for (const key of [...p.sections.map((s) => s.key), "frontmatter"]) {
+      const n = findSection(p, key)!.rows.length;
+      let off = 0, calls = 0, covered = 0;
+      for (;;) {
+        const a = sectionView(md, path, key, off, undefined, 30_000, S);
+        calls++;
+        if (a.length > largestAnswer[0]) largestAnswer = [a.length, `${path} ${key} offset ${off}`];
+        if (a.length > 30_000) problems.push(`${path} ${key} offset ${off}: ${a.length}`);
+        const m = STATUS.exec(a);
+        if (!m) { covered += n; break; }
+        if (Number(m[1]) !== off + 1 || Number(m[3]) !== n) problems.push(`${path} ${key}: ${m[0].trim()} at offset ${off}`);
+        covered += Number(m[2]) - Number(m[1]) + 1;
+        if (m[4]) { off = Number(m[4]); continue; }
+        if (m[5]) {
+          const tail = sectionView(md, path, key, Number(m[5]), undefined, 30_000, S);
+          calls++;
+          if (tail.length > 30_000) problems.push(`${path} ${key} closing text: ${tail.length}`);
+        }
+        break;
+      }
+      if (covered !== n) problems.push(`${path} ${key}: ${covered} of ${n} rows`);
+      if (calls > mostCalls[0]) mostCalls = [calls, `${path} ${key}`];
+      if (calls > 30) problems.push(`${path} ${key}: ${calls} calls`);
+    }
+  }
+  t.diagnostic(`largest compact view ${largestCompact[0]} (${largestCompact[1]}), largest answer ${largestAnswer[0]} (${largestAnswer[1]}), most calls ${mostCalls[0]} (${mostCalls[1]})`);
+  assert.deepEqual(problems.slice(0, 20), []);
+});
+
+test("real pages: symbol paths resolve to their rows", (t) => {
+  const cu80 = readFileSync(join(CONTENT, "objects/codeunit/80.md"), "utf8");
+  const ev = anchorView(cu80, "objects/codeunit/80", "#event-OnAfterPostSalesDoc", S);
+  assert.ok(ev?.startsWith('Codeunit 80 "Sales-Post", event OnAfterPostSalesDoc: '), ev ?? "null");
+  assert.ok(ev!.length < 5_000);
+  const t36 = readFileSync(join(CONTENT, "objects/table/36.md"), "utf8");
+  assert.match(anchorView(t36, "objects/table/36", "#field-20", S) ?? "", /\n\| 20 \| Posting Date \|/);
+  const manifest = JSON.parse(readFileSync(join(ROOT, "data/index/symbols-manifest.json"), "utf8")) as { kinds: Record<string, { file?: string; files?: string[] }> };
+  const KIND: Record<string, string> = { fields: "field", events: "event", procs: "proc", values: "value" };
+  const byPage = new Map<string, string[]>();
+  for (const [k, e] of Object.entries(manifest.kinds)) {
+    for (const file of e.files ?? (e.file ? [e.file] : [])) {
+      for (const row of (JSON.parse(readFileSync(join(ROOT, "data/index", file), "utf8")) as { rows: unknown[][] }).rows) {
+        const pk = String(row[0]), key = k === "fields" || k === "values" ? Number(row[2]) : String(row[1]);
+        byPage.set(pk, [...(byPage.get(pk) ?? []), `#${KIND[k]}-${key}`]);
+      }
+    }
+  }
+  let total = 0, ok = 0;
+  const misses: string[] = [];
+  for (const [pk, anchors] of byPage) {
+    const file = join(CONTENT, "objects", `${pk}.md`);
+    const md = existsSync(file) ? readFileSync(file, "utf8") : null;
+    for (const a of anchors) {
+      total++;
+      if (md && anchorView(md, `objects/${pk}`, a, S)) ok++;
+      else misses.push(`objects/${pk}${a}`);
+    }
+  }
+  t.diagnostic(`${ok} of ${total} symbols resolve; misses: ${misses.slice(0, 5).join(", ")}`);
+  assert.ok(total > 100_000);
+  assert.ok(ok / total >= 0.995, `${ok} of ${total}`);
+});
