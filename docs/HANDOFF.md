@@ -10,13 +10,6 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). Status: proposed 2026-10-12, nothing implemented. A1, A2,
-  A3, A4 (home), D1, F5 and F6 of the 2026-10-12 UX review within D88's byte rule: one name map, crumbs without the
-  galaxy system (a chip instead), a 56 px phone bar with a Browse sheet and a two-tier header from 900 px, eight
-  instruments with numbers under the home galaxy. Three phases, each lighter on every object page (−94, −125, −8
-  bytes; −6.26 MB in all). Start with phase 1, task 1: `tests/unit/sections.test.ts` and `pipeline/lib/sections.ts`.
-  Until it lands readers see the 2026-10-12 header (215 px on a phone, two or three rows elsewhere) and the system
-  crumb; localization and source pages have no crumb to their section.
 - **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Status: proposed 2026-10-12, nothing implemented.
   Items D3 and D6 of the 2026-10-12 UX review, home page only, three phases that ship alone: B captions that avoid
   stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
@@ -31,6 +24,16 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-12, live on the next Pages build:**
+- **Wayfinding, D90** (`docs/specs/wayfinding.md`, M28). One map of section names (`pipeline/lib/sections.ts`) read by
+  the nav, crumbs, index titles and h1s, home cards, About, search groups and every `llms.txt`; crumbs follow the
+  sections (`site/src/lib/crumbs.ts`) with the galaxy system as a chip in the identity row, so localization and source
+  pages link their section index again and instrument pages sit under Galaxy / Instruments. The header is a 57 px bar
+  with a Browse sheet (popover API, works without script) under 900 px and two tiers of 92.5 px from 900 px on every
+  page; Theme and the finder are built by `chrome.ts`. Eight instruments with last night's numbers under the home
+  galaxy and on `/objects/` (`site/src/lib/instruments.ts`), a "Further down" line ending the home page's first screen,
+  Watch here / Read it here leading on video and post pages. Measured on the 2026-10-12 content: object pages 227
+  bytes lighter, **tar 695.3 to 689.1 MB**, files 59,135 to 59,136. The section `llms.txt` headings change with the next
+  nightly's derive stage.
 - **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Live after the derive that the merge triggers and its
   Pages build (until then change rows lack branch, major, object count and badges, video rows the review badge, and the
   Major facet is one pill). `/changes/`, `/videos/` and `/posts/` render their newest 50 rows and a closed title list of

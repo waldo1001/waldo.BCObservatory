@@ -939,3 +939,23 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   toggle on long facets (20 clicks to see one of 21 blogs), a select for long facets (a second control shape), the
   running week from `generated.at` (an unchanged re-render keeps the old date), the post stage below the key points
   (the compact card is enough at 1280). Spec: `docs/specs/lists-and-media.md`.
+- **D90 Wayfinding: one name per section, crumbs that follow the sections, a header that fits, instruments with
+  numbers.** Items A1 to A4, D1, F5 and F6 of the 2026-10-12 UX review, under D88's byte rule. One map,
+  `pipeline/lib/sections.ts`, names each section and instrument once, and the nav, crumbs, eyebrows, page titles, h1
+  nouns, home cards, About's counts, the search groups and both kinds of `llms.txt` read it; the nav says AL objects,
+  Localizations, Code changes, Weekly digests (reverses D84's short labels). Crumbs follow the section tree
+  (`site/src/lib/crumbs.ts`); the galaxy system is a chip in the identity row, linked into the galaxy, except where
+  the system is the section (localization and source pages link their section index again). Instrument pages sit
+  under Galaxy / Instruments. Under 900 px the header is a 56 px bar (wordmark, search, Browse) whose sheet holds the
+  week pill, the sections in three groups and Theme, through the HTML popover API with no script; from 900 px it is
+  two tiers on every page, 92.5 px measured (was 120 to 151 px, 74 on the home page at 1440, and 215 on a phone). The
+  theme and finder buttons are built by `chrome.ts`, the search label is an `aria-label`, the pill has no `title`.
+  Eight instruments with last night's numbers (`site/src/lib/instruments.ts`) sit under the home galaxy and on
+  `/objects/`; the footer and the crumb point at the home strip. The home galaxy leaves 48 px for a "Further down" line
+  (amends D70). Video and post pages lead with their stage action; Open in Claude stays primary elsewhere. Object
+  titles keep their AL quotes. Measured on the same content: object pages 227 bytes lighter each (Table 18 154,505 to
+  154,278), tar 695.3 to 689.1 MB, shared CSS +2,552 bytes, chrome script +459, one 626-byte stylesheet added.
+  Rejected: a script-built or `scripting`-gated menu (no nav when the module fails, a flash when it runs), a
+  `details` or checkbox toggle, a sticky phone bar, one row on laptops (1,520 px needed), dropdown groups, visible
+  group labels, short names everywhere, a strip docked in the galaxy, a 70svh cap, "Source on GitHub" as the object
+  primary, unquoted titles, an Instruments nav entry. Spec: `docs/specs/wayfinding.md`.
