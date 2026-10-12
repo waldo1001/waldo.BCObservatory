@@ -2,15 +2,16 @@
 /** The first-party apps (D65), by galaxy system, with their object and hub counts. */
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import { systemLabel } from "../../lib/page";
 const base = import.meta.env.BASE_URL;
 const all = (await getCollection("apps")).sort((a, b) => String(a.data.title).localeCompare(String(b.data.title)));
 const systems = [...new Set(all.map((a) => String(a.data.system)))].sort((a, b) => (systemLabel(a) ?? a).localeCompare(systemLabel(b) ?? b));
 const objects = all.reduce((n, a) => n + Number(a.data.counts?.objects ?? 0), 0);
 ---
-<List section="apps" title="First-party apps · BC Observatory" description="Microsoft's first-party Business Central apps: their objects, the Learn hubs that document them, the videos and posts that name them.">
-  <p class="eyebrow">First-party apps</p>
-  <h1>{all.length} apps</h1>
+<List section="apps" title={`${section("apps").name} · BC Observatory`} description="Microsoft's first-party Business Central apps: their objects, the Learn hubs that document them, the videos and posts that name them.">
+  <p class="eyebrow">{section("apps").name}</p>
+  <h1>{countLabel("apps", all.length)}</h1>
   <p class="lede">Microsoft's first-party apps in BCApps (<code>src/Apps/W1</code>), {objects.toLocaleString("en")} objects in all, each in the galaxy system its objects belong to. An app page lists its objects by type, the Learn hubs that document them and the videos and posts that name them. Agents: <a href={`${base}apps/llms.txt`}>llms.txt</a>. All objects: <a href={`${base}objects/`}>the atlas</a>.</p>
   {systems.map((s) => (
     <section>

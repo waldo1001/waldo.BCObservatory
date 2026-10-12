@@ -3,13 +3,13 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { aboutMarkdown, fillCounts, personas, splitHtml, splitSections, totalPages, type AboutCounts } from "../../site/src/lib/about.js";
 
-const counts: AboutCounts = { topics: 605, objects: 25645, apps: 96, localizations: 22, features: 80, videos: 616, posts: 601, changes: 1083, digests: 4, sources: 32 };
+const counts: AboutCounts = { topics: 605, objects: 25645, apps: 96, localizations: 22, features: 80, videos: 616, posts: 601, changes: 1083, digests: 4, sources: 32, releases: 63 };
 const real = readFileSync(new URL("../../site/src/about/about.md", import.meta.url), "utf8");
 const ROUTES = ["objects/table/18/", "neighbourhood/?mode=events", "code/versions/", "code/deprecations/", "changes/week/", "localizations/be/", "#lens=pick:localization", "mcp/", "mcp/#plugin", "sources/", "drift/"];
 
 test("fillCounts formats every known placeholder and refuses an unknown one", () => {
-  assert.equal(fillCounts("{{objects}} objects, {{topics}} hubs, {{pages}} pages", counts), "25,645 objects, 605 hubs, 28,784 pages");
-  assert.equal(totalPages(counts), 28784);
+  assert.equal(fillCounts("{{objects}} objects, {{topics}} hubs, {{pages}} pages", counts), "25,645 objects, 605 hubs, 28,847 pages");
+  assert.equal(totalPages(counts), 28847);
   assert.throws(() => fillCounts("{{nope}}", counts), /\{\{nope\}\}/);
 });
 

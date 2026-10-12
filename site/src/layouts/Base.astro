@@ -45,15 +45,14 @@ const week = landed();
             {nav.map(([id, label]) => <a href={`${base}${id}/`} aria-current={section === id ? "page" : undefined}>{label}</a>)}
           </nav>
           {(week.count > 0 || week.changes > 0) && section !== "home" && (
-            <span class="new-pill" title="The last 7 days, lit in the galaxy">
+            <span class="new-pill">
               {week.count > 0 && <a href={`${base}#lens=landed&kinds=v,p`}><b>{week.count}</b> new this week</a>}
               {week.count > 0 && week.changes > 0 && <span class="sep" aria-hidden="true">·</span>}
               {week.changes > 0 && <a href={`${base}#lens=landed&kinds=c`}><b>{week.changes}</b> PRs</a>}
             </span>
           )}
           <form class="site-search" role="search" action={`${base}search/`} method="get">
-            <label class="skip" for="q">Search the knowledge base</label>
-            <input id="q" name="q" type="search" placeholder="Search: t18, Sales-Post, BE" autocomplete="off" />
+            <input id="q" aria-label="Search" name="q" type="search" placeholder="Search: t18, Sales-Post, BE" autocomplete="off" />
             <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="Switch light or dark theme">◐</button>
             <button class="icon-btn pal-btn" type="button" data-palette aria-label="Find an AL object (Ctrl+K)">⌘K</button>
           </form>

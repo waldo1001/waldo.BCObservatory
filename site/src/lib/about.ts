@@ -2,10 +2,12 @@
  * The About page (D83, docs/specs/about-page.md): the owner's hand-written text in site/src/about/about.md, the seven
  * "for who" cards, the count placeholders, and the markdown twin. No Astro imports: tests/unit/about.test.ts runs it.
  */
+import { contentSections } from "../../../pipeline/lib/sections.js";
+
 export interface Persona { who: string; ask: string; answer: string; links: { label: string; href: string }[] }
 export interface AboutCounts {
   topics: number; objects: number; apps: number; localizations: number; features: number;
-  videos: number; posts: number; changes: number; digests: number; sources: number;
+  videos: number; posts: number; changes: number; digests: number; sources: number; releases: number;
 }
 export interface AboutRun { date: string; status: string; items_changed: number }
 export type AboutSection = "who" | "why" | "how" | "forWho";
@@ -34,7 +36,7 @@ export function personas(base: string, repo = REPO): Persona[] {
       links: [{ label: "Sources", href: `${base}sources/` }, { label: "Add your blog or channel", href: `${repo}/blob/main/sources.yaml` }, { label: "Content notice", href: `${repo}/blob/main/CONTENT-NOTICE.md` }] },
     { who: "The reader who suspects Learn is out of date", ask: "Does Learn still document something that is gone?",
       answer: "The drift report lists obsolete objects Learn still documents and new objects nobody documented yet.",
-      links: [{ label: "Drift", href: `${base}drift/` }] },
+      links: [{ label: "Learn drift", href: `${base}drift/` }] },
     { who: "Me", ask: "Did that nightly actually land?",
       answer: "I use this every day from Claude Code. That is why the bugs get fixed, and why you should tell me about the ones I missed.",
       links: [{ label: "Report a problem", href: `${repo}/issues` }] },
@@ -53,7 +55,7 @@ export function fillCounts(md: string, counts: AboutCounts): string {
 }
 
 export function totalPages(c: AboutCounts): number {
-  return c.topics + c.objects + c.apps + c.localizations + c.features + c.videos + c.posts + c.changes + c.digests + c.sources;
+  return c.topics + c.objects + c.apps + c.localizations + c.features + c.videos + c.posts + c.changes + c.digests + c.sources + c.releases;
 }
 
 const HEADINGS: [AboutSection, string][] = [["who", "Who"], ["why", "Why"], ["how", "How"], ["forWho", "For who"]];
@@ -85,20 +87,10 @@ export function splitHtml(html: string): { whoWhy: string; how: string; forWho: 
   return { whoWhy, how, forWho };
 }
 
-/** The sections of "What is in it today", one line each, with the live counts. */
+/** The sections of "What is in it today", one line each, with the live counts: the eleven content sections of the
+ * section map (D90), the same names, order and blurbs as the home page's cards. */
 export function countRows(counts: AboutCounts, base: string): { label: string; count: number; href: string; text: string }[] {
-  return [
-    { label: "Topic hubs", count: counts.topics, href: `${base}topics/`, text: "Seeded from the Microsoft Learn tables of contents, linked to Learn." },
-    { label: "AL objects", count: counts.objects, href: `${base}objects/`, text: "Every W1 and first-party app object of BC28 to BC30, from the code." },
-    { label: "First-party apps", count: counts.apps, href: `${base}apps/`, text: "Microsoft's apps with their objects, Learn hubs, videos and posts." },
-    { label: "Localizations", count: counts.localizations, href: `${base}localizations/`, text: "What each country layer adds to or changes in W1, down to the field." },
-    { label: "Roadmap features", count: counts.features, href: `${base}features/`, text: "Business Central on the Microsoft 365 roadmap, with status." },
-    { label: "Videos", count: counts.videos, href: `${base}videos/`, text: "Sessions as timestamped evidence." },
-    { label: "Community posts", count: counts.posts, href: `${base}posts/`, text: "Blog posts as derived summaries with short quotes and a link to the original." },
-    { label: "Code changes", count: counts.changes, href: `${base}changes/`, text: "Merged pull requests of Microsoft's repositories, joined to the objects they changed." },
-    { label: "Weekly digests", count: counts.digests, href: `${base}digests/`, text: "What changed each week, with a deprecation radar. Also as RSS." },
-    { label: "Sources", count: counts.sources, href: `${base}sources/`, text: "Each blog and channel with its footprint and flight path." },
-  ];
+  return contentSections().map((s) => ({ label: s.name, count: counts[s.id as keyof AboutCounts], href: `${base}${s.path}`, text: s.blurb! }));
 }
 
 /** One sentence each for the two graphics; the SVG `<desc>` and the twin print the same words. */

@@ -14,7 +14,7 @@ const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"
 const plugin = JSON.parse(readFileSync(resolve(root, "plugin/.claude-plugin/plugin.json"), "utf8")).version as string;
 const steps = installSteps(REPO);
 ---
-<List title="MCP · BC Observatory" description="The bc-observatory MCP server and the Claude Code plugin: what your agent can ask about Business Central, and how to install them." section="mcp" crumb="MCP">
+<List title="MCP · BC Observatory" description="The bc-observatory MCP server and the Claude Code plugin: what your agent can ask about Business Central, and how to install them." section="mcp">
   <p class="eyebrow">mcp</p>
   <h1>Business Central for your agent</h1>
   <p class="lede">The knowledge base this site is built from, as an MCP server your agent can query, and a Claude Code plugin around it. Every answer carries the page, its trust tier and its evidence. No API key, no account.</p>

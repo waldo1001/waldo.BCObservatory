@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, instrument, section } from "../../../../pipeline/lib/sections";
 import { NS_SYSTEM } from "../../../../pipeline/lib/systems";
 import { majors as majorsOf } from "../../lib/versions";
 const all = await getCollection("objects");
@@ -14,9 +15,9 @@ const base = import.meta.env.BASE_URL;
 const ms = majorsOf();
 const majors = ms.map((m) => m.version);
 ---
-<List section="objects" title="AL objects · BC Observatory" description="Every W1 and first-party app object of Business Central, extracted from the code: a zoomable atlas by namespace.">
-  <p class="eyebrow">AL objects</p>
-  <h1>{all.length.toLocaleString("en")} objects</h1>
+<List section="objects" title={`${section("objects").name} · BC Observatory`} description="Every W1 and first-party app object of Business Central, extracted from the code: a zoomable atlas by namespace.">
+  <p class="eyebrow">{section("objects").name}</p>
+  <h1>{countLabel("objects", all.length)}</h1>
   <p class="lede">Extracted from the code (names, ids, signatures, properties; no code bodies): fields, keys, procedures, events, subscriptions, relations, obsolete state, versions, countries that replace them and the Learn pages that name them. Agents: <a href={`${base}objects/llms.txt`}>llms.txt</a>, <a href={`${base}index/objects.json`}>objects.json</a>. Press <kbd>Ctrl</kbd>+<kbd>K</kbd> anywhere to jump to an object. See also the <a href={`${base}code/versions/`}>version lens</a>, the <a href={`${base}code/deprecations/`}>deprecation radar</a> and the <a href={`${base}events/`}>event explorer</a>.</p>
   <section class="atlas" data-base={base} data-systems={JSON.stringify(NS_SYSTEM)} data-majors={JSON.stringify(majors)} aria-label="Codebase atlas">
     <form class="atlas-bar" onsubmit="return false">
@@ -37,12 +38,12 @@ const majors = ms.map((m) => m.version);
   <h2 id="instruments">Instruments</h2>
   <p class="meta">The views over the code that are not the page of one object. The footer of every page points here (D88).</p>
   <ul class="rows instruments">
-    <li><a href={`${base}code/versions/`}>Version lens</a><span class="meta">one major against the next: objects added, removed and changed, and what differs inside them</span></li>
-    <li><a href={`${base}code/deprecations/`}>Deprecation radar</a><span class="meta">every obsolete object, field, enum value and procedure of a major, with the version that removes it</span></li>
-    <li><a href={`${base}events/`}>Event explorer</a><span class="meta">every published event and who subscribes to it in Microsoft's code</span></li>
-    <li><a href={`${base}neighbourhood/`}>Neighbourhood explorer</a><span class="meta">what touches one object: relations, pages, extensions, subscribers, two rings deep</span></li>
-    <li><a href={`${base}coverage/`}>Coverage heatmap</a><span class="meta">pages per galaxy system and pillar: where Learn, the code, videos and posts are thick or thin</span></li>
-    <li><a href={`${base}drift/`}>Learn and the code</a><span class="meta">the objects Learn pages name, joined to the code by exact id, and where the two disagree</span></li>
+    <li><a href={`${base}${instrument("versions").path}`}>{instrument("versions").name}</a><span class="meta">one major against the next: objects added, removed and changed, and what differs inside them</span></li>
+    <li><a href={`${base}${instrument("deprecations").path}`}>{instrument("deprecations").name}</a><span class="meta">every obsolete object, field, enum value and procedure of a major, with the version that removes it</span></li>
+    <li><a href={`${base}${instrument("events").path}`}>{instrument("events").name}</a><span class="meta">every published event and who subscribes to it in Microsoft's code</span></li>
+    <li><a href={`${base}${instrument("neighbourhood").path}`}>{instrument("neighbourhood").name}</a><span class="meta">what touches one object: relations, pages, extensions, subscribers, two rings deep</span></li>
+    <li><a href={`${base}${instrument("coverage").path}`}>{instrument("coverage").name}</a><span class="meta">pages per galaxy system and pillar: where Learn, the code, videos and posts are thick or thin</span></li>
+    <li><a href={`${base}${instrument("drift").path}`}>{instrument("drift").name}</a><span class="meta">the objects Learn pages name, joined to the code by exact id, and where the two disagree</span></li>
   </ul>
   <h2>Per type</h2>
   <ul class="rows type-list">{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="mono-meta">{n.toLocaleString("en")}</span></li>)}</ul>

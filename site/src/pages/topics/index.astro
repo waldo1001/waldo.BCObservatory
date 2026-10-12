@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 const base = import.meta.env.BASE_URL;
 const all = await getCollection("topics");
 const roots = all.filter((t) => !t.data.parent).sort((a, b) => a.id.localeCompare(b.id));
@@ -8,9 +9,9 @@ const byParent = new Map<string, typeof all>();
 for (const t of all) if (t.data.parent) byParent.set(t.data.parent, [...(byParent.get(t.data.parent) ?? []), t]);
 const href = (t: (typeof all)[number]) => `${base}topics/${t.id}/`;
 ---
-<List section="topics" title="Topics · BC Observatory" description="Topic hubs seeded from the Microsoft Learn TOCs.">
-  <p class="eyebrow">Topics</p>
-  <h1>{all.length} topics</h1>
+<List section="topics" title={`${section("topics").name} · BC Observatory`} description="Topic hubs seeded from the Microsoft Learn TOCs.">
+  <p class="eyebrow">{section("topics").name}</p>
+  <h1>{countLabel("topics", all.length)}</h1>
   <p class="lede">Hubs seeded from the Microsoft Learn TOCs. Each lists what Learn documents in that section and links out to Learn. Agents: <a href={`${base}topics/llms.txt`}>llms.txt</a>.</p>
   {roots.map((r) => (
     <section>

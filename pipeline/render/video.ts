@@ -28,6 +28,7 @@ import { featureStatus, latestRoadmap } from "./feature.js";
 import { loadEmbedOverrides } from "../extract/preview-probe.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const STATUS_LABEL: Record<string, string> = { ga: "generally available", preview: "preview", announced: "announced", unclear: "status not stated" };
 const videoIdOf = (item: ManifestItem) => item.id.slice(item.id.lastIndexOf("/") + 1);
@@ -176,7 +177,7 @@ export function renderVideoIndex(contentDir: string): number {
   const path = join(dir, "llms.txt");
   if (!entries.length) { removeIfExists(path); return 0; }
   const text = [
-    "# BC Observatory: videos", "",
+    llmsTitle("videos"), "",
     "> Business Central videos as structured evidence: summary, chapters, features with verified status quotes, AL objects as heard,",
     "> timestamped links. Each page is markdown with strict frontmatter (schemas/frontmatter.video.json). Tier official = Microsoft.", "",
     `${entries.length} videos, newest first.`, "",

@@ -16,6 +16,7 @@ import { clip } from "../summarize/video.js";
 import { latestSnapshot, releasesDir, type ReleaseDiff, type SnapshotVersion } from "../ingest/marketplace.js";
 import type { StageContext, StageHandler } from "../orchestrator/execute.js";
 import { PIPELINE_VERSION } from "../version.js";
+import { llmsTitle } from "../lib/sections.js";
 
 export interface VersionChange { at: string; added: string[]; changed: string[]; removed: string[] }
 
@@ -124,7 +125,7 @@ export function renderReleaseIndex(contentDir: string, dataDir: string): number 
     return `- [AL Language extension ${cell(v.version)}](${v.key}.md): ${parts.join(", ")}`;
   };
   const text = [
-    "# BC Observatory: releases", "",
+    llmsTitle("releases"), "",
     "> Microsoft's changelog of the AL Language extension for Visual Studio Code, one page per extension version, with",
     "> dates from the marketplace gallery. Each page has strict frontmatter (schemas/frontmatter.release.json).", "",
     `${rows.length} versions, newest first.`, "",

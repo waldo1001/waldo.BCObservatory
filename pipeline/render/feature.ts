@@ -23,6 +23,7 @@ import type { Manifest } from "../lib/manifest.js";
 import type { StageContext, StageHandler } from "../orchestrator/execute.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
@@ -161,7 +162,7 @@ export function renderFeatureIndex(contentDir: string, dataDir: string): number 
   const rows = pages.map((e) => ({ e, ga: roadmapMonth(e.ga) ?? "", status: featureStatus(e, now) }))
     .sort((a, b) => b.ga.localeCompare(a.ga) || (a.e.area ?? "").localeCompare(b.e.area ?? "") || a.e.title.localeCompare(b.e.title));
   const text = [
-    "# BC Observatory: features", "",
+    llmsTitle("features"), "",
     "> Business Central features from the Microsoft 365 roadmap (the successor of the release plans): status, wave, dates and",
     "> Microsoft's description. Each page has strict frontmatter (schemas/frontmatter.feature.json).", "",
     `${rows.length} features, newest GA month first.`, "",

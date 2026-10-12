@@ -16,7 +16,7 @@ const pages = new Map((await getCollection("changes")).map((c) => [`change/${c.i
 const LABEL: Record<string, string> = { breaking: "Breaking", features: "Features", fixes: "Fixes", other: "Other", tooling: "Tooling (AL-Go, BCQuality)" };
 const span = week.anchor ? `the ${week.days ?? 7} days up to ${week.anchor}` : "the last 7 days";
 ---
-<List section="changes" title="Code changes this week · BC Observatory" description={`Change pages merged in ${span}, grouped by kind.`}>
+<List section="changes" title="Code changes this week · BC Observatory" description={`Change pages merged in ${span}, grouped by kind.`} crumb="This week">
   <p class="eyebrow"><a href={`${base}changes/`}>Code changes</a> / this week</p>
   <h1>{computed ? `${rows.length} code ${rows.length === 1 ? "change" : "changes"} in ${span}` : `Code changes in ${span}`}</h1>
   {!computed && <p class="meta">This week's list is computed by the pipeline after the code that produces it lands; until then see <a href={`${base}changes/`}>all changes</a>.</p>}

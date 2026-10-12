@@ -15,7 +15,7 @@ const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `localizations
   .replace(/<h2 id="w1-objects-this-country-changes">[\s\S]*?(?=<h2|$)/, "");
 ---
 <Page fm={fm} kind={`localization · BC${fm.version}`} path={`localizations/${entry.id}`} section="localizations"
-  stats={[{ n: fm.added_objects ?? 0, label: "objects of its own", href: "#objects-of-its-own" }, { n: fm.replaced_objects ?? 0, label: "W1 objects changed", href: "#country-diff" }]} crumbs={[{ label: "Localizations", href: `${base}localizations/` }]}>
+  stats={[{ n: fm.added_objects ?? 0, label: "objects of its own", href: "#objects-of-its-own" }, { n: fm.replaced_objects ?? 0, label: "W1 objects changed", href: "#country-diff" }]}>
   <CountryDiff country={String(fm.country)} version={String(fm.version)} base={base} />
   <div class="prose" set:html={wrapTables(html)} />
 </Page>

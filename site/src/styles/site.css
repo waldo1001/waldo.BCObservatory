@@ -275,3 +275,10 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
 .pal-list li.on a, .pal-list a:hover { background: var(--surface-raised); }
 .pal-title { font-weight: 600; }
 .pal-sub { color: var(--muted); font-size: 13px; }
+
+/* D90 */
+/* the galaxy system is a chip in the identity row, not a crumb: the type label and the chip's dot take its colour */
+.identity .type-label { color: var(--sys); }
+.identity > a { display: inline-flex; align-items: center; gap: 5px; font: 400 12px var(--font-mono); color: var(--text-2); text-decoration: none; }
+.identity > a::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--sys, var(--muted)); }
+.identity > a:hover { color: var(--text); text-decoration: underline; }

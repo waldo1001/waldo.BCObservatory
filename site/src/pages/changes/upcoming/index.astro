@@ -5,7 +5,7 @@ const base = import.meta.env.BASE_URL;
 const all = activities();
 const repoName = (slug: string) => ({ bcapps: "microsoft/BCApps", "al-go": "microsoft/AL-Go", bcquality: "microsoft/BCQuality" } as Record<string, string>)[slug] ?? slug;
 ---
-<List section="changes" title="Upcoming code changes · BC Observatory" description="Open pull requests, open issues and releases of Microsoft's Business Central repositories.">
+<List section="changes" title="Upcoming code changes · BC Observatory" description="Open pull requests, open issues and releases of Microsoft's Business Central repositories." crumb="Upcoming">
   <p class="eyebrow">Code changes · upcoming</p>
   <h1>What is moving</h1>
   <p class="lede">Open pull requests (no page until they merge), the newest open issues and the releases, per repository. Merged changes are on <a href={`${base}changes/`}>Code changes</a>. Lists only, read every night.</p>

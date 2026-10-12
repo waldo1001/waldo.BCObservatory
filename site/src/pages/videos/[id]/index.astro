@@ -18,7 +18,7 @@ const body = trimBody(siteLinks(entry.rendered?.html ?? "", base, `videos/${entr
 const chapters = stage ? ((fm.chapters ?? []) as { t: number; title: string }[]) : [];
 const html = stage ? tagSeekLinks(trimMeta(body).replace(chapters.length ? /<h2 id="chapters">[\s\S]*?(?=<h2|$)/ : /$^/, ""), String(fm.video_id ?? entry.id)) : body;
 ---
-<Page fm={fm} kind="video" path={`videos/${entry.id}`} section="videos" crumbs={[{ label: "Videos", href: `${base}videos/` }]}
+<Page fm={fm} kind="video" path={`videos/${entry.id}`} section="videos"
   context={stage ? { label: "Watch here", href: watch, opens: "stage" } : { label: "Watch on YouTube", href: watch }}>
   {stage && <SourceStage kind="video" title={String(fm.title)} url={watch} sourceName={String(fm.source_name ?? fm.channel ?? "")}
     date={fm.published_at} videoId={String(fm.video_id ?? entry.id)} durationS={fm.duration_s} chapters={chapters} />}

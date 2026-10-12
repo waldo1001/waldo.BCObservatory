@@ -25,7 +25,7 @@ const html = trimBody(siteLinks(entry.rendered?.html ?? "", base, `sources/${ent
   .replace(/<h2 id="flight-path">[\s\S]*?(?=<h2|$)/, "")
   .replace(/<h2 id="most-recent">[\s\S]*?(?=<h2|<p>Source:|$)/, "");
 ---
-<Page fm={fm} kind={fm.kind === "youtube" ? "channel" : fm.kind === "github-pr" ? "repository" : "blog"} path={`sources/${entry.id}`} section="sources" crumbs={[{ label: "Sources", href: `${base}sources/` }]}
+<Page fm={fm} kind={fm.kind === "youtube" ? "channel" : fm.kind === "github-pr" ? "repository" : "blog"} path={`sources/${entry.id}`} section="sources"
   stats={[{ n: fm.item_count, label: fm.kind === "youtube" ? "videos" : fm.kind === "github-pr" ? "changes" : "posts" }, ...(fm.first_item ? [{ n: String(fm.first_item).slice(0, 7), label: "first item" }] : [])]}
   context={{ label: "Visit", href: fm.url }} icon={sourceIcon(fm.source_id)}>
   <div class="prose" set:html={wrapTables(html)} />

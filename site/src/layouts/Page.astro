@@ -11,10 +11,13 @@ import PageGalaxy from "../components/PageGalaxy.astro";
 import Related from "../components/Related.astro";
 
 import { openInClaude, pageSystem, systemLabel } from "../lib/page";
+import { actionOrder, systemChip, trail, type Crumb } from "../lib/crumbs";
+import type { SectionId } from "../../../pipeline/lib/sections";
 interface Stat { n: number | string; label: string; href?: string }
 interface Props {
-  fm: Record<string, any>; kind: string; path: string; section: string;
-  crumbs?: { label: string; href?: string }[]; stats?: Stat[]; context?: { label: string; href: string; opens?: "stage" }; ns?: string; summary?: string | null;
+  fm: Record<string, any>; kind: string; path: string; section: SectionId;
+  /** The parents below the section (D90): an object's type, a hub's parent topic, a post's source. */
+  crumbs?: Crumb[]; stats?: Stat[]; context?: { label: string; href: string; opens?: "stage" }; ns?: string; summary?: string | null;
   /** The side column's connections graph (ego graph); object pages draw their own neighbourhood instead. */
   connections?: boolean;
   /** A source's own icon in the identity row (D60 phase 2): the blog's favicon or the channel's avatar, hotlinked. */
@@ -26,17 +29,20 @@ const site = new URL(base, Astro.site ?? "https://waldo1001.github.io").href;
 const mdUrl = `${base}${path}.md`;
 const mdName = `${path.split("/").pop()}.md`;
 const system = pageSystem(fm);
-const sysCrumb = system ? [{ label: systemLabel(system)!, href: `${base}#system=${system}` }] : [];
-const all = [{ label: "Galaxy", href: base }, ...sysCrumb, ...crumbs.filter((c) => !sysCrumb.some((s) => s.label === c.label)), { label: fm.title }];
+// D90: crumbs follow the section tree; the galaxy system is a chip in the identity row, not a crumb
+const all = trail(base, section, crumbs, String(fm.title));
+const chip = systemChip(system, section, systemLabel(system), base);
+const stageFirst = actionOrder(context) === "context";
 const long = String(fm.title).length > 38;
 const g = fm.generated ?? {};
 ---
 <Base title={`${fm.title} · BC Observatory`} description={fm.summary} markdown={mdUrl} section={section}>
   <main class="wrap page">
     <Breadcrumb crumbs={all} />
-    <div class="identity">
+    <div class="identity" style={system ? `--sys:var(--sys-${system})` : undefined}>
       {icon && <img class="identity-icon" src={icon} alt="" width="20" height="20" loading="lazy" decoding="async" referrerpolicy="strict-origin-when-cross-origin" onerror="this.remove()" />}
-      <span class="type-label" style={system ? `color: var(--sys-${system})` : undefined}>{kind}</span>
+      <span class="type-label">{kind}</span>
+      {chip && <a href={chip.href}>{chip.label}</a>}
       <Badges tier={fm.tier} review={fm.review?.state} status={fm.type === "feature" ? fm.status : null} />
       {fm.obsolete?.state && <span class="badge obsolete">obsolete - {String(fm.obsolete.state).toLowerCase()}</span>}
     </div>
@@ -47,11 +53,11 @@ const g = fm.generated ?? {};
       <ul class="stats">{stats.map((s) => <li>{s.href ? <a href={s.href}><b>{typeof s.n === "number" ? s.n.toLocaleString("en") : s.n}</b>{s.label}</a> : <span><b>{typeof s.n === "number" ? s.n.toLocaleString("en") : s.n}</b>{s.label}</span>}</li>)}</ul>
     )}
     <div class="actions">
-      <a class="btn primary" href={openInClaude(String(fm.title), new URL(`${path}.md`, site).href)} rel="noopener">Open in Claude</a>
+      {/* D90 (F5): where the context action opens the page's own stage (Watch here, Read it here) it leads */}
+      {context && stageFirst && <a class="btn primary" href={context.href} rel="noopener" data-stage-open aria-expanded="false">{context.label}</a>}
+      <a class={stageFirst ? "btn" : "btn primary"} href={openInClaude(String(fm.title), new URL(`${path}.md`, site).href)} rel="noopener">Open in Claude</a>
       <a class="btn mono" href={mdUrl} type="text/markdown">{mdName}</a>
-      {context && (context.opens === "stage"
-        ? <a class="btn" href={context.href} rel="noopener" data-stage-open aria-expanded="false">{context.label}</a>
-        : <a class="btn" href={context.href} rel="noopener">{context.label}</a>)}
+      {context && !stageFirst && <a class="btn" href={context.href} rel="noopener">{context.label}</a>}
     </div>
     <div class="columns">
       <div class="main"><slot /></div>

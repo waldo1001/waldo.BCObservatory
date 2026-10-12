@@ -22,6 +22,7 @@ import { activityPath, backportsPath, repoSlug, type Activity, type Backport } f
 import { loadSources } from "../lib/config.js";
 import { PIPELINE_VERSION } from "../version.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? "" : "s"}`;
@@ -195,7 +196,7 @@ export function renderChangeIndex(contentDir: string, dataDir?: string): number 
     .sort((a, b) => String(b.fm.merged_at).localeCompare(String(a.fm.merged_at)) || b.fm.number - a.fm.number);
   const idx = resolve(dir, "llms.txt");
   if (!rows.length) { removeIfExists(idx); return 0; }
-  const text = ["# BC Observatory: code changes", "", "> Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,",
+  const text = [llmsTitle("changes"), "", "> Merged pull requests of Microsoft's Business Central code (microsoft/BCApps) that touch AL source: what changed, in our words,",
     "> joined by exact file path to the AL object pages. Tier official, metadata only. Frontmatter: schemas/frontmatter.change.json.", "", `${rows.length} changes, newest first.`, "",
     ...rows.map((r) => `- [${cell(r.fm.title)}](${r.rel}): ${cell(r.fm.summary)} (${r.fm.base_branch}, ${String(r.fm.merged_at).slice(0, 10)}, ${r.fm.change_kind})`), "",
     ...(dataDir ? loadActivity(dataDir).flatMap(({ repo, activity: a }) => [

@@ -18,7 +18,7 @@ const stats = [
 ];
 ---
 <Page fm={fm} kind={`code change · ${fm.change_kind}${fm.breaking ? " · breaking" : ""}`} path={`changes/${entry.id}`} section="changes"
-  crumbs={[{ label: "Code changes", href: `${base}changes/` }]} stats={stats}
+  stats={stats}
   context={{ label: `Pull request #${fm.number}`, href: fm.url }}>
   <div class="prose" set:html={wrapTables(html)} />
 </Page>

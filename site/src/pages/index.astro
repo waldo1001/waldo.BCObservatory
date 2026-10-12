@@ -5,9 +5,9 @@ import Galaxy from "../components/Galaxy.astro";
 import Badges from "../components/Badges.astro";
 import { questions } from "../lib/questions";
 import { pageSystem, systemLabel } from "../lib/page";
-const [topics, features, objects, localizations, videos, posts, digests, sources, changes, releases] = await Promise.all(
-  ["topics", "features", "objects", "localizations", "videos", "posts", "digests", "sources", "changes", "releases"].map((c) => getCollection(c as any)),
-);
+import { contentSections } from "../../../pipeline/lib/sections";
+const [videos, posts, digests] = await Promise.all(["videos", "posts", "digests"].map((c) => getCollection(c as any)));
+const counts = Object.fromEntries(await Promise.all(contentSections().map(async (s) => [s.id, (await getCollection(s.id as any)).length]))) as Record<string, number>;
 const base = import.meta.env.BASE_URL;
 const repo = "https://github.com/waldo1001/waldo.BCObservatory";
 const digest = [...digests].sort((a, b) => b.id.localeCompare(a.id))[0];
@@ -15,18 +15,8 @@ const digest = [...digests].sort((a, b) => b.id.localeCompare(a.id))[0];
 const dated = [...videos.map((e) => ({ e, dir: "videos" })), ...posts.map((e) => ({ e, dir: "posts" }))]
   .filter(({ e }) => e.data.published_at).sort((a, b) => String(b.e.data.published_at).localeCompare(String(a.e.data.published_at))).slice(0, 6);
 const n = (x: number) => x.toLocaleString("en");
-const sections = [
-  { id: "topics", label: "Topic hubs", count: topics.length, text: "Seeded from the Microsoft Learn tables of contents. What Learn documents per topic, linked to Learn." },
-  { id: "objects", label: "AL objects", count: objects.length, text: "Every W1 and first-party app object of BC28 to BC30, from the code: fields, events, procedures, versions, countries." },
-  { id: "localizations", label: "Localizations", count: localizations.length, text: "What each country layer adds to or changes in W1, down to the field." },
-  { id: "features", label: "Roadmap", count: features.length, text: "Business Central on the Microsoft 365 roadmap, with the videos and Learn pages that cover each feature." },
-  { id: "videos", label: "Videos", count: videos.length, text: "Sessions as timestamped evidence: chapters, key points, quotes that deep-link to the second." },
-  { id: "posts", label: "Community posts", count: posts.length, text: "Blog posts as derived summaries with short quotes and a link to the original." },
-  { id: "digests", label: "Weekly", count: digests.length, text: "What changed each week, with a deprecation radar. Also as RSS." },
-  { id: "sources", label: "Sources", count: sources.length, text: "Each blog and channel with its footprint and flight path through the galaxy." },
-  { id: "changes", label: "Code changes", count: changes.length, text: "Merged pull requests of Microsoft's BCApps that touch AL source, linked to the objects they changed." },
-  { id: "releases", label: "AL extension releases", count: releases.length, text: "Microsoft's changelog of the AL Language extension, one page per version, with what was added to it later." },
-];
+// D90: the eleven content sections in one order with one name and one blurb, the same as About's counts
+const sections = contentSections().map((s) => ({ path: s.path, label: s.name, count: counts[s.id], text: s.blurb }));
 ---
 <Base title="BC Observatory" section="home" description="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, rebuilt every night.">
   <main>
@@ -59,7 +49,7 @@ const sections = [
     <section class="wrap block" aria-labelledby="sections">
       <h2 class="section-title" id="sections">Sections</h2>
       <ul class="cards">
-        {sections.map((s) => <li><a href={`${base}${s.id}/`}><b>{s.label}</b><span class="mono-meta">{n(s.count)}</span><p>{s.text}</p></a></li>)}
+        {sections.map((s) => <li><a href={`${base}${s.path}`}><b>{s.label}</b><span class="mono-meta">{n(s.count)}</span><p>{s.text}</p></a></li>)}
       </ul>
     </section>
 

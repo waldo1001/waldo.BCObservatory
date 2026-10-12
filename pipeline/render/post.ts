@@ -25,6 +25,7 @@ import { loadEmbedOverrides, previewFor, type PreviewBlock } from "../extract/pr
 import { PIPELINE_VERSION } from "../version.js";
 import { loadObjectIndex, mentionSection, type ObjectIndex } from "../link/mentions.js";
 import { reviewOf, reviewWords } from "../lib/review.js";
+import { llmsTitle } from "../lib/sections.js";
 
 const cell = (s: string) => s.replace(/\|/g, "\\|").replace(/\s+/g, " ").trim();
 export const postPageKey = (item: Pick<ManifestItem, "id" | "source">) => `${item.source}/${fileKey(postKey(item))}`;
@@ -157,7 +158,7 @@ export function renderPostIndex(contentDir: string): number {
     .sort((a, b) => String(b.fm.published_at ?? "").localeCompare(String(a.fm.published_at ?? "")) || a.rel.localeCompare(b.rel));
   const idx = join(dir, "llms.txt");
   if (!rows.length) { removeIfExists(idx); return 0; }
-  const text = ["# BC Observatory: community posts", "", "> Business Central blog posts as derived evidence: summary, key points, short verbatim quotes, objects as named, link to the original.",
+  const text = [llmsTitle("posts"), "", "> Business Central blog posts as derived evidence: summary, key points, short verbatim quotes, objects as named, link to the original.",
     "> Tier community. Frontmatter: schemas/frontmatter.post.json.", "", `${rows.length} posts, newest first.`, "",
     ...rows.map((r) => `- [${cell(r.fm.title)}](${r.rel}): ${cell(r.fm.summary)} (${r.fm.source_name}, ${String(r.fm.published_at ?? "").slice(0, 10) || "undated"})`), ""].join("\n");
   if (!exists(idx) || readText(idx) !== text) writeText(idx, text);
