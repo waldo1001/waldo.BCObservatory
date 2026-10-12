@@ -24,7 +24,7 @@ test("trail: instrument pages sit under Galaxy / Instruments, which points at th
   const t = trail(B, "instruments", [{ label: "Version lens", href: "/b/code/versions/" }], "BC28 to BC29");
   assert.deepEqual(t.map((c) => c.label), ["Galaxy", "Instruments", "Version lens", "BC28 to BC29"]);
   assert.equal(t[1].href, `/b/${section("instruments").path}`);
-  assert.equal(t[1].href, "/b/objects/#instruments");
+  assert.equal(t[1].href, "/b/#instruments");
 });
 
 test("systemChip: the galaxy system as a link, except where the system is the section itself", () => {

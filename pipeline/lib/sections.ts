@@ -8,7 +8,7 @@ export type SectionId = "topics" | "objects" | "apps" | "localizations" | "featu
 
 export interface Section {
   id: SectionId;
-  /** Under the site base: "features/"; the instruments strip is an anchor ("#instruments" on the home page). */
+  /** Under the site base: "features/"; the instruments strip is an anchor on the home page, "#instruments". */
   path: string;
   /** The one name. */
   name: string;
@@ -48,7 +48,7 @@ export const SECTIONS: readonly Section[] = [
     blurb: "Microsoft's first-party apps with their objects, Learn hubs, videos and posts." },
   { id: "releases", path: "releases/", name: "AL extension releases", noun: ["AL Language extension version", "AL Language extension versions"],
     blurb: "Microsoft's changelog of the AL Language extension, one page per version, with what was added to it later." },
-  { id: "instruments", path: "objects/#instruments", name: "Instruments" },
+  { id: "instruments", path: "#instruments", name: "Instruments" },
 ];
 
 const BY_ID = new Map(SECTIONS.map((s) => [s.id as string, s]));

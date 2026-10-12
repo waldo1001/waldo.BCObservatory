@@ -30,7 +30,7 @@ img { max-width: 100%; }
 .site-search { display: flex; gap: 8px; align-items: center; }
 .site-search input {
   background: var(--surface); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card);
-  font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: min(240px, 60vw);
+  font: 400 14px var(--font-ui); padding: 8px 10px; min-height: 40px; width: 100%; /* D90: the form sizes it */
 }
 /* D70, D90: wider than the page, so the first tier (wordmark, pill, search, tools) and the nav's one line have room; the bar
    under 900 px and the two tiers from 900 px are in the D90 block. .ask is the galaxy's questions menu */
@@ -260,7 +260,7 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
 .list-page .eyebrow { font: 500 12px var(--font-mono); color: var(--muted); text-transform: lowercase; margin: 0 0 8px; }
 .list-page .lede { font-size: 19px; line-height: 1.5; max-width: 62ch; color: var(--text-2); }
 .list-page h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; margin: 40px 0 12px; }
-.list-page ul:not(.rows):not(.evidence) { padding-left: 20px; }
+.list-page ul:not(.rows):not(.evidence):not(.inst) { padding-left: 20px; }
 .list-page ul.list { list-style: none; padding: 0; }
 .list-page ul.list li { padding: 12px 0; border-bottom: 1px solid var(--line); }
 
@@ -285,52 +285,52 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
 .identity > a:hover { color: var(--text); text-decoration: underline; }
 /* the header: under 900 px a 56 px bar (wordmark, search, Browse); Browse opens #menu (week pill, sections, Theme) as a
    bottom sheet through the popover API, no script. From 900 px #menu is display: contents and the header is two tiers on
-   every page: wordmark, pill, search, tools; then the nav in three groups (nav index 5 and 10, sections.ts). Every menu
-   rule is scoped to .site-header, so a content heading slugged "menu" is never styled by it */
+   every page: wordmark, pill, search, tools; then the nav in three groups (nav index 5 and 10, sections.ts). Menu rules
+   are scoped to [popover]#menu, so a content heading slugged "menu" is never styled by them */
 :root { --hdr-h: 57px; }
-.site-header [popovertarget] { display: inline-flex; align-items: center; gap: 6px; flex: none; min-height: 40px; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: var(--r-card); background: transparent; color: var(--text); font: 600 14px var(--font-ui); cursor: pointer; }
-.site-header [popovertarget]::after { content: "▾"; font-size: 11px; color: var(--muted); }
+[popovertarget=menu] { display: inline-flex; align-items: center; gap: 6px; flex: none; min-height: 40px; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: var(--r-card); background: none; color: var(--text); font: 600 14px var(--font-ui); cursor: pointer; }
+[popovertarget=menu]::after { content: "▾"; font-size: 11px; color: var(--muted); }
 .hdr-tools { display: flex; gap: 8px; }
 @media (max-width: 899.98px) {
   .site-header .wrap { flex-wrap: nowrap; gap: 8px; padding: 8px 16px; }
   .wordmark { white-space: nowrap; }
   .wordmark .sub { display: none; }
   .site-search { flex: 1 1 auto; min-width: 0; }
-  .site-search input { width: 100%; min-width: 0; font-size: 16px; }
+  .site-search input { font-size: 16px; }
   .site-header .wrap:has(.site-search:focus-within) .wordmark { display: none; }
-  .site-header #menu:popover-open {
-    position: fixed; inset: auto 0 0; margin: 0; width: 100%; max-width: none; height: auto; max-height: 85vh; max-height: 85dvh; overflow-y: auto;
-    display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
-    background: var(--surface); color: var(--text); border: 0; border-top: 1px solid var(--line-strong); border-radius: var(--r-panel) var(--r-panel) 0 0;
+  [popover]#menu:popover-open {
+    position: fixed; inset: auto 0 0; margin: 0; width: 100%; max-height: 85dvh; display: flex; flex-direction: column; align-items: flex-start; gap: 12px;
+    padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); background: var(--surface); color: var(--text);
+    border: 0; border-top: 1px solid var(--line-strong); border-radius: var(--r-panel) var(--r-panel) 0 0;
   }
-  .site-header #menu::backdrop { background: rgba(5, 7, 11, .7); }
-  .site-header #menu .site-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; width: 100%; font-size: 16px; }
-  .site-header #menu .site-nav a { display: flex; align-items: center; min-height: 44px; position: relative; }
-  .site-header #menu .site-nav a:is(:nth-child(5), :nth-child(10)) { grid-column-start: 1; }
-  .site-header #menu .site-nav a:is(:nth-child(5), :nth-child(10))::before { content: ""; position: absolute; top: 0; left: 0; width: calc(200% + 12px); border-top: 1px solid var(--line); }
-  .site-header #menu .pal-btn { display: none; }
+  [popover]#menu::backdrop { background: rgba(5, 7, 11, .7); }
+  [popover]#menu .site-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 0 12px; width: 100%; font-size: 16px; }
+  [popover]#menu .site-nav a { display: flex; align-items: center; min-height: 44px; }
+  /* a group starts a row, under a rule across both columns */
+  [popover]#menu .site-nav a:is(:nth-child(5), :nth-child(10)) { grid-column-start: 1; }
+  [popover]#menu .site-nav :is(a:nth-child(5), a:nth-child(10), a:nth-child(5) + a, a:nth-child(10) + a) { border-top: 1px solid var(--line); }
+  [popover]#menu .pal-btn { display: none; }
 }
 @media (min-width: 900px) {
-  :root { --hdr-h: 94px; }
-  .site-header [popovertarget] { display: none; }
-  .site-header #menu { display: contents; }
+  :root { --hdr-h: 93px; }
+  [popovertarget=menu] { display: none; }
+  [popover]#menu { display: contents; }
   .site-header .wrap { padding: 10px 24px; gap: 6px 16px; }
-  .site-header .new-pill { order: 1; }
+  .new-pill { order: 1; }
   .site-search { order: 2; margin-left: auto; flex: 1 1 160px; max-width: 280px; }
-  .site-search input { width: 100%; }
   .hdr-tools { order: 3; }
-  .hdr-tools .theme-btn { width: 76px; }
-  .hdr-tools .pal-btn { width: 56px; }
-  .site-header .site-nav { order: 9; flex: 1 0 100%; gap: 4px 12px; }
-  .site-header .site-nav a:is(:nth-child(5), :nth-child(10)) { position: relative; margin-left: 14px; }
-  .site-header .site-nav a:is(:nth-child(5), :nth-child(10))::before { content: ""; position: absolute; left: -13px; top: 20%; bottom: 20%; border-left: 1px solid var(--line); }
+  .theme-btn { width: 76px; }
+  .pal-btn { width: 56px; }
+  .site-nav { order: 9; flex: 1 0 100%; }
+  /* a group starts after a wider gap with a thin rule in it */
+  .site-nav a:is(:nth-child(5), :nth-child(10)) { margin-left: 1px; padding-left: 12px; border-left: 1px solid var(--line); }
 }
 /* until chrome.ts adds the tools, the search keeps their place (76 + 8 + 56 and the 16 px gap), so nothing moves */
 @media (min-width: 900px) and (scripting: enabled) { .site-header .wrap:not(:has(.hdr-tools)) .site-search { margin-right: 156px; } }
 /* no popover API (before Chrome 114, Safari 17, Firefox 125): no Browse, the nav shows in the header as a wrapping row */
 @supports not selector(:popover-open) {
-  .site-header [popovertarget] { display: none; }
+  [popovertarget=menu] { display: none; }
   .site-header .wrap { flex-wrap: wrap; }
-  .site-header #menu { display: contents; }
-  .site-header .site-nav { order: 9; flex: 1 0 100%; }
+  [popover]#menu { display: contents; }
+  .site-nav { order: 9; flex: 1 0 100%; }
 }

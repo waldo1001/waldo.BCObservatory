@@ -1,7 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import List from "../../layouts/List.astro";
-import { countLabel, instrument, section } from "../../../../pipeline/lib/sections";
+import Instruments from "../../components/Instruments.astro";
+import { siteInstrumentCards } from "../../lib/instruments";
+import { countLabel, section } from "../../../../pipeline/lib/sections";
 import { NS_SYSTEM } from "../../../../pipeline/lib/systems";
 import { majors as majorsOf } from "../../lib/versions";
 const all = await getCollection("objects");
@@ -36,15 +38,8 @@ const majors = ms.map((m) => m.version);
     <p><button type="button" class="btn" data-more hidden>Show more</button></p>
   </section>
   <h2 id="instruments">Instruments</h2>
-  <p class="meta">The views over the code that are not the page of one object. The footer of every page points here (D88).</p>
-  <ul class="rows instruments">
-    <li><a href={`${base}${instrument("versions").path}`}>{instrument("versions").name}</a><span class="meta">one major against the next: objects added, removed and changed, and what differs inside them</span></li>
-    <li><a href={`${base}${instrument("deprecations").path}`}>{instrument("deprecations").name}</a><span class="meta">every obsolete object, field, enum value and procedure of a major, with the version that removes it</span></li>
-    <li><a href={`${base}${instrument("events").path}`}>{instrument("events").name}</a><span class="meta">every published event and who subscribes to it in Microsoft's code</span></li>
-    <li><a href={`${base}${instrument("neighbourhood").path}`}>{instrument("neighbourhood").name}</a><span class="meta">what touches one object: relations, pages, extensions, subscribers, two rings deep</span></li>
-    <li><a href={`${base}${instrument("coverage").path}`}>{instrument("coverage").name}</a><span class="meta">pages per galaxy system and pillar: where Learn, the code, videos and posts are thick or thin</span></li>
-    <li><a href={`${base}${instrument("drift").path}`}>{instrument("drift").name}</a><span class="meta">the objects Learn pages name, joined to the code by exact id, and where the two disagree</span></li>
-  </ul>
+  <p class="meta">The same instruments as on the home page.</p>
+  <Instruments cards={siteInstrumentCards(base)} />
   <h2>Per type</h2>
   <ul class="rows type-list">{[...counts].sort((a, b) => b[1] - a[1]).map(([t, n]) => <li><a href={`${base}objects/${t}/`}>{t}</a> <span class="mono-meta">{n.toLocaleString("en")}</span></li>)}</ul>
   {apps.length > 0 && <>
@@ -72,8 +67,5 @@ const majors = ms.map((m) => m.version);
   .atlas-tip { position: absolute; left: 0; top: 0; pointer-events: none; font: 500 12px var(--font-mono); color: var(--text); background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--line); border-radius: var(--r-badge); padding: 3px 7px; white-space: nowrap; }
   .atlas-table { min-width: 720px; }
   .type-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0 24px; }
-  .instruments { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 24px; }
-  .instruments li { display: grid; gap: 2px; }
-  .instruments a { font-weight: 600; }
   .type-list li { display: flex; justify-content: space-between; }
 </style>

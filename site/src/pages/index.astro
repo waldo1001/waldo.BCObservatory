@@ -6,6 +6,8 @@ import Badges from "../components/Badges.astro";
 import { questions } from "../lib/questions";
 import { pageSystem, systemLabel } from "../lib/page";
 import { contentSections } from "../../../pipeline/lib/sections";
+import Instruments from "../components/Instruments.astro";
+import { siteInstrumentCards } from "../lib/instruments";
 const [videos, posts, digests] = await Promise.all(["videos", "posts", "digests"].map((c) => getCollection(c as any)));
 const counts = Object.fromEntries(await Promise.all(contentSections().map(async (s) => [s.id, (await getCollection(s.id as any)).length]))) as Record<string, number>;
 const base = import.meta.env.BASE_URL;
@@ -21,8 +23,14 @@ const sections = contentSections().map((s) => ({ path: s.path, label: s.name, co
 <Base title="BC Observatory" section="home" description="An agent-first, cross-referenced knowledge base of Microsoft Dynamics 365 Business Central, rebuilt every night.">
   <main>
     <h1 class="skip">BC Observatory</h1>
-    <div id="galaxy"><Galaxy height="calc(100svh - var(--hdr-h, 72px))" questions={questions(base)} /></div>
+    {/* D90 (amends D70): the galaxy leaves 48 px of the first screen for a line that names what follows */}
+    <div id="galaxy"><Galaxy height="max(420px, calc(100svh - var(--hdr-h, 93px) - 48px))" questions={questions(base)} /></div>
+    <nav class="wrap home-jump" aria-label="On this page">Further down: <a href="#instruments">Instruments</a> · <a href="#lit">Newly lit</a> · <a href="#sections">Sections</a> · <a href="#agents">About</a></nav>
 
+    <section class="wrap block" aria-labelledby="instruments">
+      <h2 class="section-title" id="instruments">Instruments <small>numbers from the last nightly</small></h2>
+      <Instruments cards={siteInstrumentCards(base)} />
+    </section>
 
     <section class="wrap block" aria-labelledby="lit">
       <h2 class="section-title" id="lit">Newly lit {digest && <small><a href={`${base}digests/${digest.id}/`}>{digest.id}</a></small>}</h2>
@@ -66,6 +74,8 @@ const sections = contentSections().map((s) => ({ path: s.path, label: s.name, co
 <style>
 
   .block { margin-top: var(--section-gap-home); }
+  .home-jump { display: flex; flex-wrap: wrap; align-items: center; gap: 0 6px; min-height: 48px; font: 400 12px var(--font-mono); color: var(--muted); }
+  .home-jump + .block { margin-top: 16px; }
   .cards { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .cards a { display: grid; grid-template-columns: 1fr auto; gap: 4px 8px; height: 100%; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--surface); color: var(--text); text-decoration: none; }
   .cards a:hover { border-color: var(--line-strong); }
