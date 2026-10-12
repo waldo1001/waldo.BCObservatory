@@ -90,6 +90,27 @@ test("results group in the fixed order with a status line, objects by app with B
   assert.doesNotMatch(resultsHtml(groups, "/", "video"), /sr-start/, "a tab renders its own group only");
 });
 
+test("Learn articles: their own group after Start here, rows that open learn.microsoft.com and link the hub (D94)", () => {
+  const url = "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection";
+  const rows = [row("topics/dev-itpro/configure", "topic", "Configure the development environment", "administration", { summary: "Resource exposure policy and more." }),
+    row(url, "learn", "Resource exposure policy setting", "development", { summary: "IP protection for extensions.", tags: ["resourceExposurePolicy", "includeSourceInSymbolFile"], date: "2024-01-03",
+      path_label: "Development › Configure the development environment", hub: "topics/dev-itpro/configure" }),
+    row("features/2", "feature", "Resource exposure policy for agents", "development")];
+  const groups = groupHits(rank(idx(rows), "resource exposure policy"));
+  assert.deepEqual(groups.map((g) => g.def.id), ["start", "learn", "roadmap"]);
+  assert.equal(groupOf({ type: "learn" }), "learn");
+  assert.equal(statusLine("x", groups), '3 results for "x": 1 to start with, 1 Learn article, 1 roadmap');
+  const html = resultsHtml(groups, "/b/", "");
+  assert.match(html, /<h2 class="section-title" id="sr-learn">Learn articles <small>1<\/small><\/h2>/);
+  assert.match(html, new RegExp(`<a class="row-title" href="${url}">Resource exposure policy setting</a>`), "the row opens Learn in place");
+  assert.match(html, /<a class="sr-path mono-meta" href="\/b\/topics\/dev-itpro\/configure\/">Development › Configure the development environment<\/a>/, "and links the hub that lists it");
+  assert.match(html, /<span class="type-label"[^>]*>Learn article<\/span><span class="badge official">/);
+  assert.match(html, /<a class="row-title" href="\/b\/topics\/dev-itpro\/configure\/">/, "a page of ours keeps its site link");
+  assert.deepEqual(rank(idx(rows), "includeSourceInSymbolFile").map((h) => h.r.id), [url], "found by an identifier it documents");
+  assert.equal(tabOf("learn"), "learn");
+  assert.equal(typeParamOf("learn"), "learn");
+});
+
 test("the type= parameter maps to a tab and back (D65 5.3)", () => {
   assert.equal(tabOf(null), "");
   assert.equal(tabOf("topic"), "start");

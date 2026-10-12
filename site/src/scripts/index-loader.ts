@@ -3,19 +3,20 @@
  * fetched once per document with `cache: "no-cache"` (revalidated by ETag, a few hundred bytes); the shards they list
  * carry their content hash in the name, so each is fetched once and kept in Cache Storage ("bcobs-index-v1") until a
  * manifest stops listing it. Shards load by kind, when a query asks: hubs and media first, objects next, the symbols
- * of a kind last. The search page, the live search and the palette share the one prepared index.
+ * of a kind last. The search page, the live search and the palette share the one prepared index. The Learn articles
+ * (D94, kind "learn") load only when the search page asks for them: the manifest names their shard under `learn`.
  *
  * A 404 on a hashed shard (a deploy between the manifest and the shard) refetches the manifest once. Without Cache
  * Storage (some private windows) it falls back to plain fetch and the browser's HTTP cache.
  */
 import {
-  KIND_OF, countriesOf, pageToRecord, prepare, symbolRecords, type Index, type PageRecord, type ParsedQuery, type SearchRecord, type SymbolShard,
+  KIND_OF, countriesOf, learnRecords, pageToRecord, prepare, symbolRecords, type Index, type LearnShard, type PageRecord, type ParsedQuery, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 
-export type PageKind = "hubs" | "media" | "objects";
+export type PageKind = "hubs" | "media" | "objects" | "learn";
 export const CACHE = "bcobs-index-v1";
 interface Shard { file: string; sha256?: string; kind?: string; count?: number }
-interface PagesManifest { shards: Shard[] }
+interface PagesManifest { shards: Shard[]; learn?: Shard }
 interface SymbolsManifest { major: string; kinds: Partial<Record<SymbolShard, { file?: string; files?: string[]; count: number }>> }
 export interface LoaderDeps { fetch: (url: string, init?: RequestInit) => Promise<Response>; caches?: Pick<CacheStorage, "open"> | null }
 
@@ -80,6 +81,20 @@ export function createLoader(deps: LoaderDeps, base: string) {
   async function loadKind(kind: PageKind): Promise<void> {
     for (let attempt = 0; ; attempt++) {
       const man = await pagesManifest(attempt > 0);
+      if (kind === "learn") {
+        // D94: one shard of tuple rows, named apart from the page shards; a manifest without it has no Learn articles
+        if (!man.learn) return;
+        const file = man.learn.file;
+        try {
+          const doc = await getJson<LearnShard>(deps, `${base}index/${file}`, true);
+          await append(() => learnRecords(doc).map(pageToRecord));
+          void prune(deps, base, "learn-", new Set([file]));
+          return;
+        } catch (e) {
+          if (attempt === 0 && e instanceof HttpError && e.status === 404) continue;
+          throw e;
+        }
+      }
       // records of before D86 have no kind: every shard is then one kind, loaded with the objects
       const mine = man.shards.filter((s) => (s.kind ?? "objects") === kind);
       try {

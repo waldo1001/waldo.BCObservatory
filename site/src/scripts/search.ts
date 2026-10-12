@@ -3,9 +3,10 @@
  * of packages/search (D86): the same order as the MCP, an exact object reference ("t36", "cu 80") first, then title,
  * caption, tags and summary matches per query word with plurals, one typo and synonyms forgiven, hubs ranked by their
  * size and review state, base objects before first-party and country ones, important objects before obscure ones. The
- * results page groups the hits (Start here, Roadmap, Videos, Posts, AL objects by app, Fields, Events, Procedures, ...)
- * behind a row of tabs, opens with "Exactly this" for a reference, a bare number or a kind: query, and says "did you
- * mean" when the words matched weakly or not at all.
+ * results page groups the hits (Start here, Learn articles, Roadmap, Videos, Posts, AL objects by app, Fields, Events,
+ * Procedures, ...) behind a row of tabs, opens with "Exactly this" for a reference, a bare number or a kind: query, and
+ * says "did you mean" when the words matched weakly or not at all. A Learn article (D94) opens on learn.microsoft.com
+ * and names the hub that lists it; its shard loads with the first query, after the page is usable.
  */
 import {
   hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
@@ -15,7 +16,7 @@ import { countriesNow, kindsFor, loadPages, loadSymbols } from "./index-loader.j
 /** An index row: a page record of data/index/pages-*.json. */
 export type Row = PageRecord;
 
-const TYPE: Record<string, string> = { topic: "topic hub", app: "first-party app", feature: "roadmap feature", object: "AL object", localization: "localization", video: "video", post: "community post", change: "code change", source: "source", digest: "weekly digest", release: "release" };
+const TYPE: Record<string, string> = { topic: "topic hub", learn: "Learn article", app: "first-party app", feature: "roadmap feature", object: "AL object", localization: "localization", video: "video", post: "community post", change: "code change", source: "source", digest: "weekly digest", release: "release" };
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 /** The query parsed against the countries the loaded index knows. */
@@ -27,6 +28,7 @@ export interface GroupDef { id: string; label: string; types: string[]; cap: num
 /** The fixed order of the results page; an empty group is omitted. `one`/`many` word the status line. */
 export const GROUPS: GroupDef[] = [
   { id: "start", label: "Start here", types: ["topic", "app"], cap: 5, one: "to start with", many: "to start with" },
+  { id: "learn", label: "Learn articles", types: ["learn"], cap: 5, one: "Learn article", many: "Learn articles" },
   { id: "roadmap", label: "Roadmap", types: ["feature"], cap: 10, one: "roadmap", many: "roadmap" },
   { id: "video", label: "Videos", types: ["video"], cap: 10, one: "video", many: "videos" },
   { id: "post", label: "Community posts", types: ["post"], cap: 10, one: "post", many: "posts" },
@@ -94,10 +96,12 @@ function rowHtml(h: Hit, base: string, inApp: boolean): string {
   if (h.r.kind !== "page" || !h.r.page) return symbolHtml(h, base);
   const r = h.r.page;
   const caption = r.type === "object" && r.caption ? ` <span class="sr-caption meta">captioned "${esc(r.caption)}"</span>` : "";
-  // an object's app is the heading it sits under; every other label says where the result sits
-  const where = r.path_label && !(inApp && r.type === "object") ? `<span class="sr-path mono-meta">${esc(r.path_label)}</span>` : "";
+  // an object's app is the heading it sits under; every other label says where the result sits; a Learn article's
+  // label is the hub that lists it, a link to that hub (D94)
+  const where = r.path_label && !(inApp && r.type === "object")
+    ? r.hub ? `<a class="sr-path mono-meta" href="${base}${esc(r.hub)}/">${esc(r.path_label)}</a>` : `<span class="sr-path mono-meta">${esc(r.path_label)}</span>` : "";
   const stats = r.stats ? `<span class="sr-stats meta">${esc(r.stats)}</span>` : "";
-  return `<li><span><a class="row-title" href="${base}${esc(r.path)}/">${esc(r.title)}</a>${caption}${matched(h)}</span>${where}${stats}
+  return `<li><span><a class="row-title" href="${esc(hrefOf(base, r.path))}">${esc(r.title)}</a>${caption}${matched(h)}</span>${where}${stats}
       <span class="row-meta"><span class="type-label"${r.system ? ` style="color: var(--sys-${esc(r.system)})"` : ""}>${TYPE[r.type] ?? esc(r.type)}</span>${badge(r.tier)}${r.status ? `<span class="mono-meta">${esc(r.status)}</span>` : ""}${r.date ? `<span class="mono-meta">${esc(r.date)}</span>` : ""}</span>
       <p class="meta">${esc(cut(r.summary, 220))}</p></li>`;
 }
@@ -180,11 +184,14 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
   let tab = tabOf(params.get("type"));
   status.textContent = "Loading the index...";
   // first paint after the hubs and media shards (D86 2.2); the AL objects fill in when their shards arrive
-  let index: Index, waiting = "";
+  let index: Index;
+  // what is still loading, for the status line ("loading AL objects…, Learn articles…")
+  const loading = new Set<string>();
+  const waitingText = () => (loading.size ? `loading ${[...loading].join(", ")}…` : "");
   try { index = await loadPages(base, ["hubs", "media"]); } catch { status.textContent = "The search index is not available right now."; return; }
-  waiting = "loading AL objects…";
+  loading.add("AL objects");
   let objectsIn = false;
-  const objects = loadPages(base, ["objects"]).then(() => { objectsIn = true; waiting = ""; run(); }).catch(() => { waiting = ""; run(); });
+  const objects = loadPages(base, ["objects"]).then(() => { objectsIn = true; loading.delete("AL objects"); run(); }).catch(() => { loading.delete("AL objects"); run(); });
   // the symbols (fields, events, procedures, values) after the objects: in an idle callback, at once for a kind: query
   const asked = new Set<string>();
   const idle = (f: () => void) => { if (typeof requestIdleCallback === "function") requestIdleCallback(f, { timeout: 2000 }); else setTimeout(f, 200); };
@@ -192,9 +199,17 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     const need = kindsFor(q).filter((k) => !asked.has(k));
     if (!need.length) return;
     for (const k of need) asked.add(k);
-    waiting = "loading symbols…";
-    const go = () => loadSymbols(base, need).then(() => { waiting = ""; run(); }).catch(() => { waiting = ""; });
+    loading.add("symbols");
+    const go = () => loadSymbols(base, need).then(() => { loading.delete("symbols"); run(); }).catch(() => { loading.delete("symbols"); });
     if (q.kind) go(); else idle(go);
+  };
+  // D94: the Learn articles with the first query, never with an empty page; the results so far stay usable meanwhile
+  let learnAsked = false;
+  const wantLearn = () => {
+    if (learnAsked) return;
+    learnAsked = true;
+    loading.add("Learn articles");
+    loadPages(base, ["learn"]).then(() => { loading.delete("Learn articles"); run(); }).catch(() => { loading.delete("Learn articles"); run(); });
   };
   const paintTabs = (counts: Map<string, number> | null) => {
     const all = counts ? [...counts.values()].reduce((a, c) => a + c, 0) : null;
@@ -218,9 +233,11 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     if (!raw) { out.innerHTML = ""; hintsEl.innerHTML = ""; paintTabs(null); status.textContent = `${index.records.length.toLocaleString("en")} pages indexed. Try "t18", "Sales-Post", "OnAfterPostSalesDoc" or "BE".`; return; }
     const q = parse(raw, index);
     if (objectsIn) wantSymbols(q);
+    wantLearn();
     const hits = search(index, q);
     const groups = groupHits(hits);
     paintTabs(new Map(groups.map((g) => [g.def.id, g.hits.length])));
+    const waiting = waitingText();
     status.textContent = `${statusLine(raw, groups)}${waiting ? ` (${waiting})` : ""}`;
     hintsEl.innerHTML = hintsHtml(shownHints(q, hits, hints(index, q, hits)), base);
     const html = (tab ? "" : exactHtml(q, hits, base)) + resultsHtml(groups, base, tab);

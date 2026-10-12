@@ -100,3 +100,29 @@ test("the loader reads a manifest of before D86 (no kinds, unhashed names) as on
   assert.equal((await loader.loadPages(["hubs", "media"])).records.length, 0);
   assert.equal((await loader.loadPages(["objects"])).records.length, 2);
 });
+
+test("the Learn articles load only when asked, from the manifest's `learn` entry, into the one index (D94)", async () => {
+  const c = fakeCaches();
+  c.store.set(`${B}index/learn-old000000000.json`, "{}");
+  const learn = { schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/", hubs: [["topics/dev-itpro/configure", "Development › Configure", "administration"]],
+    rows: [["dev-itpro/developer/devenv-security-settings-and-ip-protection", "Resource exposure policy setting", "IP protection.", "2024-01-03", 0, null, ["includeSourceInSymbolFile"]]] };
+  const files: Record<string, unknown> = {
+    [`${B}index/index-manifest.json`]: { shards: [{ file: "pages-hubs-111111111111.json", kind: "hubs" }], learn: { file: "learn-555555555555.json", count: 1 } },
+    [`${B}index/pages-hubs-111111111111.json`]: [rec("topics/dev-itpro/configure", "topic", "Configure")],
+    [`${B}index/learn-555555555555.json`]: learn,
+  };
+  const site = fakeSite(files);
+  const loader = createLoader({ fetch: site.fetch, caches: c.caches }, B);
+  await loader.loadPages(["hubs", "media", "objects"]);
+  assert.ok(!site.seen.some((u) => u.includes("learn-")), "hubs, media and objects never load the Learn shard");
+  assert.equal(loader.has("learn"), false);
+  const idx = await loader.loadPages(["learn"]);
+  assert.deepEqual(idx.records.map((r) => [r.id, r.type]), [["topics/dev-itpro/configure", "topic"], ["https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection", "learn"]]);
+  assert.equal(idx.records[1].page?.hub, "topics/dev-itpro/configure");
+  assert.ok(c.store.has(`${B}index/learn-555555555555.json`) && !c.store.has(`${B}index/learn-old000000000.json`), "kept in Cache Storage; an older Learn shard pruned");
+  await loader.loadPages(["learn"]);
+  assert.equal(site.seen.filter((u) => u.includes("learn-")).length, 1, "once");
+  // a manifest without `learn` (before D94): nothing to load, no error
+  const old = createLoader({ fetch: fakeSite({ [`${B}index/index-manifest.json`]: { shards: [] } }).fetch, caches: null }, B);
+  assert.equal((await old.loadPages(["learn"])).records.length, 0);
+});
