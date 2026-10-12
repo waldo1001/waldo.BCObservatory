@@ -38,6 +38,14 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-12, live on the next Pages build:**
+- **Learn search, D94** (`docs/specs/learn-search.md`, M32). `includeSourceInSymbolFile` found nothing because Learn
+  articles had no search record and identifiers were never kept. The fetched stage now writes `meta.identifiers`
+  (code spans, camelCase or PascalCase, at most 40); a nightly phase fills them once for the 8,050 items fetched
+  before (`learn_identifiers` in the run report). The index writer adds `learn-<sha12>.json` (listed under `learn`,
+  not `shards`); the site's search page has a "Learn articles" group after Start here, rows open learn.microsoft.com
+  and link their hub; MCP search returns `type learn` hits with url and hub. Local build: 695.3 to 697.3 MB tar, no
+  page grew. Live after the derive of the merge (titles and summaries), identifiers after the next nightly; agents
+  after the next MCP release.
 - **Object pages read like a reference, D89** (`docs/specs/object-page-reading.md`, M27). Items B1, B2, B3, B6, B8 of
   the UX review, all built in the browser by `site/src/scripts/object-page.ts` (pure helpers in `object-page-core.ts`,
   tested) from the existing module script of `Page.astro`: an "On this page" list with counts, sticky in the side column

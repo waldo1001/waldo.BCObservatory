@@ -893,3 +893,22 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   they hide members from find and anchors); a static section list (15 MB); a "Changed in" column; dropping "BC" from
   the pill text; hover-expanded captions; seven dash patterns; a filled primary explorer button; a positioned popover;
   a lazy chunk; a pre-paint class (1.1 MB); filter state in the URL (later). Spec: `docs/specs/object-page-reading.md`.
+- **D94 Search finds Learn articles by what they document.** On 2026-10-12 `includeSourceInSymbolFile` found nothing,
+  although Learn documents it: Learn articles are evidence rows of the hubs, not pages, so no search record held them,
+  and identifiers live in Learn's code spans, which nothing kept. The fetched stage now records `meta.identifiers`:
+  single-backtick spans holding one camelCase or PascalCase word, outside code fences, first spelling once, at most 40
+  per page (p99 is 8; only a font list passes 40). The 8,050 items fetched before that get them from a phase of the
+  full nightly that reads each item's fetched blob from its mirror (`backfillIdentifiers`): no stage re-runs, no LLM,
+  no quota, no page rewritten. The index writer adds one shard, `learn-<sha12>.json`: a row per fetched Learn article
+  (URL under one base, title, the extraction's summary else Learn's description, ms.date, the hub that lists it or its
+  reference section, a system of its own, the identifiers), listed under `learn` in the index manifest, not under
+  `shards`, so readers of page records and MCP releases before D94 never see it. In `packages/search` a Learn record
+  is a page of type `learn`, tier official, whose id is its URL (`hrefOf` returns it); its identifier tags also meet
+  their CamelCase words; nothing else in the scorer changes and the golden set holds. The site shows a "Learn
+  articles" group after "Start here" and loads the shard with the first query; the MCP returns `type learn` hits with
+  the url and the hub. Cost: 2.0 MB on the Pages tar (695.3 to 697.3 MB, same content), no page grows. Rejected:
+  indexing Learn body text (D01: Learn stays canonical; the index would carry its prose), pages of our own per article
+  (8,050 pages for what Learn already serves), folding a version into the fetched stage's input hash (every item would
+  go stale and re-enter extraction, an LLM stage), PageRecord objects in the shard (3.7 MB), listing the shard
+  under `shards` (MCP 0.3.0 spreads every shard as page records and would fail), splitting CamelCase in every record's
+  tags (hub tags are TOC titles; their rankings would move). Spec: `docs/specs/learn-search.md`.
