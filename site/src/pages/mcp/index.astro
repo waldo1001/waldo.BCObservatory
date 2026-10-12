@@ -55,7 +55,7 @@ const steps = installSteps(REPO);
   </ol>
 
   <h2 id="how">How it answers</h2>
-  <p>The server fetches the search index and the page markdown from this site over HTTPS and caches them by hash in <code>~/.cache/bc-observatory/</code>, refreshed daily. Search is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once and checked by SHA-256) computed locally; <code>BC_OBSERVATORY_EMBEDDINGS=0</code> turns the model off. <code>BC_OBSERVATORY_LOCAL</code> reads a checkout instead, <code>BC_OBSERVATORY_SITE</code> points at another deployment. Nothing is sent anywhere: <code>feedback</code> only returns a link you open yourself.</p>
+  <p>The server fetches the search index from this site over HTTPS and caches it by hash in <code>~/.cache/bc-observatory/</code>, refreshed daily, and reads a page's markdown twin when you ask for it; a page over 30,000 characters comes back as a compact view with its section keys. Search is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once and checked by SHA-256) computed locally; <code>BC_OBSERVATORY_EMBEDDINGS=0</code> turns the model off. <code>BC_OBSERVATORY_LOCAL</code> reads a checkout instead, <code>BC_OBSERVATORY_SITE</code> points at another deployment. Nothing is sent anywhere: <code>feedback</code> only returns a link you open yourself.</p>
   <p class="meta">Needs Node 20 or newer. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The atlas endpoint the plugin uses: <code>{ATLAS_URL}</code>.</p>
 </List>
 <style>

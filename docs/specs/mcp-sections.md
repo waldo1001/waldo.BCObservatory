@@ -1,7 +1,7 @@
 # Long MCP answers come back compact, and an agent reads one section at a time
 
-Status: proposed, 2026-10-12. Decision: D93 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M31
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-12 (section 12 records what was built and where it differs). Decision: D93 (text in
+12.4, appended to `docs/DECISIONS.md` at merge). Milestone: M31. Owner: waldo.
 Scope: the `get_object`, `cat` and `localization` tools of the MCP package (`packages/mcp`), their tool descriptions
 and the `search` and `whats_new` descriptions, the plugin skills `bc-lookup`, `bc-grounding` and `bc-localization`,
 the MCP page's tool texts (`site/src/lib/mcp.ts`), the package README, the MCP tests and the publish workflow's test
@@ -836,19 +836,169 @@ Changed: `packages/mcp/src/server.ts`, `packages/mcp/package.json`, `packages/mc
 - [ ] `docs/DECISIONS.md` D93 appended, PLAN M31 row marked shipped, HANDOFF entry moved from "Open specs" to shipped,
       section 12 applied and renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations
 
-- `docs/DECISIONS.md`: the D93 text of section 3, with the measured numbers of the build.
-- `docs/PLAN.md` section 5, before the `v0.2+` row (line 440):
-  `| **M31 MCP sections** | long pages come back compact from get_object, cat and localization (frontmatter with long lists cut, section keys with row counts, the first 5 rows of each section), section, offset and limit read a section in slices of at most 30,000 characters, a symbol path returns its member's row, tool descriptions keep call forms and drop the scoring formula; bc-observatory 0.4.0, plugin 0.2.3 or 0.2.4 (\`docs/specs/mcp-sections.md\`, D93, proposed) | 2 days in two phases | none: deterministic, no LLM, no site bytes |`
-- `docs/PLAN.md:374-375` (4.7 MCP): `cat(path)` becomes `cat(path, section?, offset?, limit?)`,
-  `get_object(type, idOrName, version?, country?)` becomes `get_object(type, idOrName, country?, section?, offset?,
-  limit?)`, `localization(cc, version?)` becomes `localization(cc, section?, offset?, limit?)`; add after the tool
-  list: "A page over 30,000 characters comes back compact with its section keys (D93)."
-- `docs/HANDOFF.md` "Open specs, not yet implemented":
-  `- **MCP sections**: \`docs/specs/mcp-sections.md\`, D93, M31. Status: proposed 2026-10-12, nothing implemented. Start with phase A (descriptions, two hours) or phase B task 1: \`tests/unit/mcp-sections.test.ts\` from section 5 against an empty \`packages/mcp/src/sections.ts\`. Until it lands: \`get_object("codeunit", "80")\` returns 177,746 characters, which Claude Code saves to a file (56 pages are over its 50,000-character threshold, 233 over 30,000), \`localization("CZ")\` 173,865, and \`cat\` of a symbol path returns the whole page.`
-- `docs/HANDOFF.md:42-43`: "`bc-observatory@0.3.0` ... is ready to publish" becomes "was published 2026-10-09".
-- `AGENTS.md:29-35` ("The MCP server ... serves exactly these: ..."): after "ranks like the site's own search", append "; a page over 30,000 characters
-  comes back compact, and `section`, `offset` and `limit` read one section (D93)".
-- `docs/specs/site-size.md:114-115`: "(verify; it reads the npm package's own copy today)" becomes "(it fetches the
-  site twin, `packages/mcp/src/server.ts:64`; phase 3 must point it at the raw URL)".
+Built 2026-10-12 on `build/mcp-sections` from `origin/main` `04b705c8fb`, five commits: phase A `0f8374ffe5`, phase B
+`c7e7dde212` (`sections.ts` and tests 1-3), `bcd2b0552e` (server wiring, tests 4-7, 0.4.0, the workflow line),
+`52e96edcdc` (skills, MCP page, README, plugin 0.2.3), and this section with the `AGENTS.md`, `docs/specs/site-size.md`
+and `/mcp/` edits. Gates on the last commit: `npm run typecheck` clean (root, `packages/search`, `packages/mcp`,
+`site`), `npm test` 506 tests, 505 pass, 1 skipped (the real potion-base-8M model test, as before), `npm run
+lint:workflows` 6 OK, the publish workflow's line (`mcp.test.ts mcp-sections.test.ts`) 31 of 31, `npm run build
+--workspace=bc-observatory` (one `dist/server.js`, `grep -c 'Compact view:'` 1, answers `initialize` over stdio as 0.4.0
+and exits with stdin), the site build on Node 22 through the shared lock (28,899 pages, "Complete!"; `/mcp/` and
+`/mcp.md` carry the new texts).
+
+### 12.1 What was built
+
+**Phase A (G2).** The `search` and `whats_new` descriptions of 2.8, word for word; `bc-lookup` lists the eleven type
+values; `tests/unit/mcp-build.test.ts` compares `package.json` with the server's `VERSION`; test 5 (every description at
+most 1,000 characters, the nine at most 3,300, `search` keeps `'event: OnAfterPost'` and the eleven types and loses `+10`
+and `title or caption 3`). No 0.3.1: B followed on the same branch (open question 9).
+
+**Phase B (G1).** `packages/mcp/src/sections.ts` as 4.1 and 4.2 (pure, no I/O, bundled into `dist/server.js`; a
+one-entry memo of the last parsed page so a section call parses its page once); `server.ts` as 4.3 (`BUDGET`, `B`,
+`VIEW`, the three tools through `pageView`, the descriptions of 2.8, `VERSION` 0.4.0); the skills of 2.9, the MCP page
+texts and the README paragraph of 2.10; versions and the workflow line of 4.4 (server 0.4.0, plugin 0.2.3 because A and
+B ship together). Tests 1-7 of section 5: `tests/unit/mcp-sections.test.ts` (tests 1-3, 20 cases),
+`tests/unit/mcp.test.ts` (tests 4 and 5 over stdio, `bigFixture()`), `tests/unit/mcp-golden.test.ts` (test 6),
+`tests/unit/mcp-build.test.ts` (test 7).
+
+### 12.2 Deviations, with the reason for each
+
+1. **A section answer ends with one newline**, like a page, a compact view and a member answer (test 13 of section 5
+   already shows a member answer ending in `\n`). The sizes measured for this spec (2.3: 29,473, 29,623, 29,600, 29,756,
+   21,221, 8,622 and 788; 2.4: 1,849 and 29,545; 2.5: 493) include that newline, and the build reproduces each of them
+   exactly; tests 4 and 6 as written in section 5 (`... offset: 8\)$/`, "ends with `Rows 51-55 of 60. ...`") assumed none,
+   so they match `\)\n$` and `endsWith("...)\n")`. One-line answers (`No section ...`, `offset and limit read one section
+   ...`) have no trailing newline, like today's `No table ...`.
+2. **"Cut at 200 characters with "…"" keeps 199 characters and the "…"** (200 in all); a prose block cut at 800 keeps
+   799 and then `… (section: "<key>")`. That is the reading that reproduces the measured compact sizes (9,504, 13,718,
+   14,800, 14,133, 5,427; slicing at 200 plus the mark gave one character more per cut row).
+3. **The frontmatter slice has one blank line** between the first line and the YAML lines; 4.1 read literally ("blank,
+   `## <heading>` (none for `frontmatter`), blank") gives two.
+4. **A `### ` group change inside a slice** is printed with a blank line before and after it, and the table header is
+   repeated after it so the table stays a table; 4.1 does not say how a group line is spaced. No object page has a
+   `###` line; release and localization pages do, and their sections either fit the budget (verbatim) or carry the
+   groups in their tail (localizations' `by_area`).
+5. **`offset >= n` without a tail** answers the first line, a blank line, `## <heading>`, a blank line and `No rows after
+   <n> in section "<key>" of <path>.` (4.1 gives the sentence, not its framing).
+6. **`cat` also cleans the path before an anchor**: `/objects/table/36/#field-20` and `objects/table/36.md#field-20`
+   (the site's URL form) read the member; 4.3's `clean` stripped the slash and `.md` only at the end of the whole path.
+7. **Test 4's Codeunit 12 is written as plain YAML** (as the pipeline writes it), not through `mcp.test.ts`'s `page()`
+   helper, which JSON-quotes every value (`id: "object/codeunit/12"`) and would fail the spec's `startsWith("---\nid:
+   object/codeunit/12\n")`.
+8. **`package-lock.json`** moves its `packages/mcp` version to 0.4.0 with `package.json` (not in section 10; the 0.3.0
+   bump did the same).
+9. **Tests check a little more than section 5**: test 3 also reads every "closing text" answer (`... The section's closing
+   text: cat(..., offset: n)`) and checks it stays under the budget; test 5 checks the `section`, `offset` and `limit`
+   properties on all three schemas (section 5 named `get_object`'s); test 7 also checks that `./sections.js` is inlined.
+10. **`docs/HANDOFF.md:42-43`** no longer says 0.3.0 "is ready to publish": main already reads "was published to npm on
+    2026-10-09" (`HANDOFF.md:69-70`), so that proposed edit has nothing to change.
+11. **`/mcp/`'s own "How it answers" paragraph** (`site/src/pages/mcp/index.astro:58`, hand-written HTML next to the
+    twin's text in `site/src/lib/mcp.ts`) said the same stale thing ("caches them by hash", the page markdown included)
+    and gets the same sentence as 2.10 gives the twin, so the two pages agree; 2.10 named only `mcp.ts:73`.
+12. **`docs/PLAN.md` 4.7 is not applied here**: this build session does not edit PLAN, DECISIONS or HANDOFF; the text is
+    in 12.5 for the integrator. `AGENTS.md` and `docs/specs/site-size.md` are applied; site-size cites
+    `packages/mcp/src/server.ts:70`, the twin fetch after this change (it was `:64`).
+
+### 12.3 Measured numbers
+
+On the committed `content/` and `data/` of `04b705c8fb` (the same content as `bb3a37e016` for these pages), Node
+22.23.1, the local server (`BC_OBSERVATORY_LOCAL`) through the MCP SDK client over stdio, `src` and `dist` alike:
+
+| Answer | Before (0.3.0) | After (0.4.0) |
+|---|---|---|
+| `get_object("codeunit", "80")` | 177,746 | 9,504 (compact) |
+| `get_object("table", "18")` | 91,142 | 13,718 |
+| `get_object("table", "36")` | 182,895 | 14,800 |
+| `get_object("table", "81")` | 188,493 | 14,133 |
+| `localization("CZ")` | 173,865 | 5,427 |
+| `cat("topics/business-central/business-functionality")` | 390,338 | 8,186 |
+| `get_object("codeunit", "80", section: "events")`, following `Next:` | (whole page) | 5 answers: 29,473, 29,623, 29,600, 29,756, 21,221 |
+| `cat("objects/codeunit/80#event-OnAfterPostSalesDoc")` | 177,746 | 1,382 |
+| `cat("objects/table/36#field-20")` | 182,895 | 297 |
+| `localization("CZ", section: "objects_of_its_own", limit: 3)` | 173,865 | 493 |
+
+Over every `content/**/*.md` over 30,000 characters (233 pages, with the real site URL in the first lines): the largest
+compact view is 15,741 (`releases/al-18.0`), the median 9,058, every compact frontmatter parses with `yaml`; the largest
+answer of any section slice is 29,845 (`topics/business-central/business-functionality/finance`,
+`business_central_pages_and_reports` at offset 147), the longest section takes 11 calls
+(`business_central_pages_and_reports` of `topics/business-central/business-functionality`; its frontmatter 3), every
+row is read exactly once. Symbol paths: 123,126 of 123,210 in `data/index/symbols-*.json` resolve to a row; the 84
+misses start with `objects/table/231#field-5900` and `objects/table/242#field-2` to `-5` (section 8). Tool
+descriptions: 3,095 characters before (search 1,495, get_object 521, whats_new 363, cat 112, localization 104), 2,465
+after phase A (search 896, whats_new 332), 3,066 after phase B (search 931, get_object 775, cat 323, localization 205);
+the whole `tools/list` 5,436 after A, 6,454 after B (6,056 before). Site (`npx tsx scripts/site-size.ts site/dist` on
+the local build): tar 695.3 MB (729,118,720 bytes) and 59,135 files, as the baseline; no object page changed, the two
+MCP pages gained 112 apparent bytes.
+
+### 12.4 For the integrator: DECISIONS.md, append as D93
+
+> **D93 Long pages come back compact, and the MCP server slices them, not the site.** `get_object`, `cat` and
+> `localization` return a page verbatim when it fits 30,000 characters (`BC_OBSERVATORY_MAX_CHARS`, 0 = no limit),
+> else a compact view: the frontmatter without `generated` and with each block list cut to its first 600 characters
+> (at least 3 items), the title block, one line with every section key and its row count, the first 5 rows of each
+> section (200 characters a row) and one `→ n more of m: cat(path, section, offset)` line per cut section. `section`,
+> `offset` and `limit` read one section by rows (a table row, or a list item with its indented lines), never more than
+> the budget per answer; `frontmatter` is a section; a symbol path (`objects/codeunit/80#event-OnAfterPostSalesDoc`)
+> returns that member's row. Keys are fixed for the 25 object-page headings (`events`, `subscriptions`, `calls`,
+> `called_by`, `changes`, `versions`, `countries`, `learn`, ...) and the snake_case heading elsewhere; the slicer is
+> `packages/mcp/src/sections.ts`. Why: Claude Code saves a result over 50,000 characters to a file and warns above
+> 10,000 tokens; 56 pages were over 50,000 and 233 over 30,000 on 2026-10-12, Codeunit 80 "Sales-Post" 177,746 (compact
+> 9,504), Table 36 "Sales Header" 182,895 (compact 14,800, the largest object). Built: the largest compact view is
+> 15,741 (`releases/al-18.0`, median 9,058), the largest slice 29,845, the longest section 11 calls, and 123,126 of
+> 123,210 symbol paths resolve to their row (1,382 characters for `OnAfterPostSalesDoc` instead of the page). The server
+> already reads the markdown twins (`pageMarkdown` in `server.ts`), so the Pages tar gains nothing. Tool descriptions
+> keep call forms, filters and values and lose the scoring formula (3,095 to 2,465 characters, 3,066 with the section
+> sentences). `bc-observatory@0.4.0` (the 233 answers change shape, a minor bump under 0.x), plugin 0.2.3. Rejected: a
+> compact view for every page (changes 28,617 answers that fit today), 20 preview rows (Table 39 at 30,927, three pages
+> over the budget), `_meta["anthropic/maxResultSizeChars"]` (raises Claude Code's file threshold to 500,000, not the
+> tokens), section files on the site (bytes and files on the tar, D76, D88), a `get_section` tool (a tenth tool for
+> what three parameters do), JSON output (agents read the markdown; the page is the contract). Spec:
+> `docs/specs/mcp-sections.md` (section 12: what was built and where it differs).
+
+### 12.5 For the integrator: PLAN.md and HANDOFF.md
+
+`docs/PLAN.md` section 5, the M31 row replaced (the current row has `\`` escapes around the spec path; plain backticks
+here):
+
+```
+| **M31 MCP sections** | long pages come back compact from get_object, cat and localization (frontmatter with long lists cut, section keys with row counts, the first 5 rows of each section), section, offset and limit read a section in slices of at most 30,000 characters, a symbol path returns its member's row, tool descriptions keep call forms and drop the scoring formula; bc-observatory 0.4.0, plugin 0.2.3 (`docs/specs/mcp-sections.md`, D93, shipped 2026-10-12) | 2 days in two phases | none: deterministic, no LLM, no site bytes |
+```
+
+`docs/PLAN.md` 4.7 (MCP paragraph, lines 374-375): `cat(path)` becomes `cat(path, section?, offset?, limit?)`,
+`get_object(type, idOrName, version?, country?)` becomes `get_object(type, idOrName, country?, section?, offset?,
+limit?)`, `localization(cc, version?)` becomes `localization(cc, section?, offset?, limit?)`; after the tool list add
+"A page over 30,000 characters comes back compact with its section keys (D93)."
+
+`docs/HANDOFF.md`: remove the "MCP sections" entry from "Open specs, not yet implemented" (line 38) and add under
+"Where things stand":
+
+```
+**Shipped 2026-10-12, live for agents once `bc-observatory@0.4.0` is on npm:**
+- **MCP sections, D93** (`docs/specs/mcp-sections.md`, M31): `get_object`, `cat` and `localization` return a page whole
+  when it fits 30,000 characters and a compact view otherwise (frontmatter with long lists cut, the section keys with
+  row counts, the first 5 rows of each section): Codeunit 80 "Sales-Post" 177,746 to 9,504 characters, Table 36 14,800,
+  `localization("CZ")` 5,427. `section`, `offset` and `limit` read one section in slices of at most 30,000 characters
+  (Codeunit 80's 530 events in five calls), `frontmatter` is a section, and `cat` of a symbol path from `search`
+  (`objects/codeunit/80#event-OnAfterPostSalesDoc`) returns that member's row. The slicer is
+  `packages/mcp/src/sections.ts`; `BC_OBSERVATORY_MAX_CHARS` changes the budget (0 = whole pages, as 0.3.0). Tool
+  descriptions keep call forms and drop the scoring formula (3,095 to 3,066 characters with the section sentences).
+  Server 0.4.0 and plugin 0.2.3 in the tree; the owner publishes with `gh workflow run publish-mcp.yml --ref main`,
+  then `gh run watch` and `npm view bc-observatory version` (0.4.0). The site's object pages are unchanged (D88);
+  `/mcp/` and `/mcp.md` say what the three tools do now. Deviations in the spec's section 12.
+```
+
+Applied in this branch: `AGENTS.md` (the MCP sentence gains "a page over 30,000 characters comes back compact, and
+`section`, `offset` and `limit` read one section (D93)") and `docs/specs/site-size.md` (the MCP `cat` fetches the site
+twin, `packages/mcp/src/server.ts:70`; phase 3 must point it at the raw URL), and `site/src/pages/mcp/index.astro`
+(deviation 11).
+
+The shared site-build lock script (`site-build.sh` in the coordinating session's scratchpad) assigns to `status`, a
+read-only variable in zsh: the build itself completes ("28899 page(s) built", "Complete!") and the lock is released, but
+the script exits 1 after it. Rename the variable (`rc=${pipestatus[1]}`) before the next session relies on its exit code.
+
+Merging with the parallel learn-search build: both branches edit the `search` description in
+`packages/mcp/src/server.ts` (one line). Keep this branch's text and add that branch's new type value to the `type (...)`
+list (and to `bc-lookup`'s list); test 5 allows 1,000 characters a description and 3,300 for the nine, so a few more
+characters fit (3,066 today).

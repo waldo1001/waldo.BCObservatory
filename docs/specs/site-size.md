@@ -112,7 +112,7 @@ Starts only when a Pages run reports tar bytes above 850 MB after phases 1 and 2
   never disagree), falling back to `main` in local builds.
 - Callers: "Copy as markdown" and `openInClaude` (`page.ts:39`), the `<link rel="alternate" type="text/markdown">`
   of object pages if present, `site/src/pages/objects/llms.txt.ts`, the root `llms.txt`, and the MCP server's
-  `cat` (`packages/mcp`) if it builds site URLs (verify; it reads the npm package's own copy today).
+  `cat` (`packages/mcp`) if it builds site URLs (it fetches the site twin, `packages/mcp/src/server.ts:70`; phase 3 must point it at the raw URL).
 - A redirect is not possible on Pages; `site/src/pages/404.astro` recognises `/objects/<type>/<id>.md` and points at
   the raw URL with one line of text and a link (no script redirect for agents; they read the link).
 - Saving: about 120 MB apparent, 25,644 files (and the tar headers of 25,644 files, about 20 MB more).
