@@ -289,7 +289,7 @@ details.more > summary { cursor: pointer; color: var(--link); font-size: 14px; m
    are scoped to [popover]#menu, so a content heading slugged "menu" is never styled by them */
 :root { --hdr-h: 57px; }
 [popovertarget=menu] { display: inline-flex; align-items: center; gap: 6px; flex: none; min-height: 40px; padding: 0 12px; border: 1px solid var(--line-strong); border-radius: var(--r-card); background: none; color: var(--text); font: 600 14px var(--font-ui); cursor: pointer; }
-[popovertarget=menu]::after { content: "▾"; font-size: 11px; color: var(--muted); }
+[popovertarget=menu]::after { content: "▾" / ""; font-size: 11px; color: var(--muted); } /* empty alt: the name stays "Browse" */
 .hdr-tools { display: flex; gap: 8px; }
 @media (max-width: 899.98px) {
   .site-header .wrap { flex-wrap: nowrap; gap: 8px; padding: 8px 16px; }
