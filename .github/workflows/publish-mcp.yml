@@ -28,7 +28,7 @@ jobs:
       - run: npm install -g npm@^11.5.1
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run typecheck
-      - run: npx tsx --test tests/unit/mcp.test.ts
+      - run: npx tsx --test tests/unit/mcp.test.ts tests/unit/mcp-sections.test.ts
       - run: npm run build --workspace=bc-observatory
       - name: Publish unless this version is already on npm
         run: |

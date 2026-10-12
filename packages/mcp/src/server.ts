@@ -8,6 +8,8 @@
  * BC_OBSERVATORY_SITE to point at another deployment.
  *
  * Tools: search, ls, cat, get_object, diff_object, localization, whats_new, blog_footprint, feedback.
+ * Long pages come back compact (sections.ts, D93): over BC_OBSERVATORY_MAX_CHARS (30,000; 0 = no limit), cat, get_object
+ * and localization answer with the frontmatter, the section keys and the first rows; section, offset and limit read one.
  *
  * Search ranks with the site's scorer (D86, packages/search, bundled into dist/server.js): the same parser (`t36`,
  * `cu 80`, `table 36 BE`, bare ids, plurals, one typo, synonyms) and the same order. Hybrid by default (D63): the exact
@@ -30,10 +32,14 @@ import {
   type Hit, type Index, type PageRecord, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
+import { DEFAULT_BUDGET, budgetOf, pageView, type ViewArgs } from "./sections.js";
 
-const VERSION = "0.3.0";
+const VERSION = "0.4.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
+/** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
+const BUDGET = budgetOf(process.env.BC_OBSERVATORY_MAX_CHARS);
+const B = (Number.isFinite(BUDGET) ? BUDGET : DEFAULT_BUDGET).toLocaleString("en-US");
 const REPO = "https://github.com/waldo1001/waldo.BCObservatory";
 const DAY = 86_400_000;
 
@@ -240,9 +246,11 @@ export async function toolLs(a: { path?: string }): Promise<string> {
   return `${out.join("\n")}${files.length > MAX ? `\n... and ${files.length - MAX} more pages; use search() to narrow down` : ""}`;
 }
 
-export async function toolCat(a: { path: string }): Promise<string> {
-  // a symbol's path carries its anchor ("objects/codeunit/80#event-OnAfterPostSalesDoc"): the object's page
-  return pageMarkdown(a.path.replace(/#.*$/, ""));
+export async function toolCat(a: { path: string } & ViewArgs): Promise<string> {
+  // a symbol's path keeps its anchor ("objects/codeunit/80#event-OnAfterPostSalesDoc"): that member's row (D93)
+  const [base, anchor] = a.path.split(/(?=#)/);
+  const clean = `${base.replace(/^\/+|\/+$/g, "").replace(/\.md$/, "")}${anchor ?? ""}`;
+  return pageView(await pageMarkdown(clean.replace(/#.*$/, "")), clean, a, BUDGET, SITE);
 }
 
 /**
@@ -250,7 +258,7 @@ export async function toolCat(a: { path: string }): Promise<string> {
  * ("VAT VIES Correction (BE)"), case-insensitive. A W1 or app object wins over its country twins unless a country is
  * asked; two candidates of the same standing are listed with their paths.
  */
-export async function toolGetObject(a: { type: string; idOrName: string; country?: string }): Promise<string> {
+export async function toolGetObject(a: { type: string; idOrName: string; country?: string } & ViewArgs): Promise<string> {
   await loadIndex();
   const type = typeOfWord(a.type.toLowerCase().replace(/\s+/g, "")) ?? a.type.toLowerCase().replace(/\s+/g, "");
   let want = a.idOrName.trim().replace(/^"|"$/g, "");
@@ -276,7 +284,7 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
       const twins = found.filter((r) => r !== pick[0] && r.country).map((r) => r.country!.toUpperCase());
       const note = country && !inCountry.length ? `(${country.toUpperCase()} has no ${type} of its own here; the W1 ${type} applies.)\n\n` : "";
       const also = !country && twins.length ? `\n\n(Also in ${twins.join(", ")}: get_object("${type}", "${pick[0].objectId ?? pick[0].name}", country).)` : "";
-      return `${note}${await pageMarkdown(pick[0].id)}${also}`;
+      return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}`;
     }
     if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
   }
@@ -294,8 +302,9 @@ export async function toolDiffObject(a: { type: string; id: string; from: string
   return `${key} "${o.name}" BC${a.from} -> BC${a.to}: ${o.change}\n${JSON.stringify(o, null, 1)}`;
 }
 
-export async function toolLocalization(a: { country: string }): Promise<string> {
-  return pageMarkdown(`localizations/${a.country.toLowerCase()}`);
+export async function toolLocalization(a: { country: string } & ViewArgs): Promise<string> {
+  const p = `localizations/${a.country.toLowerCase()}`;
+  return pageView(await pageMarkdown(p), p, a, BUDGET, SITE);
 }
 
 /** Dated pages on or after `since`, newest first; nothing dated after today unless asked (a feature's date is its GA month). */
@@ -327,22 +336,25 @@ export function toolFeedback(a: { path: string; message: string }): string {
 
 // ---------------------------------------------------------------------------------------------- server
 
+/** section, offset and limit of cat, get_object and localization (D93). */
+const VIEW = { section: z.string().optional(), offset: z.number().int().min(0).max(100000).optional(), limit: z.number().int().min(1).max(5000).optional() };
+
 export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path).",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page, and the fields, published events, global procedures and enum values of AL objects, ranked like the site's search. Takes names ('Sales Header'), references ('t36', 'cu 80', 'table 11300 BE'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<ordinal>). Hybrid by default: exact matches stay on top and the rest is fused with a meaning ranking; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. Filters: type (topic, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page, and the fields, published events, global procedures and enum values of AL objects, ranked like the site's search. Takes names ('Sales Header'), references ('t36', 'cu 80', 'table 11300 BE'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<ordinal>); cat(path) reads that member alone. Hybrid by default: exact matches stay on top and the rest is fused with a meaning ranking; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. Filters: type (topic, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));
-  server.registerTool("cat", { title: "Read a page", description: "The full markdown of a page (frontmatter with evidence and links, then the body), by its path from search or ls.", inputSchema: { path: z.string() } },
+  server.registerTool("cat", { title: "Read a page", description: `A page's markdown by its path from search or ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
     async (a) => text(await toolCat(a)));
-  server.registerTool("get_object", { title: "Look up an AL object", description: "An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference or name, e.g. ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers') by its caption, ('table', 'VAT VIES Correction') or with country 'BE': fields, keys, events, public procedures, obsolete state, versions, countries that replace it, Learn pages. A W1 object wins over its country twins unless a country is given; two candidates of the same standing are listed with their paths.",
-    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional() } }, async (a) => text(await toolGetObject(a)));
+  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE'. Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact (frontmatter, the first 5 rows of each section, the section keys): pass section ('fields', 'events', 'procedures', 'calls', ...) with offset and limit to read one. To check that a field, event or procedure exists, search('event: <Name>') answers without the page.`,
+    inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, async (a) => text(await toolGetObject(a)));
   server.registerTool("diff_object", { title: "What changed in an object", description: "Member-level changes of a W1 object between two consecutive versions (fields, events, procedures, keys, properties, obsolete state).",
     inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, async (a) => text(await toolDiffObject(a)));
-  server.registerTool("localization", { title: "A country localization", description: "What a country layer (BE, NL, DE, ...) adds to or changes in W1, with its Learn local functionality hub.", inputSchema: { country: z.string().length(2) } },
+  server.registerTool("localization", { title: "A country localization", description: `What a country layer (BE, NL, DE, ...) adds to or changes in W1, with its Learn local functionality hub. Over ${B} characters it comes back compact; section, offset and limit read one section, as in cat.`, inputSchema: { country: z.string().length(2), ...VIEW } },
     async (a) => text(await toolLocalization(a)));
   server.registerTool("whats_new", { title: "What is new", description: "Videos, posts, roadmap features, AL extension releases (type 'release') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change') dated on or after a date (YYYY-MM-DD) up to today, newest first. A roadmap feature's date is its GA month: features after today are counted at the end and listed with include_future: true.",
     inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, async (a) => text(await toolWhatsNew(a)));

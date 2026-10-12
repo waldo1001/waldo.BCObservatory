@@ -55,6 +55,13 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
     assert.match(await call("get_object", { type: "table", idOrName: "VAT VIES Correction" }), /^---\nid: object\/table\/11300-be\n/);
     assert.match(await call("get_object", { type: "table", idOrName: "11300", country: "BE" }), /^---\nid: object\/table\/11300-be\n/);
     assert.match(await call("get_object", { type: "table", idOrName: "t36" }), /^---\nid: object\/table\/36\n/);
+    // long pages come back compact, a section in slices, a symbol path as its row (D93 test 6)
+    const salesPost = await call("get_object", { type: "codeunit", idOrName: "Sales-Post" });
+    assert.ok(salesPost.includes("Compact view:") && salesPost.length < 30_000, String(salesPost.length));
+    const member = await call("cat", { path: "objects/codeunit/80#event-OnAfterPostSalesDoc" });
+    assert.match(member, /^Codeunit 80 "Sales-Post", event OnAfterPostSalesDoc: /);
+    assert.ok(member.length < 5_000, String(member.length));
+    assert.match(await call("get_object", { type: "table", idOrName: "36", section: "fields", offset: 5, limit: 3 }), /Rows 6-8 of \d+\. Next: cat\("objects\/table\/36", section: "fields", offset: 8\)\n$/, "a section answer ends with one newline");
     assert.match((await call("search", { query: "customer", system: "sales", limit: 5 })).split("\n").find((l) => l.startsWith("- ")) ?? "", /Table 18 "Customer"/);
     const today = new Date().toISOString().slice(0, 10);
     const news = await call("whats_new", { since: today, limit: 100 });

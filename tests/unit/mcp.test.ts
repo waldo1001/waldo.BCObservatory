@@ -73,6 +73,17 @@ function fixture(): string {
   writeJson(join(root, "data/code/diffs/version/28__29.json"), { objects: [{ key: "table/18", name: "Customer", change: "changed", fields: [{ id: "3", name: "Email", change: "added" }] }] });
   return root;
 }
+/** fixture() plus Codeunit 12 with 60 events: about 6,500 characters, over a 5,000-character budget (D93 test 4). */
+function bigFixture(): string {
+  const root = fixture();
+  const events = Array.from({ length: 60 }, (_, i) => `- \`OnEvent${i + 1}(var GenJnlLine: Record "Gen. Journal Line")\` (integration): Raised at step ${i + 1} of posting.`);
+  // plain YAML as the pipeline writes it, so the answer starts "---\nid: object/codeunit/12\n" like a real page
+  const fm = ["id: object/codeunit/12", "type: object", 'title: Codeunit 12 "Gen. Jnl.-Post Line"', "summary: Posts journal lines.", "tier: official", "object_type: codeunit", "object_id: 12",
+    "name: Gen. Jnl.-Post Line", "app: Base Application", "namespace: Microsoft.Finance.GeneralLedger.Posting"];
+  writeText(join(root, "content", "objects/codeunit/12.md"), `---\n${fm.join("\n")}\n---\n\n# Codeunit 12 "Gen. Jnl.-Post Line"\n\n## Events published\n\n${events.join("\n")}\n`);
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  return root;
+}
 const connect = async (env: Record<string, string>) => {
   const transport = new StdioClientTransport({ command: process.execPath, args: ["--import", "tsx", join(ROOT, "packages/mcp/src/server.ts")], env: { ...process.env, ...env } as Record<string, string>, cwd: ROOT });
   const client = new Client({ name: "smoke", version: "0" });
@@ -118,7 +129,7 @@ test("MCP server over stdio: every tool answers from a local checkout", async ()
   }
 });
 
-test("D93 phase A: tool descriptions teach call forms, not the scoring formula", async () => {
+test("D93: tool descriptions teach call forms, not the scoring formula, and the page tools take section, offset, limit", async () => {
   const { client } = await connect({ BC_OBSERVATORY_LOCAL: fixture() });
   try {
     const tools = (await client.listTools()).tools;
@@ -129,8 +140,53 @@ test("D93 phase A: tool descriptions teach call forms, not the scoring formula",
     assert.ok(search.includes("'event: OnAfterPost'"), "the symbol prefixes stay");
     for (const v of ["topic", "app", "feature", "object", "localization", "video", "post", "change", "source", "digest", "release"]) assert.ok(search.includes(v), `type value ${v}`);
     assert.ok(!search.includes("+10") && !search.includes("title or caption 3"), "the scoring formula lives in the README");
+    // phase B: the three page tools say how to read one section
+    for (const name of ["get_object", "cat", "localization"]) {
+      const t = tools.find((x) => x.name === name)!;
+      for (const w of ["section", "offset", "limit"]) assert.ok(t.description!.includes(w), `${name} description: ${w}`);
+      for (const w of ["section", "offset", "limit"]) assert.ok(w in (t.inputSchema.properties ?? {}), `${name} schema: ${w}`);
+    }
   } finally {
     await client.close();
+  }
+});
+
+test("D93: a page over the budget comes back compact; section, offset and limit page through it; a symbol path returns its row", async () => {
+  const root = bigFixture();
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root, BC_OBSERVATORY_MAX_CHARS: "5000" });
+  try {
+    const compact = await call("get_object", { type: "codeunit", idOrName: "12" });
+    assert.ok(compact.startsWith("---\nid: object/codeunit/12\n"), compact.slice(0, 40));
+    assert.ok(compact.includes("Compact view: this page is"));
+    assert.ok(compact.includes('→ 55 more of 60: cat("objects/codeunit/12", section: "events", offset: 5)'));
+    assert.ok(compact.length < 5000, String(compact.length));
+    const slice = await call("get_object", { type: "codeunit", idOrName: "12", section: "events", offset: 50, limit: 5 });
+    assert.match(slice, /^Codeunit 12 "Gen\. Jnl\.-Post Line", section "events": https:\/\/waldo1001\.github\.io\/waldo\.BCObservatory\/objects\/codeunit\/12\/\n/);
+    assert.match(slice, /OnEvent51\([\s\S]*OnEvent55\(/);
+    assert.ok(slice.endsWith('Rows 51-55 of 60. Next: cat("objects/codeunit/12", section: "events", offset: 55)\n'), slice.slice(-100));
+    assert.ok((await call("cat", { path: "objects/codeunit/12", section: "events", offset: 58 })).endsWith("Rows 59-60 of 60.\n"));
+    const member = await call("cat", { path: "objects/codeunit/12#event-OnEvent7" });
+    assert.ok(member.startsWith('Codeunit 12 "Gen. Jnl.-Post Line", event OnEvent7:'), member.slice(0, 80));
+    assert.ok(!member.includes("OnEvent8"));
+    assert.equal(await call("localization", { country: "BE", section: "overview" }), 'No section "overview" on localizations/be. Sections: frontmatter.');
+    assert.match(await call("cat", { path: "objects/codeunit/80#event-OnAfterPostSalesDoc" }), /# Codeunit 80/, "a symbol path without its row falls back to the page");
+    assert.match(await call("get_object", { type: "table", idOrName: "18" }), /## Fields/, "a small page stays whole");
+    assert.match(await call("get_object", { type: "codeunit", idOrName: "12", offset: 5 }), /^offset and limit read one section: cat\("objects\/codeunit\/12", section: "<key>", offset: 5\)\. Sections: events, frontmatter\.$/);
+  } finally {
+    await client.close();
+  }
+  for (const env of [{}, { BC_OBSERVATORY_MAX_CHARS: "0" }] as Record<string, string>[]) {
+    const { client: c2, call: call2 } = await connect({ BC_OBSERVATORY_LOCAL: root, ...env });
+    try {
+      const whole = await call2("get_object", { type: "codeunit", idOrName: "12" });
+      assert.ok(whole.startsWith("---\n") && whole.includes("OnEvent60(") && !whole.includes("Compact view:"), `whole page with ${JSON.stringify(env)}`);
+      if (env.BC_OBSERVATORY_MAX_CHARS === "0") {
+        const all = await call2("get_object", { type: "codeunit", idOrName: "12", section: "events" });
+        assert.ok(all.includes("OnEvent1(") && all.includes("OnEvent60(") && !all.includes("Rows "), "with the budget off a section comes back whole");
+      }
+    } finally {
+      await c2.close();
+    }
   }
 });
 
