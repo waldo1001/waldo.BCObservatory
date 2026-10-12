@@ -17,13 +17,6 @@ spec path, decision, milestone, status and where to start; a coding session take
   bytes; −6.26 MB in all). Start with phase 1, task 1: `tests/unit/sections.test.ts` and `pipeline/lib/sections.ts`.
   Until it lands readers see the 2026-10-12 header (215 px on a phone, two or three rows elsewhere) and the system
   crumb; localization and source pages have no crumb to their section.
-- **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Status: proposed 2026-10-12, nothing implemented.
-  Six items of the 2026-10-12 UX review: the changes, videos and posts indexes render 50 rows plus a title list and
-  load the rest from the media shard (C1), filter pills with live counts on those lists (C2), week cards (C3), source
-  cards (C4), the roadmap tracker filters `/features/` (C5), a compact post card (E1, CSS only; the review's "iframe
-  first" was wrong). Start with phase 0 (the "before" sizes of section 7.1), then any of phases 1 to 3; phase 6 needs
-  phases 4 and 5. Until it lands readers get 600 KB list pages, an inert kinds line, five bullets on `/digests/`, a flat
-  `/sources/`, unlinked tracker numbers and a 470 px post card above the key points.
 - **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Status: proposed 2026-10-12, nothing implemented.
   Items D3 and D6 of the 2026-10-12 UX review, home page only, three phases that ship alone: B captions that avoid
   stars and plot labels in their own font, C ports packed on the canvas border, A the lens bar as two groups with a
@@ -38,6 +31,18 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-12, live on the next Pages build:**
+- **Lists and media, D91** (`docs/specs/lists-and-media.md`, M29). Live after the derive that the merge triggers and its
+  Pages build (until then change rows lack branch, major, object count and badges, video rows the review badge, and the
+  Major facet is one pill). `/changes/`, `/videos/` and `/posts/` render their newest 50 rows and a closed title list of
+  every other page, and load the rest from the search index's media shard on "Show 100 more" or a filter
+  (`MediaList.astro`, `media-list.ts`, rows in `list-rows.ts`, tested); pills with counts that follow the other filters
+  (Repository, Kind, breaking only, Major; Channel or Blog and Year), a click from all on keeps one pill (`pickPill`,
+  amends D82 on lists), state in the query string; `/features/` filters by Wave, Status and Area and the tracker cells
+  link into them; week cards on `/digests/` with the running week "in progress"; source cards on `/sources/`, and the AL
+  Language extension's page says "changelog"; the post card's image is a 200 px column, hidden on phones. Media records
+  gained the change and video facts the rows print (+58 KB). Local build on the 2026-10-12 content: **695.3 to 694.4 MB
+  tar**, the three lists 1.49 MB to 376 KB, no object, video or post page changed, files +2. Later (spec section 8): a
+  media shard per type, restoring "Show more" after Back, the pills on `/changes/week/`.
 - **Learn search, D94** (`docs/specs/learn-search.md`, M32). `includeSourceInSymbolFile` found nothing because Learn
   articles had no search record and identifiers were never kept. The fetched stage now writes `meta.identifiers`
   (code spans, camelCase or PascalCase, at most 40); a nightly phase fills them once for the 8,050 items fetched

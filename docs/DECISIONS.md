@@ -912,3 +912,30 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   go stale and re-enter extraction, an LLM stage), PageRecord objects in the shard (3.7 MB), listing the shard
   under `shards` (MCP 0.3.0 spreads every shard as page records and would fail), splitting CamelCase in every record's
   tags (hub tags are TOC titles; their rankings would move). Spec: `docs/specs/learn-search.md`.
+- **D91 Lists load in pages and filter by what they hold; weeks and sources are cards; the post card makes room.** The
+  changes, videos and posts indexes shipped every row in one file (595,523, 621,491 and 275,632 bytes on 2026-10-12,
+  2,300 rows; every new item added its row for good) and only the changes list had a filter (D82). Each now renders its
+  newest 50 rows and, in a closed "by title" list, a link to every other page (299 media pages had no other static
+  link: 183 videos, 108 posts, 8 changes); "Show 100 more" and every filter render the rows in the browser from the
+  search index's media shard (D86), which every page can already load and which stays in Cache Storage; nothing is
+  fetched until the reader acts. The media records gain what the rows print: a change's branch, major, object count and
+  breaking and community flags, a video's review state and poster opt-out (+58,233 bytes); the scorer does not read
+  them. Filters are pills whose counts follow the other filters: Repository, Kind, "breaking only" (the flag or the
+  kind, D80's rule) and Major on changes; Channel or Blog and Year on videos and posts; Wave, Status and Area on
+  features, whose tracker cells link into them. On list pages a click from "all on" keeps only that pill and later
+  clicks toggle (`pickPill`), which amends D82's click rule there; the galaxy keeps D80's. A facet with more than eight
+  values or 120 characters of labels sits in a closed details. Weekly digests are cards with the week's numbers and the
+  radar, the running week (by the build date) marked "in progress"; sources are cards with icon, kind, tier, count, top
+  three systems and their newest item, and a source page names its kind with the same words (the AL Language
+  extension's says "changelog" and "63 releases", not "blog" and "posts"). The post stage's card puts its image in a
+  200 px column beside the text and drops it under 600 px, CSS only: "Key points" moves from 1,080 to 814 px at 1280 x
+  900. The review's "70vh iframe first" was wrong: the card has come first since D60. Measured on the 2026-10-12 build:
+  the three lists 1,492,646 to 375,715 bytes (gzip 265,413 to 98,841), the media shard +58,233, the other index pages
+  +35,113, the shared stylesheet +1,144, JavaScript +8,376; no object, video or post page changed size; tar 695.3 to
+  694.4 MB (-1,013,760 bytes), files +2; a new item adds a 100 to 130 byte title line to its list instead of a full
+  row. Rejected: paginated static pages (45 more files and about +0.24 MB, and filters would still need the shard), a
+  rows JSON per list (+0.77 MB in three files), a media shard per type (a lighter "Show more", two more files and a
+  manifest field; later), reading branch and major from the tags (ties the list to the tag order of `change.ts`), D82's
+  toggle on long facets (20 clicks to see one of 21 blogs), a select for long facets (a second control shape), the
+  running week from `generated.at` (an unchanged re-render keeps the old date), the post stage below the key points
+  (the compact card is enough at 1280). Spec: `docs/specs/lists-and-media.md`.
