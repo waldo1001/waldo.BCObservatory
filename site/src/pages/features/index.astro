@@ -29,16 +29,16 @@ const cell = (w: string, s?: string) => `?wave=${slug(w)}${s ? `&status=${s}` : 
   <h1>{all.length} features</h1>
   <p class="lede">Business Central items on the Microsoft 365 roadmap, the successor of the release plans. Agents: <a href={`${base}features/llms.txt`}>llms.txt</a>.</p>
   <h2>Roadmap tracker</h2>
-  <table>
+  <div class="table-scroll"><table>
     <thead><tr><th scope="col">Wave</th>{Object.values(label).map((l) => <th scope="col">{l}</th>)}</tr></thead>
     <tbody>{waves.map((w) => { const c = byStatus(w); return <tr><td><a href={cell(w)} data-cell>{w}</a></td>{STATUSES.map((s) => <td>{c[s] ? <a href={cell(w, s)} data-cell>{c[s]}</a> : c[s]}</td>)}</tr>; })}</tbody>
-  </table>
+  </table></div>
   <h2 id="all-features">All features</h2>
   <Facets kind="feature" facets={facets} />
-  <table data-facet-table>
+  <div class="table-scroll"><table data-facet-table>
     <thead><tr><th scope="col">Feature</th><th scope="col">Area</th><th scope="col">Status</th><th scope="col">GA</th></tr></thead>
     <tbody>{all.map((f) => <tr data-wave={waveId(f)} data-status={f.data.status} data-area={areaId(f)}><td><a href={`${base}features/${f.id}/`}>{f.data.title}</a></td><td>{f.data.area}</td><td>{label[f.data.status]}</td><td>{f.data.ga_date}</td></tr>)}</tbody>
-  </table>
+  </table></div>
 </List>
 <script>
   // D91 C5: the pills filter the table in place; a tracker cell is a link into them
