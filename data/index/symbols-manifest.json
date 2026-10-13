@@ -2,32 +2,38 @@
   "schema": "bcobs-symbols@1",
   "major": "29",
   "commit": "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
-  "built_at": "2026-10-11T00:37:42.044Z",
+  "built_at": "2026-10-13T13:08:56.958Z",
   "objects": 16352,
+  "country_rows": {
+    "fields": 5811,
+    "events": 581,
+    "procs": 1421,
+    "values": 132
+  },
   "kinds": {
     "fields": {
-      "file": "symbols-fields-d47dcd573951.json",
-      "count": 55930,
-      "sha256": "d47dcd573951e4bb2721395c5791762761dd93ab6bb60fb9190bad8c70d9fe69",
-      "bytes": 4080388
+      "file": "symbols-fields-24aadad548a9.json",
+      "count": 61741,
+      "sha256": "24aadad548a9ee924db0839964e3bf4a4d055b419ec8cefc0ccfb6572f31fb84",
+      "bytes": 4437621
     },
     "events": {
-      "file": "symbols-events-5ee99efa3129.json",
-      "count": 25185,
-      "sha256": "5ee99efa3129859c807e44c46a40e4dee087b4677785c2db1b5be7194bc443bf",
-      "bytes": 2473931
+      "file": "symbols-events-b4f01cbcb3ee.json",
+      "count": 25766,
+      "sha256": "b4f01cbcb3ee627c53ffee0c447738a757796b65b897e81c61f7b6b771a25a75",
+      "bytes": 2524370
     },
     "procs": {
-      "file": "symbols-procs-5c3947b5e2b3.json",
-      "count": 35950,
-      "sha256": "5c3947b5e2b3f0d4c333f72e1782da95b47ff8f400106c5a9249b1118ab7067c",
-      "bytes": 2927908
+      "file": "symbols-procs-72118026cf36.json",
+      "count": 37371,
+      "sha256": "72118026cf365bbaa32f3db4a652ff07578c5d6d6a5c2e79962eb61ac88ece56",
+      "bytes": 3013907
     },
     "values": {
-      "file": "symbols-values-f05018dcbd38.json",
-      "count": 6145,
-      "sha256": "f05018dcbd380b0189d621eee754bcd3774e3ff55311712f25ff2efbeab2422b",
-      "bytes": 281627
+      "file": "symbols-values-0e1a733380d5.json",
+      "count": 6277,
+      "sha256": "0e1a733380d5db0684b43da11ea7979c3ab048a7ddc9a1edfcc83ad074e9592a",
+      "bytes": 286972
     }
   }
 }
