@@ -37,6 +37,8 @@ export interface Term {
   alts: string[];
   phrase: boolean;
   numeric: boolean;
+  /** the word as typed (case, dots), for a hint that names it; a quoted phrase as typed, without its quotes */
+  raw?: string;
 }
 
 export interface ParsedQuery {

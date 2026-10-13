@@ -16,14 +16,14 @@ export const TYPE_WORDS: Record<string, ObjectType> = Object.fromEntries(
 /** The object type a word names: a type word, or an abbreviation (`cu`, `t`). */
 export const typeOfWord = (w: string): ObjectType | null => TYPE_WORDS[w.toLowerCase()] ?? ABBR[w.toLowerCase()] ?? null;
 
-const KINDS: Record<string, SymbolKind> = { field: "field", fields: "field", event: "event", events: "event", proc: "proc", procs: "proc", procedure: "proc", procedures: "proc", value: "value", values: "value" };
+export const KINDS: Record<string, SymbolKind> = { field: "field", fields: "field", event: "event", events: "event", proc: "proc", procs: "proc", procedure: "proc", procedures: "proc", value: "value", values: "value" };
 
 /** One term of a word (or phrase) with its stem and alternates. */
 export function term(text: string, phrase = false, raw = text): Term {
   const alts = [...synonymsOf(text)];
   const camel = camelParts(raw);
   if (camel.length > 1) alts.push(camel.join(" "));
-  return { text, stem: phrase ? text.split(" ").map(stem).join(" ") : stem(text), alts, phrase, numeric: /^\d+$/.test(text) };
+  return { text, stem: phrase ? text.split(" ").map(stem).join(" ") : stem(text), alts, phrase, numeric: /^\d+$/.test(text), raw: raw || text };
 }
 
 /** The first words of a question: a question word, or an auxiliary verb ("is a codeunit an object", "should I use"). */
@@ -89,7 +89,7 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
   const multi = synonymPhrases().map((p) => p.split(" ")).sort((a, b) => b.length - a.length);
   for (let i = 0; i < toks.length; i++) {
     const hit = multi.find((p) => p.every((w, j) => toks[i + j]?.text === w));
-    if (hit) { q.terms.push(term(hit.join(" "), true)); i += hit.length - 1; continue; }
+    if (hit) { q.terms.push({ ...term(hit.join(" "), true), raw: toks.slice(i, i + hit.length).map((t) => t.raw || t.text).join(" ") }); i += hit.length - 1; continue; }
     q.terms.push(term(toks[i].text, false, toks[i].raw));
   }
   for (const p of phrases) q.terms.push(p.text.includes(" ") ? term(p.text, true, p.raw) : term(p.text, false, p.raw));

@@ -280,6 +280,24 @@ test("text on an exact name: a hit named like the query takes no points from its
   assert.equal(sc("customer", "objects/table/18"), 17.3);
 });
 
+test("lift: a generic word keeps the symbols' baseline: enum values named like it stay below the hub that out-ranked them (D95 review)", () => {
+  const owners: PageRecord[] = [
+    obj("objects/enum/1", "enum", 1, "Big Enum", "Base Application", 1000),
+    obj("objects/enum/16", "enum", 16, "Gen. Journal Account Type", "Base Application", 50),
+    obj("objects/enum/6211", "enum", 6211, "Shpfy Thing", "Shopify", 5),
+    { path: "topics/bc/finance/posting", type: "topic", title: "Posting documents", summary: "How posting works.", tier: "official", members: 1, narrative: "unreviewed" },
+  ];
+  const i = prepare(owners.map(pageToRecord));
+  const by = (id: string) => i.records.find((r) => r.id === id)!;
+  prepare([symbolToRecord("value", ["enum/16", "Posting", 0, null], by("objects/enum/16")), symbolToRecord("value", ["enum/6211", "Posting", 1, null], by("objects/enum/6211"))], i);
+  assert.deepEqual(search(i, p("posting")).map((h) => h.r.id), ["topics/bc/finance/posting", "objects/enum/16#value-0", "objects/enum/6211#value-1"], "the hub first, the values after it, whatever their owner's layer");
+  // the baseline of a symbol: 2 x the owner's importance, the layer and the type prior only when the query asked for symbols
+  const imp = (id: string) => by(id).importance;
+  const generic = (id: string) => Math.round(scoreRecord(i, by(id), p("posting")).s * 100) / 100, kind = (id: string) => Math.round(scoreRecord(i, by(id), p("value: Posting")).s * 100) / 100;
+  assert.equal(Math.round((generic("objects/enum/16#value-0") - generic("objects/enum/6211#value-1")) * 100) / 100, Math.round(0.6 * 2 * (imp("objects/enum/16") - imp("objects/enum/6211")) * 100) / 100, "a generic word: the importance only");
+  assert.equal(Math.round((kind("objects/enum/16#value-0") - kind("objects/enum/6211#value-1")) * 100) / 100, Math.round((0.5 + 2 * (imp("objects/enum/16") - imp("objects/enum/6211"))) * 100) / 100, "a kind: the owner's layer too");
+});
+
 test("hints 6: a kind: query with no hit says so and names the nearest symbols (D95)", () => {
   const i = withSymbols();
   const h = (raw: string, hit = false) => { const q = p(raw); return hints(i, q, hit ? search(i, q) : []); };
@@ -295,6 +313,35 @@ test("hints 6: a kind: query with no hit says so and names the nearest symbols (
   // symbols not loaded (the site's lazy shards): no claim
   assert.deepEqual(hints(index, p("event: OnAfterPostSalesDocs"), []), []);
   assert.deepEqual(hints(i, p("Posting Date"), []), [], "only a kind: query");
+});
+
+test("hints 6: filters never turn into an absence; the kind parameter counts; short names have no neighbours; the name is what was typed (D95 review)", () => {
+  const i = withSymbols();
+  const h = (raw: string, opts = {}, hits = false) => { const q = p(raw); return hints(i, q, hits ? search(i, q) : [], opts); };
+  // the caller's filters removed every hit although the field exists (the unfiltered search found one)
+  const q = p("field: vat bus posting group"), all = search(i, q);
+  assert.ok(all.length > 0);
+  assert.equal(hints(i, q, [], { unfiltered: all, filters: "object_type=codeunit" })[0].text, `No field named "vat bus posting group" matches the filters (object_type=codeunit); without them: ${all.length} hits.`);
+  assert.equal(hints(i, p("field: Posting Dat"), [], { unfiltered: search(i, p("field: Posting Dat")).slice(0, 1) })[0].text, 'No field named "Posting Dat" matches the filters; without them: 1 hit.');
+  // nothing without the filters either: an absence, and the nearest names respect the filters
+  assert.equal(h("event: OnAfterPostSalesDocs", { unfiltered: [] })[0].text.startsWith('No event named "OnAfterPostSalesDocs". Nearest events: OnAfterPostSalesDoc '), true);
+  assert.equal(h("event: OnAfterPostSalesDocs", { unfiltered: [], keep: (r: { objectType?: string }) => r.objectType === "table" })[0].text, 'No event named "OnAfterPostSalesDocs".');
+  assert.equal(h("field: Posting Dat", { keep: (r: { objectType?: string }) => r.objectType === "codeunit" })[0].text, 'No field named "Posting Dat".', "only the events of Codeunit 80 are kept: no field is near");
+  // the kind parameter: a query without a prefix, asked for events
+  assert.equal(h("OnBeforeValidateWidgetCode", { kind: "event" })[0].text, 'No event named "OnBeforeValidateWidgetCode".');
+  assert.deepEqual(h("OnBeforeValidateWidgetCode"), [], "no kind, no claim");
+  assert.equal(h("OnAfterPostSalesDocs", { kind: "event" })[0].query, "event: OnAfterPostSalesDoc");
+  // a name of one to three letters is near everything: no list
+  assert.deepEqual(h("proc: x").map((x) => x.text), [], "no procedures loaded here: no claim");
+  assert.equal(h("event: x")[0].text, 'No event named "x".');
+  assert.equal(h("event: OnA")[0].text, 'No event named "OnA".', "three letters: nothing is near");
+  // the name is the terms as typed, without the type, country and version words
+  assert.equal(h("event: OnAfterPostSalesDocs codeunit")[0].text.startsWith('No event named "OnAfterPostSalesDocs". Nearest events: OnAfterPostSalesDoc '), true);
+  assert.equal(h("field: Posting Dat BE")[0].text.startsWith('No field named "Posting Dat". Nearest fields: Posting Date '), true);
+  assert.equal(h("field: Posting Dat bc30")[0].text.startsWith('No field named "Posting Dat". Nearest fields: Posting Date '), true);
+  assert.equal(h('field: "VAT Bus. Postin"')[0].text.startsWith('No field named "VAT Bus. Postin". '), true, "a quoted phrase as typed");
+  // an edit-distance neighbour: one edit up to seven letters
+  assert.equal(h("event: OnAfterPostSalesDocz")[0].text.includes("Nearest events: OnAfterPostSalesDoc "), true);
 });
 
 // ---------------------------------------------------------------------------------------------- question shapes and phrases (D95 phase D)

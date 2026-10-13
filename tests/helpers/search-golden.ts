@@ -13,7 +13,7 @@ import { renderSearchIndex } from "../../pipeline/render/search.js";
 
 export interface GoldenRow {
   q: string; expect?: string; where: string | string[]; covers: string; pending?: string;
-  not_above?: string[]; major?: string; kind?: string; name?: string; within?: { id: string; n: number }; hint?: string; hint_path?: string;
+  not_above?: string[]; major?: string; kind?: string; name?: string; within?: { id: string; n: number }; no_symbol_in_top?: number; hint?: string; hint_path?: string;
 }
 /** One result as both runners see it. */
 export interface GoldenHit { id: string; symbol: boolean; object: boolean; name?: string; kind?: string; majorOk?: boolean }
@@ -65,6 +65,8 @@ export function checkRow(row: GoldenRow, hits: GoldenHit[], hints: { text: strin
     }
     if (w === "none" && hits.length) return `want no hits, got ${show(3)}`;
   }
+  // a generic word: the fields, events and enum values that carry it as a name stay below the pages (D95 review)
+  if (row.no_symbol_in_top) { const bad = hits.slice(0, row.no_symbol_in_top).find((h) => h.symbol); if (bad) return `a symbol (${bad.id}) is among the first ${row.no_symbol_in_top} hits (${show(row.no_symbol_in_top)})`; }
   if (row.major && !hits[0]?.majorOk) return `the first hit (${hits[0]?.id}) is not present in BC${row.major}`;
   if (row.hint && !hints.some((h) => new RegExp(row.hint!, "i").test(h.text))) return `no hint matches /${row.hint}/i (${hints.map((h) => h.text).join(" | ") || "no hints"})`;
   if (row.hint_path && !hints.some((h) => h.path === row.hint_path)) return `no hint links ${row.hint_path}`;

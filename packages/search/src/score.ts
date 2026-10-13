@@ -342,9 +342,8 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     if (q.ref.country) return { s: country === q.ref.country ? 1000 : country === null ? 900 : 850, why };
     return { s: country === null ? 1000 : 900, why };
   }
-  // a symbol stands where its owner stands: the owner's layer, importance and type prior (D95)
   const prior = objectish ? TYPE_PRIOR[r.objectType ?? ""] ?? 0 : 0;
-  const lift = (base: number) => base + (objectish ? LAYER[r.layer] : 1) + (objectish ? 2 * r.importance : 0) + prior;
+  const lift = (base: number) => base + (object ? LAYER[r.layer] : symbol ? 0 : 1) + (objectish ? 2 * r.importance : 0) + prior;
   // a bare number: the objects carrying that id, across types
   if (q.number !== null) {
     if (!object || r.objectId !== q.number) return none;
@@ -376,12 +375,22 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   // the name equals the whole query (+10) or starts with it (+3), by the weakest form a word met
   let eq = 0, starts = 0, byName = false;
   n.eqs.forEach((e, k) => { const x = nameMatch(e, ms, objectish); if (x.eq > eq) { eq = x.eq; byName = k === 0; } starts = Math.max(starts, x.starts); });
+  // 25k object pages and 120k symbols would drown a generic query: a digit, a type word, a member word or a kind lifts
+  // the demotion; for an object page also its name (the name, not the caption: "subscription" is the caption of Table
+  // 8057 "Subscription Header" and must not lift it over the Subscription billing hub); for a symbol an event-shaped
+  // word ("OnAfterPostSalesDoc"), not its name (six enum values are named "Posting")
+  const lifted = q.kind || q.types.length || /\d/.test(q.raw) || OBJECT_WORDS.test(q.raw)
+    || (object && eq && byName) || (symbol && ms.some((m) => /^on[a-z]/.test(m.term.text) && m.term.alts.some((a) => a.startsWith("on "))));
+  // a symbol stands where its owner stands (D95) when the query asked for symbols: the owner's layer, importance and type
+  // prior, and no text points for a name equal to the query (a tooltip that repeats the name must not outrank the owner's
+  // standing). A generic word ("posting": six enum values carry that name) keeps the baseline symbols always had: below
+  // the Learn articles and hubs it would otherwise displace, only the owner's importance orders them
+  const owned = symbol && !!lifted;
   // "name" (the exact band) is the record's own name or title; a caption that equals the query scores the same, but
   // is no reason to pin it above a hub
   // through a synonym ("client" is Customer) it is still the name; through a typo it is a guess ("name~")
-  // a symbol named like the query earns no text points: its tooltip must not lift it above its owner's standing (D95);
-  // pages keep theirs (the D86 worked examples pin them)
-  if (eq) { s += 10 * eq - (symbol ? textPts : 0); why.push(!byName ? "caption" : eq >= 0.75 ? "name" : "name~"); }
+  // pages keep their text points (the D86 worked examples pin them)
+  if (eq) { s += 10 * eq - (owned ? textPts : 0); why.push(!byName ? "caption" : eq >= 0.75 ? "name" : "name~"); }
   else if (starts) { s += 3 * starts; why.push("starts"); }
   // a hub (or an app page) is a starting point in proportion to what hangs off it, when its title or TOC names the query
   if ((r.type === "topic" || r.type === "app") && !symbol && named) s += Math.log2((r.members ?? 0) + 1);
@@ -389,13 +398,7 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   if ((r.type === "topic" || r.type === "app") && !symbol) s += NARRATIVE[r.narrative ?? (r.type === "app" ? "none" : "unreviewed")] ?? 0;
   s += countryPoints(q, r, country);
   if (q.types.length && objectish) s += 3;
-  s = lift(s);
-  // 25k object pages and 120k symbols would drown a generic query: a digit, a type word, a member word or a kind lifts
-  // the demotion; for an object page also its name (the name, not the caption: "subscription" is the caption of Table
-  // 8057 "Subscription Header" and must not lift it over the Subscription billing hub); for a symbol an event-shaped
-  // word ("OnAfterPostSalesDoc"), not its name (six enum values are named "Posting")
-  const lifted = q.kind || q.types.length || /\d/.test(q.raw) || OBJECT_WORDS.test(q.raw)
-    || (object && eq && byName) || (symbol && ms.some((m) => /^on[a-z]/.test(m.term.text) && m.term.alts.some((a) => a.startsWith("on "))));
+  s = symbol ? s + 2 * r.importance + (owned ? LAYER[r.layer] + prior : 0) : lift(s);
   if (objectish && !lifted) { s *= 0.6; why.push("demoted"); }
   return { s, why };
 }

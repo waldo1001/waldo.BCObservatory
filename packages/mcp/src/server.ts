@@ -28,7 +28,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import {
-  KIND_OF, countriesOf, hints, learnRecords, pageToRecord, parseQuery, prepare, search as rank, symbolLine, symbolRecords, systemOf, typeOfWord,
+  KIND_OF, KINDS, countriesOf, hints, learnRecords, pageToRecord, parseQuery, prepare, search as rank, symbolLine, symbolRecords, systemOf, typeOfWord,
   type Hit, type Index, type LearnShard, type PageRecord, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
@@ -186,7 +186,7 @@ export interface SearchArgs {
 /** The filters of a search call, case-insensitive; a system by its id, label word or alias ("g/l" is finance). */
 export function keepOf(a: SearchArgs): (r: SearchRecord) => boolean {
   const lc = (x: string | undefined) => x?.trim().toLowerCase() || undefined;
-  const type = lc(a.type), tier = lc(a.tier), country = lc(a.country), app = lc(a.app), kind = lc(a.kind);
+  const type = lc(a.type), tier = lc(a.tier), country = lc(a.country), app = lc(a.app), kind = KINDS[lc(a.kind) ?? ""] ?? lc(a.kind);
   const system = a.system ? systemOf(a.system) ?? lc(a.system) : undefined;
   const objectType = a.object_type ? typeOfWord(a.object_type.replace(/\s+/g, "")) ?? lc(a.object_type) : undefined;
   return (r) => (!type || r.type === type) && (!tier || r.tier === tier) && (!system || r.system === system)
@@ -200,11 +200,14 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const limit = a.limit ?? 10, mode = a.mode ?? "hybrid", POOL = 50;
   const q = parseQuery(a.query, { countries: countriesOf(index!) });
   const hits = rank(index!, q, { filter: keep });
+  // the kind asked for, by the `kind:` prefix or by the kind parameter ("page" is no symbol kind): no meaning list, and a
+  // hit-less answer says what is missing (D95)
+  const kind = q.kind ?? KINDS[a.kind?.trim().toLowerCase() ?? ""] ?? null;
   const byId = new Map<string, SearchRecord>(hits.map((h) => [h.r.id, h.r]));
   // the meaning list (D63): pages only, the top 50 by cosine similarity
   let semantic: string[] = [], note = "";
   // a kind: query asks for a symbol, and symbols are never in the meaning list: no padding with pages (D95)
-  if (mode !== "keyword" && !q.kind) {
+  if (mode !== "keyword" && !kind) {
     const m = await loadModel();
     if (m) {
       const v = embed(m, a.query), data = pageVectors(m);
@@ -229,10 +232,13 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const inKeyword = new Set(keyword.slice(0, Math.max(POOL, limit))), inMeaning = new Set(semantic);
   const tag = (id: string) => (inKeyword.has(id) && inMeaning.has(id) ? " [both]" : inMeaning.has(id) ? " [meaning]" : " [keyword]");
   const shown = order.slice(0, limit).map((id) => byId.get(id)!).filter(Boolean);
-  const hs = hints(index!, q, hits as Hit[]).filter((h) => !hits.length || hits[0].s < 6 || q.question || !!q.ref || /: no page; /.test(h.text));
+  // what the filters hide: the same query without them (of the asked kind), only when they left no hit of that kind
+  const filters = (["type", "tier", "system", "country", "app", "object_type"] as const).filter((k) => a[k]?.trim()).map((k) => `${k}=${a[k]!.trim()}`).join(", ");
+  const unfiltered = kind && !hits.length && filters ? rank(index!, q, { filter: (r) => r.kind === kind }) : undefined;
+  const hs = hints(index!, q, hits as Hit[], { kind, unfiltered, filters, keep }).filter((h) => !hits.length || hits[0].s < 6 || q.question || !!q.ref || /: no page; /.test(h.text));
   const hintText = hs.length ? `\n${hs.map((h) => `Hint: ${h.text}${h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : ""}`).join("\n")}` : "";
   // a kind: query with no hit: the hint ("No event named ...", the nearest names) is the answer
-  if (!shown.length && q.kind && /^No \w+ named /.test(hs[0]?.text ?? "")) {
+  if (!shown.length && kind && /^No \w+ named /.test(hs[0]?.text ?? "")) {
     const [first, ...more] = hs, via = (h: (typeof hs)[number]) => (h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : "");
     return `${first.text}${via(first)}${note}${more.map((h) => `\nHint: ${h.text}${via(h)}`).join("")}`;
   }

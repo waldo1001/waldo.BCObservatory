@@ -6,7 +6,8 @@
  *   4. a question: where what-changed and how-to answers live, with the best hub; a how-to or concept question names the
  *      hub of the first Learn hit, else the best hub by the words that were not dropped (D95);
  *   5. a country reference the country has no object of its own for: the W1 object applies;
- *   6. a `kind:` query (field:, event:, proc:, value:) with no hit: no such symbol, and the nearest names (D95).
+ *   6. a `kind:` query (field:, event:, proc:, value:, or the caller's kind parameter) with no hit: no such symbol and
+ *      the nearest names, or, when the same query without the caller's filters has hits, that the filters removed them (D95).
  */
 import { editDistance } from "./normalize.js";
 import { TYPE_WORDS } from "./parse.js";
@@ -14,7 +15,19 @@ import { idsOf, namedBy, objectsAt, typoWords } from "./score.js";
 import { ABBR } from "./synonyms.js";
 import type { Hint, Hit, Index, ParsedQuery, SearchRecord, SymbolKind } from "./types.js";
 
-export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
+/** What only a caller that filters knows (the MCP's filters, its kind parameter); the site passes none of it. */
+export interface HintOptions {
+  /** the symbol kind the caller asks for when the query names none (the MCP's `kind` parameter) */
+  kind?: SymbolKind | null;
+  /** the hits of the same query before the caller's filters, of the asked kind; `hits` is then the filtered list */
+  unfiltered?: Hit[];
+  /** the caller's filters, to say so ("object_type=codeunit") */
+  filters?: string;
+  /** the caller's filters as a predicate: the nearest names respect it */
+  keep?: (r: SearchRecord) => boolean;
+}
+
+export function hints(index: Index, q: ParsedQuery, hits: Hit[], opts: HintOptions = {}): Hint[] {
   const out: Hint[] = [];
   // 1. unknown abbreviation
   const unknown = q.warnings.map((w) => /^unknown abbreviation (\w+)$/.exec(w)?.[1]).find(Boolean);
@@ -74,10 +87,19 @@ export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
       if (hub) out.push({ text: `For ${q.shape === "how-to" ? "how-to" : "a concept"}, start with the hub: ${hub.title}.`, path: hub.id });
     }
   }
-  // 6. a symbol that does not exist: say so, name the nearest (it is the answer of a hit-less kind: query, so it comes first)
-  if (q.kind && !hits.length) {
-    const h = nearestSymbols(index, q.kind, q.raw);
-    if (h) out.unshift(h);
+  // 6. a symbol that does not exist: say so, name the nearest (it is the answer of a hit-less kind: query, so it comes first).
+  // Existence is what the search found without the caller's filters: with filters that removed every hit, the filters are
+  // the answer, never an absence
+  const kind = q.kind ?? opts.kind ?? null;
+  if (kind && !hits.length) {
+    const name = nameOf(q);
+    if (opts.unfiltered?.length) {
+      const n = opts.unfiltered.length;
+      out.unshift({ text: `No ${KIND_WORD[kind]} named "${name}" matches the filters${opts.filters ? ` (${opts.filters})` : ""}; without them: ${n} ${n === 1 ? "hit" : "hits"}.` });
+    } else {
+      const h = nearestSymbols(index, kind, name, opts.keep);
+      if (h) out.unshift(h);
+    }
   }
   return out;
 }
@@ -97,32 +119,44 @@ function learnHub(index: Index, hits: Hit[]): SearchRecord | null {
 }
 
 const KIND_WORD = { field: "field", event: "event", proc: "procedure", value: "value" } as const;
-const KIND_PREFIX = /^\s*(fields?|events?|procs?|procedures?|values?)\s*:\s*/i;
 
 /**
- * `No event named "X". Nearest events: A (owner), B (owner).`: the symbols of the kind within two edits of the name, or
- * that start with its first five letters and share three quarters of it, by distance, then the owner's importance, three
- * at most. Nothing when the index holds no symbols of the kind yet (a lazily loaded shard), or when the name exists (the
- * hits were only filtered away).
+ * The name a `kind:` query looks up as typed: its words and quoted phrases, without the type, country or version words;
+ * the text after the prefix when no term is left (a one-letter name is no term).
  */
-function nearestSymbols(index: Index, kind: SymbolKind, raw: string): Hint | null {
+function nameOf(q: ParsedQuery): string {
+  const typed = q.terms.map((t) => t.raw || t.text).join(" ").replace(/"/g, "").trim();
+  return typed || (q.kind ? q.raw.replace(/^\s*\w+\s*:\s*/, "").replace(/"/g, "").trim() : "");
+}
+
+/**
+ * `No event named "X". Nearest events: A (owner), B (owner).`: the symbols of the kind that the name is a typo of (one edit
+ * up to seven letters, two from eight; a shorter name has none) or that start with its first five letters and share three
+ * quarters of it, by distance, then the owner's importance, three at most; only those the caller's filters keep. Nothing
+ * when the index holds no symbols of the kind yet (a lazily loaded shard), or when the name exists (the hits were only
+ * filtered away).
+ */
+function nearestSymbols(index: Index, kind: SymbolKind, name: string, keep?: (r: SearchRecord) => boolean): Hint | null {
   const all = index.byType.get(kind) ?? [];
-  const name = raw.replace(KIND_PREFIX, "").replace(/"/g, "").trim();
   const want = name.toLowerCase();
   if (!all.length || !want) return null;
-  const head = want.slice(0, 5), shared = Math.ceil(0.75 * want.length);
+  const word = KIND_WORD[kind], head1 = `No ${word} named "${name}".`;
   const near: { r: SearchRecord; d: number }[] = [];
-  for (const i of all) {
-    const r = index.records[i], n = r.name.toLowerCase();
-    if (n === want) return null;
-    let ok = editDistance(want, n, 2) <= 2;
-    if (!ok && n.startsWith(head)) { let k = 0; while (k < n.length && k < want.length && n[k] === want[k]) k++; ok = k >= shared; }
-    if (ok) near.push({ r, d: editDistance(want, n, 60) });
-  }
+  // a name of one to three letters is near everything: no list
+  if (want.length >= 4) {
+    const head = want.slice(0, 5), shared = Math.ceil(0.75 * want.length), reach = Math.min(2, Math.max(1, Math.floor(want.length / 4)));
+    for (const i of all) {
+      const r = index.records[i], n = r.name.toLowerCase();
+      if (n === want) return null;
+      if (keep && !keep(r)) continue;
+      let ok = editDistance(want, n, reach) <= reach;
+      if (!ok && n.startsWith(head)) { let k = 0; while (k < n.length && k < want.length && n[k] === want[k]) k++; ok = k >= shared; }
+      if (ok) near.push({ r, d: editDistance(want, n, 60) });
+    }
+  } else if (all.some((i) => index.records[i].name.toLowerCase() === want)) return null;
   near.sort((a, b) => a.d - b.d || b.r.importance - a.r.importance || a.r.name.localeCompare(b.r.name) || a.r.id.localeCompare(b.r.id));
   const seen = new Set<string>(), pick: SearchRecord[] = [];
   for (const { r } of near) { if (pick.length >= 3) break; if (seen.has(r.id)) continue; seen.add(r.id); pick.push(r); }
-  const word = KIND_WORD[kind], head1 = `No ${word} named "${name}".`;
   if (!pick.length) return { text: head1 };
   const plural = word === "procedure" ? "procedures" : `${word}s`;
   const label = (r: SearchRecord) => (r.owner ? `${r.name} (${r.owner.title})` : r.name);

@@ -265,8 +265,10 @@ test("reciprocal rank fusion (k = 60) and the filters of a search call", async (
 function symbolsFixture(): string {
   const root = fixture();
   const rows = [["codeunit/80", "OnAfterPostSalesDoc", "integration", 8, "Raised after posting a sales document.", null], ["codeunit/80", "OnAfterPostSalesDocDropShipment", "integration", 0, null, null]];
-  writeJson(join(root, "data/index/symbols-events-aaaaaaaaaaaa.json"), { schema: "bcobs-symbols@1", rows });
-  writeJson(join(root, "data/index/symbols-manifest.json"), { schema: "bcobs-symbols@1", major: "29", kinds: { events: { file: "symbols-events-aaaaaaaaaaaa.json", count: rows.length, sha256: "aaaaaaaaaaaa" } } });
+  const fields = [["table/18", "VAT Bus. Posting Group", 110, "Code[20]", "Specifies the VAT specification."], ["table/18", "Posting Date", 99, "Date", "The posting date."]];
+  const procs = [["codeunit/80", "L", 0, null, null, null], ["codeunit/80", "E", 0, null, null, null]];
+  const shard = (kind: string, name: string, r: unknown[][]) => { writeJson(join(root, `data/index/symbols-${kind}-${name}.json`), { schema: "bcobs-symbols@1", rows: r }); return { file: `symbols-${kind}-${name}.json`, count: r.length, sha256: name }; };
+  writeJson(join(root, "data/index/symbols-manifest.json"), { schema: "bcobs-symbols@1", major: "29", kinds: { events: shard("events", "aaaaaaaaaaaa", rows), fields: shard("fields", "bbbbbbbbbbbb", fields), procs: shard("procs", "cccccccccccc", procs) } });
   return root;
 }
 
@@ -291,8 +293,46 @@ test("D95: a kind: query with no hit says what is not there and never pads with 
     assert.match(await call("search", { query: "event: OnBeforeValidateWidgetCode", mode: "keyword" }), /^No event named /);
     const buyer = await call("search", { query: "buyer", limit: 3 });
     assert.match(buyer, /^No keyword match for "buyer"; \d pages by meaning only \(read one with cat\(path\)\):\n- .*\[meaning\]/);
-    // a filter that leaves no hit although the name exists: no false "No event named"
-    assert.match(await call("search", { query: "event: OnAfterPostSalesDoc", object_type: "table" }), /^No pages match/);
+    // a filter that leaves no hit although the name exists: no false "No event named", the filters are named
+    assert.match(await call("search", { query: "event: OnAfterPostSalesDoc", object_type: "table" }), /^No event named "OnAfterPostSalesDoc" matches the filters \(object_type=table\); without them: 2 hits\.$/);
+  } finally {
+    await client.close();
+  }
+});
+
+test("D95 review: filters never read as an absence, the kind parameter counts, short names have no neighbours, the name is what was typed", async () => {
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ customer: [1, 0, 0], event: [0, 1, 0], widget: [0, 1, 0], posting: [0, 1, 0] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: symbolsFixture(), BC_OBSERVATORY_MODEL_DIR: modelDir });
+  try {
+    // the field exists; the filters hide it (the spelling is not the name's: the search matches words)
+    const hidden = await call("search", { query: "field: vat bus posting group", object_type: "codeunit" });
+    assert.match(hidden, /^No field named "vat bus posting group" matches the filters \(object_type=codeunit\); without them: 1 hit\.$/);
+    assert.doesNotMatch(hidden, /Nearest/);
+    assert.match(await call("search", { query: "field: Posting Dat", object_type: "page" }), /^No field named "Posting Dat" matches the filters \(object_type=page\); without them: 1 hit\.$/);
+    assert.match(await call("search", { query: "field: Posting Date", country: "be" }), /matches the filters \(country=be\)/);
+    // without a filter it is found, and a name that is not there is an absence
+    assert.match(await call("search", { query: "field: vat bus posting group" }), /^1 results, keyword/);
+    assert.match(await call("search", { query: "field: Posting Date Xy" }), /^No field named "Posting Date Xy"\. Nearest fields: Posting Date \(Table 18 "Customer"\)/);
+    // the nearest names respect the filters
+    assert.match(await call("search", { query: "event: OnAfterPostSalesDocDropShipmentQuux" }), /Nearest events: OnAfterPostSalesDocDropShipment /);
+    assert.match(await call("search", { query: "event: OnAfterPostSalesDocDropShipmentQuux", object_type: "table" }), /^No event named "OnAfterPostSalesDocDropShipmentQuux"\.$/);
+    // the kind parameter does what the prefix does: no pages, the missing name says so, no meaning list
+    for (const mode of ["hybrid", "keyword"] as const) {
+      const none = await call("search", { query: "OnBeforeValidateWidgetCode", kind: "event", mode });
+      assert.match(none, /^No event named "OnBeforeValidateWidgetCode"\.$/, mode);
+    }
+    assert.match(await call("search", { query: "OnAfterPostSalesDocDropShipmentQuux", kind: "event" }), /^No event named "OnAfterPostSalesDocDropShipmentQuux"\. Nearest events: OnAfterPostSalesDocDropShipment \(Codeunit 80 "Sales-Post"\)/);
+    assert.match(await call("search", { query: "Customer", kind: "page" }), /^\d+ results/, "page is no symbol kind");
+    // a name of one to three letters is near everything: no list
+    assert.match(await call("search", { query: "proc: x" }), /^No procedure named "x"\.$/);
+    // the type, country and version words are no part of the name
+    assert.match(await call("search", { query: "event: OnAfterPostSalesDocDropShipmentQuux codeunit" }), /^No event named "OnAfterPostSalesDocDropShipmentQuux"\. Nearest events: OnAfterPostSalesDocDropShipment /);
+    assert.match(await call("search", { query: "field: Posting Date Xy BE" }), /^No field named "Posting Date Xy"\. Nearest fields: Posting Date /);
+    assert.match(await call("search", { query: "field: Posting Date Xy bc30" }), /^No field named "Posting Date Xy"\. Nearest fields: Posting Date /);
   } finally {
     await client.close();
   }
