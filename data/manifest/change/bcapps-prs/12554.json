@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12554",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main] - User encounters a \"record is not open\" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)",
+  "url": "https://github.com/microsoft/BCApps/pull/12554",
+  "published_at": "2026-10-13T10:29:57Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T13:11:11.933Z"
+    }
+  },
+  "input_hash": "070e66c3cba2ef12db782e8857b43f9035892bc7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12554,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "070e66c3cba2ef12db782e8857b43f9035892bc7",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "user encounters a record is not open error when attaching a document to a posted sales shipment in dynamics 365 base application v28"
+  }
+}

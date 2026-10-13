@@ -1,0 +1,44 @@
+{
+  "id": "change/bcapps-prs/10520",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29640: use document type enum in blocked customer event",
+  "url": "https://github.com/microsoft/BCApps/pull/10520",
+  "published_at": "2026-10-13T12:54:29Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T13:11:11.933Z"
+    },
+    "fetched": {
+      "at": "2026-10-13T13:12:00.512Z",
+      "change_class": "code",
+      "files": 11,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "d6985b37b7745947481c663d8a5cc60e9e3a4ef8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10520,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d6985b37b7745947481c663d8a5cc60e9e3a4ef8",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance",
+      "event-request"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29640 use document type enum in blocked customer event"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e1afc9112f86026d7d8145d019a4ba22270dec63a7294a46cfe98dc458f0fbfb"
+}

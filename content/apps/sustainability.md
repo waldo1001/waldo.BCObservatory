@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-13T13:16:37.365Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 52e5c33c958bced6f0088b3785311893cacb27f29e4a888e670809a606869421
+  input_hash: cdd43ac1c2650c837bab38789503943a60d3b2e0086db07cbc7ad007212c4cd9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Sustainability/app
@@ -238,10 +238,10 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance
     - topic/business-central/business-functionality/finance
     - topic/business-central/business-functionality/sustainability-management/sustainability-value-chain
-    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
     - topic/dev-itpro/development/data-analytics-and-reporting
     - topic/dev-itpro/development/extensibility/embedding-power-bi
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
+    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
     - topic/business-central/business-functionality/set-up-business-central/set-up-finance
@@ -301,10 +301,10 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Finance](../topics/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance.md) (Analytics, business intelligence, and reporting > Built-in reports): 4 objects
 - [Finance](../topics/business-central/business-functionality/finance.md) (Business functionality): 4 objects
 - [Sustainability Value Chain](../topics/business-central/business-functionality/sustainability-management/sustainability-value-chain.md) (Business functionality > Sustainability management): 4 objects
-- [Analyze data in business intelligence tools](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md) (Analytics, business intelligence, and reporting): 2 objects
 - [Data analytics and reporting](../topics/dev-itpro/development/data-analytics-and-reporting.md) (Development): 2 objects
 - [Embedding Power BI](../topics/dev-itpro/development/extensibility/embedding-power-bi.md) (Development > Extensibility): 2 objects
 - [Integrating with Microsoft Power BI](../topics/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md) (Integration > Integrating with Microsoft Power Platform): 2 objects
+- [Microsoft Fabric](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 2 objects
 - [Microsoft Power BI](../topics/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi.md) (Integrate with other applications > Microsoft Power Platform): 2 objects
 - [Power BI and Business Central](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central.md) (Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports): 2 objects
 - [Set up finance](../topics/business-central/business-functionality/set-up-business-central/set-up-finance.md) (Business functionality > Set up Business Central): 2 objects

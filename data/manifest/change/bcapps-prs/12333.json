@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12333",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Keep the draft unit of measure and variant code when creating the purchase line",
+  "url": "https://github.com/microsoft/BCApps/pull/12333",
+  "published_at": "2026-10-13T10:10:46Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T13:11:11.933Z"
+    }
+  },
+  "input_hash": "13b223a8f5952d294130528640ee3768298dd295:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12333,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "13b223a8f5952d294130528640ee3768298dd295",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "keep the draft unit of measure and variant code when creating the purchase line"
+  }
+}
