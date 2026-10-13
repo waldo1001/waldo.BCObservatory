@@ -4,6 +4,7 @@ import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { ROOT } from "../../pipeline/lib/paths.js";
+import { memberAnswer, parseAnchor, type DiffObject } from "../../packages/mcp/src/country.js";
 import { OBJECT_KEYS, anchorView, budgetOf, compactView, findSection, pageView, parsePage, sectionKey, sectionView } from "../../packages/mcp/src/sections.js";
 
 // ---------------------------------------------------------------------------------------------- test 1, a hand-built page (D93 5)
@@ -249,29 +250,68 @@ test("real pages: symbol paths resolve to their rows", (t) => {
   assert.ok(ev!.length < 5_000);
   const t36 = readFileSync(join(CONTENT, "objects/table/36.md"), "utf8");
   assert.match(anchorView(t36, "objects/table/36", "#field-20", S) ?? "", /\n\| 20 \| Posting Date \|/);
-  const manifest = JSON.parse(readFileSync(join(ROOT, "data/index/symbols-manifest.json"), "utf8")) as { kinds: Record<string, { file?: string; files?: string[] }> };
+  const manifest = JSON.parse(readFileSync(join(ROOT, "data/index/symbols-manifest.json"), "utf8")) as { major: string; country_rows: Record<string, number>; kinds: Record<string, { file?: string; files?: string[] }> };
   const KIND: Record<string, string> = { fields: "field", events: "event", procs: "proc", values: "value" };
+  // a W1 or app row has this many columns; a country row (D95 phase B) has one more, the country code. Its path is the
+  // W1 page plus an anchor the W1 page lacks (`objects/table/18#field-11310`), so it resolves through the country diff
+  const BASE: Record<string, number> = { fields: 5, events: 6, procs: 6, values: 4 };
   const byPage = new Map<string, string[]>();
+  const layered: { pk: string; anchor: string; cc: string }[] = [];
   for (const [k, e] of Object.entries(manifest.kinds)) {
     for (const file of e.files ?? (e.file ? [e.file] : [])) {
       for (const row of (JSON.parse(readFileSync(join(ROOT, "data/index", file), "utf8")) as { rows: unknown[][] }).rows) {
-        const pk = String(row[0]), key = k === "fields" || k === "values" ? Number(row[2]) : String(row[1]);
-        byPage.set(pk, [...(byPage.get(pk) ?? []), `#${KIND[k]}-${key}`]);
+        const pk = String(row[0]), key = k === "fields" || k === "values" ? Number(row[2]) : String(row[1]), anchor = `#${KIND[k]}-${key}`;
+        if (row.length > BASE[k]) layered.push({ pk, anchor, cc: String(row[row.length - 1]) });
+        else byPage.set(pk, [...(byPage.get(pk) ?? []), anchor]);
       }
     }
   }
+  const resolves = (pk: string, a: string) => {
+    const file = join(CONTENT, "objects", `${pk}.md`);
+    return existsSync(file) && anchorView(readFileSync(file, "utf8"), `objects/${pk}`, a, S) !== null;
+  };
+  // W1 and app rows resolve to their row on the page
   let total = 0, ok = 0;
   const misses: string[] = [];
   for (const [pk, anchors] of byPage) {
-    const file = join(CONTENT, "objects", `${pk}.md`);
-    const md = existsSync(file) ? readFileSync(file, "utf8") : null;
     for (const a of anchors) {
       total++;
-      if (md && anchorView(md, `objects/${pk}`, a, S)) ok++;
+      if (resolves(pk, a)) ok++;
       else misses.push(`objects/${pk}${a}`);
     }
   }
-  t.diagnostic(`${ok} of ${total} symbols resolve; misses: ${misses.slice(0, 5).join(", ")}`);
+  t.diagnostic(`${ok} of ${total} W1 and app symbols resolve; misses: ${misses.slice(0, 5).join(", ")}`);
   assert.ok(total > 100_000);
   assert.ok(ok / total >= 0.995, `${ok} of ${total}`);
+
+  // country rows: the manifest counts them; the W1 page lacks nearly all of them and `cat` answers each from the country
+  // diff (`toolCat` -> `layerMember` -> `memberAnswer`). The few that resolve on the page share an event or procedure
+  // name with a W1 member (an overload the layer adds): the page row answers those. Every 50th row is checked.
+  assert.equal(layered.length, Object.values(manifest.country_rows).reduce((a, b) => a + b, 0), "the manifest's country_rows count the rows with a country column");
+  assert.ok(layered.length > 1_000);
+  const onPage = layered.filter((r) => resolves(r.pk, r.anchor)).length;
+  t.diagnostic(`${layered.length} country rows: ${layered.length - onPage} only the layer has, ${onPage} share a member name with the W1 page`);
+  assert.ok(onPage / layered.length < 0.05, `${onPage} of ${layered.length} country rows resolve on the W1 page`);
+  const diffs = new Map<string, Map<string, DiffObject>>();
+  const replaced = (cc: string) => {
+    let m = diffs.get(cc);
+    if (!m) {
+      const file = join(ROOT, "data/code/diffs/country", `${manifest.major}-${cc}.json`);
+      m = new Map((JSON.parse(readFileSync(file, "utf8")) as { objects: DiffObject[] }).objects.filter((o) => o.change === "replaced").map((o) => [o.key, o]));
+      diffs.set(cc, m);
+    }
+    return m;
+  };
+  const wrong: string[] = [];
+  let checked = 0;
+  layered.forEach(({ pk, anchor, cc }, i) => {
+    if (i % 50) return;
+    checked++;
+    const want = parseAnchor(anchor), obj = replaced(cc).get(pk);
+    const text = want && obj ? memberAnswer(obj, want, cc, { site: S, path: `objects/${pk}` }) : null;
+    if (!text?.includes(`added by the ${cc.toUpperCase()} layer`)) wrong.push(`objects/${pk}${anchor} (${cc})`);
+  });
+  t.diagnostic(`${checked} country rows answered from the diff`);
+  assert.ok(checked > 100);
+  assert.deepEqual(wrong.slice(0, 10), []);
 });
