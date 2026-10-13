@@ -1,9 +1,11 @@
 /**
  * The symbols index (D86 4.4): the fields, published events, global procedures and enum values of the pages' major
  * (narrative_order[0] with a snapshot, as objects.json), W1 and Microsoft's first-party apps, country layers left out
- * (their ids repeat per country, D52). One file per kind of tuple rows under a content-hashed name, plus a manifest:
+ * as objects (their ids repeat per country, D52) but not as members: what a country layer adds to a W1 object it
+ * replaces comes from data/code/diffs/country/<major>-<cc>.json as rows with a trailing country column (D95).
+ * One file per kind of tuple rows under a content-hashed name, plus a manifest:
  *
- *   data/index/symbols-manifest.json          { schema: "bcobs-symbols@1", major, commit, built_at, objects, kinds }
+ *   data/index/symbols-manifest.json          { schema: "bcobs-symbols@1", major, commit, built_at, objects, country_rows, kinds }
  *   data/index/symbols-<kind>-<sha12>.json     { schema, kind, major, count, rows }
  *
  *   fields  [pk, name, id, type, tooltip <= 160 or null]
@@ -20,7 +22,7 @@ import { exists, listFiles, readJson, readText, removeIfExists, writeText } from
 import { sha256 } from "../lib/text.js";
 import { objectKey } from "../code/extract.js";
 import { iterSnapshot, snapshotDir, type SnapshotManifest } from "../code/job.js";
-import { APPS } from "../code/diff.js";
+import { APPS, type AlDiff, type MemberChange } from "../code/diff.js";
 import { captionText } from "./object.js";
 import { objectPagesByKey, pagesMajor, type EventsIndex, type ObjectPages } from "./objects-index.js";
 import { SHARD_BYTES } from "./search.js";
@@ -29,7 +31,11 @@ export type SymbolKind = "fields" | "events" | "procs" | "values";
 export const SYMBOL_KINDS: SymbolKind[] = ["fields", "events", "procs", "values"];
 export const TEXT_MAX = 160;
 export interface SymbolsKindEntry { file?: string; files?: string[]; count: number; sha256: string; bytes: number }
-export interface SymbolsManifest { schema: "bcobs-symbols@1"; major: string | null; commit: string | null; built_at: string; objects: number; kinds: Record<SymbolKind, SymbolsKindEntry> }
+export interface SymbolsManifest { schema: "bcobs-symbols@1"; major: string | null; commit: string | null; built_at: string; objects: number; country_rows: Record<SymbolKind, number>; kinds: Record<SymbolKind, SymbolsKindEntry> }
+/** Columns of a W1 or app row; a country row has one more, the country code. */
+const BASE_COLS: Record<SymbolKind, number> = { fields: 5, events: 6, procs: 6, values: 4 };
+interface ProcView { scope?: string; params?: unknown[]; returns?: string | null; event?: string | null; obsolete?: { state?: string } | null; doc?: string | null }
+interface FieldView { type?: string; properties?: Record<string, string> }
 
 /** A text cut to `TEXT_MAX` characters, an ellipsis marking the cut; empty is null. */
 export const cutText = (s: string | null | undefined, max = TEXT_MAX): string | null => {
@@ -41,6 +47,7 @@ export const cutText = (s: string | null | undefined, max = TEXT_MAX): string | 
 export function renderSymbolsIndex(contentDir: string, dataDir: string, pages: ObjectPages = objectPagesByKey(contentDir), now = new Date()): SymbolsManifest {
   const major = pagesMajor(dataDir);
   const rows: Record<SymbolKind, unknown[][]> = { fields: [], events: [], procs: [], values: [] };
+  const countryRows: Record<SymbolKind, number> = { fields: 0, events: 0, procs: 0, values: 0 };
   let commit: string | null = null, objects = 0;
   if (major) {
     commit = readJson<SnapshotManifest>(resolve(snapshotDir(dataDir, major, "w1"), "manifest.json")).commit ?? null;
@@ -65,10 +72,13 @@ export function renderSymbolsIndex(contentDir: string, dataDir: string, pages: O
         }
       }
     }
+    countryMembers(dataDir, major, pages, rows, countryRows);
   }
-  const byId = (a: unknown[], b: unknown[]) => String(a[0]).localeCompare(String(b[0])) || Number(a[2]) - Number(b[2]) || String(a[1]).localeCompare(String(b[1]));
-  const byName = (a: unknown[], b: unknown[]) => String(a[0]).localeCompare(String(b[0])) || String(a[1]).localeCompare(String(b[1]));
-  rows.fields.sort(byId); rows.values.sort(byId); rows.events.sort(byName); rows.procs.sort(byName);
+  // the country column is the last key: a W1 row sorts before a country row of the same member
+  const cc = (kind: SymbolKind) => (r: unknown[]) => (r.length > BASE_COLS[kind] ? String(r[BASE_COLS[kind]]) : "");
+  const byId = (kind: SymbolKind) => (a: unknown[], b: unknown[]) => String(a[0]).localeCompare(String(b[0])) || Number(a[2]) - Number(b[2]) || String(a[1]).localeCompare(String(b[1])) || cc(kind)(a).localeCompare(cc(kind)(b));
+  const byName = (kind: SymbolKind) => (a: unknown[], b: unknown[]) => String(a[0]).localeCompare(String(b[0])) || String(a[1]).localeCompare(String(b[1])) || cc(kind)(a).localeCompare(cc(kind)(b));
+  rows.fields.sort(byId("fields")); rows.values.sort(byId("values")); rows.events.sort(byName("events")); rows.procs.sort(byName("procs"));
 
   const dir = resolve(dataDir, "index");
   const written = new Set<string>();
@@ -101,10 +111,42 @@ export function renderSymbolsIndex(contentDir: string, dataDir: string, pages: O
   // built_at moves only when the content does: a quiet night rewrites nothing
   const mp = resolve(dir, "symbols-manifest.json");
   const prev = exists(mp) ? readJson<SymbolsManifest>(mp) : null;
-  const body = { schema: "bcobs-symbols@1" as const, major, commit, objects, kinds };
+  const body = { schema: "bcobs-symbols@1" as const, major, commit, objects, country_rows: countryRows, kinds };
   const same = prev && JSON.stringify({ ...prev, built_at: undefined }) === JSON.stringify({ ...body, built_at: undefined });
-  const manifest: SymbolsManifest = { schema: body.schema, major, commit, built_at: same ? prev!.built_at : now.toISOString(), objects, kinds };
+  const manifest: SymbolsManifest = { schema: body.schema, major, commit, built_at: same ? prev!.built_at : now.toISOString(), objects, country_rows: countryRows, kinds };
   const text = `${JSON.stringify(manifest, null, 2)}\n`;
   if (!exists(mp) || readText(mp) !== text) writeText(mp, text);
   return manifest;
+}
+
+/**
+ * What a country layer adds to a W1 object it replaces, as rows with a trailing country code (D95). Read from the
+ * country diffs of the same major; an object the pages' key map does not know (a country-only object has a page of its
+ * own) and a member changed or removed in the layer produce nothing. Enum values come as the diff carries them: a name
+ * and an ordinal, no caption.
+ */
+function countryMembers(dataDir: string, major: string, pages: ObjectPages, rows: Record<SymbolKind, unknown[][]>, counts: Record<SymbolKind, number>): void {
+  const dir = resolve(dataDir, "code", "diffs", "country");
+  const re = new RegExp(`^${major}-([a-z]{2})\\.json$`);
+  for (const file of listFiles(dir, ".json")) {
+    const m = re.exec(file.slice(file.lastIndexOf("/") + 1));
+    if (!m) continue;
+    const cc = m[1];
+    for (const o of readJson<AlDiff>(file).objects) {
+      if (o.change !== "replaced") continue;
+      const pk = pages.pageOfKey.get(o.key);
+      if (!pk) continue;
+      const added = (list: MemberChange[] | undefined) => (list ?? []).filter((x) => x.change === "added");
+      for (const f of added(o.fields)) {
+        const to = (f.to ?? {}) as FieldView;
+        rows.fields.push([pk, f.name, Number(f.id), to.type ?? "", cutText(to.properties?.ToolTip), cc]); counts.fields++;
+      }
+      for (const v of added(o.values)) { rows.values.push([pk, v.name, Number(v.id), null, cc]); counts.values++; }
+      for (const p of [...added(o.events), ...added(o.procedures)]) {
+        const to = (p.to ?? {}) as ProcView;
+        if (to.event === "integration" || to.event === "business") { rows.events.push([pk, p.name, to.event, 0, cutText(to.doc), to.obsolete?.state ?? null, cc]); counts.events++; }
+        else if (to.scope === "global" && !to.event) { rows.procs.push([pk, p.name, to.params?.length ?? 0, to.returns ?? null, cutText(to.doc), to.obsolete?.state ?? null, cc]); counts.procs++; }
+      }
+    }
+  }
 }

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { extractSource, loadParser } from "../../pipeline/code/extract.js";
@@ -48,6 +48,7 @@ test("symbols index: one file per kind of tuple rows, sorted, W1 and apps only, 
   assert.equal(m.major, "29");
   assert.equal(m.commit, "c-w1");
   assert.equal(m.objects, 4, "table 18, table 36, enum 36, codeunit 80: the BE layer stays out");
+  assert.deepEqual(m.country_rows, { fields: 0, events: 0, procs: 0, values: 0 }, "the BE overlay of this fixture replaces no W1 object");
   const rows = (k: "fields" | "events" | "procs" | "values") => read(dataDir, m.kinds[k].file!).rows;
   assert.deepEqual(rows("fields"), [["table/18", "No.", 1, "Code[20]", null], ["table/18", "Posting Date", 5, "Date", cutText(LONG)], ["table/36", "Posting Date", 20, "Date", null]]);
   assert.equal(cutText(LONG)!.length, 160);
@@ -80,4 +81,44 @@ test("symbols index: unchanged input rewrites nothing, a stale file is swept", a
   const before = names.map((f) => statSync(join(dir, f)).mtimeMs);
   renderSymbolsIndex(contentDir, dataDir, pages, new Date("2026-10-10T00:00:00Z"));
   assert.deepEqual(names.map((f) => statSync(join(dir, f)).mtimeMs), before, "a quiet night rewrites nothing");
+});
+
+test("symbols index: what a country layer adds to a W1 object it replaces becomes rows with a trailing country code (D95 phase B)", async () => {
+  const { dataDir, contentDir, pages } = await fixture();
+  const dir = join(dataDir, "code", "diffs", "country");
+  mkdirSync(dir, { recursive: true });
+  copyFileSync(new URL("../fixtures/country-diff/29-be.json", import.meta.url), join(dir, "29-be.json"));
+  // a second layer that adds a field of the same id and name as a W1 field, and a diff of another major that must be ignored
+  const nl = { schema: "al-diff@1", kind: "country", objects: [{ key: "table/18", name: "Customer", change: "replaced", fields: [{ id: "1", name: "No.", change: "added", to: { type: "Code[30]" } }] }] };
+  writeFileSync(join(dir, "29-nl.json"), JSON.stringify(nl));
+  writeFileSync(join(dir, "28-be.json"), JSON.stringify({ ...nl, objects: [{ ...nl.objects[0], fields: [{ id: "77", name: "Old", change: "added", to: { type: "Integer" } }] }] }));
+  const m = renderSymbolsIndex(contentDir, dataDir, pages, new Date("2026-10-08T00:00:00Z"));
+  const rows = (k: "fields" | "events" | "procs" | "values") => read(dataDir, m.kinds[k].file!).rows;
+  assert.deepEqual(m.country_rows, { fields: 3, events: 1, procs: 1, values: 1 });
+  assert.equal(m.schema, "bcobs-symbols@1", "rows gained a trailing column, the schema stays");
+  assert.equal(m.objects, 4, "objects counts W1 and app objects as before");
+  assert.deepEqual(rows("fields"), [
+    ["table/18", "No.", 1, "Code[20]", null],
+    ["table/18", "No.", 1, "Code[30]", null, "nl"],
+    ["table/18", "Posting Date", 5, "Date", cutText(LONG)],
+    ["table/18", "Enterprise No.", 11310, "Text[50]", "Specifies the enterprise number of the customer.", "be"],
+    ["table/18", "Domiciliation No.", 2000020, "Text[12]", null, "be"],
+    ["table/36", "Posting Date", 20, "Date", null],
+  ], "a W1 row sorts before the country row of the same member; a changed field and another major's diff give nothing");
+  assert.deepEqual(rows("events"), [
+    ["table/18", "OnAfterX", "integration", 1, "Raised after X.", null],
+    ["table/18", "OnBeforeValidateEnterpriseNo", "integration", 0, null, null, "be"],
+    ["table/18", "OnBizY", "business", 0, null, null],
+  ]);
+  assert.deepEqual(rows("procs"), [
+    ["codeunit/80", "CopyToTempLines", 2, null, null, null],
+    ["table/18", "FormatEnterpriseNo", 2, "Text", null, null, "be"],
+    ["table/18", "GetName", 2, "Text", null, null],
+    ["table/18", "OldOne", 0, null, null, "Pending"],
+  ], "the global procedure, not the local one");
+  assert.deepEqual(rows("values"), [["enum/36", "Quote", 0, "Quote"], ["enum/36", "Order", 1, "Sales Order"], ["enum/36", "Belgian Credit Note", 11300, null, "be"]]);
+  assert.deepEqual(read(dataDir, "symbols-manifest.json").country_rows, m.country_rows);
+  // the same input again rewrites nothing
+  const again = renderSymbolsIndex(contentDir, dataDir, pages, new Date("2026-10-09T00:00:00Z"));
+  assert.equal(again.built_at, m.built_at);
 });

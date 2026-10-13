@@ -35,7 +35,7 @@ plain JavaScript; the 30 MB model is downloaded once on the first search, pinned
 `BC_OBSERVATORY_MODEL_DIR=<dir with config.json, tokenizer.json, model.safetensors>` uses a model on disk (offline). Without a
 model, search is keyword-only and says so.
 
-`get_object` takes an id, a reference (`t36`, `36-be`), a name or a caption, and a `country`; `whats_new` lists nothing
+`get_object` takes an id, a reference (`t36`, `36-be`), a name or a caption, and a `country`; when that country's layer replaces a W1 object (`get_object("table", "18", "BE")`) the fields, events and procedures the layer adds print before the W1 page, and a lookup without a country ends with a `Replaced in:` line naming the layers; `search("field: Enterprise No.", country: "BE")` finds a member a layer adds. `whats_new` lists nothing
 dated after today unless `include_future: true`.
 
 `cat`, `get_object` and `localization` return a page as it is when it fits 30,000 characters. A longer page

@@ -246,6 +246,25 @@ test("symbols: rows become records under their owner, gated, with an anchor and 
   assert.equal(hrefOf("/b/", "objects/codeunit/80"), "/b/objects/codeunit/80/");
 });
 
+test("a member a country layer adds: the trailing country column sets the country, the layer and the line (D95 phase B)", () => {
+  const owner = rec("objects/table/18");
+  const fld = symbolToRecord("field", ["table/18", "Enterprise No.", 11310, "Text[50]", "Specifies the enterprise number.", "be"], owner);
+  const ev = symbolToRecord("event", ["table/18", "OnBeforeValidateEnterpriseNo", "integration", 0, null, null, "be"], owner);
+  const pr = symbolToRecord("proc", ["table/18", "FormatEnterpriseNo", 2, "Text", null, null, "be"], owner);
+  const va = symbolToRecord("value", ["enum/36", "Belgian Credit Note", 11300, null, "be"], owner);
+  for (const r of [fld, ev, pr, va]) assert.deepEqual([r.country, r.app, r.layer, r.owner?.path], ["be", "BE layer", 2, owner.id]);
+  assert.equal(fld.id, `${owner.id}#field-11310`, "the anchor is the W1 page's");
+  assert.equal(symbolLine(fld), `field 11310 of ${owner.owner?.title ?? owner.title} · BE layer · Text[50]`);
+  assert.match(symbolLine(ev), / · BE layer · integration · 0 subscribers$/);
+  assert.match(symbolLine(pr), / · BE layer · 2 parameters · returns Text$/);
+  assert.match(symbolLine(va), / · BE layer$/);
+  const w1 = symbolToRecord("field", ["table/18", "No.", 1, "Code[20]", null], owner);
+  assert.deepEqual([w1.country, w1.app, w1.layer], [owner.country ?? null, owner.app ?? null, owner.layer], "without the column: as before");
+  assert.doesNotMatch(symbolLine(w1), /layer/);
+  // an installed reader that reads columns by position sees the same field: the tail is the only difference
+  assert.deepEqual({ ...fld, country: null, app: owner.app ?? null, layer: owner.layer }, { ...symbolToRecord("field", ["table/18", "Enterprise No.", 11310, "Text[50]", "Specifies the enterprise number."], owner) });
+});
+
 // ---------------------------------------------------------------------------------------------- symbols rank by their owner (D95)
 
 /** A small index with symbols: owners of the same type, a base table, a first-party app's table, and their fields and events. */

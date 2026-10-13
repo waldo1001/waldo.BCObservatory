@@ -32,9 +32,10 @@ import {
   type Hit, type Index, type LearnShard, type PageRecord, type SearchRecord, type SymbolShard,
 } from "@bc-observatory/search";
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
-import { DEFAULT_BUDGET, budgetOf, pageView, type ViewArgs } from "./sections.js";
+import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
+import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 
-const VERSION = "0.6.0";
+const VERSION = "0.7.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
@@ -73,6 +74,8 @@ async function pageMarkdown(path: string): Promise<string> {
 let pages: PageRecord[] = [];
 let index: Index | null = null;
 let loadedAt = 0;
+/** The major the symbols index (and with it the country diffs of D95) is built for. */
+let symbolsMajor: string | null = null;
 
 /** A shard by its sha256: cached on disk, downloaded only when the manifest names a new hash. */
 async function shard(file: string, sha: string): Promise<string> {
@@ -98,6 +101,7 @@ async function loadIndex(): Promise<void> {
   // the symbols index (D86 4.4): fields, events, global procedures and enum values, under their objects' records
   let sm: SymbolsManifest | null = null;
   try { sm = JSON.parse(await dataFile("index/symbols-manifest.json")) as SymbolsManifest; } catch { sm = null; }
+  symbolsMajor = sm?.major ?? null;
   if (sm) {
     const byPath = new Map(idx.records.map((r) => [r.id, r]));
     for (const [k, e] of Object.entries(sm.kinds) as [SymbolShard, SymbolsManifest["kinds"][SymbolShard]][]) {
@@ -110,8 +114,38 @@ async function loadIndex(): Promise<void> {
   }
   index = idx;
   loadedAt = Date.now();
+  countryDiffs.clear();
 }
 interface SymbolsManifest { major: string; kinds: Record<SymbolShard, { file?: string; files?: string[]; sha256: string; count: number }> }
+
+// ---------------------------------------------------------------------------------------------- country diffs (D95)
+
+/** The objects a country layer replaces, by key, from data/code/diffs/country/<major>-<cc>.json; null when the file does not exist. */
+type ReplacedObjects = Map<string, DiffObject> | null;
+const countryDiffs = new Map<string, { at: number; objects: ReplacedObjects | Promise<ReplacedObjects> }>();
+/** The major of the country diffs: the symbols manifest's, else the newest major any object page is present in. */
+function diffMajor(): string | null {
+  if (symbolsMajor) return symbolsMajor;
+  let best = 0;
+  for (const r of index?.records ?? []) for (const part of (r.major ?? "").split(/[\s,]+/)) { const n = Number(part.split("-").pop()); if (n > best) best = n; }
+  return best ? String(best) : null;
+}
+/** One layer's replaced objects, read once and kept for a day (22 files for a W1 lookup without a country). */
+function replacedObjects(major: string, cc: string): Promise<ReplacedObjects> {
+  const key = `${major}-${cc}`, hit = countryDiffs.get(key);
+  if (hit && Date.now() - hit.at < DAY) return Promise.resolve(hit.objects);
+  const loading = (async (): Promise<ReplacedObjects> => {
+    try {
+      const diff = JSON.parse(await dataFile(`code/diffs/country/${key}.json`)) as { objects: DiffObject[] };
+      return new Map(diff.objects.filter((o) => o.change === "replaced").map((o) => [o.key, o]));
+    } catch { return null; }
+  })();
+  countryDiffs.set(key, { at: Date.now(), objects: loading });
+  void loading.then((o) => { const e = countryDiffs.get(key); if (e) e.objects = o; });
+  return loading;
+}
+/** The object a layer replaces, or null: the layer has no diff, or does not touch the object. */
+const replacedBy = async (major: string, cc: string, key: string) => (await replacedObjects(major, cc))?.get(key) ?? null;
 
 const url = (path: string) => `${SITE}${path}/`;
 const line = (r: PageRecord, tag = "") => `- ${r.title}${r.caption ? ` (captioned "${r.caption}")` : ""} [${r.type}${r.tier ? `, ${r.tier}` : ""}${r.date ? `, ${r.date}` : ""}] path=${r.path}${tag}${r.path_label ? `\n  in: ${r.path_label}` : ""}${r.stats ? `\n  ${r.stats}` : ""}\n  ${r.summary}`;
@@ -203,7 +237,9 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   // the kind asked for, by the `kind:` prefix or by the kind parameter ("page" is no symbol kind): no meaning list, and a
   // hit-less answer says what is missing (D95)
   const kind = q.kind ?? KINDS[a.kind?.trim().toLowerCase() ?? ""] ?? null;
-  const byId = new Map<string, SearchRecord>(hits.map((h) => [h.r.id, h.r]));
+  // CA, MX and US add the same field id to a W1 table: the layer is part of a symbol's identity here (D95)
+  const uid = (r: SearchRecord) => (r.kind !== "page" && r.country ? `${r.id} ${r.country}` : r.id);
+  const byId = new Map<string, SearchRecord>(hits.map((h) => [uid(h.r), h.r]));
   // the meaning list (D63): pages only, the top 50 by cosine similarity
   let semantic: string[] = [], note = "";
   // a kind: query asks for a symbol, and symbols are never in the meaning list: no padding with pages (D95)
@@ -218,15 +254,15 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
       }
     } else if (mode === "semantic") note = ` (semantic search unavailable: ${modelError}; keyword results instead)`;
   }
-  const keyword = hits.map((h) => h.r.id);
+  const keyword = hits.map((h) => uid(h.r));
   let order: string[], exactBand = 0;
   if (mode === "semantic") order = semantic.length ? semantic : keyword.slice(0, POOL);
   else if (mode === "keyword" || !semantic.length) order = keyword;
   else {
     // the exact band pinned in keyword order, the rest fused with the meaning list (D86 4.2)
-    const exact = hits.filter((h) => h.band === "exact").map((h) => h.r.id), pinned = new Set(exact);
+    const exact = hits.filter((h) => h.band === "exact").map((h) => uid(h.r)), pinned = new Set(exact);
     exactBand = exact.length;
-    order = [...exact, ...fuse([hits.filter((h) => h.band !== "exact").slice(0, POOL).map((h) => h.r.id), semantic.filter((p) => !pinned.has(p))])];
+    order = [...exact, ...fuse([hits.filter((h) => h.band !== "exact").slice(0, POOL).map((h) => uid(h.r)), semantic.filter((p) => !pinned.has(p))])];
   }
   if (mode !== "semantic" && mode !== "keyword" && !semantic.length) exactBand = hits.filter((h) => h.band === "exact").length;
   const inKeyword = new Set(keyword.slice(0, Math.max(POOL, limit))), inMeaning = new Set(semantic);
@@ -246,8 +282,8 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const how = semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
   const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url opens on learn.microsoft.com, cat(hub) reads its hub" : "";
   // an empty keyword list says so: the hits are by meaning only (D95)
-  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
-  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
+  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(uid(r)))).join("\n")}${hintText}`;
+  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(uid(r)))).join("\n")}${hintText}`;
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
@@ -271,7 +307,30 @@ export async function toolCat(a: { path: string } & ViewArgs): Promise<string> {
   // a symbol's path keeps its anchor ("objects/codeunit/80#event-OnAfterPostSalesDoc"): that member's row (D93)
   const [base, anchor] = a.path.split(/(?=#)/);
   const clean = `${base.replace(/^\/+|\/+$/g, "").replace(/\.md$/, "")}${anchor ?? ""}`;
-  return pageView(await pageMarkdown(clean.replace(/#.*$/, "")), clean, a, BUDGET, SITE);
+  const path = clean.replace(/#.*$/, ""), md = await pageMarkdown(path);
+  // a member the page lacks may be one a country layer adds to this W1 object (D95): answer from the layer's diff
+  if (anchor && anchorView(md, path, anchor, SITE) === null) {
+    const added = await layerMember(path, anchor);
+    if (added) return added;
+  }
+  return pageView(md, clean, a, BUDGET, SITE);
+}
+
+/** `cat("objects/table/18#field-11310")` for a member only a country layer has: one answer per layer that adds it (CA, MX and US can share an id). */
+async function layerMember(path: string, anchor: string): Promise<string | null> {
+  const want = parseAnchor(anchor), major = diffMajor();
+  if (!want || !major) return null;
+  await loadIndex();
+  const id = `${path}${anchor}`;
+  const layers = [...new Set(index!.records.filter((r) => r.kind !== "page" && r.id === id && r.country && r.app === `${r.country.toUpperCase()} layer`).map((r) => r.country!))].sort();
+  const owner = index!.records.find((r) => r.kind === "page" && r.id === path);
+  const out: string[] = [];
+  for (const cc of layers) {
+    const o = owner?.objectId != null ? await replacedBy(major, cc, `${owner.objectType}/${owner.objectId}`) : null;
+    const text = o && memberAnswer(o, want, cc, { title: owner?.title, site: SITE, path });
+    if (text) out.push(text);
+  }
+  return out.length ? out.join("\n") : null;
 }
 
 /**
@@ -303,8 +362,19 @@ export async function toolGetObject(a: { type: string; idOrName: string; country
     const pick = country ? (inCountry.length ? inCountry : w1) : (w1.length ? w1 : found);
     if (pick.length === 1) {
       const twins = found.filter((r) => r !== pick[0] && r.country).map((r) => r.country!.toUpperCase());
-      const note = country && !inCountry.length ? `(${country.toUpperCase()} has no ${type} of its own here; the W1 ${type} applies.)\n\n` : "";
-      const also = !country && twins.length ? `\n\n(Also in ${twins.join(", ")}: get_object("${type}", "${pick[0].objectId ?? pick[0].name}", country).)` : "";
+      // a country with no object of its own may still replace this W1 object: print what the layer adds (D95)
+      const major = diffMajor(), key = `${type}/${pick[0].objectId ?? pick[0].name.toLowerCase()}`;
+      let note = "";
+      if (country && !inCountry.length) {
+        const replaced = major ? await replacedBy(major, country, key) : null;
+        note = replaced && major ? `${countryBlock(replaced, country, major, { title: pick[0].title })}\n\n` : `(${country.toUpperCase()} has no ${type} of its own here; the W1 ${type} applies.)\n\n`;
+      }
+      let also = !country && twins.length ? `\n\n(Also in ${twins.join(", ")}: get_object("${type}", "${pick[0].objectId ?? pick[0].name}", country).)` : "";
+      if (!country && !pick[0].country && major && !a.section) {
+        const layers = (await Promise.all(countriesOf(index!).map(async (cc) => ({ cc, object: await replacedBy(major, cc, key) })))).filter((l): l is { cc: string; object: DiffObject } => !!l.object);
+        const line = replacedInLine(layers);
+        if (line) also += `${also ? "\n" : "\n\n"}${line}`;
+      }
       return `${note}${pageView(await pageMarkdown(pick[0].id), pick[0].id, a, BUDGET, SITE)}${a.section ? "" : also}`;
     }
     if (pick.length > 1) return `${pick.length} ${type} objects match "${a.idOrName}"; read one with cat(path):\n${pick.map((r) => `- ${r.title} path=${r.id}`).join("\n")}`;
@@ -371,7 +441,7 @@ export function createServer(): McpServer {
     async (a) => text(await toolLs(a)));
   server.registerTool("cat", { title: "Read a page", description: `A page's markdown by its path from search or ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
     async (a) => text(await toolCat(a)));
-  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE'. Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact (frontmatter, the first 5 rows of each section, the section keys): pass section ('fields', 'events', 'procedures', 'calls', ...) with offset and limit to read one. To check that a field, event or procedure exists, search('event: <Name>') answers without the page. counts.procedures counts every procedure (public, local, events, subscribers); the summary's 'public procedures' excludes locals and events.`,
+  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE' (what that layer adds prints first). Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact (frontmatter, the first 5 rows of each section, the section keys): pass section ('fields', 'events', 'procedures', 'calls', ...) with offset and limit to read one. To check that a field, event or procedure exists, search('event: <Name>') answers without the page. counts.procedures counts every procedure (public, local, events, subscribers); the summary's 'public procedures' excludes locals and events.`,
     inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, async (a) => text(await toolGetObject(a)));
   server.registerTool("diff_object", { title: "What changed in an object", description: "Member-level changes of a W1 object between two consecutive versions (fields, events, procedures, keys, properties, obsolete state).",
     inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, async (a) => text(await toolDiffObject(a)));

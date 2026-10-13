@@ -43,14 +43,18 @@ export function pageToRecord(p: PageRecord): SearchRecord {
  * A symbol row of data/index/symbols-<kind>-*.json as a record, under its owner (the object's page record):
  *   fields [pk, name, id, type, tooltip], events [pk, name, kind, subscribers, doc, obsolete],
  *   procs [pk, name, paramCount, returnType, doc, obsolete], values [pk, name, ordinal, caption].
+ * A member a country layer adds to a W1 object carries the country code last (`"be"`, D95): the record then has that
+ * country, `app` "<CC> layer" and layer 2, under the W1 owner; a reader that ignores the column sees a W1 member.
  */
 export function symbolToRecord(kind: SymbolKind, row: unknown[], owner: SearchRecord): SearchRecord {
   const name = String(row[1]);
   const key = kind === "field" || kind === "value" ? Number(row[2]) : name;
+  const last = row[kind === "field" ? 5 : kind === "value" ? 4 : 6];
+  const cc = typeof last === "string" && /^[a-z]{2}$/i.test(last) ? last.toLowerCase() : null;
   const base: SearchRecord = {
     id: `${owner.id}${anchorOf(kind, key)}`, kind, type: owner.type, name, title: name,
-    objectType: owner.objectType, objectId: owner.objectId ?? null, country: owner.country ?? null, app: owner.app ?? null,
-    layer: owner.layer, importance: owner.importance, inbound: owner.inbound ?? 0, system: owner.system ?? null, major: owner.major,
+    objectType: owner.objectType, objectId: owner.objectId ?? null, country: cc ?? owner.country ?? null, app: cc ? `${cc.toUpperCase()} layer` : owner.app ?? null,
+    layer: cc ? 2 : owner.layer, importance: owner.importance, inbound: owner.inbound ?? 0, system: owner.system ?? null, major: owner.major,
     tier: owner.tier, owner: { path: owner.id, title: owner.title },
   };
   if (kind === "field") return { ...base, text: (row[4] as string | null) ?? "", extra: { id: Number(row[2]), type: String(row[3]) } };
@@ -457,7 +461,8 @@ export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kin
 
 /** How a symbol hit reads: `field 20 of Table 36 "Sales Header" · Date`, `event of Codeunit 80 "Sales-Post" · integration · 8 subscribers`. */
 export function symbolLine(r: SearchRecord): string {
-  const of = r.owner ? ` of ${r.owner.title}` : "", x = r.extra ?? {};
+  // a member a country layer adds says so after its owner (D95): `field 11310 of Table 18 "Customer" · BE layer · Text[50]`
+  const of = `${r.owner ? ` of ${r.owner.title}` : ""}${r.country && r.app === `${r.country.toUpperCase()} layer` ? ` · ${r.app}` : ""}`, x = r.extra ?? {};
   if (r.kind === "field") return `field ${x.id}${of} · ${x.type}`;
   if (r.kind === "event") return `event${of} · ${x.kind} · ${x.subscribers} ${x.subscribers === 1 ? "subscriber" : "subscribers"}${x.obsolete ? ` · obsolete ${x.obsolete}` : ""}`;
   if (r.kind === "proc") return `procedure${of} · ${x.params} ${x.params === 1 ? "parameter" : "parameters"}${x.returns ? ` · returns ${x.returns}` : ""}${x.obsolete ? ` · obsolete ${x.obsolete}` : ""}`;

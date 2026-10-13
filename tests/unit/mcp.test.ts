@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
@@ -262,10 +262,13 @@ test("reciprocal rank fusion (k = 60) and the filters of a search call", async (
 });
 
 /** fixture() plus a symbols index of Codeunit 80's events, as data/index/symbols-*.json carries them. */
-function symbolsFixture(): string {
+function symbolsFixture(withBe = false): string {
   const root = fixture();
-  const rows = [["codeunit/80", "OnAfterPostSalesDoc", "integration", 8, "Raised after posting a sales document.", null], ["codeunit/80", "OnAfterPostSalesDocDropShipment", "integration", 0, null, null]];
-  const fields = [["table/18", "VAT Bus. Posting Group", 110, "Code[20]", "Specifies the VAT specification."], ["table/18", "Posting Date", 99, "Date", "The posting date."]];
+  // D95 phase B: what the BE layer adds to Table 18 "Customer", as rows with the country last and as the diff the MCP reads for the block
+  const be = withBe ? { fields: [["table/18", "Enterprise No.", 11310, "Text[50]", "Specifies the enterprise number of the customer.", "be"], ["table/18", "Domiciliation No.", 2000020, "Text[12]", null, "be"]], events: [["table/18", "OnBeforeValidateEnterpriseNo", "integration", 0, null, null, "be"]] } : { fields: [], events: [] };
+  if (withBe) { mkdirSync(join(root, "data/code/diffs/country"), { recursive: true }); copyFileSync(new URL("../fixtures/country-diff/29-be.json", import.meta.url), join(root, "data/code/diffs/country/29-be.json")); }
+  const rows = [["codeunit/80", "OnAfterPostSalesDoc", "integration", 8, "Raised after posting a sales document.", null], ["codeunit/80", "OnAfterPostSalesDocDropShipment", "integration", 0, null, null], ...be.events];
+  const fields = [["table/18", "VAT Bus. Posting Group", 110, "Code[20]", "Specifies the VAT specification."], ["table/18", "Posting Date", 99, "Date", "The posting date."], ...be.fields];
   const procs = [["codeunit/80", "L", 0, null, null, null], ["codeunit/80", "E", 0, null, null, null]];
   const shard = (kind: string, name: string, r: unknown[][]) => { writeJson(join(root, `data/index/symbols-${kind}-${name}.json`), { schema: "bcobs-symbols@1", rows: r }); return { file: `symbols-${kind}-${name}.json`, count: r.length, sha256: name }; };
   writeJson(join(root, "data/index/symbols-manifest.json"), { schema: "bcobs-symbols@1", major: "29", kinds: { events: shard("events", "aaaaaaaaaaaa", rows), fields: shard("fields", "bbbbbbbbbbbb", fields), procs: shard("procs", "cccccccccccc", procs) } });
@@ -357,6 +360,43 @@ test("D94: search finds Learn articles by an identifier they document, with thei
     assert.doesNotMatch(await call("search", { query: "customer" }), /url=/, "an ordinary query is as it was");
     assert.doesNotMatch(await call("ls", {}), /learn/, "a Learn article is no page to browse");
     assert.doesNotMatch(await call("whats_new", { since: "2026-10-01" }), /Resource exposure/, "nor news");
+  } finally {
+    await client.close();
+  }
+});
+
+test("D95 phase B: get_object prints what a country layer adds, cat answers for a member only the layer has, search finds it with its layer", async () => {
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: symbolsFixture(true), BC_OBSERVATORY_EMBEDDINGS: "0" });
+  try {
+    const be = await call("get_object", { type: "table", idOrName: "18", country: "BE" });
+    assert.match(be, /^BE replaces Table 18 "Customer" \(BC29\): \+2 fields, \+1 event, \+2 procedures; 1 field changed, 1 key changed\.\n/);
+    assert.match(be, /\nFields added: 11310 "Enterprise No\." Text\[50\]; 2000020 "Domiciliation No\." Text\[12\]\n/);
+    assert.match(be, /\nSource: data\/code\/diffs\/country\/29-be\.json; the BE page: localizations\/be\.\n\n---\nid: "object\/table\/18"\n/, "the block, then the W1 page as today");
+    assert.doesNotMatch(be, /has no table of its own/);
+    // a BE-only object keeps its own page, no block
+    const own = await call("get_object", { type: "table", idOrName: "11300", country: "BE" });
+    assert.match(own, /# Table 11300 BE/);
+    assert.doesNotMatch(own, /replaces/);
+    // a country the object is not replaced in: today's note
+    assert.match(await call("get_object", { type: "codeunit", idOrName: "80", country: "BE" }), /^\(BE has no codeunit of its own here; the W1 codeunit applies\.\)/);
+    assert.match(await call("get_object", { type: "table", idOrName: "18", country: "NL" }), /^\(NL has no table of its own here; the W1 table applies\.\)/);
+    // without a country: the layers that replace it, after the Also-in line
+    const w1 = await call("get_object", { type: "table", idOrName: "18" });
+    assert.match(w1, /Replaced in: BE \(\+2 fields, \+1 event, \+2 procedures\)\.$/);
+    assert.doesNotMatch(await call("get_object", { type: "codeunit", idOrName: "80" }), /Replaced in/);
+    assert.doesNotMatch(await call("get_object", { type: "table", idOrName: "18", section: "fields" }), /Replaced in/);
+    // cat of a member the W1 page lacks answers from the diff
+    const cat = await call("cat", { path: "objects/table/18#field-11310" });
+    assert.match(cat, /^Table 18 "Customer", field 11310 \(added by the BE layer, not in W1\):\n\| No\. \| Name \| Type \| Properties \| Layer \|\n\|---\|---\|---\|---\|---\|\n\| 11310 \| Enterprise No\. \| Text\[50\] \|/);
+    assert.match(cat, /\| BE \|\n\nW1 page: .*objects\/table\/18\/ · BE layer: localizations\/be\n$/);
+    assert.match(await call("cat", { path: "objects/table/18#event-OnBeforeValidateEnterpriseNo" }), /event OnBeforeValidateEnterpriseNo \(added by the BE layer/);
+    assert.match(await call("cat", { path: "objects/table/18#field-424242" }), /^\(No row for #field-424242 on this page\.\)/, "no such member anywhere: as before");
+    // search: one hit, its layer named
+    const hit = await call("search", { query: "field: Enterprise No.", country: "BE" });
+    assert.match(hit, /^1 results, keyword[^\n]*\n- Enterprise No\. \(field 11310 of Table 18 "Customer", BE layer, Text\[50\]\) path=objects\/table\/18#field-11310 \[keyword\]\n  Specifies the enterprise number of the customer\.$/m);
+    assert.match(await call("search", { query: "Domiciliation No." }), /Domiciliation No\. \(field 2000020 of Table 18 "Customer", BE layer/);
+    assert.match(await call("search", { query: "event: OnBeforeValidateEnterpriseNo" }), /event of Table 18 "Customer", BE layer, integration, 0 subscribers/);
+    assert.match(await call("search", { query: "field: Enterprise No.", country: "NL" }), /^No field named|^No pages match/, "the filter by country hides it elsewhere");
   } finally {
     await client.close();
   }

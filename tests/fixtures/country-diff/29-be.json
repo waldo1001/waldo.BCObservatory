@@ -1,0 +1,223 @@
+{
+ "schema": "al-diff@1",
+ "kind": "country",
+ "from": {
+  "version": "29",
+  "country": "w1",
+  "commit": "c-w1"
+ },
+ "to": {
+  "version": "29",
+  "country": "be",
+  "commit": "c-be"
+ },
+ "summary": {
+  "objects": 3,
+  "by_change": {
+   "replaced": {
+    "table": 1,
+    "enum": 1
+   },
+   "added": {
+    "table": 1
+   }
+  },
+  "fields_added": 2,
+  "events_added": 1,
+  "procedures_added": 2,
+  "objects_obsoleted": 0
+ },
+ "objects": [
+  {
+   "key": "table/18",
+   "name": "Customer",
+   "change": "replaced",
+   "ns": "Microsoft.Sales.Customer",
+   "fields": [
+    {
+     "id": "11310",
+     "name": "Enterprise No.",
+     "change": "added",
+     "to": {
+      "name": "Enterprise No.",
+      "type": "Text[50]",
+      "obsolete": null,
+      "clean": null,
+      "properties": {
+       "Caption": "Enterprise No.",
+       "ToolTip": "Specifies the enterprise number of the customer.",
+       "OptimizeForTextSearch": "true"
+      }
+     }
+    },
+    {
+     "id": "2000020",
+     "name": "Domiciliation No.",
+     "change": "added",
+     "to": {
+      "name": "Domiciliation No.",
+      "type": "Text[12]",
+      "obsolete": null,
+      "clean": null,
+      "properties": {
+       "Caption": "Domiciliation No."
+      }
+     }
+    },
+    {
+     "id": "5",
+     "name": "Posting Date",
+     "change": "changed",
+     "to": {
+      "name": "Posting Date",
+      "type": "Date",
+      "obsolete": null,
+      "clean": null
+     },
+     "delta": {
+      "properties": {
+       "Caption": [
+        "Posting Date",
+        "Invoice Date"
+       ]
+      }
+     }
+    }
+   ],
+   "procedures": [
+    {
+     "id": "formatenterpriseno(text,code[10])",
+     "name": "FormatEnterpriseNo",
+     "change": "added",
+     "to": {
+      "scope": "global",
+      "params": [
+       {
+        "name": "EnterpriseNo",
+        "type": "Text",
+        "var": false
+       },
+       {
+        "name": "CountryCode",
+        "type": "Code[10]",
+        "var": false
+       }
+      ],
+      "returns": "Text",
+      "event": null,
+      "obsolete": null,
+      "subscribes_to": null,
+      "attributes": []
+     }
+    },
+    {
+     "id": "hiddenbe()",
+     "name": "HiddenBe",
+     "change": "added",
+     "to": {
+      "scope": "local",
+      "params": [],
+      "returns": null,
+      "event": null,
+      "obsolete": null,
+      "subscribes_to": null,
+      "attributes": []
+     }
+    }
+   ],
+   "events": [
+    {
+     "id": "onbeforevalidateenterpriseno(record customer,record customer,integer,boolean)",
+     "name": "OnBeforeValidateEnterpriseNo",
+     "change": "added",
+     "to": {
+      "scope": "local",
+      "params": [
+       {
+        "name": "Customer",
+        "type": "Record Customer",
+        "var": true
+       },
+       {
+        "name": "xCustomer",
+        "type": "Record Customer",
+        "var": false
+       },
+       {
+        "name": "CurrFieldNo",
+        "type": "Integer",
+        "var": false
+       },
+       {
+        "name": "IsHandled",
+        "type": "Boolean",
+        "var": true
+       }
+      ],
+      "returns": null,
+      "event": "integration",
+      "obsolete": null,
+      "subscribes_to": null,
+      "attributes": [
+       {
+        "name": "IntegrationEvent",
+        "args": [
+         "false",
+         "false"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "keys": [
+    {
+     "id": "key14",
+     "name": "Key14",
+     "change": "changed",
+     "to": {
+      "fields": [
+       "Search Name",
+       "Enterprise No."
+      ],
+      "clustered": false
+     },
+     "delta": {
+      "fields": [
+       [
+        "Search Name"
+       ],
+       [
+        "Search Name",
+        "Enterprise No."
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "enum/36",
+   "name": "Sales Document Type",
+   "change": "replaced",
+   "ns": null,
+   "values": [
+    {
+     "id": "11300",
+     "name": "Belgian Credit Note",
+     "change": "added",
+     "to": {
+      "name": "Belgian Credit Note",
+      "obsolete": null
+     }
+    }
+   ]
+  },
+  {
+   "key": "table/11300",
+   "name": "VAT VIES Correction",
+   "change": "added",
+   "ns": null
+  }
+ ]
+}
