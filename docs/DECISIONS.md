@@ -998,3 +998,33 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   "no caption over any star" (85 of 154 captions kept on the four busiest systems, none for Platform at 1440); media
   bodies as caption obstacles (no gain on star overlap; later); hiding plot labels (the only canvas text that names
   the namespace plots). Spec: `docs/specs/galaxy-controls.md`.
+- **D95 An MCP answer names what it did not find, and a symbol stands where its owner stands.** The 2026-10-13
+  side-by-side test against the Microsoft Learn MCP found every object fact right and six answers wrong before the
+  facts: a field of Table 36 ranked 12th of 83 same-named fields because a tooltip repeating the name outweighed the
+  owner; a nonexistent event returned three meaning-only pages under a header reading "keyword"; `get_object("table",
+  "18", "BE")` said BE has no table of its own although the BE diff records three added fields; `RT0005` was read as
+  "report 5"; "difference between IntegrationEvent and BusinessEvent" found nothing because every word had to meet a
+  record and no phrase could meet a deduplicated summary; `counts.procedures` was undefined next to "public
+  procedures". Fixes, deterministic, no page under `content/` rewritten: (a) when a query asks for symbols (a `kind:`
+  prefix or parameter, a type word, a digit, a member word, an event-shaped word) a symbol takes its owner's layer and
+  type prior and an exact name takes no tooltip points, so base tables come first by importance (Table 36 at 4: three
+  base tables are more important); every other query ranks symbols as before; (b) an empty keyword list says so first,
+  a `kind:` query never pads with meaning hits, and a hit-less one answers `No <kind> named "..."` with the nearest
+  names, or says the filters removed the hits; `(exact band: n)` only with keyword + meaning; (c) the symbols index
+  adds the members a country layer adds to a replaced W1 object, from `data/code/diffs/country/<major>-<cc>.json`, as
+  rows with a trailing country column (7,945 rows for major 29, +92 KB gzipped on the tar), layer 2 under the W1
+  owner; `get_object` with a country prints the layer's additions, without one a "Replaced in" line, and `cat` of
+  such an anchor answers from the diff; an installed 0.5.0 reads the rows as W1 members; (d) coded identifiers
+  (`^[A-Z]{2,3}\d{4}$`) join `meta.identifiers` from code spans, bold spans and table cells under
+  `identifiers_rule: 2`, backfilled from the fetched blob like D94; only coded-id tags are a Learn record's name; the
+  parser keeps them whole; (e) a question-shaped query drops its question words (auxiliary openers only before a
+  pronoun, `vs` only between two content words and never in `VS Code`), quoted and CamelCase phrases meet an ordered
+  token sequence built per field and only where the words are, and the hint names the hub of a Learn hit in the
+  first ten; (f) the schema, the `get_object` description and `bc-lookup` define `counts.*`. Two Opus reviews of the
+  scorer changes caught enum values outranking Learn articles on "posting" and "purchase", names such as "Is Enabled",
+  "Compare List" and "VS Code" read as questions, and a false "No field named" under a filter; all were fixed before
+  the merge and are guarded by golden rows (45, from 31). Rejected: a page per replaced country object (D52); a
+  "Country layers add" section on W1 pages and names on the localization table (bytes; not now); Learn rows in the
+  meaning list (D94); Learn body text (D01); an LLM query rewrite; new `counts` keys (25,646 pages rewritten for a
+  definition); every identifier tag as a name (`SetRange` and `AppSourceCop` then ranked a page that only mentions
+  them first). Spec: `docs/specs/mcp-answer-quality.md` (section 13: built, deviations).

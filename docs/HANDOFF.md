@@ -10,19 +10,7 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-- **MCP answer quality** (`docs/specs/mcp-answer-quality.md`, D95, M33). Status: proposed 2026-10-13, nothing
-  implemented. From the 2026-10-13 side-by-side test against the Microsoft Learn MCP: every object fact was right, six
-  answers went wrong in search and navigation. Four phases that ship alone, none rewrites a page under `content/`:
-  (A) same-named symbols rank by their owner's layer and importance and an exact name takes no tooltip points; an empty
-  keyword list is named in the header, a `kind:` query never pads with meaning hits, hint rule 6 names the nearest
-  symbols; (D) question-shaped queries drop their question words, phrases meet an ordered token stream (today
-  `indexTokens` deduplicates, so no phrase meets a summary), the concept hint names the best Learn hit's hub; (C) coded
-  Learn ids (`RT0005`, `AS0020`) from code spans, bold spans and table cells, backfilled with a rule number; (B) the
-  members a country layer adds to a replaced W1 object become symbol rows with a trailing country column (7,885 rows,
-  about 0.5 MB raw for major 29), `get_object(type, id, "BE")` prints the layer's additions from the diff instead of
-  "has no table of its own". Start with phase A: `packages/search/src/score.ts` `lift` (symbols take `LAYER` and
-  `TYPE_PRIOR`), the text points on `eq`, then `packages/mcp/src/server.ts` `toolSearch` headers and `hints.ts` rule 6,
-  with the golden rows of spec section 5. Until it lands, readers and agents see today's behaviour (spec section 1).
+None open.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
@@ -31,6 +19,19 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-13, live after the derive the merge starts and its Pages build:**
+- **MCP answer quality, D95** (`docs/specs/mcp-answer-quality.md`, M33). From the 2026-10-13 side-by-side test against
+  the Microsoft Learn MCP. Same-named fields, events and procedures rank by their owner's layer and importance when the
+  query asks for symbols (`field: VAT Bus. Posting Group`: Table 36 rank 12 to 4); a search with no keyword hit says
+  so, a `kind:` query never pads with meaning hits and names the nearest symbols or the filter that removed them;
+  question-shaped queries drop their question words and phrases meet summaries (IntegrationEvent vs BusinessEvent: 0
+  hits to "Event types" in the top 3, hint to the Events hub); coded Learn ids (`RT0005`, `LC0234`) under
+  `identifiers_rule: 2`; the members a country layer adds to a replaced W1 object are symbol rows with a country, and
+  `get_object(type, id, "BE")` prints them. MCP `bc-observatory` 0.7.0. After the merge: the derive rewrites the
+  symbol shards (+7,945 country rows, +92 KB gzipped); the first full nightly runs the rule-2 backfill
+  (`learn_identifiers.rule: 2` in the run report) and its derive writes the coded ids into the Learn shard; then
+  remove `pending` from the `RT0005` golden row. Deviations in the spec's section 13.
 
 **Shipped 2026-10-12, live on the next Pages build:**
 - **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Items D3 and D6 of the 2026-10-12 UX review, home
