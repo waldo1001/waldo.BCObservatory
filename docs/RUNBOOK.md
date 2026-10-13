@@ -123,14 +123,16 @@ and the first Tab stop. Pass another build's `site/dist` as its argument for a b
 
 ## Atlas in your own Claude Code
 
-- `claude mcp add --transport http bc-code-atlas https://bc-code-atlas.stefanmaron.dev/mcp` (user scope), or install
-  the plugin, which connects it next to `bc-observatory`; `claude mcp remove bc-code-atlas` undoes it. VS Code:
+- `claude mcp add --transport http bc-code-atlas https://bc-code-atlas.stefanmaron.dev/mcp` (user scope);
+  `claude mcp remove bc-code-atlas` undoes that hand-added server. Or install the plugin, which connects it next to
+  `bc-observatory`: a plugin's servers come and go with the plugin, and `/mcp` turns one off per project
+  (`plugin/README.md`). VS Code:
   `.vscode/mcp.json` with `{"servers": {"bc-code-atlas": {"type": "http", "url": "https://bc-code-atlas.stefanmaron.dev/mcp"}}}`.
 - Etiquette (D67 decision 1): it is one person's server. Resolve, don't search; one or two calls per question; never
   `bcatlas_request_version` unasked. Nothing scheduled (nightly, selfcheck, workflows) ever calls it.
 - Microsoft Learn MCP (D96): the plugin connects it as `microsoft-learn`. Without the plugin:
-  `claude mcp add --transport http microsoft-learn https://learn.microsoft.com/api/mcp` (user scope); remove it with
-  `claude mcp remove microsoft-learn`. No auth. The observatory server never calls it; skills route a Learn hit's url
+  `claude mcp add --transport http microsoft-learn https://learn.microsoft.com/api/mcp` (user scope); remove that
+  hand-added server with `claude mcp remove microsoft-learn`. No auth. The observatory server never calls it; skills route a Learn hit's url
   to `microsoft_docs_fetch`.
 
 ## Pages (D76)
