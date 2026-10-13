@@ -3,7 +3,8 @@
  * object reference (`t36`, `cu 80`, `codeunit80`, `table 36 BE`); a bare number (an id across types); a version word
  * (`bc30`, `bc 30`, `v29`); type words (the 18 types, singular or plural, an abbreviation only when it is the whole
  * query); country codes (uppercase, or any case next to a reference or a type word); the rest tokenised, stemmed and
- * synonym-expanded. A question drops its question words.
+ * synonym-expanded. A question (D95: also "difference between", "X vs Y", "compare") drops its question words, only while
+ * a content word or a quoted phrase is left; its shape says what it asks (what changed, how to, a concept).
  */
 import { camelParts, fold, stem, tokenize } from "./normalize.js";
 import { ABBR, QUESTION_WORDS, synonymPhrases, synonymsOf } from "./synonyms.js";
@@ -25,9 +26,12 @@ export function term(text: string, phrase = false, raw = text): Term {
   return { text, stem: phrase ? text.split(" ").map(stem).join(" ") : stem(text), alts, phrase, numeric: /^\d+$/.test(text) };
 }
 
+/** The first words of a question: a question word, or an auxiliary verb ("is a codeunit an object", "should I use"). */
+const QUESTION_START = /^(how|what|why|where|when|which|who|should|can|is|are|does|do|compare)\b/i;
+
 export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQuery {
   const countries = new Set(opts.countries.map((c) => c.toLowerCase()));
-  const q: ParsedQuery = { raw, ref: null, number: null, types: [], kind: null, major: null, countries: [], question: false, terms: [], warnings: [] };
+  const q: ParsedQuery = { raw, ref: null, number: null, types: [], kind: null, major: null, countries: [], question: false, dropped: [], shape: null, terms: [], warnings: [] };
   let s = raw.trim();
   // quoted phrases
   const phrases: { text: string; raw: string }[] = [];
@@ -49,7 +53,9 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
   }
   // a version word
   s = s.replace(/(?:^|\s)(?:bc|v)\s?(2[3-9]|3\d)(?=\s|$)/i, (_, v: string) => { q.major = v; return " "; }).trim();
-  q.question = /^(how|what|why|where|when|which)\b/i.test(s) || /\bchanged in\b/i.test(s);
+  // a `kind:` query looks a name up ("field: Is Blocked"): never a question
+  q.question = !q.kind && (QUESTION_START.test(s) || /\bchanged in\b/i.test(s) || /\bdifferences? between\b/i.test(s) || /\b(vs|versus)\b/i.test(s));
+  if (q.question) q.shape = /\bchanged in\b/i.test(s) ? "what-changed" : /^(how (do|to)|when to)\b/i.test(s) ? "how-to" : "concept";
   const words = s.split(/\s+/).filter(Boolean);
   const typeAt = (i: number) => i >= 0 && i < words.length && !!TYPE_WORDS[words[i].toLowerCase()];
   const typeWords: string[] = [];
@@ -70,7 +76,15 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
     const t = tokenize(w);
     for (const x of t) toks.push({ text: x, raw: t.length === 1 ? w.replace(/[^\p{L}\p{N}.\-/]/gu, "") : x });
   }
-  if (q.question) toks = toks.filter((t) => !QUESTION_WORDS.has(t.text) && !(t.text.length === 1));
+  // the question words go, unless nothing else is left to search for ("what is", "difference between"); a quoted phrase
+  // keeps every word of its own and counts as content
+  if (q.question) {
+    const chaff = (t: { text: string }) => QUESTION_WORDS.has(t.text) || t.text.length === 1;
+    if (phrases.length || toks.some((t) => !chaff(t))) {
+      for (const t of toks) if (QUESTION_WORDS.has(t.text) && !q.dropped.includes(t.text)) q.dropped.push(t.text);
+      toks = toks.filter((t) => !chaff(t));
+    }
+  }
   // words that together are a synonym phrase ("general ledger") become one term
   const multi = synonymPhrases().map((p) => p.split(" ")).sort((a, b) => b.length - a.length);
   for (let i = 0; i < toks.length; i++) {

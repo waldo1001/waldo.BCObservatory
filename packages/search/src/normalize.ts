@@ -27,14 +27,24 @@ export function camelParts(raw: string): string[] {
 }
 
 /**
+ * A field's tokens in reading order, not deduplicated: its words, each followed by the parts of a compound word and,
+ * for symbol names, the CamelCase words after the words. A phrase is looked for in this sequence (D95): the deduplicated
+ * `indexTokens` has lost the order of a text that repeats a word ("business events, integration events"), so
+ * "integration event" could never meet it.
+ */
+export function seqTokens(raw: string, camel = false): string[] {
+  const out: string[] = [];
+  for (const t of tokenize(raw)) { out.push(t); out.push(...parts(t)); }
+  if (camel) for (const w of raw.split(/[^\p{L}\p{N}]+/u)) out.push(...camelParts(w));
+  return out;
+}
+
+/**
  * Everything a field is findable by: its words, the parts of its compound words and, for symbol names, the CamelCase
- * words. Deduplicated, in order.
+ * words. Deduplicated, in order (`seqTokens` without the repeats).
  */
 export function indexTokens(raw: string, camel = false): string[] {
-  const out = new Set<string>();
-  for (const t of tokenize(raw)) { out.add(t); for (const p of parts(t)) out.add(p); }
-  if (camel) for (const w of raw.split(/[^\p{L}\p{N}]+/u)) for (const p of camelParts(w)) out.add(p);
-  return [...out];
+  return [...new Set(seqTokens(raw, camel))];
 }
 
 /**

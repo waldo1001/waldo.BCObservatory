@@ -53,8 +53,12 @@ export interface ParsedQuery {
   major: string | null;
   /** lowercase country codes: uppercase in the raw query, or any case next to a reference or type word */
   countries: string[];
-  /** starts with how/what/why/where/when/which or contains "changed in" */
+  /** a question: starts with how/what/why/where/when/which/who/should/can/is/are/does/do, or holds "changed in", "difference between", "vs", "versus" */
   question: boolean;
+  /** the question words removed from `terms` (D95); empty when the query is no question or nothing but question words */
+  dropped: string[];
+  /** what a question asks: `what-changed` ("changed in"), `how-to` ("how to", "how do", "when to"), `concept` (the rest); null for no question */
+  shape: "what-changed" | "how-to" | "concept" | null;
   /** everything else, normalised, stemmed, synonym-expanded; quoted phrases stay one term */
   terms: Term[];
   /** "unknown abbreviation cx" and the like, input to hints */

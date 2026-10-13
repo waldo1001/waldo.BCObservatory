@@ -63,8 +63,12 @@ export const SYSTEM_ALIASES: Record<string, string[]> = {
   platform: ["al-go", "pipeline", "docker", "container", "telemetry", "application insights", "performance", "database", "sql", "upgrade", "update", "release", "wave", "deprecation", "obsolete", "web client", "user experience"],
 };
 
-/** Words a question carries that no title does; dropped from a question-shaped query (D86 hints). */
-export const QUESTION_WORDS = new Set(["how", "what", "why", "where", "when", "which", "who", "do", "does", "did", "can", "could", "should", "is", "are", "was", "were", "the", "an", "to", "in", "of", "for", "on", "my", "me", "it", "from", "with", "and", "or", "changed", "change"]);
+/**
+ * Words a question carries that no title does; dropped from a question-shaped query, and only from one (D86 hints, D95):
+ * `Sales and Receivables Setup` is a name and keeps its `and`.
+ */
+export const QUESTION_WORDS = new Set(["how", "what", "why", "where", "when", "which", "who", "do", "does", "did", "can", "could", "should", "is", "are", "was", "were", "the", "an", "to", "in", "of", "for", "on", "my", "me", "it", "from", "with", "and", "or", "changed", "change",
+  "difference", "differences", "between", "vs", "versus", "compare", "comparison", "use", "used", "using", "mean", "means"]);
 
 const norm = (s: string) => s.toLowerCase().replace(/\.(?=\s|$)/g, "").trim();
 let table: Map<string, string[]> | null = null;

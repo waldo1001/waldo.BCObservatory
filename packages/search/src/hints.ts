@@ -3,7 +3,8 @@
  *   1. an unknown abbreviation in front of digits: the abbreviations one letter away whose object exists ("cx 80" -> cu 80);
  *   2. a reference to an id that does not exist: the nearest ids of that type;
  *   3. a word met only through a typo: the word it met and how many pages carry it;
- *   4. a question: where what-changed and how-to answers live, with the best hub;
+ *   4. a question: where what-changed and how-to answers live, with the best hub; a how-to or concept question names the
+ *      hub of the first Learn hit, else the best hub by the words that were not dropped (D95);
  *   5. a country reference the country has no object of its own for: the W1 object applies;
  *   6. a `kind:` query (field:, event:, proc:, value:) with no hit: no such symbol, and the nearest names (D95).
  */
@@ -52,16 +53,26 @@ export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
     const swap = (w: string) => q.raw.replace(new RegExp(t.term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"), w);
     out.push({ text: `${t.term}: no page; ${words.map((x) => `${x.w} (${x.n.toLocaleString("en")} ${x.n === 1 ? "page" : "pages"})`).join(", ")}`, query: swap(words[0].w) });
   }
-  // 4. a question
+  // 4. a question: where the answer lives, and the hub to start from. A what-changed question keeps its text; a how-to or a
+  // concept question names the hub of the best Learn article (D95), else the best hub by the words that were not dropped
   if (q.question) {
-    let hub: SearchRecord | null = null, best = 0;
-    for (const i of index.byType.get("topic") ?? []) {
-      const r = index.records[i], named = namedBy(index, r, q);
-      if (!named) continue;
-      const s = 3 * named + Math.log2((r.members ?? 0) + 1) + (r.narrative === "reviewed" ? 2 : r.narrative === "none" ? -2 : 0);
-      if (s > best) { best = s; hub = r; }
+    const hubOf = (): SearchRecord | null => {
+      let hub: SearchRecord | null = null, best = 0;
+      for (const i of index.byType.get("topic") ?? []) {
+        const r = index.records[i], named = namedBy(index, r, q);
+        if (!named) continue;
+        const s = 3 * named + Math.log2((r.members ?? 0) + 1) + (r.narrative === "reviewed" ? 2 : r.narrative === "none" ? -2 : 0);
+        if (s > best) { best = s; hub = r; }
+      }
+      return hub;
+    };
+    if (q.shape === "what-changed" || !q.shape) {
+      const hub = hubOf();
+      out.push({ text: `For what changed, open the object's Versions section or Changes; for how-to, start with the hub${hub ? `: ${hub.title}` : ""}.`, ...(hub ? { path: hub.id } : {}) });
+    } else {
+      const hub = learnHub(index, hits) ?? hubOf();
+      if (hub) out.push({ text: `For ${q.shape === "how-to" ? "how-to" : "a concept"}, start with the hub: ${hub.title}.`, path: hub.id });
     }
-    out.push({ text: `For what changed, open the object's Versions section or Changes; for how-to, start with the hub${hub ? `: ${hub.title}` : ""}.`, ...(hub ? { path: hub.id } : {}) });
   }
   // 6. a symbol that does not exist: say so, name the nearest (it is the answer of a hit-less kind: query, so it comes first)
   if (q.kind && !hits.length) {
@@ -69,6 +80,20 @@ export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
     if (h) out.unshift(h);
   }
   return out;
+}
+
+/**
+ * The hub the first Learn hit that has one is listed under, as its page record (null when the hub page is not in the
+ * index). Only among the first ten hits: a Learn article at rank 30 is no answer to name a hub after.
+ */
+function learnHub(index: Index, hits: Hit[]): SearchRecord | null {
+  for (const h of hits.slice(0, 10)) {
+    const path = h.r.type === "learn" ? h.r.page?.hub : undefined;
+    if (!path) continue;
+    const hub = (index.byType.get("topic") ?? []).map((i) => index.records[i]).find((r) => r.id === path);
+    if (hub) return hub;
+  }
+  return null;
 }
 
 const KIND_WORD = { field: "field", event: "event", proc: "procedure", value: "value" } as const;

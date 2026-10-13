@@ -4,7 +4,7 @@
  * the form it matched) or one typo (0.5, words of five letters or more that match nothing else). Scoring touches the
  * posting candidates only, never every record.
  */
-import { editDistance, fold, indexTokens, stem, tokenize } from "./normalize.js";
+import { editDistance, fold, indexTokens, seqTokens, stem, tokenize } from "./normalize.js";
 import { anchorOf } from "./anchors.js";
 import type { Hit, Index, PageRecord, ParsedQuery, SearchRecord, SymbolKind, Term } from "./types.js";
 
@@ -110,6 +110,21 @@ function normOf(r: SearchRecord): Norm {
   return n;
 }
 const textOf = (r: SearchRecord, n: Norm) => (n.text ??= indexTokens(r.text ?? ""));
+/**
+ * The ordered, undeduplicated tokens a phrase is looked for in (D95), one sequence per field, so a phrase met in the
+ * text is still a text match (1) and not a name match (3): `main` is name, title and caption (an empty string between
+ * them, so a phrase never runs from one into the next), `text` the summary or tooltip. Built when a phrase is first
+ * tried on a record and dropped with the score: kept on every record they would weigh about 170 MB on the 160k records
+ * of the MCP's index (measured, D95). Words and postings stay on the deduplicated lists of `Norm`.
+ */
+function seqs(r: SearchRecord) {
+  let main: string[] | undefined, text: string[] | undefined;
+  const symbol = r.kind !== "page";
+  return {
+    main: () => (main ??= [seqTokens(r.name, symbol), seqTokens(r.title, symbol), ...(r.caption ? [seqTokens(r.caption)] : [])].flatMap((f, k) => (k ? ["", ...f] : f))),
+    text: () => (text ??= seqTokens(r.text ?? "")),
+  };
+}
 
 /**
  * Postings over name, title, caption, tags and, for pages, the summary; a symbol is findable by its name only (its
@@ -243,13 +258,17 @@ function matchersOf(index: Index, q: ParsedQuery): Matcher[] {
   return m;
 }
 
-/** The best form a field gives a term (0 when it does not match), and through which word. */
-function best(m: Matcher, toks: string[]): Form | null {
+/**
+ * The best form a field gives a term (0 when it does not match), and through which word. Words are looked up in the
+ * field's deduplicated `toks`; a phrase is looked for in `seq`, the same field in reading order (`toks` when it has none),
+ * which is only built when a phrase is tried.
+ */
+function best(m: Matcher, toks: string[], seq: () => string[] = () => toks): Form | null {
   let b: Form | null = null;
   for (const t of toks) { const f = m.words.get(t); if (f && (!b || f.f > b.f)) b = f; }
   for (const p of m.phrases) {
     if (b && b.f >= p.f) continue;
-    const f = phraseForm(p.words, toks);
+    const f = phraseForm(p.words, seq());
     if (f) { const v = p.f * f; if (!b || v > b.f) b = { f: v, how: p.how, ...(p.via ? { via: p.via } : {}) }; }
   }
   return b;
@@ -339,10 +358,10 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     if (object && country && q.countries.includes(country)) return { s: 3 + 2 * r.importance + prior, why };
     return none;
   }
-  const n = normOf(r), ms = matchersOf(index, q);
+  const n = normOf(r), ms = matchersOf(index, q), sq = seqs(r);
   let s = 0, textPts = 0, named = false, gate = !symbol || !!q.kind;
   for (const m of ms) {
-    const main = best(m, n.main), tags = best(m, n.tags), text = best(m, textOf(r, n));
+    const main = best(m, n.main, sq.main), tags = best(m, n.tags), text = best(m, textOf(r, n), sq.text);
     if (!main && !tags && !text) return none;
     if (main || tags) named = true;
     // the gate reads the name's own words, not its CamelCase parts: "post" alone does not open 25k OnAfterPost... events
@@ -453,7 +472,8 @@ export function typoWords(index: Index, q: ParsedQuery): { term: string; words: 
 export function namedBy(index: Index, r: SearchRecord, q: ParsedQuery): number {
   if (!STATE.get(index)) return 0;
   const n = normOf(r);
-  return matchersOf(index, q).reduce((a, m) => a + (best(m, n.main)?.f ?? best(m, n.tags)?.f ?? 0), 0);
+  const sq = seqs(r);
+  return matchersOf(index, q).reduce((a, m) => a + (best(m, n.main, sq.main)?.f ?? best(m, n.tags)?.f ?? 0), 0);
 }
 
 /** Symbol rows of one shard as records, each under its owner's page record; rows whose owner is not loaded are skipped. */

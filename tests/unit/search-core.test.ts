@@ -297,6 +297,96 @@ test("hints 6: a kind: query with no hit says so and names the nearest symbols (
   assert.deepEqual(hints(i, p("Posting Date"), []), [], "only a kind: query");
 });
 
+// ---------------------------------------------------------------------------------------------- question shapes and phrases (D95 phase D)
+
+test("question shapes: a question drops its question words and keeps the content words (D95)", () => {
+  const terms = (raw: string) => p(raw).terms.map((t) => t.text);
+  const d = p("difference between IntegrationEvent and BusinessEvent");
+  assert.deepEqual(d.terms.map((t) => t.text), ["integrationevent", "businessevent"]);
+  assert.deepEqual(d.dropped, ["difference", "between", "and"]);
+  assert.deepEqual([d.question, d.shape], [true, "concept"]);
+  const w = p("what is the difference between IntegrationEvent and BusinessEvent");
+  assert.deepEqual(w.terms.map((t) => t.text), ["integrationevent", "businessevent"]);
+  assert.deepEqual(w.dropped, ["what", "is", "the", "difference", "between", "and"]);
+  assert.equal(w.shape, "concept");
+  for (const raw of ["IntegrationEvent vs BusinessEvent", "IntegrationEvent versus BusinessEvent", "compare IntegrationEvent and BusinessEvent"]) {
+    assert.deepEqual([terms(raw), p(raw).question, p(raw).shape], [["integrationevent", "businessevent"], true, "concept"], raw);
+  }
+  assert.deepEqual(p("IntegrationEvent vs BusinessEvent").dropped, ["vs"]);
+  assert.deepEqual([terms("how to use IntegrationEvent"), p("how to use IntegrationEvent").shape], [["integrationevent"], "how-to"]);
+  assert.deepEqual([terms("when to use BusinessEvent"), p("when to use BusinessEvent").shape], [["businessevent"], "how-to"]);
+  assert.equal(p("how do I post a sales invoice").shape, "how-to");
+  assert.equal(p("what changed in table 36 in BC30").shape, "what-changed");
+  assert.equal(p("what is a codeunit").shape, "concept");
+  assert.equal(p("customer").shape, null);
+  assert.deepEqual(p("customer").dropped, []);
+  // no question shape: a name keeps its words
+  const name = p("Sales and Receivables Setup");
+  assert.deepEqual(name.terms.map((t) => t.text), ["sales", "and", "receivables", "setup"]);
+  assert.deepEqual([name.question, name.shape, name.dropped], [false, null, []]);
+  // a quoted phrase keeps every word, whatever surrounds it
+  assert.deepEqual(p('"between the lines"').terms.map((t) => [t.text, t.phrase]), [["between the lines", true]]);
+  assert.deepEqual(p('how to use "between the lines"').terms.map((t) => t.text), ["between the lines"]);
+  assert.deepEqual(p('how to use "between the lines"').dropped, ["how", "to", "use"]);
+  // a question of nothing but question words keeps them: there is nothing left to search otherwise
+  assert.deepEqual([terms("what is"), p("what is").dropped, p("what is").question], [["what", "is"], [], true]);
+  assert.deepEqual(terms("difference between"), ["difference", "between"]);
+  // "use" and "mean" are words of a name until the query is a question
+  assert.deepEqual(terms("Use Case Mean"), ["use", "case", "mean"]);
+});
+
+test("seq: a phrase meets summary text word for word although the deduplicated word list lost the order (D95)", () => {
+  const post = (path: string, title: string, summary: string): PageRecord => ({ path, type: "post", title, summary, tier: "community", date: "2026-01-01" });
+  const plural = prepare([pageToRecord(post("posts/a/1", "Event types", "Types include business events, integration events, global events."))]);
+  const single = prepare([pageToRecord(post("posts/a/2", "Event types", "A business event and an integration event."))]);
+  // a page adds 1 for itself (`lift`); what is asserted is the rest, the text weight
+  const s = (i: typeof plural, raw: string) => { const h = search(i, p(raw))[0]; return h ? h.s - 1 : 0; };
+  // "events" came first in the summary: the deduplicated list reads business events integration global, so no phrase met
+  assert.equal(s(plural, '"integration event"'), 0.75, "a quoted phrase, one word by its stem: a text match (1 x 0.75), not a name match (3)");
+  assert.equal(s(single, '"integration event"'), 1, "the same words in a row: a text point");
+  assert.equal(s(plural, "IntegrationEvent"), 0.5625, "the CamelCase alternate (0.75) of a stem-met phrase (0.75), text weight 1");
+  assert.equal(s(single, "IntegrationEvent"), 0.75, "the CamelCase alternate in a row: text weight 1 x 0.75");
+  assert.deepEqual(search(plural, p("IntegrationEvent"))[0].why, [], "no name, no caption");
+  assert.equal(s(plural, "IntegrationEvent BusinessEvent"), 0.5625 * 2, "both terms, each a text match");
+  assert.equal(s(plural, '"integration business"'), 0, "order matters");
+  // fields keep their own sequence: name and title never run into each other
+  assert.deepEqual(ids('"header table"'), [], "'Sales Header' then 'Table 36 ...' is no phrase");
+  assert.equal(ids('"sales header"')[0], "objects/table/36", "a phrase inside one field still holds");
+});
+
+test("hints 4 by shape: what-changed keeps its text; how-to and a concept name the first Learn hit's hub; a dropped word finds no hub (D95)", () => {
+  const hub = (path: string, title: string): PageRecord => ({ path, type: "topic", title, summary: "", tier: "official", members: 20, narrative: "reviewed", tags: ["development"] });
+  const shard: LearnShard = {
+    schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/", hubs: [["topics/dev/events", "Development › Events", "development"], ["", "AL reference", null]],
+    rows: [
+      ["dev-itpro/developer/devenv-event-types", "Event types", "Types include business events, integration events, global events.", null, 0],
+      ["dev-itpro/developer/devenv-integration-events", "Integration events", "Integration events and the attribute.", null, 1],
+    ],
+  };
+  const hubs = [hub("topics/dev/events", "Events"), hub("topics/dev/migrating", "Migrating tables and fields between extensions"), hub("topics/bc/sales", "Sales")];
+  const withLearn = prepare([...hubs, ...learnRecords(shard)].map((r) => pageToRecord(r as PageRecord)));
+  const h = (i: typeof withLearn, raw: string) => { const q = p(raw); return hints(i, q, search(i, q)); };
+  const concept = h(withLearn, "difference between IntegrationEvent and BusinessEvent");
+  assert.equal(concept[0].text, "For a concept, start with the hub: Events.");
+  assert.equal(concept[0].path, "topics/dev/events", "the hub the best Learn hit is listed under");
+  assert.equal(h(withLearn, "IntegrationEvent vs BusinessEvent")[0].path, "topics/dev/events");
+  // the first Learn hit without a hub page (a reference section) does not name one: the next does
+  const noHub = h(withLearn, "how to use integration events");
+  assert.deepEqual([noHub[0].text, noHub[0].path], ["For how-to, start with the hub: Events.", "topics/dev/events"]);
+  // no Learn hit: the best hub by the kept terms; "between" is dropped, so the migrating hub is not found through it
+  const hubsOnly = prepare(hubs.map((r) => pageToRecord(r)));
+  assert.deepEqual(h(hubsOnly, "difference between IntegrationEvent and BusinessEvent"), [], "no hub names a kept term");
+  assert.equal(h(hubsOnly, "what is the difference between sales and purchase")[0].path, "topics/bc/sales");
+  const named = prepare([hub("topics/dev/events", "Integration events"), ...hubs.slice(1)].map((r) => pageToRecord(r)));
+  assert.equal(h(named, "difference between IntegrationEvent and BusinessEvent")[0].path, "topics/dev/events", "a hub named by a kept term (the CamelCase phrase)");
+  // what-changed: today's text, today's hub
+  const wc = h(withLearn, "what changed in sales");
+  assert.equal(wc[0].text, "For what changed, open the object's Versions section or Changes; for how-to, start with the hub: Sales.");
+  assert.equal(wc[0].path, "topics/bc/sales");
+  assert.equal(h(index, "what changed in customer")[0].text.startsWith("For what changed, open the object's Versions section or Changes; for how-to, start with the hub"), true);
+  assert.deepEqual(h(withLearn, "customer"), [], "no question: no hint");
+});
+
 // ---------------------------------------------------------------------------------------------- Learn articles (D94)
 
 const LEARN: LearnShard = {
@@ -356,7 +446,7 @@ test("hints 1-5: unknown abbreviation, missing id, typo, question, a country wit
   assert.equal(h("custmer")[0].query, "customer");
   const qh = h("how do I post a sales invoice");
   assert.equal(qh[0].path, "topics/bc/sales");
-  assert.match(qh[0].text, /start with the hub: Sales\./);
+  assert.equal(qh[0].text, "For how-to, start with the hub: Sales.", "a how-to question (D95 phase D)");
   assert.match(h("table 18 BE")[0].text, /^BE has no table 18 of its own; the W1 table applies\.$/);
   assert.deepEqual(h("customer"), []);
 });
