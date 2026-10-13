@@ -520,7 +520,7 @@ test("identifier tags meet the identifier, its CamelCase words and the phrase; h
   assert.equal(q("allow debugging")[0], "L:dev-itpro/developer/devenv-security-settings-and-ip-protection");
   assert.equal(q("SetRange")[0], "L:dev-itpro/developer/methods-auto/record/record-setrange-method");
   const sec = i.records.find((r) => r.id.endsWith("devenv-security-settings-and-ip-protection"))!;
-  assert.equal(scoreRecord(i, sec, p("includeSourceInSymbolFile")).s, 13, "tags 2 + a page's 1 + the exact band 10 (the tag equals the query, D95); the summary does not name it here");
+  assert.equal(scoreRecord(i, sec, p("includeSourceInSymbolFile")).s, 3, "tags 2 + a page's 1; a code name tag is no exact band (D95 phase C review), the summary does not name it here");
   // a hub's tags are TOC titles: no CamelCase split there (D65 as it was)
   const hub = pageToRecord({ path: "topics/x", type: "topic", title: "Hub", summary: "", tier: "official", tags: ["AppSource"] });
   const j = prepare([hub]);
@@ -528,7 +528,7 @@ test("identifier tags meet the identifier, its CamelCase words and the phrase; h
   assert.equal(indexTokens("includeSourceInSymbolFile", true).join(" "), "includesourceinsymbolfile include source in symbol file");
 });
 
-test("a Learn article's identifier tags are one-word names: the whole query equal to a tag is the exact band, a prefix of one is no start (D95)", () => {
+test("a Learn article's coded-id tags are one-word names: the whole query equal to one is the exact band, a code name tag is not, a prefix of a tag is no start (D95)", () => {
   const shard: LearnShard = {
     schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/", hubs: [],
     rows: [
@@ -540,7 +540,9 @@ test("a Learn article's identifier tags are one-word names: the whole query equa
   const as20 = i.records[0], json = i.records[1];
   assert.ok(scoreRecord(i, as20, p("AS0020")).why.includes("name"), "a tag equal to the query");
   assert.ok(scoreRecord(i, as20, p("appsourcecop error as0020")).why.includes("name"), "the title equal to the query");
-  assert.ok(scoreRecord(i, json, p("includeSourceInSymbolFile")).why.includes("name"));
+  const camel = scoreRecord(i, json, p("includeSourceInSymbolFile")).why;
+  assert.ok(!camel.includes("name"), "a code name an article merely tags is not the article's name (SetRange must not outrank record-setrange-method)");
+  assert.ok(scoreRecord(i, json, p("includeSourceInSymbolFile")).s > 0, "but it still finds the article");
   assert.ok(!scoreRecord(i, json, p("AS0020")).why.some((w) => w === "name" || w === "starts"), "AS0020Extra is another word");
   assert.ok(!scoreRecord(i, json, p("includeSource")).why.includes("starts"), "a prefix of a tag is no start");
   assert.equal(search(i, p("AS0020"))[0].band, "exact");

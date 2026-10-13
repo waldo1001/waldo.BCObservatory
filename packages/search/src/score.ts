@@ -4,7 +4,7 @@
  * the form it matched) or one typo (0.5, words of five letters or more that match nothing else). Scoring touches the
  * posting candidates only, never every record.
  */
-import { editDistance, fold, indexTokens, seqTokens, stem, tokenize } from "./normalize.js";
+import { editDistance, fold, indexTokens, isCodedId, seqTokens, stem, tokenize } from "./normalize.js";
 import { anchorOf } from "./anchors.js";
 import type { Hit, Index, PageRecord, ParsedQuery, SearchRecord, SymbolKind, Term } from "./types.js";
 
@@ -104,8 +104,8 @@ function normOf(r: SearchRecord): Norm {
   // "include source in symbol file" finds includeSourceInSymbolFile; not deduplicated across tags, so a phrase holds
   const learn = r.type === "learn";
   const tags = (r.tags ?? []).flatMap((t) => indexTokens(t, learn)).filter((t) => !own?.has(t));
-  // a Learn article's identifier tags are one-word names too (D95): `AS0020` or `includeSourceInSymbolFile` equal to the whole query is the exact band
-  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title), ...(learn ? (r.tags ?? []).map((t) => tokenize(t)).filter((t) => t.length === 1) : [])];
+  // a Learn article's coded-id tags (`AS0020`, `RT0005`) are one-word names too (D95): equal to the whole query is the exact band. A code name such as `SetRange` stays a tag: an article that merely mentions it is no better than the page named after it
+  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title), ...(learn ? (r.tags ?? []).filter(isCodedId).map((t) => tokenize(t)).filter((t) => t.length === 1) : [])];
   const n: Norm = { main: [...main], tags: learn ? tags : [...new Set(tags)], text: symbol ? null : indexTokens(r.text ?? ""), eqs };
   NORM.set(r, n);
   return n;
