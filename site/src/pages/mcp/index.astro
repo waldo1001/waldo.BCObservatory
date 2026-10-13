@@ -7,7 +7,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
 import { REPO } from "../../lib/about";
-import { ASKS, ATLAS_URL, LEARN_URL, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
+import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_SERVERS, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
 const base = import.meta.env.BASE_URL;
 const root = resolve(process.cwd(), "..");
 const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"), "utf8")).version as string;
@@ -47,6 +47,14 @@ const steps = installSteps(REPO);
   <ul class="skills">
     {SKILLS.map((s) => <li><code>{s.name}</code><span>{s.what}</span></li>)}
   </ul>
+
+  <h2 id="installs">What the plugin installs</h2>
+  <p>Three MCP servers and four skills. Nothing needs an account or an API key.</p>
+  <div class="table-scroll"><table class="tools">
+    <thead><tr><th>Server</th><th>Run by</th><th>Connects to</th><th>For, and what leaves your machine</th></tr></thead>
+    <tbody>{PLUGIN_SERVERS.map((p) => <tr><th scope="row"><code>{p.name}</code></th><td>{p.by}</td><td><code>{p.command ?? p.url}</code></td><td>{p.for}</td></tr>)}</tbody>
+  </table></div>
+  <p>Routing: the observatory first; bc-code-atlas for procedure bodies and per-procedure edges; Microsoft Learn MCP to read a Learn page the observatory points to and for AL code samples. Switch one plugin server off with <code>/mcp</code> (Claude Code stops connecting to it, without removing the plugin); <code>claude mcp remove</code> acts on servers you added yourself, so to take only some servers install them by hand instead. A Learn MCP you already have at the same URL wins over the plugin's: keep one. Details in <a href={`${REPO}/blob/main/plugin/README.md`} rel="noopener">plugin/README.md</a>.</p>
 
   <h2 id="install">Install</h2>
   <ol class="steps">

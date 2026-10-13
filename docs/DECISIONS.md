@@ -1041,4 +1041,5 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   never from Learn text. The MCP server text (instructions and the Learn hit note) says the same (0.7.1; the plugin is
   0.3.0), so a client without the plugin still learns that the url can be read. Rejected: a `learn_fetch` passthrough in
   the observatory server (code and an outbound dependency that duplicate Microsoft's own server); storing Learn bodies
-  (D01).
+  (D01). `plugin/README.md` and the MCP page list what the plugin installs (the page from `PLUGIN_SERVERS` in `site/src/lib/mcp.ts`), both tested against the
+  plugin config; until then bc-code-atlas was named piecemeal.

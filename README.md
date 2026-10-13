@@ -19,6 +19,8 @@ claude mcp add bc-observatory -- npx -y bc-observatory@latest      # MCP server 
 claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bc-lookup, bc-whats-new, bc-localization, bc-grounding
 ```
 
+What the plugin installs (three MCP servers, four skills, what leaves your machine): [`plugin/README.md`](plugin/README.md).
+
 Source bodies and the call graph: [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (MIT),
 connected by the plugin. Learn pages and AL code samples: Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp), also connected by the plugin.
 

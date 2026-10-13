@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_CMD, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -37,6 +37,28 @@ test("D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bc-lookup
   assert.ok(read("plugin/skills/bc-grounding/SKILL.md").includes("microsoft-learn"));
   assert.ok(read("plugin/skills/bc-localization/SKILL.md").includes("microsoft_docs_fetch"));
   assert.ok(JSON.stringify(installSteps("https://github.com/o/r")).includes(LEARN_URL));
+});
+
+test("what the plugin installs: PLUGIN_SERVERS is plugin/.mcp.json, and plugin/README.md and the twin name every server and skill (D96)", () => {
+  const mcp = JSON.parse(read("plugin/.mcp.json")).mcpServers as Record<string, { command?: string; args?: string[]; url?: string }>;
+  assert.deepEqual(PLUGIN_SERVERS.map((p) => p.name).sort(), Object.keys(mcp).sort());
+  for (const p of PLUGIN_SERVERS) {
+    const c = mcp[p.name];
+    if (c.url) assert.equal(p.url, c.url, p.name);
+    else assert.equal(p.command, [c.command, ...(c.args ?? [])].join(" "), p.name);
+    assert.ok(p.by && p.for, `${p.name} says who runs it and what it is for`);
+  }
+  assert.equal(mcp["bc-observatory"].command, "npx");
+  const readme = read("plugin/README.md");
+  for (const p of PLUGIN_SERVERS) assert.ok(readme.includes(`\`${p.name}\``), `plugin/README.md names ${p.name}`);
+  for (const d of readdirSync(new URL("plugin/skills/", root))) assert.ok(readme.includes(`\`${d}\``), `plugin/README.md names the skill ${d}`);
+  for (const u of Object.values(mcp).map((c) => c.url).filter(Boolean)) assert.ok(readme.includes(u!), `plugin/README.md gives ${u}`);
+  const plugin = JSON.parse(read("plugin/.claude-plugin/plugin.json")).version, server = JSON.parse(read("packages/mcp/package.json")).version;
+  assert.ok(readme.includes(plugin) && readme.includes(server), `plugin/README.md says plugin ${plugin} and server ${server}`);
+  const md = mcpMarkdown({ server: "9.9.9", plugin: "8.8.8" }, "https://github.com/o/r", "https://example.test/x/");
+  assert.ok(md.includes("## What the plugin installs"));
+  for (const p of PLUGIN_SERVERS) assert.ok(md.includes(`\`${p.name}\``) && md.includes(p.command ?? p.url!), p.name);
+  assert.ok(read("README.md").includes("plugin/README.md") && read("AGENTS.md").includes("plugin/README.md"), "README.md and AGENTS.md point to it");
 });
 
 test("every ask names a tool or the atlas, and the README's commands match", () => {

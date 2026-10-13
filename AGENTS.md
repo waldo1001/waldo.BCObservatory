@@ -31,7 +31,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
    covers fields, events and procedures (`data/index/symbols-*.json`, D86) and ranks like the site's own search; a page over 30,000 characters
    comes back compact, and `section`, `offset` and `limit` read one section (D93). Procedure
    bodies are not here by policy; object pages list calls and callers per object (`data/code/graph/<major>/`, D67); the
-   plugin also connects bc-code-atlas (Stefan Maron) for bodies and per-procedure edges and Microsoft's Learn MCP for reading Learn pages (D96), and every object page says how
+   plugin also connects bc-code-atlas (Stefan Maron) for bodies and per-procedure edges and Microsoft's Learn MCP for reading Learn pages (D96; `plugin/README.md` says what it installs), and every object page says how
    to ask it (D75).
 
 ## If you are an agent (or human) changing this repository

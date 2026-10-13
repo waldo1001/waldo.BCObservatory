@@ -5,6 +5,8 @@
  */
 export interface Tool { name: string; title: string; what: string; example: string }
 export interface Skill { name: string; what: string }
+/** A server the plugin connects (plugin/.mcp.json): `command` for a local stdio server, `url` for a remote one. */
+export interface PluginServer { name: string; by: string; command?: string; url?: string; for: string }
 export interface Ask { ask: string; via: string }
 export interface InstallStep { client: string; how: string; code: string; lang: "bash" | "json" }
 
@@ -32,6 +34,13 @@ export const SKILLS: Skill[] = [
   { name: "bc-whats-new", what: "Recent videos, posts and roadmap features with status, and what changed in the code between versions. For 'what's new', 'what changed in BC30'." },
   { name: "bc-localization", what: "Which objects a country layer adds, which W1 objects it changes, added fields and events, and where Learn documents the local functionality." },
   { name: "bc-grounding", what: "The servers together: the observatory for ids, fields, events, versions, callers and evidence, bc-code-atlas for the procedure body and what one procedure calls, Microsoft Learn MCP for the Learn page and AL code samples." },
+];
+
+/** The servers the plugin registers, as plugin/.mcp.json names them (pinned to it by tests/unit/mcp.test.ts, as plugin/README.md is). */
+export const PLUGIN_SERVERS: PluginServer[] = [
+  { name: "bc-observatory", by: "this project (waldo), the npm package run locally", command: "npx -y bc-observatory@latest", for: "Business Central facts with evidence and a trust tier: objects, fields, events, versions, localizations, what changed, roadmap, videos, posts. Not procedure bodies or Learn text. Your queries stay on your machine; it downloads the site's search index and the pages you read." },
+  { name: "bc-code-atlas", by: "Stefan Maron, a free hobby server (be a polite client)", url: ATLAS_URL, for: "AL source: a procedure body, what one procedure calls, semantic code search of one W1 version. The names and search text of your calls go to his server." },
+  { name: "microsoft-learn", by: "Microsoft, public endpoint, no authentication", url: LEARN_URL, for: "Reading a Learn page the observatory points to and AL code samples. The URLs and search text of your calls go to Microsoft." },
 ];
 
 /** What to type once it is installed, and what the agent reaches for. */
@@ -68,6 +77,10 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
     "## The tools", "", ...TOOLS.map((t) => `- **${t.name}**: ${t.what} Example: \`${t.example}\`.`), "",
     "## The plugin (Claude Code)", "", ...SKILLS.map((s) => `- **${s.name}**: ${s.what}`), "",
     `The plugin also connects [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (${ATLAS_URL}) for procedure bodies and the per-procedure call graph; the observatory keeps the object-level facts. It connects Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp) (${LEARN_URL}) too: the observatory finds the Learn page and stores no Learn text, the Learn MCP reads it (\`microsoft_docs_fetch\`) and finds AL code samples (\`microsoft_code_sample_search\`).`, "",
+    "## What the plugin installs", "",
+    "Three MCP servers and four skills. Nothing needs an account or an API key.", "",
+    ...PLUGIN_SERVERS.map((p) => `- \`${p.name}\` (${p.by}; ${p.command ? `\`${p.command}\`` : p.url}): ${p.for}`), "",
+    `Routing: the observatory first; bc-code-atlas for procedure bodies and per-procedure edges; Microsoft Learn MCP to read a Learn page the observatory points to and for AL code samples. Switch one plugin server off with /mcp (Claude Code stops connecting to it without removing the plugin); \`claude mcp remove\` acts on servers you added yourself, so to take only some servers install them by hand instead. A Learn MCP you already have at the same URL wins over the plugin's: keep one. Details: [plugin/README.md](${repo}/blob/main/plugin/README.md).`, "",
     "## Install", "", ...installSteps(repo).flatMap((s) => [`### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
     "### Without any install", "",
     `[llms.txt](${site}llms.txt) lists every section; every page has a markdown twin at its URL plus \`.md\`; GitMCP and DeepWiki (badges in the [README](${repo})) read the repository directly.`, "",
