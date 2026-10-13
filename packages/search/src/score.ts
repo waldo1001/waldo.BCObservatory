@@ -97,6 +97,9 @@ const NORM = new WeakMap<SearchRecord, Norm>();
 
 const push = <K, V>(m: Map<K, V[]>, k: K, v: V) => { const l = m.get(k); if (l) l.push(v); else m.set(k, [v]); };
 
+/** A Learn page carrying more coded ids than this lists them rather than documents one: measured on the 81 pages with any, 1-13 are the telemetry articles and 17-40 the analyzer and diagnostics overviews (D95). */
+export const INDEX_PAGE_IDS = 16;
+
 function normOf(r: SearchRecord): Norm {
   const cached = NORM.get(r);
   if (cached) return cached;
@@ -108,8 +111,11 @@ function normOf(r: SearchRecord): Norm {
   // "include source in symbol file" finds includeSourceInSymbolFile; not deduplicated across tags, so a phrase holds
   const learn = r.type === "learn";
   const tags = (r.tags ?? []).flatMap((t) => indexTokens(t, learn)).filter((t) => !own?.has(t));
-  // a Learn article's coded-id tags (`AS0020`, `RT0005`) are one-word names too (D95): equal to the whole query is the exact band. A code name such as `SetRange` stays a tag: an article that merely mentions it is no better than the page named after it
-  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title), ...(learn ? (r.tags ?? []).filter(isCodedId).map((t) => tokenize(t)).filter((t) => t.length === 1) : [])];
+  // a Learn article's coded ids (`AS0020`, `RT0005`) are one-word names too (D95): equal to the whole query is the exact band. A code name such as `SetRange` stays a tag: an article that merely mentions it is no better than the page named after it
+  // The id in the article's own title is always a name ("AppSourceCop Error AS0020"). An id among the tags is one only on a page that carries few: a page listing dozens (an analyzer overview, the diagnostics index) is the index of those ids, not the page for one of them, and must not outrank the article titled with it
+  const coded = learn ? [...new Set((r.tags ?? []).filter(isCodedId))] : [];
+  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])]
+    : [tokenize(r.title), ...(learn ? [...(r.title.match(/\b[A-Z]{2,3}\d{4}\b/g) ?? []).filter(isCodedId), ...(coded.length <= INDEX_PAGE_IDS ? coded : [])].map((t) => tokenize(t)).filter((t) => t.length === 1) : [])];
   const n: Norm = { main: [...main], tags: learn ? tags : [...new Set(tags)], text: symbol ? null : indexTokens(r.text ?? ""), eqs };
   NORM.set(r, n);
   return n;

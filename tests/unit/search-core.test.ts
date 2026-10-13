@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  ABBR, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
+  ABBR, INDEX_PAGE_IDS, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
   stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type LearnShard, type PageRecord,
 } from "@bc-observatory/search";
 
@@ -566,6 +566,38 @@ test("a Learn article's coded-id tags are one-word names: the whole query equal 
   assert.ok(!scoreRecord(i, json, p("includeSource")).why.includes("starts"), "a prefix of a tag is no start");
   assert.equal(search(i, p("AS0020"))[0].band, "exact");
   assert.equal(search(i, p("AS0020"))[0].r.id, as20.id);
+});
+
+test("a coded id lands on the article named by it, not on the index page that lists it (D95)", () => {
+  const ids = Array.from({ length: 20 }, (_, k) => `AS${String(k + 1).padStart(4, "0")}`);
+  const shard: LearnShard = {
+    schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/", hubs: [],
+    rows: [
+      // the overview lists every id in a table: after the backfill its tags carry all of them, and it is the newer page
+      ["dev-itpro/developer/analyzers/appsourcecop", "AppSourceCop analyzer", "The rules of the analyzer.", "2026-09-01", -1, null, ids],
+      ["dev-itpro/developer/analyzers/appsourcecop-as0020", "AppSourceCop Error AS0020", "Breaking change.", "2024-01-03", -1, null, []],
+      // a telemetry article documents a handful of ids and is the only page for them: its tags still count as the name
+      ["administration/telemetry-trace", "Analyzing trace telemetry", "Events.", "2025-01-01", -1, null, ["RT0005", "RT0006", "RT0007"]],
+    ],
+  };
+  const i = prepare(learnRecords(shard).map(pageToRecord));
+  const [overview, article, telemetry] = i.records;
+  assert.equal(INDEX_PAGE_IDS, 16);
+  const o = scoreRecord(i, overview, p("AS0020")), a = scoreRecord(i, article, p("AS0020"));
+  assert.ok(!o.why.includes("name"), "20 coded ids in the tags: an index of them, not the page for one");
+  assert.ok(o.s > 0, "but the overview still finds it");
+  assert.ok(a.why.includes("name"), "the id in the title is the name");
+  assert.ok(a.s > o.s);
+  assert.equal(search(i, p("AS0020"))[0].r.id, article.id);
+  assert.equal(search(i, p("AS0020"))[0].band, "exact");
+  assert.ok(scoreRecord(i, telemetry, p("RT0006")).why.includes("name"), "3 coded ids: the telemetry page is the page for each");
+  assert.equal(search(i, p("RT0006"))[0].r.id, telemetry.id);
+  // the limit is the count, not the page: 16 tags still count, 17 do not
+  const sixteen = pageToRecord({ path: "learn/x", type: "learn", title: "Sixteen", summary: "", tier: "official", tags: ids.slice(0, 16) } as any);
+  const seventeen = pageToRecord({ path: "learn/y", type: "learn", title: "Seventeen", summary: "", tier: "official", tags: ids.slice(0, 17) } as any);
+  const k = prepare([sixteen, seventeen]);
+  assert.ok(scoreRecord(k, sixteen, p("AS0001")).why.includes("name"));
+  assert.ok(!scoreRecord(k, seventeen, p("AS0001")).why.includes("name"));
 });
 
 // ---------------------------------------------------------------------------------------------- hints
