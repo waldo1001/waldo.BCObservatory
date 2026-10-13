@@ -21,6 +21,11 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-13, live after the derive the merge starts and its Pages build:**
+- **Learn reader in the plugin, D96** (no spec, M34). The plugin connects Microsoft's Learn MCP
+  (`microsoft-learn`, `https://learn.microsoft.com/api/mcp`) so an agent drills down from an observatory Learn hit to the
+  page with `microsoft_docs_fetch(url)` and to AL samples with `microsoft_code_sample_search`; the skills (`bc-lookup`,
+  `bc-grounding`, `bc-localization`) and the MCP server text (0.7.1) say when. Users get it when they update the plugin
+  to 0.3.0. The server itself still never fetches Learn (D01).
 - **MCP answer quality, D95** (`docs/specs/mcp-answer-quality.md`, M33). From the 2026-10-13 side-by-side test against
   the Microsoft Learn MCP. Same-named fields, events and procedures rank by their owner's layer and importance when the
   query asks for symbols (`field: VAT Bus. Posting Group`: Table 36 rank 12 to 4); a search with no keyword hit says

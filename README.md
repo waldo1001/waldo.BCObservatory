@@ -20,7 +20,7 @@ claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Co
 ```
 
 Source bodies and the call graph: [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (MIT),
-connected by the plugin.
+connected by the plugin. Learn pages and AL code samples: Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp), also connected by the plugin.
 
 To run the server from a checkout instead:
 `claude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`.

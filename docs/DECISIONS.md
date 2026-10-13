@@ -1028,3 +1028,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   meaning list (D94); Learn body text (D01); an LLM query rewrite; new `counts` keys (25,646 pages rewritten for a
   definition); every identifier tag as a name (`SetRange` and `AppSourceCop` then ranked a page that only mentions
   them first). Spec: `docs/specs/mcp-answer-quality.md` (section 13: built, deviations).
+- **D96 The plugin reads Learn pages through Microsoft's Learn MCP.** The observatory points to Learn articles by url and
+  stores no Learn text (D01), and its server never fetches Learn, so the drill-down from a hit to the page depended on
+  whatever else the session had connected. The 2026-10-13 side-by-side comparison: the Learn MCP wins on reading
+  procedures and concepts and on AL code samples, loses on object facts, versions, localizations, roadmap and releases,
+  and its search alone returns NAV, GP or Dynamics 365 Finance pages for a Business Central question instead of "not
+  found". So the plugin connects `microsoft-learn` (`https://learn.microsoft.com/api/mcp`, streamable HTTP, no auth)
+  next to `bc-observatory` and `bc-code-atlas`, and the skills route: observatory first; `microsoft_docs_fetch(url)`
+  for a Learn hit or a hub's `links.learn` when the question is a how-to, setup or concept; `microsoft_code_sample_search`
+  with `language: "al"` for AL samples; `microsoft_docs_search` only when the observatory finds nothing or the topic is
+  not Business Central, checking the url sits under `/dynamics365/business-central/`; object ids, fields and versions
+  never from Learn text. The MCP server text (instructions and the Learn hit note) says the same (0.7.1; the plugin is
+  0.3.0), so a client without the plugin still learns that the url can be read. Rejected: a `learn_fetch` passthrough in
+  the observatory server (code and an outbound dependency that duplicate Microsoft's own server); storing Learn bodies
+  (D01).

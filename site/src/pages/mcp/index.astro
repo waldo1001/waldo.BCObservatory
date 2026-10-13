@@ -7,7 +7,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
 import { REPO } from "../../lib/about";
-import { ASKS, ATLAS_URL, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
+import { ASKS, ATLAS_URL, LEARN_URL, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
 const base = import.meta.env.BASE_URL;
 const root = resolve(process.cwd(), "..");
 const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"), "utf8")).version as string;
@@ -43,7 +43,7 @@ const steps = installSteps(REPO);
   </table></div>
 
   <h2 id="plugin">The plugin (Claude Code)</h2>
-  <p>The plugin registers the server, ships four skills that tell the agent when to use it, and connects <a href="https://github.com/StefanMaron/bc-code-atlas" rel="noopener">bc-code-atlas</a> by Stefan Maron for procedure bodies and the per-procedure call graph. The observatory keeps the object-level facts; the atlas has the source.</p>
+  <p>The plugin registers the server, ships four skills that tell the agent when to use it, and connects <a href="https://github.com/StefanMaron/bc-code-atlas" rel="noopener">bc-code-atlas</a> by Stefan Maron for procedure bodies and the per-procedure call graph. The observatory keeps the object-level facts; the atlas has the source. It also connects Microsoft's <a href="https://learn.microsoft.com/training/support/mcp" rel="noopener">Learn MCP</a>: the observatory finds the Learn page, the Learn MCP reads it and finds AL code samples.</p>
   <ul class="skills">
     {SKILLS.map((s) => <li><code>{s.name}</code><span>{s.what}</span></li>)}
   </ul>
@@ -56,7 +56,7 @@ const steps = installSteps(REPO);
 
   <h2 id="how">How it answers</h2>
   <p>The server fetches the search index from this site over HTTPS and caches it by hash in <code>~/.cache/bc-observatory/</code>, refreshed daily, and reads a page's markdown twin when you ask for it; a page over 30,000 characters comes back as a compact view with its section keys. Search is hybrid: keywords plus a small static embedding model (model2vec potion-base-8M, 30 MB, downloaded once and checked by SHA-256) computed locally; <code>BC_OBSERVATORY_EMBEDDINGS=0</code> turns the model off. <code>BC_OBSERVATORY_LOCAL</code> reads a checkout instead, <code>BC_OBSERVATORY_SITE</code> points at another deployment. Nothing is sent anywhere: <code>feedback</code> only returns a link you open yourself.</p>
-  <p class="meta">Needs Node 20 or newer. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The atlas endpoint the plugin uses: <code>{ATLAS_URL}</code>.</p>
+  <p class="meta">Needs Node 20 or newer. Source: <a href={`${REPO}/tree/main/packages/mcp`}>packages/mcp</a> and <a href={`${REPO}/tree/main/plugin`}>plugin</a>, MIT. The endpoints the plugin connects: <code>{ATLAS_URL}</code> (atlas), <code>{LEARN_URL}</code> (Microsoft Learn).</p>
 </List>
 <style>
   .asks { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-width: 760px; }

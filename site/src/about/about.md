@@ -31,7 +31,7 @@ Three rules I don't bend. **Agents first.** Every page has a markdown twin, ever
 - Nightly on a Mac Mini in my house, as a self-hosted GitHub runner, on a Claude subscription. No API keys, anywhere.
 - Deterministic first: the code is parsed, never summarised. Models only on what changed: Haiku for facts, Sonnet for prose, Opus to review. A page a model wrote says `unreviewed` until Opus has checked it.
 - Community text stays yours: a summary in our words, at most three quotes under 25 words, and a link back. A leak scanner fails the build if more than that ever reaches the repository. See the [content notice](https://github.com/waldo1001/waldo.BCObservatory/blob/main/CONTENT-NOTICE.md).
-- Procedure bodies and the call graph come from [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron, which the plugin connects next to this server.
+- Procedure bodies and the call graph come from [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron, which the plugin connects next to this server, as it does Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp) to read the Learn pages the knowledge base points to.
 
 The galaxy on the home page is the data model drawn. Systems are domains. Stars are hubs: Learn topics, roadmap features, countries, sources and the most connected AL objects. Videos and posts orbit the hubs they link to. A country draws a constellation over the W1 sky. This week's additions light up.
 

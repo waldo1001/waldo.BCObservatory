@@ -1,16 +1,17 @@
 ---
 name: bc-grounding
-description: Ground Microsoft Dynamics 365 Business Central answers in both connected servers - bc-observatory for facts (ids, fields, events, versions, obsolete state, localizations, Learn pages, changes, calls and callers per object, evidence) and bc-code-atlas for the real AL source code (procedure body, what one procedure calls, semantic code search). Use when a question needs to verify in the code what an object or procedure actually does, who calls it, or to show a procedure body.
+description: Ground Microsoft Dynamics 365 Business Central answers in the three connected servers - bc-observatory for facts (ids, fields, events, versions, obsolete state, localizations, Learn pages, changes, calls and callers per object, evidence), bc-code-atlas for the real AL source code (procedure body, what one procedure calls, semantic code search) and Microsoft Learn MCP for reading Learn pages and AL code samples. Use when a question needs to verify in the code what an object or procedure actually does, who calls it, or to show a procedure body.
 ---
 
-# Grounding Business Central answers: observatory and atlas
+# Grounding Business Central answers: observatory, atlas and Learn
 
-Two servers are connected. They answer different questions; use the right one first.
+Three servers are connected. They answer different questions; use the right one first.
 
 | Question | Server |
 |---|---|
 | What is it, which id, which fields, events, public procedures; is it obsolete; which versions (BC28-30) and countries have it; where is it documented; what changed between versions; who calls it and what it calls, per object (BC28 and BC29 graphs); videos, posts, roadmap | `bc-observatory` (curated pages with tiers and evidence) |
 | Show me the procedure body, what does this one procedure call, find code by meaning | `bc-code-atlas` (external, by Stefan Maron, MIT; AL source, call graph, semantic code search; default corpus `w1-28`) |
+| Procedure, concept or setup text; code samples | `microsoft-learn` (Microsoft Learn MCP, official: `microsoft_docs_fetch(url)` on a Learn hit's url, `microsoft_code_sample_search(query, language: "al")`; see `bc-lookup`) |
 
 1. Observatory first for identity and context: `get_object(type, idOrName)` gives id, fields, events, public procedures, obsolete state, versions, countries and Learn pages; for a large object it is a compact view, and `section: "calls"` or `section: "called_by"` reads the object's calls and callers. For a body or one procedure's edges, the page names the atlas call (`section: "ask"`).
 2. Atlas for behaviour: `bcatlas_resolve_node(object_type, object_name[, member])`, never `bcatlas_get_node` with a free label; then `bcatlas_get_neighbors` for the exact edges, `bcatlas_get_signature` to confirm, `bcatlas_get_procedure_body` to read. Say "w1-28" (or the resolved version) with every atlas fact; the observatory page says which versions the object exists in.

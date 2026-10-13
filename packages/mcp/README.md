@@ -8,7 +8,7 @@ Microsoft 365 roadmap features, videos and community posts), every claim with a 
 claude mcp add bc-observatory -- npx -y bc-observatory@latest
 ```
 
-Or the Claude Code plugin (MCP server plus skills): `claude plugin marketplace add waldo1001/waldo.BCObservatory`.
+Or the Claude Code plugin (MCP server plus skills): `claude plugin marketplace add waldo1001/waldo.BCObservatory`. The server never fetches Learn pages (D01); the plugin also connects Microsoft's Learn MCP (`https://learn.microsoft.com/api/mcp`), and a Learn hit's url is read there with `microsoft_docs_fetch`.
 
 Tools: `search`, `ls`, `cat`, `get_object`, `diff_object`, `localization`, `whats_new`, `blog_footprint`, `feedback`.
 

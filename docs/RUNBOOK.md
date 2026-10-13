@@ -128,6 +128,10 @@ and the first Tab stop. Pass another build's `site/dist` as its argument for a b
   `.vscode/mcp.json` with `{"servers": {"bc-code-atlas": {"type": "http", "url": "https://bc-code-atlas.stefanmaron.dev/mcp"}}}`.
 - Etiquette (D67 decision 1): it is one person's server. Resolve, don't search; one or two calls per question; never
   `bcatlas_request_version` unasked. Nothing scheduled (nightly, selfcheck, workflows) ever calls it.
+- Microsoft Learn MCP (D96): the plugin connects it as `microsoft-learn`. Without the plugin:
+  `claude mcp add --transport http microsoft-learn https://learn.microsoft.com/api/mcp` (user scope); remove it with
+  `claude mcp remove microsoft-learn`. No auth. The observatory server never calls it; skills route a Learn hit's url
+  to `microsoft_docs_fetch`.
 
 ## Pages (D76)
 

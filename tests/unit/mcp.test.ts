@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, PLUGIN_CMD, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_CMD, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -28,9 +28,20 @@ test("the skill list is the plugin's skills folder, and the atlas URL is the plu
   assert.deepEqual(mcp.mcpServers["bc-observatory"].args, ["-y", "bc-observatory@latest"]);
 });
 
+test("D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bc-lookup routes a Learn hit to microsoft_docs_fetch", () => {
+  const mcp = JSON.parse(read("plugin/.mcp.json"));
+  assert.equal(mcp.mcpServers["microsoft-learn"].url, LEARN_URL);
+  assert.equal(mcp.mcpServers["microsoft-learn"].type, "http");
+  const lookup = read("plugin/skills/bc-lookup/SKILL.md");
+  for (const n of ["microsoft_docs_fetch", "microsoft_code_sample_search", "microsoft_docs_search"]) assert.ok(lookup.includes(n), n);
+  assert.ok(read("plugin/skills/bc-grounding/SKILL.md").includes("microsoft-learn"));
+  assert.ok(read("plugin/skills/bc-localization/SKILL.md").includes("microsoft_docs_fetch"));
+  assert.ok(JSON.stringify(installSteps("https://github.com/o/r")).includes(LEARN_URL));
+});
+
 test("every ask names a tool or the atlas, and the README's commands match", () => {
   const names = new Set(TOOLS.map((t) => t.name));
-  for (const a of ASKS) for (const v of a.via.split(",")) { const w = v.trim().split(" ")[0]; assert.ok(names.has(w) || w === "bc-code-atlas", a.via); }
+  for (const a of ASKS) for (const v of a.via.split(",")) { const w = v.trim().split(" ")[0]; assert.ok(names.has(w) || w === "bc-code-atlas" || w === "bc-observatory", a.via); }
   const readme = read("README.md");
   assert.ok(readme.includes(SERVER_CMD) && readme.includes(PLUGIN_CMD));
 });
@@ -352,7 +363,7 @@ test("D94: search finds Learn articles by an identifier they document, with thei
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root });
   try {
     const hit = await call("search", { query: "includeSourceInSymbolFile" });
-    assert.match(hit, /^1 results, keyword \(read one with cat\(path\); a Learn article's url opens on learn\.microsoft\.com, cat\(hub\) reads its hub\):\n/);
+    assert.match(hit, /^1 results, keyword \(read one with cat\(path\); a Learn article's url reads with the Learn MCP's microsoft_docs_fetch \(the plugin connects it\), else open it on learn\.microsoft\.com; cat\(hub\) reads its hub\):\n/);
     assert.match(hit, new RegExp(`^- Resource exposure policy setting \\[learn, official, 2026-10-05\\] url=${base}${sec} \\[keyword\\]\\n  in: Development › Configure the development environment \\(hub: topics/dev-itpro/configure\\)\\n  Control access to your extension's source\\.$`, "m"));
     assert.match(await call("search", { query: "include source in symbol file" }), /url=https:\/\/learn\.microsoft\.com\/.*devenv-security-settings-and-ip-protection/, "its CamelCase words");
     assert.match(await call("search", { query: "configure", type: "learn" }), /^No pages match/, "type learn: Learn articles only");

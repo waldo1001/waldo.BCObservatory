@@ -11,6 +11,7 @@ export interface InstallStep { client: string; how: string; code: string; lang: 
 export const SERVER_CMD = "claude mcp add bc-observatory -- npx -y bc-observatory@latest";
 export const PLUGIN_CMD = "claude plugin marketplace add waldo1001/waldo.BCObservatory";
 export const ATLAS_URL = "https://bc-code-atlas.stefanmaron.dev/mcp";
+export const LEARN_URL = "https://learn.microsoft.com/api/mcp";
 
 /** The nine tools, in the server's order (packages/mcp/src/server.ts registerTool), each with the ask it answers. */
 export const TOOLS: Tool[] = [
@@ -30,7 +31,7 @@ export const SKILLS: Skill[] = [
   { name: "bc-lookup", what: "Business Central facts with evidence: AL objects, Learn documentation, roadmap features, videos and posts. For 'what is table 18', 'where is this documented'." },
   { name: "bc-whats-new", what: "Recent videos, posts and roadmap features with status, and what changed in the code between versions. For 'what's new', 'what changed in BC30'." },
   { name: "bc-localization", what: "Which objects a country layer adds, which W1 objects it changes, added fields and events, and where Learn documents the local functionality." },
-  { name: "bc-grounding", what: "Both servers together: the observatory for ids, fields, events, versions, callers and evidence, bc-code-atlas for the procedure body and what one procedure calls." },
+  { name: "bc-grounding", what: "The servers together: the observatory for ids, fields, events, versions, callers and evidence, bc-code-atlas for the procedure body and what one procedure calls, Microsoft Learn MCP for the Learn page and AL code samples." },
 ];
 
 /** What to type once it is installed, and what the agent reaches for. */
@@ -42,14 +43,15 @@ export const ASKS: Ask[] = [
   { ask: "Where is posting preview documented, and who blogged about it?", via: "search, cat" },
   { ask: "What does kauffmann-nl write about?", via: "blog_footprint" },
   { ask: "Show me the body of Sales-Post.PostInvoice and what it calls.", via: "bc-code-atlas via the plugin" },
+  { ask: "Walk me through setting up intercompany partners.", via: "bc-observatory finds the page and Microsoft Learn MCP reads it" },
 ];
 
 export function installSteps(repo: string): InstallStep[] {
   return [
-    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas)", how: "One command. The plugin registers the MCP server and the bc-code-atlas server and ships the four skills.", code: PLUGIN_CMD, lang: "bash" },
+    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "One command. The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: PLUGIN_CMD, lang: "bash" },
     { client: "Claude Code: the server only", how: "No skills, no atlas: just the nine tools.", code: SERVER_CMD, lang: "bash" },
     { client: "Claude Desktop, Cursor, Windsurf and other MCP clients", how: "Add the server to the client's MCP configuration (claude_desktop_config.json, .cursor/mcp.json, ...).", code: JSON.stringify({ mcpServers: { "bc-observatory": { command: "npx", args: ["-y", "bc-observatory@latest"] } } }, null, 2), lang: "json" },
-    { client: "VS Code (GitHub Copilot)", how: "In .vscode/mcp.json of the workspace, or the user profile's mcp.json.", code: JSON.stringify({ servers: { "bc-observatory": { type: "stdio", command: "npx", args: ["-y", "bc-observatory@latest"] }, "bc-code-atlas": { type: "http", url: ATLAS_URL } } }, null, 2), lang: "json" },
+    { client: "VS Code (GitHub Copilot)", how: "In .vscode/mcp.json of the workspace, or the user profile's mcp.json.", code: JSON.stringify({ servers: { "bc-observatory": { type: "stdio", command: "npx", args: ["-y", "bc-observatory@latest"] }, "bc-code-atlas": { type: "http", url: ATLAS_URL }, "microsoft-learn": { type: "http", url: LEARN_URL } } }, null, 2), lang: "json" },
     { client: "From a checkout of the repository", how: "Reads every page from disk instead of the site; for working on the knowledge base itself.", code: `git clone ${repo}.git && cd waldo.BCObservatory && npm ci\nclaude mcp add bc-observatory -- env BC_OBSERVATORY_LOCAL=$PWD node --import tsx packages/mcp/src/server.ts`, lang: "bash" },
   ];
 }
@@ -65,7 +67,7 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
     "## What to ask", "", ...ASKS.map((a) => `- "${a.ask}" (${a.via})`), "",
     "## The tools", "", ...TOOLS.map((t) => `- **${t.name}**: ${t.what} Example: \`${t.example}\`.`), "",
     "## The plugin (Claude Code)", "", ...SKILLS.map((s) => `- **${s.name}**: ${s.what}`), "",
-    `The plugin also connects [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (${ATLAS_URL}) for procedure bodies and the per-procedure call graph; the observatory keeps the object-level facts.`, "",
+    `The plugin also connects [bc-code-atlas](https://github.com/StefanMaron/bc-code-atlas) by Stefan Maron (${ATLAS_URL}) for procedure bodies and the per-procedure call graph; the observatory keeps the object-level facts. It connects Microsoft's [Learn MCP](https://learn.microsoft.com/training/support/mcp) (${LEARN_URL}) too: the observatory finds the Learn page and stores no Learn text, the Learn MCP reads it (\`microsoft_docs_fetch\`) and finds AL code samples (\`microsoft_code_sample_search\`).`, "",
     "## Install", "", ...installSteps(repo).flatMap((s) => [`### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
     "### Without any install", "",
     `[llms.txt](${site}llms.txt) lists every section; every page has a markdown twin at its URL plus \`.md\`; GitMCP and DeepWiki (badges in the [README](${repo})) read the repository directly.`, "",
