@@ -493,3 +493,61 @@ by the pipeline after the merges: `data/index/symbols-*.json`, `symbols-manifest
   local, events, subscribers); the summary's 'public procedures' excludes locals and events."
 - `plugin/skills/bc-localization/SKILL.md` step 2: the sentence of section 2.3.
 - `AGENTS.md`: no change (the MCP tool list is unchanged).
+
+## 13. Built, deviations (2026-10-13)
+
+Built 2026-10-13 on `build/mcp-answer-quality` from `d9da834993`, by Sonnet coding agents per phase with an Opus review of
+the two scorer phases (A and D) and a fix commit for each review: `43c2f1417b` (A), `87155ed0d6` (D), `15751c578c` (A
+review), `714b043d4b` (D review), `2052a38f8e` (C), `9deaec2bbc` (C: only coded-id tags are a name), `f1f88acf1d` (B).
+Typecheck and the full suite green at the end: 606 tests, 605 pass, 1 skipped (the RT0005 golden row, pending until
+the rule-2 backfill has run on the Mini); 45 golden rows hold in both runners (31 before); `validate:content` OK; the
+MCP bundle builds. Not run here: `check:leak` (a Mini step), `scripts/site-size.ts` on a full build.
+
+**Measured on the committed data (160,111 records, keyword mode).**
+
+| Query | Before | After |
+|---|---|---|
+| `field: VAT Bus. Posting Group` (object_type table) | Table 36 field 116 at rank 12, Shpfy Shop first | rank 4: Tables 15, 18, 23, 36, 38, 39, 37, 81 (base tables by importance) |
+| `posting`, `purchase`, `journal`, `customer`, `Posting Date` | | identical to before (guarded by golden `no_symbol_in_top` rows) |
+| `event: OnBeforeValidateWidgetCode` (also as `kind: "event"`) | 3 meaning-only pages under "keyword (exact band: 0)" | `No event named "OnBeforeValidateWidgetCode".` |
+| `difference between IntegrationEvent and BusinessEvent` (and `what is the ...`, `... vs ...`) | 0 hits | Event types in top 3, hint `For a concept, start with the hub: Events.` |
+| `RT0005`, `LC0234` | 1 post with hints "r 0005", "t 0005" / 0 hits | no false hint; after the rule-2 backfill (4,364 local blobs): the telemetry article first, exact band |
+| `get_object("table","18","BE")` | "(BE has no table of its own here ...)" | `BE replaces Table 18 "Customer" (BC29): +3 fields, +1 event, +1 procedure; 6 keys changed.` and the members |
+| `search("Domiciliation No.")` | 0 symbol hits | field 2000020 of Table 18 "Customer", BE layer, first |
+
+Symbol shards with country rows (7,945 rows): fields +5,811 (+357 KB raw, +71 KB gzip), events +581 (+50 / +6 KB),
+procs +1,421 (+86 / +13 KB), values +132 (+5 / +1 KB): about +499 KB raw, +92 KB gzip on the Pages tar, no page touched.
+Coded ids on the 4,364 local Learn blobs: 72 pages, 280 distinct ids (LC 152, RT 55, AS 25, AVS 20, AL 6; some noise
+such as `FY2024`, `NAV2017`). Search latency on the golden set: median 0.7 ms, max 25 ms. Installed MCP 0.5.0 reads the
+new shards without error (a country row shows as a W1 member without its label).
+
+**Deviations.**
+
+- **A.** Symbols get their owner's layer, the type prior and no text points on an exact name only when the query asks
+  for symbols (a `kind:` prefix or parameter, a type word, a digit, a member word, an event-shaped word). Applied to
+  every query, as first built, it put enum values named "Posting" or "Purchase" above Learn articles on the site and
+  in the MCP (Opus review). The VAT golden row expects rank 4, not 3: three base tables are more important than
+  Table 36. Rule 6 decides "no such symbol" on the unfiltered search: when only the filters emptied the list it says
+  `No field named "..." matches the filters (object_type=codeunit); without them: n hits.`; no nearest list under 4
+  letters. `(exact band: n)` is printed only with `keyword + meaning`. The `search` description was trimmed to stay in
+  the D93 budget.
+- **D.** `seq` is built per scored record and only for a field holding every phrase word (an eager `Norm.seq` cost
+  +168 MB). Question openers are narrower than section 4.2: `is/are/can/could/should/do/does` open a question only
+  before a pronoun (or an article in a query of 5+ words or ending in `?`), capital `IS` never, `compare` only as
+  `compare X and|with|to|vs Y`, `vs` only between two content words and never in `VS Code` or `vs.`; `use/used/using`
+  drop only after `to, I, we, you, it, can, should, between, and, or`. The first build turned "Is Enabled", "Compare
+  List" and "VS Code" into questions (84 names ranked their own record lower; 2 now, both still in their top four).
+  The concept and how-to hint takes the hub of a Learn hit in the first 10 and is left out when none qualifies.
+  A quoted phrase now requires adjacency (`"layer public"` 10 → 0 hits).
+- **C.** Only coded-id tags join a Learn record's names (all identifier tags first, which let `SetRange` and
+  `AppSourceCop` rank a page that merely mentions them above the page about them). `AS0020` and `AL0281` stay plain
+  matches: their pages write the id only in the H1. A type abbreviation keeps its reference (`cu0080` is Codeunit 80).
+- **B.** Values have country rows too (132; the diffs carry `values[]`). Local procedures count in the block's first
+  line, as in `summarize`; keys are matched by name, so renumbered keys count as changed (6 for Table 18 BE). Symbol
+  hits are keyed by id and country, because CA, MX and US add the same field ids. The site publishes the diffs
+  (`site/src/pages/code/diffs/country/[file].ts`), so remote mode reads them; it was checked by reading the code, not
+  by a live fetch. On the site a country member opens the W1 page at the top (no anchor there).
+
+**When readers see it.** The merge touches `pipeline/render/**`, so the push starts a derive that rewrites the symbol
+shards (country rows). The first full nightly after it runs the rule-2 backfill and the derive after that writes the
+coded ids into the Learn shard; then flip the RT0005 golden row. Publish `bc-observatory` 0.7.0 after the merge.
