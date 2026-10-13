@@ -10,6 +10,20 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
+- **MCP answer quality** (`docs/specs/mcp-answer-quality.md`, D95, M33). Status: proposed 2026-10-13, nothing
+  implemented. From the 2026-10-13 side-by-side test against the Microsoft Learn MCP: every object fact was right, six
+  answers went wrong in search and navigation. Four phases that ship alone, none rewrites a page under `content/`:
+  (A) same-named symbols rank by their owner's layer and importance and an exact name takes no tooltip points; an empty
+  keyword list is named in the header, a `kind:` query never pads with meaning hits, hint rule 6 names the nearest
+  symbols; (D) question-shaped queries drop their question words, phrases meet an ordered token stream (today
+  `indexTokens` deduplicates, so no phrase meets a summary), the concept hint names the best Learn hit's hub; (C) coded
+  Learn ids (`RT0005`, `AS0020`) from code spans, bold spans and table cells, backfilled with a rule number; (B) the
+  members a country layer adds to a replaced W1 object become symbol rows with a trailing country column (7,885 rows,
+  about 0.5 MB raw for major 29), `get_object(type, id, "BE")` prints the layer's additions from the diff instead of
+  "has no table of its own". Start with phase A: `packages/search/src/score.ts` `lift` (symbols take `LAYER` and
+  `TYPE_PRIOR`), the text points on `eq`, then `packages/mcp/src/server.ts` `toolSearch` headers and `hints.ts` rule 6,
+  with the golden rows of spec section 5. Until it lands, readers and agents see today's behaviour (spec section 1).
+
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
