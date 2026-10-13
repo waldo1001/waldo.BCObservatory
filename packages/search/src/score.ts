@@ -268,10 +268,21 @@ function best(m: Matcher, toks: string[], seq: () => string[] = () => toks): For
   for (const t of toks) { const f = m.words.get(t); if (f && (!b || f.f > b.f)) b = f; }
   for (const p of m.phrases) {
     if (b && b.f >= p.f) continue;
+    // the ordered sequence is only built for a field that holds every word of the phrase (or one of its stem)
+    if (!p.words.every((w) => holds(toks, w))) continue;
     const f = phraseForm(p.words, seq());
     if (f) { const v = p.f * f; if (!b || v > b.f) b = { f: v, how: p.how, ...(p.via ? { via: p.via } : {}) }; }
   }
   return b;
+}
+const STEMS = new Map<string, string>();
+const stemOf = (t: string) => { let s = STEMS.get(t); if (s === undefined) { s = stem(t); STEMS.set(t, s); } return s; };
+/** Whether a field's token list holds the word or a word of its stem: the cheap gate before a phrase is looked for in order. */
+function holds(toks: string[], w: string): boolean {
+  if (toks.includes(w)) return true;
+  const sw = stemOf(w);
+  for (const t of toks) if (t[0] === w[0] && stemOf(t) === sw) return true;
+  return false;
 }
 /** Words in a row: 1 when every word is exact, 0.75 when one only meets by its stem. */
 function phraseForm(words: string[], toks: string[]): number {

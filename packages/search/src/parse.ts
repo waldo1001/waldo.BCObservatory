@@ -26,8 +26,27 @@ export function term(text: string, phrase = false, raw = text): Term {
   return { text, stem: phrase ? text.split(" ").map(stem).join(" ") : stem(text), alts, phrase, numeric: /^\d+$/.test(text), raw: raw || text };
 }
 
-/** The first words of a question: a question word, or an auxiliary verb ("is a codeunit an object", "should I use"). */
-const QUESTION_START = /^(how|what|why|where|when|which|who|should|can|is|are|does|do|compare)\b/i;
+/** A question word opens a question ("what is a codeunit", "where is it used"); the same words open a name too ("Where Used Base Calendar"), which only the drop rules below keep apart. */
+const WH_START = /^(how|what|why|where|when|which|who)\b/i;
+/**
+ * An auxiliary verb opens a question only before a pronoun ("should I use", "can you", "is it possible"), or before an
+ * article when the query has five words or more or ends in `?` ("is a codeunit an object"): `Is Enabled`, `Can Approve`,
+ * `Do Not Allow`, `Is a System User` and `IS Customer Card` (Iceland) are names (D95 review).
+ */
+const AUX_PRONOUN = /^(is|are|can|could|should|do|does)\s+(i|you|we|it|there|this|that|my|they|he|she)\b/i;
+const AUX_ARTICLE = /^(is|are|can|could|should|do|does)\s+(a|an|the)\b/i;
+/** `compare X and|with|to|vs Y`; `Compare List` and `Compare at Price` are names. */
+const COMPARE_START = /^compare\s+\S+(?:\s+\S+)*?\s+(?:and|with|to|vs|versus)\s+\S/i;
+/** `X vs Y`: between two words, no period after it (`Actual vs. Budget` is a name) and not in front of `code` (`VS Code`). */
+const VERSUS = /[\p{L}\p{N}]\S*\s+(?:vs|versus)(?![.\p{L}\p{N}])\s+(?!code\b)[\p{L}\p{N}]/iu;
+/** The words a verb `use` follows in a question. */
+const USE_AFTER = new Set(["to", "i", "we", "you", "it", "can", "should", "between", "and", "or"]);
+const isQuestion = (s: string) => {
+  if (WH_START.test(s)) return true;
+  // `IS` in capitals is Iceland's country code
+  if (!/^IS\b/.test(s) && (AUX_PRONOUN.test(s) || (AUX_ARTICLE.test(s) && (s.split(/\s+/).length >= 5 || s.endsWith("?"))))) return true;
+  return COMPARE_START.test(s) || /\bchanged in\b/i.test(s) || /\bdifferences? between\b/i.test(s) || VERSUS.test(s);
+};
 
 export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQuery {
   const countries = new Set(opts.countries.map((c) => c.toLowerCase()));
@@ -54,7 +73,7 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
   // a version word
   s = s.replace(/(?:^|\s)(?:bc|v)\s?(2[3-9]|3\d)(?=\s|$)/i, (_, v: string) => { q.major = v; return " "; }).trim();
   // a `kind:` query looks a name up ("field: Is Blocked"): never a question
-  q.question = !q.kind && (QUESTION_START.test(s) || /\bchanged in\b/i.test(s) || /\bdifferences? between\b/i.test(s) || /\b(vs|versus)\b/i.test(s));
+  q.question = !q.kind && isQuestion(s);
   if (q.question) q.shape = /\bchanged in\b/i.test(s) ? "what-changed" : /^(how (do|to)|when to)\b/i.test(s) ? "how-to" : "concept";
   const words = s.split(/\s+/).filter(Boolean);
   const typeAt = (i: number) => i >= 0 && i < words.length && !!TYPE_WORDS[words[i].toLowerCase()];
@@ -79,10 +98,19 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
   // the question words go, unless nothing else is left to search for ("what is", "difference between"); a quoted phrase
   // keeps every word of its own and counts as content
   if (q.question) {
-    const chaff = (t: { text: string }) => QUESTION_WORDS.has(t.text) || t.text.length === 1;
-    if (phrases.length || toks.some((t) => !chaff(t))) {
-      for (const t of toks) if (QUESTION_WORDS.has(t.text) && !q.dropped.includes(t.text)) q.dropped.push(t.text);
-      toks = toks.filter((t) => !chaff(t));
+    // `vs` goes only as a comparison between two words ("IntegrationEvent vs BusinessEvent"), never as "VS Code" or "vs."; `use`
+    // and its forms only as the verb of the question ("how to use", "how do I use", "should I use"), not in "Where Used Base
+    // Calendar" or "What's New: Using Power Pages"
+    const dropWord = (i: number) => {
+      const w = toks[i].text;
+      if (w === "vs" || w === "versus") return i > 0 && i < toks.length - 1 && !toks[i].raw.endsWith(".") && toks[i + 1].text !== "code";
+      if (w === "use" || w === "used" || w === "using") return USE_AFTER.has(toks[i - 1]?.text);
+      return QUESTION_WORDS.has(w);
+    };
+    const gone = new Set(toks.map((_, i) => i).filter((i) => dropWord(i) || toks[i].text.length === 1));
+    if (phrases.length || toks.some((_, i) => !gone.has(i))) {
+      for (const i of gone) if (QUESTION_WORDS.has(toks[i].text) && !q.dropped.includes(toks[i].text)) q.dropped.push(toks[i].text);
+      toks = toks.filter((_, i) => !gone.has(i));
     }
   }
   // words that together are a synonym phrase ("general ledger") become one term

@@ -382,6 +382,37 @@ test("question shapes: a question drops its question words and keeps the content
   assert.deepEqual(terms("Use Case Mean"), ["use", "case", "mean"]);
 });
 
+test("question shapes: names that start like a question or carry vs stay names with every word (D95 phase D review)", () => {
+  const terms = (raw: string) => p(raw).terms.map((t) => t.text);
+  // an auxiliary verb opens a question only before a pronoun (or an article in a longer query), never before a name word
+  for (const [raw, words] of [
+    ["Is Enabled", ["is", "enabled"]], ["Is Total", ["is", "total"]], ["Can Approve", ["can", "approve"]], ["Do Not Allow", ["do", "not", "allow"]],
+    ["Does Not Contain", ["does", "not", "contain"]], ["Should Retry", ["should", "retry"]], ["Is a System User", ["is", "system", "user"]],
+    ["Compare List", ["compare", "list"]], ["Compare at Price", ["compare", "at", "price"]],
+    ["VS Code", ["vs", "code"]], ["AL in VS Code", ["al", "in", "vs", "code"]], ["vs code extension", ["vs", "code", "extension"]], ["VS Code Integration", ["vs", "code", "integration"]],
+    ["Actual vs. Budget", ["actual", "vs", "budget"]], ["CO2 % vs Baseline", ["co2", "vs", "baseline"]],
+  ] as [string, string[]][]) {
+    const q = p(raw);
+    assert.deepEqual([q.question, q.shape, q.dropped, q.terms.map((t) => t.text)], [false, null, [], words], raw);
+  }
+  // "IS" in capitals is Iceland's country code, a name word of the object, not a question
+  const is = parseQuery("IS Customer Card", { countries: [...COUNTRIES, "is"] });
+  assert.deepEqual([is.question, is.countries, is.terms.map((t) => t.text)], [false, ["is"], ["customer", "card"]]);
+  // "Where Used Base Calendar" is a question as at the parent (where goes) but keeps "used"
+  const where = p("Where Used Base Calendar");
+  assert.deepEqual([where.question, where.dropped, where.terms.map((t) => t.text)], [true, ["where"], ["used", "base", "calendar"]]);
+  assert.deepEqual(terms("What's New: Using Power Automate"), ["new", "using", "power", "automate"]);
+  // the questions stay questions
+  for (const raw of ["should I use events", "can you post a sales order", "is it possible to post", "is a codeunit an object", "compare tables and pages", "compare IntegrationEvent with BusinessEvent", "Posting vs Journal Lines"]) {
+    assert.equal(p(raw).question, true, raw);
+  }
+  assert.deepEqual(p("should I use events").dropped, ["should", "use"]);
+  assert.deepEqual(p("Posting vs Journal Lines").dropped, ["vs"]);
+  // vs in front of code stays a word inside a question
+  assert.deepEqual(terms("how to install VS Code"), ["install", "vs", "code"]);
+  assert.deepEqual(terms("what is VS Code"), ["vs", "code"]);
+});
+
 test("seq: a phrase meets summary text word for word although the deduplicated word list lost the order (D95)", () => {
   const post = (path: string, title: string, summary: string): PageRecord => ({ path, type: "post", title, summary, tier: "community", date: "2026-01-01" });
   const plural = prepare([pageToRecord(post("posts/a/1", "Event types", "Types include business events, integration events, global events."))]);
