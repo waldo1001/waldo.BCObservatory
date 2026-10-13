@@ -35,7 +35,8 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
         if (row.major) { const id = /path=(\S+)/.exec(text)?.[1]; first = id ? await call("cat", { path: id }) : undefined; }
         const present = (id: string) => (row.major && first && new RegExp(`present_in:[\\s\\S]*?- "${row.major}"`).test(first) && id ? id : undefined);
         const hits = parseHits(text, present);
-        const hints = [...text.matchAll(/^Hint: (.*?)(?: \(search "(.*)"\)| \(cat\("(.*)"\)\))?$/gm)].map((m) => ({ text: m[1], ...(m[3] ? { path: m[3] } : {}) }));
+        // "Hint: ..." lines; a hit-less kind: query (D95) answers with its hint, "No event named ...", as the first line
+        const hints = [...text.matchAll(/^(?:Hint: |(?=No \w+ named ))(.*?)(?: \(search "(.*)"\)| \(cat\("(.*)"\)\))?$/gm)].map((m) => ({ text: m[1], ...(m[3] ? { path: m[3] } : {}) }));
         const err = checkRow(row, hits, hints);
         if (err) failures.push(`${row.q} (${mode}): ${err}`);
       }
@@ -45,7 +46,7 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
     if (symbols) {
       const ev = await call("search", { query: "OnAfterPostSalesDoc", limit: 3 });
       assert.match(ev, /^- OnAfterPostSalesDoc \(event of Codeunit 80 "Sales-Post", integration, \d+ subscribers?\) path=objects\/codeunit\/80#event-OnAfterPostSalesDoc \[keyword\]\n  \S/m);
-      assert.match(ev.split("\n")[0], /^\d+ results, keyword \(exact band: 1\)/);
+      assert.match(ev.split("\n")[0], /^\d+ results, keyword \(read one with cat\(path\)[;)]/);
       assert.match(await call("search", { query: "Posting Date", kind: "field", limit: 3 }), /^- Posting Date \(field \d+ of Table \d+ "[^"]+", Date\) path=objects\/table\/\d+#field-\d+/m);
       assert.doesNotMatch(await call("search", { query: "Posting Date", kind: "page", limit: 10 }), /#field-/);
     }

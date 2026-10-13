@@ -231,6 +231,72 @@ test("symbols: rows become records under their owner, gated, with an anchor and 
   assert.equal(hrefOf("/b/", "objects/codeunit/80"), "/b/objects/codeunit/80/");
 });
 
+// ---------------------------------------------------------------------------------------------- symbols rank by their owner (D95)
+
+/** A small index with symbols: owners of the same type, a base table, a first-party app's table, and their fields and events. */
+function withSymbols() {
+  const owners: PageRecord[] = [
+    obj("objects/table/18", "table", 18, "Customer", "Base Application", 338),
+    obj("objects/table/36", "table", 36, "Sales Header", "Base Application", 217),
+    obj("objects/table/30102", "table", 30102, "Shpfy Shop", "Shopify", 20),
+    obj("objects/table/11300-be", "table", 11300, "VAT VIES Correction", "BE layer", 40, { country: "be", title: 'Table 11300 "VAT VIES Correction" (BE)' }),
+    obj("objects/codeunit/80", "codeunit", 80, "Sales-Post", "Base Application", 110),
+  ];
+  const i = prepare(owners.map(pageToRecord));
+  const by = (id: string) => i.records.find((r) => r.id === id)!;
+  prepare([
+    symbolToRecord("field", ["table/36", "VAT Bus. Posting Group", 116, "Code[20]", "Specifies the VAT specification that applies."], by("objects/table/36")),
+    symbolToRecord("field", ["table/30102", "VAT Bus. Posting Group", 54, "Code[20]", "Specifies which VAT Bus. Posting Group is used for the shop."], by("objects/table/30102")),
+    symbolToRecord("field", ["table/11300-be", "VAT Bus. Posting Group", 5, "Code[20]", "The VAT Bus. Posting Group of the correction."], by("objects/table/11300-be")),
+    symbolToRecord("field", ["table/36", "Posting Date", 20, "Date", "Specifies the posting date of the document."], by("objects/table/36")),
+    symbolToRecord("field", ["table/36", "Posting Date Filter", 21, "Date", null], by("objects/table/36")),
+    symbolToRecord("event", ["codeunit/80", "OnAfterPostSalesDoc", "integration", 8, "Raised after posting a sales document.", null], by("objects/codeunit/80")),
+    symbolToRecord("event", ["codeunit/80", "OnAfterPostSalesDocDropShipment", "integration", 0, null, null], by("objects/codeunit/80")),
+  ], i);
+  return i;
+}
+
+test("lift: a symbol takes its owner's layer and type prior; a tooltip repeating the name does not outrank the base application (D95)", () => {
+  const i = withSymbols();
+  const q = p("field: VAT Bus. Posting Group"), hits = search(i, q);
+  assert.deepEqual(hits.map((h) => h.r.id), ["objects/table/36#field-116", "objects/table/30102#field-54", "objects/table/11300-be#field-5"],
+    "base application (layer 1), then first-party app (0.5), then country layer (0), whatever the tooltip says");
+  for (const h of hits) assert.ok(h.why.includes("name"), h.r.id);
+  const [a, b, c] = hits.map((h) => h.s);
+  assert.ok(a > b && b > c);
+  // the owner's standing: layer + 2 x importance + the table prior; the text adds nothing on an exact name
+  const imp = (id: string) => i.records.find((r) => r.id === id)!.importance;
+  assert.equal(Math.round((a - b) * 100) / 100, Math.round((0.5 + 2 * (imp("objects/table/36") - imp("objects/table/30102"))) * 100) / 100);
+  assert.equal(search(i, p("field: VAT Bus. Posting Group"), { filter: (r) => r.objectType === "table" })[0].r.id, "objects/table/36#field-116");
+});
+
+test("text on an exact name: a hit named like the query takes no points from its tooltip (D95)", () => {
+  const i = withSymbols();
+  const sc2 = (q: string, id: string) => Math.round(scoreRecord(i, i.records.find((r) => r.id === id)!, p(q)).s * 100) / 100;
+  const exact = sc2("field: Posting Date", "objects/table/36#field-20"), starts = sc2("field: Posting Date", "objects/table/36#field-21");
+  assert.equal(Math.round((exact - starts) * 100) / 100, 7, "name 10 against starts 3, and no text point for either");
+  assert.deepEqual(search(i, p("field: Posting Date")).map((h) => [h.r.name, h.why.join(",")]), [["Posting Date", "name"], ["Posting Date Filter", "starts"]]);
+  // pages keep their summary points on an exact name (the D86 worked examples above pin them)
+  assert.equal(sc("customer", "objects/table/18"), 17.3);
+});
+
+test("hints 6: a kind: query with no hit says so and names the nearest symbols (D95)", () => {
+  const i = withSymbols();
+  const h = (raw: string, hit = false) => { const q = p(raw); return hints(i, q, hit ? search(i, q) : []); };
+  const near = h("event: OnAfterPostSalesDocs");
+  assert.equal(near[0].text, 'No event named "OnAfterPostSalesDocs". Nearest events: OnAfterPostSalesDoc (Codeunit 80 "Sales-Post"), OnAfterPostSalesDocDropShipment (Codeunit 80 "Sales-Post").');
+  assert.equal(near[0].query, "event: OnAfterPostSalesDoc");
+  assert.deepEqual(h("event: OnBeforeValidateWidgetCode").map((x) => x.text), ['No event named "OnBeforeValidateWidgetCode".'], "nothing is near: the first sentence only");
+  assert.equal(h("event: OnBeforeValidateWidgetCode")[0].query, undefined);
+  assert.equal(h("field: Posting Dat")[0].text.startsWith('No field named "Posting Dat". Nearest fields: Posting Date (Table 36 "Sales Header")'), true, "a name that extends the query");
+  assert.deepEqual(h("proc: NoSuchProc"), [], "no procedures loaded (a lazy shard): no claim");
+  assert.deepEqual(h("event: OnAfterPostSalesDoc", true), [], "a hit: no hint");
+  assert.deepEqual(h("event: OnAfterPostSalesDoc", false), [], "the name exists but the caller's filters left no hit: no false 'No event named'");
+  // symbols not loaded (the site's lazy shards): no claim
+  assert.deepEqual(hints(index, p("event: OnAfterPostSalesDocs"), []), []);
+  assert.deepEqual(hints(i, p("Posting Date"), []), [], "only a kind: query");
+});
+
 // ---------------------------------------------------------------------------------------------- Learn articles (D94)
 
 const LEARN: LearnShard = {

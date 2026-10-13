@@ -323,8 +323,9 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     if (q.ref.country) return { s: country === q.ref.country ? 1000 : country === null ? 900 : 850, why };
     return { s: country === null ? 1000 : 900, why };
   }
-  const prior = object ? TYPE_PRIOR[r.objectType ?? ""] ?? 0 : 0;
-  const lift = (base: number) => base + (object ? LAYER[r.layer] : symbol ? 0 : 1) + (objectish ? 2 * r.importance : 0) + prior;
+  // a symbol stands where its owner stands: the owner's layer, importance and type prior (D95)
+  const prior = objectish ? TYPE_PRIOR[r.objectType ?? ""] ?? 0 : 0;
+  const lift = (base: number) => base + (objectish ? LAYER[r.layer] : 1) + (objectish ? 2 * r.importance : 0) + prior;
   // a bare number: the objects carrying that id, across types
   if (q.number !== null) {
     if (!object || r.objectId !== q.number) return none;
@@ -339,7 +340,7 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     return none;
   }
   const n = normOf(r), ms = matchersOf(index, q);
-  let s = 0, named = false, gate = !symbol || !!q.kind;
+  let s = 0, textPts = 0, named = false, gate = !symbol || !!q.kind;
   for (const m of ms) {
     const main = best(m, n.main), tags = best(m, n.tags), text = best(m, textOf(r, n));
     if (!main && !tags && !text) return none;
@@ -348,6 +349,7 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     if (symbol && !gate && n.eqs[0].some((t) => { const f = m.words.get(t); return f && (f.how === "exact" || f.how === "prefix"); })) gate = true;
     if (symbol && /^on[a-z]/.test(m.term.text)) gate = true;
     s += 3 * (main?.f ?? 0) + 2 * (tags?.f ?? 0) + (text?.f ?? 0);
+    textPts += text?.f ?? 0;
     const via = [main, tags, text].find((x) => x?.via && (x.how === "syn" || x.how === "fuzzy"))?.via;
     if (via && !why.includes(`matched "${via}"`)) why.push(`matched "${via}"`);
   }
@@ -358,7 +360,9 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
   // "name" (the exact band) is the record's own name or title; a caption that equals the query scores the same, but
   // is no reason to pin it above a hub
   // through a synonym ("client" is Customer) it is still the name; through a typo it is a guess ("name~")
-  if (eq) { s += 10 * eq; why.push(!byName ? "caption" : eq >= 0.75 ? "name" : "name~"); }
+  // a symbol named like the query earns no text points: its tooltip must not lift it above its owner's standing (D95);
+  // pages keep theirs (the D86 worked examples pin them)
+  if (eq) { s += 10 * eq - (symbol ? textPts : 0); why.push(!byName ? "caption" : eq >= 0.75 ? "name" : "name~"); }
   else if (starts) { s += 3 * starts; why.push("starts"); }
   // a hub (or an app page) is a starting point in proportion to what hangs off it, when its title or TOC names the query
   if ((r.type === "topic" || r.type === "app") && !symbol && named) s += Math.log2((r.members ?? 0) + 1);

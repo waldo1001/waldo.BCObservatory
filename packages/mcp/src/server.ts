@@ -34,7 +34,7 @@ import {
 import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { DEFAULT_BUDGET, budgetOf, pageView, type ViewArgs } from "./sections.js";
 
-const VERSION = "0.5.0";
+const VERSION = "0.6.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
@@ -203,7 +203,8 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const byId = new Map<string, SearchRecord>(hits.map((h) => [h.r.id, h.r]));
   // the meaning list (D63): pages only, the top 50 by cosine similarity
   let semantic: string[] = [], note = "";
-  if (mode !== "keyword") {
+  // a kind: query asks for a symbol, and symbols are never in the meaning list: no padding with pages (D95)
+  if (mode !== "keyword" && !q.kind) {
     const m = await loadModel();
     if (m) {
       const v = embed(m, a.query), data = pageVectors(m);
@@ -230,10 +231,17 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const shown = order.slice(0, limit).map((id) => byId.get(id)!).filter(Boolean);
   const hs = hints(index!, q, hits as Hit[]).filter((h) => !hits.length || hits[0].s < 6 || q.question || !!q.ref || /: no page; /.test(h.text));
   const hintText = hs.length ? `\n${hs.map((h) => `Hint: ${h.text}${h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : ""}`).join("\n")}` : "";
+  // a kind: query with no hit: the hint ("No event named ...", the nearest names) is the answer
+  if (!shown.length && q.kind && /^No \w+ named /.test(hs[0]?.text ?? "")) {
+    const [first, ...more] = hs, via = (h: (typeof hs)[number]) => (h.query ? ` (search "${h.query}")` : h.path ? ` (cat("${h.path}"))` : "");
+    return `${first.text}${via(first)}${note}${more.map((h) => `\nHint: ${h.text}${via(h)}`).join("")}`;
+  }
   if (!shown.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.${note}${hintText}`;
   const how = semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
   const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url opens on learn.microsoft.com, cat(hub) reads its hub" : "";
-  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" || mode === "hybrid" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
+  // an empty keyword list says so: the hits are by meaning only (D95)
+  if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
+  return `${shown.length} results, ${how}${note}${how === "keyword + meaning" ? ` (exact band: ${exactBand})` : ""} (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(r.id))).join("\n")}${hintText}`;
 }
 
 export async function toolLs(a: { path?: string }): Promise<string> {
@@ -350,14 +358,14 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path). search() also finds Microsoft Learn articles by title, summary and the identifiers they document (type learn): those are not pages here, open their url on learn.microsoft.com.",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page, and the fields, published events, global procedures and enum values of AL objects, ranked like the site's search. Takes names ('Sales Header'), references ('t36', 'cu 80', 'table 11300 BE'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'field: Posting Date', 'proc: CopyToTempLines'); a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<ordinal>); cat(path) reads that member alone. Learn articles too: type learn, a url, not a path. Hybrid by default: exact matches stay on top and the rest is fused with a meaning ranking; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or an alias such as 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); symbols rank by their owner's layer and importance; a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<ordinal>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with a meaning ranking; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
     inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));
   server.registerTool("cat", { title: "Read a page", description: `A page's markdown by its path from search or ls: frontmatter with evidence and links, then the body. A page over ${B} characters comes back compact with its section keys; section (or 'frontmatter'), offset and limit read one part. A symbol path ('objects/codeunit/80#event-OnAfterPostSalesDoc') returns that member's row.`, inputSchema: { path: z.string(), ...VIEW } },
     async (a) => text(await toolCat(a)));
-  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE'. Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact (frontmatter, the first 5 rows of each section, the section keys): pass section ('fields', 'events', 'procedures', 'calls', ...) with offset and limit to read one. To check that a field, event or procedure exists, search('event: <Name>') answers without the page.`,
+  server.registerTool("get_object", { title: "Look up an AL object", description: `An AL object of W1, a Microsoft first-party app or a country layer by type and id, reference, name or caption: ('table', '18'), ('table', 't36'), ('table', '36-be'), ('codeunit', 'Sales-Post'), ('page', 'Customers'), or with country 'BE'. Returns its page: fields, keys, events, procedures, calls, obsolete state, versions, countries, Learn pages; a W1 object wins over its country twins unless a country is given, and two candidates are listed with their paths. A page over ${B} characters comes back compact (frontmatter, the first 5 rows of each section, the section keys): pass section ('fields', 'events', 'procedures', 'calls', ...) with offset and limit to read one. To check that a field, event or procedure exists, search('event: <Name>') answers without the page. counts.procedures counts every procedure (public, local, events, subscribers); the summary's 'public procedures' excludes locals and events.`,
     inputSchema: { type: z.string(), idOrName: z.string(), country: z.string().length(2).optional(), ...VIEW } }, async (a) => text(await toolGetObject(a)));
   server.registerTool("diff_object", { title: "What changed in an object", description: "Member-level changes of a W1 object between two consecutive versions (fields, events, procedures, keys, properties, obsolete state).",
     inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, async (a) => text(await toolDiffObject(a)));

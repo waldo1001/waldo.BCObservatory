@@ -194,7 +194,7 @@ test("D86: references, filters, get_object by caption and country, hints", async
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: fixture() });
   try {
     const t = await call("search", { query: "t18" });
-    assert.match(t.split("\n")[0], /^1 results, keyword \(exact band: 1\)/);
+    assert.match(t.split("\n")[0], /^1 results, keyword \(read one with cat\(path\)\):$/, "no meaning list: no exact band in the header (D95)");
     assert.match(t.split("\n")[1], /^- Table 18 "Customer"/);
     assert.match((await call("search", { query: "cu 80" })).split("\n")[1], /Codeunit 80 "Sales-Post"/);
     assert.match((await call("search", { query: "BE" })).split("\n")[1], /Belgium \(BE\)/);
@@ -232,8 +232,11 @@ test("search is hybrid with a model: exact band pinned, the rest fused with mean
     assert.match(buyer.split("\n")[1], /"Customer[^"]*".*\[meaning\]/, "a word no synonym knows: found by meaning only");
     assert.match(await call("search", { query: "buyer", mode: "keyword" }), /No pages match/, "keywords alone miss it");
     const pinned = await call("search", { query: "t18" });
-    assert.match(pinned.split("\n")[0], /\(exact band: 1\)/);
+    assert.match(pinned.split("\n")[0], /^1 results, keyword \(read one with cat\(path\)\):$/, "the toy model knows no 't18': the keyword list alone, so no exact band in the header (D95)");
     assert.match(pinned.split("\n")[1], /Table 18 "Customer".*\[(keyword|both)\]/);
+    assert.match(hybrid.split("\n")[0], /^\d+ results, keyword \+ meaning \(exact band: \d+\) \(read one with cat\(path\)\):$/, "the exact band is named when the two lists meet");
+    assert.match(buyer.split("\n")[0], /^No keyword match for "buyer"; \d+ pages by meaning only \(read one with cat\(path\)\):$/, "an empty keyword list says so (D95)");
+    assert.doesNotMatch(buyer, /exact band/);
   } finally {
     await client.close();
   }
@@ -258,6 +261,43 @@ test("reciprocal rank fusion (k = 60) and the filters of a search call", async (
   assert.equal(keep({ id: "o", kind: "page", type: "object", name: "", title: "", layer: 0, importance: 0, system: "finance", country: null, objectType: "table" }), false);
 });
 
+/** fixture() plus a symbols index of Codeunit 80's events, as data/index/symbols-*.json carries them. */
+function symbolsFixture(): string {
+  const root = fixture();
+  const rows = [["codeunit/80", "OnAfterPostSalesDoc", "integration", 8, "Raised after posting a sales document.", null], ["codeunit/80", "OnAfterPostSalesDocDropShipment", "integration", 0, null, null]];
+  writeJson(join(root, "data/index/symbols-events-aaaaaaaaaaaa.json"), { schema: "bcobs-symbols@1", rows });
+  writeJson(join(root, "data/index/symbols-manifest.json"), { schema: "bcobs-symbols@1", major: "29", kinds: { events: { file: "symbols-events-aaaaaaaaaaaa.json", count: rows.length, sha256: "aaaaaaaaaaaa" } } });
+  return root;
+}
+
+test("D95: a kind: query with no hit says what is not there and never pads with pages; an empty keyword list is the first line", async () => {
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ customer: [1, 0, 0], event: [0, 1, 0], widget: [0, 1, 0], posting: [0, 1, 0], buyer: [1, 0, 0] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: symbolsFixture(), BC_OBSERVATORY_MODEL_DIR: modelDir });
+  try {
+    const none = await call("search", { query: "event: OnBeforeValidateWidgetCode", limit: 3 });
+    assert.match(none, /^No event named "OnBeforeValidateWidgetCode"\.$/, "the first sentence only: nothing is near");
+    assert.doesNotMatch(none, /\[meaning\]|No pages match|results/);
+    // longer than any name, so the stem and the typo rules meet nothing; the name it extends is the nearest
+    const near = await call("search", { query: "event: OnAfterPostSalesDocDropShipmentQuux" });
+    assert.match(near, /^No event named "OnAfterPostSalesDocDropShipmentQuux"\. Nearest events: OnAfterPostSalesDocDropShipment \(Codeunit 80 "Sales-Post"\)\. \(search "event: OnAfterPostSalesDocDropShipment"\)$/);
+    assert.doesNotMatch(near, /\[meaning\]/);
+    const found = await call("search", { query: "event: OnAfterPostSalesDoc" });
+    assert.match(found.split("\n")[0], /^2 results, keyword \(read one/, "a kind: query skips the meaning list: a keyword header");
+    assert.doesNotMatch(found, /\[meaning\]|\[both\]/);
+    assert.match(await call("search", { query: "event: OnBeforeValidateWidgetCode", mode: "keyword" }), /^No event named /);
+    const buyer = await call("search", { query: "buyer", limit: 3 });
+    assert.match(buyer, /^No keyword match for "buyer"; \d pages by meaning only \(read one with cat\(path\)\):\n- .*\[meaning\]/);
+    // a filter that leaves no hit although the name exists: no false "No event named"
+    assert.match(await call("search", { query: "event: OnAfterPostSalesDoc", object_type: "table" }), /^No pages match/);
+  } finally {
+    await client.close();
+  }
+});
+
 test("D94: search finds Learn articles by an identifier they document, with their url and hub; type learn filters; ls and whats_new stay pages", async () => {
   const root = fixture();
   const base = "https://learn.microsoft.com/dynamics365/business-central/", sec = "dev-itpro/developer/devenv-security-settings-and-ip-protection";
@@ -269,7 +309,7 @@ test("D94: search finds Learn articles by an identifier they document, with thei
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root });
   try {
     const hit = await call("search", { query: "includeSourceInSymbolFile" });
-    assert.match(hit, /^1 results, keyword \(exact band: 0\) \(read one with cat\(path\); a Learn article's url opens on learn\.microsoft\.com, cat\(hub\) reads its hub\):\n/);
+    assert.match(hit, /^1 results, keyword \(read one with cat\(path\); a Learn article's url opens on learn\.microsoft\.com, cat\(hub\) reads its hub\):\n/);
     assert.match(hit, new RegExp(`^- Resource exposure policy setting \\[learn, official, 2026-10-05\\] url=${base}${sec} \\[keyword\\]\\n  in: Development › Configure the development environment \\(hub: topics/dev-itpro/configure\\)\\n  Control access to your extension's source\\.$`, "m"));
     assert.match(await call("search", { query: "include source in symbol file" }), /url=https:\/\/learn\.microsoft\.com\/.*devenv-security-settings-and-ip-protection/, "its CamelCase words");
     assert.match(await call("search", { query: "configure", type: "learn" }), /^No pages match/, "type learn: Learn articles only");

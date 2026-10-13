@@ -4,13 +4,14 @@
  *   2. a reference to an id that does not exist: the nearest ids of that type;
  *   3. a word met only through a typo: the word it met and how many pages carry it;
  *   4. a question: where what-changed and how-to answers live, with the best hub;
- *   5. a country reference the country has no object of its own for: the W1 object applies.
+ *   5. a country reference the country has no object of its own for: the W1 object applies;
+ *   6. a `kind:` query (field:, event:, proc:, value:) with no hit: no such symbol, and the nearest names (D95).
  */
 import { editDistance } from "./normalize.js";
 import { TYPE_WORDS } from "./parse.js";
 import { idsOf, namedBy, objectsAt, typoWords } from "./score.js";
 import { ABBR } from "./synonyms.js";
-import type { Hint, Hit, Index, ParsedQuery, SearchRecord } from "./types.js";
+import type { Hint, Hit, Index, ParsedQuery, SearchRecord, SymbolKind } from "./types.js";
 
 export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
   const out: Hint[] = [];
@@ -62,6 +63,44 @@ export function hints(index: Index, q: ParsedQuery, hits: Hit[]): Hint[] {
     }
     out.push({ text: `For what changed, open the object's Versions section or Changes; for how-to, start with the hub${hub ? `: ${hub.title}` : ""}.`, ...(hub ? { path: hub.id } : {}) });
   }
-  void hits;
+  // 6. a symbol that does not exist: say so, name the nearest (it is the answer of a hit-less kind: query, so it comes first)
+  if (q.kind && !hits.length) {
+    const h = nearestSymbols(index, q.kind, q.raw);
+    if (h) out.unshift(h);
+  }
   return out;
+}
+
+const KIND_WORD = { field: "field", event: "event", proc: "procedure", value: "value" } as const;
+const KIND_PREFIX = /^\s*(fields?|events?|procs?|procedures?|values?)\s*:\s*/i;
+
+/**
+ * `No event named "X". Nearest events: A (owner), B (owner).`: the symbols of the kind within two edits of the name, or
+ * that start with its first five letters and share three quarters of it, by distance, then the owner's importance, three
+ * at most. Nothing when the index holds no symbols of the kind yet (a lazily loaded shard), or when the name exists (the
+ * hits were only filtered away).
+ */
+function nearestSymbols(index: Index, kind: SymbolKind, raw: string): Hint | null {
+  const all = index.byType.get(kind) ?? [];
+  const name = raw.replace(KIND_PREFIX, "").replace(/"/g, "").trim();
+  const want = name.toLowerCase();
+  if (!all.length || !want) return null;
+  const head = want.slice(0, 5), shared = Math.ceil(0.75 * want.length);
+  const near: { r: SearchRecord; d: number }[] = [];
+  for (const i of all) {
+    const r = index.records[i], n = r.name.toLowerCase();
+    if (n === want) return null;
+    let ok = editDistance(want, n, 2) <= 2;
+    if (!ok && n.startsWith(head)) { let k = 0; while (k < n.length && k < want.length && n[k] === want[k]) k++; ok = k >= shared; }
+    if (ok) near.push({ r, d: editDistance(want, n, 60) });
+  }
+  near.sort((a, b) => a.d - b.d || b.r.importance - a.r.importance || a.r.name.localeCompare(b.r.name) || a.r.id.localeCompare(b.r.id));
+  const seen = new Set<string>(), pick: SearchRecord[] = [];
+  for (const { r } of near) { if (pick.length >= 3) break; if (seen.has(r.id)) continue; seen.add(r.id); pick.push(r); }
+  const word = KIND_WORD[kind], head1 = `No ${word} named "${name}".`;
+  if (!pick.length) return { text: head1 };
+  const plural = word === "procedure" ? "procedures" : `${word}s`;
+  const label = (r: SearchRecord) => (r.owner ? `${r.name} (${r.owner.title})` : r.name);
+  const qk = kind === "proc" ? "proc" : kind;
+  return { text: `${head1} Nearest ${plural}: ${pick.map(label).join(", ")}.`, query: `${qk}: ${pick[0].name}` };
 }

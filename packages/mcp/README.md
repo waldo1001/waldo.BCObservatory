@@ -21,7 +21,7 @@ same order: references (`t36`, `cu 80`, `table 11300 BE`) and bare ids (`36`) go
 the title and an AL object's caption weigh 3, tags 2, summary 1, through the exact word, a prefix, the plural, a synonym
 (`client` is Customer, `G/L` is general ledger) or one typo; a name equal to the query adds 10; base app before
 first-party app before country layer, then what references, calls and documents an object; topic hubs by their size and
-review state, so "subscription" returns the Subscription billing hub before the codeunits that share the word. Fields,
+review state, so "subscription" returns the Subscription billing hub before the codeunits that share the word. A field, event or procedure ranks where its owner ranks (base application before first-party app before country layer, then importance), and its tooltip adds nothing when its name equals the query; a `kind:` query that finds nothing says `No event named "..."`, names the nearest symbols and is never padded with pages by meaning. Fields,
 events, global procedures and enum values are searchable too (`OnAfterPostSalesDoc`, `field: Posting Date`); their path
 ends in an anchor (`objects/codeunit/80#event-OnAfterPostSalesDoc`). Filters: `type`, `tier`, `system`, `country`,
 `app`, `object_type`, `kind`. Each result says where it sits (`in:` the Learn TOC path, the app, the channel) and, for a

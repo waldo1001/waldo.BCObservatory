@@ -131,16 +131,20 @@
       ],
       "properties": {
         "fields": {
-          "type": "integer"
+          "type": "integer",
+          "description": "fields declared on the object"
         },
         "procedures": {
-          "type": "integer"
+          "type": "integer",
+          "description": "every procedure declared in the object: public, local, event publishers and event subscribers (the summary's 'public procedures' counts neither locals nor events)"
         },
         "events": {
-          "type": "integer"
+          "type": "integer",
+          "description": "published integration and business events"
         },
         "subscribers": {
-          "type": "integer"
+          "type": "integer",
+          "description": "event subscriber procedures"
         },
         "controls": {
           "type": "integer",

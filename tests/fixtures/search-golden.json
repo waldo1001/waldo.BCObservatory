@@ -31,6 +31,8 @@
     { "q": "cx 80", "where": "none", "hint": "cu 80|codeunit 80", "covers": "unknown abbreviation hint" },
     { "q": "includeSourceInSymbolFile", "expect": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection", "where": "top", "covers": "D94: an identifier only a Learn article documents" },
     { "q": "resourceExposurePolicy", "expect": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection", "where": "top", "covers": "D94: the article that documents it before the articles that mention it" },
-    { "q": "how do I post a sales invoice", "where": "any", "hint": "start with the hub: Sales\\.", "hint_path": "topics/business-central/business-functionality/sales", "covers": "question hint" }
+    { "q": "how do I post a sales invoice", "where": "any", "hint": "start with the hub: Sales\\.", "hint_path": "topics/business-central/business-functionality/sales", "covers": "question hint" },
+    { "q": "field: VAT Bus. Posting Group", "where": "first-symbol", "kind": "field", "name": "VAT Bus. Posting Group", "within": { "id": "objects/table/36#field-116", "n": 4 }, "covers": "D95: same-named fields rank by their owner (base application, then importance), not by a tooltip that repeats the name: Table 36 comes after Tables 15, 18 and 23, which are more referenced" },
+    { "q": "event: OnBeforeValidateWidgetCode", "where": "none", "hint": "no event named", "covers": "D95: a symbol that does not exist is named as missing, never padded with pages" }
   ]
 }
