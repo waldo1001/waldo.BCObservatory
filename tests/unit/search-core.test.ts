@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  ABBR, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
+  ABBR, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
   stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type LearnShard, type PageRecord,
 } from "@bc-observatory/search";
 
@@ -70,6 +70,21 @@ test("kind prefixes, quoted phrases, questions and CamelCase", () => {
   assert.equal(p("customer").question, false);
   assert.ok(p("OnAfterPostSalesDoc").terms[0].alts.includes("on after post sales doc"), "CamelCase alternate");
   assert.deepEqual(p("cx 80").warnings, ["unknown abbreviation cx"]);
+});
+
+test("a coded id is one plain term, never an abbreviation and a number; with a space it still is (D95)", () => {
+  for (const raw of ["RT0005", "rt0005", "AS0020", "AL0281", "LC0234", "PTE0001"]) {
+    const q = p(raw);
+    assert.deepEqual([q.terms.map((t) => t.text), q.warnings, q.ref, q.number, q.types], [[raw.toLowerCase()], [], null, null, []], raw);
+  }
+  assert.deepEqual(p("rt 0005").warnings, ["unknown abbreviation rt"], "with a space it is an abbreviation and a number");
+  assert.deepEqual(p("rt 0005").terms.map((t) => t.text), ["rt", "0005"]);
+  assert.deepEqual(p("telemetry RT0005").terms.map((t) => t.text), ["telemetry", "rt0005"], "a coded word among words stays whole");
+  // letters that are a type abbreviation keep their meaning as a reference
+  assert.deepEqual(p("cu0080").ref, { type: "codeunit", id: 80, country: null });
+  assert.deepEqual(p("t0036").ref, { type: "table", id: 36, country: null }, "one letter: no coded id");
+  assert.equal(isCodedId("RT0005"), true);
+  assert.equal(isCodedId("rt0005"), false);
 });
 
 // ---------------------------------------------------------------------------------------------- words
@@ -505,12 +520,31 @@ test("identifier tags meet the identifier, its CamelCase words and the phrase; h
   assert.equal(q("allow debugging")[0], "L:dev-itpro/developer/devenv-security-settings-and-ip-protection");
   assert.equal(q("SetRange")[0], "L:dev-itpro/developer/methods-auto/record/record-setrange-method");
   const sec = i.records.find((r) => r.id.endsWith("devenv-security-settings-and-ip-protection"))!;
-  assert.equal(scoreRecord(i, sec, p("includeSourceInSymbolFile")).s, 3, "tags 2 + a page's 1; the summary does not name it here");
+  assert.equal(scoreRecord(i, sec, p("includeSourceInSymbolFile")).s, 13, "tags 2 + a page's 1 + the exact band 10 (the tag equals the query, D95); the summary does not name it here");
   // a hub's tags are TOC titles: no CamelCase split there (D65 as it was)
   const hub = pageToRecord({ path: "topics/x", type: "topic", title: "Hub", summary: "", tier: "official", tags: ["AppSource"] });
   const j = prepare([hub]);
   assert.equal(search(j, p("source")).length, 0, "'AppSource' as a hub tag is one word");
   assert.equal(indexTokens("includeSourceInSymbolFile", true).join(" "), "includesourceinsymbolfile include source in symbol file");
+});
+
+test("a Learn article's identifier tags are one-word names: the whole query equal to a tag is the exact band, a prefix of one is no start (D95)", () => {
+  const shard: LearnShard = {
+    schema: "bcobs-learn@1", base: "https://learn.microsoft.com/dynamics365/business-central/", hubs: [],
+    rows: [
+      ["dev-itpro/developer/analyzers/appsourcecop-as0020", "AppSourceCop Error AS0020", "Breaking change.", "2024-01-03", -1, null, ["AS0020"]],
+      ["dev-itpro/developer/devenv-json-files", "JSON files", "The app.json file.", "2026-08-25", -1, null, ["includeSourceInSymbolFile", "AS0020Extra"]],
+    ],
+  };
+  const i = prepare(learnRecords(shard).map(pageToRecord));
+  const as20 = i.records[0], json = i.records[1];
+  assert.ok(scoreRecord(i, as20, p("AS0020")).why.includes("name"), "a tag equal to the query");
+  assert.ok(scoreRecord(i, as20, p("appsourcecop error as0020")).why.includes("name"), "the title equal to the query");
+  assert.ok(scoreRecord(i, json, p("includeSourceInSymbolFile")).why.includes("name"));
+  assert.ok(!scoreRecord(i, json, p("AS0020")).why.some((w) => w === "name" || w === "starts"), "AS0020Extra is another word");
+  assert.ok(!scoreRecord(i, json, p("includeSource")).why.includes("starts"), "a prefix of a tag is no start");
+  assert.equal(search(i, p("AS0020"))[0].band, "exact");
+  assert.equal(search(i, p("AS0020"))[0].r.id, as20.id);
 });
 
 // ---------------------------------------------------------------------------------------------- hints

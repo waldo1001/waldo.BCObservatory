@@ -27,7 +27,7 @@ test("the golden queries on the MCP server, keyword and default mode (D86 5, tes
   try {
     const failures: string[] = [];
     for (const row of goldenRows()) {
-      if (row.pending && !symbols) continue;
+      if (row.pending) continue;
       for (const mode of ["keyword", "hybrid"]) {
         const text = await call("search", { query: row.q, limit: 50, mode });
         // "bc30 sales": the first hit's page says it is present in that major

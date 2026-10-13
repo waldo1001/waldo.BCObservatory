@@ -8,6 +8,14 @@ export const fold = (s: string): string => s.normalize("NFKD").replace(/[̀-ͯ]/
 const TOKEN = /[\p{L}\p{N}]+(?:[.\-/][\p{L}\p{N}]+)*/gu;
 const keep = (t: string) => t.length > 1 || /\d/.test(t);
 
+/**
+ * A coded id (D95): two or three capitals and four digits, the shape of telemetry event ids (RT0005, LC0234), analyzer
+ * ids (AS0020, PTE0001) and compiler diagnostics (AL0281). The query parser keeps one whole instead of reading it as an
+ * abbreviation and a number. Kept in sync with `isCodedId` in pipeline/fetch/git-page.ts (this package cannot import
+ * pipeline code).
+ */
+export const isCodedId = (w: string): boolean => /^[A-Z]{2,3}\d{4}$/.test(w);
+
 export function tokenize(s: string): string[] {
   const out: string[] = [];
   for (const m of fold(s).matchAll(TOKEN)) if (keep(m[0])) out.push(m[0]);

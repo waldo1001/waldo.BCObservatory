@@ -104,7 +104,8 @@ function normOf(r: SearchRecord): Norm {
   // "include source in symbol file" finds includeSourceInSymbolFile; not deduplicated across tags, so a phrase holds
   const learn = r.type === "learn";
   const tags = (r.tags ?? []).flatMap((t) => indexTokens(t, learn)).filter((t) => !own?.has(t));
-  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title)];
+  // a Learn article's identifier tags are one-word names too (D95): `AS0020` or `includeSourceInSymbolFile` equal to the whole query is the exact band
+  const eqs = r.type === "object" || symbol ? [tokenize(r.name), ...(r.caption ? [tokenize(r.caption)] : [])] : [tokenize(r.title), ...(learn ? (r.tags ?? []).map((t) => tokenize(t)).filter((t) => t.length === 1) : [])];
   const n: Norm = { main: [...main], tags: learn ? tags : [...new Set(tags)], text: symbol ? null : indexTokens(r.text ?? ""), eqs };
   NORM.set(r, n);
   return n;
@@ -383,9 +384,10 @@ export function scoreRecord(index: Index, r: SearchRecord, q: ParsedQuery): { s:
     if (via && !why.includes(`matched "${via}"`)) why.push(`matched "${via}"`);
   }
   if (!gate) return none;
-  // the name equals the whole query (+10) or starts with it (+3), by the weakest form a word met
+  // the name equals the whole query (+10) or starts with it (+3), by the weakest form a word met; a Learn article's identifier tags (eqs after the title) only equal it, a prefix of a tag is no start
+  const learn = r.type === "learn";
   let eq = 0, starts = 0, byName = false;
-  n.eqs.forEach((e, k) => { const x = nameMatch(e, ms, objectish); if (x.eq > eq) { eq = x.eq; byName = k === 0; } starts = Math.max(starts, x.starts); });
+  n.eqs.forEach((e, k) => { const x = nameMatch(e, ms, objectish); if (x.eq > eq) { eq = x.eq; byName = k === 0 || learn; } if (!learn || k === 0) starts = Math.max(starts, x.starts); });
   // 25k object pages and 120k symbols would drown a generic query: a digit, a type word, a member word or a kind lifts
   // the demotion; for an object page also its name (the name, not the caption: "subscription" is the caption of Table
   // 8057 "Subscription Header" and must not lift it over the Subscription billing hub); for a symbol an event-shaped

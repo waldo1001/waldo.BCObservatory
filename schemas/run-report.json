@@ -196,9 +196,9 @@
       }
     },
     "learn_identifiers": {
-      "description": "D94: Learn items fetched before meta.identifiers existed, filled from their fetched blob; missing = blob not in the mirror (retried next run)",
+      "description": "D94/D95: Learn items whose meta.identifiers are missing or were written under an older rule, filled from their fetched blob; missing = blob not in the mirror (retried next run); rule = the identifier rule version written (meta.identifiers_rule)",
       "type": "object", "additionalProperties": false, "required": ["items", "filled", "prefetched", "missing", "ms"],
-      "properties": { "items": { "type": "integer" }, "filled": { "type": "integer" }, "prefetched": { "type": "integer" }, "missing": { "type": "integer" }, "ms": { "type": "integer" } }
+      "properties": { "items": { "type": "integer" }, "filled": { "type": "integer" }, "prefetched": { "type": "integer" }, "missing": { "type": "integer" }, "ms": { "type": "integer" }, "rule": { "type": "integer", "description": "identifier rule version of this run (2 since D95)" } }
     },
     "items_changed": { "type": "integer" },
     "errors": { "type": "array", "items": { "type": "string" } }

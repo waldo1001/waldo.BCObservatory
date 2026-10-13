@@ -6,7 +6,7 @@
  * synonym-expanded. A question (D95: also "difference between", "X vs Y", "compare") drops its question words, only while
  * a content word or a quoted phrase is left; its shape says what it asks (what changed, how to, a concept).
  */
-import { camelParts, fold, stem, tokenize } from "./normalize.js";
+import { camelParts, fold, isCodedId, stem, tokenize } from "./normalize.js";
 import { ABBR, QUESTION_WORDS, synonymPhrases, synonymsOf } from "./synonyms.js";
 import { OBJECT_TYPES, type ObjectType, type ParsedQuery, type SymbolKind, type Term } from "./types.js";
 
@@ -61,7 +61,9 @@ export function parseQuery(raw: string, opts: { countries: string[] }): ParsedQu
   // the whole query as a reference
   if (!q.kind && !phrases.length) {
     const m = /^([a-z]+)\s*(\d+)(?:(?:\s+|\s*-\s*)([a-z]{2}))?$/i.exec(s);
-    if (m) {
+    // a coded id ("RT0005", "as0020") is a plain term, never an abbreviation and a number, unless its letters are a
+    // type abbreviation ("cu0080", "tab0018" stay references)
+    if (m && !(isCodedId(s.toUpperCase()) && !typeOfWord(m[1]))) {
       const type = typeOfWord(m[1]);
       const cc = m[3]?.toLowerCase() ?? null;
       if (type && (!cc || countries.has(cc))) { q.ref = { type, id: Number(m[2]), country: cc }; if (cc) q.countries.push(cc); return q; }

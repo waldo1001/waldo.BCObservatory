@@ -168,7 +168,7 @@ export interface RunReport {
   items_changed: number; errors: string[];
   /** D77 review coverage: Opus reviews of videos (the `reviewed` stage), posts and changes (phases after linking). */
   reviews?: ReviewsReport;
-  /** D94: Learn items fetched before `meta.identifiers` existed, filled from their fetched blob (no LLM, no quota). */
+  /** D94/D95: Learn items whose `meta.identifiers` are missing or written under an older rule (`meta.identifiers_rule`), filled from their fetched blob (no LLM, no quota). */
   learn_identifiers?: IdentifierBackfill;
 }
 
@@ -439,8 +439,9 @@ async function run(opts0: NightlyOptions, deps: NightlyDeps): Promise<RunReport>
       concurrency: opts.concurrency ?? cfg.concurrency ?? 1,
       reviewQuota: execution.stop_reason === "done" ? Math.max(0, (quotas.opus_reviews ?? 0) - (execution.quota_charged.opus_reviews ?? 0) - narrativeReviewsUsed) : 0,
     }));
-    // D94: identifiers for Learn items fetched before the field existed, from their blobs, before the search index
-    // reads them; once filled, an item is never read again (the fetched stage writes them for new and changed pages)
+    // D94/D95: identifiers for Learn items fetched before the field existed or written under an older rule, from their
+    // blobs, before the search index reads them; once filled under the current rule, an item is never read again (the
+    // fetched stage writes them, with the rule, for new and changed pages)
     if (!opts.pillars || opts.pillars.includes("docs")) {
       report.learn_identifiers = await phase("learn-identifiers", async () => {
         try { return await backfillIdentifiers(manifest, mirrorsDir); } catch (e) { errors.push(`learn identifiers: ${(e as Error).message.slice(0, 200)}`); return undefined; }

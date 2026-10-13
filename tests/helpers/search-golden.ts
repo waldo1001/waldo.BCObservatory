@@ -11,6 +11,11 @@ import { mkdirSync } from "node:fs";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
 
+/**
+ * A row with `pending` (its reason) is not asserted: the data it needs is not committed yet (D95: RT0005 waits for the
+ * rule-2 identifier backfill on the Mini). The site runner still runs it and says whether it holds, so the flip is a
+ * one-line edit; the MCP runner skips it.
+ */
 export interface GoldenRow {
   q: string; expect?: string; where: string | string[]; covers: string; pending?: string;
   not_above?: string[]; major?: string; kind?: string; name?: string; within?: { id: string; n: number }; no_symbol_in_top?: number; hint?: string; hint_path?: string;
@@ -20,7 +25,7 @@ export interface GoldenHit { id: string; symbol: boolean; object: boolean; name?
 
 export const goldenRows = (): GoldenRow[] => JSON.parse(readFileSync(join(ROOT, "tests/fixtures/search-golden.json"), "utf8")).rows;
 
-/** The symbols index lands in phase C; until then its rows stay pending. */
+/** The symbols index writer, when this checkout has it. */
 export async function symbolsRenderer(): Promise<((contentDir: string, dataDir: string) => unknown) | null> {
   try { return (await import("../../pipeline/render/symbols-index.js" as string)).renderSymbolsIndex; } catch { return null; }
 }

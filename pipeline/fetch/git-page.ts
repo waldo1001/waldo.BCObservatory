@@ -68,23 +68,50 @@ export function parseMsDate(v: unknown): string | null {
  * app.json properties, includeSourceInSymbolFile among them.
  */
 export const IDENTIFIERS_MAX = 40;
+/**
+ * Identifier rule 2 (D95): the rule version every item's identifiers are written under. Rule 1 (D94) was code spans of
+ * camelCase or PascalCase words; rule 2 adds the coded ids (`RT0005`) of single-backtick spans, bold spans and table
+ * cells. The backfill takes items whose `meta.identifiers_rule` is missing or lower; raise this when the rule changes again.
+ */
+export const IDENTIFIERS_RULE = 2;
 const SPAN = /(?<!`)`([^`\n]+)`(?!`)/g;
+const BOLD = /\*\*([^*\n]+)\*\*/g;
 /** camelCase (a lowercase start with a capital inside) or PascalCase with a capital inside: allowDebugging, SetRange, NonDebuggable. */
 export const isIdentifier = (s: string) => /^[A-Za-z][A-Za-z0-9]*$/.test(s) && (/^[a-z]/.test(s) ? /[A-Z]/.test(s) : /[a-z]/.test(s) && /^.+[A-Z]/.test(s));
 /**
- * The identifiers a Learn page documents: single-backtick code spans that hold one camelCase or PascalCase word,
- * outside fenced code blocks, in order of first appearance, deduplicated case-insensitively (Learn spells
- * includeSourceInSymbolFile two ways on one page), at most IDENTIFIERS_MAX. Deterministic: the same blob, the same list.
+ * A coded id (D95): two or three capitals and four digits, the shape of telemetry event ids (RT0005, LC0234), analyzer
+ * ids (AS0020, PTE0001) and compiler diagnostics (AL0281). Kept in sync with `isCodedId` in packages/search/src/normalize.ts
+ * (the search package cannot import pipeline code).
+ */
+export const isCodedId = (s: string) => /^[A-Z]{2,3}\d{4}$/.test(s);
+const CODED_WORD = /(?<![A-Za-z0-9])[A-Z]{2,3}\d{4}(?![A-Za-z0-9])/g;
+/**
+ * The identifiers a Learn page documents, outside fenced code blocks, in order of first appearance, deduplicated
+ * case-insensitively (Learn spells includeSourceInSymbolFile two ways on one page), at most IDENTIFIERS_MAX.
+ * Rule 2 (D95): first the single-backtick code spans that hold one camelCase or PascalCase word or a coded id, then
+ * the coded ids of bold spans (`**RT0005**`, whole span) and of table cells (lines starting with `|`, whole words), so
+ * a prose mention of another event's id does not count. Deterministic: the same blob, the same list.
  */
 export function pageIdentifiers(body: string): string[] {
   const text = body.replace(/^[ \t]*(```|~~~)[\s\S]*?^[ \t]*\1/gm, " ");
   const seen = new Set<string>(), out: string[] = [];
-  for (const m of text.matchAll(SPAN)) {
-    const s = m[1].trim();
-    if (!isIdentifier(s) || seen.has(s.toLowerCase())) continue;
+  const add = (s: string) => {
+    if (seen.has(s.toLowerCase())) return true;
     seen.add(s.toLowerCase());
     out.push(s);
-    if (out.length >= IDENTIFIERS_MAX) break;
+    return out.length < IDENTIFIERS_MAX;
+  };
+  for (const m of text.matchAll(SPAN)) {
+    const s = m[1].trim();
+    if ((isIdentifier(s) || isCodedId(s)) && !add(s)) return out;
+  }
+  for (const m of text.matchAll(BOLD)) {
+    const s = m[1].trim();
+    if (isCodedId(s) && !add(s)) return out;
+  }
+  for (const line of text.split("\n")) {
+    if (!line.trimStart().startsWith("|")) continue;
+    for (const cell of line.split("|")) for (const w of cell.matchAll(CODED_WORD)) if (!add(w[0])) return out;
   }
   return out;
 }
@@ -121,7 +148,7 @@ export function gitPageFetched(): StageHandler {
       output_hash: blob,
       patch: {
         ...(m.title ? { title: m.title } : {}),
-        meta: { description: m.description, ms_date: m.ms_date, ms_topic: m.ms_topic, search_form: m.search_form, keywords: m.keywords, ai_usage: m.ai_usage, words: m.words, identifiers: m.identifiers },
+        meta: { description: m.description, ms_date: m.ms_date, ms_topic: m.ms_topic, search_form: m.search_form, keywords: m.keywords, ai_usage: m.ai_usage, words: m.words, identifiers: m.identifiers, identifiers_rule: IDENTIFIERS_RULE },
       },
       data: { blob, words: m.words, forms: m.search_form.length },
     };
@@ -171,22 +198,24 @@ async function prefetchSplitting(mirror: string, oids: string[], prefetch: typeo
   }
 }
 
-export interface IdentifierBackfill { items: number; filled: number; prefetched: number; missing: number; ms: number }
+export interface IdentifierBackfill { items: number; filled: number; prefetched: number; missing: number; ms: number; rule: number }
 /**
  * D94 backfill: Learn items fetched before `identifiers` existed get them from the blob they were fetched at
  * (`stages.fetched.blob`), read from the mirror; the item's state, stages and other fields stay as they are, so nothing
  * re-runs and no page is rewritten. Deterministic and quota-free like the fetched stage: blobs the mirror lacks are
  * prefetched in batches first (a blob that cannot be fetched leaves its item for the next run), then every blob of a
- * mirror is read in one process. Items that already carry `identifiers` (fetched since D94, or filled before) are left alone.
+ * mirror is read in one process. D95: an item is also taken when its identifiers were written under an older rule
+ * (`meta.identifiers_rule` missing or below IDENTIFIERS_RULE); an item written under the current rule (by the fetched
+ * stage or an earlier run) is left alone.
  */
 export async function backfillIdentifiers(manifest: Manifest, mirrorsDir: string, pillars: Pillar[] = ["docs"], prefetch = prefetchBlobs): Promise<IdentifierBackfill> {
   const t0 = Date.now();
-  const r: IdentifierBackfill = { items: 0, filled: 0, prefetched: 0, missing: 0, ms: 0 };
+  const r: IdentifierBackfill = { items: 0, filled: 0, prefetched: 0, missing: 0, ms: 0, rule: IDENTIFIERS_RULE };
   const bySource = new Map<string, { item: ManifestItem; blob: string }[]>();
   for (const pillar of pillars) {
     for (const item of manifest.list(pillar)) {
       const blob = item.stages.fetched?.blob;
-      if (typeof blob !== "string" || Array.isArray(item.meta?.identifiers)) continue;
+      if (typeof blob !== "string" || (Array.isArray(item.meta?.identifiers) && Number(item.meta?.identifiers_rule ?? 1) >= IDENTIFIERS_RULE)) continue;
       r.items++;
       const l = bySource.get(item.source) ?? [];
       l.push({ item, blob });
@@ -204,7 +233,7 @@ export async function backfillIdentifiers(manifest: Manifest, mirrorsDir: string
       if (text == null) { r.missing++; continue; }
       let body = text;
       try { body = matter(text).content; } catch { /* malformed frontmatter: the whole text, as parsePage reads it */ }
-      manifest.save({ ...item, meta: { ...(item.meta ?? {}), identifiers: pageIdentifiers(body) } });
+      manifest.save({ ...item, meta: { ...(item.meta ?? {}), identifiers: pageIdentifiers(body), identifiers_rule: IDENTIFIERS_RULE } });
       r.filled++;
     }
   }
