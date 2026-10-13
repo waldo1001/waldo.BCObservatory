@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:14:37.586Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:37.620Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,14 +181,16 @@ After the Business Central Telemetry Power BI app is installed, it shows sample 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Power BI Telemetry Apps for Business Central | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=BOY2442wHSc&t=0s) |
-| Data Connection Configuration for Power BI | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=20s) |
-| API Access Menu for Application Insights ID | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s) |
-| Time Zone Configuration for Reports | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=BOY2442wHSc&t=98s) |
-| Refresh Period Configuration | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=118s) |
-| OAuth Authentication for Application Insights | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=140s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Power BI Telemetry Apps for Business Central | [0:00](https://www.youtube.com/watch?v=BOY2442wHSc&t=0s) |
+| Data Connection Configuration for Power BI | [0:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=20s) |
+| API Access Menu for Application Insights ID | [0:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=58s) |
+| Time Zone Configuration for Reports | [1:38](https://www.youtube.com/watch?v=BOY2442wHSc&t=98s) |
+| Refresh Period Configuration | [1:58](https://www.youtube.com/watch?v=BOY2442wHSc&t=118s) |
+| OAuth Authentication for Application Insights | [2:20](https://www.youtube.com/watch?v=BOY2442wHSc&t=140s) |
 
 ## AL objects mentioned
 

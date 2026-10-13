@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:44:48.287Z"
   flags: []
 generated:
-  at: "2026-10-07T22:44:48.320Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,16 +226,18 @@ It walks through finding the legacy subcontracting toggle, running the pre-check
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| New global subcontracting app | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=17s) |
-| Italian subcontracting migration app | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=nb_a42dmSqE&t=128s) |
-| Legacy subcontracting pre-check | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=nb_a42dmSqE&t=139s) |
-| Work in progress item migration handling | status not stated, demoed | [0:54](https://www.youtube.com/watch?v=nb_a42dmSqE&t=54s) |
-| Subcontracting application area toggle | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=nb_a42dmSqE&t=91s) |
-| Subcontracting purchase and transfer order views | status not stated, demoed | [8:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=497s) |
-| Vendor subcontracting field migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
-| Subcontracting prices migration | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| New global subcontracting app | [0:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=17s) |
+| Italian subcontracting migration app | [2:08](https://www.youtube.com/watch?v=nb_a42dmSqE&t=128s) |
+| Legacy subcontracting pre-check | [2:19](https://www.youtube.com/watch?v=nb_a42dmSqE&t=139s) |
+| Work in progress item migration handling | [0:54](https://www.youtube.com/watch?v=nb_a42dmSqE&t=54s) |
+| Subcontracting application area toggle | [1:31](https://www.youtube.com/watch?v=nb_a42dmSqE&t=91s) |
+| Subcontracting purchase and transfer order views | [8:17](https://www.youtube.com/watch?v=nb_a42dmSqE&t=497s) |
+| Vendor subcontracting field migration | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
+| Subcontracting prices migration | [4:28](https://www.youtube.com/watch?v=nb_a42dmSqE&t=268s) |
 
 ## AL objects mentioned
 

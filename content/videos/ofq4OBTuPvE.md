@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:06:07.042Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:07.079Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,10 +141,12 @@ Users describe what they want, and Copilot creates totals, pivots and filters. T
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot AI-Powered Analysis | status not stated | [0:12](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=12s) |
-| Trend and Outlier Exploration | status not stated | [0:28](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=28s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot AI-Powered Analysis | [0:12](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=12s) |
+| Trend and Outlier Exploration | [0:28](https://www.youtube.com/watch?v=ofq4OBTuPvE&t=28s) |
 
 ## Quotes
 

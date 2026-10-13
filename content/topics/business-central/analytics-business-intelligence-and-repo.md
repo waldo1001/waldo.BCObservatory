@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-13T00:33:07.078Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,6 +43,27 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ad-hoc-data-analysis-by-functional-area
     title: Ad-hoc data analysis by functional area
     date: "2024-05-01"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
+    title: admin manage fabric export
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
+    title: admin monitor fabric export
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+    title: admin set up fabric mirroring
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -159,6 +180,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
+    title: fabric faq
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-reports
     title: Fixed assets reports
     date: "2025-10-03"
@@ -267,34 +295,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     title: Power BI apps/reports for functional areas
     date: "2026-09-14"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/production-reports
-    title: Production Reports and Analytics
-    date: "2026-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/project-reports
-    title: Project Reports
-    date: "2026-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/purchase-reports
-    title: Purchasing reports and analytical tasks
-    date: "2026-09-18"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/projects-how-record-job-usage
-    title: Record Consumption or Usage of Project Resources and Items
-    date: "2026-07-03"
     commit: null
     t: null
     quote: null
@@ -638,7 +638,7 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/develop-reports
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 coverage:
-  learn: 66
+  learn: 70
   code: 310
   video: 0
   blog: 1
@@ -946,7 +946,7 @@ bc_forms:
   - 99000892
   - 99000915
   - 99000916
-member_hash: 5cff25e81fb0392ad53a97fa7a194447221fdea74e3cd6297124fe435945dffa
+member_hash: 86f36e5876157aa0f34ea2a4be204c3883aa1c79eb5fd61484c65b8899919986
 narrative: generated
 ---
 
@@ -982,7 +982,7 @@ Start with the overview page to pick the approach, then move to the subtopic tha
 - [Use reports in daily work](analytics-business-intelligence-and-repo/use-reports-in-daily-work.md) (8 pages)
 - [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md) (22 pages)
 - [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md) (12 pages)
-- [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md) (5 pages)
+- [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md) (9 pages)
 
 ## More Learn pages
 

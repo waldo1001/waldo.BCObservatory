@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:50:52.398Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:52.450Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,14 +190,16 @@ The video also covers viewing versions arranged by timestamp, saving a version m
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Agent Instruction History Autosave | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=WFAZLsUTk20&t=17s) |
-| Manual Save to History | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=30s) |
-| Download Instructions | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s) |
-| View Instruction History | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=WFAZLsUTk20&t=75s) |
-| Multi-select Download Versions | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=WFAZLsUTk20&t=116s) |
-| Instruction Version Naming | status not stated, demoed | [1:44](https://www.youtube.com/watch?v=WFAZLsUTk20&t=104s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Agent Instruction History Autosave | [0:17](https://www.youtube.com/watch?v=WFAZLsUTk20&t=17s) |
+| Manual Save to History | [0:30](https://www.youtube.com/watch?v=WFAZLsUTk20&t=30s) |
+| Download Instructions | [1:05](https://www.youtube.com/watch?v=WFAZLsUTk20&t=65s) |
+| View Instruction History | [1:15](https://www.youtube.com/watch?v=WFAZLsUTk20&t=75s) |
+| Multi-select Download Versions | [1:56](https://www.youtube.com/watch?v=WFAZLsUTk20&t=116s) |
+| Instruction Version Naming | [1:44](https://www.youtube.com/watch?v=WFAZLsUTk20&t=104s) |
 
 ## AL objects mentioned
 

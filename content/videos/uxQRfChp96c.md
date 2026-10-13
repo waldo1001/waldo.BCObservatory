@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:49:46.954Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:47.001Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -313,19 +313,21 @@ It then shows dimension perspectives for running a report across dimension value
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Tile view for financial reports | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=uxQRfChp96c&t=90s) |
-| Report categories | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=uxQRfChp96c&t=177s) |
-| Life cycle status for report definitions | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=uxQRfChp96c&t=228s) |
-| Company-specific default properties | status not stated, demoed | [6:12](https://www.youtube.com/watch?v=uxQRfChp96c&t=372s) |
-| Dimension perspectives | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=uxQRfChp96c&t=471s) |
-| Report scheduling | status not stated, demoed | [12:25](https://www.youtube.com/watch?v=uxQRfChp96c&t=745s) |
-| Report recurrence formula | status not stated, demoed | [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) |
-| Custom filters for scheduled reports | status not stated, demoed | [13:33](https://www.youtube.com/watch?v=uxQRfChp96c&t=813s) |
-| Schedule logs for reports | status not stated, demoed | [13:53](https://www.youtube.com/watch?v=uxQRfChp96c&t=833s) |
-| Audit log for financial reporting | status not stated, demoed | [14:14](https://www.youtube.com/watch?v=uxQRfChp96c&t=854s) |
-| Analysis mode for audit logs | status not stated, demoed | [15:15](https://www.youtube.com/watch?v=uxQRfChp96c&t=915s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Tile view for financial reports | [1:30](https://www.youtube.com/watch?v=uxQRfChp96c&t=90s) |
+| Report categories | [2:57](https://www.youtube.com/watch?v=uxQRfChp96c&t=177s) |
+| Life cycle status for report definitions | [3:48](https://www.youtube.com/watch?v=uxQRfChp96c&t=228s) |
+| Company-specific default properties | [6:12](https://www.youtube.com/watch?v=uxQRfChp96c&t=372s) |
+| Dimension perspectives | [7:51](https://www.youtube.com/watch?v=uxQRfChp96c&t=471s) |
+| Report scheduling | [12:25](https://www.youtube.com/watch?v=uxQRfChp96c&t=745s) |
+| Report recurrence formula | [13:09](https://www.youtube.com/watch?v=uxQRfChp96c&t=789s) |
+| Custom filters for scheduled reports | [13:33](https://www.youtube.com/watch?v=uxQRfChp96c&t=813s) |
+| Schedule logs for reports | [13:53](https://www.youtube.com/watch?v=uxQRfChp96c&t=833s) |
+| Audit log for financial reporting | [14:14](https://www.youtube.com/watch?v=uxQRfChp96c&t=854s) |
+| Analysis mode for audit logs | [15:15](https://www.youtube.com/watch?v=uxQRfChp96c&t=915s) |
 
 ## AL objects mentioned
 

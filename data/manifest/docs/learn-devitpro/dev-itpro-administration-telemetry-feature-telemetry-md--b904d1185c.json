@@ -59,7 +59,13 @@
       "sensitive"
     ],
     "ai_usage": "ai-assisted",
-    "words": 1272
+    "words": 1272,
+    "identifiers": [
+      "LogUsage",
+      "LogError",
+      "LogUptake",
+      "PerformWriteTransactionsInASeparateSession"
+    ]
   },
   "last_error": null,
   "retry_after": null,

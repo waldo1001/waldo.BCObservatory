@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:00:43.561Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:43.600Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -208,13 +208,15 @@ Second, non-inventory costs can be included in the production cost calculation. 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Production bill of material and routing on stock keeping unit | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=DHODFt_jVO4&t=5s) |
-| Standard cost per stock keeping unit | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=DHODFt_jVO4&t=26s) |
-| Calculate production standard cost function | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=DHODFt_jVO4&t=46s) |
-| Non-inventory cost inclusion in production cost calculation | status not stated, demoed | [2:08](https://www.youtube.com/watch?v=DHODFt_jVO4&t=128s) |
-| Cost shares page enhancements | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=DHODFt_jVO4&t=149s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Production bill of material and routing on stock keeping unit | [0:05](https://www.youtube.com/watch?v=DHODFt_jVO4&t=5s) |
+| Standard cost per stock keeping unit | [0:26](https://www.youtube.com/watch?v=DHODFt_jVO4&t=26s) |
+| Calculate production standard cost function | [0:46](https://www.youtube.com/watch?v=DHODFt_jVO4&t=46s) |
+| Non-inventory cost inclusion in production cost calculation | [2:08](https://www.youtube.com/watch?v=DHODFt_jVO4&t=128s) |
+| Cost shares page enhancements | [2:29](https://www.youtube.com/watch?v=DHODFt_jVO4&t=149s) |
 
 ## AL objects mentioned
 

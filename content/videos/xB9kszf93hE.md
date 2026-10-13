@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:38.435Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:38.471Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -191,12 +191,14 @@ The video then outlines the types of evaluations. Programmatic evaluation builds
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| AI evaluations framework | status not stated | [0:04](https://www.youtube.com/watch?v=xB9kszf93hE&t=4s) |
-| Programmatic evaluation with data-driven testing via YAML | status not stated | [3:20](https://www.youtube.com/watch?v=xB9kszf93hE&t=200s) |
-| LLM-based output evaluation | status not stated | [4:09](https://www.youtube.com/watch?v=xB9kszf93hE&t=249s) |
-| Agent benchmarking and observability | status not stated | [4:49](https://www.youtube.com/watch?v=xB9kszf93hE&t=289s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| AI evaluations framework | [0:04](https://www.youtube.com/watch?v=xB9kszf93hE&t=4s) |
+| Programmatic evaluation with data-driven testing via YAML | [3:20](https://www.youtube.com/watch?v=xB9kszf93hE&t=200s) |
+| LLM-based output evaluation | [4:09](https://www.youtube.com/watch?v=xB9kszf93hE&t=249s) |
+| Agent benchmarking and observability | [4:49](https://www.youtube.com/watch?v=xB9kszf93hE&t=289s) |
 
 ## Quotes
 

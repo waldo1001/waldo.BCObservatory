@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:02:42.454Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:42.493Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,10 +125,12 @@ This short video (published 2024-12-12) shows how allocation accounts split an e
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Generate lines from allocation account | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=xh63GaWwZqA&t=39s) |
-| Allocation accounts with equal split | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=xh63GaWwZqA&t=0s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Generate lines from allocation account | [0:39](https://www.youtube.com/watch?v=xh63GaWwZqA&t=39s) |
+| Allocation accounts with equal split | [0:00](https://www.youtube.com/watch?v=xh63GaWwZqA&t=0s) |
 
 ## Quotes
 

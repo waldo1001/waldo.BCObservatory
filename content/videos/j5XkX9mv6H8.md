@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:14:23.533Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:23.565Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -152,10 +152,12 @@ The presenter opens the configuration menu, then gets the connection string from
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Application Insights telemetry integration | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=0s) |
-| Connection string configuration UI | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=13s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Application Insights telemetry integration | [0:00](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=0s) |
+| Connection string configuration UI | [0:13](https://www.youtube.com/watch?v=j5XkX9mv6H8&t=13s) |
 
 ## Quotes
 

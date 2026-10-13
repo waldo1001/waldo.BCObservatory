@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:46:32.760Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:32.800Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -193,15 +193,17 @@ The second half covers the admin side. Administrators set the mileage rate per u
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Mileage expense creation | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=0s) |
-| Multi-route selection | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=60s) |
-| Automatic mileage rate calculation | status not stated, demoed | [1:23](https://www.youtube.com/watch?v=Fz8NLByllRc&t=83s) |
-| Round trip toggle | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Fz8NLByllRc&t=93s) |
-| Mileage rate configuration | status not stated, demoed | [2:24](https://www.youtube.com/watch?v=Fz8NLByllRc&t=144s) |
-| Shortest route enforcement option | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s) |
-| Automatic expense report matching | status not stated, demoed | [1:57](https://www.youtube.com/watch?v=Fz8NLByllRc&t=117s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Mileage expense creation | [0:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=0s) |
+| Multi-route selection | [1:00](https://www.youtube.com/watch?v=Fz8NLByllRc&t=60s) |
+| Automatic mileage rate calculation | [1:23](https://www.youtube.com/watch?v=Fz8NLByllRc&t=83s) |
+| Round trip toggle | [1:33](https://www.youtube.com/watch?v=Fz8NLByllRc&t=93s) |
+| Mileage rate configuration | [2:24](https://www.youtube.com/watch?v=Fz8NLByllRc&t=144s) |
+| Shortest route enforcement option | [3:01](https://www.youtube.com/watch?v=Fz8NLByllRc&t=181s) |
+| Automatic expense report matching | [1:57](https://www.youtube.com/watch?v=Fz8NLByllRc&t=117s) |
 
 ## AL objects mentioned
 

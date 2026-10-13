@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:04:36.876Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:36.915Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -217,17 +217,19 @@ It then covers searching from blanket orders as a source document, narrowing sea
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Improved keyword extraction for product search | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=63s) |
-| Context understanding for product queries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=118s) |
-| 10x faster product search | status not stated, demoed | [2:43](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=163s) |
-| Blanket order search and linking | status not stated, demoed | [3:48](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=228s) |
-| Document-specific item search | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=318s) |
-| Units of measure support | status not stated, demoed | [6:45](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=405s) |
-| CSV file support for sales line suggestions | status not stated, demoed | [7:32](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=452s) |
-| CSV column mapping and detection | status not stated, demoed | [9:34](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=574s) |
-| CSV mapping caching | status not stated, demoed | [12:06](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=726s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Improved keyword extraction for product search | [1:03](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=63s) |
+| Context understanding for product queries | [1:58](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=118s) |
+| 10x faster product search | [2:43](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=163s) |
+| Blanket order search and linking | [3:48](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=228s) |
+| Document-specific item search | [5:18](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=318s) |
+| Units of measure support | [6:45](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=405s) |
+| CSV file support for sales line suggestions | [7:32](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=452s) |
+| CSV column mapping and detection | [9:34](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=574s) |
+| CSV mapping caching | [12:06](https://www.youtube.com/watch?v=_1LhwG2ZgFw&t=726s) |
 
 ## AL objects mentioned
 

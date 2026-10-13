@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:57:58.829Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:58.867Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,13 +188,15 @@ The third is deploying artifacts from a pull request directly to an online envir
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Dependency Install Mode | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=25s) |
-| Test Apps Deployment | status not stated, demoed | [2:35](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=155s) |
-| Pull Request Artifact Deployment | status not stated, demoed | [5:05](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=305s) |
-| Incremental Builds with PR Artifacts | status not stated, demoed | [7:06](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=426s) |
-| Automatic Test App Exclusion by Dependencies | status not stated, demoed | [4:45](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=285s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Dependency Install Mode | [0:25](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=25s) |
+| Test Apps Deployment | [2:35](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=155s) |
+| Pull Request Artifact Deployment | [5:05](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=305s) |
+| Incremental Builds with PR Artifacts | [7:06](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=426s) |
+| Automatic Test App Exclusion by Dependencies | [4:45](https://www.youtube.com/watch?v=px1MOyXfmnQ&t=285s) |
 
 ## AL objects mentioned
 

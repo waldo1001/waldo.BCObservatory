@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:48:19.491Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:19.529Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -158,12 +158,14 @@ The demo then shows the review step. The agent uses AI and historical data to su
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Payables agent | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=11s) |
-| Invoice data extraction | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
-| AI-powered invoice suggestions | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
-| Manual invoice review and confirmation | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=43s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Payables agent | [0:11](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=11s) |
+| Invoice data extraction | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
+| AI-powered invoice suggestions | [0:27](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=27s) |
+| Manual invoice review and confirmation | [0:43](https://www.youtube.com/watch?v=uh5S1i7uDlo&t=43s) |
 
 ## Quotes
 

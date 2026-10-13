@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11850",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11850",
+  "published_at": "2026-10-12T17:42:40Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T00:27:25.816Z"
+    }
+  },
+  "input_hash": "6781c92e5645516bde0b022d1f05cd935f783f2a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11850,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "6781c92e5645516bde0b022d1f05cd935f783f2a",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master picking list by order report 15103 keeps just the first comment entered on the order lines in the united states version"
+  }
+}

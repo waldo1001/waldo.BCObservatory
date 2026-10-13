@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:05:06.113Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:06.159Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,14 +198,16 @@ The demo starts with a service management module rollout and generates a series 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Suggest Number Series with Copilot | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=7s) |
-| Number Series Year Number Inclusion | status not stated, demoed | [2:11](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=131s) |
-| Automatic Number Series Update | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=192s) |
-| Number Series Year Preparation | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=232s) |
-| Prompt Guides for Number Series | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=111s) |
-| Complete Company Number Series Generation | status not stated, demoed | [5:29](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=329s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Suggest Number Series with Copilot | [0:07](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=7s) |
+| Number Series Year Number Inclusion | [2:11](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=131s) |
+| Automatic Number Series Update | [3:12](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=192s) |
+| Number Series Year Preparation | [3:52](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=232s) |
+| Prompt Guides for Number Series | [1:51](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=111s) |
+| Complete Company Number Series Generation | [5:29](https://www.youtube.com/watch?v=MpDKjl7zzdk&t=329s) |
 
 ## AL objects mentioned
 

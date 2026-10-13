@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:58:35.182Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:35.226Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -189,13 +189,15 @@ The SOAP telemetry is meant to help find integrations that must stop using SOAP 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Financial Reporting Usage Telemetry | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=68s) |
-| Financial Reporting Definition Changes Telemetry | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=169s) |
-| Client Add-ins Exception Telemetry | status not stated, demoed | [4:47](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=287s) |
-| Server-side Certificate Validation Telemetry | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=389s) |
-| Deprecated SOAP Protocol Detection | status not stated, demoed | [7:31](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=451s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Financial Reporting Usage Telemetry | [1:08](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=68s) |
+| Financial Reporting Definition Changes Telemetry | [2:49](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=169s) |
+| Client Add-ins Exception Telemetry | [4:47](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=287s) |
+| Server-side Certificate Validation Telemetry | [6:29](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=389s) |
+| Deprecated SOAP Protocol Detection | [7:31](https://www.youtube.com/watch?v=hS8yWS3bxWE&t=451s) |
 
 ## AL objects mentioned
 

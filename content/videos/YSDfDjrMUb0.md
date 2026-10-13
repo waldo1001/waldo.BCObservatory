@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:46:16.312Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:16.357Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -354,24 +354,26 @@ It then covers B2B company synchronization and catalogs (with a recommendation f
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Tariff code synchronization | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |
-| Find mapping by barcode | status not stated, demoed | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |
-| Unlisted product status | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |
-| Skipped records tracking | status not stated, demoed | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |
-| Provide feedback mechanism | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |
-| B2B company synchronization | status not stated, demoed | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |
-| Market-based catalogs | status not stated, demoed | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |
-| Company location tax registration import | status not stated, demoed | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
-| Shopify Connector localization extensions - Belgium and US | status not stated, demoed | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
-| Shopify order number in sales documents | status not stated, demoed | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
-| Contact numbers on sales orders | status not stated, demoed | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
-| Multi-line order handling and returns | status not stated, demoed | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
-| Return order processing from Shopify refunds | status not stated, demoed | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
-| Move negative lines in return orders | status not stated, demoed | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
-| Tax details on Shopify refunds and orders | status not stated, demoed | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
-| Tax area code and tax liable mapping override | status not stated, demoed | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Tariff code synchronization | [1:06](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=66s) |
+| Find mapping by barcode | [2:05](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=125s) |
+| Unlisted product status | [2:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=177s) |
+| Skipped records tracking | [3:57](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=237s) |
+| Provide feedback mechanism | [5:12](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=312s) |
+| B2B company synchronization | [6:39](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=399s) |
+| Market-based catalogs | [7:47](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=467s) |
+| Company location tax registration import | [12:31](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=751s) |
+| Shopify Connector localization extensions - Belgium and US | [13:24](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=804s) |
+| Shopify order number in sales documents | [14:40](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=880s) |
+| Contact numbers on sales orders | [15:48](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=948s) |
+| Multi-line order handling and returns | [17:08](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1028s) |
+| Return order processing from Shopify refunds | [18:11](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1091s) |
+| Move negative lines in return orders | [18:58](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1138s) |
+| Tax details on Shopify refunds and orders | [20:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1218s) |
+| Tax area code and tax liable mapping override | [21:18](https://www.youtube.com/watch?v=YSDfDjrMUb0&t=1278s) |
 
 ## Quotes
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:20:19.238Z"
   flags: []
 generated:
-  at: "2026-10-07T23:20:19.312Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -292,25 +292,27 @@ The second half focuses on report layouts. The speaker says AI handles RDL reaso
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Expense management agent | status not stated | [6:34](https://www.youtube.com/watch?v=c91E6IykUnk&t=394s) |
-| BC quality workflow with agenting and code review | status not stated | [8:08](https://www.youtube.com/watch?v=c91E6IykUnk&t=488s) |
-| GitHub Copilot for AL development | status not stated | [14:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=880s) |
-| Multi-agent workflow for development | status not stated | [19:19](https://www.youtube.com/watch?v=c91E6IykUnk&t=1159s) |
-| Instruction files and sub-agents for Copilot | status not stated | [18:52](https://www.youtube.com/watch?v=c91E6IykUnk&t=1132s) |
-| Automated screenshot generation with Playwright | status not stated | [24:14](https://www.youtube.com/watch?v=c91E6IykUnk&t=1454s) |
-| Agent-driven documentation generation | status not stated | [22:00](https://www.youtube.com/watch?v=c91E6IykUnk&t=1320s) |
-| AI assistance for RDL report creation | status not stated | [29:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=1773s) |
-| AI assistance for Word layout design | status not stated | [29:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1789s) |
-| Microsoft shift from RDLC to Word layouts | status not stated | [28:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1729s) |
-| RDLC layout continued support | status not stated | [36:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=2200s) |
-| AI-powered performance analysis for profiler data | status not stated | [37:25](https://www.youtube.com/watch?v=c91E6IykUnk&t=2245s) |
-| XRechnung and ZUGFeRD e-invoice support | status not stated | [28:36](https://www.youtube.com/watch?v=c91E6IykUnk&t=1716s) |
-| Telemetry analysis through MCP | status not stated | [40:26](https://www.youtube.com/watch?v=c91E6IykUnk&t=2426s) |
-| AI-powered proactive telemetry monitoring | status not stated | [41:37](https://www.youtube.com/watch?v=c91E6IykUnk&t=2497s) |
-| Telemetry for code refactoring identification | status not stated | [42:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=2553s) |
-| AI development assistants (Claude, GitHub Copilot, Gemini) | status not stated | [44:05](https://www.youtube.com/watch?v=c91E6IykUnk&t=2645s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Expense management agent | [6:34](https://www.youtube.com/watch?v=c91E6IykUnk&t=394s) |
+| BC quality workflow with agenting and code review | [8:08](https://www.youtube.com/watch?v=c91E6IykUnk&t=488s) |
+| GitHub Copilot for AL development | [14:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=880s) |
+| Multi-agent workflow for development | [19:19](https://www.youtube.com/watch?v=c91E6IykUnk&t=1159s) |
+| Instruction files and sub-agents for Copilot | [18:52](https://www.youtube.com/watch?v=c91E6IykUnk&t=1132s) |
+| Automated screenshot generation with Playwright | [24:14](https://www.youtube.com/watch?v=c91E6IykUnk&t=1454s) |
+| Agent-driven documentation generation | [22:00](https://www.youtube.com/watch?v=c91E6IykUnk&t=1320s) |
+| AI assistance for RDL report creation | [29:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=1773s) |
+| AI assistance for Word layout design | [29:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1789s) |
+| Microsoft shift from RDLC to Word layouts | [28:49](https://www.youtube.com/watch?v=c91E6IykUnk&t=1729s) |
+| RDLC layout continued support | [36:40](https://www.youtube.com/watch?v=c91E6IykUnk&t=2200s) |
+| AI-powered performance analysis for profiler data | [37:25](https://www.youtube.com/watch?v=c91E6IykUnk&t=2245s) |
+| XRechnung and ZUGFeRD e-invoice support | [28:36](https://www.youtube.com/watch?v=c91E6IykUnk&t=1716s) |
+| Telemetry analysis through MCP | [40:26](https://www.youtube.com/watch?v=c91E6IykUnk&t=2426s) |
+| AI-powered proactive telemetry monitoring | [41:37](https://www.youtube.com/watch?v=c91E6IykUnk&t=2497s) |
+| Telemetry for code refactoring identification | [42:33](https://www.youtube.com/watch?v=c91E6IykUnk&t=2553s) |
+| AI development assistants (Claude, GitHub Copilot, Gemini) | [44:05](https://www.youtube.com/watch?v=c91E6IykUnk&t=2645s) |
 
 ## AL objects mentioned
 

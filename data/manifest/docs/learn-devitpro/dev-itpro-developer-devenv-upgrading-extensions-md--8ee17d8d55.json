@@ -50,7 +50,24 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2087
+    "words": 2087,
+    "identifiers": [
+      "PerCompany",
+      "PerDatabase",
+      "AppVersion",
+      "DataVersion",
+      "ModuleInfo",
+      "TagCompanyName",
+      "PerCompanyUpgradeTags",
+      "PerDatabaseUpgradeTags",
+      "OnGetPerCompanyUpgradeTags",
+      "OnGetPerDatabaseUpgradeTags",
+      "SetAllUpgradeTags",
+      "SetUpgradeTag",
+      "OnInstallAppPerCompany",
+      "OnInstallAppPerDatabase",
+      "ExecutionContext"
+    ]
   },
   "last_error": null,
   "retry_after": null,

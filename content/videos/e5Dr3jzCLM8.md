@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:13:28.482Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:28.527Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,14 +176,16 @@ The video says orders from Shopify flow into Business Central for fulfillment, i
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Shopify integration with Business Central | status not stated | [0:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=0s) |
-| Automatic inventory synchronization | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
-| Automatic order fulfillment | status not stated | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
-| Multi-location warehouse management | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
-| Financial visibility and reporting | status not stated | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
-| Microsoft Office integration | status not stated | [1:21](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=81s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Shopify integration with Business Central | [0:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=0s) |
+| Automatic inventory synchronization | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
+| Automatic order fulfillment | [0:40](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=40s) |
+| Multi-location warehouse management | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
+| Financial visibility and reporting | [1:00](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=60s) |
+| Microsoft Office integration | [1:21](https://www.youtube.com/watch?v=e5Dr3jzCLM8&t=81s) |
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:06:12.688Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:12.727Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -194,13 +194,15 @@ The demo covers the suggest vendor payments criteria, such as the last payment d
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Payment Journals | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=44s) |
-| Suggest Vendor Payments | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=65s) |
-| Vendor Priority | status not stated, demoed | [2:20](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=140s) |
-| Payment Discount Application | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=85s) |
-| Summarize Per Vendor Option | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=174s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Payment Journals | [0:44](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=44s) |
+| Suggest Vendor Payments | [1:05](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=65s) |
+| Vendor Priority | [2:20](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=140s) |
+| Payment Discount Application | [1:25](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=85s) |
+| Summarize Per Vendor Option | [2:54](https://www.youtube.com/watch?v=z4Ri5SAqUcc&t=174s) |
 
 ## AL objects mentioned
 

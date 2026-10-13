@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:21:13.906Z"
   flags: []
 generated:
-  at: "2026-10-07T23:21:13.944Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -160,12 +160,14 @@ One speaker describes feeling overwhelmed when Copilot instructions, skills and 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot instructions | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
-| Copilot skills | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
-| Copilot agents | status not stated | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
-| Copilot prompt creation | status not stated | [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot instructions | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot skills | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot agents | [0:26](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=26s) |
+| Copilot prompt creation | [0:44](https://www.youtube.com/watch?v=GlY_e-jH0V0&t=44s) |
 
 ## Quotes
 

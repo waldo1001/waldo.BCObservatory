@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:19.022Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:19.062Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -175,12 +175,14 @@ He then connects the date filters to spreadsheet cells with cell references, exp
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| FlowFields in Spreadsheets | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=11s) |
-| Date Range Regions | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=96s) |
-| Cell References in Filters | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=169s) |
-| Slicers in Spreadsheets | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=238s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| FlowFields in Spreadsheets | [0:11](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=11s) |
+| Date Range Regions | [1:36](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=96s) |
+| Cell References in Filters | [2:49](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=169s) |
+| Slicers in Spreadsheets | [3:58](https://www.youtube.com/watch?v=8D8IFkqeTLU&t=238s) |
 
 ## AL objects mentioned
 

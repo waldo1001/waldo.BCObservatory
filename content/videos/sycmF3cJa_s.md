@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:55:51.416Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:51.454Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -147,11 +147,13 @@ The optimization options reflect reasons why different print shops place certain
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot Assisted Scheduling | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=sycmF3cJa_s&t=5s) |
-| Optimization Options | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=sycmF3cJa_s&t=29s) |
-| Schedule Loading | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Copilot Assisted Scheduling | [0:05](https://www.youtube.com/watch?v=sycmF3cJa_s&t=5s) |
+| Optimization Options | [0:29](https://www.youtube.com/watch?v=sycmF3cJa_s&t=29s) |
+| Schedule Loading | [0:55](https://www.youtube.com/watch?v=sycmF3cJa_s&t=55s) |
 
 ## Quotes
 

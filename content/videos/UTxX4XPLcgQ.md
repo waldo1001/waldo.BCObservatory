@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:09:49.041Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:49.079Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -226,16 +226,18 @@ It then shows reminder automation. Reminders are created, issued and sent throug
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Account Receivables Administrator Role Center | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=47s) |
-| Reminder Automation with Batch Jobs | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=148s) |
-| Reminder Creation with Overdue Amount Filter | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=193s) |
-| Reminder Automation Code Filtering | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=252s) |
-| Email Sending with Invoice Attachments | status not stated, demoed | [5:48](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=348s) |
-| Automation Scheduling Options | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=389s) |
-| Reminder Terms Customer Communication Setup | status not stated, demoed | [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s) |
-| Level-Based Email Customization | status not stated, demoed | [10:53](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=653s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Account Receivables Administrator Role Center | [0:47](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=47s) |
+| Reminder Automation with Batch Jobs | [2:28](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=148s) |
+| Reminder Creation with Overdue Amount Filter | [3:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=193s) |
+| Reminder Automation Code Filtering | [4:12](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=252s) |
+| Email Sending with Invoice Attachments | [5:48](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=348s) |
+| Automation Scheduling Options | [6:29](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=389s) |
+| Reminder Terms Customer Communication Setup | [10:13](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=613s) |
+| Level-Based Email Customization | [10:53](https://www.youtube.com/watch?v=UTxX4XPLcgQ&t=653s) |
 
 ## AL objects mentioned
 

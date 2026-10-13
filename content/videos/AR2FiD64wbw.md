@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:02:43.657Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:43.713Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -201,16 +201,18 @@ It covers meta fields linked to products or variants, translations through a new
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Meta Fields Import/Export | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
-| Language Translation Synchronization | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
-| Company Catalogs Pricing Sync | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
-| Customer-Specific Discounts and Orders | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
-| Enhanced Shipping Fee Mapping | status not stated | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) |
-| Shipping Methods in Sales Orders | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
-| Payment Method Reconciliation | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
-| Posted Sales Invoice Synchronization | status not stated | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Meta Fields Import/Export | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Language Translation Synchronization | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Company Catalogs Pricing Sync | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Customer-Specific Discounts and Orders | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Enhanced Shipping Fee Mapping | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) |
+| Shipping Methods in Sales Orders | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Payment Method Reconciliation | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Posted Sales Invoice Synchronization | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |
 
 ## Quotes
 

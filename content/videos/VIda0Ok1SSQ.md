@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:16.493Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:16.533Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,11 +151,13 @@ It then shows two fields in general ledger setup that define the window in which
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Deferral Posting Controls | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=0s) |
-| User-Level Deferral Posting Overrides | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s) |
-| Deferral Templates | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=16s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Deferral Posting Controls | [0:00](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=0s) |
+| User-Level Deferral Posting Overrides | [1:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=76s) |
+| Deferral Templates | [0:16](https://www.youtube.com/watch?v=VIda0Ok1SSQ&t=16s) |
 
 ## AL objects mentioned
 

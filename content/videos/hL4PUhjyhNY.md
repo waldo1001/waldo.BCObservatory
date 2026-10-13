@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:58:39.091Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:39.132Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -242,18 +242,20 @@ It then walks through three new localization apps. They are pre-installed in the
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| E-Documents Core App | status not stated | [0:18](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=18s) |
-| Peppol B3 Format (Global) | status not stated | [0:59](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=59s) |
-| Germany E-Documents Localization (Factura and UBL) | status not stated | [2:19](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=139s) |
-| Germany By-Reference Mandatory Field | status not stated | [2:43](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=163s) |
-| Germany Reference Configuration on Customer Card | status not stated | [3:08](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=188s) |
-| Spain Factura Format (A3-2.2 Version) | status not stated | [3:51](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=231s) |
-| Spain Credit Memo Factura Reason Code | status not stated | [4:17](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=257s) |
-| Australia and New Zealand E-Documents (Peppol and Pint/Zed) | status not stated | [5:02](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=302s) |
-| PDF/A Format Support | status not stated | [6:11](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=371s) |
-| E-Document Service Connectors | status not stated | [5:47](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=347s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| E-Documents Core App | [0:18](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=18s) |
+| Peppol B3 Format (Global) | [0:59](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=59s) |
+| Germany E-Documents Localization (Factura and UBL) | [2:19](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=139s) |
+| Germany By-Reference Mandatory Field | [2:43](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=163s) |
+| Germany Reference Configuration on Customer Card | [3:08](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=188s) |
+| Spain Factura Format (A3-2.2 Version) | [3:51](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=231s) |
+| Spain Credit Memo Factura Reason Code | [4:17](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=257s) |
+| Australia and New Zealand E-Documents (Peppol and Pint/Zed) | [5:02](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=302s) |
+| PDF/A Format Support | [6:11](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=371s) |
+| E-Document Service Connectors | [5:47](https://www.youtube.com/watch?v=hL4PUhjyhNY&t=347s) |
 
 ## AL objects mentioned
 

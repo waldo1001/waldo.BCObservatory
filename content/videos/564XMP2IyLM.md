@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:13:53.105Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:53.141Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,11 +184,13 @@ Using the job queue log entry table as an example, it sets a retention period an
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Retention Policies | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=564XMP2IyLM&t=0s) |
-| Default Retention Policies | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=23s) |
-| Filtered Retention Policies | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Retention Policies | [0:00](https://www.youtube.com/watch?v=564XMP2IyLM&t=0s) |
+| Default Retention Policies | [0:23](https://www.youtube.com/watch?v=564XMP2IyLM&t=23s) |
+| Filtered Retention Policies | [0:43](https://www.youtube.com/watch?v=564XMP2IyLM&t=43s) |
 
 ## AL objects mentioned
 

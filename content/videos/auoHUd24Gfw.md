@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:11:18.899Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:18.936Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,16 +245,18 @@ It then explains the multi-company feature. A custom Dataverse mapping plugin an
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Multi-company support through Dataverse shared execution variable | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=auoHUd24Gfw&t=34s) |
-| Anonymous read-only access for external users without licensing | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=auoHUd24Gfw&t=151s) |
-| Authenticated access for external users after registration | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
-| Authenticated access for internal licensed users | status not stated, demoed | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
-| Custom Dataverse mapping plugin for company targeting | status not stated, demoed | [5:07](https://www.youtube.com/watch?v=auoHUd24Gfw&t=307s) |
-| Global company setting for virtual tables | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
-| User-specific company setting override | status not stated, demoed | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
-| Portal ID retrieval from Power Pages URL | status not stated, demoed | [13:55](https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Multi-company support through Dataverse shared execution variable | [0:34](https://www.youtube.com/watch?v=auoHUd24Gfw&t=34s) |
+| Anonymous read-only access for external users without licensing | [2:31](https://www.youtube.com/watch?v=auoHUd24Gfw&t=151s) |
+| Authenticated access for external users after registration | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
+| Authenticated access for internal licensed users | [3:12](https://www.youtube.com/watch?v=auoHUd24Gfw&t=192s) |
+| Custom Dataverse mapping plugin for company targeting | [5:07](https://www.youtube.com/watch?v=auoHUd24Gfw&t=307s) |
+| Global company setting for virtual tables | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
+| User-specific company setting override | [1:10](https://www.youtube.com/watch?v=auoHUd24Gfw&t=70s) |
+| Portal ID retrieval from Power Pages URL | [13:55](https://www.youtube.com/watch?v=auoHUd24Gfw&t=835s) |
 
 ## AL objects mentioned
 

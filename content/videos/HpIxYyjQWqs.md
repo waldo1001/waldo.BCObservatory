@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:56:22.254Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:22.288Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -222,14 +222,16 @@ It then compares two ways of entering lines, with and without balancing accounts
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| General journals | status not stated | [0:16](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=16s) |
-| Journal templates | status not stated | [0:39](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=39s) |
-| Journal entry without balancing accounts | status not stated | [1:04](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=64s) |
-| Journal entry with balancing accounts | status not stated | [1:25](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=85s) |
-| General journal test action | status not stated | [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) |
-| Reverse register action | status not stated | [2:07](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| General journals | [0:16](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=16s) |
+| Journal templates | [0:39](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=39s) |
+| Journal entry without balancing accounts | [1:04](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=64s) |
+| Journal entry with balancing accounts | [1:25](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=85s) |
+| General journal test action | [1:41](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=101s) |
+| Reverse register action | [2:07](https://www.youtube.com/watch?v=HpIxYyjQWqs&t=127s) |
 
 ## AL objects mentioned
 

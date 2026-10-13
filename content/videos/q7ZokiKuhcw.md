@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:08:19.821Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:19.844Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -164,10 +164,12 @@ It then goes to the Company Information page and shows how to set the badge styl
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Company Badges | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=0s) |
-| Environment Type Badge Shape | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=52s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Company Badges | [0:00](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=0s) |
+| Environment Type Badge Shape | [0:52](https://www.youtube.com/watch?v=q7ZokiKuhcw&t=52s) |
 
 ## AL objects mentioned
 

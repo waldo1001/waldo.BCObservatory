@@ -37,7 +37,21 @@
       "telemetry"
     ],
     "ai_usage": null,
-    "words": 1365
+    "words": 1365,
+    "identifiers": [
+      "apiVersion",
+      "applicationFamily",
+      "environmentName",
+      "preferredStartTimeUtc",
+      "preferredEndTimeUtc",
+      "preferredStartTime",
+      "preferredEndTime",
+      "timeZoneId",
+      "environmentNotFound",
+      "requestBodyRequired",
+      "ScheduledUpgradeConstraintViolation",
+      "cannotSetAppInsightsKey"
+    ]
   },
   "last_error": null,
   "retry_after": null,

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:09:29.388Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:29.431Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -354,24 +354,26 @@ It then demos archiving projects and assembly-to-order in projects, including qu
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Jobs renamed to Projects | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=63s) |
-| Project details box visible by default | status not stated, demoed | [2:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=151s) |
-| Power BI reports in Project list | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=dD_2NEs3A40&t=165s) |
-| Location code initialization in project task lines | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=211s) |
-| Budget and posting date copying in project lines | status not stated, demoed | [4:10](https://www.youtube.com/watch?v=dD_2NEs3A40&t=250s) |
-| BOM explosion in projects | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=dD_2NEs3A40&t=268s) |
-| Archive projects | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=dD_2NEs3A40&t=298s) |
-| Assembly-to-order in projects | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=dD_2NEs3A40&t=385s) |
-| Assembly policy setting in projects | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=434s) |
-| Inventory and pick warehousing for assembly | status not stated, demoed | [10:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=614s) |
-| Warehouse pick creation for assembly | status not stated, demoed | [11:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=663s) |
-| Multiple Customer Billing | status not stated, demoed | [14:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=847s) |
-| Price Updates for Different Billing Customers | status not stated, demoed | [16:12](https://www.youtube.com/watch?v=dD_2NEs3A40&t=972s) |
-| Project Task Card | status not stated, demoed | [17:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1027s) |
-| Currency Handling in Project Invoicing | status not stated, demoed | [18:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1109s) |
-| Get Project Planning Lines Function | status not stated, demoed | [20:36](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1236s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Jobs renamed to Projects | [1:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=63s) |
+| Project details box visible by default | [2:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=151s) |
+| Power BI reports in Project list | [2:45](https://www.youtube.com/watch?v=dD_2NEs3A40&t=165s) |
+| Location code initialization in project task lines | [3:31](https://www.youtube.com/watch?v=dD_2NEs3A40&t=211s) |
+| Budget and posting date copying in project lines | [4:10](https://www.youtube.com/watch?v=dD_2NEs3A40&t=250s) |
+| BOM explosion in projects | [4:28](https://www.youtube.com/watch?v=dD_2NEs3A40&t=268s) |
+| Archive projects | [4:58](https://www.youtube.com/watch?v=dD_2NEs3A40&t=298s) |
+| Assembly-to-order in projects | [6:25](https://www.youtube.com/watch?v=dD_2NEs3A40&t=385s) |
+| Assembly policy setting in projects | [7:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=434s) |
+| Inventory and pick warehousing for assembly | [10:14](https://www.youtube.com/watch?v=dD_2NEs3A40&t=614s) |
+| Warehouse pick creation for assembly | [11:03](https://www.youtube.com/watch?v=dD_2NEs3A40&t=663s) |
+| Multiple Customer Billing | [14:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=847s) |
+| Price Updates for Different Billing Customers | [16:12](https://www.youtube.com/watch?v=dD_2NEs3A40&t=972s) |
+| Project Task Card | [17:07](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1027s) |
+| Currency Handling in Project Invoicing | [18:29](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1109s) |
+| Get Project Planning Lines Function | [20:36](https://www.youtube.com/watch?v=dD_2NEs3A40&t=1236s) |
 
 ## AL objects mentioned
 

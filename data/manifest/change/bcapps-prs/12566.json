@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12566",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Update tooltips to reflect Microsoft Entra terminology in Fabric setup pages",
+  "url": "https://github.com/microsoft/BCApps/pull/12566",
+  "published_at": "2026-10-12T12:08:15Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T00:27:25.816Z"
+    }
+  },
+  "input_hash": "f118c4b8a894c01baa6c6c6cee7e05641256ff71:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12566,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f118c4b8a894c01baa6c6c6cee7e05641256ff71",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "update tooltips to reflect microsoft entra terminology in fabric setup pages"
+  }
+}

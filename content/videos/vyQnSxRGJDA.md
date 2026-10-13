@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:02.767Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:02.800Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -223,16 +223,18 @@ A demo in the expense agent web app shows a submitter uploading an itinerary. Th
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Per Diem Allowance Calculation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=12s) |
-| Expense Agent Wizard Configuration | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=27s) |
-| Itinerary Detection and Classification | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
-| Automatic Location Detection | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=157s) |
-| Meal Reduction Configuration and Application | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=76s) |
-| Per Diem Trip Period Detection | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=121s) |
-| Per Diem Expense Web Application | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
-| Per Diem Admin Settings Tab | status not stated, demoed | [4:22](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=262s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Per Diem Allowance Calculation | [0:12](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=12s) |
+| Expense Agent Wizard Configuration | [0:27](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=27s) |
+| Itinerary Detection and Classification | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
+| Automatic Location Detection | [2:37](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=157s) |
+| Meal Reduction Configuration and Application | [1:16](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=76s) |
+| Per Diem Trip Period Detection | [2:01](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=121s) |
+| Per Diem Expense Web Application | [1:50](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=110s) |
+| Per Diem Admin Settings Tab | [4:22](https://www.youtube.com/watch?v=vyQnSxRGJDA&t=262s) |
 
 ## Quotes
 

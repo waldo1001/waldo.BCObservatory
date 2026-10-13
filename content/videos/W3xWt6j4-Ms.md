@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:06:40.749Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:40.785Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -202,16 +202,18 @@ The demo covers how accounts and their categories come across with the cloud mig
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Account Schedules | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=38s) |
-| Account Categories and Subcategories | status not stated, demoed | [1:04](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=64s) |
-| Account Schedule Row Definitions and Formulas | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=158s) |
-| Account Schedule Column Layouts | status not stated, demoed | [2:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=178s) |
-| Dimension Filtering for Account Schedules | status not stated, demoed | [3:32](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=212s) |
-| Drill Down into Account Schedule Details | status not stated, demoed | [3:43](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=223s) |
-| Account Schedule Export to Excel | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=238s) |
-| Account Schedule Import and Export Across Companies | status not stated, demoed | [4:13](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=253s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Account Schedules | [0:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=38s) |
+| Account Categories and Subcategories | [1:04](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=64s) |
+| Account Schedule Row Definitions and Formulas | [2:38](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=158s) |
+| Account Schedule Column Layouts | [2:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=178s) |
+| Dimension Filtering for Account Schedules | [3:32](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=212s) |
+| Drill Down into Account Schedule Details | [3:43](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=223s) |
+| Account Schedule Export to Excel | [3:58](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=238s) |
+| Account Schedule Import and Export Across Companies | [4:13](https://www.youtube.com/watch?v=W3xWt6j4-Ms&t=253s) |
 
 ## Quotes
 

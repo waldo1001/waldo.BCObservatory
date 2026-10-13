@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:24.929Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:24.967Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -143,10 +143,12 @@ The resource can be created in classic or workspace-based mode. The presenter sa
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Application Insights for Business Central Telemetry | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=0s) |
-| Workspace-based Application Insights Mode | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=82s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Application Insights for Business Central Telemetry | [0:00](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=0s) |
+| Workspace-based Application Insights Mode | [1:22](https://www.youtube.com/watch?v=MYZOkoSmtZ0&t=82s) |
 
 ## Quotes
 

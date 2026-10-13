@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:05:56.829Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:56.883Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,12 +184,14 @@ The demo also covers exploring a page from the page inspector in VS Code, making
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Open In VS Code action on extension management page | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=127s) |
-| Source Control Details section in extension management | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) |
-| Automatic population of Source Control Details via AL-Go for GitHub | status not stated, demoed | [4:17](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s) |
-| Repository reopen functionality in VS Code | status not stated, demoed | [4:58](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=298s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Open In VS Code action on extension management page | [2:07](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=127s) |
+| Source Control Details section in extension management | [1:31](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=91s) |
+| Automatic population of Source Control Details via AL-Go for GitHub | [4:17](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=257s) |
+| Repository reopen functionality in VS Code | [4:58](https://www.youtube.com/watch?v=8t3WaWh7K9Y&t=298s) |
 
 ## AL objects mentioned
 

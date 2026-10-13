@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:04.796Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:04.836Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,15 +198,17 @@ Default dimensions on the employee record, such as department and sales person, 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Expense Agent | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=54uIhzZq3Os&t=0s) |
-| Default dimensions on employee records | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=54uIhzZq3Os&t=52s) |
-| Billable information on expenses | status not stated, demoed | [1:54](https://www.youtube.com/watch?v=54uIhzZq3Os&t=114s) |
-| Posted expense report ledger entries | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=54uIhzZq3Os&t=162s) |
-| Pay employee function | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=54uIhzZq3Os&t=211s) |
-| Employee account type in payment journal | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=54uIhzZq3Os&t=236s) |
-| Project billable cost tracking for expenses | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=54uIhzZq3Os&t=260s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Expense Agent | [0:00](https://www.youtube.com/watch?v=54uIhzZq3Os&t=0s) |
+| Default dimensions on employee records | [0:52](https://www.youtube.com/watch?v=54uIhzZq3Os&t=52s) |
+| Billable information on expenses | [1:54](https://www.youtube.com/watch?v=54uIhzZq3Os&t=114s) |
+| Posted expense report ledger entries | [2:42](https://www.youtube.com/watch?v=54uIhzZq3Os&t=162s) |
+| Pay employee function | [3:31](https://www.youtube.com/watch?v=54uIhzZq3Os&t=211s) |
+| Employee account type in payment journal | [3:56](https://www.youtube.com/watch?v=54uIhzZq3Os&t=236s) |
+| Project billable cost tracking for expenses | [4:20](https://www.youtube.com/watch?v=54uIhzZq3Os&t=260s) |
 
 ## AL objects mentioned
 

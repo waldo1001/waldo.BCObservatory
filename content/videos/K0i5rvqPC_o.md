@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:51:06.969Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:07.007Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -242,17 +242,19 @@ The demo goes from the agents tasks page to the task log and into view details. 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Agent decision-making framework | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=17s) |
-| Agent task logging and view log entries | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=136s) |
-| Agent view details page | status not stated, demoed | [2:45](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=165s) |
-| What the agent saw section | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=190s) |
-| What tools the agent had access to | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=268s) |
-| What data the agent memorized section | status not stated, demoed | [4:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=292s) |
-| What messages the agent had access to section | status not stated, demoed | [5:18](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=318s) |
-| Page stack fact box | status not stated, demoed | [5:39](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=339s) |
-| Agent settings and formatting | status not stated, demoed | [5:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=352s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Agent decision-making framework | [0:17](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=17s) |
+| Agent task logging and view log entries | [2:16](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=136s) |
+| Agent view details page | [2:45](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=165s) |
+| What the agent saw section | [3:10](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=190s) |
+| What tools the agent had access to | [4:28](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=268s) |
+| What data the agent memorized section | [4:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=292s) |
+| What messages the agent had access to section | [5:18](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=318s) |
+| Page stack fact box | [5:39](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=339s) |
+| Agent settings and formatting | [5:52](https://www.youtube.com/watch?v=K0i5rvqPC_o&t=352s) |
 
 ## AL objects mentioned
 

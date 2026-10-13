@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:04:38.972Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:39.013Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,13 +200,15 @@ The first focus is accounts receivable and collections. The Outlook integration 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot for Finance | status not stated | [0:06](https://www.youtube.com/watch?v=YL50nOTAPIY&t=6s) |
-| Copilot for Finance Outlook Integration | status not stated | [4:39](https://www.youtube.com/watch?v=YL50nOTAPIY&t=279s) |
-| Copilot for Finance Excel Integration | status not stated | [3:58](https://www.youtube.com/watch?v=YL50nOTAPIY&t=238s) |
-| Copilot for Finance Teams Integration | status not stated | [5:36](https://www.youtube.com/watch?v=YL50nOTAPIY&t=336s) |
-| Copilot for Finance Extensibility | status not stated | [6:12](https://www.youtube.com/watch?v=YL50nOTAPIY&t=372s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot for Finance | [0:06](https://www.youtube.com/watch?v=YL50nOTAPIY&t=6s) |
+| Copilot for Finance Outlook Integration | [4:39](https://www.youtube.com/watch?v=YL50nOTAPIY&t=279s) |
+| Copilot for Finance Excel Integration | [3:58](https://www.youtube.com/watch?v=YL50nOTAPIY&t=238s) |
+| Copilot for Finance Teams Integration | [5:36](https://www.youtube.com/watch?v=YL50nOTAPIY&t=336s) |
+| Copilot for Finance Extensibility | [6:12](https://www.youtube.com/watch?v=YL50nOTAPIY&t=372s) |
 
 ## AL objects mentioned
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:02:31.409Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:31.451Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,11 +184,13 @@ Report authors get an internal description field that is separate from the regul
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Internal description field | announced, demoed | [0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
-| Edit introductory and closing paragraphs | announced, demoed | [1:08](https://www.youtube.com/watch?v=adsSh_dm9BY&t=68s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
-| Negative amount format option | announced, demoed | [2:33](https://www.youtube.com/watch?v=adsSh_dm9BY&t=153s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+Every feature below: announced, demoed.
+
+| Feature | At | Evidence |
+|---|---|---|
+| Internal description field | [0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+| Edit introductory and closing paragraphs | [1:08](https://www.youtube.com/watch?v=adsSh_dm9BY&t=68s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
+| Negative amount format option | [2:33](https://www.youtube.com/watch?v=adsSh_dm9BY&t=153s) | "if you work with financial reporting in business Central we have a few things coming up in the 2025 release" ([0:07](https://www.youtube.com/watch?v=adsSh_dm9BY&t=7s)) |
 
 ## AL objects mentioned
 

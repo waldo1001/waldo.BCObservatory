@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:15.303Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:15.331Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -154,12 +154,14 @@ Purchase journals are shown for registering expenses on items that may not be tr
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Purchase journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=35s) |
-| Purchase invoices | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=50s) |
-| GL account preview in payables | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=79s) |
-| Vendor information auto-default | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=112s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Purchase journals | [0:35](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=35s) |
+| Purchase invoices | [0:50](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=50s) |
+| GL account preview in payables | [1:19](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=79s) |
+| Vendor information auto-default | [1:52](https://www.youtube.com/watch?v=Ujik5Yqg0S8&t=112s) |
 
 ## Quotes
 

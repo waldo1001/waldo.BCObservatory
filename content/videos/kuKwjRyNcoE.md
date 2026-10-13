@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:08:22.985Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:23.028Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -157,11 +157,13 @@ Once enabled, a Journal Check fact box appears on the right side of journal page
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Journal Check | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) |
-| Enable Data Check Setting | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=52s) |
-| Journal Check Fact Box | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Journal Check | [0:30](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=30s) |
+| Enable Data Check Setting | [0:52](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=52s) |
+| Journal Check Fact Box | [1:02](https://www.youtube.com/watch?v=kuKwjRyNcoE&t=62s) |
 
 ## AL objects mentioned
 

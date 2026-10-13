@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:26.640Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:26.678Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,13 +167,15 @@ It demonstrates setting these codes on the item card and on the vendor card (rec
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Over receipt codes | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=0s) |
-| Over receipt code tolerance percentages | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=8C9JmtHdExM&t=21s) |
-| Item-level over receipt codes | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s) |
-| Vendor-level over receipt codes | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=8C9JmtHdExM&t=85s) |
-| Default over receipt code selection | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=8C9JmtHdExM&t=124s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Over receipt codes | [0:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=0s) |
+| Over receipt code tolerance percentages | [0:21](https://www.youtube.com/watch?v=8C9JmtHdExM&t=21s) |
+| Item-level over receipt codes | [1:00](https://www.youtube.com/watch?v=8C9JmtHdExM&t=60s) |
+| Vendor-level over receipt codes | [1:25](https://www.youtube.com/watch?v=8C9JmtHdExM&t=85s) |
+| Default over receipt code selection | [2:04](https://www.youtube.com/watch?v=8C9JmtHdExM&t=124s) |
 
 ## AL objects mentioned
 

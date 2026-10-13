@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:46.894Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:46.934Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,12 +200,14 @@ The speaker describes an industry-wide shortage of AI people, with partners aski
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| AI Functionality Across Microsoft Products | status not stated | [0:44](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=44s) |
-| BC Talent Program | status not stated | [2:31](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=151s) |
-| Partner Technical Upskilling in AI | status not stated | [0:27](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=27s) |
-| Collaborative Ecosystem for Problem Solving | status not stated | [1:10](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=70s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| AI Functionality Across Microsoft Products | [0:44](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=44s) |
+| BC Talent Program | [2:31](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=151s) |
+| Partner Technical Upskilling in AI | [0:27](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=27s) |
+| Collaborative Ecosystem for Problem Solving | [1:10](https://www.youtube.com/watch?v=94Lqd7Ap8YQ&t=70s) |
 
 ## Quotes
 

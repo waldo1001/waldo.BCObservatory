@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:50:32.608Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:32.638Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,12 +199,14 @@ The demo walks through the Fixed Asset Setup page, asset eligibility, running de
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Bonus depreciation method | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=50s) |
-| Fixed Asset Setup fields for bonus depreciation | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=138s) |
-| Bonus depreciation toggle on fixed asset card | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) |
-| Additional reporting fields for FA depreciation books | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=210s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Bonus depreciation method | [0:50](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=50s) |
+| Fixed Asset Setup fields for bonus depreciation | [2:18](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=138s) |
+| Bonus depreciation toggle on fixed asset card | [3:10](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=190s) |
+| Additional reporting fields for FA depreciation books | [3:30](https://www.youtube.com/watch?v=LKt0K-EdiX0&t=210s) |
 
 ## AL objects mentioned
 

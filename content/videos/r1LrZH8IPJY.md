@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:07:52.969Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:53.014Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -179,10 +179,12 @@ Its answer is ReSkill. The program picks people with industry experience who und
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| ReSkill talent development program | status not stated | [0:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s) |
-| Professional skills training for consultants | status not stated | [1:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=85s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| ReSkill talent development program | [0:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=25s) |
+| Professional skills training for consultants | [1:25](https://www.youtube.com/watch?v=r1LrZH8IPJY&t=85s) |
 
 ## Quotes
 

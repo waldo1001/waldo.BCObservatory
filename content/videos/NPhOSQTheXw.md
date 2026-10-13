@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:25.089Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:25.129Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -184,13 +184,15 @@ The example uses the city of Fargo at 2% in Cass County and a North Dakota state
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Assisted setup guide for sales tax | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
-| Tax group assignment to items | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
-| Tax area codes with jurisdiction filtering | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=NPhOSQTheXw&t=62s) |
-| Apply tax area codes to customers and vendors | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=NPhOSQTheXw&t=77s) |
-| Automatic sales tax calculation on documents | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=NPhOSQTheXw&t=88s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Assisted setup guide for sales tax | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
+| Tax group assignment to items | [0:39](https://www.youtube.com/watch?v=NPhOSQTheXw&t=39s) |
+| Tax area codes with jurisdiction filtering | [1:02](https://www.youtube.com/watch?v=NPhOSQTheXw&t=62s) |
+| Apply tax area codes to customers and vendors | [1:17](https://www.youtube.com/watch?v=NPhOSQTheXw&t=77s) |
+| Automatic sales tax calculation on documents | [1:28](https://www.youtube.com/watch?v=NPhOSQTheXw&t=88s) |
 
 ## Quotes
 

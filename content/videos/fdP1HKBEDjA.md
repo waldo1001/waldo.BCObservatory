@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:06:09.125Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:09.161Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -179,13 +179,15 @@ In Business Central, the demo first uses sales journals with batches that have d
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Receivables transaction entry in Dynamics GP | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=16s) |
-| Credit memo application in Dynamics GP | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=39s) |
-| Sales journals for receivables invoices in Business Central | status not stated, demoed | [1:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=94s) |
-| Credit memos in sales journals in Business Central | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=154s) |
-| Sales invoices document in Business Central | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=214s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Receivables transaction entry in Dynamics GP | [0:16](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=16s) |
+| Credit memo application in Dynamics GP | [0:39](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=39s) |
+| Sales journals for receivables invoices in Business Central | [1:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=94s) |
+| Credit memos in sales journals in Business Central | [2:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=154s) |
+| Sales invoices document in Business Central | [3:34](https://www.youtube.com/watch?v=fdP1HKBEDjA&t=214s) |
 
 ## AL objects mentioned
 

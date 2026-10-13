@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:14:05.943Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:05.983Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -220,15 +220,17 @@ The demo covers two aggregation options: by company size, as required in Sweden,
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Payment Times Analysis | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
-| Aggregation by Company Size | status not stated, demoed | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
-| Aggregation by Period | status not stated, demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
-| Payment Analysis Statistics | status not stated, demoed | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
-| Payment Analysis Drill-Down | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
-| Historical Payment Data Storage | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |
-| Payment Analysis Print Reports | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Payment Times Analysis | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
+| Aggregation by Company Size | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
+| Aggregation by Period | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
+| Payment Analysis Statistics | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
+| Payment Analysis Drill-Down | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
+| Historical Payment Data Storage | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |
+| Payment Analysis Print Reports | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |
 
 ## AL objects mentioned
 

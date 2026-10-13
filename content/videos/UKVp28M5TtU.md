@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:54:34.539Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:34.576Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -202,12 +202,14 @@ The presenter describes the two models an organization can choose between, enabl
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Measure all gases as carbon equivalents | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=UKVp28M5TtU&t=5s) |
-| Automatic emission factor pre-setup | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=UKVp28M5TtU&t=225s) |
-| Dynamic caption changes based on setup | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s) |
-| Use all emissions as carbon equivalent setup option | status not stated, demoed | [3:18](https://www.youtube.com/watch?v=UKVp28M5TtU&t=198s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Measure all gases as carbon equivalents | [0:05](https://www.youtube.com/watch?v=UKVp28M5TtU&t=5s) |
+| Automatic emission factor pre-setup | [3:45](https://www.youtube.com/watch?v=UKVp28M5TtU&t=225s) |
+| Dynamic caption changes based on setup | [1:51](https://www.youtube.com/watch?v=UKVp28M5TtU&t=111s) |
+| Use all emissions as carbon equivalent setup option | [3:18](https://www.youtube.com/watch?v=UKVp28M5TtU&t=198s) |
 
 ## AL objects mentioned
 

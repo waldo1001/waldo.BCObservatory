@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:00:24.844Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:24.885Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,17 +224,19 @@ The demo shows how to set up the Handler, attach it to a test with the Handler f
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| HTTP client Handler | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=85s) |
-| HTTP client Handler attribute | status not stated, demoed | [2:26](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=146s) |
-| Handler functions attribute | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=164s) |
-| Request object properties | status not stated, demoed | [3:45](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=225s) |
-| Fall-through mechanism | status not stated, demoed | [5:16](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=316s) |
-| Test HTTP request policy | status not stated, demoed | [8:20](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=500s) |
-| Allow all outbound requests policy | status not stated, demoed | [8:52](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=532s) |
-| Allow outbound from Handler policy | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=572s) |
-| Block outbound requests policy | status not stated, demoed | [10:08](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=608s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| HTTP client Handler | [1:25](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=85s) |
+| HTTP client Handler attribute | [2:26](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=146s) |
+| Handler functions attribute | [2:44](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=164s) |
+| Request object properties | [3:45](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=225s) |
+| Fall-through mechanism | [5:16](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=316s) |
+| Test HTTP request policy | [8:20](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=500s) |
+| Allow all outbound requests policy | [8:52](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=532s) |
+| Allow outbound from Handler policy | [9:32](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=572s) |
+| Block outbound requests policy | [10:08](https://www.youtube.com/watch?v=JI9OpaBx0nk&t=608s) |
 
 ## AL objects mentioned
 

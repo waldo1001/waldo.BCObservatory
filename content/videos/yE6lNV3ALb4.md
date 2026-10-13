@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:01.085Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:01.128Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -173,12 +173,14 @@ Once built, the pivot table shows live data. It refreshes whenever the spreadshe
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Pivot tables with live data in spreadsheets | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=0s) |
-| Pivot table field configuration | status not stated, demoed | [0:37](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=37s) |
-| Drilldown from pivot table to source data | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=102s) |
-| Spreadsheet-based pivot table data reusability | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=116s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Pivot tables with live data in spreadsheets | [0:00](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=0s) |
+| Pivot table field configuration | [0:37](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=37s) |
+| Drilldown from pivot table to source data | [1:42](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=102s) |
+| Spreadsheet-based pivot table data reusability | [1:56](https://www.youtube.com/watch?v=yE6lNV3ALb4&t=116s) |
 
 ## AL objects mentioned
 

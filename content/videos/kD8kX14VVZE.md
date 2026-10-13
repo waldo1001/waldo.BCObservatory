@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:21.603Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:21.641Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -243,17 +243,19 @@ For CBAM, the demo sets up a carbon pricing table, configures an item with carbo
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Carbon Border Adjustment Mechanism (CBAM) reporting | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=kD8kX14VVZE&t=22s) |
-| Extended Producer Responsibility (EPR) reporting | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=kD8kX14VVZE&t=48s) |
-| Carbon pricing table | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s) |
-| EPR materials table | status not stated, demoed | [9:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=557s) |
-| Item material composition page | status not stated, demoed | [3:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=197s) |
-| Excise taxes framework for CBAM and EPR | status not stated, demoed | [2:13](https://www.youtube.com/watch?v=kD8kX14VVZE&t=133s) |
-| Sustainability fast tab on item card | status not stated, demoed | [5:35](https://www.youtube.com/watch?v=kD8kX14VVZE&t=335s) |
-| Excise transaction logs for CBAM and EPR | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=kD8kX14VVZE&t=531s) |
-| Emission verification and CBAM compliance flags | status not stated, demoed | [6:06](https://www.youtube.com/watch?v=kD8kX14VVZE&t=366s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Carbon Border Adjustment Mechanism (CBAM) reporting | [0:22](https://www.youtube.com/watch?v=kD8kX14VVZE&t=22s) |
+| Extended Producer Responsibility (EPR) reporting | [0:48](https://www.youtube.com/watch?v=kD8kX14VVZE&t=48s) |
+| Carbon pricing table | [2:55](https://www.youtube.com/watch?v=kD8kX14VVZE&t=175s) |
+| EPR materials table | [9:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=557s) |
+| Item material composition page | [3:17](https://www.youtube.com/watch?v=kD8kX14VVZE&t=197s) |
+| Excise taxes framework for CBAM and EPR | [2:13](https://www.youtube.com/watch?v=kD8kX14VVZE&t=133s) |
+| Sustainability fast tab on item card | [5:35](https://www.youtube.com/watch?v=kD8kX14VVZE&t=335s) |
+| Excise transaction logs for CBAM and EPR | [8:51](https://www.youtube.com/watch?v=kD8kX14VVZE&t=531s) |
+| Emission verification and CBAM compliance flags | [6:06](https://www.youtube.com/watch?v=kD8kX14VVZE&t=366s) |
 
 ## AL objects mentioned
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:48:27.770Z"
   flags: []
 generated:
-  at: "2026-10-07T22:48:27.830Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -402,21 +402,23 @@ The team uses the benchmark to compare models and to decide whether tooling such
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| BC Bench | status not stated | [0:11](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=11s) |
-| AL2 MCP Server | status not stated | [13:16](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=796s) |
-| Mini BC Agent | status not stated | [17:05](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1025s) |
-| GitHub Copilot Agent Terminal Variant | status not stated | [17:42](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1062s) |
-| Test Generation Category | status not stated | [20:14](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1214s) |
-| Code Review Category | status not stated | [20:26](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1226s) |
-| Test Execution via MCP | status not stated | [21:00](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1260s) |
-| Code Refactoring Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
-| Feature Addition Category | status not stated | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
-| Claude Opus 4.5 Performance | status not stated | [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) |
-| AL code parity with Python | status not stated | [28:17](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1697s) |
-| Public BC-Bench dataset | status not stated | [29:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1799s) |
-| Partner dataset for BC-Bench | status not stated | [31:13](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1873s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| BC Bench | [0:11](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=11s) |
+| AL2 MCP Server | [13:16](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=796s) |
+| Mini BC Agent | [17:05](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1025s) |
+| GitHub Copilot Agent Terminal Variant | [17:42](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1062s) |
+| Test Generation Category | [20:14](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1214s) |
+| Code Review Category | [20:26](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1226s) |
+| Test Execution via MCP | [21:00](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1260s) |
+| Code Refactoring Category | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
+| Feature Addition Category | [25:09](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1509s) |
+| Claude Opus 4.5 Performance | [26:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1619s) |
+| AL code parity with Python | [28:17](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1697s) |
+| Public BC-Bench dataset | [29:59](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1799s) |
+| Partner dataset for BC-Bench | [31:13](https://www.youtube.com/watch?v=Hdp4KbbGpQA&t=1873s) |
 
 ## AL objects mentioned
 

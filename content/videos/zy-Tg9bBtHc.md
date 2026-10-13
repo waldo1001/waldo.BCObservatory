@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:55:13.786Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:13.833Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -220,15 +220,17 @@ The demos show sales shipment e-documents, transfer shipments driven by a new se
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| E-Shipments | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=7s) |
-| E-Transfer Shipments | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=132s) |
-| Sales Shipment E-Documents | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
-| E-Documents Transfer Document Sending Profile | status not stated, demoed | [6:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=387s) |
-| Retroactive E-Document Creation from Posted Documents | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s) |
-| E-Document Export and Email Workflow | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
-| Post and Send with E-Document Attachments | status not stated, demoed | [8:36](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=516s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| E-Shipments | [0:07](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=7s) |
+| E-Transfer Shipments | [2:12](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=132s) |
+| Sales Shipment E-Documents | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
+| E-Documents Transfer Document Sending Profile | [6:27](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=387s) |
+| Retroactive E-Document Creation from Posted Documents | [6:52](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=412s) |
+| E-Document Export and Email Workflow | [3:40](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=220s) |
+| Post and Send with E-Document Attachments | [8:36](https://www.youtube.com/watch?v=zy-Tg9bBtHc&t=516s) |
 
 ## AL objects mentioned
 

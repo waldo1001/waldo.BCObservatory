@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:04.328Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:04.364Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -177,13 +177,15 @@ The video shows contextual feedback on an expense the user ran into, saying what
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| In-product feedback mechanism | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=6rm45dSB6xg&t=13s) |
-| Contextual expense feedback | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=6rm45dSB6xg&t=53s) |
-| Screenshot capture with redaction | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6rm45dSB6xg&t=78s) |
-| Support information collection | status not stated, demoed | [0:34](https://www.youtube.com/watch?v=6rm45dSB6xg&t=34s) |
-| Optional contact information | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=6rm45dSB6xg&t=109s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| In-product feedback mechanism | [0:13](https://www.youtube.com/watch?v=6rm45dSB6xg&t=13s) |
+| Contextual expense feedback | [0:53](https://www.youtube.com/watch?v=6rm45dSB6xg&t=53s) |
+| Screenshot capture with redaction | [1:18](https://www.youtube.com/watch?v=6rm45dSB6xg&t=78s) |
+| Support information collection | [0:34](https://www.youtube.com/watch?v=6rm45dSB6xg&t=34s) |
+| Optional contact information | [1:49](https://www.youtube.com/watch?v=6rm45dSB6xg&t=109s) |
 
 ## Quotes
 

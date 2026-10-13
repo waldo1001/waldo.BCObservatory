@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:07:07.431Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:07.468Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -161,13 +161,15 @@ It then covers other ways to enter data: a grid view with separate debit and cre
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| General journal batch management | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=49s) |
-| Account name autocomplete in journal entries | status not stated, demoed | [1:19](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=79s) |
-| Grid view with debit and credit columns | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=120s) |
-| Single-line journal entry | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=132s) |
-| Excel integration for journal entries | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=161s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| General journal batch management | [0:49](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=49s) |
+| Account name autocomplete in journal entries | [1:19](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=79s) |
+| Grid view with debit and credit columns | [2:00](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=120s) |
+| Single-line journal entry | [2:12](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=132s) |
+| Excel integration for journal entries | [2:41](https://www.youtube.com/watch?v=NkYNL_5Zfoc&t=161s) |
 
 ## AL objects mentioned
 

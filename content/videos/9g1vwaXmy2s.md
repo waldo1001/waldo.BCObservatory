@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:17.570Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:17.623Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -260,15 +260,17 @@ Each schedule has a next run date time and a recurrence run date formula. Report
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Financial Report Scheduling | announced, demoed | [0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s) | "the developer behind the new financial report scheduling feature that's coming to Business Central" ([0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s)) |
-| Export to Excel and PDF | announced, demoed | [1:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=66s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Email Delivery to Recipients | announced, demoed | [1:17](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=77s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Report Scheduling Controls | announced, demoed | [1:27](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=87s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Report Inbox and Logs | announced, demoed | [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Custom Filters for Schedules | announced, demoed | [2:24](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=144s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
-| Date Filter Formulas | announced, demoed | [2:53](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=173s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+Every feature below: announced, demoed.
+
+| Feature | At | Evidence |
+|---|---|---|
+| Financial Report Scheduling | [0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s) | "the developer behind the new financial report scheduling feature that's coming to Business Central" ([0:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=6s)) |
+| Export to Excel and PDF | [1:06](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=66s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Email Delivery to Recipients | [1:17](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=77s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Report Scheduling Controls | [1:27](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=87s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Report Inbox and Logs | [2:03](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=123s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Custom Filters for Schedules | [2:24](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=144s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
+| Date Filter Formulas | [2:53](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=173s) | "I hope you go and give financial report scheduling a try when it releases in the near future." ([3:07](https://www.youtube.com/watch?v=9g1vwaXmy2s&t=187s)) |
 
 ## AL objects mentioned
 

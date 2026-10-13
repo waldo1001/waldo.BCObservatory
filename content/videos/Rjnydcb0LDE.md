@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:11:50.325Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:50.377Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -150,10 +150,12 @@ They describe the Microsoft Talent program as a mix of theory and practice, with
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Microsoft Talent Program | status not stated | [0:29](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=29s) |
-| MB800 Certification Exam | status not stated | [0:49](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=49s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Microsoft Talent Program | [0:29](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=29s) |
+| MB800 Certification Exam | [0:49](https://www.youtube.com/watch?v=Rjnydcb0LDE&t=49s) |
 
 ## Quotes
 

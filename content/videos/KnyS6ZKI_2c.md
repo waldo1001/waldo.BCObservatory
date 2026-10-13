@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:53:36.364Z"
   flags: []
 generated:
-  at: "2026-10-07T22:53:36.414Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -285,15 +285,17 @@ It then shows iterating over repeater entries with "for each row", conditional s
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Steps Modification in Recording | preview, demoed | [1:21](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=81s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| Parameters UI Editing | preview, demoed | [5:05](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=305s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| Test Suites UI Creation | preview, demoed | [6:22](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=382s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| Include Script Functionality | preview, demoed | [6:52](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=412s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| For-Each Row Iteration | preview, demoed | [9:27](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=567s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| Conditional Branching with Expression | preview, demoed | [10:51](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=651s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
-| Server-Side Headless Script Replay | preview, demoed | [12:22](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=742s) | "That's why we are now adding the option to run scripts headless on the server side. This is still in preview and it is" ([12:43](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=763s)) |
+Every feature below: preview, demoed.
+
+| Feature | At | Evidence |
+|---|---|---|
+| Steps Modification in Recording | [1:21](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=81s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| Parameters UI Editing | [5:05](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=305s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| Test Suites UI Creation | [6:22](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=382s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| Include Script Functionality | [6:52](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=412s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| For-Each Row Iteration | [9:27](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=567s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| Conditional Branching with Expression | [10:51](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=651s) | "the page scripting feature is still in preview, but it is production quality" ([14:37](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=877s)) |
+| Server-Side Headless Script Replay | [12:22](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=742s) | "That's why we are now adding the option to run scripts headless on the server side. This is still in preview and it is" ([12:43](https://www.youtube.com/watch?v=KnyS6ZKI_2c&t=763s)) |
 
 ## AL objects mentioned
 

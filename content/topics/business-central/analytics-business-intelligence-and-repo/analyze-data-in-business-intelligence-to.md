@@ -12,12 +12,33 @@ review:
   at: "2026-10-07T02:23:40.443Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-13T00:33:07.078Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 89fae4cdc52182963e0568e74f8e606d93de62daf48fd6a5824dc049c00b48e9
 evidence:
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
+    title: admin manage fabric export
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
+    title: admin monitor fabric export
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+    title: admin set up fabric mirroring
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
     title: Analyze Data in Business Intelligence Tools
@@ -29,6 +50,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     title: API (v2.0) for Dynamics 365 Business Central
     date: "2026-08-10"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
+    title: fabric faq
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -58,7 +86,6 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud
-    - https://learn.microsoft.com/dynamics365/business-central/admin-fabric
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
   objects:
     - object/page/4010
@@ -67,6 +94,7 @@ links:
   features: []
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
+    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
   localizations: []
   videos: []
   posts:
@@ -77,9 +105,10 @@ learn_toc_path:
   - Analyze data in business intelligence tools
 toc_file: business-central/TOC.md
 parent: topic/business-central/analytics-business-intelligence-and-repo
-children: []
+children:
+  - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
 coverage:
-  learn: 5
+  learn: 9
   code: 3
   video: 0
   blog: 1
@@ -88,7 +117,7 @@ bc_forms:
   - 4010
   - 6316
   - 6317
-member_hash: f0ca77f87ce130d1a582fbea2edeac4c01a20ade3e1db0f27be1cb8510a495bb
+member_hash: 95608ddb0e2b7f483c9c4f281fe1960fa9222a2f9c4629a876b1cb4b83b53aec
 narrative: generated
 ---
 
@@ -116,12 +145,15 @@ The section also has performance articles for AL developers. They cover page des
 - They also cover table extension impact analysis and event subscription performance.
 - Some performance guidance is tied to 2021 release wave 2 and 2023 release waves 1 and 2.
 
-## Learn pages
+## Subtopics
+
+- [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md) (5 pages)
+
+## More Learn pages
 
 - [Analyze Data in Business Intelligence Tools](https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis): Provides an overview of how external Business Intelligence tools can interact with Business Central data.
 - [API (v2.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/): Reference content for the API (v2.0) endpoint for integration with Dynamics 365 Business Central.
 - [Intelligent insights and cloud migration (on-premises only)](https://learn.microsoft.com/dynamics365/business-central/about-intelligent-cloud): In Business Central online, you have access to other online services, and you can get intelligent insights that are based on Azure AI, for example. Read on if you're considering to migrate from on-premises to the cloud.
-- [Introduction to Microsoft Fabric and Business Central](https://learn.microsoft.com/dynamics365/business-central/admin-fabric): Get an overview of using Microsoft Fabric to get insight, business intelligence, and KPIs from your Business Central data.
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 
 ## Videos and posts
@@ -135,7 +167,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 4010 "Intelligent Cloud"](../../../objects/page/4010.md)
-- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)"
-- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)"
+- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

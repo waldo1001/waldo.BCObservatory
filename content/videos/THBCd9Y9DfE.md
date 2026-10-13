@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:15:39.607Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:39.648Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -165,12 +165,14 @@ They also describe how the program is built: mentors with broad knowledge who ca
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Talent Program | status not stated | [0:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=0s) |
-| Personalized Mentorship | status not stated | [0:40](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s) |
-| Guided Learning Journey | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
-| Practical and Theoretical Learning Integration | status not stated | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Talent Program | [0:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=0s) |
+| Personalized Mentorship | [0:40](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=40s) |
+| Guided Learning Journey | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
+| Practical and Theoretical Learning Integration | [1:00](https://www.youtube.com/watch?v=THBCd9Y9DfE&t=60s) |
 
 ## Quotes
 

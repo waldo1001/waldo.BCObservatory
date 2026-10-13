@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:41.510Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:41.544Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -196,14 +196,16 @@ The second half covers consumption. A new flushing method, pick plus manual, rep
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Warehouse Putaway for Production Output | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=6s) |
-| Automatic Putaway Document Generation | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s) |
-| Putaway Creation from Worksheet and Finished Orders | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=vnaySMIKnp8&t=105s) |
-| Pick Plus Manual Flushing Method | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=vnaySMIKnp8&t=190s) |
-| Allow Warehouse Over-Pick | status not stated, demoed | [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s) |
-| Return Over-picked Items to Warehouse | status not stated, demoed | [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Warehouse Putaway for Production Output | [0:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=6s) |
+| Automatic Putaway Document Generation | [1:06](https://www.youtube.com/watch?v=vnaySMIKnp8&t=66s) |
+| Putaway Creation from Worksheet and Finished Orders | [1:45](https://www.youtube.com/watch?v=vnaySMIKnp8&t=105s) |
+| Pick Plus Manual Flushing Method | [3:10](https://www.youtube.com/watch?v=vnaySMIKnp8&t=190s) |
+| Allow Warehouse Over-Pick | [3:30](https://www.youtube.com/watch?v=vnaySMIKnp8&t=210s) |
+| Return Over-picked Items to Warehouse | [5:46](https://www.youtube.com/watch?v=vnaySMIKnp8&t=346s) |
 
 ## AL objects mentioned
 

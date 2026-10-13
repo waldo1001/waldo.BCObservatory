@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:07:36.047Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:36.093Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,14 +176,16 @@ The video moves through three areas: marketing suggestions based on details alre
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot as everyday AI companion | status not stated | [0:00](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=0s) |
-| Marketing Tech suggestions for sales and creativity | status not stated | [0:20](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=20s) |
-| Copilot for creating sales documents | status not stated | [0:35](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=35s) |
-| Business process automation with Power Automate | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
-| Finance organization with Copilot | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
-| Analysis views for data-driven decisions | status not stated | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot as everyday AI companion | [0:00](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=0s) |
+| Marketing Tech suggestions for sales and creativity | [0:20](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=20s) |
+| Copilot for creating sales documents | [0:35](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=35s) |
+| Business process automation with Power Automate | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
+| Finance organization with Copilot | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
+| Analysis views for data-driven decisions | [0:47](https://www.youtube.com/watch?v=58yOwN3GY2Q&t=47s) |
 
 ## Quotes
 

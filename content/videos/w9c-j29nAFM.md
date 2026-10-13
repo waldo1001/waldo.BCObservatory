@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:15:32.670Z"
   flags: []
 generated:
-  at: "2026-10-07T23:15:32.703Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,11 +171,13 @@ Partners and participants share their views on hiring and career development. Th
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Reskilling Program | status not stated | [0:18](https://www.youtube.com/watch?v=w9c-j29nAFM&t=18s) |
-| Microsoft Talent Program | status not stated | [1:17](https://www.youtube.com/watch?v=w9c-j29nAFM&t=77s) |
-| New Hire Community | status not stated | [3:59](https://www.youtube.com/watch?v=w9c-j29nAFM&t=239s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Reskilling Program | [0:18](https://www.youtube.com/watch?v=w9c-j29nAFM&t=18s) |
+| Microsoft Talent Program | [1:17](https://www.youtube.com/watch?v=w9c-j29nAFM&t=77s) |
+| New Hire Community | [3:59](https://www.youtube.com/watch?v=w9c-j29nAFM&t=239s) |
 
 ## Quotes
 

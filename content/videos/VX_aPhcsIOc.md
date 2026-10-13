@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:34.296Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:34.340Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,11 +168,13 @@ It shows where to see telemetry usage and estimated monthly costs, which read ze
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Telemetry Usage and Estimated Costs View | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=20s) |
-| Daily Cap for Telemetry Ingestion | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=61s) |
-| Telemetry Daily Cap Warnings | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Telemetry Usage and Estimated Costs View | [0:20](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=20s) |
+| Daily Cap for Telemetry Ingestion | [1:01](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=61s) |
+| Telemetry Daily Cap Warnings | [1:38](https://www.youtube.com/watch?v=VX_aPhcsIOc&t=98s) |
 
 ## Quotes
 

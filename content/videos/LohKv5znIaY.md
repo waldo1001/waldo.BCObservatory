@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:56.897Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:56.939Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -141,10 +141,12 @@ It describes improved error handling that gives users an easier way to unblock t
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Actionable error messages | status not stated | [0:40](https://www.youtube.com/watch?v=LohKv5znIaY&t=40s) |
-| Onboarding framework | status not stated | [0:20](https://www.youtube.com/watch?v=LohKv5znIaY&t=20s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Actionable error messages | [0:40](https://www.youtube.com/watch?v=LohKv5znIaY&t=40s) |
+| Onboarding framework | [0:20](https://www.youtube.com/watch?v=LohKv5znIaY&t=20s) |
 
 ## Quotes
 

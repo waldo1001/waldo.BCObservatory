@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:59.322Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:59.365Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,11 +163,13 @@ It also identifies lines that may be split or grouped differently, which need ma
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| E-invoice Matching with Copilot | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=2s) |
-| Discrepancy Detection and Tolerance Levels | status not stated, demoed | [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) |
-| Vendor Document Updates | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| E-invoice Matching with Copilot | [0:02](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=2s) |
+| Discrepancy Detection and Tolerance Levels | [0:22](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=22s) |
+| Vendor Document Updates | [0:43](https://www.youtube.com/watch?v=CoQH7Z-leVE&t=43s) |
 
 ## Quotes
 

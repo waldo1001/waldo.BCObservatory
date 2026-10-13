@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:06:38.604Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:38.644Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,12 +176,14 @@ In Business Central it covers the detailed trial balance, the summary trial bala
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Detailed trial balance report | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s) |
-| Summary trial balance report | status not stated, demoed | [1:43](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=103s) |
-| Report export to Excel | status not stated, demoed | [2:28](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=148s) |
-| Aging report for accounts receivable | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=175s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Detailed trial balance report | [0:45](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=45s) |
+| Summary trial balance report | [1:43](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=103s) |
+| Report export to Excel | [2:28](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=148s) |
+| Aging report for accounts receivable | [2:55](https://www.youtube.com/watch?v=Of0Dw8V-4Yw&t=175s) |
 
 ## AL objects mentioned
 

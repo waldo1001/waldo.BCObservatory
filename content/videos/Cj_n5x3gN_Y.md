@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:39.630Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:39.673Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -239,18 +239,20 @@ Demos show item configuration with excise quantity, tax type and entry permissio
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Excise taxes framework | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
-| Excise journal with multiple calculation models | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
-| Tax bases configuration | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
-| Entry permissions and source types | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
-| Excise duty rates on items and fixed assets | status not stated, demoed | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
-| Excise quantity configuration on items | status not stated, demoed | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
-| Excise journal calculation workflow | status not stated, demoed | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
-| Excise transaction logs | status not stated, demoed | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
-| Parallel CBAM and EPR with excise taxes | status not stated, demoed | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
-| Dynamic reporting captions for excise types | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Excise taxes framework | [0:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=6s) |
+| Excise journal with multiple calculation models | [1:28](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=88s) |
+| Tax bases configuration | [3:06](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=186s) |
+| Entry permissions and source types | [4:16](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=256s) |
+| Excise duty rates on items and fixed assets | [5:17](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=317s) |
+| Excise quantity configuration on items | [7:49](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=469s) |
+| Excise journal calculation workflow | [6:09](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=369s) |
+| Excise transaction logs | [2:50](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=170s) |
+| Parallel CBAM and EPR with excise taxes | [8:51](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=531s) |
+| Dynamic reporting captions for excise types | [3:52](https://www.youtube.com/watch?v=Cj_n5x3gN_Y&t=232s) |
 
 ## AL objects mentioned
 

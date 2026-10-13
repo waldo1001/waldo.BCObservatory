@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:30.237Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:30.260Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -153,10 +153,12 @@ The demo opens a purchase document draft containing agent suggestions. A small I
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Agent Reasoning Display | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
-| Payables Agent | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Agent Reasoning Display | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
+| Payables Agent | [0:05](https://www.youtube.com/watch?v=FBrZwXpOhmM&t=5s) |
 
 ## AL objects mentioned
 

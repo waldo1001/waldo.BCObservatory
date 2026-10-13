@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:33.244Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:33.286Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -185,11 +185,13 @@ Abakion says the Upskill program let it move a large part of onboarding out of i
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| BC Talent program | status not stated | [0:01](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=1s) |
-| Upskill program | status not stated | [0:16](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=16s) |
-| BC Talent community | status not stated | [1:12](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=72s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| BC Talent program | [0:01](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=1s) |
+| Upskill program | [0:16](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=16s) |
+| BC Talent community | [1:12](https://www.youtube.com/watch?v=P1cS4g-Lj2M&t=72s) |
 
 ## Quotes
 

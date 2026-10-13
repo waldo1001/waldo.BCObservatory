@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:01:38.924Z"
   flags: []
 generated:
-  at: "2026-10-07T23:01:38.959Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,10 +149,12 @@ Clicking the button opens the familiar email editor. There the user can change t
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Edit purchase order emails before sending | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=DvZd6y69sWk&t=4s) |
-| Send by Email button in purchase documents | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=DvZd6y69sWk&t=16s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Edit purchase order emails before sending | [0:04](https://www.youtube.com/watch?v=DvZd6y69sWk&t=4s) |
+| Send by Email button in purchase documents | [0:16](https://www.youtube.com/watch?v=DvZd6y69sWk&t=16s) |
 
 ## Quotes
 

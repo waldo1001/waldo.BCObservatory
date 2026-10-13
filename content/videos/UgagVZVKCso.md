@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:05.770Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:05.808Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,11 +181,13 @@ The partner says the main effort in building a copilot function is prompt engine
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Red Carpet Copilot Program | status not stated | [0:02](https://www.youtube.com/watch?v=UgagVZVKCso&t=2s) |
-| Copilot Function with Prompt Engineering | status not stated | [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) |
-| Automated Testing for Copilot | status not stated | [0:59](https://www.youtube.com/watch?v=UgagVZVKCso&t=59s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Red Carpet Copilot Program | [0:02](https://www.youtube.com/watch?v=UgagVZVKCso&t=2s) |
+| Copilot Function with Prompt Engineering | [0:30](https://www.youtube.com/watch?v=UgagVZVKCso&t=30s) |
+| Automated Testing for Copilot | [0:59](https://www.youtube.com/watch?v=UgagVZVKCso&t=59s) |
 
 ## Quotes
 

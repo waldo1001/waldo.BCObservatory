@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:06:30.836Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:30.874Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,12 +170,14 @@ The purchase journal is used to register expenses for items not tracked in inven
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Purchase Journal for Payables | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=30s) |
-| Purchase Invoice for Multi-type Transactions | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=93s) |
-| GL Posting Preview | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=72s) |
-| Vendor Information Auto-population | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=112s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Purchase Journal for Payables | [0:30](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=30s) |
+| Purchase Invoice for Multi-type Transactions | [1:33](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=93s) |
+| GL Posting Preview | [1:12](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=72s) |
+| Vendor Information Auto-population | [1:52](https://www.youtube.com/watch?v=r3h_nM1Foyo&t=112s) |
 
 ## AL objects mentioned
 

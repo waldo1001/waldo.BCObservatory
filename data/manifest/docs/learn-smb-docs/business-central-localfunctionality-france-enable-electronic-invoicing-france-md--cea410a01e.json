@@ -5,9 +5,9 @@
   "tier": "official",
   "title": "Enable electronic invoicing with UBL 2.1 and Factur-X [FR]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
-  "published_at": "2026-06-24T07:25:49.000Z",
+  "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "published",
+  "state": "stale",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -38,7 +38,7 @@
       "page": false
     }
   },
-  "input_hash": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
+  "input_hash": "67e2180145951445278bfdc0e0d6ecb9bce171d2",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -63,7 +63,10 @@
       "French version"
     ],
     "ai_usage": null,
-    "words": 2067
+    "words": 2067,
+    "identifiers": [
+      "OnPreRendering"
+    ]
   },
   "last_error": null,
   "retry_after": null,

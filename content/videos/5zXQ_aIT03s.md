@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T23:14:25.465Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:25.510Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,10 +155,12 @@ When November is being closed, the company-wide range can be changed so most peo
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Allow posting from and allow posting to fields | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=26s) |
-| User-level posting period override | status not stated, demoed | [0:51](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=51s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Allow posting from and allow posting to fields | [0:26](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=26s) |
+| User-level posting period override | [0:51](https://www.youtube.com/watch?v=5zXQ_aIT03s&t=51s) |
 
 ## AL objects mentioned
 

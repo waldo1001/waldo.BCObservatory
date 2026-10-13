@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:54:51.977Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:52.020Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -154,11 +154,13 @@ It then goes through the setup and shows a live demonstration. Users send or can
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sustainability journal approvals | status not stated, demoed | [0:19](https://www.youtube.com/watch?v=XYr0xwgpomA&t=19s) |
-| Sustainability journal batch approval workflow template | status not stated, demoed | [1:03](https://www.youtube.com/watch?v=XYr0xwgpomA&t=63s) |
-| Approval request control for sustainability journal | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=XYr0xwgpomA&t=85s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Sustainability journal approvals | [0:19](https://www.youtube.com/watch?v=XYr0xwgpomA&t=19s) |
+| Sustainability journal batch approval workflow template | [1:03](https://www.youtube.com/watch?v=XYr0xwgpomA&t=63s) |
+| Approval request control for sustainability journal | [1:25](https://www.youtube.com/watch?v=XYr0xwgpomA&t=85s) |
 
 ## AL objects mentioned
 

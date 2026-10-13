@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:11:01.701Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:01.730Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -263,19 +263,21 @@ The demo covers a new blocked field on service items, attachments across service
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Service Quote Number Series Configuration | status not stated, demoed | [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s) |
-| Service Item Blocking | status not stated, demoed | [3:51](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=231s) |
-| Attachments in Service Documents | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=211s) |
-| Item Service Toggle at Variant Level | status not stated, demoed | [5:41](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=341s) |
-| Select Items in Service Documents | status not stated, demoed | [7:08](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=428s) |
-| Item References in Service | status not stated, demoed | [7:29](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=449s) |
-| Service Quote to Order Conversion | status not stated, demoed | [8:09](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=489s) |
-| Service Invoice Posting Policy | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=570s) |
-| Service Invoice and Credit Memo | status not stated, demoed | [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s) |
-| Service Contract Template | status not stated, demoed | [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s) |
-| Service Contract Invoice Deletion | status not stated, demoed | [12:14](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=734s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Service Quote Number Series Configuration | [2:17](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=137s) |
+| Service Item Blocking | [3:51](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=231s) |
+| Attachments in Service Documents | [3:31](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=211s) |
+| Item Service Toggle at Variant Level | [5:41](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=341s) |
+| Select Items in Service Documents | [7:08](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=428s) |
+| Item References in Service | [7:29](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=449s) |
+| Service Quote to Order Conversion | [8:09](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=489s) |
+| Service Invoice Posting Policy | [9:30](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=570s) |
+| Service Invoice and Credit Memo | [10:32](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=632s) |
+| Service Contract Template | [10:50](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=650s) |
+| Service Contract Invoice Deletion | [12:14](https://www.youtube.com/watch?v=N8Unj6WLB6U&t=734s) |
 
 ## AL objects mentioned
 

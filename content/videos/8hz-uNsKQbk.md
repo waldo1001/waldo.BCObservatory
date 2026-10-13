@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:07:50.017Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:50.064Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -178,10 +178,12 @@ The partner highlights that Reskill covers recruiting, training, onboarding and 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Reskill program | status not stated | [0:34](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s) |
-| Partner-Microsoft collaboration on talent | status not stated | [1:14](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=74s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Reskill program | [0:34](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=34s) |
+| Partner-Microsoft collaboration on talent | [1:14](https://www.youtube.com/watch?v=8hz-uNsKQbk&t=74s) |
 
 ## Quotes
 

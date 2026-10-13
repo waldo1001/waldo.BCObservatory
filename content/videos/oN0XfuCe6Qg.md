@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:02:07.643Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:07.684Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,13 +188,15 @@ It walks through setting up a storage account on the File Accounts page, definin
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| External File Storage System Application Module | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=6s) |
-| File Accounts Page | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=75s) |
-| File Scenarios Enum | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=110s) |
-| External File Storage API Methods | status not stated, demoed | [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s) |
-| Storage Browser | status not stated, demoed | [3:56](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| External File Storage System Application Module | [0:06](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=6s) |
+| File Accounts Page | [1:15](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=75s) |
+| File Scenarios Enum | [1:50](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=110s) |
+| External File Storage API Methods | [2:34](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=154s) |
+| Storage Browser | [3:56](https://www.youtube.com/watch?v=oN0XfuCe6Qg&t=236s) |
 
 ## AL objects mentioned
 

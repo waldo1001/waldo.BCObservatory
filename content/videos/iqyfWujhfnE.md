@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:18:24.906Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:24.948Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -155,12 +155,14 @@ He then adds a chart region, chooses a column chart, and maps the data and categ
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Live charts in spreadsheets | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=iqyfWujhfnE&t=75s) |
-| Table regions for data display | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=26s) |
-| Advanced Spreadsheets and Reporting app | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=iqyfWujhfnE&t=0s) |
-| Column charts | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=86s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Live charts in spreadsheets | [1:15](https://www.youtube.com/watch?v=iqyfWujhfnE&t=75s) |
+| Table regions for data display | [0:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=26s) |
+| Advanced Spreadsheets and Reporting app | [0:00](https://www.youtube.com/watch?v=iqyfWujhfnE&t=0s) |
+| Column charts | [1:26](https://www.youtube.com/watch?v=iqyfWujhfnE&t=86s) |
 
 ## AL objects mentioned
 

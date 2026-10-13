@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:14:15.634Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:15.667Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -197,13 +197,15 @@ The user can pick which product attributes matter, choose formatting options, an
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot product description generation | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=21s) |
-| Image-based product category suggestion | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=41s) |
-| Attribute-based description customization | status not stated, demoed | [1:02](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=62s) |
-| Tone of voice customization | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=82s) |
-| Shopify connector | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=102s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Copilot product description generation | [0:21](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=21s) |
+| Image-based product category suggestion | [0:41](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=41s) |
+| Attribute-based description customization | [1:02](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=62s) |
+| Tone of voice customization | [1:22](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=82s) |
+| Shopify connector | [1:42](https://www.youtube.com/watch?v=ayXdXFyFEjY&t=102s) |
 
 ## AL objects mentioned
 

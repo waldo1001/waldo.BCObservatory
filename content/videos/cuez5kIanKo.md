@@ -18,7 +18,7 @@ review:
   at: "2026-10-07T22:58:08.591Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:08.634Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -140,12 +140,14 @@ The video then exports products from the products list as Shopify products. Afte
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Activate Specific Sales Channels | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=cuez5kIanKo&t=5s) |
-| Multiple Sales Channels Setup | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=cuez5kIanKo&t=25s) |
-| Product Export to Shopify | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=cuez5kIanKo&t=39s) |
-| Sales Channel Verification | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=cuez5kIanKo&t=50s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Activate Specific Sales Channels | [0:05](https://www.youtube.com/watch?v=cuez5kIanKo&t=5s) |
+| Multiple Sales Channels Setup | [0:25](https://www.youtube.com/watch?v=cuez5kIanKo&t=25s) |
+| Product Export to Shopify | [0:39](https://www.youtube.com/watch?v=cuez5kIanKo&t=39s) |
+| Sales Channel Verification | [0:50](https://www.youtube.com/watch?v=cuez5kIanKo&t=50s) |
 
 ## Quotes
 

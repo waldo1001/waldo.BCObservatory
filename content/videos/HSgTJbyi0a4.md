@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:08:12.075Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:12.117Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,10 +159,12 @@ It describes the design goal of serving two kinds of users. Some want to explore
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Onboarding framework | status not stated | [1:18](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=78s) |
-| Scalable partner onboarding | status not stated | [1:38](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=98s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Onboarding framework | [1:18](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=78s) |
+| Scalable partner onboarding | [1:38](https://www.youtube.com/watch?v=HSgTJbyi0a4&t=98s) |
 
 ## Quotes
 

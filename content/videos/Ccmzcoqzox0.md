@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:02:56.074Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:56.110Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,11 +171,13 @@ They stress that theoretical knowledge needs to be combined with practical exper
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Microsoft talent programs | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
-| Combination of theoretical and practical knowledge | status not stated | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
-| Multiple career paths in Business Central | status not stated | [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Microsoft talent programs | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
+| Combination of theoretical and practical knowledge | [0:13](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=13s) |
+| Multiple career paths in Business Central | [0:33](https://www.youtube.com/watch?v=Ccmzcoqzox0&t=33s) |
 
 ## Quotes
 

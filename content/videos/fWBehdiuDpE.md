@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:39.635Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:39.706Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,14 +182,16 @@ Erik Hougaard explains why he used an LLM to translate Business Central apps and
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| LLM-based app translation using Claude | status not stated, demoed | [1:21](https://www.youtube.com/watch?v=fWBehdiuDpE&t=81s) |
-| Translation file (XLIFF) support in app.json | status not stated, demoed | [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s) |
-| AL Build with translation task | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=fWBehdiuDpE&t=214s) |
-| Context injection through system prompts | status not stated, demoed | [4:55](https://www.youtube.com/watch?v=fWBehdiuDpE&t=295s) |
-| Microsoft translation database integration | status not stated, demoed | [5:59](https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s) |
-| Developer comments for translation guidance | status not stated, demoed | [9:30](https://www.youtube.com/watch?v=fWBehdiuDpE&t=570s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| LLM-based app translation using Claude | [1:21](https://www.youtube.com/watch?v=fWBehdiuDpE&t=81s) |
+| Translation file (XLIFF) support in app.json | [2:23](https://www.youtube.com/watch?v=fWBehdiuDpE&t=143s) |
+| AL Build with translation task | [3:34](https://www.youtube.com/watch?v=fWBehdiuDpE&t=214s) |
+| Context injection through system prompts | [4:55](https://www.youtube.com/watch?v=fWBehdiuDpE&t=295s) |
+| Microsoft translation database integration | [5:59](https://www.youtube.com/watch?v=fWBehdiuDpE&t=359s) |
+| Developer comments for translation guidance | [9:30](https://www.youtube.com/watch?v=fWBehdiuDpE&t=570s) |
 
 ## AL objects mentioned
 

@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:12.101Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:12.135Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -179,12 +179,14 @@ The demo opens purchases and payables setup, enables post with job queue and pos
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Background posting with job queue | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=1s) |
-| Post and print with job queue | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=44s) |
-| Report inbox for posted documents | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=86s) |
-| OneDrive integration for posted documents | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=110s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Background posting with job queue | [0:01](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=1s) |
+| Post and print with job queue | [0:44](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=44s) |
+| Report inbox for posted documents | [1:26](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=86s) |
+| OneDrive integration for posted documents | [1:50](https://www.youtube.com/watch?v=XN8a2zZe2a8&t=110s) |
 
 ## AL objects mentioned
 

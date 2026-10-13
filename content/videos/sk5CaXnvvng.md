@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:13:43.986Z"
   flags: []
 generated:
-  at: "2026-10-07T23:13:44.037Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -245,22 +245,24 @@ It also covers telemetry and documentation improvements: a page for failing web 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Editable Property Support in OData for Edit in Excel | status not stated | [0:39](https://www.youtube.com/watch?v=sk5CaXnvvng&t=39s) |
-| HTTP 503 Return Code for Request Queue Timeout | status not stated | [1:58](https://www.youtube.com/watch?v=sk5CaXnvvng&t=118s) |
-| Invalid Metadata Handling with Telemetry Emissions | status not stated | [2:58](https://www.youtube.com/watch?v=sk5CaXnvvng&t=178s) |
-| Web Service Endpoints Failure Telemetry Page | status not stated | [3:39](https://www.youtube.com/watch?v=sk5CaXnvvng&t=219s) |
-| Troubleshooting Guides for HTTP Status Codes | status not stated | [4:19](https://www.youtube.com/watch?v=sk5CaXnvvng&t=259s) |
-| User Agent Tracking in Power BI Telemetry | status not stated | [5:20](https://www.youtube.com/watch?v=sk5CaXnvvng&t=320s) |
-| HTTP Status Code and Exception Telemetry in Power BI | status not stated | [5:40](https://www.youtube.com/watch?v=sk5CaXnvvng&t=340s) |
-| Web Service Request Queuing Time Telemetry | status not stated | [6:36](https://www.youtube.com/watch?v=sk5CaXnvvng&t=396s) |
-| HTTP Client Error Handling Documentation | status not stated | [7:12](https://www.youtube.com/watch?v=sk5CaXnvvng&t=432s) |
-| HTTP Client Last Error Text for Troubleshooting | status not stated | [8:52](https://www.youtube.com/watch?v=sk5CaXnvvng&t=532s) |
-| Improved SSL and Certificate Error Messages | status not stated | [9:32](https://www.youtube.com/watch?v=sk5CaXnvvng&t=572s) |
-| Socket Reuse Optimization for HTTP Client | status not stated | [10:33](https://www.youtube.com/watch?v=sk5CaXnvvng&t=633s) |
-| Custom API Schema Version Default Change | status not stated | [11:11](https://www.youtube.com/watch?v=sk5CaXnvvng&t=671s) |
-| Delta Links Support Removal | status not stated | [11:11](https://www.youtube.com/watch?v=sk5CaXnvvng&t=671s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Editable Property Support in OData for Edit in Excel | [0:39](https://www.youtube.com/watch?v=sk5CaXnvvng&t=39s) |
+| HTTP 503 Return Code for Request Queue Timeout | [1:58](https://www.youtube.com/watch?v=sk5CaXnvvng&t=118s) |
+| Invalid Metadata Handling with Telemetry Emissions | [2:58](https://www.youtube.com/watch?v=sk5CaXnvvng&t=178s) |
+| Web Service Endpoints Failure Telemetry Page | [3:39](https://www.youtube.com/watch?v=sk5CaXnvvng&t=219s) |
+| Troubleshooting Guides for HTTP Status Codes | [4:19](https://www.youtube.com/watch?v=sk5CaXnvvng&t=259s) |
+| User Agent Tracking in Power BI Telemetry | [5:20](https://www.youtube.com/watch?v=sk5CaXnvvng&t=320s) |
+| HTTP Status Code and Exception Telemetry in Power BI | [5:40](https://www.youtube.com/watch?v=sk5CaXnvvng&t=340s) |
+| Web Service Request Queuing Time Telemetry | [6:36](https://www.youtube.com/watch?v=sk5CaXnvvng&t=396s) |
+| HTTP Client Error Handling Documentation | [7:12](https://www.youtube.com/watch?v=sk5CaXnvvng&t=432s) |
+| HTTP Client Last Error Text for Troubleshooting | [8:52](https://www.youtube.com/watch?v=sk5CaXnvvng&t=532s) |
+| Improved SSL and Certificate Error Messages | [9:32](https://www.youtube.com/watch?v=sk5CaXnvvng&t=572s) |
+| Socket Reuse Optimization for HTTP Client | [10:33](https://www.youtube.com/watch?v=sk5CaXnvvng&t=633s) |
+| Custom API Schema Version Default Change | [11:11](https://www.youtube.com/watch?v=sk5CaXnvvng&t=671s) |
+| Delta Links Support Removal | [11:11](https://www.youtube.com/watch?v=sk5CaXnvvng&t=671s) |
 
 ## AL objects mentioned
 

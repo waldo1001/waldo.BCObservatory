@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:00.307Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:00.339Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,10 +171,12 @@ It also covers how teaching tips differ from documentation, how tours with teach
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Teaching Tips | status not stated | [0:20](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=20s) |
-| Tours with Teaching Tips | status not stated | [0:56](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=56s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Teaching Tips | [0:20](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=20s) |
+| Tours with Teaching Tips | [0:56](https://www.youtube.com/watch?v=2Zz55J8rt8I&t=56s) |
 
 ## Quotes
 

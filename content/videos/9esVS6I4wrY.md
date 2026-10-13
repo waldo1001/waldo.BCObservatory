@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:37.216Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:37.263Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,11 +182,13 @@ It walks through the setup in order: Azure resource group, billing plan, new Dat
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Pay-as-you-go billing for agents | status not stated, demoed | [0:14](https://www.youtube.com/watch?v=9esVS6I4wrY&t=14s) |
-| Agent consumption monitoring | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=9esVS6I4wrY&t=139s) |
-| Azure budget creation for agent spending | status not stated, demoed | [3:09](https://www.youtube.com/watch?v=9esVS6I4wrY&t=189s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Pay-as-you-go billing for agents | [0:14](https://www.youtube.com/watch?v=9esVS6I4wrY&t=14s) |
+| Agent consumption monitoring | [2:19](https://www.youtube.com/watch?v=9esVS6I4wrY&t=139s) |
+| Azure budget creation for agent spending | [3:09](https://www.youtube.com/watch?v=9esVS6I4wrY&t=189s) |
 
 ## AL objects mentioned
 

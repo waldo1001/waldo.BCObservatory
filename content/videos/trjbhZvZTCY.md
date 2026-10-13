@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:56.073Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:56.113Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -191,10 +191,12 @@ The second part covers AI. It says AI will not replace people, and that building
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| BC Talent Program | status not stated | [0:01](https://www.youtube.com/watch?v=trjbhZvZTCY&t=1s) |
-| AI Skills Development for Business Central | status not stated | [0:40](https://www.youtube.com/watch?v=trjbhZvZTCY&t=40s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| BC Talent Program | [0:01](https://www.youtube.com/watch?v=trjbhZvZTCY&t=1s) |
+| AI Skills Development for Business Central | [0:40](https://www.youtube.com/watch?v=trjbhZvZTCY&t=40s) |
 
 ## Quotes
 

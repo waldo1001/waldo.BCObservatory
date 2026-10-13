@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:06:29.669Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:29.702Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,12 +162,14 @@ In Business Central, the presenter records a payment in Cash Receipt Journals by
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Cash Receipt Journals | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=50s) |
-| Customer Register Payments Window | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=93s) |
-| Automatic Amount and Date Defaulting | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=85s) |
-| Lumpsum Payment Posting | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=150s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Cash Receipt Journals | [0:50](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=50s) |
+| Customer Register Payments Window | [1:33](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=93s) |
+| Automatic Amount and Date Defaulting | [1:25](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=85s) |
+| Lumpsum Payment Posting | [2:30](https://www.youtube.com/watch?v=Dkd8_cGzIvc&t=150s) |
 
 ## AL objects mentioned
 

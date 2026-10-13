@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:59:19.043Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:19.081Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,14 +200,16 @@ The changes covered are a more compact title area, a separate internal descripti
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Internal description for audit purposes | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s) |
-| Slimmer user interface | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=74s) |
-| Negative amount format option | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=145s) |
-| Portrait mode for PDF export | status not stated, demoed | [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) |
-| Excel layouts | status not stated, demoed | [3:40](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s) |
-| Default Excel layout | status not stated, demoed | [7:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=434s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Internal description for audit purposes | [0:45](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=45s) |
+| Slimmer user interface | [1:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=74s) |
+| Negative amount format option | [2:25](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=145s) |
+| Portrait mode for PDF export | [3:07](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=187s) |
+| Excel layouts | [3:40](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=220s) |
+| Default Excel layout | [7:14](https://www.youtube.com/watch?v=RdYLc7ebNJ8&t=434s) |
 
 ## AL objects mentioned
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:31.651Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:31.685Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,13 +200,15 @@ It then shows the cost shares view, the BOM cost share distribution report, and 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Costing methods | status not stated, demoed | [0:21](https://www.youtube.com/watch?v=N30HebR5nJk&t=21s) |
-| Cost shares on item card | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=N30HebR5nJk&t=61s) |
-| BOM cost share distribution report | status not stated, demoed | [1:50](https://www.youtube.com/watch?v=N30HebR5nJk&t=110s) |
-| Work center capacity rates | status not stated, demoed | [2:25](https://www.youtube.com/watch?v=N30HebR5nJk&t=145s) |
-| Production order statistics | status not stated, demoed | [3:02](https://www.youtube.com/watch?v=N30HebR5nJk&t=182s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Costing methods | [0:21](https://www.youtube.com/watch?v=N30HebR5nJk&t=21s) |
+| Cost shares on item card | [1:01](https://www.youtube.com/watch?v=N30HebR5nJk&t=61s) |
+| BOM cost share distribution report | [1:50](https://www.youtube.com/watch?v=N30HebR5nJk&t=110s) |
+| Work center capacity rates | [2:25](https://www.youtube.com/watch?v=N30HebR5nJk&t=145s) |
+| Production order statistics | [3:02](https://www.youtube.com/watch?v=N30HebR5nJk&t=182s) |
 
 ## AL objects mentioned
 

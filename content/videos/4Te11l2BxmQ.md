@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:06:07.231Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:07.279Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -157,12 +157,14 @@ Copilot compares transaction descriptions, amounts and dates to find matches in 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot for Bank Reconciliation | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) |
-| Consolidated Transaction Detection | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s) |
-| GL Account Suggestions | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
-| Recurring Payment Pattern Recognition | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Copilot for Bank Reconciliation | [0:04](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=4s) |
+| Consolidated Transaction Detection | [0:24](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=24s) |
+| GL Account Suggestions | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
+| Recurring Payment Pattern Recognition | [0:44](https://www.youtube.com/watch?v=4Te11l2BxmQ&t=44s) |
 
 ## Quotes
 

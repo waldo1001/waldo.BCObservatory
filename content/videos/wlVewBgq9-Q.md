@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:56:31.363Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:31.404Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -237,19 +237,21 @@ It then adds project tasks, and planning lines with resources and items. Cost an
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Project list in role center | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s) |
-| Project card creation | status not stated, demoed | [0:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=12s) |
-| Project manager assignment | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=23s) |
-| Project task numbering | status not stated, demoed | [0:33](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=33s) |
-| Project task types | status not stated, demoed | [0:44](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=44s) |
-| Project planning lines | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=59s) |
-| Resource and item allocation | status not stated, demoed | [1:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=72s) |
-| Project details pane | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=85s) |
-| Project posting groups | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s) |
-| Copy project tasks feature | status not stated, demoed | [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s) |
-| Copy dimensions and quantities on apply tab | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=132s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Project list in role center | [0:00](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=0s) |
+| Project card creation | [0:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=12s) |
+| Project manager assignment | [0:23](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=23s) |
+| Project task numbering | [0:33](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=33s) |
+| Project task types | [0:44](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=44s) |
+| Project planning lines | [0:59](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=59s) |
+| Resource and item allocation | [1:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=72s) |
+| Project details pane | [1:25](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=85s) |
+| Project posting groups | [1:39](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=99s) |
+| Copy project tasks feature | [1:49](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=109s) |
+| Copy dimensions and quantities on apply tab | [2:12](https://www.youtube.com/watch?v=wlVewBgq9-Q&t=132s) |
 
 ## AL objects mentioned
 

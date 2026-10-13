@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:45.279Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:45.311Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -186,12 +186,14 @@ The video shows a Manifest Agent that replaces this work. It watches a shared ma
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Manifest Agent for Business Central | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
-| Automated purchase order creation from manifests | status not stated | [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) |
-| Mailbox monitoring and document processing | status not stated | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
-| Job queue execution with audit logging | status not stated | [1:32](https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Manifest Agent for Business Central | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
+| Automated purchase order creation from manifests | [1:17](https://www.youtube.com/watch?v=WjF_sESaIPo&t=77s) |
+| Mailbox monitoring and document processing | [1:03](https://www.youtube.com/watch?v=WjF_sESaIPo&t=63s) |
+| Job queue execution with audit logging | [1:32](https://www.youtube.com/watch?v=WjF_sESaIPo&t=92s) |
 
 ## Quotes
 

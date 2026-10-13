@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:52:14.223Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:14.258Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -201,12 +201,14 @@ The video describes how booking and branch coordination changed. Customers are o
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Automated technician scheduling with booking system | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
-| Real-time booking visibility across branches | status not stated | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
-| Cloud-based Business Central ERP | status not stated | [0:15](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=15s) |
-| Enhanced booking system performance | status not stated | [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Automated technician scheduling with booking system | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
+| Real-time booking visibility across branches | [0:40](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=40s) |
+| Cloud-based Business Central ERP | [0:15](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=15s) |
+| Enhanced booking system performance | [1:22](https://www.youtube.com/watch?v=zE6uElxwSMQ&t=82s) |
 
 ## Quotes
 

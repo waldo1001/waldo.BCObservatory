@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:54:46.500Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:46.535Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,12 +190,14 @@ It then introduces custom templates: a custom template is itself an AL-Go reposi
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Custom templates for AL-Go | status not stated, demoed | [2:00](https://www.youtube.com/watch?v=vm3sTuXdUho&t=120s) |
-| Custom jobs in AL-Go workflows | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=vm3sTuXdUho&t=96s) |
-| Settings propagation in custom templates | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=vm3sTuXdUho&t=162s) |
-| Native job dependencies with custom jobs | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=vm3sTuXdUho&t=322s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Custom templates for AL-Go | [2:00](https://www.youtube.com/watch?v=vm3sTuXdUho&t=120s) |
+| Custom jobs in AL-Go workflows | [1:36](https://www.youtube.com/watch?v=vm3sTuXdUho&t=96s) |
+| Settings propagation in custom templates | [2:42](https://www.youtube.com/watch?v=vm3sTuXdUho&t=162s) |
+| Native job dependencies with custom jobs | [5:22](https://www.youtube.com/watch?v=vm3sTuXdUho&t=322s) |
 
 ## AL objects mentioned
 

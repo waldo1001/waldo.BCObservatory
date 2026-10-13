@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:09:02.505Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:02.548Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -206,14 +206,16 @@ It then covers a recovery scenario. Balance sheet items need the previous period
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Consolidation status list | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
-| Exchange rate lookup and modification during consolidation | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
-| Last closing rate lookup | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=gHcgL469x_E&t=67s) |
-| Consolidation validation | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=gHcgL469x_E&t=80s) |
-| Previous consolidation exchange rate selection | status not stated, demoed | [6:52](https://www.youtube.com/watch?v=gHcgL469x_E&t=412s) |
-| Closing and average currency factors configuration | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=gHcgL469x_E&t=171s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Consolidation status list | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
+| Exchange rate lookup and modification during consolidation | [0:49](https://www.youtube.com/watch?v=gHcgL469x_E&t=49s) |
+| Last closing rate lookup | [1:07](https://www.youtube.com/watch?v=gHcgL469x_E&t=67s) |
+| Consolidation validation | [1:20](https://www.youtube.com/watch?v=gHcgL469x_E&t=80s) |
+| Previous consolidation exchange rate selection | [6:52](https://www.youtube.com/watch?v=gHcgL469x_E&t=412s) |
+| Closing and average currency factors configuration | [2:51](https://www.youtube.com/watch?v=gHcgL469x_E&t=171s) |
 
 ## AL objects mentioned
 

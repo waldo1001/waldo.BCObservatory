@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:06:21.039Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:21.086Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -175,13 +175,15 @@ It then shows the show more columns view, which lays out debit and credit amount
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| General Journal batches | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=46s) |
-| Account name auto-filter in journal entry | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=87s) |
-| Show more columns view for journal entries | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=118s) |
-| Single-line journal entry | status not stated, demoed | [2:18](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=138s) |
-| Excel integration for journal entries | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=175s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| General Journal batches | [0:46](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=46s) |
+| Account name auto-filter in journal entry | [1:27](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=87s) |
+| Show more columns view for journal entries | [1:58](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=118s) |
+| Single-line journal entry | [2:18](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=138s) |
+| Excel integration for journal entries | [2:55](https://www.youtube.com/watch?v=zQhtuFbxJm4&t=175s) |
 
 ## Quotes
 

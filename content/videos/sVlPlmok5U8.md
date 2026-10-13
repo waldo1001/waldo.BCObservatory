@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:44.904Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:44.942Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -167,12 +167,14 @@ The demo sets up locations with different warehouse requirements, creates a purc
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Warehouse processes for project purchases | status not stated, demoed | [0:04](https://www.youtube.com/watch?v=sVlPlmok5U8&t=4s) |
-| Inventory put-away generation | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=sVlPlmok5U8&t=77s) |
-| Warehouse receipt for project items | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=sVlPlmok5U8&t=88s) |
-| Direct purchase order receipt without warehouse processing | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=sVlPlmok5U8&t=102s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Warehouse processes for project purchases | [0:04](https://www.youtube.com/watch?v=sVlPlmok5U8&t=4s) |
+| Inventory put-away generation | [1:17](https://www.youtube.com/watch?v=sVlPlmok5U8&t=77s) |
+| Warehouse receipt for project items | [1:28](https://www.youtube.com/watch?v=sVlPlmok5U8&t=88s) |
+| Direct purchase order receipt without warehouse processing | [1:42](https://www.youtube.com/watch?v=sVlPlmok5U8&t=102s) |
 
 ## AL objects mentioned
 

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12459",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
+  "url": "https://github.com/microsoft/BCApps/pull/12459",
+  "published_at": "2026-10-12T11:54:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T00:27:25.816Z"
+    }
+  },
+  "input_hash": "54b929d854f98605c003617fd5bebcabb2d6f5b5:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12459,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "54b929d854f98605c003617fd5bebcabb2d6f5b5",
+    "author": "sanjmaurya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master all e subcontractor price ignores run time when creating purchase cost for time based subcontracting operations"
+  }
+}

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:03:24.702Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:24.769Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -441,25 +441,27 @@ The second half covers indexing, why page search can cause full table scans, and
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Performance Toolkit | status not stated | [2:54](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=174s) |
-| Telemetry monitoring for long-running queries | status not stated | [4:55](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=295s) |
-| Flow fields | status not stated | [8:21](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=501s) |
-| Set load fields function | status not stated | [9:34](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=574s) |
-| AL to SQL code generation | status not stated | [11:17](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=677s) |
-| Session caching strategy | status not stated | [12:49](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=769s) |
-| Index seek optimization | status not stated | [14:05](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=845s) |
-| Read isolation feature | status not stated | [26:14](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1574s) |
-| Database locks page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
-| Missing indexes page | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
-| In-client profiler | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
-| Application Insights | status not stated | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
-| Cross-System Index Recommendations Dashboard | status not stated | [29:09](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1749s) |
-| Number Sequences for Entry Number Generation | status not stated | [33:22](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2002s) |
-| Concurrent Warehouse Entry Posting | status not stated | [34:12](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2052s) |
-| SQL Full Text Indexing for Page Search | status not stated | [35:45](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2145s) |
-| Concurrency and Parallelization for Bulk Operations | status not stated | [36:26](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2186s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Performance Toolkit | [2:54](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=174s) |
+| Telemetry monitoring for long-running queries | [4:55](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=295s) |
+| Flow fields | [8:21](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=501s) |
+| Set load fields function | [9:34](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=574s) |
+| AL to SQL code generation | [11:17](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=677s) |
+| Session caching strategy | [12:49](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=769s) |
+| Index seek optimization | [14:05](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=845s) |
+| Read isolation feature | [26:14](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1574s) |
+| Database locks page | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Missing indexes page | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| In-client profiler | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Application Insights | [25:13](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1513s) |
+| Cross-System Index Recommendations Dashboard | [29:09](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=1749s) |
+| Number Sequences for Entry Number Generation | [33:22](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2002s) |
+| Concurrent Warehouse Entry Posting | [34:12](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2052s) |
+| SQL Full Text Indexing for Page Search | [35:45](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2145s) |
+| Concurrency and Parallelization for Bulk Operations | [36:26](https://www.youtube.com/watch?v=lpwDSdEJrIQ&t=2186s) |
 
 ## AL objects mentioned
 

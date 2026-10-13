@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:39.674Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:39.720Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -232,18 +232,20 @@ All homepages share one layout. Activity tiles lead to daily tasks, and charts c
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Role-based Homepages | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
-| Business Manager Homepage | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
-| Accountant Homepage | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=7muCHEF593Q&t=28s) |
-| Sales and Relationships Homepage | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=7muCHEF593Q&t=49s) |
-| Project Manager Homepage | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=7muCHEF593Q&t=66s) |
-| Homepage Activity Tiles | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
-| Homepage Charts | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
-| Menu Header Feature Access | status not stated, demoed | [1:45](https://www.youtube.com/watch?v=7muCHEF593Q&t=105s) |
-| Search Bar for Page Discovery | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
-| Keyboard Shortcuts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Role-based Homepages | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
+| Business Manager Homepage | [0:11](https://www.youtube.com/watch?v=7muCHEF593Q&t=11s) |
+| Accountant Homepage | [0:28](https://www.youtube.com/watch?v=7muCHEF593Q&t=28s) |
+| Sales and Relationships Homepage | [0:49](https://www.youtube.com/watch?v=7muCHEF593Q&t=49s) |
+| Project Manager Homepage | [1:06](https://www.youtube.com/watch?v=7muCHEF593Q&t=66s) |
+| Homepage Activity Tiles | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
+| Homepage Charts | [1:22](https://www.youtube.com/watch?v=7muCHEF593Q&t=82s) |
+| Menu Header Feature Access | [1:45](https://www.youtube.com/watch?v=7muCHEF593Q&t=105s) |
+| Search Bar for Page Discovery | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
+| Keyboard Shortcuts | [1:56](https://www.youtube.com/watch?v=7muCHEF593Q&t=116s) |
 
 ## Quotes
 

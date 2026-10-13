@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:37.806Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:37.884Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,13 +188,15 @@ The presenter installs the extensions from Extension Management, configures an A
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| External File Storage Module | status not stated, demoed | [0:50](https://www.youtube.com/watch?v=2vUCR16b85o&t=50s) |
-| Azure Blob Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
-| Azure File Service Integration | status not stated, demoed | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
-| External File Accounts Setup | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=2vUCR16b85o&t=378s) |
-| Storage Browser Interface | status not stated, demoed | [9:45](https://www.youtube.com/watch?v=2vUCR16b85o&t=585s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| External File Storage Module | [0:50](https://www.youtube.com/watch?v=2vUCR16b85o&t=50s) |
+| Azure Blob Service Integration | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
+| Azure File Service Integration | [3:27](https://www.youtube.com/watch?v=2vUCR16b85o&t=207s) |
+| External File Accounts Setup | [6:18](https://www.youtube.com/watch?v=2vUCR16b85o&t=378s) |
+| Storage Browser Interface | [9:45](https://www.youtube.com/watch?v=2vUCR16b85o&t=585s) |
 
 ## AL objects mentioned
 

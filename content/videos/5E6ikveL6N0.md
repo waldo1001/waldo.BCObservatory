@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:06:45.978Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:46.027Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -209,15 +209,17 @@ It then walks through Business Central. Business posting groups describe who you
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Posting Account Setup in GP | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=1s) |
-| Business Posting Groups | status not stated, demoed | [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) |
-| Product Posting Groups | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=82s) |
-| Posting Setup | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s) |
-| Customer Posting Groups | status not stated, demoed | [2:16](https://www.youtube.com/watch?v=5E6ikveL6N0&t=136s) |
-| Inventory Posting Groups | status not stated, demoed | [3:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=181s) |
-| Posting Preview | status not stated, demoed | [3:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=202s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Posting Account Setup in GP | [0:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=1s) |
+| Business Posting Groups | [1:05](https://www.youtube.com/watch?v=5E6ikveL6N0&t=65s) |
+| Product Posting Groups | [1:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=82s) |
+| Posting Setup | [1:56](https://www.youtube.com/watch?v=5E6ikveL6N0&t=116s) |
+| Customer Posting Groups | [2:16](https://www.youtube.com/watch?v=5E6ikveL6N0&t=136s) |
+| Inventory Posting Groups | [3:01](https://www.youtube.com/watch?v=5E6ikveL6N0&t=181s) |
+| Posting Preview | [3:22](https://www.youtube.com/watch?v=5E6ikveL6N0&t=202s) |
 
 ## Quotes
 

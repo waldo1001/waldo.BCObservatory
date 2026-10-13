@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:09:08.180Z"
   flags: []
 generated:
-  at: "2026-10-07T23:09:08.214Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,17 +225,19 @@ The walkthrough goes through Microsoft 365 and Office apps, Power Platform, Dyna
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Integration Overview Documentation | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=31s) |
-| New Integration Landing Page (aka.ms/bc-integration) | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=183s) |
-| Microsoft 365 and Office Apps Integration Documentation | status not stated, demoed | [4:02](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=242s) |
-| Power Platform Integration Documentation | status not stated, demoed | [4:37](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=277s) |
-| Dynamics Products and Dataverse Integration Documentation | status not stated, demoed | [5:10](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=310s) |
-| Azure Services Integration Support | status not stated, demoed | [5:49](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=349s) |
-| Microsoft Entra and Infrastructure Services Documentation | status not stated, demoed | [6:30](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=390s) |
-| Network Access Restriction with Security Service Tags | status not stated, demoed | [7:04](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=424s) |
-| Web Services Documentation Update | status not stated, demoed | [7:25](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=445s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Integration Overview Documentation | [0:31](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=31s) |
+| New Integration Landing Page (aka.ms/bc-integration) | [3:03](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=183s) |
+| Microsoft 365 and Office Apps Integration Documentation | [4:02](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=242s) |
+| Power Platform Integration Documentation | [4:37](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=277s) |
+| Dynamics Products and Dataverse Integration Documentation | [5:10](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=310s) |
+| Azure Services Integration Support | [5:49](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=349s) |
+| Microsoft Entra and Infrastructure Services Documentation | [6:30](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=390s) |
+| Network Access Restriction with Security Service Tags | [7:04](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=424s) |
+| Web Services Documentation Update | [7:25](https://www.youtube.com/watch?v=gAzmWJg9Z5g&t=445s) |
 
 ## AL objects mentioned
 

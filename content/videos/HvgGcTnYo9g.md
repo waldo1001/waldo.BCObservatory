@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:11:38.258Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:38.294Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -197,13 +197,15 @@ Manufacturing staff enter data through Power Apps, which syncs back to Business 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Production order management | status not stated | [0:41](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s) |
-| Power Apps integration for data entry | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
-| Production reporting and analytics | status not stated | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
-| Workflow automation for order processing | status not stated | [1:42](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=102s) |
-| AI-assisted demand planning | status not stated | [2:02](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Production order management | [0:41](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=41s) |
+| Power Apps integration for data entry | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
+| Production reporting and analytics | [1:21](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=81s) |
+| Workflow automation for order processing | [1:42](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=102s) |
+| AI-assisted demand planning | [2:02](https://www.youtube.com/watch?v=HvgGcTnYo9g&t=122s) |
 
 ## Quotes
 

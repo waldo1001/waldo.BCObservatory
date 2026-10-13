@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:19.516Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:19.556Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,11 +163,13 @@ It then moves to building custom agents that connect to other Microsoft tools. C
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sales Order Agent | status not stated | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |
-| Payables Agent | status not stated | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |
-| Custom Agents Framework | status not stated | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Sales Order Agent | [0:25](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=25s) |
+| Payables Agent | [0:37](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=37s) |
+| Custom Agents Framework | [0:59](https://www.youtube.com/watch?v=0h8QBNmeORQ&t=59s) |
 
 ## Quotes
 

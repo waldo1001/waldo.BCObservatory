@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:54:20.931Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:20.980Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -196,14 +196,16 @@ In the demo, Analysis Assist adds fields from tables related to the current anal
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Analysis Assist Copilot | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=SHOAw9GehdI&t=38s) |
-| Add Columns from Related Tables | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=SHOAw9GehdI&t=211s) |
-| Server-Side Data Loading | status not stated, demoed | [3:52](https://www.youtube.com/watch?v=SHOAw9GehdI&t=232s) |
-| Pivot on Date Hierarchy in Server-Side Mode | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=SHOAw9GehdI&t=272s) |
-| Right-Click Menu for Data Analysis | status not stated, demoed | [5:40](https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s) |
-| Data Analysis Feature | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=SHOAw9GehdI&t=16s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Analysis Assist Copilot | [0:38](https://www.youtube.com/watch?v=SHOAw9GehdI&t=38s) |
+| Add Columns from Related Tables | [3:31](https://www.youtube.com/watch?v=SHOAw9GehdI&t=211s) |
+| Server-Side Data Loading | [3:52](https://www.youtube.com/watch?v=SHOAw9GehdI&t=232s) |
+| Pivot on Date Hierarchy in Server-Side Mode | [4:32](https://www.youtube.com/watch?v=SHOAw9GehdI&t=272s) |
+| Right-Click Menu for Data Analysis | [5:40](https://www.youtube.com/watch?v=SHOAw9GehdI&t=340s) |
+| Data Analysis Feature | [0:16](https://www.youtube.com/watch?v=SHOAw9GehdI&t=16s) |
 
 ## Quotes
 

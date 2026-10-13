@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:22:00.440Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:00.473Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -175,12 +175,14 @@ The demo then applies the custom area to fields and groups in a page extension a
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Application Area extension | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s) |
-| Enable custom area function | status not stated, demoed | [2:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=164s) |
-| Application area validation | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=224s) |
-| Application area usage in page extensions | status not stated, demoed | [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Application Area extension | [0:47](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=47s) |
+| Enable custom area function | [2:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=164s) |
+| Application area validation | [3:44](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=224s) |
+| Application area usage in page extensions | [4:23](https://www.youtube.com/watch?v=uxYuoJP-uH8&t=263s) |
 
 ## AL objects mentioned
 

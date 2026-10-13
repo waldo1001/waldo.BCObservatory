@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:11:37.351Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:37.386Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -169,13 +169,15 @@ The analysis mode icon is new and takes less space, but stays in the same place 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Analysis mode icon redesign | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
-| Removal of search and analysis mode captions | status not stated | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
-| Copilot on action bar | status not stated | [0:30](https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s) |
-| Action bar made standard | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
-| Split buttons for fast access | status not stated | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Analysis mode icon redesign | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
+| Removal of search and analysis mode captions | [0:11](https://www.youtube.com/watch?v=3jr6gUuGem4&t=11s) |
+| Copilot on action bar | [0:30](https://www.youtube.com/watch?v=3jr6gUuGem4&t=30s) |
+| Action bar made standard | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
+| Split buttons for fast access | [0:42](https://www.youtube.com/watch?v=3jr6gUuGem4&t=42s) |
 
 ## Quotes
 

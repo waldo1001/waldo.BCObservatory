@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:08:00.907Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:00.942Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -165,10 +165,12 @@ The first step is introduction text that explains the value of the page, helping
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Spotlight Tour Element | status not stated | [0:00](https://www.youtube.com/watch?v=5GD8S3XzQmA&t=0s) |
-| Two-Step Spotlight Tour Pattern | status not stated | [0:17](https://www.youtube.com/watch?v=5GD8S3XzQmA&t=17s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Spotlight Tour Element | [0:00](https://www.youtube.com/watch?v=5GD8S3XzQmA&t=0s) |
+| Two-Step Spotlight Tour Pattern | [0:17](https://www.youtube.com/watch?v=5GD8S3XzQmA&t=17s) |
 
 ## Quotes
 

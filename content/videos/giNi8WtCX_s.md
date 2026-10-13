@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:58:18.895Z"
   flags: []
 generated:
-  at: "2026-10-07T22:58:18.935Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -209,16 +209,18 @@ The demo covers attaching documents to a BOM, opening the active version through
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Production BOM document attachment | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=giNi8WtCX_s&t=5s) |
-| Production BOM active version | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=giNi8WtCX_s&t=25s) |
-| Subassembly display options in BOM | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=giNi8WtCX_s&t=45s) |
-| BOM version list view with date and status | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=giNi8WtCX_s&t=56s) |
-| Select items action for bulk BOM editing | status not stated, demoed | [1:06](https://www.youtube.com/watch?v=giNi8WtCX_s&t=66s) |
-| Edit in Excel functionality for BOM | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=giNi8WtCX_s&t=77s) |
-| BOM version certification confirmation dialog | status not stated, demoed | [1:22](https://www.youtube.com/watch?v=giNi8WtCX_s&t=82s) |
-| BOM navigation from item card | status not stated, demoed | [1:48](https://www.youtube.com/watch?v=giNi8WtCX_s&t=108s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Production BOM document attachment | [0:05](https://www.youtube.com/watch?v=giNi8WtCX_s&t=5s) |
+| Production BOM active version | [0:25](https://www.youtube.com/watch?v=giNi8WtCX_s&t=25s) |
+| Subassembly display options in BOM | [0:45](https://www.youtube.com/watch?v=giNi8WtCX_s&t=45s) |
+| BOM version list view with date and status | [0:56](https://www.youtube.com/watch?v=giNi8WtCX_s&t=56s) |
+| Select items action for bulk BOM editing | [1:06](https://www.youtube.com/watch?v=giNi8WtCX_s&t=66s) |
+| Edit in Excel functionality for BOM | [1:17](https://www.youtube.com/watch?v=giNi8WtCX_s&t=77s) |
+| BOM version certification confirmation dialog | [1:22](https://www.youtube.com/watch?v=giNi8WtCX_s&t=82s) |
+| BOM navigation from item card | [1:48](https://www.youtube.com/watch?v=giNi8WtCX_s&t=108s) |
 
 ## AL objects mentioned
 

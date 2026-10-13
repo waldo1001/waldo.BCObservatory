@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:56:42.866Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:42.906Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,12 +181,14 @@ It then covers creating your own company. The setup guide walks through steps sp
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sample Company Cronis | status not stated | [0:01](https://www.youtube.com/watch?v=lRiED3AUfps&t=1s) |
-| Setup Guide | status not stated | [0:25](https://www.youtube.com/watch?v=lRiED3AUfps&t=25s) |
-| Data Migration Guide | status not stated | [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) |
-| Teaching Tips Toggle | status not stated | [1:06](https://www.youtube.com/watch?v=lRiED3AUfps&t=66s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Sample Company Cronis | [0:01](https://www.youtube.com/watch?v=lRiED3AUfps&t=1s) |
+| Setup Guide | [0:25](https://www.youtube.com/watch?v=lRiED3AUfps&t=25s) |
+| Data Migration Guide | [0:51](https://www.youtube.com/watch?v=lRiED3AUfps&t=51s) |
+| Teaching Tips Toggle | [1:06](https://www.youtube.com/watch?v=lRiED3AUfps&t=66s) |
 
 ## Quotes
 

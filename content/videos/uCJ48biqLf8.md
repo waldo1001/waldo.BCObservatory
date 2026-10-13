@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:25.208Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:25.253Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -165,10 +165,12 @@ The demo uses table Customer and two codeunit procedures, one that gets a value 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| FieldExist() text overload | status not stated, demoed | [6:25](https://www.youtube.com/watch?v=uCJ48biqLf8&t=385s) |
-| Field() text overload | status not stated, demoed | [6:50](https://www.youtube.com/watch?v=uCJ48biqLf8&t=410s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| FieldExist() text overload | [6:25](https://www.youtube.com/watch?v=uCJ48biqLf8&t=385s) |
+| Field() text overload | [6:50](https://www.youtube.com/watch?v=uCJ48biqLf8&t=410s) |
 
 ## AL objects mentioned
 

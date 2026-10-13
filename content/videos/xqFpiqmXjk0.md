@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:46:16.266Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:16.301Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -230,17 +230,19 @@ It then looks at the Components, Routing and Statistics functions, uses item ava
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Production order statuses | status not stated, demoed | [0:26](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=26s) |
-| Production order creation from master data | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=49s) |
-| Components function | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=80s) |
-| Routing function | status not stated, demoed | [1:29](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=89s) |
-| Statistics function | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=101s) |
-| Item availability by BOM level | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=118s) |
-| Production journal | status not stated, demoed | [2:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=161s) |
-| Production journal posting | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=214s) |
-| Routing link code | status not stated, demoed | [2:57](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=177s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Production order statuses | [0:26](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=26s) |
+| Production order creation from master data | [0:49](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=49s) |
+| Components function | [1:20](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=80s) |
+| Routing function | [1:29](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=89s) |
+| Statistics function | [1:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=101s) |
+| Item availability by BOM level | [1:58](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=118s) |
+| Production journal | [2:41](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=161s) |
+| Production journal posting | [3:34](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=214s) |
+| Routing link code | [2:57](https://www.youtube.com/watch?v=xqFpiqmXjk0&t=177s) |
 
 ## Quotes
 

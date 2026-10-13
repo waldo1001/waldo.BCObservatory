@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:44.271Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:44.309Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -192,11 +192,13 @@ The speaker says AI adoption required consolidating data from separate systems i
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Supplier invoicing automation | status not stated | [0:43](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=43s) |
-| Data consolidation for AI | status not stated | [0:13](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=13s) |
-| Customer zero journey | status not stated | [0:31](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=31s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Supplier invoicing automation | [0:43](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=43s) |
+| Data consolidation for AI | [0:13](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=13s) |
+| Customer zero journey | [0:31](https://www.youtube.com/watch?v=Wc8WlLZUCJc&t=31s) |
 
 ## Quotes
 

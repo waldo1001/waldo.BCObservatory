@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:21.929Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:21.963Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -192,12 +192,14 @@ The second part covers dynamic dimension naming. A new dimension sets table in P
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Drill-back from Power BI to Business Central | status not stated, demoed | [0:29](https://www.youtube.com/watch?v=kJfGIKor3VA&t=29s) |
-| Dynamic dimension naming in Power BI apps | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kJfGIKor3VA&t=57s) |
-| Analysis mode scroll-to-column feature | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=kJfGIKor3VA&t=156s) |
-| Dimension sets table in Power BI | status not stated, demoed | [3:44](https://www.youtube.com/watch?v=kJfGIKor3VA&t=224s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Drill-back from Power BI to Business Central | [0:29](https://www.youtube.com/watch?v=kJfGIKor3VA&t=29s) |
+| Dynamic dimension naming in Power BI apps | [0:57](https://www.youtube.com/watch?v=kJfGIKor3VA&t=57s) |
+| Analysis mode scroll-to-column feature | [2:36](https://www.youtube.com/watch?v=kJfGIKor3VA&t=156s) |
+| Dimension sets table in Power BI | [3:44](https://www.youtube.com/watch?v=kJfGIKor3VA&t=224s) |
 
 ## AL objects mentioned
 

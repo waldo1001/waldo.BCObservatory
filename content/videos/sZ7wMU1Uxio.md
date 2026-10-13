@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:34.890Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:34.926Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -160,11 +160,13 @@ From the dataset you open its settings. Under data source credentials you can ed
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Power BI Telemetry app dataset properties | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=0s) |
-| Data source credentials management | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=74s) |
-| Report refresh rate configuration | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=87s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Power BI Telemetry app dataset properties | [0:00](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=0s) |
+| Data source credentials management | [1:14](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=74s) |
+| Report refresh rate configuration | [1:27](https://www.youtube.com/watch?v=sZ7wMU1Uxio&t=87s) |
 
 ## Quotes
 

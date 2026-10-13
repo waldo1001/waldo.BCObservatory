@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:06:58.388Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:58.429Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -191,13 +191,15 @@ It walks through business posting groups (who you buy from and sell to), product
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Business posting groups | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=68s) |
-| Product posting groups | status not stated, demoed | [1:20](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=80s) |
-| General posting setup | status not stated, demoed | [1:58](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=118s) |
-| Customer posting groups | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=141s) |
-| Inventory posting group | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=162s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Business posting groups | [1:08](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=68s) |
+| Product posting groups | [1:20](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=80s) |
+| General posting setup | [1:58](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=118s) |
+| Customer posting groups | [2:21](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=141s) |
+| Inventory posting group | [2:42](https://www.youtube.com/watch?v=XJ0JHHQ7GzA&t=162s) |
 
 ## AL objects mentioned
 

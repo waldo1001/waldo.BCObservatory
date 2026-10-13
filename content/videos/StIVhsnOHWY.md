@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:54:31.773Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:31.818Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -392,33 +392,35 @@ It then covers order import and sales document creation, including archived orde
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sync in foreground mode | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s) |
-| Logging mode configuration | status not stated, demoed | [2:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=169s) |
-| Customer validation and skip notification | status not stated, demoed | [3:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=229s) |
-| Log entry details for synchronization | status not stated, demoed | [5:04](https://www.youtube.com/watch?v=StIVhsnOHWY&t=304s) |
-| Inventory tracking on products | status not stated, demoed | [6:53](https://www.youtube.com/watch?v=StIVhsnOHWY&t=413s) |
-| Location filter and stock calculation options | status not stated, demoed | [7:03](https://www.youtube.com/watch?v=StIVhsnOHWY&t=423s) |
-| Shopify inventory fact box | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=472s) |
-| Location export toggles for products | status not stated, demoed | [9:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=559s) |
-| Create item action for unknown products | status not stated, demoed | [10:57](https://www.youtube.com/watch?v=StIVhsnOHWY&t=657s) |
-| Has error and error message columns | status not stated, demoed | [11:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=679s) |
-| Compare at price display | status not stated, demoed | [12:18](https://www.youtube.com/watch?v=StIVhsnOHWY&t=738s) |
-| Archived order detection | status not stated, demoed | [13:27](https://www.youtube.com/watch?v=StIVhsnOHWY&t=807s) |
-| Shopify orders to import table | status not stated, demoed | [13:58](https://www.youtube.com/watch?v=StIVhsnOHWY&t=838s) |
-| Import selected order action | status not stated, demoed | [14:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=859s) |
-| Has error field for imported orders | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=StIVhsnOHWY&t=884s) |
-| Inspect received information from Shopify orders | status not stated, demoed | [15:05](https://www.youtube.com/watch?v=StIVhsnOHWY&t=905s) |
-| Shopify order fact box on sales documents | status not stated, demoed | [15:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=952s) |
-| Shopify related fields in archived sales documents | status not stated, demoed | [16:30](https://www.youtube.com/watch?v=StIVhsnOHWY&t=990s) |
-| Unlink processor documents | status not stated, demoed | [17:22](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1042s) |
-| Sync order from Shopify function | status not stated, demoed | [17:48](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1068s) |
-| Create credit memo for refunds | status not stated, demoed | [18:10](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1090s) |
-| Fulfillment information in Shopify orders | status not stated, demoed | [19:55](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1195s) |
-| Sync orders from Shopify action on fulfillment | status not stated, demoed | [20:24](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1224s) |
-| Shopify fulfillment ID field on sales shipment | status not stated, demoed | [21:39](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1299s) |
-| Shopify activities line showing KPIs | status not stated, demoed | [22:32](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1352s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Sync in foreground mode | [0:43](https://www.youtube.com/watch?v=StIVhsnOHWY&t=43s) |
+| Logging mode configuration | [2:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=169s) |
+| Customer validation and skip notification | [3:49](https://www.youtube.com/watch?v=StIVhsnOHWY&t=229s) |
+| Log entry details for synchronization | [5:04](https://www.youtube.com/watch?v=StIVhsnOHWY&t=304s) |
+| Inventory tracking on products | [6:53](https://www.youtube.com/watch?v=StIVhsnOHWY&t=413s) |
+| Location filter and stock calculation options | [7:03](https://www.youtube.com/watch?v=StIVhsnOHWY&t=423s) |
+| Shopify inventory fact box | [7:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=472s) |
+| Location export toggles for products | [9:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=559s) |
+| Create item action for unknown products | [10:57](https://www.youtube.com/watch?v=StIVhsnOHWY&t=657s) |
+| Has error and error message columns | [11:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=679s) |
+| Compare at price display | [12:18](https://www.youtube.com/watch?v=StIVhsnOHWY&t=738s) |
+| Archived order detection | [13:27](https://www.youtube.com/watch?v=StIVhsnOHWY&t=807s) |
+| Shopify orders to import table | [13:58](https://www.youtube.com/watch?v=StIVhsnOHWY&t=838s) |
+| Import selected order action | [14:19](https://www.youtube.com/watch?v=StIVhsnOHWY&t=859s) |
+| Has error field for imported orders | [14:44](https://www.youtube.com/watch?v=StIVhsnOHWY&t=884s) |
+| Inspect received information from Shopify orders | [15:05](https://www.youtube.com/watch?v=StIVhsnOHWY&t=905s) |
+| Shopify order fact box on sales documents | [15:52](https://www.youtube.com/watch?v=StIVhsnOHWY&t=952s) |
+| Shopify related fields in archived sales documents | [16:30](https://www.youtube.com/watch?v=StIVhsnOHWY&t=990s) |
+| Unlink processor documents | [17:22](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1042s) |
+| Sync order from Shopify function | [17:48](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1068s) |
+| Create credit memo for refunds | [18:10](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1090s) |
+| Fulfillment information in Shopify orders | [19:55](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1195s) |
+| Sync orders from Shopify action on fulfillment | [20:24](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1224s) |
+| Shopify fulfillment ID field on sales shipment | [21:39](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1299s) |
+| Shopify activities line showing KPIs | [22:32](https://www.youtube.com/watch?v=StIVhsnOHWY&t=1352s) |
 
 ## AL objects mentioned
 

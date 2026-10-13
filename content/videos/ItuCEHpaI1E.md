@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:05:38.362Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:38.401Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -181,12 +181,14 @@ A drill-down from the integration table mapping opens new Configuration Template
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Auto-Apply Templates in Integration with Dataverse | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=6s) |
-| Configuration Template Setup Pages | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=301s) |
-| Template Filter Conditions | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=107s) |
-| Template Evaluation Priority | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=167s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Auto-Apply Templates in Integration with Dataverse | [0:06](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=6s) |
+| Configuration Template Setup Pages | [5:01](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=301s) |
+| Template Filter Conditions | [1:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=107s) |
+| Template Evaluation Priority | [2:47](https://www.youtube.com/watch?v=ItuCEHpaI1E&t=167s) |
 
 ## AL objects mentioned
 

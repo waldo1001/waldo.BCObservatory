@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:57:04.819Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:04.856Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -224,15 +224,17 @@ The second is Microsoft Learn, where aka.ms links lead to a report overview tabl
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Report Explorer | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=7s) |
-| Information Icons on Report Links | status not stated, demoed | [2:12](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=132s) |
-| Open Report in New Window | status not stated, demoed | [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) |
-| AKA Links for Report Documentation | status not stated, demoed | [4:08](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=248s) |
-| Report Overview Table in Microsoft Learn | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=282s) |
-| Teaching Tips on Report Request Pages | status not stated, demoed | [6:41](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=401s) |
-| Help Pane Integration with Documentation Links | status not stated, demoed | [7:01](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=421s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Report Explorer | [0:07](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=7s) |
+| Information Icons on Report Links | [2:12](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=132s) |
+| Open Report in New Window | [2:51](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=171s) |
+| AKA Links for Report Documentation | [4:08](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=248s) |
+| Report Overview Table in Microsoft Learn | [4:42](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=282s) |
+| Teaching Tips on Report Request Pages | [6:41](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=401s) |
+| Help Pane Integration with Documentation Links | [7:01](https://www.youtube.com/watch?v=yXz3ZlSioWQ&t=421s) |
 
 ## AL objects mentioned
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:49:44.240Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:44.279Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -239,17 +239,19 @@ Demos cover a Get order lines action, a matched order line user interface that s
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Match invoice line to multiple order lines | status not stated, demoed | [1:04](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=64s) |
-| Match invoice to partial receipt lines | status not stated, demoed | [1:14](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=74s) |
-| Auto-post order receipt when posting invoice | status not stated, demoed | [1:25](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=85s) |
-| Get order lines action | status not stated, demoed | [2:15](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=135s) |
-| Matched order line user interface | status not stated, demoed | [2:46](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=166s) |
-| Received on invoice flag | status not stated, demoed | [6:13](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=373s) |
-| Item tracking support in invoice matching | status not stated, demoed | [7:52](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=472s) |
-| Directed put-away and pick integration | status not stated, demoed | [8:41](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=521s) |
-| Item tracking entries action | status not stated, demoed | [9:48](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=588s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Match invoice line to multiple order lines | [1:04](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=64s) |
+| Match invoice to partial receipt lines | [1:14](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=74s) |
+| Auto-post order receipt when posting invoice | [1:25](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=85s) |
+| Get order lines action | [2:15](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=135s) |
+| Matched order line user interface | [2:46](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=166s) |
+| Received on invoice flag | [6:13](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=373s) |
+| Item tracking support in invoice matching | [7:52](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=472s) |
+| Directed put-away and pick integration | [8:41](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=521s) |
+| Item tracking entries action | [9:48](https://www.youtube.com/watch?v=kDiDMPEaU0E&t=588s) |
 
 ## AL objects mentioned
 

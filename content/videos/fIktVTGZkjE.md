@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:06:36.846Z"
   flags: []
 generated:
-  at: "2026-10-07T23:06:36.894Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -151,11 +151,13 @@ In GP, the Correct button in the general journal window offers two options: back
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Reverse transaction in Business Central | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=fIktVTGZkjE&t=58s) |
-| Correct Dimension functionality | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=fIktVTGZkjE&t=99s) |
-| Correct entry option in Dynamics GP | status not stated, demoed | [0:11](https://www.youtube.com/watch?v=fIktVTGZkjE&t=11s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Reverse transaction in Business Central | [0:58](https://www.youtube.com/watch?v=fIktVTGZkjE&t=58s) |
+| Correct Dimension functionality | [1:39](https://www.youtube.com/watch?v=fIktVTGZkjE&t=99s) |
+| Correct entry option in Dynamics GP | [0:11](https://www.youtube.com/watch?v=fIktVTGZkjE&t=11s) |
 
 ## AL objects mentioned
 

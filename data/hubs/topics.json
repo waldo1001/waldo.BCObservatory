@@ -1,5 +1,5 @@
 {
-  "hubs": 605,
+  "hubs": 606,
   "generated_by": "pipeline/link/toc.ts",
   "topics": [
     {
@@ -11244,11 +11244,15 @@
         "docs/learn-devitpro/dev-itpro/performance/performance-developer.md",
         "docs/learn-smb-docs/business-central/reports-external-analysis.md",
         "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "docs/learn-smb-docs/business-central/fabric-faq.md",
         "docs/learn-devitpro/dev-itpro/api-reference/v2.0/index.md",
         "docs/learn-smb-docs/business-central/about-intelligent-cloud.md"
       ],
       "system": "reporting",
-      "member_hash": "5cff25e81fb0392ad53a97fa7a194447221fdea74e3cd6297124fe435945dffa"
+      "member_hash": "86f36e5876157aa0f34ea2a4be204c3883aa1c79eb5fd61484c65b8899919986"
     },
     {
       "id": "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports",
@@ -11577,16 +11581,42 @@
         "Analytics, business intelligence, and reporting"
       ],
       "parent": "topic/business-central/analytics-business-intelligence-and-repo",
-      "children": [],
+      "children": [
+        "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric"
+      ],
       "members": [
         "docs/learn-smb-docs/business-central/reports-external-analysis.md",
         "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "docs/learn-smb-docs/business-central/fabric-faq.md",
         "docs/learn-devitpro/dev-itpro/performance/performance-developer.md",
         "docs/learn-devitpro/dev-itpro/api-reference/v2.0/index.md",
         "docs/learn-smb-docs/business-central/about-intelligent-cloud.md"
       ],
       "system": "reporting",
-      "member_hash": "f0ca77f87ce130d1a582fbea2edeac4c01a20ade3e1db0f27be1cb8510a495bb"
+      "member_hash": "95608ddb0e2b7f483c9c4f281fe1960fa9222a2f9c4629a876b1cb4b83b53aec"
+    },
+    {
+      "id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+      "title": "Microsoft Fabric",
+      "toc": "business-central/TOC.md",
+      "breadcrumb": [
+        "Analytics, business intelligence, and reporting",
+        "Analyze data in business intelligence tools"
+      ],
+      "parent": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to",
+      "children": [],
+      "members": [
+        "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "docs/learn-smb-docs/business-central/fabric-faq.md"
+      ],
+      "system": "integration",
+      "member_hash": "c7df016bee018b38d0e07c162751f00222aa863ae60ca69f725246f74192208f"
     },
     {
       "id": "topic/business-central/integrate-with-other-applications",

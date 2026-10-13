@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:57:49.760Z"
   flags: []
 generated:
-  at: "2026-10-07T22:57:49.794Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,13 +200,15 @@ The demo shows the reverse production order transaction action, which creates a 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Revert output or consumption transactions | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=6s) |
-| Reopen finished production orders | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=23s) |
-| Reverse production order transaction action | status not stated, demoed | [1:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=73s) |
-| Undo receipt for subcontracting orders | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) |
-| Finish production orders without output | status not stated, demoed | [3:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=193s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Revert output or consumption transactions | [0:06](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=6s) |
+| Reopen finished production orders | [0:23](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=23s) |
+| Reverse production order transaction action | [1:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=73s) |
+| Undo receipt for subcontracting orders | [2:42](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=162s) |
+| Finish production orders without output | [3:13](https://www.youtube.com/watch?v=tzX0qB9tiBs&t=193s) |
 
 ## AL objects mentioned
 

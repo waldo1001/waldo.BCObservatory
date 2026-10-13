@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:59:47.261Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:47.298Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,12 +170,14 @@ The second area is the new User Control Host page type in AL, built for hosting 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Improved Power BI Embed User Interface | status not stated, demoed | [0:45](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=45s) |
-| User Control Host Page Type | status not stated, demoed | [3:42](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=222s) |
-| Simplified Property Model for User Control Host | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=356s) |
-| Power BI Report Reflow and Responsive Design | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=157s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Improved Power BI Embed User Interface | [0:45](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=45s) |
+| User Control Host Page Type | [3:42](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=222s) |
+| Simplified Property Model for User Control Host | [5:56](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=356s) |
+| Power BI Report Reflow and Responsive Design | [2:37](https://www.youtube.com/watch?v=RU3D3RMAvVI&t=157s) |
 
 ## AL objects mentioned
 

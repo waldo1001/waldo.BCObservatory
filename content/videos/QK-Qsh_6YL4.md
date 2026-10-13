@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:55:53.910Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:53.968Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -166,12 +166,14 @@ The demo covers the time sheet and calendar view, which shows completed entries 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot time sheet completion | status not stated, demoed | [0:02](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=2s) |
-| Calendar view for time sheets | status not stated, demoed | [0:16](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=16s) |
-| Microsoft Graph integration for time sheet data | status not stated, demoed | [0:39](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=39s) |
-| Time sheet entry explanations | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=53s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Copilot time sheet completion | [0:02](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=2s) |
+| Calendar view for time sheets | [0:16](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=16s) |
+| Microsoft Graph integration for time sheet data | [0:39](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=39s) |
+| Time sheet entry explanations | [0:53](https://www.youtube.com/watch?v=QK-Qsh_6YL4&t=53s) |
 
 ## Quotes
 

@@ -10,20 +10,7 @@
       "labels": [],
       "draft": true,
       "created_at": "2026-10-11T02:34:40Z",
-      "updated_at": "2026-10-11T03:33:41Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2273,
-      "title": "Improve file handling in Update AL-Go System Files",
-      "url": "https://github.com/microsoft/AL-Go/pull/2273",
-      "base": "main",
-      "major": null,
-      "author": "OleWunschmann",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-03T15:24:31Z",
-      "updated_at": "2026-10-09T19:08:13Z",
+      "updated_at": "2026-10-12T16:00:27Z",
       "community_contribution": false
     },
     {
@@ -36,20 +23,33 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-06-26T13:50:28Z",
-      "updated_at": "2026-10-09T18:23:41Z",
+      "updated_at": "2026-10-12T14:32:38Z",
       "community_contribution": false
     },
     {
-      "number": 2400,
-      "title": "Update TestUpgradesFromVersion to v8.0",
-      "url": "https://github.com/microsoft/AL-Go/pull/2400",
+      "number": 2273,
+      "title": "Improve file handling in Update AL-Go System Files",
+      "url": "https://github.com/microsoft/AL-Go/pull/2273",
+      "base": "main",
+      "major": null,
+      "author": "OleWunschmann",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-03T15:24:31Z",
+      "updated_at": "2026-10-12T14:31:58Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2403,
+      "title": "Fix dependency filenames containing commas",
+      "url": "https://github.com/microsoft/AL-Go/pull/2403",
       "base": "main",
       "major": null,
       "author": "aholstrup1",
       "labels": [],
       "draft": false,
-      "created_at": "2026-10-09T06:08:54Z",
-      "updated_at": "2026-10-09T13:49:24Z",
+      "created_at": "2026-10-12T14:17:45Z",
+      "updated_at": "2026-10-12T14:24:43Z",
       "community_contribution": false
     },
     {
@@ -261,22 +261,11 @@
       "comments": 0
     },
     {
-      "number": 2394,
-      "title": "[Bug]: `latestBuild` dependency resolution intermittently picks an older CI/CD run due to stale GitHub workflow-runs API results",
-      "url": "https://github.com/microsoft/AL-Go/issues/2394",
-      "labels": [
-        "bug"
-      ],
-      "author": "DavidHrbek",
-      "created_at": "2026-10-06T11:29:30Z",
-      "comments": 4
-    },
-    {
       "number": 2387,
       "title": "[Bug]: DetermineDeploymentEnvironments ignores GitHub environments after the first 30 (no pagination)",
       "url": "https://github.com/microsoft/AL-Go/issues/2387",
       "labels": [
-        "In Progress",
+        "Fix Ready",
         "bug"
       ],
       "author": "faisahu",

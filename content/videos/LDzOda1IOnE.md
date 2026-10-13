@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:59:24.648Z"
   flags: []
 generated:
-  at: "2026-10-07T22:59:24.683Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -197,13 +197,15 @@ Demos cover generating launch configurations from Help and Support and Extension
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Generate launch configurations | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=LDzOda1IOnE&t=180s) |
-| Extension dependencies formatting | status not stated, demoed | [4:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=260s) |
-| Download dependencies to VS Code | status not stated, demoed | [3:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=200s) |
-| Symbol search in VS Code | status not stated, demoed | [8:02](https://www.youtube.com/watch?v=LDzOda1IOnE&t=482s) |
-| Copilot integration with symbol search | status not stated, demoed | [9:13](https://www.youtube.com/watch?v=LDzOda1IOnE&t=553s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Generate launch configurations | [3:00](https://www.youtube.com/watch?v=LDzOda1IOnE&t=180s) |
+| Extension dependencies formatting | [4:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=260s) |
+| Download dependencies to VS Code | [3:20](https://www.youtube.com/watch?v=LDzOda1IOnE&t=200s) |
+| Symbol search in VS Code | [8:02](https://www.youtube.com/watch?v=LDzOda1IOnE&t=482s) |
+| Copilot integration with symbol search | [9:13](https://www.youtube.com/watch?v=LDzOda1IOnE&t=553s) |
 
 ## AL objects mentioned
 

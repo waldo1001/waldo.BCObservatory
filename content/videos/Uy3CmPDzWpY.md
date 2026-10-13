@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:02:58.082Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:58.114Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -191,13 +191,15 @@ The speakers describe product training aimed at Business Central certification, 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| BC Reskill Program | status not stated | [0:02](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=2s) |
-| Product training for Business Central certification | status not stated | [0:22](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=22s) |
-| Professional skills training | status not stated | [1:03](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=63s) |
-| One-to-one coaching sessions | status not stated | [1:23](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=83s) |
-| Reskill community | status not stated | [1:43](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=103s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| BC Reskill Program | [0:02](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=2s) |
+| Product training for Business Central certification | [0:22](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=22s) |
+| Professional skills training | [1:03](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=63s) |
+| One-to-one coaching sessions | [1:23](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=83s) |
+| Reskill community | [1:43](https://www.youtube.com/watch?v=Uy3CmPDzWpY&t=103s) |
 
 ## Quotes
 

@@ -24,7 +24,7 @@ review:
   at: "2026-10-07T23:04:07.824Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:07.859Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -273,19 +273,21 @@ The service part covers archiving of service quotes and orders, a jump-to-order 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Directed put-away and pick for project locations | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=pEXl-POet_4&t=47s) |
-| Extended text for project items | status not stated, demoed | [5:22](https://www.youtube.com/watch?v=pEXl-POet_4&t=322s) |
-| Project replenishment from project planning lines | status not stated, demoed | [6:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=387s) |
-| Item availability in project planning lines and journals | status not stated, demoed | [10:09](https://www.youtube.com/watch?v=pEXl-POet_4&t=609s) |
-| Service quote and order archiving | status not stated, demoed | [11:26](https://www.youtube.com/watch?v=pEXl-POet_4&t=686s) |
-| Make order action with dialog jump | status not stated, demoed | [12:47](https://www.youtube.com/watch?v=pEXl-POet_4&t=767s) |
-| Report selection for service item worksheet | status not stated, demoed | [14:37](https://www.youtube.com/watch?v=pEXl-POet_4&t=877s) |
-| Service contract filing improvements | status not stated, demoed | [15:24](https://www.youtube.com/watch?v=pEXl-POet_4&t=924s) |
-| Retention policies for filed service contracts | status not stated, demoed | [17:42](https://www.youtube.com/watch?v=pEXl-POet_4&t=1062s) |
-| Project cockpit action on project list | status not stated, demoed | [1:39](https://www.youtube.com/watch?v=pEXl-POet_4&t=99s) |
-| Project assembly orders access from list | status not stated, demoed | [2:40](https://www.youtube.com/watch?v=pEXl-POet_4&t=160s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Directed put-away and pick for project locations | [0:47](https://www.youtube.com/watch?v=pEXl-POet_4&t=47s) |
+| Extended text for project items | [5:22](https://www.youtube.com/watch?v=pEXl-POet_4&t=322s) |
+| Project replenishment from project planning lines | [6:27](https://www.youtube.com/watch?v=pEXl-POet_4&t=387s) |
+| Item availability in project planning lines and journals | [10:09](https://www.youtube.com/watch?v=pEXl-POet_4&t=609s) |
+| Service quote and order archiving | [11:26](https://www.youtube.com/watch?v=pEXl-POet_4&t=686s) |
+| Make order action with dialog jump | [12:47](https://www.youtube.com/watch?v=pEXl-POet_4&t=767s) |
+| Report selection for service item worksheet | [14:37](https://www.youtube.com/watch?v=pEXl-POet_4&t=877s) |
+| Service contract filing improvements | [15:24](https://www.youtube.com/watch?v=pEXl-POet_4&t=924s) |
+| Retention policies for filed service contracts | [17:42](https://www.youtube.com/watch?v=pEXl-POet_4&t=1062s) |
+| Project cockpit action on project list | [1:39](https://www.youtube.com/watch?v=pEXl-POet_4&t=99s) |
+| Project assembly orders access from list | [2:40](https://www.youtube.com/watch?v=pEXl-POet_4&t=160s) |
 
 ## AL objects mentioned
 

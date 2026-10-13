@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:59.161Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:59.221Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -304,30 +304,32 @@ It then covers agent instances, which are also users in Business Central, and ho
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Agent Type Definition | status not stated, demoed | [0:55](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=55s) |
-| Agent Factory Interface | status not stated, demoed | [2:14](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=134s) |
-| Agent Metadata Interface | status not stated, demoed | [2:47](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=167s) |
-| Task Execution Interface | status not stated, demoed | [3:10](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=190s) |
-| Message Validation API | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=216s) |
-| Agent Instances | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=288s) |
-| Agent Setup Page | status not stated, demoed | [5:45](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=345s) |
-| Agent Setup Codeunit | status not stated, demoed | [7:12](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=432s) |
-| Programmatic Agent Creation | status not stated, demoed | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |
-| Agent Instructions | status not stated, demoed | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |
-| Agent KPI Pages | status not stated, demoed | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |
-| Tasks API | status not stated, demoed | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
-| Task and Message Model | status not stated, demoed | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
-| Message Attachments | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |
-| Multi-turn Agent Interactions | status not stated, demoed | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |
-| External ID for Messages | status not stated, demoed | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |
-| Agent Task Triggering | status not stated, demoed | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |
-| Agent Task Codeunit Management | status not stated, demoed | [13:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=797s) |
-| Task Result Polling | status not stated, demoed | [13:31](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=811s) |
-| Agent Session Events | status not stated, demoed | [13:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=836s) |
-| Is Agent Session Procedure | status not stated, demoed | [14:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=866s) |
-| Exposing Agents via API | status not stated, demoed | [14:44](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=884s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Agent Type Definition | [0:55](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=55s) |
+| Agent Factory Interface | [2:14](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=134s) |
+| Agent Metadata Interface | [2:47](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=167s) |
+| Task Execution Interface | [3:10](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=190s) |
+| Message Validation API | [3:36](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=216s) |
+| Agent Instances | [4:48](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=288s) |
+| Agent Setup Page | [5:45](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=345s) |
+| Agent Setup Codeunit | [7:12](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=432s) |
+| Programmatic Agent Creation | [8:34](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=514s) |
+| Agent Instructions | [9:11](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=551s) |
+| Agent KPI Pages | [9:32](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=572s) |
+| Tasks API | [10:02](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=602s) |
+| Task and Message Model | [10:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=626s) |
+| Message Attachments | [11:46](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=706s) |
+| Multi-turn Agent Interactions | [12:20](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=740s) |
+| External ID for Messages | [12:35](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=755s) |
+| Agent Task Triggering | [12:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=776s) |
+| Agent Task Codeunit Management | [13:17](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=797s) |
+| Task Result Polling | [13:31](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=811s) |
+| Agent Session Events | [13:56](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=836s) |
+| Is Agent Session Procedure | [14:26](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=866s) |
+| Exposing Agents via API | [14:44](https://www.youtube.com/watch?v=EwN3xb2q7vE&t=884s) |
 
 ## AL objects mentioned
 

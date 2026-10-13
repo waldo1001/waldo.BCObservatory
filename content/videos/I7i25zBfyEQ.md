@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:02:03.860Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:03.907Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,14 +199,16 @@ The video walks through setting up the Sales Order Agent in Business Central and
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:07](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=7s) |
-| Agent email mapping to customer accounts | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
-| Agent-generated quote creation | status not stated, demoed | [4:12](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=252s) |
-| Agent setup and configuration | status not stated, demoed | [0:17](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=17s) |
-| Outlook email integration for agent | status not stated, demoed | [1:08](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=68s) |
-| Agent approval workflow in Business Central | status not stated, demoed | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Sales Order Agent | [0:07](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=7s) |
+| Agent email mapping to customer accounts | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
+| Agent-generated quote creation | [4:12](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=252s) |
+| Agent setup and configuration | [0:17](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=17s) |
+| Outlook email integration for agent | [1:08](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=68s) |
+| Agent approval workflow in Business Central | [2:38](https://www.youtube.com/watch?v=I7i25zBfyEQ&t=158s) |
 
 ## AL objects mentioned
 

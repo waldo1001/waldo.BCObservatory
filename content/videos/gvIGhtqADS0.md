@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:14:19.256Z"
   flags: []
 generated:
-  at: "2026-10-07T23:14:19.290Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -166,12 +166,14 @@ The video describes refining a search with follow-up questions when the first re
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot Conversational Chat | status not stated | [0:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=2s) |
-| Follow-up Questions and Clarification | status not stated | [0:38](https://www.youtube.com/watch?v=gvIGhtqADS0&t=38s) |
-| Virtual Assistant for Complex Queries | status not stated | [0:51](https://www.youtube.com/watch?v=gvIGhtqADS0&t=51s) |
-| Learning and Onboarding Support | status not stated | [1:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=62s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot Conversational Chat | [0:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=2s) |
+| Follow-up Questions and Clarification | [0:38](https://www.youtube.com/watch?v=gvIGhtqADS0&t=38s) |
+| Virtual Assistant for Complex Queries | [0:51](https://www.youtube.com/watch?v=gvIGhtqADS0&t=51s) |
+| Learning and Onboarding Support | [1:02](https://www.youtube.com/watch?v=gvIGhtqADS0&t=62s) |
 
 ## Quotes
 

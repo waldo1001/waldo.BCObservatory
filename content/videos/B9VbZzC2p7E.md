@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:17.573Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:17.611Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,11 +159,13 @@ The video then shows how to create a SQL region manually, for example selecting 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| AI Agent SQL Query Generation | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
-| Advanced Spreadsheets with Agent Integration | status not stated, demoed | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
-| SQL Region Creation in Spreadsheets | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=101s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| AI Agent SQL Query Generation | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
+| Advanced Spreadsheets with Agent Integration | [0:01](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=1s) |
+| SQL Region Creation in Spreadsheets | [1:41](https://www.youtube.com/watch?v=B9VbZzC2p7E&t=101s) |
 
 ## AL objects mentioned
 

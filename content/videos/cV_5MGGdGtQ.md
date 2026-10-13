@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:18:22.799Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:22.832Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,14 +182,16 @@ He then adds a compare value to show whether the main value is above or below an
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| KPI card | status not stated, demoed | [0:42](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=42s) |
-| KPI card auto type | status not stated, demoed | [1:36](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=96s) |
-| KPI compare value | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=116s) |
-| KPI target bar visualization | status not stated, demoed | [3:08](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=188s) |
-| KPI trend display | status not stated, demoed | [3:34](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=214s) |
-| KPI status with warning levels | status not stated, demoed | [4:44](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=284s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| KPI card | [0:42](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=42s) |
+| KPI card auto type | [1:36](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=96s) |
+| KPI compare value | [1:56](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=116s) |
+| KPI target bar visualization | [3:08](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=188s) |
+| KPI trend display | [3:34](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=214s) |
+| KPI status with warning levels | [4:44](https://www.youtube.com/watch?v=cV_5MGGdGtQ&t=284s) |
 
 ## Quotes
 

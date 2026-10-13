@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:45:28.210Z"
   flags: []
 generated:
-  at: "2026-10-07T22:45:28.256Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -188,12 +188,14 @@ It walks through the item card sustainability tab, the lot number information ca
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| EUDR item marking on item card | status not stated | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |
-| Lot number certificate information capture | status not stated | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |
-| EUTR flag on purchase lines | status not stated | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |
-| Certification information on sales invoices | status not stated | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| EUDR item marking on item card | [0:59](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=59s) |
+| Lot number certificate information capture | [1:39](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=99s) |
+| EUTR flag on purchase lines | [2:20](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=140s) |
+| Certification information on sales invoices | [2:51](https://www.youtube.com/watch?v=WZUQ9X26MLo&t=171s) |
 
 ## Quotes
 

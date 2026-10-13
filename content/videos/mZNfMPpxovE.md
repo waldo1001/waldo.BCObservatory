@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:03:13.733Z"
   flags: []
 generated:
-  at: "2026-10-07T23:03:13.772Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -225,17 +225,19 @@ After the cloud migration completes, the snapshot runs automatically and its pro
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| GP Snapshot feature | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=mZNfMPpxovE&t=0s) |
-| GP Company Migration Configuration page | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=mZNfMPpxovE&t=20s) |
-| Historical Snapshot module selection | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=36s) |
-| Automatic snapshot processing | status not stated, demoed | [1:17](https://www.youtube.com/watch?v=mZNfMPpxovE&t=77s) |
-| GP Detail Snapshot for GL accounts | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s) |
-| GL snapshot data export and filtering | status not stated, demoed | [2:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=156s) |
-| Customer GP Detail Snapshot | status not stated, demoed | [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s) |
-| Vendor GP Detail Snapshot | status not stated, demoed | [4:32](https://www.youtube.com/watch?v=mZNfMPpxovE&t=272s) |
-| Item GP Detail Snapshot | status not stated, demoed | [5:12](https://www.youtube.com/watch?v=mZNfMPpxovE&t=312s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| GP Snapshot feature | [0:00](https://www.youtube.com/watch?v=mZNfMPpxovE&t=0s) |
+| GP Company Migration Configuration page | [0:20](https://www.youtube.com/watch?v=mZNfMPpxovE&t=20s) |
+| Historical Snapshot module selection | [0:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=36s) |
+| Automatic snapshot processing | [1:17](https://www.youtube.com/watch?v=mZNfMPpxovE&t=77s) |
+| GP Detail Snapshot for GL accounts | [1:56](https://www.youtube.com/watch?v=mZNfMPpxovE&t=116s) |
+| GL snapshot data export and filtering | [2:36](https://www.youtube.com/watch?v=mZNfMPpxovE&t=156s) |
+| Customer GP Detail Snapshot | [3:31](https://www.youtube.com/watch?v=mZNfMPpxovE&t=211s) |
+| Vendor GP Detail Snapshot | [4:32](https://www.youtube.com/watch?v=mZNfMPpxovE&t=272s) |
+| Item GP Detail Snapshot | [5:12](https://www.youtube.com/watch?v=mZNfMPpxovE&t=312s) |
 
 ## AL objects mentioned
 

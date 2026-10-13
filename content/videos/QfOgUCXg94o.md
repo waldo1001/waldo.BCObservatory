@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:07.368Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:07.410Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -215,14 +215,16 @@ It then covers the changes developers need to know about. A new insert record fu
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Concurrent warehouse entry posting | status not stated | [1:29](https://www.youtube.com/watch?v=QfOgUCXg94o&t=89s) |
-| Number sequences for entry numbering | status not stated | [1:29](https://www.youtube.com/watch?v=QfOgUCXg94o&t=89s) |
-| Insert record function | status not stated | [2:23](https://www.youtube.com/watch?v=QfOgUCXg94o&t=143s) |
-| Sift bucket number assignment | status not stated | [3:02](https://www.youtube.com/watch?v=QfOgUCXg94o&t=182s) |
-| On init event for warehouse entries | status not stated | [4:03](https://www.youtube.com/watch?v=QfOgUCXg94o&t=243s) |
-| Concurrent posting feature key | status not stated | [4:39](https://www.youtube.com/watch?v=QfOgUCXg94o&t=279s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Concurrent warehouse entry posting | [1:29](https://www.youtube.com/watch?v=QfOgUCXg94o&t=89s) |
+| Number sequences for entry numbering | [1:29](https://www.youtube.com/watch?v=QfOgUCXg94o&t=89s) |
+| Insert record function | [2:23](https://www.youtube.com/watch?v=QfOgUCXg94o&t=143s) |
+| Sift bucket number assignment | [3:02](https://www.youtube.com/watch?v=QfOgUCXg94o&t=182s) |
+| On init event for warehouse entries | [4:03](https://www.youtube.com/watch?v=QfOgUCXg94o&t=243s) |
+| Concurrent posting feature key | [4:39](https://www.youtube.com/watch?v=QfOgUCXg94o&t=279s) |
 
 ## AL objects mentioned
 

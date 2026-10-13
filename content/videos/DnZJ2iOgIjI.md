@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:05:46.244Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:46.284Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -182,12 +182,14 @@ It then covers the Azure side: a key vault with soft delete and purge protection
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Customer-Managed Encryption Key | status not stated | [1:08](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=68s) |
-| Lockbox Settings | status not stated | [0:06](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=6s) |
-| Environment Linking | status not stated | [0:26](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=26s) |
-| Enterprise Policy Resource | status not stated | [2:10](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=130s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Customer-Managed Encryption Key | [1:08](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=68s) |
+| Lockbox Settings | [0:06](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=6s) |
+| Environment Linking | [0:26](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=26s) |
+| Enterprise Policy Resource | [2:10](https://www.youtube.com/watch?v=DnZJ2iOgIjI&t=130s) |
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:55:29.898Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:29.938Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -183,12 +183,14 @@ The demo first invokes a GET request to list all available features and their cu
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Feature Management API | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=5s) |
-| Get Request for Feature List | status not stated, demoed | [0:18](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=18s) |
-| Activate Bound Action | status not stated, demoed | [0:28](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=28s) |
-| Deactivate Bound Action | status not stated, demoed | [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Feature Management API | [0:05](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=5s) |
+| Get Request for Feature List | [0:18](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=18s) |
+| Activate Bound Action | [0:28](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=28s) |
+| Deactivate Bound Action | [0:52](https://www.youtube.com/watch?v=OnC0a5zy-oQ&t=52s) |
 
 ## Quotes
 

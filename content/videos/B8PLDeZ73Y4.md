@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:22:31.286Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:31.331Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -183,13 +183,15 @@ The AL profiler targets performance rather than errors. It records function call
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Snapshot Debugging | status not stated, demoed | [0:20](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s) |
-| AL Profiling | status not stated, demoed | [2:19](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=139s) |
-| AL CPU Profile File Format | status not stated, demoed | [3:03](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=183s) |
-| Performance Profiler | status not stated, demoed | [4:51](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=291s) |
-| Scheduled Profiler | status not stated, demoed | [5:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=356s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Snapshot Debugging | [0:20](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=20s) |
+| AL Profiling | [2:19](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=139s) |
+| AL CPU Profile File Format | [3:03](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=183s) |
+| Performance Profiler | [4:51](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=291s) |
+| Scheduled Profiler | [5:56](https://www.youtube.com/watch?v=B8PLDeZ73Y4&t=356s) |
 
 ## AL objects mentioned
 

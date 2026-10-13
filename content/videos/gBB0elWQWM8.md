@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T23:12:06.022Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:06.069Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -149,10 +149,12 @@ The demo shows the warning on a sales order, and notes that an unposted sales li
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Stock out warning on sales lines | status not stated, demoed | [0:36](https://www.youtube.com/watch?v=gBB0elWQWM8&t=36s) |
-| Stock out warning toggle | status not stated, demoed | [1:38](https://www.youtube.com/watch?v=gBB0elWQWM8&t=98s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Stock out warning on sales lines | [0:36](https://www.youtube.com/watch?v=gBB0elWQWM8&t=36s) |
+| Stock out warning toggle | [1:38](https://www.youtube.com/watch?v=gBB0elWQWM8&t=98s) |
 
 ## AL objects mentioned
 

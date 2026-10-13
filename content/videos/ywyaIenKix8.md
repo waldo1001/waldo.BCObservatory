@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:02:14.944Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:14.980Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -172,12 +172,14 @@ It also describes running the recurring billing process to fit your billing rhyt
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Subscription billing feature set | status not stated | [0:03](https://www.youtube.com/watch?v=ywyaIenKix8&t=3s) |
-| Recurring billing process | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
-| Subscription revenue recognition | status not stated | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
-| Usage-based billing | status not stated | [0:37](https://www.youtube.com/watch?v=ywyaIenKix8&t=37s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Subscription billing feature set | [0:03](https://www.youtube.com/watch?v=ywyaIenKix8&t=3s) |
+| Recurring billing process | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
+| Subscription revenue recognition | [0:23](https://www.youtube.com/watch?v=ywyaIenKix8&t=23s) |
+| Usage-based billing | [0:37](https://www.youtube.com/watch?v=ywyaIenKix8&t=37s) |
 
 ## Quotes
 

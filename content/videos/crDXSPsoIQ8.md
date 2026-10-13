@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:18:24.469Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:24.508Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -171,12 +171,14 @@ He shows that calculations and totals update as line items are edited. He sugges
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Open lines in spreadsheet | status not stated, demoed | [0:38](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=38s) |
-| Spreadsheet region connected to sales order | status not stated, demoed | [0:49](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=49s) |
-| Real-time data synchronization | status not stated, demoed | [1:42](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=102s) |
-| Edit sales order configurations in spreadsheet | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=141s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Open lines in spreadsheet | [0:38](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=38s) |
+| Spreadsheet region connected to sales order | [0:49](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=49s) |
+| Real-time data synchronization | [1:42](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=102s) |
+| Edit sales order configurations in spreadsheet | [2:21](https://www.youtube.com/watch?v=crDXSPsoIQ8&t=141s) |
 
 ## AL objects mentioned
 

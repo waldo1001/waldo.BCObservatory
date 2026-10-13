@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:02:41.893Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:41.931Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -178,12 +178,14 @@ The presenter then edits the layout in Word. This includes using the new Abts fo
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Themeable layouts | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=58s) |
-| Abts font in Office | status not stated, demoed | [2:39](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=159s) |
-| Word layout watermark support | status not stated, demoed | [3:00](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=180s) |
-| Seasonal layout switching | status not stated, demoed | [4:50](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=290s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Themeable layouts | [0:58](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=58s) |
+| Abts font in Office | [2:39](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=159s) |
+| Word layout watermark support | [3:00](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=180s) |
+| Seasonal layout switching | [4:50](https://www.youtube.com/watch?v=9ZmmQEpPyB4&t=290s) |
 
 ## AL objects mentioned
 

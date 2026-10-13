@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:47:09.144Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:09.186Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -178,14 +178,16 @@ It walks through activating a second agent, giving it a dedicated email folder, 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Multiple Sales Order Agents in Parallel | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
-| Dedicated Folder Configuration for Agents | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
-| Agent Message Review Settings | status not stated, demoed | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
-| Custom Agent Signature | status not stated, demoed | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
-| Contact Matching Options for Unknown Senders | status not stated, demoed | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
-| Agent Statistics and Navigation | status not stated, demoed | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Multiple Sales Order Agents in Parallel | [0:23](https://www.youtube.com/watch?v=kwGEoxN46hk&t=23s) |
+| Dedicated Folder Configuration for Agents | [0:57](https://www.youtube.com/watch?v=kwGEoxN46hk&t=57s) |
+| Agent Message Review Settings | [1:11](https://www.youtube.com/watch?v=kwGEoxN46hk&t=71s) |
+| Custom Agent Signature | [1:35](https://www.youtube.com/watch?v=kwGEoxN46hk&t=95s) |
+| Contact Matching Options for Unknown Senders | [2:21](https://www.youtube.com/watch?v=kwGEoxN46hk&t=141s) |
+| Agent Statistics and Navigation | [3:05](https://www.youtube.com/watch?v=kwGEoxN46hk&t=185s) |
 
 ## Quotes
 

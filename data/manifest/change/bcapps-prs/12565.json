@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12565",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Increase table limit from 500 to 1000 in Fabric platform management and related components",
+  "url": "https://github.com/microsoft/BCApps/pull/12565",
+  "published_at": "2026-10-12T11:56:45Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T00:27:25.816Z"
+    }
+  },
+  "input_hash": "70b7c78d56d50b1958492e38949adfb61cc15f16:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12565,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "70b7c78d56d50b1958492e38949adfb61cc15f16",
+    "author": "Bertverbeek4PS",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": true,
+    "title_key": "increase table limit from 500 to 1000 in fabric platform management and related components"
+  }
+}

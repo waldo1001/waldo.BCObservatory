@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:08:13.934Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:13.970Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -199,13 +199,15 @@ In the partner-led approach, the partner profiles the prospect on its own websit
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Prospect profiling on partner website | status not stated | [2:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=121s) |
-| Dynamic AppSource app loading | status not stated | [2:42](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=162s) |
-| Profile data carried through onboarding journey | status not stated | [3:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=181s) |
-| Embedded buying experience | status not stated | [3:41](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=221s) |
-| Dynamic data loading for new company | status not stated | [4:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=241s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Prospect profiling on partner website | [2:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=121s) |
+| Dynamic AppSource app loading | [2:42](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=162s) |
+| Profile data carried through onboarding journey | [3:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=181s) |
+| Embedded buying experience | [3:41](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=221s) |
+| Dynamic data loading for new company | [4:01](https://www.youtube.com/watch?v=XNfgf7tCeaw&t=241s) |
 
 ## Quotes
 

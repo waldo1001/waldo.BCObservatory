@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T22:54:20.854Z"
   flags: []
 generated:
-  at: "2026-10-07T22:54:20.907Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -214,15 +214,17 @@ It walks through setting up telemetry with a partner telemetry connection string
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Starter Dashboard for AL-Go Telemetry | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=rdnYN7czJs4&t=24s) |
-| AL-Go Telemetry to Application Insights | status not stated, demoed | [1:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=76s) |
-| Workflow Overview Page | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=256s) |
-| Workflow Duration Monitoring | status not stated, demoed | [5:38](https://www.youtube.com/watch?v=rdnYN7czJs4&t=338s) |
-| Runner Metrics Page | status not stated, demoed | [6:11](https://www.youtube.com/watch?v=rdnYN7czJs4&t=371s) |
-| AL-Go Maintenance Page | status not stated, demoed | [6:58](https://www.youtube.com/watch?v=rdnYN7czJs4&t=418s) |
-| AL-Go Deprecation Warnings | status not stated, demoed | [7:41](https://www.youtube.com/watch?v=rdnYN7czJs4&t=461s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Starter Dashboard for AL-Go Telemetry | [0:24](https://www.youtube.com/watch?v=rdnYN7czJs4&t=24s) |
+| AL-Go Telemetry to Application Insights | [1:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=76s) |
+| Workflow Overview Page | [4:16](https://www.youtube.com/watch?v=rdnYN7czJs4&t=256s) |
+| Workflow Duration Monitoring | [5:38](https://www.youtube.com/watch?v=rdnYN7czJs4&t=338s) |
+| Runner Metrics Page | [6:11](https://www.youtube.com/watch?v=rdnYN7czJs4&t=371s) |
+| AL-Go Maintenance Page | [6:58](https://www.youtube.com/watch?v=rdnYN7czJs4&t=418s) |
+| AL-Go Deprecation Warnings | [7:41](https://www.youtube.com/watch?v=rdnYN7czJs4&t=461s) |
 
 ## AL objects mentioned
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:08:08.436Z"
   flags: []
 generated:
-  at: "2026-10-07T23:08:08.474Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -198,13 +198,15 @@ It then covers how to shape checklists for two situations. Evaluation and trial 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Welcome banner | status not stated | [0:20](https://www.youtube.com/watch?v=KQRT25igPTk&t=20s) |
-| User checklist | status not stated | [0:52](https://www.youtube.com/watch?v=KQRT25igPTk&t=52s) |
-| Evaluation and trial checklist | status not stated | [1:32](https://www.youtube.com/watch?v=KQRT25igPTk&t=92s) |
-| Go-live checklist | status not stated | [2:53](https://www.youtube.com/watch?v=KQRT25igPTk&t=173s) |
-| Assisted setup | status not stated | [3:39](https://www.youtube.com/watch?v=KQRT25igPTk&t=219s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Welcome banner | [0:20](https://www.youtube.com/watch?v=KQRT25igPTk&t=20s) |
+| User checklist | [0:52](https://www.youtube.com/watch?v=KQRT25igPTk&t=52s) |
+| Evaluation and trial checklist | [1:32](https://www.youtube.com/watch?v=KQRT25igPTk&t=92s) |
+| Go-live checklist | [2:53](https://www.youtube.com/watch?v=KQRT25igPTk&t=173s) |
+| Assisted setup | [3:39](https://www.youtube.com/watch?v=KQRT25igPTk&t=219s) |
 
 ## Quotes
 

@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:21.463Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:21.507Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -212,13 +212,15 @@ In Business Central, the demo creates a payment journal and opens the Suggest Ve
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Payment journals | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=35s) |
-| Suggest vendor payments wizard | status not stated, demoed | [0:48](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=48s) |
-| Vendor priority functionality | status not stated, demoed | [1:51](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s) |
-| Payment grouping by vendor | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
-| Payment amount limit | status not stated, demoed | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Payment journals | [0:35](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=35s) |
+| Suggest vendor payments wizard | [0:48](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=48s) |
+| Vendor priority functionality | [1:51](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=111s) |
+| Payment grouping by vendor | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
+| Payment amount limit | [2:29](https://www.youtube.com/watch?v=fpc_XlVEnWw&t=149s) |
 
 ## AL objects mentioned
 

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:12:00.266Z"
   flags: []
 generated:
-  at: "2026-10-07T23:12:00.317Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -235,21 +235,23 @@ In Outlook, the user opens customer records, purchase and billing history, payme
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Contact Insights function | status not stated, demoed | [0:30](https://www.youtube.com/watch?v=_OClSlushOU&t=30s) |
-| Business Central records in Teams chat links | status not stated, demoed | [0:58](https://www.youtube.com/watch?v=_OClSlushOU&t=58s) |
-| Read-only access through Microsoft 365 account | status not stated, demoed | [1:31](https://www.youtube.com/watch?v=_OClSlushOU&t=91s) |
-| Sales order modification and credit limit notifications | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=_OClSlushOU&t=175s) |
-| Power Automate escalation workflow | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=_OClSlushOU&t=216s) |
-| Business data tabs in Teams chat | status not stated, demoed | [4:40](https://www.youtube.com/watch?v=_OClSlushOU&t=280s) |
-| Export to Excel for analysis | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=_OClSlushOU&t=320s) |
-| Business Central in Outlook | status not stated, demoed | [6:16](https://www.youtube.com/watch?v=_OClSlushOU&t=376s) |
-| Item discounts in Excel | status not stated, demoed | [6:29](https://www.youtube.com/watch?v=_OClSlushOU&t=389s) |
-| Email attachment linking to customer records | status not stated, demoed | [6:46](https://www.youtube.com/watch?v=_OClSlushOU&t=406s) |
-| Quote composition with email detection | status not stated, demoed | [7:07](https://www.youtube.com/watch?v=_OClSlushOU&t=427s) |
-| Export quote layout to Word | status not stated, demoed | [7:27](https://www.youtube.com/watch?v=_OClSlushOU&t=447s) |
-| Share link functionality for templates | status not stated, demoed | [7:40](https://www.youtube.com/watch?v=_OClSlushOU&t=460s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Contact Insights function | [0:30](https://www.youtube.com/watch?v=_OClSlushOU&t=30s) |
+| Business Central records in Teams chat links | [0:58](https://www.youtube.com/watch?v=_OClSlushOU&t=58s) |
+| Read-only access through Microsoft 365 account | [1:31](https://www.youtube.com/watch?v=_OClSlushOU&t=91s) |
+| Sales order modification and credit limit notifications | [2:55](https://www.youtube.com/watch?v=_OClSlushOU&t=175s) |
+| Power Automate escalation workflow | [3:36](https://www.youtube.com/watch?v=_OClSlushOU&t=216s) |
+| Business data tabs in Teams chat | [4:40](https://www.youtube.com/watch?v=_OClSlushOU&t=280s) |
+| Export to Excel for analysis | [5:20](https://www.youtube.com/watch?v=_OClSlushOU&t=320s) |
+| Business Central in Outlook | [6:16](https://www.youtube.com/watch?v=_OClSlushOU&t=376s) |
+| Item discounts in Excel | [6:29](https://www.youtube.com/watch?v=_OClSlushOU&t=389s) |
+| Email attachment linking to customer records | [6:46](https://www.youtube.com/watch?v=_OClSlushOU&t=406s) |
+| Quote composition with email detection | [7:07](https://www.youtube.com/watch?v=_OClSlushOU&t=427s) |
+| Export quote layout to Word | [7:27](https://www.youtube.com/watch?v=_OClSlushOU&t=447s) |
+| Share link functionality for templates | [7:40](https://www.youtube.com/watch?v=_OClSlushOU&t=460s) |
 
 ## Quotes
 

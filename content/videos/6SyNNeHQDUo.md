@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:05:45.633Z"
   flags: []
 generated:
-  at: "2026-10-07T23:05:45.667Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -203,13 +203,15 @@ Five contributions are demoed: a reorganized Manual Setup page, a notification f
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Manual Setup Page Improvements | status not stated, demoed | [5:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=320s) |
-| Duplicate External Documents Notification | status not stated, demoed | [6:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=360s) |
-| Default Quantities for GL Accounts | status not stated, demoed | [7:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=420s) |
-| Copilot-Assisted Number Series Setup | status not stated, demoed | [8:08](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=488s) |
-| Phone Number for Custom Ship to Address | status not stated, demoed | [9:48](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=588s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Manual Setup Page Improvements | [5:20](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=320s) |
+| Duplicate External Documents Notification | [6:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=360s) |
+| Default Quantities for GL Accounts | [7:00](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=420s) |
+| Copilot-Assisted Number Series Setup | [8:08](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=488s) |
+| Phone Number for Custom Ship to Address | [9:48](https://www.youtube.com/watch?v=6SyNNeHQDUo&t=588s) |
 
 ## AL objects mentioned
 

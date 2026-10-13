@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T23:04:51.237Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:51.275Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -213,13 +213,15 @@ The demo shows switching to selected partners by picking from a list of foreign 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Partner access control by environment | status not stated, demoed | [0:06](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=6s) |
-| All partners access mode | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
-| Selected partners access mode | status not stated, demoed | [1:47](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=107s) |
-| Partner access disabled mode | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=208s) |
-| Environment details page partner access setting | status not stated, demoed | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Partner access control by environment | [0:06](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=6s) |
+| All partners access mode | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
+| Selected partners access mode | [1:47](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=107s) |
+| Partner access disabled mode | [3:28](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=208s) |
+| Environment details page partner access setting | [1:07](https://www.youtube.com/watch?v=TBBlYpwbAFk&t=67s) |
 
 ## AL objects mentioned
 

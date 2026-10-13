@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:07:13.778Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:13.813Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,11 +162,13 @@ In Business Central, the presenter opens the cash receipts journals through the 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Cash Receipts Journal | status not stated, demoed | [0:56](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=56s) |
-| Customer Register Payments Window | status not stated, demoed | [1:53](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=113s) |
-| Apply to Documents Lookup | status not stated, demoed | [1:27](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=87s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Cash Receipts Journal | [0:56](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=56s) |
+| Customer Register Payments Window | [1:53](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=113s) |
+| Apply to Documents Lookup | [1:27](https://www.youtube.com/watch?v=6WVsS3j-HTw&t=87s) |
 
 ## AL objects mentioned
 

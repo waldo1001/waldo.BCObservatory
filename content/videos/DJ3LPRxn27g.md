@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:49:03.453Z"
   flags: []
 generated:
-  at: "2026-10-07T22:49:03.495Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -232,15 +232,17 @@ It also covers new ways to create drop shipment purchase documents, drop shipmen
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Flexible Drop Shipment Operation Sequences | status not stated, demoed | [0:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=32s) |
-| Get Order Lines Functionality | status not stated, demoed | [2:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=152s) |
-| Multiple Purchase Document Creation Methods | status not stated, demoed | [3:26](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=206s) |
-| Drop Shipment Support in Order Planning | status not stated, demoed | [4:06](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=246s) |
-| Receipt on Invoice Toggle | status not stated, demoed | [6:04](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s) |
-| Undo Shipment for Drop Shipments | status not stated, demoed | [8:28](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=508s) |
-| Direct Receipt and Invoice Posting in Purchase Order | status not stated, demoed | [1:52](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=112s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Flexible Drop Shipment Operation Sequences | [0:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=32s) |
+| Get Order Lines Functionality | [2:32](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=152s) |
+| Multiple Purchase Document Creation Methods | [3:26](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=206s) |
+| Drop Shipment Support in Order Planning | [4:06](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=246s) |
+| Receipt on Invoice Toggle | [6:04](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=364s) |
+| Undo Shipment for Drop Shipments | [8:28](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=508s) |
+| Direct Receipt and Invoice Posting in Purchase Order | [1:52](https://www.youtube.com/watch?v=DJ3LPRxn27g&t=112s) |
 
 ## AL objects mentioned
 

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:46:19.685Z"
   flags: []
 generated:
-  at: "2026-10-07T22:46:19.723Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -249,18 +249,20 @@ It then calculates the work center calendar to produce a capacity matrix in minu
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Work shifts | status not stated, demoed | [0:27](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=27s) |
-| Shop calendars | status not stated, demoed | [0:41](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=41s) |
-| Work center groups | status not stated, demoed | [1:33](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=93s) |
-| Work center posting settings | status not stated, demoed | [1:56](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=116s) |
-| Work center scheduling configuration | status not stated, demoed | [2:07](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=127s) |
-| Machine centers | status not stated, demoed | [2:30](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=150s) |
-| Consolidated calendar for work centers | status not stated, demoed | [2:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=162s) |
-| Work center calendar calculation | status not stated, demoed | [2:59](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=179s) |
-| Work center calendar matrix | status not stated, demoed | [3:28](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=208s) |
-| Production order scheduling | status not stated, demoed | [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Work shifts | [0:27](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=27s) |
+| Shop calendars | [0:41](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=41s) |
+| Work center groups | [1:33](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=93s) |
+| Work center posting settings | [1:56](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=116s) |
+| Work center scheduling configuration | [2:07](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=127s) |
+| Machine centers | [2:30](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=150s) |
+| Consolidated calendar for work centers | [2:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=162s) |
+| Work center calendar calculation | [2:59](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=179s) |
+| Work center calendar matrix | [3:28](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=208s) |
+| Production order scheduling | [4:42](https://www.youtube.com/watch?v=zt9_HEmPKNg&t=282s) |
 
 ## AL objects mentioned
 

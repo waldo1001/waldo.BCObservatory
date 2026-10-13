@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:56:32.778Z"
   flags: []
 generated:
-  at: "2026-10-07T22:56:32.816Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -196,15 +196,17 @@ The demo builds a pivot table of quarterly sales by customer and adds a pivot ch
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Export data to Excel | status not stated, demoed | [0:00](https://www.youtube.com/watch?v=6zj34hjbpGU&t=0s) |
-| Open or Edit in Excel option | status not stated, demoed | [0:31](https://www.youtube.com/watch?v=6zj34hjbpGU&t=31s) |
-| Pivot table creation | status not stated, demoed | [0:57](https://www.youtube.com/watch?v=6zj34hjbpGU&t=57s) |
-| Pivot chart visualization | status not stated, demoed | [1:18](https://www.youtube.com/watch?v=6zj34hjbpGU&t=78s) |
-| Data connection refresh | status not stated, demoed | [1:30](https://www.youtube.com/watch?v=6zj34hjbpGU&t=90s) |
-| Bulk update in Excel | status not stated, demoed | [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s) |
-| Excel addin pane | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=6zj34hjbpGU&t=124s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Export data to Excel | [0:00](https://www.youtube.com/watch?v=6zj34hjbpGU&t=0s) |
+| Open or Edit in Excel option | [0:31](https://www.youtube.com/watch?v=6zj34hjbpGU&t=31s) |
+| Pivot table creation | [0:57](https://www.youtube.com/watch?v=6zj34hjbpGU&t=57s) |
+| Pivot chart visualization | [1:18](https://www.youtube.com/watch?v=6zj34hjbpGU&t=78s) |
+| Data connection refresh | [1:30](https://www.youtube.com/watch?v=6zj34hjbpGU&t=90s) |
+| Bulk update in Excel | [1:41](https://www.youtube.com/watch?v=6zj34hjbpGU&t=101s) |
+| Excel addin pane | [2:04](https://www.youtube.com/watch?v=6zj34hjbpGU&t=124s) |
 
 ## AL objects mentioned
 

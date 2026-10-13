@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T23:22:13.830Z"
   flags: []
 generated:
-  at: "2026-10-07T23:22:13.866Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -176,11 +176,13 @@ The second half covers Record ID. A Record ID can be formatted with format type 
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| AL namespace field in All Objects with Captions table | status not stated, demoed | [0:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=24s) |
-| Record ID formatting with AL namespace | status not stated, demoed | [6:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=384s) |
-| Record ID evaluation against fully qualified namespace | status not stated, demoed | [7:58](https://www.youtube.com/watch?v=KmuTVkodRXM&t=478s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| AL namespace field in All Objects with Captions table | [0:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=24s) |
+| Record ID formatting with AL namespace | [6:24](https://www.youtube.com/watch?v=KmuTVkodRXM&t=384s) |
+| Record ID evaluation against fully qualified namespace | [7:58](https://www.youtube.com/watch?v=KmuTVkodRXM&t=478s) |
 
 ## AL objects mentioned
 

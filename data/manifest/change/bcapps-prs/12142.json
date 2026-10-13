@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12142",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 652254 - Statutory Reporting Setup - new field for Official Name",
+  "url": "https://github.com/microsoft/BCApps/pull/12142",
+  "published_at": "2026-10-12T13:33:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-13T00:27:25.816Z"
+    }
+  },
+  "input_hash": "aed68c9417cc2eb608134e881346c109a11e8b2e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12142,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "aed68c9417cc2eb608134e881346c109a11e8b2e",
+    "author": "v-janpopr",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 652254 statutory reporting setup new field for official name"
+  }
+}

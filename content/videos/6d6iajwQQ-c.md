@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:00:59.550Z"
   flags: []
 generated:
-  at: "2026-10-07T23:00:59.614Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -296,17 +296,19 @@ It demos setup (enabling value chain tracking, running Calculate CO2E on first s
 
 ## Features
 
-| Feature | Status | At | Evidence |
-|---|---|---|---|
-| Sustainability Value Entries | preview, demoed | [0:46](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=46s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Value Chain Tracking | preview, demoed | [4:27](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=267s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Item Emissions on Item Cards | preview, demoed | [5:59](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=359s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Work Center Emissions | preview, demoed | [8:21](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=501s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Production Order Carbon Equivalent Tracking | preview, demoed | [9:01](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=541s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Production Journal Emissions Posting | preview, demoed | [3:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=188s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Production BOM Sustainability Setup | preview, demoed | [7:20](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=440s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Routing Emissions Tracking | preview, demoed | [8:01](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=481s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
-| Capacity Ledger Entry Sustainability Link | preview, demoed | [10:42](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=642s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+Every feature below: preview, demoed.
+
+| Feature | At | Evidence |
+|---|---|---|
+| Sustainability Value Entries | [0:46](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=46s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Value Chain Tracking | [4:27](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=267s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Item Emissions on Item Cards | [5:59](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=359s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Work Center Emissions | [8:21](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=501s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Production Order Carbon Equivalent Tracking | [9:01](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=541s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Production Journal Emissions Posting | [3:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=188s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Production BOM Sustainability Setup | [7:20](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=440s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Routing Emissions Tracking | [8:01](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=481s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
+| Capacity Ledger Entry Sustainability Link | [10:42](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=642s) | "value chain completely functionality is in public preview in this moment" ([5:08](https://www.youtube.com/watch?v=6d6iajwQQ-c&t=308s)) |
 
 ## AL objects mentioned
 

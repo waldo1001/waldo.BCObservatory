@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:55:05.015Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:05.053Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -200,13 +200,15 @@ It walks through the pre-built agent profile and permission set, how to customiz
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Sales Order Agent | status not stated, demoed | [0:03](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=3s) |
-| Agent Profile Customization | status not stated, demoed | [0:59](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=59s) |
-| Agent Permission Sets | status not stated, demoed | [1:24](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=84s) |
-| Agent Log Entries | status not stated, demoed | [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s) |
-| Agent User Management | status not stated, demoed | [2:37](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=157s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Sales Order Agent | [0:03](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=3s) |
+| Agent Profile Customization | [0:59](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=59s) |
+| Agent Permission Sets | [1:24](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=84s) |
+| Agent Log Entries | [2:01](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=121s) |
+| Agent User Management | [2:37](https://www.youtube.com/watch?v=DRUr4byy8xQ&t=157s) |
 
 ## AL objects mentioned
 

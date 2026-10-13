@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:41.158Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:41.200Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -208,15 +208,17 @@ Examples include a payroll agent that reduces manual data entry and lets smaller
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot Studio agent creation | status not stated | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |
-| Business Central MCP server | status not stated | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |
-| Payroll agent | status not stated | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |
-| Manifest purchase order creation agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
-| Sales claim agent | status not stated | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
-| Reusable agent development in Business Central | status not stated | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |
-| Copilot Chat integration | status not stated | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| Copilot Studio agent creation | [0:24](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=24s) |
+| Business Central MCP server | [0:36](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=36s) |
+| Payroll agent | [0:59](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=59s) |
+| Manifest purchase order creation agent | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Sales claim agent | [1:54](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=114s) |
+| Reusable agent development in Business Central | [2:08](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=128s) |
+| Copilot Chat integration | [2:19](https://www.youtube.com/watch?v=AMVAiPTfSrU&t=139s) |
 
 ## Quotes
 

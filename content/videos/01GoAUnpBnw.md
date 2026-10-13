@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:52:28.582Z"
   flags: []
 generated:
-  at: "2026-10-07T22:52:28.622Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -186,12 +186,14 @@ Replication puts the record links and notes into a buffer table so existing reco
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Record links and notes migration | status not stated, demoed | [0:40](https://www.youtube.com/watch?v=01GoAUnpBnw&t=40s) |
-| Cloud migration management page | status not stated, demoed | [0:53](https://www.youtube.com/watch?v=01GoAUnpBnw&t=53s) |
-| Migrate record links and notes action | status not stated, demoed | [1:15](https://www.youtube.com/watch?v=01GoAUnpBnw&t=75s) |
-| Warnings field for record link migration | status not stated, demoed | [1:26](https://www.youtube.com/watch?v=01GoAUnpBnw&t=86s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Record links and notes migration | [0:40](https://www.youtube.com/watch?v=01GoAUnpBnw&t=40s) |
+| Cloud migration management page | [0:53](https://www.youtube.com/watch?v=01GoAUnpBnw&t=53s) |
+| Migrate record links and notes action | [1:15](https://www.youtube.com/watch?v=01GoAUnpBnw&t=75s) |
+| Warnings field for record link migration | [1:26](https://www.youtube.com/watch?v=01GoAUnpBnw&t=86s) |
 
 ## AL objects mentioned
 

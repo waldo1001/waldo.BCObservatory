@@ -20,7 +20,7 @@ review:
   at: "2026-10-07T22:55:52.719Z"
   flags: []
 generated:
-  at: "2026-10-07T22:55:52.829Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -159,11 +159,13 @@ In the demo, the intake starts with an image. Copilot analyzes it, works out the
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Copilot-powered maintenance intake | status not stated, demoed | [0:13](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=13s) |
-| Image-based maintenance issue analysis | status not stated, demoed | [0:35](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=35s) |
-| Maintenance request attachments and AI explanation | status not stated, demoed | [0:46](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=46s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Copilot-powered maintenance intake | [0:13](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=13s) |
+| Image-based maintenance issue analysis | [0:35](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=35s) |
+| Maintenance request attachments and AI explanation | [0:46](https://www.youtube.com/watch?v=PeI-Jv4KVn8&t=46s) |
 
 ## Quotes
 

@@ -17,7 +17,7 @@ review:
   at: "2026-10-07T23:02:10.947Z"
   flags: []
 generated:
-  at: "2026-10-07T23:02:10.981Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,11 +142,13 @@ It also shows that the exported Excel workbook now gets a file name built from t
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Excel Export via Right-Click | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=25s) |
-| Excel Export via Data Analysis Tab Menu | status not stated, demoed | [0:43](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=43s) |
-| Improved Excel File Naming | status not stated, demoed | [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s) |
+Every feature below: status not stated, demoed.
+
+| Feature | At |
+|---|---|
+| Excel Export via Right-Click | [0:25](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=25s) |
+| Excel Export via Data Analysis Tab Menu | [0:43](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=43s) |
+| Improved Excel File Naming | [1:00](https://www.youtube.com/watch?v=N7RE_UVeH1c&t=60s) |
 
 ## AL objects mentioned
 

@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:51:16.748Z"
   flags: []
 generated:
-  at: "2026-10-07T22:51:16.791Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -164,10 +164,12 @@ The speaker credits the cross skills program and BC Talent with their certificat
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| BC Talent Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
-| Cross Skills Program | status not stated | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| BC Talent Program | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
+| Cross Skills Program | [0:19](https://www.youtube.com/watch?v=a4DaacZvOMM&t=19s) |
 
 ## Quotes
 

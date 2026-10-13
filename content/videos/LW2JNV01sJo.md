@@ -21,7 +21,7 @@ review:
   at: "2026-10-07T22:47:49.710Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:49.747Z"
+  at: "2026-10-13T00:32:41.360Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -172,10 +172,12 @@ The video presents performance as a continuous journey, not a destination. Optim
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| OptimAL Performance Initiative | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
-| Agent capabilities for performance management | status not stated | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
+Every feature below: status not stated.
+
+| Feature | At |
+|---|---|
+| OptimAL Performance Initiative | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
+| Agent capabilities for performance management | [1:05](https://www.youtube.com/watch?v=LW2JNV01sJo&t=65s) |
 
 ## Quotes
 
