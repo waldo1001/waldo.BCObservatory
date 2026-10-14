@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12617",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Security] Move URL checks from Web Request Helper to System Application Uri module",
+  "url": "https://github.com/microsoft/BCApps/pull/12617",
+  "published_at": "2026-10-13T13:49:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-14T00:20:24.304Z"
+    }
+  },
+  "input_hash": "f55aef7041c5c626dc4d41286dc568dfd5899016:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12617,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f55aef7041c5c626dc4d41286dc568dfd5899016",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "security move url checks from web request helper to system application uri module"
+  }
+}

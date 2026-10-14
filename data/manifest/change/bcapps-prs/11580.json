@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11580",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Extensibility Request] issue 29654: customize document rejection response",
+  "url": "https://github.com/microsoft/BCApps/pull/11580",
+  "published_at": "2026-10-13T17:00:58Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-14T00:20:24.304Z"
+    }
+  },
+  "input_hash": "562b520c7a3318282b94369ea0eedec9cbae4023:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11580,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "562b520c7a3318282b94369ea0eedec9cbae4023",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations",
+      "extensibility-enhancement"
+    ],
+    "community_contribution": false,
+    "title_key": "extensibility request issue 29654 customize document rejection response"
+  }
+}

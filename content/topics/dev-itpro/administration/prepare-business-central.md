@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:10.225Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-14T00:24:59.083Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management
-    title: Enabling upcoming features ahead of time
-    date: "2021-10-26"
+    title: Enabling Upcoming Features Ahead of Time
+    date: "2026-10-13"
     commit: null
     t: null
     quote: null
@@ -204,7 +204,7 @@ This section gathers the tasks needed to get a Business Central environment read
 
 - [Apply Company Configuration Packages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages): Streamline your implementation process by using configuration packages with standard settings and to migrate customer data.
 - [Deploying a tenant customization](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization): Overview of how you deploy an .app package with a tenant customization to Dynamics 365 Business Central.
-- [Enabling upcoming features ahead of time](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management): Learn how to enable select features ahead of time as the administrator of Business Central online or on-premises.
+- [Enabling Upcoming Features Ahead of Time](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management): Learn how to enable select features ahead of time as the administrator of Business Central online or on-premises.
 - [Get the Outlook add-ins for the business inbox](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/outlook-addins): Learn about the technical aspects of the Outlook add-ins so that users can use Outlook as their business inbox and manage Business Central data in Outlook.
 - [Getting the Business Central add-in for Excel](https://learn.microsoft.com/dynamics365/business-central/admin-deploy-excel-addin): Learn how to get users the Business Central Add-in for Excel.
 - [Optional Features Now Mandatory](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management-mandatory-features): Learn about the features that were optional but are now mandatory.

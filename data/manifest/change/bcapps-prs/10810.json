@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10810",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Private/t tmikula/aggregate lines deadlock",
+  "url": "https://github.com/microsoft/BCApps/pull/10810",
+  "published_at": "2026-10-13T13:49:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-14T00:20:24.304Z"
+    }
+  },
+  "input_hash": "266f7d353df2713b4d83b8f01974fd41ba6ff2cc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10810,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "266f7d353df2713b4d83b8f01974fd41ba6ff2cc",
+    "author": "Kimi310",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "private t tmikula aggregate lines deadlock"
+  }
+}

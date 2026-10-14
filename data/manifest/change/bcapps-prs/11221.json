@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/11221",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Add daily extensibility team batching",
+  "url": "https://github.com/microsoft/BCApps/pull/11221",
+  "published_at": "2026-10-13T15:13:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-14T00:20:24.304Z"
+    }
+  },
+  "input_hash": "cbb0087735dcdf8fd9d3bdcdb1f5dba1f8163a80:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11221,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "cbb0087735dcdf8fd9d3bdcdb1f5dba1f8163a80",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "Build: Automation",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "add daily extensibility team batching"
+  }
+}

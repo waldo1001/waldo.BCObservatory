@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12614",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[GB] GovTalk: migrate SendHttpRequest from DotNet HttpWebRequest to native HttpClient",
+  "url": "https://github.com/microsoft/BCApps/pull/12614",
+  "published_at": "2026-10-13T15:45:03Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-14T00:20:24.304Z"
+    }
+  },
+  "input_hash": "29560b95d833f337e926aac066d8e043d6cfc1de:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12614,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "29560b95d833f337e926aac066d8e043d6cfc1de",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "gb govtalk migrate sendhttprequest from dotnet httpwebrequest to native httpclient"
+  }
+}

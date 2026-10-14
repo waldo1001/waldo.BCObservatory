@@ -7,13 +7,13 @@
   "url": "https://www.youtube.com/watch?v=n3w6_pZy5_s",
   "published_at": "2026-05-29T15:40:48.000Z",
   "language": "en",
-  "state": "skipped",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T12:16:08.507Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:16:32.254Z",
+      "at": "2026-10-14T00:20:49.108Z",
       "captions": null,
       "duration_s": 77
     }
@@ -26,9 +26,11 @@
     "channel_rank": 62,
     "duration_s": 77,
     "via": "reconcile",
-    "captions_track": null
+    "captions_track": null,
+    "caption_retries": 1
   },
   "last_error": null,
   "retry_after": null,
-  "skip": "no-captions"
+  "skip": null,
+  "skipped_at": null
 }
