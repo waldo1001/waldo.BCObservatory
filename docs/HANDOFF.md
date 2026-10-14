@@ -10,7 +10,12 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
 
-None open.
+**MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35). Status: proposed 2026-10-14, nothing implemented.
+From a chat where an agent lost six parallel `get_object(page, id, section: "fields")` calls: a page's fields section is
+keyed `controls`. Where to start: section 6 task 1, the failing tests in `tests/unit/mcp-sections.test.ts` (aliases
+`fields`, `columns`, `members` on a page; a nearest-key hint in the not-found answer), then `findSection` and
+`sectionView` in `packages/mcp/src/sections.ts`. One phase, no page or data change, no derive; MCP 0.7.2 and plugin
+0.3.1. Until it lands, `section: "controls"` is the key on a page and `search("page 25", kind: "page")` is the cheap id check.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
