@@ -8,6 +8,8 @@
  * row slices that never cross the budget; `frontmatter` is a section of lines; a symbol path
  * (`objects/codeunit/80#event-OnAfterPostSalesDoc`) returns that member's row. Characters are String.length.
  */
+import { editDistance } from "@bc-observatory/search";
+
 export const DEFAULT_BUDGET = 30_000, MIN_BUDGET = 5_000;
 export const PREVIEW_ROWS = 5, ROW_CLIP = 200, PROSE_CLIP = 800, HEAD_LINE_MAX = 120;
 export const FM_LIST_CHARS = 600, FM_LIST_MIN = 3, RESERVE = 300;
@@ -162,11 +164,26 @@ function frontmatterSection(p: ParsedPage): Section {
   return { heading: "", key: "frontmatter", lines, head: [], rows: lines.map((l) => ({ lines: [l], table: null, group: null })), tail: [] };
 }
 
+/** Words an agent types for a page's `controls` section (D97). */
+export const CONTROL_WORDS = ["fields", "columns", "members"] as const;
+const isControlWord = (w: string) => (CONTROL_WORDS as readonly string[]).includes(w);
+
 export function findSection(p: ParsedPage, want: string): Section | null {
   const w = want.trim().toLowerCase(), ws = snake(want);
   if (w === "frontmatter") return frontmatterSection(p);
   return p.sections.find((s) => s.key === w) ?? p.sections.find((s) => s.heading.toLowerCase() === w)
-    ?? p.sections.find((s) => ws !== "" && snake(s.heading) === ws) ?? null;
+    ?? p.sections.find((s) => ws !== "" && snake(s.heading) === ws)
+    ?? (isControlWord(w) ? p.sections.find((s) => s.key === "controls") ?? null : null);
+}
+
+/** Up to two section keys near `want`: the key starts with it, it starts with the key, either contains the other (4 or more
+ *  characters), or the edit distance is 2 or less; `frontmatter` counts. No suggestion for an alias word (D97). */
+export function nearestKeys(p: ParsedPage, want: string): string[] {
+  const w = snake(want);
+  if (w === "" || isControlWord(want.trim().toLowerCase())) return [];
+  const keys = [...p.sections.map((s) => s.key), "frontmatter"];
+  const near = (k: string) => k.startsWith(w) || w.startsWith(k) || (Math.min(k.length, w.length) >= 4 && (k.includes(w) || w.includes(k))) || editDistance(w, k, 2) <= 2;
+  return keys.filter(near).slice(0, 2);
 }
 
 const keyList = (p: ParsedPage, counts = false) =>
@@ -267,7 +284,10 @@ export function sectionView(md: string, path: string, want: string, offset: numb
   // a section answer ends with one newline, like a page, a compact view and a member answer
   const nl = (lines: string[]) => `${lines.join("\n")}\n`;
   const s = findSection(p, want);
-  if (!s) return `No section "${want}" on ${path}. Sections: ${keyList(p)}.`;
+  if (!s) {
+    const near = nearestKeys(p, want).map((k) => `"${k}"`);
+    return `No section "${want}" on ${path}. ${near.length ? `Did you mean ${near.join(" or ")}? ` : ""}Sections: ${keyList(p)}.`;
+  }
   const fm = s.key === "frontmatter" && s.heading === "";
   const first = `${titleOf(p, path)}, section "${s.key}": ${site}${path}/`;
   const heading = fm ? [] : [`## ${s.heading}`];
