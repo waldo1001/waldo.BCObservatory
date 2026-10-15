@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/bank-feature",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.215Z",
-      "blob": "493655a09836e392f6090c21c36a422e92d69fe4",
+      "at": "2026-10-15T00:28:43.465Z",
+      "blob": "62006ee78135070624ce2e5f8a527c30a5355dd1",
       "words": 569,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:55.714Z",
+      "at": "2026-10-15T00:28:52.201Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.00316
+      "objects": 7,
+      "cost_usd": 0.004171
     },
     "summarized": {
-      "at": "2026-10-06T19:21:57.414Z",
+      "at": "2026-10-15T00:28:52.203Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:57.415Z",
+      "at": "2026-10-15T00:28:52.204Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:57.415Z",
+      "at": "2026-10-15T00:28:52.205Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/bank-feature.md",
     "description": "Learn about the Czech local banking feature, which provides improved efficiency and prevents users from making mistakes when entering the customer and vendor bank account data.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "company default bank account",
       "Czech version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 569,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c7d8a9c9d2e62d71bcade2338da25c1ecbd8c16e081917b08b10be1c5b6d299"
+  "output_hash": "1f78a98c0551f0a2f2acd890c19c6d70a4f20a8c37d99fc7a32ee0960d6437f6"
 }

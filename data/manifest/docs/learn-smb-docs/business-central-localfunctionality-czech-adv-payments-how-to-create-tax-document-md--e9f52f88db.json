@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-tax-document",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.352Z",
-      "blob": "9fa2089bec3ef3acaf68496a5599c40ede4839d3",
-      "words": 574,
+      "at": "2026-10-15T00:28:36.533Z",
+      "blob": "927eecba00861c1f762d03a30834260e3c283875",
+      "words": 573,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:53.234Z",
+      "at": "2026-10-15T00:28:42.885Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003203
+      "cost_usd": 0.004086
     },
     "summarized": {
-      "at": "2026-10-06T19:04:53.250Z",
+      "at": "2026-10-15T00:28:42.887Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:53.251Z",
+      "at": "2026-10-15T00:28:42.890Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:53.252Z",
+      "at": "2026-10-15T00:28:42.892Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-create-tax-document.md",
     "description": "This article describes how to create and post a VAT document for an advance letter using Advance Payments in the Czech version.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "VAT Document",
       "Localization"
     ],
-    "ai_usage": null,
-    "words": 574,
+    "ai_usage": "ai-assisted",
+    "words": 573,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "60291064a57a2b08b40119f0dd8716433da8b35d394b35f21cca1ac98a3f622e"
+  "output_hash": "89592fc424c64aea4a56c5bcea3bb043242a7f2b6eb9d43057efecbc6c014ad7"
 }

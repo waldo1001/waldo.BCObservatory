@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-foreign-currency.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-foreign-currency",
   "title": "Advance in a foreign currency",
-  "blob": "5ad04e9ce631d250a27551347aab294deec9a374",
-  "summary": "Documents advance payment processing in foreign currencies for the Czech version, including payment procedures, invoice linking, and year-end revaluation requirements using unified currency throughout the process.",
+  "blob": "99ebe8fb78cb530086bbcdd4e2f52989062c7f9d",
+  "summary": "Advance Payments in Czech Business Central works with foreign currencies, requiring a unified currency throughout the advance posting, payment, invoice, and closing process. The page explains how to pay advances in foreign currency, link advances to invoices, and revalue advances at year-end using exchange rate adjustments.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "advance payments",
     "foreign currency",
-    "czech localization",
+    "exchange rates",
     "vat",
-    "exchange rates"
+    "czech localization",
+    "year-end revaluation"
   ],
   "objects": [
     {
@@ -24,18 +26,25 @@
       "name": "Sales Invoices"
     },
     {
+      "type": "page",
+      "name": "General Journal"
+    },
+    {
       "type": "report",
       "name": "Adjust Advance Letter Exchange Rates"
+    },
+    {
+      "type": "report",
+      "name": "Adjust Exchange Rates"
     }
   ],
   "features": [
     "Foreign currency advance payments",
-    "VAT document generation",
-    "Exchange rate adjustment",
-    "Year-end revaluation",
-    "Advance invoice linking",
-    "VAT adjustment entries",
-    "Unrealized gain/loss entries"
+    "Advance VAT document creation",
+    "Exchange rate revaluation",
+    "VAT Rate adjustment entries",
+    "Year-end advance revaluation",
+    "Retroactive adjustment"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005253,
-      "pages_in_call": 8
+      "cost_usd": 0.004641,
+      "pages_in_call": 1
     }
   ]
 }

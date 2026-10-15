@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.347Z",
-      "blob": "8170368582993f4ca11ccb3fc3a1c39b1a4b1119",
+      "at": "2026-10-15T00:28:36.495Z",
+      "blob": "160b64707356e0387de2b6dae4b1e552a7264e9f",
       "words": 202,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:53.232Z",
+      "at": "2026-10-15T00:28:42.447Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003203
+      "cost_usd": 0.003156
     },
     "summarized": {
-      "at": "2026-10-06T19:04:53.247Z",
+      "at": "2026-10-15T00:28:42.449Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:53.248Z",
+      "at": "2026-10-15T00:28:42.450Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:53.248Z",
+      "at": "2026-10-15T00:28:42.451Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-create-invoice-from-order.md",
     "description": "This article describes how to create an advance letter from a sales or purchase order in the Czech version.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Advance Payments",
       "Localization"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 202,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abae6a035a2722150656b8b4f8081dccbbf91279fda9da0c100ad9efd65c2b6e"
+  "output_hash": "9e543eec4f448f6dff58e4a83d689568c1f6ee07c552d8518c6d20fe9e7a9b83"
 }

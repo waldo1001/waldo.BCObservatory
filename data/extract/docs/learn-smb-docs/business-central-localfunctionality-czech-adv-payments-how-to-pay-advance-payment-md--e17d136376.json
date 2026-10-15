@@ -2,26 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-pay-advance-payment.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-pay-advance-payment",
   "title": "Pay an advance letter",
-  "blob": "194e8192d477f9ba12c122a9c64aecd4db001f79",
-  "summary": "Paying advance letters in Czech localization via general journal or cash documents, with support for partial payments and entry type tracking.",
+  "blob": "07744e0652626e4cb6aba0cd639f1e6380aa298c",
+  "summary": "Advance letters with status To Pay can be paid using a general journal or cash document by selecting the advance letter from a filtered list and posting the payment entry.",
   "systems": [
-    "finance",
-    "purchasing"
+    "finance"
   ],
   "topics": [
     "advance payments",
-    "czech localization",
-    "payment processing",
+    "advance letters",
     "general journal",
-    "cash documents"
+    "cash documents",
+    "payment processing",
+    "czech localization"
   ],
   "objects": [],
   "features": [
-    "Advance letter payment",
-    "General journal payment",
-    "Cash document payment",
+    "Pay advance letter via general journal",
+    "Pay advance letter via cash document",
     "Partial payment support",
-    "Advance ledger entries"
+    "Advance ledger entries",
+    "Currency filtering"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002467,
-      "pages_in_call": 7
+      "cost_usd": 0.003162,
+      "pages_in_call": 1
     }
   ]
 }

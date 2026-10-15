@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-pay-advance-payment",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.360Z",
-      "blob": "194e8192d477f9ba12c122a9c64aecd4db001f79",
-      "words": 385,
+      "at": "2026-10-15T00:28:37.710Z",
+      "blob": "07744e0652626e4cb6aba0cd639f1e6380aa298c",
+      "words": 386,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T21:27:13.488Z",
+      "at": "2026-10-15T00:28:43.357Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002467
+      "cost_usd": 0.003162
     },
     "summarized": {
-      "at": "2026-10-06T21:27:37.552Z",
+      "at": "2026-10-15T00:28:43.359Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T21:27:37.554Z",
+      "at": "2026-10-15T00:28:43.360Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T21:27:37.556Z",
+      "at": "2026-10-15T00:28:43.362Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-pay-advance-payment.md",
     "description": "This article describes how to pay an advance letter using Advance Payments in the Czech version.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Advance Payments",
       "Localization"
     ],
-    "ai_usage": null,
-    "words": 385,
+    "ai_usage": "ai-assisted",
+    "words": 386,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c1a6cea640d1b8b28701f4b1bab026e53bb562684304df3de646e1c32764ebc8"
+  "output_hash": "dba60d964f68ec965f91c51c6ad2b3eb5fb32584044c5bae8693e5f52b08ec41"
 }

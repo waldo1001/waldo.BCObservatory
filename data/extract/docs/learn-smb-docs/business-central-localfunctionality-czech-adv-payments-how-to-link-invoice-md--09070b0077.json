@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice",
   "title": "Link an advance invoice to a final document",
-  "blob": "0ccac283d932eab5f89455a83bfe5654e0b419eb",
-  "summary": "Link one or more paid advance letters to sales or purchase invoices using the Advance Letter Application page, with options to apply partial amounts and view advance usage in the FactBox.",
+  "blob": "9689f328c3a43d0c13f0a1df2b94327df9401647",
+  "summary": "Link advance invoices to sales invoices and orders in Czech Business Central, specifying amounts and managing advance usage through the Advance Letter Application page.",
   "systems": [
     "finance",
     "sales",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "advance letters",
     "advance payments",
-    "invoice application",
-    "czech localization"
+    "invoice linking",
+    "czech localization",
+    "sales invoices",
+    "vat handling"
   ],
   "objects": [
     {
@@ -27,11 +28,11 @@
   ],
   "features": [
     "Link Advance Letter action",
-    "Advance Letter Application page",
-    "Partial advance application",
+    "Advance Letter Application",
     "Advance Usage FactBox",
-    "Automatic advance prioritization by payment date",
-    "Unlink advance option"
+    "partial advance application",
+    "VAT Usage line",
+    "VAT credit note"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003203,
-      "pages_in_call": 7
+      "cost_usd": 0.003729,
+      "pages_in_call": 1
     }
   ]
 }

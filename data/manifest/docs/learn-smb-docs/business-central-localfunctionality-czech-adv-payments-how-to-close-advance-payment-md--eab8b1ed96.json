@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-close-advance-payment",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:53.244Z",
+      "at": "2026-10-15T00:28:37.633Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003203
+      "cost_usd": 0.006034
     },
     "summarized": {
-      "at": "2026-10-06T19:04:53.268Z",
+      "at": "2026-10-15T00:28:37.635Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:53.270Z",
+      "at": "2026-10-15T00:28:37.636Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:53.272Z",
+      "at": "2026-10-15T00:28:37.638Z",
       "page": false
     }
   },
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7fd320c168ee532f5d6688d56200ac4bf0826a54"
+  "output_hash": "759391bf9b07c1848d6fe47ad6d2127b51e88c51979960de40c6136e60af41b5"
 }

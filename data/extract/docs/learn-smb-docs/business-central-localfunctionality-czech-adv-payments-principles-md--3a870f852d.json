@@ -2,27 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-principles.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-principles",
   "title": "Understand the principles and lifecycle for Advance Payments",
-  "blob": "1fa7768fb39fc6c20acbec15039087f978781f9c",
-  "summary": "Understand advance payment core principles including header-level document matching, G/L account posting from templates, and the complete lifecycle from creation through closure with status tracking.",
+  "blob": "b0ebcddf908ba410f08373953a916d79b3e8aec3",
+  "summary": "Advance Payments in Czech Business Central documents the core principles and lifecycle of advance payments, including document matching at header level, VAT posting mechanics, and the five-stage advance payment workflow from creation to closure.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "advance letters",
     "advance payments",
-    "lifecycle",
-    "posting principles",
-    "czech localization"
+    "czech localization",
+    "vat",
+    "document matching",
+    "cash management",
+    "payment lifecycle"
   ],
   "objects": [
-    {
-      "type": "table",
-      "name": "Advance Letter Entries"
-    },
-    {
-      "type": "table",
-      "name": "Advance Letter Templates"
-    },
     {
       "type": "page",
       "name": "Sales Advance Letter"
@@ -32,16 +26,8 @@
       "name": "Purchase Advance Letter"
     },
     {
-      "type": "table",
-      "name": "Customer Ledger Entry"
-    },
-    {
-      "type": "table",
-      "name": "Vendor Ledger Entry"
-    },
-    {
-      "type": "table",
-      "name": "VAT Entry"
+      "type": "page",
+      "name": "Advance Letter Entries"
     },
     {
       "type": "page",
@@ -50,17 +36,20 @@
     {
       "type": "page",
       "name": "Cash Receipt Journal"
+    },
+    {
+      "type": "page",
+      "name": "VAT Entries"
     }
   ],
   "features": [
-    "Header-level document matching",
+    "Advance Letter Templates",
     "Advance Letter G/L Account",
-    "Status field tracking",
-    "Initial Entry creation",
-    "Payment entry type",
-    "VAT Payment entry type",
-    "Usage entry type",
-    "Close advance letter"
+    "Document Type field",
+    "Advance Letter No. field",
+    "Advance Letter Template Code",
+    "VAT Calculation Type",
+    "Advance payment status tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003203,
-      "pages_in_call": 7
+      "cost_usd": 0.003923,
+      "pages_in_call": 1
     }
   ]
 }

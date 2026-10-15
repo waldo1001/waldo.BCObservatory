@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.356Z",
-      "blob": "0ccac283d932eab5f89455a83bfe5654e0b419eb",
+      "at": "2026-10-15T00:28:36.605Z",
+      "blob": "9689f328c3a43d0c13f0a1df2b94327df9401647",
       "words": 669,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:53.235Z",
+      "at": "2026-10-15T00:28:42.345Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003203
+      "cost_usd": 0.003729
     },
     "summarized": {
-      "at": "2026-10-06T19:04:53.254Z",
+      "at": "2026-10-15T00:28:42.346Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:53.255Z",
+      "at": "2026-10-15T00:28:42.348Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:53.256Z",
+      "at": "2026-10-15T00:28:42.349Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/adv-payments-how-to-link-invoice.md",
     "description": "This article describes how to link an invoice to a final document using Advance Payments in the Czech version.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Advance Payments",
       "Localization"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 669,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6aa1c04b6a5161909842627342fc21d6897c02b5fcba19019899a8cf7db528fa"
+  "output_hash": "eb1dfb03f94f3af3ab3ba6c3d236f86e3a4a87a674d12f5f636a78d566584e69"
 }

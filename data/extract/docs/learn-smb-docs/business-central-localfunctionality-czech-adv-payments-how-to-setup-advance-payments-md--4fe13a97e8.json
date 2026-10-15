@@ -2,37 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments",
   "title": "Set up advance payments in the Czech version",
-  "blob": "13315adff9eb2afedba47ad4ab7d91deaee2923e",
-  "summary": "Describes setup configuration for advance payments in the Czech version including advance letter templates, VAT posting setup, report selections, and VAT statement configuration.",
+  "blob": "a109e5fc0f5239aa5e22940c833e0f267b42a2af",
+  "summary": "Configure advance payments in Czech Business Central by setting up advance letter templates, VAT posting accounts, and report selections for sales and purchase advance invoices.",
   "systems": [
-    "finance"
+    "finance",
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "advance payments",
-    "czech localization",
-    "setup",
-    "vat posting",
-    "reporting"
+    "czech",
+    "vat setup",
+    "number series",
+    "posting accounts"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Advance Letter Templates"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "VAT Posting Setup"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Report Selection - Purchase"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "Report Selection - Sales"
     },
     {
-      "type": "page",
+      "type": "table",
       "name": "VAT Statement"
     },
     {
@@ -45,14 +47,12 @@
     }
   ],
   "features": [
-    "Advance letter templates",
-    "Sales and purchase advance setup",
-    "G/L account configuration",
-    "VAT posting group mapping",
-    "Automatic VAT document posting",
-    "Non-deductible VAT posting",
-    "Reverse charge VAT posting",
-    "Number series configuration"
+    "advance letter templates",
+    "VAT posting setup for advances",
+    "automatic post VAT document",
+    "reverse charge posting",
+    "advance letter G/L accounts",
+    "report selection configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005253,
-      "pages_in_call": 8
+      "cost_usd": 0.004841,
+      "pages_in_call": 1
     }
   ]
 }

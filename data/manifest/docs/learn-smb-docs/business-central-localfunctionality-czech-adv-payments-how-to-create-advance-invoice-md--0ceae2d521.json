@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-create-advance-invoice",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:45.170Z",
+      "at": "2026-10-15T00:28:42.536Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.005965
+      "cost_usd": 0.003462
     },
     "summarized": {
-      "at": "2026-10-06T19:04:45.194Z",
+      "at": "2026-10-15T00:28:42.538Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:45.195Z",
+      "at": "2026-10-15T00:28:42.539Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:45.196Z",
+      "at": "2026-10-15T00:28:42.543Z",
       "page": false
     }
   },
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c472e62e7aad49ffb9cc9748f49593b9dbb28311"
+  "output_hash": "ad534821eea38ebde7e22a2b4c39e0b6e722164fd72f655878a6957ced68b719"
 }

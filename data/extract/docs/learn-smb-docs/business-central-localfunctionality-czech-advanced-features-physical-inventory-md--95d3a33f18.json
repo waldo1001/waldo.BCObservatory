@@ -2,25 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory",
   "title": "Czech local functionality - Advances features of physical inventory",
-  "blob": "dea4e5d45065a989de71217325e9b2e520864606",
-  "summary": "Advanced physical inventory features for Czech companies enable differentiation between accounting of deficits and surpluses using warehouse net change templates and support line-break posting for inventory journal lines.",
+  "blob": "3fdf96bec37268354b3b246c03a8c2dd866752b5",
+  "summary": "Czech physical inventory advanced features allow companies to account for inventory deficits and surpluses separately using configurable inventory movement templates and posting groups to comply with local legislation.",
   "systems": [
     "inventory",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "physical inventory",
     "czech",
-    "inventory movements",
+    "physical inventory",
+    "inventory adjustments",
+    "posting groups",
+    "inventory setup",
     "deficits",
     "surpluses"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
   "features": [
-    "physical inventory differentiation",
-    "warehouse net change template",
-    "line-break posting",
-    "general business posting group"
+    "default inventory movement templates",
+    "positive adjustments",
+    "negative adjustments",
+    "Gen. Bus. Posting Group",
+    "line-level inventory movement templates"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.003045,
+      "pages_in_call": 1
     }
   ]
 }
