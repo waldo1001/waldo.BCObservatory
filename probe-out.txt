@@ -1,0 +1,60 @@
+✔ 1: parsePage splits sections, rows, continuation lines and the closing text (24.121459ms)
+✔ 2: section keys: fixed for object headings, snake_case elsewhere, numbered when a heading repeats (13.748ms)
+✔ 3: findSection by key, heading or snake_case, case-insensitive (0.198667ms)
+✔ 4: budgetOf (0.069083ms)
+✔ 5: a page that fits comes back byte for byte (0.08ms)
+✔ 6: the compact view (48.608792ms)
+✔ 7: a section that fits comes back as on the page (8.24625ms)
+✔ 8: offset and limit slice by rows (0.471625ms)
+✔ 9: a table slice repeats its header (0.386708ms)
+✔ 10: an offset past the last row reads the closing text (2.838583ms)
+✔ 11: a section without rows ignores offset and comes back whole (0.347459ms)
+✔ 12: the budget cuts a slice before the row that would cross it, keeping continuation lines (0.765292ms)
+✔ 13-16: a symbol path returns its member's row (0.256209ms)
+✔ 17-18: unknown sections and offset without a section answer with the section keys (0.122833ms)
+✔ D97 1-3: fields, columns and members read a page's controls; a real key is never shadowed (0.170208ms)
+✔ D97 4: section fields on a page answers with the controls section (0.052083ms)
+✔ D97 5-6: nearestKeys (0.116833ms)
+✔ D97 7-8: the not-found answer names the nearest key, and says nothing extra without one (0.128291ms)
+✔ D97: over the committed content, every page with a layout resolves the aliases and every table keeps fields (2332.865667ms)
+ℹ 7567 pages with controls, 3798 tables with fields
+✔ 19-20: the frontmatter is a section of lines (0.267125ms)
+✔ 21: fenced code is text, not a heading or a row (0.083292ms)
+✔ every object-page heading the renderer emits has a fixed key, and no other key exists (0.2665ms)
+✔ real pages: Codeunit 80, Table 18 and Table 36 compact (27.655459ms)
+ℹ objects/codeunit/80: 177746 characters, compact 9504
+ℹ objects/table/18: 91329 characters, compact 13905
+ℹ objects/table/36: 182895 characters, compact 14800
+✔ real pages: every page over the budget has a compact view that parses, and every section reads in slices under it (1280.399458ms)
+ℹ 233 pages over 30,000 characters
+ℹ largest compact view 15741 (releases/al-18.0), largest answer 29863 (topics/business-central/business-functionality/set-up-business-central business_central_pages_and_reports offset 148), most calls 11 (topics/business-central/business-functionality business_central_pages_and_reports)
+✔ real pages: symbol paths resolve to their rows (16985.71225ms)
+ℹ 123134 of 123218 W1 and app symbols resolve; misses: objects/table/231#field-5900, objects/table/242#field-2, objects/table/242#field-3, objects/table/242#field-4, objects/table/242#field-5
+ℹ 7945 country rows: 7792 only the layer has, 153 share a member name with the W1 page
+ℹ 159 country rows answered from the diff
+✔ the tool list is the server's registerTool list, in order (1.310125ms)
+✔ the skill list is the plugin's skills folder, and the atlas URL is the plugin's (0.231541ms)
+✔ D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bc-lookup routes a Learn hit to microsoft_docs_fetch (0.238291ms)
+✔ what the plugin installs: PLUGIN_SERVERS is plugin/.mcp.json, and plugin/README.md and the twin name every server and skill (D96) (0.460333ms)
+✔ every ask names a tool or the atlas, and the README's commands match (0.144584ms)
+✔ the twin lists every tool, skill and install step, with the versions (0.090042ms)
+✔ MCP server over stdio: every tool answers from a local checkout (800.463375ms)
+✔ D93: tool descriptions teach call forms, not the scoring formula, and the page tools take section, offset, limit (684.989833ms)
+✔ D93: a page over the budget comes back compact; section, offset and limit page through it; a symbol path returns its row (2039.855834ms)
+✔ D86: references, filters, get_object by caption and country, hints (755.640542ms)
+✔ search is hybrid with a model: exact band pinned, the rest fused with meaning, every hit says how it was found (D63, D86) (744.85775ms)
+✔ without a model, search says so and stays keyword-only (735.063875ms)
+✔ reciprocal rank fusion (k = 60) and the filters of a search call (22.853875ms)
+✔ D95: a kind: query with no hit says what is not there and never pads with pages; an empty keyword list is the first line (753.9715ms)
+✔ D95 review: filters never read as an absence, the kind parameter counts, short names have no neighbours, the name is what was typed (795.399583ms)
+✔ D94: search finds Learn articles by an identifier they document, with their url and hub; type learn filters; ls and whats_new stay pages (649.432875ms)
+✔ D95 phase B: get_object prints what a country layer adds, cat answers for a member only the layer has, search finds it with its layer (544.053542ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21162.589375
+

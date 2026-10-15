@@ -1043,3 +1043,14 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the observatory server (code and an outbound dependency that duplicate Microsoft's own server); storing Learn bodies
   (D01). `plugin/README.md` and the MCP page list what the plugin installs (the page from `PLUGIN_SERVERS` in `site/src/lib/mcp.ts`), both tested against the
   plugin config; until then bc-code-atlas was named piecemeal.
+- **D97 Section words an agent types resolve on a page (2026-10-15, M35).** The page objects' `## Fields on this page`
+  section is keyed `controls` (D93) and the `get_object` text, the skill and the README named `fields` for every
+  object, so an agent that followed them got `No section "fields"` on a page, six times in parallel in the chat that
+  prompted this. `findSection` now resolves `fields`, `columns` and `members` to `controls` when the page has a
+  `controls` section and no section of that word (7,567 pages and page extensions on the committed content; the 3,798
+  tables with `## Fields` keep `fields`); the not-found answer names up to two nearest keys (`Did you mean "controls"?`;
+  no suggestion for an alias word or for a word with no near key); the `get_object` text, `bc-lookup` and the README say
+  'controls' on a page and point id checks to `search(kind: "page")`. The 25 keys of D93 do not change. No page, no data
+  file, no derive. MCP 0.7.2, plugin 0.3.1. Rejected: renaming the key; aliases in `OBJECT_KEYS`; resolving any unknown
+  word to its nearest key (a wrong guess answers silently); an alias for every object type; a header-only section; a
+  web client deep-link row on page objects. Spec: `docs/specs/mcp-section-aliases.md` (section 12: built, deviations).
