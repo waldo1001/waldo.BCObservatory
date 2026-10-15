@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "specs": {
+    "glob": "docs/specs/*.md",
+    "status_field": "status"
+  },
+  "build": "/sdd-build {spec}",
+  "draft": "/sdd-draft {issue}",
+  "commands": [
+    "npm test",
+    "npm run typecheck"
+  ],
+  "pre_build": [],
+  "ci_required": [
+    "pr-validate"
+  ],
+  "protected": [
+    "**/CHANGELOG.md",
+    "scripts/release*"
+  ]
+}
