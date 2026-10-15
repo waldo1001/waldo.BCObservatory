@@ -2,26 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting",
   "title": "Belgian Intrastat Reporting",
-  "blob": "efc3522b7601c370f2abc9917d032d2e1257641e",
-  "summary": "Belgian Intrastat reporting for EU trade declarations including simplified and extended declarations, with export capabilities to the OneGate portal.",
+  "blob": "705254df4967c75289743a67b95aeaa0be0736af",
+  "summary": "Belgian Intrastat reporting enables EU trade declaration through simplified or extended Intrastat declarations and VIES reporting, with export capability to the OneGate portal.",
   "systems": [
-    "finance",
     "localization",
-    "reporting"
+    "finance",
+    "integration"
   ],
   "topics": [
-    "belgian localization",
-    "intrastat reporting",
+    "intrastat",
+    "belgium",
     "eu trade",
-    "vies reporting",
-    "customs"
+    "reporting",
+    "vies",
+    "declarations"
   ],
   "objects": [],
   "features": [
+    "Intrastat declarations",
+    "VIES reporting",
+    "Export to OneGate portal",
     "Simplified declaration",
-    "Extended declaration",
-    "Intrastat export",
-    "OneGate portal integration"
+    "Extended declaration"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.005832,
+      "pages_in_call": 1
     }
   ]
 }

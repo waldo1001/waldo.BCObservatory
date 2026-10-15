@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.898Z",
-      "blob": "da7ac9011bed43dd91bd2ef9202a54e511f21d81",
+      "at": "2026-10-15T00:27:32.609Z",
+      "blob": "66ba87633d2ba2939d0906d0495f72c10d3ef688",
       "words": 25,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:27.840Z",
+      "at": "2026-10-15T00:27:37.404Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003095
+      "cost_usd": 0.002746
     },
     "summarized": {
-      "at": "2026-10-06T19:31:27.864Z",
+      "at": "2026-10-15T00:27:37.406Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:27.865Z",
+      "at": "2026-10-15T00:27:37.407Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:27.866Z",
+      "at": "2026-10-15T00:27:37.409Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md",
-    "description": "Learn how to apply and unapply general ledger entries in the Belgian version of Business Central, to allow working with temporary and transfer accounts in the general ledger.",
-    "ms_date": "2025-04-01",
+    "description": "Learn about the deprecated feature for applying and unapplying general ledger entries in the Belgian version of Business Central, and the replacement feature for reviewing account balances.",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "temporary accounts",
       "transfer accounts"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 25,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "149a7b4919483bc9c3bf8d1becde066b69a43b5ec4bb6f14b0bc72a8d8608701"
+  "output_hash": "6efd119fb814f8450a58e4004bc55c16353792b9fe12118f5273221b2270d0f0"
 }

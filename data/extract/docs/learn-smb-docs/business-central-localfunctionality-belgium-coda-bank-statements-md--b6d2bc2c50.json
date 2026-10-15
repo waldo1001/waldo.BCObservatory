@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/coda-bank-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/coda-bank-statements",
   "title": "Belgian CODA Bank Statements [BE]",
-  "blob": "0eee9526038cca378ef1f4c8814178489f4aef98",
-  "summary": "Belgian CODA bank statements processing using the Coded Statement of Account standard for automatic electronic bank statement processing and matching to ledger entries.",
+  "blob": "2eb519a43b2028428ea8828017e590508ae3b091",
+  "summary": "Belgian CODA bank statements allow automatic processing of electronic bank statements using a national banking standard with transaction codes. The page documents how to apply CODA statement lines to ledger entries and the matching logic for general ledger, customer, and vendor accounts.",
   "systems": [
     "finance",
     "localization",
     "integration"
   ],
   "topics": [
-    "belgian localization",
     "coda",
     "bank statements",
+    "belgian",
     "electronic banking",
-    "bank reconciliation"
+    "bank reconciliation",
+    "transaction coding",
+    "ledger matching"
   ],
   "objects": [
     {
@@ -24,12 +26,13 @@
   ],
   "features": [
     "CODA statement import",
-    "Transaction code matching",
-    "Statement line application",
-    "Default posting",
-    "Automatic posting",
-    "General ledger posting",
-    "Customer/vendor matching"
+    "automatic statement processing",
+    "statement line application",
+    "transaction code matching",
+    "customer/vendor matching",
+    "general ledger posting",
+    "bank account matching",
+    "default posting"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.003793,
+      "pages_in_call": 1
     }
   ]
 }

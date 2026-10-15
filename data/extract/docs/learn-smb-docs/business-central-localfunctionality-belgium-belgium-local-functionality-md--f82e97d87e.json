@@ -2,41 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgium-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
   "title": "Belgium local functionality",
-  "blob": "5900150f84643a454d7bb63b9167717cec4416c8",
-  "summary": "Belgium localization covers VAT management, Intrastat reporting, CODA bank statements, electronic banking and payments including SEPA and domiciliation, core finance operations, and electronic invoicing.",
+  "blob": "1e86854fafaa52b8974a7e89762ac09e27d6ae4e",
+  "summary": "Belgium local functionality in Business Central includes VAT setup and reporting, banking and payments (CODA, electronic banking, SEPA, domiciliation), electronic invoicing via PEPPOL, and core finance features specific to Belgian regulatory requirements.",
   "systems": [
-    "localization",
     "finance",
-    "purchasing"
+    "localization"
   ],
   "topics": [
     "belgium",
     "vat",
-    "intrastat",
+    "banking",
+    "payments",
     "coda",
-    "sepa",
-    "domiciliation",
-    "electronic invoicing"
+    "electronic invoicing",
+    "peppol",
+    "domiciliation"
   ],
   "objects": [],
   "features": [
-    "non-deductible VAT",
-    "Intrastat reporting and declarations",
-    "CODA bank statement processing",
-    "electronic payments and SEPA",
-    "direct debit domiciliation",
-    "general ledger entry application",
-    "journal template requirements"
+    "Belgian VAT",
+    "Non-deductible VAT",
+    "CODA bank statements",
+    "Electronic banking",
+    "SEPA payments",
+    "Direct debit domiciliation",
+    "Electronic invoicing via PEPPOL",
+    "General ledger entry application"
   ],
-  "versions": [],
+  "versions": [
+    "2027 release wave 1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00753,
-      "pages_in_call": 8
+      "cost_usd": 0.00469,
+      "pages_in_call": 1
     }
   ]
 }

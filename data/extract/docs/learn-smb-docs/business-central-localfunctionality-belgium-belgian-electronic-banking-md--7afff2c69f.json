@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgian-electronic-banking.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-banking",
   "title": "Belgian Electronic Banking",
-  "blob": "392c824033ba61de19943a21adfcc3b323b7f26c",
-  "summary": "Belgian electronic banking setup and configuration for processing electronic payments, bank statements with CODA, and direct debits with domiciliation.",
+  "blob": "268c9ebee1d31c3d765a214e17f8dca07fe5b680",
+  "summary": "Belgian electronic banking enables companies to exchange payment and bank statement data with Belgian financial institutions electronically, reducing manual entry errors and processing time through electronic payments, CODA bank statements, and direct debits with domiciliation.",
   "systems": [
     "finance",
-    "localization",
-    "integration"
+    "localization"
   ],
   "topics": [
-    "belgian localization",
     "electronic banking",
-    "payment processing",
+    "payments",
     "bank statements",
-    "domiciliation"
+    "coda",
+    "domiciliation",
+    "belgian"
   ],
   "objects": [
     {
@@ -23,11 +23,11 @@
     }
   ],
   "features": [
-    "Summarize Gen. Jnl. Lines",
-    "Cut off Payment Message Texts",
-    "Electronic payment processing",
-    "CODA statement processing",
-    "Direct debit domiciliation"
+    "Electronic payments",
+    "CODA bank statements",
+    "Direct debits with domiciliation",
+    "Summarize General Journal Lines",
+    "Cut off Payment Message Texts"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.003307,
+      "pages_in_call": 1
     }
   ]
 }

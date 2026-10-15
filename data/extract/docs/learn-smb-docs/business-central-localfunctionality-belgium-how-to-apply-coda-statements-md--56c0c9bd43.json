@@ -2,18 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements",
   "title": "Apply CODA Statements [BE]",
-  "blob": "2841a12bec070e6e59685fc60e7792ac68ae3713",
-  "summary": "Apply CODA bank statement lines to ledger entries either manually or automatically using batch processing. Use this to reconcile Belgian CODA statements with outstanding entries in Business Central.",
+  "blob": "cb98d11e76c4cbb08f8416b65a89927cb0f08326",
+  "summary": "Apply CODA bank statements in Belgium by manually matching statement lines to ledger entries or automatically processing them based on transaction codes.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "coda",
-    "bank statements",
-    "reconciliation",
+    "coda statements",
+    "bank reconciliation",
     "belgium",
-    "automatic application"
+    "ledger entries",
+    "batch processing"
   ],
   "objects": [
     {
@@ -23,14 +23,18 @@
     {
       "type": "page",
       "name": "Bank Accounts"
+    },
+    {
+      "type": "page",
+      "name": "CODA Statements"
     }
   ],
   "features": [
-    "Manual CODA application",
-    "Automatic CODA application",
-    "Process CODA Statement Lines",
-    "Default Posting",
-    "Print List"
+    "Manual CODA statement application",
+    "Automatic CODA statement processing",
+    "Default posting",
+    "Print list",
+    "Transaction code matching"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.006595,
+      "pages_in_call": 1
     }
   ]
 }

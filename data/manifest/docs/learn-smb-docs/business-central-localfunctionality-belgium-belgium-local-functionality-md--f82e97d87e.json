@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.177Z",
-      "blob": "5900150f84643a454d7bb63b9167717cec4416c8",
-      "words": 360,
+      "at": "2026-10-15T00:27:25.995Z",
+      "blob": "1e86854fafaa52b8974a7e89762ac09e27d6ae4e",
+      "words": 390,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:14.511Z",
+      "at": "2026-10-15T00:27:32.530Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00753
+      "cost_usd": 0.00469
     },
     "summarized": {
-      "at": "2026-10-06T14:22:14.515Z",
+      "at": "2026-10-15T00:27:32.532Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:14.515Z",
+      "at": "2026-10-15T00:27:32.534Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:14.516Z",
+      "at": "2026-10-15T00:27:32.535Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/belgium-local-functionality.md",
     "description": "The following articles describe the various local functionalities in the Belgian version of Business Central.",
-    "ms_date": "2025-12-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "Belgian version",
       "Belgian local functionality"
     ],
-    "ai_usage": null,
-    "words": 360,
+    "ai_usage": "ai-assisted",
+    "words": 390,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa1ebf6a9fc98635de8511d0a5c334dd0c88850680c0ec9aa196d71e86c9b105"
+  "output_hash": "bb6ddfa239361b63d7be03a45353125a0d7e681023c20df76d034a3a51b34292"
 }

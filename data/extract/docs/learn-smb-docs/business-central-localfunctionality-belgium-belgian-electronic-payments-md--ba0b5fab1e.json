@@ -2,34 +2,48 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgian-electronic-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments",
   "title": "Belgian electronic payments",
-  "blob": "da74b5fe7c15a7cd59f4b3122a8668fcc296413a",
-  "summary": "Belgian electronic payment types including domestic, international, SEPA, and non-Euro SEPA payments, with setup and correction procedures for payment journal lines.",
+  "blob": "3aa3f4d1a2a038721a77ab319747ae41e914f0f2",
+  "summary": "Belgian electronic payments supports domestic, international, SEPA, and non-Euro SEPA payment types with bank account validation. Use this to configure and file electronic payments through Belgian financial institutions.",
   "systems": [
     "finance",
     "purchasing",
     "localization"
   ],
   "topics": [
-    "belgian localization",
-    "electronic payments",
-    "sepa",
-    "payment processing",
-    "vendor payments"
+    "belgian payments",
+    "sepa payments",
+    "electronic banking",
+    "vendor payments",
+    "payment export",
+    "bank account validation"
   ],
   "objects": [
     {
-      "type": "report",
+      "type": "page",
       "name": "File Non Euro SEPA Payments"
+    },
+    {
+      "type": "table",
+      "name": "Country/Region"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
     }
   ],
   "features": [
-    "Domestic payments",
-    "International payments",
+    "Domestic electronic payments",
+    "International electronic payments",
     "SEPA payments",
     "Non-Euro SEPA payments",
     "Bank account validation",
-    "Payment line correction",
-    "AC Banking 365"
+    "Payment journal corrections",
+    "Payment file export",
+    "Vendor payment suggestions"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.004961,
+      "pages_in_call": 1
     }
   ]
 }

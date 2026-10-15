@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.902Z",
-      "blob": "2841a12bec070e6e59685fc60e7792ac68ae3713",
+      "at": "2026-10-15T00:27:33.005Z",
+      "blob": "cb98d11e76c4cbb08f8416b65a89927cb0f08326",
       "words": 369,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.645Z",
+      "at": "2026-10-15T00:27:41.198Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002324
+      "objects": 3,
+      "cost_usd": 0.006595
     },
     "summarized": {
-      "at": "2026-10-06T19:31:28.653Z",
+      "at": "2026-10-15T00:27:41.199Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:28.654Z",
+      "at": "2026-10-15T00:27:41.201Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:28.655Z",
+      "at": "2026-10-15T00:27:41.203Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements.md",
     "description": "After a CODA statement is imported, you can view the statement lines on the Bank Account Card page.",
-    "ms_date": "2025-04-01",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "statement lines",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 369,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da127d763aed01b88a96722ae3cdd17ba06de0fd16cdf079db805fa9c7b31147"
+  "output_hash": "07b554d9423e2ca7677b0828edd74ad511f2ee77ca617c6cf307fc0d2f5c5294"
 }

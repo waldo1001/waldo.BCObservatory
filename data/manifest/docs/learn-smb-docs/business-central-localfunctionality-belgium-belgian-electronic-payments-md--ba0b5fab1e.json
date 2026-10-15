@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:27.833Z",
+      "at": "2026-10-15T00:27:32.926Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003095
+      "objects": 4,
+      "cost_usd": 0.004961
     },
     "summarized": {
-      "at": "2026-10-06T19:31:27.845Z",
+      "at": "2026-10-15T00:27:32.929Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:27.846Z",
+      "at": "2026-10-15T00:27:32.931Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:27.848Z",
+      "at": "2026-10-15T00:27:32.932Z",
       "page": false
     }
   },
@@ -70,5 +70,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3aa3f4d1a2a038721a77ab319747ae41e914f0f2"
+  "output_hash": "13c35cacd23076fc260f6cad695c2e1814573752c9cfab27f59923d1a64a731d"
 }

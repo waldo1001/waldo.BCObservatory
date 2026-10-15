@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.907Z",
-      "blob": "10c64236a667657188d5bfd2f3c5c80fd141ae67",
+      "at": "2026-10-15T00:27:34.156Z",
+      "blob": "af7b48ee95c4f9a743c8671efac9029fd592b43c",
       "words": 205,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.646Z",
+      "at": "2026-10-15T00:27:41.259Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002324
+      "cost_usd": 0.003249
     },
     "summarized": {
-      "at": "2026-10-06T19:31:28.656Z",
+      "at": "2026-10-15T00:27:41.261Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:28.657Z",
+      "at": "2026-10-15T00:27:41.262Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:28.658Z",
+      "at": "2026-10-15T00:27:41.263Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md",
     "description": "After all CODA statement lines are applied and processed, you can transfer them to a financial journal.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "financial journal",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 205,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f4c94185081838c525ae6d0435447c9f64dd5c708cd94b5d94b8270d4f24bfe"
+  "output_hash": "9443e7445522c77923a2b387e52e04e97effb78f2b643d950e196b474e9e2102"
 }

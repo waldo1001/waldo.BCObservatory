@@ -2,22 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text",
   "title": "Delivery reminder terms, levels, and text [AT]",
-  "blob": "16e8ec4cacf5392e88241cc04351719870cdeb43",
-  "summary": "Configure delivery reminder terms, levels, and custom text messages in the Austrian version for vendor communication.",
+  "blob": "6bbc20f9f61eb7085459faa1372b8a450e649ad0",
+  "summary": "Setting up delivery reminder terms, levels, and text in the Austrian version of Business Central, used to configure the structure and messaging for delivery reminder notifications.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization",
+    "administration"
   ],
   "topics": [
     "delivery reminders",
     "austria",
     "vendor management",
-    "setup"
+    "localization setup"
   ],
   "objects": [],
   "features": [
     "delivery reminder terms",
-    "reminder levels",
-    "custom reminder text"
+    "delivery reminder levels",
+    "delivery reminder text"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.002698,
+      "pages_in_call": 1
     }
   ]
 }

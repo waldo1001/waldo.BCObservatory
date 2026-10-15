@@ -2,30 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/belgian-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat",
   "title": "Belgian VAT",
-  "blob": "4e025c19b1a0eeb157d11f95f82249978f506aa5",
-  "summary": "Belgian VAT reporting including monthly/quarterly declarations, annual listings, and EC sales lists, with support for nondeductible VAT and multiple VAT registration numbers.",
+  "blob": "c792cd5c11de3e043f9fedc1bc5ff9c0a0d3d75a",
+  "summary": "Belgian VAT declarations, reporting requirements, and handling of nondeductible VAT, including monthly/quarterly filings, annual listings, and EC sales list reports.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
+    "vat",
     "belgian localization",
-    "vat reporting",
+    "declarations",
     "nondeductible vat",
-    "ec sales list",
-    "tax compliance"
+    "tax compliance",
+    "vat registration"
   ],
   "objects": [],
   "features": [
     "Monthly/Quarterly VAT declaration",
     "VAT annual listing",
-    "EC sales list",
-    "Nondeductible VAT",
+    "EC sales list report",
+    "Nondeductible VAT setup",
+    "% Non deductible VAT field",
     "Multiple VAT registration numbers",
-    "Alternative Customer VAT Registration",
-    "Enterprise No.",
-    "Percentage Non deductible VAT"
+    "Enterprise No. for alternative addresses",
+    "Calc. and Post VAT Settlement report"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.003815,
+      "pages_in_call": 1
     }
   ]
 }
