@@ -2,22 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export",
   "title": "Czech Local Functionality - Vies - CZ export",
-  "blob": "fd9584d629cca4b149b836ae0fc25f3f548bdc72",
-  "summary": "Czech VIES export feature allows exporting VIES data to XML file in the structure required by financial administration for electronic submission.",
+  "blob": "a1d3411e43279697426f670157800bba831c936a",
+  "summary": "VIES - CZ export enables exporting VIES declarations to XML format compliant with Czech financial administration requirements for electronic submission.",
   "systems": [
     "localization",
-    "integration"
+    "finance"
   ],
   "topics": [
-    "vies export",
-    "xml",
+    "vies declaration",
     "czech",
+    "xml export",
     "tax reporting",
-    "financial administration"
+    "electronic submission"
   ],
   "objects": [],
   "features": [
-    "VIES XML export"
+    "VIES declaration export",
+    "XML file generation",
+    "financial administration compliance"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.002722,
+      "pages_in_call": 1
     }
   ]
 }

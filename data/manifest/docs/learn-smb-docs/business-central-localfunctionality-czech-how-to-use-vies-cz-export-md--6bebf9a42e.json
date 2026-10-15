@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.428Z",
-      "blob": "fd9584d629cca4b149b836ae0fc25f3f548bdc72",
-      "words": 58,
+      "at": "2026-10-15T00:29:55.481Z",
+      "blob": "a1d3411e43279697426f670157800bba831c936a",
+      "words": 57,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.084Z",
+      "at": "2026-10-15T00:30:04.348Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001801
+      "cost_usd": 0.002722
     },
     "summarized": {
-      "at": "2026-10-06T19:22:51.846Z",
+      "at": "2026-10-15T00:30:04.349Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:51.847Z",
+      "at": "2026-10-15T00:30:04.350Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:51.848Z",
+      "at": "2026-10-15T00:30:04.352Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export.md",
     "description": "Enables exporting the VIES VAT report to an XML file formatted for submission to the Czech financial administration.",
-    "ms_date": "2025-06-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 58,
+    "ai_usage": "ai-assisted",
+    "words": 57,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "160af461a52530cf3300b11cf9727995a8bd15e4f5774a95f8dfb64dcefce5e2"
+  "output_hash": "6fe564a0d4d086e29802e18d166c6f30df639cad7e0f2bff963c39ad7123f9fc"
 }

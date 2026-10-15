@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.393Z",
-      "blob": "2dde9cb0f60f7f1d7044fa8158a77d6666837289",
-      "words": 135,
+      "at": "2026-10-15T00:29:49.176Z",
+      "blob": "06a4254955a75b19262185875b92837e890e5745",
+      "words": 120,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.156Z",
+      "at": "2026-10-15T00:29:54.515Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.001504
+      "objects": 1,
+      "cost_usd": 0.002764
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.175Z",
+      "at": "2026-10-15T00:29:54.516Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.176Z",
+      "at": "2026-10-15T00:29:54.517Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.177Z",
+      "at": "2026-10-15T00:29:54.518Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md",
     "description": "Learn about inventory counting documents feature in the Czech version of Business Central.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 135,
+    "ai_usage": "ai-assisted",
+    "words": 120,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "678997ba5f3defe22adbfc818d238f38a0ae77d7f91dd7f0207f8df30bbb21ea"
+  "output_hash": "6ffa57ccb4c447ea3f78b37e1a085851c439cdb420e8395f5c877f4ac9c81494"
 }

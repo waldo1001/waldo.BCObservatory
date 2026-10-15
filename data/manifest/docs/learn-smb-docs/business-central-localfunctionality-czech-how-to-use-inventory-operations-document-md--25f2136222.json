@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.402Z",
-      "blob": "af7f029385d136f06553c48f3ff8738b304f256a",
-      "words": 92,
+      "at": "2026-10-15T00:29:49.212Z",
+      "blob": "c9c88387d751e9d95da03df023b767ccd3c0a89b",
+      "words": 79,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.077Z",
+      "at": "2026-10-15T00:29:55.075Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.001801
+      "cost_usd": 0.00304
     },
     "summarized": {
-      "at": "2026-10-06T19:22:50.086Z",
+      "at": "2026-10-15T00:29:55.077Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:50.087Z",
+      "at": "2026-10-15T00:29:55.079Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:50.088Z",
+      "at": "2026-10-15T00:29:55.080Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document.md",
     "description": "Use the Inventory Movement Report to print documents from inventory journals and use the Posted Inventory Document Report to print documents for posted inventory operations.",
-    "ms_date": "2025-06-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 92,
+    "ai_usage": "ai-assisted",
+    "words": 79,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1bdcd9831d5b8f267fdeabed759fdf3ee8c6c881830469efbfb9465f74c6e09e"
+  "output_hash": "5af982dfe90d913ef3c99d31a36ea991301e44d4ffd74f42cfd149e43ef31cdb"
 }

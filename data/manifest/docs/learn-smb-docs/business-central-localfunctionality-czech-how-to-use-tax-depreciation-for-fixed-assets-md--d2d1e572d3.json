@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.419Z",
-      "blob": "09096ec69b4c0a0e12adf0ad4ca7903c1477d070",
-      "words": 159,
+      "at": "2026-10-15T00:29:55.135Z",
+      "blob": "e981fb446ed5620806ebf952104c4e68ced757df",
+      "words": 161,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.081Z",
+      "at": "2026-10-15T00:30:04.484Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001801
+      "cost_usd": 0.003028
     },
     "summarized": {
-      "at": "2026-10-06T19:22:51.841Z",
+      "at": "2026-10-15T00:30:04.486Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:51.842Z",
+      "at": "2026-10-15T00:30:04.487Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:51.843Z",
+      "at": "2026-10-15T00:30:04.489Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets.md",
     "description": "Use the Fixed Assets Tax Depreciation feature to calculate and posts tax depreciation for fixed assets in accordance with the Czech Income Tax Act.",
-    "ms_date": "2025-06-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 159,
+    "ai_usage": "ai-assisted",
+    "words": 161,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7ce0cf48c41585e3eb69c3a1a1a86ae6b4bbaa404139968173498e158e43aad1"
+  "output_hash": "2939a43d64f4d317c02f37954adffc7cef649707db96a3cea83a7b1a4293ecbe"
 }

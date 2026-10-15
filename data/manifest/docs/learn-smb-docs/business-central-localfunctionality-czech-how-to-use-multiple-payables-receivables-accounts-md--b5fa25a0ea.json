@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.411Z",
-      "blob": "d41b771d16ba72fed86f7125e8ed451e081c7ad1",
-      "words": 90,
+      "at": "2026-10-15T00:29:54.587Z",
+      "blob": "887ef6b9961b56594a486afbcd75053d0be12cf6",
+      "words": 156,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.598Z",
+      "at": "2026-10-15T00:29:59.882Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002263
+      "objects": 6,
+      "cost_usd": 0.00336
     },
     "summarized": {
-      "at": "2026-10-06T23:41:10.612Z",
+      "at": "2026-10-15T00:29:59.883Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:10.613Z",
+      "at": "2026-10-15T00:29:59.884Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:10.614Z",
+      "at": "2026-10-15T00:29:59.884Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md",
-    "description": "Enables users to modify Customer and Vendor posting groups when posting a transaction.",
-    "ms_date": "2025-06-05",
+    "description": "Learn how to post customer and vendor transactions to an alternate posting group in the Czech version of Business Central.",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 90,
+    "ai_usage": "ai-assisted",
+    "words": 156,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b200e06c8380ba3614e25b9d6c7737cc4d94c2936f591260cb362d0fbcd9e0d8"
+  "output_hash": "74e8391c5d86d9d89de09cfc56d3359baf29f036522181f2d496bd5e5ae393d2"
 }

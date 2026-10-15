@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-fixed-assets-reporting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.154Z",
+      "at": "2026-10-15T00:29:54.572Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 14,
-      "cost_usd": 0.001504
+      "objects": 0,
+      "cost_usd": 0.00319
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.172Z",
+      "at": "2026-10-15T00:29:54.574Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.173Z",
+      "at": "2026-10-15T00:29:54.576Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.174Z",
+      "at": "2026-10-15T00:29:54.579Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "94b1913c38ebd53631adc517f250d4879edfb4e6"
+  "output_hash": "124a0bfc10f0734cc43f481602b8bccc85f36b7be8f7c4d5541d24e8c4f0d575"
 }

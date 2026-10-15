@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.398Z",
-      "blob": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
-      "words": 65,
+      "at": "2026-10-15T00:29:49.243Z",
+      "blob": "e5cd9cff2ec6f465a80576ba5a065036b49da778",
+      "words": 66,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.157Z",
+      "at": "2026-10-15T00:29:55.211Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001504
+      "objects": 1,
+      "cost_usd": 0.002959
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.179Z",
+      "at": "2026-10-15T00:29:55.213Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.180Z",
+      "at": "2026-10-15T00:29:55.215Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.181Z",
+      "at": "2026-10-15T00:29:55.216Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md",
     "description": "According to Czech-specific requirements, the Inventory – G/L Reconciliation matrix form must take into account the Czech-specific inventory posting accounts.",
-    "ms_date": "2025-06-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 65,
+    "ai_usage": "ai-assisted",
+    "words": 66,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9e282326022ca6f3dba74877a99aa211f5e5fa634cb906e66f6f1887c7a1956"
+  "output_hash": "fe4458c48ad9d985225559a1d26d212aab782f45c464f604c7a49727a1383222"
 }

@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Czech local functionality - Multi circuit accounting",
+  "title": "Use multi-circuit accounting [CZ]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.407Z",
-      "blob": "53065ce77180899c8da731e3e4f7854adcee63b2",
-      "words": 77,
+      "at": "2026-10-15T00:29:49.302Z",
+      "blob": "3616fe47e6158ee2f87772216ded9ccbdc8fe743",
+      "words": 243,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.078Z",
+      "at": "2026-10-15T00:29:55.389Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001801
+      "objects": 1,
+      "cost_usd": 0.003199
     },
     "summarized": {
-      "at": "2026-10-06T19:22:50.089Z",
+      "at": "2026-10-15T00:29:55.392Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:50.089Z",
+      "at": "2026-10-15T00:29:55.399Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:50.090Z",
+      "at": "2026-10-15T00:29:55.400Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md",
-    "description": "Learn how to use Multi Circuit Accounting in the Czech version of Business Central.",
-    "ms_date": "2025-06-05",
-    "ms_topic": "article",
+    "description": "Learn how to use multi-circuit accounting with the G/L Account Group field to separate financial, internal, and off-balance postings in the Czech version.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "CZ",
@@ -54,12 +54,12 @@
       "Localization",
       "Finance"
     ],
-    "ai_usage": null,
-    "words": 77,
+    "ai_usage": "ai-assisted",
+    "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d5ac4acb0cf1b56d5cf1d9d159d926fe3747747f8e9970c38fccd144b58912d"
+  "output_hash": "684b61bad0b2c687de52f8bd885b41071c62e75956a351c09a23470c8b933d28"
 }

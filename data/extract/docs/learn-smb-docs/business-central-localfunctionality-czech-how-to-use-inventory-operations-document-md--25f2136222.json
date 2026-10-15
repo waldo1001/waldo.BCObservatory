@@ -2,32 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document",
   "title": "Czech local functionality - Inventory operations document",
-  "blob": "af7f029385d136f06553c48f3ff8738b304f256a",
-  "summary": "Czech inventory operations document feature provides reports for printing inventory movement and posted inventory operation documents that comply with legal layout requirements.",
+  "blob": "c9c88387d751e9d95da03df023b767ccd3c0a89b",
+  "summary": "Czech inventory operations document reports print documents from inventory journals and posted inventory operations with legally compliant layouts for write-down, reclassification, and revaluation.",
   "systems": [
     "inventory",
     "localization"
   ],
   "topics": [
     "inventory operations",
-    "document printing",
-    "czech",
-    "journals",
-    "posting"
+    "czech localization",
+    "documents",
+    "reporting",
+    "compliance"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "Inventory Movement Report"
+      "name": "Inventory Document"
     },
     {
       "type": "report",
-      "name": "Posted Inventory Document Report"
+      "name": "Posted Inventory Document"
     }
   ],
   "features": [
-    "Inventory Movement Report",
-    "Posted Inventory Document Report"
+    "Inventory Document report",
+    "Posted Inventory Document report",
+    "Write-down",
+    "Reclassification",
+    "Revaluation"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.00304,
+      "pages_in_call": 1
     }
   ]
 }

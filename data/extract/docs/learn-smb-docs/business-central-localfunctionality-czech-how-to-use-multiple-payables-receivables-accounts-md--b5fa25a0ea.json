@@ -2,27 +2,50 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts",
   "title": "Czech local functionality - Multiple payables/receivables accounts",
-  "blob": "d41b771d16ba72fed86f7125e8ed451e081c7ad1",
-  "summary": "Multiple payables/receivables accounts in Czech localization allows users to change Customer and Vendor posting groups during transaction posting to record bad debt and other receivable/payable transactions in different GL accounts than specified in posting groups.",
+  "blob": "887ef6b9961b56594a486afbcd75053d0be12cf6",
+  "summary": "Multiple payables/receivables accounts allows users to post transactions to different general ledger accounts than the standard posting group specifies, using alternative posting groups instead of Czech-specific functionality.",
   "systems": [
-    "finance",
-    "sales",
-    "purchasing"
+    "finance"
   ],
   "topics": [
-    "czech localization",
-    "payables",
-    "receivables",
     "posting groups",
-    "customer",
-    "vendor"
+    "receivables",
+    "payables",
+    "customer ledger",
+    "vendor ledger",
+    "alternative posting groups"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales & Receivable Setup"
+    },
+    {
+      "type": "page",
+      "name": "Purchase & Payables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
+    }
+  ],
   "features": [
-    "multiple payables accounts",
-    "multiple receivables accounts",
-    "posting group override",
-    "bad debt posting"
+    "Allow Multiple Posting Groups toggle",
+    "Alternative Groups action",
+    "Alternative posting group selection on documents",
+    "Alternative posting group selection on journals"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +54,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002263,
-      "pages_in_call": 8
+      "cost_usd": 0.00336,
+      "pages_in_call": 1
     }
   ]
 }

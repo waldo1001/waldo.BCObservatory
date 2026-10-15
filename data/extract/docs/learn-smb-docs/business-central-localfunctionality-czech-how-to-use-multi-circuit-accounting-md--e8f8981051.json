@@ -1,26 +1,34 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting",
-  "title": "Czech local functionality - Multi circuit accounting",
-  "blob": "53065ce77180899c8da731e3e4f7854adcee63b2",
-  "summary": "Czech multi-circuit accounting feature allows posting transactions within multiple internal accounting areas (Financial, Off-Balance, Intercompany) using the G/L Account Group field to separate accounting areas.",
+  "title": "Use multi-circuit accounting [CZ]",
+  "blob": "3616fe47e6158ee2f87772216ded9ccbdc8fe743",
+  "summary": "Multi-circuit accounting in the Czech version allows posting transactions across Financial Accounting, Internal Accounting, and Off-Balance Accounting circuits. Set up accounting areas via the G/L Account Group field and use the G/L Account Group Posting Check report to verify existing postings.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "multi-circuit accounting",
-    "general ledger",
-    "accounting areas",
-    "czech",
-    "posting"
+    "czech localization",
+    "g/l accounts",
+    "accounting standards",
+    "financial accounting",
+    "internal accounting",
+    "off-balance accounting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "G/L Account Group Posting Check"
+    }
+  ],
   "features": [
+    "multi-circuit accounting",
     "G/L Account Group field",
-    "Financial accounting",
-    "Off-Balance accounting",
-    "Intercompany accounting"
+    "circuit validation",
+    "posting prevention for mixed circuits",
+    "posting check report"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.003199,
+      "pages_in_call": 1
     }
   ]
 }

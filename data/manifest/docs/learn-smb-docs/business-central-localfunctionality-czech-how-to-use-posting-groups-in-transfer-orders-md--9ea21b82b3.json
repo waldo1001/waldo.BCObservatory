@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.415Z",
-      "blob": "1bde9d6f133050fb0e517e9276690b9f949622e7",
-      "words": 111,
+      "at": "2026-10-15T00:29:54.636Z",
+      "blob": "103ea744cd3fd6c12fbbdc383d061e549a5ef1e6",
+      "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.080Z",
+      "at": "2026-10-15T00:30:04.467Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001801
+      "objects": 2,
+      "cost_usd": 0.003376
     },
     "summarized": {
-      "at": "2026-10-06T19:22:51.838Z",
+      "at": "2026-10-15T00:30:04.468Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:51.839Z",
+      "at": "2026-10-15T00:30:04.470Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:51.840Z",
+      "at": "2026-10-15T00:30:04.471Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md",
     "description": "The Transfer Orders feature includes fields for specifying General Business Posting Groups for both shipping and receiving postings.",
-    "ms_date": "2025-06-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 111,
+    "ai_usage": "ai-assisted",
+    "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ffd2d5b8ec33e22b83d37969524c7cea121734a572e966e74a29d61ec6408cdc"
+  "output_hash": "8c3f6e7cae49c879b1939a4cb7d17f22fb60d6250ea93b3b1ea56c5d709e2455"
 }

@@ -2,23 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements",
   "title": "Czech local functionality - G/L reconciliation enhancements",
-  "blob": "b0913213d9fcd5efacdc08bafecc9bb4a2837c16",
-  "summary": "Inventory - G/L reconciliation enhancements in the Czech version account for localized inventory posting with special rounding and WIP accounts.",
+  "blob": "e5cd9cff2ec6f465a80576ba5a065036b49da778",
+  "summary": "Czech localized inventory-G/L reconciliation enhancements that account for Czech-specific inventory posting accounts including an inventory rounding account and intermediate WIP account.",
   "systems": [
     "inventory",
+    "finance",
     "localization"
   ],
   "topics": [
     "czech",
+    "local functionality",
     "inventory",
-    "gl reconciliation",
-    "posting"
+    "reconciliation",
+    "g/l accounts",
+    "posting accounts"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Inventory – G/L Reconciliation"
+    }
+  ],
   "features": [
-    "Inventory – G/L Reconciliation modifications",
-    "Rounding account handling",
-    "WIP account enhancements"
+    "Inventory rounding account",
+    "Intermediate WIP account",
+    "Czech-specific accounts in reconciliation"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001504,
-      "pages_in_call": 7
+      "cost_usd": 0.002959,
+      "pages_in_call": 1
     }
   ]
 }
