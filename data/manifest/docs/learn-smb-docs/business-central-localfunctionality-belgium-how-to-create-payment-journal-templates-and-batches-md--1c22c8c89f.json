@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.915Z",
-      "blob": "0c1a8618157686bd54396ae14732a16427ae93d7",
-      "words": 420,
+      "at": "2026-10-15T00:27:41.370Z",
+      "blob": "c4bac7ea394557cca08ba12df383371cf518ae89",
+      "words": 421,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.648Z",
+      "at": "2026-10-15T00:27:47.614Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002324
+      "cost_usd": 0.003657
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.416Z",
+      "at": "2026-10-15T00:27:47.616Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.417Z",
+      "at": "2026-10-15T00:27:47.618Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.417Z",
+      "at": "2026-10-15T00:27:47.619Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md",
     "description": "Payment suggestions are generated and posted in payment journals, using a structure similar to other journal types.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -96,12 +96,12 @@
       "journal templates",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 420,
+    "ai_usage": "ai-assisted",
+    "words": 421,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ccb1aeabee7d44b3ccd00b322cc600386280522d6e8958d49ae96fb277ab7eb"
+  "output_hash": "6d70d41c0b0b2bf8e8f069cacf5470cedf42855ccd8b11ba5178235eb2fa6ca8"
 }

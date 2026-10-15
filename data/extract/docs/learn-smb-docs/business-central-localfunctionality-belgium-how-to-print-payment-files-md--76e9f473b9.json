@@ -2,35 +2,52 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-print-payment-files.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files",
   "title": "Export Payment Files in the Belgian Version",
-  "blob": "f4a7c9f93f4f37f11df413c46c344844dd4e4a10",
-  "summary": "Export payment files in Belgium converts payment journal lines into domestic, international, SEPA, or non-Euro SEPA payment files for bank transmission.",
+  "blob": "ae4a3989bd91d5ad1ec22bb2aa77238755919164",
+  "summary": "Export payment journal lines to payment files for domestic, international, SEPA, or non-Euro SEPA payments in the Belgian version, with file validation and automated vendor payment suggestions.",
   "systems": [
     "purchasing",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "payments",
-    "belgium",
-    "electronic banking",
-    "vendor payments"
+    "belgian electronic banking",
+    "payment export",
+    "payment journal",
+    "vendor payments",
+    "sepa payments",
+    "payment file formats"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "EB Payment Journal"
+      "name": "EB Payment Journals"
     },
     {
-      "type": "report",
+      "type": "page",
+      "name": "Suggest Vendor Payments EB"
+    },
+    {
+      "type": "page",
       "name": "Export Check Error Logs"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Ledger Entries"
+    },
+    {
+      "type": "page",
+      "name": "Vendor"
     }
   ],
   "features": [
-    "Payment file export",
-    "Export Protocol",
-    "Suggest Vendor Payments",
-    "Check Payment Lines",
-    "Export Payment Lines",
-    "Status Posted"
+    "export payment files",
+    "export protocols",
+    "payment validation",
+    "vendor payment suggestions",
+    "payment journal batches",
+    "error checking",
+    "payment file generation",
+    "automated payment processing"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002491,
-      "pages_in_call": 8
+      "cost_usd": 0.003984,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-export-to-accon.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon",
   "title": "Export to Accon [BE]",
-  "blob": "5de28c5650ca866cf45bdc74b7253885258f3439",
-  "summary": "Export general ledger account balances to a file compatible with ACCON Plus for annual income statement generation. Use the Link to Accon report for Belgian accounting compliance.",
+  "blob": "e8403879d6e9d0a5bf008ea97f53f95c0a3bfa5f",
+  "summary": "The Link to Accon report exports general ledger account balances to a file for importing into ACCON Plus to generate annual income statements in the Belgian version of Business Central.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
-    "reporting",
-    "export",
+    "belgium",
     "accon",
-    "ledger accounts",
-    "belgium"
+    "export",
+    "general ledger",
+    "reporting",
+    "localization"
   ],
   "objects": [
     {
@@ -23,9 +24,8 @@
   ],
   "features": [
     "Export to ACCON Plus",
-    "General ledger balances",
-    "Reporting currency selection",
-    "Period filtering"
+    "Show Amounts in Add. Reporting Currency",
+    "General ledger account balance export"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.002887,
+      "pages_in_call": 1
     }
   ]
 }

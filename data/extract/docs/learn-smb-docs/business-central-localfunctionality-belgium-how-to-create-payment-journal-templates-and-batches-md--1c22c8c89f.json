@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches",
   "title": "Payment Journal Templates and Batches [BE]",
-  "blob": "0c1a8618157686bd54396ae14732a16427ae93d7",
-  "summary": "Create payment journal templates and batches for generating and posting payment suggestions in Belgian electronic banking. Assign specific pages, test reports, source codes, and bank accounts to templates.",
+  "blob": "c4bac7ea394557cca08ba12df383371cf518ae89",
+  "summary": "Setting up payment journal templates and batches in the Belgian version of Business Central for managing domestic and international payments with specific bank accounts and source codes.",
   "systems": [
     "purchasing",
+    "finance",
     "localization"
   ],
   "topics": [
     "payment journals",
-    "electronic payments",
-    "belgium",
-    "payment suggestions"
+    "belgian localization",
+    "electronic banking",
+    "journal templates",
+    "journal batches"
   ],
   "objects": [
     {
@@ -21,16 +23,16 @@
     },
     {
       "type": "page",
-      "name": "Paym. Journal Batch"
+      "name": "EB Payment Journal Batches"
     }
   ],
   "features": [
-    "Payment journal templates",
-    "Payment journal batches",
-    "Page ID assignment",
-    "Test Report ID assignment",
-    "Source code tracking",
-    "Bank account assignment"
+    "payment journal templates",
+    "payment journal batches",
+    "bank account assignment",
+    "source code tracking",
+    "page customization",
+    "test reports"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.003657,
+      "pages_in_call": 1
     }
   ]
 }

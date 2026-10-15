@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.936Z",
-      "blob": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
-      "words": 351,
+      "at": "2026-10-15T00:27:47.628Z",
+      "blob": "52105e7359cd166974c976cfcbf6773c5739f713",
+      "words": 353,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.445Z",
+      "at": "2026-10-15T00:27:55.101Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.002491
+      "cost_usd": 0.004027
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.456Z",
+      "at": "2026-10-15T00:27:55.102Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.457Z",
+      "at": "2026-10-15T00:27:55.104Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.463Z",
+      "at": "2026-10-15T00:27:55.105Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md",
     "description": "You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "VAT manual correction",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 351,
+    "ai_usage": "ai-assisted",
+    "words": 353,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "239a9b13d1521ea96e8578627b90c84e034cddec1fdb6791c213914ae064b193"
+  "output_hash": "0e74fcf0a734813898cf4ad4f447330f3f05645d3ec3b641f27233f3ee5f6f56"
 }

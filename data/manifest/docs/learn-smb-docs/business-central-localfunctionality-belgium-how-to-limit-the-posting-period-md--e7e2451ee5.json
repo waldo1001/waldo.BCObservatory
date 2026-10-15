@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.932Z",
-      "blob": "13b3abf988214e2586af4f05d71b92a4ced400d2",
-      "words": 444,
+      "at": "2026-10-15T00:27:47.560Z",
+      "blob": "9b6d5cedbeeb4fa3be16d447e88baf85fc5901e5",
+      "words": 448,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.652Z",
+      "at": "2026-10-15T00:27:55.116Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.002324
+      "cost_usd": 0.003921
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.428Z",
+      "at": "2026-10-15T00:27:55.118Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.429Z",
+      "at": "2026-10-15T00:27:55.119Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.430Z",
+      "at": "2026-10-15T00:27:55.120Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period.md",
     "description": "Understand the methods to limit the posting period at three distinct levels - company-wide, user-specific, and template-based.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "purchase journal",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 444,
+    "ai_usage": "ai-assisted",
+    "words": 448,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "abd9f765abdfd04aa74a6421f0eb8341836532f015f61361addafeb4bd737ab7"
+  "output_hash": "c29e4d5d3055c5b99f9eea623ce5989f259039b2b3672611ae27aa41c75ec1c8"
 }

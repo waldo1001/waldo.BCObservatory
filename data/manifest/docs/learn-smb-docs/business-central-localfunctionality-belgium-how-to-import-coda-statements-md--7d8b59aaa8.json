@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-import-coda-statements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.928Z",
-      "blob": "82ab3b56458612268cf1f6b17bc8ed443911f383",
-      "words": 139,
+      "at": "2026-10-15T00:27:46.503Z",
+      "blob": "e67d568604b007f6b2957019fb848204d398b9de",
+      "words": 130,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.651Z",
+      "at": "2026-10-15T00:27:51.331Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002324
+      "objects": 0,
+      "cost_usd": 0.003034
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.424Z",
+      "at": "2026-10-15T00:27:51.333Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.425Z",
+      "at": "2026-10-15T00:27:51.335Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.427Z",
+      "at": "2026-10-15T00:27:51.336Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-import-coda-statements.md",
     "description": "Import your bank's CODA statement into Business Central using Import CODA File.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CODA import",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 139,
+    "ai_usage": "ai-assisted",
+    "words": 130,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6eb1a8e5124aa86fc3865ff17ef2b33fcf362be0279d31850059927c3d9687b4"
+  "output_hash": "4a2750c49a5a717238284d34131e7fec085df10ff4335dda6c32ececcf48e9ed"
 }

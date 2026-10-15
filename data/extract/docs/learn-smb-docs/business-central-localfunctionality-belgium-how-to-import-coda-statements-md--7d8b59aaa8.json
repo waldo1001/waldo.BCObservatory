@@ -2,26 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-import-coda-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-import-coda-statements",
   "title": "How to Import CODA Statements [BE]",
-  "blob": "82ab3b56458612268cf1f6b17bc8ed443911f383",
-  "summary": "Import CODA statements from your Belgian bank into Business Central. Use this to begin the CODA reconciliation process after bank account setup.",
+  "blob": "e67d568604b007f6b2957019fb848204d398b9de",
+  "summary": "Import CODA bank statements from your Belgian bank into Business Central by selecting a bank account and importing the CODA file, then process the statement lines.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "coda",
-    "bank statements",
-    "import",
-    "belgium"
+    "coda statements",
+    "bank accounts",
+    "belgian functionality",
+    "bank reconciliation",
+    "statement import"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Bank Accounts"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Import CODA File",
+    "Import CODA File action",
+    "bank account setup for CODA",
     "CODA statement processing"
   ],
   "versions": [],
@@ -31,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.003034,
+      "pages_in_call": 1
     }
   ]
 }

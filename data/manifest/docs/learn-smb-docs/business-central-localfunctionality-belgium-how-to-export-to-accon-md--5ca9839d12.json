@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.919Z",
-      "blob": "5de28c5650ca866cf45bdc74b7253885258f3439",
+      "at": "2026-10-15T00:27:41.507Z",
+      "blob": "e8403879d6e9d0a5bf008ea97f53f95c0a3bfa5f",
       "words": 151,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:28.650Z",
+      "at": "2026-10-15T00:27:47.528Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002324
+      "cost_usd": 0.002887
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.418Z",
+      "at": "2026-10-15T00:27:47.529Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.419Z",
+      "at": "2026-10-15T00:27:47.531Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.420Z",
+      "at": "2026-10-15T00:27:47.532Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-export-to-accon.md",
     "description": "Learn how to export the link to the Accon report. This link lets you create a file that can be imported into ACCON Plus for generating an annual income statement.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Accon plus",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 151,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c9a08587e2eadd5e5c2153cd201391a3c7f64173de2a28644ce45ce9c84f3587"
+  "output_hash": "0925e7ea60f76d43e2c001411e3712793090d8da292c9efdbfe448055a2cbf60"
 }

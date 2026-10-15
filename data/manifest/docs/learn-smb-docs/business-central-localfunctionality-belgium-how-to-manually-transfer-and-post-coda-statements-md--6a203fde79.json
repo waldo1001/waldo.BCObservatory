@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.941Z",
-      "blob": "71361ac1bd93fcbf4a3d63498818ec08dd579849",
+      "at": "2026-10-15T00:27:47.693Z",
+      "blob": "28533ec664fee8b48de227c2eb98bab006af34f7",
       "words": 160,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.446Z",
+      "at": "2026-10-15T00:27:55.083Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002491
+      "cost_usd": 0.005648
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.473Z",
+      "at": "2026-10-15T00:27:55.084Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.482Z",
+      "at": "2026-10-15T00:27:55.087Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.491Z",
+      "at": "2026-10-15T00:27:55.089Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md",
     "description": "After applying and processing all CODA statement lines, you can manually transfer them to a financial journal.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "financial journal",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 160,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "595169367a728e51dfa3bd023e2bede115f1fa42c9ec74ec9c11397c1660644f"
+  "output_hash": "d90fcef130f2f2d12c65587e42406a2c70b62c79a64bb9841d7fefbfa1d84b57"
 }

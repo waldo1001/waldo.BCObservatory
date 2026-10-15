@@ -2,24 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation",
   "title": "Belgian Direct Debit Using Domiciliation [BE]",
-  "blob": "78f0ac1b682aca0c6322930cafd5eee0a3b46c0b",
-  "summary": "Belgian direct debit domiciliation process for automatic payment collection from domestic customers, including setup, suggestion generation, testing, and file export.",
+  "blob": "4b29aa02e2ab9f37ce3c3dc9fe21718af2f062f6",
+  "summary": "Belgian Direct Debit Using Domiciliation allows companies to automatically collect customer payments through domiciliation agreements, a financial arrangement specific to domestic customers with domestic bank accounts.",
   "systems": [
     "finance",
-    "sales",
     "localization"
   ],
   "topics": [
-    "belgian localization",
     "direct debit",
     "domiciliation",
+    "electronic banking",
+    "belgium",
     "payment collection",
-    "domestic customers"
+    "customer setup"
   ],
   "objects": [
     {
       "type": "page",
+      "name": "Customers"
+    },
+    {
+      "type": "page",
       "name": "Domiciliation Journal"
+    },
+    {
+      "type": "page",
+      "name": "Domiciliation Journals"
+    },
+    {
+      "type": "page",
+      "name": "Create Gen. Jnl. Lines"
+    },
+    {
+      "type": "page",
+      "name": "File Domiciliations"
+    },
+    {
+      "type": "page",
+      "name": "Bank Account Card"
     },
     {
       "type": "report",
@@ -27,14 +47,14 @@
     }
   ],
   "features": [
-    "Domiciliation number",
-    "Preferred bank account",
-    "Domiciliation suggestions",
-    "Payment discount handling",
-    "Refund selection",
-    "Domiciliation testing",
-    "SEPA Direct Debit export",
-    "ISABEL format"
+    "Domiciliation number setup",
+    "Preferred bank account assignment",
+    "Domiciliation suggestions generation",
+    "Journal line editing and deletion",
+    "Domiciliation testing and validation",
+    "File export and posting",
+    "SEPA Direct Debit format support",
+    "ISABEL format support"
   ],
   "versions": [],
   "parts": 1,
@@ -43,8 +63,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.00566,
+      "pages_in_call": 1
     }
   ]
 }

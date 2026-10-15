@@ -2,29 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals",
   "title": "Create Financial Journals [BE]",
-  "blob": "474c4827a692aefa4847f7c7e4b647f5f74aa887",
-  "summary": "Set up financial journals to record bank account transactions with automatic starting and ending balance reconciliation. Use this when creating journals to handle CODA statements in Belgium.",
+  "blob": "d01f91c7d0ead1deee10e43aec5b0f3bd78274db",
+  "summary": "Creating financial journals in the Belgian version of Business Central for registering bank account transactions with automatic balance verification.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "journal templates",
     "financial journals",
     "bank transactions",
-    "belgium"
+    "balance verification",
+    "belgian functionality",
+    "journal templates"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Journal Templates"
-    }
-  ],
+  "objects": [],
   "features": [
-    "Journal type selection",
-    "Balancing account configuration",
-    "Starting balance",
-    "Ending balance",
+    "Financial journal type",
+    "Bank account balancing",
+    "Starting balance entry",
+    "Ending balance entry",
     "Automatic difference calculation"
   ],
   "versions": [],
@@ -34,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.002722,
+      "pages_in_call": 1
     }
   ]
 }

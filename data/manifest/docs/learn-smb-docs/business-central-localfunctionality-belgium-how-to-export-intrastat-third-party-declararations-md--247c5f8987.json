@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.423Z",
-      "blob": "c16ac09e6cb3814449b8985f1229b2136c86c463",
-      "words": 213,
+      "at": "2026-10-15T00:27:41.413Z",
+      "blob": "c46fe55135a74c1d9323f76c59afd188133dd01f",
+      "words": 274,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:25:52.615Z",
+      "at": "2026-10-15T00:27:48.834Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002583
+      "objects": 2,
+      "cost_usd": 0.003751
     },
     "summarized": {
-      "at": "2026-10-06T19:25:52.652Z",
+      "at": "2026-10-15T00:27:48.836Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:25:52.653Z",
+      "at": "2026-10-15T00:27:48.838Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:25:52.654Z",
+      "at": "2026-10-15T00:27:48.844Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md",
     "description": "In Belgium, an external person or company must fill out the Intrastat declaration.",
-    "ms_date": "2025-04-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "intrastat declaration",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 213,
+    "ai_usage": "ai-assisted",
+    "words": 274,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b8507a361a527b36c36897c84ec617e3f82d0445bfed51122839e3c6ff2a1e5a"
+  "output_hash": "72981482e39bc14cdd33810d2674b19666aa6eeb4a98a49178e6a93c3b63ec17"
 }

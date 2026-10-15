@@ -2,23 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers",
   "title": "Enterprise Numbers and Branch Numbers [BE]",
-  "blob": "45bfa845c06ad683040bdbd9cc08e41434543eba",
-  "summary": "Belgian enterprise numbers and branch numbers assigned by the Crossroads Bank for Enterprises, used for identification in business documents and correspondence.",
+  "blob": "e7d0124aa4eea6a828adf50bc14cfe4f9a2ca775",
+  "summary": "Enterprise numbers and branch numbers are unique identifiers issued by Belgian authorities to identify companies and their business locations. The page explains how to set up and validate these numbers in Business Central using modulo-97 checks and where they appear in documents.",
   "systems": [
     "localization",
     "administration"
   ],
   "topics": [
-    "belgian localization",
+    "belgium",
     "enterprise number",
     "branch number",
-    "company identification",
-    "administrative compliance"
+    "validation",
+    "company setup"
   ],
   "objects": [
     {
       "type": "table",
       "name": "Company Information"
+    },
+    {
+      "type": "table",
+      "name": "Contact"
     },
     {
       "type": "table",
@@ -31,17 +35,16 @@
     {
       "type": "table",
       "name": "Location"
-    },
-    {
-      "type": "page",
-      "name": "Contact"
     }
   ],
   "features": [
-    "Enterprise number",
-    "Branch number",
-    "VAT registration number",
-    "Document printing"
+    "Enterprise No. field validation",
+    "Branch No. field validation",
+    "Modulo-97 check",
+    "Enterprise number printing on sales documents",
+    "Enterprise number printing on purchase documents",
+    "Enterprise number printing on financial statements",
+    "Intrastat forms and files"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003095,
-      "pages_in_call": 8
+      "cost_usd": 0.004038,
+      "pages_in_call": 1
     }
   ]
 }
