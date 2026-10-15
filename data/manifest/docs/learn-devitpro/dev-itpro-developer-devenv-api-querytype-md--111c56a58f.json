@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.172Z",
-      "blob": "86fc26304a694abd42e7b7fa7454bc6b788df83a",
-      "words": 156,
+      "at": "2026-10-15T00:25:57.683Z",
+      "blob": "9f52b5856d5b2340e48efb92c2aa20a8873599b5",
+      "words": 159,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:32:30.798Z",
+      "at": "2026-10-15T00:26:01.939Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.008967
+      "cost_usd": 0.003595
     },
     "summarized": {
-      "at": "2026-10-06T13:32:30.856Z",
+      "at": "2026-10-15T00:26:01.941Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:32:30.856Z",
+      "at": "2026-10-15T00:26:01.942Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:32:30.857Z",
+      "at": "2026-10-15T00:26:01.943Z",
       "page": false
     }
   },
@@ -50,7 +50,7 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 156,
+    "words": 159,
     "identifiers": [
       "APIVersion"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d7c15b7e3c88ee5a794b255e4a186c8690f9319c4e7a5320c34e7e32713fca47"
+  "output_hash": "41d22b50846173a244442d3d9430e16273792be3f1a71bf9e3e672f33faba863"
 }

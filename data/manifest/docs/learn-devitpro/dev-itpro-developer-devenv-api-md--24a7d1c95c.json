@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "API developer overview",
+  "title": "Develop APIs with Pages and Queries",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:18.182Z",
-      "blob": "f42818a5f438b2f292a5432249a4c34b48a8eb02",
-      "words": 388,
+      "at": "2026-10-15T00:25:59.328Z",
+      "blob": "c6af6d19cff3a0cec619766cd4e2dffa664ead3a",
+      "words": 390,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:32:55.327Z",
+      "at": "2026-10-15T00:26:05.909Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.006766
+      "cost_usd": 0.004107
     },
     "summarized": {
-      "at": "2026-10-06T13:32:55.329Z",
+      "at": "2026-10-15T00:26:05.911Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:32:55.329Z",
+      "at": "2026-10-15T00:26:05.912Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:32:55.329Z",
+      "at": "2026-10-15T00:26:05.913Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-api.md",
-    "description": "Use APIs to expose information from the database into versioned, OData v4 enabled REST web services.",
-    "ms_date": "2025-02-07",
+    "description": "Learn how to develop custom Business Central APIs with API pages and API queries, and find guidance for performance and troubleshooting.",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 388,
+    "words": 390,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9349d7034aba63782ec35bdbdb5536df8c54e542f385b08335d41c51312b0000"
+  "output_hash": "f5fa098341da25bd610931ada513b58d19752e4889063011b9ba2039eeb39f89"
 }

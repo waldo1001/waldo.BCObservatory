@@ -2,27 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/app-faq-update.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update",
   "title": "FAQ about Updating your Business Central App",
-  "blob": "0e3ea4d7e7dddd98304eec203ef3ecdcb285b363",
-  "summary": "Updating your Business Central app FAQ explains the submission process for app updates, version numbering requirements, compatibility handling, and automatic updates.",
+  "blob": "04e072314a51d948aacd350b049efe98d7d03521",
+  "summary": "Guidance on updating apps for Business Central, covering version management, validation processes, tenant compatibility, and app update cadences. Use this for understanding how to submit app updates, manage versions, and handle app lifecycle in the marketplace.",
   "systems": [
     "development",
+    "integration",
     "administration"
   ],
   "topics": [
     "app updates",
     "marketplace",
     "version management",
-    "app compatibility",
-    "upgrade cadence"
+    "app validation",
+    "partner center",
+    "compatibility",
+    "app lifecycle",
+    "hotfixes"
   ],
   "objects": [],
   "features": [
-    "version numbering",
-    "app identity preservation",
-    "compatibility configuration",
-    "automatic updates",
-    "admin center management",
-    "hotfix process"
+    "app version numbering",
+    "Partner Center submission",
+    "validation process",
+    "app update cadence",
+    "automatic app updates",
+    "library app dependencies",
+    "critical hotfixes",
+    "Manage Apps page"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003157,
-      "pages_in_call": 8
+      "cost_usd": 0.004497,
+      "pages_in_call": 1
     }
   ]
 }

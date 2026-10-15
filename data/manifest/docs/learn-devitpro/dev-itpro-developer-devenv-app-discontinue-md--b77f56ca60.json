@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Discontinuing a Marketplace app",
+  "title": "Discontinuing a Marketplace App",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.056Z",
-      "blob": "49f2f9cf9e5d7d2c357dc6b80232f7f802ecd50f",
-      "words": 498,
+      "at": "2026-10-15T00:26:02.221Z",
+      "blob": "fd04f1ef2604a6cd9add283d0cbb8e269330c319",
+      "words": 514,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:37.591Z",
+      "at": "2026-10-15T00:26:06.292Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004736
+      "cost_usd": 0.003299
     },
     "summarized": {
-      "at": "2026-10-06T18:48:37.637Z",
+      "at": "2026-10-15T00:26:06.295Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:37.643Z",
+      "at": "2026-10-15T00:26:06.297Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:37.644Z",
+      "at": "2026-10-15T00:26:06.299Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-app-discontinue.md",
-    "description": "Learn how to discontinue an app that is available on Marketplace.",
-    "ms_date": "2025-03-13",
+    "description": "Learn how to stop distributing a Marketplace app, notify existing customers, preserve support during the wind-down, and manage installations.",
+    "ms_date": "2026-10-09",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 498,
+    "words": 514,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f538d1e0203b396f7440ef2f77ab0fe27b27fd6c594f13338c849ffd7a4ccd5f"
+  "output_hash": "c109f6e703384f9335565b8482e0dfb3e1e1c6fed32e44da195ad77e5017dc36"
 }

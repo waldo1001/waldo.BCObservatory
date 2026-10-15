@@ -2,33 +2,35 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-api-querytype.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-querytype",
   "title": "API query type",
-  "blob": "86fc26304a694abd42e7b7fa7454bc6b788df83a",
-  "summary": "API query type generates web service endpoints for joining data from different sources in read-only mode with OData v4 support.",
+  "blob": "9f52b5856d5b2340e48efb92c2aa20a8873599b5",
+  "summary": "API query type is used to generate web service endpoints that join data from different sources and expose it as read-only APIs with specified publisher, group, and version properties.",
   "systems": [
     "integration",
     "development"
   ],
   "topics": [
-    "api query",
+    "api",
+    "query",
     "web service",
-    "odata",
-    "rest",
-    "query object",
-    "data join"
+    "endpoint",
+    "data integration"
   ],
   "objects": [
     {
       "type": "query",
-      "name": "API query type"
+      "name": "APIV1 - Customer Sales"
     }
   ],
   "features": [
-    "API queries",
-    "data joining",
-    "OData v4",
-    "read-only access",
-    "versioning",
-    "web service endpoints"
+    "API query type",
+    "web service endpoint generation",
+    "multi-source data joining",
+    "read-only data access",
+    "APIPublisher property",
+    "APIGroup property",
+    "APIVersion property",
+    "EntityName property",
+    "EntitySetName property"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008967,
-      "pages_in_call": 3
+      "cost_usd": 0.003595,
+      "pages_in_call": 1
     }
   ]
 }

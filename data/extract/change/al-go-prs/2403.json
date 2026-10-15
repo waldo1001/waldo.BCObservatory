@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2403",
+  "number": 2403,
+  "title": "Fix dependency filenames containing commas",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Fixed handling of dependency filenames with commas by casting install app parameters to arrays before passing them to the pipeline, preventing incorrect path splitting by BCContainerHelper.",
+  "key_points": [
+    "Filenames containing commas were split into multiple paths when processed as strings",
+    "Added explicit array casting for installApps and installTestApps parameters",
+    "Download Project Dependencies now validates resolved files with Test-Path before output",
+    "Missing files generate warnings with full paths but do not break the process",
+    "Added comprehensive unit tests covering literal filenames, test-app markers, and error cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003676,
+    "changes_in_call": 1
+  }
+}

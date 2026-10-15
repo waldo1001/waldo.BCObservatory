@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12217,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12217",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T06:14:49Z",
+  "merge_commit_sha": "47a69e38bcc76058df6fedb88f1648ea3475174d",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Outgoing Payment Report Employee Payments Missing",
+  "body_hash": "f5a29a39ae8177ec8c51941e40fb95642a456c7a7c7ff5a8b9a18f110736d059",
+  "fixes_issues": [],
+  "work_items": [
+    650708
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentJournal.Report.al",
+      "status": "modified",
+      "additions": 133,
+      "deletions": 111,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentJournal.rdlc",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Local/CHDTAReports.Codeunit.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 20,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 220,
+    "deletions": 132,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/CH/BaseApp/Local/Bank/Payment/DTAPaymentJournal.Report.al",
+        "status": "modified",
+        "key": "report/3010545",
+        "type": "report",
+        "id": 3010545,
+        "name": "DTA Payment Journal",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "report/3010545-ch"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

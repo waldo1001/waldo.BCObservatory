@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Export and package analysis views",
+  "title": "Export and Package Analysis Views",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.417Z",
-      "blob": "d690705d6cc85912a9cf83c6449e0316aa252bfd",
-      "words": 739,
+      "at": "2026-10-15T00:25:55.590Z",
+      "blob": "5b1733d9aacd136cf35fe4406f42f8cdf2c9bc72",
+      "words": 719,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:51.908Z",
+      "at": "2026-10-15T00:26:02.667Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.004703
+      "objects": 4,
+      "cost_usd": 0.009742
     },
     "summarized": {
-      "at": "2026-10-06T18:43:57.994Z",
+      "at": "2026-10-15T00:26:02.670Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:57.995Z",
+      "at": "2026-10-15T00:26:02.672Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:57.996Z",
+      "at": "2026-10-15T00:26:05.900Z",
       "page": false
     }
   },
@@ -44,13 +44,13 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-analysis-view-package.md",
-    "description": "Learn how to export analysis views from Analysis Mode and package them as part of AL extensions in Business Central.",
-    "ms_date": "2026-02-27",
+    "description": "Learn how to export analysis views from Analysis Mode, add their definitions to AL projects, and package them in Business Central extensions.",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 739,
+    "words": 719,
     "identifiers": [
       "DefinitionFile"
     ],
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb20f93e45d28df69d013f5a9d2764b4d85c9c8d795239f67970cd19fc665eaf"
+  "output_hash": "9be3851ded2db3dab85c06181509c0aca8cee4ed614968d0c650ebe39d1aabf0"
 }

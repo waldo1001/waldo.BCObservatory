@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server",
   "title": "Configure Business Central MCP Server",
-  "blob": "4f0444e6a20e9c2a6e0f0a809b27a8d76c87d80b",
-  "summary": "The Business Central MCP Server enables AI clients to connect to environments and perform record operations, actions, and data queries through configurable API tools. Configure MCP server settings, available APIs, dynamic tool mode, and data query tools to control what agents can access and modify.",
+  "blob": "5660796357f4c7ea45786b9028c43974b0667fa9",
+  "summary": "Configure the Business Central MCP Server to enable AI agents to connect to your environment and perform read, create, modify, delete, and action operations on Business Central data through API pages and queries. Administrators set up configurations that define which APIs agents can access and what operations they're permitted.",
   "systems": [
     "copilot",
     "integration",
@@ -11,11 +11,12 @@
   ],
   "topics": [
     "mcp server",
+    "ai agents",
     "api configuration",
-    "agent tools",
+    "model context protocol",
+    "permissions",
     "dynamic tool mode",
-    "data query tools",
-    "permissions"
+    "data query tools"
   ],
   "objects": [
     {
@@ -28,10 +29,10 @@
     "Dynamic Tool Mode",
     "Data Query Tools",
     "API object discovery",
-    "Read/Create/Modify/Delete/Action permissions",
-    "Configuration export/import",
-    "Connection string generation",
-    "Configuration validation"
+    "read-only object discovery",
+    "action operations",
+    "configuration validation",
+    "export and import"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.016413,
-      "pages_in_call": 2
+      "cost_usd": 0.014967,
+      "pages_in_call": 1
     }
   ]
 }

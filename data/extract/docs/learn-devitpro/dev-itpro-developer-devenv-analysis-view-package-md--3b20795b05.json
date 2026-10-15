@@ -1,42 +1,45 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-analysis-view-package.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package",
-  "title": "Export and package analysis views",
-  "blob": "d690705d6cc85912a9cf83c6449e0316aa252bfd",
-  "summary": "Shows how to export analysis view definitions from the client and package them in AL extensions for distribution. Use this to create custom data analysis layouts and include them in apps.",
+  "title": "Export and Package Analysis Views",
+  "blob": "5b1733d9aacd136cf35fe4406f42f8cdf2c9bc72",
+  "summary": "Package analysis views in AL extensions by exporting JSON definitions from Analysis Mode and referencing them in page, pageextension, or pagecustomization objects using the analysisviews construct.",
   "systems": [
     "development",
     "reporting"
   ],
   "topics": [
     "analysis views",
-    "extensions",
-    "al development",
-    "data layout",
-    "json export"
+    "al extensions",
+    "json definitions",
+    "page objects",
+    "analysis mode"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "page"
+      "name": "ListPageWithAnalysisView"
     },
     {
-      "type": "page",
-      "name": "pageextension"
+      "type": "other",
+      "name": "MyExtension"
     },
     {
-      "type": "page",
-      "name": "pagecustomization"
+      "type": "other",
+      "name": "MyCust"
+    },
+    {
+      "type": "other",
+      "name": "MyProfileExt"
     }
   ],
   "features": [
-    "analysis mode",
-    "view export",
-    "json definition",
     "analysisviews construct",
     "DefinitionFile property",
-    "locked analysis views",
-    "page customizations for profiles"
+    "Analysis Mode editor",
+    "packaged analysis views",
+    "page customization for profiles",
+    "locked read-only views"
   ],
   "versions": [],
   "parts": 1,
@@ -45,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004703,
-      "pages_in_call": 8
+      "cost_usd": 0.009742,
+      "pages_in_call": 1
     }
   ]
 }

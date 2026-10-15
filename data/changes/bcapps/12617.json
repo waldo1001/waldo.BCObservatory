@@ -1,0 +1,441 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12617,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12617",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-13T13:49:23Z",
+  "merge_commit_sha": "f55aef7041c5c626dc4d41286dc568dfd5899016",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "[Security] Move URL checks from Web Request Helper to System Application Uri module",
+  "body_hash": "3ea8ff2ec01a007fc07f38387b60b364fe26ed1f10277715d265c3e57d0ad7a3",
+  "fixes_issues": [],
+  "work_items": [
+    647963
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/SOAPWSRequestManagementCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeBankServiceSetup.Table.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Connection/ElecVATConnectionMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Pages/AMCBankAssistedSetup.Page.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Tables/AMCBankingSetup.Table.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Graph/ImportExpenseUser.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/codeunits/MSPayPalStandardMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Bank/Setup/PaymentReportingArgument.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Interaction/InteractionLogEntry.Table.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/CurrExchRateUpdateSetup.Table.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/FileOperations/FileManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Modules/System/WebRequest/WebRequestHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 22,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/SupportContactInformation.Table.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/OAuth/OAuth20Setup.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/SOAPWebServiceRequestMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowStepArgument.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/DocExchServiceSetup.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 19,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/App/URI/src/Uri.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test/URI/src/UriTest.Codeunit.al",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 22,
+    "additions": 281,
+    "deletions": 113,
+    "al": 21
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/CoreLocalizationPack/app/Src/Codeunits/SOAPWSRequestManagementCZL.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31031",
+        "type": "codeunit",
+        "id": 31031,
+        "name": "SOAP WS Request Management CZL",
+        "app": "CoreLocalizationPack",
+        "cc": "cz",
+        "page": "codeunit/31031-cz"
+      },
+      {
+        "path": "src/Apps/NA/EnvestnetYodleeBankFeeds/app/src/MSYodleeBankServiceSetup.Table.al",
+        "status": "modified",
+        "key": "table/1450",
+        "type": "table",
+        "id": 1450,
+        "name": "MS - Yodlee Bank Service Setup",
+        "app": "EnvestnetYodleeBankFeeds",
+        "cc": "ca",
+        "page": "table/1450-ca"
+      },
+      {
+        "path": "src/Apps/NO/ElectronicVATSubmission/app/src/Connection/ElecVATConnectionMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10687",
+        "type": "codeunit",
+        "id": 10687,
+        "name": "Elec. VAT Connection Mgt.",
+        "app": "ElectronicVATSubmission",
+        "cc": "no",
+        "page": "codeunit/10687-no"
+      },
+      {
+        "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Pages/AMCBankAssistedSetup.Page.al",
+        "status": "modified",
+        "key": "page/20105",
+        "type": "page",
+        "id": 20105,
+        "name": "AMC Bank Assisted Setup",
+        "app": "AMCBanking365Fundamentals",
+        "cc": "w1",
+        "page": "page/20105"
+      },
+      {
+        "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Tables/AMCBankingSetup.Table.al",
+        "status": "modified",
+        "key": "table/20101",
+        "type": "table",
+        "id": 20101,
+        "name": "AMC Banking Setup",
+        "app": "AMCBanking365Fundamentals",
+        "cc": "w1",
+        "page": "table/20101"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Graph/ImportExpenseUser.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6905",
+        "type": "codeunit",
+        "id": 6905,
+        "name": "Import Expense User",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6905"
+      },
+      {
+        "path": "src/Apps/W1/PayPalPaymentsStandard/app/src/codeunits/MSPayPalStandardMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1070",
+        "type": "codeunit",
+        "id": 1070,
+        "name": "MS - PayPal Standard Mgt.",
+        "app": "PayPalPaymentsStandard",
+        "cc": "w1",
+        "page": "codeunit/1070"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1803",
+        "type": "page",
+        "id": 1803,
+        "name": "Assisted Company Setup Wizard",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/1803"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Bank/Setup/PaymentReportingArgument.Table.al",
+        "status": "modified",
+        "key": "table/1062",
+        "type": "table",
+        "id": 1062,
+        "name": "Payment Reporting Argument",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1062"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Interaction/InteractionLogEntry.Table.al",
+        "status": "modified",
+        "key": "table/5065",
+        "type": "table",
+        "id": 5065,
+        "name": "Interaction Log Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5065"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/CurrExchRateUpdateSetup.Table.al",
+        "status": "modified",
+        "key": "table/1650",
+        "type": "table",
+        "id": 1650,
+        "name": "Curr. Exch. Rate Update Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1650"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/FileOperations/FileManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/419",
+        "type": "codeunit",
+        "id": 419,
+        "name": "File Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/419"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Modules/System/WebRequest/WebRequestHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1299",
+        "type": "codeunit",
+        "id": 1299,
+        "name": "Web Request Helper",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1299"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/SupportContactInformation.Table.al",
+        "status": "modified",
+        "key": "table/9165",
+        "type": "table",
+        "id": 9165,
+        "name": "Support Contact Information",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/9165"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/OAuth/OAuth20Setup.Table.al",
+        "status": "modified",
+        "key": "table/1140",
+        "type": "table",
+        "id": 1140,
+        "name": "OAuth 2.0 Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1140"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/SOAPWebServiceRequestMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1290",
+        "type": "codeunit",
+        "id": 1290,
+        "name": "SOAP Web Service Request Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1290"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/Workflow/WorkflowStepArgument.Table.al",
+        "status": "modified",
+        "key": "table/1523",
+        "type": "table",
+        "id": 1523,
+        "name": "Workflow Step Argument",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1523"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/1803",
+        "type": "page",
+        "id": 1803,
+        "name": "Assisted Company Setup Wizard",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1803"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/DocExchServiceSetup.Table.al",
+        "status": "modified",
+        "key": "table/1275",
+        "type": "table",
+        "id": 1275,
+        "name": "Doc. Exch. Service Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1275"
+      },
+      {
+        "path": "src/System Application/App/URI/src/Uri.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/3060",
+        "type": "codeunit",
+        "id": 3060,
+        "name": "Uri",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/3060"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/GB/BaseApp/Utilities/AssistedCompanySetupWizard.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "integration",
+    "development",
+    "platform",
+    "administration",
+    "copilot",
+    "crm"
+  ],
+  "apps": [
+    "AMCBanking365Fundamentals",
+    "Base Application",
+    "CoreLocalizationPack",
+    "ElectronicVATSubmission",
+    "EnvestnetYodleeBankFeeds",
+    "ExpenseAgent",
+    "PayPalPaymentsStandard",
+    "System Application"
+  ]
+}

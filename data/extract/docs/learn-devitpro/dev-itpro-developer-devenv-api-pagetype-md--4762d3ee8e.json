@@ -2,35 +2,35 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-api-pagetype.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype",
   "title": "API page type",
-  "blob": "ea39877c9d36c7470f109b31c736009561b0d70d",
-  "summary": "API page type creates versioned, webhook-supported OData v4 REST web services for reliable integration services with support for create, read, update, and delete operations.",
+  "blob": "eb3f197043b6ea9bd2cdd52379b8be7566f9c74d",
+  "summary": "API page type creates versioned, webhook-supported, OData v4 enabled REST web services for reliable integration services. Use this when developing custom APIs that require create, read, update, and delete operations.",
   "systems": [
     "integration",
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
-    "api page",
-    "web service",
-    "odata",
-    "rest",
+    "api page type",
+    "rest web services",
+    "odata v4",
     "custom api",
-    "integration"
+    "page object"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "API page type"
+      "name": "MyCustomerApi"
     }
   ],
   "features": [
-    "API pages",
-    "OData v4",
+    "OData v4 enabled REST web services",
     "webhook support",
-    "CRUD operations",
     "versioning",
-    "InsertAllowed",
-    "ModifyAllowed",
-    "DeleteAllowed"
+    "create, read, update, delete operations",
+    "InsertAllowed property",
+    "ModifyAllowed property",
+    "DeleteAllowed property",
+    "ReadIsolation for committed data"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008967,
-      "pages_in_call": 3
+      "cost_usd": 0.004093,
+      "pages_in_call": 1
     }
   ]
 }

@@ -6,10 +6,18 @@
   "title": "Private/t tmikula/aggregate lines deadlock",
   "url": "https://github.com/microsoft/BCApps/pull/10810",
   "published_at": "2026-10-13T13:49:23Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-14T00:20:24.304Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:56.332Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "266f7d353df2713b4d83b8f01974fd41ba6ff2cc:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "private t tmikula aggregate lines deadlock"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b88cbf1f56ed834d14b1a217fe83627b577a741b1733d1725ad63393206ae17d"
 }

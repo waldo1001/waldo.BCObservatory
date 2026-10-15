@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12377,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12377",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-13T11:43:22Z",
+  "merge_commit_sha": "dd18edd51448a78df4e31843f84fd1263537d930",
+  "author": "MSNehaNawal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] Bug 653097 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.",
+  "body_hash": "dc2c146547e6424550b8eb18656888ee36378b26175a7f8177c57b4bc3cbd3e7",
+  "fixes_issues": [],
+  "work_items": [
+    653097
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/RecurringBillingDocsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 39,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8060",
+        "type": "codeunit",
+        "id": 8060,
+        "name": "Create Billing Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8060"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}
