@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Using Key Vault Secrets in Business Central Extensions",
+  "title": "Use Key Vault Secrets in Business Central Extensions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.461Z",
-      "blob": "fcd101a3a9efd9e84677c1d711edc763fea3b9e5",
-      "words": 1234,
+      "at": "2026-10-15T00:26:06.648Z",
+      "blob": "e5345de6fd526f1d55ac14845ece5d900dca50ff",
+      "words": 1262,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T15:15:27.328Z",
+      "at": "2026-10-15T00:26:12.302Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.007462
+      "cost_usd": 0.009847
     },
     "summarized": {
-      "at": "2026-10-06T15:15:27.333Z",
+      "at": "2026-10-15T00:26:12.304Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T15:15:27.333Z",
+      "at": "2026-10-15T00:26:12.305Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T15:15:27.333Z",
+      "at": "2026-10-15T00:26:12.308Z",
       "page": false
     }
   },
@@ -44,21 +44,23 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-app-key-vault.md",
-    "description": "Describes how to use an Azure Key vault with Business Central extensions.",
-    "ms_date": "2024-08-20",
+    "description": "Learn how to configure Azure Key Vault in an extension, retrieve secrets securely with SecretText, and monitor key vault operations.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1234,
+    "words": 1262,
     "identifiers": [
-      "TryInitializeFromCurrentApp",
       "GetSecret",
-      "SecretText"
+      "TryInitializeFromCurrentApp",
+      "SecretText",
+      "MySecret",
+      "AzureKeyVaultAppSecretsPublisherValidationEnabled"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ee1bf98be8013d6d4511f7545c14653e98d6835df5fd312acb1da8da87bb290e"
+  "output_hash": "741279e140606ca093542d530a150e92ebf7139661efa0bfea5555e59bddf106"
 }

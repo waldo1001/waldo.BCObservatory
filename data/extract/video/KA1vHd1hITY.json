@@ -761,9 +761,9 @@
       "check": "exact"
     },
     {
-      "t": 768.6,
-      "text": "because as we are changing this while doing development on a VS code if it is changed which we are changing right now we",
-      "why_it_matters": "Explains that changing the developer service port from default requires explicit configuration in VS Code setup.",
+      "t": 779.8,
+      "text": "specify the service port in my configuration because otherwise your VS code assumes that you're relying on 7049.",
+      "why_it_matters": "Explains why a changed developer service port must be set in the VS Code configuration.",
       "check": "exact"
     },
     {
@@ -804,14 +804,8 @@
     },
     {
       "t": 1587.4,
-      "text": "you will need a database uh sql environment where it support compatibility level of 160 and 170 the",
-      "why_it_matters": "Specifies the exact SQL Server version and compatibility requirements for BC29.",
-      "check": "fuzzy"
-    },
-    {
-      "t": 1587.4,
       "text": "You will need a database uh SQL environment where it support compatibility level of 160 and 170.",
-      "why_it_matters": "Specifies the exact SQL Server compatibility levels required for BC29, essential for database configuration.",
+      "why_it_matters": "States the SQL compatibility levels required for BC29.",
       "check": "exact"
     },
     {
@@ -842,6 +836,12 @@
       "t": 1981.7,
       "text": "Make sure to review the software and the hardware requirement before you get into the installation process.",
       "why_it_matters": "Top recommendation from the presenter emphasizing prerequisites review as the key to avoiding installation failures.",
+      "check": "exact"
+    },
+    {
+      "t": 2002.3,
+      "text": "make sure that your TCP port is enabled that we just checked on a SQL server.",
+      "why_it_matters": "Closing tip on a common install failure: TCP/IP disabled on SQL Server.",
       "check": "exact"
     }
   ],

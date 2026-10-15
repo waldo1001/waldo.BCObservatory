@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Lifecycle of apps and extensions",
+  "title": "Lifecycle of Apps and Extensions",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.066Z",
-      "blob": "acb102881fe2516239f2828a940c5c42a3e0ef96",
-      "words": 1278,
+      "at": "2026-10-15T00:26:08.983Z",
+      "blob": "c25b8702cbfd1a2de240295dc535930439ac6e34",
+      "words": 968,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:37.593Z",
+      "at": "2026-10-15T00:26:13.977Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004736
+      "cost_usd": 0.004035
     },
     "summarized": {
-      "at": "2026-10-06T18:48:37.668Z",
+      "at": "2026-10-15T00:26:13.978Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:37.669Z",
+      "at": "2026-10-15T00:26:13.979Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:37.675Z",
+      "at": "2026-10-15T00:26:13.980Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-app-life-cycle.md",
-    "description": "Overview of the process of updating an app for Business Central.",
-    "ms_date": "2025-06-02",
+    "description": "Learn how Marketplace apps behave during service and app updates, how administrators install updates, and how extension data is retained.",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1278,
+    "words": 968,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d726f28c7bdce97be48363e6f7ab5f792cf62fd6255473df3df08bd957fc923"
+  "output_hash": "527c4fb8f4c33bfe03093701fbec2375c1a78a6c61f304b66186f88f98960f8e"
 }

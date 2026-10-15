@@ -2,29 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-checklist-submission-app-identity.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-app-identity",
   "title": "Marketplace App Identity FAQ",
-  "blob": "578f2ef4b65c215527f41adfc2dda8fca01378fb",
-  "summary": "Marketplace app identity FAQ addresses when and how to change extension names, publishers, and App IDs, with important restrictions on App ID changes to avoid breaking dependent extensions.",
+  "blob": "d852731541b3bfd4972948295b4b23b76985de49",
+  "summary": "Marketplace app identity FAQ covers when extensions can safely change their name, publisher, or App ID in Business Central, with specific version requirements and migration implications for Marketplace apps.",
   "systems": [
-    "administration",
-    "development"
+    "development",
+    "administration"
   ],
   "topics": [
     "marketplace",
     "app identity",
     "app submission",
+    "extensions",
     "versioning",
     "publisher"
   ],
   "objects": [],
   "features": [
-    "App ID",
-    "Publisher name",
-    "Extension versioning",
+    "app name changes",
+    "publisher changes",
+    "app ID management",
+    "extension dependencies",
     "Marketplace submission",
-    "Breaking changes"
+    "data migration"
   ],
   "versions": [
-    "2021 release wave 2"
+    "2021 release wave 2",
+    "version 19.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005051,
-      "pages_in_call": 8
+      "cost_usd": 0.003432,
+      "pages_in_call": 1
     }
   ]
 }

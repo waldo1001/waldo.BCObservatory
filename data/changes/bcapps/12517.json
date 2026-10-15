@@ -1,0 +1,697 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12517,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12517",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-13T08:14:58Z",
+  "merge_commit_sha": "b2fc720ead48d99d5e1897e738184442a7b55031",
+  "author": "thloke",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Suppress AS0099 for existing extension field IDs",
+  "body_hash": "4695034f4a11b4f402653007bb0c2633aebb961556632222c6dd9922d27a008a",
+  "fixes_issues": [],
+  "work_items": [
+    599115
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/BankAccount.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/Customer.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/CustomerBankAccount.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/Vendor.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/VendorBankAccount.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/GovTalk/app/src/TableExtensions/ECSLVATReportLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/GovTalk/app/src/TableExtensions/VATReportsConfiguration.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/GeneralLedgerSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/Item.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/ItemTempl.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchCrMemoLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchInvLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchaseLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchasesPayablesSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesCrMemoLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesInvoiceLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesReceivablesSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/VATAmountLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NA/MX_DIOT/app/src/ExtensionsToObjects/DIOTVATPostingSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocAttachment.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocumentConnectors/Avalara/App/src/Extensions/EDocService.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpEmployeePostingGroup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/GenJournalLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/SourceCodeSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSCRMProduct.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSIntegrationRecord.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSJobCue.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSJobTask.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSLocation.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceItem.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceItemLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceOrderType.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PowerBISetupSust.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 36,
+    "additions": 72,
+    "deletions": 0,
+    "al": 35
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/BankAccount.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10831",
+        "type": "tableextension",
+        "id": 10831,
+        "name": "Bank Account",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10831-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/Customer.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10832",
+        "type": "tableextension",
+        "id": 10832,
+        "name": "Customer",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10832-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/CustomerBankAccount.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10833",
+        "type": "tableextension",
+        "id": 10833,
+        "name": "Customer Bank Account",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10833-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/Vendor.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10835",
+        "type": "tableextension",
+        "id": 10835,
+        "name": "Vendor",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10835-fr"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/TableExtensions/VendorBankAccount.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10836",
+        "type": "tableextension",
+        "id": 10836,
+        "name": "Vendor Bank Account",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "tableextension/10836-fr"
+      },
+      {
+        "path": "src/Apps/GB/GovTalk/app/src/TableExtensions/ECSLVATReportLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10525",
+        "type": "tableextension",
+        "id": 10525,
+        "name": "ECSL VAT Report Line",
+        "app": "GovTalk",
+        "cc": "gb",
+        "page": "tableextension/10525-gb"
+      },
+      {
+        "path": "src/Apps/GB/GovTalk/app/src/TableExtensions/VATReportsConfiguration.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10569",
+        "type": "tableextension",
+        "id": 10569,
+        "name": "VAT Reports Configuration",
+        "app": "GovTalk",
+        "cc": "gb",
+        "page": "tableextension/10569-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/GeneralLedgerSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10549",
+        "type": "tableextension",
+        "id": 10549,
+        "name": "General Ledger Setup",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10549-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/Item.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10553",
+        "type": "tableextension",
+        "id": 10553,
+        "name": "Item",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10553-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/ItemTempl.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10554",
+        "type": "tableextension",
+        "id": 10554,
+        "name": "Item Templ.",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10554-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchCrMemoLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10557",
+        "type": "tableextension",
+        "id": 10557,
+        "name": "Purch. Cr. Memo Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10557-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchInvLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10558",
+        "type": "tableextension",
+        "id": 10558,
+        "name": "Purch. Inv. Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10558-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchaseLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10556",
+        "type": "tableextension",
+        "id": 10556,
+        "name": "Purchase Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10556-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/PurchasesPayablesSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10559",
+        "type": "tableextension",
+        "id": 10559,
+        "name": "Purchases & Payables Setup",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10559-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesCrMemoLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10564",
+        "type": "tableextension",
+        "id": 10564,
+        "name": "Sales Cr.Memo Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10564-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesInvoiceLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10565",
+        "type": "tableextension",
+        "id": 10565,
+        "name": "Sales Invoice Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10565-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10563",
+        "type": "tableextension",
+        "id": 10563,
+        "name": "Sales Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10563-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/SalesReceivablesSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10566",
+        "type": "tableextension",
+        "id": 10566,
+        "name": "Sales & Receivables Setup",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10566-gb"
+      },
+      {
+        "path": "src/Apps/GB/ReverseChargeVAT/app/src/TableExtensions/VATAmountLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/10552",
+        "type": "tableextension",
+        "id": 10552,
+        "name": "VAT Amount Line",
+        "app": "ReverseChargeVAT",
+        "cc": "gb",
+        "page": "tableextension/10552-gb"
+      },
+      {
+        "path": "src/Apps/NA/MX_DIOT/app/src/ExtensionsToObjects/DIOTVATPostingSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/27037",
+        "type": "tableextension",
+        "id": 27037,
+        "name": "DIOT VAT Posting Setup",
+        "app": "MX_DIOT",
+        "cc": "ca",
+        "page": "tableextension/27037-ca"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Extensions/EDocAttachment.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6160",
+        "type": "tableextension",
+        "id": 6160,
+        "name": "E-Doc. Attachment",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "tableextension/6160"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/ExpEmployeePostingGroup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6900",
+        "type": "tableextension",
+        "id": 6900,
+        "name": "Exp. Employee Posting Group",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6900"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/GenJournalLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6976",
+        "type": "tableextension",
+        "id": 6976,
+        "name": "Gen. Journal Line",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6976"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Common/Extensions/SourceCodeSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6975",
+        "type": "tableextension",
+        "id": 6975,
+        "name": "Source Code Setup",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "tableextension/6975"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSCRMProduct.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6617",
+        "type": "tableextension",
+        "id": 6617,
+        "name": "FS CRM Product",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6617"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSIntegrationRecord.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6618",
+        "type": "tableextension",
+        "id": 6618,
+        "name": "FS Integration Record",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6618"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSJobCue.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6613",
+        "type": "tableextension",
+        "id": 6613,
+        "name": "FS Job Cue",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6613"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSJobTask.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6611",
+        "type": "tableextension",
+        "id": 6611,
+        "name": "FS Job Task",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6611"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSLocation.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6614",
+        "type": "tableextension",
+        "id": 6614,
+        "name": "FS Location",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6614"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6615",
+        "type": "tableextension",
+        "id": 6615,
+        "name": "FS Service Header",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6615"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceItem.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6612",
+        "type": "tableextension",
+        "id": 6612,
+        "name": "FS Service Item",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6612"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceItemLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6620",
+        "type": "tableextension",
+        "id": 6620,
+        "name": "FS Service Item Line",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6620"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6616",
+        "type": "tableextension",
+        "id": 6616,
+        "name": "FS Service Line",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6616"
+      },
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Table Extensions/FSServiceOrderType.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6619",
+        "type": "tableextension",
+        "id": 6619,
+        "name": "FS Service Order Type",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "tableextension/6619"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/PowerBI/PowerBISetupSust.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/6262",
+        "type": "tableextension",
+        "id": 6262,
+        "name": "Power BI Setup - Sust.",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "tableextension/6262"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance",
+    "integration",
+    "copilot",
+    "development",
+    "purchasing",
+    "sales",
+    "sustainability"
+  ],
+  "apps": [
+    "EDocument",
+    "ExpenseAgent",
+    "FieldServiceIntegration",
+    "GovTalk",
+    "MX_DIOT",
+    "PaymentManagementFR",
+    "ReverseChargeVAT",
+    "Sustainability"
+  ]
+}

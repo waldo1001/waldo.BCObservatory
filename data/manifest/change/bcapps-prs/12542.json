@@ -6,10 +6,18 @@
   "title": "[Main]Incorrect Calculation of Remaining Prod. Order Comp.",
   "url": "https://github.com/microsoft/BCApps/pull/12542",
   "published_at": "2026-10-12T13:46:01Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:14.749Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "8c6c5b86a8c179b57bcf42959b25c31bae6c709d:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "incorrect calculation of remaining prod order comp"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5c2073a62331b9cff09addf3ff8e8f61ef8ae8d8df32489389a127961f8e90e"
 }

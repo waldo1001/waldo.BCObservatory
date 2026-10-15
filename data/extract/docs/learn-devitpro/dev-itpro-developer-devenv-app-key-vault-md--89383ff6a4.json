@@ -1,20 +1,21 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-key-vault.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault",
-  "title": "Using Key Vault Secrets in Business Central Extensions",
-  "blob": "fcd101a3a9efd9e84677c1d711edc763fea3b9e5",
-  "summary": "Retrieve secrets from Azure Key Vaults in Business Central extensions using the App Key Vault Secret Provider codeunit. Configure key vault URLs in app.json manifest and code retrieval logic for secure credential handling.",
+  "title": "Use Key Vault Secrets in Business Central Extensions",
+  "blob": "e5345de6fd526f1d55ac14845ece5d900dca50ff",
+  "summary": "Retrieving secrets from Azure Key Vault in Business Central extensions involves configuring key vault URLs in the app.json manifest and using the App Key Vault Secret Provider codeunit to retrieve secrets securely at runtime.",
   "systems": [
     "development",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "key vault",
     "secrets",
     "extensions",
     "security",
-    "api",
-    "credentials"
+    "azure",
+    "app configuration"
   ],
   "objects": [
     {
@@ -23,25 +24,24 @@
     }
   ],
   "features": [
-    "SecretText data type",
+    "keyVaultUrls configuration",
     "TryInitializeFromCurrentApp method",
     "GetSecret method",
-    "multi-vault failover",
-    "publisher validation",
-    "security considerations"
+    "SecretText data type",
+    "Publisher validation",
+    "Multiple key vaults support",
+    "Application Insights telemetry",
+    "Secret retrieval from Azure Key Vault"
   ],
-  "versions": [
-    "runtime 6.0",
-    "version 17.0"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007462,
-      "pages_in_call": 6
+      "cost_usd": 0.009847,
+      "pages_in_call": 1
     }
   ]
 }

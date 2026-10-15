@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.454Z",
-      "blob": "a7f3100d98063eeab0bb3938ec0ffef1bb8bea7b",
-      "words": 430,
+      "at": "2026-10-15T00:26:06.410Z",
+      "blob": "fc3ba1da81cd8a723c67156d00320a6511825976",
+      "words": 434,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T15:15:27.328Z",
+      "at": "2026-10-15T00:26:12.113Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007462
+      "cost_usd": 0.003558
     },
     "summarized": {
-      "at": "2026-10-06T15:15:27.332Z",
+      "at": "2026-10-15T00:26:12.114Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T15:15:27.332Z",
+      "at": "2026-10-15T00:26:12.115Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T15:15:27.332Z",
+      "at": "2026-10-15T00:26:12.116Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-app-key-vault-overview.md",
-    "description": "Provides an overview of Azure key vaults with Business Central extensions.",
-    "ms_date": "2021-04-01",
+    "description": "Learn how Business Central extensions use Azure Key Vault to securely retrieve secrets in online and on-premises environments.",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 430,
+    "words": 434,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d809838e6f9a331bf605c2f0e3299584ef1be2bf66e7ddcf637b896fec2746ee"
+  "output_hash": "6cd382b2eb5156d216d21aed81971c70cae7b83b149f0f1dcac9c5e386888984"
 }

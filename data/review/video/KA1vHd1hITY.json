@@ -1,0 +1,32 @@
+{
+  "video_id": "KA1vHd1hITY",
+  "item_id": "video/yt-saurav/KA1vHd1hITY",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Two quotes share t=1587.4 and say the same thing; both are dropped by t and one clean copy is added back.",
+    "Quote at t=768.6 is a cut-off sentence with no point on its own; it is replaced with the next sentence (t=779.8) about VS Code assuming port 7049.",
+    "Key point said snapshot debugging needs port 8083; the transcript only says it needs a separate port, and the presenter chose 8083. Key point corrected. The Snapshot debugging feature description has the same overstatement.",
+    "Authentication feature description spells out ACS as Azure Cloud Services; the transcript describes it as signing in with an Entra login. The edit fields cannot change the description.",
+    "Outlook feature description says Exchange Server 2019; the caption says 'server 29', which looks garbled. The figure is not verified.",
+    "Added a quote for the closing tip on enabling the SQL Server TCP port.",
+    "All feature statuses stay unclear; the transcript says BC29 'is announced' but then installs it from a downloaded DVD, so no status is stated clearly."
+  ],
+  "input_hash": "8084180261d8af4935401639191b54bcfec95f9d8ccf2e38d6a6d2516ea8a15a",
+  "by": "opus",
+  "at": "2026-10-15T00:26:06.485Z",
+  "applied": [
+    "dropped 3 quote(s)",
+    "quote at 1587s",
+    "quote at 780s",
+    "quote at 2002s",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.19175299999999998
+  }
+}

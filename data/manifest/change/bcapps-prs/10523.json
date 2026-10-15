@@ -6,10 +6,18 @@
   "title": "[Extensibility Request] issue 29092: expose Ship-to Name in ES",
   "url": "https://github.com/microsoft/BCApps/pull/10523",
   "published_at": "2026-10-13T10:57:19Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:06.281Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "3137cb2fe35d2727cecca03c7e78744613e115b4:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "extensibility request issue 29092 expose ship to name in es"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e20114b8bcdf29c0e7fbf69f2cb71058ed35961562108102de82d9e63477c4e5"
 }

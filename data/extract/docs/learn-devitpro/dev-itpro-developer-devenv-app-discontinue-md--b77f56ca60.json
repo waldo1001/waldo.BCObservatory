@@ -1,26 +1,27 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-app-discontinue.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue",
-  "title": "Discontinuing a Marketplace app",
-  "blob": "49f2f9cf9e5d7d2c357dc6b80232f7f802ecd50f",
-  "summary": "Discontinuing a Marketplace app describes the recommended process for partners to remove an app from Marketplace, including updating listings, notifying existing customers, and removing the listing after an appropriate period.",
+  "title": "Discontinuing a Marketplace App",
+  "blob": "fd04f1ef2604a6cd9add283d0cbb8e269330c319",
+  "summary": "Process for Marketplace partners to deprecate and remove an app from the Marketplace, including notification timelines and distribution cessation procedures.",
   "systems": [
     "development",
     "administration"
   ],
   "topics": [
-    "app discontinuation",
     "marketplace",
-    "app removal",
-    "lifecycle"
+    "app discontinuation",
+    "app lifecycle",
+    "extension management",
+    "partner processes"
   ],
   "objects": [],
   "features": [
-    "Marketplace listing update",
     "Contact Me listing type",
+    "Stop distribution",
+    "Marketplace listing updates",
     "Customer notification",
-    "Stop selling option",
-    "Offer deletion"
+    "App uninstallation"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004736,
-      "pages_in_call": 8
+      "cost_usd": 0.003299,
+      "pages_in_call": 1
     }
   ]
 }

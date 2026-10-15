@@ -1,0 +1,55 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10523,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10523",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-13T10:57:19Z",
+  "merge_commit_sha": "3137cb2fe35d2727cecca03c7e78744613e115b4",
+  "author": "AleksandricMarko",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance",
+    "extensibility-bug"
+  ],
+  "community_contribution": false,
+  "title": "[Extensibility Request] issue 29092: expose Ship-to Name in ES",
+  "body_hash": "86d1ac6001a40f234b3b5682dff2415ffbced02c21e83692337c13a13c480169",
+  "fixes_issues": [],
+  "work_items": [
+    598451
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/PostedSalesInvoices.Page.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 11,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/PostedSalesInvoices.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

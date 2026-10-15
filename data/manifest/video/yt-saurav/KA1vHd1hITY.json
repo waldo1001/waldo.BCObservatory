@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=KA1vHd1hITY",
   "published_at": "2026-10-09T04:30:16.000Z",
   "language": "en",
-  "state": "linked",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -55,6 +55,19 @@
       ],
       "topics": 12,
       "objects_as_heard": 3
+    },
+    "reviewed": {
+      "at": "2026-10-15T00:26:06.518Z",
+      "path": "data/review/video/KA1vHd1hITY.json",
+      "verdict": "fix",
+      "applied": 5,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.19175299999999998
+    },
+    "published": {
+      "at": "2026-10-15T00:26:06.581Z",
+      "path": "content/videos/KA1vHd1hITY.md"
     }
   },
   "input_hash": null,
@@ -70,5 +83,10 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ae526c4fe03511b6f0b110d30ea8800aa346f27b3f71fed02062f8df9bd7e0e"
+  "output_hash": "e59c6a2edf2cf159de22338a1c168bc617e201563b2b9b4dd721a335179bcfef",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-15T00:26:06.486Z"
+  }
 }

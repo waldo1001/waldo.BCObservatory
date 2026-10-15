@@ -2,29 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-checklist-submission-faq.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-faq",
   "title": "Technical validation FAQ",
-  "blob": "4e3943034880fac41004a43a0b929da14bd9585b",
-  "summary": "Technical validation FAQ addresses questions about the Marketplace submission validation process for Business Central apps, including app identity, code-signing, Azure Application Insights usage, channels for support, and app previews.",
+  "blob": "330a7d8196c32d48021e7333b4ebea6b1271616a",
+  "summary": "Technical validation FAQ addresses common questions about submitting apps to the Business Central Marketplace, covering validation processes, app identity, code-signing, Azure Application Insights, and related topics.",
   "systems": [
     "development",
     "integration"
   ],
   "topics": [
-    "marketplace submission",
+    "marketplace",
+    "app submission",
     "technical validation",
-    "app identity",
     "code-signing",
-    "azure application insights",
-    "faq"
+    "app identity",
+    "application insights"
   ],
   "objects": [],
   "features": [
+    "technical validation process",
     "app identity validation",
     "code-signing validation",
-    "azure application insights usage",
-    "marketplace app previews",
-    "business central offers",
+    "Azure Application Insights usage",
+    "app previews",
+    "marketplace offers",
     "names and affixes",
-    "marketplace app development"
+    "ID ranges"
   ],
   "versions": [],
   "parts": 1,
@@ -32,9 +33,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 6
+      "cached": false,
+      "cost_usd": 0.003216,
+      "pages_in_call": 1
     }
   ]
 }

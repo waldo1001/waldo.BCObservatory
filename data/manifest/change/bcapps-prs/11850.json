@@ -6,7 +6,7 @@
   "title": "[master] Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.",
   "url": "https://github.com/microsoft/BCApps/pull/11850",
   "published_at": "2026-10-12T17:42:40Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "master picking list by order report 15103 keeps just the first comment entered on the order lines in the united states version"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-15T00:26:12.421Z",
+  "retry_after": null
 }

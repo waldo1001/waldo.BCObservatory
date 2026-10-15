@@ -1,0 +1,197 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12554,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12554",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-13T10:29:57Z",
+  "merge_commit_sha": "070e66c3cba2ef12db782e8857b43f9035892bc7",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[Main] - User encounters a \"record is not open\" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)",
+  "body_hash": "f8a117cee62f2664bb7eaae79348038e5be56533f4b7d1eff4edc29eae6f8be3",
+  "fixes_issues": [],
+  "work_items": [
+    646549
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocAttachmentProcessor.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseAttachmentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Base/Codeunits/SubContractsGeneralMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Misc/DocumentAttachmentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 321,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocAttachmentListFactbox.Page.al",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocumentAttachmentMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 75,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdDocumentAttachmentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Document/ServDocumentAttachmentMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 26,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/DocumentAttachmentTests.Codeunit.al",
+      "status": "modified",
+      "additions": 321,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 732,
+    "deletions": 151,
+    "al": 7
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocAttachmentProcessor.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6169",
+        "type": "codeunit",
+        "id": 6169,
+        "name": "E-Doc. Attachment Processor",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6169"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Expense/Codeunits/ExpenseAttachmentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6989",
+        "type": "codeunit",
+        "id": 6989,
+        "name": "Expense Attachment Mgt.",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/6989"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Base/Codeunits/SubContractsGeneralMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8059",
+        "type": "codeunit",
+        "id": 8059,
+        "name": "Sub. Contracts General Mgt.",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8059"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocAttachmentListFactbox.Page.al",
+        "status": "modified",
+        "key": "page/1178",
+        "type": "page",
+        "id": 1178,
+        "name": "Doc. Attachment List Factbox",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1178"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Attachment/DocumentAttachmentMgmt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1173",
+        "type": "codeunit",
+        "id": 1173,
+        "name": "Document Attachment Mgmt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1173"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Document/ProdDocumentAttachmentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000783",
+        "type": "codeunit",
+        "id": 99000783,
+        "name": "Prod. Document Attachment Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000783"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Document/ServDocumentAttachmentMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6459",
+        "type": "codeunit",
+        "id": 6459,
+        "name": "Serv. Document Attachment Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6459"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform",
+    "copilot",
+    "integration",
+    "manufacturing",
+    "sales",
+    "service"
+  ],
+  "apps": [
+    "Base Application",
+    "EDocument",
+    "ExpenseAgent",
+    "Subscription Billing"
+  ]
+}

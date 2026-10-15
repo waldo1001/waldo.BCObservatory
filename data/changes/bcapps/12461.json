@@ -1,0 +1,84 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12461,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12461",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-13T04:11:08Z",
+  "merge_commit_sha": "976fedd36fdf45f066e22caaadbac4246fafd72f",
+  "author": "sanjmaurya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
+  "body_hash": "4672dfc4a1302da9e3bb57ac30aa1848703165927c59d92136c6a9774b7e482c",
+  "fixes_issues": [],
+  "work_items": [
+    653251
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/CA/Tests/ERM/O365SalesItemChargeTests.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/Tests/ERM/O365SalesItemChargeTests.Codeunit.al",
+      "status": "modified",
+      "additions": 55,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/ItemChargeAssgntSales.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/O365SalesItemChargeTests.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 164,
+    "deletions": 0,
+    "al": 1
+  },
+  "join": {
+    "major": "29",
+    "commit": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/ItemChargeAssgntSales.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5807",
+        "type": "codeunit",
+        "id": 5807,
+        "name": "Item Charge Assgnt. (Sales)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5807"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

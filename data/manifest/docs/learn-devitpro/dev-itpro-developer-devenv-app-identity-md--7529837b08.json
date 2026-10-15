@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "App identity",
+  "title": "Understand App Identity for AL Apps",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.061Z",
-      "blob": "59f234ab24663a65948f65028a6dd346e07fe9ed",
-      "words": 924,
+      "at": "2026-10-15T00:26:06.349Z",
+      "blob": "1c353c7317a7176649944f8d2d4cf947798b456c",
+      "words": 904,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:37.592Z",
+      "at": "2026-10-15T00:26:11.458Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004736
+      "cost_usd": 0.004043
     },
     "summarized": {
-      "at": "2026-10-06T18:48:37.652Z",
+      "at": "2026-10-15T00:26:11.459Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:37.660Z",
+      "at": "2026-10-15T00:26:11.461Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:37.667Z",
+      "at": "2026-10-15T00:26:11.461Z",
       "page": false
     }
   },
@@ -44,17 +44,17 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-app-identity.md",
-    "description": "Describes what makes up the app identity of an app for Business Central.",
-    "ms_date": "2024-05-03",
+    "description": "Learn how app IDs, versions, names, publishers, and tenant scopes identify AL apps and affect upgrades, dependencies, and data continuity.",
+    "ms_date": "2026-10-09",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 924,
+    "words": 904,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "507828bf09f77770f93fd2bf10cdaec10cd17415ba46f6047d3650a4edcd98bb"
+  "output_hash": "8e8cecfc8d9250ce5b9fd7bdb81f74b07d67b2b151f22964f92eb1d343237046"
 }
