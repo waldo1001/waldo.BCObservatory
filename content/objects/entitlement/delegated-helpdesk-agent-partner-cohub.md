@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5763bcc8ab919b1db0c653f4390569fed7d525936a4a01f695d82875c6a3aeee
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al
     title: src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Delegated Helpdesk agent - Partner COHUB" in CompanyHub (Mirosoft.Integration.CompanyHub). Introduced in BC29, still in BC30.
 
-CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al) · facts from BC29
+CompanyHub · Mirosoft.Integration.CompanyHub · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/CompanyHub/app/Entitlements/DelegatedHelpdeskagentPartnerCOHUB.Entitlement.al) · facts from BC29
 
 ## Across versions
 

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0c99ad1bdf69af14e473bc64e96536211433ee62a87ee1fb54ef75582fcb4ccb
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/NL/BaseApp/Local/Finance/VAT/Reporting/DigipoortCommunication.interface.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/NL/BaseApp/Local/Finance/VAT/Reporting/DigipoortCommunication.interface.al
     title: src/Layers/NL/BaseApp/Local/Finance/VAT/Reporting/DigipoortCommunication.interface.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Interface "DigiPoort Communication" (NL) in the NL country layer (Microsoft.Finance.VAT.Reporting). 2 public procedures. Introduced in BC28, still in BC30.
 
-NL country layer · Microsoft.Finance.VAT.Reporting · BC28-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/NL/BaseApp/Local/Finance/VAT/Reporting/DigipoortCommunication.interface.al) · facts from BC29
+NL country layer · Microsoft.Finance.VAT.Reporting · BC28-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/NL/BaseApp/Local/Finance/VAT/Reporting/DigipoortCommunication.interface.al) · facts from BC29
 
 An object of the [NL localization](../../localizations/nl.md), not part of W1.
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:42.630Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
     title: Additional Fields on Item Ledger Entries and Value Entries [CZ]
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -63,14 +63,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence
     title: Check of output in inventory – time sequence [CZ]
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-of-posting-group-changing
     title: Check posting group change in Customer, Vendor, Item, Bank Account [CZ]
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -91,126 +91,112 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/accounting-output-documents
     title: Czech Local Functionality - Accounting output documents
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory
     title: Czech local functionality - Advances features of physical inventory
-    date: "2025-06-02"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions
-    title: Czech local functionality - Automatic creation and update of dimensions
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-corrections-posting
     title: Czech local functionality - Corrections posting
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations
     title: Czech Local Functionality - Customers/Vendors Reconciliations
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature
     title: Czech local functionality - Exchange rates adjustment feature
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature
     title: Czech local functionality - Financial report feature
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements
     title: Czech local functionality - G/L reconciliation enhancements
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku
     title: Czech local functionality - Gen.Prod.Posting Group from SKU
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general
     title: Czech local functionality - General function
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/internal-financial-documents
     title: Czech local functionality - Internal financial documents
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents
     title: Czech local functionality - inventory counting documents
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory-movement-templates
     title: Czech Local Functionality - Inventory Movement Templates
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document
     title: Czech local functionality - Inventory operations document
-    date: "2025-06-05"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting
-    title: Czech local functionality - Multi circuit accounting
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents
     title: Czech Local Functionality - New design of output documents
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders
     title: Czech local functionality - Posting groups in transfer orders
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge
     title: Czech local functionality - Reverse charge in setup and posting
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -224,7 +210,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-date
     title: Czech local functionality - Setup VAT date
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -259,14 +245,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares
     title: Czech local functionality - Update contacts from ARES
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate
     title: Czech local functionality - VAT exchange rate
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -294,7 +280,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export
     title: Czech Local Functionality - Vies - CZ export
-    date: "2025-06-05"
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting
+    title: Czech local functionality - WIP extended posting
+    date: "2025-06-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/czech-local-functionality
+    title: Czech Local Functionality [CZ]
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

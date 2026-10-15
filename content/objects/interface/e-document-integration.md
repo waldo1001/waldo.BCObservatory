@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 588665f9753315aa33b62bcfde71a21b8ba46803808e5ecb91a15b31f8c67dcc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EDocument/app/src/Integration/EDocumentIntegration.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/Integration/EDocumentIntegration.Interface.al
     title: src/Apps/W1/EDocument/app/src/Integration/EDocumentIntegration.Interface.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -79,7 +79,7 @@ relations:
 
 > Interface "E-Document Integration" in EDocument (Microsoft.eServices.EDocument). 8 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 26.0).
 
-EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EDocument/app/src/Integration/EDocumentIntegration.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/Integration/EDocumentIntegration.Interface.al) · facts from BC29
 
 ## Properties
 

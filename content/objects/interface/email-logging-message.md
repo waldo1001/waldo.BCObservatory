@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5e86e951ecad4f39d89faee41c29414436394d2559becccb6f43a5f05966c219
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingMessage.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingMessage.Interface.al
     title: src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingMessage.Interface.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Email Logging Message" in EmailLogging (Microsoft.CRM.EmailLoggin). 13 public procedures. Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingMessage.Interface.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EmailLogging/app/src/interfaces/EmailLoggingMessage.Interface.al) · facts from BC29
 
 ## Properties
 

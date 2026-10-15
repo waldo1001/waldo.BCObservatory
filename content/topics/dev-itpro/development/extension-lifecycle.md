@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -118,8 +118,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle
-    title: Lifecycle of apps and extensions
-    date: "2025-06-02"
+    title: Lifecycle of Apps and Extensions
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

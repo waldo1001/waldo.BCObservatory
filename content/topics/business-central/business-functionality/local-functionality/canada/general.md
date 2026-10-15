@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:43.497Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/work-gifi-codes
     title: GIFI Codes in Canada
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-print-troubleshooting-reports
     title: How to print troubleshooting reports [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

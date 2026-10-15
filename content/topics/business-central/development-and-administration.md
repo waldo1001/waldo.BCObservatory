@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.464Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -850,7 +850,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2029 "Image Analyzer Wizard"](../../objects/page/2029.md) · captioned "Image Analyzer assisted setup guide" · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 2500 "Extension Management"](../../objects/page/2500.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 2514 "Delete Orphaned Extension Data"](../../objects/page/2514.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
-- [Page 2515 "AppSource Product List"](../../objects/page/2515.md) · captioned "Microsoft AppSource apps" · on [Table 2515 "AppSource Product"](../../objects/table/2515.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
+- [Page 2515 "AppSource Product List"](../../objects/page/2515.md) · captioned "Microsoft Marketplace apps" · on [Table 2515 "AppSource Product"](../../objects/table/2515.md) · via [Customize Business Central](development-and-administration/customize-business-central.md)
 - [Page 2610 "Feature Management"](../../objects/page/2610.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 2650 "Email Printer Settings"](../../objects/page/2650.md) · on [Table 2650 "Email Printer Settings"](../../objects/table/2650.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)
 - [Page 2750 "Universal Printer Settings"](../../objects/page/2750.md) · on [Table 2751 "Universal Printer Settings"](../../objects/table/2751.md) · via [Administration tasks in Business Central](development-and-administration/administration-tasks-in-business-central.md)

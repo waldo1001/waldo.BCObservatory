@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:33.023Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,63 +21,63 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
     title: Additional Fields on Item Ledger Entries and Value Entries [CZ]
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence
     title: Check of output in inventory – time sequence [CZ]
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advanced-features-physical-inventory
     title: Czech local functionality - Advances features of physical inventory
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements
     title: Czech local functionality - G/L reconciliation enhancements
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku
     title: Czech local functionality - Gen.Prod.Posting Group from SKU
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-counting-documents
     title: Czech local functionality - inventory counting documents
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory-movement-templates
     title: Czech Local Functionality - Inventory Movement Templates
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-inventory-operations-document
     title: Czech local functionality - Inventory operations document
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders
     title: Czech local functionality - Posting groups in transfer orders
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -91,14 +91,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory
     title: Rounding account in inventory [CZ]
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting
     title: Skip update SKU when posting
-    date: "2025-10-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

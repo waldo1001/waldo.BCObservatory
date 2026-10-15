@@ -2,7 +2,7 @@
 id: app/sustainability
 type: app
 title: Sustainability
-summary: "Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 12 Learn hubs; 11 videos."
+summary: "Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 11 Learn hubs; 11 videos."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-13T13:16:37.365Z"
+  at: "2026-10-15T01:07:01.688Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: cdd43ac1c2650c837bab38789503943a60d3b2e0086db07cbc7ad007212c4cd9
+  input_hash: 942eb49afd0c25a1e9e4a3722b4d1070bb231720215d318c2882c45463d4c0bb
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Sustainability/app
@@ -241,7 +241,6 @@ links:
     - topic/dev-itpro/development/data-analytics-and-reporting
     - topic/dev-itpro/development/extensibility/embedding-power-bi
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi
-    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi
     - topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central
     - topic/business-central/business-functionality/set-up-business-central/set-up-finance
@@ -281,14 +280,14 @@ counts:
     permissionset: 4
     reportextension: 2
     profile: 1
-  hubs: 12
+  hubs: 11
   videos: 11
   posts: 0
 ---
 
 # Sustainability
 
-> Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 12 Learn hubs; 11 videos.
+> Sustainability (Microsoft.Sustainability): 454 objects in BC29-30 (102 page extensions, 100 pages, 70 table extensions, 60 codeunits, 53 tables, ...); documented by 11 Learn hubs; 11 videos.
 
 First-party app · folder `src/Apps/W1/Sustainability/app` · namespace `Microsoft.Sustainability` · BC29-30 · system sustainability · facts from the code pillar and the joins, nothing machine-written
 
@@ -304,7 +303,6 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 - [Data analytics and reporting](../topics/dev-itpro/development/data-analytics-and-reporting.md) (Development): 2 objects
 - [Embedding Power BI](../topics/dev-itpro/development/extensibility/embedding-power-bi.md) (Development > Extensibility): 2 objects
 - [Integrating with Microsoft Power BI](../topics/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi.md) (Integration > Integrating with Microsoft Power Platform): 2 objects
-- [Microsoft Fabric](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 2 objects
 - [Microsoft Power BI](../topics/business-central/integrate-with-other-applications/microsoft-power-platform/microsoft-power-bi.md) (Integrate with other applications > Microsoft Power Platform): 2 objects
 - [Power BI and Business Central](../topics/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports/power-bi-and-business-central.md) (Analytics, business intelligence, and reporting > KPIs, dashboards, and financial reports): 2 objects
 - [Set up finance](../topics/business-central/business-functionality/set-up-business-central/set-up-finance.md) (Business functionality > Set up Business Central): 2 objects

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -537,7 +537,7 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 2029 "Image Analyzer Wizard"](../../../../objects/page/2029.md) · captioned "Image Analyzer assisted setup guide"
 - [Page 2500 "Extension Management"](../../../../objects/page/2500.md)
 - [Page 2514 "Delete Orphaned Extension Data"](../../../../objects/page/2514.md)
-- [Page 2515 "AppSource Product List"](../../../../objects/page/2515.md) · captioned "Microsoft AppSource apps" · on [Table 2515 "AppSource Product"](../../../../objects/table/2515.md)
+- [Page 2515 "AppSource Product List"](../../../../objects/page/2515.md) · captioned "Microsoft Marketplace apps" · on [Table 2515 "AppSource Product"](../../../../objects/table/2515.md)
 - [Page 4021 "GP Migration Settings List"](../../../../objects/page/4021.md) · captioned "Select company settings for data migration" · on [Table 4044 "GP Company Migration Settings"](../../../../objects/table/4044.md)
 - [Page 4031 "Hybrid GP Errors Factbox"](../../../../objects/page/4031.md) · captioned "GP Synchronization Errors" · on [Table 4015 "GP Migration Errors"](../../../../objects/table/4015.md)
 - [Page 4700 "VAT Group Submission Lines"](../../../../objects/page/4700.md) · on [Table 4703 "VAT Group Submission Line"](../../../../objects/table/4703.md)

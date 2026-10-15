@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 81 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 82 posts in the knowledge base, 2025-04-18 to 2026-10-09, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-15T00:20:09.603Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7e816a1461204e1e3094ca0c04239ce883d58cc616a1a46cb22da8c87fecf1c9
+  input_hash: becc5df3e6b273ad7fd8fd11687b9a6912b28a4b3f512b6224f6fa82f2019973
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -114,6 +114,7 @@ links:
     - post/aardvarklabs-blog/3998
     - post/aardvarklabs-blog/4023
     - post/aardvarklabs-blog/3983
+    - post/aardvarklabs-blog/4056
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -121,21 +122,21 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 81
+item_count: 82
 footprint:
   systems:
     - id: development
-      weight: 90
+      weight: 91
     - id: integration
       weight: 43
     - id: copilot
       weight: 38
     - id: platform
-      weight: 29
+      weight: 31
     - id: reporting
       weight: 15
     - id: administration
-      weight: 12
+      weight: 13
   topics:
     - id: al development
       weight: 20
@@ -163,7 +164,7 @@ footprint:
     - id: page Customer Card
       weight: 5
     - id: table Sales Header
-      weight: 4
+      weight: 5
     - id: table Vendor
       weight: 3
     - id: codeunit ARD_CashFlowAgentFactory
@@ -184,12 +185,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-10-02"
+last_item: "2026-10-09"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 81 posts in the knowledge base, 2025-04-18 to 2026-10-02, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 82 posts in the knowledge base, 2025-04-18 to 2026-10-09, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -197,12 +198,12 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (90) | al development (20) | table Customer (7) |
+| development (91) | al development (20) | table Customer (7) |
 | integration (43) | copilot (10) | page Customer Card (5) |
-| copilot (38) | al code (8) | table Sales Header (4) |
-| platform (29) | api (6) | table Vendor (3) |
+| copilot (38) | al code (8) | table Sales Header (5) |
+| platform (31) | api (6) | table Vendor (3) |
 | reporting (15) | json (6) | codeunit ARD_CashFlowAgentFactory (2) |
-| administration (12) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
+| administration (13) | automation (5) | codeunit ARD_CashFlowAgentKPILogging (2) |
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
 |  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
 |  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |
@@ -220,10 +221,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: * 1
+- 2026-Q4: ** 2
 
 ## Most recent
 
+- [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../posts/aardvarklabs-blog/4056.md) (2026-10-09)
 - [Business Central v29: SQL Table Extensions Redesign Explained](../posts/aardvarklabs-blog/3983.md) (2026-10-02)
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../posts/aardvarklabs-blog/4023.md) (2026-09-25)
 - [Mastering Business Central API for App Management](../posts/aardvarklabs-blog/3998.md) (2026-09-18)
@@ -243,6 +245,5 @@ Items per quarter, oldest first:
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../posts/aardvarklabs-blog/3579.md) (2026-06-12)
 - [Boost Business Central Development with Skills in Visual Studio Code](../posts/aardvarklabs-blog/3564.md) (2026-06-05)
 - [New Features for Report Lifecycle Management in Business Central 28.1](../posts/aardvarklabs-blog/3544.md) (2026-05-29)
-- [Maximizing Productivity with Copilot Cowork Skills](../posts/aardvarklabs-blog/3496.md) (2026-05-22)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

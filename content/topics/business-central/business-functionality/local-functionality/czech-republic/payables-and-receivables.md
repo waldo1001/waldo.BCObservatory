@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:57.818Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,21 +28,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations
     title: Czech Local Functionality - Customers/Vendors Reconciliations
-    date: "2025-06-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature
     title: Czech local functionality - Exchange rates adjustment feature
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents
     title: Czech Local Functionality - New design of output documents
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -56,14 +56,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares
     title: Czech local functionality - Update contacts from ARES
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports
-    title: Hide rows with zero quantity in document reports in the Chech version
-    date: "2025-09-17"
+    title: Hide rows with zero quantity in document reports in the Czech version
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -134,6 +134,6 @@ The pages are independent of each other, and there are no subtopics. Pick the pa
 - [Czech Local Functionality - New design of output documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents): Learn about the new standardized design of output documents in the Czech version, including enhancements to meet Czech legislative requirements.
 - [Czech local functionality - Sales correcting documents [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/sales-correcting-documents): Learn about local functionality for handling sales correcting documents, including different types of sales credit memos, in the Czech version of Business Central.
 - [Czech local functionality - Update contacts from ARES](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares): Learn how to update contact information in Business Central using ARES, the Czech system for retrieving data on registered economic entities.
-- [Hide rows with zero quantity in document reports in the Chech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports): This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.
+- [Hide rows with zero quantity in document reports in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports): This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

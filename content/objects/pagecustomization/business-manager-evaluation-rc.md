@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 35370113f4061160dd701704818279306e79b093eb10fafbc3c5c907092e76ce
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Page customization "Business Manager Evaluation RC" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · BC23-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · BC23-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManagerEvaluationRC.PageCust.al) · facts from BC29
 
 ## Across versions
 

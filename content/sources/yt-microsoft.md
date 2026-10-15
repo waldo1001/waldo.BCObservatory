@@ -2,7 +2,7 @@
 id: source/yt-microsoft
 type: source
 title: Microsoft Dynamics 365 Business Central (YouTube)
-summary: "Microsoft Dynamics 365 Business Central (YouTube): 523 videos in the knowledge base, 2023-10-23 to 2026-10-01, mostly about copilot, finance, development."
+summary: "Microsoft Dynamics 365 Business Central (YouTube): 524 videos in the knowledge base, 2023-10-23 to 2026-10-08, mostly about copilot, finance, development."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T13:26:00.585Z"
+  at: "2026-10-15T00:20:09.603Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 687039ab5962deb69038fdd0f25a2f726eadfa74811134983f6176d0bfb48592
+  input_hash: 6f775077f929a5a7f3f430cd8df22fd82bdee00960c29af4b01d5168b70a3ce9
 evidence:
   - kind: video
     url: https://www.youtube.com/@MicrosoftDynamics365BC
@@ -613,6 +613,7 @@ links:
     - video/07G7aC14Y_w
     - video/qs1cg-GoDeQ
     - video/2N2NhNH7dsk
+    - video/q3xnjJD32kk
   posts: []
   guidelines: []
 source_id: yt-microsoft
@@ -621,11 +622,11 @@ url: https://www.youtube.com/@MicrosoftDynamics365BC
 author: null
 mvp: false
 full_text: true
-item_count: 523
+item_count: 524
 footprint:
   systems:
     - id: copilot
-      weight: 91
+      weight: 92
     - id: finance
       weight: 68
     - id: development
@@ -642,7 +643,7 @@ footprint:
     - id: telemetry
       weight: 28
     - id: permissions
-      weight: 23
+      weight: 24
     - id: e-documents
       weight: 22
     - id: al-go
@@ -655,7 +656,7 @@ footprint:
       weight: 17
     - id: financial reporting
       weight: 16
-    - id: power bi
+    - id: data analysis
       weight: 15
   objects:
     - id: table Customer
@@ -704,12 +705,12 @@ footprint:
     - id: feature/573318
       weight: 2
 first_item: "2023-10-23"
-last_item: "2026-10-01"
+last_item: "2026-10-08"
 ---
 
 # Microsoft Dynamics 365 Business Central (YouTube)
 
-> Microsoft Dynamics 365 Business Central (YouTube): 523 videos in the knowledge base, 2023-10-23 to 2026-10-01, mostly about copilot, finance, development.
+> Microsoft Dynamics 365 Business Central (YouTube): 524 videos in the knowledge base, 2023-10-23 to 2026-10-08, mostly about copilot, finance, development.
 
 [https://www.youtube.com/@MicrosoftDynamics365BC](https://www.youtube.com/@MicrosoftDynamics365BC) · channel · tier official · full text opted in
 
@@ -717,16 +718,16 @@ last_item: "2026-10-01"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| copilot (91) | copilot (30) | table Customer (6) |
+| copilot (92) | copilot (30) | table Customer (6) |
 | finance (68) | telemetry (28) | other app.json (5) |
-| development (62) | permissions (23) | page customer card (5) |
+| development (62) | permissions (24) | page customer card (5) |
 | reporting (51) | e-documents (22) | page general ledger setup (5) |
 | integration (48) | al-go (20) | page General Ledger Setup (5) |
 | platform (37) | expense agent (19) | page Sales Orders (5) |
 |  | sales order agent (18) | page Chart of Accounts (4) |
 |  | analysis mode (17) | page vendor card (4) |
 |  | financial reporting (16) | table customer (4) |
-|  | power bi (15) | table Sustainability Ledger Entry (4) |
+|  | data analysis (15) | table Sustainability Ledger Entry (4) |
 |  |  | other Application Insights (3) |
 |  |  | other Copilot Studio (3) |
 
@@ -746,7 +747,7 @@ Items per quarter, oldest first:
 - 2026-Q1: **************** 16
 - 2026-Q2: **************************************** 53
 - 2026-Q3: ******************** 20
-- 2026-Q4: ************************************** 38
+- 2026-Q4: *************************************** 39
 
 ## Roadmap features it demonstrates
 
@@ -811,6 +812,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [What's new: MCP Server (2026 release wave 2)](../videos/q3xnjJD32kk.md) (2026-10-08)
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../videos/2N2NhNH7dsk.md) (2026-10-01)
 - [What's new: MCP Server (2026 release wave 2)](../videos/qs1cg-GoDeQ.md) (2026-10-01)
 - [What's new in E-Documents: Overview (2026 release wave 2)](../videos/07G7aC14Y_w.md) (2026-10-01)
@@ -830,6 +832,5 @@ Items per quarter, oldest first:
 - [What's new in Sustainability (2026 release wave 2)](../videos/t_UXxbvgnHY.md) (2026-10-01)
 - [What's new in Expense Agent: Use Travel Request (2026 release wave 2)](../videos/s3d9vW6tuT8.md) (2026-10-01)
 - [What's new: Enhanced Financial Reporting (2026 release wave 2)](../videos/qj0VHB2Pmvc.md) (2026-10-01)
-- [What's new in Expense Agent: Travel and Expense Policy Automation (2026 release wave 2)](../videos/o94V_lF8oNM.md) (2026-10-01)
 
 Source: videos of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

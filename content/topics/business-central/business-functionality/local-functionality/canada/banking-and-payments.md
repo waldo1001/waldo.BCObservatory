@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:44.459Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,7 +21,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits
     title: How to create deposits [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

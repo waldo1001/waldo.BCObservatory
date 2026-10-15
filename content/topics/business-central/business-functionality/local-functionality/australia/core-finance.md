@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:15.587Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,28 +21,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts
     title: Calculating Distribution Amounts [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports
     title: Print balance sheet reports [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements
     title: Print income statements [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements
     title: Set Up Business Units for Business Activity Statements (AU)
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

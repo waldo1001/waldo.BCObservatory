@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:38.153Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information
     title: Print general ledger setup information [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

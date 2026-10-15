@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:56.056Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,35 +21,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow
     title: Compare bank cash flow [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments
     title: Create check installments [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-
     title: Electronic Funds Transfer (EFT) [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports
     title: Print Bank Account Reconciliation Reports
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports
     title: Print deposit slip reports [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -56,13 +56,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     title: API (v2.0) for Dynamics 365 Business Central
     date: "2026-08-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
-    title: API developer overview
-    date: "2025-02-07"
     commit: null
     t: null
     quote: null
@@ -242,6 +235,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
+    title: Develop APIs with Pages and Queries
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_dimension
     title: dimension resource type
     date: "2026-06-08"
@@ -301,11 +301,11 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure
     - https://learn.microsoft.com/dynamics365/business-central/api-overview
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api
@@ -378,11 +378,11 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 
 - [(v1.0) API (v1.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/): (v1.0) Reference content for the API (v1.0) endpoint for integration with Dynamics 365 Business Central.
 - [API (v2.0) for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/): Reference content for the API (v2.0) endpoint for integration with Dynamics 365 Business Central.
-- [API developer overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api): Use APIs to expose information from the database into versioned, OData v4 enabled REST web services.
 - [API endpoint structure](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure): Discover the base URL pattern and environment details required to access Business Central API endpoints.
 - [API Overview Page in Business Central](https://learn.microsoft.com/dynamics365/business-central/api-overview): Learn how the API Overview page helps administrators discover available APIs, review endpoint metadata, and prepare integrations.
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
 - [Cloud Migration API Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview): Learn how to use Cloud Migration APIs to automate the cloud migration process end-to-end.
+- [Develop APIs with Pages and Queries](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api): Learn how to develop custom Business Central APIs with API pages and API queries, and find guidance for performance and troubleshooting.
 - [Get a List of Business Central Environments](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/api-get-environments): Describing how to get a list of Business Central environments when working with APIs.
 - [Introduction to automation APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis): Learn how automation APIs create companies, apply configuration packages, manage extensions, assign permissions, and inspect security settings.
 - [IRS 1099 APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-irs1099/irs1099-api): Learn how to use IRS1099 APIs related to local functionality in the United States version of Business Central.

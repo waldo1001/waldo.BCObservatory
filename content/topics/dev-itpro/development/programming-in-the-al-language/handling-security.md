@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:04.639Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,7 +56,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
     title: Azure Key Vaults with Business Central
-    date: "2021-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -167,8 +167,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault
-    title: Using Key Vault Secrets in Business Central Extensions
-    date: "2024-08-20"
+    title: Use Key Vault Secrets in Business Central Extensions
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null

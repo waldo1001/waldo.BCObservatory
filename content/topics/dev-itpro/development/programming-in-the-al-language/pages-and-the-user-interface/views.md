@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:24.168Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -20,8 +20,8 @@ generated:
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package
-    title: Export and package analysis views
-    date: "2026-02-27"
+    title: Export and Package Analysis Views
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -98,7 +98,7 @@ Analysis views are a separate topic. You can export an analysis view definition 
 
 ## Learn pages
 
-- [Export and package analysis views](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package): Learn how to export analysis views from Analysis Mode and package them as part of AL extensions in Business Central.
+- [Export and Package Analysis Views](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package): Learn how to export analysis views from Analysis Mode, add their definitions to AL projects, and package them in Business Central extensions.
 - [Migrating to modern list views](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy): Explains how to move from legacy views to modern list views in Business Central.
 - [Views](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-views): Description of what views are and how they're defined in Business Central.
 

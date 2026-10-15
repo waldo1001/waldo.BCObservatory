@@ -12,37 +12,16 @@ review:
   at: "2026-10-07T02:23:40.443Z"
   flags: []
 generated:
-  at: "2026-10-13T00:33:07.078Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
   input_hash: 89fae4cdc52182963e0568e74f8e606d93de62daf48fd6a5824dc049c00b48e9
 evidence:
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
-    title: admin manage fabric export
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
-    title: admin monitor fabric export
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
-    title: admin set up fabric mirroring
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
     title: Analyze Data in Business Intelligence Tools
-    date: "2025-01-27"
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
@@ -54,9 +33,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
+    title: Data Mirroring to Microsoft Fabric from Business Central
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
-    title: fabric faq
-    date: "2026-10-09"
+    title: FAQ About Mirroring Business Central Data to Microsoft Fabric
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -68,9 +54,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
-    title: Introduction to Microsoft Fabric and Business Central
-    date: "2024-04-24"
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
+    title: Manage Business Central Synchronization with Microsoft Fabric
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
+    title: Monitor and Troubleshoot Microsoft Fabric Synchronization
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -78,6 +71,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
     title: Performance Articles for AL Developers
     date: "2026-09-18"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
+    title: Set up Business Central data mirroring to Microsoft Fabric
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -89,8 +89,14 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer
   objects:
     - object/page/4010
-    - object/page/6316
-    - object/page/6317
+    - object/page/48508
+    - object/page/48509
+    - object/page/48510
+    - object/page/48511
+    - object/page/48512
+    - object/page/48513
+    - object/page/48515
+    - object/page/48519
   features: []
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo
@@ -109,14 +115,20 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
 coverage:
   learn: 9
-  code: 3
+  code: 9
   video: 0
   blog: 1
   guideline: 0
 bc_forms:
   - 4010
-  - 6316
-  - 6317
+  - 48508
+  - 48509
+  - 48510
+  - 48511
+  - 48512
+  - 48513
+  - 48515
+  - 48519
 member_hash: 95608ddb0e2b7f483c9c4f281fe1960fa9222a2f9c4629a876b1cb4b83b53aec
 narrative: generated
 ---
@@ -167,7 +179,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
 - [Page 4010 "Intelligent Cloud"](../../../objects/page/4010.md)
-- [Page 6316 "Sustainability Report Power BI"](../../../objects/page/6316.md) · captioned "Sustainability Report (Power BI)" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
-- [Page 6317 "To Net Zero Carbon Power BI"](../../../objects/page/6317.md) · captioned "Journey to Net Zero Carbon (Power BI)" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48508 "Fabric Platform Companies"](../../../objects/page/48508.md) · captioned "Fabric Company Configuration" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48509 "Fabric Platform Export Details"](../../../objects/page/48509.md) · captioned "Fabric Synchronization Details" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48510 "Fabric Platform Export Summary"](../../../objects/page/48510.md) · captioned "Fabric Synchronization Overview" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48511 "Fabric Platform Setup"](../../../objects/page/48511.md) · captioned "Microsoft Fabric Mirroring Setup" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48512 "Fabric Platform Tables"](../../../objects/page/48512.md) · captioned "Fabric Table Configuration" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48513 "Fabric Config Package Card"](../../../objects/page/48513.md) · captioned "Fabric Config Package" · on [Table 48501 "Fabric Config Package"](../../../objects/table/48501.md) · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48515 "Fabric Config Packages"](../../../objects/page/48515.md) · captioned "Fabric Configuration Packages" · on [Table 48501 "Fabric Config Package"](../../../objects/table/48501.md) · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
+- [Page 48519 "Fabric Platform Setup Wizard"](../../../objects/page/48519.md) · captioned "Set Up Microsoft Fabric Mirroring" · via [Microsoft Fabric](analyze-data-in-business-intelligence-to/microsoft-fabric.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

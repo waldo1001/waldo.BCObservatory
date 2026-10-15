@@ -2,7 +2,7 @@
 id: source/demiliani-com
 type: source
 title: Stefano Demiliani
-summary: "Stefano Demiliani (MVP): 88 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration."
+summary: "Stefano Demiliani (MVP): 90 posts in the knowledge base, 2025-04-07 to 2026-10-13, mostly about development, platform, integration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-15T00:20:09.603Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f2d4af0e9739e677a1751886d44308b7294888550d9055ea4a58c3312ef5e454
+  input_hash: 61004200ebf5d9b9df38a162edbddd919ae5c9fe9efe3544b0a3fc4007f40021
 evidence:
   - kind: blog
     url: https://demiliani.com
@@ -121,6 +121,8 @@ links:
     - post/demiliani-com/15968
     - post/demiliani-com/15981
     - post/demiliani-com/17470
+    - post/demiliani-com/17480
+    - post/demiliani-com/17492
   guidelines: []
 source_id: demiliani-com
 kind: blog
@@ -128,17 +130,17 @@ url: https://demiliani.com
 author: Stefano Demiliani
 mvp: true
 full_text: false
-item_count: 88
+item_count: 90
 footprint:
   systems:
     - id: development
       weight: 74
     - id: platform
-      weight: 68
+      weight: 70
     - id: integration
-      weight: 59
+      weight: 61
     - id: administration
-      weight: 41
+      weight: 43
     - id: copilot
       weight: 38
     - id: localization
@@ -149,12 +151,12 @@ footprint:
     - id: al development
       weight: 10
     - id: security
-      weight: 9
+      weight: 10
+    - id: on-premises
+      weight: 7
     - id: automation
       weight: 6
     - id: azure logic apps
-      weight: 6
-    - id: on-premises
       weight: 6
     - id: agents
       weight: 5
@@ -191,12 +193,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-07"
-last_item: "2026-10-05"
+last_item: "2026-10-13"
 ---
 
 # Stefano Demiliani
 
-> Stefano Demiliani (MVP): 88 posts in the knowledge base, 2025-04-07 to 2026-10-05, mostly about development, platform, integration.
+> Stefano Demiliani (MVP): 90 posts in the knowledge base, 2025-04-07 to 2026-10-13, mostly about development, platform, integration.
 
 [https://demiliani.com](https://demiliani.com) · blog · tier community
 
@@ -205,11 +207,11 @@ last_item: "2026-10-05"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (74) | performance (13) | api Dynamics 365 Business Central connector (1) |
-| platform (68) | al development (10) | codeunit Agent (1) |
-| integration (59) | security (9) | codeunit AOAI Chat Completion Params (1) |
-| administration (41) | automation (6) | codeunit AOAI Chat Messages (1) |
-| copilot (38) | azure logic apps (6) | codeunit AOAI Operation Response (1) |
-| localization (2) | on-premises (6) | codeunit AzureOpenAI (1) |
+| platform (70) | al development (10) | codeunit Agent (1) |
+| integration (61) | security (10) | codeunit AOAI Chat Completion Params (1) |
+| administration (43) | on-premises (7) | codeunit AOAI Chat Messages (1) |
+| copilot (38) | automation (6) | codeunit AOAI Operation Response (1) |
+| localization (2) | azure logic apps (6) | codeunit AzureOpenAI (1) |
 |  | agents (5) | codeunit File Management (1) |
 |  | azure functions (5) | codeunit Memory Mapped File (1) |
 |  | azure openai (5) | codeunit Parallel Session Management (1) |
@@ -227,10 +229,12 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: ************* 13
 - 2026-Q3: ***************** 17
-- 2026-Q4: * 1
+- 2026-Q4: *** 3
 
 ## Most recent
 
+- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../posts/demiliani-com/17492.md) (2026-10-13)
+- [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../posts/demiliani-com/17480.md) (2026-10-12)
 - [Dynamics 365 Business Central license keys: what changes from version 28.](../posts/demiliani-com/17470.md) (2026-10-05)
 - [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../posts/demiliani-com/15981.md) (2026-09-30)
 - [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../posts/demiliani-com/15968.md) (2026-09-24)
@@ -249,7 +253,5 @@ Items per quarter, oldest first:
 - [Visual Studio Code Agent hook for auditing your AL coding sessions.](../posts/demiliani-com/14011.md) (2026-07-30)
 - [The hidden cost of asking AI to do everything…](../posts/demiliani-com/13982.md) (2026-07-21)
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../posts/demiliani-com/13961.md) (2026-07-13)
-- [Dynamics 365 Business Central: Using Semantic Search from AL](../posts/demiliani-com/13931.md) (2026-06-26)
-- [GitHub Copilot sessions: obtaining tips for better usage.](../posts/demiliani-com/13908.md) (2026-06-23)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

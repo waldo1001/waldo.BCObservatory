@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:14:33.845Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -138,8 +138,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue
-    title: Discontinuing a Marketplace app
-    date: "2025-03-13"
+    title: Discontinuing a Marketplace App
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -257,8 +257,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle
-    title: Lifecycle of apps and extensions
-    date: "2025-06-02"
+    title: Lifecycle of Apps and Extensions
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

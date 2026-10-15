@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:28.073Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,35 +21,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/canada-local-functionality
     title: Canada Local Functionality
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/work-gifi-codes
     title: GIFI Codes in Canada
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits
     title: How to create deposits [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-print-troubleshooting-reports
     title: How to print troubleshooting reports [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax
     title: How to Set Up Use Tax and Purchase Tax [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -63,21 +63,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services
     title: Reporting GST/HST in Canada
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/ca-sales-tax
     title: Reporting Sales Tax [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts
     title: Unrealized Sales Tax Sales Payment Disc [CA]
-    date: "2025-02-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3a9a95e3569b8c591be1675be8f82eef24ee63602e53fdda077c4abb928a7df7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralforIWs.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralforIWs.Entitlement.al
     title: src/System Application/App/Entitlements/Dynamics365BusinessCentralforIWs.Entitlement.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Dynamics 365 Business Central for IWs" in System Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-System Application · System.Security.AccessControl · BC23-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralforIWs.Entitlement.al) · facts from BC29
+System Application · System.Security.AccessControl · BC23-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/Entitlements/Dynamics365BusinessCentralforIWs.Entitlement.al) · facts from BC29
 
 ## Across versions
 

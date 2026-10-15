@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:16.521Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:30.038Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
     title: Additional Fields on Item Ledger Entries and Value Entries [CZ]
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -70,7 +70,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries
     title: Adjust Settlement Exchange Rates for VAT Entries (Australia)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -105,7 +105,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
     title: Apply and Unapply General Ledger Entries [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -119,7 +119,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements
     title: Apply CODA Statements [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -140,7 +140,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors
     title: Assign Delivery Reminder Codes to Vendors [AT]
-    date: "2025-03-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -175,21 +175,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes
     title: Australian Business Numbers and Adjustment Notes
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/tax
     title: Australian Tax overview
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/austria-local-functionality
     title: Austria Local Functionality
-    date: "2025-12-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -217,7 +217,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements
     title: Automatically transfer and post CODA statements [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -252,49 +252,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/coda-bank-statements
     title: Belgian CODA Bank Statements [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation
     title: Belgian Direct Debit Using Domiciliation [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-banking
     title: Belgian Electronic Banking
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments
     title: Belgian electronic payments
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting
     title: Belgian Intrastat Reporting
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat
     title: Belgian VAT
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality
     title: Belgium local functionality
-    date: "2025-12-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

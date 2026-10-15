@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:18.438Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
     title: Apply and Unapply General Ledger Entries [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals
     title: Create Financial Journals [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon
     title: Export to Accon [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -106,7 +106,7 @@ Start with the page that matches your task. For bank statement processing, begin
 
 ## Learn pages
 
-- [Apply and Unapply General Ledger Entries [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries): Learn how to apply and unapply general ledger entries in the Belgian version of Business Central, to allow working with temporary and transfer accounts in the general ledger.
+- [Apply and Unapply General Ledger Entries [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries): Learn about the deprecated feature for applying and unapplying general ledger entries in the Belgian version of Business Central, and the replacement feature for reviewing account balances.
 - [Create Financial Journals [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals): Learn how to use the Journal Templates to create financial journals in the Belgian version of Business Central.
 - [Export to Accon [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon): Learn how to export the link to the Accon report. This link lets you create a file that can be imported into ACCON Plus for generating an annual income statement.
 

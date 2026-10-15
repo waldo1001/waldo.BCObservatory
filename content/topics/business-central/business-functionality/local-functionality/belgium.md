@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:58.763Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,231 +21,231 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
     title: Apply and Unapply General Ledger Entries [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements
     title: Apply CODA Statements [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements
     title: Automatically transfer and post CODA statements [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/coda-bank-statements
     title: Belgian CODA Bank Statements [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation
     title: Belgian Direct Debit Using Domiciliation [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-banking
     title: Belgian Electronic Banking
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments
     title: Belgian electronic payments
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting
     title: Belgian Intrastat Reporting
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat
     title: Belgian VAT
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgium-local-functionality
     title: Belgium local functionality
-    date: "2025-12-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-financial-journals
     title: Create Financial Journals [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals
     title: Deferrals in Sales ledger and Purchase ledger reports
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
     title: Enterprise Numbers and Branch Numbers [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations
     title: Export intrastat third-party declarations [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-payment-files
     title: Export Payment Files in the Belgian Version
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-to-accon
     title: Export to Accon [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-import-coda-statements
     title: How to Import CODA Statements [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period
     title: How to Limit the Posting Period [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat
     title: How to Make Manual Corrections to VAT [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports
     title: How to print periodic VAT reports [BE]
-    date: "2025-04-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
-    title: How to Print the Intrastat Form Report [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date
     title: How to Set the Work Date as the Posting Date [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols
     title: How to set up export protocols [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers
     title: How to Set Up Intrastat Establishment Numbers [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat
     title: How to set up Non-Deductible VAT [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory
     title: Make Journal Templates Mandatory [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements
     title: Manually Transfer and Post CODA Statements [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches
     title: Payment Journal Templates and Batches [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines
     title: Payment lines and general journal lines [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers
     title: Set Up Belgian Tariff Numbers [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types
     title: Set up declaration types [BE]
-    date: "2025-03-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions
     title: Set Up Vendors for Automatic Payment Suggestions [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments
     title: Test Electronic Payments [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
+    title: Verify the Intrastat Report Before Export [BE]
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

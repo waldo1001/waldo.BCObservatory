@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4ce5b0e5d75dda61d55a54812b75c06c92c47eeb11978061c38449a01310d6ad
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al
     title: src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "IDimensionPerspective" in Base Application (Microsoft.Finance.FinancialReports). 9 public procedures. Introduced in BC28, still in BC30.
 
-Base Application · Microsoft.Finance.FinancialReports · BC28-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al) · facts from BC29
+Base Application · Microsoft.Finance.FinancialReports · BC28-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Layers/W1/BaseApp/Finance/FinancialReports/IDimensionPerspective.Interface.al) · facts from BC29
 
 ## Procedures
 

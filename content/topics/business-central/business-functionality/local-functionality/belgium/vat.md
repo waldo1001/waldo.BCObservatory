@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:58.943Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,70 +21,70 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting
     title: Belgian Intrastat Reporting
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-vat
     title: Belgian VAT
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations
     title: Export intrastat third-party declarations [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat
     title: How to Make Manual Corrections to VAT [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports
     title: How to print periodic VAT reports [BE]
-    date: "2025-04-24"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
-    title: How to Print the Intrastat Form Report [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers
     title: How to Set Up Intrastat Establishment Numbers [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat
     title: How to set up Non-Deductible VAT [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers
     title: Set Up Belgian Tariff Numbers [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types
     title: Set up declaration types [BE]
-    date: "2025-03-03"
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
+    title: Verify the Intrastat Report Before Export [BE]
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -95,11 +95,11 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports
-    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types
+    - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report
   objects:
     - object/page/310
   features: []
@@ -167,11 +167,11 @@ Start with the Belgian VAT and Belgian Intrastat Reporting overview pages. Then 
 - [Export intrastat third-party declarations [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations): In Belgium, an external person or company must fill out the Intrastat declaration.
 - [How to Make Manual Corrections to VAT [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat): You can make corrections to posted VAT entries without posting the correction into the VAT or general ledger entries.
 - [How to print periodic VAT reports [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports): The VAT reporting feature lets you print VAT transaction details. You must send three VAT reports to the Belgian tax authorities.
-- [How to Print the Intrastat Form Report [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report): The Intrastat Form report is used in Belgium for monthly reporting of goods movement. This report must be sent to both the statistics authorities and tax authorities.
 - [How to Set Up Intrastat Establishment Numbers [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers): Learn how to set up the Intrastat establishment number, a company identification number used in the Intrastat declaration.
 - [How to set up Non-Deductible VAT [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat): Learn how to calculate VAT amounts for specific expense types that can be partially declared as VAT.
 - [Set Up Belgian Tariff Numbers [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers): Learn how to set up eight-digit Belgian tariff numbers for compliance with customs and tax regulations.
 - [Set up declaration types [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types): Learn how to set up simplified and extended declaration types in the Belgian version of Business Central.
+- [Verify the Intrastat Report Before Export [BE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report): Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.
 
 ## Business Central pages and reports
 

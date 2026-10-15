@@ -14,17 +14,17 @@ review:
   at: "2026-10-07T23:29:36.485Z"
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: ce419ac8e476ece88da3530f22e7d1c6c08c33abb0f2dff58d4030dfe7c209cb
+  input_hash: c85afcc19fe892d26aceba9d21ef55c250eb1338a0ac11464b8b86a3e2d95088
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-no
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -115,7 +115,7 @@ links:
 country: "NO"
 version: "29"
 w1_version: "29"
-added_objects: 278
+added_objects: 279
 replaced_objects: 75
 removed_objects: 0
 added_fields: 240
@@ -148,13 +148,13 @@ Sales and service e-invoicing supports EHF and PEPPOL BIS 3.0. Customers get Acc
 - Recurring orders: recurring groups with date formulas, recurring group codes on blanket sales orders, and a Create Recurring Orders batch job.
 - Payroll import into general journals, and Application always Allowed in General Ledger Setup and User Setup for applying entries in closed periods.
 
-Narrative written by Sonnet from the code diff and 42 Learn page summaries. In numbers: Norway (NO) localization of Business Central in BC29: 278 objects of its own, 75 W1 objects changed (240 fields and 5 events added). From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 42 Learn page summaries. In numbers: Norway (NO) localization of Business Central in BC29: 279 objects of its own, 75 W1 objects changed (240 fields and 5 events added). From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
 | Area | W1 objects changed | Own objects | Fields added |
 |---|---|---|---|
-| [Finance](#finance) | 19 | 108 | 94 |
+| [Finance](#finance) | 19 | 109 | 94 |
 | [Purchases](#purchases) | 9 | 45 | 79 |
 | [Sales](#sales) | 33 | 16 | 59 |
 | [Service](#service) | 0 | 36 | 0 |
@@ -177,7 +177,7 @@ Why: Learn describes proportional VAT for assets used for both deductible and no
 
 Objects: [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/344 "VAT Reporting Code"](../objects/table/344.md), [table/254 "VAT Entry"](../objects/table/254.md), [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [codeunit/10673 "Generate SAF-T File"](../objects/codeunit/10673-no.md) (own), [codeunit/10692 "Generate SAF-T 1.3 File"](../objects/codeunit/10692-no.md) (own), [codeunit/10685 "Elec. VAT Submit Return"](../objects/codeunit/10685-no.md) (own).
 
-[All 127 objects of Finance in the diff](?ns=Finance#country-diff)
+[All 128 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
@@ -361,7 +361,7 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 
 ## Objects of its own
 
-278 objects only this country has.
+279 objects only this country has.
 
 - [codeunit/9997 "Upgrade Tag Def - Country"](../objects/codeunit/9997-no.md)
 - [codeunit/10600 "Norwegian VAT Tools"](../objects/codeunit/10600-no.md)
@@ -541,6 +541,7 @@ Objects: [codeunit/10601 "DocumentTools"](../objects/codeunit/10601-no.md) (own)
 - [permissionsetextension/44314 "D365 READ - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/44314-no.md)
 - [permissionsetextension/49778 "D365 BASIC - Standard Audit File - Tax Localization for Norway"](../objects/permissionsetextension/49778-no.md)
 - [query/10670 "SAF-T G/L Entry By Trans."](../objects/query/10670-no.md)
+- [query/10671 "SAF-T G/L Entry By Doc."](../objects/query/10671-no.md)
 - [report/10601 "Trial Balance/Previous Period"](../objects/report/10601-no.md)
 - [report/10602 "Trade Settlement"](../objects/report/10602-no.md)
 - [report/10603 "G/L Register Customer/Vendor"](../objects/report/10603-no.md)

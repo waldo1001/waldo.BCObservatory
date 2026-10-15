@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.931Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -243,13 +243,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
-    title: API developer overview
-    date: "2025-02-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api-pagetype
     title: API page type
     date: "2026-09-21"
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-define-customer-vendor-document-layouts
     title: Assign document layouts to customers or vendors
     date: "2024-11-28"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-async-overview
+    title: Async processing Overview
+    date: "2023-10-04"
     commit: null
     t: null
     quote: null

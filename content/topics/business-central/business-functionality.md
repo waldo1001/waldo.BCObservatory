@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T13:37:16.092Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:30.038Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -258,7 +258,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
     title: Additional Fields on Item Ledger Entries and Value Entries [CZ]
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -279,7 +279,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries
     title: Adjust Settlement Exchange Rates for VAT Entries (Australia)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

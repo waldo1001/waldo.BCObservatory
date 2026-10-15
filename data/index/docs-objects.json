@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "d6dc01d0b49fd1b899d173b7c7b5876ea5927b6b",
-      "29": "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
+      "29": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
       "30": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
     },
-    "forms": 1728,
-    "forms_hash": "8cc75528740771be87e761006a731d2e8a8ebd8445393cf61a322a35b4c4f595"
+    "forms": 1731,
+    "forms_hash": "c03496fcd0d4b211a1e4846cc3c8b24ed04e029e89953b40c9cecc3d00aa0f68"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "d6dc01d0b49fd1b899d173b7c7b5876ea5927b6b",
-    "29": "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
+    "29": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
     "30": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
   },
-  "docs": 1592,
-  "links": 5336,
+  "docs": 1595,
+  "links": 5345,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -10260,10 +10260,9 @@
     ],
     "docs/learn-smb-docs/business-central/admin-fabric.md": [
       {
-        "key": "page/6316",
-        "name": "Sustainability Report Power BI",
+        "key": "page/48511",
+        "name": "Fabric Platform Setup",
         "versions": [
-          "29",
           "30"
         ],
         "countries": [
@@ -10272,10 +10271,9 @@
         "obsolete": null
       },
       {
-        "key": "page/6317",
-        "name": "To Net Zero Carbon Power BI",
+        "key": "page/48519",
+        "name": "Fabric Platform Setup Wizard",
         "versions": [
-          "29",
           "30"
         ],
         "countries": [
@@ -10567,6 +10565,63 @@
         "obsolete": null
       }
     ],
+    "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md": [
+      {
+        "key": "page/48511",
+        "name": "Fabric Platform Setup",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48508",
+        "name": "Fabric Platform Companies",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48512",
+        "name": "Fabric Platform Tables",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48515",
+        "name": "Fabric Config Packages",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48513",
+        "name": "Fabric Config Package Card",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      }
+    ],
     "docs/learn-smb-docs/business-central/admin-manage-user-settings-preferences.md": [
       {
         "key": "page/9204",
@@ -10591,6 +10646,30 @@
         ],
         "countries": [
           "w1"
+        ],
+        "obsolete": null
+      }
+    ],
+    "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md": [
+      {
+        "key": "page/48510",
+        "name": "Fabric Platform Export Summary",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48509",
+        "name": "Fabric Platform Export Details",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
         ],
         "obsolete": null
       }
@@ -10788,6 +10867,30 @@
         "name": "Master Data Full Synch. Review",
         "versions": [
           "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      }
+    ],
+    "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md": [
+      {
+        "key": "page/48519",
+        "name": "Fabric Platform Setup Wizard",
+        "versions": [
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
+        "key": "page/48511",
+        "name": "Fabric Platform Setup",
+        "versions": [
           "30"
         ],
         "countries": [
@@ -84122,12 +84225,6 @@
     ],
     "page/6316": [
       {
-        "id": "docs/learn-smb-docs/business-central/admin-fabric.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
-        "title": "Introduction to Microsoft Fabric and Business Central",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/admin-powerbi.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi",
         "title": "Introduction to Business Central and Power BI",
@@ -84141,12 +84238,6 @@
       }
     ],
     "page/6317": [
-      {
-        "id": "docs/learn-smb-docs/business-central/admin-fabric.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
-        "title": "Introduction to Microsoft Fabric and Business Central",
-        "via": "ms.search.form"
-      },
       {
         "id": "docs/learn-smb-docs/business-central/admin-powerbi.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/admin-powerbi",
@@ -100133,6 +100224,88 @@
         "id": "docs/learn-smb-docs/business-central/ui-extensions-data-replication.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/ui-extensions-data-replication",
         "title": "Cloud Migration Extensions for Migrating to Business Central Online",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48508": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "title": "Manage Business Central Synchronization with Microsoft Fabric",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48509": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
+        "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48510": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
+        "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48511": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
+        "title": "Data Mirroring to Microsoft Fabric from Business Central",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "title": "Manage Business Central Synchronization with Microsoft Fabric",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
+        "title": "Set up Business Central data mirroring to Microsoft Fabric",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48512": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "title": "Manage Business Central Synchronization with Microsoft Fabric",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48513": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "title": "Manage Business Central Synchronization with Microsoft Fabric",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48515": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+        "title": "Manage Business Central Synchronization with Microsoft Fabric",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/48519": [
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-fabric.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
+        "title": "Data Mirroring to Microsoft Fabric from Business Central",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
+        "title": "Set up Business Central data mirroring to Microsoft Fabric",
         "via": "ms.search.form"
       }
     ],

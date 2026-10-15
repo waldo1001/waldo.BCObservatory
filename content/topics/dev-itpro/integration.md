@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.930Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -64,13 +64,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     title: API (v2.0) for Dynamics 365 Business Central
     date: "2026-08-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
-    title: API developer overview
-    date: "2025-02-07"
     commit: null
     t: null
     quote: null
@@ -133,7 +126,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
     title: Azure Key Vaults with Business Central
-    date: "2021-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_contact
     title: contact resource type
     date: "2026-06-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/ui-security-groups
+    title: Control Access Using Security Groups
+    date: "2026-04-07"
     commit: null
     t: null
     quote: null

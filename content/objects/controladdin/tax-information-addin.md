@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1734700d0fd4d4580aaa23ff572177e7c7bb1bc4dcd05e0b3ef9efbebb67da7d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al
     title: src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Control add-in "Tax Information Addin" in INTaxEngine (Microsoft.Finance.TaxEngine.TaxTypeHandler). 1 public procedures. Introduced in BC29, still in BC30.
 
-INTaxEngine · Microsoft.Finance.TaxEngine.TaxTypeHandler · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al) · facts from BC29
+INTaxEngine · Microsoft.Finance.TaxEngine.TaxTypeHandler · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxInformation/ControlAddin/TaxInformationAddin.ControlAddIn.al) · facts from BC29
 
 ## Procedures
 

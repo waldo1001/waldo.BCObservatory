@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
+      "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
       "4",
-      "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
+      "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18800,
-    "bound": 12754,
+    "tooltips": 18808,
+    "bound": 12760,
     "unparsed": 2988,
-    "unmatched": 3058,
+    "unmatched": 3060,
     "tables": 1080,
-    "fields": 8961
+    "fields": 8963
   },
   "tables": {
     "table/4": {
@@ -19189,6 +19189,16 @@
         "tooltip": "Specifies how many units are being returned.",
         "page": "page/6628",
         "control": "Quantity"
+      },
+      "Return Qty. Received": {
+        "tooltip": "Specifies the quantity of items already received when the sales return order was archived.",
+        "page": "page/6628",
+        "control": "Return Qty. Received"
+      },
+      "Return Qty. to Receive": {
+        "tooltip": "Specifies the quantity of items to receive as recorded when the sales return order was archived.",
+        "page": "page/6628",
+        "control": "Return Qty. to Receive"
       },
       "Subscription Lines": {
         "tooltip": "Specifies the number of Subscription Lines for the archived sales line.",

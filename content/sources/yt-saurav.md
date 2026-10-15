@@ -2,7 +2,7 @@
 id: source/yt-saurav
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 15 videos in the knowledge base, 2026-09-07 to 2026-10-02, mostly about development, administration, platform."
+summary: "Saurav Dhyani (MVP): 16 videos in the knowledge base, 2026-09-07 to 2026-10-09, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T13:26:00.585Z"
+  at: "2026-10-15T00:20:09.603Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8af0d1e32430f50e51aca9a447630c1b257eb1d6530bea4d3d44ab4397156ad0
+  input_hash: c31bd4902dc051674dea968fa6271db804810d7d8f6c8ed767e01e886e0a8497
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UC2SnEeamdCLN98MXFprKd_w
@@ -60,6 +60,7 @@ links:
     - video/TH70oJI4Ae0
     - video/qwEnuR0vgYo
     - video/x0XF0lBvgEE
+    - video/KA1vHd1hITY
   posts: []
   guidelines: []
 source_id: yt-saurav
@@ -68,13 +69,13 @@ url: https://www.youtube.com/channel/UC2SnEeamdCLN98MXFprKd_w
 author: Saurav Dhyani
 mvp: true
 full_text: false
-item_count: 15
+item_count: 16
 footprint:
   systems:
     - id: development
       weight: 8
     - id: administration
-      weight: 2
+      weight: 3
     - id: platform
       weight: 2
     - id: copilot
@@ -113,6 +114,8 @@ footprint:
       weight: 1
     - id: other BC28 US environment
       weight: 1
+    - id: other custom settings.config
+      weight: 1
     - id: other field 465
       weight: 1
     - id: other field 469
@@ -126,8 +129,6 @@ footprint:
     - id: other ModuleDependencyInfo
       weight: 1
     - id: other ModuleInfo
-      weight: 1
-    - id: other NavApp.GetCurrentModuleInfo
       weight: 1
   features:
     - id: feature/573304
@@ -151,12 +152,12 @@ footprint:
     - id: feature/573357
       weight: 1
 first_item: "2026-09-07"
-last_item: "2026-10-02"
+last_item: "2026-10-09"
 ---
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 15 videos in the knowledge base, 2026-09-07 to 2026-10-02, mostly about development, administration, platform.
+> Saurav Dhyani (MVP): 16 videos in the knowledge base, 2026-09-07 to 2026-10-09, mostly about development, administration, platform.
 
 [https://www.youtube.com/channel/UC2SnEeamdCLN98MXFprKd_w](https://www.youtube.com/channel/UC2SnEeamdCLN98MXFprKd_w) · channel · tier community
 
@@ -165,24 +166,24 @@ last_item: "2026-10-02"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (8) | al development (4) | page customer (2) |
-| administration (2) | database performance (2) | codeunit get next entry function (1) |
+| administration (3) | database performance (2) | codeunit get next entry function (1) |
 | platform (2) | table extensions (2) | other AI at Work Roadmap (1) |
 | copilot (1) | upgrade scheduling (2) | other BC28 US environment (1) |
-| reporting (1) | action inheritance (1) | other field 465 (1) |
-| sales (1) | admin center (1) | other field 469 (1) |
-|  | admin enablement (1) | other field 470 (1) |
-|  | administrators (1) | other MCP server (1) |
-|  | agent ecosystem (1) | other Microsoft Learn article (1) |
-|  | aggregate calculations (1) | other ModuleDependencyInfo (1) |
+| reporting (1) | action inheritance (1) | other custom settings.config (1) |
+| sales (1) | admin center (1) | other field 465 (1) |
+|  | admin enablement (1) | other field 469 (1) |
+|  | administrators (1) | other field 470 (1) |
+|  | agent ecosystem (1) | other MCP server (1) |
+|  | aggregate calculations (1) | other Microsoft Learn article (1) |
+|  |  | other ModuleDependencyInfo (1) |
 |  |  | other ModuleInfo (1) |
-|  |  | other NavApp.GetCurrentModuleInfo (1) |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: ************* 13
-- 2026-Q4: ** 2
+- 2026-Q4: *** 3
 
 ## Roadmap features it demonstrates
 
@@ -202,6 +203,7 @@ Items per quarter, oldest first:
 
 ## Most recent
 
+- [How to Install Business Central 29 On-Premises \| Full Setup](../videos/KA1vHd1hITY.md) (2026-10-09)
 - [Microsoft Ends Business Central Release Plans: What Changes?](../videos/x0XF0lBvgEE.md) (2026-10-02)
 - [Business Central 29.0 Is GA: New Environment](../videos/qwEnuR0vgYo.md) (2026-10-01)
 - [Business Central 29: How Many Fields Can a Table Really Have?](../videos/TH70oJI4Ae0.md) (2026-09-22)

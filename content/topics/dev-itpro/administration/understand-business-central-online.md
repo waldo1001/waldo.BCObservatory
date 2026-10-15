@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:56.725Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,7 +112,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline
     title: Update cycles
-    date: "2026-02-11"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

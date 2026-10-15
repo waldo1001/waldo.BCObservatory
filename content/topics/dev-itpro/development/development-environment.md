@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.933Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,13 +50,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
     title: Analyze AL Performance with the AL Profiler
     date: "2026-10-07"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity
-    title: App identity
-    date: "2024-05-03"
     commit: null
     t: null
     quote: null
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-testing-application
     title: Testing the application overview
     date: "2025-09-30"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-txt2al-tool
+    title: The Txt2Al Conversion Tool
+    date: "2024-04-18"
     commit: null
     t: null
     quote: null

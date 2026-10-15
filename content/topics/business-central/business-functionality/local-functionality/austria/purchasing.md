@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:55.042Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,49 +21,49 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors
     title: Assign Delivery Reminder Codes to Vendors [AT]
-    date: "2025-03-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text
     title: Delivery reminder terms, levels, and text [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/delivery-reminders
     title: Delivery reminders in the Austrian version
-    date: "2025-03-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-generate-delivery-reminders
     title: Generate delivery reminders [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-delivery-reminders-manually
     title: How to create delivery reminders manually [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminders
     title: How to Set Up Delivery Reminders [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders
     title: Print test reports for delivery reminders [AT]
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

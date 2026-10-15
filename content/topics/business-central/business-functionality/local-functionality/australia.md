@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:29.795Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:30.038Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries
     title: Adjust Settlement Exchange Rates for VAT Entries (Australia)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -42,161 +42,161 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes
     title: Australian Business Numbers and Adjustment Notes
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/tax
     title: Australian Tax overview
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements
     title: Calculate and Post Withholding Tax Settlements (AU)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments
     title: Calculate goods and services tax on prepayments (AU)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts
     title: Calculating Distribution Amounts [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow
     title: Compare bank cash flow [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments
     title: Create check installments [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage
     title: Determine Sales Price by Cost Plus Percentage (AU)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-
     title: Electronic Funds Transfer (EFT) [AU]
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-au-einvoice
     title: Electronic invoicing in Australia
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers
     title: How to Enter Australian Business Numbers in the Australian version
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting
     title: Payment Times Reporting in the Australian version
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports
     title: Print balance sheet reports [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports
     title: Print Bank Account Reconciliation Reports
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports
     title: Print deposit slip reports [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports
     title: Print goods and service tax settlement reports (AU)
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements
     title: Print income statements [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements
     title: Set Up Business Units for Business Activity Statements (AU)
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting
     title: Set up goods and services tax posting [AU]
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax
     title: Set up revenue types for withholding tax [AU]
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax
     title: Set Up Vendors Without ABN for Calculating WHT
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-withholding-tax
     title: Set Up Withholding Tax [AU]
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax
     title: Withholding Tax in the Australian version
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

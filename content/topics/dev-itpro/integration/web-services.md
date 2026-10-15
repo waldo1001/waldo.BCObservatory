@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,13 +57,6 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/
     title: API (v2.0) for Dynamics 365 Business Central
     date: "2026-08-10"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
-    title: API developer overview
-    date: "2025-02-07"
     commit: null
     t: null
     quote: null
@@ -260,6 +253,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/financereportsapi/resources/dynamics_detailedvendorledgerentry
     title: detailedVendorLedgerEntry resource type (Beta)
     date: "2024-05-31"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
+    title: Develop APIs with Pages and Queries
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

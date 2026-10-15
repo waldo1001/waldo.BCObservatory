@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:15.671Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -34,8 +34,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle
-    title: Lifecycle of apps and extensions
-    date: "2025-06-02"
+    title: Lifecycle of Apps and Extensions
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -125,7 +125,7 @@ Start with "Lifecycle of apps and extensions" for the overall model. Then read "
 
 - [FAQ about Updating your Business Central App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-update): Get answers to some of your questions about updating your app for Dynamics 365 Business Central
 - [Hotfix a Marketplace app](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-hotfixing-appsource-app): Learn how to hotfix a Marketplace app in Dynamics 365 Business Central.
-- [Lifecycle of apps and extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle): Overview of the process of updating an app for Business Central.
+- [Lifecycle of Apps and Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle): Learn how Marketplace apps behave during service and app updates, how administrators install updates, and how extension data is retained.
 - [Lifecycle of apps and extensions FAQ](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-update-app-life-cycle-faq): Overview of the frequently asked questions about updating an app on Marketplace.
 - [Update Lifecycle for Tenant Customizations](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-customization-update-lifecycle): Overview of the process of ensuring extension compatibility with update versions
 - [Upgrading Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions): Describes how to add code to upgrade data in a new extension version.

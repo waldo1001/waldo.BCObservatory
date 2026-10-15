@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 16cc0666fa392babed3a8755c4e30677d05de2f59ef3e8dd5a409de3ccd8351e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al
     title: src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -78,7 +78,7 @@ relations:
 
 > Control add-in "PDF Viewer" in EDocument. 4 public procedures. Introduced in BC29, still in BC30. Obsolete (Pending since 27.0).
 
-EDocument · BC29-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al) · facts from BC29
+EDocument · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/ControlAddIn/PDFViewer.ControlAddIn.al) · facts from BC29
 
 ## Properties
 

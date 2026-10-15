@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-13T00:33:07.078Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,27 +47,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
-    title: admin manage fabric export
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
-    title: admin monitor fabric export
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring
-    title: admin set up fabric mirroring
-    date: "2026-10-09"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area
     title: Analytics by functional area
     date: "2024-05-01"
@@ -77,14 +56,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting
     title: Analytics, business intelligence, and reporting overview
-    date: "2024-11-13"
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
     title: Analyze Data in Business Intelligence Tools
-    date: "2025-01-27"
+    date: "2026-09-22"
     commit: null
     t: null
     quote: null
@@ -166,6 +145,13 @@ evidence:
     t: null
     quote: null
   - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
+    title: Data Mirroring to Microsoft Fabric from Business Central
+    date: "2026-10-08"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/ui-design-word-layouts-business-central-add-in
     title: Design Word Layouts with the Business Central Add-in
     date: "2026-09-09"
@@ -181,8 +167,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fabric-faq
-    title: fabric faq
-    date: "2026-10-09"
+    title: FAQ About Mirroring Business Central Data to Microsoft Fabric
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -229,9 +215,9 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
-    title: Introduction to Microsoft Fabric and Business Central
-    date: "2024-04-24"
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export
+    title: Manage Business Central Synchronization with Microsoft Fabric
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -246,6 +232,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout
     title: Map Data Fields in Word Layouts
     date: "2026-09-09"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export
+    title: Monitor and Troubleshoot Microsoft Fabric Synchronization
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -295,6 +288,13 @@ evidence:
     url: https://learn.microsoft.com/dynamics365/business-central/across-powerbi-apps-by-functional-area
     title: Power BI apps/reports for functional areas
     date: "2026-09-14"
+    commit: null
+    t: null
+    quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/production-reports
+    title: Production Reports and Analytics
+    date: "2026-09-18"
     commit: null
     t: null
     quote: null
@@ -458,6 +458,14 @@ links:
     - object/page/37056
     - object/page/37057
     - object/page/37058
+    - object/page/48508
+    - object/page/48509
+    - object/page/48510
+    - object/page/48511
+    - object/page/48512
+    - object/page/48513
+    - object/page/48515
+    - object/page/48519
     - object/page/99000802
     - object/page/99000820
     - object/page/99000887
@@ -639,7 +647,7 @@ children:
   - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 coverage:
   learn: 70
-  code: 310
+  code: 318
   video: 0
   blog: 1
   guideline: 0
@@ -923,6 +931,14 @@ bc_forms:
   - 37056
   - 37057
   - 37058
+  - 48508
+  - 48509
+  - 48510
+  - 48511
+  - 48512
+  - 48513
+  - 48515
+  - 48519
   - 99000753
   - 99000756
   - 99000757
@@ -1154,6 +1170,14 @@ The pages, reports and queries this hub's Learn pages name (ms.search.form, API 
 - [Page 9666 "Report Theme and Header/Footer"](../../objects/page/9666.md) · captioned "Manage themes and header-footer layouts" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 9670 "Layout Theme and Header/Footer"](../../objects/page/9670.md) · captioned "Theme and header-footer per layout" · via [Develop reports](analytics-business-intelligence-and-repo/develop-reports.md)
 - [Page 36951 "PowerBI Reports Setup"](../../objects/page/36951.md) · captioned "Power BI Reports Setup" · on [Table 36951 "PowerBI Reports Setup"](../../objects/table/36951.md) · via [KPIs, dashboards, and financial reports](analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports.md)
+- [Page 48508 "Fabric Platform Companies"](../../objects/page/48508.md) · captioned "Fabric Company Configuration" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48509 "Fabric Platform Export Details"](../../objects/page/48509.md) · captioned "Fabric Synchronization Details" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48510 "Fabric Platform Export Summary"](../../objects/page/48510.md) · captioned "Fabric Synchronization Overview" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48511 "Fabric Platform Setup"](../../objects/page/48511.md) · captioned "Microsoft Fabric Mirroring Setup" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48512 "Fabric Platform Tables"](../../objects/page/48512.md) · captioned "Fabric Table Configuration" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48513 "Fabric Config Package Card"](../../objects/page/48513.md) · captioned "Fabric Config Package" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48515 "Fabric Config Packages"](../../objects/page/48515.md) · captioned "Fabric Configuration Packages" · on [Table 48501 "Fabric Config Package"](../../objects/table/48501.md) · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
+- [Page 48519 "Fabric Platform Setup Wizard"](../../objects/page/48519.md) · captioned "Set Up Microsoft Fabric Mirroring" · via [Analyze data in business intelligence tools](analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to.md)
 - [Page 99000802 "Capacity Units of Measure"](../../objects/page/99000802.md) · on [Table 99000780 "Capacity Unit of Measure"](../../objects/table/99000780.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 99000820 "Prod. Order Capacity Need"](../../objects/page/99000820.md) · on [Table 5410 "Prod. Order Capacity Need"](../../objects/table/5410.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)
 - [Page 99000887 "Work Center Load"](../../objects/page/99000887.md) · on [Table 99000754 "Work Center"](../../objects/table/99000754.md) · via [Built-in reports](analytics-business-intelligence-and-repo/built-in-reports.md)

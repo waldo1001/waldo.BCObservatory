@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -251,8 +251,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package
-    title: Export and package analysis views
-    date: "2026-02-27"
+    title: Export and Package Analysis Views
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

@@ -11,7 +11,7 @@ review:
   at: "2026-10-07T02:15:42.739Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,8 +82,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue
-    title: Discontinuing a Marketplace app
-    date: "2025-03-13"
+    title: Discontinuing a Marketplace App
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -131,8 +131,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle
-    title: Lifecycle of apps and extensions
-    date: "2025-06-02"
+    title: Lifecycle of Apps and Extensions
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -347,9 +347,9 @@ After release, the lifecycle pages describe how service updates, app updates, bu
 - [Components and capabilities](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/app-components): Discover Dynamics 365 Business Central App Components & Deployment Steps - Microsoft's Base Application, Platform Updates, & Ecosystem Integrations.
 - [Customizing Tenants](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants): Read about how to build fully custom functionality or adapt what is already available out-of-the box.
 - [Development of a Localization Solution](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization): Comply with regulatory requirements in Dynamics 365 Business Central.
-- [Discontinuing a Marketplace app](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue): Learn how to discontinue an app that is available on Marketplace.
+- [Discontinuing a Marketplace App](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-discontinue): Learn how to stop distributing a Marketplace app, notify existing customers, preserve support during the wind-down, and manage installations.
 - [Get started building apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/get-started): Learn how you can get started building apps for Dynamics 365 Business Central in six easy steps.
-- [Lifecycle of apps and extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle): Overview of the process of updating an app for Business Central.
+- [Lifecycle of Apps and Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-life-cycle): Learn how Marketplace apps behave during service and app updates, how administrators install updates, and how extension data is retained.
 - [Maintain Marketplace apps and per-tenant extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-maintain): Learn about resources available to you as the publisher of an app or per-tenant extension for keeping your code in compliance with the base product.
 - [Microsoft's responsibilities for apps on Business Central online](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/deployment/microsoft-responsibilities): Learn about what Microsoft does for your apps and your customers.
 - [The SMB opportunity for app publishers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher): Learn about the business opportunity we see for software companies in the SMB space if you build your solution on Dynamics 365 Business Central.

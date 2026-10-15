@@ -2,7 +2,7 @@
 id: app/microsoftfabricmirroring
 type: app
 title: MicrosoftFabricMirroring
-summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); no Learn hub documents its objects yet."
+summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-15T01:07:01.688Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 1d5eb5d32f1ad3e26b8f41545d449125ebb2ddfdb8c46034c4bf2f244c3be527
+  input_hash: bb380cfe3441a8fe9944eeb4c5196759e753ae7c365d5be759868b1f2ccdaa89
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/MicrosoftFabricMirroring/app
@@ -66,7 +66,8 @@ links:
     - object/permissionset/48531
     - object/permissionset/48532
   features: []
-  topics: []
+  topics:
+    - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
   localizations: []
   videos: []
   posts: []
@@ -83,16 +84,22 @@ counts:
     table: 3
     permissionset: 3
     enum: 1
-  hubs: 0
+  hubs: 1
   videos: 0
   posts: 0
 ---
 
 # MicrosoftFabricMirroring
 
-> MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); no Learn hub documents its objects yet.
+> MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespace `Microsoft.FabricExport` · BC30 · system development · facts from the code pillar and the joins, nothing machine-written
+
+## What Learn documents it
+
+The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
+
+- [Microsoft Fabric](../topics/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric.md) (Analytics, business intelligence, and reporting > Analyze data in business intelligence tools): 9 objects
 
 ## Objects
 

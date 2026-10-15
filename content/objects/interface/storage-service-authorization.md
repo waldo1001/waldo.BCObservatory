@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-11T00:31:51.816Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5dc5479a83900708fc03073f8bd153e3e2df86714da61f010eaf0ac642807377
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Azure%20Storage%20Services%20Authorization/src/StorageServiceAuthorization.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/Azure%20Storage%20Services%20Authorization/src/StorageServiceAuthorization.Interface.al
     title: src/System Application/App/Azure Storage Services Authorization/src/StorageServiceAuthorization.Interface.al (releases/29.x)
     date: null
-    commit: ea08af5ef2d6a9b5c5af4a029288abbe2c883220
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Storage Service Authorization" in System Application (System.Azure.Storage). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Azure.Storage · BC23-30 · [source at ea08af5e](https://github.com/microsoft/BCApps/blob/ea08af5ef2d6a9b5c5af4a029288abbe2c883220/src/System%20Application/App/Azure%20Storage%20Services%20Authorization/src/StorageServiceAuthorization.Interface.al) · facts from BC29
+System Application · System.Azure.Storage · BC23-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/Azure%20Storage%20Services%20Authorization/src/StorageServiceAuthorization.Interface.al) · facts from BC29
 
 ## Procedures
 

@@ -2,14 +2,14 @@
 id: object/interface/peppol-po-line-delivery-period
 type: object
 title: Interface "PEPPOL PO Line Delivery Period"
-summary: Interface "PEPPOL PO Line Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC30.
+summary: Interface "PEPPOL PO Line Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
   - interface
   - peppol
 versions:
-  introduced: "30"
+  introduced: "29"
   last_changed: null
   deprecated: null
 review:
@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:32:29.863Z"
+  at: "2026-10-15T01:03:07.514Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 27dcbe9ad9447bbe727e2430413fb4322dbf6533ccb86b6b51a0ffcb0c957e37
+  input_hash: e37389cd903925f80b6263574a7b0310d56f530b01ebc6d66b180ff4aeea67e9
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al
-    title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al (main)
+    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al
+    title: src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al (releases/29.x)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
     t: null
     quote: null
 links:
@@ -47,12 +47,13 @@ name: PEPPOL PO Line Delivery Period
 namespace: Microsoft.Peppol
 app: PEPPOL
 extends: null
-first_version: "30"
+first_version: "29"
 last_version: "30"
 present_in:
+  - "29"
   - "30"
 changed_in: []
-source_major: "30"
+source_major: "29"
 obsolete: null
 countries: []
 ms_search_form_ids: []
@@ -75,9 +76,9 @@ relations:
 
 # Interface "PEPPOL PO Line Delivery Period"
 
-> Interface "PEPPOL PO Line Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC30.
+> Interface "PEPPOL PO Line Delivery Period" in PEPPOL (Microsoft.Peppol). 1 public procedures. Introduced in BC29, still in BC30.
 
-PEPPOL · Microsoft.Peppol · BC30 · [source at f18567dc](https://github.com/microsoft/BCApps/blob/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al) · facts from BC30
+PEPPOL · Microsoft.Peppol · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/PEPPOL/app/src/Interfaces/PEPPOLPOLineDeliveryPeriod.Interface.al) · facts from BC29
 
 ## Procedures
 
@@ -89,7 +90,7 @@ PEPPOL · Microsoft.Peppol · BC30 · [source at f18567dc](https://github.com/mi
 
 ## Across versions
 
-- Present in: BC30
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

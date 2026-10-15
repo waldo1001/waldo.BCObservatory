@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:52.744Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge
     title: Czech local functionality - Reverse charge in setup and posting
-    date: "2025-06-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-date
     title: Czech local functionality - Setup VAT date
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -49,7 +49,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate
     title: Czech local functionality - VAT exchange rate
-    date: "2025-06-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -77,21 +77,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-vies-cz-export
     title: Czech Local Functionality - Vies - CZ export
-    date: "2025-06-05"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency
     title: Czech Local Functionality VAT correction in Local Currency
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency
     title: Functional Currency in the Czech version
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

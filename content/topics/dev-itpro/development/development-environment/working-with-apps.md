@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.954Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -33,13 +33,6 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity
-    title: App identity
-    date: "2024-05-03"
-    commit: null
-    t: null
-    quote: null
-  - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime
     title: Choose runtime version in AL
     date: "2026-08-20"
@@ -53,13 +46,20 @@ evidence:
     commit: null
     t: null
     quote: null
+  - kind: learn
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity
+    title: Understand App Identity for AL Apps
+    date: "2026-10-09"
+    commit: null
+    t: null
+    quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity
   objects: []
   features: []
   topics:
@@ -113,8 +113,8 @@ Start with App identity and Choose runtime version in AL, since they define the 
 
 - [Adding and Accessing Resources in Business Central extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources): Describes how to package, share, and access resources, such as sample data, images, and schemas, across Business Central extensions.
 - [Adding data for Extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-export-data-for-extension): How you can add data such as permisisons, web services, and table data for an extension.
-- [App identity](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity): Describes what makes up the app identity of an app for Business Central.
 - [Choose runtime version in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime): How to choose runtime in AL for Business Central.
 - [FAQ about Library & Dependency Apps in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/app-faq-dependencies-libraries): Get answers to some of your questions about library apps and dependency apps in Dynamics 365 Business Central
+- [Understand App Identity for AL Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-identity): Learn how app IDs, versions, names, publishers, and tenant scopes identify AL apps and affect upgrades, dependencies, and data continuity.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

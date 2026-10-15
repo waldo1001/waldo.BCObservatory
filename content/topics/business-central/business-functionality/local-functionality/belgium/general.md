@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:02.126Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,35 +21,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals
     title: Deferrals in Sales ledger and Purchase ledger reports
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers
     title: Enterprise Numbers and Branch Numbers [BE]
-    date: "2025-04-01"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period
     title: How to Limit the Posting Period [BE]
-    date: "2025-04-02"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date
     title: How to Set the Work Date as the Posting Date [BE]
-    date: "2025-04-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory
     title: Make Journal Templates Mandatory [BE]
-    date: "2025-04-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

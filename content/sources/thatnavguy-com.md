@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 70 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 72 posts in the knowledge base, 2025-04-11 to 2026-10-09, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-15T00:20:09.603Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 19268ae7b32a887852618f15b7dc5d3a38161231e52f47c5c37e218955b1bdfd
+  input_hash: f466f9b475e6fff8031b60630860b89374082206991c21e2daaf01b95427e752
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -103,6 +103,8 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-81-keep-bccontainerhelper-up-to-date--da6ce902d0
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
   guidelines: []
 source_id: thatnavguy-com
 kind: blog
@@ -110,24 +112,24 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 70
+item_count: 72
 footprint:
   systems:
     - id: development
-      weight: 66
+      weight: 68
     - id: administration
       weight: 26
     - id: platform
       weight: 25
     - id: integration
-      weight: 11
+      weight: 12
+    - id: sales
+      weight: 12
     - id: reporting
       weight: 11
-    - id: finance
-      weight: 10
   topics:
     - id: al development
-      weight: 21
+      weight: 22
     - id: user experience
       weight: 9
     - id: best practices
@@ -138,9 +140,9 @@ footprint:
       weight: 5
     - id: performance
       weight: 5
-    - id: codeunit
-      weight: 4
     - id: troubleshooting
+      weight: 5
+    - id: codeunit
       weight: 4
     - id: vs code
       weight: 4
@@ -151,6 +153,10 @@ footprint:
       weight: 4
     - id: table Sales Invoice Header
       weight: 3
+    - id: table Item
+      weight: 2
+    - id: table Sales Line
+      weight: 2
     - id: codeunit Config. Package Management
       weight: 1
     - id: codeunit Dimension CaptionClass Mgmt
@@ -167,18 +173,14 @@ footprint:
       weight: 1
     - id: codeunit Math
       weight: 1
-    - id: codeunit Prod. Order Status Management
-      weight: 1
-    - id: codeunit Regex
-      weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-10-02"
+last_item: "2026-10-09"
 ---
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 70 posts in the knowledge base, 2025-04-11 to 2026-10-02, mostly about development, administration, platform.
+> That NAV Guy (Teddy Herryanto, MVP): 72 posts in the knowledge base, 2025-04-11 to 2026-10-09, mostly about development, administration, platform.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -186,18 +188,18 @@ last_item: "2026-10-02"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (66) | al development (21) | table Sales Header (4) |
+| development (68) | al development (22) | table Sales Header (4) |
 | administration (26) | user experience (9) | table Sales Invoice Header (3) |
-| platform (25) | best practices (6) | codeunit Config. Package Management (1) |
-| integration (11) | extensions (6) | codeunit Dimension CaptionClass Mgmt (1) |
-| reporting (11) | developer tools (5) | codeunit Filter Tokens (1) |
-| finance (10) | performance (5) | codeunit Gen. Jnl.-Post Batch (1) |
-|  | codeunit (4) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
-|  | troubleshooting (4) | codeunit Item Jnl.-Post Batch (1) |
-|  | vs code (4) | codeunit Item Jnl.-Post Line (1) |
-|  | ai (3) | codeunit Math (1) |
-|  |  | codeunit Prod. Order Status Management (1) |
-|  |  | codeunit Regex (1) |
+| platform (25) | best practices (6) | table Item (2) |
+| integration (12) | extensions (6) | table Sales Line (2) |
+| sales (12) | developer tools (5) | codeunit Config. Package Management (1) |
+| reporting (11) | performance (5) | codeunit Dimension CaptionClass Mgmt (1) |
+|  | troubleshooting (5) | codeunit Filter Tokens (1) |
+|  | codeunit (4) | codeunit Gen. Jnl.-Post Batch (1) |
+|  | vs code (4) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
+|  | ai (3) | codeunit Item Jnl.-Post Batch (1) |
+|  |  | codeunit Item Jnl.-Post Line (1) |
+|  |  | codeunit Math (1) |
 
 ## Flight path
 
@@ -209,10 +211,12 @@ Items per quarter, oldest first:
 - 2026-Q1: ******* 7
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
-- 2026-Q4: * 1
+- 2026-Q4: *** 3
 
 ## Most recent
 
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (2026-10-09)
+- [How to ask questions about your repo with GitHub Agentic Workflows](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087.md) (2026-10-09)
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (2026-10-02)
 - [BC Friday Tips #82 Excel Buffer Character Limit](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (2026-09-25)
 - [BC Friday Tips #81 Keep BCContainerHelper Up to Date](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-81-keep-bccontainerhelper-up-to-date--da6ce902d0.md) (2026-09-11)
@@ -231,7 +235,5 @@ Items per quarter, oldest first:
 - [AL Pocket Tools](../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (2026-05-21)
 - [BC Friday Tips #72 Inlay Hints](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-72-inlay-hints--09aec26d55.md) (2026-05-15)
 - [BC Friday Tips #71 BlankZero Property](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663.md) (2026-05-08)
-- [SymLynx](../posts/thatnavguy-com/https-thatnavguy-com-projects-symlynx--6abd209948.md) (2026-05-06)
-- [BC Friday Tips #70 Email Scenario Attachment](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-70-email-scenario-attachment--514b5a1c4e.md) (2026-04-17)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

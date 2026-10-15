@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:57.591Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:30.038Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,28 +28,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes
     title: Australian Business Numbers and Adjustment Notes
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage
     title: Determine Sales Price by Cost Plus Percentage (AU)
-    date: "2025-03-25"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers
     title: How to Enter Australian Business Numbers in the Australian version
-    date: "2025-03-26"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting
     title: Payment Times Reporting in the Australian version
-    date: "2025-03-27"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -115,7 +115,7 @@ The pages are independent, so start with the one that matches your task. For tax
 - [Addresses in Australia](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses): Use the Post Code feature to improve accuracy for cases in which a single postal code can include multiple cities in the same region.
 - [Australian Business Numbers and Adjustment Notes](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes): An Australian Business Number (ABN) is a single identifier for all business dealings with the tax office and for dealings with other government departments and agencies.
 - [Determine Sales Price by Cost Plus Percentage (AU)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage): Use the cost-plus percentage function to set sales prices based on item costs. Calculate the item’s cost along with cost plus calculation and apply the discount.
-- [How to Enter Australian Business Numbers in the Australian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers): Learn how to enter an Australian Business Number (ABN) in the Company Information and the Vendor Card pages.
+- [How to Enter Australian Business Numbers in the Australian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers): Learn how to enter an Australian Business Number (ABN) on the Company Information, Customer Card, Vendor Card, and Contact Card pages.
 - [Payment Times Reporting in the Australian version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting): Payment Times Reporting isn't directly available in the Australian version of Business Central, but this article guides you to the necessary data.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

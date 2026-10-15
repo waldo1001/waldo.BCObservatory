@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:45.684Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-15T01:08:34.842Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,7 +28,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-how-to-setup-advance-payments
     title: Set up advance payments in the Czech version
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
