@@ -9,8 +9,13 @@ without the original conversation. Read in this order: `AGENTS.md` → this file
 
 Specs are written with the `bcobs-spec` skill (`.claude/skills/bcobs-spec/SKILL.md`), pushed, and listed here with
 spec path, decision, milestone, status and where to start; a coding session takes its work from this list only.
+Every spec also has an issue (`issue #N` below, `issue:` in its frontmatter) so waldo.Jarvis's League can build it once
+the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`, PR label `league-building`. A spec
+whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
+with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
+one in either mode.
 
-**MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35). Status: proposed 2026-10-14, nothing implemented.
+**MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35, issue #3). Status: proposed 2026-10-14, nothing implemented.
 From a chat where an agent lost six parallel `get_object(page, id, section: "fields")` calls: a page's fields section is
 keyed `controls`. Where to start: section 6 task 1, the failing tests in `tests/unit/mcp-sections.test.ts` (aliases
 `fields`, `columns`, `members` on a page; a nearest-key hint in the not-found answer), then `findSection` and
