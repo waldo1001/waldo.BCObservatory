@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/demiliani-com/17480",
+  "url": "https://demiliani.com/2026/10/12/end-of-net-8-support-and-what-it-means-for-dynamics-365-business-central-on-prem/",
+  "title": "End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.",
+  "source": "demiliani-com",
+  "published_at": "2026-10-12T09:31:09.000Z",
+  "words": 805,
+  "summary": ".NET 8 and .NET 9 reach end of support on November 10, 2026, creating a mismatch with Business Central on-premises lifecycle dates. BC 29 supports .NET 10 natively, while BC 27 and 28 are getting cumulative updates to support .NET 10, requiring customers to plan upgrades or updates before the deadline.",
+  "key_points": [
+    ".NET 8 (LTS) and .NET 9 (STS) both end support November 10, 2026; .NET 10 is the next LTS release.",
+    "BC 28 on-premises support extends to October 13, 2027, eleven months past .NET 8 end-of-life, creating a security risk.",
+    "BC 29 natively supports .NET 10 for both Business Central Server and web server; BC 27 and 28 are receiving cumulative updates for .NET 10 support.",
+    "Latest BC 28.6 and 27.12 updates already target .NET 10; customers must upgrade or apply updates before November 10.",
+    ".NET 10 does not automatically run .NET 8 applications without configuration changes, which Microsoft does not support for Business Central."
+  ],
+  "systems": [
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    ".net",
+    "runtime",
+    "on-premises",
+    "lifecycle",
+    "security",
+    "upgrade",
+    "cumulative update"
+  ],
+  "objects": [],
+  "features": [
+    ".NET 8 support",
+    ".NET 9 support",
+    ".NET 10 support",
+    "Business Central Server",
+    "Web client"
+  ],
+  "versions": [
+    "BC 25",
+    "BC 26",
+    "BC 27",
+    "BC 28",
+    "BC 29",
+    ".NET 8",
+    ".NET 9",
+    ".NET 10"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "BC 29 (2026 release wave 2): this release natively supports .NET 10 for both Business Central Server and the web server components.",
+      "why_it_matters": "Identifies the primary upgrade path that resolves the .NET runtime issue completely."
+    },
+    {
+      "text": "the latest 28.6 update (October 2026) already targets .NET 10. the latest 27.12 update (October 2026) already targets .NET 10.",
+      "why_it_matters": "Shows that recent cumulative updates provide an alternative path for customers to gain .NET 10 support without major version upgrades."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004475,
+    "posts_in_call": 2
+  }
+}

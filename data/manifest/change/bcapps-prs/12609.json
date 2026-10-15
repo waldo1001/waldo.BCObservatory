@@ -6,10 +6,35 @@
   "title": "Confirm before deleting attachments from an unfiltered Doc. Attachment List Factbox",
   "url": "https://github.com/microsoft/BCApps/pull/12609",
   "published_at": "2026-10-14T14:48:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:21:38.469Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:47.270Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004715
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:47.496Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:47.507Z",
+      "path": "content/changes/bcapps/12609.md"
     }
   },
   "input_hash": "2feb540a89764f8df43798627d23e1c47c0be9cc:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "confirm before deleting attachments from an unfiltered doc attachment list factbox"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "651eadfdf4397cfaa5703835af7a9ee5d53576e7472bd0ade483fae47f2cdc72"
 }

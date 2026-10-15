@@ -7,7 +7,7 @@
   "url": "https://www.youtube.com/watch?v=a8W1x0xwkv4",
   "published_at": "2026-10-12T11:00:09.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "captioned",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -16,6 +16,15 @@
       "at": "2026-10-13T13:12:04.418Z",
       "captions": "auto:en-orig",
       "duration_s": 1879
+    },
+    "captioned": {
+      "at": "2026-10-15T00:21:38.212Z",
+      "path": "vault:captions/community/yt-hougaard/a8W1x0xwkv4.vtt",
+      "vtt_sha256": "a1b6b50bbda2b7567681923f40a38dfafbbf191fac31538b5381226f2ab8ba2e",
+      "segments": 166,
+      "words": 3537,
+      "lang": "en-orig",
+      "kind": "auto"
     }
   },
   "input_hash": null,
@@ -30,5 +39,6 @@
     }
   },
   "last_error": null,
-  "retry_after": null
+  "retry_after": null,
+  "output_hash": "a1b6b50bbda2b7567681923f40a38dfafbbf191fac31538b5381226f2ab8ba2e"
 }

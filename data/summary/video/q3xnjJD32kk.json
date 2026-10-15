@@ -1,0 +1,27 @@
+{
+  "video_id": "q3xnjJD32kk",
+  "item_id": "video/yt-microsoft/q3xnjJD32kk",
+  "summary": "Business Central MCP server additions in 2026 release wave 2: four new system tools (find tables, table relations, table schema, data query) that, once the data tool server feature is enabled, let agents write, compile and run AL queries within the user's existing permissions and AL query limits. Also covers a new MCP configuration UX with a server features box, and a toggle on the copilot and agent capabilities page to activate or deactivate the MCP server.",
+  "overview": "The video covers new system tools in the Business Central MCP server. Agents can search for tables, check how tables relate, read table schemas, and then write and run AL queries to analyze data. A live demo shows an agent going through this workflow.\n\nThe video also explains limits of the query approach and shows the new MCP configuration page with a server features box. It closes with a new toggle in the copilot and agent capabilities page that lets administrators turn the MCP server feature on or off.",
+  "key_points": [
+    "Four new tools come with enabling the data tool server feature: find tables (search by text), table relations (needed for good join queries), table schema (fields on a table), and data query (write and run AL queries).",
+    "Agents can query data through the MCP server without using APIs; queries are compiled and run, and results are returned. Compiler error messages go back to the agent so it can correct itself.",
+    "Data returned depends on the permissions the user already has in Business Central, including table access, and on how well the agent writes AL queries.",
+    "Limits apply: whatever AL queries can or cannot express, how much data can be returned, and how long a query can run.",
+    "In the demo the agent also used the Microsoft Docs MCP server to learn AL query syntax, but the presenter notes newer models are pretty good at writing AL queries and rarely use it.",
+    "The MCP configuration UX has a new server features box that separates features such as the data tool from APIs and shows which tools the enabled features open up.",
+    "A new toggle in the copilot and agent capabilities page activates or deactivates the MCP server as a whole."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "0cf177cda7527ae0010bff7ff38b65eca01b7cdee5a5c09cfe6c68757efe0a77",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.016826
+  }
+}

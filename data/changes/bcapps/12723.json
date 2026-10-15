@@ -1,0 +1,72 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12723,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12723",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T13:43:54Z",
+  "merge_commit_sha": "1cbfd4cf82f0a0d47d3efbb1b0c5a260cd6d14e1",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
+  "body_hash": "707839d28dc9e876267bcf816e89f97aa6ddae8760c0adf709e7c3751026a122",
+  "fixes_issues": [],
+  "work_items": [
+    654088
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchCrMemoSubform.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/PurchaseDocumentVAT.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 67,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchCrMemoSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Purchases/Document/PurchInvoiceSubform.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

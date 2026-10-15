@@ -1,0 +1,28 @@
+{
+  "video_id": "q3xnjJD32kk",
+  "item_id": "video/yt-microsoft/q3xnjJD32kk",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "All 5 quotes are verbatim spans of the transcript (differences are punctuation only).",
+    "One key point misattributed the remark about newer models. In the transcript, newer models are good at writing AL queries, so they rarely use the Microsoft Docs MCP server. The remark is not about the data query tool. Corrected.",
+    "The transcript does not say administrators use the toggle; it only says a toggle on the copilot and agent capabilities page activates or deactivates the MCP server. Removed the word admin from the summary and key point. The feature description still says administrators and cannot be edited here.",
+    "Feature statuses stay unclear: the video is a 2026 release wave 2 launch video but never says preview or generally available.",
+    "The MCP query data access without APIs feature overlaps the data query tool, but the transcript supports it."
+  ],
+  "input_hash": "9e0212c102c8f283cd73799e84c17ecad17fbe699f37ed1b582e227c8b0a985c",
+  "by": "opus",
+  "at": "2026-10-15T00:21:33.506Z",
+  "applied": [
+    "quote at 229s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.085504
+  }
+}

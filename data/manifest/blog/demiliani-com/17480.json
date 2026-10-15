@@ -7,13 +7,39 @@
   "url": "https://demiliani.com/2026/10/12/end-of-net-8-support-and-what-it-means-for-dynamics-365-business-central-on-prem/",
   "published_at": "2026-10-12T09:31:09.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:21:45.976Z",
+      "path": "vault:posts/demiliani-com/17480.md",
+      "words": 805
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:58.857Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.004475
+    },
+    "summarized": {
+      "at": "2026-10-15T00:21:58.858Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:58.859Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:58.870Z",
+      "path": "content/posts/demiliani-com/17480.md"
     }
   },
   "input_hash": "2026-10-12T09:31:09.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b20cf7b8363db346f3b03e90f67896d46f19e8209767c9764a8d867d846e7ffd"
 }

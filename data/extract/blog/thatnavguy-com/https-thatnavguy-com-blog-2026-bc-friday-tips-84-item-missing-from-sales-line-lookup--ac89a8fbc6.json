@@ -1,0 +1,58 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/",
+  "title": "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?",
+  "source": "thatnavguy-com",
+  "published_at": "2026-10-09T00:00:00.000Z",
+  "words": 93,
+  "summary": "Items missing from sales line lookups are often caused by the Blocked or Sales Blocked fields being enabled on the item card, not by AL code issues. Checking these two fields first can quickly resolve lookup filtering problems.",
+  "key_points": [
+    "The Blocked and Sales Blocked fields on the item card filter items out of the standard Sales Line lookup.",
+    "These fields are the first place to check when items don't appear in sales line dropdowns.",
+    "Understanding standard Business Central filtering can prevent unnecessary AL code debugging.",
+    "This is a configuration issue resolved through the item card, not a development problem."
+  ],
+  "systems": [
+    "sales",
+    "inventory"
+  ],
+  "topics": [
+    "item lookup",
+    "sales line",
+    "item blocking",
+    "filtering",
+    "troubleshooting"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Item"
+    },
+    {
+      "type": "table",
+      "name": "Sales Line"
+    }
+  ],
+  "features": [
+    "Item lookup",
+    "Sales Line filtering",
+    "Blocked field",
+    "Sales Blocked field"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "If either field is enabled, the item is filtered out of the standard Sales Line lookup.",
+      "why_it_matters": "Identifies the exact mechanism that prevents items from appearing in lookups, enabling quick resolution."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004475,
+    "posts_in_call": 2
+  }
+}

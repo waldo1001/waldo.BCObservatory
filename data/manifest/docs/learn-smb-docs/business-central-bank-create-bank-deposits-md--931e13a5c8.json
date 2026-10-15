@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
   "published_at": "2026-10-12T18:21:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.584Z",
-      "blob": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
+      "at": "2026-10-15T00:21:13.441Z",
+      "blob": "5a7d2c2bb777bc3529c38d181625a197ba929801",
       "words": 1651,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:05:34.686Z",
+      "at": "2026-10-15T00:21:28.443Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.004493
+      "objects": 8,
+      "cost_usd": 0.005838
     },
     "summarized": {
-      "at": "2026-10-06T19:05:38.691Z",
+      "at": "2026-10-15T00:21:28.444Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:05:38.692Z",
+      "at": "2026-10-15T00:21:28.445Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:05:38.692Z",
+      "at": "2026-10-15T00:21:28.446Z",
       "page": false
     }
   },
@@ -105,5 +105,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ddfaadb1cece3c8d912a0acfa4b45c365611a23d09e63962727f512038aaa478"
+  "output_hash": "45c5c54cea30c59d30269e1f4a17f98dc4381db0878b000f34ba4986a491a577"
 }

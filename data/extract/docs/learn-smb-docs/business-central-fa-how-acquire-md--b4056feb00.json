@@ -2,20 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/fa-how-acquire.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire",
   "title": "Acquire fixed assets",
-  "blob": "a1b937a95c333dbd7297122339dd64bf7220ff32",
-  "summary": "Fixed assets are acquired by recording acquisition costs through purchase orders, journals, or assisted acquisition workflows, with support for bulk creation, component hierarchies, and salvage values.",
+  "blob": "ed724e724e16c70f17f438e6d29cf2849e1dac64",
+  "summary": "Acquire fixed assets by recording acquisition costs through fixed asset cards, journals, or purchase orders, and set up depreciation books and component lists for main assets.",
   "systems": [
-    "finance",
     "fixed-assets",
-    "purchasing"
+    "finance",
+    "inventory"
   ],
   "topics": [
-    "fixed assets",
-    "acquisition",
-    "purchase orders",
+    "fixed asset acquisition",
     "depreciation books",
-    "asset components",
-    "sustainability"
+    "asset management",
+    "journal posting",
+    "purchase orders",
+    "main assets",
+    "component lists",
+    "salvage value"
   ],
   "objects": [
     {
@@ -24,15 +26,7 @@
     },
     {
       "type": "page",
-      "name": "Fixed Assets"
-    },
-    {
-      "type": "page",
       "name": "Fixed Asset G/L Journal"
-    },
-    {
-      "type": "page",
-      "name": "Fixed Asset G/L Journals"
     },
     {
       "type": "page",
@@ -40,7 +34,11 @@
     },
     {
       "type": "page",
-      "name": "Purchase Orders"
+      "name": "Fixed Asset List"
+    },
+    {
+      "type": "page",
+      "name": "Main Asset Components"
     },
     {
       "type": "page",
@@ -52,21 +50,30 @@
     },
     {
       "type": "page",
-      "name": "Fixed Asset Setup"
+      "name": "Fixed Asset Journals"
     },
     {
       "type": "page",
-      "name": "Main Asset Components"
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "codeunit",
+      "name": "Cancel FA Entries"
+    },
+    {
+      "type": "codeunit",
+      "name": "Index Fixed Assets"
     }
   ],
   "features": [
-    "asset acquisition",
-    "edit in excel",
-    "multiple asset creation",
-    "component list setup",
-    "salvage value posting",
-    "acquisition cost recording",
-    "emissions tracking"
+    "fixed asset acquisition cost posting",
+    "depreciation book assignment",
+    "main asset and component grouping",
+    "assisted acquisition workflow",
+    "Edit in Excel for bulk asset creation",
+    "multiple fixed asset creation from purchase orders",
+    "acquisition cost cancellation and reversal",
+    "salvage value posting with acquisition"
   ],
   "versions": [],
   "parts": 1,
@@ -75,8 +82,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.010103,
-      "pages_in_call": 4
+      "cost_usd": 0.013014,
+      "pages_in_call": 1
     }
   ]
 }

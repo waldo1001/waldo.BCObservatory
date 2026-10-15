@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12609",
+  "number": 12609,
+  "title": "Confirm before deleting attachments from an unfiltered Doc. Attachment List Factbox",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "A confirmation dialog now prevents accidental bulk deletion of attachments when the Doc. Attachment List Factbox loads without its filters due to a platform defect, protecting attachments from other documents.",
+  "key_points": [
+    "Adds OnDeleteRecord confirmation that triggers only when the factbox is completely unfiltered",
+    "Stores selected record SystemIds in a list to confirm only on the first record of a bulk delete operation",
+    "Unfiltered state is detected by checking all filter groups (0-255) for absence of filters",
+    "Confirmation defaults to No, requiring explicit user approval to delete from an unfiltered list",
+    "Normal filtered delete behavior and GuiAllowed false scenarios remain unchanged"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004715,
+    "changes_in_call": 1
+  }
+}

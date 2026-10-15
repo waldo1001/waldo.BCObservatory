@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/bank-create-bank-deposits.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/bank-create-bank-deposits",
   "title": "Create bank deposits",
-  "blob": "c6d3c5aafa355dd5dd590d47352a3122a34309ab",
-  "summary": "Bank deposits register cash deposits as a single document that posts entries to bank, customer, and vendor ledgers with support for lump sum or individual line posting.",
+  "blob": "5a7d2c2bb777bc3529c38d181625a197ba929801",
+  "summary": "The Bank Deposits page enables you to register cash deposits as a single document that posts to bank accounts, consolidating deposits from sales, customer payments, or vendor refunds with support for lump sum or individual line posting.",
   "systems": [
     "finance",
     "sales"
@@ -12,8 +12,9 @@
     "bank deposits",
     "cash management",
     "bank reconciliation",
-    "deposit posting",
-    "customer payments"
+    "general journals",
+    "posting",
+    "dimensions"
   ],
   "objects": [
     {
@@ -34,22 +35,30 @@
     },
     {
       "type": "page",
-      "name": "Apply Customer Entries"
+      "name": "Default Dimension Priorities"
     },
     {
       "type": "page",
       "name": "G/L Registers"
+    },
+    {
+      "type": "page",
+      "name": "Apply Customer Entries"
+    },
+    {
+      "type": "report",
+      "name": "Bank Deposit"
     }
   ],
   "features": [
-    "bank deposit creation",
+    "bank deposit posting",
     "lump sum deposits",
-    "multiple deposit sources",
-    "customer and vendor deposits",
-    "deposit posting",
+    "number series",
+    "general journal templates",
     "dimension handling",
+    "multiple check application",
     "deposit reversal",
-    "check application"
+    "bank reconciliation"
   ],
   "versions": [
     "2022 release wave 1"
@@ -60,8 +69,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004493,
-      "pages_in_call": 8
+      "cost_usd": 0.005838,
+      "pages_in_call": 1
     }
   ]
 }

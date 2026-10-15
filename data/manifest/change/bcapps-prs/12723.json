@@ -6,10 +6,35 @@
   "title": "[Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
   "url": "https://github.com/microsoft/BCApps/pull/12723",
   "published_at": "2026-10-14T13:43:54Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:21:55.127Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 0,
+      "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-15T00:22:07.956Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003152
+    },
+    "linked": {
+      "at": "2026-10-15T00:22:08.238Z",
+      "objects": 0,
+      "unjoined": 2,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:22:08.247Z",
+      "path": "content/changes/bcapps/12723.md"
     }
   },
   "input_hash": "1cbfd4cf82f0a0d47d3efbb1b0c5a260cd6d14e1:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master modifying description resets quantity to 1 on purchase invoice lines"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e99ec731f1cfb0416a9ddefffbfde234b1931ac3fb3d6f0e9013b3345e03593d"
 }

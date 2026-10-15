@@ -6,10 +6,35 @@
   "title": "[Contoso Demo Data] Refresh Common G/L mappings before Manufacturing demo setup",
   "url": "https://github.com/microsoft/BCApps/pull/12545",
   "published_at": "2026-10-14T15:20:12Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:21:19.273Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:28.457Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004101
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:28.690Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:28.697Z",
+      "path": "content/changes/bcapps/12545.md"
     }
   },
   "input_hash": "e50c631954dfe7efb1660c12a963e57d84d10632:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "contoso demo data refresh common g l mappings before manufacturing demo setup"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e0e93cafb274960b2d0a25c97e152759e11ddd2327f95ab592deb214ea541644"
 }
