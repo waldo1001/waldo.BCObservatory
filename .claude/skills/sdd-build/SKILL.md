@@ -81,6 +81,13 @@ Do section 6 (Tasks) in order, one phase at a time; a phase that ships alone is 
   `package.json` script. Nothing else: no installs, no `infra/mini` run, no nightly dispatch, no deploy, no `gh`, no ssh,
   no network.
 - A change that does not match the spec is a deviation: record it (section 4), never hide it in the diff.
+- **Diagnostics live in `$TMPDIR` only.** A probe test, a dump of a test run, a script that reads output the shell
+  truncates: all of it goes under `$TMPDIR`, never under `tests/` (the runner picks it up) and never at the repo root.
+  Nothing created for diagnosis survives into a commit; emptying such a file with a "safe to delete" note is not
+  removing it. (PR #6 committed `probe-out.txt` and `tests/unit/zz-probe.test.ts`; the review had to strip them.)
+- **"Do X, or Y if X is impossible" means attempt X first.** Try X; only when it fails take Y, and record in "Built,
+  deviations" what failed and how (the command, the error). A fallback taken without the attempt is a deviation the
+  spec did not allow. (PR #6 copied `editDistance` locally while `@bc-observatory/search` was already bundled.)
 
 **What the spec needs that you may not do** (an install on the Mini, `infra/mini/*.sh`, a nightly dispatch, a deploy, a
 publish, a command outside the list): build the code, and write each such step into "Built, deviations" and into the
@@ -100,6 +107,10 @@ Last, once tests and verification pass (section 5), in the same branch:
 - **`docs/PLAN.md`:** the Mnn row from `proposed` to `shipped <date>`.
 - **`docs/HANDOFF.md`:** move the entry from "Open specs" to "Where things stand" as a shipped bullet: what readers see
   now, what still needs a nightly or a derive, the operator steps. If it was the last one, "Open specs" reads `None open.`
+  **Every command you write into HANDOFF or RUNBOOK comes from a documented procedure in this repository**, with the
+  decision or doc cited next to it (an MCP release is `gh workflow run publish-mcp.yml --ref main`, D40). Never write
+  what a tool usually does: PR #6's HANDOFF said `npm publish -w packages/mcp`, which this repo never runs. When the
+  spec says "as the last release was" and you cannot find how, that is an operator step, named as such, not a command.
 - Whatever the spec's sections 12 and 13 name (`AGENTS.md`, `docs/RUNBOOK.md`, pointer lines in related specs).
 - **Status:** frontmatter `status: implemented`, and the body line becomes `Status: implemented, <date> (section 12
   records what was built and where it differs). Decision: Dnn (appended <date>). Milestone: Mnn. Owner: waldo.` Keep

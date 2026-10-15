@@ -56,7 +56,7 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
   build runs on branch `league/<issue>-<topic>` with a PR labelled `league-building`, commits there and never pushes. Do
   not build such a spec by hand while that branch or PR exists, and do not approve one while you are building it
   (`/sdd-build` checks). To take over, follow `CLAUDE.md` "Taking over from the League". Skills: `bcobs-spec` (write),
-  `sdd-draft` (issue to draft), `sdd-build` (build, both modes).
+  `sdd-draft` (issue to draft), `sdd-build` (build, both modes), `sdd-review` (review a League or build PR).
 - Commit messages: conventional prefixes (`feat:`, `fix:`, `pipeline:`, `content:`, `infra:`, `docs:`). Nightly
   commits are `content: nightly <date> (<n> items)`.
 
