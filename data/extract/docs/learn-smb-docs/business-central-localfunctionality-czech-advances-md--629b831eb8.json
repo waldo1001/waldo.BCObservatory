@@ -2,29 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/advances.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/advances",
   "title": "Advance Payments and Invoices [CZ]",
-  "blob": "4b79cece0d4150705cbbc00bb22583ec074950c6",
-  "summary": "Advance payments and invoices feature in Czech version enables generating invoices and payments before delivery with support for advance invoices, payments, VAT handling, and tax documents.",
+  "blob": "f5019a42ff99d7ebf41b1989510ba776368f3b18",
+  "summary": "Advance Invoices and Payments feature in Czech Business Central generates invoices and processes payments before goods delivery or production, including advance invoices, advance payments with optional VAT, and tax documents with a defined lifecycle from creation to closure.",
   "systems": [
-    "sales",
-    "purchasing",
-    "finance"
+    "finance",
+    "purchasing"
   ],
   "topics": [
     "advance payments",
     "advance invoices",
-    "czech",
+    "czech localization",
     "vat",
-    "tax documents"
+    "tax documents",
+    "payment processing"
   ],
   "objects": [],
   "features": [
-    "advance invoice lifecycle",
-    "advance payments",
-    "VAT on advance payments",
-    "tax documents",
-    "advance deduction",
-    "linking tool",
-    "payment application"
+    "Advance invoice templates",
+    "Advance payment VAT handling",
+    "Tax documents generation",
+    "Advance invoice linking tool",
+    "Foreign currency support",
+    "Exchange rate differences",
+    "Customer/vendor advance statistics",
+    "Output and internal documents"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00316,
-      "pages_in_call": 8
+      "cost_usd": 0.004148,
+      "pages_in_call": 1
     }
   ]
 }

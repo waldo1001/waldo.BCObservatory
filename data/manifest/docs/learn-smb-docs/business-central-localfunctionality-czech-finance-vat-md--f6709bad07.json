@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/finance-vat",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.224Z",
-      "blob": "1cfa912af7d9ae11009c063b2512ad445c50a197",
-      "words": 917,
+      "at": "2026-10-15T00:28:58.447Z",
+      "blob": "74aea3114ba900cd3f74f6ac6dfb4dfb661303e7",
+      "words": 918,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.601Z",
+      "at": "2026-10-15T00:29:06.032Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 10,
-      "cost_usd": 0.004529
+      "objects": 13,
+      "cost_usd": 0.00562
     },
     "summarized": {
-      "at": "2026-10-06T19:22:14.610Z",
+      "at": "2026-10-15T00:29:06.034Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:14.610Z",
+      "at": "2026-10-15T00:29:06.035Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:14.611Z",
+      "at": "2026-10-15T00:29:06.037Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/finance-vat.md",
     "description": "Provides an overview of Czech local functionality for VAT, focusing on VAT dates, reporting, and related compliance features.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Finance",
       "VAT"
     ],
-    "ai_usage": null,
-    "words": 917,
+    "ai_usage": "ai-assisted",
+    "words": 918,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ab2d0dac4a07f7668be1efcea3be463a824beea945a11a360696d5bb231bfc70"
+  "output_hash": "b03184c25754d3e2883ce839e93cb293a20a6e47ae8c9fa6ff02c9026321aa44"
 }

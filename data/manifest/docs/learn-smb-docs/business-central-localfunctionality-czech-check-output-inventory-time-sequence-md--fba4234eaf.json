@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.269Z",
-      "blob": "a676e0e4d97676c09941e8813bb69abc5d9fdd30",
-      "words": 60,
+      "at": "2026-10-15T00:28:52.368Z",
+      "blob": "21a9c37532ff599da360610583742cfa5c17848c",
+      "words": 77,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.298Z",
+      "at": "2026-10-15T00:28:58.141Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001304
+      "objects": 1,
+      "cost_usd": 0.0027
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.330Z",
+      "at": "2026-10-15T00:28:58.143Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.332Z",
+      "at": "2026-10-15T00:28:58.144Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.333Z",
+      "at": "2026-10-15T00:28:58.145Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/check-output-inventory-time-sequence.md",
     "description": "Learn about the local functionality for checking the time sequence of inventory outputs in the Czech version of Business Central.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 60,
+    "ai_usage": "ai-assisted",
+    "words": 77,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a17a2ab4b27ec258d08ff49f1cddbabd4d7162fc07433cb19740bd085252bfb7"
+  "output_hash": "72852e50efe9a4d869e5ca98a18378e6e79d5cd6f9dcbdb7c5b5e4a090764881"
 }

@@ -2,22 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/exchange-rate-update.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/exchange-rate-update",
   "title": "Exchange Rate Update [CZ]",
-  "blob": "585e547c51d30bd176a5dffe02a66e4be5fd18e1",
-  "summary": "Automatic currency exchange rate update feature for Czech version using CNB (Czech National Bank) service.",
+  "blob": "822b06e76be897b5aac70818122c9da2147f2a16",
+  "summary": "Automatic currency exchange rate updates in the Czech version using the Czech National Bank (CNB) service with configurable HTTP service address and parameters.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "czech",
     "exchange rates",
     "currency",
+    "czech",
+    "automatic updates",
     "cnb"
   ],
   "objects": [],
   "features": [
-    "automatic exchange rate update",
+    "automatic exchange rate updates",
     "CNB integration",
+    "HTTP service configuration",
     "exchange rate service settings"
   ],
   "versions": [],
@@ -27,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.002613,
+      "pages_in_call": 1
     }
   ]
 }

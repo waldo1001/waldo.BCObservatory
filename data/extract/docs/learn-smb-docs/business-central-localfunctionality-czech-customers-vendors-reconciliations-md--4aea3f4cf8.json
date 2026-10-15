@@ -2,23 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations",
   "title": "Czech Local Functionality - Customers/Vendors Reconciliations",
-  "blob": "ec5e61dad802f2d4c0f0427c080ff0cfa62a549b",
-  "summary": "Reconciliation feature for Czech companies to prepare and send customer and vendor balance statements for fiscal year-end or periodic reconciliation.",
+  "blob": "ca813e2af3ba2c7c9f6d291f282ad548fafa0a17",
+  "summary": "Customers/Vendors Reconciliations allows companies to prepare and send balance statements to customers and vendors at fiscal year-end for reconciliation against their records.",
   "systems": [
-    "localization",
     "finance",
-    "sales"
+    "localization"
   ],
   "topics": [
     "czech",
     "reconciliation",
     "customers",
     "vendors",
-    "fiscal year"
+    "balance",
+    "local functionality"
   ],
   "objects": [],
   "features": [
-    "customers/vendors reconciliation statements"
+    "Balance Reconciliation action"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.002658,
+      "pages_in_call": 1
     }
   ]
 }

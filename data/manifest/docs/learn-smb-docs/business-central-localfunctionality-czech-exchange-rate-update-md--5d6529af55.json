@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/exchange-rate-update",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.286Z",
-      "blob": "585e547c51d30bd176a5dffe02a66e4be5fd18e1",
-      "words": 72,
+      "at": "2026-10-15T00:28:58.419Z",
+      "blob": "822b06e76be897b5aac70818122c9da2147f2a16",
+      "words": 67,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.311Z",
+      "at": "2026-10-15T00:29:02.701Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001304
+      "cost_usd": 0.002613
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.347Z",
+      "at": "2026-10-15T00:29:02.702Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.349Z",
+      "at": "2026-10-15T00:29:02.703Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.351Z",
+      "at": "2026-10-15T00:29:02.705Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/exchange-rate-update.md",
     "description": "Learn how to use local functionality to automatically update currency exchange rates through an exchange rate service.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Exchange",
       "currency"
     ],
-    "ai_usage": null,
-    "words": 72,
+    "ai_usage": "ai-assisted",
+    "words": 67,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d1b1252d9d190edf1e3b8bdc4f59207c6a456acf947db6cfa99dbed14bb26847"
+  "output_hash": "354489d8a62cec07f284a27f523c69ab3c18d7948ad1907385bfeda203e403ae"
 }

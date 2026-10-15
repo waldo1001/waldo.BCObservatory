@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.219Z",
-      "blob": "e34d0d016d3195ee87d1f85dc786b03a497ce68e",
+      "at": "2026-10-15T00:28:52.229Z",
+      "blob": "2277143b25c2d39cf40bb0484614fef67ea489cf",
       "words": 257,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:55.714Z",
+      "at": "2026-10-15T00:28:58.385Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00316
+      "cost_usd": 0.003155
     },
     "summarized": {
-      "at": "2026-10-06T19:21:57.416Z",
+      "at": "2026-10-15T00:28:58.386Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:57.417Z",
+      "at": "2026-10-15T00:28:58.388Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:57.418Z",
+      "at": "2026-10-15T00:28:58.390Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/cash-desk-management.md",
     "description": "Use Cash Desks and Cash Documents to set up cash accounts and manage cash desks for handling physical receipts and withdrawals.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "cash documents",
       "Czech version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 257,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00d6308fad6d6e363974b1c06c9e23d322fb9dd217f6f42a0ff8d33ec9441eb9"
+  "output_hash": "0fb7217f8a3daa68745f4ffbfefae56790f011c267dae9fb3a6c465523901508"
 }

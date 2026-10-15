@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/czech-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.366Z",
-      "blob": "de67d24aaa2fa18f0a56ecf2599f614f645f66c1",
+      "at": "2026-10-15T00:28:58.181Z",
+      "blob": "a2faf1909c11a3e0404bf4c3715714ef180d9e94",
       "words": 419,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:24.743Z",
+      "at": "2026-10-15T00:29:06.166Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003389
+      "cost_usd": 0.004874
     },
     "summarized": {
-      "at": "2026-10-06T18:43:24.753Z",
+      "at": "2026-10-15T00:29:06.167Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:24.754Z",
+      "at": "2026-10-15T00:29:06.169Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:24.755Z",
+      "at": "2026-10-15T00:29:06.170Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/czech-local-functionality.md",
     "description": "Learn about the local functionality and features available in the Czech version of Business Central.",
-    "ms_date": "2026-03-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "Cash",
       "Cash Desk"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 419,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a831d52e71db05111d81fd0ec3308f57eaaf57a95c69b690e2a2ba50bed2574e"
+  "output_hash": "d86d45b998ee317183fd8dc194da010f3820ef3aaea0538e181615c09b021345"
 }

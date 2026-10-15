@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.281Z",
-      "blob": "38468058b10d3e36d8b9452677075fffddb1f005",
-      "words": 314,
+      "at": "2026-10-15T00:28:58.313Z",
+      "blob": "3ed748db3b9b0ad7fd5fe08df639f7d096792b1b",
+      "words": 429,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.309Z",
+      "at": "2026-10-15T00:29:06.053Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001304
+      "objects": 5,
+      "cost_usd": 0.004089
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.344Z",
+      "at": "2026-10-15T00:29:06.055Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.345Z",
+      "at": "2026-10-15T00:29:06.063Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.346Z",
+      "at": "2026-10-15T00:29:06.065Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/eet.md",
     "description": "Registration of sales (EET) is registration of sales coming from business activities and paid in cash.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "VAT",
       "Control Report"
     ],
-    "ai_usage": null,
-    "words": 314,
+    "ai_usage": "ai-assisted",
+    "words": 429,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "79b2db6525f2063c55ea049e5f0e23d9aac9d58f7f2227b315da56b0503b02e3"
+  "output_hash": "3bec018e431bc295c6a857806767fee80fd040c16e665dbcafe8706457d612e2"
 }

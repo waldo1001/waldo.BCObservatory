@@ -2,30 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/cash-desk-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cash-desk-management",
   "title": "Cash desk management [CZ]",
-  "blob": "e34d0d016d3195ee87d1f85dc786b03a497ce68e",
-  "summary": "Cash desk management in Czech version enables setup of cash accounts and desks for physical receipt and money withdrawal with cash documents, posting, and inventory features.",
+  "blob": "2277143b25c2d39cf40bb0484614fef67ea489cf",
+  "summary": "Cash desk management in Czech Business Central allows you to define cash accounts and desks for physical money receipt and withdrawal, with separate number series for receipt and withdrawal documents, cash desk cases as templates, and reporting capabilities.",
   "systems": [
-    "sales",
-    "purchasing",
     "finance"
   ],
   "topics": [
     "cash desk",
     "cash documents",
-    "cash management",
-    "czech",
     "receipt",
-    "withdrawal"
+    "withdrawal",
+    "czech localization",
+    "payment application",
+    "cash inventory"
   ],
   "objects": [],
   "features": [
-    "cash desk setup",
-    "receipt cash documents",
-    "withdrawal cash documents",
-    "cash desk cases",
-    "payment application",
-    "cash desk inventory",
-    "cash desk reporting"
+    "Cash desk setup",
+    "Cash desk users",
+    "Receipt cash documents",
+    "Withdrawal cash documents",
+    "Cash desk cases",
+    "Payment application",
+    "Cash desk inventory",
+    "Output documents",
+    "Cash Desk Account Book report",
+    "Cash Desk Book report",
+    "Cash Desk Hand Over report"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00316,
-      "pages_in_call": 8
+      "cost_usd": 0.003155,
+      "pages_in_call": 1
     }
   ]
 }

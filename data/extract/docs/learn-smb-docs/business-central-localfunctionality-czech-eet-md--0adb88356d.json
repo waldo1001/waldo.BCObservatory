@@ -2,35 +2,49 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/eet.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/eet",
   "title": "Registration of Sales (EET) [CZ]",
-  "blob": "38468058b10d3e36d8b9452677075fffddb1f005",
-  "summary": "EET (Registration of Sales) feature for Czech companies to register cash sales and payments to tax authorities with unique transaction IDs for receipts.",
+  "blob": "3ed748db3b9b0ad7fd5fe08df639f7d096792b1b",
+  "summary": "Registration of Sales (EET) is a Czech feature for registering cash and payment transactions with tax authorities. It handles online and offline submission of sales data to comply with Czech tax regulations.",
   "systems": [
-    "localization",
     "finance",
+    "localization",
     "sales"
   ],
   "topics": [
     "czech",
-    "eet",
-    "sales registration",
-    "tax reporting",
-    "cash",
-    "receipts"
+    "tax compliance",
+    "eet registration",
+    "electronic sales registration",
+    "cash desk"
   ],
   "objects": [
     {
-      "type": "table",
-      "name": "EET ledger entries"
+      "type": "page",
+      "name": "EET Entries"
+    },
+    {
+      "type": "page",
+      "name": "EET Service Setup"
+    },
+    {
+      "type": "page",
+      "name": "Certificate Codes"
+    },
+    {
+      "type": "page",
+      "name": "EET Business Premises"
+    },
+    {
+      "type": "page",
+      "name": "EET Cash Registers"
     }
   ],
   "features": [
-    "sales registration",
-    "online/offline processing",
-    "EET ledger entries",
-    "certificate settings",
-    "POS terminals",
-    "unique transaction ID",
-    "tax authority communication"
+    "EET online registration",
+    "EET offline registration",
+    "payment method filtering",
+    "tax authority communication",
+    "electronic receipt IDs",
+    "certificate management"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.004089,
+      "pages_in_call": 1
     }
   ]
 }

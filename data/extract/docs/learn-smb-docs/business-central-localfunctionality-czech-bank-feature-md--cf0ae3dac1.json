@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/bank-feature.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/bank-feature",
   "title": "Czech Local Functionality - Bank feature",
-  "blob": "493655a09836e392f6090c21c36a422e92d69fe4",
-  "summary": "Czech local banking feature improves efficiency by capturing bank-specific information on customer and vendor bank accounts, and supports payment orders and bank statement management.",
+  "blob": "62006ee78135070624ce2e5f8a527c30a5355dd1",
+  "summary": "Czech banking feature that improves efficiency when managing bank accounts for customers, vendors, and companies by capturing bank-specific information and enabling payment order and bank statement creation, posting, import, and export.",
   "systems": [
-    "sales",
-    "purchasing",
-    "finance"
+    "finance",
+    "integration"
   ],
   "topics": [
+    "czech localization",
+    "banking setup",
     "bank accounts",
     "payment orders",
     "bank statements",
-    "czech",
-    "payment reconciliation"
+    "payment reconciliation",
+    "sales documents",
+    "purchase documents"
   ],
   "objects": [
     {
@@ -40,16 +42,21 @@
     {
       "type": "page",
       "name": "Bank Statement"
+    },
+    {
+      "type": "page",
+      "name": "Payment Reconciliation Journal"
     }
   ],
   "features": [
-    "default bank account",
-    "bank account code on sales documents",
-    "bank account code on purchase documents",
-    "payment identification symbols",
-    "payment order export",
-    "bank statement import",
-    "payment reconciliation"
+    "bank account selection on sales documents",
+    "bank account selection on purchase documents",
+    "payment identification fields (Specific Symbol, Variable Symbol, Constant Symbol)",
+    "default bank account code",
+    "bank statement import and export",
+    "payment order creation and posting",
+    "text-based account mapping",
+    "automatic payment reconciliation"
   ],
   "versions": [],
   "parts": 1,
@@ -58,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00316,
-      "pages_in_call": 8
+      "cost_usd": 0.004171,
+      "pages_in_call": 1
     }
   ]
 }

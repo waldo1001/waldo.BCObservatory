@@ -2,31 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/best-practices.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/best-practices",
   "title": "Small regulatory features and best practices [CZ]",
-  "blob": "4fe33c464cd77202010eadfe8f28cb0459b48476",
-  "summary": "Small regulatory features and best practices for Czech companies including G/L account groups, posting group checks, inventory time sequence validation, and manufacturing/assembly defaults.",
+  "blob": "7e47f29fde958186619db8730e6088107c79023c",
+  "summary": "Czech regulatory features and best practices for Business Central including G/L account groups, posting group validation, inventory management, manufacturing defaults, and dimension automation.",
   "systems": [
     "localization",
     "finance",
-    "manufacturing"
+    "inventory"
   ],
   "topics": [
-    "czech",
-    "regulatory",
-    "accounting",
-    "inventory",
+    "czech localization",
+    "regulatory compliance",
+    "best practices",
     "posting groups",
-    "best practices"
+    "inventory management",
+    "manufacturing"
   ],
   "objects": [],
   "features": [
     "G/L account groups",
-    "posting group change checks",
-    "inventory time sequence",
-    "Whse. Net Change Templates",
-    "mandatory return of exact costs",
-    "default business posting groups",
-    "automatic dimension creation",
-    "archive versioning"
+    "posting group change validation",
+    "inventory output checks",
+    "inventory movement templates",
+    "manufacturing cost tracking",
+    "assembly management defaults",
+    "G/L journal balance checks",
+    "dimension automation",
+    "inventory archive versioning",
+    "item ledger entries fields"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.002919,
+      "pages_in_call": 1
     }
   ]
 }

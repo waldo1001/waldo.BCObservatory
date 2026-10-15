@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/customers-vendors-reconciliations",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.273Z",
-      "blob": "ec5e61dad802f2d4c0f0427c080ff0cfa62a549b",
-      "words": 80,
+      "at": "2026-10-15T00:28:52.315Z",
+      "blob": "ca813e2af3ba2c7c9f6d291f282ad548fafa0a17",
+      "words": 92,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.300Z",
+      "at": "2026-10-15T00:28:58.367Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001304
+      "cost_usd": 0.002658
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.334Z",
+      "at": "2026-10-15T00:28:58.367Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.336Z",
+      "at": "2026-10-15T00:28:58.368Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.337Z",
+      "at": "2026-10-15T00:28:58.370Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/customers-vendors-reconciliations.md",
     "description": "Learn about the Customers/Vendors Reconciliations local functionality available in the Czech version of Business Central.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 80,
+    "ai_usage": "ai-assisted",
+    "words": 92,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b74c2f7fb2af875cb8f4e98f9333f20d4f5a672c68ea885d38f38a4fb8c0b0ff"
+  "output_hash": "8988b903fbde7c038bd9dc1f41dfee5994172bbaf5b5a907c0e9ddaa9d2cd7d4"
 }

@@ -2,20 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/finance-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/finance-vat",
   "title": "VAT - Czech local functionality",
-  "blob": "1cfa912af7d9ae11009c063b2512ad445c50a197",
-  "summary": "VAT features in Czech Business Central include VAT date tracking separate from posting date, VAT statement reporting with period filtering, supplementary VAT statements, VIES sales declarations, unreliable payer tracking, VAT exchange rates, and VAT control reports to comply with Czech VAT law 235/2004.",
+  "blob": "74aea3114ba900cd3f74f6ac6dfb4dfb661303e7",
+  "summary": "VAT functionality for Czech localization including VAT date setup, VAT statements, VIES reporting, unreliable payer checks, and VAT control reports to meet Czech tax law requirements.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "vat",
     "czech",
     "tax reporting",
+    "vat date",
     "vat settlement",
-    "vat entries",
-    "vies declaration"
+    "vies"
   ],
   "objects": [
     {
@@ -40,6 +39,18 @@
     },
     {
       "type": "report",
+      "name": "Supplementary VAT Statement"
+    },
+    {
+      "type": "report",
+      "name": "VIES"
+    },
+    {
+      "type": "report",
+      "name": "VAT Control Report"
+    },
+    {
+      "type": "report",
       "name": "Calc. and Post VAT Settlement"
     },
     {
@@ -60,14 +71,14 @@
     }
   ],
   "features": [
-    "VAT date",
+    "VAT date field on documents",
     "VAT periods",
-    "VAT settlement",
-    "VIES reporting",
-    "unreliable payer status",
-    "VAT exchange rate",
-    "VAT control report",
-    "supplementary VAT statements"
+    "VAT posting date range validation",
+    "VAT settlement calculation",
+    "Stat. Reporting Setup",
+    "VIES declaration export",
+    "Unreliable payer status",
+    "VAT currency code and exchange rate"
   ],
   "versions": [],
   "parts": 1,
@@ -76,8 +87,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.00562,
+      "pages_in_call": 1
     }
   ]
 }

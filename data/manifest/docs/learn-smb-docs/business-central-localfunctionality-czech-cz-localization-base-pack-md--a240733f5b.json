@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cz-localization-base-pack",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.277Z",
-      "blob": "41cedfd588fbc6175f8e782eb089e93089ebd866",
-      "words": 119,
+      "at": "2026-10-15T00:28:57.914Z",
+      "blob": "80117ce272fa518734c63f3e8f68faa827791d16",
+      "words": 117,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.305Z",
+      "at": "2026-10-15T00:29:06.144Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001304
+      "cost_usd": 0.002983
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.339Z",
+      "at": "2026-10-15T00:29:06.147Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.341Z",
+      "at": "2026-10-15T00:29:06.149Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.342Z",
+      "at": "2026-10-15T00:29:06.150Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/cz-localization-base-pack.md",
     "description": "Learn about the Core Localization Base Pack for Czech, an extension that enables companies to comply with Czech accounting and tax requirements.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Finance",
       "Localization"
     ],
-    "ai_usage": null,
-    "words": 119,
+    "ai_usage": "ai-assisted",
+    "words": 117,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b008c44d41a8b36c31ca4e0dcbd86e2f68bd401f5503d43e7cf89294acfc3ceb"
+  "output_hash": "869f73e7bea83853ef5808807794c3abf09e432dea9a97eec48e2525f8bafc5a"
 }
