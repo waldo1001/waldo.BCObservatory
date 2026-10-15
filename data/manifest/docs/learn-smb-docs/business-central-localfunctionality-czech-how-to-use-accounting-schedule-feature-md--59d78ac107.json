@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.363Z",
-      "blob": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
-      "words": 172,
+      "at": "2026-10-15T00:29:35.153Z",
+      "blob": "feacd1ee7d2585225156ca2daf77bed99a2d3557",
+      "words": 159,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.375Z",
+      "at": "2026-10-15T00:29:41.230Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001002
+      "cost_usd": 0.002944
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.094Z",
+      "at": "2026-10-15T00:29:41.232Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.095Z",
+      "at": "2026-10-15T00:29:41.233Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.096Z",
+      "at": "2026-10-15T00:29:41.237Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md",
     "description": "Enhancements to financial reports in the Czech version, including shared expressions, result saving, formula drill-down, and expanded data sources.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 172,
+    "ai_usage": "ai-assisted",
+    "words": 159,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "30d0a33d42d46150a42908288670f6e474292c958fa18f88265b9f946a13a21c"
+  "output_hash": "90bf5925fd694c6164923f673e3a213bb0ba589d3ee63f53061d24d6ae63024b"
 }

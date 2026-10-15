@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.349Z",
-      "blob": "8cb2d2fed99bb6e45da48ebe27984528c26d36e6",
+      "at": "2026-10-15T00:29:35.037Z",
+      "blob": "e6928fc95e5fa17356a7747d0032cbb6adadb588",
       "words": 72,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.373Z",
+      "at": "2026-10-15T00:29:40.569Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001002
+      "cost_usd": 0.002589
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.086Z",
+      "at": "2026-10-15T00:29:40.571Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.087Z",
+      "at": "2026-10-15T00:29:40.574Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.088Z",
+      "at": "2026-10-15T00:29:40.576Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md",
     "description": "Enables users to specify VAT Currency Code and VAT Exchange Rate in documents for the Czech version of Business Central.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Finance",
       "VAT"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 72,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "06b50c6e119ada0ee5a957eea6e997d894189cbb53800ec62c1da75a607cbc27"
+  "output_hash": "86ece641bd1da71b7f36d72970e32e18416bd1e4b1d7ba4225eec26b4d629f23"
 }

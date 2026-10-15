@@ -2,24 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-exchange-rate",
   "title": "Czech local functionality - VAT exchange rate",
-  "blob": "8cb2d2fed99bb6e45da48ebe27984528c26d36e6",
-  "summary": "VAT exchange rate feature for Czech localization allows setting different exchange rates for posting and VAT in sales and purchase documents.",
+  "blob": "e6928fc95e5fa17356a7747d0032cbb6adadb588",
+  "summary": "VAT exchange rate functionality for Czech Republic allows setting different exchange rates for posting and VAT in sales and purchase documents. Users can set VAT Currency Code and exchange rate separately before posting.",
   "systems": [
-    "localization",
     "finance",
-    "sales"
+    "localization"
   ],
   "topics": [
-    "czech",
-    "localization",
     "vat",
     "exchange rate",
-    "currency"
+    "czech",
+    "sales",
+    "purchase",
+    "documents"
   ],
   "objects": [],
   "features": [
     "VAT Currency Code field",
-    "VAT Exchange Rate in documents"
+    "VAT Exchange Rate",
+    "separate posting and VAT exchange rates"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001002,
-      "pages_in_call": 8
+      "cost_usd": 0.002589,
+      "pages_in_call": 1
     }
   ]
 }

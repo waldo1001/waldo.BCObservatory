@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.354Z",
-      "blob": "aec7a1a59d0ca194962114264e3f2273d5c3462e",
-      "words": 95,
+      "at": "2026-10-15T00:29:35.099Z",
+      "blob": "a4723538b5fa695c46c4d5bf7301b7f4a3913b82",
+      "words": 137,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.373Z",
+      "at": "2026-10-15T00:29:41.341Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001002
+      "objects": 2,
+      "cost_usd": 0.00319
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.089Z",
+      "at": "2026-10-15T00:29:41.342Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.090Z",
+      "at": "2026-10-15T00:29:41.344Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.090Z",
+      "at": "2026-10-15T00:29:41.346Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-update-contacts-from-ares.md",
     "description": "Learn how to update contact information in Business Central using ARES, the Czech system for retrieving data on registered economic entities.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "EET",
       "Cash Desk"
     ],
-    "ai_usage": null,
-    "words": 95,
+    "ai_usage": "ai-assisted",
+    "words": 137,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b4f8011d32e6e3aadf2a8f9c7b762401b8959b65f1394b3dd5fc4c1e8375f249"
+  "output_hash": "5615f35717e61d83380e013e635cb9ab3cd98dedda55fb12665ef31f1f73608c"
 }

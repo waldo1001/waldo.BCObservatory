@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.367Z",
-      "blob": "4383a046a53071994be485be93a978f34a08b698",
-      "words": 32,
+      "at": "2026-10-15T00:29:40.627Z",
+      "blob": "8d1879765d867af66f2e644095fcea0375269c8e",
+      "words": 159,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.148Z",
+      "at": "2026-10-15T00:29:45.283Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001504
+      "cost_usd": 0.003052
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.158Z",
+      "at": "2026-10-15T00:29:45.285Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.159Z",
+      "at": "2026-10-15T00:29:45.286Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.159Z",
+      "at": "2026-10-15T00:29:45.287Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md",
     "description": "Learn about the additional fields available on item ledger entries and value entries in the Czech version of Business Central.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 32,
+    "ai_usage": "ai-assisted",
+    "words": 159,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e5edac43ab15ad89293e0fa4f19d4ec99e7762e8808007f015e7554b44e4355b"
+  "output_hash": "0225f0c619349cadd190a3c45f34d0bb57cb50c99e464de900e2a9fbc8f8aa6d"
 }

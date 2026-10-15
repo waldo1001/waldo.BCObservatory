@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.372Z",
-      "blob": "a8bc992decf721050bea1b5fbb0c7eb4958e9b44",
+      "at": "2026-10-15T00:29:40.714Z",
+      "blob": "2547b4f2b0bae3e53e46548b04b61bcdb9a709c5",
       "words": 63,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.149Z",
+      "at": "2026-10-15T00:29:49.017Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.001504
+      "objects": 1,
+      "cost_usd": 0.002879
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.161Z",
+      "at": "2026-10-15T00:29:49.019Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.162Z",
+      "at": "2026-10-15T00:29:49.027Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.162Z",
+      "at": "2026-10-15T00:29:49.028Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-clasification-code-for-fixed-assets.md",
     "description": "The new Classification Code table and the Classification Code field are added. The field is used for FA classification to the tax group.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 63,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "606e83873e5195bb1fd1a4d6749bbe23596c662de2d3a61f346d9aab36340c3b"
+  "output_hash": "ad89d0578ba0c6d47516e35f27775737e1bf76950cabd93cc47a6fc241dd3366"
 }

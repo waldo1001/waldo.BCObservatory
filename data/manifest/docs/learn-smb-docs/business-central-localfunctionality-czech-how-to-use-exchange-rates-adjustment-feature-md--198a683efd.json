@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.380Z",
-      "blob": "244057e097f121227f01e49edea4d6b39e2cef16",
-      "words": 228,
+      "at": "2026-10-15T00:29:41.416Z",
+      "blob": "474775a2348d35dfee13905bb3b4049bf5660576",
+      "words": 247,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:48.151Z",
+      "at": "2026-10-15T00:29:49.110Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001504
+      "objects": 2,
+      "cost_usd": 0.003319
     },
     "summarized": {
-      "at": "2026-10-06T19:22:48.163Z",
+      "at": "2026-10-15T00:29:49.112Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:48.164Z",
+      "at": "2026-10-15T00:29:49.113Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:48.165Z",
+      "at": "2026-10-15T00:29:49.115Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md",
     "description": "Companies in the Czech Republic request some improvements in the Exchange Rates Adjustment feature in the Czech version of Business Central.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 228,
+    "ai_usage": "ai-assisted",
+    "words": 247,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "da8c4d45976ec5c073ece5ada61de1db80b42d03ccc10a7f1f809afc2df39169"
+  "output_hash": "ccac9f9a1bb323ba553e0228bef221d3e31886c497b2a47531ec9ae9fec2d98c"
 }

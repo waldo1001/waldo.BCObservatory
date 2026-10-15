@@ -2,28 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory",
   "title": "Rounding account in inventory [CZ]",
-  "blob": "79d38cb49257901bb66ff76ee3371756912b59c6",
-  "summary": "Rounding account in inventory feature for Czech localization enables posting rounded costs to a different general ledger account instead of the inventory adjustment account.",
+  "blob": "d2d843d9ecbcab103495107f76b0591eacd3d172",
+  "summary": "The rounding account in inventory feature in the Czech version lets you post rounded inventory costs to a designated general ledger account instead of the standard inventory adjustment account.",
   "systems": [
-    "localization",
     "inventory",
+    "localization",
     "finance"
   ],
   "topics": [
-    "czech",
-    "localization",
     "rounding",
-    "inventory",
-    "value entry"
+    "inventory costs",
+    "general ledger",
+    "posting setup",
+    "czech localization"
   ],
   "objects": [
     {
       "type": "table",
       "name": "Value Entry"
+    },
+    {
+      "type": "page",
+      "name": "General Posting Setup"
     }
   ],
   "features": [
-    "Rounding account in inventory"
+    "Rounding account",
+    "Inventory adjustment",
+    "Rounded costs posting",
+    "Invt. Rounding Adj. Account"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001002,
-      "pages_in_call": 8
+      "cost_usd": 0.003039,
+      "pages_in_call": 1
     }
   ]
 }

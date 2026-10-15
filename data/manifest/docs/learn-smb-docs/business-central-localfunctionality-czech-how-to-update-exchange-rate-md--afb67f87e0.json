@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-update-exchange-rate",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.358Z",
-      "blob": "aa35540a3e093bf1364dd277e87953e8131d8944",
-      "words": 69,
+      "at": "2026-10-15T00:29:35.074Z",
+      "blob": "089d06abb43d1f7df6d04ba3771be5652a73e608",
+      "words": 68,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.374Z",
+      "at": "2026-10-15T00:29:40.659Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001002
+      "cost_usd": 0.002704
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.091Z",
+      "at": "2026-10-15T00:29:40.661Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.092Z",
+      "at": "2026-10-15T00:29:40.662Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.093Z",
+      "at": "2026-10-15T00:29:40.664Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-update-exchange-rate.md",
     "description": "Enables automatic updates of currency exchange rates from the Czech National Bank (CNB) in the Czech version of Business Central.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Exchange Rate",
       "Localization"
     ],
-    "ai_usage": null,
-    "words": 69,
+    "ai_usage": "ai-assisted",
+    "words": 68,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e1a74f200a1bba60d21761eb5220af9442cbb632157cb794d7ebfd76943fc043"
+  "output_hash": "4cbab30c5ab233670325bb6de18fb1242e0531d2711f59dc319c44f92dd06071"
 }

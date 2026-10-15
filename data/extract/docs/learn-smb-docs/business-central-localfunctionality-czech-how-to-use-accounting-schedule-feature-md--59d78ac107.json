@@ -2,26 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-accounting-schedule-feature",
   "title": "Czech local functionality - Financial report feature",
-  "blob": "36b26372f08c941237a41fbda4d5eed9f0c9020d",
-  "summary": "Financial report feature for Czech localization provides advanced analysis and reporting capabilities including shared expressions, result saving, formula drill-down, and additional data sources.",
+  "blob": "feacd1ee7d2585225156ca2daf77bed99a2d3557",
+  "summary": "Financial report feature in Czech Dynamics 365 Business Central provides shared financial reports, result saving and retrieval, formula drill-down capabilities, and extended data sources beyond G/L entries.",
   "systems": [
+    "finance",
     "localization",
-    "reporting",
-    "finance"
+    "reporting"
   ],
   "topics": [
-    "czech",
-    "localization",
     "financial reports",
+    "czech localization",
+    "accounting schedules",
     "analysis",
-    "formulas"
+    "formulas",
+    "data sources"
   ],
   "objects": [],
   "features": [
-    "Common list of expressions",
-    "Saving analysis results",
-    "Formula drill-down",
-    "Additional data sources for VAT and value entries"
+    "shared financial report",
+    "saving analysis results",
+    "formulas drill-down",
+    "VAT analysis",
+    "customer analysis",
+    "vendor analysis",
+    "value entries analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001002,
-      "pages_in_call": 8
+      "cost_usd": 0.002944,
+      "pages_in_call": 1
     }
   ]
 }

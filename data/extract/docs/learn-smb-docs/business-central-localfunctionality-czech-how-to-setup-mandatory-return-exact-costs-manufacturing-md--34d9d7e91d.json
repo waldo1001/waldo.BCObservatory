@@ -2,22 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing",
   "title": "Mandatory returning of exact costs in manufacturing [CZ]",
-  "blob": "3b4bce55f348c0940977ba3b0ee03a02979bf552",
-  "summary": "Mandatory returning of exact costs in manufacturing for Czech localization.",
+  "blob": "ba9b4d8e69cbd9d751ed7a10e29a2959945ff339",
+  "summary": "Mandatory returning of exact costs in manufacturing prevents storno consumption transactions from posting unless applied to the exact entry they reverse, ensuring accurate manufacturing cost reversals in the Czech version.",
   "systems": [
-    "localization",
     "manufacturing",
-    "finance"
+    "localization"
   ],
   "topics": [
     "czech",
-    "localization",
-    "manufacturing",
-    "exact costs"
+    "cost reversal",
+    "manufacturing setup",
+    "consumption",
+    "exact cost"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Manufacturing Setup"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
   "features": [
-    "Mandatory returning of exact costs in manufacturing"
+    "Exact Cost Rev.Manda. (Cons.)",
+    "Exact Cost Reversing Mandatory",
+    "item tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001002,
-      "pages_in_call": 8
+      "cost_usd": 0.002975,
+      "pages_in_call": 1
     }
   ]
 }
