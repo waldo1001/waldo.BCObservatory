@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12543,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12543",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-09T12:41:11Z",
+  "merge_commit_sha": "ba07945fd9b4faa7803a5036a89149ae882529a9",
+  "author": "BardurKnudsen",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Bug 653430: [29.x][Expense Agent] It would be nice if default data setup included number series for users, reports, etc.",
+  "body_hash": "a20828cb1a9367d1f3273de3e39437789d70cf4b70ddef25b14fe8ca4b71128d",
+  "fixes_issues": [],
+  "work_items": [
+    653430
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/1.Setup data/CreateGeneralLedgerSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Foundation/1.Setup data/CreateNoSeries.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 10,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Finance/1.Setup data/CreateGeneralLedgerSetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5230",
+        "type": "codeunit",
+        "id": 5230,
+        "name": "Create General Ledger Setup",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5230"
+      },
+      {
+        "path": "src/Apps/W1/ContosoCoffeeDemoDataset/app/DemoData/Foundation/1.Setup data/CreateNoSeries.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5278",
+        "type": "codeunit",
+        "id": 5278,
+        "name": "Create No. Series",
+        "app": "ContosoCoffeeDemoDataset",
+        "cc": "w1",
+        "page": "codeunit/5278"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "ContosoCoffeeDemoDataset"
+  ]
+}

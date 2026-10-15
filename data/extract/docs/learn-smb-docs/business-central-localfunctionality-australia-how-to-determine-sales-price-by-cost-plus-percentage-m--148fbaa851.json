@@ -2,21 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage",
   "title": "Determine Sales Price by Cost Plus Percentage (AU)",
-  "blob": "2a538a61ccfcb15f6e500a8509c4c97b04de2da7",
-  "summary": "Determine sales prices using a cost plus percentage calculation method in the Australian version.",
+  "blob": "0a3e1051387e5f324bc5499ed7617eea3de50364",
+  "summary": "Determine sales prices using a cost plus percentage calculation method specific to the Australian version of Business Central.",
   "systems": [
     "sales",
     "localization"
   ],
   "topics": [
     "pricing",
-    "sales",
-    "cost plus",
-    "australia"
+    "sales price",
+    "cost plus percentage",
+    "australia",
+    "local functionality"
   ],
   "objects": [],
   "features": [
-    "cost plus pricing",
+    "cost plus percentage pricing",
     "sales price determination"
   ],
   "versions": [],
@@ -26,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.000953,
-      "pages_in_call": 8
+      "cost_usd": 0.00251,
+      "pages_in_call": 1
     }
   ]
 }

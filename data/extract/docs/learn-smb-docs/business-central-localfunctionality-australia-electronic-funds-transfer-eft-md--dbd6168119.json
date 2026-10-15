@@ -2,23 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-",
   "title": "Electronic Funds Transfer (EFT) [AU]",
-  "blob": "0796c294a1177dc677238efefe8c2386b199e67f",
-  "summary": "Electronic Funds Transfer (EFT) in Australia enables vendors to be paid using the Australian EFT payment system integrated with bank file export functionality.",
+  "blob": "88a20db571f0b93bc911b22d3e2a20d43b269537",
+  "summary": "Electronic Funds Transfer (EFT) enables vendors to be paid using Australia's EFT payment system in Business Central.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "australia",
     "eft",
-    "electronic funds transfer",
-    "bank payments"
+    "vendor payments",
+    "bank payments",
+    "australia",
+    "payment methods"
   ],
   "objects": [],
   "features": [
-    "electronic funds transfer",
-    "vendor payments",
-    "bank file export"
+    "Electronic Funds Transfer"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00207,
-      "pages_in_call": 8
+      "cost_usd": 0.002607,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.732Z",
-      "blob": "44788386d75118f440dafecfe65c288cfb36b5d6",
+      "at": "2026-10-15T00:26:38.385Z",
+      "blob": "7b770485e584c0b0dba23f879e46422a77867517",
       "words": 19,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.359Z",
+      "at": "2026-10-15T00:26:42.033Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.002468
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.428Z",
+      "at": "2026-10-15T00:26:45.809Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.428Z",
+      "at": "2026-10-15T00:26:45.811Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.429Z",
+      "at": "2026-10-15T00:26:45.812Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md",
     "description": "Use the Bank Detail Cashflow Compare report to compare the cash flow within a specific bank for a specified period in the Australian version.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "cash flow",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 19,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0b30b0bee621e2140a225b2f71643df2b3c17e98e934da7f2c937cf2f2946421"
+  "output_hash": "4c94087f12cb246a4de980aa4271bcabfe0572437a74430bc3c8b4ce16589cac"
 }

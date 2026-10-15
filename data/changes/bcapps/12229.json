@@ -1,0 +1,75 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12229,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12229",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-09T11:49:24Z",
+  "merge_commit_sha": "766f633e91e8d5d1468a1410ee8226d2b0df3607",
+  "author": "RadoArvay",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "#12144 Enable Inbound E-Documents page extensibility",
+  "body_hash": "7caa80aa7d4080627e507360609ed9b93eb24430204323c096c9d649b14fdece",
+  "fixes_issues": [
+    12144
+  ],
+  "work_items": [
+    652686
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/Inbound/InboundEDocuments.Page.al",
+        "status": "modified",
+        "key": "page/6105",
+        "type": "page",
+        "id": 6105,
+        "name": "Inbound E-Documents",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "page/6105"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ],
+  "issues": [
+    {
+      "number": 12144,
+      "title": "[Extensibility][W1][Page][6105][Inbound E-Documents] Enable to add fields to the page",
+      "state": "closed"
+    }
+  ]
+}

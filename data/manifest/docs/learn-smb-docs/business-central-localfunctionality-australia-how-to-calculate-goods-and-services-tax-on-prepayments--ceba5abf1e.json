@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.727Z",
-      "blob": "a7dcdc352850bd3893bfd7ef5594d39d5f78de2a",
+      "at": "2026-10-15T00:26:36.400Z",
+      "blob": "e5eb9f22e3d89bd099302084ff523e535b22de69",
       "words": 21,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.357Z",
+      "at": "2026-10-15T00:26:40.387Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.002636
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.425Z",
+      "at": "2026-10-15T00:26:40.389Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.426Z",
+      "at": "2026-10-15T00:26:40.391Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.427Z",
+      "at": "2026-10-15T00:26:40.393Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md",
     "description": "Learn how to calculate Goods and Services Tax (GST) on partial payments or prepayments, using the total invoice amount rather than the partial payment amount.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -76,12 +76,12 @@
       "total invoice amount",
       "partial payment amount"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 21,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e07f63128738579f450c0acd1cb60ca4c051e37767dca913c2302c03660232fc"
+  "output_hash": "5be33d4d8da9770f650ce8c360228a5a050c202798266c2b84ed7f29f9ff905a"
 }

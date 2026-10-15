@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-au-einvoice.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-au-einvoice",
   "title": "Electronic invoicing in Australia",
-  "blob": "94e893433bf4cfc57b5f6c562611185942b69ad3",
-  "summary": "Provides information on implementing electronic invoicing in Australia using the E-Document framework with support for the Peppol PINT A-NZ format.",
+  "blob": "f676e8890c6df188585d67d12dbd5b2a60c7611f",
+  "summary": "Electronic invoicing in Australia uses the E-Documents framework with Peppol PINT A-NZ format for setting up e-document services and managing e-invoices in sales and purchasing workflows.",
   "systems": [
-    "integration",
-    "localization"
+    "finance",
+    "sales",
+    "purchasing"
   ],
   "topics": [
-    "e-document",
-    "einvoice",
+    "electronic invoicing",
+    "e-documents",
     "australia",
-    "peppol"
+    "peppol",
+    "localization"
   ],
   "objects": [
     {
@@ -21,9 +23,10 @@
     }
   ],
   "features": [
-    "E-Document framework",
+    "E-Documents framework",
     "Peppol PINT A-NZ format",
-    "service integration"
+    "Service Integration",
+    "E-invoice setup"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003855,
-      "pages_in_call": 8
+      "cost_usd": 0.003307,
+      "pages_in_call": 1
     }
   ]
 }

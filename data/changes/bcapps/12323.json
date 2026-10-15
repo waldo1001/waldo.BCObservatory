@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12323,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12323",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-09T11:49:24Z",
+  "merge_commit_sha": "11b6166da9cd35b2f87577d6479ddca2531b633c",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Migrate API test libraries off Http Web Request Mgt.",
+  "body_hash": "0c3096fecde20aacd73a9875502989cfc402483ce4a150b3e43c3b860bbb9e7b",
+  "fixes_issues": [],
+  "work_items": [
+    647963
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 4,
+    "additions": 303,
+    "deletions": 139,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.741Z",
-      "blob": "2a538a61ccfcb15f6e500a8509c4c97b04de2da7",
+      "at": "2026-10-15T00:26:40.002Z",
+      "blob": "0a3e1051387e5f324bc5499ed7617eea3de50364",
       "words": 19,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.361Z",
+      "at": "2026-10-15T00:26:45.827Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.00251
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.435Z",
+      "at": "2026-10-15T00:26:45.829Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.436Z",
+      "at": "2026-10-15T00:26:45.830Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.437Z",
+      "at": "2026-10-15T00:26:45.832Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md",
     "description": "Use the cost-plus percentage function to set sales prices based on item costs. Calculate the item’s cost along with cost plus calculation and apply the discount.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "apply discount",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 19,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "38a8e246db486048b297b5d5193b9939b5c128c5401a5b3540a6e3b60fcf316e"
+  "output_hash": "1d586461335e41d477b59f692ecc311c7cfb5ce828e5d85ef442e0a3e50660f8"
 }

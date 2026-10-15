@@ -1,0 +1,75 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12418,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12418",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-09T15:05:55Z",
+  "merge_commit_sha": "4f11d1b9c4328027175cc6af5c5a7faedf3a700e",
+  "author": "RadoArvay",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "#12375 Make OpenEDocument method public",
+  "body_hash": "e8379d5fd768d64aa7746346da26299c648c46e8b781a015cffed83de7e5bf44",
+  "fixes_issues": [
+    12375
+  ],
+  "work_items": [
+    653109
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 5,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Document/EDocument.Table.al",
+        "status": "modified",
+        "key": "table/6121",
+        "type": "table",
+        "id": 6121,
+        "name": "E-Document",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6121"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument"
+  ],
+  "issues": [
+    {
+      "number": 12375,
+      "title": "[Extensibility][W1][Table][6121][E-Document] Change scope of OpenEDocument internal method",
+      "state": "closed"
+    }
+  ]
+}

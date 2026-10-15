@@ -6,10 +6,18 @@
   "title": "Fix deployment environment discovery pagination",
   "url": "https://github.com/microsoft/AL-Go/pull/2396",
   "published_at": "2026-10-09T13:34:49Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:36.342Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
     }
   },
   "input_hash": "5a8b80e995f10776840da580018fb2b7950cd00d:c1",
@@ -26,5 +34,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix deployment environment discovery pagination"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7681f7b7a807d8239d8d0236a6c658ebec1465ec2a650019567b1784ab8e14ce"
 }

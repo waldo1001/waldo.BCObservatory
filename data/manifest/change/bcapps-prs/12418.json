@@ -6,10 +6,18 @@
   "title": "#12375 Make OpenEDocument method public",
   "url": "https://github.com/microsoft/BCApps/pull/12418",
   "published_at": "2026-10-09T15:05:55Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:35.889Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "4f11d1b9c4328027175cc6af5c5a7faedf3a700e:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "12375 make openedocument method public"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ac39203b4d334ad98c2874dbb57287ec17143c18c548d711073f5c5a539a449"
 }

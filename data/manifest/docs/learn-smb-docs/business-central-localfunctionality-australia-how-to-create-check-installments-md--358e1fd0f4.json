@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.736Z",
-      "blob": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
+      "at": "2026-10-15T00:26:39.279Z",
+      "blob": "06e705110ff63a34e47d1d31dec4f8b86ce09186",
       "words": 15,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.360Z",
+      "at": "2026-10-15T00:26:45.837Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.002429
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.430Z",
+      "at": "2026-10-15T00:26:45.838Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.432Z",
+      "at": "2026-10-15T00:26:45.840Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.433Z",
+      "at": "2026-10-15T00:26:45.841Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-create-check-installments.md",
     "description": "Learn how to create check installments for postdated checks, define the number of installments, interest percent, and the period for the checks in the Australian version",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -75,12 +75,12 @@
       "interest percent",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 15,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6b201cbb4ef863c2636a1fbddae0402303cabc7bc9b27fb471726494ed7e896b"
+  "output_hash": "4067f0397a59963d38243cf3c67492f5e49041b679733a3348f469ea7dd941b9"
 }

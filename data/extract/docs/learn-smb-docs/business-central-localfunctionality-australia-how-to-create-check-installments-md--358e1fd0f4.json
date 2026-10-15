@@ -2,20 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-create-check-installments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-create-check-installments",
   "title": "Create check installments [AU]",
-  "blob": "1bcd881ecad7426df24ff82aa3e78d045f6d4902",
-  "summary": "Create check installments in the Australian version of Business Central for payment processing.",
+  "blob": "06e705110ff63a34e47d1d31dec4f8b86ce09186",
+  "summary": "Creating check installments in the Australian version of Business Central for managing payment schedules.",
   "systems": [
     "finance",
-    "localization"
+    "purchasing"
   ],
   "topics": [
-    "check payments",
+    "payment processing",
+    "checks",
     "installments",
-    "australia"
+    "australia",
+    "local functionality"
   ],
   "objects": [],
   "features": [
-    "check installment creation"
+    "check installments"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.000953,
-      "pages_in_call": 8
+      "cost_usd": 0.002429,
+      "pages_in_call": 1
     }
   ]
 }

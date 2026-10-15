@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.723Z",
-      "blob": "1e86627a9de11f83afc3b9972fa7c2da1558c6fb",
+      "at": "2026-10-15T00:26:34.094Z",
+      "blob": "d9c3dff90fb004126cea3c0257eca7cc52658122",
       "words": 100,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.356Z",
+      "at": "2026-10-15T00:26:39.209Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.000953
+      "cost_usd": 0.002943
     },
     "summarized": {
-      "at": "2026-10-06T19:30:48.366Z",
+      "at": "2026-10-15T00:26:39.211Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:48.367Z",
+      "at": "2026-10-15T00:26:39.212Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:48.368Z",
+      "at": "2026-10-15T00:26:39.214Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-calculate-and-post-withholding-tax-settlements.md",
     "description": "Learn how to calculate and post the withholding tax (WHT) in the Australian version of Business Central.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "withholding tax settlement",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 100,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d2099bb7bb3fd78645050b666b8df76bb843bdfb7b20c8388a4c372f4a96ac86"
+  "output_hash": "b5d695708876aa6027b748c186d81dfa663f8254e143760569a41f3cc9262e00"
 }

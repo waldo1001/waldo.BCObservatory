@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.719Z",
-      "blob": "d5eb9b980588336df31b4ae4d2141a64137bbb89",
+      "at": "2026-10-15T00:26:33.661Z",
+      "blob": "289588003080125cb15c9cf8816206459afecba4",
       "words": 19,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.880Z",
+      "at": "2026-10-15T00:26:39.457Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00207
+      "cost_usd": 0.002864
     },
     "summarized": {
-      "at": "2026-10-06T19:30:32.682Z",
+      "at": "2026-10-15T00:26:39.460Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:32.684Z",
+      "at": "2026-10-15T00:26:39.461Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:32.685Z",
+      "at": "2026-10-15T00:26:39.463Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md",
     "description": "Use a batch job to settle VAT entries based on the government exchange rate in the Australian version of Business Central.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "government exchange rate",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 19,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "71e122d03d7d592e954d033d397cf2f38f84f803cecd9b298838a64f04f8653d"
+  "output_hash": "e896c533ff344d84587b4a65b3686571587e98abe858beda449a0eddf67019f8"
 }
