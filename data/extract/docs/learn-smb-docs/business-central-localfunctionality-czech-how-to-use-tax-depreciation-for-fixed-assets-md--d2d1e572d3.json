@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-tax-depreciation-for-fixed-assets",
   "title": "Czech local functionality - Tax depreciation for fixed assets | Microsoft Docs",
-  "blob": "09096ec69b4c0a0e12adf0ad4ca7903c1477d070",
-  "summary": "Czech fixed asset tax depreciation feature calculates and posts tax depreciation compliant with Income Tax Act using depreciation groups and methods (Regular, Accelerated, Intangible).",
+  "blob": "e981fb446ed5620806ebf952104c4e68ced757df",
+  "summary": "Czech tax depreciation for fixed assets calculates and posts depreciation according to Income Tax Act Law 586/1992 using depreciation groups and methods like straight-line, declining-balance, and straight-line intangible.",
   "systems": [
     "fixed-assets",
     "localization"
@@ -11,16 +11,17 @@
   "topics": [
     "tax depreciation",
     "fixed assets",
-    "czech",
     "depreciation groups",
-    "depreciation methods"
+    "depreciation methods",
+    "czech"
   ],
   "objects": [],
   "features": [
-    "Regular depreciation method",
-    "Accelerated depreciation method",
-    "Intangible depreciation method",
-    "Tax depreciation groups"
+    "Tax depreciation calculation",
+    "Depreciation groups setup",
+    "Straight-Line depreciation method",
+    "Declining-Balance depreciation method",
+    "Straight-Line Intangible depreciation method"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.003028,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/internal-financial-documents",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,11 +19,11 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:50.085Z",
+      "at": "2026-10-15T00:30:10.045Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.001801
+      "cost_usd": 0.002768
     },
     "summarized": {
       "at": "2026-10-06T19:22:51.849Z",
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "91f8dc3a140c5f73c1e1d01e3b2be9737f79687b"
+  "output_hash": "5994ae09a806f6591e7dd9c5090453f22fa4330bf7061a32b272f0f7fd3ea30a"
 }

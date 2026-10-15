@@ -2,24 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders",
   "title": "Czech local functionality - Posting groups in transfer orders",
-  "blob": "1bde9d6f133050fb0e517e9276690b9f949622e7",
-  "summary": "Czech transfer order posting groups feature enables posting location transfers with defined Inventory Adjmt. Account different from other item journal postings using Gen. Bus. Post. Group fields.",
+  "blob": "103ea744cd3fd6c12fbbdc383d061e549a5ef1e6",
+  "summary": "Configure posting groups for transfer orders in Czech Business Central by setting general business posting groups for shipment and receipt, and default groups for direct transfers through Transfer Route and Inventory Setup pages.",
   "systems": [
     "inventory",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
-    "transfer orders",
     "posting groups",
-    "czech",
-    "inventory adjustment",
+    "transfer orders",
+    "czech localization",
+    "inventory posting",
+    "general posting setup",
     "transfer routes"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Transfer Route"
+    },
+    {
+      "type": "page",
+      "name": "Inventory Setup"
+    }
+  ],
   "features": [
-    "Gen. Bus. Post. Groups for Ship posting",
-    "Gen. Bus. Post. Groups for Receive posting",
-    "Transfer Route setup"
+    "Gen. Bus. Post. Group Ship",
+    "Gen. Bus. Post. Group Receive",
+    "Inventory Adjmt. Account",
+    "Default Gen. Bus. Posting Group for Direct Transfer"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.003376,
+      "pages_in_call": 1
     }
   ]
 }

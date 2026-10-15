@@ -2,29 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-use-two-steps-fixed-asset-acquisition.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-two-steps-fixed-asset-acquisition",
   "title": "Czech local functionality - Two steps fixed asset acquisition | Microsoft Docs",
-  "blob": "2718ac0b712429293436ecc806395fabc48b9187",
-  "summary": "Czech two-step fixed asset acquisition feature requires posting both the acquisition invoice and put-to-use steps using Custom 2 and Acquisition posting types, with assets depreciating only after put-to-use.",
+  "blob": "440855b6935149bff7a8cbffc2e2b8817b7e8cf0",
+  "summary": "Czech fixed asset acquisition uses a two-step process with Custom 2 posting for initial acquisition and Acquisition posting for put-to-use, controlled by the FA Acquisition As Custom 2 setting on the Fixed Asset Setup page.",
   "systems": [
     "fixed-assets",
     "localization"
   ],
   "topics": [
-    "fixed asset acquisition",
+    "fixed assets",
     "czech",
-    "posting types",
-    "depreciation",
-    "asset setup"
+    "localization",
+    "acquisition",
+    "accounting",
+    "depreciation"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "Fixed Asset Setup"
     }
   ],
   "features": [
+    "FA Acquisition As Custom 2",
     "Custom 2 posting type",
-    "Acquisition posting type",
-    "Fixed Asset Acquisition as Custom2 checkbox"
+    "Acquisition posting type"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001801,
-      "pages_in_call": 7
+      "cost_usd": 0.002864,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,28 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/inventory.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory",
   "title": "Czech Local Functionality - Inventory",
-  "blob": "78215b36bdb40c4582962269bfe29e44ae0d0fca",
-  "summary": "Czech inventory localization adds posting groups for transfer orders, rounding account for inventory adjustments, enhanced G/L reconciliation, physical inventory differentiation for deficits and surpluses, and reports for inventory operations and counting.",
+  "blob": "57745f4ca6e20bdffe73093e48463db325111ff4",
+  "summary": "Czech inventory features including posting groups for transfer orders, rounding accounts, G/L reconciliation enhancements, physical inventory adjustments with movement templates, and specialized inventory operation and counting documents for legal compliance.",
   "systems": [
     "inventory",
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "inventory",
-    "czech",
-    "physical inventory",
+    "czech local functionality",
     "posting groups",
-    "transfer orders"
+    "transfer orders",
+    "physical inventory",
+    "inventory adjustment",
+    "g/l reconciliation",
+    "inventory operations",
+    "rounding accounts"
   ],
   "objects": [
+    {
+      "type": "table",
+      "name": "Value Entry"
+    },
     {
       "type": "page",
       "name": "Transfer Route"
     },
     {
-      "type": "table",
-      "name": "Value Entry"
+      "type": "page",
+      "name": "General Posting Setup"
     },
     {
       "type": "page",
@@ -31,28 +38,24 @@
     },
     {
       "type": "report",
-      "name": "Inventory Movement Report"
+      "name": "Inventory Document"
     },
     {
       "type": "report",
-      "name": "Posted Inventory Document Report"
+      "name": "Posted Inventory Document"
     },
     {
       "type": "report",
-      "name": "Phys. Inventory List Report"
-    },
-    {
-      "type": "report",
-      "name": "Phys. Invt. Counting Document Report"
+      "name": "Physical Inventory Counting Document"
     }
   ],
   "features": [
-    "posting groups in transfer orders",
-    "rounding account",
-    "inventory G/L reconciliation",
-    "physical inventory differentiation",
-    "inventory operations documents",
-    "inventory counting document"
+    "Posting groups in transfer orders",
+    "Rounding account in inventory",
+    "Inventory – G/L reconciliation enhancements",
+    "Physical inventory adjustments with movement templates",
+    "Inventory operations documents",
+    "Physical inventory counting documents"
   ],
   "versions": [],
   "parts": 1,
@@ -61,8 +64,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.004556,
+      "pages_in_call": 1
     }
   ]
 }
