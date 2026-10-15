@@ -2,20 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-generate-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-generate-delivery-reminders",
   "title": "Generate delivery reminders [AT]",
-  "blob": "7d92fce5d9a5bc3790ea7922e386a85c2812c631",
-  "summary": "Generate delivery reminders automatically in the Austrian version to notify vendors about overdue deliveries.",
+  "blob": "ef5d97ed8c196eb8dc8ea052b42b7139e068af7b",
+  "summary": "Generate delivery reminders in the Austrian version of Business Central to track and manage late supplier deliveries. Use this after setting up delivery reminders and assigning codes to vendors.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "delivery reminders",
-    "austria",
     "vendor management",
-    "purchase orders"
+    "austria",
+    "supplier tracking",
+    "automated reminders"
   ],
   "objects": [],
   "features": [
-    "automatic delivery reminder generation"
+    "Generate delivery reminders",
+    "Delivery reminder management"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.002753,
+      "pages_in_call": 1
     }
   ]
 }

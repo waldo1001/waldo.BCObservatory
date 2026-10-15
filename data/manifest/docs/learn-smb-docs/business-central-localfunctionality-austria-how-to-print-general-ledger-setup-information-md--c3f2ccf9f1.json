@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.841Z",
-      "blob": "df3a1519c9146e9a438cee8c8882e4703b8e11dd",
+      "at": "2026-10-15T00:27:11.961Z",
+      "blob": "29deff61ce95c7f6de50cfe852692740f8e4ad43",
       "words": 291,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:07.224Z",
+      "at": "2026-10-15T00:27:17.686Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001196
+      "cost_usd": 0.003274
     },
     "summarized": {
-      "at": "2026-10-06T19:31:07.234Z",
+      "at": "2026-10-15T00:27:17.688Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:07.235Z",
+      "at": "2026-10-15T00:27:17.690Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:07.236Z",
+      "at": "2026-10-15T00:27:17.692Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md",
     "description": "Before you start using the Austrian version for your daily business tasks, you can run the G/L Setup Information report to display the master data that you set up.",
-    "ms_date": "2025-03-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "install-set-up-deploy",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "general ledger setup",
       "G/L Setup Information"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "27d6f657474d5d12d2e8b7b7094b5ae3569ca9aea19f2eda19393f53efff191d"
+  "output_hash": "c66acb7e1bc412e85aac45d6a42539bce5bc1763b9884423d37ce59e1420351c"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.854Z",
-      "blob": "16e8ec4cacf5392e88241cc04351719870cdeb43",
+      "at": "2026-10-15T00:27:17.557Z",
+      "blob": "6bbc20f9f61eb7085459faa1372b8a450e649ad0",
       "words": 36,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:07.227Z",
+      "at": "2026-10-15T00:27:25.794Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001196
+      "cost_usd": 0.002698
     },
     "summarized": {
-      "at": "2026-10-06T19:31:07.243Z",
+      "at": "2026-10-15T00:27:25.795Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:07.243Z",
+      "at": "2026-10-15T00:27:25.797Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:07.244Z",
+      "at": "2026-10-15T00:27:25.798Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md",
     "description": "To create delivery reminders, you must perform certain setup tasks in the Austrian version.",
-    "ms_date": "2025-03-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "delivery reminder levels",
       "delivery reminders setup"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 36,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b7948447e4dcc46a14fd04795364059eedeab890ea7815decf5598f449ceeaa2"
+  "output_hash": "855912a477e2fb09eedf61484ac172428c832f98c6c286ba3509b1fef72d4e90"
 }

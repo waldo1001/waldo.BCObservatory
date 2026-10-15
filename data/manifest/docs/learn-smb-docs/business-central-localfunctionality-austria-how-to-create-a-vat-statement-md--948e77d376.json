@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-a-vat-statement",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:50.643Z",
+      "at": "2026-10-15T00:27:17.490Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002535
+      "cost_usd": 0.00382
     },
     "summarized": {
-      "at": "2026-10-06T23:41:50.653Z",
+      "at": "2026-10-15T00:27:17.492Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:50.654Z",
+      "at": "2026-10-15T00:27:17.494Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:50.656Z",
+      "at": "2026-10-15T00:27:17.495Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e137e936eb05c2aafa802774f3529345c5113d7e"
+  "output_hash": "dfbbb065b16063a584a9f849a0a329e590d70608af8e03f9e4c7b973bc37a1bc"
 }

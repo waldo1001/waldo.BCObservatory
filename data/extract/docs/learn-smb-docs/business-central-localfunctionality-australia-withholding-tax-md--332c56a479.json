@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax",
   "title": "Withholding Tax in the Australian version",
-  "blob": "a3e26bd65869846f7200e957ab6f0d51bfaded05",
-  "summary": "Withholding Tax in the Australian version describes WHT as tax withheld from vendor payments, requiring setup of WHT Business Posting Groups and WHT Product Posting Groups with calculation rules, minimum invoice amounts, rates, and revenue types.",
+  "blob": "853c18c6b1caabba6dda128f9420e4e9e9573871",
+  "summary": "Withholding Tax (WHT) in the Australian version allows companies to withhold tax from payments to vendors and remit it to the Australian Taxation Office. Set up WHT Business and Product Posting Groups with calculation rules, thresholds, rates, and GL accounts to automatically calculate and process WHT at payment time.",
   "systems": [
-    "finance",
-    "localization"
+    "purchasing",
+    "localization",
+    "finance"
   ],
   "topics": [
     "withholding tax",
+    "wht",
+    "australia",
     "vendor payments",
-    "australian tax",
-    "tax setup",
-    "posting groups"
+    "tax compliance",
+    "posting setup"
   ],
   "objects": [
     {
@@ -26,14 +28,14 @@
     }
   ],
   "features": [
-    "WHT calculation rules",
-    "WHT minimum invoice amount",
-    "WHT percentage",
-    "Realized WHT type",
-    "Payable WHT account",
-    "Revenue type classification",
-    "Non-ABN supplier withholding",
-    "Foreign supplier withholding"
+    "WHT Calculation Rule",
+    "WHT Minimum Invoice Amount",
+    "WHT %",
+    "Realized WHT Type",
+    "Payable WHT Account Code",
+    "Purch. WHT Adj. Account No.",
+    "Revenue Type",
+    "WHT certificate printing"
   ],
   "versions": [],
   "parts": 1,
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002182,
-      "pages_in_call": 7
+      "cost_usd": 0.004337,
+      "pages_in_call": 1
     }
   ]
 }

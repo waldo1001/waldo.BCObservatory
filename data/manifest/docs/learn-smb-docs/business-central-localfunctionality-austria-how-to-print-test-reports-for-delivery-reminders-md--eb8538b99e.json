@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.845Z",
-      "blob": "4971beff3f2dfa12acf91f22052fbe76d68ab764",
+      "at": "2026-10-15T00:27:17.181Z",
+      "blob": "ef3e5d89d387dd9c92a93ff67734896b4d542ac1",
       "words": 144,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:07.225Z",
+      "at": "2026-10-15T00:27:21.836Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001196
+      "objects": 2,
+      "cost_usd": 0.002854
     },
     "summarized": {
-      "at": "2026-10-06T19:31:07.237Z",
+      "at": "2026-10-15T00:27:21.838Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:07.238Z",
+      "at": "2026-10-15T00:27:21.839Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:07.239Z",
+      "at": "2026-10-15T00:27:21.841Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md",
     "description": "After you create delivery reminders and made any needed modifications, you can either print the test reports or issue the delivery reminders.",
-    "ms_date": "2025-03-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "print test reports",
       "issue delivery reminders"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 144,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5effac24a05dd39e9e0d771d7dbb59c2984bd180e76b1b45d0a5686a67ff6d55"
+  "output_hash": "3ec6c9aab062c56bb6cf6df1a9166f67fc11c440683c83d208d85793979c8b12"
 }

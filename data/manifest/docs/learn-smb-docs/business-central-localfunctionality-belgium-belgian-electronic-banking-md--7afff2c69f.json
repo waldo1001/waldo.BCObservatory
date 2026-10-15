@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-banking",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.867Z",
-      "blob": "392c824033ba61de19943a21adfcc3b323b7f26c",
+      "at": "2026-10-15T00:27:19.102Z",
+      "blob": "268c9ebee1d31c3d765a214e17f8dca07fe5b680",
       "words": 190,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:27.832Z",
+      "at": "2026-10-15T00:27:25.818Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003095
+      "cost_usd": 0.003307
     },
     "summarized": {
-      "at": "2026-10-06T19:31:27.842Z",
+      "at": "2026-10-15T00:27:25.820Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:27.843Z",
+      "at": "2026-10-15T00:27:25.821Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:27.844Z",
+      "at": "2026-10-15T00:27:25.823Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/belgian-electronic-banking.md",
     "description": "Electronic banking enables quick and error-free data exchange with Belgian financial institutions.",
-    "ms_date": "2025-04-01",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "electronic banking setup",
       "CODA"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 190,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "18d5ac2c44b6223baac24e8b321e5ec49db1a725333b2bf9497294dfb2f8f588"
+  "output_hash": "49e193a07e4a36d080f3797dbf9bb2fe18bc40a1f0981e58639c37615134e567"
 }

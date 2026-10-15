@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/delivery-reminders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.229Z",
+      "at": "2026-10-15T00:27:11.845Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002182
+      "cost_usd": 0.005926
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.283Z",
+      "at": "2026-10-15T00:27:11.847Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.290Z",
+      "at": "2026-10-15T00:27:11.849Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.291Z",
+      "at": "2026-10-15T00:27:11.852Z",
       "page": false
     }
   },
@@ -98,5 +98,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6fe25e6431fcb33f07f24c6367f38959f36ab9b2"
+  "output_hash": "e6c17f872758b007689e49a7d28bc7440a5144ed58f0afb9eb8bf1233a42296a"
 }

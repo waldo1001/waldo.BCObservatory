@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-create-delivery-reminders-manually",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.828Z",
-      "blob": "4b32f885ecb22b8cc15b4602fc56eaa2dcb787d7",
+      "at": "2026-10-15T00:27:11.308Z",
+      "blob": "30682e5df5ef9922bee23f2ca6ccc4b69eb68b13",
       "words": 45,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.232Z",
+      "at": "2026-10-15T00:27:18.970Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002182
+      "cost_usd": 0.005512
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.316Z",
+      "at": "2026-10-15T00:27:18.973Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.317Z",
+      "at": "2026-10-15T00:27:18.976Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.318Z",
+      "at": "2026-10-15T00:27:18.978Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md",
     "description": "In the Austrian version of Business Central, you can create delivery reminders when a purchase isn't delivered as expected.",
-    "ms_date": "2025-03-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "delivery reminders",
       "create delivery reminders"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 45,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c61a513475f2fcb5c4503ae4a9d4bcd578ef0641157bf65c71109d84df88cfa8"
+  "output_hash": "454cc5021940d7d4f1e8ba3a37af7bd0d1b170cabf9c6de7d3a193860ed49561"
 }

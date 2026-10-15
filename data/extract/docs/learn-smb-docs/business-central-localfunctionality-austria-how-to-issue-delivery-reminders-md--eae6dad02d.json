@@ -2,20 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-issue-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-issue-delivery-reminders",
   "title": "How to issue delivery reminders [AT]",
-  "blob": "d2832d84a2f9160dbdcb6d96472a920fece1f10a",
-  "summary": "Issue and send delivery reminders to vendors in the Austrian version after they are created and reviewed.",
+  "blob": "dc7623f9f9df28162a17b5d760cf2e030ce4799e",
+  "summary": "Issue delivery reminders in the Austrian version of Business Central to notify vendors of late deliveries. Use this when managing delivery compliance in Austria.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "delivery reminders",
     "austria",
-    "vendor communication",
-    "purchase orders"
+    "localization",
+    "vendor management"
   ],
   "objects": [],
   "features": [
-    "delivery reminder issuance"
+    "Delivery reminders",
+    "Issue delivery reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.002677,
+      "pages_in_call": 1
     }
   ]
 }

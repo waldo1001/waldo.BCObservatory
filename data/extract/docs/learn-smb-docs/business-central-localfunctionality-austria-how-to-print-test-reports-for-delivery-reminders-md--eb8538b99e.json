@@ -2,25 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders",
   "title": "Print test reports for delivery reminders [AT]",
-  "blob": "4971beff3f2dfa12acf91f22052fbe76d68ab764",
-  "summary": "Print test reports for delivery reminders in the Austrian version to review and modify reminders before issuing them to vendors.",
+  "blob": "ef3e5d89d387dd9c92a93ff67734896b4d542ac1",
+  "summary": "Print test reports for delivery reminders in the Austrian localization to review and modify reminders before issuing them.",
   "systems": [
-    "purchasing"
+    "localization"
   ],
   "topics": [
     "delivery reminders",
-    "austria",
-    "testing",
-    "vendor communication"
+    "test reports",
+    "austria"
   ],
   "objects": [
     {
       "type": "report",
       "name": "Delivery Reminder - Test"
+    },
+    {
+      "type": "page",
+      "name": "Delivery Reminder List"
     }
   ],
   "features": [
-    "delivery reminder test reports"
+    "print test reports",
+    "preview delivery reminders",
+    "filter delivery reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.002854,
+      "pages_in_call": 1
     }
   ]
 }

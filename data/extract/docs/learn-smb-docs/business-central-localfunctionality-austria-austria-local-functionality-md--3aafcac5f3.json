@@ -2,30 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/austria-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/austria-local-functionality",
   "title": "Austria Local Functionality",
-  "blob": "f910a33b3b12bd53c6e87cedd9545e5045300cb7",
-  "summary": "Austria local functionality in Business Central covers VAT reporting, banking and payments, and purchasing features including delivery reminders and vendor payment lists.",
+  "blob": "395819c337e5c7627104b056b08216a2804efa62",
+  "summary": "Austria local functionality in Business Central provides VAT statements, VAT reporting, vendor payment list reports, delivery reminders, and general ledger setup printing. SAF-T reporting is planned for 2026 release wave 2.",
   "systems": [
+    "localization",
     "finance",
-    "purchasing",
-    "localization"
+    "purchasing"
   ],
   "topics": [
     "austria",
-    "vat reporting",
-    "vat statement",
+    "local functionality",
+    "vat",
     "delivery reminders",
-    "vendor payments",
-    "banking"
+    "banking",
+    "purchasing",
+    "intrastat"
   ],
   "objects": [],
   "features": [
-    "VAT statement",
-    "VAT reporting",
-    "delivery reminders",
-    "delivery reminder setup",
-    "delivery reminder terms",
-    "vendor payments list",
-    "general ledger setup reports"
+    "VAT Statement creation",
+    "VAT Reporting",
+    "Vendor Payments List Reports",
+    "Delivery Reminders",
+    "General Ledger Setup Information printing",
+    "Intrastat Reporting",
+    "SAF-T reporting"
   ],
   "versions": [
     "2026 release wave 2"
@@ -36,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005899,
-      "pages_in_call": 8
+      "cost_usd": 0.003628,
+      "pages_in_call": 1
     }
   ]
 }

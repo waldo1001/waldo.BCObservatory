@@ -2,20 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-set-up-delivery-reminders",
   "title": "How to Set Up Delivery Reminders [AT]",
-  "blob": "29f958b6ba955c27c207adff4268b543628fa00a",
-  "summary": "Set up delivery reminders in the Austrian version to automatically track and manage overdue vendor deliveries.",
+  "blob": "f07cba5a658eacaf8841fddd0397d52452aa5cb4",
+  "summary": "Set up delivery reminders in the Austrian version of Business Central to track and remind vendors about late deliveries.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "delivery reminders",
     "austria",
-    "setup",
-    "vendor management"
+    "vendor management",
+    "setup"
   ],
   "objects": [],
   "features": [
-    "delivery reminder setup"
+    "delivery reminders",
+    "delivery reminder terms",
+    "delivery reminder levels",
+    "delivery reminder text",
+    "delivery reminder codes"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.002615,
+      "pages_in_call": 1
     }
   ]
 }
