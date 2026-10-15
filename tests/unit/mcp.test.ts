@@ -173,6 +173,8 @@ test("D93: tool descriptions teach call forms, not the scoring formula, and the 
     assert.ok(search.includes("'event: OnAfterPost'"), "the symbol prefixes stay");
     for (const v of ["topic", "app", "feature", "object", "localization", "video", "post", "change", "source", "digest", "release"]) assert.ok(search.includes(v), `type value ${v}`);
     assert.ok(!search.includes("+10") && !search.includes("title or caption 3"), "the scoring formula lives in the README");
+    const getObject = tools.find((t) => t.name === "get_object")!.description!;
+    assert.ok(getObject.includes("'controls'") && getObject.includes("kind: 'page'"), "D97: a page's key and the cheap id check");
     // phase B: the three page tools say how to read one section
     for (const name of ["get_object", "cat", "localization"]) {
       const t = tools.find((x) => x.name === name)!;

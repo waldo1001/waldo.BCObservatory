@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { memberAnswer, parseAnchor, type DiffObject } from "../../packages/mcp/src/country.js";
-import { OBJECT_KEYS, anchorView, budgetOf, compactView, findSection, pageView, parsePage, sectionKey, sectionView } from "../../packages/mcp/src/sections.js";
+import { CONTROL_WORDS, OBJECT_KEYS, nearestKeys, anchorView, budgetOf, compactView, findSection, pageView, parsePage, sectionKey, sectionView } from "../../packages/mcp/src/sections.js";
 
 // ---------------------------------------------------------------------------------------------- test 1, a hand-built page (D93 5)
 
@@ -143,6 +143,75 @@ test("17-18: unknown sections and offset without a section answer with the secti
   assert.equal(view({ section: "foo" }), `No section "foo" on ${PATH}. Sections: ${KEYS}.`);
   assert.equal(view({ offset: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 5). Sections: ${KEYS}.`);
   assert.equal(view({ limit: 5 }), `offset and limit read one section: cat("${PATH}", section: "<key>", offset: 0). Sections: ${KEYS}.`);
+});
+
+// ---------------------------------------------------------------------------------------------- D97, section aliases
+
+const PGPATH = "objects/page/25";
+const PG = ["---", "id: object/page/25", "type: object", 'title: Page 25 "Demo"', "---", "", '# Page 25 "Demo"', "", "> Demo page.", "",
+  "## Properties", "", "| Property | Value |", "|---|---|", "| PageType | List |", "",
+  "## Fields on this page", "", "| Control | Source |", "|---|---|", "| No. | Rec.No |", "| Name | Rec.Name |", "| Amount | Rec.Amount |", "",
+  "## Actions", "", "- `Post`", "- `Print`", "",
+  "## Trigger event subscribers", "", "- `OnX` in Codeunit 1", "",
+  "## Calls", "", "- Codeunit 80", ""].join("\n");
+const NOCTRL = ["---", "id: object/pageextension/9", "---", "", "# Page extension 9", "", "## Properties", "", "| Property | Value |", "|---|---|", "| A | B |", ""].join("\n");
+const TBL = ["---", "id: object/table/9", "---", "", "# Table 9", "", "## Fields", "", "| No. | Name |", "|---|---|", "| 1 | A |", ""].join("\n");
+
+test("D97 1-3: fields, columns and members read a page's controls; a real key is never shadowed", () => {
+  const pg = parsePage(PG);
+  for (const w of ["fields", "Fields", "columns", "MEMBERS", "controls"]) assert.equal(findSection(pg, w)?.key, "controls", w);
+  assert.equal(findSection(parsePage(P), "fields")?.key, "fields");
+  assert.equal(findSection(parsePage(TBL), "fields")?.key, "fields");
+  assert.equal(findSection(parsePage(NOCTRL), "fields"), null);
+  assert.deepEqual([...CONTROL_WORDS], ["fields", "columns", "members"]);
+});
+
+test("D97 4: section fields on a page answers with the controls section", () => {
+  const a = pageView(PG, PGPATH, { section: "fields" }, 30_000, S);
+  assert.ok(a.startsWith(`Page 25 "Demo", section "controls": ${S}${PGPATH}/`), a);
+  for (const r of ["No.", "Name", "Amount"]) assert.ok(a.includes(`| ${r} |`), r);
+});
+
+test("D97 5-6: nearestKeys", () => {
+  const pg = parsePage(PG);
+  assert.deepEqual(nearestKeys(pg, "control"), ["controls"]);
+  assert.deepEqual(nearestKeys(pg, "subscribers"), ["trigger_subscribers"]);
+  assert.deepEqual(nearestKeys(pg, "action"), ["actions"]);
+  assert.deepEqual(nearestKeys(pg, "call"), ["calls"]);
+  assert.deepEqual(nearestKeys(pg, "foo"), []);
+  assert.deepEqual(nearestKeys(pg, "zzzzzz"), []);
+  assert.deepEqual(nearestKeys(parsePage(NOCTRL), "fields"), [], "an alias word gets no suggestion");
+});
+
+test("D97 7-8: the not-found answer names the nearest key, and says nothing extra without one", () => {
+  const a = pageView(PG, PGPATH, { section: "control" }, 30_000, S);
+  assert.equal(a, `No section "control" on ${PGPATH}. Did you mean "controls"? Sections: properties, controls, actions, trigger_subscribers, calls, frontmatter.`);
+  assert.equal(view({ section: "foo" }), `No section "foo" on ${PATH}. Sections: ${KEYS}.`);
+});
+
+test("D97: over the committed content, every page with a layout resolves the aliases and every table keeps fields", (t) => {
+  const root = join(ROOT, "content");
+  if (!existsSync(root)) return t.skip("no content/");
+  let pages = 0, tables = 0;
+  for (const kind of ["page", "pageextension"]) {
+    const dir = join(root, "objects", kind);
+    if (!existsSync(dir)) continue;
+    for (const f of readdirSync(dir)) {
+      const md = readFileSync(join(dir, f), "utf8");
+      if (!md.includes("\n## Fields on this page\n")) continue;
+      const p = parsePage(md);
+      for (const w of CONTROL_WORDS) assert.equal(findSection(p, w)?.key, "controls", `${kind}/${f} ${w}`);
+      pages++;
+    }
+  }
+  const tdir = join(root, "objects", "table");
+  if (existsSync(tdir)) for (const f of readdirSync(tdir)) {
+    const md = readFileSync(join(tdir, f), "utf8");
+    if (!md.includes("\n## Fields\n")) continue;
+    assert.equal(findSection(parsePage(md), "fields")?.key, "fields", f);
+    tables++;
+  }
+  t.diagnostic(`${pages} pages with controls, ${tables} tables with fields`);
 });
 
 test("19-20: the frontmatter is a section of lines", () => {
