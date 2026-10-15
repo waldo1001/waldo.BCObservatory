@@ -1,0 +1,81 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10484,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10484",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T09:38:51Z",
+  "merge_commit_sha": "10dd76e09e828906d165f06d19a0d89e8ac1fc22",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #177: IRS 1099 orphan fields on Purchase Order/Cr. Memo pages",
+  "body_hash": "477af5d1c0e2e93f89e757d89713e0ce1bf6a79021a71fcf8ea8b45125d6c7b8",
+  "fixes_issues": [],
+  "work_items": [
+    624220
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099PurchCrMemo.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099PurchOrder.PageExt.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 2,
+    "deletions": 2,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099PurchCrMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10059",
+        "type": "pageextension",
+        "id": 10059,
+        "name": "IRS 1099 Purch. Cr. Memo",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "pageextension/10059-us"
+      },
+      {
+        "path": "src/Apps/US/IRSForms/app/src/Extensions/IRS1099PurchOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10058",
+        "type": "pageextension",
+        "id": 10058,
+        "name": "IRS 1099 Purch. Order",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "pageextension/10058-us"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "IRSForms"
+  ]
+}

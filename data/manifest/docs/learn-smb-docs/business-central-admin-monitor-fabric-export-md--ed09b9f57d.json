@@ -3,14 +3,39 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin monitor fabric export",
+  "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:21.068Z",
+      "blob": "135fc8961295f40cc096e1c886157844d79a438d",
+      "words": 640,
+      "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:28.945Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 3,
+      "cost_usd": 0.00452
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:28.948Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:28.949Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:28.951Z",
+      "page": false
     }
   },
   "input_hash": "135fc8961295f40cc096e1c886157844d79a438d",
@@ -18,6 +43,37 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-monitor-fabric-export.md"
-  }
+    "path": "business-central/admin-monitor-fabric-export.md",
+    "description": "Monitor Business Central synchronization runs, review table-level changes and watermarks, and resolve common Microsoft Fabric connection problems.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "troubleshooting",
+    "search_form": [
+      {
+        "raw": "Primary_48510",
+        "id": 48510,
+        "kind": "Primary"
+      },
+      {
+        "raw": "48509",
+        "id": 48509,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Fabric",
+      "data mirroring",
+      "monitoring",
+      "replication",
+      "troubleshooting",
+      "synchronization",
+      "watermark"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 640,
+    "identifiers": [],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a6e0368baa41bb8d41068bcad4a9cfeba3480870efd7d0f4b459897ef824606d"
 }

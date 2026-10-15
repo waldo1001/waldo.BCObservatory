@@ -3,14 +3,39 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "fabric faq",
+  "title": "FAQ About Mirroring Business Central Data to Microsoft Fabric",
   "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:28.438Z",
+      "blob": "c9e0227816e446c61535167b2deeb33bcd482003",
+      "words": 488,
+      "forms": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:33.449Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.003667
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:33.451Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:33.452Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:33.453Z",
+      "page": false
     }
   },
   "input_hash": "c9e0227816e446c61535167b2deeb33bcd482003",
@@ -18,6 +43,18 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/fabric-faq.md"
-  }
+    "path": "business-central/fabric-faq.md",
+    "description": "Get answers about availability, setup, supported data, synchronization, capacity, and licensing for mirroring Business Central data to Fabric.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "faq",
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": "ai-assisted",
+    "words": 488,
+    "identifiers": [],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ce6672122ced87f1154b7e1426c288aabaee039e1cf672651299d60aedade6b"
 }

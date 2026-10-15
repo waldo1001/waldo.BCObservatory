@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.171Z",
-      "blob": "8cf8363caca4b724e668fd3bbd0f590065e84ad1",
-      "words": 101,
+      "at": "2026-10-15T00:25:35.402Z",
+      "blob": "86687a84a6c8f802ccd20652b02647d974cd39aa",
+      "words": 104,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.046Z",
+      "at": "2026-10-15T00:25:40.262Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002737
+      "cost_usd": 0.002973
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.146Z",
+      "at": "2026-10-15T00:25:40.263Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.151Z",
+      "at": "2026-10-15T00:25:40.265Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.155Z",
+      "at": "2026-10-15T00:25:40.266Z",
       "page": false
     }
   },
@@ -45,18 +45,18 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports-external-analysis.md",
     "description": "Provides an overview of how external Business Intelligence tools can interact with Business Central data.",
-    "ms_date": "2025-01-27",
+    "ms_date": "2026-09-22",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
-    "words": 101,
+    "ai_usage": "ai-assisted",
+    "words": 104,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4ade7c50667525d378a000a9df8cacc2161f54adff8ed61c45888b9bbd97d8cd"
+  "output_hash": "bc415b916ac8f38da447272398baf34d17cef89663894dd1482d4c5591c4ebc2"
 }

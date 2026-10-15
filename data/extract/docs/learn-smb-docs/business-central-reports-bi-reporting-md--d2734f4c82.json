@@ -2,30 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/reports-bi-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting",
   "title": "Analytics, business intelligence, and reporting overview",
-  "blob": "6ab4800c75f6b2af329d196bc5a0a766ecaf22dd",
-  "summary": "Explore analytics and reporting capabilities in Business Central including financial reports, KPIs, Power BI apps, ad-hoc analysis, and built-in reports. Learn how different roles consume data based on organizational needs.",
+  "blob": "28e7e4d8f8ec95062a4bedf34f8be05efc738221",
+  "summary": "Analytics, business intelligence, and reporting overview in Business Central covers built-in reporting capabilities, financial reports, KPIs, Power BI apps, ad-hoc analysis, and reports for different organizational roles and data aggregation needs.",
   "systems": [
     "reporting",
-    "finance"
+    "finance",
+    "integration"
   ],
   "topics": [
     "analytics",
     "reporting",
     "business intelligence",
+    "kpis",
     "financial reports",
-    "kpi",
-    "power bi"
+    "power bi",
+    "ad-hoc analysis"
   ],
   "objects": [],
   "features": [
     "Financial Reports",
     "Key Performance Indicators",
     "Power BI apps",
-    "Ad-hoc analysis",
-    "Built-in reports",
-    "Dimensions",
-    "Data analysis mode",
-    "Excel integration"
+    "Data analysis on list pages",
+    "Open in Excel",
+    "Report Explorer",
+    "External BI tools integration"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004095,
-      "pages_in_call": 8
+      "cost_usd": 0.008497,
+      "pages_in_call": 1
     }
   ]
 }

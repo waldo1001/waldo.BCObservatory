@@ -1,0 +1,77 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12579,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12579",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T09:16:01Z",
+  "merge_commit_sha": "ddc7f5aee4dddb064b208ce2ccdec615f3f801ff",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[master] Item Age Composition by Quantity and Value report issue",
+  "body_hash": "75d5efcb926eaeec651cef16398e43058c2f6830041aa9b104606ebe152a87be",
+  "fixes_issues": [],
+  "work_items": [
+    641530
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.xlsx",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryReportsIV.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 88,
+    "deletions": 5,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Reports/ItemAgeCompositionValue.Report.al",
+        "status": "modified",
+        "key": "report/5808",
+        "type": "report",
+        "id": 5808,
+        "name": "Item Age Composition - Value",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/5808"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/11757",
+  "number": 11757,
+  "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development",
+    "sales"
+  ],
+  "summary": "Payment orders and bill groups posted in foreign currency now correctly populate the source currency code and amount fields in general ledger entries for the Spanish localization.",
+  "key_points": [
+    "G/L entries from posted payment orders now include the source currency code",
+    "G/L entries from posted payment orders now include the source currency amount",
+    "Bill groups posted in foreign currency receive the same fix",
+    "Applies to Spanish localization only",
+    "Includes test coverage for the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003262,
+    "changes_in_call": 1
+  }
+}

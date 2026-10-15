@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12669",
+  "number": 12669,
+  "title": "[Main]Subcontracting Order Date does not account for lead time before the routing operation starts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Subcontracting order dates now correctly calculate backward from the routing operation start date using the purchase lead time, and prices are refreshed when the order date changes on existing orders.",
+  "key_points": [
+    "Order Date calculation now accounts for purchase lead time from routing start date",
+    "SetSubcontractingOrderDate method added to handle consistent date logic across Calculate Subcontracts and direct routing creation flows",
+    "Carry Out Action no longer overwrites worksheet dates with purchase header order date for subcontracting lines",
+    "Price refresh logic improved to treat pre-price fallback costs as automatic so correct prices apply to the calculated order date",
+    "Expected and Requested Receipt Dates also set correctly on new and rescheduled purchase lines"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": "Subcontracting Order Date does not account for lead time before the routing operation starts",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004203,
+    "changes_in_call": 1
+  }
+}

@@ -6,10 +6,35 @@
   "title": "Fix dependency filenames containing commas",
   "url": "https://github.com/microsoft/AL-Go/pull/2403",
   "published_at": "2026-10-14T07:28:10Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:40.882Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:51.431Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003676
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:51.433Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-15T00:25:51.438Z",
+      "path": "content/changes/al-go/2403.md"
     }
   },
   "input_hash": "3b7daaea84768b9a2d671de28a59e305ca2ff95b:c1",
@@ -26,5 +51,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "fix dependency filenames containing commas"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a8276cca0e99e4bf35aadbdbba192f62aa9848ba0b5a96ba7598d78b8a71d3dc"
 }

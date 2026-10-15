@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12432",
+  "number": 12432,
+  "title": "[AB#647643] Retain remote files and safely retire verified local references",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "External storage now retains remote files instead of deleting them when removing attachments, preventing data loss when attachments are shared between documents. Explicit retirement clears only local metadata after verifying the attachment and its content remain intact.",
+  "key_points": [
+    "Remote files are retained rather than deleted to prevent losing shared attachments",
+    "Attachment deletion cannot affect other attachments' shared files",
+    "Explicit retirement clears only local external metadata after locking and verification",
+    "Stronger test coverage added for quote posting, copy/move operations and retirement flows",
+    "Unused deletion telemetry removed"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "The accepted fix retains remote files instead of deleting them.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004088,
+    "changes_in_call": 1
+  }
+}

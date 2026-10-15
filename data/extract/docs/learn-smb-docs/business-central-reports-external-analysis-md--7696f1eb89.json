@@ -2,25 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/reports-external-analysis.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis",
   "title": "Analyze Data in Business Intelligence Tools",
-  "blob": "8cf8363caca4b724e668fd3bbd0f590065e84ad1",
-  "summary": "Business intelligence tools guide that provides options for analyzing Business Central data using external tools like Microsoft Fabric, Power BI, data warehouses, and APIs.",
+  "blob": "86687a84a6c8f802ccd20652b02647d974cd39aa",
+  "summary": "Analyze data in Business Intelligence Tools guides users on exporting Business Central data to external BI tools like Microsoft Fabric and Power BI, or to data warehouses and data lakes using APIs.",
   "systems": [
     "reporting",
-    "integration"
+    "integration",
+    "administration"
   ],
   "topics": [
     "business intelligence",
-    "data analysis",
     "power bi",
+    "data analysis",
     "microsoft fabric",
-    "data extraction"
+    "data export",
+    "apis",
+    "data warehouses",
+    "external tools"
   ],
   "objects": [],
   "features": [
-    "microsoft fabric integration",
-    "power bi integration",
-    "data warehouse extraction",
-    "api access"
+    "Data mirroring to Microsoft Fabric",
+    "Power BI integration",
+    "Data warehousing",
+    "Data lake extraction",
+    "Business Central API"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002737,
-      "pages_in_call": 8
+      "cost_usd": 0.002973,
+      "pages_in_call": 1
     }
   ]
 }

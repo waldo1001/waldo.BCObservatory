@@ -1,0 +1,71 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10481,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10481",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T09:38:51Z",
+  "merge_commit_sha": "22c2b4f2e0dede1ad0adfd40c2e8ecf0bb8f9421",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #251: Handle GetUserName TryFunction failure during OAuth validation",
+  "body_hash": "bab873e25d549853278bb84b2b838a42e8aa3cacefb28f41640d69ab22c79be8",
+  "fixes_issues": [],
+  "work_items": [
+    646834
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Email - SMTP Connector/app/src/Authentication/OAuth2SMTPAuthentication.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Email - SMTP Connector/test/src/SMTPAccountAuthTests.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 37,
+    "deletions": 3,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Email - SMTP Connector/app/src/Authentication/OAuth2SMTPAuthentication.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4516",
+        "type": "codeunit",
+        "id": 4516,
+        "name": "OAuth2 SMTP Authentication",
+        "app": "Email - SMTP Connector",
+        "cc": "w1",
+        "page": "codeunit/4516"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Email - SMTP Connector"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12579",
+  "number": 12579,
+  "title": "[master] Item Age Composition by Quantity and Value report issue",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Item Age Composition report now displays correct header values and location filter in both manual and scheduled runs by passing date ranges and filters as data columns instead of relying on request page values.",
+  "key_points": [
+    "Report sends ending date, period ranges, and location filter as columns to the data item",
+    "Excel layout reads values from data columns instead of request page properties",
+    "Fixes #N/A display errors in scheduled report output",
+    "Location filter now appears in report header",
+    "Manual and scheduled runs produce consistent output"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003419,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10481",
+  "number": 10481,
+  "title": "[Bug Fix] #251: Handle GetUserName TryFunction failure during OAuth validation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Fixed OAuth2 SMTP authentication to properly handle token parsing failures by consuming the TryFunction return value, preventing raw errors from being shown to users instead of the authentication-failed message.",
+  "key_points": [
+    "TryFunction return value is now consumed in CheckOAuth2Authentication and GetOAuth2Credentials",
+    "Token parsing errors now display the intended AuthenticationFailedMsg instead of raw runtime errors",
+    "Same anti-pattern was fixed in GetOAuth2Credentials method",
+    "Added regression test for unparseable token scenario",
+    "All 49 tests passing including new test"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004374,
+    "changes_in_call": 1
+  }
+}

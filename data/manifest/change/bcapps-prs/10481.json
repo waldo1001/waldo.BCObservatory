@@ -6,10 +6,35 @@
   "title": "[Bug Fix] #251: Handle GetUserName TryFunction failure during OAuth validation",
   "url": "https://github.com/microsoft/BCApps/pull/10481",
   "published_at": "2026-10-14T09:38:51Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:21.909Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:27.927Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004374
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:28.160Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:28.170Z",
+      "path": "content/changes/bcapps/10481.md"
     }
   },
   "input_hash": "22c2b4f2e0dede1ad0adfd40c2e8ecf0bb8f9421:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 251 handle getusername tryfunction failure during oauth validation"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d39b952324654579c0d715b5b4bee8ae9cf1d594c54264c577c8431db12a2ede"
 }

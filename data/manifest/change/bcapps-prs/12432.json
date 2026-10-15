@@ -6,10 +6,35 @@
   "title": "[AB#647643] Retain remote files and safely retire verified local references",
   "url": "https://github.com/microsoft/BCApps/pull/12432",
   "published_at": "2026-10-14T08:59:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:29.826Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:35.493Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004088
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:35.758Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:35.765Z",
+      "path": "content/changes/bcapps/12432.md"
     }
   },
   "input_hash": "014be6ed8f5f1956716108faca2f32ff7ae00e5e:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": false,
     "title_key": "ab 647643 retain remote files and safely retire verified local references"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9a6711ed71a5ef422ae2218aeebb66fc5f133c447965575e353201148096b7a4"
 }

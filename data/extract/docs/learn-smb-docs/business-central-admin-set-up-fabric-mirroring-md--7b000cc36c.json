@@ -1,0 +1,46 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-set-up-fabric-mirroring.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
+  "title": "Set up Business Central data mirroring to Microsoft Fabric",
+  "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
+  "summary": "Set up Business Central online to mirror data to a Microsoft Fabric open-mirrored database using the Connect to Microsoft Fabric assisted setup. This enables synchronization of selected companies and tables to OneLake for analytics with Power BI, Data Factory, and Fabric IQ.",
+  "systems": [
+    "integration",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "data mirroring",
+    "microsoft fabric",
+    "fabric integration",
+    "data synchronization",
+    "assisted setup",
+    "onelake",
+    "analytics"
+  ],
+  "objects": [],
+  "features": [
+    "Connect to Microsoft Fabric assisted setup",
+    "Microsoft Fabric Mirroring extension",
+    "Open mirroring",
+    "Data synchronization",
+    "OneLake",
+    "Service principal access",
+    "Workspace configuration",
+    "Fabric connection security"
+  ],
+  "versions": [
+    "2026 release wave 2",
+    "version 29.0"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.005082,
+      "pages_in_call": 1
+    }
+  ]
+}

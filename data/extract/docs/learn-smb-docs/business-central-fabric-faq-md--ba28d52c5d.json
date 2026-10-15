@@ -1,0 +1,47 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/fabric-faq.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/fabric-faq",
+  "title": "FAQ About Mirroring Business Central Data to Microsoft Fabric",
+  "blob": "c9e0227816e446c61535167b2deeb33bcd482003",
+  "summary": "FAQ about mirroring Business Central data to Microsoft Fabric for near real-time data replication. Use this to understand feature availability, setup requirements, synchronization behavior, and limits for the mirroring capability in development.",
+  "systems": [
+    "reporting",
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "data mirroring",
+    "microsoft fabric",
+    "faq",
+    "setup",
+    "synchronization",
+    "replication"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Fabric Mirroring Setup"
+    }
+  ],
+  "features": [
+    "data mirroring to Fabric",
+    "table synchronization",
+    "field replication",
+    "deleted records sync",
+    "incremental changes",
+    "schema handling"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.003667,
+      "pages_in_call": 1
+    }
+  ]
+}

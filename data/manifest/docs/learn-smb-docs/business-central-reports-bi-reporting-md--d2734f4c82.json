@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.981Z",
-      "blob": "6ab4800c75f6b2af329d196bc5a0a766ecaf22dd",
-      "words": 1100,
+      "at": "2026-10-15T00:25:29.004Z",
+      "blob": "28e7e4d8f8ec95062a4bedf34f8be05efc738221",
+      "words": 1101,
       "forms": 70
     },
     "extracted": {
-      "at": "2026-10-06T19:43:19.022Z",
+      "at": "2026-10-15T00:25:37.662Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004095
+      "cost_usd": 0.008497
     },
     "summarized": {
-      "at": "2026-10-06T19:43:20.864Z",
+      "at": "2026-10-15T00:25:37.665Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:20.865Z",
+      "at": "2026-10-15T00:25:37.668Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:20.866Z",
+      "at": "2026-10-15T00:25:37.670Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/reports-bi-reporting.md",
     "description": "Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.",
-    "ms_date": "2024-11-13",
+    "ms_date": "2026-09-22",
     "ms_topic": "get-started",
     "search_form": [
       {
@@ -402,12 +402,12 @@
     "keywords": [
       "feature overview"
     ],
-    "ai_usage": null,
-    "words": 1100,
+    "ai_usage": "ai-assisted",
+    "words": 1101,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b28e1027e239d9d37532f73278d267f4636c67f2f4ae5ab82cd5c03540e5044c"
+  "output_hash": "bcb0e129a701d701784042e68a5913d38e80b261f88c18b795a057ad65e48fa5"
 }

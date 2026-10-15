@@ -1,0 +1,57 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-monitor-fabric-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export",
+  "title": "Monitor and Troubleshoot Microsoft Fabric Synchronization",
+  "blob": "135fc8961295f40cc096e1c886157844d79a438d",
+  "summary": "Monitor and troubleshoot Business Central data synchronization with Microsoft Fabric through the Fabric Synchronization Overview and Details pages, APIs, or Fabric logging tables to review synchronization runs, company and table-level results, and resolve common setup and synchronization issues.",
+  "systems": [
+    "integration",
+    "administration",
+    "reporting"
+  ],
+  "topics": [
+    "data mirroring",
+    "fabric synchronization",
+    "monitoring",
+    "troubleshooting",
+    "api",
+    "logging"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Fabric Mirroring Setup"
+    },
+    {
+      "type": "page",
+      "name": "Fabric Synchronization Overview"
+    },
+    {
+      "type": "page",
+      "name": "Fabric Synchronization Details"
+    }
+  ],
+  "features": [
+    "synchronization run monitoring",
+    "company and table details",
+    "error tracking",
+    "incremental synchronization",
+    "change-tracking watermarks",
+    "privacy approval",
+    "configuration package management",
+    "max consecutive failed runs"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.00452,
+      "pages_in_call": 1
+    }
+  ]
+}

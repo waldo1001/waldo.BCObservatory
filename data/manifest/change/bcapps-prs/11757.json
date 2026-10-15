@@ -6,10 +6,35 @@
   "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
   "url": "https://github.com/microsoft/BCApps/pull/11757",
   "published_at": "2026-10-14T08:06:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:34.750Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:39.436Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003262
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:39.672Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:39.679Z",
+      "path": "content/changes/bcapps/11757.md"
     }
   },
   "input_hash": "ecf47fc508107b2935b65469cb81d09b52070296:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "payment orders posted in foreign currency usd do not populate source currency code and source currency amount in g l entries in the spanish version"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b2d9009539de689227e502e8644891eb7c8aa2c165f277c18a494abe99a32245"
 }

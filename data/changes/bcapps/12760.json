@@ -1,0 +1,101 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12760,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12760",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-14T07:07:51Z",
+  "merge_commit_sha": "ef2eb9af5f76d594503300770c60878ad4b6c502",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.",
+  "body_hash": "ebb04785ecd62737be9eeac3b47fbab01c457dbfe1b4320cae7aba52b4faca03",
+  "fixes_issues": [],
+  "work_items": [
+    653994
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/OrderPlanningMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningII.Codeunit.al",
+      "status": "modified",
+      "additions": 274,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 354,
+    "deletions": 6,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/OrderPlanningMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5522",
+        "type": "codeunit",
+        "id": 5522,
+        "name": "Order Planning Mgt.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5522"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "key": "table/246",
+        "type": "table",
+        "id": 246,
+        "name": "Requisition Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/246"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/IT/BaseApp/Inventory/Requisition/RequisitionLine.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

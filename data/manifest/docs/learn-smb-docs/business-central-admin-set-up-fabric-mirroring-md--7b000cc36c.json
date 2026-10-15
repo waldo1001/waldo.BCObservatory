@@ -3,14 +3,39 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin set up fabric mirroring",
+  "title": "Set up Business Central data mirroring to Microsoft Fabric",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:21.150Z",
+      "blob": "3cad987b6bf7639053ba2a65ca50199970541372",
+      "words": 1104,
+      "forms": 2
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:27.443Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 0,
+      "cost_usd": 0.005082
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:27.445Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:27.446Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:27.448Z",
+      "page": false
     }
   },
   "input_hash": "3cad987b6bf7639053ba2a65ca50199970541372",
@@ -18,6 +43,38 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-set-up-fabric-mirroring.md"
-  }
+    "path": "business-central/admin-set-up-fabric-mirroring.md",
+    "description": "Prepare Microsoft Fabric, connect Business Central to an open mirrored database, and select the companies and tables to synchronize.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_48519",
+        "id": 48519,
+        "kind": "Primary"
+      },
+      {
+        "raw": "48511",
+        "id": 48511,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Fabric",
+      "OneLake",
+      "open mirroring",
+      "data mirroring",
+      "replication",
+      "synchronization"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 1104,
+    "identifiers": [
+      "BusinessCentral"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5fe121b77e808cc8d888d5da1a98edb90397c689352b1bc7d1d7923f529e5f04"
 }

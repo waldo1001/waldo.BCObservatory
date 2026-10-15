@@ -1,0 +1,96 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11757,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11757",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T08:06:13Z",
+  "merge_commit_sha": "ecf47fc508107b2935b65469cb81d09b52070296",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
+  "body_hash": "6a27693652dc591b0e205fadbb9d85debabe95cbc5a170076a2003626c9f49f6",
+  "fixes_issues": [],
+  "work_items": [
+    651102
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Local/PostPaymentOrder.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/Sales/Receivables/PostBillGroup.Report.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraPaymentBasicScenario.Codeunit.al",
+      "status": "modified",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvBasicScenarios.Codeunit.al",
+      "status": "modified",
+      "additions": 64,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 106,
+    "deletions": 1,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/PostPaymentOrder.Report.al",
+        "status": "modified",
+        "key": "report/7000080",
+        "type": "report",
+        "id": 7000080,
+        "name": "Post Payment Order",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/7000080-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/Sales/Receivables/PostBillGroup.Report.al",
+        "status": "modified",
+        "key": "report/7000099",
+        "type": "report",
+        "id": 7000099,
+        "name": "Post Bill Group",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/7000099-es"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development",
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

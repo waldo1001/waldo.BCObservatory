@@ -6,10 +6,35 @@
   "title": "[Main]Subcontracting Order Date does not account for lead time before the routing operation starts",
   "url": "https://github.com/microsoft/BCApps/pull/12669",
   "published_at": "2026-10-14T08:06:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:38.792Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:51.045Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004203
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:51.405Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:51.413Z",
+      "path": "content/changes/bcapps/12669.md"
     }
   },
   "input_hash": "8f7f5abb9da7df93f4dbe2092dca39a45d96857b:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "subcontracting order date does not account for lead time before the routing operation starts"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "756c76b55dce2e7a278c237036f99d9b387f7b20df73e335fc13781aa552f036"
 }

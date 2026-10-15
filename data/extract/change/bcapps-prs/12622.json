@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12622",
+  "number": 12622,
+  "title": "[Master]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Subscription Billing now correctly carries the contract currency to generated invoices instead of defaulting to local currency.",
+  "key_points": [
+    "Invoice generation from contracts now copies the currency code from the contract line",
+    "Fixes issue where invoices were created with blank currency code, treated as local currency",
+    "Ensures invoices match the contract's currency without requiring manual correction"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003268,
+    "changes_in_call": 1
+  }
+}

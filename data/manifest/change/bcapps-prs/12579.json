@@ -6,10 +6,35 @@
   "title": "[master] Item Age Composition by Quantity and Value report issue",
   "url": "https://github.com/microsoft/BCApps/pull/12579",
   "published_at": "2026-10-14T09:16:01Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:29.320Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:35.084Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003419
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:35.326Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:35.335Z",
+      "path": "content/changes/bcapps/12579.md"
     }
   },
   "input_hash": "ddc7f5aee4dddb064b208ce2ccdec615f3f801ff:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "master item age composition by quantity and value report issue"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6b10e94e842c9a870d26e1bd181cb62bb0fa58a1b0ab2450a4e9d9335689269e"
 }

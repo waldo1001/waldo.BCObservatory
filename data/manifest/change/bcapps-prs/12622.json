@@ -6,10 +6,35 @@
   "title": "[Master]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.",
   "url": "https://github.com/microsoft/BCApps/pull/12622",
   "published_at": "2026-10-14T08:06:13Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:37.134Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:42.194Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003268
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:42.479Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:42.484Z",
+      "path": "content/changes/bcapps/12622.md"
     }
   },
   "input_hash": "64e5fe28dc21b273c092ae4ee893f9033c8adfa8:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master subscription billing recurring billing document per contract partner overwrites contract currency with customer currency without amount conversion"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "cc055e0ae74ef9bb565b38f5a027447a2d9586b85389072bb8379b21838b9922"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10484",
+  "number": 10484,
+  "title": "[Bug Fix] #177: IRS 1099 orphan fields on Purchase Order/Cr. Memo pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "IRS 1099 fields on Purchase Order and Purchase Credit Memo pages now correctly appear inside the Invoice Details FastTab instead of as orphaned fields outside it.",
+  "key_points": [
+    "Changed page extension anchoring from addafter to addlast for proper group placement",
+    "Fields now render inside Invoice Details FastTab consistently with Purchase Invoice extension",
+    "Visual layout fix resolves rendering of controls outside their intended container",
+    "No behavioral or data logic changes",
+    "Affects both Purchase Order and Purchase Credit Memo IRS 1099 extensions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "The three IRS 1099 fields on the Purchase Order (and Purchase Credit Memo) pages rendered as orphan fields outside any FastTab.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004085,
+    "changes_in_call": 1
+  }
+}
