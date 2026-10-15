@@ -2,46 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-additional-functions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-additional-functions",
   "title": "Extra features for Advance Payments (Corrections)",
-  "blob": "8ccde1165f7f6d567675ff54866c369cda59b561",
-  "summary": "Perform corrections and additional operations on advance payments including reversing VAT documents, unlinking payments, adding retrospective payments, and applying advances to posted invoices.",
+  "blob": "fb1c5f67e9c010900187d98a6123684683ec9a5b",
+  "summary": "Extra features for Advance Payments in Czech Republic enable reversing VAT documents, unlinking incorrect payments, retroactively assigning payments, unapplying advances from invoices, and adding advances to posted invoices.",
   "systems": [
     "finance",
-    "sales",
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
-    "advance letters",
     "advance payments",
-    "corrections",
-    "vat reversal",
-    "czech localization"
+    "vat",
+    "czech republic",
+    "payment management",
+    "invoice processing",
+    "correction functions"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "other",
       "name": "Purchase Advance Letters"
     },
     {
-      "type": "page",
+      "type": "other",
       "name": "Advance Letter Entries"
-    },
-    {
-      "type": "table",
-      "name": "Customer Ledger Entry"
-    },
-    {
-      "type": "table",
-      "name": "Vendor Ledger Entry"
     }
   ],
   "features": [
-    "Post Credit Memo VAT action",
-    "Unlink Advance Payment action",
-    "Link Advance Letter action",
-    "Unapply Advance Letter action",
-    "Apply Advance Letter action",
-    "Retrospective payment assignment",
-    "Post Credit Memo VAT action for reversals"
+    "Reverse advance VAT document",
+    "Unlink incorrect payment from advance",
+    "Retrospective payment assignment to advance",
+    "Unapply advance from posted invoice",
+    "Add advance to posted invoice",
+    "Unlink payment via vendor or customer entries",
+    "Apply advance letter to posted invoice"
   ],
   "versions": [],
   "parts": 1,
@@ -50,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003203,
-      "pages_in_call": 7
+      "cost_usd": 0.004807,
+      "pages_in_call": 1
     }
   ]
 }

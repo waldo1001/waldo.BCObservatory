@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/sales-tax-goods-services.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/sales-tax-goods-services",
   "title": "Reporting GST/HST in Canada",
-  "blob": "40f30cf0df66628405eee67e3b52f8097c5748ab",
-  "summary": "GST/HST reporting in Canada manages goods and services tax and harmonized sales tax calculations with provincial sales tax considerations, generating tax files for authorities.",
+  "blob": "926921f97256316b8fdb11f6e906c00f3265e2b4",
+  "summary": "Reporting GST/HST in Canada explains how Business Central calculates Goods and Services Tax, Harmonized Sales Tax, and Provincial Sales Tax for Canadian vendors and purchasers, and how to generate the GST/HST online file transfer for tax authorities.",
   "systems": [
     "finance",
     "localization"
@@ -11,17 +11,18 @@
   "topics": [
     "gst",
     "hst",
+    "sales tax",
     "canada",
-    "goods services tax",
-    "tax reporting"
+    "tax reporting",
+    "provincial sales tax"
   ],
   "objects": [],
   "features": [
-    "GST",
-    "HST",
-    "provincial sales tax",
-    "GST/HST Internet File Transfer",
-    "tax entry records"
+    "GST/HST calculation",
+    "Provincial Sales Tax calculation",
+    "GST/HST Internet File Transfer batch job",
+    "tax area codes",
+    "tax liability posting"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001861,
-      "pages_in_call": 7
+      "cost_usd": 0.003233,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,23 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax",
   "title": "How to Set Up Use Tax and Purchase Tax [CA]",
-  "blob": "f455fe16edbb941c2226f6622865af98c757a903",
-  "summary": "Setup procedures for use tax and purchase tax in the Canadian version to handle tax obligations on purchases from vendors without local business presence.",
+  "blob": "21b05c8dc88241be9a1a908f0862278bc20de6e5",
+  "summary": "How to set up use tax and purchase tax in the Canadian version of Business Central. Covers Canadian tax functionality for managing purchase and use tax configuration.",
   "systems": [
     "finance",
-    "purchasing",
     "localization"
   ],
   "topics": [
     "use tax",
     "purchase tax",
     "canada",
-    "tax setup"
+    "tax setup",
+    "canadian functionality"
   ],
   "objects": [],
   "features": [
-    "use tax",
-    "purchase tax"
+    "use tax setup",
+    "purchase tax setup",
+    "canadian tax"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001861,
-      "pages_in_call": 7
+      "cost_usd": 0.002557,
+      "pages_in_call": 1
     }
   ]
 }

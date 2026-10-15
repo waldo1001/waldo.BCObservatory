@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.026Z",
-      "blob": "93893161b889cda7652c257a17cb2c4a51d8ba60",
+      "at": "2026-10-15T00:28:23.451Z",
+      "blob": "8f3abb4d78229db4297ff2d2035b3c40d718fde3",
       "words": 30,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.323Z",
+      "at": "2026-10-15T00:28:29.186Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001861
+      "cost_usd": 0.002697
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.047Z",
+      "at": "2026-10-15T00:28:29.188Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.056Z",
+      "at": "2026-10-15T00:28:29.190Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.058Z",
+      "at": "2026-10-15T00:28:29.191Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md",
     "description": "Use the General Ledger Setup page to set up unrealized sales tax and sales payment discounts in the Canadian version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "sales payments discounts",
       "General Ledger Setup"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 30,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "02a4caba06d6bb126da60136a7f81ca0b42852875bcb84e9bf8dab5ba4f8ddc6"
+  "output_hash": "5fd7f0cbaf9cd0fc5f6171c7856fbb6db6e86a3b8ca105bbb58c4d3e891e2d00"
 }

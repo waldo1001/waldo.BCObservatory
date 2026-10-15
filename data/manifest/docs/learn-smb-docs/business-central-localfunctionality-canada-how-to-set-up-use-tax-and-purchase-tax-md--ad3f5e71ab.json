@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.030Z",
-      "blob": "f455fe16edbb941c2226f6622865af98c757a903",
+      "at": "2026-10-15T00:28:23.587Z",
+      "blob": "21b05c8dc88241be9a1a908f0862278bc20de6e5",
       "words": 28,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.326Z",
+      "at": "2026-10-15T00:28:29.289Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001861
+      "cost_usd": 0.002557
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.060Z",
+      "at": "2026-10-15T00:28:29.291Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.061Z",
+      "at": "2026-10-15T00:28:29.293Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.061Z",
+      "at": "2026-10-15T00:28:29.294Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md",
     "description": "Sales and purchase tax includes taxes that companies pay for using items in the Canadian version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "purchase tax",
       "tax setup"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 28,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10827070724652b20ae2e69e37c016c14127d433bbb0322b518e2da97b9040d3"
+  "output_hash": "9aaa3b8c530545a9da31b65847d1b635b54b99a718b4abcd695362097b3743df"
 }

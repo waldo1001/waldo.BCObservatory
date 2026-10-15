@@ -1,19 +1,19 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/adv-payments-check-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-check-reports",
-  "title": "Advance Payments activation and upgrade",
-  "blob": "5aa75252fb9be3b894744c5dfac6571f55b0f082",
-  "summary": "Use built-in control reports for advance payments to verify tracking accuracy, accounting records, VAT reporting, and advance settlement for both sales and purchase advances.",
+  "title": "Advance control reports in the Czech version",
+  "blob": "a7484acd5a5f406181677ec4a19e416ab94f0ff2",
+  "summary": "Advance control reports in Czech Business Central verify advance tracking correspondence with accounting records, VAT reporting, and settlement. Reports include Sales Advance Letters, VAT reports, and recapitulation reports for both sales and purchase advances.",
   "systems": [
     "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "advance letters",
     "advance payments",
-    "control reports",
+    "czech",
     "vat reporting",
-    "czech localization"
+    "control reports",
+    "accounting"
   ],
   "objects": [
     {
@@ -42,12 +42,11 @@
     }
   ],
   "features": [
-    "Sales Advance Letters report",
-    "Sales Advance Letters VAT report",
-    "Sales Advance Letters Recapitulation report",
-    "Purchase Advance Letters report",
-    "Purchase Advance Letters VAT report",
-    "Purchase Advance Letters Recapitulation report"
+    "advance tracking",
+    "VAT posting overview",
+    "payment settlement verification",
+    "balance reconciliation",
+    "detailed breakdowns"
   ],
   "versions": [],
   "parts": 1,
@@ -56,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003203,
-      "pages_in_call": 7
+      "cost_usd": 0.003738,
+      "pages_in_call": 1
     }
   ]
 }

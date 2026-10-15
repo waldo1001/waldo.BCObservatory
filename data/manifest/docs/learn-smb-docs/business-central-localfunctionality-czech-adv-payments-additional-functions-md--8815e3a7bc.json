@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/adv-payments-additional-functions",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.376Z",
-      "blob": "8ccde1165f7f6d567675ff54866c369cda59b561",
+      "at": "2026-10-15T00:28:29.249Z",
+      "blob": "fb1c5f67e9c010900187d98a6123684683ec9a5b",
       "words": 1029,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:53.245Z",
+      "at": "2026-10-15T00:28:36.353Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.003203
+      "objects": 2,
+      "cost_usd": 0.004807
     },
     "summarized": {
-      "at": "2026-10-06T19:04:53.274Z",
+      "at": "2026-10-15T00:28:36.354Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:53.275Z",
+      "at": "2026-10-15T00:28:36.356Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:53.277Z",
+      "at": "2026-10-15T00:28:36.357Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/adv-payments-additional-functions.md",
     "description": "This article explains the extra features for Advance Payments (Corrections) in the Czech version.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Advance Payments",
       "Localization"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 1029,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "22709dc8f8270bfbd9888aab6fdea207d0f47f82a6ffbdc60a8f7db23e43044c"
+  "output_hash": "e27c58f752f818c9396f125aa0886654e3f83961131ddc1abdfe12005cd2475e"
 }

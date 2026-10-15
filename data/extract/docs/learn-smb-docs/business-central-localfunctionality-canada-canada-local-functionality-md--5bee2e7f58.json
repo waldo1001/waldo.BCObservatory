@@ -2,33 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/canada-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/canada-local-functionality",
   "title": "Canada Local Functionality",
-  "blob": "55aa3e292de74e80edc047a372a97de9f1adf5ca",
-  "summary": "Canada local functionality covers tax reporting for sales tax and GST, banking deposits and electronic payments, GIFI codes, and troubleshooting reports unique to the Canadian version of Business Central.",
+  "blob": "e61405bc2c0e6c1279d48ff0f3abeb4cb23e654e",
+  "summary": "Canada local functionality includes tax reporting for GST/HST and sales tax, banking features like deposits and electronic payments, and GIFI code support specific to the Canadian version of Business Central.",
   "systems": [
-    "localization",
     "finance",
     "integration"
   ],
   "topics": [
     "canada",
-    "local functionality",
     "tax",
     "gst",
+    "hst",
     "sales tax",
     "banking",
-    "deposits"
+    "payments",
+    "gifi codes"
   ],
   "objects": [],
   "features": [
-    "Sales Tax Reporting",
-    "Goods/Services Tax Reporting",
+    "Goods/Services Tax reporting",
+    "Harmonized Sales Tax reporting",
+    "Sales Tax reporting",
     "Unrealized Sales Tax",
     "Sales Payment Discounts",
     "Use Tax",
     "Purchase Tax",
     "Deposits",
     "Electronic Payments",
-    "GIFI Codes"
+    "GIFI codes",
+    "Troubleshooting Reports"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003525,
-      "pages_in_call": 8
+      "cost_usd": 0.003379,
+      "pages_in_call": 1
     }
   ]
 }

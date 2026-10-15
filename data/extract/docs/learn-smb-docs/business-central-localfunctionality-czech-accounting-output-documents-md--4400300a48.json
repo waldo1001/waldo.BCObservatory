@@ -2,81 +2,28 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/accounting-output-documents.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/accounting-output-documents",
   "title": "Czech Local Functionality - Accounting output documents",
-  "blob": "370a54eda299e2722b345b0a2534cb9c845eaf23",
-  "summary": "Czech accounting output documents feature provides 14 specialized reports including general journal, ledger, accounting sheets, turnover reports, and reconciliation reports to comply with Czech financial legislation and reporting practices.",
+  "blob": "91b7e907898dc5891e922f77829c194c109ed4a5",
+  "summary": "Czech accounting output documents feature provides localized reports for compliance with Czech legislation, including general journal, ledger, accounting sheets, VAT reconciliation, and financial statements.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "accounting reports",
     "czech",
-    "financial statements",
-    "reconciliation"
+    "accounting",
+    "reports",
+    "compliance",
+    "local functionality",
+    "financial reporting"
   ],
-  "objects": [
-    {
-      "type": "report",
-      "name": "General Journal"
-    },
-    {
-      "type": "report",
-      "name": "General Ledger"
-    },
-    {
-      "type": "report",
-      "name": "Accounting Sheets"
-    },
-    {
-      "type": "report",
-      "name": "Turnover report by Global Dimension"
-    },
-    {
-      "type": "report",
-      "name": "Open G/L Entries to date"
-    },
-    {
-      "type": "report",
-      "name": "Inventory Account to date"
-    },
-    {
-      "type": "report",
-      "name": "Joining Bank Account Adjustment"
-    },
-    {
-      "type": "report",
-      "name": "Joining G/L Account Adjustment"
-    },
-    {
-      "type": "report",
-      "name": "G/L VAT Reconciliation"
-    },
-    {
-      "type": "report",
-      "name": "All payments on hold"
-    },
-    {
-      "type": "report",
-      "name": "Open Customer Entries at date"
-    },
-    {
-      "type": "report",
-      "name": "Open Vendor Entries at date"
-    },
-    {
-      "type": "report",
-      "name": "Fiscal Year Balance"
-    },
-    {
-      "type": "report",
-      "name": "Trial Balance by Period"
-    }
-  ],
+  "objects": [],
   "features": [
-    "accounting output reports",
-    "reconciliation reports",
-    "general ledger reporting"
+    "General Journal",
+    "General Ledger",
+    "Accounting Sheets",
+    "Turnover Report by Global Dimensions",
+    "VAT Reconciliation",
+    "Trial Balance by Period"
   ],
   "versions": [],
   "parts": 1,
@@ -85,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.002848,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,31 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/ca-sales-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/ca-sales-tax",
   "title": "Reporting Sales Tax [CA]",
-  "blob": "29cb88a40e0f914c61236b5707891d6b10e61597",
-  "summary": "Sales tax reporting in Canada requires setting up tax areas and jurisdictions across multiple provinces and federal levels, with support for up to four jurisdictions per document and combined tax calculations.",
+  "blob": "e9c38ab5f0a135c88ce3148b4e72d0d7e2b10a47",
+  "summary": "Reporting sales tax in Canada requires setting up tax areas, jurisdictions, and tax groups to properly collect and remit sales tax to federal and provincial authorities. The Tax Details page establishes combinations of sales tax jurisdictions and groups to configure applicable sales tax rates for different items and services.",
   "systems": [
     "finance",
-    "sales",
     "localization"
   ],
   "topics": [
     "sales tax",
     "canada",
     "tax jurisdictions",
-    "tax reporting"
-  ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Tax Details"
-    }
-  ],
-  "features": [
-    "sales tax",
-    "tax jurisdictions",
-    "multiple jurisdictions",
     "tax groups",
-    "tax rates"
+    "tax rates",
+    "remittance"
+  ],
+  "objects": [],
+  "features": [
+    "Tax Details page",
+    "Multiple jurisdictions display",
+    "Tax group setup",
+    "Jurisdiction-specific tax rates"
   ],
   "versions": [],
   "parts": 1,
@@ -35,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001861,
-      "pages_in_call": 7
+      "cost_usd": 0.005925,
+      "pages_in_call": 1
     }
   ]
 }

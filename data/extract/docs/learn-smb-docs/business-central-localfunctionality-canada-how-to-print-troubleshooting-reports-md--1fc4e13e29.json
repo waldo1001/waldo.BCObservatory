@@ -2,19 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-print-troubleshooting-reports",
   "title": "How to print troubleshooting reports [CA]",
-  "blob": "b1a7e3ca96c24e2db63deb53ed416054740e53bd",
-  "summary": "Print troubleshooting reports in the Canadian version related to finance setup and operations.",
+  "blob": "f87ec98caa1e9a0bb3f33b84fde534356deaa7d9",
+  "summary": "Print troubleshooting reports in the Canadian version of Business Central.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "troubleshooting",
     "canada",
-    "reporting"
+    "printing",
+    "troubleshooting",
+    "reports"
   ],
   "objects": [],
-  "features": [],
+  "features": [
+    "print troubleshooting reports"
+  ],
   "versions": [],
   "parts": 1,
   "prompt_version": 1,
@@ -22,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002535,
-      "pages_in_call": 8
+      "cost_usd": 0.002412,
+      "pages_in_call": 1
     }
   ]
 }

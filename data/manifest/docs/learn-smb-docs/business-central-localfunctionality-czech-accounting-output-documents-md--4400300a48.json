@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/accounting-output-documents",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.246Z",
-      "blob": "370a54eda299e2722b345b0a2534cb9c845eaf23",
-      "words": 99,
+      "at": "2026-10-15T00:28:28.469Z",
+      "blob": "91b7e907898dc5891e922f77829c194c109ed4a5",
+      "words": 97,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.606Z",
+      "at": "2026-10-15T00:28:32.524Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 14,
-      "cost_usd": 0.004529
+      "objects": 0,
+      "cost_usd": 0.002848
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.066Z",
+      "at": "2026-10-15T00:28:32.526Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.067Z",
+      "at": "2026-10-15T00:28:32.527Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.068Z",
+      "at": "2026-10-15T00:28:32.528Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/accounting-output-documents.md",
     "description": "Learn about accounting output documents available in the Czech version of Business Central, including local reporting features and compliance requirements.",
-    "ms_date": "2025-06-02",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CZ",
       "Czech version"
     ],
-    "ai_usage": null,
-    "words": 99,
+    "ai_usage": "ai-assisted",
+    "words": 97,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "797462a331f64bbdc92a80cdc7d095ad99ce3b3eb55a45f9279ce007ee12f64b"
+  "output_hash": "ac5816d9f342e6e7ca517e629ac4a326c1c920b88b7327419ee41b57ead626c6"
 }
