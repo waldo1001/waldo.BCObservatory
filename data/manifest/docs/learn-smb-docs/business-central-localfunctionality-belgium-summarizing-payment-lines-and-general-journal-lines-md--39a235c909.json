@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.008Z",
-      "blob": "c3315ce2202b1a2c3d18ff3ea2e639f478c6d777",
+      "at": "2026-10-15T00:28:14.515Z",
+      "blob": "254c5473d4d63c98364ebc6989e147a27f93e340",
       "words": 504,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.312Z",
+      "at": "2026-10-15T00:28:19.472Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001861
+      "cost_usd": 0.003687
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.334Z",
+      "at": "2026-10-15T00:28:19.474Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.336Z",
+      "at": "2026-10-15T00:28:19.475Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.337Z",
+      "at": "2026-10-15T00:28:19.476Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md",
     "description": "Business Central summarizes payment lines and journal lines across domestic, international, SEPA, and non-Euro payments.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -62,12 +62,12 @@
       "summarize journal lines",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 504,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ce3181c425b0c2f570e2f5ffb262301d07e4a7a0e9e942f8554bc5ca52c8e185"
+  "output_hash": "a35838196a0de74c491300a8a51976b4259b53148665c05da130d408c5daf24d"
 }

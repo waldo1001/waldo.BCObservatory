@@ -2,24 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/sepa-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/sepa-payments",
   "title": "SEPA payments [BE]",
-  "blob": "c003191927a3b6781701693d2846a92b82445113",
-  "summary": "SEPA payments in Belgium enable unified payment processing across European countries using the Single Euro Payments Area framework for both domestic and international euro payments.",
+  "blob": "8f9321a7a3d9ac3329acaf64852b8f70f94d1632",
+  "summary": "SEPA payments in the Belgian version of Business Central enable unified payment processing across participating European countries using the Single Euro Payments Area standard.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "sepa payments",
+    "sepa",
+    "payments",
     "belgium",
-    "international payments",
-    "electronic banking"
+    "european payments",
+    "euro",
+    "bank integration"
   ],
   "objects": [],
   "features": [
-    "SEPA payments",
-    "euro payments",
-    "international payments",
-    "domestic payments"
+    "SEPA payments activation",
+    "non-euro SEPA payments",
+    "SEPA credit transfer",
+    "AMC Banking 365 Fundamentals extension"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001861,
-      "pages_in_call": 7
+      "cost_usd": 0.005384,
+      "pages_in_call": 1
     }
   ]
 }

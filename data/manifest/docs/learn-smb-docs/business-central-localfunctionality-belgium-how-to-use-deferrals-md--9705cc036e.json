@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.659Z",
-      "blob": "c89b58b72aa03c90b52da0b7665a9a3447c1f85d",
+      "at": "2026-10-15T00:28:08.782Z",
+      "blob": "f589ff94c845bdba88a40fd3ba92d08523b6fe7c",
       "words": 266,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.732Z",
+      "at": "2026-10-15T00:28:14.621Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003743
+      "objects": 0,
+      "cost_usd": 0.003201
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.737Z",
+      "at": "2026-10-15T00:28:14.623Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.739Z",
+      "at": "2026-10-15T00:28:14.625Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.740Z",
+      "at": "2026-10-15T00:28:14.626Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-use-deferrals.md",
     "description": "Learn how to set up and use deferrals in Sales ledger and Purchase ledger reports in the Belgian version of Business Central.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -69,12 +69,12 @@
       "sales ledger",
       "purchase ledger"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 266,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2efee14ed908ac8c8991abfc3c98423d38a3a0a5dd668c45ccb0f65320ae2f91"
+  "output_hash": "ae851cec4a98d064c8faecd0dcc040cf30f89230e2d4b4169cbdfe103deb2fc3"
 }

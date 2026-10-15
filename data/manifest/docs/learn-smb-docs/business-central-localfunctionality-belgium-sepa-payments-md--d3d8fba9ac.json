@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/sepa-payments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.004Z",
-      "blob": "c003191927a3b6781701693d2846a92b82445113",
+      "at": "2026-10-15T00:28:08.748Z",
+      "blob": "8f9321a7a3d9ac3329acaf64852b8f70f94d1632",
       "words": 86,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.311Z",
+      "at": "2026-10-15T00:28:16.643Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001861
+      "cost_usd": 0.005384
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.329Z",
+      "at": "2026-10-15T00:28:16.645Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.330Z",
+      "at": "2026-10-15T00:28:16.646Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.331Z",
+      "at": "2026-10-15T00:28:16.648Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/sepa-payments.md",
     "description": "The Single Euro Payments Area (SEPA) unifies payment methods across participating European countries/regions, making international payments as easy as domestic ones.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "European payments",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 86,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e69593bf2698c17c13cfb974c9611109105411236047ba0d1008ba9166c7524d"
+  "output_hash": "993816126072a0773fa722e6970b4890711707fd6c79106c66067d6802fd076b"
 }

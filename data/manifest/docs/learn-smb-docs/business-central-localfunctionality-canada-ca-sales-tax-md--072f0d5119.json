@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/ca-sales-tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.012Z",
-      "blob": "29cb88a40e0f914c61236b5707891d6b10e61597",
+      "at": "2026-10-15T00:28:14.716Z",
+      "blob": "e9c38ab5f0a135c88ce3148b4e72d0d7e2b10a47",
       "words": 286,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.315Z",
+      "at": "2026-10-15T00:28:23.402Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001861
+      "objects": 0,
+      "cost_usd": 0.005925
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.339Z",
+      "at": "2026-10-15T00:28:23.404Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.340Z",
+      "at": "2026-10-15T00:28:23.405Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.341Z",
+      "at": "2026-10-15T00:28:23.407Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/ca-sales-tax.md",
     "description": "Learn about sales tax setup and how tax groups, tax areas (states, counties, cities, and localities), tax jurisdictions, and tax details work in Canada.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "local",
       "reporting sales tax"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 286,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8187d13f9ca98827450bf46d1db9b404a877055de2017ac040f7c7aebb6bcd7b"
+  "output_hash": "5e20bc0a5cd4d765329817912d88cacc499a25e68b188dd5d926221b1b2a017b"
 }

@@ -2,21 +2,29 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers",
   "title": "How to Set Up Intrastat Establishment Numbers [BE]",
-  "blob": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
-  "summary": "Configure the Intrastat establishment number as a company identification number for Belgian Intrastat declarations.",
+  "blob": "88f5488d1dc334ac2c783612cfc2e4dda6a00a27",
+  "summary": "Intrastat establishment numbers are company identification numbers printed on Intrastat declarations in the Belgian version. Set up the number in the Company Information page's Intrastat Establishment No. field.",
   "systems": [
     "localization",
     "finance"
   ],
   "topics": [
-    "belgian",
     "intrastat",
-    "establishment number",
-    "company identification"
+    "belgium",
+    "reporting",
+    "company information",
+    "setup"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    }
+  ],
   "features": [
-    "Intrastat Establishment Number"
+    "Intrastat establishment number",
+    "Intrastat declaration",
+    "Belgian Intrastat reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.003169,
+      "pages_in_call": 1
     }
   ]
 }

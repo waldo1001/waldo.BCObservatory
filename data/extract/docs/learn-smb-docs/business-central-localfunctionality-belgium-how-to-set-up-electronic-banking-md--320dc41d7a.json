@@ -2,24 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-electronic-banking",
   "title": "Set up electronic banking [BE]",
-  "blob": "8382d0c4e1ebc3a4904bcf6f44efe9411ed83502",
-  "summary": "Configure electronic banking in Belgium for making electronic payments to domestic, international, SEPA, and non-Euro SEPA vendors and customers.",
+  "blob": "c4568fb0e3ccde5be085b83d091887d94c410b7c",
+  "summary": "Electronic banking setup for the Belgian version enables electronic payments to domestic, international, and SEPA vendors. Configure the Electronic Banking Setup page with options to summarize journal lines and truncate payment messages.",
   "systems": [
-    "localization",
     "finance",
-    "purchasing"
+    "localization",
+    "integration"
   ],
   "topics": [
-    "belgian",
     "electronic banking",
     "payments",
-    "sepa"
+    "belgium",
+    "setup",
+    "sepa",
+    "vendor payments"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Electronic Banking Setup"
+    }
+  ],
   "features": [
-    "Electronic Banking Setup",
     "Summarize General Journal Lines",
-    "Cut off Payment Message Texts"
+    "Cut off Payment Message Texts",
+    "Domestic payments",
+    "International payments",
+    "SEPA payments",
+    "Non-Euro SEPA payments"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.003485,
+      "pages_in_call": 1
     }
   ]
 }

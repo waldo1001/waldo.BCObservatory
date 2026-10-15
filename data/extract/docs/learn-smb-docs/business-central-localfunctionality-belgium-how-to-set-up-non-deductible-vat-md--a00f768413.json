@@ -2,22 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat",
   "title": "How to set up Non-Deductible VAT [BE]",
-  "blob": "7056d18ad251508b436da0ff696cd99434a353c5",
-  "summary": "Set up non-deductible VAT percentages for Belgian general ledger expense accounts to calculate partial VAT deductions for specific types of expenses.",
+  "blob": "df97260fef9b09400665c4deef683ebd2a1c4a27",
+  "summary": "Set up non-deductible VAT percentages on general ledger accounts in the Belgian version to calculate partial VAT deduction for specific expense types.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "belgian",
-    "vat",
-    "non-deductible",
-    "expense accounts"
+    "non-deductible vat",
+    "partial deduction",
+    "belgium",
+    "expense accounts",
+    "vat calculation"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "G/L Account Card"
+    },
+    {
+      "type": "page",
+      "name": "Chart of Accounts"
+    }
+  ],
   "features": [
-    "% Non-Deductible VAT",
-    "VAT deduction"
+    "% Non deductible VAT field",
+    "VAT deduction calculation",
+    "expense account configuration"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.003247,
+      "pages_in_call": 1
     }
   ]
 }

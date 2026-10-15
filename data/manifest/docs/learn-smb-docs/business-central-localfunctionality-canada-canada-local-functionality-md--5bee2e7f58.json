@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/canada-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.428Z",
-      "blob": "55aa3e292de74e80edc047a372a97de9f1adf5ca",
-      "words": 123,
+      "at": "2026-10-15T00:28:15.875Z",
+      "blob": "e61405bc2c0e6c1279d48ff0f3abeb4cb23e654e",
+      "words": 124,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.184Z",
+      "at": "2026-10-15T00:28:23.437Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003525
+      "cost_usd": 0.003379
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.204Z",
+      "at": "2026-10-15T00:28:23.439Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.207Z",
+      "at": "2026-10-15T00:28:23.441Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.208Z",
+      "at": "2026-10-15T00:28:23.442Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/canada-local-functionality.md",
     "description": "These articles describe the local functionality unique to the Canadian version of Business Central.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "Canada local functionality",
       "Canadian version features"
     ],
-    "ai_usage": null,
-    "words": 123,
+    "ai_usage": "ai-assisted",
+    "words": 124,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "67e8eb1cb7f4593390bd5b12a96d52501f64a35c3681f73e7e309fe5a64102fe"
+  "output_hash": "557d66ecefbfa931676ac8b9a3e28b72b5f65ad1186f7c2fc8116c52f819e02d"
 }

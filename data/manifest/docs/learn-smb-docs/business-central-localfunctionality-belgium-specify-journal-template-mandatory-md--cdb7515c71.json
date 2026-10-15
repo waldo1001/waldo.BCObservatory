@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.663Z",
-      "blob": "de17b30616e2934381c5aa69819d06bfdecf6ba5",
+      "at": "2026-10-15T00:28:14.477Z",
+      "blob": "9bedcaf34e2d01069f211faa0e1f9cacf146c5f6",
       "words": 318,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.732Z",
+      "at": "2026-10-15T00:28:23.321Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.003743
+      "cost_usd": 0.003746
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.742Z",
+      "at": "2026-10-15T00:28:23.330Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.743Z",
+      "at": "2026-10-15T00:28:23.345Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.744Z",
+      "at": "2026-10-15T00:28:23.353Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/specify-journal-template-mandatory.md",
     "description": "Learn how to make the use of journal templates required in the Belgian version.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "journal templates",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 318,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0228a4d97838d390ced9606ee0e88787761e21dcbc1ac6ffe67b000759bfd7d"
+  "output_hash": "e161dcc0233ab37f95349f0d058cc7ef634d6ea8de1e255b60f710cf5ded1de9"
 }

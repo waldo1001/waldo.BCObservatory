@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.017Z",
-      "blob": "36bd89dddd1b7216b476be8b0e23704bc17fa5ca",
+      "at": "2026-10-15T00:28:16.708Z",
+      "blob": "8769fe0a3d96249885bf8cf68c3b1a0bbf684c53",
       "words": 18,
       "forms": 8
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.317Z",
+      "at": "2026-10-15T00:28:23.422Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001861
+      "cost_usd": 0.002434
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.343Z",
+      "at": "2026-10-15T00:28:23.424Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.344Z",
+      "at": "2026-10-15T00:28:23.425Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.344Z",
+      "at": "2026-10-15T00:28:23.427Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Canada/how-to-create-deposits.md",
     "description": "Make deposits to maintain a transaction record that contains information that can be applied to outstanding invoices and credit memos in the Canadian version.",
-    "ms_date": "2025-02-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -95,12 +95,12 @@
       "outstanding invoices",
       "credit memos"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 18,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "89536ee83bf2cf8740bd43661b06868636a4e0223d608c0390c7dc976dad6b1c"
+  "output_hash": "4dd720776fe4cd6039cde594eba8c7487f3c72d94f05f8bdeb9188427ffef697"
 }

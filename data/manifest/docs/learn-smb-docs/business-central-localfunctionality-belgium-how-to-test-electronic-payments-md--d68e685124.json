@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.999Z",
-      "blob": "7fabfa8417748d7a5092104704872261a1f703b5",
+      "at": "2026-10-15T00:28:08.834Z",
+      "blob": "132af48857c33cc8cb13a78ff48a4513b8d49d31",
       "words": 243,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.112Z",
+      "at": "2026-10-15T00:28:15.802Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002314
+      "objects": 3,
+      "cost_usd": 0.003606
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.130Z",
+      "at": "2026-10-15T00:28:15.803Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.131Z",
+      "at": "2026-10-15T00:28:15.805Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.132Z",
+      "at": "2026-10-15T00:28:15.807Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments.md",
     "description": "After electronic banking is set up and payment suggestions are generated, the payment journal lines can be tested for errors before posting them.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "payment journal lines",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a174bdc3c37565fb736f948d5444db6d481f47da93ec30deb5644e9aa3cafe4"
+  "output_hash": "1a4993654c43b632b10f7bf29f379d2ed1c4b89e90a539c6a9f42e2f17d97255"
 }

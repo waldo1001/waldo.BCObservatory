@@ -2,25 +2,42 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-test-electronic-payments",
   "title": "Test Electronic Payments [BE]",
-  "blob": "7fabfa8417748d7a5092104704872261a1f703b5",
-  "summary": "Test electronic payment journal lines in Belgian electronic banking to validate bank account numbers, payment amounts, single bank account usage, and SEPA requirements before posting.",
+  "blob": "132af48857c33cc8cb13a78ff48a4513b8d49d31",
+  "summary": "Testing electronic payment journal lines in the Belgian version of Business Central before posting, including validation of bank accounts, payment amounts, SEPA requirements, and correction of errors.",
   "systems": [
+    "purchasing",
     "localization",
-    "finance",
-    "purchasing"
+    "finance"
   ],
   "topics": [
-    "belgian",
     "electronic payments",
+    "belgium",
     "payment validation",
-    "testing"
+    "sepa",
+    "bank accounts",
+    "payment journal"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "EB Payment Journals"
+    },
+    {
+      "type": "page",
+      "name": "Export Check Error Logs"
+    },
+    {
+      "type": "page",
+      "name": "Export Protocols"
+    }
+  ],
   "features": [
-    "Export Check Error Logs",
-    "Check Payment Lines",
-    "Payment validation",
-    "Error correction"
+    "payment journal validation",
+    "bank account number validation",
+    "SEPA payment checks",
+    "Isabel support",
+    "export protocol selection",
+    "error logging"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.003606,
+      "pages_in_call": 1
     }
   ]
 }
