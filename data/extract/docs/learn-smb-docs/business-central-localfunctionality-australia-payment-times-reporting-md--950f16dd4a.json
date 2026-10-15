@@ -2,17 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/payment-times-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/payment-times-reporting",
   "title": "Payment Times Reporting in the Australian version",
-  "blob": "1ba7b766cd4ae8d66a696c7e53e3c62b7ce4a8cc",
-  "summary": "Payment Times Reporting in Australia describes compliance requirements for large businesses reporting vendor payment performance to authorities, and how to extract relevant data from Business Central for the mandated delimited text file.",
+  "blob": "6e3be1eb4ac0d4ba68b46f4a44da3b6b47437dfc",
+  "summary": "Payment Times Reporting for Australian reporting entities describes mandatory vendor payment data collection for businesses with AUD 100M+ consolidated revenue. It explains how to find relevant invoice and payment data in vendor ledger entries to compile the required reporting buckets (30, 31-60, and 60+ days).",
   "systems": [
-    "purchasing"
+    "finance",
+    "purchasing",
+    "localization"
   ],
   "topics": [
+    "payment times reporting",
     "australia",
-    "payment times",
-    "compliance",
-    "reporting",
-    "small business vendors"
+    "vendor payment data",
+    "small business vendors",
+    "regulatory reporting",
+    "vendor ledger entries"
   ],
   "objects": [
     {
@@ -25,11 +28,12 @@
     }
   ],
   "features": [
-    "small business vendor marking",
-    "payment bucket reporting",
-    "vendor lookup",
-    "invoice payment tracking",
-    "applied entries"
+    "vendor payment tracking",
+    "payment terms analysis",
+    "small business vendor identification",
+    "reporting period filtering",
+    "applied entries lookup",
+    "excel export"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002583,
-      "pages_in_call": 8
+      "cost_usd": 0.004372,
+      "pages_in_call": 1
     }
   ]
 }

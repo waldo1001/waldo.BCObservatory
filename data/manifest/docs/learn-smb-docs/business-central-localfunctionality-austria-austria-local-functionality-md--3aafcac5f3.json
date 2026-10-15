@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/austria-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.710Z",
-      "blob": "f910a33b3b12bd53c6e87cedd9545e5045300cb7",
-      "words": 139,
+      "at": "2026-10-15T00:27:04.287Z",
+      "blob": "395819c337e5c7627104b056b08216a2804efa62",
+      "words": 145,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:01.722Z",
+      "at": "2026-10-15T00:27:11.236Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005899
+      "cost_usd": 0.003628
     },
     "summarized": {
-      "at": "2026-10-06T18:51:03.492Z",
+      "at": "2026-10-15T00:27:11.238Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:03.493Z",
+      "at": "2026-10-15T00:27:11.239Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:03.494Z",
+      "at": "2026-10-15T00:27:11.241Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/austria-local-functionality.md",
     "description": "This article lists links that describe the various local functionality in the Austrian version of Business Central.",
-    "ms_date": "2025-12-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "local functionality",
       "Austrian version"
     ],
-    "ai_usage": null,
-    "words": 139,
+    "ai_usage": "ai-assisted",
+    "words": 145,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fc9393574346d0146851d4346271f96ef5e100b9862c5ac4d4aa8af82c275f79"
+  "output_hash": "9a91de3e4ad9ab4182a3cfaeb71a3fba39b8920de12ae95f3e3cdc4cbeda1894"
 }

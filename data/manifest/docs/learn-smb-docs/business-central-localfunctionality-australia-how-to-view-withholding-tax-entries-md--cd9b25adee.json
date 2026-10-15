@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.805Z",
-      "blob": "9c132866e7ce50fde96acf2b702e6844e55a7dcf",
+      "at": "2026-10-15T00:26:59.419Z",
+      "blob": "76e329d3f3ccff3e73a8e67f8f4587c996abeb25",
       "words": 138,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.227Z",
+      "at": "2026-10-15T00:27:04.248Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002182
+      "cost_usd": 0.00324
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.262Z",
+      "at": "2026-10-15T00:27:04.249Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.264Z",
+      "at": "2026-10-15T00:27:04.250Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.265Z",
+      "at": "2026-10-15T00:27:04.251Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-view-withholding-tax-entries.md",
     "description": "In the Australian version, view entries that are posted with withholding tax (WHT) for a specified general ledger register.",
-    "ms_date": "2025-03-27",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "WHT entry",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 138,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d594b260e9c156a6e070283b395fcd6d8f25a794580579ab7a0bd5873d95a01c"
+  "output_hash": "4c8f10224a91420f66b5a14f80060c5b01d11ddfb8b5dba35fa872dbb2cc6c53"
 }

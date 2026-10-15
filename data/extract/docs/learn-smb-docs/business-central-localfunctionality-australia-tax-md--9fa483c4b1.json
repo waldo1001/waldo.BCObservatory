@@ -2,26 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/tax",
   "title": "Australian Tax overview",
-  "blob": "940abfb3319fabcf2b2102918b93d5dcf5b28dab",
-  "summary": "Australian tax functionality covers withholding tax setup, goods and services tax posting and settlement, and tax invoice and credit memo handling.",
+  "blob": "dbb8f33279e21d7925023e4246de34b9ef84368f",
+  "summary": "Australian Tax overview documents withholding tax and goods and services tax (GST) setup, posting, settlement, and reporting capabilities for Australian localization.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "australia",
+    "australian tax",
     "withholding tax",
+    "goods and services tax",
     "gst",
-    "goods and service tax"
+    "tax settlement",
+    "localization"
   ],
   "objects": [],
   "features": [
-    "Withholding Tax",
-    "ABN handling",
-    "revenue types",
-    "GST posting",
-    "settlement exchange rates",
-    "tax invoices"
+    "Withholding Tax setup",
+    "Vendor ABN configuration",
+    "Revenue Types for Withholding Tax",
+    "GST Posting",
+    "Tax Settlement",
+    "Tax Invoices",
+    "Tax Credit Memos",
+    "Prepayment GST",
+    "Exchange Rate Adjustment"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003878,
-      "pages_in_call": 8
+      "cost_usd": 0.003249,
+      "pages_in_call": 1
     }
   ]
 }

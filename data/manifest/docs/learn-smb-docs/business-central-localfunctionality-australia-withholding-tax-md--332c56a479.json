@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/withholding-tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.810Z",
-      "blob": "a3e26bd65869846f7200e957ab6f0d51bfaded05",
+      "at": "2026-10-15T00:27:03.650Z",
+      "blob": "853c18c6b1caabba6dda128f9420e4e9e9573871",
       "words": 570,
       "forms": 10
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.228Z",
+      "at": "2026-10-15T00:27:11.275Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002182
+      "cost_usd": 0.004337
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.272Z",
+      "at": "2026-10-15T00:27:11.281Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.274Z",
+      "at": "2026-10-15T00:27:11.283Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.281Z",
+      "at": "2026-10-15T00:27:11.286Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/withholding-tax.md",
     "description": "In the Australian version, Withholding Tax (WHT) is tax withheld by a company when making a payment to a vendor.",
-    "ms_date": "2025-03-27",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -110,12 +110,12 @@
       "BAS",
       "Australian business number"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 570,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5ac00968a4b2eb64c6903a67838c68337a44f459f1a9e8dab88dc3eee0877391"
+  "output_hash": "b310f654e546cd94530556d0fb7a88c067e23bef9b0d6761c2019de409b2a4fa"
 }

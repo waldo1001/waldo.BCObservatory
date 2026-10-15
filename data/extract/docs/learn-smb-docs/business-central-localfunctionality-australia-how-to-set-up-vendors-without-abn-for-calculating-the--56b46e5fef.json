@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax",
   "title": "Set Up Vendors Without ABN for Calculating WHT",
-  "blob": "03528d0aa540140faefb19aa3f47addb97752433",
-  "summary": "Set up vendors without an ABN in the Australian version to calculate Withholding Tax as required by tax law.",
+  "blob": "a639eda7c1d9d107d4ed5365908d6c24612a4a1a",
+  "summary": "Configure vendors without an Australian Business Number (ABN) to have withholding tax automatically calculated and applied according to WHT posting setup rules in the Australian localization of Business Central.",
   "systems": [
     "localization",
     "purchasing"
@@ -12,19 +12,25 @@
     "withholding tax",
     "vendors",
     "australia",
-    "tax compliance"
+    "abn",
+    "tax",
+    "setup"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "WHT Posting Setup"
     }
   ],
   "features": [
-    "Withholding Tax calculation",
     "ABN field",
     "Foreign Vend field",
-    "WHT Posting Setup"
+    "WHT percentage automatic calculation",
+    "WHT certificate generation"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002535,
-      "pages_in_call": 8
+      "cost_usd": 0.003257,
+      "pages_in_call": 1
     }
   ]
 }

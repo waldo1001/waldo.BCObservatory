@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.094Z",
-      "blob": "940abfb3319fabcf2b2102918b93d5dcf5b28dab",
+      "at": "2026-10-15T00:27:03.141Z",
+      "blob": "dbb8f33279e21d7925023e4246de34b9ef84368f",
       "words": 86,
       "forms": 32
     },
     "extracted": {
-      "at": "2026-10-06T19:43:26.999Z",
+      "at": "2026-10-15T00:27:07.341Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003878
+      "cost_usd": 0.003249
     },
     "summarized": {
-      "at": "2026-10-06T19:43:28.799Z",
+      "at": "2026-10-15T00:27:07.343Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:28.800Z",
+      "at": "2026-10-15T00:27:07.344Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:28.802Z",
+      "at": "2026-10-15T00:27:07.345Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/tax.md",
     "description": "This article is an overview of articles that cover how to set up and use the tax functionality in Australia.",
-    "ms_date": "2025-03-27",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [
       {
@@ -222,12 +222,12 @@
       "VAT entries",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 86,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "56e43e8b9832099fbdf90c3e051dd2291977b7f6763dda79144e1aad12f096b0"
+  "output_hash": "ea9e3adfff2ee6886518f3df0d0813a34004ea481ec3a254534b0ec1448fdbc4"
 }

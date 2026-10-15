@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-view-posted-tax-credit-memos",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.796Z",
-      "blob": "2242ff5cdf45117ecfb3819f69ba243e5d84a63e",
+      "at": "2026-10-15T00:26:58.604Z",
+      "blob": "ea4d25c784640c852843f8394ef52a38e183e371",
       "words": 151,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.225Z",
+      "at": "2026-10-15T00:27:05.067Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002182
+      "cost_usd": 0.005581
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.233Z",
+      "at": "2026-10-15T00:27:05.069Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.234Z",
+      "at": "2026-10-15T00:27:05.070Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.235Z",
+      "at": "2026-10-15T00:27:05.072Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-view-posted-tax-credit-memos.md",
     "description": "View details of sales and purchase tax credit memos on the Posted Sales Tax Credit Memo and Posted Purch. Tax Credit Memo pages.",
-    "ms_date": "2025-03-27",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -77,12 +77,12 @@
       "posted purchase tax credit memo",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 151,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7d5532546edeca997c74162eed78e5691c936a640eb951ab4474f22f0610772"
+  "output_hash": "08a642237ad67ef0c0d2a86499b158108f0e4195a37956101701b8d51c7f3613"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.819Z",
-      "blob": "5ee4b3364f030c0399bb911eee8a72b7ff9f29a9",
+      "at": "2026-10-15T00:27:05.784Z",
+      "blob": "92bfe528707789ae8fdffac8acbe361a55d38ddc",
       "words": 39,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:31:05.230Z",
+      "at": "2026-10-15T00:27:11.218Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002182
+      "cost_usd": 0.002711
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.299Z",
+      "at": "2026-10-15T00:27:11.220Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.306Z",
+      "at": "2026-10-15T00:27:11.222Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.313Z",
+      "at": "2026-10-15T00:27:11.224Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/how-to-assign-delivery-reminder-codes-to-vendors.md",
     "description": "To enable delivery reminders for overdue purchases, you need to assign delivery reminder terms to vendors in the Austrian version.",
-    "ms_date": "2025-03-05",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "overdue purchases",
       "delivery reminder terms"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 39,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a9c362cdc4ed07c33403ce10f868d4722defafe6d1303a21681446371777fa5"
+  "output_hash": "805d07d8e751ce1bcb440b4503c53aa80c637cda40ea74423d8684a95a49156a"
 }

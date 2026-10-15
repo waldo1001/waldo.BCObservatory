@@ -2,17 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements",
   "title": "Set Up Business Units for Business Activity Statements (AU)",
-  "blob": "b871a20aeb6093fd194f527f0034f379efd22f39",
-  "summary": "Set up business units for business activity statements (BAS) in the Australian version to consolidate financial statements across parent companies and subsidiaries.",
+  "blob": "4470072bf4c6f895fa05f608ac939853fdf0b03b",
+  "summary": "Set up business units for consolidating financial statements in Australian Business Activity Statements (BAS), including parent companies, subsidiaries, and affiliates through the BAS Business Units page.",
   "systems": [
     "finance",
-    "administration"
+    "localization"
   ],
   "topics": [
-    "australia",
-    "business activity statement",
+    "business activity statements",
     "consolidation",
-    "setup"
+    "financial reporting",
+    "australia",
+    "gst",
+    "business units"
   ],
   "objects": [
     {
@@ -25,10 +27,11 @@
     }
   ],
   "features": [
-    "parent company setup",
-    "subsidiary setup",
-    "affiliate setup",
-    "BAS group consolidation"
+    "BAS to be Lodged as a Group",
+    "BAS Group Company",
+    "Enable GST (Australia)",
+    "company consolidation",
+    "subsidiary management"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001171,
-      "pages_in_call": 7
+      "cost_usd": 0.003427,
+      "pages_in_call": 1
     }
   ]
 }

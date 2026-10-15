@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-vendors-without-abn-for-calculating-the-withholding-tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:50.641Z",
+      "at": "2026-10-15T00:26:59.342Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002535
+      "objects": 2,
+      "cost_usd": 0.003257
     },
     "summarized": {
-      "at": "2026-10-06T23:41:50.651Z",
+      "at": "2026-10-15T00:26:59.343Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:50.653Z",
+      "at": "2026-10-15T00:26:59.344Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:50.655Z",
+      "at": "2026-10-15T00:26:59.346Z",
       "page": false
     }
   },
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a639eda7c1d9d107d4ed5365908d6c24612a4a1a"
+  "output_hash": "8f840647c05de412715edb2009d5eccd927dd561e4eeec5cb1fd067b80c0f02d"
 }

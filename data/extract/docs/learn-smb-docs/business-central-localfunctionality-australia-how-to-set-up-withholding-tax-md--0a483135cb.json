@@ -2,28 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-set-up-withholding-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-withholding-tax",
   "title": "Set Up Withholding Tax [AU]",
-  "blob": "7052b94cc47dc6082aa8f04700fbaf1d2868217b",
-  "summary": "Enable and configure withholding tax (WHT) in the Australian version to withhold tax on payments to vendors without an ABN and remit to the ATO.",
+  "blob": "341c024047cedffeee911e6fca7dde01c1470a37",
+  "summary": "Withholding Tax (WHT) is a tax withheld by companies when paying vendors without an ABN in Australia. This page explains how to enable WHT in General Ledger Setup and configure posting groups for withholding tax processing.",
   "systems": [
-    "finance"
+    "finance",
+    "purchasing"
   ],
   "topics": [
-    "australia",
     "withholding tax",
+    "australia",
     "tax setup",
-    "abn"
+    "vendor payments",
+    "posting groups",
+    "local functionality"
   ],
   "objects": [
     {
-      "type": "page",
+      "type": "table",
       "name": "General Ledger Setup"
     }
   ],
   "features": [
     "Enable WHT",
-    "round amount for WHT calculation",
-    "product posting groups",
-    "business posting groups"
+    "Round Payment Amount for Withholding Tax",
+    "withholding tax calculation",
+    "Business Activity Statement integration"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001171,
-      "pages_in_call": 7
+      "cost_usd": 0.003276,
+      "pages_in_call": 1
     }
   ]
 }
