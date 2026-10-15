@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers",
   "title": "Set Up Belgian Tariff Numbers [BE]",
-  "blob": "70a455b6c84e10389a5d350acb1b99a9d303ccb5",
-  "summary": "Set up Belgian tariff numbers by defining eight-digit item codes with conversion factors and units of measure for Intrastat reporting purposes.",
+  "blob": "3e55183397b80b8e056b2898d84a649442bc101c",
+  "summary": "Set up eight-digit tariff numbers for Belgian customs and tax purposes, including conversion factors, units of measure, and weight requirements for Intrastat compliance.",
   "systems": [
-    "localization",
-    "inventory"
+    "localization"
   ],
   "topics": [
-    "tariff numbers",
-    "belgium",
+    "belgian tariff numbers",
     "intrastat",
-    "customs"
+    "customs",
+    "item codes",
+    "unit of measure",
+    "tariff setup"
   ],
   "objects": [
     {
@@ -21,11 +22,10 @@
     }
   ],
   "features": [
-    "Tariff number setup",
     "Conversion Factor",
     "Unit of Measure",
-    "Supplementary Units",
-    "Weight Mandatory"
+    "Weight Mandatory",
+    "Supplementary Units"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002491,
-      "pages_in_call": 8
+      "cost_usd": 0.003032,
+      "pages_in_call": 1
     }
   ]
 }

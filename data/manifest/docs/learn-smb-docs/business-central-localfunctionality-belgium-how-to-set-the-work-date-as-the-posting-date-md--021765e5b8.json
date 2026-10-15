@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.957Z",
-      "blob": "ed3c5c4b8581ebcd1973694d8725df461d7d31f2",
+      "at": "2026-10-15T00:27:55.273Z",
+      "blob": "afacc1d908c0b393f0e31b1ce54d040708531185",
       "words": 92,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.451Z",
+      "at": "2026-10-15T00:28:00.875Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002491
+      "cost_usd": 0.003146
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.525Z",
+      "at": "2026-10-15T00:28:00.876Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.526Z",
+      "at": "2026-10-15T00:28:00.878Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.528Z",
+      "at": "2026-10-15T00:28:00.879Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md",
     "description": "Set the general ledger to use the work date as the posting date for customer or vendor open entries on invoices, payments, or credit memos.",
-    "ms_date": "2025-04-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "work date",
       "open entries"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 92,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0bc56726c8f920389d6dbed0fb667f079fd8e5b33acc08b3a5ead69e3023c4b0"
+  "output_hash": "3f5d16d36f0a2c86d143a6d6419b35d0cc3117ccb96cff40e37649ce292f1ac2"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.983Z",
-      "blob": "6e40fa6092fab71436253e33f919ad1c700abdd4",
-      "words": 110,
+      "at": "2026-10-15T00:28:01.200Z",
+      "blob": "3d413d767f140ccb6530dbd9dc44e5af34392103",
+      "words": 108,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.106Z",
+      "at": "2026-10-15T00:28:08.549Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002314
+      "cost_usd": 0.00297
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.122Z",
+      "at": "2026-10-15T00:28:08.550Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.123Z",
+      "at": "2026-10-15T00:28:08.551Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.124Z",
+      "at": "2026-10-15T00:28:08.553Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md",
-    "description": "In order to process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute.",
-    "ms_date": "2025-04-03",
+    "description": "To process electronic payments, you must set up transaction codes according to the requirements of the Belgian-Luxembourg Exchange Institute.",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "Belgian-Luxembourg Exchange Institute",
       "IBLC-BLWI"
     ],
-    "ai_usage": null,
-    "words": 110,
+    "ai_usage": "ai-assisted",
+    "words": 108,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ad8728dc120350161c580f5b73679ecb105155df03231e8ed9620b96fe451a97"
+  "output_hash": "498b102b11819dfb294830abffbf2b68d41f27cbe29cea5949dba570330af5d1"
 }

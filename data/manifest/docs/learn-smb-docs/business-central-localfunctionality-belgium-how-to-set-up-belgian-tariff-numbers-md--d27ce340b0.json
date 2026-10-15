@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.966Z",
-      "blob": "70a455b6c84e10389a5d350acb1b99a9d303ccb5",
-      "words": 190,
+      "at": "2026-10-15T00:27:55.178Z",
+      "blob": "3e55183397b80b8e056b2898d84a649442bc101c",
+      "words": 189,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.453Z",
+      "at": "2026-10-15T00:28:00.317Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002491
+      "cost_usd": 0.003032
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.533Z",
+      "at": "2026-10-15T00:28:00.318Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.534Z",
+      "at": "2026-10-15T00:28:00.319Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.535Z",
+      "at": "2026-10-15T00:28:00.319Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md",
     "description": "Learn how to set up eight-digit Belgian tariff numbers for compliance with customs and tax regulations.",
-    "ms_date": "2025-04-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -64,12 +64,12 @@
       "conversion factor",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 190,
+    "ai_usage": "ai-assisted",
+    "words": 189,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "509138c77d6aa4f86adc6dd5d6ddbade761a9b4971aecb99bf4bc196941810d6"
+  "output_hash": "4afefef47bbe0b7c1c3c60eeeda7dca7bd813a4b153819df34908f15fe8695e8"
 }

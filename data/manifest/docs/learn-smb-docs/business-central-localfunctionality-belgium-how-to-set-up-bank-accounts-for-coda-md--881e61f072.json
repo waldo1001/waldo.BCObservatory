@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.962Z",
-      "blob": "c0b9271ee632519fca3e824cc44f0f95f494c433",
-      "words": 144,
+      "at": "2026-10-15T00:27:55.217Z",
+      "blob": "bc2e375b7effdda2a616615a757f1db79c17a859",
+      "words": 150,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.452Z",
+      "at": "2026-10-15T00:28:01.017Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002491
+      "cost_usd": 0.002934
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.530Z",
+      "at": "2026-10-15T00:28:01.018Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.531Z",
+      "at": "2026-10-15T00:28:01.019Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.532Z",
+      "at": "2026-10-15T00:28:01.020Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md",
     "description": "Set up the necessary codes before using electronic banking for CODA statements.",
-    "ms_date": "2025-04-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "set up protocol numbers",
       "set up version numbers"
     ],
-    "ai_usage": null,
-    "words": 144,
+    "ai_usage": "ai-assisted",
+    "words": 150,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a8fdb9294cebbbd8f1ed09809cd974a6e108ed495bf9472c5869b8c2f5d261cc"
+  "output_hash": "9a11666b55199a5afbef0b93d4080f9fd28c8605a7467d80aaad2878aa725c41"
 }

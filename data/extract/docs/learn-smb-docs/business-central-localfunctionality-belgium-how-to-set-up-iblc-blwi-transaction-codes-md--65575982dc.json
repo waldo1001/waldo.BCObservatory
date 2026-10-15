@@ -2,24 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes",
   "title": "Set Up IBLC-BLWI Transaction Codes [BE]",
-  "blob": "6e40fa6092fab71436253e33f919ad1c700abdd4",
-  "summary": "Set up IBLC/BLWI transaction codes for Belgian electronic payments to identify different types of international payment transactions according to Belgian-Luxembourg Exchange Institute requirements.",
+  "blob": "3d413d767f140ccb6530dbd9dc44e5af34392103",
+  "summary": "Set up IBLC-BLWI transaction codes in the Belgian version for processing international electronic payments according to Belgian-Luxembourg Exchange Institute requirements.",
   "systems": [
     "localization",
-    "finance",
-    "purchasing"
+    "integration",
+    "finance"
   ],
   "topics": [
-    "belgian",
+    "belgium",
+    "electronic payments",
     "transaction codes",
-    "iblc",
-    "blwi",
+    "iblc-blwi",
     "international payments"
   ],
   "objects": [],
   "features": [
-    "Transaction Code",
-    "Description"
+    "IBLC/BLWI Transaction Codes",
+    "transaction code setup",
+    "payment transaction identification"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.00297,
+      "pages_in_call": 1
     }
   ]
 }

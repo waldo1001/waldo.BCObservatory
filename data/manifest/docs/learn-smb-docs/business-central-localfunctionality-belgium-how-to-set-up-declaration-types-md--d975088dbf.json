@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.970Z",
-      "blob": "9a2ed9f1cbe0ace2b5579dd2596330e61931b348",
-      "words": 180,
+      "at": "2026-10-15T00:28:00.361Z",
+      "blob": "97631ca78562b92844325b2d467ab464cae4b002",
+      "words": 191,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.103Z",
+      "at": "2026-10-15T00:28:04.750Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002314
+      "objects": 2,
+      "cost_usd": 0.003412
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.113Z",
+      "at": "2026-10-15T00:28:04.752Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.114Z",
+      "at": "2026-10-15T00:28:04.753Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.115Z",
+      "at": "2026-10-15T00:28:04.754Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-declaration-types.md",
     "description": "Learn how to set up simplified and extended declaration types in the Belgian version of Business Central.",
-    "ms_date": "2025-03-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Incoterm",
       "Intrastat"
     ],
-    "ai_usage": null,
-    "words": 180,
+    "ai_usage": "ai-assisted",
+    "words": 191,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9a4a4f75840a78c85561bf0ab91e76ab31a6f9499b2f651fd564d1c9e48fc8a7"
+  "output_hash": "5b6b290154d18db26328934b47e89c5a560c46bf9432bc1e7c3a755461a2de7d"
 }

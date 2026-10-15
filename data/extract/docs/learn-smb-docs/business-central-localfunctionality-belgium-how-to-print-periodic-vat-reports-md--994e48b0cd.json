@@ -2,26 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports",
   "title": "How to print periodic VAT reports [BE]",
-  "blob": "6176f7eabfee3ad68e05aedfb22be777c23c008b",
-  "summary": "Print periodic VAT reports in Belgium to generate monthly/quarterly declarations, VAT annual listings, and VAT-VIES listings required by tax authorities.",
+  "blob": "8c3a15a8ca53bf9ec23e896248d8128b3e9ed469",
+  "summary": "Print periodic VAT reports for Belgian tax authorities including monthly/quarterly declarations, annual listings, and VAT-VIES declarations using Form/Intervat Declaration and related reports.",
   "systems": [
-    "finance",
-    "localization"
+    "localization",
+    "finance"
   ],
   "topics": [
     "vat",
-    "belgium",
     "reporting",
-    "tax compliance"
+    "belgium",
+    "tax compliance",
+    "declarations"
   ],
   "objects": [
     {
       "type": "report",
-      "name": "VAT – Form"
+      "name": "Form/Intervat Declaration"
     },
     {
       "type": "report",
-      "name": "VAT Annual Listing – Disk"
+      "name": "Annual Listing – Disk"
     },
     {
       "type": "report",
@@ -33,12 +34,14 @@
     }
   ],
   "features": [
-    "Form/Intervat Declaration",
-    "VAT Annual Listing",
-    "VAT-VIES declaration",
-    "Test Declaration",
-    "Representative",
-    "XML file generation"
+    "monthly VAT declaration",
+    "quarterly VAT declaration",
+    "VAT annual listing",
+    "VAT-VIES listing",
+    "prepayment handling",
+    "correction declarations",
+    "representative support",
+    "test declarations"
   ],
   "versions": [],
   "parts": 1,
@@ -47,8 +50,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002491,
-      "pages_in_call": 8
+      "cost_usd": 0.00468,
+      "pages_in_call": 1
     }
   ]
 }

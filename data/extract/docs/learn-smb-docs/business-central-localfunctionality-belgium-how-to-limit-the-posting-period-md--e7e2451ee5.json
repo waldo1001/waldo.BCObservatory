@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-limit-the-posting-period",
   "title": "How to Limit the Posting Period [BE]",
-  "blob": "13b3abf988214e2586af4f05d71b92a4ced400d2",
-  "summary": "Limit posting periods at company, user, or journal template levels to control when transactions can be recorded. Use this for Belgian monthly journal closure procedures.",
+  "blob": "9b6d5cedbeeb4fa3be16d447e88baf85fc5901e5",
+  "summary": "Limit posting periods in the Belgian version by company, user, or journal template to control when documents can be posted. Use this to enforce accounting period controls like closing sales journals monthly while keeping purchase journals open.",
   "systems": [
     "finance",
     "administration",
     "localization"
   ],
   "topics": [
-    "posting periods",
+    "posting period",
+    "date restrictions",
     "journal control",
-    "company setup",
-    "user setup",
-    "belgium"
+    "belgian functionality",
+    "accounting periods"
   ],
   "objects": [
     {
@@ -31,11 +31,13 @@
     }
   ],
   "features": [
-    "Allow Posting From",
-    "Allow Posting To",
-    "Company-level posting restrictions",
-    "User-level posting restrictions",
-    "Template-level posting restrictions"
+    "Allow Posting From field",
+    "Allow Posting To field",
+    "Allow Posting Date From field",
+    "Allow Posting Date To field",
+    "Company-level posting period limits",
+    "User-level posting period limits",
+    "Template-level posting period limits"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002324,
-      "pages_in_call": 8
+      "cost_usd": 0.003921,
+      "pages_in_call": 1
     }
   ]
 }

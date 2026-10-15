@@ -2,40 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols",
   "title": "How to set up export protocols [BE]",
-  "blob": "05e9be8aaba57ce508ae08c20148ee87659a5ee9",
-  "summary": "Set up export protocols for Belgian electronic banking to define payment file formats for domestic, international, SEPA, and non-Euro SEPA payment processing.",
+  "blob": "1b3e5193e8e094a207bf15067452bfdec0ed47cb",
+  "summary": "Setting up export protocols in the Belgian version defines file formats for electronic banking payment exports, with separate protocols for domestic, international, SEPA, and non-Euro SEPA payments.",
   "systems": [
-    "localization",
-    "finance",
-    "purchasing"
+    "purchasing",
+    "integration",
+    "localization"
   ],
   "topics": [
-    "belgian",
     "export protocols",
     "electronic banking",
-    "payment formats"
+    "payment processing",
+    "belgium",
+    "sepa payments",
+    "file formats"
   ],
   "objects": [
-    {
-      "type": "codeunit",
-      "name": "Check Domestic Payments"
-    },
-    {
-      "type": "codeunit",
-      "name": "Check International Payments"
-    },
-    {
-      "type": "codeunit",
-      "name": "Check SEPA Payments"
-    },
-    {
-      "type": "codeunit",
-      "name": "Check Non-Euro SEPA Payments"
-    },
-    {
-      "type": "codeunit",
-      "name": "Check SEPA 001.001.09 Payments"
-    },
     {
       "type": "report",
       "name": "File Domestic Payments"
@@ -50,25 +32,45 @@
     },
     {
       "type": "report",
-      "name": "File Non-Euro SEPA Payments"
+      "name": "File SEPA 001.001.09 Pmts"
     },
     {
       "type": "report",
-      "name": "File FCY SEPA 001.001.09 Payments"
+      "name": "File Non Euro SEPA Payments"
+    },
+    {
+      "type": "report",
+      "name": "File FCY SEPA 001.001.09 Pmts"
     },
     {
       "type": "xmlport",
-      "name": "SEPA pain.001.001.03 Payments"
+      "name": "SEPA CT pain.001.001.03"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check Domestic Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check International Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check SEPA Payments"
+    },
+    {
+      "type": "codeunit",
+      "name": "Check Non Euro SEPA Payments"
     }
   ],
   "features": [
-    "Export Protocol Code",
-    "Code Expenses",
+    "Export Protocols",
     "Check Object ID",
     "Export Object Type",
-    "Export Object ID",
-    "Export Number Series",
-    "Grouped Payment"
+    "Code Expenses",
+    "SEPA Batch Booking",
+    "Export No. Series",
+    "Electronic Banking"
   ],
   "versions": [],
   "parts": 1,
@@ -77,8 +79,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002314,
-      "pages_in_call": 7
+      "cost_usd": 0.004906,
+      "pages_in_call": 1
     }
   ]
 }

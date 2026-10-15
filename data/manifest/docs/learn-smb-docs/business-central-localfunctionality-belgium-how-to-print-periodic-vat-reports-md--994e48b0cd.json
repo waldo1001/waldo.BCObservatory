@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-periodic-vat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.448Z",
+      "at": "2026-10-15T00:28:01.121Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002491
+      "cost_usd": 0.00468
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.515Z",
+      "at": "2026-10-15T00:28:01.123Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.517Z",
+      "at": "2026-10-15T00:28:01.124Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.520Z",
+      "at": "2026-10-15T00:28:01.126Z",
       "page": false
     }
   },
@@ -79,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8c3a15a8ca53bf9ec23e896248d8128b3e9ed469"
+  "output_hash": "4596e335673f1c487146daeaa6a21e3045531265423d884edc586157a07acf08"
 }

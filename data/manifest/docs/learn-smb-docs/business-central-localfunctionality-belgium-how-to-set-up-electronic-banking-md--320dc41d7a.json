@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-electronic-banking",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.974Z",
-      "blob": "8382d0c4e1ebc3a4904bcf6f44efe9411ed83502",
+      "at": "2026-10-15T00:28:00.917Z",
+      "blob": "c4568fb0e3ccde5be085b83d091887d94c410b7c",
       "words": 198,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.104Z",
+      "at": "2026-10-15T00:28:08.660Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002314
+      "objects": 1,
+      "cost_usd": 0.003485
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.116Z",
+      "at": "2026-10-15T00:28:08.661Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.117Z",
+      "at": "2026-10-15T00:28:08.664Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.118Z",
+      "at": "2026-10-15T00:28:08.666Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md",
     "description": "Learn how to set up electronic banking to process domestic, international, SEPA, and non-Euro SEPA payments for vendors and customers in the Belgian version of Business Central.",
-    "ms_date": "2025-04-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "electronic payments",
       "Belgian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 198,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b9480b8fc5d67885eb8693eeefbb8cd9232311f7f826bb70edcd1ab0b2a161f0"
+  "output_hash": "0e84ba8e2db0bad6aa18ebc8b0bc87e679ebbb523543a55e7094820d43774674"
 }

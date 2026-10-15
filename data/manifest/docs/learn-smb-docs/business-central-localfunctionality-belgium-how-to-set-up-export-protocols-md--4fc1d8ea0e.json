@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.979Z",
-      "blob": "05e9be8aaba57ce508ae08c20148ee87659a5ee9",
-      "words": 557,
+      "at": "2026-10-15T00:28:01.064Z",
+      "blob": "1b3e5193e8e094a207bf15067452bfdec0ed47cb",
+      "words": 574,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.105Z",
+      "at": "2026-10-15T00:28:08.610Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 11,
-      "cost_usd": 0.002314
+      "cost_usd": 0.004906
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.119Z",
+      "at": "2026-10-15T00:28:08.611Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.120Z",
+      "at": "2026-10-15T00:28:08.619Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.121Z",
+      "at": "2026-10-15T00:28:08.628Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-export-protocols.md",
     "description": "Set up export protocols to define the file format for export payment history before using electronic banking.",
-    "ms_date": "2025-04-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -61,12 +61,14 @@
       "electronic banking",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 557,
-    "identifiers": [],
+    "ai_usage": "ai-assisted",
+    "words": 574,
+    "identifiers": [
+      "BtchBookg"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3bc40cf47e8cc12d7d871794b64f7ae0a6d2b58004aebadcb88bb4de984a377a"
+  "output_hash": "dfe0c1c32c7e4050af6ffba12a3867c56d3c39669e860ce0ecadb3a613e5e723"
 }

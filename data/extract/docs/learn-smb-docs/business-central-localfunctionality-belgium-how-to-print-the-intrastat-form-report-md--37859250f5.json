@@ -1,34 +1,43 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report",
-  "title": "How to Print the Intrastat Form Report [BE]",
-  "blob": "cdaab6efe6132282fc5e6620bdf4f4bb4e48d340",
-  "summary": "Print the Intrastat Form report in Belgium to report monthly movement of goods to statistics and tax authorities with company details and trade transaction information.",
+  "title": "Verify the Intrastat Report Before Export [BE]",
+  "blob": "1af74f1f0d6fbdc025ca0ecd31b3faeb185bd8dc",
+  "summary": "The Intrastat Report page in Belgium allows verification of goods movement declarations before export using the Checklist Report action to identify missing required information and errors.",
   "systems": [
-    "localization",
-    "reporting"
+    "finance",
+    "localization"
   ],
   "topics": [
     "intrastat",
+    "reporting",
     "belgium",
-    "customs reporting",
-    "statistics"
+    "compliance",
+    "goods movement",
+    "export",
+    "verification"
   ],
   "objects": [
     {
-      "type": "report",
-      "name": "Intrastat – Form"
+      "type": "page",
+      "name": "Intrastat Report List"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report"
     },
     {
       "type": "report",
-      "name": "Intrastat Checklist"
+      "name": "Checklist Report"
     }
   ],
   "features": [
-    "Intrastat Form",
-    "Nihil declaration",
-    "Company information",
-    "Contact details"
+    "Checklist Report action",
+    "Error Messages FactBox",
+    "Nihil Declaration field",
+    "Enterprise No./VAT Reg. No. field",
+    "Monthly goods movement reporting",
+    "Declaration verification"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002491,
-      "pages_in_call": 8
+      "cost_usd": 0.003749,
+      "pages_in_call": 1
     }
   ]
 }

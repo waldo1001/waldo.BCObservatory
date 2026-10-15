@@ -2,17 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat",
   "title": "How to Make Manual Corrections to VAT [BE]",
-  "blob": "86578ac387ba81064802f44aa2fc80a5fe0c418e",
-  "summary": "Manual VAT corrections in Belgium allow you to adjust posted VAT entries without affecting general ledger entries, useful when vendors miscalculate VAT amounts.",
+  "blob": "52105e7359cd166974c976cfcbf6773c5739f713",
+  "summary": "Manual VAT corrections in Belgium allow you to adjust posted VAT entries without affecting general ledger entries, useful for correcting vendor invoice calculation errors or adjusting total VAT amounts.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat",
+    "correction",
     "belgium",
-    "corrections",
-    "manual adjustments"
+    "posting",
+    "manual adjustment"
   ],
   "objects": [
     {
@@ -37,12 +38,12 @@
     }
   ],
   "features": [
-    "Manual VAT Correction",
-    "VAT Statement Preview",
-    "Row Totaling",
-    "VAT Entry Totaling",
-    "Correction Amount",
-    "Additional-Currency Amount"
+    "manual VAT correction",
+    "correction amount",
+    "posting date",
+    "additional-currency amount",
+    "row totaling",
+    "VAT entry totaling"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002491,
-      "pages_in_call": 8
+      "cost_usd": 0.004027,
+      "pages_in_call": 1
     }
   ]
 }

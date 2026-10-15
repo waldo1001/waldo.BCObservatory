@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Print the Intrastat Form Report [BE]",
+  "title": "Verify the Intrastat Report Before Export [BE]",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.953Z",
-      "blob": "cdaab6efe6132282fc5e6620bdf4f4bb4e48d340",
-      "words": 245,
+      "at": "2026-10-15T00:27:55.130Z",
+      "blob": "1af74f1f0d6fbdc025ca0ecd31b3faeb185bd8dc",
+      "words": 202,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:30.449Z",
+      "at": "2026-10-15T00:28:01.504Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002491
+      "objects": 3,
+      "cost_usd": 0.003749
     },
     "summarized": {
-      "at": "2026-10-06T19:31:30.522Z",
+      "at": "2026-10-15T00:28:01.507Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:30.523Z",
+      "at": "2026-10-15T00:28:01.509Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:30.524Z",
+      "at": "2026-10-15T00:28:01.510Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md",
-    "description": "The Intrastat Form report is used in Belgium for monthly reporting of goods movement. This report must be sent to both the statistics authorities and tax authorities.",
-    "ms_date": "2025-04-03",
+    "description": "Learn how to verify the Belgian Intrastat report with the Checklist Report action before you export and submit your monthly declaration.",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "monthly reporting",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 245,
+    "ai_usage": "ai-assisted",
+    "words": 202,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fb8fd5089d3947940483a0a34d35c1a2ed143ea93cd1eca2cd5bcda62a66d466"
+  "output_hash": "28bbf418b94a92a4298652d5381870a93fb734eb59bcfcabef47b031482ecb03"
 }

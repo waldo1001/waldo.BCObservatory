@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.987Z",
-      "blob": "b2f42cb285c47726a8a4a847bbe0731a6701a3c0",
-      "words": 96,
+      "at": "2026-10-15T00:28:01.569Z",
+      "blob": "88f5488d1dc334ac2c783612cfc2e4dda6a00a27",
+      "words": 95,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:59.108Z",
+      "at": "2026-10-15T00:28:08.680Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002314
+      "objects": 1,
+      "cost_usd": 0.003169
     },
     "summarized": {
-      "at": "2026-10-06T19:31:59.125Z",
+      "at": "2026-10-15T00:28:08.682Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:59.125Z",
+      "at": "2026-10-15T00:28:08.683Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:59.126Z",
+      "at": "2026-10-15T00:28:08.685Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md",
     "description": "Learn how to set up the Intrastat establishment number, a company identification number used in the Intrastat declaration.",
-    "ms_date": "2025-04-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "intrastat declaration",
       "Belgian version"
     ],
-    "ai_usage": null,
-    "words": 96,
+    "ai_usage": "ai-assisted",
+    "words": 95,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "580f93876a4343c5b2c9e9d3e3eefa575a688671f3f4f0b59d638d8ce596e306"
+  "output_hash": "355fb1e3d6e6efb2f45d7051d74c6cdd96d3b22d290de9f8181786cdbd92a62c"
 }
