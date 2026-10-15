@@ -2,18 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/production-how-to-create-routings.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-routings",
   "title": "Create routings",
-  "blob": "17cac81ed68686f96be9cb592d0fcc67a19c82ad",
-  "summary": "Create and manage manufacturing routings that define production processes, operation sequences, and capacity requirements for produced items with support for serial and parallel operations.",
+  "blob": "05864bdf889bae8174b5cef134b810296d2c34ae",
+  "summary": "Create and manage routings that visualize and direct manufacturing processes, including operation sequencing, capacity planning, and resource assignment for production items.",
   "systems": [
-    "manufacturing"
+    "manufacturing",
+    "inventory"
   ],
   "topics": [
-    "routings",
-    "production processes",
+    "routing",
+    "manufacturing process",
     "operations",
-    "work centers",
+    "capacity scheduling",
+    "production scheduling",
+    "routing links",
     "parallel operations",
-    "scheduling"
+    "scrap management"
   ],
   "objects": [
     {
@@ -26,6 +29,10 @@
     },
     {
       "type": "page",
+      "name": "Production Journal"
+    },
+    {
+      "type": "page",
       "name": "Routing Versions"
     },
     {
@@ -34,18 +41,26 @@
     },
     {
       "type": "page",
-      "name": "Production Journal"
+      "name": "Prod. Order Components"
+    },
+    {
+      "type": "page",
+      "name": "Production BOM"
+    },
+    {
+      "type": "page",
+      "name": "Standard Cost Worksheet"
     }
   ],
   "features": [
-    "operation setup",
-    "run time",
-    "setup time",
-    "routing link codes",
+    "serial routing type",
     "parallel operations",
+    "routing links",
     "send-ahead quantity",
-    "scrap factors",
-    "personnel assignment"
+    "scrap factor",
+    "fixed scrap quantity",
+    "operation personnel assignment",
+    "routing versioning"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +69,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00773,
-      "pages_in_call": 8
+      "cost_usd": 0.016012,
+      "pages_in_call": 1
     }
   ]
 }

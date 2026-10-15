@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10478,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10478",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T10:27:31Z",
+  "merge_commit_sha": "8c2b4bc037407fc43e81ec26553af88188e83a4e",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries",
+  "body_hash": "fa041e94f760644be63bfca4962ae2937bcf2427a774361dbe8937b6196fd95e",
+  "fixes_issues": [],
+  "work_items": [
+    644774
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/APIV2/app/src/pages/APIV2DimensionSetLines.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/APIV2/app/src/pages/APIV2DimensionSetLines.Page.al",
+        "status": "modified",
+        "key": "page/30022",
+        "type": "page",
+        "id": 30022,
+        "name": "APIV2 - Dimension Set Lines",
+        "app": "APIV2",
+        "cc": "w1",
+        "page": "page/30022"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "APIV2"
+  ]
+}

@@ -1,37 +1,42 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/admin-fabric.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-fabric",
-  "title": "Introduction to Microsoft Fabric and Business Central",
-  "blob": "51ca754e29c2d2f56846715a9d5fa1f7aad1a5ec",
-  "summary": "Introduces Microsoft Fabric integration with Business Central, focusing on OneLake as a unified data lake for organizations with automatic data governance and analytics capabilities.",
+  "title": "Data Mirroring to Microsoft Fabric from Business Central",
+  "blob": "4ed1f9b7fe004b4c98cf2d4dd3f1bfa35c0c5e0c",
+  "summary": "Data mirroring connects Business Central online to Microsoft Fabric to replicate selected companies and tables to OneLake for analytics and data engineering without repeatedly reading from APIs.",
   "systems": [
+    "integration",
     "reporting",
-    "integration"
+    "administration"
   ],
   "topics": [
-    "microsoft fabric",
+    "data mirroring",
+    "fabric integration",
     "onelake",
-    "data lake",
-    "data governance",
-    "analytics"
+    "data synchronization",
+    "analytics",
+    "delta parquet"
   ],
   "objects": [],
   "features": [
-    "OneLake",
-    "data lineage",
-    "data protection",
-    "certification",
-    "catalog integration"
+    "multiple company support",
+    "up to 1000 table selection",
+    "initial snapshot and incremental sync",
+    "configuration packages",
+    "synchronization monitoring",
+    "asynchronous operations"
   ],
-  "versions": [],
+  "versions": [
+    "2026 production-ready preview"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003231,
-      "pages_in_call": 8
+      "cost_usd": 0.003609,
+      "pages_in_call": 1
     }
   ]
 }

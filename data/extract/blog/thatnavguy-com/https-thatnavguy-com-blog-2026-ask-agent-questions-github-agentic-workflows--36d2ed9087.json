@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/",
+  "url": "https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/",
+  "title": "How to ask questions about your repo with GitHub Agentic Workflows",
+  "source": "thatnavguy-com",
+  "published_at": "2026-10-09T00:00:00.000Z",
+  "words": 912,
+  "summary": "GitHub Agentic Workflows enable teams to ask questions about a Business Central extension repository without cloning code or setting up a development environment. An AI agent reads GitHub issues and replies with code insights, citations, and relevant file paths.",
+  "key_points": [
+    "Ask Agent uses GitHub Copilot to read issues and search repository code for answers without changing source code or opening pull requests",
+    "Setup requires installing GitHub CLI with gh-aw extension, compiling a Markdown workflow file, and configuring Copilot inference access",
+    "Non-developers with repository read access can ask questions via /ask comments in GitHub issues without needing Visual Studio Code or local setup",
+    "The agent cites relevant file paths and line numbers but only has access to repository code, not live environments or customer data",
+    "Follow-up questions are supported by adding additional /ask comments with specific clarifications"
+  ],
+  "systems": [
+    "development",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "github actions",
+    "agent workflows",
+    "code repository",
+    "question answering",
+    "al development"
+  ],
+  "objects": [],
+  "features": [
+    "GitHub Agentic Workflows",
+    "Ask Agent workflow",
+    "GitHub Copilot integration",
+    "issue-based question answering",
+    "repository code search",
+    "file citation"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005808,
+    "posts_in_call": 1
+  }
+}

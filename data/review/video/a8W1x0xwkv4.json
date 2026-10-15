@@ -1,0 +1,26 @@
+{
+  "video_id": "a8W1x0xwkv4",
+  "item_id": "video/yt-hougaard/a8W1x0xwkv4",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Feature 'Doom engine porting to Business Central' duplicates 'Pure Doom engine translated to AL'. It also wrongly says the original Doom and Doom 2 source was translated: the transcript says Pure Doom was translated, and Doom, Doom 2 and other original-engine games run on it. Dropped.",
+    "The JavaScript feature names the synth 'SpinSynth', which is not in the transcript (captions say 'Spit Spit Sint'). Minor and left as is, since descriptions cannot be edited here.",
+    "The save game feature's 'usage category approach' is misleading. The usage category is only how the save games page was found; the saves are stored in a table. Minor.",
+    "All 15 quotes are verbatim, some running across caption breaks. All feature statuses correctly stay unclear because this is a hobby demo with no release status.",
+    "Summary and key points are supported. 'WAD files must be embedded' is a slight stretch, as the transcript only says they are in the app."
+  ],
+  "input_hash": "aca9b9a667d6f7c715b9b6be14c5c60850c85927d993ee059bc246eb5bffb899",
+  "by": "opus",
+  "at": "2026-10-15T00:24:10.987Z",
+  "applied": [
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.140741
+  }
+}

@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "d7c3b963d235dd381a9ac631aa179bf202da5c34:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 12098,
@@ -28,5 +28,7 @@
     ],
     "community_contribution": false,
     "title_key": "planning worksheet production copy to req wksh fails because destination fields are missing"
-  }
+  },
+  "last_error": "github lane: fetched took longer than 120 s",
+  "retry_after": "2026-10-15T02:24:16.742Z"
 }

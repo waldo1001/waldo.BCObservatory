@@ -1,0 +1,431 @@
+{
+  "video_id": "a8W1x0xwkv4",
+  "item_id": "video/yt-hougaard/a8W1x0xwkv4",
+  "title": "... but can it play DOOM? (In Business Central)",
+  "duration_s": 1879,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "user control host",
+    "typescript",
+    "webgl rendering",
+    "javascript interop",
+    "game engine porting",
+    "doom wad files",
+    "midi sound",
+    "table storage",
+    "c2al translator",
+    "frame rate",
+    "cheats"
+  ],
+  "chapters": [
+    {
+      "title": "Playing DOOM in Business Central",
+      "t_start": 0,
+      "t_end": 285.8
+    },
+    {
+      "title": "Architecture overview and page structure",
+      "t_start": 285.8,
+      "t_end": 459.8
+    },
+    {
+      "title": "Controller and JavaScript implementation",
+      "t_start": 459.8,
+      "t_end": 650
+    },
+    {
+      "title": "DOOM engine ported to AL code",
+      "t_start": 650,
+      "t_end": 796.7
+    },
+    {
+      "title": "Data storage in tables and Doom AL code structure",
+      "t_start": 796.7,
+      "t_end": 948.7
+    },
+    {
+      "title": "JavaScript rendering and frame rate limitations",
+      "t_start": 948.7,
+      "t_end": 1024.4
+    },
+    {
+      "title": "Doom gameplay demo with frame rate metrics",
+      "t_start": 1024.4,
+      "t_end": 1131.5
+    },
+    {
+      "title": "Code modifications and cheating in Doom",
+      "t_start": 1131.5,
+      "t_end": 1301.5
+    },
+    {
+      "title": "Second cheat implementation and damage immunity",
+      "t_start": 1301.5,
+      "t_end": 1428.4
+    },
+    {
+      "title": "C2AL tool for translating C code to AL",
+      "t_start": 1428.4,
+      "t_end": 1663.6
+    },
+    {
+      "title": "Direct code translation and AL output",
+      "t_start": 1663.6,
+      "t_end": 1722.1
+    },
+    {
+      "title": "Examining translated spawn missile function",
+      "t_start": 1722.1,
+      "t_end": 1795
+    },
+    {
+      "title": "Summary and game compatibility",
+      "t_start": 1795,
+      "t_end": 1879
+    }
+  ],
+  "features": [
+    {
+      "name": "DOOM page user control",
+      "description": "A page in Business Central built as a user control host that loads and renders the DOOM game, allowing players to play DOOM shareware, registered version, and DOOM 2 directly within Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 34.6,
+      "t_end": 366.2,
+      "is_demoed": true,
+      "caveats": [
+        "Requires WAD files embedded in the extension",
+        "Performance varies depending on system resources"
+      ],
+      "tags": [
+        "user control",
+        "game",
+        "page",
+        "visual"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Pure Doom engine translated to AL",
+      "description": "The Pure Doom portable game engine was translated line-for-line and function-for-function into AL code, resulting in approximately 45,321 lines of AL code implementing the full game logic and rendering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 739,
+      "t_end": 809.7,
+      "is_demoed": true,
+      "caveats": [
+        "Contains 45,321 lines of AL code",
+        "Functionality dependent on external tools for translation"
+      ],
+      "tags": [
+        "engine",
+        "doom",
+        "al code",
+        "porting"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "JavaScript-based rendering and input handling",
+      "description": "A JavaScript component manages frame rendering via WebGL, music playback using SpinSynth with MIDI soundfont, user input capture (keyboard and mouse), and supports CRT emulation filters for authentic Doom visual rendering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 506,
+      "t_end": 1024.4,
+      "is_demoed": true,
+      "caveats": [
+        "Less than 530 lines of JavaScript code",
+        "Requires WebGL support in browser",
+        "Music conversion between MUS and MIDI formats needed",
+        "Frame rate limited to around 10 frames per second",
+        "Latency in round trip between JavaScript and Business Central is the primary performance bottleneck",
+        "May require improvements to Microsoft's infrastructure for better performance"
+      ],
+      "tags": [
+        "javascript",
+        "webgl",
+        "input handling",
+        "audio",
+        "rendering",
+        "performance",
+        "interop"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "WAD file storage in tables",
+      "description": "DOOM WAD files containing game assets, maps, sprites, and sound are deserialized and stored in the Doom Bad Lump table (table ID 666), making all game resources available within Business Central tables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 317.4,
+      "t_end": 860.8,
+      "is_demoed": true,
+      "caveats": [
+        "Requires full WAD file embedded in application",
+        "Table structure designed specifically for DOOM asset format"
+      ],
+      "tags": [
+        "table storage",
+        "wad files",
+        "game assets",
+        "data structure"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Save game persistence",
+      "description": "Game progress can be saved and retrieved, with save games stored in Business Central tables using a usage category approach, allowing players to save state under custom names like 'YouTube'.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 179,
+      "t_end": 274.5,
+      "is_demoed": true,
+      "caveats": [
+        "Save game format dependent on AL table structure"
+      ],
+      "tags": [
+        "persistence",
+        "save games",
+        "data storage",
+        "user state"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Code modification during runtime",
+      "description": "Developers can modify AL source code and publish changes quickly, demonstrated by changing the A_FirePistol function to fire plasma missiles instead of bullets, with publish taking just a couple of seconds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1131.5,
+      "t_end": 1301.5,
+      "is_demoed": true,
+      "caveats": [
+        "Deploy from page editor sometimes triggers on open page event multiple times"
+      ],
+      "tags": [
+        "development",
+        "cheats",
+        "modifications",
+        "publishing",
+        "hot reload"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "C2AL code translation tool",
+      "description": "A tool built to automatically translate C code into AL code for Business Central, addressing the challenge of porting large amounts of C code. It uses the Sick C compiler parser and a Python-based tool to convert C code through an intermediary format to AL.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1428.4,
+      "t_end": 1663.6,
+      "is_demoed": true,
+      "caveats": [
+        "Only works reliably when C code has minimal dependencies",
+        "Requires a custom header file to handle standard library functionality",
+        "Generated code should not be edited by hand",
+        "Working with AIs for translation breaks at scale",
+        "Works best with minimal dependencies",
+        "Memory manipulation in C results in unusual looking AL code using integer lists to represent memory",
+        "Optimization of generated code is not yet a priority"
+      ],
+      "tags": [
+        "c2al",
+        "code generation",
+        "translation",
+        "c to al",
+        "tooling",
+        "compiler"
+      ],
+      "system": "development"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Doom page",
+      "t": 296.2
+    },
+    {
+      "type": "other",
+      "name": "user control host",
+      "t": 306.6
+    },
+    {
+      "type": "table",
+      "name": "Doom bad lump",
+      "t": 809.7
+    },
+    {
+      "type": "codeunit",
+      "name": "controller in",
+      "t": 470.5
+    },
+    {
+      "type": "codeunit",
+      "name": "A_FirePistol",
+      "t": 1174.7
+    },
+    {
+      "type": "codeunit",
+      "name": "P underscore damage M object",
+      "t": 1314.6
+    },
+    {
+      "type": "other",
+      "name": "P_spawn_missile",
+      "t": 1722.1
+    },
+    {
+      "type": "other",
+      "name": "spawn_missile",
+      "t": 1742.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 0.9,
+      "text": "whenever you have a computing platform, uh doesn't matter if you if it's your microwave or your car or your watch or your accounting",
+      "why_it_matters": "Establishes the premise of the entire demo - that the ability to run DOOM has become a universal test of any computing platform's capabilities.",
+      "check": "exact"
+    },
+    {
+      "t": 317.4,
+      "text": "all game assets, the maps, the sprites, the the sound, everything is stored in a bad file.",
+      "why_it_matters": "Explains how DOOM's game content is packaged and why the WAD file format was critical to the implementation approach in Business Central.",
+      "check": "exact"
+    },
+    {
+      "t": 402.4,
+      "text": "Doom runs at 35 ticks per second.",
+      "why_it_matters": "Specifies a key performance constraint that had to be maintained for the game to run correctly within Business Central's update cycle.",
+      "check": "exact"
+    },
+    {
+      "t": 631.6,
+      "text": "Well, Eric, you've just made Doom in in JavaScript. No, this is not.",
+      "why_it_matters": "Clarifies the architectural decision - DOOM logic runs in AL, not JavaScript, which handles only rendering and input.",
+      "check": "exact"
+    },
+    {
+      "t": 751.6,
+      "text": "I took something called Pure Doom, which is a portable friendly um version of Doom. And and I'll show you in a second how,",
+      "why_it_matters": "Describes the core technical approach of using Pure Doom as a starting point and translating it to AL, establishing the source material for the port.",
+      "check": "exact"
+    },
+    {
+      "t": 796.7,
+      "text": "that is the basically line for line, function for function Pure Doom that is translated into AL code.",
+      "why_it_matters": "Quantifies the scope of the engineering effort and confirms the full fidelity of the engine port to AL.",
+      "check": "exact"
+    },
+    {
+      "t": 938.7,
+      "text": "So, this is AL running Doom. Um The only reason we have JavaScript involved is because that's the only way to render something on",
+      "why_it_matters": "Clarifies the architecture: core game logic runs in AL with Business Central, but JavaScript is needed for practical rendering performance.",
+      "check": "exact"
+    },
+    {
+      "t": 962.8,
+      "text": "i get around 10 frames per second here which most of the the time lost is actually in the um it's in",
+      "why_it_matters": "Quantifies the performance limitation and identifies the root cause as inter-process latency rather than AL computation itself.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1460.6,
+      "text": "In line three. This is weird. This is, it's generated by C2AL. Do not edit by hand.",
+      "why_it_matters": "Announces the C2AL tool and establishes that generated code is not meant to be manually edited, defining usage guidelines.",
+      "check": "exact"
+    },
+    {
+      "t": 1471.1,
+      "text": "the problem that kind of came first is that we have to do this, it would mean to translating a buttload of C code",
+      "why_it_matters": "Explains the motivation for building C2AL: the infeasibility of manually translating large volumes of C code.",
+      "check": "exact"
+    },
+    {
+      "t": 1576,
+      "text": "this will only work if there's as few dependencies as as possible. Otherwise, your your your you're going to die in dependencies.",
+      "why_it_matters": "Establishes the core constraint of the C2AL approach - keeping dependencies minimal to avoid compilation failures.",
+      "check": "exact"
+    },
+    {
+      "t": 1600.3,
+      "text": "there's a standard lib and and it has a few functions that are used all the time. So, we write our own here. Um",
+      "why_it_matters": "Details the C2AL implementation approach: custom standard library wrapper and use of the Sick compiler for parsing C code.",
+      "check": "exact"
+    },
+    {
+      "t": 1676.7,
+      "text": "do not edit by hand. So what is running here until I started making my cheats this code is the direct translation",
+      "why_it_matters": "Critical guidance that generated AL code from C2AL should not be manually edited as it is automatically generated.",
+      "check": "exact"
+    },
+    {
+      "t": 1771.3,
+      "text": "weird al code but the reality is the c code is very much memory manipulations and right now we're just having",
+      "why_it_matters": "Explains why the generated AL code appears unusual - it uses integer arrays to represent C memory operations.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1849,
+      "text": "this one plays Doom, Doom 2 and and and everything else I have found that was running off the original Doom engine.",
+      "why_it_matters": "Demonstrates the scope of games that can run with the C2AL translation - original Doom engine variants.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 15,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 8
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023490999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023263
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.010459
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.019981
+    }
+  ]
+}

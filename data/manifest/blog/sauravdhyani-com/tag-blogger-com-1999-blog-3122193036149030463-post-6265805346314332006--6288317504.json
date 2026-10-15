@@ -7,13 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/business-central-29-how-many-fields-can.html",
   "published_at": "2026-10-09T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:08.905Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md",
+      "words": 1856
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:21.036Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.012353
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:21.038Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:21.039Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:21.053Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md"
     }
   },
   "input_hash": "2026-10-09T05:30:00.189Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "381428a368ab8d6bf5c58a6edf712d8b2a1811fae4bbc15c4471c8bc6ea64639"
 }

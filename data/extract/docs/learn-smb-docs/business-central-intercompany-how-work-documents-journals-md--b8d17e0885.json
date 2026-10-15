@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/intercompany-how-work-documents-journals.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/intercompany-how-work-documents-journals",
   "title": "Post intercompany documents and journals",
-  "blob": "6b2e2fb20acff4d1a9f8a9e13df5aa17b947d5e9",
-  "summary": "Post intercompany documents and journals to automatically create corresponding transactions in partner companies without reentering data, using intercompany partners, G/L accounts, and bank accounts.",
+  "blob": "8eaeef599a51d0cd995b9888b681748cedface85",
+  "summary": "Posting intercompany documents and journals allows you to create corresponding transactions with intercompany partners through outbox and inbox mechanisms, avoiding re-entry of data in partner companies.",
   "systems": [
     "finance",
     "integration"
   ],
   "topics": [
     "intercompany transactions",
-    "posting",
     "documents",
     "journals",
-    "partners"
+    "posting",
+    "gl accounts",
+    "bank accounts",
+    "partner companies"
   ],
   "objects": [
     {
@@ -26,12 +28,12 @@
     }
   ],
   "features": [
-    "intercompany sales orders",
-    "intercompany purchase orders",
-    "intercompany general journals",
-    "intercompany outbox",
-    "intercompany bank accounts",
-    "corresponding documents"
+    "Send IC Sales Order action",
+    "Intercompany outbox",
+    "Intercompany inbox",
+    "Intercompany partner code",
+    "Automatic received transactions",
+    "Bank-to-bank transactions"
   ],
   "versions": [
     "2022 release wave 1"
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003942,
-      "pages_in_call": 8
+      "cost_usd": 0.004085,
+      "pages_in_call": 1
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10480,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10480",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-14T09:42:29Z",
+  "merge_commit_sha": "69fc2907622428c519f28da4d3b660ef68c095f0",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard",
+  "body_hash": "e26317cbf0a7716cba864239b0b9dc6e747d111f9bbc10e2abbcf1036f7f9358",
+  "fixes_issues": [],
+  "work_items": [
+    646835
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/FieldServiceIntegration/app/src/Pages/FSConnectionSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/FieldServiceIntegration/app/src/Pages/FSConnectionSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/6613",
+        "type": "page",
+        "id": 6613,
+        "name": "FS Connection Setup Wizard",
+        "app": "FieldServiceIntegration",
+        "cc": "w1",
+        "page": "page/6613"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "FieldServiceIntegration"
+  ]
+}

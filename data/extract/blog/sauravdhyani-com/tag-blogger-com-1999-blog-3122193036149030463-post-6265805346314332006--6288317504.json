@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-6265805346314332006",
+  "url": "https://www.sauravdhyani.com/2026/09/business-central-29-how-many-fields-can.html",
+  "title": "Business Central 29: How Many Fields Can a Table Really Have?",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-09T05:30:00.000Z",
+  "words": 1856,
+  "summary": "Business Central 29 stores table-extension fields in the same database table as the base table instead of separate companion tables, making SQL column limits more relevant. The post investigates the practical field limit for tables, which Microsoft documents as 500 fields with an 8,060-byte record size, and explains how the new compiler warning helps developers detect tables approaching SQL extensibility limits.",
+  "key_points": [
+    "BC 29 changed table-extension storage from companion tables to a single database table, combining base and extension fields together",
+    "Field data type affects the practical limit because SQL Server enforces both column-count and record-size constraints, not just field count",
+    "The new BC 29 compiler warning signals when tables approach SQL extensibility limits, serving as early detection before hard database blockers occur",
+    "Developers must consider the combined field load from multiple extensions on a single table, not just their own extension's fields",
+    "The 300-field limit often cited should not be treated as definitive; testing with different field types is needed to determine real practical limits"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    "table extensions",
+    "field limits",
+    "database schema",
+    "sql server constraints",
+    "compiler warnings",
+    "data model",
+    "storage optimization",
+    "extension design"
+  ],
+  "objects": [],
+  "features": [
+    "Table extension field storage in base table",
+    "Compiler warnings for field limits",
+    "Record size limits",
+    "SQL column extensibility detection",
+    "Schema synchronization",
+    "Variable-length field storage"
+  ],
+  "versions": [
+    "Business Central 29",
+    "Business Central 28"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012353,
+    "posts_in_call": 1
+  }
+}

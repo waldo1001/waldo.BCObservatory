@@ -1,0 +1,27 @@
+{
+  "video_id": "KA1vHd1hITY",
+  "item_id": "video/yt-saurav/KA1vHd1hITY",
+  "summary": "Step-by-step on-premises installation of Business Central 29 (2026 release wave 2): setup wizard, component selection, service ports, SQL Server and IIS setup, plus software and hardware requirements. Useful as evidence for install options, port settings and SQL troubleshooting.",
+  "overview": "The video walks through a full on-premises installation of Business Central 29 from the product DVD. It covers the install demo and advanced options, the developer option, multi-tier deployment, service tier and port settings (including a separate reporting services port that is new in this version), authentication choices, SQL instance and demo database restore, and the web client published under IIS.\n\nIt also covers SQL Server troubleshooting, such as enabling TCP/IP, and the DVD contents: prerequisites, 83 default Microsoft apps, the system application and the AL VSIX file. The last part lists software and hardware requirements for servers, developer machines, the mobile app, Outlook and Office. The presenter says the install is not complex, but missed requirements cause errors.",
+  "key_points": [
+    "Run the installer with elevated administrator privileges and place the DVD content near the root drive to avoid long path name errors.",
+    "Install demo puts all components on one machine; the advanced option lets you pick components for production multi-tier deployments. The developer option installs the AL extension, service tier, web server and SQL database, but not VS Code itself.",
+    "Business Central 29 has a separate service port for reporting services. If the developer service port is changed from the default 7049, specify it explicitly in the VS Code configuration. Snapshot debugging needs port 8083 and a firewall rule.",
+    "SQL instance name can be left empty for a default instance and must be given for a named instance. TCP/IP must be enabled on SQL Server (restart the service) if it is off.",
+    "SQL requirements: SQL Server 2022 Express or higher with compatibility level 160 or 170, and full-text and semantic extractions enabled at SQL install.",
+    "OS and hardware: Windows 11 Enterprise, Education or Pro, or Windows Server 2022/2025 Standard or Data Center; IIS 10 or higher; 4-core CPU; 16-64 GB RAM depending on extensions; about 100 GB disk for a server.",
+    "Change configuration through PowerShell commands rather than editing custom settings config directly. The NAV settings JSON file links the web client to the service tier."
+  ],
+  "audience": [
+    "administrator",
+    "developer",
+    "functional consultant"
+  ],
+  "extraction_hash": "4305372c3e406117e6f079eb52ba223e2a735318108518a898dc80d6c79011fb",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.030172400000000002
+  }
+}

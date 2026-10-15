@@ -6,10 +6,35 @@
   "title": "[Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard",
   "url": "https://github.com/microsoft/BCApps/pull/10480",
   "published_at": "2026-10-14T09:42:29Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:09.777Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:15.148Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004403
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:15.379Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:15.386Z",
+      "path": "content/changes/bcapps/10480.md"
     }
   },
   "input_hash": "69fc2907622428c519f28da4d3b660ef68c095f0:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "bug fix 250 honor importfssolution tryfunction result in fs setup wizard"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a97faff8c70fe8786185c45837615f993c368cf887db7e2714dadaa68a47cc0e"
 }

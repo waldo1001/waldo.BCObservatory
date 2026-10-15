@@ -1,0 +1,49 @@
+{
+  "item_id": "docs/learn-smb-docs/business-central/admin-manage-fabric-export.md",
+  "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
+  "title": "Manage Business Central Synchronization with Microsoft Fabric",
+  "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
+  "summary": "Manage Business Central data synchronization to Microsoft Fabric by selecting companies and tables, using configuration packages, and controlling synchronization behavior. Use this to configure and monitor ongoing data mirroring after initial setup.",
+  "systems": [
+    "integration",
+    "reporting",
+    "administration"
+  ],
+  "topics": [
+    "data synchronization",
+    "microsoft fabric",
+    "data mirroring",
+    "configuration packages",
+    "permissions",
+    "monitoring"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Microsoft Fabric Mirroring Setup"
+    }
+  ],
+  "features": [
+    "company selection",
+    "table selection",
+    "configuration packages",
+    "synchronization scheduling",
+    "failure handling",
+    "namespace configuration",
+    "start/stop/reset synchronization",
+    "change tracking"
+  ],
+  "versions": [
+    "2026 release wave 2"
+  ],
+  "parts": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.004188,
+      "pages_in_call": 1
+    }
+  ]
+}

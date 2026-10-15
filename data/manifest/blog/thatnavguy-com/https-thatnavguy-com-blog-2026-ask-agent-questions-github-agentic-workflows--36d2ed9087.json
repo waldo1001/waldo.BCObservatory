@@ -7,13 +7,39 @@
   "url": "https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/",
   "published_at": "2026-10-09T00:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:11.061Z",
+      "path": "vault:posts/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087.md",
+      "words": 912
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:20.996Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.005808
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:20.999Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:21.001Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:21.023Z",
+      "path": "content/posts/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087.md"
     }
   },
   "input_hash": null,
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "53af03431bc38509ff4464185277b58606d59640f7e1a2cd9a911185a0bbc4bc"
 }

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10480",
+  "number": 10480,
+  "title": "[Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The Field Service connection setup wizard now properly checks the result of the ImportFSSolution function and stops the setup process if the import fails, instead of silently continuing with an incomplete connection.",
+  "key_points": [
+    "ImportFSSolution is a TryFunction that was being called without checking its success/failure result",
+    "Failed imports were silently ignored, allowing the wizard to proceed to update and enable the connection",
+    "The fix wraps the call in a failure guard that stops finalization and shows the error to the user",
+    "Follows standard BC TryFunction pattern with error surfacing instead of silent failures"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004403,
+    "changes_in_call": 1
+  }
+}

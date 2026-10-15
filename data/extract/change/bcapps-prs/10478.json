@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10478",
+  "number": 10478,
+  "title": "[Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The APIV2 dimension set lines page now uses FindSet() instead of FindFirst() when rebuilding dimension entries, eliminating unnecessary database round trips and improving performance as the number of dimension lines grows.",
+  "key_points": [
+    "Replaced FindFirst() with FindSet() in the dimension-set rebuild loop on APIV2DimensionSetLines.Page.al",
+    "FindSet() is the correct retrieval pattern for iterating an entire filtered result set",
+    "Reduces database round trips and improves APIV2 performance with larger dimension line counts",
+    "Functional behavior unchanged; loop logic and exit conditions remain identical",
+    "Performance optimization with no functional defect or breaking changes"
+  ],
+  "change_kind": "performance",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004231,
+    "changes_in_call": 1
+  }
+}

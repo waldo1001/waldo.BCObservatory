@@ -3,14 +3,39 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "admin manage fabric export",
+  "title": "Manage Business Central Synchronization with Microsoft Fabric",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export",
   "published_at": "2026-10-09T09:24:11.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:10.239Z",
+      "blob": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
+      "words": 664,
+      "forms": 5
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:15.959Z",
+      "prompt": "extract-docs@1",
+      "parts": 1,
+      "objects": 1,
+      "cost_usd": 0.004188
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:15.961Z",
+      "from": "extract-docs"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:15.963Z",
+      "via": "topic hubs"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:20.856Z",
+      "page": false
     }
   },
   "input_hash": "2673389d57f5ac4c3fa9776132e0b21aaf432ae4",
@@ -18,6 +43,54 @@
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
-    "path": "business-central/admin-manage-fabric-export.md"
-  }
+    "path": "business-central/admin-manage-fabric-export.md",
+    "description": "Select Business Central companies and tables, use configuration packages, and control ongoing synchronization with Microsoft Fabric.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "how-to",
+    "search_form": [
+      {
+        "raw": "Primary_48511",
+        "id": 48511,
+        "kind": "Primary"
+      },
+      {
+        "raw": "48508",
+        "id": 48508,
+        "kind": null
+      },
+      {
+        "raw": "48512",
+        "id": 48512,
+        "kind": null
+      },
+      {
+        "raw": "48515",
+        "id": 48515,
+        "kind": null
+      },
+      {
+        "raw": "48513",
+        "id": 48513,
+        "kind": null
+      }
+    ],
+    "keywords": [
+      "Fabric",
+      "data mirroring",
+      "replication",
+      "synchronization",
+      "configuration package",
+      "companies",
+      "tables"
+    ],
+    "ai_usage": "ai-assisted",
+    "words": 664,
+    "identifiers": [
+      "BusinessCentral"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d253367b75468102945c330d93e65feb9f7c206a1afae1ad157a12342bb2f5b4"
 }

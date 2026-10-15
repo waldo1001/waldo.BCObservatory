@@ -7,13 +7,39 @@
   "url": "https://aardvarklabs.blog/2026/10/09/smarter-keys-better-performance-exploring-business-central-v29-index-updates/",
   "published_at": "2026-10-09T12:00:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:25:03.517Z",
+      "path": "vault:posts/aardvarklabs-blog/4056.md",
+      "words": 649
+    },
+    "extracted": {
+      "at": "2026-10-15T00:25:10.753Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.00604
+    },
+    "summarized": {
+      "at": "2026-10-15T00:25:10.758Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:25:10.762Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:25:10.776Z",
+      "path": "content/posts/aardvarklabs-blog/4056.md"
     }
   },
   "input_hash": "2026-09-29T23:39:42.000Z",
   "attempts": 0,
-  "flags": []
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "653530012dcc532e61cd2a256dbf132d5c408750cd13f189d7c09018f1705686"
 }

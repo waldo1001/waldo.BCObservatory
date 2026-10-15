@@ -6,7 +6,7 @@
   "country": "no",
   "layer": "overlay",
   "branch": "releases/29.x",
-  "commit": "ea08af5ef2d6a9b5c5af4a029288abbe2c883220",
+  "commit": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
   "build": "29.1.0.0",
   "apps": [
     "Base Application",
@@ -15,9 +15,9 @@
     "NorwegianSAFT",
     "PEPPOLNO"
   ],
-  "files": 446,
+  "files": 447,
   "parse_errors": 4,
-  "added": 278,
+  "added": 279,
   "replaced": 75,
   "absent": [],
   "chain": [
@@ -26,7 +26,7 @@
   ],
   "extractor": "4",
   "grammar": "4.4.1",
-  "objects": 353,
+  "objects": 354,
   "by_type": {
     "codeunit": 82,
     "enum": 7,
@@ -35,7 +35,7 @@
     "pageextension": 37,
     "permissionset": 4,
     "permissionsetextension": 14,
-    "query": 1,
+    "query": 2,
     "report": 45,
     "table": 80,
     "tableextension": 21,

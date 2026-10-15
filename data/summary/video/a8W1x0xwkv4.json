@@ -1,0 +1,25 @@
+{
+  "video_id": "a8W1x0xwkv4",
+  "item_id": "video/yt-hougaard/a8W1x0xwkv4",
+  "summary": "Erik Hougaard shows DOOM running in Business Central through a user control host page, with the game engine translated to about 45,321 lines of AL by a custom C2AL tool. JavaScript handles only WebGL rendering, music and input, and the frame rate is about 10 fps.",
+  "overview": "The video demonstrates playing DOOM, DOOM 2 and shareware or registered versions inside Business Central. A page built as a user control host loads a JavaScript component of under 530 lines for WebGL rendering, SpinSynth MIDI music, keyboard and mouse input and CRT filters. The game logic itself is the Pure Doom engine translated function for function into AL. WAD files are deserialized into a table (ID 666), and save games are stored in tables.\n\nErik also shows editing the AL code to change A_FirePistol so it fires plasma missiles, adds cheats, and explains the C2AL tool. C2AL uses the Sick C compiler parser and a Python-based tool to convert C to AL. It works best when the C code has few dependencies. Generated code should not be edited by hand, and memory manipulation in C becomes integer lists in AL.",
+  "key_points": [
+    "The DOOM page is a user control host. The game logic runs in AL, and JavaScript only renders frames, plays music and captures input.",
+    "The AL code is a line-for-line, function-for-function translation of Pure Doom, about 45,321 lines.",
+    "The frame rate is about 10 fps. The main bottleneck is the round-trip latency between JavaScript and Business Central.",
+    "WAD files must be embedded in the extension. Their content is stored in the Doom Bad Lump table (ID 666), and save games are also stored in tables.",
+    "Publishing AL changes took a couple of seconds. Erik changed A_FirePistol to fire plasma missiles and added a damage-immunity cheat.",
+    "C2AL translates C to AL via the Sick C compiler parser and a Python tool. It needs few dependencies and a custom header for standard library functions.",
+    "Games based on the original Doom engine work. Games based on enhanced Doom engine versions do not."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "c6317744bc20b4ad212cffdf0f82b50cfb1be7c9fb004978700c28b20d01e4da",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.0197344
+  }
+}

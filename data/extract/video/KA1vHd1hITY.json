@@ -1,0 +1,890 @@
+{
+  "video_id": "KA1vHd1hITY",
+  "item_id": "video/yt-saurav/KA1vHd1hITY",
+  "title": "How to Install Business Central 29 On-Premises | Full Setup",
+  "duration_s": 2080,
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "on-premises installation",
+    "setup wizard",
+    "component selection",
+    "service configuration",
+    "port configuration",
+    "sql server",
+    "web server",
+    "service tier",
+    "multi-tier deployment",
+    "firewall configuration",
+    "sql server configuration",
+    "web client deployment"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Conference Overview",
+      "t_start": 0,
+      "t_end": 172.4
+    },
+    {
+      "title": "Business Central 29 Download and DVD Preparation",
+      "t_start": 172.4,
+      "t_end": 256
+    },
+    {
+      "title": "Setup Wizard and Installation Options",
+      "t_start": 256,
+      "t_end": 367.2
+    },
+    {
+      "title": "Component Selection and Configuration",
+      "t_start": 367.2,
+      "t_end": 549.5
+    },
+    {
+      "title": "Multi-Tier Deployment Architecture",
+      "t_start": 549.5,
+      "t_end": 699
+    },
+    {
+      "title": "Service Configuration, Port Settings, and Database Setup",
+      "t_start": 699,
+      "t_end": 900.8
+    },
+    {
+      "title": "Web Services and SQL Server Troubleshooting",
+      "t_start": 900.8,
+      "t_end": 1046.5
+    },
+    {
+      "title": "Installation Process and Product DVD Components",
+      "t_start": 1046.5,
+      "t_end": 1169.3
+    },
+    {
+      "title": "Default Applications, Localizations, and System Platform",
+      "t_start": 1169.3,
+      "t_end": 1365.3
+    },
+    {
+      "title": "Service Tier Configuration and Web Client Setup",
+      "t_start": 1365.3,
+      "t_end": 1560.6
+    },
+    {
+      "title": "System and Software Requirements for BC29",
+      "t_start": 1560.6,
+      "t_end": 1812.9
+    },
+    {
+      "title": "Developer Machine, Mobile App, and Installation Verification",
+      "t_start": 1812.9,
+      "t_end": 2080
+    }
+  ],
+  "features": [
+    {
+      "name": "Business Central 29 On-Premises Installation",
+      "description": "Full setup process for installing Business Central 2026 release wave 2 on-premises including component selection, service configuration, and database setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1.7,
+      "t_end": 889.4,
+      "is_demoed": true,
+      "caveats": [
+        "Installation requires elevated administrator privileges",
+        "DVD should be placed near root drive to avoid long path name errors",
+        "Production environments require separate service account (domain account recommended)"
+      ],
+      "tags": [
+        "on-premises",
+        "installation",
+        "setup",
+        "administration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Advanced Installation Option",
+      "description": "Allows selection of specific components to install rather than installing all demo components, suitable for production multi-tier deployments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 284.5,
+      "t_end": 354.2,
+      "is_demoed": true,
+      "caveats": [
+        "Alternative to install demo option",
+        "Requires understanding of component requirements"
+      ],
+      "tags": [
+        "installation",
+        "configuration",
+        "components"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Developer Component Installation",
+      "description": "Installation option that includes AL language extension, service tier, web server, and SQL database components for development environments.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 401.6,
+      "t_end": 508.9,
+      "is_demoed": true,
+      "caveats": [
+        "Does not install VS Code itself, only the extension",
+        "For on-premises there is a VSIX package offering"
+      ],
+      "tags": [
+        "al-development",
+        "installation",
+        "components"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Service Port Configuration",
+      "description": "Configuration of various service ports including management service port, SOAP web services port, OData service port, and developer service port.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 681.2,
+      "t_end": 806.2,
+      "is_demoed": true,
+      "caveats": [
+        "Developer service port requires explicit specification in VS Code configuration if changed from default 7049",
+        "Management service port should be enabled through firewall"
+      ],
+      "tags": [
+        "configuration",
+        "ports",
+        "networking"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Separate Reporting Services Port",
+      "description": "New in Business Central 29, there is a separate service port specifically for reporting services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 692.3,
+      "t_end": 707.8,
+      "is_demoed": true,
+      "caveats": [
+        "New feature in this version",
+        "Requires configuration during setup"
+      ],
+      "tags": [
+        "reporting",
+        "configuration",
+        "new-feature"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Authentication Configuration Options",
+      "description": "Multiple authentication methods available including Windows authentication, username-password, and ACS (Azure Cloud Services).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 806.2,
+      "t_end": 836.3,
+      "is_demoed": true,
+      "caveats": [
+        "ACS requires Azure configuration"
+      ],
+      "tags": [
+        "authentication",
+        "security",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Snapshot debugging",
+      "description": "Requires a separate port (8083) for debugging functionality during Business Central on-premises installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 791.6,
+      "t_end": 806.2,
+      "is_demoed": false,
+      "caveats": [
+        "requires separate port configuration",
+        "firewall rules must be added"
+      ],
+      "tags": [
+        "debugging",
+        "network configuration"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "SQL Server instance configuration",
+      "description": "Installer allows specification of SQL Server instance name, which is optional for default instances but required if a named instance exists.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 836.3,
+      "t_end": 876.1,
+      "is_demoed": true,
+      "caveats": [
+        "requires understanding of SQL instance naming"
+      ],
+      "tags": [
+        "sql configuration",
+        "database setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Demo database restoration",
+      "description": "Installer restores a demo database with option to customize the database name and replace existing databases if needed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 889.4,
+      "t_end": 913.4,
+      "is_demoed": true,
+      "caveats": [
+        "can overwrite existing databases"
+      ],
+      "tags": [
+        "database setup",
+        "localization"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Demo license installation",
+      "description": "Option to install a demo license into the Business Central environment during initial setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 900.8,
+      "t_end": 913.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "licensing"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SOAP and OData web services",
+      "description": "Support for enabling SOAP and OData web services with configurable public URLs during installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 913.4,
+      "t_end": 933.7,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "web services",
+        "integration"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "IIS web server component",
+      "description": "Automatic installation and configuration of Internet Information Services (IIS) web server component as part of Business Central setup.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 933.7,
+      "t_end": 959.8,
+      "is_demoed": true,
+      "caveats": [
+        "automatic detection and conditional installation"
+      ],
+      "tags": [
+        "web server",
+        "iis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "TCP IP port enablement for SQL Server",
+      "description": "Requirement to enable TCP IP protocol on SQL Server for Business Central to communicate with the database; disabled by default in some SQL configurations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 980.1,
+      "t_end": 1035.4,
+      "is_demoed": true,
+      "caveats": [
+        "must be manually enabled if not active",
+        "requires SQL Server service restart"
+      ],
+      "tags": [
+        "sql configuration",
+        "network"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "SQL Server Express version support",
+      "description": "Product DVD includes SQL Server Express as a bundled option for development purposes, installed on a specific instance if not already present.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1067,
+      "t_end": 1099.5,
+      "is_demoed": false,
+      "caveats": [
+        "development purposes only",
+        "installed on specific instance"
+      ],
+      "tags": [
+        "sql server",
+        "development"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Prerequisite components bundling",
+      "description": "Business Central installation includes all required prerequisite components in a dedicated folder, including SQL Server, PowerShell, and other dependencies needed to run Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1112.6,
+      "t_end": 1146.7,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "installation",
+        "prerequisites"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Default Microsoft applications",
+      "description": "Business Central 29 comes with 83 Microsoft-provided apps by default, with variation based on localization selections for watch 2026 release wave 2.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1169.3,
+      "t_end": 1213.1,
+      "is_demoed": true,
+      "caveats": [
+        "number varies by localization",
+        "includes region-specific extensions"
+      ],
+      "tags": [
+        "applications",
+        "localization"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "VS Code AL extension VSIX file",
+      "description": "Product includes a version-specific VSIX file for AL language extension tied to the installed Business Central version, as alternative to marketplace installation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1248.2,
+      "t_end": 1294.4,
+      "is_demoed": true,
+      "caveats": [
+        "specific to installed version",
+        "marketplace version may be newer"
+      ],
+      "tags": [
+        "development",
+        "vs-code"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "System application platform",
+      "description": "System application forms the 2 million series objects that cannot be modified in Business Central; represents the platform foundation separate from the application.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1311.1,
+      "t_end": 1332.2,
+      "is_demoed": true,
+      "caveats": [
+        "immutable platform objects"
+      ],
+      "tags": [
+        "platform",
+        "objects"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "PowerShell configuration management",
+      "description": "Business Central recommends using PowerShell commands to modify configuration files rather than direct editing of custom settings.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1348.1,
+      "t_end": 1365.3,
+      "is_demoed": false,
+      "caveats": [
+        "direct file editing not recommended"
+      ],
+      "tags": [
+        "configuration",
+        "powershell"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Service tier configuration files",
+      "description": "Service tier maintains configuration files with database connection details, instance information, port settings, and IIS linking for middle-tier operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1365.3,
+      "t_end": 1391.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "service tier",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "NAV settings JSON file",
+      "description": "JSON configuration file that connects the web client to the service tier, containing server instance details, authentication methods, and port information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1439.8,
+      "t_end": 1459.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web client",
+        "configuration"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Table dollar extension removal",
+      "description": "Business Central 29 removes the previous table dollar extension naming convention.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1481.6,
+      "t_end": 1492.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "tables",
+        "schema"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "IIS website publication",
+      "description": "Web client is published as an IIS website under the Inet pub folder with browseable access to the locally installed Business Central version.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1492.4,
+      "t_end": 1512.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "web client",
+        "iis"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "SQL Server 2022 compatibility requirement",
+      "description": "Business Central 29 requires SQL Server 2022 Express or higher as minimum, with support for compatibility levels 160 and 170.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1587.4,
+      "t_end": 1667.4,
+      "is_demoed": true,
+      "caveats": [
+        "minimum version requirement",
+        "higher versions like developer or enterprise also supported"
+      ],
+      "tags": [
+        "sql server",
+        "requirements"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Full-Text Search Requirement",
+      "description": "Full-text and semantic extract extractions for search must be enabled during SQL Server installation as a mandated feature.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1683,
+      "t_end": 1697.4,
+      "is_demoed": false,
+      "caveats": [
+        "Became mandated in recent versions"
+      ],
+      "tags": [
+        "sql server",
+        "search",
+        "installation"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Windows 11 and Windows Server Support",
+      "description": "Business Central requires Windows 11 (Enterprise, Education, Pro editions only) or Windows Server 2022 and 2025 (Data Center and Standard editions).",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1713.4,
+      "t_end": 1742.3,
+      "is_demoed": false,
+      "caveats": [
+        "Only specific editions supported; installation will fail otherwise"
+      ],
+      "tags": [
+        "operating system",
+        "windows 11",
+        "windows server"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Minimum CPU and Memory Requirements",
+      "description": "Business Central server requires minimum 4-core CPU and 16-64 GB RAM depending on extension size. Developers need 4-core CPU with RAM based on workload.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1760.2,
+      "t_end": 1828,
+      "is_demoed": false,
+      "caveats": [
+        "Memory requirement varies with workload and extension size"
+      ],
+      "tags": [
+        "hardware",
+        "cpu",
+        "memory",
+        "requirements"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Disk Space Requirements",
+      "description": "Business Central server requires approximately 100 GB hard disk space. Developer machines require 500 MB minimum but more is recommended.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1748.3,
+      "t_end": 1812.9,
+      "is_demoed": false,
+      "caveats": [
+        "100 GB is described as sufficient rather than strict minimum"
+      ],
+      "tags": [
+        "hardware",
+        "disk space",
+        "storage"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "IIS 10 or Higher Requirement",
+      "description": "Web server installation requires Internet Information Services (IIS) version 10 or higher.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1797.1,
+      "t_end": 1812.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "web server",
+        "iis",
+        "requirements"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Mobile App Version Support",
+      "description": "Business Central mobile app requires version 4.0 or later, supporting both Android and iOS platforms, with 7-inch tablet and 4-inch phone minimum screen sizes.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1903,
+      "t_end": 1913.4,
+      "is_demoed": false,
+      "caveats": [
+        "Screen size requirements vary by device type"
+      ],
+      "tags": [
+        "mobile app",
+        "ios",
+        "android"
+      ],
+      "system": "platform"
+    },
+    {
+      "name": "Outlook Integration Requirements",
+      "description": "Outlook integration requires Outlook 2024 or Outlook web version, Exchange Online or Exchange Server 2019, and requires authentication configuration.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1855.1,
+      "t_end": 1878.6,
+      "is_demoed": false,
+      "caveats": [
+        "Authentication must be configured with Microsoft Entra ID or NAV username password"
+      ],
+      "tags": [
+        "outlook",
+        "integration",
+        "email"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Microsoft Office Component Support",
+      "description": "Excel and Word integration require Office 2024 or later. Excel reporting and Word reporting are optional but require these applications installed.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1913.4,
+      "t_end": 1934.6,
+      "is_demoed": false,
+      "caveats": [
+        "Office integration is not mandatory, only required for specific reporting features"
+      ],
+      "tags": [
+        "office integration",
+        "excel",
+        "word",
+        "reporting"
+      ],
+      "system": "reporting"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "custom settings.config",
+      "t": 1348.1
+    },
+    {
+      "type": "other",
+      "name": "web config",
+      "t": 1418.7
+    },
+    {
+      "type": "other",
+      "name": "nav settings file",
+      "t": 1439.8
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Jam",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 1.7,
+      "text": "Business Central 29 or 2026 release wave 2 is announced and in today's video we're going to go through the installation process of business",
+      "why_it_matters": "Establishes the subject and scope of the video as Business Central 29 on-premises installation.",
+      "check": "exact"
+    },
+    {
+      "t": 212.6,
+      "text": "The reason it is important is because when we install the product, there are files that get copied from your installation disk to your",
+      "why_it_matters": "Explains the technical reason why DVD placement near root drive is critical to avoid long file path errors during installation.",
+      "check": "exact"
+    },
+    {
+      "t": 309.9,
+      "text": "Install demo will install all these component which are required to run business central into the machine where you are trying to install it.",
+      "why_it_matters": "Defines the install demo option as installing all components on a single machine for development/learning purposes.",
+      "check": "exact"
+    },
+    {
+      "t": 565.6,
+      "text": "Typically on those scenarios you will install the server on one machine. So you'll only use this option and you will install the web",
+      "why_it_matters": "Describes the recommended multi-tier deployment architecture for production environments with separate machines for different components.",
+      "check": "exact"
+    },
+    {
+      "t": 692.3,
+      "text": "Interestingly in this version there is a separate service port which was not here before this version.",
+      "why_it_matters": "Highlights a new feature in Business Central 29 - a dedicated reporting services port separate from other service ports.",
+      "check": "exact"
+    },
+    {
+      "t": 768.6,
+      "text": "because as we are changing this while doing development on a VS code if it is changed which we are changing right now we",
+      "why_it_matters": "Explains that changing the developer service port from default requires explicit configuration in VS Code setup.",
+      "check": "exact"
+    },
+    {
+      "t": 806.2,
+      "text": "Windows is pretty straightforward. your Windows account will be taken into account when you try to log into your business center account.",
+      "why_it_matters": "Explains the primary authentication method for Business Central service tier configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 850.5,
+      "text": "if you have an instance then you need to define it. If you don't have an instance you can keep it empty.",
+      "why_it_matters": "Provides guidance on SQL Server instance configuration during setup, distinguishing between default and named instances.",
+      "check": "exact"
+    },
+    {
+      "t": 1180,
+      "text": "there are let's see 83 apps that comes by default from Microsoft for business central 29.",
+      "why_it_matters": "Establishes the baseline number of pre-installed applications in Business Central 29.",
+      "check": "exact"
+    },
+    {
+      "t": 1311.1,
+      "text": "the system application is your 2 million series majorly. So all those objects which you cannot modify uh in business central they are part",
+      "why_it_matters": "Clarifies the architectural distinction between platform and application layers.",
+      "check": "exact"
+    },
+    {
+      "t": 1348.1,
+      "text": "I highly recommend not to change anything from the custom settingsconfig. You should always use uh the PowerShell commands to change to make any",
+      "why_it_matters": "Best practice guidance for configuration management to prevent installation issues.",
+      "check": "exact"
+    },
+    {
+      "t": 1481.6,
+      "text": "as a lot of change happened on SQL there should be not any there should not be any table with dollar extention table concept",
+      "why_it_matters": "Indicates a schema change in Business Central 29 affecting table naming conventions.",
+      "check": "exact"
+    },
+    {
+      "t": 1587.4,
+      "text": "you will need a database uh sql environment where it support compatibility level of 160 and 170 the",
+      "why_it_matters": "Specifies the exact SQL Server version and compatibility requirements for BC29.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1587.4,
+      "text": "You will need a database uh SQL environment where it support compatibility level of 160 and 170.",
+      "why_it_matters": "Specifies the exact SQL Server compatibility levels required for BC29, essential for database configuration.",
+      "check": "exact"
+    },
+    {
+      "t": 1683,
+      "text": "While installing SQL server make sure to enable full text and semantic extract extractions for search because that's the new way how Microsoft does",
+      "why_it_matters": "Identifies a mandatory installation component that is often missed and causes installation failures.",
+      "check": "exact"
+    },
+    {
+      "t": 1713.4,
+      "text": "Windows 11 only three additions are supported. Enterprise, Education, and Pro. If you don't have Enterprise or Education or Pro, don't even try installing",
+      "why_it_matters": "Clear statement that only specific Windows 11 editions are supported; installation will fail otherwise.",
+      "check": "exact"
+    },
+    {
+      "t": 1760.2,
+      "text": "CPU the minimum requirement is to be four core CPU and memory is based on how much work you're going to do.",
+      "why_it_matters": "Establishes the baseline hardware requirements that vary based on workload intensity.",
+      "check": "exact"
+    },
+    {
+      "t": 1970.2,
+      "text": "It's not that complex to install it, but you end up with errors and problems in your installation if you miss out certain things.",
+      "why_it_matters": "Explains why understanding and following requirements is critical to successful installation.",
+      "check": "exact"
+    },
+    {
+      "t": 1981.7,
+      "text": "Make sure to review the software and the hardware requirement before you get into the installation process.",
+      "why_it_matters": "Top recommendation from the presenter emphasizing prerequisites review as the key to avoiding installation failures.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 1.7,
+      "kind": "other",
+      "text": "Business Central 29 or 2026 release wave 2 is announced"
+    },
+    {
+      "t": 1192.8,
+      "kind": "subject-to-change",
+      "text": "this number may vary based on different localization that are available for business central onprem for watch and 2026 release wave 2"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 19,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 32
+  },
+  "windows": 3,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.037708099999999994
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.036932
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.023934999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.050166999999999996
+    }
+  ]
+}

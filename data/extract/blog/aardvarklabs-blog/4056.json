@@ -1,0 +1,67 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4056",
+  "url": "https://aardvarklabs.blog/2026/10/09/smarter-keys-better-performance-exploring-business-central-v29-index-updates/",
+  "title": "Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates",
+  "source": "aardvarklabs-blog",
+  "published_at": "2026-10-09T12:00:00.000Z",
+  "words": 649,
+  "summary": "Business Central v29 allows administrators to manage indexes and SIFT keys directly through the Index Management page rather than only through AL code, enabled by a new unified table structure. This lets teams adjust or retire indexes as performance needs change without requiring development work.",
+  "key_points": [
+    "The unified table structure in v29 removes previous restrictions on non-AL based index management that existed because native and extension fields were stored separately.",
+    "Administrators can now activate, deactivate, or modify indexes and SIFT keys from the Index Management page for the entire system or individual companies.",
+    "Keys can now span both native fields and extension fields in the same index, which was previously impossible and caused errors in v28 and earlier.",
+    "Over time, indexes that were initially beneficial may become unnecessary and degrade performance, so this feature allows teams to manage them without waiting for development support."
+  ],
+  "systems": [
+    "platform",
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "index management",
+    "performance tuning",
+    "sift keys",
+    "unified table structure",
+    "database optimization"
+  ],
+  "objects": [
+    {
+      "type": "table",
+      "name": "Sales Header"
+    },
+    {
+      "type": "table",
+      "name": "ARD_Campaign"
+    }
+  ],
+  "features": [
+    "Index Management page",
+    "SIFT index management",
+    "cross-extension indexes",
+    "index deactivation",
+    "key management"
+  ],
+  "versions": [
+    "v29",
+    "v28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "With the new unified table structure in v29, those restrictions are gone. You can now manage SIFT indexes directly from the Index Management page.",
+      "why_it_matters": "Explains the core capability change that enables administrators to control indexes without AL code."
+    },
+    {
+      "text": "BC V29 quietly delivers one of the most meaningful performance-tuning upgrades in a long time.",
+      "why_it_matters": "Summarizes the significance of this release feature for system performance optimization."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00604,
+    "posts_in_call": 1
+  }
+}

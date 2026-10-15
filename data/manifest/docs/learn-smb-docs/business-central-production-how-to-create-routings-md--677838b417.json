@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/production-how-to-create-routings",
   "published_at": "2026-10-12T18:21:45.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:24.859Z",
-      "blob": "17cac81ed68686f96be9cb592d0fcc67a19c82ad",
+      "at": "2026-10-15T00:24:22.957Z",
+      "blob": "05864bdf889bae8174b5cef134b810296d2c34ae",
       "words": 2229,
       "forms": 19
     },
     "extracted": {
-      "at": "2026-10-06T18:08:34.584Z",
+      "at": "2026-10-15T00:24:47.959Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.00773
+      "objects": 8,
+      "cost_usd": 0.016012
     },
     "summarized": {
-      "at": "2026-10-06T18:08:36.224Z",
+      "at": "2026-10-15T00:24:47.960Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:08:36.225Z",
+      "at": "2026-10-15T00:24:47.961Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:08:36.225Z",
+      "at": "2026-10-15T00:24:47.962Z",
       "page": false
     }
   },
@@ -152,5 +152,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "10aa0ad17d6d2cba72278146b5b9432fb9d0d7cb6deee3b4474a594dd9772439"
+  "output_hash": "0b56df348edf8513d0966c1243231a6d3646370378f9e2bade6f43c3d6c23c06"
 }
