@@ -1,6 +1,6 @@
 # BC Observatory plugin for Claude Code
 
-Plugin `bc-observatory` 0.3.0, with the `bc-observatory` MCP server 0.7.1. Install:
+Plugin `bc-observatory` 0.3.1, with the `bc-observatory` MCP server 0.7.2. Install:
 
 ```bash
 claude plugin marketplace add waldo1001/waldo.BCObservatory
