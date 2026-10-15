@@ -2,30 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/fixed-assets.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/fixed-assets",
   "title": "Czech local functionality - Fixed assets",
-  "blob": "65527cacc61ac17f4b3f94534f4f28c37d858475",
-  "summary": "Fixed asset Czech localization covers tax depreciation methods, depreciation basis calculation, depreciation holidays, two-step acquisitions, disposal posting, extended posting groups, classification codes, location and employee tracking history, and specialized reports for asset management.",
+  "blob": "215d8610a6724cbba9d4327ea3cea7e1c8c50d47",
+  "summary": "Czech fixed assets functionality includes tax depreciation methods, depreciation holidays, two-step acquisition process, disposal posting rules, and location/responsible employee tracking to comply with Czech Income Tax Act and accounting standards.",
   "systems": [
     "fixed-assets",
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "fixed assets",
-    "czech",
-    "depreciation",
     "tax depreciation",
-    "asset disposal",
-    "asset acquisition"
+    "czech",
+    "depreciation groups",
+    "fixed asset acquisition",
+    "disposal posting",
+    "classification",
+    "history tracking"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Fixed Asset Setup"
-    },
-    {
-      "type": "page",
-      "name": "Depreciation Book"
-    },
     {
       "type": "table",
       "name": "FA Extended Posting Group"
@@ -39,79 +32,79 @@
       "name": "FA History Entry"
     },
     {
+      "type": "page",
+      "name": "Fixed Asset Setup"
+    },
+    {
+      "type": "page",
+      "name": "Depreciation Book"
+    },
+    {
+      "type": "report",
+      "name": "FA Assignment/Discard"
+    },
+    {
+      "type": "report",
+      "name": "Fixed Asset History"
+    },
+    {
       "type": "report",
       "name": "Fixed Asset Card"
     },
     {
       "type": "report",
-      "name": "FA Receipt"
+      "name": "Fixed Asset Acquisition"
     },
     {
       "type": "report",
-      "name": "FA Disposal"
+      "name": "Fixed Asset Disposal"
     },
     {
       "type": "report",
-      "name": "FA – Analysis G/L Account"
+      "name": "FA - Analysis G/L Account"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Analysis 2"
+      "name": "Fixed Asset - Analysis"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Analys. Dep. Book"
+      "name": "Fixed Asset - Depreciation Book Analysis"
     },
     {
       "type": "report",
-      "name": "FA Phys. Inventory List"
+      "name": "FA Physical Inventory List"
     },
     {
       "type": "report",
-      "name": "FA Inventory List"
+      "name": "Fixed Asset Book Value 01"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Analysis"
+      "name": "Fixed Asset Book Value 02"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Book Value 01"
+      "name": "Fixed Asset Projected Value"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Book Value 02"
+      "name": "Fixed Asset G/L Analysis"
     },
     {
       "type": "report",
-      "name": "Fixed Asset – Projected Value"
-    },
-    {
-      "type": "report",
-      "name": "Fixed Asset – G/L Analysis"
-    },
-    {
-      "type": "report",
-      "name": "Maintenance – Analysis"
-    },
-    {
-      "type": "report",
-      "name": "FA Assignment/Discharge"
-    },
-    {
-      "type": "report",
-      "name": "FA History"
+      "name": "Fixed Asset Maintenance Analysis"
     }
   ],
   "features": [
-    "fixed asset tax depreciation",
-    "depreciation basis calculation",
-    "depreciation holidays",
-    "two-step acquisition",
-    "disposal posting",
-    "extended posting groups",
-    "classification codes",
-    "location and employee tracking"
+    "Tax depreciation calculation",
+    "Depreciation holidays",
+    "Two-step fixed asset acquisition",
+    "Fixed asset disposal posting",
+    "Extended posting groups for disposal and maintenance",
+    "Fixed asset classification by CZ-CPA and CZ-CC codes",
+    "Location and responsible employee history tracking",
+    "Fixed asset reporting and analysis"
   ],
   "versions": [],
   "parts": 1,
@@ -120,8 +113,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.007159,
+      "pages_in_call": 1
     }
   ]
 }

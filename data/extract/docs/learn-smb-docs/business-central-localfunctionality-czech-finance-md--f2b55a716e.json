@@ -2,26 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/finance.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/finance",
   "title": "Finance - Czech local functionality",
-  "blob": "b687ed96dbd2e369e009c73c613c096a7a94f348",
-  "summary": "Czech finance localization provides corrections posting (red storno), statutory company information, internal financial documents, accounting output reports, financial reports with shared expressions and drill-down, statutory statements, WIP extended posting, and year-end operations.",
+  "blob": "3e71e04b3b629ce01e7800dc222362864e67ed4b",
+  "summary": "Czech local functionality for Finance includes corrections posting (Red Storno), statutory company information, internal financial documents, accounting output reports, financial reporting enhancements, statutory statements, and WIP extended posting to comply with Czech accounting regulations.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
-    "finance",
     "czech",
-    "corrections posting",
-    "statutory reporting",
-    "financial reports",
-    "wip posting"
+    "compliance",
+    "accounting",
+    "financial reporting",
+    "statutory requirements",
+    "wip posting",
+    "corrections posting"
   ],
   "objects": [
-    {
-      "type": "page",
-      "name": "Company Information"
-    },
     {
       "type": "table",
       "name": "Acc. Schedule Name"
@@ -29,33 +25,17 @@
     {
       "type": "table",
       "name": "Acc. Schedule Line"
-    },
-    {
-      "type": "report",
-      "name": "General Journal – Test Report"
-    },
-    {
-      "type": "report",
-      "name": "General Ledger Document Report"
-    },
-    {
-      "type": "report",
-      "name": "Balance sheet"
-    },
-    {
-      "type": "report",
-      "name": "Income statement"
     }
   ],
   "features": [
-    "corrections posting",
-    "red storno",
-    "statutory company information",
-    "internal financial documents",
-    "financial reports",
-    "statutory statements",
+    "Corrections posting (Red Storno)",
+    "Statutory company information",
+    "Internal financial documents",
+    "Accounting output documents",
+    "Financial reports with shared expressions",
+    "Statutory statements (balance sheet and income statement)",
     "WIP extended posting",
-    "exchange rate updating"
+    "Formula drill-down"
   ],
   "versions": [],
   "parts": 1,
@@ -64,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004529,
-      "pages_in_call": 8
+      "cost_usd": 0.004734,
+      "pages_in_call": 1
     }
   ]
 }

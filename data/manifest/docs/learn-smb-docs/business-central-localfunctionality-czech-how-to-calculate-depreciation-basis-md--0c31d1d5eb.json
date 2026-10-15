@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.298Z",
-      "blob": "cb431029952440f7d9fcc9df8019fa38b806ceae",
+      "at": "2026-10-15T00:29:13.250Z",
+      "blob": "b628e2f300ebd0dedf505a3a0a31f44feb9252e1",
       "words": 103,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.198Z",
+      "at": "2026-10-15T00:29:21.108Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001166
+      "cost_usd": 0.002886
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.222Z",
+      "at": "2026-10-15T00:29:21.114Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.223Z",
+      "at": "2026-10-15T00:29:21.118Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.226Z",
+      "at": "2026-10-15T00:29:21.119Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-calculate-depreciation-basis.md",
     "description": "Explains updates to depreciation calculations using the Czech declining-balance method.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 103,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e8ec4623839dcb04dc24dd0724fcb051690055abe3c298e9ecfabe8bd21471bd"
+  "output_hash": "f0a42f510ccb3347edd283080f523a755972c9bbf2d3b7712bad91a93e5309ae"
 }

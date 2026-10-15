@@ -2,27 +2,49 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/functional-currency.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency",
   "title": "Functional Currency in the Czech version",
-  "blob": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
-  "summary": "Explains functional currency implementation in Czech version per accounting legislation amendment effective January 2024, allowing foreign currency accounting with Czech currency reporting via additional reporting currencies.",
+  "blob": "680cf096479c6fb4a3253f476c18cd986c7a41ba",
+  "summary": "Functional currency in the Czech version allows companies to account in a foreign currency while using additional reporting currencies for VAT and other reports in Czech currency, as required by the amended Czech Accounting Act effective January 1, 2024.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "functional currency",
     "czech localization",
-    "accounting",
     "vat reporting",
-    "exchange rates"
+    "additional reporting currencies",
+    "accounting currency"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "12"
+    },
+    {
+      "type": "report",
+      "name": "11757"
+    },
+    {
+      "type": "report",
+      "name": "11756"
+    },
+    {
+      "type": "report",
+      "name": "31103"
+    },
+    {
+      "type": "report",
+      "name": "31064"
+    }
+  ],
   "features": [
     "Functional currency support",
-    "Additional reporting currencies",
-    "VAT statement in CZK",
-    "VAT control reporting",
-    "VIES declaration",
-    "Currency rate adjustment fields",
-    "Document report modifications"
+    "Additional Reporting Currencies",
+    "VAT statement preview",
+    "VAT control report",
+    "VIES Declaration",
+    "Currency rate adjustment on documents",
+    "Multi-currency reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +53,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005253,
-      "pages_in_call": 8
+      "cost_usd": 0.003534,
+      "pages_in_call": 1
     }
   ]
 }

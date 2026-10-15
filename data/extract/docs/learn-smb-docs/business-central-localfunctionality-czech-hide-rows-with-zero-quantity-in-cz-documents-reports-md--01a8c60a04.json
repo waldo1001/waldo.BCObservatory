@@ -1,19 +1,21 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports",
-  "title": "Hide rows with zero quantity in document reports in the Chech version",
-  "blob": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
-  "summary": "The Hide lines with zero quantity feature for Czech version document reports lets users control whether to display or hide lines with zero quantity on sales and purchase invoices and credit memos.",
+  "title": "Hide rows with zero quantity in document reports in the Czech version",
+  "blob": "e3aca16e29ccf1c2c9e86895afc8f6cbd6357e06",
+  "summary": "The Hide lines with zero quantity toggle on document report request pages lets you control whether to print or hide lines with zero quantity in Czech sales and purchase reports.",
   "systems": [
+    "localization",
     "sales",
-    "purchasing",
-    "localization"
+    "purchasing"
   ],
   "topics": [
     "localization",
     "czech",
-    "document reporting",
-    "zero quantity handling"
+    "document reports",
+    "reporting",
+    "zero quantity",
+    "report filtering"
   ],
   "objects": [
     {
@@ -34,7 +36,7 @@
     },
     {
       "type": "report",
-      "name": "Purchase Invoice"
+      "name": "Purchase - Invoice with Advance"
     }
   ],
   "features": [
@@ -47,8 +49,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002727,
-      "pages_in_call": 8
+      "cost_usd": 0.003326,
+      "pages_in_call": 1
     }
   ]
 }

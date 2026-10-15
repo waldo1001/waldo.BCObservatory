@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.290Z",
-      "blob": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904",
-      "words": 244,
+      "at": "2026-10-15T00:29:06.268Z",
+      "blob": "6843712227396379b840ea0a9cb7a1b5f545c026",
+      "words": 243,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.313Z",
+      "at": "2026-10-15T00:29:13.199Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.001304
+      "objects": 6,
+      "cost_usd": 0.003954
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.352Z",
+      "at": "2026-10-15T00:29:13.201Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.354Z",
+      "at": "2026-10-15T00:29:13.203Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.355Z",
+      "at": "2026-10-15T00:29:13.205Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/general-ledger-entries-application.md",
     "description": "The Czech version of General ledger entries application enables companies to manage temporary and transfer accounts in the general ledger for improved tracking and processing of pending amounts.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "General ledger",
       "Entries"
     ],
-    "ai_usage": null,
-    "words": 244,
+    "ai_usage": "ai-assisted",
+    "words": 243,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0e14144dd87e30e440f33d9ae9026a96f7cb5a0f3ecb010a2b0aa01c9bd10b15"
+  "output_hash": "a729d295c80a4898d76100ca6a69e5ea7e91108a6d64da30c80e3da1a9302cf5"
 }

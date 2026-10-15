@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/fixed-assets",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.228Z",
-      "blob": "65527cacc61ac17f4b3f94534f4f28c37d858475",
-      "words": 1172,
+      "at": "2026-10-15T00:29:06.183Z",
+      "blob": "215d8610a6724cbba9d4327ea3cea7e1c8c50d47",
+      "words": 1171,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.602Z",
+      "at": "2026-10-15T00:29:15.295Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 21,
-      "cost_usd": 0.004529
+      "objects": 19,
+      "cost_usd": 0.007159
     },
     "summarized": {
-      "at": "2026-10-06T19:22:15.378Z",
+      "at": "2026-10-15T00:29:15.297Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.056Z",
+      "at": "2026-10-15T00:29:15.299Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.057Z",
+      "at": "2026-10-15T00:29:15.300Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/fixed-assets.md",
     "description": "Describes Czech local functionality for fixed assets, including tax depreciation and related features.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "CZ",
       "Fixed Assets"
     ],
-    "ai_usage": null,
-    "words": 1172,
+    "ai_usage": "ai-assisted",
+    "words": 1171,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4df10dc8774d91091e592e141e4087dffe45717e1365fc8a8b8977b2b93bcc94"
+  "output_hash": "e1d1749c34a94593b656e3354976c56f9789e4725c8ac4c123fc7f82a825127c"
 }

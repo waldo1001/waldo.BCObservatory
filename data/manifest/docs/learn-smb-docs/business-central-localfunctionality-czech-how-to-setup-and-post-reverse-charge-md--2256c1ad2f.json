@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.312Z",
-      "blob": "0afda5fe5da6714041eff79653d49c935c782ee2",
-      "words": 126,
+      "at": "2026-10-15T00:29:15.385Z",
+      "blob": "2cd1320b556ce531761a5aaa551a0e6814ee5fcc",
+      "words": 140,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.207Z",
+      "at": "2026-10-15T00:29:21.166Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001166
+      "objects": 3,
+      "cost_usd": 0.003157
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.247Z",
+      "at": "2026-10-15T00:29:21.168Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.249Z",
+      "at": "2026-10-15T00:29:21.169Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.251Z",
+      "at": "2026-10-15T00:29:21.171Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md",
     "description": "Learn how to set up and post reverse charge transactions in the Czech version of Business Central, including configuration of tax liability regimes and VAT reporting.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "install-set-up-deploy",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "EET",
       "Cash Desk"
     ],
-    "ai_usage": null,
-    "words": 126,
+    "ai_usage": "ai-assisted",
+    "words": 140,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "68c1ffcf958db5a85595c6432d63e90dbfab9d1e88f048927ced982bc2c87d9b"
+  "output_hash": "714955cc4e8f00e6c590d61497e400183c1f94d0f7c6ae708036e9c940b943cb"
 }

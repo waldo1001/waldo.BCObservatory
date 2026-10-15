@@ -2,16 +2,16 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/general-ledger-entries-application.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application",
   "title": "General Ledger Entries Application [CZ]",
-  "blob": "9ea3ab59dae317b2dc480f1a7f3587ff8d833904",
-  "summary": "General ledger entries application feature for Czech companies to match temporary and transfer account entries with analytic subtotals and partial application support.",
+  "blob": "6843712227396379b840ea0a9cb7a1b5f545c026",
+  "summary": "General Ledger Entries Application in the Czech version allows companies to apply and unapply general ledger entries for temporary and transfer accounts, with partial application support and batch processing capabilities.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "czech",
     "general ledger",
-    "application",
+    "entry application",
+    "czech localization",
     "temporary accounts",
     "transfer accounts"
   ],
@@ -26,7 +26,15 @@
     },
     {
       "type": "page",
-      "name": "G/L Entries"
+      "name": "General Ledger Entries"
+    },
+    {
+      "type": "report",
+      "name": "Open G/L Entries To Date"
+    },
+    {
+      "type": "report",
+      "name": "Inventory Account to Date"
     },
     {
       "type": "report",
@@ -34,12 +42,11 @@
     }
   ],
   "features": [
-    "G/L entry application",
-    "partial application",
-    "detailed G/L entries",
-    "applied amount tracking",
-    "apply/unapply functions",
-    "batch application"
+    "Apply Entries",
+    "Unapply Entries",
+    "Partial application",
+    "Batch application",
+    "Applied Amount field"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +55,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.003954,
+      "pages_in_call": 1
     }
   ]
 }

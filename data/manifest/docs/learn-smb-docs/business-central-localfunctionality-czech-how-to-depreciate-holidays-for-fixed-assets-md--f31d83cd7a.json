@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.303Z",
-      "blob": "7d86271bc392b34f3abee16702a98413bc5574ef",
-      "words": 140,
+      "at": "2026-10-15T00:29:13.559Z",
+      "blob": "701e9113550c4acc9c3fef8ebd028f867012b9f6",
+      "words": 137,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.203Z",
+      "at": "2026-10-15T00:29:21.138Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001166
+      "objects": 0,
+      "cost_usd": 0.003069
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.231Z",
+      "at": "2026-10-15T00:29:21.140Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.234Z",
+      "at": "2026-10-15T00:29:21.141Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.235Z",
+      "at": "2026-10-15T00:29:21.143Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-depreciate-holidays-for-fixed-assets.md",
     "description": "This feature allows users to discontinue depreciation for specific fixed assets during defined periods.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 140,
+    "ai_usage": "ai-assisted",
+    "words": 137,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cec9ecdca0ea3f5b45bebcdbec9efb6f2d74490fbff9c4714929da77e9db2ec9"
+  "output_hash": "4353a7ecc66bd48f7474f173a33344f59bc9d33caa72460c426fbbdc02c369f1"
 }

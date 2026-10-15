@@ -2,33 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/cz-localization-base-pack.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/cz-localization-base-pack",
   "title": "Core Localization Base Pack [CZ]",
-  "blob": "41cedfd588fbc6175f8e782eb089e93089ebd866",
-  "summary": "Core localization pack for Czech providing accounting, tax, and regulatory compliance features including VAT statements, year-end closing, exchange rates, and multi-circuit accounting.",
+  "blob": "80117ce272fa518734c63f3e8f68faa827791d16",
+  "summary": "Core localization pack for Czech version of Business Central that adds compliance features for Czech accounting, tax legislation, and statutory reporting requirements across finance, VAT, receivables, payables, and inventory.",
   "systems": [
     "localization",
-    "finance"
+    "finance",
+    "sales"
   ],
   "topics": [
-    "czech",
-    "localization",
-    "accounting",
-    "vat",
-    "tax",
-    "compliance"
+    "czech localization",
+    "vat compliance",
+    "statutory reporting",
+    "financial documents",
+    "inventory management",
+    "regulatory requirements"
   ],
   "objects": [],
   "features": [
-    "statutory company information",
-    "financial documents",
-    "VAT statements",
-    "VAT control report",
-    "unreliable payer",
-    "reverse charge",
-    "year closing operations",
-    "exchange rate updating",
-    "multi-circuit accounting",
-    "physical inventory",
-    "inventory documents"
+    "Statutory Company Information",
+    "Financial Documents",
+    "VAT Statements",
+    "VAT Control Report",
+    "Unreliable Payer",
+    "Reverse Charge",
+    "Year Closing Operations",
+    "Exchange Rate Updating",
+    "Multi-circuit Accounting"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001304,
-      "pages_in_call": 8
+      "cost_usd": 0.002983,
+      "pages_in_call": 1
     }
   ]
 }

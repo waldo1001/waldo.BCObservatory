@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Hide rows with zero quantity in document reports in the Chech version",
+  "title": "Hide rows with zero quantity in document reports in the Czech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.888Z",
-      "blob": "ba796327c9c7e472ca48750d7cdc6f005d90e268",
-      "words": 66,
+      "at": "2026-10-15T00:29:12.577Z",
+      "blob": "e3aca16e29ccf1c2c9e86895afc8f6cbd6357e06",
+      "words": 68,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.720Z",
+      "at": "2026-10-15T00:29:17.327Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.002727
+      "cost_usd": 0.003326
     },
     "summarized": {
-      "at": "2026-10-06T18:51:47.648Z",
+      "at": "2026-10-15T00:29:17.329Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.649Z",
+      "at": "2026-10-15T00:29:17.331Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.657Z",
+      "at": "2026-10-15T00:29:17.333Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/hide-rows-with-zero-quantity-in-cz-documents-reports.md",
     "description": "This article describes how to make document reports clearer by hiding lines with zero quantity in the Czech localization.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 66,
+    "ai_usage": "ai-assisted",
+    "words": 68,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8afbb4de3fe74a486ada420659322a2caa0da8884f4454be5cc9c6c586c2ce4b"
+  "output_hash": "dd06d78740d9671835374615efb9fd10b3ffb890f29554d555780ac156623b99"
 }

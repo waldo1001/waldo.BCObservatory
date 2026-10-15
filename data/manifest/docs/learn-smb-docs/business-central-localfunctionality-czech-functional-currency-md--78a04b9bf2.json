@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/functional-currency",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.187Z",
-      "blob": "662cb7f1cebb8549c527ae1c47539b5fca8b336c",
-      "words": 282,
+      "at": "2026-10-15T00:29:06.311Z",
+      "blob": "680cf096479c6fb4a3253f476c18cd986c7a41ba",
+      "words": 284,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:04:12.433Z",
+      "at": "2026-10-15T00:29:13.690Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005253
+      "objects": 5,
+      "cost_usd": 0.003534
     },
     "summarized": {
-      "at": "2026-10-06T19:04:13.652Z",
+      "at": "2026-10-15T00:29:13.693Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:13.653Z",
+      "at": "2026-10-15T00:29:13.695Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.432Z",
+      "at": "2026-10-15T00:29:13.697Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/functional-currency.md",
     "description": "Learn about functional currency, its legal basis in Czechia, and how it's supported in Business Central for accounting and VAT reporting.",
-    "ms_date": "2025-09-29",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "Functional Currency",
       "Exchange Rates"
     ],
-    "ai_usage": null,
-    "words": 282,
+    "ai_usage": "ai-assisted",
+    "words": 284,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d0414a2363b00f693553f6423dede01719a12e0bbe5ff17bcc7a49bbd1e2d156"
+  "output_hash": "906ea7cc222d65202318459dfee7746a1915b829bc3cf5fd6a5f67bd1007266c"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.294Z",
-      "blob": "c0f1a289baa816681d529d670a4109a75b48c922",
-      "words": 211,
+      "at": "2026-10-15T00:29:06.233Z",
+      "blob": "8d2b76ff9250f76638b6ce2c9d43be4154063dee",
+      "words": 268,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.195Z",
+      "at": "2026-10-15T00:29:12.523Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.001166
+      "cost_usd": 0.003435
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.217Z",
+      "at": "2026-10-15T00:29:12.525Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.219Z",
+      "at": "2026-10-15T00:29:12.526Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.220Z",
+      "at": "2026-10-15T00:29:12.527Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/general.md",
     "description": "Learn about the enhanced user setup features and general functionality available in the Czech local version of Business Central.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CZ",
       "Cash"
     ],
-    "ai_usage": null,
-    "words": 211,
+    "ai_usage": "ai-assisted",
+    "words": 268,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d42b8abed83fd47343775aea49e70ddb6257c958d90f42d4aeee4b9fcb74e6d9"
+  "output_hash": "b76512f60705df20217056a18057c491d40acd1a70ba3c03b410b30986eb3c30"
 }

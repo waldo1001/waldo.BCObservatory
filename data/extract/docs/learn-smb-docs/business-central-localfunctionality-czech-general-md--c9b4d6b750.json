@@ -2,22 +2,18 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/general.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general",
   "title": "Czech local functionality - General function",
-  "blob": "c0f1a289baa816681d529d670a4109a75b48c922",
-  "summary": "Extended user control in Czech version allows assignment of users to employees, cash desk operations filtering, date validation for posting, and access control for payment orders, bank statements, journals, dimensions, locations, and warehouse templates.",
+  "blob": "8d2b76ff9250f76638b6ce2c9d43be4154063dee",
+  "summary": "Extended user control in the Czech version of Business Central allows administrators to assign employees to users and manage access permissions for cash desks, bank accounts, journals, dimensions, locations, and posting periods.",
   "systems": [
-    "administration",
-    "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
-    "user setup",
-    "control",
     "czech",
-    "cash desk",
-    "payment orders",
-    "bank statements",
-    "journal templates",
-    "dimensions"
+    "user setup",
+    "access control",
+    "permissions",
+    "localization"
   ],
   "objects": [
     {
@@ -30,14 +26,14 @@
     }
   ],
   "features": [
-    "user to employee assignment",
-    "cash responsibility center filtering",
-    "document date validation",
-    "posting date validation",
-    "payment order access control",
-    "bank statement access control",
-    "journal template access control",
-    "location code filtering"
+    "User to employee assignment",
+    "Cash desk operations control",
+    "Document date validation",
+    "Payment order access control",
+    "Bank statement access control",
+    "Journal template access control",
+    "Dimension value restrictions",
+    "Location code filters"
   ],
   "versions": [],
   "parts": 1,
@@ -46,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001166,
-      "pages_in_call": 8
+      "cost_usd": 0.003435,
+      "pages_in_call": 1
     }
   ]
 }
