@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management",
   "published_at": "2026-10-13T14:34:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:33:47.602Z",
+      "at": "2026-10-15T00:20:54.015Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003878
+      "cost_usd": 0.007363
     },
     "summarized": {
-      "at": "2026-10-06T19:33:47.728Z",
+      "at": "2026-10-15T00:20:54.021Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:33:47.730Z",
+      "at": "2026-10-15T00:20:54.022Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:33:47.731Z",
+      "at": "2026-10-15T00:20:54.023Z",
       "page": false
     }
   },
@@ -67,5 +67,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "59b48a92999ae118600b87ad7f077a5d4c4f8129"
+  "output_hash": "b1e2a1c0a09c2c5816297730c6c96dfd114ea5d3412efcdcbf24798a2c5ac1c4"
 }

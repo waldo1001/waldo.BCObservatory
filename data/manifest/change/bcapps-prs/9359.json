@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/9359",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Sales Order Agent: ignore attachments larger than 25 MB during email retrieval",
+  "url": "https://github.com/microsoft/BCApps/pull/9359",
+  "published_at": "2026-10-14T18:14:42Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:20:57.397Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:09.175Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004345
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:09.412Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:09.421Z",
+      "path": "content/changes/bcapps/9359.md"
+    }
+  },
+  "input_hash": "36c7202a6fbc0cb28b79e0bc894de244cdfc9a5c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9359,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "36c7202a6fbc0cb28b79e0bc894de244cdfc9a5c",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "sales order agent ignore attachments larger than 25 mb during email retrieval"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6dc1d62da38d1996f19f8f6689264730cd44cba091ec2bb2d49ab0aef8825c67"
+}

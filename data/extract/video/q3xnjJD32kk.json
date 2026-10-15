@@ -1,0 +1,276 @@
+{
+  "video_id": "q3xnjJD32kk",
+  "item_id": "video/yt-microsoft/q3xnjJD32kk",
+  "title": "What's new: MCP Server (2026 release wave 2)",
+  "duration_s": 485,
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "mcp server",
+    "query tools",
+    "data analysis",
+    "agent capabilities",
+    "al queries",
+    "configuration ux",
+    "table schema",
+    "permissions",
+    "security"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and overview",
+      "t_start": 0,
+      "t_end": 36.4
+    },
+    {
+      "title": "Four new query tools explained",
+      "t_start": 36.4,
+      "t_end": 103.7
+    },
+    {
+      "title": "Live demo - agent data analysis",
+      "t_start": 103.7,
+      "t_end": 212.3
+    },
+    {
+      "title": "Agent workflow - tables, schema, and queries",
+      "t_start": 212.3,
+      "t_end": 302.6
+    },
+    {
+      "title": "Query capabilities and limitations",
+      "t_start": 302.6,
+      "t_end": 364.6
+    },
+    {
+      "title": "New MCP configuration UX",
+      "t_start": 364.6,
+      "t_end": 435.8
+    },
+    {
+      "title": "Security features and closing",
+      "t_start": 435.8,
+      "t_end": 485
+    }
+  ],
+  "features": [
+    {
+      "name": "Find tables tool",
+      "description": "A new system tool that enables agents to search for Business Central tables. The agent can provide search text to discover available tables in the system.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.1,
+      "t_end": 91.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query tool",
+        "table discovery",
+        "agent",
+        "data analysis"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Table relations tool",
+      "description": "A new system tool that helps agents understand how tables are connected to each other in Business Central, enabling the writing of proper join queries.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.1,
+      "t_end": 91.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query tool",
+        "relationships",
+        "joins"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Table schema tool",
+      "description": "A new system tool that allows agents to explore tables and see what fields are available on them.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.1,
+      "t_end": 91.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "query tool",
+        "schema inspection",
+        "fields"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "Data query tool",
+      "description": "A new system tool that enables agents to write and execute AL queries to retrieve and analyze data from Business Central tables based on user permissions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 74.1,
+      "t_end": 91.4,
+      "is_demoed": true,
+      "caveats": [
+        "Limited by AL query capabilities",
+        "Limited by AL query syntax",
+        "Subject to query runtime limits"
+      ],
+      "tags": [
+        "query tool",
+        "data retrieval",
+        "al query"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP query data access without APIs",
+      "description": "Agents can construct and run queries directly through MCP server tools without needing to use APIs. Data is returned based on permissions the user already has in Business Central.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 50.8,
+      "t_end": 116.2,
+      "is_demoed": true,
+      "caveats": [
+        "Dependent on user permissions",
+        "Dependent on agent quality writing AL queries"
+      ],
+      "tags": [
+        "data access",
+        "permissions",
+        "agent driven"
+      ],
+      "system": "copilot"
+    },
+    {
+      "name": "MCP configuration UX improvements",
+      "description": "New user interface for MCP configurations with a server features box that distinguishes between server features like the data tool and APIs, and shows which tools each feature enables.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 376,
+      "t_end": 435.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "configuration",
+        "user experience",
+        "ux"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "MCP server security toggle",
+      "description": "A new toggle in the copilot and agent capabilities page that allows administrators to activate or deactivate the MCP server feature as a whole.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 435.8,
+      "t_end": 452.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "security",
+        "admin control",
+        "mcp server"
+      ],
+      "system": "administration"
+    }
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central table schema",
+      "t": 241.6
+    },
+    {
+      "type": "other",
+      "name": "AL query object",
+      "t": 212.3
+    },
+    {
+      "type": "other",
+      "name": "AL queries",
+      "t": 276.4
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Kenny Pontoppidan",
+      "confidence": "high"
+    },
+    {
+      "name": "Poor Shot Dwivedi",
+      "confidence": "medium"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 63.8,
+      "text": "queries then we will compile and run them give you your data and there's basically no need to use",
+      "why_it_matters": "Explains the core value proposition of MCP query tools - direct data access without API complexity",
+      "check": "fuzzy"
+    },
+    {
+      "t": 126.6,
+      "text": "with the data query tools, it completely depends on the permissions that you already have, the tables that you have access to in Business",
+      "why_it_matters": "Clarifies that data query tool access is controlled by existing user permissions",
+      "check": "exact"
+    },
+    {
+      "t": 257.5,
+      "text": "table relations, essentially understanding how is one table connected to other tables in Business Central because that's how you write good join queries",
+      "why_it_matters": "Explains the purpose of the table relations tool for constructing proper joins",
+      "check": "exact"
+    },
+    {
+      "t": 348.7,
+      "text": "There are also limitations in queries in Business Central on how much data can be returned and for how long the query can run",
+      "why_it_matters": "Identifies specific query limitations - data volume and runtime constraints",
+      "check": "exact"
+    },
+    {
+      "t": 390.4,
+      "text": "we have added a new box called server features so we're now trying to distinguish between server features such as",
+      "why_it_matters": "Describes the new configuration UX structure separating server features from APIs",
+      "check": "fuzzy"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 229.3,
+      "kind": "preview",
+      "text": "it's a additional MCP server from Microsoft and you're free to use it, but at the same time we have seen that newer models are actually pretty good at writing AL query. So, they don't really end up using it as much"
+    }
+  ],
+  "checks": {
+    "quotes_kept": 5,
+    "quotes_dropped": 1,
+    "evidence_verified": 0,
+    "evidence_unverified": 7
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.022254
+    }
+  ]
+}

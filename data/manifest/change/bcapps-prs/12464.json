@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12464",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.",
+  "url": "https://github.com/microsoft/BCApps/pull/12464",
+  "published_at": "2026-10-14T06:14:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "92c2ba72961a4a1e59b0c2827cdc443d5270e424:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12464,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "92c2ba72961a4a1e59b0c2827cdc443d5270e424",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master order planning calculate plan stops on blocked item and does not process remaining valid demand"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9359",
+  "number": 9359,
+  "title": "Sales Order Agent: ignore attachments larger than 25 MB during email retrieval",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval and replaces them with placeholder notes to prevent email processing failures when oversized files are encountered.",
+  "key_points": [
+    "Attachment sizes are checked before content retrieval using EmailMessage.Attachments_GetLength()",
+    "Oversized attachments are replaced with small placeholder text files ending in .ignored.txt",
+    "Only non-ignored attachments are copied to sales quotes during attachment transfer",
+    "New enum value ExceedsFileSize added to SOA Email Attachment Status to track ignore reason",
+    "Telemetry is emitted for ignored attachments with original file details"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004345,
+    "changes_in_call": 1
+  }
+}

@@ -10,7 +10,20 @@
       "labels": [],
       "draft": true,
       "created_at": "2026-10-11T02:34:40Z",
-      "updated_at": "2026-10-14T00:15:28Z",
+      "updated_at": "2026-10-14T23:32:34Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2293,
+      "title": "Add support for protectedSettings to override lower priority settings",
+      "url": "https://github.com/microsoft/AL-Go/pull/2293",
+      "base": "main",
+      "major": null,
+      "author": "ChrisBlankDe",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-26T13:50:28Z",
+      "updated_at": "2026-10-14T14:30:50Z",
       "community_contribution": false
     },
     {
@@ -23,20 +36,7 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-08-06T15:32:16Z",
-      "updated_at": "2026-10-13T12:23:22Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2403,
-      "title": "Fix dependency filenames containing commas",
-      "url": "https://github.com/microsoft/AL-Go/pull/2403",
-      "base": "main",
-      "major": null,
-      "author": "aholstrup1",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-12T14:17:45Z",
-      "updated_at": "2026-10-13T11:36:26Z",
+      "updated_at": "2026-10-14T08:16:58Z",
       "community_contribution": false
     },
     {
@@ -50,19 +50,6 @@
       "draft": false,
       "created_at": "2026-06-03T15:24:31Z",
       "updated_at": "2026-10-13T09:40:09Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2293,
-      "title": "Add support for protectedSettings to override lower priority settings",
-      "url": "https://github.com/microsoft/AL-Go/pull/2293",
-      "base": "main",
-      "major": null,
-      "author": "ChrisBlankDe",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-26T13:50:28Z",
-      "updated_at": "2026-10-12T14:32:38Z",
       "community_contribution": false
     },
     {
@@ -254,6 +241,7 @@
       "title": "[Bug]: AL-Go v9.1/v9.2 splits dependency app filenames containing a comma `",
       "url": "https://github.com/microsoft/AL-Go/issues/2398",
       "labels": [
+        "Fix Ready",
         "bug"
       ],
       "author": "OlhaIshyna",

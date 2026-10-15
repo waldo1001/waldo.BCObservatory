@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12609",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Confirm before deleting attachments from an unfiltered Doc. Attachment List Factbox",
+  "url": "https://github.com/microsoft/BCApps/pull/12609",
+  "published_at": "2026-10-14T14:48:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "2feb540a89764f8df43798627d23e1c47c0be9cc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12609,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2feb540a89764f8df43798627d23e1c47c0be9cc",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "confirm before deleting attachments from an unfiltered doc attachment list factbox"
+  }
+}

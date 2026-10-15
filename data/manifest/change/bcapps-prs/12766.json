@@ -6,7 +6,7 @@
   "title": "Release Spend Request: declare indirect modify permission on Spend Request",
   "url": "https://github.com/microsoft/BCApps/pull/12766",
   "published_at": "2026-10-13T21:28:37Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-14T00:20:24.304Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:20:59.078Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003919
+    },
+    "linked": {
+      "at": "2026-10-15T00:20:59.535Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:20:59.541Z",
+      "path": "content/changes/bcapps/12766.md"
     }
   },
   "input_hash": "7b9ee6fc5fff48bd7e22167e55d0bd719212c75f:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "97cc7d0a7273639beb0698441effdf059405701a5d1f907a7e91fdd2f39e1bd3"
+  "output_hash": "2f3f6d4c7d29d127b898a2dd10435fe8b3897004084be19b834841f7f3695334"
 }

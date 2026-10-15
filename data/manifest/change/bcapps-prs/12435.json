@@ -6,7 +6,7 @@
   "title": "[Financial Reports] Faster row/column definition entry and custom schedule email subject",
   "url": "https://github.com/microsoft/BCApps/pull/12435",
   "published_at": "2026-10-08T21:25:56Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 8,
       "objects": 5,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-15T00:20:59.082Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003919
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:00.307Z",
+      "objects": 5,
+      "unjoined": 3,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:00.319Z",
+      "path": "content/changes/bcapps/12435.md"
     }
   },
   "input_hash": "f6a41447d838de830da2c3b90a1a2bf50f0c86c6:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9de55f50f0f2c5ff1945bd5e8e29ef6eea13a67734ad1655f2c78effbce8157d"
+  "output_hash": "ea68a302141e27ae437a9d86f42dddeeff0116b8c6065ed219fa9c765d2189b6"
 }

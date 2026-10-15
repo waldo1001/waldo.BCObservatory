@@ -6,7 +6,7 @@
   "title": "[Bug Fix] #190: Additional-Currency Total Cost incorrect on Project Ledger Entries",
   "url": "https://github.com/microsoft/BCApps/pull/10500",
   "published_at": "2026-10-12T22:01:42Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -18,6 +18,23 @@
       "al": 5,
       "objects": 3,
       "unjoined": 2
+    },
+    "extracted": {
+      "at": "2026-10-15T00:20:59.079Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003919
+    },
+    "linked": {
+      "at": "2026-10-15T00:20:59.918Z",
+      "objects": 3,
+      "unjoined": 2,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:20:59.923Z",
+      "path": "content/changes/bcapps/10500.md"
     }
   },
   "input_hash": "2cdfed158d2687c4b3e34b731352cdcbe1229fe3:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a61396187c5d35f07bb52750192ba9629248975afd6002855f642d26f63318b2"
+  "output_hash": "ef5044691640ad29e39c56c62490f111b3101803df15552802ae94a023a29a5a"
 }

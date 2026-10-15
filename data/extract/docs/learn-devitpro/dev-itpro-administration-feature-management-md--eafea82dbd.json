@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/administration/feature-management.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/feature-management",
-  "title": "Enabling upcoming features ahead of time",
-  "blob": "c1e8d11f846e683c8e4c1ba323dfb180f77a970e",
-  "summary": "Enabling optional features ahead of time in Business Central through the Feature Management page to test and prepare for upcoming capabilities before they become mandatory.",
+  "title": "Enabling Upcoming Features Ahead of Time",
+  "blob": "59b48a92999ae118600b87ad7f077a5d4c4f8129",
+  "summary": "Feature Management lets administrators enable optional features ahead of time on Business Central sandbox and production environments, with most features eventually becoming mandatory after a specified date.",
   "systems": [
     "administration",
     "platform"
@@ -11,8 +11,9 @@
   "topics": [
     "feature management",
     "optional features",
+    "early access",
     "sandbox testing",
-    "release waves"
+    "mandatory features"
   ],
   "objects": [
     {
@@ -21,11 +22,12 @@
     }
   ],
   "features": [
-    "Feature Management page",
-    "optional feature enablement",
-    "irreversible features",
-    "feature scheduling",
-    "permission control"
+    "Enable optional features early",
+    "Try out features temporarily",
+    "Schedule data updates",
+    "Feature dependencies",
+    "Irreversible feature warnings",
+    "Permission control with FEATURE MGT. - ADMIN permission set"
   ],
   "versions": [
     "version 18.1",
@@ -37,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003878,
-      "pages_in_call": 8
+      "cost_usd": 0.007363,
+      "pages_in_call": 4
     }
   ]
 }

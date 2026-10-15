@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:34:45.735Z",
+      "at": "2026-10-15T00:20:54.018Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003936
+      "cost_usd": 0.007363
     },
     "summarized": {
-      "at": "2026-10-06T18:34:45.745Z",
+      "at": "2026-10-15T00:20:54.028Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:34:47.591Z",
+      "at": "2026-10-15T00:20:54.029Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:34:47.593Z",
+      "at": "2026-10-15T00:20:54.030Z",
       "page": false
     }
   },
@@ -58,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f7d65079d56ed6b67739a9de531e6814b41a047f"
+  "output_hash": "d8e7073e75eab65809836197cadd37ea7c4beeb0a89cee94e39c5394f4232171"
 }

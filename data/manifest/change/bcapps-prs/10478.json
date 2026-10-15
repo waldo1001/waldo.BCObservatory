@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10478",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries",
+  "url": "https://github.com/microsoft/BCApps/pull/10478",
+  "published_at": "2026-10-14T10:27:31Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "8c2b4bc037407fc43e81ec26553af88188e83a4e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10478,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8c2b4bc037407fc43e81ec26553af88188e83a4e",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 254 apiv2 performance replace findfirst next with findset when rebuilding dimension set entries"
+  }
+}

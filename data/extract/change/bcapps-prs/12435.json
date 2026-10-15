@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12435",
+  "number": 12435,
+  "title": "[Financial Reports] Faster row/column definition entry and custom schedule email subject",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Financial reports now support faster row and column definition entry through field type defaulting, custom schedule email subjects, and improved searchability for report schedules.",
+  "key_points": [
+    "Row and column definition lines default type fields from previous line to accelerate data entry",
+    "Financial report schedules can specify custom email subject; blank value triggers existing default",
+    "Financial Report Schedules page now searchable with UsageCategory = Lists",
+    "Added tests for type inheritance and custom subject behavior"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

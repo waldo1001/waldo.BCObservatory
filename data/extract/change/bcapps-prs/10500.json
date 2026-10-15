@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10500",
+  "number": 10500,
+  "title": "[Bug Fix] #190: Additional-Currency Total Cost incorrect on Project Ledger Entries",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "projects"
+  ],
+  "summary": "Project ledger entries now correctly record additional-currency total cost when a manual source currency exchange rate override is applied, matching G/L entry behavior.",
+  "key_points": [
+    "Carry source currency code and source currency amount from Gen. Journal Line to Job Journal Line during transfer",
+    "Skip currency re-conversion when source currency equals additional reporting currency, preserving overridden rates",
+    "Ensures project and G/L ledger entries remain consistent for manually overridden exchange rates",
+    "Added regression test demonstrating the fix"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects"
+  ],
+  "quote": "This fix makes the Job Ledger Entry honour the manually entered source-currency amount.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/12606",
+  "number": 12606,
+  "title": "Obsolete Http Web Request Mgt. codeunit",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Http Web Request Mgt. codeunit and its test are marked obsolete with tag 30.0, directing developers to use native HttpClient and related message classes instead.",
+  "key_points": [
+    "Entire Http Web Request Mgt. codeunit wrapped in CLEAN30 conditional and marked obsolete",
+    "Test codeunit also wrapped and marked obsolete following repo convention",
+    "Pragma directives added to suppress AL0432 warnings for obsolete member signatures already marked in prior changes",
+    "No code in BCApps calls this codeunit anymore after previous PRs merged"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Http Web Request Mgt.",
+      "member": null,
+      "replacement": "native HttpClient / HttpRequestMessage / HttpResponseMessage"
+    }
+  ],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

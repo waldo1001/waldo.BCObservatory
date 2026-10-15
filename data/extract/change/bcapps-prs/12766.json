@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12766",
+  "number": 12766,
+  "title": "Release Spend Request: declare indirect modify permission on Spend Request",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Release Spend Request codeunit now declares indirect modify permission on Spend Request, allowing the Expense Agent to submit and reject travel requests through proper permission inheritance.",
+  "key_points": [
+    "Added permission declaration for indirect modify on Spend Request table to codeunit 6840",
+    "Enables Expense Agent (S2S) to perform writes through the codeunit when direct permission is not granted",
+    "Added two new tests verifying submit and reject operations work with restricted permission set",
+    "Follows same pattern used by Release Sales Document and Release Purchase Document"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

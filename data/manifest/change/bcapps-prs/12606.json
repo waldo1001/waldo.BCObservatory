@@ -6,7 +6,7 @@
   "title": "Obsolete Http Web Request Mgt. codeunit",
   "url": "https://github.com/microsoft/BCApps/pull/12606",
   "published_at": "2026-10-09T18:13:05Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:20:59.080Z",
+      "prompt": "extract-change@1",
+      "kind": "obsoletion",
+      "behavior": false,
+      "cost_usd": 0.003919
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:00.102Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:00.109Z",
+      "path": "content/changes/bcapps/12606.md"
     }
   },
   "input_hash": "9f954e85cbed82e2c18b77d8513c22a7d2b2e035:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "143849f989b30998bf7ca1849a83c6856b2a0c0165033478f8442df76efad990"
+  "output_hash": "c59b457be6b1f63d184cad00bbe8cff1a8389a681f110cc2e95d058e257595f8"
 }

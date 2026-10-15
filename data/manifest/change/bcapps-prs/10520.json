@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 29640: use document type enum in blocked customer event",
   "url": "https://github.com/microsoft/BCApps/pull/10520",
   "published_at": "2026-10-13T12:54:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -18,6 +18,23 @@
       "al": 11,
       "objects": 11,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-15T00:20:59.079Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003919
+    },
+    "linked": {
+      "at": "2026-10-15T00:20:59.713Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-15T00:20:59.734Z",
+      "path": "content/changes/bcapps/10520.md"
     }
   },
   "input_hash": "d6985b37b7745947481c663d8a5cc60e9e3a4ef8:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e1afc9112f86026d7d8145d019a4ba22270dec63a7294a46cfe98dc458f0fbfb"
+  "output_hash": "ec2145e4069cd2c43127794fd3f7278002afccf6c21ae4d0c21cfb33aab6e7e5"
 }

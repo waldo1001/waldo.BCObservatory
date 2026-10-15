@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11757",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.",
+  "url": "https://github.com/microsoft/BCApps/pull/11757",
+  "published_at": "2026-10-14T08:06:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "ecf47fc508107b2935b65469cb81d09b52070296:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11757,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ecf47fc508107b2935b65469cb81d09b52070296",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "payment orders posted in foreign currency usd do not populate source currency code and source currency amount in g l entries in the spanish version"
+  }
+}

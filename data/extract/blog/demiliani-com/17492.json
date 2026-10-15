@@ -1,0 +1,50 @@
+{
+  "item_id": "blog/demiliani-com/17492",
+  "url": "https://demiliani.com/2026/10/13/securing-your-azure-storage-account-a-guide-to-enabling-business-central-only-access-using-network-security-perimeter-part2-now-with-service-tags/",
+  "title": "Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.",
+  "source": "demiliani-com",
+  "published_at": "2026-10-13T08:35:29.000Z",
+  "words": 390,
+  "summary": "Azure Network Security Perimeter now supports service tags for inbound access rules, allowing Business Central administrators to simplify Azure Storage Account security configuration. Instead of maintaining IP allowlists, organizations can reference the Dynamics365BusinessCentral service tag, with Microsoft automatically updating the underlying IP ranges.",
+  "key_points": [
+    "Service tag support for NSP inbound rules eliminates the need to manually track individual IP addresses",
+    "The Dynamics365BusinessCentral service tag can be used as the source for NSP inbound access rules",
+    "Service tags are broad by design and cover multiple Microsoft service instances, requiring trust at the service level rather than per-instance",
+    "Administrators should consider stricter isolation options like specific IP ranges or subscription-based rules if service-level trust is not acceptable"
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "topics": [
+    "azure security",
+    "network security perimeter",
+    "service tags",
+    "storage account",
+    "access control"
+  ],
+  "objects": [],
+  "features": [
+    "Azure Network Security Perimeter service tags",
+    "inbound access rules",
+    "IP allowlist management"
+  ],
+  "versions": [
+    "2026"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Microsoft automatically updates the IP address prefixes associated with a service tag.",
+      "why_it_matters": "Highlights the operational benefit of eliminating manual IP range maintenance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00604,
+    "posts_in_call": 4
+  }
+}

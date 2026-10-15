@@ -7,7 +7,7 @@
   "url": "https://demiliani.com/2026/10/13/securing-your-azure-storage-account-a-guide-to-enabling-business-central-only-access-using-network-security-perimeter-part2-now-with-service-tags/",
   "published_at": "2026-10-13T08:35:29.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-13T13:11:59.510Z",
       "path": "vault:posts/demiliani-com/17492.md",
       "words": 390
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:04.807Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.00604
+    },
+    "summarized": {
+      "at": "2026-10-15T00:21:09.133Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:09.134Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:09.141Z",
+      "path": "content/posts/demiliani-com/17492.md"
     }
   },
   "input_hash": "2026-10-13T08:35:29.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9aaf320fc6be423f3aba65174346417d488b1505a632c1fc6e11f51b90d44711"
+  "output_hash": "fa5c72684b447e35747f52640e79b650befd394d6252aafeec1f24845bd7606c"
 }

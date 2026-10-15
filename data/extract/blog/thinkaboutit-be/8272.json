@@ -1,0 +1,54 @@
+{
+  "item_id": "blog/thinkaboutit-be/8272",
+  "url": "https://thinkaboutit.be/2026/10/business-central-29-more-control-over-report-layouts-and-new-report-inbox-apis/",
+  "title": "Business Central 29: More Control Over Report Layouts and New Report Inbox APIs",
+  "source": "thinkaboutit-be",
+  "published_at": "2026-10-12T12:40:29.000Z",
+  "words": 721,
+  "summary": "Business Central 2026 release wave 2 extends report layout lifecycle management to layouts delivered by Microsoft and extensions, allowing administrators to control which layouts users can select. Additionally, new Report Inbox APIs enable external applications and automation tools to interact with scheduled reports without requiring manual intervention in Business Central.",
+  "key_points": [
+    "Layout statuses (Draft, Pending Approval, Approved, Retired) now apply to Microsoft and extension-provided layouts, not just uploaded layouts",
+    "Only approved layouts appear in the layout selector; administrators can still run retired layouts directly from the Report Layouts page",
+    "Administrators can override layout descriptions for layouts from Microsoft, AppSource, and partner extensions",
+    "Report Inbox APIs enable Power Automate, Copilot Studio agents, and external applications to programmatically interact with scheduled report output"
+  ],
+  "systems": [
+    "reporting",
+    "integration",
+    "copilot"
+  ],
+  "topics": [
+    "report layouts",
+    "layout management",
+    "report inbox",
+    "api",
+    "automation"
+  ],
+  "objects": [
+    {
+      "type": "api",
+      "name": "Report Inbox APIs"
+    }
+  ],
+  "features": [
+    "report layout lifecycle management",
+    "layout status control",
+    "layout description overrides",
+    "Report Inbox APIs",
+    "API Overview page"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00604,
+    "posts_in_call": 4
+  }
+}

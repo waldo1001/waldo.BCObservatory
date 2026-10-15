@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault",
   "published_at": "2026-10-09T08:43:07.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:48:16.201Z",
+      "at": "2026-10-15T00:20:54.020Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005577
+      "cost_usd": 0.007363
     },
     "summarized": {
-      "at": "2026-10-06T18:48:16.209Z",
+      "at": "2026-10-15T00:20:54.031Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:48:16.210Z",
+      "at": "2026-10-15T00:20:54.032Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:48:16.211Z",
+      "at": "2026-10-15T00:20:54.033Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6f96bb78830a33fe5ef253a4ff1ab435f3ca92ac"
+  "output_hash": "9663937dbab5f617620f4a4113d1375de26605f38d6bbe82875524db63a4b980"
 }

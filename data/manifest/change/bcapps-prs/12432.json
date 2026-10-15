@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12432",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[AB#647643] Retain remote files and safely retire verified local references",
+  "url": "https://github.com/microsoft/BCApps/pull/12432",
+  "published_at": "2026-10-14T08:59:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "014be6ed8f5f1956716108faca2f32ff7ae00e5e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12432,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "014be6ed8f5f1956716108faca2f32ff7ae00e5e",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "ab 647643 retain remote files and safely retire verified local references"
+  }
+}

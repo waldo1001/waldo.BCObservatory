@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/10480",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #250: Honor ImportFSSolution TryFunction result in FS setup wizard",
+  "url": "https://github.com/microsoft/BCApps/pull/10480",
+  "published_at": "2026-10-14T09:42:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "69fc2907622428c519f28da4d3b660ef68c095f0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10480,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "69fc2907622428c519f28da4d3b660ef68c095f0",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 250 honor importfssolution tryfunction result in fs setup wizard"
+  }
+}

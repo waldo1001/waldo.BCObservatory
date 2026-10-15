@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12755",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Flow Service Management: use native HttpClient instead of Web Request Helper",
+  "url": "https://github.com/microsoft/BCApps/pull/12755",
+  "published_at": "2026-10-14T10:57:28Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "d814f38d323885d56e5eab56bd2fb521adf36ca3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12755,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d814f38d323885d56e5eab56bd2fb521adf36ca3",
+    "author": "darjoo",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "flow service management use native httpclient instead of web request helper"
+  }
+}

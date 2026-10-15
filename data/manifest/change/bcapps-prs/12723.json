@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12723",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines",
+  "url": "https://github.com/microsoft/BCApps/pull/12723",
+  "published_at": "2026-10-14T13:43:54Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "1cbfd4cf82f0a0d47d3efbb1b0c5a260cd6d14e1:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12723,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1cbfd4cf82f0a0d47d3efbb1b0c5a260cd6d14e1",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "master modifying description resets quantity to 1 on purchase invoice lines"
+  }
+}

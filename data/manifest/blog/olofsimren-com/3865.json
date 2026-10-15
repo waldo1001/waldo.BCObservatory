@@ -7,7 +7,7 @@
   "url": "https://www.olofsimren.com/business-central-case-study-how-world-emblem-automated-high-volume-manufacturing-processes/",
   "published_at": "2026-10-09T12:28:26.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -16,6 +16,24 @@
       "at": "2026-10-10T00:24:27.986Z",
       "path": "vault:posts/olofsimren-com/3865.md",
       "words": 1524
+    },
+    "extracted": {
+      "at": "2026-10-15T00:21:04.809Z",
+      "prompt": "extract-post@1",
+      "quotes": 0,
+      "trimmed": 0,
+      "cost_usd": 0.00604
+    },
+    "summarized": {
+      "at": "2026-10-15T00:21:09.155Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-15T00:21:09.156Z"
+    },
+    "published": {
+      "at": "2026-10-15T00:21:09.165Z",
+      "path": "content/posts/olofsimren-com/3865.md"
     }
   },
   "input_hash": "2026-10-09T12:28:30.000Z",
@@ -23,5 +41,5 @@
   "flags": [],
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6e30076fcf39e477db78f9cf6ac87eec924e000376c67ba7664d0f5663e2a649"
+  "output_hash": "7b28418f313e3d3ff8ded34357535938f13992b01fcb0bef6fdaa8c077b050e7"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12098",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing",
+  "url": "https://github.com/microsoft/BCApps/pull/12098",
+  "published_at": "2026-10-14T11:32:50Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "d7c3b963d235dd381a9ac631aa179bf202da5c34:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12098,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "d7c3b963d235dd381a9ac631aa179bf202da5c34",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "planning worksheet production copy to req wksh fails because destination fields are missing"
+  }
+}

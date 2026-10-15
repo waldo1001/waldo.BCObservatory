@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/10484",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Bug Fix] #177: IRS 1099 orphan fields on Purchase Order/Cr. Memo pages",
+  "url": "https://github.com/microsoft/BCApps/pull/10484",
+  "published_at": "2026-10-14T09:38:51Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "10dd76e09e828906d165f06d19a0d89e8ac1fc22:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10484,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "10dd76e09e828906d165f06d19a0d89e8ac1fc22",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug fix 177 irs 1099 orphan fields on purchase order cr memo pages"
+  }
+}

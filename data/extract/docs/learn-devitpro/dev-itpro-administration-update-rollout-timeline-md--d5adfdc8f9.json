@@ -2,28 +2,31 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/update-rollout-timeline.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline",
   "title": "Update cycles",
-  "blob": "464df73459ebb11ec0c11b046865c857cbd0b8a8",
-  "summary": "Overview of Business Central update cycles, including major updates twice yearly in April and October, minor updates monthly, and the preview, grace, and enforced update periods. Use when planning environment updates, testing new versions, and managing extension compatibility.",
+  "blob": "eb38dbfcde6d075627e2950bcb60cf79810a4ec5",
+  "summary": "Update cycles describe how major and minor updates roll out to Business Central environments, including preview, update, grace, and enforced periods. Administrators manage update scheduling and timing through the admin center.",
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "updates",
-    "major releases",
+    "update cycles",
+    "major updates",
     "minor updates",
-    "preview environments",
-    "update management",
-    "grace period"
+    "preview period",
+    "grace period",
+    "enforced updates",
+    "maintenance windows"
   ],
   "objects": [],
   "features": [
-    "preview period",
-    "update period",
-    "grace period",
-    "enforced update period",
-    "maintenance windows",
-    "update rescheduling"
+    "preview environments",
+    "maintenance window configuration",
+    "update rescheduling",
+    "extension compatibility",
+    "sandbox testing",
+    "partner sandbox access",
+    "early access preview",
+    "feature management"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004763,
-      "pages_in_call": 8
+      "cost_usd": 0.010208,
+      "pages_in_call": 1
     }
   ]
 }

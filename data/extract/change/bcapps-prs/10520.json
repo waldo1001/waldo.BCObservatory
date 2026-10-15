@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10520",
+  "number": 10520,
+  "title": "[Extensibility Request] issue 29640: use document type enum in blocked customer event",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Blocked customer check event now passes the extensible Gen. Journal Document Type enum value instead of converting to an option integer, preserving document type extensibility.",
+  "key_points": [
+    "Changed OnBeforeCheckBlockedCust event parameter from option to Gen. Journal Document Type enum",
+    "Removed integer conversion to preserve enum extensibility for extensions",
+    "Applied to W1 and all 10 country layers consistently",
+    "Enables extensions to use custom document type values without reduction to integer"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Extensions need the blocked-customer check to preserve extensible general journal document type values.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

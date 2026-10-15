@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12694",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Allow API tests to issue local HTTP requests",
+  "url": "https://github.com/microsoft/BCApps/pull/12694",
+  "published_at": "2026-10-14T06:26:23Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "3d2e8340d1fcafb7e0ba4047c1a2b66309d275f3:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12694,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3d2e8340d1fcafb7e0ba4047c1a2b66309d275f3",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "allow api tests to issue local http requests"
+  }
+}

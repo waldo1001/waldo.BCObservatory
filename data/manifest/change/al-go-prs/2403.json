@@ -1,0 +1,30 @@
+{
+  "id": "change/al-go-prs/2403",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Fix dependency filenames containing commas",
+  "url": "https://github.com/microsoft/AL-Go/pull/2403",
+  "published_at": "2026-10-14T07:28:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-15T00:20:09.603Z"
+    }
+  },
+  "input_hash": "3b7daaea84768b9a2d671de28a59e305ca2ff95b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2403,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "3b7daaea84768b9a2d671de28a59e305ca2ff95b",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "fix dependency filenames containing commas"
+  }
+}

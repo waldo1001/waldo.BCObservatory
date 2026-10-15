@@ -1,0 +1,53 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1784438257223031103",
+  "url": "https://www.sauravdhyani.com/2026/10/restrict-global-symbol-downloads-to.html",
+  "title": "Restrict Global Symbol Downloads to a Minor Version in Business Central 2026 Release Wave 2",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-14T05:30:00.000Z",
+  "words": 1167,
+  "summary": "Business Central 2026 release wave 2 adds Global Sources Enforce Minor Version, a setting that restricts global symbol downloads to the major and minor version specified in app.json while allowing the newest patch within that minor version. This feature helps AL developers maintain reproducible development boundaries and control symbol resolution from Microsoft's global NuGet sources.",
+  "key_points": [
+    "Global Sources Enforce Minor Version constrains symbol downloads to the specified major.minor version while selecting the latest available patch",
+    "Minor-version enforcement is disabled by default; when enabled, it prevents symbol resolution from crossing minor version boundaries",
+    "Configuration uses the application property in app.json combined with the AL/Visual Studio Code setting to control version targeting",
+    "This feature improves CI/CD reproducibility and keeps development teams aligned on specific Business Central minor releases"
+  ],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "al development",
+    "symbols",
+    "global sources",
+    "version control",
+    "nuget"
+  ],
+  "objects": [],
+  "features": [
+    "Global Sources Enforce Minor Version",
+    "global symbol downloads",
+    "AL symbol resolution",
+    "version constraint configuration"
+  ],
+  "versions": [
+    "BC29",
+    "2026 release wave 2",
+    "BC28"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "When this setting is enabled, global symbol downloads are constrained to the major and minor version specified in the application property of app.json.",
+      "why_it_matters": "Explains the core function of the feature and how it prevents unintended version resolution drift"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00604,
+    "posts_in_call": 4
+  }
+}

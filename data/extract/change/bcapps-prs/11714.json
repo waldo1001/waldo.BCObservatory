@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11714",
+  "number": 11714,
+  "title": "[Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Cost adjustment for assembly items now uses unit-amount rounding precision instead of general ledger setup precision, eliminating unexpected variance amounts from rounding differences.",
+  "key_points": [
+    "Adjusted the rounding logic in cost share calculation to use unit-amount precision (0.00001) instead of G/L setup amount rounding precision",
+    "Resolves issue where assembly items in cost adjustment created additional variance due to different rounding precisions",
+    "Applied consistently across W1 and APAC localizations",
+    "Added regression test to prevent recurrence"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": "GetUnitCostsFromItem() rounds the cost shares using Unit-Amount Rounding Precision (0.00001).",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003919,
+    "changes_in_call": 6
+  }
+}

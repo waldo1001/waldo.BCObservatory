@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/admin-set-up-data-sync.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/admin-set-up-data-sync",
   "title": "Set up companies to synchronize master data",
-  "blob": "60cd7482a53b56c244dd657d85e821d5e8dc5706",
-  "summary": "Master data synchronization lets you pull customer, vendor, item, and employee data from a source company to subsidiary companies in a one-directional flow, with automatic updates via job queue entries.",
+  "blob": "5baadf0220829b3ca9478d6bdd1a5e3cff01db0f",
+  "summary": "Master Data Management Setup enables synchronization of nontransactional master data like customers, vendors, and items from a source company to subsidiary companies using a pull model, with support for match-based coupling and table filtering.",
   "systems": [
     "administration",
     "integration"
   ],
   "topics": [
-    "master data",
-    "synchronization",
+    "master data synchronization",
     "subsidiary companies",
-    "data replication",
-    "job queue"
+    "data coupling",
+    "pull model",
+    "match-based coupling",
+    "job queue entries"
   ],
   "objects": [
     {
@@ -31,25 +32,31 @@
     {
       "type": "page",
       "name": "Select Coupling Criteria"
+    },
+    {
+      "type": "page",
+      "name": "View - Integration Synchronization Jobs"
     }
   ],
   "features": [
-    "uni-directional synchronization",
-    "match-based coupling",
-    "table filtering",
-    "initial synchronization",
-    "job queue scheduling",
-    "export and import setup"
+    "Uni-directional synchronization",
+    "Match-based coupling with priority",
+    "Table filtering by criteria",
+    "Automatic job queue scheduling",
+    "Import/export synchronization setup",
+    "Create new records on match"
   ],
-  "versions": [],
+  "versions": [
+    "version 19.1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004493,
-      "pages_in_call": 8
+      "cost_usd": 0.007363,
+      "pages_in_call": 4
     }
   ]
 }
