@@ -1,0 +1,41 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12605,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12605",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-09T10:15:17Z",
+  "merge_commit_sha": "efc984a5d18e7f4ef3009a1917fbfd6c057a310b",
+  "author": "mazhelez",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "fix(miapp): honor .miappsnap exclusion list in VerifyMiappSync",
+  "body_hash": "7da2f5e5e982b9ed2a4edf15170fe036837ec19598b710c7a10c9e903f4b2aae",
+  "fixes_issues": [],
+  "work_items": [
+    653509
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 32,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

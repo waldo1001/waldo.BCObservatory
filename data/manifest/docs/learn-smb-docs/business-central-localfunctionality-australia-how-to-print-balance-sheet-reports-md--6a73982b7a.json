@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.749Z",
-      "blob": "0877f320c1bef714be625b61aece62a99359356a",
+      "at": "2026-10-15T00:26:46.234Z",
+      "blob": "e234b0d42c55521b2a55544d63dbe90629b0f39f",
       "words": 27,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.364Z",
+      "at": "2026-10-15T00:26:50.964Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.002589
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.442Z",
+      "at": "2026-10-15T00:26:50.966Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.444Z",
+      "at": "2026-10-15T00:26:50.968Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.445Z",
+      "at": "2026-10-15T00:26:50.970Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md",
     "description": "Use the Balance Sheet report to view the company's balance sheet in the Australian version.",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "balance sheet report",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 27,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c16434a5029fc3b2387b1013e1595aaf14e1084d16fa43bbef4b08ee434c115b"
+  "output_hash": "07375425aa0e14c1b138c4fbfc939046ae3f2d45c7b5ab397ab2dd8ac21786ad"
 }

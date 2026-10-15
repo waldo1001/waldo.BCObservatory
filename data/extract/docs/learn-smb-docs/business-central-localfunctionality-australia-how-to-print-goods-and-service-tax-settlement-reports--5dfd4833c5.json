@@ -2,20 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports",
   "title": "Print goods and service tax settlement reports (AU)",
-  "blob": "5c44b1f160dc93ba6b7b5ae0fac7eb463db7d0b3",
-  "summary": "Print goods and service tax settlement reports required for Australian tax compliance and GST reporting to the Australian Taxation Office.",
+  "blob": "c4a3b0decb70c168848b2a57af9a4981453c6619",
+  "summary": "Printing goods and service tax settlement reports in Business Central's Australian version for compliance with local tax requirements.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
+    "goods and service tax",
+    "settlement reports",
     "australia",
-    "gst",
-    "tax reporting",
-    "settlement"
+    "tax compliance",
+    "printing"
   ],
   "objects": [],
   "features": [
-    "GST settlement reports"
+    "GST settlement reports",
+    "Australian tax functionality"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001171,
-      "pages_in_call": 7
+      "cost_usd": 0.002521,
+      "pages_in_call": 1
     }
   ]
 }

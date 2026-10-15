@@ -6,10 +6,18 @@
   "title": "Fix external storage migration for unsafe attachment filenames",
   "url": "https://github.com/microsoft/BCApps/pull/11733",
   "published_at": "2026-10-09T09:35:49Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:52.293Z",
+      "change_class": "code",
+      "files": 15,
+      "al": 9,
+      "objects": 8,
+      "unjoined": 1
     }
   },
   "input_hash": "f935787084dcfc2daacdae91f94bd916a5105ebb:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix external storage migration for unsafe attachment filenames"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ebc55fec3df1807add8b717741e2f1117d56223d4284c3db3da4aebf858977bc"
 }

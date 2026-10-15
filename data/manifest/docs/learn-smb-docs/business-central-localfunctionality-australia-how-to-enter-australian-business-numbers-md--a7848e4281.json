@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-enter-australian-business-numbers",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.362Z",
+      "at": "2026-10-15T00:26:47.282Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.000953
+      "objects": 4,
+      "cost_usd": 0.003105
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.439Z",
+      "at": "2026-10-15T00:26:47.285Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.440Z",
+      "at": "2026-10-15T00:26:47.286Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.441Z",
+      "at": "2026-10-15T00:26:47.288Z",
       "page": false
     }
   },
@@ -62,5 +62,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4acd144e6b007adabec2771c5fe5366070cca536"
+  "output_hash": "fec9e2774617830f745f1221107f6eadb37c6dd6126ba38c553331b528ea90c5"
 }

@@ -6,10 +6,18 @@
   "title": "[SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry",
   "url": "https://github.com/microsoft/BCApps/pull/11555",
   "published_at": "2026-10-09T09:36:08Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:49.726Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "51f102ecbe8ce53fdcd472abd390056ee459600d:c1",
@@ -31,5 +39,8 @@
     ],
     "community_contribution": true,
     "title_key": "sharepoint graph follow up corrections for updatelistitem and drive item telemetry"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "4649d7c77624dd90778f154db3a7fbb7647bab174e77b0bceded5de3b4516ffe"
 }

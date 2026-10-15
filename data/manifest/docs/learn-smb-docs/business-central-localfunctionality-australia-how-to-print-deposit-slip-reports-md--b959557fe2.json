@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.758Z",
-      "blob": "d590902fcd708afe5e28429e9c4c7c69f6d27ba7",
+      "at": "2026-10-15T00:26:47.320Z",
+      "blob": "e37052d6dbfd2966ac971aeff3b4961e9b68f5bf",
       "words": 16,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:00.307Z",
+      "at": "2026-10-15T00:26:54.161Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001171
+      "cost_usd": 0.005098
     },
     "summarized": {
-      "at": "2026-10-06T19:31:00.315Z",
+      "at": "2026-10-15T00:26:54.162Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:00.316Z",
+      "at": "2026-10-15T00:26:54.164Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:00.316Z",
+      "at": "2026-10-15T00:26:54.167Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md",
     "description": "In the Australian version, use the Deposit Slip report to view cash and check details in a format required by the bank.",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "deposit slip",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 16,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f25c2292fb6150ee5f28546f4c7a987a7bcfb029ed56045164c1f25d03679eed"
+  "output_hash": "66eb916d2d1e30c2d6f4e490053e013d91d24cfec51ce818fc72a68dde67681c"
 }

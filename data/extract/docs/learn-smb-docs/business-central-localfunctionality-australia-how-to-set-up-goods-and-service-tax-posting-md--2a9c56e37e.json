@@ -2,20 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting",
   "title": "Set up goods and services tax posting [AU]",
-  "blob": "812283f7e95ee84a97b465ab737e56233644a13f",
-  "summary": "Configure goods and services tax (GST) posting in the Australian version for reporting GST paid and received in the Business Activity Statement.",
+  "blob": "29244b3039ee1736bb8dc26f5b2b85a13dc3f69d",
+  "summary": "Set up goods and services tax (GST) posting in the Australian version of Business Central to track tax applied on goods and services for Business Activity Statement reporting to the ATO.",
   "systems": [
-    "finance"
+    "finance",
+    "localization",
+    "administration"
   ],
   "topics": [
     "australia",
     "gst",
+    "goods and services tax",
     "tax posting",
-    "setup"
+    "bas",
+    "business activity statement"
   ],
   "objects": [],
   "features": [
-    "GST posting configuration"
+    "GST posting setup",
+    "Business Activity Statement reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001171,
-      "pages_in_call": 7
+      "cost_usd": 0.002756,
+      "pages_in_call": 1
     }
   ]
 }

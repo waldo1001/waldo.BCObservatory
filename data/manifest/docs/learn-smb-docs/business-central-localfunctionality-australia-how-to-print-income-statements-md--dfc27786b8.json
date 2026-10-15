@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-income-statements",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.767Z",
-      "blob": "6166aa38a0ddfcbf1b1f0a51f065640cd9cd3b7a",
-      "words": 171,
+      "at": "2026-10-15T00:26:49.793Z",
+      "blob": "ccb22cd583a3bdcfb3b7bff8ea04e5f8018bb059",
+      "words": 188,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:00.309Z",
+      "at": "2026-10-15T00:26:54.016Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.001171
+      "cost_usd": 0.003049
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.240Z",
+      "at": "2026-10-15T00:26:54.017Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.242Z",
+      "at": "2026-10-15T00:26:54.019Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.243Z",
+      "at": "2026-10-15T00:26:54.020Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-print-income-statements.md",
     "description": "Learn how to view the company's annual income statement in the Australian version.",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "revenues and expenses",
       "Australian version"
     ],
-    "ai_usage": null,
-    "words": 171,
+    "ai_usage": "ai-assisted",
+    "words": 188,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4672553a20e886843ccd026013ef5ba2310de6dd73c9bcdcb94ec05d359296fc"
+  "output_hash": "183a377a7d1b98d9234ada89d7f26397be7bce85ee9bba2a27944da21f4d48e7"
 }

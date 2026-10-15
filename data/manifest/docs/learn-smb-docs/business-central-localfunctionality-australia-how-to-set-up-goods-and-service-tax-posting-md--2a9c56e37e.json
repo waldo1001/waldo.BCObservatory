@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.776Z",
-      "blob": "812283f7e95ee84a97b465ab737e56233644a13f",
+      "at": "2026-10-15T00:26:53.152Z",
+      "blob": "29244b3039ee1736bb8dc26f5b2b85a13dc3f69d",
       "words": 71,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:31:00.311Z",
+      "at": "2026-10-15T00:26:58.467Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001171
+      "cost_usd": 0.002756
     },
     "summarized": {
-      "at": "2026-10-06T19:31:05.247Z",
+      "at": "2026-10-15T00:26:58.476Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:05.249Z",
+      "at": "2026-10-15T00:26:58.478Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:05.250Z",
+      "at": "2026-10-15T00:26:58.489Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md",
     "description": "Learn how to apply goods and services tax (GST) to goods and services for the Australian Taxation Office (ATO).",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -63,12 +63,12 @@
       "business activity statement",
       "BAS"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 71,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bbc99649823bcca9c528349404076b398299bc1ccddb93660f82e8c8a8501e72"
+  "output_hash": "7c9e1725ebd3f78f84a81eab6218d6230ce953811b9b0623b4b8cd1f69864171"
 }

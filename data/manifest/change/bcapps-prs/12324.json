@@ -6,10 +6,18 @@
   "title": "Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)",
   "url": "https://github.com/microsoft/BCApps/pull/12324",
   "published_at": "2026-10-09T11:49:24Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:46.179Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
     }
   },
   "input_hash": "0054504176db45ee8f0ba0aa84fd1184f07ce29d:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "obsolete http web request mgt usage in public api webhooks odata"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "272dafa5f8860bf1717b87f8b5c446e09d2d4a060627687d1023e7d51dca29a7"
 }

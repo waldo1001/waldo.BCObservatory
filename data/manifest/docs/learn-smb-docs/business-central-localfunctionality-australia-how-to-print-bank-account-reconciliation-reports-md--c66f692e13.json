@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.754Z",
-      "blob": "0d6f86963dee390b27f4064ec688887f8cf04aed",
+      "at": "2026-10-15T00:26:46.182Z",
+      "blob": "17f45c4b4c3865791f9020ded5ef6e78ea0db365",
       "words": 17,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:48.365Z",
+      "at": "2026-10-15T00:26:53.089Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.000953
+      "cost_usd": 0.005331
     },
     "summarized": {
-      "at": "2026-10-06T19:30:49.446Z",
+      "at": "2026-10-15T00:26:53.091Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:49.447Z",
+      "at": "2026-10-15T00:26:53.093Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:49.448Z",
+      "at": "2026-10-15T00:26:53.095Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md",
     "description": "In the Australian version, the Bank Account Reconciliation report lists open bank ledger entries as either unpresented checks or unrecorded deposits.",
-    "ms_date": "2025-03-26",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "bank ledger entries",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 17,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c75e586031ba1ede797af3ef262fd3cea27f86788e2a9227c4d16db467d515b0"
+  "output_hash": "f6131c13993d542864080f7e12a645431e273628515ab5e4d98ea021283e34b5"
 }

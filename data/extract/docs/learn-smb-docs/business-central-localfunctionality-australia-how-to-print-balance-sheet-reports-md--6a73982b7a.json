@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-print-balance-sheet-reports",
   "title": "Print balance sheet reports [AU]",
-  "blob": "0877f320c1bef714be625b61aece62a99359356a",
-  "summary": "Print balance sheet reports in the Australian version of Business Central for financial reporting.",
+  "blob": "e234b0d42c55521b2a55544d63dbe90629b0f39f",
+  "summary": "Print balance sheet reports in the Australian version of Business Central to generate standardized financial statements for compliance and reporting purposes.",
   "systems": [
     "finance",
     "reporting",
@@ -11,12 +11,14 @@
   ],
   "topics": [
     "balance sheet",
-    "financial reporting",
-    "australia"
+    "financial reports",
+    "australia",
+    "printing"
   ],
   "objects": [],
   "features": [
-    "balance sheet report printing"
+    "balance sheet reports",
+    "australian localization"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.000953,
-      "pages_in_call": 8
+      "cost_usd": 0.002589,
+      "pages_in_call": 1
     }
   ]
 }
