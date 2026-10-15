@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.710Z",
-      "blob": "953b4049f20d6e6c96783aa17997e05b21873798",
+      "at": "2026-10-15T00:26:27.773Z",
+      "blob": "1f24d6ab07a3af6f598258a61e28d264dd3803e8",
       "words": 17,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.878Z",
+      "at": "2026-10-15T00:26:33.570Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00207
+      "cost_usd": 0.004981
     },
     "summarized": {
-      "at": "2026-10-06T19:30:32.677Z",
+      "at": "2026-10-15T00:26:33.571Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:32.678Z",
+      "at": "2026-10-15T00:26:33.572Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:32.678Z",
+      "at": "2026-10-15T00:26:33.574Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/calculating-distribution-amounts.md",
     "description": "In the Australian version, you can reallocate amounts between general ledger accounts to keep account balances proportionate.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "account balances proportionate",
       "calculating distribution amounts"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 17,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bf0ec47437445c70ed03d40fe50abd299adcfe977f8ded4bfff680b217ea26a1"
+  "output_hash": "8fb1162837bb04e187cb2bc7d33aca10b70518cf366c76866261b8a2761c1130"
 }

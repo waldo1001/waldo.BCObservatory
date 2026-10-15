@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.705Z",
-      "blob": "0513e4aa281ab13638d2a825a2d14f1edf5a2b8f",
-      "words": 370,
+      "at": "2026-10-15T00:26:26.865Z",
+      "blob": "fa4403a6e7270d12bd88d09ca61685cae030e532",
+      "words": 409,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.877Z",
+      "at": "2026-10-15T00:26:33.582Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00207
+      "cost_usd": 0.003475
     },
     "summarized": {
-      "at": "2026-10-06T19:30:32.674Z",
+      "at": "2026-10-15T00:26:33.584Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:32.675Z",
+      "at": "2026-10-15T00:26:33.585Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:32.676Z",
+      "at": "2026-10-15T00:26:33.588Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md",
     "description": "An Australian Business Number (ABN) is a single identifier for all business dealings with the tax office and for dealings with other government departments and agencies.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "TFN",
       "BAS adjustment"
     ],
-    "ai_usage": null,
-    "words": 370,
+    "ai_usage": "ai-assisted",
+    "words": 409,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f0018d93c49e84f221a7e14057db30558d32d5cee75fb1dcb027ad47b8832df"
+  "output_hash": "9efa4ce05a0a039cc40be45c576ab06823b404be2d3bd0ab27ff9b9caaf6701e"
 }

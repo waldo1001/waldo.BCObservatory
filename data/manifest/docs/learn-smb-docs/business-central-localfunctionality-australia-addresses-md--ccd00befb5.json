@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-09T00:25:15.259Z",
-      "blob": "b1c89b15db6d478cd9dcabbf0cec7967e77dc82c",
+      "at": "2026-10-15T00:26:25.173Z",
+      "blob": "46904917d41ee77eae9e0717f5bd448dd4d736fb",
       "words": 322,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.876Z",
+      "at": "2026-10-15T00:26:29.669Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00207
+      "cost_usd": 0.003203
     },
     "summarized": {
-      "at": "2026-10-06T19:30:32.669Z",
+      "at": "2026-10-15T00:26:29.671Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:32.671Z",
+      "at": "2026-10-15T00:26:33.562Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:32.672Z",
+      "at": "2026-10-15T00:26:33.563Z",
       "page": false
     }
   },
@@ -64,5 +64,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b1c89b15db6d478cd9dcabbf0cec7967e77dc82c"
+  "output_hash": "9e46b2bfb03c277fba1748b5fe42e2a4ee110f0d9ab35e45df3830935a061b3d"
 }

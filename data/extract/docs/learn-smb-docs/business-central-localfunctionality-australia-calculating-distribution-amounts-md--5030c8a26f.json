@@ -2,17 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/calculating-distribution-amounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/calculating-distribution-amounts",
   "title": "Calculating Distribution Amounts [AU]",
-  "blob": "953b4049f20d6e6c96783aa17997e05b21873798",
-  "summary": "Distribution amount calculation for Australia localizes computation methods for Australian business requirements.",
+  "blob": "1f24d6ab07a3af6f598258a61e28d264dd3803e8",
+  "summary": "Calculating Distribution Amounts [AU] explains how to calculate distribution amounts in the Australian version of Business Central.",
   "systems": [
     "localization"
   ],
   "topics": [
     "australia",
-    "distribution amounts"
+    "distribution",
+    "calculation"
   ],
   "objects": [],
-  "features": [],
+  "features": [
+    "distribution amount calculation"
+  ],
   "versions": [],
   "parts": 1,
   "prompt_version": 1,
@@ -20,8 +23,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00207,
-      "pages_in_call": 8
+      "cost_usd": 0.004981,
+      "pages_in_call": 1
     }
   ]
 }

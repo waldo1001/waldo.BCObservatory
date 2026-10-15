@@ -6,10 +6,18 @@
   "title": "Hide Navigate and Reverse Transaction on sustainability posting preview",
   "url": "https://github.com/microsoft/BCApps/pull/12466",
   "published_at": "2026-10-12T08:54:15Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:26.777Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "bb56d6703ae48c4aaa90a4f56e74bc0a2727e36f:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "hide navigate and reverse transaction on sustainability posting preview"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3887061893995510609c446ddcee3cc46ed01d49d3cad33c1983505cbf2275a1"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.714Z",
-      "blob": "0796c294a1177dc677238efefe8c2386b199e67f",
+      "at": "2026-10-15T00:26:29.418Z",
+      "blob": "88a20db571f0b93bc911b22d3e2a20d43b269537",
       "words": 35,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:30:30.879Z",
+      "at": "2026-10-15T00:26:33.961Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00207
+      "cost_usd": 0.002607
     },
     "summarized": {
-      "at": "2026-10-06T19:30:32.679Z",
+      "at": "2026-10-15T00:26:33.963Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:30:32.680Z",
+      "at": "2026-10-15T00:26:33.967Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:30:32.681Z",
+      "at": "2026-10-15T00:26:33.972Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Australia/electronic-funds-transfer-eft-.md",
     "description": "Pay vendors by using the electronic funds transfer (EFT) system in Australia.",
-    "ms_date": "2025-03-25",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -60,12 +60,12 @@
       "vendor payment",
       "Australian version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 35,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe093e8d8adf3e28400e10cc9395fa7eccaa8619ea53b93150ca7f0ce1bd3be3"
+  "output_hash": "cde7ca0a9b9ddc4c80077b9446cc5b498177fb74c44a2eb04a2cc435eb4f3407"
 }

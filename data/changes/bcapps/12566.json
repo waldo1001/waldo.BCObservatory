@@ -1,0 +1,112 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12566,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12566",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-12T12:08:15Z",
+  "merge_commit_sha": "f118c4b8a894c01baa6c6c6cee7e05641256ff71",
+  "author": "Bertverbeek4PS",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "Update tooltips to reflect Microsoft Entra terminology in Fabric setup pages",
+  "body_hash": "f7be8b89c9a61977044f0e847675582ba7228ae2946b98b205381134ac6d7776",
+  "fixes_issues": [
+    12564
+  ],
+  "work_items": [
+    653574
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCredentialMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetupWizard.Page.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 7,
+    "deletions": 10,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformCredentialMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/48524",
+        "type": "codeunit",
+        "id": 48524,
+        "name": "Fabric Platform Credential Mgt",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48524"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetup.Page.al",
+        "status": "modified",
+        "key": "page/48511",
+        "type": "page",
+        "id": 48511,
+        "name": "Fabric Platform Setup",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48511"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformSetupWizard.Page.al",
+        "status": "modified",
+        "key": "page/48519",
+        "type": "page",
+        "id": 48519,
+        "name": "Fabric Platform Setup Wizard",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48519"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ],
+  "issues": [
+    {
+      "number": 12564,
+      "title": "[Bug]: Use MIcrosoft Entra ID caption in Fabric wizard",
+      "state": "closed"
+    }
+  ]
+}

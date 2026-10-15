@@ -2,31 +2,30 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-security-settings-and-ip-protection.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection",
   "title": "Resource exposure policy setting",
-  "blob": "5287dcf7d2ad04c64f73f458e1fdf57c9041bde3",
-  "summary": "Resource exposure policy setting describes IP protection for extensions through resourceExposurePolicy properties (allowDebugging, allowDownloadingSource, includeSourceInSymbolFile, applyToDevExtension) and dynamic policy override using Azure Key Vault for time-limited access to source code.",
+  "blob": "1e176c45602e8a64038e3efa49fd0f1ae3af94c9",
+  "summary": "Resource exposure policy settings in the app.json manifest control IP protection for Business Central extensions by managing access to source code through debugging, downloading, and symbol files.",
   "systems": [
     "development",
     "administration"
   ],
   "topics": [
     "ip protection",
-    "resource exposure",
-    "code signing",
-    "key vault",
+    "extension security",
+    "source code protection",
     "debugging",
-    "source code access"
+    "app.json",
+    "intellectual property"
   ],
   "objects": [],
   "features": [
-    "resourceExposurePolicy setting",
-    "allowDebugging property",
-    "allowDownloadingSource property",
-    "includeSourceInSymbolFile property",
-    "applyToDevExtension property",
+    "resourceExposurePolicy",
+    "allowDebugging",
+    "allowDownloadingSource",
+    "includeSourceInSymbolFile",
+    "applyToDevExtension",
     "NonDebuggable attribute",
-    "BC-ResourceExposurePolicy-Overrides secret",
-    "Go to Definition",
-    "Designer access"
+    "resource policy override",
+    "key vault integration"
   ],
   "versions": [
     "2021 release wave 2"
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007028,
-      "pages_in_call": 7
+      "cost_usd": 0.010789,
+      "pages_in_call": 1
     }
   ]
 }

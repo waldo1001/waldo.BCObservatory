@@ -2,38 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/australia-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/australia-local-functionality",
   "title": "Australia local functionality",
-  "blob": "4d25680d93254351a2ec8117824824c2360cd05a",
-  "summary": "Australia localization provides tax features including withholding tax and GST, banking capabilities for EFT and reconciliation, and core finance features specific to Australian regulatory requirements.",
+  "blob": "237e6a1b3a1f7019f0ea9601bdc9ea326eb8bb2d",
+  "summary": "Australia local functionality overview covering tax, e-invoicing, banking and payments, core finance, and general features specific to Australian Business Central deployments. Reference when implementing Australian regulatory requirements and localized capabilities.",
   "systems": [
-    "localization",
     "finance",
+    "sales",
     "purchasing"
   ],
   "topics": [
     "australia",
+    "tax",
     "withholding tax",
-    "goods and services tax",
-    "electronic funds transfer",
-    "business activity statements"
+    "gst",
+    "e-invoicing",
+    "banking",
+    "compliance"
   ],
   "objects": [],
   "features": [
-    "withholding tax setup and settlement",
-    "GST on prepayments",
-    "EFT payments",
+    "withholding tax",
+    "goods and services tax",
+    "e-invoicing in Peppol PINT A-NZ format",
+    "electronic funds transfer",
     "bank reconciliation",
-    "balance sheet and income statement reports",
-    "ABN entry"
+    "business activity statements",
+    "australian business numbers",
+    "payment times reporting"
   ],
-  "versions": [],
+  "versions": [
+    "2027 release wave 1"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00753,
-      "pages_in_call": 8
+      "cost_usd": 0.003966,
+      "pages_in_call": 1
     }
   ]
 }

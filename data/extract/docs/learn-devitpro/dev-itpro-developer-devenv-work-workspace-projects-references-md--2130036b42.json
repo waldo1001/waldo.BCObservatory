@@ -2,29 +2,33 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-work-workspace-projects-references.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-workspace-projects-references",
   "title": "Work with multiple projects and project references",
-  "blob": "ad4f8d868eb1ff1fb9667784871c00fb116fb7f3",
-  "summary": "Managing project references and dependencies in multi-project AL workspaces with automatic symbol resolution and coordinated publishing. Use when organizing complex extensions with interdependent AL projects.",
+  "blob": "a409076ac17235b3181c73fc82dcc531684f729e",
+  "summary": "Project references in AL workspaces define dependencies in app.json where referenced projects exist locally, allowing automatic symbol resolution without downloads. This page covers workspace project management, publishing logic, dependency resolution, and recovery from publishing failures.",
   "systems": [
     "development"
   ],
   "topics": [
-    "workspace",
-    "project references",
     "al development",
+    "workspace projects",
+    "project references",
     "dependencies",
-    "publishing"
+    "publishing",
+    "symbol resolution"
   ],
   "objects": [],
   "features": [
-    "project references",
+    "project references in app.json",
+    "automatic symbol resolution",
+    "project loading in workspace",
     "dependency publishing",
+    "RAD publishing",
     "incremental build",
-    "project loading",
-    "dependency graph traversal"
+    "dependency publishing options",
+    "publishing failure recovery"
   ],
   "versions": [
-    "version 21.1",
-    "version 25"
+    "version 25",
+    "version 21.1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004432,
-      "pages_in_call": 8
+      "cost_usd": 0.005308,
+      "pages_in_call": 1
     }
   ]
 }

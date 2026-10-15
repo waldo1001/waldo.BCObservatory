@@ -1,0 +1,109 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12187,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12187",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-12T09:01:55Z",
+  "merge_commit_sha": "ae337e48e26060c896c742fa3bec9bd9a273e607",
+  "author": "gggdttt",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Restore parent table relations for Comment Line configuration imports",
+  "body_hash": "e430f8dccd708e12061a44b6e3945c5ad0fccc62d6aed578fb7aad5970d1cca2",
+  "fixes_issues": [],
+  "work_items": [
+    651132
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Duplicates/MergeDuplicatesBuffer.Table.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Foundation/Comment/CommentLineRelations.TableExt.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigPackageManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 72,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/TestMergeDuplicates.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Rapid Start/ERMRSFldValidateandApply.Codeunit.al",
+      "status": "modified",
+      "additions": 532,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 711,
+    "deletions": 4,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Duplicates/MergeDuplicatesBuffer.Table.al",
+        "status": "modified",
+        "key": "table/64",
+        "type": "table",
+        "id": 64,
+        "name": "Merge Duplicates Buffer",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/64"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigPackageManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8611",
+        "type": "codeunit",
+        "id": 8611,
+        "name": "Config. Package Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8611"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/W1/BaseApp/Foundation/Comment/CommentLineRelations.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "crm",
+    "development"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

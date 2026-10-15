@@ -6,10 +6,18 @@
   "title": "[Fabric] adding reset button for a table",
   "url": "https://github.com/microsoft/BCApps/pull/12339",
   "published_at": "2026-10-12T12:00:58Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:21.800Z",
+      "change_class": "code",
+      "files": 4,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "f295a6104758b9a9e38c1c268825e1cdafa93424:c1",
@@ -32,5 +40,8 @@
     ],
     "community_contribution": true,
     "title_key": "fabric adding reset button for a table"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f1e0d5fd0546916dedbb25fbaed18f972a8330566607c224d5895f2b2c62a8c"
 }

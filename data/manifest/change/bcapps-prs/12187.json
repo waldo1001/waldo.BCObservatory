@@ -6,10 +6,18 @@
   "title": "Restore parent table relations for Comment Line configuration imports",
   "url": "https://github.com/microsoft/BCApps/pull/12187",
   "published_at": "2026-10-12T09:01:55Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-15T00:26:25.124Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
     }
   },
   "input_hash": "ae337e48e26060c896c742fa3bec9bd9a273e607:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "restore parent table relations for comment line configuration imports"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d13b73f2d7a4d79f795b990f9a9a12b8404e3686e337ad68f35708899ac0099"
 }
