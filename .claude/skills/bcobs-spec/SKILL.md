@@ -54,6 +54,13 @@ unless the owner picks them. Do not ask what the repository answers.
 - Every number is measured on the committed `data/` (object counts, sizes, stars per lens), with the command or
   file that gave it. A coder will check them; wrong numbers cost a round trip.
 - When the spec depends on another spec, read that spec's "built, deviations" section, not its plan.
+- **A version bump lists every place the version lives.** Find them by grepping the tree for the current version
+  string, not from memory: `git grep -n '0\.7\.1' -- ':!package-lock.json' ':!docs/'` for the MCP, the same for the
+  plugin version, and put the full list in the task. The spec behind PR #6 listed four places and missed the fifth,
+  `.claude-plugin/marketplace.json`; a coder follows the list it is given.
+- **A release step names the repo's release mechanism and cites its decision**: for the MCP, the `publish-mcp` workflow
+  dispatch (`gh workflow run publish-mcp.yml --ref main`, D40). "Release it as the last one was" is not an instruction:
+  the coder cannot look up how the last one was done and invents a command.
 
 ## 5. Reserve the numbers
 
