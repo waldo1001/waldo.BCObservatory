@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.345Z",
-      "blob": "79d38cb49257901bb66ff76ee3371756912b59c6",
-      "words": 67,
+      "at": "2026-10-15T00:29:27.296Z",
+      "blob": "d2d843d9ecbcab103495107f76b0591eacd3d172",
+      "words": 95,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.372Z",
+      "at": "2026-10-15T00:29:35.002Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.001002
+      "objects": 2,
+      "cost_usd": 0.003039
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.082Z",
+      "at": "2026-10-15T00:29:35.004Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.083Z",
+      "at": "2026-10-15T00:29:35.005Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.084Z",
+      "at": "2026-10-15T00:29:35.006Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md",
     "description": "Use the Rounding Account in Inventory feature to post all rounded costs to a separate General Ledger Account rather than the Inventory Adjustment Account.",
-    "ms_date": "2025-06-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 67,
+    "ai_usage": "ai-assisted",
+    "words": 95,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "297752bb8a902d74604cf0150d33acca5f58583557683dda88f75da5ec0f3ee8"
+  "output_hash": "8a5851b8b582bd3dec74dd186b2fb459cc64820a7ed4e9e8b9d02a17523d71dc"
 }

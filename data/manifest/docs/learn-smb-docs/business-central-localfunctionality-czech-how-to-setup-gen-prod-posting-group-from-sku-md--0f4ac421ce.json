@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.331Z",
-      "blob": "e868bf5e9c85c52ba016c1d5b4a744c45ffbb8f9",
-      "words": 26,
+      "at": "2026-10-15T00:29:21.316Z",
+      "blob": "24d15ba5742469485f7eaa53698b3a4e4f0a0d40",
+      "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.368Z",
+      "at": "2026-10-15T00:29:27.234Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001002
+      "objects": 2,
+      "cost_usd": 0.003032
     },
     "summarized": {
-      "at": "2026-10-06T19:22:15.376Z",
+      "at": "2026-10-15T00:29:27.236Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:15.376Z",
+      "at": "2026-10-15T00:29:27.238Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:15.377Z",
+      "at": "2026-10-15T00:29:27.240Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md",
     "description": "Learn about the General Product Posting Group functionality from SKU in the Czech version of Business Central.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 26,
+    "ai_usage": "ai-assisted",
+    "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4fbad37dba6f5b63b41e5a8c756cefd533099e0771a7ff7fc933c1e753c26c12"
+  "output_hash": "52825d9e23da69ee8f0cc7859d9ff767479b8882278fc88ddecf127483802685"
 }

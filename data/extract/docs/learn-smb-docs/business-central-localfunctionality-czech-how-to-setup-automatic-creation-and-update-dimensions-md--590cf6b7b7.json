@@ -1,22 +1,38 @@
 {
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions",
-  "title": "Czech local functionality - Automatic creation and update of dimensions",
-  "blob": "a503f2fe7fcab88cc4784d075e93164cdf903c3b",
-  "summary": "Automatic creation and update of dimensions in Czech version streamlines dimension management for accounting operations.",
+  "title": "Set up automatic creation and update of dimensions [CZ]",
+  "blob": "403c8cf934754ec021a893fe19ebee4ca2110331",
+  "summary": "Set up automatic creation and update of dimensions for master records in the Czech version of Business Central. This feature automatically creates dimension values and assigns them as default dimensions when new records are created in supported master tables.",
   "systems": [
     "finance",
+    "administration",
     "localization"
   ],
   "topics": [
     "dimensions",
-    "automatic creation",
-    "czech"
+    "default dimensions",
+    "automatic setup",
+    "czech localization",
+    "master records"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Dimensions"
+    },
+    {
+      "type": "page",
+      "name": "Auto. Create Default Dimensions"
+    }
+  ],
   "features": [
-    "automatic dimension creation",
-    "automatic dimension update"
+    "Automatic dimension creation",
+    "Default dimension assignment",
+    "Dimension value description synchronization",
+    "Dimension description formatting",
+    "Value posting configuration",
+    "Batch update for existing records"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001166,
-      "pages_in_call": 8
+      "cost_usd": 0.003707,
+      "pages_in_call": 1
     }
   ]
 }

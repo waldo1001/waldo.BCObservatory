@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.322Z",
-      "blob": "860d2b659554313ddce09c20ee674aa445f19136",
-      "words": 28,
+      "at": "2026-10-15T00:29:21.195Z",
+      "blob": "0ee65fc817a2d77bac0d0e8d071285a9dc188c7b",
+      "words": 78,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:17.215Z",
+      "at": "2026-10-15T00:29:26.830Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.001166
+      "cost_usd": 0.002708
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.258Z",
+      "at": "2026-10-15T00:29:26.831Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.259Z",
+      "at": "2026-10-15T00:29:26.832Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.261Z",
+      "at": "2026-10-15T00:29:26.833Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md",
     "description": "Learn about the default business posting group functionality in assembly orders in the Czech version of Business Central.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 28,
+    "ai_usage": "ai-assisted",
+    "words": 78,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "87397411b76fbcb070e7626106040e77a7ba89c68f6ef4b7d6059af4eeb95808"
+  "output_hash": "94bf90442441285f0e2e9155a0df88f566399d2d1d1977e3ff40bdaf8c5ed710"
 }

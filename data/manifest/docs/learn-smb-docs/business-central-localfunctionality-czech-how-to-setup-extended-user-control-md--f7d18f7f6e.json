@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-extended-user-control",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.371Z",
-      "blob": "77ed206ee0ae8d25ef2a6cf3eafedc0aa5c7cd46",
-      "words": 299,
+      "at": "2026-10-15T00:29:21.231Z",
+      "blob": "f153961acdb3f028374b08d3d0ae6c44a58a4726",
+      "words": 298,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:24.745Z",
+      "at": "2026-10-15T00:29:28.391Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003389
+      "objects": 3,
+      "cost_usd": 0.003722
     },
     "summarized": {
-      "at": "2026-10-06T18:43:25.584Z",
+      "at": "2026-10-15T00:29:28.392Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:25.585Z",
+      "at": "2026-10-15T00:29:28.394Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:25.586Z",
+      "at": "2026-10-15T00:29:28.396Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-extended-user-control.md",
     "description": "Most companies in the Czech Republic require enhancements to user setup and control to meet local business needs.",
-    "ms_date": "2026-03-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 299,
+    "ai_usage": "ai-assisted",
+    "words": 298,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fd23966e95077e033d1659377d56b78c8d76ab77ea387848758a08fb33760705"
+  "output_hash": "7fb1563892e92fea2374e644f5c3f1055c2fe48868a68d3de1ea19beecd9df01"
 }

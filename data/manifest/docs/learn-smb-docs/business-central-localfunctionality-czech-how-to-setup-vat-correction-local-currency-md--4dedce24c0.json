@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.375Z",
-      "blob": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
-      "words": 252,
+      "at": "2026-10-15T00:29:28.465Z",
+      "blob": "3ac746305b8531cb125cfd057ddb254c1b85a63a",
+      "words": 250,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:24.746Z",
+      "at": "2026-10-15T00:29:34.902Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003389
+      "objects": 3,
+      "cost_usd": 0.003566
     },
     "summarized": {
-      "at": "2026-10-06T18:43:25.587Z",
+      "at": "2026-10-15T00:29:34.911Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:25.588Z",
+      "at": "2026-10-15T00:29:34.918Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:25.589Z",
+      "at": "2026-10-15T00:29:34.927Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md",
     "description": "Learn how to use the VAT correction in local currency feature in the Czech version of Business Central.",
-    "ms_date": "2026-03-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 252,
+    "ai_usage": "ai-assisted",
+    "words": 250,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "75b55dec23e2dde813e079842b8669f0cd2069da2a1f8ac98cdba3c65dcd02be"
+  "output_hash": "7dd314e4d99a3cffa7138c6c1cfe4de7f17a1f1536c38e87fdb94a584898a91e"
 }

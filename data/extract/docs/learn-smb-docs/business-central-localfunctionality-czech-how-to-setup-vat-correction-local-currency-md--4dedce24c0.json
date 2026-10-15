@@ -2,30 +2,39 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency",
   "title": "Czech Local Functionality VAT correction in Local Currency",
-  "blob": "e0dc059ad2cb187c9d93c69a8a06e91c223d5b37",
-  "summary": "VAT correction in local currency for Czech version allows adjusting VAT amounts in CZK on purchase and sales invoices issued in foreign currency, with posting to dedicated rounding accounts.",
+  "blob": "3ac746305b8531cb125cfd057ddb254c1b85a63a",
+  "summary": "VAT correction in local currency for Czech Business Central allows adjusting input VAT amounts on foreign currency invoices to comply with domestic legislation requiring CZK conversion statements.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "vat correction",
+    "local currency",
     "czech",
-    "vat",
-    "localization",
-    "currency",
-    "correction"
+    "foreign currency",
+    "sales invoices",
+    "purchase invoices"
   ],
   "objects": [
     {
+      "type": "page",
+      "name": "VAT LCY Correction"
+    },
+    {
       "type": "table",
       "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "VAT amount adjustment in local currency",
-    "Rounding account for VAT correction",
-    "Foreign currency document handling",
-    "VAT correction posting"
+    "VAT LCY Correction action",
+    "Rounding Account for VAT Correction in Local Currency",
+    "Show VAT Corr When Posting field",
+    "VAT amount adjustment on posted invoices"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003389,
-      "pages_in_call": 8
+      "cost_usd": 0.003566,
+      "pages_in_call": 1
     }
   ]
 }

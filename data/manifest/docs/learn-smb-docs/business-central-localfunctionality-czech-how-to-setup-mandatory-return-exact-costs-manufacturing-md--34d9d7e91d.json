@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.335Z",
-      "blob": "3b4bce55f348c0940977ba3b0ee03a02979bf552",
-      "words": 28,
+      "at": "2026-10-15T00:29:26.747Z",
+      "blob": "ba9b4d8e69cbd9d751ed7a10e29a2959945ff339",
+      "words": 129,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:15.370Z",
+      "at": "2026-10-15T00:29:35.017Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.001002
+      "objects": 2,
+      "cost_usd": 0.002975
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.076Z",
+      "at": "2026-10-15T00:29:35.019Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.077Z",
+      "at": "2026-10-15T00:29:35.020Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.078Z",
+      "at": "2026-10-15T00:29:35.022Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md",
     "description": "Describes the local functionality for enforcing the return of exact manufacturing costs in the Czech version of Business Central.",
-    "ms_date": "2025-06-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 28,
+    "ai_usage": "ai-assisted",
+    "words": 129,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a39b7ed67db922192a8451cc8ccccc2d59004dc165e60b8769d7fa6fd6fef7d6"
+  "output_hash": "95881e6da486f37109c4ade53bdc49d4e4b0732a03b03d1b74ff4a58fbe64353"
 }

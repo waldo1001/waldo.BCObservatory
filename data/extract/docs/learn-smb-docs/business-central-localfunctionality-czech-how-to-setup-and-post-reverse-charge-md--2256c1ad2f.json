@@ -2,26 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge",
   "title": "Czech local functionality - Reverse charge in setup and posting",
-  "blob": "0afda5fe5da6714041eff79653d49c935c782ee2",
-  "summary": "Reverse charge setup and posting in Czech version manages transferred tax liability regime and VAT control reporting through tariff numbers, commodity codes, and posting setup monitoring.",
+  "blob": "2cd1320b556ce531761a5aaa551a0e6814ee5fcc",
+  "summary": "Set up and post reverse charge (transferred tax liability) in the Czech version using Tariff Numbers and Commodities with limit monitoring on VAT Posting Setup to ensure correct invoice posting mode and VAT Control Report compliance.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "reverse charge",
-    "vat",
-    "czech",
-    "tax liability",
-    "commodities"
-  ],
-  "objects": [],
-  "features": [
-    "transferred tax liability regime",
+    "transferred tax liability",
+    "vat posting setup",
     "tariff numbers",
-    "commodity numbers",
-    "VAT control report",
-    "PDP check"
+    "commodities",
+    "vat control report",
+    "czech"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "VAT Posting Setup"
+    },
+    {
+      "type": "page",
+      "name": "Commodity Setup"
+    },
+    {
+      "type": "page",
+      "name": "Tariff Numbers"
+    }
+  ],
+  "features": [
+    "reverse charge regime",
+    "limit monitoring",
+    "reverse charge check",
+    "vat control report codes",
+    "invoice posting mode"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001166,
-      "pages_in_call": 8
+      "cost_usd": 0.003157,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-post-disposal-of-fixed-asset.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-post-disposal-of-fixed-asset",
   "title": "Czech local functionality - Fixed asset posting of disposal | Microsoft Docs",
-  "blob": "8cda296d005512bf5dafe21cdd7ec59ff7a3267f",
-  "summary": "Fixed asset disposal posting in Czech version ensures proper accounting when assets are sold or disposed, maintaining correspondence between general ledger and fixed asset entries through Depreciation Book settings.",
+  "blob": "091d0f0abd223e2d5716a804fbad7f4b39d8699e",
+  "summary": "Czech fixed asset disposal posting ensures the fixed asset value matches the acquired value after depreciation by configuring correspondence settings on the Depreciation Book page.",
   "systems": [
     "fixed-assets",
-    "localization",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "disposal",
-    "fixed assets",
     "czech",
+    "fixed assets",
+    "disposal",
     "depreciation",
-    "posting"
+    "posting",
+    "localization"
   ],
   "objects": [
     {
@@ -23,8 +23,8 @@
     }
   ],
   "features": [
-    "Corresponding G/L Entries on Disposal",
-    "Corresponding FA Entries on Disposal"
+    "Corresp. G/L Entries on Disposal",
+    "Corresp. FA Entries on Disposal"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001166,
-      "pages_in_call": 8
+      "cost_usd": 0.002834,
+      "pages_in_call": 1
     }
   ]
 }

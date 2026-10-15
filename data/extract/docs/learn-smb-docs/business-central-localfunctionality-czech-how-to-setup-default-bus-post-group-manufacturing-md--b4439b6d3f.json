@@ -2,20 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing",
   "title": "Default business posting group in manufacturing [CZ]",
-  "blob": "28771a7857620b1e83c6d52371b06c9e1d7b91fb",
-  "summary": "Default business posting group configuration for manufacturing in Czech version enables standardized posting group assignment in manufacturing operations.",
+  "blob": "a0bb51464a63a30408c11efa5bd12f0791e12af5",
+  "summary": "Set a default General Business Posting Group for manufacturing orders to automatically assign a posting group to new orders without manual selection.",
   "systems": [
     "manufacturing",
-    "localization"
+    "finance"
   ],
   "topics": [
-    "business posting group",
-    "manufacturing",
-    "czech"
+    "manufacturing setup",
+    "posting groups",
+    "business posting groups",
+    "czech localization"
   ],
   "objects": [],
   "features": [
-    "default business posting group configuration"
+    "Default Gen. Bus. Posting Group for manufacturing orders"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +25,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001166,
-      "pages_in_call": 8
+      "cost_usd": 0.002554,
+      "pages_in_call": 1
     }
   ]
 }
