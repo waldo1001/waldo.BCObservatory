@@ -50,6 +50,13 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 - Secrets exist only in the Mac Mini's `/Users/bcobs/.config/bcobservatory/env`. The repository has no secrets.
 - Workflows that run on the self-hosted runner (`runs-on: [self-hosted, bcobs]`) are triggered by `schedule`,
   `workflow_dispatch` or `push` to `main` only. Pull-request workflows run on `ubuntu-latest`.
+- A spec under `docs/specs/` may be built by waldo.Jarvis's League instead of by hand. The League reads only specs whose
+  frontmatter (`---` on line 1) has `issue: <N>` and `status:`, and builds one when the owner applies the
+  `spec-approved` label to that issue; `bcobs-spec` writes every spec as `status: draft` and never approves one. A League
+  build runs on branch `league/<issue>-<topic>` with a PR labelled `league-building`, commits there and never pushes. Do
+  not build such a spec by hand while that branch or PR exists, and do not approve one while you are building it
+  (`/sdd-build` checks). To take over, follow `CLAUDE.md` "Taking over from the League". Skills: `bcobs-spec` (write),
+  `sdd-draft` (issue to draft), `sdd-build` (build, both modes).
 - Commit messages: conventional prefixes (`feat:`, `fix:`, `pipeline:`, `content:`, `infra:`, `docs:`). Nightly
   commits are `content: nightly <date> (<n> items)`.
 

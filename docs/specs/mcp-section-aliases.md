@@ -1,3 +1,8 @@
+---
+issue: 3
+status: draft
+---
+
 # A page's fields are its controls: section aliases, a not-found error that names the nearest key, and id checks pointed at search
 
 Status: proposed, 2026-10-14. Decision: D97 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M35
