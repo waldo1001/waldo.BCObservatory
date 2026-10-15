@@ -55,6 +55,8 @@ test("what the plugin installs: PLUGIN_SERVERS is plugin/.mcp.json, and plugin/R
   for (const u of Object.values(mcp).map((c) => c.url).filter(Boolean)) assert.ok(readme.includes(u!), `plugin/README.md gives ${u}`);
   const plugin = JSON.parse(read("plugin/.claude-plugin/plugin.json")).version, server = JSON.parse(read("packages/mcp/package.json")).version;
   assert.ok(readme.includes(plugin) && readme.includes(server), `plugin/README.md says plugin ${plugin} and server ${server}`);
+  const marketplace = JSON.parse(read(".claude-plugin/marketplace.json")).plugins.find((p: { name: string }) => p.name === "bc-observatory").version;
+  assert.equal(marketplace, plugin, ".claude-plugin/marketplace.json carries the plugin version (D97: a release bumps both)");
   const md = mcpMarkdown({ server: "9.9.9", plugin: "8.8.8" }, "https://github.com/o/r", "https://example.test/x/");
   assert.ok(md.includes("## What the plugin installs"));
   for (const p of PLUGIN_SERVERS) assert.ok(md.includes(`\`${p.name}\``) && md.includes(p.command ?? p.url!), p.name);

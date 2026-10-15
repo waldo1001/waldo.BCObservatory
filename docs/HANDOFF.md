@@ -30,9 +30,10 @@ questions in its section 12).
   `get_object(..., section: "fields")` (also `columns`, `members`) now reads the `controls` section; a section word that
   matches nothing answers with `Did you mean "<key>"?` when a key is near; the `get_object` text, `bc-lookup` and the MCP
   README say `controls` on a page and point id checks to `search("page 25", kind: "page")`; the skill gains a web client
-  URL line. Readers get it with MCP 0.7.2 and plugin 0.3.1. Operator steps: publish the MCP (`npm publish -w
-  packages/mcp`, as for 0.7.1) and drive the built bundle once (spec section 7: `npm run build -w packages/mcp`, then
-  `BC_OBSERVATORY_LOCAL=$PWD node packages/mcp/dist/server.js` over stdio).
+  URL line. Readers get it with MCP 0.7.2 and plugin 0.3.1 (also in `.claude-plugin/marketplace.json`, now tied to
+  `plugin.json` by a test). Operator step: publish the MCP with `gh workflow run publish-mcp.yml --ref main` (D40, as
+  for 0.7.1). The bundle was built and driven once over stdio on 2026-10-15 (spec section 7): the four calls answer as
+  specified.
 
 **Shipped 2026-10-13, live after the derive the merge starts and its Pages build:**
 - **Learn reader in the plugin, D96** (no spec, M34). The plugin connects Microsoft's Learn MCP

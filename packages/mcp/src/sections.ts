@@ -8,6 +8,8 @@
  * row slices that never cross the budget; `frontmatter` is a section of lines; a symbol path
  * (`objects/codeunit/80#event-OnAfterPostSalesDoc`) returns that member's row. Characters are String.length.
  */
+import { editDistance } from "@bc-observatory/search";
+
 export const DEFAULT_BUDGET = 30_000, MIN_BUDGET = 5_000;
 export const PREVIEW_ROWS = 5, ROW_CLIP = 200, PROSE_CLIP = 800, HEAD_LINE_MAX = 120;
 export const FM_LIST_CHARS = 600, FM_LIST_MIN = 3, RESERVE = 300;
@@ -174,25 +176,13 @@ export function findSection(p: ParsedPage, want: string): Section | null {
     ?? (isControlWord(w) ? p.sections.find((s) => s.key === "controls") ?? null : null);
 }
 
-/** Levenshtein distance, giving up above 2 (a local copy of packages/search's editDistance: the bundle stays self-contained). */
-function dist2(a: string, b: string): number {
-  if (Math.abs(a.length - b.length) > 2) return 3;
-  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
-  for (let i = 1; i <= a.length; i++) {
-    const cur = [i];
-    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-    prev = cur;
-  }
-  return prev[b.length];
-}
-
 /** Up to two section keys near `want`: the key starts with it, it starts with the key, either contains the other (4 or more
  *  characters), or the edit distance is 2 or less; `frontmatter` counts. No suggestion for an alias word (D97). */
 export function nearestKeys(p: ParsedPage, want: string): string[] {
   const w = snake(want);
   if (w === "" || isControlWord(want.trim().toLowerCase())) return [];
   const keys = [...p.sections.map((s) => s.key), "frontmatter"];
-  const near = (k: string) => k.startsWith(w) || w.startsWith(k) || (Math.min(k.length, w.length) >= 4 && (k.includes(w) || w.includes(k))) || dist2(w, k) <= 2;
+  const near = (k: string) => k.startsWith(w) || w.startsWith(k) || (Math.min(k.length, w.length) >= 4 && (k.includes(w) || w.includes(k))) || editDistance(w, k, 2) <= 2;
   return keys.filter(near).slice(0, 2);
 }
 

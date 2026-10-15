@@ -232,12 +232,13 @@ Changed: `packages/mcp/src/sections.ts`, `packages/mcp/src/server.ts`, `packages
 ## 11. Definition of Done
 
 - [x] Tests of section 5 pass; `npm run typecheck && npm test` is green.
-- [ ] `get_object("page", "22", section: "fields", limit: 3)` returns the `controls` rows against the built bundle
-      (operator step, not run: see section 12; test 4 covers the same path in process).
+- [x] `get_object("page", "22", section: "fields", limit: 3)` returns the `controls` rows against the built bundle
+      (built and driven over stdio on 2026-10-15 in the review of PR #6; test 4 covers the same path in process).
 - [x] `get_object` description at or under 1,000 characters; nine-tool total at or under 3,300.
 - [x] `OBJECT_KEYS` unchanged; test 17 unchanged and green.
 - [x] No file under `content/` or `data/` changed.
-- [x] MCP 0.7.2 and plugin 0.3.1 in the four places of task 6.
+- [x] MCP 0.7.2 and plugin 0.3.1 in the four places of task 6, and in `.claude-plugin/marketplace.json` (a fifth place
+      task 6 missed; `tests/unit/mcp.test.ts` now ties it to `plugin.json`).
 - [x] D97 appended to `docs/DECISIONS.md`; M35 row in `docs/PLAN.md` set to shipped; `docs/HANDOFF.md` entry moved from
       "Open specs" to "Where things stand"; this section renamed "Built, deviations".
 
@@ -263,13 +264,16 @@ failed with `Module ".../sections.js" has no exported member 'CONTROL_WORDS'` an
 | 3,798 tables with `## Fields` keep `fields` | 3,798 |
 | `get_object` description at most 1,000; nine-tool total at most 3,300 | the first wording made the total 3,314; shortened to fit |
 
-Deviations: the edit-distance helper is a local copy in `sections.ts` (the spec allows it). The description sentence is
+Deviations: the edit-distance helper is `editDistance` from `@bc-observatory/search` (the League wrote a local copy,
+which the spec allowed; the review of PR #6 replaced it, since the bundle already inlines that package). The description sentence is
 shorter than the spec's example, to fit the 3,300 total ("To check an id and name, or that a field, event or procedure
 exists, ..."). Nothing else.
 
-Operator steps still open: publish MCP 0.7.2 as 0.7.1 was; build the bundle (`npm run build -w packages/mcp`) and drive
-it once over stdio against the checkout (`BC_OBSERVATORY_LOCAL=$PWD node packages/mcp/dist/server.js`, the calls of
-section 7). The League did not build or run the bundle.
+Operator step still open: publish MCP 0.7.2 as 0.7.1 was (`gh workflow run publish-mcp.yml --ref main`, D40). The
+bundle was built and driven once over stdio on 2026-10-15 in the review of PR #6 (the calls of section 7): the alias
+answers with the `controls` header, `control` gets `Did you mean "controls"?`, `trigger` gets both near keys, the
+table and codeunit answers are unchanged, and the server reports 0.7.2. The same review removed the League's probe
+leftovers (`probe-out.txt`, `tests/unit/zz-probe.test.ts`) and bumped `.claude-plugin/marketplace.json` to 0.3.1.
 
 ## 13. Proposed edits to other files (applied 2026-10-15, see section 12)
 
