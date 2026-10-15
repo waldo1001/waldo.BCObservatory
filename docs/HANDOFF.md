@@ -15,12 +15,7 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-**MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35, issue #3). Status: proposed 2026-10-14, nothing implemented.
-From a chat where an agent lost six parallel `get_object(page, id, section: "fields")` calls: a page's fields section is
-keyed `controls`. Where to start: section 6 task 1, the failing tests in `tests/unit/mcp-sections.test.ts` (aliases
-`fields`, `columns`, `members` on a page; a nearest-key hint in the not-found answer), then `findSection` and
-`sectionView` in `packages/mcp/src/sections.ts`. One phase, no page or data change, no derive; MCP 0.7.2 and plugin
-0.3.1. Until it lands, `section: "controls"` is the key on a page and `search("page 25", kind: "page")` is the cheap id check.
+None open.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
@@ -29,6 +24,15 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-15, no derive needed (no page or data changed):**
+- **MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35, issue #3). On a page or page extension
+  `get_object(..., section: "fields")` (also `columns`, `members`) now reads the `controls` section; a section word that
+  matches nothing answers with `Did you mean "<key>"?` when a key is near; the `get_object` text, `bc-lookup` and the MCP
+  README say `controls` on a page and point id checks to `search("page 25", kind: "page")`; the skill gains a web client
+  URL line. Readers get it with MCP 0.7.2 and plugin 0.3.1. Operator steps: publish the MCP (`npm publish -w
+  packages/mcp`, as for 0.7.1) and drive the built bundle once (spec section 7: `npm run build -w packages/mcp`, then
+  `BC_OBSERVATORY_LOCAL=$PWD node packages/mcp/dist/server.js` over stdio).
 
 **Shipped 2026-10-13, live after the derive the merge starts and its Pages build:**
 - **Learn reader in the plugin, D96** (no spec, M34). The plugin connects Microsoft's Learn MCP

@@ -1,12 +1,12 @@
 ---
 issue: 3
-status: draft
+status: implemented
 ---
 
 # A page's fields are its controls: section aliases, a not-found error that names the nearest key, and id checks pointed at search
 
-Status: proposed, 2026-10-14. Decision: D97 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M35
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-15 (section 12 records what was built and where it differs). Decision: D97 (appended
+2026-10-15). Milestone: M35. Owner: waldo.
 Scope: the section finder and its not-found answer (`packages/mcp/src/sections.ts`), the `get_object` tool text
 (`packages/mcp/src/server.ts`), the `bc-lookup` skill and the MCP README, version bumps (MCP 0.7.2, plugin 0.3.1), tests.
 Every claim below was verified against the tree at `41f47fba38` (`origin/main`, 2026-10-14); the measurements were
@@ -231,16 +231,47 @@ Changed: `packages/mcp/src/sections.ts`, `packages/mcp/src/server.ts`, `packages
 
 ## 11. Definition of Done
 
-- [ ] Tests of section 5 pass; `npm run typecheck && npm test` is green.
-- [ ] `get_object("page", "22", section: "fields", limit: 3)` returns the `controls` rows against the built bundle.
-- [ ] `get_object` description at or under 1,000 characters; nine-tool total at or under 3,300.
-- [ ] `OBJECT_KEYS` unchanged; test 17 unchanged and green.
-- [ ] No file under `content/` or `data/` changed (`git diff --stat origin/main -- content data` is empty).
-- [ ] MCP 0.7.2 and plugin 0.3.1 in the four places of task 6.
-- [ ] D97 appended to `docs/DECISIONS.md`; M35 row in `docs/PLAN.md` set to shipped; `docs/HANDOFF.md` entry moved from
+- [x] Tests of section 5 pass; `npm run typecheck && npm test` is green.
+- [ ] `get_object("page", "22", section: "fields", limit: 3)` returns the `controls` rows against the built bundle
+      (operator step, not run: see section 12; test 4 covers the same path in process).
+- [x] `get_object` description at or under 1,000 characters; nine-tool total at or under 3,300.
+- [x] `OBJECT_KEYS` unchanged; test 17 unchanged and green.
+- [x] No file under `content/` or `data/` changed.
+- [x] MCP 0.7.2 and plugin 0.3.1 in the four places of task 6.
+- [x] D97 appended to `docs/DECISIONS.md`; M35 row in `docs/PLAN.md` set to shipped; `docs/HANDOFF.md` entry moved from
       "Open specs" to "Where things stand"; this section renamed "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-15)
+
+Built in one phase by waldo.Jarvis's League (the commits are its checkpoints on the `league/3-*` branch):
+
+- `packages/mcp/src/sections.ts`: `CONTROL_WORDS`, the alias branch of `findSection` (last, after key, heading and snake
+  heading, so it never shadows a real key), `nearestKeys` and the `Did you mean` text in `sectionView`.
+- `packages/mcp/src/server.ts`: the `get_object` description (the parenthetical `(frontmatter, the first 5 rows ...)` is
+  dropped, as task 4 allows), `VERSION` 0.7.2.
+- `packages/mcp/package.json` 0.7.2, `plugin/.claude-plugin/plugin.json` 0.3.1, `plugin/README.md` (plugin 0.3.1, MCP
+  0.7.2), `packages/mcp/README.md` (section keys), `plugin/skills/bc-lookup/SKILL.md` (step 2 and the web client line).
+- Tests: `tests/unit/mcp-sections.test.ts` (D97 tests for 1-8 and the real-content test), `tests/unit/mcp.test.ts`
+  (`'controls'` and `kind: 'page'` in the `get_object` description). Test 9 and test 17 are unchanged and green.
+
+Verified: `npm run typecheck` clean; `npm test` green (a run of the touched files: 42 tests, 0 failed). Red first: `tsc`
+failed with `Module ".../sections.js" has no exported member 'CONTROL_WORDS'` and `'nearestKeys'`.
+
+| Spec | Measured |
+|---|---|
+| 5,958 pages and 1,591 page extensions with `## Fields on this page` | the real-content test resolves all three words on 7,567 pages and extensions (the spec's grep says 7,549; the test matches the heading line anywhere in the file) |
+| 3,798 tables with `## Fields` keep `fields` | 3,798 |
+| `get_object` description at most 1,000; nine-tool total at most 3,300 | the first wording made the total 3,314; shortened to fit |
+
+Deviations: the edit-distance helper is a local copy in `sections.ts` (the spec allows it). The description sentence is
+shorter than the spec's example, to fit the 3,300 total ("To check an id and name, or that a field, event or procedure
+exists, ..."). Nothing else.
+
+Operator steps still open: publish MCP 0.7.2 as 0.7.1 was; build the bundle (`npm run build -w packages/mcp`) and drive
+it once over stdio against the checkout (`BC_OBSERVATORY_LOCAL=$PWD node packages/mcp/dist/server.js`, the calls of
+section 7). The League did not build or run the bundle.
+
+## 13. Proposed edits to other files (applied 2026-10-15, see section 12)
 
 `docs/DECISIONS.md`: the D97 text of section 3.
 
