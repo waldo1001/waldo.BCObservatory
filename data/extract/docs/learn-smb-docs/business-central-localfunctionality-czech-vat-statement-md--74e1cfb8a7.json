@@ -2,20 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-statement",
   "title": "Czech local functionality - VAT statement",
-  "blob": "fde5a153362a0ee7c900ba30aa8791ca432f9f94",
-  "summary": "VAT Statement for Czech Republic extends the standard VAT Statement report with features for EU triangular trade reporting, VAT period filtering, multiple statement types, XML export, and comments and attachments.",
+  "blob": "406bdbdd5d8b35c94779e3ffe02cd5e0e9875e1f",
+  "summary": "Czech VAT Statement report enables filtering, rounding, and export of VAT entries with support for multiple statement types, EU triangular trade, and tax authority submissions.",
   "systems": [
-    "localization",
     "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "vat",
     "czech",
     "statement",
-    "eu triangular trade",
-    "vat periods",
-    "tax reporting"
+    "tax reporting",
+    "localization",
+    "eu trade"
   ],
   "objects": [
     {
@@ -25,13 +24,17 @@
   ],
   "features": [
     "Stat. Reporting Setup",
-    "Row Division and Multiplication operations",
-    "VAT advance setup",
-    "EU Triangular Trade filtering",
-    "Amount rounding",
+    "Row Division operation",
+    "Row Multiplication operation",
+    "VAT advances setup",
+    "EU 3-Party Intermediary Role filtering",
+    "VAT statement rounding",
     "VAT period filtering",
-    "Multiple statement types (Recapitulative, Corrective, Supplementary)",
-    "XML export with comments"
+    "Recapitulative statement type",
+    "Corrective statement type",
+    "Supplementary statement type",
+    "XML export",
+    "Comments and attachments"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00277,
-      "pages_in_call": 8
+      "cost_usd": 0.003271,
+      "pages_in_call": 1
     }
   ]
 }

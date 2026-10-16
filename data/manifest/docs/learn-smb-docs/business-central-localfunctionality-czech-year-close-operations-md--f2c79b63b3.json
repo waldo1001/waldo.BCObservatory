@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "Year Closing Operations [CZ]",
+  "title": "Year closing operations in the Czech version",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.495Z",
-      "blob": "caa7e49fe87f2898cc0ebd1a123d0b90d2dc6d43",
-      "words": 131,
+      "at": "2026-10-16T00:23:29.668Z",
+      "blob": "a6508b4e651b2871d465d9bcbd8e86a0cf9e524d",
+      "words": 710,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:14.165Z",
+      "at": "2026-10-16T00:23:53.143Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.00277
+      "cost_usd": 0.003916
     },
     "summarized": {
-      "at": "2026-10-06T19:23:14.182Z",
+      "at": "2026-10-16T00:23:53.144Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:14.182Z",
+      "at": "2026-10-16T00:23:53.145Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:14.183Z",
+      "at": "2026-10-16T00:23:53.146Z",
       "page": false
     }
   },
@@ -44,9 +44,9 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/year-close-operations.md",
-    "description": "Learn how to manage year-end closing operations in the Czech version, including closing and opening account books to meet local accounting requirements.",
-    "ms_date": "2025-06-09",
-    "ms_topic": "article",
+    "description": "Learn how to run the Close Income Statement, Close Balance Sheet, and Open Balance Sheet reports to meet Czech year-end accounting requirements.",
+    "ms_date": "2026-10-08",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "Czech",
@@ -54,12 +54,12 @@
       "CZ",
       "closing operations"
     ],
-    "ai_usage": null,
-    "words": 131,
+    "ai_usage": "ai-assisted",
+    "words": 710,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "df494dd7b9638a3f494a9d277070e86aa3100f1c62626beb78e0a1e4716491d7"
+  "output_hash": "c490eec9f9ea238f28a20baac4dde252dc6ea775b0e94cd5b2fdc4a77499db83"
 }

@@ -2,20 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/wip-extended-posting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting",
   "title": "Czech local functionality - WIP extended posting",
-  "blob": "d6facd41e2eaa8c769fbedbe2a3a230fa7080f1f",
-  "summary": "WIP extended posting in the Czech version provides information about work-in-progress extended posting functionality in the Czech localization.",
+  "blob": "59f04268323e8e20e555d9e16898eba2fa74a306",
+  "summary": "Czech WIP extended posting separates G/L accounts for work-in-process inventory from finished product accounts during manufacturing output and consumption posting to track changes on dedicated accounts.",
   "systems": [
-    "localization",
-    "finance"
-  ],
-  "topics": [
-    "wip posting",
-    "czech",
+    "manufacturing",
+    "inventory",
     "localization"
   ],
-  "objects": [],
+  "topics": [
+    "wip extended posting",
+    "inventory posting",
+    "general ledger accounts",
+    "czech localization",
+    "manufacturing consumption",
+    "work in process"
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Inventory Posting Setup"
+    }
+  ],
   "features": [
-    "WIP extended posting"
+    "Consumption Account",
+    "Change In Inv.Of WIP Acc.",
+    "Change In Inv.Of Product Acc.",
+    "WIP inventory separation",
+    "manufacturing posting",
+    "location-based setup"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002622,
-      "pages_in_call": 8
+      "cost_usd": 0.0034,
+      "pages_in_call": 1
     }
   ]
 }

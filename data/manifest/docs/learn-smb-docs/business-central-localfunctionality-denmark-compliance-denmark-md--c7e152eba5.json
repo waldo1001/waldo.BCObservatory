@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.668Z",
-      "blob": "18998b5bbc88125193dc2ada950961df9e510606",
+      "at": "2026-10-16T00:23:29.645Z",
+      "blob": "e2dfce769151bf9bcf76c8a23dc70ee109c6b1b6",
       "words": 3308,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.733Z",
+      "at": "2026-10-16T00:23:53.132Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 6,
-      "cost_usd": 0.003743
+      "objects": 9,
+      "cost_usd": 0.014817
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.745Z",
+      "at": "2026-10-16T00:23:53.134Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.746Z",
+      "at": "2026-10-16T00:23:53.135Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.746Z",
+      "at": "2026-10-16T00:23:53.136Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/compliance-denmark.md",
     "description": "Learn how Business Central complies with the bookkeeping act in Denmark.",
-    "ms_date": "2025-03-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -58,12 +58,12 @@
       "denmark",
       "dk"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 3308,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "724a2a9c7f62858530c68d141db15858c8881954be2fd56e55e01bd762468c3e"
+  "output_hash": "2dbd7c4df9ee17097e116ef5bee20de5b64873f3c4acaaa5e3ced92e3b8f6e06"
 }

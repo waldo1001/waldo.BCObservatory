@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12472",
+  "number": 12472,
+  "title": "Expense Agent Default VAT Setup fails in localized companies",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent Default VAT Setup is corrected to work properly in localized companies.",
+  "key_points": [
+    "Fixes VAT setup initialization for Expense Agent in localized environments",
+    "Updates Expense Agent Setup table with proper configuration logic",
+    "Test coverage added to validate correct behavior across localizations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002139,
+    "changes_in_call": 2
+  }
+}

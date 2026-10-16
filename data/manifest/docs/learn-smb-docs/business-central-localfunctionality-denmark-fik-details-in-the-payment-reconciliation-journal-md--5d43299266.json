@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.043Z",
-      "blob": "f56b1c824411b4cecca80a538a5116c917763db5",
-      "words": 196,
+      "at": "2026-10-16T00:24:05.245Z",
+      "blob": "049a8c1a62722ee804a02c1e43e643ce92fac43f",
+      "words": 175,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:03.546Z",
+      "at": "2026-10-16T00:24:22.679Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002828
+      "cost_usd": 0.00323
     },
     "summarized": {
-      "at": "2026-10-06T19:32:03.556Z",
+      "at": "2026-10-16T00:24:22.680Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:03.557Z",
+      "at": "2026-10-16T00:24:22.682Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:03.558Z",
+      "at": "2026-10-16T00:24:22.682Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md",
     "description": "The Transaction Text field shows information about the automatic application of payments using the Danish FIK standard.",
-    "ms_date": "2025-03-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "FIK number",
       "Denmark"
     ],
-    "ai_usage": null,
-    "words": 196,
+    "ai_usage": "ai-assisted",
+    "words": 175,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7156813f9b4daadb20e1151404e349addcff791c541d590e6605054dae400945"
+  "output_hash": "d9fbc096d6c032d466379df92f8b000b429db89d77be549884e8fbbdfe9f046b"
 }

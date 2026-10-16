@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12542",
+  "number": 12542,
+  "title": "[Main]Incorrect Calculation of Remaining Prod. Order Comp.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Incorrect calculation of remaining production order component quantities is corrected in the reservation entry logic.",
+  "key_points": [
+    "Fixes calculation error for remaining production order component quantities",
+    "Modifies Create Reservation Entry codeunit to properly compute component requirements",
+    "Adds test coverage for production order component tracking scenarios"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "inventory"
+  ],
+  "quote": "Incorrect Calculation of Remaining Prod. Order Comp.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002139,
+    "changes_in_call": 2
+  }
+}

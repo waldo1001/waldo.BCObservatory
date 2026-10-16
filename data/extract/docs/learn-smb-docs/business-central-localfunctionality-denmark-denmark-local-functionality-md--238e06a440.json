@@ -2,39 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/denmark-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality",
   "title": "Denmark local functionality",
-  "blob": "ea5f6ad70d7c41d591a77f51ef0502a182c6edd9",
-  "summary": "Denmark local functionality in Business Central includes compliance, auditing, VAT reporting, electronic banking, OIOUBL electronic invoicing, and payroll features for Danish legal and regulatory requirements.",
+  "blob": "f00fda29770b49d83ffcd95229c2acf5490965d0",
+  "summary": "Denmark local functionality in Business Central covers compliance with Danish bookkeeping act, auditing with SAF-T export, VAT reporting, banking payments with FIK details, OIOUBL electronic invoicing, and payroll data definitions.",
   "systems": [
+    "localization",
     "finance",
-    "localization"
+    "sales"
   ],
   "topics": [
     "denmark",
+    "local functionality",
     "compliance",
-    "vat reporting",
-    "auditing",
-    "saf-t",
+    "vat",
     "electronic invoicing",
     "oioubl",
-    "electronic banking",
-    "payroll"
+    "auditing"
   ],
   "objects": [],
   "features": [
-    "bookkeeping act compliance",
+    "Compliance with bookkeeping act",
     "5-year data retention",
-    "digital vouchers",
+    "Mandatory digital vouchers",
     "SAF-T audit file export",
-    "standard chart of accounts",
+    "Standard Chart of Accounts",
     "VAT reconciliation reports",
-    "VAT-VIES reporting",
-    "e-submission of VAT return",
     "OIOUBL electronic invoicing",
-    "NemHandel registration",
-    "payment reconciliation"
+    "FIK payment details"
   ],
   "versions": [
-    "2026 release wave 1"
+    "2026 release wave 2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -42,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005899,
-      "pages_in_call": 8
+      "cost_usd": 0.004089,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.705Z",
-      "blob": "ea5f6ad70d7c41d591a77f51ef0502a182c6edd9",
-      "words": 230,
+      "at": "2026-10-16T00:23:42.920Z",
+      "blob": "f00fda29770b49d83ffcd95229c2acf5490965d0",
+      "words": 235,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:01.721Z",
+      "at": "2026-10-16T00:24:06.245Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.005899
+      "cost_usd": 0.004089
     },
     "summarized": {
-      "at": "2026-10-06T18:51:03.489Z",
+      "at": "2026-10-16T00:24:06.247Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:03.490Z",
+      "at": "2026-10-16T00:24:06.248Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:03.491Z",
+      "at": "2026-10-16T00:24:06.249Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/denmark-local-functionality.md",
     "description": "The following article provides links that describe local functionality in Denmark.",
-    "ms_date": "2025-12-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "DK",
       "Danish"
     ],
-    "ai_usage": null,
-    "words": 230,
+    "ai_usage": "ai-assisted",
+    "words": 235,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca2cdeed29f2a789cb8562f7f7ad648b3e8427b280b4e03683fc2ce8e03d7b0f"
+  "output_hash": "b32f1b53b0656161aafe135f9acaeeb0de66e801b56c9b8f55aad2e3cec441a1"
 }

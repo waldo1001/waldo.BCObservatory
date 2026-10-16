@@ -6,7 +6,7 @@
   "title": "Expense Agent Default VAT Setup fails in localized companies",
   "url": "https://github.com/microsoft/BCApps/pull/12472",
   "published_at": "2026-10-12T16:01:22Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:23:29.689Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002139
+    },
+    "linked": {
+      "at": "2026-10-16T00:23:29.915Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:23:29.922Z",
+      "path": "content/changes/bcapps/12472.md"
     }
   },
   "input_hash": "4a9575830bf5679678fca4749470bcee149f09e2:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cdb7c065bbd2cbb1413bd7c90f9880d25e954bb086d498ca29472eac9fb0454b"
+  "output_hash": "7280555160e259418b455ee4765e461b8f95dc9e71302c5fd235e85d8aae7412"
 }

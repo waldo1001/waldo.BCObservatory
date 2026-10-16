@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.123Z",
-      "blob": "d6facd41e2eaa8c769fbedbe2a3a230fa7080f1f",
-      "words": 20,
+      "at": "2026-10-16T00:23:00.537Z",
+      "blob": "59f04268323e8e20e555d9e16898eba2fa74a306",
+      "words": 279,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:28.603Z",
+      "at": "2026-10-16T00:23:17.645Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002622
+      "objects": 1,
+      "cost_usd": 0.0034
     },
     "summarized": {
-      "at": "2026-10-06T19:21:28.690Z",
+      "at": "2026-10-16T00:23:17.646Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:28.691Z",
+      "at": "2026-10-16T00:23:17.647Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:28.699Z",
+      "at": "2026-10-16T00:23:17.648Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/wip-extended-posting.md",
     "description": "Learn about the WIP Extended Posting local functionality available in the Czech version of Business Central.",
-    "ms_date": "2025-06-09",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 20,
+    "ai_usage": "ai-assisted",
+    "words": 279,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "099971c78433e03fa25509cc194908b96d523c34eca3794869164fdc23f42b0a"
+  "output_hash": "3b3bd35ccac54adb29e2002ff3969c16f4e654c5dd5046ee418a3a3759f003d6"
 }

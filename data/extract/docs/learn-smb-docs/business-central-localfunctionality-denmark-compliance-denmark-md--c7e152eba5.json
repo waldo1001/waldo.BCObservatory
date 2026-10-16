@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/compliance-denmark.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/compliance-denmark",
   "title": "Compliance with the bookkeeping act in Denmark",
-  "blob": "18998b5bbc88125193dc2ada950961df9e510606",
-  "summary": "Dynamics 365 Business Central is registered as a digital bookkeeping system in Denmark and complies with the Danish bookkeeping act by supporting transaction recording, audit trails, receipt storage, data preservation for five years, IT security standards, e-invoicing, and bank reconciliation.",
+  "blob": "e2dfce769151bf9bcf76c8a23dc70ee109c6b1b6",
+  "summary": "Dynamics 365 Business Central is registered as a standard digital bookkeeping system under Danish law (DBA registration fob467715). The page details how the system complies with Danish Executive Order No. 97 requirements for transaction recording, audit trails, receipt storage, data security, electronic invoicing, and bank reconciliation.",
   "systems": [
     "finance",
-    "localization",
-    "administration"
+    "administration",
+    "integration"
   ],
   "topics": [
-    "denmark",
     "compliance",
     "bookkeeping",
+    "denmark",
     "audit trail",
-    "e-invoicing",
+    "electronic invoicing",
     "bank reconciliation",
     "data retention"
   ],
@@ -24,12 +24,8 @@
       "name": "G/L Register"
     },
     {
-      "type": "page",
-      "name": "General Ledger Entries"
-    },
-    {
-      "type": "page",
-      "name": "Bank Reconciliation"
+      "type": "table",
+      "name": "G/L Entry"
     },
     {
       "type": "page",
@@ -37,21 +33,41 @@
     },
     {
       "type": "page",
+      "name": "Bank Reconciliation"
+    },
+    {
+      "type": "table",
+      "name": "Bank Account"
+    },
+    {
+      "type": "page",
       "name": "Chart of Accounts"
+    },
+    {
+      "type": "table",
+      "name": "General Ledger Entries"
     },
     {
       "type": "page",
       "name": "Standard Accounts"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
     }
   ],
   "features": [
-    "G/L Register",
-    "Audit trail",
-    "Electronic invoicing",
-    "Bank reconciliation",
-    "Chart of Accounts mapping",
-    "E-invoice formats (OIOUBL, Peppol BIS)",
-    "Data export",
+    "transaction date and amount recording",
+    "consecutive transaction numbering",
+    "user ID tracking",
+    "reversing entries",
+    "digital receipt storage",
+    "five-year data retention",
+    "ISO/IEC 27001 security",
+    "OIOUBL e-invoicing",
+    "Peppol BIS e-invoicing",
+    "bank account reconciliation",
+    "standard chart of accounts mapping",
     "NemHandelsregisteret registration"
   ],
   "versions": [],
@@ -61,8 +77,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003743,
-      "pages_in_call": 8
+      "cost_usd": 0.014817,
+      "pages_in_call": 1
     }
   ]
 }

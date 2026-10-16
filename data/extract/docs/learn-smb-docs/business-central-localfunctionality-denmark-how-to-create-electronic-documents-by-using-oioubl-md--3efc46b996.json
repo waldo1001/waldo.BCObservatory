@@ -2,18 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl",
   "title": "Create Electronic Documents in an OIOUBL format",
-  "blob": "53b2871690e015020129251226cbbdd0ad027a03",
-  "summary": "Create electronic invoices, credit memos, reminders, and finance charge memos in OIOUBL format for Danish public sector customers. Set up customers and required fields, then post sales or service documents and generate the electronic XML file.",
+  "blob": "868159524275b4458e684c6cd3f55276f3b735ea",
+  "summary": "Creating electronic documents in OIOUBL format for Danish public sector sales. Describes how to post sales invoices and credit memos with required fields, then export them as XML electronic documents.",
   "systems": [
     "sales",
     "localization"
   ],
   "topics": [
-    "oioubl",
     "electronic documents",
+    "oioubl",
     "denmark",
-    "invoicing",
-    "xml"
+    "invoices",
+    "credit memos",
+    "public sector"
   ],
   "objects": [
     {
@@ -23,15 +24,21 @@
     {
       "type": "page",
       "name": "Posted Sales Invoices"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "electronic invoice generation",
-    "credit memo creation",
-    "reminder generation",
-    "external document numbering",
-    "GLN support",
-    "OIOUBL account codes"
+    "OIOUBL electronic document creation",
+    "External Document No.",
+    "Document No. as Ext. Doc. No.",
+    "GLN field",
+    "Account Code field",
+    "Your Reference field",
+    "XML export",
+    "Electronic invoice posting"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002828,
-      "pages_in_call": 7
+      "cost_usd": 0.003978,
+      "pages_in_call": 1
     }
   ]
 }
