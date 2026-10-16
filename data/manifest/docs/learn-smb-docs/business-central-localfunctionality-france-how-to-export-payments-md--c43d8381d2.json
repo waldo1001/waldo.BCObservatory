@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.260Z",
-      "blob": "856afacc3b252f07178458e0ff9033a1d28a3a7c",
-      "words": 165,
+      "at": "2026-10-16T00:25:41.624Z",
+      "blob": "2f9cbcc30d06947db5283bc9346ef59507af0962",
+      "words": 168,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.049Z",
+      "at": "2026-10-16T00:25:46.344Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002643
+      "cost_usd": 0.003424
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.068Z",
+      "at": "2026-10-16T00:25:46.345Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.069Z",
+      "at": "2026-10-16T00:25:46.346Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.069Z",
+      "at": "2026-10-16T00:25:49.936Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-export-payments.md",
     "description": "Use the Payment Management module to export your payments electronically via a text file or XMLport.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "payment export",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 165,
+    "ai_usage": "ai-assisted",
+    "words": 168,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57e17c070f50fa32cff5ca3a3013dca6e162b37b3fb12b535b6bd8b23318cf7f"
+  "output_hash": "56548371fb6ea312ea0d1c9512213c37ce97a544477be0b3965aea4c49f547ba"
 }

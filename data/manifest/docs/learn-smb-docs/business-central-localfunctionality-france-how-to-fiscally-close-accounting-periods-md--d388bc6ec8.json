@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.270Z",
-      "blob": "794bba4f3ef5f1d0d694eec959294222805f3502",
+      "at": "2026-10-16T00:25:41.878Z",
+      "blob": "bb215a90bd72e128d21cb164136ff7f7c2dd50a0",
       "words": 151,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.050Z",
+      "at": "2026-10-16T00:25:49.957Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002643
+      "cost_usd": 0.002892
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.070Z",
+      "at": "2026-10-16T00:25:49.959Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.071Z",
+      "at": "2026-10-16T00:25:49.961Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.072Z",
+      "at": "2026-10-16T00:25:49.963Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md",
     "description": "Learn how to fiscally close the accounting period to make sure that no more general ledger entries can be posted.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "close fiscal period",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 151,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9c7bfe03cdbad90afeae2f13c24bc29002e793172e18031c1eb84406afe6efc"
+  "output_hash": "daabcfbc5cd821f5e7d27ed622a185651f6020d09009e196bf1a276d82ea3385"
 }

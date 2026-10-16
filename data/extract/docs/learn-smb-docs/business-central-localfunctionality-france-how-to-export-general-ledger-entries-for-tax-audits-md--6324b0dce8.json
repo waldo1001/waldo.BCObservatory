@@ -2,24 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
   "title": "Export General Ledger Entries Tax Audits [FR]",
-  "blob": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
-  "summary": "Export General Ledger Entries for Tax Audits in French localization generates audit files with posted entries and opening balances. Use this to comply with French tax authority reporting requirements for corporate tax and VAT audits.",
+  "blob": "4c558bb7d6f2bf12b4bb0af891db2ce21364b28f",
+  "summary": "Export general ledger entries for tax audits in France using the FEC audit file format with optional opening balances calculation. Required for French corporate tax and VAT compliance.",
   "systems": [
     "finance",
-    "reporting",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
     "tax audit",
-    "general ledger export",
+    "general ledger",
+    "france localization",
+    "fec audit file",
     "opening balances",
-    "french localization",
-    "corporate tax"
+    "export",
+    "compliance"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Export G/L Entries – Tax Audit"
+      "name": "Audit File Export Documents"
     },
     {
       "type": "page",
@@ -27,11 +29,12 @@
     }
   ],
   "features": [
-    "Opening balances",
-    "Detailed Balance checkbox",
-    "Starting Date",
-    "Ending Date",
-    "Include Opening Balances option"
+    "Include Opening Balances",
+    "FEC audit file format",
+    "Opening balance calculation",
+    "Detailed Balance on G/L Accounts",
+    "Date range filtering",
+    "File export functionality"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002643,
-      "pages_in_call": 8
+      "cost_usd": 0.003983,
+      "pages_in_call": 1
     }
   ]
 }

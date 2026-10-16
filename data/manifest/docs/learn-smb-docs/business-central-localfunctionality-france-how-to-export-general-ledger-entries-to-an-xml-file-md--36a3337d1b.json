@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-smb-docs",
   "tier": "official",
-  "title": "How to Export General Ledger Entries to an XML File",
+  "title": "Export general ledger entries to an XML file",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.239Z",
-      "blob": "663fc5bec8d7379e09a58ec185f3f6cef309a2d5",
-      "words": 231,
+      "at": "2026-10-16T00:25:36.483Z",
+      "blob": "09f506167a6a24ef82d8b24405d9f0ba79aee88a",
+      "words": 233,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.047Z",
+      "at": "2026-10-16T00:25:41.822Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002643
+      "cost_usd": 0.003391
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.061Z",
+      "at": "2026-10-16T00:25:41.824Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.062Z",
+      "at": "2026-10-16T00:25:41.825Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.064Z",
+      "at": "2026-10-16T00:25:41.827Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md",
     "description": "Learn how to export financial transactions for a particular period to an XML file for external archiving.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "XML file",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 231,
+    "ai_usage": "ai-assisted",
+    "words": 233,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f57b8f84689490d26178bbaabd81ef9f3e47174c1ba2b84f72f1442e25abaad5"
+  "output_hash": "45a9d29026f68404972d3d1973ffa835504ccfe9b97cbf7cd1ca8cc8497e3c7f"
 }

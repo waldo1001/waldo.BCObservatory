@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.227Z",
-      "blob": "2904afe0564d819d58c3320775e87074dfa788b7",
-      "words": 783,
+      "at": "2026-10-16T00:25:36.462Z",
+      "blob": "0afd01b088655cad85a5cc6e4e4c7ed7d21d46de",
+      "words": 818,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.043Z",
+      "at": "2026-10-16T00:25:43.081Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002643
+      "objects": 5,
+      "cost_usd": 0.005112
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.056Z",
+      "at": "2026-10-16T00:25:43.082Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.057Z",
+      "at": "2026-10-16T00:25:43.084Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.058Z",
+      "at": "2026-10-16T00:25:43.086Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-create-payment-slips.md",
-    "description": "Learn ho to create payments slips to manage vendor and customer payments in the French version of Business Central.",
-    "ms_date": "2025-04-15",
+    "description": "Learn how to create payment slips to manage vendor and customer payments in the French version of Business Central.",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -141,15 +141,15 @@
     ],
     "keywords": [
       "create payment slips",
-      "vendor paymnt slip",
+      "vendor payment slip",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 783,
+    "ai_usage": "ai-assisted",
+    "words": 818,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90c416f129e38dd1019babb8849f3ff728da7db0087a4f260911a6e3128dbd39"
+  "output_hash": "36ddca9ab4536697367073e6271c8ccaeb75ba89590336fcc6352977d6acf169"
 }

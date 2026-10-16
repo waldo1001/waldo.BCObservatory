@@ -2,25 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-post-payment-slips.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-payment-slips",
   "title": "How to Post Payment Slips [FR]",
-  "blob": "38aa89e0e0d50081bb09775d51497e9032127f09",
-  "summary": "Posting payment slips in French Business Central completes payment transactions by editing a payment slip with Action Type set to Ledger and using the Post action.",
+  "blob": "83738c73d2b03e565033f08ebbc83fde18d85d3f",
+  "summary": "How to post payment slips in the French version of Business Central. Post payment slips to complete payment transactions and create related financial data when the payment step action type is set to Ledger.",
   "systems": [
-    "purchasing",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "payment management",
     "payment slips",
     "posting",
-    "france"
+    "french localization",
+    "payment management",
+    "payment steps"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Slips"
+    },
+    {
+      "type": "page",
+      "name": "Payment Slip"
+    }
+  ],
   "features": [
-    "Payment Slips page",
-    "Post action",
-    "Action Type",
-    "Payment Slip posting",
-    "Ledger integration"
+    "post payment slips",
+    "payment step action type",
+    "ledger posting",
+    "payment transaction completion"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002614,
-      "pages_in_call": 8
+      "cost_usd": 0.003333,
+      "pages_in_call": 1
     }
   ]
 }

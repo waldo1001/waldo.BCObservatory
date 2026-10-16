@@ -2,25 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-close-income-statement-accounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-income-statement-accounts",
   "title": "How to Close Income Statement Accounts [FR]",
-  "blob": "2f1ef5356e1e90592e6fe69fb5ce0a60ca6d3da7",
-  "summary": "Close income statement accounts in French Business Central runs the Close Income Statement batch job after fiscal year closure to transfer net income to balance sheet equity accounts.",
+  "blob": "1e44c49a4838b56462367eefc76131e77b965997",
+  "summary": "How to close income statement accounts in the French version of Business Central by running the Close Income Statement batch job and posting closing entries to the general journal.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
+    "closing",
     "income statement",
-    "account closure",
-    "france",
     "fiscal year",
-    "year-end"
+    "france",
+    "general journal"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Close Income Statement"
+    },
+    {
+      "type": "page",
+      "name": "General Journals"
+    }
+  ],
   "features": [
-    "close income statement",
-    "batch job",
-    "closing entries",
-    "year-end closure"
+    "Close Income Statement batch job",
+    "Fiscal Year Ending Date",
+    "Gen. Journal Template",
+    "Gen. Journal Batch",
+    "Retained Earnings Acc.",
+    "Post to Retained Earnings Acc."
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002395,
-      "pages_in_call": 8
+      "cost_usd": 0.003344,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.233Z",
-      "blob": "fb4548b7e3b766ac16557c73fdccf2c1a2fbdd38",
-      "words": 435,
+      "at": "2026-10-16T00:25:36.499Z",
+      "blob": "4c558bb7d6f2bf12b4bb0af891db2ce21364b28f",
+      "words": 472,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.046Z",
+      "at": "2026-10-16T00:25:42.344Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002643
+      "cost_usd": 0.003983
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.059Z",
+      "at": "2026-10-16T00:25:42.347Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.060Z",
+      "at": "2026-10-16T00:25:42.348Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.060Z",
+      "at": "2026-10-16T00:25:42.349Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md",
     "description": "Learn how to export general ledger entries to a text file for a tax audit.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "export general ledger entries",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 435,
+    "ai_usage": "ai-assisted",
+    "words": 472,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd2c502bbfd7c543ca0bac718f4937d24cb21a2e8bb7348f64820280c9bf6f1a"
+  "output_hash": "2368f21f5f8c8b2d308c175f76275317c23a2f56c20c72d3eb81c788ffaefe6b"
 }

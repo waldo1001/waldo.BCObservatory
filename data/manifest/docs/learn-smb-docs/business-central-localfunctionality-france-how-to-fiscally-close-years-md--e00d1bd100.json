@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-years",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.275Z",
-      "blob": "572c669b667bd309ef7315357489ebd775821653",
+      "at": "2026-10-16T00:25:42.318Z",
+      "blob": "eea7d397b79ab6b3c921d3201a29af9c3c8063b3",
       "words": 210,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.051Z",
+      "at": "2026-10-16T00:25:49.993Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002643
+      "objects": 0,
+      "cost_usd": 0.003025
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.074Z",
+      "at": "2026-10-16T00:25:49.995Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.075Z",
+      "at": "2026-10-16T00:25:49.996Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.076Z",
+      "at": "2026-10-16T00:25:50.005Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-fiscally-close-years.md",
     "description": "Learn the process of fiscally closing periods in a fiscal year to prevent further general ledger postings.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "close fiscal year",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 210,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d88696442d6124e9c291485e8bddc0fdd078aa4dcd8e3010d15f570497c8d69a"
+  "output_hash": "1c37edff52bbba42b87b75c505a572560dbfbad271fcc54d3ea7153657c3a91e"
 }

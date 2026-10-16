@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-years",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:53.189Z",
+      "at": "2026-10-16T00:25:41.570Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002643
+      "objects": 0,
+      "cost_usd": 0.003113
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.053Z",
+      "at": "2026-10-16T00:25:41.572Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.054Z",
+      "at": "2026-10-16T00:25:41.573Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.055Z",
+      "at": "2026-10-16T00:25:41.574Z",
       "page": false
     }
   },
@@ -60,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "100b8611460014b85661ac06ae238052e050ad5e"
+  "output_hash": "adbbf887664efa083ed33ec0f0d12f4b2548fbf43526d1287583104ea9da5957"
 }

@@ -2,30 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-close-years.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-years",
   "title": "Close Years [FR]",
-  "blob": "35ef598d83955fedc2ea4b4e3e21e9279a08de07",
-  "summary": "Close Years in French localization closes fiscal periods and years in Business Central. Use this to finalize fiscal years before starting new ones and prevent further posting without fiscal closure.",
+  "blob": "100b8611460014b85661ac06ae238052e050ad5e",
+  "summary": "Close fiscal years and their periods in the French version of Business Central. Use when a fiscal year is complete and needs to be closed, preventing further changes to period dates while allowing subsequent general ledger entries until fiscal closure.",
   "systems": [
     "finance",
-    "administration",
     "localization"
   ],
   "topics": [
-    "fiscal year",
+    "fiscal year closing",
     "accounting periods",
-    "year-end close",
+    "year-end processes",
     "french localization"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Accounting Periods"
-    }
-  ],
+  "objects": [],
   "features": [
     "Close Year action",
+    "Accounting Periods",
     "Closed field",
     "Date Locked field",
-    "Prior-Year Entry marking"
+    "Prior-Year Entry marking",
+    "fiscal closing"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002643,
-      "pages_in_call": 8
+      "cost_usd": 0.003113,
+      "pages_in_call": 1
     }
   ]
 }

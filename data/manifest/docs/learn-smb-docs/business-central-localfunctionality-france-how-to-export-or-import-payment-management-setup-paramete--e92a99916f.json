@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.254Z",
-      "blob": "03fb741fb081daf0eb6e68297a11d2b461e5484b",
+      "at": "2026-10-16T00:25:37.756Z",
+      "blob": "f12b6e1442ad267a16fa876ef347f2ae93324658",
       "words": 137,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:55.048Z",
+      "at": "2026-10-16T00:25:42.237Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002643
+      "cost_usd": 0.002811
     },
     "summarized": {
-      "at": "2026-10-06T19:28:55.065Z",
+      "at": "2026-10-16T00:25:42.239Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:55.066Z",
+      "at": "2026-10-16T00:25:42.240Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:55.067Z",
+      "at": "2026-10-16T00:25:42.241Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md",
     "description": "Learn how to export or import payment management setup parameters to an external disk, enabling their reuse for another company with similar requirements.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "install-set-up-deploy",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "payment management parameters",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 137,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5b23fd03d26f13a235a2cadc23daef65be0ccf1bdd7062dd6d1385a06e953a15"
+  "output_hash": "20ee985d84ef2159ba37c39fe37595e78e2b84f3f84bccce69f55527ad31adcf"
 }

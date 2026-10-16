@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-payment-slips",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.284Z",
-      "blob": "38aa89e0e0d50081bb09775d51497e9032127f09",
-      "words": 150,
+      "at": "2026-10-16T00:25:43.153Z",
+      "blob": "83738c73d2b03e565033f08ebbc83fde18d85d3f",
+      "words": 190,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.214Z",
+      "at": "2026-10-16T00:25:49.971Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002614
+      "objects": 2,
+      "cost_usd": 0.003333
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.479Z",
+      "at": "2026-10-16T00:25:49.973Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.480Z",
+      "at": "2026-10-16T00:25:49.975Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.481Z",
+      "at": "2026-10-16T00:25:49.976Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-post-payment-slips.md",
     "description": "Learn the steps to post payment slips to complete payment transactions and create the associated financial data.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "payment slip",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 150,
+    "ai_usage": "ai-assisted",
+    "words": 190,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "796137b957b9919d2badbb3cf869ae89c483507a97633f40628aad1750ecd121"
+  "output_hash": "40fe7e6616ece78f16f7c6f95b302fdf59b4e4e2cc81ee654ccf26faed35fa93"
 }

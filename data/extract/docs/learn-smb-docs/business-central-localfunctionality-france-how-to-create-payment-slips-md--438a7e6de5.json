@@ -2,24 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-create-payment-slips.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips",
   "title": "Create Payment Slips [FR]",
-  "blob": "2904afe0564d819d58c3320775e87074dfa788b7",
-  "summary": "Create Payment Slips in French localization manages vendor and customer payments through payment classes and SEPA export. Use this to generate payment slips and electronic payment files for vendors and customers.",
+  "blob": "0afd01b088655cad85a5cc6e4e4c7ed7d21d46de",
+  "summary": "Create payment slips for vendors and customers in the French localization, configuring currency, dates, account details, and SEPA information before generating payment files to send to the bank.",
   "systems": [
-    "purchasing",
-    "sales",
-    "localization"
+    "finance",
+    "localization",
+    "integration"
   ],
   "topics": [
     "payment slips",
     "vendor payments",
     "customer payments",
     "sepa",
-    "french localization"
+    "french localization",
+    "payment files",
+    "bank integration"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Payment Slip"
+      "name": "Payment Slips"
     },
     {
       "type": "page",
@@ -27,22 +29,26 @@
     },
     {
       "type": "page",
-      "name": "Select – Vendor Account List"
+      "name": "Vendor Bank Account List"
     },
     {
       "type": "page",
       "name": "Bank Account List"
+    },
+    {
+      "type": "page",
+      "name": "Payment Step"
     }
   ],
   "features": [
-    "Payment Class selection",
-    "SEPA payment setup",
-    "Suggest Vendor Payments",
-    "Generate file",
-    "Payment file export",
-    "RIB Bank details",
-    "SWIFT Code",
-    "IBAN"
+    "payment slip creation",
+    "vendor payment suggestions",
+    "SEPA configuration",
+    "payment class setup",
+    "bank account integration",
+    "payment file generation",
+    "dimension tracking",
+    "payment file export"
   ],
   "versions": [],
   "parts": 1,
@@ -51,8 +57,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002643,
-      "pages_in_call": 8
+      "cost_usd": 0.005112,
+      "pages_in_call": 1
     }
   ]
 }

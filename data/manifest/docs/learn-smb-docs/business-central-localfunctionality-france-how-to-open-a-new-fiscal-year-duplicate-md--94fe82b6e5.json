@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.280Z",
-      "blob": "fc0ad46c516c4b030a042095a0b7b790e2344aa6",
+      "at": "2026-10-16T00:25:42.411Z",
+      "blob": "a4a7045603899c8b764fbc9a241b0b8ec0d8c52c",
       "words": 191,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.213Z",
+      "at": "2026-10-16T00:25:49.946Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002614
+      "objects": 1,
+      "cost_usd": 0.00313
     },
     "summarized": {
-      "at": "2026-10-06T19:29:08.221Z",
+      "at": "2026-10-16T00:25:49.947Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:08.222Z",
+      "at": "2026-10-16T00:25:49.949Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:08.223Z",
+      "at": "2026-10-16T00:25:49.950Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md",
     "description": "Learn the steps to open a fiscal year and define its accounting periods in the French version of Business Central.",
-    "ms_date": "2025-04-15",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "define accounting periods",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 191,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "113e097d7155813effb509ea9739d62f62b501e6011d279a993419eba9de9f25"
+  "output_hash": "417f71555bddf59b1b6df726b2a8ebb136e29a23805a2fc7703daca80cca9ca2"
 }
