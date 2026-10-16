@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.433Z",
-      "blob": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
-      "words": 793,
+      "at": "2026-10-16T00:26:32.297Z",
+      "blob": "807c0b69014eb0efe0f85d308e680a62ec218dab",
+      "words": 794,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:26:12.187Z",
+      "at": "2026-10-16T00:26:39.125Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.003525
+      "cost_usd": 0.005005
     },
     "summarized": {
-      "at": "2026-10-06T19:26:12.242Z",
+      "at": "2026-10-16T00:26:39.127Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:26:12.243Z",
+      "at": "2026-10-16T00:26:39.128Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:26:12.244Z",
+      "at": "2026-10-16T00:26:39.128Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications.md",
     "description": "Learn how to set up and export sales VAT advance notifications in Business Central by configuring the necessary declaration and setup pages.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "export VAT notifications",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 793,
+    "ai_usage": "ai-assisted",
+    "words": 794,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "70bb2a97d10ea1695ec5d0373a1caeffb2f937231472defd5ed71566c77ae4b4"
+  "output_hash": "36a3be3dd69290f742b28a4b88173da530511e5cbec8f98d44865585055364af"
 }

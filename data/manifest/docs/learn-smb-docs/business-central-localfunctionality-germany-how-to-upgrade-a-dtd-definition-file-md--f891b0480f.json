@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.435Z",
-      "blob": "c5021bdb86e837f45f8c040ce5ca132ed6ba49b9",
+      "at": "2026-10-16T00:26:39.523Z",
+      "blob": "0f8a6fed9c421d23dfde1d8e8c43268fc90013ab",
       "words": 119,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.278Z",
+      "at": "2026-10-16T00:26:45.477Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003116
+      "cost_usd": 0.002772
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.393Z",
+      "at": "2026-10-16T00:26:45.478Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.394Z",
+      "at": "2026-10-16T00:26:45.480Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.396Z",
+      "at": "2026-10-16T00:26:45.482Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md",
     "description": "Validate a .dtd file after importing it to resolve upgrade issues in the German version.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "upgrade-and-migration-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "resolve upgrade issues",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 119,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8081f3e25366aa8456f12968ee1bc176d2576bd0fc0c9ae98fde85ab9a545f82"
+  "output_hash": "5536aeb02e53b4909913dd6a203da987d06d705ae277936c9537a0efb7043edd"
 }

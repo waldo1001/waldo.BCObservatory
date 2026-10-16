@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.426Z",
-      "blob": "d2123b5e3ccb7d6410b43ea5dc6ee860d39559b7",
+      "at": "2026-10-16T00:26:38.064Z",
+      "blob": "33ef09a2599989efaa4bd005509accb8745a3562",
       "words": 33,
-      "forms": 3
+      "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.269Z",
+      "at": "2026-10-16T00:26:41.840Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003116
+      "cost_usd": 0.002703
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.351Z",
+      "at": "2026-10-16T00:26:41.841Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.353Z",
+      "at": "2026-10-16T00:26:41.843Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.354Z",
+      "at": "2026-10-16T00:26:45.442Z",
       "page": false
     }
   },
@@ -45,17 +45,12 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md",
     "description": "Use purchase delivery reminders in the German version of Business Central to notify vendors about overdue deliveries.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
         "raw": "5005270",
         "id": 5005270,
-        "kind": null
-      },
-      {
-        "raw": "5005271",
-        "id": 5005271,
         "kind": null
       },
       {
@@ -70,12 +65,12 @@
       "overdue deliveries",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 33,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "90ec755376d231d33d36488ec091e212c1f00e853d97c2be27ee6c4d2869d8a9"
+  "output_hash": "f46ee6868dbc748df8f32363a91906a4c3106d62ab137d6672973eb56bf9c9e0"
 }

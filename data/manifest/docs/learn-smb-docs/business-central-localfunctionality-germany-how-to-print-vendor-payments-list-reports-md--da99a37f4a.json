@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.412Z",
-      "blob": "b75c39bcbccf9e286fccfb5909364059aa6a4fde",
-      "words": 217,
+      "at": "2026-10-16T00:26:32.254Z",
+      "blob": "867d3da00d447b722e2984044d173cfdf997a779",
+      "words": 214,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.227Z",
+      "at": "2026-10-16T00:26:39.468Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002358
+      "cost_usd": 0.003253
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.376Z",
+      "at": "2026-10-16T00:26:39.470Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.377Z",
+      "at": "2026-10-16T00:26:39.471Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.378Z",
+      "at": "2026-10-16T00:26:39.472Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md",
     "description": "The Vendor Payments List report lists payments for each vendor in the German version. It can sort payments chronologically or by vendor.",
-    "ms_date": "2025-03-11",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "sort payments by vendor",
       "vendor payments list report"
     ],
-    "ai_usage": null,
-    "words": 217,
+    "ai_usage": "ai-assisted",
+    "words": 214,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c6ca6c9d286edf25e1905e0d133f84b6452c6ab7dc2150f26d8b8b6b3653f275"
+  "output_hash": "72630753a6a191111a90935db58d1d1ed8a6c81f878ef40f30e9a2369be82290"
 }

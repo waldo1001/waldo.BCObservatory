@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.408Z",
-      "blob": "441c596872f8356124387119041c1e0bc63d3907",
+      "at": "2026-10-16T00:26:32.284Z",
+      "blob": "2ed565629c5a74aa4dee54a14afffec9e7e4cc31",
       "words": 146,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.226Z",
+      "at": "2026-10-16T00:26:38.015Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002358
+      "objects": 1,
+      "cost_usd": 0.002846
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.370Z",
+      "at": "2026-10-16T00:26:38.016Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.373Z",
+      "at": "2026-10-16T00:26:38.017Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.374Z",
+      "at": "2026-10-16T00:26:38.018Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders.md",
     "description": "After creating delivery reminders and making changes in the German version, you can print the test reports or issue the delivery reminders.",
-    "ms_date": "2025-03-11",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "issue delivery reminders",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 146,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5c2b61beefcb085c788e6b6ff3aa0cdbe9e828aa83878e60134ce10c27ce221f"
+  "output_hash": "ea9b19e08f442a6089ad53ae4d777670f843dd08d0e7d48a7195fb123caf89ac"
 }

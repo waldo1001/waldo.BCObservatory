@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.439Z",
-      "blob": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
+      "at": "2026-10-16T00:26:39.838Z",
+      "blob": "2b4b22ec67e2cff2b1437d9db5cd2ae085771045",
       "words": 981,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.279Z",
+      "at": "2026-10-16T00:26:45.463Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003116
+      "cost_usd": 0.004332
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.397Z",
+      "at": "2026-10-16T00:26:45.465Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.399Z",
+      "at": "2026-10-16T00:26:45.466Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.400Z",
+      "at": "2026-10-16T00:26:45.468Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/process-for-digital-audits.md",
     "description": "Export data according to the digital audit process (GoBD/GDPdU) based on German tax law.",
-    "ms_date": "2024-05-04",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
@@ -102,12 +102,12 @@
       "German tax law",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 981,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c74b999b03da87ecd5d51fc6fd32388e83326f6677213e5b889fed479e5d792b"
+  "output_hash": "e0f0aec42e05a1e58882f02a962c3ed99babcb52a6ac07f325ee77367ef7eaa4"
 }

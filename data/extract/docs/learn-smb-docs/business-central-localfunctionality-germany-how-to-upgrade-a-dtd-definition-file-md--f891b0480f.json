@@ -2,22 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file",
   "title": "How to upgrade a .DTD definition file [DE]",
-  "blob": "c5021bdb86e837f45f8c040ce5ca132ed6ba49b9",
-  "summary": "Upgrade and validate .DTD definition files for digital audits (GoBD/GDPdU) in the German version after importing to address version compatibility issues.",
+  "blob": "0f8a6fed9c421d23dfde1d8e8c43268fc90013ab",
+  "summary": "How to upgrade and validate a .DTD definition file for digital audits in the German version of Business Central by importing and validating the file through Data Exports.",
   "systems": [
     "localization",
     "administration"
   ],
   "topics": [
-    "digital audits",
-    "dtd files",
-    "germany local functionality",
-    "gobdgdpdu"
+    "dtd definition file",
+    "digital audit",
+    "germany",
+    "upgrade",
+    "validation",
+    "data exports"
   ],
   "objects": [],
   "features": [
-    "DTD file validation",
-    "DTD file import"
+    "Data Exports",
+    "Record Definitions",
+    "Validate action",
+    "Import action"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +30,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.002772,
+      "pages_in_call": 1
     }
   ]
 }

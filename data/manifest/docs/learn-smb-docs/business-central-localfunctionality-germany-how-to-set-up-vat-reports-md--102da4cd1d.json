@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.430Z",
-      "blob": "f312b0ce0983588a6bc62bbe682d6345399a9c4c",
-      "words": 263,
+      "at": "2026-10-16T00:26:39.428Z",
+      "blob": "8fd57b053df9280140b182e79e2f395353cdbb27",
+      "words": 288,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.276Z",
+      "at": "2026-10-16T00:26:45.493Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003116
+      "objects": 4,
+      "cost_usd": 0.004026
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.389Z",
+      "at": "2026-10-16T00:26:45.494Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.390Z",
+      "at": "2026-10-16T00:26:45.502Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.391Z",
+      "at": "2026-10-16T00:26:45.511Z",
       "page": false
     }
   },
@@ -44,22 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports.md",
-    "description": "Learn how to set up report parameters in Business Central to file a VAT report under the ELMA5 system.",
-    "ms_date": "2025-03-12",
+    "description": "Learn how to set up VAT statements, company information, and tax office data before you declare VAT-VIES tax or sales VAT advance notifications in the German version.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
-      "report parameters",
-      "ELMA5 system",
       "VAT report setup",
+      "tax office setup",
+      "VAT statement setup",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 263,
+    "ai_usage": "ai-assisted",
+    "words": 288,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "49f53cf8a93d7d4c5bceff647c9e392423f3efd6223ebc763c2fa2e3f262eb8f"
+  "output_hash": "794a333462e119fc5d795c00b81256c7e4aa9ed08762ab7bbc7f3f08590dff04"
 }

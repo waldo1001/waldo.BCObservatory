@@ -2,20 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits",
   "title": "Set Up Data Exports for a Digital Audit [DE]",
-  "blob": "c23d5ffc609fdd23733f7fdbae877540e02a5fb3",
-  "summary": "Set up data exports for digital audits (GDPdU/GoBD) by defining data export record sources, configuring tables, fields, and relationships to export financial and business data according to German regulatory requirements.",
+  "blob": "9a80c8c3e5eb2d48be8467279d7097b51749a30b",
+  "summary": "Set up data export record sources and configurations to export financial and operational data according to German GDPdU audit requirements. Use this to define tables, fields, filters, and relationships for digital audit compliance.",
   "systems": [
-    "finance",
     "localization",
+    "finance",
     "administration"
   ],
   "topics": [
     "data export",
     "digital audit",
     "gdpdu",
-    "gobd",
-    "germany",
-    "compliance"
+    "german compliance",
+    "record definitions",
+    "table filtering"
   ],
   "objects": [
     {
@@ -32,20 +32,34 @@
     },
     {
       "type": "page",
-      "name": "Data Export Table Relation"
+      "name": "Data Export Table Relationship"
     },
     {
       "type": "page",
-      "name": "Data Exp. Field List"
+      "name": "Data Export Field List"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "Fixed Asset"
     }
   ],
   "features": [
-    "data export",
-    "digital audit",
-    "GDPdU compliance",
-    "record definitions",
-    "table relations",
-    "date filtering"
+    "data export setup",
+    "record source configuration",
+    "table filtering",
+    "field selection",
+    "date filtering",
+    "table relationships",
+    "DTD file import",
+    "file encoding"
   ],
   "versions": [],
   "parts": 1,
@@ -54,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002358,
-      "pages_in_call": 8
+      "cost_usd": 0.005778,
+      "pages_in_call": 1
     }
   ]
 }

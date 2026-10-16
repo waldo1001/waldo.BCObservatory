@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-and-export-sales-vat-advance-notifications",
   "title": "Set up and export sales VAT advance notifications",
-  "blob": "2c14363cf0efb07e1c25fe5f2aa7aab5092619dd",
-  "summary": "Set up and export sales VAT advance notifications as XML files to German tax authorities through the ELSTER online portal, requiring company registration, VAT statement configuration, and the ELSTER VAT Localization extension.",
+  "blob": "807c0b69014eb0efe0f85d308e680a62ec218dab",
+  "summary": "Sales VAT advance notifications allow German companies to report VAT to tax authorities via the ELSTER online portal by generating XML files with tax data. Set up company information, electronic VAT declaration details, and VAT statements, then create and export the XML file.",
   "systems": [
-    "localization",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
+    "vat reporting",
     "germany",
-    "vat",
-    "tax reporting",
     "elster",
-    "advance notification",
-    "xml"
+    "tax compliance",
+    "xml export",
+    "sales vat"
   ],
   "objects": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "type": "page",
-      "name": "Sales Vat Advanced Notification List"
+      "name": "Sales VAT Advance Notification List"
     },
     {
       "type": "page",
@@ -43,13 +43,13 @@
     }
   ],
   "features": [
-    "Sales VAT Advance Notification",
-    "ELSTER Integration",
-    "XML File Generation",
-    "VAT Statement",
-    "Test Notification",
-    "Company Registration",
-    "Tax Office Information"
+    "ELSTER VAT Localization for Germany extension",
+    "Sales VAT Advance Notification generation",
+    "XML file creation and export",
+    "VAT statement configuration",
+    "Test notification option",
+    "Preview statement action",
+    "Company registration and tax office information setup"
   ],
   "versions": [
     "version 19.3"
@@ -60,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003525,
-      "pages_in_call": 8
+      "cost_usd": 0.005005,
+      "pages_in_call": 1
     }
   ]
 }

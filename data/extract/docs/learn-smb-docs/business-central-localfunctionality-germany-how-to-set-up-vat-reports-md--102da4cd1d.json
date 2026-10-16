@@ -2,24 +2,48 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports",
   "title": "How to Set Up VAT Reports [DE]",
-  "blob": "f312b0ce0983588a6bc62bbe682d6345399a9c4c",
-  "summary": "Configure VAT report settings in the German version to support ELMA5 system filing, including numbering series, modification permissions, and ZIVIT information.",
+  "blob": "8fd57b053df9280140b182e79e2f395353cdbb27",
+  "summary": "Setting up VAT reports in the German version of Business Central requires configuring company and tax office information on the Company Information page, then linking VAT statements to declarations via the VAT Statement Names page for sales VAT advance notifications and ELSTER-specific setups.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
     "vat reporting",
-    "germany local functionality",
-    "tax compliance",
-    "elma5 system"
+    "germany",
+    "tax setup",
+    "vat statements",
+    "sales vat",
+    "elster",
+    "company information"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statement Names"
+    },
+    {
+      "type": "page",
+      "name": "Electronic VAT Decl. Setup"
+    }
+  ],
   "features": [
-    "VAT report setup",
-    "modify submitted reports",
-    "export cancellation lines",
-    "numbering series configuration"
+    "VAT reporting",
+    "VAT-VIES tax declaration",
+    "Sales VAT advance notifications",
+    "ELSTER setup",
+    "Tax office information",
+    "VAT representative",
+    "VAT statement linking"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +52,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.004026,
+      "pages_in_call": 1
     }
   ]
 }

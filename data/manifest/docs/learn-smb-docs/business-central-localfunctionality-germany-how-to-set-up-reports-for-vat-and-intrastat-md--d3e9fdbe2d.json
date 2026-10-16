@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:22.954Z",
-      "blob": "f0cd82e5dba94d07cdbd0a5be953ce8cf5b881e5",
-      "words": 445,
+      "at": "2026-10-16T00:26:39.173Z",
+      "blob": "e2d5f5570a94c3e866922d5cc227d56366969544",
+      "words": 403,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T16:57:55.162Z",
+      "at": "2026-10-16T00:26:45.451Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.006142
+      "cost_usd": 0.004275
     },
     "summarized": {
-      "at": "2026-10-06T17:00:12.078Z",
+      "at": "2026-10-16T00:26:45.452Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:00:12.079Z",
+      "at": "2026-10-16T00:26:45.453Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:00:12.080Z",
+      "at": "2026-10-16T00:26:45.455Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md",
     "description": "Learn how to specify the reports used to create documents for submission to authorities, such as the VAT statement and the Intrastat form.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "set up reports",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 445,
+    "ai_usage": "ai-assisted",
+    "words": 403,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a9ff0c0f2164584e88f9fa4dfcc0cac5c65fb9b54ed1e9df26cda912881f6fbd"
+  "output_hash": "aa50f0fc5e14e0838cc190aa31e2045fc1d79b5bb760a42f50cedbf805137770"
 }

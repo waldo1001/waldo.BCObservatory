@@ -2,20 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders",
   "title": "Set Up Delivery Reminders [DE]",
-  "blob": "d2123b5e3ccb7d6410b43ea5dc6ee860d39559b7",
-  "summary": "Set up delivery reminders in the German version of Business Central to track and manage vendor delivery delays.",
+  "blob": "33ef09a2599989efaa4bd005509accb8745a3562",
+  "summary": "Set up delivery reminders in the German localization of Business Central, including configuring reminder terms, levels, text, and vendor codes.",
   "systems": [
-    "purchasing",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "delivery reminders",
+    "german localization",
     "vendor management",
-    "germany local functionality"
+    "setup"
   ],
   "objects": [],
   "features": [
-    "delivery reminders setup"
+    "delivery reminder terms",
+    "delivery reminder levels",
+    "delivery reminder text",
+    "delivery reminder codes"
   ],
   "versions": [],
   "parts": 1,
@@ -24,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.002703,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,28 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/process-for-digital-audits.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits",
   "title": "Digital audits (GoBD/GDPdU)",
-  "blob": "76ced4d4f10bf97e0ccc0d8bcd7d0152c79e8f45",
-  "summary": "Export Business Central data according to German digital audit regulations (GoBD/GDPdU) by defining tables, fields, and filters to comply with Section 146-147 of the German Fiscal Code.",
+  "blob": "2b4b22ec67e2cff2b1437d9db5cd2ae085771045",
+  "summary": "Digital audit export (GoBD/GDPdU) process for German tax compliance allows configurable data exports from Business Central to ASCII files with XML index for tax authority analysis software (IDEA).",
   "systems": [
-    "localization",
     "finance",
+    "localization",
     "administration"
   ],
   "topics": [
-    "digital audits",
-    "germany local functionality",
-    "tax compliance",
+    "gdpdu export",
+    "german tax audit",
+    "digital audit",
     "data export",
-    "gobdgdpdu",
-    "ascii export"
+    "tax compliance",
+    "ascii format",
+    "xml index"
   ],
   "objects": [],
   "features": [
     "period filters",
     "table filters",
     "flowfield filters",
-    "export performance",
-    "data export configuration"
+    "data export configuration",
+    "xml index generation",
+    "ascii file export",
+    "performance optimization",
+    "filter examples"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.004332,
+      "pages_in_call": 1
     }
   ]
 }
