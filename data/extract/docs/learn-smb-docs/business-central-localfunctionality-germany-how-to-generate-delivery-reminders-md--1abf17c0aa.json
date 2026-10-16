@@ -2,19 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-generate-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-generate-delivery-reminders",
   "title": "How to Generate Delivery Reminders [DE]",
-  "blob": "c74e16a01968a5eadd176059f9473daa54f5355c",
-  "summary": "Generate delivery reminders automatically in German Business Central. Use for automated vendor delivery reminder creation.",
+  "blob": "f7eca26f8719d49d5cb51f9a0b67d9d3b8f2a04c",
+  "summary": "Generate delivery reminders in the German version of Business Central to remind vendors about overdue deliveries. Used in purchasing workflows for vendor management in Germany.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization",
+    "administration"
   ],
   "topics": [
     "delivery reminders",
-    "automated generation",
-    "germany"
+    "vendor management",
+    "germany",
+    "purchasing"
   ],
   "objects": [],
   "features": [
-    "automated delivery reminders"
+    "delivery reminder generation",
+    "vendor reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -23,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.005657,
+      "pages_in_call": 1
     }
   ]
 }

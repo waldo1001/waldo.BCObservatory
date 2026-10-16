@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.367Z",
-      "blob": "ba8cfb1ad8fa2f4945f5dca5efedb865ab816328",
-      "words": 565,
+      "at": "2026-10-16T00:26:18.674Z",
+      "blob": "ff3023deb910acfcd8b5c1d0cc533785034ee1bb",
+      "words": 228,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:14.470Z",
+      "at": "2026-10-16T00:26:23.843Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002242
+      "objects": 2,
+      "cost_usd": 0.003491
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.507Z",
+      "at": "2026-10-16T00:26:23.845Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.508Z",
+      "at": "2026-10-16T00:26:23.846Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.509Z",
+      "at": "2026-10-16T00:26:23.847Z",
       "page": false
     }
   },
@@ -44,22 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-create-vat-reports.md",
-    "description": "You can configure various types of VAT reports in electronic format to comply with ELMA5 format requirements.",
-    "ms_date": "2025-03-10",
+    "description": "Learn how to create and submit sales VAT advance notifications and VAT-VIES declarations in the German version.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "VAT reports",
-      "ELMAS",
-      "VAT report type",
+      "sales VAT advance notification",
+      "VAT-VIES declaration",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 565,
+    "ai_usage": "ai-assisted",
+    "words": 228,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3268935e96159270900b9f37f4447d306c8e89834986248eefc96ab3909f4f32"
+  "output_hash": "a589b40bc2afeaa464fa40d9dbeec5687be5e71d30441501e5f5cbb2e1665913"
 }

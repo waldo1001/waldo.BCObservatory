@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.399Z",
-      "blob": "bfd18552d7864d1b49f2dd2f85c61a8e7e74faf8",
+      "at": "2026-10-16T00:26:25.410Z",
+      "blob": "b72f8bc8b49aac90cf168a4bcc5bb93f0b54f7c3",
       "words": 174,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.224Z",
+      "at": "2026-10-16T00:26:32.188Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002358
+      "objects": 0,
+      "cost_usd": 0.002918
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.362Z",
+      "at": "2026-10-16T00:26:32.196Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.363Z",
+      "at": "2026-10-16T00:26:32.197Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.364Z",
+      "at": "2026-10-16T00:26:32.198Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-post-a-negative-entry.md",
     "description": "Use the Correction field to post a negative debit instead of a credit, or to post a negative credit instead of a debit on an account to meet legal requirements.",
-    "ms_date": "2025-03-11",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "German version",
       "negative entry"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 174,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "131833c1158ccd6c3ec5317da1368f0961e9e990f41d6418e7699a74f8fda7b3"
+  "output_hash": "6705c0188d5729ce5f51250d89a0dd2a6b9df8cb3bd51b066a37a07499713f95"
 }

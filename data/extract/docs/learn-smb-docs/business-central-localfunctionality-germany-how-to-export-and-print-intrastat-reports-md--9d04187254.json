@@ -2,23 +2,47 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports",
   "title": "Export and Print Intrastat Reports (DE)",
-  "blob": "1316508ae94f976e67ad1219fb9aede789a824a7",
-  "summary": "Export and print Intrastat reports in German Business Central using deprecated Intrastat Journals functionality. Use for EU trade reporting to German statistics and tax authorities.",
+  "blob": "d6867be4d95f6c7923226144e15472cfe4a28113",
+  "summary": "Export and print Intrastat reports in XML format for Germany using the Intrastat Report page with IDEV or eSTATISTIK.CORE submission channels to report EU trade to statistics authorities.",
   "systems": [
-    "finance"
+    "finance",
+    "localization",
+    "reporting"
   ],
   "topics": [
     "intrastat",
-    "eu reporting",
     "germany",
-    "deprecated"
+    "xml export",
+    "eu reporting",
+    "trade statistics",
+    "tax compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Intrastat Report List"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report"
+    },
+    {
+      "type": "page",
+      "name": "Company Information"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Report Setup"
+    }
+  ],
   "features": [
-    "Intrastat checklist",
-    "Intrastat form",
-    "export to disk",
-    "ASCII format"
+    "Checklist Report action",
+    "Create File action",
+    "XML export",
+    "IDEV submission channel",
+    "eSTATISTIK.CORE submission channel",
+    "Test submission",
+    "Error messages validation"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.0042,
+      "pages_in_call": 1
     }
   ]
 }

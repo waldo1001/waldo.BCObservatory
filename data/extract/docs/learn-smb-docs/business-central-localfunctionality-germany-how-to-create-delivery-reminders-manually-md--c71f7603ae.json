@@ -2,19 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-create-delivery-reminders-manually.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-delivery-reminders-manually",
   "title": "How to Create Delivery Reminders Manually [DE]",
-  "blob": "420dcbc42230edacc95d43d9eff087923ccfe08e",
-  "summary": "Create delivery reminders manually in German Business Central. Use for vendor delivery reminder creation outside automated processes.",
+  "blob": "26e7e536de98feccf99c6a947e9877c4acb5af5f",
+  "summary": "How to manually create delivery reminders in the German version of Business Central. Use this guide when you need to create delivery reminders for vendors outside of the automated generation process.",
   "systems": [
+    "localization",
     "purchasing"
   ],
   "topics": [
     "delivery reminders",
-    "manual creation",
-    "germany"
+    "german localization",
+    "vendor management",
+    "purchasing"
   ],
   "objects": [],
   "features": [
-    "manual delivery reminders"
+    "delivery reminder creation",
+    "manual reminder processing"
   ],
   "versions": [],
   "parts": 1,
@@ -23,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.005504,
+      "pages_in_call": 1
     }
   ]
 }

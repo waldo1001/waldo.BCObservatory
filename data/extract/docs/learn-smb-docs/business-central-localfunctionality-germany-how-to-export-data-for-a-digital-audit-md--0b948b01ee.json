@@ -2,24 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit",
   "title": "Export Data for a Digital Audit [DE]",
-  "blob": "f00e3d41319ffb28c17d1936d144fdc66bcab051",
-  "summary": "Export financial and tax data for digital audits using GoBD/GDPdU process in German Business Central. Use when preparing audit data in XML format.",
+  "blob": "11805ff7383d961e4cd2c10549b030d367e7fe62",
+  "summary": "Export Business Data page allows users to export financial and tax data according to German digital audit processes (GoBD/GDPdU) by specifying date ranges and filters, with results packaged in a ZIP archive.",
   "systems": [
     "finance",
+    "localization",
     "administration"
   ],
   "topics": [
     "digital audit",
-    "gobд",
     "data export",
-    "germany"
+    "german localization",
+    "gobd",
+    "gdpdu",
+    "compliance",
+    "financial data"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Export Business Data"
+    }
+  ],
   "features": [
-    "data export",
-    "XML files",
-    "period filtering",
-    "closing date inclusion"
+    "Starting Date filter",
+    "Ending Date filter",
+    "Include Closing Date option",
+    "Data Export Record Definition filters",
+    "ZIP archive export",
+    "XML file format"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.003422,
+      "pages_in_call": 1
     }
   ]
 }

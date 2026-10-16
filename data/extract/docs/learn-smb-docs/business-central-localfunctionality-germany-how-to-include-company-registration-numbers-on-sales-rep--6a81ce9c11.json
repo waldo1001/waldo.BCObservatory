@@ -2,11 +2,11 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports",
   "title": "Include Company Registration Numbers on Sales and Purchase Reports",
-  "blob": "262607c1d16d3994ebb2b264cc7277a03b08d021",
-  "summary": "Include company registration numbers on sales and purchase reports by entering registration numbers in Company Information for sales reports or in Vendor records for purchase reports.",
+  "blob": "a273e2f85160059c370c87a46bd89dabbb52208e",
+  "summary": "Configure company and vendor registration numbers to print on sales and purchase reports in Germany. Set the company registration number on the Tax Office FastTab in Company Information and vendor registration numbers on the Invoicing FastTab in the Vendors page.",
   "systems": [
-    "sales",
     "purchasing",
+    "sales",
     "localization"
   ],
   "topics": [
@@ -14,23 +14,16 @@
     "sales reports",
     "purchase reports",
     "germany",
+    "company information",
+    "vendors",
     "reporting"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Company Information"
-    },
-    {
-      "type": "page",
-      "name": "Vendors"
-    }
-  ],
+  "objects": [],
   "features": [
-    "company registration numbers",
-    "sales reports",
-    "purchase reports",
-    "vendor registration numbers"
+    "Print registration numbers on sales reports",
+    "Print registration numbers on purchase reports",
+    "Company registration number",
+    "Vendor registration number"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002358,
-      "pages_in_call": 8
+      "cost_usd": 0.002916,
+      "pages_in_call": 1
     }
   ]
 }

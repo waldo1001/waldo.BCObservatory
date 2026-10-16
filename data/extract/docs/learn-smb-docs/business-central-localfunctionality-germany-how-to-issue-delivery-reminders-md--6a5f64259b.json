@@ -2,21 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders",
   "title": "Issue delivery reminders in the German version",
-  "blob": "4220077ae81506e9fc830b1afe4a3223e18f6865",
-  "summary": "Issue delivery reminders in the German version by referencing related functionality for generating, creating, and printing test reports for delivery reminders.",
+  "blob": "4a027d20f0911ce357c647fc85289d602487e55c",
+  "summary": "Issue delivery reminders in Business Central's German version to notify vendors about overdue deliveries.",
   "systems": [
-    "purchasing",
-    "localization"
+    "localization",
+    "purchasing"
   ],
   "topics": [
     "delivery reminders",
-    "germany",
-    "purchasing"
+    "german localization",
+    "vendor notifications",
+    "purchase orders"
   ],
   "objects": [],
   "features": [
     "delivery reminders",
-    "issue reminders"
+    "vendor communication"
   ],
   "versions": [],
   "parts": 1,
@@ -25,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002358,
-      "pages_in_call": 8
+      "cost_usd": 0.002576,
+      "pages_in_call": 1
     }
   ]
 }

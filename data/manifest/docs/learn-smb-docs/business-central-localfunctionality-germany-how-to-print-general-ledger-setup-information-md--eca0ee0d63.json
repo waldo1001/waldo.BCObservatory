@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.404Z",
-      "blob": "cd42dbe9873b5604dcb71565708d9847bdad953e",
+      "at": "2026-10-16T00:26:25.513Z",
+      "blob": "d5ee1d78b6554b65f8b55af6bc76c2546002f80c",
       "words": 294,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.225Z",
+      "at": "2026-10-16T00:26:32.165Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002358
+      "cost_usd": 0.003307
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.366Z",
+      "at": "2026-10-16T00:26:32.167Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.367Z",
+      "at": "2026-10-16T00:26:32.169Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.368Z",
+      "at": "2026-10-16T00:26:32.170Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md",
     "description": "Run the G/L Setup Information report to view the master data before using the German version of Business Central.",
-    "ms_date": "2025-03-11",
+    "ms_date": "2026-10-09",
     "ms_topic": "install-set-up-deploy",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "GDPdU",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 294,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1d6e83a52d5831ca7ec18e2845a7ebb56dbe213d0ac5074f770073f92f8bc309"
+  "output_hash": "8a8fcd57c8983196698c0ebf752d91f1ac2b74cb0fca09efcb144acb931014ad"
 }

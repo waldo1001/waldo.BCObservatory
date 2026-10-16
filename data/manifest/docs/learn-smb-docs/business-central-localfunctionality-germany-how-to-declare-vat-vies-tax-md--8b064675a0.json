@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.371Z",
-      "blob": "cbd4b50ebc8d59b4d7c318fa4691b901fc514bc4",
-      "words": 391,
+      "at": "2026-10-16T00:26:18.722Z",
+      "blob": "0e7fff9e512c1d5397ca0fa8015699976a5b5e04",
+      "words": 404,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:14.472Z",
+      "at": "2026-10-16T00:26:25.329Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002242
+      "objects": 2,
+      "cost_usd": 0.004003
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.510Z",
+      "at": "2026-10-16T00:26:25.330Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.510Z",
+      "at": "2026-10-16T00:26:25.332Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.511Z",
+      "at": "2026-10-16T00:26:25.334Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md",
     "description": "Learn to create the VAT-VIES report for submitting sales transaction details with other EU countries or regions.",
-    "ms_date": "2025-04-24",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "sales transactions",
       "VAT-VIES declaration report"
     ],
-    "ai_usage": null,
-    "words": 391,
+    "ai_usage": "ai-assisted",
+    "words": 404,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "73192c014f5cde07242879e3834f2cb300e1b199d8e09cd0ad7bca0bbf0dc595"
+  "output_hash": "8de52a1c555961d20804e71144ad257d1a02d8885cdbedd3df9d2d7ffd35119b"
 }

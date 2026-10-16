@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.376Z",
-      "blob": "1316508ae94f976e67ad1219fb9aede789a824a7",
-      "words": 592,
-      "forms": 1
+      "at": "2026-10-16T00:26:18.732Z",
+      "blob": "d6867be4d95f6c7923226144e15472cfe4a28113",
+      "words": 382,
+      "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:14.473Z",
+      "at": "2026-10-16T00:26:25.081Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002242
+      "objects": 4,
+      "cost_usd": 0.0042
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.512Z",
+      "at": "2026-10-16T00:26:25.083Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.513Z",
+      "at": "2026-10-16T00:26:25.085Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.514Z",
+      "at": "2026-10-16T00:26:25.086Z",
       "page": false
     }
   },
@@ -44,28 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md",
-    "description": "Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries/regions.",
-    "ms_date": "2025-04-24",
+    "description": "Learn how to verify, export, and submit Intrastat reports for Germany, including the IDEV and eSTATISTIK.CORE submission channels.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
-    "search_form": [
-      {
-        "raw": "26100",
-        "id": 26100,
-        "kind": null
-      }
-    ],
+    "search_form": [],
     "keywords": [
       "intrastat reporting",
       "print intrastat reports",
       "export intrastat reports",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 592,
+    "ai_usage": "ai-assisted",
+    "words": 382,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4c13bc1ef47f047b2b3cb972d0bdce7c5c0d7dc98a1620632060727be753a9d3"
+  "output_hash": "58108efbf69b1c56c95bd101c622c058270d26808d7c522a2514edb45f843e5e"
 }

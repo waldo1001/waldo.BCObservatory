@@ -2,23 +2,37 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax",
   "title": "How to Declare VAT-VIES Tax [DE]",
-  "blob": "cbd4b50ebc8d59b4d7c318fa4691b901fc514bc4",
-  "summary": "Declare VAT-VIES tax in German Business Central for EU sales reporting. Use for monthly, bi-monthly, or quarterly VAT-VIES declarations based on sales volume.",
+  "blob": "0e7fff9e512c1d5397ca0fa8015699976a5b5e04",
+  "summary": "The VAT-VIES Declaration (Form) report for the German version submits information about EU sales transactions to the BZSt list system with monthly, bi-monthly, or quarterly frequency based on sales volume thresholds.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
+    "vat",
     "vat-vies",
+    "tax declaration",
+    "germany",
     "eu sales",
-    "tax reporting",
-    "germany"
+    "reporting"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT-Vies Declaration Tax – DE"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
+    }
+  ],
   "features": [
-    "VAT-VIES declarations",
-    "reporting periods",
-    "corrected notifications",
-    "monthly reporting migration"
+    "VAT-VIES Declaration reporting",
+    "Reporting Period selection",
+    "Corrected Notification option",
+    "Additional Reporting Currency display",
+    "Change to monthly reporting",
+    "Revoke monthly reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.004003,
+      "pages_in_call": 1
     }
   ]
 }

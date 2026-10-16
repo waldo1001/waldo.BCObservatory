@@ -2,15 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors",
   "title": "Assign delivery reminder codes to vendors [DE]",
-  "blob": "61561ae8d09ce3e7a495970b28cf07328f3c3978",
-  "summary": "Assign delivery reminder codes to vendors in German Business Central. Use this when setting up vendor delivery reminders.",
+  "blob": "c3744578fc6b49b793d1aacaeef9dc48e3321498",
+  "summary": "Assign delivery reminder codes to vendors in the German version of Business Central to enable delivery reminder functionality for vendor purchases.",
   "systems": [
-    "purchasing"
+    "purchasing",
+    "localization"
   ],
   "topics": [
     "delivery reminders",
     "vendors",
-    "germany"
+    "germany",
+    "setup"
   ],
   "objects": [],
   "features": [
@@ -24,8 +26,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.005048,
+      "pages_in_call": 1
     }
   ]
 }

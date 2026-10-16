@@ -2,24 +2,36 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-create-vat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports",
   "title": "How to Create VAT Reports [DE]",
-  "blob": "ba8cfb1ad8fa2f4945f5dca5efedb865ab816328",
-  "summary": "Create VAT reports in German Business Central with ELMA5 export format. Use when submitting VAT reports to tax authorities.",
+  "blob": "ff3023deb910acfcd8b5c1d0cc533785034ee1bb",
+  "summary": "German VAT reporting uses two separate mechanisms: Sales VAT Advance Notifications for ELSTER submissions and VAT-VIES Declarations for EU Sales List reporting, replacing the generic VAT Report page.",
   "systems": [
     "finance"
   ],
   "topics": [
-    "vat reports",
-    "tax reporting",
-    "germany",
-    "elma5"
+    "vat reporting",
+    "german localization",
+    "elster",
+    "vat-vies",
+    "tax compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales VAT Adv. Notif. Card"
+    },
+    {
+      "type": "report",
+      "name": "VAT-VIES Declaration"
+    }
+  ],
   "features": [
-    "VAT report types",
-    "ELMA5 format",
-    "release action",
-    "export action",
-    "mark as submitted"
+    "Sales VAT advance notifications",
+    "ELSTER export",
+    "VAT-VIES declarations",
+    "EU Sales List",
+    "Suggest Lines",
+    "G/L - VAT Reconciliation",
+    "corrective reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.003491,
+      "pages_in_call": 1
     }
   ]
 }

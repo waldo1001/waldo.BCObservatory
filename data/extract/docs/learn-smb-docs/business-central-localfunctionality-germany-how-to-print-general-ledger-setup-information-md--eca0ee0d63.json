@@ -2,19 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information",
   "title": "Print general ledger setup information [DE]",
-  "blob": "cd42dbe9873b5604dcb71565708d9847bdad953e",
-  "summary": "Print general ledger setup information using the G/L Setup Information report to display master data for posting groups, VAT setup, source codes, and number series verification.",
+  "blob": "d5ee1d78b6554b65f8b55af6bc76c2546002f80c",
+  "summary": "The G/L Setup Information report in the German version displays master data for general ledger setup, posting groups, VAT setup, source codes, and number series to verify configuration before daily business use.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "general ledger",
-    "setup information",
+    "setup",
+    "reporting",
+    "master data",
     "posting groups",
-    "vat setup",
-    "germany",
-    "reporting"
+    "vat",
+    "number series",
+    "german localization"
   ],
   "objects": [
     {
@@ -23,12 +25,12 @@
     }
   ],
   "features": [
-    "G/L setup",
-    "posting groups",
-    "VAT setup",
-    "source codes",
-    "number series",
-    "GDPdU compliance"
+    "G/L Setup display",
+    "Posting Groups display",
+    "Posting Matrix display",
+    "VAT Setup display",
+    "Source Code and Reason Code display",
+    "Number Series validation"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002358,
-      "pages_in_call": 8
+      "cost_usd": 0.003307,
+      "pages_in_call": 1
     }
   ]
 }

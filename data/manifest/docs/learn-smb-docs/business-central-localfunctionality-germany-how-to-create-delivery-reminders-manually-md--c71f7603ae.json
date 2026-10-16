@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-delivery-reminders-manually",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.362Z",
-      "blob": "420dcbc42230edacc95d43d9eff087923ccfe08e",
+      "at": "2026-10-16T00:26:18.695Z",
+      "blob": "26e7e536de98feccf99c6a947e9877c4acb5af5f",
       "words": 45,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:14.469Z",
+      "at": "2026-10-16T00:26:25.453Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002242
+      "cost_usd": 0.005504
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.503Z",
+      "at": "2026-10-16T00:26:25.454Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.505Z",
+      "at": "2026-10-16T00:26:25.456Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.506Z",
+      "at": "2026-10-16T00:26:25.457Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-create-delivery-reminders-manually.md",
     "description": "This article provides examples of how to create delivery reminders manually in the German version.",
-    "ms_date": "2025-03-10",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "delivery reminder",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 45,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "783669065fe1f7106c5da5181bdca4beef3b195773185c24c309089c38654003"
+  "output_hash": "c42e9c18210b60a29e945bad1670f53fcc87231ff18ca1642c6d721922d5e522"
 }

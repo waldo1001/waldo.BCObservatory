@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.391Z",
-      "blob": "262607c1d16d3994ebb2b264cc7277a03b08d021",
+      "at": "2026-10-16T00:26:24.125Z",
+      "blob": "a273e2f85160059c370c87a46bd89dabbb52208e",
       "words": 155,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:34.442Z",
+      "at": "2026-10-16T00:26:28.508Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002358
+      "objects": 0,
+      "cost_usd": 0.002916
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.230Z",
+      "at": "2026-10-16T00:26:28.510Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.231Z",
+      "at": "2026-10-16T00:26:28.511Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.232Z",
+      "at": "2026-10-16T00:26:32.131Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md",
     "description": "Print company registration numbers on specific sales reports and purchase reports.",
-    "ms_date": "2025-03-11",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "purchase reports",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 155,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ca4d866317886affbe759f9f77d1fdd1ea150ef2f3d7d888ca1e9db45cb6b00a"
+  "output_hash": "3cb0094b1040403fe3f492e13e488cd43b6842ddad4410021c05c52f03399719"
 }
