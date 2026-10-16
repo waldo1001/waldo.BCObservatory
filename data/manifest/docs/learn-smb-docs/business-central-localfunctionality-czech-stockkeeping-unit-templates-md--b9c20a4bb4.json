@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.459Z",
-      "blob": "19cc076ad1b252e002f78ebcb82fc01b0173ebce",
-      "words": 103,
+      "at": "2026-10-16T00:20:52.948Z",
+      "blob": "6ce16543dc1ffb3eefba02dc5664b791e7fcfe55",
+      "words": 93,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:57.666Z",
+      "at": "2026-10-16T00:21:02.763Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00133
+      "objects": 1,
+      "cost_usd": 0.002935
     },
     "summarized": {
-      "at": "2026-10-06T19:23:10.922Z",
+      "at": "2026-10-16T00:21:02.764Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:10.923Z",
+      "at": "2026-10-16T00:21:02.765Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.736Z",
+      "at": "2026-10-16T00:21:02.766Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/stockkeeping-unit-templates.md",
     "description": "Learn how to use Stock keeping Unit Templates in the Czech version of Business Central to streamline inventory operations.",
-    "ms_date": "2025-06-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 103,
+    "ai_usage": "ai-assisted",
+    "words": 93,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "35950e566f30d6f78c854e18bb7087c0735c9ca01ad51b2e15b9c96f55a6c6ac"
+  "output_hash": "7da3d046bc0f4c0da4100367c2ad80dc6cb6e8b582b2bbf7b1a85e319459a0e3"
 }

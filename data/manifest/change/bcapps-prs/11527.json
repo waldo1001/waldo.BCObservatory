@@ -6,7 +6,7 @@
   "title": "E-document payment improvements",
   "url": "https://github.com/microsoft/BCApps/pull/11527",
   "published_at": "2026-10-13T10:13:06Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -25,6 +25,16 @@
       "kind": "feature",
       "behavior": true,
       "cost_usd": 0.004419
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:49.568Z",
+      "objects": 8,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:49.576Z",
+      "path": "content/changes/bcapps/11527.md"
     }
   },
   "input_hash": "6e1964133e661820ee2882f4ece4ffbe23bf2d11:c1",
@@ -48,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "eacd498c3845f85d42760906602ed1fe51fbc053d3a6a4053a64bb6f04281b02"
+  "output_hash": "ac782a920b162404abaffda02ded5f0a525d5deed6747952eaa6857a3dac2f2a"
 }

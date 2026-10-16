@@ -6,7 +6,7 @@
   "title": "Suppress AS0099 for existing extension field IDs",
   "url": "https://github.com/microsoft/BCApps/pull/12517",
   "published_at": "2026-10-13T08:14:58Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -25,6 +25,16 @@
       "kind": "refactor",
       "behavior": false,
       "cost_usd": 0.004419
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:50.110Z",
+      "objects": 35,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:50.124Z",
+      "path": "content/changes/bcapps/12517.md"
     }
   },
   "input_hash": "b2fc720ead48d99d5e1897e738184442a7b55031:c1",
@@ -48,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "342a05cf127b9a0304a510b52e57d566ab354ad4620b0533cd633fb3b7a11825"
+  "output_hash": "9ecc1f496f3f125e78fb57f4fee4a0da3dad3b437b480b6830fcf5019c7c8832"
 }

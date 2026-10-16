@@ -2,30 +2,31 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz",
   "title": "Advanced Localization Pack for Czech (Extension) [CZ]",
-  "blob": "06f886a98e8a8c9452ff35b4f1070408714abed9",
-  "summary": "Czech localization extension adding features for general ledger entries application, dimension automation, transfer order posting groups, item ledger fields, SKU posting group setup, and manufacturing cost returns to meet Czech accounting and tax requirements.",
+  "blob": "890c0ba4d85d238da1982a746b5f8e69e485a9be",
+  "summary": "Advanced Localization Pack for Czech extension adds features for Czech accounting and tax legislation compliance, including general ledger entry application, automatic dimension creation, posting groups in transfer orders, and manufacturing cost controls.",
   "systems": [
+    "localization",
     "finance",
-    "inventory",
-    "manufacturing"
+    "inventory"
   ],
   "topics": [
-    "czech localization",
+    "czech",
     "extension",
-    "general ledger",
-    "dimensions",
-    "transfer orders",
-    "sku posting"
+    "localization",
+    "accounting",
+    "tax legislation",
+    "posting groups",
+    "dimensions"
   ],
   "objects": [],
   "features": [
-    "general ledger entries application",
-    "automatic dimension creation",
-    "posting groups in transfer orders",
-    "additional item ledger fields",
-    "gen.prod.posting group from SKU",
-    "skip update SKU on posting",
-    "mandatory return exact costs"
+    "General Ledger Entries Application",
+    "Automatic creation and update of dimensions",
+    "Posting groups in transfer orders",
+    "Additional fields on item ledger entries and value entries",
+    "Gen.Prod.Posting Group from SKU",
+    "Skip Update SKU on Posting",
+    "Mandatory returning of exact costs in Manufacturing"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00335,
-      "pages_in_call": 8
+      "cost_usd": 0.003292,
+      "pages_in_call": 1
     }
   ]
 }

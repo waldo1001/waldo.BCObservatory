@@ -2,22 +2,26 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz",
   "title": "Cash Desk Localization for Czech (Extension)",
-  "blob": "977caa23200166e83cd63f4f1b266c6e4b60c6a7",
-  "summary": "Cash desk extension for Czech Business Central enabling physical cash receipt and withdrawal operations with cash desk cases, user authorization, inventory management, and payment application with customer/vendor entries.",
+  "blob": "01c5b7b5eded2d564bffb8b351e66b2a1ec4e35e",
+  "summary": "Cash Desk localization for Czech helps companies manage physical cash receipts and withdrawals with separate number series, cash desk users, reconciliation, and inventory tracking for compliance with Czech legislation.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "cash desk",
+    "cash documents",
     "czech localization",
-    "payments",
-    "accounting",
-    "inventory"
+    "payment application",
+    "inventory",
+    "reconciliation",
+    "receipts",
+    "withdrawals"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Cash Desk Setup"
+      "name": "Cash Desks"
     },
     {
       "type": "page",
@@ -25,11 +29,15 @@
     },
     {
       "type": "page",
+      "name": "Cash Desk Card"
+    },
+    {
+      "type": "page",
       "name": "Cash Desk Events Setup"
     },
     {
       "type": "page",
-      "name": "Cash Document"
+      "name": "Currency Nominal Values"
     },
     {
       "type": "page",
@@ -37,33 +45,18 @@
     },
     {
       "type": "page",
-      "name": "Currency Nominal Values"
-    },
-    {
-      "type": "report",
-      "name": "Cash Desk Account Book"
-    },
-    {
-      "type": "report",
-      "name": "Cash Desk Book"
-    },
-    {
-      "type": "report",
-      "name": "Cash Desk Hand Over"
+      "name": "Cash Documents"
     }
   ],
   "features": [
-    "Cash desk definition and setup",
-    "Receipt and withdrawal documents",
-    "Cash desk user authorization",
-    "Number series for documents",
-    "Cash desk events/cases",
-    "Payment application",
-    "Advance invoice payment",
-    "Cash desk reconciliation",
-    "Cash desk inventory",
-    "Nominal value management",
-    "EET transaction marking"
+    "Cash Desk setup and users",
+    "Receipt and withdrawal cash documents",
+    "Cash Desk cases as templates",
+    "Payment application with customer and vendor ledger entries",
+    "Reconciliation with journal preview",
+    "Cash Desk inventory",
+    "Output documents",
+    "Cash Desk Account Book and reports"
   ],
   "versions": [],
   "parts": 1,
@@ -72,8 +65,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005253,
-      "pages_in_call": 8
+      "cost_usd": 0.005007,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.396Z",
-      "blob": "41c6aed01c091f168d92b932d6f430fc29795a63",
-      "words": 593,
+      "at": "2026-10-16T00:21:14.025Z",
+      "blob": "aceb89dff828bb84540b052f680c4ab009757763",
+      "words": 605,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:06.921Z",
+      "at": "2026-10-16T00:21:25.821Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.004759
+      "objects": 6,
+      "cost_usd": 0.004703
     },
     "summarized": {
-      "at": "2026-10-06T19:00:06.992Z",
+      "at": "2026-10-16T00:21:25.823Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:06.993Z",
+      "at": "2026-10-16T00:21:25.824Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:06.994Z",
+      "at": "2026-10-16T00:21:25.825Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md",
     "description": "Enables offsetting receivables and payables in Business Central for Czech companies, supporting mutual settlements between customers and vendors.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CZ",
       "Cash"
     ],
-    "ai_usage": null,
-    "words": 593,
+    "ai_usage": "ai-assisted",
+    "words": 605,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "13a09efa688d3c2e8d82589ef8d0a75185133ca00bea1c308484699a0d7e503c"
+  "output_hash": "c85e7930f1ac73a613e6a0fe24bc06693cf6c4b907a35e3a82fe77a7887c69ae"
 }

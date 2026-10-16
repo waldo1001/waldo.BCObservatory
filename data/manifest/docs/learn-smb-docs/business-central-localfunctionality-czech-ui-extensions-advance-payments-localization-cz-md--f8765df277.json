@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.191Z",
-      "blob": "7688e56d579f4e990f14ae2805bc1f4b382271a9",
+      "at": "2026-10-16T00:21:03.907Z",
+      "blob": "71331abfc70cec73d08d0b612ec7d80f9f6dd91a",
       "words": 363,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:12.434Z",
+      "at": "2026-10-16T00:21:11.049Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.005253
+      "objects": 1,
+      "cost_usd": 0.003538
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.434Z",
+      "at": "2026-10-16T00:21:11.050Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.435Z",
+      "at": "2026-10-16T00:21:11.051Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.436Z",
+      "at": "2026-10-16T00:21:11.052Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md",
     "description": "Learn about the Advance Payments Localization extension, including its features for managing advance invoices, payments, and VAT compliance.",
-    "ms_date": "2025-09-29",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Finance",
       "Localization"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 363,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "006711516432da5d2a98365c6594c15aca6f18bd175d416300405b67edac0d0d"
+  "output_hash": "a185fe6916476982f3512d0bfb772af71862dc39815d73911a21411475730d36"
 }

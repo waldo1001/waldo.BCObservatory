@@ -6,7 +6,7 @@
   "title": "Keep the draft unit of measure and variant code when creating the purchase line",
   "url": "https://github.com/microsoft/BCApps/pull/12333",
   "published_at": "2026-10-13T10:10:46Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": true,
       "cost_usd": 0.004419
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:49.833Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:49.839Z",
+      "path": "content/changes/bcapps/12333.md"
     }
   },
   "input_hash": "13b223a8f5952d294130528640ee3768298dd295:c1",
@@ -47,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "33a928c4449399bfc1418c9ac7fe3eca913cb7b67b7465e4104a1c4940f6cea9"
+  "output_hash": "2a304e3187b6ac3983d376913453c6af5fb4be6323dca35412c98a5e4eb4de30"
 }

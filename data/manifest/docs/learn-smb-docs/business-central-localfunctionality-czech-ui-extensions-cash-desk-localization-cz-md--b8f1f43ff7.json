@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.195Z",
-      "blob": "977caa23200166e83cd63f4f1b266c6e4b60c6a7",
-      "words": 974,
+      "at": "2026-10-16T00:21:13.007Z",
+      "blob": "01c5b7b5eded2d564bffb8b351e66b2a1ec4e35e",
+      "words": 981,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:12.435Z",
+      "at": "2026-10-16T00:21:20.567Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 9,
-      "cost_usd": 0.005253
+      "objects": 7,
+      "cost_usd": 0.005007
     },
     "summarized": {
-      "at": "2026-10-06T19:04:15.437Z",
+      "at": "2026-10-16T00:21:20.569Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:15.437Z",
+      "at": "2026-10-16T00:21:20.570Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:15.438Z",
+      "at": "2026-10-16T00:21:20.571Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md",
     "description": "Provides features for cash register operations in compliance with Czech legislation and best practices for Microsoft Dynamics 365 Business Central.",
-    "ms_date": "2025-09-29",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "CZ",
       "Cash"
     ],
-    "ai_usage": null,
-    "words": 974,
+    "ai_usage": "ai-assisted",
+    "words": 981,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aa5cb225617545dced7dccdec9886543f50118deaee95fa8301e25ce4aac6ef1"
+  "output_hash": "e408c9a93a28d3ac403a1cd0766e129c01232efa6ee17af959977c7704ba75c9"
 }

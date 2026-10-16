@@ -2,30 +2,35 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz",
   "title": "Advance Payments Localization for Czech (Extension)",
-  "blob": "7688e56d579f4e990f14ae2805bc1f4b382271a9",
-  "summary": "Extension for Czech Business Central providing advance payment functionality for sales and purchases, including VAT documents, foreign currency support, and advance lifecycle management with regulatory compliance.",
+  "blob": "71331abfc70cec73d08d0b612ec7d80f9f6dd91a",
+  "summary": "The Advance Payments extension for Czech localization enables creation and management of advance invoices and payments before goods or services delivery, with support for VAT requirements and tax documents.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "advance payments",
     "czech localization",
+    "prepayments",
     "vat",
-    "sales",
-    "purchasing"
+    "invoicing",
+    "payment management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Advance Letter Templates"
+    }
+  ],
   "features": [
-    "Sales and purchase advances",
-    "Advance invoices",
-    "VAT documents and credit notes",
-    "Foreign currency handling",
-    "Advance linking to orders",
-    "Cash desk integration",
-    "Advance closing and settlement",
-    "Exchange rate difference handling",
-    "Responsibility center support",
-    "Advance reporting"
+    "sales and purchase advances",
+    "advance invoice creation",
+    "VAT documents",
+    "cash desk integration",
+    "foreign currency support",
+    "payment linking",
+    "advance closure with VAT settlement",
+    "responsibility center support"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +39,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005253,
-      "pages_in_call": 8
+      "cost_usd": 0.003538,
+      "pages_in_call": 1
     }
   ]
 }

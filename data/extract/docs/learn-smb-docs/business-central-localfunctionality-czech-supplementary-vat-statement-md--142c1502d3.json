@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/supplementary-vat-statement.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/supplementary-vat-statement",
   "title": "Czech Local Functionality - Supplementary VAT Statement",
-  "blob": "abd214eb844a198d15677240c4924d292843c1a3",
-  "summary": "Supplementary VAT Statement feature enables Czech companies to submit supplementary VAT statements per VAT Law 235/2004, with VAT settlement tracking for filtering statements by posting period.",
+  "blob": "63008c602b76e21871d7136cdd9ba2f82e7a8217",
+  "summary": "Supplementary VAT Statement for Czech version allows payers to submit additional VAT statements per VAT Law 235/2004. The Calculate and Post VAT Settlement functionality stores posted document numbers in VAT entries for filtering statements and reports within a VAT period.",
   "systems": [
     "finance",
     "localization"
@@ -11,15 +11,18 @@
   "topics": [
     "vat statement",
     "supplementary vat",
+    "czech localization",
     "vat settlement",
-    "czech legislation"
+    "vat entries",
+    "tax reporting"
   ],
   "objects": [],
   "features": [
-    "supplementary VAT statement type",
-    "VAT settlement tracking",
-    "VAT entry filtering",
-    "VAT statement export"
+    "Supplementary VAT Statement export",
+    "Calculate and Post VAT Settlement",
+    "VAT Settlement No. field",
+    "VAT statement filtering",
+    "VAT period management"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00133,
-      "pages_in_call": 7
+      "cost_usd": 0.003024,
+      "pages_in_call": 1
     }
   ]
 }

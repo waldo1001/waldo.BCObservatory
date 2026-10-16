@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.383Z",
-      "blob": "bc3de8437b556262d87211f19dd182695b5affc2",
+      "at": "2026-10-16T00:21:05.069Z",
+      "blob": "8b5b835aa2325f237151bca6128d4fc2e42e7b73",
       "words": 242,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:24.748Z",
+      "at": "2026-10-16T00:21:16.707Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003389
+      "objects": 2,
+      "cost_usd": 0.003401
     },
     "summarized": {
-      "at": "2026-10-06T18:43:25.594Z",
+      "at": "2026-10-16T00:21:16.709Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:25.594Z",
+      "at": "2026-10-16T00:21:16.710Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:25.595Z",
+      "at": "2026-10-16T00:21:16.711Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md",
     "description": "Learn about the features and functionality of the Banking Documents Localization extension for the Czech Republic in Business Central.",
-    "ms_date": "2026-03-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "Banking",
       "Localization"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 242,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7d11cd6146769982d1458b11af48caa85114f5992a34e02b5e163fa93fe42c18"
+  "output_hash": "12cabe7bdcac12bfe510af5c220c4299db85ee4729089d3c431d6f4eb241aad5"
 }

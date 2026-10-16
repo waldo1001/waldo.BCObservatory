@@ -2,34 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz",
   "title": "Banking Documents Localization for Czech (Extension)",
-  "blob": "bc3de8437b556262d87211f19dd182695b5affc2",
-  "summary": "Banking documents localization for Czech provides payment order and bank statement creation, import/export of bank files, and bank account management with description preservation across currencies.",
+  "blob": "8b5b835aa2325f237151bca6128d4fc2e42e7b73",
+  "summary": "Banking Documents Localization for Czech extension enables creation and management of payment orders and bank statements following Czech banking practices, with support for multiple bank accounts and currencies.",
   "systems": [
     "finance",
-    "purchasing",
-    "sales"
+    "localization"
   ],
   "topics": [
-    "czech",
-    "banking",
-    "localization",
-    "payment",
-    "import-export"
+    "banking documents",
+    "czech republic",
+    "payment orders",
+    "bank statements",
+    "bank accounts",
+    "localization"
   ],
   "objects": [
     {
-      "type": "table",
+      "type": "page",
       "name": "Bank Account Card"
+    },
+    {
+      "type": "report",
+      "name": "Create Payment Journal"
     }
   ],
   "features": [
-    "Payment order creation and export",
-    "Bank statement import and creation",
-    "Bank statement rollover to journals",
-    "Payment entry pairing",
-    "Bank file import/export",
+    "Payment Order creation and export",
+    "Bank Statement import and creation",
+    "Bank statement rollover into payment journal",
+    "Entry pairing in payment journal",
     "Keep Description field",
-    "Multi-currency support"
+    "Multi-currency support",
+    "Multiple bank account management"
   ],
   "versions": [],
   "parts": 1,
@@ -38,8 +42,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003389,
-      "pages_in_call": 8
+      "cost_usd": 0.003401,
+      "pages_in_call": 1
     }
   ]
 }

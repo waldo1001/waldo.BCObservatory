@@ -2,17 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz",
   "title": "Compensation localization for the Czech version",
-  "blob": "41c6aed01c091f168d92b932d6f430fc29795a63",
-  "summary": "Compensation localization for Czech version enables offsetting receivables and payables when a customer is also a vendor, with compensation cards to manually enter or propose entries and an Agreement on Mutual Settlement printout.",
+  "blob": "aceb89dff828bb84540b052f680c4ab009757763",
+  "summary": "The Compensation localization extension for Czech Business Central helps offset mutual receivables and payables when a customer is also a vendor by managing compensation entries, proposals, and posting with required setup and printable settlement agreements.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "sales"
   ],
   "topics": [
     "compensation",
-    "receivables payables",
-    "czech localization",
-    "mutual settlement"
+    "receivables",
+    "payables",
+    "czech",
+    "localization",
+    "customer-vendor"
   ],
   "objects": [
     {
@@ -25,25 +28,30 @@
     },
     {
       "type": "page",
-      "name": "Posted Compensation"
+      "name": "Compensation Proposal"
     },
     {
       "type": "page",
-      "name": "Compensation Setup"
+      "name": "Posted Compensation Card"
     },
     {
       "type": "page",
-      "name": "Compensations Proposal"
+      "name": "Posted Compensations"
+    },
+    {
+      "type": "page",
+      "name": "Customer Ledger Entries"
     }
   ],
   "features": [
     "View Balance as Vendor/Balance as Customer",
-    "Suggest lines for compensation",
-    "Release compensation",
-    "Compensation posting",
+    "Compensations Setup",
+    "Propose Compensation Lines",
+    "Release and Post compensation",
     "Agreement on Mutual Settlement of Receivables and Payables printout",
-    "Compensation Nos.",
-    "Compensation Bal. Account No."
+    "Compensation posting",
+    "Recalculate Balance",
+    "Apply Document Balance"
   ],
   "versions": [],
   "parts": 1,
@@ -52,8 +60,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004759,
-      "pages_in_call": 8
+      "cost_usd": 0.004703,
+      "pages_in_call": 1
     }
   ]
 }
