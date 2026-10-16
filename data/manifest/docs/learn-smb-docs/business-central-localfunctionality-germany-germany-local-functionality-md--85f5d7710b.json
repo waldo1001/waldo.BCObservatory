@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:20.182Z",
-      "blob": "45690d3a519e8d4c009a147e895dd79543d4855a",
+      "at": "2026-10-16T00:26:10.191Z",
+      "blob": "34f0384ec116018b3b67722a3069ac643a829255",
       "words": 287,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T14:22:14.511Z",
+      "at": "2026-10-16T00:26:18.539Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00753
+      "cost_usd": 0.004239
     },
     "summarized": {
-      "at": "2026-10-06T14:22:14.516Z",
+      "at": "2026-10-16T00:26:18.541Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T14:22:14.516Z",
+      "at": "2026-10-16T00:26:18.542Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T14:22:14.517Z",
+      "at": "2026-10-16T00:26:18.545Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/germany-local-functionality.md",
     "description": "The following articles describe the local functionality available in the German version of Business Central.",
-    "ms_date": "2026-01-20",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
       "German version",
       "local functionality"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 287,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8a88fc5599c068ecc5be87285b82c9f54123f43b9a2a8735c943b8f80c2c0d4c"
+  "output_hash": "088ef68cbe7a89c43898f012a39fde4eff950bb931af0039c513bb7f3c2ea6f1"
 }

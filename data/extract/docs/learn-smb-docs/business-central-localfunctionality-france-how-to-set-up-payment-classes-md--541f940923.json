@@ -2,20 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-set-up-payment-classes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes",
   "title": "Set Up Payment Classes [FR]",
-  "blob": "c8ef55e96cc32c11fff216b65f52a30797fecee8",
-  "summary": "Payment classes in French Business Central define operation types like bills of exchange and checks with associated statuses and steps to manage payment workflows including SEPA transfers.",
+  "blob": "e77f476694573fba01946cbb6634645729b5e076",
+  "summary": "Set up payment classes in French Business Central to define operation types like bills of exchange, electronic payments, and checks with their statuses and workflow steps.",
   "systems": [
-    "purchasing",
-    "sales",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "payment management",
     "payment classes",
+    "france",
+    "localization",
     "payment steps",
     "payment statuses",
-    "france",
-    "sepa"
+    "sepa transfers"
   ],
   "objects": [
     {
@@ -28,10 +28,6 @@
     },
     {
       "type": "page",
-      "name": "Payment Step"
-    },
-    {
-      "type": "page",
       "name": "Payment Step Card"
     },
     {
@@ -40,14 +36,13 @@
     }
   ],
   "features": [
-    "Payment classes",
+    "Payment class setup",
     "Payment statuses",
     "Payment steps",
-    "SEPA transfers",
-    "Unrealized VAT Reversal",
-    "Header/Line number series",
-    "Payment suggestions",
-    "RIB information"
+    "Unrealized VAT reversal",
+    "SEPA transfer types",
+    "Ledger information",
+    "RIB statement display"
   ],
   "versions": [],
   "parts": 1,
@@ -56,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002614,
-      "pages_in_call": 8
+      "cost_usd": 0.004671,
+      "pages_in_call": 1
     }
   ]
 }

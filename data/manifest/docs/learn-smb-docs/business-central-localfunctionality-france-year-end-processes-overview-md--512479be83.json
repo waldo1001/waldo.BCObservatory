@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/year-end-processes-overview",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.039Z",
-      "blob": "006966612402811251d1a8a11d7ea63de8527271",
-      "words": 299,
+      "at": "2026-10-16T00:26:04.417Z",
+      "blob": "9da436f7cc4e18c441d1041325b9e02e8f388456",
+      "words": 322,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:26.995Z",
+      "at": "2026-10-16T00:26:10.135Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003878
+      "cost_usd": 0.003499
     },
     "summarized": {
-      "at": "2026-10-06T19:43:27.013Z",
+      "at": "2026-10-16T00:26:10.137Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:28.788Z",
+      "at": "2026-10-16T00:26:10.138Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:28.790Z",
+      "at": "2026-10-16T00:26:10.140Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/year-end-processes-overview.md",
     "description": "Overview of the fiscal year-end closing processes in the French version of Business Central, including compliance with French regulations.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "year end process",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 299,
+    "ai_usage": "ai-assisted",
+    "words": 322,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52f7b2cd4fa2c9a118f6fcfbf1fae8780b1258d01f3dc5a60e550b4fcc66c255"
+  "output_hash": "dd758b1f17f7ecd3058643e77856d9a655001d599bc8c28d8386a057eae2d354"
 }

@@ -2,25 +2,27 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/delivery-reminders.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/delivery-reminders",
   "title": "Delivery Reminders [DE]",
-  "blob": "6ab389bddaa51994e685e8adbd487728428a0566",
-  "summary": "Delivery reminders functionality in German Business Central allows you to set up reminder terms, assign codes to vendors, generate reminders, and issue them to track supplier delivery performance.",
+  "blob": "1e91a9bbd2be6136019d3453ce07fd244e0a275a",
+  "summary": "Delivery reminders in the German version of Business Central enable vendors to be reminded of late deliveries through a structured setup and issuance process.",
   "systems": [
+    "localization",
     "purchasing"
   ],
   "topics": [
     "delivery reminders",
+    "german localization",
     "vendor management",
-    "germany localization"
+    "purchasing"
   ],
   "objects": [],
   "features": [
-    "delivery reminder setup",
-    "reminder terms and levels",
-    "reminder text",
-    "delivery reminder codes",
-    "reminder generation",
-    "manual reminder creation",
-    "reminder issuance"
+    "Set Up Delivery Reminders",
+    "Set Up Delivery Reminder Terms, Levels, and Text",
+    "Assign Delivery Reminder Codes to Vendors",
+    "Generate Delivery Reminders",
+    "Create Delivery Reminders Manually",
+    "Issue Delivery Reminders",
+    "Print Test Reports for Delivery Reminders"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002545,
-      "pages_in_call": 8
+      "cost_usd": 0.006369,
+      "pages_in_call": 1
     }
   ]
 }

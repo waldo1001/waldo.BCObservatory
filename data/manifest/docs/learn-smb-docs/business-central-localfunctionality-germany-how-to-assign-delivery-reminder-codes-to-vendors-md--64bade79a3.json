@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.353Z",
-      "blob": "61561ae8d09ce3e7a495970b28cf07328f3c3978",
+      "at": "2026-10-16T00:26:10.453Z",
+      "blob": "c3744578fc6b49b793d1aacaeef9dc48e3321498",
       "words": 39,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:29:12.728Z",
+      "at": "2026-10-16T00:26:18.653Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002242
+      "cost_usd": 0.005048
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.475Z",
+      "at": "2026-10-16T00:26:18.655Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.477Z",
+      "at": "2026-10-16T00:26:18.660Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.478Z",
+      "at": "2026-10-16T00:26:18.664Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors.md",
     "description": "Enable delivery reminders for overdue purchases by assigning delivery reminder terms to vendors in the German version.",
-    "ms_date": "2025-03-10",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
@@ -65,12 +65,12 @@
       "delivery reminder terms",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 39,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "331e1aa5b124c27c0f3199899c96efaa047083d5a695935ea26f9f385c12a0f4"
+  "output_hash": "1cbf606c6cddade99879ff90c6309036ffddf6069251ae87a26a6b9007161b88"
 }

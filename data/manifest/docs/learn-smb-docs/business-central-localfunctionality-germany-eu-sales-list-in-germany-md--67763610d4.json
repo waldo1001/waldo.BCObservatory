@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.345Z",
-      "blob": "d732ac61b274268ca511cce163d6849a880aa6ef",
-      "words": 144,
+      "at": "2026-10-16T00:26:04.443Z",
+      "blob": "8ab6996a550b50e0bb67c9999cf9364ba5509710",
+      "words": 141,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.751Z",
+      "at": "2026-10-16T00:26:09.866Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002545
+      "cost_usd": 0.003081
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.780Z",
+      "at": "2026-10-16T00:26:09.868Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.782Z",
+      "at": "2026-10-16T00:26:09.870Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.783Z",
+      "at": "2026-10-16T00:26:09.871Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/eu-sales-list-in-germany.md",
     "description": "In Germany, the EU sales list is submitted to the Bundeszentralamt für Steuern (BZSt) through the ELMA5 interface on the BZSt Online Portal.",
-    "ms_date": "2025-03-10",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "ELMAS interface",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 144,
+    "ai_usage": "ai-assisted",
+    "words": 141,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9d262473c287783069d505c4d17bbdb5b7cae5ea400e44d1c8e15b37ad1529fc"
+  "output_hash": "9227bfecc11d5b8aeb8b7ab7aeabde99f143315012b489b4e07d3327a7577c7c"
 }

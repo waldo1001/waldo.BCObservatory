@@ -2,18 +2,21 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods",
   "title": "Requirements for Reporting Declaration of Trade in Goods [FR]",
-  "blob": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07",
-  "summary": "Configure Business Central for French Declaration of Trade in Goods (DEB) reporting by ensuring required company information and Intrastat journal fields are populated, then export using the Export DEB DTI report with appropriate obligation level filters.",
+  "blob": "64b5db83d8395f95c5c4fec2210bab12b53e04ff",
+  "summary": "Explains how to set up Business Central for reporting the Declaration of Trade in Goods (DEB) in France, including required fields, obligation levels, transaction specification filters, and validation procedures.",
   "systems": [
-    "reporting",
-    "localization"
+    "localization",
+    "finance",
+    "integration"
   ],
   "topics": [
     "intrastat",
     "deb reporting",
-    "declaration of trade",
-    "france localization",
-    "tax reporting"
+    "france",
+    "trade in goods",
+    "obligation levels",
+    "xml export",
+    "validation"
   ],
   "objects": [
     {
@@ -22,31 +25,34 @@
     },
     {
       "type": "table",
-      "name": "Intrastat Jnl. Line"
+      "name": "Intrastat Report"
+    },
+    {
+      "type": "table",
+      "name": "Intrastat Report Line"
     },
     {
       "type": "page",
-      "name": "Intrastat Journals"
+      "name": "Intrastat Report"
     },
     {
       "type": "page",
-      "name": "Intrastat Setup"
+      "name": "Intrastat Report List"
     },
     {
-      "type": "report",
-      "name": "Export DEB DTI"
-    },
-    {
-      "type": "report",
-      "name": "Advanced Intrastat Checklist"
+      "type": "page",
+      "name": "Intrastat Report Setup"
     }
   ],
   "features": [
-    "DEB reporting",
-    "Intrastat management",
-    "obligation levels",
-    "Transaction Specification Filter",
-    "Advanced Intrastat Checklist"
+    "CISD setup",
+    "Registration No.",
+    "VAT Registration No.",
+    "Statistics Period",
+    "Transaction Specification",
+    "Obligation Level filtering",
+    "Create File action",
+    "Checklist Report validation"
   ],
   "versions": [],
   "parts": 1,
@@ -55,8 +61,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002545,
-      "pages_in_call": 8
+      "cost_usd": 0.004452,
+      "pages_in_call": 1
     }
   ]
 }

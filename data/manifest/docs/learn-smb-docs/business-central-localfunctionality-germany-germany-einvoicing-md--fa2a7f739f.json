@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.090Z",
-      "blob": "79e9d9be78e88fbf930f0f7b4b6aadb43348d98a",
-      "words": 503,
+      "at": "2026-10-16T00:26:10.166Z",
+      "blob": "04fd7c18f133e87dcdffe5e53c5afd03d2a78b2e",
+      "words": 521,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:26.824Z",
+      "at": "2026-10-16T00:26:18.553Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002622
+      "cost_usd": 0.0042
     },
     "summarized": {
-      "at": "2026-10-06T19:21:28.605Z",
+      "at": "2026-10-16T00:26:18.555Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:28.606Z",
+      "at": "2026-10-16T00:26:18.556Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:28.618Z",
+      "at": "2026-10-16T00:26:18.557Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/germany-einvoicing.md",
     "description": "Learn how to set up and work with the German localization of the E-Document framework.",
-    "ms_date": "2025-06-30",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Peppol",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 503,
+    "ai_usage": "ai-assisted",
+    "words": 521,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "07e5fb70a2a09b507f64c67956cd6235d83aa28211563e82296658714de30494"
+  "output_hash": "50ab4d327817ef1ffd6a289d1c2af38343251067d10f3ce881952da4ace5d63f"
 }

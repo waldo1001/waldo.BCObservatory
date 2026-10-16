@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.349Z",
-      "blob": "395a611e54d2fc266e5ebdce216e930d25d369d3",
+      "at": "2026-10-16T00:26:09.923Z",
+      "blob": "2f7fc9b1debb55d67ec0f8f849aa43b58cc867d4",
       "words": 433,
       "forms": 9
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.753Z",
+      "at": "2026-10-16T00:26:15.078Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 4,
-      "cost_usd": 0.002545
+      "cost_usd": 0.003995
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.784Z",
+      "at": "2026-10-16T00:26:15.080Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.786Z",
+      "at": "2026-10-16T00:26:15.080Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.787Z",
+      "at": "2026-10-16T00:26:18.530Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/gdpdu-filter-examples.md",
     "description": "Learn how to use filter types when you set up your GoBD exports.",
-    "ms_date": "2025-03-10",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
@@ -102,12 +102,12 @@
       "table filter",
       "date filter handling"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 433,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0317451a4139d0814d98c725f8dbeaf9f49ce4d2a6220c3df36b87727362dfe5"
+  "output_hash": "181d88a351cb3405079ebe099fb96067e661ae393df0ea0d1825ee9b7dae2336"
 }

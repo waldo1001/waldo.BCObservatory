@@ -2,24 +2,34 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports",
   "title": "Correct VAT Reports [DE]",
-  "blob": "53d622fb30780a7c2205fb77861a28e44d92fcc5",
-  "summary": "Correct VAT reports in German Business Central by creating corrective reports with cancellation and correction line types. Use when VAT reports need adjustment or deletion.",
+  "blob": "9a2b997ed373c57c4de0b94a67cf1edf9bfa93b2",
+  "summary": "Correct VAT reports in Germany by resubmitting sales VAT advance notifications or VAT-VIES declarations with the Corrected Notification field, or switch between monthly and quarterly reporting periods.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "vat reports",
-    "tax compliance",
+    "vat reporting",
     "germany",
-    "corrections"
+    "vat correction",
+    "sales vat advance notification",
+    "vat-vies declaration"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Sales VAT Adv. Notif. Card"
+    },
+    {
+      "type": "report",
+      "name": "VAT-Vies Declaration Tax – DE"
+    }
+  ],
   "features": [
-    "corrective VAT reports",
-    "cancellation lines",
-    "correction lines",
-    "Suggest Lines action",
-    "Correct Lines action"
+    "Corrected Notification field",
+    "Sales VAT Advance Notification",
+    "VAT-VIES declaration correction",
+    "Monthly and quarterly reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002242,
-      "pages_in_call": 8
+      "cost_usd": 0.003456,
+      "pages_in_call": 1
     }
   ]
 }

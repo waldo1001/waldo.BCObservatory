@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.358Z",
-      "blob": "53d622fb30780a7c2205fb77861a28e44d92fcc5",
-      "words": 551,
-      "forms": 1
+      "at": "2026-10-16T00:26:12.594Z",
+      "blob": "9a2b997ed373c57c4de0b94a67cf1edf9bfa93b2",
+      "words": 196,
+      "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:12.729Z",
+      "at": "2026-10-16T00:26:18.566Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002242
+      "objects": 2,
+      "cost_usd": 0.003456
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.501Z",
+      "at": "2026-10-16T00:26:18.568Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.501Z",
+      "at": "2026-10-16T00:26:18.570Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.502Z",
+      "at": "2026-10-16T00:26:18.571Z",
       "page": false
     }
   },
@@ -44,29 +44,22 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/how-to-correct-vat-reports.md",
-    "description": "If you need to submit a corrective VAT report or delete an existing one, you must create a new VAT report.",
-    "ms_date": "2025-03-10",
+    "description": "Learn how to submit a corrected sales VAT advance notification or a corrected VAT-VIES declaration in the German version.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
-    "search_form": [
-      {
-        "raw": "26101",
-        "id": 26101,
-        "kind": null
-      }
-    ],
+    "search_form": [],
     "keywords": [
-      "corrective VAT report",
-      "VAT report",
-      "VAT report deletion",
-      "VAT report correction",
+      "corrected VAT advance notification",
+      "corrected notification",
+      "corrective VIES declaration",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 551,
+    "ai_usage": "ai-assisted",
+    "words": 196,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e66c8ec2cf662c1e6e3e1381643c627e09bedc2b1aad6a26b1c559343644ae3b"
+  "output_hash": "7cba96f76502c3de12017a0e7b34f920c3c8ce9b2052497922bfc989eb71ac13"
 }

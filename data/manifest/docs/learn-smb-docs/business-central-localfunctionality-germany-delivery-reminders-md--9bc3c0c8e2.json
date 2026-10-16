@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/delivery-reminders",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.340Z",
-      "blob": "6ab389bddaa51994e685e8adbd487728428a0566",
+      "at": "2026-10-16T00:26:04.431Z",
+      "blob": "1e91a9bbd2be6136019d3453ce07fd244e0a275a",
       "words": 45,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.750Z",
+      "at": "2026-10-16T00:26:12.545Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002545
+      "cost_usd": 0.006369
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.776Z",
+      "at": "2026-10-16T00:26:12.546Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.778Z",
+      "at": "2026-10-16T00:26:12.547Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.779Z",
+      "at": "2026-10-16T00:26:12.547Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/delivery-reminders.md",
     "description": "Delivery reminders are used to track overdue vendor shipments, and to remind vendors about overdue deliveries in the German version.",
-    "ms_date": "2025-03-10",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
@@ -92,12 +92,12 @@
       "delivery reminder levels",
       "German version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 45,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "23c9de1f88b6174a7738a24d184c3c0f5b83ef30152e43d71dd834a207b86a67"
+  "output_hash": "004f38c2d0eb96ee1d38a71fa0693018a1c664fc17bd33bb55995419b254cf97"
 }

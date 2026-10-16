@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.331Z",
-      "blob": "3a4e482fa52a73e8b44b6d01d7e1db14ac8dbd07",
-      "words": 525,
+      "at": "2026-10-16T00:26:04.391Z",
+      "blob": "64b5db83d8395f95c5c4fec2210bab12b53e04ff",
+      "words": 561,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.748Z",
+      "at": "2026-10-16T00:26:10.383Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 6,
-      "cost_usd": 0.002545
+      "cost_usd": 0.004452
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.766Z",
+      "at": "2026-10-16T00:26:10.385Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.766Z",
+      "at": "2026-10-16T00:26:10.387Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.769Z",
+      "at": "2026-10-16T00:26:10.390Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md",
     "description": "Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -57,12 +57,12 @@
       "intrastat",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 525,
+    "ai_usage": "ai-assisted",
+    "words": 561,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a4a709c01ea27d9fddd3b728a2e6ca0a1d0ea96400e54fcd56cf1e109db30277"
+  "output_hash": "71c94d9415f50551fd6081eac11879dbed09bb79ba8e4558679a7c064777aae5"
 }
