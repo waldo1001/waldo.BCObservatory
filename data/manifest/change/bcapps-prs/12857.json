@@ -6,10 +6,35 @@
   "title": "[master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.",
   "url": "https://github.com/microsoft/BCApps/pull/12857",
   "published_at": "2026-10-15T21:29:48Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:20:22.084Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:45.074Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004419
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:49.025Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:49.031Z",
+      "path": "content/changes/bcapps/12857.md"
     }
   },
   "input_hash": "ff3d70c57cbfb3ade10598c76a16e1272c0ee025:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master incorrect purchase credit memo created when customer and vendor subscription contracts have the same contract number"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e15b2dbd8c7a6b690136a61e192fa0ae0f92c34b6c56dcf6a250517c4d97a1c6"
 }

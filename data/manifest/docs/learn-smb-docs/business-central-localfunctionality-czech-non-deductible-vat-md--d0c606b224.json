@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.392Z",
-      "blob": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
-      "words": 3239,
+      "at": "2026-10-16T00:20:09.324Z",
+      "blob": "6599a608936b81d11d364d9d565782496c4474c5",
+      "words": 3238,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:00:06.920Z",
+      "at": "2026-10-16T00:20:23.246Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 8,
-      "cost_usd": 0.004759
+      "objects": 11,
+      "cost_usd": 0.015964
     },
     "summarized": {
-      "at": "2026-10-06T19:00:06.987Z",
+      "at": "2026-10-16T00:20:23.247Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:00:06.989Z",
+      "at": "2026-10-16T00:20:23.248Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:00:06.990Z",
+      "at": "2026-10-16T00:20:23.249Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/non-deductible-VAT.md",
     "description": "Learn about the features for using non-deductible VAT in the Czech version, including the setup, posting principles, and reporting requirements.",
-    "ms_date": "2025-09-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Non-Deductible VAT",
       "Localization"
     ],
-    "ai_usage": null,
-    "words": 3239,
+    "ai_usage": "ai-assisted",
+    "words": 3238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "591247575f11b648d49cc607f9704d066ae4fe3d1b6178f08df88de0ee826c80"
+  "output_hash": "adacdb0bf99f2fce82f3fbb92a7a3858650064663f933a7cb628011c07be776f"
 }

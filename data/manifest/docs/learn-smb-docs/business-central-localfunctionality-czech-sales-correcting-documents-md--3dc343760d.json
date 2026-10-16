@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/sales-correcting-documents",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.445Z",
-      "blob": "cabb2afd70d4d12b19e09065d863dff7ea14fa98",
+      "at": "2026-10-16T00:20:12.499Z",
+      "blob": "ac24d1027f2718dba7e7ee66826d69104086417c",
       "words": 54,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:10.600Z",
+      "at": "2026-10-16T00:20:21.825Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002263
+      "cost_usd": 0.002632
     },
     "summarized": {
-      "at": "2026-10-06T23:41:10.615Z",
+      "at": "2026-10-16T00:20:21.827Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:10.616Z",
+      "at": "2026-10-16T00:20:21.828Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:10.617Z",
+      "at": "2026-10-16T00:20:21.829Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/sales-correcting-documents.md",
     "description": "Learn about local functionality for handling sales correcting documents, including different types of sales credit memos, in the Czech version of Business Central.",
-    "ms_date": "2025-06-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 54,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7dc66c18bbd4b1c3dde0533c43b8c99fad8a8957a1a8c82bd9b24105c5a5efa3"
+  "output_hash": "56c2ab40154c57dacfacbd7dfcfbcc44d2ee8f04f1ab02d20d86c5c93218d683"
 }

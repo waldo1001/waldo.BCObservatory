@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12614",
+  "number": 12614,
+  "title": "[GB] GovTalk: migrate SendHttpRequest from DotNet HttpWebRequest to native HttpClient",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "GovTalk message submission migrated from deprecated DotNet HttpWebRequest to native HttpClient for HTTP communication with HMRC.",
+  "key_points": [
+    "Replaced DotNet HttpWebRequest with native HttpClient and HttpRequestMessage/HttpResponseMessage types",
+    "Applied migration to both GovTalk app and obsolete GB Base App copy",
+    "Progress dialog now only opens when UI is available",
+    "Added two new test cases covering successful POST with XML parsing and non-200 status handling",
+    "Protocol behavior preserved: POST, text/xml content type, utf-8 encoding, follow redirects, 100s timeout"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

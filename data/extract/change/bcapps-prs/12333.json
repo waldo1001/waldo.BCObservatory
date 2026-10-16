@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12333",
+  "number": 12333,
+  "title": "Keep the draft unit of measure and variant code when creating the purchase line",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Unit of measure and variant code on purchase draft lines now persist when creating the final purchase invoice line.",
+  "key_points": [
+    "Moved unit of measure and variant code assignment to after No. and Item Reference validation",
+    "Validation now occurs through proper Validate calls to maintain Qty. per Unit of Measure consistency",
+    "Prevents unit of measure from being dropped or reset to item default during finalization",
+    "Invalid unit of measure now triggers e-document error context instead of silent default",
+    "Comprehensive test coverage added for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "integration"
+  ],
+  "quote": "Moved both to after the No. and Item Reference validations, through Validate so Qty. per Unit of Measure stays right.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}

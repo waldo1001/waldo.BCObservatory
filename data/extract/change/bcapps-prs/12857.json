@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12857",
+  "number": 12857,
+  "title": "[master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Billing totals now filter by both Subscription Contract No. and Partner type to prevent incorrect credit memos when customer and vendor contracts share the same number.",
+  "key_points": [
+    "Added Partner filtering in GetServiceAmountForContract and GetServiceAmount methods",
+    "Prevents customer credit memo lines from affecting vendor contract billing totals",
+    "Fixes issue where shared contract numbers caused wrong document type (credit memo instead of invoice)",
+    "Changes affect billing line calculations and codeunit logic",
+    "Comprehensive test coverage added for the correction scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}

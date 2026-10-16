@@ -1,0 +1,38 @@
+{
+  "item_id": "change/bcapps-prs/12517",
+  "number": 12517,
+  "title": "Suppress AS0099 for existing extension field IDs",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "integration",
+    "copilot",
+    "development",
+    "purchasing",
+    "sales",
+    "sustainability"
+  ],
+  "summary": "Added AS0099 suppression pragmas for 70 existing extension fields across multiple apps to preserve schema compatibility while acknowledging their allocation outside app ranges.",
+  "key_points": [
+    "Suppresses AS0099 analyzer warnings for extension fields outside allocated ranges",
+    "Preserves field IDs for schema compatibility rather than renumbering",
+    "Covers E-Document Core, Expense Agent, Field Service Integration, Sustainability, and localization apps",
+    "Narrow, targeted suppressions around affected fields only",
+    "No runtime logic or manifest changes; diagnostic suppression only"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}

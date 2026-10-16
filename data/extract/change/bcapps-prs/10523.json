@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10523",
+  "number": 10523,
+  "title": "[Extensibility Request] issue 29092: expose Ship-to Name in ES",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Added W1-compatible Ship-to Name control to the ES Posted Sales Invoices page while retaining legacy control as pending obsolete for backward compatibility.",
+  "key_points": [
+    "Exposed standard W1 control name Ship-to Name in ES localization layer",
+    "Maintained legacy control name for existing consumer compatibility",
+    "Marked legacy control as pending obsolete to guide migration",
+    "Resolves extensibility issue where ES page had non-standard control naming",
+    "Extensions targeting W1 page can now reference Ship-to Name in ES"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
   "url": "https://github.com/microsoft/BCApps/pull/12461",
   "published_at": "2026-10-13T04:11:08Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -18,6 +18,13 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:45.079Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004419
     }
   },
   "input_hash": "976fedd36fdf45f066e22caaadbac4246fafd72f:c1",
@@ -39,5 +46,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b2125519d07dfe5ddce1822fbc2a8421aed2e909606f2fe17f0d141285bb9bde"
+  "output_hash": "500c4dcd2ee0447f6424468e9e8a953b06e075ce491660fb808acb95adecd619"
 }

@@ -2,19 +2,19 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/non-deductible-VAT.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/non-deductible-VAT",
   "title": "Non-deductible VAT",
-  "blob": "a6bd2abadfaf7166e243a5a7da2de51894779ae3",
-  "summary": "Non-deductible VAT in the Czech version enables partial or full reduction of input VAT through shortening coefficients, with setup on VAT Posting Setup and VAT Entries extended with fields for reporting original amounts separately from reduced amounts.",
+  "blob": "6599a608936b81d11d364d9d565782496c4474c5",
+  "summary": "Non-deductible VAT in Czech Business Central allows VAT payers to shorten input VAT using a reduction coefficient for mixed business and tax-exempt activities, with support for partial or full reduction and settlement coefficient adjustments.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat",
     "non-deductible vat",
-    "czech localization",
+    "czech functionality",
+    "vat reduction",
+    "vat posting",
     "vat reporting",
-    "vat entries",
-    "input vat reduction"
+    "settlement coefficient"
   ],
   "objects": [
     {
@@ -26,12 +26,20 @@
       "name": "VAT Posting Setup"
     },
     {
+      "type": "page",
+      "name": "Non-Deductible VAT Setup"
+    },
+    {
       "type": "table",
       "name": "VAT Entries"
     },
     {
       "type": "page",
-      "name": "Non-Deductible VAT Setup"
+      "name": "VAT Product Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Source Code Setup"
     },
     {
       "type": "report",
@@ -39,28 +47,32 @@
     },
     {
       "type": "report",
-      "name": "VAT Control Report"
-    },
-    {
-      "type": "report",
       "name": "Documentation for VAT"
     },
     {
       "type": "report",
-      "name": "VAT Documents List"
+      "name": "VAT Documents"
+    },
+    {
+      "type": "report",
+      "name": "VAT Control Report"
+    },
+    {
+      "type": "report",
+      "name": "VAT Statements"
     }
   ],
   "features": [
-    "Enable Non-Deductible VAT toggle",
-    "Enable Non-Deductible VAT CZ toggle",
-    "Non-Deductible Purchase VAT account",
-    "VAT Coefficient Correction",
-    "shortening coefficient",
-    "settlement coefficient",
-    "advance coefficient",
-    "Original VAT Base field",
-    "Original VAT Amount field",
-    "Non-Deductible VAT % field"
+    "Enable Non-Deductible VAT",
+    "Enable Non-Deductible VAT CZ",
+    "VAT reduction coefficient",
+    "Non-deductible purchase VAT account",
+    "Use for Item Cost",
+    "Use for Fixed Asset Cost",
+    "Use for Project Cost",
+    "VAT Coefficient Correction batch job",
+    "Original VAT Base and Amount tracking",
+    "Settlement coefficient recalculation"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +81,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004759,
-      "pages_in_call": 8
+      "cost_usd": 0.015964,
+      "pages_in_call": 1
     }
   ]
 }

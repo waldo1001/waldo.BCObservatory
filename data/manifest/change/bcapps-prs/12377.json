@@ -6,7 +6,7 @@
   "title": "[main] Bug 653097 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.",
   "url": "https://github.com/microsoft/BCApps/pull/12377",
   "published_at": "2026-10-13T11:43:22Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:40.444Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00389
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:41.728Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:41.735Z",
+      "path": "content/changes/bcapps/12377.md"
     }
   },
   "input_hash": "dd18edd51448a78df4e31843f84fd1263537d930:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3f212c70dea001eda00cf756f5caadf55ae6535477cfa4fac8fc765d1a49a5d8"
+  "output_hash": "180cf03a2bd9260b1e3dcf98189283701920aa977184b1f2b8c18c62c5d857eb"
 }

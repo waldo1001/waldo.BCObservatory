@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11527",
+  "number": 11527,
+  "title": "E-document payment improvements",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Document payment processing now supports durable, retryable occurrences with bounded automatic retries, dispatcher job management, and enhanced French E-Reporting UI for lifecycle messages.",
+  "key_points": [
+    "Captures payment applications and reversals for outgoing sales-invoice E-Documents",
+    "Installs recurring dispatcher processing occurrences in batches with 30-minute processing lease protection",
+    "Implements bounded retries with delays of 5 minutes, 30 minutes, 2 hours, and 8 hours; Action Required status after five failures",
+    "Adds UI for lifecycle messages, VAT breakdowns, payment occurrences, and retry details in French E-Reporting",
+    "Migrates existing error occurrences to Retry Pending during install and upgrade"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "Captures payment applications and reversals for outgoing sales-invoice E-Documents and publishes them through the payment-occurrence integration event.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}

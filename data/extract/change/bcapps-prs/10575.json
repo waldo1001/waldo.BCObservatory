@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/10575",
+  "number": 10575,
+  "title": "Calculate Inventory: scope Default Dimension reads by source table",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Report 790 Calculate Inventory now scopes Default Dimension reads by source table to prevent dimensions from unrelated locations bleeding into journal lines when item numbers and location codes collide.",
+  "key_points": [
+    "Fixed cross-product filter issue where independent OR-filters on No. and Table ID caused incorrect dimension assignments",
+    "Changed to two scoped passes per table-number pair: one for items and one for locations",
+    "Added regression test verifying that unrelated location dimensions do not leak when codes match",
+    "Applied same fix to both W1 and RU layer copies of the report",
+    "Behavior unchanged when item numbers and location codes do not collide"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

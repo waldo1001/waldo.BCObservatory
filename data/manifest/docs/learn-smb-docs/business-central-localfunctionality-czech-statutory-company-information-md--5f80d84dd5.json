@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-company-information",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.450Z",
-      "blob": "488716991cf246cec562e37ad7d20df80202d99a",
-      "words": 149,
+      "at": "2026-10-16T00:20:27.291Z",
+      "blob": "921e212c275c8171861d44afc338c666e8fb82c0",
+      "words": 145,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:57.664Z",
+      "at": "2026-10-16T00:20:37.200Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.00133
+      "cost_usd": 0.003171
     },
     "summarized": {
-      "at": "2026-10-06T19:23:10.912Z",
+      "at": "2026-10-16T00:20:37.201Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:10.913Z",
+      "at": "2026-10-16T00:20:37.202Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:10.915Z",
+      "at": "2026-10-16T00:20:37.203Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/statutory-company-information.md",
     "description": "The Statutory company information feature enables users to define company officials and assign them roles for inclusion in internal and external documents.",
-    "ms_date": "2025-06-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -59,12 +59,12 @@
       "EET",
       "Cash Desk"
     ],
-    "ai_usage": null,
-    "words": 149,
+    "ai_usage": "ai-assisted",
+    "words": 145,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2fc743d6ea7afa5fb6c62b41eeae2630d3ca80b8f9a5a858614f2d1389aedb45"
+  "output_hash": "9ffea976cdf669bd3630d6bf855c82c820477a98e4d972c1d9c86116103d9079"
 }

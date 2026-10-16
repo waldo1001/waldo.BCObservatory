@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12461",
+  "number": 12461,
+  "title": "[29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price.  \"Sorry, we just updated this page. Reopen it and try again.\" when running in SaaS",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Item charge assignment on sales orders now refreshes record set after bulk updates to prevent page synchronization errors when assigning by amount.",
+  "key_points": [
+    "Calls FindSet() to refresh record set after clearing assignment fields with ModifyAll",
+    "Prevents 'Sorry, we just updated this page' errors in SaaS when suggesting assignment",
+    "Ensures allocation logic works with consistent data when items have zero or missing prices",
+    "Test coverage added for zero-price and priced item scenarios",
+    "Fixes race condition between bulk update and iteration logic"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Refresh the record set with FindSet() after the bulk updates.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}

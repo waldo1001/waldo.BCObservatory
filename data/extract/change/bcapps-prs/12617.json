@@ -1,0 +1,65 @@
+{
+  "item_id": "change/bcapps-prs/12617",
+  "number": 12617,
+  "title": "[Security] Move URL checks from Web Request Helper to System Application Uri module",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "integration",
+    "development",
+    "platform",
+    "administration",
+    "copilot",
+    "crm"
+  ],
+  "summary": "URL validation moved from Web Request Helper using DotNet System.Uri to native System Application Uri module across multiple apps, with obsolete markers for deprecated procedures.",
+  "key_points": [
+    "Migrated URL validation away from DotNet with IsValidUri, IsValidUriWithoutProtocol, IsSecureHttpUrl, IsHttpUrl, and GetHostNameFromUrl",
+    "System Application Uri module now used directly by all callers in Base App, CZ, NA, NO, and specialty apps",
+    "Five helper procedures reimplemented on top of Uri codeunit and marked obsolete for CLEAN30",
+    "Removed unused System.Integration directives across multiple files",
+    "Semantics preserved: absolute URI validation, scheme checking, same error messages"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Web Request Helper",
+      "member": "IsValidUri",
+      "replacement": "Uri.IsValidUri from System Application"
+    },
+    {
+      "object": "Web Request Helper",
+      "member": "IsValidUriWithoutProtocol",
+      "replacement": "Uri.IsValidUri from System Application"
+    },
+    {
+      "object": "Web Request Helper",
+      "member": "IsSecureHttpUrl",
+      "replacement": "Uri.GetScheme from System Application"
+    },
+    {
+      "object": "Web Request Helper",
+      "member": "IsHttpUrl",
+      "replacement": "Uri.GetScheme from System Application"
+    },
+    {
+      "object": "Web Request Helper",
+      "member": "GetHostNameFromUrl",
+      "replacement": "Uri.GetHost from System Application"
+    }
+  ],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

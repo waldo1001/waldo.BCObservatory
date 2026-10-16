@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12377",
+  "number": 12377,
+  "title": "[main] Bug 653097 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Fixed billing lines not being rolled back when vendor subscription contract invoice creation fails by ensuring proper transaction handling.",
+  "key_points": [
+    "Corrected transaction rollback behavior in invoice creation failure scenarios",
+    "Applied to Subscription Billing codeunit 8060 Create Billing Documents",
+    "Added test coverage for the rollback fix",
+    "Ensures data consistency when invoice creation errors occur"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

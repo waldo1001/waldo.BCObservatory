@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/receivables-payables",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.242Z",
-      "blob": "b026dbd5b718ff8e55c7815fda4dd5c8fb4dee20",
-      "words": 843,
+      "at": "2026-10-16T00:20:09.294Z",
+      "blob": "46340c59b73bd44484b54a785a629fddf7a45afc",
+      "words": 894,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.605Z",
+      "at": "2026-10-16T00:20:21.814Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 28,
-      "cost_usd": 0.004529
+      "objects": 5,
+      "cost_usd": 0.005295
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.064Z",
+      "at": "2026-10-16T00:20:21.815Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.064Z",
+      "at": "2026-10-16T00:20:21.816Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.065Z",
+      "at": "2026-10-16T00:20:21.817Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/receivables-payables.md",
-    "description": "Learn about payables and receivables features specific to the Czech version, including credits, exchange rate adjustments, and local reporting requirements.",
-    "ms_date": "2025-06-05",
+    "description": "Learn about payables and receivables features specific to the Czech version, including compensations, exchange rate adjustments, and local reporting requirements.",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "CZ",
       "Cash"
     ],
-    "ai_usage": null,
-    "words": 843,
+    "ai_usage": "ai-assisted",
+    "words": 894,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e7fcb4c8ba5543dcc0979938aaa52b6a64f8d49daad07642b088d4de1f4f6eea"
+  "output_hash": "d79d625117a1225dcfd353111075077f469d140707d62ec28ed7280ac038eae3"
 }

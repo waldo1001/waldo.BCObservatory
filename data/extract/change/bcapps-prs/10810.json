@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/10810",
+  "number": 10810,
+  "title": "Private/t tmikula/aggregate lines deadlock",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "crm"
+  ],
+  "summary": "Fixed a potential deadlock in the Office Line Generation codeunit by preventing line aggregator issues.",
+  "key_points": [
+    "Addressed deadlock scenario in aggregate lines processing",
+    "Added test coverage for the deadlock fix",
+    "Change focused on codeunit 1639 Office Line Generation",
+    "Minimal implementation change with comprehensive test suite"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "crm"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00389,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10575,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10575",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-15T18:28:25Z",
+  "merge_commit_sha": "82f1099224f7690221e5e6fa638d61e5025da1ab",
+  "author": "Franco111000",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Calculate Inventory: scope Default Dimension reads by source table",
+  "body_hash": "9d901d5570a5da778023bd7ed9143babe157768871792707912264e19b82e319",
+  "fixes_issues": [],
+  "work_items": [
+    654041
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMInventoryJournals.Codeunit.al",
+      "status": "modified",
+      "additions": 66,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 92,
+    "deletions": 14,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+        "status": "modified",
+        "key": "report/790",
+        "type": "report",
+        "id": 790,
+        "name": "Calculate Inventory",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/790"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Counting/Journal/CalculateInventory.Report.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

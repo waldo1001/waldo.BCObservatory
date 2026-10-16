@@ -6,10 +6,35 @@
   "title": "Calculate Inventory: scope Default Dimension reads by source table",
   "url": "https://github.com/microsoft/BCApps/pull/10575",
   "published_at": "2026-10-15T18:28:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:20:19.499Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 2,
+      "objects": 1,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:40.440Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00389
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:40.700Z",
+      "objects": 1,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:40.710Z",
+      "path": "content/changes/bcapps/10575.md"
     }
   },
   "input_hash": "82f1099224f7690221e5e6fa638d61e5025da1ab:c1",
@@ -30,5 +55,8 @@
     ],
     "community_contribution": true,
     "title_key": "calculate inventory scope default dimension reads by source table"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fcba97db70b3740ba9314df810c61f6674eaad7cd2fee44d1fd1a00f85ffa490"
 }

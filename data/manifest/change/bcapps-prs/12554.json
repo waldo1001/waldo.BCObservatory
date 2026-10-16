@@ -6,7 +6,7 @@
   "title": "[Main] - User encounters a \"record is not open\" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)",
   "url": "https://github.com/microsoft/BCApps/pull/12554",
   "published_at": "2026-10-13T10:29:57Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
@@ -18,6 +18,13 @@
       "al": 7,
       "objects": 7,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:45.075Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004419
     }
   },
   "input_hash": "070e66c3cba2ef12db782e8857b43f9035892bc7:c1",
@@ -43,5 +50,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "181425e733a0b93668a556a7777877b95801eea904207414a3508fb909fb3ceb"
+  "output_hash": "7b58ad4c5715dcaef061726ed2bbace2deb3ee3dd6848affbc5ac69f1574054a"
 }

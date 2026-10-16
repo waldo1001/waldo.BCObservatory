@@ -1,0 +1,37 @@
+{
+  "item_id": "change/bcapps-prs/12554",
+  "number": 12554,
+  "title": "[Main] - User encounters a \"record is not open\" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "copilot",
+    "integration",
+    "manufacturing",
+    "sales",
+    "service"
+  ],
+  "summary": "Document attachment uploads now work correctly for posted sales shipments and return receipts by adding missing table references and hardening error handling.",
+  "key_points": [
+    "Added missing Database::Sales Shipment Header and Database::Return Receipt Header cases to GetRefTable",
+    "Opens RecordRef correctly before passing to SaveAttachment",
+    "Added error handling with OnAfterGetRecRefFail event to surface clear messages",
+    "Prevents cryptic 'record is not open' errors when uploading documents",
+    "Applied consistent pattern used for other posted sales documents"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Added the missing Database::Sales Shipment Header and Database::Return Receipt Header cases to GetRefTable, each opening the RecordRef on its table.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004419,
+    "changes_in_call": 6
+  }
+}
