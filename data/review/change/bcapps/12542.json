@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12542",
+  "input_hash": "cb1ab42f49fcd6ce0ed773ff5041db98e721f1b4e6cd631bdddbc4c0c1bb6d8d",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:27.342Z",
+  "issues": [
+    "Key point claiming the codeunit now computes component requirements is not supported; the only evidence is a 6-line addition to Create Reserv. Entry."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021791,
+    "changes_in_call": 4
+  }
+}

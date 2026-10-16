@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:01.809Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,63 +21,63 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl
     title: Create Electronic Documents in an OIOUBL format
-    date: "2025-03-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality
     title: Denmark local functionality
-    date: "2025-12-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-regnskabbasis-export
     title: Export accounting data to Regnskab Basis in Denmark
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-use-saft-audit-files-export
     title: Export the SAF-T audit file format in Denmark
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal
     title: FIK details in the payment reconciliation journal
-    date: "2025-03-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports
     title: How to print VAT reconciliation reports [DK]
-    date: "2025-03-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl
     title: How to Set Up Customers for OIOUBL | Microsoft Docs
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview
     title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
-    date: "2025-04-24"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl
     title: OIOUBL Extension for Electronic Invoicing
-    date: "2025-04-24"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -91,35 +91,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk
     title: Payroll Data Definitions [DK]
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl
     title: Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa
     title: Standard chart of accounts in Denmark
-    date: "2025-12-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat
     title: VAT Registration No. for Intrastat [DK]
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting
     title: VAT-VIES Reporting [DK]
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -128,6 +128,7 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/denmark-local-functionality
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk
   objects:
+    - object/page/5260
     - object/page/5264
     - object/page/5266
     - object/page/5267
@@ -157,12 +158,13 @@ children:
   - topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing
 coverage:
   learn: 15
-  code: 4
+  code: 5
   video: 1
   blog: 0
   guideline: 0
 bc_forms:
   - 328
+  - 5260
   - 5264
   - 5266
   - 5267
@@ -222,6 +224,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
+- [Page 5260 "G/L Account Mapping"](../../../../objects/page/5260.md) · on [Table 5260 "G/L Account Mapping Header"](../../../../objects/table/5260.md) · via [Auditing](denmark/auditing.md)
 - [Page 5264 "Audit File Export Setup"](../../../../objects/page/5264.md) · on [Table 5264 "Audit File Export Setup"](../../../../objects/table/5264.md) · via [Auditing](denmark/auditing.md)
 - [Page 5266 "Audit File Export Documents"](../../../../objects/page/5266.md) · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md) · via [Auditing](denmark/auditing.md)
 - [Page 5267 "Audit File Export Doc. Card"](../../../../objects/page/5267.md) · captioned "Audit File Export Document" · on [Table 5265 "Audit File Export Header"](../../../../objects/table/5265.md) · via [Auditing](denmark/auditing.md)

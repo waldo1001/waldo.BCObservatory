@@ -6,12 +6,12 @@
   "systems_joined": [
     "crm"
   ],
-  "summary": "Fixed a potential deadlock in the Office Line Generation codeunit by preventing line aggregator issues.",
+  "summary": "Changed codeunit 1639 Office Line Generation to address a possible deadlock when aggregating lines, and added a new integration test codeunit for it.",
   "key_points": [
-    "Addressed deadlock scenario in aggregate lines processing",
-    "Added test coverage for the deadlock fix",
-    "Change focused on codeunit 1639 Office Line Generation",
-    "Minimal implementation change with comprehensive test suite"
+    "Targets a possible deadlock in line aggregation in Office Line Generation",
+    "Code change is limited to codeunit 1639 Office Line Generation",
+    "Adds a new OfficeLineGenerationTest integration test codeunit",
+    "The description says the change potentially fixes the deadlock; it does not claim a confirmed fix"
   ],
   "change_kind": "fix",
   "behavior_change": true,

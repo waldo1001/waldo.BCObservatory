@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/czech-republic/payables-and-receivables",
-  "input_hash": "4d056c97c3cec6c3c1c9b6bef649b0ee00adedf6011a33dbbcf866cc509b5302",
-  "summary": "Czech localization of Business Central for payables and receivables: compensation between customers and vendors, balance reconciliations, exchange rate adjustments, sales correcting documents, ARES contact updates, and output document layout. It answers how to set up and use these Czech-specific features.",
-  "overview": "This section collects the Czech-specific features that affect customers, vendors and the documents sent to them. Some cover accounting processes: compensation of receivables against payables, customer and vendor reconciliation statements, and exchange rates adjustment. Others cover documents and master data: sales correcting documents, the new design of output documents, hiding zero-quantity lines, and updating contacts from ARES.\n\nThe pages are independent of each other, and there are no subtopics. Pick the page that matches the task. For offsetting balances when a customer is also a vendor, start with the compensation page. For year-end or periodic balance statements, use the reconciliations page. For document layout and VAT compliance, see the output documents, sales correcting documents and zero-quantity pages.",
+  "input_hash": "969d6a45083e21161d529cd452a829f817ea0283b3fe9250beac6e7866cc6cfa",
+  "summary": "Czech local functionality for payables and receivables in Business Central: compensation of mutual receivables and payables, balance reconciliations, exchange rate adjustment, output document design, sales correcting documents, ARES contact updates, and hiding zero-quantity lines. It answers setup and usage questions for the Czech version.",
+  "overview": "This section collects Czech-specific features that affect customers, vendors and the documents sent to them. There are no subtopics; all seven pages sit at the same level and each covers one feature.\n\nSome pages deal with posting and period-end work: Compensation offsets receivables and payables when a customer is also a vendor, Customers/Vendors Reconciliations prepares balance statements at fiscal year-end, and the enhanced exchange rate adjustment handles customers, vendors and bank accounts. Others deal with documents and master data: the new output document design, sales correcting documents required by Czech VAT law, the ARES update of contacts, and the option to hide lines with zero quantity in reports.\n\nStart with the page that matches your task. For offsetting balances, read the Compensation page. For year-end and currency revaluation, read the reconciliation and exchange rate pages. For printed documents and VAT compliance, read the output design and sales correcting documents pages.",
   "key_points": [
-    "Compensation offsets receivables and payables when a customer is also a vendor. Lines can be entered manually or proposed with Suggest lines, then released and posted.",
-    "Compensation can print an Agreement on Mutual Settlement of Receivables and Payables, and it uses Compensation Nos. for numbering.",
-    "Customers/vendors reconciliation prepares and sends balance statements for fiscal year-end or periodic reconciliation.",
-    "Exchange rates adjustment runs separately for customers, vendors and bank accounts, with a test mode, summarized entries per currency, dimension transfer methods and Advance Payments integration.",
-    "Sales credit memos can be typed as Corrective Tax Document, Internal Correction or Insolvency Tax Document to follow VAT law amendments.",
-    "The new output document design standardizes printed reports and adds registration numbers, VAT specification, advance payment deductions and tax corrective document naming.",
-    "Update contacts from ARES retrieves company information through an ARES Http service and updates contact, vendor and customer records.",
-    "A Hide lines with zero quantity toggle controls zero-quantity lines on sales and purchase invoices and credit memos."
+    "Compensation extension: set up compensations, propose lines, release and post, and print the Agreement on Mutual Settlement of Receivables and Payables.",
+    "Compensation lets you view Balance as Vendor and Balance as Customer for a party that is both.",
+    "Customers/Vendors Reconciliations uses the Balance Reconciliation action to send balance statements at fiscal year-end.",
+    "Adjust Exchange Rates Enhanced adjusts customers, vendors and bank accounts separately, with test mode and summarized posting per currency.",
+    "The exchange rate adjustment uses an alternative realized gains and losses calculation under the Czech Income Tax Act and supports the Czech Advance Payments module.",
+    "New output document design standardizes layout and adds registration numbers, VAT specification, advance payment deductions and tax corrective document naming.",
+    "Sales credit memos must be differentiated as corrective tax document, internal correction or insolvency tax document under Czech VAT law.",
+    "ARES integration validates and updates registration numbers for contacts, vendors and customers, and needs a service endpoint configured."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:08.083Z",
+  "at": "2026-10-16T01:18:09.285Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014039000000000001
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:21:57.818Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says the pages are independent of each other. The sources neither support nor contradict this, and the exchange rates page mentions Advance Payments integration. Minor.",
-      "Overview groups the zero-quantity page under 'document layout and VAT compliance'. That page is only about showing or hiding lines, so it fits layout but not VAT compliance. Acceptable as a grouped pointer."
-    ],
-    "input_hash": "4d056c97c3cec6c3c1c9b6bef649b0ee00adedf6011a33dbbcf866cc509b5302",
-    "cost_usd": 0.036111199999999996
+    "cost_usd": 0.015313
   }
 }

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/11714",
+  "input_hash": "a1c810f95a1be126875026cbb2af4885abf38d08e57cd06f2530b12c5064ecdf",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:10.523Z",
+  "issues": [
+    "One key point lists only W1 and APAC, but the RU Inventory Adjustment codeunit is also changed, along with the W1 assembly table extension."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021304,
+    "changes_in_call": 6
+  }
+}

@@ -2,7 +2,7 @@
 id: post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
 type: post
 title: "BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?"
-summary: Items missing from sales line lookups are often caused by the Blocked or Sales Blocked fields being enabled on the item card, not by AL code issues. Checking these two fields first can quickly resolve lookup filtering problems.
+summary: When an item does not appear in the Sales Line item lookup, check the Blocked and Sales Blocked fields on the Item card. If either is enabled, standard filtering hides the item from the lookup, so check these fields before debugging AL code.
 tier: community
 language: en
 tags:
@@ -13,16 +13,16 @@ tags:
   - troubleshooting
 system: sales
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-15T00:21:58.873Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 4fb374325fbb06bbe349c29b4318f304568bed493f4cefe7c506e24433f2a2d2
+  input_hash: bfee70f14ae2d1981d99c4329c949234f3fe2fca8e72be763df33ade70df682f
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/
@@ -70,27 +70,26 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/MissingItemOnSalesLine.BLf0GInI_1yyXm.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-07T11:51:44.627Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-16T01:14:09.508Z"
 ---
 
 # BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-09 · 93 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-09 · 93 words · tier community · reviewed (checked by Opus)
 
-> Items missing from sales line lookups are often caused by the Blocked or Sales Blocked fields being enabled on the item card, not by AL code issues. Checking these two fields first can quickly resolve lookup filtering problems.
+> When an item does not appear in the Sales Line item lookup, check the Blocked and Sales Blocked fields on the Item card. If either is enabled, standard filtering hides the item from the lookup, so check these fields before debugging AL code.
 
 ## Key points
 
-- The Blocked and Sales Blocked fields on the item card filter items out of the standard Sales Line lookup.
-- These fields are the first place to check when items don't appear in sales line dropdowns.
-- Understanding standard Business Central filtering can prevent unnecessary AL code debugging.
-- This is a configuration issue resolved through the item card, not a development problem.
+- Enabling Blocked or Sales Blocked on the Item card hides the item from the standard Sales Line item lookup.
+- Check these two fields first when an item is missing from the lookup.
+- Doing so can show that standard BC filtering is the cause before anyone spends time debugging AL code.
 
 ## Quotes
 

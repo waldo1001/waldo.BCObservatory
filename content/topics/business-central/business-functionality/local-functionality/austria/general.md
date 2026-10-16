@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/austria/general
 type: topic
 title: General
-summary: General Austria localization pages cover audit data export and a setup report. They answer questions about exporting GL and VAT entries for auditors with the Audit Files Export extension, and about printing the G/L Setup Information report in the Austrian version to check setup.
+summary: "Austria general functionality in Business Central covers audit-related tools: exporting GL and VAT entries for auditing with the Audit Files Export extension, and printing general ledger setup information in the Austrian version. It answers questions about audit data exports and verifying setup for compliance."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:38.153Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0178294ae036c68e57b5fde214ce7fb8e26a7108a140617b516398aebd118e4a
+  input_hash: a361bb1a5d513a96cba442abbbf9718a19708eb4b6e5b154f52ad6a6ccf2373f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files
@@ -76,23 +76,27 @@ narrative: generated
 
 # General
 
-> General Austria localization pages cover audit data export and a setup report. They answer questions about exporting GL and VAT entries for auditors with the Audit Files Export extension, and about printing the G/L Setup Information report in the Austrian version to check setup.
+> Austria general functionality in Business Central covers audit-related tools: exporting GL and VAT entries for auditing with the Audit Files Export extension, and printing general ledger setup information in the Austrian version. It answers questions about audit data exports and verifying setup for compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Austria](../austria.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds two pages for the Austrian version of Business Central, both aimed at audit readiness and setup verification. There are no subtopics.\n\n\"Export data for auditing\" describes the Audit Files Export extension. It exports GL and VAT entries in formats such as SIE, FEC, and SAF-T, and it uses GL account mapping to prepare audit-ready data. The page also mentions data quality checks, parallel processing, and zip export.\n\n\"Print general ledger setup information [AT]\" describes the G/L Setup Information report in the Austrian version. Use it before daily operations to review and verify master data, posting groups, VAT setup, and number series. The page lists compliance with the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen as one of its features.
+This section groups two audit-focused pages for the Austrian version of Business Central. One describes exporting data for auditors, the other describes a report that prints the general ledger setup for checking.
+
+The export page explains the Audit Files Export extension, which exports GL and VAT entries in formats such as SIE, FEC, and SAF-T, with GL account mapping. The setup page covers the G/L Setup Information report, which prints master data, posting groups, VAT setup, and source codes so you can verify configuration.
+
+Start with the setup report to check that the configuration is correct. Then use the export page to prepare the audit-ready data files.
 
 ## Key points
 
-- The Audit Files Export extension exports GL and VAT entries.
-- Supported export formats named include SIE, FEC, and SAF-T.
-- GL account mapping is part of preparing audit-ready exports.
-- The export page mentions data quality checks, parallel processing, and zip export.
-- The G/L Setup Information report is available in the Austrian version.
-- The report helps verify master data, posting groups, VAT setup, and number series.
-- The report supports compliance with the Grundsätze zum Datenzugriff und zur Prüfbarkeit digitaler Unterlagen.
+- The Audit Files Export extension exports GL and VAT entries for auditing.
+- Export formats named include SIE, FEC, and SAF-T.
+- The export supports GL account mapping, data quality checks, parallel processing, and zip export.
+- The G/L Setup Information report is part of the Austrian version of Business Central.
+- The report prints general ledger master data, posting groups, VAT setup, and source codes.
+- The report shows the G/L Setup, Posting Groups, Posting Matrix, VAT Setup, and Source Code, and includes a Check Number Series option.
+- The report is meant for verification and audit compliance.
 
 ## Learn pages
 

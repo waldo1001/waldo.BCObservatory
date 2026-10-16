@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ae2062d9e4231fea4d9e5349737f1e487b5141fb54ba34ac0b5ab0ddcbb9647a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/System%20Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al
     title: src/System Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al (releases/29.x)
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Control add-in "WelcomeWizard" in System Application (System.Environment). 4 public procedures. Introduced in BC24, still in BC30, changed in BC26.
 
-System Application · System.Environment · BC24-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/System%20Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al) · facts from BC29
+System Application · System.Environment · BC24-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/System%20Application/App/ControlAddIns/src/WelcomeWizard.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

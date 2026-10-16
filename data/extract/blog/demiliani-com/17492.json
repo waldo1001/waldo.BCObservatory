@@ -5,7 +5,7 @@
   "source": "demiliani-com",
   "published_at": "2026-10-13T08:35:29.000Z",
   "words": 390,
-  "summary": "Azure Network Security Perimeter now supports service tags for inbound access rules, allowing Business Central administrators to simplify Azure Storage Account security configuration. Instead of maintaining IP allowlists, organizations can reference the Dynamics365BusinessCentral service tag, with Microsoft automatically updating the underlying IP ranges.",
+  "summary": "Azure Network Security Perimeter gained public preview support, announced October 6, 2026, for service tags as the source of inbound access rules. Administrators can restrict an Azure Storage Account to Business Central traffic by choosing the Dynamics365BusinessCentral service tag instead of maintaining IP lists, while Microsoft keeps the ranges current. Tags are broad, so this means trusting the service as a whole.",
   "key_points": [
     "Service tag support for NSP inbound rules eliminates the need to manually track individual IP addresses",
     "The Dynamics365BusinessCentral service tag can be used as the source for NSP inbound access rules",

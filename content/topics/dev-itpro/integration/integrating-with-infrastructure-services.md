@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:41.815Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,7 +108,8 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/3460
   guidelines: []
   changes:
     - change/bcapps/12064
@@ -122,7 +123,7 @@ coverage:
   learn: 7
   code: 26
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -198,6 +199,7 @@ Several pages cover both online and on-premises deployments, and some mention de
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
+- [Native SFTP Support in Business Central 28](../../../posts/aardvarklabs-blog/3460.md) (community post): "Business Central 28 added a native SFTP Client codeunit (ID 9762) for listing, uploading, downloading and deleting"
 
 ## Business Central pages and reports
 

@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/olofsimren-com/3865",
+  "input_hash": "b5f8faff5acea3672d29d0789065167180d65009894ebe6c65304e7aba6e8c3b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:16:46.495Z",
+  "issues": [
+    "The summary and key points match the case study.",
+    "The post does not discuss inventory, so that system tag has been dropped.",
+    "The post talks about moving legacy freight logic into configuration tables, not about integrating with a legacy system, so the legacy system integration feature has been dropped."
+  ],
+  "applied": [
+    "dropped 1 feature(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032879,
+    "posts_in_call": 4
+  }
+}

@@ -8,11 +8,10 @@
   ],
   "summary": "Fixed OAuth2 SMTP authentication to properly handle token parsing failures by consuming the TryFunction return value, preventing raw errors from being shown to users instead of the authentication-failed message.",
   "key_points": [
-    "TryFunction return value is now consumed in CheckOAuth2Authentication and GetOAuth2Credentials",
-    "Token parsing errors now display the intended AuthenticationFailedMsg instead of raw runtime errors",
-    "Same anti-pattern was fixed in GetOAuth2Credentials method",
-    "Added regression test for unparseable token scenario",
-    "All 49 tests passing including new test"
+    "CheckOAuth2Authentication now uses the GetUserName TryFunction result and shows AuthenticationFailedMsg when token parsing fails",
+    "GetOAuth2Credentials now raises CouldNotAuthenticateErr when parsing fails, instead of continuing with an empty user name",
+    "Raw runtime parse errors are no longer shown to users",
+    "Adds a regression test for an unparseable token in SMTP Account Auth Tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

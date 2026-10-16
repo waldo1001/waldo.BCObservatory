@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/",
+  "input_hash": "89abebec17832a3a409c84c834d0f76c02ba5cc633d7d445649826ce4b2febca",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:16:52.043Z",
+  "issues": [
+    "The post is mainly about GitHub, but it ties to BC through the AL-focused sample prompt and the BC examples, so the page stays.",
+    "The copilot system refers to GitHub Copilot, not BC Copilot features. Integration is not supported by the post."
+  ],
+  "applied": [
+    "dropped 2 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034541,
+    "posts_in_call": 4
+  }
+}

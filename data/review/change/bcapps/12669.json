@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12669",
+  "input_hash": "b93559afb54367b6d2399d9135d663f7fdad91a88b70ae9439b7443e1edd5b78",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:12.415Z",
+  "issues": [
+    "Summary and key points match the described changes: order date calculated from the routing start, the header date no longer overwrites it on Carry Out, the price refresh check, and receipt dates set on lines."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016564,
+    "changes_in_call": 6
+  }
+}

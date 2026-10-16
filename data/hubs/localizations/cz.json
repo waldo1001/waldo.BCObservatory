@@ -1,43 +1,43 @@
 {
   "country": "CZ",
   "version": "29",
-  "input_hash": "637c145b3dcb9a3f629421b0fa6ebe9eed3a8e001f4c781962d067d4c06067d2",
-  "summary": "Czech (CZ) localization of Business Central 29. It covers VAT dates and statements, cash desk, banking documents, advance payments, fixed assets, Intrastat, corrections posting, unreliable payer and statutory reporting. Use it for questions on Czech-specific objects, setup and Learn documentation.",
-  "overview": "The Czech layer is split into several extensions, recognizable by object suffixes: CZL (core localization), CZA (advanced pack), CZZ (advance payments), CZP (cash desk), CZB (banking documents), CZC (compensation), CZF (fixed assets) and CZ (Intrastat). It adds 1,769 objects of its own and replaces a few W1 objects. Most W1 changes are made through table extensions, page extensions and event handler codeunits, with only a handful of fields added directly on W1 tables such as VAT Posting Setup, Payment Buffer and Bank Statement Matching Buffer.\n\nMain capabilities are a separate VAT date and VAT periods, VAT statements with XML export, VAT control report and reverse charge, corrections posting, multi-circuit accounting, multiple posting groups, statutory company information, cash desk documents, payment orders and bank statements, sales and purchase advance letters with VAT documents, fixed asset tax depreciation and history, Intrastat, user setup control, and unreliable payer and ARES lookups. Permission sets are provided for each extension.\n\nMicrosoft Learn documents these features in pages on the core, advance, banking, cash desk, advance payments, compensation and fixed asset packs, plus individual feature pages such as VAT date, Intrastat, unreliable payer and corrections posting.",
+  "input_hash": "0633440ed04162edc2f2c4835edefcd4ed8e4b4164bbf2b93adf7b8f598cb92e",
+  "summary": "Czech (CZ) localization of Business Central 29. It covers VAT date and VAT statements, corrections posting, cash desk, banking documents, advance payments, fixed assets tax depreciation, Intrastat, unreliable payer, compensation and Czech output documents. Use it to find what the Czech layer adds to W1 and where Learn documents it.",
+  "overview": "The Czech layer is delivered as several extension packs, identified by object suffixes: Core (CZL), Advanced (CZA), Advance Payments (CZZ), Cash Desk (CZP), Banking Documents (CZB), Fixed Assets (CZF), Compensation (CZC) and Intrastat (CZ). It adds about 1,770 objects of its own and changes few W1 objects directly. Most behavior is wired in through \"Handler\" codeunits, table extensions and page extensions. Only six fields are added to W1 tables, for example on table 325 \"VAT Posting Setup\", table 372 \"Payment Buffer\" and table 1250 \"Bank Statement Matching Buffer\".\n\nCore covers VAT date and VAT periods, VAT statements and exports, reverse charge, corrections posting (red storno), the unreliable payer check, ARES registration lookup, statutory company information, VAT exchange rate and sales credit memo types. Banking, cash desk and compensation are separate packs. Fixed assets add tax depreciation, depreciation holidays, two-step acquisition, classification codes and location history. The inventory side adds transfer order posting groups, inventory movement templates, inventory documents and Intrastat.\n\nLearn documents each pack and feature under \"Czech local functionality\" pages, plus pages for the Core, Advanced, Advance Payments, Banking Documents, Cash Desk and Compensation extensions.",
   "key_points": [
-    "VAT date separate from posting date, VAT periods, VAT statements (including supplementary), VAT control report and reverse charge setup.",
-    "Cash desk extension (CZP): cash documents for receipts and withdrawals, release, posting, approvals and payment application.",
-    "Banking documents (CZB): payment orders, bank statements, import and export of bank files, SEPA export and matching of payments.",
-    "Advance payments (CZZ): sales and purchase advance letters, VAT documents, foreign currency handling and closing of letters.",
-    "Fixed assets (CZF): tax depreciation groups, depreciation holidays, classification codes, extended posting groups and location/responsible history.",
-    "Intrastat CZ: engine setup, supplementary units, statistical amounts and CSV export.",
-    "Corrections posting (Red Storno), multi-circuit accounting via G/L account group, and alternative posting groups for customers, vendors and employees.",
-    "Statutory company information, document footers, new design of output documents, and unreliable payer check with ARES contact updates."
+    "VAT date, VAT periods, VAT statements (with XML export), supplementary VAT statement and VIES reporting for Czech VAT law.",
+    "Corrections posting (red storno) with the Check Posting Debit/Credit setting and a Correction field in journals.",
+    "Cash Desk pack: cash desks, receipt and withdrawal cash documents, cash desk cases, reconciliation and release/post codeunits.",
+    "Banking Documents pack: payment orders with export (including SEPA credit transfer), bank statement import and issuing, and matching of bank payments.",
+    "Advance Payments pack: sales and purchase advance letters, VAT documents, closing and foreign-currency revaluation, with advance control reports.",
+    "Fixed assets: tax depreciation groups, depreciation holidays, two-step acquisition, classification codes, extended posting groups and FA history.",
+    "Unreliable payer check, ARES registration lookup, reverse charge and Intrastat with a CZ-specific engine.",
+    "Extended user setup, statutory company officials and document footers, and many CZ-specific permission sets."
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "The core of the Czech layer: VAT date, VAT period handling, VAT statement calculation and XML export, VAT LCY correction, corrections posting, and the cash desk (CZP) documents with posting, release and approval. It also holds the compensation report selection handlers and the CNB exchange rate import. Alternative customer VAT registration objects (CZZ) are here too.",
-      "why": "Learn describes these as core pack features for Czech accounting and tax rules, such as a VAT date separate from the posting date and corrective posting.",
+      "what": "Largest area. Adds VAT date and VAT period handling, VAT statement calculation and export, corrections posting, VAT LCY correction, registration number and unreliable payer support, and CNB exchange rates. It also holds the cash desk codeunits and the alternative customer VAT registration facade for advance payments.",
+      "why": "Czech VAT law needs a tax date separate from posting date, VAT statements and corrective posting rules, as the VAT date, VAT statement and corrections posting Learn pages describe.",
       "objects": [
         "codeunit/11723",
-        "codeunit/11729",
-        "codeunit/11724",
-        "codeunit/11703",
+        "codeunit/11742",
+        "codeunit/11796",
         "codeunit/11720",
-        "codeunit/11769",
+        "codeunit/11724",
+        "codeunit/11729",
         "codeunit/11762",
-        "table/383"
+        "codeunit/11769"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Intrastat for Czech (own journal handling, rounding and statement type enums, management and transformation codeunits) plus handlers for item journals, transfer orders, physical inventory and inventory documents. Also changes the W1 Intrastat Jnl. Line table.",
-      "why": "Learn documents Intrastat engine setup, supplementary units, CSV export, transfer order posting groups and physical inventory differentiation.",
+      "what": "Adds Intrastat handling for the CZ engine, transfer order posting groups, item journal and inventory document handlers, and the inventory movement templates. Table 263 \"Intrastat Jnl. Line\" is changed.",
+      "why": "The Intrastat and inventory Learn pages describe a parameterized Intrastat engine, supplementary units and posting groups for transfers.",
       "objects": [
+        "table/263",
         "codeunit/31302",
         "codeunit/31303",
-        "table/263",
         "codeunit/11777",
         "codeunit/31047",
         "codeunit/31073",
@@ -47,127 +47,127 @@
     },
     {
       "area": "Bank",
-      "what": "Banking documents (CZB): payment orders and bank statements with issue, print, import and export codeunits, SEPA credit transfer export, payment matching, approvals and unreliable payer checks on bank accounts.",
-      "why": "Learn describes payment order creation and export, bank statement import and rollover to journals, and payment pairing.",
+      "what": "Adds the Banking Documents pack with payment orders, bank statements, issuing, SEPA credit transfer export, import launchers and payment matching. Also adds unreliable payer bank handling and bank account approvals and workflows.",
+      "why": "The Banking Documents Learn pages describe payment order creation and export, bank statement import and rollover into the payment journal.",
       "objects": [
         "codeunit/31353",
         "codeunit/31357",
         "codeunit/31232",
+        "codeunit/31231",
         "codeunit/31362",
         "codeunit/31399",
         "codeunit/31347",
-        "codeunit/31037",
-        "codeunit/11776"
+        "codeunit/31349"
       ]
     },
     {
       "area": "(no namespace)",
-      "what": "Permission sets for each Czech extension (core, advance, advance payments, fixed asset, compensation, cash desk, bank documents, Intrastat), permission set extensions, plus upgrade code and a few page extensions.",
+      "what": "Holds permission sets and permission set extensions for each pack (Core, Advance, Advance Payments, Fixed Asset, Compensation, Cash Desk, Bank Documents, Intrastat), plus upgrade code and several page extensions.",
       "why": null,
       "objects": [
         "permissionset/11730",
         "permissionset/11731",
         "permissionset/11780",
         "permissionset/11790",
-        "permissionset/11750",
-        "permissionset/11760",
         "permissionset/31300",
-        "codeunit/104150"
+        "codeunit/104150",
+        "codeunit/11790",
+        "pageextension/31235"
       ]
     },
     {
       "area": "Sales",
-      "what": "Handlers and page/table extensions for sales documents, customers and customer ledger entries. They add Czech fields such as VAT date, bank account codes and credit memo types, and support reminders and finance charge memos.",
-      "why": "Learn covers sales correcting documents with the Corrective Tax Document, Internal Correction and Insolvency Tax Document types.",
+      "what": "Adds customer, sales header and sales line handlers, sales credit memo types, customer bank account handling, reminder and finance charge memo handlers, and CZ fields on sales pages.",
+      "why": "Czech VAT law requires different types of sales credit memos (corrective tax document, internal correction, insolvency tax document).",
       "objects": [
         "enum/11786",
         "codeunit/11743",
         "codeunit/11783",
         "codeunit/11752",
         "codeunit/31038",
-        "codeunit/31132",
+        "codeunit/11735",
         "pageextension/11727",
         "pageextension/11704"
       ]
     },
     {
       "area": "Purchases",
-      "what": "Purchase document and vendor handlers, unreliable payer service and management, VAT delay posting, item charge assignment and extensions on purchase and posted purchase pages.",
-      "why": "Learn describes the unreliable payer check of vendor VAT status and registered bank accounts against treasury records, with checks on purchase documents.",
+      "what": "Adds the unreliable payer check and service, vendor and purchase document handlers, VAT delay posting and vendor bank account handling. Also adds pages for unreliable payer entries and service setup.",
+      "why": "The unreliable payer Learn page describes retrieving payer status from the tax authority and checking purchase documents before release.",
       "objects": [
-        "codeunit/11757",
         "codeunit/11758",
-        "codeunit/11760",
+        "codeunit/11757",
         "page/11753",
         "page/11754",
         "codeunit/11744",
         "codeunit/11753",
+        "codeunit/11760",
         "codeunit/31039"
       ]
     },
     {
       "area": "FixedAssets",
-      "what": "Fixed asset localization (CZF): tax depreciation types and groups, extended posting groups, classification codes, FA history of location and responsible employee, disposal and acquisition handlers, and depreciation book extensions.",
-      "why": "Learn ties these to the Czech Income Tax Act: tax depreciation, depreciation holidays, two-step acquisition and classification codes.",
+      "what": "Adds tax depreciation, FA history of location and responsible employee, extended posting groups, classification codes, disposal and acquisition handlers, and CZ fixed asset reports and analysis enums.",
+      "why": "Learn pages tie tax depreciation to the Czech Income Tax Act and describe a two-step acquisition and depreciation holidays.",
       "objects": [
+        "codeunit/31247",
+        "codeunit/31237",
+        "codeunit/31236",
+        "codeunit/31235",
         "page/31249",
         "page/31247",
         "page/31245",
-        "page/31248",
-        "codeunit/31237",
-        "codeunit/31247",
-        "enum/31240",
-        "codeunit/31235"
+        "enum/31240"
       ]
     },
     {
       "area": "Service",
-      "what": "Service document handlers and page and table extensions that bring Czech fields (such as VAT date) to service orders, invoices, credit memos and shipments, plus Czech-layout service reports.",
+      "what": "Adds service header, line and posting handlers, CZ fields on service documents through table extensions, and Czech service quote, order, contract, invoice, credit memo and shipment reports.",
       "why": null,
       "objects": [
+        "codeunit/31040",
         "codeunit/11745",
         "codeunit/11785",
-        "codeunit/31040",
         "report/31197",
-        "report/31198",
         "report/31194",
+        "report/31198",
         "tableextension/11734",
         "pageextension/11748"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Statutory company information: company officials, statutory reporting setup, extensions to company information and source code setup, and handlers for report substitution, address formatting and document attachments.",
-      "why": "Learn describes company officials, multilingual document footers and registration numbers for use in internal and external documents.",
+      "what": "Adds statutory company information: company officials, statutory reporting setup, document footers and CZ fields on company information. Also adds report selection and substitution handlers.",
+      "why": "The statutory company information Learn page describes company officials and registration numbers required on documents.",
       "objects": [
         "table/11793",
-        "page/11765",
         "page/11766",
         "table/31105",
         "page/31108",
+        "codeunit/31411",
+        "codeunit/31041",
         "tableextension/11747",
-        "codeunit/31144",
-        "codeunit/31411"
+        "codeunit/31097"
       ]
     },
     {
       "area": "Security",
-      "what": "Extended user setup: user setup lines and card, copy and list reports, user to employee assignment and certificate codes.",
-      "why": "Learn describes extended user control for dates, cash desk filtering and access to payment orders, bank statements and journals.",
+      "what": "Adds extended user setup with lines per user, user setup copy and list reports, and a certificate code table.",
+      "why": "The general function Learn page describes assigning employees to users and controlling access to cash desks, bank accounts, journals and posting periods.",
       "objects": [
         "table/11797",
         "page/31198",
-        "page/31199",
         "codeunit/31072",
-        "tableextension/11717",
         "report/31200",
+        "tableextension/11717",
         "table/31132",
-        "pageextension/11721"
+        "page/31045",
+        "report/31201"
       ]
     },
     {
       "area": "Projects",
-      "what": "Handlers and extensions for job journal lines, resources and job ledger entries that add Czech fields and checks.",
+      "what": "Adds handlers and CZ fields for job journal lines, job ledger entries and resources, including posting checks for inventory movement templates.",
       "why": null,
       "objects": [
         "codeunit/31077",
@@ -175,16 +175,18 @@
         "codeunit/31312",
         "tableextension/11710",
         "tableextension/11795",
+        "tableextension/11762",
         "pageextension/11714"
       ]
     },
     {
       "area": "Assembly",
-      "what": "Table and page extensions on assembly setup, assembly orders and posted assembly orders from the advanced pack.",
+      "what": "Adds CZ extensions to assembly setup, assembly orders and posted assembly orders.",
       "why": null,
       "objects": [
         "tableextension/31257",
         "tableextension/31258",
+        "tableextension/31259",
         "pageextension/31253",
         "pageextension/31252",
         "tableextension/31260"
@@ -192,32 +194,34 @@
     },
     {
       "area": "Utilities",
-      "what": "Document footers, Czech document formatting, copy document handling, data classification and synchronization of old and new fields.",
-      "why": "Learn mentions multilingual document footers as part of statutory company information.",
+      "what": "Adds document footers, document formatting, copy document handling, instruction management and fields synchronization between old and new CZ fields.",
+      "why": null,
       "objects": [
         "table/31119",
         "page/31119",
         "codeunit/11701",
         "codeunit/11740",
+        "codeunit/31028",
         "codeunit/11719",
-        "codeunit/31028"
+        "codeunit/31150"
       ]
     },
     {
       "area": "IO",
-      "what": "Excel templates table and page, transformation rule management and data exchange field mapping extensions.",
+      "what": "Adds Excel templates and transformation rule management, plus CZ handling of data exchange field mapping.",
       "why": null,
       "objects": [
         "table/11750",
         "page/11729",
         "codeunit/11778",
+        "codeunit/31403",
         "tableextension/31267"
       ]
     },
     {
       "area": "CRM",
-      "what": "Contact handler, contact card and list extensions, and a contact table extension with Czech registration fields.",
-      "why": "Learn describes updating contacts from ARES.",
+      "what": "Adds a contact handler with CZ fields on contacts and contact pages, used for registration data.",
+      "why": "The ARES Learn page describes updating contact, vendor and customer registration data.",
       "objects": [
         "codeunit/11751",
         "tableextension/11700",
@@ -227,11 +231,11 @@
     },
     {
       "area": "Environment",
-      "what": "Guided experience, feature management for the replace VAT period feature, application area handling and manual setup category.",
+      "what": "Registers guided experience entries, manual setup category and application areas, and the feature management entry for the replace VAT period feature.",
       "why": null,
       "objects": [
-        "codeunit/11722",
         "codeunit/11747",
+        "codeunit/11722",
         "codeunit/31441",
         "enumextension/11707",
         "enumextension/11704"
@@ -239,8 +243,8 @@
     },
     {
       "area": "HumanResources",
-      "what": "Employee and employee ledger entry handlers, with Czech extensions on employee ledger entries and HR setup.",
-      "why": "Learn covers alternative posting groups for employees.",
+      "what": "Adds employee handling and CZ fields on employee ledger entries and human resources setup.",
+      "why": "A Learn page describes alternative posting groups for employees.",
       "objects": [
         "codeunit/11750",
         "codeunit/31136",
@@ -251,7 +255,7 @@
     },
     {
       "area": "Manufacturing",
-      "what": "Manufacturing setup extensions and a capacity ledger entry extension from the advanced pack, plus a user handler.",
+      "what": "Adds CZ fields on manufacturing setup and capacity ledger entries, and a user handler for the advanced pack.",
       "why": null,
       "objects": [
         "tableextension/31256",
@@ -262,7 +266,7 @@
     },
     {
       "area": "Automation",
-      "what": "Workflow response handling and approvals management for Czech documents.",
+      "what": "Adds workflow response handling and approvals management for CZ documents.",
       "why": null,
       "objects": [
         "codeunit/31396",
@@ -271,7 +275,7 @@
     },
     {
       "area": "CashFlow",
-      "what": "A cash flow handler and a cash flow date list report.",
+      "what": "Adds a cash flow handler and a cash flow date list report.",
       "why": null,
       "objects": [
         "codeunit/31045",
@@ -280,8 +284,8 @@
     },
     {
       "area": "Warehouse",
-      "what": "Handlers for warehouse journal lines and warehouse worksheet lines.",
-      "why": "Learn mentions a time sequence check for warehouse operations.",
+      "what": "Adds handlers for warehouse journal lines and worksheet lines to apply CZ checks and fields.",
+      "why": null,
       "objects": [
         "codeunit/31319",
         "codeunit/31320"
@@ -289,7 +293,7 @@
     },
     {
       "area": "Integration",
-      "what": "A SOAP web service request management codeunit, used for web service calls such as the unreliable payer service.",
+      "what": "Adds SOAP web service request management used by the unreliable payer and ARES services.",
       "why": null,
       "objects": [
         "codeunit/31031"
@@ -297,7 +301,7 @@
     },
     {
       "area": "RoleCenters",
-      "what": "A page extension on the administrator role center.",
+      "what": "Adds a CZ page extension to the Administrator main role center.",
       "why": null,
       "objects": [
         "pageextension/31161"
@@ -306,25 +310,26 @@
   ],
   "learn_pages_used": 60,
   "prompt_version": 2,
-  "at": "2026-10-07T13:24:27.756Z",
+  "at": "2026-10-16T01:03:12.778Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.246446
+    "cost_usd": 0.252012
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T23:25:44.369Z",
-    "verdict": "approve",
+    "at": "2026-10-16T01:08:20.585Z",
+    "verdict": "fix",
     "issues": [
-      "Overview says Learn has a page on a 'fixed asset pack'. The input has several Czech fixed asset feature pages but no extension-level page for the fixed asset pack. This is a small wording point.",
-      "The summary does not mention compensation (CZC), although the overview and the Learn pages cover it. This is a small omission, not an error.",
-      "'Replaces a few W1 objects' is right: the input lists 7 tables and 1 codeunit as replaced. The wording could be more exact."
+      "Key point 4 says the Banking Documents pack does 'SEPA export and import'. The input shows SEPA credit transfer export (SEPA CT-Export File CZB, Export Launcher SEPA CZB, SEPA CT Handler CZB), but the import objects are for bank statements and payment orders (Import Bank Statement CZB, Imp. Launch Bank Statement CZB, Imp. Launch Payment Order CZB). There is no SEPA import, so the point is reworded.",
+      "Minor: the key points do not mention the Compensation pack, though the summary and overview do. The EET permission sets in the input are not mentioned either. No change needed."
     ],
-    "input_hash": "637c145b3dcb9a3f629421b0fa6ebe9eed3a8e001f4c781962d067d4c06067d2",
-    "cost_usd": 0.32309479999999996,
-    "applied": [],
+    "input_hash": "0633440ed04162edc2f2c4835edefcd4ed8e4b4164bbf2b93adf7b8f598cb92e",
+    "cost_usd": 0.3549708,
+    "applied": [
+      "key_points"
+    ],
     "rejected_edits": []
   }
 }

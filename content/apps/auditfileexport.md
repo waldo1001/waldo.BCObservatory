@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-16T01:13:05.546Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 33b7e01b422c9daee361c3a9211f83321e138eccb8ad154742d6dc9402caf7b8
+  input_hash: 8e8a536133c2411c78681403c240d56025a7a5404c58b18ac57993a95aa6fe2f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AuditFileExport/app
@@ -80,10 +80,10 @@ links:
     - object/permissionsetextension/5265
   features: []
   topics:
+    - topic/business-central/business-functionality/local-functionality/denmark/auditing
     - topic/business-central/business-functionality/local-functionality/austria/general
     - topic/business-central/business-functionality/local-functionality/iceland/general
     - topic/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene
-    - topic/business-central/business-functionality/local-functionality/denmark/auditing
   localizations: []
   videos:
     - video/hcu7T3qLdDA
@@ -121,10 +121,10 @@ First-party app · folder `src/Apps/W1/AuditFileExport/app` · namespace `Micros
 
 The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
 
+- [Auditing](../topics/business-central/business-functionality/local-functionality/denmark/auditing.md) (Business functionality > Local functionality > Denmark): 9 objects
 - [General](../topics/business-central/business-functionality/local-functionality/austria/general.md) (Business functionality > Local functionality > Austria): 9 objects
 - [General](../topics/business-central/business-functionality/local-functionality/iceland/general.md) (Business functionality > Local functionality > Iceland): 9 objects
 - [Work with the chart of accounts and general ledger (G/L)](../topics/business-central/business-functionality/finance/work-with-the-chart-of-accounts-and-gene.md) (Business functionality > Finance): 9 objects
-- [Auditing](../topics/business-central/business-functionality/local-functionality/denmark/auditing.md) (Business functionality > Local functionality > Denmark): 7 objects
 
 ## Objects
 

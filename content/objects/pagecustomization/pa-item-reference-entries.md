@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ebf40f5a9d09803fe5b5cdddefc5d6114db19a57898e720b6a42796e7fa72c9d
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al
+    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al
     title: src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al (releases/29.x)
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Page customization "PA Item Reference Entries" in PayablesAgent (Microsoft.Agent.PayablesAgent). Introduced in BC29, still in BC30.
 
-PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al) · facts from BC29
+PayablesAgent · Microsoft.Agent.PayablesAgent · BC29-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/PayablesAgent/app/Profile/PageCustomizations/PAItemReferenceEntries.PageCust.al) · facts from BC29
 
 ## Recent changes
 

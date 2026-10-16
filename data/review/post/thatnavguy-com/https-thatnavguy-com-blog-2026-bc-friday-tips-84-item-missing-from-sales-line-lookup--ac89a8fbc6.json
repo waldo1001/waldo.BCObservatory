@@ -1,0 +1,23 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/",
+  "input_hash": "d5ae08002028d673ab0553f4b8045e26532aa81cb0b61a2b333762661e876a47",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:16:52.043Z",
+  "issues": [
+    "The summary says the blocked fields are often the cause, but the post only says sometimes.",
+    "One key point claims the issue is never a development problem, which overstates the post."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034541,
+    "posts_in_call": 4
+  }
+}

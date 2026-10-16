@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.948Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging
-    title: Debugging in AL
-    date: "2025-08-21"
+    title: Debug AL Code in Visual Studio Code
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null

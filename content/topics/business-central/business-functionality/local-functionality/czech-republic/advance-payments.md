@@ -2,26 +2,26 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/advance-payments
 type: topic
 title: Advance Payments
-summary: "Advance payments in the Czech version of Business Central: the localization extension for sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, foreign currency, and the setup of templates and VAT posting."
+summary: Advance Payments for the Czech version of Business Central covers the extension that handles sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, and the setup of templates, accounts and reports.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:45.684Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9661c25db1eb9c50cd788a6333d12f1cccc8318c4458da0e3c8bc1efd1bd7055
+  input_hash: 4cf8d8aa61f37279011df6e52943143e798ab2fd96c5fc6c81f6bdf64e381b04
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz
     title: Advance Payments Localization for Czech (Extension)
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -68,28 +68,28 @@ narrative: generated
 
 # Advance Payments
 
-> Advance payments in the Czech version of Business Central: the localization extension for sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, foreign currency, and the setup of templates and VAT posting.
+> Advance Payments for the Czech version of Business Central covers the extension that handles sales and purchase advances, and how to set it up. It answers questions about advance invoices, VAT documents, and the setup of templates, accounts and reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Advance Payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers advance payment handling for the Czech version of Business Central. An extension provides advance payment functionality for both sales and purchases, including VAT documents, foreign currency support, and management of the advance lifecycle in line with regulatory requirements.
+The Advance Payments extension for Czech localization lets you create and manage advance invoices and payments before goods or services are delivered. It supports VAT requirements and tax documents, and it covers both sales and purchase advances.
 
-Two pages make up the section. The first describes the extension and what it does: advance invoices, VAT documents and credit notes, linking advances to orders, and cash desk integration. The second describes the setup: advance letter templates, G/L accounts, VAT posting group mapping, report selections, and VAT statement configuration.
+The section has two pages. The first describes the extension and what it does: advance invoice creation, VAT documents, cash desk integration, foreign currency support and payment linking. The second explains how to configure it: advance letter templates, VAT posting accounts and report selections.
 
-Start with the extension page to understand the functionality, then use the setup page to configure templates and VAT posting before you create advances.
+Start with the extension overview to see what is supported. Then use the setup page to configure templates, G/L accounts and VAT posting before you create advance invoices.
 
 ## Key points
 
-- The extension supports advances for both sales and purchases.
-- It covers advance invoices, VAT documents, and credit notes.
-- Foreign currency handling is supported.
-- Advances can be linked to orders, and cash desk integration is included.
-- Setup uses advance letter templates for sales and purchase advances.
-- Setup includes G/L account configuration and VAT posting group mapping.
-- Setup covers automatic VAT document posting and non-deductible VAT posting.
-- Report selections and VAT statement configuration are also part of setup.
+- The extension supports both sales and purchase advances in the Czech version.
+- Advance invoices can be created before goods or services are delivered.
+- VAT requirements and tax documents are supported.
+- Cash desk integration, foreign currency support and payment linking are included.
+- Setup uses advance letter templates for sales and purchase advance invoices.
+- Setup covers VAT posting for advances, including an automatic post VAT document and reverse charge posting.
+- Advance letter G/L accounts need to be configured.
+- Report selections are configured for advance invoices.
 
 ## Learn pages
 

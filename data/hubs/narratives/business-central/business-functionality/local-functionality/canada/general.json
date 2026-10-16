@@ -1,37 +1,23 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/canada/general",
-  "input_hash": "32aa29f488cdc93c979c72a7e7776f6c2d2d516715a450488566c2a478650622",
-  "summary": "General Canadian local functionality in Business Central: GIFI codes for tax reporting and troubleshooting reports in the Canadian version. It answers questions about assigning GIFI codes to G/L accounts, exporting balances for tax software, and printing finance troubleshooting reports.",
-  "overview": "This section holds two pages on Canada-specific functionality. One explains GIFI codes, which classify Canadian financial information for tax reporting. The other covers printing troubleshooting reports in the Canadian version, related to finance setup and operations.\n\nStart with the GIFI page if you need to prepare data for tax filing: it describes setting up the codes, associating them with general ledger accounts, and exporting account balance information to Excel for tax preparation software. Use the troubleshooting reports page when you need to check finance setup and operations in the Canadian version.",
+  "input_hash": "d5162274ef2a88601959429cdaa5c8e1e0384c81a729faf58b0a609fe56610c3",
+  "summary": "General Canada local functionality in Business Central: GIFI codes for reporting financial information to the Canada Revenue Agency, and printing troubleshooting reports in the Canadian version. It answers questions on GIFI setup, linking to G/L accounts, and exporting balances for tax filing.",
+  "overview": "This section holds general pages for the Canadian version of Business Central. It has no subtopics, only two pages.\n\nThe main page is about GIFI codes, which classify financial information so it can be reported electronically to the Canada Revenue Agency. It covers setting up the codes, associating them with general ledger accounts, viewing account balances by GIFI code, and exporting those balances to Excel for use in tax preparation software.\n\nThe second page is a short pointer on how to print troubleshooting reports in the Canadian version. Start with the GIFI page if you are preparing tax filings, and use the troubleshooting page when you need diagnostic reports.",
   "key_points": [
-    "GIFI codes classify Canadian financial information for tax reporting.",
-    "GIFI codes are set up in Business Central and associated with general ledger accounts.",
-    "Account balance information can be exported to Excel for tax preparation software.",
-    "The GIFI page supports tax filing preparation.",
+    "GIFI codes classify and report financial information to the Canada Revenue Agency electronically.",
+    "GIFI codes are set up first, then associated with general ledger accounts.",
+    "Account balances can be viewed by GIFI code.",
+    "Balance information can be exported to Excel for tax preparation software.",
     "A separate page explains how to print troubleshooting reports in the Canadian version.",
-    "The troubleshooting reports relate to finance setup and operations.",
-    "The section has no subtopics, only these two pages."
+    "The section has no subtopics, only two pages."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:39.638Z",
+  "at": "2026-10-16T01:18:03.943Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.007660999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:21:43.497Z",
-    "verdict": "approve",
-    "issues": [
-      "The phrase 'export account balance information to Excel for tax preparation software' joins the Excel export feature tag with the page summary's 'export balance information for tax preparation software'. The two sources are consistent, so the combined wording is a reasonable inference.",
-      "The key point 'The section has no subtopics, only these two pages' only describes the structure and gives an agent little to use.",
-      "The troubleshooting reports page summary is thin. The narrative correctly avoids naming specific reports."
-    ],
-    "input_hash": "32aa29f488cdc93c979c72a7e7776f6c2d2d516715a450488566c2a478650622",
-    "cost_usd": 0.0205592
+    "cost_usd": 0.008059
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:15.176Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -172,10 +172,8 @@ links:
     - topic/dev-itpro/administration/migrate-to-business-central-online/migrate-from-business-central-on-premise/upgrade-data
   localizations: []
   videos:
-    - video/01GoAUnpBnw
-    - video/O921cRqXdiw
-  posts:
-    - post/demiliani-com/13676
+    - video/Gwgpj1U1wxI
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -192,8 +190,8 @@ children:
 coverage:
   learn: 20
   code: 0
-  video: 2
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 374936443e4bec96eab9ac543ee394917161b40f17c1651efccda87829b3f0ba
@@ -241,8 +239,6 @@ The page in this hub, Complete cloud migration, covers the final phase. Start wi
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../posts/demiliani-com/13676.md) (community post): "Cloud migration in Dynamics 365 Business Central uses integration runtime to replicate data"
-- [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../videos/01GoAUnpBnw.md) (video): "cloud migration; record links; notes migration; data replication"
-- [What's New: Cloud Migration and Upgrade (2023)](../../../../videos/O921cRqXdiw.md) (video): "cloud migration; data replication; performance optimization"
+- [Introduction to Business Central Cloud Migration (2023)](../../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:42.630Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -28,35 +28,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz
     title: Advance Payments Localization for Czech (Extension)
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz
     title: Advanced Localization Pack for Czech (Extension) [CZ]
-    date: "2025-10-08"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees
     title: Alternative posting groups for Employees in the Czech Version
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz
     title: Banking Documents Localization for Czech (Extension)
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz
     title: Cash Desk Localization for Czech (Extension)
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -77,14 +77,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-compensations-localization-cz
     title: Compensation localization for the Czech version
-    date: "2025-09-17"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz
     title: Core localization pack for Czech
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -203,7 +203,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/sales-correcting-documents
     title: Czech local functionality - Sales correcting documents [CZ]
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -217,28 +217,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-company-information
     title: Czech local functionality - Statutory company information [CZ]
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements
     title: Czech Local Functionality - Statutory Statements [CZ]
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/supplementary-vat-statement
     title: Czech Local Functionality - Supplementary VAT Statement
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer
     title: Czech local functionality - Unreliable payer [CZ]
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -259,21 +259,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-reports-cz
     title: Czech local functionality - VAT reports for Czech
-    date: "2025-06-09"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-statement
     title: Czech local functionality - VAT statement
-    date: "2025-06-09"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vies-cz
     title: Czech local functionality - Vies
-    date: "2025-06-09"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -287,7 +287,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting
     title: Czech local functionality - WIP extended posting
-    date: "2025-06-09"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

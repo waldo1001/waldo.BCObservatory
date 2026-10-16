@@ -8,10 +8,10 @@
   ],
   "summary": "Order Planning feature now correctly processes remaining valid demand items when a blocked item is encountered instead of stopping the entire calculation.",
   "key_points": [
-    "Prevents order planning calculation from halting on blocked items",
-    "Enables continued processing of remaining valid demand",
-    "Adds field and logic updates to Order Planning Management and Requisition Line",
-    "Includes comprehensive test coverage for the scenario"
+    "Order planning calculation no longer stops when it reaches a blocked item",
+    "Remaining valid demand is still processed after a blocked item",
+    "Changes Order Planning Mgt. and the Requisition Line table in the W1 and IT layers",
+    "Adds tests in SCM Order Planning II for the scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

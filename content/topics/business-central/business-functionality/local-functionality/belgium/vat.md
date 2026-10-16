@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/vat
 type: topic
 title: VAT
-summary: "Belgian VAT and Intrastat functionality in Business Central: VAT declarations, annual listings, EC sales lists, manual VAT corrections, non-deductible VAT, and Intrastat setup, printing and export to OneGate. It answers how-to questions for Belgian tax and trade reporting."
+summary: Belgian VAT and Intrastat functionality in Business Central covers VAT declarations, annual listings, VIES and EC sales reports, non-deductible VAT, manual VAT corrections, and Intrastat setup, verification and export. It answers setup and reporting questions for the Belgian version.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:58.943Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1b736ac77535edc84b514ed921041c73a8cdc2763ec3e2d4c652e3ae61d51629
+  input_hash: 6719832b7f46d07f463114d5292d0864ec29bd59611dc33271f4b9473050eded
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/belgian-intrastat-reporting
@@ -137,28 +137,28 @@ narrative: generated
 
 # VAT
 
-> Belgian VAT and Intrastat functionality in Business Central: VAT declarations, annual listings, EC sales lists, manual VAT corrections, non-deductible VAT, and Intrastat setup, printing and export to OneGate. It answers how-to questions for Belgian tax and trade reporting.
+> Belgian VAT and Intrastat functionality in Business Central covers VAT declarations, annual listings, VIES and EC sales reports, non-deductible VAT, manual VAT corrections, and Intrastat setup, verification and export. It answers setup and reporting questions for the Belgian version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the Belgium-specific VAT and Intrastat features. The VAT side includes monthly/quarterly declarations, VAT annual listings, EC sales lists (VAT-VIES), non-deductible VAT, multiple VAT registration numbers and manual corrections to posted VAT entries.
+This section covers the Belgian localization for VAT and Intrastat. The VAT side includes the overview of Belgian VAT (monthly or quarterly declarations, annual listing, EC sales list, multiple VAT registration numbers), printing periodic VAT reports, setting up non-deductible VAT, and making manual VAT corrections that do not affect general ledger entries.
 
-The Intrastat side covers reporting of EU goods movements. Pages describe setting up declaration types (simplified or extended), establishment numbers and tariff numbers, then printing the Intrastat Form and exporting the file for the OneGate portal.
+The Intrastat side starts with the Belgian Intrastat Reporting overview (simplified or extended declarations, VIES, export to the OneGate portal). Setup pages cover declaration types, establishment numbers and tariff numbers. Then you verify the Intrastat Report with the Checklist Report action and export it, including third-party declarations.
 
-Start with the Belgian VAT and Belgian Intrastat Reporting overview pages. Then use the how-to pages for specific tasks: setup first (non-deductible VAT, establishment numbers, tariff numbers, declaration types), then printing or exporting.
+Start with Belgian VAT or Belgian Intrastat Reporting for the overview, then use the "How to" and setup pages for the specific task.
 
 ## Key points
 
-- Belgian VAT supports monthly/quarterly declarations, VAT annual listings and EC sales lists, plus multiple VAT registration numbers and Alternative Customer VAT Registration.
-- Periodic VAT reports can be printed as Form/Intervat declaration, VAT Annual Listing and VAT-VIES declaration, with a test declaration option, a representative and XML file generation.
-- Manual VAT corrections adjust posted VAT entries without changing general ledger entries, for example when a vendor miscalculates VAT; VAT Statement Preview helps check results.
-- Non-deductible VAT is set up as a percentage on general ledger expense accounts to allow partial VAT deduction.
-- Intrastat declarations can be simplified or extended, depending on the amount of goods shipped or received; Incoterm is part of the declaration setup.
-- Belgian tariff numbers are eight-digit item codes with conversion factor, unit of measure, supplementary units and Weight Mandatory settings.
-- The Intrastat establishment number is configured as a company identification number.
-- Intrastat files are exported with the Create File action for the OneGate portal, and nihil declarations are supported; the Intrastat Form report can also be printed.
+- Belgian VAT supports monthly/quarterly VAT declarations, VAT annual listing, EC sales list report and multiple VAT registration numbers.
+- Periodic VAT reports are printed with the Form/Intervat Declaration and related reports, including VAT-VIES listing, prepayment handling and correction declarations.
+- Non-deductible VAT is set up with the % Non deductible VAT field on general ledger accounts to calculate partial VAT deduction.
+- Manual VAT corrections adjust posted VAT entries without changing general ledger entries, for example to fix vendor invoice calculation errors.
+- Intrastat declaration type (simplified or extended) is chosen in General Ledger Setup based on goods shipment amounts.
+- The Intrastat Establishment No. is entered on the Company Information page and printed on declarations.
+- Belgian tariff numbers are eight digits and involve conversion factor, unit of measure and weight mandatory settings.
+- Before export, the Intrastat Report's Checklist Report action and Error Messages FactBox reveal missing information; third-party declarations are exported with Create File and Export Parameters.
 
 ## Learn pages
 

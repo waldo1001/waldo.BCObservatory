@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia/banking-and-payments
 type: topic
 title: Banking & payments
-summary: Banking and payments pages for the Australian version of Business Central. They cover bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) vendor payments, and printing bank reconciliation and deposit slip reports.
+summary: Banking and payments functionality in the Australian version of Business Central. It covers bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, bank account reconciliation reports and deposit slip reports.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:56.056Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 53669d54e2f367a619d741d37b4c212389036377cec594cdc98f23b4c60dd814
+  input_hash: 8f369461fe8101795529916e2d12ddf01bde8000fd150c2acc0fdebfa776192a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-compare-bank-cash-flow
@@ -94,26 +94,23 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments pages for the Australian version of Business Central. They cover bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) vendor payments, and printing bank reconciliation and deposit slip reports.
+> Banking and payments functionality in the Australian version of Business Central. It covers bank cash flow comparison, check installments, Electronic Funds Transfer (EFT) for vendor payments, bank account reconciliation reports and deposit slip reports.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects Australia-specific banking and payment tasks. It has five pages and no subtopics. They fall into two groups: paying vendors and reconciling or documenting bank activity.
+This section collects the Australia-specific banking and payment pages in Business Central. Each page covers one task: comparing bank cash flow, creating check installments, paying vendors by EFT, printing bank account reconciliation reports, and printing deposit slip reports.
 
-For payments, the EFT page describes paying vendors through the Australian EFT payment system, which works with bank file export. The check installments page covers creating check installments for payment processing.
-
-For reconciliation and documentation, there are pages on comparing bank cash flow, printing bank account reconciliation reports, and printing deposit slip reports. Start with the EFT page if you need to pay vendors by bank file. Start with the report pages if you need output for reconciliation or audit.
+The pages are independent and have no subtopics. Start with the page that matches your task. For vendor payments, read the EFT page. For reconciling bank accounts, read the reconciliation reports page and the bank cash flow comparison page. The summaries are short, so check each Learn page for the detailed steps.
 
 ## Key points
 
-- EFT in Australia lets you pay vendors through the Australian EFT payment system.
-- EFT is integrated with bank file export.
-- Check installments can be created in the Australian version for payment processing.
-- Bank cash flow can be compared to analyze and reconcile bank account transactions.
-- Bank account reconciliation reports can be printed for reconciliation and audit purposes.
-- Deposit slip reports can be printed for bank reconciliation and payment documentation.
+- Compare bank cash flow [AU]: used to analyze and reconcile cash positions.
+- Create check installments [AU]: manages payment schedules by check.
+- Electronic Funds Transfer (EFT) [AU]: pays vendors through Australia's EFT payment system.
+- Print Bank Account Reconciliation Reports: supports reconciling bank accounts in the Australian version.
+- Print deposit slip reports [AU]: processes deposit transactions according to local requirements.
 - The section has five pages and no subtopics.
 
 ## Learn pages

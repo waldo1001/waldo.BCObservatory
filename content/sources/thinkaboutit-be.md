@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5d352a792ab14c7edae1b4a521757eb1842f9010520f00120b1f5e2c0d3a0c9b
@@ -108,7 +108,7 @@ footprint:
     - id: development
       weight: 46
     - id: copilot
-      weight: 45
+      weight: 44
     - id: reporting
       weight: 41
     - id: platform
@@ -141,8 +141,6 @@ footprint:
   objects:
     - id: page Customer Ledger Entries
       weight: 2
-    - id: api Report Inbox APIs
-      weight: 1
     - id: codeunit Rest Api Helper
       weight: 1
     - id: codeunit Sales Posting Helper
@@ -163,6 +161,8 @@ footprint:
       weight: 1
     - id: page Item Ledger Entries
       weight: 1
+    - id: page Item Statistics
+      weight: 1
   features: []
 first_item: "2025-07-31"
 last_item: "2026-10-12"
@@ -179,17 +179,17 @@ last_item: "2026-10-12"
 | Systems | Topics | AL objects named |
 |---|---|---|
 | development (46) | al development (14) | page Customer Ledger Entries (2) |
-| copilot (45) | power bi (11) | api Report Inbox APIs (1) |
-| reporting (41) | reporting (8) | codeunit Rest Api Helper (1) |
-| platform (20) | code generation (7) | codeunit Sales Posting Helper (1) |
-| integration (18) | analytics (6) | codeunit Sales Posting Helper Test (1) |
-| administration (17) | copilot (6) | codeunit Semantic Data Search (1) |
-|  | github copilot (6) | other Power BI Monitor (1) |
-|  | release wave 2 (6) | page Copilot & agent capabilities (1) |
-|  | agents (5) | page Data Administration (1) |
-|  | automation (4) | page Data Administration Guide (1) |
-|  |  | page External File Accounts (1) |
+| copilot (44) | power bi (11) | codeunit Rest Api Helper (1) |
+| reporting (41) | reporting (8) | codeunit Sales Posting Helper (1) |
+| platform (20) | code generation (7) | codeunit Sales Posting Helper Test (1) |
+| integration (18) | analytics (6) | codeunit Semantic Data Search (1) |
+| administration (17) | copilot (6) | other Power BI Monitor (1) |
+|  | github copilot (6) | page Copilot & agent capabilities (1) |
+|  | release wave 2 (6) | page Data Administration (1) |
+|  | agents (5) | page Data Administration Guide (1) |
+|  | automation (4) | page External File Accounts (1) |
 |  |  | page Item Ledger Entries (1) |
+|  |  | page Item Statistics (1) |
 
 ## Flight path
 

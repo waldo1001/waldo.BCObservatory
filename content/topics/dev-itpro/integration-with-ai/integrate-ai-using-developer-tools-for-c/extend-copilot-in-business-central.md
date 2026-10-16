@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -140,6 +140,7 @@ links:
     - video/NE7NIjpkX3c
     - video/QCo-uIfPs9g
     - video/UgagVZVKCso
+    - video/V_ZyGeF5JXE
     - video/ytYKvn2MiGs
   posts:
     - post/aardvarklabs-blog/1816
@@ -157,7 +158,7 @@ children:
 coverage:
   learn: 15
   code: 0
-  video: 6
+  video: 7
   blog: 2
   guideline: 0
 bc_forms: []
@@ -209,6 +210,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New: Prepare Your Copilot Extension - Practical Considerations (2025 release wave 1)](../../../../videos/NE7NIjpkX3c.md) (video): "Copilot Extension Cloud Deployment; Shared Infrastructure for Copilot"
 - [What's New: Extending Copilot in Business Central (2024 Release Wave 2)](../../../../videos/QCo-uIfPs9g.md) (video): "Copilot Prompt Actions on Card and Document Pages"
 - [Business Central Partner Learnings from the Red Carpet Copilot Program](../../../../videos/UgagVZVKCso.md) (video): "Copilot development; prompt engineering; Copilot Function with Prompt Engineering"
+- [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "AI Builder GPT Integration in Approval Templates; GPT-Powered Sales Order"
 - [What's New: Extending Copilot Using AL Code (2024 Release Wave 1)](../../../../videos/ytYKvn2MiGs.md) (video): "Extending Copilot Using AL Code; token counting; function calling; copilot actions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

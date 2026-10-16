@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+      "ff470ecd2cee1e213c62c942f114f6c8238563c8",
       "4",
-      "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+      "ff470ecd2cee1e213c62c942f114f6c8238563c8",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18808,
-    "bound": 12760,
+    "tooltips": 18809,
+    "bound": 12761,
     "unparsed": 2988,
     "unmatched": 3060,
     "tables": 1080,
-    "fields": 8963
+    "fields": 8964
   },
   "tables": {
     "table/4": {
@@ -24530,8 +24530,13 @@
       }
     },
     "table/6122": {
+      "Direction": {
+        "tooltip": "Specifies whether this document type is permitted for outgoing, incoming, or both directions.",
+        "page": "page/6129",
+        "control": "Direction"
+      },
       "Source Document Type": {
-        "tooltip": "Specifies the supported source document type.",
+        "tooltip": "Specifies the supported source document type. A document type without a row is not permitted for incoming or outgoing processing.",
         "page": "page/6129",
         "control": "Document Type"
       }

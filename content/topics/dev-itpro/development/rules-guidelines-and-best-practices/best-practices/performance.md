@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,6 @@ links:
     - video/1xdpUmeun-s
     - video/lpwDSdEJrIQ
   posts:
-    - post/demiliani-com/11962
     - post/demiliani-com/12267
     - post/demiliani-com/12836
     - post/demiliani-com/14031
@@ -82,7 +81,7 @@ coverage:
   learn: 2
   code: 0
   video: 3
-  blog: 13
+  blog: 12
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -132,7 +131,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../../../../../changes/bcquality/215.md) (code change): "use query objects with grouped methods and column filters to detect duplicate values"
 - [#94 Correct performance knowledge guidance](../../../../../changes/bcquality/94.md) (code change): "Several performance knowledge articles and their samples were corrected for partial records, transactions"
 - [#97 Add per-row AL performance guidance](../../../../../changes/bcquality/97.md) (code change): "New performance guidance documents how to use SetAutoCalcFields for per-row FlowFields"
-- [Dynamics 365 Business Central: compressing API responses at max.](../../../../../posts/demiliani-com/11962.md) (community post): "Brotli significantly decreases bandwidth usage and transfer times for high-volume API calls"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "efficient bulk deletion of table rows in SaaS environments"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Performance benchmarks showed 42% improvement on inserts and 31% on updates"
 - [Dynamics 365 Business Central: AL transaction isolation levels and cache usage.](../../../../../posts/demiliani-com/14031.md) (community post): "Record.ReadIsolation sets the isolation level for reads on a specific record instance"

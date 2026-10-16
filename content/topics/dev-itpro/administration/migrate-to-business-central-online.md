@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:18.682Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -316,9 +316,8 @@ links:
   localizations: []
   videos:
     - video/6bX7Ab4KYMA
-    - video/f_i4_BRz-oA
-    - video/Gwgpj1U1wxI
     - video/lCXrKdxneKo
+    - video/O921cRqXdiw
   posts: []
   guidelines: []
 learn_toc_path:
@@ -334,7 +333,7 @@ children:
 coverage:
   learn: 47
   code: 1
-  video: 4
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -386,10 +385,9 @@ Supporting pages include custom migration from any SQL source (no-code mappings,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "Custom Migration Tooling Platform; No-Code SQL Data Migration"
-- [Microsoft presents: Cloud Migration from any SQL](../../../videos/f_i4_BRz-oA.md) (video): "Cloud Migration Management Page; Replication Progress Tracking; Upgrade Progress Tracking"
-- [Introduction to Business Central Cloud Migration (2023)](../../../videos/Gwgpj1U1wxI.md) (video): "cloud migration; azure data factory; sql to sql copy; integration runtime; data replication"
+- [What's New: Cloud Migration Tooling (2026 release wave 1)](../../../videos/6bX7Ab4KYMA.md) (video): "cloud migration; custom migration tool; migration platform; sql sources"
 - [Introduction to Business Central Cloud Migration Tooling (2022)](../../../videos/lCXrKdxneKo.md) (video): "Cloud Migration Tooling; One-Step Upgrade to Version 21; Direct Cloud Migration"
+- [What's New: Cloud Migration and Upgrade (2023)](../../../videos/O921cRqXdiw.md) (video): "Cloud migration; data replication; Azure Data Factory; cloud migration"
 
 ## Business Central pages and reports
 

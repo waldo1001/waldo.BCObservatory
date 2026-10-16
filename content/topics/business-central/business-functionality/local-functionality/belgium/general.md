@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/general
 type: topic
 title: General
-summary: "Belgium general local functionality in Business Central: posting period limits, work date as posting date, mandatory journal templates, deferrals in Sales and Purchase ledger reports, and Belgian enterprise and branch numbers. It answers setup questions for Belgian bookkeeping and reporting."
+summary: "Belgian general localization in Business Central: setup for deferrals in ledger reports, enterprise and branch numbers, posting period limits, work date as posting date, and mandatory journal templates. It answers how to configure these Belgium-specific accounting and compliance settings."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:02.126Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f0feca6226982229fc8a7f5241d207865687657bde0b15b6e639e711220a536b
+  input_hash: ac0e993a2b3735166b5c46ed23fa78eb687e7fdfca141c6e4ddc87491a2fe60e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-use-deferrals
@@ -95,27 +95,25 @@ narrative: generated
 
 # General
 
-> Belgium general local functionality in Business Central: posting period limits, work date as posting date, mandatory journal templates, deferrals in Sales and Purchase ledger reports, and Belgian enterprise and branch numbers. It answers setup questions for Belgian bookkeeping and reporting.
+> Belgian general localization in Business Central: setup for deferrals in ledger reports, enterprise and branch numbers, posting period limits, work date as posting date, and mandatory journal templates. It answers how to configure these Belgium-specific accounting and compliance settings.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects five short pages on Belgium-specific setup and behavior. Most of them describe fields in General Ledger Setup or related setup pages that control how and when transactions are posted.
+This section collects the Belgium-specific setup topics that apply across the whole Business Central company. Each page covers one configuration task: reporting of deferrals, identifying companies, controlling posting dates, and enforcing journal templates.
 
-Three pages deal with posting control: limiting the posting period at company, user, or journal template level (useful for Belgian monthly journal closure), using the work date as the posting date when applying or unapplying entries, and making journal templates mandatory with defaults for sales and purchase documents. A fourth page explains how to exclude deferral entries from the Sales ledger and Purchase ledger reports. The last page covers enterprise numbers and branch numbers from the Crossroads Bank for Enterprises.
-
-Start with the posting period and journal template pages if you are setting up a new Belgian company. Use the deferral page when ledger reports show deferral entries you want to hide. The enterprise number page is a reference for identification on documents.
+The pages are independent how-to articles with no subtopics. Start with the topic that matches your task. For compliance and reporting, read the pages on enterprise and branch numbers and on deferrals in Sales and Purchase ledger reports. For posting control, read the pages on limiting the posting period, setting the work date as posting date, and making journal templates mandatory.
 
 ## Key points
 
-- Posting periods can be limited with Allow Posting From and Allow Posting To at company, user, or journal template level.
-- Enabling Use Workdate for Appl./Unappl. in General Ledger Setup makes the work date the posting date when applying customer or vendor entries.
-- Journal Template Name Mandatory in General Ledger Setup makes journal templates required in the Belgian version.
-- Default journal templates for sales and purchase documents are set on the Journal Templates FastTab.
-- Deferral entries can be excluded from Sales and Purchase ledger reports by setting source codes for deferrals and using the Exclude Deferral Entries option.
-- Source Code Setup covers General, Sales, and Purchase deferral source codes.
-- Enterprise numbers and branch numbers come from the Crossroads Bank for Enterprises and are used on business documents and correspondence, alongside the VAT registration number.
+- Deferrals: set the General, Sales and Purchase Deferral source codes in Source Code Setup and use Exclude Deferral Entries so Sales and Purchase ledger reports show original invoice and credit memo entries, not entries created by deferrals.
+- Enterprise No. and Branch No. fields identify a company and its business locations and are validated with a modulo-97 check.
+- Enterprise numbers can print on sales documents, purchase documents and financial statements.
+- Posting periods can be limited by company, user or journal template using the Allow Posting From/To and Allow Posting Date From/To fields.
+- A typical use of journal template limits is closing sales journals monthly while keeping purchase journals open.
+- The Use Workdate for Appl./Unappl. setting makes the work date the posting date for customer or vendor entries such as invoices, payments and credit memos.
+- Enable Journal Templ. Name Mandatory in General Ledger Setup to require journal templates, and set default templates for sales and purchase documents.
 
 ## Learn pages
 

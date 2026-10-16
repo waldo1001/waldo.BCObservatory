@@ -1,68 +1,68 @@
 {
   "country": "AT",
   "version": "29",
-  "input_hash": "414ce166da16ac5853225e5039d64e6813dde95e000fe48afdb550530310530f",
-  "summary": "Austria (AT) localization of Business Central 29. It covers purchase delivery reminders, VAT statement and VIES reporting, the Vendor Payments List, G/L setup information, Intrastat, physical inventory orders, data export and local reports. It answers where Austrian features sit and which W1 objects change.",
-  "overview": "The Austrian layer adds a full delivery reminder process for purchasing: header, line, issued, ledger entry, terms, levels and text tables, with pages, create, issue and test reports, and role center and vendor page extensions. Learn documents setup, terms and levels, vendor code assignment, automatic and manual creation, issuing and test reports.\n\nFor finance, the code adds the VAT Statement AT and VAT - VIES Declaration XML reports, Update VAT Statement Template, and a Data Export framework (tables 11002 to 11010, codeunit 11000). Learn describes VAT reporting, FDF and XML export, the Vendor Payments List and the G/L Setup Information report. The code also adds Intrastat AT objects, physical inventory order tables, local balance and aging reports, and fixed asset reports.\n\nW1 changes are mostly fields and a few procedures and events: Registration No. on vendor and purchase documents, tax office and authorization fields on Company Information, exchange rate adjustment valuation parameters, and the OnBeforeCheckPmtApplnAllowed, OnBeforeCalcColumnValue and Navigate events.",
+  "input_hash": "4230436b0bec962dd08c9bc7f8897582c0cf12ceaa72ae718115a886c799a426",
+  "summary": "Austria (AT) localization of Business Central 29. It covers Austrian VAT statements and VIES declarations, delivery reminders for late vendor deliveries, the Vendor Payments List, G/L Setup Information, Intrastat, a data export, physical inventory orders, and DACH-shared reports.",
+  "overview": "The Austrian layer adds a delivery reminder feature for vendors (terms, levels, texts, header and line tables, issue and create codeunits, test and issued reports). It also adds VAT reporting: report 11110 \"VAT Statement AT\", report 11108 \"VAT - VIES Declaration XML\" and codeunit 11110 \"Update VAT-AT\". Learn describes the VAT statement as producing XML and FDF files for the tax authority, with support for a reduced 4.9% rate from July 1, 2026.\n\nThe code also brings a Data Export framework (table 11002 \"Data Export\" and related pages), Intrastat objects, physical inventory order tables, balance reports, fixed asset reports and DACH report selection (table 26100 \"DACH Report Selections\"). W1 tables get local fields. Examples: Company Information (tax office, agency and authorization data), General Ledger Setup, Vendor and purchase documents (Registration No.), Fixed Asset (BWR depreciation book and premium depreciation fields) and Exch. Rate Adjmt. Parameters (valuation method). Some W1 objects get new procedures and events, such as codeunit Gen. Jnl.-Post Batch and page VAT Statement Preview Line.\n\nLearn documents the Austrian pages: Austria Local Functionality, VAT reporting, How to Create a VAT Statement, Vendor Payments List, G/L Setup Information, and the delivery reminder setup, generation, issue and test pages. Learn mentions SAF-T only as planned.",
   "key_points": [
-    "Delivery reminders for vendors: terms, levels, text, create, issue, test report, ledger entries; permission set PURCHASE-DEL.REMIND.",
-    "VAT Statement AT and VAT - VIES Declaration XML reports for submission to tax authorities, with FDF and XML export.",
-    "Vendor Payments List report (11507) with vendor or chronological sorting and foreign currency options.",
-    "G/L Setup Information report for verifying master data, posting groups, VAT setup and number series.",
-    "Data Export framework and Export Business Data / Paragraph 131 Export reports.",
-    "Intrastat AT report extension, places of dispatcher and receiver, Crossborder Services report.",
-    "Physical inventory order and recording tables with posted counterparts.",
-    "W1 events added: OnBeforeCheckPmtApplnAllowed (codeunit 13), OnBeforeCalcColumnValue (page 475), a Navigate tracking event (page 344)."
+    "Delivery reminders for vendors: terms, levels, texts, vendor codes, manual creation or generation, test report, issuing",
+    "VAT Statement AT (report 11110) with XML/FDF/PDF output and VIES Declaration XML for FinanzOnline submission",
+    "Vendor Payments List report with chronological or vendor sorting and Standard, FCY Amounts, Posting Info layouts",
+    "G/L Setup Information report prints master data, posting groups, VAT setup and source codes",
+    "Data Export framework (tables 11002 to 11010) and Paragraph 131 Export report",
+    "Intrastat AT with place of dispatcher and receiver tables and an Intrastat Report Line extension",
+    "Physical inventory orders and recordings as own tables, with number series in Inventory Setup",
+    "Exchange rate adjustment with valuation method and BilMoG-related procedures"
   ],
   "areas": [
     {
       "area": "Purchases",
-      "what": "Adds the delivery reminder process: header, line, issued and ledger tables, create and issue codeunits, pages, test and issue reports, plus extensions to vendor, purchase order, setup and role center pages. Also adds Vendor Total-Balance, Vendor Detailed Aging and Vendor Payments List reports, and Registration No. and archiving fields on W1 purchase tables.",
-      "why": "Learn describes delivery reminders to notify vendors of overdue deliveries and the Vendor Payments List report with several layouts.",
+      "what": "Adds the delivery reminder feature: header, line, issued, ledger entry, term, level and text tables, pages, issue and create codeunits, and reports. Also adds Vendor Total-Balance, Vendor Detailed Aging and Vendor Payments List, and fields on Purchases & Payables Setup, Purchase Line and Vendor Templ.",
+      "why": "Learn describes delivery reminders as a way to notify vendors of overdue deliveries, and the Vendor Payments List as sortable by vendor or date with several layouts.",
       "objects": [
         "table/5005270",
         "table/5005271",
-        "codeunit/5005271",
         "codeunit/5005270",
+        "codeunit/5005271",
         "page/5005270",
-        "report/5005272",
         "report/11507",
+        "report/5005272",
         "table/312"
       ]
     },
     {
       "area": "Finance",
-      "what": "Adds VAT Statement AT, VIES XML, Update VAT, the Data Export framework and local ledger reports. Changes Gen. Jnl.-Post Batch, VAT Statement Preview Line, exchange rate adjustment (valuation method parameters) and setup tables with new fields and events.",
-      "why": "Learn explains VAT reporting through VAT Statement AT and VIES XML for EU compliance and tax authority submission, with FDF and XML export.",
+      "what": "Adds Austrian VAT statement and VIES reports, the Data Export framework, G/L Total-Balance, Provisional Trial Balance and G/L Setup Information. Changes W1 General Ledger Setup, VAT Report Setup, exchange rate adjustment parameters, Gen. Jnl.-Post Batch and VAT Statement Preview Line.",
+      "why": "Learn documents the VAT Statement in FDF, XML and PDF formats, VIES XML for EU sales, and the G/L Setup Information report for verification and audit.",
       "objects": [
         "report/11110",
         "report/11108",
         "codeunit/11110",
-        "report/11112",
+        "report/11514",
         "codeunit/11000",
         "table/11002",
-        "codeunit/13",
-        "table/596"
+        "table/98",
+        "codeunit/13"
       ]
     },
     {
       "area": "Inventory",
-      "what": "Adds Intrastat AT support (report management codeunit, line extension, places of dispatcher and receiver) and physical inventory order and recording tables with number series in Inventory Setup. Adds ABC analysis and inventory value reports.",
+      "what": "Adds Intrastat AT support (management codeunit, report line extension, place of dispatcher and receiver), physical inventory order and recording tables, and reports such as Item ABC Analysis. Inventory Setup gets number series fields.",
       "why": null,
       "objects": [
         "codeunit/11150",
         "tableextension/11150",
-        "pageextension/11150",
-        "table/5005350",
-        "table/5005351",
-        "table/313",
         "table/11000",
+        "table/11001",
+        "table/5005350",
+        "table/5005352",
+        "table/313",
         "report/11503"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Adds tax office, authorization and company number fields to Company Information, DACH report selections and delivery reminder usages, and address formatting for tax office. Adds Source Code Setup delivery reminder field and print procedures.",
+      "what": "Extends Company Information with tax office, agency and authorization fields, and adds DACH report selections and Format Address procedures for the tax office. Adds Source Code Setup for delivery reminders and Document-Print procedures for VAT reports.",
       "why": null,
       "objects": [
         "table/79",
@@ -71,47 +71,46 @@
         "codeunit/229",
         "codeunit/1901",
         "table/242",
-        "enumextension/26101",
+        "codeunit/355",
         "page/344"
       ]
     },
     {
       "area": "(no namespace)",
-      "what": "Holds the delivery reminder permission set, Data Export Setup, the Intrastat item list and upgrade and sandbox plumbing.",
+      "what": "Holds the Data Export Setup table, the Intrastat - Item List report, the delivery reminder permission set, and upgrade and sandbox cleanup plumbing.",
       "why": null,
       "objects": [
-        "permissionset/26001",
         "table/11009",
-        "report/11001"
+        "report/11001",
+        "permissionset/26001"
       ]
     },
     {
       "area": "FixedAssets",
-      "what": "Adds Austrian fixed asset list and book value reports and fields on Fixed Asset for premium depreciation and a depreciation book code. FA General Report gains SetExclReclEntries.",
+      "what": "Adds Austrian fixed asset reports and fields on Fixed Asset (BWR depreciation book code, premium depreciation). FA General Report gets a procedure to exclude reclassification entries.",
       "why": null,
       "objects": [
-        "table/5600",
         "report/11100",
         "report/11011",
+        "table/5600",
         "codeunit/5626",
-        "table/5611",
         "table/5612"
       ]
     },
     {
       "area": "Security",
-      "what": "Extends LOCAL and LOCAL READ permission sets to cover delivery reminder objects.",
+      "what": "Extends the LOCAL and LOCAL READ permission sets and adds delivery reminder permission set extensions.",
       "why": null,
       "objects": [
-        "permissionsetextension/5005270",
-        "permissionsetextension/5005271",
         "permissionset/1001",
-        "permissionset/1002"
+        "permissionset/1002",
+        "permissionsetextension/5005270",
+        "permissionsetextension/5005271"
       ]
     },
     {
       "area": "CRM",
-      "what": "Changes the Export Contact and Export Segment Contact XMLports.",
+      "what": "Changes the Export Contact and Export Segment Contact XMLports compared with W1.",
       "why": null,
       "objects": [
         "xmlport/5050",
@@ -129,7 +128,7 @@
     },
     {
       "area": "Bank",
-      "what": "Adds the SEPA CT APC export file codeunit.",
+      "what": "Adds the SEPA CT APC export file codeunit for credit transfers.",
       "why": null,
       "objects": [
         "codeunit/11100"
@@ -137,7 +136,7 @@
     },
     {
       "area": "ExpenseAgent",
-      "what": "Adds an Austrian expense event subscriber.",
+      "what": "Adds an Austrian expense event subscriber codeunit.",
       "why": null,
       "objects": [
         "codeunit/6914"
@@ -145,7 +144,7 @@
     },
     {
       "area": "Manufacturing",
-      "what": "Extends the Manufacturing Manager role center for DACH.",
+      "what": "Adds a DACH page extension for the Manufacturing Manager role center.",
       "why": null,
       "objects": [
         "pageextension/11010"
@@ -153,7 +152,7 @@
     },
     {
       "area": "Microsoft",
-      "what": "Adds a Certificate table.",
+      "what": "Adds the Certificate table.",
       "why": null,
       "objects": [
         "table/11014"
@@ -170,25 +169,29 @@
   ],
   "learn_pages_used": 13,
   "prompt_version": 2,
-  "at": "2026-10-07T13:22:34.709Z",
+  "at": "2026-10-16T01:02:01.790Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.099116
+    "cost_usd": 0.10145
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T23:24:17.203Z",
-    "verdict": "approve",
+    "at": "2026-10-16T01:07:15.485Z",
+    "verdict": "fix",
     "issues": [
-      "Minor: the narrative leaves out some Learn details that would help a reader: temporary 5% VAT rate support in the VAT statement, and FinanzOnline portal integration for VAT reporting.",
-      "Minor: the code also adds the reports VAT Statement Germany (11005) and VAT-Vies Declaration Tax - DE (11007), the SEPA CT APC-Export File codeunit (11100) and the DACH Report Selections table (26100). The narrative does not mention them. They could be noted so readers know about the shared DACH objects.",
-      "Minor: the Data Export table range 11002 to 11010 includes table 11009 Data Export Setup, which the input files under '(no namespace)' rather than Finance. The range is still correct."
+      "Overview says VAT Statement Preview Line is a W1 codeunit. The input lists it as page/475, so the sentence now names it as a page.",
+      "Overview puts Fixed Asset next to the 'valuation method' parenthetical. The input gives Fixed Asset BWR Depr. Book Code and premium depreciation fields; valuation method belongs to Exch. Rate Adjmt. Parameters only. The two are now separated.",
+      "Overview calls the Data Export framework, Intrastat, physical inventory and balance and fixed asset reports 'DACH-shared'. The input marks only some objects as DACH (DACH Report Selections, SourceCodeSetupDACH, Report Sel. Usage Purch. DACH), so that label has been dropped from the list.",
+      "Key point 1 says 'batch creation'. Learn calls this generating delivery reminders, so the key point now uses that wording."
     ],
-    "input_hash": "414ce166da16ac5853225e5039d64e6813dde95e000fe48afdb550530310530f",
-    "cost_usd": 0.1628708,
-    "applied": [],
+    "input_hash": "4230436b0bec962dd08c9bc7f8897582c0cf12ceaa72ae718115a886c799a426",
+    "cost_usd": 0.1901388,
+    "applied": [
+      "overview",
+      "key_points"
+    ],
     "rejected_edits": []
   }
 }

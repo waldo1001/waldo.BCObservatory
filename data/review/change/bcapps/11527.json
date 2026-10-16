@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/11527",
+  "input_hash": "3765136d570f25933e4cdfe72a0b0bdbf46b5cfb71cbc7cb5010d247894045ff",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:14.488Z",
+  "issues": [
+    "Page matches the description; only eligible error occurrences (fewer than five retries) are migrated, a minor omission."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027114,
+    "changes_in_call": 6
+  }
+}

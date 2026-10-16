@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/thinkaboutit-be/8272",
+  "input_hash": "a5edfb422dbf790c545f0ace570a9bd7c2f354e274a243eb6e9cdc428b5f7927",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:16:46.495Z",
+  "issues": [
+    "The summary and key points match the post.",
+    "The post names no specific API object, so the object entry is a generic label rather than a real object and has been dropped.",
+    "Copilot Studio agents come up only as one possible consumer of the APIs, which is too thin to support a copilot system tag."
+  ],
+  "applied": [
+    "dropped 1 object(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.032879,
+    "posts_in_call": 4
+  }
+}

@@ -6,7 +6,7 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Manufacturing demo setup now refreshes Common G/L account mappings at the start to prevent failures when non-Premium demo data was previously generated in the session.",
+  "summary": "Manufacturing demo data setup now runs the existing Create Common GL Account codeunit first to refresh the Common G/L account mappings. Before this, Manufacturing failed to find the Raw Materials account when Common data had been generated in an earlier session and the mappings were empty.",
   "key_points": [
     "Calls existing Create Common GL Account codeunit at the beginning of Manufacturing setup",
     "Fixes issue where Manufacturing fails to find Raw Materials account when Common mappings are empty",

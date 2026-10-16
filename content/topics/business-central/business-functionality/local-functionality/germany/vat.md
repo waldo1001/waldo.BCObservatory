@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.451Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,42 +21,42 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports
     title: Correct VAT Reports [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports
     title: How to Create VAT Reports [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax
     title: How to Declare VAT-VIES Tax [DE]
-    date: "2025-04-24"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat
     title: How to Set Up Reports for VAT and Intrastat
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports
     title: How to Set Up VAT Reports [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting
     title: VAT Reporting in the German version
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -100,7 +100,6 @@ bc_forms:
   - 11026
   - 11027
   - 11028
-  - 26101
 member_hash: 38c5e1704eb87593fffe75e235e9659e89c2e6feafca00cd447bc45f7f7a2dd2
 narrative: generated
 ---
@@ -131,11 +130,11 @@ VAT-VIES declarations and Intrastat setup are handled on their own pages. Intras
 
 ## Learn pages
 
-- [Correct VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports): If you need to submit a corrective VAT report or delete an existing one, you must create a new VAT report.
-- [How to Create VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports): You can configure various types of VAT reports in electronic format to comply with ELMA5 format requirements.
+- [Correct VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports): Learn how to submit a corrected sales VAT advance notification or a corrected VAT-VIES declaration in the German version.
+- [How to Create VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-vat-reports): Learn how to create and submit sales VAT advance notifications and VAT-VIES declarations in the German version.
 - [How to Declare VAT-VIES Tax [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-declare-vat-vies-tax): Learn to create the VAT-VIES report for submitting sales transaction details with other EU countries or regions.
 - [How to Set Up Reports for VAT and Intrastat](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat): Learn how to specify the reports used to create documents for submission to authorities, such as the VAT statement and the Intrastat form.
-- [How to Set Up VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports): Learn how to set up report parameters in Business Central to file a VAT report under the ELMA5 system.
+- [How to Set Up VAT Reports [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-vat-reports): Learn how to set up VAT statements, company information, and tax office data before you declare VAT-VIES tax or sales VAT advance notifications in the German version.
 - [VAT Reporting in the German version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting): You can report VAT electronically to the tax authorities in the German version.
 
 ## Videos, posts and code changes
@@ -148,6 +147,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-Learn also names 8 objects with no object page: page/11016, page/11017, page/11019, page/11025, page/11026, page/11027, page/11028, page/26101.
+Learn also names 7 objects with no object page: page/11016, page/11017, page/11019, page/11025, page/11026, page/11027, page/11028.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

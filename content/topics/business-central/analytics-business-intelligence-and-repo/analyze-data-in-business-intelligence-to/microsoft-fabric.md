@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c7df016bee018b38d0e07c162751f00222aa863ae60ca69f725246f74192208f
@@ -73,7 +73,10 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/bertverbeek-nl/1143
+    - post/bertverbeek-nl/1318
+    - post/thinkaboutit-be/8229
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -86,7 +89,7 @@ coverage:
   learn: 5
   code: 8
   video: 0
-  blog: 0
+  blog: 3
   guideline: 0
 bc_forms:
   - 48508
@@ -114,6 +117,14 @@ Path: [Analytics, business intelligence, and reporting](../../analytics-business
 - [Manage Business Central Synchronization with Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-manage-fabric-export): Select Business Central companies and tables, use configuration packages, and control ongoing synchronization with Microsoft Fabric.
 - [Monitor and Troubleshoot Microsoft Fabric Synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export): Monitor Business Central synchronization runs, review table-level changes and watermarks, and resolve common Microsoft Fabric connection problems.
 - [Set up Business Central data mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring): Prepare Microsoft Fabric, connect Business Central to an open mirrored database, and select the companies and tables to synchronize.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [[Preview] bc2adls and Fabric Open Mirroring](../../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring"
+- [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
+- [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
 
 ## Business Central pages and reports
 

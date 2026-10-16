@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.961Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -136,7 +136,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-dataverse
     - topic/dev-itpro/integration/integrating-with-microsoft-dataverse/data-synchronization/dataverse-api
   localizations: []
-  videos: []
+  videos:
+    - video/-q8Gm7u7R2A
   posts: []
   guidelines: []
   changes:
@@ -152,7 +153,7 @@ children:
 coverage:
   learn: 15
   code: 1
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -202,6 +203,7 @@ Start with the "Integrate with Microsoft Dataverse via data sync" page for the b
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12261 Stop repeated rescheduling of Dataverse synch jobs on bulk changes](../../../../changes/bcapps/12261.md) (code change): "The Dataverse synchronization job reschedule logic now checks both the scheduled task's next run time"
+- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../../videos/-q8Gm7u7R2A.md) (video): "Data synchronization; field mappings; table mappings"
 
 ## Business Central pages and reports
 

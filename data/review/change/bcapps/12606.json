@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12606",
+  "input_hash": "08241759398e31614c04b83dfc737e1a3c533f2532495c268bda4a545a08ba0f",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:27.342Z",
+  "issues": [
+    "Pending obsoletion of codeunit 1297 with tag 30.0 and HttpClient replacement matches the description; not breaking."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021791,
+    "changes_in_call": 4
+  }
+}

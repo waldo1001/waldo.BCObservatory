@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12377",
+  "input_hash": "c4e84b66bf7be8ff94c43bf0baf9b8ef5666038c37b43438c92043ee17a64bc7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:25.385Z",
+  "issues": [
+    "The PR does not explain the mechanism, so 'ensuring proper transaction handling' is speculative. The code change is a one-line edit in codeunit 8060."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024672,
+    "changes_in_call": 6
+  }
+}

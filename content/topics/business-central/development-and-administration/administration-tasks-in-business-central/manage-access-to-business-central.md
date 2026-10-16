@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:27.484Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -115,7 +115,8 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/access-with-microsoft-365-licenses
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-access-to-business-central/grant-user-permissions
   localizations: []
-  videos: []
+  videos:
+    - video/YTA8c2XyTX4
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be
   guidelines: []
@@ -133,7 +134,7 @@ children:
 coverage:
   learn: 8
   code: 30
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -216,6 +217,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11989 [Bug 500351] Allow Effective Permissions for delegated admins and helpdesk](../../../../changes/bcapps/11989.md) (code change): "Effective Permissions page now works for delegated admins and helpdesk"
 - [BC Friday Tips #31 Block Users using Security Group](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-31-block-users-using-security-group--195514d4be.md) (community post): "Environment-level security groups in Azure AD restrict access to Business Central"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Microsoft Entra app users for BC data access; Role-based Power Pages table permissions"
 
 ## Business Central pages and reports
 

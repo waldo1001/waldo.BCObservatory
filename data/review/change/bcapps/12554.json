@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12554",
+  "input_hash": "6fde087a95b00272627594ac0e94176777fbdf20665e1f416eaa1c173d582105",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:14.488Z",
+  "issues": [
+    "Key point claimed the OnAfterGetRecRefFail event was added; the event already existed and the change only raises a clear error when the record is still unresolved after it.",
+    "Changes to the E-Document, Expense Agent, Subscription Billing, Manufacturing and Service attachment codeunits are not explained in the description, so they are not described."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.027114,
+    "changes_in_call": 6
+  }
+}

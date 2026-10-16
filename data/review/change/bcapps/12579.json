@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12579",
+  "input_hash": "13eaaa96a211db6df4ae64242519443705a5ce2ed94a71de53e940a61ff0325c",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:12.415Z",
+  "issues": [
+    "Summary and key points match the description: header values and location filter are now sent as data item columns so scheduled runs no longer show #N/A."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016564,
+    "changes_in_call": 6
+  }
+}

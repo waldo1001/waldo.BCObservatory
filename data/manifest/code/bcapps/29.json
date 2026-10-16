@@ -6,7 +6,7 @@
   "title": "microsoft/BCApps releases/29.x (BC29)",
   "url": "https://github.com/microsoft/BCApps/tree/releases/29.x",
   "published_at": null,
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -137,19 +137,19 @@
       }
     },
     "linked": {
-      "at": "2026-10-15T01:01:51.480Z",
+      "at": "2026-10-16T01:00:47.840Z",
       "graph": {
         "major": "29",
         "written": true,
         "edges": 15711,
-        "unresolved": 1350,
+        "unresolved": 1353,
         "key": "1:8ee3d6ba8dd0:apps:7ef7110d",
-        "ms": 2208006
+        "ms": 2179090
       },
       "graph_key": "1:8ee3d6ba8dd0:apps:7ef7110d"
     },
     "published": {
-      "at": "2026-10-08T06:16:25.581Z"
+      "at": "2026-10-16T01:00:47.842Z"
     }
   },
   "input_hash": "ff470ecd2cee1e213c62c942f114f6c8238563c8:x4:cb1a23f6b",
@@ -162,5 +162,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ff470ecd2cee1e213c62c942f114f6c8238563c8"
+  "output_hash": "a723eac3cbdf966166b9e450ae85a100525c1461b485ad2d5c47fa4a54834526"
 }

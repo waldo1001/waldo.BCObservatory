@@ -6,12 +6,11 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Fixed billing lines not being rolled back when vendor subscription contract invoice creation fails by ensuring proper transaction handling.",
+  "summary": "Fixed billing lines not being rolled back when creating a vendor subscription contract invoice fails. The fix is a one-line change in codeunit 8060 Create Billing Documents, and a new test covers it.",
   "key_points": [
-    "Corrected transaction rollback behavior in invoice creation failure scenarios",
-    "Applied to Subscription Billing codeunit 8060 Create Billing Documents",
-    "Added test coverage for the rollback fix",
-    "Ensures data consistency when invoice creation errors occur"
+    "Billing lines are now rolled back when vendor subscription contract invoice creation fails",
+    "One-line change in Subscription Billing codeunit 8060 Create Billing Documents",
+    "New test added in RecurringBillingDocsTest"
   ],
   "change_kind": "fix",
   "behavior_change": true,

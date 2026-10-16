@@ -2,26 +2,26 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/core-finance
 type: topic
 title: Core Finance
-summary: "Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features."
+summary: "Czech Core Finance covers Czech-specific general ledger and accounting features in Business Central: posting group controls, corrections (Red Storno), statutory statements, year closing, multi-circuit accounting, exchange rates, dimensions, and company information. It answers setup and usage questions for Czech compliance."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:38.493Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f7bd151cd64b760eb80370221eed5fb4503c08a79fb62f347def450b2ea5fbbc
+  input_hash: 6bfd408106b1623a1f3ec9f9b713df03255bb57f3802fb4d161bfd2d4153b1a3
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees
     title: Alternative posting groups for Employees in the Czech Version
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -63,21 +63,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-company-information
     title: Czech local functionality - Statutory company information [CZ]
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/statutory-statements
     title: Czech Local Functionality - Statutory Statements [CZ]
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/wip-extended-posting
     title: Czech local functionality - WIP extended posting
-    date: "2025-06-09"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -111,8 +111,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations
-    title: Year Closing Operations [CZ]
-    date: "2025-06-09"
+    title: Year closing operations in the Czech version
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -163,24 +163,24 @@ narrative: generated
 
 # Core Finance
 
-> Czech Republic core finance functionality in Business Central: posting groups, corrections (Red Storno), multi-circuit accounting, G/L application, year closing, statutory statements and company information, financial reports, accounting output documents, and CNB exchange rate updates. It answers questions about Czech legal and accounting compliance features.
+> Czech Core Finance covers Czech-specific general ledger and accounting features in Business Central: posting group controls, corrections (Red Storno), statutory statements, year closing, multi-circuit accounting, exchange rates, dimensions, and company information. It answers setup and usage questions for Czech compliance.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Core Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the Czech localization pages for core finance. They cover posting and ledger behavior (alternative employee posting groups, posting group change checks, corrections posting, multi-circuit accounting, G/L entries application, WIP extended posting) and the reports and documents needed for Czech legislation (accounting output documents, internal financial documents, statutory statements, year closing).
+This section collects the Czech localization pages for core finance. They cover rules that Czech accounting legislation requires: corrections posting, multi-circuit accounting, statutory Balance Sheet and Income Statement reports, accounting output documents, internal financial documents, and year closing.
 
 ## Key points
 
-- Alternative posting groups for employees let payroll and expense transactions post to different G/L accounts, with a posting group choice on journals and automatic reallocation of G/L entries.
-- Posting group changes on customer, vendor, item and bank account cards are blocked when open entries exist.
-- Corrections posting (Red Storno) enforces corrective posting on G/L accounts and inventory so costs and revenues sit on the proper debit or credit side.
-- Multi-circuit accounting uses the G/L Account Group field to separate Financial, Off-Balance and Intercompany accounting areas.
-- G/L entries application matches temporary and transfer account entries, with partial application, apply/unapply and batch application.
-- Year closing reports close the income statement, close the balance sheet and open the balance sheet, creating General Journal lines.
-- Statutory Statements provide Balance Sheet and Income Statement under Accounting Law 563/1991, built on financial reports with customizable Excel layouts.
-- Exchange rates can be updated automatically from the Czech National Bank (CNB) service.
+- Corrections posting (Red Storno) is set up with the Check Posting Debit/Credit toggle and applied through the Correction field in journals.
+- Multi-circuit accounting posts across Financial, Internal, and Off-Balance circuits. Areas are set with the G/L Account Group field, and the G/L Account Group Posting Check report verifies existing postings.
+- Year closing uses three reports: Close Income Statement CZ, Close Balance Sheet, and Open Balance Sheet.
+- Statutory statements provide the Balance Sheet and Income Statement required by Accounting Law 563/1991, built on financial reports with extended account schedule tables.
+- Alternative posting groups for employees are enabled with the Allow Multiple Posting Groups toggle, so accountants can pick an alternative group during posting.
+- Posting group changes for customers, vendors, items, and bank accounts are blocked when open or uninvoiced entries exist.
+- Exchange rates can update automatically from the Czech National Bank, with a configurable HTTP service address and parameters.
+- General ledger entries application supports apply, unapply, partial application, and batch processing for temporary and transfer accounts.
 
 ## Learn pages
 
@@ -197,7 +197,7 @@ This section collects the Czech localization pages for core finance. They cover 
 - [General Ledger Entries Application [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/general-ledger-entries-application): The Czech version of General ledger entries application enables companies to manage temporary and transfer accounts in the general ledger for improved tracking and processing of pending amounts.
 - [Set up automatic creation and update of dimensions [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions): Learn how to automatically create and update dimensions and dimension values for master records in the Czech version of Business Central.
 - [Use multi-circuit accounting [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-multi-circuit-accounting): Learn how to use multi-circuit accounting with the G/L Account Group field to separate financial, internal, and off-balance postings in the Czech version.
-- [Year Closing Operations [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations): Learn how to manage year-end closing operations in the Czech version, including closing and opening account books to meet local accounting requirements.
+- [Year closing operations in the Czech version](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/year-close-operations): Learn how to run the Close Income Statement, Close Balance Sheet, and Open Balance Sheet reports to meet Czech year-end accounting requirements.
 
 ## Videos, posts and code changes
 

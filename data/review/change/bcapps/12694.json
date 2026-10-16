@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12694",
+  "input_hash": "c7ebfc179aac90902dab4c5c42e6878476dac688671079d18aa51f3c9e849a13",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:10.624Z",
+  "issues": [
+    "The OCR change alters runtime behaviour: it restores x-rs-key header handling, which had made OCR authentication fail, so behavior_change should be true.",
+    "The description gives both 153 and 154 as the number of annotated codeunits. The page's 153 matches the What and why section."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017507,
+    "changes_in_call": 6
+  }
+}

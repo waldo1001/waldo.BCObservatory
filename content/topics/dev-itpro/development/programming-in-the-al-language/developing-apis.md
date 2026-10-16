@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:17.835Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,6 +108,7 @@ links:
   videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
+    - post/thinkaboutit-be/7061
   guidelines: []
   changes:
     - change/bcapps/10130
@@ -126,7 +127,7 @@ coverage:
   learn: 10
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: 198bbaa7e4c9ee4e788121e511fb23fa78de1ec0a3f9625833096531ab5a506e
@@ -181,5 +182,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 uses strongly typed enums with member names in metadata"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
 - [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "Use it to see how Microsoft designs standard APIs and copy objects"
+- [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Developers must audit current integrations, migrate to custom extensions or query objects"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

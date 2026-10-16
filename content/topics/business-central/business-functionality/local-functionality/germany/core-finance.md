@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:10.062Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,56 +21,56 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits
     title: Digital audits (GoBD/GDPdU)
-    date: "2024-05-04"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing
     title: Electronic invoicing in Germany
-    date: "2025-06-30"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports
     title: Export and Print Intrastat Reports (DE)
-    date: "2025-04-24"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit
     title: Export Data for a Digital Audit [DE]
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit
     title: Exporting data for a digital audit [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples
     title: GoBD filter examples [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file
     title: How to upgrade a .DTD definition file [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits
     title: Set Up Data Exports for a Digital Audit [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -116,7 +116,6 @@ bc_forms:
   - 11014
   - 11026
   - 11027
-  - 26100
 member_hash: 7bf3176a9863a4d6e693077da8a397830efcda0093c0d723d844db513562abb1
 narrative: generated
 ---
@@ -149,7 +148,7 @@ Two other topics sit alongside. Electronic invoicing explains how to set up the 
 
 - [Digital audits (GoBD/GDPdU)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits): Export data according to the digital audit process (GoBD/GDPdU) based on German tax law.
 - [Electronic invoicing in Germany](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/germany-einvoicing): Learn how to set up and work with the German localization of the E-Document framework.
-- [Export and Print Intrastat Reports (DE)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports): Business Central supports Intrastat reporting according to German requirements. You can meet the requirement to report your trade with other EU countries/regions.
+- [Export and Print Intrastat Reports (DE)](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports): Learn how to verify, export, and submit Intrastat reports for Germany, including the IDEV and eSTATISTIK.CORE submission channels.
 - [Export Data for a Digital Audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit): Financial and tax data can be exported in compliance with the digital audits process (GoBD/GDPdU), which adheres to German tax law.
 - [Exporting data for a digital audit [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit): Export business data for auditing purposes following the digital audit process (GoBD/GDPdU) as per German tax regulations.
 - [GoBD filter examples [DE]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/gdpdu-filter-examples): Learn how to use filter types when you set up your GoBD exports.
@@ -160,6 +159,6 @@ Two other topics sit alongside. Electronic invoicing explains how to set up the 
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-Learn also names 10 objects with no object page: page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11026, page/11027, page/26100.
+Learn also names 9 objects with no object page: page/11002, page/11003, page/11004, page/11007, page/11008, page/11009, page/11014, page/11026, page/11027.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

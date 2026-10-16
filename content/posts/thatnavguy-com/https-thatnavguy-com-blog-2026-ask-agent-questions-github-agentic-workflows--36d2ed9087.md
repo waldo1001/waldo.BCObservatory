@@ -13,16 +13,16 @@ tags:
   - al development
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-16T01:16:52.043Z"
   flags: []
 generated:
-  at: "2026-10-15T00:25:21.002Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 5575f1e369235d459e82858cf66bbb786dd8a5e29d359f80515a2bf706430fa0
+  input_hash: 53af03431bc38509ff4464185277b58606d59640f7e1a2cd9a911185a0bbc4bc
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/
@@ -52,24 +52,22 @@ quotes: []
 code_objects_mentioned: []
 systems:
   - development
-  - integration
-  - copilot
 versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/Answer-Agent.o9QUIDxf_Z5SmNG.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-07T11:51:44.627Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-16T01:14:08.173Z"
 ---
 
 # How to ask questions about your repo with GitHub Agentic Workflows
 
-[Read the post](https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-09 · 912 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/ask-agent-questions-github-agentic-workflows/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-09 · 912 words · tier community · reviewed (checked by Opus)
 
 > GitHub Agentic Workflows enable teams to ask questions about a Business Central extension repository without cloning code or setting up a development environment. An AI agent reads GitHub issues and replies with code insights, citations, and relevant file paths.
 

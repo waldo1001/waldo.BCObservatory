@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/views
 type: topic
 title: Views
-summary: "Views on Business Central list pages in AL: how to define alternative filtered, sorted and laid-out views, migrate legacy Role Center views to modern list views, and export and package analysis views in extensions. It answers questions about defining, migrating and distributing views."
+summary: "Views in Business Central AL development: how list page views define alternative filtering, sorting and layout, how to package analysis views in extensions, and how to migrate legacy Role Center views to modern list views. Answers questions about defining views on pages, page extensions and page customizations."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:28:24.168Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c513b27cccf00fdcaf6007d27b61029786da3dad5751a241cc7abd730eee7066
+  input_hash: 5efacc96f6750864f35079306bffa440c3b2de24696517d68e1fd132f62a1ca1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-analysis-view-package
@@ -73,28 +73,28 @@ narrative: generated
 
 # Views
 
-> Views on Business Central list pages in AL: how to define alternative filtered, sorted and laid-out views, migrate legacy Role Center views to modern list views, and export and package analysis views in extensions. It answers questions about defining, migrating and distributing views.
+> Views in Business Central AL development: how list page views define alternative filtering, sorting and layout, how to package analysis views in extensions, and how to migrate legacy Role Center views to modern list views. Answers questions about defining views on pages, page extensions and page customizations.
 
-Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Programming in the AL language](../../programming-in-the-al-language.md) > [Pages and the user interface](../pages-and-the-user-interface.md) > Views · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Views let a list page offer alternative ways of looking at its data, with their own filtering, sorting and layout changes. They can be defined on pages, page extensions and page customization objects. The Views page is the starting point for the concepts, including shared and custom layouts.
+Views on list pages give users alternative ways to see the same data, through filtering, sorting and layout changes. They can be defined in AL on page, page extension and page customization objects. A view can use a shared layout or its own custom layout.
 
-Modern list views replace the legacy views that were created on Role Center pages. The migration page explains how this gives a better user experience, personalization and consistency across navigation methods, and covers view composition, filters, sorting and column layout per view.
+The section has three pages. The main "Views" page explains the concept and where views are defined. "Migrating to modern list views" covers moving from legacy views created on Role Center pages to modern views, which improve personalization and consistency across navigation methods. "Export and Package Analysis Views" explains how to ship analysis views with an extension.
 
-Analysis views are a separate topic. You can export an analysis view definition from the client in analysis mode and package it in an AL extension so it can be distributed with an app.
+Start with the Views page for the basics. Read the migration page if you have older Role Center views. Read the analysis views page if you need to distribute Analysis Mode results as part of an app.
 
 ## Key points
 
 - Views on list pages define alternative data views through filtering, sorting and layout changes.
-- Views can be defined on pages, page extensions and page customization objects.
-- Layouts can be shared or custom per view.
-- Modern views replace legacy views created on Role Center pages.
-- Migration to modern list views references 2022 release wave 2 and 2024 release wave 1 (versions 21 and 24).
-- Each modern view can have its own filters, sorting and column layout.
-- Analysis views are exported from the client in analysis mode as a JSON definition.
-- Exported analysis views are packaged with the analysisviews construct and the DefinitionFile property, and can be locked.
+- Views can be defined on page, page extension and page customization objects.
+- A view can use a shared layout or a custom layout; modern views keep column layout per view.
+- Modern views replace legacy views created on Role Center pages, with better personalization and consistency across navigation methods.
+- The migration page references 2022 release wave 2, version 21, 2024 release wave 1 and version 24.
+- Analysis views are exported as JSON definitions from the Analysis Mode editor.
+- Packaged analysis views are referenced with the analysisviews construct and the DefinitionFile property in page, pageextension or pagecustomization objects.
+- Packaged analysis views can be targeted at profiles through page customization and are locked read-only.
 
 ## Learn pages
 

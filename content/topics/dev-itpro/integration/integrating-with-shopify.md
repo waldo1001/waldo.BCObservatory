@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,15 +74,18 @@ links:
     - topic/dev-itpro/integration
   localizations: []
   videos:
+    - video/3tmaVpPTQLw
     - video/5Qfc7r618OM
+    - video/6vHJQggN4F4
+    - video/AR2FiD64wbw
+    - video/B-pxLlb-UN0
+    - video/BwBR8JwwQa4
     - video/cuez5kIanKo
     - video/e5Dr3jzCLM8
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
-    - video/p-pwG6f5srY
-    - video/StIVhsnOHWY
-    - video/YSDfDjrMUb0
+    - video/QGIr_XPp8lk
   posts: []
   guidelines: []
   changes:
@@ -133,7 +136,7 @@ children: []
 coverage:
   learn: 4
   code: 16
-  video: 9
+  video: 12
   blog: 0
   guideline: 0
 bc_forms:
@@ -194,7 +197,7 @@ For developers and administrators, the technical FAQ covers product compatibilit
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10034 [Shopify] Don't block Shops page when user lacks extension permissions](../../../changes/bcapps/10034.md) (code change): "The Shopify Shops page no longer fails to open on Belgian environments"
-- [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Shopify Activities page display counts of skipped sync records and API errors"
+- [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Two new cues on the Shopify Activities page display counts of skipped sync records"
 - [#10143 Handle non-invoice or currupt PDF extraction](../../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs that return empty data"
 - [#10162 Fix stale start status in e-document import pipeline](../../../changes/bcapps/10162.md) (code change): "e-document import pipeline now uses the initial processing status"
 - [#10256 [Shopify] Fix customer matching when phone numbers contain spaces](../../../changes/bcapps/10256.md) (code change): "When exporting customers to Shopify, the connector now strips phone numbers"
@@ -231,15 +234,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../../changes/bcapps/9751.md) (code change): "Invoice Date on the purchase draft is now filled from the extracted invoice date"
 - [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../../changes/bcapps/9784.md) (code change): "Fixes defects in the V2 draft import for XRechnung, PINT A-NZ and Factura-E"
 - [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents"
-- [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify skipped records page; Logging mode field for Shopify connector; Show record functionality"
-- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "shopify connector; sales channels; product export; channel activation"
+- [What's New: Shopify Connector B2B Functionality (2024 release wave 1)](../../../videos/3tmaVpPTQLw.md) (video): "Shopify Connector B2B Functionality; order editing; company synchronization"
+- [What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)](../../../videos/5Qfc7r618OM.md) (video): "Shopify connector; skipped records; export validation; integration troubleshooting"
+- [What's New: Product Information Management in Shopify Connector (2026 release wave 1)](../../../videos/6vHJQggN4F4.md) (video): "Item Variant Image Export to Shopify; Item Attributes for Shopify Options"
+- [What's New: Shopify Connector (2024 release wave 2) in 2 minutes](../../../videos/AR2FiD64wbw.md) (video): "shopify connector; meta fields; data synchronization; language translation; pricing"
+- [What's New: Shopify Connector - Overview (2026 release wave 1)](../../../videos/B-pxLlb-UN0.md) (video): "shopify connector; product information management; item variants; presentment currency; price synchronization"
+- [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
+- [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Activate Specific Sales Channels; Multiple Sales Channels Setup; Product Export to Shopify"
 - [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"
-- [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility"
+- [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility model"
 - [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
-- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Logging Mode Option Field; Shopify API Quarterly Versioning"
-- [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "shopify connector; custom fields; meta fields; product synchronization; translations; localization"
-- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Sync in foreground mode; Logging mode configuration; Customer validation"
-- [What's new in Shopify Connector: Overview (2026 release wave 2)](../../../videos/YSDfDjrMUb0.md) (video): "Tariff code synchronization; B2B company synchronization; Market-based catalogs"
+- [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; Logging Mode Option"
+- [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../videos/QGIr_XPp8lk.md) (video): "Extending E-Documents with New Interface; connector development; document actions"
 
 ## Business Central pages and reports
 

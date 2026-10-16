@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:23.799Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,28 +21,28 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/currency-exchange-rates
     title: Currency Exchange Rates [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/eu-sales-list-in-germany
     title: EU Sales List in Germany
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports
     title: Include Company Registration Numbers on Sales and Purchase Reports
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-general-ledger-setup-information
     title: Print general ledger setup information [DE]
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -189,7 +189,8 @@ links:
     - video/fIOnGEARkKs
     - video/ItuCEHpaI1E
     - video/YTA8c2XyTX4
-  posts: []
+  posts:
+    - post/vondervoort-be/67
   guidelines: []
   changes:
     - change/bcapps/10207
@@ -211,7 +212,7 @@ coverage:
   learn: 22
   code: 1
   video: 5
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 7214
@@ -264,11 +265,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
-- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "dataverse integration; data synchronization; virtual tables; data change events"
-- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "power pages; virtual tables; multi-company support; dataverse"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; virtual tables visibility"
-- [What's New: Auto-Applying Templates in Integration with Dataverse (2024 release wave 2)](../../../videos/ItuCEHpaI1E.md) (video): "Auto-Applying Templates in Integration with Dataverse; configuration templates; data synchronization"
-- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Dataverse integration; virtual tables; power pages; data synchronization; business events"
+- [Dutch Dynamics Community Event 18 november 2025](../../../posts/vondervoort-be/67.md) (community post): "connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode for advanced warehousing"
+- [What's New: Business Central Integration with Dataverse (2024 release wave 1)](../../../videos/-q8Gm7u7R2A.md) (video): "Business Central Integration with Dataverse; data synchronization; virtual tables"
+- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../videos/auoHUd24Gfw.md) (video): "Multi-company support through Dataverse shared execution variable; Anonymous read-only access for external users"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 1](../../../videos/fIOnGEARkKs.md) (video): "Multi-company and multi-environment synchronization; Multi-currency synchronization"
+- [What's New: Auto-Applying Templates in Integration with Dataverse (2024 release wave 2)](../../../videos/ItuCEHpaI1E.md) (video): "configuration templates; dataverse integration; data synchronization; conditional rules; integration table mappings"
+- [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../videos/YTA8c2XyTX4.md) (video): "Virtual Tables General Availability; Power Pages Support via Virtual Tables; Data Change Events"
 
 ## Business Central pages and reports
 

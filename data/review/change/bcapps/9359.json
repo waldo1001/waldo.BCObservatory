@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/9359",
+  "input_hash": "e80632017f07b23b51b71f1d88ee26a26d3bd5be665faba891d3926be2a25d87",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:10.523Z",
+  "issues": [
+    "The page matches the description: the size check before reading content, the placeholder notes, the new enum value, the quote copy filter and the telemetry."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.021304,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:31.109Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
     title: Accelerated Depreciation [FR]
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation
     title: How to Calculate Accelerated Depreciation [FR]
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation
     title: Set Up Accelerated Depreciation
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

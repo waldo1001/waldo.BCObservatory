@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:55.273Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,8 @@ links:
   topics:
     - topic/dev-itpro/administration
   localizations: []
-  videos: []
+  videos:
+    - video/KbXzMR4n4h8
   posts:
     - post/thedynamicsexplorer-com/37042
     - post/thedynamicsexplorer-com/9364
@@ -63,7 +64,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 2
   guideline: 0
 bc_forms: []
@@ -107,5 +108,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central – Why when I create new users do they get full access by default](../../../posts/thedynamicsexplorer-com/37042.md) (community post): "edit the licence, turn on Customise Permissions and delete permission sets"
 - [Dynamics 365 Business Central – A Closer look at the Free “Internal Administrator” and “Dynamics 365 Administrator” Licences](../../../posts/thedynamicsexplorer-com/9364.md) (community post): "The Internal Administrator licence is given automatically to Microsoft 365 Global Administrators"
+- [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../videos/KbXzMR4n4h8.md) (video): "Entitlements for AppSource Apps; entitlements mapping; license-conditional functionality"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

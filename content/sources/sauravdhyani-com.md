@@ -2,7 +2,7 @@
 id: source/sauravdhyani-com
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 29 posts in the knowledge base, 2025-09-04 to 2026-10-14, mostly about development, platform, administration."
+summary: "Saurav Dhyani (MVP): 32 posts in the knowledge base, 2025-09-04 to 2026-10-15, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: db2cbef4e178546bb31329ee71ceb4694deb33f1c5c6c06a49a325391dd9a837
+  input_hash: d4f37e96589e1d0ab7bf82e39a122671c3896b7c722d2b106353493dc4745943
 evidence:
   - kind: blog
     url: https://www.sauravdhyani.com
@@ -61,7 +61,10 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
   guidelines: []
 source_id: sauravdhyani-com
 kind: blog
@@ -69,24 +72,26 @@ url: https://www.sauravdhyani.com
 author: Saurav Dhyani
 mvp: true
 full_text: false
-item_count: 29
+item_count: 32
 footprint:
   systems:
     - id: development
-      weight: 27
+      weight: 29
     - id: platform
-      weight: 19
+      weight: 21
     - id: administration
-      weight: 14
+      weight: 18
     - id: finance
       weight: 10
     - id: copilot
-      weight: 5
+      weight: 7
     - id: integration
       weight: 4
   topics:
     - id: al development
       weight: 11
+    - id: configuration
+      weight: 4
     - id: automation
       weight: 3
     - id: business central 2026
@@ -98,8 +103,6 @@ footprint:
     - id: bc28
       weight: 2
     - id: compiler warnings
-      weight: 2
-    - id: configuration
       weight: 2
     - id: data model
       weight: 2
@@ -132,12 +135,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-09-04"
-last_item: "2026-10-14"
+last_item: "2026-10-15"
 ---
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 29 posts in the knowledge base, 2025-09-04 to 2026-10-14, mostly about development, platform, administration.
+> Saurav Dhyani (MVP): 32 posts in the knowledge base, 2025-09-04 to 2026-10-15, mostly about development, platform, administration.
 
 [https://www.sauravdhyani.com](https://www.sauravdhyani.com) · blog · tier community
 
@@ -145,14 +148,14 @@ last_item: "2026-10-14"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (27) | al development (11) | table General Journal Templates (2) |
-| platform (19) | automation (3) | table General Ledger Setup (2) |
-| administration (14) | business central 2026 (3) | table User Setup (2) |
-| finance (10) | extensions (3) | codeunit No. Series (1) |
-| copilot (5) | github copilot (3) | codeunit No. Series - Impl. (1) |
-| integration (4) | bc28 (2) | interface INotification (1) |
-|  | compiler warnings (2) | other app.json (1) |
-|  | configuration (2) | other copilot-instructions.md (1) |
+| development (29) | al development (11) | table General Journal Templates (2) |
+| platform (21) | configuration (4) | table General Ledger Setup (2) |
+| administration (18) | automation (3) | table User Setup (2) |
+| finance (10) | business central 2026 (3) | codeunit No. Series (1) |
+| copilot (7) | extensions (3) | codeunit No. Series - Impl. (1) |
+| integration (4) | github copilot (3) | interface INotification (1) |
+|  | bc28 (2) | other app.json (1) |
+|  | compiler warnings (2) | other copilot-instructions.md (1) |
 |  | data model (2) | other File.Download (1) |
 |  | database performance (2) | other File.View (1) |
 |  |  | other File.ViewFromStream (1) |
@@ -166,11 +169,14 @@ Items per quarter, oldest first:
 - 2026-Q1: * 1
 - 2026-Q2: ****** 6
 - 2026-Q3: ************ 12
-- 2026-Q4: ********* 9
+- 2026-Q4: ************ 12
 
 ## Most recent
 
+- [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (2026-10-15)
 - [Restrict Global Symbol Downloads to a Minor Version in Business Central 2026 Release Wave 2](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6.md) (2026-10-14)
+- [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (2026-10-13)
+- [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (2026-10-12)
 - [Business Central 29: How Many Fields Can a Table Really Have?](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md) (2026-10-09)
 - [How to Migrate Business Central Table Fields from Integer to BigInteger.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (2026-10-08)
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (2026-10-07)
@@ -187,8 +193,5 @@ Items per quarter, oldest first:
 - [AI-Part1: what-is-GitHub-copilot-in-vscode-business-central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b.md) (2026-08-13)
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (2026-07-29)
 - [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (2026-07-24)
-- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) (2026-07-22)
-- [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (2026-07-17)
-- [How to Use the Copy Location Feature in Business Central 2026 Wave 1 (BC28)](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2394393585068521549--ec106bbef3.md) (2026-07-15)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

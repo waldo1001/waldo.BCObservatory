@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia/tax
 type: topic
 title: Tax
-summary: "Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries. It answers setup and how-to questions for Australian tax compliance."
+summary: "Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, GST posting, GST on prepayments, settlement reports, and VAT settlement exchange rate adjustment. It answers setup and processing questions for Australian localization."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:58.226Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 77dbd7ce47638ff026fa0dbba64fd72037f02f0500ae804a4c4c52ba1c49cc47
+  input_hash: fd90413700c9f77b0a9994862aa19981d0023640d647133a0ec48c0a098f2e1d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries
@@ -165,26 +165,26 @@ narrative: generated
 
 # Tax
 
-> Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries. It answers setup and how-to questions for Australian tax compliance.
+> Australian tax functionality in Business Central: withholding tax (WHT) setup and settlement, GST posting, GST on prepayments, settlement reports, and VAT settlement exchange rate adjustment. It answers setup and processing questions for Australian localization.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Australia](../australia.md) > Tax · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the tax features of the Australian version of Business Central. It has two main areas: withholding tax (WHT) on payments to vendors, and goods and services tax (GST) posting and reporting for the Business Activity Statement and the Australian Taxation Office.
+This section covers the tax features of the Australian version of Business Central. There are two main areas: withholding tax (WHT), which a company withholds from payments to vendors and remits to the Australian Taxation Office, and goods and services tax (GST), which is tracked for Business Activity Statement reporting to the ATO.
 
-Start with the Australian Tax overview page, which maps the topics. For WHT, read the Withholding Tax description, then set up WHT, WHT posting groups, revenue types and vendors without an ABN. Then calculate and post WHT settlements. For GST, set up GST posting, calculate GST on prepayments, adjust settlement exchange rates for VAT entries, and print the settlement reports.
+Start with the Australian Tax overview, which introduces WHT setup, vendor ABN configuration, revenue types, GST posting, tax settlement and tax invoices. For WHT, the pages follow a setup order: enable WHT and set posting groups, define revenue types, configure vendors without an ABN, then calculate and post settlements. For GST, set up GST posting first, then use the pages on prepayments, settlement reports and settlement exchange rate adjustment for VAT entries.
 
 ## Key points
 
-- WHT is tax withheld from vendor payments; it needs WHT Business Posting Groups and WHT Product Posting Groups with calculation rules, minimum invoice amount, percentage and revenue type.
-- Enabling WHT includes options such as rounding the amount used for WHT calculation, and is used for payments to vendors without an ABN, with the tax remitted to the ATO.
-- Vendors without an ABN are set up using the ABN field, the Foreign Vend field and WHT Posting Setup.
-- Revenue types are configured for WHT calculations for vendors without an ABN.
-- WHT settlement closes open WHT entries and moves amounts to settlement accounts, with rounding adjustments, for tax authority reporting.
-- GST posting setup supports reporting GST paid and received in the Business Activity Statement.
-- GST on prepayments can be calculated in the Australian version.
-- GST settlement reports can be printed for ATO reporting, and settlement exchange rates can be adjusted for VAT entries.
+- WHT is enabled in General Ledger Setup, which also has the Round Payment Amount for Withholding Tax option.
+- WHT Business and Product Posting Groups hold the calculation rule, minimum invoice amount, WHT %, realized WHT type, and payable and adjustment GL accounts.
+- Revenue types are set up to configure withholding rules by revenue classification.
+- Vendors without an ABN can be set up (ABN and Foreign Vend fields) so WHT is calculated automatically by the posting setup rules, with WHT certificate generation.
+- Calculating and posting WHT settlements closes open WHT entries and moves amounts to the settlement account, with a rounding account involved.
+- GST posting setup tracks tax on goods and services for Business Activity Statement reporting to the ATO.
+- Separate pages cover GST calculation on prepayments and printing GST settlement reports.
+- Settlement exchange rates for VAT entries can be adjusted in the Australian version.
 
 ## Learn pages
 

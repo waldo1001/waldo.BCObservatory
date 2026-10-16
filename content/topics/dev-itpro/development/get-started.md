@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.949Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -253,8 +253,6 @@ links:
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26
   guidelines: []
-  changes:
-    - change/al-go/2367
 learn_toc_path:
   - Development
   - Get started
@@ -327,11 +325,10 @@ Three subtopics extend this. ALTool covers command-line compiling and packaging 
 - [Use the AL Outline View in Visual Studio Code](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-outline-view): Use the Visual Studio Code Outline view to browse AL symbols, follow the active cursor, filter symbols, and review problem decorations.
 - [Work with XLIFF Translation Files](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files): Learn how to generate, maintain, and package XLIFF translation files for multilingual Business Central extensions, including namespace-aware IDs.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#2367 Enhance NuGet feed selection to support pre-release packages](../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [How to Set Up a New Business Central Development Project – The 100% Correct Way](../../../posts/stefanmaron-com/https-stefanmaron-com-posts-how-to-set-up-a-new-business-central-development-project--cc8dba8c26.md) (community post): "This guide covers the essential setup steps for creating a new Business Central AL development project"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

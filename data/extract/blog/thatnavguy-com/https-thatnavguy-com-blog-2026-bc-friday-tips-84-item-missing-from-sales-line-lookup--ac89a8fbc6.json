@@ -5,12 +5,11 @@
   "source": "thatnavguy-com",
   "published_at": "2026-10-09T00:00:00.000Z",
   "words": 93,
-  "summary": "Items missing from sales line lookups are often caused by the Blocked or Sales Blocked fields being enabled on the item card, not by AL code issues. Checking these two fields first can quickly resolve lookup filtering problems.",
+  "summary": "When an item does not appear in the Sales Line item lookup, check the Blocked and Sales Blocked fields on the Item card. If either is enabled, standard filtering hides the item from the lookup, so check these fields before debugging AL code.",
   "key_points": [
-    "The Blocked and Sales Blocked fields on the item card filter items out of the standard Sales Line lookup.",
-    "These fields are the first place to check when items don't appear in sales line dropdowns.",
-    "Understanding standard Business Central filtering can prevent unnecessary AL code debugging.",
-    "This is a configuration issue resolved through the item card, not a development problem."
+    "Enabling Blocked or Sales Blocked on the Item card hides the item from the standard Sales Line item lookup.",
+    "Check these two fields first when an item is missing from the lookup.",
+    "Doing so can show that standard BC filtering is the cause before anyone spends time debugging AL code."
   ],
   "systems": [
     "sales",

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/10810",
+  "input_hash": "281b62e5972c165a319f2029f0a8368e871d83e7441051cc8ef98465a56f318b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:25.385Z",
+  "issues": [
+    "The description only says the change potentially fixes a possible deadlock in the line aggregator. 'Comprehensive test suite' and 'test coverage for the deadlock fix' are not supported; the PR only adds one new integration test codeunit.",
+    "The summary wording 'preventing line aggregator issues' is vague."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024672,
+    "changes_in_call": 6
+  }
+}

@@ -8,9 +8,9 @@
   ],
   "summary": "Incorrect calculation of remaining production order component quantities is corrected in the reservation entry logic.",
   "key_points": [
-    "Fixes calculation error for remaining production order component quantities",
-    "Modifies Create Reservation Entry codeunit to properly compute component requirements",
-    "Adds test coverage for production order component tracking scenarios"
+    "Fixes wrong calculation of remaining production order component quantities",
+    "Small change in the Create Reserv. Entry codeunit",
+    "Adds an item tracking test for the scenario"
   ],
   "change_kind": "fix",
   "behavior_change": true,

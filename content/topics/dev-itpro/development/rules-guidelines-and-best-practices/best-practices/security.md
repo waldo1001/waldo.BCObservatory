@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security
 type: topic
 title: Security
-summary: "Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets."
+summary: "Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and the use of Azure Key Vaults to store extension secrets. Answers questions about protecting installations and handling secrets in online and on-premises deployments."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:23:29.082Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 837f23dc32e0a9414e576d2a3ee8054fbac9eb4fe1acfa572671655b932ca054
+  input_hash: a084af5db39daa956fbc9ffad105a0a0fef39fb7285f6e0f2218755c630ae72d
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -73,27 +73,28 @@ narrative: generated
 
 # Security
 
-> Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and how to use Azure Key Vault to store secrets for extensions that call external web services. Answers questions on protecting online and on-premises installations and handling secrets.
+> Security best practices for Business Central development: the layered security model (authentication, authorization, encryption, auditing, change logging) and the use of Azure Key Vaults to store extension secrets. Answers questions about protecting installations and handling secrets in online and on-premises deployments.
 
-Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../../development.md) > [Rules, guidelines, and best practices](../../rules-guidelines-and-best-practices.md) > [Best practices](../best-practices.md) > Security · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section has two pages that cover security from complementary angles. The layered security model page describes the overall approach: how users sign in, how permissions are administered, how data is encrypted, and how auditing and change logs help monitor sensitive fields. It also touches on secure development practices and applies to online and on-premises deployments.
+This section has two pages. The first describes the layered security model in Business Central. It covers how users sign in, how permissions are administered, how data is encrypted, and how auditing and change logging help monitor sensitive fields. It also touches on secure development practices and applies to both online and on-premises deployments.
 
-The Azure Key Vault page is a focused, practical guide for extension developers. It explains how to keep secrets out of code when an extension calls external web services, how to set up key vaults, and how to configure the Business Central service to access them in online and on-premises setups.
+The second page is about Azure Key Vaults. Extensions that call external services with authentication need a safe place for their secrets. A key vault gives centralized, secure storage, and extensions can read secrets from it. The page covers app key vault setup for online and on-premises deployments, secret retrieval, and telemetry for security monitoring.
 
-Start with the layered security model page for the big picture, then move to the Azure Key Vault page when you need to handle secrets in an extension.
+Start with the layered security model page for the overall picture. Then read the Azure Key Vaults page when you build or maintain an extension that calls external web services and needs credentials.
 
 ## Key points
 
-- The layered security model covers authentication, authorization, data encryption, auditing, and change logging.
-- Authentication topics include user sign-in methods such as multifactor authentication.
-- Permission administration and sensitive field monitoring through the change log and audit trails are part of the model.
-- Azure Key Vault stores secrets for extensions that call external web services.
-- Key vault setup covers an app key vault, support for multiple key vaults, and access control.
-- Key vault configuration differs between online and on-premises deployments, as the Business Central service must be set up to access the vault.
-- Telemetry monitoring and publisher validation are listed as features of the key vault integration.
+- Security is layered: authentication, authorization, data encryption, auditing, and change logging.
+- Authentication includes multifactor authentication for user sign-in.
+- User permissions are administered as part of the authorization layer.
+- The change log and audit trails support monitoring of sensitive fields.
+- Azure Key Vaults give extensions centralized, secure storage for secrets used in authenticated web service calls.
+- App key vault setup is described separately for online and on-premises deployments.
+- Extensions retrieve secrets from the key vault instead of holding them themselves.
+- App key vault telemetry supports security monitoring.
 
 ## Learn pages
 

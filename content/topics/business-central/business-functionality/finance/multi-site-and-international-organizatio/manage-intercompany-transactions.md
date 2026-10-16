@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/multi-site-and-international-organizatio/manage-intercompany-transactions
 type: topic
 title: Manage intercompany transactions
-summary: "Intercompany transactions in Business Central: setting up partners, shared chart of accounts and dimensions, posting intercompany documents and journals, handling the inbox and outbox, and allocating purchase costs to partner companies. It answers setup, posting and processing questions for multi-entity organizations."
+summary: Intercompany transactions in Business Central cover how companies with multiple legal entities set up partners, post documents and journals to each other, process the intercompany inbox and outbox, and allocate purchase costs. It answers setup, posting, and processing questions.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:51.359Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e0b0d4f0a109b8074d79a4fc5c8d8d1017f76a3744451870290abaac65efa865
+  input_hash: c70da29037d2be8ac330aef2461cc25a691b6b8ff5b2bf381912ae6825fe3338
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs
@@ -170,28 +170,26 @@ narrative: generated
 
 # Manage intercompany transactions
 
-> Intercompany transactions in Business Central: setting up partners, shared chart of accounts and dimensions, posting intercompany documents and journals, handling the inbox and outbox, and allocating purchase costs to partner companies. It answers setup, posting and processing questions for multi-entity organizations.
+> Intercompany transactions in Business Central cover how companies with multiple legal entities set up partners, post documents and journals to each other, process the intercompany inbox and outbox, and allocate purchase costs. It answers setup, posting, and processing questions.
 
-Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Finance](../../finance.md) > [Multi-site and international organizations](../multi-site-and-international-organizatio.md) > Manage intercompany transactions · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area is for organizations with several legal entities that trade with each other. Intercompany features let one company post a sales or purchase document or a general journal line and have the matching transaction created in the partner company without reentering data.
+Intercompany transactions let businesses with several legal entities exchange sales and purchase documents and general journal entries with partner companies without re-entering data. The section covers setup, posting, inbox and outbox handling, and cost allocation.
 
-The pages follow the workflow. The overview page introduces the concepts. The setup page covers the synchronization partner, the intercompany chart of accounts and dimensions, account mapping, and partner management. The posting page covers intercompany sales orders, purchase orders, and general journals. The inbox and outbox page covers accepting, rejecting, and recreating transactions. The cost allocation page covers sharing purchase costs between partners.
-
-Start with the overview, then do the setup page before posting anything. Use the inbox and outbox page when transactions need review or fixing, and the allocation page when costs must be split across partner companies.
+Start with the setup page. It covers the synchronization partner, the shared intercompany chart of accounts and dimensions, account mapping between companies, and managing intercompany partners. Then read the posting page, which explains how documents and journals move through the outbox and inbox. The inbox and outbox page covers accepting, rejecting and recreating transactions. The cost allocation page covers sharing purchase costs between partners, including VAT considerations.
 
 ## Key points
 
 - Setup involves a synchronization partner, an intercompany chart of accounts, intercompany dimensions, and account mapping between companies.
 - Setup options include Auto Accept Transactions, Auto Send Transactions, and a Default IC General Journal.
-- Posting intercompany sales orders, purchase orders, and general journals creates corresponding transactions in partner companies via the outbox.
-- Intercompany posting uses intercompany partners, G/L accounts, and bank accounts.
-- The inbox and outbox let you accept, reject, or recreate transactions, and import into the inbox.
-- Costs can be allocated to partners through general journals or purchase documents, using IC partner codes.
+- Documents and journals are sent through the intercompany outbox and arrive in the partner's inbox, for example with the Send IC Sales Order action.
+- Incoming transactions can be accepted, rejected, or recreated, and can be accepted automatically.
+- Intercompany partner codes identify the partner on transactions.
+- Bank-to-bank transactions and automatic received transactions are covered in the posting page, which lists 2022 release wave 1.
+- Purchase costs can be allocated to intercompany partners through general journals or purchase documents.
 - Cost allocation needs attention to VAT business posting groups and VAT calculation.
-- The posting page references 2022 release wave 1.
 
 ## Learn pages
 

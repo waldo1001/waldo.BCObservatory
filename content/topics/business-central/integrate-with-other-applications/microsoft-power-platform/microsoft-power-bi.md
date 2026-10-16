@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:34.712Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,8 +93,7 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
   videos: []
-  posts:
-    - post/thinkaboutit-be/7226
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -107,7 +106,7 @@ coverage:
   learn: 8
   code: 3
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 6316
@@ -152,12 +151,6 @@ For everyday use, one page explains the Business Central apps in Power BI for CR
 - [Power BI integration component and architecture overview for Business Central\| Microsoft Docs](https://learn.microsoft.com/dynamics365/business-central/admin-powerbi-overview): Learn about the different aspects of Power BI integration with Business Central.
 - [Use the Business Central apps in Power BI](https://learn.microsoft.com/dynamics365/business-central/across-powerbi-business-central-apps): Easily gain insights, business intelligence, and KPIs from your Business Central data using the Business Central apps for Power BI.
 - [Working with Power BI reports in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-working-with-powerbi): Get insight, business intelligence, and key performance indicators from your Business Central data with Power BI.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "Power BI Monitor extension enables Business Central users to manage Power BI resources directly"
 
 ## Business Central pages and reports
 

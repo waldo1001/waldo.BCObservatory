@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 01b4c4840fa73b5695c8af6c4cb16a15931585bd09931875226090c874ceec0a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al
+    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al
     title: src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al (releases/29.x)
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Control add-in "OAuthAddIn" in ClientAddIns (System.Security.Authentication). 1 public procedures. Introduced in BC29, still in BC30.
 
-ClientAddIns · System.Security.Authentication · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al) · facts from BC29
+ClientAddIns · System.Security.Authentication · BC29-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/ClientAddIns/app/src/oauth/OAuthAddIn.ControlAddin.al) · facts from BC29
 
 ## Procedures
 

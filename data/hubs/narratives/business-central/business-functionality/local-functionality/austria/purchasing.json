@@ -1,35 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/austria/purchasing",
-  "input_hash": "a7545529b10028e5a3e041c94d1df3d62adad8ba96f82a7d4562068807bbec9c",
-  "summary": "Purchasing in the Austrian version of Business Central covers delivery reminders for overdue vendor deliveries. It answers questions about setting up reminder terms, levels, and text, assigning codes to vendors, generating or creating reminders, and printing test reports before issuing.",
-  "overview": "The Austria purchasing section is about one process: delivery reminders. These notify vendors about overdue deliveries. The pages cover setup, creation, review, and issuing.\n\nStart with the overview page, \"Delivery reminders in the Austrian version\". It links to the other procedures. For setup, configure reminder terms, levels, and custom text. Then assign delivery reminder codes to vendors.\n\nOnce setup is done, create reminders in one of two ways: generate them automatically, or create them manually. You can print test reports to review and modify reminders before you issue them to vendors.",
+  "input_hash": "b20b5414b991d9fbbb3ddd86b16fb54f16e8fbacbbbc46c2793f949e5b284c79",
+  "summary": "Purchasing in the Austrian version of Business Central covers delivery reminders for late vendor deliveries. It answers questions on setting up terms, levels, text and vendor codes, and on creating, generating, testing and issuing reminders.",
+  "overview": "The Austrian purchasing section is about delivery reminders, which notify vendors of overdue deliveries and help track late supplier deliveries. The reminders use configurable terms, levels and text, and each vendor gets a delivery reminder code.\n\nThe pages follow the working order. Start with the overview page, \"Delivery reminders in the Austrian version\", then \"How to Set Up Delivery Reminders [AT]\". Setup is detailed in \"Delivery reminder terms, levels, and text [AT]\" and \"Assign Delivery Reminder Codes to Vendors [AT]\".\n\nAfter setup, you can create reminders manually or generate them. You can also print test reports to preview, filter and modify reminders before you issue them.",
   "key_points": [
-    "Delivery reminders track and manage overdue vendor deliveries in the Austrian version.",
-    "Setup includes delivery reminder terms, reminder levels, and custom reminder text.",
-    "Delivery reminder codes are assigned to vendor records so the vendor can be used in the reminder process.",
-    "Reminders can be generated automatically or created manually.",
-    "Test reports let you review and modify reminders before issuing them to vendors.",
-    "The overview page links to setup, generation, manual creation, terms and levels, issuance, and test reports."
+    "Delivery reminders notify vendors of overdue deliveries in the Austrian version.",
+    "Setup covers delivery reminder terms, levels and text, which define the structure and messaging of notifications.",
+    "Delivery reminder codes are assigned to vendors to track vendor performance and manage delivery expectations.",
+    "Reminders can be generated after setup and vendor code assignment is done.",
+    "Reminders can also be created manually.",
+    "Test reports let you preview, filter and modify reminders before issuing them.",
+    "Recommended order: overview, setup, vendor code assignment, create or generate reminders, test report."
   ],
   "members_used": 7,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:33.950Z",
+  "at": "2026-10-16T01:17:51.222Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010319
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:21:55.042Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says to assign vendor codes 'then', after setting up terms, levels and text. The sources don't give an order, but the sequence is reasonable.",
-      "Key point 3 says the codes are assigned 'so the vendor can be used in the reminder process'. The source says the codes are 'for use in the delivery reminder process'. The meaning is close enough."
-    ],
-    "input_hash": "a7545529b10028e5a3e041c94d1df3d62adad8ba96f82a7d4562068807bbec9c",
-    "cost_usd": 0.0273032
+    "cost_usd": 0.011342999999999999
   }
 }

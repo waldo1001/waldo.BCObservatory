@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:32.124Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,7 @@ links:
   localizations: []
   videos:
     - video/BlkW7VC52c0
+    - video/mXvKs6X1DNk
   posts: []
   guidelines: []
 learn_toc_path:
@@ -60,7 +61,7 @@ children: []
 coverage:
   learn: 2
   code: 6
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -109,6 +110,7 @@ Start with the setup page if synchronization is not yet configured. Use the mana
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Copy Data Between Companies in Business Central (2 Built-In Methods You're Probably Missing)](../../../videos/BlkW7VC52c0.md) (video): "copying data between companies; master data management; company synchronization"
+- [What's new: Cross-environment Master Data Management (2026 release wave 2)](../../../videos/mXvKs6X1DNk.md) (video): "Cross-environment Master Data Management; cross-environment synchronization; multi-tenant"
 
 ## Business Central pages and reports
 

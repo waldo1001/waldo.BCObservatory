@@ -1,0 +1,21 @@
+{
+  "item_id": "blog/demiliani-com/17492",
+  "input_hash": "39b1fe4fb54cfaf3d145eb12ceb7cf300e18e28f4a8f17e0313b5834175f40c5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:16:48.911Z",
+  "issues": [
+    "The summary leaves out that service tag support is a public preview announced in October 2026, so it reads as generally available."
+  ],
+  "applied": [
+    "summary rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.034904,
+    "posts_in_call": 4
+  }
+}

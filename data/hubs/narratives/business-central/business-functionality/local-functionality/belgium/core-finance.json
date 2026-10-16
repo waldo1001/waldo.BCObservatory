@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/belgium/core-finance",
-  "input_hash": "9780f6080ce495f612e0388e13ac2f40843d4348d72ba54270a31fde3cdca495",
-  "summary": "Core finance for the Belgian version of Business Central covers three local tasks: applying and unapplying general ledger entries, creating financial journals for CODA bank statements, and exporting general ledger balances to ACCON Plus. It answers how-to questions about these Belgium-specific finance procedures.",
-  "overview": "This section holds Belgium-specific finance procedures in Business Central. It has no subtopics, only three standalone pages, each for a separate task.\n\nOne page covers applying and unapplying general ledger entries. Another explains how to set up financial journals that record bank account transactions and reconcile starting and ending balances, which is used when handling CODA statements. The third describes the Link to Accon report, which exports general ledger account balances to a file that ACCON Plus can read for the annual income statement.\n\nStart with the page that matches your task. For bank statement processing, begin with the financial journals page. For year-end reporting, go to the Accon export page.",
+  "input_hash": "6ae51220c150480e4f430165a38b8d3434e813818c1cf413dbcb99c718eb1311",
+  "summary": "Core finance for the Belgian version of Business Central covers three local features: applying and unapplying general ledger entries, creating financial journals for bank transactions, and exporting GL balances to ACCON Plus. It answers questions about Belgium-specific finance tasks.",
+  "overview": "This section holds Belgium-specific core finance pages for Business Central. It has no subtopics, so all content sits in three standalone pages, each describing one local feature.\n\nThe pages cover separate tasks. One explains how to apply and unapply general ledger entries to match and reconcile them. One explains how to create financial journals to register bank account transactions, with automatic balance checks. One explains the Link to Accon report, which exports GL account balances to a file for ACCON Plus.\n\nStart with the page that matches your task. For bank reconciliation work, read the financial journals page. For year-end reporting with ACCON Plus, read the export page.",
   "key_points": [
-    "Apply and Unapply General Ledger Entries [BE] describes how to apply and unapply general ledger entries in the Belgian version.",
-    "Financial journals record bank account transactions and are used to handle CODA statements in Belgium.",
-    "Financial journal setup includes journal type selection, balancing account configuration, and starting and ending balances.",
-    "Financial journals calculate the difference between balances automatically.",
-    "The Link to Accon report exports general ledger account balances to a file compatible with ACCON Plus.",
-    "The Accon export supports reporting currency selection and period filtering.",
-    "The ACCON Plus export is meant for generating the annual income statement for Belgian accounting compliance."
+    "Apply and Unapply General Ledger Entries [BE] covers matching and reconciling GL entries, and reversing that matching.",
+    "Financial journals [BE] use a financial journal type to register bank account transactions.",
+    "Financial journals balance against a bank account using a starting balance and an ending balance entry.",
+    "The difference between the balances is calculated automatically.",
+    "The Link to Accon report exports general ledger account balances to a file.",
+    "The exported file is imported into ACCON Plus to generate annual income statements.",
+    "The export has a Show Amounts in Add. Reporting Currency option.",
+    "The section has no subtopics, only three pages."
   ],
   "members_used": 3,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:39.725Z",
+  "at": "2026-10-16T01:17:58.412Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.009373
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:27:18.438Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the overview's 'year-end reporting' paraphrases 'annual income statement generation'. It's a reasonable reading but not stated word for word.",
-      "Minor: the source says CODA statements, and the narrative calls them 'CODA bank statements'. That fits the context of bank account transactions but adds a small interpretation."
-    ],
-    "input_hash": "9780f6080ce495f612e0388e13ac2f40843d4348d72ba54270a31fde3cdca495",
-    "cost_usd": 0.0203112
+    "cost_usd": 0.009159
   }
 }

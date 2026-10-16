@@ -2,33 +2,33 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/banking-and-payments
 type: topic
 title: Banking and Payments
-summary: "Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use."
+summary: "Czech banking and payments localization in Business Central: the Banking Documents extension for payment orders and bank statements, and the Cash Desk extension for cash receipts, withdrawals, reconciliation and inventory. It answers questions about what each extension does and which features it offers."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:46.199Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0946658ef0a676f7e6e27e6055790c444bce33221d2580620f3322b437380647
+  input_hash: a3f0810429fc82f59a35db68d3b0ae01f0e0f6b5bceb34b22e3551d30ea13021
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz
     title: Banking Documents Localization for Czech (Extension)
-    date: "2026-03-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz
     title: Cash Desk Localization for Czech (Extension)
-    date: "2025-09-29"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -67,28 +67,26 @@ narrative: generated
 
 # Banking and Payments
 
-> Banking and Payments for Czech Republic in Business Central covers two localization extensions: banking documents (payment orders, bank statements, bank files) and cash desk (cash receipts and withdrawals). It answers questions about Czech-specific bank and cash handling setup and use.
+> Czech banking and payments localization in Business Central: the Banking Documents extension for payment orders and bank statements, and the Cash Desk extension for cash receipts, withdrawals, reconciliation and inventory. It answers questions about what each extension does and which features it offers.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Banking and Payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the Czech localization of banking and payment functionality in Business Central. It has no subtopics and consists of two pages, each describing one extension.
+This section covers two localization extensions for Czech companies. Banking Documents Localization handles payment orders and bank statements in line with Czech banking practices, across multiple bank accounts and currencies. Cash Desk Localization handles physical cash, with its own number series and users, to meet Czech legislation.
 
-The Banking Documents Localization extension handles payment orders and bank statements. It supports creating and exporting payment orders, importing and creating bank statements, rolling statements over to journals, pairing payment entries, importing and exporting bank files, and managing bank accounts, including the Keep Description field for keeping descriptions across currencies. The Cash Desk Localization extension handles physical cash. It covers cash desk setup, number series, receipt and withdrawal documents, user authorization, cash desk cases (events), inventory management, and applying payments to customer and vendor entries.
-
-Start with the page that matches your process: banking documents for bank-based payments and statements, cash desk for cash operations.
+The two pages are independent and have no subtopics. Start with the Banking Documents page if your work is bank-based payments and statement processing. Start with the Cash Desk page if you handle cash receipts and withdrawals, reconciliation, or cash inventory.
 
 ## Key points
 
-- Banking documents extension supports payment order creation and export.
-- Bank statements can be imported and created, and rolled over to journals.
-- Payment entries can be paired, and bank files imported and exported.
-- The Keep Description field preserves descriptions on bank accounts across currencies.
-- Cash desk extension supports physical cash receipts and withdrawals.
-- Cash desks are defined and set up with number series for their documents.
-- Cash desk user authorization controls who can work with a cash desk.
-- Cash desk cases (events) and inventory management are covered, and payments can be applied to customer and vendor entries.
+- Banking Documents extension supports creating and exporting payment orders.
+- Bank statements can be imported or created, then rolled over into the payment journal.
+- Entries can be paired in the payment journal, and a Keep Description field is available.
+- Banking Documents supports multiple bank accounts and multiple currencies.
+- Cash Desk setup includes separate number series and cash desk users.
+- Cash Desk uses receipt and withdrawal cash documents, and Cash Desk cases serve as templates.
+- Cash Desk payments can be applied to customer and vendor ledger entries.
+- Cash Desk offers reconciliation with a journal preview and a cash desk inventory.
 
 ## Learn pages
 

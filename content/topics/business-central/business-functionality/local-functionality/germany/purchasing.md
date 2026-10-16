@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:09.160Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,56 +21,56 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-assign-delivery-reminder-codes-to-vendors
     title: Assign delivery reminder codes to vendors [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/delivery-reminders
     title: Delivery Reminders [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-create-delivery-reminders-manually
     title: How to Create Delivery Reminders Manually [DE]
-    date: "2025-03-10"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-generate-delivery-reminders
     title: How to Generate Delivery Reminders [DE]
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-issue-delivery-reminders
     title: Issue delivery reminders in the German version
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders
     title: Print test reports for delivery reminders [DE]
-    date: "2025-03-11"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminder-terms-levels-and-text
     title: Set Up Delivery Reminder Terms, Levels, and Text [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-set-up-delivery-reminders
     title: Set Up Delivery Reminders [DE]
-    date: "2025-03-12"
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null

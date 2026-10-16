@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,8 @@ links:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
   videos:
+    - video/9i6hVsw9x_U
+    - video/f_i4_BRz-oA
     - video/px1MOyXfmnQ
   posts:
     - post/aardvarklabs-blog/3998
@@ -92,7 +94,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 1
+  video: 3
   blog: 2
   guideline: 0
 bc_forms: []
@@ -139,8 +141,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now finds project and app paths that contain umlauts"
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
-- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "deploying .app files, monitoring installation progress, handling failures, and uninstalling extensions"
+- [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Install a .app through the pteInstall endpoint with a multipart form request carrying the file"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
+- [AppSource App Previews](../../../../videos/9i6hVsw9x_U.md) (video): "Preview Key for AppSource Apps; Preview Version Installation URL"
+- [Microsoft presents: Cloud Migration from any SQL](../../../../videos/f_i4_BRz-oA.md) (video): "Extensible Migration Entities; Entity extension patterns for migration; Custom migration provider interface"
 - [What's New: AL-Go for GitHub on Delivery and Deployment (2025 release wave 1)](../../../../videos/px1MOyXfmnQ.md) (video): "Dependency Install Mode; Test Apps Deployment; Pull Request Artifact Deployment"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

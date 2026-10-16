@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:12.080Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,56 +21,56 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips
     title: Archive Payment Slips [FR]
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips
     title: Create Payment Slips [FR]
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters
     title: Export or Import Payment Management Setup Parameters
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments
     title: How to Export Payments
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-payment-slips
     title: How to Post Payment Slips [FR]
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management
     title: Payment Management [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-addresses
     title: Set Up Payment Addresses [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes
     title: Set Up Payment Classes [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -159,7 +159,7 @@ Start with the Payment Management overview for the concepts. Then set up payment
 ## Learn pages
 
 - [Archive Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips): Learn how to separate a payment slip from the active payment slips by archiving it in the French version of Business Central.
-- [Create Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips): Learn ho to create payments slips to manage vendor and customer payments in the French version of Business Central.
+- [Create Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-create-payment-slips): Learn how to create payment slips to manage vendor and customer payments in the French version of Business Central.
 - [Export or Import Payment Management Setup Parameters](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters): Learn how to export or import payment management setup parameters to an external disk, enabling their reuse for another company with similar requirements.
 - [How to Export Payments](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-payments): Use the Payment Management module to export your payments electronically via a text file or XMLport.
 - [How to Post Payment Slips [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-payment-slips): Learn the steps to post payment slips to complete payment transactions and create the associated financial data.

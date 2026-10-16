@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 219142c455b7b6a5f0b4e0ebac3d32c123104c649cd4a18f51d339184a863470
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/ISalesLineProvider.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/ISalesLineProvider.Interface.al
     title: src/Apps/W1/EDocument/app/src/Processing/Import/Sales/ISalesLineProvider.Interface.al (releases/29.x)
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "ISalesLineProvider" in EDocument (Microsoft.eServices.EDocument.Processing.Import.Sales). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Import.Sales · BC29-30 · [source at 866a524f](https://github.com/microsoft/BCApps/blob/866a524fcaefacda4fb3a7b1a44daebcdacc377b/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/ISalesLineProvider.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Import.Sales · BC29-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/EDocument/app/src/Processing/Import/Sales/ISalesLineProvider.Interface.al) · facts from BC29
 
 ## Procedures
 

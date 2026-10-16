@@ -6,12 +6,11 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "VAT product posting group behavior changed since Business Central 28.4 when applied to sales lines, and this fix addresses the issue across multiple localization layers.",
+  "summary": "Fixes a change in Sales Line behaviour around the VAT Prod. field that has been observed since Business Central 28.4. The same one-line change is made to table 37 Sales Line in 12 layers, and new tests are added for documents with prices including VAT.",
   "key_points": [
-    "Fixes VAT product posting group behavior regression",
-    "Applied to Sales Line table across all localization versions",
-    "Includes test coverage for prices including VAT scenarios",
-    "Changes synchronized across 11 localization layers"
+    "Fixes a regression in Sales Line behaviour related to the VAT Prod. field, seen since version 28.4",
+    "The same one-line change is applied to table 37 Sales Line in 12 layers",
+    "Adds tests to the ERM Prices Incl. VAT Doc test codeunits for W1 and ES"
   ],
   "change_kind": "fix",
   "behavior_change": true,

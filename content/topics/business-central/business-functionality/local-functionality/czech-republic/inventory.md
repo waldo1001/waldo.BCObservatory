@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/czech-republic/inventory
 type: topic
 title: Inventory
-summary: "Czech local inventory functionality in Business Central: extra fields on ledger and value entries, physical inventory and counting documents, movement templates, SKU templates, rounding accounts, transfer order posting groups, and inventory reports. It answers questions about how the Czech version differs from base inventory handling."
+summary: "Czech local inventory functionality in Business Central: inventory movement templates, physical inventory handling, posting groups, rounding and reconciliation accounts, SKU templates, and legally compliant inventory documents. It answers setup and posting questions for Czech companies."
 tier: official
 language: en
 system: inventory
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:33.023Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c68db43e27b763394da5fc8be1ffd6b01788355b5bdb6a6fb4124b1ecdd53daa
+  input_hash: 37480cdc21d0d32bce737532a40f13c2b13572639dc3049f287a0a21f19783d1
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-use-add-fields-item-entries
@@ -84,7 +84,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates
     title: Czech local templates for inventory operations – Stock keeping unit templates
-    date: "2025-06-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -145,28 +145,28 @@ narrative: generated
 
 # Inventory
 
-> Czech local inventory functionality in Business Central: extra fields on ledger and value entries, physical inventory and counting documents, movement templates, SKU templates, rounding accounts, transfer order posting groups, and inventory reports. It answers questions about how the Czech version differs from base inventory handling.
+> Czech local inventory functionality in Business Central: inventory movement templates, physical inventory handling, posting groups, rounding and reconciliation accounts, SKU templates, and legally compliant inventory documents. It answers setup and posting questions for Czech companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Czech Republic](../czech-republic.md) > Inventory · tier official · system inventory · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the Czech-specific additions to inventory in Business Central. The pages cover posting and validation rules (time sequence check on output, rounding account, posting groups in transfer orders, Inventory - G/L reconciliation with rounding and WIP accounts), setup templates (inventory movement templates, stock keeping unit templates), SKU-related settings (Gen. Prod. Posting Group from SKU, Skip Update SKU on Posting), and documents and reports for Czech legal layouts (inventory operations documents, inventory counting documents).
+This section collects the Czech-specific additions to inventory. They fall into a few groups: posting setup (inventory movement templates, posting groups in transfer orders, Gen. Prod. Posting Group from SKU, the rounding account), physical inventory (advanced features for deficits and surpluses, counting documents), and reports and checks (inventory operations documents, G/L reconciliation enhancements, time sequence check of output).
 
-There are no subtopics. Pick the page that matches the task. For physical inventory, read the advanced physical inventory features, the movement templates and the counting documents pages together. For posting accounts, read the rounding account, G/L reconciliation and transfer order posting group pages.
+Smaller items add fields or control behavior: extra fields on item ledger entries and value entries, SKU templates that apply settings when new SKUs are created, and a setting to skip the automatic update of Last Direct Cost on the SKU card during posting.
 
-A good starting point is the page on additional fields on item ledger entries and value entries. Then move to the page for the process you are configuring.
+A good starting point is Inventory Movement Templates, since the physical inventory features and several posting setups rely on templates and Gen. Bus. Posting Groups. After that, read the page for the specific process you need, such as transfer orders, physical inventory or rounding.
 
 ## Key points
 
-- Item ledger entries and value entries carry additional fields in the Czech version.
-- A time sequence check on inventory output stops items from being delivered with a posting date earlier than the receipt posting date.
-- Advanced physical inventory separates the accounting of deficits and surpluses using warehouse net change templates, and supports line-break posting for inventory journal lines.
-- Inventory movement templates define custom transaction types and G/L posting accounts that are copied automatically to item journal lines.
-- The rounding account feature posts rounded costs to a separate G/L account instead of the inventory adjustment account.
-- Transfer orders can use Gen. Bus. Post. Groups for Ship and Receive postings, set on the Transfer Route, to use a different Inventory Adjmt. Account.
-- Stock keeping unit templates by item category and location copy replenishment and reordering parameters to new SKU cards.
-- Skip Update SKU on Posting turns off the automatic update of Last Direct Cost on Stockkeeping Unit Cards.
+- Inventory movement templates assign inventory adjustment accounts and Gen. Bus. Posting Groups per transaction type, and apply to item journal, job journal and physical inventory counting posting.
+- Advanced physical inventory features account for deficits and surpluses separately, using default or line-level movement templates for positive and negative adjustments.
+- Transfer orders use Gen. Bus. Post. Group Ship and Receive on the Transfer Route, and a default group for direct transfers set in Inventory Setup.
+- The Use Gen. Prod. Posting Group from Stockkeeping Unit toggle allows different G/L accounts by location or variant.
+- The rounding account (Invt. Rounding Adj. Account) receives rounded inventory costs instead of the standard inventory adjustment account.
+- Inventory Document and Posted Inventory Document reports cover write-down, reclassification and revaluation; a counting document report prints posted physical counts.
+- The Date Order Inventory Change check stops outbound movements from being posted with dates earlier than their related receipts.
+- Skip Update SKU on Posting in Inventory Setup disables the automatic update of Last Direct Cost on the SKU card.
 
 ## Learn pages
 

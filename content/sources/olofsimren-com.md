@@ -2,7 +2,7 @@
 id: source/olofsimren-com
 type: source
 title: Olof Simren
-summary: "Olof Simren: 11 posts in the knowledge base, 2025-07-29 to 2026-10-09, mostly about manufacturing, administration, inventory."
+summary: "Olof Simren: 11 posts in the knowledge base, 2025-07-29 to 2026-10-09, mostly about manufacturing, administration, copilot."
 tier: community
 language: en
 tags:
@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 38ad346002d693d2e9b86730a9f1952a07745b7117ccbc94188eab2c035f042f
@@ -58,9 +58,9 @@ footprint:
       weight: 11
     - id: administration
       weight: 6
-    - id: inventory
-      weight: 6
     - id: copilot
+      weight: 5
+    - id: inventory
       weight: 5
     - id: finance
       weight: 3
@@ -119,7 +119,7 @@ last_item: "2026-10-09"
 
 # Olof Simren
 
-> Olof Simren: 11 posts in the knowledge base, 2025-07-29 to 2026-10-09, mostly about manufacturing, administration, inventory.
+> Olof Simren: 11 posts in the knowledge base, 2025-07-29 to 2026-10-09, mostly about manufacturing, administration, copilot.
 
 [https://www.olofsimren.com](https://www.olofsimren.com) · blog · tier community
 
@@ -129,8 +129,8 @@ last_item: "2026-10-09"
 |---|---|---|
 | manufacturing (11) | azure openai (2) | codeunit 50100 (1) |
 | administration (6) | compliance (2) | codeunit 70666591 (1) |
-| inventory (6) | configuration (2) | other Capacity Ledger Entries (1) |
-| copilot (5) | copilot (2) | other Copilot Inventory Queries extension (1) |
+| copilot (5) | configuration (2) | other Capacity Ledger Entries (1) |
+| inventory (5) | copilot (2) | other Copilot Inventory Queries extension (1) |
 | finance (3) | mrp (2) | other Finished Production Orders (1) |
 | development (2) | abc classification (1) | other Item Availability by Event (1) |
 |  | access control (1) | other Item Ledger Entries (1) |

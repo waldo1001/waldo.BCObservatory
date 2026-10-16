@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:26.785Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,91 +21,93 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes
     title: Automatic account codes in the Finnish version
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland
     title: Electronic banking in Finland
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/finland-local-functionality
     title: Finland Local Functionality
-    date: "2025-12-30"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-generate-payment-files
     title: Generate Payment Files (FI)
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts
     title: How to Disregard Payment Discounts
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports
     title: How to Print Finnish Intrastat Reports
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices
     title: How to print VAT information on invoices [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences
     title: Posting Depreciation Differences [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments
     title: SEPA credit transfer payments (FI)
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups
     title: Set Up Automatic Account Posting Groups [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-bank-reference-files
     title: Set Up Bank Reference Files (FI)
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland
     title: VAT-VIES declaration in Finland
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
 links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/finland-local-functionality
-  objects: []
+  objects:
+    - object/page/4850
+    - object/page/4852
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality
@@ -128,13 +130,13 @@ children:
   - topic/business-central/business-functionality/local-functionality/finland/core-finance
 coverage:
   learn: 12
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
-  - 11207
-  - 11208
+  - 4850
+  - 4852
   - 32000000
   - 32000001
   - 32000002
@@ -184,6 +186,9 @@ Start with the landing page to see the scope, then go to the subtopic that match
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-Learn also names 8 objects with no object page: page/11207, page/11208, page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006.
+- [Page 4850 "Automatic Account Header"](../../../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../objects/table/4850.md) · via [Core finance](finland/core-finance.md)
+- [Page 4852 "Automatic Account List"](../../../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../objects/table/4850.md) · via [Core finance](finland/core-finance.md)
+
+Learn also names 6 objects with no object page: page/32000000, page/32000001, page/32000002, page/32000004, page/32000005, page/32000006.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

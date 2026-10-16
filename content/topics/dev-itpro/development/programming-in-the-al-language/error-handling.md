@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:03.133Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -146,7 +146,8 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/error-telemetry
     - topic/dev-itpro/development/programming-in-the-al-language/error-handling/al-language-reference-errors
   localizations: []
-  videos: []
+  videos:
+    - video/qNHUj3ZEang
   posts:
     - post/gerardorenteria-blog/12238
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f
@@ -167,7 +168,7 @@ children:
 coverage:
   learn: 16
   code: 0
-  video: 0
+  video: 1
   blog: 3
   guideline: 0
 bc_forms: []
@@ -223,5 +224,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [🔧 Transforming BC Error Handling with Smart Recommendations 📝](../../../../posts/gerardorenteria-blog/12238.md) (community post): "Event Subscribers intercept Business Central errors, validate tag matches, and invoke the ErrorMessageFix interface"
 - [How to Write Error Messages That Help](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-how-to-write-error-messages-that-help--6e1cc8407f.md) (community post): "Error messages significantly impact user experience in enterprise software"
 - [BC Friday Tips #77 TestField Show Record Action](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-77-testfield-show-record-action--16034e644a.md) (community post): "TestField automatically adds a Show Record button to error dialogs"
+- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "Exception handling; collectible errors; error behavior; REST Client Exception"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

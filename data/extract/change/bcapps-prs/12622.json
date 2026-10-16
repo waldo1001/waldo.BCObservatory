@@ -8,9 +8,9 @@
   ],
   "summary": "Subscription Billing now correctly carries the contract currency to generated invoices instead of defaulting to local currency.",
   "key_points": [
-    "Invoice generation from contracts now copies the currency code from the contract line",
-    "Fixes issue where invoices were created with blank currency code, treated as local currency",
-    "Ensures invoices match the contract's currency without requiring manual correction"
+    "Invoice creation from contracts now takes the currency code from the related contract line",
+    "Before this change, invoices were created with a blank currency code, which is treated as local currency",
+    "Change is in the Create Billing Documents codeunit, with a new recurring billing test"
   ],
   "change_kind": "fix",
   "behavior_change": true,

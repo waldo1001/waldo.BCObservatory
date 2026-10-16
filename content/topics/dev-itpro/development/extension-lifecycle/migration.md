@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:51.613Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,8 @@ links:
     - topic/dev-itpro/development/extension-lifecycle/migration/migrating-tables-and-fields-between-exte
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -86,7 +87,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 4d474caeded31ac5afc7d7c82e64c4359ea65d4a650817182d41771c8d0731c4
@@ -134,5 +135,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9363 GP - Updates 202607](../../../../changes/bcapps/9363.md) (code change): "The GP migration now spreads item transactions across multiple batches"
 - [#9438 SL - Add support for migrating historical project transactions](../../../../changes/bcapps/9438.md) (code change): "A new migration setting enables historical project transactions to be migrated alongside other historical data"
 - [#99 Add lifecycle error and privacy knowledge](../../../../changes/bcquality/99.md) (code change): "upgrade phase data writes, install-versus-upgrade dispatch logic, install code dispatch"
+- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md) (community post): "customizations must be converted to AL extensions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

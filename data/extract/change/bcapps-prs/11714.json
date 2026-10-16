@@ -8,10 +8,10 @@
   ],
   "summary": "Cost adjustment for assembly items now uses unit-amount rounding precision instead of general ledger setup precision, eliminating unexpected variance amounts from rounding differences.",
   "key_points": [
-    "Adjusted the rounding logic in cost share calculation to use unit-amount precision (0.00001) instead of G/L setup amount rounding precision",
-    "Resolves issue where assembly items in cost adjustment created additional variance due to different rounding precisions",
-    "Applied consistently across W1 and APAC localizations",
-    "Added regression test to prevent recurrence"
+    "During cost adjustment, cost shares are now rounded with unit-amount precision (0.00001) instead of the G/L Setup amount rounding precision",
+    "Removes an unexpected extra variance that rounding created during cost adjustment of assembly items",
+    "The Inventory Adjustment codeunit is changed in the W1, APAC and RU layers, and the Asm. Inventory Adjmt. Entry table extension in W1",
+    "Adds a regression test to SCM Costing Bugs II"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -1,37 +1,23 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/austria/vat",
-  "input_hash": "0e787538b682a13d90df3b3198135fea6e33b8ea0ec1c260a84b322c0d9d4c82",
-  "summary": "VAT functionality in the Austrian version of Business Central. It covers creating a VAT statement, including temporary 5% rates and FDF export, and VAT reporting through the VAT Statement AT and VAT-VIES Declaration XML reports.",
-  "overview": "This section describes how the Austrian version handles VAT reporting to tax authorities and for EU compliance. It has two pages and no subtopics.\n\n\"VAT reporting in the Austrian version\" gives the overall picture: the VAT Statement AT report and the VAT-VIES Declaration XML report, with export to files for submission, including through the Finanz Online Portal. \"How to Create a VAT Statement\" is the step-by-step page for producing the statement, filtering by period, choosing the reporting type and exporting to FDF or XML.\n\nStart with the reporting overview to see which reports exist, then follow the creation page when you need to prepare and export a statement.",
+  "input_hash": "1f4e97e91423842985d40f93cf424af109a7ecbf9f00d4c45d24f13d86d6cb57",
+  "summary": "Austrian VAT functionality in Business Central: how to create a VAT statement (XML and FDF files for the tax authority, including the reduced 4.9% rate) and which Austrian VAT reports exist, including VAT-VIES Declaration XML. Answers questions on Austrian VAT reporting formats and submission.",
+  "overview": "This section covers VAT reporting in the Austrian version of Business Central. It has two pages: one describing the available Austrian VAT reports, and one giving the steps to create a VAT statement.\n\nThe reporting page lists the VAT Statement Austria, available in FDF, XML and PDF formats, and the VAT-VIES Declaration XML used to report EU sales. It also refers to FinanzOnline submission. The how-to page explains generating the VAT statement, filtering VAT entries, verifying positions, and exporting XML and FDF files for the tax authority. It also notes support for a reduced 4.9% VAT rate effective July 1, 2026.\n\nStart with the reporting overview to see which report and format you need, then follow the VAT statement page to produce the files.",
   "key_points": [
-    "The Austrian version offers VAT Statement AT and VAT-VIES Declaration XML reports.",
-    "VAT statements can be created for reporting VAT to tax authorities.",
-    "The VAT statement supports temporary 5% VAT rates.",
-    "Statement creation includes period filtering and reporting type selection.",
-    "A VAT statement can be exported as an FDF file or as XML.",
-    "The Update VAT Statement function is available when creating a statement.",
-    "VIES reporting supports EU compliance, and VAT reporting integrates with the Finanz Online Portal for submission to tax authorities."
+    "VAT Statement Austria is available in FDF, XML and PDF formats.",
+    "VAT-VIES Declaration XML is used for reporting EU sales (VIES reporting).",
+    "Reports can be submitted through FinanzOnline.",
+    "Creating a VAT statement produces XML and FDF files for tax authority submission.",
+    "VAT entries can be filtered and positions verified before export.",
+    "Reduced 4.9% VAT rate is supported, effective July 1, 2026."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:33.354Z",
+  "at": "2026-10-16T01:17:52.002Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008493
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:21:45.545Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 7 says VIES XML export is submitted through the Finanz Online Portal. The source lists VIES reporting, XML export and Finanz Online Portal integration as separate features of the reporting page and doesn't link them that way. I reworded the point so each claim stands on its own.",
-      "Key point 6 is vague ('part of the creation process'), but the source does list Update VAT Statement as a feature of the creation page, so I kept it.",
-      "The summary and overview are supported by the page summaries."
-    ],
-    "input_hash": "0e787538b682a13d90df3b3198135fea6e33b8ea0ec1c260a84b322c0d9d4c82",
-    "cost_usd": 0.0284912
+    "cost_usd": 0.009132999999999999
   }
 }

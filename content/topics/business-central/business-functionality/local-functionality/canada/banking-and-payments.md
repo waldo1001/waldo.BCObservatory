@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/canada/banking-and-payments
 type: topic
 title: Banking & payments
-summary: Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
+summary: "Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:44.459Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1c7c3a09223235ff3f20409ee05a2bade9f86f248297295bf0344e8b64be17bb
+  input_hash: c217f80cfee0527bd7cb7c2501e13029ec5bf7a4c821b1b0fcf0f6641351c799
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/how-to-create-deposits
@@ -83,26 +83,27 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
+> Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Canada](../canada.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds two pages on banking and payment tasks in the Canadian version of Business Central. One is about creating deposits. The other is about paying vendors electronically by exporting payment information.
+This section is small and has two pages and no subtopics. One page covers creating deposits in the Canadian version. The other covers paying vendors by exporting payment information for electronic processing through banks.
 
-The payment export page explains how payment data is exported to SEPA Credit Transfer format or processed with the AMC Banking 365 Fundamentals extension, so banks can handle the payments electronically. It also touches on bank data conversion, credit transfer registration tracking and payment export history.
+The payment page describes two routes: SEPA Credit Transfer format, and the AMC Banking 365 Fundamentals extension. Its title mentions AMC banking for the US and SEPA for the EU, so check that the route fits your own banking setup before relying on it.
 
-Start with the deposits page if you need to record deposits in the Canadian version. Use the payment export page if you need to send vendor payments to a bank as a file. The summaries give few details, so open the pages for the exact steps.
+Start with the deposits page if you manage Canadian bank deposits. Start with the payment export page if you need to send payment files to a bank and track what was exported.
 
 ## Key points
 
-- The section has no subtopics, only two pages.
-- 'How to create deposits [CA]' documents creating deposits in the Canadian version.
+- Deposit creation in the Canadian version is covered on the page 'How to create deposits [CA]'.
 - Vendor payments can be made by exporting payment information for electronic processing through banks.
-- Export formats and tools covered: SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.
-- The payment export page mentions payment file export and bank data conversion.
-- Credit transfer registration tracking and payment export history are covered for following exported payments.
+- Supported export routes are SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.
+- The payment export page covers payment file export and bank data conversion.
+- Credit transfer registrations and payment export history can be tracked.
+- The page title ties AMC banking to the US and SEPA credit transfer to the EU.
+- The section has no subtopics, only two pages.
 
 ## Learn pages
 

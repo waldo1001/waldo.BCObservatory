@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.266Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,6 @@ Start with Use SystemService to Find Companies if your client needs a company na
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "exposing Microsoft UI pages as SOAP endpoints is off by default"
+- [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "SOAP exposure for Microsoft UI pages is disabled by default in version 26"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

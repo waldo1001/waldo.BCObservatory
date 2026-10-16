@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,8 @@ links:
     - video/EVntnDFE1R4
   posts:
     - post/aardvarklabs-blog/2017
+    - post/bertverbeek-nl/1318
+    - post/thinkaboutit-be/7226
     - post/thinkaboutit-be/7943
     - post/thinkaboutit-be/7995
   guidelines: []
@@ -110,7 +112,7 @@ coverage:
   learn: 8
   code: 2
   video: 2
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 6316
@@ -161,6 +163,8 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
+- [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Native Fabric integration is built on Open Mirroring and syncs from the SQL change log"
+- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "The Power BI Monitor extension enables Business Central users to manage Power BI resources"
 - [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Business Central Power BI issues stem from configuration problems rather than Power BI itself"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"

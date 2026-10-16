@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.930Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -372,6 +372,8 @@ links:
   localizations: []
   videos:
     - video/gAzmWJg9Z5g
+    - video/symEeOiih_Q
+    - video/xqwJTCPD9tA
   posts: []
   guidelines: []
   changes:
@@ -399,7 +401,7 @@ children:
 coverage:
   learn: 374
   code: 54
-  video: 1
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -519,7 +521,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9434 [Main]-"Factura Duplicada" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.](../../changes/bcapps/9434.md) (code change): "users now get a non-blocking warning when a purchase document's Vendor Invoice No."
 - [#9454 Fix site scoped contextinfo](../../changes/bcapps/9454.md) (code change): "Fix site scoped contextinfo. SharePoint request-digest calls"
 - [#9952 Show address lines 1-3 in address lookup display text](../../changes/bcapps/9952.md) (code change): "address lookup modal for Ideal Postcodes now displays address lines"
-- [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services"
+- [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services; web services"
+- [BCTalent Stories: iFacto](../../videos/symEeOiih_Q.md) (video): "talent recruitment; reskill program; bc talent; partner enablement"
+- [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"
 
 ## Business Central pages and reports
 

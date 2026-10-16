@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -324,7 +324,6 @@ links:
     - topic/dev-itpro/development/extensibility/embedding-power-bi
   localizations: []
   videos:
-    - video/QGIr_XPp8lk
     - video/uxYuoJP-uH8
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
@@ -350,7 +349,7 @@ children:
 coverage:
   learn: 42
   code: 9
-  video: 2
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -416,7 +415,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8634 [MCP] Register MCP server as a Copilot capability](../../../changes/bcapps/8634.md) (code change): "MCP server is now registered as a Copilot capability"
 - [#9272 Fix duplicate in-transit location in localized Contoso demo data](../../../changes/bcapps/9272.md) (code change): "Replaced the warehousing module's independent in-transit location definition"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
-- [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../videos/QGIr_XPp8lk.md) (video): "Extending E-Documents with New Interface; interfaces; api design"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 
 ## Business Central pages and reports

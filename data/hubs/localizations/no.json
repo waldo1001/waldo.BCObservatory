@@ -1,54 +1,54 @@
 {
   "country": "NO",
   "version": "29",
-  "input_hash": "502bb7adf0e6f2c8efc85b36f1caabb3e19f0320bf19442a3e8a099e749962c0",
-  "summary": "Norway (NO) localization of Business Central 29. Covers Norwegian VAT codes, proportional VAT, electronic VAT returns and SAF-T export, remittance and OCR/KID electronic banking, EHF and PEPPOL e-invoicing, recurring orders and payroll import. Answers where Norway extends W1 tables, codeunits and reports.",
-  "overview": "The Norwegian layer adds a large block of finance and banking functionality. VAT is extended with a single VAT Code field on journals, lines, G/L accounts and VAT entries (VAT Code, VAT Number and VAT Base Amount Type on table 81 \"Gen. Journal Line\"; VAT Code, VAT Number and Base Amount Type on table 254 \"VAT Entry\"). Proportional deduction is set up on table 325 \"VAT Posting Setup\", and table 344 \"VAT Reporting Code\" gets trade settlement, reverse charge and SAF-T fields. Norway's own codeunits implement SAF-T export (codeunit 10673 \"Generate SAF-T File\", codeunit 10692 \"Generate SAF-T 1.3 File\") and electronic VAT return submission (the Elec. VAT codeunits, such as codeunit 10685 \"Elec. VAT Submit Return\" and codeunit 10680 \"Elec. VAT OAuth Mgt.\"). Learn documents these under Norwegian VAT reporting, Setup and generate SAF-T files, Norwegian VAT Codes and Proportional VAT.\n\nPayments and banking are covered by the Remittance objects (numbered from 15000000). They handle remittance accounts and agreements, payment suggestions, export to bank, return file import, error handling and the Waiting Journal. Vendor, purchase header, journal and vendor ledger entry tables get remittance, KID and Norges Bank fields. Norway also adds OCR payment import, KID setup on Sales & Receivables Setup, changes to SEPA credit transfer export, import of pain.002 and CAMT.054 files, and regulatory reporting codes.\n\nSales and service e-invoicing supports EHF and PEPPOL BIS 3.0. Customers get Account Code and E-Invoice fields. Sales, reminder and finance charge documents get GLN, Account Code and E-Invoice fields. Norway's own codeunits check and export these documents. Other local features are recurring orders from blanket orders, payroll transaction import, and the Application always Allowed setting for applying entries in closed periods.",
+  "input_hash": "5d56c4b2dd06a8ab958ff3ca3fe78818dde02d0f753404c7e9631f067378a61c",
+  "summary": "Norway (NO) localization of Business Central 29. It covers Norwegian VAT codes, proportional VAT and electronic VAT returns, SAF-T export, remittance and OCR/KID bank payments, EHF/PEPPOL e-invoicing, recurring orders and payroll import. Use it for questions on what Norway adds to W1 and where Learn documents it.",
+  "overview": "Norway adds a large layer on top of W1 (354 objects, 240 fields added on W1 tables). VAT is the core: a single VAT Code on journals, ledger entries and posting setup, proportional deduction in Gen. Jnl.-Post Line, extra fields on VAT Reporting Code, and a SAF-T export (codeunits 10670 to 10692, mapping and export pages, SAF-T versions 1.20 and 1.30) plus electronic VAT return submission with OAuth 2.0. Learn documents these as Norwegian VAT codes, proportional VAT, Norwegian VAT reporting and SAF-T setup.\n\nPayments and banking are the second block. The remittance module (objects in the 15000000 range) handles payment suggestions, payment orders, waiting journal, return files and error codes. It is supported by fields on Vendor, Vendor Ledger Entry and Gen. Journal Line, SEPA export changes and pain.002/CAMT.054 import. KID, OCR and giro printing sit on Sales & Receivables Setup and the OCR objects.\n\nSales and e-invoicing cover EHF and PEPPOL BIS 3.0: GLN, Account Code and E-Invoice fields on customers and sales, reminder and finance charge documents, E-Invoice check and export codeunits, a PEPPOL30 NO set and Service document variants. Recurring orders, payroll import and a rule for applying entries in closed periods complete the local scope.",
   "key_points": [
-    "VAT: one VAT Code field on journals, entries and lines; proportional deduction via Calc. Prop. Deduction VAT and Proportional Deduction VAT % on VAT Posting Setup, with changes in Gen. Jnl.-Post Line and VAT Statement.",
-    "SAF-T: mapping setup, data check, export card and files, supporting versions 1.20 and 1.30 per Learn.",
-    "Electronic VAT return submission through ID-Porten with OAuth 2.0 setup, VAT periods and VAT statement mapping.",
-    "Remittance payments: accounts, agreements, suggestions, test report, bank export (SEPA, Telepay, BBS), return file import and error pages.",
-    "OCR and KID: OCR payment import into the cash receipt journal, OCR Journal - Test report, KID setup on sales documents, giro printing.",
-    "EHF and PEPPOL 3.0 e-invoicing for sales, service, reminders and finance charge memos, using GLN, Account Code and E-Invoice fields and file path setup.",
-    "Recurring orders: recurring groups with date formulas, recurring group codes on blanket sales orders, and a Create Recurring Orders batch job.",
-    "Payroll import into general journals, and Application always Allowed in General Ledger Setup and User Setup for applying entries in closed periods."
+    "Norwegian VAT Code field on journals, ledger entries, G/L accounts and VAT Posting Setup, with VAT Reporting Code extended for reporting boxes and SAF-T VAT codes.",
+    "Proportional VAT: Calc. Prop. Deduction VAT and Proportional Deduction VAT % on VAT Posting Setup, posted through new procedures in Gen. Jnl.-Post Line.",
+    "SAF-T export with account and VAT mapping, setup wizard, data check, versions 1.20 and 1.30, parallel processing and split by date.",
+    "Electronic VAT return through ID-Porten with OAuth 2.0, VAT periods, VAT specifications and notes.",
+    "Remittance payments: remittance agreements and accounts, suggestions, payment orders, waiting journal, return files, error codes, and Telepay/BBS/SEPA export.",
+    "KID numbers and OCR payment import into the cash receipt journal, with OCR Journal - Test report and giro printing with OCR-B font.",
+    "EHF and PEPPOL BIS 3.0 e-invoicing for invoices, credit memos, reminders, finance charge memos and service documents.",
+    "Recurring orders from blanket orders via recurring groups and the Create Recurring Orders batch job; payroll import from Huldt & Lillevik Lønn and Visma."
   ],
   "areas": [
     {
       "area": "Finance",
-      "what": "Adds Norwegian VAT codes, proportional VAT deduction and VAT Code/VAT Number fields on journal lines, VAT entries, G/L accounts and VAT setup. Includes SAF-T export (mapping, data check, export, enums, setup wizard) and electronic VAT return objects. Gen. Jnl.-Post Line and the VAT Statement and VAT settlement reports gain procedures for proportional and non-deductible VAT.",
-      "why": "Learn describes proportional VAT for assets used for both deductible and non-deductible purposes, SAF-T files required by Norwegian authorities, and electronic VAT returns sent via ID-Porten.",
+      "what": "Adds Norwegian VAT codes and number fields to Gen. Journal Line, VAT Entry, VAT Posting Setup and VAT Reporting Code. Gen. Jnl.-Post Line gets proportional deduction and reverse charge procedures, and VAT Statement handles non-deductible parts. It also holds the SAF-T export (mapping, export, data check, setup wizard) and the electronic VAT return codeunits.",
+      "why": "Learn describes Norwegian VAT codes, proportional VAT, electronic VAT returns through ID-Porten and SAF-T files required by the authorities.",
       "objects": [
         "table/81",
         "table/325",
         "table/344",
-        "table/254",
         "codeunit/12",
+        "codeunit/10600",
         "codeunit/10673",
-        "codeunit/10692",
+        "codeunit/10675",
         "codeunit/10685"
       ]
     },
     {
       "area": "Purchases",
-      "what": "The Remittance module for vendor payments: remittance accounts and agreements, payment orders, Waiting Journal, return files and errors, suggestion and export reports. Vendor, vendor template, vendor ledger entry and purchase header tables get remittance, KID and Norges Bank fields. Also local vendor reports.",
-      "why": "Learn documents electronic vendor payments through TelePay or Remittance formats, with bank processing and settlement returns.",
+      "what": "Adds the remittance module: agreements, accounts, payment orders, waiting journal, return files, suggestion, test and export/import reports. Vendor, Vendor Templ., Vendor Ledger Entry and Purchase Header get remittance, KID and recipient reference fields. Also local vendor reports.",
+      "why": "Learn documents remittance setup, suggestions, export, return import, error codes and recipient reference codes for electronic vendor payments.",
       "objects": [
         "table/23",
-        "table/1383",
         "table/25",
         "table/38",
         "codeunit/15000002",
         "codeunit/15000031",
-        "report/15000001",
-        "page/15000002"
+        "page/15000002",
+        "page/15000005",
+        "report/15000001"
       ]
     },
     {
       "area": "Sales",
-      "what": "Adds GLN, Account Code and E-Invoice fields on customers, sales documents, reminders and finance charge memos, plus KID and e-invoice path fields on Sales & Receivables Setup. PEPPOL codeunits get reminder and finance charge procedures. Recurring orders are added with recurring groups and a batch job.",
-      "why": "Learn explains EHF documents for public sector customers and recurring orders created from blanket orders.",
+      "what": "Adds GLN, Account Code and E-Invoice fields to customers and to sales, reminder and finance charge documents. Sales & Receivables Setup gets KID and EHF path fields. PEPPOL Management and Validation are extended for reminders. Recurring orders add recurring groups, tables, pages and a batch report.",
+      "why": "Learn covers setting up customers for EHF, KID numbers on sales documents and recurring orders from blanket orders.",
       "objects": [
         "table/311",
         "table/36",
@@ -57,17 +57,17 @@
         "codeunit/1620",
         "codeunit/392",
         "table/15000300",
-        "report/15000300"
+        "codeunit/15000300"
       ]
     },
     {
       "area": "Service",
-      "what": "Table and page extensions add the Norwegian fields to service headers, lines, invoices, credit memos and archives. Own codeunits handle posting and printing, and local service invoice, credit memo and shipment reports are added.",
+      "what": "Adds Norwegian extensions for service headers, lines, archives, invoices and credit memos, plus Norwegian service invoice, credit memo and shipment reports and posting/print codeunits.",
       "why": null,
       "objects": [
+        "codeunit/10602",
         "codeunit/10650",
         "codeunit/10640",
-        "codeunit/10602",
         "report/10631",
         "report/10632",
         "report/10613",
@@ -77,51 +77,52 @@
     },
     {
       "area": "EServices",
-      "what": "EHF e-invoicing: check and export codeunits for sales and service invoices, credit memos, reminders and finance charge memos, plus batch reports to create electronic documents. Also OCR setup and OCR payment reports, and an export header/line/transfer file table set.",
-      "why": "Learn describes EHF XML files for public sector customers and OCR payment import with KID numbers.",
+      "what": "Implements EHF e-invoicing: check and export codeunits for sales, reminder, finance charge and service documents, batch reports to create electronic documents, export tables, and an EHF Reminder xmlport. Also holds OCR setup and OCR payment import objects.",
+      "why": "Learn explains EHF for public sector invoices and OCR payment setup, import and test.",
       "objects": [
         "codeunit/10610",
-        "codeunit/10619",
         "codeunit/10628",
-        "codeunit/10629",
+        "codeunit/10619",
         "report/10640",
         "table/10604",
         "page/15000100",
-        "report/15000100"
+        "report/15000100",
+        "xmlport/10601"
       ]
     },
     {
       "area": "Bank",
-      "what": "Extends SEPA credit transfer export with Norwegian handling (events and procedures to move lines to the Waiting Journal), adds regulatory reporting codes with a threshold amount, and imports pain.002 and CAMT.054 files.",
-      "why": "Learn documents bank export to SEPA, Telepay and BBS formats.",
+      "what": "Extends SEPA credit transfer export (events and procedures for waiting journal and payment order creation) and Payment Export Data with KID and urgent fields. Adds Pain.002 and CAMT.054 import, a Norwegian SEPA export file codeunit, and regulatory reporting codes with a threshold amount.",
+      "why": "Learn describes exporting remittance payments through SEPA, Telepay or BBS configured on the bank account.",
       "objects": [
         "codeunit/1221",
         "table/1226",
         "table/1200",
-        "table/10607",
         "codeunit/10636",
         "codeunit/10637",
         "codeunit/10638",
-        "xmlport/1000"
+        "table/10607",
+        "page/10607"
       ]
     },
     {
       "area": "Peppol",
-      "what": "Adds the Norwegian PEPPOL 3.0 format, with management, payment and subscriber codeunits, export codeunits for sales and service documents, and invoice and credit memo XMLports.",
-      "why": "Learn covers PEPPOL BIS Billing 3.0 and the E-Documents framework for Norwegian e-invoicing.",
+      "what": "Adds PEPPOL BIS 3.0 support for Norway: management, subscribers, payment, install and upgrade codeunits, export codeunits for sales and service invoices and credit memos, xmlports, and a Norway value in the PEPPOL 3.0 format enum.",
+      "why": "Learn lists PEPPOL BIS Billing 3.0 and the E-Documents framework as Norwegian electronic invoicing options.",
       "objects": [
         "codeunit/37350",
         "codeunit/37351",
-        "enumextension/37350",
-        "xmlport/37355",
-        "xmlport/37356",
         "codeunit/37357",
-        "codeunit/37358"
+        "codeunit/37358",
+        "codeunit/37359",
+        "codeunit/37360",
+        "enumextension/37350",
+        "xmlport/37355"
       ]
     },
     {
       "area": "Foundation",
-      "what": "Company Information gets an enterprise register field and classification procedure. Document-Print and Report Selection Usage gain Norwegian sales order printing, and Company-Initialize provides the Norwegian SEPA CT code. SAF-T extensions hold source code and company contact data.",
+      "what": "Adds Enterpriseregister and a classification procedure on Company Information, extends Document-Print for sales orders, and adds SAF-T fields on source codes and company contact. Company-Initialize provides Norwegian SEPA CT code and name.",
       "why": null,
       "objects": [
         "table/79",
@@ -129,13 +130,15 @@
         "codeunit/2",
         "enum/77",
         "tableextension/10680",
-        "tableextension/10684"
+        "tableextension/10684",
+        "codeunit/10603",
+        "pageextension/10689"
       ]
     },
     {
       "area": "Security",
-      "what": "Adds the Application always Allowed setting to User Setup, extends the LOCAL and LOCAL READ permission sets, and extends the electronic VAT OAuth 2.0 setup.",
-      "why": "Learn describes Application always Allowed for applying entries outside the allowed posting period.",
+      "what": "Adds the Application always Allowed field to User Setup, extends the LOCAL and LOCAL READ permission sets, and extends the electronic VAT OAuth 2.0 setup.",
+      "why": "Learn explains that Application always Allowed in General Ledger Setup and User Setup lets users apply entries in closed periods.",
       "objects": [
         "table/91",
         "permissionset/1001",
@@ -146,8 +149,8 @@
     },
     {
       "area": "Payroll",
-      "what": "Payroll integration codeunit and general journal extensions for importing payroll transactions into journals.",
-      "why": "Learn describes importing payroll from Huldt & Lillevik Lønn and Visma via Payroll Data Definitions.",
+      "what": "Adds a payroll integration codeunit and general journal page extensions for importing payroll transactions into journals.",
+      "why": "Learn describes importing payroll transactions from Huldt & Lillevik Lønn and Visma with the Payroll Data Definitions extension.",
       "objects": [
         "codeunit/10609",
         "pageextension/10609",
@@ -157,7 +160,7 @@
     },
     {
       "area": "Utilities",
-      "what": "DocumentTools helper codeunit, and data classification of SAF-T data.",
+      "what": "Adds a DocumentTools codeunit and a SAF-T classification procedure in data classification of country data.",
       "why": null,
       "objects": [
         "codeunit/10601",
@@ -167,32 +170,10 @@
   ],
   "learn_pages_used": 42,
   "prompt_version": 2,
-  "at": "2026-10-07T13:28:43.942Z",
+  "at": "2026-10-16T01:06:04.562Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.16958199999999998
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T23:29:36.485Z",
-    "verdict": "fix",
-    "issues": [
-      "Overview says table 254 \"VAT Entry\" gets VAT Base Amount Type; the input shows it adds \"Base Amount Type\". VAT Base Amount Type is only on tables 81 and 181.",
-      "The codeunit range 10680 to 10691 for electronic VAT includes codeunit 10682 \"SAF-T Subscribers\", so the range is not purely electronic VAT.",
-      "\"Remittance module (objects 15000000 and up)\" is too broad: the OCR (15000100+), recurring order (15000300+) and test employee (15000210+) objects also sit in that range.",
-      "\"SEPA CT and pain.002/CAMT.054 import\" mixes export and import. The input shows changes to SEPA credit transfer export (codeunit 1221, xmlports 1000 and 1001) and separate pain.002 and CAMT.054 import codeunits.",
-      "Customer (table 18) gets only Account Code and E-Invoice, not GLN. GLN is added to the sales, reminder and finance charge headers.",
-      "The key point on recurring orders mentions \"blanket order codes\", which the input does not support. Learn describes assigning recurring group codes to blanket sales orders.",
-      "Application always Allowed is added to both General Ledger Setup and User Setup; the key point did not say where the setting lives."
-    ],
-    "input_hash": "502bb7adf0e6f2c8efc85b36f1caabb3e19f0320bf19442a3e8a099e749962c0",
-    "cost_usd": 0.3260988,
-    "applied": [
-      "overview",
-      "key_points"
-    ],
-    "rejected_edits": []
+    "cost_usd": 0.2243016
   }
 }

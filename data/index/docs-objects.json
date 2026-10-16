@@ -2,11 +2,11 @@
   "inputs": {
     "commits": {
       "28": "d6dc01d0b49fd1b899d173b7c7b5876ea5927b6b",
-      "29": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+      "29": "ff470ecd2cee1e213c62c942f114f6c8238563c8",
       "30": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
     },
-    "forms": 1731,
-    "forms_hash": "c03496fcd0d4b211a1e4846cc3c8b24ed04e029e89953b40c9cecc3d00aa0f68"
+    "forms": 1729,
+    "forms_hash": "0c14dcf8147edec026472776c2e5c6f2d97b6c4ac173e4073f3ebf526cacf58e"
   },
   "majors": [
     "28",
@@ -15,11 +15,11 @@
   ],
   "commits": {
     "28": "d6dc01d0b49fd1b899d173b7c7b5876ea5927b6b",
-    "29": "866a524fcaefacda4fb3a7b1a44daebcdacc377b",
+    "29": "ff470ecd2cee1e213c62c942f114f6c8238563c8",
     "30": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
   },
-  "docs": 1595,
-  "links": 5345,
+  "docs": 1593,
+  "links": 5344,
   "by_doc": {
     "docs/learn-devitpro/dev-itpro/administration/apply-company-configuration-packages.md": [
       {
@@ -34406,6 +34406,18 @@
     ],
     "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md": [
       {
+        "key": "page/5260",
+        "name": "G/L Account Mapping",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
+        "obsolete": null
+      },
+      {
         "key": "page/5264",
         "name": "Audit File Export Setup",
         "versions": [
@@ -34617,17 +34629,27 @@
     ],
     "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md": [
       {
-        "key": "page/11207",
-        "name": null,
-        "versions": [],
-        "countries": [],
+        "key": "page/4850",
+        "name": "Automatic Account Header",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
         "obsolete": null
       },
       {
-        "key": "page/11208",
-        "name": null,
-        "versions": [],
-        "countries": [],
+        "key": "page/4852",
+        "name": "Automatic Account List",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
         "obsolete": null
       }
     ],
@@ -34795,17 +34817,27 @@
     ],
     "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md": [
       {
-        "key": "page/11207",
-        "name": null,
-        "versions": [],
-        "countries": [],
+        "key": "page/4850",
+        "name": "Automatic Account Header",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
         "obsolete": null
       },
       {
-        "key": "page/11208",
-        "name": null,
-        "versions": [],
-        "countries": [],
+        "key": "page/4852",
+        "name": "Automatic Account List",
+        "versions": [
+          "29",
+          "30"
+        ],
+        "countries": [
+          "apps"
+        ],
         "obsolete": null
       }
     ],
@@ -36414,24 +36446,6 @@
           "ch",
           "de"
         ],
-        "obsolete": null
-      }
-    ],
-    "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports.md": [
-      {
-        "key": "page/26101",
-        "name": null,
-        "versions": [],
-        "countries": [],
-        "obsolete": null
-      }
-    ],
-    "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md": [
-      {
-        "key": "page/26100",
-        "name": null,
-        "versions": [],
-        "countries": [],
         "obsolete": null
       }
     ],
@@ -81805,6 +81819,34 @@
         "via": "ms.search.form"
       }
     ],
+    "page/4850": [
+      {
+        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
+        "title": "Automatic account codes in the Finnish version",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
+        "title": "Set Up Automatic Account Posting Groups [FI]",
+        "via": "ms.search.form"
+      }
+    ],
+    "page/4852": [
+      {
+        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
+        "title": "Automatic account codes in the Finnish version",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
+        "title": "Set Up Automatic Account Posting Groups [FI]",
+        "via": "ms.search.form"
+      }
+    ],
     "page/5010": [
       {
         "id": "docs/learn-smb-docs/business-central/finance-how-setup-use-service-declaration.md",
@@ -82242,6 +82284,12 @@
         "id": "docs/learn-smb-docs/business-central/finance-how-to-export-audit-files.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-how-to-export-audit-files",
         "title": "Export data for auditing",
+        "via": "ms.search.form"
+      },
+      {
+        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md",
+        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa",
+        "title": "Standard chart of accounts in Denmark",
         "via": "ms.search.form"
       }
     ],
@@ -91409,18 +91457,6 @@
     ],
     "page/11207": [
       {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
-        "title": "Automatic account codes in the Finnish version",
-        "via": "ms.search.form"
-      },
-      {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
-        "title": "Set Up Automatic Account Posting Groups [FI]",
-        "via": "ms.search.form"
-      },
-      {
         "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/automatic-account-codes.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes",
         "title": "Automatic account codes in the Swedish version",
@@ -91434,18 +91470,6 @@
       }
     ],
     "page/11208": [
-      {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
-        "title": "Automatic account codes in the Finnish version",
-        "via": "ms.search.form"
-      },
-      {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
-        "title": "Set Up Automatic Account Posting Groups [FI]",
-        "via": "ms.search.form"
-      },
       {
         "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Sweden/automatic-account-codes.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Sweden/automatic-account-codes",
@@ -93612,22 +93636,6 @@
         "id": "docs/learn-smb-docs/business-central/finance-review-accounts.md",
         "url": "https://learn.microsoft.com/dynamics365/business-central/finance-review-accounts",
         "title": "Review general ledger accounts",
-        "via": "ms.search.form"
-      }
-    ],
-    "page/26100": [
-      {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports",
-        "title": "Export and Print Intrastat Reports (DE)",
-        "via": "ms.search.form"
-      }
-    ],
-    "page/26101": [
-      {
-        "id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports.md",
-        "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/how-to-correct-vat-reports",
-        "title": "Correct VAT Reports [DE]",
         "via": "ms.search.form"
       }
     ],

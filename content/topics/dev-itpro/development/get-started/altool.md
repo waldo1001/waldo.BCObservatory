@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:12.842Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -48,6 +48,7 @@ links:
   changes:
     - change/al-go/2304
     - change/al-go/2327
+    - change/al-go/2367
     - change/al-go/2382
 learn_toc_path:
   - Development
@@ -103,6 +104,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2304 Support framework-dependent (flat) AL Language extension layout](../../../../changes/al-go/2304.md) (code change): "Get-ALTool probes nested bin/win32 or bin/linux paths first"
 - [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../../../../changes/al-go/2327.md) (code change): "AL-Go pipeline now supports skipping the upgrade phase"
+- [#2367 Enhance NuGet feed selection to support pre-release packages](../../../../changes/al-go/2367.md) (code change): "AL-Go now supports pre-release NuGet packages by adding"
 - [#2382 Fix dependency artifact pattern for branch names with glob-special characters](../../../../changes/al-go/2382.md) (code change): "Fixed a bug where dependency artifact downloads failed silently"
 - [Enhance Your AL Development with the AL MCP Server](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-enhance-your-al-development-with-the-al-mcp-server--9b231a3692.md) (community post): "The AL MCP server ships with the AL development tools and gives AI agents tools"
 

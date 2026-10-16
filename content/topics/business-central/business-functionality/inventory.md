@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:33.447Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -424,7 +424,8 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/inventory/inventory-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/StIVhsnOHWY
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d
   guidelines: []
@@ -448,7 +449,7 @@ children:
 coverage:
   learn: 75
   code: 99
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -623,6 +624,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9810 [master]-Edit in Excel fails with false duplicate error when creating new Item Variants](../../../changes/bcapps/9810.md) (code change): "Item Variants page no longer fails with a false duplicate key error when creating new variants"
 - [#9961 [Extensibility Request] issue 30381: expose page sender to filter subscribers](../../../changes/bcapps/9961.md) (code change): "Item Availability by BOM Level page"
 - [BC Friday Tips #69 Item Blocked Fields](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-69-item-blocked-fields--c5121ddc8d.md) (community post): "Item table in Business Central has multiple blocked fields"
+- [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Inventory levels; location filters; Inventory tracking on products"
 
 ## Business Central pages and reports
 

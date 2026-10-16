@@ -2,7 +2,7 @@
 id: app/automaticaccountcodes
 type: app
 title: AutomaticAccountCodes
-summary: "AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); no Learn hub documents its objects yet."
+summary: "AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-16T01:13:05.546Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 297e9edfa6bbab2f20216fd1aaf11a57a032fef71769dc490675df8be0004c79
+  input_hash: 49c12d898a59498b0f1fc4dfb2b01c44a11b6d297f2e625beb2d331c03d807f0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AutomaticAccountCodes/app
@@ -77,7 +77,8 @@ links:
     - object/permissionsetextension/4856
     - object/permissionsetextension/4857
   features: []
-  topics: []
+  topics:
+    - topic/business-central/business-functionality/local-functionality/finland/core-finance
   localizations: []
   videos: []
   posts: []
@@ -98,16 +99,22 @@ counts:
     permissionset: 3
     codeunit: 1
     enum: 1
-  hubs: 0
+  hubs: 1
   videos: 0
   posts: 0
 ---
 
 # AutomaticAccountCodes
 
-> AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); no Learn hub documents its objects yet.
+> AutomaticAccountCodes (Microsoft.Finance): 46 objects in BC29-30 (14 page extensions, 13 table extensions, 8 permission set extensions, 3 tables, 3 pages, ...); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/AutomaticAccountCodes/app` · namespace `Microsoft.Finance` · BC29-30 · system finance · facts from the code pillar and the joins, nothing machine-written
+
+## What Learn documents it
+
+The topic hubs whose Learn pages name this app's pages and reports (a table counts through the pages on it), by the number of the app's objects they document.
+
+- [Core finance](../topics/business-central/business-functionality/local-functionality/finland/core-finance.md) (Business functionality > Local functionality > Finland): 3 objects
 
 ## Objects
 

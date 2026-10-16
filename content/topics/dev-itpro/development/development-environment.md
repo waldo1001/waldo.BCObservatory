@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.933Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,16 +117,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-upgrade-install-code
-    title: Debug upgrade and install code
-    date: "2022-08-01"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging
+    title: Debug AL Code in Visual Studio Code
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging
-    title: Debugging in AL
-    date: "2025-08-21"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-upgrade-install-code
+    title: Debug Upgrade and Install Code in AL
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null
@@ -251,8 +251,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging-conditional-breakpoints
-    title: Setting conditional breakpoints
-    date: "2025-09-25"
+    title: Set Conditional Breakpoints in AL
+    date: "2026-10-07"
     commit: null
     t: null
     quote: null

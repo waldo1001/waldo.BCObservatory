@@ -6,13 +6,13 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "External storage now retains remote files instead of deleting them when removing attachments, preventing data loss when attachments are shared between documents. Explicit retirement clears only local metadata after verifying the attachment and its content remain intact.",
+  "summary": "Follow-up to the external storage retention fix that was already merged in #11733. Adds regression tests for quote posting, Copy/Move and retirement guards, updates the configuration guidance, shows retention status on the Document Attachment - External page, and removes unused deletion telemetry.",
   "key_points": [
-    "Remote files are retained rather than deleted to prevent losing shared attachments",
-    "Attachment deletion cannot affect other attachments' shared files",
-    "Explicit retirement clears only local external metadata after locking and verification",
-    "Stronger test coverage added for quote posting, copy/move operations and retirement flows",
-    "Unused deletion telemetry removed"
+    "The core logic that keeps remote files and safely retires local references was already merged in #11733",
+    "Adds a retention-status display to the Document Attachment - External page",
+    "Adds regression tests for quote to order posting, Copy/Move with byte checks, and retirement guards",
+    "Removes unused deletion telemetry and updates the README configuration guidance",
+    "Trade-off: remote files are kept even when unshared, so storage use can grow"
   ],
   "change_kind": "fix",
   "behavior_change": true,

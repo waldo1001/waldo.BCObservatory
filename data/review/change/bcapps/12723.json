@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12723",
+  "input_hash": "27316cf7ef212e6861cf45b02c2a8bc3df31f209a2aae57caa467b37351813c4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:19.363Z",
+  "issues": [
+    "All changed files are in the NL layer; the page does not mention that this is localized.",
+    "The claim about a 'VAT calculation scenario' only comes from the test codeunit's name and is not supported.",
+    "There is no description, so the exact change to the credit memo subform is unknown."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022979,
+    "changes_in_call": 6
+  }
+}

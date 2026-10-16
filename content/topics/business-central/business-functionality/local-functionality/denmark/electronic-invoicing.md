@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:00.433Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,35 +21,35 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl
     title: Create Electronic Documents in an OIOUBL format
-    date: "2025-03-03"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl
     title: How to Set Up Customers for OIOUBL | Microsoft Docs
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview
     title: OIOUBL Electronic Invoicing Overview | Microsoft Docs
-    date: "2025-04-24"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl
     title: OIOUBL Extension for Electronic Invoicing
-    date: "2025-04-24"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl
     title: Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs
-    date: "2025-03-04"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

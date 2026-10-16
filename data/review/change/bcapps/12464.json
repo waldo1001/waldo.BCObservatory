@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12464",
+  "input_hash": "5d9eb2876ddfbe108318fbffb8f886d9ab7b50a15e656d263cdb36b0b81c8130",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-16T01:17:10.624Z",
+  "issues": [
+    "The PR gives no evidence that a field was added; it only shows +32 lines in the Requisition Line table (W1 and IT layers).",
+    "'Comprehensive' test coverage is overstated; the PR only shows a test codeunit with new test code."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017507,
+    "changes_in_call": 6
+  }
+}

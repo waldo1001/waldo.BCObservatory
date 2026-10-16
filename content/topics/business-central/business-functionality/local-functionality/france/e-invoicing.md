@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:56.018Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,14 +21,14 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france
     title: Enable electronic invoicing with UBL 2.1 and Factur-X [FR]
-    date: "2026-06-23"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france
     title: Use the E-Document Format for E-Reporting [FR]
-    date: "2026-06-23"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

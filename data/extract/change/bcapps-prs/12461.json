@@ -8,11 +8,10 @@
   ],
   "summary": "Item charge assignment on sales orders now refreshes record set after bulk updates to prevent page synchronization errors when assigning by amount.",
   "key_points": [
-    "Calls FindSet() to refresh record set after clearing assignment fields with ModifyAll",
-    "Prevents 'Sorry, we just updated this page' errors in SaaS when suggesting assignment",
-    "Ensures allocation logic works with consistent data when items have zero or missing prices",
-    "Test coverage added for zero-price and priced item scenarios",
-    "Fixes race condition between bulk update and iteration logic"
+    "Calls FindSet() to refresh the sales assignment record set after clearing fields with ModifyAll",
+    "Suggesting item charge assignment By Amount no longer fails with 'Sorry, we just updated this page' in SaaS",
+    "Covers orders where one item line has no price",
+    "Regression tests added in W1, CA and US test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

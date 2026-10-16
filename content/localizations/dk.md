@@ -2,29 +2,29 @@
 id: localization/dk
 type: localization
 title: Denmark (DK)
-summary: Denmark (DK) localization adds OIOUBL electronic invoicing, NemHandel registration status, electronic VAT return submission to skat.dk, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, payroll import and a C5 data migration. It answers how Danish legal and e-invoicing needs are met in Business Central.
+summary: Denmark (DK) localization of Business Central 29. It covers OIOUBL electronic invoicing and NemHandel, electronic VAT declaration to SKAT, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, Proløn payroll import and C5 data migration. Use it for questions about Danish bookkeeping and e-invoicing.
 tier: official
 language: en
 tags:
   - localization
   - dk
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T23:26:21.404Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 194f322b056d8b28efaa5b6a7d2bd0f5dd6fcc21daf940c3850e8553a56e3747
+  input_hash: 45469d207dcbaeffc124bb2616126245657b49652b4640d98a62f9c896d18b82
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-dk
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -50,28 +50,28 @@ learn_folder: LocalFunctionality/Denmark
 
 # Denmark (DK)
 
-> Denmark (DK) localization adds OIOUBL electronic invoicing, NemHandel registration status, electronic VAT return submission to skat.dk, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, payroll import and a C5 data migration. It answers how Danish legal and e-invoicing needs are met in Business Central.
+> Denmark (DK) localization of Business Central 29. It covers OIOUBL electronic invoicing and NemHandel, electronic VAT declaration to SKAT, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, Proløn payroll import and C5 data migration. Use it for questions about Danish bookkeeping and e-invoicing.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative reviewed (checked by Opus)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-All 431 objects in the Danish layer are the country's own objects, including 80 page extensions and 50 table extensions. No W1 object is listed as changed. The largest blocks are the C5 data migration (codeunits and pages with a "C5" prefix, such as "C5 Data Migration Mgt." and "C5 Wizard Integration"), the OIOUBL extension (check, export and subscriber codeunits, with table and page extensions on sales, reminder, finance charge memo and service documents), and the finance codeunits for electronic VAT declaration, SAF-T and Regnskab Basis export.
+The Danish layer is almost entirely additive: 431 own objects and no changes to W1 objects. The largest parts are OIOUBL (checks, export codeunits, subscribers and table/page extensions on sales, reminder, finance charge memo and service documents), the electronic VAT declaration (codeunits "Elec. VAT Decl. ..." with interfaces for communication, payload builder and response), and a C5 data migration set (C5 codeunits, pages and tables).
 
-Bank-related code covers FIK: codeunits such as "FIKManagement", "FIK_MatchBankRecLines" and "FIK_ReadFile", fixed-width bank export, and page extensions on vendor, payment journal and payment reconciliation pages. Payroll import uses data exchange definitions and the "Data Exch. Imp.- Proløn" xmlport. The eServices area adds OIOUBL format handling for E-Documents, and NemHandel status checks via HTTP interfaces.
+Bank and finance support Danish payments and audit: FIK management and matching codeunits, payment export, SAF-T DK codeunits, standard account and tax code mapping, and the Regnskab Basis export. Digital voucher codeunits, Nemhandel status handling, and the Proløn payroll import XMLport complete the picture.
 
-Learn documents this under Denmark local functionality: bookkeeping act compliance, digital vouchers, five-year retention, OIOUBL setup and creation, NemHandel registration and e-invoicing, SAF-T, Regnskab Basis, standard chart of accounts, electronic VAT returns, VAT reconciliation, VAT-VIES, Intrastat VAT number and payroll data definitions.
+Learn documents the bookkeeping act, five-year retention, digital vouchers, OIOUBL setup, NemHandel, electronic VAT returns, SAF-T, Regnskab Basis, FIK details, VAT reconciliation, Intrastat and VIES reporting, and payroll data definitions.
 
 ## Key points
 
-- OIOUBL (UBL 2.0) XML export of sales and service invoices, credit memos, reminders and finance charge memos, with GLN, account code and profile code fields on customers.
-- Electronic VAT return submission to skat.dk through the Danish Tax Agency VAT API, with setup page, communication logs, certificates and period retrieval.
-- SAF-T audit file export and Regnskab Basis CSV export, both relying on mapping G/L accounts to the standard chart of accounts.
-- FIK payment handling: matching of bank reconciliation and general journal lines, with FIK transaction text codes in the payment reconciliation journal.
-- NemHandel registration status check and notification based on the CVR number in Company Information, plus E-Document support for OIOUBL.
-- Digital vouchers and five-year data retention (daily export to Azure Blob Storage) support compliance with the Danish bookkeeping act.
-- Payroll import for Danish providers such as Danløn and Dataløn through data exchange definitions into the general journal.
-- C5 data migration wizard objects for importing from C5.
+- OIOUBL: check and export codeunits for sales invoices, credit memos, reminders, finance charge memos and service documents, with GLN, account code and profile code on customers.
+- Electronic VAT declaration to the Danish Tax Agency via the VAT API, with certificates, Azure Key Vault and period retrieval.
+- SAF-T DK export and Regnskab Basis CSV export, using the standard chart of accounts mapping.
+- FIK payment handling: reconciliation matching of bank lines and journal lines, with transaction texts such as Matching Amount and Duplicate FIK Number.
+- Digital vouchers with attachment enforcement, mandatory by default from July 1, 2024, and five-year retention.
+- Nemhandel registration status and notification on Company Information; E-Document OIOUBL format and import.
+- Payroll import for Danish providers via data exchange definition and Proløn XMLport.
+- C5 data migration wizard objects for customers, vendors, items and ledger data.
 
 Narrative written by Sonnet from the code diff and 20 Learn page summaries. In numbers: Denmark (DK) localization of Business Central in BC29: 431 objects of its own, 0 W1 objects changed (0 fields and 0 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -95,7 +95,7 @@ Narrative written by Sonnet from the code diff and 20 Learn page summaries. In n
 
 ### DataMigration
 
-Adds a full C5 data migration toolset: migrator codeunits for customers, vendors, items, ledger accounts and ledger transactions, a schema reader, unzip and data loader, a dashboard, and many C5 source pages.
+Adds a C5 data migration set: migrators for customers, vendors, items, ledger accounts and transactions, a schema reader, unzip, data loader, dashboard and install codeunit, plus C5 source-data pages and tables.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -105,69 +105,69 @@ Objects: [codeunit/1860 "C5 Data Migration Mgt."](../objects/codeunit/1860-dk.md
 
 ### EServices
 
-Adds the OIOUBL engine: check codeunits, XML export codeunits for sales, service, reminder and finance charge documents, and subscribers. Also adds NemHandel status management and a digital voucher implementation.
+OIOUBL check and export codeunits for sales, reminder, finance charge and service documents, plus subscribers and common logic. Also Nemhandel status checking, the Digital Voucher DK implementation and an OIOUBL format codeunit.
 
-Why: Danish public sector customers require OIOUBL electronic documents, and Danish regulation requires NemHandelsregisteret registration and digital vouchers.
+Why: Learn describes OIOUBL as the format required by the Danish public sector, and digital vouchers as mandatory from July 1, 2024.
 
-Objects: [codeunit/13625 "OIOUBL-Document Encode"](../objects/codeunit/13625-dk.md) (own), [codeunit/13636 "OIOUBL-Export Sales Invoice"](../objects/codeunit/13636-dk.md) (own), [codeunit/13637 "OIOUBL-Export Sales Cr. Memo"](../objects/codeunit/13637-dk.md) (own), [codeunit/13646 "OIOUBL-Management"](../objects/codeunit/13646-dk.md) (own), [codeunit/13628 "Nemhandel Status Mgt."](../objects/codeunit/13628-dk.md) (own), [codeunit/13621 "Digital Voucher DK Impl."](../objects/codeunit/13621-dk.md) (own), [codeunit/13910 "OIOUBL Format"](../objects/codeunit/13910-dk.md) (own), [enum/13608 "Nemhandel Company Status"](../objects/enum/13608-dk.md) (own).
+Objects: [codeunit/13910 "OIOUBL Format"](../objects/codeunit/13910-dk.md) (own), [codeunit/13625 "OIOUBL-Document Encode"](../objects/codeunit/13625-dk.md) (own), [codeunit/13636 "OIOUBL-Export Sales Invoice"](../objects/codeunit/13636-dk.md) (own), [codeunit/13637 "OIOUBL-Export Sales Cr. Memo"](../objects/codeunit/13637-dk.md) (own), [codeunit/13628 "Nemhandel Status Mgt."](../objects/codeunit/13628-dk.md) (own), [codeunit/13621 "Digital Voucher DK Impl."](../objects/codeunit/13621-dk.md) (own), [codeunit/13646 "OIOUBL-Management"](../objects/codeunit/13646-dk.md) (own), [codeunit/13609 "Upd. Registered with Nemhandel"](../objects/codeunit/13609-dk.md) (own).
 
 [All 90 objects of EServices in the diff](?ns=EServices#country-diff)
 
 ### Finance
 
-Adds electronic VAT declaration (SKAT API, XML, cryptography, Azure Key Vault, setup and log pages), SAF-T export with standard accounts and tax codes, ECSL export file and Regnskab Basis export.
+Electronic VAT declaration codeunits and interfaces for SKAT submission, SAF-T DK export with standard accounts and tax codes, ECSL export file, Regnskab Basis export, and DK install and upgrade codeunits.
 
-Why: Learn describes electronic VAT return submission to skat.dk, SAF-T export for the tax authorities and Regnskab Basis export using the standard chart of accounts.
+Why: Learn covers electronic VAT return submission through the Danish Tax Agency API, SAF-T export and the standard chart of accounts.
 
-Objects: [codeunit/13612 "Elec. VAT Decl. SKAT API"](../objects/codeunit/13612-dk.md) (own), [codeunit/13613 "Elec. VAT Decl. Submit"](../objects/codeunit/13613-dk.md) (own), [codeunit/13606 "Elec. VAT Decl. Create"](../objects/codeunit/13606-dk.md) (own), [page/13605 "Elec. VAT Decl. Setup"](../objects/page/13605-dk.md) (own), [codeunit/13689 "Xml Data Handling SAF-T DK"](../objects/codeunit/13689-dk.md) (own), [codeunit/13697 "Data Check SAF-T DK"](../objects/codeunit/13697-dk.md) (own), [codeunit/13698 "Regnskab Basis Export"](../objects/codeunit/13698-dk.md) (own), [codeunit/13695 "Standard Account DK"](../objects/codeunit/13695-dk.md) (own).
+Objects: [codeunit/13613 "Elec. VAT Decl. Submit"](../objects/codeunit/13613-dk.md) (own), [codeunit/13612 "Elec. VAT Decl. SKAT API"](../objects/codeunit/13612-dk.md) (own), [codeunit/13606 "Elec. VAT Decl. Create"](../objects/codeunit/13606-dk.md) (own), [codeunit/13605 "Elec. VAT Decl. Http Comm."](../objects/codeunit/13605-dk.md) (own), [codeunit/13689 "Xml Data Handling SAF-T DK"](../objects/codeunit/13689-dk.md) (own), [codeunit/13697 "Data Check SAF-T DK"](../objects/codeunit/13697-dk.md) (own), [codeunit/13698 "Regnskab Basis Export"](../objects/codeunit/13698-dk.md) (own), [page/13605 "Elec. VAT Decl. Setup"](../objects/page/13605-dk.md) (own).
 
 [All 85 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Bank
 
-Adds FIK payment handling: matching of bank reconciliation and general journal lines, file reading, payment export and fixed-width bank export. Page and table extensions add FIK fields to vendor, purchase, journal and reconciliation objects.
+FIK payment management, matching of bank reconciliation and general journal lines, payment export and fixed-width bank data export, with extensions on vendor, purchase, journal and payment pages.
 
-Why: Learn explains FIK transaction text codes that describe automatic payment application results in the payment reconciliation journal.
+Why: Learn explains the FIK transaction texts shown when payments are applied automatically to sales invoices.
 
-Objects: [codeunit/13650 "FIKManagement"](../objects/codeunit/13650-dk.md) (own), [codeunit/13651 "FIK_MatchBankRecLines"](../objects/codeunit/13651-dk.md) (own), [codeunit/13652 "FIK_MatchGenJournalLines"](../objects/codeunit/13652-dk.md) (own), [codeunit/13654 "FIK_ReadFile"](../objects/codeunit/13654-dk.md) (own), [codeunit/13653 "PaymentExportManagement"](../objects/codeunit/13653-dk.md) (own), [codeunit/13660 "Export BankData Fixed Width"](../objects/codeunit/13660-dk.md) (own), [pageextension/13620 "PaymentReconciliationJournal"](../objects/pageextension/13620-dk.md) (own), [table/13625 "FIKUplift"](../objects/table/13625-dk.md) (own).
+Objects: [codeunit/13650 "FIKManagement"](../objects/codeunit/13650-dk.md) (own), [codeunit/13651 "FIK_MatchBankRecLines"](../objects/codeunit/13651-dk.md) (own), [codeunit/13652 "FIK_MatchGenJournalLines"](../objects/codeunit/13652-dk.md) (own), [codeunit/13653 "PaymentExportManagement"](../objects/codeunit/13653-dk.md) (own), [codeunit/13654 "FIK_ReadFile"](../objects/codeunit/13654-dk.md) (own), [codeunit/13660 "Export BankData Fixed Width"](../objects/codeunit/13660-dk.md) (own), [table/13625 "FIKUplift"](../objects/table/13625-dk.md) (own), [enum/13620 "Payment Type Validation"](../objects/enum/13620-dk.md) (own).
 
 [All 51 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Sales
 
-Extends sales, reminder and finance charge memo tables and pages with OIOUBL fields, such as customer GLN, account code and profile code, on documents and posted documents.
+OIOUBL extensions on sales documents, posted documents, reminders, finance charge memos and customer, adding fields such as GLN, account code and profile code.
 
-Why: Learn states that customers need GLN, account code and profile code information for OIOUBL invoicing.
+Why: Learn says customers need GLN, account code and profile code for OIOUBL documents.
 
-Objects: [tableextension/13634 "OIOUBL-Customer"](../objects/tableextension/13634-dk.md) (own), [pageextension/13652 "OIOUBL-Customer Card"](../objects/pageextension/13652-dk.md) (own), [tableextension/13630 "OIOUBL-Sales Invoice Header"](../objects/tableextension/13630-dk.md) (own), [tableextension/13632 "OIOUBL-Sales Cr.Memo Header"](../objects/tableextension/13632-dk.md) (own), [pageextension/13666 "OIOUBL-Sales Receivables Setup"](../objects/pageextension/13666-dk.md) (own), [tableextension/13636 "OIOUBL-Reminder Header"](../objects/tableextension/13636-dk.md) (own), [tableextension/13641 "OIOUBL-FinChrgMemoHeader"](../objects/tableextension/13641-dk.md) (own), [pageextension/13655 "OIOUBL-Sales Invoice"](../objects/pageextension/13655-dk.md) (own).
+Objects: [tableextension/13634 "OIOUBL-Customer"](../objects/tableextension/13634-dk.md) (own), [pageextension/13652 "OIOUBL-Customer Card"](../objects/pageextension/13652-dk.md) (own), [tableextension/13630 "OIOUBL-Sales Invoice Header"](../objects/tableextension/13630-dk.md) (own), [tableextension/13632 "OIOUBL-Sales Cr.Memo Header"](../objects/tableextension/13632-dk.md) (own), [pageextension/13655 "OIOUBL-Sales Invoice"](../objects/pageextension/13655-dk.md) (own), [pageextension/13666 "OIOUBL-Sales Receivables Setup"](../objects/pageextension/13666-dk.md) (own), [tableextension/13636 "OIOUBL-Reminder Header"](../objects/tableextension/13636-dk.md) (own), [tableextension/13641 "OIOUBL-FinChrgMemoHeader"](../objects/tableextension/13641-dk.md) (own).
 
 [All 46 objects of Sales in the diff](?ns=Sales#country-diff)
 
 ### Service
 
-Extends service documents, archives, posted documents and service setup with OIOUBL fields so service invoices and credit memos can be exported.
+OIOUBL table and page extensions on service orders, invoices, credit memos, their posted and archive versions and service setup.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [tableextension/13652 "OIOUBL-Service Header"](../objects/tableextension/13652-dk.md) (own), [tableextension/13654 "OIOUBL-Service Mgt. Setup"](../objects/tableextension/13654-dk.md) (own), [pageextension/13672 "OIOUBL-Service Mgt. Setup"](../objects/pageextension/13672-dk.md) (own), [tableextension/13655 "OIOUBL-Service Invoice Header"](../objects/tableextension/13655-dk.md) (own), [tableextension/13657 "OIOUBL-Service Cr.Memo Header"](../objects/tableextension/13657-dk.md) (own), [pageextension/13674 "OIOUBL-Service Order"](../objects/pageextension/13674-dk.md) (own), [pageextension/13676 "OIOUBL-Service Invoice"](../objects/pageextension/13676-dk.md) (own), [pageextension/13678 "OIOUBL-Service Credit Memo"](../objects/pageextension/13678-dk.md) (own).
+Objects: [tableextension/13652 "OIOUBL-Service Header"](../objects/tableextension/13652-dk.md) (own), [tableextension/13654 "OIOUBL-Service Mgt. Setup"](../objects/tableextension/13654-dk.md) (own), [tableextension/13655 "OIOUBL-Service Invoice Header"](../objects/tableextension/13655-dk.md) (own), [tableextension/13657 "OIOUBL-Service Cr.Memo Header"](../objects/tableextension/13657-dk.md) (own), [pageextension/13672 "OIOUBL-Service Mgt. Setup"](../objects/pageextension/13672-dk.md) (own), [pageextension/13674 "OIOUBL-Service Order"](../objects/pageextension/13674-dk.md) (own), [pageextension/13676 "OIOUBL-Service Invoice"](../objects/pageextension/13676-dk.md) (own), [pageextension/13678 "OIOUBL-Service Credit Memo"](../objects/pageextension/13678-dk.md) (own).
 
 [All 21 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Foundation
 
-Adds OIOUBL fields to payment terms, company information and country/region, with matching page extensions.
+OIOUBL fields on payment terms, company information and country/region, with matching page extensions.
 
-Why: Learn lists payment terms and OIOUBL profile selection as part of OIOUBL setup.
+Why: Learn lists payment terms and company information among OIOUBL setup steps.
 
-Objects: [tableextension/13640 "OIOUBL-Payment Terms"](../objects/tableextension/13640-dk.md) (own), [pageextension/13653 "OIOUBL-Payment Terms"](../objects/pageextension/13653-dk.md) (own), [tableextension/13659 "OIOUBL-Company Information"](../objects/tableextension/13659-dk.md) (own), [tableextension/13660 "OIOUBL-Country/Region"](../objects/tableextension/13660-dk.md) (own), [pageextension/13645 "OIOUBL-Country/Regions"](../objects/pageextension/13645-dk.md) (own).
+Objects: [tableextension/13659 "OIOUBL-Company Information"](../objects/tableextension/13659-dk.md) (own), [tableextension/13640 "OIOUBL-Payment Terms"](../objects/tableextension/13640-dk.md) (own), [tableextension/13660 "OIOUBL-Country/Region"](../objects/tableextension/13660-dk.md) (own), [pageextension/13653 "OIOUBL-Payment Terms"](../objects/pageextension/13653-dk.md) (own), [pageextension/13645 "OIOUBL-Country/Regions"](../objects/pageextension/13645-dk.md) (own).
 
 [All 5 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### eServices
 
-Integrates OIOUBL with E-Documents: a format enum extension, a draft import codeunit and a handler codeunit.
+E-Document integration for OIOUBL: an OIOUBL format enum extension, import into draft and a handler.
 
-Why: Learn describes setting up NemHandel e-invoicing through E-Document Services with OIOUBL or Peppol BIS 3 formats.
+Why: Learn describes NemHandel e-invoicing through the E-Documents connector using OIOUBL or PEPPOL BIS 3.0.
 
 Objects: [codeunit/13913 "E-Document OIOUBL Handler"](../objects/codeunit/13913-dk.md) (own), [codeunit/13911 "EDoc Import OIOUBL"](../objects/codeunit/13911-dk.md) (own), [enumextension/13910 "E-Doc. OIOUBL Format"](../objects/enumextension/13910-dk.md) (own), [enumextension/13911 "OIOUBL EDoc Read into Draft"](../objects/enumextension/13911-dk.md) (own).
 
@@ -175,17 +175,17 @@ Objects: [codeunit/13913 "E-Document OIOUBL Handler"](../objects/codeunit/13913-
 
 ### Payroll
 
-Adds import of Danish payroll provider files: a data exchange definition import codeunit, a setup page, a general journal page extension and the Proløn import xmlport.
+Import of Danish payroll transactions with a data exchange definition, Proløn XMLport, setup page and general journal extension.
 
-Why: Learn describes importing payroll transactions from providers like Danløn and Dataløn through the general journal.
+Why: Learn says the extension maps payroll transaction types to G/L accounts for Danish payroll providers.
 
-Objects: [codeunit/13640 "ImportPayrollDataExchDef"](../objects/codeunit/13640-dk.md) (own), [page/13640 "Setup DK Payroll Service"](../objects/page/13640-dk.md) (own), [pageextension/13641 "DK General Journal"](../objects/pageextension/13641-dk.md) (own), [xmlport/13600 "Data Exch. Imp.- Proløn"](../objects/xmlport/13600-dk.md) (own).
+Objects: [codeunit/13640 "ImportPayrollDataExchDef"](../objects/codeunit/13640-dk.md) (own), [xmlport/13600 "Data Exch. Imp.- Proløn"](../objects/xmlport/13600-dk.md) (own), [page/13640 "Setup DK Payroll Service"](../objects/page/13640-dk.md) (own), [pageextension/13641 "DK General Journal"](../objects/pageextension/13641-dk.md) (own).
 
 [All 4 objects of Payroll in the diff](?ns=Payroll#country-diff)
 
 ### (no namespace)
 
-Holds the C5 Data Loader Status table used by the C5 migration.
+Holds the C5 data loader status table used by the migration.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -195,7 +195,7 @@ Objects: [table/1902 "C5 Data Loader Status"](../objects/table/1902-dk.md) (own)
 
 ### ExpenseAgent
 
-Adds an Expense Event Subscriber DK codeunit for the Danish layer of the expense agent.
+Adds an expense event subscriber for Denmark.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -205,9 +205,9 @@ Objects: [codeunit/6918 "Expense Event Subscriber DK"](../objects/codeunit/6918-
 
 ### Inventory
 
-Extends the Item Charge table with OIOUBL fields.
+Extends item charge with OIOUBL fields.
 
-Why: Learn lists item charge setup as part of the OIOUBL extension setup.
+Why: Learn lists item charges among OIOUBL setup items.
 
 Objects: [tableextension/13651 "OIOUBL-Item Charge"](../objects/tableextension/13651-dk.md) (own).
 
@@ -215,7 +215,7 @@ Objects: [tableextension/13651 "OIOUBL-Item Charge"](../objects/tableextension/1
 
 ### IO
 
-Extends the Record Export Buffer table with OIOUBL-specific handling for exported files.
+Extends the record export buffer with OIOUBL data.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

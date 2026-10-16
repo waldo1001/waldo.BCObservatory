@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.653Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes
     title: Automatic account codes in the Finnish version
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences
     title: Posting Depreciation Differences [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups
     title: Set Up Automatic Account Posting Groups [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -44,7 +44,9 @@ links:
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences
     - https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups
-  objects: []
+  objects:
+    - object/page/4850
+    - object/page/4852
   features: []
   topics:
     - topic/business-central/business-functionality/local-functionality/finland
@@ -64,13 +66,13 @@ parent: topic/business-central/business-functionality/local-functionality/finlan
 children: []
 coverage:
   learn: 3
-  code: 0
+  code: 2
   video: 0
   blog: 0
   guideline: 0
 bc_forms:
-  - 11207
-  - 11208
+  - 4850
+  - 4852
 member_hash: 7d009c3be2750ba978d65bbcd12931ae0d5420cb305e014a1bb689a3ca9060d9
 narrative: generated
 ---
@@ -115,6 +117,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 The pages, reports and queries this hub's Learn pages name (ms.search.form, API reference), joined to the code by exact object id (data/index/docs-objects.json); a page shows the table it runs on.
 
-Learn also names 2 objects with no object page: page/11207, page/11208.
+- [Page 4850 "Automatic Account Header"](../../../../../objects/page/4850.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../../objects/table/4850.md)
+- [Page 4852 "Automatic Account List"](../../../../../objects/page/4852.md) · captioned "Automatic Account Groups" · on [Table 4850 "Automatic Account Header"](../../../../../objects/table/4850.md)
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

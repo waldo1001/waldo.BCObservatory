@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:05.121Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting
     title: VAT reporting in the Austrian version
-    date: "2025-03-06"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

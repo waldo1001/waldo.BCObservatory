@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:25.276Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports
     title: How to Print Finnish Intrastat Reports
-    date: "2025-02-12"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices
     title: How to print VAT information on invoices [FI]
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland
     title: VAT-VIES declaration in Finland
-    date: "2025-02-13"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

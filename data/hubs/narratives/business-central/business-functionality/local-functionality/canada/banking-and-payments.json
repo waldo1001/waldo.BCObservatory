@@ -1,35 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/canada/banking-and-payments",
-  "input_hash": "1c7c3a09223235ff3f20409ee05a2bade9f86f248297295bf0344e8b64be17bb",
-  "summary": "Banking and payments for the Canadian version of Business Central. It covers creating deposits and paying vendors by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.",
-  "overview": "This section holds two pages on banking and payment tasks in the Canadian version of Business Central. One is about creating deposits. The other is about paying vendors electronically by exporting payment information.\n\nThe payment export page explains how payment data is exported to SEPA Credit Transfer format or processed with the AMC Banking 365 Fundamentals extension, so banks can handle the payments electronically. It also touches on bank data conversion, credit transfer registration tracking and payment export history.\n\nStart with the deposits page if you need to record deposits in the Canadian version. Use the payment export page if you need to send vendor payments to a bank as a file. The summaries give few details, so open the pages for the exact steps.",
+  "input_hash": "c217f80cfee0527bd7cb7c2501e13029ec5bf7a4c821b1b0fcf0f6641351c799",
+  "summary": "Banking and payments for the Canadian version of Business Central: how to create deposits, and how to pay vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. Answers questions about deposit setup and electronic vendor payment export.",
+  "overview": "This section is small and has two pages and no subtopics. One page covers creating deposits in the Canadian version. The other covers paying vendors by exporting payment information for electronic processing through banks.\n\nThe payment page describes two routes: SEPA Credit Transfer format, and the AMC Banking 365 Fundamentals extension. Its title mentions AMC banking for the US and SEPA for the EU, so check that the route fits your own banking setup before relying on it.\n\nStart with the deposits page if you manage Canadian bank deposits. Start with the payment export page if you need to send payment files to a bank and track what was exported.",
   "key_points": [
-    "The section has no subtopics, only two pages.",
-    "'How to create deposits [CA]' documents creating deposits in the Canadian version.",
+    "Deposit creation in the Canadian version is covered on the page 'How to create deposits [CA]'.",
     "Vendor payments can be made by exporting payment information for electronic processing through banks.",
-    "Export formats and tools covered: SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.",
-    "The payment export page mentions payment file export and bank data conversion.",
-    "Credit transfer registration tracking and payment export history are covered for following exported payments."
+    "Supported export routes are SEPA Credit Transfer format and the AMC Banking 365 Fundamentals extension.",
+    "The payment export page covers payment file export and bank data conversion.",
+    "Credit transfer registrations and payment export history can be tracked.",
+    "The page title ties AMC banking to the US and SEPA credit transfer to the EU.",
+    "The section has no subtopics, only two pages."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:05:22.044Z",
+  "at": "2026-10-16T01:18:01.568Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008324999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:21:44.459Z",
-    "verdict": "approve",
-    "issues": [
-      "The overview presents both pages as Canadian-version tasks, but the payment page title labels AMC banking as US and SEPA credit transfer as EU, so that page may not be Canada-specific. This is acceptable given the hub's place under Canada in the Learn TOC.",
-      "The key point phrase 'for following exported payments' slightly interprets the purpose of credit transfer registration tracking and payment export history, but it is a reasonable reading."
-    ],
-    "input_hash": "1c7c3a09223235ff3f20409ee05a2bade9f86f248297295bf0344e8b64be17bb",
-    "cost_usd": 0.0312912
+    "cost_usd": 0.008726999999999999
   }
 }

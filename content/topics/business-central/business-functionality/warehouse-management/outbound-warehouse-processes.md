@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -95,7 +95,8 @@ links:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/vondervoort-be/67
   guidelines: []
   changes:
     - change/bcapps/10127
@@ -119,7 +120,7 @@ coverage:
   learn: 7
   code: 13
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 15
@@ -188,6 +189,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9333 [Main]-Bin content Block Movement does not prevent outbound posting for negative adjustments and sales orders](../../../../changes/bcapps/9333.md) (code change): "Bin content blocks are now checked during sales order posting to restrict movements"
 - [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"
 - [#9532 [Master]Error when creating a Pick "Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking."](../../../../changes/bcapps/9532.md) (code change): "Fixes warehouse pick creation by checking all ship-type bins for picked-not-shipped quantities"
+- [Dutch Dynamics Community Event 18 november 2025](../../../../posts/vondervoort-be/67.md) (community post): "Warehouse Only Mode in D365 SCM enables Business Central users to leverage advanced warehouse features"
 
 ## Business Central pages and reports
 

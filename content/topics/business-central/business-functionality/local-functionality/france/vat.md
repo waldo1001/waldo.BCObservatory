@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:27.016Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,21 +21,21 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits
     title: Export General Ledger Entries Tax Audits [FR]
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file
-    title: How to Export General Ledger Entries to an XML File
-    date: "2025-04-15"
+    title: Export general ledger entries to an XML file
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods
     title: Requirements for Reporting Declaration of Trade in Goods [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
@@ -98,7 +98,7 @@ Start with the audit export page if you face a tax audit, the XML page for year-
 ## Learn pages
 
 - [Export General Ledger Entries Tax Audits [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits): Learn how to export general ledger entries to a text file for a tax audit.
-- [How to Export General Ledger Entries to an XML File](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file): Learn how to export financial transactions for a particular period to an XML file for external archiving.
+- [Export general ledger entries to an XML file](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file): Learn how to export financial transactions for a particular period to an XML file for external archiving.
 - [Requirements for Reporting Declaration of Trade in Goods [FR]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods): Learn about the required fields and steps for reporting the Declaration of Trade in Goods (DEB) in the French version of Business Central.
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

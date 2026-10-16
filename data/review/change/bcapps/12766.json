@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12766",
+  "input_hash": "54e74289639ec05e53f38eed8ce50e8acad4e34b5f428fa1841dcd8d0c221356",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-16T01:17:10.624Z",
+  "issues": [
+    "Matches the description. The codeunit declares rm on Spend Request, which lets callers that only have indirect permission release, reopen and close requests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.017507,
+    "changes_in_call": 6
+  }
+}

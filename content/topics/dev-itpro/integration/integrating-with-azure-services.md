@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:06.293Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,6 +70,14 @@ links:
   posts:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
+    - post/demiliani-com/12532
+    - post/demiliani-com/13020
+    - post/demiliani-com/13155
+    - post/demiliani-com/13197
+    - post/demiliani-com/17492
+    - post/jpearson-blog/1485
+    - post/jpearson-blog/1535
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270
   guidelines: []
   changes:
     - change/bcapps/8742
@@ -84,7 +92,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 2
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -131,7 +139,15 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8742 Enhance SharePoint error handling and add tests](../../../changes/bcapps/8742.md) (code change): "SharePoint error handling now correctly parses OData verbose error responses"
 - [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central"
-- [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "third-party systems require a static IP address for API calls to Business Central"
-- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; file shares; storage accounts"
+- [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "Azure Function in Premium or Flex Plan acts as a middleware to route requests"
+- [Do you have Azure Functions running on Linux Consumption plan? It’s time to migrate…](../../../posts/demiliani-com/12532.md) (community post): "Azure Functions running on Linux Consumption plan? It's time to migrate"
+- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter.](../../../posts/demiliani-com/13020.md) (community post): "Securing Azure Storage accounts accessed by Business Central using Network Security Perimeter"
+- [Storage Account Configuration in Azure Functions: impact, best practices, and scalability](../../../posts/demiliani-com/13155.md) (community post): "Storage Account Configuration in Azure Functions: impact, best practices, and scalability"
+- [Do you have applications connecting to an Azure Storage Account? Be sure to use TLS 1.2 or later.](../../../posts/demiliani-com/13197.md) (community post): "Dynamics 365 Business Central is TLS 1.2 compliant and has no issues with this change"
+- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "Dynamics365BusinessCentral service tag, with Microsoft automatically updating the underlying"
+- [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
+- [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
+- [Building BcMCPProxy.exe and Connecting to Claude Desktop (BLOG 3 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8092462798375727234--07aea86270.md) (community post): "Create an Azure App Registration with delegated permissions"
+- [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; storage accounts"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

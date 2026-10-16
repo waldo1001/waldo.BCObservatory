@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-16T00:19:25.651Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: f466f9b475e6fff8031b60630860b89374082206991c21e2daaf01b95427e752
@@ -121,10 +121,10 @@ footprint:
       weight: 26
     - id: platform
       weight: 25
-    - id: integration
-      weight: 12
     - id: sales
       weight: 12
+    - id: integration
+      weight: 11
     - id: reporting
       weight: 11
   topics:
@@ -191,8 +191,8 @@ last_item: "2026-10-09"
 | development (68) | al development (22) | table Sales Header (4) |
 | administration (26) | user experience (9) | table Sales Invoice Header (3) |
 | platform (25) | best practices (6) | table Item (2) |
-| integration (12) | extensions (6) | table Sales Line (2) |
-| sales (12) | developer tools (5) | codeunit Config. Package Management (1) |
+| sales (12) | extensions (6) | table Sales Line (2) |
+| integration (11) | developer tools (5) | codeunit Config. Package Management (1) |
 | reporting (11) | performance (5) | codeunit Dimension CaptionClass Mgmt (1) |
 |  | troubleshooting (5) | codeunit Filter Tokens (1) |
 |  | codeunit (4) | codeunit Gen. Jnl.-Post Batch (1) |

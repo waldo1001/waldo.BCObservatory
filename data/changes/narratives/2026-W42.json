@@ -1,0 +1,9 @@
+{
+  "week": "2026-W42",
+  "input_hash": "82377c89662f49fa43d5c17386cdea1d19eb39a91c13b8a39b31c4853f33ef5a",
+  "text": "The one breaking change this week is #10520, which makes the blocked customer check event on table Customer pass the Gen. Journal Document Type enum value instead of an option integer, so subscribers need review. Most other merges are behaviour fixes. In Subscription Billing, #12857 filters billing totals by contract number and partner type, #12622 carries the contract currency to generated invoices, and #12377 rolls back billing lines when vendor invoice creation fails. Planning and inventory fixes include #12464 and #12760, where Order Planning no longer stops at a blocked item, #11714 for assembly cost adjustment rounding, #10575 for Calculate Inventory dimensions, and #12669 for subcontracting order dates. Sales and posting fixes cover #12551 (Sales Line VAT Prod. behaviour since 28.4), #12461, #10500 and #12542. Localization fixes cover #12723 (NL), #12217 (CH), #11757 (ES) and #12614, which moves GovTalk to native HttpClient. Attachment work includes #12609, #12554 and #12432. Agent fixes include #9359 and #12766. Extensibility additions are #11580 and #10523. Smaller items include #11527 on e-document payments, #12617 on URL checks, #10478 on API performance and #2403 in AL-Go.",
+  "changes": 38,
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.042763999999999996,
+  "at": "2026-10-16T00:19:25.651Z"
+}

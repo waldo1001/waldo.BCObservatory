@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols and payment files, domiciliation direct debits, and CODA bank statement import, application and posting. It answers setup and how-to questions for these processes."
+summary: "Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols, payment journals, CODA bank statement import and posting, and direct debit with domiciliation. It answers setup and how-to questions for the Belgian version."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:35.537Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 6e1c9a6bb09a56113e2ad040c6ce51338fd1a70c0681b88ecf8ee734b8f75765
+  input_hash: 9361ff78801581474e84b0a16e65148753dd757d21179a87c97fc6f6384b7c87
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-coda-statements
@@ -178,28 +178,28 @@ narrative: generated
 
 # Banking & payments
 
-> Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols and payment files, domiciliation direct debits, and CODA bank statement import, application and posting. It answers setup and how-to questions for these processes.
+> Belgian banking and payments in Business Central: electronic payments (domestic, international, SEPA, non-Euro SEPA), export protocols, payment journals, CODA bank statement import and posting, and direct debit with domiciliation. It answers setup and how-to questions for the Belgian version.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Belgium](../belgium.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the Belgian localization of electronic banking. It has three parts: outgoing electronic payments, direct debit through domiciliation, and incoming bank statements in the CODA format. The Belgian Electronic Banking page is the entry point and describes the setup options, such as Summarize Gen. Jnl. Lines and Cut off Payment Message Texts.
+This section covers the Belgian localization of electronic banking. It has three parts: electronic payments to vendors, CODA bank statements, and direct debits with domiciliation. Belgian Electronic Banking is the overview page that introduces all three.
 
-For payments, the pages go in order: set up export protocols, create payment journal templates and batches, and mark vendors for automatic payment suggestions. Then suggest payments, test the lines, and export the payment file. Separate pages explain the payment types, how payment lines are summarized into general journal lines, and how to correct lines that fail checks.
+For payments, set up export protocols and payment journal templates and batches. Then configure vendors for payment suggestions and use the summarize and cut-off options for journal lines. Test the journal lines, then export the payment file. For bank statements, import the CODA file, apply the lines to ledger entries manually or automatically, and transfer and post them through a journal. Domiciliation covers collecting payments from domestic customers with domestic bank accounts.
 
-For bank statements, start with the Belgian CODA overview, then import the CODA file, apply the lines to ledger entries manually or in batch, and transfer and post them to the general ledger. Transfer and posting can be done manually or automatically. A separate page covers direct debit with domiciliation, from setup to file export.
+Start with Belgian Electronic Banking, then follow the workflow that fits your task: Belgian electronic payments for outgoing payments, Belgian CODA Bank Statements for incoming statements, or Belgian Direct Debit Using Domiciliation for collections.
 
 ## Key points
 
-- Electronic payment types covered: domestic, international, SEPA and non-Euro SEPA, with bank account validation and payment line correction.
-- Export protocols define the payment file format and are set up with fields such as Export Protocol Code, Export Object Type, Export Object ID, Check Object ID and Export Number Series.
-- Payment journal templates and batches are assigned page IDs, test report IDs, source codes and bank accounts for generating and posting payment suggestions.
-- The Suggest Payments checkbox on the vendor controls whether unpaid invoices are included in automatic payment suggestions.
-- Test electronic payments with Check Payment Lines before export. It checks bank account numbers, amounts, single bank account usage and SEPA requirements, and results go to the Export Check Error Logs.
-- Summarize Gen. Jnl. Lines and Cut off Payment Message Texts in Electronic Banking Setup control how payment lines are consolidated into general journal entries.
-- CODA workflow: import the CODA file, apply lines manually or automatically (Process CODA Statement Lines), then transfer to a financial journal and post to the general ledger.
-- Domiciliation direct debit uses a domiciliation number and preferred bank account, generates suggestions, handles payment discounts and refunds, and supports testing before file export.
+- Electronic payments support domestic, international, SEPA, and non-Euro SEPA types, with bank account validation.
+- Export protocols define the file format per payment type. Settings include Check Object ID, Export Object Type, Code Expenses, SEPA Batch Booking, and Export No. Series.
+- Payment journal templates and batches are set up with bank accounts and source codes for domestic and international payments.
+- Vendors are set up for automatic payment suggestions using Suggest Payments, Priority, and Preferred Bank Account Code.
+- Summarize Gen. Jnl. Lines and Cut off Payment Message Texts control how payment lines combine into journal entries.
+- Test electronic payment lines before posting. Checks cover bank account numbers, amounts, and SEPA requirements, and Isabel is supported.
+- CODA statements are imported with the Import CODA File action, then applied to general ledger, customer, and vendor entries by transaction code, manually or automatically.
+- Processed CODA lines are transferred to a journal and posted, either automatically with a batch job or manually with starting and ending balances.
 
 ## Learn pages
 

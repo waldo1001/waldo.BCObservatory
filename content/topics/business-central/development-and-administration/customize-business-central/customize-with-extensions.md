@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -298,6 +298,7 @@ links:
   posts:
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
+    - post/thinkaboutit-be/7226
   guidelines: []
   changes:
     - change/bcapps/9953
@@ -312,7 +313,7 @@ coverage:
   learn: 26
   code: 61
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 30
@@ -498,6 +499,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "When evaluating AppSource apps for Business Central, check the last updated date"
+- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "This guide covers complete setup including Azure AD registration, extension installation"
 
 ## Business Central pages and reports
 

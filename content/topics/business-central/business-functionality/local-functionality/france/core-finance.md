@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:13.053Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -21,105 +21,105 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-apply-general-ledger-entries
     title: Apply General Ledger Entries [FR]
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-years
     title: Close Years [FR]
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/fiscal-periods-and-fiscal-years
     title: Fiscal Periods and Fiscal Years (FR)
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/general-ledger
     title: General Ledger in France
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-close-income-statement-accounts
     title: How to Close Income Statement Accounts [FR]
-    date: "2025-04-14"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-accounting-periods
     title: How to Fiscally Close Accounting Periods
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-fiscally-close-years
     title: How to Fiscally Close Years
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-the-year-end-closing-entry
     title: How to Post the Year-End Closing Entry [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-specify-posting-periods
     title: How to Specify Posting Periods [FR]
-    date: "2025-04-24"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-unapply-general-ledger-entries
     title: How to Unapply General Ledger Entries [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations
     title: How to view ledger reconciliations
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate
     title: Open a New Fiscal Year [FR]
-    date: "2025-04-15"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-print-general-ledger-reports
     title: Print General Ledger Reports [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods
     title: Reopen Accounting Periods [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/year-end-processes-overview
     title: Year End Processes Overview [FR]
-    date: "2025-04-16"
+    date: "2026-10-08"
     commit: null
     t: null
     quote: null

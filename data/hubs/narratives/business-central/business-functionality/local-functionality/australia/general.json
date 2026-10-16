@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/australia/general",
-  "input_hash": "010a657b2841eddda9561df27cb7a5adb0ec7fe8f88168d77db3cccb6b26dbd1",
-  "summary": "Australian local functionality in Business Central: address handling, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage pricing, and Payment Times Reporting. It answers questions about setting up and using these Australia-specific features.",
-  "overview": "This section collects the general Australia-specific features of Business Central. It covers how addresses work when postal codes span several cities or city names repeat across states, how ABNs are registered and validated, how adjustment notes relate to GST and BAS, a sales pricing method, and a compliance report for payment times.\n\nThe pages are independent, so start with the one that matches your task. For tax identity, read the ABN overview page together with the how-to page on entering ABNs in company and vendor records. For credit memos under GST, use the ABN and adjustment notes page. For regulatory reporting by large businesses, use the Payment Times Reporting page.",
+  "input_hash": "8cc33138a6f7ce8f0e2edfda3bfdf1682c4e171da6aa486fc21438f5747d8d09",
+  "summary": "Australia general localization in Business Central: address handling with DPID and AMAS, Australian Business Numbers (ABN) and adjustment notes, cost plus percentage sales pricing, and Payment Times Reporting. It answers setup and usage questions for Australian tax and reporting needs.",
+  "overview": "This section collects the Australia-specific features that apply across the Australian version of Business Central. They cover addresses, tax identification and credit documentation, pricing, and vendor payment reporting.\n\nStart with the ABN pages if you work on tax compliance. One page explains how to enter ABNs on company, customer, vendor, and contact cards. Another explains ABNs together with adjustment notes (credit memos) used for GST credit adjustments. The address page covers postal code lookups and DPID bar codes. The pricing page describes the cost plus percentage method. The Payment Times Reporting page is for large reporting entities and shows how to pull data from vendor ledger entries.",
   "key_points": [
-    "Addresses: dropdown lists for city and state handle postal codes that cover multiple cities and same-named cities in different states.",
-    "Address features also include a delivery point identifier, barcode printing and an address matching approval system.",
-    "ABNs can be entered in company and vendor records and are validated with the local tax office algorithm.",
-    "The ABN entry includes a division part number.",
-    "Adjustment notes work as credit memos for GST compliance, with fields for the original invoice and reason codes, and support BAS adjustments.",
-    "Sales prices can be determined with a cost plus percentage calculation in the Australian version.",
-    "Payment Times Reporting helps large businesses report vendor payment performance, including marking small business vendors and payment buckets.",
-    "Payment Times Reporting extracts data, using applied entries, for the mandated delimited text file."
+    "Addresses use postal codes to show available cities and states in dropdown lists.",
+    "Delivery Point Identifiers (DPID) allow bar code printing, and AMAS software validates addresses to reduce postal returns.",
+    "ABNs are entered on company, customer, vendor, and contact cards using the ABN and ABN Division Part No. fields, with format validation.",
+    "Adjustment notes are credit memos that document changes to taxable supplies and claim GST credit adjustments.",
+    "Adjustment fields include the Adjustment Details FastTab, Adjustment, BAS Adjustment, Adjustment Applies-to, and Reason Code, plus an Adjustment Mandatory setting.",
+    "Sales prices can be determined with a cost plus percentage calculation specific to the Australian version.",
+    "Payment Times Reporting applies to entities with AUD 100M+ consolidated revenue and uses buckets of 30, 31-60, and 60+ days.",
+    "Payment times data comes from vendor ledger entries, using reporting period filtering, applied entries lookup, small business vendor identification, and Excel export."
   ],
   "members_used": 5,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:01.515Z",
+  "at": "2026-10-16T01:17:51.486Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010911
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:23:57.591Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point 8 says Payment Times Reporting extracts data 'using applied entries'. The source summary only says the data is extracted from Business Central, and 'applied entries' appears only as a feature tag. The wording is acceptable but slightly overstates how it works.",
-      "The overview's statement that the pages are independent is an inference, not something the sources say. It is harmless reading guidance."
-    ],
-    "input_hash": "010a657b2841eddda9561df27cb7a5adb0ec7fe8f88168d77db3cccb6b26dbd1",
-    "cost_usd": 0.0259072
+    "cost_usd": 0.012643000000000001
   }
 }

@@ -13,11 +13,11 @@
   ],
   "summary": "Document attachment uploads now work correctly for posted sales shipments and return receipts by adding missing table references and hardening error handling.",
   "key_points": [
-    "Added missing Database::Sales Shipment Header and Database::Return Receipt Header cases to GetRefTable",
-    "Opens RecordRef correctly before passing to SaveAttachment",
-    "Added error handling with OnAfterGetRecRefFail event to surface clear messages",
-    "Prevents cryptic 'record is not open' errors when uploading documents",
-    "Applied consistent pattern used for other posted sales documents"
+    "Added Sales Shipment Header and Return Receipt Header cases to GetRefTable in Document Attachment Mgmt",
+    "Uploading files from the Documents FactBox on posted sales shipments and return receipts no longer fails with 'The record is not open'",
+    "Upload files, Show details and Attach from email in the FactBox now raise a clear error if the source record still cannot be resolved after OnAfterGetRecRefFail",
+    "Follows the existing pattern used for Sales Invoice Header and Sales Cr.Memo Header",
+    "Regression tests added in W1 and ES test layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

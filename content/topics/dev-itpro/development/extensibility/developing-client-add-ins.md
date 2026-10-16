@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:58.998Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,6 +104,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "a JavaScript control add-in bridge, and the Mermaid.js CDN"
 - [Tip – Access the Clipboard with Business Central](../../../../posts/jpearson-blog/1425.md) (community post): "WebPageViewer control add-in can display HTML and JavaScript for lightweight UI enhancements"
 - [Embed Visual Studio Code in Business Central](../../../../posts/jpearson-blog/1583.md) (community post): "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in"
-- [Integration with Azure Static Web Apps from Business Central](../../../../posts/jpearson-blog/1601.md) (community post): "WebPageViewer control add-in shows hosted web content inside an iframe"
+- [Integration with Azure Static Web Apps from Business Central](../../../../posts/jpearson-blog/1601.md) (community post): "WebPageViewer control add-in shows hosted web content inside an iframe on a Business Central page"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -82,6 +82,7 @@ links:
   videos:
     - video/D7GxnNiGQ14
   posts:
+    - post/demiliani-com/11962
     - post/demiliani-com/13096
     - post/demiliani-com/13254
     - post/demiliani-com/13369
@@ -101,7 +102,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 7
+  blog: 8
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -129,6 +130,7 @@ Path: Performance · tier official · system platform · no narrative yet
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2229 Surface empty BCPT results as a warning instead of silent success](../../changes/al-go/2229.md) (code change): "BCPT performance tests produce a results file with no entries"
+- [Dynamics 365 Business Central: compressing API responses at max.](../../posts/demiliani-com/11962.md) (community post): "Brotli significantly decreases bandwidth usage and transfer times for high-volume API calls"
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central: understanding the Database Wait Statistics page.](../../posts/demiliani-com/13254.md) (community post): "Understanding wait categories, task counts, wait times, signal waits helps identify performance bottlenecks"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"

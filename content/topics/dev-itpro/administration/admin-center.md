@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.343Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -63,7 +63,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_environments
     title: Business Central Admin Center API - Environments
-    date: "2025-11-17"
+    date: "2026-09-28"
     commit: null
     t: null
     quote: null
@@ -196,7 +196,7 @@ evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments
     title: Managing Production and Sandbox Environments
-    date: "2026-07-28"
+    date: "2026-09-28"
     commit: null
     t: null
     quote: null

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -188,6 +188,7 @@ links:
     - video/HpIxYyjQWqs
     - video/kuKwjRyNcoE
     - video/lcu53ikOk7s
+    - video/mZNfMPpxovE
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
     - video/VIda0Ok1SSQ
@@ -221,7 +222,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 12
+  video: 13
   blog: 3
   guideline: 0
 bc_forms:
@@ -352,6 +353,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Work With General Journals in Business Central (2025)](../../../../videos/HpIxYyjQWqs.md) (video): "General journals; Journal templates; Journal entry"
 - [Ensure Consistency in Journals With Journal Check](../../../../videos/kuKwjRyNcoE.md) (video): "Journal Check; Enable Data Check Setting; Journal Check Fact Box"
 - [Safeguard G/L Accounts From Deletion](../../../../videos/lcu53ikOk7s.md) (video): "Check GL account usage setting; Check GL account deletion after field"
+- [Historical Snapshot (2024)](../../../../videos/mZNfMPpxovE.md) (video): "GP Detail Snapshot for GL accounts; GL snapshot data export and filtering"
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry in Business Central; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"

@@ -8,14 +8,14 @@
   ],
   "summary": "GovTalk message submission migrated from deprecated DotNet HttpWebRequest to native HttpClient for HTTP communication with HMRC.",
   "key_points": [
-    "Replaced DotNet HttpWebRequest with native HttpClient and HttpRequestMessage/HttpResponseMessage types",
-    "Applied migration to both GovTalk app and obsolete GB Base App copy",
-    "Progress dialog now only opens when UI is available",
-    "Added two new test cases covering successful POST with XML parsing and non-200 status handling",
-    "Protocol behavior preserved: POST, text/xml content type, utf-8 encoding, follow redirects, 100s timeout"
+    "SendHttpRequest now uses native HttpClient, HttpRequestMessage and HttpResponseMessage instead of DotNet HttpWebRequest via Web Request Helper",
+    "The same migration is applied to the GovTalk app (codeunit 10569) and the obsolete GB Base App copy (codeunit 10520)",
+    "Admin controls on outbound extension HTTP calls now apply to GovTalk submissions",
+    "The progress dialog opens only when GuiAllowed; POST, text/xml, redirects and the 100s timeout are unchanged",
+    "Two new HttpClientHandler tests cover a successful POST with XML parsing and a non-200 status returning false"
   ],
   "change_kind": "refactor",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

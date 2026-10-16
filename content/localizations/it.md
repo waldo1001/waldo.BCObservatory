@@ -2,29 +2,29 @@
 id: localization/it
 type: localization
 title: Italy (IT)
-summary: Italy (IT) localization of Business Central 29 covering Italian VAT (non-deductible VAT, VAT settlement, VAT transactions reports), withholding tax and contributions, customer and vendor bills with SEPA, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian fixed asset depreciation and subcontracting. It answers what Italy adds to W1 and where.
+summary: Italy (IT) localization of Business Central 29. It covers Italian VAT (non-deductible VAT, settlement, VAT transaction reports, Datifattura), withholding tax and INPS contributions, customer and vendor bills with SEPA payments, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian depreciation methods, and legacy subcontracting.
 tier: official
 language: en
 tags:
   - localization
   - it
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T23:28:44.854Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:03:07.514Z"
+  at: "2026-10-16T01:09:05.341Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 574329fc6ae971d25a4869bc89904e14a5cf5b92dc7ecccd5aac347715c158bc
+  input_hash: 8771cb83dd4b23f852e9bbf3a745659ae07b65bd855b58dba83277a681ac0d57
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-it
     date: null
-    commit: 866a524fcaefacda4fb3a7b1a44daebcdacc377b
+    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
     t: null
     quote: null
 links:
@@ -246,28 +246,28 @@ learn_folder: LocalFunctionality/Italy
 
 # Italy (IT)
 
-> Italy (IT) localization of Business Central 29 covering Italian VAT (non-deductible VAT, VAT settlement, VAT transactions reports), withholding tax and contributions, customer and vendor bills with SEPA, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian fixed asset depreciation and subcontracting. It answers what Italy adds to W1 and where.
+> Italy (IT) localization of Business Central 29. It covers Italian VAT (non-deductible VAT, settlement, VAT transaction reports, Datifattura), withholding tax and INPS contributions, customer and vendor bills with SEPA payments, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian depreciation methods, and legacy subcontracting.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative reviewed (checked by Opus)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Italian layer is large: 551 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most of the change is on posting and document tables. Sales, purchase, journal and VAT entry tables gain fields such as Operation Type, Operation Occurred Date, Activity Code, Service Tariff No., Deductible % and Fiscal Code. Codeunits Gen. Jnl.-Post Line, Sales-Post and Purch.-Post carry many of the new events and procedures.
+The Italian layer is large: 552 objects, 829 fields added to W1 tables, 92 events and 337 procedures. Most W1 documents, ledger entries and setup tables get Italian fields such as Fiscal Code, Operation Type, Operation Occurred Date, Activity Code, Deductible %, Service Tariff No., Individual Person and Resident. These feed VAT posting, VAT settlement and the VAT transaction reports. Codeunits 12, 80, 90, 442 and 444 carry the posting logic and many of the new events.
 
-Own objects cover the local features. These are bills and bill posting groups, withholding tax and INPS contributions, periodic VAT settlement, the annual VAT communication, G/L book and VAT register printing, Spesometro and Datifattura exports, the FatturaPA export and Fattura setup, payment lines for installment terms, LIFO and fiscal inventory valuation, compressed depreciation, and the Intrastat IT extensions. Learn documents these in the Italy local functionality pages. Subcontracting is documented as deprecated and replaced by a separate Subcontracting app, with a migration for sandboxes.
+Own objects add withholding tax and contribution handling, customer and vendor bill processing with SEPA credit transfer and direct debit, FatturaPA and Datifattura export, and Spesometro, annual VAT communication and VAT payment communication. They also add fiscal inventory valuation (LIFO, year-end costs), transport documents (transport reason codes, goods appearance, third-party loaders), Intrastat report extensions and service declarations. Payment terms get installment lines (table 12170 "Payment Lines").
 
-Developers can hook the new events in posting, bill handling, VAT report validation, fixed asset batch posting and the cash flow worksheet. Setup is concentrated on General Ledger Setup, Company Information, VAT Posting Setup, Payment Terms and the Fattura Setup page.
+Learn documents most of this under Italy local functionality, Italian VAT, VAT transactions reports, Fattura electronic invoicing, automatic payments and bills, withholding tax, fiscal inventory valuation and Italian fixed assets. Italian subcontracting is deprecated in favor of the Subcontracting app. Several legacy subcontracting codeunits and a migration app support the move.
 
 ## Key points
 
-- VAT: non-deductible VAT, Deductible % on lines and VAT entries, VAT posting setup fields, Calc. and Post VAT Settlement with rounding and minimum payable, and Italian VAT statements.
-- VAT transactions reports: suggest lines by threshold, validate, export as .ccf files, correct or cancel reports and record tax authority receipt numbers.
-- Withholding tax and INPS contribution codes, brackets and payment lists, driven by fields on Vendor and calculated at payment.
-- Customer and vendor bills with bill codes, bill posting groups, SEPA credit transfer and direct debit export, and CBI payment request file support.
-- FatturaPA electronic invoicing with Fattura Setup, document types, codes, project info and self-billing export.
-- Fiscal reporting: G/L book and VAT register printing with page numbering, Intrastat IT with corrective entries, fiscal denial list, Italian payment terms with installments.
-- Fiscal inventory valuation (average, FIFO, LIFO, discrete LIFO) and fixed asset anticipated, accelerated, reduced and compressed depreciation.
-- Legacy subcontracting with WIP items, subcontractor prices and transfer orders, deprecated in favor of the Subcontracting app.
+- VAT: Deductible %, non-deductible VAT amounts, reverse charge, Operation Occurred Date and Include in VAT Transac. Rep. on VAT Entry, journal and document lines.
+- Periodic VAT settlement (report 20 "Calc. and Post VAT Settlement") with settlement period, round factor and minimum payable set in General Ledger Setup.
+- VAT transaction reports: suggest lines by threshold, validate, release, export as .ccf, correct or cancel, record tax authority receipt numbers.
+- Bills and payments: customer and vendor bills, bill posting groups, ABI/CAB on bank accounts, SEPA credit transfer and direct debit exports.
+- FatturaPA e-invoicing for sales and service documents, self-billing, Fattura Setup with codes and document types, and Datifattura export.
+- Withholding tax and INPS contributions are set up on the vendor and calculated at payment, with an export and printed reports.
+- Fiscal inventory valuation (average, FIFO, LIFO, discrete LIFO), initial item costs, and Italian anticipated, accelerated and reduced depreciation with compression.
+- Intrastat journal and report changes, a fiscal deny list on countries and vendors, and deprecated legacy subcontracting with a migration app.
 
 Narrative written by Sonnet from the code diff and 33 Learn page summaries. In numbers: Italy (IT) localization of Business Central in BC29: 356 objects of its own, 196 W1 objects changed (829 fields and 92 events added). From the code; country apps outside the Base Application are not included yet.
 
@@ -298,49 +298,49 @@ Narrative written by Sonnet from the code diff and 33 Learn page summaries. In n
 
 ### Finance
 
-Core Italian VAT and ledger logic. Gen. Jnl.-Post Line gets bill handling, unrealized VAT and non-deductible VAT procedures with many events. VAT Entry, VAT Posting Setup, General Ledger Setup and journal lines gain local fields. VAT report objects get suggest, validate and export logic, and own codeunits export Spesometro, withholding tax and VAT payment communication.
+Adds Italian VAT fields to general journal, VAT entry, VAT posting setup and invoice buffers. Gen. Jnl.-Post Line gets events and procedures for bills, unrealized VAT and non-deductible VAT. VAT statement, VAT settlement and VAT transaction report objects are extended, and Spesometro, withholding and intent declaration exports are added.
 
-Why: Learn describes Italian VAT with non-deductible VAT, service tariffs and reverse charge, and VAT transactions reports for amounts above a threshold, plus VAT settlement and statement submission.
+Why: Learn describes Italian VAT with non-deductible VAT, service tariffs and reverse charges. It also describes VAT transaction reports sent to the tax authorities.
 
-Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/254 "VAT Entry"](../objects/table/254.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [report/20 "Calc. and Post VAT Settlement"](../objects/report/20.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [report/741 "VAT Report Suggest Lines"](../objects/report/741.md), [codeunit/744 "VAT Report Validate"](../objects/codeunit/744.md).
+Objects: [codeunit/12 "Gen. Jnl.-Post Line"](../objects/codeunit/12.md), [table/81 "Gen. Journal Line"](../objects/table/81.md), [table/254 "VAT Entry"](../objects/table/254.md), [report/20 "Calc. and Post VAT Settlement"](../objects/report/20.md), [table/325 "VAT Posting Setup"](../objects/table/325.md), [table/98 "General Ledger Setup"](../objects/table/98.md), [report/741 "VAT Report Suggest Lines"](../objects/report/741.md), [codeunit/744 "VAT Report Validate"](../objects/codeunit/744.md).
 
 [All 139 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Bank
 
-Adds customer and vendor bills with issuing, posting, recall and status change, bill posting groups and ABI/CAB lists. Bank account tables gain ABI, CAB and BBAN with IBAN checks. SEPA credit transfer and direct debit codeunits are extended, and INPS contribution pages sit here.
+Adds customer and vendor bill handling: bill cards, issued and posted bill lists, recall and posting codeunits, and ABI/CAB codes. Bank Account and Payment Method gain Italian fields, and SEPA credit transfer and direct debit codeunits are adapted for bills. Withholding and contribution pages are also listed here.
 
-Why: Learn documents automatic payments and bills, SEPA Credit Transfer and Direct Debit and the Italian bill formats.
+Why: Learn documents automatic payments and bills with SEPA formats and bill codes on payment methods.
 
-Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [codeunit/12172 "Customer Bill - Post + Print"](../objects/codeunit/12172-it.md) (own), [codeunit/12173 "Vendor Bill List - Post"](../objects/codeunit/12173-it.md) (own), [codeunit/12177 "SEPA - DD Export Mgt."](../objects/codeunit/12177-it.md) (own), [codeunit/12178 "SEPA CT CBI-Check Line"](../objects/codeunit/12178-it.md) (own), [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [codeunit/1232 "SEPA DD-Prepare Source"](../objects/codeunit/1232.md).
+Objects: [table/270 "Bank Account"](../objects/table/270.md), [table/289 "Payment Method"](../objects/table/289.md), [codeunit/12170 "Recall Customer Bill"](../objects/codeunit/12170-it.md) (own), [codeunit/12172 "Customer Bill - Post + Print"](../objects/codeunit/12172-it.md) (own), [codeunit/12173 "Vendor Bill List - Post"](../objects/codeunit/12173-it.md) (own), [codeunit/12177 "SEPA - DD Export Mgt."](../objects/codeunit/12177-it.md) (own), [codeunit/1221 "SEPA CT-Fill Export Buffer"](../objects/codeunit/1221.md), [page/12175 "Customer Bill Card"](../objects/page/12175-it.md) (own).
 
 [All 81 objects of Bank in the diff](?ns=Bank#country-diff)
 
 ### Service
 
-Italian counterparts for service documents: edit codeunits for posted service documents, page extensions for service orders, invoices and contracts, FatturaPA validation hooks, and service declaration (service Intrastat) objects with periodicity and report type enums.
+Adds Italian objects for service documents: page extensions on service orders, invoices and credit memos, edit codeunits for posted documents, and service declarations (Intrastat for services) with periodicity and report type enums. Serv-Documents Mgt. gets a payment term lines procedure.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/12216 "Service Declaration Mgt. IT"](../objects/codeunit/12216-it.md) (own), [codeunit/12140 "Serv. Document Mgt. IT"](../objects/codeunit/12140-it.md) (own), [codeunit/12109 "Serv. Local Integration IT"](../objects/codeunit/12109-it.md) (own), [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/12187 "Service Invoice Header - Edit"](../objects/codeunit/12187-it.md) (own), [enum/12214 "Serv. Decl. Periodicity IT"](../objects/enum/12214-it.md) (own), [page/12214 "Serv. Decl. Lines IT"](../objects/page/12214-it.md) (own), [pageextension/12451 "Service Order IT"](../objects/pageextension/12451-it.md) (own).
+Objects: [codeunit/12140 "Serv. Document Mgt. IT"](../objects/codeunit/12140-it.md) (own), [codeunit/12216 "Service Declaration Mgt. IT"](../objects/codeunit/12216-it.md) (own), [codeunit/12214 "Serv. Decl. Exp. Ext. IT"](../objects/codeunit/12214-it.md) (own), [codeunit/12215 "Serv. Decl. Get Totals IT"](../objects/codeunit/12215-it.md) (own), [page/12214 "Serv. Decl. Lines IT"](../objects/page/12214-it.md) (own), [enum/12214 "Serv. Decl. Periodicity IT"](../objects/enum/12214-it.md) (own), [codeunit/5988 "Serv-Documents Mgt."](../objects/codeunit/5988.md), [codeunit/12109 "Serv. Local Integration IT"](../objects/codeunit/12109-it.md) (own).
 
 [All 63 objects of Service in the diff](?ns=Service#country-diff)
 
 ### Inventory
 
-Transfer orders gain transport document fields (reason code, weight, loader, goods appearance) and WIP subcontracting fields. Intrastat tables and Intrastat Report IT objects handle the Italian format. Own LIFO, item cost history and fiscal inventory valuation reports and pages live here.
+Extends transfer orders with transport document data (weights, loader, reason code, goods appearance) and Intrastat journal tables with Italian fields. Adds fiscal inventory valuation objects (LIFO, item cost history, customs offices) and an Intrastat report extension. Transfer lines and item journal lines carry subcontracting WIP fields.
 
-Why: Learn describes Intrastat for Italy with periodicity, corrective entries and file disk numbers, and fiscal inventory valuation by several cost methods.
+Why: Learn documents fiscal inventory valuation methods, initial item costs and Intrastat reporting with corrective entries.
 
-Objects: [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [codeunit/148121 "Intrastat Report Management IT"](../objects/codeunit/148121-it.md) (own), [report/12135 "Fiscal Inventory Valuation"](../objects/report/12135-it.md) (own), [report/12137 "LIFO Valuation"](../objects/report/12137-it.md) (own), [page/12137 "Item Costing Setup"](../objects/page/12137-it.md) (own).
+Objects: [table/5740 "Transfer Header"](../objects/table/5740.md), [table/5744 "Transfer Shipment Header"](../objects/table/5744.md), [table/263 "Intrastat Jnl. Line"](../objects/table/263.md), [table/262 "Intrastat Jnl. Batch"](../objects/table/262.md), [codeunit/148121 "Intrastat Report Management IT"](../objects/codeunit/148121-it.md) (own), [report/12137 "LIFO Valuation"](../objects/report/12137-it.md) (own), [page/12137 "Item Costing Setup"](../objects/page/12137-it.md) (own), [table/12119 "Customs Office"](../objects/table/12119-it.md) (own).
 
 [All 61 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### Sales
 
-Sales documents, archives and posted documents gain operation type, operation occurred date, activity code, fiscal code and individual person data. Customer gets fiscal code, PA code, PEC e-mail and bill fields. Sales-Post and prepayment posting get payment line and VAT report logic, and split VAT line procedures are added.
+Sales documents, archives and posted documents get Italian fields (operation type, activity code, fiscal code, tax representative, Fattura project code). Customer gets fiscal code, PA code and bill fields. Sales-Post gets events for payment lines and VAT report validation, and split VAT lines are supported.
 
-Why: Learn covers VAT transactions report preparation (individual person, resident, tax representative) and FatturaPA invoicing to public administration.
+Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
 Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/18 "Customer"](../objects/table/18.md), [codeunit/80 "Sales-Post"](../objects/codeunit/80.md), [table/21 "Cust. Ledger Entry"](../objects/table/21.md), [table/37 "Sales Line"](../objects/table/37.md), [table/311 "Sales & Receivables Setup"](../objects/table/311.md), [codeunit/442 "Sales-Post Prepayments"](../objects/codeunit/442.md), [table/112 "Sales Invoice Header"](../objects/table/112.md).
 
@@ -348,77 +348,77 @@ Objects: [table/36 "Sales Header"](../objects/table/36.md), [table/18 "Customer"
 
 ### Purchases
 
-Purchase documents gain operation type, check total, reverse sales VAT, activity code and tax representative fields. Vendor carries withholding tax, social security and birth and residence data. Purch.-Post adds withholding and social security posting, fixed asset splitting and payment line events.
+Purchase documents get Italian fields (operation type, check total, reverse sales VAT numbering, activity code). Vendor gains fiscal code, withholding tax, social security and birth data. Purch.-Post adds events for withholding tax, payment lines and fixed asset card splitting, and customs authority vendors are added.
 
-Why: Learn documents withholding tax set up per vendor and calculated at payment, and the fixed asset card creation from invoices.
+Why: Learn documents withholding tax set up on the vendor and calculated at payment, and the fiscal deny list for vendors.
 
-Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/288 "Vendor Bank Account"](../objects/table/288.md).
+Objects: [table/38 "Purchase Header"](../objects/table/38.md), [table/23 "Vendor"](../objects/table/23.md), [codeunit/90 "Purch.-Post"](../objects/codeunit/90.md), [table/39 "Purchase Line"](../objects/table/39.md), [table/312 "Purchases & Payables Setup"](../objects/table/312.md), [codeunit/444 "Purchase-Post Prepayments"](../objects/codeunit/444.md), [table/25 "Vendor Ledger Entry"](../objects/table/25.md), [table/12122 "Customs Authority Vendor"](../objects/table/12122-it.md) (own).
 
 [All 39 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### Manufacturing
 
-Legacy Italian subcontracting: subcontracting orders, transfer orders, prices, WIP item fields on routing and production order routing lines, dispatching and transfer shipment reports, plus migration and upgrade codeunits.
+Implements Italian subcontracting with subcontracting orders, transfer orders, prices and dispatch reports, plus WIP item fields on routing and capacity entries. Legacy subcontracting codeunits and a migration codeunit support the move to the Subcontracting app.
 
-Why: Learn states the feature is deprecated and replaced by the Subcontracting app, with a migration for sandbox environments.
+Why: Learn states the Italian subcontracting is deprecated and replaced by the Subcontracting app, with migration for sandbox environments.
 
-Objects: [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md) (own), [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md) (own), [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md) (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [page/12152 "Subcontracting Order"](../objects/page/12152-it.md) (own), [codeunit/149951 "IT Subc. Migration"](../objects/codeunit/149951-it.md) (own), [report/12152 "Create Subcontr.Transf. Order"](../objects/report/12152-it.md) (own), [table/99000765 "Manufacturing Setup"](../objects/table/99000765.md).
+Objects: [codeunit/12152 "SubcontractingManagement"](../objects/codeunit/12152-it.md) (own), [codeunit/12153 "SubcontractingPricesMgt"](../objects/codeunit/12153-it.md) (own), [table/12152 "Subcontractor Prices"](../objects/table/12152-it.md) (own), [table/5409 "Prod. Order Routing Line"](../objects/table/5409.md), [page/12152 "Subcontracting Order"](../objects/page/12152-it.md) (own), [page/12154 "Subcontr. Transfer Order"](../objects/page/12154-it.md) (own), [codeunit/149951 "IT Subc. Migration"](../objects/codeunit/149951-it.md) (own), [codeunit/99008501 "Legacy Subc. Feature Handler"](../objects/codeunit/99008501-it.md) (own).
 
 [All 32 objects of Manufacturing in the diff](?ns=Manufacturing#country-diff)
 
 ### Foundation
 
-Company Information gets Italian registration, REA and tax representative fields. Payment Terms get installment payment lines (Payment Lines and Posted Payment Lines tables), No. Series gets VAT register types, and Country/Region gets deny list fields. Company officials and company types are new.
+Extends Company Information, Payment Terms, Country/Region, Shipment Method, Shipping Agent and No. Series with Italian fields. Adds payment lines for installment terms, company officials and types, and operation types. Country/Region gets deny list fields.
 
-Why: Learn covers payment terms with installments and discount dates, company information setup and the fiscal denial list.
+Why: Learn describes payment terms with installments and the fiscal denial list for countries.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/12170 "Payment Lines"](../objects/table/12170-it.md) (own), [table/9 "Country/Region"](../objects/table/9.md), [table/308 "No. Series"](../objects/table/308.md), [table/12159 "Company Officials"](../objects/table/12159-it.md) (own), [codeunit/12196 "Company Initialize IT"](../objects/codeunit/12196-it.md) (own), [table/12171 "Posted Payment Lines"](../objects/table/12171-it.md) (own).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/3 "Payment Terms"](../objects/table/3.md), [table/9 "Country/Region"](../objects/table/9.md), [table/12170 "Payment Lines"](../objects/table/12170-it.md) (own), [table/308 "No. Series"](../objects/table/308.md), [table/12159 "Company Officials"](../objects/table/12159-it.md) (own), [codeunit/12196 "Company Initialize IT"](../objects/codeunit/12196-it.md) (own), [page/12144 "Operation Types"](../objects/page/12144-it.md) (own).
 
 [All 28 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### EServices
 
-FatturaPA electronic invoicing: export codeunit, sales and service validation, Fattura header and line tables, setup, document types, codes, project info and self-billing export.
+Adds FatturaPA electronic invoicing: export and validation codeunits for sales and service documents, self-billing export, Fattura setup, codes, project info, header and line tables.
 
-Why: Learn describes FatturaPA invoicing to public administration through the SDI platform, with setup for invoices, credit memos, self-billing and prepayments.
+Why: Learn explains FatturaPA invoicing to public administration through the SDI platform, with setup of VAT groups and document types.
 
-Objects: [codeunit/12179 "Export FatturaPA Document"](../objects/codeunit/12179-it.md) (own), [codeunit/12180 "FatturaPA Sales Validation"](../objects/codeunit/12180-it.md) (own), [table/12205 "Fattura Setup"](../objects/table/12205-it.md) (own), [page/12204 "Fattura Setup"](../objects/page/12204-it.md) (own), [codeunit/12185 "Export Self-Billing Documents"](../objects/codeunit/12185-it.md) (own), [table/12203 "Fattura Header"](../objects/table/12203-it.md) (own), [table/12204 "Fattura Line"](../objects/table/12204-it.md) (own), [table/12206 "Fattura Document Type"](../objects/table/12206-it.md) (own).
+Objects: [codeunit/12179 "Export FatturaPA Document"](../objects/codeunit/12179-it.md) (own), [codeunit/12180 "FatturaPA Sales Validation"](../objects/codeunit/12180-it.md) (own), [codeunit/12185 "Export Self-Billing Documents"](../objects/codeunit/12185-it.md) (own), [table/12205 "Fattura Setup"](../objects/table/12205-it.md) (own), [page/12204 "Fattura Setup"](../objects/page/12204-it.md) (own), [table/12198 "Fattura Code"](../objects/table/12198-it.md) (own), [table/12206 "Fattura Document Type"](../objects/table/12206-it.md) (own), [codeunit/12184 "Fattura Doc. Helper"](../objects/codeunit/12184-it.md) (own).
 
 [All 19 objects of EServices in the diff](?ns=EServices#country-diff)
 
 ### FixedAssets
 
-Adds anticipated, accelerated and reduced depreciation through depreciation table fields, compressed depreciation posting in FA Jnl.-Post Batch, new Depreciation Book report, and extra procedures in depreciation calculation.
+Adds anticipated, accelerated and reduced depreciation through depreciation table percentages and depreciation book settings. Adds depreciation compression in FA Jnl.-Post Batch and an Italian Depreciation Book report.
 
-Why: Learn documents alternate depreciation methods, compressed depreciation to reduce ledger entries, and the Depreciation Book report.
+Why: Learn documents alternate depreciation methods, compressed depreciation and the Depreciation Book report.
 
-Objects: [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5643 "Depreciation Table Line"](../objects/table/5643.md), [report/12119 "Depreciation Book"](../objects/report/12119-it.md) (own), [table/12100 "Compress Depreciation"](../objects/table/12100-it.md) (own), [codeunit/5611 "Calculate Normal Depreciation"](../objects/codeunit/5611.md), [codeunit/5618 "Table Depr. Calculation"](../objects/codeunit/5618.md), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md).
+Objects: [codeunit/5633 "FA Jnl.-Post Batch"](../objects/codeunit/5633.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5643 "Depreciation Table Line"](../objects/table/5643.md), [report/12119 "Depreciation Book"](../objects/report/12119-it.md) (own), [table/12100 "Compress Depreciation"](../objects/table/12100-it.md) (own), [codeunit/5611 "Calculate Normal Depreciation"](../objects/codeunit/5611.md), [codeunit/5618 "Table Depr. Calculation"](../objects/codeunit/5618.md), [page/5660 "Depreciation Table Lines"](../objects/page/5660.md).
 
 [All 12 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
 ### (no namespace)
 
-Italy extensions to No. Series and No. Series Line, an IT no. series codeunit, the CBI payment request XMLport and upgrade codeunits for detailed ledger entries and periodic VAT settlement entries.
+Holds Italian No. Series extensions, upgrade codeunits for detailed ledger and VAT settlement entries, the Intra-form buffer and a CBI payment request XMLport.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [xmlport/12100 "CBI Payment Request.00.04.00"](../objects/xmlport/12100-it.md) (own), [codeunit/12148 "No. Series IT"](../objects/codeunit/12148-it.md) (own), [tableextension/12145 "NoSeriesIT"](../objects/tableextension/12145-it.md) (own), [tableextension/12146 "NoSeriesLineIT"](../objects/tableextension/12146-it.md) (own), [tableextension/12147 "GeneralLedgerSetupIT"](../objects/tableextension/12147-it.md) (own), [table/12118 "Intra - form Buffer"](../objects/table/12118-it.md) (own).
+Objects: [codeunit/12148 "No. Series IT"](../objects/codeunit/12148-it.md) (own), [tableextension/12145 "NoSeriesIT"](../objects/tableextension/12145-it.md) (own), [tableextension/12146 "NoSeriesLineIT"](../objects/tableextension/12146-it.md) (own), [tableextension/12147 "GeneralLedgerSetupIT"](../objects/tableextension/12147-it.md) (own), [xmlport/12100 "CBI Payment Request.00.04.00"](../objects/xmlport/12100-it.md) (own), [table/12118 "Intra - form Buffer"](../objects/table/12118-it.md) (own).
 
 [All 10 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Utilities
 
-Local helper objects: activity codes, appointment codes, Spesometro appointments, the fiscal code check setup and report management and application management codeunits.
+Adds activity codes, appointment codes, Spesometro appointments and check fiscal code setup, plus Italian application management and report management codeunits.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/12124 "Activity Code"](../objects/table/12124-it.md) (own), [page/12124 "Activity Codes"](../objects/page/12124-it.md) (own), [table/12125 "Appointment Code"](../objects/table/12125-it.md) (own), [table/12126 "Spesometro Appointment"](../objects/table/12126-it.md) (own), [table/12123 "Check Fiscal Code Setup"](../objects/table/12123-it.md) (own), [codeunit/12112 "IT - Report Management"](../objects/codeunit/12112-it.md) (own), [codeunit/12104 "LocalApplicationManagement"](../objects/codeunit/12104-it.md) (own), [page/12120 "Spesometro Appointments"](../objects/page/12120-it.md) (own).
+Objects: [table/12124 "Activity Code"](../objects/table/12124-it.md) (own), [page/12124 "Activity Codes"](../objects/page/12124-it.md) (own), [table/12123 "Check Fiscal Code Setup"](../objects/table/12123-it.md) (own), [codeunit/12112 "IT - Report Management"](../objects/codeunit/12112-it.md) (own), [codeunit/12104 "LocalApplicationManagement"](../objects/codeunit/12104-it.md) (own), [table/12125 "Appointment Code"](../objects/table/12125-it.md) (own), [table/12126 "Spesometro Appointment"](../objects/table/12126-it.md) (own).
 
 [All 9 objects of Utilities in the diff](?ns=Utilities#country-diff)
 
 ### Microsoft
 
-Flat file management codeunit, a blacklist communication amount table and a document relation table.
+Adds a flat file management codeunit, a blacklist communication amount table and a document relation table.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -428,7 +428,7 @@ Objects: [codeunit/12133 "Flat File Management"](../objects/codeunit/12133-it.md
 
 ### Security
 
-The LOCAL, LOCAL READ and VAT Report - Edit permission sets are changed to cover the Italian objects.
+Changes the LOCAL and LOCAL READ permission sets and the VAT Report - Edit permission set for Italian objects.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -438,7 +438,7 @@ Objects: [permissionset/1001 "LOCAL"](../objects/permissionset/1001.md), [permis
 
 ### Environment
 
-A feature management codeunit for Italy and application area additions, including the legacy subcontracting application area.
+Adds a feature management codeunit and extends application area setup with a premium experience area and a legacy subcontracting area.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -448,7 +448,7 @@ Objects: [codeunit/12100 "Feature Management IT"](../objects/codeunit/12100-it.m
 
 ### HumanResources
 
-Employee gets birth place fields, and employee entry application gets VAT settlement and unrealized VAT checks.
+Employee gets birth place fields. The employee application codeunit adds checks for VAT settlement and unrealized VAT.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -458,7 +458,7 @@ Objects: [table/5200 "Employee"](../objects/table/5200.md), [codeunit/224 "EmplE
 
 ### CashFlow
 
-Cash Flow Worksheet Line gets new events and procedures for posted and unposted document calculation, credit memos and payment tolerance.
+Cash Flow Worksheet Line gains events and procedures for posted and unposted documents, credit memo handling and payment tolerance.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -468,7 +468,7 @@ Objects: [table/846 "Cash Flow Worksheet Line"](../objects/table/846.md).
 
 ### CRM
 
-Contact gets a Fiscal Code field and a transport document address procedure.
+Contact gets a Fiscal Code field and a procedure for transport document address data.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -478,7 +478,7 @@ Objects: [table/5050 "Contact"](../objects/table/5050.md).
 
 ### Projects
 
-Job Transfer Line gets a reverse charge VAT amount procedure and an event after validating job journal quantity.
+Job Transfer Line adds a reverse charge VAT amount calculation and an event on purchase line transfer.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 

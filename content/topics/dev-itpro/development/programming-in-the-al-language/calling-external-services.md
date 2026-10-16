@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-16T01:18:16.191Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -88,11 +88,9 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
-  videos:
-    - video/qNHUj3ZEang
+  videos: []
   posts:
     - post/aardvarklabs-blog/2953
-    - post/aardvarklabs-blog/3460
     - post/demiliani-com/13640
     - post/kauffmann-nl/8332
   guidelines: []
@@ -115,8 +113,8 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 1
-  blog: 4
+  video: 0
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -152,10 +150,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
-- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "how to consume external APIs from within Business Central by making HTTP requests using the HttpClient data type"
-- [Native SFTP Support in Business Central 28](../../../../posts/aardvarklabs-blog/3460.md) (community post): "Native SFTP Support in Business Central 28"
-- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "AL code can talk directly to SFTP servers"
-- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released"
-- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../../videos/qNHUj3ZEang.md) (video): "REST client; cookies; exception handling; collectible errors"
+- [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
+- [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
+- [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
