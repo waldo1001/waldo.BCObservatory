@@ -6,10 +6,18 @@
   "title": "Skip enabling incomplete existing retention policies on install/upgrade",
   "url": "https://github.com/microsoft/BCApps/pull/12429",
   "published_at": "2026-10-08T14:43:00Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:24:53.705Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "baaa356163366c09e31f17d13c0a0045bb17ccbe:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "skip enabling incomplete existing retention policies on install upgrade"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "dfa5e016fb66406711995a145f04de4a6d8726fa2d9dbe5a632a33696f15917a"
 }

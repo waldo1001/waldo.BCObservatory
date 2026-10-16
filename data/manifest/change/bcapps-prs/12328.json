@@ -6,10 +6,18 @@
   "title": "[Master Data Management] Fix usage telemetry and make it emit max once per day",
   "url": "https://github.com/microsoft/BCApps/pull/12328",
   "published_at": "2026-10-08T13:00:37Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:24:59.456Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
     }
   },
   "input_hash": "2cfb3bbe867aa5d753f84e42c464c9baf79a2c85:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "master data management fix usage telemetry and make it emit max once per day"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "212a27086a7b6c3cf81139a508f445206d276a887bb609cc3872d806df1f38ff"
 }

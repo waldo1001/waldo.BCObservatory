@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.086Z",
-      "blob": "d35601391253f9c0d076a5e126db013bc41daa07",
+      "at": "2026-10-16T00:25:01.046Z",
+      "blob": "90253a13db30b20d35f780a62e4d844ac91f00c2",
       "words": 397,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T19:32:01.322Z",
+      "at": "2026-10-16T00:25:07.571Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002032
+      "objects": 2,
+      "cost_usd": 0.003745
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.337Z",
+      "at": "2026-10-16T00:25:07.572Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.338Z",
+      "at": "2026-10-16T00:25:07.574Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.339Z",
+      "at": "2026-10-16T00:25:07.575Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/electronic-banking-in-finland.md",
     "description": "The electronic banking feature allows processing domestic and foreign payments. Set up bank reference files first to export or import electronic payments.",
-    "ms_date": "2025-02-12",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -85,12 +85,12 @@
       "vendor payments",
       "reference number"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 397,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cd0f7847a24cf2f65d342bc6eba19ef1798ef5e9e043cb651b5f157b55622dce"
+  "output_hash": "9a127c46a38ad32d4150bb1a2a8137847094342dd23535eba176f92ab37f7d63"
 }

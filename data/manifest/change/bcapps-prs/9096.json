@@ -6,10 +6,18 @@
   "title": "Align Bill-to Name 2 editability with the other bill-to address fields on sales documents",
   "url": "https://github.com/microsoft/BCApps/pull/9096",
   "published_at": "2026-10-08T10:43:22Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:25:02.860Z",
+      "change_class": "code",
+      "files": 42,
+      "al": 37,
+      "objects": 12,
+      "unjoined": 25
     }
   },
   "input_hash": "9fd8818a6f7c8cb8338fd1c08359e461338fd333:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "align bill to name 2 editability with the other bill to address fields on sales documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "61d496db6461811634a785026f076f0630db44533441d07aad0ea9899f93545a"
 }

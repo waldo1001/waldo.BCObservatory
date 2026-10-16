@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:41.020Z",
-      "blob": "1e417af9f017249821db286ff35cc491665eaea1",
-      "words": 358,
+      "at": "2026-10-16T00:24:51.210Z",
+      "blob": "94bba0a541a7464dd48589131d40fd9019e6121b",
+      "words": 345,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:43:26.992Z",
+      "at": "2026-10-16T00:24:56.299Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003878
+      "cost_usd": 0.003704
     },
     "summarized": {
-      "at": "2026-10-06T19:43:27.003Z",
+      "at": "2026-10-16T00:24:56.301Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:43:27.004Z",
+      "at": "2026-10-16T00:24:56.303Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:43:27.006Z",
+      "at": "2026-10-16T00:24:56.304Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md",
     "description": "Learn how Business Central assists you in meeting the requirement to send sales documents electronically to the Danish public sector in the OIOUBL format.",
-    "ms_date": "2025-04-24",
+    "ms_date": "2026-10-08",
     "ms_topic": "overview",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "sales documents",
       "reminder"
     ],
-    "ai_usage": null,
-    "words": 358,
+    "ai_usage": "ai-assisted",
+    "words": 345,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "34b591ca365ada85e34232514a1c9db25b18547803518745221c7c3a19ef6c84"
+  "output_hash": "6d9a2bfd5d2d2fe45f91d6d8e2916a749124237268e0f1454fccbcd5963e3d69"
 }

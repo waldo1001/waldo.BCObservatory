@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.690Z",
-      "blob": "9cbe0db488c6e846aa019774831d04bf1c4e3173",
-      "words": 206,
+      "at": "2026-10-16T00:24:56.258Z",
+      "blob": "8e3ce5dd27efe5f74b61c122e4259a56f7f273f6",
+      "words": 238,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.736Z",
+      "at": "2026-10-16T00:25:00.691Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.003743
+      "cost_usd": 0.003286
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.752Z",
+      "at": "2026-10-16T00:25:00.693Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.752Z",
+      "at": "2026-10-16T00:25:00.694Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.753Z",
+      "at": "2026-10-16T00:25:00.695Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/vat-registration-no-intrastat.md",
     "description": "Learn how to set up a VAT registration number as specified by the Danish Intrastat requirements.",
-    "ms_date": "2025-03-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "install-set-up-deploy",
     "search_form": [
       {
@@ -59,12 +59,12 @@
       "Intrastat",
       "Denmark"
     ],
-    "ai_usage": null,
-    "words": 206,
+    "ai_usage": "ai-assisted",
+    "words": 238,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d5a06f5332cb8ecd7c62aaaccb8d2fdc02ede00daf5407e2d7347700ca0d1f8a"
+  "output_hash": "88d4b2fd378cace819e0185e884f3e4ce45d019a169b6928a7bc52457009ad86"
 }

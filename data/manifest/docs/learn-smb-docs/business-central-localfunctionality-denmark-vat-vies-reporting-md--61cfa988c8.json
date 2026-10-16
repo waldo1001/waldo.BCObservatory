@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.076Z",
-      "blob": "e2da850c47aea5244e1bfda9a0f689a70022a0cd",
+      "at": "2026-10-16T00:24:56.355Z",
+      "blob": "3f75bf371c1bae15aa0cfe7a662a82ac5e1508a5",
       "words": 244,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:01.320Z",
+      "at": "2026-10-16T00:25:01.182Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002032
+      "objects": 2,
+      "cost_usd": 0.003354
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.328Z",
+      "at": "2026-10-16T00:25:01.185Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.330Z",
+      "at": "2026-10-16T00:25:01.186Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.331Z",
+      "at": "2026-10-16T00:25:01.188Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/vat-vies-reporting.md",
     "description": "You can create the required VAT declarations for trade of goods or services file in the Danish version by using the EC Sales List report.",
-    "ms_date": "2025-03-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "VAT for goods trade",
       "VAT-VIES"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 244,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "19acfe80b2257716d788c1d690fde292b46f1f3dc7d3c32b947ee352e3e4918d"
+  "output_hash": "7cbca54b61c3e0e6b69ca9362f55a983f6b7d6dd6c9cc2f641880faa007a8937"
 }

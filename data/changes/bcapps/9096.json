@@ -1,0 +1,608 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9096,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9096",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T10:43:22Z",
+  "merge_commit_sha": "9fd8818a6f7c8cb8338fd1c08359e461338fd333",
+  "author": "Franco111000",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "Align Bill-to Name 2 editability with the other bill-to address fields on sales documents",
+  "body_hash": "7179f60300655bf318234915fd9c4fa20ce29eca76c5c9fe420794ac57d7598c",
+  "fixes_issues": [
+    8312
+  ],
+  "work_items": [
+    647616
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesInvoice.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrder.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/SalesQuote.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/BlanketSalesName2Test.PageExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/SalesInvoiceName2Test.PageExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/SalesOrderName2Test.PageExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/SalesQuoteName2Test.PageExt.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Misc/UTPageActionsControls.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 4,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 42,
+    "additions": 142,
+    "deletions": 78,
+    "al": 37
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/507",
+        "type": "page",
+        "id": 507,
+        "name": "Blanket Sales Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/507"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "key": "page/43",
+        "type": "page",
+        "id": 43,
+        "name": "Sales Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/43"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/42",
+        "type": "page",
+        "id": 42,
+        "name": "Sales Order",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/42"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "key": "page/41",
+        "type": "page",
+        "id": 41,
+        "name": "Sales Quote",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "page/41"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/507",
+        "type": "page",
+        "id": 507,
+        "name": "Blanket Sales Order",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "page/507"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/507",
+        "type": "page",
+        "id": 507,
+        "name": "Blanket Sales Order",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "page/507"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "key": "page/43",
+        "type": "page",
+        "id": 43,
+        "name": "Sales Invoice",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "page/43"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/42",
+        "type": "page",
+        "id": 42,
+        "name": "Sales Order",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "page/42"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/507",
+        "type": "page",
+        "id": 507,
+        "name": "Blanket Sales Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/507"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "key": "page/43",
+        "type": "page",
+        "id": 43,
+        "name": "Sales Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/43"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "key": "page/42",
+        "type": "page",
+        "id": 42,
+        "name": "Sales Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/42"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "key": "page/41",
+        "type": "page",
+        "id": 41,
+        "name": "Sales Quote",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/41"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/BlanketSalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesInvoice.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesOrder.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Document/SalesQuote.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Base Application"
+  ],
+  "issues": [
+    {
+      "number": 8312,
+      "title": "[Bug]: Bill-to Name 2 is editable on other conditions than all other Bill-To Fields",
+      "state": "closed"
+    }
+  ]
+}

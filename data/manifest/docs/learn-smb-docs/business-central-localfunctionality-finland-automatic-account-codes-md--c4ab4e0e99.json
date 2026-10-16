@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.081Z",
-      "blob": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
+      "at": "2026-10-16T00:25:00.743Z",
+      "blob": "00201616b693724e1de240ab60656ae57c8659bb",
       "words": 23,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:32:01.321Z",
+      "at": "2026-10-16T00:25:07.586Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002032
+      "cost_usd": 0.002535
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.333Z",
+      "at": "2026-10-16T00:25:07.588Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.334Z",
+      "at": "2026-10-16T00:25:07.590Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.335Z",
+      "at": "2026-10-16T00:25:07.591Z",
       "page": false
     }
   },
@@ -45,17 +45,17 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/automatic-account-codes.md",
     "description": "You can use customized posting groups to automate recurring transactions in journals, sales documents, or purchase documents in the Finnish version.",
-    "ms_date": "2025-02-12",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
-        "raw": "11207",
-        "id": 11207,
+        "raw": "4850",
+        "id": 4850,
         "kind": null
       },
       {
-        "raw": "11208",
-        "id": 11208,
+        "raw": "4852",
+        "id": 4852,
         "kind": null
       }
     ],
@@ -68,12 +68,12 @@
       "journals",
       "purchase documents"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 23,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "086534f4e37e0ac8f268563c74c98f17b6e1ced650a32baf3f2b8cc4b8b85345"
+  "output_hash": "83cf8c3c9033ce819782384c65fc8d725b72be4c04fc343ae51a7445a6d354a4"
 }

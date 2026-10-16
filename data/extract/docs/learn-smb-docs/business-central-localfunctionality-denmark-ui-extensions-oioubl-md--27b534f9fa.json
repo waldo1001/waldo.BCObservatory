@@ -2,27 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl",
   "title": "OIOUBL Extension for Electronic Invoicing",
-  "blob": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
-  "summary": "The OIOUBL extension generates XML electronic documents in UBL 2.0 format for Danish public sector customers. The extension handles invoices, credit memos, and reminders meeting OIOUBL profile requirements.",
+  "blob": "5014bd812c63945b3ff3090fbc9a9b90fcb11891",
+  "summary": "The OIOUBL extension enables automatic generation of XML-formatted electronic invoices, credit memos, and reminders compliant with Danish public sector requirements based on UBL version 2.0 standard.",
   "systems": [
+    "localization",
     "sales",
-    "localization"
+    "integration"
   ],
   "topics": [
-    "oioubl",
-    "electronic invoicing",
     "denmark",
-    "ubl",
-    "xml"
+    "electronic invoicing",
+    "oioubl",
+    "xml",
+    "ubl format",
+    "public sector"
   ],
   "objects": [],
   "features": [
-    "XML document generation",
-    "UBL 2.0 compliance",
-    "OIOUBL profile support",
-    "posted document processing",
-    "credit memo handling",
-    "reminder generation"
+    "OIOUBL extension",
+    "electronic invoice generation",
+    "XML document creation",
+    "credit memo support",
+    "reminder support",
+    "customer account codes",
+    "GLN setup"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002828,
-      "pages_in_call": 7
+      "cost_usd": 0.003333,
+      "pages_in_call": 1
     }
   ]
 }

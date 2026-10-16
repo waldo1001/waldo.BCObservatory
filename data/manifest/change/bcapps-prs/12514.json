@@ -6,10 +6,18 @@
   "title": "Revert Expense API test re-enablement and consolidated fixes",
   "url": "https://github.com/microsoft/BCApps/pull/12514",
   "published_at": "2026-10-08T06:19:43Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:25:03.978Z",
+      "change_class": "code",
+      "files": 21,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "97c2f034e7a32eb3bbb7efb1a1e893ea06ac121b:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": false,
     "title_key": "revert expense api test re enablement and consolidated fixes"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bcdfb2b9cd7815e28c536e58b86c2cfd770d1a76f9a00f4e435e8bb0f6c6b79f"
 }

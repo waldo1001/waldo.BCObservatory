@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/ui-extensions-oioubl",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.067Z",
-      "blob": "bd3e84dba7c1c16f9f19082c6541f582cc1e2f91",
-      "words": 209,
+      "at": "2026-10-16T00:24:51.231Z",
+      "blob": "5014bd812c63945b3ff3090fbc9a9b90fcb11891",
+      "words": 201,
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:32:03.551Z",
+      "at": "2026-10-16T00:24:56.208Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002828
+      "cost_usd": 0.003333
     },
     "summarized": {
-      "at": "2026-10-06T19:32:03.568Z",
+      "at": "2026-10-16T00:24:56.209Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:03.569Z",
+      "at": "2026-10-16T00:24:56.210Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:03.570Z",
+      "at": "2026-10-16T00:24:56.211Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/ui-extensions-oioubl.md",
     "description": "The OIOUBL extension simplifies the process of sending sales documents electronically to customers in the Danish public sector using the OIOUBL format.",
-    "ms_date": "2025-04-24",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -71,12 +71,12 @@
       "sales documents",
       "Denmark"
     ],
-    "ai_usage": null,
-    "words": 209,
+    "ai_usage": "ai-assisted",
+    "words": 201,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4d7154404c6619d2cad4575ce4ad9cb0327d3d9f21b3349dd6bed10a1040d407"
+  "output_hash": "6ded6252f85c73814b135e4738b38d6f6d733d974004728b86b42e4123a0da52"
 }

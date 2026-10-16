@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12314,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12314",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T13:13:16Z",
+  "merge_commit_sha": "132f8c3844b0d8df9f816b3e5fea251589db9796",
+  "author": "darjoo",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix SaaS state leak in Permissions Test PopulatePermissionBuffer tests",
+  "body_hash": "e3bd17b2ddbe16cfff5ec098d12bbd647bba575e30679f9aeb27d706ae5d5d6b",
+  "fixes_issues": [],
+  "work_items": [
+    652578
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 20,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

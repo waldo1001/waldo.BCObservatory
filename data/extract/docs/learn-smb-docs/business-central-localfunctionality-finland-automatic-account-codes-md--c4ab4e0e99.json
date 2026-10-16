@@ -2,22 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/automatic-account-codes.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes",
   "title": "Automatic account codes in the Finnish version",
-  "blob": "9e5b2a45521bba0e89527a8635457fa57fd9966c",
-  "summary": "Automatic account codes in the Finnish version enable automatic posting group setup for finance operations. Provides reference to related setup procedures and posting group documentation.",
+  "blob": "00201616b693724e1de240ab60656ae57c8659bb",
+  "summary": "Automatic account codes in the Finnish version enable automatic posting group setup. Use this when setting up Finnish localization features for posting groups.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "automatic posting",
-    "account codes",
-    "finland",
-    "posting groups"
+    "automatic account codes",
+    "posting groups",
+    "finnish version",
+    "account posting"
   ],
   "objects": [],
   "features": [
-    "automatic account codes",
-    "automatic account posting groups"
+    "Automatic account codes",
+    "Automatic account posting groups",
+    "Finnish localization"
   ],
   "versions": [],
   "parts": 1,
@@ -26,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002032,
-      "pages_in_call": 7
+      "cost_usd": 0.002535,
+      "pages_in_call": 1
     }
   ]
 }

@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/vat-vies-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/vat-vies-reporting",
   "title": "VAT-VIES Reporting [DK]",
-  "blob": "e2da850c47aea5244e1bfda9a0f689a70022a0cd",
-  "summary": "VAT-VIES reporting in Denmark requires submitting VAT declarations for EU trade using the EC Sales List report. Configure plain VAT registration numbers on customer and vendor cards to comply with Danish tax authority requirements.",
+  "blob": "3f75bf371c1bae15aa0cfe7a662a82ac5e1508a5",
+  "summary": "VAT-VIES reporting for Danish companies filing VAT declarations for EU trade. Use the EC Sales List report to create required files and configure VAT registration numbers on customer and vendor cards.",
   "systems": [
     "finance",
     "localization"
@@ -11,21 +11,27 @@
   "topics": [
     "vat reporting",
     "eu sales",
-    "vat registration",
     "denmark",
-    "tax compliance"
+    "tax compliance",
+    "intrastat",
+    "ec sales list"
   ],
   "objects": [
     {
       "type": "report",
       "name": "EC Sales List"
+    },
+    {
+      "type": "page",
+      "name": "Intrastat Setup"
     }
   ],
   "features": [
-    "VAT-VIES reporting",
-    "EC Sales List report",
     "VAT registration number setup",
-    "EU sales tracking"
+    "EC Sales List report",
+    "EU sales tracking",
+    "VAT declaration",
+    "Online verification"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +40,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002032,
-      "pages_in_call": 7
+      "cost_usd": 0.003354,
+      "pages_in_call": 1
     }
   ]
 }

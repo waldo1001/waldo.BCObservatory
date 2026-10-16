@@ -1,0 +1,206 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12514,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12514",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T06:19:43Z",
+  "merge_commit_sha": "97c2f034e7a32eb3bbb7efb1a1e893ea06ac121b",
+  "author": "aholstrup1",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: Automation",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Revert Expense API test re-enablement and consolidated fixes",
+  "body_hash": "fd66d522990a94a2ab7e183b39de5a962b234bbe6e57a1ee077e64a88696dfb4",
+  "fixes_issues": [],
+  "work_items": [
+    646383,
+    653393
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": ".github/AL-Go-Settings.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelRequestApproval.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 20,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseActivityLogAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 14,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseAgentSetupAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseCapabilitiesAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpensePerDiemLocationsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseProjectsAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseUsersAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/ExpenseVATSpecAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/PoliciesToEvaluateAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/PolicyEvaluationsAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/API/TravelRequestsAPITest.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/ExpensePermissionsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 134,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/Helper/ExpenseAPITestAuthHelper.Codeunit.al",
+      "status": "added",
+      "additions": 61,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/Permissions/ExpDetailTest.PermissionSet.al",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 20,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/test/src/SpendRequestTest.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 168,
+      "class": "al-test"
+    },
+    {
+      "path": "src/DisabledTests/Expense_Agent_Tests/Expense_Agent_Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 255,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/DisabledTests/_Exclude_APIV1__Tests/_Exclude_APIV1__Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 675,
+      "class": "other"
+    },
+    {
+      "path": "src/DisabledTests/_Exclude_APIV2__Tests/_Exclude_APIV2__Tests.DisabledTest.json",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 290,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/SpendRequestTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 48,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryGraphMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 6,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 21,
+    "additions": 375,
+    "deletions": 1405,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Travel Request/Codeunits/TravelRequestApproval.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7133",
+        "type": "codeunit",
+        "id": 7133,
+        "name": "Travel Request Approval",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "codeunit/7133"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

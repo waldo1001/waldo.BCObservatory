@@ -2,32 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/electronic-banking-in-finland.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland",
   "title": "Electronic banking in Finland",
-  "blob": "d35601391253f9c0d076a5e126db013bc41daa07",
-  "summary": "Electronic banking in Finland supports domestic and foreign payment processing through LM03 and LUM2 formats. Enables automated linking of customer payments to invoices and export of vendor payments via bank transfer files.",
+  "blob": "90253a13db30b20d35f780a62e4d844ac91f00c2",
+  "summary": "Electronic banking in Finland supports processing domestic and foreign customer and vendor payments through bank reference files. Use this page to understand how to import customer payments and export vendor payments electronically.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "integration"
   ],
   "topics": [
     "electronic banking",
-    "payments",
     "finland",
-    "domestic payments",
-    "foreign payments"
+    "payment processing",
+    "customer payments",
+    "vendor payments",
+    "bank integration"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Bank Payments to Send"
+      "name": "Bank Payments to send"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "domestic customer payments",
-    "foreign payments",
-    "bank reference files",
-    "payment file export",
-    "reference numbers",
-    "electronic payment processing"
+    "Domestic payments (LM03)",
+    "Foreign payments (LUM2)",
+    "Customer payment import",
+    "Vendor payment export",
+    "Bank reference files",
+    "Reference number automation",
+    "Payment file generation",
+    "Cash receipt journal"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002032,
-      "pages_in_call": 7
+      "cost_usd": 0.003745,
+      "pages_in_call": 1
     }
   ]
 }

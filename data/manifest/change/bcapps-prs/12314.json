@@ -6,7 +6,7 @@
   "title": "Fix SaaS state leak in Permissions Test PopulatePermissionBuffer tests",
   "url": "https://github.com/microsoft/BCApps/pull/12314",
   "published_at": "2026-10-08T13:13:16Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-16T00:24:55.997Z",
+  "retry_after": null
 }
