@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.443Z",
-      "blob": "ac0065bf596389c29728511bfea01e7fa174d181",
-      "words": 263,
+      "at": "2026-10-16T00:26:45.600Z",
+      "blob": "55d9d01cb6b58bda6961908c1c13d8dafa637441",
+      "words": 291,
       "forms": 7
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.281Z",
+      "at": "2026-10-16T00:26:50.833Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003116
+      "objects": 4,
+      "cost_usd": 0.003714
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.401Z",
+      "at": "2026-10-16T00:26:50.835Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.403Z",
+      "at": "2026-10-16T00:26:50.836Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.404Z",
+      "at": "2026-10-16T00:26:50.838Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/vat-reporting.md",
     "description": "You can report VAT electronically to the tax authorities in the German version.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "article",
     "search_form": [
       {
@@ -91,12 +91,12 @@
       "VAT statement",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 263,
+    "ai_usage": "ai-assisted",
+    "words": 291,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6763c29ea061cb75566ecd168f7f1edfa833ad5f1c8acad227f2482f6a9f1583"
+  "output_hash": "f1f522d88a863f4a5d6494d4ded8e3791b7fdf0537d70d42cee4a61cd0996825"
 }

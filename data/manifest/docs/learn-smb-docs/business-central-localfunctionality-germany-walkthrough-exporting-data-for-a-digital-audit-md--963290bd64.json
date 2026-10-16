@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.448Z",
-      "blob": "572fc30345f89b862d6caf65aa4492cf4fbe71e9",
-      "words": 2045,
+      "at": "2026-10-16T00:26:45.589Z",
+      "blob": "03d53fbe9dd7a4bf02ada953c9fb7db95bf1e3d6",
+      "words": 2047,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:36.298Z",
+      "at": "2026-10-16T00:26:51.423Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.003116
+      "objects": 4,
+      "cost_usd": 0.013332
     },
     "summarized": {
-      "at": "2026-10-06T19:29:36.406Z",
+      "at": "2026-10-16T00:26:51.425Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:36.407Z",
+      "at": "2026-10-16T00:26:51.427Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:36.409Z",
+      "at": "2026-10-16T00:26:51.433Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md",
     "description": "Export business data for auditing purposes following the digital audit process (GoBD/GDPdU) as per German tax regulations.",
-    "ms_date": "2025-03-12",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "German tax regulations",
       "German version"
     ],
-    "ai_usage": null,
-    "words": 2045,
+    "ai_usage": "ai-assisted",
+    "words": 2047,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8790ce72bdb035e567abb144372b51200b28b335ddaf48d7c0d056998127f8af"
+  "output_hash": "4ec84399765ed7eaf75b811b569f2579b862d29af1b296c9ee7d2ba8724c9bbf"
 }

@@ -1,9 +1,9 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-debugging.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging",
-  "title": "Debugging in AL",
-  "blob": "fb0b8dff2f440c473527def4c6cb30c16bf5ca7f",
-  "summary": "Debugging in AL guides developers to find and correct errors using the Visual Studio Code integrated debugger, breakpoints, and database inspection capabilities to verify application behavior.",
+  "title": "Debug AL Code in Visual Studio Code",
+  "blob": "97ce0b6cee3881962afaccdb52d94c188be5861c",
+  "summary": "Debug AL code in Visual Studio Code using integrated debugging features including breakpoints, conditional breakpoints, and SQL behavior inspection to identify and correct application errors.",
   "systems": [
     "development",
     "platform"
@@ -12,38 +12,63 @@
     "debugging",
     "breakpoints",
     "visual studio code",
+    "al code",
     "sql debugging",
-    "snapshot debugging",
-    "error handling",
-    "performance analysis"
+    "error handling"
   ],
   "objects": [
     {
       "type": "other",
-      "name": "Launch JSON File"
+      "name": "Record.Insert"
+    },
+    {
+      "type": "other",
+      "name": "Record.Modify"
+    },
+    {
+      "type": "other",
+      "name": "Record.ModifyAll"
+    },
+    {
+      "type": "other",
+      "name": "Record.Rename"
+    },
+    {
+      "type": "other",
+      "name": "Record.Delete"
+    },
+    {
+      "type": "other",
+      "name": "Record.DeleteAll"
+    },
+    {
+      "type": "other",
+      "name": "SessionInformation.SqlStatementsExecuted"
+    },
+    {
+      "type": "other",
+      "name": "SessionInformation.SqlRowsRead"
     }
   ],
   "features": [
-    "Breakpoint setting and conditional breakpoints",
-    "Break on errors configuration",
-    "Break on record changes",
-    "SQL debugging and database statistics",
-    "Database locks inspection",
-    "Web service debugging",
-    "Attach and debug next",
-    "NonDebuggable attribute restriction"
+    "breakpoints",
+    "conditional breakpoints",
+    "break on errors",
+    "break on record changes",
+    "snapshot debugging",
+    "attach and debug next",
+    "SQL behavior inspection",
+    "database statistics"
   ],
-  "versions": [
-    "April 2019"
-  ],
+  "versions": [],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 5
+      "cached": false,
+      "cost_usd": 0.01091,
+      "pages_in_call": 1
     }
   ]
 }

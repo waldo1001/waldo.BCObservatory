@@ -1,26 +1,25 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-debug-upgrade-install-code.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-upgrade-install-code",
-  "title": "Debug upgrade and install code",
-  "blob": "8d4d3fcc8860e3f308f9d8962d4a09e0a620fd68",
-  "summary": "Debug upgrade and install code by adding breakpoints and attaching debugging sessions. Increment app version or set forceUpgrade flag to trigger upgrade codeunit execution.",
+  "title": "Debug Upgrade and Install Code in AL",
+  "blob": "da4a8b01d307206c7e4311d253d365f38c5c4049",
+  "summary": "Debug extension installation and upgrade codeunits in AL using attach debugging sessions in Visual Studio Code with breakpoints and publish commands.",
   "systems": [
     "development"
   ],
   "topics": [
     "debugging",
-    "upgrade code",
-    "install code",
-    "breakpoints"
+    "extensions",
+    "install codeunits",
+    "upgrade codeunits",
+    "visual studio code"
   ],
   "objects": [],
   "features": [
     "attach debugging",
     "breakpoints",
-    "version increment",
-    "forceUpgrade flag",
-    "install codeunits",
-    "upgrade codeunits"
+    "publish extension without building",
+    "system session debugging"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003305,
-      "pages_in_call": 8
+      "cost_usd": 0.005348,
+      "pages_in_call": 1
     }
   ]
 }

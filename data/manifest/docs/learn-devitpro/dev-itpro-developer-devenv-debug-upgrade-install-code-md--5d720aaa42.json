@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Debug upgrade and install code",
+  "title": "Debug Upgrade and Install Code in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debug-upgrade-install-code",
   "published_at": "2026-10-08T08:49:08.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.725Z",
-      "blob": "8d4d3fcc8860e3f308f9d8962d4a09e0a620fd68",
-      "words": 200,
+      "at": "2026-10-16T00:26:50.886Z",
+      "blob": "da4a8b01d307206c7e4311d253d365f38c5c4049",
+      "words": 158,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:25.351Z",
+      "at": "2026-10-16T00:26:59.095Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003305
+      "cost_usd": 0.005348
     },
     "summarized": {
-      "at": "2026-10-06T19:35:25.370Z",
+      "at": "2026-10-16T00:26:59.096Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:25.371Z",
+      "at": "2026-10-16T00:26:59.097Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:25.372Z",
+      "at": "2026-10-16T00:26:59.098Z",
       "page": false
     }
   },
@@ -44,19 +44,20 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-debug-upgrade-install-code.md",
-    "description": "Overview of debugging upgrade and install codeunits in AL for Business Central",
-    "ms_date": "2022-08-01",
-    "ms_topic": "install-set-up-deploy",
+    "description": "Debug AL install and upgrade codeunits by attaching to Business Central before you publish an extension from Visual Studio Code.",
+    "ms_date": "2026-10-07",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 200,
+    "words": 158,
     "identifiers": [
+      "useSystemSessionForDeployment",
       "forceUpgrade"
     ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b760562549f24c23d83cb7542476eda488ea3d7c784c6eec7d4d33ee13bf91ff"
+  "output_hash": "efd5512d09e5c8b0552daffda0a0c4e366d1fb2fd4e502596af396393fdc0054"
 }

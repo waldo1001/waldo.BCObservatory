@@ -2,25 +2,47 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit",
   "title": "Exporting data for a digital audit [DE]",
-  "blob": "572fc30345f89b862d6caf65aa4492cf4fbe71e9",
-  "summary": "Complete walkthrough for exporting general ledger, customer, and vendor data for digital audits (GoBD/GDPdU) in the German version including setup and configuration steps.",
+  "blob": "03d53fbe9dd7a4bf02ada953c9fb7db95bf1e3d6",
+  "summary": "Walkthrough for exporting business data in German Business Central for digital audit compliance (GoBD/GDPdU). Describes setting up data exports from general ledger, customer, and vendor tables, then exporting the data for tax auditors.",
   "systems": [
+    "finance",
     "localization",
-    "finance"
+    "administration"
   ],
   "topics": [
-    "digital audits",
-    "germany local functionality",
+    "digital audit",
     "data export",
-    "gobdgdpdu",
-    "walkthrough"
+    "germany",
+    "tax compliance",
+    "gobd",
+    "gdpdu"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "table",
+      "name": "G/L Account"
+    },
+    {
+      "type": "table",
+      "name": "G/L Entry"
+    },
+    {
+      "type": "table",
+      "name": "Customer"
+    },
+    {
+      "type": "table",
+      "name": "Vendor"
+    }
+  ],
   "features": [
-    "data export record definitions",
-    "table relationships",
-    "period filters",
-    "data validation"
+    "Data Exports",
+    "Data Export Record Definitions",
+    "Data Export Record Types",
+    "Data Export Record Source",
+    "Export Business Data",
+    "Period Field filtering",
+    "Date Filter Handling"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +51,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.013332,
+      "pages_in_call": 1
     }
   ]
 }

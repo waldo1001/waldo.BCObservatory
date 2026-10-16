@@ -2,35 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Austria/vat-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting",
   "title": "VAT reporting in the Austrian version",
-  "blob": "45f85e71c3049a5074582bba3ae61751841cbea1",
-  "summary": "Generate and report VAT information in the Austrian version through VAT Statement AT and VAT-VIES Declaration XML reports for EU compliance and tax authority submission.",
+  "blob": "0fdc5aa36392edf4af1c075585ff434810cb928a",
+  "summary": "VAT reporting in Austria requires VIES reporting in specific formats. The page documents Austrian VAT reports including VAT Statement Austria (in FDF, XML, PDF formats) and VAT-VIES Declaration XML for EU sales reporting.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat reporting",
+    "vies declaration",
     "austria",
-    "vies",
     "tax compliance",
-    "xml"
+    "xml reporting"
   ],
   "objects": [
     {
-      "type": "report",
-      "name": "VAT Statement AT"
+      "type": "table",
+      "name": "VAT Statement Line"
+    },
+    {
+      "type": "table",
+      "name": "VAT Entry"
     },
     {
       "type": "report",
-      "name": "VAT-VIES Declaration XML Report"
+      "name": "VAT Statement Austria"
+    },
+    {
+      "type": "report",
+      "name": "VAT - VIES Declaration XML"
     }
   ],
   "features": [
-    "VAT statement generation",
-    "VIES reporting",
-    "XML file export",
-    "Finanz Online Portal integration",
-    "multiple format support"
+    "VAT Statement Austria",
+    "VAT-VIES Declaration XML",
+    "FDF format",
+    "XML format",
+    "PDF format",
+    "FinanzOnline submission"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.001196,
-      "pages_in_call": 8
+      "cost_usd": 0.003622,
+      "pages_in_call": 1
     }
   ]
 }

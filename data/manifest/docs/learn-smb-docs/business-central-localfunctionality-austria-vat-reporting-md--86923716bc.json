@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Austria/vat-reporting",
   "published_at": "2026-10-08T12:35:07.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.863Z",
-      "blob": "45f85e71c3049a5074582bba3ae61751841cbea1",
+      "at": "2026-10-16T00:26:45.623Z",
+      "blob": "0fdc5aa36392edf4af1c075585ff434810cb928a",
       "words": 157,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:31:07.229Z",
+      "at": "2026-10-16T00:26:51.212Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.001196
+      "objects": 4,
+      "cost_usd": 0.003622
     },
     "summarized": {
-      "at": "2026-10-06T19:31:07.248Z",
+      "at": "2026-10-16T00:26:51.213Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:31:07.248Z",
+      "at": "2026-10-16T00:26:51.214Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:31:07.249Z",
+      "at": "2026-10-16T00:26:51.215Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Austria/vat-reporting.md",
     "description": "You can report VAT electronically to the tax authorities in the Austrian version.",
-    "ms_date": "2025-03-06",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "VAT-VIES declaration",
       "VAT statement"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 157,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "714597c50dfe1e10fbcc4f84ef66f430310cc86e4106dca91c8a769458858186"
+  "output_hash": "5b259dae4e883b7c2565e44f245ef7c10412b2742962b14f929b81fc37ed4e81"
 }

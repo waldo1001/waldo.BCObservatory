@@ -3,38 +3,38 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Setting conditional breakpoints",
+  "title": "Set Conditional Breakpoints in AL",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-debugging-conditional-breakpoints",
   "published_at": "2026-10-08T08:49:08.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.883Z",
-      "blob": "93203b262ece983931af3afafaba595afc647783",
-      "words": 457,
+      "at": "2026-10-16T00:26:51.264Z",
+      "blob": "5e381f828f08149c01f20bc695ea06deb95c5237",
+      "words": 376,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:02:53.464Z",
+      "at": "2026-10-16T00:26:55.574Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.011886
+      "cost_usd": 0.003426
     },
     "summarized": {
-      "at": "2026-10-06T19:02:53.473Z",
+      "at": "2026-10-16T00:26:55.575Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:02:53.474Z",
+      "at": "2026-10-16T00:26:55.577Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:02:53.475Z",
+      "at": "2026-10-16T00:26:55.578Z",
       "page": false
     }
   },
@@ -44,17 +44,21 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-debugging-conditional-breakpoints.md",
-    "description": "Overview of setting conditional breakpoints in AL.",
-    "ms_date": "2025-09-25",
+    "description": "Set conditional breakpoints in Visual Studio Code to pause AL code only when variables, fields, or supported expressions meet a condition.",
+    "ms_date": "2026-10-07",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 457,
-    "identifiers": [],
+    "words": 376,
+    "identifiers": [
+      "BigInteger",
+      "DateTime",
+      "RecordRef"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ae020b3f315fbc2f42e173c79170bee9a2738732858d44e149a79c2a0b25ab1"
+  "output_hash": "234847297922781cf43fdf575a9ac30627a53f0f69821e926e2a5d8df13c31c8"
 }

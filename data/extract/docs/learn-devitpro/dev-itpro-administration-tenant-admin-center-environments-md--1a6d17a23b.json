@@ -2,8 +2,8 @@
   "item_id": "docs/learn-devitpro/dev-itpro/administration/tenant-admin-center-environments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments",
   "title": "Managing Production and Sandbox Environments",
-  "blob": "e09212ac5efcff3df8eafa7514d527290649c775",
-  "summary": "The admin center Environments tab manages Business Central production and sandbox environments, supporting Power Platform linking, environment creation, copying, deletion, and administrative operations logging. Use it to view environment details and manage lifecycle operations.",
+  "blob": "dc8779287cd71cf01455847158cfd548bcc7642a",
+  "summary": "The Environments tab in the Business Central admin center manages production and sandbox environments, including environment creation, linking to Power Platform, and tracking administrative operations. Use it to view environment details, manage updates, copy environments, and access a log of all admin center operations.",
   "systems": [
     "administration",
     "platform",
@@ -11,25 +11,22 @@
   ],
   "topics": [
     "environment management",
-    "production",
-    "sandbox",
-    "admin center",
-    "power platform",
-    "operations log"
+    "production environments",
+    "sandbox environments",
+    "power platform integration",
+    "admin center operations",
+    "environment lifecycle"
   ],
   "objects": [],
   "features": [
-    "Power Platform environment linking",
-    "Environment creation and deletion",
-    "Environment copying",
+    "Environment overview and details",
+    "Linked Power Platform environment management",
+    "Create new environments",
+    "Copy environments",
+    "Environment deletion and recovery",
     "Update window configuration",
-    "Security group management",
-    "Application Insights integration",
     "Administrative operations log",
-    "Environment recovery",
-    "Environment restart",
-    "Environment rename",
-    "Environment transfer between tenants"
+    "Environment rename and transfer"
   ],
   "versions": [
     "25.x"
@@ -40,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.012275,
-      "pages_in_call": 4
+      "cost_usd": 0.011201,
+      "pages_in_call": 1
     }
   ]
 }

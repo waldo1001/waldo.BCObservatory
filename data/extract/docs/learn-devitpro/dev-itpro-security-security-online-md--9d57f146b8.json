@@ -2,32 +2,32 @@
   "item_id": "docs/learn-devitpro/dev-itpro/security/security-online.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-online",
   "title": "Security in Business Central",
-  "blob": "9bc01fda2af2de1166adaf1b7a0e948382e3f0a8",
-  "summary": "Security in Business Central online deployment covers authentication, access control, data protection, encryption, Privileged Identity Management, auditing, and integrated security practices for cloud-based tenants.",
+  "blob": "5955dcc74cf64904c530f3d54b1c976e5967110a",
+  "summary": "Security best practices for Business Central online deployments covering authentication, access control, data protection, and compliance. Use this to understand and implement security measures including MFA, encryption, conditional access, and audit logging.",
   "systems": [
     "administration",
-    "platform",
-    "integration"
+    "platform"
   ],
   "topics": [
     "authentication",
     "encryption",
-    "access control",
     "data protection",
+    "access control",
     "compliance",
-    "multifactor authentication",
-    "privileged access"
+    "audit",
+    "conditional access",
+    "multifactor authentication"
   ],
   "objects": [],
   "features": [
-    "Conditional Access",
-    "multifactor authentication",
-    "data isolation",
-    "Transparent Data Encryption",
-    "customer-managed encryption key",
+    "Multifactor Authentication (MFA)",
+    "Microsoft Entra ID Conditional Access",
+    "Data Encryption at Rest (TDE)",
+    "Customer-managed encryption key (CMK)",
     "Customer Lockbox",
     "Approval Workflows",
-    "audit logs"
+    "Privileged Identity Management (PIM)",
+    "Audit logging"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.006845,
-      "pages_in_call": 7
+      "cost_usd": 0.009681,
+      "pages_in_call": 1
     }
   ]
 }

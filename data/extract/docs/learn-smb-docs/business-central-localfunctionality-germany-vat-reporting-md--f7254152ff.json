@@ -2,24 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Germany/vat-reporting.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/vat-reporting",
   "title": "VAT Reporting in the German version",
-  "blob": "ac0065bf596389c29728511bfea01e7fa174d181",
-  "summary": "Report VAT to German tax authorities via ELSTER portal and print local VAT reports including VAT Statement Germany, Sales VAT Advance Notifications, and VAT Statement Schedule.",
+  "blob": "55d9d01cb6b58bda6961908c1c13d8dafa637441",
+  "summary": "VAT reporting in the German version enables businesses to report VAT to German tax authorities via the ELSTER online portal by generating and exporting VAT declarations as XML files, with support for local VAT reports that differentiate amounts by taxable base and taxable amount.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "vat reporting",
-    "germany local functionality",
+    "german vat",
     "elster",
-    "tax authorities"
+    "tax compliance",
+    "vat declaration",
+    "sales vat advance notifications"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "VAT Statement Germany"
+    },
+    {
+      "type": "report",
+      "name": "Sales VAT Adv. Not. Acc. Proof"
+    },
+    {
+      "type": "report",
+      "name": "VAT Statement Schedule"
+    },
+    {
+      "type": "table",
+      "name": "VAT Statement Line"
+    }
+  ],
   "features": [
-    "VAT Statement Germany report",
-    "Sales VAT Adv. Not. Acc. Proof report",
-    "VAT Statement Schedule report",
-    "ELSTER export"
+    "VAT declaration export",
+    "ELSTER portal integration",
+    "Period date type selection",
+    "VAT reconciliation",
+    "VAT corrections"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003116,
-      "pages_in_call": 8
+      "cost_usd": 0.003714,
+      "pages_in_call": 1
     }
   ]
 }
