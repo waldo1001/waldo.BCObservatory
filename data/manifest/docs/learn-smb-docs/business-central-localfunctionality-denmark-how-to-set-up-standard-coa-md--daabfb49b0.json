@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.775Z",
-      "blob": "e456b5b64af666d20dcf255828f514a20294dee7",
-      "words": 284,
-      "forms": 4
+      "at": "2026-10-16T00:24:42.571Z",
+      "blob": "a76f75ff307421630210c027cf6fbd9f6434306f",
+      "words": 286,
+      "forms": 5
     },
     "extracted": {
-      "at": "2026-10-06T18:51:11.928Z",
+      "at": "2026-10-16T00:24:51.077Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 3,
-      "cost_usd": 0.004206
+      "cost_usd": 0.003694
     },
     "summarized": {
-      "at": "2026-10-06T18:51:20.395Z",
+      "at": "2026-10-16T00:24:51.079Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:20.396Z",
+      "at": "2026-10-16T00:24:51.081Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:20.397Z",
+      "at": "2026-10-16T00:24:51.082Z",
       "page": false
     }
   },
@@ -45,9 +45,14 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-set-up-standard-coa.md",
     "description": "This article explains how to set up a standard chart of accounts in Denmark.",
-    "ms_date": "2025-12-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
+      {
+        "raw": "5260",
+        "id": 5260,
+        "kind": null
+      },
       {
         "raw": "5264",
         "id": 5264,
@@ -74,12 +79,12 @@
       "Denmark",
       "standard chart of accounts"
     ],
-    "ai_usage": null,
-    "words": 284,
+    "ai_usage": "ai-assisted",
+    "words": 286,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "cb65ba0edfbc13313821f68547a72d3ff92f79ed7be40b8543d16d217e8519e9"
+  "output_hash": "477b07ece7c973cf0ebd9c83f0f14ae0aacbd4b50d4695a325b35940611989c5"
 }

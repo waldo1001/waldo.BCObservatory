@@ -6,10 +6,18 @@
   "title": "[Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied",
   "url": "https://github.com/microsoft/BCApps/pull/12003",
   "published_at": "2026-10-09T06:11:46Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:24:40.242Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 8,
+      "objects": 6,
+      "unjoined": 2
     }
   },
   "input_hash": "006d20024373394ca4b133676680fdc9831231a6:c1",
@@ -30,5 +38,8 @@
     ],
     "community_contribution": true,
     "title_key": "project planning lines are created in reverse order when purchase line descriptions are copied"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7f9b40bb725e83ba53b0a7323b8f9cb05c8a4bf747cda40e27bcd94d96807e60"
 }

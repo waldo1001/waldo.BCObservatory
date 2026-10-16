@@ -1,0 +1,82 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 10445,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/10445",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-09T00:31:27Z",
+  "merge_commit_sha": "fcd2704c64729f42612c1959118588424e6ecb2b",
+  "author": "miljance",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Finance"
+  ],
+  "community_contribution": true,
+  "title": "[Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount",
+  "body_hash": "5c875c403620f6ac480a5c5f5fd7007902311a46a21a50bb8274bc832eabe74d",
+  "fixes_issues": [
+    10356
+  ],
+  "work_items": [
+    653301
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Tables/SalesSubscriptionLine.Table.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 14,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Contract Renewal/ContractRenewalTest.Codeunit.al",
+      "status": "modified",
+      "additions": 146,
+      "deletions": 2,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 2,
+    "additions": 157,
+    "deletions": 16,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Sales Service Commitments/Tables/SalesSubscriptionLine.Table.al",
+        "status": "modified",
+        "key": "table/8068",
+        "type": "table",
+        "id": 8068,
+        "name": "Sales Subscription Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8068"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ],
+  "issues": [
+    {
+      "number": 10356,
+      "title": "[Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount",
+      "state": "closed"
+    }
+  ]
+}

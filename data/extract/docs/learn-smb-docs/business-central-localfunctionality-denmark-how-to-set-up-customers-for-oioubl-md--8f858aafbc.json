@@ -2,33 +2,33 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl",
   "title": "How to Set Up Customers for OIOUBL | Microsoft Docs",
-  "blob": "4fdd54bd34936f6b42a51f825b060aab12600d41",
-  "summary": "Set up customers in the Danish version for OIOUBL electronic invoicing by adding GLN, account code, and profile code information.",
+  "blob": "2a803aba8c8132be66b35f432149594ca2a61549",
+  "summary": "Setting up customers for OIOUBL electronic invoicing in Denmark requires adding Global Location Number (GLN), account code, and profile code information to customer records for public sector compliance.",
   "systems": [
-    "localization",
-    "sales"
+    "sales",
+    "localization"
   ],
   "topics": [
     "oioubl",
-    "denmark",
     "electronic invoicing",
-    "public sector"
+    "denmark",
+    "customers",
+    "public sector",
+    "gln",
+    "account code"
   ],
   "objects": [
     {
       "type": "page",
       "name": "Customers"
-    },
-    {
-      "type": "page",
-      "name": "Sales & Receivables Setup"
     }
   ],
   "features": [
-    "GLN field",
-    "Account Code field",
-    "OIOUBL Profile Code",
-    "OIOUBL Profile Code Required"
+    "Global Location Number (GLN)",
+    "Account Code",
+    "Profile Code",
+    "Profile Code Required",
+    "OIOUBL documents"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +37,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002535,
-      "pages_in_call": 8
+      "cost_usd": 0.003509,
+      "pages_in_call": 1
     }
   ]
 }

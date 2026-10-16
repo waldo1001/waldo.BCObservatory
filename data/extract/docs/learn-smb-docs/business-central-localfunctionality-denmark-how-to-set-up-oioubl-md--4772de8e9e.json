@@ -2,20 +2,38 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl",
   "title": "Set Up the OIOUBL Extension for Electronic Invoicing | Microsoft Docs",
-  "blob": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1",
-  "summary": "Set up OIOUBL for creating electronic documents to Danish public sector customers. Configure payment terms, item charges, OIOUBL profiles, and customer settings including GLN numbers and account codes.",
+  "blob": "b32302afa71b8c2e6a3c8a145a5dfe912b599663",
+  "summary": "Configure OIOUBL extension for Danish electronic invoicing by setting up payment terms, OIOUBL profiles, customers with GLN and account codes, item charges, and company information.",
   "systems": [
+    "localization",
     "sales",
-    "localization"
+    "integration"
   ],
   "topics": [
     "oioubl",
-    "setup",
-    "denmark",
     "electronic invoicing",
+    "denmark",
+    "e-invoicing setup",
+    "payment terms",
     "customer configuration"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "Manual Setup"
+    },
+    {
+      "type": "page",
+      "name": "Sales & Receivables Setup"
+    },
+    {
+      "type": "page",
+      "name": "Customer"
+    },
+    {
+      "type": "page",
+      "name": "OIOUBL Profile List"
+    },
     {
       "type": "page",
       "name": "Payment Terms"
@@ -30,16 +48,18 @@
     },
     {
       "type": "page",
-      "name": "Sales & Receivables Setup"
+      "name": "Company Information"
     }
   ],
   "features": [
-    "OIOUBL profile selection",
-    "payment terms configuration",
-    "item charge setup",
-    "customer GLN registration",
-    "account code assignment",
-    "profile code requirement"
+    "OIOUBL profiles",
+    "Simpel fakturaproces profile",
+    "Billing Basic profile",
+    "Document sending profile",
+    "GLN (Global Location Number)",
+    "Account code",
+    "Payment term discounts",
+    "Bank information setup"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +68,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002828,
-      "pages_in_call": 7
+      "cost_usd": 0.005247,
+      "pages_in_call": 1
     }
   ]
 }

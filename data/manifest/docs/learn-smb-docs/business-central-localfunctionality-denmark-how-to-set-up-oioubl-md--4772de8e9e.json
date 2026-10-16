@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.062Z",
-      "blob": "6a9baad18e77f8beb2a315d01ea6953cb73d88f1",
-      "words": 738,
+      "at": "2026-10-16T00:24:42.153Z",
+      "blob": "b32302afa71b8c2e6a3c8a145a5dfe912b599663",
+      "words": 923,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:03.550Z",
+      "at": "2026-10-16T00:24:51.091Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002828
+      "objects": 8,
+      "cost_usd": 0.005247
     },
     "summarized": {
-      "at": "2026-10-06T19:32:03.565Z",
+      "at": "2026-10-16T00:24:51.092Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:03.566Z",
+      "at": "2026-10-16T00:24:51.093Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:03.567Z",
+      "at": "2026-10-16T00:24:51.094Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-set-up-oioubl.md",
     "description": "Prepare to submit sales documents in the Offentlig Information Online - Universal Business Language (OIOUBL) format by following the steps outlined in this article.",
-    "ms_date": "2025-03-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Offentlig",
       "Denmark"
     ],
-    "ai_usage": null,
-    "words": 738,
+    "ai_usage": "ai-assisted",
+    "words": 923,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f6bd593f7bfb38bb8bdd21612405c4aa2b2c5f23b356bf9cdc58b831923cb21b"
+  "output_hash": "d34ce446258b1938eadc17e958b545cea057e6093e32edc027c85d14878f9290"
 }

@@ -1,0 +1,128 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12098,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12098",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-14T11:32:50Z",
+  "merge_commit_sha": "d7c3b963d235dd381a9ac631aa179bf202da5c34",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing",
+  "body_hash": "2d0c89a4e41702539382d95289974e0d4733efc1d429c6c85eb70fd37a5077b8",
+  "fixes_issues": [],
+  "work_items": [
+    652227
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningCreateProdOrder.Enum.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+      "status": "modified",
+      "additions": 78,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ManufacturingUserTemplate.Table.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryPlanning.Codeunit.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningI.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 13,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMOrderPlanningIII.Codeunit.al",
+      "status": "modified",
+      "additions": 216,
+      "deletions": 14,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMPlanReqWksht.Codeunit.al",
+      "status": "modified",
+      "additions": 70,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 7,
+    "additions": 407,
+    "deletions": 34,
+    "al": 3
+  },
+  "join": {
+    "major": "29",
+    "commit": "ff470ecd2cee1e213c62c942f114f6c8238563c8",
+    "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Planning/PlanningCreateProdOrder.Enum.al",
+        "status": "modified",
+        "key": "enum/5526",
+        "type": "enum",
+        "id": 5526,
+        "name": "Planning Create Prod. Order",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "enum/5526"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/CarryOutActionMsgPlan.Report.al",
+        "status": "modified",
+        "key": "report/99001020",
+        "type": "report",
+        "id": 99001020,
+        "name": "Carry Out Action Msg. - Plan.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/99001020"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Requisition/ManufacturingUserTemplate.Table.al",
+        "status": "modified",
+        "key": "table/5525",
+        "type": "table",
+        "id": 5525,
+        "name": "Manufacturing User Template",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/5525"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "inventory",
+    "manufacturing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

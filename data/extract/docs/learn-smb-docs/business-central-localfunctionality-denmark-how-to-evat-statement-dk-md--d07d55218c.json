@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-evat-statement-dk.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-evat-statement-dk",
   "title": "Submit VAT returns electronically",
-  "blob": "1bcad3794518165daece9ef8ec63691b6552da2b",
-  "summary": "Electronic VAT return submission for Danish Business Central allows companies to report draft VAT returns to skat.dk using the Danish Tax Agency's VAT API through certificate-based setup and endpoints.",
+  "blob": "b0ad2d494cab78ce19b8af9039f0c6f1f94c43c6",
+  "summary": "Electronic VAT return submission for Danish companies using the Danish Tax Agency's VAT API, including setup of certificates, electronic VAT declaration, VAT reports, and statements.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "integration"
   ],
   "topics": [
-    "vat reporting",
+    "vat return",
     "denmark",
     "electronic submission",
-    "tax compliance",
-    "local functionality"
+    "tax agency api",
+    "certificates",
+    "nemvirksomhed"
   ],
   "objects": [
     {
@@ -42,7 +44,7 @@
     },
     {
       "type": "page",
-      "name": "VAT Return E-Submission Setup"
+      "name": "VAT Statement"
     },
     {
       "type": "page",
@@ -51,16 +53,20 @@
     {
       "type": "page",
       "name": "Certificates"
+    },
+    {
+      "type": "codeunit",
+      "name": "Codeunit 13610"
     }
   ],
   "features": [
-    "VAT return submission",
-    "electronic declaration",
+    "electronic VAT declaration",
+    "VAT API submission",
     "certificate management",
-    "VAT period retrieval",
-    "XML generation",
-    "skat.dk integration",
-    "draft VAT reporting"
+    "Azure Key Vault integration",
+    "VAT return periods",
+    "XML request generation",
+    "response status tracking"
   ],
   "versions": [],
   "parts": 1,
@@ -69,8 +75,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008004,
-      "pages_in_call": 4
+      "cost_usd": 0.005706,
+      "pages_in_call": 1
     }
   ]
 }

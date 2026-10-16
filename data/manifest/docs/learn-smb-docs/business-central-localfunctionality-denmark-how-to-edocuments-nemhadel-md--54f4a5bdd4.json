@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.673Z",
-      "blob": "5f2284a2bd6c8043471f4de9eefd72b403c21b30",
-      "words": 515,
+      "at": "2026-10-16T00:24:28.871Z",
+      "blob": "3bef523c43a8a48c4305711c7d076fb3d2d9776c",
+      "words": 518,
       "forms": 4
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.734Z",
+      "at": "2026-10-16T00:24:37.461Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003743
+      "objects": 4,
+      "cost_usd": 0.004135
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.747Z",
+      "at": "2026-10-16T00:24:37.462Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.747Z",
+      "at": "2026-10-16T00:24:37.463Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.747Z",
+      "at": "2026-10-16T00:24:37.464Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md",
     "description": "Learn how to set up E-documents functionality with Nemhadel in Denmark.",
-    "ms_date": "2025-03-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -80,12 +80,12 @@
       "denmark",
       "dk"
     ],
-    "ai_usage": null,
-    "words": 515,
+    "ai_usage": "ai-assisted",
+    "words": 518,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "afb854db2cd29661b751c6753f57e9d6d0a21e489baddcfedd2442cff6638250"
+  "output_hash": "e0022cdc4d6e3f9214b309a384959b92e6e09c95778108c08eee02c4528de776"
 }

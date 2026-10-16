@@ -6,10 +6,18 @@
   "title": "[Fabric] Exclude tables and fields for Fabric integration",
   "url": "https://github.com/microsoft/BCApps/pull/12195",
   "published_at": "2026-10-08T15:16:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:24:51.105Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 5,
+      "objects": 3,
+      "unjoined": 2
     }
   },
   "input_hash": "9d11c0f7a4c1fc09548a7ad0e71adcafc7c28850:c1",
@@ -32,5 +40,8 @@
     ],
     "community_contribution": true,
     "title_key": "fabric exclude tables and fields for fabric integration"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7870f3d47c6d738c63da097e0798bd7540fb448e0a0d057fd1121bd43784f12f"
 }

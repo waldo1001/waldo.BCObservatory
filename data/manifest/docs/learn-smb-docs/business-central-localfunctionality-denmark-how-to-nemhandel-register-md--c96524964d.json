@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-nemhandel-register",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:37.677Z",
-      "blob": "f7392b007b3a7e8d4b452d9ec988fd16d9598798",
-      "words": 434,
+      "at": "2026-10-16T00:24:37.511Z",
+      "blob": "a0ab3286ff80f9a0bf0175f6eeeab4b28afc908d",
+      "words": 425,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T19:27:00.734Z",
+      "at": "2026-10-16T00:24:42.667Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.003743
+      "cost_usd": 0.003829
     },
     "summarized": {
-      "at": "2026-10-06T19:27:00.748Z",
+      "at": "2026-10-16T00:24:42.669Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:27:00.748Z",
+      "at": "2026-10-16T00:24:42.670Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:27:00.749Z",
+      "at": "2026-10-16T00:24:42.672Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-nemhandel-register.md",
     "description": "This article describes how to handle notification and registration with the NemHandelsregisteret in Denmark.",
-    "ms_date": "2025-03-03",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -61,12 +61,12 @@
       "registration",
       "denmark"
     ],
-    "ai_usage": null,
-    "words": 434,
+    "ai_usage": "ai-assisted",
+    "words": 425,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "48f6fa94230e994e545e77884401b6e1035bde2c6dc8fc3f763c774b79907ad5"
+  "output_hash": "5b25f8ea4219132108492c2919d267ac14b003844e5c038e89d171bc0cc4c6a6"
 }

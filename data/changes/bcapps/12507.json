@@ -1,0 +1,99 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12507,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12507",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T17:08:48Z",
+  "merge_commit_sha": "09e9f22f1e3e032df365d1e16ec40479f59ad0ec",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds",
+  "body_hash": "24af75bf25e39c8593f8b67d06d1ec95b5ad8634844345534d0ef6dfdd9d1662",
+  "fixes_issues": [],
+  "work_items": [
+    653385,
+    653446
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/DK/NemhandelNotification/app/src/NemhandelStatusPageBckgrnd.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 17,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/DK/NemhandelNotification/test/src/NemhandelTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 30,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Currency/UpdateCurrencyExchangeRates.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 25,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Data Exchange/CurrencyExchRateUnitTests.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 53,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 4,
+    "additions": 14,
+    "deletions": 125,
+    "al": 2
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/DK/NemhandelNotification/app/src/NemhandelStatusPageBckgrnd.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/13608",
+        "type": "codeunit",
+        "id": 13608,
+        "name": "Nemhandel Status Page Bckgrnd",
+        "app": "NemhandelNotification",
+        "cc": "dk",
+        "page": "codeunit/13608-dk"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Currency/UpdateCurrencyExchangeRates.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1281",
+        "type": "codeunit",
+        "id": 1281,
+        "name": "Update Currency Exchange Rates",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1281"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "apps": [
+    "Base Application",
+    "NemhandelNotification"
+  ]
+}

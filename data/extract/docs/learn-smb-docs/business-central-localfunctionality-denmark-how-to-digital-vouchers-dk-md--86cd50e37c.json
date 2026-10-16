@@ -2,18 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-digital-vouchers-dk.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-digital-vouchers-dk",
   "title": "Set up digital vouchers in Denmark",
-  "blob": "498ab9e60357343c2c8d5d556507e9ee21059b54",
-  "summary": "Set up digital vouchers in Denmark describes how to configure mandatory digital voucher attachments for financial transactions to meet Danish bookkeeping requirements and improve audit trails.",
+  "blob": "4f9e4ad1dd3654e7ea5ecda3e9d4330c4ae2c3c2",
+  "summary": "Digital vouchers in Denmark allow administrators to require document attachments for specific transactions to enforce source-driven accounting and audit trails. The feature is mandatory by default from July 1, 2024, and supports sales documents, purchase documents, and journals with configurable enforcement types.",
   "systems": [
+    "localization",
     "finance",
-    "localization"
+    "administration"
   ],
   "topics": [
     "digital vouchers",
+    "document attachment",
     "denmark",
     "audit trail",
-    "document attachment",
-    "compliance"
+    "enforcement",
+    "incoming documents",
+    "general ledger",
+    "e-documents"
   ],
   "objects": [
     {
@@ -26,20 +30,24 @@
     },
     {
       "type": "page",
+      "name": "Incoming Document"
+    },
+    {
+      "type": "page",
       "name": "General Ledger Entries"
     },
     {
       "type": "page",
-      "name": "Incoming Document"
+      "name": "Insert File"
     }
   ],
   "features": [
-    "Digital voucher enforcement",
-    "Source codes setup",
-    "Automatic voucher generation",
-    "Attachment or note requirements",
-    "Purchase and sales document vouchers",
-    "General journal vouchers"
+    "Attachment enforcement",
+    "Automatic document generation",
+    "Source code setup",
+    "E-document linking",
+    "Manual attachment handling",
+    "Blank document type consideration"
   ],
   "versions": [],
   "parts": 1,
@@ -48,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004041,
-      "pages_in_call": 8
+      "cost_usd": 0.005157,
+      "pages_in_call": 1
     }
   ]
 }

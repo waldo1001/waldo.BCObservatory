@@ -1,0 +1,865 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12538,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12538",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T17:36:16Z",
+  "merge_commit_sha": "695465bba754e86464479456234fe0ad7ae5ca97",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "Remove CLEAN27 for Create Item from Item No. setup fields",
+  "body_hash": "5854971877134914e01edef6af504c672bb24fc181237b1f033a98bee92b8cb4",
+  "fixes_issues": [],
+  "work_items": [
+    647784
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/AU/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/US/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 10,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 9,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibrarySales.Codeunit.al",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 9,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 64,
+    "additions": 48,
+    "deletions": 596,
+    "al": 44
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "is",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/311"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "key": "page/460",
+        "type": "page",
+        "id": 460,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/460"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/312",
+        "type": "table",
+        "id": 312,
+        "name": "Purchases & Payables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/312"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "key": "page/459",
+        "type": "page",
+        "id": 459,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/459"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "key": "table/311",
+        "type": "table",
+        "id": 311,
+        "name": "Sales & Receivables Setup",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/311"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IS/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Setup/SalesReceivablesSetup.Table.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Setup/PurchasesPayablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Setup/SalesReceivablesSetup.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

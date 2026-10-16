@@ -1,0 +1,158 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12195,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12195",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-08T15:16:25Z",
+  "merge_commit_sha": "9d11c0f7a4c1fc09548a7ad0e71adcafc7c28850",
+  "author": "Bertverbeek4PS",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": true,
+  "title": "[Fabric] Exclude tables and fields for Fabric integration",
+  "body_hash": "a719c7fb5fe71cf5cd8d1aa0c37fe5dc71626852b8a6a9977a63ae5f0ea77124",
+  "fixes_issues": [
+    12192
+  ],
+  "work_items": [
+    652542
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/app.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpActivate.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpAdmin.PermissionSet.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricFieldValidation.Codeunit.al",
+      "status": "added",
+      "additions": 77,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTables.Page.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableValidation.Codeunit.al",
+      "status": "added",
+      "additions": 103,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABConfigPackage.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MicrosoftFabricMirroring/test/src/codeunit/TestFABPlatform.Codeunit.al",
+      "status": "modified",
+      "additions": 310,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 499,
+    "deletions": 3,
+    "al": 5
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpActivate.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/48532",
+        "type": "permissionset",
+        "id": 48532,
+        "name": "Fabric Exp Activate",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "permissionset/48532"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpAdmin.PermissionSet.al",
+        "status": "modified",
+        "key": "permissionset/48530",
+        "type": "permissionset",
+        "id": 48530,
+        "name": "Fabric Exp Admin",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "permissionset/48530"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTables.Page.al",
+        "status": "modified",
+        "key": "page/48512",
+        "type": "page",
+        "id": 48512,
+        "name": "Fabric Platform Tables",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "page/48512"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricFieldValidation.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableValidation.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "MicrosoftFabricMirroring"
+  ],
+  "issues": [
+    {
+      "number": 12192,
+      "title": "[Bug]: Expose to many tables on Fabric connection",
+      "state": "closed"
+    }
+  ]
+}

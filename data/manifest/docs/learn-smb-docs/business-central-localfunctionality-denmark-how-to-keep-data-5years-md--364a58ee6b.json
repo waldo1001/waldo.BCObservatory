@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-keep-data-5years",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:30.019Z",
-      "blob": "f545b316f625d413b89be5b7204fd4abe797debe",
+      "at": "2026-10-16T00:24:29.227Z",
+      "blob": "1c5302af408f761797bdebd02dc9397412521382",
       "words": 413,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:56:34.390Z",
+      "at": "2026-10-16T00:24:37.483Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.004408
+      "cost_usd": 0.003672
     },
     "summarized": {
-      "at": "2026-10-06T18:56:34.408Z",
+      "at": "2026-10-16T00:24:37.484Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:56:34.409Z",
+      "at": "2026-10-16T00:24:37.485Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:56:34.410Z",
+      "at": "2026-10-16T00:24:37.487Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-keep-data-5years.md",
     "description": "This article describes how to automatically keep data based on the Danish bookkeeping act.",
-    "ms_date": "2025-11-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "denmark",
       "cvr number"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 413,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b5f582b8066e9805481ce26327d6d4d6fd7386c0094f06e136e0e9857989c8e"
+  "output_hash": "300a468db7304bd56cc3a1b09733edf233390863932f40b825b9a7abecf1aeae"
 }

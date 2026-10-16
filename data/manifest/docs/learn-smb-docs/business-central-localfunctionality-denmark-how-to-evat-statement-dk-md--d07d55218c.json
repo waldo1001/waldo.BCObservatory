@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-evat-statement-dk",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:50:09.805Z",
+      "at": "2026-10-16T00:24:37.472Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 9,
-      "cost_usd": 0.008004
+      "objects": 10,
+      "cost_usd": 0.005706
     },
     "summarized": {
-      "at": "2026-10-06T18:50:09.826Z",
+      "at": "2026-10-16T00:24:37.473Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:50:09.827Z",
+      "at": "2026-10-16T00:24:37.474Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:50:09.828Z",
+      "at": "2026-10-16T00:24:37.475Z",
       "page": false
     }
   },
@@ -66,5 +66,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b0ad2d494cab78ce19b8af9039f0c6f1f94c43c6"
+  "output_hash": "997a6d4819aeaa16da13b973d0f9faaedf4d3e52484951194f3f82a53b71bac9"
 }

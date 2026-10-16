@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12626,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12626",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-15T09:09:36Z",
+  "merge_commit_sha": "987df1c550f92b6d218d26abdddebf12ae8572de",
+  "author": "SBalslev",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix AppSource product details opening in write transactions",
+  "body_hash": "5aad7918cdb38d025852ff0feeed79d4a323f34cd0b70bd6835e0f3a9137410a",
+  "fixes_issues": [],
+  "work_items": [
+    650147
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/System Application/App/AppSource Gallery/README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductManager.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/System Application/Test Library/AppSource Gallery/src/AppSrcProductMgrTestImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/Test/AppSource Gallery/app.json",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/System Application/Test/AppSource Gallery/src/AppSourceGalleryTest.Codeunit.al",
+      "status": "modified",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 76,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/System Application/App/AppSource Gallery/src/AppSourceProductManager.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/2515",
+        "type": "codeunit",
+        "id": 2515,
+        "name": "AppSource Product Manager",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/2515"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "development"
+  ],
+  "apps": [
+    "System Application"
+  ]
+}

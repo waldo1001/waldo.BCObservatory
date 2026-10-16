@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.057Z",
-      "blob": "4fdd54bd34936f6b42a51f825b060aab12600d41",
-      "words": 319,
+      "at": "2026-10-16T00:24:37.534Z",
+      "blob": "2a803aba8c8132be66b35f432149594ca2a61549",
+      "words": 316,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T23:41:50.646Z",
+      "at": "2026-10-16T00:24:42.517Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002535
+      "objects": 1,
+      "cost_usd": 0.003509
     },
     "summarized": {
-      "at": "2026-10-06T23:41:50.663Z",
+      "at": "2026-10-16T00:24:42.518Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:50.664Z",
+      "at": "2026-10-16T00:24:42.520Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:50.666Z",
+      "at": "2026-10-16T00:24:42.521Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md",
     "description": "To generate Offentlig Information Online UBL (OIOUBL) documents for public sector customers, it's necessary to include OIOUBL information for the relevant customers.",
-    "ms_date": "2025-03-04",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Denmark",
       "public sector customers"
     ],
-    "ai_usage": null,
-    "words": 319,
+    "ai_usage": "ai-assisted",
+    "words": 316,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "712a68d567dba459ee3343b0e6400bb658e79b84aa46c03d468301df66c7ce1c"
+  "output_hash": "d7d2b7d21d553f8af1cbb5885d927f11b11f19692aee848c0c7d75a32a180cac"
 }
