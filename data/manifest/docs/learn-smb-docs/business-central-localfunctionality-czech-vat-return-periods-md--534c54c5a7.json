@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-periods",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.362Z",
-      "blob": "7a2bca2102a9d8130678ae646194647f92280728",
+      "at": "2026-10-16T00:22:22.369Z",
+      "blob": "50fa11791bf4939a3627fbef5599df278e49068b",
       "words": 148,
       "forms": 1
     },
     "extracted": {
-      "at": "2026-10-06T18:43:32.572Z",
+      "at": "2026-10-16T00:22:38.844Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.01479
+      "objects": 5,
+      "cost_usd": 0.003362
     },
     "summarized": {
-      "at": "2026-10-06T18:43:34.350Z",
+      "at": "2026-10-16T00:22:38.845Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:34.351Z",
+      "at": "2026-10-16T00:22:38.846Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:34.352Z",
+      "at": "2026-10-16T00:22:38.847Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/vat-return-periods.md",
-    "description": "Learn about VAT Return Periods in Czechia, and how it's used in Business Central for VAT reporting.",
-    "ms_date": "2026-03-30",
+    "description": "Learn about VAT return periods in Czechia, and how they're used in Business Central for VAT reporting.",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [
       {
@@ -62,12 +62,12 @@
       "Accounting",
       "VAT Return Periods"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 148,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f649af7d06a65e75a2b76b659f6e1966b566f6810e6c24cf0d575144cbf00fa1"
+  "output_hash": "2229c096a5d7ced318cf5d5c1eae3cfcdae84bdf89fa604e5534b233d23faaa3"
 }

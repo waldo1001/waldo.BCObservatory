@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.392Z",
-      "blob": "31624ca0734d240413ba14c88db67d86658805c8",
-      "words": 584,
+      "at": "2026-10-16T00:22:20.690Z",
+      "blob": "dee85f2a8b21e4602f4d48014da63f53a72ea94f",
+      "words": 580,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:43:24.751Z",
+      "at": "2026-10-16T00:22:38.855Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.003389
+      "objects": 7,
+      "cost_usd": 0.005038
     },
     "summarized": {
-      "at": "2026-10-06T18:43:25.599Z",
+      "at": "2026-10-16T00:22:38.856Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:43:25.600Z",
+      "at": "2026-10-16T00:22:43.026Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:43:25.601Z",
+      "at": "2026-10-16T00:22:43.027Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/vat-return-cz.md",
     "description": "Learn how to use the features to submit a VAT return and comply with regulations in the Czech version.",
-    "ms_date": "2026-03-30",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 584,
+    "ai_usage": "ai-assisted",
+    "words": 580,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e3d51f1ce5fe94684d8cbb50f1a6284b3d8c3d46b0dd714025959917cc7e1b8f"
+  "output_hash": "0d08d74d5edf3f93b1d91b1b588fc7106bbded9cee825c71895aab1c1fcd933a"
 }

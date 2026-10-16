@@ -2,32 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz",
   "title": "Intrastat Localization for Czech (Extension)",
-  "blob": "0312e0b355c7c1da17b6d52447c7be010e00b31f",
-  "summary": "Intrastat localization for Czech Republic enables periodic reporting of trade in goods among EU member nations with features for setting up items, fixed assets, validation rules, and file exports according to Czech local legislation.",
+  "blob": "e6e76460a48d988d1b7c10e1813072b3b84c8425",
+  "summary": "Czech Intrastat reporting extension that enables companies to collect trade statistics among EU member nations and prepare Intrastat report files according to Czech local legislation requirements.",
   "systems": [
     "localization",
     "finance",
-    "reporting"
+    "integration"
   ],
   "topics": [
-    "intrastat",
+    "intrastat reporting",
     "czech",
-    "vat",
-    "tax reporting",
-    "eu trade",
-    "goods statistics",
-    "extension"
+    "eu trade statistics",
+    "localization",
+    "data exchange",
+    "compliance"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Intrastat CZ app"
+    },
+    {
+      "type": "other",
+      "name": "Intrastat Core app"
+    }
+  ],
   "features": [
-    "Intrastat reporting setup",
-    "Item and Fixed Asset configuration",
-    "Intrastat Checklist validation",
-    "Data Exchange Definition",
-    "Statistic Indication codes",
+    "Statistic Indication code list",
     "Intrastat Delivery Groups",
-    "Item Charges inclusion",
-    "Rounding Type control"
+    "Item Charges inclusion in Intrastat amount",
+    "Intrastat Checklist validation",
+    "Data Exchange Definition for file exports",
+    "Intrastat Rounding Type settings",
+    "Physical Movement defaults for returns",
+    "Fair Market Value tolerance threshold"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00277,
-      "pages_in_call": 8
+      "cost_usd": 0.004152,
+      "pages_in_call": 1
     }
   ]
 }

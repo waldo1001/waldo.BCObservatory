@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-reports-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.480Z",
-      "blob": "92e765628287f1385b6e3867a1999cd211206afa",
-      "words": 70,
+      "at": "2026-10-16T00:22:17.513Z",
+      "blob": "1698806da8d17519090a487af68fe9224ccba5c7",
+      "words": 71,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:14.163Z",
+      "at": "2026-10-16T00:22:27.319Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 5,
-      "cost_usd": 0.00277
+      "cost_usd": 0.003597
     },
     "summarized": {
-      "at": "2026-10-06T19:23:14.174Z",
+      "at": "2026-10-16T00:22:27.320Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:14.175Z",
+      "at": "2026-10-16T00:22:27.321Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:14.176Z",
+      "at": "2026-10-16T00:22:27.322Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/vat-reports-cz.md",
     "description": "Provides VAT reports to meet Czech legislative and local reporting requirements.",
-    "ms_date": "2025-06-09",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
-    "words": 70,
+    "ai_usage": "ai-assisted",
+    "words": 71,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7c9586d9af0d3ca2e82503adad785e0afab9b77003209fad5cf42428a0630b5a"
+  "output_hash": "7603d50a41d673e4ae280b0d689dacc414e6fd71857cd4a711771ae8bd00d313"
 }

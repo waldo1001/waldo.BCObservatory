@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-modern-search-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:28.892Z",
-      "blob": "13df486e731d836a11900848d20e63a9d756048d",
+      "at": "2026-10-16T00:22:04.718Z",
+      "blob": "b5131c16b9c889b80300c23a6283890dda310c12",
       "words": 79,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:51:45.721Z",
+      "at": "2026-10-16T00:22:18.788Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002727
+      "cost_usd": 0.002522
     },
     "summarized": {
-      "at": "2026-10-06T18:51:47.658Z",
+      "at": "2026-10-16T00:22:18.789Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:51:47.660Z",
+      "at": "2026-10-16T00:22:18.790Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:51:47.661Z",
+      "at": "2026-10-16T00:22:18.791Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/use-modern-search-cz.md",
     "description": "This feature enables fast, precise data access with modern search in the Czech localization. Switch between legacy and optimized full-text search for better user satisfaction and productivity.",
-    "ms_date": "2025-09-17",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Localization",
       "CZ"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 79,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "80a42272fd77fc770feab4aa18634cce1d75eb96a36f50a60e93a23d881b6a44"
+  "output_hash": "eedb982a5e965d60baa14157315536041de7ee7204e184881af536296da58a84"
 }

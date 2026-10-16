@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/unreliable-payer",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.200Z",
-      "blob": "f6086efcc71a2790c0a3e427235524a0fcd37224",
-      "words": 272,
+      "at": "2026-10-16T00:21:29.199Z",
+      "blob": "71acb0e6d8ed43ae7486ba7218ad2b41be3f8259",
+      "words": 280,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.899Z",
+      "at": "2026-10-16T00:21:46.957Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 4,
-      "cost_usd": 0.002892
+      "objects": 3,
+      "cost_usd": 0.003913
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.909Z",
+      "at": "2026-10-16T00:21:46.959Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.910Z",
+      "at": "2026-10-16T00:21:46.960Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.910Z",
+      "at": "2026-10-16T00:21:46.961Z",
       "page": false
     }
   },
@@ -44,8 +44,8 @@
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/unreliable-payer.md",
-    "description": "Learn how the Czech Unreliable Payer feature uses the treasury department service to obtain published information and indicate the payer status on vendor cards and purchase documents.",
-    "ms_date": "2025-09-29",
+    "description": "Learn how the Czech Unreliable Payer feature uses the Czech tax authority's web service to obtain published information and indicate the payer status on vendor cards and purchase documents.",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,15 +54,15 @@
       "unreliable payer",
       "unreliable VAT payer",
       "unreliable payer check",
-      "treasury department",
+      "tax authority",
       "unreliable payer service"
     ],
-    "ai_usage": null,
-    "words": 272,
+    "ai_usage": "ai-assisted",
+    "words": 280,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "add754f8c7447035f8e00996aa9794bb5c1f99eeb4e41205d7ed4760f4ae63bd"
+  "output_hash": "e74aa2034fb354c52489db412a2ccc21ba2c38108936f8706b12817f840f1e13"
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-control-report",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.476Z",
-      "blob": "006ce22c0b1cba50c815b7dac636a8aaf4bbb231",
-      "words": 185,
+      "at": "2026-10-16T00:22:04.695Z",
+      "blob": "4dedc72460c0e711fad7225a84df1d9d76711baa",
+      "words": 184,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:23:14.162Z",
+      "at": "2026-10-16T00:22:20.107Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00277
+      "cost_usd": 0.003552
     },
     "summarized": {
-      "at": "2026-10-06T19:23:14.171Z",
+      "at": "2026-10-16T00:22:20.108Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:14.172Z",
+      "at": "2026-10-16T00:22:20.109Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:14.173Z",
+      "at": "2026-10-16T00:22:20.110Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/vat-control-report.md",
     "description": "Companies registered for VAT in the Czech Republic with a CZ VAT ID are required to submit the VAT Control Report.",
-    "ms_date": "2025-06-09",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "VAT",
       "Control Report"
     ],
-    "ai_usage": null,
-    "words": 185,
+    "ai_usage": "ai-assisted",
+    "words": 184,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ae2c769f6ae29bcec8a1c577427347519b5b9cae6952699ba46786d3abe4d51e"
+  "output_hash": "159624f94227a5169e247414d3e0f0f20e8fa9dc8aeaf4cb3f987ecb5b64bbf3"
 }

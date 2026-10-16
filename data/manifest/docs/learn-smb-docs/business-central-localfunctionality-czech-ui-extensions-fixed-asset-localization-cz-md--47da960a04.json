@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:57.668Z",
+      "at": "2026-10-16T00:21:33.311Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00133
+      "cost_usd": 0.003177
     },
     "summarized": {
-      "at": "2026-10-06T19:23:12.741Z",
+      "at": "2026-10-16T00:21:33.316Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:12.742Z",
+      "at": "2026-10-16T00:21:33.317Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:12.743Z",
+      "at": "2026-10-16T00:21:33.318Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0652a8080138adb1bd15884fc8787e85f8824111"
+  "output_hash": "a306b07feceae04b8ac404891a00e02bbf902ad52307c4ef320e65b61c7fc568"
 }

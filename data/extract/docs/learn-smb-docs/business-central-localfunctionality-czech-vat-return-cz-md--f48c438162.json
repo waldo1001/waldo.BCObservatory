@@ -2,40 +2,58 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/vat-return-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/vat-return-cz",
   "title": "VAT returns in the Czech version",
-  "blob": "31624ca0734d240413ba14c88db67d86658805c8",
-  "summary": "VAT returns in Czech version generates and submits VAT returns to Moje daně portal based on VAT statement settings, supporting standard, corrective, and supplementary return types with XML generation.",
+  "blob": "dee85f2a8b21e4602f4d48014da63f53a72ea94f",
+  "summary": "VAT returns in the Czech version let you generate and submit VAT returns to the Moje daně portal based on VAT statement settings. Set up VAT report version, periods, and statements with attribute codes, then suggest lines, release, generate, and submit the VAT return.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "czech",
-    "vat",
-    "localization",
-    "reporting",
-    "compliance"
+    "vat returns",
+    "czech localization",
+    "vat statements",
+    "attribute codes",
+    "vat reporting"
   ],
   "objects": [
+    {
+      "type": "page",
+      "name": "VAT Report Setup"
+    },
+    {
+      "type": "page",
+      "name": "VAT Return Periods"
+    },
+    {
+      "type": "page",
+      "name": "VAT Statements"
+    },
+    {
+      "type": "page",
+      "name": "VAT Attribute Codes"
+    },
     {
       "type": "page",
       "name": "VAT Returns"
     },
     {
       "type": "page",
-      "name": "VAT Statement"
+      "name": "VAT Statement Preview"
     },
     {
       "type": "page",
-      "name": "VAT Return Periods"
+      "name": "VAT Statement Formula Drill-Down"
     }
   ],
   "features": [
     "VAT return generation",
-    "Mailbox number assignment",
-    "Return type selection",
-    "XML generation",
-    "VAT report submission",
-    "Multi-currency VAT reporting"
+    "Moje daně portal submission",
+    "VAT statement configuration",
+    "Attribute code mapping",
+    "VAT return amount types",
+    "Standard/Corrective/Supplementary returns",
+    "Multiple reporting currencies",
+    "VAT Statement drill-down links"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +62,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003389,
-      "pages_in_call": 8
+      "cost_usd": 0.005038,
+      "pages_in_call": 1
     }
   ]
 }

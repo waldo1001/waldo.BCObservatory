@@ -2,40 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees",
   "title": "Alternative posting groups for Employees in the Czech Version",
-  "blob": "161baec37ba5740aeba874213fdc738dfc9c211b",
-  "summary": "Czech alternative posting groups for employees allow businesses to post payroll and expense transactions to different general ledger accounts and enable controllers to define policies for flexible posting.",
+  "blob": "3cdca8c986723925c39ec7232b88c0732895c0d3",
+  "summary": "Alternative posting groups for employees in the Czech version allows businesses to post payable and receivable transactions to different G/L accounts than those specified in the default employee posting group, with policies defined by controllers and changes made by accountants during posting.",
   "systems": [
-    "localization",
     "hr",
     "finance"
   ],
   "topics": [
-    "czech",
-    "employee posting groups",
-    "alternative posting",
-    "payroll",
-    "accounting"
+    "posting groups",
+    "employee payroll",
+    "czech localization",
+    "general ledger accounts",
+    "journal posting"
   ],
   "objects": [
     {
-      "type": "other",
+      "type": "page",
       "name": "Human Resources Setup"
     },
     {
-      "type": "other",
-      "name": "Employee Posting Group"
+      "type": "page",
+      "name": "Employee Posting Groups"
     },
     {
-      "type": "other",
+      "type": "page",
       "name": "Alternative Employee Posting Groups"
+    },
+    {
+      "type": "page",
+      "name": "Employee Card"
     }
   ],
   "features": [
-    "Allow Multiple Posting Groups",
-    "Alternative Groups Action",
-    "Posting Group Selection on Journals",
-    "Automatic Reallocation of G/L Entries",
-    "Correction-based Balancing"
+    "Allow Multiple Posting Groups toggle",
+    "Alternative Groups action",
+    "Alternative employee posting group selection",
+    "Posting group change on journals",
+    "G/L entry reallocation",
+    "Correction posting method"
   ],
   "versions": [],
   "parts": 1,
@@ -44,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002892,
-      "pages_in_call": 8
+      "cost_usd": 0.004163,
+      "pages_in_call": 1
     }
   ]
 }

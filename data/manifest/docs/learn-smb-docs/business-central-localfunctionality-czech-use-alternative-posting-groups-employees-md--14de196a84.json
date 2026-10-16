@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:31.204Z",
-      "blob": "161baec37ba5740aeba874213fdc738dfc9c211b",
-      "words": 609,
+      "at": "2026-10-16T00:21:43.669Z",
+      "blob": "3cdca8c986723925c39ec7232b88c0732895c0d3",
+      "words": 594,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:04:17.901Z",
+      "at": "2026-10-16T00:22:06.821Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 3,
-      "cost_usd": 0.002892
+      "objects": 4,
+      "cost_usd": 0.004163
     },
     "summarized": {
-      "at": "2026-10-06T19:04:17.911Z",
+      "at": "2026-10-16T00:22:06.823Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:04:17.912Z",
+      "at": "2026-10-16T00:22:06.824Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:04:17.913Z",
+      "at": "2026-10-16T00:22:06.825Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Czech/use-alternative-posting-groups-employees.md",
     "description": "Learn how to set up and use alternative posting groups for employees in the Czech version of Business Central to manage payables and receivables effectively.",
-    "ms_date": "2025-09-29",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -55,12 +55,12 @@
       "Payables",
       "Finance"
     ],
-    "ai_usage": null,
-    "words": 609,
+    "ai_usage": "ai-assisted",
+    "words": 594,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "636f7153feb6cb56ad1df993c4d0df8a70fcaa0e1d3fa8bb863f92e21d7f7ae7"
+  "output_hash": "7e370dbe25900fb3d8c05f74057939e7528fd7c82f7ce040568fea606c93bed8"
 }

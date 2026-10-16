@@ -2,30 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz",
   "title": "Fixed asset localization for Czech (Extension)",
-  "blob": "e50800f275ca06d906099ce86a86995b33b49469",
-  "summary": "Fixed asset localization extension for Czech companies adds tax depreciation, depreciation basis calculation, depreciation holidays, two-step acquisition, disposal posting, classification codes, location history, and reporting features.",
+  "blob": "0652a8080138adb1bd15884fc8787e85f8824111",
+  "summary": "Fixed Asset localization extension for Czech that adds features for tax depreciation, depreciation basis calculation, depreciation holidays, two-step acquisition, disposal posting, classification codes, location history reporting, and fixed asset reporting to meet Czech accounting and tax requirements.",
   "systems": [
     "fixed-assets",
     "localization"
   ],
   "topics": [
     "fixed assets",
+    "czech localization",
     "tax depreciation",
-    "czech",
-    "depreciation holidays",
-    "disposal",
-    "classification"
+    "depreciation",
+    "accounting",
+    "compliance"
   ],
   "objects": [],
   "features": [
-    "tax depreciation",
-    "depreciation basis calculation",
-    "depreciation holidays",
-    "two-step acquisition",
-    "disposal posting",
-    "classification codes",
-    "location history report",
-    "fixed assets reporting"
+    "Fixed Assets Tax Depreciation",
+    "Calculation of depreciation basis",
+    "Fixed Assets Depreciation Holidays",
+    "Two steps Fixed Asset acquisition",
+    "Fixed Asset Posting of Disposal",
+    "Fixed Assets Classification",
+    "Fixed Asset location/responsible history report",
+    "Fixed Assets Reporting"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00133,
-      "pages_in_call": 7
+      "cost_usd": 0.003177,
+      "pages_in_call": 1
     }
   ]
 }
