@@ -2,25 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-archive-payment-slips.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips",
   "title": "Archive Payment Slips [FR]",
-  "blob": "573d48880ce1f9062bdabe6843e5aa64e0b93eb2",
-  "summary": "Archive payment slips in French Business Central separates processed payment slips from active ones using manual archiving for individual slips or batch archiving via the Archive Payment Slips job.",
+  "blob": "3aa9664237764447e88ec663b270eb0b39e78671",
+  "summary": "Archive payment slips in French Business Central manually for individual slips or automatically in batch using the Archive Payment Slips page, with status-based eligibility checks.",
   "systems": [
     "finance",
-    "localization",
-    "purchasing"
+    "localization"
   ],
   "topics": [
-    "payment slip",
-    "france",
+    "payment slips",
     "archiving",
+    "french localization",
     "payment management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Payment Slips"
+    },
+    {
+      "type": "page",
+      "name": "Payment Slip"
+    },
+    {
+      "type": "page",
+      "name": "Archive Payment Slips"
+    },
+    {
+      "type": "page",
+      "name": "Payment Status"
+    }
+  ],
   "features": [
-    "archive payment slip",
-    "batch archiving",
-    "payment status",
-    "archiving authorized"
+    "Archive payment slip manually",
+    "Archive payment slips in batch",
+    "Archiving Authorized checkbox",
+    "Payment slip status validation"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +45,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002395,
-      "pages_in_call": 8
+      "cost_usd": 0.003785,
+      "pages_in_call": 1
     }
   ]
 }

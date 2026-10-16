@@ -2,22 +2,22 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
   "title": "Enable electronic invoicing with UBL 2.1 and Factur-X [FR]",
-  "blob": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
-  "summary": "Enable electronic invoicing in France using UBL 2.1 (PEPPOL BIS 3.0) or Factur-X formats to comply with French e-invoicing reform. Configure company information, customers, vendors, e-document services, and workflows for automatic invoice export and PDP delivery.",
+  "blob": "67e2180145951445278bfdc0e0d6ecb9bce171d2",
+  "summary": "Enable electronic invoicing with UBL 2.1 and Factur-X formats in France using the E-Reporting FR extension to comply with France's electronic invoicing reform requirements for B2B transactions.",
   "systems": [
     "finance",
-    "sales",
+    "localization",
     "integration"
   ],
   "topics": [
     "electronic invoicing",
     "france",
-    "peppol",
-    "factur-x",
-    "e-documents",
     "ubl 2.1",
-    "siret",
-    "siren"
+    "factur-x",
+    "peppol",
+    "e-documents",
+    "compliance",
+    "edoc"
   ],
   "objects": [
     {
@@ -63,15 +63,13 @@
   ],
   "features": [
     "UBL 2.1 invoice generation",
-    "Factur-X PDF/A-3 generation",
-    "French identifier support (SIRET, SIREN)",
-    "Electronic address configuration",
-    "Automatic e-document export",
-    "Workflow automation",
-    "E-document service setup",
-    "Factur-X import",
-    "PEPPOL BIS 3.0 import",
-    "French business rule validation"
+    "PEPPOL BIS 3.0 support",
+    "Factur-X PDF/A-3 hybrid invoices",
+    "Incoming Factur-X invoice import",
+    "Incoming PEPPOL BIS 3.0 invoice import",
+    "French business rule validation",
+    "Electronic address routing",
+    "E-document workflow automation"
   ],
   "versions": [],
   "parts": 1,
@@ -79,9 +77,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 8
+      "cached": false,
+      "cost_usd": 0.014404,
+      "pages_in_call": 1
     }
   ]
 }

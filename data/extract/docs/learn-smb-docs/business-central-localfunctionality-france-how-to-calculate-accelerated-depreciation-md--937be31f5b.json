@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation",
   "title": "How to Calculate Accelerated Depreciation [FR]",
-  "blob": "bf8f9809b55183be6c195c5a054fea492bc9022d",
-  "summary": "Calculate accelerated depreciation in French Business Central using the Calculate Depreciation batch job for fixed assets with both accounting and tax depreciation books, transferring entries to general journal or fixed asset journal based on book type.",
+  "blob": "ba1285ab4d9c1db29d766379ec6c73b9b9566ad0",
+  "summary": "Calculate accelerated depreciation for French fixed assets using the Calculate Depreciation batch job, which works with accounting and tax depreciation books linked to fixed assets.",
   "systems": [
     "fixed-assets",
     "finance",
@@ -11,17 +11,33 @@
   ],
   "topics": [
     "accelerated depreciation",
-    "france",
+    "fixed assets",
     "depreciation calculation",
-    "fixed assets"
+    "france",
+    "tax depreciation",
+    "accounting depreciation"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "report",
+      "name": "Calculate Depreciation"
+    },
+    {
+      "type": "table",
+      "name": "FA Depreciation Books"
+    },
+    {
+      "type": "table",
+      "name": "FA Posting Group Card"
+    }
+  ],
   "features": [
-    "calculate depreciation batch job",
-    "force number of days",
-    "posting date",
-    "balancing account",
-    "depreciation book"
+    "Calculate Depreciation batch job",
+    "Accounting depreciation book",
+    "Tax depreciation book",
+    "Force No. of Days",
+    "Use Same FA + G/L Posting Dates",
+    "Balancing accounts"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +46,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002395,
-      "pages_in_call": 8
+      "cost_usd": 0.004201,
+      "pages_in_call": 1
     }
   ]
 }

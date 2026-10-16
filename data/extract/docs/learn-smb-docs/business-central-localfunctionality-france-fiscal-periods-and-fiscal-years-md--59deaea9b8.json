@@ -2,27 +2,43 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/fiscal-periods-and-fiscal-years.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/fiscal-periods-and-fiscal-years",
   "title": "Fiscal Periods and Fiscal Years (FR)",
-  "blob": "69110331caf79c3ea1cdc2414df46e6ef4963b28",
-  "summary": "Fiscal periods and fiscal years in French Business Central allow two open fiscal years simultaneously and require closing accounting periods and fiscal years through specific procedures with posting date restrictions and year-end entries.",
+  "blob": "17f88de3e270348a5c455a43c2f71f3129c33b3a",
+  "summary": "Fiscal periods and fiscal years in the French version of Business Central allow managing 12 monthly periods with up to two open fiscal years simultaneously. Close periods and years using dedicated functions to prevent unauthorized posting and maintain accounting integrity.",
   "systems": [
     "finance",
-    "localization"
+    "localization",
+    "administration"
   ],
   "topics": [
-    "fiscal year",
-    "fiscal period",
-    "accounting period",
-    "year close",
+    "fiscal periods",
+    "fiscal years",
+    "period closing",
+    "year-end",
     "france",
-    "posting periods"
+    "posting control"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "User Setup"
+    },
+    {
+      "type": "page",
+      "name": "General Ledger Setup"
+    },
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
   "features": [
-    "fiscal year closure",
-    "accounting period closure",
-    "posting date restrictions",
-    "year-end closing entry",
-    "fiscal close year"
+    "Dual fiscal year management",
+    "Monthly fiscal period division",
+    "Period closure and reopening",
+    "Posting date restrictions",
+    "Year-end closing entry generation",
+    "Fiscal period closing",
+    "Fiscal year closing"
   ],
   "versions": [],
   "parts": 1,
@@ -31,8 +47,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002395,
-      "pages_in_call": 8
+      "cost_usd": 0.004111,
+      "pages_in_call": 1
     }
   ]
 }

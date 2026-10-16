@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-apply-general-ledger-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.200Z",
-      "blob": "c2687aebe154e6cea264810ee64d7ded025c2356",
-      "words": 279,
+      "at": "2026-10-16T00:25:28.131Z",
+      "blob": "f7e681d6775929262d258c4fee0232897c73f3e6",
+      "words": 280,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.070Z",
+      "at": "2026-10-16T00:25:32.605Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002395
+      "objects": 2,
+      "cost_usd": 0.003281
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.174Z",
+      "at": "2026-10-16T00:25:32.607Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.175Z",
+      "at": "2026-10-16T00:25:32.608Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.176Z",
+      "at": "2026-10-16T00:25:36.317Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-apply-general-ledger-entries.md",
     "description": "Learn how to apply general ledger entries to justify ledger balances on asset and liability accounts.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "asset accounts",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 279,
+    "ai_usage": "ai-assisted",
+    "words": 280,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b4dbd387fb55299e9e8c116e28007991373fb010887f1a47c5053276077263d"
+  "output_hash": "c81fa197218904b114574e77922897b978c8febc575baf0957013455bb8960db"
 }

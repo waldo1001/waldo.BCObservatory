@@ -2,29 +2,52 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/electronic-reporting-france.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/electronic-reporting-france",
   "title": "Use the E-Document Format for E-Reporting [FR]",
-  "blob": "c0d7b182258cb3f9cc3ffa174d1a9a2047396241",
-  "summary": "E-Reporting FR e-document format for France that generates structured XML for transactions requiring tax authority reporting, with setup for PDPs like Pagero and Avalara.",
+  "blob": "280750246f19b26778e437b6ccd7952aa151141d",
+  "summary": "E-Reporting FR e-document format enables French businesses to submit transactions outside mandatory B2B e-invoicing scope (B2C, cross-border, exports, intra-community) to the tax authority via partner-dissemination platforms like Pagero or Avalara.",
   "systems": [
     "finance",
-    "integration",
-    "localization"
+    "localization",
+    "integration"
   ],
   "topics": [
     "e-reporting",
-    "e-documents",
     "france",
-    "tax reporting",
-    "xml",
-    "business-to-consumer"
+    "e-documents",
+    "tax compliance",
+    "b2c transactions",
+    "cross-border",
+    "xml"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "E-Document Services"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
+    },
+    {
+      "type": "page",
+      "name": "Vendor Card"
+    },
+    {
+      "type": "page",
+      "name": "E-Documents"
+    },
+    {
+      "type": "page",
+      "name": "E-Document Service Supported Source Document Types"
+    }
+  ],
   "features": [
-    "E-Reporting FR format",
-    "PDP connectors",
-    "transaction categorization",
-    "batch submissions",
-    "tax authority acceptance tracking",
-    "e-document service workflow"
+    "E-Reporting FR e-document format",
+    "E-Reporting Transaction Type",
+    "XML payload generation",
+    "Service Status tracking",
+    "E-Reporting Acceptance Date",
+    "Batch and individual submission workflows",
+    "PDP connector integration"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +56,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007169,
-      "pages_in_call": 8
+      "cost_usd": 0.004891,
+      "pages_in_call": 1
     }
   ]
 }

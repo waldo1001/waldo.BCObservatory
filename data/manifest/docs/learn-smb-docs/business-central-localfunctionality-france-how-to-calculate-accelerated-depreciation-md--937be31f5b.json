@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.211Z",
-      "blob": "bf8f9809b55183be6c195c5a054fea492bc9022d",
-      "words": 508,
+      "at": "2026-10-16T00:25:28.570Z",
+      "blob": "ba1285ab4d9c1db29d766379ec6c73b9b9566ad0",
+      "words": 509,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.073Z",
+      "at": "2026-10-16T00:25:36.355Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002395
+      "objects": 3,
+      "cost_usd": 0.004201
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.180Z",
+      "at": "2026-10-16T00:25:36.357Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.181Z",
+      "at": "2026-10-16T00:25:36.359Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.182Z",
+      "at": "2026-10-16T00:25:36.360Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md",
     "description": "In Business Central, you calculate periodic depreciation for fixed assets by using the Calculate Depreciation batch job.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "accelerated depreciation",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 508,
+    "ai_usage": "ai-assisted",
+    "words": 509,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2c75b9268e598f74499404ab74415b4b9e3c512577a9dee9f44d01e36174d2f6"
+  "output_hash": "cb49f6a84ad43e0cf0ee808a3716f15f8e49b787ccdab6522b8eae3a2e42a0ee"
 }

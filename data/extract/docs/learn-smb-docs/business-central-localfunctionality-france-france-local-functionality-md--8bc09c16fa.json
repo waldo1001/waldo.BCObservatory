@@ -2,36 +2,32 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/france-local-functionality.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/france-local-functionality",
   "title": "France local functionality",
-  "blob": "9265e0c565dab86c1d69a1f1bfbf891056c65ed4",
-  "summary": "French local functionality for Business Central including VAT reporting, e-invoicing (UBL 2.1 and Factur-X), banking and payment management, core finance processes, sales invoicing, and fixed assets features.",
+  "blob": "d0ec6237f0b22e87e3df71e608515dd20b556bfb",
+  "summary": "France local functionality describes VAT, e-invoicing, banking, payments, core finance, sales, and fixed assets features specific to the French version of Business Central, with a transition to extensions-based model in 2026 release wave 2.",
   "systems": [
     "finance",
-    "sales",
-    "purchasing"
+    "localization",
+    "sales"
   ],
   "topics": [
-    "france localization",
-    "vat reporting",
+    "france",
+    "vat",
     "e-invoicing",
-    "payment management",
-    "fiscal periods",
-    "accelerated depreciation",
-    "audit export"
+    "payments",
+    "banking",
+    "fiscal closing",
+    "fixed assets",
+    "localization"
   ],
   "objects": [],
   "features": [
-    "audit export",
-    "general ledger export for tax audits",
-    "XML export for ledger entries",
-    "declaration of trade in goods",
-    "service declaration DES",
-    "electronic invoicing",
-    "payment address setup",
-    "payment class configuration",
-    "payment slip management",
-    "general ledger entry application",
-    "fiscal year closing",
-    "accounting period management"
+    "VAT audit export",
+    "Electronic invoicing (UBL 2.1 and Factur-X)",
+    "Payment management",
+    "Fiscal closing",
+    "General ledger entry application",
+    "Accelerated depreciation",
+    "E-reporting"
   ],
   "versions": [
     "2026 release wave 2"
@@ -42,8 +38,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.007547,
-      "pages_in_call": 8
+      "cost_usd": 0.004579,
+      "pages_in_call": 1
     }
   ]
 }

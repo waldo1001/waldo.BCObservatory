@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/export-french-audit-file",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:26.085Z",
-      "blob": "634b1504d5dd77459dd6c579d7ddeb098183169a",
-      "words": 392,
+      "at": "2026-10-16T00:25:21.333Z",
+      "blob": "0f8ade25267eb84bc4a2e7da171d9a870816d63e",
+      "words": 321,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T18:42:25.327Z",
+      "at": "2026-10-16T00:25:26.834Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.008244
+      "cost_usd": 0.00365
     },
     "summarized": {
-      "at": "2026-10-06T18:42:25.344Z",
+      "at": "2026-10-16T00:25:26.835Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T18:42:25.345Z",
+      "at": "2026-10-16T00:25:26.836Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T18:42:25.346Z",
+      "at": "2026-10-16T00:25:26.837Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/export-french-audit-file.md",
     "description": "This article describes how to prepare and export audit files to comply with the specified tax regulations in France.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "French version",
       "tax audits"
     ],
-    "ai_usage": null,
-    "words": 392,
+    "ai_usage": "ai-assisted",
+    "words": 321,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fafae71cee0ab52092ee6cbdbd4d3842183cb500c4e4b739d707f3943db3f3fe"
+  "output_hash": "89100e785256e15781f68aa19f356cdf615c9f697a62fa3c6eeec6571aa5f35e"
 }

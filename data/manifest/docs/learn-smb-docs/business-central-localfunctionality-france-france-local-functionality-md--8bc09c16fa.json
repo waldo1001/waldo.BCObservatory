@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/france-local-functionality",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:19.129Z",
-      "blob": "9265e0c565dab86c1d69a1f1bfbf891056c65ed4",
+      "at": "2026-10-16T00:25:26.883Z",
+      "blob": "d0ec6237f0b22e87e3df71e608515dd20b556bfb",
       "words": 346,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T13:51:07.569Z",
+      "at": "2026-10-16T00:25:32.149Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.007547
+      "cost_usd": 0.004579
     },
     "summarized": {
-      "at": "2026-10-06T13:51:07.575Z",
+      "at": "2026-10-16T00:25:32.150Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T13:51:07.575Z",
+      "at": "2026-10-16T00:25:32.150Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T13:51:07.576Z",
+      "at": "2026-10-16T00:25:32.151Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/france-local-functionality.md",
     "description": "This article describes the various local functionalities in the French version of Business Central.",
-    "ms_date": "2026-08-19",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "France local functionality",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 346,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "666935fce63223f60964e066f13db5806d6fd5898b2aeaaa7d439d4cdfaa78fc"
+  "output_hash": "c4ac4872470b6d03c8da9926f3bdb5a33b233eb90a108bad404f7ede26ab30c2"
 }

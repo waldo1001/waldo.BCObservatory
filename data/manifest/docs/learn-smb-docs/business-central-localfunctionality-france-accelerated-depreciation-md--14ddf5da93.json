@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 3
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.066Z",
+      "at": "2026-10-16T00:25:22.118Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002395
+      "objects": 1,
+      "cost_usd": 0.003942
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.161Z",
+      "at": "2026-10-16T00:25:22.119Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.162Z",
+      "at": "2026-10-16T00:25:22.120Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.164Z",
+      "at": "2026-10-16T00:25:22.121Z",
       "page": false
     }
   },
@@ -79,5 +79,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a9f393e155705c50063634bd6453a0f274dc010"
+  "output_hash": "fcc3994d19d44e76851b1b8930c3574eb1ab9d42160e3e44619b49cf352f36f5"
 }

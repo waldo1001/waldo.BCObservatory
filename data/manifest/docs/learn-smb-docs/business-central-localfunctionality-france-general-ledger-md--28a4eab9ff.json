@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/general-ledger",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.195Z",
-      "blob": "50a47ccd3f3e1d49cdc0b8975247c6b0a11dc09d",
+      "at": "2026-10-16T00:25:27.250Z",
+      "blob": "66b21510e53e79397c663473ff3797f8b1b16249",
       "words": 58,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.069Z",
+      "at": "2026-10-16T00:25:36.326Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002395
+      "cost_usd": 0.005586
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.170Z",
+      "at": "2026-10-16T00:25:36.327Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.172Z",
+      "at": "2026-10-16T00:25:36.329Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.173Z",
+      "at": "2026-10-16T00:25:36.331Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/general-ledger.md",
     "description": "Special general ledger functionality exists for the French version of Business Central.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "general ledger functionality",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 58,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8d4a2bf88583711fe343a3b36de824555fb255482f8493d7adaa727871f5f9ff"
+  "output_hash": "ebeaccfab0f16c1f25451fc1eb1553b6066c46dab04adcf9d0abfd5bad3f7e6e"
 }

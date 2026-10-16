@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/fiscal-periods-and-fiscal-years",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.190Z",
-      "blob": "69110331caf79c3ea1cdc2414df46e6ef4963b28",
-      "words": 410,
+      "at": "2026-10-16T00:25:23.284Z",
+      "blob": "17f88de3e270348a5c455a43c2f71f3129c33b3a",
+      "words": 377,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.067Z",
+      "at": "2026-10-16T00:25:28.399Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002395
+      "objects": 3,
+      "cost_usd": 0.004111
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.166Z",
+      "at": "2026-10-16T00:25:28.401Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.168Z",
+      "at": "2026-10-16T00:25:28.402Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.169Z",
+      "at": "2026-10-16T00:25:28.403Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/fiscal-periods-and-fiscal-years.md",
     "description": "A fiscal year usually consists of 12 monthly periods. In the French version of Business Central, you can have two open fiscal years simultaneously.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -56,12 +56,12 @@
       "close years",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 410,
+    "ai_usage": "ai-assisted",
+    "words": 377,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b3fcdf8e31a3cbdb5f5041f758fb84a82e34989d5e7cf25e291bb43dfeef31fc"
+  "output_hash": "005632b00ae1b960f228d5e9b37f57b66786df02d9b62d2046cb49a97d6eb93a"
 }

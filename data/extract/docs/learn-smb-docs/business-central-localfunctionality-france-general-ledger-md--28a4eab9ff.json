@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/general-ledger.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/general-ledger",
   "title": "General Ledger in France",
-  "blob": "50a47ccd3f3e1d49cdc0b8975247c6b0a11dc09d",
-  "summary": "General ledger functionality for France includes applying and unapplying entries, printing reports, exporting entries to XML and for tax audits, and viewing ledger reconciliations.",
+  "blob": "66b21510e53e79397c663473ff3797f8b1b16249",
+  "summary": "General ledger functionality for France including applying and unapplying entries, printing reports, exporting entries to XML, viewing reconciliations, and exporting entries for tax audits.",
   "systems": [
     "finance",
     "localization"
@@ -11,17 +11,19 @@
   "topics": [
     "general ledger",
     "france",
+    "local functionality",
+    "tax audits",
     "ledger entries",
-    "reporting"
+    "reconciliation"
   ],
   "objects": [],
   "features": [
-    "apply general ledger entries",
-    "unapply entries",
-    "print general ledger reports",
-    "export to XML",
-    "tax audit exports",
-    "ledger reconciliation"
+    "Apply General Ledger Entries",
+    "Unapply General Ledger Entries",
+    "Print General Ledger Reports",
+    "Export General Ledger Entries to XML",
+    "View Ledger Reconciliations",
+    "Export General Ledger Entries for Tax Audits"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002395,
-      "pages_in_call": 8
+      "cost_usd": 0.005586,
+      "pages_in_call": 1
     }
   ]
 }

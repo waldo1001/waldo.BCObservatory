@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.206Z",
-      "blob": "573d48880ce1f9062bdabe6843e5aa64e0b93eb2",
-      "words": 232,
+      "at": "2026-10-16T00:25:28.456Z",
+      "blob": "3aa9664237764447e88ec663b270eb0b39e78671",
+      "words": 244,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:28:45.071Z",
+      "at": "2026-10-16T00:25:36.339Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002395
+      "objects": 4,
+      "cost_usd": 0.003785
     },
     "summarized": {
-      "at": "2026-10-06T19:28:45.177Z",
+      "at": "2026-10-16T00:25:36.341Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:28:45.178Z",
+      "at": "2026-10-16T00:25:36.342Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:28:45.179Z",
+      "at": "2026-10-16T00:25:36.345Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-archive-payment-slips.md",
     "description": "Learn how to separate a payment slip from the active payment slips by archiving it in the French version of Business Central.",
-    "ms_date": "2025-04-14",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -143,12 +143,12 @@
       "archive payment slip",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 232,
+    "ai_usage": "ai-assisted",
+    "words": 244,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2ba8495646381458f291252576a2755ec67c3fe25dd14ab75315eff6d0c7ce0f"
+  "output_hash": "8edcea4c19e97d5302b9954da6b08e74cb4a39e0dce2c9723827fe4f59b347d8"
 }

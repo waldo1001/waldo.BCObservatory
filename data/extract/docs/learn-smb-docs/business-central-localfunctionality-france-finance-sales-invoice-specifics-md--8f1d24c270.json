@@ -2,35 +2,40 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/finance-sales-invoice-specifics.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/finance-sales-invoice-specifics",
   "title": "Deliver sales invoices with French specifics",
-  "blob": "2db509a56cf275060bd182da9c334aa1b76c8d8c",
-  "summary": "French sales invoice specifics cover setting up customer SIREN numbers, printing VAT on debts, and automatic indication of whether invoices contain goods, services, or both.",
+  "blob": "d14340e4baaa8dba8104410c91fe5c1faaa9af42",
+  "summary": "Setting up and working with sales invoice information specific to France, including customer SIREN numbers and VAT paid on debits.",
   "systems": [
-    "localization",
     "sales",
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
-    "france",
     "sales invoices",
+    "france",
     "siren number",
     "vat",
-    "invoicing"
+    "customer setup"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "Customer Card"
+      "type": "table",
+      "name": "Customer"
     },
     {
-      "type": "page",
-      "name": "Item Card"
+      "type": "table",
+      "name": "Contact"
+    },
+    {
+      "type": "table",
+      "name": "Item"
     }
   ],
   "features": [
     "SIREN No. field",
-    "VAT Paid on Debts",
-    "invoice comments",
-    "goods and services determination"
+    "VAT Paid on Debits",
+    "Invoice Details FastTab",
+    "Alternative address in sales invoice",
+    "Goods and services determination"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003878,
-      "pages_in_call": 8
+      "cost_usd": 0.003577,
+      "pages_in_call": 1
     }
   ]
 }

@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "a2f3b45a2b456f66eadd8ddba2d0f0e8f1f65cb0:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 12671,
@@ -29,5 +29,7 @@
     ],
     "community_contribution": false,
     "title_key": "fix extension settings actions and repeated marketplace installation"
-  }
+  },
+  "last_error": "github lane: fetched took longer than 120 s",
+  "retry_after": "2026-10-16T02:25:23.227Z"
 }

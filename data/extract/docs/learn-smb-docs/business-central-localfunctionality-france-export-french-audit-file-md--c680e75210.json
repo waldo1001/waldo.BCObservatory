@@ -2,39 +2,41 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/export-french-audit-file.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/export-french-audit-file",
   "title": "Export entries for tax audits",
-  "blob": "634b1504d5dd77459dd6c579d7ddeb098183169a",
-  "summary": "Export general ledger entries for French tax audits using the Audit File Export Document page with FEC format, including support for opening balances and transaction numbering.",
+  "blob": "0f8ade25267eb84bc4a2e7da171d9a870816d63e",
+  "summary": "Exporting general ledger entries in FEC format for French tax audits, including opening balances and source codes for compliance with French tax authorities.",
   "systems": [
     "finance",
-    "reporting",
-    "localization"
+    "localization",
+    "reporting"
   ],
   "topics": [
+    "french localization",
     "tax audit",
-    "general ledger export",
     "fec format",
-    "france",
-    "audit file"
+    "general ledger",
+    "compliance",
+    "audit file export"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Audit File Export Document"
+      "name": "Audit File Export Documents"
     },
     {
-      "type": "report",
-      "name": "Export G/L Entries - Tax Audit"
+      "type": "table",
+      "name": "G/L Registers"
     }
   ],
   "features": [
+    "Audit File Export Documents page",
     "FEC format export",
-    "opening balances",
-    "source codes",
-    "transaction numbering",
-    "audit file export"
+    "Opening Balances",
+    "Default Source Code",
+    "EcritureNum transaction numbering",
+    "Journal code tracking"
   ],
   "versions": [
-    "22.1"
+    "release 22.1"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -42,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.008244,
-      "pages_in_call": 7
+      "cost_usd": 0.00365,
+      "pages_in_call": 1
     }
   ]
 }

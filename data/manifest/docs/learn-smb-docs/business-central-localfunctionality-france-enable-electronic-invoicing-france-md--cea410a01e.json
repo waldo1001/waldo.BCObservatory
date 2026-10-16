@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:23.063Z",
-      "blob": "4d1707f79834068c66b47ff92d1caf34c3acc2cb",
-      "words": 2067,
+      "at": "2026-10-16T00:25:21.313Z",
+      "blob": "67e2180145951445278bfdc0e0d6ecb9bce171d2",
+      "words": 2170,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T17:35:19.293Z",
+      "at": "2026-10-16T00:25:28.495Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 10,
-      "cost_usd": 0
+      "cost_usd": 0.014404
     },
     "summarized": {
-      "at": "2026-10-06T17:35:19.311Z",
+      "at": "2026-10-16T00:25:28.497Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T17:35:19.312Z",
+      "at": "2026-10-16T00:25:28.499Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T17:35:19.313Z",
+      "at": "2026-10-16T00:25:28.501Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/enable-electronic-invoicing-france.md",
     "description": "Enable French e-invoicing in Business Central with UBL 2.1 (PEPPOL BIS 3.0) and Factur-X, ensuring DGFIP B2B compliance.",
-    "ms_date": "2026-06-23",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -62,8 +62,8 @@
       "SIREN",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 2067,
+    "ai_usage": "ai-assisted",
+    "words": 2170,
     "identifiers": [
       "OnPreRendering"
     ],
@@ -71,5 +71,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "355066bc22ab74c851412da31d46296847fb0aa745bb3f788b8208970e5c5517"
+  "output_hash": "10e27c0ed51b86405cd0101d049a7a88920377c7dcbfcb7d283425d113a4e62c"
 }
