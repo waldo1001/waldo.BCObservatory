@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12671",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix extension settings actions and repeated marketplace installation",
+  "url": "https://github.com/microsoft/BCApps/pull/12671",
+  "published_at": "2026-10-15T10:46:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "a2f3b45a2b456f66eadd8ddba2d0f0e8f1f65cb0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12671,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a2f3b45a2b456f66eadd8ddba2d0f0e8f1f65cb0",
+    "author": "SBalslev",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix extension settings actions and repeated marketplace installation"
+  }
+}

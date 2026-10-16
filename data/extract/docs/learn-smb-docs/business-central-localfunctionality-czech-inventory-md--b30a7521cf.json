@@ -3,30 +3,24 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory",
   "title": "Czech Local Functionality - Inventory",
   "blob": "57745f4ca6e20bdffe73093e48463db325111ff4",
-  "summary": "Czech inventory features including posting groups for transfer orders, rounding accounts, G/L reconciliation enhancements, physical inventory adjustments with movement templates, and specialized inventory operation and counting documents for legal compliance.",
+  "summary": "Czech inventory features add transfer order posting groups, rounding accounts, inventory reconciliation enhancements, physical inventory movement templates, and specialized reports for inventory operations and counting documents.",
   "systems": [
     "inventory",
     "finance",
     "localization"
   ],
   "topics": [
-    "czech local functionality",
-    "posting groups",
+    "czech",
+    "inventory posting",
     "transfer orders",
     "physical inventory",
-    "inventory adjustment",
-    "g/l reconciliation",
-    "inventory operations",
-    "rounding accounts"
+    "rounding",
+    "reconciliation"
   ],
   "objects": [
     {
       "type": "table",
       "name": "Value Entry"
-    },
-    {
-      "type": "page",
-      "name": "Transfer Route"
     },
     {
       "type": "page",
@@ -50,12 +44,12 @@
     }
   ],
   "features": [
-    "Posting groups in transfer orders",
-    "Rounding account in inventory",
-    "Inventory – G/L reconciliation enhancements",
-    "Physical inventory adjustments with movement templates",
-    "Inventory operations documents",
-    "Physical inventory counting documents"
+    "Transfer order posting groups",
+    "Rounding account",
+    "Inventory G/L reconciliation",
+    "Physical inventory templates",
+    "Deficit and surplus accounting",
+    "Inventory operations documents"
   ],
   "versions": [],
   "parts": 1,
@@ -64,8 +58,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004556,
-      "pages_in_call": 1
+      "cost_usd": 0.003177,
+      "pages_in_call": 4
     }
   ]
 }

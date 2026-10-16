@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12558",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 653463 - Refactor Corrections Posting Mgt. CZL codeunit to improve clarity and fix logic for G/L correction handling",
+  "url": "https://github.com/microsoft/BCApps/pull/12558",
+  "published_at": "2026-10-15T03:38:08Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "8eb96f0c5c5d7ae1d38f9f1c0d2d21d1d8f95514:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12558,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8eb96f0c5c5d7ae1d38f9f1c0d2d21d1d8f95514",
+    "author": "DavidHolusa",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 653463 refactor corrections posting mgt czl codeunit to improve clarity and fix logic for g l correction handling"
+  }
+}

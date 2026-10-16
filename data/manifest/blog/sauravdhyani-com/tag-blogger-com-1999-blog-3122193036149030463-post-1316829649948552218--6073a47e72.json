@@ -7,15 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/business-central-v29-use-system-audit.html",
   "published_at": "2026-10-12T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:19:49.863Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md",
+      "words": 687
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:00.084Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.005586
+    },
+    "summarized": {
+      "at": "2026-10-16T00:20:00.085Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:00.086Z"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:00.097Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md"
     }
   },
   "input_hash": "2026-10-12T05:30:00.117Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "web lane: fetched took longer than 180 s",
-  "retry_after": "2026-10-15T02:25:08.252Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3e615eee2fb6c4cc9fcf6ed989569e118f59c41e57c5ccfb2fd02b85d355f74e"
 }

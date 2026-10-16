@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12760",
+  "number": 12760,
+  "title": "[29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Order Planning feature now correctly processes remaining valid demand items when a blocked item is encountered instead of stopping the entire calculation.",
+  "key_points": [
+    "Prevents order planning calculation from halting on blocked items",
+    "Enables continued processing of remaining valid demand",
+    "Adds field and logic updates to Order Planning Management and Requisition Line",
+    "Includes comprehensive test coverage for the scenario"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003264,
+    "changes_in_call": 6
+  }
+}

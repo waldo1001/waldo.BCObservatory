@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12217",
+  "number": 12217,
+  "title": "[Master]-Outgoing Payment Report Employee Payments Missing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "DTA Payment Journal report now includes employee payments in the outgoing payment report for Swiss localization.",
+  "key_points": [
+    "Fixes missing employee payments in DTA Payment Journal output",
+    "Updates report logic and RDLC template",
+    "Includes test updates for the corrected behavior",
+    "Swiss localization specific change"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003264,
+    "changes_in_call": 6
+  }
+}

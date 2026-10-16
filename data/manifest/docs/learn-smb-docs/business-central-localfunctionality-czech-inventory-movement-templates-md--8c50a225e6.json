@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory-movement-templates",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:57.661Z",
+      "at": "2026-10-16T00:20:00.033Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00133
+      "cost_usd": 0.003177
     },
     "summarized": {
-      "at": "2026-10-06T19:22:57.669Z",
+      "at": "2026-10-16T00:20:00.037Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:57.670Z",
+      "at": "2026-10-16T00:20:00.038Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:57.671Z",
+      "at": "2026-10-16T00:20:00.039Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "64f1ef3d44460db935088b09a9eb9c17a5a88d0f"
+  "output_hash": "1bad1bdc7409b873634bcac01857815de7f108b164ded6d1968b443046f6782d"
 }

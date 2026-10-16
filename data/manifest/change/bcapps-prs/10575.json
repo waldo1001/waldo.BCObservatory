@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/10575",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Calculate Inventory: scope Default Dimension reads by source table",
+  "url": "https://github.com/microsoft/BCApps/pull/10575",
+  "published_at": "2026-10-15T18:28:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "82f1099224f7690221e5e6fa638d61e5025da1ab:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 10575,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "82f1099224f7690221e5e6fa638d61e5025da1ab",
+    "author": "Franco111000",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "calculate inventory scope default dimension reads by source table"
+  }
+}

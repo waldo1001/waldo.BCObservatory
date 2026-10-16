@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12322",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[QM] Destination bin code is now visible and usable for the user",
+  "url": "https://github.com/microsoft/BCApps/pull/12322",
+  "published_at": "2026-10-15T18:28:25Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "eb82e2c218fc1d452416f700eca98f188179b26f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12322,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "eb82e2c218fc1d452416f700eca98f188179b26f",
+    "author": "6CRIPT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "qm destination bin code is now visible and usable for the user"
+  }
+}

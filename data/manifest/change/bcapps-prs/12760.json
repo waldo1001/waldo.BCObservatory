@@ -6,7 +6,7 @@
   "title": "[29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.",
   "url": "https://github.com/microsoft/BCApps/pull/12760",
   "published_at": "2026-10-14T07:07:51Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 2,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:03.578Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003264
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:04.173Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "866a524fcaefacda4fb3a7b1a44daebcdacc377b"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:04.181Z",
+      "path": "content/changes/bcapps/12760.md"
     }
   },
   "input_hash": "ef2eb9af5f76d594503300770c60878ad4b6c502:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7df430fc1b8e9c50b5cb5235784465d6c856cf0994aa595847f66cbcf1a0d213"
+  "output_hash": "2ae7d9b0e0275ddb4be67ec725cfbcfd7e5c965d75c05bad57d9af89cd220765"
 }

@@ -6,7 +6,7 @@
   "title": "[Extensibility Request] issue 29654: customize document rejection response",
   "url": "https://github.com/microsoft/BCApps/pull/11580",
   "published_at": "2026-10-13T17:00:58Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-14T00:20:24.304Z"
@@ -18,6 +18,13 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:03.583Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003264
     }
   },
   "input_hash": "562b520c7a3318282b94369ea0eedec9cbae4023:c1",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b1d70ab1c3da11dd37fc560390367ce0aac1b9c6f3b18a8ddda359c57ee534c"
+  "output_hash": "0b3e97a9ab0add00f749727a3ba6eaba0663ebc5ed9f007c57075af4d5cde3cf"
 }

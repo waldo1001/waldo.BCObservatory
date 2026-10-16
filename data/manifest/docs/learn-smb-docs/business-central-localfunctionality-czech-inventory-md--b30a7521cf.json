@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.604Z",
+      "at": "2026-10-16T00:20:00.033Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 7,
-      "cost_usd": 0.004529
+      "objects": 6,
+      "cost_usd": 0.003177
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.061Z",
+      "at": "2026-10-16T00:20:00.040Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.062Z",
+      "at": "2026-10-16T00:20:00.041Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.063Z",
+      "at": "2026-10-16T00:20:00.042Z",
       "page": false
     }
   },
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "57745f4ca6e20bdffe73093e48463db325111ff4"
+  "output_hash": "eabd80fcdc8e822003b2c9b0be9e22f2e427c33b3d1d46838b7174ef547ec891"
 }

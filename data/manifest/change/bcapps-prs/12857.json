@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12857",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.",
+  "url": "https://github.com/microsoft/BCApps/pull/12857",
+  "published_at": "2026-10-15T21:29:48Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "ff3d70c57cbfb3ade10598c76a16e1272c0ee025:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12857,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ff3d70c57cbfb3ade10598c76a16e1272c0ee025",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master incorrect purchase credit memo created when customer and vendor subscription contracts have the same contract number"
+  }
+}

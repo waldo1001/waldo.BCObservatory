@@ -1,0 +1,62 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1316829649948552218",
+  "url": "https://www.sauravdhyani.com/2026/09/business-central-v29-use-system-audit.html",
+  "title": "Business Central v29: Use System Audit Fields in Analysis Mode and Profiles",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-12T05:30:00.000Z",
+  "words": 687,
+  "summary": "Business Central v29 enables administrators to use system audit fields (such as who created a record and when it was modified) directly in Analysis Mode and Profile customizations without building custom extensions. This configuration-driven approach reduces development effort and maintenance costs while improving audit visibility.",
+  "key_points": [
+    "System audit fields like System Created At, System Created By, System Modified At, and System Modified By are now accessible in Analysis Mode and Profiles",
+    "Previously, these fields required custom page extensions to display, introducing development and maintenance overhead",
+    "Administrators can now configure audit information visibility for specific user roles through Profiles without code",
+    "Analysis Mode users can explore and analyze records by creator, review modifications, track ownership trends, and improve troubleshooting",
+    "This enhancement reduces customization footprint, accelerates deployments, and improves supportability for audit investigations"
+  ],
+  "systems": [
+    "administration",
+    "reporting",
+    "development"
+  ],
+  "topics": [
+    "audit fields",
+    "analysis mode",
+    "profiles",
+    "personalization",
+    "configuration",
+    "customization"
+  ],
+  "objects": [],
+  "features": [
+    "System Audit Fields in Analysis Mode",
+    "System Audit Fields in Profiles",
+    "Analysis Mode customization",
+    "Profile customization"
+  ],
+  "versions": [
+    "v29"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central v29 removes a major limitation by making system audit fields available in Analysis Mode and Profile customizations.",
+      "why_it_matters": "Explains the core improvement that reduces the need for custom extensions"
+    },
+    {
+      "text": "This means administrators can expose audit information without writing code or deploying custom extensions.",
+      "why_it_matters": "Highlights the shift to low-code administration and configuration-driven approach"
+    },
+    {
+      "text": "By reducing dependency on page extensions, organizations can simplify administration, improve audit visibility, and maintain cleaner environments.",
+      "why_it_matters": "Summarizes the practical business benefits of this enhancement"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005586,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12626",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix AppSource product details opening in write transactions",
+  "url": "https://github.com/microsoft/BCApps/pull/12626",
+  "published_at": "2026-10-15T09:09:36Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "987df1c550f92b6d218d26abdddebf12ae8572de:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12626,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "987df1c550f92b6d218d26abdddebf12ae8572de",
+    "author": "SBalslev",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix appsource product details opening in write transactions"
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[Master]-Outgoing Payment Report Employee Payments Missing",
   "url": "https://github.com/microsoft/BCApps/pull/12217",
   "published_at": "2026-10-14T06:14:49Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:03.581Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003264
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:04.704Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:04.713Z",
+      "path": "content/changes/bcapps/12217.md"
     }
   },
   "input_hash": "47a69e38bcc76058df6fedb88f1648ea3475174d:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "266b93f59b9d4f3da27c96b7d217c4230342ae550b94a5dcfa638d3634b569ab"
+  "output_hash": "914268ca27d16e423fa2f2707ee11beb72cf13ca8c669c8b5ba6c8695a8322ee"
 }

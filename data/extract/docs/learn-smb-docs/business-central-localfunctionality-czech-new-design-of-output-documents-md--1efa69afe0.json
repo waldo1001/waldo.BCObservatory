@@ -3,28 +3,28 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents",
   "title": "Czech Local Functionality - New design of output documents",
   "blob": "394fadc0adde7b8e2b64e8a973329957c2e9e70e",
-  "summary": "New design of output documents for the Czech version of Business Central with standardized layouts and compliance with Czech legislation requirements including VAT registration, advance deductions, and tax corrective documents.",
+  "summary": "New Czech output document design standardizes printed reports with consistent layout while adding compliance features like registration numbers, VAT specifications, advance payment deductions, and tax corrective document naming.",
   "systems": [
-    "localization",
     "finance",
-    "reporting"
+    "localization",
+    "sales"
   ],
   "topics": [
-    "czech local functionality",
+    "czech",
     "output documents",
-    "printing",
+    "reporting",
     "vat",
-    "advance payments",
-    "tax compliance"
+    "compliance",
+    "document design"
   ],
   "objects": [],
   "features": [
-    "standardized document layout",
-    "vat registration numbers",
-    "advance deduction tracking",
-    "vat specification grouping",
-    "tax corrective document naming",
-    "advance payment documentation"
+    "Standardized document layout",
+    "Registration No. printing",
+    "VAT Registration No.",
+    "Advance payment deduction details",
+    "VAT specification by identifier",
+    "Tax corrective document naming"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002934,
-      "pages_in_call": 1
+      "cost_usd": 0.003177,
+      "pages_in_call": 4
     }
   ]
 }

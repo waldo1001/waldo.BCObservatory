@@ -3,7 +3,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/intrastat",
   "title": "Czech local functionality - Intrastat",
   "blob": "f71aa1fd4a9ea93e4e0e07aa8820dc54c619b573",
-  "summary": "Czech Intrastat reporting extends the standard Intrastat feature with configurable engine parameters, supplementary unit handling, statistical amount calculation, and CSV export to comply with Czech local requirements.",
+  "summary": "Czech Intrastat functionality improves data transfer to the Intrastat journal with parameterized engine options, supplementary units handling, and CSV export capabilities to meet local requirements.",
   "systems": [
     "finance",
     "localization"
@@ -11,21 +11,20 @@
   "topics": [
     "intrastat",
     "czech",
-    "local functionality",
     "international trade",
     "reporting",
-    "statistical reporting"
+    "data validation",
+    "csv export"
   ],
   "objects": [],
   "features": [
-    "Intrastat engine setup parameters",
+    "Intrastat engine setup",
     "Supplementary units of measure",
-    "Statistical amount calculation",
-    "Get Intrastat Entries batch job",
-    "CSV export for INSTATDESK and INSTATONLINE",
-    "Statistic indications",
-    "Specific movements",
-    "Intrastat delivery groups"
+    "Get Intrastat Entries batch",
+    "Declaration numbering",
+    "Item charge handling",
+    "Foreign currency exchange rates",
+    "CSV export"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +33,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004294,
-      "pages_in_call": 1
+      "cost_usd": 0.003177,
+      "pages_in_call": 4
     }
   ]
 }

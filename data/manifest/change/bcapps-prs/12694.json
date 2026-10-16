@@ -6,7 +6,7 @@
   "title": "Allow API tests to issue local HTTP requests",
   "url": "https://github.com/microsoft/BCApps/pull/12694",
   "published_at": "2026-10-14T06:26:23Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 2,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:03.580Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": false,
+      "cost_usd": 0.003264
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:04.446Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:04.453Z",
+      "path": "content/changes/bcapps/12694.md"
     }
   },
   "input_hash": "3d2e8340d1fcafb7e0ba4047c1a2b66309d275f3:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "31f5471ff34a362aa58865c33b57e9fb0a5b7ab084fff9a062bb711b28a5aa14"
+  "output_hash": "b70c5a474a27ed6a19806db6eb38be010e31c46025345d454d48abaff8498eea"
 }

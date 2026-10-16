@@ -7,15 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/09/microsoft-copilot-in-business-central.html",
   "published_at": "2026-10-13T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T13:11:11.933Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:19:49.237Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md",
+      "words": 1158
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:00.055Z",
+      "prompt": "extract-post@1",
+      "quotes": 1,
+      "trimmed": 0,
+      "cost_usd": 0.006815
+    },
+    "summarized": {
+      "at": "2026-10-16T00:20:00.057Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:00.058Z"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:00.074Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md"
     }
   },
   "input_hash": "2026-10-13T05:30:00.120Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "web lane: fetched took longer than 180 s",
-  "retry_after": "2026-10-15T02:24:03.450Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "318b101b7f21968f59e510491533148520d1023abc296330c43c5d1e924f9f5c"
 }

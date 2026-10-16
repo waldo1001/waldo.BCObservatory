@@ -1,0 +1,61 @@
+{
+  "item_id": "blog/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4709432878034654173",
+  "url": "https://www.sauravdhyani.com/2026/10/how-to-install-microsoft-dynamics-365.html",
+  "title": "How to Install Microsoft Dynamics 365 Business Central 29 On-Premises",
+  "source": "sauravdhyani-com",
+  "published_at": "2026-10-15T05:30:00.000Z",
+  "words": 1004,
+  "summary": "This guide covers the prerequisites and installation steps for deploying Microsoft Dynamics 365 Business Central 29 (2026 release wave 2) on-premises in a test or demonstration environment, including supported hardware, software, and network configuration requirements.",
+  "key_points": [
+    "Business Central 29.0 requires Windows Server 2022 or 2025, .NET 10.0, .NET Framework 4.8, and SQL Server with compatibility levels 160 or 170",
+    "Minimum deployment needs 16 GB RAM for the application and 100 GB disk space; 32-64 GB RAM is recommended for publishing large extensions",
+    "Installation involves preparing the environment, installing components via setup.exe, configuring SQL Server and server instance, setting service ports (Management 7045, Client 7085, SOAP 7047, OData 7048, Developer 7049), and validating the Web Client after completion",
+    "All Business Central components must come from the same version and build to avoid deployment problems",
+    "Post-installation verification should confirm the server service is running, the database is accessible, the Web Client opens successfully, and authentication works"
+  ],
+  "systems": [
+    "administration",
+    "platform",
+    "development"
+  ],
+  "topics": [
+    "on-premises installation",
+    "system requirements",
+    "business central 29",
+    "deployment",
+    "prerequisites",
+    "configuration"
+  ],
+  "objects": [],
+  "features": [
+    "Business Central Server",
+    "Business Central Web Server",
+    "Business Central Web Client",
+    "Business Central Administration Shell",
+    "SQL Server integration",
+    "Full-text and Semantic Search"
+  ],
+  "versions": [
+    "29.0",
+    "2026 release wave 2"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Business Central 29.0 is the major release for Dynamics 365 Business Central 2026 release wave 2.",
+      "why_it_matters": "Identifies the version number and release wave, essential for understanding when this content applies"
+    },
+    {
+      "text": "Also make sure that all Business Central components come from the same version and build. Mixing component versions can result in deployment problems.",
+      "why_it_matters": "Highlights a critical mistake to avoid that can cause failed deployments"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006964,
+    "posts_in_call": 1
+  }
+}

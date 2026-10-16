@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/11580",
+  "number": 11580,
+  "title": "[Extensibility Request] issue 29654: customize document rejection response",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Workflow Setup now offers an overloaded method to define custom rejection responses for document approvals while maintaining backward compatibility with existing behavior.",
+  "key_points": [
+    "Adds overload to InsertDocApprovalWorkflowSteps accepting rejection response code",
+    "Enables extensions to define custom rejection states",
+    "Preserves default open document behavior for current callers",
+    "Backward compatible extensibility enhancement"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Added an overload for supplying the rejection response code while retaining the existing signature and default behavior.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003264,
+    "changes_in_call": 6
+  }
+}

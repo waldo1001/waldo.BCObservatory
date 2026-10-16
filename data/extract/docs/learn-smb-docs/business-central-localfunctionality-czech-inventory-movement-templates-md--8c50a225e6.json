@@ -3,28 +3,26 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/inventory-movement-templates",
   "title": "Czech Local Functionality - Inventory Movement Templates",
   "blob": "64f1ef3d44460db935088b09a9eb9c17a5a88d0f",
-  "summary": "Inventory movement templates in the Czech version define transaction types and posting groups to automatically configure item and job journal lines for inventory movements and physical inventory adjustments.",
+  "summary": "Czech inventory movement templates enable custom posting setups for different transaction types by assigning specific inventory adjustment accounts and general business posting groups to templates.",
   "systems": [
     "inventory",
     "localization"
   ],
   "topics": [
-    "czech localization",
-    "inventory movements",
-    "item journals",
+    "inventory movement",
+    "czech",
     "posting groups",
-    "templates"
+    "item journal",
+    "physical inventory"
   ],
   "objects": [],
   "features": [
-    "Inventory Adjmt. Account",
-    "Positive Adjmt.",
-    "Negative Adjmt.",
-    "Transfer",
-    "Gen. Bus. Posting Group",
-    "item journal",
-    "job journal",
-    "physical inventory counting"
+    "Custom movement templates",
+    "Transaction type configuration",
+    "Gen. Bus. Posting Group assignment",
+    "Item journal posting",
+    "Job journal posting",
+    "Physical inventory counting"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +31,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002843,
-      "pages_in_call": 1
+      "cost_usd": 0.003177,
+      "pages_in_call": 4
     }
   ]
 }

@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/new-design-of-output-documents",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:57.662Z",
+      "at": "2026-10-16T00:20:00.034Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.00133
+      "cost_usd": 0.003177
     },
     "summarized": {
-      "at": "2026-10-06T19:23:10.907Z",
+      "at": "2026-10-16T00:20:00.043Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:23:10.909Z",
+      "at": "2026-10-16T00:20:00.044Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:23:10.910Z",
+      "at": "2026-10-16T00:20:00.045Z",
       "page": false
     }
   },
@@ -61,5 +61,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "394fadc0adde7b8e2b64e8a973329957c2e9e70e"
+  "output_hash": "9a695d4a579b4259f4ad42c4fa0386407eef6f304e8692d8d426b6b0d3bc194c"
 }

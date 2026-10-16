@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12694",
+  "number": 12694,
+  "title": "Allow API tests to issue local HTTP requests",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies, and OCR authentication header handling was corrected to avoid validation errors.",
+  "key_points": [
+    "Adds AllowAllOutboundRequests policy annotation to 153 API test codeunits",
+    "Fixes OCR service authentication by using TryAddWithoutValidation for x-rs-key header",
+    "Resolves test failures caused by default BlockOutboundRequests policy",
+    "Preserves legacy HTTP request manager wire behavior for OCR mock service",
+    "No public API or schema changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003264,
+    "changes_in_call": 6
+  }
+}

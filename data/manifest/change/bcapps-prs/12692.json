@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12692",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Shopify] Schedule TMA eval suites in US pipeline",
+  "url": "https://github.com/microsoft/BCApps/pull/12692",
+  "published_at": "2026-10-15T21:29:48Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    }
+  },
+  "input_hash": "b255ff260c722e302b064c2d22fce4516f049805:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12692,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "b255ff260c722e302b064c2d22fce4516f049805",
+    "author": "onbuyuka",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "shopify schedule tma eval suites in us pipeline"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-16T00:19:49.304Z",
+  "retry_after": null
+}

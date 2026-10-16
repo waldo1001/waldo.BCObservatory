@@ -7,7 +7,7 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/intrastat",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
@@ -19,22 +19,22 @@
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:22:14.603Z",
+      "at": "2026-10-16T00:20:00.031Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.004529
+      "objects": 0,
+      "cost_usd": 0.003177
     },
     "summarized": {
-      "at": "2026-10-06T19:22:17.058Z",
+      "at": "2026-10-16T00:20:00.035Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:22:17.059Z",
+      "at": "2026-10-16T00:20:00.036Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:22:17.060Z",
+      "at": "2026-10-16T00:20:00.036Z",
       "page": false
     }
   },
@@ -63,5 +63,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f71aa1fd4a9ea93e4e0e07aa8820dc54c619b573"
+  "output_hash": "4e43a36ac7ba9ac0bb28ca07be376ed555d245c16fc8dc51c8c276e64a2562f5"
 }

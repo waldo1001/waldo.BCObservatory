@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12551",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.",
+  "url": "https://github.com/microsoft/BCApps/pull/12551",
+  "published_at": "2026-10-15T22:28:14Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-16T00:19:49.581Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 12,
+      "objects": 11,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-16T00:20:03.577Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003264
+    },
+    "linked": {
+      "at": "2026-10-16T00:20:03.839Z",
+      "objects": 11,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-16T00:20:03.891Z",
+      "path": "content/changes/bcapps/12551.md"
+    }
+  },
+  "input_hash": "700ea70751a26728b23617f3943fea28c5527aef:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12551,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "700ea70751a26728b23617f3943fea28c5527aef",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "since business central 28 4 we have observed changed behaviour when the vat prod"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1f7ba53c7a1351c40a13f8d4fe3e5c3d7943449b630987638f4e347721705978"
+}
