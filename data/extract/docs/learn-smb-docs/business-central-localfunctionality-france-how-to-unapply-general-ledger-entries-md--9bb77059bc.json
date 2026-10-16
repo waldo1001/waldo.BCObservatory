@@ -2,16 +2,17 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-unapply-general-ledger-entries.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-unapply-general-ledger-entries",
   "title": "How to Unapply General Ledger Entries [FR]",
-  "blob": "6bf4cfb85bb64f950fbdebc9fc16f6e1c3131010",
-  "summary": "Unapply general ledger entries in French Business Central by selecting entries on the Apply G/L Entries page and using the Unapply Entries action.",
+  "blob": "d18b741b000238fed6e5147062c29339c1d01f0b",
+  "summary": "Unapply general ledger entries in the French version of Business Central by selecting accounts and ledger entries, then using the Unapply Entries action.",
   "systems": [
-    "finance"
+    "finance",
+    "localization"
   ],
   "topics": [
     "general ledger",
-    "apply entries",
     "unapply entries",
-    "france localization"
+    "france",
+    "localization"
   ],
   "objects": [
     {
@@ -24,7 +25,8 @@
     }
   ],
   "features": [
-    "Unapply Entries"
+    "Unapply Entries action",
+    "Apply Entries action"
   ],
   "versions": [],
   "parts": 1,
@@ -33,8 +35,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002545,
-      "pages_in_call": 8
+      "cost_usd": 0.002884,
+      "pages_in_call": 1
     }
   ]
 }

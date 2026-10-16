@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-addresses",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.308Z",
-      "blob": "99a55bc7169c4b0d05bbd2edc32285b6deee5acc",
+      "at": "2026-10-16T00:25:50.133Z",
+      "blob": "1145329b0c72f642a030a916fd9f56ead173be6f",
       "words": 209,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.219Z",
+      "at": "2026-10-16T00:25:55.495Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002614
+      "cost_usd": 0.003016
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.495Z",
+      "at": "2026-10-16T00:25:55.496Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.496Z",
+      "at": "2026-10-16T00:25:55.497Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.497Z",
+      "at": "2026-10-16T00:25:55.498Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-set-up-payment-addresses.md",
     "description": "Learn how to configure payment addresses for vendors and customers to streamline settlement processes.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -144,12 +144,12 @@
       "payment addresses",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 209,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "5eee46cb607a59e56c59478e0f4ef07784c1f487e9466ce69aa4c21f790abf1c"
+  "output_hash": "df22d5b08203b70606517874982bf168ecf1a21c7c00d8a826c8d55e8498bdfc"
 }

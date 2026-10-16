@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-specify-posting-periods",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.317Z",
-      "blob": "d710f81289348d2e1d3c30a301316faeaf773391",
-      "words": 187,
+      "at": "2026-10-16T00:25:55.628Z",
+      "blob": "fc4a5731455fdfbd79149f59911d4c69adff1eb5",
+      "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.745Z",
+      "at": "2026-10-16T00:26:04.280Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002545
+      "cost_usd": 0.003062
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.754Z",
+      "at": "2026-10-16T00:26:04.283Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.755Z",
+      "at": "2026-10-16T00:26:04.284Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.756Z",
+      "at": "2026-10-16T00:26:04.285Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-specify-posting-periods.md",
     "description": "Learn how to specify posting periods to limit the period in which posting is allowed.",
-    "ms_date": "2025-04-24",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
       "posting period",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 187,
+    "ai_usage": "ai-assisted",
+    "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "ef14c626e0cc3bab47b4e525c4a64759ba9f27e8c6a2af2a1de7d53e2fb7e026"
+  "output_hash": "4a1ce0e46085aa086d4d5bf3d79f25110c86b0c2ad346205b5c9eb835a641048"
 }

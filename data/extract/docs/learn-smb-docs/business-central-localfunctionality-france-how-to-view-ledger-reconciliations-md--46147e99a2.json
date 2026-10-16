@@ -2,43 +2,48 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations",
   "title": "How to view ledger reconciliations",
-  "blob": "a42883c59445e8905e955bbbdb214fa2ca3e4e2b",
-  "summary": "View ledger reconciliations in the French version to review debit and credit amounts for customers and document numbers that resulted in general ledger transactions.",
+  "blob": "85bdb1822a17832d0f555f47ed3c60e13e27d0b4",
+  "summary": "The GL/Cust. Ledger Reconciliation and GL/Vend. Ledger Reconciliation reports enable viewing reconciliation between the general ledger and customer or vendor ledgers by setting date filters and previewing debit/credit amounts. Available through the Payment Management FR extension as of release 28.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
     "ledger reconciliation",
-    "french",
     "general ledger",
     "customer ledger",
-    "vendor ledger"
+    "vendor ledger",
+    "france",
+    "payment management"
   ],
   "objects": [
     {
-      "type": "page",
-      "name": "General Ledger"
+      "type": "report",
+      "name": "GL/Cust. Ledger Reconciliation"
     },
     {
       "type": "report",
-      "name": "GL/Cust. Ledger Reconciliation"
+      "name": "GL/Vend. Ledger Reconciliation"
     }
   ],
   "features": [
-    "GL/Cust. Ledger Reconciliation report",
-    "date filter",
-    "reconciliation preview"
+    "ledger reconciliation",
+    "general ledger reporting",
+    "customer ledger reconciliation",
+    "vendor ledger reconciliation",
+    "date filtering"
   ],
-  "versions": [],
+  "versions": [
+    "release 28"
+  ],
   "parts": 1,
   "prompt_version": 1,
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00316,
-      "pages_in_call": 8
+      "cost_usd": 0.003353,
+      "pages_in_call": 1
     }
   ]
 }

@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.200Z",
-      "blob": "a42883c59445e8905e955bbbdb214fa2ca3e4e2b",
-      "words": 177,
+      "at": "2026-10-16T00:25:56.215Z",
+      "blob": "85bdb1822a17832d0f555f47ed3c60e13e27d0b4",
+      "words": 220,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:55.711Z",
+      "at": "2026-10-16T00:26:04.266Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.00316
+      "cost_usd": 0.003353
     },
     "summarized": {
-      "at": "2026-10-06T19:21:57.405Z",
+      "at": "2026-10-16T00:26:04.268Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:57.406Z",
+      "at": "2026-10-16T00:26:04.269Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:57.407Z",
+      "at": "2026-10-16T00:26:04.270Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-view-ledger-reconciliations.md",
     "description": "Learn how to view general ledger reconciliation with the customer ledger and vendor ledger in the French version of Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "vendor ledger",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 177,
+    "ai_usage": "ai-assisted",
+    "words": 220,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "85ade547f543d9884e1d45be33f161d54241a6426e93f45120db8fda9fd95059"
+  "output_hash": "b1800cc1356454fd5fdec14cd82b80f46bd9c63132af9c2dece89e0f8da208dc"
 }

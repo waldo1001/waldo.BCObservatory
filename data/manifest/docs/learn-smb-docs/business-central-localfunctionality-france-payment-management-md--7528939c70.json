@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/payment-management",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.326Z",
-      "blob": "5104f61e2896871cc245fca1a96f34431ef97bbe",
-      "words": 360,
+      "at": "2026-10-16T00:25:56.373Z",
+      "blob": "7986f172e73caf1f6364c1e024dd760e32c0a102",
+      "words": 356,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.747Z",
+      "at": "2026-10-16T00:26:04.251Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002545
+      "cost_usd": 0.003419
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.762Z",
+      "at": "2026-10-16T00:26:04.253Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.763Z",
+      "at": "2026-10-16T00:26:04.254Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.764Z",
+      "at": "2026-10-16T00:26:04.255Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/payment-management.md",
     "description": "Learn how to use the payment management function to manage bills of exchange, electronic payments, and vendor payments in the French version of Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -150,12 +150,12 @@
       "archive payment slip",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 360,
+    "ai_usage": "ai-assisted",
+    "words": 356,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "0ae9c4b079a63e779e4dc3224e9e6a5a4bce57586d03f6f33fac144fdcd212ae"
+  "output_hash": "e1a3c5a2a1ea8b104067913e03124ba5c913a81d9cd295d1285bef103adcc20d"
 }

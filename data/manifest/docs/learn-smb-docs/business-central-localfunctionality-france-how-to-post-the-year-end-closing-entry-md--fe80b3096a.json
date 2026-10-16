@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-post-the-year-end-closing-entry",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.289Z",
-      "blob": "5eaf71486f26e829ffe1b547aa4ed438761b252f",
-      "words": 155,
+      "at": "2026-10-16T00:25:50.059Z",
+      "blob": "34b6769784722f47f20bdd815a942bd5c29c7ca9",
+      "words": 180,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.215Z",
+      "at": "2026-10-16T00:25:55.578Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002614
+      "cost_usd": 0.002853
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.483Z",
+      "at": "2026-10-16T00:25:55.579Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.484Z",
+      "at": "2026-10-16T00:25:55.580Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.485Z",
+      "at": "2026-10-16T00:25:55.582Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md",
     "description": "Learn how to post the year-end closing entries after you use the Close Income Statement batch job.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "close income statement batch job",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 155,
+    "ai_usage": "ai-assisted",
+    "words": 180,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bd40000e555c65ab3c73c8e92bcf996c77597ff136d24445f4e8981c35c1e402"
+  "output_hash": "18382ed388fc86924c7d41aca17063d7a3772ab73781dc3f2e6c82fa7cabd3bc"
 }

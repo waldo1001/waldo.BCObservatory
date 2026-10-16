@@ -2,24 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods",
   "title": "Reopen Accounting Periods [FR]",
-  "blob": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
-  "summary": "Reopening accounting periods in French Business Central allows posting entries to a fiscally closed single period using the Reopen Fiscal Period action, except after the year is fiscally closed.",
+  "blob": "66197612e54a888fad36d4f6434266034cac9199",
+  "summary": "Reopen fiscally closed accounting periods in France to post additional general ledger entries, with the limitation that periods cannot be reopened after their fiscal year is closed.",
   "systems": [
     "finance",
+    "localization",
     "administration"
   ],
   "topics": [
     "accounting periods",
-    "fiscal closing",
-    "period reopening",
-    "france"
+    "fiscal closure",
+    "france",
+    "general ledger",
+    "period management"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Accounting Periods"
+    }
+  ],
   "features": [
-    "Reopen Fiscal Period action",
+    "Reopen Fiscal Period",
     "Fiscally Closed field",
-    "Period Reopened Date",
-    "Fiscal year closure"
+    "Period Reopened Date field"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002614,
-      "pages_in_call": 8
+      "cost_usd": 0.003068,
+      "pages_in_call": 1
     }
   ]
 }

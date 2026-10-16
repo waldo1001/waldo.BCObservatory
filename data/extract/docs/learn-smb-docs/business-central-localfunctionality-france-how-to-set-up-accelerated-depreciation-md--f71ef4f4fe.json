@@ -2,36 +2,44 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation",
   "title": "Set Up Accelerated Depreciation",
-  "blob": "d29b0ba2fd29e086c2bc74da1993feb947311521",
-  "summary": "Accelerated depreciation setup in French Business Central requires configuring separate accounting and tax depreciation books with specific integration settings and derogatory calculations.",
+  "blob": "b5f983318adfa2b4862426ab3ed2f060aaa3a4ff",
+  "summary": "Set up accelerated depreciation for fixed assets in France by configuring accounting and tax depreciation books with the Derogatory field and posting groups.",
   "systems": [
     "fixed-assets",
-    "finance"
+    "localization"
   ],
   "topics": [
-    "depreciation",
     "fixed assets",
+    "depreciation",
+    "accelerated depreciation",
     "tax depreciation",
-    "france",
-    "accelerated depreciation"
+    "france"
   ],
   "objects": [
     {
       "type": "page",
-      "name": "Depreciation Book"
+      "name": "Depreciation Book Card"
     },
     {
       "type": "page",
-      "name": "FA Posting Group"
+      "name": "FA Posting Group Card"
+    },
+    {
+      "type": "page",
+      "name": "Fixed Asset Card"
+    },
+    {
+      "type": "table",
+      "name": "FA Ledger Entry"
     }
   ],
   "features": [
-    "Accelerated depreciation calculation",
     "Derogatory field",
-    "Depreciation Books",
-    "Tax depreciation",
-    "Derogatory Calculation field",
-    "FA G/L journal posting"
+    "Integration FastTab",
+    "Derogatory Calculation",
+    "FA posting group",
+    "tax depreciation book",
+    "accounting depreciation book"
   ],
   "versions": [],
   "parts": 1,
@@ -40,8 +48,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002614,
-      "pages_in_call": 8
+      "cost_usd": 0.003606,
+      "pages_in_call": 1
     }
   ]
 }

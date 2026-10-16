@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-reopen-accounting-periods",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.298Z",
-      "blob": "f868ad78825d32cbf8f8c74b21111e908415ddc0",
+      "at": "2026-10-16T00:25:50.098Z",
+      "blob": "66197612e54a888fad36d4f6434266034cac9199",
       "words": 152,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.217Z",
+      "at": "2026-10-16T00:25:55.654Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.002614
+      "objects": 1,
+      "cost_usd": 0.003068
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.489Z",
+      "at": "2026-10-16T00:25:55.656Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.490Z",
+      "at": "2026-10-16T00:25:55.657Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.491Z",
+      "at": "2026-10-16T00:25:55.659Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-reopen-accounting-periods.md",
     "description": "Learn how to reopen a fiscally closed accounting period to post general ledger entries in the French version of Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "reopen fiscal period",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 152,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8252b0e8d274f111a915f8221c70fbaaffa82f49347659ba27fe9e2c5c8ba778"
+  "output_hash": "13ce2198b70794319deb318698bae90566d0ed5e46b2b3681620fa3aa312d8b0"
 }

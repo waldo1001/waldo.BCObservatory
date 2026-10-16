@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-payment-classes",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.312Z",
-      "blob": "c8ef55e96cc32c11fff216b65f52a30797fecee8",
-      "words": 696,
+      "at": "2026-10-16T00:25:55.543Z",
+      "blob": "e77f476694573fba01946cbb6634645729b5e076",
+      "words": 704,
       "forms": 18
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.220Z",
+      "at": "2026-10-16T00:26:04.332Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 5,
-      "cost_usd": 0.002614
+      "objects": 4,
+      "cost_usd": 0.004671
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.498Z",
+      "at": "2026-10-16T00:26:04.342Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.498Z",
+      "at": "2026-10-16T00:26:04.351Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.499Z",
+      "at": "2026-10-16T00:26:04.352Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-set-up-payment-classes.md",
     "description": "Learn how to configure payment classes, payment steps, statuses, and ledger information to manage operation types, such as bills of exchange, electronic payments, or checks.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -149,12 +149,12 @@
       "ledger information",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 696,
+    "ai_usage": "ai-assisted",
+    "words": 704,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f935ab57c1838db5993e5fa85ef4074905c188d2e9cdbf99a27a0251ca3f72db"
+  "output_hash": "a9c4d7a51851cb86e6bd30853ca5a67811563456da6f33dcad7209b9ca363957"
 }

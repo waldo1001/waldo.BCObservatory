@@ -2,79 +2,30 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/France/how-to-print-general-ledger-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-print-general-ledger-reports",
   "title": "Print General Ledger Reports [FR]",
-  "blob": "7548b2cb2e2fc05270c5a9363d1e97715591e73f",
-  "summary": "French Business Central provides multiple general ledger reports including Journals, G/L Trial Balance, and separate reports for customers, vendors, and bank accounts to meet financial accounting standards.",
+  "blob": "8bb7c1ac7101ca02e8f5e87990a36176ac8964c7",
+  "summary": "Print general ledger reports for France that include ledger, customer, vendor, and bank account entries meeting financial accounting standards. Use this to generate journals, trial balances, and detail trial balances for accounting compliance and analysis.",
   "systems": [
     "finance",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "general ledger",
     "reports",
-    "trial balance",
     "france",
-    "financial statements"
+    "trial balance",
+    "journals",
+    "financial reporting"
   ],
-  "objects": [
-    {
-      "type": "report",
-      "name": "Journals"
-    },
-    {
-      "type": "report",
-      "name": "G/L Journal"
-    },
-    {
-      "type": "report",
-      "name": "G/L Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "G/L Detail Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Customer Journal"
-    },
-    {
-      "type": "report",
-      "name": "Customer Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Customer Detail Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Vendor Journal"
-    },
-    {
-      "type": "report",
-      "name": "Vendor Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Vendor Detail Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Bank Account Journal"
-    },
-    {
-      "type": "report",
-      "name": "Bank Account Trial Balance"
-    },
-    {
-      "type": "report",
-      "name": "Bank Acc. Detail Trial Balance"
-    }
-  ],
+  "objects": [],
   "features": [
-    "General Ledger Reports",
-    "Trial Balance reporting",
-    "Transactions reporting",
-    "Subtotals by period",
-    "Debit and credit balances"
+    "Journals report",
+    "G/L Journal report",
+    "G/L Trial Balance report",
+    "G/L Detail Trial Balance report",
+    "Customer Journal report",
+    "Customer Trial Balance report",
+    "Vendor Journal report",
+    "Bank Account Journal report"
   ],
   "versions": [],
   "parts": 1,
@@ -83,8 +34,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002614,
-      "pages_in_call": 8
+      "cost_usd": 0.003884,
+      "pages_in_call": 1
     }
   ]
 }

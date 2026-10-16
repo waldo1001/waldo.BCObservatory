@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-unapply-general-ledger-entries",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.322Z",
-      "blob": "6bf4cfb85bb64f950fbdebc9fc16f6e1c3131010",
+      "at": "2026-10-16T00:25:55.718Z",
+      "blob": "d18b741b000238fed6e5147062c29339c1d01f0b",
       "words": 99,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:29:17.746Z",
+      "at": "2026-10-16T00:26:00.712Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002545
+      "cost_usd": 0.002884
     },
     "summarized": {
-      "at": "2026-10-06T19:29:17.758Z",
+      "at": "2026-10-16T00:26:00.713Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:17.759Z",
+      "at": "2026-10-16T00:26:00.715Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:17.760Z",
+      "at": "2026-10-16T00:26:04.243Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-unapply-general-ledger-entries.md",
     "description": "Learn the steps to easily unapply general ledger entries using the Chart of Accounts feature in Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "unapply entries",
       "French version"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 99,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "84b753051ca65a0ec4c23be1c73af08f9acf964dd8fc8c01302d60641af2d116"
+  "output_hash": "2e0c77baa35289e1f01ae9832fd64ede8ebe7e4abbee9143c45b0085e7326945"
 }

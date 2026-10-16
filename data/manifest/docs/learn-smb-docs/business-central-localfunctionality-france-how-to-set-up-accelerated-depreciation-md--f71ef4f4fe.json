@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:38.303Z",
-      "blob": "d29b0ba2fd29e086c2bc74da1993feb947311521",
-      "words": 362,
+      "at": "2026-10-16T00:25:50.147Z",
+      "blob": "b5f983318adfa2b4862426ab3ed2f060aaa3a4ff",
+      "words": 379,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:29:08.218Z",
+      "at": "2026-10-16T00:25:56.134Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 2,
-      "cost_usd": 0.002614
+      "objects": 4,
+      "cost_usd": 0.003606
     },
     "summarized": {
-      "at": "2026-10-06T19:29:14.492Z",
+      "at": "2026-10-16T00:25:56.140Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:29:14.493Z",
+      "at": "2026-10-16T00:25:56.142Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:29:14.494Z",
+      "at": "2026-10-16T00:25:56.145Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md",
     "description": "Set up depreciation books for fixed assets to use accelerated depreciation calculations in Business Central.",
-    "ms_date": "2025-04-16",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
@@ -66,12 +66,12 @@
       "fixed assets",
       "French version"
     ],
-    "ai_usage": null,
-    "words": 362,
+    "ai_usage": "ai-assisted",
+    "words": 379,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6c230fc1ab1b3a4754657ba3435736d36cb34da7b72acffc9c403c90607029fc"
+  "output_hash": "8420598fdc30b335d2eeb199290cbb66386702e87385d16d031669f926317eb0"
 }
