@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.107Z",
-      "blob": "5ef27c9ef6f50919e83ad6831b139ffe4bf98c66",
+      "at": "2026-10-16T00:25:12.234Z",
+      "blob": "a62370cd538e48098d05b570df6ca7817fe2d145",
       "words": 23,
       "forms": 2
     },
     "extracted": {
-      "at": "2026-10-06T19:32:01.326Z",
+      "at": "2026-10-16T00:25:16.186Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002032
+      "cost_usd": 0.002513
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.347Z",
+      "at": "2026-10-16T00:25:16.188Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.348Z",
+      "at": "2026-10-16T00:25:16.189Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.349Z",
+      "at": "2026-10-16T00:25:16.190Z",
       "page": false
     }
   },
@@ -45,17 +45,17 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md",
     "description": "In the Finnish version, an automatic account posting group must be created to use automatic account codes.",
-    "ms_date": "2025-02-13",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [
       {
-        "raw": "11207",
-        "id": 11207,
+        "raw": "4850",
+        "id": 4850,
         "kind": null
       },
       {
-        "raw": "11208",
-        "id": 11208,
+        "raw": "4852",
+        "id": 4852,
         "kind": null
       }
     ],
@@ -63,12 +63,12 @@
       "automatic account codes",
       "account posting groups"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 23,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1b921772fbe2a3b30a8d5ff9e7235a9961f7e801022644e45527b731f683cb6d"
+  "output_hash": "7500fcfbfe00e037ed01a91b60a99fc1ad689ea4c66b74d82ff111962a83ef5a"
 }

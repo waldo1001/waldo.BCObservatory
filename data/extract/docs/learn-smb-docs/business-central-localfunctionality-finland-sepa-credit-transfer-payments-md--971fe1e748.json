@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments",
   "title": "SEPA credit transfer payments (FI)",
-  "blob": "2a2095804e81c3486d1ca8166a06a07645faa6ac",
-  "summary": "SEPA credit transfer payments in Finland use new code unit 13413 and report 13413 to export payment files in the new SEPA format pain.001.001.09.",
+  "blob": "2180782588f43391974703550d5711ea549eda46",
+  "summary": "SEPA credit transfer payments in Finnish Business Central can be exported in pain.001.001.09 format using dedicated codeunit and report objects.",
   "systems": [
     "finance",
     "localization"
@@ -13,7 +13,7 @@
     "credit transfer",
     "payments",
     "finland",
-    "bank"
+    "export"
   ],
   "objects": [
     {
@@ -26,9 +26,8 @@
     }
   ],
   "features": [
-    "SEPA credit transfer",
-    "payment export",
-    "new SEPA formats"
+    "SEPA credit transfer export",
+    "pain.001.001.09 format"
   ],
   "versions": [],
   "parts": 1,
@@ -37,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002476,
-      "pages_in_call": 8
+      "cost_usd": 0.002918,
+      "pages_in_call": 1
     }
   ]
 }

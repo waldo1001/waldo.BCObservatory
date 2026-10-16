@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-generate-payment-files",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.097Z",
-      "blob": "399ac9d59c6b14fe0717f23d512e0e9ca713f2f7",
+      "at": "2026-10-16T00:25:07.705Z",
+      "blob": "439bf0c6a4fc098cbbaaa59f9f1055671b9d481b",
       "words": 121,
       "forms": 6
     },
     "extracted": {
-      "at": "2026-10-06T23:41:50.647Z",
+      "at": "2026-10-16T00:25:12.869Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.002535
+      "objects": 0,
+      "cost_usd": 0.002831
     },
     "summarized": {
-      "at": "2026-10-06T23:41:50.664Z",
+      "at": "2026-10-16T00:25:12.871Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T23:41:50.665Z",
+      "at": "2026-10-16T00:25:12.872Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T23:41:50.667Z",
+      "at": "2026-10-16T00:25:12.874Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/how-to-generate-payment-files.md",
     "description": "Before making electronic payments to vendors, you must create a payment file for either domestic or international payments.",
-    "ms_date": "2025-02-12",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [
       {
@@ -85,12 +85,12 @@
       "domestic payments",
       "foreign payments"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 121,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "840966b50b9d64b3da7f9ef2ed191a0a7423d6e682ffca1f9b44f9d96215a010"
+  "output_hash": "4a802f402a333bbee002640086be06a0cbff005767ad90653bd7fe887bc639bf"
 }

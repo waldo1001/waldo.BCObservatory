@@ -2,26 +2,23 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-disregard-payment-discounts",
   "title": "How to Disregard Payment Discounts",
-  "blob": "21815f1586ecca4546892c848615a35ecd9e19e1",
-  "summary": "Disregard payment discounts feature in Finland accepts full payments after the discount date within specified payment tolerance limits. Configure this feature on payment terms to handle late payments within tolerance ranges.",
+  "blob": "31c1fc08240f2ffd9fd9feaeea3cce00359ae0dd",
+  "summary": "The disregard payment discount at full payment feature in Finland allows accepting payments when received within the payment tolerance date and for the full invoice amount, even if the payment discount date has passed.",
   "systems": [
-    "finance",
-    "localization"
+    "finance"
   ],
   "topics": [
     "payment discounts",
-    "finland",
     "payment terms",
-    "payment tolerance"
+    "payment tolerance",
+    "finland",
+    "localization"
   ],
-  "objects": [
-    {
-      "type": "page",
-      "name": "Payment Terms"
-    }
-  ],
+  "objects": [],
   "features": [
-    "disregard payment discount at full payment"
+    "Disreg. Pmt. Disc. at Full Pmt",
+    "payment discount acceptance",
+    "full payment recognition"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +27,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002032,
-      "pages_in_call": 7
+      "cost_usd": 0.002959,
+      "pages_in_call": 1
     }
   ]
 }

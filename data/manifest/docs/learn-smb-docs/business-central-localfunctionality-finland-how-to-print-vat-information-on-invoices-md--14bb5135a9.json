@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.102Z",
-      "blob": "4cd923a8e7008a79c548453f3d31cc92910cad2d",
-      "words": 127,
+      "at": "2026-10-16T00:25:08.168Z",
+      "blob": "d2064a441479c36d57b7a4595fb1ef26b870923c",
+      "words": 162,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:01.325Z",
+      "at": "2026-10-16T00:25:12.855Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.002032
+      "cost_usd": 0.002874
     },
     "summarized": {
-      "at": "2026-10-06T19:32:01.344Z",
+      "at": "2026-10-16T00:25:12.857Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:01.345Z",
+      "at": "2026-10-16T00:25:12.858Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:01.346Z",
+      "at": "2026-10-16T00:25:12.859Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md",
     "description": "This article explains how you can use posting groups to print VAT information for each item on the sales invoice.",
-    "ms_date": "2025-02-13",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "sales invoice",
       "print VAT information"
     ],
-    "ai_usage": null,
-    "words": 127,
+    "ai_usage": "ai-assisted",
+    "words": 162,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "013ce37b2d6924d83dd393907095d9aaecc9031b62d4e27a5b230019e6ed316a"
+  "output_hash": "6920b6c8b28e61fadd14e718d7676a8e102b86f0fe0d9e8862a055688edbf489"
 }

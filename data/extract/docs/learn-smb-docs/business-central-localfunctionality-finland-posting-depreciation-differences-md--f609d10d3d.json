@@ -2,8 +2,8 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/posting-depreciation-differences.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences",
   "title": "Posting Depreciation Differences [FI]",
-  "blob": "3df72e62249072d89f09ce42afd6ae5d55164058",
-  "summary": "Posting depreciation differences in Finland calculates and posts to the general ledger the difference between straight-line and declining balance depreciation methods as required by Finnish tax law.",
+  "blob": "406f98bed58f12076fb55662f58dcf391c64a18c",
+  "summary": "Posting depreciation differences in Finnish Business Central handles the tax requirement to calculate and post accumulated depreciation differences between straight-line and declining balance methods.",
   "systems": [
     "fixed-assets",
     "finance",
@@ -13,14 +13,14 @@
     "depreciation",
     "fixed assets",
     "finland",
-    "tax",
+    "tax compliance",
     "general ledger"
   ],
   "objects": [],
   "features": [
-    "depreciation posting",
     "straight-line depreciation",
-    "declining balance depreciation"
+    "declining balance depreciation",
+    "accumulated depreciation posting"
   ],
   "versions": [],
   "parts": 1,
@@ -29,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002476,
-      "pages_in_call": 8
+      "cost_usd": 0.002737,
+      "pages_in_call": 1
     }
   ]
 }

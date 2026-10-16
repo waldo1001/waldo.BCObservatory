@@ -2,23 +2,24 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland",
   "title": "VAT-VIES declaration in Finland",
-  "blob": "7fa517de71cf82308257a58a6a6e2faee7fe806b",
-  "summary": "VAT-VIES declaration in Finland is a tax reporting requirement that enables businesses to report VAT to Finnish tax authorities.",
+  "blob": "99b6e5f30e8d81bed4645aee1add34affaa87ffa",
+  "summary": "VAT-VIES declaration in Finland enables businesses to report VAT and EC sales list information to Finnish tax authorities in compliance with local regulations.",
   "systems": [
     "finance",
     "localization"
   ],
   "topics": [
-    "vat",
-    "vies",
+    "vat reporting",
+    "vies declaration",
     "finland",
-    "tax",
-    "declaration"
+    "tax compliance",
+    "ec sales list"
   ],
   "objects": [],
   "features": [
     "VAT reporting",
-    "EC sales list"
+    "VIES declaration",
+    "EC sales list report"
   ],
   "versions": [],
   "parts": 1,
@@ -27,8 +28,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002476,
-      "pages_in_call": 8
+      "cost_usd": 0.002601,
+      "pages_in_call": 1
     }
   ]
 }

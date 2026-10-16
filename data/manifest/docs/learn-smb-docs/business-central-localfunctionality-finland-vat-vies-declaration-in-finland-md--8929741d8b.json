@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.126Z",
-      "blob": "7fa517de71cf82308257a58a6a6e2faee7fe806b",
-      "words": 92,
+      "at": "2026-10-16T00:25:16.235Z",
+      "blob": "99b6e5f30e8d81bed4645aee1add34affaa87ffa",
+      "words": 93,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:18.000Z",
+      "at": "2026-10-16T00:25:21.191Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002476
+      "cost_usd": 0.002601
     },
     "summarized": {
-      "at": "2026-10-06T19:32:21.517Z",
+      "at": "2026-10-16T00:25:21.192Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:21.518Z",
+      "at": "2026-10-16T00:25:21.196Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:21.519Z",
+      "at": "2026-10-16T00:25:21.197Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/vat-vies-declaration-in-finland.md",
     "description": "Finnish enhancements allow you to comply with regulations for VAT and European Union (EU) sales reporting.",
-    "ms_date": "2025-02-13",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "European Union regulations",
       "VAT-VIES"
     ],
-    "ai_usage": null,
-    "words": 92,
+    "ai_usage": "ai-assisted",
+    "words": 93,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "a98a37f8c3844e46c6cd5809eb4d6e41ff47126db29c849937b61dbe556306c1"
+  "output_hash": "156eb99e0fccfb59dea5cd77a6f785ca17c31dee3f757f18dbef4ab74785a970"
 }

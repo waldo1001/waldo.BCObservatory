@@ -2,18 +2,20 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-set-up-bank-reference-files",
   "title": "Set Up Bank Reference Files (FI)",
-  "blob": "07b7a495b8537632c97b92d2e7e32835f79eee89",
-  "summary": "Bank reference file setup in Finland configures how electronic payment data is imported and exported. Define handling for domestic and foreign payments, SEPA compliance, and payment processing rules.",
+  "blob": "0baaa64ab34bbcb628c05a2858dcf34d1f88216b",
+  "summary": "Set up bank reference files in the Finnish version to configure how payment data is imported or exported for electronic payments, including SEPA payment standards and foreign payment handling.",
   "systems": [
     "finance",
+    "integration",
     "localization"
   ],
   "topics": [
-    "bank reference files",
-    "electronic payments",
+    "bank payments",
+    "electronic banking",
+    "sepa payments",
     "finland",
-    "sepa",
-    "payment processing"
+    "payment setup",
+    "foreign payments"
   ],
   "objects": [
     {
@@ -26,11 +28,13 @@
     }
   ],
   "features": [
-    "bank reference file setup",
-    "foreign payment handling",
-    "SEPA standard",
-    "payment date processing",
-    "exchange rate management"
+    "SEPA payment standards",
+    "foreign payment processing",
+    "due date handling",
+    "payment method configuration",
+    "exchange rate contracts",
+    "combined payments",
+    "SEPA bank party ID"
   ],
   "versions": [],
   "parts": 1,
@@ -39,8 +43,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002032,
-      "pages_in_call": 7
+      "cost_usd": 0.003672,
+      "pages_in_call": 1
     }
   ]
 }

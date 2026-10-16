@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:36.101Z",
-      "blob": "a41155ae8d1e002c550b52a8146f28841ba417a9",
+      "at": "2026-10-16T00:25:07.726Z",
+      "blob": "ab4b25ecbc0632a4b32b8274e8574674c81cf7ec",
       "words": 82,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:21:26.827Z",
+      "at": "2026-10-16T00:25:12.187Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002622
+      "cost_usd": 0.002732
     },
     "summarized": {
-      "at": "2026-10-06T19:21:28.642Z",
+      "at": "2026-10-16T00:25:12.188Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:21:28.643Z",
+      "at": "2026-10-16T00:25:12.189Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:21:28.644Z",
+      "at": "2026-10-16T00:25:12.190Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md",
     "description": "This article explains how to print Finnish Intrastat Reports to report the movement of goods to the Intrastat authorities.",
-    "ms_date": "2025-02-12",
+    "ms_date": "2026-10-08",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [
@@ -53,12 +53,12 @@
       "Intrastat",
       "Intrastat authorities"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 82,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b29a7a1dadf47ff7032a3a569fb994b516488694869e5e9c067b2de42f007802"
+  "output_hash": "7be6e18bbc5aa1e03f2814536ef7ac27440489492f8d3d733547d43366bcfc7e"
 }

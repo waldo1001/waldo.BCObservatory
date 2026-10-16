@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.121Z",
-      "blob": "2a2095804e81c3486d1ca8166a06a07645faa6ac",
-      "words": 102,
+      "at": "2026-10-16T00:25:12.944Z",
+      "blob": "2180782588f43391974703550d5711ea549eda46",
+      "words": 91,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:17.999Z",
+      "at": "2026-10-16T00:25:17.527Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 2,
-      "cost_usd": 0.002476
+      "cost_usd": 0.002918
     },
     "summarized": {
-      "at": "2026-10-06T19:32:21.514Z",
+      "at": "2026-10-16T00:25:17.528Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:21.515Z",
+      "at": "2026-10-16T00:25:17.530Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:21.516Z",
+      "at": "2026-10-16T00:25:17.531Z",
       "page": false
     }
   },
@@ -45,7 +45,7 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/sepa-credit-transfer-payments.md",
     "description": "Finnish enhancements allow you to create Single Euro Payments Area (SEPA) credit transfer files to send vendor payments to banks.",
-    "ms_date": "2025-02-13",
+    "ms_date": "2026-10-08",
     "ms_topic": "article",
     "search_form": [],
     "keywords": [
@@ -54,12 +54,12 @@
       "credit transfer files",
       "vendor payments"
     ],
-    "ai_usage": null,
-    "words": 102,
+    "ai_usage": "ai-assisted",
+    "words": 91,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "bfc0db12a998c25604db7e62027614cec537eb96eb41b75756d6e1382c8aef6a"
+  "output_hash": "0dfb936f2c66bc93ee7b2c1c19401e974f71f63a0af927580e62e557d4bdfe42"
 }

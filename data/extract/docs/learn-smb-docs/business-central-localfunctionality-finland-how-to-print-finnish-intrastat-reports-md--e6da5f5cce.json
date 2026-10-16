@@ -2,24 +2,25 @@
   "item_id": "docs/learn-smb-docs/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports",
   "title": "How to Print Finnish Intrastat Reports",
-  "blob": "a41155ae8d1e002c550b52a8146f28841ba417a9",
-  "summary": "Print Finnish Intrastat reports describes how EU companies must report trade movements with other EU countries to Intrastat authorities and the options for filing reports.",
+  "blob": "ab4b25ecbc0632a4b32b8274e8574674c81cf7ec",
+  "summary": "Print Finnish Intrastat reports for EU trade compliance. Companies must report goods movements to Intrastat authorities by file submission or manual form entry.",
   "systems": [
     "finance",
-    "localization",
-    "reporting"
+    "localization"
   ],
   "topics": [
     "intrastat",
-    "finland",
     "reporting",
-    "eu trade"
+    "finland",
+    "compliance",
+    "eu trade",
+    "customs"
   ],
   "objects": [],
   "features": [
-    "Intrastat reporting",
-    "File submission",
-    "Manual form entry"
+    "Finnish Intrastat reporting",
+    "Intrastat file submission",
+    "manual form entry"
   ],
   "versions": [],
   "parts": 1,
@@ -28,8 +29,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.002622,
-      "pages_in_call": 8
+      "cost_usd": 0.002732,
+      "pages_in_call": 1
     }
   ]
 }

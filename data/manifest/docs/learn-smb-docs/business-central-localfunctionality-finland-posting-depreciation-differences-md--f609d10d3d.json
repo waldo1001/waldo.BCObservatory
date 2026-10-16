@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/posting-depreciation-differences",
   "published_at": "2026-10-09T08:32:48.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.116Z",
-      "blob": "3df72e62249072d89f09ce42afd6ae5d55164058",
+      "at": "2026-10-16T00:25:12.920Z",
+      "blob": "406f98bed58f12076fb55662f58dcf391c64a18c",
       "words": 70,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:32:17.998Z",
+      "at": "2026-10-16T00:25:17.256Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.002476
+      "cost_usd": 0.002737
     },
     "summarized": {
-      "at": "2026-10-06T19:32:18.005Z",
+      "at": "2026-10-16T00:25:17.258Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:32:18.006Z",
+      "at": "2026-10-16T00:25:17.260Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:32:18.007Z",
+      "at": "2026-10-16T00:25:17.261Z",
       "page": false
     }
   },
@@ -45,19 +45,19 @@
     "repo": "MicrosoftDocs/dynamics365smb-docs",
     "path": "business-central/LocalFunctionality/Finland/posting-depreciation-differences.md",
     "description": "Calculate and post the difference in accumulated depreciation between different depreciation methods in the general ledger.",
-    "ms_date": "2025-02-13",
+    "ms_date": "2026-10-08",
     "ms_topic": "concept-article",
     "search_form": [],
     "keywords": [
       "accumulated depreciation",
       "depreciation methods"
     ],
-    "ai_usage": null,
+    "ai_usage": "ai-assisted",
     "words": 70,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "00a634962bd543409e6790b96b8ee069b5dac680b0bf853473a449deff8d888c"
+  "output_hash": "641c0e09a4aa9308dbb8274f16d6a6a132338fc09ad94f6ec757728b0b8c71e4"
 }
