@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/8874",
+  "number": 8874,
+  "title": "[Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Service line quantities synced from Field Service are now properly rounded before validation to prevent precision errors on non-divisible durations.",
+  "key_points": [
+    "Wraps duration-to-hours division with UOMMgt.RoundQty before passing to Quantity validation",
+    "Handles both defined and undefined item UoM rounding precision cases",
+    "Covers five quantity-conversion sites in estimated and actual paths",
+    "Falls back to 0.00001 precision when item precision is not configured",
+    "Prevents validation errors on fractional hour quantities like 0.333... from 20-minute durations"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "service"
+  ],
+  "quote": "Wrap every /60 result with UOMMgt.RoundQty(value, ServiceLine.\"Qty. Rounding Precision\") before passing to Validate.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing",
   "url": "https://github.com/microsoft/BCApps/pull/12098",
   "published_at": "2026-10-14T11:32:50Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-15T00:20:09.603Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:24.474Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003572
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:25.418Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "ff470ecd2cee1e213c62c942f114f6c8238563c8"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:25.425Z",
+      "path": "content/changes/bcapps/12098.md"
     }
   },
   "input_hash": "d7c3b963d235dd381a9ac631aa179bf202da5c34:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "95e056bd31d8d033000f127c87583559acb642a48a911b81115e646ec7cd2b6b"
+  "output_hash": "2a5ab07cb2d3399c9c4a02c9ed78d6ee8d0daf066f521ba772ac27287481aa52"
 }

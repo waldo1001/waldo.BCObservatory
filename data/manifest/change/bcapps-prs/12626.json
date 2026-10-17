@@ -6,7 +6,7 @@
   "title": "Fix AppSource product details opening in write transactions",
   "url": "https://github.com/microsoft/BCApps/pull/12626",
   "published_at": "2026-10-15T09:09:36Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:24.472Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003572
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:24.976Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:24.982Z",
+      "path": "content/changes/bcapps/12626.md"
     }
   },
   "input_hash": "987df1c550f92b6d218d26abdddebf12ae8572de:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b994d7d71ed1f821815a8e7b4512517347916549a23c339f068f2b209456d50d"
+  "output_hash": "a56b3f11815a406c2b95377f867fe2a9dd72e8d55cb2200973798b6584b53e00"
 }

@@ -6,7 +6,7 @@
   "title": "Validate image content before sending to Computer Vision",
   "url": "https://github.com/microsoft/BCApps/pull/11073",
   "published_at": "2026-10-09T11:49:24Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:36.513Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002796
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:36.954Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:36.964Z",
+      "path": "content/changes/bcapps/11073.md"
     }
   },
   "input_hash": "a5e427c4274e79120ca888b09dd93af3c4b88d18:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1275469eac15c8a5dd7e63a5d2ff6e14461b553224c5967ec20a49d3d98e520c"
+  "output_hash": "683c44fe8b3f798defd290a0e5ad6945449016e318db79b11414b459b7a0cbad"
 }

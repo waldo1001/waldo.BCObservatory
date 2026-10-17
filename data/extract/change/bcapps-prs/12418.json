@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12418",
+  "number": 12418,
+  "title": "#12375 Make OpenEDocument method public",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "The OpenEDocument method in the E-Document table is now public to allow other document types to reuse document opening logic without code duplication.",
+  "key_points": [
+    "Change OpenEDocument method visibility from internal to public",
+    "Enables other document type entities to open E-Document pages from their own code",
+    "Eliminates need to duplicate document-opening logic across different modules",
+    "No schema changes or new objects"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "We want to open E-Document pages from other document type entities without duplicating the code.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

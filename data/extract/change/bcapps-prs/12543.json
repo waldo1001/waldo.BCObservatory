@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12543",
+  "number": 12543,
+  "title": "Bug 653430: [29.x][Expense Agent] It would be nice if default data setup included number series for users, reports, etc.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Number series for spend requests are now included in the default Contoso Coffee demo data setup to help users get started with the Expense Agent.",
+  "key_points": [
+    "Added number series configuration for spend requests in demo data",
+    "Improves initial setup experience for Expense Agent users",
+    "Changes to General Ledger Setup and Number Series creation codeunits",
+    "Enables demo data to include necessary series without manual configuration"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Added no. series for spend requests.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002796,
+    "changes_in_call": 2
+  }
+}

@@ -6,7 +6,7 @@
   "title": "[main] bug 652254 - Statutory Reporting Setup - new field for Official Name",
   "url": "https://github.com/microsoft/BCApps/pull/12142",
   "published_at": "2026-10-12T13:33:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -18,6 +18,23 @@
       "al": 7,
       "objects": 7,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:24.476Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003572
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:25.833Z",
+      "objects": 7,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:25.849Z",
+      "path": "content/changes/bcapps/12142.md"
     }
   },
   "input_hash": "aed68c9417cc2eb608134e881346c109a11e8b2e:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1694ebdeb0a878a71220d5106f5a940fe3d867d75945a9d1a7281716f6a33970"
+  "output_hash": "94911cf1f562e2a48c4ecc976610fd0a7dc51566249db70b875763983dbe03ea"
 }

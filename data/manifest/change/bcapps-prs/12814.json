@@ -6,7 +6,7 @@
   "title": "[SOA] Require direct quote-to-order workflow completion",
   "url": "https://github.com/microsoft/BCApps/pull/12814",
   "published_at": "2026-10-16T12:17:10Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -29,5 +29,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa require direct quote to order workflow completion"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-17T00:21:41.991Z",
+  "retry_after": null
 }

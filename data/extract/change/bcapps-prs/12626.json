@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12626",
+  "number": 12626,
+  "title": "Fix AppSource product details opening in write transactions",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "AppSource Product Details page now opens non-modally to prevent write transaction errors that occur when user settings initialization happens before the modal invocation.",
+  "key_points": [
+    "Changed from Page.RunModal() to Page.Run() to avoid write transaction conflicts",
+    "Fixes error when opening AppSource Product Details with pending writes",
+    "Caller does not consume modal result, making non-modal navigation safe",
+    "Added regression test coverage for normal and write-transacted scenarios",
+    "No API or schema changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003572,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12339",
+  "number": 12339,
+  "title": "[Fabric] adding reset button for a table",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Added reset button functionality to Fabric Platform Tables page allowing users to reset individual table synchronization status, with corresponding HTTP client and management codeunit updates.",
+  "key_points": [
+    "New reset button added to Fabric Platform Tables page for per-table synchronization reset",
+    "Management codeunit extended with reset operation handler",
+    "HTTP client updated to support reset requests",
+    "Test coverage added for reset functionality"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "changes_in_call": 6
+  }
+}

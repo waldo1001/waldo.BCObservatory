@@ -6,10 +6,18 @@
   "title": "[main] carry out overwrites changed req wksh direct unit cost",
   "url": "https://github.com/microsoft/BCApps/pull/12469",
   "published_at": "2026-10-16T11:35:42Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:21:48.404Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
     }
   },
   "input_hash": "10d7f10eb5d4103e11c422f320435e78f71404f9:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "carry out overwrites changed req wksh direct unit cost"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8c706aed53ca9633ce946e4e2ff191b1acb5c9dcdbe032789aa0cb9220fdd763"
 }

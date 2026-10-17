@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12755",
+  "number": 12755,
+  "title": "Flow Service Management: use native HttpClient instead of Web Request Helper",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Flow Service Management now uses native HttpClient instead of Web Request Helper codeunit, removing dependency on legacy HTTP infrastructure while maintaining identical behavior.",
+  "key_points": [
+    "Replaces Web Request Helper.GetResponseTextUsingCharset with native HttpClient implementation",
+    "Maintains original behavior including Bearer token handling and UTF-8 charset detection",
+    "Removes last caller of Web Request Helper, enabling obsolescence of codeunit 1299",
+    "Prerequisite for future web request refactoring",
+    "No public API or behavior changes"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003572,
+    "changes_in_call": 6
+  }
+}

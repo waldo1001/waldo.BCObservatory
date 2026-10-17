@@ -6,7 +6,7 @@
   "title": "[MCP] Add Agent Tools server feature",
   "url": "https://github.com/microsoft/BCApps/pull/12332",
   "published_at": "2026-10-09T13:20:11Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 11,
       "objects": 8,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:39.745Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.002809
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:40.942Z",
+      "objects": 8,
+      "unjoined": 3,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:40.959Z",
+      "path": "content/changes/bcapps/12332.md"
     }
   },
   "input_hash": "a1a2ef8b73ed4dd213b5745dfafb41e106fff26a:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9504ff4a04d964e2c2ff69a80ebd98f05eda574adc05b690a65dee78371744c9"
+  "output_hash": "0c5d95e9095bb2b5ffe922c2ab86a729e462f18ed3446469367cde45bd4cdb69"
 }

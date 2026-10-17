@@ -6,7 +6,7 @@
   "title": "Bug 653430: [29.x][Expense Agent] It would be nice if default data setup included number series for users, reports, etc.",
   "url": "https://github.com/microsoft/BCApps/pull/12543",
   "published_at": "2026-10-09T12:41:11Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:36.512Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.002796
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:36.952Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "ff470ecd2cee1e213c62c942f114f6c8238563c8"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:36.963Z",
+      "path": "content/changes/bcapps/12543.md"
     }
   },
   "input_hash": "ba07945fd9b4faa7803a5036a89149ae882529a9:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c1399dceb5e62cc035b41b23d47c8fd0d23af2b17e3fb905351de154189cc157"
+  "output_hash": "74fd87c259c0b3cf4701054aca8bdb1599b5c7ba6ddbff826da0daa1a585dc6b"
 }

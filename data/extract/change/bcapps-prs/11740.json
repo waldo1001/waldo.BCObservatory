@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11740",
+  "number": 11740,
+  "title": "Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent Scheduler now calls an existing cleanup function to prevent unbounded growth of task records.",
+  "key_points": [
+    "Calls existing cleanup function in EA Agent Scheduler to remove stale records",
+    "Prevents EA Scheduler Task table from growing indefinitely without maintenance",
+    "Minimal code change to reuse existing cleanup mechanism",
+    "Fixes issue of task table visibility and cleanup"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Added Call to existing cleanup function.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

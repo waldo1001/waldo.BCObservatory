@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12332",
+  "number": 12332,
+  "title": "[MCP] Add Agent Tools server feature",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "MCP server now includes Agent Tools feature for managing and loading available custom agents through the native agent configuration contract.",
+  "key_points": [
+    "Adds Agent Tools MCP server feature (Preview/Billable) backed by native agent configuration",
+    "Introduces Available Agents management UI for active custom agents",
+    "Loads agent system tools through MCP Utilities",
+    "Includes public configuration APIs, lifecycle handling, import/export support, and permissions",
+    "Adds telemetry and comprehensive regression test coverage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "integration"
+  ],
+  "quote": "Add the Agents Tools (Preview/Billable) MCP server feature backed by the native agent configuration contract.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

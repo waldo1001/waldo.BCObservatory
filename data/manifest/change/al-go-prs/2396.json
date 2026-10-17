@@ -6,7 +6,7 @@
   "title": "Fix deployment environment discovery pagination",
   "url": "https://github.com/microsoft/AL-Go/pull/2396",
   "published_at": "2026-10-09T13:34:49Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 0,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:39.744Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002809
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:40.941Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-17T00:21:40.957Z",
+      "path": "content/changes/al-go/2396.md"
     }
   },
   "input_hash": "5a8b80e995f10776840da580018fb2b7950cd00d:c1",
@@ -37,5 +54,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7681f7b7a807d8239d8d0236a6c658ebec1465ec2a650019567b1784ab8e14ce"
+  "output_hash": "4475355054b8b9d29dabcdf6bc26b4e51d5b84af87d0e26caa30f6e2e466ce94"
 }

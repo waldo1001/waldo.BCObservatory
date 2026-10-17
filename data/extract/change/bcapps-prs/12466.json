@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12466",
+  "number": 12466,
+  "title": "Hide Navigate and Reverse Transaction on sustainability posting preview",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sustainability",
+    "development"
+  ],
+  "summary": "Navigation and reverse transaction actions are now hidden on sustainability posting preview rows to prevent confusing users with non-functional operations.",
+  "key_points": [
+    "Hide Navigate, Reverse Transaction, and Collected G/L Entries actions on sustainability entry pages when displaying preview rows",
+    "Uses a two-part check: temporary buffer plus preview document number to distinguish preview rows from live posted entries",
+    "Preview document number pattern is centralized in Sust. Preview Post Instance codeunit",
+    "Analysis View drill down continues to work with real posted entries in temporary buffers",
+    "No schema changes or new objects added"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sustainability"
+  ],
+  "quote": "Preview rows carry a negative placeholder key and a placeholder document number of three asterisks, so Reverse Transaction matches nothing and silently does nothing.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

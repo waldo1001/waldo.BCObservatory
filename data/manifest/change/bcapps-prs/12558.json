@@ -6,7 +6,7 @@
   "title": "[main] bug 653463 - Refactor Corrections Posting Mgt. CZL codeunit to improve clarity and fix logic for G/L correction handling",
   "url": "https://github.com/microsoft/BCApps/pull/12558",
   "published_at": "2026-10-15T03:38:08Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:24.473Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003572
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:25.203Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:25.209Z",
+      "path": "content/changes/bcapps/12558.md"
     }
   },
   "input_hash": "8eb96f0c5c5d7ae1d38f9f1c0d2d21d1d8f95514:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2649b248110512c6e057a85618aa0378177680eb70885047b3d91a4839ae26c0"
+  "output_hash": "7c23a31b634f309910c8dcd7c505e8dd88dfc05ac7d12f114dcd79ebbda8bbab"
 }

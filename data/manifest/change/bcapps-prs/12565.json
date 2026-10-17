@@ -6,7 +6,7 @@
   "title": "Increase table limit from 500 to 1000 in Fabric platform management and related components",
   "url": "https://github.com/microsoft/BCApps/pull/12565",
   "published_at": "2026-10-12T11:56:45Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-13T00:27:25.816Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 3,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:25.872Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003081
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:26.834Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:26.841Z",
+      "path": "content/changes/bcapps/12565.md"
     }
   },
   "input_hash": "70b7c78d56d50b1958492e38949adfb61cc15f16:c1",
@@ -43,5 +60,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "302dbd5fb917f4546765a4a0f382236c2e9be3a0f55d6301a193e65bfd2fb6b7"
+  "output_hash": "8d41c301ed4c0d9c9c9180c0b664d1137e0863cbdb97084d0a2de756f864e3a6"
 }

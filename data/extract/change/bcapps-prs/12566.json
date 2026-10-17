@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12566",
+  "number": 12566,
+  "title": "Update tooltips to reflect Microsoft Entra terminology in Fabric setup pages",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Updated tooltip text in Fabric setup pages to use current Microsoft Entra terminology instead of outdated Azure AD references.",
+  "key_points": [
+    "Tooltips in Fabric Platform Setup and Setup Wizard pages updated for consistency",
+    "Credential management codeunit tooltip refreshed with current terminology",
+    "Improves user guidance alignment with current Azure authentication naming conventions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "changes_in_call": 6
+  }
+}

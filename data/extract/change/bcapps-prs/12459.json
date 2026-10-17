@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12459",
+  "number": 12459,
+  "title": "[Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Fixed subcontractor pricing for time-based operations by multiplying the subcontractor price by the operation run time factor when creating purchase costs, with comprehensive test coverage.",
+  "key_points": [
+    "Subcontractor price now correctly incorporates operation run time for time-based unit cost calculations",
+    "Shared calculation applies consistent pricing across requisition worksheets, purchase lines, and automatic repricing scenarios",
+    "Operation time factor multiplied by price and rounded using configured unit-amount precision",
+    "Automated tests added for worksheet calculation, carried-out lines, repricing, and direct purchase line creation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "manufacturing"
+  ],
+  "quote": "Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "changes_in_call": 6
+  }
+}

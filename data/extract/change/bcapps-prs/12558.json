@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12558",
+  "number": 12558,
+  "title": "[main] bug 653463 - Refactor Corrections Posting Mgt. CZL codeunit to improve clarity and fix logic for G/L correction handling",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Corrections Posting for Czech localization now correctly posts the Inventory Interim and Production Change account pair with interim account flag set, matching the WIP pair and standard BaseApp behavior.",
+  "key_points": [
+    "Fix interim account handling in expected cost conversion postings when correction setting enabled",
+    "Reversal entries now post to the same debit/credit side as original with negative amount",
+    "Aligns non-WIP pair posting behavior with WIP pair and standard W1 output posting",
+    "Scope limited to expected cost conversion entries with Post Exp.Cost Conv.As Corr.CZL enabled",
+    "No schema, permission, or feature flag changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "manufacturing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003572,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcapps-prs/12565",
+  "number": 12565,
+  "title": "Increase table limit from 500 to 1000 in Fabric platform management and related components",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Increased table synchronization limit from 500 to 1000 tables in Fabric platform management to accommodate larger environments.",
+  "key_points": [
+    "Table limit increased across Fabric Platform Management, Config Package Management, and Tables page",
+    "Test expectations updated to reflect new 1000 table threshold",
+    "Simplified limit constant references in configuration logic"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003081,
+    "changes_in_call": 6
+  }
+}

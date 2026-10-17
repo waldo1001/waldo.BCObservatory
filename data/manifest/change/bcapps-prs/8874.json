@@ -6,7 +6,7 @@
   "title": "[Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations",
   "url": "https://github.com/microsoft/BCApps/pull/8874",
   "published_at": "2026-10-09T15:19:39Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-17T00:21:39.742Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002809
+    },
+    "linked": {
+      "at": "2026-10-17T00:21:40.381Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-17T00:21:40.392Z",
+      "path": "content/changes/bcapps/8874.md"
     }
   },
   "input_hash": "416472ab13c3e14f10c35c216991106bb9c97df8:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f2faeb9a6cf9f88aea2118e8cf673dbc474e6a0fc21cd48a7eba815a08800106"
+  "output_hash": "cbf32e6352a65d08bea0c5185f236aef54cfb6ce947c7ac86f3ad3cadc243852"
 }

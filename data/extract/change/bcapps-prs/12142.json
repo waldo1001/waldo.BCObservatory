@@ -1,0 +1,40 @@
+{
+  "item_id": "change/bcapps-prs/12142",
+  "number": 12142,
+  "title": "[main] bug 652254 - Statutory Reporting Setup - new field for Official Name",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform",
+    "finance"
+  ],
+  "summary": "Czech statutory reporting now supports official company names up to 255 characters through a new Official Full Name field, with automatic migration from the legacy 30-character field and XML export updates.",
+  "key_points": [
+    "New Official Full Name field (255 characters) added to Statutory Reporting Setup",
+    "Legacy Official Name field (30 characters) marked obsolete but retained for compatibility",
+    "VAT Statement, VAT Control Report, and VIES Declaration exports now use new field",
+    "Upgrade routine automatically copies existing Official Name values to new field",
+    "Per-company upgrade tag ensures migration runs only once"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [
+    {
+      "object": "Statutory Reporting Setup CZL",
+      "member": "Official Name",
+      "replacement": "Official Full Name"
+    }
+  ],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "Supporting an official name with up to 255 characters is an immediate legislative requirement for Czech statutory reporting.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003572,
+    "changes_in_call": 6
+  }
+}

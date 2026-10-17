@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12939",
+  "number": 12939,
+  "title": "Bug 654493: [29.x] ICM 51000002285173: Fix direct transfer upgrade",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Direct transfer order migration during upgrade now handles missing inventory setup gracefully, skips unnecessary access checks, and preserves existing posting type configuration.",
+  "key_points": [
+    "Skip Inventory Setup access when no direct transfer orders need migration",
+    "Handle missing Inventory Setup by using existing Shipment and Receipt fallback",
+    "Preserve configured direct transfer posting types when setup exists",
+    "Applied to all localization layers (W1, AT, BE, CH, IT, NL, NO, RU)",
+    "Fixes upgrade failures related to direct transfer data migration"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "warehouse"
+  ],
+  "quote": "skip Inventory Setup access when no direct transfer orders require migration",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003572,
+    "changes_in_call": 6
+  }
+}

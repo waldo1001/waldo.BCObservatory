@@ -1,0 +1,30 @@
+{
+  "item_id": "change/al-go-prs/2396",
+  "number": 2396,
+  "title": "Fix deployment environment discovery pagination",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Deployment environment discovery now fetches all pages of environments from GitHub instead of only the first page, ensuring CI/CD includes all available deployment targets.",
+  "key_points": [
+    "Fetches environments in pages of 100 until a page contains fewer results",
+    "Retains full environment metadata for branch-policy filtering across all pages",
+    "Handles edge case where environment count is exact multiple of 100",
+    "Propagates failures on subsequent pages to prevent incomplete deployment selection",
+    "Covers regression scenarios including empty results, page boundaries, and second-page branch policies"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "platform"
+  ],
+  "quote": "GitHub returns 30 environments by default, but deployment discovery previously fetched only one page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002809,
+    "changes_in_call": 6
+  }
+}

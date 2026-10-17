@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11073",
+  "number": 11073,
+  "title": "Validate image content before sending to Computer Vision",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Image Analysis Management now validates image content before sending to Computer Vision endpoints, rejecting non-image blobs and unsupported formats while supporting JPEG, PNG, GIF and BMP.",
+  "key_points": [
+    "Validates that uploaded content is a supported image format before HTTP request",
+    "Accepts JPEG, PNG, GIF and BMP formats matching documented Computer Vision and Custom Vision requirements",
+    "Loads and decodes image files using System Application Image codeunit",
+    "Rejects non-image content and unsupported formats through existing error notification path",
+    "No universal size limits or minimum dimensions imposed; API-specific checks remain with configured service"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Validate image content before sending it to the configured Vision endpoint.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002796,
+    "changes_in_call": 2
+  }
+}
