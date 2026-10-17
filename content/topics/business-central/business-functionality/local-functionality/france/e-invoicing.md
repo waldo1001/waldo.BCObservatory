@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/e-invoicing
 type: topic
 title: E-invoicing
-summary: "E-invoicing for France in Business Central: how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and how to use the E-Reporting FR e-document format. It answers setup and compliance questions about French e-invoicing reform, PDP delivery and tax authority reporting."
+summary: E-invoicing for France in Business Central covers electronic invoicing with UBL 2.1 and Factur-X, and E-Reporting for transactions outside mandatory B2B e-invoicing. It answers questions about formats, incoming invoice import, and submitting transactions to the tax authority via partner platforms.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:21:56.018Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 94d6cb0e0de5c63a55d123f3f57daa4e21e95a41c27f36068e8cf2d93e436bd4
+  input_hash: 5969bb5e91f97d5c927c3a246196289296d18348bb0408c79e152aadf1382dd0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/enable-electronic-invoicing-france
@@ -67,27 +67,28 @@ narrative: generated
 
 # E-invoicing
 
-> E-invoicing for France in Business Central: how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and how to use the E-Reporting FR e-document format. It answers setup and compliance questions about French e-invoicing reform, PDP delivery and tax authority reporting.
+> E-invoicing for France in Business Central covers electronic invoicing with UBL 2.1 and Factur-X, and E-Reporting for transactions outside mandatory B2B e-invoicing. It answers questions about formats, incoming invoice import, and submitting transactions to the tax authority via partner platforms.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > E-invoicing · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > E-invoicing · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the French e-invoicing localization in Business Central. It has two pages and no subtopics. Both rely on the e-document framework: you configure an e-document service and a workflow, and documents are exported automatically.
+This section covers the French local functionality for meeting the electronic invoicing reform. It has two pages, both based on the E-Reporting FR extension and the e-document framework.
 
-The first page explains how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X to meet the French e-invoicing reform. It covers setup of company information, customers, vendors, e-document services and workflows for automatic export and delivery to a PDP.
+The first page explains how to enable electronic invoicing with UBL 2.1 and Factur-X for B2B transactions, including PEPPOL BIS 3.0 support, import of incoming invoices, and French business rule validation. The second page explains the E-Reporting FR e-document format, used for transactions outside the mandatory B2B e-invoicing scope, such as B2C, cross-border, exports and intra-community sales.
 
-The second page covers the E-Reporting FR e-document format. It generates structured XML for transactions that must be reported to the tax authority, and describes setup for PDPs such as Pagero and Avalara. Start with the invoicing page, then move to e-reporting if you have transactions that need reporting.
+Start with the UBL 2.1 and Factur-X page if you need to send or receive B2B invoices. Move to the E-Reporting page if you must report other transactions to the tax authority through a partner-dissemination platform such as Pagero or Avalara.
 
 ## Key points
 
-- Supported invoice formats: UBL 2.1 (PEPPOL BIS 3.0) and Factur-X (PDF/A-3).
-- Setup covers company information, customers, vendors, e-document services and workflows.
-- French identifiers such as SIRET and SIREN are supported, along with electronic address configuration.
-- Invoices can be exported automatically through a workflow and delivered to a PDP.
-- The E-Reporting FR format generates structured XML for transactions requiring tax authority reporting.
-- E-reporting setup is described for PDPs such as Pagero and Avalara.
-- E-reporting features include transaction categorization, batch submissions and tracking of tax authority acceptance.
+- Electronic invoicing for France is enabled through the E-Reporting FR extension.
+- Supported outgoing formats include UBL 2.1 and Factur-X PDF/A-3 hybrid invoices, plus PEPPOL BIS 3.0.
+- Incoming Factur-X and PEPPOL BIS 3.0 invoices can be imported.
+- French business rules are validated for e-invoices.
+- E-Reporting FR e-document format covers B2C, cross-border, exports and intra-community transactions.
+- E-reporting data is submitted via partner-dissemination platforms such as Pagero or Avalara.
+- E-reporting generates an XML payload and tracks Service Status and E-Reporting Acceptance Date.
+- Both batch and individual submission workflows are supported, with an E-Reporting Transaction Type.
 
 ## Learn pages
 

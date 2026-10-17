@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,6 +142,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12134
+    - change/bcapps/12142
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -204,5 +205,6 @@ This section collects the Czech localization pages for core finance. They cover 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12134 [main] bug 652313 - Add Approvals Management integration to compensation, payment order and cash document processing](../../../../../changes/bcapps/12134.md) (code change): "Approvals Management integration was added to compensation, payment order, and cash document processing in Czech"
+- [#12142 [main] bug 652254 - Statutory Reporting Setup - new field for Official Name](../../../../../changes/bcapps/12142.md) (code change): "Czech statutory reporting now supports official company names up to 255 characters"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

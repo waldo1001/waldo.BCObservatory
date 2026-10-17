@@ -2,20 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric
 type: topic
 title: Microsoft Fabric
-summary: "Learn section Analytics, business intelligence, and reporting > Analyze data in business intelligence tools > Microsoft Fabric: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn."
+summary: "Microsoft Fabric data mirroring from Business Central online: how to set it up, choose companies and tables, manage synchronization, and monitor and troubleshoot runs. It answers questions about replicating Business Central data to OneLake for analytics."
 tier: official
 language: en
 system: integration
 review:
-  state: derived
+  state: unreviewed
   by: null
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
-  prompts: {}
-  input_hash: c7df016bee018b38d0e07c162751f00222aa863ae60ca69f725246f74192208f
+  prompts:
+    hub-topic: 1
+  input_hash: 8e965e040aa9ea08f0e67ec95b02a19a81eb32f39038adb9768282051714f174
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-fabric
@@ -72,12 +73,18 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
-  videos: []
+  videos:
+    - video/kOCiyVql0go
   posts:
     - post/bertverbeek-nl/1143
+    - post/bertverbeek-nl/1196
     - post/bertverbeek-nl/1318
+    - post/demiliani-com/15981
     - post/thinkaboutit-be/8229
+    - post/waldo-be/318707
   guidelines: []
+  changes:
+    - change/bcapps/12242
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - Analyze data in business intelligence tools
@@ -88,8 +95,8 @@ children: []
 coverage:
   learn: 5
   code: 8
-  video: 0
-  blog: 3
+  video: 1
+  blog: 6
   guideline: 0
 bc_forms:
   - 48508
@@ -101,14 +108,31 @@ bc_forms:
   - 48515
   - 48519
 member_hash: c7df016bee018b38d0e07c162751f00222aa863ae60ca69f725246f74192208f
-narrative: none
+narrative: generated
 ---
 
 # Microsoft Fabric
 
-> Learn section Analytics, business intelligence, and reporting > Analyze data in business intelligence tools > Microsoft Fabric: 5 Microsoft Learn pages. Index of what Learn documents here, linked to Learn.
+> Microsoft Fabric data mirroring from Business Central online: how to set it up, choose companies and tables, manage synchronization, and monitor and troubleshoot runs. It answers questions about replicating Business Central data to OneLake for analytics.
 
-Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Analyze data in business intelligence tools](../analyze-data-in-business-intelligence-to.md) > Microsoft Fabric · tier official · system integration · no narrative yet
+Path: [Analytics, business intelligence, and reporting](../../analytics-business-intelligence-and-repo.md) > [Analyze data in business intelligence tools](../analyze-data-in-business-intelligence-to.md) > Microsoft Fabric · tier official · system integration · narrative **unreviewed** (model text not yet checked)
+
+## Overview
+
+Data mirroring connects Business Central online to a Microsoft Fabric open-mirrored database. Selected companies and tables are replicated to OneLake, so analytics and data engineering tools can use the data without repeatedly reading from APIs. The feature is described as a 2026 production-ready preview, and the pages are tied to 2026 release wave 2.
+
+The pages follow the life cycle of the feature. Start with the overview page to understand what mirroring does, then use the setup page to run the Connect to Microsoft Fabric assisted setup. After that, the management page covers company and table selection, configuration packages, scheduling and failure handling. The monitoring page helps when runs fail or results look wrong. The FAQ covers availability, requirements, synchronization behavior and limits.
+
+## Key points
+
+- Mirroring replicates selected companies and tables from Business Central online to OneLake via a Fabric open-mirrored database.
+- Up to 1000 tables can be selected, and multiple companies are supported.
+- Synchronization starts with an initial snapshot and then continues with incremental changes.
+- Setup uses the Connect to Microsoft Fabric assisted setup and the Microsoft Fabric Mirroring extension, with service principal access (version 29.0, 2026 release wave 2).
+- Configuration packages, scheduling, failure handling and namespace configuration are managed after the initial setup.
+- Monitor runs on the Fabric Synchronization Overview and Details pages, through APIs, or in Fabric logging tables, with company and table-level results and error tracking.
+- Troubleshooting topics include change-tracking watermarks, incremental synchronization and privacy approval.
+- Replicated data can be used for analytics with Power BI, Data Factory and Fabric IQ.
 
 ## Learn pages
 
@@ -118,13 +142,18 @@ Path: [Analytics, business intelligence, and reporting](../../analytics-business
 - [Monitor and Troubleshoot Microsoft Fabric Synchronization](https://learn.microsoft.com/dynamics365/business-central/admin-monitor-fabric-export): Monitor Business Central synchronization runs, review table-level changes and watermarks, and resolve common Microsoft Fabric connection problems.
 - [Set up Business Central data mirroring to Microsoft Fabric](https://learn.microsoft.com/dynamics365/business-central/admin-set-up-fabric-mirroring): Prepare Microsoft Fabric, connect Business Central to an open mirrored database, and select the companies and tables to synchronize.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
 - [[Preview] bc2adls and Fabric Open Mirroring](../../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring"
+- [Data agent inside Fabric ask question on your Business Central Data](../../../../posts/bertverbeek-nl/1196.md) (community post): "Data Agents in Microsoft Fabric enable users to ask"
 - [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
+- [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
 - [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"
+- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "Business Central now supports native data mirroring to Microsoft Fabric"
+- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Business Central Fabric mirroring; Mirror database in OneLake; Multi-company Power BI apps"
 
 ## Business Central pages and reports
 

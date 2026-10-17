@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12626",
+  "input_hash": "a335dab257439428e84cd37c9c063ab8d72141e2d33dec43ac13bc74376f805d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:18.483Z",
+  "issues": [
+    "The description supports the switch from RunModal to Run, the added regression tests and the absence of schema changes."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "changes_in_call": 6
+  }
+}

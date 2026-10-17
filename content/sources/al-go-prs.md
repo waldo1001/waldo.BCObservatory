@@ -2,7 +2,7 @@
 id: source/al-go-prs
 type: source
 title: microsoft/AL-Go pull requests
-summary: "microsoft/AL-Go pull requests: 29 code changes in the knowledge base, 2026-07-10 to 2026-10-14, mostly about platform, development, integration."
+summary: "microsoft/AL-Go pull requests: 30 code changes in the knowledge base, 2026-07-10 to 2026-10-14, mostly about platform, development, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5e8d89b20cddb1038065575563ab93fdec7ea0e9d326595884febd89b687ec87
+  input_hash: c46f91c6096ed267ab718b711f8965917a25000ca22865b383684923bcccc520
 evidence:
   - kind: code
     url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
@@ -63,6 +63,7 @@ links:
     - change/al-go/2367
     - change/al-go/2395
     - change/al-go/2392
+    - change/al-go/2396
     - change/al-go/2403
 source_id: al-go-prs
 kind: github-pr
@@ -70,20 +71,20 @@ url: https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 29
+item_count: 30
 footprint:
   systems:
     - id: platform
-      weight: 43
+      weight: 45
     - id: development
       weight: 28
     - id: integration
       weight: 2
   topics:
     - id: main
-      weight: 29
+      weight: 30
     - id: fix
-      weight: 20
+      weight: 21
     - id: feature
       weight: 7
     - id: other
@@ -98,7 +99,7 @@ last_item: "2026-10-14"
 
 # microsoft/AL-Go pull requests
 
-> microsoft/AL-Go pull requests: 29 code changes in the knowledge base, 2026-07-10 to 2026-10-14, mostly about platform, development, integration.
+> microsoft/AL-Go pull requests: 30 code changes in the knowledge base, 2026-07-10 to 2026-10-14, mostly about platform, development, integration.
 
 [https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/AL-Go/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -106,8 +107,8 @@ last_item: "2026-10-14"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| platform (43) | main (29) |  |
-| development (28) | fix (20) |  |
+| platform (45) | main (30) |  |
+| development (28) | fix (21) |  |
 | integration (2) | feature (7) |  |
 |  | other (1) |  |
 |  | refactor (1) |  |
@@ -117,11 +118,12 @@ last_item: "2026-10-14"
 Items per quarter, oldest first:
 
 - 2026-Q3: ************************** 26
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
 - [#2403 Fix dependency filenames containing commas](../changes/al-go/2403.md) (2026-10-14)
+- [#2396 Fix deployment environment discovery pagination](../changes/al-go/2396.md) (2026-10-09)
 - [#2392 AL-Go Telemetry Enhancements: repository fork and hosting information](../changes/al-go/2392.md) (2026-10-07)
 - [#2395 Prevent workflow telemetry failures from failing the workflow](../changes/al-go/2395.md) (2026-10-06)
 - [#2367 Enhance NuGet feed selection to support pre-release packages](../changes/al-go/2367.md) (2026-09-30)
@@ -140,6 +142,5 @@ Items per quarter, oldest first:
 - [#2334 Handle app names with underscores correctly for reference documentation](../changes/al-go/2334.md) (2026-07-31)
 - [#2300 Make failOn: newWarning work with workspace compilation](../changes/al-go/2300.md) (2026-07-31)
 - [#2257 Test Result Analyzer fails if no stack trace is available](../changes/al-go/2257.md) (2026-07-29)
-- [#2327 Add doNotPerformUpgrade setting and enhance upgrade warning messages](../changes/al-go/2327.md) (2026-07-27)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

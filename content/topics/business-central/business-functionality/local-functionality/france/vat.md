@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/vat
 type: topic
 title: VAT
-summary: "The France VAT section covers French localization reporting in Business Central: exporting general ledger entries for tax audits, exporting them to XML for archiving, and meeting Declaration of Trade in Goods (DEB) requirements. It answers questions about audit files, year-end archiving and DEB setup."
+summary: "French VAT localization in Business Central: exporting general ledger entries for tax audits (FEC format or XML) and setting up the Declaration of Trade in Goods (DEB). It answers questions on audit file export and DEB reporting requirements."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:27.016Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fd941d1df27fef89eeadd4dc6f4d6c7a3479de285cb7def60b4bd0b57674b935
+  input_hash: 5338fbe75b078d8642c09646460e675b9040b17e150705c9c40d65e1161503b7
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits
@@ -73,27 +73,27 @@ narrative: generated
 
 # VAT
 
-> The France VAT section covers French localization reporting in Business Central: exporting general ledger entries for tax audits, exporting them to XML for archiving, and meeting Declaration of Trade in Goods (DEB) requirements. It answers questions about audit files, year-end archiving and DEB setup.
+> French VAT localization in Business Central: exporting general ledger entries for tax audits (FEC format or XML) and setting up the Declaration of Trade in Goods (DEB). It answers questions on audit file export and DEB reporting requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section groups three French localization pages about tax and VAT-related reporting. Two describe exporting general ledger entries. The third explains how to prepare and run the Declaration of Trade in Goods (DEB) report.
+This section covers three French compliance tasks. Two concern exporting general ledger entries: one produces the FEC audit file used for French corporate tax and VAT audits, and the other writes G/L entries to an XML file for external archiving. Both filter by date range.
 
-The audit export page covers producing files for French tax authority audits (corporate tax and VAT), with posted entries and optional opening balances. The XML export page covers exporting financial transactions for a date range, typically after fiscal year closing, so they can be archived in an external system. The DEB page covers the required company information and Intrastat journal fields, then running the Export DEB DTI report.
+The third page explains how to prepare Business Central for the Declaration of Trade in Goods (DEB). It lists the required setup fields, obligation levels, transaction specification filters and validation steps.
 
-Start with the audit export page if you face a tax audit, the XML page for year-end archiving, and the DEB page for trade in goods reporting.
+Start with the FEC export page if you face a tax audit, with the XML page if you need to archive entries, and with the DEB requirements page before reporting trade in goods.
 
 ## Key points
 
-- Export General Ledger Entries for Tax Audits creates audit files with posted entries and opening balances for French corporate tax and VAT audits.
-- The audit export uses Starting Date, Ending Date, an Include Opening Balances option and a Detailed Balance checkbox.
-- General ledger entries can be exported to an XML file by Starting Date and Ending Date.
-- The XML export is intended for archiving general ledger transactions in an external system after fiscal year closing.
-- DEB reporting requires company information and Intrastat journal fields to be populated first.
-- DEB data is exported with the Export DEB DTI report, filtered by obligation level.
-- DEB setup involves Intrastat management, a Transaction Specification Filter and the Advanced Intrastat Checklist.
+- The FEC audit file export is the format for French corporate tax and VAT audits.
+- FEC export can include opening balances, with an opening balance calculation and Detailed Balance on G/L Accounts.
+- FEC export filters by date range and writes to a file.
+- The XML export archives posted G/L Entry records for a chosen period and supports fiscal year closing.
+- DEB setup involves CISD setup, Registration No., VAT Registration No. and Statistics Period.
+- DEB reporting uses Transaction Specification and Obligation Level filtering.
+- The DEB requirements page also covers validation procedures.
 
 ## Learn pages
 

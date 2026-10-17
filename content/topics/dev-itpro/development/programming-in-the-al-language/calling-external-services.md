@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -88,7 +88,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
-  videos: []
+  videos:
+    - video/2u5_F9Ztt7U
   posts:
     - post/aardvarklabs-blog/2953
     - post/demiliani-com/13640
@@ -113,7 +114,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 0
+  video: 1
   blog: 3
   guideline: 0
 bc_forms: []
@@ -153,5 +154,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
+- [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "MCP Protocol Compliance; File Support Using MCP Resources"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

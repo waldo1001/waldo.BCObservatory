@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:26.157Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -391,8 +391,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Client Crash? Check Error Dialog signal](../../../posts/duiliotacconi-com/1501.md) (community post): "Dashboard tiles built on RT0030 (by failure reason, details, stack trace and timeline) showed InvalidOperation errors"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "KQL telemetry queries that count platform hotfix deployments by local hour"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../posts/waldo-be/317845.md) (community post): "Dashboard visualization consolidates custom telemetry and daily telemetry data"
-- [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
+- [What's New: Telemetry (2023 release wave 2)](../../../videos/7rIHz0zrgWU.md) (video): "AI assisted performance analysis; Key influencers analysis; Top segments analysis"
 - [Connect Power BI Telemetry Apps to Read your Business Central Telemetry Data (2023)](../../../videos/BOY2442wHSc.md) (video): "power bi; telemetry; application insights; data connection"
-- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "telemetry data usage analytics power bi reporting go-live optimization"
+- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../videos/F_pssS0FtUc.md) (video): "Business Central Telemetry; Usage Report; Error Dashboard; KPI Tracking"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

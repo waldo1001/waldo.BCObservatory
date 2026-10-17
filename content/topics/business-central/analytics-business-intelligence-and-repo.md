@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.805Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -631,8 +631,7 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
   videos: []
-  posts:
-    - post/thinkaboutit-be/7635
+  posts: []
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -649,7 +648,7 @@ coverage:
   learn: 70
   code: 318
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 1
@@ -1004,12 +1003,6 @@ Start with the overview page to pick the approach, then move to the subtopic tha
 
 - [Analytics by functional area](https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area): Provides an overview of functional area specific landing pages for analytics in Business Central.
 - [Analytics, business intelligence, and reporting overview](https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting): Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "Business Central analytics tools like Power BI, Data Analysis mode, and APIs enable dashboards"
 
 ## Business Central pages and reports
 

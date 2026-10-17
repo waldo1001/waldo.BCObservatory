@@ -9,22 +9,22 @@ tags:
   - localization
   - it
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-17T01:03:26.764Z"
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 8771cb83dd4b23f852e9bbf3a745659ae07b65bd855b58dba83277a681ac0d57
+  input_hash: a54e6a066fd1ae7a23c55c0c3c947d31d06eeb3d46d0144546ac3de4c65c3b72
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-it
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -248,7 +248,7 @@ learn_folder: LocalFunctionality/Italy
 
 > Italy (IT) localization of Business Central 29. It covers Italian VAT (non-deductible VAT, settlement, VAT transaction reports, Datifattura), withholding tax and INPS contributions, customer and vendor bills with SEPA payments, FatturaPA e-invoicing, Intrastat, fiscal inventory valuation, Italian depreciation methods, and legacy subcontracting.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/italy.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

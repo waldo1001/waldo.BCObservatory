@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,7 +44,9 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2907
+    - post/demiliani-com/13215
     - post/demiliani-com/14203
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10466
@@ -67,7 +69,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 7b01fcfd0114917bb1dd15f243b051ffc89de365454052135af57f304ef9685e
@@ -119,6 +121,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../changes/bcapps/9637.md) (code change): "adding new integration events or extra parameters on existing ones in the base application"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
+- [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL"
+- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "event-driven architecture is required"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

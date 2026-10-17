@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -98,6 +98,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data
   localizations: []
   videos:
+    - video/1x3QyBX3swg
+    - video/2u5_F9Ztt7U
+    - video/G0avZpiDFtI
     - video/IAacWsvav1E
   posts:
     - post/demiliani-com/12836
@@ -118,7 +121,7 @@ children: []
 coverage:
   learn: 9
   code: 0
-  video: 1
+  video: 4
   blog: 6
   guideline: 0
 bc_forms: []
@@ -169,6 +172,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Business Central 29 allows table extension keys to span both base table and extension fields in a single index"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Clustered indexes define physical row ordering and are used by Get()"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../../../../posts/waldo-be/318212.md) (community post): "Indexes can only be added by development, through an AppSource app"
+- [Microsoft presents: Index management](../../../../../videos/1x3QyBX3swg.md) (video): "index management; sql server indexes; storage optimization; index usage statistics"
+- [What's New: Server and Database (2026 release wave 1)](../../../../../videos/2u5_F9Ztt7U.md) (video): "Index Usage Insights and Management"
+- [What's New: Server and Database (2025 release wave 1)](../../../../../videos/G0avZpiDFtI.md) (video): "Database Missing Indexes Page Enhancements"
 - [What's New: Enhanced Index Management (2026 release wave 1)](../../../../../videos/IAacWsvav1E.md) (video): "Enhanced Index Management database performance storage optimization index lifecycle"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

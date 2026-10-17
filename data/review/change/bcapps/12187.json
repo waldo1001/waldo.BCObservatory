@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12187",
+  "input_hash": "7bcaa6da23cacd0647ce24ff811bf3cf10bc7840395f7b64d194bdc380fdbe01",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:12:15.147Z",
+  "issues": [
+    "behavior_change should be true. Restored table relations mean configuration packages now validate Comment Line parent references, and comments are ordered after packaged parents.",
+    "The new table extension replaces the earlier Item-only extension. This is not mentioned but is minor.",
+    "breaking false is acceptable because existing extensions keep compiling."
+  ],
+  "applied": [
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02074,
+    "changes_in_call": 6
+  }
+}

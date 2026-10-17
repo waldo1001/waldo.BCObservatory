@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/finland/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Finnish banking and payments functionality in Business Central: electronic banking with LM03 and LUM2 formats, bank reference file setup, payment file generation for vendors, SEPA credit transfer export, and disregarding payment discounts. It answers setup and how-to questions for domestic and foreign payments in the Finnish version."
+summary: "Finnish banking and payments in Business Central: electronic banking with bank reference files, domestic (LM03) and foreign (LUM2) payments, SEPA credit transfer export, payment file generation, and the payment discount disregard setting. It answers setup and how-to questions for importing customer payments and exporting vendor payments in Finland."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:05.605Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0fc80c2c393f09dde89a09d4ce68d7ba9d773e04e9c6a7acc0f6d09b5fbe52cf
+  input_hash: f8955c7bb1d1a98e13b67f983d26cba7b6ba52e2ec0a8b3ed33e68100508f433
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/electronic-banking-in-finland
@@ -95,26 +95,27 @@ narrative: generated
 
 # Banking & payments
 
-> Finnish banking and payments functionality in Business Central: electronic banking with LM03 and LUM2 formats, bank reference file setup, payment file generation for vendors, SEPA credit transfer export, and disregarding payment discounts. It answers setup and how-to questions for domestic and foreign payments in the Finnish version.
+> Finnish banking and payments in Business Central: electronic banking with bank reference files, domestic (LM03) and foreign (LUM2) payments, SEPA credit transfer export, payment file generation, and the payment discount disregard setting. It answers setup and how-to questions for importing customer payments and exporting vendor payments in Finland.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the Finland-specific tools for handling payments through the bank. Electronic banking supports domestic and foreign payment processing using the LM03 and LUM2 formats. It links customer payments to invoices automatically and exports vendor payments as bank transfer files.
+This section covers the Finnish localization of banking and payments. It centers on electronic banking, where bank reference files are used to import customer payments and export vendor payments, for both domestic and foreign payments.
 
-The pages fit together as a flow. Set Up Bank Reference Files (FI) defines how payment data is imported and exported, including foreign payment handling, SEPA compliance, payment date processing and exchange rates. Generate Payment Files (FI) then covers sending domestic or foreign vendor payments, using Suggest Vendor Payments. SEPA credit transfer payments (FI) describes the newer SEPA export. A separate page explains how to disregard payment discounts on payment terms.
+The pages fit together as a flow. Start with "Electronic banking in Finland" for the overview of domestic (LM03) and foreign (LUM2) payments and reference number automation. Then use "Set Up Bank Reference Files (FI)" to configure how payment data is imported or exported. After setup, "Generate Payment Files (FI)" explains how to suggest vendor payments and create the payment file.
 
-Start with the Electronic banking in Finland overview, then do the bank reference file setup before generating payment files.
+Two pages cover narrower topics. "SEPA credit transfer payments (FI)" describes exporting in pain.001.001.09 format with dedicated codeunit and report objects. "How to Disregard Payment Discounts" explains the setting that accepts a payment as full payment when it arrives within the payment tolerance date and for the full invoice amount, even if the payment discount date has passed.
 
 ## Key points
 
-- Electronic banking in Finland supports domestic and foreign payments using LM03 and LUM2 formats.
-- Customer payments can be linked to invoices automatically through bank reference files and reference numbers.
-- Vendor payments are exported as bank transfer files; Suggest Vendor Payments is used when generating payment files.
-- Bank reference file setup covers foreign payment handling, the SEPA standard, payment date processing and exchange rate management.
-- SEPA credit transfer export uses codeunit 13413 and report 13413 with the pain.001.001.09 format.
-- The disregard payment discount option is configured on payment terms and accepts full payment after the discount date within payment tolerance limits.
+- Electronic banking handles domestic (LM03) and foreign (LUM2) customer and vendor payments through bank reference files.
+- Customer payments are imported and vendor payments are exported electronically.
+- Bank reference file setup covers SEPA payment standards, foreign payment processing, due date handling, payment methods, exchange rate contracts, and combined payments.
+- Payment files for domestic or foreign vendor payments are generated after suggesting vendor payments.
+- SEPA credit transfers can be exported in pain.001.001.09 format using dedicated codeunit and report objects.
+- The Disreg. Pmt. Disc. at Full Pmt feature accepts full-amount payments within the payment tolerance date even after the payment discount date.
+- Reference number automation is part of the electronic banking support.
 
 ## Learn pages
 

@@ -1,0 +1,25 @@
+{
+  "hub_id": "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric",
+  "input_hash": "8e965e040aa9ea08f0e67ec95b02a19a81eb32f39038adb9768282051714f174",
+  "summary": "Microsoft Fabric data mirroring from Business Central online: how to set it up, choose companies and tables, manage synchronization, and monitor and troubleshoot runs. It answers questions about replicating Business Central data to OneLake for analytics.",
+  "overview": "Data mirroring connects Business Central online to a Microsoft Fabric open-mirrored database. Selected companies and tables are replicated to OneLake, so analytics and data engineering tools can use the data without repeatedly reading from APIs. The feature is described as a 2026 production-ready preview, and the pages are tied to 2026 release wave 2.\n\nThe pages follow the life cycle of the feature. Start with the overview page to understand what mirroring does, then use the setup page to run the Connect to Microsoft Fabric assisted setup. After that, the management page covers company and table selection, configuration packages, scheduling and failure handling. The monitoring page helps when runs fail or results look wrong. The FAQ covers availability, requirements, synchronization behavior and limits.",
+  "key_points": [
+    "Mirroring replicates selected companies and tables from Business Central online to OneLake via a Fabric open-mirrored database.",
+    "Up to 1000 tables can be selected, and multiple companies are supported.",
+    "Synchronization starts with an initial snapshot and then continues with incremental changes.",
+    "Setup uses the Connect to Microsoft Fabric assisted setup and the Microsoft Fabric Mirroring extension, with service principal access (version 29.0, 2026 release wave 2).",
+    "Configuration packages, scheduling, failure handling and namespace configuration are managed after the initial setup.",
+    "Monitor runs on the Fabric Synchronization Overview and Details pages, through APIs, or in Fabric logging tables, with company and table-level results and error tracking.",
+    "Troubleshooting topics include change-tracking watermarks, incremental synchronization and privacy approval.",
+    "Replicated data can be used for analytics with Power BI, Data Factory and Fabric IQ."
+  ],
+  "members_used": 5,
+  "subtopics_used": 0,
+  "prompt_version": 1,
+  "at": "2026-10-17T01:12:55.818Z",
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.013737
+  }
+}

@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/germany/general",
-  "input_hash": "d4d7d9fdbcfdf6cbfab799464d85605a04d047865e71dc84cf7fa8aa1dd718f3",
-  "summary": "German local functionality in Business Central: year-end currency exchange rate adjustment with BilMoG valuation, EU sales list submission to the BZSt portal, company registration numbers on reports, and the G/L Setup Information report. Answers how-to and compliance questions for German setups.",
-  "overview": "This section collects four pages on general features specific to the German version of Business Central. They cover legal and reporting needs: valuing payables and receivables at fiscal year-end, reporting EU sales for VAT, showing registration numbers on documents, and printing setup data for review.\n\nThe pages are independent, so start with the one that matches your task. For year-end closing, read the currency exchange rates page. For VAT reporting, read the EU sales list page. For document content, use the registration numbers page. For auditing setup data, use the G/L setup information page.",
+  "input_hash": "dc7132f24919ba0863a8b9a7affbc38fbd35fabab7250e3d9f58a8af402da6d6",
+  "summary": "German local functionality in Business Central: currency exchange rate adjustment under BilMoG, EU Sales List submission to BZSt via ELMA5, registration numbers on sales and purchase reports, and the G/L Setup Information report. It answers setup and compliance questions for German companies.",
+  "overview": "This section collects the general German-specific pages. They cover year-end valuation of foreign currency payables and receivables, statutory reporting to the German tax authority, printing registration numbers on documents, and a report for checking accounting setup.\n\nStart with the page that matches your task. Use the currency exchange rates page for fiscal year-end adjustments under the BilMoG method. Use the EU Sales List page when you submit to BZSt. Use the registration numbers page to configure what prints on reports. Use the G/L Setup Information report to check configuration before daily business use.",
   "key_points": [
-    "Currency exchange rates are adjusted at fiscal year-end with the Adjust Exchange Rates batch job, using the BilMoG valuation method to meet German legal requirements for payables and receivables.",
-    "The valuation options include standard valuation and lowest value valuation, with settings such as Valuation Reference Date and Short term liabilities until.",
-    "EU sales lists are submitted through the BZSt Online Portal using the ELMA5 interface.",
-    "Submission requires authentication with the BZSt number and private key; VAT-VIES reports can be uploaded interactively or transferred automatically.",
-    "Registration numbers on sales reports come from Company Information; on purchase reports they come from the Vendor record.",
-    "The G/L Setup Information report prints master data for posting groups, VAT setup, source codes and number series so you can verify them, and relates to GDPdU compliance."
+    "Currency exchange rate adjustment uses the BilMoG valuation method for payables and receivables at fiscal year-end.",
+    "BilMoG treats short-term entries (under one year) differently from long-term entries, with lowest value and standard valuation and a valuation reference date.",
+    "The EU Sales List in Germany is submitted to BZSt through the ELMA5 interface.",
+    "BZSt submission requires authentication with a BZSt number and private key.",
+    "The EU Sales List supports large datasets and both interactive and automatic data transfer.",
+    "Set the company registration number on the Tax Office FastTab in Company Information.",
+    "Set vendor registration numbers on the Invoicing FastTab on the Vendors page so they print on purchase reports.",
+    "The G/L Setup Information report shows G/L setup, posting groups, posting matrix, VAT setup, source and reason codes, and number series."
   ],
   "members_used": 4,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:06:20.529Z",
+  "at": "2026-10-17T01:12:47.967Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010535
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:25:23.799Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says the pages are independent. That is a reasonable inference, but no page summary states it.",
-      "Key point 6 says the report lets you verify all four areas it prints. The page summary only clearly ties 'verification' to number series, so this reads it slightly more broadly.",
-      "Some details come only from feature tags, not the page summaries: the standard and lowest value valuation options, the Valuation Reference Date and Short term liabilities until settings, interactive upload versus automatic transfer, and the GDPdU link. Each is described lightly, which suits that source."
-    ],
-    "input_hash": "d4d7d9fdbcfdf6cbfab799464d85605a04d047865e71dc84cf7fa8aa1dd718f3",
-    "cost_usd": 0.0314712
+    "cost_usd": 0.010979
   }
 }

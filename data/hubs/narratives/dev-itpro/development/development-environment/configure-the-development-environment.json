@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment/configure-the-development-environment",
-  "input_hash": "e7c21a062be36b58ed0bade511245d3192691a2185a6668f3735121b10ad873b",
-  "summary": "Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, runtime targeting in app.json, resource exposure policy, Docker containers and GitHub Codespaces. It answers setup, configuration and IP protection questions, with a subtopic on the JSON files.",
-  "overview": "This section covers how to set up and tune a Business Central AL development environment. It includes the AL Language extension settings in Visual Studio Code (compilation, code analysis, debugging, editor behavior) and a page on improving performance with large projects.\n\nTwo pages cover where code runs. One describes a container-based environment using Docker and the BCContainerHelper PowerShell module. The other describes cloud-hosted development in GitHub Codespaces through a devcontainer.json file.\n\nOther pages cover project-level settings: the runtime property in app.json for targeting a platform version, and the resourceExposurePolicy setting for protecting source code. The JSON files subtopic (app.json, launch.json, Directory.app.props.json, migration.json) details the configuration files. Start with the AL Language extension configuration page, then pick a container or Codespaces setup.",
+  "input_hash": "6401e98a17e0dd98e1b79d9036a76d73f33b88a612063e7a1819b1e59555b35f",
+  "summary": "Configuring the AL development environment for Business Central: VS Code AL Language extension settings, performance tuning, container and GitHub Codespaces setups, runtime targeting, and resource exposure policy. It answers questions about setting up and tuning a dev environment and about the JSON configuration files used in AL projects.",
+  "overview": "This section covers how to set up and tune the places where you write AL code for Business Central. It includes the AL Language extension settings in Visual Studio Code (compilation, code analysis, debugging, editor behavior), a page on speeding up VS Code with large projects, and two ways to host the environment: a Docker container using the BCContainerHelper PowerShell module, or cloud-hosted GitHub Codespaces defined by a devcontainer.json file.\n\nProject-level behavior is set in app.json. One page explains the runtime property, which defines the platform version an extension targets and so which features are available. Another explains the resourceExposurePolicy setting, which controls IP protection by managing debugging, source download and source in symbol files. The JSON files subtopic covers app.json, launch.json, Directory.app.props.json and migration.json in more detail.\n\nStart with the AL Language extension configuration page to learn the available settings. Then pick a hosting approach (container or Codespaces), and use the performance and JSON file pages as you refine the project.",
   "key_points": [
-    "The AL Language extension settings control compilation, code analysis, debugging and editor behavior, including incremental build, code analyzers, symbol search, profiler and snapshot debugging.",
-    "To speed up VS Code with large projects: disable code analysis, enable incremental builds, and adjust editor settings such as background compilation, code actions and format on save.",
-    "The runtime property in app.json sets the platform version an extension targets, which determines available features and publishing compatibility.",
-    "resourceExposurePolicy has allowDebugging, allowDownloadingSource, includeSourceInSymbolFile and applyToDevExtension; the NonDebuggable attribute also relates to IP protection.",
-    "A dynamic policy override using Azure Key Vault can give time-limited access to an extension's source code.",
-    "Container-based development uses Docker, Windows containers and BCContainerHelper to create and manage sandbox containers and install apps.",
-    "GitHub Codespaces development is configured with devcontainer.json (tools, VS Code extensions, settings, CodeCop and UICop analyzers, environment variables, port forwarding) for fast onboarding and consistent teams.",
-    "The JSON files subtopic covers app.json, launch.json, Directory.app.props.json and migration.json (4 pages)."
+    "The AL Language extension settings control compilation, background code analysis, incremental build, code analyzers, symbol search, profiler and snapshot debugging.",
+    "For large projects, disable code analysis, enable incremental builds and adjust editor settings such as background compilation, code actions and format on save.",
+    "The runtime property in app.json sets the target platform version, which decides available features and publishing compatibility.",
+    "resourceExposurePolicy in app.json has allowDebugging, allowDownloadingSource, includeSourceInSymbolFile and applyToDevExtension; the NonDebuggable attribute is also covered (2021 release wave 2).",
+    "A container-based environment uses Docker, Windows containers and BCContainerHelper to create sandbox containers and install apps (2026 release wave 1, version 28.0).",
+    "GitHub Codespaces uses devcontainer.json to define tools, VS Code extensions, CodeCop and UICop analyzers, environment variables and port forwarding for consistent team onboarding.",
+    "The JSON files subtopic (4 pages) covers app.json, launch.json, Directory.app.props.json and migration.json: project config, debug and publish settings, shared properties and data migration between extensions."
   ],
   "members_used": 6,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:07:11.346Z",
+  "at": "2026-10-17T01:13:06.365Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015261
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:20:14.903Z",
-    "verdict": "fix",
-    "issues": [
-      "Key point 5 says the Azure Key Vault dynamic policy override came in '2021 release wave 2'. That version is only a tag on the Resource exposure policy page as a whole and isn't tied to the override feature in the source, so the version was removed."
-    ],
-    "input_hash": "e7c21a062be36b58ed0bade511245d3192691a2185a6668f3735121b10ad873b",
-    "cost_usd": 0.0501432
+    "cost_usd": 0.015355
   }
 }

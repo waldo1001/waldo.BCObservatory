@@ -6,12 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Added reset button functionality to Fabric Platform Tables page allowing users to reset individual table synchronization status, with corresponding HTTP client and management codeunit updates.",
+  "summary": "Adds a reset action for an individual table on the Fabric Platform Tables page in the Microsoft Fabric Mirroring app. Supporting changes were made in the Fabric Platform Mgt and Fabric Platform Http Client codeunits, and tests were added.",
   "key_points": [
-    "New reset button added to Fabric Platform Tables page for per-table synchronization reset",
-    "Management codeunit extended with reset operation handler",
-    "HTTP client updated to support reset requests",
-    "Test coverage added for reset functionality"
+    "New reset action for a single table on the Fabric Platform Tables page",
+    "Fabric Platform Mgt codeunit extended to back the reset",
+    "Small change in the Fabric Platform Http Client codeunit",
+    "About 268 lines of new tests in TestFABPlatform"
   ],
   "change_kind": "feature",
   "behavior_change": true,

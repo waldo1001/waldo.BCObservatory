@@ -2,7 +2,7 @@
 id: app/peppol
 type: app
 title: PEPPOL
-summary: "PEPPOL (Microsoft.Peppol): 53 objects in BC29-30 (23 codeunits, 21 interfaces, 2 tables, 2 XMLports, 2 enums, ...); no Learn hub documents its objects yet; 1 video."
+summary: "PEPPOL (Microsoft.Peppol): 55 objects in BC29-30 (24 codeunits, 21 interfaces, 3 enums, 2 tables, 2 XMLports, ...); no Learn hub documents its objects yet; 1 video."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:07:01.688Z"
+  at: "2026-10-17T01:08:11.166Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d84f9e929291cbc655ac63e3bf0be1f1558e17e10482543f8999539a358dc210
+  input_hash: a7d3f5316b644c03958adaf845db91b7eb095a640797cdf3d0f73c0249a4b8a1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PEPPOL/app
@@ -57,11 +57,13 @@ links:
     - object/codeunit/37220
     - object/codeunit/37222
     - object/codeunit/37223
+    - object/codeunit/37224
     - object/codeunit/37230
     - object/xmlport/37200
     - object/xmlport/37201
     - object/enum/37200
     - object/enum/37201
+    - object/enum/37202
     - object/interface/peppol-attachment-provider
     - object/interface/peppol-delivery-info-provider
     - object/interface/peppol-document-info-provider
@@ -96,13 +98,13 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 53
+  objects: 55
   by_type:
-    codeunit: 23
+    codeunit: 24
     interface: 21
+    enum: 3
     table: 2
     xmlport: 2
-    enum: 2
     tableextension: 1
     page: 1
     pageextension: 1
@@ -113,13 +115,13 @@ counts:
 
 # PEPPOL
 
-> PEPPOL (Microsoft.Peppol): 53 objects in BC29-30 (23 codeunits, 21 interfaces, 2 tables, 2 XMLports, 2 enums, ...); no Learn hub documents its objects yet; 1 video.
+> PEPPOL (Microsoft.Peppol): 55 objects in BC29-30 (24 codeunits, 21 interfaces, 3 enums, 2 tables, 2 XMLports, ...); no Learn hub documents its objects yet; 1 video.
 
 First-party app · folder `src/Apps/W1/PEPPOL/app` · namespace `Microsoft.Peppol` · BC29-30 · system integration · facts from the code pillar and the joins, nothing machine-written
 
 ## Objects
 
-53 objects, by type.
+55 objects, by type.
 
 ### Tables (2)
 
@@ -146,7 +148,7 @@ First-party app · folder `src/Apps/W1/PEPPOL/app` · namespace `Microsoft.Peppo
 |---|---|---|
 | 37221 | [PEPPOL VAT Clauses](../objects/pageextension/37221.md) |  |
 
-### Codeunits (23)
+### Codeunits (24)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -172,6 +174,7 @@ First-party app · folder `src/Apps/W1/PEPPOL/app` · namespace `Microsoft.Peppo
 | 37220 | [PEPPOL30 Serv. Validation Impl](../objects/codeunit/37220.md) |  |
 | 37222 | [PEPPOL VAT Helper](../objects/codeunit/37222.md) |  |
 | 37223 | [PEPPOL30 Unknown Format](../objects/codeunit/37223.md) |  |
+| 37224 | [PEPPOL Electronic Address](../objects/codeunit/37224.md) |  |
 | 37230 | [Export Self-Billed PEPPOL30](../objects/codeunit/37230.md) |  |
 
 ### XMLports (2)
@@ -181,12 +184,13 @@ First-party app · folder `src/Apps/W1/PEPPOL/app` · namespace `Microsoft.Peppo
 | 37200 | [Sales Cr.Memo - PEPPOL30](../objects/xmlport/37200.md) | Sales Cr.Memo - PEPPOL BIS 3.0 |
 | 37201 | [Sales Invoice - PEPPOL30](../objects/xmlport/37201.md) | Sales Invoice - PEPPOL BIS 3.0 |
 
-### Enums (2)
+### Enums (3)
 
 | Id | Name | Caption |
 |---|---|---|
 | 37200 | [PEPPOL 3.0 Format](../objects/enum/37200.md) |  |
 | 37201 | [PEPPOL 3.0 Purchase](../objects/enum/37201.md) |  |
+| 37202 | [PEPPOL Electronic Addr. Scheme](../objects/enum/37202.md) |  |
 
 ### Interfaces (21)
 

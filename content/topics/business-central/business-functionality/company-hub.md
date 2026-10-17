@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:09.299Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,6 +57,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11741
 learn_toc_path:
   - Business functionality
   - Company hub
@@ -106,6 +108,12 @@ The three pages follow a natural order. Start with "Add companies to your compan
 - [Add companies to your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-add-company): Learn how to add companies from other Business Central environments to your company hub so you can manage work across environments.
 - [Manage work across multiple companies in the company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub): Learn about the company hub in Dynamics 365 Business Central that you use to manage your work across multiple companies.
 - [Troubleshooting your company hub](https://learn.microsoft.com/dynamics365/business-central/company-hub-troubleshooting): Troubleshoot common connectivity and data-refresh issues when using the company hub in Dynamics 365 Business Central to manage multiple companies.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11741 [MCP] Add company and environment descriptions](../../../changes/bcapps/11741.md) (code change): "Company Description field added to Company Information table as a BLOB across all country layers"
 
 ## Business Central pages and reports
 

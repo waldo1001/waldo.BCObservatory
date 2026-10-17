@@ -9,22 +9,22 @@ tags:
   - localization
   - fi
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-17T01:02:52.180Z"
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: fcbbf1c835edbea60c872944e5e2d3026d389eb416538569344d51d4872effe2
+  input_hash: 4a05318d332e6b1ef1eb2429b20b8ad80f2f663cf428cd2a327f27eee35f44e1
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-fi
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -101,7 +101,7 @@ learn_folder: LocalFunctionality/Finland
 
 > Finland (FI) localization of Business Central 29. It covers electronic banking with bank reference files (domestic LM03, foreign LUM2), SEPA pain.001.001.09 export, reference numbers, automatic account codes, Intrastat, VAT-VIES declaration, depreciation differences and Finnish service reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/finland.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/finland.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

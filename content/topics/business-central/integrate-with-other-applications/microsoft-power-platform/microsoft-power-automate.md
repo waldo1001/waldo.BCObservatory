@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/11739
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -64,7 +65,7 @@ coverage:
   learn: 3
   code: 1
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1500
@@ -101,6 +102,12 @@ Start with the overview to understand the flow types, then read the usage page b
 - [Power Automate Integration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview): This article provides an overview of how Power Automate and Business Central integrate.
 - [Troubleshoot your automated workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../../posts/demiliani-com/11739.md) (community post): "Billing requires linking the Business Central environment to a Power Platform environment"
 
 ## Business Central pages and reports
 

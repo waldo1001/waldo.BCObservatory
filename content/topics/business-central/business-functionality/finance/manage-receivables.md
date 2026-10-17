@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/manage-receivables
 type: topic
 title: Manage receivables
-summary: "Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries."
+summary: "Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance."
 tier: official
 language: en
 system: sales
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:23.051Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c358b2322609b48b0cd8a586702cea076a36973435f8334986ce702f4f07930a
+  input_hash: 852912af360a402f9461bcf050768c73d336958c653afedb183decceb61b8654
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/receivables-reports
@@ -237,6 +237,7 @@ links:
     - video/O2RPBlr_GiE
     - video/UTxX4XPLcgQ
   posts:
+    - post/aardvarklabs-blog/1816
     - post/thedynamicsexplorer-com/10232
   guidelines: []
   changes:
@@ -262,7 +263,7 @@ coverage:
   learn: 19
   code: 60
   video: 3
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 6
@@ -342,28 +343,28 @@ narrative: generated
 
 # Manage receivables
 
-> Managing receivables in Business Central: applying and reconciling customer payments, collecting overdue balances, payment tolerances, late payment prediction, SEPA Direct Debit, blocking customers, and related reporting. It answers how-to questions about getting from open sales invoices to closed customer entries.
+> Receivables management in Business Central: applying customer payments, reconciling bank accounts, collecting overdue balances, setting payment tolerances, blocking customers, and analyzing or predicting late payments. It answers how-to and setup questions for the order-to-cash side of finance.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Manage receivables · tier official · system sales · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the receivables cycle. Payments can be applied in several ways: the Payment Reconciliation Journal for bank statements and feeds, Payment Registration for unpaid sales documents, or the Cash Receipt Journal and customer ledger entries for manual application. A subtopic covers automatic payment application, matching rules, Text-to-Account mapping and bank reconciliation.
+This section covers the tasks that follow a posted sales invoice. You can register and apply customer payments, reconcile them against bank statements, and chase overdue amounts with statements, reminders and finance charge memos. Related pages cover payment tolerances, blocking customers, netting balances for a company that is both customer and vendor, SEPA Direct Debit, sales tax, and Intrastat reporting.
 
-Other pages cover collection and risk: statements, reminders, finance charge memos, Copilot for Finance in Outlook, late payment prediction, and blocking customers. Further pages cover payment tolerances, SEPA Direct Debit, netting balances for a company that is both customer and vendor, analytics, sales tax, and Intrastat reporting.
+Start with "Overview of tasks to manage receivables". It compares the main tools: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal. The subtopic on applying payments automatically and reconciling bank accounts goes deeper on importing bank statements or feeds, matching rules, and Text-to-Account mapping for recurring payments.
 
-Start with "Overview of tasks to manage receivables" to choose the right payment method. Then go to the page for that task, such as the reconciliation subtopic for bank-based matching or "Collect outstanding balances" for overdue amounts.
+For follow-up and insight, use "Collect outstanding balances" and "Send Reminders of Outstanding Balances" for dunning. Use "Accounts receivable analytics" and "Predict late payments for sales documents" to analyze collections and anticipate late payers.
 
 ## Key points
 
-- Payment application options: Payment Reconciliation Journal, Payment Registration, and Cash Receipt Journal or customer ledger entries.
-- The reconciliation subtopic covers importing bank statements or feeds, automatic matching to open entries, matching rules, and Text-to-Account mapping for recurring payments.
-- Collection tools: Customer Statement report, Reminders, Finance Charge Memos with Finance Charge Terms, Copilot for Finance in Outlook, and Dispute Status.
-- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period for discounts and blocking per customer or vendor.
-- The Late Payment Prediction extension uses machine learning, shows confidence levels, and can use Microsoft models or custom Azure-based models.
-- SEPA Direct Debit collects payments in EUR through export formats, mandates, and collection entries that export an XML file to the bank.
-- Customers can be blocked for shipments, invoices, or all transactions, for example when insolvent.
-- Sales tax in the default version is supported by Microsoft only in the United States and Canada; Intrastat extended capabilities start in 2022 release wave 2.
+- Three ways to apply customer payments: Payment Reconciliation Journal, Payment Registration (individual or lump-sum, with partial payments and payment discounts), and Cash Receipt Journal or customer ledger entries.
+- Automatic payment application uses bank statement import or feeds, matching rules, and Text-to-Account mapping for recurring payments; leftovers are resolved manually.
+- Collection tools: Customer Statement report, reminders, finance charge memos with Finance Charge Terms, and Copilot for Finance in Outlook (with Dispute Status).
+- Payment tolerance and payment discount tolerance can be set by percentage and amount, per currency, with a grace period, warnings, and blocking per customer or vendor.
+- Customers can be blocked for shipping, invoicing, or all transactions, for example when insolvent.
+- Late Payment Prediction uses machine learning with confidence levels, using standard Microsoft models or custom Azure-based models.
+- Accounts Receivable Analytics offers Power BI reports, Data Analysis, and reports such as Average Collection Period and Aged Receivables.
+- SEPA Direct Debit collects EUR payments via XML export with mandates; Intrastat extended capabilities start in 2022 release wave 2; default sales tax is supported only in the US and Canada.
 
 ## Subtopics
 
@@ -399,6 +400,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9282 [Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.](../../../../changes/bcapps/9282.md) (code change): "Contact history descriptions in reminder automation now display the registered reminder number"
 - [#9586 [master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.](../../../../changes/bcapps/9586.md) (code change): "The Customer Card now applies a default date filter in the OnAfterGetCurrRecord function"
 - [#9775 [Main]-Issued Reminders are printed without any header or footer in the United Kingdom version](../../../../changes/bcapps/9775.md) (code change): "The Reminder report in the United Kingdom version now displays header and footer content"
+- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "overdue customer balances by combining user input with customer data"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "application of cash to invoices"
 - [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
 - [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"

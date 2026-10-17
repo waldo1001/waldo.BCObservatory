@@ -2,20 +2,20 @@
 id: topic/dev-itpro/get-started/develop/marketplace-validation
 type: topic
 title: Marketplace validation
-summary: Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.
+summary: "Marketplace validation covers what partners need to publish Business Central apps on the Microsoft marketplace: the technical validation checklist, marketing validation rules, and guidance on landing pages and videos. It answers questions about submission requirements, self-validation, listing content and branding."
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:24.927Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: fe01aa9673741128827fba031d0dc6e0c47843702cf5058cc01fd63c3ccadf2b
+  input_hash: d8cb4ff8e8c1b5a4d5481ef21d63921f10c83ef9908259297930a4c4db71ac60
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission-develop-maintain
@@ -159,27 +159,27 @@ narrative: generated
 
 # Marketplace validation
 
-> Marketplace validation covers what Business Central apps need before and during Microsoft marketplace submission. It answers questions on the technical validation checklist, marketing validation rules, the technical FAQ, and best practices for sales landing pages and videos.
+> Marketplace validation covers what partners need to publish Business Central apps on the Microsoft marketplace: the technical validation checklist, marketing validation rules, and guidance on landing pages and videos. It answers questions about submission requirements, self-validation, listing content and branding.
 
-Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative reviewed (checked by Opus)
+Path: [Get started](../../get-started.md) > [Develop](../develop.md) > Marketplace validation · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Marketplace validation is the set of checks a Business Central app goes through before it is published on the Microsoft marketplace. It has a technical side and a marketing side, plus guidance on promoting the app.
+Marketplace validation brings together the requirements and advice for partners submitting Business Central apps to the Marketplace. It has two validation sides: technical (the extension itself) and marketing (the listing and its content).
 
-The Technical validation checklist lists the mandatory requirements for extensions and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Marketplace technical validation FAQ (10 pages) answers detailed questions on app identity, code-signing, names, affixes and ID ranges, Application Insights, app previews, offer types, the validation process and support channels. The Marketing validation FAQ covers listing content and branding rules.
+The Technical validation checklist lists mandatory requirements for extensions before submission and explains how validation is done, including self-validation with BcContainerHelper and AppSourceCop analysis. The Marketplace technical validation FAQ subtopic adds answers on the process, app identity, previews, offers, code-signing, affixes, ID ranges, Application Insights and support channels. The Marketing validation FAQ sets guidelines for the listing, such as statements on editions, countries and languages, branding, help pages and the manual validation process.
 
-Two further pages give advice on promotion: how to create an effective sales landing page and how to make compelling videos. Start with the technical checklist, use the FAQs for specific rejections or doubts, and use the marketing pages when you prepare the listing.
+Two pages give sales and marketing guidance: one on building an effective sales landing page and one on making compelling videos. Start with the technical checklist to prepare the extension, then the marketing FAQ for the listing, and use the landing page and video pages to shape promotional content.
 
 ## Key points
 
-- The technical validation checklist sets mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
-- You can self-validate using BcContainerHelper and AppSourceCop analysis.
-- The technical FAQ covers app identity, code-signing, names, affixes, ID ranges, Application Insights, app previews, offer types and support channels.
+- The technical validation checklist lists mandatory requirements before submission, including manifest validation, affix registration, digital code signing, permission sets and extension publishing.
+- Partners can self-validate using BcContainerHelper and AppSourceCop analysis.
+- The technical validation FAQ (10 pages) covers the validation process, app identity, previews, offers, code-signing, affixes and ID ranges, Application Insights, and support channels.
 - The marketing validation FAQ requires statements on supported editions, countries/regions and languages.
-- Marketing validation also covers help and support pages, product naming conventions and marketplace badge usage, and describes a manual validation process.
-- The landing page guide covers layout, headline copy, pain-based messaging, product benefits, testimonials and video demos.
-- The video guide covers why, how and what videos, customer testimony, video structure and persona targeting.
+- Marketing validation also covers help and support pages, product naming conventions, marketplace badge usage and the manual validation process.
+- The landing page guide covers layout, headline copy, pain-based messaging, product benefits, customer testimonials and video demonstrations.
+- The video guide describes why, how and what videos plus customer testimony, with persona targeting and a structure around benefits, pain points and call to action.
 
 ## Subtopics
 

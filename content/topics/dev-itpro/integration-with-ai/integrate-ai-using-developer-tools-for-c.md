@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,15 +205,16 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
+    - video/IDYhxt-8ImI
     - video/lNASlydCidI
   posts:
     - post/aardvarklabs-blog/1609
-    - post/aardvarklabs-blog/2467
-    - post/demiliani-com/13611
+    - post/demiliani-com/12186
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
     - change/bcapps/10408
+    - change/bcapps/11073
     - change/bcapps/12428
     - change/bcquality/84
 learn_toc_path:
@@ -226,8 +227,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 2
-  blog: 4
+  video: 3
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -280,13 +281,14 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "uses AI to match Shopify tax lines to Business Central tax jurisdictions"
+- [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
-- [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central that automates customer address extraction"
-- [Enhancing Business Central with Address Validation AI](../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses against existing Business Central"
-- [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../../posts/demiliani-com/13611.md) (community post): "System.AI namespace currently wraps Chat Completions and provides guardrails, telemetry"
-- [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Microsoft-managed Azure OpenAI resources for Copilot extensions (now generally available)"
+- [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
+- [Using Azure AI Foundry Model Router in your AI projects.](../../../posts/demiliani-com/12186.md) (community post): "AL Copilot SDK currently does not support Model Router endpoints, requiring alternative approaches"
+- [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
+- [20260629 - AI Enabled Delivery for Consultants](../../../videos/IDYhxt-8ImI.md) (video): "AI prompts; requirements analysis; test case generation; solution design"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

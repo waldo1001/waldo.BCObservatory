@@ -9,22 +9,22 @@ tags:
   - localization
   - dk
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-17T01:02:32.424Z"
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 45469d207dcbaeffc124bb2616126245657b49652b4640d98a62f9c896d18b82
+  input_hash: f6f4420e3c0f18e4095572fc54ee57197b8086a86e1f2acdb39e405f321f70c6
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-dk
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -52,7 +52,7 @@ learn_folder: LocalFunctionality/Denmark
 
 > Denmark (DK) localization of Business Central 29. It covers OIOUBL electronic invoicing and NemHandel, electronic VAT declaration to SKAT, SAF-T and Regnskab Basis export, FIK payment matching, digital vouchers, Proløn payroll import and C5 data migration. Use it for questions about Danish bookkeeping and e-invoicing.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/denmark.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -88,7 +88,6 @@ links:
     - post/demiliani-com/13369
     - post/duiliotacconi-com/2001
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
     - post/waldo-be/318212
   guidelines: []
   changes:
@@ -102,7 +101,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 8
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -136,7 +135,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
 - [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
-- [BC Friday Tips #30 DataAccessIntent](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "reducing load on the primary database and improving overall performance"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
 

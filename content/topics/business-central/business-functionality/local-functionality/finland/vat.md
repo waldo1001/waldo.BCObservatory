@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/finland/vat
 type: topic
 title: VAT
-summary: "Finnish VAT functionality in Business Central: printing Intrastat reports, showing VAT information on sales invoices, and the VAT-VIES declaration. It answers questions on Finnish VAT and EU trade reporting."
+summary: "Finland VAT localization in Business Central: printing Finnish Intrastat reports, printing VAT information on sales invoices, and the VAT-VIES declaration with the EC sales list. It answers questions about Finnish VAT and EU trade reporting."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:25.276Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 09c5548a3ed97714124407c7f375c64aa288fb2605ce426cc8ec16768f9f2e1d
+  input_hash: abc7ee2d482af8300b0f528db115027ad882c2c230b465b731056343aa6b7f1b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports
@@ -75,25 +75,25 @@ narrative: generated
 
 # VAT
 
-> Finnish VAT functionality in Business Central: printing Intrastat reports, showing VAT information on sales invoices, and the VAT-VIES declaration. It answers questions on Finnish VAT and EU trade reporting.
+> Finland VAT localization in Business Central: printing Finnish Intrastat reports, printing VAT information on sales invoices, and the VAT-VIES declaration with the EC sales list. It answers questions about Finnish VAT and EU trade reporting.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > VAT · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers three Finland-specific VAT and tax reporting topics. Each is a single page and there are no subtopics, so you can read them independently.
+This section covers three Finland-specific VAT and EU trade reporting tasks. Each is a standalone page, and there are no subtopics.
 
-One page explains Finnish Intrastat reports, which EU companies use to report trade movements with other EU countries, and the options for filing them. Another covers the VAT-VIES declaration, a tax reporting requirement that includes the EC sales list. The third explains how to print VAT information on sales invoices using VAT posting groups, so tax details appear for each item at line level.
+The Intrastat page explains how to print Finnish Intrastat reports, so goods movements can be reported to the authorities by file submission or manual form entry. The VAT-VIES page covers reporting VAT and EC sales list information to the Finnish tax authorities. The invoice page explains how to print VAT information on sales invoices by using VAT posting groups.
 
-Start with the page that matches your task: invoice layout for VAT on documents, the VAT-VIES page for EC sales reporting, or the Intrastat page for trade movement reporting.
+Start with the page that matches your reporting duty: Intrastat for goods movements within the EU, VAT-VIES for VAT and EC sales list reporting, or the invoice page for VAT text on sales documents.
 
 ## Key points
 
-- Finnish Intrastat reports cover trade movements with other EU countries and can be filed as a file or entered manually on a form.
-- VAT-VIES declaration is a Finnish tax reporting requirement and relates to the EC sales list.
-- VAT information on sales invoices is printed using VAT posting groups.
-- VAT amounts are shown at line level for each item on invoices to support tax compliance.
-- The section has three pages and no subtopics.
+- Finnish Intrastat reports are printed to meet EU trade compliance for goods movements.
+- Intrastat data can be sent to the authorities by file submission or entered manually on a form.
+- The VAT-VIES declaration reports VAT and EC sales list information to Finnish tax authorities.
+- VAT information on Finnish sales invoices is controlled through VAT posting groups.
+- The Print on Invoice setting is discontinued but remains for backward compatibility.
 
 ## Learn pages
 

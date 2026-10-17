@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:47.377Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -360,6 +360,7 @@ links:
     - topic/business-central/business-functionality/sustainability-management/sustainability-value-chain
   localizations: []
   videos:
+    - video/_JkZCp64jNw
     - video/_ynMUzh956w
     - video/2_yYu3RgYwo
     - video/bHXEbtsx0JY
@@ -394,7 +395,7 @@ children:
 coverage:
   learn: 37
   code: 64
-  video: 15
+  video: 16
   blog: 0
   guideline: 0
 bc_forms:
@@ -515,6 +516,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10613 [Master] - Slice 640775: [Sustainability] Reverse Sustainability part when reverse in GL Entries](../../../changes/bcapps/10613.md) (code change): "Reversing a G/L transaction now also reverses the sustainability ledger"
 - [#9478 feat(Sustainability): Add Reverse Transaction for Sustainability Ledger Entries](../../../changes/bcapps/9478.md) (code change): "Users can now reverse posted Sustainability Ledger Entries manually from the page"
 - [#9613 [Master] - Sustainability: Specific Carbon Tracking, Item Charge emissions & setup fixes (Bugs 641051, 641486, 641487, 641049, 641222, 641055, 641289, 641224, 641309)](../../../changes/bcapps/9613.md) (code change): "Sustainability module fixes for carbon tracking with item charges"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sustainability Module Expansion; Copilot Suggest Emissions"
 - [Introducing: Sustainability in Business Central (2024 release wave 1)](../../../videos/_ynMUzh956w.md) (video): "Introducing: Sustainability in Business Central emissions tracking; csrd compliance; esg reporting; greenhouse gas"
 - [What's New: Default Sustainability Information (2025 release wave 1)](../../../videos/2_yYu3RgYwo.md) (video): "Default Sustainability Information; sustainability setup; emissions; carbon equivalent"
 - [What's New: Sustainability Copilot (2025 release wave 2)](../../../videos/bHXEbtsx0JY.md) (video): "Sustainability Copilot emissions calculation; copilot; sustainability journal; emission factors"

@@ -5,13 +5,8 @@
   "source": "tine-staric-net",
   "published_at": "2026-10-16T08:00:00.000Z",
   "words": 581,
-  "summary": "VS Code 1.142 now uses the Copilot harness as the default for agent sessions instead of a VS Code-specific runtime. This aligns the Copilot experience across VS Code, GitHub CLI, the Agents window, and the Copilot app, enabling sessions to run in a separate process and persist across surfaces while requiring users to manually migrate personal configurations like instructions, agents, and MCP servers from their old locations to ~/.copilot.",
-  "key_points": [
-    "The Copilot harness is now VS Code's default, replacing the VS Code-specific Copilot Chat runtime",
-    "Sessions run in Agent Host, a separate process that persists in the background and can be shared between the editor and Agents window",
-    "Personal configurations must be manually migrated to ~/.copilot; prompt files become skills with reduced capabilities and MCP server auto-updates are disabled",
-    "Migration is guided through a review list with options to migrate automatically or with an agent-guided session using credits"
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "development",
     "copilot",

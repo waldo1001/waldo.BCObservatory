@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.316Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,6 +73,8 @@ links:
   posts:
     - post/aardvarklabs-blog/3631
     - post/aardvarklabs-blog/3704
+    - post/demiliani-com/13695
+    - post/thinkaboutit-be/8272
   guidelines: []
   changes:
     - change/bcapps/10010
@@ -87,7 +89,7 @@ coverage:
   learn: 5
   code: 0
   video: 4
-  blog: 2
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: d83985e3f53052e05e48c65c878b806990be809f7b8b581f42a7ef7809a3e59f
@@ -131,8 +133,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "allowing Power Platform and OData clients to discover and download"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Use Power Automate to retrieve SFTP files and post them to Business Central via the API"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "Power Automate listens for the business event, retrieves the file and metadata from the staging table"
+- [Why Customer’s AI project fail? The gap between hype and reality.](../../../../posts/demiliani-com/13695.md) (community post): "Partners need deep distributed systems knowledge Azure Functions, Logic Apps, Service Bus"
+- [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable Power Automate, Copilot Studio agents, and external applications"
 - [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "power automate; power apps; dataverse; virtual tables; business events"
-- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; natural language; automation"
+- [Introducing: Create Power Automate Flows with Copilot (2024 release wave 1)](../../../../videos/T63y0F_38SI.md) (video): "Create Power Automate Flows with Copilot; Power Automate Templates for Business Central"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Power Automate; approval workflows; connector actions; power platform"
 - [What's New: Dataverse & Dynamics 365 App Integration (2023 release wave 2) Part 2](../../../../videos/YTA8c2XyTX4.md) (video): "Business Events via Power Automate; Data Change Events via Power Automate"
 

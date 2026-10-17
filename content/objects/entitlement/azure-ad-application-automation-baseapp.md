@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 95b68d46bdcee7e98989366c54d2160b1d4c2b638bcb45a3e65f132828f81f6c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationAutomationBaseApp.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationAutomationBaseApp.Entitlement.al
     title: src/Layers/W1/BaseApp/Entitlements/AzureADApplicationAutomationBaseApp.Entitlement.al (releases/29.x)
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -81,7 +81,7 @@ relations:
 
 > Entitlement "Azure AD Application Automation BaseApp" in Base Application (System.Security.AccessControl). Present since at least BC23, still in BC30.
 
-Base Application · System.Security.AccessControl · BC23-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationAutomationBaseApp.Entitlement.al) · facts from BC29
+Base Application · System.Security.AccessControl · BC23-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/Entitlements/AzureADApplicationAutomationBaseApp.Entitlement.al) · facts from BC29
 
 ## Across versions
 

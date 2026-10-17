@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.693Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -155,7 +155,7 @@ After setup, the functional areas page describes what each app offers. Back link
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Business Central standard Power BI reports are now distributed through official Power BI template apps"
+- [Quick Tip: How Can You Download the Standard Business Central Power BI Reports?](../../../../posts/thinkaboutit-be/7943.md) (community post): "Standard Power BI reports for Business Central are available through official Microsoft Power BI template apps"
 - [What's New:Drill-Back and Dynamic Dimension Name Support in Power BI Apps for Business Central(2025)](../../../../videos/kJfGIKor3VA.md) (video): "Drill-back from Power BI to Business Central; Dynamic dimension naming in Power BI apps"
 - [What's New: Open Sourcing Power BI Apps for Business Central (2025 release wave 2)](../../../../videos/VEVo5LgCGfw.md) (video): "Open-sourced Power BI apps for Business Central; Wave 1 Power BI apps open sourcing"
 

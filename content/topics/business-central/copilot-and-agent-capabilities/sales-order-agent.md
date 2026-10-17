@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -136,17 +136,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "The Sales Order Agent in 2025 Wave 1 reads customer emails, clarifies missing details"
 - [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Sales Order Agent reaches General Availability with multiple agent support per company"
-- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature"
+- [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature; Sales Order Agent Email Insights"
 - [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; Payables Agent; Custom Agents Framework"
 - [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"
 - [Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)](../../../videos/2ujWYYecA2c.md) (video): "Sales Order Agent; Try It Out Experience; Email Attachment Detection"
 - [What's New: Sales Order Agent Enhancements (2025 release wave 2)](../../../videos/4nFViDASGhg.md) (video): "sales order agent; email processing; attachment analysis; custom instructions"
 - [Getting Started With Agents: Test Drive the Sales Order Agent (2025)](../../../videos/7QJeTXzZaEk.md) (video): "Sales Order Agent; Email Account Integration; Automatic Contact Creation"
-- [Sales Order Agent for Dynamics 365 Business Central (2025)](../../../videos/I7i25zBfyEQ.md) (video): "Sales Order Agent; Agent email mapping to customer accounts; Agent-generated quote creation"
+- [Sales Order Agent for Dynamics 365 Business Central (2025)](../../../videos/I7i25zBfyEQ.md) (video): "Sales Order Agent for Dynamics 365 Business Central"
 - [What's Cooking in Business Central: Custom Email Signatures in the Sales Order Agent](../../../videos/j6gadQyB4gM.md) (video): "Custom Email Signatures in Sales Order Agent; Signature Content Validation"
 - [Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)](../../../videos/kwGEoxN46hk.md) (video): "Run Multiple Sales Order Agents in Parallel configuration"
 - [Less Searching More Selling with Sales Order Agent (2025)](../../../videos/Qmd6_5vYKDg.md) (video): "Sales Order Agent; Natural Language Understanding for Item Recognition"
-- [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "Sales order agent automatic email processing; Sales order agent natural language guidance"
+- [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "Sales order agent automatic email processing; Sales order agent multiple shipping addresses"
 - [Introducing: Sales Order Agent (2025 release wave 1)](../../../videos/XhO4oFmoh1M.md) (video): "Sales Order Agent; ai agents; email automation; quote processing"
 
 ## Business Central pages and reports

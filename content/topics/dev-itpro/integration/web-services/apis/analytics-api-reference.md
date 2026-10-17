@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: d272712ca75d17312bc6daa1729bd9954523073daf2c6d24ca70f8e427f88f7a
@@ -509,8 +509,7 @@ links:
   topics:
     - topic/dev-itpro/integration/web-services/apis
   localizations: []
-  videos:
-    - video/4HE3BBCcV84
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -524,7 +523,7 @@ children: []
 coverage:
   learn: 205
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -745,11 +744,5 @@ Path: [Integration](../../../integration.md) > [Web services](../../web-services
 - [workCenterGroup resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_workcentergroup): Represents a workCenterGroup entity in Dynamics 365 Business Central analytics API.
 - [workingDay resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_workingday): Represents a workingDay entity in Dynamics 365 Business Central analytics API.
 - [zone resource type](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-analytics/resources/dynamics_zone): Represents a zone entity in Dynamics 365 Business Central analytics API.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [MCP Server and API Queries (2026 release wave 1)](../../../../../videos/4HE3BBCcV84.md) (video): "Analytics API reference documentation; MCP server configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

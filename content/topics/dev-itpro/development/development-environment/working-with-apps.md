@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/working-with-apps
 type: topic
 title: Working with apps
-summary: "Working with apps covers how to configure and package Business Central extensions in AL: app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps. It answers setup and manifest questions for extension developers."
+summary: "Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:53.954Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d7b051a31bf217e846cc14d1e771d6571e5ebacba5e0e374edf965cccd04ae18
+  input_hash: 1f1337b7147c35e1c454d6ab47186009542abca5da75c5082bf0f7dbe7784d38
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-resources
@@ -88,26 +88,25 @@ narrative: generated
 
 # Working with apps
 
-> Working with apps covers how to configure and package Business Central extensions in AL: app identity in app.json, runtime version choice, bundled resources, data added at install, and library and dependency apps. It answers setup and manifest questions for extension developers.
+> Working with apps covers how to build and manage AL extensions in Business Central: app identity in app.json, runtime version choice, packaged resources, data shipped with extensions, and library and dependency apps. It answers setup and configuration questions about app.json and extension packaging.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Working with apps · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is about the app-level settings and contents of a Business Central extension, mostly driven by the app.json manifest. It covers who the app is (ID, name, publisher, version, scope), which runtime version it targets, and what it carries with it (resources and data).
+This section collects practical topics for developers handling the structure and metadata of an AL app. Most of them center on the app.json manifest: the app ID, version, name, publisher and scope, the runtime version, and the resource folders.
 
-Start with App identity and Choose runtime version in AL, since they define the manifest basics. Then use Adding and Accessing Resources and Adding data for Extensions when the app needs to ship files or install-time data. The FAQ on library and dependency apps explains shared code across Marketplace apps and how dependencies get installed.
+Start with "Understand App Identity for AL Apps" to learn when and how identity settings may change. Then read "Choose runtime version in AL" to target a runtime. Two pages cover content packaged with an extension: "Adding and Accessing Resources" explains resource folders and access, and "Adding data for Extensions" explains data imported on installation. The FAQ on library and dependency apps covers shared code across Marketplace apps and how dependencies are installed.
 
 ## Key points
 
-- App identity describes the app.json fields for app ID (GUID), version, name, publisher and scope (Global/Tenant), and when it is acceptable to change them.
+- App identity is managed in app.json: app ID, version numbering, name, publisher and scope, with guidance on when each can change.
 - The runtime version is set in app.json (for example "runtime": "18.0"); an extension can be published to servers with an equal or later runtime version.
-- Resources are packaged with resourceFolders and publicResourceFolders in app.json; private resources are used locally, public ones can be read by other extensions.
-- Resource limits are 16 MB per file, 128 MB per folder and 256 files; resources require runtime version 18.0.
-- Extensions can include permission sets, web services, table data and custom report layouts to be imported during installation.
-- The NavApp.LoadPackageData procedure is part of loading packaged table data.
+- Resources are packaged with resourceFolders and publicResourceFolders in app.json (runtime version 18.0); public resources can be read by other extensions.
+- Resource limits are 16 MB per file, 128 MB per folder and 256 files.
+- Extensions can ship permission sets, web services, table data and custom report layouts, imported on installation with NavApp.LoadPackageData.
 - Library apps hold shared code for multiple Marketplace apps and are installed automatically as dependencies.
-- The FAQ also touches on version control and technical validation of library apps.
+- The library app FAQ covers version control, library app validation and technical validation.
 
 ## Learn pages
 

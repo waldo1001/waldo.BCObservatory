@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.450Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/setup-best-practices-for-complex-applica/setup-best-practices-supply-planning
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/13215
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -87,7 +88,7 @@ coverage:
   learn: 6
   code: 2
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -128,6 +129,12 @@ The supply planning subtopic covers reordering policies, item-level planning par
 
 - [Set Up Complex Application Areas Using Best Practices](https://learn.microsoft.com/dynamics365/business-central/set-up-complex-application-areas-using-best-practices): Entering the correct setup values from the start is important to the success of any new business software.
 - [Setup best practices - Costing method](https://learn.microsoft.com/dynamics365/business-central/setup-best-practices-costing-method): The Costing Method on the item card defines item's cost flow is recorded and whether an actual or budgeted value is capitalized and used in the cost calculation.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../../posts/demiliani-com/13215.md) (community post): "upgrade-safe layering in Business Central means extensions survive updates without rework"
 
 ## Business Central pages and reports
 

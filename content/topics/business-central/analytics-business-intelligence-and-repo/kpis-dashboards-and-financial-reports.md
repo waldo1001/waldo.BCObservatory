@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:03.895Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -216,6 +216,7 @@ links:
   localizations: []
   videos:
     - video/9g1vwaXmy2s
+    - video/fy96_jdL1PQ
   posts: []
   guidelines: []
 learn_toc_path:
@@ -229,7 +230,7 @@ children:
 coverage:
   learn: 14
   code: 87
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -364,6 +365,7 @@ Start with the KPI page if you are deciding what to measure. Use the financial r
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's Cooking in Business Central: Financial Report Scheduling](../../../videos/9g1vwaXmy2s.md) (video): "financial report scheduling; recurring schedules; export to excel"
+- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../videos/fy96_jdL1PQ.md) (video): "dashboards; scorecards; PowerBI Scorecards; Scorecards with conditional formatting"
 
 ## Business Central pages and reports
 

@@ -6,11 +6,11 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Increased table synchronization limit from 500 to 1000 tables in Fabric platform management to accommodate larger environments.",
+  "summary": "The maximum number of tables in the Microsoft Fabric Mirroring app goes up from 500 to 1000. This affects Fabric Platform Mgt, Fabric Config Package Mgt and the Fabric Platform Tables page, and tests were updated to match.",
   "key_points": [
-    "Table limit increased across Fabric Platform Management, Config Package Management, and Tables page",
-    "Test expectations updated to reflect new 1000 table threshold",
-    "Simplified limit constant references in configuration logic"
+    "Table limit raised from 500 to 1000",
+    "Changes in Fabric Platform Mgt, Fabric Config Package Mgt and the Fabric Platform Tables page",
+    "Test expectations updated for the new limit"
   ],
   "change_kind": "feature",
   "behavior_change": true,

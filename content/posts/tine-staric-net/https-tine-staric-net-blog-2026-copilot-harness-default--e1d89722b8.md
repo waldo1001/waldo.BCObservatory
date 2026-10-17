@@ -2,7 +2,7 @@
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
 type: post
 title: The Copilot harness is now VS Code's default
-summary: VS Code 1.142 now uses the Copilot harness as the default for agent sessions instead of a VS Code-specific runtime. This aligns the Copilot experience across VS Code, GitHub CLI, the Agents window, and the Copilot app, enabling sessions to run in a separate process and persist across surfaces while requiring users to manually migrate personal configurations like instructions, agents, and MCP servers from their old locations to ~/.copilot.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -14,16 +14,16 @@ tags:
   - mcp servers
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-17T01:11:53.331Z"
   flags: []
 generated:
-  at: "2026-10-17T00:21:16.127Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 03f1ceee08bbce9f42c6dc5593d000cb4d40f8f8abc5a5d3c919eafafef2cc8b
+  input_hash: 278200242bd2fa598bdd3a62086a596df6a8d40a06435fd33e86814bf860aafb
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/copilot-harness-default/
@@ -69,27 +69,20 @@ versions_mentioned:
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://tine.staric.net/images/copilotharness/main.png
   image_alt: null
   image_w: null
   image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-10-07T11:50:56.953Z"
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-17T01:09:09.536Z"
 ---
 
 # The Copilot harness is now VS Code's default
 
-[Read the post](https://tine.staric.net/blog/2026/copilot-harness-default/) · Tech Adventures in Business Central (Tine Staric) · 2026-10-16 · 581 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://tine.staric.net/blog/2026/copilot-harness-default/) · Tech Adventures in Business Central (Tine Staric) · 2026-10-16 · 581 words · tier community · **flagged** (a review found a problem)
 
-> VS Code 1.142 now uses the Copilot harness as the default for agent sessions instead of a VS Code-specific runtime. This aligns the Copilot experience across VS Code, GitHub CLI, the Agents window, and the Copilot app, enabling sessions to run in a separate process and persist across surfaces while requiring users to manually migrate personal configurations like instructions, agents, and MCP servers from their old locations to ~/.copilot.
-
-## Key points
-
-- The Copilot harness is now VS Code's default, replacing the VS Code-specific Copilot Chat runtime
-- Sessions run in Agent Host, a separate process that persists in the background and can be shared between the editor and Agents window
-- Personal configurations must be manually migrated to ~/.copilot; prompt files become skills with reduced capabilities and MCP server auto-updates are disabled
-- Migration is guided through a review list with options to migrate automatically or with an agent-guided session using credits
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

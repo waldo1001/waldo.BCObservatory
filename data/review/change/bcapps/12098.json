@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12098",
+  "input_hash": "489cfc0de1a5b43cbadbd83d69501dcedc56d98525ea85d532a2918fb768c019",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:12:18.483Z",
+  "issues": [
+    "The description is empty, so the claim that destination fields are now 'populated' is a guess. The title only says that Copy to Req. Wksh for production fails because destination fields are missing.",
+    "The changes to the Planning Create Prod. Order enum and the Manufacturing User Template table are not mentioned.",
+    "The key point 'Addresses BC29 manufacturing planning workflow' is filler."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "changes_in_call": 6
+  }
+}

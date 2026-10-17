@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12418",
+  "input_hash": "1fe0534f679dcaad95afc35bb315f601daeb6886037e4c05f57355c3fba17466",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:12:12.701Z",
+  "issues": [
+    "The description does not say the method was internal before, only that it is now public."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016925,
+    "changes_in_call": 6
+  }
+}

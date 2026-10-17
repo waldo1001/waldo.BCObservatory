@@ -7,13 +7,12 @@
     "inventory",
     "manufacturing"
   ],
-  "summary": "Production order creation from planning worksheet now correctly populates required destination fields, preventing copy failures between planning worksheets and requisition worksheets.",
+  "summary": "Fixes a failure when carrying out planning worksheet action messages for production with the Copy to Req. Wksh option, which failed because destination fields were missing. The Carry Out Action Msg. - Plan. report, the Planning Create Prod. Order enum and the Manufacturing User Template table were changed.",
   "key_points": [
-    "Fixes missing destination field population during production order copy operation",
-    "Affects Carry Out Action Message - Plan report behavior",
-    "Includes test coverage expansion for order planning scenarios",
-    "Adds helper methods to planning test library",
-    "Addresses BC29 manufacturing planning workflow"
+    "Fixes the production Copy to Req. Wksh option failing because of missing destination fields",
+    "Changes the Carry Out Action Msg. - Plan. report",
+    "Small changes to the Planning Create Prod. Order enum and the Manufacturing User Template table",
+    "Adds planning test library helpers and expands the order planning and requisition worksheet tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

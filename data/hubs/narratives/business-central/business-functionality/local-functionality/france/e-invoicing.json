@@ -1,36 +1,25 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/france/e-invoicing",
-  "input_hash": "94d6cb0e0de5c63a55d123f3f57daa4e21e95a41c27f36068e8cf2d93e436bd4",
-  "summary": "E-invoicing for France in Business Central: how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and how to use the E-Reporting FR e-document format. It answers setup and compliance questions about French e-invoicing reform, PDP delivery and tax authority reporting.",
-  "overview": "This section covers the French e-invoicing localization in Business Central. It has two pages and no subtopics. Both rely on the e-document framework: you configure an e-document service and a workflow, and documents are exported automatically.\n\nThe first page explains how to enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X to meet the French e-invoicing reform. It covers setup of company information, customers, vendors, e-document services and workflows for automatic export and delivery to a PDP.\n\nThe second page covers the E-Reporting FR e-document format. It generates structured XML for transactions that must be reported to the tax authority, and describes setup for PDPs such as Pagero and Avalara. Start with the invoicing page, then move to e-reporting if you have transactions that need reporting.",
+  "input_hash": "5969bb5e91f97d5c927c3a246196289296d18348bb0408c79e152aadf1382dd0",
+  "summary": "E-invoicing for France in Business Central covers electronic invoicing with UBL 2.1 and Factur-X, and E-Reporting for transactions outside mandatory B2B e-invoicing. It answers questions about formats, incoming invoice import, and submitting transactions to the tax authority via partner platforms.",
+  "overview": "This section covers the French local functionality for meeting the electronic invoicing reform. It has two pages, both based on the E-Reporting FR extension and the e-document framework.\n\nThe first page explains how to enable electronic invoicing with UBL 2.1 and Factur-X for B2B transactions, including PEPPOL BIS 3.0 support, import of incoming invoices, and French business rule validation. The second page explains the E-Reporting FR e-document format, used for transactions outside the mandatory B2B e-invoicing scope, such as B2C, cross-border, exports and intra-community sales.\n\nStart with the UBL 2.1 and Factur-X page if you need to send or receive B2B invoices. Move to the E-Reporting page if you must report other transactions to the tax authority through a partner-dissemination platform such as Pagero or Avalara.",
   "key_points": [
-    "Supported invoice formats: UBL 2.1 (PEPPOL BIS 3.0) and Factur-X (PDF/A-3).",
-    "Setup covers company information, customers, vendors, e-document services and workflows.",
-    "French identifiers such as SIRET and SIREN are supported, along with electronic address configuration.",
-    "Invoices can be exported automatically through a workflow and delivered to a PDP.",
-    "The E-Reporting FR format generates structured XML for transactions requiring tax authority reporting.",
-    "E-reporting setup is described for PDPs such as Pagero and Avalara.",
-    "E-reporting features include transaction categorization, batch submissions and tracking of tax authority acceptance."
+    "Electronic invoicing for France is enabled through the E-Reporting FR extension.",
+    "Supported outgoing formats include UBL 2.1 and Factur-X PDF/A-3 hybrid invoices, plus PEPPOL BIS 3.0.",
+    "Incoming Factur-X and PEPPOL BIS 3.0 invoices can be imported.",
+    "French business rules are validated for e-invoices.",
+    "E-Reporting FR e-document format covers B2C, cross-border, exports and intra-community transactions.",
+    "E-reporting data is submitted via partner-dissemination platforms such as Pagero or Avalara.",
+    "E-reporting generates an XML payload and tracks Service Status and E-Reporting Acceptance Date.",
+    "Both batch and individual submission workflows are supported, with an E-Reporting Transaction Type."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:03:21.788Z",
+  "at": "2026-10-17T01:12:41.707Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.010353
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:21:56.018Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview says both pages result in documents being 'exported automatically'; the sources state automatic export only for the invoicing page. The e-reporting page mentions an e-document service workflow and batch submissions, so this is a slight generalization.",
-      "The e-reporting page also lists 'PDP connectors' as a feature. The narrative covers this only indirectly, through setup for Pagero and Avalara."
-    ],
-    "input_hash": "94d6cb0e0de5c63a55d123f3f57daa4e21e95a41c27f36068e8cf2d93e436bd4",
-    "cost_usd": 0.0336632
+    "cost_usd": 0.011014999999999999
   }
 }

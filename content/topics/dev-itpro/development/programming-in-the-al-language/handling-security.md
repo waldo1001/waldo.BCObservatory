@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/handling-security
 type: topic
 title: Handling security
-summary: "Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions."
+summary: "Security topics for AL developers building Business Central apps: security best practices, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting secrets and credentials in extensions."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:04.639Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 7cbd7d65e022ca1ffdcce8c79e260f915fecd3d37d099aaaabbcee41b2e41d39
+  input_hash: 9d0c44a7c80afd1b957c284250469e52269896ef98915e228a576318a74f7e8a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/api/dynamics_permissionset_get
@@ -223,28 +223,27 @@ narrative: generated
 
 # Handling security
 
-> Security handling in AL development for Business Central: security best practices, permission sets and entitlements, Azure Key Vault for app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting credentials and secrets in extensions.
+> Security topics for AL developers building Business Central apps: security best practices, permission sets and entitlements, Azure Key Vault app secrets, Isolated Storage, and the SecretText data type. It answers questions on authentication, authorization, and protecting secrets and credentials in extensions.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Handling security · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how AL developers secure Business Central apps. It starts with a general guidance page on security best practices: a security development lifecycle, a layered security model, user session and web service authentication, auditing, encryption, entitlements, and permission sets.
+This section covers how AL developers secure Business Central apps. It starts with a general guide to security for AL developers, which describes a layered security model and covers authentication, authorization, auditing, encryption and secrets management. That page is the best place to start.
 
-Two subtopics go deeper. The permission sets and entitlements subtopic (14 pages) covers defining and extending permission set and entitlement objects, object permissions, inherent permissions, XML export, upgrading from legacy permissions, and permission telemetry. The Azure Key Vault subtopic (5 pages) covers setting up app key vaults for online and on-premises deployments, retrieving secrets in AL, and monitoring secret access with telemetry.
+Two subtopics go deeper. The permission sets and entitlements pages explain how to define, compose, extend and export permission and entitlement objects, set object and inherent permissions, upgrade from legacy permissions and analyze permission telemetry. The Azure Key Vault pages explain how to set up app key vaults online and on-premises, read secrets from AL, and monitor retrieval with telemetry.
 
-Two own pages cover storing and handling sensitive values in code: Isolated Storage keeps keys and values private to an extension, and the SecretText data type stops credentials from being exposed during debugging. Start with the security overview, then go to the subtopic or page that matches your task.
+Two further pages cover handling sensitive values in code. Isolated Storage keeps keys and values private to an extension. The SecretText data type stops credentials from being exposed during debugging.
 
 ## Key points
 
-- The overview page covers authentication, authorization, auditing, encryption, and secrets management for AL developers.
-- Permission sets and entitlements are defined as AL objects; permission sets can be composed and extended, and permissions can be exported to XML.
-- Guidance includes setting object permissions, inherent permissions, and upgrading from legacy permissions.
-- Permission telemetry can be analyzed to understand permission use.
-- App key vaults can be set up for both online and on-premises deployments, and secrets are retrieved in AL code.
-- Secret access from Key Vault can be monitored with telemetry.
-- Isolated Storage offers extension-isolated storage with Set, Get, Contains, Delete, and SetEncrypted methods and a DataScope option type.
-- SecretText prevents credential exposure during debugging by restricting assignments to debuggable types, and supports secure operations through HttpClient and SecretStrSubstNo; related features include the Unwrap method and the NonDebuggable attribute.
+- The security guide describes a layered model and covers user session and web service authentication, entitlements and permission sets.
+- Permission sets and entitlements are defined as AL objects. They can be composed and extended, and they can be exported to XML.
+- Inherent permissions and object permissions can be set, and legacy permissions can be upgraded.
+- Permission telemetry can be analyzed.
+- Azure Key Vault holds extension secrets, with setup for online and on-premises, reading secrets from AL, and telemetry on retrieval.
+- Isolated Storage offers Set, Get, Contains, Delete and SetEncrypted methods, used with the DataScope option type, to keep data private to an extension.
+- The SecretText data type limits assignments to debuggable types and works with HttpClient and SecretStrSubstNo. The Unwrap method and the NonDebuggable attribute are also part of this protection.
 
 ## Subtopics
 

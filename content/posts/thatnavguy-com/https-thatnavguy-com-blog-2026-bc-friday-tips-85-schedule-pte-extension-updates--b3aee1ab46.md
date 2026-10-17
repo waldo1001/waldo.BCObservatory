@@ -13,16 +13,16 @@ tags:
   - automation
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-17T01:11:53.331Z"
   flags: []
 generated:
-  at: "2026-10-17T00:21:11.199Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: d252d90baf87562997396021ba8a5912218370fbff09253e24be057e663445e4
+  input_hash: 6d6f341a2af9c5facd039cca837517e67377eb452eddc25c740d1d6d8d2fcebd
 evidence:
   - kind: blog
     url: https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/
@@ -66,18 +66,18 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://thatnavguy.com/_astro/Operation.fkkc7cC__ZGogPC.webp
   image_alt: null
   image_w: null
   image_h: null
   site_name: null
-  favicon: null
-  probed_at: "2026-10-16T01:14:09.508Z"
+  favicon: https://thatnavguy.com/favicon.svg
+  probed_at: "2026-10-17T01:09:09.538Z"
 ---
 
 # BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre
 
-[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-16 · 107 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/) · That NAV Guy (Teddy Herryanto, MVP) · 2026-10-16 · 107 words · tier community · reviewed (checked by Opus)
 
 > You can schedule PTE extension updates from the Business Central Admin Centre during a configured update window instead of deploying manually outside business hours. This feature lets you plan deployments ahead and have Business Central apply them automatically at the scheduled time.
 

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany/general
 type: topic
 title: General
-summary: "German local functionality in Business Central: year-end currency exchange rate adjustment with BilMoG valuation, EU sales list submission to the BZSt portal, company registration numbers on reports, and the G/L Setup Information report. Answers how-to and compliance questions for German setups."
+summary: "German local functionality in Business Central: currency exchange rate adjustment under BilMoG, EU Sales List submission to BZSt via ELMA5, registration numbers on sales and purchase reports, and the G/L Setup Information report. It answers setup and compliance questions for German companies."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:25:23.799Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: d4d7d9fdbcfdf6cbfab799464d85605a04d047865e71dc84cf7fa8aa1dd718f3
+  input_hash: dc7132f24919ba0863a8b9a7affbc38fbd35fabab7250e3d9f58a8af402da6d6
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/currency-exchange-rates
@@ -81,24 +81,26 @@ narrative: generated
 
 # General
 
-> German local functionality in Business Central: year-end currency exchange rate adjustment with BilMoG valuation, EU sales list submission to the BZSt portal, company registration numbers on reports, and the G/L Setup Information report. Answers how-to and compliance questions for German setups.
+> German local functionality in Business Central: currency exchange rate adjustment under BilMoG, EU Sales List submission to BZSt via ELMA5, registration numbers on sales and purchase reports, and the G/L Setup Information report. It answers setup and compliance questions for German companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > General · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > General · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects four pages on general features specific to the German version of Business Central. They cover legal and reporting needs: valuing payables and receivables at fiscal year-end, reporting EU sales for VAT, showing registration numbers on documents, and printing setup data for review.
+This section collects the general German-specific pages. They cover year-end valuation of foreign currency payables and receivables, statutory reporting to the German tax authority, printing registration numbers on documents, and a report for checking accounting setup.
 
-The pages are independent, so start with the one that matches your task. For year-end closing, read the currency exchange rates page. For VAT reporting, read the EU sales list page. For document content, use the registration numbers page. For auditing setup data, use the G/L setup information page.
+Start with the page that matches your task. Use the currency exchange rates page for fiscal year-end adjustments under the BilMoG method. Use the EU Sales List page when you submit to BZSt. Use the registration numbers page to configure what prints on reports. Use the G/L Setup Information report to check configuration before daily business use.
 
 ## Key points
 
-- Currency exchange rates are adjusted at fiscal year-end with the Adjust Exchange Rates batch job, using the BilMoG valuation method to meet German legal requirements for payables and receivables.
-- The valuation options include standard valuation and lowest value valuation, with settings such as Valuation Reference Date and Short term liabilities until.
-- EU sales lists are submitted through the BZSt Online Portal using the ELMA5 interface.
-- Submission requires authentication with the BZSt number and private key; VAT-VIES reports can be uploaded interactively or transferred automatically.
-- Registration numbers on sales reports come from Company Information; on purchase reports they come from the Vendor record.
-- The G/L Setup Information report prints master data for posting groups, VAT setup, source codes and number series so you can verify them, and relates to GDPdU compliance.
+- Currency exchange rate adjustment uses the BilMoG valuation method for payables and receivables at fiscal year-end.
+- BilMoG treats short-term entries (under one year) differently from long-term entries, with lowest value and standard valuation and a valuation reference date.
+- The EU Sales List in Germany is submitted to BZSt through the ELMA5 interface.
+- BZSt submission requires authentication with a BZSt number and private key.
+- The EU Sales List supports large datasets and both interactive and automatic data transfer.
+- Set the company registration number on the Tax Office FastTab in Company Information.
+- Set vendor registration numbers on the Invoicing FastTab on the Vendors page so they print on purchase reports.
+- The G/L Setup Information report shows G/L setup, posting groups, posting matrix, VAT setup, source and reason codes, and number series.
 
 ## Learn pages
 

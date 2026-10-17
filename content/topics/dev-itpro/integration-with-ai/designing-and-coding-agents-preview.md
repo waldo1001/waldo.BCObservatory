@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -211,19 +211,10 @@ links:
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
   posts:
-    - post/aardvarklabs-blog/1818
-    - post/aardvarklabs-blog/2724
-    - post/aardvarklabs-blog/2965
     - post/aardvarklabs-blog/3348
-    - post/bertverbeek-nl/1196
+    - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1290
-    - post/demiliani-com/13695
-    - post/demiliani-com/14011
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-05-weekly-review-business-central-al-development-may-17-23-2026--ded9223776
-    - post/freddysblog/https-freddysblog-com-2026-08-17-which-tasks-should-you-delegate-to-ai-agents--f78dfaac86
-    - post/gerardorenteria-blog/11616
-    - post/gerardorenteria-blog/13993
     - post/katson-com/4530
     - post/kauffmann-nl/8436
     - post/vondervoort-be/84
@@ -246,7 +237,7 @@ coverage:
   learn: 23
   code: 0
   video: 7
-  blog: 16
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -305,24 +296,15 @@ For developers, "Integrate with the Tasks AL API" shows how to detect agent sess
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10386 [Agent Archiving] Prevent archived custom agents from being modified](../../../changes/bcapps/10386.md) (code change): "Prevent archived custom agents from being modified. Archived custom agents"
-- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../changes/bcapps/10431.md) (code change): "Fix broken reference links to archived agents and their tasks"
+- [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../changes/bcapps/10431.md) (code change): "Links to an archived agent now open the Agent Card"
 - [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed"
 - [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
-- [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
-- [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../posts/aardvarklabs-blog/2724.md) (community post): "demonstrates setting up an MCP server for the sales quote process configuring it in Copilot Studio"
-- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "building AI-powered marketing campaigns in Business Central using two coordinated AI agents"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles, page customizations"
-- [Data agent inside Fabric ask question on your Business Central Data](../../../posts/bertverbeek-nl/1196.md) (community post): "Data Agents in Microsoft Fabric enable users to ask natural language questions"
+- [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
-- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central – part 6 – The conclusion. This post compares agents built directly in Business Central"
-- [Why Customer’s AI project fail? The gap between hype and reality.](../../../posts/demiliani-com/13695.md) (community post): "Successful AI agents need orchestration layers handling multiple integrations"
-- [Visual Studio Code Agent hook for auditing your AL coding sessions.](../../../posts/demiliani-com/14011.md) (community post): "VS Code Agent Hooks (in preview) as deterministic shell commands that run at agent lifecycle events"
-- [Weekly Review: Business Central AL Development – May 17–23, 2026](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-05-weekly-review-business-central-al-development-may-17-23-2026--ded9223776.md) (community post): "Near-autonomous AL development pipelines can handle 12 stages with 3 human checkpoints"
-- [Which Tasks Should You Delegate to AI Agents?](../../../posts/freddysblog/https-freddysblog-com-2026-08-17-which-tasks-should-you-delegate-to-ai-agents--f78dfaac86.md) (community post): "Which Tasks Should You Delegate to AI Agents"
-- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "deeper generative AI through Copilot and autonomous agents"
-- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "Agent Skills are reusable instruction packages in VS Code that orchestrate external tools"
+- [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
 - [Meet Custom Agents in Business Central](../../../posts/katson-com/4530.md) (community post): "Meet Custom Agents in Business Central"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
 - [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"

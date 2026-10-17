@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.119Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,7 +104,7 @@ Start with the application card to understand the scope and the role of human re
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Shopify Copilot Tax Matching Agent adds a headless matching engine"
-- [#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)](../../../changes/bcapps/10409.md) (code change): "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review experience"
+- [#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)](../../../changes/bcapps/10409.md) (code change): "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review"
 - [#11722 [Shopify] Rename tax matching and add configurable processing limit](../../../changes/bcapps/11722.md) (code change): "Shopify Tax Matching now read Shopify Tax Matching, and AL object"
 - [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "The Shopify Tax Matching Agent now runs only for US and Canadian orders"
 - [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"

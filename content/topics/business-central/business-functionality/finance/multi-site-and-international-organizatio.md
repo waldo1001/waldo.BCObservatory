@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
 type: topic
 title: Multi-site and international organizations
-summary: "Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies."
+summary: "Multi-site and international organizations in Business Central: how a hub-and-spoke company structure is supported through financial consolidation and intercompany transactions. It answers questions about combining subsidiary ledger data and handling transactions between legal entities."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:01.507Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2831afd09e4ff6f196e2eb3fcdc131c035c48fb65910eef327ea0463a7be576d
+  input_hash: 0f4d617cfd60c601c8162f7a986737a9bd0523994c72f529bc1ad6beb5d23c17
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/intercompany-allocate-costs
@@ -202,28 +202,28 @@ narrative: generated
 
 # Multi-site and international organizations
 
-> Business Central support for multi-site and international organizations: the hub-and-spoke model, financial consolidation across companies, and intercompany transactions. It answers questions about combining ledger data from subsidiaries and about setting up and posting transactions between partner companies.
+> Multi-site and international organizations in Business Central: how a hub-and-spoke company structure is supported through financial consolidation and intercompany transactions. It answers questions about combining subsidiary ledger data and handling transactions between legal entities.
 
-Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Finance](../finance.md) > Multi-site and international organizations · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area covers how Business Central supports organizations that run several sites, subsidiaries or business units. The main page describes the hub-and-spoke business model and lists the capabilities involved: financial consolidation, intercompany transactions, multi-currency, multi-language, a company hub and data exchange.
+This section describes how Business Central supports organizations that operate from several sites, legal entities, or countries. The landing page presents the hub-and-spoke business model and lists the related capabilities: financial consolidation, intercompany transactions, multi-currency, multi-language, a company hub, data exchange, and analytics.
 
-Two subtopics go into detail. The consolidation pages explain how to combine general ledger data from several companies into a consolidated company, in a simple or an advanced setup. The intercompany pages explain how to set up partners, a shared chart of accounts and dimensions, and how to post and process intercompany documents and journals.
+Two subtopics cover the finance detail. The consolidation pages explain how to combine general ledger data from subsidiaries or business units into a consolidated company, including cases with different charts of accounts, currencies, fiscal years, or environments, and how to set it up in simple or advanced mode. The intercompany pages explain how to set up partners, post documents and journals between companies, work with the intercompany inbox and outbox, and allocate purchase costs.
 
-Start with the overview page to see which capability fits your structure. Then use the consolidation pages for reporting across companies, and the intercompany pages for day-to-day transactions between entities.
+Start with the landing page for the overall model. Then use the consolidation pages for reporting across companies, or the intercompany pages for day-to-day transactions between legal entities.
 
 ## Key points
 
-- The overview page frames the hub-and-spoke model and lists consolidation, intercompany, multi-currency, multi-language, company hub and data exchange.
-- Company consolidation combines general ledger data from subsidiaries or business units into a consolidated company.
-- Consolidation supports different charts of accounts, currencies, fiscal years and environments.
-- Consolidation can be set up simply or in advanced mode.
-- Intercompany setup covers partners, a shared chart of accounts and dimensions.
-- Intercompany transactions are posted through documents and journals and handled via the inbox and outbox.
-- Purchase costs can be allocated to partner companies.
-- Intercompany has 5 pages and consolidation has 2.
+- Supports a hub-and-spoke model for multi-site and international organizations.
+- Listed capabilities: financial consolidation, intercompany transactions, multi-currency, multi-language, company hub, data exchange.
+- Consolidation combines general ledger data from subsidiaries or business units into a consolidated company.
+- Consolidation supports different charts of accounts, currencies, fiscal years, and environments.
+- Consolidation can be set up in a simple or an advanced mode.
+- Intercompany setup covers partners for companies with multiple legal entities.
+- Documents and journals can be posted between companies, and handled through the intercompany inbox and outbox.
+- Purchase costs can be allocated across companies as part of intercompany processing.
 
 ## Subtopics
 

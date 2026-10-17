@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 043f1ba07c8637954b6365f60c5f15cebe64a8c8860780d7ac65d32854933c4f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/Entitlements/OutlookRestAPI.entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/Entitlements/OutlookRestAPI.entitlement.al
     title: src/Apps/W1/Email - Outlook REST API/app/src/Entitlements/OutlookRestAPI.entitlement.al (releases/29.x)
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Outlook REST API" in Email - Outlook REST API (System.Email). Introduced in BC29, still in BC30.
 
-Email - Outlook REST API · System.Email · BC29-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/Entitlements/OutlookRestAPI.entitlement.al) · facts from BC29
+Email - Outlook REST API · System.Email · BC29-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/W1/Email%20-%20Outlook%20REST%20API/app/src/Entitlements/OutlookRestAPI.entitlement.al) · facts from BC29
 
 ## Across versions
 

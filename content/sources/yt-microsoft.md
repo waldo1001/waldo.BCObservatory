@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T00:19:25.651Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 6f775077f929a5a7f3f430cd8df22fd82bdee00960c29af4b01d5168b70a3ce9
@@ -87,6 +87,7 @@ links:
     - feature/573378
     - feature/573379
     - feature/573384
+    - feature/576832
   topics: []
   localizations: []
   videos:
@@ -784,6 +785,7 @@ Items per quarter, oldest first:
 - [Design document reports with the updated Word add-in](../features/573328.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Design header/footer layouts for document reports with the updated Word add-in](../features/573331.md): Reporting and data analysis, generally available, GA 2026-10, 1 video
 - [Discover objects in connected Business Central environments](../features/573339.md): Development, generally available, GA 2026-10, 1 video
+- [Enable electronic invoicing in France](../features/576832.md): Country and regional, generally available, GA 2026-08, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Exchange EDI documents](../features/573305.md): E-Documents, in preview, GA 2027-04, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video

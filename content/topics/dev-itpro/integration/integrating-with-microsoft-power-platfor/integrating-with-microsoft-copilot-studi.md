@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
 type: topic
 title: Integrating with Microsoft Copilot Studio
-summary: "Integration of Business Central with Microsoft Copilot Studio: how to configure the Business Central MCP Server and how to build Copilot Studio agents that use the Business Central connector or the MCP server. Answers questions on exposing APIs and data queries to agents and on connecting agents to Business Central."
+summary: Integrating Business Central with Microsoft Copilot Studio covers configuring the Business Central MCP Server and building Copilot Studio agents that connect to Business Central. It answers questions about which APIs and operations agents can use, and how to connect via the connector or MCP server.
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:23:43.491Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 3a66d2fc181760b2e570f4ad8eafd0f0997a32526d57106635b85b812dc65ac2
+  input_hash: 5b90222bffc7d5ed27543e91f66136f1bb6b22df1700ffe964810a84bca6048c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server
@@ -47,9 +47,9 @@ links:
   videos:
     - video/6Zb7VAvLVm4
     - video/S5Xw-b8YF-c
-    - video/uMKLsKfKPc0
     - video/V_ZyGeF5JXE
   posts:
+    - post/aardvarklabs-blog/1818
     - post/bertverbeek-nl/1290
   guidelines: []
 learn_toc_path:
@@ -62,8 +62,8 @@ children: []
 coverage:
   learn: 2
   code: 3
-  video: 4
-  blog: 1
+  video: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 8350
@@ -75,28 +75,27 @@ narrative: generated
 
 # Integrating with Microsoft Copilot Studio
 
-> Integration of Business Central with Microsoft Copilot Studio: how to configure the Business Central MCP Server and how to build Copilot Studio agents that use the Business Central connector or the MCP server. Answers questions on exposing APIs and data queries to agents and on connecting agents to Business Central.
+> Integrating Business Central with Microsoft Copilot Studio covers configuring the Business Central MCP Server and building Copilot Studio agents that connect to Business Central. It answers questions about which APIs and operations agents can use, and how to connect via the connector or MCP server.
 
-Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Copilot Studio · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Integration](../../integration.md) > [Integrating with Microsoft Power Platform](../integrating-with-microsoft-power-platfor.md) > Integrating with Microsoft Copilot Studio · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers two sides of connecting AI agents to Business Central. One side is the Business Central MCP Server, which lets AI clients connect to an environment and perform record operations, actions, and data queries through configurable API tools. The other side is Copilot Studio, where you create agents that use either the Business Central connector or the MCP server to read and write records, call APIs, and automate business tasks.
+This section describes how AI agents built in Copilot Studio work with Business Central data. It has two pages: one for administrators who set up the Business Central MCP Server, and one for makers who build the agents.
 
-The two pages fit together as server setup and agent setup. The MCP server page explains what you control: the available APIs, dynamic tool mode, data query tools, and which operations are allowed. The Copilot Studio page explains how an agent consumes that, through connector actions or an MCP server connection, with suitable Business Central permissions.
+The MCP Server page explains how administrators create configurations that define which APIs an agent can access and which operations are allowed (read, create, modify, delete, and actions) through API pages and queries. It also covers API Tools, Dynamic Tool Mode, Data Query Tools, and API object discovery.
 
-Start with the MCP server configuration page to decide what agents may access and change. Then use the Copilot Studio page to create the agent and attach the connector or MCP server as agent tools.
+The agent page explains how to create a Copilot Studio agent that connects through either the Business Central connector or the MCP server, and how to configure tools with the right Business Central permissions. Start with the MCP Server configuration if you plan to use MCP, then move to agent creation.
 
 ## Key points
 
-- The Business Central MCP Server lets AI clients connect to environments and run record operations, actions, and data queries.
-- MCP server configuration covers settings, available APIs, dynamic tool mode, and data query tools.
-- Access is controlled per API object with Read, Create, Modify, Delete, and Action permissions.
-- API object discovery is part of the configuration, and the configuration can be exported and imported.
-- Copilot Studio agents can connect through the Business Central connector or through the MCP server.
-- Agent tools can find, create, update, and delete records and call API actions.
-- Dynamic tool discovery is available when an agent uses the MCP server.
-- Connector actions or MCP connections need appropriate Business Central permissions.
+- The Business Central MCP Server lets AI agents read, create, modify, delete, and run actions on Business Central data through API pages and queries.
+- Administrators create MCP configurations that define which APIs agents can access and which operations are permitted.
+- MCP server features include API Tools, Dynamic Tool Mode, Data Query Tools, and API object discovery, including read-only object discovery.
+- Copilot Studio agents can connect using the Business Central connector or the MCP server.
+- Connector actions support finding, creating, updating, and deleting records, and calling API actions.
+- Agent tools must be configured with appropriate Business Central permissions.
+- Dynamic tool discovery is available for agents using the MCP server.
 
 ## Learn pages
 
@@ -107,10 +106,10 @@ Start with the MCP server configuration page to decide what agents may access an
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Copilot Studio provides chat options, many Power Platform connectors, model selection"
+- [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
+- [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Agents created in Copilot Studio, covering deployment, licensing"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "Custom Agents with Copilot Studio Integration"
-- [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "MCP server connection for Business Central; Power Automate connectors in Copilot Studio"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Copilot Studio Integration; Copilot in Power Automate"
 
 ## Business Central pages and reports

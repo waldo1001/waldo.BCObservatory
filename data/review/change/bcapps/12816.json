@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12816",
+  "input_hash": "94a6b086d335ff6c524045ca9fc1de1c9016de0b593238ebbc7517d1b3bea573",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:18.483Z",
+  "issues": [
+    "The description supports the summary and key points. It shows the SetCurrentKey/Ascending code only as an example ('e.g.'), but it clearly states the goal of iterating in ascending source line order."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "changes_in_call": 6
+  }
+}

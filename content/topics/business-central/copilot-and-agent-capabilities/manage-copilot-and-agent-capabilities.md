@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,6 +76,7 @@ links:
   posts:
     - post/demiliani-com/13563
     - post/demiliani-com/15935
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
   guidelines: []
 learn_toc_path:
@@ -88,7 +89,7 @@ coverage:
   learn: 5
   code: 3
   video: 4
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms:
   - 7771
@@ -136,6 +137,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../posts/demiliani-com/13563.md) (community post): "Users can monitor credit consumption directly in Business Central through the Agent page"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
+- [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "administrators might have to switch it on from the Copilot & Agent Capabilities page"
 - [BC Friday Tips #45 Hide Agents Icon](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0.md) (community post): "hide this icon by deactivating Agents in Copilot & agent capabilities"
 - [Getting Started With Agents: Billing Agents in Business Central - Configure "Pay as You Go" (2025)](../../../videos/9esVS6I4wrY.md) (video): "Pay-as-you-go billing for agents; Agent consumption monitoring"
 - [Introducing: AI Consumption Billing for Business Central (2025 release wave 1)](../../../videos/BrMKx3wqYac.md) (video): "ai consumption billing; sales order agent; copilot studio messages"

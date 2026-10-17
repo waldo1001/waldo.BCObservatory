@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/finland/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the Finnish version of Business Central covers automatic account codes, automatic account posting group setup, and posting of depreciation differences to the general ledger. It answers questions about Finland-specific finance posting setup and depreciation required by Finnish tax law.
+summary: "Finnish core finance localization in Business Central: automatic account codes, automatic account posting groups, and posting of depreciation differences. It answers questions about setting up posting groups and meeting the Finnish tax requirement for depreciation differences."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:27.653Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 82f93f5de17ff0568239b3090ee4a2c49e7d6c8d6506237565440003ed73b9b1
+  input_hash: e1718ffb8370ce73496e3ab611941e1d3ac7f727e64cc8ea3e3922757ed7d717
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes
@@ -79,27 +79,26 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the Finnish version of Business Central covers automatic account codes, automatic account posting group setup, and posting of depreciation differences to the general ledger. It answers questions about Finland-specific finance posting setup and depreciation required by Finnish tax law.
+> Finnish core finance localization in Business Central: automatic account codes, automatic account posting groups, and posting of depreciation differences. It answers questions about setting up posting groups and meeting the Finnish tax requirement for depreciation differences.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Finland](../finland.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section holds three pages on Finland-specific finance functionality. Two deal with automatic account codes: one describes the feature and the other explains how to set up automatic account posting groups. The third covers posting depreciation differences.
+This section covers three Finland-specific finance topics in Business Central. Two relate to posting groups: one page describes automatic account codes in the Finnish version, and another explains how to set up automatic account posting groups so accounts post to the general ledger automatically.
 
-The automatic account code pages work together. The concept page points to the setup procedure and to posting group documentation, and the setup page points back to the concept. Start with the automatic account codes page to understand the purpose, then follow it to the setup page to configure the posting groups.
+The third page covers posting depreciation differences. Finnish tax rules require calculating and posting accumulated depreciation differences between straight-line and declining balance methods, and the page describes how this is handled.
 
-The depreciation page is separate. It describes calculating and posting to the general ledger the difference between straight-line and declining balance depreciation, as Finnish tax law requires.
+To start, read the automatic account codes page for the concept, then follow the setup page for automatic account posting groups. Use the depreciation differences page when working with fixed asset depreciation for tax purposes.
 
 ## Key points
 
-- Automatic account codes in the Finnish version enable automatic posting group setup for finance operations.
-- Automatic account posting groups are set up to configure automatic account code posting.
-- The automatic account codes page and the setup page link to each other and to posting group documentation.
-- Posting depreciation differences calculates the difference between straight-line and declining balance depreciation.
-- The depreciation difference is posted to the general ledger.
-- The depreciation difference posting is required by Finnish tax law.
-- The section has no subtopics, only three pages.
+- Automatic account codes in the Finnish version enable automatic posting group setup.
+- A setup page explains how to configure automatic account posting groups for automatic posting to the general ledger.
+- Depreciation difference posting addresses a Finnish tax requirement.
+- The difference is calculated between straight-line and declining balance depreciation.
+- Accumulated depreciation differences are posted as part of this process.
+- The section has three pages and no subtopics.
 
 ## Learn pages
 

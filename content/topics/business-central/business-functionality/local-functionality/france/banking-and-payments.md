@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/banking-and-payments
 type: topic
 title: Banking & payments
-summary: "Banking and payments in the French localization of Business Central: payment management with payment classes, statuses, steps and addresses, plus creating, posting, archiving and exporting payment slips. It answers setup and how-to questions for customer and vendor payments, including SEPA."
+summary: "Banking and payments in the French localization of Business Central: payment management with payment slips, payment classes, statuses, steps and addresses. It answers how to set up, create, export, post and archive payment slips, and how to move setup between companies."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:12.080Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 2f22fc606d6261bf76a502ba5bcfb6b03c9f704ef6039cb07b0da8be84b1f475
+  input_hash: 9e9d0e6be614acb0d0f6ee7a3e7bdcfd591e3dbdc35ee1ba1734914d2eb645c0
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-archive-payment-slips
@@ -133,28 +133,26 @@ narrative: generated
 
 # Banking & payments
 
-> Banking and payments in the French localization of Business Central: payment management with payment classes, statuses, steps and addresses, plus creating, posting, archiving and exporting payment slips. It answers setup and how-to questions for customer and vendor payments, including SEPA.
+> Banking and payments in the French localization of Business Central: payment management with payment slips, payment classes, statuses, steps and addresses. It answers how to set up, create, export, post and archive payment slips, and how to move setup between companies.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Banking & payments · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers payment management in the French version of Business Central. Payment slips handle customer and vendor payments. They are built on configurable payment classes, which carry payment statuses and steps, and on payment addresses that can differ from default addresses.
+This section covers the French Payment Management module, which handles customer and vendor payments through payment slips. A payment slip follows a payment class, which defines the operation type (for example bills of exchange, electronic payments or checks) together with its statuses and workflow steps.
 
-The pages follow the payment lifecycle. Setup pages cover payment classes and payment addresses. Working pages cover creating payment slips, posting them, archiving processed ones, and exporting payments electronically. A separate page explains how to move payment management setup parameters from one company to another.
-
-Start with the Payment Management overview for the concepts. Then set up payment classes and payment addresses before creating payment slips. Use the export, post and archive pages as you need them.
+Start with the Payment Management [FR] overview page, then set up payment classes and payment addresses. After setup, the pages follow the life of a slip: create it (including vendor payment suggestions and SEPA details), export it as a payment file for the bank, post it, and archive it. A separate page explains how to export or import the setup parameters so that companies with similar needs can reuse them.
 
 ## Key points
 
-- Payment classes define operation types such as bills of exchange and checks, with associated statuses and steps; they also support SEPA transfers.
-- Payment classes include options such as Unrealized VAT Reversal and header/line number series.
-- Payment addresses let vendors and customers have payment addresses different from their default address, set through the Payment Addresses action.
-- Creating payment slips uses a Payment Class, the Suggest Vendor Payments function, RIB bank details, and file generation for SEPA payment files.
-- Posting a payment slip requires editing it with Action Type set to Ledger, then using the Post action.
-- Exporting payments is configured per payment step through Action Type and Export Type, using either a report or an XMLport.
-- Processed payment slips can be archived manually one at a time or in batch with the Archive Payment Slips job.
-- Export Parameters and Import Parameter actions copy payment management setup between companies with similar requirements.
+- Payment classes define operation types such as bills of exchange, electronic payments and checks, with their statuses and steps.
+- Payment classes include settings for unrealized VAT reversal, SEPA transfer types and ledger information.
+- Payment addresses for vendors and customers can differ from the default address and are used during settlement.
+- Payment slips for vendors and customers are created with currency, dates, account details and SEPA information, then turned into payment files for the bank.
+- Electronic export works through a text file or an XMLport, depending on how the payment step is configured with a report or XMLport.
+- Posting a payment slip creates the related financial data when the payment step action type is set to Ledger.
+- Payment slips can be archived manually one by one or in batch on the Archive Payment Slips page, subject to status checks and the Archiving Authorized setting.
+- Setup parameters can be exported to external disk and imported into other companies using Export Parameters and Import Parameters.
 
 ## Learn pages
 

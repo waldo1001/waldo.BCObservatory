@@ -1,29 +1,29 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 28906,
+  "pages": 28949,
   "shards": [
     {
-      "file": "pages-hubs-52fd3e429352.json",
-      "count": 905,
-      "sha256": "52fd3e4293524df77c42d6282980ae3064405499a2386f20ce2d905d4c057d31",
+      "file": "pages-hubs-655d623b7970.json",
+      "count": 922,
+      "sha256": "655d623b79706d924b9cdbd355bb4bd8fbed7ba34f19f5d96b8138e999af08c7",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-f573f00bf69c.json",
-      "count": 2355,
-      "sha256": "f573f00bf69c2547a4ef953b07d3abe682c54b4a9f44dc645a3ed56881087b18",
+      "file": "pages-media-4a0126ce4e24.json",
+      "count": 2378,
+      "sha256": "4a0126ce4e244121fa8c18cea9c5e2c328f325317fcf5275378c39c3b487def9",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-6808e654fe40.json",
+      "file": "pages-objects-1-83d850db856c.json",
       "count": 14417,
-      "sha256": "6808e654fe403433d598f011479c3193814df64ce3ecd8ee0f3d1e5321d5e716",
+      "sha256": "83d850db856c19acd1062985238ff5f49a88febc06fc64c7ca96cd2d7be04598",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-bc0ed10841b4.json",
-      "count": 11229,
-      "sha256": "bc0ed10841b4e41e7e480901aed158ca3be8a2de04c037cd02eca099bb073c74",
+      "file": "pages-objects-2-54c0e7b525ba.json",
+      "count": 11232,
+      "sha256": "54c0e7b525bac66d37c4095fc4579b0667e1b1f400687bb0dbbf98ed35d87fbc",
       "kind": "objects"
     }
   ],
@@ -34,12 +34,12 @@
   },
   "by_type": {
     "app": 96,
-    "change": 1123,
+    "change": 1143,
     "digest": 5,
-    "feature": 80,
+    "feature": 97,
     "localization": 22,
-    "object": 25646,
-    "post": 613,
+    "object": 25649,
+    "post": 616,
     "release": 63,
     "source": 33,
     "topic": 606,

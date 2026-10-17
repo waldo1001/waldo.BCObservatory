@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-17T01:08:11.166Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 447eee8a4c7626b95aeb68f716f7a8d8e6929505e3ba5e952b8c109652e5c23b
+  input_hash: dcb35ad8e8dee7181130fd5f927f36415babb330d21c9351447109d5436595d0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Subcontracting/app
@@ -222,6 +222,7 @@ links:
     - feature/573345
     - feature/573353
     - feature/573355
+    - feature/576872
   topics: []
   localizations: []
   videos: []
@@ -505,5 +506,6 @@ Possibly related: these roadmap features have "Subcontracting" in their title. A
 - [Carry subcontracting instructions into purchase orders](../features/573345.md) (ga, GA 2026-10)
 - [Set up and explore subcontracting more easily](../features/573353.md) (ga, GA 2026-10)
 - [Use inventory put-aways and picks for subcontracting](../features/573355.md) (ga, GA 2026-10)
+- [Use subcontracting capabilities in production processes](../features/576872.md) (ga, GA 2026-07)
 
 Source: [src/Apps/W1/Subcontracting/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Subcontracting/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

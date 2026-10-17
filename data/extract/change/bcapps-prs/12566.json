@@ -6,13 +6,13 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Updated tooltip text in Fabric setup pages to use current Microsoft Entra terminology instead of outdated Azure AD references.",
+  "summary": "Tooltips on the Fabric Platform Setup page and the Fabric Platform Setup Wizard page now use Microsoft Entra terminology. The Fabric Platform Credential Mgt codeunit also received a small related change.",
   "key_points": [
-    "Tooltips in Fabric Platform Setup and Setup Wizard pages updated for consistency",
-    "Credential management codeunit tooltip refreshed with current terminology",
-    "Improves user guidance alignment with current Azure authentication naming conventions"
+    "Tooltips on the Fabric Platform Setup and Setup Wizard pages reworded to use Microsoft Entra terminology",
+    "Small related edit in the Fabric Platform Credential Mgt codeunit",
+    "Text-only change with no functional impact described"
   ],
-  "change_kind": "fix",
+  "change_kind": "other",
   "behavior_change": false,
   "breaking": false,
   "obsoletions": [],

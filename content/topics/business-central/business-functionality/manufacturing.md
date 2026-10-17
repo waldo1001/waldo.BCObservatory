@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -439,6 +439,7 @@ links:
     - video/vnaySMIKnp8
     - video/xqFpiqmXjk0
   posts:
+    - post/gerardorenteria-blog/11616
     - post/olofsimren-com/3545
   guidelines: []
   changes:
@@ -468,7 +469,7 @@ coverage:
   learn: 65
   code: 110
   video: 10
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 50
@@ -648,6 +649,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9670 [Main] - Posting from Released production order affects Firm planned production order with same ID.](../../../changes/bcapps/9670.md) (code change): "Posting from Released production order affects Firm planned production order"
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Manufacturing gains focus on quality management and outsourcing"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
 - [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "Production bill of material and routing on stock keeping unit; Standard cost per stock keeping unit"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; production order; assembly; replenishment; components; bom versions"

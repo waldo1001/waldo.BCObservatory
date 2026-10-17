@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -339,6 +339,7 @@ links:
   localizations: []
   videos:
     - video/eUkx_VCcyoU
+    - video/hS8yWS3bxWE
     - video/M1S2_bgLd3Q
   posts:
     - post/aardvarklabs-blog/3704
@@ -374,7 +375,7 @@ children:
 coverage:
   learn: 54
   code: 12
-  video: 2
+  video: 3
   blog: 4
   guideline: 0
 bc_forms:
@@ -465,6 +466,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"
 - [Quick Tip: BC28: What Is New in Document Reporting](../../../../posts/thinkaboutit-be/7813.md) (community post): "BC28 introduces enhanced document reporting features including an improved Word add-in"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "reports; strings; json; yaml; testing; Report Tooltips; Excel Layout"
+- [What's New: Telemetry (2025 release wave 1)](../../../../videos/hS8yWS3bxWE.md) (video): "Financial Reporting Definition Changes Telemetry; Client Add-ins Exception Telemetry"
 - [What's New: Server and Database (2025 release wave 2)](../../../../videos/M1S2_bgLd3Q.md) (video): "Server and Database analysis mode semantic search advanced tell me document reporting"
 
 ## Business Central pages and reports

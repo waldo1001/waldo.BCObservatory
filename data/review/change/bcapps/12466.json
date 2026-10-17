@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12466",
+  "input_hash": "a8d848b50274e1d6c8485d6ed7f5b54ed5fc093a9b21e700bdacd4e061a94342",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:12.701Z",
+  "issues": [
+    "Summary and key points match the description: three actions are hidden on preview rows, the check combines temporary records with the preview document number, and the number is defined in one place."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016925,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:53.718Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,6 +61,7 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office
   localizations: []
   videos:
+    - video/1ft4o9lQzsU
     - video/6zj34hjbpGU
   posts: []
   guidelines: []
@@ -74,7 +75,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -120,6 +121,7 @@ Start with the viewing and editing page if you are a user. Administrators should
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "OneDrive integration for Excel reports; Office 365 collaboration for Excel reports"
 - [How Business Central Integrates with Microsoft Excel (2025)](../../../../videos/6zj34hjbpGU.md) (video): "Export data to Excel; Open or Edit in Excel option; Pivot table creation"
 
 ## Business Central pages and reports

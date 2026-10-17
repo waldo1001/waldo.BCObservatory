@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:44:21.395Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-17T01:10:17.590Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,6 +163,7 @@ features:
     status_source: roadmap
     roadmap_ids:
       - "573326"
+      - "573327"
   - name: Custom theme and header-footer layouts
     status: ga
     t: 297
@@ -172,15 +173,20 @@ features:
       - "573326"
       - "573327"
   - name: Managed theme and header-footer layouts page
-    status: unclear
+    status: ga
     t: 313
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573326"
+      - "573327"
   - name: Shipped themes
-    status: unclear
+    status: ga
     t: 415
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573327"
   - name: Feature management for composite layouts
     status: unclear
     t: 575
@@ -264,10 +270,10 @@ It shows defaults set at global, company, report and specific layout level, and 
 | Body layout | status not stated, demoed | [1:01](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=61s) |
 | Theme application | generally available (roadmap [Brand document reports with report themes](../features/573327.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
 | Header-footer layout application | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md)), demoed | [1:27](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=87s) |
-| Layered layout defaults | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |
+| Layered layout defaults | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md), [Brand document reports with report themes](../features/573327.md)), demoed | [4:03](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=243s) |
 | Custom theme and header-footer layouts | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md), [Brand document reports with report themes](../features/573327.md)) | [4:57](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=297s) |
-| Managed theme and header-footer layouts page | status not stated | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |
-| Shipped themes | status not stated, demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) |
+| Managed theme and header-footer layouts page | generally available (roadmap [Reuse header/footer layouts across document reports](../features/573326.md), [Brand document reports with report themes](../features/573327.md)) | [5:13](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=313s) |
+| Shipped themes | generally available (roadmap [Brand document reports with report themes](../features/573327.md)), demoed | [6:55](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=415s) |
 | Feature management for composite layouts | status not stated, demoed | [9:35](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=575s) |
 | Layout status control | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)), demoed | [10:47](https://www.youtube.com/watch?v=-vdhfNMNZQk&t=647s) |
 

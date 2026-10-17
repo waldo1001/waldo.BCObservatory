@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/configure-projects-and-workspaces
 type: topic
 title: Configure projects and workspaces
-summary: Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.
+summary: Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution, publishing, and recovery from publishing failures.
 tier: official
 language: en
 system: projects
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:23:02.232Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f5aeb8f9dbbafbb4d9d32e73e81e87ba7da57f88190b3bdb5231c0d55024187e
+  input_hash: 50e441bf58f07860189c4e41122099b9f4ab55f31c75f91269d66b77f49ac62e
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-multiroot-workspaces
@@ -64,27 +64,28 @@ narrative: generated
 
 # Configure projects and workspaces
 
-> Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.
+> Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution, publishing, and recovery from publishing failures.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Configure projects and workspaces · tier official · system projects · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to organize more than one AL project in a single Visual Studio Code workspace. One page explains multi-root workspaces: how to create a code-workspace file, group AL project folders, and set folder-level options such as the package cache path and code analysis.
+This section explains how to organize more than one AL project in a single Visual Studio Code workspace. One page covers multi-root workspaces: grouping several AL project folders into a code-workspace file and setting options such as the package cache path and code analysis for each folder.
 
-The second page covers multi-project setups where projects depend on each other. It describes project references, automatic symbol resolution, coordinated publishing of dependencies, incremental build, project loading and dependency graph traversal.
+The second page covers project references. When a referenced project exists locally in the workspace, you declare the dependency in app.json and symbols resolve automatically without downloading them. The page also describes how projects load in the workspace, how dependencies are published, and how to recover when publishing fails.
 
-Start with the multi-root workspace page to set up the workspace and per-folder settings. Then read the project references page if your extensions depend on one another.
+Start with the multi-root workspace page to set up the workspace and folder-level settings. Then read the project references page to wire the projects together and understand publishing behavior.
 
 ## Key points
 
-- Multi-root workspaces in Visual Studio Code group several AL project folders into one workspace using a code-workspace file.
-- Settings can be set per folder, including al.packageCachePath and al.enableCodeAnalysis.
+- Multi-root workspaces in Visual Studio Code group several AL project folders into one workspace.
+- A code-workspace file is created to define the workspace.
+- al.packageCachePath and al.enableCodeAnalysis can be set per folder.
 - The multi-root page mentions the AL0720 inherent permissions diagnostic and runtime version 18.0.
-- Project references let interdependent AL projects resolve symbols automatically.
-- Dependencies are published in a coordinated way, following the dependency graph.
-- Incremental build and project loading apply to multi-project workspaces.
-- The project references page cites version 21.1 and version 25.
+- Project references are defined in app.json and apply where the referenced projects exist locally.
+- With project references, symbols resolve automatically without downloads.
+- The project references page covers project loading, dependency publishing, RAD publishing, and incremental build.
+- The project references page mentions versions 25 and 21.1 and explains recovery from publishing failures.
 
 ## Learn pages
 

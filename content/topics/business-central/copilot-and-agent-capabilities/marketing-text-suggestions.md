@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:47.235Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,7 +107,7 @@ The section has three pages and no subtopics. Start with the overview page to se
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Drive Sales with AI-Generated Product Descriptions in Business Central (2024 release wave 1)](../../../videos/ayXdXFyFEjY.md) (video): "product descriptions; copilot; ai-generated content; image analysis"
-- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "marketing text suggestions; copilot; ai-powered features"
+- [What's New: Marketing Text Suggestions (2023 release wave 2)](../../../videos/KpQS7c6YGRo.md) (video): "Marketing Text Suggestions; Fact Box UI for Marketing Text; Prompt Customization"
 
 ## Business Central pages and reports
 

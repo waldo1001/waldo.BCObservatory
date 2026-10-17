@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -502,6 +502,7 @@ links:
     - change/bcapps/11562
     - change/bcapps/11667
     - change/bcapps/12145
+    - change/bcapps/12554
     - change/bcapps/8914
     - change/bcapps/9118
     - change/bcapps/9222
@@ -760,6 +761,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % field now consistently accepts the same number of decimal places"
 - [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment"
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
+- [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "Document attachment uploads now work correctly for posted sales shipments and return receipts"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"
 - [#9222 [Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.](../../../changes/bcapps/9222.md) (code change): "prepayment invoices with invoice discounts applied were not correctly including tax"

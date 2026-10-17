@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/set-up-business-central/set-up-manufacturing
 type: topic
 title: Set up manufacturing
-summary: "Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution."
+summary: "Setting up manufacturing in Business Central covers the master data and settings needed before production planning and execution: work centers, routings, production BOMs, shop calendars, flushing, lot sizes, subcontracting and production families. It answers how-to and configuration questions about each of these."
 tier: official
 language: en
 system: manufacturing
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:21.756Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5e53096b5707ddd3ff25b43ac84c745c1a1e3595c34e0e5ca473cb23cd51851b
+  input_hash: ef00693f1bccbf94e7bbc54e68ab4e4142c1ea588f53fa1b431bf9a73d94c689
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/production-configure-production-processes
@@ -301,28 +301,28 @@ narrative: generated
 
 # Set up manufacturing
 
-> Setting up manufacturing in Business Central: manufacturing setup parameters, work centers and machine centers, shop calendars, routings, production BOMs, flushing methods, lot sizes, batch units of measure, production families, and subcontracting. It answers how-to-configure questions before production planning and execution.
+> Setting up manufacturing in Business Central covers the master data and settings needed before production planning and execution: work centers, routings, production BOMs, shop calendars, flushing, lot sizes, subcontracting and production families. It answers how-to and configuration questions about each of these.
 
-Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Set up Business Central](../set-up-business-central.md) > Set up manufacturing · tier official · system manufacturing · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the master data and settings needed before production orders can be planned and run. It starts with the general manufacturing setup page, then moves to the resources (work centers, machine centers, shop calendars and work shifts) and the definitions of what is produced (production BOMs, routings, standard tasks).
+This section is a set of setup pages with no subtopics. It starts with the general manufacturing setup page and the resources that production relies on: work centers and machine centers, shop calendars, and standard tasks. On top of these you build routings, which define operations and capacity use, and production BOMs, which define components and quantities.
 
-Further pages cover how production behaves: component flushing methods, lot size handling on routing lines and items, manufacturing batch units of measure, and production families that produce several items together from a shared process.
+Further pages cover how production behaves once these are in place: component flushing methods, lot size handling, batch units of measure, and production families. A separate group covers subcontracting: locations and transfer routes, work center and vendor setup, and subcontractor prices.
 
-A separate group of pages covers subcontracting: assigning work centers to vendors, setting subcontracting locations and transfer routes, and storing subcontractor prices. A practical order is to begin with "Configure manufacturing processes", then set up calendars and work centers, then BOMs and routings, and add the specialized topics as needed.
+Start with "Configure manufacturing processes" for the overall sequence. Then set up work centers, machine centers and shop calendars before routings and BOMs. Use the subcontracting pages only if operations are performed by vendors.
 
 ## Key points
 
 - The manufacturing setup page holds parameters such as normal work hours, preset output quantity, consumption calculation, capacity unit of measure and cost calculation.
-- Shop calendars are built from work shifts, working days and holidays, and the work center and machine center calendars are then calculated from them.
 - Production BOMs support status and certification, versioning, scrap percentages, routing link codes, phantom BOMs and calculation formulas.
-- Routings define operations with setup and run time, and support serial and parallel operations and send-ahead quantity.
-- Flushing methods include manual, forward and back flushing by operation or entire order, and Pick + Forward, which control when consumption is posted.
-- Lot sizes on routing lines and items affect cost allocation, run time calculation and supply planning.
-- Subcontracting needs vendor locations, transfer routes (transfer-from, transfer-to, in-transit, direct transfer) and subcontractor prices by vendor, work center or standard task with minimum quantity and amount.
-- Batch units of measure let you produce in a different unit than the stocked unit, and production families group items for one family production order.
+- Routings can be serial or parallel and use routing links, send-ahead quantity, scrap factor and fixed scrap quantity.
+- Flushing methods include manual, forward, back and Pick + Forward, applied by operation or to the entire order.
+- Shop calendars are built from work shifts, working days and holidays, then calculated for work centers and machine centers.
+- Work centers and machine centers carry direct unit cost, indirect cost and overhead rate, and can be grouped and set as capacity-constrained resources.
+- Subcontracting needs a location code on the vendor card, transfer routes (including in-transit and direct transfer), and subcontractor prices by vendor, work center or standard task with quantity breaks and date ranges.
+- Lot sizes on routing lines and items affect cost, run time and supply planning; batch units of measure let you produce in a different unit than you stock; production families group items made together.
 
 ## Learn pages
 

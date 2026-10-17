@@ -1,0 +1,24 @@
+{
+  "item_id": "blog/aardvarklabs-blog/4119",
+  "input_hash": "a4d278aa4685a9c591ada8414b53d929fe41da52318bf26d88b34f813a913fd5",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:11:53.331Z",
+  "issues": [
+    "System 'reporting' is not supported; the post only names a telemetry presentation and never mentions reporting.",
+    "Quote 3 is a general line about community and tells agents nothing useful about Business Central.",
+    "The post is mostly about a company retreat and the MVP community; Business Central appears only as the topic of the telemetry talk. The summary and key points are otherwise accurate."
+  ],
+  "applied": [
+    "dropped 1 quote(s)",
+    "dropped 1 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.024909,
+    "posts_in_call": 3
+  }
+}

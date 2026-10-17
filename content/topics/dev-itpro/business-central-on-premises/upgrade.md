@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,6 +317,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/17480
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699
@@ -331,6 +332,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12307
+    - change/bcapps/12939
 learn_toc_path:
   - Business Central on-premises
   - Upgrade
@@ -348,7 +350,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 19010
@@ -402,6 +404,8 @@ Start with the supported upgrade paths page to see whether your source version c
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12307 Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)](../../../changes/bcapps/12307.md) (code change): "UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations"
+- [#12939 Bug 654493: [29.x] ICM 51000002285173: Fix direct transfer upgrade](../../../changes/bcapps/12939.md) (code change): "Direct transfer order migration during upgrade now handles missing inventory setup gracefully"
+- [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): ".NET 8 and .NET 9 reach end of support on November 10, 2026"
 - [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (community post): "cumulative update links for Business Central on-premises: 28.2, 27.8 and 26.14"
 - [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (community post): "July 2026 cumulative updates are available for Dynamics 365 Business Central"
 - [August 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699.md) (community post): "August 2026 cumulative updates are available for Dynamics 365 Business Central"

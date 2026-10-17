@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:07:01.688Z"
+  at: "2026-10-17T01:08:11.166Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 942eb49afd0c25a1e9e4a3722b4d1070bb231720215d318c2882c45463d4c0bb
+  input_hash: 2b06ecf2473f65671cc5decf3a1e46a291d6d83369c40a010657340c15d5ae78
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Sustainability/app
@@ -232,6 +232,7 @@ links:
     - object/page/6298
   features:
     - feature/573376
+    - feature/576874
   topics:
     - topic/business-central/business-functionality/sustainability-management
     - topic/business-central/business-functionality/sustainability-management/sustainability-analytics
@@ -851,5 +852,6 @@ Videos and posts that name this app's objects by exact type and name.
 Possibly related: these roadmap features have "Sustainability" in their title. A name match, the only one on this page; check the feature.
 
 - [Reverse Sustainability Ledger entries transaction](../features/573376.md) (ga, GA 2026-10)
+- [Use new APIs in Sustainability for better integration](../features/576874.md) (ga, GA 2026-06)
 
 Source: [src/Apps/W1/Sustainability/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Sustainability/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 883c1fca959d14165478a653c1a94bda49fc321780e8f78513e8f008ea3d73ea
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Layers/W1/BaseApp/RoleCenters/TeamMember.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/RoleCenters/TeamMember.Profile.al
     title: src/Layers/W1/BaseApp/RoleCenters/TeamMember.Profile.al (releases/29.x)
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "TEAM MEMBER" in Base Application (Microsoft.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.RoleCenters · captioned "Team Member" · BC23-30 · [source at ff470ecd](https://github.com/microsoft/BCApps/blob/ff470ecd2cee1e213c62c942f114f6c8238563c8/src/Layers/W1/BaseApp/RoleCenters/TeamMember.Profile.al) · facts from BC29
+Base Application · Microsoft.RoleCenters · captioned "Team Member" · BC23-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/RoleCenters/TeamMember.Profile.al) · facts from BC29
 
 ## Properties
 

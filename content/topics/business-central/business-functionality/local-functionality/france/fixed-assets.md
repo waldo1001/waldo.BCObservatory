@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/fixed-assets
 type: topic
 title: Fixed assets
-summary: French fixed assets in Business Central, focused on accelerated depreciation. It covers how the tax and accounting depreciation books differ, how to set them up, and how to run the Calculate Depreciation batch job. It answers setup and calculation questions for the French localization.
+summary: French fixed assets functionality in Business Central, focused on accelerated depreciation. It answers questions about setting up accounting and tax depreciation books, derogatory posting, and running the Calculate Depreciation batch job for French tax requirements.
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:27:31.109Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 23ee714dfd06b2c73d235514020041dd4246c954c7875e621ce40e97c924c0e0
+  input_hash: 9c7a5bf0457fcf7ceaa96febca6c9fa1d3dad04a2a1f8ef1528c433c7c5e6a8a
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
@@ -79,28 +79,28 @@ narrative: generated
 
 # Fixed assets
 
-> French fixed assets in Business Central, focused on accelerated depreciation. It covers how the tax and accounting depreciation books differ, how to set them up, and how to run the Calculate Depreciation batch job. It answers setup and calculation questions for the French localization.
+> French fixed assets functionality in Business Central, focused on accelerated depreciation. It answers questions about setting up accounting and tax depreciation books, derogatory posting, and running the Calculate Depreciation batch job for French tax requirements.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Fixed assets · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers one topic for the French localization: accelerated depreciation of fixed assets. It applies to companies that meet specific size criteria. The feature calculates the differences between tax depreciation and accounting depreciation, and it uses derogatory posting types to record those differences.
+This section covers accelerated depreciation in the French version. Companies that meet specific criteria can post extra tax amounts required by French tax authorities. The feature calculates the differences between a tax depreciation book and an accounting depreciation book for each fixed asset.
 
-The three pages follow a natural order. The concept page explains the method and why separate accounting and tax depreciation books are needed. The setup page describes how to configure the depreciation books, including integration settings and the derogatory calculation. The how-to page describes running the Calculate Depreciation batch job and where the resulting entries go.
+The three pages follow a natural order. One page explains the concept: the accelerated depreciation method, the derogatory fixed asset posting type and the derogatory account setup. A second page, "Set Up Accelerated Depreciation", covers configuration of the depreciation books and posting groups. A third page, "How to Calculate Accelerated Depreciation", describes running the calculation.
 
-Start with the Accelerated Depreciation page for the concepts. Then follow the setup page before you calculate anything, because the batch job needs both books to exist on the fixed asset.
+Start with the overview page to understand the derogatory approach. Then complete the setup before you run the Calculate Depreciation batch job.
 
 ## Key points
 
-- Accelerated depreciation in the French localization calculates differences between tax and accounting depreciation books.
-- It applies to companies meeting specific size criteria.
-- Derogatory posting types are used to record the differences.
-- Setup requires separate accounting and tax depreciation books with specific integration settings.
-- The Derogatory Calculation field on the depreciation books is part of the setup.
-- The Calculate Depreciation batch job is used, with options such as force number of days, posting date and balancing account.
-- Entries go to the general journal or the fixed asset journal depending on the book type.
-- The fixed asset must have both an accounting and a tax depreciation book.
+- Accelerated depreciation computes differences between tax and accounting depreciation books for a fixed asset.
+- It lets companies meeting specific criteria post extra tax amounts required by French tax authorities.
+- Setup uses the Derogatory field and the Integration FastTab on the depreciation books.
+- The FA posting group and derogatory account setup must be configured, along with Derogatory Calculation.
+- Both an accounting depreciation book and a tax depreciation book must be linked to the fixed asset.
+- Calculation is done with the Calculate Depreciation batch job.
+- Batch job options mentioned include Force No. of Days and Use Same FA + G/L Posting Dates.
+- Balancing accounts are part of the calculation and posting.
 
 ## Learn pages
 

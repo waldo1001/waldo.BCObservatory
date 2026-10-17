@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the France localization of Business Central covers general ledger tasks and the fiscal year-end cycle. It answers questions on applying and unapplying G/L entries, posting periods, opening, closing and reopening periods and years, closing income statement accounts, and French ledger reports.
+summary: Core finance for the French version of Business Central covers fiscal years and periods, year-end closing, fiscal closure, posting periods, and general ledger tasks such as applying entries, reports, and reconciliations. It answers how-to questions about closing and reopening periods under French rules.
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:18:13.053Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9e153544f71f78fb845bd50c0b133b832813618aa5d2e4f949832ccb2a900825
+  input_hash: 4e4eb7eb96f680b066ee69894829dd04c1d6cf5fd252ed12838afde232ff77b9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/how-to-apply-general-ledger-entries
@@ -175,28 +175,28 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the France localization of Business Central covers general ledger tasks and the fiscal year-end cycle. It answers questions on applying and unapplying G/L entries, posting periods, opening, closing and reopening periods and years, closing income statement accounts, and French ledger reports.
+> Core finance for the French version of Business Central covers fiscal years and periods, year-end closing, fiscal closure, posting periods, and general ledger tasks such as applying entries, reports, and reconciliations. It answers how-to questions about closing and reopening periods under French rules.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [France](../france.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes the French-specific finance functions in Business Central. It has two parts: day-to-day general ledger work and the fiscal calendar and year-end process. The ledger pages cover applying and unapplying G/L entries, printing reports such as Journals and G/L Trial Balance, exporting entries to XML and for tax audits, and viewing ledger reconciliations. The apply page carries a deprecation notice about replacement features.
+This section describes French localized finance functions. One group of pages covers fiscal calendar management: opening a new fiscal year, specifying posting periods in General Ledger Setup, and the overview of fiscal periods and years. French law allows only two open fiscal years at a time, and the pages state this limit.
 
-The fiscal pages follow the life of a fiscal year. You open a new year with Create Year, and French law allows at most two open fiscal years. You control who can post and when through posting periods. At year end you close the accounting periods, run the Close Income Statement batch job and post the closing entry, then fiscally close the year. A single period can be reopened, but not once the year is fiscally closed.
+A second group covers year-end. The Year End Processes Overview sets out three steps: close the fiscal year, generate and post the year-end closing entry with the Close Income Statement batch job, and fiscally close the year. Separate pages detail each step, plus fiscal closure of single periods and reopening of periods.
 
-Start with Year End Processes Overview and Fiscal Periods and Fiscal Years for the sequence. Then use the how-to pages for each step. For ledger work, start with General Ledger in France.
+A third group covers the general ledger: applying and unapplying entries, printing reports, and viewing ledger reconciliations. The General Ledger in France page links these tasks. Start with Year End Processes Overview for closing work, or Fiscal Periods and Fiscal Years for setup.
 
 ## Key points
 
-- Year-end has three steps: close the accounting period, generate closing entries with offsetting equity accounts, and fiscally close the year.
-- No more than two fiscal years can be open at once. New years are created with the Create Year action on Accounting Periods.
-- The Close Income Statement batch job generates entries that you post through the General Journal. They move the year's result to balance sheet equity accounts.
-- Fiscally closing periods or years blocks further posting. The Close Fiscal Period action and the Fiscally Closed field are used for periods, and the Fiscally Close Year checkbox for years.
-- Reopen Fiscal Period lets you post to a single fiscally closed period. It is not possible after the year is fiscally closed.
-- Allow Posting From and Allow Posting To in General Ledger Setup, or per user, set the permitted posting date range.
-- Apply G/L entries on asset and liability accounts with applies-to IDs and letter fields. Unapply them with the Unapply Entries action on the Apply G/L Entries page.
-- French reports include Journals, G/L Trial Balance, customer, vendor and bank account reports, the GL/Cust. Ledger Reconciliation report, and exports to XML and for tax audits.
+- Up to two fiscal years can be open at once, with 12 monthly periods; the Create Year action opens a new year and its accounting periods.
+- Year-end has three steps: Close Year, generate the closing entry with the Close Income Statement batch job, then fiscally close the year.
+- The Close Income Statement batch job uses Fiscal Year Ending Date, Gen. Journal Template, Gen. Journal Batch and Retained Earnings Acc.; the entry is then reviewed and posted from the general journal.
+- Fiscal closure of a period or year uses the Close Fiscal Period or Fiscally Close Year actions and sets the Fiscally Closed field to block further entries.
+- A fiscally closed period can be reopened with Reopen Fiscal Period, but not once its fiscal year is closed.
+- Allow Posting From and Allow Posting To in General Ledger Setup limit posting dates, with user-specific options.
+- Apply Entries and Unapply Entries let you justify balances on asset and liability accounts; the localized apply feature is being deprecated in favor of a base app feature.
+- Reports include G/L Journal, Trial Balance, Detail Trial Balance, and customer and vendor versions; GL/Cust. and GL/Vend. Ledger Reconciliation reports come from the Payment Management FR extension as of release 28.
 
 ## Learn pages
 

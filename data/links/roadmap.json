@@ -31290,84 +31290,113 @@
     "video/-_TaZY2Clh0": {
       "kind": "video",
       "key": "video/-_TaZY2Clh0",
-      "hash": "848a6446cacaf55543c90ebc6135483ce5b7f7cd80852de19ba64f3bc0379259",
+      "hash": "bcf3f7ab46d0787f473339ec7b5431be4e2ce0fd4a7254f4f1d2dde7eb643d67",
       "video_id": "-_TaZY2Clh0",
       "title": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts",
-      "at": "2026-10-07T23:37:32.921Z",
+      "at": "2026-10-17T01:09:30.056Z",
       "matches": []
     },
     "video/-q8Gm7u7R2A": {
       "kind": "video",
       "key": "video/-q8Gm7u7R2A",
-      "hash": "baef9395f8fe11bd98bfc7beb58bc44cf888851089f194aedc056aa017cd7bd9",
+      "hash": "ed236fb1524bac5a32a4c5b3b1bbaff2b3bf38cd1b4b4d2c266718a15a0831e9",
       "video_id": "-q8Gm7u7R2A",
       "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
-      "at": "2026-10-06T23:58:14.024Z",
+      "at": "2026-10-17T01:09:30.702Z",
       "matches": []
     },
     "video/-SGaVGOkiF0": {
       "kind": "video",
       "key": "video/-SGaVGOkiF0",
-      "hash": "30e928421244adcb46bb9557af088b8071f51ba871a29a1da06a837ce83dd0e0",
+      "hash": "497a7e28d4ed8b34ca1db4989c6f18f03c5c76f6eed08951e8ef08ccb3274d12",
       "video_id": "-SGaVGOkiF0",
       "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
-      "at": "2026-10-06T23:58:14.114Z",
-      "matches": []
+      "at": "2026-10-17T01:09:28.704Z",
+      "matches": [
+        {
+          "feature": 0,
+          "name": "Payment Times Analysis",
+          "t": 47,
+          "roadmap_id": "576802",
+          "quote": "analyzes payment behavior against vendors and customers, tracking whether payments occur"
+        },
+        {
+          "feature": 1,
+          "name": "Aggregation by Company Size",
+          "t": 153,
+          "roadmap_id": "576802",
+          "quote": "Analysis option that groups payment data by company size categories"
+        },
+        {
+          "feature": 4,
+          "name": "Payment Analysis Drill-Down",
+          "t": 268,
+          "roadmap_id": "576802",
+          "quote": "Ability to drill down into payment analysis details to see specific invoice"
+        }
+      ]
     },
     "video/-uAvdZAWWwI": {
       "kind": "video",
       "key": "video/-uAvdZAWWwI",
-      "hash": "2a1a8776c929c2f807c343fca3264134b1ff22e3cba2e77c85a544d9d66cafcf",
+      "hash": "b4f1ea7d70d083e6cc942e2865061e408a13d70de5aa93fa88723b97a826dafe",
       "video_id": "-uAvdZAWWwI",
       "title": "Transfer Environments",
-      "at": "2026-10-06T23:58:14.574Z",
+      "at": "2026-10-17T01:09:29.872Z",
       "matches": []
     },
     "video/-vCiEloR61U": {
       "kind": "video",
       "key": "video/-vCiEloR61U",
-      "hash": "49eaebb02503c81b74a32ad463ed3c5f849ac52b248fc2bffce99f2e8e107a7e",
+      "hash": "731ff851e0e22c9e220006f9df1c8538032e845d4516ebd0f9f3b15b050dcf99",
       "video_id": "-vCiEloR61U",
       "title": "Business Central 29: New ModuleInfo Properties Explained",
-      "at": "2026-10-06T23:58:15.502Z",
+      "at": "2026-10-17T01:09:28.876Z",
       "matches": [
         {
           "feature": 0,
           "name": "ModuleInfo help property",
           "t": 153,
           "roadmap_id": "573354",
-          "quote": "New property added to ModuleInfo type that returns the help link"
+          "quote": "help link of a specified application, allowing programmatic access"
         },
         {
           "feature": 1,
           "name": "ModuleInfo ULA property",
           "t": 164,
           "roadmap_id": "573354",
-          "quote": "New property that returns the application end user license agreement link"
+          "quote": "end user license agreement link, accessible programmatically"
         },
         {
           "feature": 2,
           "name": "ModuleInfo privacy statement property",
           "t": 175,
           "roadmap_id": "573354",
-          "quote": "New property that returns the privacy statement link for a particular application"
+          "quote": "privacy statement link for a particular application, accessible programmatically"
         },
         {
           "feature": 3,
           "name": "ModuleInfo context sensitive help URL property",
           "t": 180,
           "roadmap_id": "573354",
-          "quote": "New property that provides the help URL in the user locale for a particular application"
+          "quote": "help URL in the user locale for a particular application, enabling localized"
+        },
+        {
+          "feature": 4,
+          "name": "ModuleInfo type enhancements",
+          "t": 99,
+          "roadmap_id": "573354",
+          "quote": "ModuleInfo type with four new properties for accessing app manifest metadata"
         }
       ]
     },
     "video/-vdhfNMNZQk": {
       "kind": "video",
       "key": "video/-vdhfNMNZQk",
-      "hash": "03a2c681f4114e160777a30ba7232fb6279da5d93db51ac6b52a42ca56e9c694",
+      "hash": "27fc04ac978ee271abcf7b67f412ef91b855cb65b8bdcfec9ce596e037c4ed18",
       "video_id": "-vdhfNMNZQk",
       "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
-      "at": "2026-10-06T14:11:14.289Z",
+      "at": "2026-10-17T01:09:29.687Z",
       "matches": [
         {
           "feature": 0,
@@ -31381,7 +31410,7 @@
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573327",
-          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding"
+          "quote": "themes for branding colors and fonts, and header-footer layouts for document headers"
         },
         {
           "feature": 2,
@@ -31395,28 +31424,56 @@
           "name": "Header-footer layout application",
           "t": 87,
           "roadmap_id": "573326",
-          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report, or specific layout level"
+          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report"
         },
         {
           "feature": 4,
           "name": "Layered layout defaults",
           "t": 243,
           "roadmap_id": "573326",
-          "quote": "Set default themes and header-footer layouts at global level for all reports, at company level to override global"
+          "quote": "Set default themes and header-footer layouts at global level for all reports, at company level"
+        },
+        {
+          "feature": 4,
+          "name": "Layered layout defaults",
+          "t": 243,
+          "roadmap_id": "573327",
+          "quote": "Set default themes and header-footer layouts at global level for all reports, at company level"
         },
         {
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
           "roadmap_id": "573326",
-          "quote": "Create custom themes and header-footer layouts through the UI or from AL code"
+          "quote": "Create custom themes and header-footer layouts through the UI"
         },
         {
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
           "roadmap_id": "573327",
-          "quote": "Create custom themes and header-footer layouts through the UI or from AL code"
+          "quote": "Create custom themes and header-footer layouts through the UI"
+        },
+        {
+          "feature": 6,
+          "name": "Managed theme and header-footer layouts page",
+          "t": 313,
+          "roadmap_id": "573326",
+          "quote": "UI page where users can create new themes or header-footer layouts by name"
+        },
+        {
+          "feature": 6,
+          "name": "Managed theme and header-footer layouts page",
+          "t": 313,
+          "roadmap_id": "573327",
+          "quote": "UI page where users can create new themes or header-footer layouts by name"
+        },
+        {
+          "feature": 7,
+          "name": "Shipped themes",
+          "t": 415,
+          "roadmap_id": "573327",
+          "quote": "Four themes ship with version 20.9: calm (green, relaxing), default, playful"
         },
         {
           "feature": 9,
@@ -31430,132 +31487,153 @@
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "32b17586d21f64e119383238e20afa2b1a26687bd4d0996d2f791fac36472532",
+      "hash": "68cb56dc74b76606a47212a98c0aee9cef43393876121e870ffbad1c042719a6",
       "video_id": "01GoAUnpBnw",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
-      "at": "2026-10-06T23:58:14.332Z",
+      "at": "2026-10-17T01:09:33.879Z",
       "matches": []
     },
     "video/06vgkq2EXmA": {
       "kind": "video",
       "key": "video/06vgkq2EXmA",
-      "hash": "afc3324af1cf3859166aefd5765f2b4bc9201ff9aa981692e68191a3e39167fc",
+      "hash": "e88b1724dd5dcaa357a23ae7dbebe3684da366ecd4728777010e94fbce07a362",
       "video_id": "06vgkq2EXmA",
       "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
-      "at": "2026-10-06T23:58:21.886Z",
-      "matches": [
-        {
-          "feature": 0,
-          "name": "Copilot Chat",
-          "t": 10,
-          "roadmap_id": "573362",
-          "quote": "An open chat interface in Business Central that allows users to look up documentation"
-        }
-      ]
+      "at": "2026-10-17T01:09:36.787Z",
+      "matches": []
     },
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "bcd3998803d98078fefa659c4a33623bda9eb299b7c77187a864838b700c2820",
+      "hash": "623f7027d0889608081a5e660b7bef3e5064f0a19e76cf4b62e7a25310ed00b6",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-10-06T14:11:14.290Z",
+      "at": "2026-10-17T01:09:36.447Z",
       "matches": [
         {
           "feature": 0,
           "name": "EDI functionality in Business Central",
           "t": 6,
           "roadmap_id": "573305",
-          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards"
+          "quote": "New capability to exchange order information, order confirmations, and related documents"
         },
         {
           "feature": 1,
           "name": "Purchase order EDI document type",
           "t": 59,
           "roadmap_id": "573305",
-          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format"
+          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents"
         },
         {
           "feature": 2,
           "name": "Sales order automatic creation from EDI",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side"
+          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created"
         },
         {
           "feature": 3,
           "name": "Order response messaging",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Seller can send back an order response (accepted or rejected) to the buyer, who will receive status updates"
+          "quote": "Seller can send back an order response to the buyer"
         },
         {
           "feature": 4,
           "name": "Remittance advice EDI document",
           "t": 104,
           "roadmap_id": "573305",
-          "quote": "buyer can send a remittance advice file to the seller, enabling payment reporting through the e-documents framework"
+          "quote": "buyer can send a remittance advice file to the seller, enabling payment reporting"
         },
         {
           "feature": 5,
           "name": "Bidirectional EDI document direction control",
           "t": 158,
           "roadmap_id": "573305",
-          "quote": "Ability to configure document directions as inbound only, outbound only, or both inbound and outbound for EDI exchanges"
+          "quote": "Ability to configure document directions as inbound only, outbound only, or both"
         },
         {
           "feature": 6,
           "name": "Electronic identifier support for EDI",
           "t": 189,
           "roadmap_id": "573305",
-          "quote": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
+          "quote": "Support for electronic identifiers such as JIN or VT registration numbers"
+        },
+        {
+          "feature": 7,
+          "name": "Item reference support for EDI matching",
+          "t": 201,
+          "roadmap_id": "573305",
+          "quote": "Support for item reference or JIN codes on items to ensure correct item matching"
         },
         {
           "feature": 8,
           "name": "EDI message logging and tracking",
           "t": 231,
           "roadmap_id": "573305",
-          "quote": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed"
+          "quote": "Log functionality for each EDI exchange showing which files were created"
         },
         {
           "feature": 9,
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges, leveraging existing e-documents infrastructure"
+          "quote": "Use of PPPLE format for EDI exchanges, leveraging existing e-documents infrastructure"
+        },
+        {
+          "feature": 10,
+          "name": "French e-reporting formats",
+          "t": 535,
+          "roadmap_id": "576832",
+          "quote": "Three new e-document formats introduced for France to support French regulatory"
+        },
+        {
+          "feature": 11,
+          "name": "French e-reporting lifecycle event tracking",
+          "t": 561,
+          "roadmap_id": "576832",
+          "quote": "Regulatory lifecycle events for French e-reporting are stored as messages"
         },
         {
           "feature": 12,
           "name": "EDI purchase order to sales order linkage",
           "t": 311,
           "roadmap_id": "573305",
-          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders"
+          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents"
         }
       ]
     },
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "19cc79de195637233891a43aa3169f316679bf011ddc1101beaad70738ddeb6e",
+      "hash": "9931c4dd5e9f90de422de7f27e18f0041f7bb7bedd5499cff4beb67c63a47356",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-10-06T23:58:21.597Z",
-      "matches": []
+      "at": "2026-10-17T01:09:37.213Z",
+      "matches": [
+        {
+          "feature": 1,
+          "name": "Payables Agent",
+          "t": 37,
+          "roadmap_id": "573380",
+          "quote": "Payables Agent. Reads vendor invoices, classifies invoice lines"
+        }
+      ]
     },
     "video/0qt0Zy9ZsRo": {
       "kind": "video",
       "key": "video/0qt0Zy9ZsRo",
-      "hash": "8d3550ad5ca452b093d08bb0fbd7a4f410fab92fd49d87a42895c02f7edd6825",
+      "hash": "2c55f3f1d27a2a3c2aef513c99f5654e142c4396704e018487b0b6cc360ef218",
       "video_id": "0qt0Zy9ZsRo",
       "title": "What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)",
-      "at": "2026-10-06T23:58:20.342Z",
+      "at": "2026-10-17T01:09:35.732Z",
       "matches": [
         {
           "feature": 0,
           "name": "In-Client Performance Profiler",
           "t": 5,
           "roadmap_id": "573335",
-          "quote": "Interactive tool for investigating performance issues across extensions directly inside the web client"
+          "quote": "Interactive tool for investigating performance issues across extensions"
         },
         {
           "feature": 1,
@@ -31590,72 +31668,72 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "5531b02d574e89cb0e5ed020224199f71b7eaf078531932e7cc74ffd649f168a",
+      "hash": "562bfb6bc0236477415ae4de4c46d2e8f995c9ead962b789d08be71be5d40faa",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-10-06T23:58:19.104Z",
+      "at": "2026-10-17T01:09:36.091Z",
       "matches": []
     },
     "video/198d9piIoE0": {
       "kind": "video",
       "key": "video/198d9piIoE0",
-      "hash": "111afafedde8105392529d8b2c3935211ba18def7bdcf970668416abbea520c4",
+      "hash": "21c000af22d8f88f3a912c37cfe2c60d9e1c2354c2621155e7cd73187645abd9",
       "video_id": "198d9piIoE0",
       "title": "What's New: Reservation Worksheet and Fulfillment Suggestions (2023 release wave 2)",
-      "at": "2026-10-06T23:58:21.035Z",
+      "at": "2026-10-17T01:09:39.914Z",
       "matches": []
     },
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "cd130229699900f562feb4a0dfe7fff66399a9bdb0bc72a8589e448d6ab1386f",
+      "hash": "26d5e6b390cfaac74cde2eb13beac4b73f9313059598d13f7baddf09bf177efb",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-10-06T23:58:29.833Z",
+      "at": "2026-10-17T01:09:43.405Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
       "kind": "video",
       "key": "video/1ht5nxubZ9c",
-      "hash": "b7a7b34527b521abe8a65ac7b2186f279b43ed180321404359e0e55365c6015a",
+      "hash": "7343504f3af544274f2038e1c914ee090dfdd80759f50ac88e40472cd7949912",
       "video_id": "1ht5nxubZ9c",
       "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
-      "at": "2026-10-06T23:58:28.625Z",
+      "at": "2026-10-17T01:09:43.259Z",
       "matches": []
     },
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "46dfb4818d1cc529858123eeb8e1843cacf2865acef5e27b09048c705997de39",
+      "hash": "45abcaeec20ba5939802ade79195e6700c7ad3ae228dbabdbdcb341729979476",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-10-06T23:58:21.248Z",
+      "at": "2026-10-17T01:09:41.299Z",
       "matches": [
         {
           "feature": 3,
           "name": "Agent Review Experience",
           "t": 650,
           "roadmap_id": "573366",
-          "quote": "review agent-filled fields with explanations for why the agent took specific actions"
+          "quote": "Agent Review Experience where users can review agent-filled fields with explanations"
         }
       ]
     },
     "video/1OiiA7SgqBY": {
       "kind": "video",
       "key": "video/1OiiA7SgqBY",
-      "hash": "fe37f4b49abb47d4770d8fa7e27da9176b81bfb5aa0449fe130ee1191ad38a46",
+      "hash": "e16baaf6609022ef335c34049d78a3d13d4a85f570892f76d82bde91b7c9ab93",
       "video_id": "1OiiA7SgqBY",
       "title": "#BCTalent Stories: SOCITAS",
-      "at": "2026-10-07T23:37:36.733Z",
+      "at": "2026-10-17T01:09:43.757Z",
       "matches": []
     },
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "9b296751614b05b5a06ced397f09b057b37f2104d9c6ad742e28b564a633ee41",
+      "hash": "e257705ba636c9047d5072d3f6e43f250bf580a6965602c9750c02ccb6ba1303",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-10-06T23:58:26.557Z",
+      "at": "2026-10-17T01:09:43.430Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {

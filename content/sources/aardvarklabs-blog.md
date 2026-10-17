@@ -2,7 +2,7 @@
 id: source/aardvarklabs-blog
 type: source
 title: Aardvark Labs
-summary: "Aardvark Labs (Marcel Chabot): 82 posts in the knowledge base, 2025-04-18 to 2026-10-09, mostly about development, integration, copilot."
+summary: "Aardvark Labs (Marcel Chabot): 83 posts in the knowledge base, 2025-04-18 to 2026-10-16, mostly about development, integration, copilot."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: becc5df3e6b273ad7fd8fd11687b9a6912b28a4b3f512b6224f6fa82f2019973
+  input_hash: 9c6707de9128ffc89d20e23661d6573ab1d27f9d3d07cf6e4a8d87ca736d47c6
 evidence:
   - kind: blog
     url: https://aardvarklabs.blog
@@ -115,6 +115,7 @@ links:
     - post/aardvarklabs-blog/4023
     - post/aardvarklabs-blog/3983
     - post/aardvarklabs-blog/4056
+    - post/aardvarklabs-blog/4119
   guidelines: []
 source_id: aardvarklabs-blog
 kind: blog
@@ -122,7 +123,7 @@ url: https://aardvarklabs.blog
 author: Marcel Chabot
 mvp: false
 full_text: false
-item_count: 82
+item_count: 83
 footprint:
   systems:
     - id: development
@@ -156,7 +157,7 @@ footprint:
       weight: 5
     - id: ai agents
       weight: 4
-    - id: power automate
+    - id: community
       weight: 4
   objects:
     - id: table Customer
@@ -185,12 +186,12 @@ footprint:
       weight: 2
   features: []
 first_item: "2025-04-18"
-last_item: "2026-10-09"
+last_item: "2026-10-16"
 ---
 
 # Aardvark Labs
 
-> Aardvark Labs (Marcel Chabot): 82 posts in the knowledge base, 2025-04-18 to 2026-10-09, mostly about development, integration, copilot.
+> Aardvark Labs (Marcel Chabot): 83 posts in the knowledge base, 2025-04-18 to 2026-10-16, mostly about development, integration, copilot.
 
 [https://aardvarklabs.blog](https://aardvarklabs.blog) · blog · tier community
 
@@ -207,7 +208,7 @@ last_item: "2026-10-09"
 |  | azure openai (5) | codeunit ARD_CashFlowAgentMetadata (2) |
 |  | security (5) | codeunit ARD_CashFlowAgentSetup (2) |
 |  | ai agents (4) | codeunit ARD_IsolatedStorageWrapper (2) |
-|  | power automate (4) | codeunit Environment Information (2) |
+|  | community (4) | codeunit Environment Information (2) |
 |  |  | page ARD_Cash Flow Agent KPI (2) |
 |  |  | page ARD_Cash Flow Agent Setup (2) |
 
@@ -221,10 +222,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ************* 13
 - 2026-Q2: *************** 15
 - 2026-Q3: ************* 13
-- 2026-Q4: ** 2
+- 2026-Q4: *** 3
 
 ## Most recent
 
+- [Community, Connection, and Business Central Telemetry at Summit NA 2026](../posts/aardvarklabs-blog/4119.md) (2026-10-16)
 - [Smarter Keys, Better Performance: Exploring Business Central v29 Index Updates](../posts/aardvarklabs-blog/4056.md) (2026-10-09)
 - [Business Central v29: SQL Table Extensions Redesign Explained](../posts/aardvarklabs-blog/3983.md) (2026-10-02)
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../posts/aardvarklabs-blog/4023.md) (2026-09-25)
@@ -244,6 +246,5 @@ Items per quarter, oldest first:
 - [Using Power Automate for Business Central SFTP](../posts/aardvarklabs-blog/3631.md) (2026-06-19)
 - [Creating a Low-Cost RFID System with Business Central and Power Automate](../posts/aardvarklabs-blog/3579.md) (2026-06-12)
 - [Boost Business Central Development with Skills in Visual Studio Code](../posts/aardvarklabs-blog/3564.md) (2026-06-05)
-- [New Features for Report Lifecycle Management in Business Central 28.1](../posts/aardvarklabs-blog/3544.md) (2026-05-29)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,10 +89,16 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry
   localizations: []
   videos:
+    - video/1x3QyBX3swg
+    - video/2u5_F9Ztt7U
     - video/7rIHz0zrgWU
     - video/b54ehH4AlFA
+    - video/F_pssS0FtUc
+    - video/G0avZpiDFtI
+    - video/hS8yWS3bxWE
     - video/MYZOkoSmtZ0
     - video/oF_wSP0xrSQ
+    - video/QT3RKx9rGJA
     - video/tDcT_51ktqo
     - video/VX_aPhcsIOc
   posts:
@@ -104,6 +110,7 @@ links:
     - change/al-go/2392
     - change/al-go/2395
     - change/bcapps/10897
+    - change/bcapps/12432
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -115,7 +122,7 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 6
+  video: 12
   blog: 1
   guideline: 0
 bc_forms: []
@@ -166,11 +173,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2392 AL-Go Telemetry Enhancements: repository fork and hosting information](../../../../changes/al-go/2392.md) (code change): "AL-Go telemetry now captures whether a repository is a fork and its GitHub hosting type"
 - [#2395 Prevent workflow telemetry failures from failing the workflow](../../../../changes/al-go/2395.md) (code change): "WorkflowPostProcess telemetry failures no longer cause the entire workflow to fail"
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
+- [#12432 [AB#647643] Retain remote files and safely retire verified local references](../../../../changes/bcapps/12432.md) (code change): "Removes unused deletion telemetry and updates the README configuration guidance"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
-- [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "Long running AL telemetry - total and exclusive time; Long running AL SQL statistics"
+- [Microsoft presents: Index management](../../../../videos/1x3QyBX3swg.md) (video): "telemetry; performance tuning; fragmentation; missing indexes; disabled indexes"
+- [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "Telemetry for MCP Configuration and Usage; Client Hardware and Network Telemetry"
+- [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
+- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../../videos/F_pssS0FtUc.md) (video): "telemetry data; usage analytics; power bi reporting; go-live optimization"
+- [What's New: Server and Database (2025 release wave 1)](../../../../videos/G0avZpiDFtI.md) (video): "Telemetry Custom Dimensions User Type and Guest User"
+- [What's New: Telemetry (2025 release wave 1)](../../../../videos/hS8yWS3bxWE.md) (video): "Financial Reporting Usage Telemetry; Financial Reporting Definition Changes Telemetry"
 - [Store Business Central Telemetry in Azure Application Insights](../../../../videos/MYZOkoSmtZ0.md) (video): "Store Business Central Telemetry in Azure Application Insights workspace configuration"
 - [I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)](../../../../videos/oF_wSP0xrSQ.md) (video): "Automated BC telemetry triage with Azure Logic App and AI; KQL query for database lock timeouts"
+- [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL-Go Telemetry Module"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Exclusive Time Telemetry; Session Creation Performance Improvement"
 - [Enable Cost Control Strategies for Business Central Telemetry](../../../../videos/VX_aPhcsIOc.md) (video): "telemetry; cost control; daily cap; application insights"
 

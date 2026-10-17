@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -207,7 +207,9 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/developing-reports
   localizations: []
   videos:
+    - video/1ft4o9lQzsU
     - video/9ZmmQEpPyB4
+    - video/G0avZpiDFtI
     - video/V8CSor5qBRE
     - video/W003w36Isto
   posts:
@@ -223,8 +225,8 @@ links:
     - post/thinkaboutit-be/7181
     - post/thinkaboutit-be/7266
     - post/thinkaboutit-be/7750
-    - post/thinkaboutit-be/7813
     - post/thinkaboutit-be/8096
+    - post/thinkaboutit-be/8272
   guidelines: []
 learn_toc_path:
   - Development
@@ -237,7 +239,7 @@ children: []
 coverage:
   learn: 22
   code: 5
-  video: 3
+  video: 5
   blog: 14
   guideline: 0
 bc_forms:
@@ -316,9 +318,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../../posts/thinkaboutit-be/7181.md) (community post): "Select layout types based on purpose: Word for documents and email, RDLC"
 - [How Do I Fix: The EnableHyperlinks property has not been set for this report.](../../../../../posts/thinkaboutit-be/7266.md) (community post): "RDLC report layouts contain hyperlinks, the EnableHyperlinks property must be set"
 - [How Do I: Use the Word Add-in for Business Central Report Layouts](../../../../../posts/thinkaboutit-be/7750.md) (community post): "The Dynamics 365 Business Central Word add-in is a free Microsoft Word extension that simplifies designing Word layouts"
-- [Quick Tip: BC28: What Is New in Document Reporting](../../../../../posts/thinkaboutit-be/7813.md) (community post): "Table Builder, still in preview, adds an Insert Table action that builds the header, repeater, mapped columns"
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../../posts/thinkaboutit-be/8096.md) (community post): "Word add-in data picker provides a cleaner alternative by inserting mapped fields directly"
+- [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../../posts/thinkaboutit-be/8272.md) (community post): "Layout statuses (Draft, Pending Approval, Approved, Retired) now apply"
+- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../../videos/1ft4o9lQzsU.md) (video): "Excel report layouts; Power Query integration for refreshable reports"
 - [Let It Snow: How To Use Themable Layouts in Business Central (2024)](../../../../../videos/9ZmmQEpPyB4.md) (video): "Themeable layouts; Abts font in Office; Word layout watermark support"
+- [What's New: Server and Database (2025 release wave 1)](../../../../../videos/G0avZpiDFtI.md) (video): "PDF Post-Processing in Reports; Report Metadata in Word Layouts"
 - [What’s New: Enhanced Document Reporting Features (For Developers) (2024 release wave 2)](../../../../../videos/V8CSor5qBRE.md) (video): "word layout engine; document reports; word add-in; layout controls"
 - [What's New: Reporting (For Developers) (2025 release wave 1)](../../../../../videos/W003w36Isto.md) (video): "Override Excel multiple data sheets property at layout level"
 

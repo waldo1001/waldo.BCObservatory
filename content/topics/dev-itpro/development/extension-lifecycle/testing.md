@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,6 +96,7 @@ links:
     - video/EurgqGU1jG0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
+    - video/QT3RKx9rGJA
     - video/V4zCPAsYi_Y
   posts:
     - post/jpearson-blog/1590
@@ -125,7 +126,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 7
+  video: 8
   blog: 3
   guideline: 0
 bc_forms:
@@ -202,6 +203,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "100% code coverage testing pattern; Fast automated testing framework"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
+- [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL Go for GitHub; conditional settings; build modes; incremental builds"
 - [Getting Started With Agent Testing: Test Setup and Structuring (part 3)](../../../../videos/V4zCPAsYi_Y.md) (video): "agent testing; test setup; data-driven tests; yaml configuration"
 
 ## Business Central pages and reports

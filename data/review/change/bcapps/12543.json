@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12543",
+  "input_hash": "023382275fd74ff84c717f151397e01a574359e9cae12abdd63e3fbf02b7f921",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:06.744Z",
+  "issues": [
+    "Summary and points match the description and the two changed codeunits. The description only mentions spend requests, and the page correctly leaves out users and reports.",
+    "The work item is a Bug, but in practice the change adds demo data, so feature is a fair change_kind.",
+    "The point about a better setup experience is mild interpretation, but the title supports it."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026112,
+    "changes_in_call": 2
+  }
+}

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/denmark/electronic-invoicing
 type: topic
 title: Electronic invoicing
-summary: Electronic invoicing in the Danish version of Business Central uses the OIOUBL extension to create XML documents in UBL 2.0 format for Danish public sector customers. It answers questions about setup, customer fields (GLN, account code, profile code), and generating invoices, credit memos, reminders and finance charge memos.
+summary: Electronic invoicing for Denmark in Business Central using the OIOUBL format. It answers questions about what OIOUBL is, how to set up the extension, customers and profiles, and how to create and export OIOUBL XML documents for the Danish public sector.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:24:00.433Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 0a26322cdc25d5aee6ee9e16f92ab0554592fcf5ac23b538b7b408de6ee86e2f
+  input_hash: 125952dc0c03aff39bf0ca0b443e3fc4d64317a293093124f92804cc721b1139
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl
@@ -93,27 +93,25 @@ narrative: generated
 
 # Electronic invoicing
 
-> Electronic invoicing in the Danish version of Business Central uses the OIOUBL extension to create XML documents in UBL 2.0 format for Danish public sector customers. It answers questions about setup, customer fields (GLN, account code, profile code), and generating invoices, credit memos, reminders and finance charge memos.
+> Electronic invoicing for Denmark in Business Central using the OIOUBL format. It answers questions about what OIOUBL is, how to set up the extension, customers and profiles, and how to create and export OIOUBL XML documents for the Danish public sector.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Denmark](../denmark.md) > Electronic invoicing · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-OIOUBL electronic invoicing lets Danish companies send sales invoices, credit memos, finance charge memos, and reminders to the public sector in the required OIOUBL format, which is based on the UBL 2.0 standard. The OIOUBL extension produces the XML files from posted documents and supports the OIOUBL profile requirements.
+OIOUBL (Offentlig Information Online UBL) is the format Danish authorities require for electronic documents sent by companies that sell to the public sector. The OIOUBL extension generates XML documents based on the UBL 2.0 standard for sales invoices, credit memos, finance charge memos and reminders.
 
-The pages follow the usual order of work. An overview page explains the concepts (profiles, EAN location numbers, account codes, XML export). A page on the extension describes what it generates. Setup pages cover payment terms, item charges, OIOUBL profiles, and customer settings. A final page explains how to create and send the electronic documents.
-
-Start with the overview, then follow the extension setup and the customer setup. After that, use the page on creating electronic documents to post sales or service documents and generate the XML file.
+The pages follow the order of the work. Start with the overview and the extension description to see what is supported. Then use the extension setup page to configure payment terms, OIOUBL profiles, item charges and company information. Next, set up customers with GLN, account code and profile code. Finally, the document creation page shows how to post sales documents and export them as XML.
 
 ## Key points
 
-- OIOUBL documents are XML files in UBL 2.0 format for Danish public sector customers.
-- Supported document types: sales invoices, credit memos, reminders, and finance charge memos.
-- Extension setup covers payment terms, item charges, and OIOUBL profile selection.
-- Customer setup needs the GLN, Account Code, and OIOUBL Profile Code fields.
-- The OIOUBL Profile Code Required setting makes the profile code mandatory for a customer.
-- Documents are generated from posted sales or service documents, and the XML file is then created.
-- External document numbering and OIOUBL account codes are part of document creation.
+- OIOUBL covers sales invoices, credit memos, finance charge memos and reminders for the Danish public sector.
+- The extension generates XML documents based on the UBL 2.0 standard.
+- Extension setup covers payment terms, OIOUBL profiles, customers, item charges and company information.
+- Profiles named in the setup include Simpel fakturaproces, Billing Basic and Document sending.
+- Customer records need a Global Location Number (GLN), an account code and a profile code; a Profile Code Required option exists.
+- To create a document, post the sales invoice or credit memo with the required fields, then export it as an XML electronic document.
+- Fields named on the document creation page include External Document No., Document No. as Ext. Doc. No., GLN, Account Code and Your Reference.
 
 ## Learn pages
 

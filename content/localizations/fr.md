@@ -9,22 +9,22 @@ tags:
   - localization
   - fr
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-17T01:03:07.740Z"
   flags: []
 generated:
-  at: "2026-10-16T01:09:05.341Z"
+  at: "2026-10-17T01:04:12.318Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 32bb3f78ed2c6424d7631399abb122ac010bcbf3f4c01a7e3eff4571aeee36cb
+  input_hash: bd7b2a150a300e0e30c65316685133df0a458b11e95d0aa1cd61bed3015632c2
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-fr
     date: null
-    commit: ff470ecd2cee1e213c62c942f114f6c8238563c8
+    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
     t: null
     quote: null
 links:
@@ -123,7 +123,7 @@ learn_folder: LocalFunctionality/France
 
 > France (FR) layer of Business Central 29. It covers payment management with payment slips, RIB bank keys, the FEC tax audit export, fiscal year and period closing, accelerated (derogatory) depreciation, SIREN/SIRET fields, VAT paid on debits on sales invoices, Intrastat DEB and service declarations, and local ledger reports.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/france.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/france.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

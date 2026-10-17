@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/germany/core-finance
 type: topic
 title: Core finance
-summary: Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.
+summary: "Germany core finance functionality in Business Central: digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3, ZUGFeRD), and Intrastat reporting for German authorities. It answers setup, export and filter questions for these compliance tasks."
 tier: official
 language: en
 system: finance
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:10.062Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1a66f49883b182a984d7a4544ae889000421c9ab2e5c7b077f57ab5c7ba7995d
+  input_hash: 80db56eab5262f1627327bba6c890518344cba2ef03bb1ee776a726c7616e541
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Germany/process-for-digital-audits
@@ -122,27 +122,28 @@ narrative: generated
 
 # Core finance
 
-> Core finance for the German version of Business Central covers digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3.0 DE, ZUGFeRD), and Intrastat export and printing. It answers setup, filtering and export questions for German tax and audit compliance.
+> Germany core finance functionality in Business Central: digital audit exports (GoBD/GDPdU), electronic invoicing (XRechnung, Peppol BIS 3, ZUGFeRD), and Intrastat reporting for German authorities. It answers setup, export and filter questions for these compliance tasks.
 
-Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../../business-functionality.md) > [Local functionality](../../local-functionality.md) > [Germany](../germany.md) > Core finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area holds the German-specific finance functionality. Most pages deal with digital audits under GoBD/GDPdU, which relate to Sections 146-147 of the German Fiscal Code. You define data export record sources with tables, fields, relations and filters, then export the data as XML files for auditors.
+This section collects the German-specific finance and compliance features. Most pages deal with digital audits under GoBD/GDPdU: configuring which tables and fields are exported, running the export, and producing an ASCII file set with an XML index for the tax authority's analysis software (IDEA).
 
-The digital audit pages build on each other. Start with the setup page and the full walkthrough for general ledger, customer and vendor data. Then use the export page to run the export, the filter examples page to tune period, table and date filters, and the DTD page to upgrade and validate a .DTD definition file after import.
+The audit pages build on each other. Start with the overview of the digital audit process, then follow the setup page for data export record sources, the walkthrough for exporting G/L, customer and vendor data, and the Export Business Data page for the actual run. The filter examples page and the .DTD upgrade page cover specific tasks.
 
-Two other topics sit alongside. Electronic invoicing explains how to set up the E-Document framework for German formats in sales and purchase processes. The Intrastat page covers exporting and printing reports for EU trade reporting, and it relies on the deprecated Intrastat Journals functionality.
+Two other topics sit apart from the audit pages. The e-invoicing page covers XRechnung, Peppol BIS 3 and ZUGFeRD through the E-Document framework, including buyer references. The Intrastat page covers XML export of EU trade reports from the Intrastat Report page.
 
 ## Key points
 
-- Digital audit exports follow GoBD/GDPdU, using data export record definitions with tables, fields and table relations.
-- Exports can be limited with period filters, table filters, flowfield filters and date filter handling; the filter examples page shows the Period Field No., Table Filter and Date Filter Field No. settings.
-- Digital audit data is exported as XML files, with an option to include closing dates.
-- After importing a .DTD definition file, validate it and upgrade it if there are version compatibility problems.
-- Electronic invoicing in Germany supports XRechnung, Peppol BIS 3.0 DE and ZUGFeRD through the E-Document framework (version 26.3 is mentioned).
-- E-invoicing setup involves the Buyer Reference field, the Buyer Reference Mandatory option and a Document Sending Profile.
-- Intrastat reports are exported and printed with the Intrastat checklist and form, and exported to disk in ASCII format, using deprecated Intrastat Journals.
+- Digital audit export writes ASCII files with an XML index for tax authority analysis software (IDEA).
+- Setup uses Data Exports, Record Definitions, Record Types and Record Sources, with table filters, field selection, date filters and table relationships.
+- Filter examples use Period Field No., Table Filter and Date Filter Handling to export G/L entries and customer ledger entries.
+- Export Business Data takes a Starting Date, Ending Date and an Include Closing Date option, and delivers a ZIP archive.
+- A .DTD definition file can be upgraded by importing it and running Validate in Data Exports.
+- Electronic invoicing supports XRechnung, Peppol BIS 3 and ZUGFeRD via the E-Document framework, with a Buyer Reference Mandatory setting (page notes version 26.3).
+- Intrastat reports for Germany are exported as XML using the Checklist Report and Create File actions.
+- Intrastat submission channels are IDEV and eSTATISTIK.CORE, with a test submission option.
 
 ## Learn pages
 

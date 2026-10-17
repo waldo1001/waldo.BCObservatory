@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,7 +74,6 @@ links:
     - topic/business-central/business-functionality/expense-management-preview
   localizations: []
   videos:
-    - video/cVfZoDwKYpI
     - video/Fz8NLByllRc
     - video/GwrMf1umTFg
     - video/M0IzeLSn7qU
@@ -90,7 +89,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 4
+  video: 3
   blog: 0
   guideline: 0
 bc_forms: []
@@ -133,7 +132,6 @@ Start with the Expense Agent overview for the big picture. Then follow the reque
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent Architecture; Expense User Approver Configuration; Expense Report Open Notification"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"

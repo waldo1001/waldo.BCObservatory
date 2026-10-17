@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12939",
+  "input_hash": "21279c0cb2b7ab59c738e0988abbfec1d62394ba086bde53bd43ae1061c7aa82",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:12:18.483Z",
+  "issues": [
+    "The summary says 'skips unnecessary access checks', but the PR skips reading the Inventory Setup record, not access checks.",
+    "behavior_change should be true: the upgrade now behaves differently when no orders need migration or when the setup record is missing.",
+    "The layer list (W1, AT, BE, CH, IT, NL, NO, RU) matches the changed files."
+  ],
+  "applied": [
+    "summary rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.022967,
+    "changes_in_call": 6
+  }
+}

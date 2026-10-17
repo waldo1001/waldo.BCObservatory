@@ -6,13 +6,12 @@
   "systems_joined": [
     "development"
   ],
-  "summary": "Flow Service Management now uses native HttpClient instead of Web Request Helper codeunit, removing dependency on legacy HTTP infrastructure while maintaining identical behavior.",
+  "summary": "Flow Service Management.GetEnvironments now calls the endpoint through native AL HttpClient instead of Web Request Helper. URL validation, the Bearer token as a secret, error handling and UTF-8 charset handling stay as before. The request is now subject to the extension's outbound HTTP policy.",
   "key_points": [
-    "Replaces Web Request Helper.GetResponseTextUsingCharset with native HttpClient implementation",
-    "Maintains original behavior including Bearer token handling and UTF-8 charset detection",
-    "Removes last caller of Web Request Helper, enabling obsolescence of codeunit 1299",
-    "Prerequisite for future web request refactoring",
-    "No public API or behavior changes"
+    "Replaces Web Request Helper.GetResponseTextUsingCharset with a local TryGetResponseText try function built on HttpClient",
+    "Keeps http/https URI validation, the Bearer token sent as a secret, failure on a non-success status, and UTF-8 charset detection",
+    "Removes the last caller of GetResponseTextUsingCharset, which is a prerequisite for obsoleting codeunit 1299 in #12615",
+    "OnPrem-scoped code path with no public API change"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

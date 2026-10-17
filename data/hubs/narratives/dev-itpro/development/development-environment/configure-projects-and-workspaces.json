@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment/configure-projects-and-workspaces",
-  "input_hash": "f5aeb8f9dbbafbb4d9d32e73e81e87ba7da57f88190b3bdb5231c0d55024187e",
-  "summary": "Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about grouping several AL project folders in one multi-root workspace, per-folder settings, and managing project references and dependencies between projects.",
-  "overview": "This section covers how to organize more than one AL project in a single Visual Studio Code workspace. One page explains multi-root workspaces: how to create a code-workspace file, group AL project folders, and set folder-level options such as the package cache path and code analysis.\n\nThe second page covers multi-project setups where projects depend on each other. It describes project references, automatic symbol resolution, coordinated publishing of dependencies, incremental build, project loading and dependency graph traversal.\n\nStart with the multi-root workspace page to set up the workspace and per-folder settings. Then read the project references page if your extensions depend on one another.",
+  "input_hash": "50e441bf58f07860189c4e41122099b9f4ab55f31c75f91269d66b77f49ac62e",
+  "summary": "Configuring AL projects and workspaces in Visual Studio Code for Business Central development. It answers questions about multi-root workspaces, per-folder settings, and project references in app.json, including symbol resolution, publishing, and recovery from publishing failures.",
+  "overview": "This section explains how to organize more than one AL project in a single Visual Studio Code workspace. One page covers multi-root workspaces: grouping several AL project folders into a code-workspace file and setting options such as the package cache path and code analysis for each folder.\n\nThe second page covers project references. When a referenced project exists locally in the workspace, you declare the dependency in app.json and symbols resolve automatically without downloading them. The page also describes how projects load in the workspace, how dependencies are published, and how to recover when publishing fails.\n\nStart with the multi-root workspace page to set up the workspace and folder-level settings. Then read the project references page to wire the projects together and understand publishing behavior.",
   "key_points": [
-    "Multi-root workspaces in Visual Studio Code group several AL project folders into one workspace using a code-workspace file.",
-    "Settings can be set per folder, including al.packageCachePath and al.enableCodeAnalysis.",
+    "Multi-root workspaces in Visual Studio Code group several AL project folders into one workspace.",
+    "A code-workspace file is created to define the workspace.",
+    "al.packageCachePath and al.enableCodeAnalysis can be set per folder.",
     "The multi-root page mentions the AL0720 inherent permissions diagnostic and runtime version 18.0.",
-    "Project references let interdependent AL projects resolve symbols automatically.",
-    "Dependencies are published in a coordinated way, following the dependency graph.",
-    "Incremental build and project loading apply to multi-project workspaces.",
-    "The project references page cites version 21.1 and version 25."
+    "Project references are defined in app.json and apply where the referenced projects exist locally.",
+    "With project references, symbols resolve automatically without downloads.",
+    "The project references page covers project loading, dependency publishing, RAD publishing, and incremental build.",
+    "The project references page mentions versions 25 and 21.1 and explains recovery from publishing failures."
   ],
   "members_used": 2,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T02:07:10.224Z",
+  "at": "2026-10-17T01:13:03.920Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.008955
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T05:23:02.232Z",
-    "verdict": "approve",
-    "issues": [
-      "Key points that only say a page cites a version (runtime 18.0; versions 21.1 and 25) are supported but give an agent little to act on. The sources do not say what these versions apply to, so they cannot be made more specific.",
-      "The key point linking coordinated dependency publishing to the dependency graph slightly joins two separately listed features (dependency publishing, dependency graph traversal). The reading is reasonable but not stated in the sources.",
-      "The suggested reading order in the overview is the writer's guidance, not sourced, but it does not conflict with the sources."
-    ],
-    "input_hash": "f5aeb8f9dbbafbb4d9d32e73e81e87ba7da57f88190b3bdb5231c0d55024187e",
-    "cost_usd": 0.0276312
+    "cost_usd": 0.009691
   }
 }

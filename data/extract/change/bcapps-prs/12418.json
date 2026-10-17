@@ -8,10 +8,10 @@
   ],
   "summary": "The OpenEDocument method in the E-Document table is now public to allow other document types to reuse document opening logic without code duplication.",
   "key_points": [
-    "Change OpenEDocument method visibility from internal to public",
-    "Enables other document type entities to open E-Document pages from their own code",
-    "Eliminates need to duplicate document-opening logic across different modules",
-    "No schema changes or new objects"
+    "The OpenEDocument method on the E-Document table is now public",
+    "Lets other document type entities open E-Document pages from their own code",
+    "Avoids duplicating the logic that opens E-Documents",
+    "Small change limited to the E-Document table"
   ],
   "change_kind": "feature",
   "behavior_change": false,

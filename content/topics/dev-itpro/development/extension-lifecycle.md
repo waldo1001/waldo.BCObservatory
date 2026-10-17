@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:41.284Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -284,6 +284,7 @@ links:
   posts:
     - post/demiliani-com/12116
     - post/demiliani-com/12422
+    - post/demiliani-com/12927
   guidelines: []
   changes:
     - change/bcapps/9601
@@ -306,7 +307,7 @@ coverage:
   learn: 35
   code: 0
   video: 0
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 149000
@@ -372,6 +373,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"
 - [Dynamics 365 Business Central: automatic PTE unpublishing after update.](../../../posts/demiliani-com/12116.md) (community post): "automatically unpublishes PTE versions that are no longer installed"
 - [Dynamics 365 Business Central on-premises: accessing embedded in-app resources from runtime packages.](../../../posts/demiliani-com/12422.md) (community post): "Extensions can declare resource folders using the resourceFolders property"
+- [Dynamics 365 Business Central: prepare your extensions to support the Copilot Chat.](../../../posts/demiliani-com/12927.md) (community post): "Extending Dynamics 365 Business Central with Copilot Chat support requires adding your extension's website URL"
 
 ## Business Central pages and reports
 

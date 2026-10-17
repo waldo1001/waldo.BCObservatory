@@ -2,7 +2,7 @@
 id: app/edocument
 type: app
 title: EDocument
-summary: "EDocument (Microsoft.eServices): 389 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video."
+summary: "EDocument (Microsoft.eServices): 390 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:13:05.546Z"
+  at: "2026-10-17T01:08:11.166Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a9edea042d7cde851f2a41147cdaee7bbd29d942af2b699663fdbc4f0ea5fa03
+  input_hash: 003d2d14364a36b29da95faf794372289a6af56b002ed440cbe5ee8494e1a12f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EDocument/app
@@ -248,14 +248,14 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 389
+  objects: 390
   by_type:
     codeunit: 125
     page: 57
     pageextension: 48
     table: 42
     enum: 38
-    interface: 37
+    interface: 38
     tableextension: 18
     reportextension: 6
     permissionset: 6
@@ -272,7 +272,7 @@ counts:
 
 # EDocument
 
-> EDocument (Microsoft.eServices): 389 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video.
+> EDocument (Microsoft.eServices): 390 objects in BC29-30 (125 codeunits, 57 pages, 48 page extensions, 42 tables, 38 enums, ...); documented by 5 Learn hubs; 1 video.
 
 First-party app · folder `src/Apps/W1/EDocument/app` · namespace `Microsoft.eServices` · BC29-30 · system integration · facts from the code pillar and the joins, nothing machine-written
 
@@ -288,7 +288,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-389 objects, by type.
+390 objects, by type.
 
 ### Tables (42)
 
@@ -686,7 +686,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 6103 | [E-Doc. Sending Prof. Att. Type](../objects/enumextension/6103.md) |  |
 | 6164 | [E-Document Copilot Capability](../objects/enumextension/6164.md) |  |
 
-### Interfaces (37)
+### Interfaces (38)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -703,6 +703,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |  | [IEDocAISystem](../objects/interface/iedocaisystem.md) |  |
 |  | [IEDocFileFormat](../objects/interface/iedocfileformat.md) |  |
 |  | [IEDocMessageBuilder](../objects/interface/iedocmessagebuilder.md) |  |
+|  | [IEDocResponseMessageBuilder](../objects/interface/iedocresponsemessagebuilder.md) |  |
 |  | [IEDocResponseProvider](../objects/interface/iedocresponseprovider.md) |  |
 |  | [IEDocumentCreatePurchaseCreditMemo](../objects/interface/iedocumentcreatepurchasecreditmemo.md) |  |
 |  | [IEDocumentCreatePurchaseInvoice](../objects/interface/iedocumentcreatepurchaseinvoice.md) |  |

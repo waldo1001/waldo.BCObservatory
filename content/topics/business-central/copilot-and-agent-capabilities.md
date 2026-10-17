@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:16.469Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -358,9 +358,17 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/suggest-number-series-preview
     - topic/business-central/copilot-and-agent-capabilities/summarize-preview
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/1QuV_vkbNVU
+    - video/B9VbZzC2p7E
+    - video/H5EuObmeF4o
+  posts:
+    - post/aardvarklabs-blog/3496
+    - post/demiliani-com/11739
+    - post/gerardorenteria-blog/11616
   guidelines: []
+  changes:
+    - change/bcapps/9359
 learn_toc_path:
   - Copilot and agent capabilities
 toc_file: business-central/TOC.md
@@ -384,8 +392,8 @@ children:
 coverage:
   learn: 54
   code: 35
-  video: 0
-  blog: 0
+  video: 3
+  blog: 3
   guideline: 0
 bc_forms:
   - 16
@@ -476,6 +484,18 @@ The subtopics each cover one feature or agent, with usage and FAQ or responsible
 - [Copilot and agents country/region availability and supported languages](https://learn.microsoft.com/dynamics365/business-central/copilot-agents-region-language-availability): Learn how geographic availability, language support, and environment localization determine access to Copilot and agent features in Business Central.
 - [Copilot FAQ](https://learn.microsoft.com/dynamics365/business-central/copilot-overview): This article answers common questions about Copilot in Business Central.
 - [Responsible AI FAQ for Advanced Tell Me](https://learn.microsoft.com/dynamics365/business-central/faqs-advanced-tell-me): Learn about the AI technology behind Advanced Tell Me semantic search. Get an overview, evaluation metrics, limits, mitigations, data use, security details, and feedback steps.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval"
+- [Maximizing Productivity with Copilot Cowork Skills](../../posts/aardvarklabs-blog/3496.md) (community post): "Copilot Cowork Skills; ai workflows; reusable processes; automation"
+- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../posts/demiliani-com/11739.md) (community post): "Copilot Studio message-based pricing pay-as-you-go at $0.01 per message"
+- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../posts/gerardorenteria-blog/11616.md) (community post): "deeper generative AI through Copilot and autonomous agents"
+- [Introducing Spreadsheets for Business Central](../../videos/1QuV_vkbNVU.md) (video): "ai agent; queries; excel integration; preview mode"
+- [Use an Agent to SQL Query data inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../videos/B9VbZzC2p7E.md) (video): "ai agent; sql queries; spreadsheet; advanced spreadsheets"
+- [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../videos/H5EuObmeF4o.md) (video): "Everything Coming to Business Central 2025 Wave 2"
 
 ## Business Central pages and reports
 

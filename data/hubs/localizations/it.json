@@ -262,5 +262,21 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.278522
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-17T01:03:26.764Z",
+    "verdict": "approve",
+    "issues": [
+      "Overview says codeunits 12, 80, 90, 442 and 444 carry 'many of the new events'. Together they add 25 of the 92 events (10, 6, 7, 1 and 1). That is a fair share, not most.",
+      "Key point 1 puts Operation Occurred Date on document lines. In the input it is on journal lines, VAT entries and document headers, not document lines.",
+      "Key point 6 says INPS contributions are calculated at payment. Learn only says this for withholding tax. The vendor setup and payment posting are shared, so this is a reasonable inference, but no source states it.",
+      "Key point 5 says Fattura Setup has codes. Learn describes Fattura Setup with VAT business groups and document types. Fattura Codes is a separate page."
+    ],
+    "input_hash": "3dab6359d8d02d56d01a0fc9adf71062abe8d8d210c4d85fa12315d8589dd7c4",
+    "cost_usd": 0.49085080000000003,
+    "applied": [],
+    "rejected_edits": []
   }
 }

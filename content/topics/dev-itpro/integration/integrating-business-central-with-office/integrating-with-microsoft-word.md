@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:40.461Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,7 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-business-central-with-office
   localizations: []
-  videos:
-    - video/mS6NDhj20yI
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -55,7 +54,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -89,11 +88,5 @@ The two pages are independent. Start with "Map Data Fields in Word Layouts" if y
 
 - [Map Data Fields in Word Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-how-add-fields-word-report-layout): Learn how to use the XML Mapping Pane in Word to manually map Business Central report data, labels, images, and repeating rows to content controls.
 - [Using Word templates for bulk communications](https://learn.microsoft.com/dynamics365/business-central/ui-mail-merge): Word templates can make it easy to bulk create documents that are personalized for specific entities.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "word add-in; Enhanced data picker UX; document apis"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

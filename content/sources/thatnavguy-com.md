@@ -2,7 +2,7 @@
 id: source/thatnavguy-com
 type: source
 title: That NAV Guy
-summary: "That NAV Guy (Teddy Herryanto, MVP): 72 posts in the knowledge base, 2025-04-11 to 2026-10-09, mostly about development, administration, platform."
+summary: "That NAV Guy (Teddy Herryanto, MVP): 73 posts in the knowledge base, 2025-04-11 to 2026-10-16, mostly about development, administration, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T00:19:25.651Z"
+  at: "2026-10-17T00:20:42.327Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: f466f9b475e6fff8031b60630860b89374082206991c21e2daaf01b95427e752
+  input_hash: 3bc27cffb42300f062571f4d7d45a86cf1463f7a78c5b797ec906863319563ac
 evidence:
   - kind: blog
     url: https://thatnavguy.com
@@ -105,6 +105,7 @@ links:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
   guidelines: []
 source_id: thatnavguy-com
 kind: blog
@@ -112,13 +113,13 @@ url: https://thatnavguy.com
 author: Teddy Herryanto
 mvp: true
 full_text: false
-item_count: 72
+item_count: 73
 footprint:
   systems:
     - id: development
-      weight: 68
+      weight: 70
     - id: administration
-      weight: 26
+      weight: 27
     - id: platform
       weight: 25
     - id: sales
@@ -142,12 +143,12 @@ footprint:
       weight: 5
     - id: troubleshooting
       weight: 5
+    - id: automation
+      weight: 4
     - id: codeunit
       weight: 4
     - id: vs code
       weight: 4
-    - id: ai
-      weight: 3
   objects:
     - id: table Sales Header
       weight: 4
@@ -175,12 +176,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-10-09"
+last_item: "2026-10-16"
 ---
 
 # That NAV Guy
 
-> That NAV Guy (Teddy Herryanto, MVP): 72 posts in the knowledge base, 2025-04-11 to 2026-10-09, mostly about development, administration, platform.
+> That NAV Guy (Teddy Herryanto, MVP): 73 posts in the knowledge base, 2025-04-11 to 2026-10-16, mostly about development, administration, platform.
 
 [https://thatnavguy.com](https://thatnavguy.com) · blog · tier community
 
@@ -188,16 +189,16 @@ last_item: "2026-10-09"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (68) | al development (22) | table Sales Header (4) |
-| administration (26) | user experience (9) | table Sales Invoice Header (3) |
+| development (70) | al development (22) | table Sales Header (4) |
+| administration (27) | user experience (9) | table Sales Invoice Header (3) |
 | platform (25) | best practices (6) | table Item (2) |
 | sales (12) | extensions (6) | table Sales Line (2) |
 | integration (11) | developer tools (5) | codeunit Config. Package Management (1) |
 | reporting (11) | performance (5) | codeunit Dimension CaptionClass Mgmt (1) |
 |  | troubleshooting (5) | codeunit Filter Tokens (1) |
-|  | codeunit (4) | codeunit Gen. Jnl.-Post Batch (1) |
-|  | vs code (4) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
-|  | ai (3) | codeunit Item Jnl.-Post Batch (1) |
+|  | automation (4) | codeunit Gen. Jnl.-Post Batch (1) |
+|  | codeunit (4) | codeunit Gen. Journal Alloc. Acc. Mgt. (1) |
+|  | vs code (4) | codeunit Item Jnl.-Post Batch (1) |
 |  |  | codeunit Item Jnl.-Post Line (1) |
 |  |  | codeunit Math (1) |
 
@@ -211,10 +212,11 @@ Items per quarter, oldest first:
 - 2026-Q1: ******* 7
 - 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
-- 2026-Q4: *** 3
+- 2026-Q4: **** 4
 
 ## Most recent
 
+- [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (2026-10-16)
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (2026-10-09)
 - [How to ask questions about your repo with GitHub Agentic Workflows](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-ask-agent-questions-github-agentic-workflows--36d2ed9087.md) (2026-10-09)
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (2026-10-02)
@@ -234,6 +236,5 @@ Items per quarter, oldest first:
 - [BC Friday Tips #73 Show All Configuration Package Errors](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-73-show-all-configuration-package-errors--5649986e9b.md) (2026-05-29)
 - [AL Pocket Tools](../posts/thatnavguy-com/https-thatnavguy-com-projects-al-pocket-tools--9c3084464c.md) (2026-05-21)
 - [BC Friday Tips #72 Inlay Hints](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-72-inlay-hints--09aec26d55.md) (2026-05-15)
-- [BC Friday Tips #71 BlankZero Property](../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-71-blankzero-property--af92693663.md) (2026-05-08)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

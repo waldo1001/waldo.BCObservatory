@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-17T01:08:11.166Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 41d5495da0012ad729c0426f21af4e40031c2139ce2387a333ae5112580b9d58
+  input_hash: 3203337cc1436a2de60eb3b6a4e6768240027c09a9e6f584a5c918dbd6569c6f
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Shopify/app
@@ -236,6 +236,7 @@ links:
     - feature/573342
     - feature/573343
     - feature/573344
+    - feature/576836
   topics:
     - topic/business-central/business-functionality/online-store-with-shopify
     - topic/dev-itpro/integration/integrating-with-shopify
@@ -866,5 +867,6 @@ Possibly related: these roadmap features have "Shopify" in their title. A name m
 - [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md) (ga, GA 2026-10)
 - [Process Shopify order changes, exchanges, and refunds](../features/573343.md) (ga, GA 2026-10)
 - [Synchronize tariff numbers and origin values with Shopify](../features/573344.md) (ga, GA 2026-10)
+- [Sell to business customers on more Shopify plans with B2B company sync](../features/576836.md) (ga, GA 2026-07)
 
 Source: [src/Apps/W1/Shopify/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Shopify/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

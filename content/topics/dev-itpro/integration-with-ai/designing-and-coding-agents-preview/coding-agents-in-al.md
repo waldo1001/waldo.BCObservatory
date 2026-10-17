@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-17T01:13:14.128Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,6 +94,7 @@ links:
     - video/MNwTt06ZxwY
   posts:
     - post/aardvarklabs-blog/3097
+    - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
   guidelines: []
@@ -193,7 +194,7 @@ coverage:
   learn: 8
   code: 0
   video: 2
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -325,6 +326,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [#182 Add machine-readable review orchestration contract](../../../../changes/bcquality/182.md) (code change): "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
+- [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"

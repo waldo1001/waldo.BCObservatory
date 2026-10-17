@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12565",
+  "input_hash": "290bfc2ed5f31c1fcddb5fdce13e19071f7691157fbd10d5cffe6fb98d976274",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-17T01:12:15.147Z",
+  "issues": [
+    "The description is empty. The phrase 'to accommodate larger environments' and the key point about simplified limit constant references are not supported.",
+    "The title says 'table limit', not specifically a synchronization limit."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02074,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/8874",
+  "input_hash": "87f7a230880072ba36c0906954854ad5205645da4f3107885d2122c7c53de430",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:12.701Z",
+  "issues": [
+    "The five conversion sites, the RoundQty wrapping and the 0.00001 fallback are all stated in the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016925,
+    "changes_in_call": 6
+  }
+}

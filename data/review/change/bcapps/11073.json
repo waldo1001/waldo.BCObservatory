@@ -1,0 +1,20 @@
+{
+  "item_id": "change/bcapps-prs/11073",
+  "input_hash": "68dd6d0d3d871723af16781611d1f0127814b12d8b67228eee12b5829c2bf06b",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:06.744Z",
+  "issues": [
+    "Summary and points match the description: content is validated in the shared Analyze path, the allowed formats are JPEG, PNG, GIF and BMP, the System Application Image codeunit is used, there are no universal size or dimension limits, and failures go through the existing error path.",
+    "Marking it not breaking fits, because rejections use the existing Analyze and GetLastError path and no signatures change."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026112,
+    "changes_in_call": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "item_id": "change/al-go-prs/2396",
+  "input_hash": "ec23f165a7250a1aeecf1559bbf2b405d20eb381ef9382f1604960e37bf186d0",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-17T01:12:12.701Z",
+  "issues": [
+    "Pagination of 100 per page, the empty-page case at exact multiples, failure propagation and test coverage all match the description."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.016925,
+    "changes_in_call": 6
+  }
+}
