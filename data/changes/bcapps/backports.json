@@ -404,6 +404,15 @@
       "title_key": "fixes ab 650171 clarify expense agent scheduling permission error"
     }
   ],
+  "11560": [
+    {
+      "number": 12902,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-16T06:48:08Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12902",
+      "title_key": "bug 653517 29 x backport bcapps pr 11560 edi self billing send path"
+    }
+  ],
   "11571": [
     {
       "number": 11573,
@@ -566,6 +575,15 @@
       "title_key": "fix default bin assignment when creating purchase orders for drop shipments"
     }
   ],
+  "12148": [
+    {
+      "number": 12578,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-16T13:01:46Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12578",
+      "title_key": "backport 12148 make peppol order response conformant with bis 28 t76 ab 653519"
+    }
+  ],
   "12255": [
     {
       "number": 12371,
@@ -600,6 +618,15 @@
       "merged_at": "2026-10-09T13:33:36Z",
       "url": "https://github.com/microsoft/BCApps/pull/12604",
       "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
+    }
+  ],
+  "12545": [
+    {
+      "number": 12547,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-16T15:49:14Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12547",
+      "title_key": "contoso demo data refresh common g l mappings before manufacturing demo setup"
     }
   ],
   "unmatched": [
@@ -1540,6 +1567,13 @@
       "merged_at": "2026-10-15T21:24:59Z",
       "url": "https://github.com/microsoft/BCApps/pull/12501",
       "title_key": "mcp prepare data query tools for billing"
+    },
+    {
+      "number": 12858,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-16T09:36:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12858",
+      "title_key": "item age composition by quantity and value report issue"
     }
   ]
 }

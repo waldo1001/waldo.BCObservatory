@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12907",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix direct transfer upgrade without Inventory Setup",
+  "url": "https://github.com/microsoft/BCApps/pull/12907",
+  "published_at": "2026-10-16T16:55:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "77144453f5c064e5477c0012f375cc41faa3ae56:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12907,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "77144453f5c064e5477c0012f375cc41faa3ae56",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix direct transfer upgrade without inventory setup"
+  }
+}

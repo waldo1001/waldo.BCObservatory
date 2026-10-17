@@ -1,0 +1,194 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12816,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12816",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-16T19:44:15Z",
+  "merge_commit_sha": "c6447496099645d2af1227156879611ff56e4688",
+  "author": "DhavalMore88",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "From Fork",
+    "Team: SCM"
+  ],
+  "community_contribution": true,
+  "title": "[29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied",
+  "body_hash": "47cf7eb7a3c264c06aa3353509fe16faa0fff92025b991d9ef6d254bf5dfffcb",
+  "fixes_issues": [],
+  "work_items": [
+    651069
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Job/JobConsumptionPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 9,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 53,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Job/JobConsumptionPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 79,
+      "deletions": 9,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 10,
+    "additions": 583,
+    "deletions": 60,
+    "al": 8
+  },
+  "join": {
+    "major": "29",
+    "commit": "ff470ecd2cee1e213c62c942f114f6c8238563c8",
+    "objects": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/816"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/816",
+        "type": "codeunit",
+        "id": 816,
+        "name": "Purch. Post Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/816"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/CH/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPostInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "purchasing"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

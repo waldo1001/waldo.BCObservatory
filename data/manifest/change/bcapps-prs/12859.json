@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12859",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]Picking List by Order report (15103) keeps just the first Comment entered on the Order lines in the United States version.",
+  "url": "https://github.com/microsoft/BCApps/pull/12859",
+  "published_at": "2026-10-16T09:44:04Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "6f7836e5228d9d4d8072b0ad24b7b3dceed95a4f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12859,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "6f7836e5228d9d4d8072b0ad24b7b3dceed95a4f",
+    "author": "neeleshsinghal",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "picking list by order report 15103 keeps just the first comment entered on the order lines in the united states version"
+  }
+}

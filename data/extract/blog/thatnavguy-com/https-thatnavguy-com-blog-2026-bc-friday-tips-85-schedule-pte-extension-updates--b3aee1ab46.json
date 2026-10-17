@@ -1,0 +1,48 @@
+{
+  "item_id": "blog/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/",
+  "url": "https://thatnavguy.com/blog/2026/bc-friday-tips-85-schedule-pte-extension-updates/",
+  "title": "BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre",
+  "source": "thatnavguy-com",
+  "published_at": "2026-10-16T00:00:00.000Z",
+  "words": 107,
+  "summary": "You can schedule PTE extension updates from the Business Central Admin Centre during a configured update window instead of deploying manually outside business hours. This feature lets you plan deployments ahead and have Business Central apply them automatically at the scheduled time.",
+  "key_points": [
+    "Set your environment's update window to occur outside working hours",
+    "Upload PTE extensions and schedule them for the next update window",
+    "Business Central automatically deploys extensions during the scheduled window",
+    "Eliminates manual deployments and after-hours work for extension updates"
+  ],
+  "systems": [
+    "development",
+    "administration"
+  ],
+  "topics": [
+    "pte extensions",
+    "deployment",
+    "admin centre",
+    "update scheduling",
+    "automation"
+  ],
+  "objects": [],
+  "features": [
+    "PTE extension scheduling",
+    "Update window configuration",
+    "Automatic extension deployment"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "You can schedule PTE extension updates from the Business Central Admin Centre instead of deploying them manually outside business hours.",
+      "why_it_matters": "This is the core capability that solves the problem of having to work outside normal hours for deployments."
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003458,
+    "posts_in_call": 1
+  }
+}

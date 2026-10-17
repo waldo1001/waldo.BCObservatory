@@ -1,0 +1,43 @@
+{
+  "id": "change/bcapps-prs/12939",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 654493: [29.x] ICM 51000002285173: Fix direct transfer upgrade",
+  "url": "https://github.com/microsoft/BCApps/pull/12939",
+  "published_at": "2026-10-16T22:12:48Z",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:21:05.765Z",
+      "change_class": "code",
+      "files": 8,
+      "al": 8,
+      "objects": 8,
+      "unjoined": 0
+    }
+  },
+  "input_hash": "12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12939,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e",
+    "author": "PredragMaricic",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 654493 29 x icm 51000002285173 fix direct transfer upgrade"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0861c318395ad9124816557b131924bb50c0d0052e504677a3d064e63ae83499"
+}

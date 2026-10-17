@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12809",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bugs/bug 654102  main]purch order vendor change automatically applied to next order",
+  "url": "https://github.com/microsoft/BCApps/pull/12809",
+  "published_at": "2026-10-16T05:37:13Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "4f32f09f5d8bbee8ac35422925ed15d20a934b11:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12809,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "4f32f09f5d8bbee8ac35422925ed15d20a934b11",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bugs bug 654102 main purch order vendor change automatically applied to next order"
+  }
+}

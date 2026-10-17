@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12148",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision",
+  "url": "https://github.com/microsoft/BCApps/pull/12148",
+  "published_at": "2026-10-16T11:23:29Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "e96e976513a3232497ba7b333447e6db2761d1ba:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12148,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e96e976513a3232497ba7b333447e6db2761d1ba",
+    "author": "GediminasGaubys",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "AL: Apps (W1)",
+      "From Fork",
+      "Team: Integrations"
+    ],
+    "community_contribution": true,
+    "title_key": "e documents core peppol make peppol order response conformant with bis 28 t76 and report the seller s decision"
+  }
+}

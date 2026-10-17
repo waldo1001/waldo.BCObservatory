@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12810",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "ExpenseAgent-CAUS-default-VAT-setup-fails",
+  "url": "https://github.com/microsoft/BCApps/pull/12810",
+  "published_at": "2026-10-16T10:53:18Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "534587e466c7eda56ece17d706fa43e114b30809:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12810,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "534587e466c7eda56ece17d706fa43e114b30809",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "expenseagent caus default vat setup fails"
+  }
+}

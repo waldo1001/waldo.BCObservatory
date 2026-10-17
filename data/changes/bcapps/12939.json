@@ -1,0 +1,189 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12939,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12939",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-16T22:12:48Z",
+  "merge_commit_sha": "12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e",
+  "author": "PredragMaricic",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Bug 654493: [29.x] ICM 51000002285173: Fix direct transfer upgrade",
+  "body_hash": "57f135d991650de6804017dfeda96fd3be0410ef820861c7974ae19534c6304e",
+  "fixes_issues": [],
+  "work_items": [
+    654493
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 2,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 8,
+    "additions": 64,
+    "deletions": 16,
+    "al": 8
+  },
+  "join": {
+    "major": "29",
+    "commit": "ff470ecd2cee1e213c62c942f114f6c8238563c8",
+    "objects": [
+      {
+        "path": "src/Layers/AT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/104000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeBaseApp.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104000",
+        "type": "codeunit",
+        "id": 104000,
+        "name": "Upgrade - BaseApp",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104000"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

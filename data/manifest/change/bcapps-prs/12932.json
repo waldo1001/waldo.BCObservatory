@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12932",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Make extension settings insertion test language agnostic",
+  "url": "https://github.com/microsoft/BCApps/pull/12932",
+  "published_at": "2026-10-16T22:03:19Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "9d37935c0d46bbb36f7e9fc2a3e4cda263ebe49f:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12932,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "9d37935c0d46bbb36f7e9fc2a3e4cda263ebe49f",
+    "author": "SBalslev",
+    "author_type": "User",
+    "labels": [
+      "AL: System Application",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "make extension settings insertion test language agnostic"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-17T00:21:05.798Z",
+  "retry_after": null
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/11909",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Block guest users from managing Expense Agent",
+  "url": "https://github.com/microsoft/BCApps/pull/11909",
+  "published_at": "2026-10-16T14:04:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "e51c552efbeb6821db450b199aae6b015371866c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11909,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e51c552efbeb6821db450b199aae6b015371866c",
+    "author": "encimita",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "block guest users from managing expense agent"
+  }
+}

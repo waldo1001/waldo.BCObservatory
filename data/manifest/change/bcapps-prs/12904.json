@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12904",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[API tests] Remove web service key tests that need a user record",
+  "url": "https://github.com/microsoft/BCApps/pull/12904",
+  "published_at": "2026-10-16T01:00:00Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "18ddfa26fdb26f128698e21d0f760de1812996c4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12904,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "18ddfa26fdb26f128698e21d0f760de1812996c4",
+    "author": "t-prda",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "api tests remove web service key tests that need a user record"
+  }
+}

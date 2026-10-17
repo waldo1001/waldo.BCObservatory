@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12932,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12932",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-16T22:03:19Z",
+  "merge_commit_sha": "9d37935c0d46bbb36f7e9fc2a3e4cda263ebe49f",
+  "author": "SBalslev",
+  "author_type": "User",
+  "labels": [
+    "AL: System Application",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Make extension settings insertion test language agnostic",
+  "body_hash": "9fbf772aae410f00f23670ae4d6a5f209815ac693dc6ea440ed683befcd62495",
+  "fixes_issues": [],
+  "work_items": [
+    654500
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 1,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

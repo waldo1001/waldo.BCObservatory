@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12814",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[SOA] Require direct quote-to-order workflow completion",
+  "url": "https://github.com/microsoft/BCApps/pull/12814",
+  "published_at": "2026-10-16T12:17:10Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-17T00:20:42.327Z"
+    }
+  },
+  "input_hash": "a56b12203110080f2e0bb2599190f5d8b5237327:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12814,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "a56b12203110080f2e0bb2599190f5d8b5237327",
+    "author": "qasimikram",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "soa require direct quote to order workflow completion"
+  }
+}
