@@ -6,14 +6,22 @@
   "title": "[Backport 29.x] E-Documents supported type direction configuration",
   "url": "https://github.com/microsoft/BCApps/pull/12575",
   "published_at": "2026-10-15T11:21:42Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:25:31.635Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 15,
+      "objects": 15,
+      "unjoined": 0
     }
   },
   "input_hash": "d6c7b798e1d1e5f0be62ea6fb5a56b2e2e20bc75:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12575,
@@ -32,6 +40,7 @@
     "community_contribution": true,
     "title_key": "backport 29 x e documents supported type direction configuration"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-16T02:23:23.219Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f56599fc8511857c9d8bea1ec613abd91f948f5a871c84ae3a1fb94bff147592"
 }

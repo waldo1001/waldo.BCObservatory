@@ -1,0 +1,39 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12904,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12904",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-16T01:00:00Z",
+  "merge_commit_sha": "18ddfa26fdb26f128698e21d0f760de1812996c4",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Remove web service key tests that need a user record",
+  "body_hash": "76003c78a5f8e3cee967c4c00e42ebf8a90b5e33c3a9e4396c7b7cf9c07f6c74",
+  "fixes_issues": [],
+  "work_items": [
+    646383
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 0,
+    "deletions": 117,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

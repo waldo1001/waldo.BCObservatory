@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12468,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12468",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-15T13:16:35Z",
+  "merge_commit_sha": "13ccec9f665e770286a9433430e09ec3f3261b20",
+  "author": "onbuyuka",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[Shopify] Clarify VAT Bus. Posting Group tooltip",
+  "body_hash": "bea0b2e9ef72723ca1e9e6176cfd3b2d5df89ec90eeafe8965fb301e4f8ae278",
+  "fixes_issues": [],
+  "work_items": [
+    653277
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Shopify/App/src/Customers/Pages/ShpfyTaxAreas.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Shopify/App/src/Customers/Pages/ShpfyTaxAreas.Page.al",
+        "status": "modified",
+        "key": "page/30109",
+        "type": "page",
+        "id": 30109,
+        "name": "Shpfy Tax Areas",
+        "app": "Shopify",
+        "cc": "w1",
+        "page": "page/30109"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "Shopify"
+  ]
+}

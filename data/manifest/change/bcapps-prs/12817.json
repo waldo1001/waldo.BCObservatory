@@ -6,10 +6,18 @@
   "title": "[SOA] Use company display name in default email signature",
   "url": "https://github.com/microsoft/BCApps/pull/12817",
   "published_at": "2026-10-16T10:01:36Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:22:14.754Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "a88711f58234dbec2fdfc63ee741bc76101951c6:c1",
@@ -29,5 +37,8 @@
     ],
     "community_contribution": false,
     "title_key": "soa use company display name in default email signature"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f96d4654a34e3662dc5f87d7036636270ed7f7ec7d3436de2b583e4bfefd2228"
 }

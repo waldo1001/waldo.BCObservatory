@@ -6,14 +6,22 @@
   "title": "[Shopify] Clarify VAT Bus. Posting Group tooltip",
   "url": "https://github.com/microsoft/BCApps/pull/12468",
   "published_at": "2026-10-15T13:16:35Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:24:33.294Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
     }
   },
   "input_hash": "13ccec9f665e770286a9433430e09ec3f3261b20:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12468,
@@ -30,6 +38,7 @@
     "community_contribution": false,
     "title_key": "shopify clarify vat bus posting group tooltip"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-16T02:23:00.574Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "380cb23a59a08c5c371b6ece663b2008bd3aa6b1f81eb4a684ad2e40aacaa44c"
 }

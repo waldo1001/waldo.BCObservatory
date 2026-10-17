@@ -6,10 +6,18 @@
   "title": "Bugs/bug 654102  main]purch order vendor change automatically applied to next order",
   "url": "https://github.com/microsoft/BCApps/pull/12809",
   "published_at": "2026-10-16T05:37:13Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
+    },
+    "fetched": {
+      "at": "2026-10-17T00:22:29.519Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 11,
+      "objects": 3,
+      "unjoined": 8
     }
   },
   "input_hash": "4f32f09f5d8bbee8ac35422925ed15d20a934b11:c1",
@@ -28,5 +36,8 @@
     ],
     "community_contribution": false,
     "title_key": "bugs bug 654102 main purch order vendor change automatically applied to next order"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8ae7e4d48111b8fc4ba9afd7c954dc44b46d6b1506506f2c08964954a7215753"
 }

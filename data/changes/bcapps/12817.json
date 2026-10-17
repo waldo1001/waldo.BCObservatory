@@ -1,0 +1,64 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12817,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12817",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-16T10:01:36Z",
+  "merge_commit_sha": "a88711f58234dbec2fdfc63ee741bc76101951c6",
+  "author": "qasimikram",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[SOA] Use company display name in default email signature",
+  "body_hash": "f4776e2a65525fc33d1af6a8dea4cea7cda1e4a5712094e30aa358268b02bc67",
+  "fixes_issues": [],
+  "work_items": [
+    651653
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/SalesOrderAgent/app/src/Setup/SOASetup.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4400",
+        "type": "codeunit",
+        "id": 4400,
+        "name": "SOA Setup",
+        "app": "SalesOrderAgent",
+        "cc": "w1",
+        "page": "codeunit/4400"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "SalesOrderAgent"
+  ]
+}

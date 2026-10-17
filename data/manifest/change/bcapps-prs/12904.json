@@ -6,7 +6,7 @@
   "title": "[API tests] Remove web service key tests that need a user record",
   "url": "https://github.com/microsoft/BCApps/pull/12904",
   "published_at": "2026-10-16T01:00:00Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -28,5 +28,8 @@
     ],
     "community_contribution": false,
     "title_key": "api tests remove web service key tests that need a user record"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-17T00:22:42.721Z",
+  "retry_after": null
 }
