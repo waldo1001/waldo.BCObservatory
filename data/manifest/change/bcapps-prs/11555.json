@@ -6,7 +6,7 @@
   "title": "[SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry",
   "url": "https://github.com/microsoft/BCApps/pull/11555",
   "published_at": "2026-10-09T09:36:08Z",
-  "state": "extracted",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -25,6 +25,16 @@
       "kind": "fix",
       "behavior": false,
       "cost_usd": 0.003782
+    },
+    "linked": {
+      "at": "2026-10-18T00:23:23.995Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-18T00:23:24.001Z",
+      "path": "content/changes/bcapps/11555.md"
     }
   },
   "input_hash": "51f102ecbe8ce53fdcd472abd390056ee459600d:c1",
@@ -49,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8536f8827222846adca5f248dcaa14333da8412f8c9a15b35a0fbcda37860b86"
+  "output_hash": "e51ed6029489866f7d785d868ba7d4d514fd00b3bdc49ba4a4cd49620cb20fb4"
 }
