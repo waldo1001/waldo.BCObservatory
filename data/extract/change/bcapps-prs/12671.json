@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12671",
+  "number": 12671,
+  "title": "Fix extension settings actions and repeated marketplace installation",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Extension Settings page now disables misleading New and Delete operations, exposes proper extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts after app refresh.",
+  "key_points": [
+    "New and Delete actions disabled while keeping HTTP client settings editable",
+    "New promoted actions added for Install, Uninstall, Unpublish, Set up, Download Source, and Learn More",
+    "Marketplace wizard skips already-installed apps to prevent re-installation requests",
+    "Card refreshes when returning from lifecycle operations",
+    "Regression tests added and module documentation updated"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "administration",
+    "integration"
+  ],
+  "quote": "Disable New and Delete while preserving editable HTTP client settings.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

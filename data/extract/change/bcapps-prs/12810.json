@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12810",
+  "number": 12810,
+  "title": "ExpenseAgent-CAUS-default-VAT-setup-fails",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Fixed a default VAT setup issue in the Expense Agent that was failing during initialization by correcting VAT rate creation logic and validating the setup process.",
+  "key_points": [
+    "Corrected VAT rate creation in Expense Agent setup",
+    "Fixed default VAT configuration initialization",
+    "Added test coverage for VAT setup validation",
+    "Resolved issue AB#653962"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006013,
+    "changes_in_call": 2
+  }
+}

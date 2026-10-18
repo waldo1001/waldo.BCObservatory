@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11909",
+  "number": 11909,
+  "title": "Block guest users from managing Expense Agent",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Guest and external users are now prevented from enabling or disabling Expense Agent and from scheduling or stopping related tasks, while internal users retain full access.",
+  "key_points": [
+    "Guest and external administrator access is blocked from Expense Agent configuration changes",
+    "Detection of external users uses Business Central authentication email or identity-provider claim as fallback",
+    "Task scheduling and state changes trigger access validation before any state modification",
+    "Limited task-scheduling warning removed as users are now blocked at configuration stage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "finance"
+  ],
+  "quote": "Prevent guest users and external administrators from enabling or disabling Expense Agent.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

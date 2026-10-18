@@ -6,7 +6,7 @@
   "title": "Don't block approval workflow when foreground notification email fails",
   "url": "https://github.com/microsoft/BCApps/pull/12308",
   "published_at": "2026-10-08T20:10:17Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:17.003Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003935
+    },
+    "linked": {
+      "at": "2026-10-18T00:23:18.555Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-18T00:23:18.568Z",
+      "path": "content/changes/bcapps/12308.md"
     }
   },
   "input_hash": "a6df5599a8b2559c92826fb58a63ddc5dc2f93a5:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c9ec5029c45904dfd050172117c9a29e9012295d49ab5423a245dc02dc1ca80d"
+  "output_hash": "843246bdd875bc76f5cc842cf8fddf8fe3912f02fa8bcd4b799b8acb27d5a25f"
 }

@@ -6,7 +6,7 @@
   "title": "Block guest users from managing Expense Agent",
   "url": "https://github.com/microsoft/BCApps/pull/11909",
   "published_at": "2026-10-16T14:04:32Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -18,6 +18,13 @@
       "al": 4,
       "objects": 4,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:18.585Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003782
     }
   },
   "input_hash": "e51c552efbeb6821db450b199aae6b015371866c:c1",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "2773d754db1ee342b2dfde030b413e7ec8e59f46c74ef5f6bf50803b15f50985"
+  "output_hash": "6acb41f95979ee01ebdd28f303803175328a88ee7bad5eeb6aec85b57403ffa5"
 }

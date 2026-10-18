@@ -1,0 +1,29 @@
+{
+  "item_id": "change/bcapps-prs/12229",
+  "number": 12229,
+  "title": "#12144 Enable Inbound E-Documents page extensibility",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Inbound E-Documents page is made extensible to allow adding standard and custom fields.",
+  "key_points": [
+    "Page modification enables third-party developers to extend the Inbound E-Documents interface",
+    "Allows both standard and custom fields to be added to the page"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "We want to add some standard and custom fields to the Inbound E-Documents page.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

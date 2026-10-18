@@ -6,14 +6,22 @@
   "title": "[QM] Destination bin code is now visible and usable for the user",
   "url": "https://github.com/microsoft/BCApps/pull/12322",
   "published_at": "2026-10-15T18:28:25Z",
-  "state": "discovered",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
+    },
+    "fetched": {
+      "at": "2026-10-18T00:22:58.832Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 3,
+      "objects": 2,
+      "unjoined": 1
     }
   },
   "input_hash": "eb82e2c218fc1d452416f700eca98f188179b26f:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12322,
@@ -30,6 +38,7 @@
     "community_contribution": false,
     "title_key": "qm destination bin code is now visible and usable for the user"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-17T04:24:47.135Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f1ae770c215b7092109a71eed66892e7e8937d25f3252cefe3d4687e27861058"
 }

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12468",
+  "number": 12468,
+  "title": "[Shopify] Clarify VAT Bus. Posting Group tooltip",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify Tax Areas page tooltip now clarifies when the VAT business posting group applies to customers, including address matching, template overrides, and synchronization behavior.",
+  "key_points": [
+    "Improved tooltip documentation for VAT business posting group field",
+    "Explains application to new and existing customers",
+    "Clarifies address matching and template override behavior",
+    "Documents synchronization update handling",
+    "Single tooltip text enhancement"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

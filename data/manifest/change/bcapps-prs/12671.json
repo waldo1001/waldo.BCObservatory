@@ -6,7 +6,7 @@
   "title": "Fix extension settings actions and repeated marketplace installation",
   "url": "https://github.com/microsoft/BCApps/pull/12671",
   "published_at": "2026-10-15T10:46:21Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
@@ -18,6 +18,13 @@
       "al": 4,
       "objects": 4,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:18.587Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003782
     }
   },
   "input_hash": "a2f3b45a2b456f66eadd8ddba2d0f0e8f1f65cb0:c1",
@@ -40,5 +47,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "aae01bb4b00df74ea90b8c9b710fb7ec4367ef41efb3118336712f7d49658a13"
+  "output_hash": "c1fd9c7985cc8c1831bcc182a1121ee71d070afe01d2c3634cc2e9c92bdc377d"
 }

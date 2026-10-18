@@ -1,0 +1,116 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12322,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12322",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-15T18:28:25Z",
+  "merge_commit_sha": "eb82e2c218fc1d452416f700eca98f188179b26f",
+  "author": "6CRIPT",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[QM] Destination bin code is now visible and usable for the user",
+  "body_hash": "1a4b8371544a21353dca657a47562d0cc5deb3566b4f832f195baddec6e7a985",
+  "fixes_issues": [],
+  "work_items": [
+    650224
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Quality Management/Test Library/src/QltyInspectionUtility.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyCreateTransferOrder.Report.al",
+      "status": "modified",
+      "additions": 97,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyDispTransfer.Codeunit.al",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Permissions/QltyMgmtBinView.PermissionSet.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsDispositions.Codeunit.al",
+      "status": "modified",
+      "additions": 165,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/test/src/QltyTestsPermissionMgmt.Codeunit.al",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 6,
+    "additions": 348,
+    "deletions": 9,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyCreateTransferOrder.Report.al",
+        "status": "modified",
+        "key": "report/20410",
+        "type": "report",
+        "id": 20410,
+        "name": "Qlty. Create Transfer Order",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "report/20410"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyDispTransfer.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20444",
+        "type": "codeunit",
+        "id": 20444,
+        "name": "Qlty. Disp. Transfer",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "codeunit/20444"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Permissions/QltyMgmtBinView.PermissionSet.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Quality Management"
+  ]
+}

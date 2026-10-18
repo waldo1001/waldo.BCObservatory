@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12326",
+  "number": 12326,
+  "title": "Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Document Exchange and OCR service codeunits migrate from DotNet Http Web Request Mgt to native HttpClient, removing DotNet dependencies while maintaining backward-compatible public signatures.",
+  "key_points": [
+    "Native HttpClient replaces DotNet HttpWebRequest in token requests, service requests, and XML parsing",
+    "SecretText and [NonDebuggable] attributes protect credentials and authorization headers",
+    "DotNet XmlDocument replaced with native XmlDocument and XML DOM Management overloads",
+    "Session cookie handling converted from DotNet Cookie to native Cookie type with explicit re-authentication logic",
+    "Base64 encoding for embedded attachments replaces DotNet File and Convert classes"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": "It follows #10755 (merged) and #12254 (draft) and uses the same patterns.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

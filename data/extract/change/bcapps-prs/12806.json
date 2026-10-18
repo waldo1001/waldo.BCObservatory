@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12806",
+  "number": 12806,
+  "title": "[main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Quote-to-order conversion now defers automatic reservation until the entire conversion completes, preventing partial orders and orphaned quotes when the browser session closes.",
+  "key_points": [
+    "Defer manual reservation until conversion completes",
+    "Prevents partial order preservation when browser tab closes during conversion",
+    "Eliminates orphaned quote records alongside incomplete orders",
+    "Adds comprehensive test coverage for interruption scenarios",
+    "Applied to all affected localization layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": "Defer manual reservation until conversion completes, so interruption cannot preserve a partially converted order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

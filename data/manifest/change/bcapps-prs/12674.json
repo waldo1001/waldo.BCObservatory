@@ -6,7 +6,7 @@
   "title": "[API tests] Default to web service key authentication",
   "url": "https://github.com/microsoft/BCApps/pull/12674",
   "published_at": "2026-10-15T12:56:04Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-16T00:19:25.651Z"
@@ -32,5 +32,7 @@
     "title_key": "api tests default to web service key authentication"
   },
   "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-17T04:26:33.300Z"
+  "retry_after": null,
+  "skip": "non-code",
+  "skipped_at": "2026-10-18T00:23:02.254Z"
 }

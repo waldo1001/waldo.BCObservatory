@@ -6,7 +6,7 @@
   "title": "Financial reporting a few improvements",
   "url": "https://github.com/microsoft/BCApps/pull/12262",
   "published_at": "2026-10-09T09:09:19Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,23 @@
       "al": 10,
       "objects": 5,
       "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:16.998Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003935
+    },
+    "linked": {
+      "at": "2026-10-18T00:23:18.051Z",
+      "objects": 5,
+      "unjoined": 5,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-18T00:23:18.085Z",
+      "path": "content/changes/bcapps/12262.md"
     }
   },
   "input_hash": "91fc7526dcfcfaa148570393984a12f9b3ff4fe8:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "9f24f621b63deef516883201ae707dcecfbf0459d079bc1c274d943d5a9cd9e0"
+  "output_hash": "caa08c6613e085ab641db537381a815e09f0104a8c1a5ee01c38d30c852e49fc"
 }

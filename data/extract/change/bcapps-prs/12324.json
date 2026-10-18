@@ -1,0 +1,48 @@
+{
+  "item_id": "change/bcapps-prs/12324",
+  "number": 12324,
+  "title": "Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Http Web Request Mgt usage is removed from webhook and OData public APIs by replacing DotNet-based code with native HttpClient and HttpRequestMessage, while obsoleting old event signatures.",
+  "key_points": [
+    "SendRequest in API Webhook Notification Send uses native HttpClient instead of DotNet Http Web Request Mgt",
+    "New event OnSendRequestOnBeforeSendHttpRequest replaces obsolete OnSendRequestOnBeforeSendRequestAndReadTextResponse",
+    "Behavior preserved: POST with JSON headers, UTF-8 body, timeouts, telemetry tags, and retry rules unchanged",
+    "ODataUtility CreateMetadataWebRequest method obsoleted; callers should use native HttpClient/HttpRequestMessage"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [
+    {
+      "object": "API Webhook Notification Send",
+      "member": "OnSendRequestOnBeforeSendRequestAndReadTextResponse",
+      "replacement": "OnSendRequestOnBeforeSendHttpRequest"
+    },
+    {
+      "object": "API Webhook Notification Send",
+      "member": "OnAfterSendNotification (with DotNet HttpStatusCode parameter)",
+      "replacement": "OnAfterSendNotificationWithStatusNumber"
+    },
+    {
+      "object": "ODataUtility",
+      "member": "CreateMetadataWebRequest",
+      "replacement": null
+    }
+  ],
+  "systems": [
+    "integration",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

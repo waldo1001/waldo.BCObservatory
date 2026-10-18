@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11555",
+  "number": 11555,
+  "title": "[SharePoint Graph] Follow-up corrections for UpdateListItem and drive item telemetry",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations and improve drive item telemetry with operation name dimensions.",
+  "key_points": [
+    "UpdateListItem preserves ContentType, WebUrl, CreatedDateTime, and LastModifiedDateTime fields when record already exists",
+    "ParseListItemFieldValueSet returns Boolean and reports parse errors under new event ID 0000UKW",
+    "Drive item update operations include OperationName dimension for better telemetry distinguishability",
+    "GetListItem keeps default $expand=fields parameter to prevent mutation of caller's parameters",
+    "Tests added to protect against parameter leakage and verify field preservation"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003782,
+    "changes_in_call": 6
+  }
+}

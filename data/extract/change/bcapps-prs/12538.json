@@ -1,0 +1,35 @@
+{
+  "item_id": "change/bcapps-prs/12538",
+  "number": 12538,
+  "title": "Remove CLEAN27 for Create Item from Item No. setup fields",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "purchasing"
+  ],
+  "summary": "Removed CLEAN27 compatibility code for Create Item from Item No. setup fields across all localization layers and test libraries as the migration period has ended.",
+  "key_points": [
+    "Removed CLEAN27 code from Sales and Purchases setup fields",
+    "Cleaned up UI controls related to item creation setup",
+    "Updated test libraries to remove legacy setup methods",
+    "Applied changes across all localization layers",
+    "Resolved issue AB#647784"
+  ],
+  "change_kind": "obsoletion",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006013,
+    "changes_in_call": 2
+  }
+}

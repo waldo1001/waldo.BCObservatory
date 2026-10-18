@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12262",
+  "number": 12262,
+  "title": "Financial reporting a few improvements",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "Add improvements to financial reporting including a new action group for running reports and navigation from account lists to uncategorized accounts.",
+  "key_points": [
+    "New 'Run report' action group added to financial reporting interface",
+    "Users can navigate from G/L Account List to accounts without category assignment",
+    "Save PDF from reporting packs with filename based on pack code",
+    "Changes applied across multiple localization layers (APAC, CH, ES, FR, W1)",
+    "New handler codeunit created for export filename management"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003935,
+    "changes_in_call": 6
+  }
+}

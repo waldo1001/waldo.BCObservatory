@@ -1,0 +1,368 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12148,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12148",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-16T11:23:29Z",
+  "merge_commit_sha": "e96e976513a3232497ba7b333447e6db2761d1ba",
+  "author": "GediminasGaubys",
+  "author_type": "User",
+  "labels": [
+    "ADO: Sync",
+    "AL: Apps (W1)",
+    "From Fork",
+    "Team: Integrations"
+  ],
+  "community_contribution": true,
+  "title": "[E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision",
+  "body_hash": "1eb66ddb80e2bf2a451989cfdb7183c0faf0fdeb3ae676b57f606bb5ae45ea6c",
+  "fixes_issues": [],
+  "work_items": [
+    648723
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/EDocument/App/docs/extensibility.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 3,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/ImportEDocumentProcess.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocSalesDocHelper.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesHeader.Table.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesLine.Table.al",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPeppolMsgBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 689,
+      "deletions": 15,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocResponseType.Enum.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/docs/business-logic.md",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 8,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-description-fallback.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-line-tax-total.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-multiple-delivery.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-no-monetary-total.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-originator-party.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-typecode-221.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/.resources/peppol/peppol-order-with-charge.xml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocMessageResponseTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1138,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/Test/src/Processing/EDocProcessTest.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddrScheme.Enum.al",
+      "status": "added",
+      "additions": 350,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddress.Codeunit.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/App/src/Response/PEPPOLOrderRespBuilder.Codeunit.al",
+      "status": "modified",
+      "additions": 383,
+      "deletions": 49,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOL30ManagementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 26,
+    "additions": 2766,
+    "deletions": 98,
+    "al": 14
+  },
+  "join": {
+    "major": "30",
+    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "objects": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6108",
+        "type": "codeunit",
+        "id": 6108,
+        "name": "E-Document Processing",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6108"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6103",
+        "type": "codeunit",
+        "id": 6103,
+        "name": "E-Document Subscribers",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6103"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/ImportEDocumentProcess.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6104",
+        "type": "codeunit",
+        "id": 6104,
+        "name": "Import E-Document Process",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6104"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocSalesDocHelper.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6427",
+        "type": "codeunit",
+        "id": 6427,
+        "name": "E-Doc. Sales Doc. Helper",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6427"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesHeader.Table.al",
+        "status": "modified",
+        "key": "table/6153",
+        "type": "table",
+        "id": 6153,
+        "name": "E-Document Sales Header",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6153"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Sales/EDocumentSalesLine.Table.al",
+        "status": "modified",
+        "key": "table/6154",
+        "type": "table",
+        "id": 6154,
+        "name": "E-Document Sales Line",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "table/6154"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/StructureReceivedEDocument/EDocumentPEPPOLHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6173",
+        "type": "codeunit",
+        "id": 6173,
+        "name": "E-Document PEPPOL Handler",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6173"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6433",
+        "type": "codeunit",
+        "id": 6433,
+        "name": "E-Doc. Message Mgt.",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6433"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocPeppolMsgBuilder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6434",
+        "type": "codeunit",
+        "id": 6434,
+        "name": "E-Doc. PEPPOL Msg. Builder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6434"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocResponseType.Enum.al",
+        "status": "modified",
+        "key": "enum/6427",
+        "type": "enum",
+        "id": 6427,
+        "name": "E-Doc. Response Type",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "enum/6427"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Response/PEPPOLOrderRespBuilder.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/37209",
+        "type": "codeunit",
+        "id": 37209,
+        "name": "PEPPOL Order Resp. Builder",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37209"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddrScheme.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddress.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "EDocument",
+    "PEPPOL"
+  ]
+}

@@ -6,7 +6,7 @@
   "title": "[main] carry out overwrites changed req wksh direct unit cost",
   "url": "https://github.com/microsoft/BCApps/pull/12469",
   "published_at": "2026-10-16T11:35:42Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -18,6 +18,23 @@
       "al": 3,
       "objects": 2,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:16.996Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003935
+    },
+    "linked": {
+      "at": "2026-10-18T00:23:18.048Z",
+      "objects": 2,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-18T00:23:18.083Z",
+      "path": "content/changes/bcapps/12469.md"
     }
   },
   "input_hash": "10d7f10eb5d4103e11c422f320435e78f71404f9:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "8c706aed53ca9633ce946e4e2ff191b1acb5c9dcdbe032789aa0cb9220fdd763"
+  "output_hash": "5cab97ce0ad5811c21c806cb1a506ec057a1703a948142b11e854cc9000b34e6"
 }

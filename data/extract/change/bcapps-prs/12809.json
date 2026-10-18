@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12809",
+  "number": 12809,
+  "title": "Bugs/bug 654102  main]purch order vendor change automatically applied to next order",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Purchase Order page now prevents vendor changes from automatically applying to subsequent orders during the same session.",
+  "key_points": [
+    "Fixes automatic vendor value propagation to next purchase order",
+    "Vendor selection changes no longer carry over after navigation",
+    "Applied to all localization layers",
+    "Includes regression test coverage via TestVendorLookup test"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

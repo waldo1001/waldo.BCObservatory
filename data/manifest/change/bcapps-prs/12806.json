@@ -6,7 +6,7 @@
   "title": "[main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote",
   "url": "https://github.com/microsoft/BCApps/pull/12806",
   "published_at": "2026-10-16T05:34:21Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -18,6 +18,23 @@
       "al": 4,
       "objects": 1,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:14.576Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.002946
+    },
+    "linked": {
+      "at": "2026-10-18T00:23:16.029Z",
+      "objects": 1,
+      "unjoined": 3,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-18T00:23:16.052Z",
+      "path": "content/changes/bcapps/12806.md"
     }
   },
   "input_hash": "5060dc09c260077d4d13a337f64997d24816a61f:c1",
@@ -39,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "7a84dccce74f1d3ff33dabf18c96db026ae5af77e666ae6127091bdceac3ffa6"
+  "output_hash": "0ace7f68d98ab6b7b9b548806d600804b354bf31955b619944987bb96f60474f"
 }

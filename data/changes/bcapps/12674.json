@@ -1,0 +1,45 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12674,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12674",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-15T12:56:04Z",
+  "merge_commit_sha": "0d09d18f6711057e62ff12e2af62ede63868ec36",
+  "author": "t-prda",
+  "author_type": "User",
+  "labels": [
+    "Build: scripts & configs",
+    "Team: Finance",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "[API tests] Default to web service key authentication",
+  "body_hash": "e7a2f0c0f2ee103361fdbec0a4dbc934a239a0e5e044bf1258c45337e9a5b3e2",
+  "fixes_issues": [
+    12677
+  ],
+  "work_items": [
+    646383,
+    653393,
+    653457
+  ],
+  "change_class": "build",
+  "files": [],
+  "totals": {
+    "files": 35,
+    "additions": 252,
+    "deletions": 757,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

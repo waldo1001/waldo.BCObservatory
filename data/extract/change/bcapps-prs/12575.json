@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12575",
+  "number": 12575,
+  "title": "[Backport 29.x] E-Documents supported type direction configuration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "copilot"
+  ],
+  "summary": "E-Documents app backport adds direction configuration for service-supported document types, allowing per-service control over incoming and outgoing document processing with automated upgrade behavior.",
+  "key_points": [
+    "Add supported-type direction configuration to control incoming/outgoing document handling",
+    "New enum E-Doc. Supp. Type Direction manages document type direction",
+    "Service-specific document type support now enforces configured direction",
+    "Includes upgrade behavior and automated test coverage",
+    "Backported from main branch to maintain release consistency"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Added supported-type direction configuration and enforcement for E-Document services.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

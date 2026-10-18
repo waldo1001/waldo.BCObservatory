@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12817",
+  "number": 12817,
+  "title": "[SOA] Use company display name in default email signature",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Sales Order Agent now uses company display name instead of internal company identifier in default email signatures, improving customer communication.",
+  "key_points": [
+    "Replace CompanyName() with CompanyProperty.DisplayName() in email signatures",
+    "Applies to default setup signature, agent instructions, and outgoing-message fallback",
+    "Preserves existing HTML formatting, AI disclosure, and custom-signature behavior",
+    "Affects signatures when display name differs from internal company identifier",
+    "Low-risk single-line change with no schema or permission modifications"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

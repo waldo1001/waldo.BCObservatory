@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12003",
+  "number": 12003,
+  "title": "[Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Fix project planning lines being created in reverse order when posting purchase invoices with copy line descriptions enabled.",
+  "key_points": [
+    "Project Planning Lines now maintain original purchase line sequence instead of appearing in reverse (3,2,1 instead of 1,2,3)",
+    "Issue occurred when 'Copy Line Descr. to G/L Entry' setting was enabled in Purchases & Payables Setup",
+    "Root cause was Invoice Posting Buffer processing groups in descending source line number order",
+    "Solution adds ascending sort by source line number before processing the buffer",
+    "Does not affect G/L Entry, VAT Entry, or Job Ledger Entry posting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "projects",
+    "purchasing"
+  ],
+  "quote": "Project Planning Lines are created in reverse order when purchase line descriptions are copied",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003935,
+    "changes_in_call": 6
+  }
+}

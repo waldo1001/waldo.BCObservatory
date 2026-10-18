@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12469",
+  "number": 12469,
+  "title": "[main] carry out overwrites changed req wksh direct unit cost",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Preserve manually entered direct unit costs in requisition worksheets when carrying out to purchase orders instead of replacing them with active purchase prices.",
+  "key_points": [
+    "Manual Direct Unit Cost values are now kept when requisition lines are converted to purchase orders",
+    "Root cause was Order Date validation recalculating costs from active price lists",
+    "Solution preserves the requisition line's direct unit cost during validation",
+    "Added regression test confirming manual overrides survive the carry-out process",
+    "Affects multiple localization layers (IT, NA, W1)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing",
+    "inventory"
+  ],
+  "quote": "Preserve the requisition line's Direct Unit Cost across Order Date validation.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003935,
+    "changes_in_call": 6
+  }
+}

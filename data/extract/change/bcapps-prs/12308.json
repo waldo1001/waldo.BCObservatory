@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12308",
+  "number": 12308,
+  "title": "Don't block approval workflow when foreground notification email fails",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Prevent approval workflow blocking when foreground notification email delivery fails by logging errors instead of raising exceptions mid-transaction.",
+  "key_points": [
+    "Foreground instant notifications for delegated users no longer raise errors when email delivery fails",
+    "Failed notifications are logged to telemetry and shown to users as notifications with Details action instead of blocking workflows",
+    "Failed Notification Entries retain error details and remain available for later dispatch",
+    "New internal flag SetRunInForeground distinguishes foreground dispatch path from job queue path",
+    "Workflow response steps can now complete successfully despite email delivery failures"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003935,
+    "changes_in_call": 6
+  }
+}

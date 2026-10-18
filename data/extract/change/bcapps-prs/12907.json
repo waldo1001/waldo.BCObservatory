@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12907",
+  "number": 12907,
+  "title": "Fix direct transfer upgrade without Inventory Setup",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "platform"
+  ],
+  "summary": "Direct transfer order upgrade now handles missing Inventory Setup by retaining fallback shipment and receipt behavior, preventing migration failures when the setup record does not exist.",
+  "key_points": [
+    "Avoid unnecessary Inventory Setup reads when no direct transfer orders need migration",
+    "Enable direct transfer orders to upgrade even when Inventory Setup is missing",
+    "Retain existing fallback logic for shipment and receipt posting",
+    "Added regression tests for missing setup and configured posting types",
+    "Applied to all localization layers"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "integration"
+  ],
+  "quote": "allow direct transfer orders to upgrade when Inventory Setup is missing by retaining the existing Shipment and Receipt fallback",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.002946,
+    "changes_in_call": 6
+  }
+}

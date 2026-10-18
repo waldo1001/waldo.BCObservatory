@@ -6,7 +6,7 @@
   "title": "#12144 Enable Inbound E-Documents page extensibility",
   "url": "https://github.com/microsoft/BCApps/pull/12229",
   "published_at": "2026-10-09T11:49:24Z",
-  "state": "fetched",
+  "state": "extracted",
   "stages": {
     "discovered": {
       "at": "2026-10-10T00:24:04.383Z"
@@ -18,6 +18,13 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-18T00:23:18.588Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003782
     }
   },
   "input_hash": "766f633e91e8d5d1468a1410ee8226d2b0df3607:c1",
@@ -42,5 +49,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1c077f5e0472ae58e1f19ea0f38d483297b9baedd99cb9e8516d094f3bba9a4b"
+  "output_hash": "fc834fbb5dbd2e7f94239242978677bf96078d970af9c8eb59220db1c37aee12"
 }
