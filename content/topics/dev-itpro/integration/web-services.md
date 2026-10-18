@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -323,11 +323,14 @@ links:
     - video/sk5CaXnvvng
     - video/VpNQ-CYNrkM
   posts:
+    - post/aardvarklabs-blog/2678
+    - post/aardvarklabs-blog/2812
     - post/demiliani-com/11796
   guidelines: []
   changes:
     - change/bcapps/11168
     - change/bcapps/11318
+    - change/bcapps/11745
     - change/bcapps/9711
     - change/bcapps/9737
     - change/bcquality/100
@@ -346,7 +349,7 @@ coverage:
   learn: 294
   code: 1
   video: 4
-  blog: 1
+  blog: 3
   guideline: 0
 bc_forms:
   - 812
@@ -402,9 +405,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11168 Restore E-Document vendor invoice field compatibility](../../../changes/bcapps/11168.md) (code change): "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.'"
 - [#11318 [main] Bug 649189: Update E-Document vendor invoice caption](../../../changes/bcapps/11318.md) (code change): "Table field caption changed to 'Applies-to Ext. Invoice No.'"
+- [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
 - [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
 - [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs from translatable AL labels"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Adds guidance and code samples for linking API parts on SystemId with Multiplicity set"
+- [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "useful for API handling"
+- [Advanced JSON Management for Business Central Developers](../../../posts/aardvarklabs-blog/2812.md) (community post): "SaaS-safe operations for cloud deployments"
 - [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects for API integrations in Business Central"
 - [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../videos/qNHUj3ZEang.md) (video): "REST Client; cookies; http requests; al development"
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"

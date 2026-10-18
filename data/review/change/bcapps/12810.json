@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12810",
+  "input_hash": "17fb1747a01c80e81a0d05725ee164b2aa5800e33749d015ebeb4b1ab4973946",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:29.182Z",
+  "issues": [
+    "The description is an empty template, so claims about initialization and validating the setup process are speculative.",
+    "Rewritten to stay with the title and the changed files."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020217,
+    "changes_in_call": 6
+  }
+}

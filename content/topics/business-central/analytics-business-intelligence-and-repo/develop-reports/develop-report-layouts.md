@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:25.418Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,11 +105,8 @@ links:
   localizations: []
   videos:
     - video/-vdhfNMNZQk
-    - video/6dEZQlmBlyI
     - video/BofJJPqgrTI
-    - video/fy96_jdL1PQ
     - video/hn92Al_x-s8
-    - video/hSJW3LiOBxg
     - video/mS6NDhj20yI
     - video/vLcb31rfZ48
     - video/XLUAuUWtJDw
@@ -130,7 +127,7 @@ children: []
 coverage:
   learn: 9
   code: 6
-  video: 10
+  video: 7
   blog: 4
   guideline: 0
 bc_forms:
@@ -190,11 +187,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Quick Tip: It’s Time to Move to the Word Add-in Data Picker](../../../../posts/thinkaboutit-be/8096.md) (community post): "New fields inserted via the XML Mapping pane stopped mapping correctly in August 2026"
 - [Business Central 29: Introducing Composite Document Layouts](../../../../posts/thinkaboutit-be/8250.md) (community post): "Composite Document Layouts, a modular approach to Word document layouts"
 - [Introducing: Composite Document Layouts (2026 release wave 2)](../../../../videos/-vdhfNMNZQk.md) (video): "Composite layouts for documents; Body layout; Theme application"
-- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../../videos/6dEZQlmBlyI.md) (video): "Report Region in Advanced Spreadsheets; Query Region in Advanced Spreadsheets"
 - [What's New: Excel Layouts For Developers (2024 release wave 1)](../../../../videos/BofJJPqgrTI.md) (video): "Translatable Excel Layouts; Report Metadata Worksheet; Caption Data Worksheet"
-- [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "Report Object with Multiple Layouts; Word report layouts; Excel report layouts"
 - [What’s New: Reporting Features (For Developers and Consultants) (2024 release wave 2)](../../../../videos/hn92Al_x-s8.md) (video): "report layouts; word documents; excel reports; metadata; named formulas"
-- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "Excel Layout Multiple Data Sheets; Power Pivot Relationships in Excel"
 - [What's New: Enhanced Document Reporting (2026 release wave 1)](../../../../videos/mS6NDhj20yI.md) (video): "Enhanced data picker UX; Insert table action; Layout lifecycle and status management"
 - [What's New: Document Reporting (2025 release wave 2)](../../../../videos/vLcb31rfZ48.md) (video): "word layouts; data picker; document reporting; word addin"
 - [What's new in Document Reporting: Word add-in (2026 release wave 2)](../../../../videos/XLUAuUWtJDw.md) (video): "Word add-in; document reporting; data picker; company information"

@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/australia
 type: topic
 title: Australia
-summary: "Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance."
+summary: "Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance (BAS, financial reports), general features (ABN, DPID/AMAS, Payment Times Reporting) and e-invoicing in Peppol PINT A-NZ format. It answers setup and usage questions for Australian regulatory needs."
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:29.795Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 373cacbcce017fef53576315c6eff42c19c415d94cf9d1e8175b8b905a373c89
+  input_hash: 98058b443e1c68f2e5cac406712a3a22c16e50684bfbf854e9d2495e39b75af9
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Australia/addresses
@@ -282,28 +282,26 @@ narrative: generated
 
 # Australia
 
-> Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance and BAS reporting, ABN handling, and electronic invoicing with Peppol PINT A-NZ. It answers setup and how-to questions for Australian compliance.
+> Australia local functionality in Business Central: tax (WHT, GST), banking and payments (EFT, reconciliation), core finance (BAS, financial reports), general features (ABN, DPID/AMAS, Payment Times Reporting) and e-invoicing in Peppol PINT A-NZ format. It answers setup and usage questions for Australian regulatory needs.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Australia · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Australia section covers features added for Australian regulatory and business requirements. An introductory page lists the main areas: withholding tax and GST, EFT and bank reconciliation, financial reports, and ABN entry. A separate page covers electronic invoicing using the E-Document framework with the Peppol PINT A-NZ format.
+This section covers features specific to Australian deployments of Business Central. The overview page lists the main areas: tax, e-invoicing, banking and payments, core finance, and general features. It references 2027 release wave 1.
 
-The detail sits in four subtopics. Tax covers WHT setup and settlement, vendors without an ABN, GST posting, GST on prepayments, GST settlement reports and exchange rate adjustment for VAT entries. Banking and payments covers bank cash flow comparison, check installments, EFT vendor payments, and bank reconciliation and deposit slip reports. Core finance covers distribution amount calculation, balance sheet and income statement reports, and business units for BAS. General covers addresses, ABN and adjustment notes, cost plus percentage pricing and Payment Times Reporting.
+The subtopics split by area. Tax covers withholding tax setup and settlement, GST posting, GST on prepayments, settlement reports and VAT settlement exchange rate adjustment. Banking and payments covers EFT for vendor payments, check installments, bank cash flow comparison, and bank reconciliation and deposit slip reports. Core finance covers distribution amounts, balance sheet and income statement reports, and business unit setup for BAS. General covers DPID and AMAS addressing, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.
 
-Start with the Australia local functionality page for an overview, then go to the subtopic that matches your task. Use the electronic invoicing page if you need to send e-documents in Australia.
+The e-invoicing page explains how to use the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup for sales and purchasing. Start with the overview page, then go to the subtopic that matches your requirement, usually Tax or General for first-time setup.
 
 ## Key points
 
-- Withholding tax (WHT) has its own setup and settlement pages, including handling of vendors without an ABN.
-- GST support includes posting, GST on prepayments, GST settlement reports, and settlement exchange rate adjustment for VAT entries.
-- EFT vendor payments are supported in the banking and payments pages.
-- Banking pages also cover bank cash flow comparison, check installments, and printing bank reconciliation and deposit slip reports.
-- Core finance covers distribution amount calculation and printing balance sheet and income statement reports.
-- Business units can be set up for business activity statements (BAS) consolidation.
-- General pages cover address handling, ABN and adjustment notes, cost plus percentage pricing, and Payment Times Reporting.
-- Electronic invoicing uses the E-Document framework with the Peppol PINT A-NZ format and service integration.
+- Tax: withholding tax (WHT) setup and settlement, GST posting, GST on prepayments, settlement reports, and VAT settlement exchange rate adjustment.
+- E-invoicing uses the E-Documents framework with the Peppol PINT A-NZ format, including service integration and e-invoice setup.
+- Banking and payments: EFT for vendor payments, check installments, bank cash flow comparison, bank account reconciliation and deposit slip reports.
+- Core finance: distribution amounts, balance sheet and income statement reports, and business unit setup for BAS group consolidation.
+- General: address handling with DPID and AMAS, ABN and adjustment notes, cost plus percentage sales pricing, and Payment Times Reporting.
+- The overview page references 2027 release wave 1.
 
 ## Subtopics
 

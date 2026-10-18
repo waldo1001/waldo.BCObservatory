@@ -117,6 +117,48 @@
         "at": "2026-10-07T16:29:27.015Z"
       }
     },
+    "topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to/microsoft-fabric": {
+      "post/bertverbeek-nl/1143@6c055d33f92c1a33": {
+        "verdict": "drop",
+        "reason": "About a preview feature of bc2adls, a third-party community tool, rather than the Fabric integration this section documents.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/bertverbeek-nl/1173@f5ebe63faa0aecc2": {
+        "verdict": "drop",
+        "reason": "About training an AutoML model in Fabric; Business Central data is just the example dataset.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/bertverbeek-nl/1196@5bcdd3b8b2d86e31": {
+        "verdict": "drop",
+        "reason": "About Fabric Data Agents, a Fabric-side feature, not how Business Central data gets into Fabric for analysis.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/bertverbeek-nl/1318@5fbd2bb16b9536fc": {
+        "verdict": "keep",
+        "reason": "Covers Business Central's native Fabric integration: how it syncs, how it's set up and its requirements.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/demiliani-com/15981@1e3ae1a50e02a848": {
+        "verdict": "keep",
+        "reason": "Covers Business Central data mirroring to Fabric: setup, latency and capacity requirements.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/thinkaboutit-be/8229@be6eda255137e4a4": {
+        "verdict": "keep",
+        "reason": "Covers mirroring Business Central data to Fabric: setup steps, configuration packages and monitoring.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "post/waldo-be/318707@075857747db2e4d8": {
+        "verdict": "keep",
+        "reason": "Covers native mirroring to Fabric: setup, monitoring pages, cost and the Power BI apps.",
+        "at": "2026-10-18T00:54:52.365Z"
+      },
+      "video/kOCiyVql0go@49918665f6b1dd4c": {
+        "verdict": "keep",
+        "reason": "Demonstrates Business Central Fabric mirroring: the integration app, monitoring logs, APIs and permissions.",
+        "at": "2026-10-18T00:54:52.365Z"
+      }
+    },
     "topic/business-central/analytics-business-intelligence-and-repo/built-in-reports/finance": {
       "video/mZNfMPpxovE@6ff7fa60401c43bd": {
         "verdict": "drop",
@@ -161,48 +203,78 @@
     "topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-layouts": {
       "post/aardvarklabs-blog/2271@de7854386541a124": {
         "verdict": "keep",
-        "reason": "Explains how RDLC layouts work, how to edit them in Report Builder and how to upload them, which is core layout development.",
-        "at": "2026-10-08T06:28:05.028Z"
-      },
-      "post/gerardorenteria-blog/12801@dad2c9b17ae9c3dd": {
-        "verdict": "drop",
-        "reason": "About rendering Mermaid diagrams through a control add-in, not about report layouts.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "Explains RDLC layout fundamentals and editing layouts in Report Builder.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
       "post/gerardorenteria-blog/13675@03396f519bdd7642": {
         "verdict": "drop",
-        "reason": "An extension adding notes to financial report lines; it customizes financial reports, not report layout development.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "About an extension adding notes to financial report lines, not report layout development.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-4594837215872264619@9e099687770af155": {
         "verdict": "keep",
-        "reason": "Walks through building composite Word layouts, including the AL Subtype, HeaderFooterPart and ThemePart properties.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "Walks through composite Word layouts including AL layout properties.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
       "post/thinkaboutit-be/8096@af9a75e67b746936": {
         "verdict": "keep",
-        "reason": "Covers inserting fields into Word report layouts through the Word add-in data picker instead of the XML Mapping pane.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "Covers inserting fields in Word report layouts via the add-in data picker versus XML mapping.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
       "post/thinkaboutit-be/8250@4d0d426b1ccd0819": {
         "verdict": "keep",
-        "reason": "Explains composite Word document layouts, where the body, theme and header/footer are separate parts combined at runtime.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "Explains composite document layouts for Word reports.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
       "video/-vdhfNMNZQk@bbe7afb04c2ac108": {
         "verdict": "keep",
-        "reason": "Demonstrates composite document layouts: body layouts, themes and header/footer layouts.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "Demonstrates composite layouts with body, theme and header/footer parts.",
+        "at": "2026-10-18T00:54:44.376Z"
       },
-      "video/1ft4o9lQzsU@7d2d8d29cb5f22af": {
-        "verdict": "keep",
-        "reason": "Covers developing Excel report layouts, including the data contract, metadata sheets and refreshable layouts.",
-        "at": "2026-10-08T06:28:05.028Z"
-      },
-      "video/2N2NhNH7dsk@751dcce567fffb1e": {
+      "video/6dEZQlmBlyI@449ec961b51cacb6": {
         "verdict": "drop",
-        "reason": "About layout approval states, admin control of which layouts users see, and the report inbox APIs, which is managing layouts rather than building them.",
-        "at": "2026-10-08T06:28:05.028Z"
+        "reason": "About Advanced Spreadsheets report regions, a different capability.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/BofJJPqgrTI@c4b74f10b0e4fe2e": {
+        "verdict": "keep",
+        "reason": "Covers Excel layout development features for developers.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/fy96_jdL1PQ@5e76d8486583f625": {
+        "verdict": "drop",
+        "reason": "Broad reporting overview episode, too general and largely Power BI and training.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/hn92Al_x-s8@0b8efc57607d6620": {
+        "verdict": "keep",
+        "reason": "Covers report layout features such as schema export, blank layouts and layout properties.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/hSJW3LiOBxg@eab75c4edf7ef6f0": {
+        "verdict": "drop",
+        "reason": "Mostly about Power BI embedding; Excel layouts get only a passing mention.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/mS6NDhj20yI@1983bd504cd5fca4": {
+        "verdict": "keep",
+        "reason": "Covers Word add-in data picker and layout lifecycle for document layouts.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/vLcb31rfZ48@dc7434b09f901ead": {
+        "verdict": "keep",
+        "reason": "Demonstrates building Word layouts with the add-in data picker.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/XLUAuUWtJDw@58e19e4f16f34241": {
+        "verdict": "keep",
+        "reason": "Shows Word add-in layout design controls, themes and header/footer templates.",
+        "at": "2026-10-18T00:54:44.376Z"
+      },
+      "video/z7UTBiCNOo8@4dd7107140d29097": {
+        "verdict": "keep",
+        "reason": "Shows Excel layouts for built-in reports and customizing them in Excel.",
+        "at": "2026-10-18T00:54:44.376Z"
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/kpis-dashboards-and-financial-reports": {
@@ -7847,35 +7919,65 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-azure-services": {
-      "post/bertverbeek-nl/1173@771e3ac057d4be78": {
-        "verdict": "drop",
-        "reason": "About building a machine-learning model in Microsoft Fabric; getting Business Central data out is only a side step, not Azure service integration.",
-        "at": "2026-10-08T06:28:56.902Z"
-      },
-      "post/demiliani-com/11817@72aeab890fad21d3": {
+      "post/demiliani-com/11817@e896b94c5b5528dc": {
         "verdict": "keep",
-        "reason": "Shows how to use Azure Functions with SQL triggers to build event-driven integrations with Business Central.",
-        "at": "2026-10-08T06:28:56.902Z"
+        "reason": "Demonstrates an Azure Functions integration that pushes data into Business Central.",
+        "at": "2026-10-18T00:54:47.612Z"
       },
-      "post/demiliani-com/11887@82469125673addc3": {
+      "post/demiliani-com/11887@05d3b556553be9a8": {
         "verdict": "keep",
-        "reason": "Uses an Azure Function with VNet integration and a NAT gateway (which gives a fixed outbound IP) as middleware for calls to the Business Central API, a concrete Azure integration pattern.",
-        "at": "2026-10-08T06:28:56.902Z"
+        "reason": "Uses an Azure Function as middleware for Business Central API calls.",
+        "at": "2026-10-18T00:54:47.612Z"
       },
-      "post/demiliani-com/14064@b6c0c0b7e8ebb811": {
+      "post/demiliani-com/12532@9267be1979f622b2": {
         "verdict": "drop",
-        "reason": "About moving Azure and Power Platform resources to a new region, which is infrastructure operations rather than integrating Business Central with Azure services.",
-        "at": "2026-10-08T06:28:56.902Z"
+        "reason": "Generic Azure Functions hosting-plan migration with no Business Central integration content.",
+        "at": "2026-10-18T00:54:47.612Z"
       },
-      "post/jpearson-blog/1601@193282c6a182f26a": {
-        "verdict": "drop",
-        "reason": "The lesson is the WebPageViewer control add-in and postMessage messaging; Azure Static Web Apps is only where the page is hosted.",
-        "at": "2026-10-08T06:28:56.902Z"
-      },
-      "video/2vUCR16b85o@149ca55b924c5ee7": {
+      "post/demiliani-com/13020@b75badfd55ab0c7f": {
         "verdict": "keep",
-        "reason": "Demonstrates the Azure Blob and Azure File service connectors for storing files outside Business Central.",
-        "at": "2026-10-08T06:28:56.902Z"
+        "reason": "Covers securing an Azure Storage account that Business Central integrates with.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/demiliani-com/13155@9ce7445c068e9b86": {
+        "verdict": "drop",
+        "reason": "Generic Azure Functions storage configuration, not specific to Business Central integration.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/demiliani-com/13197@b0fb40c0a60bfc7f": {
+        "verdict": "drop",
+        "reason": "Generic Azure Storage TLS requirement; Business Central is mentioned only in passing.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/demiliani-com/14064@bc3abeda456faa68": {
+        "verdict": "drop",
+        "reason": "About migrating Azure resources between regions, which is infrastructure operations rather than integration.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/demiliani-com/17492@ab938d74c78d9e4e": {
+        "verdict": "keep",
+        "reason": "Restricts Azure Storage access to Business Central using its service tag, as part of the storage integration.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/jpearson-blog/1485@a73aff8b48312929": {
+        "verdict": "keep",
+        "reason": "Shows Azure Functions calling Business Central APIs using managed identities.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/jpearson-blog/1535@654bb4479c916d6a": {
+        "verdict": "keep",
+        "reason": "Shows Azure resources calling Business Central directly with managed identities.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-8092462798375727234@628fbaedd5cc63f7": {
+        "verdict": "drop",
+        "reason": "About an MCP proxy for Claude Desktop; the Azure app registration is only a setup step.",
+        "at": "2026-10-18T00:54:47.612Z"
+      },
+      "video/2vUCR16b85o@929b2e40995a13e8": {
+        "verdict": "keep",
+        "reason": "Demonstrates the Azure Blob and Azure File service connectors for storing Business Central files.",
+        "at": "2026-10-18T00:54:47.612Z"
       }
     },
     "topic/dev-itpro/integration/integrating-with-external-systems-using": {
@@ -8080,70 +8182,50 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi": {
-      "post/aardvarklabs-blog/2017@930b8fc974af98a5": {
+      "post/aardvarklabs-blog/2017@9d60f0fea145d32d": {
+        "verdict": "drop",
+        "reason": "The post teaches how to build Query objects exposed as APIs; Power BI only appears as an example consumer of that data.",
+        "at": "2026-10-18T00:54:43.397Z"
+      },
+      "post/bertverbeek-nl/1318@5fbd2bb16b9536fc": {
+        "verdict": "drop",
+        "reason": "It covers syncing data natively to Microsoft Fabric, which is a different capability from the Power BI integration.",
+        "at": "2026-10-18T00:54:43.397Z"
+      },
+      "post/thinkaboutit-be/7197@3a9560383f7aea62": {
+        "verdict": "drop",
+        "reason": "It introduces a third-party extension for monitoring Power BI workspaces and refreshes, which the Learn section does not document.",
+        "at": "2026-10-18T00:54:43.397Z"
+      },
+      "post/thinkaboutit-be/7226@8be0505aac6cfd05": {
+        "verdict": "drop",
+        "reason": "It is a setup guide for a third-party Power BI Monitor extension, not for Business Central's own Power BI integration.",
+        "at": "2026-10-18T00:54:43.397Z"
+      },
+      "post/thinkaboutit-be/7233@34d1f249143c1520": {
+        "verdict": "drop",
+        "reason": "The summary was withheld and only the title is left, so there isn't enough text to judge.",
+        "at": "2026-10-18T00:54:43.397Z"
+      },
+      "post/thinkaboutit-be/7995@d8b43123c514eb66": {
         "verdict": "keep",
-        "reason": "Demonstrates connecting Business Central query APIs to Power BI through the Business Central connector to build reports, which is a report-creator scenario.",
-        "at": "2026-10-08T06:27:30.017Z"
+        "reason": "It troubleshoots Business Central Power BI apps, covering how they connect to the right environment and company, permissions and refresh, which is administrator setup the section documents.",
+        "at": "2026-10-18T00:54:43.397Z"
       },
-      "post/bertverbeek-nl/1143@6bef390fd6d94ab6": {
+      "post/waldo-be/318707@075857747db2e4d8": {
         "verdict": "drop",
-        "reason": "About bc2adls exporting to Fabric Open Mirroring, a data-export capability rather than Power BI integration.",
-        "at": "2026-10-08T06:27:30.017Z"
+        "reason": "It is about mirroring data to Fabric and mentions Fabric versions of the Power BI apps only in passing.",
+        "at": "2026-10-18T00:54:43.397Z"
       },
-      "post/bertverbeek-nl/1173@771e3ac057d4be78": {
-        "verdict": "drop",
-        "reason": "About machine learning in Fabric; Power BI is only mentioned as a downstream use.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/bertverbeek-nl/1318@5ece5311db9e1c4f": {
-        "verdict": "drop",
-        "reason": "About native Fabric data sync, a different capability from Power BI integration.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/demiliani-com/15981@79f845430fd8341e": {
-        "verdict": "drop",
-        "reason": "About data mirroring to Fabric; Power BI appears only as a topic tag.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/thinkaboutit-be/7197@bc8fb25b5d953dc2": {
-        "verdict": "drop",
-        "reason": "Describes a third-party extension for managing Power BI resources, which isn't the documented Business Central Power BI integration.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/thinkaboutit-be/7683@cf00c7c30c218577": {
-        "verdict": "drop",
-        "reason": "Compares API pages with API queries; Power BI gets only one line of advice.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/thinkaboutit-be/7943@9ee9284941a593cc": {
+      "video/6Zb7VAvLVm4@737803c295012082": {
         "verdict": "keep",
-        "reason": "Covers installing the standard Business Central Power BI apps and getting their reports, plus licensing and per-company setup.",
-        "at": "2026-10-08T06:27:30.017Z"
+        "reason": "A large share of the video shows Power BI integration features: the new apps, embedded reports, bookmarking, and connector refresh options.",
+        "at": "2026-10-18T00:54:43.397Z"
       },
-      "post/thinkaboutit-be/7995@99e8678271e3e958": {
-        "verdict": "keep",
-        "reason": "Troubleshoots the Business Central Power BI apps: connecting them to the right environment and company, permissions and refresh.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "post/waldo-be/318707@2f24048d5c693e85": {
+      "video/EVntnDFE1R4@8952f0274d79ad18": {
         "verdict": "drop",
-        "reason": "About Fabric mirroring; Fabric-based Power BI apps are only mentioned in passing.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "video/6Zb7VAvLVm4@1fa7a7044dbe8bd8": {
-        "verdict": "keep",
-        "reason": "Demonstrates many Power BI features: the new apps, embedded reports, bookmarks, the connector and the code generator.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "video/EVntnDFE1R4@13b93348f84c71da": {
-        "verdict": "keep",
-        "reason": "Includes demos of improvements to embedded Power BI reports and Power BI scorecard support in Business Central.",
-        "at": "2026-10-08T06:27:30.017Z"
-      },
-      "video/kOCiyVql0go@0dabded838ea9a35": {
-        "verdict": "drop",
-        "reason": "About Fabric mirroring integration; multi-company Power BI apps are only one minor item.",
-        "at": "2026-10-08T06:27:30.017Z"
+        "reason": "The video is mostly about Power Automate, Power Apps and Dataverse, and Power BI features get only a passing mention.",
+        "at": "2026-10-18T00:54:43.397Z"
       }
     },
     "topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-power-bi/administrator": {
@@ -8154,55 +8236,65 @@
       }
     },
     "topic/dev-itpro/integration/integrating-with-shopify": {
-      "post/aardvarklabs-blog/2866@3e990e8a9792ed98": {
+      "video/3tmaVpPTQLw@9c37a10548f88a71": {
+        "verdict": "keep",
+        "reason": "Demonstrates Shopify connector B2B, order editing and synchronization features.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/5Qfc7r618OM@7b2b81fe28d3f0b8": {
+        "verdict": "keep",
+        "reason": "Covers troubleshooting Shopify connector exports via the skipped records page.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/6vHJQggN4F4@7429ebec4213b2ac": {
+        "verdict": "keep",
+        "reason": "Shows Shopify connector product information sync features like variants and attributes.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/AR2FiD64wbw@715a776516c712f0": {
+        "verdict": "keep",
+        "reason": "Overview of Shopify connector features such as metafields, pricing and shipping sync.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/B-pxLlb-UN0@5598392243cfbf46": {
+        "verdict": "keep",
+        "reason": "Overview of Shopify connector 2026 wave 1 capabilities.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/BwBR8JwwQa4@40f41864e07d2fc1": {
+        "verdict": "keep",
+        "reason": "Demonstrates Shopify connector B2B company locations and mapping.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/cuez5kIanKo@8ee506cf666df583": {
+        "verdict": "keep",
+        "reason": "Shows activating Shopify sales channels for product export in the connector.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/e5Dr3jzCLM8@7f021e5741a41ce3": {
+        "verdict": "keep",
+        "reason": "Introduces the Shopify integration with Business Central, including inventory and order sync.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/h5PQI4I4b7c@b446284c7703ef8f": {
+        "verdict": "keep",
+        "reason": "Covers metafield synchronization in the Shopify connector.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/inuqqx12yJ8@4995c826d776cdea": {
+        "verdict": "keep",
+        "reason": "Demonstrates Shopify POS integration through the connector.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/lClKXB8xXIE@963fbbe802a48c90": {
+        "verdict": "keep",
+        "reason": "Covers troubleshooting and logging for the Shopify integration.",
+        "at": "2026-10-18T00:54:38.417Z"
+      },
+      "video/QGIr_XPp8lk@56a864022a1aca8e": {
         "verdict": "drop",
-        "reason": "Shows how to parse cXML files in AL; it has nothing to do with the Shopify integration.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/5Qfc7r618OM@e9fe461adc637af5": {
-        "verdict": "keep",
-        "reason": "Shows the Shopify Connector's skipped records page and logging mode for troubleshooting exports.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/cuez5kIanKo@f268368107168b5d": {
-        "verdict": "keep",
-        "reason": "Shows how to activate Shopify sales channels when exporting products through the connector.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/e5Dr3jzCLM8@3351628fe0ea998c": {
-        "verdict": "keep",
-        "reason": "Introduces the Shopify integration with Business Central, including inventory sync and order fulfillment.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/h5PQI4I4b7c@32170dec5d709e6e": {
-        "verdict": "keep",
-        "reason": "Covers syncing and mapping Shopify metafields in the connector.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/inuqqx12yJ8@6be7699acb258b5a": {
-        "verdict": "keep",
-        "reason": "Covers connecting Shopify POS to Business Central through the connector.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/lClKXB8xXIE@cea43c17027e0384": {
-        "verdict": "keep",
-        "reason": "Covers troubleshooting the Shopify integration with log entries, logging mode and API versioning.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/p-pwG6f5srY@596a1bbbef62dee8": {
-        "verdict": "keep",
-        "reason": "Walks through new Shopify Connector features: syncing products, catalogs, payments and invoices.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/StIVhsnOHWY@b02e27fc3d8e0677": {
-        "verdict": "keep",
-        "reason": "Covers troubleshooting Shopify Connector sync for products, inventory and orders.",
-        "at": "2026-10-07T23:45:40.675Z"
-      },
-      "video/YSDfDjrMUb0@3639929fe140893f": {
-        "verdict": "keep",
-        "reason": "Gives an overview of Shopify Connector features: product and B2B sync, catalogs and returns.",
-        "at": "2026-10-07T23:45:40.675Z"
+        "reason": "About the e-documents framework interfaces, not Shopify integration.",
+        "at": "2026-10-18T00:54:38.417Z"
       }
     },
     "topic/dev-itpro/integration/web-services": {
@@ -8228,100 +8320,125 @@
       }
     },
     "topic/dev-itpro/integration/web-services/apis": {
+      "post/aardvarklabs-blog/1826@7950a7fbfbd69ed2": {
+        "verdict": "drop",
+        "reason": "About handling JSON in AL code in general; APIs come up only as a reason to learn it.",
+        "at": "2026-10-18T00:54:47.277Z"
+      },
       "post/aardvarklabs-blog/2017@9d60f0fea145d32d": {
         "verdict": "keep",
-        "reason": "Shows how to build query-type APIs and use them from Power BI, which is directly about Business Central APIs.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "Shows how to build Query objects set up as APIs and use them from Power BI.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/aardvarklabs-blog/2565@542b36717b660c8e": {
-        "verdict": "drop",
-        "reason": "Mainly about OData endpoint removal and migration paths, which the OData section beside this one covers.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "verdict": "keep",
+        "reason": "Its main advice is to move to API 2.0 or build custom Page/Query APIs as OData pages are removed.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/aardvarklabs-blog/3631@2fe37864fd91ab77": {
-        "verdict": "drop",
-        "reason": "Its subject is SFTP file handling through Power Automate; the API page is only a means to that end.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "verdict": "keep",
+        "reason": "Builds an API page keyed on SystemId and calls it from Power Automate to create records and upload file content.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/demiliani-com/11654@0366bea976eb5e3f": {
         "verdict": "drop",
-        "reason": "About SOAP and OData deprecation, which the SOAP and OData sections beside this one cover.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "About SOAP being deprecated, which the SOAP sibling section covers; APIs are only named as the next step for OData pages.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/demiliani-com/11962@59c4b3f4f738556f": {
         "verdict": "keep",
-        "reason": "Explains how Business Central API responses are compressed and how to request Brotli compression.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "Explains how API responses are compressed and how to request Brotli instead of gzip.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/demiliani-com/12036@2c9b7f3c2df35822": {
         "verdict": "keep",
-        "reason": "Discusses API definitions, metadata and OpenAPI support for Business Central APIs.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "Discusses API page metadata, Description properties and OpenAPI support for Business Central APIs.",
+        "at": "2026-10-18T00:54:47.277Z"
+      },
+      "post/gerardorenteria-blog/10732@d6f3c2c544ac36f3": {
+        "verdict": "drop",
+        "reason": "A list of community ideas that only mentions API enhancements in passing.",
+        "at": "2026-10-18T00:54:47.277Z"
+      },
+      "post/gerardorenteria-blog/10927@431d3ef99ec3128f": {
+        "verdict": "drop",
+        "reason": "A list of community ideas that only mentions API enhancements in passing.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/gerardorenteria-blog/12682@19ba796716115831": {
         "verdict": "keep",
-        "reason": "Covers the AboutText property on APIV2 pages, an API feature.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "Documents the AboutText property on APIV2 pages, which describes an API to AI tools.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/jpearson-blog/1485@a73aff8b48312929": {
         "verdict": "drop",
-        "reason": "About authentication and token exchange, which is web services security rather than the APIs themselves.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "About authenticating with managed identities and federated credentials, which the Web services security sibling covers.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/jpearson-blog/1535@654bb4479c916d6a": {
         "verdict": "drop",
-        "reason": "About granting managed identities access, which is authentication covered by the web services security section beside this one.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "About giving managed identities permissions for authentication, which the Web services security sibling covers.",
+        "at": "2026-10-18T00:54:47.277Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-1160169849126032090@aba9ce4f0d6c973e": {
         "verdict": "keep",
-        "reason": "Explains how API templates behave on standard and custom API pages, which is API behavior.",
-        "at": "2026-10-16T01:16:26.179Z"
+        "reason": "Explains how API templates behave on standard and custom API pages and how to enable them.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-693116706571215184@21b60c754cc50891": {
         "verdict": "drop",
-        "reason": "About MCP server data query tools as an alternative to APIs, not about Business Central APIs themselves.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "About MCP server data query tools as an alternative to APIs, not the APIs themselves.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-7429326284625186983@f5f4348fb79935f7": {
         "verdict": "drop",
-        "reason": "About testing an MCP/Claude setup; custom API pages are mentioned only in passing.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "Subject is testing an MCP and Claude setup; APIs are only the underlying plumbing.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
-      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@b8602de8d51a2928": {
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@c4a61184a00b0ff4": {
         "verdict": "drop",
-        "reason": "About a general AL performance property for pages and reports; API pages are only one place it applies.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "A general page and report performance property tip; API pages are only one place it applies.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/d365-business-central-how-to-fix-missing-sales-invoices-in-the-api/@309347393b212aec": {
         "verdict": "keep",
-        "reason": "Troubleshoots the standard Sales Invoices API and its API data upgrade process.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "Troubleshoots the standard Sales Invoices API and the aggregate table behind it.",
+        "at": "2026-10-18T00:54:49.139Z"
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-66-api-v2-app/@effee6e211629f55": {
+        "verdict": "keep",
+        "reason": "Covers the app that contains the standard API v2 objects and how to use it as a reference.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
       "post/thinkaboutit-be/7683@3ed0c8348b16f90f": {
         "verdict": "keep",
-        "reason": "Compares API pages and API queries for designing Business Central REST APIs.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "Compares API pages and API queries and when to use each.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
-      "post/thinkaboutit-be/7813@f3812d06674fa74b": {
-        "verdict": "drop",
-        "reason": "About document reporting features; new document APIs are one passing bullet.",
-        "at": "2026-10-16T01:16:28.139Z"
-      },
-      "video/1ft4o9lQzsU@7d2d8d29cb5f22af": {
-        "verdict": "drop",
-        "reason": "About Excel report layouts; API connections serve only as a data source for the reports.",
-        "at": "2026-10-16T01:16:28.139Z"
-      },
-      "video/2N2NhNH7dsk@751dcce567fffb1e": {
+      "post/thinkaboutit-be/8272@a03bc83cda30588c": {
         "verdict": "keep",
-        "reason": "A named part of the video presents the new report inbox APIs and their API overview page.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "Introduces the new Report Inbox APIs for external apps and automation alongside the layout changes.",
+        "at": "2026-10-18T00:54:49.139Z"
+      },
+      "video/1ft4o9lQzsU@a3a9e063fe006870": {
+        "verdict": "drop",
+        "reason": "Subject is Excel report layouts; API connections appear only as part of the refresh setup.",
+        "at": "2026-10-18T00:54:49.139Z"
+      },
+      "video/2N2NhNH7dsk@ba21dae465950b3b": {
+        "verdict": "keep",
+        "reason": "Demonstrates the new Report Inbox APIs, including their API overview page.",
+        "at": "2026-10-18T00:54:49.139Z"
+      },
+      "video/4HE3BBCcV84@9866712d6b3b6444": {
+        "verdict": "keep",
+        "reason": "Shows API queries and the Analytics API reference documentation, a subtopic of this section.",
+        "at": "2026-10-18T00:54:49.139Z"
       },
       "video/VpNQ-CYNrkM@2a098da3bc0dde2b": {
         "verdict": "keep",
-        "reason": "Covers API changes such as schema version 2.0 becoming the default and API v1 deprecation.",
-        "at": "2026-10-16T01:16:28.139Z"
+        "reason": "Covers API changes: schema version 2.0 as the default and the deprecation of API v1.",
+        "at": "2026-10-18T00:54:49.139Z"
       }
     },
     "topic/dev-itpro/integration/web-services/apis/analytics-api-reference": {

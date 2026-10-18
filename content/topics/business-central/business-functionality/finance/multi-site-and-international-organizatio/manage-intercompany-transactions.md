@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -203,7 +203,7 @@ Start with the setup page. It covers the synchronization partner, the shared int
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)](../../../../../videos/QGG0dW6HqSg.md) (video): "intercompany posting; cross environment; ic general journals; chart of accounts mapping"
+- [What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)](../../../../../videos/QGG0dW6HqSg.md) (video): "Cross environment intercompany posting; Intercompany partner setup wizard"
 
 ## Business Central pages and reports
 

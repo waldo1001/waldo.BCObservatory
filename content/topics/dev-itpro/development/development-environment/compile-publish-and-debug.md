@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/development-environment/compile-publish-and-debug
 type: topic
 title: Compile, publish, and debug
-summary: Compiling, publishing, debugging and signing AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, compilation scope, RAD publishing, app signing, and Entra authentication for on-premises.
+summary: Compiling, publishing, debugging and profiling AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing, and Entra authentication for on-premises debugging.
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T21:13:11.961Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 97345af3fba82bdc4726477d3602096000fe21bee59291bafbc8b7d31f5563a8
+  input_hash: 0065b6b1de1472649c194fa35aa225a94c226988d233ff15742aaad721c1ae2b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-profiler-overview
@@ -121,8 +121,10 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
-  posts: []
+  videos:
+    - video/TY82NR2hGEg
+  posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b
   guidelines: []
   changes:
     - change/bcapps/12320
@@ -136,8 +138,8 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 0
-  blog: 0
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
@@ -146,28 +148,28 @@ narrative: generated
 
 # Compile, publish, and debug
 
-> Compiling, publishing, debugging and signing AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, compilation scope, RAD publishing, app signing, and Entra authentication for on-premises.
+> Compiling, publishing, debugging and profiling AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing, and Entra authentication for on-premises debugging.
 
-Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Compile, publish, and debug · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Development environment](../development-environment.md) > Compile, publish, and debug · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the build-and-diagnose loop for AL developers. It includes compilation scope (OnPrem or Cloud target level), faster publishing with Rapid Application Development (RAD) and delta compilation, and signing app packages with Azure Key Vault or PFX files. It also covers Microsoft Entra authentication for on-premises and container setups used from Visual Studio Code.
+This section covers the developer inner loop for AL extensions: building and publishing, finding errors, and checking performance. Publishing topics include Rapid Application Development (RAD) with delta compilation for faster builds of large projects, and compilation scope, which sets the OnPrem or Cloud target level and decides which platform APIs and .NET types a project can use.
 
-Debugging has the largest share of pages. "Debugging in AL" is the starting point: breakpoints, conditional breakpoints, break on errors and record changes, SQL debugging, and database locks. Related pages cover attach and debug next, debugging upgrade and install code, snapshot debugging of production sessions, and starting a troubleshooting session from the web client. The AL Profiler helps find performance hot spots, and the MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during a debug session.
+Debugging pages begin with the general Visual Studio Code debugging guide, then go deeper: conditional breakpoints, attach and debug next (no publish needed), debugging install and upgrade code, snapshot debugging of production sessions, and troubleshooting from the web client. The AL Profiler analyzes hot spots, and the Troubleshooting MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during a session.
 
-Start with "Debugging in AL" for general debugging. Then pick the page that matches your situation: production issue (snapshot debugging or web client troubleshooting), upgrade code (debug upgrade and install code), slow code (AL Profiler), or slow builds (RAD).
+Signing an app package and using Microsoft Entra authentication for on-premises and container setups are supporting topics. Start with "Debug AL Code in Visual Studio Code" for the basics, then pick the specialized page that matches your scenario.
 
 ## Key points
 
-- Debugging in AL uses the Visual Studio Code debugger with breakpoints, break on errors, break on record changes, SQL debugging, and database lock inspection.
-- Conditional breakpoints break only when a condition is true; they support simple types, logical operators, and complex data types from version 26.
-- Attach and debug next attaches to a running server without publishing first, using breakOnNext, sessionId and userId settings (2023 release wave 1).
-- Snapshot debugging records production cloud sessions using snappoints and lets you inspect them offline in Visual Studio Code.
-- Upgrade and install code is debugged by attaching a session and either incrementing the app version or setting the forceUpgrade flag.
-- The AL Profiler records execution in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings, and SQL calls.
+- The AL Profiler records execution in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings and SQL calls in Visual Studio Code.
+- Attach and debug next (2023 release wave 1) attaches to a running server without publishing, for web client, web service, background and agent sessions.
+- Snapshot debugging records production cloud sessions using snappoints and lets you debug offline in Visual Studio Code.
+- Conditional breakpoints pause only when an expression is true, supporting comparison and logical operators (version 26).
 - RAD publishing uses delta compilation to cut build and publish times for large AL projects.
-- App packages are signed with Azure Key Vault (certificates issued after June 1, 2023) or PFX files using the dotnet sign tool; self-signed certificates are for local testing only.
+- Compilation scope is set by ExtensionAllowedTargetLevel at server level and the target property in the manifest (OnPrem or Cloud).
+- App packages can be signed with Azure Key Vault (certificates issued after June 1, 2023) or a PFX file using the dotnet sign tool; self-signed certificates are for local testing.
+- Install and upgrade codeunits can be debugged with attach sessions, and the web client can open Visual Studio Code for troubleshooting (2023 release wave 2).
 
 ## Learn pages
 
@@ -189,5 +191,7 @@ Start with "Debugging in AL" for general debugging. Then pick the page that matc
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../../../../changes/bcapps/12320.md) (code change): "Fixed 409 conflict errors in APIV2 Company Info E2E tests"
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Test by recompiling AL extensions against 29.0 symbols"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension pre-release versions; AL language extension for Linux"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

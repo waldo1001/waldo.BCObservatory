@@ -6,12 +6,11 @@
   "systems_joined": [
     "purchasing"
   ],
-  "summary": "Purchase Order page now prevents vendor changes from automatically applying to subsequent orders during the same session.",
+  "summary": "Fixes the Purchase Order page so that a vendor change on one order is no longer automatically applied to the next order after navigating. A regression test was added to TestVendorLookup.",
   "key_points": [
-    "Fixes automatic vendor value propagation to next purchase order",
-    "Vendor selection changes no longer carry over after navigation",
-    "Applied to all localization layers",
-    "Includes regression test coverage via TestVendorLookup test"
+    "Vendor change on a purchase order no longer carries over to the next order after navigation",
+    "One-line change to the Purchase Order page in 11 layers including W1, NA and APAC",
+    "Regression test added in TestVendorLookup"
   ],
   "change_kind": "fix",
   "behavior_change": true,

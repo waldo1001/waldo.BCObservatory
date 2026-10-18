@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,8 +76,6 @@ links:
   videos:
     - video/kOCiyVql0go
   posts:
-    - post/bertverbeek-nl/1143
-    - post/bertverbeek-nl/1196
     - post/bertverbeek-nl/1318
     - post/demiliani-com/15981
     - post/thinkaboutit-be/8229
@@ -96,7 +94,7 @@ coverage:
   learn: 5
   code: 8
   video: 1
-  blog: 6
+  blog: 4
   guideline: 0
 bc_forms:
   - 48508
@@ -147,8 +145,6 @@ The pages follow the life cycle of the feature. Start with the overview page to 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12242 29.x: Removing the restriction of deploying Power BI reports only to evaluation companies](../../../../changes/bcapps/12242.md) (code change): "Power BI report deployment is no longer limited to evaluation companies"
-- [[Preview] bc2adls and Fabric Open Mirroring](../../../../posts/bertverbeek-nl/1143.md) (community post): "bc2adls release 26.32 adds preview support for Microsoft Fabric Open Mirroring"
-- [Data agent inside Fabric ask question on your Business Central Data](../../../../posts/bertverbeek-nl/1196.md) (community post): "Data Agents in Microsoft Fabric enable users to ask"
 - [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Business Central introduces native integration with Microsoft Fabric for data synchronization"
 - [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "data mirroring for Dynamics 365 Business Central to Microsoft Fabric"
 - [Business Central Data Mirroring to Microsoft Fabric Is Coming](../../../../posts/thinkaboutit-be/8229.md) (community post): "Business Central 2026 release wave 2 introduces data mirroring to Microsoft Fabric"

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/extension-lifecycle
 type: topic
 title: Extension lifecycle
-summary: Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about global apps, per-tenant extensions, DEV extensions, and about migration, translation, testing, deployment, updating and deprecation.
+summary: Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about testing, deploying, updating, translating, migrating data and deprecating code in AL extensions.
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:41.284Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ce8b4001b102ed6b04e1bcbed65f87e7870a574ef9de00010a652959a5151eaa
+  input_hash: c32bd0c0438802fb741d6955bdcad624fe5f3295403a8e3d0f845bf6685d3ff4
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-test-application-example-purchase-invoice-discounts
@@ -287,6 +287,7 @@ links:
     - post/demiliani-com/12927
   guidelines: []
   changes:
+    - change/bcapps/10675
     - change/bcapps/9601
     - change/bcquality/177
     - change/bcquality/93
@@ -325,28 +326,28 @@ narrative: generated
 
 # Extension lifecycle
 
-> Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about global apps, per-tenant extensions, DEV extensions, and about migration, translation, testing, deployment, updating and deprecation.
+> Extension lifecycle in Business Central covers the phases of an extension from development to deprovisioning, extension types and scopes, and moving apps between scopes. It answers questions about testing, deploying, updating, translating, migrating data and deprecating code in AL extensions.
 
-Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Extension lifecycle · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The extension lifecycle section describes the path of a Business Central extension: planning, development, testing, deployment, operations, monitoring and deprovisioning. The overview page ties these phases to related processes such as data migration, translation, testing and upgrade.
+This section describes the full lifecycle of a Business Central extension: planning, development, testing, deployment, operations and monitoring, through to deprovisioning. The overview page gives the phases and links them to related processes such as data migration, translation, testing and upgrade.
 
-Two own pages explain scope. Extension types and scope separates global apps installed from Marketplace, per-tenant extensions (PTE) deployed to specific environments, and DEV extensions used only in sandbox. Moving between extension scopes covers the identity, naming and ID range requirements when an app changes between PTE, DEV and Marketplace.
+Two own pages cover scope. Extension types and scope explains global apps installed from Marketplace, per-tenant extensions (PTEs) deployed to specific environments, and DEV extensions used only in sandbox. Moving between extension scopes explains how to move an app between PTE, DEV and Marketplace, including identity, naming and ID range requirements for each transition.
 
-Subtopics go deeper on each phase: migration and moving tables and fields between extensions on-premises, translation with XLIFF, testing, deploying and installing, updating and hotfixing, and deprecating code. Start with the lifecycle overview, then extension types and scope, then the subtopic that matches your current phase.
+Subtopics go deeper on each stage: testing, deploying and installing, updating and hotfixing, translation, migration, moving tables and fields between extensions on-premises, and deprecating code. Start with the lifecycle overview and the scope pages, then pick the subtopic that matches the task at hand.
 
 ## Key points
 
-- Lifecycle phases: planning, development, testing, deployment, operations, monitoring and deprovisioning.
+- The lifecycle runs from planning, development and testing through deployment, operations and monitoring to deprovisioning.
 - Extension types: global apps from Marketplace, per-tenant extensions for specific environments, and DEV extensions for sandbox only.
-- Moving an app between PTE, DEV and Marketplace scopes has identity, naming and ID range requirements (2023 release wave 2 page).
-- Migration covers .delta files from Compare-NAVApplicationObject, migration.json, and transition extensions.
-- On-premises moves of tables and fields use MovedTo and MovedFrom properties and staged moves, with attention to publishing order.
-- Translation uses XLIFF files, with layered sources overriding each other by language priority and app dependencies.
-- Testing covers AL test codeunits, test pages, handlers, test runners and the Performance Toolkit.
-- Deprecation uses Obsolete properties and preprocessor directives, CLEAN symbols, warnings AL0604 and AL0606, and the deprecation of 'with' statements.
+- Moving between PTE, DEV and Marketplace scopes has identity, naming and ID range requirements for each transition (2023 release wave 2).
+- Testing covers AL test codeunits, test pages, handler methods, test runners and the Performance Toolkit for workload and regression testing.
+- Deploying and installing covers publish, synchronize, install, upgrade, unpublish and uninstall, plus install code and Marketplace offer submission.
+- Updating and hotfixing covers version numbering, hotfix validation, breaking changes and upgrade code.
+- Migration covers .delta files with Compare-NAVApplicationObject, migration.json and moving table and field data between extensions on-premises using MovedTo and MovedFrom.
+- Deprecating code covers Obsolete properties, preprocessor directives, CLEAN symbols, warnings AL0604 and AL0606, and the deprecation of 'with' statements.
 
 ## Subtopics
 
@@ -368,6 +369,7 @@ Subtopics go deeper on each phase: migration and moving tables and fields betwee
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../../changes/bcapps/10675.md) (code change): "pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"

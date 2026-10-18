@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T00:20:09.603Z"
+  at: "2026-10-18T00:22:31.899Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 5e6302169dcdb345d5cd42011f1dd0ba83d6fae5f82136ca39942da7e0d71b08
@@ -31,6 +31,7 @@ links:
   features:
     - feature/573315
     - feature/573332
+    - feature/576815
   topics: []
   localizations: []
   videos:
@@ -122,6 +123,8 @@ footprint:
       weight: 1
     - id: feature/573332
       weight: 1
+    - id: feature/576815
+      weight: 1
 first_item: "2026-09-21"
 last_item: "2026-10-12"
 ---
@@ -160,6 +163,7 @@ Items per quarter, oldest first:
 
 - [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
 - [Faster data loading with improved data model for table extensions](../features/573332.md): Service and platform, generally available, GA 2026-10, 1 video
+- [Upload, install, and manage PTEs in the admin center](../features/576815.md): Governance and administration, generally available, GA 2026-07, 1 video
 
 ## Most recent
 

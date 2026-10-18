@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/administration/monitor-and-analyze-telemetry",
-  "input_hash": "d611dcfc47d45b7adaae9bcec68638775db2868109468d9b61fe18b5f5f7b96c",
-  "summary": "Telemetry monitoring in Business Central covers turning on Application Insights telemetry, the available event IDs, analysis with KQL and Power BI, alerting, and cost control. It answers questions about setup, which events exist, how to query them, and how to manage cost and retention.",
-  "overview": "Business Central can send telemetry to Azure Application Insights, for online and on-premises deployments. The section starts with the overview page on enabling telemetry at environment and app level. A separate page covers setting the connection string or instrumentation key for the server, admin center, or individual tenants.",
+  "input_hash": "ef7c4f54e4ea6cd7fdfffb35a5dfe92550e8c97a3b238a9ab42dfb614894f630",
+  "summary": "Business Central telemetry sent to Azure Application Insights: how to turn it on, analyze it with KQL and Power BI, set alerts, control cost, and look up event IDs. It answers setup, analysis, alerting, cost and event reference questions.",
+  "overview": "This section covers the full telemetry workflow for Business Central. It starts with enabling telemetry by connecting an environment, the server, the admin center, or individual tenants to Azure Application Insights, for both online and on-premises deployments. The overview page explains environment-level and app-level telemetry and links to the other steps.\n\nOnce data flows, you can analyze it with KQL queries in Application Insights or Log Analytics, or use the free, open-source Power BI apps with usage, error, performance, and administration reports. Alerts can be built with Power BI Metrics, Application Insights alerts, Logic Apps, or Power Automate. The Controlling Telemetry Cost page and the FAQ help manage ingestion caps, data collection rules, and retention.\n\nFor event lookups, the Available Telemetry and Event IDs pages list events by group, and the Telemetry by area subtopic gives a detailed per-area reference with event IDs and custom dimensions. Start with the Monitoring and Analyzing Telemetry overview, then set up Application Insights.",
   "key_points": [
-    "Enable telemetry by configuring an Application Insights connection string or instrumentation key for the server, admin center, or individual tenants; this works for online and on-premises.",
-    "Available Telemetry and Telemetry Event IDs list events by event ID, grouped as application, client, lifecycle and runtime events; AL event IDs have a prefix.",
-    "The KQL page queries the traces and pageViews tables and custom dimensions, with examples for report usage, session tracking, user activity and timezone conversion.",
-    "Power BI apps are free and open source, with usage, error, performance and administration reports and sample data.",
-    "Alerts can be built with Power BI Metrics, Application Insights alerts, Logic Apps or Power Automate, using KQL queries.",
-    "Controlling Telemetry Cost covers daily ingestion caps, data collection rules, sampling, retention periods and cost monitoring.",
-    "The Telemetry FAQ covers cost control, custom dimensions overflow, data retention, log analytics queries and the purge API.",
-    "Telemetry by area has 61 reference pages with events, custom dimensions and sample KQL for areas such as performance, locks, extensions, permissions, web services, jobs, AI and MCP."
+    "Telemetry is enabled by setting a connection string or instrumentation key for the server, admin center, or individual tenants; on-premises setup is supported.",
+    "KQL queries run against Application Insights tables such as traces and pageViews and use custom dimensions; examples cover report usage, sessions, user activity, and timezone conversion.",
+    "Power BI apps for telemetry are free and open source, with usage, error, performance, and administration reports and sample data.",
+    "Alerts can be set up using Power BI Metrics, Azure Application Insights alerts, Azure Logic Apps, or Power Automate with KQL.",
+    "Cost control options include a daily ingestion cap, data collection rules, sampling, and retention periods.",
+    "Event ID references group events as application, client, lifecycle, and runtime, and explain the AL event ID prefix.",
+    "The Telemetry by area subtopic (61 pages) documents events by area such as extensions, jobs, performance, security, web services, AI/MCP, and lifecycle.",
+    "The FAQ covers custom dimensions overflow, data retention, log analytics queries, and the purge API."
   ],
   "members_used": 9,
   "subtopics_used": 1,
   "prompt_version": 1,
-  "at": "2026-10-07T02:11:46.309Z",
+  "at": "2026-10-18T00:56:31.839Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015243
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:14:26.157Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview is thin: it only describes the overview and setup pages and does not mention the analysis (KQL, Power BI), alerting, cost control or Telemetry by area content, which the key points cover anyway.",
-      "Version information from the source pages (version 15, 16, 17, 24, 2020 release wave 2) is not used. This is acceptable because the narrative makes no version claims."
-    ],
-    "input_hash": "d611dcfc47d45b7adaae9bcec68638775db2868109468d9b61fe18b5f5f7b96c",
-    "cost_usd": 0.041103200000000006
+    "cost_usd": 0.017263
   }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:28.193Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -296,6 +296,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/12975
+    - post/demiliani-com/13541
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7
     - post/thinkaboutit-be/7226
@@ -313,7 +315,7 @@ coverage:
   learn: 26
   code: 61
   video: 0
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms:
   - 30
@@ -497,6 +499,8 @@ Start with "Customizing Business Central online using apps" and "Install and uni
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9953 Rename AppSource UI text to Marketplace](../../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
+- [My MCP server for Dynamics 365 Business Central Administration now supports handling PTEs.](../../../../posts/demiliani-com/12975.md) (community post): "per-tenant extensions (PTEs), allowing users to upload, monitor deployment status"
+- [YAMPI (the Dynamics 365 Business Central Administration MCP Server): installing apps from Microsoft’s Marketplace.](../../../../posts/demiliani-com/13541.md) (community post): "install Marketplace (AppSource) apps into a tenant environment"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "per-tenant extensions, all reviewed on the admin center Manage Apps page"
 - [BC Friday Tips #61 Check AppSource App Update History](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-61-check-appsource-app-update-history--80e649fed7.md) (community post): "When evaluating AppSource apps for Business Central, check the last updated date"
 - [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "This guide covers complete setup including Azure AD registration, extension installation"

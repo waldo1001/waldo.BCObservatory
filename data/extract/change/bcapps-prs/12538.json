@@ -7,17 +7,16 @@
     "sales",
     "purchasing"
   ],
-  "summary": "Removed CLEAN27 compatibility code for Create Item from Item No. setup fields across all localization layers and test libraries as the migration period has ended.",
+  "summary": "Removes the CLEAN27-guarded code for the Create Item from Item No. fields in the Sales & Receivables Setup and Purchases & Payables Setup tables and pages, across the W1 and localization layers. The related helper code in the LibrarySales and LibraryPurchase test libraries is also removed.",
   "key_points": [
-    "Removed CLEAN27 code from Sales and Purchases setup fields",
-    "Cleaned up UI controls related to item creation setup",
-    "Updated test libraries to remove legacy setup methods",
-    "Applied changes across all localization layers",
-    "Resolved issue AB#647784"
+    "Removes CLEAN27 code for the Create Item from Item No. fields in tables 311 and 312",
+    "Removes the matching controls from the Sales & Receivables Setup and Purchases & Payables Setup pages",
+    "Removes the related helpers from the LibrarySales and LibraryPurchase test codeunits",
+    "Applied in W1 and many country layers"
   ],
   "change_kind": "obsoletion",
   "behavior_change": false,
-  "breaking": false,
+  "breaking": true,
   "obsoletions": [],
   "systems": [
     "sales",

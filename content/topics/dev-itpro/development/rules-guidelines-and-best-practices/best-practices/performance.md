@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:21.103Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -56,6 +56,7 @@ links:
     - post/duiliotacconi-com/1850
     - post/duiliotacconi-com/2149
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
     - post/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
@@ -82,7 +83,7 @@ coverage:
   learn: 2
   code: 0
   video: 3
-  blog: 13
+  blog: 14
   guideline: 0
 bc_forms: []
 member_hash: 87e0401ecfb45548d0ce9048fe69d8ae348b7da98d89e7045ac6d9370b225de2
@@ -142,6 +143,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Truncating a whole table without filters is far faster than DeleteAll"
 - [Partial Record vs NST Caching : the strange case of Calculate Low Level Code](../../../../../posts/duiliotacconi-com/2149.md) (community post): "performance regressions when combined with NST caching in Business Central"
 - [BC 29 lets a single index span base table and table extension fields](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-483274250682537951--01a78739b7.md) (community post): "Developers must still consider the 40-key-per-table limit and write performance costs when adding new indexes"
+- [Restrict Global Symbol Downloads to a Minor Version in Business Central 2026 Release Wave 2](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6.md) (community post): "improves CI/CD reproducibility and keeps development teams aligned"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "making users wait for work that needs no input from them is a design choice"
 - [I Can Turn Off My Code. I Can't Turn Off Yours.](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-modify-deserves-the-same-rule-as-validate--71cb43acff.md) (community post): "developers set RunTrigger to false on Insert, Modify, or DeleteAll, they silently disable all subscribers"
 - [Planning Table Indexes for the Best Performance](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "Every added index increases insert or update time by 10-20%"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:41.815Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,8 +111,6 @@ links:
   posts:
     - post/aardvarklabs-blog/3460
   guidelines: []
-  changes:
-    - change/bcapps/12064
 learn_toc_path:
   - Integration
   - Integrating with infrastructure services
@@ -194,11 +192,10 @@ Several pages cover both online and on-premises deployments, and some mention de
 - [Set Up Universal Print Printers](https://learn.microsoft.com/dynamics365/business-central/admin-printer-setup-universal-print): Learn how you can use Universal Print to provide cloud printing in Business Central.
 - [Use Azure security service tags](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/security/security-service-tags): List of Azure service tags for Dynamics 365 Business Central
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 - [Native SFTP Support in Business Central 28](../../../posts/aardvarklabs-blog/3460.md) (community post): "Business Central 28 added a native SFTP Client codeunit (ID 9762) for listing, uploading, downloading and deleting"
 
 ## Business Central pages and reports

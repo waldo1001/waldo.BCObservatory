@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language
 type: topic
 title: Programming in the AL language
-summary: "Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions."
+summary: "Programming in the AL language covers the language fundamentals for Business Central development: variables, triggers, code reuse, and the building blocks of syntax. It also points to subtopics on tables, pages, reports, events, security, APIs, telemetry, background processing and error handling."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T21:13:11.931Z"
+  at: "2026-10-18T00:56:54.349Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 10afee71912b6b8b8085f3afaccde5832fac8d959c9e8fd62d840c89a777f6fe
+  input_hash: d4c9ceb11ffe6aa0ef5f466ca5d160920e95748c2e906fb11312a53e75a3bebb
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -359,9 +359,16 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
   localizations: []
   videos:
+    - video/9zQZHfXK-PQ
+    - video/ADXkUFI_VWI
+    - video/D_Lur52IrIg
     - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2678
+    - post/aardvarklabs-blog/2812
+    - post/aardvarklabs-blog/3060
+    - post/gerardorenteria-blog/14079
   guidelines: []
   changes:
     - change/bcapps/11507
@@ -391,8 +398,8 @@ children:
 coverage:
   learn: 340
   code: 36
-  video: 2
-  blog: 0
+  video: 5
+  blog: 4
   guideline: 0
 bc_forms:
   - 16
@@ -437,28 +444,28 @@ narrative: generated
 
 # Programming in the AL language
 
-> Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions.
+> Programming in the AL language covers the language fundamentals for Business Central development: variables, triggers, code reuse, and the building blocks of syntax. It also points to subtopics on tables, pages, reports, events, security, APIs, telemetry, background processing and error handling.
 
 Path: [Development](../development.md) > Programming in the AL language · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-This section starts with the "Programming in AL" page, which describes the language basics: manipulating data, controlling application objects, creating business rules, and writing code in triggers on tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.
+This section begins with a general page, "Programming in AL". It describes the language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.
 
-The subtopics go deeper. Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments. Language elements is the largest subtopic at 78 pages. Object-specific areas are tables and data, pages and the user interface, and reports. Cross-cutting areas are events, error handling, formatting values, security, telemetry, background processing, APIs and calling external services.
+The subtopics split into groups. Core language material is in Program building blocks (operators, statements, system-defined variables, access modifiers, XML comments), Language elements, Error handling and Formatting values. Object-focused areas are Tables and data, Pages and the user interface, Developing reports, and Events for extending behavior without changing the original code.
 
-Start with the Programming in AL page and Program building blocks for syntax. Then go to the subtopic that matches your object or task. Device access, printer extensions and .NET interoperability (on-premises only) are narrower topics for specific scenarios.
+The remaining subtopics cover integration and operations: Handling security, Running things in the background, Developing APIs, Calling external services, Instrumenting with telemetry, Accessing device capabilities, Developing printer extensions, and Using .NET (on-premises only). Start with the "Programming in AL" page and Program building blocks, then go to the subtopic that matches the object or task.
 
 ## Key points
 
-- The Programming in AL page covers variable declarations, protected variables, trigger types, code reuse and security patterns.
+- The top page covers variable declarations, protected variables, trigger types, code reuse and security patterns.
 - Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.
 - Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.
 - Tables and data covers records, queries, FlowFields, SIFT and NCCI indexing, XMLport and Excel import/export, number sequences and DataTransfer.
-- Events covers publishing, raising and subscribing, isolated events, and discovering events with Event Recorder, so you can extend behavior without changing the original code.
-- Developing APIs covers REST/OData v4 services built with API pages (read-write) and API queries (read-only).
-- Background processing covers the job queue, page background tasks and the task scheduler, with limits for background and child sessions.
-- Security covers permission sets, entitlements, Azure Key Vault, Isolated Storage and the SecretText data type.
+- Developing reports covers Word, Excel and RDL layouts, request pages, report extensions, substitution and obsoleting.
+- Events covers publishing, raising and subscribing, isolated events and the Event Recorder.
+- Handling security covers permission sets, entitlements, Azure Key Vault secrets, Isolated Storage and SecretText.
+- Running things in the background covers the job queue, page background tasks and the task scheduler, with session limits.
 
 ## Subtopics
 
@@ -489,6 +496,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
+- [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "Type Helper code unit is a utility in Business Central's System.Reflection namespace"
+- [Advanced JSON Management for Business Central Developers](../../../posts/aardvarklabs-blog/2812.md) (community post): "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
+- [Getting Started with AI for Rapid Software Development for Business Central](../../../posts/aardvarklabs-blog/3060.md) (community post): "AI-assisted workflow for Business Central projects; Copilot Chat pulls functional requirements"
+- [AL Language extension for Microsoft Dynamics 365 Business Central – versions](../../../posts/gerardorenteria-blog/14079.md) (community post): "AL Language extension for Microsoft Dynamics 365 Business Central"
+- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "GitHub Copilot to Automate Business Central Documentation"
+- [Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler](../../../videos/ADXkUFI_VWI.md) (video): "AL compiler; compiler architecture; roslyn; language service protocol"
+- [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "AL MCP; AL language server with project awareness; Symbol search"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 

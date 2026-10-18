@@ -9,12 +9,12 @@ tags:
   - localization
   - us
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-18T00:48:28.901Z"
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-18T00:49:13.801Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -199,23 +199,23 @@ learn_folder: LocalFunctionality/UnitedStates
 
 > United States (US) localization of Business Central 29. It covers sales and use tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 reporting with IRIS submission, EFT/ACH payments, deposits and bank reconciliation, plus shared North American objects (Canada and Mexico CFDI). It answers where US tax, 1099 and banking behavior differs from W1.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-states.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/united-states.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The US layer is built around sales tax. Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 "Sales Tax Calculate" and tax calculation inside the Sales-Post, Purch.-Post and Service posting codeunits replace VAT calculation. Learn documents the setup in "Basic Tax Setup in the US Version", "Sales tax in the US Version", "Set Up Use Tax and Purchase Tax [US]" and "Unrealized sales tax and sales payment discounts". Code adds many events around tax calculation and posting, and an external tax engine hook.
- 
-IRS reporting is the largest newer block. Own codeunits (IRS 1099 form documents, form box calculation, IRIS XML generation, OAuth, transmission processing, email queue, IRS 1096 form management) and interfaces support 1099-MISC, NEC, INT and DIV forms, printing, emailing vendors and IRIS submission. Vendors, purchase documents, journal lines and ledger entries carry IRS 1099 code and amount fields. Learn covers setup, tracking, submission, 1096 and the regulatory box changes.
+The US layer is built around sales tax. Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 "Sales Tax Calculate" and sales tax procedures in the Sales-Post, Purch.-Post and Service posting codeunits calculate and post sales tax, and General Ledger Setup gains a "VAT in Use" field. Learn documents the setup in "Basic Tax Setup in the US Version", "Sales tax in the US Version", "Set Up Use Tax and Purchase Tax [US]" and "Unrealized sales tax and sales payment discounts". Code adds many events around tax calculation and posting, and an external tax engine hook (codeunit 400 "ExternalTaxEngineDefault" and the Use External Tax Engine field on Tax Area).
 
-Banking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange definitions, check printing helpers, deposits and the older bank reconciliation worksheet. The layer also holds North American extras: Mexico CFDI e-invoicing fields and DIOT, Canadian provincial tax, GP and SL 1099 data migration, Yodlee bank feeds, Ceridian payroll, a Shopify tax matching extension and many NA reports.
+IRS reporting is a large block of own objects. Codeunits for IRS 1099 form documents, form box calculation, IRIS XML generation, OAuth, transmission processing, the email queue and IRS 1096 form management support 1099-MISC, NEC, INT and DIV forms, printing, emailing vendors and IRIS submission. Vendors carry an IRS 1099 Code. Purchase headers, journal lines and vendor ledger entries carry IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field. Learn covers setup, tracking, submission, 1096 and the regulatory box changes.
+
+Banking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange definitions, check printing helpers, deposits and bank reconciliation codeunits. Learn notes that US bank reconciliation now uses the standard process, because the North American-specific features were deprecated and moved to the standard version in 2023 release wave 2. The layer also holds North American extras: Mexico CFDI e-invoicing fields and DIOT, Canadian provincial tax, GP and SL 1099 data migration, Yodlee bank feeds, Ceridian payroll, a Shopify tax matching extension and many NA reports.
 
 ## Key points
 
 - Sales and use tax engine: Tax Area, Tax Jurisdiction, Tax Detail, codeunit 398 with external tax engine procedures and many Before/After events in posting codeunits.
 - IRS 1099 forms with IRS reporting periods, form boxes, vendor mapping, printing, email and IRIS electronic filing; IRS 1096 for paper transmittals.
-- Vendor, Purchase Header, Gen. Journal Line and ledger entries gain IRS 1099 Code and Amount fields.
+- Vendor gains an IRS 1099 Code field; Purchase Header, Gen. Journal Line and Vendor Ledger Entry gain IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field.
 - EFT and ACH payment export codeunits (US, CA, MX formats) with new Bank Account, Vendor Bank Account and Gen. Journal Line fields.
-- Deposits and bank reconciliation worksheet, with posted deposit/reconciliation deletion and printing codeunits.
+- Deposits and bank reconciliation support, with codeunits to delete and print posted deposits and reconciliations; Learn says reconciliation follows the standard process since 2023 release wave 2.
 - Unrealized sales tax procedures in Gen. Jnl.-Post Line and prepayment sales tax handling.
 - Mexican CFDI e-invoice, SAT catalogs and DIOT objects are included in the NA layer, plus Canadian provincial tax fields.
 - Data migration for GP and SL 1099 data, Shopify tax matching, Yodlee and Ceridian payroll integrations.

@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:00:20.769Z"
   flags: []
 generated:
-  at: "2026-10-09T00:29:02.995Z"
+  at: "2026-10-18T00:53:28.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -125,10 +125,12 @@ features:
     verified: false
     status_source: video
   - name: Automatic catalog creation with customer-specific pricing
-    status: unclear
+    status: ga
     t: 25
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify shop card tax ID mapping field
     status: ga
     t: 131
@@ -203,7 +205,7 @@ It also shows the export direction: customer export now sends tax ID and company
 | Tax ID automatic entity mapping | status not stated, demoed | [0:05](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=5s) |
 | Customer export with tax ID and company ID | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
 | Payment terms mapping | status not stated, demoed | [1:09](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=69s) |
-| Automatic catalog creation with customer-specific pricing | status not stated, demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
+| Automatic catalog creation with customer-specific pricing | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [0:25](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=25s) |
 | Shopify shop card tax ID mapping field | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [2:11](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=131s) |
 | Company attention field in location | status not stated, demoed | [3:06](https://www.youtube.com/watch?v=BwBR8JwwQa4&t=186s) |
 

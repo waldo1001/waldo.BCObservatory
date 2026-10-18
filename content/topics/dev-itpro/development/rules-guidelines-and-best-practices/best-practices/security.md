@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,8 +42,7 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/13588
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10346
@@ -64,7 +63,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 6c89dc26efa30a17537ece60767fa3ce2a7e9049c191393d9ad1dd5a2b8afdde
@@ -111,6 +110,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#187 Code reviewer skill for recognizing and validating unauthenticated responses](../../../../../changes/bcquality/187.md) (code change): "Helps enforce security best practices in extension code"
 - [#49 Promote security knowledge from community to Microsoft layer](../../../../../changes/bcquality/49.md) (code change): "Best practice guidance improved for temporary table data protection"
 - [#99 Add lifecycle error and privacy knowledge](../../../../../changes/bcquality/99.md) (code change): "ErrorInfo privacy exposure, and FeatureTelemetry logging, plus related review skills"
-- [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../../posts/demiliani-com/13588.md) (community post): "Business Central v28 introduces stricter URI validation in AL HttpClient to prevent Server-Side Request Forgery"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

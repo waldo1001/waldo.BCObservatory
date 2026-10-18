@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration-with-ai/integrate-with-model-context-protocol
 type: topic
 title: Integrate with Model Context Protocol
-summary: "Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server (overview, configuration, API tools, dynamic tool mode, data query tools), connecting it from VS Code, Copilot Studio and non-Microsoft hosts, and the AL MCP Server for AL development tools. Answers setup, connection and access-control questions."
+summary: "Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting it to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT, and the AL MCP Server for AL development tools. It answers setup, connection and tool-access questions."
 tier: official
 language: en
 system: copilot
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-06T15:20:35.934Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ea521f915c95ed559cdcf0d32ad5f7ce862b9ebcce6887c54771f37701b49c7f
+  input_hash: 266608ffd89f540bd85753baf4dec541dc3dac686e02f1a42e12f51433b46faa
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-mcp-server
@@ -90,8 +90,12 @@ links:
     - post/aardvarklabs-blog/2724
     - post/aardvarklabs-blog/3775
     - post/bertverbeek-nl/1183
+    - post/demiliani-com/12412
+    - post/demiliani-com/13882
     - post/gerardorenteria-blog/12682
+    - post/gerardorenteria-blog/13993
     - post/katson-com/4678
+    - post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -103,7 +107,7 @@ coverage:
   learn: 6
   code: 3
   video: 9
-  blog: 5
+  blog: 9
   guideline: 0
 bc_forms:
   - 8350
@@ -115,26 +119,28 @@ narrative: generated
 
 # Integrate with Model Context Protocol
 
-> Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server (overview, configuration, API tools, dynamic tool mode, data query tools), connecting it from VS Code, Copilot Studio and non-Microsoft hosts, and the AL MCP Server for AL development tools. Answers setup, connection and access-control questions.
+> Model Context Protocol (MCP) integration for Business Central: the Business Central MCP Server, its configuration, connecting it to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT, and the AL MCP Server for AL development tools. It answers setup, connection and tool-access questions.
 
-Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative reviewed (checked by Opus)
+Path: [Integration with AI](../integration-with-ai.md) > Integrate with Model Context Protocol · tier official · system copilot · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This area covers two MCP servers. The Business Central MCP Server gives AI clients such as Copilot Studio and GitHub Copilot a standardized, secure way to read and manage Business Central records, run business processes and query data. The AL MCP Server is separate and exposes AL development tools (build, compile, publish, symbol search) to any MCP-compatible agent without needing Visual Studio Code.
+This section covers two MCP servers. The Business Central MCP Server lets AI clients such as Copilot Studio and GitHub Copilot view and manage records, query data and run business processes through a standardized, secure interface. The AL MCP Server exposes AL development tools so any MCP-compatible agent can build, publish, compile and search symbols without Visual Studio Code.
 
-The pages follow a path from server to client. Start with the overview and setup page, then the configuration page, where you choose which APIs are available, whether dynamic tool mode is used, and which data query tools are enabled. Then pick the page for your client: Visual Studio Code, Copilot Studio (connector or MCP server), or non-Microsoft hosts such as GitHub Copilot CLI, Claude and ChatGPT.
+Start with the Business Central MCP Server overview and setup page, then the configuration page, where administrators define which APIs agents can access and which operations (read, create, modify, delete, actions) are allowed. After that, pick the connection page for your host: Visual Studio Code, Copilot Studio, or non-Microsoft hosts that need Microsoft Entra ID app registration and manual client configuration.
 
-For AL developers who want agents to build and publish extensions, the AL MCP Server page is independent of the Business Central server pages and can be read on its own.
+The AL MCP Server page is separate and aimed at developers who want agents to work with AL code and tooling.
 
 ## Key points
 
-- The Business Central MCP Server lets AI clients view and manage records, execute business processes and query data through API tools, dynamic tool mode and data query tools.
-- Configuration controls what agents can access: available APIs, API object discovery, and Read/Create/Modify/Delete/Action permissions per API, with configuration export and import.
-- Non-Microsoft hosts (GitHub Copilot CLI, Claude, ChatGPT) connect through a Microsoft Entra ID app registration, redirect URI configuration, delegated permissions and manual client configuration.
-- In Visual Studio Code the server can be configured at user level or workspace level, supports headerless connections, and is used through GitHub Copilot agent mode.
-- Copilot Studio agents can connect via the Business Central connector or the MCP server, with record operations (find, create, update, delete), API actions and dynamic tool discovery.
-- The AL MCP Server exposes al_build, al_compile, al_publish, al_downloadsymbols, al_symbolsearch and al_getdiagnostics to any MCP-compatible agent, without Visual Studio Code.
+- The Business Central MCP Server supports API Tools, Dynamic Tool Mode and Data Query Tools.
+- Administrators create configurations that define which APIs agents can access and which operations are permitted.
+- Operations include read, create, modify, delete and action operations through API pages and queries.
+- Non-Microsoft hosts (GitHub Copilot CLI, Claude, ChatGPT) need Entra ID app registration, redirect URI configuration and delegated permissions.
+- In VS Code, the server can be configured at user level or workspace level and used with GitHub Copilot in agent mode.
+- Copilot Studio agents can use the Business Central connector or the MCP server to find, create, update and delete records and call APIs.
+- The AL MCP Server provides tools al_build, al_compile, al_publish, al_downloadsymbols, al_symbolsearch and al_getdiagnostics.
+- Headerless connections and dynamic tool discovery are covered in the connection pages.
 
 ## Learn pages
 
@@ -152,8 +158,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../posts/aardvarklabs-blog/2724.md) (community post): "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data"
 - [Connect Claude to Business Central MCP: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/3775.md) (community post): "Connect Claude to Business Central MCP; locally hosted Python proxy"
 - [Microsoft Agent Framework and Business Central MCP server](../../../posts/bertverbeek-nl/1183.md) (community post): "Business Central MCP server launched at Directions EMEA"
+- [Visual Studio Code and autodiscovery of MCP servers: better to stay in control.](../../../posts/demiliani-com/12412.md) (community post): "Visual Studio Code and autodiscovery of MCP servers"
+- [Dynamics 365 Business Central: using AL MCP Server from GitHub Copilot CLI.](../../../posts/demiliani-com/13882.md) (community post): "AL MCP Server exposes AL development tools through the Model Context Protocol"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages when APIs are exposed through the Model Context Protocol"
+- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "MCPs: check your BC extension health in VS Code"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
+- [The Copilot harness is now VS Code's default](../../../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (community post): "The Copilot harness is now VS Code's default"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Server configuration validation import export connection string telemetry auditing"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central agents dynamic tools static tools"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Build an Agent in Microsoft Copilot Studio for Business Central"

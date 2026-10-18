@@ -9,12 +9,12 @@ tags:
   - localization
   - mx
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-18T00:47:34.305Z"
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-18T00:49:13.801Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -199,7 +199,7 @@ learn_folder: LocalFunctionality/Mexico
 
 > Mexico (MX) localization of Business Central 29. It covers CFDI 4.0 electronic invoicing with SAT certificates and PAC web services, Carta de Porte transfers, DIOT reports, electronic accounting export, tax identification (RFC, CURP), VAT recalculation on foreign-currency payments, and EFT bank exports, deposits and bank reconciliation. It also carries North American sales tax objects.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/mexico.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/mexico.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 

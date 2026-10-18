@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -329,24 +329,24 @@ links:
     - topic/dev-itpro/integration/web-services/apis/finance-reports-api
   localizations: []
   videos:
-    - video/1ft4o9lQzsU
     - video/2N2NhNH7dsk
     - video/4HE3BBCcV84
     - video/VpNQ-CYNrkM
   posts:
     - post/aardvarklabs-blog/2017
+    - post/aardvarklabs-blog/2565
+    - post/aardvarklabs-blog/3631
     - post/demiliani-com/11962
     - post/demiliani-com/12036
     - post/gerardorenteria-blog/12682
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579
     - post/thinkaboutit-be/7683
     - post/thinkaboutit-be/8272
   guidelines: []
   changes:
     - change/bcapps/10010
-    - change/bcapps/10755
     - change/bcapps/11741
     - change/bcapps/9194
     - change/bcapps/9914
@@ -362,8 +362,8 @@ children:
 coverage:
   learn: 261
   code: 1
-  video: 4
-  blog: 9
+  video: 3
+  blog: 11
   guideline: 0
 bc_forms:
   - 812
@@ -411,20 +411,20 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the automate API group"
-- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "now use native AL HTTP types instead of the legacy Http Web Request Mgt. codeunit"
 - [#11741 [MCP] Add company and environment descriptions](../../../../changes/bcapps/11741.md) (code change): "Company and environment descriptions are now stored and exposed via APIs to provide richer context for MCP and other consumers"
 - [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs from all publishers"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "Vendor Payments API now returns all payment lines in a batch"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
+- [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
+- [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText is a new property in BC 27.1 for APIV2 pages that describes API functionality"
 - [Why API Templates Don't Work on Business Central Custom API Pages](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1160169849126032090--7f7e64325d.md) (community post): "API templates in Business Central only work with specific standard API pages because custom API pages lack the ProcessNewRecordFromAPI"
-- [BC Friday Tips #30 DataAccessIntent](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-30-dataaccessintent--bb244afad1.md) (community post): "DataAccessIntent property signals the server to use a replica database when available. Set to ReadOnly for pages and reports"
 - [D365 Business Central: How to Fix Missing Sales Invoices in the API](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-missing-sales-invoices-in-the-api--9b9a0831d9.md) (community post): "The Sales Invoices API in Business Central aggregates posted and unposted invoices"
+- [BC Friday Tips #66 API v2 app](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-66-api-v2-app--9c066fb579.md) (community post): "The Exclude_APIV2 app holds the standard API V2 objects used by Business Central"
 - [API Pages vs API Queries in Business Central: When to Use Each](../../../../posts/thinkaboutit-be/7683.md) (community post): "API pages and API queries are two distinct REST API object types in Business Central"
 - [Business Central 29: More Control Over Report Layouts and New Report Inbox APIs](../../../../posts/thinkaboutit-be/8272.md) (community post): "Report Inbox APIs enable external applications and automation tools to interact"
-- [20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](../../../../videos/1ft4o9lQzsU.md) (video): "Business Central API structure and authentication; Dynamic API connection using environment variables"
 - [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../videos/2N2NhNH7dsk.md) (video): "Report inbox APIs; API overview page for report inbox"
 - [MCP Server and API Queries (2026 release wave 1)](../../../../videos/4HE3BBCcV84.md) (video): "API queries in MCP server Analytics API reference documentation"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../../videos/VpNQ-CYNrkM.md) (video): "API Schema Version 2.0 Default; API Version 1 Deprecation"

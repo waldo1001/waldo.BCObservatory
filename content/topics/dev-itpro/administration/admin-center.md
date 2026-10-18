@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:15.343Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -271,6 +271,7 @@ links:
     - video/wPEZ3U5j4zw
   posts:
     - post/duiliotacconi-com/1537
+    - post/duiliotacconi-com/1748
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08
@@ -290,7 +291,7 @@ coverage:
   learn: 31
   code: 0
   video: 9
-  blog: 8
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -348,6 +349,7 @@ Start with the Business Central Administration Center page for access and the ov
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "pick a Business Central Online update window so that application hotfixes"
+- [Cloud Customer Management System (CCMS): to avoid reinventing the wheel](../../../posts/duiliotacconi-com/1748.md) (community post): "free, open-source Business Central app written in AL for managing partners' cloud customer tenants"
 - [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "The Manage Apps page in the Business Central admin center controls the stack"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (community post): "calling the Business Central admin center API from AL"
 - [BC Friday Tips #34 Restore Environment](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08.md) (community post): "An environment can be restored to any point within the last 28 days from the Admin Center"

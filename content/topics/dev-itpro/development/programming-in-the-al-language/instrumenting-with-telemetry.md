@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,6 +100,7 @@ links:
     - video/oF_wSP0xrSQ
     - video/QT3RKx9rGJA
     - video/tDcT_51ktqo
+    - video/TY82NR2hGEg
     - video/VX_aPhcsIOc
   posts:
     - post/waldo-be/317845
@@ -122,7 +123,7 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 12
+  video: 13
   blog: 1
   guideline: 0
 bc_forms: []
@@ -186,6 +187,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)](../../../../videos/oF_wSP0xrSQ.md) (video): "Automated BC telemetry triage with Azure Logic App and AI; KQL query for database lock timeouts"
 - [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL-Go Telemetry Module"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Exclusive Time Telemetry; Session Creation Performance Improvement"
+- [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL Doc reference documentation tool; XML documentation comments in AL"
 - [Enable Cost Control Strategies for Business Central Telemetry](../../../../videos/VX_aPhcsIOc.md) (video): "telemetry; cost control; daily cap; application insights"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

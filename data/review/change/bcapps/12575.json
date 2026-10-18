@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12575",
+  "input_hash": "ea9c5c763d1e79f15527bd6ce0f70318e47778c9d795a7178a990291d11f1feb",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-18T00:55:14.136Z",
+  "issues": [
+    "Backport of #11484 to 29.x. The page matches the new enum, enforcement, upgrade code and tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020209,
+    "changes_in_call": 6
+  }
+}

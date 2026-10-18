@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,7 +125,7 @@ The pages follow the order of the work. Start with the overview and the extensio
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../../videos/205F8ljmInU.md) (video): "E-invoicing for Denmark; Digital Voucher Storage; Audit Trail"
+- [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../../../../../videos/205F8ljmInU.md) (video): "E-invoicing for Denmark; Digital Voucher Storage for Five Years; Audit Trail for Transactions"
 
 ## Business Central pages and reports
 

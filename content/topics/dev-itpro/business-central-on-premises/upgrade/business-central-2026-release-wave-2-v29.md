@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:41.609Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,9 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -71,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: bb19bc24266d3770671d62d35bcd52382bc7b9188b90751e4908b857e79e74cb
@@ -109,5 +111,12 @@ For the upgrade itself, use the upgrade guide if you are coming from version 25,
 - [Install a Business Central 2026 release wave 2 (version 29) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v29): This article describes the tasks required for getting the monthly version 29 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrade to Business Central 2026 release wave 2 (version 29)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v29): Describes how to upgrade an unmodified Business Central version 25 and later to version 29
 - [Upgrading to Dynamics 365 Business Central 2026 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v29): Provides an overview of Business Central 2026 release wave 2 upgrade process.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "In version 29, with runtime 18.0 or later, an existing Integer table field can be changed to BigInteger"
+- [Business Central 2026 Release Wave 2 Preview Is Now Available](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f.md) (community post): "Business Central 2026 release wave 2 version 29.0 preview is now available for testing"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

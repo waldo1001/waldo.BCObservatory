@@ -2,21 +2,21 @@
 id: topic/business-central/development-and-administration/synchronize-master-data-across-companies
 type: topic
 title: Synchronize master data across companies
-summary: "Master data synchronization across companies in Business Central: how to set up a source and subsidiary companies to pull customer, vendor, item, and employee data, and how to manage and troubleshoot the synchronization afterward. It answers setup, coupling, scheduling, and maintenance questions."
+summary: "Master data synchronization across companies in Business Central: setting up Master Data Management to pull customers, vendors, and items from a source company into subsidiaries, and managing and troubleshooting the synchronization afterward. It answers setup, coupling, filtering, and job queue questions."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:22:32.124Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 37c5a4d7c4ff6a03334a1fa89e3457cc7e6f130d779dcf0313e23a19f938bf9a
+  input_hash: 868476d9b00bab8801a5d675bfc93575df3282028180338ec2fda673300c4db5
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/admin-sync-master-data
@@ -77,28 +77,28 @@ narrative: generated
 
 # Synchronize master data across companies
 
-> Master data synchronization across companies in Business Central: how to set up a source and subsidiary companies to pull customer, vendor, item, and employee data, and how to manage and troubleshoot the synchronization afterward. It answers setup, coupling, scheduling, and maintenance questions.
+> Master data synchronization across companies in Business Central: setting up Master Data Management to pull customers, vendors, and items from a source company into subsidiaries, and managing and troubleshooting the synchronization afterward. It answers setup, coupling, filtering, and job queue questions.
 
-Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Development and administration](../development-and-administration.md) > Synchronize master data across companies · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how to keep master data consistent between companies. A source company provides customer, vendor, item, and employee data, and subsidiary companies pull it in one direction. Updates run automatically through job queue entries.
+This section covers keeping nontransactional master data, such as customers, vendors, and items, consistent between a source company and its subsidiary companies. Synchronization is uni-directional and uses a pull model: subsidiaries pull data from the source company.
 
-The two pages follow the lifecycle. "Set up companies to synchronize master data" covers the initial configuration: export and import setup, table filtering, match-based coupling of existing records, initial synchronization, and job queue scheduling. "Manage master data synchronization" covers ongoing work: monitoring, handling schema changes, coupling records, overwriting local changes, and troubleshooting.
+Two pages make up the section. "Set up companies to synchronize master data" explains Master Data Management Setup, including match-based coupling, table filtering, and automatic job queue scheduling. "Manage master data synchronization" covers day-to-day operation with job queue entries, and the tools for schema changes, coupling, and troubleshooting.
 
-Start with the setup page if synchronization is not yet configured. Use the management page once it is running or when something goes wrong.
+Start with the setup page to configure the source and subsidiary companies, then use the management page to monitor synchronization and fix problems.
 
 ## Key points
 
-- Synchronization is uni-directional: subsidiary companies pull data from a source company.
-- Supported master data includes customers, vendors, items, and employees.
-- Updates run automatically through job queue entries, which can be scheduled.
-- Setup involves export and import configuration, table filtering, and an initial synchronization.
-- Match-based coupling links existing records between companies.
-- Management tasks include coupling records, overwriting local changes, and running a full synchronization.
-- Field mapping can be updated to handle schema changes.
-- Synchronization can be monitored to troubleshoot issues.
+- Synchronization is uni-directional, from a source company to subsidiary companies, using a pull model.
+- It applies to nontransactional master data such as customers, vendors, and items.
+- Match-based coupling works with a priority order, and new records can be created when no match is found.
+- Tables can be filtered by criteria to limit which records synchronize.
+- Job queue entries are scheduled automatically and run the synchronization.
+- Synchronization setup can be imported and exported.
+- Management tools cover overwriting local changes, updating field mapping after schema changes, and running a full synchronization.
+- Record coupling and synchronization monitoring help troubleshoot issues.
 
 ## Learn pages
 

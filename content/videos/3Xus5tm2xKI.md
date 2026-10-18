@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-07T22:43:05.138Z"
+  at: "2026-10-18T00:53:28.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -89,7 +89,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576815
   topics: []
   localizations: []
   videos: []
@@ -127,40 +128,52 @@ chapters:
     title: Dev extensions persistence on sandbox environments
 features:
   - name: PTE upload, install, and update in admin center
-    status: unclear
+    status: ga
     t: 23
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Flexible deployment schedule for PTE installation
-    status: unclear
+    status: ga
     t: 88
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: App filtering by type in admin center
-    status: unclear
+    status: ga
     t: 175
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Multiple concurrent PTE schedules
-    status: unclear
+    status: ga
     t: 301
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Cancel scheduled PTE installation
-    status: unclear
+    status: ga
     t: 379
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Environment operations audit page
     status: unclear
     t: 409
     verified: false
     status_source: video
   - name: S2S app permissions for PTE management
-    status: unclear
+    status: ga
     t: 580
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: Early hotfix installation for Microsoft apps
     status: unclear
     t: 612
@@ -242,16 +255,18 @@ It then covers considerations: the old extension management pages and automation
 
 | Feature | Status | At |
 |---|---|---|
-| PTE upload, install, and update in admin center | status not stated, demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |
-| Flexible deployment schedule for PTE installation | status not stated, demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
-| App filtering by type in admin center | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
-| Multiple concurrent PTE schedules | status not stated, demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
-| Cancel scheduled PTE installation | status not stated, demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |
+| PTE upload, install, and update in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |
+| Flexible deployment schedule for PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
+| App filtering by type in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
+| Multiple concurrent PTE schedules | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
+| Cancel scheduled PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |
 | Environment operations audit page | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |
-| S2S app permissions for PTE management | status not stated | [9:40](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=580s) |
+| S2S app permissions for PTE management | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)) | [9:40](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=580s) |
 | Early hotfix installation for Microsoft apps | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s) |
 | Known issues tracking for hotfixes | status not stated | [11:39](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=699s) |
 | Dev extensions persistence on sandbox | status not stated | [13:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=808s) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

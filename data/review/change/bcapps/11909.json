@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11909",
+  "input_hash": "46dba3c526cf40d3f75b85a41d3ddaa78a83bbbf40d50a0f5033600a0cbffb52",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:29.182Z",
+  "issues": [
+    "Change kind is better described as fix: it closes an access gap and links a fixed work item.",
+    "The summary claims internal users retain full access, which is not stated in the PR."
+  ],
+  "applied": [
+    "summary rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020217,
+    "changes_in_call": 6
+  }
+}

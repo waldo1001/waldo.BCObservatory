@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -128,7 +128,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11635 Bugs/Bug 647818 Source Currency Amount FCY GL Entries Reversal Charged](../../../../changes/bcapps/11635.md) (code change): "source currency amount is handled when general ledger entries"
 - [#11727 Bug 650737: Description for new currencies should be aligned with existing full descriptions](../../../../changes/bcapps/11727.md) (code change): "Currency labels in demo data now include country names"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "foreign currency opening balance is not included. Report 11564"
-- [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Fixed source currency handling for LCY postings and cash posting on sales"
+- [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Source Currency Inconsistency for LCY Postings and cash posting"
 - [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter not working. Codeunit 699"
 - [#9349 [master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed](../../../../changes/bcapps/9349.md) (code change): "Reversal of foreign-currency payments with gain-loss entries now works correctly"
 - [#9686 [Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.](../../../../changes/bcapps/9686.md) (code change): "Foreign currency unrealized gain/loss posting now selects the correct payables account"

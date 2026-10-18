@@ -3,7 +3,7 @@
   "version": "29",
   "input_hash": "5d56c4b2dd06a8ab958ff3ca3fe78818dde02d0f753404c7e9631f067378a61c",
   "summary": "Norway (NO) localization of Business Central 29. It covers Norwegian VAT codes, proportional VAT and electronic VAT returns, SAF-T export, remittance and OCR/KID bank payments, EHF/PEPPOL e-invoicing, recurring orders and payroll import. Use it for questions on what Norway adds to W1 and where Learn documents it.",
-  "overview": "Norway adds a large layer on top of W1 (354 objects, 240 fields added on W1 tables). VAT is the core: a single VAT Code on journals, ledger entries and posting setup, proportional deduction in Gen. Jnl.-Post Line, extra fields on VAT Reporting Code, and a SAF-T export (codeunits 10670 to 10692, mapping and export pages, SAF-T versions 1.20 and 1.30) plus electronic VAT return submission with OAuth 2.0. Learn documents these as Norwegian VAT codes, proportional VAT, Norwegian VAT reporting and SAF-T setup.\n\nPayments and banking are the second block. The remittance module (objects in the 15000000 range) handles payment suggestions, payment orders, waiting journal, return files and error codes. It is supported by fields on Vendor, Vendor Ledger Entry and Gen. Journal Line, SEPA export changes and pain.002/CAMT.054 import. KID, OCR and giro printing sit on Sales & Receivables Setup and the OCR objects.\n\nSales and e-invoicing cover EHF and PEPPOL BIS 3.0: GLN, Account Code and E-Invoice fields on customers and sales, reminder and finance charge documents, E-Invoice check and export codeunits, a PEPPOL30 NO set and Service document variants. Recurring orders, payroll import and a rule for applying entries in closed periods complete the local scope.",
+  "overview": "Norway adds a large layer on top of W1 (354 objects, 240 fields added on W1 tables). VAT is the core: a single VAT Code on journals, ledger entries and posting setup, proportional deduction in Gen. Jnl.-Post Line, extra fields on VAT Reporting Code, and a SAF-T export (SAF-T codeunits such as Generate SAF-T File and Generate SAF-T 1.3 File, mapping and export pages, SAF-T versions 1.20 and 1.30). Electronic VAT return submission with OAuth 2.0 has its own Elec. VAT codeunits. Learn documents these as Norwegian VAT codes, proportional VAT, Norwegian VAT reporting and SAF-T setup.\n\nPayments and banking are the second block. The remittance module (objects in the 15000000 range) handles payment suggestions, payment orders, waiting journal, return files and error codes. It is supported by fields on Vendor, Vendor Ledger Entry and Gen. Journal Line, SEPA export changes and pain.002/CAMT.054 import. KID, OCR and giro printing sit on Sales & Receivables Setup and the OCR objects.\n\nSales and e-invoicing cover EHF and PEPPOL BIS 3.0: GLN, Account Code and E-Invoice fields on customers and sales, reminder and finance charge documents, E-Invoice check and export codeunits, a PEPPOL30 NO set and Service document variants. Recurring orders, payroll import and a rule for applying entries in closed periods complete the local scope.",
   "key_points": [
     "Norwegian VAT Code field on journals, ledger entries, G/L accounts and VAT Posting Setup, with VAT Reporting Code extended for reporting boxes and SAF-T VAT codes.",
     "Proportional VAT: Calc. Prop. Deduction VAT and Proportional Deduction VAT % on VAT Posting Setup, posted through new procedures in Gen. Jnl.-Post Line.",
@@ -175,5 +175,21 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.2243016
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-18T00:47:50.440Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview gives codeunits 10670 to 10692 as the SAF-T export. Only part of that range is SAF-T. Codeunits 10680, 10681 and 10683 to 10691 are electronic VAT codeunits (for example Elec. VAT OAuth Mgt., Elec. VAT Submit Return and Electronic VAT Installation). The corrected overview names the SAF-T codeunits and the electronic VAT codeunits separately.",
+      "Small point: '240 fields added on W1 tables' is a fair reading of fields_added = 240, but the input gives this number without saying where the fields are added. Left as is."
+    ],
+    "input_hash": "5d56c4b2dd06a8ab958ff3ca3fe78818dde02d0f753404c7e9631f067378a61c",
+    "cost_usd": 0.2890348,
+    "applied": [
+      "overview"
+    ],
+    "rejected_edits": []
   }
 }

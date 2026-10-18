@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:50.663Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,15 +91,8 @@ links:
   localizations: []
   videos:
     - video/6Zb7VAvLVm4
-    - video/EVntnDFE1R4
   posts:
-    - post/aardvarklabs-blog/2017
-    - post/bertverbeek-nl/1318
-    - post/thinkaboutit-be/7197
-    - post/thinkaboutit-be/7226
-    - post/thinkaboutit-be/7233
     - post/thinkaboutit-be/7995
-    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Integration
@@ -113,8 +106,8 @@ children:
 coverage:
   learn: 8
   code: 2
-  video: 2
-  blog: 7
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -164,15 +157,8 @@ Further pages cover embedding reports, scorecards and dashboards with the Power 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query APIs can be directly connected to Power BI using the Dynamics 365 Business Central connector"
-- [Native connection with Fabric in Business Central](../../../../posts/bertverbeek-nl/1318.md) (community post): "Native Fabric integration is built on Open Mirroring and syncs from the SQL change log"
-- [Introducing Power BI Monitor: Unified Power BI Management in Business Central](../../../../posts/thinkaboutit-be/7197.md) (community post): "Power BI Monitor is a Business Central extension that centralizes Power BI management"
-- [How to Install and Configure Power BI Monitor for Business Central](../../../../posts/thinkaboutit-be/7226.md) (community post): "The Power BI Monitor extension enables Business Central users to manage Power BI resources"
-- [Quick Tip: Power BI Sharing Options Explained — What to Use, When, and Why](../../../../posts/thinkaboutit-be/7233.md) (community post): "Power BI Sharing Options Explained — What to Use, When, and Why"
 - [Quick Tip: Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist](../../../../posts/thinkaboutit-be/7995.md) (community post): "Troubleshooting Business Central Power BI Reports: My 5-Minute Checklist"
-- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "native data mirroring to Microsoft Fabric, allowing users to replicate their tables"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Power BI Embedded Reports with Full Capabilities; Power BI Report Page Bookmarking"
-- [What's New: Business Central Integration with Power Platform (2023 release wave 2)](../../../../videos/EVntnDFE1R4.md) (video): "Power BI embed experience improvements; Power BI scorecard support in Business Central"
 
 ## Business Central pages and reports
 

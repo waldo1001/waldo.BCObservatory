@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.420Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,9 +91,7 @@ links:
   localizations: []
   videos:
     - video/9CW5mydS9Vs
-    - video/D_Lur52IrIg
     - video/eUkx_VCcyoU
-    - video/EurgqGU1jG0
     - video/JI9OpaBx0nk
     - video/qlFEdXPjX6A
     - video/QT3RKx9rGJA
@@ -126,7 +124,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 8
+  video: 6
   blog: 3
   guideline: 0
 bc_forms:
@@ -198,9 +196,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "AL Runner is a CLI tool that transpiles AL code to C# and executes unit tests"
 - [You don't need the base app to run your unit tests](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-unittestswithoutbaseapp--b93d0ec831.md) (community post): "Unit tests for self-contained Business Central logic do not require the base application to run"
 - [Microsoft presents: Tests, dependencies, runners and evals for BC applications](../../../../videos/9CW5mydS9Vs.md) (video): "Tests dependencies runners and evals for BC applications"
-- [What's new in AL and Tools (2026 release wave 2)](../../../../videos/D_Lur52IrIg.md) (video): "Data-driven testing framework; Test handler interface for lifecycle hooks; Static call graph analysis"
 - [What's New: AL Language (2025 release wave 1)](../../../../videos/eUkx_VCcyoU.md) (video): "testing; http client; call stack; HTTP Client Handler for Testing"
-- [20260504 - Super fast tests covering 100% of your code](../../../../videos/EurgqGU1jG0.md) (video): "100% code coverage testing pattern; Fast automated testing framework"
 - [Introducing: How to Mock Outbound Http Calls for Easier Testing (2025 release wave 1)](../../../../videos/JI9OpaBx0nk.md) (video): "outbound http testing; mocking; HTTP client handler; test isolation; request interception"
 - [What's New: AL Language (2025 release wave 2)](../../../../videos/qlFEdXPjX6A.md) (video): "AI Test Type; Required Test Isolation Property; Cancellation Token Propagation in VS Code"
 - [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL Go for GitHub; conditional settings; build modes; incremental builds"

@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
 type: topic
 title: Integrating with Microsoft Power Platform
-summary: "Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, building apps and flows, reports, external user access, and connecting agents to Business Central."
+summary: "Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, setup, building apps, flows and reports, external access, and connecting agents."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:04.119Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: ff9769a4a3dae0c27b61504b5c16960f6c88880255a9dac509363e25d8fc2947
+  input_hash: 1930f287536c3203cb3e37930d4c92d4f30f02429e1f77649a055bb18d9c468f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm
@@ -184,7 +184,8 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/demiliani-com/14064
   guidelines: []
   changes:
     - change/al-go/2346
@@ -202,7 +203,7 @@ coverage:
   learn: 21
   code: 5
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -216,27 +217,27 @@ narrative: generated
 
 # Integrating with Microsoft Power Platform
 
-> Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, building apps and flows, reports, external user access, and connecting agents to Business Central.
+> Integration of Business Central with Microsoft Power Platform: Power Apps, Power Automate, Power BI, Power Pages on virtual tables, and Copilot Studio. It answers questions on connectors, setup, building apps, flows and reports, external access, and connecting agents.
 
-Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Integrating with Microsoft Power Platform · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how Business Central works with the Power Platform products. The entry page gives an overview of Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio, and explains that integration happens through the Business Central connector and virtual tables.
+This section explains how Business Central works with the Power Platform products. The overview page introduces the Business Central connector and virtual tables, and shows how Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio each connect.
 
-Each product has its own subtopic. The Power Apps pages cover building apps on Business Central data, canvas app best practices, GitHub samples and lifecycle management. The Power Automate pages cover admin setup, automated and instant flows, and flow management. The Power BI pages cover enabling the integration, report authoring, embedding, ETL data extraction and dataset load performance. The Copilot Studio pages cover the Business Central MCP Server and agents built on the connector or the MCP server.
+Four subtopics go deeper: Power Apps (building apps, canvas app best practices, sample apps on GitHub, application lifecycle management), Power Automate (admin access and permissions, automated and instant flows, flow management, Teams integration), Power BI (enabling, building and embedding reports, ETL extraction, dataset load performance) and Copilot Studio (Business Central MCP Server and agents). The section's own page on Power Pages on virtual tables covers external user access.
 
-Power Pages on virtual tables is described on its own page in this section. It is a preview feature that lets unlicensed external users reach Business Central online data through portals. Start with the overview page, then go to the subtopic for the product you need.
+Start with the overview page, then go to the subtopic for the product you need. For external, unlicensed users, read the Power Pages page.
 
 ## Key points
 
-- The overview page lists the integration points: Business Central connector, Power Apps, Power Automate flows, Power BI embedding, Power Pages virtual tables and Copilot Studio agents.
-- Power Apps: build apps on Business Central data, follow canvas app best practices, use GitHub sample apps, and apply application lifecycle management to Power Platform solutions.
-- Power Automate: administrators set up access and permissions, create automated and instant flows, and manage existing flows. Topics include triggers, actions and Teams integration.
-- Power BI: enable the integration, build reports on Business Central data, embed reports in pages, extract data for ETL, and improve dataset load performance.
-- Copilot Studio: configure the Business Central MCP Server and build agents that use the Business Central connector or the MCP server.
-- Power Pages on virtual tables (preview) gives unlicensed external users access to Business Central online data through Dataverse virtual tables.
-- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration. List and subgrid editing is available from 2023 release wave 2 (version 23.1).
+- The Business Central connector and virtual tables are the main ways Power Platform products connect to Business Central.
+- Power Apps pages cover building apps on Business Central data, canvas app best practices, GitHub sample apps and lifecycle management of solutions.
+- Power Automate pages cover admin setup of access and permissions, creating automated and instant flows, managing flows, triggers, actions and Teams integration.
+- Power BI pages cover enabling the integration, building reports, embedding reports in pages, extracting data for ETL and improving dataset load performance.
+- Copilot Studio pages cover configuring the Business Central MCP Server and building agents that connect through the connector or MCP server.
+- Power Pages on virtual tables (preview) lets unlicensed external users reach Business Central online data via Dataverse virtual tables.
+- Power Pages supports anonymous and authenticated access, synthetic relations, lookup columns, basic forms and grid configuration, from 2023 release wave 2 (version 23.1).
 
 ## Subtopics
 
@@ -255,6 +256,7 @@ Power Pages on virtual tables is described on its own page in this section. It i
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
+- [How can I move my Business Central-related Azure resources to a new Azure region?](../../../posts/demiliani-com/14064.md) (community post): "Business Central needs updated connection strings and endpoints afterward"
 
 ## Business Central pages and reports
 

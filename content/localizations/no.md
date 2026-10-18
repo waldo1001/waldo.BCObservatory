@@ -9,12 +9,12 @@ tags:
   - localization
   - "no"
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-18T00:47:50.440Z"
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-18T00:49:13.801Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
@@ -127,11 +127,11 @@ learn_folder: LocalFunctionality/Norway
 
 > Norway (NO) localization of Business Central 29. It covers Norwegian VAT codes, proportional VAT and electronic VAT returns, SAF-T export, remittance and OCR/KID bank payments, EHF/PEPPOL e-invoicing, recurring orders and payroll import. Use it for questions on what Norway adds to W1 and where Learn documents it.
 
-BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/norway.md) · narrative **unreviewed** (model text not yet checked)
+BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/norway.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Norway adds a large layer on top of W1 (354 objects, 240 fields added on W1 tables). VAT is the core: a single VAT Code on journals, ledger entries and posting setup, proportional deduction in Gen. Jnl.-Post Line, extra fields on VAT Reporting Code, and a SAF-T export (codeunits 10670 to 10692, mapping and export pages, SAF-T versions 1.20 and 1.30) plus electronic VAT return submission with OAuth 2.0. Learn documents these as Norwegian VAT codes, proportional VAT, Norwegian VAT reporting and SAF-T setup.
+Norway adds a large layer on top of W1 (354 objects, 240 fields added on W1 tables). VAT is the core: a single VAT Code on journals, ledger entries and posting setup, proportional deduction in Gen. Jnl.-Post Line, extra fields on VAT Reporting Code, and a SAF-T export (SAF-T codeunits such as Generate SAF-T File and Generate SAF-T 1.3 File, mapping and export pages, SAF-T versions 1.20 and 1.30). Electronic VAT return submission with OAuth 2.0 has its own Elec. VAT codeunits. Learn documents these as Norwegian VAT codes, proportional VAT, Norwegian VAT reporting and SAF-T setup.
 
 Payments and banking are the second block. The remittance module (objects in the 15000000 range) handles payment suggestions, payment orders, waiting journal, return files and error codes. It is supported by fields on Vendor, Vendor Ledger Entry and Gen. Journal Line, SEPA export changes and pain.002/CAMT.054 import. KID, OCR and giro printing sit on Sales & Receivables Setup and the OCR objects.
 

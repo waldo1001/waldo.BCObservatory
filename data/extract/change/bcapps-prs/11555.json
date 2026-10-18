@@ -8,14 +8,14 @@
   ],
   "summary": "SharePoint Graph client corrections preserve unmodified fields during UpdateListItem operations and improve drive item telemetry with operation name dimensions.",
   "key_points": [
-    "UpdateListItem preserves ContentType, WebUrl, CreatedDateTime, and LastModifiedDateTime fields when record already exists",
-    "ParseListItemFieldValueSet returns Boolean and reports parse errors under new event ID 0000UKW",
-    "Drive item update operations include OperationName dimension for better telemetry distinguishability",
-    "GetListItem keeps default $expand=fields parameter to prevent mutation of caller's parameters",
-    "Tests added to protect against parameter leakage and verify field preservation"
+    "UpdateListItem keeps ContentType, WebUrl, CreatedDateTime and LastModifiedDateTime when the record already holds the item",
+    "ParseListItemFieldValueSet returns Boolean; UpdateListItem logs a parse error under new event ID 0000UKW",
+    "Drive item update and rename operations log an OperationName telemetry dimension",
+    "GetListItem still appends the default $expand=fields to the endpoint so the caller's optional parameters are not mutated",
+    "New tests cover field preservation, empty field values and expand handling"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:58.998Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/dev-itpro/development/extensibility
   localizations: []
-  videos: []
+  videos:
+    - video/a8W1x0xwkv4
   posts:
     - post/aardvarklabs-blog/3680
     - post/gerardorenteria-blog/12801
@@ -59,7 +60,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 5
   guideline: 0
 bc_forms: []
@@ -101,9 +102,10 @@ Start with the performance page to avoid throttling and warnings, then use the s
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Step-by-Step Guide to Custom User Controls in Business Central](../../../../posts/aardvarklabs-blog/3680.md) (community post): "Custom user controls in Business Central use HTML, JavaScript, and AL to create bespoke UI components"
-- [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "a JavaScript control add-in bridge, and the Mermaid.js CDN"
+- [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../../posts/gerardorenteria-blog/12801.md) (community post): "JavaScript control add-in bridge, and the Mermaid.js CDN"
 - [Tip – Access the Clipboard with Business Central](../../../../posts/jpearson-blog/1425.md) (community post): "WebPageViewer control add-in can display HTML and JavaScript for lightweight UI enhancements"
 - [Embed Visual Studio Code in Business Central](../../../../posts/jpearson-blog/1583.md) (community post): "Embedding Visual Studio Code's Monaco editor in a Business Central control add-in"
 - [Integration with Azure Static Web Apps from Business Central](../../../../posts/jpearson-blog/1601.md) (community post): "WebPageViewer control add-in shows hosted web content inside an iframe on a Business Central page"
+- [... but can it play DOOM? (In Business Central)](../../../../videos/a8W1x0xwkv4.md) (video): "DOOM page user control; Pure Doom engine translated to AL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

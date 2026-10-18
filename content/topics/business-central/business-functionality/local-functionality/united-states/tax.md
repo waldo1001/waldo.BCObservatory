@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:42.213Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -126,7 +126,6 @@ links:
   localizations: []
   videos:
     - video/k0pugXY4CEw
-    - video/WI_3mjpQ2JU
   posts: []
   guidelines: []
   changes:
@@ -142,7 +141,7 @@ children: []
 coverage:
   learn: 11
   code: 11
-  video: 2
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -224,8 +223,7 @@ Start with Basic Tax Setup and Sales tax for general tax configuration. For 1099
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10884 [Bug Fix] Fix recurring journal background posting for IRS 1099 invoice lines (US)](../../../../../changes/bcapps/10884.md) (code change): "Background posting of recurring journals no longer fails with a 'scheduled for posting' error on IRS 1099 invoice lines"
-- [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents; IRS transmission"
-- [What's New: Automated IRS1099 Reporting (2024 release wave 1)](../../../../../videos/WI_3mjpQ2JU.md) (video): "Automated IRS1099 Reporting; 1099 reporting; irs integration; us tax forms; vendor setup"
+- [What's New: IRS1099 Integration with IRIS (2025 release wave 2)](../../../../../videos/k0pugXY4CEw.md) (video): "1099 electronic filing to IRS; 1099 form documents"
 
 ## Business Central pages and reports
 

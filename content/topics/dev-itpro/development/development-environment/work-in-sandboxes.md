@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-08T02:14:42.423Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -109,7 +109,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [Dynamics 365 Business Central: update sandbox environments to preview versions.](../../../../posts/demiliani-com/12482.md) (community post): "Partners can now update existing sandbox environments to preview versions of Dynamics"
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
-- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations against version 29.0"
+- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations"
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

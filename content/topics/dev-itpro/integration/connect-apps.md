@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/connect-apps
 type: topic
 title: Connect apps
-summary: Connect apps covers building integrations with Business Central through REST APIs and OData. It answers questions about creating custom API pages and queries, authenticating (Microsoft Entra ID, basic auth, service-to-service OAuth 2.0), filtering, and request tips such as batching and localization.
+summary: Connect apps covers building point-to-point integrations between Business Central and partner solutions through REST APIs. It answers questions on developing API pages and queries, authentication (OAuth 2.0, service-to-service), OData filters, batch requests and request headers.
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:33.901Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 8437bfd47c83ee1ca15a180b1d138c20e872524ef72311d02e82bed05539731f
+  input_hash: 55317451e0bc65f4df9fee68680b71affaf70ce76d2be1bf608b8a0e1b8ac632
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-api
@@ -76,6 +76,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12064
 learn_toc_path:
   - Integration
   - Connect apps
@@ -95,27 +97,28 @@ narrative: generated
 
 # Connect apps
 
-> Connect apps covers building integrations with Business Central through REST APIs and OData. It answers questions about creating custom API pages and queries, authenticating (Microsoft Entra ID, basic auth, service-to-service OAuth 2.0), filtering, and request tips such as batching and localization.
+> Connect apps covers building point-to-point integrations between Business Central and partner solutions through REST APIs. It answers questions on developing API pages and queries, authentication (OAuth 2.0, service-to-service), OData filters, batch requests and request headers.
 
-Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Connect apps · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section is for developers who connect external services to Business Central using REST web services. It starts with an overview of the two ways to build APIs: API pages for read-write access and API queries for read-only access. A walkthrough then shows how to write a custom API page in AL.
+Connect apps is about building integrations that link Business Central to external partner solutions using REST APIs. The section starts with a getting-started page that explains authentication setup, exploring the APIs with Insomnia, and calling endpoints.
 
-The getting-started page covers authentication setup and trying calls with the Insomnia REST client. The service-to-service page covers unattended integrations with OAuth 2.0 client credentials. Two further pages cover day-to-day use: filtering OData calls and tips on headers and batch requests.
+For developers who need their own endpoints, two pages cover custom APIs: one compares API pages (read-write) with API queries (read-only joined datasets), and the other walks through creating API pages in AL, including relationships and moving away from the deprecated ODataEDMType complex types.
 
-Start with the API developer overview, then the getting-started page to set up authentication and make a first call. Use the custom API page when the standard APIs do not expose the data you need.
+The remaining pages support day-to-day API use: filter expressions in OData calls, tips on GET requests, language headers, batch requests and data access intent, and service-to-service authentication for unattended integrations. Start with the getting-started page, then pick the page that matches your task.
 
 ## Key points
 
-- API pages support read-write operations. API queries are read-only and can span multiple tables. Webhooks are supported.
-- Custom API pages in AL need APIVersion, APIPublisher and APIGroup. They also use properties such as ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption.
-- Relationships are modeled with parts and navigation properties. The deprecated ODataEDMType complex types should be replaced.
-- Getting started covers Microsoft Entra ID (OAuth 2.0) and basic authentication with a web service access key, and testing with Insomnia.
-- Service-to-service authentication uses the OAuth 2.0 client credentials flow, with a Microsoft Entra registration and the API.ReadWrite.All and Automation.ReadWrite.All permissions.
-- Tips cover the Accept-Language header, OData $batch requests, transactional batches with Isolation: snapshot, and the Data-Access-Intent header with ReadOnly.
-- Filtering follows Microsoft REST API guidelines for property-based and range-based filter expressions in OData queries.
+- Connect apps create point-to-point connections between Business Central and partner solutions using REST APIs.
+- Authentication options include Microsoft Entra ID with OAuth 2.0, basic authentication with a web service access key, and service-to-service authentication.
+- Service-to-service authentication uses the OAuth 2.0 client credentials flow for unattended integrations, with API.ReadWrite.All and Automation.ReadWrite.All permissions and Microsoft Entra registration.
+- API pages give read-write operations; API queries give read-only joined datasets. Both expose OData v4 endpoints, and webhooks are supported.
+- Custom API pages in AL need APIVersion, APIPublisher and APIGroup, and use properties such as ODataKeyFields, SystemId, EntityName, EntityCaption and EntitySetCaption (API v2.0).
+- Relationships are handled with parts and navigation properties; the ODataEDMType complex types are deprecated.
+- Tips cover Accept-Language for localization, transactional OData $batch with Isolation: snapshot, and the Data-Access-Intent header with ReadOnly intent (from version 17.1).
+- Filtering follows Microsoft REST API guidelines for property-based and range-based filter expressions.
 
 ## Learn pages
 
@@ -125,5 +128,11 @@ Start with the API developer overview, then the getting-started page to set up a
 - [Tips for working with the APIs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-tips): Provides some tips about working with Business Central API.
 - [Using filters with API/OData calls](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-connect-apps-filtering): Learn how to use filters with API calls to get targeted information in return.
 - [Using Service to Service Authentication](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/automation-apis-using-s2s-authentication): Service-to-service authentication enables external services to connect as an application, without impersonating normal users.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

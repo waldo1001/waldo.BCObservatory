@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:18.543Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -93,6 +93,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/11757
     - change/bcapps/9652
 learn_toc_path:
   - Business functionality
@@ -153,6 +154,7 @@ Letters of attorney and custom declaration pages are for document-driven tasks. 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11757 [Main]-Payment Orders posted in Foreign Currency (USD) do not populate Source Currency Code and Source Currency Amount in G/L Entries in the Spanish version.](../../../../../changes/bcapps/11757.md) (code change): "Payment orders posted in Foreign Currency now correctly populate the source currency code"
 - [#9652 [Extensibility Request] issue 30358: add OnBeforeOnPreReport event to Redraw Receivable Bills report](../../../../../changes/bcapps/9652.md) (code change): "Adds an OnBeforeOnPreReport integration event to the ES Redraw Receivable Bills report"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

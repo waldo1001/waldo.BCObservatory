@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:46.553Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -60,6 +60,7 @@ links:
   videos:
     - video/H_PHi8pe53w
     - video/PHmFqehrPG4
+    - video/reUoIdQZaNM
   posts:
     - post/jpearson-blog/1419
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc
@@ -77,7 +78,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 2
+  video: 3
   blog: 2
   guideline: 0
 bc_forms: []
@@ -122,5 +123,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Evolve AL Interfaces with Default Implementations in Business Central 29.0](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-8721347757329141815--e497e421dc.md) (community post): "Interfaces can now provide default method bodies"
 - [Business Central 29 0 Default Implementations in AL Interfaces](../../../../../videos/H_PHi8pe53w.md) (video): "Default implementation for AL interfaces; Required pending attribute"
 - [What's New: AL - Interfaces (2024 release wave 2)](../../../../../videos/PHmFqehrPG4.md) (video): "Interface Extension; Type Checking with Is Operator for Interfaces; Interface Casting with As Operator"
+- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../../../videos/reUoIdQZaNM.md) (video): "AL Interfaces; Bridge App Pattern for System Integration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

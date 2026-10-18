@@ -3,13 +3,13 @@
   "version": "29",
   "input_hash": "aaa7137bb4435126f517191b325715a56314577f5a18d91f18a87bc622c92933",
   "summary": "United States (US) localization of Business Central 29. It covers sales and use tax (tax areas, jurisdictions, groups, external tax engine), IRS 1099 and 1096 reporting with IRIS submission, EFT/ACH payments, deposits and bank reconciliation, plus shared North American objects (Canada and Mexico CFDI). It answers where US tax, 1099 and banking behavior differs from W1.",
-  "overview": "The US layer is built around sales tax. Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 \"Sales Tax Calculate\" and tax calculation inside the Sales-Post, Purch.-Post and Service posting codeunits replace VAT calculation. Learn documents the setup in \"Basic Tax Setup in the US Version\", \"Sales tax in the US Version\", \"Set Up Use Tax and Purchase Tax [US]\" and \"Unrealized sales tax and sales payment discounts\". Code adds many events around tax calculation and posting, and an external tax engine hook.\n \nIRS reporting is the largest newer block. Own codeunits (IRS 1099 form documents, form box calculation, IRIS XML generation, OAuth, transmission processing, email queue, IRS 1096 form management) and interfaces support 1099-MISC, NEC, INT and DIV forms, printing, emailing vendors and IRIS submission. Vendors, purchase documents, journal lines and ledger entries carry IRS 1099 code and amount fields. Learn covers setup, tracking, submission, 1096 and the regulatory box changes.\n\nBanking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange definitions, check printing helpers, deposits and the older bank reconciliation worksheet. The layer also holds North American extras: Mexico CFDI e-invoicing fields and DIOT, Canadian provincial tax, GP and SL 1099 data migration, Yodlee bank feeds, Ceridian payroll, a Shopify tax matching extension and many NA reports.",
+  "overview": "The US layer is built around sales tax. Tax Area, Tax Jurisdiction and Tax Detail tables, codeunit 398 \"Sales Tax Calculate\" and sales tax procedures in the Sales-Post, Purch.-Post and Service posting codeunits calculate and post sales tax, and General Ledger Setup gains a \"VAT in Use\" field. Learn documents the setup in \"Basic Tax Setup in the US Version\", \"Sales tax in the US Version\", \"Set Up Use Tax and Purchase Tax [US]\" and \"Unrealized sales tax and sales payment discounts\". Code adds many events around tax calculation and posting, and an external tax engine hook (codeunit 400 \"ExternalTaxEngineDefault\" and the Use External Tax Engine field on Tax Area).\n\nIRS reporting is a large block of own objects. Codeunits for IRS 1099 form documents, form box calculation, IRIS XML generation, OAuth, transmission processing, the email queue and IRS 1096 form management support 1099-MISC, NEC, INT and DIV forms, printing, emailing vendors and IRIS submission. Vendors carry an IRS 1099 Code. Purchase headers, journal lines and vendor ledger entries carry IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field. Learn covers setup, tracking, submission, 1096 and the regulatory box changes.\n\nBanking adds EFT export (ACH, RB, Cecoban, IAT) through data exchange definitions, check printing helpers, deposits and bank reconciliation codeunits. Learn notes that US bank reconciliation now uses the standard process, because the North American-specific features were deprecated and moved to the standard version in 2023 release wave 2. The layer also holds North American extras: Mexico CFDI e-invoicing fields and DIOT, Canadian provincial tax, GP and SL 1099 data migration, Yodlee bank feeds, Ceridian payroll, a Shopify tax matching extension and many NA reports.",
   "key_points": [
     "Sales and use tax engine: Tax Area, Tax Jurisdiction, Tax Detail, codeunit 398 with external tax engine procedures and many Before/After events in posting codeunits.",
     "IRS 1099 forms with IRS reporting periods, form boxes, vendor mapping, printing, email and IRIS electronic filing; IRS 1096 for paper transmittals.",
-    "Vendor, Purchase Header, Gen. Journal Line and ledger entries gain IRS 1099 Code and Amount fields.",
+    "Vendor gains an IRS 1099 Code field; Purchase Header, Gen. Journal Line and Vendor Ledger Entry gain IRS 1099 Code and Amount fields, and purchase lines an IRS 1099 Liable field.",
     "EFT and ACH payment export codeunits (US, CA, MX formats) with new Bank Account, Vendor Bank Account and Gen. Journal Line fields.",
-    "Deposits and bank reconciliation worksheet, with posted deposit/reconciliation deletion and printing codeunits.",
+    "Deposits and bank reconciliation support, with codeunits to delete and print posted deposits and reconciliations; Learn says reconciliation follows the standard process since 2023 release wave 2.",
     "Unrealized sales tax procedures in Gen. Jnl.-Post Line and prepayment sales tax handling.",
     "Mexican CFDI e-invoice, SAT catalogs and DIOT objects are included in the NA layer, plus Canadian provincial tax fields.",
     "Data migration for GP and SL 1099 data, Shopify tax matching, Yodlee and Ceridian payroll integrations."
@@ -277,5 +277,26 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.27175
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-18T00:48:28.901Z",
+    "verdict": "fix",
+    "issues": [
+      "Overview says IRS 1099 forms are supported by own codeunits 'and interfaces'; the only interface named in the input is EInvoice Communication V2, so no interface is tied to IRS forms.",
+      "'IRS reporting is the largest newer block' is unsupported; the input gives no object counts or ages for the IRS block (the Mexican e-invoicing area alone has 124 objects).",
+      "'replace VAT calculation' overstates the input; General Ledger Setup gains a 'VAT in Use' field and HasVatInUse/IsVATInUse procedures, so VAT is optional, not simply replaced.",
+      "'the older bank reconciliation worksheet' conflicts with Learn, which says US bank reconciliation uses the standard process and the deprecated NA features moved to the standard version in 2023 release wave 2.",
+      "Key point 3 says Vendor gains IRS 1099 Code and Amount fields; Vendor only gains IRS 1099 Code. Amount is on Purchase Header, Gen. Journal Line and Vendor Ledger Entry.",
+      "Overview contains a stray whitespace-only line."
+    ],
+    "input_hash": "aaa7137bb4435126f517191b325715a56314577f5a18d91f18a87bc622c92933",
+    "cost_usd": 0.5043748,
+    "applied": [
+      "overview",
+      "key_points"
+    ],
+    "rejected_edits": []
   }
 }

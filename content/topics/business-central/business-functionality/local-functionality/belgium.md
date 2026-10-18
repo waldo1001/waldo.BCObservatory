@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/belgium
 type: topic
 title: Belgium
-summary: Belgium local functionality in Business Central covers VAT and Intrastat reporting, electronic banking and payments (SEPA, domiciliation, CODA), core finance tasks, and general bookkeeping setup. It answers how-to and setup questions for Belgian tax, trade and bank processes.
+summary: Belgium local functionality in Business Central covers VAT and Intrastat, banking and payments (CODA, SEPA, domiciliation), core finance features, and general accounting settings for the Belgian version. It answers setup and how-to questions for Belgium-specific regulatory requirements.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:58.763Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: b31809d61263898ea072477c36cc3e654593474a63158ccfae728722c50e5515
+  input_hash: b8c2972490614a44090e5d4e676a8730d4905336c4cd9ad87ba20da20fabd70f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries
@@ -317,28 +317,27 @@ narrative: generated
 
 # Belgium
 
-> Belgium local functionality in Business Central covers VAT and Intrastat reporting, electronic banking and payments (SEPA, domiciliation, CODA), core finance tasks, and general bookkeeping setup. It answers how-to and setup questions for Belgian tax, trade and bank processes.
+> Belgium local functionality in Business Central covers VAT and Intrastat, banking and payments (CODA, SEPA, domiciliation), core finance features, and general accounting settings for the Belgian version. It answers setup and how-to questions for Belgium-specific regulatory requirements.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Belgium · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Belgium section describes what the Belgian version of Business Central adds on top of the base product. The landing page lists the main areas: VAT management, Intrastat reporting, CODA bank statements, electronic banking and payments, core finance operations, and electronic invoicing.
+The Belgium section describes the features added to Business Central to meet Belgian regulatory and accounting needs. The landing page gives the overall picture: Belgian VAT, non-deductible VAT, CODA bank statements, electronic banking, SEPA payments, direct debit domiciliation, and PEPPOL electronic invoicing. It mentions the 2027 release wave 1.
 
-The detail sits in four subtopics. VAT (10 pages) covers declarations, annual listings, EC sales lists, manual corrections, non-deductible VAT and Intrastat. Banking & payments (14 pages) is the largest and covers electronic payments, export protocols, domiciliation direct debits and CODA import and posting. Core finance (3 pages) covers applying and unapplying general ledger entries, financial journals for CODA, and export to ACCON Plus. General (5 pages) covers posting and journal settings plus Belgian enterprise and branch numbers.
+The detail is split into four subtopics. VAT (10 pages) covers declarations, annual listings, VIES and EC sales reports, manual corrections and Intrastat. Banking and payments (14 pages) is the largest group and covers electronic payments, export protocols, payment journals, CODA import and domiciliation. Core finance (3 pages) and General (5 pages) cover smaller local features and configuration settings.
 
-Start with General for basic setup such as posting period limits and journal templates. Then go to VAT or Banking & payments, depending on whether the task is tax and trade reporting or bank and payment processing.
+Start with the landing page for orientation. Then go to the subtopic that matches your task: VAT for reporting, Banking and payments for bank files and payment runs, and General for setup such as enterprise numbers, posting period limits and mandatory journal templates.
 
 ## Key points
 
-- VAT: Belgian VAT declarations, annual listings, EC sales lists, manual VAT corrections and non-deductible VAT.
-- Intrastat: setup, printing and export to OneGate.
-- Payments: domestic, international, SEPA and non-Euro SEPA electronic payments, with export protocols and payment files.
-- Domiciliation direct debits are covered under banking and payments.
-- CODA: bank statement import, application and posting, plus creating financial journals for CODA statements.
-- Core finance: apply and unapply general ledger entries, and export general ledger balances to ACCON Plus.
-- General setup: posting period limits, work date as posting date, mandatory journal templates, and deferrals in Sales and Purchase ledger reports.
-- Belgian enterprise and branch numbers are set up in the General pages.
+- VAT: VAT declarations, annual listings, VIES and EC sales reports, non-deductible VAT and manual VAT corrections.
+- Intrastat: setup, verification and export are covered in the VAT subtopic.
+- Banking: domestic, international, SEPA and non-Euro SEPA electronic payments, export protocols and payment journals.
+- CODA bank statements can be imported and posted; direct debit uses domiciliation.
+- Core finance: apply and unapply GL entries, create financial journals for bank transactions, and export GL balances to ACCON Plus.
+- General settings: deferrals in ledger reports, enterprise and branch numbers, posting period limits, work date as posting date, mandatory journal templates.
+- The landing page also mentions electronic invoicing via PEPPOL and refers to 2027 release wave 1.
 
 ## Subtopics
 

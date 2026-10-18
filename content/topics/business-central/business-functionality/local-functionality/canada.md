@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/canada
 type: topic
 title: Canada
-summary: "Canada local functionality in Business Central: sales tax and GST/HST reporting, use and purchase tax, deposits and electronic vendor payments, GIFI codes, and troubleshooting reports. It answers Canada-specific setup and reporting questions."
+summary: Canada local functionality in Business Central covers Canadian tax (GST/HST, sales tax, use and purchase tax, unrealized sales tax), banking and payments (deposits, vendor payment export), and GIFI codes for Canada Revenue Agency reporting. It answers setup and reporting questions for the Canadian version.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:20:28.073Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e727bb996806d25a60ad97596363cbd56a6933c4919c79097a4e7664d23ae451
+  input_hash: 1eadfe2c8e6579fb52e779cc30c07b23ea5dd306a35754b136bb2b9e4b95ba05
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Canada/canada-local-functionality
@@ -137,25 +137,27 @@ narrative: generated
 
 # Canada
 
-> Canada local functionality in Business Central: sales tax and GST/HST reporting, use and purchase tax, deposits and electronic vendor payments, GIFI codes, and troubleshooting reports. It answers Canada-specific setup and reporting questions.
+> Canada local functionality in Business Central covers Canadian tax (GST/HST, sales tax, use and purchase tax, unrealized sales tax), banking and payments (deposits, vendor payment export), and GIFI codes for Canada Revenue Agency reporting. It answers setup and reporting questions for the Canadian version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Canada · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers the features that are unique to the Canadian version of Business Central. It is split into three areas: tax, banking and payments, and general functionality such as GIFI codes and troubleshooting reports.
+The Canada section describes features specific to the Canadian version of Business Central. A landing page introduces the main areas: tax reporting for GST/HST and sales tax, banking features such as deposits and electronic payments, and GIFI code support.
 
-The landing page "Canada Local Functionality" gives the overview. Start with the Tax subtopic if you need to set up use tax, purchase tax, tax areas and jurisdictions, or unrealized sales tax with sales payment discounts. Go to Banking & payments for deposits and vendor payment files. Go to General for GIFI codes and finance troubleshooting reports.
+The subtopics split by theme. Tax covers use tax and purchase tax setup, GST/HST and sales tax reporting, and unrealized sales tax together with sales payment discounts. Banking & payments explains creating deposits and paying vendors by exporting payment data in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension. General covers GIFI codes and printing troubleshooting reports in the Canadian version.
+
+Start with the Canada Local Functionality page for orientation, then go to Tax for setup and reporting, or to General for GIFI setup and filing exports.
 
 ## Key points
 
 - Tax pages cover setting up use tax and purchase tax.
-- GST/HST reporting and sales tax reporting (using tax areas and jurisdictions) are documented.
+- GST/HST and sales tax reporting are described for the Canadian version.
 - Unrealized sales tax can be configured together with sales payment discounts.
-- Banking covers creating deposits.
-- Vendors can be paid by exporting payment files in SEPA Credit Transfer format or through the AMC Banking 365 Fundamentals extension.
-- GIFI codes can be assigned to G/L accounts, and balances exported for tax software.
-- Troubleshooting reports for finance data are available in the Canadian version.
+- Deposits can be created in the Canadian version.
+- Vendor payments can be exported in SEPA Credit Transfer format or via the AMC Banking 365 Fundamentals extension.
+- GIFI codes support reporting financial information to the Canada Revenue Agency, including linking to G/L accounts and exporting balances.
+- A General page covers printing troubleshooting reports in the Canadian version.
 
 ## Subtopics
 

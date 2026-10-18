@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/prepare-business-central
 type: topic
 title: Prepare Business Central
-summary: "Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready."
+summary: "Prepare Business Central covers the tasks administrators and partners do to get an environment ready: initial setup, configuration packages, Feature Management, Excel and Outlook add-ins, app deployment and upgrades, and app key vaults. It answers how-to questions on setup, deployment and upgrade."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:10.225Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-14T00:24:59.083Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 09fb2f39a682c461bd9040efb17091982fe0a1b20127fe25109a8ef2f09cdba7
+  input_hash: e8220acf32c32545b601f2490167fe9717fe66b950d874d4280a6e660395258b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/apply-company-configuration-packages
@@ -181,24 +181,24 @@ narrative: generated
 
 # Prepare Business Central
 
-> Prepare Business Central covers initial setup and preparation tasks: configuration packages, tenant and marketplace app deployment, Excel and Outlook add-ins, feature management, app key vaults, and recommended apps. It answers how-to questions for partners and admins getting a Business Central environment ready.
+> Prepare Business Central covers the tasks administrators and partners do to get an environment ready: initial setup, configuration packages, Feature Management, Excel and Outlook add-ins, app deployment and upgrades, and app key vaults. It answers how-to questions on setup, deployment and upgrade.
 
-Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Prepare Business Central · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section gathers the tasks needed to get a Business Central environment ready for use. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, base calendars, data migration) and then branches into more specific topics.
+This section is for partners and administrators who prepare Business Central for a new customer or keep an existing environment current. It starts with an overview of setup tasks (company information, number series, email, printers, report selection, base calendars, data migration) and continues into specific preparation areas.
 
 ## Key points
 
-- Overview of setup tasks lists company configuration, general functionality, business processes, Microsoft product integrations, apps, and data migration.
-- Configuration packages: set up reusable templates (worksheet, questionnaire, RapidStart export), then apply them to new customers and import data from Excel.
-- Per-tenant extensions are uploaded and scheduled via the Admin Center or Extension Management page; apps must be unique and versions managed.
-- Conflicting per-tenant extension upgrades require uninstalling, removing naming conflicts in objects and fields, then reinstalling.
-- Marketplace apps in production are upgraded manually through Extension Management or the Admin Center.
-- The Excel add-in can be acquired individually, deployed centrally through Microsoft 365, or installed manually; the network must allow the required endpoints.
-- Outlook add-ins (Contact Insights, Document Links) can be deployed centrally, automatically, or per user.
-- Feature Management lets you enable optional features early (some are irreversible); a separate page lists features becoming mandatory from 2023 to 2026 release waves.
+- Start with 'Overview of tasks to set up Business Central' for company configuration, general functionality, business processes, integrations, apps and data migration.
+- Configuration packages: one page covers setting up reusable packages, templates, worksheets and questionnaires; another covers applying them to import data from Excel, map tables and fields, create journals and post opening balances.
+- Feature Management lets administrators enable optional features early in sandbox and production; access is controlled by the FEATURE MGT. - ADMIN permission set, and some features cannot be reversed.
+- 'Optional Features Now Mandatory' lists features that become mandatory across 2023 to 2026 release waves, so you can plan upgrades.
+- Add-ins: Excel add-in (individual, centralized or manual install, plus network endpoint preparation) and Outlook add-ins Contact Insights and Document Links.
+- Per-tenant extensions are deployed as .app files through the Admin Center or Extension Management page, with app uniqueness and version requirements; conflicts with other extensions are resolved by uninstalling, removing conflicting elements and reinstalling.
+- Marketplace apps in production are upgraded manually from Extension Management or the Admin Center.
+- App key vaults let Marketplace apps read secrets from Azure Key Vaults; the Recommended Apps extension lets partners curate app lists per customer.
 
 ## Learn pages
 

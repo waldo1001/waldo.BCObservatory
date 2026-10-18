@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:56.619Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,7 +41,8 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/administration
   localizations: []
-  videos: []
+  videos:
+    - video/KA1vHd1hITY
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -91,5 +92,11 @@ Then use "Business Central Server instance settings" to look up individual setti
 
 - [Business Central Server instance settings](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/server-instance-settings): Configure Business Central Server instance settings for security, extensions, APIs, and performance. Find keys fast and apply changes with PowerShell.
 - [Configure Business Central Server](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configure-server-instance): Configure and modify settings in the Setup or Installed Business Central Server using PowerShell Cmdlets.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [How to Install Business Central 29 On-Premises \| Full Setup](../../../../videos/KA1vHd1hITY.md) (video): "Business Central 29 On-Premises Installation; Service Port Configuration; SQL Server instance configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

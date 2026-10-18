@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.702Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,7 +142,6 @@ links:
     - post/aardvarklabs-blog/3348
   guidelines: []
   changes:
-    - change/bcapps/10449
     - change/bcapps/12255
     - change/bcapps/8947
     - change/bcapps/9599
@@ -211,7 +210,6 @@ Three telemetry pages cover auditing and troubleshooting: permission changes, pe
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../../../changes/bcapps/10449.md) (code change): "Removes references to the soon-to-be-obsoleted table"
 - [#12255 Fix overwrite import of exported system permission sets](../../../../../changes/bcapps/12255.md) (code change): "System permission set imports with overwrite option now correctly"
 - [#8947 [Permissions] Add Where-Used and Permissions Overview navigation actions](../../../../../changes/bcapps/8947.md) (code change): "Permission Sets list gains Where-Used and Permissions Overview actions"
 - [#9599 Add event subscriber for OpenPermissionSetPage](../../../../../changes/bcapps/9599.md) (code change): "A new event subscriber codeunit enables programmatic opening of the permission set"

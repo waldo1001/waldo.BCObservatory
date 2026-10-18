@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:19.086Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,7 +119,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/develop-reports/develop-report-datasets
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/12801
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -133,7 +134,7 @@ coverage:
   learn: 12
   code: 6
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 9650
@@ -178,6 +179,12 @@ Start with the overview page to see how the parts connect. Then go to the datase
 ## More Learn pages
 
 - [Develop report layouts and datasets](https://learn.microsoft.com/dynamics365/business-central/reports-develop-reports): Provides an overview of Business Central data.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [📊 Mermaid Diagrams in Business Central: Dynamic Visual Intelligence 🎨](../../../posts/gerardorenteria-blog/12801.md) (community post): "renders Mermaid.js diagrams from live BC table data"
 
 ## Business Central pages and reports
 

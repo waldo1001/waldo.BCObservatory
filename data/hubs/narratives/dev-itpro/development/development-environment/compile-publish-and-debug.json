@@ -1,37 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/development-environment/compile-publish-and-debug",
-  "input_hash": "97345af3fba82bdc4726477d3602096000fe21bee59291bafbc8b7d31f5563a8",
-  "summary": "Compiling, publishing, debugging and signing AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, compilation scope, RAD publishing, app signing, and Entra authentication for on-premises.",
-  "overview": "This section covers the build-and-diagnose loop for AL developers. It includes compilation scope (OnPrem or Cloud target level), faster publishing with Rapid Application Development (RAD) and delta compilation, and signing app packages with Azure Key Vault or PFX files. It also covers Microsoft Entra authentication for on-premises and container setups used from Visual Studio Code.\n\nDebugging has the largest share of pages. \"Debugging in AL\" is the starting point: breakpoints, conditional breakpoints, break on errors and record changes, SQL debugging, and database locks. Related pages cover attach and debug next, debugging upgrade and install code, snapshot debugging of production sessions, and starting a troubleshooting session from the web client. The AL Profiler helps find performance hot spots, and the MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during a debug session.\n\nStart with \"Debugging in AL\" for general debugging. Then pick the page that matches your situation: production issue (snapshot debugging or web client troubleshooting), upgrade code (debug upgrade and install code), slow code (AL Profiler), or slow builds (RAD).",
+  "input_hash": "0065b6b1de1472649c194fa35aa225a94c226988d233ff15742aaad721c1ae2b",
+  "summary": "Compiling, publishing, debugging and profiling AL extensions for Business Central in Visual Studio Code. It answers questions on breakpoints, snapshot and attach debugging, the AL Profiler, RAD publishing, compilation scope, app package signing, and Entra authentication for on-premises debugging.",
+  "overview": "This section covers the developer inner loop for AL extensions: building and publishing, finding errors, and checking performance. Publishing topics include Rapid Application Development (RAD) with delta compilation for faster builds of large projects, and compilation scope, which sets the OnPrem or Cloud target level and decides which platform APIs and .NET types a project can use.\n\nDebugging pages begin with the general Visual Studio Code debugging guide, then go deeper: conditional breakpoints, attach and debug next (no publish needed), debugging install and upgrade code, snapshot debugging of production sessions, and troubleshooting from the web client. The AL Profiler analyzes hot spots, and the Troubleshooting MCP Server for AL lets GitHub Copilot analyze errors, call stacks and variables during a session.\n\nSigning an app package and using Microsoft Entra authentication for on-premises and container setups are supporting topics. Start with \"Debug AL Code in Visual Studio Code\" for the basics, then pick the specialized page that matches your scenario.",
   "key_points": [
-    "Debugging in AL uses the Visual Studio Code debugger with breakpoints, break on errors, break on record changes, SQL debugging, and database lock inspection.",
-    "Conditional breakpoints break only when a condition is true; they support simple types, logical operators, and complex data types from version 26.",
-    "Attach and debug next attaches to a running server without publishing first, using breakOnNext, sessionId and userId settings (2023 release wave 1).",
-    "Snapshot debugging records production cloud sessions using snappoints and lets you inspect them offline in Visual Studio Code.",
-    "Upgrade and install code is debugged by attaching a session and either incrementing the app version or setting the forceUpgrade flag.",
-    "The AL Profiler records execution in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings, and SQL calls.",
+    "The AL Profiler records execution in instrumentation or sampling mode, configured in launch.json, and shows call stacks, timings and SQL calls in Visual Studio Code.",
+    "Attach and debug next (2023 release wave 1) attaches to a running server without publishing, for web client, web service, background and agent sessions.",
+    "Snapshot debugging records production cloud sessions using snappoints and lets you debug offline in Visual Studio Code.",
+    "Conditional breakpoints pause only when an expression is true, supporting comparison and logical operators (version 26).",
     "RAD publishing uses delta compilation to cut build and publish times for large AL projects.",
-    "App packages are signed with Azure Key Vault (certificates issued after June 1, 2023) or PFX files using the dotnet sign tool; self-signed certificates are for local testing only."
+    "Compilation scope is set by ExtensionAllowedTargetLevel at server level and the target property in the manifest (OnPrem or Cloud).",
+    "App packages can be signed with Azure Key Vault (certificates issued after June 1, 2023) or a PFX file using the dotnet sign tool; self-signed certificates are for local testing.",
+    "Install and upgrade codeunits can be debugged with attach sessions, and the web client can open Visual Studio Code for troubleshooting (2023 release wave 2)."
   ],
   "members_used": 12,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T21:13:11.798Z",
+  "at": "2026-10-18T00:56:13.312Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": true,
-    "cost_usd": null
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T21:13:11.961Z",
-    "verdict": "approve",
-    "issues": [
-      "Key point on attach and debug next adds '(2023 release wave 1)'. The page lists that version, but the page summary doesn't say what it applies to. It may refer to one setting rather than the whole feature, so treat it as a loose attribution.",
-      "Small gap: the attach and debug next point could say that it covers web client, web service, background and agent sessions, as the page summary states."
-    ],
-    "input_hash": "97345af3fba82bdc4726477d3602096000fe21bee59291bafbc8b7d31f5563a8",
-    "cost_usd": null
+    "cached": false,
+    "cost_usd": 0.019613
   }
 }

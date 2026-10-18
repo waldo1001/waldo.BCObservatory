@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,7 +348,6 @@ links:
     - post/thinkaboutit-be/7813
   guidelines: []
   changes:
-    - change/bcapps/10270
     - change/bcapps/10404
     - change/bcapps/10489
     - change/bcapps/11137
@@ -450,7 +449,6 @@ For running reports in production, the telemetry, performance and troubleshootin
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10270 [Quality Management] Repair and improve XML documentation of procedures](../../../../changes/bcapps/10270.md) (code change): "XML documentation for Quality Management procedures has been repaired and improved"
 - [#10404 Deliverable 638799: Requisitions in Base App - add layout to report + minor fixes](../../../../changes/bcapps/10404.md) (code change): "Word layout was added to the Spend Request Document report"
 - [#10489 MSlenejennum/647452/new header and footer layouts and report themes](../../../../changes/bcapps/10489.md) (code change): "New composite report parts management codeunit seeds 11 header/footer designs and 3 themes"
 - [#11137 Composite Report Parts: seed via a report extension instead of install/upgrade code](../../../../changes/bcapps/11137.md) (code change): "Report extension replaces SeedPart-based install/upgrade code for seeding"

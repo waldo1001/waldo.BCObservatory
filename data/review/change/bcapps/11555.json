@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/11555",
+  "input_hash": "1a3a307940965fe2f24358c5dcef61a09673ab946856fcaa9cb006530c06c2f2",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:27.655Z",
+  "issues": [
+    "behavior_change should be true: UpdateListItem no longer clears four fields, the parser can now report a parse error under a new event, and telemetry gains an OperationName dimension.",
+    "GetListItem point refined: default expand is appended to the endpoint rather than set on the caller's Graph Optional Parameters."
+  ],
+  "applied": [
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030663,
+    "changes_in_call": 6
+  }
+}

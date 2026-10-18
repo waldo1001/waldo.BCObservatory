@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:04:17.118Z"
   flags: []
 generated:
-  at: "2026-10-07T23:04:17.174Z"
+  at: "2026-10-18T00:53:28.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -162,7 +162,8 @@ links:
   learn: []
   objects:
     - object/table/27
-  features: []
+  features:
+    - feature/573342
   topics: []
   localizations: []
   videos: []
@@ -226,7 +227,9 @@ features:
     status: ga
     t: 499
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Shopify API Version Update to 2024-07
     status: unclear
     t: 757
@@ -389,7 +392,7 @@ Order-side topics include return location priority, item charges for shipping, s
 | Custom Fields and Meta Fields Support | status not stated, demoed | [1:40](https://www.youtube.com/watch?v=p-pwG6f5srY&t=100s) |  |
 | Translation Synchronization | status not stated, demoed | [3:58](https://www.youtube.com/watch?v=p-pwG6f5srY&t=238s) |  |
 | Add Items as Shopify Variants | status not stated, demoed | [6:18](https://www.youtube.com/watch?v=p-pwG6f5srY&t=378s) |  |
-| Customer-Specific Pricing via Catalogs | generally available, demoed | [8:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=499s) | "together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product" ([12:02](https://www.youtube.com/watch?v=p-pwG6f5srY&t=722s)) |
+| Customer-Specific Pricing via Catalogs | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)), demoed | [8:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=499s) | "together with Merchant partner and Microsoft make sure that this functionality is now available in the standard product" ([12:02](https://www.youtube.com/watch?v=p-pwG6f5srY&t=722s)) |
 | Shopify API Version Update to 2024-07 | status not stated | [12:37](https://www.youtube.com/watch?v=p-pwG6f5srY&t=757s) |  |
 | Support for Up to 2000 Product Variants | status not stated | [13:39](https://www.youtube.com/watch?v=p-pwG6f5srY&t=819s) |  |
 | Weight Unit Setting for Product Variants | status not stated, demoed | [14:19](https://www.youtube.com/watch?v=p-pwG6f5srY&t=859s) |  |
@@ -401,6 +404,8 @@ Order-side topics include return location priority, item charges for shipping, s
 | Multi-Payment Reconciliation Capability | status not stated, demoed | [19:50](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1190s) |  |
 | Suggest Shopify Payments Journal Action | status not stated, demoed | [21:11](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1271s) |  |
 | Gift Card Payment Reconciliation | status not stated, demoed | [22:26](https://www.youtube.com/watch?v=p-pwG6f5srY&t=1346s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12326",
+  "input_hash": "283374ee2e79a1c14bae466e3a3050f10d0cd0dc27b9fbb6ff06dd43967e15dd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:27.655Z",
+  "issues": [
+    "Key point wrongly says HttpClient replaces DotNet in XML parsing; XML parsing moved to native XmlDocument, not HttpClient.",
+    "Attachment handling is Base64 decoding into a Temp Blob, not encoding.",
+    "Summary, refactor kind and flags are supported; public OnPrem signatures unchanged."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030663,
+    "changes_in_call": 6
+  }
+}

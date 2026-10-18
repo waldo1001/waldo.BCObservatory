@@ -1,9 +1,23 @@
 {
   "week": "2026-W42",
-  "input_hash": "f7ac83718b37dd9340bc2a5c3ea4e6005179af05321ef74f02fcb74a880d7828",
-  "text": "The one breaking change this week is #10520, where the blocked customer check event on table Customer now passes the extensible Gen. Journal Document Type enum instead of an option integer, so subscribers need updating. Most other merges are behaviour-changing fixes. In finance and costing, #12816 fixes reversed project planning lines on purchase invoices, #11714 changes assembly cost adjustment rounding, #10500 corrects additional-currency cost on project ledger entries, and #12551 addresses Sales Line VAT Prod. behaviour seen since 28.4. Subscription Billing got #12857, #12622 and #12377, covering shared contract numbers, contract currency and billing line rollback. Planning and manufacturing saw #12760 and #12464 (blocked items no longer stop Order Planning), #12098, #12542, #12669 and #12459 (subcontracting dates and run time pricing). Localization fixes include #12939, #12558, #12142, #12723, #12217 and #11757. Attachments and e-documents changed through #12609, #12554, #12432, #12333 and #11527. Fabric Mirroring gains #12565 (1000 tables) and #12339 (per-table reset). Non-behavioural work includes HTTP and URL refactors in #12755, #12614 and #12617, plus extensibility additions #11580 and #10523.",
-  "changes": 51,
+  "input_hash": "a7f727b85d32fc5204f001fa9b983aead6f95d18b0b9fc764ef6fd3f0a214dc8",
+  "text": "The one breaking change this week is #10520: the blocked customer check event on table Customer now passes the extensible Gen. Journal Document Type enum instead of an option integer, so subscribers must adapt. Most other work is behaviour-changing fixes. Upgrade fixes #12939 and #12907 let the direct transfer order migration cope with a missing Inventory Setup record. Posting and costing fixes include #12816 (project planning line order), #11714 (assembly cost adjustment rounding), #12857 and #12622 (Subscription Billing contract matching and currency), and #12377 (billing line rollback). Planning and manufacturing fixes cover #12760 and #12464 (blocked items no longer stop Order Planning), #12469, #12669 and #12459. Agent work includes #11909, which blocks guest users from managing Expense Agent, #12810 and #12472 for its VAT setup, and #9359 and #12817 for Sales Order Agent. Localization fixes touch the Czech, Dutch, Swiss and Spanish apps, for example #12142 and #11757. E-Documents gained #12575 and #11527. Fabric Mirroring raised its table limit to 1000 in #12565 and added a table reset in #12339. Smaller items include HttpClient migrations in #12614 and #12755, URL check moves in #12617, and extensibility additions #11580 and #10523. AL-Go fixed comma handling in dependency filenames in #2403.",
+  "changes": 61,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.05543,
-  "at": "2026-10-17T00:20:42.327Z"
+  "cost_usd": 0.064496,
+  "at": "2026-10-18T00:22:31.899Z",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-18T00:55:52.803Z",
+    "verdict": "approve",
+    "issues": [
+      "#12142 is given as an example of 'localization fixes' but its kind is feature (new Official Full Name field for Czech statutory reporting). This is minor because the Czech localization reference is still correct.",
+      "#12755 is grouped with #12614 as an HttpClient migration, which is accurate, but unlike #12614 it is not flagged as behaviour-changing. This is fine since it sits under 'smaller items'."
+    ],
+    "input_hash": "a7f727b85d32fc5204f001fa9b983aead6f95d18b0b9fc764ef6fd3f0a214dc8",
+    "cost_usd": 0.15878,
+    "applied": [],
+    "rejected_edits": []
+  }
 }

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:23.519Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -495,7 +495,9 @@ links:
     - change/bcapps/11115
     - change/bcapps/11517
     - change/bcapps/11574
+    - change/bcapps/12262
     - change/bcapps/12304
+    - change/bcapps/12435
     - change/bcapps/9129
     - change/bcapps/9142
     - change/bcapps/9894
@@ -737,7 +739,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11115 [29.x ]Trial Balance (Excel) report shows incorrect figures and formatting differences compared to Trial Balance (Obsolete) report in Business Central v28.2](../../../../../changes/bcapps/11115.md) (code change): "Trial Balance Excel reports now correctly apply global dimension filters when generating data"
 - [#11517 [29.x]-export/import of a report definition fails if the statuses in the originating company do not exist in the destination company](../../../../../changes/bcapps/11517.md) (code change): "Importing a financial report row definition into another company"
 - [#11574 [main] Bugs 650415 Financial Report Open in Excel fails with duplicate Excel Buffer cell when LCY Code is empty](../../../../../changes/bcapps/11574.md) (code change): "Financial Report Open in Excel fails with duplicate Excel Buffer"
+- [#12262 Financial reporting a few improvements](../../../../../changes/bcapps/12262.md) (code change): "New 'Run report' action group added to financial reporting interface"
 - [#12304 [Master]-Page cannot open because of FlowField 'Last Run By User'](../../../../../changes/bcapps/12304.md) (code change): "a financial reports page could not open because of the FlowField"
+- [#12435 [Financial Reports] Faster row/column definition entry and custom schedule email subject](../../../../../changes/bcapps/12435.md) (code change): "Row and column definition lines default type fields from previous line"
 - [#9129 [Master]-Bug 641503 Financial Reporting - Duplicate Rows in Financial Report Excel Export After Adding GL Budget Dimension](../../../../../changes/bcapps/9129.md) (code change): "financial report Excel exports. Fixes issue that occurred after adding GL budget dimensions"
 - [#9142 [638695] Add Financial Report tables to always-logged list](../../../../../changes/bcapps/9142.md) (code change): "Financial Report tables are now added to the always-logged list"
 - [#9894 Suppress zero-value rows in Trial Balance by Period](../../../../../changes/bcapps/9894.md) (code change): "Trial Balance by Period Excel report now suppresses rows with zero values"

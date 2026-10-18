@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:02:43.657Z"
   flags: []
 generated:
-  at: "2026-10-13T00:32:41.360Z"
+  at: "2026-10-18T00:53:28.996Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -75,7 +75,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573342
   topics: []
   localizations: []
   videos: []
@@ -117,10 +118,12 @@ features:
     verified: false
     status_source: video
   - name: Company Catalogs Pricing Sync
-    status: unclear
+    status: ga
     t: 42
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573342"
   - name: Customer-Specific Discounts and Orders
     status: unclear
     t: 42
@@ -201,18 +204,18 @@ It covers meta fields linked to products or variants, translations through a new
 
 ## Features
 
-Every feature below: status not stated.
+| Feature | Status | At |
+|---|---|---|
+| Meta Fields Import/Export | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Language Translation Synchronization | status not stated | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
+| Company Catalogs Pricing Sync | generally available (roadmap [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md)) | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Customer-Specific Discounts and Orders | status not stated | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
+| Enhanced Shipping Fee Mapping | status not stated | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) |
+| Shipping Methods in Sales Orders | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Payment Method Reconciliation | status not stated | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
+| Posted Sales Invoice Synchronization | status not stated | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |
 
-| Feature | At |
-|---|---|
-| Meta Fields Import/Export | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
-| Language Translation Synchronization | [0:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=22s) |
-| Company Catalogs Pricing Sync | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
-| Customer-Specific Discounts and Orders | [0:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=42s) |
-| Enhanced Shipping Fee Mapping | [1:02](https://www.youtube.com/watch?v=AR2FiD64wbw&t=62s) |
-| Shipping Methods in Sales Orders | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
-| Payment Method Reconciliation | [1:22](https://www.youtube.com/watch?v=AR2FiD64wbw&t=82s) |
-| Posted Sales Invoice Synchronization | [1:42](https://www.youtube.com/watch?v=AR2FiD64wbw&t=102s) |
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## Quotes
 

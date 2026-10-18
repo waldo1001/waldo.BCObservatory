@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:11.917Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,8 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/bertverbeek-nl/1173
   guidelines: []
   changes:
     - change/bcapps/8959
@@ -91,7 +92,7 @@ coverage:
   learn: 3
   code: 25
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 103
@@ -159,6 +160,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#8959 Deliverable 638799: Spend Requests in Base App](../../../../changes/bcapps/8959.md) (code change): "Spend Requests allow users to create requisitions for planned expenses"
 - [#9528 636017 Move CashFlow report action tooltips to report objects (W1)](../../../../changes/bcapps/9528.md) (code change): "Cash Flow report action tooltips are moved from role center page actions to the report objects"
+- [Late Payment prediction in Fabric instead of BC](../../../../posts/bertverbeek-nl/1173.md) (community post): "forecast payment dates for cash flow planning"
 
 ## Business Central pages and reports
 

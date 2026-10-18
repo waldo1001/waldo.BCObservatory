@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -326,10 +326,12 @@ links:
   videos:
     - video/uxYuoJP-uH8
   posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
   changes:
     - change/bcapps/10058
+    - change/bcapps/12517
     - change/bcapps/8085
     - change/bcapps/8115
     - change/bcapps/8634
@@ -350,7 +352,7 @@ coverage:
   learn: 42
   code: 9
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 4500
@@ -410,10 +412,12 @@ Start with the Extensibility overview, then the extension objects overview. Move
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10058 [Master]-Withholding Tax Posting generates Unbalanced G/L Entries when Multiple Withholding Tax Rates are used on one Purchase Invoice.](../../../changes/bcapps/10058.md) (code change): "Fixes unbalanced G/L entries when one purchase invoice uses several withholding tax rates"
+- [#12517 Suppress AS0099 for existing extension field IDs](../../../changes/bcapps/12517.md) (code change): "Suppress AS0099 analyzer warnings for extension fields outside allocated ranges"
 - [#8085 [MCP] Server Features in MCP configuration: API Tools, Dynamic Tool Mode, Data Query Tools (Preview)](../../../changes/bcapps/8085.md) (code change): "Server Features surface to MCP configuration allowing admins to enable Data Query Tools"
 - [#8115 Subscription Billing: respect Default Dimension Priorities on Subscription Lines](../../../changes/bcapps/8115.md) (code change): "Subscription Billing now respects Default Dimension Priorities when creating subscription lines"
 - [#8634 [MCP] Register MCP server as a Copilot capability](../../../changes/bcapps/8634.md) (code change): "MCP server is now registered as a Copilot capability"
 - [#9272 Fix duplicate in-transit location in localized Contoso demo data](../../../changes/bcapps/9272.md) (code change): "Replaced the warehousing module's independent in-transit location definition"
+- [Business Central 2026 Release Wave 2 Preview Is Now Available](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f.md) (community post): "Developers and partners should check AL extensions, custom pages and reports, APIs"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 

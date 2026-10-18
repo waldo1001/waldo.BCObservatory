@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -152,13 +152,13 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security
   localizations: []
-  videos: []
+  videos:
+    - video/reUoIdQZaNM
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
-    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
   changes:
-    - change/bcapps/10675
+    - change/bcapps/10514
     - change/bcapps/11870
     - change/bcquality/108
     - change/bcquality/114
@@ -186,8 +186,8 @@ children:
 coverage:
   learn: 17
   code: 0
-  video: 0
-  blog: 2
+  video: 1
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -237,7 +237,7 @@ Start with AL code best practices for general conventions. Then read Testing and
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../../../changes/bcapps/10675.md) (code change): "Pragmas temporarily suppress the AppSourceCop AS0072 error on elements"
+- [#10514 Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error](../../../../changes/bcapps/10514.md) (code change): "Five AL analyzer rules moved back to Error severity in the ruleset hierarchy"
 - [#11870 Reduce allocations in the "Export to Execl" scenario](../../../../changes/bcapps/11870.md) (code change): "The Export to Excel scenario now allocates less memory by reusing objects"
 - [#108 Complete AL review knowledge readiness](../../../../changes/bcquality/108.md) (code change): "AL review knowledge expanded with new guidance on telemetry, Query objects, AppSource, breaking changes, and security"
 - [#114 Document the skill-vs-knowledge boundary so BC facts land in knowledge files](../../../../changes/bcquality/114.md) (code change): "Skills should contain mechanics while knowledge files hold Business Central facts"
@@ -251,6 +251,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
-- [BC Friday Tips #68 Always Use Field Validation](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Always validate fields to ensure all business logic executes properly"
+- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../../videos/reUoIdQZaNM.md) (video): "AL architecture; design principles; system design; abstraction levels"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

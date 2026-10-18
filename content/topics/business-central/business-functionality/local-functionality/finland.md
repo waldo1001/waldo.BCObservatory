@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/finland
 type: topic
 title: Finland
-summary: "Finland local functionality in Business Central: Finnish VAT and EU trade reporting, electronic banking and payment files, and core finance posting setup. It answers setup and how-to questions for the Finnish version."
+summary: Finland local functionality in Business Central covers VAT and EU trade reporting, Finnish electronic banking and payment files, and core finance features such as automatic account posting and depreciation differences. It answers setup and how-to questions for Finnish regulatory needs.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:19:26.785Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: cddb530596a54424544a3c66f826a94995f9b5586099787e501a740bfcd805d4
+  input_hash: ad0d60f87940d98f63df40d20b9c58b63b866daddf55c15a5fcc3c5d04eaaff2
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Finland/automatic-account-codes
@@ -149,28 +149,28 @@ narrative: generated
 
 # Finland
 
-> Finland local functionality in Business Central: Finnish VAT and EU trade reporting, electronic banking and payment files, and core finance posting setup. It answers setup and how-to questions for the Finnish version.
+> Finland local functionality in Business Central covers VAT and EU trade reporting, Finnish electronic banking and payment files, and core finance features such as automatic account posting and depreciation differences. It answers setup and how-to questions for Finnish regulatory needs.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Finland · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > Finland · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers features added to Business Central for Finnish requirements. The landing page gives a short list of what is included: Intrastat reports, VAT information on invoices, the VAT-VIES declaration, electronic banking, bank reference files, payment file generation, SEPA credit transfers and automatic account posting groups.
+The Finland section collects the features Business Central adds for Finnish regulations. The landing page gives a short overview and points to three areas: VAT, banking and payments, and core finance.
 
-The detail is split into three subtopics. VAT covers Intrastat printing, VAT information on sales invoices and the VAT-VIES declaration. Banking and payments covers LM03 and LUM2 electronic banking, bank reference file setup, vendor payment files, SEPA credit transfer export and disregarding payment discounts. Core finance covers automatic account codes, automatic account posting group setup and posting of depreciation differences.
+The VAT pages deal with Finnish Intrastat reports, VAT information printed on sales invoices, and the VAT-VIES declaration with the EC sales list. The banking and payments pages cover electronic banking with bank reference files, domestic (LM03) and foreign (LUM2) payments, SEPA credit transfer export, payment file generation, and the payment discount disregard setting. The core finance pages explain automatic account codes, automatic account posting groups, and posting of depreciation differences.
 
-Start with the landing page to see the scope, then go to the subtopic that matches your task: VAT for reporting, Banking and payments for domestic and foreign payments, Core finance for posting setup and depreciation.
+Start with the area that matches your task. Use the banking pages to set up customer payment import and vendor payment export, the VAT pages for reporting and invoices, and the core finance pages for posting group setup and the Finnish tax requirement on depreciation differences.
 
 ## Key points
 
-- VAT: print Intrastat reports, show VAT information on sales invoices, and prepare the VAT-VIES declaration.
-- Electronic banking uses the LM03 and LUM2 formats.
-- Bank reference files have their own setup.
-- Payment files can be generated for vendors, for domestic and foreign payments.
-- SEPA credit transfer export is supported.
-- Payment discounts can be disregarded.
-- Core finance includes automatic account codes and automatic account posting group setup.
-- Depreciation differences can be posted to the general ledger, as Finnish tax law requires.
+- VAT: print Finnish Intrastat reports and VAT information on sales invoices.
+- VAT-VIES declaration with the EC sales list supports EU trade reporting.
+- Electronic banking uses bank reference files to import customer payments.
+- Vendor payments can be exported as domestic (LM03) or foreign (LUM2) payment files.
+- SEPA credit transfer export and payment file generation are covered.
+- A payment discount disregard setting is documented in the banking pages.
+- Automatic account codes and automatic account posting groups simplify posting setup.
+- Posting of depreciation differences meets a Finnish tax requirement.
 
 ## Subtopics
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:54.616Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,6 +81,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/bertverbeek-nl/1173
     - post/thedynamicsexplorer-com/10232
   guidelines: []
   changes:
@@ -101,7 +102,7 @@ coverage:
   learn: 6
   code: 6
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 389
@@ -156,6 +157,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10819 [Pmt. Recon. Journal] Re-fire OnAfterGetLedgEntryInfo on proposal fast path](../../../../../changes/bcapps/10819.md) (code change): "OnAfterGetLedgEntryInfo event is re-fired during payment proposal creation"
 - [#8953 [Master]-Aged account receivable EXCEL and Aged account payable EXCEL ignores "Period Count" specified by user.](../../../../../changes/bcapps/8953.md) (code change): "Aged Accounts Receivable and Payable Excel reports now correctly respect the Period Count parameter"
 - [#9673 Bug 643235: Payment Reconciliation Journal does not round imported bank fee amounts](../../../../../changes/bcapps/9673.md) (code change): "Payment reconciliation journal posting now rounds imported bank fee amounts"
+- [Late Payment prediction in Fabric instead of BC](../../../../../posts/bertverbeek-nl/1173.md) (community post): "open invoices get predicted days open plus a customer-average baseline"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "Cash receipts and reconciling them simultaneously when importing bank statements"
 
 ## Business Central pages and reports

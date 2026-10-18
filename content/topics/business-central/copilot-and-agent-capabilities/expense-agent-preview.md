@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,7 +110,6 @@ links:
     - video/ARKckFygbWQ
     - video/cVfZoDwKYpI
     - video/cWVhWBMbXb4
-    - video/egE6UdOfar0
     - video/Fz8NLByllRc
     - video/Hct_HE0KzEc
     - video/P1V4jy08YM8
@@ -135,7 +134,7 @@ children:
 coverage:
   learn: 10
   code: 3
-  video: 14
+  video: 13
   blog: 1
   guideline: 0
 bc_forms:
@@ -194,7 +193,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"
 - [Microsoft presents: Behind the scenes of how we build the new Expense Agent](../../../videos/cVfZoDwKYpI.md) (video): "Expense Agent; Receipt Extraction via AI; Approval Workflow"
 - [What's new in Expense Agent: Improved Mileage Handling (2026 release wave 2)](../../../videos/cWVhWBMbXb4.md) (video): "Date-range mileage allowances; Vehicle-type-specific mileage rates"
-- [Introducing: Expense Agent in Business Central (2026 release wave 1)](../../../videos/egE6UdOfar0.md) (video): "Introducing: Expense Agent in Business Central (2026 release wave 1). Topics: expense management; ai agent; receipt processing"
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../videos/Fz8NLByllRc.md) (video): "Expense Agent: Mileage Allowances; mileage allowances; expense agent"
 - [Episode 516: Business Central Is Transforming Business Management: Insights from Mike Morton](../../../videos/Hct_HE0KzEc.md) (video): "Expense Agent; Natural Language Invoice Processing"
 - [Expense Agent: Configuration (2026 release wave 1)](../../../videos/P1V4jy08YM8.md) (video): "Expense Agent; configuration wizard; approval workflow; mileage expenses; per diem"

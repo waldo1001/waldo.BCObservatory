@@ -8,11 +8,11 @@
   ],
   "summary": "Document Exchange and OCR service codeunits migrate from DotNet Http Web Request Mgt to native HttpClient, removing DotNet dependencies while maintaining backward-compatible public signatures.",
   "key_points": [
-    "Native HttpClient replaces DotNet HttpWebRequest in token requests, service requests, and XML parsing",
-    "SecretText and [NonDebuggable] attributes protect credentials and authorization headers",
-    "DotNet XmlDocument replaced with native XmlDocument and XML DOM Management overloads",
-    "Session cookie handling converted from DotNet Cookie to native Cookie type with explicit re-authentication logic",
-    "Base64 encoding for embedded attachments replaces DotNet File and Convert classes"
+    "Doc. Exch. Service Mgt. and OCR Service Mgt. now use native HttpClient, HttpRequestMessage and HttpResponseMessage instead of Http Web Request Mgt.",
+    "Credentials, form bodies and auth headers are handled as SecretText with NonDebuggable",
+    "DotNet XML parsing replaced by native XmlDocument and XML DOM Management overloads",
+    "Embedded attachments are decoded with Base64 Convert into a Temp Blob instead of DotNet File/Convert and a server temp file",
+    "OCR session cookie uses the native Cookie type with explicit re-authentication when missing or expired"
   ],
   "change_kind": "refactor",
   "behavior_change": false,

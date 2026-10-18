@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/local-functionality/france
 type: topic
 title: France
-summary: France local functionality in Business Central covers VAT and audit reporting, banking and payments, e-invoicing, core finance and year-end, and fixed assets. It answers setup and how-to questions about the French localization.
+summary: France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.
 tier: official
 language: en
 system: localization
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:03.821Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: c105d25b0050df7cf5bc24d51f49ba719e72f0f5143414f9daca067ff91d7001
+  input_hash: 0f0ababd40d44bcbbe8b48a1a61c9c02f828296c4f75badcf91aabef30251d32
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/France/accelerated-depreciation
@@ -310,28 +310,27 @@ narrative: generated
 
 # France
 
-> France local functionality in Business Central covers VAT and audit reporting, banking and payments, e-invoicing, core finance and year-end, and fixed assets. It answers setup and how-to questions about the French localization.
+> France local functionality in Business Central covers VAT audit export and DEB, payment slips, e-invoicing and E-Reporting, core finance and fiscal closing, and accelerated depreciation for fixed assets. It answers setup and how-to questions for the French version.
 
-Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative reviewed (checked by Opus)
+Path: [Business functionality](../../business-functionality.md) > [Local functionality](../local-functionality.md) > France · tier official · system localization · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The France section collects the features that Business Central adds for French legal and accounting needs. The landing page lists the main areas: VAT reporting, e-invoicing (UBL 2.1 and Factur-X), banking and payment management, core finance, sales invoicing and fixed assets. It also mentions audit export, general ledger export for tax audits, XML export of ledger entries, the Declaration of Trade in Goods, the service declaration DES and electronic invoicing. It lists 2026 release wave 2.
+The France section describes features specific to the French version of Business Central. The landing page lists VAT, e-invoicing, banking, payments, core finance, sales, and fixed assets, and notes a transition to an extensions-based model in 2026 release wave 2.
 
-Five subtopics hold the detail. VAT covers audit files, XML archiving and DEB. Banking and payments covers payment classes, statuses, steps, addresses and payment slips, including SEPA. E-invoicing covers enabling electronic invoices and the E-Reporting FR format. Core finance covers G/L entry application, posting periods and the fiscal year-end cycle. Fixed assets covers accelerated depreciation.
+Five subtopics cover the detail. VAT deals with audit file export and the Declaration of Trade in Goods. Banking and payments covers payment management with payment slips. E-invoicing covers UBL 2.1, Factur-X and E-Reporting. Core finance covers fiscal years, closing and general ledger tasks. Fixed assets covers accelerated depreciation.
 
-Start with the subtopic that matches your task. For year-end or ledger work, go to Core finance. For tax audit files, go to VAT. For payment setup, go to Banking and payments.
+Start with the landing page to see the overall scope and the 2026 release wave 2 change. Then go to the subtopic that matches your task, for example Core finance for year-end and fiscal closure, or Banking and payments for setting up payment slips.
 
 ## Key points
 
-- VAT: export general ledger entries for tax audits, export them to XML for archiving, and set up Declaration of Trade in Goods (DEB) requirements.
-- Banking and payments: payment management uses payment classes, statuses, steps and addresses; payment slips can be created, posted, archived and exported, with SEPA covered for customer and vendor payments.
-- E-invoicing: enable electronic invoicing with UBL 2.1 (PEPPOL BIS 3.0) or Factur-X, and use the E-Reporting FR e-document format.
-- E-invoicing pages address the French e-invoicing reform, PDP delivery and tax authority reporting.
-- Core finance: apply and unapply G/L entries, manage posting periods, open, close and reopen periods and years, and close income statement accounts.
-- Core finance also includes French ledger reports.
-- Fixed assets: accelerated depreciation with separate tax and accounting depreciation books, their setup, and the Calculate Depreciation batch job.
-- The landing page references 2026 release wave 2 and also mentions the service declaration DES and sales invoicing.
+- VAT: export general ledger entries for tax audits in FEC format or XML, and set up the Declaration of Trade in Goods (DEB).
+- Banking and payments: payment management uses payment slips, payment classes, statuses, steps and addresses; pages cover setting up, creating, exporting, posting and archiving slips, and moving setup between companies.
+- E-invoicing: electronic invoicing with UBL 2.1 and Factur-X, incoming invoice import, and submission to the tax authority via partner platforms.
+- E-Reporting covers transactions outside mandatory B2B e-invoicing.
+- Core finance: fiscal years and periods, year-end closing, fiscal closure, posting periods, applying entries, reports and reconciliations under French rules.
+- Fixed assets: accelerated depreciation with accounting and tax depreciation books, derogatory posting, and the Calculate Depreciation batch job.
+- The landing page notes a transition to an extensions-based model in 2026 release wave 2.
 
 ## Subtopics
 

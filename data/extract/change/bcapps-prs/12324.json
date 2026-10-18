@@ -8,14 +8,15 @@
   ],
   "summary": "Http Web Request Mgt usage is removed from webhook and OData public APIs by replacing DotNet-based code with native HttpClient and HttpRequestMessage, while obsoleting old event signatures.",
   "key_points": [
-    "SendRequest in API Webhook Notification Send uses native HttpClient instead of DotNet Http Web Request Mgt",
-    "New event OnSendRequestOnBeforeSendHttpRequest replaces obsolete OnSendRequestOnBeforeSendRequestAndReadTextResponse",
-    "Behavior preserved: POST with JSON headers, UTF-8 body, timeouts, telemetry tags, and retry rules unchanged",
-    "ODataUtility CreateMetadataWebRequest method obsoleted; callers should use native HttpClient/HttpRequestMessage"
+    "SendRequest in API Webhook Notification Send now uses native HttpClient instead of Http Web Request Mgt.",
+    "New event OnSendRequestOnBeforeSendHttpRequest replaces the pending-obsolete OnSendRequestOnBeforeSendRequestAndReadTextResponse",
+    "OnAfterSendNotification with a DotNet HttpStatusCode is pending obsolete; use OnAfterSendNotificationWithStatusNumber",
+    "ODataUtility CreateMetadataWebRequest is pending obsolete; build requests with native HttpClient",
+    "Headers, UTF-8 body, timeout, telemetry and retry rules are kept the same"
   ],
-  "change_kind": "refactor",
+  "change_kind": "obsoletion",
   "behavior_change": false,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [
     {
       "object": "API Webhook Notification Send",

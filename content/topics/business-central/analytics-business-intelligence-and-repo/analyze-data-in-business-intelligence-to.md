@@ -2,21 +2,21 @@
 id: topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
 type: topic
 title: Analyze data in business intelligence tools
-summary: "Analyzing Business Central data in business intelligence tools: options include Microsoft Fabric and OneLake, Power BI, data warehouse extraction, and the v2.0 REST API for connect apps. Also covers which cloud insights are missing on-premises without cloud migration, and performance guidance for AL developers."
+summary: "Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central for reporting and analytics."
 tier: official
 language: en
 system: reporting
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:23:40.443Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 89fae4cdc52182963e0568e74f8e606d93de62daf48fd6a5824dc049c00b48e9
+  input_hash: 98677fa2e5cbbe95b622eadb54561995c61c1ad459ab29d810522982f4536abd
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/reports-external-analysis
@@ -134,27 +134,27 @@ narrative: generated
 
 # Analyze data in business intelligence tools
 
-> Analyzing Business Central data in business intelligence tools: options include Microsoft Fabric and OneLake, Power BI, data warehouse extraction, and the v2.0 REST API for connect apps. Also covers which cloud insights are missing on-premises without cloud migration, and performance guidance for AL developers.
+> Analyzing Business Central data in external BI tools: exporting data to Microsoft Fabric, Power BI, data warehouses and data lakes, using the v2.0 API, and AL performance guidance. It answers questions about getting data out of Business Central for reporting and analytics.
 
-Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Analyze data in business intelligence tools · tier official · system reporting · narrative reviewed (checked by Opus)
+Path: [Analytics, business intelligence, and reporting](../analytics-business-intelligence-and-repo.md) > Analyze data in business intelligence tools · tier official · system reporting · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-Analyzing Business Central data in business intelligence tools means getting the data into external tools. The main guide lists the options: Microsoft Fabric, Power BI, data warehouse extraction, and API access. Start there to choose an approach.
+This section explains the ways to get Business Central data into external business intelligence tools. The main entry page covers the options: data mirroring to Microsoft Fabric, Power BI integration, and extracting data to data warehouses or data lakes through the Business Central API.
 
-Supporting pages go deeper. One introduces Fabric integration and OneLake as a unified data lake with automatic data governance. Another is the API v2.0 reference, which describes building connect apps on REST APIs and moving from v1.0. A third explains that on-premises installations don't get the cloud KPIs and Power BI insights of the online version unless they migrate to the cloud.
+The Microsoft Fabric subtopic goes into detail on mirroring data from Business Central online to OneLake. It covers setup, choosing companies and tables, managing synchronization, and monitoring and troubleshooting runs. The API v2.0 page is the reference for building connect apps with REST APIs, and it includes the transition from v1.0 and code examples.
 
-The section also has performance articles for AL developers. They cover page design, web services, reports, AL coding patterns, data access and testing, and they help developers tune Business Central applications.
+Two further pages cover related cases. One explains that on-premises Business Central has no cloud-based KPIs or Power BI insights unless you migrate to the cloud. The other gives performance guidance for AL developers, including pages, web services, reports, and data access. Start with the main overview page, then go to Fabric mirroring or the API reference, depending on your approach.
 
 ## Key points
 
-- The main guide lists four routes for analysis: Microsoft Fabric, Power BI, data warehouse extraction, and API access.
-- Fabric integration uses OneLake as a unified data lake, with data lineage, data protection, certification and catalog integration.
-- API v2.0 is a REST API for building connect apps with third-party services. The reference covers API pages, operations, code examples and the transition from v1.0.
-- On-premises Business Central lacks the cloud-based KPIs and Power BI insights of the online version. Cloud migration is needed to get them.
-- AL performance articles cover page background tasks, Edit-in-Excel performance, query object optimization and partial records.
-- They also cover table extension impact analysis and event subscription performance.
-- Some performance guidance is tied to 2021 release wave 2 and 2023 release waves 1 and 2.
+- The main page lists the export options: Fabric data mirroring, Power BI, data warehousing, data lake extraction, and the Business Central API.
+- Fabric mirroring replicates Business Central online data to OneLake for analytics.
+- The Fabric pages cover setup, company and table selection, synchronization management, monitoring, and troubleshooting.
+- API v2.0 is a REST API for building connect apps that integrate with third-party services, with notes on moving from v1.0.
+- On-premises Business Central does not have the cloud-based KPIs and Power BI insights of the online version. Migrating to the cloud is required for them.
+- AL performance articles cover page background tasks, Edit-in-Excel performance, query object optimization, partial records, table extension impact, and event subscription performance.
+- The performance articles reference 2021 release wave 2, 2023 release wave 1, and 2023 release wave 2.
 
 ## Subtopics
 

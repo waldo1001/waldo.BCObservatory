@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -91,13 +91,15 @@ links:
   videos:
     - video/2u5_F9Ztt7U
   posts:
+    - post/aardvarklabs-blog/1826
     - post/aardvarklabs-blog/2953
+    - post/demiliani-com/13588
     - post/demiliani-com/13640
     - post/kauffmann-nl/8332
   guidelines: []
   changes:
+    - change/bcapps/10755
     - change/bcapps/11612
-    - change/bcapps/11745
     - change/bcapps/11993
     - change/bcapps/12140
     - change/bcapps/5833
@@ -115,7 +117,7 @@ coverage:
   learn: 8
   code: 0
   video: 1
-  blog: 3
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -143,15 +145,17 @@ Path: [Development](../../development.md) > [Programming in the AL language](../
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "Migrate Http Web Request Mgt. callers to native HttpClient"
 - [#11612 Multiple runs of email retrieval on the same emails don't persist again](../../../../changes/bcapps/11612.md) (code change): "Email retrieval no longer creates duplicate entries when the same emails are retrieved"
-- [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
 - [#11993 Enable HTTP requests before Expense Agent setup](../../../../changes/bcapps/11993.md) (code change): "The setup wizard enables HTTP client requests for the Expense Agent extension"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "OAuth2 SMTP authentication now correctly decodes Base64URL tokens"
 - [#5833 Add Microsoft Graph API Support to SharePoint Connector](../../../../changes/bcapps/5833.md) (code change): "SharePoint Connector now supports Microsoft Graph API as an alternative to REST API"
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"
 - [#9748 Image Analyzer: use Computer Vision v3.2 instead of retiring v1.0](../../../../changes/bcapps/9748.md) (code change): "The Image Analyzer app switches from the retiring Computer Vision v1.0 to v3.2 API"
+- [How to Work with JSON in Business Central’s AL Code](../../../../posts/aardvarklabs-blog/1826.md) (community post): "JSON structures and using JsonObject, JsonArray to parse incoming"
 - [How to Use External APIs in Business Central](../../../../posts/aardvarklabs-blog/2953.md) (community post): "explains how to consume external APIs from within Business Central by making HTTP requests using the HttpClient"
+- [Dynamics 365 Business Central: new strict URI validation in AL Http Client](../../../../posts/demiliani-com/13588.md) (community post): "Cloud environments enforce this without bypass options"
 - [Dynamics 365 Business Central: using SFTP from AL (the native way)](../../../../posts/demiliani-com/13640.md) (community post): "native SFTP Client codeunit for connecting to SFTP servers from AL code"
 - [OAuth library for the Rest Client](../../../../posts/kauffmann-nl/8332.md) (community post): "OAuth library for Business Central's Rest Client module has been released on GitHub"
 - [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "MCP Protocol Compliance; File Support Using MCP Resources"

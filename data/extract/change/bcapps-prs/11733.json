@@ -6,13 +6,13 @@
   "systems_joined": [
     "platform"
   ],
-  "summary": "Fix external storage migration of document attachments with unsafe filenames by sanitizing paths while retaining uniqueness and preserving displayed names.",
+  "summary": "Attachments with unsafe filenames now migrate to external storage because generated storage paths are sanitized while displayed names stay unchanged. Each sync step runs in isolation so one failure rolls back only that step, failures are registered per attachment, and the app no longer deletes remote files, only retiring local references under a guard.",
   "key_points": [
-    "Filenames like 'Invoice Nov'25.pdf' that violate storage validation are now sanitized without changing displayed File Name or extension",
-    "Failed attachment synchronizations are isolated and roll back individual steps while processing continues",
-    "Remote deletion calls are eliminated; worker explicitly uses RetireExternalReference for local reference retirement only",
-    "Failed attachments are registered locally and can be recovered; interactive and background runs handle errors differently",
-    "Added extensive test coverage for restored, external-only, and stale file scenarios"
+    "Generated storage filenames are sanitized; displayed File Name and File Extension are unchanged",
+    "Each synchronization step runs through a worker; failures roll back that step and processing continues",
+    "Failed attachments are registered locally; interactive runs show Error Messages, background runs do not fail the job queue entry",
+    "Uploaded files are retained after failed persistence and their logical paths recorded for recovery",
+    "All remote deletion calls are removed; local references are retired only under a guarded check"
   ],
   "change_kind": "fix",
   "behavior_change": true,

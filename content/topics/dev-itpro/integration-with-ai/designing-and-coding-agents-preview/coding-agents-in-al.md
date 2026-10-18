@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -97,10 +97,10 @@ links:
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
   guidelines: []
   changes:
     - change/bcapps/10007
-    - change/bcapps/10008
     - change/bcapps/10017
     - change/bcapps/10020
     - change/bcapps/10022
@@ -164,6 +164,7 @@ links:
     - change/bcapps/11889
     - change/bcapps/11970
     - change/bcapps/12074
+    - change/bcapps/12332
     - change/bcapps/7546
     - change/bcapps/8875
     - change/bcapps/9310
@@ -194,7 +195,7 @@ coverage:
   learn: 8
   code: 0
   video: 2
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 69eac98ac3509b30b15900079714f9d3546b4ea11aac6d5b7228ce8677ee298c
@@ -242,7 +243,6 @@ If you already prototyped an agent in the design experience, use the convert pag
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10007 [SOA] Ignore item availability when disabled](../../../../changes/bcapps/10007.md) (code change): "The Sales Order Agent now ignores item availability signals when availability checking is disabled"
-- [#10008 [MCP] Add codeunit APIs as MCP tools in MCP configuration](../../../../changes/bcapps/10008.md) (code change): "Add codeunit APIs as MCP tools in MCP configuration"
 - [#10017 [Master] - Bug 644751 Moving an expense report line to another report wrongly reports a duplicate](../../../../changes/bcapps/10017.md) (code change): "Moving an expense report line to another report wrongly reports a duplicate"
 - [#10020 [Master] - Bug 641894: [Expense Agent] [Rules] Mileage expense should not validate require receipt number rule](../../../../changes/bcapps/10020.md) (code change): "Mileage expenses in Expense Agent no longer incorrectly trigger the receipt number mandatory validation"
 - [#10022 Known senders table should only be inserted to when the task is coming from an email](../../../../changes/bcapps/10022.md) (code change): "The Known Senders table now only gets populated when tasks arrive from email"
@@ -306,6 +306,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11889 [Master] - Bug 651129: Expense Agent - Distance UOM in Configuration](../../../../changes/bcapps/11889.md) (code change): "Expense Agent setup now includes distance unit of measure configuration"
 - [#11970 Allow Azure OpenAI privacy notice in evaluation](../../../../changes/bcapps/11970.md) (code change): "Azure OpenAI privacy notice assumed approved in evaluation"
 - [#12074 Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment](../../../../changes/bcapps/12074.md) (code change): "Expense Agent travel request feature now supports expense location selection using per diem rules"
+- [#12332 [MCP] Add Agent Tools server feature](../../../../changes/bcapps/12332.md) (code change): "MCP server now includes Agent Tools feature for managing and loading available custom agents"
 - [#7546 [Payables Agent] Agent-driven line matching](../../../../changes/bcapps/7546.md) (code change): "Adds agent-driven line matching to the Payables Agent"
 - [#8875 [master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always](../../../../changes/bcapps/8875.md) (code change): "Sales Order Agent by adding a commit before opening the contact selection"
 - [#9310 SOA: Open Item Availability from Agent panel](../../../../changes/bcapps/9310.md) (code change): "The Sales Order Agent can now open the multi-item availability page"
@@ -329,6 +330,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
+- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "Coding agents work best within bounded domains with clear permissions"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
 

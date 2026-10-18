@@ -8,11 +8,10 @@
   ],
   "summary": "Direct transfer order upgrade now handles missing Inventory Setup by retaining fallback shipment and receipt behavior, preventing migration failures when the setup record does not exist.",
   "key_points": [
-    "Avoid unnecessary Inventory Setup reads when no direct transfer orders need migration",
-    "Enable direct transfer orders to upgrade even when Inventory Setup is missing",
-    "Retain existing fallback logic for shipment and receipt posting",
-    "Added regression tests for missing setup and configured posting types",
-    "Applied to all localization layers"
+    "Skips reading Inventory Setup when no direct transfer orders need migration",
+    "Direct transfer orders can upgrade even when Inventory Setup is missing",
+    "Keeps the existing Shipment and Receipt fallback",
+    "Change made in Upgrade - BaseApp across the AT, BE, CH, IT, NL, NO, RU and W1 layers"
   ],
   "change_kind": "fix",
   "behavior_change": true,

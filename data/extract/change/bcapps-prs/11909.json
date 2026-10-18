@@ -6,14 +6,14 @@
   "systems_joined": [
     "copilot"
   ],
-  "summary": "Guest and external users are now prevented from enabling or disabling Expense Agent and from scheduling or stopping related tasks, while internal users retain full access.",
+  "summary": "Guest users and external administrators can no longer enable or disable Expense Agent or schedule or stop its tasks. External users are detected from the Business Central authentication email, with the access token identity-provider claim as a fallback.",
   "key_points": [
     "Guest and external administrator access is blocked from Expense Agent configuration changes",
     "Detection of external users uses Business Central authentication email or identity-provider claim as fallback",
     "Task scheduling and state changes trigger access validation before any state modification",
     "Limited task-scheduling warning removed as users are now blocked at configuration stage"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

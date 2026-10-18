@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12671",
+  "input_hash": "ebc81c1ffb65ea32a2babd5d6c191e3f80d1176b9dc0df5e70102450a0c1a914",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-18T00:55:14.136Z",
+  "issues": [
+    "The page matches the description: New and Delete are disabled, lifecycle actions are added, already-installed apps are skipped in the marketplace flow, and tests and docs are updated."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020209,
+    "changes_in_call": 6
+  }
+}

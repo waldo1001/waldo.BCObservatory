@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/12324",
+  "input_hash": "2ff5a79b8d43c520bb6bc571f2be0b77c0d70aad1125f349b94338c13792ed20",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:14.136Z",
+  "issues": [
+    "The obsoletions are Pending under #if not CLEAN30, so existing extensions keep compiling and working. breaking should be false.",
+    "The PR's stated purpose is obsoleting public API members that expose Http Web Request Mgt., so obsoletion fits better than refactor.",
+    "No key point covers the obsoleted OnAfterSendNotification DotNet event."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind obsoletion",
+    "breaking false"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020209,
+    "changes_in_call": 6
+  }
+}

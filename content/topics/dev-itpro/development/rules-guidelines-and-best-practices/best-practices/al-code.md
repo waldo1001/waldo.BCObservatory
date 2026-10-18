@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,11 +59,10 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/thinkaboutit-be/8132
   guidelines: []
   changes:
-    - change/bcapps/10559
-    - change/bcapps/11036
     - change/bcapps/11609
     - change/bcapps/11682
     - change/bcapps/12078
@@ -89,7 +88,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -131,8 +130,6 @@ Start with the general best practices page for conventions, then read the rules 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../../changes/bcapps/10559.md) (code change): "AL0659 and AL0685 overrides are removed from base.ruleset.json"
-- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../../changes/bcapps/11036.md) (code change): "Rule enforcement becomes stricter going forward, requiring contributors to avoid these patterns"
 - [#11609 [Main]-Reduce redundant record restriction checks in item journal line](../../../../../changes/bcapps/11609.md) (code change): "Record restriction checks in item journal operations are optimized"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../../changes/bcapps/11682.md) (code change): "Replaced broad AA0073 suppression with compliant temporary-record variable names"
 - [#12078 [29.x]Reduce allocations in the "Export to Execl" scenario (#11870)](../../../../../changes/bcapps/12078.md) (code change): "Reuses the default CellDecorator instead of creating new instances for each column-row combination"
@@ -146,6 +143,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
+- [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

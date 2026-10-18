@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.947Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -289,7 +289,8 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
-  videos: []
+  videos:
+    - video/ugHFHtSxTlw
   posts:
     - post/aardvarklabs-blog/2063
     - post/demiliani-com/12439
@@ -312,7 +313,7 @@ children: []
 coverage:
   learn: 33
   code: 0
-  video: 0
+  video: 1
   blog: 2
   guideline: 0
 bc_forms: []
@@ -393,5 +394,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#160 Clarify page field caption and tooltip inheritance](../../../../../changes/bcquality/160.md) (code change): "bound page fields inherit Caption and, from BC24 runtime 13.0, ToolTip"
 - [Understanding User Control Host in Business Central](../../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host is a simplified page type that requires no source table"
 - [Dynamics 365 Business Central: controlling the Summary system part.](../../../../../posts/demiliani-com/12439.md) (community post): "Developers can control the Summary part using the DefaultSummaryPart identifier on Card, Document, and ListPlus pages"
+- [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../../videos/ugHFHtSxTlw.md) (video): "Fluent Design Language; Figma for UI Design"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/the-al-programming-language",
-  "input_hash": "223d3dae95a4fa05c8d3999a6c097f143985bb62c51a8c110a47d899de22d539",
-  "summary": "The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, error handling, labels, access modifiers, and XML comments. It also links to subtopics on variables and operators, object types, preprocessor directives, and code analysis. It answers syntax, behavior, and how-to-write-AL questions.",
-  "overview": "This section documents the AL language used to build Business Central extensions. The core pages explain programming basics (variable declarations, triggers, code reuse), the statement types (simple statements and control statements), and how to declare and call methods, including return values and complex return types.\nFurther pages cover cross-cutting topics: error handling with error dialogs, try methods, error collection and telemetry; labels for translatable text; access modifiers for controlling visibility; and XML comments for IntelliSense and generated documentation. A reference overview page lists the objects, properties, triggers, attributes, and methods available, and an FAQ covers setup, debugging, and Marketplace validation.\nStart with \"Programming in AL\" for the fundamentals, then move to the subtopics: variables, types and operators; objects; preprocessor directives; and code analysis.",
+  "input_hash": "b443517c53d8414351824fdcb519c63388627cb225a4a42910df200b4c6ff1cc",
+  "summary": "The AL programming language section covers language fundamentals for Business Central extensions: statements, methods, types, labels, access modifiers, error handling, and XML comments. Subtopics cover variables and operators, object types, preprocessor directives, and code analysis. It answers questions about syntax, object behavior, and AL coding conventions.",
+  "overview": "This section documents AL, the language used to build Business Central extensions. The top-level pages cover the core language: simple statements (assignment, method, AssertError), control statements (if, case, loops), methods and their parameters and return values, complex return types, labels, access modifiers, error handling, and XML comments for documentation.\n\nThe subtopics go deeper. Variables, types, and operators covers declarations, type conversion, and operator behavior. Objects describes each AL object type, such as tables, pages, codeunits, reports, queries, and enums, and how to extend them. Preprocessor directives covers conditional compilation, regions, and pragmas. Code analysis is a further subtopic of 7 pages.\n\nStart with \"Programming in AL\" for the fundamentals, then move to statements and methods. Use the objects subtopic when you need properties or extension rules for a specific object type. The FAQ for developing in AL helps with setup, debugging, symbols, and app identity questions.",
   "key_points": [
-    "Programming in AL covers variable declarations, protected variables, trigger types, code reuse, and security patterns.",
-    "Control statements include if-then-else, case, for, foreach, while, repeat-until, plus break and continue.",
+    "Control statements include if-then-else, case, for, foreach, while, and repeat-until, plus break and continue.",
     "Simple statements are assignment, method, and AssertError statements, including compound assignment operators.",
-    "Methods can have local or global scope, parameters, return values, and attributes; complex types let procedures return records or built-ins like HttpClient and HttpResponseMessage.",
-    "Error handling covers error dialogs, try methods, error collection, telemetry, the ErrorInfo data type, and error message quality.",
-    "Access modifiers are internal, local, protected, and public, with an internalsVisibleTo setting, applied at compile time.",
-    "Labels provide translatable string constants with Comment, Locked, and MaxLength parameters for captions, tooltips, and messages.",
-    "Subtopics cover variables and operators (8 pages), object types (16 pages), preprocessor directives (3 pages), and code analysis (7 pages)."
+    "Access modifiers are internal, local, protected, and public, enforced at compile time; internalsVisibleTo opens internals to other apps.",
+    "Error handling covers error dialogs, try methods, error collection, telemetry, and the ErrorInfo data type.",
+    "Labels are translatable string constants with Comment, Locked, and MaxLength parameters, used for captions, tooltips, and messages.",
+    "Procedures can return records and built-in types such as HttpClient and HttpResponseMessage, including named return values.",
+    "XML comments using triple slashes enable IntelliSense and ALDoc-generated documentation.",
+    "Subtopics: Variables, types, and operators (8 pages), Objects (16 pages), Preprocessor directives (3 pages), Code analysis (7 pages)."
   ],
   "members_used": 11,
   "subtopics_used": 3,
   "prompt_version": 1,
-  "at": "2026-10-07T21:13:11.898Z",
+  "at": "2026-10-18T00:56:39.517Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": true,
-    "cost_usd": null
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T21:13:11.946Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: no key point covers XML comments, the reference overview or the FAQ, though the overview mentions all three.",
-      "Minor: the Code analysis subtopic has no summary, so the narrative can only name it. That is the right choice, but agents get no detail on what it covers.",
-      "Minor: the version tags on two pages (2023 release wave 1 on control statements, 2023 release wave 2 on labels) are not mentioned. Leaving them out is acceptable."
-    ],
-    "input_hash": "223d3dae95a4fa05c8d3999a6c097f143985bb62c51a8c110a47d899de22d539",
-    "cost_usd": null
+    "cached": false,
+    "cost_usd": 0.018315
   }
 }

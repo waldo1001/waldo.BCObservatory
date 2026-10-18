@@ -6,13 +6,13 @@
   "systems_joined": [
     "sales"
   ],
-  "summary": "Fix contract renewal quote totals to correctly apply billing rhythm conversions alongside base period conversions when calculating subscription line amounts.",
+  "summary": "Contract Renewal Quote totals now show the renewal-term amount instead of the Billing Base Period amount. The contract-renewal calculation in Sales Subscription Line now converts from base period to billing rhythm before applying the renewal-term ratio, and period counts are reset per line.",
   "key_points": [
-    "Contract renewal quotes now show correct renewal-term amounts instead of base-period amounts",
-    "Bug occurred when Billing Base Period differed from Billing Rhythm; with 1M base and 12M rhythm, totals showed 100 instead of 1200",
-    "Root cause: contract-renewal branch omitted the base-period-to-rhythm conversion factor",
-    "Period count variables changed from threaded var parameters to local variables to prevent value leakage between lines",
-    "Added tests covering various billing period and rhythm combinations"
+    "Renewal quote totals reflect the renewal term, e.g. 1,200 instead of 100 for 1M base, 12M rhythm and 12M term",
+    "The contract-renewal branch lacked the base-period-to-rhythm conversion and applied only the renewal-term ratio",
+    "Both branches now share one period conversion",
+    "Period counts became per-line locals reset to 1, stopping values leaking between lines",
+    "New tests cover differing periods, empty base period and complex rhythm"
   ],
   "change_kind": "fix",
   "behavior_change": true,

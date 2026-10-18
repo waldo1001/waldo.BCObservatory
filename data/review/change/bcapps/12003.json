@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12003",
+  "input_hash": "885c2ef3c244887997301798ba6ce1bae78f9a22e51d90b4c8a6d80445fe7d2a",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:27.655Z",
+  "issues": [
+    "Description gives the SetCurrentKey/Ascending change only as an example; key point presented it as the exact implementation.",
+    "Claim that other entries are unaffected is the stated intent, softened accordingly."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.030663,
+    "changes_in_call": 6
+  }
+}

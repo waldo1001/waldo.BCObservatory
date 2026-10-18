@@ -2,21 +2,21 @@
 id: topic/business-central/business-functionality/fixed-assets
 type: topic
 title: Fixed assets
-summary: "Fixed assets in Business Central: setting up, acquiring, depreciating, revaluing and managing capital assets across their lifecycle, plus depreciation methods, a rounding troubleshooting extension, and a subtopic on analytics and reports. It answers how-to and which-method questions."
+summary: "Fixed assets in Business Central covers the asset lifecycle: setup, acquisition, depreciation and amortization, revaluation, maintenance, insurance and disposal. It answers questions about depreciation methods, posting through journals and batch jobs, and troubleshooting FA ledger entry rounding. A subtopic covers analytics and reports."
 tier: official
 language: en
 system: fixed-assets
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:15:33.278Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 163e98d9671ba9b100e63b06d337b831dc80e4daa7e0aadd98c7ea2b4d319950
+  input_hash: cc794470d84d6ba526a488481db578b47ddf2315a66ce3c549cfb6b000c02132
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/fa-how-acquire
@@ -479,27 +479,28 @@ narrative: generated
 
 # Fixed assets
 
-> Fixed assets in Business Central: setting up, acquiring, depreciating, revaluing and managing capital assets across their lifecycle, plus depreciation methods, a rounding troubleshooting extension, and a subtopic on analytics and reports. It answers how-to and which-method questions.
+> Fixed assets in Business Central covers the asset lifecycle: setup, acquisition, depreciation and amortization, revaluation, maintenance, insurance and disposal. It answers questions about depreciation methods, posting through journals and batch jobs, and troubleshooting FA ledger entry rounding. A subtopic covers analytics and reports.
 
-Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative reviewed (checked by Opus)
+Path: [Business functionality](../business-functionality.md) > Fixed assets · tier official · system fixed-assets · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The Fixed assets section covers the lifecycle of capital assets in Business Central. Manage fixed assets gives the lifecycle overview: acquisition, depreciation, maintenance, insurance, revaluation, impairment and disposal. Set up fixed assets lists what is required: depreciation configuration, G/L account mappings, and optional insurance, maintenance and user-defined depreciation methods.
+This section explains how to manage capital assets in Business Central through their whole lifecycle. Setup comes first: depreciation configuration, G/L account mappings, optional insurance and maintenance setup, and user-defined depreciation methods. After that come acquiring assets, depreciating or amortizing them, and revaluing them.
 
-The task pages follow the lifecycle. Acquire fixed assets covers recording acquisition costs through purchase orders, journals or assisted workflows. Depreciate or amortize FA covers automatic and manual depreciation. Depreciation methods for fixed assets describes the eight available methods. Revalue Fixed Assets covers appreciation, write-down and indexation. The Troubleshooting FA Ledger Entries extension handles rounding problems in ledger entries.
+The pages fit together in that order. "Manage fixed assets" gives the lifecycle overview, including maintenance, insurance, impairment and disposal. "Set up fixed assets" covers what must be configured first. "Acquire fixed assets" and "Depreciate or amortize FA" cover posting. "Depreciation methods for fixed assets" explains the available methods, and "Revalue Fixed Assets" covers value adjustments. A troubleshooting extension page helps with rounding problems in FA ledger entries.
 
-Start with Manage fixed assets, then Set up fixed assets before posting anything. The Fixed assets analytics subtopic (33 pages) covers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
+Start with "Manage fixed assets" for the overview, then "Set up fixed assets". For reporting and analysis questions, go to the Fixed assets analytics subtopic.
 
 ## Key points
 
-- Acquisition costs are recorded through purchase orders, journals or assisted acquisition workflows; bulk creation, component lists and salvage values are supported.
-- Depreciation can be calculated automatically or posted manually with batch jobs and journals, with department allocation and multiple depreciation books.
-- Eight depreciation methods are covered: straight-line, declining balance, DB1/SL, half-year convention, manual and user-defined, among others.
-- Revaluation (appreciation, write-down, indexation) is posted through the FA G/L Journal or batch jobs.
-- Setup needs depreciation configuration and G/L account mappings; insurance and maintenance setup are optional.
-- The Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts to whole numbers to resolve rounding issues.
-- Fixed assets analytics offers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
+- Set up fixed assets first: depreciation setup, G/L account mappings, and optional insurance and maintenance setup.
+- Acquisition costs can be recorded through fixed asset cards, journals, or purchase orders; main assets can have component lists.
+- Acquisition supports an assisted workflow, Edit in Excel for bulk creation, and creating multiple fixed assets from purchase orders.
+- Depreciation runs automatically through batch jobs or manually through journals, with department allocation, duplication lists, and multiple depreciation books.
+- Eight depreciation methods are available, including straight-line, declining balance, DB1/SL, half-year convention, manual, and user-defined.
+- Revaluation covers appreciation, write-down, and indexation, posted with the FA G/L Journal or batch jobs.
+- The Troubleshooting FA Ledger Entries extension rounds depreciation and acquisition amounts to whole numbers to fix rounding issues.
+- The Fixed assets analytics subtopic (33 pages) covers Data Analysis on FA and GL ledger entries, standard and Excel reports, and legacy reports slated for removal.
 
 ## Subtopics
 

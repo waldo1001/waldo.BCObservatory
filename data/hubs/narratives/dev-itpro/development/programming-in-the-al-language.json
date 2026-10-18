@@ -1,36 +1,37 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language",
-  "input_hash": "10afee71912b6b8b8085f3afaccde5832fac8d959c9e8fd62d840c89a777f6fe",
-  "summary": "Programming in the AL language covers the language fundamentals for Business Central extensions: variables, triggers, operators, and code reuse. It also links to subtopics on tables, pages, reports, events, APIs, security, error handling, telemetry, background processing and external calls. Use it for AL syntax and how-to questions.",
-  "overview": "This section starts with the \"Programming in AL\" page, which describes the language basics: manipulating data, controlling application objects, creating business rules, and writing code in triggers on tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.\n\nThe subtopics go deeper. Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments. Language elements is the largest subtopic at 78 pages. Object-specific areas are tables and data, pages and the user interface, and reports. Cross-cutting areas are events, error handling, formatting values, security, telemetry, background processing, APIs and calling external services.\n\nStart with the Programming in AL page and Program building blocks for syntax. Then go to the subtopic that matches your object or task. Device access, printer extensions and .NET interoperability (on-premises only) are narrower topics for specific scenarios.",
+  "input_hash": "d4c9ceb11ffe6aa0ef5f466ca5d160920e95748c2e906fb11312a53e75a3bebb",
+  "summary": "Programming in the AL language covers the language fundamentals for Business Central development: variables, triggers, code reuse, and the building blocks of syntax. It also points to subtopics on tables, pages, reports, events, security, APIs, telemetry, background processing and error handling.",
+  "overview": "This section begins with a general page, \"Programming in AL\". It describes the language fundamentals: manipulating data, controlling application objects, creating business rules, and writing code in triggers across tables, pages, reports and other objects. It touches on variable declarations, protected variables, trigger types, code reuse and security patterns.\n\nThe subtopics split into groups. Core language material is in Program building blocks (operators, statements, system-defined variables, access modifiers, XML comments), Language elements, Error handling and Formatting values. Object-focused areas are Tables and data, Pages and the user interface, Developing reports, and Events for extending behavior without changing the original code.\n\nThe remaining subtopics cover integration and operations: Handling security, Running things in the background, Developing APIs, Calling external services, Instrumenting with telemetry, Accessing device capabilities, Developing printer extensions, and Using .NET (on-premises only). Start with the \"Programming in AL\" page and Program building blocks, then go to the subtopic that matches the object or task.",
   "key_points": [
-    "The Programming in AL page covers variable declarations, protected variables, trigger types, code reuse and security patterns.",
+    "The top page covers variable declarations, protected variables, trigger types, code reuse and security patterns.",
     "Program building blocks covers operators, statements, system-defined variables, access modifiers and XML comments.",
     "Error handling covers try methods, collectible errors, actionable errors with Fix-it and Show-it actions, and error telemetry.",
     "Tables and data covers records, queries, FlowFields, SIFT and NCCI indexing, XMLport and Excel import/export, number sequences and DataTransfer.",
-    "Events covers publishing, raising and subscribing, isolated events, and discovering events with Event Recorder, so you can extend behavior without changing the original code.",
-    "Developing APIs covers REST/OData v4 services built with API pages (read-write) and API queries (read-only).",
-    "Background processing covers the job queue, page background tasks and the task scheduler, with limits for background and child sessions.",
-    "Security covers permission sets, entitlements, Azure Key Vault, Isolated Storage and the SecretText data type."
+    "Developing reports covers Word, Excel and RDL layouts, request pages, report extensions, substitution and obsoleting.",
+    "Events covers publishing, raising and subscribing, isolated events and the Event Recorder.",
+    "Handling security covers permission sets, entitlements, Azure Key Vault secrets, Isolated Storage and SecretText.",
+    "Running things in the background covers the job queue, page background tasks and the task scheduler, with session limits."
   ],
   "members_used": 1,
   "subtopics_used": 14,
   "prompt_version": 1,
-  "at": "2026-10-07T21:13:11.897Z",
+  "at": "2026-10-18T00:56:35.668Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": true,
-    "cost_usd": null
+    "cached": false,
+    "cost_usd": 0.017893
   },
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-07T21:13:11.931Z",
+    "at": "2026-10-18T00:56:54.349Z",
     "verdict": "approve",
     "issues": [
-      "Minor: the summary lists operators among the hub's language fundamentals; operators come from the Program building blocks subtopic, not the Programming in AL page itself. The overview and key points attribute them correctly, so this is acceptable."
+      "Language elements (78 pages) and Calling external services have no summaries; the narrative correctly only names them, but agents get little guidance for those areas.",
+      "'Session limits' in the background key point loosely stands for limits on background sessions, child sessions and scheduled tasks; it is acceptable."
     ],
-    "input_hash": "10afee71912b6b8b8085f3afaccde5832fac8d959c9e8fd62d840c89a777f6fe",
-    "cost_usd": null
+    "input_hash": "d4c9ceb11ffe6aa0ef5f466ca5d160920e95748c2e906fb11312a53e75a3bebb",
+    "cost_usd": 0.042241799999999996
   }
 }

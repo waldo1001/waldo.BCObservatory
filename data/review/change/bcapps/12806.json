@@ -1,0 +1,24 @@
+{
+  "item_id": "change/bcapps-prs/12806",
+  "input_hash": "23fa1bfe40a0ea091435d56fc62bdfc21888ddc2f4672d5e343d179e289cf861",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:14.136Z",
+  "issues": [
+    "The description contradicts itself: the root cause names automatic reservation and the solution says manual reservation. The summary and key points each pick a different one.",
+    "The source quote is not orphaned. It is left in place next to a partial order, so 'orphaned quote records' misstates the problem.",
+    "'Comprehensive test coverage for interruption scenarios' goes beyond what is given. The PR only shows test additions in ERMSalesQuotes."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020209,
+    "changes_in_call": 6
+  }
+}

@@ -2,7 +2,7 @@
   "inputs": [
     7,
     [
-      "d6dc01d0b49fd1b899d173b7c7b5876ea5927b6b",
+      "65a16a3c89419a65540b89dfc4f0e3f585c552a8",
       "4",
       9416,
       null,
@@ -102094,6 +102094,13 @@
       },
       "OnBeforeReleaseGenJrnlLine": {
         "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      }
+    },
+    "codeunit/2500": {
+      "OnCanManageExtensions": {
+        "kind": "internal",
         "obsolete": null,
         "subs": []
       }
@@ -238629,7 +238636,7 @@
     "unresolved_clipped": 111,
     "subscribes": 3279,
     "edges": 14716,
-    "published_events": 24541,
+    "published_events": 24542,
     "dead_events": 21934
   }
 }

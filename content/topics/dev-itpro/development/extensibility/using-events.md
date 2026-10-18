@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - post/aardvarklabs-blog/3704
     - post/gerardorenteria-blog/15143
     - post/jpearson-blog/1419
+    - post/waldo-be/317951
   guidelines: []
   changes:
     - change/bcapps/10156
@@ -119,6 +120,7 @@ links:
     - change/bcapps/10235
     - change/bcapps/10487
     - change/bcapps/10488
+    - change/bcapps/11580
     - change/bcapps/11664
     - change/bcapps/8771
     - change/bcapps/9067
@@ -142,7 +144,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -197,6 +199,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../changes/bcapps/10235.md) (code change): "Provides extensibility hook via OnAfterCheckSubscriptionLineStartDateChangeAllowed event"
 - [#10487 Add integration event before inserting the cost allocation journal line](../../../../changes/bcapps/10487.md) (code change): "New integration event OnWriteJournalLineOnBeforeInsertTempCostJournalLine added to Cost Allocation report"
 - [#10488 Add integration event before inserting the outgoing IC sales line buffer](../../../../changes/bcapps/10488.md) (code change): "New event OnPostICSalesLineToICPartnerInboxOnBeforeBufferICInboxSalesLineInsert fires per sales line"
+- [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "Enables extensions to define custom rejection states. Preserves default open document behavior"
 - [#11664 Add OnBefore event for approval insertion checks](../../../../changes/bcapps/11664.md) (code change): "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks"
 - [#8771 Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl](../../../../changes/bcapps/8771.md) (code change): "Adds an OnBeforeFilterRemovedSourceRecords integration event with an IsHandled guard"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
@@ -212,6 +215,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
 - [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"
 - [Another Look at App Integration in Business Central – Part 2](../../../../posts/jpearson-blog/1419.md) (community post): "App Integration codeunit uses a dictionary to store and manage implementations of interfaces from different apps"
+- [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system while keeping them"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

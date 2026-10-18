@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -44,6 +44,9 @@ links:
     - video/KbXzMR4n4h8
   posts:
     - post/aardvarklabs-blog/3998
+    - post/aardvarklabs-blog/4023
+    - post/duiliotacconi-com/1748
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
   guidelines: []
   changes:
     - change/bcapps/11319
@@ -59,7 +62,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 1
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: edd07398767903bf2fc94f34ef0b09ff192bc35ad817a8916f5df292c1ac4ce0
@@ -84,6 +87,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11319 [MCP] Allow setting default configuration from card](../../../../changes/bcapps/11319.md) (code change): "Allow setting default configuration from card"
 - [#9569 Enforce permissions when reviewing orphaned extension data](../../../../changes/bcapps/9569.md) (code change): "Permission checks now consistently apply when marking orphaned extension data"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "automating extension management in Business Central using the Administration API, including deploying .app files"
+- [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "deploys Business Central extensions to production by sorting them by dependencies"
+- [Cloud Customer Management System (CCMS): to avoid reinventing the wheel](../../../../posts/duiliotacconi-com/1748.md) (community post): "installed apps and available updates, telemetry, capacity and feature management"
+- [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "schedule PTE extension updates from the Business Central Admin Centre"
 - [What's New: Commerce Capabilities of Business Central Apps (2024 release wave 1)](../../../../videos/KbXzMR4n4h8.md) (video): "app monetization; appsource; isv licensing; entitlements; licensing; permissions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

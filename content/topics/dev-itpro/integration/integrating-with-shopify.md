@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -85,7 +85,6 @@ links:
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
-    - video/QGIr_XPp8lk
   posts: []
   guidelines: []
   changes:
@@ -136,7 +135,7 @@ children: []
 coverage:
   learn: 4
   code: 16
-  video: 12
+  video: 11
   blog: 0
   guideline: 0
 bc_forms:
@@ -245,7 +244,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility model"
 - [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
 - [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; Logging Mode Option"
-- [What's New: Extending E-Documents with New Interface (2025 release wave 1)](../../../videos/QGIr_XPp8lk.md) (video): "Extending E-Documents with New Interface; connector development; document actions"
 
 ## Business Central pages and reports
 

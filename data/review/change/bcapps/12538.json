@@ -1,0 +1,25 @@
+{
+  "item_id": "change/bcapps-prs/12538",
+  "input_hash": "f2ba38cfb4fd0b0fab493ec49f9d74ed0e5c320e1bd07d2635abac4ed1f22258",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:12.265Z",
+  "issues": [
+    "The PR description is an empty template. The claim that the migration period has ended is not supported by anything given.",
+    "The key point that only restates the work item ID adds nothing and was replaced.",
+    "Removing CLEAN27-guarded code for the setup fields, the page controls and the test library helpers means extensions that still use them would stop compiling, so breaking is set to true."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "breaking true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.0476,
+    "changes_in_call": 2
+  }
+}

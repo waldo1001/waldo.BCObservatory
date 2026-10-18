@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices
 type: topic
 title: Rules, guidelines, and best practices
-summary: "Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation."
+summary: "Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods, and symbols, how to deprecate external business events, and a best practices subtopic on coding, testing, security, performance, and Marketplace validation."
 tier: official
 language: en
 system: development
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:17:29.632Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 14d9a2d160f457bd5b6c0b4062ac6e0f17c2112b4cdc6f8bf73d2fbbbf2d11a9
+  input_hash: 5e7fb1685fafbfd7f9a5c55cd6c5aaceb6188977b5dbef07a08c0d660c5b8d5f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -165,8 +165,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10878
-    - change/bcapps/11036
     - change/bcapps/9865
     - change/bcapps/9905
     - change/bcquality/146
@@ -193,27 +191,27 @@ narrative: generated
 
 # Rules, guidelines, and best practices
 
-> Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods and symbols, how to deprecate external business events, and a Best practices subtopic on AL conventions, testing, performance, security, telemetry and Marketplace preparation.
+> Rules, guidelines, and best practices for Business Central extension development: how to obsolete AL objects, methods, and symbols, how to deprecate external business events, and a best practices subtopic on coding, testing, security, performance, and Marketplace validation.
 
-Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative reviewed (checked by Opus)
+Path: [Development](../development.md) > Rules, guidelines, and best practices · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects the rules developers follow when building and maintaining Business Central extensions. Two pages sit directly in the hub and deal with lifecycle changes. One covers marking AL objects, methods and symbols as obsolete. The other covers deprecating external business events so that integrations are informed and move to replacement events.
+This section collects the rules developers follow when building and maintaining Business Central extensions. Two pages deal with lifecycle changes: how to mark AL objects, methods, and symbols as obsolete, and how to deprecate external business events so integrations can move to replacements.
 
-The Best practices subtopic (17 pages) covers the wider craft: AL code conventions and restrictions, testing, performance, security, telemetry, connectivity app requirements and documenting user scenarios. It also helps with preparing an extension for Marketplace validation.
+The Best practices subtopic (17 pages) covers the wider craft: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It also helps prepare an extension for Marketplace validation.
 
-Start with the obsolete AL page if you need to retire code in an extension. Use the external business events page if the change affects outside integrations. Go to Best practices for general questions on writing, testing, securing and publishing extensions.
+Start with Best practices for general guidance on writing and shipping an extension. Use the obsolete and deprecation pages when you need to remove or replace something that other code or external systems may depend on.
 
 ## Key points
 
-- Obsoleting in AL uses the ObsoleteState, ObsoleteReason and ObsoleteTag properties or the [Obsolete] attribute.
-- Analyzer rules enforce obsoletion, and preprocessor directives are part of the obsoletion guidance.
+- Obsoleting in AL uses the ObsoleteState, ObsoleteReason, and ObsoleteTag properties, or the [Obsolete] attribute.
+- Analyzer rules enforce obsolete handling, and preprocessor directives are part of the obsoleting guidance.
 - External business events are deprecated by first marking them obsolete pending, then removing them in a future version.
-- Deprecating an external business event involves the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix and event versioning. The page references version 27.0.
-- The deprecation process is meant to keep external integrations informed and moving to replacement events.
-- Best practices (17 pages) covers AL code conventions, restrictions, testing, performance, security and telemetry.
-- Best practices also covers connectivity app requirements, user scenario documentation and preparing for Marketplace validation.
+- Deprecating an external business event involves the Obsolete and ExternalBusinessEvent attributes, a DisplayName prefix, and event versioning (listed for version 27.0).
+- The goal of deprecation is that external integrations are informed and can move to replacement events.
+- The Best practices subtopic covers AL code conventions, restrictions, testing, performance, and security.
+- It also covers telemetry, connectivity app requirements, and user scenario documentation for Marketplace validation.
 
 ## Subtopics
 
@@ -228,8 +226,6 @@ Start with the obsolete AL page if you need to retire code in an extension. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10878 Ruleset hardening: promote five low-risk rules to Error](../../../changes/bcapps/10878.md) (code change): "Ruleset hardening: promote five low-risk rules to Error"
-- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../changes/bcapps/11036.md) (code change): "Pragmas are narrowly scoped to actual violations found in analyzer diagnostics"
 - [#9865 [Main] - 'Greater Than' Withholding Tax Calculation Rule is not app…](../../../changes/bcapps/9865.md) (code change): "The withholding tax calculation now respects the configured calculation rule"
 - [#9905 [Bug][SubscriptionBilling] Contract lines of type G/L Account never post to the selected G/L account](../../../changes/bcapps/9905.md) (code change): "Contract lines of type G/L Account now post to the G/L account specified on the line"
 - [#146 knowledge: three false-positive guards from BCApps PR 10277, 10278 and 10346](../../../changes/bcquality/146.md) (code change): "AppSource affix requirement now correctly scoped to apps with AppSourceCop enabled"

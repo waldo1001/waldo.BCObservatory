@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:15.797Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,8 @@ links:
     - topic/dev-itpro/development/extension-lifecycle
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/waldo-be/317951
   guidelines: []
   changes:
     - change/bcapps/10341
@@ -67,7 +68,7 @@ coverage:
   learn: 3
   code: 0
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 9083582aa30905f2ff5abe6e301e6444474a2b6a405b4ba6c11f646d27f97ed1
@@ -109,5 +110,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10341 Remove Anthropic privacy notice from Expense Agent](../../../../changes/bcapps/10341.md) (code change): "Anthropic privacy notice components are removed from Expense Agent"
 - [#12066 Bugs/remove asm inv mfg clean27 tags for wave2 2026](../../../../changes/bcapps/12066.md) (code change): "Removes the obsolete code that was kept under CLEAN27 conditional compilation"
 - [#9572 Obsolete E-Document Purchase Order Matching Copilot](../../../../changes/bcapps/9572.md) (code change): "Five Copilot-specific objects are marked ObsoleteState = Pending"
+- [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "apps to compile across versions but potentially failing at runtime"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

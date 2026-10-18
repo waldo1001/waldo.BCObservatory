@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -84,10 +84,12 @@ links:
     - video/JI5KlMxrtoA
     - video/tMqCSibSRug
   posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
+    - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
     - post/vondervoort-be/130
     - post/vondervoort-be/147
-    - post/vondervoort-be/24
   guidelines: []
   changes:
     - change/al-go/2257
@@ -99,8 +101,10 @@ links:
     - change/al-go/2342
     - change/bcapps/10086
     - change/bcapps/10251
-    - change/bcapps/10514
     - change/bcapps/10516
+    - change/bcapps/10559
+    - change/bcapps/10878
+    - change/bcapps/11036
     - change/bcapps/11160
     - change/bcapps/11682
     - change/bcquality/109
@@ -129,7 +133,7 @@ coverage:
   learn: 7
   code: 0
   video: 2
-  blog: 4
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -165,9 +169,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Prevents AL1153 compiler errors from runtime version mismatches"
 - [#10086 Make AA0194 an error in the base ruleset](../../../../changes/bcapps/10086.md) (code change): "Make AA0194 an error in the base ruleset"
 - [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "Five analyzer rules were promoted back to Error by removing their overrides"
-- [#10514 Ruleset hardening: promote AS0022, AA0087, AW0003, AA0203, AL0717 to Error](../../../../changes/bcapps/10514.md) (code change): "Five AL analyzer rules moved back to Error severity in the ruleset hierarchy"
 - [#10516 Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error](../../../../changes/bcapps/10516.md) (code change): "Six AL compiler rules are promoted from Warning to Error severity"
-- [#11160 Ruleset hardening: promote three mechanical rules to Error](../../../../changes/bcapps/11160.md) (code change): "promote three mechanical rules to Error. The BCApps base ruleset now treats"
+- [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../changes/bcapps/10559.md) (code change): "Ruleset hardening: promote AL0659 and AL0685 to Error"
+- [#10878 Ruleset hardening: promote five low-risk rules to Error](../../../../changes/bcapps/10878.md) (code change): "Ruleset hardening: promote five low-risk rules to Error"
+- [#11036 Ruleset hardening: promote four compatibility rules to Error](../../../../changes/bcapps/11036.md) (code change): "Ruleset hardening: promote four compatibility rules to Error"
+- [#11160 Ruleset hardening: promote three mechanical rules to Error](../../../../changes/bcapps/11160.md) (code change): "Ruleset hardening: promote three mechanical rules to Error"
 - [#11682 [Expense Agent] Remove migration TODO and analyzer suppressions](../../../../changes/bcapps/11682.md) (code change): "Code validated with BCApps ruleset and analyzers"
 - [#109 style-review: calibrate variable-declaration order (AA0021) to info](../../../../changes/bcquality/109.md) (code change): "variable-declaration-order rule (AA0021) severity is calibrated down from minor to info level"
 - [#110 review: stop reference-less agent findings in privacy and UI/accessibility leaves](../../../../changes/bcquality/110.md) (code change): "review skills now report only findings backed by a BCQuality knowledge file"
@@ -184,10 +190,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#180 Normalize recoverable leaf finding ranges](../../../../changes/bcquality/180.md) (code change): "Normalize recoverable leaf finding ranges. Review findings whose primary line"
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label on every finding"
+- [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "The compiler warns when a BigInteger field is narrowed to Integer"
+- [Business Central 29: How Many Fields Can a Table Really Have?](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md) (community post): "The new BC 29 compiler warning signals when tables approach SQL extensibility limits"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"
+- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs"
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
-- [Rethinking LinterCop: Preparing for the Next Chapter](../../../../posts/vondervoort-be/24.md) (community post): "LinterCop, a code analyzer for AL, faces architectural limitations"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "Code quality; static analysis; al cops; Default Analyzers Configuration"
 - [ALCops: LinterCop's Successor for Business Central AL Code Analysis (feat Arthur van de Vondervoort)](../../../../videos/tMqCSibSRug.md) (video): "ALCops; lintercop; code analysis; code cops; al language"
 

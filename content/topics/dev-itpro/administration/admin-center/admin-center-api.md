@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -149,6 +149,7 @@ links:
   posts:
     - post/aardvarklabs-blog/3950
     - post/aardvarklabs-blog/4023
+    - post/gerardorenteria-blog/11003
   guidelines: []
 learn_toc_path:
   - Administration
@@ -161,7 +162,7 @@ coverage:
   learn: 15
   code: 0
   video: 1
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -196,8 +197,9 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management tasks"
-- [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "PowerShell automation script that deploys Business Central extensions to production by sorting them by dependencies"
-- [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; admin center api; manageable tenants; s2s authentication"
+- [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management"
+- [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "monitoring installation status through the Admin API"
+- [LLM’s training cut-off dates 👀MCP Server Context7 to the rescue. 🤖](../../../../posts/gerardorenteria-blog/11003.md) (community post): "Business Central Admin Center API for listing dependent apps to uninstall"
+- [Introducing: Tenant Discovery Endpoint (2025 release wave 1)](../../../../videos/669rJN75L2g.md) (video): "Tenant Discovery Endpoint; Manageable Tenants API; S2S App Authentication for Admin Center"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

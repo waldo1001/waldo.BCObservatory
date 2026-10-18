@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:05.029Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -117,8 +117,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10029
-    - change/bcapps/10631
-    - change/bcapps/10755
     - change/bcapps/10799
     - change/bcapps/11483
     - change/bcapps/9578
@@ -200,8 +198,6 @@ Day-to-day use is split into sales and purchase pages. Sales covers creating and
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10029 [Main]-Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message You cannot insert a purchase line without a purchase header in German localisation](../../../../changes/bcapps/10029.md) (code change): "Import of e-documents with format ZUGfERD & XRECHNUNG fail with error message"
-- [#10631 Integration/main to releases 29.x 31a860b5](../../../../changes/bcapps/10631.md) (code change): "enhancements to e-document processing, expense report policy evaluations"
-- [#10755 Migrate Http Web Request Mgt. callers to native HttpClient](../../../../changes/bcapps/10755.md) (code change): "OData metadata download and the Microsoft 365 E-Document GraphClient"
 - [#10799 Remove OnPrem scope from Table 1226 "Payment Export Data".SetSwissExport](../../../../changes/bcapps/10799.md) (code change): "Payment Export Data table is now callable from Cloud extensions"
 - [#11483 [E-Documents Core] - Linkage & Traceability](../../../../changes/bcapps/11483.md) (code change): "E-Documents module now provides linkage and traceability by adding lookup functions"
 - [#9578 [E-Documents Core] - Enabling remittance advice export via E-Documents (payment journal + posted payments)](../../../../changes/bcapps/9578.md) (code change): "E-Documents now supports exporting remittance advice from payment journals and posted vendor payments"
@@ -213,7 +209,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new in E-Documents: Overview (2026 release wave 2)](../../../../videos/07G7aC14Y_w.md) (video): "E-Documents; EDI; purchase order; sales order; xml"
 - [What's New: E-Documents Connectors (2025 release wave 1)](../../../../videos/GM0DNxu39LM.md) (video): "E-Documents Connectors; connectors; electronic invoicing; integration setup"
 - [What's New: E-Documents ZUGFeRD Format (2025 release wave 2)](../../../../videos/gVjrKPHlrgM.md) (video): "E-Documents ZUGFeRD Format; zugferd; pdf-a3; germany; invoicing"
-- [What's New: E-Documents and Clearance Model (2025 release wave 2)](../../../../videos/h6a8BVzvuZ4.md) (video): "clearance model; e-documents; regulatory compliance; e-invoicing; workflow"
+- [What's New: E-Documents and Clearance Model (2025 release wave 2)](../../../../videos/h6a8BVzvuZ4.md) (video): "Clearance model for e-documents; E-document workflow orchestration"
 - [What's New: E-Documents (2024 release wave 2)](../../../../videos/hba7KVWrIwY.md) (video): "e-documents; electronic invoicing; avalara; pagero; b2b; b2g; connectors"
 - [What's New: E-Documents Localizations (2025 release wave 1)](../../../../videos/hL4PUhjyhNY.md) (video): "e-documents; localizations; peppol; factura; ubl; pdf/a; electronic invoicing"
 

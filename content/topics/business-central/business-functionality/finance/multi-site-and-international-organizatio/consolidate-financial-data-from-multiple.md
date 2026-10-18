@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:33.097Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,7 +112,7 @@ Start with the overview page to understand the scenario and its capabilities. Th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Financial Management - Consolidation Improvements (2024 release wave 1)](../../../../../videos/gHcgL469x_E.md) (video): "consolidation; currency exchange rates; consolidation status; balance sheet revaluation; multi-subsidiary"
-- [What's New: Cross-Environment Consolidations (2023 release wave 2)](../../../../../videos/y_8xralhVMM.md) (video): "Cross-environment consolidation; Consolidation wizard; API endpoint configuration"
+- [What's New: Cross-Environment Consolidations (2023 release wave 2)](../../../../../videos/y_8xralhVMM.md) (video): "Cross-environment consolidation; Currency mapping in consolidation"
 
 ## Business Central pages and reports
 

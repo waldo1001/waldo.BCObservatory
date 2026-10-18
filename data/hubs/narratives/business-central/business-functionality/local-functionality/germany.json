@@ -1,38 +1,24 @@
 {
   "hub_id": "topic/business-central/business-functionality/local-functionality/germany",
-  "input_hash": "cb2cd35630d9e8616e906a7cf67a09625d43afa22b70dbf965d914152eae1b86",
-  "summary": "Germany local functionality in Business Central: VAT reporting (ELMA5, VAT-VIES), GoBD digital audit exports, e-invoicing (XRechnung, ZUGFeRD, Peppol BIS 3.0 DE), Intrastat, purchase delivery reminders, year-end currency adjustment and the vendor payments list report. It answers setup, submission and compliance questions for German companies.",
-  "overview": "The Germany section collects the local features that German companies need in Business Central. An overview page lists the main areas: VAT reporting and declarations, German e-invoicing formats, delivery reminders for purchases, digital audit data export with GoBD filtering, and Intrastat. It names 2026 release wave 2 and 2027 release wave 1 as versions.\n\nThe details sit in four subtopics. VAT covers creating and correcting VAT reports and declaring VAT-VIES. Core finance covers digital audit exports, electronic invoicing and Intrastat export and printing. Purchasing covers delivery reminders for late vendor deliveries. General covers year-end currency adjustment with BilMoG valuation, EU sales list submission to the BZSt portal, company registration numbers on reports and the G/L Setup Information report.\n\nOne further page describes the Print Vendor Payments List report, which also applies to the Austrian and Swiss versions. Start with the subtopic that matches your task: VAT for tax authority reports, Core finance for audits and e-invoices, Purchasing for vendor reminders.",
+  "input_hash": "99c1749e52b6cda43898d4a026dc15fbd5e680be3b0cf6e3dcaa410f3a40e0e3",
+  "summary": "Germany local functionality in Business Central: VAT reporting and ELSTER submissions, EU Sales List, Intrastat, digital audit exports, German e-invoicing, delivery reminders, and the Vendor Payments List report. It answers setup, submission, export and compliance questions for German companies.",
+  "overview": "This section collects the features Business Central adds for German companies. The landing page lists what is available: VAT reporting and declarations, Intrastat reports, delivery reminders, digital audit data exports, German electronic invoicing (xRechnung, ZUGFeRD, Peppol) and vendor payment reports. It also describes planned regulatory requirements for 2026 release wave 2 and 2027 release wave 1.\n\nThe subtopics split the work by area. VAT covers VAT reports, ELSTER advance notifications, VAT-VIES declarations, Intrastat setup and corrections. Core finance covers GoBD/GDPdU audit exports, e-invoicing and Intrastat. Purchasing covers delivery reminders to vendors. General covers BilMoG exchange rate adjustment, EU Sales List submission via ELMA5, registration numbers on reports and the G/L Setup Information report.\n\nStart with the Germany local functionality page for an overview and the planned requirements. Then go to the subtopic that matches your task. The Vendor Payments List report has its own page here. It is also available in Austria and Switzerland.",
   "key_points": [
-    "VAT: set up and create VAT reports with ELMA5 export, correct submitted reports, declare VAT-VIES, and configure VAT and Intrastat report selections.",
-    "Core finance: digital audit export (GoBD/GDPdU) and electronic invoicing in XRechnung, Peppol BIS 3.0 DE and ZUGFeRD formats.",
-    "Intrastat export and printing are covered in Core finance.",
-    "Purchasing: set up delivery reminder terms, levels and text, assign codes to vendors, generate or create reminders, print test reports and issue them.",
-    "General: year-end currency exchange rate adjustment with BilMoG valuation and EU sales list submission to the BZSt portal.",
-    "General also covers company registration numbers on reports and the G/L Setup Information report.",
-    "The Print Vendor Payments List report (German, Austrian, Swiss versions) sorts by vendor or chronologically, with layouts for standard, FCY amounts or posting information.",
-    "The overview page references 2026 release wave 2 and 2027 release wave 1."
+    "The landing page lists VAT reporting, Intrastat, delivery reminders, digital audit exports, e-invoicing and vendor payment reports, and mentions planned requirements for 2026 release wave 2 and 2027 release wave 1.",
+    "VAT: set up and create VAT reports, send sales VAT advance notifications to ELSTER, file VAT-VIES declarations for the EU Sales List, and correct submitted reports.",
+    "Core finance: digital audit exports (GoBD/GDPdU) and electronic invoicing in XRechnung, Peppol BIS 3 and ZUGFeRD formats.",
+    "Intrastat reporting for German authorities is covered in both the VAT and Core finance subtopics.",
+    "Purchasing: delivery reminders for overdue deliveries, including reminder terms, levels, text and vendor codes, and generating, reviewing and issuing reminders.",
+    "General: currency exchange rate adjustment under BilMoG, EU Sales List submission to BZSt via ELMA5, registration numbers on reports, and the G/L Setup Information report.",
+    "The Vendor Payments List report can be sorted by vendor or chronologically. It has standard, foreign currency amounts and posting information layouts, and shows payment status. It is available in Austria, Germany and Switzerland."
   ],
   "members_used": 2,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:08:43.006Z",
+  "at": "2026-10-18T00:56:11.900Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.014506999999999999
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:16:19.698Z",
-    "verdict": "approve",
-    "issues": [
-      "Small gap: the overview page also lists sales VAT advance notifications, which the narrative leaves out.",
-      "Small gap: the routing advice at the end of the overview does not say when to use the General subtopic (year-end currency adjustment, EU sales list, registration numbers, G/L Setup Information).",
-      "Small point: the key point about release wave versions doesn't add much for agents, though the source supports it."
-    ],
-    "input_hash": "cb2cd35630d9e8616e906a7cf67a09625d43afa22b70dbf965d914152eae1b86",
-    "cost_usd": 0.0305992
+    "cost_usd": 0.015212999999999999
   }
 }

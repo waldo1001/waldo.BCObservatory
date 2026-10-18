@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-15T01:08:34.842Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -307,7 +307,8 @@ links:
   localizations: []
   videos:
     - video/iHgaNJucyvI
-  posts: []
+  posts:
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
   guidelines: []
 learn_toc_path:
   - Development and administration
@@ -320,7 +321,7 @@ coverage:
   learn: 30
   code: 65
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -488,6 +489,7 @@ The subtopic "Customize with extensions" (26 pages) covers installing, uninstall
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 
 ## Business Central pages and reports

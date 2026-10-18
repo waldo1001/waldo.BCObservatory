@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,6 +99,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/2202
     - post/demiliani-com/12267
     - post/duiliotacconi-com/1850
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
@@ -126,7 +127,7 @@ coverage:
   learn: 9
   code: 0
   video: 0
-  blog: 3
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 1242a3f477119c1dd5c8b2c5e078f53fa12519072c5f7804aaef3189aae77595
@@ -184,6 +185,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
+- [Step by Step Guide to Importing Excel Data into Business Central](../../../../../posts/aardvarklabs-blog/2202.md) (community post): "validating the data, and then creating actual business records"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Rec.Truncate is a new AL method based on SQL Server TRUNCATE"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12809",
+  "input_hash": "54b0d278cb20506b5d16b7368781ce5b7e5bb97193dd052195904ca68da5c485",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-18T00:55:29.182Z",
+  "issues": [
+    "'Applied to all localization layers' is unsupported: 11 layers changed, and layers such as AT and BE are not among them.",
+    "'During the same session' is not stated; the bug title says the change carried over after navigation."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.020217,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:53.709Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-18T00:56:54.350Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -68,6 +68,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/11580
 learn_toc_path:
   - Development
   - Extensibility
@@ -118,5 +120,11 @@ Start with "Create an extensibility request" and "Types of events for extensibil
 - [Minimum requirements for new IsHandled events](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-min-req): Provides the minimum information that must accompany a request for adding a new IsHandled event.
 - [Types of events for extensibility](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/types-of-events-for-extensibility): This article describes various types of events for extensibility.
 - [Using the IsHandled pattern](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-use-ishandled-pattern): This article describes how, and when, to use the popular IsHandled pattern for events.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "customize document rejection response. Workflow Setup now offers an overloaded method"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
