@@ -6,9 +6,27 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { sha256 } from "../../pipeline/lib/text.js";
-import { LEARN_BASE, kindOfType, learnShard, majorsText, pageRecord, pathLabel, plainLearn, renderSearchIndex } from "../../pipeline/render/search.js";
+import { LEARN_BASE, kindOfType, learnShard, majorsText, pageRecord, pathLabel, plainLearn, renderSearchIndex, weekStart } from "../../pipeline/render/search.js";
+import { isoWeek } from "../../pipeline/render/digest.js";
 import { learnRecords, pageToRecord, type LearnShard } from "@bc-observatory/search";
 import type { ManifestItem } from "../../pipeline/lib/manifest.js";
+
+test("D101: weekStart is the Monday of an ISO week, null for anything else; a digest is dated by it", () => {
+  assert.equal(weekStart("2026-W41"), "2026-10-05");
+  assert.equal(weekStart("2026-W43"), "2026-10-19");
+  assert.equal(weekStart("2026-W01"), "2025-12-29");
+  assert.equal(weekStart("2020-W53"), "2020-12-28");
+  for (const bad of ["2026-10", "2026-W54", "x"]) assert.equal(weekStart(bad), null, bad);
+  for (let d = new Date(Date.UTC(2026, 0, 5)); d.getUTCFullYear() === 2026; d = new Date(d.getTime() + 7 * 86_400_000)) {
+    const w = isoWeek(d);
+    assert.equal(weekStart(w.id), w.start, w.id);
+  }
+  const fm = { type: "digest", title: "t", summary: "s", tier: "mixed" };
+  assert.equal(pageRecord("digests/2026-W41", { ...fm, week: "2026-W41" }).date, "2026-10-05");
+  assert.equal(pageRecord("digests/x", fm).date, undefined);
+  assert.equal(pageRecord("posts/a/1", { ...fm, type: "post", week: "2026-W41", published_at: "2026-03-02T10:00:00Z" }).date, "2026-03-02");
+  assert.equal(pageRecord("posts/a/2", { ...fm, type: "post", week: "2026-W41" }).date, undefined);
+});
 
 test("a hub's record says where it sits, how big it is and whether its narrative was reviewed (D65 5.1)", () => {
   const r = pageRecord("topics/business-central/business-functionality/sales/subscription-billing", {
