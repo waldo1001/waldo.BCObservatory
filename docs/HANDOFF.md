@@ -24,6 +24,15 @@ the 4,588 articles without a hub keep a title to Learn, marked ↗. Where to sta
 `site/src/scripts/learn-target-core.ts`. One phase, site only: nothing under `content/`, `data/` or `pipeline/`, so no
 derive; live with the Pages build of the merge. Until it lands, Learn titles open learn.microsoft.com (D94).
 
+**Tilt button, plane pick, tilted zoom, D99** (`docs/specs/galaxy-tilt-planes.md`, M37, issue #10). Status: proposed
+2026-10-19, nothing implemented. Tilt becomes one on/off button with the slide kept; a click on a plane's plate, name
+or pane heading picks that plane (accent outline, the other three dimmed, the pane lists only it), a second click shows
+all four; the tilted pane becomes four plane sections; nothing folds any more (the country and coverage lenses dim);
+the tilted view zooms and pans; core sample media rows get their titles. Where to start: section 6 task 1 (phase 1, the
+button and the media titles, ships alone), then the failing tests of section 5. Three phases, site only: nothing under
+`content/`, `data/` or `pipeline/`, so no derive; live with the Pages build of each merge. Until it lands: the tilt
+range, plane names that fold, no zoom while tilted, ids in core sample media rows.
+
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711

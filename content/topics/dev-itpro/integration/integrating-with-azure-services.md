@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-19T06:28:53.024Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,6 @@ links:
   posts:
     - post/demiliani-com/11817
     - post/demiliani-com/11887
-    - post/demiliani-com/13020
     - post/demiliani-com/17492
     - post/jpearson-blog/1485
     - post/jpearson-blog/1535
@@ -88,7 +87,7 @@ coverage:
   learn: 5
   code: 0
   video: 1
-  blog: 6
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 5f81750627e96a1b61a6b2522a5843d9ff2fca65b2e2e1fb45389ef056851762
@@ -134,7 +133,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central"
 - [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "Azure Function in Premium or Flex Plan acts as a middleware to route requests"
-- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter.](../../../posts/demiliani-com/13020.md) (community post): "Securing Azure Storage accounts accessed by Business Central using Network Security Perimeter"
 - [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "Administrators can restrict an Azure Storage Account to Business Central traffic"
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
