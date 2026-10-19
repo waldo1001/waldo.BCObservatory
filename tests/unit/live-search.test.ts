@@ -104,7 +104,7 @@ test("Learn articles: their own group after Start here, rows that open learn.mic
   assert.match(html, /<h2 class="section-title" id="sr-learn">Learn articles <small>1<\/small><\/h2>/);
   assert.match(html, /<a class="row-title" href="\/b\/topics\/dev-itpro\/configure\/#learn=dev-itpro\/developer\/devenv-security-settings-and-ip-protection">Resource exposure policy setting<\/a>/, "the title opens the hub at the article (D98)");
   assert.match(html, new RegExp(`<a class="sr-path mono-meta" href="${url}" aria-label="Development › Configure the development environment, on Microsoft Learn">Development › Configure the development environment<span aria-hidden="true"> ↗</span></a>`), "the label opens Learn");
-  const noHub = (path: string, title: string, label?: string) => resultsHtml(groupHits(rank(idx([row(path, "learn", title, "development", { summary: "x", ...(label ? { path_label: label } : {}) })]), title)), "/b/", "");
+  const noHub = (path: string, title: string, label?: string) => resultsHtml(groupHits(rank(idx([row(path, "learn", title, "development", { summary: "x", ...(label ? { path_label: label } : {}) })]), title.split(/\W+/).filter(Boolean)[0].toLowerCase())), "/b/", "");
   const fs = noHub("https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-findset-boolean-method", "Record.FindSet([Boolean]) Method", "AL reference › Methods");
   assert.match(fs, /<a class="row-title" href="https:\/\/learn\.microsoft\.com\/[^"]*record-findset-boolean-method" aria-label="Record\.FindSet\(\[Boolean\]\) Method, on Microsoft Learn">Record\.FindSet\(\[Boolean\]\) Method<span aria-hidden="true"> ↗<\/span><\/a>/);
   assert.match(fs, /<span class="sr-path mono-meta">AL reference › Methods<\/span>/);
