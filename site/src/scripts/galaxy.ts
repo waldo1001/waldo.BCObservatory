@@ -22,6 +22,8 @@
  *   planes load from graph/layers/<system>.json only when the reader tilts. The list per plane is its list view.
  *   D99: Tilt is an on/off button; a click on a plane's plate, name or pane heading picks it (the rest dims, the pane
  *   lists only it), a second click shows all four; nothing folds; wheel, pinch and -/+ zoom the tilted view, a drag pans.
+ *   D100: a search survives the tilt: every hit on the planes keeps its strength and an accent ring, the rest dims, and
+ *   every tilted list shows only the hits; a search typed while tilted stays tilted.
  * Camera: translate(vx - tx*s, vy - ty*s) scale(s), flown with the handoff's easing; a cut under reduced motion.
  */
 type Plot = [string, number, number, number, number, number];
@@ -39,7 +41,8 @@ type LandedChange = [string, string, string, string[], string, string, number, s
 interface Landed { anchor: string | null; days: number; items: [string, string, string, string[], string?, string?][]; changes?: LandedChange[] }
 interface Ego { id: string; nodes: Node[]; edges: Edge[] }
 type Level = 1 | 2 | 3;
-interface Lens { id: string; label: string; group: string; kind?: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; version?: string; exit?: { href: string; label: string } }
+/** hits (D100): a search's every hit id, stars or not, for the tilted planes; the star ids stay in lensSet. */
+interface Lens { id: string; label: string; group: string; kind?: string; match: (n: Node) => boolean; lines?: boolean; reach?: Record<string, number>; search?: string; stars?: Row[]; pages?: Row[]; total?: number; hits?: Set<string>; version?: string; exit?: { href: string; label: string } }
 
 /** What the header's live search needs from a mounted galaxy (live-search.ts). */
 export interface GalaxyApi {
@@ -58,7 +61,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
 import { groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
-import { applyZoom, bounds, coreSample, corners, DIM_PLANE, fullPlanes, inQuad, lerp, mediaSpot, norm, OBSOLETE, panBy, PLANE_LABEL, PLANES, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, zoomAt, type Bounds, type LayersFile, type Line, type Plane, type PlaneId, type PlaneRow, type Sample, type Thing, type Box as ZoomBox, type Zoom } from "./layers-core.js";
+import { applyZoom, bounds, coreSample, corners, DIM_MISS, DIM_PLANE, fullPlanes, hitMask, inQuad, isHit, lerp, markHit, mediaSpot, norm, OBSOLETE, panBy, PLANE_LABEL, PLANES, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, zoomAt, type Bounds, type HitMask, type LayersFile, type Line, type Plane, type PlaneId, type PlaneRow, type Sample, type Thing, type Box as ZoomBox, type Zoom } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
 import { versionRanges } from "../../../pipeline/lib/versions.js";
@@ -246,6 +249,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   // D99: a picked plane filters the pane and dims the other three; the tilted view zooms (tz) and pans once zoomed
   let picked: PlaneId | null = null, tz: Zoom = ZOOM_1, planeTab: PlaneId = "code", hoverThing: Thing | null = null;
   let planeRowsCache = new Map<PlaneId, PlaneRow[]>();
+  // D100: a search on the tilted planes, its hits per plane, recomputed when the system or the query changes
+  let maskCache: { key: string; m: HitMask } | null = null;
+  const searchMask = (): HitMask | null => {
+    if (!lens?.hits || !layers) return null;
+    const key = `${layers.system}\n${lens.search}`;
+    if (maskCache?.key !== key) maskCache = { key, m: hitMask(layers, lens.hits) };
+    return maskCache.m;
+  };
   const tiltTo = () => tiltAnim?.to ?? tilt;
   // level of detail (HANDOFF A section 8): the code plane is namespace plots with counts; one plot opens to its objects
   let layerBounds: Bounds | null = null, objPlot: number[] = [], openPlot = -1;
@@ -585,7 +596,16 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       if (th.plane === "code" || th.plane === "countries") return f.objects[th.i][6].split(" ").includes(country);
       return th.plane === "hubs" && f.objects.some((o) => o[6].split(" ").includes(country) && o[4].includes(th.i));
     };
-    const dim = (th: Thing) => (inSample(th) && lensMatch(th) ? 1 : 0.3);
+    // D100: a search stays lit: its hits keep their strength and the flat lens's accent ring, the rest draws at DIM_MISS;
+    // with a core sample open the sample decides the strength and the hits only keep their ring
+    const sm = searchMask();
+    const hitOf = (th: Thing) => !!sm && isHit(sm, th);
+    const missA = (hit: boolean) => (sm && !sample && !hit ? DIM_MISS : 1);
+    const dim = (th: Thing, hit = hitOf(th)) => (inSample(th) && lensMatch(th) ? 1 : 0.3) * missA(hit);
+    const ring = (p: { x: number; y: number }, r: number, a: number) => {
+      ctx.globalAlpha = 0.9 * a; ctx.strokeStyle = colors.accent; ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, Math.PI * 2); ctx.stroke();
+    };
     // lines between planes: the stars' at rest, a core sample's own, a country lens's replacements
     const lines: (Line & { lens?: boolean })[] = [];
     if (sample) {
@@ -600,7 +620,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       for (const l of lines) {
         const a = spotOf(l.from, planes), b = spotOf(l.to, planes);
         if (!a || !b) continue;
-        ctx.globalAlpha = lineK * (sample ? 0.95 : 0.55) * Math.max(fa(l.from.plane), fa(l.to.plane)); ctx.strokeStyle = l.lens ? colors.accent : plane.line; ctx.lineWidth = 1;
+        ctx.globalAlpha = lineK * (sample ? 0.95 : 0.55) * Math.max(fa(l.from.plane), fa(l.to.plane)) * missA(hitOf(l.from) || hitOf(l.to)); ctx.strokeStyle = l.lens ? colors.accent : plane.line; ctx.lineWidth = 1;
         ctx.setLineDash(l.kind === "mentions" ? [1, 5] : l.kind === "replaces" ? [6, 4] : []);
         line(a, b);
       }
@@ -612,9 +632,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     f.objects.forEach((o, i) => {
       if (!o[6]) return;
       const th: Thing = { plane: "countries", i, code: o[6].split(" ")[0] }, p = spotOf(th, planes)!, n = o[6].split(" ").length;
-      ctx.globalAlpha = k * dim(th) * 0.9 * fa("countries"); ctx.fillStyle = locCol;
+      const hit = !!sm && markHit(sm, f, i);
+      ctx.globalAlpha = k * dim(th, hit) * 0.9 * fa("countries"); ctx.fillStyle = locCol;
       const d = 1.5 + Math.min(4, Math.sqrt(n));
       ctx.beginPath(); ctx.moveTo(p.x, p.y - d); ctx.lineTo(p.x + d, p.y); ctx.lineTo(p.x, p.y + d); ctx.lineTo(p.x - d, p.y); ctx.closePath(); ctx.fill();
+      if (hit) ring(p, d + 4, k * fa("countries"));
     });
     // code plane, level of detail: a tile per namespace plot (fill = share named by a Learn page), the stars on top,
     // and the objects of the one open plot; every other object is a count, never a missing dot
@@ -623,21 +645,21 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       const codePlane = planes[PLANES.indexOf("code")];
       const onCode = (x: number, y: number) => { const n = norm(layerBounds!, x, y); return lerp(toScreen(x, y), applyZoom(tz, project(codePlane, n.u, n.v)), k); };
       const plots = focusSys!.plots ?? [];
-      const totals = plots.map(() => [0, 0]);
-      f.objects.forEach((o, i) => { const pi = objPlot[i]; if (pi >= 0) { totals[pi][0]++; if (o[3] > 0) totals[pi][1]++; } });
+      const totals = plots.map(() => [0, 0, 0]);
+      f.objects.forEach((o, i) => { const pi = objPlot[i]; if (pi >= 0) { totals[pi][0]++; if (o[3] > 0) totals[pi][1]++; if (sm?.code[i]) totals[pi][2]++; } });
       ctx.font = CANVAS_FONT.plot; ctx.textBaseline = "top";
       plots.forEach(([path, x, y, w, h], i) => {
         const q = [onCode(x, y), onCode(x + w, y), onCode(x + w, y + h), onCode(x, y + h)];
         drawnTiles.push({ i, q });
-        const [n, named] = totals[i], share = n ? named / n : 0;
-        const lensOn = tiltLens?.kind === "coverage";
-        ctx.globalAlpha = k * (lensOn ? 0.1 + 0.5 * (1 - share) : 0.1 + 0.45 * share) * (sample && ![...sample.s.objects].some((o) => objPlot[o] === i) ? 0.4 : 1) * fa("code");
+        const [n, named, hitsIn] = totals[i], share = n ? named / n : 0;
+        const lensOn = tiltLens?.kind === "coverage", miss = missA(hitsIn > 0);
+        ctx.globalAlpha = k * (lensOn ? 0.1 + 0.5 * (1 - share) : 0.1 + 0.45 * share) * (sample && ![...sample.s.objects].some((o) => objPlot[o] === i) ? 0.4 : 1) * fa("code") * miss;
         ctx.fillStyle = lensOn ? plane.noLineLens : sysCol;
         ctx.beginPath(); ctx.moveTo(q[0].x, q[0].y); for (const c of q.slice(1)) ctx.lineTo(c.x, c.y); ctx.closePath(); ctx.fill();
-        ctx.globalAlpha = k * fa("code"); ctx.strokeStyle = i === openPlot ? colors.accent : v("ly-divider") || plane.border; ctx.lineWidth = i === openPlot ? 1.5 : 1; ctx.stroke();
+        ctx.globalAlpha = k * fa("code") * miss; ctx.strokeStyle = i === openPlot ? colors.accent : v("ly-divider") || plane.border; ctx.lineWidth = i === openPlot ? 1.5 : 1; ctx.stroke();
         const tw = q[1].x - q[0].x;
         if (tw > 46 && q[3].y - q[0].y > 12 && k > 0.6) {
-          ctx.fillStyle = colors.plotLabel; ctx.globalAlpha = k * fa("code");
+          ctx.fillStyle = colors.plotLabel; ctx.globalAlpha = k * fa("code") * miss;
           const name = path.split(".").pop()!;
           ctx.fillText(`${short(name, Math.max(4, Math.floor(tw / 7) - 4))} ${n}`, q[0].x + 3, q[0].y + 2, tw - 6);
         }
@@ -645,9 +667,10 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     }
     f.objects.forEach((o, i) => {
       const th: Thing = { plane: "code", i }, p = spotOf(th, planes)!, star = (o[7] & STAR) !== 0;
-      const open = objPlot[i] === openPlot && openPlot >= 0, inS = sample?.s.objects.has(i);
-      if (!star && !open && !inS && k > 0.5) return;
-      const a = dim(th) * (star ? 1 : 0.85) * fa("code");
+      const open = objPlot[i] === openPlot && openPlot >= 0, inS = sample?.s.objects.has(i), hit = hitOf(th);
+      // D100: a search hit is drawn like a star, so the hits that are not stars show on the plane
+      if (!star && !open && !inS && !hit && k > 0.5) return;
+      const a = dim(th, hit) * (star ? 1 : 0.85) * fa("code");
       const d = star ? 6 : 3;
       ctx.globalAlpha = Math.max(a * (0.3 + 0.7 * k), star ? a : 0);
       if (!star && k < 0.05) return;
@@ -655,18 +678,21 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       if (tiltLens?.kind === "coverage" && noUp) { ctx.strokeStyle = plane.noLineLens; ctx.lineWidth = 2; ctx.strokeRect(p.x - d / 2 - 1, p.y - d / 2 - 1, d + 2, d + 2); }
       else if (noUp && !star) { ctx.strokeStyle = plane.noLine; ctx.lineWidth = 1; ctx.strokeRect(p.x - d / 2, p.y - d / 2, d, d); }
       else { ctx.fillStyle = (o[7] & OBSOLETE) && lens?.version ? colors.obsolete : sysCol; ctx.fillRect(p.x - d / 2, p.y - d / 2, d, d); }
+      if (hit) ring(p, d / 2 + 4, k * fa("code"));
       if (star || k > 0.5) keep(th, p);
     });
     // topic hubs and media
     f.hubs.forEach((h, i) => {
-      const th: Thing = { plane: "hubs", i }, p = spotOf(th, planes)!;
-      ctx.globalAlpha = dim(th) * fa("hubs"); ctx.fillStyle = sysCol; ctx.beginPath(); ctx.arc(p.x, p.y, 4, 0, Math.PI * 2); ctx.fill(); keep(th, p);
+      const th: Thing = { plane: "hubs", i }, p = spotOf(th, planes)!, hit = hitOf(th);
+      ctx.globalAlpha = dim(th, hit) * fa("hubs"); ctx.fillStyle = sysCol; ctx.beginPath(); ctx.arc(p.x, p.y, 4, 0, Math.PI * 2); ctx.fill(); keep(th, p);
+      if (hit) ring(p, 8, k * fa("hubs"));
     });
     f.media.forEach((m, i) => {
-      const th: Thing = { plane: "media", i }, p = spotOf(th, planes)!;
-      ctx.globalAlpha = dim(th) * k * fa("media"); ctx.fillStyle = landedMedia.has(m[0]) ? colors.mediaNew : colors.media; ctx.beginPath();
+      const th: Thing = { plane: "media", i }, p = spotOf(th, planes)!, hit = hitOf(th);
+      ctx.globalAlpha = dim(th, hit) * k * fa("media"); ctx.fillStyle = landedMedia.has(m[0]) ? colors.mediaNew : colors.media; ctx.beginPath();
       if (m[1] === "v") { ctx.moveTo(p.x, p.y - 4); ctx.lineTo(p.x + 4, p.y + 3); ctx.lineTo(p.x - 4, p.y + 3); ctx.closePath(); } else ctx.rect(p.x - 4, p.y - 1.5, 8, 3);
       ctx.fill(); keep(th, p);
+      if (hit) ring(p, 8, k * fa("media"));
     });
     // core sample: one vertical accent line through the focused thing, top plane to bottom plane, its counterparts ringed
     if (sample && k > 0.5) {
@@ -695,9 +721,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const f = layers!;
     planeLabels.hidden = tilt < 0.3;
     const counts: Record<PlaneId, number> = { media: f.media.length, hubs: f.hubs.length, code: f.objects.length, countries: Object.keys(f.countries).length };
-    if (planeLabels.dataset.sys !== f.system) {
-      planeLabels.dataset.sys = f.system;
-      planeLabels.innerHTML = PLANES.map((id) => `<button type="button" class="g-plane" data-plane="${id}" aria-pressed="false"><b>${PLANE_LABEL[id]}</b><small>${counts[id]} ${id === "countries" ? "countries" : id === "code" ? "objects" : id === "hubs" ? "hubs" : "videos and posts"}${counts[id] ? "" : ": none in this system"}</small></button>`).join("");
+    // D100: with a search on, the names count its hits ("10 of 164 match")
+    const sm = searchMask(), key = `${f.system}|${sm ? lens!.search : ""}`;
+    if (planeLabels.dataset.sys !== key) {
+      planeLabels.dataset.sys = key;
+      planeLabels.innerHTML = PLANES.map((id) => `<button type="button" class="g-plane" data-plane="${id}" aria-pressed="false"><b>${PLANE_LABEL[id]}</b><small>${sm ? `${sm.n[id]} of ${counts[id]} match` : `${counts[id]} ${id === "countries" ? "countries" : id === "code" ? "objects" : id === "hubs" ? "hubs" : "videos and posts"}${counts[id] ? "" : ": none in this system"}`}</small></button>`).join("");
       for (const b of planeLabels.querySelectorAll<HTMLButtonElement>("[data-plane]")) b.addEventListener("click", () => { const id = b.dataset.plane as PlaneId; pickPlane(picked === id ? null : id); });
     }
     const area = { x0: 8, x1: W - panelW() - 8, y0: top, y1: H - 8 };
@@ -932,12 +960,12 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const had = !!lens?.search;
     if (!h) { if (had) { lens = null; lensSet.clear(); lensLines = []; update(); } return; }
     const set = new Set(h.ids);
-    lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, stars: h.stars, pages: h.pages, total: h.total };
+    lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, stars: h.stars, pages: h.pages, total: h.total, hits: new Set(h.all) };
     lensSet = set; lensLines = [];
     if (!had && level > 1) { level = 1; focusSys = null; focusStar = null; update(); return; }
     // typing never moves the camera; the panel does not auto-open on narrow screens (the soft keyboard is up)
     if (!had) panelOpen = userPanel ?? !narrow();
-    renderPanel(); renderChrome(); setHash(); redraw();
+    renderPanel(); renderTable(); renderChrome(); setHash(); redraw();
   }
 
   // panel: the list of the current scope; hovering or focusing a row marks its star
@@ -1032,7 +1060,6 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   function tiltPanel(): string {
     const f = layers!;
     const thingBtn = (th: Thing, label: string, extra = "") => `<li><button type="button" data-thing="${th.plane}|${th.i}${th.code ? `|${esc(th.code)}` : ""}"><span class="g-dot${th.plane === "code" ? " sq" : ""}" style="--dot: var(--sys-${th.plane === "countries" ? "localization" : esc(f.system)})"></span><span>${esc(label)}</span><small>${extra}</small></button></li>`;
-    const undocumented = f.objects.filter((o) => o[3] === 0).length;
     if (sample) {
       const th = sample.thing, ss = sample.s;
       const posts = [...ss.media].some((m) => f.media[m][1] === "p");
@@ -1051,7 +1078,10 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         <h3>Countries <span class="g-n">${ss.countries.size}</span></h3>${ss.countries.size ? `<ul class="g-list">${[...ss.countries].sort().map((c) => `<li><a href="${esc(`${base}localizations/${c}/`)}"><span class="g-dot" style="--dot: var(--sys-localization)"></span><span>${esc(c.toUpperCase())}</span><small>replaces it</small></a></li>`).join("")}</ul>` : `<p class="g-meta">No country replaces it.</p>`}
         <p><button type="button" class="btn" data-unsample>Back to the planes</button></p>`;
     }
-    // D99: four plane sections, the core sample's layout; a pick shows one section with up to 60 rows
+    // D99: four plane sections, the core sample's layout; a pick shows one section with up to 60 rows.
+    // D100: with a search on, every list keeps only its hits and every heading counts "hits of all".
+    const sm = searchMask(), q = sm ? esc(`"${lens!.search}"`) : "", hitCode = (i: number) => !sm || sm.code[i];
+    const counts: Record<PlaneId, number> = { media: f.media.length, hubs: f.hubs.length, code: f.objects.length, countries: Object.keys(f.countries).length };
     const cap = picked ? 60 : 8, show = (id: PlaneId) => !picked || picked === id;
     const rowsOf = (id: PlaneId): PlaneRow[] => {
       let r = planeRowsCache.get(id);
@@ -1060,33 +1090,45 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
         r = planeOrder(planeRows(f, id, (h) => byId.get(h)?.label ?? h), id, lbl);
         planeRowsCache.set(id, r);
       }
-      return r;
+      return sm ? r.filter((x) => isHit(sm, x.thing)) : r;
     };
-    const head = (id: PlaneId, n: number) => `<h3><button type="button" class="g-planehead" data-pick="${id}" aria-pressed="${picked === id}" title="${picked === id ? "List every plane" : "List only this plane"}">${esc(PLANE_LABEL[id].replace(/^./, (c) => c.toUpperCase()))} <span class="g-n">${n}</span></button></h3>`;
+    const head = (id: PlaneId) => `<h3><button type="button" class="g-planehead" data-pick="${id}" aria-pressed="${picked === id}" title="${picked === id ? "List every plane" : "List only this plane"}">${esc(PLANE_LABEL[id].replace(/^./, (c) => c.toUpperCase()))} <span class="g-n">${sm ? `${sm.n[id]} of ${counts[id]}` : counts[id]}</span></button></h3>`;
     const more = (id: PlaneId, n: number) => (n > cap ? `<p class="g-meta"><button type="button" class="g-linkbtn" data-more="${id}">and ${n - cap} more in the list per plane</button></p>` : "");
-    const empty = (n: number) => (n ? "" : `<p class="g-meta">None in this system.</p>`);
-    const list = (id: PlaneId, html: (r: PlaneRow) => string) => { const rs = rowsOf(id); return `${empty(rs.length)}${rs.length ? `<ul class="g-list">${rs.slice(0, cap).map(html).join("")}</ul>` : ""}${more(id, rs.length)}`; };
-    const videos = f.media.filter((m) => m[1] === "v").length;
+    const empty = (id: PlaneId, n: number) => (n ? "" : `<p class="g-meta">${sm && counts[id] ? `No match for ${q} on this plane.` : "None in this system."}</p>`);
+    const list = (id: PlaneId, html: (r: PlaneRow) => string) => { const rs = rowsOf(id); return `${empty(id, rs.length)}${rs.length ? `<ul class="g-list">${rs.slice(0, cap).map(html).join("")}</ul>` : ""}${more(id, rs.length)}`; };
+    const media = f.media.filter((_m, i) => !sm || sm.media[i]), videos = media.filter((m) => m[1] === "v").length, posts = media.length - videos;
+    const named = f.objects.filter((o, i) => hitCode(i) && o[3] > 0).length;
     const country = tiltLens?.kind === "country" ? tiltLens.code : null;
-    const codeRows = tiltLens?.kind === "coverage" ? `<h4>No Learn page names them <span class="g-n">${undocumented}</span></h4><ul class="g-list">${f.objects.map((o, i) => [o, i] as const).filter(([o]) => o[3] === 0).sort(([a], [b]) => (b[7] & STAR) - (a[7] & STAR) || a[0].localeCompare(b[0], "en", { numeric: true })).slice(0, 60).map(([o, i]) => thingBtn({ plane: "code", i }, objectTitle(o[0]), (o[7] & STAR) ? "star" : "")).join("")}</ul>${undocumented > 60 ? `<p class="g-meta">and ${undocumented - 60} more in the list per plane</p>` : ""}<p><a class="btn" href="${base}coverage/">The coverage heatmap</a></p>`
+    const noLearn = f.objects.map((o, i) => [o, i] as const).filter(([o, i]) => o[3] === 0 && hitCode(i));
+    const codeRows = tiltLens?.kind === "coverage" ? `<h4>No Learn page names them <span class="g-n">${noLearn.length}</span></h4><ul class="g-list">${noLearn.sort(([a], [b]) => (b[7] & STAR) - (a[7] & STAR) || a[0].localeCompare(b[0], "en", { numeric: true })).slice(0, 60).map(([o, i]) => thingBtn({ plane: "code", i }, objectTitle(o[0]), (o[7] & STAR) ? "star" : "")).join("")}</ul>${noLearn.length > 60 ? `<p class="g-meta">and ${noLearn.length - 60} more in the list per plane</p>` : ""}<p><a class="btn" href="${base}coverage/">The coverage heatmap</a></p>`
       : list("code", (r) => thingBtn(r.thing, objectTitle(r.label), (r.flags ?? 0) & STAR ? "star" : `${f.objects[r.thing.i][3]} Learn`));
-    const countryRows = country ? (() => { const rows = f.objects.map((o, i) => [o, i] as const).filter(([o]) => o[6].split(" ").includes(country)); return `<h4>Replaced by ${esc(country.toUpperCase())} <span class="g-n">${rows.length}</span></h4><ul class="g-list">${rows.slice(0, 60).map(([o, i]) => thingBtn({ plane: "code", i }, objectTitle(o[0]))).join("")}</ul><p><a class="btn" href="${base}localizations/${esc(country)}/">Country diff for ${esc(country.toUpperCase())}</a></p>`; })() : list("countries", (r) => thingBtn(r.thing, r.label, `replaces ${r.cols.code ?? 0}`));
-    const plots = (focusSys?.plots ?? []).map((pl, i) => [pl, i] as const).sort(([a], [b]) => b[5] - a[5]).slice(0, picked ? undefined : 12);
-    const plotRows = plots.map(([pl, i]) => { const n = objPlot.filter((x) => x === i).length, named = f.objects.filter((o, j) => objPlot[j] === i && o[3] > 0).length; return `<li><button type="button" data-plot="${i}" aria-pressed="${i === openPlot}"><span class="g-dot sq" style="--dot: var(--sys-${esc(f.system)})"></span><span>${esc(pl[0])}</span><small>${n} · ${named} on Learn</small></button></li>`; }).join("");
+    const countryRows = country ? (() => { const rows = f.objects.map((o, i) => [o, i] as const).filter(([o, i]) => o[6].split(" ").includes(country) && hitCode(i)); return `<h4>Replaced by ${esc(country.toUpperCase())} <span class="g-n">${rows.length}</span></h4><ul class="g-list">${rows.slice(0, 60).map(([o, i]) => thingBtn({ plane: "code", i }, objectTitle(o[0]))).join("")}</ul><p><a class="btn" href="${base}localizations/${esc(country)}/">Country diff for ${esc(country.toUpperCase())}</a></p>`; })() : list("countries", (r) => thingBtn(r.thing, r.label, `replaces ${r.cols.code ?? 0}`));
+    // plots: with a search on, only those holding a hit, most hits first
+    const plotHits = new Map<number, number>();
+    if (sm) objPlot.forEach((pi, j) => { if (pi >= 0 && sm.code[j]) plotHits.set(pi, (plotHits.get(pi) ?? 0) + 1); });
+    const allPlots = (focusSys?.plots ?? []).map((pl, i) => [pl, i] as const);
+    const plots = (sm ? allPlots.filter(([, i]) => plotHits.has(i)).sort(([a, i], [b, j]) => plotHits.get(j)! - plotHits.get(i)! || b[5] - a[5]) : allPlots.sort(([a], [b]) => b[5] - a[5])).slice(0, picked ? undefined : 12);
+    const plotRows = plots.map(([pl, i]) => { const n = objPlot.filter((x) => x === i).length, onLearn = f.objects.filter((o, j) => objPlot[j] === i && o[3] > 0).length; return `<li><button type="button" data-plot="${i}" aria-pressed="${i === openPlot}"><span class="g-dot sq" style="--dot: var(--sys-${esc(f.system)})"></span><span>${esc(pl[0])}</span><small>${sm ? `${plotHits.get(i)} of ${n} match` : `${n} · ${onLearn} on Learn`}</small></button></li>`; }).join("");
+    const plural = (n: number, one: string) => `${n} ${one}${n === 1 ? "" : "s"}`;
     const sections = [
-      show("media") ? `<section class="g-plane-sec">${head("media", f.media.length)}<p class="g-meta">${videos} videos, ${f.media.length - videos} posts</p>${list("media", (r) => { const m = f.media[r.thing.i]; return mediaRow(m[0], m[1], null, m[4], m[3], r.thing.i); })}</section>` : "",
-      show("hubs") ? `<section class="g-plane-sec">${head("hubs", f.hubs.length)}${list("hubs", (r) => thingBtn(r.thing, r.label, `${r.cols.code ?? 0} objects · ${r.cols.media ?? 0} media`))}</section>` : "",
-      show("code") ? `<section class="g-plane-sec">${head("code", f.objects.length)}<p class="g-meta">${f.objects.length - undocumented} named by a Learn page</p>
+      show("media") ? `<section class="g-plane-sec">${head("media")}<p class="g-meta">${plural(videos, "video")}, ${plural(posts, "post")}</p>${list("media", (r) => { const m = f.media[r.thing.i]; return mediaRow(m[0], m[1], null, m[4], m[3], r.thing.i); })}</section>` : "",
+      show("hubs") ? `<section class="g-plane-sec">${head("hubs")}${list("hubs", (r) => thingBtn(r.thing, r.label, `${r.cols.code ?? 0} objects · ${r.cols.media ?? 0} media`))}</section>` : "",
+      show("code") ? `<section class="g-plane-sec">${head("code")}<p class="g-meta">${named} named by a Learn page</p>
         <p class="g-tiltlens"><button type="button" class="g-lens" data-tilt-coverage aria-pressed="${tiltLens?.kind === "coverage"}">no Learn page</button></p>
         ${codeRows}
-        <h4>Namespace plots <span class="g-n">${(focusSys?.plots ?? []).length}</span></h4>
+        <h4>Namespace plots <span class="g-n">${sm ? `${plotHits.size} of ${allPlots.length}` : allPlots.length}</span></h4>
         <ul class="g-list">${plotRows}</ul></section>` : "",
-      show("countries") ? `<section class="g-plane-sec">${head("countries", Object.keys(f.countries).length)}<p class="g-meta">replace ${f.objects.filter((o) => o[6]).length} of the code plane's objects</p>
+      show("countries") ? `<section class="g-plane-sec">${head("countries")}<p class="g-meta">replace ${f.objects.filter((o) => o[6]).length} of the code plane's objects</p>
         <p class="g-tiltlens"><label>Country <select data-tilt-country><option value="">none</option>${Object.entries(f.countries).map(([c, n]) => `<option value="${esc(c)}"${country === c ? " selected" : ""}>${esc(c.toUpperCase())} · ${n}</option>`).join("")}</select></label></p>
         ${countryRows}</section>` : "",
     ].join("");
-    return `<p class="g-kicker">system · tilted${picked ? ` · ${esc(PLANE_LABEL[picked])}` : ""}</p><h2 tabindex="-1">${esc(f.label)}</h2>
-      <p class="g-meta">${picked ? `Only ${esc(PLANE_LABEL[picked])}. Click the plane, its name or this heading again for all four.` : `Lines at rest are the stars' only: a missing line on any other object means "not drawn", not "no link". Click a plane or its name to list only that plane; click it again for all four.`}</p>
+    const things = PLANES.reduce((s, id) => s + counts[id], 0), lit = sm ? PLANES.reduce((s, id) => s + sm.n[id], 0) : 0;
+    const meta = picked
+      ? `Only ${esc(PLANE_LABEL[picked])}${sm ? ` matching ${q}` : ""}. Click the plane, its name or this heading again for all four.`
+      : `${sm ? `${q} matches ${lit} of the ${things} things on these planes; the rest is dimmed and left out of the lists.` : `Lines at rest are the stars' only: a missing line on any other object means "not drawn", not "no link".`} Click a plane or its name to list only that plane; click it again for all four.`;
+    return `<p class="g-kicker">system · tilted${picked ? ` · ${esc(PLANE_LABEL[picked])}` : ""}${sm ? ` · ${q}` : ""}</p><h2 tabindex="-1">${esc(f.label)}</h2>
+      <p class="g-meta">${meta}</p>
+      ${sm ? `<p><button type="button" class="btn" data-clear-lens>Clear the search</button></p>` : ""}
       ${sections}
       <p><button type="button" class="btn" data-planes-list>List per plane</button> <button type="button" class="btn" data-flatten>Flatten</button></p>`;
   }
@@ -1095,9 +1137,11 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
     const f = layers!;
     const cols = PLANES.filter((p) => p !== planeTab);
     const label = (r: PlaneRow) => (planeTab === "code" ? objectTitle(r.label) : r.label);
-    const rows = planeOrder(planeRows(f, planeTab, (id) => byId.get(id)?.label ?? id), planeTab, label);
+    const all = planeOrder(planeRows(f, planeTab, (id) => byId.get(id)?.label ?? id), planeTab, label);
+    // D100: with a search on, only its hits
+    const sm = searchMask(), rows = sm ? all.filter((r) => isHit(sm, r.thing)) : all;
     table.innerHTML = `<div role="tablist" aria-label="Planes" class="g-tabs">${PLANES.map((p) => `<button type="button" role="tab" aria-selected="${p === planeTab}" data-tab="${p}">${PLANE_LABEL[p]}</button>`).join("")}</div>
-      <p class="g-meta">${esc(f.label)}, ${esc(PLANE_LABEL[planeTab])}: ${rows.length}</p>
+      <p class="g-meta">${esc(f.label)}, ${esc(PLANE_LABEL[planeTab])}: ${sm ? `${rows.length} of ${all.length} match ${esc(`"${lens!.search}"`)}` : rows.length}</p>
       <table><thead><tr><th scope="col">${esc(PLANE_LABEL[planeTab])}</th>${cols.map((c) => `<th scope="col" class="num">${esc(PLANE_LABEL[c])}</th>`).join("")}</tr></thead>
       <tbody>${rows.slice(0, 500).map((r) => `<tr><th scope="row"><button type="button" data-thing="${r.thing.plane}|${r.thing.i}${r.thing.code ? `|${esc(r.thing.code)}` : ""}">${esc(label(r))}</button></th>${cols.map((c) => `<td class="num">${r.cols[c] ?? "-"}</td>`).join("")}</tr>`).join("")}</tbody></table>
       ${rows.length > 500 ? `<p class="g-meta">and ${rows.length - 500} more</p>` : ""}`;

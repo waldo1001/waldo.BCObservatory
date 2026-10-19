@@ -31,7 +31,18 @@ test("hits split into stars, star-less pages counted per system, best first; an 
   assert.deepEqual(c.pages.map((r) => r.path).sort(), ["objects/table/1800", "videos/v1"]);
   assert.deepEqual(c.reach, { sales: 2 });
   assert.equal(c.total, 4);
+  assert.deepEqual([...c.all].sort(), ["object/table/18", "object/table/1800", "topic/bc/sales/customers", "video/v1"], "D100: every hit's node id, stars included");
+  assert.equal(c.all.length, c.total);
   assert.equal(hitsFor(idx(rows), "zzz", () => true).total, 0);
+  assert.deepEqual(hitsFor(idx(rows), "zzz", () => true).all, []);
+});
+
+test("D100: all lists every hit uncapped, while pages keeps 50 star-less ones", () => {
+  const rows = Array.from({ length: 60 }, (_, i) => row(`videos/t${i}`, "video", `Telemetry ${i}`, "platform"));
+  const h = hitsFor(idx(rows), "telemetry", () => false);
+  assert.equal(h.pages.length, 50);
+  assert.equal(h.all.length, 60);
+  assert.ok(h.all.every((id) => id.startsWith("video/")));
 });
 
 // ---------------------------------------------------------------------------------------------- D65 tranche 2

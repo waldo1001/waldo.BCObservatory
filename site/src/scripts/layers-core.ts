@@ -44,6 +44,25 @@ export function fullPlanes(picked: PlaneId | null, lens: "country" | "coverage" 
   return new Set(PLANES);
 }
 
+/** D100: the flat lens's factor for a star it does not match (galaxy.ts alpha), for a thing a search does not hit. */
+export const DIM_MISS = 0.3;
+/** D100: which things on each plane a search hits, each by its own page; n counts them per plane. */
+export interface HitMask { media: boolean[]; hubs: boolean[]; code: boolean[]; countries: Set<string>; n: Record<PlaneId, number> }
+/** media and hubs by their id, an object as `object/<key>`, a country (a code of f.countries) as `localization/<code>`. */
+export function hitMask(f: LayersFile, hits: ReadonlySet<string>): HitMask {
+  const media = f.media.map((m) => hits.has(m[0])), hubs = f.hubs.map((h) => hits.has(h[0])), code = f.objects.map((o) => hits.has(`object/${o[0]}`));
+  const countries = new Set(Object.keys(f.countries).filter((c) => hits.has(`localization/${c}`)));
+  const n = (a: boolean[]) => a.filter(Boolean).length;
+  return { media, hubs, code, countries, n: { media: n(media), hubs: n(hubs), code: n(code), countries: countries.size } };
+}
+/** Is a thing a hit? media, hubs and code by th.i; countries by th.code (a list row's i is its row, not an object). */
+export function isHit(m: HitMask, th: Thing): boolean {
+  if (th.plane === "countries") return !!th.code && m.countries.has(th.code);
+  return !!m[th.plane][th.i];
+}
+/** A countries-plane mark (one per replaced object, i an object index): a hit when any country replacing it is. */
+export const markHit = (m: HitMask, f: LayersFile, i: number): boolean => f.objects[i][6].split(" ").some((c) => !!c && m.countries.has(c));
+
 export interface Bounds { cx: number; cy: number; hx: number; hy: number }
 /** The extent of everything on the planes (hubs left, objects right in the D layout), so a plane is filled edge to edge. */
 export function bounds(f: LayersFile): Bounds {

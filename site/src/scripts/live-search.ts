@@ -10,8 +10,12 @@ import type { GalaxyApi } from "./galaxy.js";
 import { loadPages } from "./index-loader.js";
 import { parse, type Row } from "./search.js";
 
-/** ids: the star ids in panel order; stars: their index rows, same order (path label, members); pages: star-less hits. */
-export interface SearchHits { q: string; ids: string[]; stars: Row[]; reach: Record<string, number>; pages: Row[]; total: number }
+/**
+ * ids: the star ids in panel order; stars: their index rows, same order (path label, members); pages: star-less hits.
+ * all (D100): every hit's node id, stars included, in score order, uncapped: the tilted planes light media and objects
+ * that are not stars.
+ */
+export interface SearchHits { q: string; ids: string[]; stars: Row[]; reach: Record<string, number>; pages: Row[]; total: number; all: string[] }
 /** What the panel order needs of a star: its evidence count and graph weight. */
 export interface StarFacts { ev?: number; weight: number }
 
@@ -35,7 +39,7 @@ export function hitsFor(index: Index, q: string, hasStar: (id: string) => boolea
     else { if (r.system) reach[r.system] = (reach[r.system] ?? 0) + 1; if (pages.length < 50) pages.push(r); }
   }
   stars.sort((a, b) => starClass(a.r.type) - starClass(b.r.type) || b.s - a.s || b.size - a.size || b.weight - a.weight || a.r.title.localeCompare(b.r.title));
-  return { q, ids: stars.map((x) => nodeIdOf(x.r.path)), stars: stars.map((x) => x.r), reach, pages, total: scored.length };
+  return { q, ids: stars.map((x) => nodeIdOf(x.r.path)), stars: stars.map((x) => x.r), reach, pages, total: scored.length, all: scored.map(({ r }) => nodeIdOf(r.path)) };
 }
 
 /** The last part of a path label, for the live region: "Business functionality › Sales" -> "Sales". */

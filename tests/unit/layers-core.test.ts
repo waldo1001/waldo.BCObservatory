@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { applyZoom, bounds, coreSample, corners, DIM_PLANE, fullPlanes, inQuad, mediaSpot, norm, panBy, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, ZOOM_MAX, zoomAt, type LayersFile } from "../../site/src/scripts/layers-core.js";
+import { applyZoom, bounds, coreSample, corners, DIM_MISS, DIM_PLANE, fullPlanes, hitMask, inQuad, isHit, markHit, mediaSpot, norm, panBy, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, ZOOM_MAX, zoomAt, type LayersFile } from "../../site/src/scripts/layers-core.js";
 
 const f: LayersFile = {
   system: "finance", label: "Finance", x: 0, y: 0, r: 100,
@@ -92,6 +92,38 @@ test("lines at rest come from the stars only; the list per plane counts the othe
   assert.deepEqual(code[1].cols, { media: 0, hubs: 0, countries: 0 }, "no line up: a zero, not a missing value");
   assert.deepEqual(planeRows(f, "countries", (id) => id).map((r) => [r.label, r.cols.code]), [["BE", 2], ["NL", 1]]);
   assert.deepEqual(mediaSpot(f, 0).x !== undefined, true);
+});
+
+// D100: a search on the tilted planes
+const hits = new Set(["object/table/15", "topic/fin/vat", "video/v1", "localization/nl", "object/table/999", "change/bcapps/1"]);
+
+test("hitMask: each thing by its own page; ids not on the planes are ignored", () => {
+  assert.deepEqual(hitMask(f, hits), { media: [true], hubs: [false, true], code: [false, true, false], countries: new Set(["nl"]), n: { media: 1, hubs: 1, code: 1, countries: 1 } });
+  assert.equal(DIM_MISS, 0.3);
+});
+
+test("isHit and markHit: countries by code, a countries mark by every country replacing its object", () => {
+  const m = hitMask(f, hits);
+  assert.equal(isHit(m, { plane: "code", i: 1 }), true);
+  assert.equal(isHit(m, { plane: "code", i: 0 }), false);
+  assert.equal(isHit(m, { plane: "countries", i: 0, code: "be" }), false);
+  assert.equal(isHit(m, { plane: "countries", i: 1, code: "nl" }), true);
+  assert.equal(markHit(m, f, 0), true, "table/17 is replaced by be and nl");
+  assert.equal(markHit(m, f, 2), false, "table/325 only by be");
+  assert.equal(markHit(m, f, 1), false, "table/15 by no country");
+});
+
+test("filtering the list per plane by the mask keeps only the hits", () => {
+  const m = hitMask(f, hits);
+  assert.deepEqual(planeRows(f, "countries", (id) => id).filter((r) => isHit(m, r.thing)).map((r) => r.label), ["NL"]);
+  assert.deepEqual(planeRows(f, "code", (id) => id).filter((r) => isHit(m, r.thing)).map((r) => r.label), ["table/15"]);
+});
+
+test("hitMask of no hits: nothing lit, every count 0", () => {
+  const m = hitMask(f, new Set());
+  assert.deepEqual([m.media, m.hubs, m.code], [[false], [false, false], [false, false, false]]);
+  assert.equal(m.countries.size, 0);
+  assert.deepEqual(m.n, { media: 0, hubs: 0, code: 0, countries: 0 });
 });
 
 test("level of detail: planes span the system's extent; objects find their plot; tiles are hit by point", () => {
