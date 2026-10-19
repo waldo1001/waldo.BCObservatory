@@ -20,6 +20,12 @@ one in either mode.
   phases ship alone: the site and scorer (no derive), digests dated (one derive rewrites the hubs shard), the MCP
   (0.8.0, the owner publishes). Until it lands, the Posts and Videos tabs order by match only: for "Telemetry" the
   newest post is 11th and the newest video 26th.
+- **Topic link second chance, D102** (`docs/specs/topic-link-second-chance.md`, M40, issue #16). Status: proposed
+  2026-10-19, nothing implemented. Start with phase 1, task 1: tests 1-11 in `tests/unit/topic-links.test.ts`. Phase 1
+  is code only (its push starts a derive that changes nothing). Phase 2 is an operator backfill on the Mac: link,
+  review, commit `data/links`, derive. It takes one evening and costs about $20. Until it lands, 375 videos and posts
+  whose every topic link was dropped stay on no hub page and in no tilted view, among them four of the owner's own
+  telemetry posts.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
