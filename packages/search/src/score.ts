@@ -435,7 +435,11 @@ function countryPoints(q: ParsedQuery, r: SearchRecord, country: string | null):
 export const byRank = (a: Hit, b: Hit) => b.s - a.s || (b.r.date ?? "").localeCompare(a.r.date ?? "") || (b.r.members ?? 0) - (a.r.members ?? 0)
   || b.r.importance - a.r.importance || a.r.title.localeCompare(b.r.title);
 
-export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kinds?: SearchRecord["kind"][]; filter?: (r: SearchRecord) => boolean } = {}): Hit[] {
+const newer = (a: string, b: string) => (a < b ? 1 : a > b ? -1 : 0);
+/** Date first (newest; a day, or a feature's GA month), then byRank; a hit without a date after every dated one (D101). */
+export const byDate = (a: Hit, b: Hit) => newer(a.r.date ?? "", b.r.date ?? "") || byRank(a, b);
+
+export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kinds?: SearchRecord["kind"][]; filter?: (r: SearchRecord) => boolean; sort?: "match" | "date" } = {}): Hit[] {
   const st = STATE.get(index);
   if (!st) return [];
   let cand: Iterable<number>;
@@ -461,7 +465,7 @@ export function search(index: Index, q: ParsedQuery, opts: { limit?: number; kin
     // the exact band: a reference, or the record's own name equal to the query and not demoted as generic
     if (s > 0) hits.push({ r, s, why, band: s >= 900 || (why.includes("name") && !why.includes("demoted")) ? "exact" : "match" });
   }
-  hits.sort(byRank);
+  hits.sort(opts.sort === "date" ? byDate : byRank);
   return opts.limit ? hits.slice(0, opts.limit) : hits;
 }
 

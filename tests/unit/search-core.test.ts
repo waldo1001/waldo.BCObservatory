@@ -29,8 +29,8 @@ test("D101: search with sort 'date' takes the newest N of all matches, not of th
     post("2", "Other", "about telemetry", "2026-10-18"),
     post("3", "Another", "telemetry again", "2026-09-01"),
   ].map(pageToRecord));
-  assert.deepEqual(search(i, p("telemetry"), { sort: "date", limit: 2 }).map((h) => h.r.path), ["posts/s/2", "posts/s/3"]);
-  assert.equal(search(i, p("telemetry"), { limit: 2 })[0].r.path, "posts/s/1", "best match first, as today");
+  assert.deepEqual(search(i, p("telemetry"), { sort: "date", limit: 2 }).map((h) => h.r.title), ["Other", "Another"]);
+  assert.equal(search(i, p("telemetry"), { limit: 2 })[0].r.title, "Telemetry deep dive", "best match first, as today");
 });
 
 // ---------------------------------------------------------------------------------------------- parser (4.1)

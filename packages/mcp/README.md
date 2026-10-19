@@ -35,6 +35,11 @@ plain JavaScript; the 30 MB model is downloaded once on the first search, pinned
 `BC_OBSERVATORY_MODEL_DIR=<dir with config.json, tokenizer.json, model.safetensors>` uses a model on disk (offline). Without a
 model, search is keyword-only and says so.
 
+Pass `sort: "date"` to list the keyword matches newest first (`search("Telemetry", type: "post", sort: "date", limit: 3)`
+answers "what was blogged lately about it"): by day, the same day best match first, undated pages last; a roadmap feature
+sorts by its GA month, a Learn article by its last update, a weekly digest by the Monday of its week. The meaning list is
+not used under `sort: "date"`, so `mode: "semantic"` is ignored (the header says so). Default is `sort: "match"`.
+
 `get_object` takes an id, a reference (`t36`, `36-be`), a name or a caption, and a `country`; when that country's layer replaces a W1 object (`get_object("table", "18", "BE")`) the fields, events and procedures the layer adds print before the W1 page, and a lookup without a country ends with a `Replaced in:` line naming the layers; `search("field: Enterprise No.", country: "BE")` finds a member a layer adds. `whats_new` lists nothing
 dated after today unless `include_future: true`.
 
