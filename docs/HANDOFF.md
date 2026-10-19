@@ -30,10 +30,9 @@ questions in its section 12).
   on/off button (the 600 ms slide kept); a click on a plane's plate, name or pane heading picks that plane (accent
   outline, the other three at 0.4, the pane lists only it; `#system=...&tilt=1&plane=media`), a second click shows all
   four; the tilted pane is four plane sections; no plane folds (the country and coverage lenses dim); wheel, pinch and
-  −/+ zoom the tilted view (1 to 8) and a drag pans; core sample media rows show their titles. Operator steps still
-  open (the League build could not run them): `npm run site:build` on Node 22 (spec section 7), the browser checks 1 to
-  9 of spec section 7 and the galaxy chunk size difference; `npm run typecheck` is green, and the unit tests of the pure
-  helpers are in `tests/unit/layers-core.test.ts` and `galaxy-core.test.ts`.
+  −/+ zoom the tilted view (1 to 8) and a drag pans; core sample media rows show their titles. The League's build could
+  not run the site build, so the review of PR #12 (2026-10-19) did: `npm run site:build` on Node 22, the browser checks
+  1 to 9 of spec section 7 (all pass) and the chunk size (+1,149 bytes gzipped). No operator step left.
 - **Learn row links, D98** (`docs/specs/learn-row-links.md`, M36, issue #8). On the search page a Learn article that a
   hub lists opens that hub at the article: the title links `<hub>/#learn=<path>`, and the page module (on every page)
   finds the article's link in the hub's Learn list by its URL, highlights its row, scrolls it to the centre and focuses

@@ -354,10 +354,11 @@ Changed: `site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`, `site
 
 ## 11. Definition of Done
 
-- [x] Section 5 tests written first (red: `tsc` errors for the missing exports), then typecheck green. `npm test`: see
-      section 12, the run's output was cut off and the exit code was 1, not explained.
-- [ ] `npm run site:build` passes on Node 22. Not run: the League's command list excludes it (operator step).
-- [ ] Section 7 checks 1 to 9 done and reported, with the chunk size difference. Not run (operator step).
+- [x] Section 5 tests written first (red: `tsc` errors for the missing exports), then typecheck green. `npm test`
+      green on the final head: 630 passed, 0 failed (the League's own run and the review of PR #12, 2026-10-19).
+- [x] `npm run site:build` passes on Node 22 (29,043 pages; review of PR #12, 2026-10-19).
+- [x] Section 7 checks 1 to 9 done and reported, with the chunk size difference (review of PR #12, 2026-10-19; see
+      section 12).
 - [x] No `folded`, `tiltInput` or `.g-tilt` left (the two `folded` hits are comments: `versions.ts:65` and the code
       groups' comment now at `galaxy.ts:963`; `g-tiltlens` and `g-tilt-help` stay).
 - [x] D99 appended to `docs/DECISIONS.md`; PLAN M37 marked shipped; HANDOFF entry moved from "Open specs" to "Where
@@ -373,26 +374,48 @@ tilted view, the `plane` hash key, media titles in core samples, the CSS and the
 Pure helpers (`planeGeometry` without folds, `DIM_PLANE`, `fullPlanes`, `planeOrder`, `Zoom`, `applyZoom`, `zoomAt`,
 `panBy`, `clampZoom`, `plateAt`) are in `layers-core.ts`; `parseHash` accepts `plane`.
 
-**Verified:** `npm run typecheck` green. Red evidence: before the code, `tsc` failed with "Module layers-core.js has no
+**Verified (League build):** `npm run typecheck` green. Red evidence: before the code, `tsc` failed with "Module layers-core.js has no
 exported member 'applyZoom' / 'DIM_PLANE' / 'fullPlanes' / 'panBy' / 'planeOrder' / 'plateAt' / 'ZOOM_1' / 'ZOOM_MAX' /
 'zoomAt'". `npm test` printed more than the tool shows and ended with exit 1; narrowing the run was not possible with
 the commands allowed (the runner ignores extra flags), so which test fails, if one does beyond the League's own
 measured run, is not known to this build. The new tests were checked by hand against the code.
 
+**Verified (review of PR #12, 2026-10-19, head `3f8c4efb`):** `npm run typecheck` clean; `npm test` 631 tests, 630
+pass, 0 fail, 1 skipped (the skip is on `main` too); the exit 1 above did not reproduce. Red confirmed: on the red
+checkpoint `f9bcae82`, `tsc` reports exactly the nine missing exports listed above. `npm run site:build` on Node
+22.23.1: 29,043 pages. Section 7 in the built-in browser, the built site served under `/waldo.BCObservatory/`:
+
+1. Tilt is a button, `aria-pressed="true"`; a click unpresses at once and the canvas slides; a click mid-slide presses
+   it again and the slide reverses; T toggles (with focus in the galaxy, as on `main`); reduced motion cuts
+   (`setTilt`, `instant || reduce.matches`).
+2. A click on the media plate's empty area: accent outline, the other three dimmed, the pane only "Media 164" with 60
+   titled rows and "and 104 more in the list per plane", the hash ends `&plane=media`; a second click: four sections,
+   `plane` gone. The same through the name button and the pane heading (both buttons, `tabindex 0`).
+3. A hub's core sample, then the media name: the sample closes, media picked. Esc: the pick, then flat.
+4. Country lens BE: no plane changes depth, media and hubs dimmed; pick Media: media full, the other three dimmed.
+5. A fresh load of `#system=development&tilt=1&plane=countries`: tilted, countries picked.
+6. Wheel over the code plane: the plates grow around the pointer, marks keep their size, plot names appear; a drag
+   pans; `−` back to 1 and a flatten plus re-tilt give the same picture (canvas pixel hash equal); nothing draws over
+   the bar or under the panel.
+7. The core sample of "Defining table structures": its media rows show titles.
+8. 390 wide: the Planes button is the same as on `main` (same click, same `tilt=1&view=list`); the pane headings pick
+   and unpick. 1024 and 760 wide: tilted, picks work, no horizontal scroll.
+9. The galaxy script chunk: 73,734 to 77,111 bytes (+3,377), gzipped 25,184 to 26,333 (+1,149).
+
 | Spec | Measured |
 |---|---|
 | `git grep folded\|tiltInput\|g-tilt site/` empty | two comment hits only (above) |
-| galaxy chunk size difference | not measured |
+| galaxy chunk size difference | +3,377 bytes, +1,149 gzipped (review of PR #12) |
 
 **Deviations:**
 - The tilted drawing clips to the planes area only while zoomed (`tz.s > 1`), not at every tilt, so flat stars sliding
   to their planes are not cut by the clip at small tilts. At zoom 1 everything lies inside the area anyway.
 - The pane heading's `data-pick` is selected as `.g-planehead[data-pick]` because the lens picker also uses `data-pick`.
 - `tz` is not re-clamped on a window resize; the next pan or zoom clamps it.
-- Browser checks (section 7, 1 to 9), `npm run site:build` on Node 22 and the chunk size are not done.
+- The League could not run `npm run site:build` (not in the repository's League command list), so the site build, the
+  browser checks 1 to 9 and the chunk size were done in the review of PR #12 (above).
 
-**Operator steps still open:** `npm run site:build` on Node 22 (section 7), then the browser checks 1 to 9 of section 7
-(serve `site/dist` under the base path as that section describes), and the galaxy chunk size before and after.
+**Operator steps still open:** none.
 
 ## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 

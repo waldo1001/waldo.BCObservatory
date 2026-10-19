@@ -1081,6 +1081,7 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   the range (half tilts mean nothing); folding on a name click (the owner asked for a highlight); lenses that keep
   folding (one rule, dim, for picks and lenses); today's pane plus a list on pick (the unpicked pane would have no
   media part to filter); a pick that zooms the camera to its plane (zoom stays the reader's); scaling marks with the
-  zoom (crowded marks stay crowded); zoom in the URL. Measured: the pure helpers are unit-tested (`layers-core`,
-  `galaxy-core`); the built-site checks and the chunk-size difference were not run in the League's build (spec
-  section 12 lists them as operator steps). Spec: `docs/specs/galaxy-tilt-planes.md` (section 12: built, deviations).
+  zoom (crowded marks stay crowded); zoom in the URL. Measured (2026-10-19, review of PR #12): the galaxy script chunk
+  grows 3,377 bytes (73,734 to 77,111), 1,149 gzipped (25,184 to 26,333); the pure helpers are unit-tested
+  (`layers-core`, `galaxy-core`) and the nine built-site checks of the spec's section 7 pass. Spec:
+  `docs/specs/galaxy-tilt-planes.md` (section 12: built, deviations).
