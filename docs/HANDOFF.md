@@ -15,11 +15,6 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-- **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Status: proposed 2026-10-19,
-  nothing implemented. Start with phase 1, task 1: tests 1-11 (scorer `byDate` and `sort`, the page's switch). Three
-  phases ship alone: the site and scorer (no derive), digests dated (one derive rewrites the hubs shard), the MCP
-  (0.8.0, the owner publishes). Until it lands, the Posts and Videos tabs order by match only: for "Telemetry" the
-  newest post is 11th and the newest video 26th.
 - **Topic link second chance, D102** (`docs/specs/topic-link-second-chance.md`, M40, issue #16). Status: proposed
   2026-10-19, nothing implemented. Start with phase 1, task 1: tests 1-11 in `tests/unit/topic-links.test.ts`. Phase 1
   is code only (its push starts a derive that changes nothing). Phase 2 is an operator backfill on the Mac: link,
@@ -36,6 +31,15 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-19, live after its Pages build (site only, no derive):**
+- **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Built by waldo.Jarvis's League.
+  The search page's dated tabs (Learn, Roadmap, Videos, Posts, Code changes, Weekly digests, Other) show a "Best match |
+  Newest" switch, Best match by default, `?sort=date`; `byDate` and `search(..., { sort: "date" })` in the shared scorer;
+  the MCP's `search` takes `sort: "date"` (MCP 0.8.0, plugin 0.3.2, README and `bc-whats-new` updated); a weekly digest's
+  index record is dated by its week's Monday (`weekStart`), so it sorts and `whats_new` lists digests. Needs a derive
+  before readers see digest dates (the merge touches `pipeline/render`, which starts one; AGENTS.md "Running things":
+  `npm run nightly -- --stages derive`). Operator steps: the site build and browser checks of the spec's section 7, and the MCP release
+  `gh workflow run publish-mcp.yml --ref main` (D40). The spec's own edits wait in
+  `docs/built/search-newest-first.md` for the review.
 - **Search survives the tilt, D100** (`docs/specs/tilt-keeps-search.md`, M38, issue #14). A search stays lit when a
   system is tilted: every thing on the planes the search hits (media, hubs, every object, countries; the live search
   now hands over every hit's id, not only its stars) keeps full strength and an accent ring, the rest dims to 0.3; the
