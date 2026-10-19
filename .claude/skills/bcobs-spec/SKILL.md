@@ -131,10 +131,19 @@ was given.
 8. **Later, not in this spec.**
 9. **Risks and open questions**: with the default the coder takes when nobody answers.
 10. **Files**: new and changed.
-11. **Definition of Done**: checkable, including the DECISIONS, PLAN and HANDOFF edits.
+11. **Definition of Done**: checkable, including the DECISIONS, PLAN and HANDOFF edits, and the spec's own: section
+    12 "Built, deviations" and `status: implemented`. Whoever ticks it (the builder or the PR's review, below) must be
+    able to tell pass from fail without asking. End it with this item, Dnn and Mnn filled in:
+    `- [ ] Dnn appended to docs/DECISIONS.md; PLAN Mnn marked shipped; HANDOFF entry moved from "Open specs" to "Where
+    things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
+    implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
+    status lines into docs/built/<slug>.md; the PR's review moves them in (sdd-build section 4, sdd-review section 6).`
 12. **Proposed edits to other files (not applied)**: the Dnn text, the PLAN row, the HANDOFF entry, anything for
-    `AGENTS.md` or `CONTENT-NOTICE.md`. The coder applies them at ship time, inserts "12. Built, deviations" before it
-    and keeps this one as section 13, marked applied (`/sdd-build`).
+    `AGENTS.md` or `CONTENT-NOTICE.md`. The coder applies them at ship time (`/sdd-build`). The spec's own edits
+    ("12. Built, deviations" inserted before this section, which stays as section 13 marked applied, the ticked
+    Definition of Done and the status flip) are the builder's in a manual build. In a League build they are the PR
+    review's: the League quarantines a build that edits its own spec (waldo.Jarvis spec 696, amendment N1), so its
+    builder hands them over in `docs/built/<slug>.md` and `/sdd-review` applies them before merge.
 
 Repository rules a spec must respect, never relax: the pipeline is deterministic first, LLM last and only on deltas
 (`pipeline/lib/llm.ts`, roles in `config/models.json`, no API key); generated `content/` and `data/` are never

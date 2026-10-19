@@ -53,10 +53,12 @@ cross-referenced, agent-first knowledge base. This file is the entry point for h
 - A spec under `docs/specs/` may be built by waldo.Jarvis's League instead of by hand. The League reads only specs whose
   frontmatter (`---` on line 1) has `issue: <N>` and `status:`, and builds one when the owner applies the
   `spec-approved` label to that issue; `bcobs-spec` writes every spec as `status: draft` and never approves one. A League
-  build runs on branch `league/<issue>-<topic>` with a PR labelled `league-building`, commits there and never pushes. Do
-  not build such a spec by hand while that branch or PR exists, and do not approve one while you are building it
-  (`/sdd-build` checks). To take over, follow `CLAUDE.md` "Taking over from the League". Skills: `bcobs-spec` (write),
-  `sdd-draft` (issue to draft), `sdd-build` (build, both modes), `sdd-review` (review a League or build PR).
+  build runs on branch `league/<issue>-<topic>` with a PR labelled `league-building`, commits there and never pushes. It
+  never edits the spec it builds or `CLAUDE.md` (the League quarantines a build that does): the spec's ship-time edits
+  wait in `docs/built/<slug>.md` until the PR's review moves them into the spec. Do not build such a spec by hand while
+  that branch or PR exists, and do not approve one while you are building it (`/sdd-build` checks). To take over,
+  follow `CLAUDE.md` "Taking over from the League". Skills: `bcobs-spec` (write), `sdd-draft` (issue to draft),
+  `sdd-build` (build, both modes), `sdd-review` (review a League or build PR, and apply a League build's spec edits).
 - Commit messages: conventional prefixes (`feat:`, `fix:`, `pipeline:`, `content:`, `infra:`, `docs:`). Nightly
   commits are `content: nightly <date> (<n> items)`.
 
