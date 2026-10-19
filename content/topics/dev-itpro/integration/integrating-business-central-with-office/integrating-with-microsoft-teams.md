@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:36.352Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -73,7 +73,7 @@ links:
     - topic/dev-itpro/integration/integrating-business-central-with-office/integrating-with-microsoft-teams/tabs
   localizations: []
   videos:
-    - video/_OClSlushOU
+    - video/QK-Qsh_6YL4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -134,6 +134,6 @@ Start with the development overview to see the pieces, then move to the metadata
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Work Seamlessly with Microsoft Outlook, Excel, and Teams integration"
+- [Copilot Completing Time Sheets by Pryme Global](../../../../videos/QK-Qsh_6YL4.md) (video): "Microsoft Graph integration for time sheet data"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

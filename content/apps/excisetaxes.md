@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 55a636f171ca93bf8476f9259dae56764b8006d5fca1f704be3167e506d0d173
+  input_hash: 96fea2803adb6b51ac9381e2e6ef5083c378c0678640acbcc8461e8f83e2530a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExciseTaxes/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExciseTaxes/app
     title: src/Apps/W1/ExciseTaxes/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -227,4 +227,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [What's New: Excise Taxes (2026 release wave 1)](../videos/Cj_n5x3gN_Y.md) (video, 2026-04-01): names Page 7414 "Excise Tax Types"
 
-Source: [src/Apps/W1/ExciseTaxes/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExciseTaxes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExciseTaxes/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExciseTaxes/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

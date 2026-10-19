@@ -2,20 +2,20 @@
 id: topic/dev-itpro/business-central-on-premises
 type: topic
 title: Business Central on-premises
-summary: Business Central on-premises covers deploying, administering and upgrading on-premises installations. It answers questions on planning and installing, securing and configuring servers, tools and integrations, choosing upgrade paths from v14 through v29, and migrating legacy help content to the Business Central format.
+summary: Business Central on-premises covers deploying, administering and upgrading an on-premises installation, plus migrating legacy help content to the Business Central format. It answers questions about planning and installing, configuring and connecting environments, and choosing upgrade paths.
 tier: official
 language: en
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T05:20:34.902Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: e8acd6cde1d4feecc83adfbce7ec8eb49e0c142169ecc3d5904ec29996156d38
+  input_hash: d03cf855f117d7c9b943d901fe32ae1891fcba32090a782ea498a6661412fe17
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-ad-overview
@@ -338,27 +338,27 @@ narrative: generated
 
 # Business Central on-premises
 
-> Business Central on-premises covers deploying, administering and upgrading on-premises installations. It answers questions on planning and installing, securing and configuring servers, tools and integrations, choosing upgrade paths from v14 through v29, and migrating legacy help content to the Business Central format.
+> Business Central on-premises covers deploying, administering and upgrading an on-premises installation, plus migrating legacy help content to the Business Central format. It answers questions about planning and installing, configuring and connecting environments, and choosing upgrade paths.
 
-Path: Business Central on-premises · tier official · system none · narrative reviewed (checked by Opus)
+Path: Business Central on-premises · tier official · system none · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section groups the documentation for running Business Central on your own infrastructure. It is split into three subtopics: Deployment, Administration and Upgrade. Deployment covers planning, component topology, installing with Setup, service accounts, certificates and multitenant databases. Administration covers the tools and configuration needed to operate an environment. Upgrade covers the routes and steps for moving to a newer version.
+This section groups everything needed to run Business Central on your own infrastructure. It is split into three subtopics: Deployment, Administration and Upgrade, plus one standalone page on migrating legacy help.
 
-One page sits directly in the hub: a guide to migrating legacy help to the Business Central format. It describes reusing existing web content, converting PDFs or documents to Markdown, and deploying to websites that work with Business Central help configuration. It also mentions tooltip support.
+Start with Deployment to plan the topology, install with Setup, provision service accounts, set up certificates and multitenant databases, and check the support lifecycle. Then use Administration for day-to-day setup: Administration Shell and Administration Center, database authentication, encryption, session timeout, Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation.
 
-For a new environment, start with Deployment to plan and install, then move to Administration for configuration and monitoring. If you already run an earlier version, start with Upgrade to find the supported path to your target version and what to check first.
+When moving to a newer release, use Upgrade. It lists supported upgrade paths, per-release guides from v14 through v29, known issues, and conversion and table migration articles. The help migration page is separate: it explains reusing existing web content, converting PDFs or documents to Markdown, and deploying to websites that work with Business Central help configuration.
 
 ## Key points
 
-- Deployment (63 pages): planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases and support lifecycle.
-- Deployment subtopics also cover web server, database, mobile app, topologies and updates.
-- Administration (38 pages): Administration Shell and Administration Center, server, web server and database configuration, authentication, encryption and monitoring.
-- Administration integrations include Entra ID, Excel, Outlook, Key Vault and Dynamics 365 Sales.
-- Upgrade (113 pages): supported upgrade paths, per-release guides from v14 through v29, known issues, and conversion and table migration articles.
-- Upgrade pages help decide which route reaches a target version and what to check first.
-- The hub's own page explains migrating legacy help: reuse web content, convert PDFs or documents to Markdown, and deploy to a website that integrates with help configuration.
+- Deployment (63 pages) covers planning, component topology, installing with Setup, service account provisioning, certificates, multitenant databases and support lifecycle.
+- Deployment also points to deeper material on web server, database, mobile app, topologies and updates.
+- Administration (38 pages) covers Administration Shell and Administration Center, database authentication, encryption and session timeout.
+- Administration also covers Entra ID registration, Key Vaults, Excel and Outlook add-ins, and Dynamics 365 Sales preparation.
+- Upgrade (113 pages) has per-release guides from v14 through v29, supported upgrade paths and known issues.
+- Upgrade includes conversion and table migration articles; check the path to your target version first.
+- Legacy help can be migrated by reusing existing web content or converting PDFs or documents to Markdown, then deploying to a website integrated with help configuration; tooltip support is included.
 
 ## Subtopics
 

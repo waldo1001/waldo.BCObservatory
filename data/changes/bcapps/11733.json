@@ -138,8 +138,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
+      {
+        "path": "src/Apps/W1/External Storage - Document Attachments/app/src/AutomaticSync/DAExtStorageSyncWorker.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8755",
+        "type": "codeunit",
+        "id": 8755,
+        "name": "DA Ext. Storage Sync Worker",
+        "app": "External Storage - Document Attachments",
+        "cc": "w1",
+        "page": "codeunit/8755"
+      },
       {
         "path": "src/Apps/W1/External Storage - Document Attachments/app/src/AutomaticSync/DAExternalStorageSync.Report.al",
         "status": "modified",
@@ -229,13 +240,7 @@
         "page": "codeunit/8754"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/External Storage - Document Attachments/app/src/AutomaticSync/DAExtStorageSyncWorker.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "platform"

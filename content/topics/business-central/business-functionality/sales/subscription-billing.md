@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:17.722Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -348,7 +348,9 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10445
     - change/bcapps/10446
+    - change/bcapps/12857
 learn_toc_path:
   - Business functionality
   - Sales
@@ -443,7 +445,9 @@ Start with the welcome page, then Contracts, then Recurring billing. Move to Bil
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10445 [Bug][Subscription Billing] Contract Renewal Quote total ignores the Billing Base Period and shows the base-period amount instead of the renewal-term amount](../../../../changes/bcapps/10445.md) (code change): "Contract Renewal Quote total ignores the Billing Base Period"
 - [#10446 [Bug][Subscription Billing] "Subscription Lines - Overdue" cue counts lines of contracts that already ended](../../../../changes/bcapps/10446.md) (code change): "Fixed the Overdue Subscription Lines cue and page to exclude subscription lines"
+- [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../changes/bcapps/12857.md) (code change): "Billing totals now filter by both Subscription Contract No. and Partner type"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../videos/jJxBswIy_Xw.md) (video): "subscription billing; recurring invoicing; service commitments; deferrals; revenue recognition"
 - [Subscription Billing](../../../../videos/ywyaIenKix8.md) (video): "Subscription billing; recurring billing; revenue recognition; usage-based billing"
 

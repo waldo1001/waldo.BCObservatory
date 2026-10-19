@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -250,6 +250,8 @@ links:
     - video/tP-0VcN7fcU
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12538
 learn_toc_path:
   - Business functionality
   - Set up Business Central
@@ -367,10 +369,11 @@ Start with the overview of tasks, then follow the page for the area you need. Th
 - [Set Up Shipment Methods](https://learn.microsoft.com/dynamics365/business-central/sales-how-set-up-shipment-methods): You can set up a code for each of your offered shipment methods, and enter information about them.
 - [Updating document dates with posting dates](https://learn.microsoft.com/dynamics365/business-central/across-link-doc-dates-to-posting-dates): Learn how to make sure that document dates on sales and purchase documents match their posting dates.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12538 Remove CLEAN27 for Create Item from Item No. setup fields](../../../../changes/bcapps/12538.md) (code change): "Removes CLEAN27 code for the Create Item from Item No. fields in tables 311 and 312"
 - [Warn Salespeople That a Product Will Soon be Out of Stock](../../../../videos/gBB0elWQWM8.md) (video): "Stock out warning on sales lines; Stock out warning toggle"
 - [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Customer templates; Posting groups in customer templates"
 

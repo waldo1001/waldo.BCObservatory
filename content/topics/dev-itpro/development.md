@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development
 type: topic
 title: Development
-summary: "Development for Business Central covers building AL extensions: tooling setup in Visual Studio Code, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, AL-Go for GitHub, and troubleshooting. It answers how-to, syntax, build, deploy and debug questions for extension developers."
+summary: "Development for Business Central covers building extensions in AL with Visual Studio Code: setup, language reference, extensibility, extension lifecycle, best practices, troubleshooting and AL-Go DevOps automation. It answers questions on how to set up, write, extend, deploy, publish and debug AL code."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T21:13:11.929Z"
+  at: "2026-10-19T01:12:10.962Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 9bb2b47ce7bb0e3d128c09d45d2c185f40cb261b3de2e20f7838331577ed4f8d
+  input_hash: 5bbceb42a3d83bbec8bd10c957000ad08a814bef5d66a9bf4c0070d9ed6d0623
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -405,6 +405,7 @@ links:
     - change/bcapps/10869
     - change/bcapps/10927
     - change/bcapps/11002
+    - change/bcapps/12187
     - change/bcapps/8745
     - change/bcapps/9351
     - change/bcapps/9600
@@ -529,28 +530,28 @@ narrative: generated
 
 # Development
 
-> Development for Business Central covers building AL extensions: tooling setup in Visual Studio Code, the AL language, extensibility, best practices, extension lifecycle, analytics and reporting, AL-Go for GitHub, and troubleshooting. It answers how-to, syntax, build, deploy and debug questions for extension developers.
+> Development for Business Central covers building extensions in AL with Visual Studio Code: setup, language reference, extensibility, extension lifecycle, best practices, troubleshooting and AL-Go DevOps automation. It answers questions on how to set up, write, extend, deploy, publish and debug AL code.
 
 Path: Development · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Development is the entry point for creating Business Central extensions in AL using Visual Studio Code. Its own pages introduce developing extensions in AL (the extension model, table and page extensions, code snippets, compiler validation, the designer), the AL Language reference (data types, methods, properties, triggers, diagnostics, code analyzers, method attributes), and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
+Development is the entry point for AL developers working on Business Central extensions. Its own pages introduce the extension model (table extensions, page extensions, codeunits, reports), the AL Language reference (data types, methods, properties, attributes, diagnostics, code analyzers) and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
 
-The subtopics follow a typical path. Start with Get started and Development environment for installing the AL Language extension, configuring projects, and compiling, publishing, debugging and testing. Then use Programming in the AL language and The AL programming language for syntax and object types, and Extensibility for extending base code without changing it.
+The subtopics follow the work from start to finish. Get started and Development environment cover VS Code, the AL Language extension, a first extension, compiling, publishing, debugging, sandboxes and packaging. Programming in the AL language and The AL programming language cover syntax and objects. Extensibility explains how to change behavior without touching base code. Rules, guidelines, and best practices, Extension lifecycle and Troubleshooting cover obsoleting code, deploying and updating apps, and diagnosing problems.
 
-Later topics cover quality and delivery: Rules, guidelines, and best practices (obsoleting objects, conventions, performance, security), Extension lifecycle (extension types, scopes, deployment, updating, deprecation), and Troubleshooting. Data analytics and reporting and System and application reference documentation cover analysis options and the modular application layers.
+Start with Get started and Developing extensions in AL if you are new. Move to Extensibility and the language sections when you build features. Use AL-Go, the lifecycle pages and Troubleshooting when you prepare for delivery, per-tenant deployment or Marketplace publishing.
 
 ## Key points
 
-- Developing extensions in AL uses Visual Studio Code and covers tables, pages, codeunits and reports, with table and page extensions, code snippets and a drag-and-drop designer.
-- The AL Language reference covers data types, methods, properties, triggers, AL and AVS diagnostics, code analyzers and method attributes.
-- AL-Go for GitHub offers GitHub templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
-- Get started covers installing Visual Studio Code and the AL Language extension, editor tools, Designer, telemetry, translations and runtime packages.
-- Extensibility covers extending code flow, tables, pages, reports, enums and permission sets via events, without changing base code.
-- Best practices cover obsoleting AL objects and methods, deprecating external business events, testing, performance, security and Marketplace preparation.
-- Extension lifecycle explains global apps, per-tenant extensions and DEV extensions, and moving apps between scopes.
-- Troubleshooting covers AL debugging and profiling, telemetry setup and analysis, and guides for migration, report and web service errors.
+- Extensions are built in AL with Visual Studio Code and the AL Language extension, using objects such as tables, pages, codeunits and reports.
+- The extension model uses table extensions and page extensions to change behavior without modifying base code.
+- AL Language reference covers data types, methods, properties, method attributes, AL and AVS diagnostics, and code analyzers.
+- AL-Go for GitHub offers templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
+- Extensibility covers events, requesting changes to Microsoft code, client add-ins, Power BI embedding and System Application modules.
+- Rules and best practices explain how to obsolete AL objects, methods and symbols, and how to deprecate external business events.
+- Extension lifecycle covers testing, deploying, updating, translating, data migration, extension types and scopes.
+- Troubleshooting covers AL debugging and profiling, Application Insights telemetry and troubleshooting guides for errors, slow performance, locks and web service failures.
 
 ## Subtopics
 
@@ -580,6 +581,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10869 [29.x]-[WHT] Inconsistency with the Payments](../../changes/bcapps/10869.md) (code change): "Withholding Tax Mgmt. codeunit 6785 is modified in releases"
 - [#10927 [Change Log] Preserve SystemId for unloaded record modifications](../../changes/bcapps/10927.md) (code change): "Change Log Management now preserves the SystemId from persisted"
 - [#11002 [Master] - Slice 626305: [Excise Tax][VENDOR] Improving Excise Duty Calculation](../../changes/bcapps/11002.md) (code change): "Excise duty calculation now supports specific-per-unit, ad valorem"
+- [#12187 Restore parent table relations for Comment Line configuration imports](../../changes/bcapps/12187.md) (code change): "table extension with twelve conditional table relations restores Comment Line"
 - [#8745 Bug 640098: Make Table Information Cache refresh resilient to duplicate table numbers](../../changes/bcapps/8745.md) (code change): "Table Information Cache refresh now aggregates metrics when duplicate table numbers are encountered"
 - [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../changes/bcapps/9351.md) (code change): "Contract renewal detection in the Sales-Post subscribers was reworked"
 - [#9600 Uptake sift disable enable support](../../changes/bcapps/9600.md) (code change): "Index management pages now support viewing and disabling SIFT indexes on relevant tables"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T15:20:24.998Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,7 @@ links:
     - video/Fz8NLByllRc
     - video/GwrMf1umTFg
     - video/M0IzeLSn7qU
+    - video/vyQnSxRGJDA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -89,7 +90,7 @@ children: []
 coverage:
   learn: 6
   code: 0
-  video: 3
+  video: 4
   blog: 0
   guideline: 0
 bc_forms: []
@@ -135,5 +136,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Mileage Allowances (2026 release wave 1)](../../../../videos/Fz8NLByllRc.md) (video): "Automatic mileage rate calculation; Automatic expense report matching"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "Project resource assignment on project card; Project task level resource assignment"
 - [What's new in Expense Agent: Improved Approval Process (2026 release wave 2)](../../../../videos/M0IzeLSn7qU.md) (video): "expense agent; approval process; audit trail; ai policies"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowance Calculation; Expense Agent Wizard Configuration"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12322",
+  "input_hash": "20633f5d90a5e343491309a41ce69e10d77b007c24377db1f6dab8b8edac0013",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-19T01:10:56.721Z",
+  "issues": [
+    "Key point 5 says the new QltyMgmt - Bin View permission set controls bin code visibility. Nothing given supports that; it only shows a permission set was added."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026225,
+    "changes_in_call": 6
+  }
+}

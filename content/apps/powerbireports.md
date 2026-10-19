@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 78b3f66469e3032d0ccf4a0840c8c3467efd3fd0db5378211a51838a99aec1cb
+  input_hash: ea97b085dbdde122363e7741bfc3f42b82d68514daf34d1031795b5543a12d32
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PowerBIReports/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PowerBIReports/app
     title: src/Apps/W1/PowerBIReports/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -680,4 +680,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [What's New: Power BI Embedding (For Developers) (2025 release wave 1)](../videos/RU3D3RMAvVI.md) (video, 2025-04-01): names Page 37059 "Finance Report"
 - [Introducing: Sales Order Agent (2025 release wave 1)](../videos/XhO4oFmoh1M.md) (video, 2025-04-01): names Page 37026 "Item Availability"
 
-Source: [src/Apps/W1/PowerBIReports/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/PowerBIReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/PowerBIReports/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/PowerBIReports/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

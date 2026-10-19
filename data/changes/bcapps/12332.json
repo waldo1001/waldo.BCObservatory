@@ -130,7 +130,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
       {
         "path": "src/System Application/App/MCP/Permissions/MCPAdmin.PermissionSet.al",
@@ -166,6 +166,17 @@
         "page": "permissionset/8351"
       },
       {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPAgentToolsFeature.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8376",
+        "type": "codeunit",
+        "id": 8376,
+        "name": "MCP Agent Tools Feature",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8376"
+      },
+      {
         "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfig.Codeunit.al",
         "status": "modified",
         "key": "codeunit/8350",
@@ -199,6 +210,28 @@
         "page": "enum/8351"
       },
       {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAgentLookup.Page.al",
+        "status": "added",
+        "key": "page/8379",
+        "type": "page",
+        "id": 8379,
+        "name": "MCP Agent Lookup",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8379"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigAgentList.Page.al",
+        "status": "added",
+        "key": "page/8378",
+        "type": "page",
+        "id": 8378,
+        "name": "MCP Config Agent List",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "page/8378"
+      },
+      {
         "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigCard.Page.al",
         "status": "modified",
         "key": "page/8351",
@@ -221,23 +254,7 @@
         "page": "page/8350"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPAgentToolsFeature.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPAgentLookup.Page.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/System Application/App/MCP/src/Configuration/Pages/MCPConfigAgentList.Page.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "development"

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ac13784ae06dc56f5fc7e30adcdb52df7f7b489d5e9d33537e404f96ad134be9
+  input_hash: fb8dcb0d751f28002a95842fd6b54d1f582da7ec36be565cede18e90b3086518
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app
     title: src/Apps/W1/External File Storage - SharePoint Connector/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -139,4 +139,4 @@ First-party app · folder `src/Apps/W1/External File Storage - SharePoint Connec
 |---|---|---|
 |  | [Ext. SharePoint Connector](../objects/entitlement/ext-sharepoint-connector.md) |  |
 
-Source: [src/Apps/W1/External File Storage - SharePoint Connector/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/External File Storage - SharePoint Connector/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
   localizations: []
   videos:
     - video/QGG0dW6HqSg
+    - video/whtP2i7zeso
   posts: []
   guidelines: []
 learn_toc_path:
@@ -120,7 +121,7 @@ children: []
 coverage:
   learn: 5
   code: 40
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -204,6 +205,7 @@ Start with the setup page. It covers the synchronization partner, the shared int
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [What's New: Cross Environment Intercompany Posting and Approval for IC General Journals (2023)](../../../../../videos/QGG0dW6HqSg.md) (video): "Cross environment intercompany posting; Intercompany partner setup wizard"
+- [What's New: Enhancements in Intrastat (2025 release wave 1)](../../../../../videos/whtP2i7zeso.md) (video): "intercompany reporting. Shows: Mandatory fields for Intrastat"
 
 ## Business Central pages and reports
 

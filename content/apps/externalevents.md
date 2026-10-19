@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8cd795c099c8d0362dce03f5c70a509a27a2ea334d870a1432e733e1c80a5147
+  input_hash: 684361d04fec8d9cbba2b8f80d2a48cdf87f029061f4d31f66682014c07186cc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExternalEvents/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExternalEvents/app
     title: src/Apps/W1/ExternalEvents/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -87,4 +87,4 @@ First-party app · folder `src/Apps/W1/ExternalEvents/app` · namespace `Microso
 |---|---|---|
 | 38500 | [External Events Category](../objects/enumextension/38500.md) |  |
 
-Source: [src/Apps/W1/ExternalEvents/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExternalEvents/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExternalEvents/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExternalEvents/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:17.492Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-19T01:09:02.086Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -77,7 +77,6 @@ links:
   objects:
     - object/page/9802
   features:
-    - feature/573319
     - feature/573370
     - feature/573372
   topics: []
@@ -143,12 +142,10 @@ features:
     verified: false
     status_source: video
   - name: Analysis tabs generation
-    status: ga
+    status: unclear
     t: 560
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573319"
+    status_source: video
   - name: Contextual page capabilities
     status: unclear
     t: 645
@@ -236,7 +233,7 @@ It also covers admin setup and context-aware features. Admins can manage Copilot
 | Copilot and Agent Capabilities page | generally available (roadmap [Updates to Agent UI experience](../features/573372.md)), demoed | [6:18](https://www.youtube.com/watch?v=2uXVammbab0&t=378s) |
 | Copilot permission set | generally available (roadmap [Manage agent permissions easier](../features/573370.md)), demoed | [6:45](https://www.youtube.com/watch?v=2uXVammbab0&t=405s) |
 | Inventory search by price and category | status not stated, demoed | [7:37](https://www.youtube.com/watch?v=2uXVammbab0&t=457s) |
-| Analysis tabs generation | generally available (roadmap [Bookmark list views and analysis tabs](../features/573319.md)), demoed | [9:20](https://www.youtube.com/watch?v=2uXVammbab0&t=560s) |
+| Analysis tabs generation | status not stated, demoed | [9:20](https://www.youtube.com/watch?v=2uXVammbab0&t=560s) |
 | Contextual page capabilities | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
 | Suggest item substitutes | status not stated, demoed | [10:45](https://www.youtube.com/watch?v=2uXVammbab0&t=645s) |
 | Prompt guide | status not stated, demoed | [11:46](https://www.youtube.com/watch?v=2uXVammbab0&t=706s) |

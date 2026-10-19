@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -232,9 +232,6 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10048
-    - change/bcapps/10342
-    - change/bcapps/9078
-    - change/bcapps/9347
     - change/bcapps/9690
     - change/bcapps/9955
 learn_toc_path:
@@ -326,9 +323,6 @@ Start with the Germany local functionality page for an overview and the planned 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10048 Add GTIN to XRechnung and ZUGFeRD exports](../../../../changes/bcapps/10048.md) (code change): "GTIN codes from item cards are now exported to XRechnung and ZUGFeRD documents"
-- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../changes/bcapps/10342.md) (code change): "German XRechnung and ZUGFeRD electronic document exports"
-- [#9078 Bug 624364: Intrastat DE groups detail lines by Country/Region of Origin](../../../../changes/bcapps/9078.md) (code change): "German Intrastat export now groups detail lines by both Tariff Number and Country of Origin"
-- [#9347 Fix IssueDate in E-Documents for Germany](../../../../changes/bcapps/9347.md) (code change): "Fixed the IssueDate field in German E-Document exports (XRechnung and ZUGFeRD formats)"
 - [#9690 Add XRechnung structured format reader for inbound e-documents](../../../../changes/bcapps/9690.md) (code change): "structured format reader for German XRechnung e-documents that parses inbound XML"
 - [#9955 XRechnung – Invalid XML Generated When Invoice Discount Percentage Exceeds 2 Decimals](../../../../changes/bcapps/9955.md) (code change): "XRechnung e-invoices with discount percentages exceeding 2 decimals"
 

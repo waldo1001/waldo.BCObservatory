@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -151,7 +151,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "CSV is an unstructured flat file format where data is separated by delimiters"
 - [Essential Guides to Data Imports in Business Central](../../../../../posts/aardvarklabs-blog/2333.md) (community post): "Data import and export are central to onboarding, cross-system sync"
-- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "Data is parsed into separate staging tables before creating actual sales orders"
+- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "parse and import delimited files containing header and detail records"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "explains how to import multi-tab Excel files into Business Central with a header/line relationship structure"
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"

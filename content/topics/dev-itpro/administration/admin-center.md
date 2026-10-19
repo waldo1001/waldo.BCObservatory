@@ -2,21 +2,21 @@
 id: topic/dev-itpro/administration/admin-center
 type: topic
 title: Admin center
-summary: The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.
+summary: "The Business Central administration center covers how tenant administrators manage online environments: create, copy, rename, restore, delete, transfer and export them, and control updates, apps, access, capacity, telemetry, notifications and billing. It answers how-to and limit questions for these tasks. A subtopic covers the Admin Center API."
 tier: official
 language: en
 system: administration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:16:15.343Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 435334cc60fef9ae9cfd779872b229173852be5b008e1b9c73deeb9129eaed10
+  input_hash: 39eabc258cc6717b8449a9182891004c1c1ee392732f18effb98d34a3b65b920
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api_app_management
@@ -300,26 +300,28 @@ narrative: generated
 
 # Admin center
 
-> The Business Central administration center is the portal where tenant administrators manage online environments, apps, updates, access, capacity, telemetry, notifications and billing. It answers questions on environment lifecycle (create, copy, rename, delete, restore, transfer, export) and day-to-day admin tasks. A subtopic covers the Admin Center API.
+> The Business Central administration center covers how tenant administrators manage online environments: create, copy, rename, restore, delete, transfer and export them, and control updates, apps, access, capacity, telemetry, notifications and billing. It answers how-to and limit questions for these tasks. A subtopic covers the Admin Center API.
 
-Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative reviewed (checked by Opus)
+Path: [Administration](../administration.md) > Admin center · tier official · system administration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-The admin center is the main place to administer Business Central online. The pages cover the portal itself (access requirements, delegated admin roles, GDAP), then the Environments tab for production and sandbox environments, including Power Platform linking, update windows and security groups.
-Lifecycle pages cover copying, renaming, deleting and recovering, restoring to a point in time, exporting databases to BACPAC, and transferring environments between Microsoft Entra tenants. Operational pages cover sessions, updates, apps, capacity, telemetry, notifications, access, and consumption-based billing for Copilot and agents. A separate Admin Center API subtopic (15 pages) covers programmatic access.
-Start with the Business Central Administration Center page for access and the overall layout, then Managing Production and Sandbox Environments. Move to the task-specific page you need.
+The admin center is the portal where tenant administrators run Business Central online environments. The landing page explains access requirements, delegated admin roles (GDAP), and the main areas: environments, notification recipients, telemetry, and support settings.
+
+Most pages are task guides for the Environments tab. They cover creating and copying production and sandbox environments, renaming them, deleting and recovering them, restoring to a point in time, exporting databases as BACPAC files, and transferring environments between Microsoft Entra tenants. Other pages cover ongoing operations: update windows and scheduled updates, managing apps (global apps, per-tenant extensions, DEV extensions), sessions, capacity and storage, and access through security groups and licenses.
+
+Monitoring and cost pages cover environment telemetry with Application Insights, tenant-specific notifications, and consumption-based billing for Copilot and agents. Start with the administration center overview, then go to the Environments page for lifecycle tasks. The Admin Center API subtopic (15 pages) is for automating these tasks.
 
 ## Key points
 
-- Deleted environments are soft-deleted for 14 days and can be recovered. After that they are hard-deleted permanently.
-- Restore works to a point in time within 28 days using automated backups, with a limit of 10 restores per month.
-- Database export creates BACPAC files in an Azure standard storage account using a shared access signature. Exports are rate limited and customer-managed encryption keys are supported.
-- Transfers between Entra tenants must be accepted on the destination tenant within 8 hours. Post-transfer setup is needed for users and integrations.
-- Copying an environment keeps the same application version, extensions and configuration, and unlinks it from Power Platform.
-- Managing Apps handles Global Apps, Per-Tenant Extensions and DEV extensions, covering installation, update scheduling, dependency resolution and an Apps Update Cadence setting for automatic updates.
-- Updates are managed with update windows, scheduled or canceled updates, notification recipients and preview versions.
-- Notifications go through email, Message Center, Application Insights, Logic Apps and Power Automate. Consumption billing for Expense, Payables and Sales Order agents uses prepaid capacity or pay-as-you-go through Power Platform.
+- Delete keeps an environment soft-deleted for 14 days and allows recovery. After that it is permanently deleted.
+- Restore uses automated backups to return an environment to a point in time within 28 days, limited to 10 restores per month.
+- Copy creates a duplicate of a production or sandbox environment with the same application version, extensions and configuration, for troubleshooting and testing.
+- Database export creates BACPAC files in an Azure storage account using a shared access signature, and export is rate limited.
+- Environment transfer between Entra tenants is started by an admin on the source tenant and must be accepted on the destination tenant within 8 hours.
+- Renaming an environment changes its URL, so plan for impact on links, integrations and users.
+- Update management covers update windows, scheduling to available or planned versions, cancelling updates, preview versions and notification recipients.
+- Consumption-based billing for the Expense, Payables and Sales Order agents uses Copilot Credits, either prepaid capacity or pay-as-you-go through Power Platform.
 
 ## Subtopics
 

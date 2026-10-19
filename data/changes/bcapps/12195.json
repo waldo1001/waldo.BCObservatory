@@ -93,7 +93,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
       {
         "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/permissionset/FabricExpActivate.PermissionSet.al",
@@ -118,6 +118,17 @@
         "page": "permissionset/48530"
       },
       {
+        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricFieldValidation.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/48536",
+        "type": "codeunit",
+        "id": 48536,
+        "name": "Fabric Field Validation",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48536"
+      },
+      {
         "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricPlatformTables.Page.al",
         "status": "modified",
         "key": "page/48512",
@@ -127,20 +138,20 @@
         "app": "MicrosoftFabricMirroring",
         "cc": "w1",
         "page": "page/48512"
-      }
-    ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricFieldValidation.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
       },
       {
         "path": "src/Apps/W1/MicrosoftFabricMirroring/app/src/platform/FabricTableValidation.Codeunit.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "codeunit/48535",
+        "type": "codeunit",
+        "id": 48535,
+        "name": "Fabric Table Validation",
+        "app": "MicrosoftFabricMirroring",
+        "cc": "w1",
+        "page": "codeunit/48535"
       }
-    ]
+    ],
+    "unjoined": []
   },
   "systems": [
     "development"

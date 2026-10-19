@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:42.368Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -159,7 +159,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Why Onboarding Experiences are Important](../../../videos/3uVf6BEXt1w.md) (video): "Customer self-service onboarding; Template-based setup approach; Partner-knowledge apps"
 - [The Human Aspect of Onboarding](../../../videos/HSgTJbyi0a4.md) (video): "onboarding; user experience; new users; guidance; partner enablement"
 - [What's New: Creating Customer Centric Onboarding Experiences (2023 release wave 2)](../../../videos/NwMLT-k6J6Q.md) (video): "onboarding; customer journey; personalization; trial experience; questionnaire"
-- [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup"
+- [Overview of Customer and Partner Onboarding Journeys](../../../videos/XNfgf7tCeaw.md) (video): "customer onboarding; partner-led experience; trial setup; prospect profiling"
 
 ## Business Central pages and reports
 

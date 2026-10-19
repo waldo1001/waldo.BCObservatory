@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 916e5259caa567a3f0aafb175bd30ee1b7a3f6ba9c44763d944e3aa03402d345
+  input_hash: b531a85740ee5e7d8ba4a99394ed39e0d0bb18fda3bc5713ffc34e935fd1df19
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20SMTP%20Connector/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Email%20-%20SMTP%20Connector/app
     title: src/Apps/W1/Email - SMTP Connector/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -168,4 +168,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [SMTP Connector](../objects/entitlement/smtp-connector.md) |  |
 
-Source: [src/Apps/W1/Email - SMTP Connector/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Email%20-%20SMTP%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Email - SMTP Connector/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Email%20-%20SMTP%20Connector/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

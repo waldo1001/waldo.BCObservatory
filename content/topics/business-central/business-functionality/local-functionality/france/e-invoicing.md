@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,7 +45,7 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/9355
+    - change/bcapps/10342
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -99,6 +99,6 @@ Start with the UBL 2.1 and Factur-X page if you need to send or receive B2B invo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#9355 [master] [FR] [E-document] Changed place for "SIRET No." and exposed codeunit for export Factur-X](../../../../../changes/bcapps/9355.md) (code change): "Export Factur-X Document codeunit in the French E-Document app"
+- [#10342 Add GLN information to XRechnung and ZUGFeRD exports](../../../../../changes/bcapps/10342.md) (code change): "GLN identifiers with schemeID 0088 are now included in German XRechnung"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

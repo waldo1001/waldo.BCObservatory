@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12067",
+  "input_hash": "9079b4b84f8d845b4ee1efaa1b4231c78045ef11b3554f339be94431028ff782",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-19T01:10:56.721Z",
+  "issues": [
+    "Key point 4 puts the DisableVATDateUsage helper in the E-Document Item Charge tests. The helper was removed from Test Initialize Handler CZL."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026225,
+    "changes_in_call": 6
+  }
+}

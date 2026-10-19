@@ -2,25 +2,26 @@
   "inputs": [
     7,
     [
-      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
       "4",
-      9494
+      9499
     ]
   ],
   "major": "30",
-  "count": 678,
+  "count": 685,
   "by_tag": {
-    "untagged": 100,
+    "untagged": 103,
     "23.0": 1,
     "24.0": 8,
     "25.0": 162,
     "25.2": 2,
     "26.0": 46,
-    "27.0": 130,
+    "27.0": 128,
     "27.2": 1,
     "28.0": 144,
     "29.0": 71,
-    "30.0": 13
+    "29.1": 2,
+    "30.0": 17
   },
   "items": [
     {
@@ -180,6 +181,32 @@
       "clean_version": "28"
     },
     {
+      "key": "codeunit/6154",
+      "object": "API Webhook Notification Send",
+      "member": "ConvertToDotNetHttpStatusCode",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "codeunit/6154",
+      "object": "API Webhook Notification Send",
+      "member": "OnSendRequestOnBeforeSendRequestAndReadTextResponse",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
       "key": "codeunit/6464",
       "object": "Serv. Electr. Doc. Format",
       "member": "OnAfterShouldLogUptake",
@@ -204,6 +231,19 @@
         "CLEAN29"
       ],
       "clean_version": "29"
+    },
+    {
+      "key": "codeunit/6710",
+      "object": "ODataUtility",
+      "member": "CreateMetadataWebRequest",
+      "kind": "procedure",
+      "state": null,
+      "tag": null,
+      "reason": null,
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
     },
     {
       "key": "codeunit/6721",
@@ -5213,32 +5253,6 @@
       "clean_version": "27"
     },
     {
-      "key": "table/311",
-      "object": "Sales & Receivables Setup",
-      "member": "Create Item from Item No.",
-      "kind": "field",
-      "state": "Pending",
-      "tag": "27.0",
-      "reason": "Discontinued function",
-      "clean": [
-        "CLEANSCHEMA29"
-      ],
-      "clean_version": "29"
-    },
-    {
-      "key": "table/312",
-      "object": "Purchases & Payables Setup",
-      "member": "Create Item from Item No.",
-      "kind": "field",
-      "state": "Pending",
-      "tag": "27.0",
-      "reason": "Discontinued function",
-      "clean": [
-        "CLEANSCHEMA29"
-      ],
-      "clean_version": "29"
-    },
-    {
       "key": "table/313",
       "object": "Inventory Setup",
       "member": "Invt. Orders Package Tracking",
@@ -8381,6 +8395,45 @@
       "clean_version": "29"
     },
     {
+      "key": "codeunit/7768",
+      "object": "AOAI Deployments",
+      "member": "GetGPT55ChatLatest",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "29.1",
+      "reason": "GPT-5.5 chat deployment name is no longer supported from 11 September 2026. Use GetGPT56CeresLatest instead (or GetGPT56CeresPreview for testing upcoming versions).",
+      "clean": [
+        "CLEAN29"
+      ],
+      "clean_version": "29"
+    },
+    {
+      "key": "codeunit/7768",
+      "object": "AOAI Deployments",
+      "member": "GetGPT55ChatPreview",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "29.1",
+      "reason": "GPT-5.5 chat deployment name is no longer supported from 11 September 2026. Use GetGPT56CeresLatest instead (or GetGPT56CeresPreview for testing upcoming versions).",
+      "clean": [
+        "CLEAN29"
+      ],
+      "clean_version": "29"
+    },
+    {
+      "key": "codeunit/1299",
+      "object": "Web Request Helper",
+      "member": "GetHostNameFromUrl",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Use the IsValidUri, Init and GetHost procedures in codeunit Uri (System.Utilities) instead.",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
       "key": "codeunit/1550",
       "object": "Record Restriction Mgt.",
       "member": "ItemJournalBatchCheckItemJournalLinePostRestrictions",
@@ -8394,26 +8447,39 @@
       "clean_version": "30"
     },
     {
-      "key": "codeunit/7768",
-      "object": "AOAI Deployments",
-      "member": "GetGPT55ChatLatest",
+      "key": "codeunit/6154",
+      "object": "API Webhook Notification Send",
+      "member": "OnAfterSendNotification",
       "kind": "procedure",
       "state": "Pending",
       "tag": "30.0",
-      "reason": "GPT-5.5 chat deployment name is no longer supported from 11 September 2026. Use GetGPT56CeresLatest instead (or GetGPT56CeresPreview for testing upcoming versions).",
+      "reason": "Use OnAfterSendNotificationWithStatusNumber instead.",
       "clean": [
         "CLEAN30"
       ],
       "clean_version": "30"
     },
     {
-      "key": "codeunit/7768",
-      "object": "AOAI Deployments",
-      "member": "GetGPT55ChatPreview",
+      "key": "codeunit/8350",
+      "object": "MCP Config",
+      "member": "DeleteTool",
       "kind": "procedure",
       "state": "Pending",
       "tag": "30.0",
-      "reason": "GPT-5.5 chat deployment name is no longer supported from 11 September 2026. Use GetGPT56CeresLatest instead (or GetGPT56CeresPreview for testing upcoming versions).",
+      "reason": "Renamed to DeleteAPITool.",
+      "clean": [
+        "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "table/18",
+      "object": "Customer",
+      "member": "OnBeforeCheckBlockedCust",
+      "kind": "procedure",
+      "state": "Pending",
+      "tag": "30.0",
+      "reason": "Replaced by OnBeforeCheckBlockedCust2",
       "clean": [
         "CLEAN30"
       ],
@@ -8429,6 +8495,32 @@
       "reason": "This field could not be calculated because the user filter was not resolvable. Use \"Last Run by Current User\" together with the \"User Security ID Filter\" flow filter instead.",
       "clean": [
         "CLEAN30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "table/311",
+      "object": "Sales & Receivables Setup",
+      "member": "Create Item from Item No.",
+      "kind": "field",
+      "state": "Removed",
+      "tag": "30.0",
+      "reason": "Discontinued function",
+      "clean": [
+        "CLEANSCHEMA30"
+      ],
+      "clean_version": "30"
+    },
+    {
+      "key": "table/312",
+      "object": "Purchases & Payables Setup",
+      "member": "Create Item from Item No.",
+      "kind": "field",
+      "state": "Removed",
+      "tag": "30.0",
+      "reason": "Discontinued function",
+      "clean": [
+        "CLEANSCHEMA30"
       ],
       "clean_version": "30"
     },

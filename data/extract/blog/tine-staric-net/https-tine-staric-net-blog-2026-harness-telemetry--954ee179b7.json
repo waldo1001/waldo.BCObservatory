@@ -5,14 +5,8 @@
   "source": "tine-staric-net",
   "published_at": "2026-10-18T08:00:00.000Z",
   "words": 1948,
-  "summary": "Setting up OpenTelemetry to track Claude Code and GitHub Copilot usage across teams reveals which plugins, skills and agents actually get used by collecting metrics, events and traces through a managed collector that filters data, hashes identities and exports to Application Insights for analysis via dashboards.",
-  "key_points": [
-    "OpenTelemetry covers three signal types: metrics (numbers over time), logs (events), and traces (operations), with Claude Code sending metrics and events while Copilot sends traces and metrics.",
-    "A small collector in the middle accepts bearer ingest tokens, filters signals to keep only what answers business questions, deletes sensitive content before storage, and exports to Application Insights with proper authentication.",
-    "Managed settings deployed through admin consoles let teams enforce telemetry configuration across developers without them being able to opt out, covering both Claude Code and GitHub Copilot consistently.",
-    "Core dashboard tracks nine key metrics including active users, plugin adoption versus usage, skill activation, MCP connections, and costs per repository to answer questions about what adds value.",
-    "Privacy-first approach: allowlist only necessary events, hash user identities with salted hashes on the collector side, and restrict workspace access to ensure pseudonymous data stays protected."
-  ],
+  "summary": "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.",
+  "key_points": [],
   "systems": [
     "development",
     "administration",

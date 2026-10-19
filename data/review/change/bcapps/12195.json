@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcapps-prs/12195",
+  "input_hash": "507138ef23df6c2c6454a28a9e5343a1a40c3c408a94351c0636e95e9484b6d6",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-19T01:10:56.721Z",
+  "issues": [
+    "The description is empty, so the content can only come from the title and file names.",
+    "Key point 5, which says no platform or table structures changed, is unsupported: the Fabric Platform Tables page and app.json were modified."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026225,
+    "changes_in_call": 6
+  }
+}

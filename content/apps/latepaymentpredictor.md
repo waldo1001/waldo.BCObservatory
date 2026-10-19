@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fd53e5fb20fde6bf78e89cae6061682a9b37aefba9072ad9d2e577243217845d
+  input_hash: 45a8d650aefee874926736e3cb823916986cfe186a4a2db3e7aa28288f221e85
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/LatePaymentPredictor/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/LatePaymentPredictor/app
     title: src/Apps/W1/LatePaymentPredictor/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -180,4 +180,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 28676 | [D365 BUS FULL ACCESS - Late Payment Prediction](../objects/permissionsetextension/28676.md) |  |
 | 38237 | [D365 BASIC - Late Payment Prediction](../objects/permissionsetextension/38237.md) |  |
 
-Source: [src/Apps/W1/LatePaymentPredictor/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/LatePaymentPredictor/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/LatePaymentPredictor/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/LatePaymentPredictor/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

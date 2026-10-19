@@ -8,11 +8,11 @@
   ],
   "summary": "Quality Management now allows users to select and use destination bin codes when creating manual transfer orders, with bin selection validated for bin-mandatory locations.",
   "key_points": [
-    "Destination bin code field added to manual Create Transfer Order action in Quality Management",
-    "Bin selection enabled only for bin-mandatory, non-directed locations",
-    "Selected bin code is validated against the destination location",
-    "Destination bin code propagates to the transfer order line",
-    "New permission set QltyMgmtBinView controls access to bin code visibility"
+    "Manual Create Transfer Order in Quality Management gets a destination bin selection",
+    "Bin can only be selected for bin-mandatory, non-directed destination locations",
+    "The chosen bin is validated against the selected destination location",
+    "The selected bin is stored in Transfer-To Bin Code on the transfer line",
+    "A new permission set, QltyMgmt - Bin View, was added"
   ],
   "change_kind": "feature",
   "behavior_change": true,

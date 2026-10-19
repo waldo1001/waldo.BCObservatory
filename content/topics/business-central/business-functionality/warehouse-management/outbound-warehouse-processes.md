@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:12.483Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -94,7 +94,8 @@ links:
   topics:
     - topic/business-central/business-functionality/warehouse-management
   localizations: []
-  videos: []
+  videos:
+    - video/zy-Tg9bBtHc
   posts:
     - post/vondervoort-be/67
   guidelines: []
@@ -119,7 +120,7 @@ children: []
 coverage:
   learn: 7
   code: 13
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -190,6 +191,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9451 [Extensibility Request] issue 30292: add temporary Warehouse Activity Line parameter to OnBeforeCreateWhseActivHeader](../../../../changes/bcapps/9451.md) (code change): "allowing subscribers to inspect pick lines before a warehouse activity header is created"
 - [#9532 [Master]Error when creating a Pick "Nothing to handle. The quantity to be picked is in bin W-09-0002, which is not set up for picking."](../../../../changes/bcapps/9532.md) (code change): "Fixes warehouse pick creation by checking all ship-type bins for picked-not-shipped quantities"
 - [Dutch Dynamics Community Event 18 november 2025](../../../../posts/vondervoort-be/67.md) (community post): "Warehouse Only Mode in D365 SCM enables Business Central users to leverage advanced warehouse features"
+- [What's New: E-Documents and E-Shipments (2025 release wave 2)](../../../../videos/zy-Tg9bBtHc.md) (video): "E-Shipments; E-Transfer Shipments; Sales Shipment E-Documents"
 
 ## Business Central pages and reports
 

@@ -2,7 +2,7 @@
 id: post/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7
 type: post
 title: '"Dev X used 2k tokens with Opus" is not telemetry'
-summary: Setting up OpenTelemetry to track Claude Code and GitHub Copilot usage across teams reveals which plugins, skills and agents actually get used by collecting metrics, events and traces through a managed collector that filters data, hashes identities and exports to Application Insights for analysis via dashboards.
+summary: "Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post."
 tier: community
 language: en
 tags:
@@ -16,16 +16,16 @@ tags:
   - plugins
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: flagged
+  by: opus
+  at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-19T00:23:05.756Z"
+  at: "2026-10-19T00:22:27.986Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: c8c75a153999d76e36db41684c4053163e863aaa4dd8a5f91d1c3fceb16b656a
+  input_hash: 5079ca1b34b541824c85ade6958a12f125228be4557c430e32ea4d51eecbf54c
 evidence:
   - kind: blog
     url: https://tine.staric.net/blog/2026/harness-telemetry/
@@ -88,28 +88,20 @@ versions_mentioned: []
 preview:
   embeddable: true
   frame_url: null
-  image: null
+  image: https://tine.staric.net/images/harnesstelemetry/main.png
   image_alt: null
   image_w: null
   image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-10-17T01:09:09.536Z"
+  site_name: Tech Adventures in Business Central | AL Development & AI Solutions
+  favicon: https://tine.staric.net/favicon.ico
+  probed_at: "2026-10-19T01:07:57.314Z"
 ---
 
 # "Dev X used 2k tokens with Opus" is not telemetry
 
-[Read the post](https://tine.staric.net/blog/2026/harness-telemetry/) · Tech Adventures in Business Central (Tine Staric) · 2026-10-18 · 1948 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://tine.staric.net/blog/2026/harness-telemetry/) · Tech Adventures in Business Central (Tine Staric) · 2026-10-18 · 1948 words · tier community · **flagged** (a review found a problem)
 
-> Setting up OpenTelemetry to track Claude Code and GitHub Copilot usage across teams reveals which plugins, skills and agents actually get used by collecting metrics, events and traces through a managed collector that filters data, hashes identities and exports to Application Insights for analysis via dashboards.
-
-## Key points
-
-- OpenTelemetry covers three signal types: metrics (numbers over time), logs (events), and traces (operations), with Claude Code sending metrics and events while Copilot sends traces and metrics.
-- A small collector in the middle accepts bearer ingest tokens, filters signals to keep only what answers business questions, deletes sensitive content before storage, and exports to Application Insights with proper authentication.
-- Managed settings deployed through admin consoles let teams enforce telemetry configuration across developers without them being able to opt out, covering both Claude Code and GitHub Copilot consistently.
-- Core dashboard tracks nine key metrics including active users, plugin adoption versus usage, skill activation, MCP connections, and costs per repository to answer questions about what adds value.
-- Privacy-first approach: allowlist only necessary events, hash user identities with salted hashes on the collector side, and restrict workspace access to ensure pseudonymous data stays protected.
+> Summary withheld: an Opus review found that the machine-written summary did not match the post. Read the original post.
 
 ## Quotes
 

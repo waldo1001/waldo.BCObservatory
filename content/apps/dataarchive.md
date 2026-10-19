@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8f698c5737966b1795c358466aa5b110523b0350ea0a8e5d5e18cdd8d0ad5a72
+  input_hash: 5259ad1e67ab8fd991140d1e6725049f2ca1c276518999819376e1e34d8ed468
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DataArchive/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DataArchive/app
     title: src/Apps/W1/DataArchive/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -126,4 +126,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 | 630 | [Data Archive - View](../objects/permissionsetextension/630.md) |  |
 
-Source: [src/Apps/W1/DataArchive/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DataArchive/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DataArchive/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DataArchive/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

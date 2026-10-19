@@ -2,7 +2,7 @@
 id: app/microsoftfabricmirroring
 type: app
 title: MicrosoftFabricMirroring
-summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
+summary: "MicrosoftFabricMirroring (Microsoft.FabricExport): 37 objects in BC30 (18 pages, 12 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-15T01:07:01.688Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: bb380cfe3441a8fe9944eeb4c5196759e753ae7c365d5be759868b1f2ccdaa89
+  input_hash: 8a50d77f1ae5ffa1a4c94b3e89db47c74288e0e399b7c6be127acd9f5f352e0a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/MicrosoftFabricMirroring/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/MicrosoftFabricMirroring/app
     title: src/Apps/W1/MicrosoftFabricMirroring/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -61,6 +61,8 @@ links:
     - object/codeunit/48527
     - object/codeunit/48528
     - object/codeunit/48529
+    - object/codeunit/48535
+    - object/codeunit/48536
     - object/enum/48534
     - object/permissionset/48530
     - object/permissionset/48531
@@ -77,10 +79,10 @@ namespace_root: Microsoft.FabricExport
 present_in:
   - "30"
 counts:
-  objects: 35
+  objects: 37
   by_type:
     page: 18
-    codeunit: 10
+    codeunit: 12
     table: 3
     permissionset: 3
     enum: 1
@@ -91,7 +93,7 @@ counts:
 
 # MicrosoftFabricMirroring
 
-> MicrosoftFabricMirroring (Microsoft.FabricExport): 35 objects in BC30 (18 pages, 10 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
+> MicrosoftFabricMirroring (Microsoft.FabricExport): 37 objects in BC30 (18 pages, 12 codeunits, 3 tables, 3 permission sets, 1 enum); documented by 1 Learn hub.
 
 First-party app · folder `src/Apps/W1/MicrosoftFabricMirroring/app` · namespace `Microsoft.FabricExport` · BC30 · system development · facts from the code pillar and the joins, nothing machine-written
 
@@ -103,7 +105,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-35 objects, by type.
+37 objects, by type.
 
 ### Tables (3)
 
@@ -136,7 +138,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 48518 | [Fabric Tables FactBox](../objects/page/48518.md) | Tables to Synchronize |
 | 48519 | [Fabric Platform Setup Wizard](../objects/page/48519.md) | Set Up Microsoft Fabric Mirroring |
 
-### Codeunits (10)
+### Codeunits (12)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -150,6 +152,8 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 48527 | [Fabric Platform Telemetry](../objects/codeunit/48527.md) |  |
 | 48528 | [Fabric Upgrade](../objects/codeunit/48528.md) |  |
 | 48529 | [Fabric Privacy Notice](../objects/codeunit/48529.md) |  |
+| 48535 | [Fabric Table Validation](../objects/codeunit/48535.md) |  |
+| 48536 | [Fabric Field Validation](../objects/codeunit/48536.md) |  |
 
 ### Enums (1)
 
@@ -165,4 +169,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 48531 | [Fabric Exp Read](../objects/permissionset/48531.md) | MS Fabric Mirroring - Read |
 | 48532 | [Fabric Exp Activate](../objects/permissionset/48532.md) | MS Fabric Mirroring - Activate |
 
-Source: [src/Apps/W1/MicrosoftFabricMirroring/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/MicrosoftFabricMirroring/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/MicrosoftFabricMirroring/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/MicrosoftFabricMirroring/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

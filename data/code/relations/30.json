@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
       "4",
-      9494,
-      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+      9499,
+      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
       "4",
-      6926
+      6933
     ]
   ],
   "schema": "al-relations@1",
@@ -3496,6 +3496,11 @@
     {
       "s": "codeunit/8705",
       "t": "table/8703",
+      "k": "runs_on"
+    },
+    {
+      "s": "codeunit/8755",
+      "t": "table/1173",
       "k": "runs_on"
     },
     {
@@ -108830,6 +108835,12 @@
       "s": "table/99000765",
       "t": "table/308",
       "k": "table_relation",
+      "via": "Production BOM Version Nos."
+    },
+    {
+      "s": "table/99000765",
+      "t": "table/308",
+      "k": "table_relation",
       "via": "Released Order Nos."
     },
     {
@@ -108837,6 +108848,12 @@
       "t": "table/308",
       "k": "table_relation",
       "via": "Routing Nos."
+    },
+    {
+      "s": "table/99000765",
+      "t": "table/308",
+      "k": "table_relation",
+      "via": "Routing Version Nos."
     },
     {
       "s": "table/99000765",
@@ -116214,6 +116231,11 @@
     {
       "s": "tableextension/958",
       "t": "table/5870",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/97",
+      "t": "table/97",
       "k": "extends"
     },
     {
@@ -126623,6 +126645,11 @@
       },
       "OnGetClientSecret": {
         "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnInitializeOnBeforeSetRequestUri": {
+        "kind": "internal",
         "obsolete": null,
         "subs": []
       }
@@ -138830,7 +138857,13 @@
       "OnAfterInitPurchOrderLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnAfterInitPurchOrderLine",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnAfterInsertPurchOrderHeader": {
         "kind": "integration",
@@ -138947,7 +138980,13 @@
       "OnBeforeCopyOrderDateFromPurchHeader": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnBeforeCopyOrderDateFromPurchHeader",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeDeleteReqLines": {
         "kind": "integration",
@@ -145742,6 +145781,11 @@
           {
             "s": "codeunit/1890",
             "proc": "GetFilename",
+            "app": "Base Application"
+          },
+          {
+            "s": "codeunit/8362",
+            "proc": "ReportManagement_OnGetFilename",
             "app": "Base Application"
           }
         ]
@@ -170737,7 +170781,7 @@
       },
       "OnAfterSendNotification": {
         "kind": "integration",
-        "obsolete": null,
+        "obsolete": "Pending 30.0",
         "subs": []
       },
       "OnAfterSendNotificationWithStatusNumber": {
@@ -170775,7 +170819,7 @@
         "obsolete": null,
         "subs": []
       },
-      "OnSendRequestOnBeforeSendRequestAndReadTextResponse": {
+      "OnSendRequestOnBeforeSendHttpRequest": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -191853,6 +191897,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnBeforePromptForRemainingReservations": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeTempOpportunityEntryInsert": {
         "kind": "integration",
         "obsolete": null,
@@ -201402,7 +201451,13 @@
       "OnPurchOrderChgAndResheduleOnBeforePurchLineModify": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnPurchOrderChgAndResheduleOnBeforePurchLineModify",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnPurchOrderChgAndResheduleOnBeforeValidateExpectedReceiptDate": {
         "kind": "integration",
@@ -221104,6 +221159,11 @@
       }
     },
     "page/9229": {
+      "OnAfterMatrixOnAfterGetRecord": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnBeforeMatrixOnAfterGetRecord": {
         "kind": "integration",
         "obsolete": null,
@@ -235996,6 +236056,11 @@
       },
       "OnBeforeCheckBlockedCust": {
         "kind": "integration",
+        "obsolete": "Pending 30.0",
+        "subs": []
+      },
+      "OnBeforeCheckBlockedCust2": {
+        "kind": "integration",
         "obsolete": null,
         "subs": []
       },
@@ -238967,6 +239032,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnAfterValidateQuantity": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnAfterValidateShortcutDimCode": {
         "kind": "integration",
         "obsolete": null,
@@ -239149,6 +239219,11 @@
         "subs": []
       },
       "OnBeforeValidateLocationChange": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeValidateQuantity": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -265649,6 +265724,11 @@
         "obsolete": null,
         "subs": []
       },
+      "OnCreateServiceLinesOnBeforeAssignType": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnCreateServiceLinesOnBeforeCopyReservEntryFromTemp": {
         "kind": "integration",
         "obsolete": null,
@@ -282631,7 +282711,7 @@
     }
   },
   "dead_events": {
-    "count": 22522
+    "count": 22523
   },
   "unresolved": [
     {
@@ -283268,6 +283348,42 @@
       "s": "codeunit/47012",
       "k": "subscribes",
       "raw": "Table \"Company\" OnAfterDeleteEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeInsertEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeModifyEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48535",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Tables\" OnBeforeRenameEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeInsertEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeModifyEvent",
+      "reason": "unknown"
+    },
+    {
+      "s": "codeunit/48536",
+      "k": "subscribes",
+      "raw": "Table \"Tenant Fabric Table Fields\" OnBeforeRenameEvent",
       "reason": "unknown"
     },
     {
@@ -284660,6 +284776,18 @@
       "s": "page/8367",
       "k": "source_table",
       "raw": "Query Metadata",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/8378",
+      "k": "source_table",
+      "raw": "MCP Configuration Agent",
+      "reason": "unknown"
+    },
+    {
+      "s": "page/8379",
+      "k": "source_table",
+      "raw": "Agent",
       "reason": "unknown"
     },
     {
@@ -292812,20 +292940,20 @@
     }
   ],
   "stats": {
-    "runs_on": 738,
-    "unresolved_unknown": 1487,
-    "extends": 1828,
+    "runs_on": 739,
+    "unresolved_unknown": 1495,
+    "extends": 1829,
     "source_table": 3623,
     "card_page": 318,
     "lookup_page": 821,
-    "table_relation": 10182,
+    "table_relation": 10184,
     "calc_formula": 2533,
     "drilldown_page": 518,
     "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5188,
-    "edges": 20561,
-    "published_events": 26100,
-    "dead_events": 22522
+    "subscribes": 5192,
+    "edges": 20565,
+    "published_events": 26107,
+    "dead_events": 22523
   }
 }

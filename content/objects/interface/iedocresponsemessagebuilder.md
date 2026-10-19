@@ -2,7 +2,7 @@
 id: object/interface/iedocresponsemessagebuilder
 type: object
 title: Interface "IEDocResponseMessageBuilder"
-summary: Interface "IEDocResponseMessageBuilder" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, gone after BC29.
+summary: Interface "IEDocResponseMessageBuilder" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 tier: official
 language: en
 tags:
@@ -18,10 +18,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-19T01:04:56.698Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2f7c2dca0eaae3d6507c5b3f8e9b3da71acf19acc73b01772e70fbcb945dea5e
+  input_hash: f6a774959f649bb37962b4ec926e4c8c54f8d79bf35e222b4ebe9450d1c20eaa
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al
@@ -39,6 +39,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12148
 object_type: interface
 object_id: null
 name: IEDocResponseMessageBuilder
@@ -46,9 +48,10 @@ namespace: Microsoft.eServices.EDocument.Processing.Interfaces
 app: EDocument
 extends: null
 first_version: "29"
-last_version: "29"
+last_version: "30"
 present_in:
   - "29"
+  - "30"
 changed_in: []
 source_major: "29"
 obsolete: null
@@ -73,17 +76,21 @@ relations:
 
 # Interface "IEDocResponseMessageBuilder"
 
-> Interface "IEDocResponseMessageBuilder" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, gone after BC29.
+> Interface "IEDocResponseMessageBuilder" in EDocument (Microsoft.eServices.EDocument.Processing.Interfaces). 1 public procedures. Introduced in BC29, still in BC30.
 
-EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al) · facts from BC29
+EDocument · Microsoft.eServices.EDocument.Processing.Interfaces · BC29-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/W1/EDocument/app/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al) · facts from BC29
 
 ## Procedures
 
 - `BuildResponseMessage(EDocument: Record "E-Document"; RequestedResponseType: Enum "E-Doc. Response Type"; var TempBlob: Codeunit "Temp Blob"): Enum "E-Doc. Response Type"`
 
+## Recent changes
+
+- 2026-10-16 [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../changes/bcapps/12148.md) (main, BC30, feature, added)
+
 ## Across versions
 
-- Present in: BC29
+- Present in: BC29-30
 - Changed (declaration) in: none
 
 Source: AL metadata extracted from the code (names, ids, signatures, properties); no code bodies (D10).

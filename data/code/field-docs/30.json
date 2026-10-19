@@ -3,19 +3,19 @@
     7,
     [
       1,
-      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
       "4",
-      "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+      "eb2bfe5258a473c969a6b85cdc98ce8524408706",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "30",
   "stats": {
-    "tooltips": 18978,
+    "tooltips": 18981,
     "bound": 12905,
-    "unparsed": 2988,
-    "unmatched": 3085,
+    "unparsed": 2989,
+    "unmatched": 3087,
     "tables": 1084,
     "fields": 9074
   },
@@ -41292,7 +41292,7 @@
         "control": "Tax Liable"
       },
       "VAT Bus. Posting Group": {
-        "tooltip": "Specifies the VAT business posting group applicable to the state.",
+        "tooltip": "Specifies the VAT business posting group to use when the country/region and county in the default customer address exactly match this tax area. If no default address exists, the first address determines the match. For a new customer, a nonblank value overrides the VAT business posting group from the...",
         "page": "page/30109",
         "control": "VATBusPostingGroup"
       }

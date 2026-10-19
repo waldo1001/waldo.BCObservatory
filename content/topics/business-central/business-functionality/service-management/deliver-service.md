@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:41.709Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -104,7 +104,6 @@ links:
     - change/bcapps/10056
     - change/bcapps/10422
     - change/bcapps/10424
-    - change/bcapps/10735
     - change/bcapps/11114
     - change/bcapps/11798
     - change/bcapps/8878
@@ -170,7 +169,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10056 [Master]- Cartera: Service Credit Memo cannot be posted - settlement check ignores Applies-to Doc. No. and Application Method.](../../../../changes/bcapps/10056.md) (code change): "Service credit memos in Spanish localization can now be posted"
 - [#10422 [Extensibility Request] issue 30423: expose previous service header](../../../../changes/bcapps/10422.md) (code change): "Service Header event subscribers now receive the previous record state through the OnValidateShipToCodeOnBeforeDeleteLines event"
 - [#10424 [Extensibility Request] issue 30421: allow custom travel cost lookup](../../../../changes/bcapps/10424.md) (code change): "A handled event is added to the travel cost lookup process in service order management"
-- [#10735 [Slice-631381] Add Mark as Accepted in posted documents for Spanish SII](../../../../changes/bcapps/10735.md) (code change): "Mark as Accepted action added to posted sales, purchase, and service invoice"
 - [#11114 [Master][ALL-E] Document Type is Quote in Document Attachment table (1173) after posting a Sales Invoice with attachments.](../../../../changes/bcapps/11114.md) (code change): "Document Type is now correctly set to Invoice or Credit Memo when attachments are transferred"
 - [#11798 [main] Bug 650733 External Doc No. now mandatory on Service Invoice](../../../../changes/bcapps/11798.md) (code change): "posting a service invoice wrongly required an External"
 - [#8878 [Master]- Service Item does not populate Ship-to Country/Region Code when Ship-to Code is blank](../../../../changes/bcapps/8878.md) (code change): "Service Item Card now fills in the Ship-to Country"

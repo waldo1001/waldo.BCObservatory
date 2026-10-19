@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7feac9cfd6ed9f20edfde2fe2b226b59c87bca01cddcc6b0b78ccf85af581dc1
+  input_hash: d0ec20710c766afda6e712875a1816df235959ecdc71cf20568e3a3e9fc2432f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/LibraryNoTransactions/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/LibraryNoTransactions/app
     title: src/Apps/W1/LibraryNoTransactions/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -67,4 +67,4 @@ First-party app · folder `src/Apps/W1/LibraryNoTransactions/app` · BC29-30 · 
 |---|---|---|
 | 130630 | [No Transactions Subscriber](../objects/codeunit/130630.md) |  |
 
-Source: [src/Apps/W1/LibraryNoTransactions/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/LibraryNoTransactions/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/LibraryNoTransactions/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/LibraryNoTransactions/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

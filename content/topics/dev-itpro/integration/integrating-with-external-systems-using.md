@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,6 +49,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
+    - change/bcapps/10437
     - change/bcapps/10466
     - change/bcapps/10526
     - change/bcapps/11846
@@ -110,8 +111,9 @@ Start with the business events page if you want to trigger Power Automate flows 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items"
-- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "E-Documents now leverages BaseApp's new PO Matching module"
+- [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added"
+- [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items when the description exactly matches"
+- [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "Integrates BaseApp's new PO Matching API surface into E-Document creation workflow"
 - [#11846 Fix View file on outgoing E-Documents to open the exported file](../../../changes/bcapps/11846.md) (code change): "Opening the View file action on outgoing E-Documents now retrieves and downloads the exported file"
 - [#11895 Make Reject Order reachable on inbound sales order drafts and confirm…](../../../changes/bcapps/11895.md) (code change): "The Reject Order action for inbound sales orders is now accessible directly from the Sales Document Draft page"
 - [#12055 [E-Documents Core] Show error for unmatched inbound Order Response](../../../changes/bcapps/12055.md) (code change): "Unmatched inbound PEPPOL Order Responses now produce a descriptive error"

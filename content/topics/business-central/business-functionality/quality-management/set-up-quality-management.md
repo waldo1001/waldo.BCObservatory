@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:26.153Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -70,7 +70,8 @@ links:
   topics:
     - topic/business-central/business-functionality/quality-management
   localizations: []
-  videos: []
+  videos:
+    - video/m8-7-JKq4dc
   posts: []
   guidelines: []
 learn_toc_path:
@@ -83,7 +84,7 @@ children: []
 coverage:
   learn: 5
   code: 5
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -127,6 +128,12 @@ Start with the setup and configuration page, then configure results and template
 - [Quality management setup and configuration](https://learn.microsoft.com/dynamics365/business-central/qms-setup): Learn how to set up and configure quality management features, including prerequisites, initial setup steps, and common scenarios.
 - [Quality management workflows](https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows): Learn how to automate quality management processes using workflows.
 - [Set up quality inspection generation rules](https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules): Learn how to configure inspection generation rules to automate quality inspections based on business transactions.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Quality Management Extension; Automatic Quality Test Triggering; Scheduled Quality Inspections"
 
 ## Business Central pages and reports
 

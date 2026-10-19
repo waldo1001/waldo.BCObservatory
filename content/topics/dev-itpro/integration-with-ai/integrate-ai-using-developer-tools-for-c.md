@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -216,7 +216,6 @@ links:
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
-    - change/bcapps/10408
     - change/bcapps/11073
     - change/bcapps/12428
     - change/bcquality/84
@@ -283,7 +282,6 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "uses AI to match Shopify tax lines to Business Central tax jurisdictions"
 - [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"

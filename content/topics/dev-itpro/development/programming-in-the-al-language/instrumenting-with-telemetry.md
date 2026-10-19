@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:46.836Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -89,18 +89,21 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry
   localizations: []
   videos:
-    - video/1x3QyBX3swg
-    - video/2u5_F9Ztt7U
     - video/7rIHz0zrgWU
     - video/b54ehH4AlFA
-    - video/F_pssS0FtUc
-    - video/G0avZpiDFtI
+    - video/hNom9ZZuca0
     - video/hS8yWS3bxWE
+    - video/mnxOSl1Y9PI
     - video/MYZOkoSmtZ0
     - video/oF_wSP0xrSQ
+    - video/P-7dYVfB73E
+    - video/Q-oazDEucLE
     - video/QT3RKx9rGJA
+    - video/rdnYN7czJs4
     - video/tDcT_51ktqo
     - video/TY82NR2hGEg
+    - video/UGmL665HtzE
+    - video/Vo5DgXnKiPo
     - video/VX_aPhcsIOc
   posts:
     - post/waldo-be/317845
@@ -123,7 +126,7 @@ children:
 coverage:
   learn: 8
   code: 0
-  video: 13
+  video: 16
   blog: 1
   guideline: 0
 bc_forms: []
@@ -176,18 +179,21 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10897 BC IQ - Update data sensitivities for policy history](../../../../changes/bcapps/10897.md) (code change): "Data sensitivities are updated to reflect recent changes to Business Skill"
 - [#12432 [AB#647643] Retain remote files and safely retire verified local references](../../../../changes/bcapps/12432.md) (code change): "Removes unused deletion telemetry and updates the README configuration guidance"
 - [Handling Business Central Telemetry like a boss: iFacto Telemetry – Pt. 3](../../../../posts/waldo-be/317845.md) (community post): "extends Business Central's built-in telemetry capabilities by adding custom events"
-- [Microsoft presents: Index management](../../../../videos/1x3QyBX3swg.md) (video): "telemetry; performance tuning; fragmentation; missing indexes; disabled indexes"
-- [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "Telemetry for MCP Configuration and Usage; Client Hardware and Network Telemetry"
 - [What's New: Telemetry (2023 release wave 2)](../../../../videos/7rIHz0zrgWU.md) (video): "telemetry; performance analysis; ai insights; error troubleshooting"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
-- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../../videos/F_pssS0FtUc.md) (video): "telemetry data; usage analytics; power bi reporting; go-live optimization"
-- [What's New: Server and Database (2025 release wave 1)](../../../../videos/G0avZpiDFtI.md) (video): "Telemetry Custom Dimensions User Type and Guest User"
+- [What's new: Testability Enhancements (2026 release wave 2)](../../../../videos/hNom9ZZuca0.md) (video): "telemetry; token consumption; test skipping; Test Handlers Property"
 - [What's New: Telemetry (2025 release wave 1)](../../../../videos/hS8yWS3bxWE.md) (video): "Financial Reporting Usage Telemetry; Financial Reporting Definition Changes Telemetry"
+- [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../../../videos/mnxOSl1Y9PI.md) (video): "Telemetry for AL Developers; Security for Developers; Extensibility Overview"
 - [Store Business Central Telemetry in Azure Application Insights](../../../../videos/MYZOkoSmtZ0.md) (video): "Store Business Central Telemetry in Azure Application Insights workspace configuration"
 - [I Built an AI That Turns Business Central Telemetry Into GitHub Issues (Automatically)](../../../../videos/oF_wSP0xrSQ.md) (video): "Automated BC telemetry triage with Azure Logic App and AI; KQL query for database lock timeouts"
+- [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Event telemetry; Event Usage Telemetry; Event Distribution Analysis"
+- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../videos/Q-oazDEucLE.md) (video): "debug logging via telemetry interception; observational test patterns"
 - [AL Go for GitHub January Office Hour](../../../../videos/QT3RKx9rGJA.md) (video): "AL-Go Telemetry Module"
+- [What's New in AL-Go for GitHub: Telemetry and Dashboards (2025 release wave 2)](../../../../videos/rdnYN7czJs4.md) (video): "AL-Go Telemetry to Application Insights; Workflow Duration Monitoring"
 - [What's New: Server and Database - A Faster Runtime (2023 release wave 2)](../../../../videos/tDcT_51ktqo.md) (video): "Exclusive Time Telemetry; Session Creation Performance Improvement"
 - [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL Doc reference documentation tool; XML documentation comments in AL"
+- [AL-Go for Github June Office Hour](../../../../videos/UGmL665HtzE.md) (video): "telemetry; custom templates; custom jobs; azure data explorer"
+- [Microsoft presents: Large scale development with AL-Go](../../../../videos/Vo5DgXnKiPo.md) (video): "AL-Go telemetry module; Partner telemetry connection string setting"
 - [Enable Cost Control Strategies for Business Central Telemetry](../../../../videos/VX_aPhcsIOc.md) (video): "telemetry; cost control; daily cap; application insights"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

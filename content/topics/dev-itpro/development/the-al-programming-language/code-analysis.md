@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -100,7 +100,6 @@ links:
     - change/al-go/2331
     - change/al-go/2342
     - change/bcapps/10086
-    - change/bcapps/10251
     - change/bcapps/10516
     - change/bcapps/10559
     - change/bcapps/10878
@@ -168,7 +167,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#2331 Support trackALAlertsInGitHub for workspace compilation build path](../../../../changes/al-go/2331.md) (code change): "Support trackALAlertsInGitHub for workspace compilation build path"
 - [#2342 Fix incremental builds poisoning buildMode-specific artifacts (#2337)](../../../../changes/al-go/2342.md) (code change): "Prevents AL1153 compiler errors from runtime version mismatches"
 - [#10086 Make AA0194 an error in the base ruleset](../../../../changes/bcapps/10086.md) (code change): "Make AA0194 an error in the base ruleset"
-- [#10251 Ruleset hardening: promote 5 rules from Warning to Error](../../../../changes/bcapps/10251.md) (code change): "Five analyzer rules were promoted back to Error by removing their overrides"
 - [#10516 Ruleset hardening: promote AL0468, AL0520, AL0589, AL0611, AL0749, AW0004 to Error](../../../../changes/bcapps/10516.md) (code change): "Six AL compiler rules are promoted from Warning to Error severity"
 - [#10559 Ruleset hardening: promote AL0659 and AL0685 to Error](../../../../changes/bcapps/10559.md) (code change): "Ruleset hardening: promote AL0659 and AL0685 to Error"
 - [#10878 Ruleset hardening: promote five low-risk rules to Error](../../../../changes/bcapps/10878.md) (code change): "Ruleset hardening: promote five low-risk rules to Error"

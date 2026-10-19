@@ -2,7 +2,7 @@
 id: app/quality-management
 type: app
 title: Quality Management
-summary: "Quality Management (Microsoft.QualityManagement): 218 objects in BC29-30 (58 codeunits, 37 enums, 35 pages, 33 page extensions, 16 tables, ...); documented by 4 Learn hubs."
+summary: "Quality Management (Microsoft.QualityManagement): 219 objects in BC29-30 (58 codeunits, 37 enums, 35 pages, 33 page extensions, 16 tables, ...); documented by 4 Learn hubs."
 tier: official
 language: en
 tags:
@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 0addd64f06785877096884da3b7e44a011e57a1b29038dfc610eeffdd21e87bd
+  input_hash: 5f884085960854d1d50efefb0ec64cdef30f7160c139d5f6243224bf0c7844a7
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Quality%20Management/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Quality%20Management/app
     title: src/Apps/W1/Quality Management/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -246,7 +246,7 @@ present_in:
   - "29"
   - "30"
 counts:
-  objects: 218
+  objects: 219
   by_type:
     codeunit: 58
     enum: 37
@@ -255,7 +255,7 @@ counts:
     table: 16
     report: 12
     tableextension: 10
-    permissionset: 5
+    permissionset: 6
     enumextension: 4
     permissionsetextension: 4
     query: 2
@@ -268,7 +268,7 @@ counts:
 
 # Quality Management
 
-> Quality Management (Microsoft.QualityManagement): 218 objects in BC29-30 (58 codeunits, 37 enums, 35 pages, 33 page extensions, 16 tables, ...); documented by 4 Learn hubs.
+> Quality Management (Microsoft.QualityManagement): 219 objects in BC29-30 (58 codeunits, 37 enums, 35 pages, 33 page extensions, 16 tables, ...); documented by 4 Learn hubs.
 
 First-party app · folder `src/Apps/W1/Quality Management/app` · namespace `Microsoft.QualityManagement` · BC29-30 · system inventory · facts from the code pillar and the joins, nothing machine-written
 
@@ -283,7 +283,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 ## Objects
 
-218 objects, by type.
+219 objects, by type.
 
 ### Tables (16)
 
@@ -543,7 +543,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Qlty. Disposition](../objects/interface/qlty-disposition.md) |  |
 
-### Permission sets (5)
+### Permission sets (6)
 
 | Id | Name | Caption |
 |---|---|---|
@@ -552,6 +552,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 20405 | [QltyMgmt - Admin](../objects/permissionset/20405.md) | Quality Admin & Supervisor |
 | 20406 | [QltyMgmt - Objects](../objects/permissionset/20406.md) | Quality Management - Objects |
 | 20407 | [QltyMgmt - I. Create](../objects/permissionset/20407.md) | Quality Inspection - Create |
+| 20408 | [QltyMgmt - Bin View](../objects/permissionset/20408.md) | Quality Destination Bin Lookup |
 
 ### Permission set extensions (4)
 
@@ -568,4 +569,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |---|---|---|
 |  | [Qlty. Manager](../objects/profile/qlty-manager.md) | Quality Manager |
 
-Source: [src/Apps/W1/Quality Management/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/Quality%20Management/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/Quality Management/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Quality%20Management/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:49.464Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -116,8 +116,7 @@ links:
     - topic/business-central/business-functionality
     - topic/business-central/business-functionality/quality-management/set-up-quality-management
   localizations: []
-  videos:
-    - video/m8-7-JKq4dc
+  videos: []
   posts:
     - post/olofsimren-com/3696
   guidelines: []
@@ -131,7 +130,7 @@ children:
 coverage:
   learn: 11
   code: 7
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms:
@@ -188,7 +187,6 @@ Further pages cover what happens after an inspection. They describe scheduled in
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Quality Management in Business Central Version 28](../../../posts/olofsimren-com/3696.md) (community post): "Business Central version 28 adds a native Quality Management module for inspecting goods"
-- [Introducing: Quality Management (2026 release wave 1)](../../../videos/m8-7-JKq4dc.md) (video): "Quality inspection; item tracking; non-compliant items; test results"
 
 ## Business Central pages and reports
 

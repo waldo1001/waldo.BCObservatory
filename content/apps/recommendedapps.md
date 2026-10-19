@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c9e1ac9aa5c1e888918dd5f24a3eaaa087c585acb801d0b35b9630009c086e4d
+  input_hash: 6d5bf51dc3fcc6a1c0b69eefb50148fe20f460417a3385d5e4ea2c860928cbab
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/RecommendedApps/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/RecommendedApps/app
     title: src/Apps/W1/RecommendedApps/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -116,4 +116,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 4752 | [RecommApps - Objects](../objects/permissionset/4752.md) | RecommendedApps - Objects |
 | 4753 | [RecommApps - Read](../objects/permissionset/4753.md) | RecommendedApps - Read |
 
-Source: [src/Apps/W1/RecommendedApps/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/RecommendedApps/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/RecommendedApps/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/RecommendedApps/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

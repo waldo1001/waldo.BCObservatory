@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -201,7 +201,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../../../videos/qZALauRY_So.md) (video): "Approvals for the Expense Agent; Pre-approval AI Suggestions; Team-based Approval Setup"
 - [Expense Agent: Approvals (2026 release wave 1)](../../../videos/rSGCNMIBcpc.md) (video): "Expense Agent: Approvals; approval process; approvers; email notifications"
 - [What's new in Expense Agent: Overview (2026 release wave 2)](../../../videos/tj1vvsmAMVs.md) (video): "Expense agent; mileage allowance; credit card feeds; travel expense policies"
-- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent: Per Diem Allowances; itinerary detection; meal reductions"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../videos/vyQnSxRGJDA.md) (video): "Per Diem Allowances; expense agent; itinerary detection; meal reductions"
 
 ## Business Central pages and reports
 

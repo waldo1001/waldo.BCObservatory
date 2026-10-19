@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:37.954Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,6 +114,10 @@ links:
     - video/jJxBswIy_Xw
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12377
+    - change/bcapps/12622
+    - change/bcapps/12857
 learn_toc_path:
   - Business functionality
   - Sales
@@ -183,10 +187,13 @@ Other pages cover lifecycle tasks: renewing contracts through sales quotes and o
 - [Update prices](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/price-update): You can update prices in subscription billing.
 - [Vendor subscription contracts](https://learn.microsoft.com/dynamics365/business-central/SRB/working-with-contracts/vendor-contracts): You can use vendor subscription contracts in subscription billing.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12377 [main] Bug 653097 Billing Lines Not Rolled Back When Vendor Subscription Contract Invoice Creation Fails.](../../../../../changes/bcapps/12377.md) (code change): "Billing lines are now rolled back when vendor subscription contract invoice creation fails"
+- [#12622 [Master]-Subscription Billing: Recurring Billing (Document Per = Contract Partner) Overwrites Contract Currency with Customer Currency Without Amount Conversion.](../../../../../changes/bcapps/12622.md) (code change): "Subscription Billing now correctly carries the contract currency to generated invoices"
+- [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12857.md) (code change): "Prevents customer credit memo lines from affecting vendor contract billing totals"
 - [What's New: Subscription Billing (2024 release wave 2)](../../../../../videos/jJxBswIy_Xw.md) (video): "contracts; billing proposals; pricing; automation; usage-based billing; contract management"
 
 ## Business Central pages and reports

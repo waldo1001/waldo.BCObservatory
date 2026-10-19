@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d492bc367ed1271ab676a5e7d6b81f5851ef7a8f640ffbd8b7bc8d086b0f3453
+  input_hash: e1efe2f1091dd0953a2f3a68c573b8d491a3dd9e0a4faf63892b77e0a70f0436
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EmailLogging/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/EmailLogging/app
     title: src/Apps/W1/EmailLogging/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -226,4 +226,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 |  | [Internal BC Administrator Email Logging](../objects/entitlement/internal-bc-administrator-email-logging.md) |  |
 |  | [Microsoft 365 - Email Logging](../objects/entitlement/microsoft-365-email-logging.md) |  |
 
-Source: [src/Apps/W1/EmailLogging/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EmailLogging/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/EmailLogging/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/EmailLogging/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

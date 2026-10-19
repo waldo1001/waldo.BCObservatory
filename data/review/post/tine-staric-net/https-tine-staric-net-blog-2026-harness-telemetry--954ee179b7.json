@@ -1,0 +1,22 @@
+{
+  "item_id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/harness-telemetry/",
+  "input_hash": "61f1b8486a7b25de9b9c3f3dd053e76796434222ab03e67b161e775f5aac6321",
+  "verdict": "reject",
+  "by": "opus",
+  "at": "2026-10-19T01:10:33.892Z",
+  "issues": [
+    "The post covers OpenTelemetry for Claude Code and GitHub Copilot usage, with Application Insights and managed settings; it never mentions Business Central.",
+    "Not a Business Central post, so the page cannot be fixed by editing fields."
+  ],
+  "applied": [
+    "summary and key points withheld"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037292,
+    "posts_in_call": 3
+  }
+}

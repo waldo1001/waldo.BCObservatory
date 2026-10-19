@@ -1,6 +1,6 @@
 # BC Observatory: Codeunit objects
 
-4044 objects, by id.
+4049 objects, by id.
 
 - [Codeunit 2 "Company-Initialize"](2.md): Base Application
 - [Codeunit 3 "G/L Account-Indent"](3.md): Base Application
@@ -2904,6 +2904,7 @@
 - [Codeunit 8359 "MCP Notifications"](8359.md): System Application
 - [Codeunit 8360 "Financial Report Export"](8360.md): Base Application
 - [Codeunit 8361 "Financial Report Export Job"](8361.md): Base Application
+- [Codeunit 8362 "FinReportExportNameHandler"](8362.md): Base Application
 - [Codeunit 8363 "DimPerspectiveAccSchMgtHandler"](8363.md): Base Application
 - [Codeunit 8364 "DimPerspectiveBusinessUnit"](8364.md): Base Application
 - [Codeunit 8365 "DimPerspectiveCustom"](8365.md): Base Application
@@ -2912,6 +2913,7 @@
 - [Codeunit 8368 "MCP Data Query Tools Feature"](8368.md): System Application
 - [Codeunit 8369 "MCP API Tools Feature"](8369.md): System Application
 - [Codeunit 8370 "MCP Dyn. Tool Mode Feature"](8370.md): System Application
+- [Codeunit 8376 "MCP Agent Tools Feature"](8376.md): System Application
 - [Codeunit 8390 "Financial Report Auditing"](8390.md): Base Application
 - [Codeunit 8400 "Record Set Management"](8400.md): Base Application
 - [Codeunit 8510 "Over-Receipt Mgt."](8510.md): Base Application
@@ -2953,6 +2955,7 @@
 - [Codeunit 8723 "Unix Timestamp Impl."](8723.md): System Application
 - [Codeunit 8751 "DA External Storage Impl."](8751.md): External Storage - Document Attachments
 - [Codeunit 8754 "DA Feature Telemetry"](8754.md): External Storage - Document Attachments
+- [Codeunit 8755 "DA Ext. Storage Sync Worker"](8755.md): External Storage - Document Attachments
 - [Codeunit 8800 "Custom Layout Reporting"](8800.md): Base Application
 - [Codeunit 8810 "Customer Layout - Statement"](8810.md): Base Application
 - [Codeunit 8811 "Customer Statement via Queue"](8811.md): Base Application
@@ -3888,6 +3891,8 @@
 - [Codeunit 48527 "Fabric Platform Telemetry"](48527.md): MicrosoftFabricMirroring
 - [Codeunit 48528 "Fabric Upgrade"](48528.md): MicrosoftFabricMirroring
 - [Codeunit 48529 "Fabric Privacy Notice"](48529.md): MicrosoftFabricMirroring
+- [Codeunit 48535 "Fabric Table Validation"](48535.md): MicrosoftFabricMirroring
+- [Codeunit 48536 "Fabric Field Validation"](48536.md): MicrosoftFabricMirroring
 - [Codeunit 104000 "Upgrade - BaseApp"](104000.md): Base Application
 - [Codeunit 104010 "Upg Set Country App Areas"](104010.md): Base Application
 - [Codeunit 104020 "Upg Secrets to Isol. Storage"](104020.md): Base Application, obsolete 26.0

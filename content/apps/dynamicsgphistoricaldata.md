@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: edb4b631554a6e114411319e8cdc86edc9ae82e1c77eedfb3ed89d84ac2f7357
+  input_hash: 281293130b6c2b0237b7b52d264b2dff081244a86033b984af6f405425f91b54
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DynamicsGPHistoricalData/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DynamicsGPHistoricalData/app
     title: src/Apps/W1/DynamicsGPHistoricalData/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -231,4 +231,4 @@ First-party app · folder `src/Apps/W1/DynamicsGPHistoricalData/app` · namespac
 | 40900 | [D365 Basic Ext.](../objects/permissionsetextension/40900.md) |  |
 | 40901 | [D365 Full Access Ext.](../objects/permissionsetextension/40901.md) |  |
 
-Source: [src/Apps/W1/DynamicsGPHistoricalData/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DynamicsGPHistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DynamicsGPHistoricalData/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DynamicsGPHistoricalData/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

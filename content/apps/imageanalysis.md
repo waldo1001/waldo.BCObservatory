@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 179ba781a04c99e67c2bfed77f454e9ba275b7e080a6674e42eae241758840ba
+  input_hash: 50d596f2a3b89996ec8081006e465690d45730a27f63664338bdea79823a7483
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ImageAnalysis/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ImageAnalysis/app
     title: src/Apps/W1/ImageAnalysis/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -152,4 +152,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 35981 | [D365 BUS FULL ACCESSImage Analyzer](../objects/permissionsetextension/35981.md) |  |
 | 42789 | [D365 FULL ACCESSImage Analyzer](../objects/permissionsetextension/42789.md) |  |
 
-Source: [src/Apps/W1/ImageAnalysis/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ImageAnalysis/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ImageAnalysis/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ImageAnalysis/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

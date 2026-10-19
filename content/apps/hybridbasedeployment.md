@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 737daf428c71aa2ce1aef1d3225322da877d3a24bd3ea3d04e260581a6061242
+  input_hash: 509125a519a93cab93c5c6a312fcf1b9a3875625f90e166128b3fd7e41c2fdde
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBaseDeployment/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBaseDeployment/app
     title: src/Apps/W1/HybridBaseDeployment/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -357,4 +357,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) (video, 2026-10-01): names Page 40063 "Cloud Migration Management", Interface "Custom Migration Provider", Enum 4010 "Custom Migration Provider"
 - [Introduction to Business Central Cloud Migration (2023)](../videos/Gwgpj1U1wxI.md) (video, 2023-11-10): names Page 40063 "Cloud Migration Management"
 
-Source: [src/Apps/W1/HybridBaseDeployment/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBaseDeployment/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridBaseDeployment/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBaseDeployment/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

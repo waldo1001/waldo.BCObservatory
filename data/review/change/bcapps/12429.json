@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12429",
+  "input_hash": "e21354b4ccb26508344e8aa74512017f775199f74bface2c375e76755c6ed737",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-19T01:10:56.721Z",
+  "issues": [
+    "Summary and key points match the description. The guard conditions, the added permission, the internal visibility change and the three tables are all correct."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026225,
+    "changes_in_call": 6
+  }
+}

@@ -32363,33 +32363,33 @@
     "video/4EnvGMwbuBY": {
       "kind": "video",
       "key": "video/4EnvGMwbuBY",
-      "hash": "a942cdf157dee9ea2419ad663dc9d89efd637ac9d7b2e3950871975a360d48b2",
+      "hash": "da6aa3f702637b320fe61f4be4ca5ffd194a2b045912207268252b4d7df7a288",
       "video_id": "4EnvGMwbuBY",
       "title": "Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business",
-      "at": "2026-10-06T23:58:50.551Z",
+      "at": "2026-10-19T01:08:08.090Z",
       "matches": []
     },
     "video/4HE3BBCcV84": {
       "kind": "video",
       "key": "video/4HE3BBCcV84",
-      "hash": "ddd76288b32707a39879b0f2afa14f477172e045f19d30c9ea37a22a60fefe3a",
+      "hash": "0379d615b88b404476b1df0a1c79ea4416927b62042b0ee9b632915bb10aac09",
       "video_id": "4HE3BBCcV84",
       "title": "MCP Server and API Queries (2026 release wave 1)",
-      "at": "2026-10-07T23:37:33.299Z",
+      "at": "2026-10-19T01:08:07.841Z",
       "matches": [
         {
           "feature": 0,
           "name": "API queries in MCP server",
           "t": 5,
           "roadmap_id": "573312",
-          "quote": "API queries in MCP server. Support for API queries in MCP server"
+          "quote": "API queries in MCP server, which serve as the foundation for Power BI apps"
         },
         {
-          "feature": 1,
-          "name": "Analytics API reference documentation",
-          "t": 172,
-          "roadmap_id": "573312",
-          "quote": "Documentation for analytics APIs including how they are used in Power BI apps"
+          "feature": 0,
+          "name": "API queries in MCP server",
+          "t": 5,
+          "roadmap_id": "576789",
+          "quote": "API queries in MCP server. Support for API queries in MCP server"
         },
         {
           "feature": 2,
@@ -32397,122 +32397,129 @@
           "t": 97,
           "roadmap_id": "573312",
           "quote": "MCP server configuration now supports selecting query as object type"
+        },
+        {
+          "feature": 2,
+          "name": "MCP server configuration for object type query",
+          "t": 97,
+          "roadmap_id": "576789",
+          "quote": "MCP server configuration now supports selecting query as object type, with access to all analytics API queries"
         }
       ]
     },
     "video/4IumfDNN8GU": {
       "kind": "video",
       "key": "video/4IumfDNN8GU",
-      "hash": "54d4eeb132d187a8623269f37d62bebd55fba01cf0d61e3e38391bd3bb804807",
+      "hash": "80f47e6855de209a2324b8fe42a619d6e077b395e82c903e4109fa65d6ef8e48",
       "video_id": "4IumfDNN8GU",
       "title": "How to Use Posting Groups in Business Central (2025)",
-      "at": "2026-10-06T23:58:50.980Z",
-      "matches": []
+      "at": "2026-10-19T01:08:07.795Z",
+      "matches": [
+        {
+          "feature": 8,
+          "name": "Where Used List",
+          "t": 210,
+          "roadmap_id": "573324",
+          "quote": "Where Used List. Feature that shows which posting groups use a specific GL account"
+        }
+      ]
     },
     "video/4mD9R50V134": {
       "kind": "video",
       "key": "video/4mD9R50V134",
-      "hash": "e30ee771674e2c3bb5a0a01cd912c70966a0d412db95bb14e43ef135c60d7125",
+      "hash": "3319c900f1679f8e9859e08c81452b0d3cf89e8945fd7decfd9a5d0fffb9c39e",
       "video_id": "4mD9R50V134",
       "title": "What's New: Smarter Pipelines (2025 release wave 2)",
-      "at": "2026-10-06T23:58:56.181Z",
+      "at": "2026-10-19T01:08:10.290Z",
       "matches": []
     },
     "video/4nFViDASGhg": {
       "kind": "video",
       "key": "video/4nFViDASGhg",
-      "hash": "b5e15b87212aa85681fba79917627b3e4b4b0deeb18172bfdae0aa1abafb27f2",
+      "hash": "2a5a743ba359cd7e27cfa77e438762e353cc4fa70b8e138c99181b4e9c6cc4f1",
       "video_id": "4nFViDASGhg",
       "title": "What's New: Sales Order Agent Enhancements (2025 release wave 2)",
-      "at": "2026-10-06T23:58:58.628Z",
+      "at": "2026-10-19T01:08:14.343Z",
       "matches": []
     },
     "video/4Te11l2BxmQ": {
       "kind": "video",
       "key": "video/4Te11l2BxmQ",
-      "hash": "be8c247bc422c1428b74991d298047735bf3ae7bce122b79369952652014169b",
+      "hash": "58967c9708d1fedc276466d6ee3b9178c0e00bf0ea80fcfa280d58a30be6c6c2",
       "video_id": "4Te11l2BxmQ",
       "title": "Simplify Bank Reconciliation with Copilot in Dynamics 365 Business Central (2024)",
-      "at": "2026-10-06T23:58:50.427Z",
+      "at": "2026-10-19T01:08:08.901Z",
       "matches": []
     },
     "video/4TE8uwIi91k": {
       "kind": "video",
       "key": "video/4TE8uwIi91k",
-      "hash": "5af192a6d243a650001eb1d61f95835704f7ee2bfdaf145c8131def4a001179a",
+      "hash": "e69594389ac0885f2d9decb0a970b4292f46073276ac5119f01c9576708c86bb",
       "video_id": "4TE8uwIi91k",
       "title": "What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)",
-      "at": "2026-10-06T14:11:14.291Z",
+      "at": "2026-10-19T01:08:08.305Z",
       "matches": [
         {
           "feature": 3,
           "name": "Mileage expense creation on mobile",
           "t": 133,
           "roadmap_id": "573254",
-          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type, distance calculation"
+          "quote": "Create mileage expenses directly from the phone with route selection, vehicle type"
         }
       ]
     },
     "video/54uIhzZq3Os": {
       "kind": "video",
       "key": "video/54uIhzZq3Os",
-      "hash": "90a261a1dd5d1fd77b2dda30f46843a95227adfbdafa5fb2f380782275ed6549",
+      "hash": "88e2def0b7e17c6143d5cfb3fea25c5921f0d167c4a3bea6e45fe8b53ca8c9fe",
       "video_id": "54uIhzZq3Os",
       "title": "Expense Agent: Finance Controlling (2026 release wave 1)",
-      "at": "2026-10-06T14:53:51.917Z",
+      "at": "2026-10-19T01:08:16.695Z",
       "matches": []
     },
     "video/564XMP2IyLM": {
       "kind": "video",
       "key": "video/564XMP2IyLM",
-      "hash": "4bd53bc0df11857205890f533115bb11c7c85335dd2367a527755e656c10797e",
+      "hash": "c40b334753c17a4fecd11872e17e28a3950978d3ee82d53f41a79b1c05307d66",
       "video_id": "564XMP2IyLM",
       "title": "Use Retention Policies to Avoid Unnecessary Database Growth",
-      "at": "2026-10-06T23:58:56.341Z",
+      "at": "2026-10-19T01:08:14.417Z",
       "matches": []
     },
     "video/58yOwN3GY2Q": {
       "kind": "video",
       "key": "video/58yOwN3GY2Q",
-      "hash": "aabc0cdba7b956398104fe9c53940efce7b3dc0182241bb4aa740e14f7b88209",
+      "hash": "dc9f2c4a371e2f6c014e6490fd90f86700b90f29435f671da1ef93391a9d855b",
       "video_id": "58yOwN3GY2Q",
       "title": "Microsoft Copilot in Business Central",
-      "at": "2026-10-06T23:58:59.021Z",
-      "matches": [
-        {
-          "feature": 4,
-          "name": "Finance organization with Copilot",
-          "t": 47,
-          "roadmap_id": "573380",
-          "quote": "matching purchase orders with e-invoices while using analysis views"
-        }
-      ]
+      "at": "2026-10-19T01:08:15.484Z",
+      "matches": []
     },
     "video/5E6ikveL6N0": {
       "kind": "video",
       "key": "video/5E6ikveL6N0",
-      "hash": "ae78e0dfb39f5f6272d6a991087b1bd1dc61a92a62b1e902e60c52667a2417ef",
+      "hash": "e6166515634a2ca4a9fb92afd925ded1f65f94b133a3f1d36d26c9bed905a8df",
       "video_id": "5E6ikveL6N0",
       "title": "Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central",
-      "at": "2026-10-06T23:58:58.063Z",
+      "at": "2026-10-19T01:08:16.534Z",
       "matches": []
     },
     "video/5GD8S3XzQmA": {
       "kind": "video",
       "key": "video/5GD8S3XzQmA",
-      "hash": "699f4755b57ed1194e8b748e806333acd2f621e72d2c33dd042800e48db058dc",
+      "hash": "25db1f7cb0f7f85cf01c0925e836fde1950b043308ae1fe70d7487cc25122ee7",
       "video_id": "5GD8S3XzQmA",
       "title": "Using the Spotlight Tour Element in Onboarding",
-      "at": "2026-10-06T23:58:57.612Z",
+      "at": "2026-10-19T01:08:15.584Z",
       "matches": []
     },
     "video/5GoAzII20L0": {
       "kind": "video",
       "key": "video/5GoAzII20L0",
-      "hash": "6615813dff1fff4088fba60c9cb001475a023efc88630afd4322a39e7179973f",
+      "hash": "08a1a8f1a1666bdc75ea412befba2e8fea43f0af303d410ce0763497e2908193",
       "video_id": "5GoAzII20L0",
       "title": "What's New: Run Page Scripts in CICD Pipelines (2024 release wave 2)",
-      "at": "2026-10-06T23:59:00.439Z",
+      "at": "2026-10-19T01:08:21.036Z",
       "matches": [
         {
           "feature": 0,
@@ -32520,16 +32527,23 @@
           "t": 6,
           "roadmap_id": "573384",
           "quote": "record and replay user actions directly in the web client"
+        },
+        {
+          "feature": 1,
+          "name": "Page Script Replayer for CI/CD Pipelines",
+          "t": 101,
+          "roadmap_id": "573334",
+          "quote": "running recorded page scripts in CI/CD pipelines for automated regression testing"
         }
       ]
     },
     "video/5OZ0g5IgC8Q": {
       "kind": "video",
       "key": "video/5OZ0g5IgC8Q",
-      "hash": "934865212746c29806513a9921fa8bfcf3034b6353e978aa01870d3c8e057edf",
+      "hash": "51cbd42bc99b8a7a153031b660c53d36d68a1b704e468e7b03a12fdbb0d2e341",
       "video_id": "5OZ0g5IgC8Q",
       "title": "What's new: Shopify Tax Matching (preview) (2026 release wave 2)",
-      "at": "2026-10-06T14:11:14.291Z",
+      "at": "2026-10-19T01:08:21.704Z",
       "matches": [
         {
           "feature": 6,
@@ -32550,77 +32564,55 @@
     "video/5Qfc7r618OM": {
       "kind": "video",
       "key": "video/5Qfc7r618OM",
-      "hash": "ff20712a57de51fb7ad23e9433405923f617691e50b9c033f74448ff3efa41bf",
+      "hash": "3f1cd18e58b001121888f278f70e62696d41475e540fdeac522ee697677466fc",
       "video_id": "5Qfc7r618OM",
       "title": "What's New in Shopify Connector: Troubleshoot export issues -skipped records page (2025)",
-      "at": "2026-10-06T23:59:02.940Z",
+      "at": "2026-10-19T01:08:22.564Z",
       "matches": []
     },
     "video/5qWLFUqFsi0": {
       "kind": "video",
       "key": "video/5qWLFUqFsi0",
-      "hash": "3a5b90058a6626aeb52ce0334d5e818c57be2b50818c5ca6f07fce22ad247b06",
+      "hash": "a9ac9e6460c99b6874f3efc5659b323218a9097dc59cf919450cc9d3ff40c1f1",
       "video_id": "5qWLFUqFsi0",
       "title": "Use Page Regions to Present your Reports and Data in Business Central (Advanced Spreadsheets)",
-      "at": "2026-10-06T23:59:04.632Z",
+      "at": "2026-10-19T01:08:23.484Z",
       "matches": []
     },
     "video/5RJ3yZ7m1UU": {
       "kind": "video",
       "key": "video/5RJ3yZ7m1UU",
-      "hash": "9d6ce5b2099c936e38d2cf80c9c5017d8a2c32fe0a4e7311867afe37af74ffd4",
+      "hash": "6a29b67fb209720b6da0f0b2cdada197ffacea04f3d6253576a84f1e2eb1fce6",
       "video_id": "5RJ3yZ7m1UU",
       "title": "What's New: Financial Analytics (2024 release wave 2)",
-      "at": "2026-10-06T23:59:05.015Z",
-      "matches": [
-        {
-          "feature": 1,
-          "name": "Financial Reporting Templates",
-          "t": 109,
-          "roadmap_id": "573323",
-          "quote": "predefined column definitions allowing mix and match to create various financial reports"
-        },
-        {
-          "feature": 1,
-          "name": "Financial Reporting Templates",
-          "t": 109,
-          "roadmap_id": "573324",
-          "quote": "Five row definitions for balance sheet and income statement"
-        },
-        {
-          "feature": 3,
-          "name": "Ad Hoc Analysis for Fixed Assets",
-          "t": 550,
-          "roadmap_id": "573322",
-          "quote": "Query-based analysis view combining data from fixed asset tables with multiple dimensions"
-        }
-      ]
+      "at": "2026-10-19T01:08:20.974Z",
+      "matches": []
     },
     "video/5zXQ_aIT03s": {
       "kind": "video",
       "key": "video/5zXQ_aIT03s",
-      "hash": "144a22c0611a7165f633d537ae60df2a654c2222ba1e1e85f15e2dd0e9629a7f",
+      "hash": "f20e59659d97ed3859bcd1a2600952c406546656c11ab7df0e611cad13dbcb3a",
       "video_id": "5zXQ_aIT03s",
       "title": "Control When People Can Post to the General Ledger",
-      "at": "2026-10-06T23:59:04.512Z",
+      "at": "2026-10-19T01:08:22.199Z",
       "matches": []
     },
     "video/64_cQzp8BP4": {
       "kind": "video",
       "key": "video/64_cQzp8BP4",
-      "hash": "29c6505c345d98b6ab8af3782c5a51d92b79a5ca4f2e3acc0154348d2e435f10",
+      "hash": "b00d19e9b8bb061568a4cc9b3845905f146d02c8be01e9302b909cf01ddfdd77",
       "video_id": "64_cQzp8BP4",
       "title": "What's New: Concurrent Inventory Posting (2025 release wave 1)",
-      "at": "2026-10-06T23:59:05.662Z",
+      "at": "2026-10-19T01:08:26.649Z",
       "matches": []
     },
     "video/669rJN75L2g": {
       "kind": "video",
       "key": "video/669rJN75L2g",
-      "hash": "d19f8ef83a791b80730f97552dce62623be34ec0f12166c95e55d8c45d45576a",
+      "hash": "853e628c84ffa59efd0919ee1335c67af45b73d2ce8a0a19e03a15fd389c6d1a",
       "video_id": "669rJN75L2g",
       "title": "Introducing: Tenant Discovery Endpoint (2025 release wave 1)",
-      "at": "2026-10-07T23:37:39.677Z",
+      "at": "2026-10-19T01:08:27.836Z",
       "matches": []
     },
     "video/6B6F38AswE8": {

@@ -1,36 +1,24 @@
 {
   "hub_id": "topic/dev-itpro/integration-with-ai",
-  "input_hash": "3a0af613e330cc71126eec7ae602eb55a12ab29b3551357628e2f618098fd781",
-  "summary": "Integration with AI in Business Central covers how partners and developers build AI features: Copilot extensions in AL, machine learning APIs, Model Context Protocol (MCP) servers, and custom agents (preview). It answers setup, design, connection and responsible-use questions.",
-  "overview": "This area groups four ways to bring AI into Business Central. Developer tools for Copilot cover generative AI features written in AL, including the System.AI module, the PromptDialog page type and Azure OpenAI setup. The machine learning APIs cover the Forecasting (Time Series) and Prediction APIs.\n\nThe Model Context Protocol pages describe the Business Central MCP Server and the AL MCP Server, and how to connect them from hosts such as VS Code and Copilot Studio. The agents (preview) pages explain how to design, create, configure, run and code custom agents with the AI development toolkit in sandboxes.\n\nStart with the Copilot developer tools if you are building generative AI features in AL. Choose the machine learning APIs for forecasting or prediction tasks. Go to the MCP pages to expose Business Central to external AI hosts. Use the agents pages for custom agents that work on tasks.",
+  "input_hash": "5fd896f81755e0ef7c3f3d5eee94736e7393df8698b57485e604a3d7f83b5c2d",
+  "summary": "Integration with AI in Business Central covers how partners and developers build or connect AI: Copilot extensions in AL, machine learning APIs, Model Context Protocol servers, and custom agents (preview). It answers planning, setup, design and connection questions.",
+  "overview": "This section groups the ways to bring AI into Business Central. It has four subtopics: developer tools for Copilot (generative AI features written in AL), machine learning APIs (forecasting and prediction), Model Context Protocol (MCP) integration, and designing and coding agents (preview).\n\nStart with the subtopic that matches your goal. For generative AI features in AL, read the Copilot developer tools pages, which explain what a Copilot extension is, the System.AI module, the PromptDialog page type, Azure OpenAI setup, Help preparation and the transparency note. For classic prediction or time series tasks, use the machine learning API pages. To let external hosts reach Business Central data and tools, use the MCP pages. To build custom agents, use the agent pages, which cover design through coding in sandboxes.",
   "key_points": [
-    "Copilot developer tools: what counts as a Copilot extension, the System.AI module, the PromptDialog page type, Azure OpenAI setup, Business Central AI resources, Help preparation and a transparency note.",
-    "Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, plus a transparency note on capabilities, limits and responsible AI.",
-    "Business Central MCP Server: overview, configuration, API tools, dynamic tool mode and data query tools.",
-    "MCP connection options: VS Code, Copilot Studio and non-Microsoft hosts, with access-control guidance.",
-    "AL MCP Server: supports AL development tools.",
+    "Copilot developer tools: defines a Copilot extension and covers the System.AI module, the PromptDialog page type, Azure OpenAI setup and Business Central AI resources.",
+    "Copilot guidance also includes Help preparation and a transparency note, aimed at partners building generative AI features in AL.",
+    "Machine learning APIs: the Forecasting (Time Series) API and the Prediction API, with a transparency note on capabilities, limits and responsible AI.",
+    "MCP: the Business Central MCP Server and its configuration, with connections to hosts such as VS Code, Copilot Studio, GitHub Copilot CLI, Claude and ChatGPT.",
+    "The AL MCP Server serves AL development tools, separate from the Business Central MCP Server.",
     "Agents (preview): design, create, configure, run, iterate and code custom agents with the AI development toolkit in sandboxes.",
     "Agent topics include instructions, permissions and profiles, tasks, attachments, visibility, export/import and the Tasks AL API."
   ],
   "members_used": 0,
   "subtopics_used": 4,
   "prompt_version": 1,
-  "at": "2026-10-07T02:13:35.921Z",
+  "at": "2026-10-19T01:11:53.755Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.011815
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T02:14:54.518Z",
-    "verdict": "approve",
-    "issues": [
-      "Minor: the overview opens with 'This area groups...'. That is allowed, since only 'This hub' is banned, but a subject-first opening would read better.",
-      "Minor: the key point 'AL MCP Server: supports AL development tools' is thin. It matches the source, but it could be merged into the MCP connection point."
-    ],
-    "input_hash": "3a0af613e330cc71126eec7ae602eb55a12ab29b3551357628e2f618098fd781",
-    "cost_usd": 0.028715199999999996
+    "cost_usd": 0.011687
   }
 }

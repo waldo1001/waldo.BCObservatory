@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7b2243f817f8506c3f68079615a07757fa12a4f7552230835e7db4ffb42cef93
+  input_hash: 1dd6c43f64a4c0c59cd3e190ae6dc8808c52836c1c37b9eced80f48d798ded2a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app
     title: src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -119,4 +119,4 @@ First-party app · folder `src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/ap
 |---|---|---|
 | 5212 | [Sust. Contoso Demo Data Module](../objects/enumextension/5212.md) |  |
 
-Source: [src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SustainabilityContosoCoffeeDemoDataset/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

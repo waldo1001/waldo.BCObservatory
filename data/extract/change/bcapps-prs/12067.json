@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Moved VAT Period creation from Master Data to Setup Data level in Czech Contoso demo data to ensure VAT periods exist when setup-level processes depend on them, removing downstream test workarounds.",
   "key_points": [
-    "VAT Period and VAT Return Period now created at Setup Data level instead of Master Data level",
-    "Posting failures with 'VAT Period does not exist' error are resolved for CZ-localized databases",
-    "Removed workarounds that disabled VAT Reporting Date Usage in SCM Warehouse Orders and Subcontracting tests",
-    "Removed DisableVATDateUsage helper and VAT date disabling from E-Document Item Charge tests",
-    "Demo data sequencing fix; no schema, production logic or permission changes"
+    "VAT Period and VAT Return Period are now created at the Setup Data level instead of Master Data in Contoso CZ Localization",
+    "Fixes 'VAT Period does not exist' posting failures in newly generated CZ demo databases",
+    "Test Initialize Handler CZL no longer disables VAT date usage for codeunits 137161 and 139989, and its DisableVATDateUsage helper was deleted",
+    "E-Doc. Item Charge Tests no longer disable VAT Reporting Date Usage",
+    "Only demo data order changes; no schema, business logic or permission changes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

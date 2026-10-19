@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:53.065Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -51,7 +51,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-office-apps-and-microsoft-365
   localizations: []
-  videos: []
+  videos:
+    - video/_OClSlushOU
   posts: []
   guidelines: []
 learn_toc_path:
@@ -64,7 +65,7 @@ children: []
 coverage:
   learn: 3
   code: 2
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -104,6 +105,12 @@ The third page is for organizations that do not use Outlook. It explains how to 
 - [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to install the Business Central add-in for Outlook for your organization or for your own use.
 - [Save Business Contacts to Microsoft Outlook](https://learn.microsoft.com/dynamics365/business-central/save-business-contacts-to-outlook): Learn how to synchronize Business Central contacts with Microsoft Outlook and Teams to streamline communication and access contact details effortlessly.
 - [Using Business Central without Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-no-outlook): If you don't have Outlook, you can't use Business Central as your business inbox in Outlook, but you can work in a browser or on your mobile device.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Business Central in Outlook; Email attachment linking to customer records"
 
 ## Business Central pages and reports
 

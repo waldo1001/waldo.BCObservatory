@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration
 type: topic
 title: Integration
-summary: Integration in Business Central covers how to connect the product to external systems and Microsoft services. It answers questions on web services and APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify.
+summary: Integration in Business Central covers how to connect it to external systems and Microsoft services. It includes web services (OData, SOAP, API), Dataverse, Dynamics 365 Sales and Field Service, Power Platform, Microsoft 365 apps, Azure, infrastructure services and Shopify. It answers questions on choosing an approach, setup, authentication and troubleshooting.
 tier: official
 language: en
 system: integration
 review:
   state: reviewed
   by: opus
-  at: "2026-10-07T21:13:11.930Z"
+  at: "2026-10-19T01:12:09.437Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 1a52a3d304acd5bd400e0f6e1a7c2aa3fcb9a5b6c484a3871de8a363fcdb053e
+  input_hash: 1ff8a77a9b21332d9081c42fe8717fee97314d5812e10e8580e8ecff3010f69f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v1.0/
@@ -377,6 +377,8 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/10143
+    - change/bcapps/10162
     - change/bcapps/10230
     - change/bcapps/8698
     - change/bcapps/9257
@@ -469,28 +471,28 @@ narrative: generated
 
 # Integration
 
-> Integration in Business Central covers how to connect the product to external systems and Microsoft services. It answers questions on web services and APIs, events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services, Dynamics 365 Sales and Field Service, and Shopify.
+> Integration in Business Central covers how to connect it to external systems and Microsoft services. It includes web services (OData, SOAP, API), Dataverse, Dynamics 365 Sales and Field Service, Power Platform, Microsoft 365 apps, Azure, infrastructure services and Shopify. It answers questions on choosing an approach, setup, authentication and troubleshooting.
 
 Path: Integration · tier official · system integration · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Integration is the entry point for connecting Business Central to other systems. The overview page describes the architectural patterns: REST APIs, SOAP web services, OData, the HttpClient data type, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services and Copilot extensions. Start there to pick an approach.
+Integration is the section for connecting Business Central to other systems. It starts with an overview page that describes the architectural patterns: REST APIs, SOAP and OData web services, the HttpClient data type, Office apps, Power Platform, Dataverse, Dynamics 365 Sales and Field Service, Shopify, Azure services and Copilot extensions.
 
-Two own pages cover Dynamics 365 apps. The Sales page describes integration through Dataverse: connection settings, security roles, unit group mapping, table synchronization, record coupling, sales order processing and item availability. The Field Service page covers syncing work orders with project journals, resource scheduling, item availability and service order status (2021 release wave 2).
+Two pages sit directly in the section: one on integrating with Dynamics 365 Sales through Dataverse (connection settings, security roles, unit group mapping, table sync, record coupling, sales order processing, item availability) and one on Dynamics 365 Field Service (work order sync with project journals, resource scheduling, invoicing, from 2021 release wave 2).
 
-The subtopics go deeper. Web services is the largest and covers OData, SOAP and API endpoints, security, telemetry and troubleshooting. Connect apps covers custom API pages and authentication. Other subtopics cover events and webhooks, Office and Microsoft 365, Dataverse, Power Platform, Azure, infrastructure services and Shopify.
+Subtopics go deeper by target. Web services is by far the largest (294 pages) and covers publishing, securing, monitoring and tuning endpoints. Connect apps covers building REST integrations with partners. Other subtopics cover events and webhooks, Microsoft 365 and Office, Dataverse, Power Platform, Azure, infrastructure services and Shopify. Start with the overview page, then go to the subtopic for your target system.
 
 ## Key points
 
-- The overview page compares integration approaches: REST API, SOAP, OData, HttpClient, Dataverse, Office, Power Platform, Azure, Shopify and Copilot extensions.
-- Web services (294 pages) covers publishing and securing OData, SOAP and API endpoints, plus monitoring, tuning and error diagnosis.
-- Connect apps covers custom API pages and queries, and authentication with Microsoft Entra ID, basic auth or service-to-service OAuth 2.0.
-- Event-based integration offers business events (preview) through Dataverse and Power Automate, and webhooks that push notifications on entity changes.
-- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping and security roles.
-- Field Service integration syncs work orders with project journals and manages resource scheduling and service order status (2021 release wave 2).
-- Dataverse and Power Platform subtopics cover sync, virtual tables, Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
-- Azure, infrastructure and Shopify subtopics cover Key Vault, Application Insights telemetry, Entra ID and Universal Print, and the Shopify Connector.
+- The overview page compares integration approaches: REST API, SOAP, OData, HttpClient, Office, Power Platform, Dataverse, Sales, Field Service, Shopify, Azure and Copilot extensions.
+- Web services (294 pages) cover OData, SOAP and API endpoints: publishing, authentication, telemetry, performance, error diagnosis and refactoring legacy integration records.
+- Connect apps explains building API pages and queries, OAuth 2.0 and service-to-service authentication, OData filters, batch requests and request headers.
+- Dynamics 365 Sales integration runs through Dataverse with bidirectional sync, record coupling, unit group mapping, security roles and sales order integration.
+- Dynamics 365 Field Service integration syncs work orders with project journals and supports resource scheduling and item availability tracking (2021 release wave 2).
+- Events integration offers business events (preview) via Dataverse and Power Automate, plus webhooks that push notifications when entities change.
+- Dataverse integration covers both data synchronization and data virtualization with virtual tables; Power Platform pages cover Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
+- Azure, infrastructure and Shopify subtopics cover Key Vault secrets and telemetry, Entra ID, MFA, service tags, Universal Print, and the Shopify Connector sync of items, prices, inventory, customers and orders.
 
 ## Subtopics
 
@@ -514,6 +516,8 @@ The subtopics go deeper. Web services is the largest and covers OData, SOAP and 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#10143 Handle non-invoice or currupt PDF extraction](../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs"
+- [#10162 Fix stale start status in e-document import pipeline](../../changes/bcapps/10162.md) (code change): "e-document import pipeline now uses the initial processing status"
 - [#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version](../../changes/bcapps/10230.md) (code change): "Sales credit memos under One-Stop-Shop regime now generate SII XML"
 - [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (code change): "E-documents now track order responses and acknowledgements as lifecycle events"
 - [#9257 Hide Provide feedback action on E-Document Purchase Draft when user-i…](../../changes/bcapps/9257.md) (code change): "The Provide feedback action on the E-Document Purchase Draft page is now hidden"

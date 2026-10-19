@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,6 +204,7 @@ links:
     - change/bcapps/10343
     - change/bcapps/10364
     - change/bcapps/10369
+    - change/bcapps/10565
     - change/bcapps/10899
     - change/bcapps/12370
     - change/bcapps/9067
@@ -347,6 +348,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10343 [Subcontracting] Bug 641241: Notify to install Subcontracting app in Subcontracting Worksheet](../../../../changes/bcapps/10343.md) (code change): "when they access the obsolete Subcontracting Worksheet page, with options to"
 - [#10364 Create released production orders from planning worksheet](../../../../changes/bcapps/10364.md) (code change): "creating released production orders directly instead of creating firm planned orders"
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../../changes/bcapps/10369.md) (code change): "to properly filter by version. The Version Code field now shows all"
+- [#10565 Add default manufacturing version number series](../../../../changes/bcapps/10565.md) (code change): "Manufacturing Setup now supports optional default number series for production BOM"
 - [#10899 [Extensibility Request] issue 30433: expose consolidated calendar entry before insert](../../../../changes/bcapps/10899.md) (code change): "new integration event exposes consolidated work center calendar entries and their source data"
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing"

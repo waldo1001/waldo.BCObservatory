@@ -66,7 +66,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
       {
         "path": "src/Layers/W1/BaseApp/CRM/Duplicates/MergeDuplicatesBuffer.Table.al",
@@ -80,6 +80,17 @@
         "page": "table/64"
       },
       {
+        "path": "src/Layers/W1/BaseApp/Foundation/Comment/CommentLineRelations.TableExt.al",
+        "status": "added",
+        "key": "tableextension/97",
+        "type": "tableextension",
+        "id": 97,
+        "name": "Comment Line Relations",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/97"
+      },
+      {
         "path": "src/Layers/W1/BaseApp/System/RapidStart/ConfigPackageManagement.Codeunit.al",
         "status": "modified",
         "key": "codeunit/8611",
@@ -91,17 +102,12 @@
         "page": "codeunit/8611"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Layers/W1/BaseApp/Foundation/Comment/CommentLineRelations.TableExt.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "crm",
-    "development"
+    "development",
+    "platform"
   ],
   "apps": [
     "Base Application"

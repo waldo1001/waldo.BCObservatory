@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: a260ffcd6d5c292f631abcc3c1d9c1b1e564638ebcb8105937cd7d7931458b43
+  input_hash: e25cc04081740391fe9bf77a9abfb7bd1e7706e0e0c3d91c5cfc17db8a27090e
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseAgent/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExpenseAgent/app
     title: src/Apps/W1/ExpenseAgent/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -753,4 +753,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [Introducing: Expense Management (2026 release wave 1)](../videos/pjML7lXSsd0.md) (video, 2026-04-27): names Page 6996 "Expense Agent Setup"
 - [Introducing: Approvals for the Expense Agent (2026 release wave 1)](../videos/qZALauRY_So.md) (video, 2026-04-27): names Page 6951 "Expense Users"
 
-Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ExpenseAgent/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ExpenseAgent/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

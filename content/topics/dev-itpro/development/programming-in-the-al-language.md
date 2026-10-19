@@ -12,7 +12,7 @@ review:
   at: "2026-10-18T00:56:54.349Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,16 +359,14 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/using-net-on-premises-only
   localizations: []
   videos:
-    - video/9zQZHfXK-PQ
-    - video/ADXkUFI_VWI
     - video/D_Lur52IrIg
     - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
   posts:
+    - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2678
+    - post/aardvarklabs-blog/2741
     - post/aardvarklabs-blog/2812
-    - post/aardvarklabs-blog/3060
-    - post/gerardorenteria-blog/14079
   guidelines: []
   changes:
     - change/bcapps/11507
@@ -398,7 +396,7 @@ children:
 coverage:
   learn: 340
   code: 36
-  video: 5
+  video: 3
   blog: 4
   guideline: 0
 bc_forms:
@@ -496,12 +494,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
+- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
 - [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "Type Helper code unit is a utility in Business Central's System.Reflection namespace"
+- [Understanding AL Development: String Conversion Management Code Unit](../../../posts/aardvarklabs-blog/2741.md) (community post): "String Conversion Management Code Unit provides four procedures for handling text transformations"
 - [Advanced JSON Management for Business Central Developers](../../../posts/aardvarklabs-blog/2812.md) (community post): "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
-- [Getting Started with AI for Rapid Software Development for Business Central](../../../posts/aardvarklabs-blog/3060.md) (community post): "AI-assisted workflow for Business Central projects; Copilot Chat pulls functional requirements"
-- [AL Language extension for Microsoft Dynamics 365 Business Central – versions](../../../posts/gerardorenteria-blog/14079.md) (community post): "AL Language extension for Microsoft Dynamics 365 Business Central"
-- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "GitHub Copilot to Automate Business Central Documentation"
-- [Business Central Under the Hood episode 2: The Inner Workings of The AL Compiler](../../../videos/ADXkUFI_VWI.md) (video): "AL compiler; compiler architecture; roslyn; language service protocol"
 - [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "AL MCP; AL language server with project awareness; Symbol search"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"

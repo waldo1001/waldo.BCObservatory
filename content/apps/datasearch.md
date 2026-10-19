@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7230eb934d4bd46087c1ee877e15ec7fd4321d2d85cfdc56e2451be8f825e91f
+  input_hash: 4bea64ac3091f800e2588b73bcb0dde3ffb0cdcbf19a15ef6f2730641fe23474
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DataSearch/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DataSearch/app
     title: src/Apps/W1/DataSearch/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -119,4 +119,4 @@ First-party app · folder `src/Apps/W1/DataSearch/app` · namespace `Microsoft.F
 | 2680 | [Data Search Setup](../objects/permissionsetextension/2680.md) |  |
 | 2681 | [Data Search](../objects/permissionsetextension/2681.md) |  |
 
-Source: [src/Apps/W1/DataSearch/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/DataSearch/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/DataSearch/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/DataSearch/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

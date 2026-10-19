@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -419,6 +419,7 @@ links:
   changes:
     - change/bcapps/10290
     - change/bcapps/10528
+    - change/bcapps/10700
     - change/bcapps/10898
     - change/bcapps/11134
     - change/bcapps/11149
@@ -427,8 +428,14 @@ links:
     - change/bcapps/11339
     - change/bcapps/11367
     - change/bcapps/11560
+    - change/bcapps/12003
+    - change/bcapps/12723
+    - change/bcapps/12809
+    - change/bcapps/12816
     - change/bcapps/9044
     - change/bcapps/9084
+    - change/bcapps/9145
+    - change/bcapps/9182
     - change/bcapps/9443
     - change/bcapps/9446
     - change/bcapps/9448
@@ -597,6 +604,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10290 [Main] -Drop shipment undo receipt fails for service and non-inventory items.](../../../changes/bcapps/10290.md) (code change): "Undo receipt and undo shipment operations now work correctly for drop shipments"
 - [#10528 Track receipt on invoice per purchase order line](../../../changes/bcapps/10528.md) (code change): "Receipt on invoice can now be set per purchase order line"
+- [#10700 29.x: PO matching API, E-Documents integration and receipt-on-invoice line tracking](../../../changes/bcapps/10700.md) (code change): "purchase order matching API to the Base Application, with receipt-on-invoice"
 - [#10898 [Extensibility Request] issue 30434: add purchase prepayment amount event](../../../changes/bcapps/10898.md) (code change): "purchase prepayment amount event. An extensibility event allows purchase prepayment"
 - [#11134 [Main][All-E][Repair Item] Posted Purchase Invoice Order No. is blank when invoice rounding creates a generated line](../../../changes/bcapps/11134.md) (code change): "Posted Purchase Invoice Order No. is blank when invoice rounding"
 - [#11149 [BE][Purchase Ledger Report] Wrong VAT Amounts on the report](../../../changes/bcapps/11149.md) (code change): "Belgium-specific Purchase Ledger report now displays correct VAT"
@@ -605,8 +613,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11339 Prevent order matching for invoice lines created by Get Receipt Lines](../../../changes/bcapps/11339.md) (code change): "Matched order line functionality now rejects invoice lines created through Get Receipt"
 - [#11367 [29.X][Repair Item][SaaS][Drop shipment reversal] Undo Shipment fails with blank Bin Code at bin-mandatory location](../../../changes/bcapps/11367.md) (code change): "Undo Shipment fails with blank Bin Code at bin-mandatory location"
 - [#11560 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. Send path (Self-Billed Purchase Invoice/Credit Memo → E-Document)](../../../changes/bcapps/11560.md) (code change): "Enables exporting self-billed purchase invoices and credit memos as Peppol BIS 3.0 e-documents"
+- [#12003 [Main]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12003.md) (code change): "Project Planning Lines are created in reverse order when posting purchase invoices"
+- [#12723 [Master]-Modifying Description resets Quantity to 1 on Purchase Invoice Lines](../../../changes/bcapps/12723.md) (code change): "changing the Description on a purchase invoice line no longer resets its Quantity"
+- [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../../../changes/bcapps/12809.md) (code change): "vendor change on one order is no longer automatically applied to the next order"
+- [#12816 [29.x]- Project Planning Lines are created in reverse order when purchase line descriptions are copied](../../../changes/bcapps/12816.md) (code change): "Project planning lines now maintain the original purchase line sequence when Copy Line"
 - [#9044 [Master] Contact email is no validated during creation purchase documents_New](../../../changes/bcapps/9044.md) (code change): "Contact email validation is restored during purchase document creation"
 - [#9084 Bug 640321: Blanket Purch. Order to Order drops extended text for later items](../../../changes/bcapps/9084.md) (code change): "Fixes a bug where extended text lines are dropped when converting blanket purchase orders"
+- [#9145 [E-Document] Show PDF preview factbox on purchase invoice pages](../../../changes/bcapps/9145.md) (code change): "PDF preview factbox is added to purchase invoice pages to display"
+- [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 field on purchase documents is now editable"
 - [#9443 [Extensibility Request] issue 30222: add handled event before RecreatePurchLines in Pay-to Vendor No. validation](../../../changes/bcapps/9443.md) (code change): "integration event OnValidatePayToVendorNoOnBeforeRecreatePurchLines was added to the Pay-to Vendor No. field validation in Purchase Header"
 - [#9446 [Extensibility Request] issue 30216: add OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine event in codeunit 90 Purch.-Post](../../../changes/bcapps/9446.md) (code change): "new integration event OnPostItemJnlLineJobConsumptionOnBeforePrepareJobLine is added to codeunit 90 Purch.-Post"
 - [#9448 [Extensibility Request] issue 30264: add and extend events in CalcBestDirectUnitCost](../../../changes/bcapps/9448.md) (code change): "Two new integration events and an extended existing event provide customization points in purchase price selection logic"

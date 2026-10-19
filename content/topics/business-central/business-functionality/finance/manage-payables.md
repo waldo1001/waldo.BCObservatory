@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:34.968Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -309,9 +309,14 @@ links:
   localizations: []
   videos:
     - video/-SGaVGOkiF0
+    - video/8VRtBLNAOiI
+    - video/axQegcPweNY
+    - video/CCIGX86ljYQ
     - video/kDiDMPEaU0E
+    - video/WjF_sESaIPo
   posts:
     - post/bertverbeek-nl/1162
+    - post/demiliani-com/12076
     - post/thedynamicsexplorer-com/36954
   guidelines: []
   changes:
@@ -321,6 +326,7 @@ links:
     - change/bcapps/10611
     - change/bcapps/11095
     - change/bcapps/9133
+    - change/bcapps/9182
 learn_toc_path:
   - Business functionality
   - Finance
@@ -333,8 +339,8 @@ children:
 coverage:
   learn: 25
   code: 94
-  video: 2
-  blog: 2
+  video: 6
+  blog: 3
   guideline: 0
 bc_forms:
   - 6
@@ -506,10 +512,16 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10611 [main]- Bug 647007 Copy Document on a Purchase Credit Memo 'Quantity Received', and 'Quantity Invoiced' reverted back on original Purchase Order](../../../../changes/bcapps/10611.md) (code change): "Posting a purchase credit memo created with Copy Document from a posted invoice"
 - [#11095 [main] Bug 649204 Validation missing for Deferral Code field on Released Purchase documents.](../../../../changes/bcapps/11095.md) (code change): "Deferral Code field on released purchase line documents now validates"
 - [#9133 [Master]-Project consumption: partial invoicing of non-inventory items posts negative adjustment value entry to wrong Item Ledger Entry](../../../../changes/bcapps/9133.md) (code change): "Partial invoicing of non-inventory items consumed on a project"
+- [#9182 Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents](../../../../changes/bcapps/9182.md) (code change): "Pay-to Name 2 editability aligned with other pay-to address fields"
 - [Document amount on Purchase Invoice Header](../../../../posts/bertverbeek-nl/1162.md) (community post): "feature to compare document-level totals with line-level amounts on purchase invoices"
+- [Dynamics 365 Business Central: introducing the Payables Agent.](../../../../posts/demiliani-com/12076.md) (community post): "Payables Agent automates AP workflows by retrieving vendor invoices from email and SharePoint"
 - [Dynamics 365 Business Central – How to default a General Ledger account onto a Purchase Invoice using “Recurring Purchase Lines”](../../../../posts/thedynamicsexplorer-com/36954.md) (community post): "Recurring Purchase Lines automatically default General Ledger accounts and other details onto purchase invoices"
 - [Introducing Payment Times Analysis in Business Central (2023 release wave 2)](../../../../videos/-SGaVGOkiF0.md) (video): "vendor payments; payment practices; due dates"
+- [Introducing: Self-Billing Invoices (2026 release wave 1)](../../../../videos/8VRtBLNAOiI.md) (video): "self-billing; purchase invoice; vendor setup; invoicing process"
+- [What's New: Draft Page for Electronic Invoices (2025 release wave 2)](../../../../videos/axQegcPweNY.md) (video): "electronic invoices; draft page; purchase invoicing; document processing"
+- [What's New: Document Preview in E-Documents (2025 release wave 1)](../../../../videos/CCIGX86ljYQ.md) (video): "e-documents; electronic invoicing; document preview; accounts payable"
 - [What's New: Matching Purchase Invoices to Order and Receipt Lines (2026 release wave 1)](../../../../videos/kDiDMPEaU0E.md) (video): "Match invoice line to multiple order lines; Match invoice to partial receipt lines"
+- [Interfrucht GmbH](../../../../videos/WjF_sESaIPo.md) (video): "manifest processing; agent automation; purchase order creation; vendor management"
 
 ## Business Central pages and reports
 

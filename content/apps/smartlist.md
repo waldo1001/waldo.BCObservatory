@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d612f62e9a5f281760e2f4f0d056c52732887d51683648b66b0ecdc9cb42cb06
+  input_hash: 20a99454c66ec41d6656ce207bc1d78502a0338e0363baa5dc2024fdcb0aa9fe
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SmartList/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SmartList/app
     title: src/Apps/W1/SmartList/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -165,4 +165,4 @@ First-party app · folder `src/Apps/W1/SmartList/app` · BC29-30 · system devel
 | 2557 | [Items Overdue For Count](../objects/query/2557.md) |  |
 | 2558 | [Items Due For Count](../objects/query/2558.md) |  |
 
-Source: [src/Apps/W1/SmartList/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SmartList/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SmartList/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SmartList/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

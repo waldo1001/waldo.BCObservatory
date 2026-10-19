@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:13:05.546Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8e8a536133c2411c78681403c240d56025a7a5404c58b18ac57993a95aa6fe2f
+  input_hash: 60d34bc7e1e5c748101b78e0ea44bd8c0ca00ad89e77fb60f8e7791dd7eae6bd
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AuditFileExport/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/AuditFileExport/app
     title: src/Apps/W1/AuditFileExport/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -225,4 +225,4 @@ Videos and posts that name this app's objects by exact type and name.
 - [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) (video, 2024-04-04): names Page 5266 "Audit File Export Documents"
 - [What's New: The Danish Bookkeeping Act (2023 release wave 2)](../videos/205F8ljmInU.md) (video, 2023-12-11): names Page 5260 "G/L Account Mapping"
 
-Source: [src/Apps/W1/AuditFileExport/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/AuditFileExport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/AuditFileExport/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/AuditFileExport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

@@ -216,7 +216,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
       {
         "path": "src/Apps/W1/EDocument/App/src/Processing/EDocumentProcessing.Codeunit.al",
@@ -296,6 +296,17 @@
         "page": "codeunit/6173"
       },
       {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al",
+        "status": "added",
+        "key": "interface/iedocresponsemessagebuilder",
+        "type": "interface",
+        "id": null,
+        "name": "IEDocResponseMessageBuilder",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "interface/iedocresponsemessagebuilder"
+      },
+      {
         "path": "src/Apps/W1/EDocument/App/src/Processing/Message/EDocMessageMgt.Codeunit.al",
         "status": "modified",
         "key": "codeunit/6433",
@@ -329,6 +340,28 @@
         "page": "enum/6427"
       },
       {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddrScheme.Enum.al",
+        "status": "added",
+        "key": "enum/37202",
+        "type": "enum",
+        "id": 37202,
+        "name": "PEPPOL Electronic Addr. Scheme",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "enum/37202"
+      },
+      {
+        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddress.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/37224",
+        "type": "codeunit",
+        "id": 37224,
+        "name": "PEPPOL Electronic Address",
+        "app": "PEPPOL",
+        "cc": "w1",
+        "page": "codeunit/37224"
+      },
+      {
         "path": "src/Apps/W1/PEPPOL/App/src/Response/PEPPOLOrderRespBuilder.Codeunit.al",
         "status": "modified",
         "key": "codeunit/37209",
@@ -340,23 +373,7 @@
         "page": "codeunit/37209"
       }
     ],
-    "unjoined": [
-      {
-        "path": "src/Apps/W1/EDocument/App/src/Processing/Interfaces/IEDocResponseMessageBuilder.Interface.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddrScheme.Enum.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Apps/W1/PEPPOL/App/src/Common/PEPPOLElectronicAddress.Codeunit.al",
-        "status": "added",
-        "reason": "not-in-snapshot"
-      }
-    ]
+    "unjoined": []
   },
   "systems": [
     "integration"

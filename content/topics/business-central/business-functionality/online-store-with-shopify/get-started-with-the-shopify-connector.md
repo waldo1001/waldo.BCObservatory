@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,7 +47,8 @@ links:
   topics:
     - topic/business-central/business-functionality/online-store-with-shopify
   localizations: []
-  videos: []
+  videos:
+    - video/88s0QjsaCUQ
   posts: []
   guidelines: []
   changes:
@@ -71,7 +72,7 @@ children: []
 coverage:
   learn: 2
   code: 6
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -125,6 +126,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "Shopify Connector now supports Shopify's expiring offline access tokens"
 - [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../../changes/bcapps/9357.md) (code change): "Shopify Variants page now includes a Compare at Price field control"
 - [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../../changes/bcapps/9581.md) (code change): "Updated Status field tooltip to include Unlisted alongside Active, Archived"
+- [Understanding the Sign Up Context and Using it for Profiling Customers](../../../../videos/88s0QjsaCUQ.md) (video): "sign up context; customer profiling; onboarding experience; app provisioning"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:03.623Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -125,7 +125,7 @@ The migration page is for anyone with existing .NET add-ins. It describes the mo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Removed 43 unused DotNet alias declarations from the DotNet Aliases app"
+- [#11013 Remove 43 unused DotNet alias declarations](../../../../changes/bcapps/11013.md) (code change): "Remove 43 unused DotNet alias declarations from the DotNet Aliases"
 - [Dynamics 365 Business Central on-prem: be careful when referencing .NET assemblies across versions.](../../../../posts/demiliani-com/12123.md) (community post): "ensure assemblies are compiled for .NET Standard if targeting version 21 or later"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

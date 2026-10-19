@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c016a4bf939f993412d090b1ec0c442447aa0e4b2f75f00bf0b0e33dffc5753f
+  input_hash: cef675f7cd6018212da3245dcc93498f28483c2ef05e4c21f06f3475368bcfc6
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBC/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBC/app
     title: src/Apps/W1/HybridBC/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -69,4 +69,4 @@ First-party app · folder `src/Apps/W1/HybridBC/app` · namespace `Microsoft.Dat
 | 4005 | [Hybrid BC Wizard](../objects/codeunit/4005.md) |  |
 | 4008 | [Hybrid BC Management](../objects/codeunit/4008.md) |  |
 
-Source: [src/Apps/W1/HybridBC/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBC/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridBC/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBC/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

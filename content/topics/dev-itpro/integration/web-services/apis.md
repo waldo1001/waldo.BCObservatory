@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -347,6 +347,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10010
+    - change/bcapps/10478
     - change/bcapps/11741
     - change/bcapps/9194
     - change/bcapps/9914
@@ -411,6 +412,7 @@ Path: [Integration](../../integration.md) > [Web services](../web-services.md) >
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10010 Add Report Inbox API pages for automated report retrieval](../../../../changes/bcapps/10010.md) (code change): "Four new API pages expose Report Inbox data through the automate API group"
+- [#10478 [Bug Fix] #254: [APIV2][Performance] Replace FindFirst/Next with FindSet when rebuilding dimension set entries](../../../../changes/bcapps/10478.md) (code change): "APIV2 dimension set lines page now uses FindSet instead of FindFirst"
 - [#11741 [MCP] Add company and environment descriptions](../../../../changes/bcapps/11741.md) (code change): "Company and environment descriptions are now stored and exposed via APIs to provide richer context for MCP and other consumers"
 - [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs from all publishers"
 - [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "Vendor Payments API now returns all payment lines in a batch"

@@ -8,14 +8,14 @@
   ],
   "summary": "Master Data Management usage telemetry is restored with a frequency limit to emit at most once per day, distinguishing cross-environment and same-environment synchronizations.",
   "key_points": [
-    "Usage telemetry reintroduced after being erroneously removed from release branches",
-    "Telemetry now emits at most once per day instead of with every sync",
-    "Cross-environment sync distinguished from same-environment sync with separate tags",
-    "Tag 0000JIR restored for the same tracking purpose as in NAV repo",
-    "Minimal risk change that restores removed functionality with rate limiting"
+    "Master Data Management usage telemetry reintroduced after it was erroneously removed",
+    "Telemetry now emits at most once per day instead of on every synchronization",
+    "Cross-environment synchronization gets a separate tag from same-environment synchronization where supported",
+    "Previously registered tag 0000JIR is brought back for its original purpose",
+    "Changes touch the Master Data Management codeunit, its subscribers and the MDM Connection Details page"
   ],
   "change_kind": "fix",
-  "behavior_change": false,
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

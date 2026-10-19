@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -136,7 +136,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Expense Agent: Mobile Experience (2026 release wave 1)](../../../../videos/e_x5QF0vXgs.md) (video): "Expense Agent mobile app; Receipt capture with native OS detection; AI extraction of expense details"
 - [What's new in Expense Agent: Project Handling (2026 release wave 2)](../../../../videos/GwrMf1umTFg.md) (video): "What's new in Expense Agent: Project Handling shows project tracking in Expense Agent"
 - [Expense Agent: Project Expenses (2026 release wave 1)](../../../../videos/NI6WYze-JSU.md) (video): "Expense Agent; project tracking; project assignment"
-- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent: Per Diem Allowances; per diem allowances; expense agent"
+- [Expense Agent: Per Diem Allowances (2026 release wave 1)](../../../../videos/vyQnSxRGJDA.md) (video): "Expense Agent Wizard Configuration; Itinerary Detection and Classification"
 
 ## Business Central pages and reports
 

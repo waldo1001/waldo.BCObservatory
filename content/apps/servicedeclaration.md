@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: c2572712abb28916f54a615a449cd9324704b678d4c1777b148c3b0156a6c558
+  input_hash: bc778a54bb980648254f4753ea5206aaa1e5a9f809b1544e8dabe366842a606a
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ServiceDeclaration/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ServiceDeclaration/app
     title: src/Apps/W1/ServiceDeclaration/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -314,4 +314,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 5016 | [D365 TEAM MEMBER - Serv. Decl.](../objects/permissionsetextension/5016.md) |  |
 | 5017 | [INTELLIGENT CLOUD - Serv. Decl.](../objects/permissionsetextension/5017.md) |  |
 
-Source: [src/Apps/W1/ServiceDeclaration/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ServiceDeclaration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ServiceDeclaration/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ServiceDeclaration/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

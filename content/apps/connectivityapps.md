@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ebc7217572fb820ec75f6cfac6284388edfbd03f3f92718910ab4113c5eda296
+  input_hash: e154e1f2d58cae90f212d4dc3c27e9eb96e4d453e071a1f45d888a7deaff7e1b
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ConnectivityApps/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ConnectivityApps/app
     title: src/Apps/W1/ConnectivityApps/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -164,4 +164,4 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | 20351 | [Connectivity Apps - Read](../objects/permissionset/20351.md) |  |
 | 20352 | [Connectivity Apps - Objects](../objects/permissionset/20352.md) |  |
 
-Source: [src/Apps/W1/ConnectivityApps/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ConnectivityApps/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ConnectivityApps/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ConnectivityApps/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

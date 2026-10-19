@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7ecde03476b844ecd4dfeb064c59dd7db52f2be582249471c4d97e85d2adc9f5
+  input_hash: fd7d8d52aa3a14ec4c82a563e9c7db45577e3c375ed9a810b2918a7f654c9298
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ContosoCoffeeDemoDataset/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ContosoCoffeeDemoDataset/app
     title: src/Apps/W1/ContosoCoffeeDemoDataset/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -688,4 +688,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [Introducing: Contoso Demo Tool (2023 release wave 2)](../videos/bvGdaxC3sq8.md) (video, 2023-12-21): names Enum 5160 "Contoso Demo Data Module"
 
-Source: [src/Apps/W1/ContosoCoffeeDemoDataset/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/ContosoCoffeeDemoDataset/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/ContosoCoffeeDemoDataset/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/ContosoCoffeeDemoDataset/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

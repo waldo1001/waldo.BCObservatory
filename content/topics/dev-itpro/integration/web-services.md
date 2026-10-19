@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -328,6 +328,7 @@ links:
     - post/demiliani-com/11796
   guidelines: []
   changes:
+    - change/bcapps/11096
     - change/bcapps/11168
     - change/bcapps/11318
     - change/bcapps/11745
@@ -403,6 +404,7 @@ To start, read the publishing subtopic to expose an endpoint, then the security 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "PEPPOL FR improvements French PEPPOL exports now correctly handle billing profiles"
 - [#11168 Restore E-Document vendor invoice field compatibility](../../../changes/bcapps/11168.md) (code change): "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.'"
 - [#11318 [main] Bug 649189: Update E-Document vendor invoice caption](../../../changes/bcapps/11318.md) (code change): "Table field caption changed to 'Applies-to Ext. Invoice No.'"
 - [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"

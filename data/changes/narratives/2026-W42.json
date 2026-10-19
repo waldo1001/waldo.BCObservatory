@@ -1,22 +1,23 @@
 {
   "week": "2026-W42",
-  "input_hash": "a7f727b85d32fc5204f001fa9b983aead6f95d18b0b9fc764ef6fd3f0a214dc8",
-  "text": "The one breaking change this week is #10520: the blocked customer check event on table Customer now passes the extensible Gen. Journal Document Type enum instead of an option integer, so subscribers must adapt. Most other work is behaviour-changing fixes. Upgrade fixes #12939 and #12907 let the direct transfer order migration cope with a missing Inventory Setup record. Posting and costing fixes include #12816 (project planning line order), #11714 (assembly cost adjustment rounding), #12857 and #12622 (Subscription Billing contract matching and currency), and #12377 (billing line rollback). Planning and manufacturing fixes cover #12760 and #12464 (blocked items no longer stop Order Planning), #12469, #12669 and #12459. Agent work includes #11909, which blocks guest users from managing Expense Agent, #12810 and #12472 for its VAT setup, and #9359 and #12817 for Sales Order Agent. Localization fixes touch the Czech, Dutch, Swiss and Spanish apps, for example #12142 and #11757. E-Documents gained #12575 and #11527. Fabric Mirroring raised its table limit to 1000 in #12565 and added a table reset in #12339. Smaller items include HttpClient migrations in #12614 and #12755, URL check moves in #12617, and extensibility additions #11580 and #10523. AL-Go fixed comma handling in dependency filenames in #2403.",
-  "changes": 61,
+  "input_hash": "b3523200ddedded5b5de6e7e25f7ec087636cc7611c9b1008605984ca2520a86",
+  "text": "The one breaking change this week is #10520: the blocked customer check event on table Customer now passes the extensible Gen. Journal Document Type enum value instead of an option integer, so subscribers need review. Most other work was behaviour fixes in BCApps. Direct transfer upgrade failures without Inventory Setup were fixed in #12907 and #12939. Posting and costing fixes include #12816 (project planning line order), #11714 (assembly cost adjustment rounding), #10500 (additional-currency cost on project ledger entries) and #11757 (Spanish payment orders). Sales and purchasing fixes cover #12806 (partial orders after closing the browser during quote conversion), #12469 (manual direct unit costs kept in carry out), #12809 and #12551. Planning fixes are #12464 and #12760, where a blocked item no longer stops Order Planning, and #12669 and #12459 for subcontracting dates and prices. Subscription Billing received #12857, #12622 and #12377. Agent work includes #11909, which blocks guest users from managing Expense Agent, #12817 and #9359 for Sales Order Agent, and Expense Agent VAT setup fixes #12810 and #12472. E-documents changes are #12148 for PEPPOL Order Response, #12575 and #11527. Fabric mirroring raised its table limit to 1000 in #12565 and gained a table reset in #12339. Extensibility additions are #11580 and #10523. Smaller refactors moved HTTP and URL checks to native modules in #12614, #12755 and #12617.",
+  "changes": 63,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.064496,
-  "at": "2026-10-18T00:22:31.899Z",
+  "cost_usd": 0.067104,
+  "at": "2026-10-19T00:22:27.986Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-18T00:55:52.803Z",
+    "at": "2026-10-19T01:11:27.109Z",
     "verdict": "approve",
     "issues": [
-      "#12142 is given as an example of 'localization fixes' but its kind is feature (new Official Full Name field for Czech statutory reporting). This is minor because the Czech localization reference is still correct.",
-      "#12755 is grouped with #12614 as an HttpClient migration, which is accurate, but unlike #12614 it is not flagged as behaviour-changing. This is fine since it sits under 'smaller items'."
+      "Several pull requests are named with no description (#12809, #12551, #12857, #12622, #12377, #12575, #11527, #11580, #10523), so readers learn only which area they belong to. A short clause each would help, for example #12809 (a vendor change on one purchase order no longer carries over to the next order) and #12622 (contract currency is kept on generated invoices).",
+      "'native modules' is loose wording. #12614 and #12755 moved to native HttpClient, while #12617 moved URL checks to the System Application Uri module.",
+      "The paragraph is about 213 words, close to the 220-word limit."
     ],
-    "input_hash": "a7f727b85d32fc5204f001fa9b983aead6f95d18b0b9fc764ef6fd3f0a214dc8",
-    "cost_usd": 0.15878,
+    "input_hash": "b3523200ddedded5b5de6e7e25f7ec087636cc7611c9b1008605984ca2520a86",
+    "cost_usd": 0.16970000000000002,
     "applied": [],
     "rejected_edits": []
   }

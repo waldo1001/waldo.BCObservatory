@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -473,14 +473,17 @@ links:
   localizations: []
   videos:
     - video/cuez5kIanKo
+    - video/gy_6QnFpiEw
     - video/p-pwG6f5srY
     - video/PIWxU93eCT4
     - video/StIVhsnOHWY
     - video/VjYMhjjc3uw
     - video/YSDfDjrMUb0
   posts:
+    - post/aardvarklabs-blog/2603
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6
     - post/thedynamicsexplorer-com/10326
   guidelines: []
   changes:
@@ -502,8 +505,12 @@ links:
     - change/bcapps/11562
     - change/bcapps/11667
     - change/bcapps/12145
+    - change/bcapps/12461
+    - change/bcapps/12551
     - change/bcapps/12554
+    - change/bcapps/12806
     - change/bcapps/8914
+    - change/bcapps/9096
     - change/bcapps/9118
     - change/bcapps/9222
     - change/bcapps/9224
@@ -530,8 +537,8 @@ children:
 coverage:
   learn: 133
   code: 139
-  video: 6
-  blog: 3
+  video: 7
+  blog: 5
   guideline: 0
 bc_forms:
   - 7
@@ -761,8 +768,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11562 [Main] [ALL-E] Sales Line Discount % accepts 5 decimal places through Configuration Package import but rejects manual entry beyond 2 decimal places.Initial Commit](../../../changes/bcapps/11562.md) (code change): "Sales Line Discount % field now consistently accepts the same number of decimal places"
 - [#11667 Fix quantity fields on Sales Return Order Archive](../../../changes/bcapps/11667.md) (code change): "Sales Return Order Archive pages now display return-receipt quantities instead of shipment"
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
+- [#12461 [29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12461.md) (code change): "Item charge assignment on sales orders now refreshes record set after bulk updates"
+- [#12551 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../changes/bcapps/12551.md) (code change): "Fixes a regression in Sales Line behaviour related to the VAT Prod. field"
 - [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "Document attachment uploads now work correctly for posted sales shipments and return receipts"
+- [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"
+- [#9096 Align Bill-to Name 2 editability with the other bill-to address fields on sales documents](../../../changes/bcapps/9096.md) (code change): "Bill-to Name 2 field on sales documents is now editable under the same conditions"
 - [#9118 Bugs/master GitHub event batch 1745](../../../changes/bcapps/9118.md) (code change): "Sales Line and Sales Shipment Line changed in W1 and many localization layers"
 - [#9222 [Main]- When issuing a prepayment invoice with an invoice discount applied, the prepayment amount does not take into account the total amount including tax.](../../../changes/bcapps/9222.md) (code change): "prepayment invoices with invoice discounts applied were not correctly including tax"
 - [#9224 [main] GitHub event batch 1746](../../../changes/bcapps/9224.md) (code change): "Copy Sales Document report changed in the W1 and APAC layers"
@@ -778,10 +789,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
 - [#9960 [Extensibility Request] issue 30396: expose sales document lookup](../../../changes/bcapps/9960.md) (code change): "The lookup procedure in the Copy Sales Document report is now public"
 - [#9984 [Main] Error with unposted prepayment amounts on Order](../../../changes/bcapps/9984.md) (code change): "unposted prepayment amounts on sales and purchase orders"
+- [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "creating sales orders"
 - [How to Email Posted Sales Shipments and Return Receipts in Business Central 2026 Wave 1.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97.md) (community post): "email delivery, PDF generation, and attachment management for Posted Sales Shipments"
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
+- [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "item does not appear in the Sales Line item lookup"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "sales credit memo with an inventory item automatically creates item ledger"
 - [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Product Export to Shopify; Sales Channel Verification"
+- [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "multi-currency; price catalogs; b2b catalogs; point of sale"
 - [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Return processing; Posted Sales Invoice Synchronization; Multi-Payment Reconciliation"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
 - [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Order import; error handling; refunds; Sync orders from Shopify"

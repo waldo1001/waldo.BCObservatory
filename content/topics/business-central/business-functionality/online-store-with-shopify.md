@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,7 +199,6 @@ links:
     - topic/business-central/business-functionality/online-store-with-shopify/get-started-with-the-shopify-connector
   localizations: []
   videos:
-    - video/gy_6QnFpiEw
     - video/NMO822Jf_4E
     - video/p-pwG6f5srY
     - video/StIVhsnOHWY
@@ -208,7 +207,8 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/10775
+    - change/bcapps/10619
+    - change/bcapps/10741
     - change/bcapps/11400
     - change/bcapps/11866
     - change/bcapps/12139
@@ -237,7 +237,7 @@ children:
 coverage:
   learn: 16
   code: 46
-  video: 6
+  video: 5
   blog: 0
   guideline: 0
 bc_forms:
@@ -341,7 +341,8 @@ Operational pages cover running tasks in the background and recurrently with job
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#10775 [Shopify] Optimize unmapped cue counts](../../../changes/bcapps/10775.md) (code change): "Shopify Activities cues for unmapped customers, products and companies"
+- [#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue](../../../changes/bcapps/10619.md) (code change): "A database index is added to the Shopify Order Header table"
+- [#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout](../../../changes/bcapps/10741.md) (code change): "Fixed Shopify return-with-exchange processing by ensuring exchange credit memos"
 - [#11400 [Shopify] Handle missing variant mapping in product action](../../../changes/bcapps/11400.md) (code change): "Show product in Shopify action on the Item Card and Item List is now enabled"
 - [#11866 [Shopify] Disable Sync Shipments To Shopify when no Shopify orders exist](../../../changes/bcapps/11866.md) (code change): "Sync Shipments To Shopify action on the Shopify Orders page"
 - [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../changes/bcapps/12139.md) (code change): "The Create Sales Documents action on the Shopify Orders page is now disabled"
@@ -360,7 +361,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9525 [Shopify] Automatic Transaction Posting](../../../changes/bcapps/9525.md) (code change): "Shopify payment transactions can now be automatically posted as general journal lines"
 - [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
 - [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Sync Catalog Prices report now supports filtering by individual catalogs"
-- [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "shopify connector; market pricing; multi-currency; price catalogs"
 - [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Processing of Presentment Currencies in Shopify; multi-currency; price synchronization"
 - [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Shopify connector; custom fields; meta fields; product synchronization"
 - [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Shopify connector; troubleshooting; synchronization; job queue"

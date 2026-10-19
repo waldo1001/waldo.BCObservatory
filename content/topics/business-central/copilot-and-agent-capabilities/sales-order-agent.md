@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,7 +147,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Getting Started With Agents: Run Multiple Sales Order Agents in Parallel (2026 release wave 1)](../../../videos/kwGEoxN46hk.md) (video): "Run Multiple Sales Order Agents in Parallel configuration"
 - [Less Searching More Selling with Sales Order Agent (2025)](../../../videos/Qmd6_5vYKDg.md) (video): "Sales Order Agent; Natural Language Understanding for Item Recognition"
 - [Dynamics 365 Business Central 2025 Release Wave 2](../../../videos/UIL8ej7mSKQ.md) (video): "Sales order agent automatic email processing; Sales order agent multiple shipping addresses"
-- [Introducing: Sales Order Agent (2025 release wave 1)](../../../videos/XhO4oFmoh1M.md) (video): "Sales Order Agent; ai agents; email automation; quote processing"
+- [Introducing: Sales Order Agent (2025 release wave 1)](../../../videos/XhO4oFmoh1M.md) (video): "Sales Order Agent; email automation; quote processing; item search"
 
 ## Business Central pages and reports
 

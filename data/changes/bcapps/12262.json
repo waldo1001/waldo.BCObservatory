@@ -115,8 +115,19 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinReportExportNameHandler.Codeunit.al",
+        "status": "added",
+        "key": "codeunit/8362",
+        "type": "codeunit",
+        "id": 8362,
+        "name": "FinReportExportNameHandler",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8362"
+      },
       {
         "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinancialReportExportJob.Codeunit.al",
         "status": "modified",
@@ -192,11 +203,6 @@
       {
         "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Account/GLAccountList.Page.al",
         "status": "modified",
-        "reason": "not-in-snapshot"
-      },
-      {
-        "path": "src/Layers/W1/BaseApp/Finance/FinancialReports/FinReportExportNameHandler.Codeunit.al",
-        "status": "added",
         "reason": "not-in-snapshot"
       }
     ]

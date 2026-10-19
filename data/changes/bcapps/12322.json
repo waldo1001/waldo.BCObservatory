@@ -74,7 +74,7 @@
   },
   "join": {
     "major": "30",
-    "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
     "objects": [
       {
         "path": "src/Apps/W1/Quality Management/app/src/Dispositions/Transfer/QltyCreateTransferOrder.Report.al",
@@ -97,15 +97,20 @@
         "app": "Quality Management",
         "cc": "w1",
         "page": "codeunit/20444"
-      }
-    ],
-    "unjoined": [
+      },
       {
         "path": "src/Apps/W1/Quality Management/app/src/Permissions/QltyMgmtBinView.PermissionSet.al",
         "status": "added",
-        "reason": "not-in-snapshot"
+        "key": "permissionset/20408",
+        "type": "permissionset",
+        "id": 20408,
+        "name": "QltyMgmt - Bin View",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "permissionset/20408"
       }
-    ]
+    ],
+    "unjoined": []
   },
   "systems": [
     "inventory"

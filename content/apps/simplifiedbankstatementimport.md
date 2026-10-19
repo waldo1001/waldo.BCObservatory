@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 5faa9ae686211c112a5b7c59baddc413f5b5a763aa7361fc844825da105c9fc9
+  input_hash: e12a3f79ab781276a0d791a7296d54245b6c517ac61bb9292f5ac6a5d09d9274
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SimplifiedBankStatementImport/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SimplifiedBankStatementImport/app
     title: src/Apps/W1/SimplifiedBankStatementImport/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -141,4 +141,4 @@ First-party app · folder `src/Apps/W1/SimplifiedBankStatementImport/app` · nam
 | 8861 | [D365 FINANCIAL REP - SBSI](../objects/permissionsetextension/8861.md) |  |
 | 8862 | [D365 SETUP - SBSI](../objects/permissionsetextension/8862.md) |  |
 
-Source: [src/Apps/W1/SimplifiedBankStatementImport/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SimplifiedBankStatementImport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SimplifiedBankStatementImport/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SimplifiedBankStatementImport/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

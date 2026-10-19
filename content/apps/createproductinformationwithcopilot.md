@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 48d86a05c60647f9a545eb1369737dea5d4e3a6fb7966563aa3019e0b0cf575e
+  input_hash: af2f4864221959514a7bde517b80cc819d16ee98b10cb22b07ba46bfebb3fbc0
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/CreateProductInformationWithCopilot/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/CreateProductInformationWithCopilot/app
     title: src/Apps/W1/CreateProductInformationWithCopilot/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -137,4 +137,4 @@ First-party app · folder `src/Apps/W1/CreateProductInformationWithCopilot/app` 
 |---|---|---|
 | 7330 | [Create Product Info Capability](../objects/enumextension/7330.md) |  |
 
-Source: [src/Apps/W1/CreateProductInformationWithCopilot/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/CreateProductInformationWithCopilot/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/CreateProductInformationWithCopilot/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/CreateProductInformationWithCopilot/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

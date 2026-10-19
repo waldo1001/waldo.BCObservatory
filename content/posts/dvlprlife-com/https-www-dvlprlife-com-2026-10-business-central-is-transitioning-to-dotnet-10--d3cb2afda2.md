@@ -15,16 +15,16 @@ tags:
   - on-premises
 system: development
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-19T01:10:33.892Z"
   flags: []
 generated:
-  at: "2026-10-19T00:23:00.743Z"
+  at: "2026-10-19T00:22:27.986Z"
   pipeline: 0.2.0
   prompts:
     extract-post: 1
-  input_hash: 24f17eeeeec4cc64456160f2b7d9662eba1ea6a955f6f966b024cbb7d3648fe4
+  input_hash: afa846d6f4213427aaff906b5d0c1b35778d2af9ebbe9f4c66011724fd5d638a
 evidence:
   - kind: blog
     url: https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/
@@ -83,18 +83,18 @@ versions_mentioned:
 preview:
   embeddable: true
   frame_url: null
-  image: null
-  image_alt: null
-  image_w: null
-  image_h: null
-  site_name: null
-  favicon: null
-  probed_at: "2026-10-07T21:11:56.813Z"
+  image: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  image_alt: DvlprLife.com
+  image_w: 270
+  image_h: 270
+  site_name: DvlprLife.com
+  favicon: https://www.dvlprlife.com/wp-content/uploads/2026/04/cropped-avatar-transparent-250-270x270.png
+  probed_at: "2026-10-19T01:07:57.310Z"
 ---
 
 # Business Central Is Transitioning to .NET 10, and Here's What You Should Check
 
-[Read the post](https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/) · DvlprLife (Brad Prendergast) · 2026-10-18 · 649 words · tier community · **unreviewed** (model text not yet checked)
+[Read the post](https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/) · DvlprLife (Brad Prendergast) · 2026-10-18 · 649 words · tier community · reviewed (checked by Opus)
 
 > Business Central is transitioning from .NET 8 to .NET 10 across online and on-premises environments. For online, Microsoft handles the migration during maintenance windows. For on-premises, the change arrives via cumulative updates at different points by release, requiring matching AL extension versions and careful pipeline validation.
 

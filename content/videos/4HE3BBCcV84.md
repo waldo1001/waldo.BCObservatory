@@ -19,7 +19,7 @@ review:
   at: "2026-10-07T22:47:24.099Z"
   flags: []
 generated:
-  at: "2026-10-07T22:47:24.131Z"
+  at: "2026-10-19T01:09:02.086Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -85,7 +85,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/576789
   topics: []
   localizations: []
   videos: []
@@ -122,17 +123,21 @@ features:
     status: ga
     t: 5
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576789"
   - name: Analytics API reference documentation
     status: unclear
     t: 172
     verified: false
     status_source: video
   - name: MCP server configuration for object type query
-    status: unclear
+    status: ga
     t: 97
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576789"
 objects_mentioned:
   - query GL account category
 quotes:
@@ -195,9 +200,11 @@ The demo shows an MCP server configuration where the object type is set to query
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| API queries in MCP server | generally available, demoed | [0:05](https://www.youtube.com/watch?v=4HE3BBCcV84&t=5s) | "API queries are the foundation for our Power BI apps, and this is now available in Business Central uh MCP server" ([1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s)) |
+| API queries in MCP server | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [0:05](https://www.youtube.com/watch?v=4HE3BBCcV84&t=5s) | "API queries are the foundation for our Power BI apps, and this is now available in Business Central uh MCP server" ([1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s)) |
 | Analytics API reference documentation | status not stated | [2:52](https://www.youtube.com/watch?v=4HE3BBCcV84&t=172s) |  |
-| MCP server configuration for object type query | status not stated, demoed | [1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s) |  |
+| MCP server configuration for object type query | generally available (roadmap [Unlock more Business Central data with MCP server enhancements](../features/576789.md)), demoed | [1:37](https://www.youtube.com/watch?v=4HE3BBCcV84&t=97s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

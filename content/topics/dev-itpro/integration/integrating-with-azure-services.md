@@ -2,21 +2,21 @@
 id: topic/dev-itpro/integration/integrating-with-azure-services
 type: topic
 title: Integrating with Azure services
-summary: "Integrating Business Central with Azure services: Key Vault for extension secrets, Azure Functions calls, and telemetry in Application Insights. It answers questions about setting up key vaults, monitoring Azure Function and key vault secret telemetry, and enabling, analyzing and alerting on telemetry."
+summary: "Integration of Business Central with Azure services: Application Insights, Blob and File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service. It answers questions about storing extension secrets in Azure Key Vault, and about enabling and analyzing telemetry for Key Vault and Azure Function calls."
 tier: official
 language: en
 system: integration
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:25:06.293Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: f971039dd772c6cfc36a6942f693022cf727158488a16b774e8a91b67f163ee4
+  input_hash: 55285c86d60186f64c877c91ccbff075b3dabb2f18cb245fc3b09cd5209cbb19
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-extension-key-vault-trace
@@ -97,28 +97,26 @@ narrative: generated
 
 # Integrating with Azure services
 
-> Integrating Business Central with Azure services: Key Vault for extension secrets, Azure Functions calls, and telemetry in Application Insights. It answers questions about setting up key vaults, monitoring Azure Function and key vault secret telemetry, and enabling, analyzing and alerting on telemetry.
+> Integration of Business Central with Azure services: Application Insights, Blob and File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service. It answers questions about storing extension secrets in Azure Key Vault, and about enabling and analyzing telemetry for Key Vault and Azure Function calls.
 
-Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative reviewed (checked by Opus)
+Path: [Integration](../integration.md) > Integrating with Azure services · tier official · system integration · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section describes how Business Central works with Azure services. The landing page lists the services involved: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.
+This section introduces the Azure services Business Central can work with and then goes deeper on two areas: Azure Key Vault and telemetry. The landing page lists the services: Application Insights, Blob Services API, File Services API, Functions, Key Vault, Virtual Network and Azure OpenAI Service.
 
-The detailed pages cover three areas. The Azure Key Vaults page explains how extensions that call external web services store secrets securely, and how to configure the Business Central service to reach the vaults in online and on-premises deployments. The Azure Function telemetry page and the app key vault secret trace telemetry page help you diagnose calls and secret retrieval. The Monitoring and Analyzing Telemetry page explains how to turn telemetry on and work with the data.
+The Key Vault pages explain how extensions keep secrets in a central, secure store. They use these secrets for authenticated web service calls to external services, in both online and on-premises deployments. A separate telemetry page covers how to trace secret acquisition at runtime.
 
-Start with the overview page to see which services are supported. Then read the Key Vault page if you are handling secrets, or the monitoring page if you need to set up telemetry before using the two telemetry reference pages.
+The telemetry pages show how to monitor Azure-related operations. The overview covers enabling telemetry at environment and app level, viewing it in Power BI, analyzing it with KQL, and setting up alerts. The Azure Function page applies this to calls from Business Central to Azure Functions. Start with the landing page for the service list, then go to the Key Vault or telemetry pages that match your task.
 
 ## Key points
 
-- Supported Azure services listed: Application Insights, Blob Storage, File Services, Functions, Key Vault, Virtual Networks and Azure OpenAI Service.
-- Azure Key Vault stores secrets for extensions that call external web services, with setup for online and on-premises deployments.
-- Key vault features include multi-key vault support, access control, publisher validation and telemetry monitoring.
-- App key vault secret trace telemetry covers initialization and secret retrieval, with success and failure tracking for diagnostics.
-- Azure Function integration telemetry tracks success and failure of calls from Business Central made through the Azure Function module, including requests and authorization.
-- Telemetry can be enabled at environment level and app level.
-- Telemetry data can be viewed in Power BI, analyzed with KQL queries, and used to set up alerts.
-- The monitoring overview mentions custom telemetry and references 2020 release wave 2.
+- Supported Azure services listed: Application Insights, Blob Services API, File Services API, Functions, Key Vault, Virtual Network, Azure OpenAI Service.
+- Azure Key Vault gives extensions centralized, secure storage for secrets used in authenticated web service calls to external services.
+- App key vault setup is described separately for online and on-premises deployments.
+- App Key Vault telemetry covers initialization and secret retrieval, with failure reasons, telemetry dimensions and KQL sample code for troubleshooting.
+- Azure Function integration telemetry helps monitor success and failure of calls made through the Azure Function module, including request tracking and authorization monitoring.
+- The telemetry overview covers environment-level and app-level enabling, Power BI analysis, KQL queries, alert setup and custom telemetry, and references 2020 release wave 2.
 
 ## Learn pages
 
@@ -137,7 +135,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Azure Function SQL Trigger: how to use it (and why it can be useful in your Business Central projects)](../../../posts/demiliani-com/11817.md) (community post): "Azure SQL Triggers for Azure Functions enable real-time event-driven integrations with Business Central"
 - [Dynamics 365 Business Central: using a static IP address to access APIs.](../../../posts/demiliani-com/11887.md) (community post): "Azure Function in Premium or Flex Plan acts as a middleware to route requests"
 - [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter.](../../../posts/demiliani-com/13020.md) (community post): "Securing Azure Storage accounts accessed by Business Central using Network Security Perimeter"
-- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "Dynamics365BusinessCentral service tag, with Microsoft automatically updating the underlying"
+- [Securing your Azure Storage Account: a guide to enabling Business Central-only access using Network Security Perimeter (part2) – now with Service Tags.](../../../posts/demiliani-com/17492.md) (community post): "Administrators can restrict an Azure Storage Account to Business Central traffic"
 - [Calling Business Central APIs Without a Client Secret](../../../posts/jpearson-blog/1485.md) (community post): "Managed identities assigned to Azure resources can obtain access tokens without needing client secrets"
 - [Calling Business Central Directly from a Managed Identity](../../../posts/jpearson-blog/1535.md) (community post): "Azure resources to call Business Central APIs securely without creating or storing client secrets"
 - [Store Files Outside Business Central Using External File Accounts (BC 2025 Wave 1)](../../../videos/2vUCR16b85o.md) (video): "external file storage; azure blob storage; storage accounts"

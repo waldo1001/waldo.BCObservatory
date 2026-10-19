@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:09.180Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,6 +119,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12857
 learn_toc_path:
   - Business functionality
   - Sales
@@ -186,6 +188,12 @@ Start with the overview, then set up a data exchange definition and a supplier b
 - [Usage data supplier references](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/references): You can use references in usage-based billing.
 - [Usage data suppliers](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/suppliers): You can use suppliers in usage-based billing.
 - [Usage-based billing customers and subscriptions](https://learn.microsoft.com/dynamics365/business-central/UBB/masterdata/customers-subscriptions): You can use customer subscriptions in usage-based billing.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../../../../../changes/bcapps/12857.md) (code change): "Prevents customer credit memo lines from affecting vendor contract billing totals"
 
 ## Business Central pages and reports
 

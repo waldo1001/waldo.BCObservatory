@@ -8,11 +8,11 @@
   ],
   "summary": "Added table and field validation logic to the Fabric integration to control which Business Central tables and fields can be mirrored to Microsoft Fabric.",
   "key_points": [
-    "Created FabricTableValidation codeunit with table exclusion logic",
-    "Created FabricFieldValidation codeunit with field filtering logic",
-    "Updated permission sets to include access to validation objects",
-    "Added comprehensive test coverage in TestFABPlatform codeunit",
-    "Expanded configuration validation without changing platform or table structures"
+    "New Fabric Table Validation codeunit for excluding tables from Fabric integration",
+    "New Fabric Field Validation codeunit for excluding fields",
+    "Fabric Exp Activate and Fabric Exp Admin permission sets updated for the new codeunits",
+    "Fabric Platform Tables page adjusted",
+    "Tests added in TestFABPlatform"
   ],
   "change_kind": "feature",
   "behavior_change": true,

@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2e9407f92d62baf66cce70fcbda8e687ad8b2a20fdd8f49983752b98c7a5cf2b
+  input_hash: 5254ec75c219d250a39e0b0d2fd33cb382ae2afb46f2f06294c31eddd50bbbbc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBC14/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBC14/app
     title: src/Apps/W1/HybridBC14/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -448,4 +448,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [Microsoft presents: Cloud Migration from any SQL](../videos/f_i4_BRz-oA.md) (video, 2026-10-01): names Interface "BC14 Migrator"
 
-Source: [src/Apps/W1/HybridBC14/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/HybridBC14/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/HybridBC14/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/HybridBC14/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

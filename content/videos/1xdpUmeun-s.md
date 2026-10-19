@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T22:52:00.017Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-19T01:09:02.086Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -170,7 +170,6 @@ links:
   objects: []
   features:
     - feature/573312
-    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -238,12 +237,10 @@ features:
     verified: false
     status_source: video
   - name: Many table extensions to one optimization
-    status: ga
+    status: unclear
     t: 1166
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573332"
+    status_source: video
   - name: Lock table function behavior
     status: unclear
     t: 1255
@@ -415,7 +412,7 @@ The episode goes through features that need code changes (data transfer, set loa
 | Set load fields (partial records) | status not stated | [11:30](https://www.youtube.com/watch?v=1xdpUmeun-s&t=690s) |
 | Read isolation | status not stated | [13:58](https://www.youtube.com/watch?v=1xdpUmeun-s&t=838s) |
 | Tri-state locking | status not stated | [17:02](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1022s) |
-| Many table extensions to one optimization | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |
+| Many table extensions to one optimization | status not stated | [19:26](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1166s) |
 | Lock table function behavior | status not stated | [20:55](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1255s) |
 | Set current key function behavior | status not stated | [22:01](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1321s) |
 | Temporary tables | status not stated | [24:06](https://www.youtube.com/watch?v=1xdpUmeun-s&t=1446s) |

@@ -8,13 +8,13 @@
   ],
   "summary": "PEPPOL Order Response messages now conform to BIS 28 (T76) standard by including mandatory endpoint identifiers, order lines with status tracking, delivery dates, and seller's actual business decisions on sales orders.",
   "key_points": [
-    "Added mandatory `cbc:EndpointID` and `schemeID` for both parties to prevent Access Point rejection",
-    "Response code reflects actual seller decision: `AP` when no changes, `CA` when changes detected with all order lines included",
-    "Each response line reports: accepted (5), changed (3), not accepted (7), or added lines (1) with quantities, prices, and delivery dates",
-    "Compares inbound order against created sales lines using E-Document Record Link; snapshot delivery dates on draft line creation",
-    "Builder interface accepts primitives only; validates `AddLine` called before `SetLine*` procedures"
+    "Both parties now get the mandatory cbc:EndpointID with schemeID, echoed from the inbound order or taken from GLN/VAT identification; missing setup raises an error",
+    "Response code follows the seller's decision: AP with no lines when nothing changed, CA with every order line when something changed",
+    "Each line is reported as accepted (5), changed (3), not accepted (7) or added (1), with quantities, net prices and promised delivery periods in the buyer's unit",
+    "Order lines are compared with the sales lines linked via E-Doc. Record Link; Shipment Date and Planned Delivery Date are snapshotted on the draft line",
+    "PEPPOL Order Resp. Builder takes primitives only, Build resets it, and calling SetLine* before AddLine raises an internal error"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

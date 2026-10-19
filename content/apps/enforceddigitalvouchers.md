@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 168df21a953b23b0f9a1caa29f35af9299038ad3d88e2e3135ad86834322eba2
+  input_hash: a1853fd941bd6c8ad4969083efdd7d64f520d7c65ef36c81aaea6eccf628dd80
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EnforcedDigitalVouchers/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/EnforcedDigitalVouchers/app
     title: src/Apps/W1/EnforcedDigitalVouchers/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -205,4 +205,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../videos/hcu7T3qLdDA.md) (video, 2024-04-04): names Page 5579 "Digital Voucher Entry Setup"
 
-Source: [src/Apps/W1/EnforcedDigitalVouchers/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/EnforcedDigitalVouchers/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/EnforcedDigitalVouchers/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/EnforcedDigitalVouchers/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

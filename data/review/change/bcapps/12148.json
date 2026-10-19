@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12148",
+  "input_hash": "90ce254d0453e5d51d977c55f9ca146ac44204d610657445374a3551b8850865",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-19T01:10:56.721Z",
+  "issues": [
+    "The description frames this as correcting a non-conformant response that Access Points reject and that misreported the seller's decision, so fix fits better than feature.",
+    "Key point 5 calls the PEPPOL Order Resp. Builder codeunit an interface. The new interface is a separate object. Also, calling SetLine* before AddLine raises an internal error, which the point did not say."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026225,
+    "changes_in_call": 6
+  }
+}

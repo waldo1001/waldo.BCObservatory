@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 2beb612a58bbc89269fac255e5f17f26e36571af97c89a3df86c641f23c0e9fd
+  input_hash: d30d9b6d469eae7c1fb4545f80f97d53afa4571494b961eed893618824306bf1
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/APIV2/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIV2/app
     title: src/Apps/W1/APIV2/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -490,4 +490,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../posts/gerardorenteria-blog/12682.md) (community post, 2025-11-12): names Page 30017 "APIV2 - Employees"
 
-Source: [src/Apps/W1/APIV2/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/APIV2/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/APIV2/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/APIV2/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

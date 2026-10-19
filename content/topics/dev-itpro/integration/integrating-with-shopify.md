@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-19T01:12:12.504Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -82,6 +82,7 @@ links:
     - video/BwBR8JwwQa4
     - video/cuez5kIanKo
     - video/e5Dr3jzCLM8
+    - video/gy_6QnFpiEw
     - video/h5PQI4I4b7c
     - video/inuqqx12yJ8
     - video/lClKXB8xXIE
@@ -90,18 +91,13 @@ links:
   changes:
     - change/bcapps/10034
     - change/bcapps/10092
-    - change/bcapps/10143
-    - change/bcapps/10162
     - change/bcapps/10256
     - change/bcapps/10307
     - change/bcapps/10407
     - change/bcapps/10417
     - change/bcapps/10462
     - change/bcapps/10467
-    - change/bcapps/10619
-    - change/bcapps/10741
-    - change/bcapps/11094
-    - change/bcapps/11096
+    - change/bcapps/10775
     - change/bcapps/11373
     - change/bcapps/11407
     - change/bcapps/11603
@@ -135,7 +131,7 @@ children: []
 coverage:
   learn: 4
   code: 16
-  video: 11
+  video: 12
   blog: 0
   guideline: 0
 bc_forms:
@@ -197,18 +193,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10034 [Shopify] Don't block Shops page when user lacks extension permissions](../../../changes/bcapps/10034.md) (code change): "The Shopify Shops page no longer fails to open on Belgian environments"
 - [#10092 [Shopify] Add cues for Skipped Records and API Errors on Activities page](../../../changes/bcapps/10092.md) (code change): "Two new cues on the Shopify Activities page display counts of skipped sync records"
-- [#10143 Handle non-invoice or currupt PDF extraction](../../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs that return empty data"
-- [#10162 Fix stale start status in e-document import pipeline](../../../changes/bcapps/10162.md) (code change): "e-document import pipeline now uses the initial processing status"
 - [#10256 [Shopify] Fix customer matching when phone numbers contain spaces](../../../changes/bcapps/10256.md) (code change): "When exporting customers to Shopify, the connector now strips phone numbers"
-- [#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice](../../../changes/bcapps/10307.md) (code change): "Shopify Order Totals factbox now correctly resolves and displays totals"
-- [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Shopify connector now captures and persists tax area code"
+- [#10307 [Shopify] Fix Order Totals factbox opening an unrelated sales order for a linked posted invoice](../../../changes/bcapps/10307.md) (code change): "The Shopify Order Totals factbox now correctly resolves and displays totals"
+- [#10407 Shopify connector: persist order Tax Area Code, Tax Liable, and Tax Exempt (stack 1/3)](../../../changes/bcapps/10407.md) (code change): "Shopify connector now captures and persists tax area code, tax liable, and tax exempt"
 - [#10417 [Shopify] Pace raw-text GraphQL calls to prevent excessive throttling](../../../changes/bcapps/10417.md) (code change): "Shopify connector now paces GraphQL requests issued through the raw-text overload"
-- [#10462 [Shopify] Fix order edit retaining discount allocation for removed quantity](../../../changes/bcapps/10462.md) (code change): "The Shopify connector now correctly adjusts line-level discount amounts"
+- [#10462 [Shopify] Fix order edit retaining discount allocation for removed quantity](../../../changes/bcapps/10462.md) (code change): "Shopify connector now correctly adjusts line-level discount amounts when refunds reduce"
 - [#10467 [Shopify] Fix more-expensive exchange refund: no balancing G/L line, no false processed-order warning](../../../changes/bcapps/10467.md) (code change): "Fixed Shopify exchange refund handling when the replacement item is more expensive"
-- [#10619 [Shopify] Index Has Order State Error to fix slow Shopify Activities cue](../../../changes/bcapps/10619.md) (code change): "database index is added to the Shopify Order Header table on the"
-- [#10741 [Shopify] Fix exchange refund order links, totals, and refund page layout](../../../changes/bcapps/10741.md) (code change): "Shopify return-with-exchange processing by ensuring exchange credit memos retain order identifiers"
-- [#11094 [FS] Prevent duplicate Field Service customer assets during item synchronization](../../../changes/bcapps/11094.md) (code change): "Field Service Integration now prevents duplicate Customer Assets by setting Products"
-- [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "French PEPPOL exports now correctly handle billing profiles, identifiers"
+- [#10775 [Shopify] Optimize unmapped cue counts](../../../changes/bcapps/10775.md) (code change): "Shopify Activities cues for unmapped customers products and companies now count records"
 - [#11373 [Shopify] Improve shop navigation and background sync guidance](../../../changes/bcapps/11373.md) (code change): "Shopify integration adds shop-filtered payment actions to the Shop Card"
 - [#11407 [Shopify] Keep exchange shipments eligible for synchronization](../../../changes/bcapps/11407.md) (code change): "Exchange-refund Shopify orders now sync their shipments correctly"
 - [#11603 [Shopify] Show configured product status in Add to Shopify confirmation](../../../changes/bcapps/11603.md) (code change): "Shopify connector now displays the configured product status"
@@ -241,6 +232,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's New in Shopify Connector: Shopify B2B Companies and Company Locations (2025 release wave 1)](../../../videos/BwBR8JwwQa4.md) (video): "shopify connector; b2b; company locations; tax id mapping; payment terms"
 - [What's New in Shopify Connector: Activate Sales Channels (2025 release wave 1)](../../../videos/cuez5kIanKo.md) (video): "Activate Specific Sales Channels; Multiple Sales Channels Setup; Product Export to Shopify"
 - [Introducing: Shopify and Dynamics 365 Business Central (2023)](../../../videos/e5Dr3jzCLM8.md) (video): "Shopify integration with Business Central; Automatic inventory synchronization; Automatic order fulfillment"
+- [What's New in Shopify Connector: Prices for Markets (2025 release wave 2)](../../../videos/gy_6QnFpiEw.md) (video): "Shopify connector; Market Catalog Import; Price Synchronization for Markets"
 - [What's New in Shopify Connector: Metafields (2025 release wave 1)](../../../videos/h5PQI4I4b7c.md) (video): "Metafields synchronization from Shopify; Metafield mapping via extensibility model"
 - [What's New in Shopify Connector: Point of Sale (2025 release wave 2)](../../../videos/inuqqx12yJ8.md) (video): "Shopify POS integration with Business Central; Cash rounding for POS transactions"
 - [What's New: Troubleshooting Shopify Integration (2023 release wave 2)](../../../videos/lClKXB8xXIE.md) (video): "Enhanced Shopify Log Entries View; Request ID for Shopify Support; Logging Mode Option"

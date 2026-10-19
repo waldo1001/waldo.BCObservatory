@@ -15,16 +15,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T23:36:24.645Z"
+  at: "2026-10-19T01:07:00.885Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 47d0c636d3c09cd64e4ef1640ef6908b453b3d7d0c178c125263394e309df8ec
+  input_hash: 2ed2c017c02276d11288147785f3eff9851769e9b4c6a2bd5b5caec0268dfa80
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SustainabilityCopilotSuggestion/app
+    url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SustainabilityCopilotSuggestion/app
     title: src/Apps/W1/SustainabilityCopilotSuggestion/app (main)
     date: null
-    commit: f18567dc08e2bd162bf192e1da4d714b57eb099f
+    commit: eb2bfe5258a473c969a6b85cdc98ce8524408706
     t: null
     quote: null
 links:
@@ -192,4 +192,4 @@ Videos and posts that name this app's objects by exact type and name.
 
 - [What's New: Sustainability Copilot (2025 release wave 2)](../videos/bHXEbtsx0JY.md) (video, 2025-10-01): names Page 6328 "Emission Source Setup"
 
-Source: [src/Apps/W1/SustainabilityCopilotSuggestion/app](https://github.com/microsoft/BCApps/tree/f18567dc08e2bd162bf192e1da4d714b57eb099f/src/Apps/W1/SustainabilityCopilotSuggestion/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.
+Source: [src/Apps/W1/SustainabilityCopilotSuggestion/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/SustainabilityCopilotSuggestion/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

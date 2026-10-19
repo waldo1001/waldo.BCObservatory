@@ -1,0 +1,25 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-trivia-recap-october-12-16-2026/",
+  "input_hash": "02353db4eec436d78c4e5f4b43453ce453ccab9f508c0d0a2ea8d84ade952042",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-19T01:10:33.892Z",
+  "issues": [
+    "A key point says 1,420 questions were answered; the post has 250 questions and 1,420 answers.",
+    "Systems reporting, fixed-assets and sustainability come only from trivia category names; the post is not about those areas.",
+    "Features describe the trivia game itself, not Business Central functionality."
+  ],
+  "applied": [
+    "key points rewritten",
+    "dropped 4 feature(s)",
+    "dropped 3 system(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.037292,
+    "posts_in_call": 3
+  }
+}
