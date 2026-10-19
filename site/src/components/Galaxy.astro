@@ -4,8 +4,8 @@
  * scripts/galaxy.ts from graph/summary.json and graph/landed.json.
  * One bar, two groups (D92). Left, the lenses: with `questions` (the home page, D70) a "Questions" menu, then one
  * "Lenses" menu holding every lens (versions, this week, type, tier, coverage, and the country and source pickers),
- * then a chip naming the lens that is on. Right, the view: List view, at system level Tilt (A: the same system as four
- * planes, from graph/layers/<system>.json; Planes on a phone), zoom, panel, full screen and the "?" sheet. The bar's
+ * then a chip naming the lens that is on. Right, the view: List view, at system level Tilt (A: a button, D99; the same
+ * system as four planes, from graph/layers/<system>.json, a click picks a plane and the tilted view zooms; Planes on a phone), zoom, panel, full screen and the "?" sheet. The bar's
  * measured bottom places the ports, the tilt planes and the list view.
  */
 import { getCollection } from "astro:content";
@@ -38,7 +38,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
     </div>
     <div class="g-viewbar" role="group" aria-label="View">
       <button type="button" class="g-btn" data-g-view aria-pressed="false">List view</button>
-      <label class="g-tilt" hidden><span>Tilt</span> <input type="range" min="0" max="100" step="1" value="0" data-g-tilt aria-describedby="g-tilt-help" /></label>
+      <button type="button" class="g-btn" data-g-tilt aria-pressed="false" aria-describedby="g-tilt-help" hidden>Tilt</button>
       <button type="button" class="g-btn" data-g-planes aria-pressed="false" hidden>Planes</button>
       <span class="skip" id="g-tilt-help">Tilt the system into four planes: media, topic hubs, code and countries. T toggles it, Esc flattens.</span>
       <button type="button" class="icon-btn" data-g-out aria-label="Zoom out" title="Zoom out (-)">−</button>
@@ -52,6 +52,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
           <li><kbd>Esc</kbd> out one level; it also clears a lens, flattens a tilt, closes the list.</li>
           <li><kbd>←</kbd> <kbd>→</kbd> previous or next system; at a star, the nearest star that way (<kbd>↑</kbd> <kbd>↓</kbd> too).</li>
           <li><kbd>+</kbd> <kbd>−</kbd> zoom; wheel, pinch and drag work as well.</li>
+          <li>Click a plane or its name to list only that plane; click again for all four. Wheel, pinch or −/+ zoom a tilted system.</li>
           <li><kbd>F</kbd> full screen. <kbd>T</kbd> tilt a system into planes.</li>
           <li><kbd>Tab</kbd> reaches every system label, port and panel row; <kbd>Enter</kbd> opens it.</li>
           <li>Type in the search box to light up matching stars; <kbd>Enter</kbd> opens the full results.</li>
@@ -166,10 +167,8 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-nav { position: absolute; left: 16px; bottom: 14px; display: flex; gap: 8px; }
   .g-nav .icon-btn { background: var(--surface); }
   .g-level { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; pointer-events: none; }
-  /* tilt (A): a labelled range in the view group, with the tools' look (D92); plane labels as buttons that fold and unfold their plane */
-  .g-tilt { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 10px; font: 500 13px var(--font-ui); color: var(--text); border: 1px solid var(--line-strong); border-radius: var(--r-card); background: color-mix(in srgb, var(--surface) 92%, transparent); }
-  .g-tilt input { width: 80px; accent-color: var(--accent); }
-  .g-tilt[hidden], .g-bar :global([hidden]) { display: none; }
+  /* tilt (A, D99): Tilt is a .g-btn in the view group; plane names are buttons that pick their plane */
+  .g-bar :global([hidden]) { display: none; }
   .g-planes { position: absolute; inset: 0; pointer-events: none; }
   .g-planes :global(.g-plane) {
     position: absolute; left: 0; top: 0; pointer-events: auto; display: grid; gap: 1px; width: 160px; min-height: 44px; padding: 4px 8px; text-align: right;
@@ -177,8 +176,16 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   }
   .g-planes :global(.g-plane b) { font: 500 12px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
   .g-planes :global(.g-plane small) { font: 400 11px var(--font-mono); color: var(--muted); }
-  .g-planes :global(.g-plane[aria-pressed="false"]) { border-color: var(--ly-plane-border); }
   .g-planes :global(.g-plane:hover) { border-color: var(--line-strong); }
+  .g-planes :global(.g-plane[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
+  .g-planes :global(.g-plane.dim) { opacity: .6; }
+  .g-planes :global(.g-plane[hidden]) { display: none; }
+  .g-panel :global(.g-planehead) { all: unset; box-sizing: border-box; display: block; width: 100%; cursor: pointer; border-radius: var(--r-card); padding: 4px 6px; font: inherit; text-transform: inherit; letter-spacing: inherit; color: inherit; }
+  .g-panel :global(.g-planehead:hover), .g-panel :global(.g-planehead:focus-visible) { background: var(--surface-raised); }
+  .g-panel :global(.g-planehead:focus-visible) { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .g-panel :global(.g-planehead[aria-pressed="true"]) { color: var(--accent); background: var(--accent-surface); }
+  .g-panel :global(h4) { font: 500 12px var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 14px 0 6px; }
+  .g-panel :global(.g-plane-sec) { margin: 0; }
   .g-panel :global(.g-planecounts) { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 4px; font-size: 14px; }
   .g-panel :global(.g-planecounts b), .g-panel :global(.g-n) { font: 500 13px var(--font-mono); color: var(--text); }
   .g-panel :global(.g-tiltlens) { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font: 400 12px var(--font-mono); }
@@ -222,7 +229,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   .g-panel :global(.g-list small) { color: var(--muted); font: 400 11px var(--font-mono); }
   .g-panel :global(.g-list .g-path) { display: block; margin-top: 2px; overflow-wrap: anywhere; }
   /* media rows (D73): the title over the full width, then [kind] · source · date under it */
-  .g-panel :global(.g-list a.g-media) { grid-template-columns: 10px 1fr; align-items: start; row-gap: 0; }
+  .g-panel :global(.g-list .g-media) { grid-template-columns: 10px 1fr; align-items: start; row-gap: 0; }
   .g-panel :global(.g-media > span:not(.g-shape)) { grid-column: 2; line-height: 20px; overflow-wrap: anywhere; }
   .g-panel :global(.g-media > .g-shape) { grid-row: 1; margin-top: 6px; }
   .g-panel :global(.g-media > .g-shape.bar) { margin-top: 8px; }
@@ -239,6 +246,7 @@ const sourceKinds = Object.fromEntries((await getCollection("sources")).map((s) 
   /* D80: the code diamond, the this-week pills, the code groups */
   .g-panel :global(.g-shape.dia) { width: 7px; height: 7px; transform: rotate(45deg); background: var(--accent); }
   .g-panel :global(.g-media > .g-shape.dia) { margin-top: 7px; margin-left: 1px; }
+  .g-panel :global(.g-list .g-media:is(button) > .g-meta-line) { justify-self: start; }
   .g-panel :global(.g-kinds) { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; }
   .g-panel :global(.g-kind-pill) { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 0 10px; font: 400 12px var(--font-mono); color: var(--text-2); background: var(--g-port-bg); border: 1px solid var(--line-strong); border-radius: 999px; cursor: pointer; }
   .g-panel :global(.g-kind-pill[aria-pressed="true"]) { color: var(--accent); border-color: var(--accent); background: var(--accent-surface); }
