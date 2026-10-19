@@ -7,6 +7,7 @@ test("galaxy hash: combined keys, the old single-key form, unknown keys dropped"
   assert.deepEqual([...parseHash("#star=object%2Ftable%2F18")], [["star", "object/table/18"]]);
   assert.deepEqual([...parseHash("#evil=1&view=list")], [["view", "list"]]);
   assert.equal(parseHash("").size, 0);
+  assert.deepEqual([...parseHash("#system=development&tilt=1&plane=media")], [["system", "development"], ["tilt", "1"], ["plane", "media"]]);
 });
 
 test("ports sit on the rectangle's edge in the target's direction", () => {

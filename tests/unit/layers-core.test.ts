@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { bounds, coreSample, corners, inQuad, mediaSpot, norm, planeGeometry, planeRows, plotOf, project, restLines, STAR, type LayersFile } from "../../site/src/scripts/layers-core.js";
+import { applyZoom, bounds, coreSample, corners, DIM_PLANE, fullPlanes, inQuad, mediaSpot, norm, panBy, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, ZOOM_MAX, zoomAt, type LayersFile } from "../../site/src/scripts/layers-core.js";
 
 const f: LayersFile = {
   system: "finance", label: "Finance", x: 0, y: 0, r: 100,
@@ -14,13 +14,56 @@ const f: LayersFile = {
   countries: { be: 2, nl: 1 },
 };
 
-test("planes: four, top to bottom media, hubs, code, countries; a folded plane is a strip", () => {
+test("planes: four, top to bottom media, hubs, code, countries, all of equal depth, no fold parameter", () => {
   const p = planeGeometry({ x0: 0, y0: 100, x1: 1060, y1: 900 });
   assert.deepEqual(p.map((x) => x.id), ["media", "hubs", "code", "countries"]);
   assert.ok(p.every((x, i) => i === 0 || x.top > p[i - 1].top));
-  const folded = planeGeometry({ x0: 0, y0: 100, x1: 1060, y1: 900 }, new Set(["media", "countries"]));
-  assert.equal(folded[0].depth, 24);
-  assert.ok(folded[1].depth > 24);
+  assert.ok(p.every((x) => x.depth === p[0].depth));
+  assert.equal(planeGeometry.length, 1);
+});
+
+test("fullPlanes: a pick wins, else the lens's two planes, else all four", () => {
+  assert.deepEqual([...fullPlanes(null, null)].sort(), ["code", "countries", "hubs", "media"]);
+  assert.deepEqual([...fullPlanes("media", null)], ["media"]);
+  assert.deepEqual([...fullPlanes(null, "country")].sort(), ["code", "countries"]);
+  assert.deepEqual([...fullPlanes(null, "coverage")].sort(), ["code", "hubs"]);
+  assert.deepEqual([...fullPlanes("media", "country")], ["media"]);
+  assert.equal(DIM_PLANE, 0.4);
+});
+
+test("planeOrder: stars first on code, then the sum of the other columns; countries by object count", () => {
+  const code = planeOrder(planeRows(f, "code", (id) => id), "code", (r) => r.label);
+  assert.equal(code[0].label, "table/17");
+  const cs = planeOrder(planeRows(f, "countries", (id) => id), "countries", (r) => r.label);
+  assert.deepEqual(cs.map((r) => r.label), ["BE", "NL"]);
+});
+
+const box = { x0: 0, y0: 0, x1: 100, y1: 100 };
+test("plateAt finds the plate under a point, also when zoomed", () => {
+  const planes = planeGeometry({ x0: 0, y0: 100, x1: 1060, y1: 900 });
+  const hubs = planes[1], cs = corners(hubs), cx = cs.reduce((a, c) => a + c.x, 0) / 4, cy = cs.reduce((a, c) => a + c.y, 0) / 4;
+  assert.equal(plateAt(planes, cx, cy), "hubs");
+  assert.equal(plateAt(planes, -50, cy), null);
+  const all = planes.flatMap((p) => corners(p));
+  const b = { x0: Math.min(...all.map((c) => c.x)), y0: Math.min(...all.map((c) => c.y)), x1: Math.max(...all.map((c) => c.x)), y1: Math.max(...all.map((c) => c.y)) };
+  const z = zoomAt(ZOOM_1, 2, cx, cy, b);
+  const at = applyZoom(z, { x: cx, y: cy });
+  assert.equal(plateAt(planes, at.x, at.y, z), "hubs");
+});
+
+test("zoomAt keeps the anchor, clamps to [1, 8] and returns to ZOOM_1", () => {
+  const z2 = zoomAt(ZOOM_1, 2, 50, 50, box);
+  assert.deepEqual(z2, { s: 2, x: -50, y: -50 });
+  assert.deepEqual(zoomAt(z2, 0.5, 50, 50, box), ZOOM_1);
+  assert.equal(zoomAt(z2, 100, 50, 50, box).s, ZOOM_MAX);
+  assert.deepEqual(zoomAt(ZOOM_1, 0.5, 50, 50, box), ZOOM_1);
+  assert.deepEqual(applyZoom(z2, { x: 50, y: 50 }), { x: 50, y: 50 });
+});
+
+test("panBy never pans past the edges", () => {
+  const z = { s: 2, x: -50, y: -50 };
+  assert.equal(panBy(z, 80, 0, box).x, 0);
+  assert.equal(panBy(z, -80, 0, box).x, -100);
 });
 
 test("tilt: the same x/y lands on every plane at the same place inside it; the front edge is sheared left", () => {

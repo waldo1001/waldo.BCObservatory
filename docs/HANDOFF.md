@@ -15,14 +15,7 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-**Tilt button, plane pick, tilted zoom, D99** (`docs/specs/galaxy-tilt-planes.md`, M37, issue #10). Status: proposed
-2026-10-19, nothing implemented. Tilt becomes one on/off button with the slide kept; a click on a plane's plate, name
-or pane heading picks that plane (accent outline, the other three dimmed, the pane lists only it), a second click shows
-all four; the tilted pane becomes four plane sections; nothing folds any more (the country and coverage lenses dim);
-the tilted view zooms and pans; core sample media rows get their titles. Where to start: section 6 task 1 (phase 1, the
-button and the media titles, ships alone), then the failing tests of section 5. Three phases, site only: nothing under
-`content/`, `data/` or `pipeline/`, so no derive; live with the Pages build of each merge. Until it lands: the tilt
-range, plane names that fold, no zoom while tilted, ids in core sample media rows.
+None open.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
@@ -33,6 +26,13 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-19, live after its Pages build (site only, no derive):**
+- **Tilt button, plane pick, tilted zoom, D99** (`docs/specs/galaxy-tilt-planes.md`, M37, issue #10). Tilt is one
+  on/off button (the 600 ms slide kept); a click on a plane's plate, name or pane heading picks that plane (accent
+  outline, the other three at 0.4, the pane lists only it; `#system=...&tilt=1&plane=media`), a second click shows all
+  four; the tilted pane is four plane sections; no plane folds (the country and coverage lenses dim); wheel, pinch and
+  −/+ zoom the tilted view (1 to 8) and a drag pans; core sample media rows show their titles. The League's build could
+  not run the site build, so the review of PR #12 (2026-10-19) did: `npm run site:build` on Node 22, the browser checks
+  1 to 9 of spec section 7 (all pass) and the chunk size (+1,149 bytes gzipped). No operator step left.
 - **Learn row links, D98** (`docs/specs/learn-row-links.md`, M36, issue #8). On the search page a Learn article that a
   hub lists opens that hub at the article: the title links `<hub>/#learn=<path>`, and the page module (on every page)
   finds the article's link in the hub's Learn list by its URL, highlights its row, scrolls it to the centre and focuses

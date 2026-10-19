@@ -22,21 +22,26 @@ export interface Thing { plane: PlaneId; i: number; code?: string }
 /** Object flags (pipeline/link/graph.ts layersFiles). */
 export const STAR = 1, OBSOLETE = 2, CHANGED = 4;
 
-export interface Plane { id: PlaneId; top: number; depth: number; left: number; width: number; folded: boolean }
+/** No folding (D99): four planes of equal depth. */
+export interface Plane { id: PlaneId; top: number; depth: number; left: number; width: number }
 /**
  * Plane rectangles for a canvas area: tokens layers.tilt (760 wide, 130 deep, 120 sheared, 180 apart on a 1060 canvas)
- * scaled to fit; a folded plane is a 24px strip.
+ * scaled to fit.
  */
-export function planeGeometry(area: { x0: number; y0: number; x1: number; y1: number }, folded: Set<PlaneId> = new Set()): Plane[] {
-  const steps = PLANES.map((p) => (folded.has(p) ? 40 : 180));
-  const k = Math.max(0.3, Math.min((area.x1 - area.x0) / 1060, (area.y1 - area.y0) / (steps.reduce((a, b) => a + b, 0) - 50)));
+export function planeGeometry(area: { x0: number; y0: number; x1: number; y1: number }): Plane[] {
+  const k = Math.max(0.3, Math.min((area.x1 - area.x0) / 1060, (area.y1 - area.y0) / (180 * PLANES.length - 50)));
   const width = 760 * k, left = area.x0 + ((area.x1 - area.x0) - width) / 2 + 60 * k;
-  let y = area.y0;
-  return PLANES.map((id, i) => {
-    const f = folded.has(id), p = { id, top: y, depth: f ? 24 : 130 * k, left, width, folded: f };
-    y += steps[i] * k;
-    return p;
-  });
+  return PLANES.map((id, i) => ({ id, top: area.y0 + i * 180 * k, depth: 130 * k, left, width }));
+}
+
+/** D99: the alpha factor of a plane that is not at full strength. */
+export const DIM_PLANE = 0.4;
+/** Planes at full strength: the picked one; else the lens's two (country: code, countries; coverage: hubs, code); else all four. */
+export function fullPlanes(picked: PlaneId | null, lens: "country" | "coverage" | null): Set<PlaneId> {
+  if (picked) return new Set([picked]);
+  if (lens === "country") return new Set<PlaneId>(["code", "countries"]);
+  if (lens === "coverage") return new Set<PlaneId>(["hubs", "code"]);
+  return new Set(PLANES);
 }
 
 export interface Bounds { cx: number; cy: number; hx: number; hy: number }
@@ -140,4 +145,37 @@ export function planeRows(f: LayersFile, plane: PlaneId, hubLabel: (id: string) 
   if (plane === "hubs") return f.hubs.map((h, i) => ({ thing: { plane, i }, label: hubLabel(h[0]), cols: drop(count({ plane, i }), "hubs") }));
   if (plane === "code") return f.objects.map((o, i) => ({ thing: { plane, i }, label: o[0], cols: { media: o[5], hubs: o[4].length, countries: o[6] ? o[6].split(" ").length : 0 }, flags: o[7] }));
   return Object.entries(f.countries).map(([code, n], i) => ({ thing: { plane, i, code }, label: code.toUpperCase(), cols: { code: n } }));
+}
+
+/** The list per plane's order: code stars first, then the sum of the other planes' counts, then label. */
+export function planeOrder(rows: PlaneRow[], plane: PlaneId, label: (r: PlaneRow) => string): PlaneRow[] {
+  const cols = PLANES.filter((p) => p !== plane);
+  return [...rows].sort((a, b) => (plane === "code" ? ((b.flags ?? 0) & STAR) - ((a.flags ?? 0) & STAR) : 0) || cols.reduce((s, c) => s + (b.cols[c] ?? 0) - (a.cols[c] ?? 0), 0) || label(a).localeCompare(label(b), "en", { numeric: true }));
+}
+
+/** The tilted view's zoom: screen p -> (x + p.x * s, y + p.y * s). */
+export interface Zoom { s: number; x: number; y: number }
+export interface Box { x0: number; y0: number; x1: number; y1: number }
+export const ZOOM_1: Zoom = { s: 1, x: 0, y: 0 };
+export const ZOOM_MAX = 8;
+export const applyZoom = (z: Zoom, p: { x: number; y: number }) => ({ x: z.x + p.x * z.s, y: z.y + p.y * z.s });
+/** The zoomed box always covers the box (x + box.x0 * s <= box.x0 and x + box.x1 * s >= box.x1; same for y). */
+export function clampZoom(z: Zoom, box: Box): Zoom {
+  if (z.s <= 1) return ZOOM_1;
+  const c = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v)) + 0;
+  return { s: z.s, x: c(z.x, box.x1 - box.x1 * z.s, box.x0 - box.x0 * z.s), y: c(z.y, box.y1 - box.y1 * z.s, box.y0 - box.y0 * z.s) };
+}
+/** Zoom by k keeping screen point (sx, sy) fixed; s clamped to [1, ZOOM_MAX]; s 1 is ZOOM_1; then clampZoom. */
+export function zoomAt(z: Zoom, k: number, sx: number, sy: number, box: Box): Zoom {
+  const s = Math.min(ZOOM_MAX, Math.max(1, z.s * k));
+  if (s <= 1) return ZOOM_1;
+  const px = (sx - z.x) / z.s, py = (sy - z.y) / z.s;
+  return clampZoom({ s, x: sx - px * s, y: sy - py * s }, box);
+}
+/** Pan by a screen delta, then clampZoom. */
+export const panBy = (z: Zoom, dx: number, dy: number, box: Box): Zoom => clampZoom({ ...z, x: z.x + dx, y: z.y + dy }, box);
+/** Which plate a screen point is on (inQuad over the zoomed corners), or null. */
+export function plateAt(planes: Plane[], x: number, y: number, z: Zoom = ZOOM_1): PlaneId | null {
+  for (const p of planes) if (inQuad(corners(p).map((c) => applyZoom(z, c)), x, y)) return p.id;
+  return null;
 }

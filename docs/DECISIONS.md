@@ -1069,3 +1069,19 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   occur earlier in their hub's body, where it would land; the hub's top (a title that is not the hub's, and lists of up
   to 205 items); the Learn address as the second line (the hub's name leaves the row); a page of our own per article
   (D94). Spec: `docs/specs/learn-row-links.md` (section 12: built, deviations).
+- **D99 Tilt is a button; a picked plane filters the pane; the tilted view zooms (2026-10-19, M37).** The tilt range
+  snapped to flat or tilted on release, so it was an on/off control dressed as a slider: it is one `Tilt` button,
+  pressed while tilted, with the 600 ms slide kept. A click on a plane's plate, its name or its pane heading picks
+  that plane: accent outline, the other three planes at 0.4, the pane listing only that plane; the same click shows
+  all four. The tilted pane is four plane sections in plane order, eight rows each (60 when picked), the core sample's
+  layout. No plane folds any more: the country and coverage lenses dim the planes they do not use, and a pick wins over
+  a lens. The tilted view zooms (1 to 8, around the pointer, marks at fixed size) and pans once zoomed, because at full
+  tilt the flat camera had no weight and zoom did nothing. Media rows take their title from the layers file (no media
+  item is a summary node). Amends `design/HANDOFF.A-layered.md` (the tilt range, folded planes). Rejected: keeping
+  the range (half tilts mean nothing); folding on a name click (the owner asked for a highlight); lenses that keep
+  folding (one rule, dim, for picks and lenses); today's pane plus a list on pick (the unpicked pane would have no
+  media part to filter); a pick that zooms the camera to its plane (zoom stays the reader's); scaling marks with the
+  zoom (crowded marks stay crowded); zoom in the URL. Measured (2026-10-19, review of PR #12): the galaxy script chunk
+  grows 3,377 bytes (73,734 to 77,111), 1,149 gzipped (25,184 to 26,333); the pure helpers are unit-tested
+  (`layers-core`, `galaxy-core`) and the nine built-site checks of the spec's section 7 pass. Spec:
+  `docs/specs/galaxy-tilt-planes.md` (section 12: built, deviations).
