@@ -15,15 +15,6 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-**Learn row links, D98** (`docs/specs/learn-row-links.md`, M36, issue #8). Status: proposed 2026-10-18, nothing implemented.
-The owner wants a Learn search result to keep the reader on the observatory: today the title opens learn.microsoft.com
-and the breadcrumb the hub. After: the title opens the hub that lists the article, landing on the article's line
-(`#learn=<path>`, found by its URL in the hub's Learn list, highlighted and focused); the breadcrumb opens Learn, marked ↗;
-the 4,588 articles without a hub keep a title to Learn, marked ↗. Where to start: section 6 task 1, the failing tests in
-`tests/unit/learn-target.test.ts` (new) and the rewritten D94 test at `tests/unit/live-search.test.ts:93`, then
-`site/src/scripts/learn-target-core.ts`. One phase, site only: nothing under `content/`, `data/` or `pipeline/`, so no
-derive; live with the Pages build of the merge. Until it lands, Learn titles open learn.microsoft.com (D94).
-
 **Tilt button, plane pick, tilted zoom, D99** (`docs/specs/galaxy-tilt-planes.md`, M37, issue #10). Status: proposed
 2026-10-19, nothing implemented. Tilt becomes one on/off button with the slide kept; a click on a plane's plate, name
 or pane heading picks that plane (accent outline, the other three dimmed, the pane lists only it), a second click shows
@@ -40,6 +31,16 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-19, live after its Pages build (site only, no derive):**
+- **Learn row links, D98** (`docs/specs/learn-row-links.md`, M36, issue #8). On the search page a Learn article that a
+  hub lists opens that hub at the article: the title links `<hub>/#learn=<path>`, and the page module (on every page)
+  finds the article's link in the hub's Learn list by its URL, highlights its row, scrolls it to the centre and focuses
+  the link; the breadcrumb keeps its text and opens learn.microsoft.com, marked ↗. The 4,588 articles without a hub keep
+  a title to Learn, now marked ↗. No hub page changes (no id in the HTML); the page module grows 546 bytes plus a
+  531-byte shared chunk. Built by the League (PR #9), which quarantined it when CI went red on an error in `main`
+  (fixed by #11); the review of PR #9 ran section 7's browser checks on the built site and wrote the ship-time edits.
+  No operator step.
 
 **Shipped 2026-10-15, no derive needed (no page or data changed):**
 - **MCP section aliases, D97** (`docs/specs/mcp-section-aliases.md`, M35, issue #3). On a page or page extension

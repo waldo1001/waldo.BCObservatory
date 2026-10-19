@@ -87,9 +87,12 @@ const g = fm.generated ?? {};
     import { mountStageDialog } from "../scripts/source-stage";
     // D89: an object page's reading aids (section list, member filters, change chips, ...), built from its own markup
     import { mountObjectPage } from "../scripts/object-page";
+    // D98: a Learn search hit lands a hub on the article's row (#learn=<path>)
+    import { mountLearnTarget } from "../scripts/learn-target";
     for (const el of document.querySelectorAll<HTMLElement>("section.loc")) mountLocator(el);
     for (const el of document.querySelectorAll<HTMLElement>("section.con")) mountConnections(el);
     mountStageDialog();
     mountObjectPage();
+    mountLearnTarget();
   </script>
 </Base>

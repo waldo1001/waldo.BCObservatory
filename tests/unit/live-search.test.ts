@@ -102,8 +102,15 @@ test("Learn articles: their own group after Start here, rows that open learn.mic
   assert.equal(statusLine("x", groups), '3 results for "x": 1 to start with, 1 Learn article, 1 roadmap');
   const html = resultsHtml(groups, "/b/", "");
   assert.match(html, /<h2 class="section-title" id="sr-learn">Learn articles <small>1<\/small><\/h2>/);
-  assert.match(html, new RegExp(`<a class="row-title" href="${url}">Resource exposure policy setting</a>`), "the row opens Learn in place");
-  assert.match(html, /<a class="sr-path mono-meta" href="\/b\/topics\/dev-itpro\/configure\/">Development › Configure the development environment<\/a>/, "and links the hub that lists it");
+  assert.match(html, /<a class="row-title" href="\/b\/topics\/dev-itpro\/configure\/#learn=dev-itpro\/developer\/devenv-security-settings-and-ip-protection">Resource exposure policy setting<\/a>/, "the title opens the hub at the article (D98)");
+  assert.match(html, new RegExp(`<a class="sr-path mono-meta" href="${url}" aria-label="Development › Configure the development environment, on Microsoft Learn">Development › Configure the development environment<span aria-hidden="true"> ↗</span></a>`), "the label opens Learn");
+  const noHub = (path: string, title: string, label?: string) => resultsHtml(groupHits(rank(idx([row(path, "learn", title, "development", { summary: "x", ...(label ? { path_label: label } : {}) })]), title.split(/\W+/).filter(Boolean)[0].toLowerCase())), "/b/", "");
+  const fs = noHub("https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-findset-boolean-method", "Record.FindSet([Boolean]) Method", "AL reference › Methods");
+  assert.match(fs, /<a class="row-title" href="https:\/\/learn\.microsoft\.com\/[^"]*record-findset-boolean-method" aria-label="Record\.FindSet\(\[Boolean\]\) Method, on Microsoft Learn">Record\.FindSet\(\[Boolean\]\) Method<span aria-hidden="true"> ↗<\/span><\/a>/);
+  assert.match(fs, /<span class="sr-path mono-meta">AL reference › Methods<\/span>/);
+  const none = noHub("https://learn.microsoft.com/dynamics365/business-central/x/setting-up-your-browser", "Setting up your browser");
+  assert.match(none, /aria-label="Setting up your browser, on Microsoft Learn"/);
+  assert.doesNotMatch(none, /sr-path/);
   assert.match(html, /<span class="type-label"[^>]*>Learn article<\/span><span class="badge official">/);
   assert.match(html, /<a class="row-title" href="\/b\/topics\/dev-itpro\/configure\/">/, "a page of ours keeps its site link");
   assert.deepEqual(rank(idx(rows), "includeSourceInSymbolFile").map((h) => h.r.id), [url], "found by an identifier it documents");

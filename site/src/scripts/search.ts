@@ -5,12 +5,14 @@
  * size and review state, base objects before first-party and country ones, important objects before obscure ones. The
  * results page groups the hits (Start here, Learn articles, Roadmap, Videos, Posts, AL objects by app, Fields, Events,
  * Procedures, ...) behind a row of tabs, opens with "Exactly this" for a reference, a bare number or a kind: query, and
- * says "did you mean" when the words matched weakly or not at all. A Learn article (D94) opens on learn.microsoft.com
- * and names the hub that lists it; its shard loads with the first query, after the page is usable.
+ * says "did you mean" when the words matched weakly or not at all. A Learn article (D98) opens the hub that lists it,
+ * at the article's line, and its label opens learn.microsoft.com; its shard loads with the first query, after the page
+ * is usable.
  */
 import {
   hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
 } from "@bc-observatory/search";
+import { learnHash } from "./learn-target-core.js";
 import { countriesNow, kindsFor, loadPages, loadSymbols } from "./index-loader.js";
 
 /** An index row: a page record of data/index/pages-*.json. */
@@ -98,12 +100,18 @@ function rowHtml(h: Hit, base: string, inApp: boolean): string {
   if (h.r.kind !== "page" || !h.r.page) return symbolHtml(h, base);
   const r = h.r.page;
   const caption = r.type === "object" && r.caption ? ` <span class="sr-caption meta">captioned "${esc(r.caption)}"</span>` : "";
-  // an object's app is the heading it sits under; every other label says where the result sits; a Learn article's
-  // label is the hub that lists it, a link to that hub (D94)
+  // an object's app is the heading it sits under; every other label says where the result sits. A Learn article (D98):
+  // its title opens the hub that lists it, at the article's line; its label opens Learn, marked ↗; without a hub the
+  // title opens Learn
+  const ext = `<span aria-hidden="true"> ↗</span>`;
+  const learnHub = r.type === "learn" && !!r.hub;
   const where = r.path_label && !(inApp && r.type === "object")
-    ? r.hub ? `<a class="sr-path mono-meta" href="${base}${esc(r.hub)}/">${esc(r.path_label)}</a>` : `<span class="sr-path mono-meta">${esc(r.path_label)}</span>` : "";
+    ? learnHub ? `<a class="sr-path mono-meta" href="${esc(r.path)}" aria-label="${esc(r.path_label)}, on Microsoft Learn">${esc(r.path_label)}${ext}</a>` : `<span class="sr-path mono-meta">${esc(r.path_label)}</span>` : "";
   const stats = r.stats ? `<span class="sr-stats meta">${esc(r.stats)}</span>` : "";
-  return `<li><span><a class="row-title" href="${esc(hrefOf(base, r.path))}">${esc(r.title)}</a>${caption}${matched(h)}</span>${where}${stats}
+  const title = r.type !== "learn" ? `<a class="row-title" href="${esc(hrefOf(base, r.path))}">${esc(r.title)}</a>`
+    : learnHub ? `<a class="row-title" href="${esc(hrefOf(base, r.hub!) + learnHash(r.path))}">${esc(r.title)}</a>`
+    : `<a class="row-title" href="${esc(r.path)}" aria-label="${esc(r.title)}, on Microsoft Learn">${esc(r.title)}${ext}</a>`;
+  return `<li><span>${title}${caption}${matched(h)}</span>${where}${stats}
       <span class="row-meta"><span class="type-label"${r.system ? ` style="color: var(--sys-${esc(r.system)})"` : ""}>${TYPE[r.type] ?? esc(r.type)}</span>${badge(r.tier)}${r.status ? `<span class="mono-meta">${esc(r.status)}</span>` : ""}${r.date ? `<span class="mono-meta">${esc(r.date)}</span>` : ""}</span>
       <p class="meta">${esc(cut(r.summary, 220))}</p></li>`;
 }
