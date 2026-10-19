@@ -15,7 +15,11 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-None open.
+- **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Status: proposed 2026-10-19,
+  nothing implemented. Start with phase 1, task 1: tests 1-11 (scorer `byDate` and `sort`, the page's switch). Three
+  phases ship alone: the site and scorer (no derive), digests dated (one derive rewrites the hubs shard), the MCP
+  (0.8.0, the owner publishes). Until it lands, the Posts and Videos tabs order by match only: for "Telemetry" the
+  newest post is 11th and the newest video 26th.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
