@@ -1,6 +1,6 @@
 ---
 name: sdd-build
-description: Build one spec from docs/specs/ by path, tests first, and do the ship-time edits (Built, deviations; DECISIONS, PLAN, HANDOFF; status implemented). Use for "/sdd-build docs/specs/<slug>.md", "build the open spec", "pick up development". One flow, two modes - waldo.Jarvis's League (entry point `build` in .league.json, operator mode) and a manual session.
+description: Build one spec from docs/specs/ by path, tests first, and do the ship-time edits (DECISIONS, PLAN, HANDOFF; the spec's Built, deviations and status implemented, which a League build hands to the PR review in docs/built/<slug>.md instead of editing its own spec). Use for "/sdd-build docs/specs/<slug>.md", "build the open spec", "pick up development". One flow, two modes - waldo.Jarvis's League (entry point `build` in .league.json, operator mode) and a manual session.
 ---
 
 # Building a spec
@@ -22,8 +22,8 @@ branch. Anything else = a **manual session**.
 Read the spec's frontmatter (`issue:`, `status:`; the first word of `status`).
 
 - **Operator mode:** the owner's approval happened upstream (the `spec-approved` label on the issue), so `status:` may
-  read `draft` or `approved`; do not wait for it to change and do not edit it until the end. `implemented`: end
-  `needs-answer: spec already implemented`.
+  read `draft` or `approved`; do not wait for it to change and never edit it: an operator-mode build does not touch the
+  spec it builds or `CLAUDE.md` at all (section 4). `implemented`: end `needs-answer: spec already implemented`.
 - **Manual session:** read-only claim check first, then build only if nothing claims it:
   ```bash
   git fetch -q origin
@@ -96,25 +96,41 @@ spec cannot be meaningfully built without one of them, end `needs-answer` with t
 
 ## 4. Ship-time edits (the spec's section 12, applied)
 
-Last, once tests and verification pass (section 5), in the same branch:
+Last, once tests and verification pass (section 5), in the same branch.
 
-- **The spec:** insert `## 12. Built, deviations (<date>)` before the old section 12, which becomes `## 13. Proposed
-  edits to other files (applied <date>, see section 12)`. Section 12 says what was built and in which commits, what was
-  verified (commands and results), a spec-versus-measured table where the spec had numbers, every deviation or "none",
-  and the operator steps still open. Tick the Definition of Done; an unticked item is a deviation.
+**Operator mode never edits the spec it builds, nor `CLAUDE.md`.** The League's review reads both from the pinned base
+and quarantines a build whose commits change either, before any model reads the diff: "the build edited its own
+contract" (waldo.Jarvis spec 696, amendment N1). PR #12 (issue #10) was quarantined on 2026-10-19 for the spec edits
+this section used to ask for. So in operator mode the spec's own edits (section 12, the Definition of Done, both status
+lines) go into a hand-over file, and the review of the PR applies them before merge (`sdd-review` section 6). A manual
+session edits the spec itself, as below.
+
+- **The spec** (manual session): insert `## 12. Built, deviations (<date>)` before the old section 12, which becomes
+  `## 13. Proposed edits to other files (applied <date>, see section 12)`. Section 12 says what was built and in which
+  commits, what was verified (commands and results), a spec-versus-measured table where the spec had numbers, every
+  deviation or "none", and the operator steps still open. Tick the Definition of Done; an unticked item is a deviation.
+- **The hand-over file** (operator mode, instead of the spec): `docs/built/<slug>.md`, `<slug>` the spec's. Line 1 is
+  `# Built, deviations: docs/specs/<slug>.md (<date>)`; then the section 12 body exactly as the bullet above describes
+  it; then the Definition of Done, each item marked passed or not (not passed is a deviation); then the two status lines
+  of the "Status" bullet below, to be set by the review; then any edit the spec's proposed edits ask of `CLAUDE.md`.
+  List the file in the report's `files`. The League does not show the report's `notes` in the PR, so this file is the
+  only place the reviewer finds what you built and where it differs.
 - **`docs/DECISIONS.md`:** append the spec's Dnn text (the reserved number), with measured numbers and deviations
   written in.
 - **`docs/PLAN.md`:** the Mnn row from `proposed` to `shipped <date>`.
 - **`docs/HANDOFF.md`:** move the entry from "Open specs" to "Where things stand" as a shipped bullet: what readers see
   now, what still needs a nightly or a derive, the operator steps. If it was the last one, "Open specs" reads `None open.`
+  In operator mode the bullet also says that the spec's own edits wait in `docs/built/<slug>.md` for the review.
   **Every command you write into HANDOFF or RUNBOOK comes from a documented procedure in this repository**, with the
   decision or doc cited next to it (an MCP release is `gh workflow run publish-mcp.yml --ref main`, D40). Never write
   what a tool usually does: PR #6's HANDOFF said `npm publish -w packages/mcp`, which this repo never runs. When the
   spec says "as the last release was" and you cannot find how, that is an operator step, named as such, not a command.
-- Whatever the spec's sections 12 and 13 name (`AGENTS.md`, `docs/RUNBOOK.md`, pointer lines in related specs).
+- Whatever the spec's sections 12 and 13 name (`AGENTS.md`, `docs/RUNBOOK.md`, pointer lines in related specs). In
+  operator mode an edit to `CLAUDE.md` goes into the hand-over file, never into `CLAUDE.md`.
 - **Status:** frontmatter `status: implemented`, and the body line becomes `Status: implemented, <date> (section 12
   records what was built and where it differs). Decision: Dnn (appended <date>). Milestone: Mnn. Owner: waldo.` Keep
   `issue:` as it is. Only when the outcome is `built`; for `plan-waiting`, `needs-answer` and `failed` the status stays.
+  Operator mode writes both lines into the hand-over file; the spec keeps the status it had.
 - Nothing else. `tests/unit/specs-frontmatter.test.ts` checks that the two status lines agree.
 
 ## 5. Verify
@@ -137,7 +153,8 @@ check, not a pass. Failing tests you cannot fix: outcome `failed`, status stays,
 ## 7. Git and outcome
 
 Stage files by name, never `git add -A`. Conventional prefixes (`feat:`, `fix:`, `docs:`, `pipeline:`, `infra:`); the
-commit body names the spec, Dnn and Mnn. Do not touch `**/CHANGELOG.md` or `scripts/release*` in operator mode.
+commit body names the spec, Dnn and Mnn. Do not touch `**/CHANGELOG.md` or `scripts/release*` in operator mode, nor the
+spec you build or `CLAUDE.md` (section 4).
 
 - **Operator mode:** commit on the branch; stop. End with the report the League asked for. Outcomes:
   `built` (everything in the spec's tasks done and verified; operator steps listed), `plan-waiting` (rating `risky` or
