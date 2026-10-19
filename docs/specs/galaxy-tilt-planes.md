@@ -1,12 +1,12 @@
 ---
 issue: 10
-status: draft
+status: implemented
 ---
 
 # Tilt is a button, a plane you click filters the panel, and the tilted view zooms
 
-Status: proposed, 2026-10-19. Decision: D99 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M37
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-19 (section 12 records what was built and where it differs). Decision: D99 (appended
+2026-10-19). Milestone: M37. Owner: waldo.
 Scope: the galaxy's tilted state on the site: the Tilt control and the plane labels (`site/src/components/Galaxy.astro`),
 the tilted drawing, pointer, pane, hash and Esc (`site/src/scripts/galaxy.ts`), the pure helpers
 (`site/src/scripts/layers-core.ts`, `site/src/scripts/galaxy-core.ts`) and their tests. Every claim below was verified
@@ -354,16 +354,47 @@ Changed: `site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`, `site
 
 ## 11. Definition of Done
 
-- [ ] Section 5 tests written first, then green; `npm run typecheck && npm test` green.
-- [ ] `npm run site:build` passes on Node 22.
-- [ ] Section 7 checks 1 to 9 done and reported, with the chunk size difference.
-- [ ] No `folded`, `tiltInput` or `.g-tilt` left (`git grep -n "folded\|tiltInput\|g-tilt" site/`, except the code
-      groups' comment at `galaxy.ts:933`).
-- [ ] D99 appended to `docs/DECISIONS.md`; PLAN M37 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] Section 5 tests written first (red: `tsc` errors for the missing exports), then typecheck green. `npm test`: see
+      section 12, the run's output was cut off and the exit code was 1, not explained.
+- [ ] `npm run site:build` passes on Node 22. Not run: the League's command list excludes it (operator step).
+- [ ] Section 7 checks 1 to 9 done and reported, with the chunk size difference. Not run (operator step).
+- [x] No `folded`, `tiltInput` or `.g-tilt` left (the two `folded` hits are comments: `versions.ts:65` and the code
+      groups' comment now at `galaxy.ts:963`; `g-tiltlens` and `g-tilt-help` stay).
+- [x] D99 appended to `docs/DECISIONS.md`; PLAN M37 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; frontmatter `status: implemented` and the body `Status: implemented`; section 12 inserted as
       "Built, deviations" and this section kept as 13, marked applied.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-19)
+
+Built by the League in one pass (all three phases together, uncommitted for the operator to checkpoint).
+
+**Built:** the Tilt button, `pickPlane`, the four-section pane, no folding, lens dimming, the zoom and pan of the
+tilted view, the `plane` hash key, media titles in core samples, the CSS and the "?" line, as sections 4 and 6 say.
+Pure helpers (`planeGeometry` without folds, `DIM_PLANE`, `fullPlanes`, `planeOrder`, `Zoom`, `applyZoom`, `zoomAt`,
+`panBy`, `clampZoom`, `plateAt`) are in `layers-core.ts`; `parseHash` accepts `plane`.
+
+**Verified:** `npm run typecheck` green. Red evidence: before the code, `tsc` failed with "Module layers-core.js has no
+exported member 'applyZoom' / 'DIM_PLANE' / 'fullPlanes' / 'panBy' / 'planeOrder' / 'plateAt' / 'ZOOM_1' / 'ZOOM_MAX' /
+'zoomAt'". `npm test` printed more than the tool shows and ended with exit 1; narrowing the run was not possible with
+the commands allowed (the runner ignores extra flags), so which test fails, if one does beyond the League's own
+measured run, is not known to this build. The new tests were checked by hand against the code.
+
+| Spec | Measured |
+|---|---|
+| `git grep folded\|tiltInput\|g-tilt site/` empty | two comment hits only (above) |
+| galaxy chunk size difference | not measured |
+
+**Deviations:**
+- The tilted drawing clips to the planes area only while zoomed (`tz.s > 1`), not at every tilt, so flat stars sliding
+  to their planes are not cut by the clip at small tilts. At zoom 1 everything lies inside the area anyway.
+- The pane heading's `data-pick` is selected as `.g-planehead[data-pick]` because the lens picker also uses `data-pick`.
+- `tz` is not re-clamped on a window resize; the next pan or zoom clamps it.
+- Browser checks (section 7, 1 to 9), `npm run site:build` on Node 22 and the chunk size are not done.
+
+**Operator steps still open:** `npm run site:build` on Node 22 (section 7), then the browser checks 1 to 9 of section 7
+(serve `site/dist` under the base path as that section describes), and the galaxy chunk size before and after.
+
+## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
 - `docs/DECISIONS.md`: the D99 text of section 3.
 - `docs/PLAN.md` section 5, before the `v0.2+` row:

@@ -69,7 +69,7 @@ Tilt is a fixed transform, not a camera: no orbit, no perspective, no depth sort
   its count and its top rows. Tier badge is `mixed` when the sample crosses tiers (proposal, see tokens).
 - **list per plane**: one tab per plane; one row per thing; one count column per other plane. Sortable. This is the
   keyboard and screen-reader view and the only view on a phone.
-- **folded plane**: a 24px strip with the plane label, when a lens does not use that plane. A real button: unfolds.
+- **folded plane**: a 24px strip with the plane label, when a lens does not use that plane. A real button: unfolds. (D99: Tilt is a button; no plane folds; a click on a plane picks it.)
 
 ## States
 
