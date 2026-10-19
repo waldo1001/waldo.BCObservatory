@@ -360,8 +360,10 @@ Changed: `site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`, `site
 - [ ] No `folded`, `tiltInput` or `.g-tilt` left (`git grep -n "folded\|tiltInput\|g-tilt" site/`, except the code
       groups' comment at `galaxy.ts:933`).
 - [ ] D99 appended to `docs/DECISIONS.md`; PLAN M37 marked shipped; HANDOFF entry moved from "Open specs" to "Where
-      things stand"; frontmatter `status: implemented` and the body `Status: implemented`; section 12 inserted as
-      "Built, deviations" and this section kept as 13, marked applied.
+      things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
+      implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
+      status lines into `docs/built/galaxy-tilt-planes.md`; the PR's review moves them in (sdd-build section 4,
+      sdd-review section 6).
 
 ## 12. Proposed edits to other files (not applied)
 
