@@ -15,7 +15,14 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-None open.
+- **Search survives the tilt, D100** (`docs/specs/tilt-keeps-search.md`, M38, issue #14). Status: proposed
+  2026-10-19, nothing implemented. A search stays lit when a system is tilted: every thing on the planes the search
+  hits keeps full strength and an accent ring, the rest dims to 0.3 (the live search hands over every hit's id, not
+  only its stars); the tilted pane, a picked plane and the list per plane list only the hits ("10 of 164"); clearing
+  keeps the tilt, pick and zoom; a search typed while tilted stays tilted; `#q=` with `system` or `star` opens that
+  scope. Where to start: the failing tests of section 5 (phase 1 ships alone). Site only, no derive; live with the
+  Pages build of each merge. Until it lands: tilting drops the search's highlight and filter while the chip stays on,
+  and a link with `q` and `system` opens the galaxy level.
 
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
