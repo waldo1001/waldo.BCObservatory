@@ -1104,3 +1104,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   grows 2,311 bytes (77,111 to 79,422), 905 gzipped (26,371 to 27,276, `gzip -c`); the pure helpers are unit-tested
   (`live-search`, `layers-core`, `galaxy-core`) and the ten built-site checks of the spec's section 7 pass. Spec:
   `docs/specs/tilt-keeps-search.md` (section 12: built, deviations).
+- **D102 A video or post whose topic links were all dropped gets one second chance (2026-10-19, M40).** D54's review
+  only keeps or drops, and the linker redoes a unit only when its hash changes, so a dropped link was final. On
+  2026-10-19, 227 posts and 148 videos had every link dropped and sat on no hub page and in no tilted view. In all, 328
+  of 619 posts and 202 of 619 videos were on no hub; the rest were "no hub fits" or had no system. The drop reasons
+  often name the right home ("a tool for analysing telemetry, not instrumenting AL code"), and nothing read them. Now
+  `linkTopics` gives such a unit one more pass. Its dropped hubs leave its candidates, which changes its hash, so the
+  existing staleness picks it up. Their titles, Learn paths and Opus's reasons go into the prompt as `rejected`, and the
+  new links go through the same review. The record keeps `second` (the dropped hubs and reasons) for good: those hubs
+  are never offered again and there is no third pass. Second-chance units get their own calls after the first-round
+  ones, so a first-round prompt is unchanged byte for byte and new items keep priority. Rejected: an Opus re-home call
+  (about three times the cost, and the review judges the result anyway); the reviewer naming a replacement (it sees
+  only siblings, which misses cross-branch moves like the owner's telemetry posts, and covering the backlog needed a
+  ~$40 re-review); the 156 "no hub fits" units (no hash change, later); more than one extra pass; grouping
+  second-chance calls by the full system set (154 calls instead of 71). Measured: phase 1 (code) is built and tested;
+  the backfill (phase 2) is an operator step, so the before/after of `due`, `kept`/`open`/`final` and the tilted-view
+  counts (spec section 7, commands 1 and 2) and its cost are not measured yet; the owner writes them here after the
+  backfill. Spec: docs/specs/topic-link-second-chance.md (built, deviations: docs/built/topic-link-second-chance.md).
