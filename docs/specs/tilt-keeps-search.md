@@ -1,12 +1,12 @@
 ---
 issue: 14
-status: draft
+status: implemented
 ---
 
 # A search stays lit when you tilt, and a picked plane lists only its matches
 
-Status: proposed, 2026-10-19. Decision: D100 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M38.
-Owner: waldo.
+Status: implemented, 2026-10-19 (section 12 records what was built and where it differs). Decision: D100 (appended
+2026-10-19). Milestone: M38. Owner: waldo.
 Scope: the header search (`site/src/scripts/live-search.ts`) and the galaxy's tilted state with a search on: the
 tilted drawing, plane names, pane and list per plane (`site/src/scripts/galaxy.ts`), the pure helpers
 (`site/src/scripts/layers-core.ts`, `site/src/scripts/galaxy-core.ts`), one line of the "?" sheet
@@ -389,19 +389,86 @@ Changed: `site/src/scripts/live-search.ts`, `site/src/scripts/layers-core.ts`, `
 
 ## 11. Definition of Done
 
-- [ ] Section 5 tests written first and seen failing (`tsc` errors for the missing exports and the missing `all`), then
-      `npm run typecheck` and `npm test` green.
-- [ ] `npm run site:build` passes on Node 22.
-- [ ] Section 7 checks 1 to 10 done and reported, with the chunk size difference and the numbers the script printed.
-- [ ] `git grep -n "lensSet" site/src/scripts/galaxy.ts` shows no new use inside `drawTilted`, `tiltPanel` or
-      `renderPlaneTable` (the tilted view reads `searchMask()`, never the star set).
-- [ ] D100 appended to docs/DECISIONS.md; PLAN M38 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] Section 5 tests written first and seen failing (`tsc` errors for the missing exports and the missing `all`), then
+      `npm run typecheck` and `npm test` green (637 tests: 636 pass, 0 fail, 1 skipped, the skip as on `main`).
+- [x] `npm run site:build` passes on Node 22 (29,043 pages).
+- [x] Section 7 checks 1 to 10 done and reported, with the chunk size difference and the numbers the script printed
+      (section 12).
+- [x] `git grep -n "lensSet" site/src/scripts/galaxy.ts` shows no new use inside `drawTilted`, `tiltPanel` or
+      `renderPlaneTable` (the one added mention is the `Lens` comment).
+- [x] D100 appended to docs/DECISIONS.md; PLAN M38 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/tilt-keeps-search.md; the PR's review moves them in (sdd-build section 4,
-      sdd-review section 6).
+      sdd-review section 6). (Built by hand, so this build edited the spec itself.)
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-19)
+
+Built by hand (`/sdd-build`, manual session) on branch `build/tilt-keeps-search`: phase 1 in `ee08ee3fc8`, phase 2 in
+`bb189a1259`, these ship-time edits in the commit after them.
+
+**Built:** `SearchHits.all` (`live-search.ts`); `DIM_MISS`, `HitMask`, `hitMask`, `isHit`, `markHit` (`layers-core.ts`);
+`searchLeaves` (`galaxy-core.ts`); in `galaxy.ts` `Lens.hits`, the cached `searchMask()`, rings and dimming in
+`drawTilted` (non-star code hits drawn, tiles without a hit and lines without a hit end at 0.3), the plane names'
+"N of M match", the filtered tilted pane (kicker, sentence, "Clear the search", "hits of all" headings, filtered lists,
+coverage and country lists, plots by hits), the filtered list per plane, `hashScope` in `setSearch` and `fromHash`; the
+"?" line in `Galaxy.astro`; the header comment.
+
+**Red evidence:** before the code, `tsc` reported `TS2305` for `DIM_MISS`, `hitMask`, `isHit`, `markHit`
+(`layers-core.test.ts`) and `TS2339 Property 'all' does not exist on type 'SearchHits'` (`live-search.test.ts`); the
+runner failed `layers-core.test.ts` on the missing export and the two live-search tests. Phase 2: `TS2305` for
+`searchLeaves`, and `galaxy-core.test.ts` failed to load.
+
+**Verified:** `npm run typecheck` clean; `npm test` 637 tests, 636 pass, 0 fail, 1 skipped; `npm run site:build` on Node
+22.23.1, 29,043 pages; `git diff --stat origin/main -- content data` empty. Section 7 in the built-in browser pane, the
+built site served under `/waldo.BCObservatory/`, 1440 x 900 unless said:
+
+1. "Telemetry" typed at the galaxy level, AL Development from the panel, Tilt: rings on media, hubs and code, the rest
+   dimmed; the 20 Telemetry objects ringed in their tile, tiles without a hit dimmed; names `10 of 164 match`,
+   `11 of 107 match`, `23 of 1768 match`, `0 of 13 match`; pane `"Telemetry" matches 44 of the 2052 things`, headings
+   `10 of 164`, `11 of 107`, `23 of 1768`, `0 of 13`, `9 videos, 1 post`, `0 named by a Learn page`,
+   `Namespace plots 4 of 124` (Telemetry `20 of 20 match` first), countries `No match for "Telemetry" on this plane.`
+2. Media plate picked: 10 rows, kicker `system · tilted · media · "Telemetry"`, hash
+   `#q=Telemetry&system=development&tilt=1&plane=media`; List per plane: 10 rows under
+   `AL Development, media: 10 of 164 match "Telemetry"`.
+3. A code hit (Codeunit 1350, not a star, opened from its pane row, the same `takeSample` as a canvas click): its core
+   sample opens; the other hits keep their rings.
+4. Reload of check 2's link: tilted, Media picked, the search on, 10 rows, the header field reads "Telemetry".
+   `#q=Telemetry&system=development` fresh: AL Development flat (level 2) with the search on.
+5. The chip's ×: still tilted, Media still picked, 60 rows and "and 104 more" (a pick lists up to 60, D99), names back
+   to `164 videos and posts`, `q` gone from the hash. One DOM read right after the click found no plane names; the next
+   frame had all four; no console error.
+6. Finance tilted with no search, "posting" typed: stays tilted; media `26 of 52`, hubs `14 of 57`, code `164 of 2279`,
+   countries `6 of 20`, plots `34 of 126`, `18 videos, 8 posts`, `210 of the 2408 things`. Field cleared (still tilted,
+   unfiltered) and "Telemetry" typed: still tilted on Finance, code `2 of 2279`.
+7. Finance, "posting": country BE lists `Replaced by BE 5` (5 rows; BE replaces 26 objects, 5 of them hits); the coverage
+   lens lists `No Learn page names them 133` (60 rows, "and 73 more"); both counts match the data.
+8. 390 wide, `#q=Telemetry&system=development`, Planes: `AL Development, code: 23 of 1768 match "Telemetry"`, 23 rows,
+   no horizontal scroll.
+9. Flat levels: the search panel (kicker "search"), rings on the stars and the chip's `"Telemetry" 30` as before
+   (checks 1 and 4).
+10. The galaxy script chunk: 77,111 to 79,422 bytes (+2,311); gzipped (`gzip -c`) 26,371 to 27,276 (+905). The
+    baseline was built from `cf23c6bfb4`'s `site/src` the same way.
+
+| Spec | Measured |
+|---|---|
+| AL Development, "Telemetry": 10 / 11 / 23 / 0 hits, 44 of 2052 | the same, in the names and the pane |
+| Finance, "posting": 26 / 14 / 164 / 6, plots 34 of 126 | the same |
+| galaxy chunk size difference | +2,311 bytes, +905 gzipped |
+
+**Deviations:**
+- `hashScope` is set from the resolved star or system, not from the bare `system`/`star` keys (4.4): a link with an
+  unknown system id still delivers its query instead of stranding it.
+- `setSearch`'s staying branch calls `renderTable()` already in phase 1 (spec: phase 2), so a refined query refreshes
+  an open list per plane; it also refreshes the flat list view, which a refined query left stale before.
+- "N videos, M posts" uses the singular for one also without a search ("1 video").
+- Section 7 check 5 said "164 rows": a picked plane lists up to 60 (D99); seen as 60 rows and "and 104 more".
+- D99 reported the baseline chunk at 26,333 bytes gzipped; `gzip -c` gives 26,371 for the same 77,111-byte file. The
+  difference above compares like with like.
+
+**Operator steps still open:** none. Site only: live with the Pages build of the push to `main`, no derive.
+
+## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
 - `docs/DECISIONS.md`: the D100 text of section 3, with the measured chunk size added.
 - `docs/PLAN.md` section 5, before the `v0.2+` row:

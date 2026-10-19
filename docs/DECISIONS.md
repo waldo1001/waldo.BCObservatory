@@ -1085,3 +1085,22 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   grows 3,377 bytes (73,734 to 77,111), 1,149 gzipped (25,184 to 26,333); the pure helpers are unit-tested
   (`layers-core`, `galaxy-core`) and the nine built-site checks of the spec's section 7 pass. Spec:
   `docs/specs/galaxy-tilt-planes.md` (section 12: built, deviations).
+- **D100 A search survives the tilt: the planes keep its hits lit, and every tilted list shows only them (2026-10-19,
+  M38).** Tilting a system with a search on dropped the highlight while the chip stayed: the tilted drawing and pane
+  never read the search, and the search knew only its star hits, while no media item and few objects are stars
+  ("Telemetry" on AL Development: 10 media, 11 hubs and 23 objects hit, 0 of the media and objects stars). The live
+  search now hands the galaxy every hit's id (`SearchHits.all`). Tilted, a thing whose own page is a hit (media and hubs
+  by id, an object by `object/<key>`, a country by `localization/<code>`) keeps full strength and the flat lens's
+  accent ring; the rest draws at 0.3, the flat lens's factor; non-star hits are drawn on the code plane. The tilted
+  pane, a picked plane and the list per plane list only the hits, counted "10 of 164". Clearing the search keeps the
+  tilt, pick and zoom. A search typed while tilted stays in the tilted system; flat levels keep D44's jump to the
+  galaxy. A link with `q` and `system` or `star` opens that scope with the search on. Search only: the other lenses
+  match stars, and the version lens would need per-object version data in the layers files. Rejected: lighting only
+  the star hits (no media and none of the 23 code hits would light); the 50 star-less `pages` (2,030 for "posting");
+  hiding the misses (the planes lose their shape, and flat dims); all rows with hits marked (the owner asked for
+  filtered); matching titles from the layers file (title matching; the shared scorer decides, D86); the other lenses in
+  this change (owner, 2026-10-19); the chip counting plane hits (it names the search galaxy-wide); jumping to the galaxy
+  when a search is typed while tilted (loses the tilt). Measured (2026-10-19, built by hand): the galaxy script chunk
+  grows 2,311 bytes (77,111 to 79,422), 905 gzipped (26,371 to 27,276, `gzip -c`); the pure helpers are unit-tested
+  (`live-search`, `layers-core`, `galaxy-core`) and the ten built-site checks of the spec's section 7 pass. Spec:
+  `docs/specs/tilt-keeps-search.md` (section 12: built, deviations).
