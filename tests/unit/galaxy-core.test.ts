@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
+import { codeGroup, groupChanges, kindsParam, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, parseKinds, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, toggleKind, usableKinds, versionMenu, weekPills } from "../../site/src/scripts/galaxy-core.js";
 
 test("galaxy hash: combined keys, the old single-key form, unknown keys dropped", () => {
   assert.deepEqual([...parseHash("#system=finance&lens=version%3A30")], [["system", "finance"], ["lens", "version:30"]]);
@@ -8,6 +8,18 @@ test("galaxy hash: combined keys, the old single-key form, unknown keys dropped"
   assert.deepEqual([...parseHash("#evil=1&view=list")], [["view", "list"]]);
   assert.equal(parseHash("").size, 0);
   assert.deepEqual([...parseHash("#system=development&tilt=1&plane=media")], [["system", "development"], ["tilt", "1"], ["plane", "media"]]);
+  assert.deepEqual([...parseHash("#q=Telemetry&system=development&tilt=1&plane=media")], [["q", "Telemetry"], ["system", "development"], ["tilt", "1"], ["plane", "media"]], "D100: a search keeps its scope in the link");
+});
+
+test("D100: a first search leaves a flat system or star for the galaxy, never a tilted system or a scope the link named", () => {
+  const s = (o: Partial<Parameters<typeof searchLeaves>[0]>) => searchLeaves({ had: false, level: 2, tilt: 0, fromHash: false, ...o });
+  assert.equal(s({}), true, "flat system: D44's jump");
+  assert.equal(s({ level: 3 }), true);
+  assert.equal(s({ level: 1 }), false);
+  assert.equal(s({ tilt: 1 }), false, "tilted: stays");
+  assert.equal(s({ tilt: 0.4 }), false, "sliding: stays");
+  assert.equal(s({ fromHash: true }), false, "the link named the scope");
+  assert.equal(s({ had: true }), false, "refining a search never moves");
 });
 
 test("ports sit on the rectangle's edge in the target's direction", () => {

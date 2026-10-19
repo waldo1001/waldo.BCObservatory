@@ -60,7 +60,7 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 import { CANVAS_FONT, CAPTION_MAX_COVER, captionSpot, dominantSystem, labelAlpha, ranksByGroup, smoothstep, threshold, visibleLabels, type Box, type CaptionSpot } from "./galaxy-labels.js";
 import { parsePills, pillsParam, togglePill, usablePills } from "./pills-core.js";
-import { groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
+import { groupChanges, landedRingsOn, legendItems, lensChip, lensMenu, mediaMeta, packPorts, parseHash, pickerRows, pillDisabled, portSpot, searchLeaves, sortRows, starIntro, weekPills, type CodeGroup, type MajorMeta, type PickerRow, type SortKey, type WeekKind } from "./galaxy-core.js";
 import { applyZoom, bounds, coreSample, corners, DIM_MISS, DIM_PLANE, fullPlanes, hitMask, inQuad, isHit, lerp, markHit, mediaSpot, norm, OBSOLETE, panBy, PLANE_LABEL, PLANES, planeGeometry, planeOrder, planeRows, plateAt, plotOf, project, restLines, STAR, ZOOM_1, zoomAt, type Bounds, type HitMask, type LayersFile, type Line, type Plane, type PlaneId, type PlaneRow, type Sample, type Thing, type Box as ZoomBox, type Zoom } from "./layers-core.js";
 import type { Row } from "./search.js";
 import { nodeIdOf, type SearchHits } from "./live-search.js";
@@ -933,6 +933,8 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const clearedCbs: (() => void)[] = [], hashQueryCbs: ((q: string) => void)[] = [];
   /** A #q= in the URL before the live search registered (it mounts after the galaxy): delivered on registration. */
   let pendingQuery: string | null = null;
+  /** D100: the link named a system or star for its #q=: the search that arrives keeps that scope. */
+  let hashScope = false;
   const leaveSearch = () => { if (lens?.search) for (const cb of clearedCbs) cb(); };
   /** Choose a lens; `keepScope` keeps the system or star in view (the version and "this week" lenses work at every level). */
   function setLens(id: string, keepScope = false) {
@@ -957,12 +959,14 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
   const clearLens = () => { leaveSearch(); lens = null; lensSet.clear(); lensLines = []; };
   /** A search as an ad-hoc lens (D44): the hits with a star light up, systems with star-less hits glow, the panel lists both. */
   function setSearch(h: SearchHits | null) {
-    const had = !!lens?.search;
+    const had = !!lens?.search, fromHash = hashScope;
+    hashScope = false;
     if (!h) { if (had) { lens = null; lensSet.clear(); lensLines = []; update(); } return; }
     const set = new Set(h.ids);
     lens = { id: `q:${h.q}`, label: `"${h.q}"`, group: "Search", match: (n) => set.has(n.id), reach: h.reach, search: h.q, stars: h.stars, pages: h.pages, total: h.total, hits: new Set(h.all) };
     lensSet = set; lensLines = [];
-    if (!had && level > 1) { level = 1; focusSys = null; focusStar = null; update(); return; }
+    // D100: a first search leaves a flat system or star for the galaxy (D44); a tilted system, or a scope the link named, stays
+    if (searchLeaves({ had, level, tilt, fromHash })) { level = 1; focusSys = null; focusStar = null; update(); return; }
     // typing never moves the camera; the panel does not auto-open on narrow screens (the soft keyboard is up)
     if (!had) panelOpen = userPanel ?? !narrow();
     renderPanel(); renderTable(); renderChrome(); setHash(); redraw();
@@ -1531,14 +1535,18 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
 
   // deep links: #system=<id>, #star=<id>, #lens=<id>, #q=<query>, #view=list, combined with & (#system=finance&lens=version:30).
   // A star that is not in the summary (the explorer links every object) opens its system instead: #star=<id>&system=<id>.
+  // #q= with a system or star opens that scope with the search on (D100); #q= alone opens the galaxy level.
   const fromHash = (): boolean => {
     const h = parseHash(location.hash);
     if (!h.size) return false;
     const q = h.get("q");
-    if (q) { if (hashQueryCbs.length) for (const cb of hashQueryCbs) cb(q); else pendingQuery = q; return true; }
-    listView = h.get("view") === "list";
+    const deliver = (q: string) => { if (hashQueryCbs.length) for (const cb of hashQueryCbs) cb(q); else pendingQuery = q; };
     const star = byId.get(h.get("star") ?? ""), sys = sysById.get(h.get("system") ?? "") ?? (star ? sysById.get(star.group) : undefined);
-    const l = h.get("lens");
+    // D100: a search with a system or star in the link opens that scope (with its tilt and plane) and keeps it
+    hashScope = !!q && !!(star || sys);
+    if (q && !hashScope) { deliver(q); return true; }
+    listView = h.get("view") === "list";
+    const l = q ? undefined : h.get("lens");
     const pick = l?.startsWith("pick:") ? l.slice(5) : null;
     if (l && !pick && lensById.has(l)) {
       lens = null;
@@ -1550,6 +1558,7 @@ export async function mountGalaxy(root: HTMLElement): Promise<GalaxyApi | null> 
       return true;
     }
     if (star) goStar(star); else if (sys) { goSystem(sys); if (h.get("tilt") === "1") { const pl = h.get("plane") as PlaneId | undefined; setTilt(1, true).then(() => { if (pl && PLANES.includes(pl)) pickPlane(pl); }); } } else if (!pick && !listView) return false;
+    if (q) deliver(q);
     // #lens=pick:source or pick:localization: open the lens picker on that group (the home page's question entries)
     if (pick) openPicker(pick);
     if (listView && !star && !sys) { renderTable(); renderChrome(); }

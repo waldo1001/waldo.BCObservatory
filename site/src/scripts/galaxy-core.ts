@@ -19,6 +19,14 @@ export function parseHash(hash: string): Map<string, string> {
 }
 
 /**
+ * D100: does a first search send the reader to the galaxy level? From a flat system or star level the reader typed it
+ * at (D44); never while tilted (or sliding), never when the hash named the scope.
+ */
+export function searchLeaves(s: { had: boolean; level: number; tilt: number; fromHash: boolean }): boolean {
+  return !s.had && s.level > 1 && !(s.level === 2 && s.tilt > 0) && !s.fromHash;
+}
+
+/**
  * Where a port goes: the point where the ray from the star towards the target system leaves the rectangle. A target
  * system inside the rectangle still gets its port on the edge, in its direction, so the port never covers a star.
  */
