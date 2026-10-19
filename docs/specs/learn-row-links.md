@@ -1,12 +1,12 @@
 ---
 issue: 8
-status: draft
+status: implemented
 ---
 
 # A Learn search result opens the hub that lists it, at the article; Learn moves to the second line
 
-Status: proposed, 2026-10-18. Decision: D98 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M36
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-19 (section 12 records what was built and where it differs). Decision: D98 (appended
+2026-10-19). Milestone: M36. Owner: waldo.
 Scope: the Learn rows of the site's search page (`site/src/scripts/search.ts`), a small module on every page that lands a
 hub on one of its Learn articles (`site/src/scripts/learn-target*.ts`, `site/src/layouts/Page.astro`), one CSS rule, tests.
 Every claim below was verified against the tree at `87958e0032` (`origin/main`, nightly of 2026-10-18); the numbers
@@ -255,14 +255,66 @@ Changed: `site/src/scripts/search.ts`, `site/src/layouts/Page.astro`, `site/src/
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-10 pass; `npm run typecheck` is clean.
-- [ ] The site builds; `scripts/site-size.ts` shows no HTML page grew; the module and CSS deltas are in D98.
-- [ ] Section 7's browser checks 1-6 pass.
-- [ ] Nothing under `content/`, `data/` or `pipeline/` changed (no derive on push).
-- [ ] D98 appended to `docs/DECISIONS.md`; the PLAN M36 row says shipped; the HANDOFF entry moves from "Open specs" to
+- [x] Tests 1-10 pass; `npm run typecheck` is clean.
+- [x] The site builds; `scripts/site-size.ts` shows no HTML page grew; the module and CSS deltas are in D98 (measured
+      2026-10-19 in the review of PR #9, against a build of `main` at `f03c81a7`).
+- [x] Section 7's browser checks 1-6 pass (2026-10-19, review of PR #9, the built site served under
+      `/waldo.BCObservatory/`; JavaScript off was not run in a browser: no HTML changed, so the hub opens at its top as
+      before).
+- [x] Nothing under `content/`, `data/` or `pipeline/` changed (no derive on push).
+- [x] D98 appended to `docs/DECISIONS.md`; the PLAN M36 row says shipped; the HANDOFF entry moves from "Open specs" to
       "Where things stand"; this spec's `status: implemented`, its Status line and section 12 "Built, deviations".
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-19)
+
+Built in one phase by waldo.Jarvis's League (the commits are its checkpoints on the `league/8-*` branch, PR #9):
+
+- `site/src/scripts/learn-target-core.ts` (new): `LEARN_BASE`, `learnHash`, `learnFromHash`, `learnRowIndex`, as
+  section 4.
+- `site/src/scripts/learn-target.ts` (new): `mountLearnTarget`, wired in `site/src/layouts/Page.astro` after
+  `mountObjectPage()` with its D98 comment.
+- `site/src/scripts/search.ts`: the learn branch of `rowHtml` per the section 4 table; the module and row comments say
+  D98.
+- `site/src/styles/site.css`: `.prose li.learn-target` next to `.prose li:target`.
+- Tests: `tests/unit/learn-target.test.ts` (tests 1-6), `tests/unit/live-search.test.ts` (the D94 test rewritten for
+  tests 7-10; the assertion that a page of ours keeps its site link, `:108` in section 5, is unchanged).
+
+Verified in the review of PR #9, on head `7188e55c` (the branch with `main` merged in): `npm run typecheck` clean;
+`npm test` 626 tests, 625 pass, 0 fail, 1 skipped (the skip was already on `main`); CI `validate` green. Red first: on the
+red checkpoint `8f129c21`, `tests/unit/learn-target.test.ts` failed with `ERR_MODULE_NOT_FOUND` for
+`site/src/scripts/learn-target-core.js` and the rewritten D94 test failed on its new assertions; the green checkpoint
+`ad9b8b86` passes both files (13 tests).
+
+| Spec | Measured |
+|---|---|
+| 3,466 of 8,054 Learn rows have a hub page | 3,466 of 8,054 in `data/index/learn-b7b29e805033.json`; all 3,466 carry a `path_label` |
+| no HTML page grows | 29,043 of 29,043 HTML pages the same size; Pages tar 724,305,920 bytes before and after |
+| page module and CSS deltas well under 1 KB each | page module 16,273 to 16,819 bytes (+546) plus `learn-target-core`, a new 531-byte chunk; search page script 9,591 to 9,971 (+380); CSS +23 |
+| browser check 1 (`IncludeSource`) | the title's href ends `json-files/#learn=dev-itpro/developer/devenv-json-files`; the breadcrumb opens the Learn URL, ↗, its accessible name ending ", on Microsoft Learn" |
+| browser check 2 (click the title) | the hub "JSON files" opens with one `li.learn-target` on the article, in view, its link `document.activeElement` |
+| browser check 3 (`FindSet`) | "Record.FindSet([Boolean]) Method ↗" opens Learn; "AL reference › Methods" is a plain span |
+| browser check 4 (205-item hub) | the third-last of 205 Learn links lands with its row centre at the viewport centre (384 of 768 px), focused, through `hashchange` |
+| browser check 5 (Enter) | Enter in the search field with `IncludeSource` opens "JSON files" at the article, its link focused |
+| browser check 6 (`#learn=nope`) | a fresh load opens at the top, no highlight, focus on the body, no console error |
+
+Deviations:
+
+- `learn-target-core.ts` is its own 531-byte chunk: the bundler splits a module the page module and the search page
+  both import, so every page makes one more small request (not preloaded). Section 4's design; the cost is in D98.
+- A Learn title without a hub links `r.path` itself instead of `hrefOf(base, r.path)`: the same URL, since `hrefOf`
+  returns an absolute URL unchanged (`packages/search/src/anchors.ts:12`).
+- The League's last checkpoint (`3be12a03`, "checkpoint(league): red") changes only the query of the `noHub` helper in
+  `tests/unit/live-search.test.ts`, from the whole title to its first word; the assertions are unchanged and the tests
+  pass with and without it. No reason was recorded.
+- The League did not do task 6 (the docs edits) and left no report; the review of PR #9 wrote them.
+- The League's CI run went red on `validate:content` for a `main`-side error (a topic hub linked a post withheld for leak),
+  not on this branch; #11 fixed `main` and the branch merged it (`7188e55c`).
+
+Open, not covered by the spec: a hub-listed record whose `path_label` is empty would show no Learn link at all (the title
+goes to the hub, the second line is skipped). None today: the label is the hub's full TOC path
+(`pipeline/render/search.ts:191`). No operator step.
+
+## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
 - `docs/DECISIONS.md`: append D98 from section 3 with the measured bytes.
 - `docs/PLAN.md` section 5, the M36 row: change "proposed" to "shipped <date>".

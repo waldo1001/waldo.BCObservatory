@@ -1054,3 +1054,18 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   file, no derive. MCP 0.7.2, plugin 0.3.1. Rejected: renaming the key; aliases in `OBJECT_KEYS`; resolving any unknown
   word to its nearest key (a wrong guess answers silently); an alias for every object type; a header-only section; a
   web client deep-link row on page objects. Spec: `docs/specs/mcp-section-aliases.md` (section 12: built, deviations).
+- **D98 A Learn search result opens the hub that lists it, at the article; Learn moves to the second line
+  (2026-10-19, M36).** D94's row sent its title to learn.microsoft.com and linked the hub from its label; the owner
+  wants the reader kept on the observatory first. A row whose article a hub lists (3,466 of 8,054 on 2026-10-18) now
+  links its title to that hub with `#learn=<path under the Learn base>`; the page module finds the article's link in
+  the hub's Learn list by its URL, highlights the row, scrolls it into view and focuses the link. No id is written
+  into the HTML: no hub page changes. The label keeps its text and opens Learn, marked ↗, its accessible
+  name ending ", on Microsoft Learn". The 4,588 articles without a hub page keep a title that opens Learn, now marked
+  ↗ the same way, and a plain label. Cost (uncompressed, measured on the built site 2026-10-19): 546 bytes on the page
+  module plus `learn-target-core`, a 531-byte chunk the page module and the search page share (one more request on
+  every page); 380 on the search page's script; 23 on the CSS. No HTML page grows (29,043 of 29,043 the same size).
+  Rejected: an id per Learn row in the hub HTML (198,362 bytes on the Pages tar for what the browser finds from the
+  existing links); a text fragment (`#:~:text=<title>`): title matching, and at least 675 of the 3,466 articles' titles
+  occur earlier in their hub's body, where it would land; the hub's top (a title that is not the hub's, and lists of up
+  to 205 items); the Learn address as the second line (the hub's name leaves the row); a page of our own per article
+  (D94). Spec: `docs/specs/learn-row-links.md` (section 12: built, deviations).
