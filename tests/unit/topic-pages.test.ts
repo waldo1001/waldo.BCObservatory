@@ -58,6 +58,8 @@ test("topic pages list the videos and posts linked to them (data/links/topics.js
     "video/V1": { kind: "video", key: "video/V1", hash: "h", title: "VAT in 10 minutes", source: "yt-microsoft", at: "x", matches: [{ topic: "topic/bc/finance/gl", quote: "set up VAT posting groups" }] },
     "post/waldo-be/42": { kind: "post", key: "post/waldo-be/42", hash: "h", title: "My G/L tips", source: "waldo-be", at: "x", matches: [{ topic: "topic/bc/finance/gl", quote: "general ledger tips for consultants" }] },
   } });
+  writeText(join(root, "content/videos/V1.md"), "---\nid: video/V1\n---\n");
+  writeText(join(root, "content/posts/waldo-be/42.md"), "---\nid: post/waldo-be/42\n---\n");
   const parent = hub("topic/bc/finance", [], { children: ["topic/bc/finance/gl"] });
   const child = hub("topic/bc/finance/gl", [items[0].id], { parent: parent.id, breadcrumb: ["finance"] });
   renderTopics([parent, child], items, join(root, "data"), join(root, "content"), new Date("2026-10-07T01:00:00Z"));
@@ -66,6 +68,33 @@ test("topic pages list the videos and posts linked to them (data/links/topics.js
   assert.deepEqual([data.links.videos, data.links.posts, data.coverage.video, data.coverage.blog], [["video/V1"], ["post/waldo-be/42"], 1, 1]);
   assert.ok(content.includes('- [VAT in 10 minutes](../../../videos/V1.md) (video): "set up VAT posting groups"'));
   assert.ok(content.includes("(../../../posts/waldo-be/42.md) (community post)"));
+});
+
+test("a linked post whose page was withheld is left off the hub until its page exists; the link itself is kept", () => {
+  // a post skipped for leak at publish keeps its extraction, so the matcher links it, but it has no page to link to
+  const root = mkdtempSync(join(tmpdir(), "bcobs-topics-"));
+  const items = [doc("a")];
+  const links = { prompt_version: 2, units: {
+    "post/waldo-be/42": { kind: "post", key: "post/waldo-be/42", hash: "h", title: "My G/L tips", source: "waldo-be", at: "x", matches: [{ topic: "topic/bc/finance", quote: "general ledger tips for consultants" }] },
+    "post/waldo-be/43": { kind: "post", key: "post/waldo-be/43", hash: "h", title: "Withheld", source: "waldo-be", at: "x", matches: [{ topic: "topic/bc/finance", quote: "a post with no page" }] },
+    "video/V9": { kind: "video", key: "video/V9", hash: "h", title: "No page either", source: "yt-microsoft", at: "x", matches: [{ topic: "topic/bc/finance", quote: "a video with no page" }] },
+  } };
+  writeJson(join(root, "data/links/topics.json"), links);
+  writeText(join(root, "content/posts/waldo-be/42.md"), "---\nid: post/waldo-be/42\n---\n");
+  const finance = hub("topic/bc/finance", [items[0].id]);
+  const page = () => matter(readFileSync(join(root, "content/topics/bc/finance.md"), "utf8"));
+  renderTopics([finance], items, join(root, "data"), join(root, "content"), new Date("2026-10-07T01:00:00Z"));
+  let { data, content } = page();
+  assert.deepEqual([data.links.posts, data.coverage.blog, data.links.videos, data.coverage.video], [["post/waldo-be/42"], 1, [], 0]);
+  assert.ok(content.includes("(../../posts/waldo-be/42.md) (community post)"));
+  assert.ok(!content.includes("posts/waldo-be/43.md") && !content.includes("videos/V9.md"), "no link to a page that does not exist");
+  assert.deepEqual(JSON.parse(readFileSync(join(root, "data/links/topics.json"), "utf8")), links, "the topic link stays for when the page comes back");
+
+  writeText(join(root, "content/posts/waldo-be/43.md"), "---\nid: post/waldo-be/43\n---\n");
+  renderTopics([finance], items, join(root, "data"), join(root, "content"), new Date("2026-10-08T01:00:00Z"));
+  ({ data, content } = page());
+  assert.deepEqual([data.links.posts, data.coverage.blog], [["post/waldo-be/42", "post/waldo-be/43"], 2]);
+  assert.ok(content.includes("(../../posts/waldo-be/43.md) (community post)"));
 });
 
 test("hubs own their objects: links.objects, coverage.code and an objects section from docs-objects.json (D65)", () => {

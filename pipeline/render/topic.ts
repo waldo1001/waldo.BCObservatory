@@ -47,6 +47,8 @@ export function learnText(desc: string, pageUrl: string): string {
 
 /** A video or post linked to a topic (link/topics.ts): page id, kind, title and the quote that grounds the link. */
 export interface TopicMedia { key: string; kind: "video" | "post" | "change"; title: string; quote: string }
+/** The linked item's own page under content/: videos/<id>.md, posts/<source>/<id>.md, changes/<repo>/<n>.md. */
+export const mediaPageRel = (x: Pick<TopicMedia, "key" | "kind">) => `${x.kind === "video" ? "videos" : x.kind === "change" ? "changes" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
 
 export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, items: Map<string, ManifestItem>, now: Date, stored?: ReviewedNarrative, media: TopicMedia[] = [], code?: HubCode): string {
   const review = stored?.review && stored.review.input_hash === stored.input_hash ? stored.review : undefined;
@@ -96,7 +98,7 @@ export function renderTopicPage(hub: TopicHub, byId: Map<string, TopicHub>, item
   if (media.length) {
     // page links relative to this topic page: content/topics/<rel> -> content/<videos|posts>/<id>.md
     const up = "../".repeat(topicRel(hub.id).split("/").length);
-    const link = (x: TopicMedia) => `${up}${x.kind === "video" ? "videos" : x.kind === "change" ? "changes" : "posts"}/${x.key.slice(x.key.indexOf("/") + 1)}.md`;
+    const link = (x: TopicMedia) => `${up}${mediaPageRel(x)}`;
     const label = { video: "video", post: "community post", change: "code change" } as const;
     lines.push(media.some((x) => x.kind === "change") ? "## Videos, posts and code changes" : "## Videos and posts", "", "Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.", "",
       ...media.map((x) => `- [${cell(x.title)}](${link(x)}) (${label[x.kind]}): "${cell(x.quote)}"`), "");
@@ -209,6 +211,9 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
   const byId = new Map(hubs.map((h) => [h.id, h]));
   const byItem = new Map(items.map((i) => [i.id, i]));
   const media = mediaByTopic(loadTopicLinks(dataDir), loadTopicReview(dataDir));
+  // the matcher links extractions, and an item can keep its extraction without a page (a post skipped for leak at
+  // publish): the hub lists only pages that exist, the link stays in data/links/topics.json for when the page does
+  const hasPage = (x: TopicMedia) => exists(resolve(contentDir, mediaPageRel(x)));
   const code = loadHubCode(dataDir, contentDir) ?? undefined;
   const dir = resolve(contentDir, "topics");
   const keep = new Set<string>();
@@ -217,7 +222,7 @@ export function renderTopics(hubs: TopicHub[], items: ManifestItem[], dataDir: s
     const rel = topicRel(h.id);
     keep.add(rel);
     const path = resolve(dir, rel);
-    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id), media.get(h.id) ?? [], code);
+    const page = renderTopicPage(h, byId, byItem, now, narratives.get(h.id), (media.get(h.id) ?? []).filter(hasPage), code);
     if (!exists(path) || stable(readText(path)) !== stable(page)) writeText(path, page);
   }
   if (exists(dir)) {
