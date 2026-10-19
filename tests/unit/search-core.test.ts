@@ -19,7 +19,7 @@ test("D101: byDate orders newest first, ties by rank, undated last; a month sort
   const x = hitOf("x", "2026-04-17", 4), y = hitOf("y", "2026-04-17", 2);
   assert.deepEqual([y, x].sort(byDate).map((h) => h.r.title), ["x", "y"], "same day: the better match first");
   assert.deepEqual([hitOf("d", "2026-10-05", 1), hitOf("e", "2027-04", 1)].sort(byDate).map((h) => h.r.title), ["e", "d"]);
-  assert.deepEqual([hitOf("d", "2026-10", 1), hitOf("e", "2026-10-05", 1)].sort(byDate).map((h) => h.r.title), ["d", "e"], "a string compare, accepted");
+  assert.deepEqual([hitOf("d", "2026-10", 1), hitOf("e", "2026-10-05", 1)].sort(byDate).map((h) => h.r.title), ["e", "d"], "a string compare, accepted: a month after every day of it");
 });
 
 test("D101: search with sort 'date' takes the newest N of all matches, not of the best", () => {
