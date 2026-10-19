@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9182",
+  "number": 9182,
+  "title": "Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "purchasing"
+  ],
+  "summary": "Pay-to Name 2 field on purchase documents is now editable under the same conditions as other pay-to address fields when custom address is selected or vendor differs from buy-from vendor.",
+  "key_points": [
+    "Pay-to Name 2 editability aligned with other pay-to address fields on three purchase pages",
+    "Field now editable when Custom Address is selected or pay-to vendor differs from buy-from vendor",
+    "Previously editable only when Another Vendor option was selected",
+    "Identical two-property change applied across all localization layers (APAC, BE, CH, DACH, ES, FI, IT, NA, NL, NO, RU)",
+    "Extended test coverage verifies editability alongside sibling address fields"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

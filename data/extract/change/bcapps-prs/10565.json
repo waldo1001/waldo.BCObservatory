@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/10565",
+  "number": 10565,
+  "title": "Add default manufacturing version number series",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing",
+    "platform"
+  ],
+  "summary": "Manufacturing Setup now supports optional default number series for production BOM and routing versions, with new headers inheriting these defaults when their own series is blank.",
+  "key_points": [
+    "Optional default number series fields added to Manufacturing Setup for production BOM versions and routing versions",
+    "New headers inherit setup defaults only when their Version Nos. field is blank",
+    "Existing headers and explicit values remain unchanged; blank setup preserves prior behavior",
+    "Contoso dataset creates PRODBOM-V and ROUTING-V series and assigns them only when setup is blank",
+    "Schema change mirrored in Italian localization layer with focused test coverage"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing"
+  ],
+  "quote": "Adds optional default number series for production BOM versions and routing versions to Manufacturing Setup.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12148",
+  "number": 12148,
+  "title": "[E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "PEPPOL Order Response messages now conform to BIS 28 (T76) standard by including mandatory endpoint identifiers, order lines with status tracking, delivery dates, and seller's actual business decisions on sales orders.",
+  "key_points": [
+    "Added mandatory `cbc:EndpointID` and `schemeID` for both parties to prevent Access Point rejection",
+    "Response code reflects actual seller decision: `AP` when no changes, `CA` when changes detected with all order lines included",
+    "Each response line reports: accepted (5), changed (3), not accepted (7), or added lines (1) with quantities, prices, and delivery dates",
+    "Compares inbound order against created sales lines using E-Document Record Link; snapshot delivery dates on draft line creation",
+    "Builder interface accepts primitives only; validates `AddLine` called before `SetLine*` procedures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Makes the response follow the T76 syntax and derives the response from what the seller actually did on the sales order.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}

@@ -6,7 +6,7 @@
   "title": "Add default manufacturing version number series",
   "url": "https://github.com/microsoft/BCApps/pull/10565",
   "published_at": "2026-10-08T13:03:58Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 8,
       "objects": 7,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:12.287Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004926
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:13.359Z",
+      "objects": 7,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:13.451Z",
+      "path": "content/changes/bcapps/10565.md"
     }
   },
   "input_hash": "0ae111aedab2f93bdf1399faffdb721078bc4282:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "c4fceaaa0ca51cffb0149599f520106e1bb2c29c0ebb7a8273da0d71c109fe7a"
+  "output_hash": "9b653121f633168dbeb825444eb92b495db948b8ca3e95315cd28c878e47469f"
 }

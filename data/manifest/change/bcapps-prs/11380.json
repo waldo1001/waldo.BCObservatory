@@ -6,7 +6,7 @@
   "title": "Honor explicit 0% discounts in Sales and Purchase price lists",
   "url": "https://github.com/microsoft/BCApps/pull/11380",
   "published_at": "2026-10-08T13:20:08Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 1,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:15.824Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004557
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:21.506Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:21.512Z",
+      "path": "content/changes/bcapps/11380.md"
     }
   },
   "input_hash": "cffa50a236d199618af295012771b0c1b0992da3:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "b8ec972d6aef81c908693dab3a1ccf12cf624f3ab3d9ffdc9b60a4c7c10d9a6c"
+  "output_hash": "a91c5f31658ed6d7c7918b335a0d4e69256737767c9b59d7f023b37cc6a83432"
 }

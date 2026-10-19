@@ -1,0 +1,45 @@
+{
+  "id": "blog/tine-staric-net/https://tine.staric.net/blog/2026/harness-telemetry/",
+  "pillar": "blog",
+  "source": "tine-staric-net",
+  "tier": "community",
+  "title": "\"Dev X used 2k tokens with Opus\" is not telemetry",
+  "url": "https://tine.staric.net/blog/2026/harness-telemetry/",
+  "published_at": "2026-10-18T08:00:00.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-19T00:22:27.986Z"
+    },
+    "fetched": {
+      "at": "2026-10-19T00:22:49.122Z",
+      "path": "vault:posts/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7.md",
+      "words": 1948
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:05.752Z",
+      "prompt": "extract-post@1",
+      "quotes": 3,
+      "trimmed": 0,
+      "cost_usd": 0.013499
+    },
+    "summarized": {
+      "at": "2026-10-19T00:23:05.753Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:05.754Z"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:05.768Z",
+      "path": "content/posts/tine-staric-net/https-tine-staric-net-blog-2026-harness-telemetry--954ee179b7.md"
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5079ca1b34b541824c85ade6958a12f125228be4557c430e32ea4d51eecbf54c"
+}

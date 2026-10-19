@@ -6,7 +6,7 @@
   "title": "[E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision",
   "url": "https://github.com/microsoft/BCApps/pull/12148",
   "published_at": "2026-10-16T11:23:29Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-17T00:20:42.327Z"
@@ -18,6 +18,23 @@
       "al": 14,
       "objects": 11,
       "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:15.819Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004557
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:17.109Z",
+      "objects": 11,
+      "unjoined": 3,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:17.143Z",
+      "path": "content/changes/bcapps/12148.md"
     }
   },
   "input_hash": "e96e976513a3232497ba7b333447e6db2761d1ba:c1",
@@ -42,5 +59,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99ddf17a5b0212b8197120884f97ae6434c90874daf2c34b5830289cd279492d"
+  "output_hash": "be696065048964c3acd885793992efd6ee6c34e32d72f65fa1914b886ec25c35"
 }

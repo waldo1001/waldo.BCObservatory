@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12328",
+  "number": 12328,
+  "title": "[Master Data Management] Fix usage telemetry and make it emit max once per day",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management usage telemetry is restored with a frequency limit to emit at most once per day, distinguishing cross-environment and same-environment synchronizations.",
+  "key_points": [
+    "Usage telemetry reintroduced after being erroneously removed from release branches",
+    "Telemetry now emits at most once per day instead of with every sync",
+    "Cross-environment sync distinguished from same-environment sync with separate tags",
+    "Tag 0000JIR restored for the same tracking purpose as in NAV repo",
+    "Minimal risk change that restores removed functionality with rate limiting"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration"
+  ],
+  "quote": "Reintroduce usage, but make it not emit with every synch. Make it emit max once per day.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

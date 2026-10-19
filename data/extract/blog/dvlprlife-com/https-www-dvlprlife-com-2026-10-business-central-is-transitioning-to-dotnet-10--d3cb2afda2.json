@@ -1,0 +1,66 @@
+{
+  "item_id": "blog/dvlprlife-com/https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/",
+  "url": "https://www.dvlprlife.com/2026/10/business-central-is-transitioning-to-dotnet-10/",
+  "title": "Business Central Is Transitioning to .NET 10, and Here's What You Should Check",
+  "source": "dvlprlife-com",
+  "published_at": "2026-10-18T21:15:51.000Z",
+  "words": 649,
+  "summary": "Business Central is transitioning from .NET 8 to .NET 10 across online and on-premises environments. For online, Microsoft handles the migration during maintenance windows. For on-premises, the change arrives via cumulative updates at different points by release, requiring matching AL extension versions and careful pipeline validation.",
+  "key_points": [
+    "Business Central Online transitions to .NET 10 during configured maintenance windows with no action required beyond timing selection",
+    "On-premises releases get .NET 10 at different cumulative updates: BC 27 at CU 27.12, BC 28 at CU 28.6, BC 29 at release",
+    "Each BC release and CU combination requires specific AL/VS Code extension versions, making version alignment critical",
+    "Most applications won't need code changes unless they use .NET interop or custom .NET components",
+    "Pipeline failures risk comes from version mismatches in AL compiler, container images, and local tooling rather than the runtime change itself"
+  ],
+  "systems": [
+    "development",
+    "platform",
+    "administration"
+  ],
+  "topics": [
+    ".net runtime",
+    "cumulative updates",
+    "al extension versions",
+    "deployment",
+    "version compatibility",
+    "pipeline configuration",
+    "on-premises"
+  ],
+  "objects": [],
+  "features": [
+    ".NET 10 runtime transition",
+    "maintenance window scheduling",
+    "cumulative update deployment",
+    "AL extension versioning",
+    "container image management",
+    "build and test pipelines",
+    ".NET interop compatibility"
+  ],
+  "versions": [
+    "27",
+    "28",
+    "29",
+    ".NET 8",
+    ".NET 10"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "The runtime change itself isn't the risk; version mismatch is.",
+      "why_it_matters": "Identifies the actual failure point in the transition - not the upgrade itself but tools and environments that diverge from the new runtime requirements"
+    },
+    {
+      "text": "It's very unlikely; Microsoft says most customers won't need to change their applications just because the runtime has moved.",
+      "why_it_matters": "Reassures developers that code changes are not the default outcome, reducing upgrade anxiety for most extensions"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.006318,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12507",
+  "number": 12507,
+  "title": "[DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "integration"
+  ],
+  "summary": "Removed unsafe fixed byte-size caps on integration responses that scale with customer data, relying instead on platform limits and structural validation for the Nemhandel and currency exchange rate services.",
+  "key_points": [
+    "Removed 64 KB cap on Nemhandel API that falsely rejected legitimate large companies with many registered receivers",
+    "Removed 10 MB cap on currency exchange rate downloads where legitimate responses grow annually and vary by provider format",
+    "Kept caps on genuinely bounded responses: VIES checkVat (64 KB) and MTD IP lookup (4 KB)",
+    "Relies on platform HttpClient 150 MiB absolute limit for memory/DoS protection and schema validation for integrity",
+    "Nemhandel responses measured from 0.5 KB (Mærsk) to 97 MB (Region Midtjylland); ECB full-history feed 7.8 MB and growing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}

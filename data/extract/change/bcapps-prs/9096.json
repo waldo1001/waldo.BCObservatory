@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/9096",
+  "number": 9096,
+  "title": "Align Bill-to Name 2 editability with the other bill-to address fields on sales documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales"
+  ],
+  "summary": "Bill-to Name 2 field on sales documents is now editable under the same conditions as other bill-to address fields when custom address is selected or customer differs from sell-to customer.",
+  "key_points": [
+    "Bill-to Name 2 editability aligned with other bill-to address fields on four sales pages",
+    "Field now editable when Custom Address is selected or bill-to customer differs from sell-to customer",
+    "Previously editable only when Another Customer option was selected",
+    "Identical two-property change applied across all localization layers (APAC, BE, CH, ES, FR, GB, IT, NA, NL, NO, RU)",
+    "Extended test coverage verifies editability alongside sibling address fields"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

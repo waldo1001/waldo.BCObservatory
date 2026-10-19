@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/11380",
+  "number": 11380,
+  "title": "Honor explicit 0% discounts in Sales and Purchase price lists",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Fixed price calculation to honor explicit 0% discounts in Sales and Purchase price lists by distinguishing discount declarations from incidental zero amounts, allowing specific zero-discount lines to override generic positive discounts.",
+  "key_points": [
+    "A line declares a discount when amount type is `Discount` or discount percentage is positive",
+    "Explicit 0% can win through existing specificity rules; 0% in Price & Discount remains incidental",
+    "Candidate acceptance happens before OnAfterIsBetterLine event, preserving subscriber vetoes",
+    "At equal specificity, highest eligible discount still wins; explicit zero is not unconditional veto",
+    "Covers Sales and Purchase price lists with variant and currency specificity; affects Shopify product price calculator"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "sales",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}

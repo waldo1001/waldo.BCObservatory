@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12322",
+  "number": 12322,
+  "title": "[QM] Destination bin code is now visible and usable for the user",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Quality Management now allows users to select and use destination bin codes when creating manual transfer orders, with bin selection validated for bin-mandatory locations.",
+  "key_points": [
+    "Destination bin code field added to manual Create Transfer Order action in Quality Management",
+    "Bin selection enabled only for bin-mandatory, non-directed locations",
+    "Selected bin code is validated against the destination location",
+    "Destination bin code propagates to the transfer order line",
+    "New permission set QltyMgmtBinView controls access to bin code visibility"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "warehouse"
+  ],
+  "quote": "Add destination bin selection to the manual Create Transfer Order action in Quality Management.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

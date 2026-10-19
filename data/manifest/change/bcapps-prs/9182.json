@@ -6,7 +6,7 @@
   "title": "Align Pay-to Name 2 editability with the other pay-to address fields on purchase documents",
   "url": "https://github.com/microsoft/BCApps/pull/9182",
   "published_at": "2026-10-08T10:43:23Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 29,
       "objects": 10,
       "unjoined": 19
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:12.289Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004926
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:13.361Z",
+      "objects": 10,
+      "unjoined": 19,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:13.453Z",
+      "path": "content/changes/bcapps/9182.md"
     }
   },
   "input_hash": "7d96b3ad903fdff233ded226c05f644d9f6d8eb2:c1",
@@ -41,5 +58,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "4bec7c906dd8531f19ea1c254bd83bb5a7382fa8f534b755474f39ad7f8597e3"
+  "output_hash": "ebb5ab01ade63f632ab63b90d520d6ffcd4ee4085ee90bc9f23e866876e67237"
 }

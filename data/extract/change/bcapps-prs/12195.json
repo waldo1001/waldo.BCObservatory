@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12195",
+  "number": 12195,
+  "title": "[Fabric] Exclude tables and fields for Fabric integration",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "development"
+  ],
+  "summary": "Added table and field validation logic to the Fabric integration to control which Business Central tables and fields can be mirrored to Microsoft Fabric.",
+  "key_points": [
+    "Created FabricTableValidation codeunit with table exclusion logic",
+    "Created FabricFieldValidation codeunit with field filtering logic",
+    "Updated permission sets to include access to validation objects",
+    "Added comprehensive test coverage in TestFABPlatform codeunit",
+    "Expanded configuration validation without changing platform or table structures"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}

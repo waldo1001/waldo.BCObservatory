@@ -6,7 +6,7 @@
   "title": "[DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds",
   "url": "https://github.com/microsoft/BCApps/pull/12507",
   "published_at": "2026-10-08T17:08:48Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 2,
       "objects": 2,
       "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:15.820Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004557
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:17.111Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:17.144Z",
+      "path": "content/changes/bcapps/12507.md"
     }
   },
   "input_hash": "09e9f22f1e3e032df365d1e16ec40479f59ad0ec:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "99c16cf1738f20c0ed33bcf427fcf97c15c7906a5e2b95793dff30515cff442e"
+  "output_hash": "f79230950fc7dcd71c7ccc54080793c1aaed4419160e7aa19fc5accd17c04e1a"
 }

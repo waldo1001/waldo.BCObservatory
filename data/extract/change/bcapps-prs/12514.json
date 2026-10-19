@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12514",
+  "number": 12514,
+  "title": "Revert Expense API test re-enablement and consolidated fixes",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "A previous commit enabling clean test code execution for Expense API tests is fully reverted due to runtime null-reference errors in integration tests across multiple countries.",
+  "key_points": [
+    "Full revert of commit 3f357d6c93edab81eab2437909d8dab17637ba0d from PR #12325 due to API failures",
+    "Setting enableCleanTestCodeunitExecution removed from AL-Go configuration",
+    "Prior Expense API authentication helper and 51 test exclusions restored",
+    "193 temporary general API exclusions removed in this revert",
+    "19 integration-test jobs failed with HTTP 500 null-reference errors in Expense API calls"
+  ],
+  "change_kind": "fix",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot"
+  ],
+  "quote": "Revert commit 3f357d6c93edab81eab2437909d8dab17637ba0d, merged through #12325, as requested following the failures in workflow run 37598783939.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004926,
+    "changes_in_call": 6
+  }
+}

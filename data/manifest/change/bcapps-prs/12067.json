@@ -6,7 +6,7 @@
   "title": "[main] bug 652323 - Move creating VAT Period to setup demo data level",
   "url": "https://github.com/microsoft/BCApps/pull/12067",
   "published_at": "2026-10-08T15:13:00Z",
-  "state": "fetched",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-09T00:24:51.437Z"
@@ -18,6 +18,23 @@
       "al": 1,
       "objects": 0,
       "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-19T00:23:15.822Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004557
+    },
+    "linked": {
+      "at": "2026-10-19T00:23:17.112Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": "f18567dc08e2bd162bf192e1da4d714b57eb099f"
+    },
+    "published": {
+      "at": "2026-10-19T00:23:17.146Z",
+      "path": "content/changes/bcapps/12067.md"
     }
   },
   "input_hash": "11a29c3246eb67ae751a5f36d633bc63be12689a:c1",
@@ -40,5 +57,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e37d4fe6356fee2f48da4e9b9f880b4ac9001a07965866168f6277e5a22b0c9a"
+  "output_hash": "e0440cdef4d56a7d08060fbc687550378e546803b6674cd3404b41c2d5971ff8"
 }

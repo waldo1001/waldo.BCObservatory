@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcapps-prs/12067",
+  "number": 12067,
+  "title": "[main] bug 652323 - Move creating VAT Period to setup demo data level",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [],
+  "summary": "Moved VAT Period creation from Master Data to Setup Data level in Czech Contoso demo data to ensure VAT periods exist when setup-level processes depend on them, removing downstream test workarounds.",
+  "key_points": [
+    "VAT Period and VAT Return Period now created at Setup Data level instead of Master Data level",
+    "Posting failures with 'VAT Period does not exist' error are resolved for CZ-localized databases",
+    "Removed workarounds that disabled VAT Reporting Date Usage in SCM Warehouse Orders and Subcontracting tests",
+    "Removed DisableVATDateUsage helper and VAT date disabling from E-Document Item Charge tests",
+    "Demo data sequencing fix; no schema, production logic or permission changes"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "reporting"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}

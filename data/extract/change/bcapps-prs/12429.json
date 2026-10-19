@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12429",
+  "number": 12429,
+  "title": "Skip enabling incomplete existing retention policies on install/upgrade",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "administration"
+  ],
+  "summary": "Skip enabling incomplete retention policies during install and upgrade when the existing setup would fail validation, preventing tenant upgrades from blocking on Dataverse Entity Change records with missing retention periods.",
+  "key_points": [
+    "Guard skips enabling retention policy when record is already enabled, applies to all records without a retention period, or uses filters with no enabled lines",
+    "Preserves customer's existing incomplete setup instead of blocking upgrade with validation error",
+    "Added read permission on Retention Policy Setup Line to codeunit 3999",
+    "Changed EnableRetentionPolicySetup from local to internal visibility for testing",
+    "Covers Dataverse Entity Change, Integration Synch. Job and Integration Synch. Job Errors tables"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "administration"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004557,
+    "changes_in_call": 6
+  }
+}
