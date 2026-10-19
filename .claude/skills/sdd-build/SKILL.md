@@ -105,6 +105,11 @@ this section used to ask for. So in operator mode the spec's own edits (section 
 lines) go into a hand-over file, and the review of the PR applies them before merge (`sdd-review` section 6). A manual
 session edits the spec itself, as below.
 
+This rule outranks the spec's own text. A Definition of Done, a section 12 or any task that asks the builder to set
+`status: implemented`, change the body Status line, insert "Built, deviations", renumber a section or tick a box in the
+spec means, in operator mode, "write it into the hand-over file". That holds for every spec, including those written
+before this rule. Do not tick the Definition of Done in the spec either.
+
 - **The spec** (manual session): insert `## 12. Built, deviations (<date>)` before the old section 12, which becomes
   `## 13. Proposed edits to other files (applied <date>, see section 12)`. Section 12 says what was built and in which
   commits, what was verified (commands and results), a spec-versus-measured table where the spec had numbers, every
