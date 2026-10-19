@@ -50,11 +50,13 @@ Rules:
 export type UnitKind = "video" | "post" | "change";
 export interface TopicCandidate { id: string; alias: string; title: string; path: string; system: string }
 export interface TopicMatch { topic: string; quote: string }
-export interface TopicLinkUnit { kind: UnitKind; key: string; hash: string; title: string; source: string | null; at: string; matches: TopicMatch[] }
+/** D102: what the review dropped before a unit's one extra linking pass; kept on the record for good. */
+export interface SecondChance { at: string; dropped: { topic: string; reason: string }[] }
+export interface TopicLinkUnit { kind: UnitKind; key: string; hash: string; title: string; source: string | null; at: string; matches: TopicMatch[]; second?: SecondChance }
 export interface TopicLinks { prompt_version: number; units: Record<string, TopicLinkUnit> }
 export interface TopicLinkRun {
   units: number; stale: number; calls: number; matched: number; rejected: number; failed: number; cost_usd: number;
-  rejections: string[]; stopped: "done" | "quota" | "deadline" | "spend-cap" | "aborted"; errors: string[];
+  rejections: string[]; second: { due: number; called: number; matched: number }; stopped: "done" | "quota" | "deadline" | "spend-cap" | "aborted"; errors: string[];
 }
 
 export const topicLinksPath = (dataDir: string) => resolve(dataDir, "links", "topics.json");
@@ -82,62 +84,108 @@ export function topicCandidates(contentDir: string): TopicCandidate[] {
   return out.sort((a, b) => a.id.localeCompare(b.id)).map((c, i) => ({ ...c, alias: `t${i + 1}` }));
 }
 
-export interface Pending { kind: UnitKind; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string }
+export interface Pending {
+  kind: UnitKind; key: string; title: string; source: string | null; text: string; systems: string[]; cands: TopicCandidate[]; hash: string;
+  /** D102: set on a unit's one extra pass; `rejected` is the dropped hubs still among the topic pages, for the prompt. */
+  second?: SecondChance; rejected?: { title: string; path: string; why: string }[];
+}
 
 const unitHash = (text: string, cands: TopicCandidate[]) => sha256(JSON.stringify({ v: PROMPT_VERSION, text, cands: cands.map((c) => [c.id, c.title, c.path]) }));
 const inSystems = (all: TopicCandidate[], systems: string[]) => all.filter((c) => systems.includes(c.system));
+/** The hubs of the systems minus the excluded ids; null only when the systems have none before exclusion (D102). */
+const candsOf = (all: TopicCandidate[], systems: string[], exclude?: ReadonlySet<string>): TopicCandidate[] | null => {
+  const c = inSystems(all, systems);
+  return c.length ? (exclude?.size ? c.filter((x) => !exclude.has(x.id)) : c) : null;
+};
 
-export function videoUnit(x: VideoExtraction, all: TopicCandidate[]): Pending | null {
+/**
+ * The unit's second chance (D102): its `second` when it has one (carried, never recomputed); else, when it has links and
+ * the review dropped every one of them at the unit's current hash, those hubs with Opus's reasons; else null.
+ */
+export function secondChanceOf(u: TopicLinkUnit | undefined, review: TopicReview, at: string): SecondChance | null {
+  if (!u) return null;
+  if (u.second) return u.second;
+  if (!u.matches.length) return null;
+  const dropped: SecondChance["dropped"] = [];
+  for (const m of u.matches) {
+    const v = topicVerdictOf(review, m.topic, u.key, u.hash);
+    if (v?.verdict !== "drop") return null;
+    dropped.push({ topic: m.topic, reason: v.reason });
+  }
+  return { at, dropped };
+}
+
+export function videoUnit(x: VideoExtraction, all: TopicCandidate[], exclude?: ReadonlySet<string>): Pending | null {
   const systems = [...new Set([...x.systems, ...x.features.map((f) => f.system)].filter(Boolean))];
-  const cands = inSystems(all, systems);
-  if (!cands.length) return null;
+  const cands = candsOf(all, systems, exclude);
+  if (!cands) return null;
   const text = [x.title, x.topics.length ? `Topics: ${x.topics.join("; ")}` : "", x.features.length ? `Shows: ${x.features.map((f) => f.name).join("; ")}` : ""].filter(Boolean).join(". ");
   return { kind: "video", key: `video/${x.video_id}`, title: x.title, source: x.item_id.split("/")[1] ?? null, text, systems, cands, hash: unitHash(text, cands) };
 }
 
-export function postUnit(x: PostExtraction, all: TopicCandidate[]): Pending | null {
-  const cands = inSystems(all, x.systems);
-  if (!cands.length) return null;
+export function postUnit(x: PostExtraction, all: TopicCandidate[], exclude?: ReadonlySet<string>): Pending | null {
+  const cands = candsOf(all, x.systems, exclude);
+  if (!cands) return null;
   const text = [x.title, x.summary, ...x.key_points, x.topics.length ? `Topics: ${x.topics.join("; ")}` : ""].filter(Boolean).join(". ");
   return { kind: "post", key: x.item_id.replace(/^blog\//, "post/"), title: x.title, source: x.source, text, systems: x.systems, cands, hash: unitHash(text, cands) };
 }
 
 /** A code change (D61): its title, our summary and key points; systems from the record's join or the extraction. */
-export function changeUnit(x: ChangeExtraction, all: TopicCandidate[]): Pending | null {
+export function changeUnit(x: ChangeExtraction, all: TopicCandidate[], exclude?: ReadonlySet<string>): Pending | null {
   if (!x.title || !x.repo) return null;
   // the join's systems are facts (D61 decision 7); Haiku's are the fallback when nothing joined
   const systems = x.systems_joined?.length ? x.systems_joined : x.systems;
-  const cands = inSystems(all, systems);
-  if (!cands.length) return null;
+  const cands = candsOf(all, systems, exclude);
+  if (!cands) return null;
   const text = [x.title, x.summary, ...x.key_points].filter(Boolean).join(". ");
   const slug = x.repo.split("/")[1].toLowerCase();
   return { kind: "change", key: `change/${slug}/${x.number}`, title: `#${x.number} ${x.title}`, source: x.item_id.split("/")[1] ?? null, text, systems, cands, hash: unitHash(text, cands) };
 }
 
 /** Every unit the video, post and change extractions on disk produce; units without candidates are absent. */
-export function gatherTopicUnits(dataDir: string, contentDir: string): Pending[] {
+export function gatherTopicUnits(dataDir: string, contentDir: string, second?: (key: string) => SecondChance | null): Pending[] {
   const all = topicCandidates(contentDir);
   const out: Pending[] = [];
-  for (const p of listFiles(resolve(dataDir, "extract", "video"), ".json").sort()) { const u = videoUnit(readJson<VideoExtraction>(p), all); if (u) out.push(u); }
-  for (const p of listFiles(resolve(dataDir, "extract", "blog"), ".json").sort()) { const u = postUnit(readJson<PostExtraction>(p), all); if (u) out.push(u); }
-  for (const p of listFiles(resolve(dataDir, "extract", "change"), ".json").sort()) { const u = changeUnit(readJson<ChangeExtraction>(p), all); if (u) out.push(u); }
+  /** D102: a unit with a second chance is rebuilt without its dropped hubs, and carries them for the prompt. */
+  const add = (build: (exclude?: ReadonlySet<string>) => Pending | null) => {
+    let u = build();
+    if (!u) return;
+    const s = second?.(u.key);
+    if (s) {
+      u = build(new Set(s.dropped.map((d) => d.topic)))!;
+      u.second = s;
+      u.rejected = s.dropped.flatMap((d) => { const c = all.find((x) => x.id === d.topic); return c ? [{ title: c.title, path: c.path, why: d.reason }] : []; });
+    }
+    out.push(u);
+  };
+  for (const p of listFiles(resolve(dataDir, "extract", "video"), ".json").sort()) { const x = readJson<VideoExtraction>(p); add((e) => videoUnit(x, all, e)); }
+  for (const p of listFiles(resolve(dataDir, "extract", "blog"), ".json").sort()) { const x = readJson<PostExtraction>(p); add((e) => postUnit(x, all, e)); }
+  for (const p of listFiles(resolve(dataDir, "extract", "change"), ".json").sort()) { const x = readJson<ChangeExtraction>(p); add((e) => changeUnit(x, all, e)); }
   return out;
 }
 
 interface Call { units: (Pending & { ref: string })[]; cands: TopicCandidate[] }
 
-/** BATCH_SIZE units per call, grouped by their first system so the candidate list stays short. */
+/**
+ * BATCH_SIZE units per call, grouped by their first system so the candidate list stays short. The first-round units
+ * come first; the second-chance units (D102) follow in calls of their own: a call never mixes the two.
+ */
 export function planTopicCalls(stale: Pending[]): Call[] {
-  const groups = new Map<string, Pending[]>();
-  for (const u of stale) groups.set(u.systems[0] ?? "", [...(groups.get(u.systems[0] ?? "") ?? []), u]);
-  const calls: Call[] = [];
-  for (const g of groups.values()) for (let i = 0; i < g.length; i += BATCH_SIZE) {
-    const units = g.slice(i, i + BATCH_SIZE).map((u, j) => ({ ...u, ref: `e${j + 1}` }));
-    const cands = [...new Map(units.flatMap((u) => u.cands).map((c) => [c.id, c])).values()].sort((a, b) => a.alias.localeCompare(b.alias, "en", { numeric: true }));
-    calls.push({ units, cands });
-  }
-  return calls;
+  const plan = (us: Pending[]): Call[] => {
+    const groups = new Map<string, Pending[]>();
+    for (const u of us) groups.set(u.systems[0] ?? "", [...(groups.get(u.systems[0] ?? "") ?? []), u]);
+    const calls: Call[] = [];
+    for (const g of groups.values()) for (let i = 0; i < g.length; i += BATCH_SIZE) {
+      const units = g.slice(i, i + BATCH_SIZE).map((u, j) => ({ ...u, ref: `e${j + 1}` }));
+      const cands = [...new Map(units.flatMap((u) => u.cands).map((c) => [c.id, c])).values()].sort((a, b) => a.alias.localeCompare(b.alias, "en", { numeric: true }));
+      calls.push({ units, cands });
+    }
+    return calls;
+  };
+  return [...plan(stale.filter((u) => !u.second)), ...plan(stale.filter((u) => u.second))];
 }
+
+const SECOND_PASS = "Second pass: a reviewer rejected the hubs under `rejected` for each item, with the reason. They are no longer among its hubs. The reason often names where the item belongs: link that hub when it is among the item's hubs, else the best other fit, or none.";
 
 export function topicCallSchema(c: Call) {
   return {
@@ -150,8 +198,9 @@ export function topicCallSchema(c: Call) {
 
 export function topicCallPrompt(c: Call): string {
   const hubs = c.cands.map((x) => ({ id: x.alias, title: x.title, path: x.path }));
-  const evidence = c.units.map((u) => ({ ref: u.ref, kind: u.kind, text: u.text, hubs: u.cands.map((x) => x.alias) }));
-  return `Topic hubs (JSON):\n${JSON.stringify(hubs)}\n\nEvidence items (JSON; each lists the hub ids it may link to):\n${JSON.stringify(evidence, null, 1)}`;
+  const second = c.units.some((u) => u.second);
+  const evidence = c.units.map((u) => ({ ref: u.ref, kind: u.kind, text: u.text, hubs: u.cands.map((x) => x.alias), ...(second ? { rejected: u.rejected ?? [] } : {}) }));
+  return `${second ? `${SECOND_PASS}\n\n` : ""}Topic hubs (JSON):\n${JSON.stringify(hubs)}\n\nEvidence items (JSON; each lists the hub ids it may link to):\n${JSON.stringify(evidence, null, 1)}`;
 }
 
 /** Keep what the input allows: a candidate of that ref, a verbatim quote, at most MAX_PER_UNIT per unit, no duplicates. */
@@ -181,20 +230,30 @@ export async function linkTopics(
 ): Promise<{ links: TopicLinks; run: TopicLinkRun }> {
   const llm = o.llm ?? complete;
   const prev = loadTopicLinks(dataDir);
-  const run: TopicLinkRun = { units: 0, stale: 0, calls: 0, matched: 0, rejected: 0, failed: 0, cost_usd: 0, rejections: [], stopped: "done", errors: [] };
+  const run: TopicLinkRun = { units: 0, stale: 0, calls: 0, matched: 0, rejected: 0, failed: 0, cost_usd: 0, rejections: [], second: { due: 0, called: 0, matched: 0 }, stopped: "done", errors: [] };
   const allowed = () => {
     if (run.stopped !== "done") return false;
     if (run.calls >= o.quota) { run.stopped = "quota"; return false; }
     if (o.clock().getTime() >= o.deadline.getTime()) { run.stopped = "deadline"; return false; }
     return true;
   };
-  const units = gatherTopicUnits(dataDir, contentDir).filter((u) => !o.only || o.only(u.key));
+  const review = loadTopicReview(dataDir);
+  const now = o.clock().toISOString();
+  const units = gatherTopicUnits(dataDir, contentDir, (key) => secondChanceOf(prev.units[key], review, now)).filter((u) => !o.only || o.only(u.key));
   const live = new Set(units.map((u) => u.key));
   const links: TopicLinks = { prompt_version: PROMPT_VERSION, units: {} };
   for (const [k, u] of Object.entries(prev.units)) if (live.has(k) || (o.only && !o.only(k))) links.units[k] = u;
   const stale = units.filter((u) => prev.units[u.key]?.hash !== u.hash);
+  const firstPass = (u: Pending) => !!u.second && !prev.units[u.key]?.second; // D102: the unit's one extra pass, not yet made
   Object.assign(run, { units: units.length, stale: stale.length });
-  await pool(planTopicCalls(stale), o.concurrency ?? 1, async (c) => {
+  run.second.due = stale.filter(firstPass).length;
+  // every hub of the unit was dropped and none is left to offer: the record is live, no call is made
+  const callable: Pending[] = [];
+  for (const u of stale) {
+    if (u.cands.length) { callable.push(u); continue; }
+    links.units[u.key] = { kind: u.kind, key: u.key, hash: u.hash, title: u.title, source: u.source, at: now, matches: [], ...(u.second ? { second: u.second } : {}) };
+  }
+  await pool(planTopicCalls(callable), o.concurrency ?? 1, async (c) => {
     if (!allowed()) return;
     run.calls++;
     const label = `${c.units[0].key}${c.units.length > 1 ? ` +${c.units.length - 1}` : ""}`;
@@ -210,8 +269,9 @@ export async function linkTopics(
       const at = o.clock().toISOString();
       for (const u of c.units) {
         const ms = kept.get(u.key) ?? [];
-        links.units[u.key] = { kind: u.kind, key: u.key, hash: u.hash, title: u.title, source: u.source, at, matches: ms };
+        links.units[u.key] = { kind: u.kind, key: u.key, hash: u.hash, title: u.title, source: u.source, at, matches: ms, ...(u.second ? { second: u.second } : {}) };
         run.matched += ms.length;
+        if (firstPass(u)) { run.second.called++; run.second.matched += ms.length; }
       }
     } catch (e) {
       if (e instanceof LlmBudgetExhausted) { run.stopped = "spend-cap"; return; }
