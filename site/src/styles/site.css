@@ -142,7 +142,7 @@ h1.long { font-size: clamp(30px, 5vw, 48px); line-height: 1.05; }
 .mt-clamp .mt-open .mt-x { display: block; -webkit-line-clamp: none; cursor: auto; }
 .mt-clamp > li:not(.mt-open) > ul { display: none; }
 .prose tr[id], .prose li[id] { scroll-margin-top: 16px; }
-.prose tr:target, .prose li:target { background: var(--accent-surface); }
+.prose tr:target, .prose li:target, .prose li.learn-target { background: var(--accent-surface); }
 .tl .timeline button.v { font: 500 13px var(--font-mono); color: var(--accent); background: none; border: 0; padding: 0; text-align: left; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 /* D89 (B8): the Ask your agent panel, in flow under the actions row */
 .actions > button.btn { font-family: inherit; cursor: pointer; }
