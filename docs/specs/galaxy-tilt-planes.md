@@ -1,6 +1,6 @@
 ---
 issue: 10
-status: draft
+status: approved
 ---
 
 # Tilt is a button, a plane you click filters the panel, and the tilted view zooms
