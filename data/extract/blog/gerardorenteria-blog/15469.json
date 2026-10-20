@@ -1,0 +1,114 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15469",
+  "url": "https://gerardorenteria.blog/2026/10/02/new-application-ideas-of-dynamics-365-business-central-2026-sep/",
+  "title": "New Application Ideas of Dynamics 365 Business Central (2026 SEP)",
+  "source": "gerardorenteria-blog",
+  "published_at": "2026-10-02T21:30:53.000Z",
+  "words": 795,
+  "summary": "A collection of feature improvement ideas submitted to Microsoft for Dynamics 365 Business Central as of September 2026, covering copilot integration, financial management, localization, inventory, manufacturing, sales, and administration.",
+  "key_points": [
+    "Ideas span across multiple functional areas including agents/copilot, financial management (IFRS standards, payment reconciliation), inventory (consignment, bin-aware applications), and sales (shipping, subscription features)",
+    "Several ideas address localization needs (Italian translations, French credit notes, PEPPOL support, currency variations) and data migration",
+    "Other suggestions target technical improvements (media/bitmap support, workload identity federation, full-text search) and process enhancements (approval workflows, role-based security, analysis mode for tablets)"
+  ],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "topics": [
+    "feature ideas",
+    "copilot agents",
+    "financial management",
+    "ifrs standards",
+    "payment processing",
+    "inventory management",
+    "sales orders",
+    "localization",
+    "security",
+    "mobile tablets"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Purchase invoice"
+    },
+    {
+      "type": "other",
+      "name": "Sales Order"
+    },
+    {
+      "type": "other",
+      "name": "Sales Quote"
+    },
+    {
+      "type": "other",
+      "name": "Sales Credit Memo"
+    },
+    {
+      "type": "other",
+      "name": "G/L Budget"
+    },
+    {
+      "type": "other",
+      "name": "Item Ledger Entry"
+    },
+    {
+      "type": "other",
+      "name": "Value Entry"
+    },
+    {
+      "type": "other",
+      "name": "Work Center"
+    },
+    {
+      "type": "other",
+      "name": "Assembly Order"
+    },
+    {
+      "type": "other",
+      "name": "Security Group Page"
+    },
+    {
+      "type": "other",
+      "name": "Posted Sales Shipment"
+    },
+    {
+      "type": "other",
+      "name": "Physical Inventory"
+    },
+    {
+      "type": "other",
+      "name": "Incoming Document Attachments"
+    }
+  ],
+  "features": [
+    "Copilot and agents integration",
+    "IFRS 15 and IFRS 16 accounting",
+    "Payment reconciliation with foreign currencies",
+    "Consignment inventory management",
+    "Bin-aware item application",
+    "PEPPOL e-invoicing support",
+    "Subscription billing and contracts",
+    "Full-text search across pages",
+    "Word templates and email integration"
+  ],
+  "versions": [
+    "2026 SEP"
+  ],
+  "language": "es",
+  "quotes": [
+    {
+      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
+      "why_it_matters": "Frames the post as a curated collection of user-submitted feature requests from the Business Central community"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.007976,
+    "posts_in_call": 1
+  }
+}

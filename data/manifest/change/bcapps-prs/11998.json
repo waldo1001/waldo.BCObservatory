@@ -6,10 +6,35 @@
   "title": "[main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.",
   "url": "https://github.com/microsoft/BCApps/pull/11998",
   "published_at": "2026-10-19T11:40:47Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:22:46.921Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 6,
+      "unjoined": 5
+    },
+    "extracted": {
+      "at": "2026-10-20T00:22:55.638Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004039
+    },
+    "linked": {
+      "at": "2026-10-20T00:22:55.916Z",
+      "objects": 6,
+      "unjoined": 5,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-20T00:22:55.924Z",
+      "path": "content/changes/bcapps/11998.md"
     }
   },
   "input_hash": "d307d9e3cb2b4ef1ddcd7b8aef308116c1629166:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "it should not be possible to post invoices with a non existing posting setup combination because it creates trouble with adjust for payment discount"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9055c952ecf10c91104f430115466fb9d931f05cd2039c0bab2cf8362b3b7922"
 }

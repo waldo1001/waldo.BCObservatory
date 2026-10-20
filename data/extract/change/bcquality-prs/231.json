@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/231",
+  "number": 231,
+  "title": "al-agents-review: derive the target BC version from app.json",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The al-agents-review skill now derives the target Business Central version from app.json when not supplied by the orchestrator, reducing unknown version dimensions in standalone plugin reviews.",
+  "key_points": [
+    "Agents articles are version-gated, so deriving version from app.json improves relevance",
+    "Allows findings to reach higher confidence levels instead of being capped at medium",
+    "Aligns al-agents-review with existing practices in al-query-review and al-reporting-review",
+    "No changes to READ semantics or other review skills",
+    "Resolves unknown version dimension in standalone plugin reviews"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003424,
+    "changes_in_call": 1
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 223,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/223",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-19T10:48:39Z",
+  "merge_commit_sha": "4e07e7e7403ac858749c9b45cb9a7240846b99e8",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision",
+  "body_hash": "cd9d326a3e940ac4c4d58a229f5736eec3743d1621270a58d3a6126b9a5bba91",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.bad.al",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.good.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
+      "status": "added",
+      "additions": 56,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 131,
+    "deletions": 1,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

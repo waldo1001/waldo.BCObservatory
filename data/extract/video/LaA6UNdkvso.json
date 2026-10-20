@@ -178,9 +178,9 @@
       "check": "exact"
     },
     {
-      "t": 119.2,
-      "text": "it is uh apparently it's named after Pele, the goddess of volcanoes and fire. Um anyway, this is a lightweight ...",
-      "why_it_matters": "Introduces the Pele library as a solution that can render Mermaid diagrams to SVGs, enabling server-side rendering in AL.",
+      "t": 125.6,
+      "text": "this is a lightweight open-source library that renders mermaid diagrams to SVGs.",
+      "why_it_matters": "Explains what Pele is, the basis of the AL implementation.",
       "check": "exact"
     },
     {
@@ -205,6 +205,12 @@
       "t": 403.1,
       "text": "There's a bunch more uh things you can do with with mermaid that so far I have not ported because I didn't need it.",
       "why_it_matters": "Clarifies that while many Mermaid features are supported, not all have been ported to this library.",
+      "check": "exact"
+    },
+    {
+      "t": 414.8,
+      "text": "Here's a Gantt chart, and we can see that the clickable elements only. So, that is not clickable, but back end is clickable.",
+      "why_it_matters": "Shows that click events can be limited to selected elements.",
       "check": "exact"
     },
     {

@@ -1,0 +1,228 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 11998,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/11998",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-19T11:40:47Z",
+  "merge_commit_sha": "d307d9e3cb2b4ef1ddcd7b8aef308116c1629166",
+  "author": "Shikhverma",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.",
+  "body_hash": "dd81240a7ba4f65a2db989490544aee14b8b0d2e6a85567856958b32e9cb3e23",
+  "fixes_issues": [],
+  "work_items": [
+    651675
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ERM/ERMCheckPostingGroups.Codeunit.al",
+      "status": "modified",
+      "additions": 147,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/ERMCheckPostingGroups.Codeunit.al",
+      "status": "modified",
+      "additions": 145,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 13,
+    "additions": 515,
+    "deletions": 22,
+    "al": 11
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/11"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11",
+        "type": "codeunit",
+        "id": 11,
+        "name": "Gen. Jnl.-Check Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/11"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJnlCheckLine.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

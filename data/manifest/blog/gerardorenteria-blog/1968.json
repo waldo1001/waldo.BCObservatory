@@ -37,10 +37,10 @@
     }
   },
   "input_hash": "2026-10-19T20:54:05.000Z",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
-  "last_error": null,
-  "retry_after": null,
+  "last_error": "web lane: fetched took longer than 180 s",
+  "retry_after": "2026-10-20T02:24:42.379Z",
   "output_hash": "e2b8908256920be41eeff94042e72ba1bff9ee1b9af9405777912ce9a20cd6b2",
   "review": {
     "state": "flagged",
