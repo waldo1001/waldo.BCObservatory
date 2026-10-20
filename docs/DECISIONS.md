@@ -796,7 +796,10 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   changelog heading (unstable ids: Microsoft renames headings); a page per upload (185, mostly identical); the
   this-week lens and header pill (D80; a source that moves twice a month); a Haiku pass linking entries to hubs and
   objects (a later spec); the pre-4.0 monthly updates (no version sections, 90 KB, 2016 to 2019). Spec:
-  `docs/specs/al-extension-changelog.md`.
+  `docs/specs/al-extension-changelog.md`. The snapshots, the release pages and the parser's test fixture
+  (`tests/fixtures/al-changelog.md`, a verbatim copy of the changelog) are official-only output for the leak scan
+  (`OFFICIAL_ONLY` in `pipeline/validate/leak.ts`). The fixture joined on 2026-10-20 (issue 19): a community post
+  re-fetched that night quotes the changelog's release notes, and the shared 25 words blocked three runs in a row.
 - **D86 One deterministic scorer, a symbols index, lazy hashed shards.** Site and MCP rank with the same code:
   `packages/search` (private workspace package, zero dependencies) parses the query (`t36`, `cu 80`, `table 36
   BE`, bare numbers as ids, `field:`/`event:`/`proc:` prefixes, `bc30`, country codes, quoted phrases, plurals, one
