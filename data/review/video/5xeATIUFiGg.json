@@ -1,0 +1,27 @@
+{
+  "video_id": "5xeATIUFiGg",
+  "item_id": "video/yt-areopa/5xeATIUFiGg",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "The Subscription Billing GA evidence quote is verbatim, but its t pointed to 247.9. The quote actually starts in segment 554.5, so evidence_t is corrected.",
+    "Two features appear twice: 'Subscription Billing Role Center' / 'Role center for subscription billing' and 'PowerBI Subscription App' / 'Subscription billing Power BI app'. The less detailed copy of each is dropped.",
+    "The description of 'Usage data with mid-period price changes' is inaccurate. The transcript says the import creates four usage lines, but the invoice ends up with one line of 11 pieces at a recalculated unit price, not separate invoice lines. The feature itself is supported, so it is kept.",
+    "The quote at t 1593.4 appears twice with only punctuation differences. Both are verbatim; it is left alone because dropping by t would remove both.",
+    "All other quotes check out as verbatim spans (some cross segment boundaries). The summary and key points are supported by the transcript."
+  ],
+  "input_hash": "fc12b208a95e50f7699def4a88f519f361a356eeefbd3d9406fd902a775cb64e",
+  "by": "opus",
+  "at": "2026-10-20T08:21:38.080Z",
+  "applied": [
+    "dropped 2 feature(s)",
+    "Subscription Billing: status ga"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.277884
+  }
+}

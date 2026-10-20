@@ -7,41 +7,41 @@
   "url": "https://gerardorenteria.blog/2026/10/14/visual-studio-code-version-updated/",
   "published_at": "2026-10-14T15:52:00.000Z",
   "language": "es",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T21:27:59.143Z",
+      "at": "2026-10-20T08:11:25.526Z",
       "path": "vault:posts/gerardorenteria-blog/1968.md",
-      "words": 12983
+      "words": 13284
     },
     "extracted": {
-      "at": "2026-10-06T21:28:11.591Z",
+      "at": "2026-10-20T08:12:23.920Z",
       "prompt": "extract-post@1",
       "quotes": 3,
       "trimmed": 0,
-      "cost_usd": 0.022372
+      "cost_usd": 0.01407
     },
     "summarized": {
-      "at": "2026-10-06T21:28:11.593Z",
+      "at": "2026-10-20T08:12:23.925Z",
       "from": "extract-post"
     },
     "linked": {
-      "at": "2026-10-06T21:28:13.467Z"
+      "at": "2026-10-20T08:12:23.925Z"
     },
     "published": {
-      "at": "2026-10-06T21:28:13.475Z",
+      "at": "2026-10-20T08:12:24.005Z",
       "path": "content/posts/gerardorenteria-blog/1968.md"
     }
   },
   "input_hash": "2026-10-19T20:54:05.000Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "web lane: fetched took longer than 180 s",
-  "retry_after": "2026-10-20T02:24:42.379Z",
-  "output_hash": "e2b8908256920be41eeff94042e72ba1bff9ee1b9af9405777912ce9a20cd6b2",
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "39b2ab0fc2ac034780ae9bae9946c9f78982499064d4a44ca16b65473d736e8f",
   "review": {
     "state": "flagged",
     "by": "opus",

@@ -1,0 +1,46 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "A lower query data item without SqlJoinType is a left outer join",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md",
+  "published_at": "2026-10-20T08:08:06.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T08:10:49.229Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:11:25.793Z",
+      "blob": "a0d1a5da1c01f9aedc58d1f6f8f365717c5edf35",
+      "words": 368,
+      "forms": 0
+    }
+  },
+  "input_hash": "a0d1a5da1c01f9aedc58d1f6f8f365717c5edf35",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/query/query-dataitems-default-to-left-outer-join.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 368,
+    "identifiers": [
+      "DataItemLink",
+      "SqlJoinType",
+      "LeftOuterJoin",
+      "InnerJoin"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a0d1a5da1c01f9aedc58d1f6f8f365717c5edf35"
+}

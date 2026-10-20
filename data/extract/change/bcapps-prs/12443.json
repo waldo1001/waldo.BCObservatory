@@ -1,0 +1,39 @@
+{
+  "item_id": "change/bcapps-prs/12443",
+  "number": 12443,
+  "title": "Renumber SII objects for ES",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration",
+    "finance",
+    "sales",
+    "purchasing",
+    "development",
+    "platform"
+  ],
+  "summary": "Spanish SII objects are renumbered to align with a standard numbering scheme, affecting finance, purchasing, and sales extensions for Spain localization.",
+  "key_points": [
+    "All Spanish SII (Sistema de Información Inmediata) objects across finance, purchasing, and sales modules are renumbered",
+    "Changes include table extensions, page extensions, and codeunits related to VAT, payment methods, journal lines, and transaction history",
+    "Affects role center activities, accounting cues, and posting setup for Spanish localization",
+    "Numbering updates applied consistently across banking, invoicing, and document processing areas",
+    "Changes are scoped to Spanish localization layer without affecting core base application logic"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": true,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "purchasing",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.012959,
+    "changes_in_call": 1
+  }
+}

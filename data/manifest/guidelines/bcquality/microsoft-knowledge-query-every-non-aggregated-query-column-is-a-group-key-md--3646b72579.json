@@ -1,0 +1,44 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/query/every-non-aggregated-query-column-is-a-group-key.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Every non-aggregated query column is a group key",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/query/every-non-aggregated-query-column-is-a-group-key.md",
+  "published_at": "2026-10-20T08:08:06.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T08:10:49.229Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:11:22.547Z",
+      "blob": "c3eab6d50e1aa3b87dab3cf98374270f3fe8d563",
+      "words": 307,
+      "forms": 0
+    }
+  },
+  "input_hash": "c3eab6d50e1aa3b87dab3cf98374270f3fe8d563",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/query/every-non-aggregated-query-column-is-a-group-key.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 307,
+    "identifiers": [
+      "ColumnFilter",
+      "DataItemTableFilter"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c3eab6d50e1aa3b87dab3cf98374270f3fe8d563"
+}

@@ -1,0 +1,1532 @@
+{
+  "video_id": "5xeATIUFiGg",
+  "item_id": "video/yt-areopa/5xeATIUFiGg",
+  "title": "20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central",
+  "duration_s": 3357,
+  "systems": [
+    "sales",
+    "finance",
+    "purchasing"
+  ],
+  "topics": [
+    "subscription billing",
+    "recurring invoicing",
+    "contract management",
+    "revenue deferrals",
+    "billing templates",
+    "setup configuration",
+    "posting groups",
+    "packages",
+    "item types",
+    "billing rhythm",
+    "subscription lines",
+    "vendor subscriptions"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and housekeeping",
+      "t_start": 0,
+      "t_end": 147.3
+    },
+    {
+      "title": "Presenter introduction",
+      "t_start": 147.3,
+      "t_end": 203.8
+    },
+    {
+      "title": "Subscription billing overview and context before October 2024",
+      "t_start": 203.8,
+      "t_end": 351.1
+    },
+    {
+      "title": "Subscription billing capabilities and components",
+      "t_start": 351.1,
+      "t_end": 461.8
+    },
+    {
+      "title": "Microsoft timeline and feature evolution",
+      "t_start": 461.8,
+      "t_end": 627.1
+    },
+    {
+      "title": "Setup overview and role center introduction",
+      "t_start": 627.1,
+      "t_end": 747.4
+    },
+    {
+      "title": "Setup configurations and contract types",
+      "t_start": 747.4,
+      "t_end": 985.4
+    },
+    {
+      "title": "Contract harmonization and packages",
+      "t_start": 985.4,
+      "t_end": 1113.2
+    },
+    {
+      "title": "Package templates and invoicing options",
+      "t_start": 1113.2,
+      "t_end": 1337.3
+    },
+    {
+      "title": "Item types and subscription assignment",
+      "t_start": 1337.3,
+      "t_end": 1677
+    },
+    {
+      "title": "Creating contracts and defining contract types",
+      "t_start": 1677,
+      "t_end": 1886.9
+    },
+    {
+      "title": "Invoice generation, contract navigation, and direct subscription creation",
+      "t_start": 1886.9,
+      "t_end": 2110.9
+    },
+    {
+      "title": "Recurring billing, proposals, and invoice management",
+      "t_start": 2110.9,
+      "t_end": 2347
+    },
+    {
+      "title": "Deferrals for vendor subscriptions and posting",
+      "t_start": 2347,
+      "t_end": 2630.6
+    },
+    {
+      "title": "Usage-based billing with data import and processing",
+      "t_start": 2630.6,
+      "t_end": 2976.2
+    },
+    {
+      "title": "Subscription billing reports and Power BI",
+      "t_start": 2976.2,
+      "t_end": 3125.6
+    },
+    {
+      "title": "Subscription billing workflow scenarios and summary",
+      "t_start": 3125.6,
+      "t_end": 3307.8
+    },
+    {
+      "title": "Webinar closing and next steps",
+      "t_start": 3307.8,
+      "t_end": 3357
+    }
+  ],
+  "features": [
+    {
+      "name": "Subscription Billing",
+      "description": "A module for creating recurring invoices on a monthly, yearly, or quarterly basis for customers or vendors with flexible billing options and contract tracking.",
+      "status": "ga",
+      "status_evidence_t": 554.5,
+      "status_evidence_quote": "in October we received the general availability for the first version of the app which is called subscription and recurring billing",
+      "status_evidence_verified": true,
+      "t_start": 247.9,
+      "t_end": 351.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires manual setup and configuration",
+        "Not created automatically with demo data"
+      ],
+      "tags": [
+        "recurring invoices",
+        "contract billing",
+        "saas licensing"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Billing Templates",
+      "description": "Pre-configured templates that can be assigned to customers so that subscriptions do not need to be manually assigned each month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 373.8,
+      "t_end": 394,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "automation",
+        "customer configuration"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Flexible Billing Options",
+      "description": "Ability to invoice monthly, quarterly, in advance or at different intervals with the flexibility to preview upcoming invoices.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 351.1,
+      "t_end": 373.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "billing frequency",
+        "advance invoicing",
+        "invoice preview"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract Terms Tracking",
+      "description": "Functionality to track and record contract terms including customer agreements, cancellation periods, timeline, amounts, and when invoicing can occur.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 394,
+      "t_end": 427.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contract tracking",
+        "cancellation terms",
+        "agreement management"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Revenue Deferrals",
+      "description": "Ability to defer revenue recognition so that invoices created in advance are matched to the proper accounting period through deferral mechanisms.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 427.2,
+      "t_end": 461.8,
+      "is_demoed": false,
+      "caveats": [
+        "Configurable per contract whether deferrals are used or not"
+      ],
+      "tags": [
+        "revenue recognition",
+        "deferrals",
+        "accrual accounting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Automated Contracts with Job Queues",
+      "description": "Automated contract processing and subscription billing operations through job queue functionality for handling recurring billing operations.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 610.6,
+      "t_end": 627.1,
+      "is_demoed": false,
+      "caveats": [
+        "Requires job queue configuration"
+      ],
+      "tags": [
+        "automation",
+        "job queues",
+        "contracts"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Contoso Demo Data for Subscription Billing",
+      "description": "Pre-populated demo data that allows users to test and explore subscription billing functionality with realistic example scenarios.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 580.5,
+      "t_end": 595.1,
+      "is_demoed": false,
+      "caveats": [
+        "Must be explicitly generated using the Contoso demo tool"
+      ],
+      "tags": [
+        "demo data",
+        "testing",
+        "setup"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Subscription Billing Role Center",
+      "description": "A default role center created for subscription billing functionality showing open posting documents, subscription lines, financial data, and error notifications.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 693.7,
+      "t_end": 747.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "role center",
+        "ui",
+        "dashboard"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Subscription Contract Setup",
+      "description": "Configuration page for subscription contract settings including shipment vs posting date basis, overdue formula, billing base, billing rhythm, and deferral policy.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 775.3,
+      "t_end": 869.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "setup",
+        "configuration",
+        "contract terms"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Auto-Insert Dimensions for Contracts",
+      "description": "Feature to automatically create and assign dimension values when contracts are created, linking all transactions and details to a contract dimension.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 843,
+      "t_end": 869.1,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "dimensions",
+        "automation",
+        "contract tracking"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Subscription start date selection",
+      "description": "Choose whether subscription billing starts on shipment date or posting date when creating subscription lines with sales orders.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 788.3,
+      "t_end": 804.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription",
+        "date",
+        "shipment",
+        "posting"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription contract deferral settings",
+      "description": "Configure whether deferrals are always created, never created, or created based on individual contract decisions for revenue and cost recognition.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 816.4,
+      "t_end": 831.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "deferrals",
+        "revenue",
+        "contract"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Subscription number series",
+      "description": "Configure number series for customer contracts, vendor contracts, and subscriptions to ensure unique sequential numbering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 869.1,
+      "t_end": 880.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "number series",
+        "contracts"
+      ],
+      "system": "administration"
+    },
+    {
+      "name": "Subscription invoice text generation",
+      "description": "Configure invoice details including the name format and auto-generated text that appears on invoices created from subscription contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 880.9,
+      "t_end": 895.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "invoicing",
+        "contract",
+        "text"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription general posting group setup",
+      "description": "Assign accounts to customer and vendor subscription contracts for posting directly or through deferrals, including revenue and cost accrual accounts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 895.6,
+      "t_end": 934.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "posting groups",
+        "accounts",
+        "deferrals"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Contract types",
+      "description": "Create different subscription contract types including standard contracts, maintenance contracts, equipment with maintenance, order subscriptions, support, and usage data subscriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 934.6,
+      "t_end": 985.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contract types",
+        "maintenance",
+        "support"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract harmonization",
+      "description": "Allow adding additional subscription lines to existing contracts during the contract period while maintaining the same end date and applying harmonized billing across all lines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 985.4,
+      "t_end": 1023.5,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "harmonization",
+        "billing",
+        "contract"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription packages",
+      "description": "Define reusable subscription packages containing multiple service or product lines that can be assigned to items and used to automatically create subscription lines when items are sold.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1023.5,
+      "t_end": 1092.9,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "packages",
+        "templates",
+        "subscription lines"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Package customer and vendor lines",
+      "description": "Create subscription packages with both customer and vendor lines to simultaneously purchase services and resell them to customers.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1065.9,
+      "t_end": 1092.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "packages",
+        "vendor",
+        "customer"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Package templates",
+      "description": "Pre-created subscription package templates that can be reused instead of manually creating packages from scratch each time.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1113.2,
+      "t_end": 1133.2,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "templates",
+        "packages"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription invoicing option",
+      "description": "Choose whether subscription lines create invoices or are stored as information-only records not affecting company books, such as warranty information.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1133.2,
+      "t_end": 1185.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "invoicing",
+        "warranty",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription calculation base type",
+      "description": "Calculate subscription value based on item price, whole document price, or price and discount, with percentage-based calculations possible.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1197.6,
+      "t_end": 1211.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "calculation",
+        "pricing",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Billing period and rhythm",
+      "description": "Configure billing base period and billing rhythm to determine how often invoices are created and how the price is divided across billing periods.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1211.4,
+      "t_end": 1272.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "invoicing",
+        "period"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription initial and subsequent terms",
+      "description": "Define the initial contract term length and the subsequent renewal term length, allowing extensions after the initial term ends.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1272.2,
+      "t_end": 1317,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contract terms",
+        "renewal"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription notice period",
+      "description": "Configure the notice period that customers must provide to terminate the contract, allowing automatic extension if no notice is given.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1297,
+      "t_end": 1317,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "contract",
+        "notice period"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Item subscription types",
+      "description": "Four item types available: no subscription, sales with subscription, subscription item, and invoicing item, each with different billing and creation behaviors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1364.2,
+      "t_end": 1453,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item types",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales with subscription item type",
+      "description": "Item type that includes a subscription package automatically when the item is sold, combining product or service with a subscription contract.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1377.9,
+      "t_end": 1418.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "item type",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription item type",
+      "description": "Item type that creates a subscription directly without requiring a sales order, useful for services sold purely through subscriptions.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1406.7,
+      "t_end": 1418.8,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "item type",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Package assignment to items",
+      "description": "Assign subscription packages to items so that when items are sold, the package subscription lines are automatically created.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1463,
+      "t_end": 1498.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "packages",
+        "items",
+        "assignment"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Standard vs selectable package assignment",
+      "description": "Choose whether a package is standard (always included) or selectable (chosen at sales time) when assigning to an item.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1478.5,
+      "t_end": 1498.6,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "packages",
+        "assignment"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Sales order confirmation for subscription billing",
+      "description": "Report layout for sales order confirmation that includes subscription details like maintenance services in the printed output.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1557.8,
+      "t_end": 1593.4,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "sales order confirmation",
+        "report",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription line creation on shipment",
+      "description": "Subscription lines are automatically created when the sales order is shipped, not when the invoice is posted.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1593.4,
+      "t_end": 1614.4,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "subscription lines",
+        "shipment"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription card structure",
+      "description": "Subscription cards contain customer information and subscription-level details, with subscription lines containing charge and period details, connected to contracts for billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1614.4,
+      "t_end": 1659.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "subscription card",
+        "structure"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription billing period configuration",
+      "description": "Configure the billing period for individual subscription lines, such as monthly invoicing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1659.8,
+      "t_end": 1677,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing",
+        "period",
+        "subscription"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract attributes and item attributes",
+      "description": "Subscriptions support both item attributes inherited from the subscription line item and custom attributes specific to the subscription card.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1701.2,
+      "t_end": 1723.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "attributes",
+        "item attributes",
+        "subscription attributes"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Exchange rate override in subscriptions",
+      "description": "Exchange rates are initially copied from the original sales order but can be manually changed on the subscription if different rates are needed for billing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1756.6,
+      "t_end": 1768.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "exchange rate",
+        "multi-currency"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Customer subscription contract",
+      "description": "Contracts group subscription lines and define what services are charged to customers over specified periods. Contracts can contain multiple subscription lines and serve as the basis for invoice generation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1641.9,
+      "t_end": 1737.5,
+      "is_demoed": true,
+      "caveats": [
+        "Contracts are not directly connected to projects; dimensions must be used if project tracking is needed"
+      ],
+      "tags": [
+        "subscription contract",
+        "billing",
+        "multiple lines"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract type classification",
+      "description": "Contracts can be divided into different types such as maintenance or support to categorize and filter billing arrangements.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1831.4,
+      "t_end": 1845.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "contract type",
+        "classification",
+        "maintenance"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Get subscription line feature",
+      "description": "Option to retrieve and assign existing subscription lines from the subscription list to a contract, eliminating duplicate data entry.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1845.6,
+      "t_end": 1873.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "get subscription line",
+        "contract setup"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Create billing documents from contract",
+      "description": "Invoices are automatically created from subscription contracts with all details populated from the contract setup, and can be posted immediately.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1897,
+      "t_end": 1939.8,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "billing documents",
+        "invoice creation",
+        "automation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Contract renewal quote workflow",
+      "description": "When contracts are ending, users can create renewal quotes, convert them to sales orders, and extend contract dates with optional additional services.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1958.5,
+      "t_end": 1985.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "renewal",
+        "contract renewal",
+        "sales order"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Navigate posted documents and renewals",
+      "description": "Contract navigation shows posted invoices, renewal quotes, renewal orders, and deferrals for comprehensive contract history viewing.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 1985.1,
+      "t_end": 2005.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "navigate",
+        "posted documents",
+        "renewal"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Direct subscription creation without sales order",
+      "description": "Subscriptions can be created directly without a preceding sales order, allowing users to charge customers for ongoing services or contracts directly.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2005.2,
+      "t_end": 2048.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "direct creation",
+        "service contract",
+        "standalone"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription template selection",
+      "description": "Predefined templates can be used when creating subscriptions to standardize pricing, quantities, and billing details for common subscription types.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2019.8,
+      "t_end": 2059.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "template",
+        "subscription type",
+        "reusable"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Recurring billing functionality",
+      "description": "A bulk feature allowing users to view all pending invoices across multiple contracts and create them in one operation, with filtering by contract type, user, or billing date.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2110.9,
+      "t_end": 2184.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "recurring billing",
+        "bulk invoicing",
+        "templates",
+        "filters"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Billing proposals and invoice preview",
+      "description": "System creates proposals showing which invoices should be generated in a billing period, allowing users to review before committing to invoice creation.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2198.7,
+      "t_end": 2211,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "proposals",
+        "preview",
+        "validation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Multi-contract customer invoicing",
+      "description": "Multiple subscription contracts for the same customer can be consolidated into a single invoice or kept separate based on user preference.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2230,
+      "t_end": 2268.5,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "consolidation",
+        "multiple contracts",
+        "grouping"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Proposal deletion and document cleanup",
+      "description": "Users can delete open invoices created from proposals and clear proposals to start fresh if corrections are needed on contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2304.4,
+      "t_end": 2326.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "cleanup",
+        "delete",
+        "correction workflow"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Vendor subscription deferrals",
+      "description": "Create and manage deferrals for vendor subscription contracts, dividing annual payments into monthly periods and releasing them based on the contract period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2423.4,
+      "t_end": 2549,
+      "is_demoed": true,
+      "caveats": [
+        "System provides no confirmation message after release",
+        "Manual checking required to verify release was successful"
+      ],
+      "tags": [
+        "deferrals",
+        "vendor contracts",
+        "revenue recognition",
+        "cost allocation"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Vendor subscription contract",
+      "description": "Similar to customer subscriptions, vendor subscription contracts allow systematic invoicing and deferral management for recurring purchases from vendors.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2412.5,
+      "t_end": 2448.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "vendor subscription",
+        "purchasing",
+        "vendor invoices"
+      ],
+      "system": "purchasing"
+    },
+    {
+      "name": "Contract deferrals release",
+      "description": "Release accumulated deferral amounts for specific periods, moving costs from deferral accounts to appropriate expense or revenue accounts in the correct accounting month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2506.2,
+      "t_end": 2630.6,
+      "is_demoed": true,
+      "caveats": [
+        "No error messages provided during release process",
+        "Requires manual verification of release completion"
+      ],
+      "tags": [
+        "period closing",
+        "deferral release",
+        "financial posting",
+        "manual process"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "General ledger entry visibility for deferrals",
+      "description": "View general ledger entries showing movement of deferred amounts from deferral accounts to cost or revenue accounts by accounting period.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2560.2,
+      "t_end": 2630.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "general ledger",
+        "financial entries",
+        "deferral posting",
+        "cost accounting"
+      ],
+      "system": "finance"
+    },
+    {
+      "name": "Usage-based subscription billing with data import",
+      "description": "Create subscription invoices based on usage or spending data imported from vendor invoices or license purchases, using data exchange definitions to map external data to subscription items.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2641.8,
+      "t_end": 2976.2,
+      "is_demoed": true,
+      "caveats": [
+        "Vendor invoices cannot be posted automatically",
+        "Additional fields like vendor invoice number must be added manually"
+      ],
+      "tags": [
+        "usage-based billing",
+        "data import",
+        "vendor invoices",
+        "license tracking"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Data exchange definition for subscription imports",
+      "description": "Configure data exchange definitions to standardize import format for usage or spending data, with ability to customize date and format settings per region or requirement.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2685.1,
+      "t_end": 2737.3,
+      "is_demoed": true,
+      "caveats": [
+        "Must manually create separate definitions for different regions or formats"
+      ],
+      "tags": [
+        "data mapping",
+        "import configuration",
+        "file format",
+        "localization"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Manual data processing for subscription imports",
+      "description": "Process imported usage or spending data line by line to identify and resolve errors before creating subscription invoices, with detailed error reporting for troubleshooting.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2749.5,
+      "t_end": 2813.6,
+      "is_demoed": true,
+      "caveats": [
+        "More time-consuming than batch processing",
+        "Requires manual assignment of missing customers or vendors"
+      ],
+      "tags": [
+        "error handling",
+        "data validation",
+        "manual processing",
+        "troubleshooting"
+      ],
+      "system": "integration"
+    },
+    {
+      "name": "Usage data with mid-period price changes",
+      "description": "Handle mid-period changes in usage quantities or pricing by importing new data that creates separate invoice lines for different rate periods within the same month.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2907.3,
+      "t_end": 2976.2,
+      "is_demoed": true,
+      "caveats": [
+        "System recalculates unit price for partial-month periods"
+      ],
+      "tags": [
+        "usage-based billing",
+        "price changes",
+        "proration",
+        "invoice calculation"
+      ],
+      "system": "sales"
+    },
+    {
+      "name": "Subscription billing reports",
+      "description": "Excel-based reports in Business Central showing deferral amounts, revenue projections, and contract details for both customer and vendor subscription contracts.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 2987.5,
+      "t_end": 3027.3,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "reporting",
+        "deferrals",
+        "contracts",
+        "revenue analysis"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Subscription billing Power BI app",
+      "description": "Power BI dashboard providing overview of subscription revenue, year-over-year analysis, revenue by item and customer, deferral tracking, and billing forecast.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3013.1,
+      "t_end": 3049.6,
+      "is_demoed": true,
+      "caveats": [
+        "Not connected to live system in demonstration"
+      ],
+      "tags": [
+        "power bi",
+        "reporting",
+        "dashboard",
+        "analytics",
+        "revenue forecasting"
+      ],
+      "system": "reporting"
+    },
+    {
+      "name": "Proposed billing and batch posting",
+      "description": "Generate proposed invoices from subscription contracts and post multiple invoices in batch without manually opening or reviewing each one.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 3209.9,
+      "t_end": 3229.9,
+      "is_demoed": false,
+      "caveats": [],
+      "tags": [
+        "batch processing",
+        "invoice generation",
+        "recurring billing",
+        "automation"
+      ],
+      "system": "sales"
+    }
+  ],
+  "objects": [
+    {
+      "type": "page",
+      "name": "Subscription Contract Setup",
+      "t": 775.3
+    },
+    {
+      "type": "page",
+      "name": "Subscription Line",
+      "t": 705
+    },
+    {
+      "type": "report",
+      "name": "sales order confirmation for subscription billing",
+      "t": 1557.8
+    },
+    {
+      "type": "table",
+      "name": "customer subscription contract",
+      "t": 1689.2
+    },
+    {
+      "type": "other",
+      "name": "vendor subscription deferral",
+      "t": 2468.7
+    },
+    {
+      "type": "other",
+      "name": "contract deferrals release",
+      "t": 2506.2
+    },
+    {
+      "type": "other",
+      "name": "data exchange definition",
+      "t": 2685.1
+    },
+    {
+      "type": "other",
+      "name": "general ledger entries",
+      "t": 2560.2
+    },
+    {
+      "type": "other",
+      "name": "usage build data",
+      "t": 2785.5
+    },
+    {
+      "type": "other",
+      "name": "subscription billing PowerBI app",
+      "t": 3013.1
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Magdalena Das",
+      "confidence": "high"
+    },
+    {
+      "name": "Magda Degas",
+      "confidence": "high"
+    },
+    {
+      "name": "Delena",
+      "confidence": "low"
+    },
+    {
+      "name": "P",
+      "confidence": "low"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 247.9,
+      "text": "before October 2024 there will no anything that we can use as a subscription module",
+      "why_it_matters": "Establishes the baseline that subscription billing functionality was not available before October 2024.",
+      "check": "exact"
+    },
+    {
+      "t": 313,
+      "text": "subscription billing we can use for recurring basis invoices. So if we have a contract with our customer",
+      "why_it_matters": "Defines the core use case and purpose of subscription billing for recurring customer contracts.",
+      "check": "exact"
+    },
+    {
+      "t": 554.5,
+      "text": "in October we received the general availability for the first version of the app which is called subscription and recurring billing",
+      "why_it_matters": "Confirms the GA status of the subscription billing feature as of October 2024.",
+      "check": "exact"
+    },
+    {
+      "t": 627.1,
+      "text": "Currently there is nothing in the in the pre-release plans. So probably the functionality will stay as it is for a while",
+      "why_it_matters": "Indicates no additional features are currently planned for subscription billing in near-term roadmap.",
+      "check": "exact"
+    },
+    {
+      "t": 747.4,
+      "text": "subscription billing it's not created automatically like the demo data it's not created automatically for most of the cases",
+      "why_it_matters": "Important caveat that setup is not automatic and requires manual configuration or use of Contoso demo tool.",
+      "check": "exact"
+    },
+    {
+      "t": 788.3,
+      "text": "we need to decide if you would like to go uh with starting of the subscription by the shipment date or the posting date",
+      "why_it_matters": "Defines when subscription billing begins, a key timing decision in subscription contract setup.",
+      "check": "exact"
+    },
+    {
+      "t": 816.4,
+      "text": "deferrals if we are going to create them always or it shouldn't be created like never or contract dependent",
+      "why_it_matters": "Describes deferral configuration options that affect revenue recognition timing.",
+      "check": "exact"
+    },
+    {
+      "t": 1036.1,
+      "text": "and the line templates so if i would like to create the packages or the subscription itself i can use some templates",
+      "why_it_matters": "Explains that subscription packages can be templated for reuse, improving efficiency.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 1079.5,
+      "text": "We can have both on one package because sometimes we have a situation that I need to acquire this kind of services or the",
+      "why_it_matters": "Shows that packages support both customer and vendor lines for reseller scenarios.",
+      "check": "exact"
+    },
+    {
+      "t": 1211.4,
+      "text": "billing base period and billing rhythm. So billing rhythm, how often do I need to create the invoice",
+      "why_it_matters": "Defines the billing frequency configuration that determines invoicing cadence.",
+      "check": "exact"
+    },
+    {
+      "t": 1364.2,
+      "text": "In our subscription option, we have four different possibilities",
+      "why_it_matters": "Indicates that items support four different subscription-related types.",
+      "check": "exact"
+    },
+    {
+      "t": 1593.4,
+      "text": "the subscription line uh is created on the shipment moment. So I don't have to even post the invoice",
+      "why_it_matters": "Clarifies that subscription lines are created at shipment, not invoice posting.",
+      "check": "exact"
+    },
+    {
+      "t": 1593.4,
+      "text": "the subscription line uh is created on the shipment moment. So I don't have to even post the invoice.",
+      "why_it_matters": "Shows that subscription lines are generated automatically at shipment, not at invoice posting, streamlining the subscription creation process.",
+      "check": "exact"
+    },
+    {
+      "t": 1614.4,
+      "text": "we have the subscription card and on the subscription card we have the information what customer has",
+      "why_it_matters": "Explains the subscription card structure that holds customer and subscription information.",
+      "check": "exact"
+    },
+    {
+      "t": 1641.9,
+      "text": "the contract is where we are going to build. So we have three information subscription subscription line and the contract",
+      "why_it_matters": "Establishes the three-tier data structure that is fundamental to the subscription billing architecture.",
+      "check": "exact"
+    },
+    {
+      "t": 1737.5,
+      "text": "the contract can contain more than one subscription line because the contract is built what is related to everything what we agree to the",
+      "why_it_matters": "Clarifies that contracts can group multiple subscription lines for comprehensive customer billing arrangements, not just one.",
+      "check": "exact"
+    },
+    {
+      "t": 2005.2,
+      "text": "as I mentioned we do not have to create the sales order to be able to create the subscription line. I can do it",
+      "why_it_matters": "Demonstrates that subscription billing is flexible and can operate independently from the sales order process for service contracts.",
+      "check": "exact"
+    },
+    {
+      "t": 2122.8,
+      "text": "we can go for the recurring billing uh functionality and here we will see all the invoices they need to be created based on",
+      "why_it_matters": "Introduces the bulk recurring billing feature that enables efficient management of multiple pending invoices across contracts.",
+      "check": "exact"
+    },
+    {
+      "t": 2255.9,
+      "text": "I can connect them together and I will just ask create one invoice for the same customer. So they will be uh less documents",
+      "why_it_matters": "Shows that multiple contracts for one customer can be consolidated into a single invoice, reducing document volume.",
+      "check": "exact"
+    },
+    {
+      "t": 2369.7,
+      "text": "I pay for this for this for the whole year up front. So the money are spent but I cannot post everything directly into",
+      "why_it_matters": "Explains the business case for deferrals in vendor subscriptions where upfront payments must be allocated across multiple billing periods.",
+      "check": "exact"
+    },
+    {
+      "t": 2468.7,
+      "text": "The price is added. I don't have to see it. But if I will go now and then I will see the vendor subscription",
+      "why_it_matters": "Demonstrates the automatic deferral calculation feature that splits annual costs into monthly periods.",
+      "check": "exact"
+    },
+    {
+      "t": 2602.4,
+      "text": "we have a standard deferrals into the business central. But if you run the standard deferrals, the the system is doing the posting up",
+      "why_it_matters": "Key differentiation between subscription billing deferrals and standard Business Central deferrals - timing and visibility of postings.",
+      "check": "exact"
+    },
+    {
+      "t": 2641.8,
+      "text": "we can create the subscription based on the spendings or the reports that we are",
+      "why_it_matters": "Introduces usage-based billing capability for creating invoices based on actual vendor spending or license quantities.",
+      "check": "fuzzy"
+    },
+    {
+      "t": 2749.5,
+      "text": "if you will go from the related and then you will be processing step by step using this manual processing so then you will",
+      "why_it_matters": "Explains best practice for handling errors during data import - manual line-by-line processing provides better error visibility.",
+      "check": "exact"
+    },
+    {
+      "t": 2927,
+      "text": "basically if you do like that we can see I have something from the 1st of March till the middle of the month I",
+      "why_it_matters": "Demonstrates handling of mid-period changes in usage quantities and the system's ability to prorate pricing accordingly.",
+      "check": "exact"
+    },
+    {
+      "t": 3038.2,
+      "text": "We have a revenue year over the year. We have some analysis regarding the review. some developments revenue item by item what we uh",
+      "why_it_matters": "Shows breadth of Power BI reporting capabilities for subscription billing including revenue analysis and deferral tracking.",
+      "check": "exact"
+    },
+    {
+      "t": 3125.6,
+      "text": "So we are creating the items and the items they are assigned to the package or we can create the item sub with subscription",
+      "why_it_matters": "Explains the foundational data model for subscription billing where items are organized into packages.",
+      "check": "exact"
+    },
+    {
+      "t": 3177.4,
+      "text": "I sell some hardware with the uh maintenance. Uh I did the subscription without the I just explained the option subscription without the contract.",
+      "why_it_matters": "Illustrates the four key business scenarios the presenter demonstrates for subscription billing implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 3209.9,
+      "text": "just one clicking on the proposed billing we can see all the invoices that I need to create and by clicking the other option",
+      "why_it_matters": "Highlights automation capability for batch invoicing - users can generate and post multiple subscription invoices without manual review of each.",
+      "check": "exact"
+    },
+    {
+      "t": 3209.9,
+      "text": "We know how much we can earn each month from our contract plus manual work because just one clicking on the proposed billing we",
+      "why_it_matters": "Demonstrates how subscription billing enables predictable revenue forecasting and batch invoice operations.",
+      "check": "exact"
+    },
+    {
+      "t": 3229.9,
+      "text": "Even if we create the invoices up front still we can create the deferral for that and release them in the future.",
+      "why_it_matters": "Shows the separation of invoice creation from revenue recognition, enabling proper period matching.",
+      "check": "exact"
+    },
+    {
+      "t": 3249.7,
+      "text": "This is the standard business central. It's not an add-on. So basically it's under our license and everything is transparent.",
+      "why_it_matters": "Confirms subscription billing is generally available as a core feature, not an optional add-on.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [
+    {
+      "t": 544.5,
+      "kind": "preview",
+      "text": "first public preview we received the app which was called uh subscription billing and the revenue expenses recognition"
+    },
+    {
+      "t": 627.1,
+      "kind": "subject-to-change",
+      "text": "Currently there is nothing in the in the pre-release plans. So probably the functionality will stay as it is for a while"
+    },
+    {
+      "t": 3027.3,
+      "kind": "other",
+      "text": "It's not right now connected to the to the system. So this is not the real data but I would ..."
+    }
+  ],
+  "checks": {
+    "quotes_kept": 32,
+    "quotes_dropped": 1,
+    "evidence_verified": 1,
+    "evidence_unverified": 60
+  },
+  "windows": 5,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.028497999999999996
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.040307
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.035205
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.032239000000000004
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.014935999999999998
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.1233751
+    }
+  ]
+}

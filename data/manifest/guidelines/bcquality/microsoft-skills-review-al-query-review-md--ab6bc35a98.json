@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL Query review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-query-review.md",
-  "published_at": "2026-09-15T10:51:15.000Z",
+  "published_at": "2026-10-20T08:08:06.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:32:55.392Z",
-      "blob": "e97a20ae9045670f4193722031e2e65a2e4dcc1d",
-      "words": 517,
+      "at": "2026-10-20T08:12:37.361Z",
+      "blob": "018cadc3f3e1176b74391da2a1632fb31a3f2859",
+      "words": 653,
       "forms": 0
     }
   },
-  "input_hash": "e97a20ae9045670f4193722031e2e65a2e4dcc1d",
+  "input_hash": "018cadc3f3e1176b74391da2a1632fb31a3f2859",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,21 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 517
+    "words": 653,
+    "identifiers": [
+      "QueryType",
+      "DataItemLink",
+      "SqlJoinType",
+      "InnerJoin",
+      "LeftOuterJoin",
+      "SetFilter",
+      "SetRange",
+      "DataItemTableFilter",
+      "ColumnFilter"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e97a20ae9045670f4193722031e2e65a2e4dcc1d"
+  "output_hash": "018cadc3f3e1176b74391da2a1632fb31a3f2859"
 }

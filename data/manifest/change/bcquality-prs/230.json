@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/230",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Knowledge: report layouts and dataset contract, query join and grouping defaults",
+  "url": "https://github.com/microsoft/BCQuality/pull/230",
+  "published_at": "2026-10-20T08:08:07Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T08:10:49.229Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:11:25.688Z",
+      "change_class": "code",
+      "files": 18,
+      "al": 17,
+      "objects": 0,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-20T08:11:57.335Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004634
+    },
+    "linked": {
+      "at": "2026-10-20T08:11:57.336Z",
+      "objects": 0,
+      "unjoined": 17,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-20T08:11:57.425Z",
+      "path": "content/changes/bcquality/230.md"
+    }
+  },
+  "input_hash": "01715ecb784f72257565900b36ee27728dba987c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 230,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "01715ecb784f72257565900b36ee27728dba987c",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge report layouts and dataset contract query join and grouping defaults"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "e21197a6b893f974e63997af650a72abf1dd6b0feec47effbc4c878c654f6639"
+}

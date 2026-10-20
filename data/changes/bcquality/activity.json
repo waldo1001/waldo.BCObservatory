@@ -1,16 +1,55 @@
 {
   "open": [
     {
-      "number": 230,
-      "title": "Knowledge: report layouts and dataset contract, query join and grouping defaults",
-      "url": "https://github.com/microsoft/BCQuality/pull/230",
+      "number": 226,
+      "title": "Performance knowledge: keep low-selectivity fields out of key columns",
+      "url": "https://github.com/microsoft/BCQuality/pull/226",
+      "base": "main",
+      "major": null,
+      "author": "miljance",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-10T17:38:28Z",
+      "updated_at": "2026-10-20T08:09:15Z",
+      "community_contribution": false
+    },
+    {
+      "number": 234,
+      "title": "knowledge(ui): define per-record page outputs on every control-flow path",
+      "url": "https://github.com/microsoft/BCQuality/pull/234",
+      "base": "main",
+      "major": null,
+      "author": "javiarmesto",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-16T15:53:00Z",
+      "updated_at": "2026-10-20T07:59:58Z",
+      "community_contribution": false
+    },
+    {
+      "number": 233,
+      "title": "knowledge(web-services): describe API objects intended for MCP tools",
+      "url": "https://github.com/microsoft/BCQuality/pull/233",
+      "base": "main",
+      "major": null,
+      "author": "javiarmesto",
+      "labels": [],
+      "draft": true,
+      "created_at": "2026-10-16T15:52:48Z",
+      "updated_at": "2026-10-20T07:55:58Z",
+      "community_contribution": false
+    },
+    {
+      "number": 229,
+      "title": "Knowledge: Community Copilot domain (System.AI features) and review skill",
+      "url": "https://github.com/microsoft/BCQuality/pull/229",
       "base": "main",
       "major": null,
       "author": "demiliani",
       "labels": [],
       "draft": false,
-      "created_at": "2026-10-13T13:42:29Z",
-      "updated_at": "2026-10-19T12:23:16Z",
+      "created_at": "2026-10-13T13:31:23Z",
+      "updated_at": "2026-10-20T07:52:07Z",
       "community_contribution": false
     },
     {
@@ -23,20 +62,7 @@
       "labels": [],
       "draft": false,
       "created_at": "2026-10-13T13:23:00Z",
-      "updated_at": "2026-10-19T12:17:46Z",
-      "community_contribution": false
-    },
-    {
-      "number": 232,
-      "title": "tools: export accepted findings reports as SARIF 2.1.0",
-      "url": "https://github.com/microsoft/BCQuality/pull/232",
-      "base": "main",
-      "major": null,
-      "author": "demiliani",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-13T14:06:07Z",
-      "updated_at": "2026-10-19T12:09:15Z",
+      "updated_at": "2026-10-20T07:52:06Z",
       "community_contribution": false
     },
     {
@@ -50,58 +76,6 @@
       "draft": false,
       "created_at": "2026-10-13T08:33:42Z",
       "updated_at": "2026-10-19T10:42:40Z",
-      "community_contribution": false
-    },
-    {
-      "number": 229,
-      "title": "Knowledge: Community Copilot domain (System.AI features) and review skill",
-      "url": "https://github.com/microsoft/BCQuality/pull/229",
-      "base": "main",
-      "major": null,
-      "author": "demiliani",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-13T13:31:23Z",
-      "updated_at": "2026-10-19T10:36:35Z",
-      "community_contribution": false
-    },
-    {
-      "number": 226,
-      "title": "Performance knowledge: keep low-selectivity fields out of key columns",
-      "url": "https://github.com/microsoft/BCQuality/pull/226",
-      "base": "main",
-      "major": null,
-      "author": "miljance",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-10T17:38:28Z",
-      "updated_at": "2026-10-19T10:21:29Z",
-      "community_contribution": false
-    },
-    {
-      "number": 234,
-      "title": "knowledge(ui): define per-record page outputs on every control-flow path",
-      "url": "https://github.com/microsoft/BCQuality/pull/234",
-      "base": "main",
-      "major": null,
-      "author": "javiarmesto",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-16T15:53:00Z",
-      "updated_at": "2026-10-19T10:21:28Z",
-      "community_contribution": false
-    },
-    {
-      "number": 233,
-      "title": "knowledge(web-services): describe API objects intended for MCP tools",
-      "url": "https://github.com/microsoft/BCQuality/pull/233",
-      "base": "main",
-      "major": null,
-      "author": "javiarmesto",
-      "labels": [],
-      "draft": true,
-      "created_at": "2026-10-16T15:52:48Z",
-      "updated_at": "2026-10-19T10:21:27Z",
       "community_contribution": false
     },
     {

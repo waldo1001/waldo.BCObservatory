@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/230",
+  "number": 230,
+  "title": "Knowledge: report layouts and dataset contract, query join and grouping defaults",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Five knowledge articles were added to cover report layout declaration, report dataset column contracts, and query defaults for joins and grouping that differ from SQL conventions.",
+  "key_points": [
+    "Report layouts should be declared in the rendering section, not using deprecated DefaultLayout/RDLCLayout properties",
+    "Report dataset column names form a contract with Excel sheets, Word XML, and external layouts, so renames and removals break layouts",
+    "Report extensions require explicit layout selection via DefaultRenderingLayout since layouts are not selected automatically",
+    "Query dataitems default to left outer joins when SqlJoinType is omitted, affecting how unmatched upper rows appear",
+    "Non-aggregated columns in queries implicitly become group keys, which can silently change grouping and affect calculations like integer division in Average"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "reporting",
+    "development"
+  ],
+  "quote": "Report layout declaration and the report dataset/layout contract had only incidental mentions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004634,
+    "changes_in_call": 1
+  }
+}

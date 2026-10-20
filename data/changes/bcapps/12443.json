@@ -1,0 +1,1094 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12443,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12443",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-19T07:55:53Z",
+  "merge_commit_sha": "2ab65dae3012edf88f1d7543bf201eeaa72f1689",
+  "author": "Alexander-Ya",
+  "author_type": "User",
+  "labels": [
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Renumber SII objects for ES",
+  "body_hash": "6b52680de6fc67c443b7e255371e86b543c9403e066a2684ed297afa186fd75d",
+  "fixes_issues": [],
+  "work_items": [
+    653192
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Bank/BankAccount/SIIPaymentMethod.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Bank/BankAccount/SIIPaymentMethods.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIVATClause.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIVATClauses.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/GeneralLedger/Journal/SIIGenJournalLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccPayablesActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccReceivableActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccountManagerActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccountantActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIBookkeeperActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIFinanceCue.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIFinanceManagerRC.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIINoTaxableEntry.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetup.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetup.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetupCard.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATSUbscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Invoicing/SIIO365Activities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/OtherCapabilities/AccountantPortal/SIIAccountantPortalActCues.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseOrder.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseReturnOrder.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchCrMemoUpdate.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseCreditMemos.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseInvoices.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchCrMemoHdr.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchCrMemoLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchInvHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchInvLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Payables/SIIVendorLedgerEntry.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/RoleCenters/SIIPurchaseCue.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/RoleCenters/SIIActivitiesCue.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesOrder.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesReturnOrder.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesCreditMemo.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesCreditMemos.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesInvoice.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesInvoices.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPstdSalesCrMemoUpdate.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesCrMemoHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesCrMemoLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesInvHeader.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesInvLine.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Receivables/SIICustLedgerEntry.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/RoleCenters/SIISOProcessorActivities.PageExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Sales/RoleCenters/SIISalesCue.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/Utilities/SIIDataClassEvalDataCountry.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 58,
+    "additions": 123,
+    "deletions": 58,
+    "al": 58
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Bank/BankAccount/SIIPaymentMethod.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000126",
+        "type": "tableextension",
+        "id": 7000126,
+        "name": "SII Payment Method",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000126-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Bank/BankAccount/SIIPaymentMethods.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000127",
+        "type": "pageextension",
+        "id": 7000127,
+        "name": "SII Payment Methods",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000127-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIVATClause.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000129",
+        "type": "tableextension",
+        "id": 7000129,
+        "name": "SII VAT Clause",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000129-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIVATClauses.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000136",
+        "type": "pageextension",
+        "id": 7000136,
+        "name": "SII VAT Clauses",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000136-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/GeneralLedger/Journal/SIIGenJournalLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000128",
+        "type": "tableextension",
+        "id": 7000128,
+        "name": "SII Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000128-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccPayablesActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000133",
+        "type": "pageextension",
+        "id": 7000133,
+        "name": "SII Acc. Payables Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000133-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccReceivableActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000135",
+        "type": "pageextension",
+        "id": 7000135,
+        "name": "SII Acc. Receivable Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000135-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccountManagerActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000132",
+        "type": "pageextension",
+        "id": 7000132,
+        "name": "SII Account Manager Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000132-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIAccountantActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000131",
+        "type": "pageextension",
+        "id": 7000131,
+        "name": "SII Accountant Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000131-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIBookkeeperActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000139",
+        "type": "pageextension",
+        "id": 7000139,
+        "name": "SII Bookkeeper Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000139-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIFinanceCue.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000131",
+        "type": "tableextension",
+        "id": 7000131,
+        "name": "SII Finance Cue",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000131-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/RoleCenters/SIIFinanceManagerRC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000140",
+        "type": "pageextension",
+        "id": 7000140,
+        "name": "SII Finance Manager RC",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000140-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIINoTaxableEntry.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000140",
+        "type": "tableextension",
+        "id": 7000140,
+        "name": "SII No Taxable Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000140-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetup.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000137",
+        "type": "pageextension",
+        "id": 7000137,
+        "name": "SII VAT Posting Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000137-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetup.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000130",
+        "type": "tableextension",
+        "id": 7000130,
+        "name": "SII VAT Posting Setup",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000130-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATPostingSetupCard.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000145",
+        "type": "pageextension",
+        "id": 7000145,
+        "name": "SII VAT Posting Setup Card",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000145-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Finance/VAT/SIIVATSUbscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000129",
+        "type": "codeunit",
+        "id": 7000129,
+        "name": "SII VAT Subscribers",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000129-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Invoicing/SIIO365Activities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000130",
+        "type": "pageextension",
+        "id": 7000130,
+        "name": "SII O365 Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000130-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/OtherCapabilities/AccountantPortal/SIIAccountantPortalActCues.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000141",
+        "type": "pageextension",
+        "id": 7000141,
+        "name": "SII AccountantPortal Act. Cues",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000141-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000100",
+        "type": "pageextension",
+        "id": 7000100,
+        "name": "SII Purchase Credit Memo",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000100-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000112",
+        "type": "tableextension",
+        "id": 7000112,
+        "name": "SII Purchase Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000112-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000101",
+        "type": "pageextension",
+        "id": 7000101,
+        "name": "SII Purchase Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000101-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000113",
+        "type": "tableextension",
+        "id": 7000113,
+        "name": "SII Purchase Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000113-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000102",
+        "type": "pageextension",
+        "id": 7000102,
+        "name": "SII Purchase Order",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000102-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseReturnOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000103",
+        "type": "pageextension",
+        "id": 7000103,
+        "name": "SII Purchase Return Order",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000103-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Document/SIIPurchaseSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000126",
+        "type": "codeunit",
+        "id": 7000126,
+        "name": "SII Purchase Subscribers",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000126-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchCrMemoUpdate.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000151",
+        "type": "pageextension",
+        "id": 7000151,
+        "name": "SII Posted Purch.CrMemo Update",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000151-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000104",
+        "type": "pageextension",
+        "id": 7000104,
+        "name": "SII Posted Purch. Credit Memo",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000104-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseCreditMemos.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000142",
+        "type": "pageextension",
+        "id": 7000142,
+        "name": "SII PostedPurchaseCreditMemos",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000142-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000105",
+        "type": "pageextension",
+        "id": 7000105,
+        "name": "SII Posted Purchase Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000105-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPostedPurchaseInvoices.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000143",
+        "type": "pageextension",
+        "id": 7000143,
+        "name": "SII Posted Purchase Invoices",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000143-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchCrMemoHdr.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000116",
+        "type": "tableextension",
+        "id": 7000116,
+        "name": "SII Purch. Cr. Memo Hdr.",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000116-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchCrMemoLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000117",
+        "type": "tableextension",
+        "id": 7000117,
+        "name": "SII Purch. Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000117-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchInvHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000114",
+        "type": "tableextension",
+        "id": 7000114,
+        "name": "SII Purch. Inv. Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000114-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/History/SIIPurchInvLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000115",
+        "type": "tableextension",
+        "id": 7000115,
+        "name": "SII Purch. Inv. Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000115-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/Payables/SIIVendorLedgerEntry.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000118",
+        "type": "tableextension",
+        "id": 7000118,
+        "name": "SII Vendor Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000118-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Purchases/RoleCenters/SIIPurchaseCue.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000145",
+        "type": "tableextension",
+        "id": 7000145,
+        "name": "SII Purchase Cue",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000145-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/RoleCenters/SIIActivitiesCue.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000143",
+        "type": "tableextension",
+        "id": 7000143,
+        "name": "SII Activities Cue",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000143-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000106",
+        "type": "pageextension",
+        "id": 7000106,
+        "name": "SII Sales Credit Memo",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000106-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000119",
+        "type": "tableextension",
+        "id": 7000119,
+        "name": "SII Sales Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000119-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000107",
+        "type": "pageextension",
+        "id": 7000107,
+        "name": "SII Sales Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000107-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000120",
+        "type": "tableextension",
+        "id": 7000120,
+        "name": "SII Sales Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000120-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000108",
+        "type": "pageextension",
+        "id": 7000108,
+        "name": "SII Sales Order",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000108-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesReturnOrder.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000109",
+        "type": "pageextension",
+        "id": 7000109,
+        "name": "SII Sales Return Order",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000109-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Document/SIISalesSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000127",
+        "type": "codeunit",
+        "id": 7000127,
+        "name": "SII Sales Subscribers",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000127-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesCreditMemo.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000110",
+        "type": "pageextension",
+        "id": 7000110,
+        "name": "SII Posted Sales Credit Memo",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000110-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesCreditMemos.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000146",
+        "type": "pageextension",
+        "id": 7000146,
+        "name": "SII Posted Sales Credit Memos",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000146-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesInvoice.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000111",
+        "type": "pageextension",
+        "id": 7000111,
+        "name": "SII Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000111-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPostedSalesInvoices.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000147",
+        "type": "pageextension",
+        "id": 7000147,
+        "name": "SII Posted Sales Invoices",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000147-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIIPstdSalesCrMemoUpdate.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000148",
+        "type": "pageextension",
+        "id": 7000148,
+        "name": "SII Pstd. Sales Cr.Memo Update",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000148-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesCrMemoHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000123",
+        "type": "tableextension",
+        "id": 7000123,
+        "name": "SII Sales Cr. Memo Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000123-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesCrMemoLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000124",
+        "type": "tableextension",
+        "id": 7000124,
+        "name": "SII Sales Cr. Memo Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000124-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesInvHeader.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000121",
+        "type": "tableextension",
+        "id": 7000121,
+        "name": "SII Sales Inv. Header",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000121-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/History/SIISalesInvLine.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000122",
+        "type": "tableextension",
+        "id": 7000122,
+        "name": "SII Sales Inv. Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000122-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/Receivables/SIICustLedgerEntry.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000125",
+        "type": "tableextension",
+        "id": 7000125,
+        "name": "SII Cust. Ledger Entry",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000125-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/RoleCenters/SIISOProcessorActivities.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/7000149",
+        "type": "pageextension",
+        "id": 7000149,
+        "name": "SII SO Processor Activities",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "pageextension/7000149-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Sales/RoleCenters/SIISalesCue.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/7000146",
+        "type": "tableextension",
+        "id": 7000146,
+        "name": "SII Sales Cue",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "tableextension/7000146-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/Utilities/SIIDataClassEvalDataCountry.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7000100",
+        "type": "codeunit",
+        "id": 7000100,
+        "name": "SII DataClass EvalData Country",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/7000100-es"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration",
+    "finance",
+    "sales",
+    "purchasing",
+    "development",
+    "platform"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

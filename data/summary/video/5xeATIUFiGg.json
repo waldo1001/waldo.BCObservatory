@@ -1,0 +1,27 @@
+{
+  "video_id": "5xeATIUFiGg",
+  "item_id": "video/yt-areopa/5xeATIUFiGg",
+  "summary": "Subscription Billing in Business Central: setup, packages, item types, customer and vendor contracts, recurring billing proposals, vendor deferrals, usage-based billing with data import, and reports with the Power BI app. A 56-minute Areopa webinar with demos of the full workflow.",
+  "overview": "The webinar explains how Subscription Billing is used to create recurring invoices for customers or vendors on a monthly, quarterly or yearly basis. It starts with the history (nothing usable before October 2024, general availability of the first version in October) and then covers setup: contract setup, number series, posting groups, deferral policy, contract types, packages and package templates.\n\nThe demos follow a sales-to-billing flow: items assigned to packages, subscription lines created on shipment, contracts built from subscription lines, direct subscription creation without a sales order, renewal quotes, recurring billing proposals, and vendor deferrals. It ends with usage-based billing from imported data, Excel reports and the Power BI app, which was shown with sample data.",
+  "key_points": [
+    "Subscription Billing is generally available and part of standard Business Central under the normal license, not an add-on. It needs manual setup and is not created automatically with demo data; Contoso demo data must be generated explicitly.",
+    "In Subscription Contract Setup you choose whether a subscription starts on the shipment date or the posting date, and whether deferrals are always created, never created, or decided per contract.",
+    "Items have four subscription types: no subscription, sales with subscription, subscription item, and invoicing item. Packages assigned to an item can be standard or selectable.",
+    "Subscription lines are created when the sales order is shipped, not when the invoice is posted. Subscriptions can also be created directly without a sales order.",
+    "Contracts group subscription lines and are not directly connected to projects; use dimensions if project tracking is needed. Recurring billing creates proposals that can be reviewed, and invoices for the same customer can be combined.",
+    "Vendor deferrals release gives no confirmation or error message, so check the general ledger entries manually to confirm it worked.",
+    "Usage-based billing uses data exchange definitions to import data. Separate definitions are needed per region or format, and vendor invoices cannot be posted automatically."
+  ],
+  "audience": [
+    "functional consultant",
+    "administrator",
+    "decision maker"
+  ],
+  "extraction_hash": "082ea6b64fe5d214137ada7c5ee12d70ae069dfa8c10caea421e05bd06960931",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.045916
+  }
+}

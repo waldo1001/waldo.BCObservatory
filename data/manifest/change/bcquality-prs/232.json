@@ -1,0 +1,33 @@
+{
+  "id": "change/bcquality-prs/232",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "tools: export accepted findings reports as SARIF 2.1.0",
+  "url": "https://github.com/microsoft/BCQuality/pull/232",
+  "published_at": "2026-10-20T08:08:44Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T08:10:49.229Z"
+    }
+  },
+  "input_hash": "99fb8768a8f6674a905413f9c59afd7ecaeaaa7c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 232,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "99fb8768a8f6674a905413f9c59afd7ecaeaaa7c",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "tools export accepted findings reports as sarif 2 1 0"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-20T08:11:25.644Z",
+  "retry_after": null
+}

@@ -6,14 +6,39 @@
   "title": "Renumber SII objects for ES",
   "url": "https://github.com/microsoft/BCApps/pull/12443",
   "published_at": "2026-10-19T07:55:53Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:12:47.784Z",
+      "change_class": "code",
+      "files": 58,
+      "al": 58,
+      "objects": 58,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-20T08:12:55.177Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.012959
+    },
+    "linked": {
+      "at": "2026-10-20T08:12:55.370Z",
+      "objects": 58,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-20T08:12:55.397Z",
+      "path": "content/changes/bcapps/12443.md"
     }
   },
   "input_hash": "2ab65dae3012edf88f1d7543bf201eeaa72f1689:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12443,
@@ -29,6 +54,7 @@
     "community_contribution": false,
     "title_key": "renumber sii objects for es"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-20T02:25:06.067Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "666649582523f6056b61c9635abfd554673e6c86e5262a739ae7ddd7572406c0"
 }

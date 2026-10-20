@@ -7,15 +7,39 @@
   "url": "https://www.sauravdhyani.com/2026/10/m365-con-27-free-online-microsoft.html",
   "published_at": "2026-10-19T05:30:00.000Z",
   "language": "en",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:11:30.335Z",
+      "path": "vault:posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376.md",
+      "words": 988
+    },
+    "extracted": {
+      "at": "2026-10-20T08:11:57.438Z",
+      "prompt": "extract-post@1",
+      "quotes": 2,
+      "trimmed": 0,
+      "cost_usd": 0.006488
+    },
+    "summarized": {
+      "at": "2026-10-20T08:11:57.439Z",
+      "from": "extract-post"
+    },
+    "linked": {
+      "at": "2026-10-20T08:11:57.439Z"
+    },
+    "published": {
+      "at": "2026-10-20T08:11:57.729Z",
+      "path": "content/posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376.md"
     }
   },
   "input_hash": "2026-10-19T05:30:00.562Z",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
-  "last_error": "web lane: fetched took longer than 180 s",
-  "retry_after": "2026-10-20T02:24:36.922Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b395e5e20394d39a23cf5296301d4099f42af10c6df2ce9358d58707b6dfcf3c"
 }

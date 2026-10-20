@@ -1,0 +1,93 @@
+{
+  "id": "video/yt-areopa/5xeATIUFiGg",
+  "pillar": "video",
+  "source": "yt-areopa",
+  "tier": "community",
+  "title": "20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central",
+  "url": "https://www.youtube.com/watch?v=5xeATIUFiGg",
+  "published_at": "2026-10-19T10:35:16.000Z",
+  "language": "en",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T08:10:49.229Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T08:13:29.091Z",
+      "captions": "auto:en-orig",
+      "duration_s": 3357
+    },
+    "captioned": {
+      "at": "2026-10-20T08:13:47.850Z",
+      "path": "vault:captions/community/yt-areopa/5xeATIUFiGg.vtt",
+      "vtt_sha256": "e41310ee3614bc4b72f179fafb2138870c461acf837c60f9f81c4f7c0b96dbf9",
+      "segments": 244,
+      "words": 9392,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-20T08:20:56.425Z",
+      "path": "data/extract/video/5xeATIUFiGg.json",
+      "prompt": "extract-video@1",
+      "windows": 5,
+      "trimmed_for_policy": 1,
+      "features": 61,
+      "quotes": 32,
+      "quotes_dropped": 1,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.27456
+    },
+    "summarized": {
+      "at": "2026-10-20T08:21:13.145Z",
+      "path": "data/summary/video/5xeATIUFiGg.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.045916
+    },
+    "linked": {
+      "at": "2026-10-20T08:21:13.147Z",
+      "systems": [
+        "sales",
+        "finance",
+        "purchasing"
+      ],
+      "topics": 12,
+      "objects_as_heard": 10
+    },
+    "reviewed": {
+      "at": "2026-10-20T08:21:38.354Z",
+      "path": "data/review/video/5xeATIUFiGg.json",
+      "verdict": "fix",
+      "applied": 2,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.277884
+    },
+    "published": {
+      "at": "2026-10-20T08:21:38.632Z",
+      "path": "content/videos/5xeATIUFiGg.md"
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCWL0RbbT6ILzzCd6Ix7t0AQ",
+    "duration_s": 3357,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d912311640b0dfdd29b00fbad71c68085223dcba6da67ce09ef2fa9a892342aa",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-20T08:21:38.080Z"
+  }
+}

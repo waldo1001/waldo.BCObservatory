@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL reporting review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-reporting-review.md",
-  "published_at": "2026-09-15T08:38:32.000Z",
+  "published_at": "2026-10-20T08:08:06.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:34:13.907Z",
-      "blob": "52f8f537b76942543f38992f8c4888cdef83c786",
-      "words": 583,
+      "at": "2026-10-20T08:12:40.241Z",
+      "blob": "cd0a455205d34a53aed729e0372c2c550d26f728",
+      "words": 719,
       "forms": 0
     }
   },
-  "input_hash": "52f8f537b76942543f38992f8c4888cdef83c786",
+  "input_hash": "cd0a455205d34a53aed729e0372c2c550d26f728",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,28 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 583
+    "words": 719,
+    "identifiers": [
+      "CurrReport",
+      "RunModal",
+      "RunRequestPage",
+      "SaveAs",
+      "DownloadFromStream",
+      "SetTableView",
+      "DataItemTableView",
+      "OnPreReport",
+      "OnPostReport",
+      "OnPreDataItem",
+      "OnAfterGetRecord",
+      "DefaultRenderingLayout",
+      "DefaultLayout",
+      "RDLCLayout",
+      "WordLayout",
+      "ExcelLayout"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "52f8f537b76942543f38992f8c4888cdef83c786"
+  "output_hash": "cd0a455205d34a53aed729e0372c2c550d26f728"
 }
