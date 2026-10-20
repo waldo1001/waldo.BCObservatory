@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: dc583f683b80cced0c41f014cc2377849c66cc61e58b88d03d8e61c32a919883
@@ -218,8 +218,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/12206
 learn_toc_path:
   - Administration
   - Cloud Migration API
@@ -265,11 +263,5 @@ Path: [Administration](../administration.md) > Cloud Migration API · tier offic
 ## More Learn pages
 
 - [Cloud Migration API Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/cloudmigrationapi/cloud-migration-api-overview): Learn how to use Cloud Migration APIs to automate the cloud migration process end-to-end.
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#12206 Track C5 migration usage consistently](../../../changes/bcapps/12206.md) (code change): "C5 2012 migration now emits standard cloud migration telemetry events"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Five knowledge articles were added to cover report layout declaration, report dataset column contracts, and query defaults for joins and grouping that differ from SQL conventions.",
   "key_points": [
-    "Report layouts should be declared in the rendering section, not using deprecated DefaultLayout/RDLCLayout properties",
-    "Report dataset column names form a contract with Excel sheets, Word XML, and external layouts, so renames and removals break layouts",
-    "Report extensions require explicit layout selection via DefaultRenderingLayout since layouts are not selected automatically",
-    "Query dataitems default to left outer joins when SqlJoinType is omitted, affecting how unmatched upper rows appear",
-    "Non-aggregated columns in queries implicitly become group keys, which can silently change grouping and affect calculations like integer division in Average"
+    "New reports should declare layouts in the rendering section instead of the legacy DefaultLayout, RDLCLayout, WordLayout and ExcelLayout properties, which are set to be deprecated",
+    "Report dataset column names are a contract with Excel Data sheets, Word XML parts and user-defined layouts, so renaming or removing them breaks those layouts",
+    "A layout added in a reportextension does not replace the base layout automatically; DefaultRenderingLayout cannot be set there and the layout must be selected",
+    "Query dataitems default to LeftOuterJoin when SqlJoinType is omitted, and every non-aggregated column becomes a group key",
+    "The al-reporting-review and al-query-review skills and the review fixtures were updated to use the new articles"
   ],
   "change_kind": "feature",
   "behavior_change": false,

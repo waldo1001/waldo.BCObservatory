@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -329,9 +329,11 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11096
-    - change/bcapps/11168
-    - change/bcapps/11318
     - change/bcapps/11745
+    - change/bcapps/11967
+    - change/bcapps/12133
+    - change/bcapps/12324
+    - change/bcapps/12326
     - change/bcapps/9711
     - change/bcapps/9737
     - change/bcquality/100
@@ -405,9 +407,11 @@ To start, read the publishing subtopic to expose an endpoint, then the security 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11096 PEPPOL FR improvements](../../../changes/bcapps/11096.md) (code change): "PEPPOL FR improvements French PEPPOL exports now correctly handle billing profiles"
-- [#11168 Restore E-Document vendor invoice field compatibility](../../../changes/bcapps/11168.md) (code change): "E-Document vendor invoice field name restored from 'Applies-to Ext. Invoice No.'"
-- [#11318 [main] Bug 649189: Update E-Document vendor invoice caption](../../../changes/bcapps/11318.md) (code change): "Table field caption changed to 'Applies-to Ext. Invoice No.'"
 - [#11745 Bug 648781: check the party identifier that the PEPPOL export will use](../../../changes/bcapps/11745.md) (code change): "PEPPOL validation now uses the same party identifier provider as export"
+- [#11967 Block Edit in Excel for pages based on the User table](../../../changes/bcapps/11967.md) (code change): "Edit in Excel now blocks page-based editing for tables"
+- [#12133 Block file scheme in Web Request Helper](../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
+- [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
+- [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet"
 - [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
 - [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs from translatable AL labels"
 - [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Adds guidance and code samples for linking API parts on SystemId with Multiplicity set"

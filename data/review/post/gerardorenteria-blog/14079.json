@@ -1,14 +1,17 @@
 {
   "item_id": "blog/gerardorenteria-blog/14079",
-  "input_hash": "df9c16ecd4d849003c81d3ca788567aff36eb99072168b7e99b1fb48b60d269a",
+  "input_hash": "1dbbdf6ab75e41411df44a0ccda958d8d1cf6a122fca3c69fe0f9ca13b5c3cf1",
   "verdict": "fix",
   "by": "opus",
-  "at": "2026-10-08T01:56:12.978Z",
+  "at": "2026-10-20T08:48:00.337Z",
   "issues": [
-    "Changelog repost for the AL Language extension; summary, key points, features and quotes are supported.",
-    "HttpClient is used only as a data type in sample code, not as a codeunit object; dropped."
+    "Summary gave the range as starting at 4.0.0, but the post also lists 2017 to 2019 updates with 0.x version numbers.",
+    "Key point called the parallel workspace compilation item an optimization; the post only describes a fix for package-cache lock conflicts on Linux and macOS.",
+    "The AL Language extension is the tool itself, not an AL object named in code."
   ],
   "applied": [
+    "summary rewritten",
+    "key points rewritten",
     "dropped 1 object(s)"
   ],
   "rejected_edits": [],
@@ -16,7 +19,7 @@
   "llm": {
     "model": "claude-opus-5-5",
     "cached": false,
-    "cost_usd": 0.048923,
+    "cost_usd": 0.065536,
     "posts_in_call": 4
   }
 }

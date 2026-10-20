@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-20T08:48:51.537Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -391,7 +391,7 @@ narrative: generated
 
 > Administration of Business Central online covers how tenant administrators and delegated partners run environments, users, licensing, updates, telemetry, support and migration. It answers how-to, limit and process questions across the service lifecycle, from onboarding to monitoring and cloud migration.
 
-Path: Administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: Administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 

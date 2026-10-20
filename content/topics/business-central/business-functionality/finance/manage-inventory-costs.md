@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -156,7 +156,9 @@ links:
     - change/bcapps/10094
     - change/bcapps/10220
     - change/bcapps/10298
+    - change/bcapps/10575
     - change/bcapps/11309
+    - change/bcapps/11714
     - change/bcapps/11906
     - change/bcapps/9005
     - change/bcapps/9118
@@ -243,7 +245,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10094 [Main]- Standard-cost purchase receipts use Direct Unit Cost instead of Standard Cost when cumulative expected-cost rounding is enabled](../../../../changes/bcapps/10094.md) (code change): "preventing inventory overstatement and ensuring purchase variance is properly recognized"
 - [#10220 [main] Calculate Inventory - Add check to skip report processing if Warehouse Entry table is empty](../../../../changes/bcapps/10220.md) (code change): "Calculate Inventory report now skips its per-iteration Warehouse Entry processing"
 - [#10298 [main]A WIP Balance is presented incorrectly on the “Production Order – WIP” Report 5802 after Finishing Production Order Without Output Item Ledger Entry posted with new Manufacturing Setup option for no Output required.](../../../../changes/bcapps/10298.md) (code change): "WIP Balance is presented incorrectly on the Production Order – WIP"
+- [#10575 Calculate Inventory: scope Default Dimension reads by source table](../../../../changes/bcapps/10575.md) (code change): "Calculate Inventory now scopes Default Dimension reads by source table"
 - [#11309 [29.X]-Post Inventory Cost to G/L fails when concatenated dimension text exceeds 250 characters](../../../../changes/bcapps/11309.md) (code change): "Post Inventory Cost to G/L' report now handles dimension text longer than 250"
+- [#11714 [Main]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment.](../../../../changes/bcapps/11714.md) (code change): "Cost adjustment for assembly items now uses unit-amount rounding precision"
 - [#11906 [Main]-Incident 51000001968459: Issue while creating any import purchase invoice](../../../../changes/bcapps/11906.md) (code change): "Custom Duty is now included in inventory cost for import invoices"
 - [#9005 (Bug 641089) Guard Item Ledger/Value Entry No. allocation in Item Jnl.-Post Line with CommitBehavior::Ignore](../../../../changes/bcapps/9005.md) (code change): "Item journal posting now prevents duplicate-key errors in concurrent scenarios"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "Item Jnl.-Post Line changed in W1, APAC, CH, ES, IT and RU"

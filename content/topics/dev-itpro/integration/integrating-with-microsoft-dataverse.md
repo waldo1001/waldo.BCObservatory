@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.950Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -199,7 +199,7 @@ links:
     - change/bcapps/10753
     - change/bcapps/11016
     - change/bcapps/11626
-    - change/bcapps/12196
+    - change/bcapps/11896
     - change/bcapps/9127
     - change/bcapps/9322
 learn_toc_path:
@@ -264,8 +264,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10578 [Extensibility Request] issue 30429: add events to disambiguate CRM integration table mappings](../../../changes/bcapps/10578.md) (code change): "Four integration events are added to allow extensions to select the correct CRM integration table mapping"
 - [#10753 Cross-environment Master Data synchronization (same tenant)](../../../changes/bcapps/10753.md) (code change): "Cross-environment Master Data synchronization subsidiary environments to synchronize master data from a source environment"
 - [#11016 [AI Business Solutions] Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations](../../../changes/bcapps/11016.md) (code change): "Enforce allow-listed Redirect URIs, token audiences and authorities for OAuth2 integrations"
-- [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts"
-- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled"
+- [#11626 [Master Data Management] Fixing synchronization of contacts, media, date, datetime, source watermarking, permission issue and minor UX issues](../../../changes/bcapps/11626.md) (code change): "Master Data Management synchronization is fixed to handle contacts, media caching"
+- [#11896 [Master Data Management] Cross-env over-cap blob clears the subsidiary blob](../../../changes/bcapps/11896.md) (code change): "cross-environment Master Data Management sync, a source blob"
 - [#9127 Add Dataverse Cloud endpoints override for sovereign clouds](../../../changes/bcapps/9127.md) (code change): "A new interface and enum enable partners to override Dataverse endpoints for sovereign cloud environments"
 - [#9322 [FS Integration] SVCITEM-CUSTASSET mapping ignores "Convert to Customer Asset" flag — every Service Item synced to FS unconditionally](../../../changes/bcapps/9322.md) (code change): "Field Service Integration now respects the Dataverse Product setting Convert to Customer Asset"
 - [Dutch Dynamics Community Event 18 november 2025](../../../posts/vondervoort-be/67.md) (community post): "connecting Business Central to Dynamics 365 Supply Chain Management Warehouse Only Mode for advanced warehousing"

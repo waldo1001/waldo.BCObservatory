@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,11 +62,13 @@ links:
     - change/bcapps/11727
     - change/bcapps/11848
     - change/bcapps/12198
+    - change/bcapps/12507
     - change/bcapps/9254
     - change/bcapps/9349
     - change/bcapps/9686
     - change/bcapps/9789
     - change/bcapps/9943
+    - change/bcquality/223
 learn_toc_path:
   - Business functionality
   - Finance
@@ -130,11 +132,13 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11727 Bug 650737: Description for new currencies should be aligned with existing full descriptions](../../../../changes/bcapps/11727.md) (code change): "Currency labels in demo data now include country names"
 - [#11848 [main] Report 11564, Foreign Currency Layout: foreign currency opening balance is not included](../../../../changes/bcapps/11848.md) (code change): "foreign currency opening balance is not included. Report 11564"
 - [#12198 [29.x]Source Currency Inconsistency for LCY Postings and cash posting on sales documents](../../../../changes/bcapps/12198.md) (code change): "Source Currency Inconsistency for LCY Postings and cash posting"
+- [#12507 [DK Nemhandel][Currency] Remove unsafe fixed response-size caps on scaling/customer-configured feeds](../../../../changes/bcapps/12507.md) (code change): "currency exchange rate downloads where legitimate responses grow"
 - [#9254 [Master] Exchange Rate Adjustment filter not working](../../../../changes/bcapps/9254.md) (code change): "Exchange Rate Adjustment filter not working. Codeunit 699"
 - [#9349 [master]-[ES][Cartera Bills] Applying a foreign-currency payment to a bill that leads to gain-loss entry cannot be reversed](../../../../changes/bcapps/9349.md) (code change): "Reversal of foreign-currency payments with gain-loss entries now works correctly"
 - [#9686 [Master] Incorrect Payables Account Selected for Unrealized Gain/Loss in Multi-Posting Group FCY Applications.](../../../../changes/bcapps/9686.md) (code change): "Foreign currency unrealized gain/loss posting now selects the correct payables account"
 - [#9789 [Main]-Payment discount tolerance is doubled when posting a vendor payment](../../../../changes/bcapps/9789.md) (code change): "vendor payments applied to several invoices in foreign currency"
 - [#9943 [Master]-Purchase invoice in USD with deferral shows 0 "Amount LCY" in Deferral Schedule View"](../../../../changes/bcapps/9943.md) (code change): "Purchase invoices in foreign currency now correctly display"
+- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "rounds it to the currency's Unit-Amount Rounding Precision"
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (community post): "configurable currency symbols on numeric fields to help finance users"
 - [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../../../../videos/u1oO9MEg9kc.md) (video): "GL Account Revaluation; currency revaluation; exchange rate adjustments"
 - [What's New: Enhancements in Intrastat (2025 release wave 1)](../../../../videos/whtP2i7zeso.md) (video): "Enhancements in Intrastat (2025 release wave 1). Topics: intrastat; mandatory fields; vat numbers"

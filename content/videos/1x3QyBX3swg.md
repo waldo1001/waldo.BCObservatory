@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:18:14.341Z"
   flags: []
 generated:
-  at: "2026-10-07T23:18:14.431Z"
+  at: "2026-10-20T08:46:34.155Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -95,7 +95,9 @@ links:
     - object/page/8700
     - object/table/405
     - object/table/5802
-  features: []
+  features:
+    - feature/573314
+    - feature/573332
   topics: []
   localizations: []
   videos: []
@@ -153,10 +155,12 @@ features:
     verified: false
     status_source: video
   - name: Per-Company Index Management
-    status: unclear
+    status: ga
     t: 353
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573314"
   - name: Index Usage Statistics
     status: unclear
     t: 774
@@ -233,15 +237,19 @@ features:
     verified: false
     status_source: video
   - name: Extension fields merging to base tables in version 29
-    status: preview
+    status: ga
     t: 1779
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Index management upgrade performance impact
-    status: unclear
+    status: ga
     t: 1887
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573332"
   - name: Indexes list part page
     status: unclear
     t: 1990
@@ -340,7 +348,7 @@ The talk also covers usage statistics (seek, scan, lookup, update counts since t
 |---|---|---|---|
 | Index Management Page | status not stated, demoed | [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s) |  |
 | Enable/Disable Indexes | status not stated, demoed | [4:16](https://www.youtube.com/watch?v=1x3QyBX3swg&t=256s) |  |
-| Per-Company Index Management | status not stated, demoed | [5:53](https://www.youtube.com/watch?v=1x3QyBX3swg&t=353s) |  |
+| Per-Company Index Management | generally available (roadmap [AL developers can turn indexes on/off in AL code.](../features/573314.md)), demoed | [5:53](https://www.youtube.com/watch?v=1x3QyBX3swg&t=353s) |  |
 | Index Usage Statistics | status not stated, demoed | [12:54](https://www.youtube.com/watch?v=1x3QyBX3swg&t=774s) |  |
 | Index Storage Information on Table Information Page | status not stated | [2:04](https://www.youtube.com/watch?v=1x3QyBX3swg&t=124s) |  |
 | Index storage metrics | status not stated, demoed | [15:39](https://www.youtube.com/watch?v=1x3QyBX3swg&t=939s) |  |
@@ -356,13 +364,15 @@ The talk also covers usage statistics (seek, scan, lookup, update counts since t
 | Automatic statistics updates | status not stated | [24:42](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1482s) |  |
 | DAMS re-index stats table | status not stated | [25:34](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1534s) |  |
 | Automatic Database Tuning Advisor | status not stated | [26:02](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1562s) |  |
-| Extension fields merging to base tables in version 29 | preview, demoed | [29:39](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1779s) | "we actually have it out in the early access preview now. We're merging back the extension fields into the base table." ([30:02](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1802s)) |
-| Index management upgrade performance impact | status not stated | [31:27](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1887s) |  |
+| Extension fields merging to base tables in version 29 | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)), demoed | [29:39](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1779s) | "we actually have it out in the early access preview now. We're merging back the extension fields into the base table." ([30:02](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1802s)) |
+| Index management upgrade performance impact | generally available (roadmap [Faster data loading with improved data model for table extensions](../features/573332.md)) | [31:27](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1887s) |  |
 | Indexes list part page | status not stated, demoed | [33:10](https://www.youtube.com/watch?v=1x3QyBX3swg&t=1990s) |  |
 | Record length validation in version 28 | status not stated | [34:43](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2083s) |  |
 | Index maintenance window scheduling | status not stated | [35:53](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2153s) |  |
 | SIFT index management in future | announced | [37:45](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2265s) | "the full management of sift indexes we plan to add that to the index management later" ([38:33](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2313s)) |
 | Index virtual provider API expansion to cloud | announced | [39:06](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2346s) | "So, yes, it is something that we're looking at and planning to add in the future." ([40:15](https://www.youtube.com/watch?v=1x3QyBX3swg&t=2415s)) |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

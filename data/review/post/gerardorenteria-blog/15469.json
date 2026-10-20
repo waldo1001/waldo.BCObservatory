@@ -1,0 +1,28 @@
+{
+  "item_id": "blog/gerardorenteria-blog/15469",
+  "input_hash": "892c06a1c0a18791f5aa131e59fa7363519e9be9162f0cfc188d07c6755ffa1f",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-20T08:48:02.942Z",
+  "issues": [
+    "Summary claims ideas were submitted to Microsoft, which the post does not state.",
+    "Key point mentions data migration ideas, but that section heading in the post has no ideas under it.",
+    "Feature about full-text search across pages is misleading; the idea concerns search within report preview only.",
+    "Quote 1 is only the intro line and adds no useful information.",
+    "All listed objects do appear in the idea titles."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "dropped 1 quote(s)",
+    "dropped 1 feature(s)"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.06575,
+    "posts_in_call": 4
+  }
+}

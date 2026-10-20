@@ -6,12 +6,12 @@ summary: "Set up Business Central covers initial and ongoing configuration: comp
 tier: official
 language: en
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-20T08:48:51.539Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1160,7 +1160,7 @@ narrative: generated
 
 > Set up Business Central covers initial and ongoing configuration: company information, number series, base calendars, report selection, online maps, setup auditing, desktop and mobile apps. It also links to setup guides for each functional area, email, printers, workflows and data import.
 
-Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Set up Business Central · tier official · system none · narrative reviewed (checked by Opus)
 
 ## Overview
 

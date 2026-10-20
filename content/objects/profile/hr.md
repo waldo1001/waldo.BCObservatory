@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-20T08:41:34.593Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1f635dd3f8bab053b453779c6e2999e3403b2223d43a7714ee95dc0c02f7c59c
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/HumanResources/RoleCenters/HR.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/HumanResources/RoleCenters/HR.Profile.al
     title: src/Layers/W1/BaseApp/HumanResources/RoleCenters/HR.Profile.al (releases/29.x)
     date: null
-    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
+    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "HR" in Base Application (Microsoft.HumanResources.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.HumanResources.RoleCenters · captioned "Human Resources" · BC23-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Layers/W1/BaseApp/HumanResources/RoleCenters/HR.Profile.al) · facts from BC29
+Base Application · Microsoft.HumanResources.RoleCenters · captioned "Human Resources" · BC23-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/HumanResources/RoleCenters/HR.Profile.al) · facts from BC29
 
 ## Properties
 

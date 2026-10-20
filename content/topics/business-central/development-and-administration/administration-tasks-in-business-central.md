@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -385,6 +385,7 @@ links:
   changes:
     - change/bcapps/9400
     - change/bcapps/9716
+    - change/bcapps/9953
 learn_toc_path:
   - Development and administration
   - Administration tasks in Business Central
@@ -558,6 +559,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9400 Route early preview feedback to the correct OCV area](../../../changes/bcapps/9400.md) (code change): "Early Access Preview feedback now routes to the correct OCV feedback area"
 - [#9716 Expose AppService location and EUDB membership on Environment Information for internal consumption](../../../changes/bcapps/9716.md) (code change): "Environment Information now exposes App Service location and EU Data Boundary membership"
+- [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing captions, tooltips, labels and instructional text now say Marketplace"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../posts/duiliotacconi-com/1983.md) (community post): "enable or disable database indexes directly in the UI, available per company"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "administrators can now turn SIFT indexes on or off directly"
 - [Manage Database Index Usage in Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Administrators can view index details (name, size, usage statistics, enabled status)"

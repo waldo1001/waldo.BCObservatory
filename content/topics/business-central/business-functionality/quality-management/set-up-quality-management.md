@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:26.153Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,8 @@ links:
     - video/m8-7-JKq4dc
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12322
 learn_toc_path:
   - Business functionality
   - Quality management
@@ -129,10 +131,11 @@ Start with the setup and configuration page, then configure results and template
 - [Quality management workflows](https://learn.microsoft.com/dynamics365/business-central/qms-quality-workflows): Learn how to automate quality management processes using workflows.
 - [Set up quality inspection generation rules](https://learn.microsoft.com/dynamics365/business-central/qms-test-generation-rules): Learn how to configure inspection generation rules to automate quality inspections based on business transactions.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12322 [QM] Destination bin code is now visible and usable for the user](../../../../changes/bcapps/12322.md) (code change): "destination bin code is now visible and usable for the user"
 - [Introducing: Quality Management (2026 release wave 1)](../../../../videos/m8-7-JKq4dc.md) (video): "Quality Management Extension; Automatic Quality Test Triggering; Scheduled Quality Inspections"
 
 ## Business Central pages and reports

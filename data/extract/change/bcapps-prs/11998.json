@@ -8,11 +8,11 @@
   ],
   "summary": "The system now validates that a General Posting Setup combination exists before posting journal invoices, preventing issues that arise later when processing payment discounts.",
   "key_points": [
-    "Added validation in Gen. Jnl.-Check Line to ensure General Posting Setup row exists for the business/product posting group pair",
-    "Allows configurations with a blank business posting group while rejecting missing combinations",
-    "Prevents invoices from posting with only a product posting group but no matching General Posting Setup",
-    "Fixes issues that surface when posting payment discounts with invalid posting setup combinations",
-    "Applied across all localization layers and added test coverage"
+    "Gen. Jnl.-Check Line now checks that a General Posting Setup row exists for the business/product posting group pair",
+    "Combinations set up with a blank business posting group are still allowed; missing combinations are rejected",
+    "G/L journal invoices can no longer post with a product posting group that has no matching General Posting Setup",
+    "Prevents the failure that used to show up later when posting a payment discount",
+    "The check is added in W1 and several country layers, with tests in W1 and CZ"
   ],
   "change_kind": "fix",
   "behavior_change": true,

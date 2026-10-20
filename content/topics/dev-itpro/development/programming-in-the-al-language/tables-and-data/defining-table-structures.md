@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.962Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -100,7 +100,6 @@ links:
     - change/bcapps/10235
     - change/bcapps/10367
     - change/bcapps/11748
-    - change/bcapps/9168
     - change/bcapps/9725
     - change/bcquality/125
     - change/bcquality/158
@@ -167,7 +166,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../../changes/bcapps/10235.md) (code change): "Subscription Line start date changes are now blocked when billing has occurred"
 - [#10367 [Quality Management] Add OptimizeForTextSearch to searchable Qlty. Inspection Header fields (AB#620381)](../../../../../changes/bcapps/10367.md) (code change): "Added OptimizeForTextSearch property to Description and Source Task No. fields"
 - [#11748 [Master] - Slice 626292: [Excise Tax][VENDOR] Bonded Locations for Excise Calculations](../../../../../changes/bcapps/11748.md) (code change): "Added bonded-location treatment enum with Suspend/Ignore options for excise calculations"
-- [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../../changes/bcapps/9725.md) (code change): "New Item Excise Tax table (7415) stores multiple tax types per item"
 - [#125 knowledge(data-modeling): TableRelation delete/rename asymmetry and the xRec before-image contract](../../../../../changes/bcquality/125.md) (code change): "Owning tables must delete dependent records manually since AL lacks cascading delete"
 - [#158 3 AL/BC patterns from CURABIS's internal automated-testing training material](../../../../../changes/bcquality/158.md) (code change): "Item Ledger Entry carries the shipment's document number, not the invoice number"

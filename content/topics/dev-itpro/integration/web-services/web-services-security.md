@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -86,6 +86,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11171
+    - change/bcapps/11967
     - change/bcapps/12133
     - change/bcapps/12194
     - change/bcquality/149
@@ -144,9 +145,10 @@ Detailed pages follow for each option. The OAuth page covers OAuth 2.0 concepts,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated against their expected host"
-- [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
-- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "disable default credentials by default and require callers to opt in"
+- [#11171 [Security][Hardening] Validate integration URLs stored in setup tables](../../../../changes/bcapps/11171.md) (code change): "Integration endpoint URLs stored in setup tables are now validated against their expected host and scheme"
+- [#11967 Block Edit in Excel for pages based on the User table](../../../../changes/bcapps/11967.md) (code change): "prevent authentication corruption when users are edited via Excel"
+- [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "prevent unauthorized local file access through crafted URLs"
+- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "preventing unintended transmission of Business Central service account credentials"
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "API enum fields are published: under schema 2.0 by member name"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:34.661Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -107,6 +107,7 @@ links:
     - change/bcapps/10624
     - change/bcapps/10716
     - change/bcapps/10934
+    - change/bcapps/12542
     - change/bcapps/9465
     - change/bcapps/9466
     - change/bcapps/9651
@@ -177,6 +178,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10624 [MAIN]-Bug 647352 Issue with lot no assignment after posting a transfer order](../../../../changes/bcapps/10624.md) (code change): "Transfer shipments for tracked items now correctly consume the matching lot"
 - [#10716 [Main] [ALL-E] "Item tracking is defined for item 1000 in the Requisition Line. You must delete the existing item tracking before modifying or deleting the Requisition line" err when creating a Purchase Order from a Sales Order including DROP Shipment Bug 643358](../../../../changes/bcapps/10716.md) (code change): "Fixes the item tracking error raised for the requisition line"
 - [#10934 [29.x][REPAIR] [ALL-E] Item tracking validation when lot numbers are assigned concerns the warehouse pick level rather than at the sales order level](../../../../changes/bcapps/10934.md) (code change): "Changes how Item Tracking Data Collection validates assigned lot numbers"
+- [#12542 [Main]Incorrect Calculation of Remaining Prod. Order Comp.](../../../../changes/bcapps/12542.md) (code change): "Incorrect calculation of remaining production order component quantities"
 - [#9465 [Extensibility Request] issue 30350: add OnBeforeTestFirstApplyItemLedgerEntryTracking event](../../../../changes/bcapps/9465.md) (code change): "A new integration event OnBeforeTestFirstApplyItemLedgerEntryTracking was added to codeunit 22 so extensions can validate item tracking"
 - [#9466 [Extensibility Request] issue 30351: extend OnCheckExpirationDateOnBeforeAssignExpirationDate event](../../../../changes/bcapps/9466.md) (code change): "extend OnCheckExpirationDateOnBeforeAssignExpirationDate event"
 - [#9651 [Extensibility Request] issue 30352: add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot](../../../../changes/bcapps/9651.md) (code change): "add SkipNewExpirationDateCheck to OnCheckExpirationDateOnAfterCalcSumLot"

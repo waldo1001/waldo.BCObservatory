@@ -1,16 +1,14 @@
 {
   "item_id": "blog/olofsimren-com/3865",
-  "input_hash": "b5f8faff5acea3672d29d0789065167180d65009894ebe6c65304e7aba6e8c3b",
+  "input_hash": "f71dd5fb5c0b28c4bd0812de959bf961e350a8b841864acfdeb39f68b433f332",
   "verdict": "fix",
   "by": "opus",
-  "at": "2026-10-16T01:16:46.495Z",
+  "at": "2026-10-20T08:48:02.942Z",
   "issues": [
-    "The summary and key points match the case study.",
-    "The post does not discuss inventory, so that system tag has been dropped.",
-    "The post talks about moving legacy freight logic into configuration tables, not about integrating with a legacy system, so the legacy system integration feature has been dropped."
+    "Summary, key points, features and both quotes are supported by the case study post.",
+    "System 'administration' is weakly supported; the post only mentions administering the system in passing, so it is dropped."
   ],
   "applied": [
-    "dropped 1 feature(s)",
     "dropped 1 system(s)"
   ],
   "rejected_edits": [],
@@ -18,7 +16,7 @@
   "llm": {
     "model": "claude-opus-5-5",
     "cached": false,
-    "cost_usd": 0.032879,
+    "cost_usd": 0.06575,
     "posts_in_call": 4
   }
 }

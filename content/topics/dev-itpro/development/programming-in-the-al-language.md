@@ -12,7 +12,7 @@ review:
   at: "2026-10-18T00:56:54.349Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -360,6 +360,7 @@ links:
   localizations: []
   videos:
     - video/D_Lur52IrIg
+    - video/LaA6UNdkvso
     - video/lH2Z4xfdhmY
     - video/QhHgkCe3kkk
   posts:
@@ -396,7 +397,7 @@ children:
 coverage:
   learn: 340
   code: 36
-  video: 3
+  video: 4
   blog: 4
   guideline: 0
 bc_forms:
@@ -499,6 +500,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Understanding AL Development: String Conversion Management Code Unit](../../../posts/aardvarklabs-blog/2741.md) (community post): "String Conversion Management Code Unit provides four procedures for handling text transformations"
 - [Advanced JSON Management for Business Central Developers](../../../posts/aardvarklabs-blog/2812.md) (community post): "Codeunit 5459 JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
 - [What's new in AL and Tools (2026 release wave 2)](../../../videos/D_Lur52IrIg.md) (video): "AL MCP; AL language server with project awareness; Symbol search"
+- [Generate Mermaid.js Diagrams with AL Code (2026 Edition)](../../../videos/LaA6UNdkvso.md) (video): "Generate Mermaid.js Diagrams with AL Code visualization; pele library; interactive diagrams"
 - [What’s New: Data Search Improvements (For Developers) (2024 release wave 2)](../../../videos/lH2Z4xfdhmY.md) (video): "Modern search; full-text search; optimized for text search property"
 - [What's New in AL: Embedding Resources in Applications (2024 release wave 2)](../../../videos/QhHgkCe3kkk.md) (video): "Embedding resources in applications; get resource function; Multiple resource folders"
 

@@ -2102,55 +2102,80 @@
       }
     },
     "topic/business-central/business-functionality/sales": {
-      "post/aardvarklabs-blog/2603@35e72d819a8d8d8e": {
+      "post/aardvarklabs-blog/2603@37d1648ae4d574a5": {
         "verdict": "drop",
-        "reason": "The post is about coding a delimited-file import in AL; sales orders are only the example data.",
-        "at": "2026-10-08T06:28:24.835Z"
-      },
-      "post/aardvarklabs-blog/2759@f6f91410d50dd169": {
-        "verdict": "drop",
-        "reason": "The post is about building a Copilot prompt dialog in AL; sales invoices are only where the generated text gets stored.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "About parsing delimited files into staging tables in AL; sales orders are just the example data.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3905080819923012785@52156de09484cd22": {
         "verdict": "keep",
-        "reason": "It covers emailing posted sales shipments and return receipts, which is a sales documents feature.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "Covers emailing posted sales shipments and return receipts, which is part of sales document processing.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-56-understand-missing-fields-in-copy-documents/@3fac2d74cc67c469": {
         "verdict": "keep",
-        "reason": "It explains which fields carry over when you copy sales documents, part of the sales document workflow.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "Explains which fields carry over when you copy sales documents from posted invoices or archived orders.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-57-use-teststatusopen-procedure/@6712be9cbb10c441": {
         "verdict": "drop",
-        "reason": "It is a coding tip about field validation that applies to both sales and purchase documents, not about how sales works for users.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "An AL developer tip about field validation, not documented sales functionality.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-84-item-missing-from-sales-line-lookup/@a6b9f52e5b49d7a0": {
+        "verdict": "keep",
+        "reason": "Explains how the Sales Blocked setting hides items from the sales line lookup.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "post/thedynamicsexplorer-com/10326@0d51c1a7b7e06f52": {
         "verdict": "keep",
-        "reason": "It shows how to post a sales credit memo with an item charge, which is a sales process.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "Shows how to post a sales credit memo using an item charge, which is a sales process.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
-      "video/cuez5kIanKo@f268368107168b5d": {
+      "video/cuez5kIanKo@8ee506cf666df583": {
         "verdict": "drop",
-        "reason": "Shopify sales channels belong to the separate Online store with Shopify section.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "Shopify connector feature, which the sibling Online store with Shopify section documents.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "video/EyAhM6x_FVw@705ad62909a05375": {
         "verdict": "drop",
-        "reason": "It is a general podcast on AI in marketing with no Business Central sales feature in it.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "A marketing strategy discussion with no Business Central sales content.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "video/gy_6QnFpiEw@23f7bb92a20daa9f": {
+        "verdict": "drop",
+        "reason": "Shopify market pricing, which belongs to the sibling Shopify section.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "video/O0UTg-e3t5k@278275a89fd380cc": {
         "verdict": "drop",
-        "reason": "It shows a general keyboard shortcut for moving around the interface; sales orders only appear in the demo.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "A general UI keyboard shortcut; the sales order is only the example.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "video/p-pwG6f5srY@991c1fbc644af86b": {
+        "verdict": "drop",
+        "reason": "An overview of Shopify connector features, which belongs to the sibling Shopify section.",
+        "at": "2026-10-20T08:47:13.711Z"
       },
       "video/PIWxU93eCT4@dd35816b55e7e608": {
         "verdict": "keep",
-        "reason": "Editing sales price lists in Excel is part of sales pricing, which the Sales section covers.",
-        "at": "2026-10-08T06:28:24.835Z"
+        "reason": "Demonstrates editing sales price lists in Excel, which is part of sales pricing.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "video/StIVhsnOHWY@b465ac15d678ab4c": {
+        "verdict": "drop",
+        "reason": "Shopify synchronization troubleshooting, which belongs to the sibling Shopify section.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "video/VjYMhjjc3uw@d6d70dad1495c9be": {
+        "verdict": "drop",
+        "reason": "Shopify B2B company mapping, which belongs to the sibling Shopify section.",
+        "at": "2026-10-20T08:47:13.711Z"
+      },
+      "video/YSDfDjrMUb0@8fff98e8f9c7fd43": {
+        "verdict": "drop",
+        "reason": "An overview of Shopify connector features, which belongs to the sibling Shopify section.",
+        "at": "2026-10-20T08:47:13.711Z"
       }
     },
     "topic/business-central/business-functionality/sales/sales-analytics": {
@@ -2645,68 +2670,98 @@
     "topic/business-central/copilot-and-agent-capabilities": {
       "post/aardvarklabs-blog/3227@44735b52566ed191": {
         "verdict": "drop",
-        "reason": "General essay on AI and team productivity, not about any Business Central Copilot or agent capability.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "A general essay on AI and team productivity, with nothing specific to Business Central Copilot or agent features.",
+        "at": "2026-10-20T08:47:23.790Z"
+      },
+      "post/aardvarklabs-blog/3496@4edbf838dbab5013": {
+        "verdict": "drop",
+        "reason": "About Copilot Cowork skills in Microsoft 365, not a Business Central Copilot or agent capability.",
+        "at": "2026-10-20T08:47:23.790Z"
+      },
+      "post/demiliani-com/11739@32e1caa7db380894": {
+        "verdict": "keep",
+        "reason": "Explains how the Sales Order Agent works and how agent billing is set up, both of which this section documents.",
+        "at": "2026-10-20T08:47:23.790Z"
+      },
+      "post/gerardorenteria-blog/11616@06e39428fab64566": {
+        "verdict": "drop",
+        "reason": "A release-wave overview that mostly links to release plans and only mentions Copilot in general terms.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/gerardorenteria-blog/14099@83d95d9b7538aa97": {
         "verdict": "drop",
-        "reason": "Community idea roundup across many areas that only mentions Copilot and agent proposals in passing.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "A roundup of community feature ideas across many areas that only mentions proposed AI agents in passing.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/gerardorenteria-blog/14979@575d53f3afa99d31": {
         "verdict": "drop",
-        "reason": "Monthly roundup of feature ideas, too general to be about the documented Copilot capabilities.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "A monthly roundup of feature ideas that is too general and is not about any documented Copilot capability.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/olofsimren-com/3605@0da4963b8a74641b": {
         "verdict": "drop",
-        "reason": "Third-party AppSource extension for explaining planning worksheet suggestions, not one of the Microsoft Copilot capabilities this section documents.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "Covers a third-party AppSource extension for the Planning Worksheet, not one of the Copilot capabilities this section documents.",
+        "at": "2026-10-20T08:47:23.790Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-3190647871313162275@4879b2a3f9ce8463": {
+        "verdict": "drop",
+        "reason": "A conference announcement with no Copilot or agent content.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/thinkaboutit-be/7117@ea0e578ed4e305e9": {
         "verdict": "drop",
-        "reason": "Opinion piece criticizing the release's AI focus, with no explanation of any specific Copilot feature.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "An opinion piece questioning the focus on AI in Wave 2 that does not explain any specific Copilot feature.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/thinkaboutit-be/7159@86f50ef3192f3881": {
         "verdict": "drop",
-        "reason": "Broad release-wave overview that mentions Copilot only alongside many other areas.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "A release announcement that mentions Copilot only in broad terms alongside many other areas.",
+        "at": "2026-10-20T08:47:23.790Z"
       },
       "post/thinkaboutit-be/8224@f06b4ed4e53fce8a": {
         "verdict": "drop",
-        "reason": "Release availability note that only lists agent improvements in passing among many topics.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "This is a general release announcement that mentions Copilot and agent improvements only in passing among many other areas.",
+        "at": "2026-10-20T08:47:26.702Z"
+      },
+      "video/1QuV_vkbNVU@88a4aaf51d17908b": {
+        "verdict": "drop",
+        "reason": "It is about the Spreadsheets for Business Central product; the AI agent is a minor feature of that tool, not a Business Central Copilot capability.",
+        "at": "2026-10-20T08:47:26.702Z"
+      },
+      "video/B9VbZzC2p7E@1f7cf66bd20c49e2": {
+        "verdict": "drop",
+        "reason": "It shows an agent generating SQL inside a spreadsheet add-on, which is not one of the Copilot capabilities this section documents.",
+        "at": "2026-10-20T08:47:26.702Z"
       },
       "video/FuY4EBBZf3c@e56a2746a0c407c2": {
         "verdict": "drop",
-        "reason": "General release-wave welcome video, too broad to tie to a specific documented Copilot capability.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "It is a generic release-wave welcome video, and the evidence is too thin to tie it to any specific Copilot capability.",
+        "at": "2026-10-20T08:47:26.702Z"
+      },
+      "video/H5EuObmeF4o@12b92711090ce702": {
+        "verdict": "keep",
+        "reason": "It covers several capabilities this section documents (Sales Order Agent, Payables Agent, Autofill, Summarize, Analysis assist) in concrete detail.",
+        "at": "2026-10-20T08:47:26.702Z"
       },
       "video/JBGuaqk5nXk@ac7484d03508a957": {
         "verdict": "drop",
-        "reason": "Sustainability emissions Copilot isn't one of this section's capabilities and probably belongs in the sustainability documentation.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "Copilot emissions calculation for sustainability is not one of this section's subtopics and belongs to the sustainability documentation.",
+        "at": "2026-10-20T08:47:26.702Z"
       },
       "video/LW2JNV01sJo@9390216e8557a4e8": {
         "verdict": "drop",
-        "reason": "About a performance-engineering initiative, not the Copilot and agent capabilities in this section.",
-        "at": "2026-10-08T06:27:11.558Z"
-      },
-      "video/q9Q1fOA0818@3296b4acab3246ea": {
-        "verdict": "drop",
-        "reason": "Generic product marketing overview that only mentions AI and Copilot in passing.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "It is about a performance engineering initiative, not the Copilot or agent features in Business Central.",
+        "at": "2026-10-20T08:47:26.702Z"
       },
       "video/sycmF3cJa_s@cd25c971ed004093": {
         "verdict": "drop",
-        "reason": "Partner (PrintVis) Copilot scheduling feature, not a Business Central Copilot capability documented here.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "It shows a partner ISV's (PrintVis) scheduling feature, not a Business Central Copilot capability.",
+        "at": "2026-10-20T08:47:26.702Z"
       },
       "video/YIeE63Kn8sI@897c0a8492c9a254": {
         "verdict": "drop",
-        "reason": "General AI strategy and governance podcast, not specific to Business Central Copilot features.",
-        "at": "2026-10-08T06:27:11.558Z"
+        "reason": "It is a general AI strategy discussion with no tie to the Business Central Copilot features documented here.",
+        "at": "2026-10-20T08:47:26.702Z"
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/analysis-assist": {
@@ -3183,85 +3238,80 @@
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/payables-agent": {
-      "post/demiliani-com/12076@5b87432868359515": {
+      "post/demiliani-com/12076@d1b04fe1b123b407": {
         "verdict": "keep",
-        "reason": "Directly introduces the Payables Agent, its setup, invoice drafting and review flow.",
-        "at": "2026-10-07T23:43:27.865Z"
-      },
-      "post/gerardorenteria-blog/14717@ddb0242f593719db": {
-        "verdict": "drop",
-        "reason": "A community ideas list that does not discuss the Payables Agent.",
-        "at": "2026-10-07T23:43:27.865Z"
+        "reason": "Dedicated introduction to the Payables Agent: setup, getting invoices from email, drafting invoices and human review.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "post/thinkaboutit-be/7496@2f17f066dfd0fbda": {
         "verdict": "keep",
-        "reason": "Describes new Payables Agent capabilities: invoice-to-order matching, confidence scores and wider regional availability.",
-        "at": "2026-10-07T23:43:27.865Z"
+        "reason": "Payables Agent changes lead this update: smarter matching of invoices to orders, confidence scores and more countries.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "post/thinkaboutit-be/7730@406105ea97b49df0": {
         "verdict": "drop",
-        "reason": "Broad release overview whose agent items are generic and never mention the Payables Agent.",
-        "at": "2026-10-07T23:43:27.865Z"
+        "reason": "Broad release-wave overview that mentions agents in general with nothing specific to the Payables Agent.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "post/thinkaboutit-be/8022@3110a9de0da04ba4": {
-        "verdict": "keep",
-        "reason": "Covers the Payables Agent free trial for up to 50 invoices without inbox setup.",
-        "at": "2026-10-07T23:43:27.865Z"
+        "verdict": "drop",
+        "reason": "Roundup of an update where the Payables Agent free trial gets one line among several unrelated features.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
-      "post/thinkaboutit-be/8062@d2549b5be31d02c7": {
-        "verdict": "keep",
-        "reason": "Covers the Payables Agent known senders feature that skips email classification.",
-        "at": "2026-10-07T23:43:27.865Z"
+      "post/thinkaboutit-be/8062@e0a4a986513b2f99": {
+        "verdict": "drop",
+        "reason": "Update roundup, mostly hotfixes, that mentions Payables Agent known senders only in passing.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
-      "video/_JkZCp64jNw@6bf4bcdfe15613cb": {
-        "verdict": "keep",
-        "reason": "Launch event includes a dedicated Payables Agent demo with the purchase document draft page and public preview.",
-        "at": "2026-10-07T23:43:27.865Z"
+      "video/_JkZCp64jNw@2217bab592982dae": {
+        "verdict": "drop",
+        "reason": "Wide-ranging launch keynote where the Payables Agent is one item among dozens of features.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "video/CoQH7Z-leVE@a946fb1e14a9b4ee": {
         "verdict": "drop",
-        "reason": "About Copilot e-invoice matching to purchase orders, a different e-document capability than the Payables Agent.",
-        "at": "2026-10-07T23:43:27.865Z"
+        "reason": "About matching e-invoices with Copilot, an e-documents capability, not the Payables Agent.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
-      "video/D56EVy3JgHA@a3aa4a41b140a0c6": {
+      "video/D56EVy3JgHA@7035a50f0d457a67": {
         "verdict": "drop",
-        "reason": "Covers Copilot purchase order matching for e-documents, a separate feature, not the Payables Agent.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "About purchase order matching for e-documents with Copilot, not the Payables Agent.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "video/FBrZwXpOhmM@61cc46762ba6658d": {
         "verdict": "keep",
-        "reason": "Shows how the Payables Agent explains its reasoning for field suggestions like G/L account and deferral code.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "Shows how the Payables Agent displays the reasoning behind its field suggestions, such as the G/L account and deferral code.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
-      "video/H5EuObmeF4o@631e7d5be9d7787b": {
+      "video/H5EuObmeF4o@12b92711090ce702": {
         "verdict": "drop",
-        "reason": "Broad release-wave roundup where the Payables Agent is a few items among dozens of unrelated features.",
-        "at": "2026-10-07T23:43:27.998Z"
-      },
-      "video/Hct_HE0KzEc@1d52badebaf952ea": {
-        "verdict": "drop",
-        "reason": "General AI-adoption podcast that mentions AI payables processing only in passing next to the Expense Agent.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "Long release-wave roundup where Payables Agent items are a few entries among many.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "video/jWqjDTbqjeE@e7612c33259b3c3c": {
         "verdict": "drop",
-        "reason": "About designing and coding agents in general; the Payables Agent is only cited as an example.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "About designing and building custom agents in general; the Payables Agent appears only as an example.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "video/OvI9jaA1mJY@ecd492f094c95ff3": {
         "verdict": "keep",
-        "reason": "Dedicated what's-new video on Payables Agent matching, pricing, setup and availability.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "Dedicated what's-new video on the Payables Agent: matching, free trial, pricing and wider availability.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
       "video/uh5S1i7uDlo@03d55dcb84604f94": {
         "verdict": "keep",
-        "reason": "Demonstrates the Payables Agent extracting vendor invoices and the manual review step.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "Dedicated demo of processing vendor invoices with the Payables Agent.",
+        "at": "2026-10-20T08:47:31.366Z"
       },
-      "video/YsmwHqxL1Zc@c6a4bf4a4b882cf5": {
+      "video/WjF_sESaIPo@90499687de0e4a50": {
+        "verdict": "drop",
+        "reason": "A customer's own Manifest Agent, a different capability from the Payables Agent.",
+        "at": "2026-10-20T08:47:31.366Z"
+      },
+      "video/YsmwHqxL1Zc@d0a7208a5b3d6c25": {
         "verdict": "keep",
-        "reason": "Introduces the Payables Agent, including e-document intake, draft pages, matching and approval.",
-        "at": "2026-10-07T23:43:27.998Z"
+        "reason": "Dedicated introduction to the Payables Agent and how it processes invoices.",
+        "at": "2026-10-20T08:47:31.366Z"
       }
     },
     "topic/business-central/copilot-and-agent-capabilities/sales-line-suggestion-preview": {
@@ -5854,78 +5904,148 @@
     "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry": {
       "post/duiliotacconi-com/2117@32e1cae61e49212d": {
         "verdict": "drop",
-        "reason": "About the Base64 codeunit; the telemetry warning is a passing mention.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About the Base64 platform codeunit; the 10MB telemetry warning is only a side note.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2146591606221133853@fcf900a3c4e6f22f": {
         "verdict": "drop",
-        "reason": "About ModuleInfo metadata properties, not telemetry.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About ModuleInfo metadata properties, which have nothing to do with telemetry instrumentation.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "keep",
-        "reason": "An app that sends custom telemetry events and start/stop performance markers from AL, which is instrumenting with telemetry.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "Describes an AL app that sends custom telemetry events, including start/stop performance markers, which is what this section documents.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/waldo-be/318065@29cece2e6743ef11": {
         "verdict": "drop",
-        "reason": "About an escape-room training framework; telemetry logging is incidental.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About an escape-room training framework; logging progress with telemetry is only mentioned in passing.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/waldo-be/318423@17fc458deb8da08d": {
         "verdict": "drop",
-        "reason": "About a tool for analysing and querying telemetry, not instrumenting AL code.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About a tool for analysing telemetry with KQL and AI, not about adding telemetry to AL code.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/waldo-be/318461@f91af911708f1aca": {
         "verdict": "drop",
-        "reason": "Performance troubleshooting with a telemetry analysis tool, not instrumentation.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About diagnosing performance by querying telemetry with an AI tool, not about adding telemetry to code.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "post/waldo-be/318571@3d4768e0519fb7a6": {
         "verdict": "drop",
-        "reason": "Reflection on asking good questions in AI telemetry analysis, not instrumentation.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About asking good questions when using AI to analyse telemetry, not about adding telemetry to AL code.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/1x3QyBX3swg@ee99459e60400345": {
         "verdict": "drop",
-        "reason": "About index management; telemetry for index changes is one minor item.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About index management; telemetry for index changes is just one of many topics.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/2u5_F9Ztt7U@c9628e5a248c013e": {
         "verdict": "drop",
-        "reason": "Broad server release overview where telemetry is one passing item.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "A broad release-wave overview in which new platform telemetry signals are only a passing item.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/7rIHz0zrgWU@0a2a4c7fce7506a6": {
-        "verdict": "keep",
-        "reason": "Dedicated to new telemetry signals and events, which the telemetry reference documents.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "verdict": "drop",
+        "reason": "Covers platform telemetry signals, Power BI analysis and alerting, which belong to the administration and monitoring docs, not AL instrumentation.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/b54ehH4AlFA@c33b1c24ca10a36f": {
-        "verdict": "keep",
-        "reason": "Wholly about the telemetry events emitted for financial reports.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "verdict": "drop",
+        "reason": "About telemetry events built into financial reporting, not about how developers add telemetry to their own code.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/dSPRY1_f1S0@9f256eb9ec657947": {
         "verdict": "drop",
-        "reason": "About AL-Go CI/CD; container helper telemetry is incidental.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About AL-Go CI/CD; Container Helper telemetry is only a passing mention.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/EwN3xb2q7vE@fa320b248e55e095": {
         "verdict": "drop",
-        "reason": "About coding agents, a different capability.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About developing Business Central agents; it doesn't mention telemetry.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/F_pssS0FtUc@25880ebddffc054c": {
         "verdict": "drop",
-        "reason": "About consuming telemetry through usage analytics and Power BI reports, not instrumenting code.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "About usage analytics with Power BI on top of telemetry, which is an administration topic rather than AL instrumentation.",
+        "at": "2026-10-20T08:47:13.710Z"
       },
       "video/G0avZpiDFtI@7264c7372179ea55": {
         "verdict": "drop",
-        "reason": "Broad server release overview; the telemetry custom dimension is a passing item.",
-        "at": "2026-10-19T01:10:19.885Z"
+        "reason": "A broad server release overview; new telemetry custom dimensions are only a passing item.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/hNom9ZZuca0@5b5d9c62ba83fb80": {
+        "verdict": "drop",
+        "reason": "About AL testability features; telemetry is only a passing topic.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/hS8yWS3bxWE@7e100c5de254428c": {
+        "verdict": "keep",
+        "reason": "Dedicated to new telemetry signals, which the telemetry reference documentation covers.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/mnxOSl1Y9PI@089d509598986664": {
+        "verdict": "drop",
+        "reason": "A general overview of documentation updates where telemetry is one item among many.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/MYZOkoSmtZ0@a8e7e8d204111672": {
+        "verdict": "keep",
+        "reason": "Shows how to send Business Central telemetry to Application Insights.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/oF_wSP0xrSQ@c7cff12a14b7a32a": {
+        "verdict": "keep",
+        "reason": "Queries Business Central telemetry events, such as lock timeouts, with KQL to analyse them.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/P-7dYVfB73E@14a5977a635463f3": {
+        "verdict": "drop",
+        "reason": "About events and extensibility; event usage telemetry is only mentioned in passing.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/Q-oazDEucLE@d3666c8e7250b9f6": {
+        "verdict": "drop",
+        "reason": "About legacy refactoring and testing; telemetry interception for debug logging is incidental.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/QT3RKx9rGJA@d632bf30b41caa87": {
+        "verdict": "drop",
+        "reason": "An AL-Go office hour where the AL-Go telemetry module is one item among many.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/rdnYN7czJs4@d38ce1f343d400ae": {
+        "verdict": "drop",
+        "reason": "About AL-Go's own workflow telemetry, not instrumenting Business Central or AL apps.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/tDcT_51ktqo@3e69e4eb8e760295": {
+        "verdict": "keep",
+        "reason": "Demonstrates the new exclusive time telemetry signal.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/TY82NR2hGEg@3608ce5783de6b25": {
+        "verdict": "drop",
+        "reason": "About developer tools; 'reference documentation' here means AL Doc, not telemetry.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/UGmL665HtzE@8d71a5ff7084d22c": {
+        "verdict": "drop",
+        "reason": "An AL-Go office hour about the AL-Go telemetry dashboard and templates, not Business Central telemetry.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/Vo5DgXnKiPo@31288a887c17b642": {
+        "verdict": "drop",
+        "reason": "About large-scale development with AL-Go; telemetry here is AL-Go pipeline telemetry.",
+        "at": "2026-10-20T08:47:13.710Z"
+      },
+      "video/VX_aPhcsIOc@d383b07696a142e3": {
+        "verdict": "keep",
+        "reason": "Covers cost control and daily caps for Business Central telemetry.",
+        "at": "2026-10-20T08:47:13.710Z"
       }
     },
     "topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry/reference-documentation-telemetry": {
@@ -7436,160 +7556,75 @@
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c": {
-      "post/aardvarklabs-blog/1609@395f10615dcb8659": {
+      "post/aardvarklabs-blog/1609@e19ddf28b0a4650a": {
         "verdict": "keep",
-        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, including registering the capability, prompts and chat completion parameters.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "Walks through building a Copilot capability in AL with Azure OpenAI, registering the capability, prompts and chat completion parameters.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
-      "post/aardvarklabs-blog/2467@205b06250fab352f": {
-        "verdict": "keep",
-        "reason": "Builds an AI feature in Business Central that calls Azure OpenAI with system prompts and JSON responses, which is the developer Copilot toolkit pattern.",
-        "at": "2026-10-08T06:26:31.819Z"
-      },
-      "post/aardvarklabs-blog/3032@98d6ed1d6f9c8ba7": {
+      "post/aardvarklabs-blog/3032@b2126634ce847fc1": {
         "verdict": "drop",
-        "reason": "About using Microsoft 365 Copilot to analyse documents, not about building Copilot features in Business Central.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "About using Microsoft 365 Copilot to analyze documentation, not about building Copilot features with the AL developer tools.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/aardvarklabs-blog/3388@a26d707ae76ae10e": {
         "verdict": "drop",
-        "reason": "A tradeshow schedule that only mentions AI sessions; too general to tell what it covers.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "A conference schedule that mentions AI sessions too broadly to tie to this section.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/aardvarklabs-blog/3761@2a9ce21efe398e57": {
         "verdict": "drop",
-        "reason": "Uses Copilot to write index code for performance tuning; the subject is indexes, not building Copilot features.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "Uses a Copilot chat prompt to suggest database indexes; it's about performance, not building Copilot in AL.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
-      "post/bertverbeek-nl/1183@26a794a8dc6c0723": {
+      "post/demiliani-com/12186@61df6ee5fe5ed9cb": {
         "verdict": "drop",
-        "reason": "About the MCP server and the Agent Framework, which the sibling MCP section covers.",
-        "at": "2026-10-08T06:26:31.819Z"
-      },
-      "post/demiliani-com/11666@ca77f7a0067e0f2a": {
-        "verdict": "drop",
-        "reason": "Explains MCP and an MCP server for Admin Center, which belongs to the sibling MCP section.",
-        "at": "2026-10-08T06:26:31.819Z"
-      },
-      "post/demiliani-com/12186@49352f173d3b0c99": {
-        "verdict": "drop",
-        "reason": "About Azure AI Foundry Model Router; the AL Copilot SDK comes up only in passing.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "About Azure AI Foundry Model Router; the AL Copilot SDK only comes up in passing.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/demiliani-com/12368@078a7c6215211eb6": {
         "verdict": "drop",
-        "reason": "A general discussion of AI-assisted coding, unrelated to the Copilot developer toolkit.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "A general discussion of AI-assisted coding, unrelated to building Copilot features in Business Central.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
-      "post/demiliani-com/13611@0a02d3a34d2c1c55": {
-        "verdict": "keep",
-        "reason": "Discusses how the System.AI namespace wraps Chat Completions, with its guardrails and telemetry, and how it could evolve.",
-        "at": "2026-10-08T06:26:31.819Z"
+      "post/demiliani-com/13882@61fb21ca95b64bb5": {
+        "verdict": "drop",
+        "reason": "About running the AL MCP Server from GitHub Copilot CLI, which is developer tooling rather than building Copilot capabilities.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/weekly-review-business-central-al-development-may-31-june-6-2026/@761a16b283fbab43": {
         "verdict": "drop",
-        "reason": "A weekly roundup whose AI item is agent model selection APIs, which the sibling agents section covers.",
-        "at": "2026-10-08T06:26:31.819Z"
+        "reason": "A weekly roundup whose AI part covers agent model selection APIs, which belong to the agents section.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/gerardorenteria-blog/13945@365fea57b8055275": {
         "verdict": "drop",
-        "reason": "About setting up GitHub Copilot's context per VS Code workspace, not about building Copilot features in Business Central.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/gerardorenteria-blog/1968@7abc5c7976e1b7c7": {
-        "verdict": "drop",
-        "reason": "About VS Code release features (agents, MCP, browser); its summary was withheld and nothing shows it covers the Business Central Copilot developer tools.",
-        "at": "2026-10-08T06:26:34.460Z"
+        "reason": "About configuring the GitHub Copilot workspace context, not building Copilot in Business Central.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-2130488198731903549@66de06cfa3c6657f": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot as a coding assistant for AL, not about extending Copilot in Business Central.",
-        "at": "2026-10-08T06:26:34.460Z"
+        "reason": "About GitHub Copilot modes for writing AL code, not the Copilot developer toolkit.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-48-save-prompt-file/@394ad60015955931": {
         "verdict": "drop",
-        "reason": "About saving GitHub Copilot prompt files in VS Code, a developer productivity tip rather than the Business Central Copilot toolkit.",
-        "at": "2026-10-08T06:26:34.460Z"
+        "reason": "About saving GitHub Copilot prompt files in VS Code, which is developer productivity rather than this section.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/thinkaboutit-be/7328@2623d658481b6bf4": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot's Chat, Ask and Edit modes for writing AL code, not about building Copilot features.",
-        "at": "2026-10-08T06:26:34.460Z"
+        "reason": "About GitHub Copilot's chat, ask and edit modes for AL coding, not building Copilot features.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/thinkaboutit-be/7383@9fafaea6c7aad6a6": {
         "verdict": "drop",
-        "reason": "About GitHub Copilot's Plan mode in AL coding, not about integrating AI into Business Central.",
-        "at": "2026-10-08T06:26:34.460Z"
+        "reason": "About GitHub Copilot plan mode for AL design, not building Copilot features.",
+        "at": "2026-10-20T08:47:30.331Z"
       },
       "post/thinkaboutit-be/7402@7b381117d3cd2a73": {
         "verdict": "drop",
-        "reason": "About when to use each GitHub Copilot mode in AL development, not about the Business Central Copilot developer tools.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/thinkaboutit-be/7414@c1de822ac8d233a5": {
-        "verdict": "drop",
-        "reason": "A personal year-in-review about using GitHub Copilot; too general and about a different capability.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/thinkaboutit-be/7486@6ca91afafb5347a7": {
-        "verdict": "drop",
-        "reason": "About GitHub Copilot's Plan mode compared with agents for AL coding, not about extending Copilot in Business Central.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/thinkaboutit-be/7660@af07024c657abcce": {
-        "verdict": "drop",
-        "reason": "About saving time with GitHub Copilot's modes in AL projects, not about building Copilot capabilities.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/thinkaboutit-be/7877@415b928cfd21a1ac": {
-        "verdict": "drop",
-        "reason": "About GitHub Copilot billing; its summary was withheld and it is unrelated to the Business Central Copilot developer tools.",
-        "at": "2026-10-08T06:26:34.460Z"
-      },
-      "post/thinkaboutit-be/8204@bbb2f096074299d7": {
-        "verdict": "keep",
-        "reason": "Covers Microsoft-managed Azure OpenAI resources becoming generally available for developers building Copilot extensions, which is part of the Copilot developer tools.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/7SSNcUMFtCw@0a389bab8e080e1f": {
-        "verdict": "keep",
-        "reason": "Walks through AI Resources for developers: managed or bring-your-own Azure OpenAI, the Azure OpenAI Deployments codeunit, and system prompts for Copilot extensions.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/9zQZHfXK-PQ@237bf08af0482778": {
-        "verdict": "drop",
-        "reason": "About using GitHub Copilot to write project documentation, not about building Copilot features in Business Central.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/d8SZ81uxj_k@11f1da8c6f926fa5": {
-        "verdict": "drop",
-        "reason": "A talk on public speaking and using AI to build presentations; unrelated to Copilot developer tools.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/IDYhxt-8ImI@e23e62ed048f8888": {
-        "verdict": "drop",
-        "reason": "About consultants using Microsoft 365 Copilot during project delivery, not developing Copilot extensions.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/Ir5BCNHgLm8@1d71e6d7d19f2abf": {
-        "verdict": "drop",
-        "reason": "About learning AL with Claude as a coding assistant, not about the Copilot developer toolkit.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/K8nFVw5M-Po@dc51692b1ab77758": {
-        "verdict": "drop",
-        "reason": "About AI-assisted AL coding with GitHub Copilot agent mode, not about building Copilot capabilities into apps.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/lNASlydCidI@22cc3fc62993bd91": {
-        "verdict": "keep",
-        "reason": "Directly demonstrates the generative AI developer toolkit: the prompt dialog page type, the AI module, capability registration and Azure OpenAI calls.",
-        "at": "2026-10-08T06:26:38.164Z"
-      },
-      "video/nbGw2g3KMXI@c6dea39b6e68bacc": {
-        "verdict": "drop",
-        "reason": "About building custom AL agents, which the sibling section 'Designing and coding agents' covers.",
-        "at": "2026-10-08T06:26:38.164Z"
+        "reason": "A mental model for using GitHub Copilot to write AL, unrelated to building Copilot features with the AL tools.",
+        "at": "2026-10-20T08:47:30.331Z"
       }
     },
     "topic/dev-itpro/integration-with-ai/integrate-ai-using-developer-tools-for-c/extend-copilot-in-business-central": {

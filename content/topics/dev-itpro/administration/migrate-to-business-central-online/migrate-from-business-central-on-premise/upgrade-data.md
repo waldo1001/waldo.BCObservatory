@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:41.499Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,9 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12907
+    - change/bcapps/12939
 learn_toc_path:
   - Administration
   - Migrate to Business Central online
@@ -92,5 +95,12 @@ Start with "Run data upgrade" to understand the full flow. Read the skip API pag
 
 - [Run data upgrade](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-data-upgrade): This article explains the process for running the data upgrade as part of cloud migration.
 - [Skip API data upgrade in cloud migration](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/migration-skip-api-data-upgrade): This article explains things you can skip the API data upgrade during cloud migration and complete it after going live
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12907 Fix direct transfer upgrade without Inventory Setup](../../../../../changes/bcapps/12907.md) (code change): "Direct transfer order upgrade now handles missing Inventory Setup"
+- [#12939 Bug 654493: [29.x] ICM 51000002285173: Fix direct transfer upgrade](../../../../../changes/bcapps/12939.md) (code change): "The Base Application upgrade of direct transfer orders no longer reads Inventory Setup"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

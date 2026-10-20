@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:30.848Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -142,8 +142,6 @@ links:
   videos: []
   posts: []
   guidelines: []
-  changes:
-    - change/bcapps/12189
 learn_toc_path:
   - Integrate with other applications
   - Microsoft Power Platform
@@ -202,12 +200,6 @@ A separate page describes Power Pages on virtual tables (preview), which lets un
 
 - [Integrate with Microsoft Power Platform](https://learn.microsoft.com/dynamics365/business-central/powerplatform-integration-overview): Learn how to integrate Business Central with the Microsoft Power Platform
 - [Power Pages on virtual tables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/power-pages-on-virtual-tables-overview): How-to description
-
-## Videos, posts and code changes
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [#12189 Removing the restriction of deploying Power BI reports only to evaluation companies](../../../changes/bcapps/12189.md) (code change): "Power BI report deployment now works with regular companies"
 
 ## Business Central pages and reports
 

@@ -20,5 +20,18 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.011751000000000001
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-20T08:48:51.538Z",
+    "verdict": "approve",
+    "issues": [
+      "Minor: the key point 'check the path to your target version first' reads a little more into the Upgrade summary than it says. The summary only says the subtopic answers 'which route reaches a target version, what to check first', so the advice is a reasonable reading.",
+      "Minor: the overview's suggested order (Deployment, then Administration, then Upgrade) is the writer's own reading guidance. The sources don't state it, but it is harmless and fits what each subtopic covers.",
+      "Minor: 'tooltip support is included' rests only on the feature tag of the help migration page, so the narrative shouldn't expand on it."
+    ],
+    "input_hash": "d03cf855f117d7c9b943d901fe32ae1891fcba32090a782ea498a6661412fe17",
+    "cost_usd": null
   }
 }

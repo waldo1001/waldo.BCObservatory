@@ -2,7 +2,7 @@
 id: app/subscription-billing
 type: app
 title: Subscription Billing
-summary: "Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs."
+summary: "Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video."
 tier: official
 language: en
 tags:
@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-20T08:45:34.451Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 094fd20dfc65d8111fada3359bb3d42fac3e37fcd2ac1e7a08259d02c77739fa
+  input_hash: 833be2a2d8255a1e51d52d6feb23596e6443e800d73b67ab814f01044cb7f1e0
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Subscription%20Billing/app
@@ -238,7 +238,8 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing
     - topic/business-central/business-functionality/sales/subscription-billing/sales
   localizations: []
-  videos: []
+  videos:
+    - video/5xeATIUFiGg
   posts: []
   guidelines: []
 app: Subscription Billing
@@ -264,13 +265,13 @@ counts:
     interface: 2
     profile: 1
   hubs: 5
-  videos: 0
+  videos: 1
   posts: 0
 ---
 
 # Subscription Billing
 
-> Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs.
+> Subscription Billing (Microsoft.SubscriptionBilling): 372 objects in BC29-30 (113 pages, 60 codeunits, 58 page extensions, 44 tables, 34 enums, ...); documented by 5 Learn hubs; 1 video.
 
 First-party app · folder `src/Apps/W1/Subscription Billing/app` · namespace `Microsoft.SubscriptionBilling` · BC29-30 · system sales · facts from the code pillar and the joins, nothing machine-written
 
@@ -729,5 +730,11 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 | Id | Name | Caption |
 |---|---|---|
 |  | [Subscription Billing](../objects/profile/subscription-billing.md) |  |
+
+## Videos and posts
+
+Videos and posts that name this app's objects by exact type and name.
+
+- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (video, 2026-10-19): names Table 8052 "Customer Subscription Contract"
 
 Source: [src/Apps/W1/Subscription Billing/app](https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Subscription%20Billing/app); objects from data/code/, hubs from data/index/docs-objects.json through the object pages.

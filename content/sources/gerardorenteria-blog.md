@@ -2,7 +2,7 @@
 id: source/gerardorenteria-blog
 type: source
 title: Gerardo Renteria
-summary: "Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, finance."
+summary: "Gerardo Renteria: 79 posts in the knowledge base, 2025-04-11 to 2026-10-19, mostly about development, administration, finance."
 tier: community
 language: es
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-20T08:10:49.229Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 7a8b271b32b5079fc6b0dc6d254034d5fa354efa9fd75d0e6c745fa711dd503b
+  input_hash: c0815c3823db623b7b1124cf052d26b5377178db1b9ce1964ab68609eafa7829
 evidence:
   - kind: blog
     url: https://gerardorenteria.blog
@@ -85,7 +85,6 @@ links:
     - post/gerardorenteria-blog/13945
     - post/gerardorenteria-blog/14103
     - post/gerardorenteria-blog/13993
-    - post/gerardorenteria-blog/14079
     - post/gerardorenteria-blog/14231
     - post/gerardorenteria-blog/12166
     - post/gerardorenteria-blog/14585
@@ -96,11 +95,9 @@ links:
     - post/gerardorenteria-blog/14610
     - post/gerardorenteria-blog/14663
     - post/gerardorenteria-blog/14717
-    - post/gerardorenteria-blog/13744
     - post/gerardorenteria-blog/14730
     - post/gerardorenteria-blog/14816
     - post/gerardorenteria-blog/14894
-    - post/gerardorenteria-blog/14469
     - post/gerardorenteria-blog/14979
     - post/gerardorenteria-blog/14993
     - post/gerardorenteria-blog/15051
@@ -110,7 +107,11 @@ links:
     - post/gerardorenteria-blog/15298
     - post/gerardorenteria-blog/1940
     - post/gerardorenteria-blog/15390
+    - post/gerardorenteria-blog/14469
+    - post/gerardorenteria-blog/15469
     - post/gerardorenteria-blog/1968
+    - post/gerardorenteria-blog/13744
+    - post/gerardorenteria-blog/14079
   guidelines: []
 source_id: gerardorenteria-blog
 kind: blog
@@ -118,46 +119,50 @@ url: https://gerardorenteria.blog
 author: Gerardo Renteria
 mvp: false
 full_text: false
-item_count: 78
+item_count: 79
 footprint:
   systems:
     - id: development
-      weight: 86
+      weight: 84
     - id: administration
       weight: 31
     - id: finance
-      weight: 25
-    - id: platform
-      weight: 25
+      weight: 27
     - id: copilot
       weight: 24
+    - id: platform
+      weight: 24
     - id: sales
-      weight: 21
+      weight: 22
   topics:
     - id: feature requests
       weight: 14
     - id: al development
       weight: 12
     - id: localization
-      weight: 11
+      weight: 12
+    - id: copilot
+      weight: 10
     - id: user experience
       weight: 10
-    - id: copilot
-      weight: 9
     - id: cumulative updates
       weight: 9
     - id: hotfixes
       weight: 9
     - id: on-premises
       weight: 8
-    - id: community ideas
-      weight: 6
     - id: financial management
+      weight: 7
+    - id: community ideas
       weight: 6
   objects:
     - id: codeunit MyCodeunit
       weight: 2
     - id: codeunit MyCodeunitTests
+      weight: 2
+    - id: other Item Ledger Entry
+      weight: 2
+    - id: other Value Entry
       weight: 2
     - id: table Vendor Ledger Entries
       weight: 2
@@ -175,18 +180,14 @@ footprint:
       weight: 1
     - id: codeunit Error Message Management
       weight: 1
-    - id: codeunit GDRG Achievement Events
-      weight: 1
-    - id: codeunit GDRG Achievement Processor
-      weight: 1
   features: []
 first_item: "2025-04-11"
-last_item: "2026-09-23"
+last_item: "2026-10-19"
 ---
 
 # Gerardo Renteria
 
-> Gerardo Renteria: 78 posts in the knowledge base, 2025-04-11 to 2026-09-23, mostly about development, administration, finance.
+> Gerardo Renteria: 79 posts in the knowledge base, 2025-04-11 to 2026-10-19, mostly about development, administration, finance.
 
 [https://gerardorenteria.blog](https://gerardorenteria.blog) · blog · tier community
 
@@ -194,18 +195,18 @@ last_item: "2026-09-23"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (86) | feature requests (14) | codeunit MyCodeunit (2) |
+| development (84) | feature requests (14) | codeunit MyCodeunit (2) |
 | administration (31) | al development (12) | codeunit MyCodeunitTests (2) |
-| finance (25) | localization (11) | table Vendor Ledger Entries (2) |
-| platform (25) | user experience (10) | codeunit 1255 (1) |
-| copilot (24) | copilot (9) | codeunit 415 (1) |
-| sales (21) | cumulative updates (9) | codeunit 90 (1) |
-|  | hotfixes (9) | codeunit CLBlameMgmt (1) |
-|  | on-premises (8) | codeunit DimensionManagement (1) |
-|  | community ideas (6) | codeunit Error Message Handler (1) |
-|  | financial management (6) | codeunit Error Message Management (1) |
-|  |  | codeunit GDRG Achievement Events (1) |
-|  |  | codeunit GDRG Achievement Processor (1) |
+| finance (27) | localization (12) | other Item Ledger Entry (2) |
+| copilot (24) | copilot (10) | other Value Entry (2) |
+| platform (24) | user experience (10) | table Vendor Ledger Entries (2) |
+| sales (22) | cumulative updates (9) | codeunit 1255 (1) |
+|  | hotfixes (9) | codeunit 415 (1) |
+|  | on-premises (8) | codeunit 90 (1) |
+|  | financial management (7) | codeunit CLBlameMgmt (1) |
+|  | community ideas (6) | codeunit DimensionManagement (1) |
+|  |  | codeunit Error Message Handler (1) |
+|  |  | codeunit Error Message Management (1) |
 
 ## Flight path
 
@@ -214,13 +215,18 @@ Items per quarter, oldest first:
 - 2025-Q2: ********** 10
 - 2025-Q3: ************* 13
 - 2025-Q4: ****************** 18
-- 2026-Q1: ************** 14
-- 2026-Q2: ************* 13
+- 2026-Q1: ************* 13
+- 2026-Q2: *********** 11
 - 2026-Q3: ********** 10
+- 2026-Q4: **** 4
 
 ## Most recent
 
-- [Visual Studio Code – versions](../posts/gerardorenteria-blog/1968.md) (2026-09-23)
+- [AL Language extension for Microsoft Dynamics 365 Business Central – versions](../posts/gerardorenteria-blog/14079.md) (2026-10-19)
+- [Cumulative Updates for Business Central – versions](../posts/gerardorenteria-blog/13744.md) (2026-10-19)
+- [Visual Studio Code – versions](../posts/gerardorenteria-blog/1968.md) (2026-10-14)
+- [New Application Ideas of Dynamics 365 Business Central (2026 SEP)](../posts/gerardorenteria-blog/15469.md) (2026-10-02)
+- [GIT](../posts/gerardorenteria-blog/14469.md) (2026-09-28)
 - [New Application Ideas of Dynamics 365 Business Central (2026 AUG)](../posts/gerardorenteria-blog/15390.md) (2026-09-14)
 - [BcContainerHelper – versions](../posts/gerardorenteria-blog/1940.md) (2026-09-09)
 - [🚩 Evidence Flags: More trust signal, fewer words](../posts/gerardorenteria-blog/15298.md) (2026-08-31)
@@ -230,15 +236,11 @@ Items per quarter, oldest first:
 - [🔎 Change Log Blame View: View change history in a different way](../posts/gerardorenteria-blog/15051.md) (2026-07-17)
 - [🧭 Page Explorer for Business Central: everything a page hides, in plain sight](../posts/gerardorenteria-blog/14993.md) (2026-07-10)
 - [New Application Ideas of Dynamics 365 Business Central (2026 JUN)](../posts/gerardorenteria-blog/14979.md) (2026-07-07)
-- [GIT](../posts/gerardorenteria-blog/14469.md) (2026-06-29)
 - [💸The answer is the expensive part: controlling output tokens](../posts/gerardorenteria-blog/14894.md) (2026-06-21)
 - [World Cup in Business Central: predictions and results ⚽🥅](../posts/gerardorenteria-blog/14816.md) (2026-06-11)
 - [🪶 How to slim down the prompt and spend fewer credits in Github Copilot](../posts/gerardorenteria-blog/14730.md) (2026-06-04)
-- [Cumulative Updates for Business Central – versions](../posts/gerardorenteria-blog/13744.md) (2026-06-01)
 - [New Application Ideas of Dynamics 365 Business Central (2026 MAY)](../posts/gerardorenteria-blog/14717.md) (2026-06-01)
 - [🧠 Global memory for your VS Code agent: preferences that follow you](../posts/gerardorenteria-blog/14663.md) (2026-05-18)
 - [🔍 Visualize your AL objects in a tree view, filter and navigate directly in VS Code](../posts/gerardorenteria-blog/14610.md) (2026-05-16)
-- [🪝 VS Code Agent Hooks: Give Copilot Context Before the First Message](../posts/gerardorenteria-blog/14522.md) (2026-05-03)
-- [New Application Ideas of Dynamics 365 Business Central (2026 APR)](../posts/gerardorenteria-blog/14595.md) (2026-05-01)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

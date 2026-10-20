@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -198,7 +198,8 @@ links:
   localizations: []
   videos:
     - video/zt9_HEmPKNg
-  posts: []
+  posts:
+    - post/olofsimren-com/3865
   guidelines: []
   changes:
     - change/bcapps/10343
@@ -206,6 +207,7 @@ links:
     - change/bcapps/10369
     - change/bcapps/10565
     - change/bcapps/10899
+    - change/bcapps/12098
     - change/bcapps/12370
     - change/bcapps/9067
     - change/bcapps/9122
@@ -225,7 +227,7 @@ coverage:
   learn: 13
   code: 67
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 911
@@ -350,6 +352,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10369 Bug 640428: Fix Production BOM Comment Line TableRelation filters](../../../../changes/bcapps/10369.md) (code change): "to properly filter by version. The Version Code field now shows all"
 - [#10565 Add default manufacturing version number series](../../../../changes/bcapps/10565.md) (code change): "Manufacturing Setup now supports optional default number series for production BOM"
 - [#10899 [Extensibility Request] issue 30433: expose consolidated calendar entry before insert](../../../../changes/bcapps/10899.md) (code change): "new integration event exposes consolidated work center calendar entries and their source data"
+- [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/12098.md) (code change): "carrying out planning worksheet action messages for production"
 - [#12370 Guard removed Manufacturing Setup fields with CLEANSCHEMA30 preprocessor](../../../../changes/bcapps/12370.md) (code change): "Manufacturing Setup fields marked as removed in version 30.0"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Production Definition Wizard is introduced as a guided multi-step interface for configuring Bill of Materials and Routing"
 - [#9122 Bug 641488: Add "Calendar Entries Available Until" FlowField to Work/Machine Center](../../../../changes/bcapps/9122.md) (code change): "new FlowField called Calendar Entries Available Until has been added to Work Center and Machine Center"
@@ -358,6 +361,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9277 Add PRODUCED item template to Contoso Coffee manufacturing demo data](../../../../changes/bcapps/9277.md) (code change): "PRODUCED item template with manufacturing-specific settings like replenishment system, manufacturing policy"
 - [#9787 [Subcontracting] Added actionable notification when a vendor does not have a subcontracting location code](../../../../changes/bcapps/9787.md) (code change): "enabling early detection of missing configuration before downstream"
 - [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Added assisted setup guide for initial app configuration"
+- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../../posts/olofsimren-com/3865.md) (community post): "Built configuration tables for business rules instead of hard-coded customizations"
 - [Manufacturing Foundations Capacities (2026)](../../../../videos/zt9_HEmPKNg.md) (video): "work centers; machine centers; shop calendar; work shifts; production scheduling"
 
 ## Business Central pages and reports

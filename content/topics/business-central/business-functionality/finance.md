@@ -7,12 +7,12 @@ tier: official
 language: en
 system: finance
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-20T08:48:51.538Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -852,7 +852,8 @@ links:
     - topic/business-central/business-functionality/finance/multi-site-and-international-organizatio
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/15469
   guidelines: []
   changes:
     - change/bcapps/10049
@@ -887,7 +888,7 @@ coverage:
   learn: 256
   code: 524
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -1431,7 +1432,7 @@ narrative: generated
 
 > Finance in Business Central covers general ledger and accounting, period closing, dimensions, currencies, receivables, payables, bank reconciliation, VAT, withholding and excise tax, cost accounting, inventory costs, cash flow, financial analytics, E-Documents and multi-company setups. It answers setup and how-to questions for accountants and finance teams.
 
-Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative **unreviewed** (model text not yet checked)
+Path: [Business functionality](../business-functionality.md) > Finance · tier official · system finance · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -1491,6 +1492,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
+- [New Application Ideas of Dynamics 365 Business Central (2026 SEP)](../../../posts/gerardorenteria-blog/15469.md) (community post): "covering copilot integration, financial management, localization, inventory"
 
 ## Business Central pages and reports
 

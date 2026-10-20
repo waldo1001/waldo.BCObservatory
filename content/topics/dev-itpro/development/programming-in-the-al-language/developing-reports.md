@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -352,7 +352,6 @@ links:
     - change/bcapps/10489
     - change/bcapps/11137
     - change/bcapps/11211
-    - change/bcapps/7938
     - change/bcapps/9428
     - change/bcapps/9433
     - change/bcapps/9453
@@ -453,7 +452,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10489 MSlenejennum/647452/new header and footer layouts and report themes](../../../../changes/bcapps/10489.md) (code change): "New composite report parts management codeunit seeds 11 header/footer designs and 3 themes"
 - [#11137 Composite Report Parts: seed via a report extension instead of install/upgrade code](../../../../changes/bcapps/11137.md) (code change): "Report extension replaces SeedPart-based install/upgrade code for seeding"
 - [#11211 [Bug 649379] Composite layout stress-test fixes, part resolution source and status action captions](../../../../changes/bcapps/11211.md) (code change): "Fixes composite report layout defects: a new layout can no longer overwrite"
-- [#7938 Bugs/632378 make quality inspection gen rule warning actionable](../../../../changes/bcapps/7938.md) (code change): "the Create Inspection report and the receiving and warehouse"
 - [#9428 637301 Report layout override lifecycle](../../../../changes/bcapps/9428.md) (code change): "Report layout overrides for extension-installed layouts now write Tenant Report Layout Override"
 - [#9433 636017 Move Item Price List and Res. Price List report action tooltip…](../../../../changes/bcapps/9433.md) (code change): "Report action tooltips for Item Price List and Res. Price List reports are moved"
 - [#9453 [Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)](../../../../changes/bcapps/9453.md) (code change): "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call"

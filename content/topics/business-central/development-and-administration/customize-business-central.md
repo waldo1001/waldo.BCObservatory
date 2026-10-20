@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:12.145Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -310,6 +310,8 @@ links:
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72
   guidelines: []
+  changes:
+    - change/bcapps/9953
 learn_toc_path:
   - Development and administration
   - Customize Business Central
@@ -485,10 +487,11 @@ The subtopic "Customize with extensions" (26 pages) covers installing, uninstall
 - [Enable Premium features](https://learn.microsoft.com/dynamics365/business-central/ui-experiences): Learn what the Essentials and Premium user experience tiers mean for the user interface, application areas, and your company.
 - [Set up your customized colored indicators for a Cue's activity](https://learn.microsoft.com/dynamics365/business-central/admin-how-set-up-colored-indicator-on-cues): As an administrator, you can set up Cues that appear on the users' Role Centers to include an indicator that changes color based on the data values in the Cues.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9953 Rename AppSource UI text to Marketplace](../../../changes/bcapps/9953.md) (code change): "User-facing text that references AppSource has been updated to use Marketplace"
 - [Business Central v29: Use System Audit Fields in Analysis Mode and Profiles](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1316829649948552218--6073a47e72.md) (community post): "administrators to use system audit fields in Analysis Mode and Profile customizations"
 - [What's new: Add existing table fields to pages (2023 release wave 2)](../../../videos/iHgaNJucyvI.md) (video): "Add existing table fields to pages; role customization; personalization; page design"
 

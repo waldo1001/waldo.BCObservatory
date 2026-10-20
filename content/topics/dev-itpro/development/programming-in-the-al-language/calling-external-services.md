@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: eead9e120b94f7d5b45a58b449ef229542f62f87c6394cb33d7c415a93f0762e
@@ -102,6 +102,8 @@ links:
     - change/bcapps/11612
     - change/bcapps/11993
     - change/bcapps/12140
+    - change/bcapps/12194
+    - change/bcapps/12755
     - change/bcapps/5833
     - change/bcapps/8499
     - change/bcapps/9744
@@ -149,6 +151,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11612 Multiple runs of email retrieval on the same emails don't persist again](../../../../changes/bcapps/11612.md) (code change): "Email retrieval no longer creates duplicate entries when the same emails are retrieved"
 - [#11993 Enable HTTP requests before Expense Agent setup](../../../../changes/bcapps/11993.md) (code change): "The setup wizard enables HTTP client requests for the Expense Agent extension"
 - [#12140 [Email - SMTP Connector] Fix OAuth Base64URL token parsing](../../../../changes/bcapps/12140.md) (code change): "OAuth2 SMTP authentication now correctly decodes Base64URL tokens"
+- [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "Http Web Request Mgt. and SOAP Web Service Request Mgt. now disable default credentials"
+- [#12755 Flow Service Management: use native HttpClient instead of Web Request Helper](../../../../changes/bcapps/12755.md) (code change): "Flow Service Management.GetEnvironments now calls the endpoint through native AL HttpClient"
 - [#5833 Add Microsoft Graph API Support to SharePoint Connector](../../../../changes/bcapps/5833.md) (code change): "SharePoint Connector now supports Microsoft Graph API as an alternative to REST API"
 - [#8499 Adding `IsVerifiedDomain` to the `AzureADTenant` module](../../../../changes/bcapps/8499.md) (code change): "checks whether a domain is among the tenant's verified domains"
 - [#9744 [Email - Outlook REST API] Skip attachments without contentBytes in RetrieveEmails](../../../../changes/bcapps/9744.md) (code change): "Attachments without contentBytes (item and reference attachments) are now skipped"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -111,6 +111,7 @@ links:
     - change/bcapps/10447
     - change/bcapps/10970
     - change/bcapps/11824
+    - change/bcapps/9168
     - change/bcapps/9712
     - change/bcapps/9850
     - change/bcquality/133
@@ -181,6 +182,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10447 [Bug][Subscription Billing] Price Update Template filters on Subscription Lines are overwritten by the proposal's own default filters](../../../../../changes/bcapps/10447.md) (code change): "Price Update Template filters on Subscription Lines are now correctly preserved"
 - [#10970 [Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods](../../../../../changes/bcapps/10970.md) (code change): "Fixed subscription billing to correctly include usage data entries whose charge periods span"
 - [#11824 [29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../../changes/bcapps/11824.md) (code change): "Sales Subscription Line creation now correctly handles cached Sales Line data"
+- [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
 - [#9712 [master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.](../../../../../changes/bcapps/9712.md) (code change): "Fixed missing email and phone number update when 'Sell-to Contact No.' is validated"
 - [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"

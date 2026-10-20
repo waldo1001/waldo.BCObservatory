@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,9 +153,6 @@ links:
     - post/gerardorenteria-blog/12166
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d
   guidelines: []
-  changes:
-    - change/bcapps/8051
-    - change/bcapps/8318
 learn_toc_path:
   - Integration
   - Integrating Business Central with Office apps and Microsoft 365
@@ -218,12 +215,10 @@ Excel and Word pages cover both users and report authors (Edit in Excel, report 
 - [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to install the Business Central add-in for Outlook for your organization or for your own use.
 - [Integrating with Office apps and Microsoft 365](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/m365-integration-overview): Learn how to integrate Business Central with Office apps and Microsoft 365.
 
-## Videos, posts and code changes
+## Videos and posts
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../changes/bcapps/8051.md) (code change): "Edit in Excel codeunit now exposes a public procedure for OData object name conversion"
-- [#8318 SharePoint Graph Module - extend functionality with additional methods](../../../changes/bcapps/8318.md) (code change): "SharePoint Graph module gains update and rename operations for drive items"
 - [📅 Exporting ICS (Calendar) Files for Business Central 💡](../../../posts/gerardorenteria-blog/12166.md) (community post): "RFC 5545 ICS calendar files from Business Central, shown on the Customer Card and the Sales Order"
 - [D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d.md) (community post): "Edit in Excel allows direct editing of Business Central records in Excel"
 

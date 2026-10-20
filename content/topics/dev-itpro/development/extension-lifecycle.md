@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -288,6 +288,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10675
+    - change/bcapps/12671
     - change/bcapps/9601
     - change/bcquality/177
     - change/bcquality/93
@@ -370,6 +371,7 @@ Subtopics go deeper on each stage: testing, deploying and installing, updating a
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10675 Temporarily suppress AS0072 (ObsoleteTag 29.0) on 10 Base App elements for v30 prep](../../../changes/bcapps/10675.md) (code change): "pragma warning suppressions around ObsoleteTag = '29.0' lines on 10 Base App elements"
+- [#12671 Fix extension settings actions and repeated marketplace installation](../../../changes/bcapps/12671.md) (code change): "extension lifecycle actions like Uninstall, and prevents repeated marketplace installation prompts"
 - [#9601 Reset workflow templates no longer removes steps from active workflows](../../../changes/bcapps/9601.md) (code change): "Reset workflow templates no longer removes steps from active workflows"
 - [#177 Add retention policy knowledge to the privacy domain](../../../changes/bcquality/177.md) (code change): "Added guidance to the privacy domain in BCQuality about registering extension-owned tables"
 - [#93 Fix lifecycle compatibility guidance](../../../changes/bcquality/93.md) (code change): "Knowledge articles and samples on error handling, events, interfaces, upgrade, testing, web services"

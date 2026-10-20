@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 90 code changes in the knowledge base, 2026-07-09 to 2026-10-06, mostly about development, platform, administration."
+summary: "microsoft/BCQuality pull requests: 93 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-08T01:26:53.141Z"
+  at: "2026-10-20T08:10:49.229Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 6f3129e973c27a65fe1a39a4977c5f90db317749bdaf86ed2465013e09dfa25e
+  input_hash: ccbf9d77c1a3b509323a16de7b8f5e025e88110417a20f57f91a9856775fac9a
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -125,32 +125,35 @@ links:
     - change/bcquality/177
     - change/bcquality/208
     - change/bcquality/214
+    - change/bcquality/231
+    - change/bcquality/223
+    - change/bcquality/230
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 90
+item_count: 93
 footprint:
   systems:
     - id: development
-      weight: 164
+      weight: 168
     - id: platform
       weight: 23
+    - id: copilot
+      weight: 10
     - id: administration
       weight: 8
-    - id: copilot
-      weight: 8
+    - id: reporting
+      weight: 5
     - id: integration
       weight: 4
-    - id: reporting
-      weight: 3
   topics:
     - id: main
-      weight: 90
+      weight: 93
     - id: feature
-      weight: 51
+      weight: 54
     - id: fix
       weight: 23
     - id: other
@@ -160,12 +163,12 @@ footprint:
   objects: []
   features: []
 first_item: "2026-07-09"
-last_item: "2026-10-06"
+last_item: "2026-10-20"
 ---
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 90 code changes in the knowledge base, 2026-07-09 to 2026-10-06, mostly about development, platform, administration.
+> microsoft/BCQuality pull requests: 93 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -173,22 +176,25 @@ last_item: "2026-10-06"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (164) | main (90) |  |
-| platform (23) | feature (51) |  |
-| administration (8) | fix (23) |  |
-| copilot (8) | other (11) |  |
-| integration (4) | refactor (5) |  |
-| reporting (3) |  |  |
+| development (168) | main (93) |  |
+| platform (23) | feature (54) |  |
+| copilot (10) | fix (23) |  |
+| administration (8) | other (11) |  |
+| reporting (5) | refactor (5) |  |
+| integration (4) |  |  |
 
 ## Flight path
 
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ************* 13
+- 2026-Q4: **************** 16
 
 ## Most recent
 
+- [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../changes/bcquality/230.md) (2026-10-20)
+- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../changes/bcquality/223.md) (2026-10-19)
+- [#231 al-agents-review: derive the target BC version from app.json](../changes/bcquality/231.md) (2026-10-19)
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../changes/bcquality/214.md) (2026-10-06)
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../changes/bcquality/208.md) (2026-10-06)
 - [#177 Add retention policy knowledge to the privacy domain](../changes/bcquality/177.md) (2026-10-05)
@@ -206,8 +212,5 @@ Items per quarter, oldest first:
 - [#202 Restore deterministic review fixture coverage](../changes/bcquality/202.md) (2026-09-29)
 - [#198 Add BC performance knowledge from OptimAL learnings](../changes/bcquality/198.md) (2026-09-29)
 - [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../changes/bcquality/161.md) (2026-09-29)
-- [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../changes/bcquality/159.md) (2026-09-29)
-- [#157 18 more AL/BC patterns: data-modeling, testing, style, security, error-handling, ui, upgrade, web-services, appsource](../changes/bcquality/157.md) (2026-09-29)
-- [#196 Strengthen review contracts and add AL reliability guidance](../changes/bcquality/196.md) (2026-09-29)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

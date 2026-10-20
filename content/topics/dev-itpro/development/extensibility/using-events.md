@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -120,18 +120,19 @@ links:
     - change/bcapps/10235
     - change/bcapps/10487
     - change/bcapps/10488
+    - change/bcapps/11380
     - change/bcapps/11580
     - change/bcapps/11664
     - change/bcapps/8771
     - change/bcapps/9067
     - change/bcapps/9077
     - change/bcapps/9225
-    - change/bcapps/9637
     - change/bcapps/9950
     - change/bcquality/139
     - change/bcquality/144
     - change/bcquality/145
     - change/bcquality/213
+    - change/bcquality/223
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -199,18 +200,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10235 [Bug][SubscriptionBilling] Enforce Subscription Line Start Date change rules on all edit paths](../../../../changes/bcapps/10235.md) (code change): "Provides extensibility hook via OnAfterCheckSubscriptionLineStartDateChangeAllowed event"
 - [#10487 Add integration event before inserting the cost allocation journal line](../../../../changes/bcapps/10487.md) (code change): "New integration event OnWriteJournalLineOnBeforeInsertTempCostJournalLine added to Cost Allocation report"
 - [#10488 Add integration event before inserting the outgoing IC sales line buffer](../../../../changes/bcapps/10488.md) (code change): "New event OnPostICSalesLineToICPartnerInboxOnBeforeBufferICInboxSalesLineInsert fires per sales line"
+- [#11380 Honor explicit 0% discounts in Sales and Purchase price lists](../../../../changes/bcapps/11380.md) (code change): "Honor explicit 0% discounts in Sales and Purchase price lists preserving subscriber vetoes"
 - [#11580 [Extensibility Request] issue 29654: customize document rejection response](../../../../changes/bcapps/11580.md) (code change): "Enables extensions to define custom rejection states. Preserves default open document behavior"
 - [#11664 Add OnBefore event for approval insertion checks](../../../../changes/bcapps/11664.md) (code change): "An integration event is added to the Approvals Mgmt. codeunit that allows extensions to skip journal insertion approval checks"
 - [#8771 Add OnBeforeFilterRemovedSourceRecords integration event in Email Impl](../../../../changes/bcapps/8771.md) (code change): "Adds an OnBeforeFilterRemovedSourceRecords integration event with an IsHandled guard"
 - [#9067 Production Definition Wizard - Implementation](../../../../changes/bcapps/9067.md) (code change): "Event publishers expanded with new parameters and integration points like OnBeforeGetProdOrderNeeds"
 - [#9077 [Quality Management] Bug 620326: Reset IsChangingStatus on handled Reopen/Finish early-exit](../../../../changes/bcapps/9077.md) (code change): "Quality Management's Reopen/Finish procedures now properly reset the IsChangingStatus flag"
 - [#9225 [Extensibility][SubscriptionBilling]: Make usage data billing filtering extensible in SetUsageDataBillingFilters](../../../../changes/bcapps/9225.md) (code change): "Added OnAfterSetUsageDataBillingFilters integration event for extensibility"
-- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Ten partner event requests were implemented in one batch, adding new integration events"
 - [#9950 [Master] - Bug 645038 Withholding Tax entries from a previous posting preview appear on unrelated documents (e.g. expense report)](../../../../changes/bcapps/9950.md) (code change): "Withholding Tax entries from a previous posting preview appear on unrelated documents"
 - [#139 knowledge(breaking-changes): adding a parameter to an event publisher is not a signature break](../../../../changes/bcquality/139.md) (code change): "Event subscribers bind to publishers by parameter name, not by position"
 - [#144 Avoid Public Event publisher](../../../../changes/bcquality/144.md) (code change): "event publishers local or internal instead of public"
 - [#145 Process Context via manual event subscriber pattern](../../../../changes/bcquality/145.md) (code change): "expose process context to extensions using manual event subscriber bindings"
 - [#213 knowledge(events): database trigger setup flags may only be set to true](../../../../changes/bcquality/213.md) (code change): "subscribers to GetDatabaseTableTriggerSetup should only set the shared trigger flags to true"
+- [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "Subscribers that handle OnUpdateUnitPriceOnBeforeFindPrice or OnUpdateDirectUnitCostOnBeforeFindPrice"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
 - [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"

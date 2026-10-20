@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,13 +52,18 @@ links:
     - change/bcapps/10437
     - change/bcapps/10466
     - change/bcapps/10526
+    - change/bcapps/11484
+    - change/bcapps/11527
     - change/bcapps/11846
     - change/bcapps/11895
     - change/bcapps/12055
     - change/bcapps/12070
+    - change/bcapps/12148
+    - change/bcapps/12196
+    - change/bcapps/12229
+    - change/bcapps/12306
     - change/bcapps/9124
     - change/bcapps/9426
-    - change/bcapps/9637
     - change/bcapps/9872
 learn_toc_path:
   - Integration
@@ -114,13 +119,18 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10437 [FR E-Reporting] Add payment and invoice lifecycle messages](../../../changes/bcapps/10437.md) (code change): "E-Document message lifecycle infrastructure and French electronic invoicing support added"
 - [#10466 Resolve purchase lines to items on exact description match](../../../changes/bcapps/10466.md) (code change): "Inbound purchase invoice lines now resolve to items when the description exactly matches"
 - [#10526 Use BaseApp's new PO Matching module in E-Documents](../../../changes/bcapps/10526.md) (code change): "Integrates BaseApp's new PO Matching API surface into E-Document creation workflow"
-- [#11846 Fix View file on outgoing E-Documents to open the exported file](../../../changes/bcapps/11846.md) (code change): "Opening the View file action on outgoing E-Documents now retrieves and downloads the exported file"
-- [#11895 Make Reject Order reachable on inbound sales order drafts and confirm…](../../../changes/bcapps/11895.md) (code change): "The Reject Order action for inbound sales orders is now accessible directly from the Sales Document Draft page"
+- [#11484 [E-Documents Core] - Supported type direction configuration](../../../changes/bcapps/11484.md) (code change): "E-Document services now support per-document-type direction configuration"
+- [#11527 E-document payment improvements](../../../changes/bcapps/11527.md) (code change): "E-Document payment processing now supports durable, retryable occurrences"
+- [#11846 Fix View file on outgoing E-Documents to open the exported file](../../../changes/bcapps/11846.md) (code change): "Fix View file on outgoing E-Documents to open the exported file"
+- [#11895 Make Reject Order reachable on inbound sales order drafts and confirm…](../../../changes/bcapps/11895.md) (code change): "Reject Order action for inbound sales orders is now accessible"
 - [#12055 [E-Documents Core] Show error for unmatched inbound Order Response](../../../changes/bcapps/12055.md) (code change): "Unmatched inbound PEPPOL Order Responses now produce a descriptive error"
 - [#12070 Fix inconsistent CLEAN27/CLEAN28 tags in E-Document apps](../../../changes/bcapps/12070.md) (code change): "E-Document apps now use consistent CLEAN27 and CLEAN28 tags"
+- [#12148 [E-Documents Core] [Peppol] - Make PEPPOL Order Response conformant with BIS 28 (T76) and report the seller's decision](../../../changes/bcapps/12148.md) (code change): "PEPPOL Order Response messages now conform to BIS 28 standard"
+- [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled for on-premises"
+- [#12229 #12144 Enable Inbound E-Documents page extensibility](../../../changes/bcapps/12229.md) (code change): "Inbound E-Documents page is made extensible to allow"
+- [#12306 Warn before releasing a purchase order that was already sent electronically](../../../changes/bcapps/12306.md) (code change): "releasing a purchase order that was already electronically sent"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
 - [#9426 [E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps](../../../changes/bcapps/9426.md) (code change): "Migrate NAV PRs into BCApps. PINT A-NZ and Factura-E e-document formats"
-- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../changes/bcapps/9637.md) (code change): "adding new integration events or extra parameters on existing ones in the base application"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"

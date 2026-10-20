@@ -5,11 +5,13 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-10-02T21:30:53.000Z",
   "words": 795,
-  "summary": "A collection of feature improvement ideas submitted to Microsoft for Dynamics 365 Business Central as of September 2026, covering copilot integration, financial management, localization, inventory, manufacturing, sales, and administration.",
+  "summary": "A September 2026 roundup of user-submitted improvement ideas for Business Central, grouped by area such as agents and Copilot, development, financial management, localization, inventory, manufacturing, purchasing and sales. Each idea is listed only by title and author, with no further discussion.",
   "key_points": [
-    "Ideas span across multiple functional areas including agents/copilot, financial management (IFRS standards, payment reconciliation), inventory (consignment, bin-aware applications), and sales (shipping, subscription features)",
-    "Several ideas address localization needs (Italian translations, French credit notes, PEPPOL support, currency variations) and data migration",
-    "Other suggestions target technical improvements (media/bitmap support, workload identity federation, full-text search) and process enhancements (approval workflows, role-based security, analysis mode for tablets)"
+    "Financial management ideas include native IFRS 15 and IFRS 16 accounting, using actual bank conversion amounts in payment reconciliation, and several PEPPOL and e-invoice fixes.",
+    "Localization ideas cover Italian translation corrections, Dutch XAF 4.0 and RGS support, and a French credit note type for global allowances.",
+    "Development ideas include showing bitmaps on list pages via Media and Workload Identity Federation for AL HttpClient calls.",
+    "Inventory and sales ideas include consignment, bin-aware application for lot-tracked items, over-shipping sales orders and an editable Shipping Advice on sales quotes.",
+    "General ideas touch on security group profiles, analysis mode on tablets and mobile, and approval workflow restrictions."
   ],
   "systems": [
     "finance",
@@ -90,19 +92,13 @@
     "Bin-aware item application",
     "PEPPOL e-invoicing support",
     "Subscription billing and contracts",
-    "Full-text search across pages",
     "Word templates and email integration"
   ],
   "versions": [
     "2026 SEP"
   ],
   "language": "es",
-  "quotes": [
-    {
-      "text": "Would any of these ideas improve Business Central? Here is a list of some of them.",
-      "why_it_matters": "Frames the post as a curated collection of user-submitted feature requests from the Business Central community"
-    }
-  ],
+  "quotes": [],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {

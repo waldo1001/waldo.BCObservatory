@@ -11,17 +11,17 @@
     "development",
     "platform"
   ],
-  "summary": "Spanish SII objects are renumbered to align with a standard numbering scheme, affecting finance, purchasing, and sales extensions for Spain localization.",
+  "summary": "Renumbers the SII table extensions, page extensions and codeunits in the Spanish (ES) Base Application layer. These cover payment methods, VAT clauses, VAT posting setup, journal lines, role center cues and activities, and sales and purchase documents and history.",
   "key_points": [
-    "All Spanish SII (Sistema de Información Inmediata) objects across finance, purchasing, and sales modules are renumbered",
-    "Changes include table extensions, page extensions, and codeunits related to VAT, payment methods, journal lines, and transaction history",
-    "Affects role center activities, accounting cues, and posting setup for Spanish localization",
-    "Numbering updates applied consistently across banking, invoicing, and document processing areas",
-    "Changes are scoped to Spanish localization layer without affecting core base application logic"
+    "SII objects in the ES Base Application layer get new object IDs, mostly in the 7000100 to 7000151 range",
+    "Covers table extensions, page extensions and codeunits across bank, VAT, finance role centers, purchases and sales",
+    "Includes the SII purchase, sales and VAT subscriber codeunits and the data classification codeunit",
+    "Each file has only a small edit, and no new functionality is described",
+    "Linked to work item AB#653192, with no tests added"
   ],
   "change_kind": "refactor",
   "behavior_change": false,
-  "breaking": true,
+  "breaking": false,
   "obsoletions": [],
   "systems": [
     "finance",

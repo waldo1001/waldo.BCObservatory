@@ -2,7 +2,7 @@
 id: source/sauravdhyani-com
 type: source
 title: Saurav Dhyani
-summary: "Saurav Dhyani (MVP): 32 posts in the knowledge base, 2025-09-04 to 2026-10-15, mostly about development, platform, administration."
+summary: "Saurav Dhyani (MVP): 33 posts in the knowledge base, 2025-09-04 to 2026-10-19, mostly about development, platform, administration."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T00:19:25.651Z"
+  at: "2026-10-20T08:10:49.229Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d4f37e96589e1d0ab7bf82e39a122671c3896b7c722d2b106353493dc4745943
+  input_hash: 1423cceeaf944e8b3d5763c0f868656602205412e1af39ff3a3a0b397d6cfff0
 evidence:
   - kind: blog
     url: https://www.sauravdhyani.com
@@ -65,6 +65,7 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376
   guidelines: []
 source_id: sauravdhyani-com
 kind: blog
@@ -72,7 +73,7 @@ url: https://www.sauravdhyani.com
 author: Saurav Dhyani
 mvp: true
 full_text: false
-item_count: 32
+item_count: 33
 footprint:
   systems:
     - id: development
@@ -84,9 +85,9 @@ footprint:
     - id: finance
       weight: 10
     - id: copilot
-      weight: 7
+      weight: 9
     - id: integration
-      weight: 4
+      weight: 5
   topics:
     - id: al development
       weight: 11
@@ -135,12 +136,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-09-04"
-last_item: "2026-10-15"
+last_item: "2026-10-19"
 ---
 
 # Saurav Dhyani
 
-> Saurav Dhyani (MVP): 32 posts in the knowledge base, 2025-09-04 to 2026-10-15, mostly about development, platform, administration.
+> Saurav Dhyani (MVP): 33 posts in the knowledge base, 2025-09-04 to 2026-10-19, mostly about development, platform, administration.
 
 [https://www.sauravdhyani.com](https://www.sauravdhyani.com) · blog · tier community
 
@@ -152,8 +153,8 @@ last_item: "2026-10-15"
 | platform (21) | configuration (4) | table General Ledger Setup (2) |
 | administration (18) | automation (3) | table User Setup (2) |
 | finance (10) | business central 2026 (3) | codeunit No. Series (1) |
-| copilot (7) | extensions (3) | codeunit No. Series - Impl. (1) |
-| integration (4) | github copilot (3) | interface INotification (1) |
+| copilot (9) | extensions (3) | codeunit No. Series - Impl. (1) |
+| integration (5) | github copilot (3) | interface INotification (1) |
 |  | bc28 (2) | other app.json (1) |
 |  | compiler warnings (2) | other copilot-instructions.md (1) |
 |  | data model (2) | other File.Download (1) |
@@ -169,10 +170,11 @@ Items per quarter, oldest first:
 - 2026-Q1: * 1
 - 2026-Q2: ****** 6
 - 2026-Q3: ************ 12
-- 2026-Q4: ************ 12
+- 2026-Q4: ************* 13
 
 ## Most recent
 
+- [M365 Con 27: Free Online Microsoft Conference for Business Central, Dynamics 365 & Microsoft 365 Professionals](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3190647871313162275--85f2e3b376.md) (2026-10-19)
 - [How to Install Microsoft Dynamics 365 Business Central 29 On-Premises](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4709432878034654173--026fc9bd1f.md) (2026-10-15)
 - [Restrict Global Symbol Downloads to a Minor Version in Business Central 2026 Release Wave 2](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1784438257223031103--91389edcb6.md) (2026-10-14)
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (2026-10-13)
@@ -192,6 +194,5 @@ Items per quarter, oldest first:
 - [AI-Part2: Setup-Vscode-al-copilot-business-central](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4656464818096012006--003bfcdd4e.md) (2026-08-20)
 - [AI-Part1: what-is-GitHub-copilot-in-vscode-business-central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2130488198731903549--32e1eebb8b.md) (2026-08-13)
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (2026-07-29)
-- [How Business Central 2026 Improves Item Variant Management with Pictures and Attributes.](../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2583765754742144129--9ec9e7f41f.md) (2026-07-24)
 
 Source: posts of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

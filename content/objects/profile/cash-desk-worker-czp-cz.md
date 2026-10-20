@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:04:12.318Z"
+  at: "2026-10-20T08:41:34.593Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 00786a9d9f6f0c63d4c5a64193338d886e8a2b115074b2d30c5ef61ce29e0038
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/CZ/CashDeskLocalization/app/Src/Profiles/CashDeskWorkerCZP.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/CZ/CashDeskLocalization/app/Src/Profiles/CashDeskWorkerCZP.Profile.al
     title: src/Apps/CZ/CashDeskLocalization/app/Src/Profiles/CashDeskWorkerCZP.Profile.al (releases/29.x)
     date: null
-    commit: 12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e
+    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Profile "CASH DESK WORKER CZP" (CZ) in the CZ country layer (Microsoft.Finance.CashDesk). Introduced in BC29, still in BC30.
 
-CZ country layer · Microsoft.Finance.CashDesk · captioned "Cash Desk Worker" · BC29-30 · [source at 12dc4a2a](https://github.com/microsoft/BCApps/blob/12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e/src/Apps/CZ/CashDeskLocalization/app/Src/Profiles/CashDeskWorkerCZP.Profile.al) · facts from BC29
+CZ country layer · Microsoft.Finance.CashDesk · captioned "Cash Desk Worker" · BC29-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/CZ/CashDeskLocalization/app/Src/Profiles/CashDeskWorkerCZP.Profile.al) · facts from BC29
 
 An object of the [CZ localization](../../localizations/cz.md), not part of W1.
 

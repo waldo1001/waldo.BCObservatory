@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:59.700Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -119,6 +119,7 @@ links:
     - post/waldo-be/318335
   guidelines: []
   changes:
+    - change/bcapps/9637
     - change/bcquality/138
     - change/bcquality/152
 learn_toc_path:
@@ -182,6 +183,7 @@ Further pages cover finding events to subscribe to with the Event Recorder, and 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9637 [Event Requests] Add integration events across base app and SMTP module](../../../../changes/bcapps/9637.md) (code change): "Ten partner event requests were implemented adding new integration events or extra parameters"
 - [#138 knowledge(style): event subscribers bind by parameter name, so a shorter list is not a mismatch](../../../../changes/bcquality/138.md) (code change): "AL binds event subscribers to publishers by parameter name, not by position"
 - [#152 knowledge(events): ChangeCompany leaves triggers and trigger-event subscribers running in the calling company](../../../../changes/bcquality/152.md) (code change): "ChangeCompany does not move trigger execution context to the target company"
 - [Troubleshooting Series – Ep4 – Event Recorder](../../../../posts/waldo-be/318335.md) (community post): "Event Recorder captures events in order of execution with event type classification"

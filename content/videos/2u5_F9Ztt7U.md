@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:48:32.947Z"
   flags: []
 generated:
-  at: "2026-10-19T01:09:02.086Z"
+  at: "2026-10-20T08:46:34.155Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -84,6 +84,8 @@ links:
   objects: []
   features:
     - feature/573320
+    - feature/573328
+    - feature/576841
   topics: []
   localizations: []
   videos: []
@@ -154,10 +156,12 @@ features:
     verified: false
     status_source: video
   - name: Word Add-in for Document Reports Enhancement
-    status: unclear
+    status: ga
     t: 404
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573328"
   - name: Layout Lifecycle Control for Report Layouts
     status: ga
     t: 449
@@ -176,10 +180,12 @@ features:
     verified: false
     status_source: video
   - name: Permission Analysis Page
-    status: unclear
+    status: ga
     t: 610
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576841"
   - name: Updated Security Documentation and Guide
     status: unclear
     t: 623
@@ -266,11 +272,11 @@ It describes memory work (a new platform codeunit for base64 conversion with str
 | Platform Codeunit for Base64 Conversion | status not stated | [2:24](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=144s) |
 | Index Usage Insights and Management | status not stated | [4:41](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=281s) |
 | AL Analysis View Definitions in Apps | status not stated | [5:47](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=347s) |
-| Word Add-in for Document Reports Enhancement | status not stated | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |
+| Word Add-in for Document Reports Enhancement | generally available (roadmap [Design document reports with the updated Word add-in](../features/573328.md)) | [6:44](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=404s) |
 | Layout Lifecycle Control for Report Layouts | generally available (roadmap [Control the lifecycle of all report layouts](../features/573320.md)) | [7:29](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=449s) |
 | Hardened URI Validation in HTTP Client | status not stated | [8:28](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=508s) |
 | Intra Security Groups for On-Premises Auth | status not stated | [9:25](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=565s) |
-| Permission Analysis Page | status not stated | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
+| Permission Analysis Page | generally available (roadmap [Use new APIs for analyzing permissions for auditors and IT staff](../features/576841.md)) | [10:10](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=610s) |
 | Updated Security Documentation and Guide | status not stated | [10:23](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=623s) |
 | Telemetry for MCP Configuration and Usage | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |
 | Client Hardware and Network Telemetry | status not stated | [10:59](https://www.youtube.com/watch?v=2u5_F9Ztt7U&t=659s) |

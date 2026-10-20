@@ -2,7 +2,7 @@
 id: source/yt-areopa
 type: source
 title: Areopa webinars
-summary: "Areopa webinars (Areopa (Steven Renders)): 15 videos in the knowledge base, 2025-12-09 to 2026-09-29, mostly about development, copilot, platform."
+summary: "Areopa webinars (Areopa (Steven Renders)): 16 videos in the knowledge base, 2025-12-09 to 2026-10-19, mostly about development, copilot, platform."
 tier: community
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-07T22:42:12.892Z"
+  at: "2026-10-20T08:10:49.229Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: d184b73e42e6a7b7b96ecc416e537369b8b2515ad8b39f49122b6de1dea66053
+  input_hash: 50380704b33df4069030a4c493f096250a7e7fd07b97667f229dfe65d3c75ad1
 evidence:
   - kind: video
     url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
@@ -47,6 +47,7 @@ links:
     - video/rm-FstU_I80
     - video/Ug_uM59DRRE
     - video/d8SZ81uxj_k
+    - video/5xeATIUFiGg
   posts: []
   guidelines: []
 source_id: yt-areopa
@@ -55,7 +56,7 @@ url: https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ
 author: Areopa (Steven Renders)
 mvp: false
 full_text: false
-item_count: 15
+item_count: 16
 footprint:
   systems:
     - id: development
@@ -65,6 +66,8 @@ footprint:
     - id: platform
       weight: 2
     - id: reporting
+      weight: 1
+    - id: sales
       weight: 1
   topics:
     - id: ai adoption
@@ -114,12 +117,12 @@ footprint:
       weight: 1
   features: []
 first_item: "2025-12-09"
-last_item: "2026-09-29"
+last_item: "2026-10-19"
 ---
 
 # Areopa webinars
 
-> Areopa webinars (Areopa (Steven Renders)): 15 videos in the knowledge base, 2025-12-09 to 2026-09-29, mostly about development, copilot, platform.
+> Areopa webinars (Areopa (Steven Renders)): 16 videos in the knowledge base, 2025-12-09 to 2026-10-19, mostly about development, copilot, platform.
 
 [https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ](https://www.youtube.com/channel/UCWL0RbbT6ILzzCd6Ix7t0AQ) · channel · tier community
 
@@ -131,7 +134,7 @@ last_item: "2026-09-29"
 | copilot (4) | al development (2) | api sales order item categories (1) |
 | platform (2) | automated testing (2) | api sales orders API (1) |
 | reporting (1) | interfaces (2) | codeunit Agent Creation Codeunit (1) |
-|  | permissions (2) | codeunit agent task (1) |
+| sales (1) | permissions (2) | codeunit agent task (1) |
 |  | prompt engineering (2) | codeunit agent task builder (1) |
 |  | 90-day iterations (1) | codeunit agent task message builder (1) |
 |  | abstraction levels (1) | codeunit app environment (1) |
@@ -148,9 +151,11 @@ Items per quarter, oldest first:
 - 2026-Q1: **** 4
 - 2026-Q2: ****** 6
 - 2026-Q3: **** 4
+- 2026-Q4: * 1
 
 ## Most recent
 
+- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../videos/5xeATIUFiGg.md) (2026-10-19)
 - [290928 - You Are the Art : Notes from Six Years of Becoming a Speaker](../videos/d8SZ81uxj_k.md) (2026-09-29)
 - [Demo or Disaster? How to build better Business Central demos?](../videos/Ug_uM59DRRE.md) (2026-09-21)
 - [20260831 - Business Central MCP Server, standard and custom](../videos/rm-FstU_I80.md) (2026-09-07)

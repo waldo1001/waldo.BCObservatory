@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:00.486Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -96,8 +96,11 @@ links:
     - change/bcapps/10030
     - change/bcapps/10166
     - change/bcapps/11411
+    - change/bcapps/12098
     - change/bcapps/12124
     - change/bcapps/12188
+    - change/bcapps/12464
+    - change/bcapps/12760
     - change/bcapps/9118
     - change/bcapps/9196
     - change/bcapps/9224
@@ -168,8 +171,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10030 [main]planning worksheet requires second runof calculate regenerative plan](../../../../changes/bcapps/10030.md) (code change): "planning worksheets generate all required planning lines in a single run"
 - [#10166 [Extensibility Request] issue 29643: enable split transfer demand profiles](../../../../changes/bcapps/10166.md) (code change): "Transfer demand profile handling now supports an event that allows extensions"
 - [#11411 [Master]-Item Availability by BOM Level Produces Inconsistent Able-to-Make Results When G-TOP-BOM-02 Replenishment Changes from Assembly to Purchase - 2606050050002529](../../../../changes/bcapps/11411.md) (code change): "Fixed inconsistent able-to-make calculations in BOM analysis when a component's"
+- [#12098 [29.X]-[Planning Worksheet] Production Copy to Req. Wksh fails because destination fields are missing](../../../../changes/bcapps/12098.md) (code change): "carrying out planning worksheet action messages for production"
 - [#12124 Fix default bin assignment when creating purchase orders for drop shipments](../../../../changes/bcapps/12124.md) (code change): "Fixed default bin assignment for drop shipments when creating purchase orders"
 - [#12188 [Master]-Reserved quantities do not match the expected quantities after planning - regression due to correction](../../../../changes/bcapps/12188.md) (code change): "reserved quantities did not match the expected quantities after planning"
+- [#12464 [Master]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12464.md) (code change): "Order Planning feature now correctly processes remaining valid demand"
+- [#12760 [29.X]-Order Planning Calculate Plan Stops on Blocked Item and Does Not Process Remaining Valid Demand.](../../../../changes/bcapps/12760.md) (code change): "Order planning calculation no longer stops when it reaches a blocked item"
 - [#9118 Bugs/master GitHub event batch 1745](../../../../changes/bcapps/9118.md) (code change): "planning, availability check and item budget Excel reports"
 - [#9196 [Master] - What If Impact on Planning and Supply](../../../../changes/bcapps/9196.md) (code change): "supply what-if analysis to analyze the negative impact of supply changes on demand"
 - [#9224 [main] GitHub event batch 1746](../../../../changes/bcapps/9224.md) (code change): "Calculate Plan - Plan. Wksh. and Whse.-Source - Create Document"

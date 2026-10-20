@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:13.090Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -88,7 +88,8 @@ links:
   topics:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales
   localizations: []
-  videos: []
+  videos:
+    - video/5xeATIUFiGg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -102,7 +103,7 @@ children: []
 coverage:
   learn: 7
   code: 7
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -150,6 +151,12 @@ A sensible order is general setup first, then contract types, packages and lines
 - [Subscription contract types](https://learn.microsoft.com/dynamics365/business-central/SRB/setup/contract-types): You can use different types of contracts in subscription billing.
 - [Subscription lines for items](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/items): You can use subscription lines for items in subscription billing.
 - [Subscription packages and subscription lines](https://learn.microsoft.com/dynamics365/business-central/SRB/masterdata/service-commitments): You can use subscription lines in subscription billing.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [20261012 - Unlocking Subscription Billing in Dynamics 365 Business Central](../../../../../videos/5xeATIUFiGg.md) (video): "Setup configuration; posting groups; packages; item types; billing rhythm"
 
 ## Business Central pages and reports
 

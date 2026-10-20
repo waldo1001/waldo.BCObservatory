@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:12.444Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,7 @@ links:
   changes:
     - change/al-go/2376
     - change/bcapps/11065
+    - change/bcapps/12626
 learn_toc_path:
   - Development
   - Extension lifecycle
@@ -141,6 +142,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2376 fix: modified files with umlauts](../../../../changes/al-go/2376.md) (code change): "Incremental build detection now finds project and app paths that contain umlauts"
 - [#11065 Open installation status after AppSource install failure](../../../../changes/bcapps/11065.md) (code change): "Failed AppSource installations now display a prompt to open installation status"
+- [#12626 Fix AppSource product details opening in write transactions](../../../../changes/bcapps/12626.md) (code change): "Changed from Page.RunModal() to Page.Run() to avoid write transaction conflicts"
 - [Mastering Business Central API for App Management](../../../../posts/aardvarklabs-blog/3998.md) (community post): "Install a .app through the pteInstall endpoint with a multipart form request carrying the file"
 - [Managing Apps in the Business Central Admin Center](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "Installing a PTE means choosing a deployment schedule and a sync mode"
 - [AppSource App Previews](../../../../videos/9i6hVsw9x_U.md) (video): "Preview Key for AppSource Apps; Preview Version Installation URL"

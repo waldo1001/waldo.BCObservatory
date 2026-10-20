@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,9 +170,9 @@ links:
     - change/bcapps/9310
     - change/bcapps/9364
     - change/bcapps/9365
+    - change/bcapps/9482
     - change/bcapps/9541
     - change/bcapps/9606
-    - change/bcapps/9635
     - change/bcapps/9693
     - change/bcapps/9708
     - change/bcapps/9805
@@ -307,14 +307,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11970 Allow Azure OpenAI privacy notice in evaluation](../../../../changes/bcapps/11970.md) (code change): "Azure OpenAI privacy notice assumed approved in evaluation"
 - [#12074 Expense Agent: travel request expense location, per-traveler reports, activity log and submitter comment](../../../../changes/bcapps/12074.md) (code change): "Expense Agent travel request feature now supports expense location selection using per diem rules"
 - [#12332 [MCP] Add Agent Tools server feature](../../../../changes/bcapps/12332.md) (code change): "MCP server now includes Agent Tools feature for managing and loading available custom agents"
-- [#7546 [Payables Agent] Agent-driven line matching](../../../../changes/bcapps/7546.md) (code change): "Adds agent-driven line matching to the Payables Agent"
+- [#7546 [Payables Agent] Agent-driven line matching](../../../../changes/bcapps/7546.md) (code change): "Adds agent-driven line matching to the Payables Agent, allowing agents to resolve purchase lines"
 - [#8875 [master] SOA: Bugbash for releases 28.x - Select an existing contact, or create a new one - Use another contact always](../../../../changes/bcapps/8875.md) (code change): "Sales Order Agent by adding a commit before opening the contact selection"
 - [#9310 SOA: Open Item Availability from Agent panel](../../../../changes/bcapps/9310.md) (code change): "The Sales Order Agent can now open the multi-item availability page"
 - [#9364 Slice 622414: [SOA] [Pioneer] Enhancing Sales Order Agent with Item Variant : availability and prices](../../../../changes/bcapps/9364.md) (code change): "The Sales Order Agent now resolves customer requests to a specific item variant"
 - [#9365 [SOA] Prevent translated username token and remove dead GetAgent helpers](../../../../changes/bcapps/9365.md) (code change): "Sales Order Agent usernames are now prevented from being translated by marking the label as locked"
+- [#9482 Make service-invoked System Application facades callable by any user (Privacy Notice + Page Summary Provider)](../../../../changes/bcapps/9482.md) (code change): "allows Copilot capabilities and agent tasks to function for all users"
 - [#9541 [SOA] Bound outbound reply retries](../../../../changes/bcapps/9541.md) (code change): "Outbound replies in the Sales Order Agent now limit retry attempts to five per message"
 - [#9606 [SOA] Disable available-items-only search by default](../../../../changes/bcapps/9606.md) (code change): "The Sales Order Agent now initializes the Search Only Available Items setting"
-- [#9635 Obsolete MLLM Payables Agent rollout scaffold](../../../../changes/bcapps/9635.md) (code change): "MLLM processing is now the permanent behavior for the Payables Agent feature"
 - [#9693 Rename email review option 'Only untrusted senders' to 'Manage per sender'](../../../../changes/bcapps/9693.md) (code change): "Caption of enum option OnlyIfUntrusted changed to 'Manage per sender"
 - [#9708 Enable manual task creation for Sales Order Agent](../../../../changes/bcapps/9708.md) (code change): "The Sales Order Agent now allows users to manually create tasks directly"
 - [#9805 Update Email Folder tooltip to reference renamed 'Manage per sender' review option](../../../../changes/bcapps/9805.md) (code change): "Payables Agent strings are updated to reference the renamed email review option"

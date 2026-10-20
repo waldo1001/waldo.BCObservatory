@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,6 +124,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcapps/12846
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -182,5 +184,11 @@ A good starting point is Inventory Movement Templates, since the physical invent
 - [Czech local templates for inventory operations – Stock keeping unit templates](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/stockkeeping-unit-templates): Learn how to use Stock keeping Unit Templates in the Czech version of Business Central to streamline inventory operations.
 - [Rounding account in inventory [CZ]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-round-account-in-inventory): Use the Rounding Account in Inventory feature to post all rounded costs to a separate General Ledger Account rather than the Inventory Adjustment Account.
 - [Skip update SKU when posting](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting): Learn about the Skip Update SKU on Posting functionality, including its purpose and usage.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#12846 [main] bug 652274 - [CZ] Add the Country/Region of Origin Code field to a document line](../../../../../changes/bcapps/12846.md) (code change): "Czech Intrastat reporting now supports a Country/Region of Origin Code field"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

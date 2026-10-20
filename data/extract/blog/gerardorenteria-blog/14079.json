@@ -5,13 +5,13 @@
   "source": "gerardorenteria-blog",
   "published_at": "2026-10-19T21:21:32.000Z",
   "words": 9991,
-  "summary": "A changelog summary page for the AL Language extension covering versions from 4.0.0 to 30.0, aligned with Business Central releases from 2017 through 2027 wave 1. It references the official VS Code marketplace changelog and details compiler features, bug fixes, and language improvements across multiple years.",
+  "summary": "Bilingual summary page of the AL Language extension changelog. It lists entries from the early 2017 monthly updates (0.2.x) up to version 30.0 for Business Central 2027 release wave 1, and points to the official VS Code Marketplace changelog for the full text. Each version entry covers new language and compiler features, AppSourceCop rule changes and bug fixes.",
   "key_points": [
-    "AL Language versions range from early 2017 updates (0.2 to 0.13) through Business Central 2027 release wave 1 (version 30.0)",
-    "Recent versions add support for markdown page fields, multi-pair ModifyAll operations, snapshot debugging for tests, document media types, and ternary operators",
-    "The extension handles compiler optimizations like parallel workspace compilation, AppSourceCop rule updates, and improved error diagnostics",
-    "Agent and copilot features integrated including GPT-5.3-chat model upgrades and searchable downloaded symbols",
-    "Bug fixes address issues with publishing, packaging, formatting, debugging, and language server functionality"
+    "Version 30.0 adds Markdown page fields, ModifyAll with up to five field and value pairs on Record and RecordRef, and the AL0720 check for multi-root workspaces.",
+    "Versions 18.x add snapshot debugging of AL tests through the MCP proxy, sharing public packaged resources between apps, ReadCommitted for queries and environment-wide symbol search.",
+    "Earlier versions add the HttpClientHandler for mocking HTTP in tests, YAML in JsonObject, packaged resources via NavApp, the ternary operator and the Document and Task extended data types.",
+    "Many entries list AppSourceCop rule updates and fixes for publishing, the formatter, the debugger and the language server.",
+    "The 17.0 and 18.0 entries note that agents in Business Central move to GPT-5.3-chat as their default model."
   ],
   "systems": [
     "development",
@@ -29,10 +29,6 @@
     "testing"
   ],
   "objects": [
-    {
-      "type": "other",
-      "name": "AL Language extension"
-    },
     {
       "type": "other",
       "name": "NavApp"

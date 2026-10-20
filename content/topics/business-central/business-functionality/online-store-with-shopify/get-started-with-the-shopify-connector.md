@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -52,6 +52,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12139
     - change/bcapps/9221
     - change/bcapps/9253
     - change/bcapps/9313
@@ -116,6 +117,7 @@ Start with "Getting started with the connector for Shopify" to learn how to conn
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
 - [#9221 [Shopify] Uptake Admin GraphQL API to version 2026-07](../../../../changes/bcapps/9221.md) (code change): "Updated API version from 2026-01 to 2026-07 following Shopify's deprecation schedule"
 - [#9253 [Shopify] Disambiguate Shopify timestamp field captions and tooltips](../../../../changes/bcapps/9253.md) (code change): "Shopify timestamp field captions and tooltips are now clearly marked with a (Shopify) suffix"
 - [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../../changes/bcapps/9313.md) (code change): "RetrieveShopifyVariant now returns true when the Shopify variant exists"

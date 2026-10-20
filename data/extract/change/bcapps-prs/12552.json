@@ -9,11 +9,11 @@
   ],
   "summary": "Fixed a bug where validating the \"No.\" field on a sales order with a linked released production order caused repeated production order status warnings and potential modal dialog errors in write transactions.",
   "key_points": [
-    "Wrapped Unit of Measure Code validation with StatusCheckSuspended flag to prevent nested status checks",
-    "Added StatusCheckSuspended guard in Quantity and Shipment Date validations before calling CheckReceiptOrderStatus",
-    "Ensured production order status warning executes only once during initial \"No.\" field validation",
-    "Applied fix across all localization layers and added comprehensive test coverage",
-    "Prevents 'Form.RunModal is not allowed in write transactions' error"
+    "Validate(\"Unit of Measure Code\") inside ValidateUnitOfMeasureCodeFromNo is now wrapped with StatusCheckSuspended to stop nested status checks",
+    "Quantity and Shipment Date validations check StatusCheckSuspended before calling CheckReceiptOrderStatus",
+    "Check Prod. Order Status also respects the suspended flag, so the warning shows only once when \"No.\" validation starts",
+    "Prevents the 'Form.RunModal is not allowed in write transactions' error",
+    "Sales Line changed in the W1 layer and several country layers, with new tests in SCM Planning and Manufacturing"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:00.498Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-20T08:48:51.539Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -144,6 +144,9 @@ links:
     - post/demiliani-com/11654
     - post/thinkaboutit-be/7061
   guidelines: []
+  changes:
+    - change/bcapps/12324
+    - change/bcapps/8051
 learn_toc_path:
   - Integration
   - Web services
@@ -204,10 +207,12 @@ Start with the metadata and JSON pages to learn the URI patterns. Then read the 
 - [Using OData transactional $batch requests](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-batch): How to specify that all inner requests in a certain OData $batch request are processed in a transactional way in Business Central.
 - [Using OData with Queries That are Set with a Top Number of Rows](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/webservices/use-odata-with-queries-set-with-top-number-of-rows): Learn about using queries that are set with a top number of rows.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
+- [#8051 [Edit in Excel] Expose ExternalizeODataObjectName and add Page Control Field publisher](../../../../changes/bcapps/8051.md) (code change): "exposes ExternalizeODataObjectName as public procedure for external apps to convert field and service names to OData format"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "Pages exposed as OData web services will no longer be available"
 - [Dynamics 365 Business Central 2025 Wave 1 release: the state of SOAP deprecation.](../../../../posts/demiliani-com/11654.md) (community post): "Custom OData endpoints for UI pages continue working in version 26 but should migrate to API endpoints"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Microsoft no longer allows exposing Microsoft-authored pages as OData endpoints"

@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-20T08:45:34.451Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ffdc443a45b97fd6adc79e3bde869b49eae3dcbe3dc707cc7cb4ce5c4381fb25
+  input_hash: 4479aeeb7daa490cff8232e6758cbfc74c5368cb3bca7433a6378e08b9e8e0d9
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/Shopify/app
@@ -231,6 +231,7 @@ links:
     - object/report/30112
     - object/report/30113
   features:
+    - feature/574128
     - feature/573340
     - feature/573341
     - feature/573342
@@ -862,6 +863,7 @@ The topic hubs whose Learn pages name this app's pages and reports (a table coun
 
 Possibly related: these roadmap features have "Shopify" in their title. A name match, the only one on this page; check the feature.
 
+- [[US] Match Shopify tax lines to tax jurisdictions](../features/574128.md) (preview, GA 2027-04)
 - [Control sales document creation for Shopify orders and returns](../features/573340.md) (ga, GA 2026-10)
 - [Keep Shopify connections current](../features/573341.md) (ga, GA 2026-10)
 - [Manage Shopify B2B companies, catalogs, and pricing](../features/573342.md) (ga, GA 2026-10)
