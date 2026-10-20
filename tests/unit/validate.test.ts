@@ -171,3 +171,10 @@ test("the Learn shard is official-only output for the shingle scan; the other in
     assert.equal(officialOnlyOutput(f), false, f);
   }
 });
+
+test("the AL changelog fixture is official-only output; other fixtures are not (issue 19)", () => {
+  assert.equal(officialOnlyOutput("tests/fixtures/al-changelog.md"), true, "a copy of Microsoft's changelog: a post that quotes it shares its words");
+  for (const f of ["tests/fixtures/search-golden.json", "tests/fixtures/al-changelog.md.tmp", "content/posts/tests/fixtures/al-changelog.md"]) {
+    assert.equal(officialOnlyOutput(f), false, f);
+  }
+});
