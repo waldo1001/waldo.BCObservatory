@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL data-modeling review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-data-modeling-review.md",
-  "published_at": "2026-10-06T11:30:37.000Z",
+  "published_at": "2026-10-19T10:48:38.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:57:31.730Z",
-      "blob": "fa76847f8f9027d10fbff38fc6b7e4d432bae86c",
-      "words": 3173,
+      "at": "2026-10-20T00:21:20.176Z",
+      "blob": "26fb8010d4fd213c7c2e0505e87b3435ba9ac683",
+      "words": 3257,
       "forms": 0
     }
   },
-  "input_hash": "fa76847f8f9027d10fbff38fc6b7e4d432bae86c",
+  "input_hash": "26fb8010d4fd213c7c2e0505e87b3435ba9ac683",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,52 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 3173
+    "words": 3257,
+    "identifiers": [
+      "TransferFields",
+      "TableRelation",
+      "OnInsert",
+      "OnModify",
+      "OnRename",
+      "OnValidate",
+      "AutoIncrement",
+      "SystemId",
+      "NoSeriesManagement",
+      "GetNextNo",
+      "IsManual",
+      "TestManual",
+      "TestField",
+      "WorkDate",
+      "InsertAllowed",
+      "DeleteAllowed",
+      "OnOpenPage",
+      "GetRecordOnce",
+      "InitRecord",
+      "ValidateTableRelation",
+      "TestTableRelation",
+      "MediaSet",
+      "OnAfterFindRecords",
+      "OnBeforeShowRecords",
+      "InsertRecord",
+      "PrintForCust",
+      "PrintWithDialogForCust",
+      "PrintWithDialogForVend",
+      "SendEmailToCust",
+      "SendEmailToVendor",
+      "OnFindSupportedSetup",
+      "PriceSourceList",
+      "OnAfterAddSources",
+      "UpdateUnitPrice",
+      "PlanPriceCalcByField",
+      "UpdateUnitPriceByField",
+      "OnUpdateUnitPriceOnBeforeFindPrice",
+      "OnUpdateDirectUnitCostOnBeforeFindPrice",
+      "OnUpdateUnitPriceByFieldOnAfterFindPrice",
+      "ExchangeAmtLCYToFCY"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fa76847f8f9027d10fbff38fc6b7e4d432bae86c"
+  "output_hash": "26fb8010d4fd213c7c2e0505e87b3435ba9ac683"
 }

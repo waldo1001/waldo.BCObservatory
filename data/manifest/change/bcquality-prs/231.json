@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/231",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "al-agents-review: derive the target BC version from app.json",
+  "url": "https://github.com/microsoft/BCQuality/pull/231",
+  "published_at": "2026-10-19T10:47:07Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "eb13e66ade19230e30a8d5767d1743757a5ccfc8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 231,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "eb13e66ade19230e30a8d5767d1743757a5ccfc8",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "al agents review derive the target bc version from app json"
+  }
+}

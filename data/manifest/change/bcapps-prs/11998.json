@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/11998",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.",
+  "url": "https://github.com/microsoft/BCApps/pull/11998",
+  "published_at": "2026-10-19T11:40:47Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "d307d9e3cb2b4ef1ddcd7b8aef308116c1629166:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 11998,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "d307d9e3cb2b4ef1ddcd7b8aef308116c1629166",
+    "author": "Shikhverma",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "it should not be possible to post invoices with a non existing posting setup combination because it creates trouble with adjust for payment discount"
+  }
+}

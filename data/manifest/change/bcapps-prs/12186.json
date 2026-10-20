@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12186",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Set several fields in one ModifyAll call",
+  "url": "https://github.com/microsoft/BCApps/pull/12186",
+  "published_at": "2026-10-19T14:16:35Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "232edfe71a757627d2efaaf9d63374aa4fc3e92b:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12186,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "232edfe71a757627d2efaaf9d63374aa4fc3e92b",
+    "author": "jehelles",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "AL: System Application",
+      "AL: Tools",
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "set several fields in one modifyall call"
+  }
+}

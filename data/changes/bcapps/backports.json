@@ -1,4 +1,13 @@
 {
+  "8874": [
+    {
+      "number": 12600,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T21:03:55Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12600",
+      "title_key": "bug 653563 29 x field service integration rounding error on service line quantity write back for item type service lines with non divisible durations"
+    }
+  ],
   "9277": [
     {
       "number": 11911,
@@ -627,6 +636,15 @@
       "merged_at": "2026-10-16T15:49:14Z",
       "url": "https://github.com/microsoft/BCApps/pull/12547",
       "title_key": "contoso demo data refresh common g l mappings before manufacturing demo setup"
+    }
+  ],
+  "13001": [
+    {
+      "number": 13002,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T16:45:19Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13002",
+      "title_key": "fix self billing test fixture rollback"
     }
   ],
   "unmatched": [
@@ -1574,6 +1592,34 @@
       "merged_at": "2026-10-16T09:36:09Z",
       "url": "https://github.com/microsoft/BCApps/pull/12858",
       "title_key": "item age composition by quantity and value report issue"
+    },
+    {
+      "number": 12577,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T00:54:11Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12577",
+      "title_key": "bug 653533 refactor corrections posting mgt czl codeunit to improve clarity and fix logic for g l correction handling"
+    },
+    {
+      "number": 12546,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T00:57:59Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12546",
+      "title_key": "bug 652324 move creating vat period to setup demo data level"
+    },
+    {
+      "number": 12473,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T04:09:33Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12473",
+      "title_key": "standard sales invoice table shiptoadress hidden expression returns invalid data type"
+    },
+    {
+      "number": 11952,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-19T11:05:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/11952",
+      "title_key": "report 11564 foreign currency layout foreign currency opening balance is not included"
     }
   ]
 }

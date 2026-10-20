@@ -1,0 +1,50 @@
+{
+  "from": "2026-10-11",
+  "to": "2026-10-20",
+  "added": [
+    "al-17.10"
+  ],
+  "removed": [],
+  "changed": [
+    "al-18.1",
+    "al-18.0",
+    "al-17.0",
+    "al-16.4"
+  ],
+  "entries": {
+    "al-18.0": {
+      "added": [],
+      "changed": [],
+      "removed": [
+        "snapshot-debugging-al-tests"
+      ]
+    },
+    "al-17.0": {
+      "added": [
+        "codecops"
+      ],
+      "changed": [
+        "agents-in-business-central-move-to-gpt-5-3-chat",
+        "github-issues",
+        "bug-fixes",
+        "support-for-packaging-analysis-views-in-extensions",
+        "support-for-namespaces-and-fully-qualified-names",
+        "connecting-to-the-business-central-troubleshooting-mcp-server",
+        "al-code-analyzers-changes",
+        "appsourcecop",
+        "miscellaneous",
+        "attach-to-agent-session",
+        "quick-uptake-of-namespaces",
+        "al-language-changes"
+      ],
+      "removed": []
+    },
+    "al-16.4": {
+      "added": [],
+      "changed": [
+        "bug-fixes"
+      ],
+      "removed": []
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/12552",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29.x]-Validation of the \"No.\" field on the sales order additionally re-validates the Unit of Measure Code",
+  "url": "https://github.com/microsoft/BCApps/pull/12552",
+  "published_at": "2026-10-19T12:24:00Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:22:00.708Z",
+      "change_class": "code",
+      "files": 14,
+      "al": 13,
+      "objects": 12,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-20T00:22:09.705Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004186
+    },
+    "linked": {
+      "at": "2026-10-20T00:22:09.973Z",
+      "objects": 12,
+      "unjoined": 1,
+      "commit": "12dc4a2af219f9ca678ff8b1ccacf749bc8a4f3e"
+    },
+    "published": {
+      "at": "2026-10-20T00:22:09.983Z",
+      "path": "content/changes/bcapps/12552.md"
+    }
+  },
+  "input_hash": "ffbf032e8f51f725a9beb5ac387dc3bbc88441d7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12552,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "ffbf032e8f51f725a9beb5ac387dc3bbc88441d7",
+    "author": "DhavalMore88",
+    "author_type": "User",
+    "labels": [
+      "ADO: Sync",
+      "From Fork",
+      "Team: SCM"
+    ],
+    "community_contribution": true,
+    "title_key": "validation of the no field on the sales order additionally re validates the unit of measure code"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "09a28504b0095f434f239d43dde709c0e646fec692427b93d48f1b80d9d50d6c"
+}

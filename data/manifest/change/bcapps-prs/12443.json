@@ -1,0 +1,32 @@
+{
+  "id": "change/bcapps-prs/12443",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Renumber SII objects for ES",
+  "url": "https://github.com/microsoft/BCApps/pull/12443",
+  "published_at": "2026-10-19T07:55:53Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "2ab65dae3012edf88f1d7543bf201eeaa72f1689:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12443,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "2ab65dae3012edf88f1d7543bf201eeaa72f1689",
+    "author": "Alexander-Ya",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "renumber sii objects for es"
+  }
+}

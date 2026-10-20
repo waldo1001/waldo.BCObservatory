@@ -1,0 +1,88 @@
+{
+  "id": "video/yt-hougaard/LaA6UNdkvso",
+  "pillar": "video",
+  "source": "yt-hougaard",
+  "tier": "community",
+  "title": "Generate Mermaid.js Diagrams with AL Code (2026 Edition)",
+  "url": "https://www.youtube.com/watch?v=LaA6UNdkvso",
+  "published_at": "2026-10-19T11:00:08.000Z",
+  "language": "en",
+  "state": "reviewed",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:21:29.479Z",
+      "captions": "auto:en-orig",
+      "duration_s": 669
+    },
+    "captioned": {
+      "at": "2026-10-20T00:21:38.831Z",
+      "path": "vault:captions/community/yt-hougaard/LaA6UNdkvso.vtt",
+      "vtt_sha256": "b63a7bbdb28ce79813478b2805a53dd823bcd398bfa161695290712033dbc2ff",
+      "segments": 59,
+      "words": 1449,
+      "lang": "en-orig",
+      "kind": "auto"
+    },
+    "extracted": {
+      "at": "2026-10-20T00:22:00.387Z",
+      "path": "data/extract/video/LaA6UNdkvso.json",
+      "prompt": "extract-video@1",
+      "windows": 1,
+      "trimmed_for_policy": 1,
+      "features": 5,
+      "quotes": 7,
+      "quotes_dropped": 0,
+      "models": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "cost_usd": 0.021308
+    },
+    "summarized": {
+      "at": "2026-10-20T00:22:09.679Z",
+      "path": "data/summary/video/LaA6UNdkvso.json",
+      "prompt": "summarize-video@2",
+      "model": "claude-sonnet-5-5",
+      "cost_usd": 0.01638
+    },
+    "linked": {
+      "at": "2026-10-20T00:22:09.681Z",
+      "systems": [
+        "development",
+        "platform"
+      ],
+      "topics": 8,
+      "objects_as_heard": 1
+    },
+    "reviewed": {
+      "at": "2026-10-20T00:22:36.964Z",
+      "path": "data/review/video/LaA6UNdkvso.json",
+      "verdict": "fix",
+      "applied": 5,
+      "rejected_edits": 0,
+      "model": "claude-opus-5-5",
+      "cost_usd": 0.101368
+    }
+  },
+  "input_hash": null,
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "channel_id": "UCcJCTa4PvbOQj50y_HJSxXw",
+    "duration_s": 669,
+    "captions_track": {
+      "kind": "auto",
+      "lang": "en-orig"
+    }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "49fae4b9e897f1c65fc9c342de94d7e9265df8e2abc2fed93d1c7ca70ae7386e",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-20T00:22:36.953Z"
+  }
+}
