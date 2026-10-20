@@ -35,9 +35,12 @@ const title = new Map(topicCandidates(CONTENT_DIR).map((c) => [c.id, `${c.path}`
 let none = 0;
 for (const u of Object.values(links.units)) {
   if (pick && !pick.has(u.key)) continue;
-  if (!u.matches.length) { none++; console.log(`${u.key} "${u.title}"\n    (no topic)`); continue; }
-  console.log(`${u.key} "${u.title}"`);
-  for (const m of u.matches) console.log(`    -> ${title.get(m.topic) ?? m.topic}\n       quote: "${m.quote}"`);
+  if (!u.matches.length) { none++; console.log(`${u.key} "${u.title}"\n    (no topic)`); }
+  else {
+    console.log(`${u.key} "${u.title}"`);
+    for (const m of u.matches) console.log(`    -> ${title.get(m.topic) ?? m.topic}\n       quote: "${m.quote}"`);
+  }
+  for (const d of u.second?.dropped ?? []) console.log(`    rejected: ${title.get(d.topic) ?? d.topic}: ${d.reason}`); // D102
 }
 const s = llmStats();
 const sampled = pick ? pick.size : all.length;
