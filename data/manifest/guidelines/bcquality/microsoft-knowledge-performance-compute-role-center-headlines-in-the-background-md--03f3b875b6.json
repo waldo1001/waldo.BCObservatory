@@ -1,0 +1,57 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Compute data-driven Role Center headlines in the background, not when the page opens",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
+  "published_at": "2026-10-19T10:48:07.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:21:34.723Z",
+      "blob": "5cd94d3664252f1061390e4044592b12f83b3a24",
+      "words": 671,
+      "forms": 0
+    }
+  },
+  "input_hash": "5cd94d3664252f1061390e4044592b12f83b3a24",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 671,
+    "identifiers": [
+      "OnOpenPage",
+      "OnRun",
+      "HeadlineOnOpenPage",
+      "OnIsAnyExtensionHeadlineVisible",
+      "OnComputeHeadlines",
+      "HeadlinePart",
+      "RoleCenterPageID",
+      "ScheduleTask",
+      "FindSet",
+      "CalcSums",
+      "TableNo",
+      "ShouldCreateAComputeJob",
+      "ComputeDefaultFieldsVisibility",
+      "OnSetVisibility",
+      "FindVendorLedgerEntryWithMaxAmountInLastQuater"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "5cd94d3664252f1061390e4044592b12f83b3a24"
+}

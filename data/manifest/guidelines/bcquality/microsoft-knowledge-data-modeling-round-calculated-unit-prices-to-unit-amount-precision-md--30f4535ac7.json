@@ -1,0 +1,58 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
+  "published_at": "2026-10-19T10:48:38.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:21:18.400Z",
+      "blob": "ca52f518d7f9b9922486ef85f408a457e5843ac2",
+      "words": 791,
+      "forms": 0
+    }
+  },
+  "input_hash": "ca52f518d7f9b9922486ef85f408a457e5843ac2",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/data-modeling/round-calculated-unit-prices-to-unit-amount-precision.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 791,
+    "identifiers": [
+      "RoundPrice",
+      "OnValidate",
+      "DecimalPlaces",
+      "AutoFormatType",
+      "UpdateAmounts",
+      "OnUpdateUnitPriceOnBeforeFindPrice",
+      "OnUpdateDirectUnitCostOnBeforeFindPrice",
+      "CalcUnitPriceUsingUOMCoef",
+      "OnUpdateUnitPriceByFieldOnAfterFindPrice",
+      "ExchangeAmtLCYToFCY",
+      "ExchangeAmtFCYToLCY",
+      "CalcUnitAmountRoundingPrecision",
+      "ConvertAmount",
+      "UpdateUnitPriceByField",
+      "UpdateDirectUnitCostByField",
+      "InitRoundingPrecision"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ca52f518d7f9b9922486ef85f408a457e5843ac2"
+}

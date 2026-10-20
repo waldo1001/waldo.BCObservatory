@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcquality-prs/223",
+  "number": 223,
+  "title": "knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A knowledge article explains when and how to round unit prices to the currency's Unit-Amount Rounding Precision, covering the gap between what Business Central's standard calculation ensures and what custom code must handle to avoid mismatches in line amounts.",
+  "key_points": [
+    "Unit prices computed by custom code must be explicitly rounded to currency's Unit-Amount Rounding Precision, unlike the standard calculation",
+    "Subscribers that handle OnUpdateUnitPriceOnBeforeFindPrice or OnUpdateDirectUnitCostOnBeforeFindPrice skip built-in rounding and must implement it themselves",
+    "Round once at the end after all factors, and prefer post-calculation adjustment over replacing the standard result entirely",
+    "Specific exclusions apply to values copied unchanged from rounded fields or taken from external documents without modification",
+    "Mismatch between stored decimal places and displayed rounded value causes line amount discrepancies visible to external systems like e-invoicing and EDI"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "finance",
+    "sales"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004918,
+    "changes_in_call": 1
+  }
+}

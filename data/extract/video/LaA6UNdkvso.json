@@ -1,0 +1,239 @@
+{
+  "video_id": "LaA6UNdkvso",
+  "item_id": "video/yt-hougaard/LaA6UNdkvso",
+  "title": "Generate Mermaid.js Diagrams with AL Code (2026 Edition)",
+  "duration_s": 669,
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "topics": [
+    "mermaid diagrams",
+    "svg rendering",
+    "al code",
+    "visualization",
+    "pele library",
+    "interactive diagrams",
+    "diagram types",
+    "performance"
+  ],
+  "chapters": [
+    {
+      "title": "Introduction and Background",
+      "t_start": 0,
+      "t_end": 35
+    },
+    {
+      "title": "Previous Approach and Limitations",
+      "t_start": 35,
+      "t_end": 105.3
+    },
+    {
+      "title": "Introducing Pele Library",
+      "t_start": 105.3,
+      "t_end": 188.4
+    },
+    {
+      "title": "New App Overview and Demo Setup",
+      "t_start": 188.4,
+      "t_end": 247.3
+    },
+    {
+      "title": "Flowchart Example and Interactive Features",
+      "t_start": 247.3,
+      "t_end": 336.5
+    },
+    {
+      "title": "Diagram Type Samples",
+      "t_start": 336.5,
+      "t_end": 482.5
+    },
+    {
+      "title": "Performance and Rendering Discussion",
+      "t_start": 482.5,
+      "t_end": 558.6
+    },
+    {
+      "title": "Benefits and Conclusion",
+      "t_start": 558.6,
+      "t_end": 669
+    }
+  ],
+  "features": [
+    {
+      "name": "Mermaid Diagram Generation in AL",
+      "description": "Library that renders Mermaid diagrams to SVGs within AL code, allowing diagrams to be generated and embedded directly without runtime browser rendering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 125.6,
+      "t_end": 178.1,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "mermaid",
+        "svg",
+        "rendering",
+        "diagrams"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Interactive Diagram Elements",
+      "description": "Ability to set click events on diagram elements and receive callbacks to AL code, enabling interactive UI where certain elements can be designated as clickable.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 299.8,
+      "t_end": 336.5,
+      "is_demoed": true,
+      "caveats": [
+        "Click events must be configured explicitly"
+      ],
+      "tags": [
+        "interactivity",
+        "events",
+        "callbacks"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Multiple Diagram Types Support",
+      "description": "Support for various diagram types including flowcharts, sequence diagrams, entity relationship diagrams, state diagrams, Gantt charts, pie charts, git graphs, mind maps, journey diagrams, and timelines.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 347.1,
+      "t_end": 544.7,
+      "is_demoed": true,
+      "caveats": [
+        "Some diagram types have not been fully ported as they were not needed"
+      ],
+      "tags": [
+        "diagram types",
+        "flowcharts",
+        "sequences",
+        "charts"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "CSS Theming Support",
+      "description": "Diagrams can be themed with CSS, including support for dark mode rendering.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 354.2,
+      "t_end": 363.2,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "theming",
+        "css",
+        "dark mode"
+      ],
+      "system": "development"
+    },
+    {
+      "name": "Fast Rendering Performance",
+      "description": "Diagram rendering performance in AL code is very fast, with complex diagrams rendering in just a few milliseconds.",
+      "status": "unclear",
+      "status_evidence_t": null,
+      "status_evidence_quote": null,
+      "status_evidence_verified": false,
+      "t_start": 286.9,
+      "t_end": 492.6,
+      "is_demoed": true,
+      "caveats": [],
+      "tags": [
+        "performance",
+        "rendering",
+        "speed"
+      ],
+      "system": "platform"
+    }
+  ],
+  "objects": [
+    {
+      "type": "codeunit",
+      "name": "Mermaid diagram codeunits",
+      "t": 224
+    }
+  ],
+  "presenters": [
+    {
+      "name": "Eric",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "t": 45.5,
+      "text": "I have used that many times already. But the approach at that time was you created um your your mermaid thing, and then you",
+      "why_it_matters": "Explains the limitation of the previous 2022 approach where rendering happened at runtime in the browser rather than in AL code.",
+      "check": "exact"
+    },
+    {
+      "t": 125.6,
+      "text": "this is a lightweight open-source library that renders mermaid diagrams to SVGs.",
+      "why_it_matters": "Explains what Pele is, the basis of the AL implementation.",
+      "check": "exact"
+    },
+    {
+      "t": 188.4,
+      "text": "this is open-source, this is MIT licensed, there's beautiful documentation and it just works.",
+      "why_it_matters": "Confirms the library is production-ready with proper licensing and documentation.",
+      "check": "exact"
+    },
+    {
+      "t": 286.9,
+      "text": "this took 4 milliseconds to render, which is interesting also that even these complex things are running pretty good in AL code.",
+      "why_it_matters": "Demonstrates that rendering performance in AL is excellent, addressing potential performance concerns.",
+      "check": "exact"
+    },
+    {
+      "t": 312.3,
+      "text": "I can click on this, and we actually get an event back to to AL code. So, so it's possible to have interactions uh",
+      "why_it_matters": "Shows that diagrams support interactive callbacks, enabling them to function as UI elements.",
+      "check": "exact"
+    },
+    {
+      "t": 403.1,
+      "text": "There's a bunch more uh things you can do with with mermaid that so far I have not ported because I didn't need it.",
+      "why_it_matters": "Clarifies that while many Mermaid features are supported, not all have been ported to this library.",
+      "check": "exact"
+    },
+    {
+      "t": 414.8,
+      "text": "Here's a Gantt chart, and we can see that the clickable elements only. So, that is not clickable, but back end is clickable.",
+      "why_it_matters": "Shows that click events can be limited to selected elements.",
+      "check": "exact"
+    },
+    {
+      "t": 570.9,
+      "text": "I can much easier embed uh all these types of diagrams into places where I'm already generating in AL. I'm I'm generating HTML.",
+      "why_it_matters": "Explains the key benefit: diagrams can now be generated and embedded directly in AL-generated HTML without relying on browser-side rendering.",
+      "check": "exact"
+    }
+  ],
+  "disclaimers": [],
+  "checks": {
+    "quotes_kept": 7,
+    "quotes_dropped": 0,
+    "evidence_verified": 0,
+    "evidence_unverified": 5
+  },
+  "windows": 1,
+  "prompt_version": 1,
+  "llm": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "cached": false,
+      "cost_usd": 0.021308
+    }
+  ]
+}

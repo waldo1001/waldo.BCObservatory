@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL style review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-style-review.md",
-  "published_at": "2026-10-05T12:42:22.000Z",
+  "published_at": "2026-10-19T10:48:07.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:09:23.132Z",
-      "blob": "d569bcfef16c2f61cd563df4156f2fbc4d7dda10",
-      "words": 1963,
+      "at": "2026-10-20T00:22:39.348Z",
+      "blob": "61125d5742ea59e29de340af398720d7fa66adfe",
+      "words": 2046,
       "forms": 0
     }
   },
-  "input_hash": "d569bcfef16c2f61cd563df4156f2fbc4d7dda10",
+  "input_hash": "61125d5742ea59e29de340af398720d7fa66adfe",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,38 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1963
+    "words": 2046,
+    "identifiers": [
+      "FieldCaption",
+      "TableCaption",
+      "DateFormula",
+      "TextConst",
+      "MaxLength",
+      "CalcDate",
+      "OptionMembers",
+      "OptionCaption",
+      "APIPublisher",
+      "APIGroup",
+      "APIVersion",
+      "EntityName",
+      "EntitySetName",
+      "DelayedInsert",
+      "FieldName",
+      "TableName",
+      "StrSubstNo",
+      "GetUrl",
+      "outputPath",
+      "TaskScheduler",
+      "SystemId",
+      "RecordId",
+      "RecordRef",
+      "FindSet",
+      "DeleteAll",
+      "ToolTip"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "d569bcfef16c2f61cd563df4156f2fbc4d7dda10"
+  "output_hash": "61125d5742ea59e29de340af398720d7fa66adfe"
 }

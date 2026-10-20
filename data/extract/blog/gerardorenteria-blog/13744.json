@@ -1,63 +1,68 @@
 {
   "item_id": "blog/gerardorenteria-blog/13744",
-  "url": "https://gerardorenteria.blog/2026/06/01/cumulative-updates-for-business-central/",
+  "url": "https://gerardorenteria.blog/2026/10/19/cumulative-updates-for-business-central/",
   "title": "Cumulative Updates for Business Central – versions",
   "source": "gerardorenteria-blog",
-  "published_at": "2026-06-01T19:52:45.000Z",
-  "words": 256,
-  "summary": "Lists links to cumulative update pages for Business Central on-premises, from v13 (2018 Wave 2) to v28 (2026 Wave 1). Each update supersedes earlier ones for its version and some also patch vulnerabilities, so the latest should be installed. Only v26 through v28 are still being updated.",
+  "published_at": "2026-10-19T20:41:41.000Z",
+  "words": 267,
+  "summary": "This post lists cumulative updates available for all versions of Dynamics 365 Business Central on-premises, from version 29 (2026 wave 2) through version 13 (2018 wave 2). Updates include hotfixes for all countries and localized versions, with the latest updates recommended to address vulnerabilities and bugs.",
   "key_points": [
     "Cumulative updates replace previously released updates for each Business Central version",
-    "Updates include hotfixes for all countries and localization-specific hotfixes",
-    "Latest updates should always be installed as they fix security vulnerabilities",
-    "Support lifecycle shows which versions are still actively updated versus end-of-support versions"
+    "Latest updates should always be installed as they fix vulnerabilities",
+    "Updates include both global hotfixes and localization-specific fixes",
+    "Currently supported versions range from v29 (2026 wave 2) down to v20 (2022 wave 1), with older versions no longer receiving updates",
+    "Versions v25-v14 are listed as no longer updated but historical records are available"
   ],
   "systems": [
     "administration",
     "platform"
   ],
   "topics": [
-    "cumulative updates",
+    "updates",
     "hotfixes",
+    "cumulative updates",
+    "versioning",
     "on-premises",
-    "versions",
-    "security",
-    "lifecycle"
+    "maintenance"
   ],
   "objects": [],
   "features": [
     "Cumulative Updates",
     "Hotfixes",
-    "Vulnerability Fixes",
-    "Localization Support"
+    "Localization Support",
+    "Security Patches"
   ],
   "versions": [
-    "v28 (2026 Wave 1)",
-    "v27 (2025 Wave 2)",
-    "v26 (2025 Wave 1)",
-    "v25 (2024 Wave 2)",
-    "v24 (2023 Wave 2)",
-    "v23 (2023 Wave 2)",
-    "v22 (2023 Wave 1)",
-    "v21 (2022 Wave 2)"
+    "v29 (2026 wave 2)",
+    "v28 (2026 wave 1)",
+    "v27 (2025 wave 2)",
+    "v26 (2025 wave 1)",
+    "v25 (2024 wave 2)",
+    "v24 (2023 wave 2)",
+    "v23 (2023 wave 2)",
+    "v22 (2023 wave 1)"
   ],
   "language": "en",
+  "quotes": [
+    {
+      "text": "These updates replace previously released updates for each version of Business Central.",
+      "why_it_matters": "Clarifies that cumulative updates supersede prior ones, ensuring deployment simplicity"
+    },
+    {
+      "text": "Some updates additionally fix vulnerabilities, so the latest update should always be installed.",
+      "why_it_matters": "Emphasizes the importance of keeping systems current for security compliance"
+    },
+    {
+      "text": "Updates include hotfixes that apply to all countries and hotfixes that apply to specific local versions.",
+      "why_it_matters": "Shows that updates address both global needs and region-specific requirements"
+    }
+  ],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {
     "model": "claude-haiku-4-5-20251001",
     "cached": false,
-    "cost_usd": 0.005257,
+    "cost_usd": 0.006073,
     "posts_in_call": 1
-  },
-  "quotes": [
-    {
-      "text": "These updates replace previously released updates for each version of Business Central.",
-      "why_it_matters": "Explains that cumulative updates supersede older releases, so administrators only need to track the latest update per version."
-    },
-    {
-      "text": "Some updates additionally fix vulnerabilities, so the latest update should always be installed.",
-      "why_it_matters": "Emphasizes the security importance of staying current with cumulative updates to protect systems from known vulnerabilities."
-    }
-  ]
+  }
 }

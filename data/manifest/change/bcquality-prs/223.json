@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/223",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision",
+  "url": "https://github.com/microsoft/BCQuality/pull/223",
+  "published_at": "2026-10-19T10:48:39Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:23:40.569Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-20T00:23:57.649Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004918
+    },
+    "linked": {
+      "at": "2026-10-20T00:23:57.651Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-20T00:23:57.658Z",
+      "path": "content/changes/bcquality/223.md"
+    }
+  },
+  "input_hash": "4e07e7e7403ac858749c9b45cb9a7240846b99e8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 223,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "4e07e7e7403ac858749c9b45cb9a7240846b99e8",
+    "author": "MichaelDieringer",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge data modeling code that calculates a unit price rounds it to the currency s unit amount rounding precision"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d3520ce47e947d34e72781bdecf3b2917be9ffdba37b9d7b9fe9d2a69a5e6eca"
+}

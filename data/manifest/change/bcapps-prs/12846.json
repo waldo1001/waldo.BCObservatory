@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12846",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[main] bug 652274 - [CZ] Add the Country/Region of Origin Code field to a document line",
+  "url": "https://github.com/microsoft/BCApps/pull/12846",
+  "published_at": "2026-10-19T16:37:30Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:21:20.141Z",
+      "change_class": "code",
+      "files": 79,
+      "al": 72,
+      "objects": 63,
+      "unjoined": 9
+    },
+    "extracted": {
+      "at": "2026-10-20T00:21:30.651Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.01539
+    },
+    "linked": {
+      "at": "2026-10-20T00:21:30.935Z",
+      "objects": 63,
+      "unjoined": 9,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-20T00:21:31.013Z",
+      "path": "content/changes/bcapps/12846.md"
+    }
+  },
+  "input_hash": "fa511f4272f9c4336e56893b1315cab89efe5468:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12846,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "fa511f4272f9c4336e56893b1315cab89efe5468",
+    "author": "v-janpopr",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Manual",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 652274 cz add the country region of origin code field to a document line"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8acf98a7f93b3b81133dff8e079baea939028f08d40561a82cb323dba6d091ce"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "change/bcapps-prs/12802",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 654057: [master][NAV] Latest platform failed (AUTODETECTED)",
+  "url": "https://github.com/microsoft/BCApps/pull/12802",
+  "published_at": "2026-10-19T13:37:19Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "dd6c20f290dab29e0b43a47b4af1c049cdaa0c5c:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12802,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "dd6c20f290dab29e0b43a47b4af1c049cdaa0c5c",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 654057 master nav latest platform failed autodetected"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-20T00:21:43.756Z",
+  "retry_after": null
+}

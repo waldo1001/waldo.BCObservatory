@@ -1,0 +1,76 @@
+{
+  "item_id": "blog/olofsimren-com/3885",
+  "url": "https://www.olofsimren.com/mobile-solutions-for-business-central-why-the-native-app-is-all-you-need/",
+  "title": "Mobile Solutions for Business Central: Why the Native App Is All You Need",
+  "source": "olofsimren-com",
+  "published_at": "2026-10-19T13:41:25.000Z",
+  "words": 2858,
+  "summary": "The native Business Central mobile app since version 23 offers barcode scanning, tablet support, and full AL extensibility, making expensive third-party mobile solutions unnecessary for most companies. This post explains why the fourth-generation native app is superior to legacy ADCS systems and dedicated third-party apps, covering practical implementation methods and real-world examples.",
+  "key_points": [
+    "The native BC mobile app includes barcode scanning (camera or dedicated scanners like Zebra), tablet optimization, and full AL extensibility since version 23",
+    "Implementation can be as simple as setting ExtendedDatatype = Barcode on a field, or more complex using AL code for programmatic scanning and custom workflows",
+    "The native app avoids costs and maintenance burdens of third-party solutions - no middleware, no separate licensing, no vendor dependency, and upgrades work seamlessly",
+    "Mobile customizations use the same AL development process as desktop Business Central, deployed through Visual Studio Code with full IntelliSense and version control support"
+  ],
+  "systems": [
+    "platform",
+    "warehouse",
+    "manufacturing"
+  ],
+  "topics": [
+    "mobile app",
+    "barcode scanning",
+    "al extensibility",
+    "tablet support",
+    "warehouse operations",
+    "production reporting",
+    "fourth generation"
+  ],
+  "objects": [
+    {
+      "type": "other",
+      "name": "Business Central Mobile App"
+    },
+    {
+      "type": "other",
+      "name": "BarcodeScannerProviderAddIn"
+    }
+  ],
+  "features": [
+    "Barcode scanning via camera",
+    "Dedicated Android barcode scanner integration",
+    "Tablet and touch-optimized pages",
+    "AL page extensions for mobile",
+    "Programmatic barcode scanning triggers",
+    "Android Intent message support",
+    "Offline capabilities"
+  ],
+  "versions": [
+    "23",
+    "2023 release wave 2",
+    "24"
+  ],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Since Business Central 2023 release wave 2 (version 23), Microsoft has included native barcode scanning in the mobile app.",
+      "why_it_matters": "Marks the pivotal moment when the native app became a viable replacement for third-party solutions"
+    },
+    {
+      "text": "The mobile app is fully extendable using AL - the same modern development language you use for all Business Central customizations.",
+      "why_it_matters": "Shows that mobile customizations integrate seamlessly with core BC development workflows, eliminating separate tools and expertise"
+    },
+    {
+      "text": "If you're buying a third-party mobile app in 2026, you're probably making a mistake.",
+      "why_it_matters": "Challenges the conventional wisdom about mobile solutions and advocates for native-first approach"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.015247,
+    "posts_in_call": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13001,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13001",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-19T18:17:26Z",
+  "merge_commit_sha": "498c840ebc4984c9548ed68b0558e54b36f3aa3d",
+  "author": "djukicmilica",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Integrations"
+  ],
+  "community_contribution": false,
+  "title": "Fix self-billing test fixture rollback",
+  "body_hash": "3e05c2c3ecc1569e9dde68f95cb754093f992e3278ed82811a1eb7af065fbbe8",
+  "fixes_issues": [],
+  "work_items": [
+    654859
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 1,
+    "additions": 2,
+    "deletions": 0,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

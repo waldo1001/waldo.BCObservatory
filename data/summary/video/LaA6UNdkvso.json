@@ -1,0 +1,25 @@
+{
+  "video_id": "LaA6UNdkvso",
+  "item_id": "video/yt-hougaard/LaA6UNdkvso",
+  "summary": "Eric demonstrates an open-source AL app that brings Pele, a lightweight MIT-licensed Mermaid-to-SVG renderer, into AL. AL code can then render Mermaid diagrams to SVG directly and embed them in generated HTML, instead of loading Mermaid in the browser at runtime. The Business Central playground demo shows flowcharts with click events returned to AL, many diagram types, CSS theming with dark mode, and render times of 4 to 5 milliseconds.",
+  "overview": "Erik Hougaard describes how his earlier Mermaid approach in Business Central worked and its limitations. He then presents a new app built on the Pele library, an open-source, MIT-licensed, lightweight library that renders Mermaid diagrams to SVG inside AL code, so diagrams can be embedded in HTML that AL already generates.\n\nThe demo covers a flowchart with interactive elements, samples of other diagram types, CSS theming including dark mode, and a discussion of performance. A complex diagram rendered in 4 milliseconds. He notes that some Mermaid diagram types are not yet ported because he did not need them.",
+  "key_points": [
+    "Pele is a lightweight, open-source, MIT-licensed library that renders Mermaid diagrams to SVG. The author brought it into AL as an open-source app with codeunits, tests and a playground.",
+    "The previous approach ran Mermaid in a control add-in to render at runtime. Now AL generates the SVG directly and can embed it in HTML it already builds.",
+    "Click events can be set on all diagram elements or only on elements configured as clickable. The click is passed back to AL code, for example a callback to open job 001.",
+    "Demoed diagram types include flowcharts, sequence, entity relationship, state, Gantt, pie, git graph, mind map, journey and timeline.",
+    "Some Mermaid capabilities have not been ported yet, because the author did not need them.",
+    "Diagrams are CSS themed, so dark mode is possible.",
+    "A complex flowchart rendered in 4 milliseconds and a mind map in 5 milliseconds. The hard part is the layout, not the drawing."
+  ],
+  "audience": [
+    "developer"
+  ],
+  "extraction_hash": "c181d48a13a5851e5a577f5e1a94e4555c82913978ef8142aaa3703767935ee0",
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-sonnet-5-5",
+    "cached": false,
+    "cost_usd": 0.01638
+  }
+}

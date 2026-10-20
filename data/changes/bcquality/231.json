@@ -1,0 +1,49 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 231,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/231",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-19T10:47:07Z",
+  "merge_commit_sha": "eb13e66ade19230e30a8d5767d1743757a5ccfc8",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "al-agents-review: derive the target BC version from app.json",
+  "body_hash": "dcee77a4eb75159c476584a0bcbf6e9c7afebde14c04e51da136e4c622556afa",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/skills/review/al-agents-review.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 1,
+    "additions": 1,
+    "deletions": 1,
+    "al": 1
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/skills/review/al-agents-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

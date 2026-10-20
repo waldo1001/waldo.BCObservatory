@@ -5,40 +5,58 @@
   "source": "olofsimren-com",
   "published_at": "2026-10-09T12:28:26.000Z",
   "words": 1524,
-  "summary": "World Emblem, a high-volume manufacturing company, demonstrates how strategic automation and configuration-based customizations in Business Central enabled them to quadruple revenue without proportionally increasing headcount. By converting tribal knowledge into system-based rules and migrating legacy logic into Business Central, they improved scalability, reduced bottlenecks, and created a more maintainable operation.",
+  "summary": "World Emblem, a high-volume embroidered garment manufacturer, used Business Central automation and configuration-driven customizations to scale operations without proportional headcount growth. The case study shows how moving tribal knowledge into system rules, migrating legacy logic from external systems, and building maintainable solutions enabled them to quadruple revenue since 2018.",
   "key_points": [
-    "Converting manual decision-making into configuration tables creates business independence and reduces the need for custom development cycles",
-    "Migrating business logic from external systems into Business Central improves maintainability and reduces support overhead",
-    "Strategic automation of high-volume processes (4,000 - 5,000 invoices daily) allows employees to focus on value-added work rather than routine tasks",
-    "Partnering with a vendor who understands industry-specific requirements and prioritizes client self-sufficiency over dependency yields better long-term results"
+    "Automated warehouse routing and order decisions that previously required manual tribal knowledge from one or two employees",
+    "Built configuration tables for business rules instead of hard-coded customizations, enabling business users to adapt rules without developer involvement",
+    "Migrated freight calculation logic from external systems into Business Central for better maintainability and traceability",
+    "Used technology and automation as a growth strategy to handle increased volume without hiring proportionally",
+    "Focused on partner relationships that prioritize client needs over consulting hours and transfer knowledge for internal capability"
   ],
   "systems": [
     "manufacturing",
-    "warehouse"
+    "integration",
+    "administration"
   ],
   "topics": [
-    "manufacturing automation",
-    "configuration",
-    "high-volume processing",
-    "process optimization",
-    "system integration"
+    "automation",
+    "high-volume operations",
+    "configuration management",
+    "scaling",
+    "legacy system migration",
+    "tribal knowledge",
+    "business process optimization"
   ],
   "objects": [],
   "features": [
-    "automated warehouse routing",
-    "turnaround time configuration",
-    "freight calculation automation",
-    "process automation"
+    "Automated warehouse routing",
+    "Configuration tables for business rules",
+    "Turnaround time calculation",
+    "Freight calculation",
+    "Order processing automation",
+    "Multi-warehouse routing"
   ],
-  "versions": [],
+  "versions": [
+    "Dynamics NAV",
+    "Business Central (multiple upgrades)"
+  ],
   "language": "en",
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "One thing I really like about Dynamics NAV and now Business Central is that it is highly adaptable.",
+      "why_it_matters": "Demonstrates how Business Central's flexibility enables manufacturing companies to evolve their processes as the business grows and changes"
+    },
+    {
+      "text": "Configuration tables beat hard-coded customizations every time, especially for business rules that change frequently.",
+      "why_it_matters": "Captures the key principle of building sustainable, maintainable solutions that empower business users rather than create dependency on developers"
+    }
+  ],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {
     "model": "claude-haiku-4-5-20251001",
     "cached": false,
-    "cost_usd": 0.00604,
-    "posts_in_call": 4
+    "cost_usd": 0.007276,
+    "posts_in_call": 1
   }
 }

@@ -15,20 +15,26 @@ whose issue carries that label, or that has such a branch or PR, is the League's
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
 
-- **Topic link second chance, D102** (`docs/specs/topic-link-second-chance.md`, M40, issue #16). Status: proposed
-  2026-10-19, nothing implemented. Start with phase 1, task 1: tests 1-11 in `tests/unit/topic-links.test.ts`. Phase 1
-  is code only (its push starts a derive that changes nothing). Phase 2 is an operator backfill on the Mac: link,
-  review, commit `data/links`, derive. It takes one evening and costs about $20. Until it lands, 375 videos and posts
-  whose every topic link was dropped stay on no hub page and in no tilted view, among them four of the owner's own
-  telemetry posts.
-
-
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
 edges and 1,350 unresolved, because a manual control run shared the BC30 checkout); Version lens D72 (open
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-19, phase 1 (code; its push starts a derive on the Mini that changes no page, RUNBOOK "Derived data", D81):**
+- **Topic link second chance, D102** (`docs/specs/topic-link-second-chance.md`, M40, issue #16). A video or post whose
+  every topic link Opus dropped is linked once more by the nightly's topic linker, after its first-round calls and
+  within the `topic_links` quota: its dropped hubs leave its candidates and go to Haiku as `rejected` with Opus's
+  reasons; `second` on its record in `data/links/topics.json` keeps them, and there is no third pass. The new links
+  join the review queue as usual. `topic_links.second` (`due`, `called`, `matched`) is in the nightly run report;
+  `npm run link:topics` prints `rejected:` lines. Nothing readers see changes until links are kept by the review.
+  Operator steps still open (the spec's phase 2, one evening, about $20; scripts `link:topics` and `review:topics` are
+  in `package.json`, the nightly dispatch is `gh workflow run nightly -f stages=derive` as in the spec and RUNBOOK):
+  check no nightly runs (`gh run list --workflow nightly --limit 1`); `npm run link:topics -- --write --quota 150`;
+  `npm run review:topics -- --write --quota 400`; commit `data/links/topics.json` and
+  `data/links/topics-review.json` by name; push; `gh workflow run nightly -f stages=derive`; then spec section 7
+  commands 1 and 2, written into D102. The spec's own edits wait in `docs/built/topic-link-second-chance.md` for the review.
 
 **Shipped 2026-10-19, live after its Pages build (site only, no derive):**
 - **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Built by waldo.Jarvis's League.

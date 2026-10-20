@@ -44,14 +44,6 @@
   ],
   "versions": [],
   "language": "en",
-  "trimmed_for_policy": 0,
-  "prompt_version": 1,
-  "llm": {
-    "model": "claude-haiku-4-5-20251001",
-    "cached": false,
-    "cost_usd": 0.004897,
-    "posts_in_call": 1
-  },
   "quotes": [
     {
       "text": "Business Central now has a feature to define Date Formulas for the Allowed Posting From and Allowed Posting To.",
@@ -61,5 +53,13 @@
       "text": "With this you can set date formulas to open the current month only based on todays date (as an example).",
       "why_it_matters": "Demonstrates a practical use case showing how the feature solves the first-of-month posting problem"
     }
-  ]
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": true,
+    "cost_usd": null,
+    "posts_in_call": 1
+  }
 }

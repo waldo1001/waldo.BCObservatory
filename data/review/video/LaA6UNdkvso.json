@@ -1,0 +1,31 @@
+{
+  "video_id": "LaA6UNdkvso",
+  "item_id": "video/yt-hougaard/LaA6UNdkvso",
+  "flags": [],
+  "verdict": "fix",
+  "issues": [
+    "Quote at t=119.2 contains an inserted ellipsis, so it is not verbatim. It is also mostly naming trivia. Dropped it and added the library description from t=125.6 instead.",
+    "The summary and first key point present Pele as an AL library. The transcript describes Pele as an existing lightweight open-source Mermaid-to-SVG renderer that the author brought into AL as his own open-source app.",
+    "The transcript gives the presenter's name only as 'Eric'. The surname 'Hougaard' is outside knowledge, so it was removed.",
+    "The key point said 'Some Mermaid diagram types are not fully ported'. The transcript only says some Mermaid things are not ported yet, so the point was reworded.",
+    "The click-event key point overstated it: the transcript says events can be set on everything or only on elements marked clickable.",
+    "No feature has a status statement in the transcript, so 'unclear' is correct for all features."
+  ],
+  "input_hash": "367079c23e500952c1b0492b9f93ab241b0209238b4e2436e3d90b1c9cc86e2f",
+  "by": "opus",
+  "at": "2026-10-20T00:22:36.953Z",
+  "applied": [
+    "dropped 1 quote(s)",
+    "quote at 126s",
+    "quote at 415s",
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 2,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.101368
+  }
+}

@@ -7,9 +7,9 @@ import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import type { LlmRequest } from "../../pipeline/lib/llm.js";
 import type { Llm, VideoExtraction } from "../../pipeline/extract/video.js";
 import type { PostExtraction } from "../../pipeline/extract/post.js";
-import { linkTopics, loadTopicLinks, loadTopicReview, mediaByTopic, topicCandidates, unitPageId } from "../../pipeline/link/topics.js";
+import { linkTopics, loadTopicLinks, loadTopicReview, mediaByTopic, postUnit, secondChanceOf, topicCandidates, topicVerdictKey, unitPageId, type TopicLinkUnit, type TopicReview } from "../../pipeline/link/topics.js";
 import { fileKey } from "../../pipeline/lib/manifest.js";
-import { BATCH_HUBS, callRefs, hubContext, MAX_REFS, planReviewCalls, reviewTopicLinks } from "../../pipeline/review/topics.js";
+import { BATCH_HUBS, callRefs, gatherTopicLinks, hubContext, MAX_REFS, planReviewCalls, reviewTopicLinks } from "../../pipeline/review/topics.js";
 
 const NOW = new Date("2026-10-07T01:00:00Z");
 const topic = (id: string, title: string, system: string, path: string[]) =>
@@ -42,7 +42,7 @@ function fake(answer: (r: LlmRequest, alias: (title: string) => string) => unkno
   const reqs: LlmRequest[] = [];
   const llm: Llm = async <T>(r: LlmRequest) => {
     reqs.push(r);
-    const hubs: { id: string; title: string }[] = JSON.parse(r.prompt.split("\n")[1]);
+    const hubs: { id: string; title: string }[] = JSON.parse(r.prompt.split("\n").find((l) => l.startsWith('[{"id"'))!);
     const alias = (title: string) => hubs.find((h) => h.title === title)?.id ?? "t999";
     return { output: { links: answer(r, alias) } as T, cached: false, meta: { model: "claude-haiku-4-5", cost_usd: 0.01 } as any };
   };
@@ -231,4 +231,180 @@ test("a chunked hub keeps every chunk's verdicts, not just the last one's", asyn
   assert.equal(reqs.length, 2);
   assert.equal(Object.keys(loadTopicReview(dataDir).verdicts["topic/fin/vat"]).length, 20, "both chunks' verdicts are kept");
   assert.deepEqual([run.reviewed, run.kept], [2, 20]);
+});
+
+// --- D102: one second chance for a unit whose every link the review dropped -------------------------------
+
+const P = "post/waldo-be/42", A = "topic/dev/telemetry", B = "topic/dev/monitor";
+const SECOND = /^Second pass: /;
+const unitOf = (over: Partial<TopicLinkUnit> = {}): TopicLinkUnit => ({ kind: "post", key: P, hash: "h1", title: "t", source: "waldo-be", at: "", matches: [{ topic: A, quote: "q" }], ...over });
+const reviewOf = (...v: [string, string, "keep" | "drop", string][]): TopicReview => {
+  const r: TopicReview = { prompt_version: 1, verdicts: {} };
+  for (const [topicId, hash, verdict, reason] of v) (r.verdicts[topicId] ??= {})[topicVerdictKey(P, hash)] = { verdict, reason, at: "x" };
+  return r;
+};
+function fixture2() {
+  const f = fixture();
+  writeText(join(f.contentDir, "topics/dev/monitor.md"), topic("dev/monitor", "Monitor and analyze telemetry", "development", ["Administration", "Monitor"]));
+  return f;
+}
+/** Records the verdict for post P's current link to `topicId`, at the unit's current hash. */
+function verdict(dataDir: string, topicId: string, v: "keep" | "drop", reason: string) {
+  const u = loadTopicLinks(dataDir).units[P], r = loadTopicReview(dataDir);
+  (r.verdicts[topicId] ??= {})[topicVerdictKey(u.key, u.hash)] = { verdict: v, reason, at: "x" };
+  r.prompt_version = 1;
+  writeJson(join(dataDir, "links/topics-review.json"), r);
+}
+/** The first round: P is linked to hub A, and the review drops it. */
+async function dayOne(f: { contentDir: string; dataDir: string }) {
+  const { llm } = fake((r, a) => (r.prompt.includes("VAT") ? [] : [{ ref: "e1", hub: a("Monitoring and telemetry"), quote: "add custom telemetry signals to an AL extension" }]));
+  await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  verdict(f.dataDir, A, "drop", "belongs under B");
+}
+const answerB = (r: LlmRequest, a: (t: string) => string) => (r.prompt.includes("VAT") ? [] : [{ ref: "e1", hub: a("Monitor and analyze telemetry"), quote: "add custom telemetry signals" }]);
+const evidenceOf = (r: LlmRequest) => JSON.parse(r.prompt.split("Evidence items (JSON; each lists the hub ids it may link to):\n")[1]);
+const hubsOf = (r: LlmRequest): { id: string; title: string }[] => JSON.parse(r.prompt.split("\n").find((l) => l.startsWith('[{"id"'))!);
+
+test("secondChanceOf: only a unit whose every link is dropped at its current hash gets one", () => {
+  const both = unitOf({ matches: [{ topic: A, quote: "q" }, { topic: B, quote: "q" }] });
+  assert.deepEqual(secondChanceOf(both, reviewOf([A, "h1", "drop", "ra"], [B, "h1", "drop", "rb"]), "now"),
+    { at: "now", dropped: [{ topic: A, reason: "ra" }, { topic: B, reason: "rb" }] });
+  assert.equal(secondChanceOf(both, reviewOf([A, "h1", "drop", "ra"], [B, "h1", "keep", "rb"]), "now"), null, "one keep");
+  assert.equal(secondChanceOf(both, reviewOf([A, "h1", "drop", "ra"]), "now"), null, "one link without a verdict");
+  assert.equal(secondChanceOf(unitOf({ matches: [] }), reviewOf(), "now"), null);
+  assert.equal(secondChanceOf(unitOf(), reviewOf([A, "old", "drop", "ra"]), "now"), null, "a drop at an older hash");
+  assert.equal(secondChanceOf(undefined, reviewOf(), "now"), null);
+  const had = { at: "before", dropped: [{ topic: "topic/x", reason: "r" }] };
+  assert.equal(secondChanceOf(unitOf({ second: had }), reviewOf([A, "h1", "drop", "ra"]), "now"), had, "carried, never recomputed");
+});
+
+test("an excluded hub leaves the candidates and changes the hash; excluding all keeps the unit with no candidates", () => {
+  const all = topicCandidates(fixture2().contentDir);
+  const plain = postUnit(post(), all)!, ex = postUnit(post(), all, new Set([A]))!;
+  assert.deepEqual(plain.cands.map((c) => c.id), [B, A]);
+  assert.deepEqual(ex.cands.map((c) => c.id), [B]);
+  assert.notEqual(ex.hash, plain.hash);
+  const none = postUnit(post(), all, new Set([A, B]))!;
+  assert.ok(none && none.cands.length === 0);
+});
+
+test("day 2: the dropped hub goes to Haiku as rejected, the new link is recorded with second", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  const { llm, reqs } = fake(answerB);
+  const { run } = await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  assert.equal(reqs.length, 1, "P only");
+  assert.match(reqs[0].prompt, SECOND);
+  const ev = evidenceOf(reqs[0]);
+  assert.deepEqual(ev[0].rejected, [{ title: "Monitoring and telemetry", path: "Development > Telemetry", why: "belongs under B" }]);
+  assert.deepEqual(hubsOf(reqs[0]).map((h) => h.title), ["Monitor and analyze telemetry"], "A is not among the hubs");
+  const u = loadTopicLinks(f.dataDir).units[P];
+  assert.deepEqual(u.matches.map((m) => m.topic), [B]);
+  assert.deepEqual(u.second, { at: NOW.toISOString(), dropped: [{ topic: A, reason: "belongs under B" }] });
+  assert.deepEqual(run.second, { due: 1, called: 1, matched: 1 });
+});
+
+test("a first-round call is byte for byte what it was, and comes before the second-chance calls", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  writeJson(join(f.dataDir, "extract/video/V2.json"), video({ video_id: "V2", item_id: "video/yt-microsoft/V2", title: "Another VAT video" }));
+  const { llm, reqs } = fake(answerB);
+  await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  assert.equal(reqs.length, 2);
+  const evidence = [{ ref: "e1", kind: "video", text: "Another VAT video. Topics: vat statement; vat return. Shows: VAT return periods", hubs: ["t3", "t4"] }];
+  const stored = `Topic hubs (JSON):\n${JSON.stringify([{ id: "t3", title: "Finance", path: "Finance" }, { id: "t4", title: "Set up VAT", path: "Finance > Set up VAT" }])}\n\nEvidence items (JSON; each lists the hub ids it may link to):\n${JSON.stringify(evidence, null, 1)}`;
+  assert.equal(reqs[0].prompt, stored);
+  assert.ok(!reqs[0].prompt.includes("rejected"));
+  assert.match(reqs[1].prompt, SECOND);
+});
+
+test("a rejected hub is refused on the second pass", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  const { llm } = fake((r) => (r.prompt.includes("VAT") ? [] : [{ ref: "e1", hub: "t2", quote: "add custom telemetry signals" }]));
+  const { run } = await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  const u = loadTopicLinks(f.dataDir).units[P];
+  assert.equal(run.rejected, 1);
+  assert.match(run.rejections[0], /not a candidate of this item/);
+  assert.deepEqual(u.matches, []);
+  assert.ok(u.second);
+});
+
+test("no third pass: a unit with second is never offered again", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  await linkTopics(f.dataDir, f.contentDir, opts(fake(answerB).llm));
+  verdict(f.dataDir, B, "drop", "still wrong");
+  const before = JSON.stringify(loadTopicLinks(f.dataDir).units[P]);
+  const again = fake(answerB);
+  const { run } = await linkTopics(f.dataDir, f.contentDir, opts(again.llm));
+  assert.equal(again.reqs.length, 0);
+  assert.equal(JSON.stringify(loadTopicLinks(f.dataDir).units[P]), before);
+  assert.equal(run.second.due, 0);
+});
+
+test("quota: new units go first; an eligible unit that waits keeps its record and is relinked next run", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  writeJson(join(f.dataDir, "extract/video/V2.json"), video({ video_id: "V2", item_id: "video/yt-microsoft/V2", title: "Another VAT video" }));
+  const before = JSON.stringify(loadTopicLinks(f.dataDir).units[P]);
+  const one = fake(answerB);
+  const r1 = await linkTopics(f.dataDir, f.contentDir, opts(one.llm, 1));
+  assert.equal(one.reqs.length, 1);
+  assert.ok(!SECOND.test(one.reqs[0].prompt));
+  assert.equal(JSON.stringify(loadTopicLinks(f.dataDir).units[P]), before);
+  assert.equal(loadTopicLinks(f.dataDir).units[P].second, undefined);
+  assert.deepEqual([r1.run.second.due, r1.run.second.called], [1, 0]);
+  const next = fake(answerB);
+  await linkTopics(f.dataDir, f.contentDir, opts(next.llm, 5));
+  assert.equal(next.reqs.length, 1);
+  assert.deepEqual(loadTopicLinks(f.dataDir).units[P].matches.map((m) => m.topic), [B]);
+});
+
+test("views: a kept second-chance link lists the post under the new hub only", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  await linkTopics(f.dataDir, f.contentDir, opts(fake(answerB).llm));
+  verdict(f.dataDir, B, "keep", "fits");
+  const m = mediaByTopic(loadTopicLinks(f.dataDir), loadTopicReview(f.dataDir));
+  assert.deepEqual(m.get(B)?.map((x) => x.key), [P]);
+  assert.equal(m.get(A), undefined);
+});
+
+test("re-extraction: second and its exclusions survive a changed text", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  await linkTopics(f.dataDir, f.contentDir, opts(fake(answerB).llm));
+  const had = loadTopicLinks(f.dataDir).units[P].second;
+  writeJson(join(f.dataDir, "extract/blog/waldo-be/42.json"), post({ summary: "A new summary about telemetry signals." }));
+  const { llm, reqs } = fake((r, a) => (r.prompt.includes("VAT") ? [] : [{ ref: "e1", hub: a("Monitor and analyze telemetry"), quote: "new summary about telemetry signals" }]));
+  const { run } = await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  assert.equal(reqs.length, 1);
+  assert.deepEqual(hubsOf(reqs[0]).map((h) => h.title), ["Monitor and analyze telemetry"]);
+  assert.deepEqual(loadTopicLinks(f.dataDir).units[P].second, had);
+  assert.equal(run.second.due, 0);
+});
+
+test("excluded to empty: written without a call, and never dropped or redone", async () => {
+  const f = fixture();
+  await dayOne(f);
+  const { llm, reqs } = fake(() => []);
+  const r2 = await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  assert.equal(reqs.length, 0);
+  const u = loadTopicLinks(f.dataDir).units[P];
+  assert.deepEqual(u.matches, []);
+  assert.deepEqual(u.second?.dropped.map((d) => d.topic), [A]);
+  assert.equal(r2.run.second.due, 1);
+  const r3 = await linkTopics(f.dataDir, f.contentDir, opts(llm));
+  assert.equal(r3.run.stale, 0);
+  assert.ok(loadTopicLinks(f.dataDir).units[P]);
+});
+
+test("the review sees the same text for a second-chance link, without the rejection", async () => {
+  const f = fixture2();
+  await dayOne(f);
+  await linkTopics(f.dataDir, f.contentDir, opts(fake(answerB).llm));
+  const l = gatherTopicLinks(loadTopicLinks(f.dataDir), f.dataDir, f.contentDir).get(B)![0];
+  assert.equal(l.text, postUnit(post(), topicCandidates(f.contentDir))!.text);
+  assert.ok(!SECOND.test(l.text) && !l.text.includes("belongs under B"));
 });

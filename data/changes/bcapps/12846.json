@@ -1,0 +1,1339 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12846,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12846",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-19T16:37:30Z",
+  "merge_commit_sha": "fa511f4272f9c4336e56893b1315cab89efe5468",
+  "author": "v-janpopr",
+  "author_type": "User",
+  "labels": [
+    "Ownership: Manual",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[main] bug 652274 - [CZ] Add the Country/Region of Origin Code field to a document line",
+  "body_hash": "c5f1e8bc64a0d84d4914535c3f5174a42234b736a3289ec596271eb3bb6b3200",
+  "fixes_issues": [],
+  "work_items": [
+    652274
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntrastatCZObjects.PermissionSetExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/IntrastatReportManagementCZ.Codeunit.al",
+      "status": "modified",
+      "additions": 54,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemCardOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemEntryOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/JobEntryOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/NoPostedOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/PostedEntriesOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/GetCountryRegOfOriginCZ.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/IntrastatPostedSourceCZ.Enum.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al",
+      "status": "added",
+      "additions": 15,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/BlanketPurchOrdSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/BlanketSalesOrdSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/IntrastatReportSetupCZ.PageExt.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ItemJournalCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ItemLedgerEntriesCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/JobJournalCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/JobLedgerEntriesCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedDirectTransSubCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchCMSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchInvSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchRcptSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedRetRcptSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedRetShptSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesCMSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesInvSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesShptSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedServCMSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedServInvSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedTransferRcptSubfCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedTransferShptSubfCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchCrMemoSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchInvoiceSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchReturnOrdSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchaseOrderSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchaseQuoteSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesCrMemoSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesInvoiceSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesOrderSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesQuoteSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesReturnOrderSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceCrMemoSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceInvoiceSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceLinesCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceQuoteLinesCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/TransferOrderSubformCZ.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/DirectTransLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/IntrastatReportSetupCZ.TableExt.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ItemJournalLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ItemLedgerEntryCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/JobJournalLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/JobLedgerEntryCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchCrMemoLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchInvLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchRcptLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchaseLineArchiveCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchaseLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ReturnReceiptLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ReturnShipmentLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesCrMemoLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesInvoiceLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesLineArchiveCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesShipmentLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceCrMemoLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceInvoiceLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceLineArchiveCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceShipmentLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferReceiptLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferShipmentLineCZ.TableExt.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/IntrastatCZTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1391,
+      "deletions": 293,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/LibraryCZIntrastat.Codeunit.al",
+      "status": "modified",
+      "additions": 69,
+      "deletions": 16,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/TestGetCtryRegOriginCZ.EnumExt.al",
+      "status": "added",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/TestOriginModeCZ.Codeunit.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/TestPostedOriginCZ.Codeunit.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/TestPostedSourceCZ.EnumExt.al",
+      "status": "added",
+      "additions": 13,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/TestSourceTypeCZ.EnumExt.al",
+      "status": "added",
+      "additions": 12,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 79,
+    "additions": 2163,
+    "deletions": 315,
+    "al": 72
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/permissions/IntrastatCZObjects.PermissionSetExt.al",
+        "status": "modified",
+        "key": "permissionsetextension/31300",
+        "type": "permissionsetextension",
+        "id": 31300,
+        "name": "Intrastat CZ - Objects",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "permissionsetextension/31300-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/IntrastatReportManagementCZ.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31302",
+        "type": "codeunit",
+        "id": 31302,
+        "name": "IntrastatReportManagementCZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31302-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/BlanketPurchOrdSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31334",
+        "type": "pageextension",
+        "id": 31334,
+        "name": "Blanket Purch.Ord. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31334-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/BlanketSalesOrdSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31335",
+        "type": "pageextension",
+        "id": 31335,
+        "name": "Blanket Sales Ord. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31335-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/IntrastatReportSetupCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31342",
+        "type": "pageextension",
+        "id": 31342,
+        "name": "Intrastat Report Setup CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31342-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ItemJournalCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31303",
+        "type": "pageextension",
+        "id": 31303,
+        "name": "Item Journal CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31303-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ItemLedgerEntriesCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31304",
+        "type": "pageextension",
+        "id": 31304,
+        "name": "Item Ledger Entries CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31304-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/JobJournalCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31305",
+        "type": "pageextension",
+        "id": 31305,
+        "name": "Job Journal CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31305-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/JobLedgerEntriesCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31306",
+        "type": "pageextension",
+        "id": 31306,
+        "name": "Job Ledger Entries CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31306-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedDirectTransSubCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31336",
+        "type": "pageextension",
+        "id": 31336,
+        "name": "Posted Direct Trans. Sub. CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31336-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchCMSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31307",
+        "type": "pageextension",
+        "id": 31307,
+        "name": "Posted Purch. CM Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31307-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchInvSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31308",
+        "type": "pageextension",
+        "id": 31308,
+        "name": "Posted Purch. Inv. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31308-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedPurchRcptSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31309",
+        "type": "pageextension",
+        "id": 31309,
+        "name": "Posted Purch.Rcpt. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31309-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedRetRcptSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31310",
+        "type": "pageextension",
+        "id": 31310,
+        "name": "Posted Ret. Rcpt. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31310-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedRetShptSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31311",
+        "type": "pageextension",
+        "id": 31311,
+        "name": "Posted Ret. Shpt. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31311-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesCMSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31312",
+        "type": "pageextension",
+        "id": 31312,
+        "name": "Posted Sales CM Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31312-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesInvSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31313",
+        "type": "pageextension",
+        "id": 31313,
+        "name": "Posted Sales Inv. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31313-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedSalesShptSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31314",
+        "type": "pageextension",
+        "id": 31314,
+        "name": "Posted Sales Shpt. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31314-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedServCMSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31315",
+        "type": "pageextension",
+        "id": 31315,
+        "name": "Posted Serv. CM Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31315-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedServInvSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31316",
+        "type": "pageextension",
+        "id": 31316,
+        "name": "Posted Serv. Inv. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31316-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedTransferRcptSubfCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31317",
+        "type": "pageextension",
+        "id": 31317,
+        "name": "Posted Transfer Rcpt. Subf CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31317-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PostedTransferShptSubfCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31318",
+        "type": "pageextension",
+        "id": 31318,
+        "name": "Posted Transfer Shpt. Subf CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31318-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchCrMemoSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31321",
+        "type": "pageextension",
+        "id": 31321,
+        "name": "Purch. Cr. Memo Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31321-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchInvoiceSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31322",
+        "type": "pageextension",
+        "id": 31322,
+        "name": "Purch. Invoice Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31322-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchReturnOrdSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31323",
+        "type": "pageextension",
+        "id": 31323,
+        "name": "Purch. Return Ord. Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31323-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchaseOrderSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31319",
+        "type": "pageextension",
+        "id": 31319,
+        "name": "Purchase Order Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31319-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/PurchaseQuoteSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31320",
+        "type": "pageextension",
+        "id": 31320,
+        "name": "Purchase Quote Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31320-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesCrMemoSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31324",
+        "type": "pageextension",
+        "id": 31324,
+        "name": "Sales Cr. Memo Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31324-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesInvoiceSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31325",
+        "type": "pageextension",
+        "id": 31325,
+        "name": "Sales Invoice Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31325-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesOrderSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31326",
+        "type": "pageextension",
+        "id": 31326,
+        "name": "Sales Order Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31326-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesQuoteSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31327",
+        "type": "pageextension",
+        "id": 31327,
+        "name": "Sales Quote Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31327-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/SalesReturnOrderSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31328",
+        "type": "pageextension",
+        "id": 31328,
+        "name": "Sales Return Order Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31328-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceCrMemoSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31329",
+        "type": "pageextension",
+        "id": 31329,
+        "name": "Service Cr. Memo Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31329-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceInvoiceSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31330",
+        "type": "pageextension",
+        "id": 31330,
+        "name": "Service Invoice Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31330-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceLinesCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31331",
+        "type": "pageextension",
+        "id": 31331,
+        "name": "Service Lines CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31331-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/ServiceQuoteLinesCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31332",
+        "type": "pageextension",
+        "id": 31332,
+        "name": "Service Quote Lines CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31332-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/PageExtensions/TransferOrderSubformCZ.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/31333",
+        "type": "pageextension",
+        "id": 31333,
+        "name": "Transfer Order Subform CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "pageextension/31333-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/DirectTransLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31323",
+        "type": "tableextension",
+        "id": 31323,
+        "name": "Direct Trans. Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31323-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/IntrastatReportSetupCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31326",
+        "type": "tableextension",
+        "id": 31326,
+        "name": "Intrastat Report Setup CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31326-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ItemJournalLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31302",
+        "type": "tableextension",
+        "id": 31302,
+        "name": "Item Journal Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31302-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ItemLedgerEntryCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31303",
+        "type": "tableextension",
+        "id": 31303,
+        "name": "Item Ledger Entry CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31303-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/JobJournalLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31304",
+        "type": "tableextension",
+        "id": 31304,
+        "name": "Job Journal Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31304-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/JobLedgerEntryCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31305",
+        "type": "tableextension",
+        "id": 31305,
+        "name": "Job Ledger Entry CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31305-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchCrMemoLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31306",
+        "type": "tableextension",
+        "id": 31306,
+        "name": "Purch. Cr. Memo Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31306-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchInvLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31307",
+        "type": "tableextension",
+        "id": 31307,
+        "name": "Purch. Inv. Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31307-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchRcptLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31308",
+        "type": "tableextension",
+        "id": 31308,
+        "name": "Purch. Rcpt. Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31308-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchaseLineArchiveCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31332",
+        "type": "tableextension",
+        "id": 31332,
+        "name": "Purchase Line Archive CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31332-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/PurchaseLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31309",
+        "type": "tableextension",
+        "id": 31309,
+        "name": "Purchase Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31309-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ReturnReceiptLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31310",
+        "type": "tableextension",
+        "id": 31310,
+        "name": "Return Receipt Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31310-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ReturnShipmentLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31311",
+        "type": "tableextension",
+        "id": 31311,
+        "name": "Return Shipment Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31311-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesCrMemoLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31312",
+        "type": "tableextension",
+        "id": 31312,
+        "name": "Sales Cr. Memo Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31312-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesInvoiceLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31313",
+        "type": "tableextension",
+        "id": 31313,
+        "name": "Sales Invoice Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31313-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesLineArchiveCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31341",
+        "type": "tableextension",
+        "id": 31341,
+        "name": "Sales Line Archive CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31341-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31314",
+        "type": "tableextension",
+        "id": 31314,
+        "name": "Sales Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31314-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/SalesShipmentLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31315",
+        "type": "tableextension",
+        "id": 31315,
+        "name": "Sales Shipment Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31315-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceCrMemoLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31316",
+        "type": "tableextension",
+        "id": 31316,
+        "name": "Service Cr. Memo Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31316-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceInvoiceLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31317",
+        "type": "tableextension",
+        "id": 31317,
+        "name": "Service Invoice Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31317-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceLineArchiveCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31354",
+        "type": "tableextension",
+        "id": 31354,
+        "name": "Service Line Archive CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31354-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31318",
+        "type": "tableextension",
+        "id": 31318,
+        "name": "Service Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31318-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/ServiceShipmentLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31319",
+        "type": "tableextension",
+        "id": 31319,
+        "name": "Service Shipment Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31319-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31320",
+        "type": "tableextension",
+        "id": 31320,
+        "name": "Transfer Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31320-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferReceiptLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31321",
+        "type": "tableextension",
+        "id": 31321,
+        "name": "Transfer Receipt Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31321-cz"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/TableExtensions/TransferShipmentLineCZ.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/31322",
+        "type": "tableextension",
+        "id": 31322,
+        "name": "Transfer Shipment Line CZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "tableextension/31322-cz"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemCardOriginCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/ItemEntryOriginCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/JobEntryOriginCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/NoPostedOriginCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/PostedEntriesOriginCZ.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/GetCountryRegOfOriginCZ.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Enums/IntrastatPostedSourceCZ.Enum.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatOriginModeCZ.Interface.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Interfaces/IntrastatPostedOriginCZ.Interface.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory",
+    "development"
+  ],
+  "apps": [
+    "IntrastatCZ"
+  ]
+}

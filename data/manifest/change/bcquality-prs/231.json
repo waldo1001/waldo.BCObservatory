@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/231",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "al-agents-review: derive the target BC version from app.json",
+  "url": "https://github.com/microsoft/BCQuality/pull/231",
+  "published_at": "2026-10-19T10:47:07Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-20T00:24:23.980Z",
+      "change_class": "code",
+      "files": 1,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-20T00:24:36.913Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003424
+    },
+    "linked": {
+      "at": "2026-10-20T00:24:36.914Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-20T00:24:36.920Z",
+      "path": "content/changes/bcquality/231.md"
+    }
+  },
+  "input_hash": "eb13e66ade19230e30a8d5767d1743757a5ccfc8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 231,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "eb13e66ade19230e30a8d5767d1743757a5ccfc8",
+    "author": "demiliani",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "al agents review derive the target bc version from app json"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "b5802c4e52dfed16453805b688f8d5144647bed018869bec05883be688743808"
+}

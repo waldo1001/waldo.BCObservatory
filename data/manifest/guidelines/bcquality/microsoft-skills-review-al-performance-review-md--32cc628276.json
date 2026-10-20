@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL performance review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-performance-review.md",
-  "published_at": "2026-10-05T12:59:15.000Z",
+  "published_at": "2026-10-19T10:48:07.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:04:39.016Z",
-      "blob": "1fc11391e6355eea22a8013bf1d4ce9cb242918c",
-      "words": 2363,
+      "at": "2026-10-20T00:22:13.232Z",
+      "blob": "a5efbe72b3139683d4b08ddbe546ed559e2d72d6",
+      "words": 2471,
       "forms": 0
     }
   },
-  "input_hash": "1fc11391e6355eea22a8013bf1d4ce9cb242918c",
+  "input_hash": "a5efbe72b3139683d4b08ddbe546ed559e2d72d6",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,50 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 2363
+    "words": 2471,
+    "identifiers": [
+      "IncludedFields",
+      "SumIndexFields",
+      "SetRange",
+      "SetFilter",
+      "SetLoadFields",
+      "SetCurrentKey",
+      "FindSet",
+      "FindLast",
+      "IsEmpty",
+      "ReadIsolation",
+      "LockTable",
+      "ModifyAll",
+      "DeleteAll",
+      "RecordRef",
+      "GetTable",
+      "TextBuilder",
+      "CalcFields",
+      "SetAutoCalcFields",
+      "CalcSums",
+      "CalcFormula",
+      "FlowField",
+      "RunModal",
+      "GuiAllowed",
+      "TryFunction",
+      "HttpClient",
+      "UseRequestPage",
+      "HeadlinePart",
+      "OnComputeHeadlines",
+      "OnIsAnyExtensionHeadlineVisible",
+      "OnSetVisibility",
+      "FindFirst",
+      "OnValidate",
+      "MediaSet",
+      "RequestWindow",
+      "OnOpenPage",
+      "ToolTip",
+      "OptionCaption",
+      "DataClassification"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1fc11391e6355eea22a8013bf1d4ce9cb242918c"
+  "output_hash": "a5efbe72b3139683d4b08ddbe546ed559e2d72d6"
 }

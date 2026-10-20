@@ -1,41 +1,41 @@
 {
   "item_id": "blog/gerardorenteria-blog/14079",
-  "url": "https://gerardorenteria.blog/2026/03/08/al-language-extension-for-microsoft-dynamics-365-business-central-versions/",
+  "url": "https://gerardorenteria.blog/2026/10/19/al-language-extension-for-microsoft-dynamics-365-business-central-versions/",
   "title": "AL Language extension for Microsoft Dynamics 365 Business Central – versions",
   "source": "gerardorenteria-blog",
-  "published_at": "2026-03-08T15:41:25.000Z",
-  "words": 4868,
-  "summary": "AL Language extension changelog documenting features added across versions 15.0 through 18.0, including implicit type conversions, HTTP mocking in tests, multiline strings, JSON accessors, AppSourceCop rules, namespace documentation, and improved IDE capabilities in Visual Studio Code.",
+  "published_at": "2026-10-19T21:21:32.000Z",
+  "words": 9991,
+  "summary": "A changelog summary page for the AL Language extension covering versions from 4.0.0 to 30.0, aligned with Business Central releases from 2017 through 2027 wave 1. It references the official VS Code marketplace changelog and details compiler features, bug fixes, and language improvements across multiple years.",
   "key_points": [
-    "Support for implicit conversion between Record and RecordRef types simplifies type handling",
-    "HTTP client mocking via HttpClientHandler allows testing external service integrations without actual requests",
-    "Namespace support with documentation and ALDoc improvements enables better code organization and documentation",
-    "New JSON methods (GetBoolean, GetText, etc.) provide direct access to JSON properties without JsonToken intermediaries",
-    "Extended AppSourceCop and PerTenantExtensionCop rules validate field classification, breaking changes, and namespace uniqueness"
+    "AL Language versions range from early 2017 updates (0.2 to 0.13) through Business Central 2027 release wave 1 (version 30.0)",
+    "Recent versions add support for markdown page fields, multi-pair ModifyAll operations, snapshot debugging for tests, document media types, and ternary operators",
+    "The extension handles compiler optimizations like parallel workspace compilation, AppSourceCop rule updates, and improved error diagnostics",
+    "Agent and copilot features integrated including GPT-5.3-chat model upgrades and searchable downloaded symbols",
+    "Bug fixes address issues with publishing, packaging, formatting, debugging, and language server functionality"
   ],
   "systems": [
     "development",
     "platform",
-    "integration"
+    "copilot"
   ],
   "topics": [
     "al language",
-    "vs code extension",
-    "compiler features",
-    "json handling",
-    "testing",
-    "code analysis",
-    "documentation",
-    "type system"
+    "compiler",
+    "visual studio code",
+    "extension",
+    "changelog",
+    "bug fixes",
+    "copilot",
+    "testing"
   ],
   "objects": [
     {
       "type": "other",
-      "name": "RecordRef"
+      "name": "AL Language extension"
     },
     {
       "type": "other",
-      "name": "Record"
+      "name": "NavApp"
     },
     {
       "type": "other",
@@ -43,7 +43,7 @@
     },
     {
       "type": "other",
-      "name": "JsonArray"
+      "name": "Query"
     },
     {
       "type": "other",
@@ -51,54 +51,46 @@
     },
     {
       "type": "other",
-      "name": "TestHttpRequestMessage"
-    },
-    {
-      "type": "other",
-      "name": "TestHttpResponseMessage"
+      "name": "RecordRef"
     }
   ],
   "features": [
-    "Implicit Record/RecordRef conversion",
-    "HTTP request mocking in tests",
-    "Multiline string literals",
-    "Continue statement in loops",
-    "JSON property accessors",
-    "Namespace documentation with ALDoc",
-    "Summary system part control",
-    "Go To Symbol in Workspace"
+    "markdown page fields",
+    "snapshot debugging",
+    "multi-field ModifyAll",
+    "document media type",
+    "ternary operator",
+    "resource packaging",
+    "yaml support",
+    "http mocking in tests"
   ],
   "versions": [
+    "30.0",
+    "18.1",
     "18.0",
     "17.0",
     "16.4",
     "16.3",
     "16.2",
-    "16.1",
-    "16.0",
-    "15.3"
+    "16.1"
   ],
-  "language": "en",
+  "language": "es",
   "quotes": [
     {
-      "text": "We have introduced support for implicit conversion between Record and RecordRef instances, allowing direct assignment between these types.",
-      "why_it_matters": "Simplifies code by eliminating boilerplate conversion calls, improving developer productivity and code readability"
+      "text": "Apps can now expose selected packaged resources to other apps.",
+      "why_it_matters": "Enables better code organization and reusability by allowing extensions to share resources across app boundaries"
     },
     {
-      "text": "This feature allows for more controlled and easier testing of modules that interact with external services.",
-      "why_it_matters": "HTTP mocking enables isolated unit testing without dependency on external APIs, critical for reliable CI/CD pipelines"
-    },
-    {
-      "text": "AL now has support for multiline string literals. A multiline string must be prefixed with @.",
-      "why_it_matters": "Multiline strings enable developers to include formatted text and JSON payloads directly in code without escape sequences"
+      "text": "We have introduced a new handler type HttpClientHandler to allow mocking the response of HTTP requests in test codeunits.",
+      "why_it_matters": "Facilitates better testing practices by enabling developers to mock external HTTP dependencies in AL tests"
     }
   ],
   "trimmed_for_policy": 0,
   "prompt_version": 1,
   "llm": {
     "model": "claude-haiku-4-5-20251001",
-    "cached": true,
-    "cost_usd": null,
+    "cached": false,
+    "cost_usd": 0.024653,
     "posts_in_call": 1
   }
 }

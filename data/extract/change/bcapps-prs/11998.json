@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/11998",
+  "number": 11998,
+  "title": "[main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The system now validates that a General Posting Setup combination exists before posting journal invoices, preventing issues that arise later when processing payment discounts.",
+  "key_points": [
+    "Added validation in Gen. Jnl.-Check Line to ensure General Posting Setup row exists for the business/product posting group pair",
+    "Allows configurations with a blank business posting group while rejecting missing combinations",
+    "Prevents invoices from posting with only a product posting group but no matching General Posting Setup",
+    "Fixes issues that surface when posting payment discounts with invalid posting setup combinations",
+    "Applied across all localization layers and added test coverage"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance"
+  ],
+  "quote": "Validate that the General Posting Setup row exists for the pair before posting.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004039,
+    "changes_in_call": 1
+  }
+}

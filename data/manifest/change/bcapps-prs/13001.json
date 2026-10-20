@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/13001",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix self-billing test fixture rollback",
+  "url": "https://github.com/microsoft/BCApps/pull/13001",
+  "published_at": "2026-10-19T18:17:26Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-20T00:20:54.594Z"
+    }
+  },
+  "input_hash": "498c840ebc4984c9548ed68b0558e54b36f3aa3d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13001,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "498c840ebc4984c9548ed68b0558e54b36f3aa3d",
+    "author": "djukicmilica",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Integrations"
+    ],
+    "community_contribution": false,
+    "title_key": "fix self billing test fixture rollback"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-20T00:21:19.858Z",
+  "retry_after": null
+}
