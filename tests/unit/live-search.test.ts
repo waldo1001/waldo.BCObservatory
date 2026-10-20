@@ -2,11 +2,56 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { pageToRecord, prepare, scoreRecord, parseQuery } from "@bc-observatory/search";
 import { hitsFor, liveText, nodeIdOf } from "../../site/src/scripts/live-search.js";
-import { byApp, exactHtml, groupHits, groupOf, hintsHtml, parse, rank, resultsHtml, statusLine, tabOf, typeParamOf, type Row } from "../../site/src/scripts/search.js";
+import { byApp, exactHtml, groupHits, groupOf, hintsHtml, parse, rank, resultsHtml, showsSort, sortOf, statusLine, tabOf, typeParamOf, type Row } from "../../site/src/scripts/search.js";
 
 const row = (path: string, type: string, title: string, system: string | null = "finance", over: Partial<Row> = {}): Row =>
   ({ path, type, title, summary: `${title} summary`, tier: "official", system, tags: [], ...(type === "object" ? { object_type: path.split("/")[1], object_id: Number(path.split("/")[2]) || null } : {}), ...over });
 const idx = (rows: Row[]) => prepare(rows.map(pageToRecord));
+
+const titlesOf = (html: string) => [...html.matchAll(/class="row-title"[^>]*>([^<]*)</g)].map((m) => m[1]);
+
+test("D101: Newest reorders a dated tab by day, before the caps; All and undated tabs keep best match", () => {
+  const rows = [
+    row("posts/s/a", "post", "Telemetry in the title", "platform", { date: "2025-05-31" }),
+    row("posts/s/b", "post", "Plain", "platform", { date: "2026-10-18", summary: "mentions telemetry" }),
+    row("videos/v1", "video", "Telemetry video", "platform", { date: "2024-01-01" }),
+    row("videos/v2", "video", "Newer", "platform", { date: "2026-01-01", summary: "telemetry" }),
+  ];
+  const i = idx(rows), groups = groupHits(rank(i, "telemetry"));
+  assert.deepEqual(titlesOf(resultsHtml(groups, "/", "post", "date")), ["Plain", "Telemetry in the title"]);
+  assert.deepEqual(titlesOf(resultsHtml(groups, "/", "post")), ["Telemetry in the title", "Plain"]);
+  assert.equal(resultsHtml(groups, "/", "", "date"), resultsHtml(groups, "/", ""), "All keeps best-match order");
+});
+
+test("D101: Newest puts an undated release last in Other pages", () => {
+  const rows = [
+    row("releases/al-1", "release", "Undated telemetry", "platform"),
+    row("releases/al-2", "release", "Dated telemetry", "platform", { date: "2025-01-01" }),
+  ];
+  const groups = groupHits(rank(idx(rows), "telemetry"));
+  assert.deepEqual(titlesOf(resultsHtml(groups, "/", "other", "date")), ["Dated telemetry", "Undated telemetry"]);
+});
+
+test("D101: showsSort and sortOf", () => {
+  for (const t of ["learn", "roadmap", "video", "post", "change", "digest", "other"]) assert.equal(showsSort(t), true, t);
+  for (const t of ["", "start", "object", "field", "event", "proc", "value", "localization", "source"]) assert.equal(showsSort(t), false, t);
+  assert.equal(sortOf("date"), "date");
+  for (const v of ["match", null, "", "Date"]) assert.equal(sortOf(v), "", String(v));
+});
+
+test("D101: Newest finds the newest of all 600 matches and the caps count as today", () => {
+  const rows = Array.from({ length: 600 }, (_, i) => {
+    const d = new Date(Date.UTC(2025, 0, 1) + i * 86_400_000).toISOString().slice(0, 10);
+    // the newest gets the weakest score: the word only in the summary
+    return row(`posts/s/${i}`, "post", i === 599 ? "Plain newest" : `Telemetry ${i}`, "platform", { date: d, summary: i === 599 ? "telemetry" : "x" });
+  });
+  const groups = groupHits(rank(idx(rows), "telemetry"));
+  const html = resultsHtml(groups, "/", "post", "date");
+  assert.equal(titlesOf(html)[0], "Plain newest");
+  assert.match(html, /Show 450 more/);
+  assert.match(html, /and 100 more/);
+  assert.notEqual(titlesOf(resultsHtml(groups, "/", "post"))[0], "Plain newest");
+});
 
 test("index paths map to galaxy node ids by dropping the plural on the first segment", () => {
   assert.equal(nodeIdOf("objects/table/18"), "object/table/18");

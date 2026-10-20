@@ -35,7 +35,7 @@ import { dot, embed, parseModel, type StaticModel } from "./embed.js";
 import { countryBlock, memberAnswer, parseAnchor, replacedInLine, type DiffObject } from "./country.js";
 import { DEFAULT_BUDGET, anchorView, budgetOf, pageView, type ViewArgs } from "./sections.js";
 
-const VERSION = "0.7.2";
+const VERSION = "0.8.0";
 const SITE = (process.env.BC_OBSERVATORY_SITE ?? "https://waldo1001.github.io/waldo.BCObservatory/").replace(/\/?$/, "/");
 const LOCAL = process.env.BC_OBSERVATORY_LOCAL ? resolve(process.env.BC_OBSERVATORY_LOCAL) : null;
 /** One answer's characters (D93): a longer page comes back compact; B is how the descriptions say it. */
@@ -215,7 +215,7 @@ export function fuse(lists: string[][], k = 60): string[] {
 
 export interface SearchArgs {
   query: string; type?: string; tier?: string; system?: string; country?: string; app?: string; object_type?: string; kind?: string;
-  limit?: number; mode?: "hybrid" | "keyword" | "semantic";
+  limit?: number; mode?: "hybrid" | "keyword" | "semantic"; sort?: "match" | "date";
 }
 /** The filters of a search call, case-insensitive; a system by its id, label word or alias ("g/l" is finance). */
 export function keepOf(a: SearchArgs): (r: SearchRecord) => boolean {
@@ -233,7 +233,9 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   const keep = keepOf(a);
   const limit = a.limit ?? 10, mode = a.mode ?? "hybrid", POOL = 50;
   const q = parseQuery(a.query, { countries: countriesOf(index!) });
-  const hits = rank(index!, q, { filter: keep });
+  // sort "date" (D101): every keyword match, newest day first; the meaning list is not used
+  const byDay = a.sort === "date";
+  const hits = rank(index!, q, { filter: keep, ...(byDay ? { sort: "date" as const } : {}) });
   // the kind asked for, by the `kind:` prefix or by the kind parameter ("page" is no symbol kind): no meaning list, and a
   // hit-less answer says what is missing (D95)
   const kind = q.kind ?? KINDS[a.kind?.trim().toLowerCase() ?? ""] ?? null;
@@ -243,7 +245,7 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   // the meaning list (D63): pages only, the top 50 by cosine similarity
   let semantic: string[] = [], note = "";
   // a kind: query asks for a symbol, and symbols are never in the meaning list: no padding with pages (D95)
-  if (mode !== "keyword" && !kind) {
+  if (mode !== "keyword" && !kind && !byDay) {
     const m = await loadModel();
     if (m) {
       const v = embed(m, a.query), data = pageVectors(m);
@@ -256,7 +258,8 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
   }
   const keyword = hits.map((h) => uid(h.r));
   let order: string[], exactBand = 0;
-  if (mode === "semantic") order = semantic.length ? semantic : keyword.slice(0, POOL);
+  if (byDay) order = keyword;
+  else if (mode === "semantic") order = semantic.length ? semantic : keyword.slice(0, POOL);
   else if (mode === "keyword" || !semantic.length) order = keyword;
   else {
     // the exact band pinned in keyword order, the rest fused with the meaning list (D86 4.2)
@@ -279,7 +282,8 @@ export async function toolSearch(a: SearchArgs): Promise<string> {
     return `${first.text}${via(first)}${note}${more.map((h) => `\nHint: ${h.text}${via(h)}`).join("")}`;
   }
   if (!shown.length) return `No pages match "${a.query}". Try fewer words, or ls("") to browse sections.${note}${hintText}`;
-  const how = semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
+  const how = byDay ? "keyword, newest first" : semantic.length && keyword.length && mode === "hybrid" ? "keyword + meaning" : mode === "semantic" && semantic.length ? "meaning" : "keyword";
+  if (byDay && mode === "semantic") note = ` (sort "date" orders the keyword matches; mode "semantic" ignored)`;
   const learnNote = shown.some((r) => r.type === "learn") ? "; a Learn article's url reads with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com; cat(hub) reads its hub" : "";
   // an empty keyword list says so: the hits are by meaning only (D95)
   if (mode === "hybrid" && !keyword.length && semantic.length) return `No keyword match for "${a.query}"; ${shown.length} pages by meaning only (read one with cat(path)${learnNote}):\n${shown.map((r) => hitLine(r, tag(uid(r)))).join("\n")}${hintText}`;
@@ -434,8 +438,8 @@ export function createServer(): McpServer {
   const server = new McpServer({ name: "bc-observatory", version: VERSION }, {
     instructions: "BC Observatory: an agent-first knowledge base of Microsoft Dynamics 365 Business Central (Learn hubs, AL objects from the code for BC28-30, localizations, roadmap features, videos, community posts, code changes: merged pull requests of Microsoft's Business Central repositories, BCApps joined to the AL objects they changed, under changes/, and AL Language extension releases (the marketplace changelog, under releases/)). Every page carries a trust tier (official = Microsoft, community = everyone else) and a review state: say which tier a claim comes from. Never invent AL object ids or version numbers: look them up with get_object. Start with search(), read pages with cat(path), browse with ls(path). search() also finds Microsoft Learn articles by title, summary and the identifiers they document (type learn): those are not pages here: read their url with the Learn MCP's microsoft_docs_fetch (the plugin connects it), else open it on learn.microsoft.com.",
   });
-  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); symbols rank by their owner's layer and importance; a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<ordinal>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with a meaning ranking; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app ('Subscription Billing'), object_type ('table'), kind (page, field, event, proc, value).",
-    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional() } },
+  server.registerTool("search", { title: "Search the knowledge base", description: "Search every page and the fields, events, global procedures and enum values of AL objects. Takes names ('Sales Header'), references ('t36', 'cu 80'), bare ids ('36') and symbol prefixes ('event: OnAfterPost', 'proc: CopyToTempLines'); a kind: query with no hit names the nearest symbols; a symbol hit's path ends in its anchor (#event-<Name>, #field-<id>, #proc-<Name>, #value-<n>); cat(path) reads that member. Learn articles: type learn, a url not a path. Hybrid by default: exact matches on top, the rest fused with meaning; each hit says [keyword], [meaning] or [both]; mode 'keyword' or 'semantic' for one list. sort 'date': keyword matches newest first, undated last. Filters: type (topic, learn, app, feature, object, localization, video, post, change, source, digest, release), tier (official, community), system (finance, sales, ... or alias 'g/l'), country ('BE'), app, object_type, kind (page, field, event, proc, value).",
+    inputSchema: { query: z.string(), type: z.string().optional(), tier: z.string().optional(), system: z.string().optional(), country: z.string().optional(), app: z.string().optional(), object_type: z.string().optional(), kind: z.enum(["page", "field", "event", "proc", "value"]).optional(), limit: z.number().int().min(1).max(50).optional(), mode: z.enum(["hybrid", "keyword", "semantic"]).optional(), sort: z.enum(["match", "date"]).optional() } },
   async (a) => text(await toolSearch(a)));
   server.registerTool("ls", { title: "List pages", description: "Browse the page tree, e.g. ls('objects/table') or ls('localizations'); empty path lists the sections.", inputSchema: { path: z.string().optional() } },
     async (a) => text(await toolLs(a)));
@@ -447,7 +451,7 @@ export function createServer(): McpServer {
     inputSchema: { type: z.string(), id: z.string(), from: z.string(), to: z.string() } }, async (a) => text(await toolDiffObject(a)));
   server.registerTool("localization", { title: "A country localization", description: `What a country layer (BE, NL, DE, ...) adds to or changes in W1, with its Learn local functionality hub. Over ${B} characters it comes back compact; section, offset and limit read one section, as in cat.`, inputSchema: { country: z.string().length(2), ...VIEW } },
     async (a) => text(await toolLocalization(a)));
-  server.registerTool("whats_new", { title: "What is new", description: "Videos, posts, roadmap features, AL extension releases (type 'release') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change') dated on or after a date (YYYY-MM-DD) up to today, newest first. A roadmap feature's date is its GA month: features after today are counted at the end and listed with include_future: true.",
+  server.registerTool("whats_new", { title: "What is new", description: "Videos, posts, roadmap features, AL extension releases (type 'release'), weekly digests (type 'digest') and merged pull requests of BCApps, AL-Go and BCQuality (type 'change') dated on or after a date (YYYY-MM-DD) up to today, newest first. A roadmap feature's date is its GA month: features after today are counted at the end and listed with include_future: true.",
     inputSchema: { since: z.string(), type: z.string().optional(), limit: z.number().int().min(1).max(100).optional(), include_future: z.boolean().optional() } }, async (a) => text(await toolWhatsNew(a)));
   server.registerTool("blog_footprint", { title: "A source's footprint", description: "What a blog or channel (source id from sources.yaml, e.g. 'kauffmann-nl', 'yt-hougaard') covers: its posts or videos and the systems they touch.",
     inputSchema: { source: z.string() } }, async (a) => text(await toolBlogFootprint(a)));

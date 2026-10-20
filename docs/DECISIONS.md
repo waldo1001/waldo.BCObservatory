@@ -1104,6 +1104,20 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   grows 2,311 bytes (77,111 to 79,422), 905 gzipped (26,371 to 27,276, `gzip -c`); the pure helpers are unit-tested
   (`live-search`, `layers-core`, `galaxy-core`) and the ten built-site checks of the spec's section 7 pass. Spec:
   `docs/specs/tilt-keeps-search.md` (section 12: built, deviations).
+- **D101 Search results can be ordered newest first (2026-10-19).** The search page's dated tabs (Learn articles,
+  Roadmap, Videos, Posts, Code changes, Weekly digests, Other pages) carry a switch "Best match | Newest" under the tabs.
+  Best match, the scorer's order, stays the default (owner); Newest (`?sort=date`) reorders the same hits by their day,
+  newest first, the same day by best match, undated last, before the 50 and 500 caps. All and the undated tabs have no
+  switch. The shared scorer gains `byDate` and `search(..., { sort: "date" })` (packages/search), so the site and the
+  MCP sort alike; the MCP's `search` gains `sort: "match" | "date"`, which orders the keyword matches and skips the
+  meaning list (MCP 0.8.0, plugin 0.3.2). A weekly digest's index record is dated by the Monday of its ISO week, so it
+  sorts, prints its date and shows in `whats_new`. The day, not the time: the index keeps the day and the owner had no
+  preference. Rejected: Newest as the default (of the 10 newest "Telemetry" posts only 3 have the word in their title),
+  no switch, full publish times (+25 KB, every date consumer cuts again), filtering Newest to title matches, the switch
+  on All (its groups preview the best 10), sorting the fused MCP list (meaning-only hits would rise), a new tool,
+  digests by path (a week id outsorts every date in a mixed list) or by Sunday (the running week would be after today).
+  Measured: unit tests (scorer, page, index, MCP) pass; the built-site byte deltas and the browser checks are operator
+  steps, see `docs/built/search-newest-first.md`. Spec: docs/specs/search-newest-first.md.
 - **D102 A video or post whose topic links were all dropped gets one second chance (2026-10-19, M40).** D54's review
   only keeps or drops, and the linker redoes a unit only when its hash changes, so a dropped link was final. On
   2026-10-19, 227 posts and 148 videos had every link dropped and sat on no hub page and in no tilted view. In all, 328

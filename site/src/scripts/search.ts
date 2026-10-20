@@ -7,10 +7,11 @@
  * Procedures, ...) behind a row of tabs, opens with "Exactly this" for a reference, a bare number or a kind: query, and
  * says "did you mean" when the words matched weakly or not at all. A Learn article (D98) opens the hub that lists it,
  * at the article's line, and its label opens learn.microsoft.com; its shard loads with the first query, after the page
- * is usable.
+ * is usable. A dated tab (Learn articles, Roadmap, Videos, Posts, Code changes, Weekly digests, Other pages) has a
+ * Best match | Newest switch (`?sort=date`, D101): Newest orders the same hits by day, newest first, before the caps.
  */
 import {
-  hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
+  byDate, hints, hrefOf, parseQuery, search, symbolLine, type Hint, type Hit, type Index, type PageRecord, type ParsedQuery, type SearchRecord,
 } from "@bc-observatory/search";
 import { learnHash } from "./learn-target-core.js";
 import { countriesNow, kindsFor, loadPages, loadSymbols } from "./index-loader.js";
@@ -26,26 +27,26 @@ export const parse = (q: string, index: Index): ParsedQuery => parseQuery(q, { c
 
 // ---------------------------------------------------------------------------------------------- groups (D65 3.1, D86)
 
-export interface GroupDef { id: string; label: string; types: string[]; cap: number; one: string; many: string }
+export interface GroupDef { id: string; label: string; types: string[]; cap: number; one: string; many: string; dated?: true }
 /** The fixed order of the results page; an empty group is omitted. `one`/`many` word the status line. A group that stands
  * for a section says its name (D90, pipeline/lib/sections.ts; literal here so the browser bundle does not import the map,
  * tests/unit/sections.test.ts pins them). */
 export const GROUPS: GroupDef[] = [
   { id: "start", label: "Start here", types: ["topic", "app"], cap: 5, one: "to start with", many: "to start with" },
-  { id: "learn", label: "Learn articles", types: ["learn"], cap: 5, one: "Learn article", many: "Learn articles" },
-  { id: "roadmap", label: "Roadmap", types: ["feature"], cap: 10, one: "roadmap", many: "roadmap" },
-  { id: "video", label: "Videos", types: ["video"], cap: 10, one: "video", many: "videos" },
-  { id: "post", label: "Posts", types: ["post"], cap: 10, one: "post", many: "posts" },
+  { id: "learn", label: "Learn articles", types: ["learn"], cap: 5, one: "Learn article", many: "Learn articles", dated: true },
+  { id: "roadmap", label: "Roadmap", types: ["feature"], cap: 10, one: "roadmap", many: "roadmap", dated: true },
+  { id: "video", label: "Videos", types: ["video"], cap: 10, one: "video", many: "videos", dated: true },
+  { id: "post", label: "Posts", types: ["post"], cap: 10, one: "post", many: "posts", dated: true },
   { id: "object", label: "AL objects", types: ["object"], cap: 10, one: "AL object", many: "AL objects" },
   { id: "field", label: "Fields", types: [], cap: 10, one: "field", many: "fields" },
   { id: "event", label: "Events", types: [], cap: 10, one: "event", many: "events" },
   { id: "proc", label: "Procedures", types: [], cap: 10, one: "procedure", many: "procedures" },
   { id: "value", label: "Enum values", types: [], cap: 10, one: "enum value", many: "enum values" },
-  { id: "change", label: "Code changes", types: ["change"], cap: 10, one: "code change", many: "code changes" },
+  { id: "change", label: "Code changes", types: ["change"], cap: 10, one: "code change", many: "code changes", dated: true },
   { id: "localization", label: "Localizations", types: ["localization"], cap: 10, one: "localization", many: "localizations" },
   { id: "source", label: "Sources", types: ["source"], cap: 10, one: "source", many: "sources" },
-  { id: "digest", label: "Weekly digests", types: ["digest"], cap: 10, one: "digest", many: "digests" },
-  { id: "other", label: "Other pages", types: [], cap: 10, one: "other page", many: "other pages" },
+  { id: "digest", label: "Weekly digests", types: ["digest"], cap: 10, one: "digest", many: "digests", dated: true },
+  { id: "other", label: "Other pages", types: [], cap: 10, one: "other page", many: "other pages", dated: true },
 ];
 const GROUP_OF_TYPE = new Map(GROUPS.flatMap((g) => g.types.map((t) => [t, g.id] as const)));
 /** A page by its type, a symbol by its kind. */
@@ -58,6 +59,12 @@ export function tabOf(type: string | null): string {
 }
 /** The tab as the `type=` parameter it is written back as: a page type where one exists, so old links stay valid. */
 export const typeParamOf = (tab: string) => (tab === "roadmap" ? "feature" : tab);
+
+export type Sort = "" | "date";
+/** The `sort=` query parameter: "date" is Newest, anything else Best match (D101). */
+export const sortOf = (p: string | null): Sort => (p === "date" ? "date" : "");
+/** Whether a tab carries the Best match | Newest switch: a dated group, never All. */
+export const showsSort = (tab: string): boolean => !!GROUPS.find((g) => g.id === tab)?.dated;
 
 export interface Group { def: GroupDef; hits: Hit[] }
 /** Every hit of a query, best first (score, then newest, bigger, more important, title). */
@@ -121,12 +128,14 @@ function listHtml(hits: Hit[], base: string, visible: number, max: number, inApp
   return `<ul class="rows">${shown.map((h) => rowHtml(h, base, inApp)).join("")}</ul>${more.length ? `<details class="more"><summary>Show ${more.length} more</summary><ul class="rows">${more.map((h) => rowHtml(h, base, inApp)).join("")}</ul></details>` : ""}${rest > 0 ? `<p class="meta sr-rest">and ${rest.toLocaleString("en")} more: add a word to narrow the search.</p>` : ""}`;
 }
 /** The grouped results; a `tab` renders that one group with room for more rows. */
-export function resultsHtml(groups: Group[], base: string, tab: string): string {
+export function resultsHtml(groups: Group[], base: string, tab: string, sort: Sort = ""): string {
   const one = !!tab;
   return groups.filter((g) => !one || g.def.id === tab).map(({ def, hits }) => {
+    // Newest (D101): one dated tab only, sorted before the caps
+    const ordered = sort === "date" && one && def.dated ? [...hits].sort(byDate) : hits;
     const body = def.id === "object"
       ? byApp(hits).map(([app, hs]) => `<h3 class="sr-app">${esc(app || "Other objects")} <small>${hs.length.toLocaleString("en")}</small></h3>${listHtml(hs, base, one ? 25 : 10, one ? 200 : 50, true)}`).join("")
-      : listHtml(hits, base, one ? 50 : def.cap, one ? 500 : 50);
+      : listHtml(ordered, base, one ? 50 : def.cap, one ? 500 : 50);
     return `<section class="sr-group" aria-labelledby="sr-${def.id}"><h2 class="section-title" id="sr-${def.id}">${esc(def.label)} <small>${hits.length.toLocaleString("en")}</small></h2>${body}</section>`;
   }).join("");
 }
@@ -192,6 +201,8 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
   const params = new URLSearchParams(location.search);
   input.value = params.get("q") ?? "";
   let tab = tabOf(params.get("type"));
+  let sort = sortOf(params.get("sort"));
+  const sortEl = root.querySelector<HTMLElement>(".sr-sort");
   status.textContent = "Loading the index...";
   // first paint after the hubs and media shards (D86 2.2); the AL objects fill in when their shards arrive
   let index: Index;
@@ -234,11 +245,19 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
       b.hidden = !!id && !on && (counts ? !n : b.dataset.optional !== undefined);
     }
   };
+  // the Best match | Newest switch: on a dated tab only (D101)
+  const paintSort = () => {
+    if (!sortEl) return;
+    sortEl.hidden = !showsSort(tab);
+    for (const b of sortEl.querySelectorAll<HTMLButtonElement>("button[data-sort]")) b.setAttribute("aria-pressed", String((b.dataset.sort ?? "") === sort));
+  };
   const run = () => {
     const raw = input.value.trim();
     const url = new URL(location.href);
     if (raw) url.searchParams.set("q", raw); else url.searchParams.delete("q");
     if (tab) url.searchParams.set("type", typeParamOf(tab)); else url.searchParams.delete("type");
+    if (sort && showsSort(tab)) url.searchParams.set("sort", "date"); else url.searchParams.delete("sort");
+    paintSort();
     history.replaceState(null, "", url);
     if (!raw) { out.innerHTML = ""; hintsEl.innerHTML = ""; paintTabs(null); status.textContent = `${index.records.length.toLocaleString("en")} pages indexed. Try "t18", "Sales-Post", "OnAfterPostSalesDoc" or "BE".`; return; }
     const q = parse(raw, index);
@@ -250,7 +269,7 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     const waiting = waitingText();
     status.textContent = `${statusLine(raw, groups)}${waiting ? ` (${waiting})` : ""}`;
     hintsEl.innerHTML = hintsHtml(shownHints(q, hits, hints(index, q, hits)), base);
-    const html = (tab ? "" : exactHtml(q, hits, base)) + resultsHtml(groups, base, tab);
+    const html = (tab ? "" : exactHtml(q, hits, base)) + resultsHtml(groups, base, tab, sort);
     out.innerHTML = html || (tab && groups.length ? `<p class="meta">No ${esc(GROUPS.find((g) => g.id === tab)?.label.toLowerCase() ?? "results")} for "${esc(raw)}". <button type="button" class="btn" data-all>Show all types</button></p>` : "");
     out.querySelector<HTMLButtonElement>("[data-all]")?.addEventListener("click", () => select("", true));
   };
@@ -265,6 +284,7 @@ export async function mountSearch(root: HTMLElement): Promise<void> {
     if (focus) tabs().find((b) => (b.dataset.tab ?? "") === id)?.focus();
   };
   for (const b of tabs()) b.addEventListener("click", () => select(b.dataset.tab ?? "", false));
+  for (const b of sortEl?.querySelectorAll<HTMLButtonElement>("button[data-sort]") ?? []) b.addEventListener("click", () => { sort = sortOf(b.dataset.sort ?? ""); run(); });
   // a tablist: arrow keys, Home and End move between the tabs and select them
   tablist.addEventListener("keydown", (e) => {
     const list = tabs().filter((b) => !b.hidden), i = list.findIndex((b) => b === document.activeElement);

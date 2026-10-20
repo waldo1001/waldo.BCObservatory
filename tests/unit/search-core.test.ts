@@ -2,12 +2,36 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
-  ABBR, INDEX_PAGE_IDS, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
+  ABBR, INDEX_PAGE_IDS, byDate, type Hit, SYSTEM_ALIASES, anchorOf, editDistance, hasMajor, hints, hrefOf, indexTokens, isCodedId, learnRecords, pageToRecord, parseQuery, prepare, scoreRecord, search,
   stem, symbolLine, symbolToRecord, synonymsOf, systemOf, tokenize, type LearnShard, type PageRecord,
 } from "@bc-observatory/search";
 
 const COUNTRIES = ["at", "au", "be", "ca", "de", "fr", "gb", "in", "nl", "us"];
 const p = (raw: string) => parseQuery(raw, { countries: COUNTRIES });
+
+// ---------------------------------------------------------------------------------------------- D101: newest first
+
+const hitOf = (title: string, date: string | undefined, s: number) => ({ r: { title, date, importance: 0 }, s, why: [], band: "match" }) as unknown as Hit;
+
+test("D101: byDate orders newest first, ties by rank, undated last; a month sorts after its days", () => {
+  const a = hitOf("a", "2026-10-18", 6), b = hitOf("b", "2026-10-16", 7), c = hitOf("c", undefined, 7);
+  assert.deepEqual([c, b, a].sort(byDate).map((h) => h.r.title), ["a", "b", "c"]);
+  const x = hitOf("x", "2026-04-17", 4), y = hitOf("y", "2026-04-17", 2);
+  assert.deepEqual([y, x].sort(byDate).map((h) => h.r.title), ["x", "y"], "same day: the better match first");
+  assert.deepEqual([hitOf("d", "2026-10-05", 1), hitOf("e", "2027-04", 1)].sort(byDate).map((h) => h.r.title), ["e", "d"]);
+  assert.deepEqual([hitOf("d", "2026-10", 1), hitOf("e", "2026-10-05", 1)].sort(byDate).map((h) => h.r.title), ["e", "d"], "a string compare, accepted: a month after every day of it");
+});
+
+test("D101: search with sort 'date' takes the newest N of all matches, not of the best", () => {
+  const post = (id: string, title: string, summary: string, date: string): PageRecord => ({ path: `posts/s/${id}`, type: "post", title, summary, tier: "community", date, tags: [] });
+  const i = prepare([
+    post("1", "Telemetry deep dive", "x", "2025-05-31"),
+    post("2", "Other", "about telemetry", "2026-10-18"),
+    post("3", "Another", "telemetry again", "2026-09-01"),
+  ].map(pageToRecord));
+  assert.deepEqual(search(i, p("telemetry"), { sort: "date", limit: 2 }).map((h) => h.r.title), ["Other", "Another"]);
+  assert.equal(search(i, p("telemetry"), { limit: 2 })[0].r.title, "Telemetry deep dive", "best match first, as today");
+});
 
 // ---------------------------------------------------------------------------------------------- parser (4.1)
 

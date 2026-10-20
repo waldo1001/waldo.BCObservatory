@@ -75,10 +75,26 @@ export function majorsText(present: unknown): string | null {
   return ms.length === 1 ? String(ms[0]) : contiguous ? `${ms[0]}-${ms.at(-1)}` : ms.join(" ");
 }
 
+/** The Monday of an ISO week id ("2026-W41" -> "2026-10-05"), UTC; null when the id is not one (D101). */
+export function weekStart(id: string): string | null {
+  const m = /^(\d{4})-W(\d{2})$/.exec(id);
+  if (!m) return null;
+  const year = Number(m[1]), week = Number(m[2]);
+  if (week < 1 || week > 53) return null;
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const week1 = new Date(jan4); week1.setUTCDate(jan4.getUTCDate() - ((jan4.getUTCDay() || 7) - 1));
+  const monday = new Date(week1.getTime() + (week - 1) * 7 * 86_400_000);
+  // week 53 exists only in a long year: the Thursday of the week must still be in `year`
+  const thursday = new Date(monday.getTime() + 3 * 86_400_000);
+  return thursday.getUTCFullYear() === year ? monday.toISOString().slice(0, 10) : null;
+}
+
 /** The record of one page from its frontmatter. */
 export function pageRecord(path: string, fm: Record<string, any>): PageRecord {
-  // a real date only (published, GA): object and topic pages are regenerated nightly, which is not news
-  const date = fm.published_at ?? fm.ga_date ?? fm.merged_at ?? undefined;
+  // a real date only (published, GA): object and topic pages are regenerated nightly, which is not news; a weekly
+  // digest is dated by the Monday of its week (D101)
+  const date = fm.published_at ?? fm.ga_date ?? fm.merged_at
+    ?? (fm.type === "digest" && typeof fm.week === "string" ? weekStart(fm.week) ?? undefined : undefined);
   const r: PageRecord = {
     path, type: String(fm.type), title: String(fm.title ?? ""), summary: String(fm.summary ?? ""), tier: String(fm.tier ?? ""),
     ...(fm.system ? { system: fm.system } : {}), ...(date ? { date: String(date).slice(0, 10) } : {}),

@@ -279,6 +279,48 @@ test("search is hybrid with a model: exact band pinned, the rest fused with mean
   }
 });
 
+test("D101: search sort 'date' lists the keyword matches newest first, without the meaning list; 'newest' is no value", async () => {
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ customer: [1, 0, 0], agent: [0, 0, 1], agents: [0, 0, 1] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: fixture(), BC_OBSERVATORY_MODEL_DIR: modelDir });
+  try {
+    const dated = await call("search", { query: "agent", sort: "date" });
+    assert.match(dated.split("\n")[0], /^2 results, keyword, newest first/);
+    const lines = dated.split("\n").filter((l) => l.startsWith("- "));
+    assert.match(lines[0], /^- Agents everywhere/);
+    assert.match(lines[1], /^- Designing agents/);
+    assert.doesNotMatch(dated, /\[meaning\]/);
+    const sem = await call("search", { query: "agent", sort: "date", mode: "semantic" });
+    assert.match(sem.split("\n")[0], /^2 results, keyword, newest first \(sort "date" orders the keyword matches; mode "semantic" ignored\)/);
+    assert.deepEqual(sem.split("\n").filter((l) => l.startsWith("- ")).map((l) => l.slice(0, 20)), lines.map((l) => l.slice(0, 20)));
+    assert.match((await call("search", { query: "agent" })).split("\n")[0], /^\d+ results, keyword/, "today's answer");
+    assert.doesNotMatch(await call("search", { query: "agent" }), /newest first/);
+    let failed = false;
+    try {
+      const r = await client.callTool({ name: "search", arguments: { query: "agent", sort: "newest" } });
+      failed = !!r.isError;
+    } catch { failed = true; }
+    assert.ok(failed, "sort: 'newest' fails the input schema");
+  } finally {
+    await client.close();
+  }
+});
+
+test("D101: whats_new lists a weekly digest by the Monday of its week", async () => {
+  const root = fixture();
+  writeText(join(root, "content", "digests/2026-W41.md"), page({ id: "digest/2026-W41", type: "digest", title: "BC Observatory weekly: 2026-W41", summary: "Business Central, week 2026-W41.", tier: "mixed", week: "2026-W41" }, "# Digest"));
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root });
+  try {
+    assert.match(await call("whats_new", { since: "2026-10-01" }), /BC Observatory weekly: 2026-W41.*, 2026-10-05\]/);
+  } finally {
+    await client.close();
+  }
+});
+
 test("without a model, search says so and stays keyword-only", async () => {
   const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: fixture(), BC_OBSERVATORY_MODEL_DIR: join(tmpdir(), "no-such-model-dir") });
   try {
