@@ -14,11 +14,7 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Lenses menu, Time first, D103** (`docs/specs/lens-menu-time-first.md`, M41, issue #21). Status: proposed
-  2026-10-21, nothing implemented. Start with task 1: the three tests of section 5 in `tests/unit/galaxy-core.test.ts`,
-  then reorder `MENU_GROUPS` in `site/src/scripts/galaxy-core.ts`. One phase, code only: no page or data changes, no
-  derive. Until it lands, "this week" is the third row of the Lenses menu and its eighth Tab stop, under the seven
-  version chips.
+None open.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -26,6 +22,12 @@ edges and 1,350 unresolved, because a manual control run shared the BC30 checkou
 questions in its section 12).
 
 ## Where things stand
+
+**Shipped 2026-10-21 (code only; no page or data changed, no derive):**
+- **Lenses menu, Time first, D103** (`docs/specs/lens-menu-time-first.md`, M41, issue #21). The galaxy's Lenses menu
+  opens with "this week" on top, then the versions and the other groups as before; "this week" is the first Tab stop
+  in the menu (was the eighth). The spec's own edits wait in `docs/built/lens-menu-time-first.md` for the review.
+  Operator steps: the site build on Node 22 and the browser checks of spec section 7 (steps 2, 3, 5).
 
 **Shipped 2026-10-19, phase 1 (code; its push starts a derive on the Mini that changes no page, RUNBOOK "Derived data", D81):**
 - **Topic link second chance, D102** (`docs/specs/topic-link-second-chance.md`, M40, issue #16). A video or post whose
