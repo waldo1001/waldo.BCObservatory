@@ -1,7 +1,7 @@
 # MCP answers an agent can act on: symbols ranked by their owner, honest headers, country-added members, coded Learn ids, question-shaped queries
 
-Status: proposed, 2026-10-13. Decision: D95 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M33
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-13 (section 13 records what was built and where it differs). Decision: D95 (appended
+2026-10-13). Milestone: M33. Owner: waldo.
 Scope: the shared scorer (`packages/search`), the MCP server (`packages/mcp`), the symbols index writer
 (`pipeline/render/symbols-index.ts`), the Learn identifier rule and its backfill (`pipeline/fetch/git-page.ts`,
 `pipeline/orchestrator/nightly.ts`), the plugin skills, the object frontmatter schema's descriptions, the MCP README
@@ -483,7 +483,7 @@ by the pipeline after the merges: `data/index/symbols-*.json`, `symbols-manifest
 - [ ] After the first full nightly: `learn_identifiers` reports `rule: 2`, the Learn shard carries `RT0005`, the
       pending golden row flipped.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Proposed edits to other files (applied 2026-10-13, see section 13)
 
 - `docs/DECISIONS.md`: the D95 text of section 3.
 - `docs/PLAN.md` section 5, before the `v0.2+` row:

@@ -1,7 +1,6 @@
 # Object pages read like a reference: a section list, member filters, change chips, a clearer neighbourhood
 
-Status: built 2026-10-12 on branch `build/object-page-reading` (section 12). Decision: D89 (appended to `docs/DECISIONS.md` at ship time). Milestone: M27
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-12 (section 12 records what was built and where it differs). Decision: D89 (appended 2026-10-12). Milestone: M27. Owner: waldo.
 Scope: the browser-side reading aids of the 25,646 AL object pages, items B1, B2, B3 (the part batch 1 did not ship),
 B6 and B8 of `docs/research/2026-10-12-ux-review.md`: one new pure module with tests, one new browser module mounted
 from the existing module script of `site/src/layouts/Page.astro`, CSS in `site/src/styles/site.css` and

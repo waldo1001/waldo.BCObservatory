@@ -1119,8 +1119,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   no switch, full publish times (+25 KB, every date consumer cuts again), filtering Newest to title matches, the switch
   on All (its groups preview the best 10), sorting the fused MCP list (meaning-only hits would rise), a new tool,
   digests by path (a week id outsorts every date in a mixed list) or by Sunday (the running week would be after today).
-  Measured: unit tests (scorer, page, index, MCP) pass; the built-site byte deltas and the browser checks are operator
-  steps, see `docs/built/search-newest-first.md`. Spec: docs/specs/search-newest-first.md.
+  Measured (2026-10-21, close-out review of PR #17; two site builds of the same data, before and after the merge):
+  `search/index.html` 7,412 to 7,699 bytes (+287), no other file changed size, the Pages tar unchanged at 724,520,960
+  bytes; the search page script 9,971 to 10,542 bytes (+571, gzip +183), its CSS +705 (gzip +45), the shared
+  index-loader chunk with the scorer +99 (gzip +45). Unit tests (scorer, page, index, MCP), the ten browser checks and
+  the MCP calls of the spec's section 7 pass. Spec: docs/specs/search-newest-first.md (section 12: built, deviations).
 - **D102 A video or post whose topic links were all dropped gets one second chance (2026-10-19, M40).** D54's review
   only keeps or drops, and the linker redoes a unit only when its hash changes, so a dropped link was final. On
   2026-10-19, 227 posts and 148 videos had every link dropped and sat on no hub page and in no tilted view. In all, 328

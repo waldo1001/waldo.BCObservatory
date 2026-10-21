@@ -1,7 +1,7 @@
 # Galaxy controls: one Lenses menu beside the view tools, and captions and ports that keep off what they would hide
 
-Status: built 2026-10-12 on `build/galaxy-controls` (phases B, C, A; deviations and measurements in section 12).
-Decision: D92 (text for `docs/DECISIONS.md` in section 12). Milestone: M30. Owner: waldo.
+Status: implemented, 2026-10-12 (phases B, C, A; deviations and measurements in section 12). Decision: D92 (appended
+2026-10-12). Milestone: M30. Owner: waldo.
 Scope: the home galaxy's lens bar and tools (`site/src/components/Galaxy.astro`, `site/src/scripts/galaxy.ts`), the
 caption, plot label and port placement on its canvas, and their pure helpers (`site/src/scripts/galaxy-core.ts`,
 `site/src/scripts/galaxy-labels.ts`). Items D3 and D6 of `docs/research/2026-10-12-ux-review.md`. Every claim below

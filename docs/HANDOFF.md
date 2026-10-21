@@ -41,11 +41,11 @@ questions in its section 12).
   The search page's dated tabs (Learn, Roadmap, Videos, Posts, Code changes, Weekly digests, Other) show a "Best match |
   Newest" switch, Best match by default, `?sort=date`; `byDate` and `search(..., { sort: "date" })` in the shared scorer;
   the MCP's `search` takes `sort: "date"` (MCP 0.8.0, plugin 0.3.2, README and `bc-whats-new` updated); a weekly digest's
-  index record is dated by its week's Monday (`weekStart`), so it sorts and `whats_new` lists digests. Needs a derive
-  before readers see digest dates (the merge touches `pipeline/render`, which starts one; AGENTS.md "Running things":
-  `npm run nightly -- --stages derive`). Operator steps: the site build and browser checks of the spec's section 7, and the MCP release
-  `gh workflow run publish-mcp.yml --ref main` (D40). The spec's own edits wait in
-  `docs/built/search-newest-first.md` for the review.
+  index record is dated by its week's Monday (`weekStart`), so it sorts and `whats_new` lists digests. Closed out
+  2026-10-21 by the review the League's PR #17 missed (spec section 12): the site build (`search/index.html` +287
+  bytes, nothing else grew, tar unchanged), the ten browser checks of section 7, the digest dates (written by the derive
+  in the 2026-10-20 nightly) and the stdio calls of the 0.8.0 bundle all pass. Operator step left: the MCP release
+  `gh workflow run publish-mcp.yml --ref main` (D40); npm still serves 0.7.2.
 - **Search survives the tilt, D100** (`docs/specs/tilt-keeps-search.md`, M38, issue #14). A search stays lit when a
   system is tilted: every thing on the planes the search hits (media, hubs, every object, countries; the live search
   now hands over every hit's id, not only its stars) keeps full strength and an accent ring, the rest dims to 0.3; the
@@ -76,8 +76,8 @@ questions in its section 12).
   matches nothing answers with `Did you mean "<key>"?` when a key is near; the `get_object` text, `bc-lookup` and the MCP
   README say `controls` on a page and point id checks to `search("page 25", kind: "page")`; the skill gains a web client
   URL line. Readers get it with MCP 0.7.2 and plugin 0.3.1 (also in `.claude-plugin/marketplace.json`, now tied to
-  `plugin.json` by a test). Operator step: publish the MCP with `gh workflow run publish-mcp.yml --ref main` (D40, as
-  for 0.7.1). The bundle was built and driven once over stdio on 2026-10-15 (spec section 7): the four calls answer as
+  `plugin.json` by a test). MCP 0.7.2 was published on 2026-10-15 (the `publish-mcp` dispatch, D40). The bundle was
+  built and driven once over stdio on 2026-10-15 (spec section 7): the four calls answer as
   specified.
 
 **Shipped 2026-10-13, live after the derive the merge starts and its Pages build:**
@@ -95,8 +95,8 @@ questions in its section 12).
   `identifiers_rule: 2`; the members a country layer adds to a replaced W1 object are symbol rows with a country, and
   `get_object(type, id, "BE")` prints them. MCP `bc-observatory` 0.7.0. After the merge: the derive rewrites the
   symbol shards (+7,945 country rows, +92 KB gzipped); the first full nightly runs the rule-2 backfill
-  (`learn_identifiers.rule: 2` in the run report) and its derive writes the coded ids into the Learn shard; then
-  remove `pending` from the `RT0005` golden row. Deviations in the spec's section 13.
+  (`learn_identifiers.rule: 2` in the run report) and its derive writes the coded ids into the Learn shard; the
+  `RT0005` golden row lost its `pending` the same day (`4be1f4a584`). Deviations in the spec's section 13.
 
 **Shipped 2026-10-12, live on the next Pages build:**
 - **Galaxy controls, D92** (`docs/specs/galaxy-controls.md`, M30). Items D3 and D6 of the 2026-10-12 UX review, home

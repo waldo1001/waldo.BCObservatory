@@ -1,7 +1,7 @@
 # Lists load in pages and filter; weeks and sources become cards; the post card makes room
 
-Status: built 2026-10-12 on `build/lists-and-media` (section 12), awaiting merge. Decision: D91 (reserved, appended to
-`docs/DECISIONS.md` at ship time). Milestone: M29 (reserved). Owner: waldo.
+Status: implemented, 2026-10-12 (section 12 records what was built and where it differs). Decision: D91 (appended
+2026-10-12). Milestone: M29. Owner: waldo.
 Scope: six items of the 2026-10-12 UX review (`docs/research/2026-10-12-ux-review.md`): C1 (the changes, videos and posts
 indexes stop shipping every row), C2 (filters on those lists), C3 (week cards on `/digests/`), C4 (source cards on
 `/sources/`), C5 (the roadmap tracker filters `/features/`) and E1 (the post stage's card). Six index pages, one source

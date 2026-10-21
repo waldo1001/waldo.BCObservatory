@@ -1,7 +1,6 @@
 # Wayfinding: one name per section, crumbs that follow the sections, a header that fits, instruments on the home page
 
-Status: built 2026-10-12 on `build/wayfinding` (section 12), not merged yet. Decision: D90 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M28
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-12 (section 12 records what was built and where it differs). Decision: D90 (appended 2026-10-12). Milestone: M28. Owner: waldo.
 Scope: items A1, A2, A3, A4 (the home part), D1, F5 and F6 of `docs/research/2026-10-12-ux-review.md`, under D88's
 byte rule. The header of every page (`site/src/layouts/Base.astro`, `site/src/styles/site.css`,
 `site/src/scripts/chrome.ts`), the breadcrumb and the identity row (`site/src/layouts/Page.astro`,

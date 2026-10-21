@@ -1,12 +1,12 @@
 ---
 issue: 15
-status: draft
+status: implemented
 ---
 
 # Search results can be ordered newest first, on the site and in the MCP
 
-Status: proposed, 2026-10-19. Decision: D101 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M39
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-19 (section 12 records what was built and where it differs). Decision: D101 (appended
+2026-10-19). Milestone: M39. Owner: waldo.
 Scope: the search page's tabs (`site/src/scripts/search.ts`, `site/src/pages/search/index.astro`), the shared scorer
 (`packages/search/src/score.ts`: a date comparator and a `sort` option), the MCP's `search` tool
 (`packages/mcp/src/server.ts`, its README, the version), the search-index record of a weekly digest
@@ -420,20 +420,109 @@ Changed: `packages/search/src/score.ts`, `site/src/scripts/search.ts`, `site/src
 
 ## 11. Definition of Done
 
-- [ ] Tests 1-18 pass; `npm run typecheck` is clean.
-- [ ] The site builds; `scripts/site-size.ts` shows only `search/index.html` grew; the byte deltas are in D101.
-- [ ] Section 7's browser checks 1-10 pass on the built site.
-- [ ] After the phase 2 derive the six digest records carry the dates of section 7, and no page under `content/` changed.
-- [ ] The MCP bundle answers the section 7 calls over stdio; MCP 0.8.0 and plugin 0.3.2 in every place of task 11.
-- [ ] `AGENTS.md`, `packages/mcp/README.md` and `bc-whats-new` say what `sort: "date"` does.
-- [ ] D101 appended to docs/DECISIONS.md; PLAN M39 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] Tests 1-18 pass; `npm run typecheck` is clean (2026-10-21, close-out review of PR #17: 658 tests, 657 pass,
+      0 fail, 1 skipped, the model-dir test as on `main` before).
+- [x] The site builds; `scripts/site-size.ts` shows only `search/index.html` grew; the byte deltas are in D101
+      (2026-10-21, close-out review of PR #17: +287 bytes, tar unchanged; every other page changed one chunk hash,
+      section 12).
+- [x] Section 7's browser checks 1-10 pass on the built site (2026-10-21, close-out review of PR #17, on the data of the
+      2026-10-21 nightly).
+- [x] After the phase 2 derive the six digest records carry the dates of section 7, and no page under `content/` changed
+      (2026-10-21, close-out review of PR #17: the dates are on `main` since the 2026-10-20 nightly; that commit also
+      carries the night's content, so the second half rests on `pageRecord` writing only the index, section 12).
+- [x] The MCP bundle answers the section 7 calls over stdio; MCP 0.8.0 and plugin 0.3.2 in every place of task 11
+      (2026-10-21, close-out review of PR #17).
+- [x] `AGENTS.md`, `packages/mcp/README.md` and `bc-whats-new` say what `sort: "date"` does.
+- [x] D101 appended to docs/DECISIONS.md; PLAN M39 marked shipped; HANDOFF entry moved from "Open specs" to "Where
       things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
       implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
       status lines into docs/built/search-newest-first.md; the PR's review moves them in (sdd-build section 4,
-      sdd-review section 6).
-- [ ] The owner's step, after the merge: `gh workflow run publish-mcp.yml --ref main` (D40).
+      sdd-review section 6). D101, PLAN and HANDOFF by the League on 2026-10-19; section 12, the status lines and
+      D101's bytes on 2026-10-21, close-out review of PR #17.
+- [ ] The owner's step, after the merge: `gh workflow run publish-mcp.yml --ref main` (D40). Open on 2026-10-21: npm
+      serves 0.7.2.
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-19)
+
+Built by waldo.Jarvis's League in one build, all three phases (PR #17, CI `validate` green, merged 2026-10-20 as
+`96b1b307cb` without the review stage). The close-out review of PR #17 on 2026-10-21 ran the operator steps the builder
+could not run and moved this section in from `docs/built/search-newest-first.md`.
+
+- Phase 1: `packages/search/src/score.ts` gains `byDate` and `search(..., { sort: "match" | "date" })`;
+  `site/src/scripts/search.ts` gains `dated` on the seven groups, `Sort`, `sortOf`, `showsSort`, the `sort` argument of
+  `resultsHtml` (sorted before the caps, only on a dated tab, never on All), and in `mountSearch` the state, `?sort=date`
+  in the URL (only while a dated tab is open), `paintSort` and the click handler; `site/src/pages/search/index.astro`
+  has the switch markup and its CSS (with `.sr-sort[hidden] { display: none }`, because the flex rule would otherwise
+  override `hidden`).
+- Phase 2: `weekStart` in `pipeline/render/search.ts` (null for anything that is not an ISO week id, also week 54 and a
+  week 53 of a year without one), and `pageRecord` dates a digest by it.
+- Phase 3: MCP `search` takes `sort: "match" | "date"` (schema enum, `toolSearch`, header "keyword, newest first" and the
+  semantic note, description sentence), `whats_new` description names digests, MCP 0.8.0
+  (`packages/mcp/package.json`, `server.ts` VERSION, `plugin/README.md`), plugin 0.3.2 (`plugin.json`,
+  `.claude-plugin/marketplace.json`, `plugin/README.md`), `packages/mcp/README.md` paragraph, `bc-whats-new` step 2,
+  `AGENTS.md` clause.
+- Tests: spec tests 1-4 (`search-core`), 6-11 (`live-search`; 6 and 7 and 8 and 11 as `resultsHtml` assertions), 12-15 and
+  18 (`mcp`), 16-17 (`search-index`). Tests 5 and 14 are the existing tests staying green plus an assertion that the
+  default answer has no "newest first".
+
+Verified by the builder: `npm run typecheck` clean. Its console truncated the output of `npm test` (the
+`--test-reporter` flags did not reach the runner through `npm test`), so it recorded no counts; the one failure it found
+was its own wrong expectation in test 3 (a GA month sorts after every day of that month under newest first:
+`"2026-10-05"` before `"2026-10"`), fixed.
+
+Verified in the close-out review of PR #17 (2026-10-21), in a worktree of `origin/main` at `01df868556` with its own
+`npm ci`, on Node 22.23.1: `npm run typecheck` clean; `npm test` 658 tests, 657 pass, 0 fail, 1 skipped (the model-dir
+test, skipped on `main` before). The byte numbers come from two site builds of the same data: `4729ad2450` (`main` just
+before the merge) and `96b1b307cb` (the merge). The browser checks ran in the desktop app's browser on a build of
+`01df868556` served under `/waldo.BCObservatory/`, so they read the data of the 2026-10-21 nightly. The MCP calls ran
+the built bundle (`packages/mcp/dist/server.js`, reporting 0.8.0) over stdio with `BC_OBSERVATORY_LOCAL` set to the
+worktree.
+
+| Spec | Measured |
+|---|---|
+| only `search/index.html` grows, under 400 bytes | `search/index.html` 7,412 to 7,699 bytes (+287; gzip 1,773 to 1,836). No other file changed size. Pages tar 724,520,960 bytes before and after, 59,466 files both |
+| the search chunk's delta (`gzip -c`) | search page script 9,971 to 10,542 bytes (+571; gzip 3,918 to 4,101, +183); the search page's CSS file 2,156 to 2,861 (+705; gzip 609 to 654); the shared `index-loader` chunk, which holds the scorer for the header search on every page, 26,682 to 26,781 (+99; gzip 10,268 to 10,313); `palette` +5 |
+| check 1 | Best match pressed; the first row is "Community, Connection, and Business Central Telemetry at Summit NA 2026", 2026-10-16; Posts 25 |
+| check 2 | a click on Newest makes the URL `?q=Telemetry&type=post&sort=date`; the first six rows are section 2's table in its order (2026-10-18, 10-16, 07-22, 05-28, 04-17, 04-17, the better match first); the 25 row dates never increase; Posts still 25 |
+| check 3 | Videos: Newest pressed, first row 2026-10-01, URL `type=video&sort=date`, 38 rows, dates never increase |
+| check 4 | All: switch hidden, URL `?q=Telemetry`; Posts again: Newest pressed and `sort=date` back |
+| check 5 | AL objects: switch hidden, URL `type=object` |
+| check 6 | `?q=agent&type=feature&sort=date`: Roadmap 31, GA months from 2027-04 down to 2026-06, never increasing |
+| check 7 | a fresh load of `?q=Telemetry&type=post&sort=date`: Newest pressed, 2026-10-18 first |
+| check 8 | `?q=Telemetry&type=object&sort=date`: no switch; the URL becomes `?q=Telemetry&type=object` |
+| check 9 | from the selected tab (the tablist uses a roving tabindex) Tab lands on Best match and again on Newest; Space presses Newest (`aria-pressed` flips, `sort=date`, 2026-10-18 first); Shift+Tab and Enter press Best match (back to 2026-10-16); focus stays on the button |
+| check 10 | at 375 px the switch sits under the tabs (the tabs end at 438 px, the switch starts at 450 px); the document is 375 px wide, no horizontal scroll |
+| phase 2: the six digest records dated W38 to W43 | the hubs shard on `main` gives W38 to W43 2026-09-14, 09-21, 09-28, 10-05, 10-12, 10-19, first written by the derive in the 2026-10-20 nightly (`133f724507`); `?q=digest&type=digest&sort=date` lists W43 first, W38 last |
+| phase 3: `search("Telemetry", type: "post", sort: "date", limit: 3)` | header `3 results, keyword, newest first`; the three posts of section 2 in its order, each `[keyword]` |
+| `search("Telemetry", type: "video", sort: "date", limit: 1)` | "Microsoft presents: Index management", 2026-10-01, the first row of check 3 |
+| `search("Telemetry", type: "post")` answers as before | identical, byte for byte, to the answer of the published 0.7.2 (`npx -y bc-observatory@0.7.2`) on the same data; the same for `search("Telemetry")` |
+| test 13 and 15 on the bundle | `mode: "semantic"` with `sort: "date"`: the header names the ignored mode, keyword order; `sort: "newest"`: rejected by the input schema (`-32602`, expected one of "match", "date") |
+| `whats_new(since: "2026-10-01")` lists digests | with `type: "digest"`: W43, W42 and W41, each dated by its Monday; without a type the 100 newest items (the limit's maximum) hold W43 and W42 among the videos, posts and code changes, and W41 falls after them |
+| MCP 0.8.0 and plugin 0.3.2 everywhere | `git grep -n -E '0\.7\.2\|0\.3\.1'` outside `docs/` and `package-lock.json`: no hit |
+
+Deviations:
+
+- D101's "Measured" line carried no bytes at the merge; the close-out review wrote them in.
+- The spec's tests 5 and 14 are existing assertions; no new test file.
+- No other file changed size, but every one of the 29,052 other HTML pages changed bytes: each names one script chunk
+  (the `Base.astro` script) whose content hash changed, because a chunk it imports changed (same length). Section 4 said
+  "no other page changes". Cause: the bundler's content hashes. Pages uploads the whole tar on every deploy, so it costs
+  nothing.
+- The switch's CSS lands in the search page's own CSS file (+705 bytes), not in the HTML; section 4's "about 250 bytes"
+  counted the markup only, which is +287 with its attributes.
+- The derive that dates the digests ran inside the 2026-10-20 nightly, and that commit also carries the night's content
+  (25,748 files under `content/`). So "no page under `content/` changed" cannot be read from git for the derive alone;
+  it rests on `pageRecord` (`pipeline/render/search.ts`) writing only the index record.
+- The review ran after the merge, not before it, and on the 2026-10-21 data instead of the 2026-10-19 data the spec
+  quotes: the rows and counts it checks came out the same.
+- Not re-checked: that red was real. The PR was squashed into `96b1b307cb`; its checkpoints ("start", "red", ...) are
+  only in the squash message.
+
+Operator step still open: the MCP release, `gh workflow run publish-mcp.yml --ref main` (D40; it needs "Allow npm
+publish" ticked on npmjs.com). On 2026-10-21 npm still serves 0.7.2. After it, the section 7 calls through
+`npx -y bc-observatory@0.8.0`.
+
+## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 
 **`docs/DECISIONS.md`**, appended:
 
