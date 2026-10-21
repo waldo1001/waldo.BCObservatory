@@ -439,8 +439,8 @@ Changed: `packages/search/src/score.ts`, `site/src/scripts/search.ts`, `site/src
       status lines into docs/built/search-newest-first.md; the PR's review moves them in (sdd-build section 4,
       sdd-review section 6). D101, PLAN and HANDOFF by the League on 2026-10-19; section 12, the status lines and
       D101's bytes on 2026-10-21, close-out review of PR #17.
-- [ ] The owner's step, after the merge: `gh workflow run publish-mcp.yml --ref main` (D40). Open on 2026-10-21: npm
-      serves 0.7.2.
+- [x] The owner's step, after the merge: `gh workflow run publish-mcp.yml --ref main` (D40). Done 2026-10-21: run
+      39573494818 on `dc02988500` published `bc-observatory@0.8.0` with provenance, `latest` on npm.
 
 ## 12. Built, deviations (2026-10-19)
 
@@ -518,9 +518,13 @@ Deviations:
 - Not re-checked: that red was real. The PR was squashed into `96b1b307cb`; its checkpoints ("start", "red", ...) are
   only in the squash message.
 
-Operator step still open: the MCP release, `gh workflow run publish-mcp.yml --ref main` (D40; it needs "Allow npm
-publish" ticked on npmjs.com). On 2026-10-21 npm still serves 0.7.2. After it, the section 7 calls through
-`npx -y bc-observatory@0.8.0`.
+MCP release, done 2026-10-21: the owner dispatched `publish-mcp` (D40; run 39573494818, on `dc02988500`), which
+published `bc-observatory@0.8.0` with provenance; npm served it as `latest` within a minute. The section 7 calls through
+`npx -y bc-observatory@0.8.0` in its default mode, against the live site, answer as the bundle did: the three posts of
+section 2 in its order, Index management (2026-10-01) as the newest video, the ignored semantic mode named in the
+header, `sort: "newest"` rejected, and W43, W42 and W41 from `whats_new` with `type: "digest"`. Without `sort`,
+`search("Telemetry", type: "post")` and `search("Telemetry")` answer exactly as 0.7.2 does there (keyword plus meaning,
+the default). No operator step left.
 
 ## 13. Proposed edits to other files (applied 2026-10-19, see section 12)
 

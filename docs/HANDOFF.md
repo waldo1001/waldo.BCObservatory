@@ -44,8 +44,9 @@ questions in its section 12).
   index record is dated by its week's Monday (`weekStart`), so it sorts and `whats_new` lists digests. Closed out
   2026-10-21 by the review the League's PR #17 missed (spec section 12): the site build (`search/index.html` +287
   bytes, nothing else grew, tar unchanged), the ten browser checks of section 7, the digest dates (written by the derive
-  in the 2026-10-20 nightly) and the stdio calls of the 0.8.0 bundle all pass. Operator step left: the MCP release
-  `gh workflow run publish-mcp.yml --ref main` (D40); npm still serves 0.7.2.
+  in the 2026-10-20 nightly) and the stdio calls of the 0.8.0 bundle all pass. MCP 0.8.0 was published the same day
+  (`publish-mcp` run 39573494818, D40), and `npx -y bc-observatory@0.8.0` answers the section 7 calls against the live
+  site. No operator step left.
 - **Search survives the tilt, D100** (`docs/specs/tilt-keeps-search.md`, M38, issue #14). A search stays lit when a
   system is tilted: every thing on the planes the search hits (media, hubs, every object, countries; the live search
   now hands over every hit's id, not only its stars) keeps full strength and an accent ring, the rest dims to 0.3; the
