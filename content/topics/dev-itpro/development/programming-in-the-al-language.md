@@ -12,7 +12,7 @@ review:
   at: "2026-10-18T00:56:54.349Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -371,7 +371,10 @@ links:
   guidelines: []
   changes:
     - change/bcapps/11507
+    - change/bcquality/155
     - change/bcquality/195
+    - change/bcquality/238
+    - change/bcquality/246
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -494,7 +497,10 @@ The remaining subtopics cover integration and operations: Handling security, Run
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#11507 [Master] Fix Unix timestamp timezone conversion](../../../changes/bcapps/11507.md) (code change): "Unix timestamp conversion in TypeHelper now delegates to"
+- [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "Add read-only AL development plan guidance enriching AL development plans with applicable constraints"
 - [#195 Add foundational AL developer knowledge](../../../changes/bcquality/195.md) (code change): "Add foundational AL developer knowledge. Adds seven foundational AL knowledge articles"
+- [#238 Improve first-run documentation for new developers](../../../changes/bcquality/238.md) (code change): "make BCQuality more accessible to new developers by clarifying"
+- [#246 Expose plan guidance as a preview plugin skill](../../../changes/bcquality/246.md) (code change): "BCQuality now exposes plan guidance as a preview plugin skill"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../posts/aardvarklabs-blog/2603.md) (community post): "demonstrates how to parse and import delimited files using AL"
 - [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "Type Helper code unit is a utility in Business Central's System.Reflection namespace"
 - [Understanding AL Development: String Conversion Management Code Unit](../../../posts/aardvarklabs-blog/2741.md) (community post): "String Conversion Management Code Unit provides four procedures for handling text transformations"

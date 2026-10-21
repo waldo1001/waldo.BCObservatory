@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -114,7 +114,6 @@ links:
     - change/bcapps/10130
     - change/bcapps/11701
     - change/bcapps/9725
-    - change/bcquality/149
     - change/bcquality/156
 learn_toc_path:
   - Development
@@ -177,7 +176,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10130 [ExpenseAgent] Expose VatSpecifications on Expense API Page](../../../../changes/bcapps/10130.md) (code change): "The Expense API page now exposes VAT specifications through a new part"
 - [#11701 [MCP] Hide codeunit APIs from Available APIs dropdown (AB#650771)](../../../../changes/bcapps/11701.md) (code change): "Codeunit API options are hidden from the MCP Configuration Available APIs dropdown"
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
-- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 uses strongly typed enums with member names in metadata"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Developers must audit current integrations, migrate to custom extensions or query objects"
 - [What's Cooking in Business Central: External File Storage Module](../../../../videos/oN0XfuCe6Qg.md) (video): "External File Storage API Methods; Storage Browser"

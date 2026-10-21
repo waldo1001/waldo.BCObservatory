@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 1e61db69b91cd8374353690b995aa68121e864f93c5a4ec4ec0abcb90088abbc
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/System%20Application/App/Email/src/Connector/EmailConnectorv5.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Email/src/Connector/EmailConnectorv5.Interface.al
     title: src/System Application/App/Email/src/Connector/EmailConnectorv5.Interface.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -77,7 +77,7 @@ relations:
 
 > Interface "Email Connector v5" in System Application (System.Email). 3 public procedures. Introduced in BC28, still in BC30.
 
-System Application · System.Email · BC28-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/System%20Application/App/Email/src/Connector/EmailConnectorv5.Interface.al) · facts from BC29
+System Application · System.Email · BC28-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Email/src/Connector/EmailConnectorv5.Interface.al) · facts from BC29
 
 ## Procedures
 

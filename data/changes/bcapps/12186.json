@@ -1,0 +1,3583 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12186,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12186",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-19T14:16:35Z",
+  "merge_commit_sha": "232edfe71a757627d2efaaf9d63374aa4fc3e92b",
+  "author": "jehelles",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "AL: System Application",
+    "AL: Tools",
+    "Ownership: Needs Review",
+    "Team: Other"
+  ],
+  "community_contribution": false,
+  "title": "Set several fields in one ModifyAll call",
+  "body_hash": "e283a2c207710996c300113efaf33ee8502cca4a6bd81e9984cb2e776f8ca2c2",
+  "fixes_issues": [],
+  "work_items": [
+    652505
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/Finance/1. Setup Data/CreateATGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/Finance/1.Setup Data/CreateAUGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CA/ContosoCoffeeDemoDatasetCA/app/DemoData/Finance/1.Setup Data/CreateCAGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/Finance/1.Setup Data/CreateCHGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/CoreLocalizationPack/test/Src/VATDateCZL.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/IntrastatReportManagementCZ.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/CZ/IntrastatCZ/test/Src/IntrastatCZTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/Finance/1.Setup data/CreateDEGLAcc.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/Finance/1.Setup Data/CreateESGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/Finance/2.Master Data/CreateFIGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/PaymentManagementFR/app/src/Tables/PaymentHeaderFR.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/Finance/1.Setup Data/CreateGBGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INFADepreciation/app/src/codeunit/FAInsertLedEntrySub.codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReconcilation/src/Codeunit/GSTReconcilationMatch.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTReconcilation/src/Page/GSTReconciliation.page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/IN/INGST/test/GSTSubcontracting/src/GSTSubcontracting.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/IT/IntrastatIT/test/src/IntrastatITTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/MX/ContosoCoffeeDemoDatasetMX/app/DemoData/Finance/2.Master Data/CreateMXGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/CreateNLGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTMappingRange.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/NO/NorwegianSAFT/test/src/SAFTWizardTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/NZ/ContosoCoffeeDemoDatasetNZ/app/DemoData/Finance/1.Setup Data/CreateNZGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/US/IRSForms/app/src/IRIS/TransmissionIRIS.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Codeunits/AMCBankInstall.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/src/GLAccountMapping/GLAccountMappingHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EDocument/App/src/Processing/OrderMatching/EDocLineMatching.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/EnforcedDigitalVouchers/test/src/DigitalVouchersTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/HybridBaseDeployment/app/src/codeunits/NotificationHandler.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/attributes/table/TaxAttribute.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Intrastat/test/src/IntrastatReportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/PEPPOL/Test/src/PEPPOL30ManagementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/PowerBIReports/Test/E2EPowerBIPurchasesTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResult.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subcontracting/App/src/General/SubcSynchronizeManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/PurchaseDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/SalesDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/GenericConnectorProcessing.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Deferrals/CustomerDeferralsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Deferrals/VendorDeferralsTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Service Commitments/ServiceCommitmentTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/UBB/UsageBasedBillingTest.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SustainabilityCopilotSuggestion/app/src/EmissionSource/EmissionSourceSetup.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostviaJobQueue.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/Consolidation/BASManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/Consolidation/BASUpdate.Report.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/VAT/CalculateGSTSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/APAC/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/APAC/Tests/Local/ERMPostDatedChecks.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/AT/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AT/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/BaseApp/Local/FinancialMgt/Consolidation/BASManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/AU/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AU/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/AU/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/PaymentJournalPost.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/BE/Tests/SMB/StreamlineAutofillNoSeries.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ApplicationTestLibrary/LibraryERMCountryData.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CA/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateCHGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateDemodataLSV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CH/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CH/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ApplicationTestLibrary/LibraryFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/ApplicationTestLibrary/LibraryInventory.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/Fixed Asset/ERMDateCompressionFA.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SCM-Warehouse/SCMWarehouseShippingII.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/SINGLESERVER/DocumentApprovalDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/CZ/Tests/TestLibraries/LibraryDocumentApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/DACH/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/DK/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/ES/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Cash Flow/ERMCFGLBudget.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraPayablesInstallments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvFactoring.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvInstallments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvRejectionTests.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/CarteraRecvSettlementTests.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/ERMESCheckPMPE.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Local/SIISpecialSchemeCodeTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/SCM/SCMOrdersIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/TestLibraries/LibraryCarteraCommon.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/TestLibraries/LibraryCarteraReceivables.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 5,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/ES/Tests/Workflow/WFDemoPurchOrderApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Local/BankMgt/Reports/ExportRefPaymentLUM.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ApplicationTestLibrary/LibraryFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Local/EBANKINGExportTest.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FI/Tests/Resource/ERMSuggestEmployeePayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentHeader.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/GeneralLedger/Reports/FiscalYearFiscalClose.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/FR/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/GB/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IN/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IN/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IS/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Sales/Reports/SalesDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/History/ServiceCreditMemo.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/History/ServiceInvoice.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/BaseApp/Service/Reports/ServiceDocumentTest.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/IT/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/IT/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/ITVATReportingGenJnl.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/ITVATReportingOther.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/ITVATReportingPurchase.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/ITVATReportingSales.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/Local/ITVATReportingService.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SCM-Planning/SCMSupplyPlanningIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/SMB/StreamlineAutofillNoSeries.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/IT/Tests/TestLibraries/LibraryVATUtils.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 6,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/MX/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ApplicationTestLibrary/LibraryInventory.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/MX/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/UpdateCFDIFieldsSalesDoc.Codeunit.al",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 16,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Local/EServices/EDocument/UpdateCFDIFieldsServDoc.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/BaseApp/Service/Posting/ServLedgEntriesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NA/Tests/Local/SCMInventoryReports.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/BaseApp/SandboxCleanuplocal.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Data Exchange/ImportXMLGenJnlLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/TestSEPAPAIN00800102.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NL/Tests/Local/TestSEPAPAIN00800108.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NO/Tests/SCM-Warehouse/SCMWarehouseOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/NZ/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/NZ/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/ReverseTransactionEntries.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Local/PostedFADocLine.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ApplicationTestLibrary/LibraryFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SCM-Warehouse/SCMWarehouseOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/SINGLESERVER/DocumentApprovalComments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/RU/Tests/Workflow/WFDemoPurchOrderApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/SE/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/US/Tests/ApplicationTestLibrary/LibraryERMCountryData.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/US/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/BWTestUseCase1.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestPartialPosting.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/TestPerformance.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSSetGlobalPreconditions.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/AlCosting/WMSTestUseCase28.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CRM/Outlook/OfficeHostProvider.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocationTarget.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/DeleteCostBudgetEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteCostEntries.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/EnvironmentCleanupSubs.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Dimension/Dimension.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostviaJobQueue.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 5,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Dimension/ICDimension.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/Intercompany/GLAccount/ICMapping.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 12,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/VATReportingDateMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSystemuserList.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSCoupleSalespersons.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/PlanningRoutingManagement.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Booking/BookingManager.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeCustomReportImpl.Codeunit.al",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 6,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Pricing/PriceList/PriceHelperV16.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/Job/UpdateJobItemCost.Report.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobCalculateWIP.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/Document/ItemChargeAssgntPurch.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Document/ItemChargeAssgntSales.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Service/Posting/ServLedgEntriesPost.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataMigration/DataMigrationDelGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DataMigration/DataMigrationEntities.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DevTools/CALTest/CALTestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/System/DevTools/CALTest/CALTestTool.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocument.Table.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/CreateGLAccount.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/CreateJobGLAccounts.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/DemoTool/InterfaceBasisData.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryFiscalYear.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryFixedAsset.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ApplicationTestLibrary/LibraryInventory.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/CRM integration/CDSMatchBasedCoupling.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Cash Flow/ERMCFGLBudget.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Data Exchange/ImportXMLGenJnlLine.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Data Exchange/TestDataExchImportXML.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Dimension/ERMSuggestVendorPayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM-Finance/ReminderAddLinefee.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/ERM/DiscountSetupNotifications.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Fixed Asset/ERMDateCompressionFA.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Integration/SMBOfficePages.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/MOCKSERVICETESTS-Internal/IncomingDocumentStatusTests.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Resource/ERMSuggestEmployeePayment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Resource/UTTimeSheets.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Manufacturing/SCMProdWhseHandling.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Planning/SCMSupplyPlanningIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Reservation/SCMReservationIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Service/ServiceTimeSheetsUT.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehouseJournal.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehouseManagementII.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehouseOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehouseShippingII.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Warehouse/SCMWarehouseShippingIII.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMOrdersIV.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM/SCMPrepaymentOrders.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/DocumentApprovalComments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/DocumentApprovalDocuments.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/DocumentApprovalErrors.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/DocumentApprovalUsers.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SINGLESERVER/WorkflowE2ETests.Codeunit.al",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/O365ItemPrices.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SMB/StreamlineAutofillNoSeries.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/GenerateTestDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestLibraries/LibraryDocumentApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/CalculateChangelistCoverage.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/ChangelistCode.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/TestRunner.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/TestRunner-Internal/TestTool.Page.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/VAT/VATAssistedSetup.Codeunit.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 4,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/WFDemoCustCredLmtApproval.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/WFDemoIncDocApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/WFDemoItemUnitPriApproval.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/WFDemoPurchBOrderApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/W1/Tests/Workflow/WFDemoPurchOrderApprovals.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "al-test"
+    },
+    {
+      "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 4,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Tools/Performance Toolkit/App/src/BCPTHeader.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "src/Tools/Test Framework/Test Runner/src/TestRunnerMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 309,
+    "additions": 430,
+    "deletions": 942,
+    "al": 131
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/CZ/IntrastatCZ/app/src/Codeunits/IntrastatReportManagementCZ.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/31302",
+        "type": "codeunit",
+        "id": 31302,
+        "name": "IntrastatReportManagementCZ",
+        "app": "IntrastatCZ",
+        "cc": "cz",
+        "page": "codeunit/31302-cz"
+      },
+      {
+        "path": "src/Apps/FR/PaymentManagementFR/app/src/Tables/PaymentHeaderFR.Table.al",
+        "status": "modified",
+        "key": "table/10835",
+        "type": "table",
+        "id": 10835,
+        "name": "Payment Header FR",
+        "app": "PaymentManagementFR",
+        "cc": "fr",
+        "page": "table/10835-fr"
+      },
+      {
+        "path": "src/Apps/IN/INFADepreciation/app/src/codeunit/FAInsertLedEntrySub.codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18636",
+        "type": "codeunit",
+        "id": 18636,
+        "name": "FA Insert Led. Entry Sub.",
+        "app": "INFADepreciation",
+        "cc": "in",
+        "page": "codeunit/18636-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReconcilation/src/Codeunit/GSTReconcilationMatch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18280",
+        "type": "codeunit",
+        "id": 18280,
+        "name": "GST Reconcilation Match",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18280-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTReconcilation/src/Page/GSTReconciliation.page.al",
+        "status": "modified",
+        "key": "page/18282",
+        "type": "page",
+        "id": 18282,
+        "name": "GST Reconciliation",
+        "app": "INGST",
+        "cc": "in",
+        "page": "page/18282-in"
+      },
+      {
+        "path": "src/Apps/IN/INGST/app/GSTSubcontracting/src/Codeunit/SubcontractingSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/18469",
+        "type": "codeunit",
+        "id": 18469,
+        "name": "Subcontracting Subscribers",
+        "app": "INGST",
+        "cc": "in",
+        "page": "codeunit/18469-in"
+      },
+      {
+        "path": "src/Apps/NO/NorwegianSAFT/app/src/GLAccount Mapping/SAFTMappingRange.Table.al",
+        "status": "modified",
+        "key": "table/10676",
+        "type": "table",
+        "id": 10676,
+        "name": "SAF-T Mapping Range",
+        "app": "NorwegianSAFT",
+        "cc": "no",
+        "page": "table/10676-no"
+      },
+      {
+        "path": "src/Apps/US/IRSForms/app/src/IRIS/TransmissionIRIS.Table.al",
+        "status": "modified",
+        "key": "table/10050",
+        "type": "table",
+        "id": 10050,
+        "name": "Transmission IRIS",
+        "app": "IRSForms",
+        "cc": "us",
+        "page": "table/10050-us"
+      },
+      {
+        "path": "src/Apps/W1/AMCBanking365Fundamentals/app/Codeunits/AMCBankInstall.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20116",
+        "type": "codeunit",
+        "id": 20116,
+        "name": "AMC Bank Install",
+        "app": "AMCBanking365Fundamentals",
+        "cc": "w1",
+        "page": "codeunit/20116"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/GLAccountMapping/GLAccountMappingHeader.Table.al",
+        "status": "modified",
+        "key": "table/5260",
+        "type": "table",
+        "id": 5260,
+        "name": "G/L Account Mapping Header",
+        "app": "AuditFileExport",
+        "cc": "w1",
+        "page": "table/5260"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/Import/Purchase/PurchaseOrderMatching/EDocPOMatching.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6196",
+        "type": "codeunit",
+        "id": 6196,
+        "name": "E-Doc. PO Matching",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6196"
+      },
+      {
+        "path": "src/Apps/W1/EDocument/App/src/Processing/OrderMatching/EDocLineMatching.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6164",
+        "type": "codeunit",
+        "id": 6164,
+        "name": "E-Doc. Line Matching",
+        "app": "EDocument",
+        "cc": "w1",
+        "page": "codeunit/6164"
+      },
+      {
+        "path": "src/Apps/W1/HybridBaseDeployment/app/src/codeunits/NotificationHandler.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/4014",
+        "type": "codeunit",
+        "id": 4014,
+        "name": "Notification Handler",
+        "app": "HybridBaseDeployment",
+        "cc": "w1",
+        "page": "codeunit/4014"
+      },
+      {
+        "path": "src/Apps/W1/INTaxEngine/app/TaxEngine-TaxTypeHandler/src/TaxType/attributes/table/TaxAttribute.Table.al",
+        "status": "modified",
+        "key": "table/20241",
+        "type": "table",
+        "id": 20241,
+        "name": "Tax Attribute",
+        "app": "INTaxEngine",
+        "cc": "w1",
+        "page": "table/20241"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7233",
+        "type": "codeunit",
+        "id": 7233,
+        "name": "Master Data Management",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7233"
+      },
+      {
+        "path": "src/Apps/W1/Quality Management/app/src/Configuration/Result/QltyInspectionResult.Table.al",
+        "status": "modified",
+        "key": "table/20411",
+        "type": "table",
+        "id": 20411,
+        "name": "Qlty. Inspection Result",
+        "app": "Quality Management",
+        "cc": "w1",
+        "page": "table/20411"
+      },
+      {
+        "path": "src/Apps/W1/Subcontracting/App/src/General/SubcSynchronizeManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/20511",
+        "type": "codeunit",
+        "id": 20511,
+        "name": "Subc. Synchronize Management",
+        "app": "Subcontracting",
+        "cc": "w1",
+        "page": "codeunit/20511"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/CreateBillingDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8060",
+        "type": "codeunit",
+        "id": 8060,
+        "name": "Create Billing Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8060"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/PurchaseDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8066",
+        "type": "codeunit",
+        "id": 8066,
+        "name": "Purchase Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8066"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/SalesDocuments.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8063",
+        "type": "codeunit",
+        "id": 8063,
+        "name": "Sales Documents",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8063"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/GenericConnectorProcessing.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8033",
+        "type": "codeunit",
+        "id": 8033,
+        "name": "Generic Connector Processing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8033"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Usage Based Billing/Codeunits/ProcessUsageDataBilling.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8026",
+        "type": "codeunit",
+        "id": 8026,
+        "name": "Process Usage Data Billing",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8026"
+      },
+      {
+        "path": "src/Apps/W1/Sustainability/app/src/Purchase/SustPurchaseSubscriber.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6225",
+        "type": "codeunit",
+        "id": 6225,
+        "name": "Sust. Purchase Subscriber",
+        "app": "Sustainability",
+        "cc": "w1",
+        "page": "codeunit/6225"
+      },
+      {
+        "path": "src/Apps/W1/SustainabilityCopilotSuggestion/app/src/EmissionSource/EmissionSourceSetup.Table.al",
+        "status": "modified",
+        "key": "table/6291",
+        "type": "table",
+        "id": 6291,
+        "name": "Emission Source Setup",
+        "app": "SustainabilityCopilotSuggestion",
+        "cc": "w1",
+        "page": "table/6291"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/Consolidation/BASManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11601",
+        "type": "codeunit",
+        "id": 11601,
+        "name": "BAS Management",
+        "app": "Base Application",
+        "cc": "nz",
+        "page": "codeunit/11601-nz"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/Consolidation/BASUpdate.Report.al",
+        "status": "modified",
+        "key": "report/11604",
+        "type": "report",
+        "id": 11604,
+        "name": "BAS-Update",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/11604-au"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Local/FinancialMgt/VAT/CalculateGSTSettlement.Report.al",
+        "status": "modified",
+        "key": "report/11603",
+        "type": "report",
+        "id": 11603,
+        "name": "Calculate GST Settlement",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/11603-au"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/1313"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/1303"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/AU/BaseApp/Local/FinancialMgt/Consolidation/BASManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/11601",
+        "type": "codeunit",
+        "id": 11601,
+        "name": "BAS Management",
+        "app": "Base Application",
+        "cc": "au",
+        "page": "codeunit/11601-au"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Local/BankMgt/Payment/PaymentJournalPost.Report.al",
+        "status": "modified",
+        "key": "report/2000004",
+        "type": "report",
+        "id": 2000004,
+        "name": "Payment Journal Post",
+        "app": "Base Application",
+        "cc": "be",
+        "page": "report/2000004-be"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/CH/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "ch",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/DACH/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "at",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Local/SII/EServices/EDocument/SIIDocUploadManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10752",
+        "type": "codeunit",
+        "id": 10752,
+        "name": "SII Doc. Upload Management",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/10752-es"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "es",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Local/BankMgt/Reports/ExportRefPaymentLUM.Report.al",
+        "status": "modified",
+        "key": "report/32000004",
+        "type": "report",
+        "id": 32000004,
+        "name": "Export Ref. Payment -  LUM",
+        "app": "Base Application",
+        "cc": "fi",
+        "page": "report/32000004-fi"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/BankMgt/Payment/PaymentHeader.Table.al",
+        "status": "modified",
+        "key": "table/10865",
+        "type": "table",
+        "id": 10865,
+        "name": "Payment Header",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "table/10865-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/GeneralLedger/Reports/FiscalYearFiscalClose.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/10862",
+        "type": "codeunit",
+        "id": 10862,
+        "name": "Fiscal Year-FiscalClose",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/10862-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/GB/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "gb",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/1313"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Sales/Reports/SalesDocumentTest.Report.al",
+        "status": "modified",
+        "key": "report/202",
+        "type": "report",
+        "id": 202,
+        "name": "Sales Document - Test",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/202"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/History/ServiceCreditMemo.Report.al",
+        "status": "modified",
+        "key": "report/5912",
+        "type": "report",
+        "id": 5912,
+        "name": "Service - Credit Memo",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/5912"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/History/ServiceInvoice.Report.al",
+        "status": "modified",
+        "key": "report/5911",
+        "type": "report",
+        "id": 5911,
+        "name": "Service - Invoice",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/5911"
+      },
+      {
+        "path": "src/Layers/IT/BaseApp/Service/Reports/ServiceDocumentTest.Report.al",
+        "status": "modified",
+        "key": "report/5915",
+        "type": "report",
+        "id": 5915,
+        "name": "Service Document - Test",
+        "app": "Base Application",
+        "cc": "it",
+        "page": "report/5915"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Local/eServices/EDocument/UpdateCFDIFieldsSalesDoc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/27032",
+        "type": "codeunit",
+        "id": 27032,
+        "name": "Update CFDI Fields Sales Doc",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/27032-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Local/EServices/EDocument/UpdateCFDIFieldsServDoc.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/27091",
+        "type": "codeunit",
+        "id": 27091,
+        "name": "Update CFDI Fields Serv. Doc",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/27091-ca"
+      },
+      {
+        "path": "src/Layers/NA/BaseApp/Service/Posting/ServLedgEntriesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5912",
+        "type": "codeunit",
+        "id": 5912,
+        "name": "ServLedgEntries-Post",
+        "app": "Base Application",
+        "cc": "ca",
+        "page": "codeunit/5912"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/NL/BaseApp/SandboxCleanuplocal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1883",
+        "type": "codeunit",
+        "id": 1883,
+        "name": "Sandbox Cleanup local",
+        "app": "Base Application",
+        "cc": "nl",
+        "page": "codeunit/1883-nl"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "no",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Finance/GeneralLedger/Reversal/ReverseTransactionEntries.Page.al",
+        "status": "modified",
+        "key": "page/183",
+        "type": "page",
+        "id": 183,
+        "name": "Reverse Transaction Entries",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "page/183"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/FixedAssets/FixedAsset/FAJnlPostLine.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5632",
+        "type": "codeunit",
+        "id": 5632,
+        "name": "FA Jnl.-Post Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5632"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Local/PostedFADocLine.Table.al",
+        "status": "modified",
+        "key": "table/12472",
+        "type": "table",
+        "id": 12472,
+        "name": "Posted FA Doc. Line",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "table/12472-ru"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Purchases/Posting/PurchPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/90",
+        "type": "codeunit",
+        "id": 90,
+        "name": "Purch.-Post",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/90"
+      },
+      {
+        "path": "src/Layers/RU/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/SE/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "se",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CRM/Outlook/OfficeHostProvider.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1633",
+        "type": "codeunit",
+        "id": 1633,
+        "name": "Office Host Provider",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1633"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Allocation/CostAllocationTarget.Table.al",
+        "status": "modified",
+        "key": "table/1107",
+        "type": "table",
+        "id": 1107,
+        "name": "Cost Allocation Target",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/1107"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Budget/DeleteCostBudgetEntries.Report.al",
+        "status": "modified",
+        "key": "report/1139",
+        "type": "report",
+        "id": 1139,
+        "name": "Delete Cost Budget Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1139"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/CostAccounting/Ledger/DeleteCostEntries.Report.al",
+        "status": "modified",
+        "key": "report/1130",
+        "type": "report",
+        "id": 1130,
+        "name": "Delete Cost Entries",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1130"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/EnvironmentCleanupSubs.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8912",
+        "type": "codeunit",
+        "id": 8912,
+        "name": "Environment Cleanup Subs",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/8912"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Dimension/Dimension.Table.al",
+        "status": "modified",
+        "key": "table/348",
+        "type": "table",
+        "id": 348,
+        "name": "Dimension",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/348"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Journal/GenJournalLine.Table.al",
+        "status": "modified",
+        "key": "table/81",
+        "type": "table",
+        "id": 81,
+        "name": "Gen. Journal Line",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/81"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostviaJobQueue.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/250",
+        "type": "codeunit",
+        "id": 250,
+        "name": "Gen. Jnl.-Post via Job Queue",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/250"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/Dimension/ICDimension.Table.al",
+        "status": "modified",
+        "key": "table/411",
+        "type": "table",
+        "id": 411,
+        "name": "IC Dimension",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/411"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/Intercompany/GLAccount/ICMapping.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/428",
+        "type": "codeunit",
+        "id": 428,
+        "name": "IC Mapping",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/428"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/ReceivablesPayables/PaymentToleranceManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/426",
+        "type": "codeunit",
+        "id": 426,
+        "name": "Payment Tolerance Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/426"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Calculation/VATReportingDateMgt.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/799",
+        "type": "codeunit",
+        "id": 799,
+        "name": "VAT Reporting Date Mgt",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/799"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Finance/VAT/Reporting/CalcandPostVATSettlement.Report.al",
+        "status": "modified",
+        "key": "report/20",
+        "type": "report",
+        "id": 20,
+        "name": "Calc. and Post VAT Settlement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/20"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/D365Sales/CRMSystemuserList.Page.al",
+        "status": "modified",
+        "key": "page/5340",
+        "type": "page",
+        "id": 5340,
+        "name": "CRM Systemuser List",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/5340"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Integration/Dataverse/CDSCoupleSalespersons.Page.al",
+        "status": "modified",
+        "key": "page/7209",
+        "type": "page",
+        "id": 7209,
+        "name": "CDS Couple Salespersons",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/7209"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Tracking/ItemTrackingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6500",
+        "type": "codeunit",
+        "id": 6500,
+        "name": "Item Tracking Management",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6500"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Manufacturing/Routing/PlanningRoutingManagement.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/99000808",
+        "type": "codeunit",
+        "id": 99000808,
+        "name": "PlanningRoutingManagement",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/99000808"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Booking/BookingManager.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/6721",
+        "type": "codeunit",
+        "id": 6721,
+        "name": "Booking Manager",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/6721"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/OtherCapabilities/Upgrade/UpgradeCustomReportImpl.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/104057",
+        "type": "codeunit",
+        "id": 104057,
+        "name": "Upgrade Custom Report Impl.",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/104057"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Pricing/PriceList/PriceHelperV16.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7006",
+        "type": "codeunit",
+        "id": 7006,
+        "name": "Price Helper - V16",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/7006"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/Job.Table.al",
+        "status": "modified",
+        "key": "table/167",
+        "type": "table",
+        "id": 167,
+        "name": "Job",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/167"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/Job/UpdateJobItemCost.Report.al",
+        "status": "modified",
+        "key": "report/1095",
+        "type": "report",
+        "id": 1095,
+        "name": "Update Job Item Cost",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "report/1095"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Projects/Project/WIP/JobCalculateWIP.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1000",
+        "type": "codeunit",
+        "id": 1000,
+        "name": "Job Calculate WIP",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1000"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/Document/ItemChargeAssgntPurch.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5805",
+        "type": "codeunit",
+        "id": 5805,
+        "name": "Item Charge Assgnt. (Purch.)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5805"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1313",
+        "type": "codeunit",
+        "id": 1313,
+        "name": "Correct Posted Purch. Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1313"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Document/ItemChargeAssgntSales.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5807",
+        "type": "codeunit",
+        "id": 5807,
+        "name": "Item Charge Assgnt. (Sales)",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5807"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1303",
+        "type": "codeunit",
+        "id": 1303,
+        "name": "Correct Posted Sales Invoice",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1303"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/80",
+        "type": "codeunit",
+        "id": 80,
+        "name": "Sales-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/80"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Service/Posting/ServLedgEntriesPost.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5912",
+        "type": "codeunit",
+        "id": 5912,
+        "name": "ServLedgEntries-Post",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5912"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataMigration/DataMigrationDelGLAccount.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/1812",
+        "type": "codeunit",
+        "id": 1812,
+        "name": "Data Migration Del G/L Account",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/1812"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DataMigration/DataMigrationEntities.Page.al",
+        "status": "modified",
+        "key": "page/1810",
+        "type": "page",
+        "id": 1810,
+        "name": "Data Migration Entities",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/1810"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DevTools/CALTest/CALTestRunner.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/130400",
+        "type": "codeunit",
+        "id": 130400,
+        "name": "CAL Test Runner",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/130400"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/System/DevTools/CALTest/CALTestTool.Page.al",
+        "status": "modified",
+        "key": "page/130401",
+        "type": "page",
+        "id": 130401,
+        "name": "CAL Test Tool",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "page/130401"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/eServices/EDocument/IncomingDocument.Table.al",
+        "status": "modified",
+        "key": "table/130",
+        "type": "table",
+        "id": 130,
+        "name": "Incoming Document",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "table/130"
+      },
+      {
+        "path": "src/System Application/App/MCP/src/Configuration/Codeunits/MCPConfigImplementation.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8351",
+        "type": "codeunit",
+        "id": 8351,
+        "name": "MCP Config Implementation",
+        "app": "System Application",
+        "cc": "w1",
+        "page": "codeunit/8351"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/AT/ContosoCoffeeDemoDatasetAT/app/DemoData/Finance/1. Setup Data/CreateATGLAccount.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/AU/ContosoCoffeeDemoDatasetAU/app/DemoData/Finance/1.Setup Data/CreateAUGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CA/ContosoCoffeeDemoDatasetCA/app/DemoData/Finance/1.Setup Data/CreateCAGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/CH/ContosoCoffeeDemoDatasetCH/app/DemoData/Finance/1.Setup Data/CreateCHGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/DE/ContosoCoffeeDemoDatasetDE/app/DemoData/Finance/1.Setup data/CreateDEGLAcc.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/ES/ContosoCoffeeDemoDatasetES/app/DemoData/Finance/1.Setup Data/CreateESGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FI/ContosoCoffeeDemoDatasetFI/app/DemoData/Finance/2.Master Data/CreateFIGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/GB/ContosoCoffeeDemoDatasetGB/app/DemoData/Finance/1.Setup Data/CreateGBGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/MX/ContosoCoffeeDemoDatasetMX/app/DemoData/Finance/2.Master Data/CreateMXGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NL/ContosoCoffeeDemoDatasetNL/app/DemoData/CreateNLGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/NZ/ContosoCoffeeDemoDatasetNZ/app/DemoData/Finance/1.Setup Data/CreateNZGLAccounts.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/APAC/BaseApp/Finance/GeneralLedger/Posting/GenJnlPostviaJobQueue.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/BE/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Purchases/History/CorrectPostedPurchInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/ES/BaseApp/Sales/History/CorrectPostedSalesInvoice.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FI/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/NO/BaseApp/Sales/Posting/SalesPost.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance",
+    "sales",
+    "integration",
+    "development",
+    "purchasing",
+    "service",
+    "inventory",
+    "projects",
+    "administration",
+    "fixed-assets",
+    "manufacturing",
+    "sustainability",
+    "crm",
+    "platform"
+  ],
+  "apps": [
+    "AMCBanking365Fundamentals",
+    "AuditFileExport",
+    "Base Application",
+    "EDocument",
+    "HybridBaseDeployment",
+    "INFADepreciation",
+    "INGST",
+    "INTaxEngine",
+    "IRSForms",
+    "IntrastatCZ",
+    "MasterDataManagement",
+    "NorwegianSAFT",
+    "PaymentManagementFR",
+    "Quality Management",
+    "Subcontracting",
+    "Subscription Billing",
+    "Sustainability",
+    "SustainabilityCopilotSuggestion",
+    "System Application"
+  ]
+}

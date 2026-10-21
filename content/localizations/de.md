@@ -2,7 +2,7 @@
 id: localization/de
 type: localization
 title: Germany (DE)
-summary: Germany (DE) localization of Business Central 29. It covers ELSTER sales VAT advance notifications, VAT-VIES/EU Sales List reporting, Intrastat, GoBD/GDPdU digital audit exports, purchase delivery reminders, physical inventory orders, and XRechnung, ZUGFeRD and Peppol e-invoicing.
+summary: Germany (DE) localization of Business Central 29. It covers ELSTER sales VAT advance notifications, VAT-VIES/EU Sales List reporting, GoBD/GDPdU digital audit exports, Intrastat XML, delivery reminders, physical inventory orders, BilMoG exchange rate adjustment and XRechnung/ZUGFeRD/Peppol e-invoicing.
 tier: official
 language: en
 tags:
@@ -11,20 +11,20 @@ tags:
 review:
   state: reviewed
   by: opus
-  at: "2026-10-17T01:02:20.548Z"
+  at: "2026-10-21T00:38:33.286Z"
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 061961ca77246b885701e13c2a93c1394a8dd45db22c600ec9bd9c3d30eb45b0
+  input_hash: 302ee4f413f567c004bad2bf0c546a6a696910c14903916eeeeb14fa6d6a1c90
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-de
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -103,7 +103,7 @@ links:
 country: DE
 version: "29"
 w1_version: "29"
-added_objects: 217
+added_objects: 219
 replaced_objects: 63
 removed_objects: 1
 added_fields: 92
@@ -113,30 +113,30 @@ learn_folder: LocalFunctionality/Germany
 
 # Germany (DE)
 
-> Germany (DE) localization of Business Central 29. It covers ELSTER sales VAT advance notifications, VAT-VIES/EU Sales List reporting, Intrastat, GoBD/GDPdU digital audit exports, purchase delivery reminders, physical inventory orders, and XRechnung, ZUGFeRD and Peppol e-invoicing.
+> Germany (DE) localization of Business Central 29. It covers ELSTER sales VAT advance notifications, VAT-VIES/EU Sales List reporting, GoBD/GDPdU digital audit exports, Intrastat XML, delivery reminders, physical inventory orders, BilMoG exchange rate adjustment and XRechnung/ZUGFeRD/Peppol e-invoicing.
 
 BC29 · country layer against W1 · Learn: [local functionality](../topics/business-central/business-functionality/local-functionality/germany.md) · narrative reviewed (checked by Opus)
 
 ## Overview
 
-The German layer adds statutory reporting on top of W1. VAT reporting is split into Sales VAT Advance Notifications (tables 11021 "Sales VAT Advance Notif." and 11023 "Elec. VAT Decl. Setup", codeunits 11021 "Elster - Initialize" and 11023 "Elster Management", report 11016 for the XML file) and VAT-VIES declarations. The VIES side extends the W1 VAT Report tables 740, 741 and 743 with fields and procedures, plus codeunit 11001 "VIES ELMA Xml" for the ELMA5 submission. Learn documents both flows under "How to Create VAT Reports [DE]", "Set up and export sales VAT advance notifications" and "EU Sales List in Germany".
+The German layer reworks VAT reporting. Sales VAT advance notifications (ELSTER) are handled by own tables, pages and codeunits such as "Elster Management", and the VAT-VIES declaration and EU Sales List are handled through extended VAT Report tables, codeunits and reports. Learn describes these as two separate mechanisms that replace the generic VAT Report page. Company Information gains tax office, agency and registration fields, and corrections are supported by correction line fields and procedures on the VAT report objects.
 
-Other local capabilities are the GoBD/GDPdU digital audit export (Data Export tables, pages 11002 to 11027, codeunit 11000, report 11015 "Export Business Data"), delivery reminders for vendors (tables and pages in the 5005270 range), Intrastat extensions with IDEV and eSTATISTIK.CORE submission channels, BilMoG currency valuation in exchange rate adjustment, and the Correction field handling in general journal posting.
+Other own functionality includes the digital audit export (Data Export tables, pages and Export Business Data report), Intrastat report extensions with IDEV and eSTATISTIK.CORE channels, delivery reminders for vendors (headers, lines, issuing codeunits, setup pages, report selection), and physical inventory orders and recordings. The Foundation, Finance and Inventory areas also change W1 objects such as Document-Print, Format Address, Gen. Jnl.-Post Batch and the exchange rate adjustment (BilMoG valuation).
 
-E-invoicing is built on the E-Document framework with XRechnung, ZUGFeRD and PEPPOL BIS 3.0 DE formats (eServices and Peppol areas), including buyer reference handling. Company Information gains tax office, registration and Intrastat fields, and registration numbers are added to vendor and purchase documents.
+Electronic invoicing is built on the E-Document framework with XRechnung, ZUGFeRD and Peppol BIS 3.0 DE formats, plus PEPPOL30 DE codeunits. Learn documents the features under "Germany local functionality" and in separate pages for VAT, Intrastat, delivery reminders, digital audits and e-invoicing.
 
 ## Key points
 
-- ELSTER sales VAT advance notifications: own tables, setup page, role center actions and XML export report, documented on Learn
-- VAT-VIES and EU Sales List: W1 VAT Report tables extended with trade type, correction and supply fields; export via ELMA5 XML
-- GoBD/GDPdU digital audit: Data Export setup pages, record definitions and the Export Business Data report producing ZIP with XML index
-- Delivery reminders for vendors: header, line, issued and ledger entry tables, terms, levels, text, create/issue codeunits and test report
-- Intrastat DE: extensions for report header, line and setup, submission channel enum for IDEV and eSTATISTIK.CORE, places of dispatcher and receiver
-- E-invoicing: XRechnung, ZUGFeRD and PEPPOL BIS 3.0 DE formats with import/export codeunits and buyer reference enum
-- BilMoG valuation method added to Exch. Rate Adjmt. Parameters and exchange rate adjustment subscribers
-- Physical inventory orders and recordings with posted counterparts, plus local reports such as Vendor Payments List and total-balance reports
+- ELSTER sales VAT advance notifications: own table, card and list pages, setup, XML file creation report, and permission set extensions for the ELSTER VAT localization.
+- VAT-VIES declaration and EU Sales List: extended VAT Report Header, Line and Setup, ELMA5 XML export, correction lines and Suggest Lines.
+- Digital audit (GoBD/GDPdU): Data Exports, record definitions, sources and relations pages, with Export Business Data producing a ZIP with XML index.
+- Intrastat: German report extensions, place of dispatcher and receiver tables, submission channel enum for IDEV and eSTATISTIK.CORE.
+- Delivery reminders for vendors: terms, levels, text, create, issue and test report, with a Delivery Reminder code on the vendor.
+- BilMoG valuation method in exchange rate adjustment, via new parameters on Exch. Rate Adjmt. Parameters.
+- E-invoicing: XRechnung, ZUGFeRD and Peppol BIS 3.0 DE export and import with buyer reference handling.
+- Negative entries via the Correction field in general journals, and vendor payments list and total-balance reports.
 
-Narrative written by Sonnet from the code diff and 30 Learn page summaries. In numbers: Germany (DE) localization of Business Central in BC29: 217 objects of its own, 63 W1 objects changed (92 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
+Narrative written by Sonnet from the code diff and 30 Learn page summaries. In numbers: Germany (DE) localization of Business Central in BC29: 219 objects of its own, 63 W1 objects changed (92 fields and 4 events added), 1 W1 objects dropped. From the code; country apps outside the Base Application are not included yet.
 
 ## By area
 
@@ -144,7 +144,7 @@ Narrative written by Sonnet from the code diff and 30 Learn page summaries. In n
 |---|---|---|---|
 | [Finance](#finance) | 33 | 37 | 49 |
 | [Purchases](#purchases) | 9 | 46 | 11 |
-| [eServices](#eservices) | 0 | 45 | 0 |
+| [eServices](#eservices) | 0 | 47 | 0 |
 | [Inventory](#inventory) | 5 | 34 | 5 |
 | [(no namespace)](#no-namespace) | 0 | 30 | 0 |
 | [Foundation](#foundation) | 6 | 9 | 24 |
@@ -161,81 +161,81 @@ Narrative written by Sonnet from the code diff and 30 Learn page summaries. In n
 
 ### Finance
 
-Adds German VAT reporting: the VAT Report header, line and setup tables get fields for trade type, corrections, supplies and VIES/ELMA transmission, with new export and validation procedures. Also adds the digital audit Data Export pages, VAT statement and VIES reports, G/L Total-Balance, and BilMoG fields on exchange rate adjustment parameters. Gen. Jnl.-Post Batch gets correction checks and a new event.
+Adds German VAT reporting: extended VAT Report tables (header, line, setup) with VIES/ELMA fields, correction handling, export procedures and an XML VIES codeunit. Adds the digital audit Data Export objects, German VAT statement, VIES and total-balance reports. Changes exchange rate adjustment with BilMoG valuation and adds a check hook in Gen. Jnl.-Post Batch.
 
-Why: Learn explains that VAT-VIES declarations feed the EU Sales List sent to BZSt, that corrections are resubmitted with the Corrected Notification field, and that BilMoG valuation applies at fiscal year-end. GoBD/GDPdU requires data exports for tax auditors.
+Why: Learn explains that German VAT uses sales VAT advance notifications for ELSTER and VAT-VIES declarations for the EU Sales List. The BilMoG method treats short-term and long-term payables and receivables differently at year-end.
 
-Objects: [table/740 "VAT Report Header"](../objects/table/740.md), [table/741 "VAT Report Line"](../objects/table/741.md), [table/743 "VAT Report Setup"](../objects/table/743.md), [codeunit/743 "VAT Report Export"](../objects/codeunit/743.md), [codeunit/11001 "VIES ELMA Xml"](../objects/codeunit/11001-de.md) (own), [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-de.md) (own), [report/741 "VAT Report Suggest Lines"](../objects/report/741.md), [report/11015 "Export Business Data"](../objects/report/11015-de.md) (own).
+Objects: [table/740 "VAT Report Header"](../objects/table/740.md), [table/741 "VAT Report Line"](../objects/table/741.md), [table/743 "VAT Report Setup"](../objects/table/743.md), [codeunit/743 "VAT Report Export"](../objects/codeunit/743.md), [codeunit/11001 "VIES ELMA Xml"](../objects/codeunit/11001-de.md) (own), [report/741 "VAT Report Suggest Lines"](../objects/report/741.md), [codeunit/11000 "Data Export Management"](../objects/codeunit/11000-de.md) (own), [report/11015 "Export Business Data"](../objects/report/11015-de.md) (own).
 
 [All 70 objects of Finance in the diff](?ns=Finance#country-diff)
 
 ### Purchases
 
-Introduces the delivery reminder process for vendors with header, line, issued and ledger tables, terms, levels, text, create and issue codeunits, pages and reports. Adds Registration No. to Vendor Templ., archive options to Purchases & Payables Setup, and local vendor reports such as Vendor Payments List.
+Adds the delivery reminder feature: header, line and issued tables, create and issue codeunits and reports, list and card pages, terms, levels and text. Extends vendor, purchase setup and purchase order pages, and adds archiving options and registration numbers on purchase documents.
 
-Why: Learn documents delivery reminders as a way to remind vendors of late deliveries, and the Vendor Payments List as available in Austria, Germany and Switzerland.
+Why: Learn describes delivery reminders as a way to remind vendors of late deliveries, with setup of terms, levels, text and vendor codes.
 
-Objects: [table/5005270 "Delivery Reminder Header"](../objects/table/5005270-de.md) (own), [table/5005271 "Delivery Reminder Line"](../objects/table/5005271-de.md) (own), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-de.md) (own), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-de.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-de.md) (own), [report/5005272 "Delivery Reminder - Test"](../objects/report/5005272-de.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-de.md) (own), [table/312 "Purchases & Payables Setup"](../objects/table/312.md).
+Objects: [table/5005270 "Delivery Reminder Header"](../objects/table/5005270-de.md) (own), [table/5005271 "Delivery Reminder Line"](../objects/table/5005271-de.md) (own), [codeunit/5005270 "Issue Delivery Reminder"](../objects/codeunit/5005270-de.md) (own), [codeunit/5005271 "Create Delivery Reminder"](../objects/codeunit/5005271-de.md) (own), [page/5005270 "Delivery Reminder"](../objects/page/5005270-de.md) (own), [page/5005281 "Delivery Reminder Levels"](../objects/page/5005281-de.md) (own), [report/5005272 "Delivery Reminder - Test"](../objects/report/5005272-de.md) (own), [report/11507 "Vendor Payments List"](../objects/report/11507-de.md) (own).
 
 [All 55 objects of Purchases in the diff](?ns=Purchases#country-diff)
 
 ### eServices
 
-Adds German electronic invoicing through the E-Document framework: XRechnung and ZUGFeRD format codeunits, import and export, PEPPOL BIS 3.0 DE handlers, buyer reference enum, and page, table and report extensions on sales and service documents.
+Adds German e-document support for XRechnung, ZUGFeRD and Peppol BIS 3.0 DE through the E-Document framework: format and handler codeunits, import and export, enum extensions, and page and report extensions on sales and service documents. Includes buyer reference handling.
 
-Why: Learn states that Germany supports XRechnung, Peppol BIS 3 and ZUGFeRD, with buyer reference resolution and a Buyer Reference Mandatory setting.
+Why: Learn states that XRechnung, Peppol BIS 3 and ZUGFeRD are supported, with a Buyer Reference Mandatory setting.
 
-Objects: [codeunit/13914 "XRechnung Format"](../objects/codeunit/13914-de.md) (own), [codeunit/13920 "ZUGFeRD Format"](../objects/codeunit/13920-de.md) (own), [codeunit/11035 "EDoc PEPPOL BIS 3.0 DE"](../objects/codeunit/11035-de.md) (own), [codeunit/13916 "Export XRechnung Document"](../objects/codeunit/13916-de.md) (own), [codeunit/13917 "Export ZUGFeRD Document"](../objects/codeunit/13917-de.md) (own), [enum/13914 "E-Document Buyer Reference"](../objects/enum/13914-de.md) (own), [enumextension/13914 "E-Document Format DE"](../objects/enumextension/13914-de.md) (own), [pageextension/13914 "E-Document Customer Card DE"](../objects/pageextension/13914-de.md) (own).
+Objects: [codeunit/13914 "XRechnung Format"](../objects/codeunit/13914-de.md) (own), [codeunit/13916 "Export XRechnung Document"](../objects/codeunit/13916-de.md) (own), [codeunit/13915 "Import XRechnung Document"](../objects/codeunit/13915-de.md) (own), [codeunit/13917 "Export ZUGFeRD Document"](../objects/codeunit/13917-de.md) (own), [codeunit/13919 "Import ZUGFeRD Document"](../objects/codeunit/13919-de.md) (own), [codeunit/11035 "EDoc PEPPOL BIS 3.0 DE"](../objects/codeunit/11035-de.md) (own), [enum/13914 "E-Document Buyer Reference"](../objects/enum/13914-de.md) (own), [pageextension/13914 "E-Document Customer Card DE"](../objects/pageextension/13914-de.md) (own).
 
-[All 45 objects of eServices in the diff](?ns=eServices#country-diff)
+[All 47 objects of eServices in the diff](?ns=eServices#country-diff)
 
 ### Inventory
 
-Adds Intrastat DE extensions (report header, line, setup, submission channel enum, filter codeunits, places of dispatcher and receiver), physical inventory order and recording tables with posted versions, and reports like Item ABC Analysis. Inventory Setup gets number series for physical inventory orders.
+Adds Intrastat report extensions for Germany (place of dispatcher and receiver, filter codeunits, submission channel enum) and a set of physical inventory order and recording tables. Adds item ABC analysis and inventory value reports.
 
-Why: Learn documents Intrastat export in XML with IDEV or eSTATISTIK.CORE channels, including checklist and test submission.
+Why: Learn says Intrastat reports are exported as XML through IDEV or eSTATISTIK.CORE channels.
 
-Objects: [codeunit/11029 "IntrastatReportManagementDE"](../objects/codeunit/11029-de.md) (own), [enum/11035 "Intrastat Submission Channel DE"](../objects/enum/11035-de.md) (own), [tableextension/11029 "Intrastat Report Line DE"](../objects/tableextension/11029-de.md) (own), [pageextension/11030 "Intrastat Report DE"](../objects/pageextension/11030-de.md) (own), [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-de.md) (own), [table/5005351 "Phys. Inventory Order Line"](../objects/table/5005351-de.md) (own), [table/11000 "Place of Dispatcher"](../objects/table/11000-de.md) (own), [table/313 "Inventory Setup"](../objects/table/313.md).
+Objects: [codeunit/11029 "IntrastatReportManagementDE"](../objects/codeunit/11029-de.md) (own), [enum/11035 "Intrastat Submission Channel DE"](../objects/enum/11035-de.md) (own), [tableextension/11029 "Intrastat Report Line DE"](../objects/tableextension/11029-de.md) (own), [pageextension/11030 "Intrastat Report DE"](../objects/pageextension/11030-de.md) (own), [table/11000 "Place of Dispatcher"](../objects/table/11000-de.md) (own), [table/5005350 "Phys. Inventory Order Header"](../objects/table/5005350-de.md) (own), [table/5005352 "Phys. Invt. Recording Header"](../objects/table/5005352-de.md) (own), [report/11503 "Item ABC Analysis"](../objects/report/11503-de.md) (own).
 
 [All 39 objects of Inventory in the diff](?ns=Inventory#country-diff)
 
 ### (no namespace)
 
-Holds the ELSTER sales VAT advance notification objects: notification table, card and list, electronic VAT declaration setup and overview, Elster management codeunits and the XML file report. Also includes role center and VAT statement name extensions, ELSTER permission set extensions, and upgrade plumbing.
+Holds the ELSTER objects: sales VAT advance notification table, card and list, electronic VAT declaration setup and overview, XML creation report and Elster management codeunits. Also holds upgrade plumbing and permission set extensions.
 
-Why: Learn describes sales VAT advance notifications as the way German companies report VAT through the ELSTER portal via an XML file.
+Why: Learn describes generating an XML file with tax data for the ELSTER portal through the ELSTER VAT Localization for Germany extension.
 
-Objects: [table/11021 "Sales VAT Advance Notif."](../objects/table/11021-de.md) (own), [table/11023 "Elec. VAT Decl. Setup"](../objects/table/11023-de.md) (own), [codeunit/11023 "Elster Management"](../objects/codeunit/11023-de.md) (own), [codeunit/11021 "Elster - Initialize"](../objects/codeunit/11021-de.md) (own), [report/11016 "Create XML-File VAT Adv.Notif."](../objects/report/11016-de.md) (own), [page/11016 "Sales VAT Adv. Notif. Card"](../objects/page/11016-de.md) (own), [page/11019 "Electronic VAT Decl. Setup"](../objects/page/11019-de.md) (own), [tableextension/11026 "Elster VAT Statement Name"](../objects/tableextension/11026-de.md) (own).
+Objects: [table/11021 "Sales VAT Advance Notif."](../objects/table/11021-de.md) (own), [page/11016 "Sales VAT Adv. Notif. Card"](../objects/page/11016-de.md) (own), [page/11017 "Sales VAT Adv. Notif. List"](../objects/page/11017-de.md) (own), [codeunit/11023 "Elster Management"](../objects/codeunit/11023-de.md) (own), [codeunit/11021 "Elster - Initialize"](../objects/codeunit/11021-de.md) (own), [report/11016 "Create XML-File VAT Adv.Notif."](../objects/report/11016-de.md) (own), [table/11023 "Elec. VAT Decl. Setup"](../objects/table/11023-de.md) (own), [page/11019 "Electronic VAT Decl. Setup"](../objects/page/11019-de.md) (own).
 
 [All 30 objects of (no namespace) in the diff](?ns=(no%20namespace)#country-diff)
 
 ### Foundation
 
-Extends Company Information with tax office, authorized numbers, company number and Intrastat place fields. Adds DACH report selections, Format Address procedures for tax office, Document-Print procedures for VAT reports, and a Delivery Reminder source code.
+Extends Company Information with tax office, agency and registration fields. Adds DACH report selections, the Delivery Reminder source code, Document-Print and Format Address procedures, and a Navigate event.
 
-Why: Learn says tax office and company data on Company Information are required for VAT report setup, and that registration numbers print on sales and purchase reports.
+Why: Learn says tax office information on Company Information is needed for VAT reports and that registration numbers print on sales and purchase reports.
 
-Objects: [table/79 "Company Information"](../objects/table/79.md), [table/26100 "DACH Report Selections"](../objects/table/26100-de.md) (own), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/242 "Source Code Setup"](../objects/table/242.md), [enumextension/26102 "Report Sel. Usage Purch. DACH"](../objects/enumextension/26102-de.md) (own), [page/344 "Navigate"](../objects/page/344.md).
+Objects: [table/79 "Company Information"](../objects/table/79.md), [table/26100 "DACH Report Selections"](../objects/table/26100-de.md) (own), [codeunit/229 "Document-Print"](../objects/codeunit/229.md), [codeunit/365 "Format Address"](../objects/codeunit/365.md), [codeunit/1901 "Report Selection Mgt."](../objects/codeunit/1901.md), [table/242 "Source Code Setup"](../objects/table/242.md), [page/344 "Navigate"](../objects/page/344.md), [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-de.md) (own).
 
 [All 15 objects of Foundation in the diff](?ns=Foundation#country-diff)
 
 ### Peppol
 
-Adds PEPPOL 3.0 DE validation, document info, party info, context and subscriber codeunits and a format enum extension for German Peppol output.
+Adds PEPPOL 3.0 German codeunits for sales and service validation, document and party info, context and subscribers, plus a format enum extension.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [codeunit/37404 "PEPPOL30 DE Context"](../objects/codeunit/37404-de.md) (own), [codeunit/37400 "PEPPOL30 DE Sales Validation"](../objects/codeunit/37400-de.md) (own), [codeunit/37401 "PEPPOL30 DE Service Validation"](../objects/codeunit/37401-de.md) (own), [codeunit/37402 "PEPPOL30 DE Doc Info"](../objects/codeunit/37402-de.md) (own), [codeunit/37403 "PEPPOL30 DE Party Info"](../objects/codeunit/37403-de.md) (own), [codeunit/37405 "PEPPOL30 DE Subscribers"](../objects/codeunit/37405-de.md) (own), [enumextension/37400 "PEPPOL 3.0 Format DE"](../objects/enumextension/37400-de.md) (own).
+Objects: [codeunit/37400 "PEPPOL30 DE Sales Validation"](../objects/codeunit/37400-de.md) (own), [codeunit/37401 "PEPPOL30 DE Service Validation"](../objects/codeunit/37401-de.md) (own), [codeunit/37402 "PEPPOL30 DE Doc Info"](../objects/codeunit/37402-de.md) (own), [codeunit/37403 "PEPPOL30 DE Party Info"](../objects/codeunit/37403-de.md) (own), [codeunit/37404 "PEPPOL30 DE Context"](../objects/codeunit/37404-de.md) (own), [codeunit/37405 "PEPPOL30 DE Subscribers"](../objects/codeunit/37405-de.md) (own), [enumextension/37400 "PEPPOL 3.0 Format DE"](../objects/enumextension/37400-de.md) (own).
 
 [All 7 objects of Peppol in the diff](?ns=Peppol#country-diff)
 
 ### FixedAssets
 
-Adds fields to Fixed Asset (BWR depreciation book code, premium depreciation percent and amount), changes to depreciation book tables, a reclassification exclusion procedure in FA General Report, and local book value and list reports.
+Adds fields on Fixed Asset (BWR depreciation book code, premium depreciation), changes depreciation book tables, and adds German book value and Austrian list reports.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
-Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-de.md) (own), [report/11100 "Fixed Assets - List AT"](../objects/report/11100-de.md) (own), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
+Objects: [table/5600 "Fixed Asset"](../objects/table/5600.md), [report/11011 "Fixed Asset - Book Value 03"](../objects/report/11011-de.md) (own), [report/11100 "Fixed Assets - List AT"](../objects/report/11100-de.md) (own), [codeunit/5626 "FA General Report"](../objects/codeunit/5626.md), [table/5611 "Depreciation Book"](../objects/table/5611.md), [table/5612 "FA Depreciation Book"](../objects/table/5612.md).
 
 [All 6 objects of FixedAssets in the diff](?ns=FixedAssets#country-diff)
 
@@ -261,7 +261,7 @@ Objects: [xmlport/5050 "Export Contact"](../objects/xmlport/5050.md), [xmlport/5
 
 ### Sales
 
-Adds the Customer Total-Balance report and changes Sales Line Archive.
+Adds the Customer Total-Balance report and changes the Sales Line Archive table.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -271,7 +271,7 @@ Objects: [report/11003 "Customer Total-Balance"](../objects/report/11003-de.md) 
 
 ### ExpenseAgent
 
-Adds an expense event subscriber for Germany.
+Adds a German expense event subscriber codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -281,7 +281,7 @@ Objects: [codeunit/6917 "Expense Event Subscriber DE"](../objects/codeunit/6917-
 
 ### Manufacturing
 
-Extends the Manufacturing Manager role center for DACH.
+Adds a DACH extension of the Manufacturing Manager role center.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -301,7 +301,7 @@ Objects: [table/11014 "Certificate"](../objects/table/11014-de.md) (own).
 
 ### Service
 
-Adds document caption and document number label procedures to the Service - Credit Memo report.
+Changes the Service - Credit Memo report with document caption and number label procedures.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -311,7 +311,7 @@ Objects: [report/5912 "Service - Credit Memo"](../objects/report/5912.md).
 
 ### Utilities
 
-Adds the GeneralMgt codeunit with local helper functions.
+Adds the GeneralMgt helper codeunit.
 
 Why: not explained by a Learn page in the input; the code shows the change, not the requirement.
 
@@ -389,7 +389,7 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 
 ## Objects of its own
 
-217 objects only this country has.
+219 objects only this country has.
 
 - [codeunit/355 "Local Navigate Handler"](../objects/codeunit/355-de.md)
 - [codeunit/1883 "Sandbox Cleanup local"](../objects/codeunit/1883-de.md)
@@ -412,6 +412,8 @@ Objects: [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md) (own).
 - [codeunit/11039 "E-Document XRechnung Handler"](../objects/codeunit/11039-de.md)
 - [codeunit/11040 "E-Doc. PEPPOL BIS 3.0 DE Hdlr"](../objects/codeunit/11040-de.md)
 - [codeunit/11041 "E-Document ZUGFeRD Handler"](../objects/codeunit/11041-de.md)
+- [codeunit/11043 "DE Payment Means Helper"](../objects/codeunit/11043-de.md)
+- [codeunit/11044 "DE XML Document Validator"](../objects/codeunit/11044-de.md)
 - [codeunit/11110 "Update VAT-AT"](../objects/codeunit/11110-de.md)
 - [codeunit/11501 "GeneralMgt"](../objects/codeunit/11501-de.md)
 - [codeunit/13914 "XRechnung Format"](../objects/codeunit/13914-de.md)

@@ -31290,20 +31290,28 @@
     "video/-_TaZY2Clh0": {
       "kind": "video",
       "key": "video/-_TaZY2Clh0",
-      "hash": "bcf3f7ab46d0787f473339ec7b5431be4e2ce0fd4a7254f4f1d2dde7eb643d67",
+      "hash": "ebfbdc8a864093d2343864b791a89d72610630e1740d6638ff46283795ad9da5",
       "video_id": "-_TaZY2Clh0",
       "title": "Concurrency in Business Central: Parallel processes without deadlocks and timeouts",
-      "at": "2026-10-17T01:09:30.056Z",
+      "at": "2026-10-21T00:45:50.012Z",
       "matches": []
     },
     "video/-q8Gm7u7R2A": {
       "kind": "video",
       "key": "video/-q8Gm7u7R2A",
-      "hash": "3d73c16e3fd68d0a34e11664cff294b9b02e436b02b03fd483f7bde3c7affc74",
+      "hash": "426498eb19ba850e6fda2b644587d17890bdcacd2330747e3c104dbff3f651f9",
       "video_id": "-q8Gm7u7R2A",
       "title": "What's New: Business Central Integration with Dataverse (2024 release wave 1)",
-      "at": "2026-10-20T08:46:34.003Z",
-      "matches": []
+      "at": "2026-10-21T00:45:49.120Z",
+      "matches": [
+        {
+          "feature": 6,
+          "name": "Synthetic Relationships",
+          "t": 580,
+          "roadmap_id": "573365",
+          "quote": "create relationships between synchronized tables and virtual tables from Business Central APIs in Dataverse"
+        }
+      ]
     },
     "video/-SGaVGOkiF0": {
       "kind": "video",
@@ -31346,78 +31354,78 @@
     "video/-uAvdZAWWwI": {
       "kind": "video",
       "key": "video/-uAvdZAWWwI",
-      "hash": "b4f1ea7d70d083e6cc942e2865061e408a13d70de5aa93fa88723b97a826dafe",
+      "hash": "94c20c93d3590b9ad07f822b491fc7f2a5262601737025dcc7d4cf09b5987eff",
       "video_id": "-uAvdZAWWwI",
       "title": "Transfer Environments",
-      "at": "2026-10-17T01:09:29.872Z",
+      "at": "2026-10-21T00:45:49.936Z",
       "matches": []
     },
     "video/-vCiEloR61U": {
       "kind": "video",
       "key": "video/-vCiEloR61U",
-      "hash": "731ff851e0e22c9e220006f9df1c8538032e845d4516ebd0f9f3b15b050dcf99",
+      "hash": "9fef1cc4a962872f521588a76b375fea14a352933bb0a8b291d00a07b4ac4433",
       "video_id": "-vCiEloR61U",
       "title": "Business Central 29: New ModuleInfo Properties Explained",
-      "at": "2026-10-17T01:09:28.876Z",
+      "at": "2026-10-21T00:45:50.123Z",
       "matches": [
         {
           "feature": 0,
           "name": "ModuleInfo help property",
           "t": 153,
           "roadmap_id": "573354",
-          "quote": "help link of a specified application, allowing programmatic access"
+          "quote": "ModuleInfo help property returns the help link"
         },
         {
           "feature": 1,
           "name": "ModuleInfo ULA property",
           "t": 164,
           "roadmap_id": "573354",
-          "quote": "end user license agreement link, accessible programmatically"
+          "quote": "ModuleInfo ULA property returns the application end user license agreement link"
         },
         {
           "feature": 2,
           "name": "ModuleInfo privacy statement property",
           "t": 175,
           "roadmap_id": "573354",
-          "quote": "privacy statement link for a particular application, accessible programmatically"
+          "quote": "ModuleInfo privacy statement property returns the privacy statement link"
         },
         {
           "feature": 3,
           "name": "ModuleInfo context sensitive help URL property",
           "t": 180,
           "roadmap_id": "573354",
-          "quote": "help URL in the user locale for a particular application, enabling localized"
+          "quote": "ModuleInfo context sensitive help URL property provides the help URL in the user locale"
         },
         {
           "feature": 4,
           "name": "ModuleInfo type enhancements",
           "t": 99,
           "roadmap_id": "573354",
-          "quote": "ModuleInfo type with four new properties for accessing app manifest metadata"
+          "quote": "ModuleInfo is an AL type expanded with four new properties for accessing app manifest metadata"
         }
       ]
     },
     "video/-vdhfNMNZQk": {
       "kind": "video",
       "key": "video/-vdhfNMNZQk",
-      "hash": "27fc04ac978ee271abcf7b67f412ef91b855cb65b8bdcfec9ce596e037c4ed18",
+      "hash": "361e96bce5ccfd4ec52fdca8bcba92bed80d8a5468120ae26eee58e40c961278",
       "video_id": "-vdhfNMNZQk",
       "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
-      "at": "2026-10-17T01:09:29.687Z",
+      "at": "2026-10-21T00:45:51.223Z",
       "matches": [
         {
           "feature": 0,
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573326",
-          "quote": "Split report layouts into reusable components - body layout for structure, themes for branding"
+          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding"
         },
         {
           "feature": 0,
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573327",
-          "quote": "themes for branding colors and fonts, and header-footer layouts for document headers"
+          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding"
         },
         {
           "feature": 2,
@@ -31451,36 +31459,22 @@
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
-          "roadmap_id": "573326",
-          "quote": "Create custom themes and header-footer layouts through the UI"
+          "roadmap_id": "573328",
+          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
         },
         {
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
-          "roadmap_id": "573327",
-          "quote": "Create custom themes and header-footer layouts through the UI"
+          "roadmap_id": "573330",
+          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
         },
         {
-          "feature": 6,
-          "name": "Managed theme and header-footer layouts page",
-          "t": 313,
-          "roadmap_id": "573326",
-          "quote": "UI page where users can create new themes or header-footer layouts by name"
-        },
-        {
-          "feature": 6,
-          "name": "Managed theme and header-footer layouts page",
-          "t": 313,
-          "roadmap_id": "573327",
-          "quote": "UI page where users can create new themes or header-footer layouts by name"
-        },
-        {
-          "feature": 7,
-          "name": "Shipped themes",
-          "t": 415,
-          "roadmap_id": "573327",
-          "quote": "Four themes ship with version 20.9: calm (green, relaxing), default, playful"
+          "feature": 5,
+          "name": "Custom theme and header-footer layouts",
+          "t": 297,
+          "roadmap_id": "573331",
+          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
         },
         {
           "feature": 9,
@@ -31494,10 +31488,10 @@
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "69b36e39b44c0c548c2de7d998448f0c7462e86bda73661c1afa7a69ca8bae0c",
+      "hash": "28da02aaf114da0ec99df23ecb1a9ebe1e920d06e229229588c5fb1e46391e8a",
       "video_id": "01GoAUnpBnw",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
-      "at": "2026-10-20T08:46:34.003Z",
+      "at": "2026-10-21T00:45:48.598Z",
       "matches": []
     },
     "video/06vgkq2EXmA": {
@@ -31520,17 +31514,17 @@
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "17c76eba730f57a8644cb145c63d560d97bd930821e00f3e2aea4882631bc532",
+      "hash": "9d9bc040441d135b04c8a21a0f53540fd624b21594804b5ef56ed22ca98b00e4",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-10-20T08:46:34.003Z",
+      "at": "2026-10-21T00:45:57.514Z",
       "matches": [
         {
           "feature": 0,
           "name": "EDI functionality in Business Central",
           "t": 6,
           "roadmap_id": "573305",
-          "quote": "EDI functionality in Business Central. New capability to exchange order information"
+          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards"
         },
         {
           "feature": 1,
@@ -31544,14 +31538,21 @@
           "name": "Sales order automatic creation from EDI",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created"
+          "quote": "When a buyer sends a purchase order via EDI, a sales order is automatically created on the seller side"
+        },
+        {
+          "feature": 3,
+          "name": "Order response messaging",
+          "t": 91,
+          "roadmap_id": "573305",
+          "quote": "Seller can send back an order response accepted or rejected to the buyer"
         },
         {
           "feature": 4,
           "name": "Remittance advice EDI document",
           "t": 104,
           "roadmap_id": "573305",
-          "quote": "When posting a purchase invoice, the buyer can send a remittance advice file"
+          "quote": "When posting a purchase invoice, the buyer can send a remittance advice file to the seller"
         },
         {
           "feature": 5,
@@ -31565,7 +31566,7 @@
           "name": "Electronic identifier support for EDI",
           "t": 189,
           "roadmap_id": "573305",
-          "quote": "Support for electronic identifiers such as JIN or VT registration numbers"
+          "quote": "Support for electronic identifiers such as JIN or VT registration numbers on both buyer and seller sides"
         },
         {
           "feature": 7,
@@ -31586,7 +31587,14 @@
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE format for EDI exchanges, leveraging existing e-documents infrastructure"
+          "quote": "Use of PPPLE format as the underlying technology for EDI exchanges"
+        },
+        {
+          "feature": 12,
+          "name": "EDI purchase order to sales order linkage",
+          "t": 311,
+          "roadmap_id": "573305",
+          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents, and automatically created sales orders"
         },
         {
           "feature": 10,
@@ -31600,14 +31608,7 @@
           "name": "French e-reporting lifecycle event tracking",
           "t": 561,
           "roadmap_id": "576832",
-          "quote": "Regulatory lifecycle events for French e-reporting are stored as messages and linked to original invoice"
-        },
-        {
-          "feature": 12,
-          "name": "EDI purchase order to sales order linkage",
-          "t": 311,
-          "roadmap_id": "573305",
-          "quote": "New linkage functionality that allows easy navigation between purchase orders, e-documents"
+          "quote": "Regulatory lifecycle events for French e-reporting are stored as messages and linked to original invoice e-documents"
         }
       ]
     },
@@ -31623,17 +31624,17 @@
     "video/0qt0Zy9ZsRo": {
       "kind": "video",
       "key": "video/0qt0Zy9ZsRo",
-      "hash": "2c55f3f1d27a2a3c2aef513c99f5654e142c4396704e018487b0b6cc360ef218",
+      "hash": "6c4c8ac81142d1d2be66b7933f4b218b20bca15851f34f0a2f20d1ae603fd501",
       "video_id": "0qt0Zy9ZsRo",
       "title": "What's New: Analyze Performance Issues with Scheduled Profiles (2024 release wave 2)",
-      "at": "2026-10-17T01:09:35.732Z",
+      "at": "2026-10-21T00:45:55.207Z",
       "matches": [
         {
           "feature": 0,
           "name": "In-Client Performance Profiler",
           "t": 5,
           "roadmap_id": "573335",
-          "quote": "Interactive tool for investigating performance issues across extensions"
+          "quote": "Interactive tool for investigating performance issues across extensions directly inside the web client"
         },
         {
           "feature": 1,
@@ -31647,7 +31648,7 @@
           "name": "Profile Schedule Configuration",
           "t": 363,
           "roadmap_id": "573335",
-          "quote": "Interface for defining rules for automatic profile capture including enable/disable toggle"
+          "quote": "Interface for defining rules for automatic profile capture including enable/disable toggle, start and end times"
         },
         {
           "feature": 3,
@@ -31668,24 +31669,24 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "bd5e6a835ab2d85b13bee9097a0adfbb56cadb9b476b14ecfc6c65d50e3849eb",
+      "hash": "883efe077c7f895543b98d53b68242f78c3d3f3b4cee8ca92cd4dc3ed86a3e49",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-10-20T08:46:34.003Z",
+      "at": "2026-10-21T00:45:55.837Z",
       "matches": [
         {
           "feature": 5,
           "name": "MCP Resources Support",
           "t": 443,
           "roadmap_id": "573312",
-          "quote": "Business Central MCP server now supports the MCP resources protocol feature added months ago."
+          "quote": "Business Central MCP server now supports the MCP resources protocol"
         },
         {
           "feature": 6,
           "name": "Embedded Resources",
           "t": 477,
           "roadmap_id": "573312",
-          "quote": "MCP server returns large data sets as embedded file references instead of text content blocks."
+          "quote": "MCP server returns large data sets as embedded file references"
         }
       ]
     },
@@ -31701,10 +31702,10 @@
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "130101db86e9096688e0d592526beda091c36c4944c5141e38cef2b1db370de7",
+      "hash": "0a87cd2897c26cd5a7b4234b73442a918f6b5f25e06b7047266d3cb57b4ae1b2",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-21T00:45:57.881Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
@@ -31736,19 +31737,19 @@
     "video/1OiiA7SgqBY": {
       "kind": "video",
       "key": "video/1OiiA7SgqBY",
-      "hash": "e16baaf6609022ef335c34049d78a3d13d4a85f570892f76d82bde91b7c9ab93",
+      "hash": "c9df089e47e852a74210ea244bc2946825bfab5171ecb9512aa7a7369c8111f4",
       "video_id": "1OiiA7SgqBY",
       "title": "#BCTalent Stories: SOCITAS",
-      "at": "2026-10-17T01:09:43.757Z",
+      "at": "2026-10-21T00:45:58.148Z",
       "matches": []
     },
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "0381ff12a56f6485c6c46b97286f795307fcf2a433d954b1edcc1a373b224382",
+      "hash": "066598845fb949d41bb231ca5a48cc57d53b045962d7e4e7c90153f328f18a11",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-21T00:45:57.910Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {
@@ -31763,17 +31764,17 @@
     "video/1x3QyBX3swg": {
       "kind": "video",
       "key": "video/1x3QyBX3swg",
-      "hash": "9491ac76b26f73f16f9e41c6cd798e69422f0d6438ce86414a18059f24e02f73",
+      "hash": "7b3125ef0b8c088185eb904ff7564a6e61d1eb98489d44933350abf0e5a9b57b",
       "video_id": "1x3QyBX3swg",
       "title": "Microsoft presents: Index management",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-21T00:46:01.672Z",
       "matches": [
         {
-          "feature": 1,
-          "name": "Enable/Disable Indexes",
-          "t": 256,
-          "roadmap_id": "573314",
-          "quote": "Users can disable indexes immediately and enable them on-demand"
+          "feature": 0,
+          "name": "Index Management Page",
+          "t": 124,
+          "roadmap_id": "573316",
+          "quote": "view and manage indexes on tables, showing index key names"
         },
         {
           "feature": 1,
@@ -31783,51 +31784,29 @@
           "quote": "Users can disable indexes immediately and enable them on-demand"
         },
         {
-          "feature": 2,
-          "name": "Per-Company Index Management",
-          "t": 353,
+          "feature": 1,
+          "name": "Enable/Disable Indexes",
+          "t": 256,
           "roadmap_id": "573314",
-          "quote": "Indexes can be defined with enable false in AL and selectively enabled at runtime"
+          "quote": "Users can disable indexes immediately and enable them on-demand"
         },
         {
           "feature": 18,
           "name": "Extension fields merging to base tables in version 29",
           "t": 1779,
-          "roadmap_id": "573332",
-          "quote": "Extension fields will be merged back into the base table in SQL schema"
-        },
-        {
-          "feature": 19,
-          "name": "Index management upgrade performance impact",
-          "t": 1887,
-          "roadmap_id": "573332",
-          "quote": "Runtime operations will be faster with merged extension fields"
+          "roadmap_id": "573315",
+          "quote": "extension fields will be merged back into the base table in SQL schema"
         }
       ]
     },
     "video/1xdpUmeun-s": {
       "kind": "video",
       "key": "video/1xdpUmeun-s",
-      "hash": "b446598aef21ff0bcf5e6698f1f32de00592fd5b466ff63c59373a567edcebba",
+      "hash": "83f486193e1eaafb3812d8757126ad92a8c8034d2d028b84d53979bd8d9a7073",
       "video_id": "1xdpUmeun-s",
       "title": "Business Central Under the Hood episode 12: Evolving AL for Performance",
-      "at": "2026-10-18T00:52:25.125Z",
-      "matches": [
-        {
-          "feature": 10,
-          "name": "AI-powered query generation via MCP server",
-          "t": 1680,
-          "roadmap_id": "573312",
-          "quote": "use MCP servers and AI that understands table metadata to generate queries"
-        },
-        {
-          "feature": 4,
-          "name": "Many table extensions to one optimization",
-          "t": 1166,
-          "roadmap_id": "573332",
-          "quote": "Automatic optimization that consolidates multiple table extensions into a single one"
-        }
-      ]
+      "at": "2026-10-21T00:46:04.098Z",
+      "matches": []
     },
     "video/2_yYu3RgYwo": {
       "kind": "video",
@@ -31849,103 +31828,96 @@
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "4980db94443a6ec33b14b9128e0cdabe8b2a93f06b1d62d46d5d2c805e118c48",
+      "hash": "5a4fb9ff6846fc11a7ed5a4d5b5edb51d74735924c497f988fcf77f38d40eb37",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-10-20T08:46:34.011Z",
+      "at": "2026-10-21T00:46:01.857Z",
       "matches": []
     },
     "video/22duXC6j_No": {
       "kind": "video",
       "key": "video/22duXC6j_No",
-      "hash": "1aab0017476bcd6424dcaecf52ac2b37b031489b479b014aef078f49568cbc21",
+      "hash": "5a52c94c72ddd5df69ee0697715923df02e47cd9fcab2bc8b0c4bccba10b9442",
       "video_id": "22duXC6j_No",
       "title": "Manage all your Apps And Updates in Admin Center for Business Central",
-      "at": "2026-10-18T00:52:24.546Z",
+      "at": "2026-10-21T00:46:04.256Z",
       "matches": [
         {
           "feature": 0,
           "name": "All apps view with update actions",
           "t": 99,
           "roadmap_id": "576815",
-          "quote": "All apps view with update actions in Admin Center"
-        },
-        {
-          "feature": 1,
-          "name": "Action required status for dependent apps",
-          "t": 165,
-          "roadmap_id": "576815",
-          "quote": "Action required status when an app has dependencies on other apps"
+          "quote": "All apps view with update actions"
         },
         {
           "feature": 2,
           "name": "Installation scheduling options",
           "t": 400,
           "roadmap_id": "576815",
-          "quote": "Users can schedule app installations with multiple timing options"
+          "quote": "Installation scheduling options"
         },
         {
           "feature": 3,
           "name": "App installation from Admin Center",
           "t": 389,
           "roadmap_id": "576815",
-          "quote": "Users can install new apps directly from Admin Center"
+          "quote": "App installation from Admin Center"
         },
         {
           "feature": 4,
           "name": "Operations page for installation monitoring",
           "t": 471,
           "roadmap_id": "576815",
-          "quote": "Operations page displays real-time progress of app installations"
+          "quote": "Operations page for installation monitoring"
         },
         {
           "feature": 5,
           "name": "Uninstall apps from Admin Center",
           "t": 375,
           "roadmap_id": "576815",
-          "quote": "Users can uninstall both PTE and regular apps directly"
+          "quote": "Uninstall apps from Admin Center"
         }
       ]
     },
     "video/2430rfEywuI": {
       "kind": "video",
       "key": "video/2430rfEywuI",
-      "hash": "00d8a9b85c570008fa9ac2e274c746554d487c2b438e5701aa11d0df130a356a",
+      "hash": "e94eb8265a9db3e85e71fb074e59c15e333528f07010a36cdabe5897100acd03",
       "video_id": "2430rfEywuI",
       "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
-      "at": "2026-10-20T08:46:34.011Z",
+      "at": "2026-10-21T00:46:03.823Z",
       "matches": []
     },
     "video/2isrH3RcSK8": {
       "kind": "video",
       "key": "video/2isrH3RcSK8",
-      "hash": "c43745dbb7336aa7de6059e9e2f508c3930c0e1149aee98619e542fb3cf682df",
+      "hash": "45cfe1d75b88dd9fe91bea032a7299acfe4029fb1ff750e37d3860f1516b53ca",
       "video_id": "2isrH3RcSK8",
       "title": "Business Central Launch Event 2024 Release Wave 2 - Recording of Live Opening",
-      "at": "2026-10-20T08:46:34.011Z",
+      "at": "2026-10-21T00:46:12.948Z",
       "matches": []
     },
     "video/2N2NhNH7dsk": {
       "kind": "video",
       "key": "video/2N2NhNH7dsk",
-      "hash": "c46de55d2664482240c4d8dc930cc8b97a86eea7da760f6b7078f0aa7c272668",
+      "hash": "8571c2b3b93121171cf1fa409b007987848f6d769b71b2aa34a56b1d305adde4",
       "video_id": "2N2NhNH7dsk",
       "title": "What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)",
-      "at": "2026-10-20T08:46:34.011Z",
+      "at": "2026-10-21T00:46:03.166Z",
       "matches": [
         {
           "feature": 0,
           "name": "Layout status control",
           "t": 31,
           "roadmap_id": "573320",
-          "quote": "set a status on report layouts including draft, pending approval, approved, and retired"
+          "quote": "Administrators can set a status on report layouts"
         },
         {
           "feature": 1,
           "name": "Layout lifecycle states",
           "t": 67,
           "roadmap_id": "573320",
-          "quote": "Report layouts can be transitioned through states: draft, pending approval, approved, and retired"
+          "quote": "Report layouts can be transitioned through states"
         },
         {
           "feature": 2,

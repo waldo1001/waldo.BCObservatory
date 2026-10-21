@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/229",
+  "number": 229,
+  "title": "Knowledge: Community Copilot domain (System.AI features) and review skill",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Added community knowledge domain for Copilot development covering System.AI module best practices like capability registration, Azure OpenAI calls, response validation, and prompt injection prevention, with a new peer review skill.",
+  "key_points": [
+    "Five new Community Copilot articles with good and bad samples: capability registration on install and upgrade, calling Azure OpenAI through the AI module, checking the operation response, saving PromptDialog proposals only when kept, and keeping user input out of system messages",
+    "New community review skill al-copilot-review that runs as a top-level peer and is not composed by al-code-review",
+    "Targets mistakes the compiler and analyzers do not catch",
+    "Articles include false-positive carve-outs and Microsoft Learn references",
+    "Registered in review fixtures and documented in the user and troubleshooting guides"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": "A new Community domain `copilot`, structured like Agents: knowledge plus a community leaf review skill that runs as a top-level peer.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005113,
+    "changes_in_call": 1
+  }
+}

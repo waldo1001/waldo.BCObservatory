@@ -2,10 +2,10 @@
   "inputs": [
     7,
     [
-      "1b45ce4e7cde927898c95d577ee9267e50f14d9b",
+      "7f41d35742230d336aa3ef0076182523d6ab433b",
       "4",
-      9470,
-      "1b45ce4e7cde927898c95d577ee9267e50f14d9b",
+      9472,
+      "7f41d35742230d336aa3ef0076182523d6ab433b",
       "4",
       6895
     ]
@@ -72504,6 +72504,12 @@
       "s": "table/5601",
       "t": "table/5601",
       "k": "table_relation",
+      "via": "Derogatory Source Entry No."
+    },
+    {
+      "s": "table/5601",
+      "t": "table/5601",
+      "k": "table_relation",
       "via": "Reversed by Entry No."
     },
     {
@@ -72784,6 +72790,30 @@
       "s": "table/5606",
       "t": "table/15",
       "k": "table_relation",
+      "via": "Derog. Bal. Account (Decrease)"
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Acc."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Account (Decrease)"
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
+      "via": "Derogatory Expense Acc."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/15",
+      "k": "table_relation",
       "via": "Gains Acc. on Disposal"
     },
     {
@@ -72892,6 +72922,12 @@
       "s": "table/5606",
       "t": "table/5615",
       "k": "calc_formula",
+      "via": "Allocated Derogatory Pct."
+    },
+    {
+      "s": "table/5606",
+      "t": "table/5615",
+      "k": "calc_formula",
       "via": "Allocated Gain %"
     },
     {
@@ -72994,6 +73030,18 @@
       "k": "lookup_page"
     },
     {
+      "s": "table/5611",
+      "t": "table/5611",
+      "k": "calc_formula",
+      "via": "Derogatory Book Code"
+    },
+    {
+      "s": "table/5611",
+      "t": "table/5611",
+      "k": "table_relation",
+      "via": "Derogatory Calc."
+    },
+    {
       "s": "table/5612",
       "t": "table/5600",
       "k": "table_relation",
@@ -73058,6 +73106,12 @@
       "t": "table/5601",
       "k": "calc_formula",
       "via": "Depreciation"
+    },
+    {
+      "s": "table/5612",
+      "t": "table/5601",
+      "k": "calc_formula",
+      "via": "Derogatory Amount"
     },
     {
       "s": "table/5612",
@@ -73635,6 +73689,12 @@
       "t": "table/5611",
       "k": "table_relation",
       "via": "Depreciation Book Code"
+    },
+    {
+      "s": "table/5625",
+      "t": "table/5625",
+      "k": "table_relation",
+      "via": "Derogatory Source Entry No."
     },
     {
       "s": "table/5625",
@@ -130319,6 +130379,11 @@
             "app": "FieldServiceIntegration"
           },
           {
+            "s": "codeunit/7237",
+            "proc": "ClearCrossEnvSecretOnEnvironmentCopy",
+            "app": "MasterDataManagement"
+          },
+          {
             "s": "codeunit/8912",
             "proc": "ClearCompanyConfigGeneral",
             "app": "Base Application"
@@ -150284,6 +150349,11 @@
     },
     "codeunit/5208": {
       "OnAfterAddGLAccountsForLocalization": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeIndentGLAccounts": {
         "kind": "integration",
         "obsolete": null,
         "subs": []
@@ -283232,7 +283302,7 @@
     }
   },
   "dead_events": {
-    "count": 22498
+    "count": 22499
   },
   "unresolved": [
     {
@@ -293311,14 +293381,14 @@
     "source_table": 3611,
     "card_page": 317,
     "lookup_page": 820,
-    "table_relation": 10165,
-    "calc_formula": 2527,
+    "table_relation": 10172,
+    "calc_formula": 2530,
     "drilldown_page": 517,
     "unresolved_clipped": 132,
     "unresolved_ambiguous": 76,
-    "subscribes": 5165,
-    "edges": 20520,
-    "published_events": 26296,
-    "dead_events": 22498
+    "subscribes": 5166,
+    "edges": 20530,
+    "published_events": 26297,
+    "dead_events": 22499
   }
 }

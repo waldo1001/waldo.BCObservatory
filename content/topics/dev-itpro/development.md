@@ -12,7 +12,7 @@ review:
   at: "2026-10-19T01:12:10.962Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -410,7 +410,6 @@ links:
     - change/bcapps/9351
     - change/bcapps/9600
     - change/bcapps/9605
-    - change/bcapps/9643
     - change/bcapps/9650
     - change/bcapps/9876
     - change/bcquality/87
@@ -586,7 +585,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9351 [master]Subscription Billing: O(N²) contract-renewal detection in Sales-Post subscribers slows posting (~28% of batch CPU)](../../changes/bcapps/9351.md) (code change): "Contract renewal detection in the Sales-Post subscribers was reworked"
 - [#9600 Uptake sift disable enable support](../../changes/bcapps/9600.md) (code change): "Index management pages now support viewing and disabling SIFT indexes on relevant tables"
 - [#9605 [Quality Management] UI actions to restore default shipped source configurations](../../changes/bcapps/9605.md) (code change): "Quality Management adds UI actions to restore, reset, or recreate default source configurations"
-- [#9643 Update SII subscribers SkipMissingPermissions](../../changes/bcapps/9643.md) (code change): "Updates the SkipMissingPermissions setting on event subscribers"
 - [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverts the earlier change from PR 9515 to how the 'Greater Than' withholding tax calculation"
 - [#9876 [Subscription Billing] Rename progress tracker](../../changes/bcapps/9876.md) (code change): "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
 - [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"

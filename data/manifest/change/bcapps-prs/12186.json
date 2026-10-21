@@ -6,14 +6,39 @@
   "title": "Set several fields in one ModifyAll call",
   "url": "https://github.com/microsoft/BCApps/pull/12186",
   "published_at": "2026-10-19T14:16:35Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:37.334Z",
+      "change_class": "code",
+      "files": 309,
+      "al": 131,
+      "objects": 114,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:42.538Z",
+      "prompt": "extract-change@1",
+      "kind": "performance",
+      "behavior": false,
+      "cost_usd": 0.014716
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:42.807Z",
+      "objects": 114,
+      "unjoined": 17,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-21T00:25:42.849Z",
+      "path": "content/changes/bcapps/12186.md"
     }
   },
   "input_hash": "232edfe71a757627d2efaaf9d63374aa4fc3e92b:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12186,
@@ -33,6 +58,12 @@
     "community_contribution": false,
     "title_key": "set several fields in one modifyall call"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-20T12:13:58.303Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "7ef3daafe42c4aae78043b58ae56471bd0751f05d1a4d16b45035fa5f948d586",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:21.016Z"
+  }
 }

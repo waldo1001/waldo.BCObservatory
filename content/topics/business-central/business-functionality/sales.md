@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -500,6 +500,7 @@ links:
     - change/bcapps/12145
     - change/bcapps/12461
     - change/bcapps/12551
+    - change/bcapps/12552
     - change/bcapps/12554
     - change/bcapps/12806
     - change/bcapps/8914
@@ -763,6 +764,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12145 [Main]-Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12145.md) (code change): "Fixed an error on sales orders when assigning item charges by amount when some item lines have no price"
 - [#12461 [29.x][ALL-E] Item charge assignment update Error on sales order when there is no Price. "Sorry, we just updated this page. Reopen it and try again." when running in SaaS](../../../changes/bcapps/12461.md) (code change): "Item charge assignment on sales orders now refreshes record set after bulk updates"
 - [#12551 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../../../changes/bcapps/12551.md) (code change): "Fixes a regression in Sales Line behaviour related to the VAT Prod. field"
+- [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code"
 - [#12554 [Main] - User encounters a "record is not open" error when attaching a document to a posted sales shipment in Dynamics 365 (Base Application v28)](../../../changes/bcapps/12554.md) (code change): "Document attachment uploads now work correctly for posted sales shipments and return receipts"
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../../../changes/bcapps/12806.md) (code change): "Converting a sales quote to an order now holds off reservation until all quote lines have been copied"
 - [#8914 [Master]- Changing Sales Order Line Description on a Sales Order unexpectedly changes the invoice total amounts.Changes](../../../changes/bcapps/8914.md) (code change): "Fixed an issue where editing a sales order line's description would unexpectedly change"

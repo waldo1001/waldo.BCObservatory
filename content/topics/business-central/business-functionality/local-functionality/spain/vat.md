@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:44.882Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,7 +228,7 @@ Start with the VAT Reports page for an overview and with Equivalence Charges to 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10023 [Master]-Customer Ledger Bill Entries display default Customer Posting Group instead of Alternative Customer Posting Group set on Sales Documents in the Spanish version.](../../../../../changes/bcapps/10023.md) (code change): "Invoice split payment posting in the Spanish version now preserves the alternative customer posting group"
-- [#12443 Renumber SII objects for ES](../../../../../changes/bcapps/12443.md) (code change): "Spanish SII objects across finance, purchasing, and sales modules are renumbered"
+- [#12443 Renumber SII objects for ES](../../../../../changes/bcapps/12443.md) (code change): "SII objects in the ES Base Application layer get new object IDs"
 
 ## Business Central pages and reports
 

@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:11:24.337Z"
   flags: []
 generated:
-  at: "2026-10-07T23:11:24.399Z"
+  at: "2026-10-21T00:46:46.250Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -190,7 +190,8 @@ links:
   learn: []
   objects:
     - object/table/200
-  features: []
+  features:
+    - feature/573365
   topics: []
   localizations: []
   videos: []
@@ -267,10 +268,12 @@ features:
     verified: false
     status_source: video
   - name: Synthetic Relationships
-    status: unclear
+    status: ga
     t: 580
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573365"
   - name: Data Sync Overview
     status: unclear
     t: 135
@@ -454,7 +457,7 @@ The second half covers synthetic relationships between synced tables and virtual
 | Integration Troubleshooting Fact Box | status not stated | [7:37](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=457s) |  |
 | Company and Environment Copy Cleanup | status not stated | [8:18](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=498s) |  |
 | Dataverse Connection Setup Page Rename | status not stated | [8:59](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=539s) |  |
-| Synthetic Relationships | status not stated, demoed | [9:40](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=580s) |  |
+| Synthetic Relationships | generally available (roadmap [Map new Dataverse fields in Business Central](../features/573365.md)), demoed | [9:40](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=580s) |  |
 | Data Sync Overview | status not stated | [2:15](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=135s) |  |
 | Virtual Tables | generally available, demoed | [2:36](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=156s) | "we have entered General availability for virtual table in the last release which is uh 23 Wave 2" ([18:27](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1107s)) |
 | Data Change Events | status not stated, demoed | [2:56](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=176s) |  |
@@ -467,6 +470,8 @@ The second half covers synthetic relationships between synced tables and virtual
 | Enhanced Custom Dimensions for Partner Telemetry | status not stated, demoed | [30:47](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=1847s) |  |
 | Business Event Subscription Page | status not stated, demoed | [38:01](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=2281s) |  |
 | Partner Telemetry via Application Insights | status not stated, demoed | [39:21](https://www.youtube.com/watch?v=-q8Gm7u7R2A&t=2361s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

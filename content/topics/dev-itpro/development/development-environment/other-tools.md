@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,8 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
+  videos:
+    - video/8t3WaWh7K9Y
   posts: []
   guidelines: []
 learn_toc_path:
@@ -62,7 +63,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -100,5 +101,11 @@ Start with Inspecting pages or Viewing table data for day-to-day debugging. Use 
 - [Inspecting pages](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages): Learn about the structure of a page and its' underlying data.
 - [The Txt2Al Conversion Tool](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-txt2al-tool): Description of the converter tool that allows you to take C/AL objects and convert them into .al format.
 - [Viewing table data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-view-table-data): View tables in browser for troubleshooting
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)](../../../../videos/8t3WaWh7K9Y.md) (video): "AL-Go for GitHub automatic population of source control details"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

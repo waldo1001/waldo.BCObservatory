@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/238",
+  "number": 238,
+  "title": "Improve first-run documentation for new developers",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Documentation improvements make BCQuality more accessible to new developers by clarifying three usage modes, simplifying the quick start, adding example findings with guidance, and updating plugin versions to 1.8.0.",
+  "key_points": [
+    "Added an overview of three ways to use BCQuality: on-demand plugin review, AL-Go pull-request review (in progress) and plan guidance (preview)",
+    "Reworked the quick start into three steps and removed the five-minute time claim",
+    "Added an illustrative finding linked to real guidance and a copyable plan guidance prompt",
+    "Moved adapter, Entry and coordinator internals from the README to skills/README.md",
+    "Set plugin and marketplace versions to 1.8.0; no knowledge, schema or runtime contract changes"
+  ],
+  "change_kind": "other",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Makes BCQuality easier for new developers to understand and get value from, ahead of Directions EMEA.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003859,
+    "changes_in_call": 1
+  }
+}

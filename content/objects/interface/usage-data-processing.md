@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 7c19c87ec2bd7bf7acc60f8a33aaa71aaf6ccb19f8729eb7fd899c7da1ef7883
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/Subscription%20Billing/app/Usage%20Based%20Billing/Interfaces/UsageDataProcessing.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/Subscription%20Billing/app/Usage%20Based%20Billing/Interfaces/UsageDataProcessing.Interface.al
     title: src/Apps/W1/Subscription Billing/app/Usage Based Billing/Interfaces/UsageDataProcessing.Interface.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Interface "Usage Data Processing" in Subscription Billing (Microsoft.SubscriptionBilling). 11 public procedures. Introduced in BC29, still in BC30.
 
-Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/Subscription%20Billing/app/Usage%20Based%20Billing/Interfaces/UsageDataProcessing.Interface.al) · facts from BC29
+Subscription Billing · Microsoft.SubscriptionBilling · BC29-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/Subscription%20Billing/app/Usage%20Based%20Billing/Interfaces/UsageDataProcessing.Interface.al) · facts from BC29
 
 ## Procedures
 

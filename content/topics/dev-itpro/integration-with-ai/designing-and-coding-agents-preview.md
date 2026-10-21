@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,6 +204,7 @@ links:
   localizations: []
   videos:
     - video/3UcLmXqyl44
+    - video/9zQZHfXK-PQ
     - video/aNRzlbxVPWE
     - video/MKuOgMWXJ_8
     - video/moPzf04Mwlc
@@ -226,8 +227,10 @@ links:
     - change/bcapps/10431
     - change/bcapps/10461
     - change/bcapps/11040
+    - change/bcapps/12817
     - change/bcapps/8967
     - change/bcquality/137
+    - change/bcquality/231
 learn_toc_path:
   - Integration with AI
   - Designing and coding agents (preview)
@@ -238,7 +241,7 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 8
+  video: 9
   blog: 8
   guideline: 0
 bc_forms: []
@@ -301,8 +304,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10431 [Agent Archiving] Fix broken reference links to archived agents and their tasks](../../../changes/bcapps/10431.md) (code change): "Links to an archived agent now open the Agent Card"
 - [#10461 [SOA] Uptake Agent Task Message Failed status for outbound replies](../../../changes/bcapps/10461.md) (code change): "Sales Order Agent now marks outbound replies as Failed"
 - [#11040 [Agent Archiving] Payables and Expense agent implementation for IAgentArchiving](../../../changes/bcapps/11040.md) (code change): "Payables and Expense agents now implement the IAgentArchiving interface"
+- [#12817 [SOA] Use company display name in default email signature](../../../changes/bcapps/12817.md) (code change): "Sales Order Agent now uses company display name instead of internal company identifier"
 - [#8967 Ability to archive agents](../../../changes/bcapps/8967.md) (code change): "Agents can now be archived by admins from the Agent List and Card"
 - [#137 Add community guidance and review support for Business Central agents](../../../changes/bcquality/137.md) (code change): "Business Central agent developers gain 20 community-authored guidance rules"
+- [#231 al-agents-review: derive the target BC version from app.json](../../../changes/bcquality/231.md) (code change): "al-agents-review skill now derives the target Business Central version"
 - [Step-by-Step Guide to Secure Business Central Agent Implementations in AL](../../../posts/aardvarklabs-blog/3348.md) (community post): "secure AI agents in Business Central by implementing restrictive profiles, page customizations"
 - [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
@@ -312,6 +317,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
 - [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
+- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "Using GitHub Copilot to automate Business Central documentation with agents"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
 - [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
 - [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"

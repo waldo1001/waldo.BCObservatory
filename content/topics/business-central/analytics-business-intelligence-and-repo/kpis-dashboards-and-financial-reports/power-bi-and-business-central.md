@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,14 +61,9 @@ links:
   localizations: []
   videos:
     - video/DVgclv3alZU
-    - video/F_pssS0FtUc
     - video/fy96_jdL1PQ
-    - video/kOCiyVql0go
   posts:
-    - post/demiliani-com/15981
-    - post/thinkaboutit-be/7635
     - post/thinkaboutit-be/7753
-    - post/waldo-be/318707
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -80,8 +75,8 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 4
-  blog: 4
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -125,14 +120,9 @@ Start with the introduction for the overall picture. Then go to the reports page
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Dynamics 365 Business Central: data mirroring to Microsoft Fabric announced.](../../../../posts/demiliani-com/15981.md) (community post): "Data mirroring replicates Business Central tables across companies into Fabric's OneLake for unified analytics"
-- [Business Central Analytics: The Technology Is Not the Hard Part](../../../../posts/thinkaboutit-be/7635.md) (community post): "Business Central supports analytics through standard Power BI apps, in-app Data Analysis mode"
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
-- [Business Central data in Fabric: the way it should be](../../../../posts/waldo-be/318707.md) (community post): "All nine Power BI apps get Fabric-based and multi-company versions"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
-- [Get Low-Friction Go-Lives and Optimize Your Investments with Telemetry Data](../../../../videos/F_pssS0FtUc.md) (video): "Business Central Usage App; DAU/WAU/MAU Report; Sessions Report"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
-- [Introducing: Business Central Integration with Microsoft Fabric (2026 release wave 2)](../../../../videos/kOCiyVql0go.md) (video): "Fabric integration; Multi-company Power BI apps; Synchronization overview"
 
 ## Business Central pages and reports
 

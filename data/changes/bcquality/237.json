@@ -1,0 +1,92 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 237,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/237",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-20T08:52:14Z",
+  "merge_commit_sha": "c3f4895ca4de6f08124eab02658adfd2a67fbf15",
+  "author": "RaimondStokkel",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "knowledge(data-modeling): keep business state independent of Job Queue lifetime",
+  "body_hash": "ec9de2802e19012489b2e2193af954fb3578899a3f59f837e8515553179e54fe",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.bad.al",
+      "status": "added",
+      "additions": 73,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.good.al",
+      "status": "added",
+      "additions": 69,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.md",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-data-modeling-review.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 4,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 190,
+    "deletions": 4,
+    "al": 4
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/data-modeling/business-state-must-have-a-domain-owner.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-data-modeling-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

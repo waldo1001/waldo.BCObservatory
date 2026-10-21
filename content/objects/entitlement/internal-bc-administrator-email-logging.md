@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: fc4771e39c433376a92254d75566f1c3b2088bded539682413e5ae96ea2b9139
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al
     title: src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -75,7 +75,7 @@ relations:
 
 > Entitlement "Internal BC Administrator Email Logging" in EmailLogging (Microsoft.CRM.EmailLoggin). Introduced in BC29, still in BC30.
 
-EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al) · facts from BC29
+EmailLogging · Microsoft.CRM.EmailLoggin · BC29-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/EmailLogging/app/src/entitlements/InternalBCAdministratorEmailLogging.Entitlement.al) · facts from BC29
 
 ## Across versions
 

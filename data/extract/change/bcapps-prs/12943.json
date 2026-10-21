@@ -8,11 +8,11 @@
   ],
   "summary": "The Danish VAT Return Periods parser now correctly handles the official SKAT API XML structure, enabling proper parsing of VAT reporting periods instead of failing with zero records inserted.",
   "key_points": [
-    "Fixed XML parsing logic to match the authoritative SKAT API response shape based on official documentation and sample clients",
-    "Changed filing deadline source from optional BetalingDato to required AngivelseFristKalenderFristDato field",
-    "Added comprehensive test XML resources covering quarterly periods, frequency changes, missing data scenarios, and edge cases",
-    "Rewrote VAT period retrieval and XML parsing codeunits to handle multiple frequency definitions and date mismatches",
-    "Tests now validate parser behavior against official SKAT examples to prevent future regressions"
+    "Fixed the Get VAT Periods parser, which expected the wrong XML shape and inserted 0 records even when SKAT returned valid periods",
+    "XML shape now follows SKAT's official documentation and sample client schema",
+    "Filing deadline now comes from AngivelseFristKalenderFristDato instead of the optional BetalingDato",
+    "Added test XML resources for quarterly periods, frequency changes, differing filing and payment dates, missing data and unsupported frequencies",
+    "Expanded the tests to check the parser against these expected shapes"
   ],
   "change_kind": "fix",
   "behavior_change": true,

@@ -6,13 +6,12 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "Master Data Management now cleans up sensitive data before environment copying, preventing confidential information from being transferred to copied environments.",
+  "summary": "Master Data Management now performs cleanup when an environment is copied, via changes to its subscribers, HTTP source transport and setup table. The description rates the risk as low because live tenants do not use the feature yet.",
   "key_points": [
-    "Cleanup executes before environment copy operations",
-    "Prevents sensitive data leakage during environment duplication",
-    "Low risk change targeting pre-release functionality",
-    "Includes automated test coverage for the cleanup behavior",
-    "Affects Master Data Management Setup and transport codeunits"
+    "Cleanup runs when an environment gets copied",
+    "Touches Master Data Mgt. Subscribers, MDM Http Source Transport and Master Data Management Setup",
+    "New automated tests added for cross-environment consumer scenarios",
+    "Low risk per author since the feature is not yet used by live tenants"
   ],
   "change_kind": "feature",
   "behavior_change": true,

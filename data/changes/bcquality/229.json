@@ -1,0 +1,250 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 229,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/229",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-20T08:48:36Z",
+  "merge_commit_sha": "fb3b7ebf6f92743b3d4ef24b9b937b8dc6231a75",
+  "author": "demiliani",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Knowledge: Community Copilot domain (System.AI features) and review skill",
+  "body_hash": "49ac5ced4df558f1cc7c6deb87e22a6e667ee07a6e15cbbdb1e5625f43276021",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.bad.al",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.good.al",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.md",
+      "status": "added",
+      "additions": 38,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.bad.al",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.good.al",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.bad.al",
+      "status": "added",
+      "additions": 14,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.good.al",
+      "status": "added",
+      "additions": 20,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.bad.al",
+      "status": "added",
+      "additions": 28,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.good.al",
+      "status": "added",
+      "additions": 52,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.md",
+      "status": "added",
+      "additions": 34,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.bad.al",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.good.al",
+      "status": "added",
+      "additions": 57,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.md",
+      "status": "added",
+      "additions": 32,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "community/skills/review/al-copilot-review.md",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "docs/using-bcquality.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "docs"
+    },
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 0,
+      "class": "other"
+    }
+  ],
+  "totals": {
+    "files": 19,
+    "additions": 650,
+    "deletions": 2,
+    "al": 16
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/register-copilot-capability-on-install-and-upgrade.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/knowledge/copilot/save-promptdialog-proposals-only-when-the-user-keeps-them.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "community/skills/review/al-copilot-review.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

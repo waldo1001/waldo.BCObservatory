@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -54,6 +54,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12943
     - change/bcapps/9543
 learn_toc_path:
   - Business functionality
@@ -108,6 +109,7 @@ The pages are independent, so start with the one that matches your task. For EU 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#12943 DK VAT Return Periods regression fix for frequency-aware parsing](../../../../../changes/bcapps/12943.md) (code change): "Danish VAT Return Periods parser now correctly handles the official SKAT API"
 - [#9543 Support VAT return reporting frequencies in Denmark](../../../../../changes/bcapps/9543.md) (code change): "Danish electronic VAT declaration now reads SKAT VAT return periods with their reporting"
 - [What's New: The Danish Bookkeeping Act (2024 release wave 1)](../../../../../videos/hcu7T3qLdDA.md) (video): "The Danish Bookkeeping Act; SAF-T; certification; audit file export; vat reporting"
 

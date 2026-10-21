@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/155",
+  "number": 155,
+  "title": "Add read-only AL development plan guidance",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "BCQuality introduces a provisional read-only contract for enriching AL development plans with applicable constraints through a new skill, extended metadata, and JSON schemas while keeping implementation and delivery to consumer repositories.",
+  "key_points": [
+    "Added new 'al-development-plan' skill requiring a development plan with optional repository context to confirm symbols",
+    "Extended skill index and Entry/DO with development-plan, development-guidance-report, and output-aware dispatch metadata",
+    "Added JSON schema for report structure and validators for skill discovery, output kind, and path canonicalization",
+    "Implementation, tests, persistence, and delivery remain owned by consumer repositories",
+    "No changes to plugin version, standalone registration, or stable public API surface; consumer agreement and runtime pilot still pending"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "copilot"
+  ],
+  "quote": "Define a provisional, internal, read-only contract for enriching an existing AL development plan with applicable BCQuality constraints.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004159,
+    "changes_in_call": 1
+  }
+}

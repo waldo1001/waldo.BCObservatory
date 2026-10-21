@@ -6,7 +6,7 @@
   "title": "Require plugin version to match content release",
   "url": "https://github.com/microsoft/BCQuality/pull/239",
   "published_at": "2026-10-20T09:08:11Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "require plugin version to match content release"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-21T00:25:26.086Z",
+  "retry_after": null
 }

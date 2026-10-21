@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:02.947Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -228,6 +228,8 @@ links:
     - post/thinkaboutit-be/8096
     - post/thinkaboutit-be/8272
   guidelines: []
+  changes:
+    - change/bcquality/230
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -302,10 +304,11 @@ For administration, one page covers setting the layout a report uses, per compan
 - [Working with Excel layouts](https://learn.microsoft.com/dynamics365/business-central/ui-excel-report-layouts): Learn how to create and modify report layouts that are built using Excel.
 - [Working with RDLC Layouts](https://learn.microsoft.com/dynamics365/business-central/ui-rdlc-report-layouts): Get an introduction to RDLC report layouts.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../../changes/bcquality/230.md) (code change): "New reports should declare layouts in the rendering section"
 - [Step-by-Step Guide to Excel Reporting in Business Central](../../../../../posts/aardvarklabs-blog/1824.md) (community post): "Excel reporting in Business Central allows developers to create data-driven reports"
 - [Step-by-Step Guide to Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2107.md) (community post): "Word reports in Business Central allow developers to create report objects"
 - [Easy Steps to Edit Word Reports in Business Central](../../../../../posts/aardvarklabs-blog/2196.md) (community post): "Edit Word report layouts in Business Central by exporting an existing report"

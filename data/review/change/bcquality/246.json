@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/246",
+  "input_hash": "aa6d207fdb0b901a4d6a2a8f991d6dfaec8e21a64a4fea92e23fac1a3c4d6dcd",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:36.872Z",
+  "issues": [
+    "Key point implying Entry gained new handling is misleading; the PR states no routing rules change and the README only explains Entry's existing role."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025739,
+    "changes_in_call": 6
+  }
+}

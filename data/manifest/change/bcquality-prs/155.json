@@ -6,10 +6,35 @@
   "title": "Add read-only AL development plan guidance",
   "url": "https://github.com/microsoft/BCQuality/pull/155",
   "published_at": "2026-10-20T08:36:42Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:34.198Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 3,
+      "objects": 0,
+      "unjoined": 3
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:39.276Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004159
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:39.278Z",
+      "objects": 0,
+      "unjoined": 3,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:25:39.286Z",
+      "path": "content/changes/bcquality/155.md"
     }
   },
   "input_hash": "7619cb3f1a262c7ef0909699293aa11f3edc8dc7:c1",
@@ -26,5 +51,13 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add read only al development plan guidance"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "8d17ea1757dea35941bb10470c7c3fc58d4f2b093f0cb08933efe9f5c971a73d",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:29.333Z"
   }
 }

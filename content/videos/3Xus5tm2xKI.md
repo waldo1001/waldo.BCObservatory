@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-21T00:46:46.250Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -163,10 +163,12 @@ features:
     roadmap_ids:
       - "576815"
   - name: Environment operations audit page
-    status: unclear
+    status: ga
     t: 409
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
   - name: S2S app permissions for PTE management
     status: ga
     t: 580
@@ -260,7 +262,7 @@ It then covers considerations: the old extension management pages and automation
 | App filtering by type in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
 | Multiple concurrent PTE schedules | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
 | Cancel scheduled PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |
-| Environment operations audit page | status not stated, demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |
+| Environment operations audit page | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |
 | S2S app permissions for PTE management | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)) | [9:40](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=580s) |
 | Early hotfix installation for Microsoft apps | status not stated, demoed | [10:12](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=612s) |
 | Known issues tracking for hotfixes | status not stated | [11:39](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=699s) |

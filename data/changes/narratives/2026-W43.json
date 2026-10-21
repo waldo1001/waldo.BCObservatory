@@ -1,22 +1,22 @@
 {
   "week": "2026-W43",
-  "input_hash": "ef1e6f3e671cf8df1e8234e8ff2eedaa90eb9243995b096ca416ac3c74d58c60",
-  "text": "Three pull requests in microsoft/BCApps change behaviour this week. #12846 adds a Country/Region of Origin Code field to document lines for Czech Intrastat reporting. The value starts from the item card, can be changed per transaction, and there is an option to retrieve values from posted entries instead. #11998 makes the system check that a General Posting Setup combination exists before journal invoices are posted, which avoids problems later with Adjust for Payment Discount. Partners with data that relied on missing combinations may now see posting errors. #12552 is a fix on the 29.x line. Validating the \"No.\" field on a sales order with a linked released production order caused repeated production order status warnings and possible modal dialog errors in write transactions. It touches Sales Line and Check Prod. Order Status. The one refactor, #12443, renumbers the SII table extensions, page extensions and codeunits in the Spanish Base Application layer. Extensions that reference those object IDs should be checked. In microsoft/BCQuality, no behaviour changes. #230 adds five knowledge articles on report layouts, report dataset contracts, and query join and grouping defaults. #223 adds an article on rounding calculated unit prices to the currency's Unit-Amount Rounding Precision. #231 lets the al-agents-review skill derive the target Business Central version from app.json.",
-  "changes": 7,
+  "input_hash": "8ea1eb0866a8b285e7c2c4b6f17656d7949489cd21c9cae6f19b44beedfa98dc",
+  "text": "Behaviour changes in BCApps lead the week. Posting fixes: #11998 makes journal posting check that a General Posting Setup combination exists, #12813 corrects GB reverse charge VAT sales posting for zero-quantity lines, and #12552 stops repeated production order status warnings when the \"No.\" field is validated on a sales order. #12943 repairs Danish VAT Return Period parsing, which had inserted zero records. Localization features arrived too: #12846 adds Country/Region of Origin Code to Czech Intrastat document lines, and #9104 moves G/L entry XML export onto the Audit File Export framework as a new XML Audit File app (FR), with a page visibility interface on the format enum. #13005 adds cleanup to Master Data Management when an environment is copied; its description rates the risk low. #12186 merges consecutive ModifyAll calls, so OnModify now runs once per row where RunTrigger was passed. #12443 only renumbers Spanish SII objects. In AL-Go, #2413 enables automatic Copilot review triggers only when opted in. BCQuality dominated by volume. #246 and #155 expose and define plan guidance, and #249 adds a short-circuit cue to performance review. #231 derives the target version from app.json. New knowledge articles came in #223, #225, #226, #229, #230 and #237, and #238 improves first-run documentation.",
+  "changes": 21,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.01546,
-  "at": "2026-10-20T08:10:49.229Z",
+  "cost_usd": 0.027797999999999996,
+  "at": "2026-10-21T00:19:55.996Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-20T08:48:48.484Z",
+    "at": "2026-10-21T00:49:03.819Z",
     "verdict": "approve",
     "issues": [
-      "The sentence that partners 'may now see posting errors' after #11998 is an inference. The source flags it as a behaviour change but not breaking. The wording reads as advice, not a claimed break, so it is acceptable.",
-      "The advice to check extensions that reference the renumbered SII object IDs (#12443) is not in the source, and the pull request is not flagged breaking. It follows reasonably from a renumbering and does not claim a break."
+      "#12552 sits under the 'Posting fixes' label but is a sales line No. validation fix, not a posting fix. The description itself is accurate, only the grouping is loose.",
+      "#12443 is not flagged as a behaviour change but appears in the behaviour-change part of the paragraph. The word 'only' makes clear it is a renumbering, so this is acceptable."
     ],
-    "input_hash": "ef1e6f3e671cf8df1e8234e8ff2eedaa90eb9243995b096ca416ac3c74d58c60",
-    "cost_usd": 0.049776,
+    "input_hash": "8ea1eb0866a8b285e7c2c4b6f17656d7949489cd21c9cae6f19b44beedfa98dc",
+    "cost_usd": 0.0938,
     "applied": [],
     "rejected_edits": []
   }

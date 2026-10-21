@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:27.474Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -147,6 +147,8 @@ links:
     - post/aardvarklabs-blog/2467
     - post/aardvarklabs-blog/2759
   guidelines: []
+  changes:
+    - change/bcquality/229
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -200,10 +202,11 @@ Start with the introduction, then build the capability, then design the dialog, 
 - [Build the Copilot capability in AL](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-capability-in-al): Integrate with Azure OpenAI Service through the AI module of Business Central.
 - [Introduction to developing generative AI experiences for your extensions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/ai-build-experience-overview): Learn essential tasks for building Copilot extensions in Business Central. Discover key components like prompt dialog pages and Azure OpenAI integration.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../changes/bcquality/229.md) (code change): "System.AI module best practices like capability registration, Azure OpenAI calls, response validation"
 - [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "generates personalized reminder text for overdue customer balances"
 - [Enhancing Business Central with Address Validation AI](../../../../posts/aardvarklabs-blog/2467.md) (community post): "Address validation using Azure OpenAI compares user-entered addresses"
 - [Using CoPilot to Upgrade Service Notes for Invoices in Business Central AL](../../../../posts/aardvarklabs-blog/2759.md) (community post): "use Copilot to automatically upgrade raw service technician notes into professional"

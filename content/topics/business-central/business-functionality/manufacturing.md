@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -646,7 +646,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10879 [Main]Reopening and re-finishing production order reposts backward-flushed routing capacityInitial commit](../../../changes/bcapps/10879.md) (code change): "Production order reopening and re-finishing now correctly handles backward-flushed routing capacity"
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
-- [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "production order status warnings and potential modal dialog errors in write transactions"
+- [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"
@@ -655,7 +655,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
 - [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Manufacturing gains focus on quality management and outsourcing"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
-- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../posts/olofsimren-com/3865.md) (community post): "high-volume embroidered garment manufacturer, used Business Central automation"
+- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../posts/olofsimren-com/3865.md) (community post): "high-volume embroidered garment manufacturer, used Business Central automation and configuration-driven customizations to scale operations"
 - [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "Production bill of material and routing on stock keeping unit; Standard cost per stock keeping unit"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; production order; assembly; replenishment; components; bom versions"
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "production bom; document attachments; bom versions; version comparison"

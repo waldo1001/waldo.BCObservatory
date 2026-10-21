@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12813",
+  "input_hash": "2290ef020bd07a68953eee96a6be42c43b070dc06a5d794cfa4fcaddc80eb78d",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-21T00:48:36.872Z",
+  "issues": [
+    "Summary, key points and flags match the description: zero-quantity skip, line-based applicability, legacy logic gated by feature status, eight regression tests."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025739,
+    "changes_in_call": 6
+  }
+}

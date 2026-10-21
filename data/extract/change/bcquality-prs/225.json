@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/225",
+  "number": 225,
+  "title": "Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "Two new development guidelines added: computing Role Center headlines in background tasks via the RC Headlines Executor, and building client links using GetUrl instead of hardcoded URLs.",
+  "key_points": [
+    "New performance article: loop-based Base App headlines should compute in an OnComputeHeadlines subscriber on codeunit 1441, with results stored per user",
+    "Own HeadlinePart pages have no executor event and should use a page background task",
+    "New style article: links into the running environment's client should come from GetUrl, not a hardcoded host, tenant or environment",
+    "Edge cases follow Learn: unpublished SOAP/OData objects raise a runtime error, and UseFilters can return an empty string",
+    "Both articles ship compiling good and bad samples and are wired into the performance and style review skills"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004532,
+    "changes_in_call": 1
+  }
+}

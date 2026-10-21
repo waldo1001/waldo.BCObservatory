@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcquality-prs/238",
+  "input_hash": "e007fe0e364104f95d30117d70c1ef85eccb97f05365bcebec435a1dad8e474c",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:29.333Z",
+  "issues": [
+    "Documentation-only change with a version bump; 'other' fits better than 'feature'.",
+    "The description only says the five-minute time claim was removed, not that it was misleading."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind other"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026091,
+    "changes_in_call": 6
+  }
+}

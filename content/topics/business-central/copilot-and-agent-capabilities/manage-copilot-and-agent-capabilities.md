@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T12:48:04.649Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -79,6 +79,8 @@ links:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-45-hide-agents-icon--83847372e0
   guidelines: []
+  changes:
+    - change/bcapps/11909
 learn_toc_path:
   - Copilot and agent capabilities
   - Manage Copilot and agent capabilities
@@ -131,10 +133,11 @@ Start with the configuration page. Then read the data movement and Azure OpenAI 
 - [Data movement across geographies for Business Central Copilot and agent capabilities](https://learn.microsoft.com/dynamics365/business-central/ai-copilot-data-movement): Learn how data that's used in copilot features in Dynamics 365 Business Central moves across geographies where Azure OpenAI Service isn't available by default.
 - [Troubleshoot Copilot and agent capabilities](https://learn.microsoft.com/dynamics365/business-central/ai-copilot-troubleshooting): Learn how to fix common issues that you might encounter while working with Copilot and agent capabilities in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#11909 Block guest users from managing Expense Agent](../../../changes/bcapps/11909.md) (code change): "Guest and external administrator access is blocked from Expense Agent configuration changes"
 - [Dynamics 365 Business Central: how many Copilot Credits my Agent consumes?](../../../posts/demiliani-com/13563.md) (community post): "Users can monitor credit consumption directly in Business Central through the Agent page"
 - [Dynamics 365 Business Central (and friends): where does your Copilot prompt go?](../../../posts/demiliani-com/15935.md) (community post): "The Allow data movement toggle appears only when Business Central environment location differs from Copilot processing geography"
 - [Microsoft Copilot in Business Central: What the New Unified Chat Experience Means](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1848764778201254677--3bedc35442.md) (community post): "administrators might have to switch it on from the Copilot & Agent Capabilities page"

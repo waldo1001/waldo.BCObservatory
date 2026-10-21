@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:51.771Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,6 +77,8 @@ links:
   posts:
     - post/thinkaboutit-be/8204
   guidelines: []
+  changes:
+    - change/bcapps/9792
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -188,10 +190,11 @@ The Cartera pages describe handling of bills of exchange and promissory notes. A
 - [SII Invoice Types in Sales and Purchase Documents](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents): Learn how Business Central supports SII and the different invoice and credit memo types used in the Spanish version.
 - [VERIFACTU with external service integration [ES]](https://learn.microsoft.com/dynamics365/business-central/LocalFunctionality/Spain/verifactu-setup): Learn how to set up and use VERI*FACTU in the Spanish version of Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../../../../changes/bcapps/9792.md) (code change): "Peppol BIS 3.0 FR gets a new UBL reader. French SIRET party identifiers written on export"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../../../posts/thinkaboutit-be/8204.md) (community post): "Embedded Verifactu functionality for Spain is now generally available"
 
 ## Business Central pages and reports

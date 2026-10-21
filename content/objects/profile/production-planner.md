@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: c13b8663bf3835b73cb77c183e524f2b768bffe1c565ba21bcf347a6d5354229
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al
     title: src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "PRODUCTION PLANNER" in Base Application (Microsoft.Manufacturing.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Manufacturing Manager" · BC23-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al) · facts from BC29
+Base Application · Microsoft.Manufacturing.RoleCenters · captioned "Manufacturing Manager" · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Manufacturing/RoleCenters/ProductionPlanner.Profile.al) · facts from BC29
 
 ## Properties
 

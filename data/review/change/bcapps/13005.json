@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/13005",
+  "input_hash": "513bcc142fdd4e1409ecc87baa3dd9803b9d84d2f1784ea586b6769f7e420e77",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:36.872Z",
+  "issues": [
+    "Claims about sensitive or confidential data are not supported; the description only says cleanup runs before an environment is copied.",
+    "Key point about preventing data leakage is invented."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025739,
+    "changes_in_call": 6
+  }
+}

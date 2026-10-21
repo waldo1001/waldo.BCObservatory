@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -170,6 +170,7 @@ links:
     - change/bcquality/175
     - change/bcquality/183
     - change/bcquality/196
+    - change/bcquality/237
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -249,6 +250,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine new AL/BC patterns document best practices for document distribution"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Included bad and good AL code samples for each rule to guide developers"
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
+- [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../changes/bcquality/237.md) (code change): "keep business state independent of Job Queue lifetime"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
 - [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../../videos/reUoIdQZaNM.md) (video): "AL architecture; design principles; system design; abstraction levels"

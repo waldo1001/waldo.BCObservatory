@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:17:54.624Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-21T00:46:46.250Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -135,10 +135,12 @@ features:
     verified: false
     status_source: video
   - name: Uninstall apps from Admin Center
-    status: unclear
+    status: ga
     t: 375
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "576815"
 objects_mentioned: []
 quotes:
   - t: 0
@@ -201,7 +203,7 @@ The demo covers updating apps that have dependencies, scheduling updates and ins
 | Installation scheduling options | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:40](https://www.youtube.com/watch?v=22duXC6j_No&t=400s) |
 | App installation from Admin Center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:29](https://www.youtube.com/watch?v=22duXC6j_No&t=389s) |
 | Operations page for installation monitoring | status not stated, demoed | [7:51](https://www.youtube.com/watch?v=22duXC6j_No&t=471s) |
-| Uninstall apps from Admin Center | status not stated, demoed | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |
+| Uninstall apps from Admin Center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:15](https://www.youtube.com/watch?v=22duXC6j_No&t=375s) |
 
 A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 

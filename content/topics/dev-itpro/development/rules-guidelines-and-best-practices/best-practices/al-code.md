@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
     - change/bcquality/161
     - change/bcquality/193
     - change/bcquality/198
+    - change/bcquality/249
     - change/bcquality/65
     - change/bcquality/95
 learn_toc_path:
@@ -141,6 +142,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "Recommended structure follows Base Application's Commit before Page.RunModal pattern"
 - [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../../changes/bcquality/193.md) (code change): "Clarify locale-safe DateFormula Evaluate inputs. Adds a Microsoft Style article"
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
+- [#249 Route guard-dependent and/or conditions to the short-circuit article](../../../../../changes/bcquality/249.md) (code change): "performance review now directs developers to the short-circuit article when guard"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"

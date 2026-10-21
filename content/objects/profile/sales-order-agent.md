@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 0d0776f843d5bfdb759331d38720c4161a4ce9bdbccf18124a4de16934dfcb4f
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al
     title: src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -76,7 +76,7 @@ relations:
 
 > Profile "Sales Order Agent" in SalesOrderAgent (Microsoft.Agent.SalesOrderAgent). Introduced in BC29, still in BC30.
 
-SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · captioned "Sales Order Agent (Copilot)" · BC29-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al) · facts from BC29
+SalesOrderAgent · Microsoft.Agent.SalesOrderAgent · captioned "Sales Order Agent (Copilot)" · BC29-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/SalesOrderAgent/app/src/Profile/SalesOrderAgent.Profile.al) · facts from BC29
 
 ## Properties
 

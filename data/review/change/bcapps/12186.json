@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/12186",
+  "input_hash": "9f097ba096bf841c16b346fd1dafb387c1efae27af61362f19ed43121e299535",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:21.016Z",
+  "issues": [
+    "behavior_change was false, but the description says merged calls that pass RunTrigger now fire OnModify once per row with every field set, instead of once per field. Three of these are outside test code, so this is a behavior change.",
+    "The summary and key points presented the single OnModify run as universal. It applies only where RunTrigger was passed.",
+    "One run of calls was left unmerged because its RunTrigger values disagreed, and the page did not mention it.",
+    "The change touches 309 files, so 'dozens of locations' undercounts it."
+  ],
+  "applied": [
+    "summary rewritten",
+    "key points rewritten",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056374,
+    "changes_in_call": 2
+  }
+}

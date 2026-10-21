@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:05.364Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,7 +69,6 @@ links:
   posts: []
   guidelines: []
   changes:
-    - change/bcapps/11740
     - change/bcapps/12472
     - change/bcapps/9910
 learn_toc_path:
@@ -129,7 +128,6 @@ Start with an overview page for scope. Read the email page if receipts arrive by
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../../changes/bcapps/11740.md) (code change): "Expense Agent Scheduler now calls an existing cleanup function to prevent unbounded growth of task records"
 - [#12472 Expense Agent Default VAT Setup fails in localized companies](../../../../changes/bcapps/12472.md) (code change): "Fixes VAT setup initialization for Expense Agent in localized environments"
 - [#9910 [SOA] Move attachment processing to direct model reading](../../../../changes/bcapps/9910.md) (code change): "Sales Order Agent now processes PDF and image attachments directly with GPT-4.1 mini"
 - [Expense Agent: Feedback (2026 release wave 1)](../../../../videos/6rm45dSB6xg.md) (video): "Expense Agent; Feedback; user experience; issue reporting"

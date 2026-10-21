@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/226",
+  "number": 226,
+  "title": "Performance knowledge: justify low-selectivity fields in key columns",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "New performance guidance for justifying low-selectivity fields in table keys, requiring evidence such as filtered reads or skewed distributions before including Boolean, Option, or status fields in key columns.",
+  "key_points": [
+    "Adds burden-of-proof rule for low-selectivity fields in keys to prevent over-indexing",
+    "Includes bad and good code examples showing a key with unfiltered leading flag being rewritten by ModifyAll",
+    "Requires evidence like equality filters on rare values, SIFT keys, unique combinations, or usage data",
+    "Performance review workflow now checks new or changed keys for Boolean, Option, Enum, or status fields",
+    "Applies to all BC versions with guidance on IncludedFields requirement for runtime 8.0+"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development",
+    "platform"
+  ],
+  "quote": "A low-selectivity or process-mutated key column needs a named read and evidence",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004038,
+    "changes_in_call": 1
+  }
+}

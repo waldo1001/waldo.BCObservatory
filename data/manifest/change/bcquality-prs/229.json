@@ -6,10 +6,35 @@
   "title": "Knowledge: Community Copilot domain (System.AI features) and review skill",
   "url": "https://github.com/microsoft/BCQuality/pull/229",
   "published_at": "2026-10-20T08:48:36Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:30.272Z",
+      "change_class": "code",
+      "files": 19,
+      "al": 16,
+      "objects": 0,
+      "unjoined": 16
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:36.023Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.005113
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:36.025Z",
+      "objects": 0,
+      "unjoined": 16,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:25:36.034Z",
+      "path": "content/changes/bcquality/229.md"
     }
   },
   "input_hash": "fb3b7ebf6f92743b3d4ef24b9b937b8dc6231a75:c1",
@@ -26,5 +51,13 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge community copilot domain system ai features and review skill"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ad6318cd62401d040a7893f288bcd07d8eae4c5bb7ebfc70b9e868234741e75",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:29.333Z"
   }
 }

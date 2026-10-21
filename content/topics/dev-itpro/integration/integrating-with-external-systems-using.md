@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,9 +62,9 @@ links:
     - change/bcapps/12196
     - change/bcapps/12229
     - change/bcapps/12306
+    - change/bcapps/9014
     - change/bcapps/9124
-    - change/bcapps/9426
-    - change/bcapps/9872
+    - change/bcapps/9208
 learn_toc_path:
   - Integration
   - Integrating with external systems using events
@@ -129,9 +129,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled for on-premises"
 - [#12229 #12144 Enable Inbound E-Documents page extensibility](../../../changes/bcapps/12229.md) (code change): "Inbound E-Documents page is made extensible to allow"
 - [#12306 Warn before releasing a purchase order that was already sent electronically](../../../changes/bcapps/12306.md) (code change): "releasing a purchase order that was already electronically sent"
+- [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
-- [#9426 [E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps](../../../changes/bcapps/9426.md) (code change): "Migrate NAV PRs into BCApps. PINT A-NZ and Factura-E e-document formats"
-- [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to 21 Session.LogMessage calls in E-Document"
+- [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Attaching EDocuments when using Digital Vouchers"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
 - [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL"

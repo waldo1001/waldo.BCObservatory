@@ -6,7 +6,7 @@
   "systems_joined": [
     "finance"
   ],
-  "summary": "The Export G/L Entries to XML feature was moved from French localization into a reusable Audit File Export framework, with a new generic visibility interface letting each export format control UI elements on the export document card.",
+  "summary": "Export of G/L entries to XML is rebuilt on the shared Audit File Export framework as a new XML Audit File app (FR), with tests. A new page visibility interface on the Audit File Export Format enum lets each format control which fields and actions show on the Audit File Export Doc. Card.",
   "key_points": [
     "Created Audit File Export Page Visibility interface for formats to control field/action visibility",
     "Refactored FEC page extension to use visibility interface instead of hard-coded toggles",
@@ -14,8 +14,8 @@
     "Included XmlPort, data handling, permission sets, setup pages, and test coverage",
     "Registered new app and test projects in build configuration files"
   ],
-  "change_kind": "refactor",
-  "behavior_change": false,
+  "change_kind": "feature",
+  "behavior_change": true,
   "breaking": false,
   "obsoletions": [],
   "systems": [

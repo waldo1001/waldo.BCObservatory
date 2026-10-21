@@ -1,0 +1,22 @@
+{
+  "item_id": "change/bcquality-prs/225",
+  "input_hash": "ad58c2f9c3a8d5234e8783103d5c28e1931bdc06159a5dcbaca95158860a4f92",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:21.016Z",
+  "issues": [
+    "The page called appending &filter= or &mode= to a GetUrl result an edge case. The description lists these as patterns the review does not flag. The actual edge cases are the runtime error for an unpublished SOAP/OData object and UseFilters returning an empty string.",
+    "The page said GetUrl should be used for all client links. The rule covers only links into the running environment's client; external URLs, fixed endpoints and URLs from setup are excluded."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.056374,
+    "changes_in_call": 2
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.945Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -357,6 +357,7 @@ links:
     - change/bcapps/9453
     - change/bcapps/9949
     - change/bcquality/183
+    - change/bcquality/230
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -457,6 +458,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9453 [Bug 642248] Header/Footer Theme Assignment: persist selected layout (missing Rec.Modify)](../../../../changes/bcapps/9453.md) (code change): "A data-persistence bug on the Header/Footer Theme Assignment page is fixed by adding a missing Rec.Modify() call"
 - [#9949 [Bug 645022] UI improvements for report themes and header/footers (composite layout)](../../../../changes/bcapps/9949.md) (code change): "Composite layout administration pages get UI improvements"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Nine reporting rules and guidance articles have been added to the BCQuality"
+- [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "report layouts and dataset contract, query join and grouping defaults"
 - [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "generates the invoice as a PDF, and fires a business event when ready. Report parameters are extracted as XML"
 - [Composite Layouts in Business Central 29.0: Brand One Report End to End](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-4594837215872264619--a1f1a65db5.md) (community post): "In AL, the Subtype, HeaderFooterPart and ThemePart properties configure this"
 - [Quick Tip: Deep Dive into Report Objects and Layouts @BC TechDays 2025](../../../../posts/thinkaboutit-be/7181.md) (community post): "Reports combine three layers: data dataset, presentation layout, and user input"

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12064
+    - change/bcapps/8874
 learn_toc_path:
   - Integration
   - Connect apps
@@ -134,5 +135,6 @@ The remaining pages support day-to-day API use: filter expressions in OData call
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12064 Support SharePoint paths containing hash and percent characters](../../../changes/bcapps/12064.md) (code change): "SharePoint connector now supports file paths containing hash and percent characters"
+- [#8874 [Field Service Integration] Rounding error on Service Line quantity write-back for Item-type service lines with non-divisible durations](../../../changes/bcapps/8874.md) (code change): "Service line quantities synced from Field Service are now properly rounded"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

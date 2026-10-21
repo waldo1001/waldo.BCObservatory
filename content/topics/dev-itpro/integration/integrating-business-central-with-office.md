@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:05.533Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -153,6 +153,9 @@ links:
     - post/gerardorenteria-blog/12166
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d
   guidelines: []
+  changes:
+    - change/bcapps/8742
+    - change/bcapps/9454
 learn_toc_path:
   - Integration
   - Integrating Business Central with Office apps and Microsoft 365
@@ -215,10 +218,12 @@ Excel and Word pages cover both users and report authors (Edit in Excel, report 
 - [Get the Business Central Add-in for Outlook](https://learn.microsoft.com/dynamics365/business-central/admin-outlook): Learn how to install the Business Central add-in for Outlook for your organization or for your own use.
 - [Integrating with Office apps and Microsoft 365](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/m365-integration-overview): Learn how to integrate Business Central with Office apps and Microsoft 365.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#8742 Enhance SharePoint error handling and add tests](../../../changes/bcapps/8742.md) (code change): "SharePoint error handling now correctly parses OData verbose error responses"
+- [#9454 Fix site scoped contextinfo](../../../changes/bcapps/9454.md) (code change): "SharePoint request-digest calls now correctly target site-scoped URLs"
 - [📅 Exporting ICS (Calendar) Files for Business Central 💡](../../../posts/gerardorenteria-blog/12166.md) (community post): "RFC 5545 ICS calendar files from Business Central, shown on the Customer Card and the Sales Order"
 - [D365 Business Central: How to fix Edit in Excel Add-In Error - The service required to use this feature is turn off. Check your privacy settings.](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-d365-business-central-how-to-fix-add-in-error-the-service-required-to--ef06d9023d.md) (community post): "Edit in Excel allows direct editing of Business Central records in Excel"
 

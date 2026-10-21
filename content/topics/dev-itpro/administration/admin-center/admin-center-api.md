@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: bb0d1e64560b8effb8c0287e3daf60b34965af8a0a2835bf649ea71960b081bb
@@ -151,6 +151,8 @@ links:
     - post/aardvarklabs-blog/4023
     - post/gerardorenteria-blog/11003
   guidelines: []
+  changes:
+    - change/bcapps/13005
 learn_toc_path:
   - Administration
   - Admin center
@@ -193,10 +195,11 @@ Path: [Administration](../../administration.md) > [Admin center](../admin-center
 - [Business Central Administration Center API](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api): Get introduced to the Business Central administration center API.
 - [Business Central Administration Center API MCP Server (preview)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/administration-center-api-mcp): Get introduced to the Business Central Admin Center API MCP Server
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#13005 [Master Data Management] Cleanup when copying environment](../../../../changes/bcapps/13005.md) (code change): "Master Data Management now cleans up sensitive data before environment copying"
 - [Mastering the Business Central Administration API: A Complete Guide for SaaS Admins](../../../../posts/aardvarklabs-blog/3950.md) (community post): "Business Central Administration API enables SaaS admins to automate environment management"
 - [Automate Business Central Extension Deployment with PowerShell and the Admin API](../../../../posts/aardvarklabs-blog/4023.md) (community post): "monitoring installation status through the Admin API"
 - [LLM’s training cut-off dates 👀MCP Server Context7 to the rescue. 🤖](../../../../posts/gerardorenteria-blog/11003.md) (community post): "Business Central Admin Center API for listing dependent apps to uninstall"

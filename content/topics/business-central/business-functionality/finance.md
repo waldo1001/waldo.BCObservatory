@@ -12,7 +12,7 @@ review:
   at: "2026-10-20T08:48:51.538Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -1492,7 +1492,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9311 Withholding Tax for Employee](../../../changes/bcapps/9311.md) (code change): "Withholding tax support for employee transactions has been added"
 - [#9341 [main][Change Request] Page 8901 - Add empty "layout" to the RoleCenter](../../../changes/bcapps/9341.md) (code change): "Empty layout section added to the Finance Manager Role Center"
 - [#9391 [Master] - Slice 616928: [Expense Management] [App part] Expense Managements Travel Requisitions 💸](../../../changes/bcapps/9391.md) (code change): "Expense Management adds travel requisition support: new API pages"
-- [New Application Ideas of Dynamics 365 Business Central (2026 SEP)](../../../posts/gerardorenteria-blog/15469.md) (community post): "covering copilot integration, financial management, localization, inventory"
+- [New Application Ideas of Dynamics 365 Business Central (2026 SEP)](../../../posts/gerardorenteria-blog/15469.md) (community post): "Financial management ideas include native IFRS 15 and IFRS 16 accounting"
 
 ## Business Central pages and reports
 

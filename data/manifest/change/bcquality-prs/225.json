@@ -6,14 +6,39 @@
   "title": "Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl",
   "url": "https://github.com/microsoft/BCQuality/pull/225",
   "published_at": "2026-10-19T10:48:07Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-20T00:20:54.594Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:38.359Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 8,
+      "objects": 0,
+      "unjoined": 8
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:43.440Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004532
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:43.442Z",
+      "objects": 0,
+      "unjoined": 8,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:25:43.449Z",
+      "path": "content/changes/bcquality/225.md"
     }
   },
   "input_hash": "58adc81c8507ea1a27ba227bda643e2384c14acc:c1",
-  "attempts": 2,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 225,
@@ -27,6 +52,12 @@
     "community_contribution": false,
     "title_key": "performance and style knowledge compute role center headlines in the background build client links with geturl"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-20T12:12:25.383Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "a94c6e2fba5fea9721c6a8d2e86a4ec4e22c2f45ddd29d7e70b708219bb80c9f",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:21.016Z"
+  }
 }

@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 070d83ee29e282283d618617edf3b9f4790578c6eb3f176b77c7bcbe7d4a32db
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al
     title: src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Average Cost Entry Point" in Base Application (Microsoft.Inventory.Costing). 6 public procedures. Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Inventory.Costing · BC23-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al) · facts from BC29
+Base Application · Microsoft.Inventory.Costing · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Inventory/Costing/AverageCostEntryPoint.Interface.al) · facts from BC29
 
 ## Procedures
 

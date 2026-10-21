@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:03.450Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -75,7 +75,6 @@ links:
   videos: []
   posts:
     - post/demiliani-com/13215
-    - post/olofsimren-com/3865
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -89,7 +88,7 @@ coverage:
   learn: 6
   code: 2
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 30
@@ -136,7 +135,6 @@ The supply planning subtopic covers reordering policies, item-level planning par
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../../posts/demiliani-com/13215.md) (community post): "upgrade-safe layering in Business Central means extensions survive updates without rework"
-- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../../posts/olofsimren-com/3865.md) (community post): "configuration-driven customizations to scale operations without proportional headcount growth"
 
 ## Business Central pages and reports
 

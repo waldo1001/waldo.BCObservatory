@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -205,24 +205,17 @@ links:
   localizations: []
   videos:
     - video/7SSNcUMFtCw
-    - video/d8SZ81uxj_k
-    - video/IDYhxt-8ImI
-    - video/Ir5BCNHgLm8
-    - video/K8nFVw5M-Po
     - video/lNASlydCidI
-    - video/nbGw2g3KMXI
-    - video/w2P3WskFaCA
   posts:
     - post/aardvarklabs-blog/1609
-    - post/thinkaboutit-be/7414
-    - post/thinkaboutit-be/7486
-    - post/thinkaboutit-be/7660
-    - post/thinkaboutit-be/7877
     - post/thinkaboutit-be/8204
   guidelines: []
   changes:
+    - change/al-go/2413
     - change/bcapps/11073
     - change/bcapps/12428
+    - change/bcquality/155
+    - change/bcquality/229
     - change/bcquality/84
 learn_toc_path:
   - Integration with AI
@@ -234,8 +227,8 @@ children:
 coverage:
   learn: 24
   code: 0
-  video: 8
-  blog: 6
+  video: 2
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -287,22 +280,15 @@ Start with "What are the developer tools for Copilot?" and "What is considered a
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#2413 Only enable automatic Copilot review triggers when opted in](../../../changes/al-go/2413.md) (code change): "Copilot review workflows ship with only manual dispatch triggers by default"
 - [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
+- [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "extended metadata and JSON schemas while keeping implementation"
+- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../changes/bcquality/229.md) (code change): "Copilot development covering System.AI module best practices"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
-- [Looking Back at 2025: What This Year Taught Me](../../../posts/thinkaboutit-be/7414.md) (community post): "using GitHub Copilot effectively, the importance of code structure in AI-assisted development"
-- [Do You Really Need Plan Mode If You Already Use Agents Well?](../../../posts/thinkaboutit-be/7486.md) (community post): "Plan mode actively resisting drift into implementation by enforcing a dedicated research and planning phase"
-- [Where GitHub Copilot Actually Saves Time in AL Projects](../../../posts/thinkaboutit-be/7660.md) (community post): "GitHub Copilot saves time in AL development through deliberate use of Chat, Agent, Ask, and Edit modes"
-- [Quick Tip: GitHub Copilot Billing: Setting the Record Straight](../../../posts/thinkaboutit-be/7877.md) (community post): "GitHub Copilot Billing: Setting the Record Straight"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
-- [290928 - You Are the Art : Notes from Six Years of Becoming a Speaker](../../../videos/d8SZ81uxj_k.md) (video): "AI-assisted talk building with Claude"
-- [20260629 - AI Enabled Delivery for Consultants](../../../videos/IDYhxt-8ImI.md) (video): "AI prompts; requirements analysis; test case generation; solution design"
-- [I Built an AI Course That Writes AL Code With You — Here's What It Looks Like](../../../videos/Ir5BCNHgLm8.md) (video): "ai-assisted coding; claude integration; claude ai pair programming assistant"
-- [Business Central Under the Hood Special Edition: The Future of AL with Vibe Coding](../../../videos/K8nFVw5M-Po.md) (video): "ai-assisted development; agent mode; github copilot; al code generation"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
-- [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "Agent Factory Codeunit; Agent Capability Registration; Agent Creation"
-- [Episode 513: No Windows, No IDE, No Problem: BC Development from the Terminal](../../../videos/w2P3WskFaCA.md) (video): "AI-assisted development in Business Central; Cloud Code AL development workflow"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/237",
+  "input_hash": "667a293d7a568100ecac81156afd988e058a46486aa319271a08f07dad2c11aa",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:29.333Z",
+  "issues": [
+    "The last key point contradicts the description, which says a table extension, FlowField or buffer name alone is not enough evidence for a finding."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026091,
+    "changes_in_call": 6
+  }
+}

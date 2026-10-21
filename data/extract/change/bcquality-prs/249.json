@@ -4,13 +4,13 @@
   "title": "Route guard-dependent and/or conditions to the short-circuit article",
   "repo": "microsoft/BCQuality",
   "systems_joined": [],
-  "summary": "The performance review now directs developers to the short-circuit article when guard conditions use operators like and/or with operands that depend on the guard, such as divisions or field reads that could be unsafe without the guard.",
+  "summary": "The AL performance review skill gains a targeted cue to worklist the boolean-operators-do-not-short-circuit article when an and/or condition joins a guard with an operand that depends on it, such as a division, subscript or field read after Get. The article is also added to the performance override in the review fixtures.",
   "key_points": [
-    "Adds a targeted cue to the performance review to identify guard-dependent and/or conditions",
-    "Routes developers to the boolean-operators-do-not-short-circuit article for patterns that depend on guard evaluation",
-    "Excludes conditions with independently safe operands to keep examples clean",
-    "Improves article selection from 0% to 100% of test cases with the fix",
-    "Validation passes for 292 test cases across review fixtures and contracts"
+    "Adds a cue in al-performance-review.md for guard-dependent and/or conditions",
+    "Conditions whose operands are all independently safe and cheap are excluded",
+    "Review fixtures now use the article's bad and good examples as positive and clean cases",
+    "Demo runs found the issue in 2 of 2 runs versus 0 of 2 before",
+    "Fixture, contract and frontmatter validators pass"
   ],
   "change_kind": "feature",
   "behavior_change": true,

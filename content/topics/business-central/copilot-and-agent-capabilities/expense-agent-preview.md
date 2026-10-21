@@ -12,7 +12,7 @@ review:
   at: "2026-10-06T13:43:32.762Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -124,6 +124,9 @@ links:
   guidelines: []
   changes:
     - change/bcapps/10631
+    - change/bcapps/11740
+    - change/bcapps/12514
+    - change/bcapps/12810
 learn_toc_path:
   - Copilot and agent capabilities
   - Expense Agent (preview)
@@ -188,6 +191,9 @@ Administrators should begin with the setup page. End users can go straight to th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Expense Agent gains policy evaluation tables, pages, enums and APIs"
+- [#11740 Bug 636971: [Expense Agent] EA Scheduler Task table grows unbounded with no cleanup or UI visibility](../../../changes/bcapps/11740.md) (code change): "The Expense Agent now calls an existing cleanup function"
+- [#12514 Revert Expense API test re-enablement and consolidated fixes](../../../changes/bcapps/12514.md) (code change): "Fully reverts the earlier commit that re-enabled Expense API tests"
+- [#12810 ExpenseAgent-CAUS-default-VAT-setup-fails](../../../changes/bcapps/12810.md) (code change): "Fixes the Expense Agent default VAT setup failing"
 - [Quick Tip: What’s in Business Central Update 28.1](../../../posts/thinkaboutit-be/7920.md) (community post): "Expense Agent in public preview, a new Expense Management module"
 - [What's new in Expense Agent: Mobile App ( Preview) (2026 release wave 2)](../../../videos/4TE8uwIi91k.md) (video): "Expense agent; mobile app; receipt scanning; mileage tracking"
 - [Expense Agent: Web App Experience (2026 release wave 1)](../../../videos/ARKckFygbWQ.md) (video): "Expense agent; web app experience; receipt capture; receipt extraction; automatic categorization"

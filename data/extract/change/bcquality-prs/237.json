@@ -1,0 +1,30 @@
+{
+  "item_id": "change/bcquality-prs/237",
+  "number": 237,
+  "title": "knowledge(data-modeling): keep business state independent of Job Queue lifetime",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "A new knowledge article explains how to preserve business state independently of Job Queue lifetime by storing it on business-owned records rather than relying on Job Queue Entry existence as a status indicator. The article includes good and bad code examples and adds discovery logic to the data-modeling review skill.",
+  "key_points": [
+    "Deleting a Job Queue Entry can lose business state when the entry is the only evidence of an unresolved condition",
+    "State that must survive cleanup belongs on the business owner or a domain record with the right lifetime",
+    "Job Queue Entry should run the work and reference the owner record",
+    "Data-modeling review gains discovery cues for existence reads and cleanup paths",
+    "A finding needs an identified business consumer and a deletion path that changes its result; a FlowField or table extension name alone is not enough"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "development"
+  ],
+  "quote": "Store state that must survive execution cleanup on its business owner or a domain record with the required lifetime.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004499,
+    "changes_in_call": 1
+  }
+}

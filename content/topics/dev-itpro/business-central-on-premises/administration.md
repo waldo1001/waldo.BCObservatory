@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -313,6 +313,7 @@ links:
   videos: []
   posts:
     - post/demiliani-com/17480
+    - post/gerardorenteria-blog/13744
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -330,7 +331,7 @@ coverage:
   learn: 38
   code: 3
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 8700
@@ -390,6 +391,7 @@ Start with the Administration Shell or Administration Center to learn how instan
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): "BC 29 supports .NET 10 natively, while BC 27 and 28 are getting cumulative updates"
+- [Cumulative Updates for Business Central – versions](../../../posts/gerardorenteria-blog/13744.md) (community post): "Updates include hotfixes for all countries and localized versions"
 
 ## Business Central pages and reports
 

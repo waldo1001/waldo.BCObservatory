@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:53.440Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -214,15 +214,11 @@ links:
     - change/bcapps/12468
     - change/bcapps/8679
     - change/bcapps/8713
-    - change/bcapps/8871
-    - change/bcapps/9109
-    - change/bcapps/9112
-    - change/bcapps/9146
-    - change/bcapps/9188
-    - change/bcapps/9211
-    - change/bcapps/9316
+    - change/bcapps/9317
+    - change/bcapps/9357
     - change/bcapps/9525
     - change/bcapps/9537
+    - change/bcapps/9581
     - change/bcapps/9959
 learn_toc_path:
   - Business functionality
@@ -345,16 +341,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12468 [Shopify] Clarify VAT Bus. Posting Group tooltip](../../../changes/bcapps/12468.md) (code change): "Shopify Tax Areas page tooltip now clarifies when the VAT business posting group applies"
 - [#8679 [Shopify] Fix missing shop currency mapping on order transactions](../../../changes/bcapps/8679.md) (code change): "Shop currency code mapping on Shopify order transactions was accidentally removed"
 - [#8713 [Shopify] Expose Product facade procedures for Add to Shopify parity](../../../changes/bcapps/8713.md) (code change): "Three new public procedures are added to the Shopify Product facade"
-- [#8871 Issue#7867: Removed the access restriction for procedures in the confirmation window.](../../../changes/bcapps/8871.md) (code change): "The Shopify Add Item Confirm page now allows unrestricted access to its procedures"
-- [#9109 [Shopify] Add Transactions navigation action to Shopify Refund page](../../../changes/bcapps/9109.md) (code change): "Shopify Refund page now includes a Transactions navigation action"
-- [#9112 [Shopify] Skip refund credit memo while transaction is pending](../../../changes/bcapps/9112.md) (code change): "Shopify refund processing now skips credit memo creation when the refund transaction is still pending"
-- [#9146 [Shopify] Fix GraphQL rate limiter under-waiting after elapsed time](../../../changes/bcapps/9146.md) (code change): "Shopify connector's GraphQL rate limiter was waiting incorrectly"
-- [#9188 [Shopify] Create BC customer on order import when Shopify customer has no default address](../../../changes/bcapps/9188.md) (code change): "Shopify connector now handles customer sync when no default address is set"
-- [#9211 [Shopify] Surface skipped records and sent JSONL for bulk price sync](../../../changes/bcapps/9211.md) (code change): "bulk price sync reverts variants that Shopify rejected, the Shopify connector now logs"
-- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../changes/bcapps/9316.md) (code change): "Shopify Connector bug where manually set Sell-to Customer No. was overwritten"
+- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../changes/bcapps/9317.md) (code change): "Shopify Companies list is now accessible from the Shopify navigation group"
+- [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../changes/bcapps/9357.md) (code change): "The Shopify Variants page now includes a Compare at Price field control for personalization"
 - [#9525 [Shopify] Automatic Transaction Posting](../../../changes/bcapps/9525.md) (code change): "Shopify payment transactions can now be automatically posted as general journal lines"
 - [#9537 [Shopify] Store tax lines linked to order shipping charges](../../../changes/bcapps/9537.md) (code change): "Shopify order imports now persist tax lines linked to shipping charges"
-- [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "Sync Catalog Prices report now supports filtering by individual catalogs"
+- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../changes/bcapps/9581.md) (code change): "Shopify Status for Created Products option on the Shop Card"
+- [#9959 [Shopify] Add catalog filters to Sync Catalog Prices report](../../../changes/bcapps/9959.md) (code change): "The Sync Catalog Prices report now supports filtering by individual catalogs"
 - [What's New: Processing of Presentment Currencies in Shopify (2026 release wave 1)](../../../videos/NMO822Jf_4E.md) (video): "Processing of Presentment Currencies in Shopify; multi-currency; price synchronization"
 - [What's New: Shopify Connector (2024 release wave 2)](../../../videos/p-pwG6f5srY.md) (video): "Shopify connector; custom fields; meta fields; product synchronization"
 - [What's New in Shopify Connector: Troubleshoot Synchronization (2025 release wave 2)](../../../videos/StIVhsnOHWY.md) (video): "Shopify connector; troubleshooting; synchronization; job queue"

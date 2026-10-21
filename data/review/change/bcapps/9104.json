@@ -1,0 +1,26 @@
+{
+  "item_id": "change/bcapps-prs/9104",
+  "input_hash": "45f70640614b2be89eb2737f5471a24857c5cfff85d2b2127843207a56b682e4",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:36.872Z",
+  "issues": [
+    "Change adds a new XML Audit File app, a new page visibility interface and a new export format; this is a feature rather than a pure refactor.",
+    "behavior_change should be true: a new export format is available and Doc. Card visibility is now driven per format.",
+    "The new XML Audit File app lives under src/Apps/FR; the summary should not imply it left FR entirely.",
+    "Breaking left false, assuming the enum's new interface has a default implementation (Audit File Page Visibility codeunit exists)."
+  ],
+  "applied": [
+    "summary rewritten",
+    "kind feature",
+    "behaviour change true"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.025739,
+    "changes_in_call": 6
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "item_id": "change/bcapps-prs/12186",
+  "number": 12186,
+  "title": "Set several fields in one ModifyAll call",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "sales",
+    "integration",
+    "development",
+    "purchasing",
+    "service",
+    "inventory",
+    "projects",
+    "administration",
+    "fixed-assets",
+    "manufacturing",
+    "sustainability",
+    "crm",
+    "platform"
+  ],
+  "summary": "Consecutive ModifyAll calls on the same filtered record are merged into a single call that sets several fields, cutting SQL round trips. Where RunTrigger was passed, OnModify now runs once per row with all fields already set instead of once per field.",
+  "key_points": [
+    "Back-to-back ModifyAll calls on the same record are merged into one call",
+    "Field and value expressions are unchanged and keep their order",
+    "With RunTrigger, OnModify runs once per row instead of once per field; three such cases are outside test code",
+    "One run is left unmerged because its calls disagreed on RunTrigger",
+    "Touches about 300 files across W1 apps, localization layers and demo data"
+  ],
+  "change_kind": "performance",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales",
+    "purchasing"
+  ],
+  "quote": "Every place that called ModifyAll repeatedly on the same record with nothing in between now makes a single call.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.014716,
+    "changes_in_call": 1
+  }
+}

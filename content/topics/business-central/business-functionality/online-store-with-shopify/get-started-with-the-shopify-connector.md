@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -53,16 +53,12 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12139
-    - change/bcapps/9221
-    - change/bcapps/9253
     - change/bcapps/9313
+    - change/bcapps/9316
     - change/bcapps/9317
     - change/bcapps/9318
     - change/bcapps/9320
-    - change/bcapps/9321
     - change/bcapps/9327
-    - change/bcapps/9357
-    - change/bcapps/9581
 learn_toc_path:
   - Business functionality
   - Online store with Shopify
@@ -118,16 +114,12 @@ Start with "Getting started with the connector for Shopify" to learn how to conn
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12139 [Shopify] Disable Create Sales Documents for empty order views](../../../../changes/bcapps/12139.md) (code change): "Create Sales Documents action on the Shopify Orders page is now disabled"
-- [#9221 [Shopify] Uptake Admin GraphQL API to version 2026-07](../../../../changes/bcapps/9221.md) (code change): "Updated API version from 2026-01 to 2026-07 following Shopify's deprecation schedule"
-- [#9253 [Shopify] Disambiguate Shopify timestamp field captions and tooltips](../../../../changes/bcapps/9253.md) (code change): "Shopify timestamp field captions and tooltips are now clearly marked with a (Shopify) suffix"
-- [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../../changes/bcapps/9313.md) (code change): "RetrieveShopifyVariant now returns true when the Shopify variant exists"
-- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../../changes/bcapps/9317.md) (code change): "The Shopify Companies list is now accessible from the Shopify navigation group"
-- [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../../changes/bcapps/9318.md) (code change): "Get Catalogs action on the Shopify Catalogs page now displays a clearer tooltip"
-- [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../../changes/bcapps/9320.md) (code change): "Shopify connector now imports harmonized system codes and country of origin"
-- [#9321 [Shopify] Add Unlisted product status](../../../../changes/bcapps/9321.md) (code change): "Shopify Connector's product status enum now includes the Unlisted value"
-- [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "Shopify Connector now supports Shopify's expiring offline access tokens"
-- [#9357 [Shopify] Add Compare-at Price field to Shopify Variants page for personalization](../../../../changes/bcapps/9357.md) (code change): "Shopify Variants page now includes a Compare at Price field control"
-- [#9581 [Shopify] Add Unlisted to Status for Created Products and update status tooltip](../../../../changes/bcapps/9581.md) (code change): "Updated Status field tooltip to include Unlisted alongside Active, Archived"
+- [#9313 [Shopify] Fix Product Sync deleting mapped variants on stale Updated At timestamp](../../../../changes/bcapps/9313.md) (code change): "Fix Product Sync deleting mapped variants on stale Updated At timestamp"
+- [#9316 [Shopify] Preserve manually set Sell-to Customer No. when Bill-to mapping fails](../../../../changes/bcapps/9316.md) (code change): "Shopify Connector bug where manually set Sell-to Customer No. was overwritten"
+- [#9317 [Shopify] Add Companies to Shopify navigation menu](../../../../changes/bcapps/9317.md) (code change): "Companies action added to Shopify navigation menu in three role centers"
+- [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../../changes/bcapps/9318.md) (code change): "Fix Get Catalogs tooltip to explain company dependency"
+- [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../../changes/bcapps/9320.md) (code change): "Import HS code and country of origin from Shopify"
+- [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation"
 - [Understanding the Sign Up Context and Using it for Profiling Customers](../../../../videos/88s0QjsaCUQ.md) (video): "sign up context; customer profiling; onboarding experience; app provisioning"
 
 ## Business Central pages and reports

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12943",
+  "input_hash": "a90afebeeec1b0134d2efe5dd3e76ddde53a205c6e91ab6459fb92e5e1a9ca5b",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:29.333Z",
+  "issues": [
+    "Key point calls AngivelseFristKalenderFristDato 'required'; the description only calls BetalingDato optional.",
+    "'Rewrote' overstates modest edits to the two codeunits; 'date mismatches' is inferred from a test file name.",
+    "Test XMLs were derived from official SKAT documentation and samples, not copied official examples."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026091,
+    "changes_in_call": 6
+  }
+}

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:58.086Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -627,7 +627,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9783 [Master] Purchase Return Order Posting Fails for Manually Reserved Lot-Tracked Items with Exact Cost Reversing Mandatory Enabled: "Applies-to Entry must not be filled out when reservations exist in Item Ledger Entry Entry No.='XXX'"](../../../changes/bcapps/9783.md) (code change): "Purchase return order posting now correctly handles manually reserved lot-tracked items"
 - [#9863 [Extensibility Request] issue 29074: expose PurchLineQty in OnSumPurchLines2OnBeforeDivideAmount](../../../changes/bcapps/9863.md) (code change): "The OnSumPurchLines2OnBeforeDivideAmount event now exposes the PurchLineQty parameter"
 - [#9947 Allow long localized sales and purchase line type captions](../../../changes/bcapps/9947.md) (code change): "Sales and purchase document subforms no longer fail when a localized line type caption is longer than 20 characters"
-- [#9954 Restoring undefined action. (Purchase Orders page can't be open in latest `main`)](../../../changes/bcapps/9954.md) (code change): "Purchase Orders page can't be open in latest main"
+- [#9954 Restoring undefined action. (Purchase Orders page can't be open in latest `main`)](../../../changes/bcapps/9954.md) (code change): "An earlier change emptied the body of an E-Document action."
 - [#9962 [Extensibility Request] issue 30383: add purchase line transfer event](../../../changes/bcapps/9962.md) (code change): "add purchase line transfer event"
 - [#9985 [Master]-For an Item of 'Type' Service or Non-Inventory we allow you to increase the Quantity of the Corrective Credit Memo which then if posted updates the Purchase Order with a negative Received and Invoiced values](../../../changes/bcapps/9985.md) (code change): "Fixes corrective credit memos from posted purchase invoices with Service or Non-Inventory lines"
 - [Create Purchase Quotes for Contacts in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-6099911235084496190--4c366f79d5.md) (community post): "Creating purchase quotes in Business Central now allows selecting contacts"

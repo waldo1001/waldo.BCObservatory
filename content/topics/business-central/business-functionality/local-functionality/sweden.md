@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:53.826Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -139,7 +139,7 @@ Start with the Sweden Local Functionality page for the overall picture. Then go 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [#8646 [PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007](../../../../changes/bcapps/8646.md) (code change): "Swedish organisation numbers stripped to 10 digits when scheme 0007 is used"
+- [#8646 [PEPPOL] Add PEPPOL SE localization: Swedish organisation number for endpoints under scheme 0007](../../../../changes/bcapps/8646.md) (code change): "A Swedish PEPPOL localization app normalizes Swedish organisation numbers"
 
 ## Business Central pages and reports
 

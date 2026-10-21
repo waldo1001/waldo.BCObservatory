@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:41:34.593Z"
+  at: "2026-10-21T00:40:39.296Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 36025d3bf36cf11571ff699b9b762a45a351acd37c7c803ad8c2bddfeaca6434
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/System%20Application/App/Feature%20Key/src/FeatureManagement.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Feature%20Key/src/FeatureManagement.Interface.al
     title: src/System Application/App/Feature Key/src/FeatureManagement.Interface.al (releases/29.x)
     date: null
-    commit: 1b45ce4e7cde927898c95d577ee9267e50f14d9b
+    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Feature Management" in System Application (System.Environment.Configuration). 4 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Environment.Configuration · BC23-30 · [source at 1b45ce4e](https://github.com/microsoft/BCApps/blob/1b45ce4e7cde927898c95d577ee9267e50f14d9b/src/System%20Application/App/Feature%20Key/src/FeatureManagement.Interface.al) · facts from BC29
+System Application · System.Environment.Configuration · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Feature%20Key/src/FeatureManagement.Interface.al) · facts from BC29
 
 ## Procedures
 

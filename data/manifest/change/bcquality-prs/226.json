@@ -6,10 +6,35 @@
   "title": "Performance knowledge: justify low-selectivity fields in key columns",
   "url": "https://github.com/microsoft/BCQuality/pull/226",
   "published_at": "2026-10-20T08:53:24Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:28.286Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:33.449Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004038
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:33.450Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:25:33.454Z",
+      "path": "content/changes/bcquality/226.md"
     }
   },
   "input_hash": "10a6cd3f32fa63d5aa0e02d8fff0cd081d25670c:c1",
@@ -26,5 +51,13 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "performance knowledge justify low selectivity fields in key columns"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "87df41bf2f041196f3b3c1107c921cbae8795ce88902e897f944106ea793dcb3",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:29.333Z"
   }
 }

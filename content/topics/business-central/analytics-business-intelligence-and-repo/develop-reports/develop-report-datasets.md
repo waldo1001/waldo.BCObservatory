@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:28.466Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,6 +44,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/230
 learn_toc_path:
   - Analytics, business intelligence, and reporting
   - Develop reports
@@ -90,5 +92,11 @@ Then read Performance Articles for AL Developers. It covers efficient page desig
 
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 - [Reports overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports): Use reports to display information from database to structure and summarize information and print documents, such as invoices.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../../../../changes/bcquality/230.md) (code change): "Report dataset column names are a contract with Excel Data sheets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

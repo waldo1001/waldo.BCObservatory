@@ -6,10 +6,35 @@
   "title": "knowledge(data-modeling): keep business state independent of Job Queue lifetime",
   "url": "https://github.com/microsoft/BCQuality/pull/237",
   "published_at": "2026-10-20T08:52:14Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:25:29.258Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-21T00:25:35.178Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.004499
+    },
+    "linked": {
+      "at": "2026-10-21T00:25:35.180Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:25:35.187Z",
+      "path": "content/changes/bcquality/237.md"
     }
   },
   "input_hash": "c3f4895ca4de6f08124eab02658adfd2a67fbf15:c1",
@@ -26,5 +51,13 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "knowledge data modeling keep business state independent of job queue lifetime"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "fc991c3ad88e91d7d28b76e6ee6a2744450045a07b01298283d087bc765501d5",
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-21T00:48:29.333Z"
   }
 }

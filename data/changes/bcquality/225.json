@@ -1,0 +1,140 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 225,
+  "repo": "microsoft/BCQuality",
+  "source": "bcquality-prs",
+  "url": "https://github.com/microsoft/BCQuality/pull/225",
+  "base": "main",
+  "major": null,
+  "merged_at": "2026-10-19T10:48:07Z",
+  "merge_commit_sha": "58adc81c8507ea1a27ba227bda643e2384c14acc",
+  "author": "MichaelDieringer",
+  "author_type": "User",
+  "labels": [],
+  "community_contribution": false,
+  "title": "Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl",
+  "body_hash": "8bb0de26c61ede8d2e3a448abe9b93db9e1129ece014f85f06d9ea8b34db6a07",
+  "fixes_issues": [],
+  "work_items": [],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "evaluation/review-fixtures.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "class": "other"
+    },
+    {
+      "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.bad.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.good.al",
+      "status": "added",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/build-client-links-with-geturl.bad.al",
+      "status": "added",
+      "additions": 11,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/build-client-links-with-geturl.good.al",
+      "status": "added",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/knowledge/style/build-client-links-with-geturl.md",
+      "status": "added",
+      "additions": 40,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-performance-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "microsoft/skills/review/al-style-review.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 9,
+    "additions": 271,
+    "deletions": 4,
+    "al": 8
+  },
+  "join": {
+    "major": null,
+    "commit": null,
+    "objects": [],
+    "unjoined": [
+      {
+        "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/performance/compute-role-center-headlines-in-the-background.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/build-client-links-with-geturl.bad.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/build-client-links-with-geturl.good.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/knowledge/style/build-client-links-with-geturl.md",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-performance-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "microsoft/skills/review/al-style-review.md",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [],
+  "apps": []
+}

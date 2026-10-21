@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:50.803Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,6 +110,8 @@ links:
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
   guidelines: []
+  changes:
+    - change/bcquality/226
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -162,10 +164,11 @@ This section deals with two ways to speed up sum calculations on large tables, w
 - [SumIndexField Technology (SIFT)](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-technology): Provides an introduction to SIFT indexes in Business Central.
 - [Tuning and Tracing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-sift-tuning-and-tracing): Explains how to tune and trace SIFT indexes in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#226 Performance knowledge: justify low-selectivity fields in key columns](../../../../../changes/bcquality/226.md) (code change): "low-selectivity fields in table keys requiring evidence such as filtered reads"
 - [Dynamics 365 Business Central: use sequential GUIDs when possible.](../../../../../posts/demiliani-com/12836.md) (community post): "Sequential GUIDs insert data in order, keeping related records clustered"
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../../../posts/duiliotacconi-com/1983.md) (community post): "Removing unused indexes can speed up writes, and enabling needed ones can speed up reads"
 - [Debunking Myths related to Table Structure in Dynamics 365 Business Central 2026 Wave 2](../../../../../posts/duiliotacconi-com/2201.md) (community post): "The 8KB SQL Server limit applies only to primitive data types"

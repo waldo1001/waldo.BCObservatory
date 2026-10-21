@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/229",
+  "input_hash": "a2df24b788bde7977adbb08e782ad668512ad8ca4f244f1a8a9b4d9a1f4a97a7",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-21T00:48:29.333Z",
+  "issues": [
+    "In the description, deterministic ranking is a validation result, not a feature of the integration."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026091,
+    "changes_in_call": 6
+  }
+}

@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 93 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 101 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:10:49.229Z"
+  at: "2026-10-21T00:19:55.996Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: ccbf9d77c1a3b509323a16de7b8f5e025e88110417a20f57f91a9856775fac9a
+  input_hash: 8a001a54befd56b300af11101445926ff407d2aaf85d793d7b94965f47193587
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -126,23 +126,31 @@ links:
     - change/bcquality/208
     - change/bcquality/214
     - change/bcquality/231
+    - change/bcquality/225
     - change/bcquality/223
     - change/bcquality/230
+    - change/bcquality/155
+    - change/bcquality/229
+    - change/bcquality/237
+    - change/bcquality/226
+    - change/bcquality/238
+    - change/bcquality/246
+    - change/bcquality/249
 source_id: bcquality-prs
 kind: github-pr
 url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 93
+item_count: 101
 footprint:
   systems:
     - id: development
-      weight: 168
+      weight: 182
     - id: platform
-      weight: 23
+      weight: 25
     - id: copilot
-      weight: 10
+      weight: 16
     - id: administration
       weight: 8
     - id: reporting
@@ -151,13 +159,13 @@ footprint:
       weight: 4
   topics:
     - id: main
-      weight: 93
+      weight: 101
     - id: feature
-      weight: 54
+      weight: 61
     - id: fix
       weight: 23
     - id: other
-      weight: 11
+      weight: 12
     - id: refactor
       weight: 5
   objects: []
@@ -168,7 +176,7 @@ last_item: "2026-10-20"
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 93 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 101 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -176,10 +184,10 @@ last_item: "2026-10-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (168) | main (93) |  |
-| platform (23) | feature (54) |  |
-| copilot (10) | fix (23) |  |
-| administration (8) | other (11) |  |
+| development (182) | main (101) |  |
+| platform (25) | feature (61) |  |
+| copilot (16) | fix (23) |  |
+| administration (8) | other (12) |  |
 | reporting (5) | refactor (5) |  |
 | integration (4) |  |  |
 
@@ -188,12 +196,20 @@ last_item: "2026-10-20"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: **************** 16
+- 2026-Q4: ************************ 24
 
 ## Most recent
 
+- [#249 Route guard-dependent and/or conditions to the short-circuit article](../changes/bcquality/249.md) (2026-10-20)
+- [#246 Expose plan guidance as a preview plugin skill](../changes/bcquality/246.md) (2026-10-20)
+- [#238 Improve first-run documentation for new developers](../changes/bcquality/238.md) (2026-10-20)
+- [#226 Performance knowledge: justify low-selectivity fields in key columns](../changes/bcquality/226.md) (2026-10-20)
+- [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../changes/bcquality/237.md) (2026-10-20)
+- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../changes/bcquality/229.md) (2026-10-20)
+- [#155 Add read-only AL development plan guidance](../changes/bcquality/155.md) (2026-10-20)
 - [#230 Knowledge: report layouts and dataset contract, query join and grouping defaults](../changes/bcquality/230.md) (2026-10-20)
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../changes/bcquality/223.md) (2026-10-19)
+- [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../changes/bcquality/225.md) (2026-10-19)
 - [#231 al-agents-review: derive the target BC version from app.json](../changes/bcquality/231.md) (2026-10-19)
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../changes/bcquality/214.md) (2026-10-06)
 - [#208 2 AL/BC patterns: TableRelation field length and RecordRef.Open Temp parameter](../changes/bcquality/208.md) (2026-10-06)
@@ -204,13 +220,5 @@ Items per quarter, oldest first:
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../changes/bcquality/209.md) (2026-10-05)
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../changes/bcquality/216.md) (2026-10-05)
 - [#205 Preserve business filters when recommending Record.Get](../changes/bcquality/205.md) (2026-10-02)
-- [#210 knowledge(upgrade): upgrade code must not use ChangeCompany](../changes/bcquality/210.md) (2026-10-02)
-- [#204 Validate composed reviews against the expected leaf worklist](../changes/bcquality/204.md) (2026-10-02)
-- [#207 2 AL/BC UI patterns: client-expression in-list (AL0573) and Role Center AccessByPermission](../changes/bcquality/207.md) (2026-10-02)
-- [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../changes/bcquality/203.md) (2026-10-02)
-- [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../changes/bcquality/175.md) (2026-09-30)
-- [#202 Restore deterministic review fixture coverage](../changes/bcquality/202.md) (2026-09-29)
-- [#198 Add BC performance knowledge from OptimAL learnings](../changes/bcquality/198.md) (2026-09-29)
-- [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../changes/bcquality/161.md) (2026-09-29)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

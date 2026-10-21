@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:22.231Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,6 +74,7 @@ links:
   guidelines: []
   changes:
     - change/bcapps/12135
+    - change/bcapps/12813
 learn_toc_path:
   - Business functionality
   - Local functionality
@@ -139,6 +140,7 @@ The pages are independent task guides. Start with Making Tax Digital - Submittin
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12135 Fix Reverse Charge VAT upgrade migration](../../../../../changes/bcapps/12135.md) (code change): "Reverse Charge VAT upgrade migration to properly transfer legacy values"
+- [#12813 [GB] Fix reverse charge VAT sales posting](../../../../../changes/bcapps/12813.md) (code change): "GB reverse-charge VAT sales posting now correctly handles zero-quantity lines"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:04.783Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -61,7 +61,6 @@ links:
   localizations: []
   videos:
     - video/_JkZCp64jNw
-    - video/0h8QBNmeORQ
     - video/1ht5nxubZ9c
     - video/2ujWYYecA2c
     - video/4nFViDASGhg
@@ -74,11 +73,9 @@ links:
     - video/XhO4oFmoh1M
   posts:
     - post/demiliani-com/11739
-    - post/thinkaboutit-be/8022
   guidelines: []
   changes:
     - change/bcapps/10631
-    - change/bcapps/12552
 learn_toc_path:
   - Copilot and agent capabilities
   - Sales Order Agent
@@ -88,8 +85,8 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 12
-  blog: 2
+  video: 11
+  blog: 1
   guideline: 0
 bc_forms:
   - 4400
@@ -135,11 +132,8 @@ Start with the overview to understand the scope, then follow the setup page to a
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10631 Integration/main to releases 29.x 31a860b5](../../../changes/bcapps/10631.md) (code change): "Sales Order Agent, Shopify, Sustainability, Withholding Tax and Excel Reports apps are modified"
-- [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "validating the No. field on a sales order with a linked released production order"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../posts/demiliani-com/11739.md) (community post): "The Sales Order Agent in 2025 Wave 1 reads customer emails, clarifies missing details"
-- [Quick Tip: What’s in Business Central Update 28.3](../../../posts/thinkaboutit-be/8022.md) (community post): "Sales Order Agent reaches General Availability with multiple agent support per company"
 - [Business Central Launch Event 2025 Release Wave 1 - Recording of Live Opening](../../../videos/_JkZCp64jNw.md) (video): "Sales Order Agent; Sales Order Agent Item Availability Feature; Sales Order Agent Email Insights"
-- [Microsoft Sizzle: Business Central Agents In Action](../../../videos/0h8QBNmeORQ.md) (video): "Sales Order Agent; Payables Agent; Custom Agents Framework"
 - [Sales Order Agent - Working with a Personal or Shared Folder (2026)](../../../videos/1ht5nxubZ9c.md) (video): "Sales Order Agent; outlook folder configuration; email account setup"
 - [Getting Started With Agents: Set Up Sales Order Agent - New 'Try it out' experience (2026)](../../../videos/2ujWYYecA2c.md) (video): "Sales Order Agent; Try It Out Experience; Email Attachment Detection"
 - [What's New: Sales Order Agent Enhancements (2025 release wave 2)](../../../videos/4nFViDASGhg.md) (video): "sales order agent; email processing; attachment analysis; custom instructions"

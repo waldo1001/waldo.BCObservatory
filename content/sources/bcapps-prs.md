@@ -2,7 +2,7 @@
 id: source/bcapps-prs
 type: source
 title: microsoft/BCApps pull requests
-summary: "microsoft/BCApps pull requests: 1059 code changes in the knowledge base, 2026-07-07 to 2026-10-19, mostly about development, finance, integration."
+summary: "microsoft/BCApps pull requests: 1064 code changes in the knowledge base, 2026-07-07 to 2026-10-20, mostly about development, finance, integration."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:10:49.229Z"
+  at: "2026-10-21T00:19:55.996Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 4a47a4f16aa978cf3004ef53984aba63a824ba3bd3ebafe90616b8c1b2da553a
+  input_hash: 831226c7eb63e7355e9a34f8eabdc66b65a4b9508bebb4ffcec4c68c2d885e95
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
@@ -1093,37 +1093,42 @@ links:
     - change/bcapps/12443
     - change/bcapps/11998
     - change/bcapps/12552
+    - change/bcapps/12186
     - change/bcapps/12846
+    - change/bcapps/12943
+    - change/bcapps/13005
+    - change/bcapps/12813
+    - change/bcapps/9104
 source_id: bcapps-prs
 kind: github-pr
 url: https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 1059
+item_count: 1064
 footprint:
   systems:
     - id: development
-      weight: 603
+      weight: 604
     - id: finance
-      weight: 400
+      weight: 407
     - id: integration
-      weight: 359
+      weight: 362
     - id: inventory
-      weight: 182
+      weight: 183
     - id: sales
-      weight: 169
+      weight: 172
     - id: manufacturing
-      weight: 168
+      weight: 169
   topics:
     - id: bc30
-      weight: 996
+      weight: 1001
     - id: main
-      weight: 996
+      weight: 1001
     - id: fix
-      weight: 641
+      weight: 643
     - id: feature
-      weight: 313
+      weight: 315
     - id: bc29
       weight: 63
     - id: releases/29.x
@@ -1131,7 +1136,7 @@ footprint:
     - id: refactor
       weight: 43
     - id: performance
-      weight: 30
+      weight: 31
     - id: codeunit gen. jnl.-post line
       weight: 21
     - id: other
@@ -1148,7 +1153,7 @@ footprint:
     - id: codeunit Item Jnl.-Post Line
       weight: 13
     - id: table Sales Line
-      weight: 12
+      weight: 13
     - id: codeunit Expense Report Approval Mgmt
       weight: 11
     - id: page Expense Agent Setup
@@ -1163,12 +1168,12 @@ footprint:
       weight: 11
   features: []
 first_item: "2026-07-07"
-last_item: "2026-10-19"
+last_item: "2026-10-20"
 ---
 
 # microsoft/BCApps pull requests
 
-> microsoft/BCApps pull requests: 1059 code changes in the knowledge base, 2026-07-07 to 2026-10-19, mostly about development, finance, integration.
+> microsoft/BCApps pull requests: 1064 code changes in the knowledge base, 2026-07-07 to 2026-10-20, mostly about development, finance, integration.
 
 [https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCApps/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -1176,14 +1181,14 @@ last_item: "2026-10-19"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (603) | bc30 (996) | codeunit Gen. Jnl.-Post Line (24) |
-| finance (400) | main (996) | table Expense Report Header (16) |
-| integration (359) | fix (641) | page Expense Agent Setup Wizard (14) |
-| inventory (182) | feature (313) | table Purchase Line (14) |
-| sales (169) | bc29 (63) | codeunit Item Jnl.-Post Line (13) |
-| manufacturing (168) | releases/29.x (63) | table Sales Line (12) |
+| development (604) | bc30 (1001) | codeunit Gen. Jnl.-Post Line (24) |
+| finance (407) | main (1001) | table Expense Report Header (16) |
+| integration (362) | fix (643) | page Expense Agent Setup Wizard (14) |
+| inventory (183) | feature (315) | table Purchase Line (14) |
+| sales (172) | bc29 (63) | codeunit Item Jnl.-Post Line (13) |
+| manufacturing (169) | releases/29.x (63) | table Sales Line (13) |
 |  | refactor (43) | codeunit Expense Report Approval Mgmt (11) |
-|  | performance (30) | page Expense Agent Setup (11) |
+|  | performance (31) | page Expense Agent Setup (11) |
 |  | codeunit gen. jnl.-post line (21) | page Expense Report (11) |
 |  | other (17) | permissionset Expense Agent - Objects (11) |
 |  |  | permissionset Expense Management - Objects (11) |
@@ -1194,11 +1199,16 @@ last_item: "2026-10-19"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 882
-- 2026-Q4: **************************************** 177
+- 2026-Q4: **************************************** 182
 
 ## Most recent
 
+- [#9104 Delocalize Export G/L Entries to XML into Audit File Export framework](../changes/bcapps/9104.md) (2026-10-20)
+- [#12813 [GB] Fix reverse charge VAT sales posting](../changes/bcapps/12813.md) (2026-10-20)
+- [#13005 [Master Data Management] Cleanup when copying environment](../changes/bcapps/13005.md) (2026-10-20)
+- [#12943 DK VAT Return Periods regression fix for frequency-aware parsing](../changes/bcapps/12943.md) (2026-10-20)
 - [#12846 [main] bug 652274 - [CZ] Add the Country/Region of Origin Code field to a document line](../changes/bcapps/12846.md) (2026-10-19)
+- [#12186 Set several fields in one ModifyAll call](../changes/bcapps/12186.md) (2026-10-19)
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../changes/bcapps/12552.md) (2026-10-19)
 - [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](../changes/bcapps/11998.md) (2026-10-19)
 - [#12443 Renumber SII objects for ES](../changes/bcapps/12443.md) (2026-10-19)
@@ -1213,10 +1223,5 @@ Items per quarter, oldest first:
 - [#12809 Bugs/bug 654102 main]purch order vendor change automatically applied to next order](../changes/bcapps/12809.md) (2026-10-16)
 - [#12806 [main] Closing the BC browser tab during quote-to-order reservation leaves a partial sales order and the source quote](../changes/bcapps/12806.md) (2026-10-16)
 - [#12551 [Main]- Since Business Central 28.4, we have observed changed behaviour when the VAT Prod.](../changes/bcapps/12551.md) (2026-10-15)
-- [#12857 [master]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.](../changes/bcapps/12857.md) (2026-10-15)
-- [#12322 [QM] Destination bin code is now visible and usable for the user](../changes/bcapps/12322.md) (2026-10-15)
-- [#10575 Calculate Inventory: scope Default Dimension reads by source table](../changes/bcapps/10575.md) (2026-10-15)
-- [#12468 [Shopify] Clarify VAT Bus. Posting Group tooltip](../changes/bcapps/12468.md) (2026-10-15)
-- [#12575 [Backport 29.x] E-Documents supported type direction configuration](../changes/bcapps/12575.md) (2026-10-15)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

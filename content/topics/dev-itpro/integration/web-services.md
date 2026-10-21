@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:13:54.202Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -318,14 +318,10 @@ links:
     - topic/dev-itpro/integration/web-services/soap
   localizations: []
   videos:
-    - video/qNHUj3ZEang
     - video/S5Xw-b8YF-c
     - video/sk5CaXnvvng
     - video/VpNQ-CYNrkM
-  posts:
-    - post/aardvarklabs-blog/2678
-    - post/aardvarklabs-blog/2812
-    - post/demiliani-com/11796
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/11096
@@ -334,8 +330,7 @@ links:
     - change/bcapps/12133
     - change/bcapps/12324
     - change/bcapps/12326
-    - change/bcapps/9711
-    - change/bcapps/9737
+    - change/bcapps/9914
     - change/bcquality/100
 learn_toc_path:
   - Integration
@@ -351,8 +346,8 @@ children:
 coverage:
   learn: 294
   code: 1
-  video: 4
-  blog: 3
+  video: 3
+  blog: 0
   guideline: 0
 bc_forms:
   - 812
@@ -412,13 +407,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12133 Block file scheme in Web Request Helper](../../../changes/bcapps/12133.md) (code change): "Web Request Helper now rejects file:// URLs before creating HTTP requests"
 - [#12324 Obsolete Http Web Request Mgt. usage in public API (webhooks, OData)](../../../changes/bcapps/12324.md) (code change): "Http Web Request Mgt usage is removed from webhook and OData"
 - [#12326 Migrate Doc. Exchange and OCR service callers off Http Web Request Mgt.](../../../changes/bcapps/12326.md) (code change): "Document Exchange and OCR service codeunits migrate from DotNet"
-- [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
-- [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs from translatable AL labels"
-- [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Adds guidance and code samples for linking API parts on SystemId with Multiplicity set"
-- [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "useful for API handling"
-- [Advanced JSON Management for Business Central Developers](../../../posts/aardvarklabs-blog/2812.md) (community post): "SaaS-safe operations for cloud deployments"
-- [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../posts/demiliani-com/11796.md) (community post): "Handling secrets securely in JSON objects for API integrations in Business Central"
-- [What's Cooking in Business Central: Cookies and Collectible Errors in the REST Client](../../../videos/qNHUj3ZEang.md) (video): "REST Client; cookies; http requests; al development"
+- [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../changes/bcapps/9914.md) (code change): "The Vendor Payments API now returns all payment lines in a batch, including unapplied payments"
+- [#100 Add P0 integration and control add-in runtime guidance](../../../changes/bcquality/100.md) (code change): "Guidance and AL samples for linking API parts on SystemId and setting Multiplicity."
 - [What's New: APIs in E-Documents (2025 release wave 2)](../../../videos/S5Xw-b8YF-c.md) (video): "E-Documents APIs; E-Document Business Events; Create E-Document"
 - [What's New: Server and Database - More Stable Web Services (2023 release wave 2)](../../../videos/sk5CaXnvvng.md) (video): "Web services; odata; http status codes; error handling"
 - [What's New: Web Services in Business Central (2024 release wave 1)](../../../videos/VpNQ-CYNrkM.md) (video): "Web Services in Business Central; OData; API performance; web service"

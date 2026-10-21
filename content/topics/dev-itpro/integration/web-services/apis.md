@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -352,7 +352,7 @@ links:
     - change/bcapps/12606
     - change/bcapps/12694
     - change/bcapps/9194
-    - change/bcapps/9914
+    - change/bcquality/149
 learn_toc_path:
   - Integration
   - Web services
@@ -418,8 +418,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11741 [MCP] Add company and environment descriptions](../../../../changes/bcapps/11741.md) (code change): "Company and environment descriptions are now stored and exposed via APIs to provide richer context for MCP and other consumers"
 - [#12606 Obsolete Http Web Request Mgt. codeunit](../../../../changes/bcapps/12606.md) (code change): "directing developers to use native HttpClient and related message classes"
 - [#12694 Allow API tests to issue local HTTP requests](../../../../changes/bcapps/12694.md) (code change): "API tests can now issue local HTTP requests by declaring explicit test HTTP request policies"
-- [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "New admin page shows all available APIs from all publishers"
-- [#9914 [APIV2] Return unapplied lines from the Vendor Payments API](../../../../changes/bcapps/9914.md) (code change): "Vendor Payments API now returns all payment lines in a batch"
+- [#9194 Add API Overview page (page 812)](../../../../changes/bcapps/9194.md) (code change): "A new admin page shows all available APIs"
+- [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"

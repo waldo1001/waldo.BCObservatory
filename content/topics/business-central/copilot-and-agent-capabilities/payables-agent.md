@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:32.692Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -78,6 +78,8 @@ links:
     - post/demiliani-com/12076
     - post/thinkaboutit-be/7496
   guidelines: []
+  changes:
+    - change/bcapps/9572
 learn_toc_path:
   - Copilot and agent capabilities
   - Payables Agent
@@ -132,10 +134,11 @@ Start with the overview to understand the workflow, then follow the setup page. 
 - [Set Up Payables Agent in Business Central](https://learn.microsoft.com/dynamics365/business-central/payables-agent-setup): Payables Agent lets you automate vendor invoice processing in Business Central. Follow these steps to activate, configure, and manage user access.
 - [Supervise Agent Activities in Business Central](https://learn.microsoft.com/dynamics365/business-central/supervise-agent-tasks): Review agent-generated documents, approve AI suggestions, give instructions to agents, and manage tasks in Business Central.
 
-## Videos and posts
+## Videos, posts and code changes
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [#9572 Obsolete E-Document Purchase Order Matching Copilot](../../../changes/bcapps/9572.md) (code change): "E-Document Purchase Order Matching Copilot objects are marked obsolete"
 - [Dynamics 365 Business Central: introducing the Payables Agent.](../../../posts/demiliani-com/12076.md) (community post): "Payables Agent in Business Central; automates accounts payable tasks by sourcing vendor invoices"
 - [Quick Tip: Business Central Update 27.3 – What’s New](../../../posts/thinkaboutit-be/7496.md) (community post): "Payables Agent now matches purchase invoices to orders intelligently"
 - [What's Cooking in Business Central: Agent Reasoning and Transparency](../../../videos/FBrZwXpOhmM.md) (video): "agent reasoning; transparency; payables agent; trust; ai adoption"

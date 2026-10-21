@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:17.119Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,8 +49,7 @@ links:
     - change/bcapps/10408
     - change/bcapps/10409
     - change/bcapps/11899
-    - change/bcapps/9772
-    - change/bcapps/9796
+    - change/bcapps/9430
 learn_toc_path:
   - Copilot and agent capabilities
   - Shopify tax matching (preview)
@@ -105,8 +104,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10408 Shopify Copilot Tax Matching Agent: matching engine and data model (stack 2/3)](../../../changes/bcapps/10408.md) (code change): "Shopify Copilot Tax Matching Agent adds a headless matching engine that uses AI"
 - [#10409 Shopify Copilot Tax Matching Agent: human-in-the-loop review + tests (stack 3/3)](../../../changes/bcapps/10409.md) (code change): "Shopify Copilot Tax Matching Agent adds a human-in-the-loop review"
 - [#11899 [Shopify] Tax matching fixes for country, Canadian HST, and zero-rate lines](../../../changes/bcapps/11899.md) (code change): "Shopify Tax Matching Agent now runs only for US and Canadian"
-- [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"
-- [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
+- [#9430 Fix untrappable JSON error in E-Document ADI import (Bug 640122)](../../../changes/bcapps/9430.md) (code change): "E-Document matching assistance import now handles malformed Azure Document Intelligence responses"
 - [What's new: Shopify Tax Matching (preview) (2026 release wave 2)](../../../videos/5OZ0g5IgC8Q.md) (video): "Shopify Tax Matching AI Capability; Tax Area Code Auto-Population"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

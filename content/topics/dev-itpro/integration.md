@@ -12,7 +12,7 @@ review:
   at: "2026-10-19T01:12:09.437Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -380,12 +380,17 @@ links:
     - change/bcapps/10143
     - change/bcapps/10162
     - change/bcapps/10230
-    - change/bcapps/8698
-    - change/bcapps/9257
-    - change/bcapps/9401
-    - change/bcapps/9434
-    - change/bcapps/9454
-    - change/bcapps/9952
+    - change/bcapps/9426
+    - change/bcapps/9702
+    - change/bcapps/9711
+    - change/bcapps/9737
+    - change/bcapps/9751
+    - change/bcapps/9772
+    - change/bcapps/9784
+    - change/bcapps/9792
+    - change/bcapps/9796
+    - change/bcapps/9860
+    - change/bcapps/9872
 learn_toc_path:
   - Integration
 toc_file: dev-itpro/TOC.md
@@ -519,12 +524,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10143 Handle non-invoice or currupt PDF extraction](../../changes/bcapps/10143.md) (code change): "E-document extraction now detects non-invoice or corrupt PDFs"
 - [#10162 Fix stale start status in e-document import pipeline](../../changes/bcapps/10162.md) (code change): "e-document import pipeline now uses the initial processing status"
 - [#10230 [Main]<ImporteTAIReglasLocalizacion> node should have negative sign in the SII XML for Sales Credit Memos under One-Stop-Shop regime in the Spanish version](../../changes/bcapps/10230.md) (code change): "Sales credit memos under One-Stop-Shop regime now generate SII XML"
-- [#8698 [E-Documents Core] [Peppol] - Enabling EDI capabilities with E-Documents. PEPPOL Order Response Message Handling](../../changes/bcapps/8698.md) (code change): "E-documents now track order responses and acknowledgements as lifecycle events"
-- [#9257 Hide Provide feedback action on E-Document Purchase Draft when user-i…](../../changes/bcapps/9257.md) (code change): "The Provide feedback action on the E-Document Purchase Draft page is now hidden"
-- [#9401 Fix Incoming Documents default processed filter](../../changes/bcapps/9401.md) (code change): "Incoming Documents page now defaults to showing only unprocessed records"
-- [#9434 [Main]-"Factura Duplicada" error message appears under SII History if you use the same Vendor Invoice No. for the same Vendor (VAT Registration No.) in different documents in the Spanish version.](../../changes/bcapps/9434.md) (code change): "users now get a non-blocking warning when a purchase document's Vendor Invoice No."
-- [#9454 Fix site scoped contextinfo](../../changes/bcapps/9454.md) (code change): "Fix site scoped contextinfo. SharePoint request-digest calls"
-- [#9952 Show address lines 1-3 in address lookup display text](../../changes/bcapps/9952.md) (code change): "address lookup modal for Ideal Postcodes now displays address lines"
+- [#9426 [E-Document Formats] Migrate NAV PRs 247170 and 247176 into BCApps](../../changes/bcapps/9426.md) (code change): "PINT A-NZ and Factura-E e-document formats are migrated to the structured import pipeline"
+- [#9702 Default new E-Document services to import v2 and let users select the draft format](../../changes/bcapps/9702.md) (code change): "E-Document services now default to the v2 import pipeline"
+- [#9711 Fix E-Document purchase draft header Sub Total overwrite; notify on mismatch](../../changes/bcapps/9711.md) (code change): "E-Document purchase draft no longer silently overwrites the header Sub Total"
+- [#9737 [E-Document] Move Data Exchange definitions from labels to app resource files](../../changes/bcapps/9737.md) (code change): "E-Document installation moved eight PEPPOL Data Exchange Definition XMLs"
+- [#9751 Extract invoice date into Invoice Date field and recover due date fro…](../../changes/bcapps/9751.md) (code change): "Invoice Date on the purchase draft is now filled from the extracted invoice date"
+- [#9772 [PA][Pioneer]: Numeric line fields mis-extracted (discount, quantity, unit of measure)](../../changes/bcapps/9772.md) (code change): "E-Document importer now preserves zero quantities instead of forcing them to 1"
+- [#9784 [E-Document Formats] Fix defects in V2 draft migration for XRechnung, PINT A-NZ and Factura-E](../../changes/bcapps/9784.md) (code change): "Fixes defects in the V2 draft import for XRechnung, PINT A-NZ and Factura-E"
+- [#9792 Migrate ZUGFeRD, PEPPOL BIS 3.0 DE, Factur-X FR and Peppol BIS 3.0 FR to the V2 draft import pipeline](../../changes/bcapps/9792.md) (code change): "enabling the draft-based workflow and Copilot-assisted matching previously unavailable for these localized e-document formats"
+- [#9796 Show a message when an e-document file cannot be viewed or no data could be extracted](../../changes/bcapps/9796.md) (code change): "E-document import handling now displays user-friendly messages when a PDF file cannot be displayed"
+- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../changes/bcapps/9860.md) (code change): "XRechnung and ZUGFeRD exporters emit allowance/charge structures and adjust totals and tax"
+- [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to E-Document and Avalara connector apps"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services; web services"
 - [BCTalent Stories: iFacto](../../videos/symEeOiih_Q.md) (video): "talent recruitment; reskill program; bc talent; partner enablement"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:33.535Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-21T00:49:06.669Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -165,6 +165,7 @@ links:
     - change/bcapps/9212
     - change/bcapps/9467
     - change/bcapps/9531
+    - change/bcapps/9860
 learn_toc_path:
   - Business functionality
   - Finance
@@ -254,6 +255,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9212 Bug 629779: [Inventory] Show a single Export/Import item data action pair on Cost Adjustment and Item Card](../../../../changes/bcapps/9212.md) (code change): "Cost Adjustment and Item Card pages now show a single"
 - [#9467 [Extensibility Request] issue 30346: make InsertPostValueEntryToGL public in Item Jnl.-Post Line](../../../../changes/bcapps/9467.md) (code change): "reuse the standard General Ledger posting logic for inventory variances"
 - [#9531 [Master]- Report 152 "Calculate Low Level Code" terminates with error: "Cannot add instance as another with key %1 has already been added." after upgrade to v28.1](../../../../changes/bcapps/9531.md) (code change): "Report 152 "Calculate Low Level Code" terminates with error"
+- [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../../../changes/bcapps/9860.md) (code change): "Item charge lines are now correctly exported as allowances or charges in XRechnung and ZUGFeRD documents"
 - [Dynamics 365 Business Central – Some Considerations when Changing Standard Cost on an Item Card](../../../../posts/thedynamicsexplorer-com/37371.md) (community post): "Changing standard cost directly on an item card has two critical side effects"
 - [What's New: Cost Adjustment (2025 release wave 1)](../../../../videos/8IOEXgk7q5I.md) (video): "cost adjustment; inventory valuation; high-volume items"
 - [What's New: Cost Adjustment (2024 release wave 1)](../../../../videos/w0okH0v0VvY.md) (video): "Inventory Cost Adjustment Tool; Cost Adjustment Logging Options; Item Batches"
