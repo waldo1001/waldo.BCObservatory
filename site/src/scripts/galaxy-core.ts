@@ -110,9 +110,9 @@ export function versionMenu(
   return { remembered: active && vs.includes(active) ? active : vs[0] ?? null, entries };
 }
 
-/** D92: the groups of the Lenses menu, in menu order: the lens group, the menu group's id and its heading. */
+/** D92, D103: the groups of the Lenses menu, in menu order (Time first): the lens group, the menu group's id and its heading. */
 const MENU_GROUPS: readonly [string, LensGroupId, string][] = [
-  ["Version", "version", "Version"], ["Time", "time", "Time"], ["Type", "type", "Type"], ["Tier", "tier", "Tier"],
+  ["Time", "time", "Time"], ["Version", "version", "Version"], ["Type", "type", "Type"], ["Tier", "tier", "Tier"],
   ["Coverage", "coverage", "Coverage"], ["Localization", "country", "Country"], ["Source", "source", "Source"],
 ];
 export type LensGroupId = "version" | "time" | "type" | "tier" | "coverage" | "country" | "source";
