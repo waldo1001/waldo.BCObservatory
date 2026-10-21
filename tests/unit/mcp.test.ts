@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, COPILOT_PLUGIN_CMD, LEARN_URL, PLUGIN_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, COPILOT_PLUGIN_CMD, LEARN_URL, PLUGIN_CMD, PLUGIN_INSTALL_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installGuide, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -76,7 +76,8 @@ test("every ask names a tool or the atlas, and the README's commands match", () 
   const names = new Set(TOOLS.map((t) => t.name));
   for (const a of ASKS) for (const v of a.via.split(",")) { const w = v.trim().split(" ")[0]; assert.ok(names.has(w) || w === "bc-code-atlas" || w === "bc-observatory", a.via); }
   const readme = read("README.md");
-  assert.ok(readme.includes(SERVER_CMD) && readme.includes(PLUGIN_CMD));
+  assert.ok(readme.includes(SERVER_CMD) && readme.includes(PLUGIN_CMD) && readme.includes(PLUGIN_INSTALL_CMD), "README.md gives both Claude Code commands");
+  assert.ok(read("plugin/README.md").includes(PLUGIN_CMD) && read("plugin/README.md").includes(PLUGIN_INSTALL_CMD), "plugin/README.md gives both Claude Code commands");
   assert.ok(readme.includes(COPILOT_PLUGIN_CMD) && read("plugin/README.md").includes(COPILOT_PLUGIN_CMD), "both READMEs give the Copilot CLI install (D104)");
 });
 
@@ -491,4 +492,27 @@ test("D95 phase B: get_object prints what a country layer adds, cat answers for 
   } finally {
     await client.close();
   }
+});
+
+test("INSTALL.md gives the commands, the marketplace, the connectors and the Desktop config the plugin really has", () => {
+  const guide = read("INSTALL.md");
+  for (const c of [PLUGIN_CMD, PLUGIN_INSTALL_CMD, COPILOT_PLUGIN_CMD]) assert.ok(guide.includes(c), c);
+  // claude plugin install <plugin>@<marketplace>, both names from the marketplace file
+  const market = JSON.parse(read(".claude-plugin/marketplace.json"));
+  assert.equal(PLUGIN_INSTALL_CMD, `claude plugin install ${market.plugins[0].name}@${market.name}`);
+  const repo = JSON.parse(read("plugin/.claude-plugin/plugin.json")).repository.replace(/^https:\/\/github\.com\//, "");
+  assert.ok(PLUGIN_CMD.endsWith(` ${repo}`) && guide.includes(`\n   ${repo}\n`), "the pasted marketplace is the plugin's repository");
+  const mcp = JSON.parse(read("plugin/.mcp.json")).mcpServers as Record<string, { command?: string; args?: string[] }>;
+  for (const name of Object.keys(mcp)) assert.ok(guide.includes(`**${name}**`), `INSTALL.md names the connector ${name}`);
+  const local = mcp["bc-observatory"];
+  assert.ok(guide.includes(`"command": "${local.command}"`) && guide.includes(`"args": ${JSON.stringify(local.args).replace(/,/g, ", ")}`), "the Desktop config is the plugin's command");
+  // every guide in the chooser exists, and each guide has the parts a reader relies on
+  for (const [, anchor] of guide.matchAll(/\]\(#([a-z0-9-]+)\)/g)) {
+    const heading = [...guide.matchAll(/^#{2,3} (.+)$/gm)].map((m) => m[1].toLowerCase().replace(/[^a-z0-9 -]/g, "").replace(/ /g, "-"));
+    assert.ok(heading.includes(anchor), `INSTALL.md has a heading for #${anchor}`);
+  }
+  for (const part of ["Before you start", "Check that it works", "Remove it"]) assert.equal(guide.split(`### ${part}`).length - 1, 4, `four guides have "${part}"`);
+  assert.ok(read("README.md").includes("INSTALL.md") && read("plugin/README.md").includes("INSTALL.md"), "both READMEs link INSTALL.md");
+  assert.ok(mcpMarkdown({ server: "1", plugin: "1" }, "https://github.com/o/r", "https://example.test/").includes(installGuide("https://github.com/o/r")), "the MCP twin links INSTALL.md");
+  for (const p of ["plugin/.claude-plugin/plugin.json", ".claude-plugin/marketplace.json"]) assert.match(read(p), /Connectors tab.*INSTALL\.md/, `${p} tells claude.ai users about the Connectors tab`);
 });

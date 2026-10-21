@@ -1,13 +1,18 @@
 # BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.4.0, with the `bc-observatory` MCP server 0.8.0. Install:
+Plugin `bc-observatory` 0.4.1, with the `bc-observatory` MCP server 0.8.0. Install:
 
 ```bash
-claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code
+claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code, step 1: the marketplace
+claude plugin install bc-observatory@bc-observatory             # Claude Code, step 2: the plugin
 copilot plugin install waldo1001/waldo.BCObservatory:plugin  # GitHub Copilot CLI
 ```
 
 Copilot CLI reads the same manifest; verified with Copilot CLI 1.0.102.
+
+Claude in the browser, on your phone or in Claude Desktop: follow [`INSTALL.md`](../INSTALL.md), step by step. In the
+browser and on the phone you get the skills, bc-code-atlas and microsoft-learn (each connector needs **Add** on the
+plugin's **Connectors** tab); the `bc-observatory` server runs locally, so there it needs Claude Desktop or Claude Code.
 
 This page says what that command puts in your session. The [MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/)
 lists the same servers and skills from data in `site/src/lib/mcp.ts`, and `tests/unit/mcp.test.ts` checks that data and

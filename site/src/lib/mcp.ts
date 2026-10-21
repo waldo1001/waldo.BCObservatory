@@ -12,6 +12,10 @@ export interface InstallStep { client: string; how: string; code: string; lang: 
 
 export const SERVER_CMD = "claude mcp add bc-observatory -- npx -y bc-observatory@latest";
 export const PLUGIN_CMD = "claude plugin marketplace add waldo1001/waldo.BCObservatory";
+/** The second Claude Code command: the first only adds the marketplace (`claude plugin install <plugin>@<marketplace>`). */
+export const PLUGIN_INSTALL_CMD = "claude plugin install bc-observatory@bc-observatory";
+/** The step-by-step guide per Claude app, for readers who are not developers (INSTALL.md at the repository root). */
+export const installGuide = (repo: string) => `${repo}/blob/main/INSTALL.md`;
 export const COPILOT_PLUGIN_CMD = "copilot plugin install waldo1001/waldo.BCObservatory:plugin";
 export const ATLAS_URL = "https://bc-code-atlas.stefanmaron.dev/mcp";
 export const LEARN_URL = "https://learn.microsoft.com/api/mcp";
@@ -58,7 +62,7 @@ export const ASKS: Ask[] = [
 
 export function installSteps(repo: string): InstallStep[] {
   return [
-    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "One command. The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: PLUGIN_CMD, lang: "bash" },
+    { client: "Claude Code: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "Two commands: the first adds the marketplace, the second installs the plugin. The plugin registers the MCP server, the bc-code-atlas server and Microsoft's Learn MCP server and ships the four skills.", code: `${PLUGIN_CMD}\n${PLUGIN_INSTALL_CMD}`, lang: "bash" },
     { client: "GitHub Copilot CLI: the plugin (server, four skills, bc-code-atlas, Microsoft Learn MCP)", how: "The same plugin, installed from its folder in the repository. Copilot CLI reads the Claude Code manifest as it is. A plugin installed in Copilot CLI is not available in the VS Code Copilot Chat panel; use the VS Code step below for that.", code: COPILOT_PLUGIN_CMD, lang: "bash" },
     { client: "Claude Code: the server only", how: "No skills, no atlas: just the nine tools.", code: SERVER_CMD, lang: "bash" },
     { client: "Claude Desktop, Cursor, Windsurf and other MCP clients", how: "Add the server to the client's MCP configuration (claude_desktop_config.json, .cursor/mcp.json, ...).", code: JSON.stringify({ mcpServers: { "bc-observatory": { command: "npx", args: ["-y", "bc-observatory@latest"] } } }, null, 2), lang: "json" },
@@ -83,7 +87,7 @@ export function mcpMarkdown(v: McpVersions, repo: string, site: string): string 
     "Three MCP servers and four skills. Nothing needs an account or an API key.", "",
     ...PLUGIN_SERVERS.map((p) => `- \`${p.name}\` (${p.by}; ${p.command ? `\`${p.command}\`` : p.url}): ${p.for}`), "",
     `Routing: the observatory first; bc-code-atlas for procedure bodies and per-procedure edges; Microsoft Learn MCP to read a Learn page the observatory points to and for AL code samples. Switch one plugin server off with /mcp (Claude Code stops connecting to it without removing the plugin); \`claude mcp remove\` acts on servers you added yourself, so to take only some servers install them by hand instead. A Learn MCP you already have at the same URL wins over the plugin's: keep one. Details: [plugin/README.md](${repo}/blob/main/plugin/README.md).`, "",
-    "## Install", "", ...installSteps(repo).flatMap((s) => [`### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
+    "## Install", "", `Step by step for Claude in the browser, on your phone, in Claude Desktop, Claude Code and Copilot CLI: [INSTALL.md](${installGuide(repo)}).`, "", ...installSteps(repo).flatMap((s) => [`### ${s.client}`, "", s.how, "", "```" + s.lang, s.code, "```", ""]),
     "### Without any install", "",
     `[llms.txt](${site}llms.txt) lists every section; every page has a markdown twin at its URL plus \`.md\`; GitMCP and DeepWiki (badges in the [README](${repo})) read the repository directly.`, "",
     "## How it answers", "",

@@ -7,7 +7,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import List from "../../layouts/List.astro";
 import { REPO } from "../../lib/about";
-import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_SERVERS, SKILLS, TOOLS, installSteps } from "../../lib/mcp";
+import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_SERVERS, SKILLS, TOOLS, installGuide, installSteps } from "../../lib/mcp";
 const base = import.meta.env.BASE_URL;
 const root = resolve(process.cwd(), "..");
 const server = JSON.parse(readFileSync(resolve(root, "packages/mcp/package.json"), "utf8")).version as string;
@@ -57,6 +57,7 @@ const steps = installSteps(REPO);
   <p>Routing: the observatory first; bc-code-atlas for procedure bodies and per-procedure edges; Microsoft Learn MCP to read a Learn page the observatory points to and for AL code samples. Switch one plugin server off with <code>/mcp</code> (Claude Code stops connecting to it, without removing the plugin); <code>claude mcp remove</code> acts on servers you added yourself, so to take only some servers install them by hand instead. A Learn MCP you already have at the same URL wins over the plugin's: keep one. Details in <a href={`${REPO}/blob/main/plugin/README.md`} rel="noopener">plugin/README.md</a>.</p>
 
   <h2 id="install">Install</h2>
+  <p>Step by step for Claude in the browser, on your phone, in Claude Desktop, Claude Code and Copilot CLI: <a href={installGuide(REPO)} rel="noopener">INSTALL.md</a>.</p>
   <ol class="steps">
     {steps.map((s) => <li><b>{s.client}</b><p class="meta">{s.how}</p><pre><code>{s.code}</code></pre></li>)}
     <li><b>Without any install</b><p class="meta"><a href={`${base}llms.txt`}>llms.txt</a> lists every section; every page has a markdown twin at its URL plus <code>.md</code>; GitMCP and DeepWiki (badges in the <a href={REPO}>README</a>) read the repository directly.</p></li>
