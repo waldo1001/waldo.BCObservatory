@@ -14,9 +14,7 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Plugin skills bcobs-\*, Copilot CLI install** (`docs/specs/plugin-skill-prefix.md`, D104, M42, issue #23).
-  Status: proposed 2026-10-21, nothing implemented. Start with section 5 test 1, then `git mv` the four
-  `plugin/skills/bc-*` folders. Until it lands, readers see the `bc-*` skill names and no Copilot CLI install line.
+None open.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
@@ -26,6 +24,13 @@ questions in its section 12).
 ## Where things stand
 
 **Shipped 2026-10-21 (code only; no page or data changed, no derive):**
+- **Plugin skills bcobs-\*, Copilot CLI install, D104** (`docs/specs/plugin-skill-prefix.md`, M42, issue #23). The
+  plugin's four skills are `bcobs-lookup`, `bcobs-whats-new`, `bcobs-localization`, `bcobs-grounding` (plugin 0.4.0);
+  the MCP page and both READMEs add `copilot plugin install waldo1001/waldo.BCObservatory:plugin`. Readers see the MCP
+  page change once `pages.yml` deploys this push (it changes `site/**`; no derive). Operator steps (spec section 12):
+  `npx -y @github/copilot@latest plugin install waldo1001/waldo.BCObservatory:plugin` (Node 22; time it; `plugin list`
+  shows 0.4.0; `plugin uninstall bc-observatory` undoes it), and `claude plugin marketplace update bc-observatory`
+  plus a session restart (the skill list shows `bc-observatory:bcobs-*`).
 - **Lenses menu, Time first, D103** (`docs/specs/lens-menu-time-first.md`, M41, issue #21). The galaxy's Lenses menu
   opens with "this week" on top, then the versions and the other groups as before; "this week" is the first Tab stop
   in the menu (was the eighth). The spec's own edits wait in `docs/built/lens-menu-time-first.md` for the review.

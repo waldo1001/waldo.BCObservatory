@@ -1160,3 +1160,17 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   unchanged. Amends D92 (the menu order only). Measured: `lensMenu` unit tests pass with Time first; browser checks on
   the built site are operator steps. Spec: docs/specs/lens-menu-time-first.md (built, deviations:
   docs/built/lens-menu-time-first.md).
+- **D104 The plugin's skills are called bcobs-\*, and the plugin installs in GitHub Copilot CLI (2026-10-21, M42).** The
+  plugin's skills `bc-lookup`, `bc-whats-new`, `bc-localization` and `bc-grounding` are renamed `bcobs-lookup`,
+  `bcobs-whats-new`, `bcobs-localization` and `bcobs-grounding` (plugin 0.4.0). Claude Code prefixes a plugin skill
+  with the plugin name, Copilot CLI does not: Copilot CLI 1.0.102 listed them bare next to its own skills, where `bc-`
+  is the prefix any Business Central skill would take. Descriptions and bodies are unchanged, so when a skill triggers
+  is unchanged; the servers are untouched. The same check showed Copilot CLI reads the plugin as it is (manifest,
+  skills, the three servers, a real `get_object` call), so the MCP page and both READMEs add
+  `copilot plugin install waldo1001/waldo.BCObservatory:plugin`. Historical docs keep the old names. Rejected:
+  `observatory-*` (no overlap with the repo-local `bcobs-spec` dev skill, but longer, and the project goes by bcobs);
+  keeping `bc-*` (fine in Claude Code, collides in Copilot CLI); a Copilot-specific manifest, since Copilot CLI already
+  reads `.claude-plugin/plugin.json`; documenting `copilot plugin marketplace add` (untested whether Copilot CLI reads
+  `.claude-plugin/marketplace.json`). Measured: the unit tests of the spec's section 5 pass (658 of 659, 1 skipped);
+  Copilot CLI 1.0.102 with `--plugin-dir` on the branch lists `bc-observatory` 0.4.0 and the four `bcobs-*` skills.
+  The install from GitHub and the Claude Code update are operator steps. Spec: docs/specs/plugin-skill-prefix.md.

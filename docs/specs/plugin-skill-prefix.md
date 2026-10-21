@@ -1,12 +1,12 @@
 ---
 issue: 23
-status: draft
+status: implemented
 ---
 
 # The plugin's skills are called bcobs-*, and the plugin installs in GitHub Copilot CLI
 
-Status: proposed, 2026-10-21. Decision: D104 (reserved, appended to `docs/DECISIONS.md` at ship time). Milestone: M42
-(reserved). Owner: waldo.
+Status: implemented, 2026-10-21 (section 12 records what was built and where it differs). Decision: D104 (appended
+2026-10-21). Milestone: M42. Owner: waldo.
 Scope: the four skill folders and their `name:` lines in `plugin/skills/`, the three places the skills name each other,
 the skill list on the MCP page (`site/src/lib/mcp.ts`), its tests, the two READMEs that list the skills, a GitHub
 Copilot CLI install step, and the plugin version (0.3.2 to 0.4.0). Every claim below was verified against the tree at
@@ -179,25 +179,66 @@ each). Changed: `site/src/lib/mcp.ts`, `tests/unit/mcp.test.ts`, `README.md`, `p
 
 ## 11. Definition of Done
 
-- [ ] `plugin/skills/` holds exactly `bcobs-grounding`, `bcobs-localization`, `bcobs-lookup`, `bcobs-whats-new`, each
+- [x] `plugin/skills/` holds exactly `bcobs-grounding`, `bcobs-localization`, `bcobs-lookup`, `bcobs-whats-new`, each
   `SKILL.md` with `name:` equal to its folder; descriptions and bodies differ from `eb7b0dfc62` only in the three
   cross-references.
-- [ ] Section 7 step 3 grep returns nothing.
-- [ ] `SKILLS` in `site/src/lib/mcp.ts` carries the new names; `COPILOT_PLUGIN_CMD` exists and is install step 2; the
+- [x] Section 7 step 3 grep returns nothing (one hit, the rename note: deviation 1 of section 12).
+- [x] `SKILLS` in `site/src/lib/mcp.ts` carries the new names; `COPILOT_PLUGIN_CMD` exists and is install step 2; the
   twin heading reads `## The plugin (Claude Code, GitHub Copilot CLI)`.
-- [ ] `README.md` and `plugin/README.md` list the new names and the `copilot plugin install` line; `plugin/README.md`
+- [x] `README.md` and `plugin/README.md` list the new names and the `copilot plugin install` line; `plugin/README.md`
   has the rename note.
-- [ ] `git grep -n '0\.3\.2' -- ':!package-lock.json' ':!docs/'` returns nothing; the three places say 0.4.0.
-- [ ] Tests 1-4 of section 5 written and passing; `npm test` and `npm run typecheck` pass.
-- [ ] Section 7 steps 4, 5 and 6 listed as operator steps, with their exact commands, in section 12 and the HANDOFF
+- [x] `git grep -n '0\.3\.2' -- ':!package-lock.json' ':!docs/'` returns nothing; the three places say 0.4.0.
+- [x] Tests 1-4 of section 5 written and passing; `npm test` and `npm run typecheck` pass.
+- [x] Section 7 steps 4, 5 and 6 listed as operator steps, with their exact commands, in section 12 and the HANDOFF
   entry. A manual build may run step 4 and quote its output (version and skill names) in section 12.
-- [ ] D104 appended to docs/DECISIONS.md; PLAN M42 marked shipped; HANDOFF entry moved from "Open specs" to "Where
+- [x] D104 appended to docs/DECISIONS.md; PLAN M42 marked shipped; HANDOFF entry moved from "Open specs" to "Where
   things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
   implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
   status lines into docs/built/plugin-skill-prefix.md; the PR's review moves them in (sdd-build section 4, sdd-review
   section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-21)
+
+Built in a manual session in one phase, commit `bb755d50bc` (code, tests, READMEs, version) on top of `d70f1f8d4a`,
+and the ship-time docs commit after it. What changed: the four folders moved with `git mv` to
+`plugin/skills/bcobs-{lookup,whats-new,localization,grounding}/`, each `name:` set, the three cross-references
+renamed; `SKILLS`, `COPILOT_PLUGIN_CMD`, install step 2 and the twin heading in `site/src/lib/mcp.ts`; `README.md`
+and `plugin/README.md` (title, install block, skills table, rename note); 0.4.0 in `.claude-plugin/marketplace.json`,
+`plugin/.claude-plugin/plugin.json` and `plugin/README.md`.
+
+Red: with the tests written and only `COPILOT_PLUGIN_CMD` exported, `tests/unit/mcp.test.ts` failed in test 1 (the
+D104 test: `'bc-grounding'`, a folder without the prefix), test 2 (the D96 test: `ENOENT ... plugin/skills/bcobs-lookup/SKILL.md`),
+test 3 (the twin test: install step 2 is not the Copilot CLI step) and test 4 (`both READMEs give the Copilot CLI
+install (D104)`). Before the export, the whole file failed on the missing `COPILOT_PLUGIN_CMD` import.
+
+Verified:
+
+| Check (section 7) | Result |
+|---|---|
+| 1. `npm run typecheck`; `npm test` | exit 0; 659 tests, 658 pass, 0 fail, 1 skipped |
+| 2. `npm run site:build` (Node 22) | exit 0, 29,079 pages; `site/dist/mcp/index.html` and `site/dist/mcp.md` each name the four `bcobs-*` skills and `copilot plugin install waldo1001/waldo.BCObservatory:plugin` once, `bc-lookup` zero times |
+| 3. old names outside `content/` and `docs/` | one hit, the rename note `plugin/README.md:35` (deviation 1) |
+| 4. Copilot CLI 1.0.102, `--plugin-dir` on the branch's `plugin/` | `plugin list --json`: `bc-observatory`, 0.4.0, enabled; a session lists `bcobs-grounding`, `bcobs-localization`, `bcobs-lookup`, `bcobs-whats-new` next to Copilot's own `customize-cloud-agent`, `github-pr-media` (2.45 AI credits) |
+| version grep `0\.3\.2` outside docs and the lockfile | no hits |
+
+Deviations:
+1. **Section 7 step 3 cannot return nothing.** The rename note section 2 asks for in `plugin/README.md` names the four
+   old skills on purpose. The grep returns exactly that line. Also, `git grep -nE '\bbc-...'` matches nothing at all
+   on macOS (`\b` is not an ERE escape there), so the command as written passes vacuously; the check used
+   `git grep -nP` and `git grep -nE '(^|[^a-z])bc-(...)'`, both giving the one line. The unit test (section 5 test 1)
+   uses a JavaScript regex, where `\b` works.
+2. **Step 4 ran here.** The spec makes it an operator step (a League build cannot run it); a manual build may, and did:
+   output in the table above.
+
+Operator steps still open (they write outside this repository, so the build left them to the owner):
+- Step 5, Copilot CLI from GitHub, after merge (writes `~/.copilot`):
+  `npx -y @github/copilot@latest plugin install waldo1001/waldo.BCObservatory:plugin`, then
+  `npx -y @github/copilot@latest plugin list` shows `bc-observatory` 0.4.0; time the install (spec section 8, slim
+  repo); `npx -y @github/copilot@latest plugin uninstall bc-observatory` to undo. Node 22 first on PATH.
+- Step 6, Claude Code, after merge: `claude plugin marketplace update bc-observatory`, restart the session; the skill
+  list shows `bc-observatory:bcobs-*`.
+
+## 13. Proposed edits to other files (applied 2026-10-21, see section 12)
 
 **`docs/DECISIONS.md`**, appended: the D104 text of section 3, ending
 `Measured: the unit tests of section 5; Copilot CLI with the renamed skills is operator step 4 (or its output, when a
