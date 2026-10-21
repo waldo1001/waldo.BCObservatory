@@ -29,12 +29,12 @@ questions in its section 12).
   reasons; `second` on its record in `data/links/topics.json` keeps them, and there is no third pass. The new links
   join the review queue as usual. `topic_links.second` (`due`, `called`, `matched`) is in the nightly run report;
   `npm run link:topics` prints `rejected:` lines. Nothing readers see changes until links are kept by the review.
-  Operator steps still open (the spec's phase 2, one evening, about $20; scripts `link:topics` and `review:topics` are
-  in `package.json`, the nightly dispatch is `gh workflow run nightly -f stages=derive` as in the spec and RUNBOOK):
-  check no nightly runs (`gh run list --workflow nightly --limit 1`); `npm run link:topics -- --write --quota 150`;
-  `npm run review:topics -- --write --quota 400`; commit `data/links/topics.json` and
-  `data/links/topics-review.json` by name; push; `gh workflow run nightly -f stages=derive`; then spec section 7
-  commands 1 and 2, written into D102. The spec's own edits wait in `docs/built/topic-link-second-chance.md` for the review.
+  The backfill (the spec's phase 2) ran on 2026-10-21 (`1d86ac3e72`, about $21): every due unit had its second pass,
+  the review queue is empty, and 92 of 390 second-pass units gained a kept link; the numbers are in D102. Readers see
+  the kept links after the 2026-10-22 nightly re-renders the topic pages (its `hubs` phase; a derive does not render
+  them). Still open: spec section 7 command 2 after that nightly (before: 289 posts, 412 videos), written into D102;
+  the 124 units newly due (the spec's risk 6) get their pass from the nightly. The spec's own edits wait in
+  `docs/built/topic-link-second-chance.md` for the review.
 
 **Shipped 2026-10-19, live after its Pages build (site only, no derive):**
 - **Search newest first, D101** (`docs/specs/search-newest-first.md`, M39, issue #15). Built by waldo.Jarvis's League.

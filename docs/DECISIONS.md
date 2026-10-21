@@ -1137,7 +1137,18 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   (about three times the cost, and the review judges the result anyway); the reviewer naming a replacement (it sees
   only siblings, which misses cross-branch moves like the owner's telemetry posts, and covering the backlog needed a
   ~$40 re-review); the 156 "no hub fits" units (no hash change, later); more than one extra pass; grouping
-  second-chance calls by the full system set (154 calls instead of 71). Measured: phase 1 (code) is built and tested;
-  the backfill (phase 2) is an operator step, so the before/after of `due`, `kept`/`open`/`final` and the tilted-view
-  counts (spec section 7, commands 1 and 2) and its cost are not measured yet; the owner writes them here after the
-  backfill. Spec: docs/specs/topic-link-second-chance.md (built, deviations: docs/built/topic-link-second-chance.md).
+  second-chance calls by the full system set (154 calls instead of 71). Measured: phase 1 is built and tested. The
+  backfill (phase 2) ran on 2026-10-21 on the developer Mac (`1d86ac3e72`). `link:topics --write --quota 150` made 77
+  Haiku calls ($0.50, against an estimate of about 116 calls and $3) and gave all 384 due units their second pass, 271
+  of them with a link (8 picks rejected as "not a candidate of this item", 2 as a quote not verbatim).
+  `review:topics --write --quota 400` made 181 Opus calls over 194 hubs ($20.72 at $0.114 a call, above the estimated
+  $0.058-0.081), kept 610 links, dropped 481 and cleared the queue. Unit states (spec section 7, command 1), before:
+  posts open 96, kept 194, due 232, none 82; videos kept 297, due 152, none 79, open 94. After: posts kept 257, final
+  84, none 189, due 74; videos kept 390, final 51, none 131, due 50; nothing open. Of the 390 units that have had their
+  second pass, 92 gained a kept link (24%, above the one-in-five bar of the spec's risk 4), 135 are final and 163 found
+  no hub. The 124 units newly due are the spec's risk 6: re-judging a hub whole dropped links of units that had not had
+  their pass; the nightly gives them theirs within its quota. The owner's case, `post/waldo-be/318423`, is now kept on
+  *Monitor and analyze telemetry*. The derive the spec named (run 39578403945) changed nothing: topic pages render only
+  in the full nightly's `hubs` phase, and the graph reads them, so readers see the kept links after the 2026-10-22
+  nightly. Tilted-view counts (command 2) before: 289 posts, 412 videos; after: to be measured after that nightly.
+  Spec: docs/specs/topic-link-second-chance.md (built, deviations: docs/built/topic-link-second-chance.md).
