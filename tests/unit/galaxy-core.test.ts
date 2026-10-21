@@ -207,15 +207,15 @@ const MENU_LENSES = [
 const MENU_COUNTS = new Map([["version:30", 27], ["version:29", 97], ["landed", 45], ["type:topic", 605], ["tier:official", 905], ["coverage", 124]]);
 const MENU_MAJORS = { "30": { label: "2027 release wave 1 (BC30, vNext)", vnext: true }, "29": { label: "2026 release wave 2 (BC29)" } };
 
-test("lensMenu: every lens in seven groups, versions newest first, countries and sources as picker entries (D92)", () => {
+test("lensMenu: every lens in seven groups, Time first, versions newest first, countries and sources as picker entries (D92, D103)", () => {
   const m = lensMenu(MENU_LENSES, MENU_COUNTS, MENU_MAJORS, "version:29");
-  assert.deepEqual(m.map((g) => g.id), ["version", "time", "type", "tier", "coverage", "country", "source"]);
-  assert.deepEqual(m.map((g) => g.label), ["Version", "Time", "Type", "Tier", "Coverage", "Country", "Source"]);
-  assert.deepEqual(m[0].entries, [
+  assert.deepEqual(m.map((g) => g.id), ["time", "version", "type", "tier", "coverage", "country", "source"]);
+  assert.deepEqual(m.map((g) => g.label), ["Time", "Version", "Type", "Tier", "Coverage", "Country", "Source"]);
+  assert.deepEqual(m[0].entries, [{ id: "landed", label: "this week", n: 45, on: false, title: null }]);
+  assert.deepEqual(m[1].entries, [
     { id: "version:30", label: "BC30 vNext", n: 27, on: false, title: "2027 release wave 1 (BC30, vNext)" },
     { id: "version:29", label: "BC29", n: 97, on: true, title: "2026 release wave 2 (BC29)" },
   ]);
-  assert.deepEqual(m[1].entries, [{ id: "landed", label: "this week", n: 45, on: false, title: null }]);
   assert.deepEqual(m[2].entries, [{ id: "type:topic", label: "topic hubs", n: 605, on: false, title: null }]);
   assert.deepEqual(m[3].entries, [{ id: "tier:official", label: "official only", n: 905, on: false, title: null }]);
   assert.deepEqual(m[4].entries, [{ id: "coverage", label: "no Learn page, video or post", n: 124, on: false, title: null }]);
@@ -232,6 +232,8 @@ test("lensMenu: the pressed entry follows the active lens; an older graph withou
   assert.deepEqual(pressed("landed"), ["landed"]);
   const old = lensMenu(MENU_LENSES.filter((l) => l.group !== "Version"), MENU_COUNTS, MENU_MAJORS, null);
   assert.equal(old[0].id, "time");
+  assert.equal(old[1].id, "type");
+  assert.equal(lensMenu(MENU_LENSES.filter((l) => l.group !== "Time"), MENU_COUNTS, MENU_MAJORS, null)[0].id, "version");
   assert.equal(lensMenu([{ id: "tier:community", label: "mostly community evidence", group: "Tier" }], new Map(), {}, null)[0].entries[0].n, 0);
   assert.deepEqual(lensMenu([], new Map(), {}, null), []);
 });

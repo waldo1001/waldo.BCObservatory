@@ -11,8 +11,9 @@
  *   and pulse = landed this week, while the this-week lens is on (D71); accent frame = changed in the lens version; hollow dashed square = obsolete.
  * - A focused star draws its edges: solid inside its system, dashed to a port per target system (max 6). Ports are
  *   buttons; the panel lists the same crossings, so the ports are never the only way.
- * - Lenses, one at a time, from one Lenses menu (D92): changed in a version (newest first, D72), this week, then type,
- *   tier, no evidence, and a picker for localizations and sources (D78); search too. A chip names the lens that is on
+ * - Lenses, one at a time, from one Lenses menu (D92, Time first D103): this week,
+ *   changed in a version (newest first, D72), then type, tier, no evidence, and a picker for localizations and
+ *   sources (D78); search too. A chip names the lens that is on
  *   and clears it. Matching stars keep their brightness and get the lens mark, the rest dims to 0.3.
  * - Panel: the current scope as lists; the star panel carries the exit dock (real links to the instruments).
  * - List view: the system in view as a sortable table instead of the canvas. Below 480 px the galaxy is a static

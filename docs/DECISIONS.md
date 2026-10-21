@@ -1152,3 +1152,11 @@ Numbered, append-only. Each entry: decision, why, consequence. See `docs/PLAN.md
   in the full nightly's `hubs` phase, and the graph reads them, so readers see the kept links after the 2026-10-22
   nightly. Tilted-view counts (command 2) before: 289 posts, 412 videos; after: to be measured after that nightly.
   Spec: docs/specs/topic-link-second-chance.md (built, deviations: docs/built/topic-link-second-chance.md).
+- **D103 The Lenses menu lists Time first (2026-10-21, M41).** The galaxy's Lenses menu (D92) put its groups in the
+  order Version, Time, Type, Tier, Coverage, Country, Source. With seven majors (BC24 to BC30) the Version group takes
+  two rows of chips, so "this week", the lens that changes every night and the one the header's "N new this week" link
+  and the Questions menu open, was the third row and the eighth Tab stop in the menu. Now Time comes first and Version
+  second (`MENU_GROUPS` in `galaxy-core.ts`); every entry, count and label, the chip, the hash and every deep link are
+  unchanged. Amends D92 (the menu order only). Measured: `lensMenu` unit tests pass with Time first; browser checks on
+  the built site are operator steps. Spec: docs/specs/lens-menu-time-first.md (built, deviations:
+  docs/built/lens-menu-time-first.md).
