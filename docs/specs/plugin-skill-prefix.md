@@ -138,7 +138,8 @@ One phase; code and docs only, no page or data changes, no derive, no nightly im
 2. Site build on Node 22 (`export PATH="$(ls -d ~/.nvm/versions/node/v22*/bin | tail -1):$PATH"`, then the repo's site
    build): `/mcp/` and `/mcp.md` show the four `bcobs-*` names and the Copilot CLI step.
 3. `git grep -nE '\bbc-(lookup|whats-new|localization|grounding)\b' -- ':!content/' ':!docs/'` returns nothing.
-4. Copilot CLI from the branch, no global install (Node 22, run from a scratch folder):
+4. Operator step (needs the network and a Copilot sign-in, so a League build lists it and does not run it). Copilot
+   CLI from the branch, no global install (Node 22, run from a scratch folder):
    `npx -y @github/copilot@latest --plugin-dir <worktree>/plugin plugin list --json` shows `bc-observatory` 0.4.0;
    `npx -y @github/copilot@latest --plugin-dir <worktree>/plugin -p "Without calling any tool: list the names of every skill you have."`
    lists the four `bcobs-*` names. About 4 Copilot AI credits.
@@ -188,7 +189,8 @@ each). Changed: `site/src/lib/mcp.ts`, `tests/unit/mcp.test.ts`, `README.md`, `p
   has the rename note.
 - [ ] `git grep -n '0\.3\.2' -- ':!package-lock.json' ':!docs/'` returns nothing; the three places say 0.4.0.
 - [ ] Tests 1-4 of section 5 written and passing; `npm test` and `npm run typecheck` pass.
-- [ ] Section 7 step 4 run, and its output (version and skill names) quoted in section 12.
+- [ ] Section 7 steps 4, 5 and 6 listed as operator steps, with their exact commands, in section 12 and the HANDOFF
+  entry. A manual build may run step 4 and quote its output (version and skill names) in section 12.
 - [ ] D104 appended to docs/DECISIONS.md; PLAN M42 marked shipped; HANDOFF entry moved from "Open specs" to "Where
   things stand"; section 12 "Built, deviations" inserted (this section kept as 13, marked applied) and status
   implemented in the frontmatter and the body. A League build leaves the spec alone and writes section 12 and the
@@ -198,14 +200,15 @@ each). Changed: `site/src/lib/mcp.ts`, `tests/unit/mcp.test.ts`, `README.md`, `p
 ## 12. Proposed edits to other files (not applied)
 
 **`docs/DECISIONS.md`**, appended: the D104 text of section 3, ending
-`Measured: <section 7 step 4 output>. Spec: docs/specs/plugin-skill-prefix.md.`
+`Measured: the unit tests of section 5; Copilot CLI with the renamed skills is operator step 4 (or its output, when a
+manual build ran it). Spec: docs/specs/plugin-skill-prefix.md.`
 
 **`docs/PLAN.md`** section 5, the M42 row (added with this spec, before `v0.2+`); at ship time mark it shipped.
 
 **`docs/HANDOFF.md`**, at ship time move the entry from "Open specs" to "Where things stand":
 `- **Plugin skills bcobs-*, Copilot CLI install, D104** (docs/specs/plugin-skill-prefix.md, M42, issue #23). The
 plugin's four skills are bcobs-lookup, bcobs-whats-new, bcobs-localization, bcobs-grounding (plugin 0.4.0); the MCP
-page and READMEs add the Copilot CLI install line. Operator steps: spec section 7 steps 5 and 6.`
+page and READMEs add the Copilot CLI install line. Operator steps: spec section 7 steps 4, 5 and 6.`
 
 **`AGENTS.md`**, **`CONTENT-NOTICE.md`**: nothing (section 8 keeps the `AGENTS.md:77` wording for later).
 
