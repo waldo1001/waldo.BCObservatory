@@ -1,16 +1,68 @@
 {
   "open": [
     {
-      "number": 2402,
-      "title": "Move Copilot review engine into AL-Go",
-      "url": "https://github.com/microsoft/AL-Go/pull/2402",
+      "number": 2293,
+      "title": "Add support for protectedSettings to override lower priority settings",
+      "url": "https://github.com/microsoft/AL-Go/pull/2293",
       "base": "main",
       "major": null,
-      "author": "WaelAbuSeada",
+      "author": "ChrisBlankDe",
       "labels": [],
       "draft": false,
-      "created_at": "2026-10-11T02:34:40Z",
-      "updated_at": "2026-10-20T08:07:36Z",
+      "created_at": "2026-06-26T13:50:28Z",
+      "updated_at": "2026-10-20T23:48:36Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2414,
+      "title": "Add Copilot review orchestration E2E coverage",
+      "url": "https://github.com/microsoft/AL-Go/pull/2414",
+      "base": "main",
+      "major": null,
+      "author": "aholstrup1",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-20T14:58:40Z",
+      "updated_at": "2026-10-20T15:02:16Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2407,
+      "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
+      "url": "https://github.com/microsoft/AL-Go/pull/2407",
+      "base": "main",
+      "major": null,
+      "author": "freddydk",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-10-17T23:50:07Z",
+      "updated_at": "2026-10-20T13:40:32Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2343,
+      "title": "RunTests action",
+      "url": "https://github.com/microsoft/AL-Go/pull/2343",
+      "base": "main",
+      "major": null,
+      "author": "spetersenms",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-08-06T15:32:16Z",
+      "updated_at": "2026-10-20T13:28:49Z",
+      "community_contribution": false
+    },
+    {
+      "number": 2273,
+      "title": "Improve file handling in Update AL-Go System Files",
+      "url": "https://github.com/microsoft/AL-Go/pull/2273",
+      "base": "main",
+      "major": null,
+      "author": "OleWunschmann",
+      "labels": [],
+      "draft": false,
+      "created_at": "2026-06-03T15:24:31Z",
+      "updated_at": "2026-10-20T13:12:46Z",
       "community_contribution": false
     },
     {
@@ -27,32 +79,6 @@
       "community_contribution": false
     },
     {
-      "number": 2407,
-      "title": "Enable AL-Go for GitHub on GitHub Enterprise Cloud with data residency",
-      "url": "https://github.com/microsoft/AL-Go/pull/2407",
-      "base": "main",
-      "major": null,
-      "author": "freddydk",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-10-17T23:50:07Z",
-      "updated_at": "2026-10-20T06:19:16Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2293,
-      "title": "Add support for protectedSettings to override lower priority settings",
-      "url": "https://github.com/microsoft/AL-Go/pull/2293",
-      "base": "main",
-      "major": null,
-      "author": "ChrisBlankDe",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-26T13:50:28Z",
-      "updated_at": "2026-10-19T16:57:26Z",
-      "community_contribution": false
-    },
-    {
       "number": 2384,
       "title": "Publish to AppSource failback to current version.",
       "url": "https://github.com/microsoft/AL-Go/pull/2384",
@@ -63,32 +89,6 @@
       "draft": false,
       "created_at": "2026-09-25T14:54:28Z",
       "updated_at": "2026-10-19T09:43:13Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2343,
-      "title": "RunTests action",
-      "url": "https://github.com/microsoft/AL-Go/pull/2343",
-      "base": "main",
-      "major": null,
-      "author": "spetersenms",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-08-06T15:32:16Z",
-      "updated_at": "2026-10-16T14:41:09Z",
-      "community_contribution": false
-    },
-    {
-      "number": 2273,
-      "title": "Improve file handling in Update AL-Go System Files",
-      "url": "https://github.com/microsoft/AL-Go/pull/2273",
-      "base": "main",
-      "major": null,
-      "author": "OleWunschmann",
-      "labels": [],
-      "draft": false,
-      "created_at": "2026-06-03T15:24:31Z",
-      "updated_at": "2026-10-15T12:11:53Z",
       "community_contribution": false
     },
     {

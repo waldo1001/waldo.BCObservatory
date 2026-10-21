@@ -1,0 +1,43 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/events/isolated-event-rollback-does-not-undo-var-parameters.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "An isolated event's rollback does not undo var parameters or other in-memory state",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/isolated-event-rollback-does-not-undo-var-parameters.md",
+  "published_at": "2026-10-20T09:41:18.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.064Z",
+      "blob": "ed36f094bcb4ce1a1f0fc2f603e3629a72d1b3e0",
+      "words": 352,
+      "forms": 0
+    }
+  },
+  "input_hash": "ed36f094bcb4ce1a1f0fc2f603e3629a72d1b3e0",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/events/isolated-event-rollback-does-not-undo-var-parameters.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 352,
+    "identifiers": [
+      "IsHandled"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ed36f094bcb4ce1a1f0fc2f603e3629a72d1b3e0"
+}

@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL web services review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-web-services-review.md",
-  "published_at": "2026-09-29T15:12:51.000Z",
+  "published_at": "2026-10-20T09:41:18.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:28:01.517Z",
-      "blob": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7",
-      "words": 1768,
+      "at": "2026-10-21T00:20:34.381Z",
+      "blob": "310c604d0a397aca92a24fe3c1144a16c5337812",
+      "words": 1854,
       "forms": 0
     }
   },
-  "input_hash": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7",
+  "input_hash": "310c604d0a397aca92a24fe3c1144a16c5337812",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,52 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1768
+    "words": 1854,
+    "identifiers": [
+      "APIPublisher",
+      "APIGroup",
+      "APIVersion",
+      "EntityName",
+      "EntitySetName",
+      "ODataKeyFields",
+      "SourceTable",
+      "SourceTableTemporary",
+      "SubPageLink",
+      "InsertAllowed",
+      "ModifyAllowed",
+      "DeleteAllowed",
+      "OnOpenPage",
+      "OnValidate",
+      "HttpResponseMessage",
+      "JsonToken",
+      "JsonValue",
+      "WriteText",
+      "ReadText",
+      "CreateOutStream",
+      "CreateInStream",
+      "TextEncoding",
+      "CopyStream",
+      "validationToken",
+      "expirationDateTime",
+      "SystemId",
+      "OnAfterGetRecord",
+      "PageType",
+      "QueryType",
+      "ZeroOrOne",
+      "webhookSupportedResources",
+      "notificationUrl",
+      "ServiceEnabled",
+      "WebServiceActionContext",
+      "SetActionResponse",
+      "ReadIsolation",
+      "IsolationLevel",
+      "ReadCommitted",
+      "HttpClient",
+      "HttpRequestMessage"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "6d7d71a0a9fed6d6fb401dda6f79d9018da633f7"
+  "output_hash": "310c604d0a397aca92a24fe3c1144a16c5337812"
 }

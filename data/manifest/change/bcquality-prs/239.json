@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/239",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Require plugin version to match content release",
+  "url": "https://github.com/microsoft/BCQuality/pull/239",
+  "published_at": "2026-10-20T09:08:11Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "843199341e41b99f4b462707f05398112d6677da:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 239,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "843199341e41b99f4b462707f05398112d6677da",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "require plugin version to match content release"
+  }
+}

@@ -1,4 +1,13 @@
 {
+  "8429": [
+    {
+      "number": 12302,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T23:51:31Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12302",
+      "title_key": "e document de map payment method to peppol payment means codes add sepa direct debit export support backport to releases 29 x"
+    }
+  ],
   "8874": [
     {
       "number": 12600,
@@ -521,6 +530,15 @@
       "title_key": "bug 650165 29 x preserve subcontracting comments when copying routings"
     }
   ],
+  "11914": [
+    {
+      "number": 13011,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T08:41:30Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13011",
+      "title_key": "bug fix 455 preserve item card planning and report actual bom errors"
+    }
+  ],
   "11938": [
     {
       "number": 11964,
@@ -593,6 +611,15 @@
       "title_key": "backport 12148 make peppol order response conformant with bis 28 t76 ab 653519"
     }
   ],
+  "12160": [
+    {
+      "number": 12946,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T12:58:29Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12946",
+      "title_key": "deliverable 654807 29 x move french accelerated depreciation to w1 base application"
+    }
+  ],
   "12255": [
     {
       "number": 12371,
@@ -600,6 +627,15 @@
       "merged_at": "2026-10-06T12:50:51Z",
       "url": "https://github.com/microsoft/BCApps/pull/12371",
       "title_key": "fix overwrite import of exported system permission sets backport 12255"
+    }
+  ],
+  "12266": [
+    {
+      "number": 13010,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T08:39:43Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13010",
+      "title_key": "bug fix 522 blank replenishment system for non item bom cost shares"
     }
   ],
   "12294": [
@@ -627,6 +663,15 @@
       "merged_at": "2026-10-09T13:33:36Z",
       "url": "https://github.com/microsoft/BCApps/pull/12604",
       "title_key": "fix saas state leak in permissions test populatepermissionbuffer tests"
+    }
+  ],
+  "12445": [
+    {
+      "number": 13006,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T08:26:38Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13006",
+      "title_key": "bug fix 443 clarify quality management quantity tooltips"
     }
   ],
   "12545": [
@@ -1620,6 +1665,13 @@
       "merged_at": "2026-10-19T11:05:09Z",
       "url": "https://github.com/microsoft/BCApps/pull/11952",
       "title_key": "report 11564 foreign currency layout foreign currency opening balance is not included"
+    },
+    {
+      "number": 13016,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-20T13:12:00Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13016",
+      "title_key": "master data management cleanup when copying environment"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "id": "guidelines/bcquality/community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Check the AOAI Operation Response before using generated output",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
+  "published_at": "2026-10-20T08:48:36.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.578Z",
+      "blob": "c092333831e832c9e84ab4bccf85e1d3960cbb22",
+      "words": 386,
+      "forms": 0
+    }
+  },
+  "input_hash": "c092333831e832c9e84ab4bccf85e1d3960cbb22",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "community/knowledge/copilot/check-aoai-operation-response-before-using-output.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 386,
+    "identifiers": [
+      "GenerateChatCompletion",
+      "GenerateTextCompletion",
+      "GenerateEmbeddings",
+      "SecretText",
+      "SetManagedResourceAuthorization",
+      "IsSuccess",
+      "GetLastMessage"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c092333831e832c9e84ab4bccf85e1d3960cbb22"
+}

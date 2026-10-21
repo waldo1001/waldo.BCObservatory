@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12813",
+  "number": 12813,
+  "title": "[GB] Fix reverse charge VAT sales posting",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "sales",
+    "administration",
+    "finance"
+  ],
+  "summary": "GB reverse-charge VAT sales posting now correctly handles zero-quantity lines and uses line-based applicability checks instead of header-copied state, with legacy item validation isolated behind the feature flag.",
+  "key_points": [
+    "Fixed reverse-charge calculation to skip zero-quantity sales lines during posting",
+    "Changed applicability checks to read from the sales line's posting state rather than a copied header",
+    "Isolated legacy item flag validation behind the reverse-charge feature status to preserve backward compatibility",
+    "Added eight regression test scenarios covering feature states, conflicting setups, partial invoicing, thresholds, and edge cases"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "sales"
+  ],
+  "quote": "Sales posting still validates legacy item flags, preventing items configured only for GB reverse charge from posting.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.00371,
+    "changes_in_call": 1
+  }
+}

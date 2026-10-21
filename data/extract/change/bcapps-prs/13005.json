@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/13005",
+  "number": 13005,
+  "title": "[Master Data Management] Cleanup when copying environment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Master Data Management now cleans up sensitive data before environment copying, preventing confidential information from being transferred to copied environments.",
+  "key_points": [
+    "Cleanup executes before environment copy operations",
+    "Prevents sensitive data leakage during environment duplication",
+    "Low risk change targeting pre-release functionality",
+    "Includes automated test coverage for the cleanup behavior",
+    "Affects Master Data Management Setup and transport codeunits"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration"
+  ],
+  "quote": "We should do cleanup before environment gets copied",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003336,
+    "changes_in_call": 1
+  }
+}

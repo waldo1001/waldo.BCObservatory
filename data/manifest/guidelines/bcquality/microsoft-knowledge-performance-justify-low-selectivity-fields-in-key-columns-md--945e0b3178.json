@@ -1,0 +1,46 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Justify low-selectivity fields in key columns",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md",
+  "published_at": "2026-10-20T08:53:24.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.439Z",
+      "blob": "6e2f3387fcc52dfe09f81ce99fad5072635e7778",
+      "words": 444,
+      "forms": 0
+    }
+  },
+  "input_hash": "6e2f3387fcc52dfe09f81ce99fad5072635e7778",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/performance/justify-low-selectivity-fields-in-key-columns.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 444,
+    "identifiers": [
+      "IncludedFields",
+      "SumIndexFields",
+      "CalcSums",
+      "ModifyAll"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6e2f3387fcc52dfe09f81ce99fad5072635e7778"
+}

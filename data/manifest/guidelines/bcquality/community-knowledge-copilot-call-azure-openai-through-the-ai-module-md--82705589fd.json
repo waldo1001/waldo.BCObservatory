@@ -1,0 +1,49 @@
+{
+  "id": "guidelines/bcquality/community/knowledge/copilot/call-azure-openai-through-the-ai-module.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Call Azure OpenAI through the System.AI module, not a hand-built HttpClient request",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/call-azure-openai-through-the-ai-module.md",
+  "published_at": "2026-10-20T08:48:36.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.542Z",
+      "blob": "60e049ac2898e8c2e3f20932509df3be12092a10",
+      "words": 489,
+      "forms": 0
+    }
+  },
+  "input_hash": "60e049ac2898e8c2e3f20932509df3be12092a10",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "community/knowledge/copilot/call-azure-openai-through-the-ai-module.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 489,
+    "identifiers": [
+      "SetCopilotCapability",
+      "HttpClient",
+      "SetAuthorization",
+      "SecretText",
+      "SetManagedResourceAuthorization",
+      "GenerateChatCompletion",
+      "IsEnabled"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "60e049ac2898e8c2e3f20932509df3be12092a10"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/13005",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master Data Management] Cleanup when copying environment",
+  "url": "https://github.com/microsoft/BCApps/pull/13005",
+  "published_at": "2026-10-20T16:44:36Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:38.237Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-21T00:20:44.092Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003336
+    },
+    "linked": {
+      "at": "2026-10-21T00:20:44.388Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-21T00:20:44.406Z",
+      "path": "content/changes/bcapps/13005.md"
+    }
+  },
+  "input_hash": "7dc38deea4516e1a0645ea9829ec095dcb7464d0:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13005,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "7dc38deea4516e1a0645ea9829ec095dcb7464d0",
+    "author": "dcenic",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master data management cleanup when copying environment"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c826c096ad64f0d69c7af3b04cb60226612b0de5d2493e740e1903c7b6a2db40"
+}

@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL security review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-security-review.md",
-  "published_at": "2026-09-29T15:12:51.000Z",
+  "published_at": "2026-10-20T09:41:18.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:27:37.105Z",
-      "blob": "3d70173eee5c1dc8fd8eb97276f47d6edd24434f",
-      "words": 1433,
+      "at": "2026-10-21T00:20:34.341Z",
+      "blob": "98d8bee922c5dd76839dbeb75cafa731a6461854",
+      "words": 1516,
       "forms": 0
     }
   },
-  "input_hash": "3d70173eee5c1dc8fd8eb97276f47d6edd24434f",
+  "input_hash": "98d8bee922c5dd76839dbeb75cafa731a6461854",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,37 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1433
+    "words": 1516,
+    "identifiers": [
+      "OAuth2",
+      "HttpClient",
+      "IsolatedStorage",
+      "SetEncrypted",
+      "SecretText",
+      "NonDebuggable",
+      "AreURIsHaveSameHost",
+      "IsValidURIPattern",
+      "RecordRef",
+      "RecordId",
+      "TransferFields",
+      "internalsVisibleTo",
+      "IntegrationEvent",
+      "SkipValidation",
+      "HasAccess",
+      "UserSecurityId",
+      "SetFilter",
+      "ServiceEnabled",
+      "FilterGroup",
+      "OnOpenPage",
+      "SetRange",
+      "OnRun",
+      "ToolTip",
+      "OptionCaption",
+      "DataClassification"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "3d70173eee5c1dc8fd8eb97276f47d6edd24434f"
+  "output_hash": "98d8bee922c5dd76839dbeb75cafa731a6461854"
 }

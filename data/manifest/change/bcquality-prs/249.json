@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/249",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Route guard-dependent and/or conditions to the short-circuit article",
+  "url": "https://github.com/microsoft/BCQuality/pull/249",
+  "published_at": "2026-10-20T15:59:46Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:52.379Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 1,
+      "objects": 0,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-21T00:20:59.814Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003991
+    },
+    "linked": {
+      "at": "2026-10-21T00:20:59.816Z",
+      "objects": 0,
+      "unjoined": 1,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:20:59.823Z",
+      "path": "content/changes/bcquality/249.md"
+    }
+  },
+  "input_hash": "a4593a1b1585a0fa663efbf39ff02c60f846d851:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 249,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "a4593a1b1585a0fa663efbf39ff02c60f846d851",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "route guard dependent and or conditions to the short circuit article"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "79d0323e06d642a6d119e4b3c9e39b48c884bd4b7e0785623ede26252d3c5483"
+}

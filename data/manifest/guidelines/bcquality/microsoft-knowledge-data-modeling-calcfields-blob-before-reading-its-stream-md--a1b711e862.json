@@ -1,0 +1,48 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/data-modeling/calcfields-blob-before-reading-its-stream.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Calculate a BLOB field before reading its stream",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/data-modeling/calcfields-blob-before-reading-its-stream.md",
+  "published_at": "2026-10-20T09:41:18.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:33.939Z",
+      "blob": "6f832c3ec75740defd1c28f6d1af0e4a68e69f45",
+      "words": 255,
+      "forms": 0
+    }
+  },
+  "input_hash": "6f832c3ec75740defd1c28f6d1af0e4a68e69f45",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/data-modeling/calcfields-blob-before-reading-its-stream.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 255,
+    "identifiers": [
+      "FindSet",
+      "CalcFields",
+      "SetAutoCalcFields",
+      "CreateInStream",
+      "MediaSet",
+      "CreateOutStream"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "6f832c3ec75740defd1c28f6d1af0e4a68e69f45"
+}

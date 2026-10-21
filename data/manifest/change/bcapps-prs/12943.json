@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12943",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "DK VAT Return Periods regression fix for frequency-aware parsing",
+  "url": "https://github.com/microsoft/BCApps/pull/12943",
+  "published_at": "2026-10-20T13:24:23Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:21:14.923Z",
+      "change_class": "code",
+      "files": 12,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-21T00:21:22.948Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004629
+    },
+    "linked": {
+      "at": "2026-10-21T00:21:28.494Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-21T00:21:28.505Z",
+      "path": "content/changes/bcapps/12943.md"
+    }
+  },
+  "input_hash": "f73f5afb316e4bc42d8197044b9503c0a160b43a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12943,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "f73f5afb316e4bc42d8197044b9503c0a160b43a",
+    "author": "mynjj",
+    "author_type": "User",
+    "labels": [
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "dk vat return periods regression fix for frequency aware parsing"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "c7b6e52b959c81962ca4ed34f07f57ad6dbcfa2eb523dc47a956d6445cb5411c"
+}

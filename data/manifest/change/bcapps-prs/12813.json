@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12813",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[GB] Fix reverse charge VAT sales posting",
+  "url": "https://github.com/microsoft/BCApps/pull/12813",
+  "published_at": "2026-10-20T21:22:15Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:35.379Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 4,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-21T00:20:42.718Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.00371
+    },
+    "linked": {
+      "at": "2026-10-21T00:20:43.901Z",
+      "objects": 4,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-21T00:20:44.050Z",
+      "path": "content/changes/bcapps/12813.md"
+    }
+  },
+  "input_hash": "07afb3eee3ab9f09678fb1ce6c22d5364df137ce:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12813,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "07afb3eee3ab9f09678fb1ce6c22d5364df137ce",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Ownership: Needs Review",
+      "Team: Other"
+    ],
+    "community_contribution": false,
+    "title_key": "gb fix reverse charge vat sales posting"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "3ca61e74e58638809fd51127643709fe64e2b4b6ed0e4d215a7d0c65049c4da0"
+}

@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/9104",
+  "number": 9104,
+  "title": "Delocalize Export G/L Entries to XML into Audit File Export framework",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Export G/L Entries to XML feature was moved from French localization into a reusable Audit File Export framework, with a new generic visibility interface letting each export format control UI elements on the export document card.",
+  "key_points": [
+    "Created Audit File Export Page Visibility interface for formats to control field/action visibility",
+    "Refactored FEC page extension to use visibility interface instead of hard-coded toggles",
+    "Added new XML Audit File app that exports G/L entries to XML through the shared framework",
+    "Included XmlPort, data handling, permission sets, setup pages, and test coverage",
+    "Registered new app and test projects in build configuration files"
+  ],
+  "change_kind": "refactor",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": "To make this capability available beyond FR and reusable across localizations, it needs to be delocalized onto the shared Audit File Export framework.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005561,
+    "changes_in_call": 1
+  }
+}

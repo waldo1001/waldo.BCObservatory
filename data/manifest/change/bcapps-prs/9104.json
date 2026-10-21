@@ -1,0 +1,62 @@
+{
+  "id": "change/bcapps-prs/9104",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Delocalize Export G/L Entries to XML into Audit File Export framework",
+  "url": "https://github.com/microsoft/BCApps/pull/9104",
+  "published_at": "2026-10-20T21:47:21Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:36.408Z",
+      "change_class": "code",
+      "files": 43,
+      "al": 29,
+      "objects": 12,
+      "unjoined": 17
+    },
+    "extracted": {
+      "at": "2026-10-21T00:20:44.465Z",
+      "prompt": "extract-change@1",
+      "kind": "refactor",
+      "behavior": false,
+      "cost_usd": 0.005561
+    },
+    "linked": {
+      "at": "2026-10-21T00:20:44.847Z",
+      "objects": 12,
+      "unjoined": 17,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-21T00:20:44.871Z",
+      "path": "content/changes/bcapps/9104.md"
+    }
+  },
+  "input_hash": "8c79a8bbbd3fd61e57b542dcd095cc7290cbcec4:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9104,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "8c79a8bbbd3fd61e57b542dcd095cc7290cbcec4",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Build: scripts & configs",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "delocalize export g l entries to xml into audit file export framework"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "bb3dd6f9320337dfb9a2b5cdb73dd2d5a5b2f76a670cd4ff5ebf5181d5e6a6fb"
+}

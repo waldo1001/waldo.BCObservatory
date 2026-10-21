@@ -1,0 +1,45 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/events/isolated-events-are-isolated-only-outside-a-write-transaction.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Isolated events are isolated only when no write transaction is open",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/events/isolated-events-are-isolated-only-outside-a-write-transaction.md",
+  "published_at": "2026-10-20T09:41:18.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.038Z",
+      "blob": "0975e5735407927e94da9765a74c9e57e09f1a0f",
+      "words": 421,
+      "forms": 0
+    }
+  },
+  "input_hash": "0975e5735407927e94da9765a74c9e57e09f1a0f",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/events/isolated-events-are-isolated-only-outside-a-write-transaction.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 421,
+    "identifiers": [
+      "BusinessEvent",
+      "IntegrationEvent",
+      "InternalEvent"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0975e5735407927e94da9765a74c9e57e09f1a0f"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12584",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts",
+  "url": "https://github.com/microsoft/BCApps/pull/12584",
+  "published_at": "2026-10-20T09:51:27Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "643e393adc8fe55dd17f46c5da29ef90fd9cdeb7:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12584,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "643e393adc8fe55dd17f46c5da29ef90fd9cdeb7",
+    "author": "ChethanT",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 649862 subcontracting restore get receipt lines for subcontracting receipts"
+  }
+}

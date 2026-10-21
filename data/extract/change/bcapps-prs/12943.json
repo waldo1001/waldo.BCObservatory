@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12943",
+  "number": 12943,
+  "title": "DK VAT Return Periods regression fix for frequency-aware parsing",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance"
+  ],
+  "summary": "The Danish VAT Return Periods parser now correctly handles the official SKAT API XML structure, enabling proper parsing of VAT reporting periods instead of failing with zero records inserted.",
+  "key_points": [
+    "Fixed XML parsing logic to match the authoritative SKAT API response shape based on official documentation and sample clients",
+    "Changed filing deadline source from optional BetalingDato to required AngivelseFristKalenderFristDato field",
+    "Added comprehensive test XML resources covering quarterly periods, frequency changes, missing data scenarios, and edge cases",
+    "Rewrote VAT period retrieval and XML parsing codeunits to handle multiple frequency definitions and date mismatches",
+    "Tests now validate parser behavior against official SKAT examples to prevent future regressions"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004629,
+    "changes_in_call": 1
+  }
+}

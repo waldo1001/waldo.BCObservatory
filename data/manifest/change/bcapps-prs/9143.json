@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/9143",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Move French sales specifics to the new Sales FR first-party app",
+  "url": "https://github.com/microsoft/BCApps/pull/9143",
+  "published_at": "2026-10-20T12:56:21Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "3528e25c6df5dad3c904ac6e738ab3ef39928284:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 9143,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "3528e25c6df5dad3c904ac6e738ab3ef39928284",
+    "author": "ventselartur",
+    "author_type": "User",
+    "labels": [
+      "Build: scripts & configs",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "move french sales specifics to the new sales fr first party app"
+  }
+}

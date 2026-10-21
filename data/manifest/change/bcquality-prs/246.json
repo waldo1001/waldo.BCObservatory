@@ -1,0 +1,58 @@
+{
+  "id": "change/bcquality-prs/246",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Expose plan guidance as a preview plugin skill",
+  "url": "https://github.com/microsoft/BCQuality/pull/246",
+  "published_at": "2026-10-20T13:43:32Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:21:07.513Z",
+      "change_class": "code",
+      "files": 10,
+      "al": 4,
+      "objects": 0,
+      "unjoined": 4
+    },
+    "extracted": {
+      "at": "2026-10-21T00:21:13.390Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003787
+    },
+    "linked": {
+      "at": "2026-10-21T00:21:13.392Z",
+      "objects": 0,
+      "unjoined": 4,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:21:13.397Z",
+      "path": "content/changes/bcquality/246.md"
+    }
+  },
+  "input_hash": "20f9e2fd992268f297ca084033f9dc1a353fcc91:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 246,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "20f9e2fd992268f297ca084033f9dc1a353fcc91",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "expose plan guidance as a preview plugin skill"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "17b3ae506ea651e38e981c4f889b6272d2364a7a7427d888a91d4c0e72be8cfb"
+}

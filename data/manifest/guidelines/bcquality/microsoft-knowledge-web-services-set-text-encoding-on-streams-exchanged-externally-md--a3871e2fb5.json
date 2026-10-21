@@ -1,0 +1,48 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/web-services/set-text-encoding-on-streams-exchanged-externally.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Set the text encoding when converting exchanged text to or from BLOB bytes",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/web-services/set-text-encoding-on-streams-exchanged-externally.md",
+  "published_at": "2026-10-20T09:41:18.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.213Z",
+      "blob": "0915e6cc3b44cb50630e5de16b3fdd721494b750",
+      "words": 411,
+      "forms": 0
+    }
+  },
+  "input_hash": "0915e6cc3b44cb50630e5de16b3fdd721494b750",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/web-services/set-text-encoding-on-streams-exchanged-externally.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 411,
+    "identifiers": [
+      "TextEncoding",
+      "MSDos",
+      "WriteText",
+      "ReadText",
+      "DownloadFromStream",
+      "CopyStream"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "0915e6cc3b44cb50630e5de16b3fdd721494b750"
+}

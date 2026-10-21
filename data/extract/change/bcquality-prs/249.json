@@ -1,0 +1,31 @@
+{
+  "item_id": "change/bcquality-prs/249",
+  "number": 249,
+  "title": "Route guard-dependent and/or conditions to the short-circuit article",
+  "repo": "microsoft/BCQuality",
+  "systems_joined": [],
+  "summary": "The performance review now directs developers to the short-circuit article when guard conditions use operators like and/or with operands that depend on the guard, such as divisions or field reads that could be unsafe without the guard.",
+  "key_points": [
+    "Adds a targeted cue to the performance review to identify guard-dependent and/or conditions",
+    "Routes developers to the boolean-operators-do-not-short-circuit article for patterns that depend on guard evaluation",
+    "Excludes conditions with independently safe operands to keep examples clean",
+    "Improves article selection from 0% to 100% of test cases with the fix",
+    "Validation passes for 292 test cases across review fixtures and contracts"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003991,
+    "changes_in_call": 1
+  }
+}

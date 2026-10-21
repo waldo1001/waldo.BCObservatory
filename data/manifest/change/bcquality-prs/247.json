@@ -1,0 +1,33 @@
+{
+  "id": "change/bcquality-prs/247",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "Prepare BCQuality v1.9 release",
+  "url": "https://github.com/microsoft/BCQuality/pull/247",
+  "published_at": "2026-10-20T13:52:41Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "ce45c5abd9a35d5dbd48f51f6b5a10a418c7f70d:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 247,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "ce45c5abd9a35d5dbd48f51f6b5a10a418c7f70d",
+    "author": "JesperSchulz",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "prepare bcquality v1 9 release"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-21T00:20:50.049Z",
+  "retry_after": null
+}

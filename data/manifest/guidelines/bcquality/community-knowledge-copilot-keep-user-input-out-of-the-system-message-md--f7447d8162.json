@@ -1,0 +1,47 @@
+{
+  "id": "guidelines/bcquality/community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Keep user input and record text out of the system message",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
+  "published_at": "2026-10-20T08:48:36.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.642Z",
+      "blob": "db357090dd47ca22ff23a74b22dd78281d60afe3",
+      "words": 304,
+      "forms": 0
+    }
+  },
+  "input_hash": "db357090dd47ca22ff23a74b22dd78281d60afe3",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "community/knowledge/copilot/keep-user-input-out-of-the-system-message.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 304,
+    "identifiers": [
+      "SetPrimarySystemMessage",
+      "AddSystemMessage",
+      "AddUserMessage",
+      "StrSubstNo",
+      "TextBuilder"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "db357090dd47ca22ff23a74b22dd78281d60afe3"
+}

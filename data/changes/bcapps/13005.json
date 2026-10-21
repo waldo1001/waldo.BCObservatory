@@ -1,0 +1,114 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 13005,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/13005",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-20T16:44:36Z",
+  "merge_commit_sha": "7dc38deea4516e1a0645ea9829ec095dcb7464d0",
+  "author": "dcenic",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master Data Management] Cleanup when copying environment",
+  "body_hash": "3d3efc5631fe87806d66b01173bc80686b91b4226374f39b8fd6ee68e9718aef",
+  "fixes_issues": [],
+  "work_items": [
+    655932
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 11,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test library/src/LibraryMasterDataMgt.Codeunit.al",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/MasterDataManagement/test/src/MDMCrossEnvConsumerTests.Codeunit.al",
+      "status": "modified",
+      "additions": 110,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 171,
+    "deletions": 14,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MDMHttpSourceTransport.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7247",
+        "type": "codeunit",
+        "id": 7247,
+        "name": "MDM Http Source Transport",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7247"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/codeunits/MasterDataMgtSubscribers.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/7237",
+        "type": "codeunit",
+        "id": 7237,
+        "name": "Master Data Mgt. Subscribers",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "codeunit/7237"
+      },
+      {
+        "path": "src/Apps/W1/MasterDataManagement/app/src/tables/MasterDataManagementSetup.Table.al",
+        "status": "modified",
+        "key": "table/7230",
+        "type": "table",
+        "id": 7230,
+        "name": "Master Data Management Setup",
+        "app": "MasterDataManagement",
+        "cc": "w1",
+        "page": "table/7230"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "integration"
+  ],
+  "apps": [
+    "MasterDataManagement"
+  ]
+}

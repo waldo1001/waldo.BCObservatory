@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12901",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix variantless item description matching",
+  "url": "https://github.com/microsoft/BCApps/pull/12901",
+  "published_at": "2026-10-20T19:42:10Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "365882ae56cb91c1fc33a0866a0d8fec2a7a89df:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12901,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "365882ae56cb91c1fc33a0866a0d8fec2a7a89df",
+    "author": "AleksandricMarko",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix variantless item description matching"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-21T00:20:37.056Z",
+  "retry_after": null
+}

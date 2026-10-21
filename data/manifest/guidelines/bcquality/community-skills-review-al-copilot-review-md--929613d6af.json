@@ -1,0 +1,62 @@
+{
+  "id": "guidelines/bcquality/community/skills/review/al-copilot-review.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "AL Copilot review",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/community/skills/review/al-copilot-review.md",
+  "published_at": "2026-10-20T08:48:36.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.763Z",
+      "blob": "d527b05f30156b8e3e138e82fbd66759a3197714",
+      "words": 704,
+      "forms": 0
+    }
+  },
+  "input_hash": "d527b05f30156b8e3e138e82fbd66759a3197714",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "community/skills/review/al-copilot-review.md",
+    "description": "Reviews AL source changes that build Copilot features on the System.AI module against Copilot guidance from BCQuality.",
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 704,
+    "identifiers": [
+      "PromptDialog",
+      "RegisterCapability",
+      "IsCapabilityRegistered",
+      "SetCopilotCapability",
+      "SetAuthorization",
+      "SetManagedResourceAuthorization",
+      "IsEnabled",
+      "SetPrimarySystemMessage",
+      "AddSystemMessage",
+      "AddUserMessage",
+      "GenerateChatCompletion",
+      "GenerateTextCompletion",
+      "GenerateEmbeddings",
+      "IsSuccess",
+      "GetLastMessage",
+      "OnQueryClosePage",
+      "CloseAction",
+      "OnInstallAppPerDatabase",
+      "OnUpgradePerDatabase",
+      "HttpClient"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d527b05f30156b8e3e138e82fbd66759a3197714"
+}

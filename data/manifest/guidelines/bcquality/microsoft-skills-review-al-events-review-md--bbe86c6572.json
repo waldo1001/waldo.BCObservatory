@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "AL events review",
   "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/skills/review/al-events-review.md",
-  "published_at": "2026-10-05T12:59:53.000Z",
+  "published_at": "2026-10-20T09:41:18.000Z",
   "language": "en",
   "state": "fetched",
   "stages": {
@@ -13,13 +13,13 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T13:03:29.065Z",
-      "blob": "1a5feeab39f312780f60b055dc7b0284f3ff35c5",
-      "words": 1776,
+      "at": "2026-10-21T00:20:34.289Z",
+      "blob": "972e322f15680ba686fcf0175066c2e6a26544b3",
+      "words": 1874,
       "forms": 0
     }
   },
-  "input_hash": "1a5feeab39f312780f60b055dc7b0284f3ff35c5",
+  "input_hash": "972e322f15680ba686fcf0175066c2e6a26544b3",
   "attempts": 0,
   "flags": [],
   "meta": {
@@ -31,9 +31,38 @@
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 1776
+    "words": 1874,
+    "identifiers": [
+      "OnBefore",
+      "OnAfter",
+      "BindSubscription",
+      "UnbindSubscription",
+      "IntegrationEvent",
+      "BusinessEvent",
+      "InternalEvent",
+      "EventSubscriber",
+      "IsHandled",
+      "EventSubscriberInstance",
+      "IncludeSender",
+      "GlobalVarAccess",
+      "RecordRef",
+      "xRec",
+      "ChangeCompany",
+      "StartSession",
+      "RunTrigger",
+      "GetDatabaseTableTriggerSetup",
+      "OnAfterGetDatabaseTableTriggerSetup",
+      "GlobalTriggerManagement",
+      "OnDatabaseInsert",
+      "OnDatabaseModify",
+      "OnDatabaseDelete",
+      "OnDatabaseRename",
+      "SalesHdr",
+      "DocNo"
+    ],
+    "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "1a5feeab39f312780f60b055dc7b0284f3ff35c5"
+  "output_hash": "972e322f15680ba686fcf0175066c2e6a26544b3"
 }

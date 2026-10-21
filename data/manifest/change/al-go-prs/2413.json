@@ -1,0 +1,58 @@
+{
+  "id": "change/al-go-prs/2413",
+  "pillar": "change",
+  "source": "al-go-prs",
+  "tier": "official",
+  "title": "Only enable automatic Copilot review triggers when opted in",
+  "url": "https://github.com/microsoft/AL-Go/pull/2413",
+  "published_at": "2026-10-20T18:36:52Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:37.402Z",
+      "change_class": "code",
+      "files": 9,
+      "al": 6,
+      "objects": 0,
+      "unjoined": 6
+    },
+    "extracted": {
+      "at": "2026-10-21T00:20:44.445Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.003851
+    },
+    "linked": {
+      "at": "2026-10-21T00:20:44.448Z",
+      "objects": 0,
+      "unjoined": 6,
+      "commit": null
+    },
+    "published": {
+      "at": "2026-10-21T00:20:44.455Z",
+      "path": "content/changes/al-go/2413.md"
+    }
+  },
+  "input_hash": "959519dfe53da49b83bd5cf1f43eaa0be7ca5301:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 2413,
+    "repo": "microsoft/AL-Go",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "959519dfe53da49b83bd5cf1f43eaa0be7ca5301",
+    "author": "aholstrup1",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "only enable automatic copilot review triggers when opted in"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "1209e21fecffa4cc0eced9f4ff7f753cec775c47941d05648be1b4a86499fe7f"
+}

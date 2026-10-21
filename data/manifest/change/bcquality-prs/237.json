@@ -1,0 +1,30 @@
+{
+  "id": "change/bcquality-prs/237",
+  "pillar": "change",
+  "source": "bcquality-prs",
+  "tier": "official",
+  "title": "knowledge(data-modeling): keep business state independent of Job Queue lifetime",
+  "url": "https://github.com/microsoft/BCQuality/pull/237",
+  "published_at": "2026-10-20T08:52:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    }
+  },
+  "input_hash": "c3f4895ca4de6f08124eab02658adfd2a67fbf15:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 237,
+    "repo": "microsoft/BCQuality",
+    "base": "main",
+    "major": null,
+    "merge_commit_sha": "c3f4895ca4de6f08124eab02658adfd2a67fbf15",
+    "author": "RaimondStokkel",
+    "author_type": "User",
+    "labels": [],
+    "community_contribution": false,
+    "title_key": "knowledge data modeling keep business state independent of job queue lifetime"
+  }
+}

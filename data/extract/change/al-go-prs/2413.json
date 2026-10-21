@@ -1,0 +1,31 @@
+{
+  "item_id": "change/al-go-prs/2413",
+  "number": 2413,
+  "title": "Only enable automatic Copilot review triggers when opted in",
+  "repo": "microsoft/AL-Go",
+  "systems_joined": [],
+  "summary": "Automatic Copilot review workflow triggers now activate only when explicitly opted in through settings, preventing unintended workflow runs from templates that bypass the updater's inclusion logic.",
+  "key_points": [
+    "Copilot review workflows ship with only manual dispatch triggers by default",
+    "The updater adds pull_request and workflow_run triggers only when CodeReviewAgent.enabled is true",
+    "Templates prevent automatic reviews from activating in repositories using outdated updaters",
+    "Settings schema and Copilot scenario documentation updated to reflect the opt-in requirement",
+    "Comprehensive tests added to validate trigger configuration and workflow file handling"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "copilot",
+    "development"
+  ],
+  "quote": "Automatic triggers in those raw files therefore activate workflows before review is enabled.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003851,
+    "changes_in_call": 1
+  }
+}

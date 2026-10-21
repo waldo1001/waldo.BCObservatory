@@ -1,0 +1,570 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 9104,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/9104",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-20T21:47:21Z",
+  "merge_commit_sha": "8c79a8bbbd3fd61e57b542dcd095cc7290cbcec4",
+  "author": "ventselartur",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Build: scripts & configs",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "Delocalize Export G/L Entries to XML into Audit File Export framework",
+  "body_hash": "04b60099b00976d56f311ed09cdd6f5e1528738fc254bff7d8d339a0e1f1b2b6",
+  "fixes_issues": [],
+  "work_items": [
+    610524
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "build/groups.json",
+      "status": "modified",
+      "additions": 44,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects.json",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "build/projects/Apps FR/.AL-Go/settings.json",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "class": "build"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/app.json",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/src/AuditFileExportFormatFEC.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/AuditExportDocCardFEC.PageExt.al",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 63,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/FECAuditFile/app/src/PageVisibilityFEC.Codeunit.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/README.md",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "docs"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/app.json",
+      "status": "added",
+      "additions": 47,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/extensionlogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/AuditFileExportFormatXML.EnumExt.al",
+      "status": "added",
+      "additions": 16,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/DataCheckXML.Codeunit.al",
+      "status": "added",
+      "additions": 30,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/DataHandlingXML.Codeunit.al",
+      "status": "added",
+      "additions": 48,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditExportDocCardXML.PageExt.al",
+      "status": "added",
+      "additions": 41,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditFileExportHeaderXML.TableExt.al",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/GenerateFileXML.Codeunit.al",
+      "status": "added",
+      "additions": 50,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/ExportGLEntriesFR.XmlPort.al",
+      "status": "added",
+      "additions": 219,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/PageVisibilityXML.Codeunit.al",
+      "status": "added",
+      "additions": 27,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLAuditExport.PermissionSet.al",
+      "status": "added",
+      "additions": 22,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLObjects.PermissionSet.al",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditExportFormatSetupXML.PageExt.al",
+      "status": "added",
+      "additions": 17,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditFileExportSetupXML.PageExt.al",
+      "status": "added",
+      "additions": 45,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/InstallXML.Codeunit.al",
+      "status": "added",
+      "additions": 26,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/test/app.json",
+      "status": "added",
+      "additions": 59,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/test/extensionlogo.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/FR/XMLAuditFile/test/src/UTREPExportGLFR.Codeunit.al",
+      "status": "added",
+      "additions": 325,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/SE/SIE/app/src/AuditFileExportFormatSIE.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/SE/SIE/app/src/DataHandlingSIE.Codeunit.al",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/SE/SIE/app/src/ExportEngineSIE/AuditExportDocCardSIE.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 31,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/SE/SIE/test/src/SIEImportExportTests.Codeunit.al",
+      "status": "modified",
+      "additions": 31,
+      "deletions": 1,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/app.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "class": "other"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportFormat.Enum.al",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/src/AuditFilePageVisibility.Codeunit.al",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/AuditFileExport/app/src/ExportEngine/AuditFileExportDocCard.Page.al",
+      "status": "modified",
+      "additions": 83,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/AuditDataHandlingSAFT.Codeunit.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/AuditFileExportFormatSAFT.EnumExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/AuditExportDocCardSAFT.PageExt.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/SAF-T/test/src/SAFTTests.Codeunit.al",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 0,
+      "class": "al-test"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/AuditFileExport/ExportGLEntries.XmlPort.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/AuditFileExport/ExportGLEntriestoXML.Report.al",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/FR/Tests/Local/UTREPExportGeneralLedger.Codeunit.al",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 1,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 43,
+    "additions": 1429,
+    "deletions": 112,
+    "al": 29
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/AuditFileExportFormatFEC.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/10826",
+        "type": "enumextension",
+        "id": 10826,
+        "name": "Audit File Export Format FEC",
+        "app": "FECAuditFile",
+        "cc": "fr",
+        "page": "enumextension/10826-fr"
+      },
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/ExportEngine/AuditExportDocCardFEC.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/10826",
+        "type": "pageextension",
+        "id": 10826,
+        "name": "Audit Export Doc. Card FEC",
+        "app": "FECAuditFile",
+        "cc": "fr",
+        "page": "pageextension/10826-fr"
+      },
+      {
+        "path": "src/Apps/SE/SIE/app/src/AuditFileExportFormatSIE.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/5315",
+        "type": "enumextension",
+        "id": 5315,
+        "name": "Audit File Export Format SIE",
+        "app": "SIE",
+        "cc": "se",
+        "page": "enumextension/5315-se"
+      },
+      {
+        "path": "src/Apps/SE/SIE/app/src/DataHandlingSIE.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5315",
+        "type": "codeunit",
+        "id": 5315,
+        "name": "Data Handling SIE",
+        "app": "SIE",
+        "cc": "se",
+        "page": "codeunit/5315-se"
+      },
+      {
+        "path": "src/Apps/SE/SIE/app/src/ExportEngineSIE/AuditExportDocCardSIE.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/5314",
+        "type": "pageextension",
+        "id": 5314,
+        "name": "Audit Export Doc. Card SIE",
+        "app": "SIE",
+        "cc": "se",
+        "page": "pageextension/5314-se"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportFormat.Enum.al",
+        "status": "modified",
+        "key": "enum/5262",
+        "type": "enum",
+        "id": 5262,
+        "name": "Audit File Export Format",
+        "app": "AuditFileExport",
+        "cc": "w1",
+        "page": "enum/5262"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/ExportEngine/AuditFileExportDocCard.Page.al",
+        "status": "modified",
+        "key": "page/5267",
+        "type": "page",
+        "id": 5267,
+        "name": "Audit File Export Doc. Card",
+        "app": "AuditFileExport",
+        "cc": "w1",
+        "page": "page/5267"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/AuditDataHandlingSAFT.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5281",
+        "type": "codeunit",
+        "id": 5281,
+        "name": "Audit Data Handling SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "codeunit/5281"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/AuditFileExportFormatSAFT.EnumExt.al",
+        "status": "modified",
+        "key": "enumextension/5280",
+        "type": "enumextension",
+        "id": 5280,
+        "name": "Audit File Export Format SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "enumextension/5280"
+      },
+      {
+        "path": "src/Apps/W1/SAF-T/app/src/ExportEngineSAFT/AuditExportDocCardSAFT.PageExt.al",
+        "status": "modified",
+        "key": "pageextension/5283",
+        "type": "pageextension",
+        "id": 5283,
+        "name": "Audit Export Doc. Card SAF-T",
+        "app": "SAF-T",
+        "cc": "w1",
+        "page": "pageextension/5283"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/AuditFileExport/ExportGLEntries.XmlPort.al",
+        "status": "modified",
+        "key": "xmlport/10800",
+        "type": "xmlport",
+        "id": 10800,
+        "name": "Export G/L Entries",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "xmlport/10800-fr"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Local/FinancialMgt/AuditFileExport/ExportGLEntriestoXML.Report.al",
+        "status": "modified",
+        "key": "report/10820",
+        "type": "report",
+        "id": 10820,
+        "name": "Export G/L Entries to XML",
+        "app": "Base Application",
+        "cc": "fr",
+        "page": "report/10820-fr"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Apps/FR/FECAuditFile/app/src/PageVisibilityFEC.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/AuditFileExportFormatXML.EnumExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/DataCheckXML.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/DataHandlingXML.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditExportDocCardXML.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/AuditFileExportHeaderXML.TableExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportEngine/GenerateFileXML.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/ExportGLEntriesFR.XmlPort.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/PageVisibilityXML.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLAuditExport.PermissionSet.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Permissions/XMLObjects.PermissionSet.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditExportFormatSetupXML.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/AuditFileExportSetupXML.PageExt.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/FR/XMLAuditFile/app/src/Setup/InstallXML.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFileExportPageVisibility.Interface.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Apps/W1/AuditFileExport/app/src/AuditFilePageVisibility.Codeunit.al",
+        "status": "added",
+        "reason": "not-in-snapshot"
+      },
+      {
+        "path": "src/Layers/FR/BaseApp/Finance/RoleCenters/FinanceManagerRoleCenter.Page.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "finance"
+  ],
+  "apps": [
+    "AuditFileExport",
+    "Base Application",
+    "FECAuditFile",
+    "SAF-T",
+    "SIE"
+  ]
+}

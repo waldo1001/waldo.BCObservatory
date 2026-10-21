@@ -1,0 +1,51 @@
+{
+  "id": "guidelines/bcquality/microsoft/knowledge/security/restore-the-filtergroup-after-setting-hidden-filters.md",
+  "pillar": "guidelines",
+  "source": "bcquality",
+  "tier": "official",
+  "title": "Restore the filter group after setting hidden filters, and do not reuse platform groups",
+  "url": "https://github.com/microsoft/BCQuality/blob/main/microsoft/knowledge/security/restore-the-filtergroup-after-setting-hidden-filters.md",
+  "published_at": "2026-10-20T09:41:18.000Z",
+  "language": "en",
+  "state": "fetched",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-21T00:20:34.162Z",
+      "blob": "106206b8412127c823fc3a98bf9dd2f371e7a738",
+      "words": 354,
+      "forms": 0
+    }
+  },
+  "input_hash": "106206b8412127c823fc3a98bf9dd2f371e7a738",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "repo": "microsoft/BCQuality",
+    "path": "microsoft/knowledge/security/restore-the-filtergroup-after-setting-hidden-filters.md",
+    "description": null,
+    "ms_date": null,
+    "ms_topic": null,
+    "search_form": [],
+    "keywords": [],
+    "ai_usage": null,
+    "words": 354,
+    "identifiers": [
+      "SetRange",
+      "SetFilter",
+      "SourceTableView",
+      "SetTableView",
+      "DataItemTableView",
+      "RunPageView",
+      "SubPageView",
+      "SubPageLink",
+      "DataItemLink"
+    ],
+    "identifiers_rule": 2
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "106206b8412127c823fc3a98bf9dd2f371e7a738"
+}
