@@ -8,7 +8,7 @@ import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js"
 import { writeJson, writeText } from "../../pipeline/lib/fsx.js";
 import { ROOT } from "../../pipeline/lib/paths.js";
 import { renderSearchIndex } from "../../pipeline/render/search.js";
-import { ASKS, ATLAS_URL, LEARN_URL, PLUGIN_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
+import { ASKS, ATLAS_URL, COPILOT_PLUGIN_CMD, LEARN_URL, PLUGIN_CMD, PLUGIN_SERVERS, SERVER_CMD, SKILLS, TOOLS, installSteps, mcpMarkdown } from "../../site/src/lib/mcp.js";
 import { toyModel } from "../helpers/toy-model.js";
 
 const root = new URL("../../", import.meta.url);
@@ -28,14 +28,23 @@ test("the skill list is the plugin's skills folder, and the atlas URL is the plu
   assert.deepEqual(mcp.mcpServers["bc-observatory"].args, ["-y", "bc-observatory@latest"]);
 });
 
-test("D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bc-lookup routes a Learn hit to microsoft_docs_fetch", () => {
+test("D104: the plugin's skills are bcobs-*, each named as its folder, and none names an old bc-* skill", () => {
+  for (const d of readdirSync(new URL("plugin/skills/", root))) {
+    assert.ok(d.startsWith("bcobs-"), d);
+    const skill = read(`plugin/skills/${d}/SKILL.md`);
+    assert.equal(skill.match(/^name: (.+)$/m)?.[1], d, `${d}/SKILL.md name`);
+    assert.doesNotMatch(skill, /\bbc-(lookup|whats-new|localization|grounding)\b/, `${d}/SKILL.md names an old skill`);
+  }
+});
+
+test("D96: the plugin connects Microsoft's Learn MCP at LEARN_URL, and bcobs-lookup routes a Learn hit to microsoft_docs_fetch", () => {
   const mcp = JSON.parse(read("plugin/.mcp.json"));
   assert.equal(mcp.mcpServers["microsoft-learn"].url, LEARN_URL);
   assert.equal(mcp.mcpServers["microsoft-learn"].type, "http");
-  const lookup = read("plugin/skills/bc-lookup/SKILL.md");
+  const lookup = read("plugin/skills/bcobs-lookup/SKILL.md");
   for (const n of ["microsoft_docs_fetch", "microsoft_code_sample_search", "microsoft_docs_search"]) assert.ok(lookup.includes(n), n);
-  assert.ok(read("plugin/skills/bc-grounding/SKILL.md").includes("microsoft-learn"));
-  assert.ok(read("plugin/skills/bc-localization/SKILL.md").includes("microsoft_docs_fetch"));
+  assert.ok(read("plugin/skills/bcobs-grounding/SKILL.md").includes("microsoft-learn"));
+  assert.ok(read("plugin/skills/bcobs-localization/SKILL.md").includes("microsoft_docs_fetch"));
   assert.ok(JSON.stringify(installSteps("https://github.com/o/r")).includes(LEARN_URL));
 });
 
@@ -68,6 +77,7 @@ test("every ask names a tool or the atlas, and the README's commands match", () 
   for (const a of ASKS) for (const v of a.via.split(",")) { const w = v.trim().split(" ")[0]; assert.ok(names.has(w) || w === "bc-code-atlas" || w === "bc-observatory", a.via); }
   const readme = read("README.md");
   assert.ok(readme.includes(SERVER_CMD) && readme.includes(PLUGIN_CMD));
+  assert.ok(readme.includes(COPILOT_PLUGIN_CMD) && read("plugin/README.md").includes(COPILOT_PLUGIN_CMD), "both READMEs give the Copilot CLI install (D104)");
 });
 
 test("the twin lists every tool, skill and install step, with the versions", () => {
@@ -77,6 +87,8 @@ test("the twin lists every tool, skill and install step, with the versions", () 
   for (const s of installSteps("https://github.com/o/r")) assert.ok(md.includes(`### ${s.client}`) && md.includes(s.code));
   assert.ok(md.includes("9.9.9") && md.includes("8.8.8") && md.includes("[llms.txt](https://example.test/x/llms.txt)"));
   assert.ok(!md.includes("{{"));
+  assert.equal(installSteps("https://github.com/o/r")[1].code, COPILOT_PLUGIN_CMD, "D104: Copilot CLI is install step 2");
+  assert.ok(md.includes("## The plugin (Claude Code, GitHub Copilot CLI)"));
 });
 
 // ---------------------------------------------------------------------------------------------- the server over stdio

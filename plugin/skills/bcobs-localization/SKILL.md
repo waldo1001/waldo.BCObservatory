@@ -1,5 +1,5 @@
 ---
-name: bc-localization
+name: bcobs-localization
 description: Business Central country localizations (BE, NL, DE, FR, US, ...) - which objects a country layer adds, which W1 objects it changes, added fields and events, and where Learn documents the local functionality - through the bc-observatory MCP server. Use for country-specific Business Central questions.
 ---
 

@@ -1,10 +1,13 @@
-# BC Observatory plugin for Claude Code
+# BC Observatory plugin for Claude Code and GitHub Copilot CLI
 
-Plugin `bc-observatory` 0.3.2, with the `bc-observatory` MCP server 0.8.0. Install:
+Plugin `bc-observatory` 0.4.0, with the `bc-observatory` MCP server 0.8.0. Install:
 
 ```bash
-claude plugin marketplace add waldo1001/waldo.BCObservatory
+claude plugin marketplace add waldo1001/waldo.BCObservatory     # Claude Code
+copilot plugin install waldo1001/waldo.BCObservatory:plugin  # GitHub Copilot CLI
 ```
+
+Copilot CLI reads the same manifest; verified with Copilot CLI 1.0.102.
 
 This page says what that command puts in your session. The [MCP page](https://waldo1001.github.io/waldo.BCObservatory/mcp/)
 lists the same servers and skills from data in `site/src/lib/mcp.ts`, and `tests/unit/mcp.test.ts` checks that data and
@@ -24,10 +27,13 @@ Nothing here needs an account or an API key.
 
 | Skill | One line |
 |---|---|
-| `bc-lookup` | Business Central facts with evidence: AL objects, Learn documentation, roadmap features, videos and posts; reads a Learn page through the Learn MCP |
-| `bc-whats-new` | Recent videos, posts and roadmap features with status, and what changed in the code between versions |
-| `bc-localization` | Which objects a country layer adds, which W1 objects it changes, added fields and events, where Learn documents the local functionality |
-| `bc-grounding` | The three servers together, and which one answers which question |
+| `bcobs-lookup` | Business Central facts with evidence: AL objects, Learn documentation, roadmap features, videos and posts; reads a Learn page through the Learn MCP |
+| `bcobs-whats-new` | Recent videos, posts and roadmap features with status, and what changed in the code between versions |
+| `bcobs-localization` | Which objects a country layer adds, which W1 objects it changes, added fields and events, where Learn documents the local functionality |
+| `bcobs-grounding` | The three servers together, and which one answers which question |
+
+Until 0.4.0 these were called `bc-lookup`, `bc-whats-new`, `bc-localization` and `bc-grounding`; only a name you typed
+yourself needs changing.
 
 ### Which server answers first
 

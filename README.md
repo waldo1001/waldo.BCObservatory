@@ -16,7 +16,8 @@ roadmap features, videos, community posts). Machine-generated pages are badged u
 
 ```bash
 claude mcp add bc-observatory -- npx -y bc-observatory@latest      # MCP server (packages/mcp)
-claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bc-lookup, bc-whats-new, bc-localization, bc-grounding
+claude plugin marketplace add waldo1001/waldo.BCObservatory          # Claude Code plugin: MCP + bcobs-lookup, bcobs-whats-new, bcobs-localization, bcobs-grounding
+copilot plugin install waldo1001/waldo.BCObservatory:plugin       # the same plugin in GitHub Copilot CLI
 ```
 
 What the plugin installs (three MCP servers, four skills, what leaves your machine): [`plugin/README.md`](plugin/README.md).

@@ -1,5 +1,5 @@
 ---
-name: bc-whats-new
+name: bcobs-whats-new
 description: What is new in Microsoft Dynamics 365 Business Central - recent videos, community posts and roadmap features with status, plus what changed in the code between versions - through the bc-observatory MCP server. Use for "what's new", "what changed in BC29/BC30", release wave questions and roadmap status.
 ---
 
