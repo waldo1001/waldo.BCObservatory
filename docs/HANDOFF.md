@@ -14,7 +14,9 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-None open.
+- **Plugin skills bcobs-\*, Copilot CLI install** (`docs/specs/plugin-skill-prefix.md`, D104, M42, issue #23).
+  Status: proposed 2026-10-21, nothing implemented. Start with section 5 test 1, then `git mv` the four
+  `plugin/skills/bc-*` folders. Until it lands, readers see the `bc-*` skill names and no Copilot CLI install line.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
