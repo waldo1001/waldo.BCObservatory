@@ -14,6 +14,11 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
+- **Lenses menu, Time first, D103** (`docs/specs/lens-menu-time-first.md`, M41, issue #21). Status: proposed
+  2026-10-21, nothing implemented. Start with task 1: the three tests of section 5 in `tests/unit/galaxy-core.test.ts`,
+  then reorder `MENU_GROUPS` in `site/src/scripts/galaxy-core.ts`. One phase, code only: no page or data changes, no
+  derive. Until it lands, "this week" is the third row of the Lenses menu and its eighth Tab stop, under the seven
+  version chips.
 
 Follow-ups still open from the specs built on 2026-10-07: Discovery D65 (open questions in spec sections 8.1-8.5);
 Code Atlas D67 (the message to Stefan, decision 12; compare `data/code/graph/30/manifest.json` with BC29's 15,711
