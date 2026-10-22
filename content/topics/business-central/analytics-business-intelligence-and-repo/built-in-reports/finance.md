@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:50.212Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -148,7 +148,8 @@ links:
   topics:
     - topic/business-central/analytics-business-intelligence-and-repo/built-in-reports
   localizations: []
-  videos: []
+  videos:
+    - video/jricCM_04H4
   posts: []
   guidelines: []
   changes:
@@ -163,7 +164,7 @@ children: []
 coverage:
   learn: 5
   code: 83
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -292,6 +293,7 @@ For custom reporting, the page on building financial reports explains how to ana
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9371 Bug 642180: DE report 11015 Export Business Data fails when scheduled via Job Queue: Client callbacks are not supported](../../../../changes/bcapps/9371.md) (code change): "Report 11015 Export Business Data now stores generated ZIP files in the Report Inbox"
+- [What's New: Excel Reporting (2025 release wave 1)](../../../../videos/jricCM_04H4.md) (video): "Excel Reports for Finance (Generally Available)"
 
 ## Business Central pages and reports
 

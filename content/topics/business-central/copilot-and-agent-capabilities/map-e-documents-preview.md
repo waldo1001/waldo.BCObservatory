@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:20.721Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -42,7 +42,8 @@ links:
     - topic/business-central/copilot-and-agent-capabilities
   localizations: []
   videos:
-    - video/kAFdLxb2ghc
+    - video/CoQH7Z-leVE
+    - video/D56EVy3JgHA
   posts: []
   guidelines: []
 learn_toc_path:
@@ -54,7 +55,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -95,6 +96,7 @@ Start with the how-to page to understand the workflow, then read the FAQ for the
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New: E-Documents (2024 release wave 1)](../../../videos/kAFdLxb2ghc.md) (video): "E-documents core app; Third-party access point integration app; Data exchange definition"
+- [E-invoice Matching with Copilot in Dynamics 365 Business Central (2024)](../../../videos/CoQH7Z-leVE.md) (video): "E-invoice Matching with Copilot in Dynamics 365 Business Central"
+- [What's New: Enhanced Purchase Order Matching with Copilot (2025 release wave 1)](../../../videos/D56EVy3JgHA.md) (video): "Enhanced Purchase Order Matching with Copilot"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

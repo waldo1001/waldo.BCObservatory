@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 2f1dbba42e33f5c41569e78796ed7b9cff4ba8e48d3dd174c52b959817d225fb
@@ -335,6 +335,7 @@ links:
   posts:
     - post/aardvarklabs-blog/2017
     - post/aardvarklabs-blog/2565
+    - post/aardvarklabs-blog/2812
     - post/aardvarklabs-blog/3631
     - post/demiliani-com/11962
     - post/demiliani-com/12036
@@ -366,7 +367,7 @@ coverage:
   learn: 261
   code: 1
   video: 3
-  blog: 11
+  blog: 12
   guideline: 0
 bc_forms:
   - 812
@@ -422,6 +423,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#149 knowledge(web-services): under schema 2.0 an API enum field is a contract by member name, under 1.0 by caption](../../../../changes/bcquality/149.md) (code change): "Schema 2.0 (BC 24 default) uses strongly typed enums with member names in metadata"
 - [Step-by-Step Guide to Business Central API Queries](../../../../posts/aardvarklabs-blog/2017.md) (community post): "Query objects configured as APIs in Business Central to expose data"
 - [Business Central 2027 release wave 1: Preparing for OData Endpoint Removal](../../../../posts/aardvarklabs-blog/2565.md) (community post): "create custom Page or Query APIs, or copy Microsoft pages to custom objects"
+- [Advanced JSON Management for Business Central Developers](../../../../posts/aardvarklabs-blog/2812.md) (community post): "JSON Management provides a comprehensive toolset for reading, writing, and converting JSON"
 - [Using Power Automate for Business Central SFTP](../../../../posts/aardvarklabs-blog/3631.md) (community post): "Build an API page with System ID and ODataKeyFields to enable Power Automate to interact"
 - [Dynamics 365 Business Central: compressing API responses at max.](../../../../posts/demiliani-com/11962.md) (community post): "Business Central APIs compress responses with gzip by default, negotiated via Accept-Encoding"
 - [Why not start improving Business Central APIs definitions for supporting AI?](../../../../posts/demiliani-com/12036.md) (community post): "Business Central APIs lack AI-ready metadata that LLMs need to reliably call functions"

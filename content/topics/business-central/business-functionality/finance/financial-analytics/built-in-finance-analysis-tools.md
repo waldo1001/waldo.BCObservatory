@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:16.803Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -101,7 +101,8 @@ links:
     - topic/business-central/business-functionality/finance/financial-analytics
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thedynamicsexplorer-com/8821
   guidelines: []
   changes:
     - change/bcapps/10179
@@ -118,7 +119,7 @@ coverage:
   learn: 4
   code: 43
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 18
@@ -202,6 +203,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10179 [master] Financial Report Recalculate clears Global Dimension filters](../../../../../changes/bcapps/10179.md) (code change): "Recalculating a financial report no longer clears Global Dimension filters"
 - [#12213 [Financial Reports] Add row and column definition preview](../../../../../changes/bcapps/12213.md) (code change): "Financial report row and column definitions now include preview capability"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "create an Analysis View with compression by month and dimensions"
 
 ## Business Central pages and reports
 

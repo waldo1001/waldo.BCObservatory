@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:03.754Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -91,13 +91,14 @@ links:
   localizations: []
   videos:
     - video/EwN3xb2q7vE
+    - video/jWqjDTbqjeE
     - video/MNwTt06ZxwY
   posts:
     - post/aardvarklabs-blog/3097
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1272
     - post/demiliani-com/12644
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
+    - post/demiliani-com/13814
   guidelines: []
   changes:
     - change/bcapps/10007
@@ -184,6 +185,7 @@ links:
     - change/bcquality/174
     - change/bcquality/176
     - change/bcquality/182
+    - change/bcquality/246
 learn_toc_path:
   - Integration with AI
   - Designing and coding agents (preview)
@@ -194,7 +196,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 2
+  video: 3
   blog: 5
   guideline: 0
 bc_forms: []
@@ -326,12 +328,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#174 Make BCQuality documentation easier for partners to get started](../../../../changes/bcquality/174.md) (code change): "Community Agents review extended with folder-path support"
 - [#176 Complete partner contribution and knowledge consumption guides](../../../../changes/bcquality/176.md) (code change): "consuming skills in custom agents, with clarifications on metadata, integration"
 - [#182 Add machine-readable review orchestration contract](../../../../changes/bcquality/182.md) (code change): "Enables BC-ALAgents to consume a stable, mechanically-owned orchestration contract"
+- [#246 Expose plan guidance as a preview plugin skill](../../../../changes/bcquality/246.md) (code change): "exposes plan guidance as a preview plugin skill alongside code review"
 - [Step-by-Step Guide: Create Agents in AL Code](../../../../posts/aardvarklabs-blog/3097.md) (community post): "Building agents in Business Central AL involves creating setup tables, pages, codeunits"
 - [Agents in Business Central – part 1 – the architecture](../../../../posts/bertverbeek-nl/1219.md) (community post): "Custom agents need the Custom Agent capability enabled"
 - [Agents in Business Central – part 5 – Creating agent from code](../../../../posts/bertverbeek-nl/1272.md) (community post): "create, configure, and register agents programmatically in Business Central using AL code"
 - [Dynamics 365 Business Central: debugging agent sessions.](../../../../posts/demiliani-com/12644.md) (community post): "AL Language extension runtime 17.0 introduces debugging support for agent sessions in Business Central"
-- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "Coding agents work best within bounded domains with clear permissions"
+- [Dynamics 365 Business Central: new model choice in Agent definition.](../../../../posts/demiliani-com/13814.md) (community post): "AL methods allowing administrators to select between available models"
 - [What's New: Coding Business Central Agents with AI Development Toolkit](../../../../videos/EwN3xb2q7vE.md) (video): "Coding Business Central Agents with AI Development Toolkit; Agent Type Definition; Agent Factory Interface"
+- [Introducing: Envision, Design and Code Business Central Agents](../../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [Microsoft presents: Building and shipping agents in Business Central](../../../../videos/MNwTt06ZxwY.md) (video): "Building and shipping agents in Business Central; agent configuration; permissions"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

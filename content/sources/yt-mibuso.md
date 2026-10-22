@@ -13,7 +13,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:19:55.996Z"
+  at: "2026-10-22T00:20:01.868Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: efac43569ff2ebea3592edcd4be549e5e64a65c2b00a0455580eec71f4ba783d
@@ -30,8 +30,6 @@ links:
   objects: []
   features:
     - feature/573255
-    - feature/573314
-    - feature/573315
     - feature/573333
     - feature/573338
     - feature/573352
@@ -126,10 +124,6 @@ footprint:
       weight: 2
     - id: feature/573255
       weight: 1
-    - id: feature/573314
-      weight: 1
-    - id: feature/573315
-      weight: 1
     - id: feature/573333
       weight: 1
     - id: feature/573338
@@ -173,9 +167,7 @@ Items per quarter, oldest first:
 
 - [Enable Microsoft Copilot chat experience](../features/573362.md): Copilot and agents, generally available, GA 2026-10, 2 videos
 - [AI-Driven Approvals](../features/573255.md): Expense Agent, in preview, GA 2026-12, 1 video
-- [AL developers can turn indexes on/off in AL code.](../features/573314.md): Development, generally available, GA 2026-10, 1 video
 - [Build extensible and data-driven AL test suites](../features/573333.md): Development, generally available, GA 2026-10, 1 video
-- [Developers can define indexes that span fields from a base table and its table extensions](../features/573315.md): Development, generally available, GA 2026-10, 1 video
 - [Evolve AL interfaces with default implementations](../features/573352.md): Development, generally available, GA 2026-10, 1 video
 - [Use AL language intelligence from AI agents and other editors](../features/573338.md): Development, generally available, GA 2026-10, 1 video
 

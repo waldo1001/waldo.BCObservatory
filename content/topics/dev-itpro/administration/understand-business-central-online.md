@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,8 +154,10 @@ links:
     - topic/dev-itpro/administration
     - topic/dev-itpro/administration/understand-business-central-online/environment-types
   localizations: []
-  videos: []
+  videos:
+    - video/9PWBpwv4LhQ
   posts:
+    - post/demiliani-com/12734
     - post/demiliani-com/15895
   guidelines: []
 learn_toc_path:
@@ -168,8 +170,8 @@ children:
 coverage:
   learn: 16
   code: 7
-  video: 0
-  blog: 1
+  video: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 9
@@ -229,7 +231,9 @@ The remaining pages target partners and new customers: Trials and subscriptions,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: announcing Italy North availability.](../../../posts/demiliani-com/12734.md) (community post): "Italy North (Milan) hosting for Italian Business Central tenants starts with version 27.3"
 - [Dynamics 365 Business Central on Italy North Datacenter: here we are!](../../../posts/demiliani-com/15895.md) (community post): "Dynamics 365 Business Central is now available on the Italy North datacenter"
+- [What's New: Resource Governance for Business Central Online (2023 release wave 2)](../../../videos/9PWBpwv4LhQ.md) (video): "What's New: Resource Governance for Business Central Online"
 
 ## Business Central pages and reports
 

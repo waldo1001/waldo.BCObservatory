@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:04.556Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,8 +44,10 @@ links:
     - topic/dev-itpro/development/extensibility
   localizations: []
   videos:
+    - video/hSJW3LiOBxg
     - video/RU3D3RMAvVI
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2063
   guidelines: []
 learn_toc_path:
   - Development
@@ -57,8 +59,8 @@ children: []
 coverage:
   learn: 2
   code: 2
-  video: 1
-  blog: 0
+  video: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 6316
@@ -100,6 +102,8 @@ Start with the introduction to understand what is available and who manages it. 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Understanding User Control Host in Business Central](../../../../posts/aardvarklabs-blog/2063.md) (community post): "User Control Host enables embedding web pages and Power BI reports directly"
+- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "Power BI Scorecards embedding"
 - [What's New: Power BI Embedding (For Developers) (2025 release wave 1)](../../../../videos/RU3D3RMAvVI.md) (video): "power bi embedding; user control host; page type; control addin"
 
 ## Business Central pages and reports

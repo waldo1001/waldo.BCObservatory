@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:42.483Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,6 +84,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/229
 learn_toc_path:
   - Integration with AI
   - Integrate AI using developer tools for Copilot
@@ -136,5 +138,11 @@ Most pages are developer how-tos. Read them in order when building a new Copilot
 - [Design the prompt mode of prompt dialog page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode): Learn how to define the screen of a Copilot prompt dialog page where users can add input that the AI generation logic uses for producing results.
 - [Error handling in prompt dialogs](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompt-error-handling): Discover how to manage errors directly within Copilot prompt dialogs in Business Central.
 - [Prompting using a floating action bar](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-prompting-floating-actionbar): Learn how to create prompt actions to promote AI capabilities in Business Central
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../../../changes/bcquality/229.md) (code change): "saving PromptDialog proposals only when kept"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

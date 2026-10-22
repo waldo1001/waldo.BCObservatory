@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:15.642Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -108,9 +108,6 @@ links:
   videos:
     - video/P-7dYVfB73E
   posts:
-    - post/aardvarklabs-blog/3704
-    - post/gerardorenteria-blog/15143
-    - post/jpearson-blog/1419
     - post/waldo-be/317951
   guidelines: []
   changes:
@@ -133,6 +130,7 @@ links:
     - change/bcquality/145
     - change/bcquality/213
     - change/bcquality/223
+    - change/bcquality/228
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -145,7 +143,7 @@ coverage:
   learn: 10
   code: 0
   video: 1
-  blog: 4
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 333d762410d8da9593a67b5f251849371d43d059d2186deb5309f4efe220cfad
@@ -213,10 +211,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#145 Process Context via manual event subscriber pattern](../../../../changes/bcquality/145.md) (code change): "expose process context to extensions using manual event subscriber bindings"
 - [#213 knowledge(events): database trigger setup flags may only be set to true](../../../../changes/bcquality/213.md) (code change): "subscribers to GetDatabaseTableTriggerSetup should only set the shared trigger flags to true"
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "Subscribers that handle OnUpdateUnitPriceOnBeforeFindPrice or OnUpdateDirectUnitCostOnBeforeFindPrice"
+- [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../../../../changes/bcquality/228.md) (code change): "subscribers can set IsHandled to skip default logic despite rollback"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Event parameter compatibility rules clarified: local/internal subscribers bind by name"
-- [Push Documents from Business Central to SFTP via Power Automate](../../../../posts/aardvarklabs-blog/3704.md) (community post): "codeunit that subscribes to posting events, generates the invoice as a PDF, and fires a business event"
-- [🧩 Deriving dimensions in Business Central beyond Default Dimensions](../../../../posts/gerardorenteria-blog/15143.md) (community post): "Hook into OnAfterGetRecDefaultDimIDProcedure to extend default dimensions without modifying standard code"
-- [Another Look at App Integration in Business Central – Part 2](../../../../posts/jpearson-blog/1419.md) (community post): "App Integration codeunit uses a dictionary to store and manage implementations of interfaces from different apps"
 - [Obsoleted and “no longer invoked” events in v26 Business Central](../../../../posts/waldo-be/317951.md) (community post): "82 obsoleted events from the legacy invoice posting system while keeping them"
 - [Business Central Under the Hood episode 6: We Have Too Many Events!](../../../../videos/P-7dYVfB73E.md) (video): "Integration Events; Workflow Events; Event Usage Telemetry; Handled events"
 

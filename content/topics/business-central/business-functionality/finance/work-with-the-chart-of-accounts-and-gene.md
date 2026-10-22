@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:29.520Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -182,23 +182,22 @@ links:
   localizations: []
   videos:
     - video/1ugAYeEZLaU
-    - video/5E6ikveL6N0
-    - video/5zXQ_aIT03s
+    - video/BZF4MrVfvfY
     - video/fIktVTGZkjE
     - video/HpIxYyjQWqs
     - video/kuKwjRyNcoE
     - video/lcu53ikOk7s
-    - video/mZNfMPpxovE
     - video/NkYNL_5Zfoc
     - video/r8HWIk5E0c0
     - video/VIda0Ok1SSQ
-    - video/XJ0JHHQ7GzA
+    - video/WYd8Qn3wVQQ
+    - video/xh63GaWwZqA
     - video/zQhtuFbxJm4
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b
     - post/thedynamicsexplorer-com/10452
-    - post/thedynamicsexplorer-com/36744
     - post/thedynamicsexplorer-com/37144
+    - post/thedynamicsexplorer-com/8821
   guidelines: []
   changes:
     - change/bcapps/10184
@@ -207,7 +206,6 @@ links:
     - change/bcapps/11324
     - change/bcapps/11998
     - change/bcapps/9071
-    - change/bcapps/9104
     - change/bcapps/9339
     - change/bcapps/9343
     - change/bcapps/9415
@@ -225,7 +223,7 @@ children: []
 coverage:
   learn: 12
   code: 59
-  video: 13
+  video: 12
   blog: 4
   guideline: 0
 bc_forms:
@@ -340,7 +338,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11324 [main] Bug 649837 Export to Excel All exported rows if Show Currency is enabled in General Ledger Setup.](../../../../changes/bcapps/11324.md) (code change): "exporting to Excel applied a selected currency to all exported rows when Show Currency was enabled"
 - [#11998 [main] It should not be possible to post invoices with a non-existing Posting Setup combination because it creates trouble with Adjust for Payment Discount.](../../../../changes/bcapps/11998.md) (code change): "validates that a General Posting Setup combination exists before posting journal invoices"
 - [#9071 Merged from [28.x]The transaction cannot be completed because it will cause inconsistencies in the G/L Entry table"](../../../../changes/bcapps/9071.md) (code change): "inconsistencies in the G/L Entry table in codeunit Gen. Jnl.-Post Line"
-- [#9104 Delocalize Export G/L Entries to XML into Audit File Export framework](../../../../changes/bcapps/9104.md) (code change): "Export G/L Entries to XML feature was moved from French localization into a reusable Audit File"
 - [#9339 [master][Gen. Jnl.-Post Line]` Add var NextEntryNo, var NextVATEntryNo, and var NextTransactionNo to OnAfterInitGLRegister in StartPosting](../../../../changes/bcapps/9339.md) (code change): "OnAfterInitGLRegister in StartPosting gains var NextEntryNo, NextVATEntryNo"
 - [#9343 [master][Event Request] Request at table 98 "General Ledger Setup",](../../../../changes/bcapps/9343.md) (code change): "New events were added to table 98 General Ledger Setup"
 - [#9415 [ALAppExtensions #30294][Event Change Request] Report 12121 "G/L Book - Print" - "OnPreDataItemOnAfterSetGLBookEntryFilters"](../../../../changes/bcapps/9415.md) (code change): "A new integration event is added to the G/L Book - Print report"
@@ -350,20 +347,19 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#57 Add source-verified Finance knowledge and review domain](../../../../changes/bcquality/57.md) (code change): "posting ledger entries, dimension sets, applying entries, due dates, reversals, journal balance"
 - [BC Friday Tips #38 Keep Description](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-38-keep-description--56fbbccc2b.md) (community post): "Keep Description field preserves the description text when switching between account types"
 - [Dynamics 365 Business Central – Error Message “You have one or more documents that must be posted before you post document no….” when posting a Journal](../../../../posts/thedynamicsexplorer-com/10452.md) (community post): "journal's number series has manual numbers disabled but the user tries to enter a custom document number"
-- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../../../../posts/thedynamicsexplorer-com/36744.md) (community post): "GL opening balances can be migrated for multiple years"
 - [Dynamics 365 Business Central – Handling the message “Only the Posting No. Series can be filled in on recurring journals” in Recurring Journals](../../../../posts/thedynamicsexplorer-com/37144.md) (community post): "Recurring journal lines remain after posting and their posting date moves forward"
+- [Dynamics GP to Business Central – How to Recreate the GL Summary Enquiry using G/L Account Balance, Analysis Mode or an Analysis View](../../../../posts/thedynamicsexplorer-com/8821.md) (community post): "Chart of Accounts in Business Central shows only total balances at GL code level"
 - [Working with Amount Fields](../../../../videos/1ugAYeEZLaU.md) (video): "amount fields; debit and credit; general ledger"
-- [Comparing Posting Accounts and Posting Groups Between Dynamics GP and Dynamics Business Central](../../../../videos/5E6ikveL6N0.md) (video): "Posting Groups; Business Posting Groups; Product Posting Groups; Customer Posting Groups"
-- [Control When People Can Post to the General Ledger](../../../../videos/5zXQ_aIT03s.md) (video): "posting control; general ledger setup; accounting periods"
+- [What's New: Fixed and Variable G/L Allocations (2023 release wave 2)](../../../../videos/BZF4MrVfvfY.md) (video): "Fixed and Variable G/L Allocations"
 - [Comparing Correcting and Reversing Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/fIktVTGZkjE.md) (video): "correcting entries; reversing entries; journal entries; dimensions; general ledger; posting"
 - [How to Work With General Journals in Business Central (2025)](../../../../videos/HpIxYyjQWqs.md) (video): "General journals; Journal templates; Journal entry"
 - [Ensure Consistency in Journals With Journal Check](../../../../videos/kuKwjRyNcoE.md) (video): "Journal Check; Enable Data Check Setting; Journal Check Fact Box"
 - [Safeguard G/L Accounts From Deletion](../../../../videos/lcu53ikOk7s.md) (video): "Check GL account usage setting; Check GL account deletion after field"
-- [Historical Snapshot (2024)](../../../../videos/mZNfMPpxovE.md) (video): "GP Detail Snapshot for GL accounts; GL snapshot data export and filtering"
 - [Comparing General Journal Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/NkYNL_5Zfoc.md) (video): "General journal; Journal entry; offset accounts"
 - [Comparing Correcting and Reversing Entries between Dynamics SL and Dynamics 365 Business Central](../../../../videos/r8HWIk5E0c0.md) (video): "Reverse journal entry in Business Central; Correct dimension in Business Central"
 - [Control Deferral Posting](../../../../videos/VIda0Ok1SSQ.md) (video): "deferral templates; deferral posting; general ledger setup; user permissions"
-- [Comparing Posting Accounts and posting groups between Dynamics SL and Dynamics 365 Business Cent](../../../../videos/XJ0JHHQ7GzA.md) (video): "posting groups; Business posting groups; Product posting groups"
+- [Edit G/L Budgets in a Spreadsheet inside Business Central (Advanced Spreadsheets and Reporting)](../../../../videos/WYd8Qn3wVQQ.md) (video): "Edit G/L Budgets in a Spreadsheet inside Business Central"
+- [Adjust Cost Allocations Before Posting](../../../../videos/xh63GaWwZqA.md) (video): "Generate lines from allocation account"
 - [Comparing General Journal Entries Between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/zQhtuFbxJm4.md) (video): "General Journal batches; Account name auto-filter in journal entry"
 
 ## Business Central pages and reports

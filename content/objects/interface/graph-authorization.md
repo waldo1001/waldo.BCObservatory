@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:40:39.296Z"
+  at: "2026-10-22T01:03:16.851Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: caa557c3a1e91db967d1994f737a4f4d535999a91e835e7f11f68a1bfa71e5d5
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al
     title: src/System Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al (releases/29.x)
     date: null
-    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
+    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Graph Authorization" in System Application (System.Integration.Graph.Authorization). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Integration.Graph.Authorization · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al) · facts from BC29
+System Application · System.Integration.Graph.Authorization · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/MicrosoftGraph/src/Authorization/GraphAuthorization.Interface.al) · facts from BC29
 
 ## Procedures
 

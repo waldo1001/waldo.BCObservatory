@@ -7,13 +7,13 @@
     "finance",
     "purchasing"
   ],
-  "summary": "Three integration events with IsHandled parameters are added to support deferred TDS calculation on purchase documents, allowing extensions to control tax recalculation when quantity, unit cost, or document-level fields change.",
+  "summary": "Adds three integration events with an IsHandled parameter to the IN TDS app. Extensions can use them to take over TDS certificate usage updates, TDS recalculation after Applies-to Doc. No. or Posting Date changes, and tax recalculation after Include GST in TDS Base changes, so they can defer TDS calculation on purchase documents.",
   "key_points": [
-    "New events for TDS certificate usage updates",
-    "New events for recalculation on Applies-to Doc. No. or Posting Date changes",
-    "New events for recalculation on Include GST in TDS Base changes",
-    "IsHandled parameter enables extensions to defer or customize processing",
-    "Standard behavior unchanged unless a subscriber explicitly handles an event"
+    "New event for TDS certificate usage updates",
+    "New event for TDS recalculation when Applies-to Doc. No. or Posting Date changes",
+    "New event for tax recalculation when Include GST in TDS Base changes",
+    "IsHandled lets a customer extension defer the processing, for example to speed up multi-line purchase orders",
+    "Standard behavior is unchanged unless a subscriber handles an event; publishers only"
   ],
   "change_kind": "feature",
   "behavior_change": false,

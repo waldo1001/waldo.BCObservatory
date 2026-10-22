@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:09.155Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -472,6 +472,8 @@ links:
     - topic/business-central/business-functionality/sales/subscription-billing
   localizations: []
   videos:
+    - video/fatcqVFrTXI
+    - video/fdP1HKBEDjA
     - video/PIWxU93eCT4
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3905080819923012785--801fc3ed97
@@ -531,7 +533,7 @@ children:
 coverage:
   learn: 133
   code: 139
-  video: 1
+  video: 3
   blog: 4
   guideline: 0
 bc_forms:
@@ -788,6 +790,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [BC Friday Tips #56 Understand Missing Fields in Copy Documents](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-56-understand-missing-fields-in-copy-documents--e98f782aea.md) (community post): "Shipping Agent Code and Shipping Agent Service Code exist on both Sales Order fields"
 - [BC Friday Tips #84 Why Is Your Item Missing from the Sales Line Lookup?](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-84-item-missing-from-sales-line-lookup--ac89a8fbc6.md) (community post): "item does not appear in the Sales Line item lookup"
 - [Dynamics 365 Business Central – How to post a Sales Credit for an Item without affecting Inventory using an Item Charge](../../../posts/thedynamicsexplorer-com/10326.md) (community post): "sales credit memo with an inventory item automatically creates item ledger"
+- [Comparing Entering Receivables Transactions in Dynamics SL to Dynamics 365 Business Central](../../../videos/fatcqVFrTXI.md) (video): "Sales invoice entry in Business Central"
+- [Comparing entering Receivables Transactions in Dynamics GP to Dynamics 365 Business Central (2024)](../../../videos/fdP1HKBEDjA.md) (video): "Sales invoices document in Business Central"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../videos/PIWxU93eCT4.md) (video): "sales price lists; excel integration; edit prices"
 
 ## Business Central pages and reports

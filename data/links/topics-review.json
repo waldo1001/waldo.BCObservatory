@@ -4,18 +4,28 @@
     "topic/business-central/analytics-business-intelligence-and-repo": {
       "post/thinkaboutit-be/7635@f42c8fd9d4476d44": {
         "verdict": "keep",
-        "reason": "Discusses Business Central's analytics tools (Power BI apps, Data Analysis mode, API-based models, embedded Power BI) and how users adopt them, which is what this section documents.",
-        "at": "2026-10-21T09:27:49.222Z"
+        "reason": "Discusses Business Central's analytics tools (Power BI apps, Data Analysis mode, API models, embedded Power BI) and getting users to adopt them, which is this section's subject.",
+        "at": "2026-10-22T01:10:24.646Z"
       },
       "video/_1onqwZz4rA@5f8bd8157347090e": {
         "verdict": "drop",
-        "reason": "About the Contoso demo data tool producing sample documents; analytics is only what the data is for, not the subject.",
-        "at": "2026-10-21T09:27:49.222Z"
+        "reason": "About the Contoso demo data tool generating sample documents; the subject is demo data rather than analytics or reporting.",
+        "at": "2026-10-22T01:10:24.646Z"
+      },
+      "video/1QuV_vkbNVU@07b0f9014d766bf0": {
+        "verdict": "drop",
+        "reason": "Introduces a separate spreadsheet product with regions, virtual fields and an AI agent, not a reporting or analytics feature this section documents.",
+        "at": "2026-10-22T01:10:24.646Z"
+      },
+      "video/6dEZQlmBlyI@4d4659671bfdead7": {
+        "verdict": "drop",
+        "reason": "Shows report and query regions inside the separate Advanced Spreadsheets product rather than Business Central's documented reporting features.",
+        "at": "2026-10-22T01:10:24.646Z"
       },
       "video/VuULbBjzPcs@cc529027aeb46df2": {
         "verdict": "drop",
-        "reason": "About the Contoso demo tool's analytics demo-data module, which is demo data rather than an analytics or reporting capability.",
-        "at": "2026-10-21T09:27:49.222Z"
+        "reason": "About the analytics module of the Contoso demo data tool; the subject is demo data, not analytics or reporting.",
+        "at": "2026-10-22T01:10:24.646Z"
       }
     },
     "topic/business-central/analytics-business-intelligence-and-repo/ad-hoc-data-analysis": {
@@ -2230,8 +2240,23 @@
     "topic/business-central/business-functionality/set-up-business-central/set-up-finance": {
       "video/4IumfDNN8GU@551d01e9e78deeb8": {
         "verdict": "keep",
-        "reason": "Walks through how to set up posting groups and VAT posting setup, a core part of setting up finance.",
-        "at": "2026-10-21T09:36:02.434Z"
+        "reason": "It walks through how to set up posting groups and VAT posting setup, which is core finance setup.",
+        "at": "2026-10-22T01:10:19.932Z"
+      },
+      "video/5E6ikveL6N0@6ab56d7ae983d9ba": {
+        "verdict": "keep",
+        "reason": "It compares with Dynamics GP but shows how Business Central's business, product and customer posting groups and its posting setup are configured.",
+        "at": "2026-10-22T01:10:19.932Z"
+      },
+      "video/5zXQ_aIT03s@7cf64c65d47a8e4c": {
+        "verdict": "keep",
+        "reason": "It covers the 'Allow posting from' and 'Allow posting to' fields in general ledger setup, which is part of setting up finance.",
+        "at": "2026-10-22T01:10:19.932Z"
+      },
+      "video/XJ0JHHQ7GzA@ae1cba0bd8268fd4": {
+        "verdict": "keep",
+        "reason": "It compares with Dynamics SL but shows how Business Central's general posting setup and posting groups are configured.",
+        "at": "2026-10-22T01:10:19.932Z"
       }
     },
     "topic/business-central/business-functionality/set-up-business-central/set-up-fixed-assets": {
@@ -4362,30 +4387,55 @@
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2025-release-wave-2-v27": {
       "post/duiliotacconi-com/1624@a371d282bf3e4643": {
         "verdict": "drop",
-        "reason": "Covers new performance features in v27, which belong to release notes rather than the on-premises upgrade/update section.",
-        "at": "2026-10-21T09:28:49.642Z"
+        "reason": "Covers new performance features in v27, which is release content rather than the v27 on-premises update/upgrade page.",
+        "at": "2026-10-22T01:10:23.757Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/06/june-2026-cumulative-updates-for-dynamics-365-business-central/@f0f71ae6a2928a00": {
+        "verdict": "keep",
+        "reason": "Lists the June 2026 cumulative update 27.8 for 2025 release wave 2 with on-premises links, which is what this section covers.",
+        "at": "2026-10-22T01:10:23.757Z"
+      },
+      "post/gerardorenteria-blog/11766@dc4d42427d954c74": {
+        "verdict": "drop",
+        "reason": "Covers only v26, v25 and v24 cumulative updates, which sibling sections document; v27 isn't included.",
+        "at": "2026-10-22T01:10:23.757Z"
+      },
+      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430@b9bc85dfeecae5e0": {
+        "verdict": "drop",
+        "reason": "About the 2026 release wave 2 (v29) preview, which is a sibling section.",
+        "at": "2026-10-22T01:10:23.757Z"
       },
       "post/thinkaboutit-be/7073@be8592e6228bbbe7": {
         "verdict": "drop",
-        "reason": "About Feature Management mandatory features and sandbox testing, release content rather than upgrading to v27 or its updates.",
-        "at": "2026-10-21T09:28:49.642Z"
+        "reason": "About mandatory features in Feature Management for v27, which is release content rather than the v27 update list.",
+        "at": "2026-10-22T01:10:23.757Z"
       },
       "post/thinkaboutit-be/7650@335a245af2408ce2": {
         "verdict": "keep",
-        "reason": "Discusses the release of v27 update 27.5, an update within the 2025 release wave 2 that this section covers.",
-        "at": "2026-10-21T09:28:49.642Z"
+        "reason": "Announces cumulative update 27.5 for 2025 release wave 2, which falls under this section's subject.",
+        "at": "2026-10-22T01:10:23.757Z"
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-1-v28": {
       "post/duiliotacconi-com/2117@1f81ba25b60baf8a": {
         "verdict": "drop",
-        "reason": "About a new Base64 codeunit in v28, not about upgrading an on-premises deployment to v28.",
-        "at": "2026-10-21T09:31:20.485Z"
+        "reason": "About a new Base64 platform codeunit in v28, not about upgrading on-premises to v28.",
+        "at": "2026-10-22T01:10:26.304Z"
+      },
+      "post/dvlprlife-com/https://www.dvlprlife.com/2026/07/july-2026-cumulative-updates-for-dynamics-365-business-central/@759f3b94d9061a6e": {
+        "verdict": "drop",
+        "reason": "A cumulative-update roundup covering several versions that mentions 28.3 only in passing; it doesn't cover the v28 upgrade.",
+        "at": "2026-10-22T01:10:26.304Z"
+      },
+      "post/gerardorenteria-blog/12231@577deb36b9c0fd1a": {
+        "verdict": "drop",
+        "reason": "A cumulative-update roundup for v26, v25 and v24, which belong to sibling sections, not v28.",
+        "at": "2026-10-22T01:10:26.304Z"
       },
       "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-4709432878034654173@101e53872c48af74": {
         "verdict": "drop",
-        "reason": "Covers a fresh install of v29, which is the sibling section's version, and does not cover upgrading to v28.",
-        "at": "2026-10-21T09:31:20.485Z"
+        "reason": "About installing v29 (2026 release wave 2), which the sibling v29 section documents.",
+        "at": "2026-10-22T01:10:26.304Z"
       }
     },
     "topic/dev-itpro/business-central-on-premises/upgrade/business-central-2026-release-wave-2-v29": {
@@ -4657,25 +4707,30 @@
       }
     },
     "topic/dev-itpro/development/extensibility": {
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-426088323488837430@6a937b716c905b5c": {
-        "verdict": "drop",
-        "reason": "Announces the release wave preview and compatibility testing, which is release and upgrade readiness rather than how to extend Business Central.",
-        "at": "2026-10-21T09:31:25.362Z"
-      },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2026/bc-friday-tips-75-dynamics-bc-excel-reports/@673d3b69a52266a0": {
         "verdict": "keep",
-        "reason": "Explains that extending Excel Reports objects needs a dependency on their separate extension, which is about extending objects and the base application.",
-        "at": "2026-10-21T09:31:25.362Z"
+        "reason": "It explains how to extend Excel Reports objects by adding the extension that owns them as a dependency, which is about extending AL objects.",
+        "at": "2026-10-22T01:10:26.642Z"
+      },
+      "video/6SyNNeHQDUo@d04a94dcbf138900": {
+        "verdict": "drop",
+        "reason": "It shows features the community contributed through the co-development initiative, not how extensibility works.",
+        "at": "2026-10-22T01:10:26.642Z"
+      },
+      "video/88s0QjsaCUQ@94e48adf8f56fd71": {
+        "verdict": "drop",
+        "reason": "It covers sign-up context and customer onboarding, which is a different capability from extensibility.",
+        "at": "2026-10-22T01:10:26.642Z"
       },
       "video/no1mmnPfyNY@97a5d75f03737328": {
         "verdict": "drop",
-        "reason": "Covers the NAV-to-BC history and partner business models, with extensions mentioned only as a concept in passing.",
-        "at": "2026-10-21T09:31:25.362Z"
+        "reason": "It discusses partner business models and the history of moving from NAV to Business Central, and mentions extensions only as a concept.",
+        "at": "2026-10-22T01:10:26.642Z"
       },
       "video/uxYuoJP-uH8@7d819bffc513f471": {
         "verdict": "keep",
-        "reason": "Demonstrates extending ApplicationArea with custom areas in table and page extensions, a documented extensibility feature.",
-        "at": "2026-10-21T09:31:25.362Z"
+        "reason": "It demonstrates extending ApplicationArea with custom areas through table and page extensions, which is part of extending the base application.",
+        "at": "2026-10-22T01:10:26.642Z"
       }
     },
     "topic/dev-itpro/development/extensibility/developing-client-add-ins": {
@@ -6341,110 +6396,110 @@
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance": {
-      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@d73e37763c386afc": {
-        "verdict": "keep",
-        "reason": "Covers background processing (page background tasks, StartSession, TaskScheduler, Job Queue), which the Learn performance guidance documents.",
-        "at": "2026-10-21T09:29:43.834Z"
-      },
-      "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@73e98ae4e0ccea95": {
-        "verdict": "keep",
-        "reason": "Discusses how triggers and subscribers affect bulk Modify/DeleteAll performance, with measured speedups, which is performance guidance on data operations.",
-        "at": "2026-10-21T09:29:43.834Z"
-      },
       "post/stefanmaron-com/https://stefanmaron.com/posts/planning-table-indexes-bc-performance/@aea1381f91018eec": {
         "verdict": "keep",
-        "reason": "Covers table keys, covering indexes, SIFT and columnstore trade-offs, which are core topics of the performance section.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "How to design table indexes, SIFT views and covering indexes so the database performs well, which is core to the performance guidance.",
+        "at": "2026-10-22T01:10:26.040Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/unittestswithoutbaseapp/@e9c7bf37964f4cb3": {
+        "verdict": "drop",
+        "reason": "It's about making test pipelines faster, which is testing and CI/CD, not how fast AL code runs.",
+        "at": "2026-10-22T01:10:26.040Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/weekly-recap-2026-08-14/@14154f02a4527d5d": {
+        "verdict": "drop",
+        "reason": "A weekly roundup of tooling news where the only performance item is how fast code compiles.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "post/thatnavguy-com/https://thatnavguy.com/blog/2025/bc-friday-tips-30-dataaccessintent/@56297fff7ca961d6": {
         "verdict": "keep",
-        "reason": "Explains setting DataAccessIntent to ReadOnly to use the read replica, a documented performance practice.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "Shows setting DataAccessIntent to ReadOnly so reads go to a replica database, a documented performance practice.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "post/waldo-be/317845@491d234240c181f4": {
         "verdict": "drop",
-        "reason": "Presents a custom telemetry monitoring app; performance appears only as one of the things it tracks.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "About a third-party telemetry app for monitoring, not about writing code that performs well.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "video/-_TaZY2Clh0@be5f6f9a14f026ee": {
         "verdict": "keep",
-        "reason": "Covers locking, deadlocks, lock escalation and patterns for concurrent processing, which the performance guidance addresses.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "Detailed coverage of locking, deadlocks and coding patterns for running processes in parallel, which the performance guidance addresses.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "video/1xdpUmeun-s@c66bef90fa3dbacc": {
         "verdict": "keep",
-        "reason": "Covers performance features of the AL runtime such as SetLoadFields, read isolation and bulk operations.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "Covers performance features in AL such as DataTransfer, SetLoadFields and read isolation.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "video/JI5KlMxrtoA@725f5f44ac0d5e00": {
         "verdict": "drop",
-        "reason": "Is a general code-quality (ISO 5055) review where performance is only one item among many.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "A general code-quality and security review where performance comes up only in passing.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "video/lpwDSdEJrIQ@f360533255881e9e": {
         "verdict": "keep",
-        "reason": "Directly about writing fast AL code: SetLoadFields, indexes, FlowFields, caching, profiler and telemetry.",
-        "at": "2026-10-21T09:29:43.834Z"
+        "reason": "Directly about writing fast AL code: SetLoadFields, indexing, caching and performance tools.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "video/qABlX4AL3GM@01f215acc09ce160": {
         "verdict": "keep",
-        "reason": "Explains how table extension storage affects database performance and partial loading, which the performance guidance covers.",
-        "at": "2026-10-21T09:29:43.834Z"
-      },
-      "post/aardvarklabs-blog/4056@450ff9b9839b1ccd": {
-        "verdict": "drop",
-        "reason": "About the admin Index Management page in the client, not developer performance best practices in AL code.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Explains how table extensions are stored and how partial loading affects database performance, which is part of the performance guidance.",
+        "at": "2026-10-22T01:10:26.040Z"
       },
       "post/demiliani-com/12267@642524c944ede625": {
         "verdict": "keep",
-        "reason": "Covers Rec.Truncate as the efficient way to bulk-delete rows, and when it pays off, which is AL performance guidance.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Covers Rec.Truncate as an efficient bulk-deletion method, which is an AL performance best practice.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/demiliani-com/12836@59ea68b671fbe173": {
         "verdict": "keep",
-        "reason": "Explains why sequential GUID keys perform better (less fragmentation, benchmarks), a developer performance practice.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Explains how sequential GUIDs speed up the database by reducing index fragmentation, a performance guideline for keys.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/demiliani-com/14031@a830c37bb0a2c55c": {
         "verdict": "keep",
-        "reason": "Shows how the read isolation choice decides whether the server's record cache is used, with a measurable effect on read performance.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Shows how ReadIsolation affects use of the server record cache and how fast reads are, which is directly about AL performance.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/demiliani-com/15968@e13c63565651d8a5": {
-        "verdict": "drop",
-        "reason": "Mainly about isolation semantics for query objects (ReadState); performance comes up only as a trade-off.",
-        "at": "2026-10-21T09:29:45.232Z"
-      },
-      "post/duiliotacconi-com/1717@1ec35f2a8bead471": {
-        "verdict": "drop",
-        "reason": "About the lock timeout setting for concurrency control, not performance best practice as such.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "verdict": "keep",
+        "reason": "Discusses picking query isolation levels by trading speed against locking and waiting, which is part of performance guidance.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/duiliotacconi-com/1786@e25ea505a847995c": {
         "verdict": "keep",
-        "reason": "Recommends CreateSequentialGuid over CreateGuid to cut index fragmentation, a direct performance practice.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Recommends CreateSequentialGuid to cut page splits and fragmentation, a direct performance practice.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/duiliotacconi-com/1850@5319a3fbdedfa6f6": {
         "verdict": "keep",
-        "reason": "Performance analysis of Truncate vs DeleteAll, with guidance on when to use each.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Benchmarks Truncate against DeleteAll and gives guidance on when it pays off, which is performance best-practice content.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/duiliotacconi-com/2149@0b54d734b3647ccb": {
         "verdict": "keep",
-        "reason": "Discusses SetLoadFields and partial records against server caching, and when partial records help, which is core AL performance guidance.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Shows how partial records (SetLoadFields) interact with server caching, which is central to AL performance guidance.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
       "post/mohana-blog/tag:blogger.com,1999:blog-1492436440038408053.post-483274250682537951@a737a5c6bfd2e804": {
         "verdict": "keep",
-        "reason": "Developer key/index design for performance, including the key limit and the cost to writes.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "Covers designing indexes across base table and extension fields to solve performance problems, including the cost of extra keys on writes.",
+        "at": "2026-10-22T01:10:27.980Z"
       },
-      "post/sauravdhyani-com/tag:blogger.com,1999:blog-3122193036149030463.post-1784438257223031103@112366b133f008d2": {
+      "post/stefanmaron-com/https://stefanmaron.com/posts/al-runner-run-al-tests-without-bc/@33fed09204573b9a": {
         "verdict": "drop",
-        "reason": "About restricting symbol downloads for build reproducibility, unrelated to performance.",
-        "at": "2026-10-21T09:29:45.232Z"
+        "reason": "About a tool that makes unit tests run faster, not about how AL code performs, so it fits better under Testing.",
+        "at": "2026-10-22T01:10:27.980Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/@d73e37763c386afc": {
+        "verdict": "keep",
+        "reason": "Covers background processing options (page background tasks, sessions, job queue) for keeping the user interface responsive, which is performance guidance.",
+        "at": "2026-10-22T01:10:27.980Z"
+      },
+      "post/stefanmaron-com/https://stefanmaron.com/posts/modify-deserves-the-same-rule-as-validate/@73e98ae4e0ccea95": {
+        "verdict": "keep",
+        "reason": "Discusses the performance cost of triggers and bulk Modify/DeleteAll operations, with measured speedups.",
+        "at": "2026-10-22T01:10:27.980Z"
       }
     },
     "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security": {

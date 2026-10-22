@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:54.276Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,10 +50,8 @@ links:
   topics:
     - topic/business-central/integrate-with-other-applications/microsoft-power-platform
   localizations: []
-  videos:
-    - video/efoFM5uiCxg
-  posts:
-    - post/demiliani-com/11739
+  videos: []
+  posts: []
   guidelines: []
 learn_toc_path:
   - Integrate with other applications
@@ -65,8 +63,8 @@ children: []
 coverage:
   learn: 3
   code: 1
-  video: 1
-  blog: 1
+  video: 0
+  blog: 0
   guideline: 0
 bc_forms:
   - 1500
@@ -103,13 +101,6 @@ Start with the overview to understand the flow types, then read the usage page b
 - [Power Automate Integration Overview](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview): This article provides an overview of how Power Automate and Business Central integrate.
 - [Troubleshoot your automated workflows](https://learn.microsoft.com/dynamics365/business-central/across-flow-troubleshoot): Learn how to troubleshoot the connection between Business Central and Power Automate when you build an automated workflow.
 - [Use Power Automate flows in Business Central](https://learn.microsoft.com/dynamics365/business-central/across-how-use-financials-data-source-flow): Use Power Automate flows to create, edit, and manage business processes. Boost productivity with easy automation.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../../../posts/demiliani-com/11739.md) (community post): "Billing requires linking the Business Central environment to a Power Platform environment"
-- [What's New: Get Notified of Issues with Job Queues (2024 release wave 2)](../../../../videos/efoFM5uiCxg.md) (video): "Job Queue Notifications; External Notifications with Business Events; Power Automate"
 
 ## Business Central pages and reports
 

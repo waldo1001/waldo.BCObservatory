@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:46.314Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -161,7 +161,8 @@ links:
   topics:
     - topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions
   localizations: []
-  videos: []
+  videos:
+    - video/a1LQ3-SCtPE
   posts: []
   guidelines: []
 learn_toc_path:
@@ -175,7 +176,7 @@ children: []
 coverage:
   learn: 17
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -228,6 +229,12 @@ Supporting pages handle specific work: C/AL to AL conversion with Txt2Al, moving
 - [Upgrading Permission Sets and Permissions](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-permissions): Describes how to upgrade permissions and permission sets
 - [Upgrading Reports](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-reports): Describes how to upgrade reports
 - [Upgrading Unmodified C/AL Application to version 23](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-v14-v23): Describes how to upgrade an unmodified Business Central 14 application to version 23
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../../videos/a1LQ3-SCtPE.md) (video): "A Faster Data Stack (2023 release wave 2)"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -233,12 +233,13 @@ links:
     - topic/business-central/business-functionality/finance/manage-receivables/apply-payments-automatically-and-reconci
   localizations: []
   videos:
+    - video/6WVsS3j-HTw
     - video/Dkd8_cGzIvc
-    - video/O2RPBlr_GiE
     - video/UTxX4XPLcgQ
   posts:
-    - post/aardvarklabs-blog/1816
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030
     - post/thedynamicsexplorer-com/10232
+    - post/thedynamicsexplorer-com/37202
   guidelines: []
   changes:
     - change/bcapps/10005
@@ -246,6 +247,7 @@ links:
     - change/bcapps/10504
     - change/bcapps/11158
     - change/bcapps/11209
+    - change/bcapps/12149
     - change/bcapps/9089
     - change/bcapps/9195
     - change/bcapps/9282
@@ -263,7 +265,7 @@ coverage:
   learn: 19
   code: 60
   video: 3
-  blog: 2
+  blog: 3
   guideline: 0
 bc_forms:
   - 6
@@ -395,15 +397,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10504 [Reminders] Complete the communication texts model uptake](../../../../changes/bcapps/10504.md) (code change): "Reminder attachment and email communication model is now the permanent behavior"
 - [#11158 [Master]-"The record in table Reminder Line already exists." error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used](../../../../changes/bcapps/11158.md) (code change): "Fixed a duplicate record error in Reminder Communication when creating reminders"
 - [#11209 [29.x]-"The record in table Reminder Line already exists." error appears if you Create Reminders for a Customer with all the Open Entries On Hold and no Reminder Free applied on the Reminder Terms used.](../../../../changes/bcapps/11209.md) (code change): "Fixed an error that occurred when creating reminders for customers with all open"
+- [#12149 [main] Bug 652332 Issuing multiple Reminders or Finance Charge Memos with Print, produces a PDF only for the last one](../../../../changes/bcapps/12149.md) (code change): "issuing multiple reminders or finance charge memos with the print option"
 - [#9089 Merge-ES-Excluded-from-Calculation-to-W1](../../../../changes/bcapps/9089.md) (code change): "Customer, vendor, ledger entry and General Ledger Setup tables change"
 - [#9195 Fix Aged Accounts Receivable (Report 120) performance on large ledger history](../../../../changes/bcapps/9195.md) (code change): "Aged Accounts Receivable report (Report 120) now reads only the four columns"
 - [#9282 [Main]- Description field in the contact history is showing the number of the original unregistered reminder instead of the registered reminder number when using the reminder automation setup.](../../../../changes/bcapps/9282.md) (code change): "Contact history descriptions in reminder automation now display the registered reminder number"
 - [#9586 [master] Overdue Balance (LCY) filters do not behave as expected if you open the Customer Card from a document or journal.](../../../../changes/bcapps/9586.md) (code change): "The Customer Card now applies a default date filter in the OnAfterGetCurrRecord function"
 - [#9775 [Main]-Issued Reminders are printed without any header or footer in the United Kingdom version](../../../../changes/bcapps/9775.md) (code change): "The Reminder report in the United Kingdom version now displays header and footer content"
-- [Creating Data Driven Text with AI in Business Central](../../../../posts/aardvarklabs-blog/1816.md) (community post): "overdue customer balances by combining user input with customer data"
+- [Untangling Your Books: Understanding Application of Entries in Business Central](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-2182793503205531345--62a5e86030.md) (community post): "Application of entries is the process of matching transactions like invoices and payments"
 - [Dynamics 365 Business Central – Three ways to post Sales Ledger Cash Receipts in Business Central](../../../../posts/thedynamicsexplorer-com/10232.md) (community post): "application of cash to invoices"
+- [Dynamics 365 Business Central – Why isn’t Payment Tolerance being taken automatically in the Cash Receipt Journal?](../../../../posts/thedynamicsexplorer-com/37202.md) (community post): "Payment Tolerance in Business Central can automatically write off small remaining invoice balances"
+- [Comparing Entering Customer Cash Receipts in Dynamics SL to Dynamics 365 Business Central](../../../../videos/6WVsS3j-HTw.md) (video): "Comparing Entering Customer Cash Receipts in Dynamics SL"
 - [Comparing entering Customer Cash Receipts in Dynamics GP to Dynamics 365 Business Central (2024)](../../../../videos/Dkd8_cGzIvc.md) (video): "Cash receipts; customer payments; customer receivables; invoice application"
-- [Comparing Trial Balance and Aging Reports between Dynamics SL and Dynamics 365 Business Central](../../../../videos/O2RPBlr_GiE.md) (video): "aging reports; accounts receivable aging; aged accounts receivable report"
 - [What's New: Financial Management - Reminder Automation (2024 release wave 1)](../../../../videos/UTxX4XPLcgQ.md) (video): "reminder automation; role center; customer communication; batch jobs"
 
 ## Business Central pages and reports

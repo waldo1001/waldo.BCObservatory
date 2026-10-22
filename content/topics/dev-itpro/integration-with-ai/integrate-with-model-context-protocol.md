@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,7 @@ links:
     - video/C5cmG3sNjUg
     - video/EpDIrJE0HzA
     - video/GeT5E_f9A9Q
-    - video/GK6hM-nBYZk
+    - video/iViHfCgL2L8
     - video/q3xnjJD32kk
     - video/qs1cg-GoDeQ
     - video/rm-FstU_I80
@@ -90,12 +90,9 @@ links:
     - post/aardvarklabs-blog/2724
     - post/aardvarklabs-blog/3775
     - post/bertverbeek-nl/1183
-    - post/demiliani-com/12412
-    - post/demiliani-com/13882
     - post/gerardorenteria-blog/12682
-    - post/gerardorenteria-blog/13993
     - post/katson-com/4678
-    - post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
+    - post/katson-com/5026
   guidelines: []
 learn_toc_path:
   - Integration with AI
@@ -107,7 +104,7 @@ coverage:
   learn: 6
   code: 3
   video: 9
-  blog: 9
+  blog: 6
   guideline: 0
 bc_forms:
   - 8350
@@ -158,17 +155,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Exploring Model Context Protocol (MCP) for Business Automation in Business Central](../../../posts/aardvarklabs-blog/2724.md) (community post): "Model Context Protocol (MCP) servers enable AI agents to interact with Business Central data"
 - [Connect Claude to Business Central MCP: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/3775.md) (community post): "Connect Claude to Business Central MCP; locally hosted Python proxy"
 - [Microsoft Agent Framework and Business Central MCP server](../../../posts/bertverbeek-nl/1183.md) (community post): "Business Central MCP server launched at Directions EMEA"
-- [Visual Studio Code and autodiscovery of MCP servers: better to stay in control.](../../../posts/demiliani-com/12412.md) (community post): "Visual Studio Code and autodiscovery of MCP servers"
-- [Dynamics 365 Business Central: using AL MCP Server from GitHub Copilot CLI.](../../../posts/demiliani-com/13882.md) (community post): "AL MCP Server exposes AL development tools through the Model Context Protocol"
 - [🤖 AboutText: Teaching AI to Understand Your APIs ✨](../../../posts/gerardorenteria-blog/12682.md) (community post): "AboutText property, added to APIV2 pages when APIs are exposed through the Model Context Protocol"
-- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "MCPs: check your BC extension health in VS Code"
 - [Connect Any Agent to Business Central](../../../posts/katson-com/4678.md) (community post): "connect external AI agents to Business Central using the Model Context Protocol"
-- [The Copilot harness is now VS Code's default](../../../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (community post): "The Copilot harness is now VS Code's default"
+- [How to Connect Business Central MCP to Claude Desktop](../../../posts/katson-com/5026.md) (community post): "enabling third-party AI agents to access BC data"
 - [What's New: Enhanced MCP Server (2026 release wave 1)](../../../videos/0WAOtNaKjws.md) (video): "MCP Server configuration validation import export connection string telemetry auditing"
 - [MCP Server for Business Central - Advanced Topics (Part 3)](../../../videos/C5cmG3sNjUg.md) (video): "MCP Server for Business Central agents dynamic tools static tools"
 - [Build an Agent in Microsoft Copilot Studio for Business Central (2025)](../../../videos/EpDIrJE0HzA.md) (video): "Build an Agent in Microsoft Copilot Studio for Business Central"
 - [Introducing MCP Server Configurations for Business Central (Part 2)](../../../videos/GeT5E_f9A9Q.md) (video): "Introducing MCP Server Configurations for Business Central"
-- [What's New: Business Central Integration with Microsoft Copilot Studio (2026 release wave 1)](../../../videos/GK6hM-nBYZk.md) (video): "Business Central Integration with Microsoft Copilot Studio"
+- [Introducing MCP Server for Business Central (Part 1)](../../../videos/iViHfCgL2L8.md) (video): "Introducing MCP Server for Business Central"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/q3xnjJD32kk.md) (video): "MCP Server; query tools; data analysis; agent capabilities"
 - [What's new: MCP Server (2026 release wave 2)](../../../videos/qs1cg-GoDeQ.md) (video): "MCP Server; data tools; query tool; agents; copilot studio"
 - [20260831 - Business Central MCP Server, standard and custom](../../../videos/rm-FstU_I80.md) (video): "Business Central MCP Server; Model Context Protocol; copilot studio integration"

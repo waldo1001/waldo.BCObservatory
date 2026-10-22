@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.785Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -87,6 +87,7 @@ links:
     - post/duiliotacconi-com/1925
     - post/duiliotacconi-com/2074
     - post/waldo-be/318371
+    - post/waldo-be/318461
   guidelines: []
 learn_toc_path:
   - Development
@@ -99,7 +100,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 4
+  blog: 5
   guideline: 0
 bc_forms: []
 member_hash: 2f3b3934ac033023f927292453c1e85b5a805202dba3ad71eb731b2a269851ea
@@ -148,5 +149,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central Online Wait Statistics in Telemetry: the AI boost](../../../../posts/duiliotacconi-com/1925.md) (community post): "AI can analyze exported wait statistics telemetry to provide performance insights"
 - [Use sqlServerSessionId to spot on blocking sessions in Dynamics 365 Business Central 2026 Wave 1](../../../../posts/duiliotacconi-com/2074.md) (community post): "Investigation workflow involves isolating lock timeouts, filtering lock snapshots"
 - [Analyzing BC Telemetry with AI with the “BC Telemetry Buddy”](../../../../posts/waldo-be/318371.md) (community post): "BC Telemetry Buddy is a VSCode extension and Model Context Protocol tool"
+- [BC Telemetry Buddy – When Your 12-Year-Old Accidentally Helps You Find a Problem](../../../../posts/waldo-be/318461.md) (community post): "lets you question Business Central telemetry in natural language instead of writing KQL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

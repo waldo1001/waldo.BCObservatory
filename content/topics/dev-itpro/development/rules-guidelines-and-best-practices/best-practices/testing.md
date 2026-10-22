@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:13.086Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,9 +49,10 @@ links:
   topics:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
   localizations: []
-  videos: []
+  videos:
+    - video/Q-oazDEucLE
   posts:
-    - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
+    - post/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b
   guidelines: []
   changes:
     - change/bcquality/132
@@ -70,7 +71,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -117,6 +118,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#159 3 AL/BC testing patterns from an external BC testing expert's blog (Luc van Vugt, fluxxus.nl)](../../../../../changes/bcquality/159.md) (code change): "Table Relation Test hook was checked against BCApps source"
 - [#202 Restore deterministic review fixture coverage](../../../../../changes/bcquality/202.md) (code change): "Registers 23 paired knowledge articles across data modeling, error handling, performance, security, style, testing, UI, upgrade and web services"
 - [#96 Add missing AL review leaf skills](../../../../../changes/bcquality/96.md) (code change): "Four new AL code review leaf skills were added to cover testing, data modeling, AppSource, and telemetry"
-- [Weekly Recap: August 7-14](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "AL Runner shipped 85 PRs fixing emulation-to-real-BC divergences in rename propagation, calc formulas, test paging"
+- [AL Runner: Run AL Unit Tests Without a BC Service Tier](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-al-runner-run-al-tests-without-bc--693c9fd16b.md) (community post): "Test execution runs in seconds compared to 15-30 minute container-based pipelines"
+- [20260601 - From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](../../../../../videos/Q-oazDEucLE.md) (video): "Test-driven development with AI agents"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

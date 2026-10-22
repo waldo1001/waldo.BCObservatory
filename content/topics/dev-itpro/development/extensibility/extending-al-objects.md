@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:28.884Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -83,7 +83,6 @@ links:
   localizations: []
   videos:
     - video/qABlX4AL3GM
-    - video/tzeO0mc8RJo
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1
   guidelines: []
@@ -104,7 +103,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 2
+  video: 1
   blog: 1
   guideline: 0
 bc_forms: []
@@ -156,6 +155,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9217 [Extensibility][SubscriptionBilling]: Make IsLineAttachedToBillingLine accessible from external apps in Sales Line and Purchase Line](../../../../changes/bcapps/9217.md) (code change): "IsLineAttachedToBillingLine procedure visibility changed from internal to public"
 - [Business Central 29.0: Major Change to Table Extensions and SQL Storage.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-5876765753602227342--dc85fd75c1.md) (community post): "table extension fields are stored in the database"
 - [Business Central 29.0: Major Change to Table Extensions & SQL.](../../../../videos/qABlX4AL3GM.md) (video): "table extensions; sql storage model; database performance; indexes"
-- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "Object extensions in same application; AL tool"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -2,7 +2,7 @@
 id: source/bcquality-prs
 type: source
 title: microsoft/BCQuality pull requests
-summary: "microsoft/BCQuality pull requests: 101 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
+summary: "microsoft/BCQuality pull requests: 102 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot."
 tier: official
 language: en
 tags:
@@ -13,10 +13,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:19:55.996Z"
+  at: "2026-10-22T00:20:01.868Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: 8a001a54befd56b300af11101445926ff407d2aaf85d793d7b94965f47193587
+  input_hash: 25f21664cd7e0d52a136b26decacad38ec6de8c31abbb69ddd17ec015f7b9fe4
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
@@ -134,6 +134,7 @@ links:
     - change/bcquality/237
     - change/bcquality/226
     - change/bcquality/238
+    - change/bcquality/228
     - change/bcquality/246
     - change/bcquality/249
 source_id: bcquality-prs
@@ -142,13 +143,13 @@ url: https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged
 author: null
 mvp: false
 full_text: false
-item_count: 101
+item_count: 102
 footprint:
   systems:
     - id: development
-      weight: 182
+      weight: 184
     - id: platform
-      weight: 25
+      weight: 26
     - id: copilot
       weight: 16
     - id: administration
@@ -159,9 +160,9 @@ footprint:
       weight: 4
   topics:
     - id: main
-      weight: 101
+      weight: 102
     - id: feature
-      weight: 61
+      weight: 62
     - id: fix
       weight: 23
     - id: other
@@ -176,7 +177,7 @@ last_item: "2026-10-20"
 
 # microsoft/BCQuality pull requests
 
-> microsoft/BCQuality pull requests: 101 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
+> microsoft/BCQuality pull requests: 102 code changes in the knowledge base, 2026-07-09 to 2026-10-20, mostly about development, platform, copilot.
 
 [https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged](https://github.com/microsoft/BCQuality/pulls?q=is%3Apr+is%3Amerged) · repository · tier official
 
@@ -184,8 +185,8 @@ last_item: "2026-10-20"
 
 | Systems | Topics | AL objects named |
 |---|---|---|
-| development (182) | main (101) |  |
-| platform (25) | feature (61) |  |
+| development (184) | main (102) |  |
+| platform (26) | feature (62) |  |
 | copilot (16) | fix (23) |  |
 | administration (8) | other (12) |  |
 | reporting (5) | refactor (5) |  |
@@ -196,12 +197,13 @@ last_item: "2026-10-20"
 Items per quarter, oldest first:
 
 - 2026-Q3: **************************************** 77
-- 2026-Q4: ************************ 24
+- 2026-Q4: ************************* 25
 
 ## Most recent
 
 - [#249 Route guard-dependent and/or conditions to the short-circuit article](../changes/bcquality/249.md) (2026-10-20)
 - [#246 Expose plan guidance as a preview plugin skill](../changes/bcquality/246.md) (2026-10-20)
+- [#228 Knowledge: isolated events, FilterGroup scope, BLOB CalcFields and stream text encoding](../changes/bcquality/228.md) (2026-10-20)
 - [#238 Improve first-run documentation for new developers](../changes/bcquality/238.md) (2026-10-20)
 - [#226 Performance knowledge: justify low-selectivity fields in key columns](../changes/bcquality/226.md) (2026-10-20)
 - [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../changes/bcquality/237.md) (2026-10-20)
@@ -219,6 +221,5 @@ Items per quarter, oldest first:
 - [#215 knowledge(performance): grouped query (Count + ColumnFilter = HAVING) for distinct values and duplicates](../changes/bcquality/215.md) (2026-10-05)
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../changes/bcquality/209.md) (2026-10-05)
 - [#216 knowledge(style): a new procedure that changes the page's current record should take it as var Record](../changes/bcquality/216.md) (2026-10-05)
-- [#205 Preserve business filters when recommending Record.Get](../changes/bcquality/205.md) (2026-10-02)
 
 Source: code changes of this source in BC Observatory, derived pages only (CONTENT-NOTICE.md).

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:33.423Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -110,7 +110,6 @@ links:
     - video/564XMP2IyLM
     - video/b-ixzwDS41c
     - video/DnZJ2iOgIjI
-    - video/YbuO1n_Lqj0
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-79-change-log-deletion-on-one-field--e06c352acf
   guidelines: []
@@ -127,7 +126,7 @@ children: []
 coverage:
   learn: 8
   code: 17
-  video: 4
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -198,7 +197,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Use Retention Policies to Avoid Unnecessary Database Growth](../../../../videos/564XMP2IyLM.md) (video): "Use Retention Policies to Avoid Unnecessary Database Growth; automated deletion; data governance"
 - [What's New: Customer-Managed Encryption Key (2025 release wave 1)](../../../../videos/b-ixzwDS41c.md) (video): "Customer-Managed Encryption Key; data governance; privacy; security"
 - [What's New: Customer-Managed Encryption Key & Lockbox (2024 release wave 2)](../../../../videos/DnZJ2iOgIjI.md) (video): "customer-managed encryption key; lockbox; security; data encryption; enterprise policy"
-- [What's New: Enhanced IT Audit Reporting (2026 release wave 1)](../../../../videos/YbuO1n_Lqj0.md) (video): "audit reporting; permissions; approvals; user management; change log; security groups"
 
 ## Business Central pages and reports
 

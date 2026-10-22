@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:57.247Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -57,8 +57,7 @@ links:
   topics:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor
   localizations: []
-  videos:
-    - video/auoHUd24Gfw
+  videos: []
   posts: []
   guidelines: []
 learn_toc_path:
@@ -71,7 +70,7 @@ children: []
 coverage:
   learn: 4
   code: 0
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms: []
@@ -109,11 +108,5 @@ For delivery, the application lifecycle management page explains how to keep AL 
 - [Best practices for Power Apps with Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-best-practices): Learn how to best develop Power Apps for Business Central
 - [Business Central and Power Apps](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview): Get an overview Business Central and Power Apps integration
 - [Sample Power Apps for Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples): Sample apps that give partners an easy way to get started with building Power Apps
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [What's New: Using Power Pages with Business Central (2024 release wave 1)](../../../../videos/auoHUd24Gfw.md) (video): "Custom Dataverse mapping plugin for company targeting; Portal ID retrieval from Power Pages URL"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

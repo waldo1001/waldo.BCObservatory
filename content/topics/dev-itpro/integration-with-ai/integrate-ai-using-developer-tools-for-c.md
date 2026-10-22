@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:47.695Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -208,14 +208,18 @@ links:
     - video/lNASlydCidI
   posts:
     - post/aardvarklabs-blog/1609
+    - post/aardvarklabs-blog/1891
+    - post/aardvarklabs-blog/2663
+    - post/aardvarklabs-blog/2965
+    - post/gerardorenteria-blog/13993
     - post/thinkaboutit-be/8204
+    - post/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8
   guidelines: []
   changes:
     - change/al-go/2413
     - change/bcapps/11073
     - change/bcapps/12428
     - change/bcquality/155
-    - change/bcquality/229
     - change/bcquality/84
 learn_toc_path:
   - Integration with AI
@@ -228,7 +232,7 @@ coverage:
   learn: 24
   code: 0
   video: 2
-  blog: 2
+  blog: 7
   guideline: 0
 bc_forms: []
 member_hash: aeabb0e354c64dab6f26c0a75a3b42f75aacb52e074d17031f180db246dc234e
@@ -284,10 +288,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11073 Validate image content before sending to Computer Vision](../../../changes/bcapps/11073.md) (code change): "Image Analysis Management now validates image content before sending"
 - [#12428 Add Copilot feature trial interface](../../../changes/bcapps/12428.md) (code change): "Added a public Copilot feature trial interface to System Application"
 - [#155 Add read-only AL development plan guidance](../../../changes/bcquality/155.md) (code change): "extended metadata and JSON schemas while keeping implementation"
-- [#229 Knowledge: Community Copilot domain (System.AI features) and review skill](../../../changes/bcquality/229.md) (code change): "Copilot development covering System.AI module best practices"
 - [#84 Package BCQuality as an installable plugin (experiment)](../../../changes/bcquality/84.md) (code change): "Experimentally packages BCQuality as an installable plugin for Copilot CLI and Claude Code hosts"
 - [Integrating AI in Business Central: A Step-by-Step Guide](../../../posts/aardvarklabs-blog/1609.md) (community post): "building a custom AI-powered Copilot agent in Business Central"
+- [Implementing a Multi-Step Process for AI Recommendations in Business Central](../../../posts/aardvarklabs-blog/1891.md) (community post): "This post demonstrates how to build a multi-step AI-assisted process in Business Central"
+- [Azure OpenAI in Business Central AL: Managed vs Unmanaged](../../../posts/aardvarklabs-blog/2663.md) (community post): "Azure OpenAI in Business Central AL: Managed vs Unmanaged"
+- [Step-by-Step Guide to AI Campaigns in Business Central](../../../posts/aardvarklabs-blog/2965.md) (community post): "Leverages Business Central's managed AI resource with Bing Grounded Search"
+- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "orchestrate external tools like YAMPI and BC Telemetry Buddy to analyze Business Central extension health"
 - [Quick Tip: What’s in Business Central Update 28.5?](../../../posts/thinkaboutit-be/8204.md) (community post): "Developers can now build Copilot extensions using Microsoft-managed Azure OpenAI"
+- [The Copilot harness is now VS Code's default](../../../posts/tine-staric-net/https-tine-staric-net-blog-2026-copilot-harness-default--e1d89722b8.md) (community post): "The Copilot harness is now VS Code's default"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../../videos/7SSNcUMFtCw.md) (video): "Bring your own Azure OpenAI subscription; System prompts for AI safety"
 - [What's New: Designing and Developing Generative AI Experiences for Your Apps (2023 Release Wave 2)](../../../videos/lNASlydCidI.md) (video): "Generative AI Developer Toolkit; Prompt Dialogue Page Type; Sparkle Image Property"
 

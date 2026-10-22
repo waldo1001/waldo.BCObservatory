@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:20:52.535Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -99,8 +99,8 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/aardvarklabs-blog/2202
     - post/demiliani-com/12267
+    - post/duiliotacconi-com/1717
     - post/duiliotacconi-com/1850
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a
   guidelines: []
@@ -111,6 +111,7 @@ links:
     - change/bcapps/10447
     - change/bcapps/10970
     - change/bcapps/11824
+    - change/bcapps/12186
     - change/bcapps/9168
     - change/bcapps/9712
     - change/bcapps/9850
@@ -182,13 +183,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10447 [Bug][Subscription Billing] Price Update Template filters on Subscription Lines are overwritten by the proposal's own default filters](../../../../../changes/bcapps/10447.md) (code change): "Price Update Template filters on Subscription Lines are now correctly preserved"
 - [#10970 [Master] -SubBilling BillingLine doesn't consider entries for usage date ranges crossing periods](../../../../../changes/bcapps/10970.md) (code change): "Fixed subscription billing to correctly include usage data entries whose charge periods span"
 - [#11824 [29.x][Subscription Billing] Sales-Explode BOM fails for foreign-currency customers](../../../../../changes/bcapps/11824.md) (code change): "Sales Subscription Line creation now correctly handles cached Sales Line data"
+- [#12186 Set several fields in one ModifyAll call](../../../../../changes/bcapps/12186.md) (code change): "Set several fields in one ModifyAll call."
 - [#9168 [QM] Fix internal put-away from Quality Inspection sourcing wrong bin](../../../../../changes/bcapps/9168.md) (code change): "Internal put-away disposition from Quality Inspection now resolves the source bin from actual Bin Content"
 - [#9712 [master] - Changing the contact of a Customer Subscription Contract doesn't update the email of the contract.](../../../../../changes/bcapps/9712.md) (code change): "Fixed missing email and phone number update when 'Sell-to Contact No.' is validated"
 - [#9850 Fix VariantCode lost during Contract Price Update proposal](../../../../../changes/bcapps/9850.md) (code change): "Variant code from subscription header service object is now correctly passed"
 - [#133 Add TransferFields SkipFieldsNotMatchingType guidance](../../../../../changes/bcquality/133.md) (code change): "TransferFields only errors on type mismatches within the same extension"
 - [#209 3 AL/BC patterns: Insert/Delete trigger defaults on master data and declined Confirm in OnValidate](../../../../../changes/bcquality/209.md) (code change): "Record.Insert() and Delete() skip OnInsert and OnDelete by default"
-- [Step by Step Guide to Importing Excel Data into Business Central](../../../../../posts/aardvarklabs-blog/2202.md) (community post): "validating the data, and then creating actual business records"
 - [Dynamics 365 Business Central: finally we’ll have TRUNCATE table in SaaS.](../../../../../posts/demiliani-com/12267.md) (community post): "Rec.Truncate AL method to enable efficient bulk deletion of table rows"
+- [LockTimeoutDuration in AL](../../../../../posts/duiliotacconi-com/1717.md) (community post): "AL code can call Database.LockTimeoutDuration to raise or lower the lock timeout"
 - [Rec.Truncate in AL](../../../../../posts/duiliotacconi-com/1850.md) (community post): "Rec.Truncate is a new AL method based on SQL Server TRUNCATE"
 - [BC Friday Tips #68 Always Use Field Validation](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-68-always-use-field-validation--cd6c5b4b3a.md) (community post): "Field validation in Business Central extensions ensures all business logic runs"
 

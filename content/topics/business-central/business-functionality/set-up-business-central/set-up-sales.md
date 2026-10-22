@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:57.847Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -246,6 +246,7 @@ links:
     - topic/business-central/business-functionality/set-up-business-central/set-up-sales/set-up-subscription-billing
   localizations: []
   videos:
+    - video/cc6rEVDhlzs
     - video/gBB0elWQWM8
     - video/tP-0VcN7fcU
   posts: []
@@ -263,7 +264,7 @@ children:
 coverage:
   learn: 22
   code: 50
-  video: 2
+  video: 3
   blog: 0
   guideline: 0
 bc_forms:
@@ -374,6 +375,7 @@ Start with the overview of tasks, then follow the page for the area you need. Th
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12538 Remove CLEAN27 for Create Item from Item No. setup fields](../../../../changes/bcapps/12538.md) (code change): "Removes CLEAN27 code for the Create Item from Item No. fields in tables 311 and 312"
+- [Comparing Classes and Templates between Dynamics SL and Dynamics 365 Business Central](../../../../videos/cc6rEVDhlzs.md) (video): "Customer templates in Business Central"
 - [Warn Salespeople That a Product Will Soon be Out of Stock](../../../../videos/gBB0elWQWM8.md) (video): "Stock out warning on sales lines; Stock out warning toggle"
 - [Comparing Classes and Templates between Dynamics GP and Dynamics Business Central (2024)](../../../../videos/tP-0VcN7fcU.md) (video): "Customer templates; Posting groups in customer templates"
 

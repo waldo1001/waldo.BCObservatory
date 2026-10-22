@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:30.865Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -84,7 +84,6 @@ links:
   posts:
     - post/aardvarklabs-blog/3837
     - post/demiliani-com/13961
-    - post/demiliani-com/14203
     - post/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a
   guidelines: []
   changes:
@@ -95,7 +94,7 @@ links:
     - change/bcapps/12117
     - change/bcapps/9820
     - change/bcquality/148
-    - change/bcquality/225
+    - change/bcquality/237
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -108,7 +107,7 @@ coverage:
   learn: 7
   code: 0
   video: 1
-  blog: 4
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 7e973865ef69c54987bbe536a88d425040931744358986d9768ab1f223830a21
@@ -160,10 +159,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12117 [Job Queue] Clearer message and attempt number for runs interrupted by the platform](../../../../changes/bcapps/12117.md) (code change): "platform interrupts a job queue run, the log entry message now says"
 - [#9820 Use ReadCommitted isolation for CalcFields in Job Queue Entry GetXmlContent](../../../../changes/bcapps/9820.md) (code change): "Job Queue Entry GetXmlContent method now uses ReadCommitted isolation when reading"
 - [#148 Add Job Queue reliability and scheduling guidance](../../../../changes/bcquality/148.md) (code change): "Require external side effects in Job Queue handlers to be idempotent"
-- [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../changes/bcquality/225.md) (code change): "computing Role Center headlines in background tasks via the RC Headlines Executor"
+- [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../changes/bcquality/237.md) (code change): "Deleting a Job Queue Entry can lose business state"
 - [Background Page Tasks in Business Central Explained](../../../../posts/aardvarklabs-blog/3837.md) (community post): "Background page tasks enable pages to automatically refresh themselves"
 - [Dynamics 365 Business Central: the mistery around the “Parallel Session Management” codeunit.](../../../../posts/demiliani-com/13961.md) (community post): "Codeunit 490 is a manual, in-memory orchestrator using scope OnPrem procedures without async/await or platform-managed queues"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when"
 - [If You Can't Make It Fast, Make It Feel Fast](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-bc-background-processing-make-it-feel-fast--2f2ea5c72a.md) (community post): "moving blocking work to the background instead of waiting for user input"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../../../videos/D7GxnNiGQ14.md) (video): "background processing; job queue; page background task; task scheduler"
 

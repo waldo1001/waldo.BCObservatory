@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -314,9 +314,8 @@ links:
   videos:
     - video/7SSNcUMFtCw
   posts:
-    - post/aardvarklabs-blog/3032
-    - post/demiliani-com/12036
     - post/demiliani-com/13611
+    - post/demiliani-com/17508
   guidelines: []
   changes:
     - change/bcapps/10205
@@ -333,7 +332,7 @@ coverage:
   learn: 56
   code: 3
   video: 1
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 8350
@@ -377,9 +376,8 @@ Start with the subtopic that matches your goal. For generative AI features in AL
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10205 Deprecate Text Completion API in AI SDK (work item 621038)](../../changes/bcapps/10205.md) (code change): "Text Completion API in the Azure OpenAI AI module is marked obsolete"
-- [Using AI to Simplify Complex Documentation and Design Tasks](../../posts/aardvarklabs-blog/3032.md) (community post): "using Microsoft 365 Copilot with Notebooks to parse supplier requirements documents"
-- [Why not start improving Business Central APIs definitions for supporting AI?](../../posts/demiliani-com/12036.md) (community post): "exposing API descriptions, field types, and OpenAPI specifications would help AI agents"
 - [From Chat Completions to Responses API: why Azure OpenAI’s new paradigm changes everything.](../../posts/demiliani-com/13611.md) (community post): "Business Central's System.AI namespace currently wraps Chat Completions and provides guardrails"
+- [Me @ Directions EMEA 2026](../../posts/demiliani-com/17508.md) (community post): "fine-tuning open-source language models locally with Business Central data"
 - [What's New: Business Central AI Resources (2025 release wave 1)](../../videos/7SSNcUMFtCw.md) (video): "ai resources; copilot; azure openai; content safety; data privacy"
 
 ## Business Central pages and reports

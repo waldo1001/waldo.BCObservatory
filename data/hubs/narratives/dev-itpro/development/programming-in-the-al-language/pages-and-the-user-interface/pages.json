@@ -1,38 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface/pages",
-  "input_hash": "39af5c0fd5d4458079d96df7a35af8cc8c41a7f83d15ab149487f7c54856cb67",
-  "summary": "Pages in AL for Business Central: page objects and extensions, page types (Card, List, Document, parts, PromptDialog, ConfigurationDialog, NavigatePage), layout controls, FactBoxes, tooltips, discoverability, tiles, Power BI embedding and onboarding tips. Answers how to design, lay out and extend pages.",
-  "overview": "This section covers how to build the user interface of Business Central in AL. It starts with the basics: the Pages overview, Page object, Page types and layouts, and Page extension object. These explain page types, the SourceTable property, layout areas, actions and how to extend existing pages with keywords such as addlast and modify.\n\nDesign pages then cover specific types and layout controls. Card, document and list pages, the simple card and list examples, repeater controls, indented hierarchy lists and tiles (Brick field groups) handle records. FastTabs, the grid control and the fixed control handle field arrangement. Page parts (CardPart, ListPart, HeadlinePart, Power BI report parts) and FactBoxes embed related data. Further pages cover field formatting, tooltips, custom filter tokens, rich text and assisted setup guides.\n\nA third group covers helping users find and learn the UI: Tell me, page discoverability, teaching tips and tours. Newer page types for Copilot and agents (PromptDialog, prompt guides, error handling in prompt dialogs, ConfigurationDialog) are also here. Start with Pages overview and Page types and layouts, then go to the page type or control you need.",
+  "input_hash": "0bb61d53330ff5eec559ab3cebe67c78294437f1213319bad056e1371a3cd28b",
+  "summary": "Pages in AL for Business Central: page objects and extensions, page types (card, list, parts, NavigatePage, PromptDialog, ConfigurationDialog), field layout and formatting, and user assistance such as tooltips, Tell me, teaching tips and discoverability. It answers how to design, lay out and extend pages.",
+  "overview": "This section covers building the user interface of Business Central with AL page objects. It starts with the general pages: Pages overview, Page object, Page types and layouts, and Page extension object. Together they explain page types, layout areas, actions, and how to extend existing pages with keywords such as addlast, addafter and modify.\n\nFurther pages cover specific designs: card, document and list pages, with simple examples; page parts (CardPart, ListPart, HeadlinePart, Power BI) and FactBoxes; and layout controls such as FastTabs, grid, fixed control, repeaters, indented hierarchies and tiles. Others cover field formatting, rich text, custom filter tokens, assisted setup guides, and the PromptDialog and ConfigurationDialog page types for Copilot and agents.\n\nA third group covers user assistance and discoverability: tooltips, Tell me, Role Explorer, teaching tips and tours. To start, read Pages overview and Page types and layouts, then go to the page type you need.",
   "key_points": [
-    "Core objects: Page object and Page extension object (addfirst, addlast, addafter, addbefore, modify, move keywords); page types include Card, List, Document, RoleCenter, Worksheet and dialogs.",
-    "Layout controls: FastTabs with the Importance property, the grid control (GridLayout), the fixed control for matrix-like statistics, and repeater controls (Width, FreezeColumn, IndentationColumn).",
-    "Page parts: CardPart, ListPart, HeadlinePart and Power BI report parts embed data from other tables; FactBoxes use SubPageLink and SubPageView to pass context.",
-    "Lists can show indented hierarchies (indentationcolumn, showastree, treeinitialstate) and tiles defined by a Brick field group; DropDown field groups control dropdown content.",
-    "Tooltips defined on table fields are inherited by pages from 2024 release wave 1 and can be overridden on page fields (CodeCop rule AA0234).",
-    "Discoverability: set UsageCategory and AdditionalSearchTerms for Tell me; use teaching tips (AboutTitle, AboutText) and tours for onboarding.",
-    "Copilot and agent pages: PromptDialog (runtime 12.1) with prompt guides and inline error display (2024 release wave 2), and the preview ConfigurationDialog with AgentSetupPart.",
-    "Other topics: field formatting with AutoFormatType and DecimalPlaces, custom filter tokens via OnResolveTextFilterToken, Rich Text editor, assisted setup guides with NavigatePage, and embedding Power BI reports."
+    "Page extension objects change existing pages using addfirst, addlast, addafter, addbefore, modify and move keywords.",
+    "Card, document and list pages have dedicated design guides plus simple card and list code examples using Customer.",
+    "Page parts (CardPart, ListPart, HeadlinePart, Power BI report parts) embed data from other tables and power FactBoxes, Role Centers and document pages.",
+    "Layout controls: FastTab field arrangement with the Importance property, grid control (GridLayout = Columns), fixed control for read-only matrix layouts, repeater properties, and indented hierarchy lists.",
+    "Tile view is customized with a Brick field group; DropDown field groups define dropdown fields.",
+    "Tooltips set on table fields inherit to pages starting in 2024 release wave 1, and page fields can override them (CodeCop rule AA0234).",
+    "Discoverability uses UsageCategory and AdditionalSearchTerms for Tell me, plus teaching tips (AboutTitle, AboutText) and tours.",
+    "PromptDialog (runtime 12.1) and ConfigurationDialog (preview) support Copilot and agent experiences, with prompt guides and inline error handling for prompt dialogs."
   ],
   "members_used": 33,
   "subtopics_used": 0,
   "prompt_version": 1,
-  "at": "2026-10-07T21:13:11.640Z",
+  "at": "2026-10-22T01:11:49.986Z",
   "llm": {
     "model": "claude-sonnet-5-5",
-    "cached": true,
-    "cost_usd": null
-  },
-  "review": {
-    "state": "reviewed",
-    "by": "opus",
-    "at": "2026-10-07T21:13:11.947Z",
-    "verdict": "approve",
-    "issues": [
-      "Overview calls prompt guides and error handling in prompt dialogs 'newer page types'. Only PromptDialog and ConfigurationDialog are page types; the other two are features of PromptDialog pages. This is minor wording.",
-      "Key point 5 attaches CodeCop rule AA0234 to overriding tooltips on page fields. The sources only list AA0234 as a feature of the tooltip article and don't say what it covers.",
-      "Key point 7: the '2024 release wave 2' tag correctly applies only to inline error display. Prompt guides are tagged 2024 release wave 1 / runtime 13 in the sources, so the sentence could be read as dating them wrongly. No change is required."
-    ],
-    "input_hash": "39af5c0fd5d4458079d96df7a35af8cc8c41a7f83d15ab149487f7c54856cb67",
-    "cost_usd": null
+    "cached": false,
+    "cost_usd": 0.037778
   }
 }

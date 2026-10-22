@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:07.016Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -47,8 +47,7 @@ links:
   topics:
     - topic/business-central/business-functionality/online-store-with-shopify
   localizations: []
-  videos:
-    - video/88s0QjsaCUQ
+  videos: []
   posts: []
   guidelines: []
   changes:
@@ -69,7 +68,7 @@ children: []
 coverage:
   learn: 2
   code: 6
-  video: 1
+  video: 0
   blog: 0
   guideline: 0
 bc_forms:
@@ -120,7 +119,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9318 [Shopify] Fix Get Catalogs tooltip to explain company dependency](../../../../changes/bcapps/9318.md) (code change): "Fix Get Catalogs tooltip to explain company dependency"
 - [#9320 [Shopify] Import HS code and country of origin from Shopify](../../../../changes/bcapps/9320.md) (code change): "Import HS code and country of origin from Shopify"
 - [#9327 [Shopify] Migrate Shopify Connector to Expiring Offline Access Tokens](../../../../changes/bcapps/9327.md) (code change): "The Shopify Connector now supports Shopify's expiring offline access tokens with automatic refresh-token rotation"
-- [Understanding the Sign Up Context and Using it for Profiling Customers](../../../../videos/88s0QjsaCUQ.md) (video): "sign up context; customer profiling; onboarding experience; app provisioning"
 
 ## Business Central pages and reports
 

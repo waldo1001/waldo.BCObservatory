@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:17:20.300Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -229,8 +229,8 @@ links:
     - video/RLmDGw1o_PI
     - video/uxQRfChp96c
     - video/v4LXW8BO4GQ
-  posts:
-    - post/gerardorenteria-blog/13675
+    - video/W3xWt6j4-Ms
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business functionality
@@ -243,8 +243,8 @@ children: []
 coverage:
   learn: 20
   code: 34
-  video: 9
-  blog: 1
+  video: 10
+  blog: 0
   guideline: 0
 bc_forms:
   - 25
@@ -333,7 +333,6 @@ Financial reporting lets you build reports from the general ledger using row def
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [📝 Adding Notes to Financial Report Lines 📊](../../../../../posts/gerardorenteria-blog/13675.md) (community post): "AL extension adds line-level notes to financial reports (Account Schedules)"
 - [What's Cooking in Business Central: Sneak Peek into New Financial Reporting Enhancements (part 1)](../../../../../videos/adsSh_dm9BY.md) (video): "financial reporting; report definitions; internal description"
 - [What's Cooking in Business Central: Financial Reporting Enhancements (part 2): Telemetry](../../../../../videos/b54ehH4AlFA.md) (video): "telemetry; financial reporting; application insights; row definitions"
 - [What's New: Financial Analytics (2025 release wave 2)](../../../../../videos/Fs90uUdWi0M.md) (video): "Dynamic date headers in financial reporting; Additional reporting currency support"
@@ -343,6 +342,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What’s New: Financial Reporting (for Report Authors) (2025 release wave 1)](../../../../../videos/RLmDGw1o_PI.md) (video): "financial reporting; report definitions; row definitions; column definitions"
 - [What's New: Enhanced Financial Reporting (2026 release wave 1)](../../../../../videos/uxQRfChp96c.md) (video): "financial reporting; tile view; report categories; lifecycle status"
 - [Work with your Financial Reports in a Spreadsheet inside Business Central (Advanced Spreadsheets)](../../../../../videos/v4LXW8BO4GQ.md) (video): "financial reports; spreadsheet export; advanced spreadsheets; live data"
+- [Comparing Financial Reporting Tools Between Dynamics GP and Dynamics Business Central (2024)](../../../../../videos/W3xWt6j4-Ms.md) (video): "Account Schedule Row Definitions and Formulas; Account Schedule Column Layouts"
 
 ## Business Central pages and reports
 

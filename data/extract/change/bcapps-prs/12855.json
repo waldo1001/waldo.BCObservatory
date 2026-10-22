@@ -6,13 +6,13 @@
   "systems_joined": [
     "integration"
   ],
-  "summary": "E-Documents now recognizes vendor credit notes from PDFs and automatically creates purchase credit memos applied to the original invoice, eliminating manual rework when credit notes are received.",
+  "summary": "E-Documents now recognize vendor credit notes in PDFs and create purchase credit memos instead of invoices. A credit memo is applied to the invoice printed on the document only when exactly one open posted invoice of the pay-to vendor matches in an applicable currency; otherwise it stays unapplied with a warning.",
   "key_points": [
-    "Credit notes (document type 381) are recognized and create purchase credit memos instead of invoices",
-    "Extraction returns EN 16931 document type codes and billing references to distinguish credit notes from invoices",
-    "Credit memos are automatically applied only to matching open invoices from the same pay-to vendor in applicable currencies",
-    "Draft includes editable 'Applies-to Vendor Inv. No.' field and read-only outcome field explaining what will happen",
-    "Negative amounts are normalized and multiple validation checks prevent incorrect applications"
+    "Extraction returns the EN 16931 document type code and billing reference; code maps 381 to a credit memo and anything else to an invoice",
+    "Credit memos are applied only to the stated invoice when exactly one open posted invoice of the pay-to vendor matches in an applicable currency",
+    "Otherwise the credit memo is left unapplied with a warning, and finalizing re-checks the match",
+    "Draft gets an editable Applies-to Vendor Inv. No. field and a read-only outcome field",
+    "Amount signs are normalized from the lines first, then the header totals"
   ],
   "change_kind": "feature",
   "behavior_change": true,

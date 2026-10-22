@@ -12,7 +12,7 @@ review:
   at: "2026-10-19T01:12:09.437Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -372,7 +372,6 @@ links:
   localizations: []
   videos:
     - video/gAzmWJg9Z5g
-    - video/symEeOiih_Q
     - video/xqwJTCPD9tA
   posts: []
   guidelines: []
@@ -408,7 +407,7 @@ children:
 coverage:
   learn: 374
   code: 54
-  video: 3
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -536,7 +535,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9860 [Bug]: [DE] XRechnung/ZUGFeRD - Item Charge lines exported without a valid unit of measure code (BR-CL-23 / BR-23 on BT-130)](../../changes/bcapps/9860.md) (code change): "XRechnung and ZUGFeRD exporters emit allowance/charge structures and adjust totals and tax"
 - [#9872 Add missing telemetry event IDs to E-Document Session.LogMessage calls](../../changes/bcapps/9872.md) (code change): "Added missing telemetry event IDs to E-Document and Avalara connector apps"
 - [What's New: Key Updates in Learning Content (docs) for Systems Architects and Integration Developers](../../videos/gAzmWJg9Z5g.md) (video): "integration overview; microsoft 365 apps; power platform; dataverse; azure services; web services"
-- [BCTalent Stories: iFacto](../../videos/symEeOiih_Q.md) (video): "talent recruitment; reskill program; bc talent; partner enablement"
 - [Designing Modern Integrations in Business Central](../../videos/xqwJTCPD9tA.md) (video): "modern integrations; ai agents; integration messages; spec-driven development"
 
 ## Business Central pages and reports

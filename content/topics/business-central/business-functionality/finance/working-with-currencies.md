@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:21:31.746Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -45,7 +45,6 @@ links:
   localizations: []
   videos:
     - video/u1oO9MEg9kc
-    - video/whtP2i7zeso
   posts:
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362
   guidelines: []
@@ -79,7 +78,7 @@ children: []
 coverage:
   learn: 2
   code: 2
-  video: 2
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -141,7 +140,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#223 knowledge(data-modeling): code that calculates a unit price rounds it to the currency's Unit-Amount Rounding Precision](../../../../changes/bcquality/223.md) (code change): "rounds it to the currency's Unit-Amount Rounding Precision"
 - [How to Add Currency Symbols to Numeric Fields in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-1716125815035715885--34eb3d4362.md) (community post): "configurable currency symbols on numeric fields to help finance users"
 - [What's New: Financial Management - G/L Account Revaluations (2024 release wave 1)](../../../../videos/u1oO9MEg9kc.md) (video): "GL Account Revaluation; currency revaluation; exchange rate adjustments"
-- [What's New: Enhancements in Intrastat (2025 release wave 1)](../../../../videos/whtP2i7zeso.md) (video): "Enhancements in Intrastat (2025 release wave 1). Topics: intrastat; mandatory fields; vat numbers"
 
 ## Business Central pages and reports
 

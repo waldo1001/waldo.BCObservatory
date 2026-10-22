@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:40:39.296Z"
+  at: "2026-10-22T01:03:16.851Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: ed470890879f6f591819de567bbaf4b89895bc69d8a183b284a858d4cbeefd12
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManager.Profile.al
+    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManager.Profile.al
     title: src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManager.Profile.al (releases/29.x)
     date: null
-    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
+    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Profile "BUSINESS MANAGER" in Base Application (Microsoft.Finance.RoleCenters). Present since at least BC23, still in BC30.
 
-Base Application · Microsoft.Finance.RoleCenters · captioned "Business Manager" · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManager.Profile.al) · facts from BC29
+Base Application · Microsoft.Finance.RoleCenters · captioned "Business Manager" · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Layers/W1/BaseApp/Finance/RoleCenters/BusinessManager.Profile.al) · facts from BC29
 
 ## Properties
 

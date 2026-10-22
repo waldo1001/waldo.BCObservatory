@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:23:51.650Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -44,9 +44,6 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2907
-    - post/demiliani-com/13215
-    - post/demiliani-com/14203
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b
   guidelines: []
   changes:
     - change/bcapps/10437
@@ -62,6 +59,7 @@ links:
     - change/bcapps/12196
     - change/bcapps/12229
     - change/bcapps/12306
+    - change/bcapps/12561
     - change/bcapps/9014
     - change/bcapps/9124
     - change/bcapps/9208
@@ -75,7 +73,7 @@ coverage:
   learn: 2
   code: 0
   video: 0
-  blog: 4
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: 7b01fcfd0114917bb1dd15f243b051ffc89de365454052135af57f304ef9685e
@@ -129,12 +127,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12196 [Master Data Management] Disable cross-env setup action OnPrem and fix field visibility issues](../../../changes/bcapps/12196.md) (code change): "Master Data Management cross-environment setup action is now disabled for on-premises"
 - [#12229 #12144 Enable Inbound E-Documents page extensibility](../../../changes/bcapps/12229.md) (code change): "Inbound E-Documents page is made extensible to allow"
 - [#12306 Warn before releasing a purchase order that was already sent electronically](../../../changes/bcapps/12306.md) (code change): "releasing a purchase order that was already electronically sent"
+- [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "The internal OnBeforeCreateSalesHeader event can now return an intentional hold message"
 - [#9014 [E-Document] Remove Access = Internal from E-Doc. Data Exchange Impl. codeunit](../../../changes/bcapps/9014.md) (code change): "Partners can now call its functions from their own E-Document implementations"
 - [#9124 [E-Document] [Payables Agent] Users can personalize-in the Name column on the draft page](../../../changes/bcapps/9124.md) (code change): "New OnAfterGetMatchedEntityName integration event for connector apps"
 - [#9208 [Enforced Digital Vouchers] - Attaching EDocuments when using Digital Vouchers](../../../changes/bcapps/9208.md) (code change): "Attaching EDocuments when using Digital Vouchers"
 - [Debugging Business Event Subscriptions in Business Central](../../../posts/aardvarklabs-blog/2907.md) (community post): "Business Central has hidden pages for debugging Business Event Subscriptions (which function as web hooks)"
-- [SaaS ERP misconceptions: the “on-premises thinking trap”](../../../posts/demiliani-com/13215.md) (community post): "redesign integrations using APIs and events instead of database connections"
-- [Why your Business Central job queue needs idempotent external effects when integrating external systems.](../../../posts/demiliani-com/14203.md) (community post): "Job queue entries that call external APIs risk duplicating actions when AL"
-- [Directions Asia 2026 Recap: Key Takeaways from Ho Chi Minh City](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-818643009386692123--56430d970b.md) (community post): "event-driven architecture is required"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

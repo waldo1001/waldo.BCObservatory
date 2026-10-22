@@ -3,21 +3,21 @@
     7,
     [
       1,
-      "7f41d35742230d336aa3ef0076182523d6ab433b",
+      "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
       "4",
-      "7f41d35742230d336aa3ef0076182523d6ab433b",
+      "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
       "4"
     ]
   ],
   "schema": "bcobs-field-docs@1",
   "major": "29",
   "stats": {
-    "tooltips": 18810,
+    "tooltips": 18818,
     "bound": 12761,
     "unparsed": 2989,
-    "unmatched": 3060,
-    "tables": 1080,
-    "fields": 8964
+    "unmatched": 3068,
+    "tables": 1081,
+    "fields": 8961
   },
   "tables": {
     "table/4": {
@@ -19779,6 +19779,11 @@
       }
     },
     "table/5200": {
+      "Is Expense User": {
+        "tooltip": "Specifies whether the employee is linked to an expense user.",
+        "page": "page/6917",
+        "control": "isExpenseUser"
+      },
       "No.": {
         "tooltip": "Specifies an identification number for the entry or record.",
         "page": "page/979",
@@ -29020,15 +29025,10 @@
       }
     },
     "table/6840": {
-      "Actual End Date and Time": {
-        "tooltip": "Specifies the actual end date and time of the travel.",
-        "page": "page/7129",
-        "control": "Actual End Date and Time"
-      },
-      "Actual Start Date and Time": {
-        "tooltip": "Specifies the actual start date and time of the travel.",
-        "page": "page/7129",
-        "control": "Actual Start Date and Time"
+      "Approval Expense User No.": {
+        "tooltip": "Specifies the expense user who approved or rejected the travel request.",
+        "page": "page/7134",
+        "control": "approvedRejectedByExpUserNo"
       },
       "Approved/Rejected At": {
         "tooltip": "Specifies when the travel request was approved or rejected.",
@@ -29039,11 +29039,6 @@
         "tooltip": "Specifies the name of the user who approved or rejected the travel request.",
         "page": "page/7129",
         "control": "Approved by User Name"
-      },
-      "Business Justification": {
-        "tooltip": "Specifies the business justification for the travel.",
-        "page": "page/7129",
-        "control": "Business Justification"
       },
       "Closed At": {
         "tooltip": "Specifies when the travel request was closed.",
@@ -29060,11 +29055,6 @@
         "page": "page/7129",
         "control": "Currency Code"
       },
-      "Dest. Country/Region Code": {
-        "tooltip": "Specifies the destination country for the travel.",
-        "page": "page/7129",
-        "control": "Destination Country"
-      },
       "Expected End Date": {
         "tooltip": "Specifies the expected end date of the travel.",
         "page": "page/7129",
@@ -29075,45 +29065,30 @@
         "page": "page/7129",
         "control": "Expected Start Date"
       },
-      "International Travel": {
-        "tooltip": "Specifies whether the travel is international.",
-        "page": "page/7129",
-        "control": "International Travel"
-      },
       "No.": {
         "tooltip": "Specifies the number of the travel request.",
         "page": "page/7129",
         "control": "No."
-      },
-      "Origin Country/Region Code": {
-        "tooltip": "Specifies the origin country for the travel.",
-        "page": "page/7129",
-        "control": "Origin Country"
-      },
-      "Per Diem Included": {
-        "tooltip": "Specifies whether per diem is included in the travel request.",
-        "page": "page/7129",
-        "control": "Per Diem Included"
       },
       "Purpose": {
         "tooltip": "Specifies the purpose of the travel request.",
         "page": "page/7129",
         "control": "Purpose"
       },
+      "Rejection Reason": {
+        "tooltip": "Specifies the reason the travel request was rejected. Drill down to view the full comment.",
+        "page": "page/7129",
+        "control": "Rejection Reason"
+      },
+      "Requested By": {
+        "tooltip": "Specifies the employee who created the request. For travel requests, this value can be set only when creating the request.",
+        "page": "page/7099",
+        "control": "requestedBy"
+      },
       "Requested For": {
         "tooltip": "Specifies the expense user for whom the travel request is being created.",
-        "page": "page/7129",
+        "page": "page/7136",
         "control": "Requested For"
-      },
-      "Requested For Name": {
-        "tooltip": "Specifies the name of the expense user for whom the travel request is being created.",
-        "page": "page/7129",
-        "control": "Requested For Name"
-      },
-      "Restrictions": {
-        "tooltip": "Specifies any travel restrictions that apply.",
-        "page": "page/7129",
-        "control": "Restrictions"
       },
       "Shortcut Dimension 1 Code": {
         "tooltip": "Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up.",
@@ -29130,6 +29105,11 @@
         "page": "page/7129",
         "control": "Status"
       },
+      "Submitter Comment": {
+        "tooltip": "Specifies the latest comment from the submitter. Drill down to view the full comment.",
+        "page": "page/7129",
+        "control": "Submitter Comment"
+      },
       "Total Expected Amount": {
         "tooltip": "Specifies the total expected amount of the travel request.",
         "page": "page/7129",
@@ -29144,11 +29124,6 @@
         "tooltip": "Specifies the total amount that has been spent against the travel request in local currency.",
         "page": "page/7129",
         "control": "TotalSpentAmountLCY"
-      },
-      "Travel Policy Acknowledgment": {
-        "tooltip": "Specifies whether the travel policy has been acknowledged.",
-        "page": "page/7129",
-        "control": "Travel Policy Acknowledgment"
       }
     },
     "table/6841": {
@@ -29173,9 +29148,9 @@
         "control": "AmountLCY"
       },
       "Expense Category Code": {
-        "tooltip": "Specifies the expense category for the line. Available only when Type is Category.",
-        "page": "page/7137",
-        "control": "Expense Category Code"
+        "tooltip": "Specifies the expense category for the travel request detail.",
+        "page": "page/7135",
+        "control": "expenseCategoryCode"
       },
       "G/L Account No.": {
         "tooltip": "Specifies the G/L account that the expenses will be posted to.",
@@ -29187,10 +29162,15 @@
         "page": "page/7137",
         "control": "Line No."
       },
+      "Spend Request No.": {
+        "tooltip": "Specifies the travel request for the detail line.",
+        "page": "page/7135",
+        "control": "travelRequestNo"
+      },
       "Type": {
-        "tooltip": "Specifies whether the line covers a specific expense category or a lump sum amount.",
-        "page": "page/7137",
-        "control": "Type"
+        "tooltip": "Specifies the type of the travel request detail.",
+        "page": "page/7135",
+        "control": "type"
       }
     },
     "table/6900": {
@@ -31823,6 +31803,13 @@
         "tooltip": "Specifies the type of record this policy evaluation belongs to.",
         "page": "page/7125",
         "control": "Subject Type"
+      }
+    },
+    "table/7100": {
+      "Total Expected Amount": {
+        "tooltip": "Specifies the travel request total expected amount at the time of submission.",
+        "page": "page/7122",
+        "control": "totalExpectedAmount"
       }
     },
     "table/7105": {

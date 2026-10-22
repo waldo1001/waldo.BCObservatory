@@ -22,7 +22,7 @@ review:
   at: "2026-10-07T23:14:05.943Z"
   flags: []
 generated:
-  at: "2026-10-20T08:46:34.155Z"
+  at: "2026-10-22T01:09:20.607Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -88,8 +88,7 @@ evidence:
 links:
   learn: []
   objects: []
-  features:
-    - feature/576802
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -128,26 +127,20 @@ features:
     verified: false
     status_source: video
   - name: Aggregation by Company Size
-    status: ga
+    status: unclear
     t: 153
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576802"
+    status_source: video
   - name: Aggregation by Period
-    status: ga
+    status: unclear
     t: 343
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576802"
+    status_source: video
   - name: Payment Analysis Statistics
-    status: ga
+    status: unclear
     t: 174
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576802"
+    status_source: video
   - name: Payment Analysis Drill-Down
     status: unclear
     t: 268
@@ -227,17 +220,17 @@ The demo covers two aggregation options: by company size, as required in Sweden,
 
 ## Features
 
-| Feature | Status | At |
-|---|---|---|
-| Payment Times Analysis | status not stated, demoed | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
-| Aggregation by Company Size | generally available (roadmap [Comply with Australian Payment Times Reporting bill](../features/576802.md)), demoed | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
-| Aggregation by Period | generally available (roadmap [Comply with Australian Payment Times Reporting bill](../features/576802.md)), demoed | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
-| Payment Analysis Statistics | generally available (roadmap [Comply with Australian Payment Times Reporting bill](../features/576802.md)), demoed | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
-| Payment Analysis Drill-Down | status not stated, demoed | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
-| Historical Payment Data Storage | status not stated, demoed | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |
-| Payment Analysis Print Reports | status not stated, demoed | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |
+Every feature below: status not stated, demoed.
 
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Feature | At |
+|---|---|
+| Payment Times Analysis | [0:47](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=47s) |
+| Aggregation by Company Size | [2:33](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=153s) |
+| Aggregation by Period | [5:43](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=343s) |
+| Payment Analysis Statistics | [2:54](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=174s) |
+| Payment Analysis Drill-Down | [4:28](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=268s) |
+| Historical Payment Data Storage | [4:48](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=288s) |
+| Payment Analysis Print Reports | [5:08](https://www.youtube.com/watch?v=-SGaVGOkiF0&t=308s) |
 
 ## AL objects mentioned
 

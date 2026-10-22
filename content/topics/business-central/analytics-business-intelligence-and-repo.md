@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -631,7 +631,8 @@ links:
     - topic/business-central/analytics-business-intelligence-and-repo/analyze-data-in-business-intelligence-to
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/thinkaboutit-be/7635
   guidelines: []
 learn_toc_path:
   - Analytics, business intelligence, and reporting
@@ -648,7 +649,7 @@ coverage:
   learn: 70
   code: 318
   video: 0
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms:
   - 1
@@ -1003,6 +1004,12 @@ Developers and BI teams have two further subtopics. Develop reports covers layou
 
 - [Analytics by functional area](https://learn.microsoft.com/dynamics365/business-central/analytics-by-functional-area): Provides an overview of functional area specific landing pages for analytics in Business Central.
 - [Analytics, business intelligence, and reporting overview](https://learn.microsoft.com/dynamics365/business-central/reports-bi-reporting): Provides an overview of all the analytics, business intelligence, and reporting features supported in Business Central.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [Business Central Analytics: The Technology Is Not the Hard Part](../../posts/thinkaboutit-be/7635.md) (community post): "adoption success depends more on helping users ask better business questions than on technology maturity"
 
 ## Business Central pages and reports
 

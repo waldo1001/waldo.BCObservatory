@@ -2,12 +2,12 @@
   "inputs": [
     7,
     [
-      "7f41d35742230d336aa3ef0076182523d6ab433b",
+      "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
       "4",
       9472,
-      "7f41d35742230d336aa3ef0076182523d6ab433b",
+      "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
       "4",
-      6895
+      6900
     ]
   ],
   "schema": "al-relations@1",
@@ -3486,6 +3486,11 @@
     {
       "s": "codeunit/8705",
       "t": "table/8703",
+      "k": "runs_on"
+    },
+    {
+      "s": "codeunit/8755",
+      "t": "table/1173",
       "k": "runs_on"
     },
     {
@@ -93933,6 +93938,12 @@
     {
       "s": "table/6906",
       "t": "table/6840",
+      "k": "calc_formula",
+      "via": "Travel Request SystemId"
+    },
+    {
+      "s": "table/6906",
+      "t": "table/6840",
       "k": "table_relation",
       "via": "Spend Request No."
     },
@@ -95209,6 +95220,12 @@
     {
       "s": "table/6938",
       "t": "table/6923",
+      "k": "calc_formula",
+      "via": "Employee No."
+    },
+    {
+      "s": "table/6938",
+      "t": "table/6923",
       "k": "table_relation",
       "via": "Expense User No."
     },
@@ -96020,6 +96037,19 @@
       "t": "table/7092",
       "k": "table_relation",
       "via": "Policy System Id"
+    },
+    {
+      "s": "table/7100",
+      "t": "table/4",
+      "k": "table_relation",
+      "via": "Total Expected Amt. Cur. Code"
+    },
+    {
+      "s": "table/7100",
+      "t": "table/6840",
+      "k": "table_relation",
+      "via": "Source Record System ID",
+      "cond": true
     },
     {
       "s": "table/7100",
@@ -115394,13 +115424,55 @@
       "s": "tableextension/6908",
       "t": "table/6923",
       "k": "calc_formula",
+      "via": "Approval Expense User Name"
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "calc_formula",
       "via": "Requested For Name"
     },
     {
       "s": "tableextension/6908",
       "t": "table/6923",
       "k": "table_relation",
+      "via": "Approval Expense User No."
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Approver Expense User Filter"
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Approver User Id Filter"
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Requested By User Id Filter"
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "table_relation",
       "via": "Requested For"
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6923",
+      "k": "table_relation",
+      "via": "Submitted By Expense User No."
+    },
+    {
+      "s": "tableextension/6908",
+      "t": "table/6925",
+      "k": "table_relation",
+      "via": "Expense Location"
     },
     {
       "s": "tableextension/6908",
@@ -115496,6 +115568,17 @@
       "t": "table/6921",
       "k": "table_relation",
       "via": "Expense Category Code"
+    },
+    {
+      "s": "tableextension/7110",
+      "t": "table/5200",
+      "k": "extends"
+    },
+    {
+      "s": "tableextension/7110",
+      "t": "table/6923",
+      "k": "calc_formula",
+      "via": "Is Expense User"
     },
     {
       "s": "tableextension/7234",
@@ -124608,7 +124691,13 @@
       "OnBeforeCreateCopyDocument": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockSeparateSubcontractingInvoiceCopy",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforePurchaseHeaderInsert": {
         "kind": "integration",
@@ -124638,7 +124727,13 @@
       "OnBeforeTestIfInvoiceIsPaid": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockSeparateSubcontractingInvoiceReversalBeforeLineValidation",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeTestInventoryPostingSetup": {
         "kind": "integration",
@@ -138963,7 +139058,13 @@
       "OnAfterInitPurchOrderLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnAfterInitPurchOrderLine",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnAfterInsertPurchOrderHeader": {
         "kind": "integration",
@@ -139080,7 +139181,13 @@
       "OnBeforeCopyOrderDateFromPurchHeader": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnBeforeCopyOrderDateFromPurchHeader",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeDeleteReqLines": {
         "kind": "integration",
@@ -172395,7 +172502,13 @@
       "OnBeforeCopyHandledItemTrkgToPurchLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "SkipPhysicalTrackingForNonLastSubcontractingReceipt",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeCopyItemLedgEntryTrkgToPurchLn": {
         "kind": "integration",
@@ -185785,13 +185898,7 @@
       "OnAfterPurchRcptLineSetFilters": {
         "kind": "integration",
         "obsolete": null,
-        "subs": [
-          {
-            "s": "codeunit/20535",
-            "proc": "ExcludeSubcontractingLinesOnAfterPurchRcptLineSetFilters",
-            "app": "Subcontracting"
-          }
-        ]
+        "subs": []
       },
       "OnBeforeCalcUpdatePrepmtAmtToDeductRounding": {
         "kind": "integration",
@@ -185866,13 +185973,7 @@
       "OnCreateInvLinesOnBeforeInsertLineIteration": {
         "kind": "integration",
         "obsolete": null,
-        "subs": [
-          {
-            "s": "codeunit/20535",
-            "proc": "BlockSubcontractingLinesOnCreateInvLinesOnBeforeInsertLineIteration",
-            "app": "Subcontracting"
-          }
-        ]
+        "subs": []
       },
       "OnInsertInvoiceLineFromRcptLineOnBeforeCalcUpdatePrepmtAmt": {
         "kind": "integration",
@@ -202051,7 +202152,13 @@
       "OnPurchOrderChgAndResheduleOnBeforePurchLineModify": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20516",
+            "proc": "OnPurchOrderChgAndResheduleOnBeforePurchLineModify",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnPurchOrderChgAndResheduleOnBeforeValidateExpectedReceiptDate": {
         "kind": "integration",
@@ -233225,7 +233332,13 @@
       "OnBeforeInsertInvLineFromRcptLine": {
         "kind": "integration",
         "obsolete": null,
-        "subs": []
+        "subs": [
+          {
+            "s": "codeunit/20535",
+            "proc": "BlockTrackedSubcontractingReceiptLine",
+            "app": "Subcontracting"
+          }
+        ]
       },
       "OnBeforeInsertInvLineFromRcptLineBeforeInsertTextLine": {
         "kind": "integration",
@@ -271575,6 +271688,16 @@
       }
     },
     "table/6906": {
+      "OnAfterCreateFromApprovedTravelRequest": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
+      "OnBeforeCreateFromApprovedTravelRequest": {
+        "kind": "integration",
+        "obsolete": null,
+        "subs": []
+      },
       "OnCheckExpenseReportPostRestrictions": {
         "kind": "integration",
         "obsolete": null,
@@ -283302,7 +283425,7 @@
     }
   },
   "dead_events": {
-    "count": 22499
+    "count": 22496
   },
   "unresolved": [
     {
@@ -291118,6 +291241,12 @@
       "reason": "unknown"
     },
     {
+      "s": "table/7100",
+      "k": "table_relation",
+      "raw": "if (\"Source Table ID\" = const(Database::\"Expense Report Header\")) \"Expense Report Header\".SystemId else if (\"Source Table ID\" = const(Database::\"Posted Expense Report Header\")) \"Posted Expense Report Header\".SystemId else if (\"Source Table ID\" = const(Database::\"Spend Request\")) \"Spend Request\".Syst...",
+      "reason": "clipped"
+    },
+    {
       "s": "table/7114",
       "k": "table_relation",
       "raw": "if (Type = const(Item)) Item else if (Type = const(Customer)) Customer else if (Type = const(Vendor)) Vendor else if (Type = const(\"Item Group\")) \"Dimension Value\".Code where(\"Dimension Code\" = field(\"Group Dimension Code\"), Blocked = const(false)) else if (Type = const(\"Customer Group\")) \"Dimension...",
@@ -293375,20 +293504,20 @@
     }
   ],
   "stats": {
-    "runs_on": 736,
+    "runs_on": 737,
     "unresolved_unknown": 1470,
-    "extends": 1827,
+    "extends": 1828,
     "source_table": 3611,
     "card_page": 317,
     "lookup_page": 820,
-    "table_relation": 10172,
-    "calc_formula": 2530,
+    "table_relation": 10180,
+    "calc_formula": 2534,
     "drilldown_page": 517,
-    "unresolved_clipped": 132,
+    "unresolved_clipped": 133,
     "unresolved_ambiguous": 76,
-    "subscribes": 5166,
-    "edges": 20530,
-    "published_events": 26297,
-    "dead_events": 22499
+    "subscribes": 5171,
+    "edges": 20544,
+    "published_events": 26299,
+    "dead_events": 22496
   }
 }

@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T23:01:15.115Z"
   flags: []
 generated:
-  at: "2026-10-18T00:53:28.996Z"
+  at: "2026-10-22T01:09:20.607Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -83,8 +83,7 @@ links:
   learn: []
   objects:
     - object/table/99000758
-  features:
-    - feature/573374
+  features: []
   topics: []
   localizations: []
   videos: []
@@ -157,12 +156,10 @@ features:
     verified: false
     status_source: video
   - name: Default sustainability values transfer to purchase documents
-    status: ga
+    status: unclear
     t: 296
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "573374"
+    status_source: video
 objects_mentioned:
   - other sustainability account
   - other gas emissions
@@ -237,9 +234,7 @@ GL accounts get only a default sustainability account, not emission values. On i
 | Sustainability setup enablement | status not stated | [0:24](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=24s) |  |
 | Item charge default sustainability values | announced | [1:11](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=71s) | "Item charge is not enabled yet in this moment. It will be part of next wave because completely uh functionality about value chain is" ([2:14](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=134s)) |
 | Calculate carbon equivalent action | status not stated, demoed | [3:36](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=216s) |  |
-| Default sustainability values transfer to purchase documents | generally available (roadmap [Use formulas to calculate emissions in purchase documents](../features/573374.md)), demoed | [4:56](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=296s) |  |
-
-A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
+| Default sustainability values transfer to purchase documents | status not stated, demoed | [4:56](https://www.youtube.com/watch?v=2_yYu3RgYwo&t=296s) |  |
 
 ## AL objects mentioned
 

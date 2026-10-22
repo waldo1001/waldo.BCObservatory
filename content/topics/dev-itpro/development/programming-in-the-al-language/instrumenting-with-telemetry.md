@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/instrumenting-with-telemetry
 type: topic
 title: Instrumenting with telemetry
-summary: "Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production."
+summary: "Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers."
 tier: official
 language: en
 system: platform
 review:
-  state: reviewed
-  by: opus
-  at: "2026-10-07T02:21:46.836Z"
+  state: unreviewed
+  by: null
+  at: null
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 160d3acc876f1a90e81afa12e3cbceefffc0cb59af7e83c799c76928cdb93541
+  input_hash: db14a00968d023f7ff2ba691e2d092f3990160cc8ceb2a1c07d1db9da7451d7b
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights
@@ -33,15 +33,15 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data
-    title: Data logged to app/extension telemetry
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    title: Developing telemetry into your Business Central application
     date: "2024-02-09"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
-    title: Developing telemetry into your Business Central application
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data
+    title: Extension Telemetry Data in Business Central
     date: "2024-02-09"
     commit: null
     t: null
@@ -69,8 +69,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions
-    title: Setting up telemetry in an app/extension
-    date: "2024-02-09"
+    title: Set Up Extension Telemetry in Business Central
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -78,8 +78,8 @@ links:
   learn:
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log
-    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry
+    - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry
     - https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions
   objects: []
@@ -125,24 +125,28 @@ narrative: generated
 
 # Instrumenting with telemetry
 
-> Telemetry in AL for Business Central: how to set up Azure Application Insights for an extension, emit custom events with LogMessage, log feature usage, errors and uptake, and what the platform already logs. It answers questions on instrumenting apps and monitoring them in production.
+> Instrumenting AL extensions with telemetry in Business Central: setting up extension telemetry, emitting custom events to Application Insights or the Event Log, logging feature telemetry, and reading the platform's built-in telemetry events. It answers how-to and which-method questions for developers.
 
-Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative reviewed (checked by Opus)
+Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Instrumenting with telemetry · tier official · system platform · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how an app or extension publisher gets monitoring data from production. It starts with an introduction to developing telemetry into an application, then setup of the connection to Azure Application Insights, then the ways to emit your own signals. It also covers the obsolete Event Log approach and the telemetry the platform already emits for apps and extensions.
+This section covers how to add telemetry to a Business Central app so you can see how it behaves in production: user activity, errors, and performance. It starts with an introductory page on developing telemetry into your application, then moves to specific techniques.
+
+For Application Insights, first configure the connection string in app.json (see the extension telemetry setup page). Then choose between custom events with LogMessage and the higher-level feature telemetry, which tracks usage, errors, and uptake state. A separate page covers the older Event Log route with the obsolete SENDTRACETAG method. A page on data logged to app/extension telemetry lists the events the platform emits itself. A reference subtopic with two pages holds the supporting reference material.
+
+Start with the overview page, then the setup page. Use the custom events or feature telemetry pages when you need to log your own signals.
 
 ## Key points
 
-- Setting up telemetry in an extension uses applicationInsightsConnectionString or applicationInsightsKey in the app configuration; the page references runtime version 7.2.
-- Custom events for Application Insights are emitted with the LogMessage method, which supports verbosity levels (Critical, Error, Warning, Normal, Verbose), DataClassification and TelemetryScope (extensionpublisher, all).
-- Default dimensions are included in CustomDimensions for custom trace events.
-- Feature telemetry uses the FeatureTelemetry codeunit from the Telemetry AL module: LogUsage, LogError and LogUptake.
-- Uptake states are Discovered, Set up, Used and Undiscovered. The module also offers a Telemetry Logger interface, custom dimensions, and filtering and feature comparison through common telemetry dimensions.
-- The SENDTRACETAG method is obsolete. It writes custom events to the server Event Log, which you can view in Event Viewer. The page references 2020 release wave 2 (v17).
-- The platform already logs telemetry for apps and extensions: page interactions, REST API calls, report rendering, error dialogs and resource consumption.
-- A reference documentation subtopic with 2 pages is also part of this section.
+- Extension telemetry setup: set applicationInsightsConnectionString in app.json (applicationInsightsKey is also listed); runtime 7.2 is mentioned.
+- Custom Application Insights events use LogMessage, with a dictionary or dimension overloads for custom dimensions, TelemetryScope control, and DataClassification filtering.
+- Event Log telemetry uses SENDTRACETAG, which is obsolete (2020 release wave 2, v17). It supports event categories, verbosity levels, and Event Viewer.
+- Feature telemetry uses the FeatureTelemetry codeunit: LogUsage, LogError, and LogUptake.
+- Uptake states for feature telemetry are Discovered, Set up, Used, and Undiscovered.
+- Feature telemetry supports a Telemetry Logger interface, custom dimensions, and comparing features across metrics.
+- The platform emits its own telemetry for page interactions, REST API calls, report rendering, error dialogs, and resource consumption.
+- Telemetry signals can cover usage, errors, and performance for troubleshooting and for monitoring against business goals.
 
 ## Subtopics
 
@@ -152,10 +156,10 @@ This section covers how an app or extension publisher gets monitoring data from 
 
 - [Creating custom telemetry events for Azure Application Insights](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights): This article describes how to add code to application objects that enables you to log telemetry.
 - [Creating custom telemetry events for the Event Log](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-event-log): This topic describes how to add code to application objects that enables you to gather telemetry.
-- [Data logged to app/extension telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data): Describes what data is sent to Azure Application Insights for app/extensions.
 - [Developing telemetry into your Business Central application](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry): This article describes how to add code to application objects that enables you to gather telemetry.
+- [Extension Telemetry Data in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data): Learn which Business Central events can reach an extension's Application Insights resource and how to identify signals that support extension telemetry.
 - [Feature telemetry](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/telemetry-feature-telemetry): Learn about the telemetry that you can emit from features in Business Central.
-- [Setting up telemetry in an app/extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions): Describes how to configure an extension to send telemetry data to Azure Application Insights.
+- [Set Up Extension Telemetry in Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions): Configure a Business Central extension to send telemetry to Azure Application Insights, monitor deployed apps, and add feature or custom telemetry events.
 
 ## Videos, posts and code changes
 

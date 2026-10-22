@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:43.821Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -92,6 +92,8 @@ links:
   videos: []
   posts: []
   guidelines: []
+  changes:
+    - change/bcquality/249
 learn_toc_path:
   - Development
   - The AL programming language
@@ -145,5 +147,11 @@ Start with AL variables for declaration and naming, then AL operators for the fu
 - [Protected variables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-protected-variables): The protected keyword can be used to make variables accessible between tables and table extensions, pages and page extensions and report and report extensions.
 - [Relational operators](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-al-relational-operators): Description of the relational operators in AL and how they are used to compare expressions, as well as valid uses of relational operators.
 - [System-defined variables](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-system-defined-variables): Describes the system-defined variables that are automatically declared and initialized in AL for Business Central.
+
+## Videos, posts and code changes
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [#249 Route guard-dependent and/or conditions to the short-circuit article](../../../../changes/bcquality/249.md) (code change): "Route guard-dependent and/or conditions to the short-circuit article."
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,23 @@
+{
+  "item_id": "change/bcapps-prs/12584",
+  "input_hash": "7007cc543be82d3744c66e925ba0b6193beba7ccb5f6ecc2ca1a622db15a5851",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-22T01:10:58.676Z",
+  "issues": [
+    "This is a bug fix that restores behavior lost after migration (title 'Bug 649862', 'Restore'), so change_kind should be fix rather than feature.",
+    "The last key point says warehouse receipts in general stay blocked. Only warehouse receipts with tracked final-operation output are blocked. Cancel, correct and corrective credit memo for these invoices are also blocked."
+  ],
+  "applied": [
+    "key points rewritten",
+    "kind fix"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026382,
+    "changes_in_call": 5
+  }
+}

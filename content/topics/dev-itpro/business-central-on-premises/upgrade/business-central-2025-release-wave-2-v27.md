@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:34.651Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -58,7 +58,9 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509
+    - post/thinkaboutit-be/7650
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -71,7 +73,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: fde84c7445504ea526bb607ea3879b00d4d926486c43dadb75b4000a827c4bd9
@@ -108,5 +110,12 @@ The technical steps are similar in both procedures: database conversion, extensi
 - [Install a Business Central 2025 release Wave 2 (version 27) Update](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrading-cumulative-update-v27): This article describes the tasks required for getting the monthly version 27 update applied to your Dynamics 365 Business Central on-premises.
 - [Upgrading Microsoft System and Base Application to Version 27](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-unmodified-application-to-v27): Describes how to upgrade an unmodified Business Central version 15 through 25 to version 27
 - [Upgrading to Dynamics 365 Business Central 2025 release wave 2](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/upgrade/upgrade-overview-v27): Provides an overview of Business Central 2025 release wave 2 upgrade process.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (community post): "2026 Wave 1 (28.2), 2025 Wave 2 (27.8) and 2025 Wave 1 (26.14), all dated June 2026"
+- [Quick Tip: Business Central Update 27.5 Released and Version 28 Preview Sandboxes Available](../../../../posts/thinkaboutit-be/7650.md) (community post): "Business Central update 27.5 was released as the latest monthly update"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

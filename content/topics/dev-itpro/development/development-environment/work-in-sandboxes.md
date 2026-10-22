@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:18.791Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -49,7 +49,8 @@ links:
   topics:
     - topic/dev-itpro/development/development-environment
   localizations: []
-  videos: []
+  videos:
+    - video/qYW5wo0fKgA
   posts:
     - post/demiliani-com/12482
     - post/demiliani-com/12613
@@ -66,7 +67,7 @@ children: []
 coverage:
   learn: 3
   code: 0
-  video: 0
+  video: 1
   blog: 4
   guideline: 0
 bc_forms: []
@@ -111,5 +112,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central: accessing Early Access Preview in online sandboxes.](../../../../posts/demiliani-com/12613.md) (community post): "Partners with sandbox licenses can create early access preview environments"
 - [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Preview environments let you test extensions, integrations, and customizations"
 - [Quick Tip: You Can Now Create a Business Central 29.0 (Preview) Sandbox](../../../../posts/thinkaboutit-be/8111.md) (community post): "Preview sandboxes are automatically deleted 30 days after general availability"
+- [What's Cooking in Business Central: Early Access Preview](../../../../videos/qYW5wo0fKgA.md) (video): "Early Access Preview Sandbox Environments"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

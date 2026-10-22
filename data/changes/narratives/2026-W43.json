@@ -1,23 +1,26 @@
 {
   "week": "2026-W43",
-  "input_hash": "8ea1eb0866a8b285e7c2c4b6f17656d7949489cd21c9cae6f19b44beedfa98dc",
-  "text": "Behaviour changes in BCApps lead the week. Posting fixes: #11998 makes journal posting check that a General Posting Setup combination exists, #12813 corrects GB reverse charge VAT sales posting for zero-quantity lines, and #12552 stops repeated production order status warnings when the \"No.\" field is validated on a sales order. #12943 repairs Danish VAT Return Period parsing, which had inserted zero records. Localization features arrived too: #12846 adds Country/Region of Origin Code to Czech Intrastat document lines, and #9104 moves G/L entry XML export onto the Audit File Export framework as a new XML Audit File app (FR), with a page visibility interface on the format enum. #13005 adds cleanup to Master Data Management when an environment is copied; its description rates the risk low. #12186 merges consecutive ModifyAll calls, so OnModify now runs once per row where RunTrigger was passed. #12443 only renumbers Spanish SII objects. In AL-Go, #2413 enables automatic Copilot review triggers only when opted in. BCQuality dominated by volume. #246 and #155 expose and define plan guidance, and #249 adds a short-circuit cue to performance review. #231 derives the target version from app.json. New knowledge articles came in #223, #225, #226, #229, #230 and #237, and #238 improves first-run documentation.",
-  "changes": 21,
+  "input_hash": "b838073a15b5e3295b6037f64d68957c4b03cca55220f821c1294cfeca98a28b",
+  "text": "Most BCApps behaviour changes were fixes. #11998 checks that a General Posting Setup combination exists before journal invoices post, #12868 fixes a rounding variance in Adjust Cost, and #12149 makes issuing several reminders or finance charge memos with Print produce one PDF. #12552 stops repeated production order status warnings when validating No. on a sales order. In subscription billing, #12967 filters billing totals by partner so same-numbered customer and vendor contracts no longer mix, and #12767 rolls back billing lines when vendor invoice creation fails. Other fixes cover GB reverse charge sales posting (#12813), the Danish VAT period parser (#12943), Get Receipt Lines for subcontracting (#12584) and Shopify tax matches after a rate conflict (#12561). New behaviour includes credit memo recognition from PDFs in E-Documents (#12855), enforced itemization in Expense Agent (#12599) with an entitlement fix (#12763), a Czech Country/Region of Origin field (#12846), a French XML audit export on the Audit File Export framework (#9104) and Master Data Management cleanup on environment copy (#13005). #12186 merges consecutive ModifyAll calls, so where RunTrigger is passed OnModify runs once per row. #13075 adds TDS events for India and #12443 renumbers Spanish SII objects. AL-Go #2413 limits automatic Copilot review triggers to opted-in setups. The rest is BCQuality knowledge and skill work, including #246 and #155.",
+  "changes": 32,
   "model": "claude-sonnet-5-5",
-  "cost_usd": 0.027797999999999996,
-  "at": "2026-10-21T00:19:55.996Z",
+  "cost_usd": 0.03977,
+  "at": "2026-10-22T00:20:01.868Z",
   "review": {
     "state": "reviewed",
     "by": "opus",
-    "at": "2026-10-21T00:49:03.819Z",
-    "verdict": "approve",
+    "at": "2026-10-22T01:11:36.321Z",
+    "verdict": "fix",
     "issues": [
-      "#12552 sits under the 'Posting fixes' label but is a sales line No. validation fix, not a posting fix. The description itself is accurate, only the grouping is loose.",
-      "#12443 is not flagged as a behaviour change but appears in the behaviour-change part of the paragraph. The word 'only' makes clear it is a renumbering, so this is acceptable."
+      "#13005 (Master Data Management cleanup when an environment is copied) changes behaviour in BCApps but was left out, so the closing sentence wrongly suggests everything else was BCQuality work.",
+      "#12186 says OnModify runs once per row without saying when; per the summary this only applies where RunTrigger is passed.",
+      "The original paragraph ran to about 227 words, over the 220-word limit."
     ],
-    "input_hash": "8ea1eb0866a8b285e7c2c4b6f17656d7949489cd21c9cae6f19b44beedfa98dc",
-    "cost_usd": 0.0938,
-    "applied": [],
+    "input_hash": "b838073a15b5e3295b6037f64d68957c4b03cca55220f821c1294cfeca98a28b",
+    "cost_usd": 0.146836,
+    "applied": [
+      "text"
+    ],
     "rejected_edits": []
   }
 }

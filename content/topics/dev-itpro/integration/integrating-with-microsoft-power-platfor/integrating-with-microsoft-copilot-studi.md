@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -46,7 +46,8 @@ links:
   localizations: []
   videos:
     - video/6Zb7VAvLVm4
-    - video/S5Xw-b8YF-c
+    - video/AMVAiPTfSrU
+    - video/uMKLsKfKPc0
     - video/V_ZyGeF5JXE
   posts:
     - post/aardvarklabs-blog/1818
@@ -62,7 +63,7 @@ children: []
 coverage:
   learn: 2
   code: 3
-  video: 3
+  video: 4
   blog: 2
   guideline: 0
 bc_forms:
@@ -109,7 +110,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Creating Low-Code AI Agents with Copilot Studio and Business Central](../../../../posts/aardvarklabs-blog/1818.md) (community post): "Copilot Studio enables low-code creation of AI agents that connect to Business Central"
 - [Agents in Business Central – part 6 – The conclusion](../../../../posts/bertverbeek-nl/1290.md) (community post): "Agents created in Copilot Studio, covering deployment, licensing"
 - [What's New: Business Central Integration with Power Platform including Power BI(2024 release wave 2)](../../../../videos/6Zb7VAvLVm4.md) (video): "Copilot Studio Connector for Business Central; Copilot Studio Generative AI Mode"
-- [What's New: APIs in E-Documents (2025 release wave 2)](../../../../videos/S5Xw-b8YF-c.md) (video): "Custom Agents with Copilot Studio Integration"
+- [How 3 Partners are Building Powerful Agents for Business Central](../../../../videos/AMVAiPTfSrU.md) (video): "Copilot Studio agent creation"
+- [Microsoft presents: Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat](../../../../videos/uMKLsKfKPc0.md) (video): "Build Agents with Microsoft Copilot Studio and surface them in M365 Copilot Chat"
 - [What's New: Business Central Integration with Power Platform](../../../../videos/V_ZyGeF5JXE.md) (video): "Copilot Studio Integration; Copilot in Power Automate"
 
 ## Business Central pages and reports

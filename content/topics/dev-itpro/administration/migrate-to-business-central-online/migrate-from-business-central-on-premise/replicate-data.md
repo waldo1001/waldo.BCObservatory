@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:47.056Z"
   flags: []
 generated:
-  at: "2026-10-16T01:18:16.191Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -43,9 +43,7 @@ links:
   localizations: []
   videos:
     - video/01GoAUnpBnw
-  posts:
-    - post/demiliani-com/13676
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b
+  posts: []
   guidelines: []
 learn_toc_path:
   - Administration
@@ -59,7 +57,7 @@ coverage:
   learn: 2
   code: 0
   video: 1
-  blog: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 0ab15c5da299d3b1ab31b23fa5d18e1a931113c5566840f113fdfc46f7579aa3
@@ -100,8 +98,6 @@ Then use Run and manage data replication for the hands-on steps. It uses the Clo
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Cloud Migration: be careful on reusing the same self-hosted runtime.](../../../../../posts/demiliani-com/13676.md) (community post): "Do not reuse the same self-hosted integration runtime across different migrations"
-- [NAV to Business Central: What Actually Moves, and What Needs to Change?](../../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7706250162700204847--ff7a1d395b.md) (community post): "data only moving as far as code does"
 - [What's New: Migrate Record Links and Notes (2025 release wave 2)](../../../../../videos/01GoAUnpBnw.md) (video): "Record links and notes migration; data replication; cloud migration management"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

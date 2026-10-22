@@ -426,458 +426,458 @@
     "573305": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-extend-edocuments.md@556c6ab5a8f68b67": {
         "verdict": "drop",
-        "reason": "Describes the general e-document extensibility framework, not EDI exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "General extensibility framework for e-documents, nothing about EDI exchange.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-27-5.md@b869a8fc2df48b5c": {
         "verdict": "drop",
-        "reason": "Service participants setup in 27.5 is not described as EDI order or remittance exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Service participants setup in an earlier update; doesn't describe EDI document exchange.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-devitpro/dev-itpro/whatsnew/whatsnew-update-28-4.md@bced293f99cd584f": {
         "verdict": "drop",
-        "reason": "Payment support and Peppol draft preview don't clearly describe EDI order exchange or remittance advice.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "'E-Document payment support' is too vague to tie to EDI order exchange or remittance advice.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/across-how-to-set-up-a-document-exchange-service.md@b806530c44df26d0": {
         "verdict": "drop",
-        "reason": "Covers the older Tradeshift document exchange service, not EDI in e-documents.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older Tradeshift document exchange service, a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/across-how-to-set-up-electronic-document-sending-and-receiving.md@5d5d92c0983ac34f": {
         "verdict": "drop",
-        "reason": "Covers the older PEPPOL invoice setup from before 2023 wave 2.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Legacy PEPPOL invoice sending setup from before 2023 wave 2.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/across-set-up-data-exchange.md@a90c18761e15594f": {
         "verdict": "drop",
-        "reason": "Describes the general data exchange framework, which is a different capability.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "General data exchange framework, not EDI in e-documents.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/finance-edocuments-overview.md@f858a541b13a9ce6": {
         "verdict": "drop",
-        "reason": "General overview of the E-Documents app with no mention of EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "General E-Documents overview with no description of EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/finance-how-setup-edocuments-external.md@ade932df07feade1": {
         "verdict": "drop",
-        "reason": "Describes connector setup in general, not EDI document exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Connector setup for external endpoints is a general feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Australia/how-to-au-einvoice.md@c8f00225948b16f4": {
         "verdict": "drop",
-        "reason": "Covers Australian e-invoicing localization.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Australian e-invoicing localization, a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Denmark/how-to-edocuments-nemhadel.md@e38dcbd98e05796e": {
         "verdict": "drop",
-        "reason": "Covers Danish NemHandel e-invoicing.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Danish NemHandel e-invoicing, a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/electronic-invoicing.md@3818c2760b3d56a8": {
         "verdict": "drop",
-        "reason": "Covers Mexican CFDI invoicing.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Mexican CFDI invoicing, unrelated to EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md@257190d19d9edaa0": {
         "verdict": "drop",
-        "reason": "Covers Mexican e-invoicing setup.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Mexican e-invoicing setup, unrelated to EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/LocalFunctionality/NewZealand/how-to-nz-einvoice.md@a647a906dce8bacd": {
         "verdict": "drop",
-        "reason": "Covers New Zealand e-invoicing localization.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "New Zealand e-invoicing localization, a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/purchasing-how-to-receive-and-convert-electronic-documents.md@1e62a08283393706": {
         "verdict": "drop",
-        "reason": "Covers the older PEPPOL/OCR invoice receiving.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Legacy PEPPOL/OCR receiving of invoices.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "docs/learn-smb-docs/business-central/sales-how-to-send-electronic-documents.md@7281b268138dd891": {
         "verdict": "drop",
-        "reason": "Covers the older PEPPOL invoice sending.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Legacy PEPPOL invoice sending from before 2023 wave 2.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#0@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#0@25400612de857d0f": {
         "verdict": "keep",
         "reason": "Announces EDI order exchange built on the e-documents framework.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#1@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#1@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows sending purchase orders as EDI e-documents.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows the purchase order EDI document type being sent.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#12@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#12@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows navigation between EDI purchase orders, e-documents and the sales orders they create.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows linkage between EDI purchase orders and the sales orders they create.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#2@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#2@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows a sales order being created automatically from an incoming EDI purchase order.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows sales orders being created automatically from EDI purchase orders.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#3@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#3@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows the order response sent back as part of EDI order exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows order response messaging, part of EDI order exchange.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#4@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#4@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows sending remittance advices, which the feature lists.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows sending remittance advice, which the feature names explicitly.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#5@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#5@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows the inbound/outbound direction setting for EDI exchanges.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows the EDI document direction setting.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#6@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#6@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows electronic identifiers used to match partners in EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows electronic identifier matching used in EDI exchanges.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#7@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#7@25400612de857d0f": {
         "verdict": "keep",
         "reason": "Shows item reference matching used in EDI exchanges.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#8@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#8@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows the log for each EDI exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows the EDI exchange log.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
-      "video/07G7aC14Y_w#9@9d9bc040441d135b": {
+      "video/07G7aC14Y_w#9@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows the Peppol format as the basis for EDI exchanges.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Shows Peppol as the format behind the EDI exchanges.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#0@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers the draft page for invoices, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Draft page for e-invoices is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#1@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers draft page item reference mapping for invoices, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Item reference mapping on the invoice draft page is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#2@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers text-to-account mapping, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Text-to-account mapping on the invoice draft page is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#3@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers historical line matching, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Historical line matching on the invoice draft page is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#4@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers AI account suggestion, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "AI fallback for account suggestions is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#5@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers editable draft lines, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Editable draft invoice lines are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#6@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers vendor correction in the draft page, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Vendor correction on the draft page is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/axQegcPweNY#7@1763fac130562fbf": {
         "verdict": "drop",
-        "reason": "Covers service version 2 for the draft page.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Service version 2 for the draft page is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/GM0DNxu39LM#0@f55e2750baa30e30": {
         "verdict": "drop",
-        "reason": "Announces a connector, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Connector announcement, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/GM0DNxu39LM#1@f55e2750baa30e30": {
         "verdict": "drop",
-        "reason": "Announces a connector, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Connector announcement, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/GM0DNxu39LM#2@f55e2750baa30e30": {
         "verdict": "drop",
-        "reason": "Announces an upcoming connector, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Connector announcement, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/GM0DNxu39LM#3@f55e2750baa30e30": {
         "verdict": "drop",
-        "reason": "Covers installing connectors from AppSource.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Installing connectors from AppSource is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/GM0DNxu39LM#4@f55e2750baa30e30": {
         "verdict": "drop",
-        "reason": "Covers the unified connector setup.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Unified connector setup is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/gVjrKPHlrgM#0@c723104eefcdafb4": {
         "verdict": "drop",
-        "reason": "Covers the ZUGFeRD format, a different capability.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "ZUGFeRD format support is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/gVjrKPHlrgM#2@c723104eefcdafb4": {
         "verdict": "drop",
-        "reason": "Covers outgoing ZUGFeRD documents.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Outgoing ZUGFeRD documents are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/gVjrKPHlrgM#3@c723104eefcdafb4": {
         "verdict": "drop",
-        "reason": "Covers incoming ZUGFeRD documents.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Inbound ZUGFeRD processing is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/hba7KVWrIwY#0@59d773d5925b98f8": {
         "verdict": "drop",
-        "reason": "Covers the 2024 connectors.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older connector additions.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/hba7KVWrIwY#5@59d773d5925b98f8": {
         "verdict": "drop",
-        "reason": "Covers the older Peppol format setup.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older Peppol format availability, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/hba7KVWrIwY#6@59d773d5925b98f8": {
         "verdict": "drop",
-        "reason": "Covers the Australia/New Zealand Peppol localization.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Peppol localization for Australia and New Zealand is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/hba7KVWrIwY#7@59d773d5925b98f8": {
         "verdict": "drop",
-        "reason": "Covers the Avalara integration.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Avalara integration is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#10@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the older workflow automation.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older workflow automation feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#11@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the older line matching interface.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older line matching for invoices.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#13@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers older purchase order updates from invoices.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older purchase order update from e-document data.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#14@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers older sales invoice export.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older sales invoice export.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#17@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the general format interface.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older general format interface.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#18@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the general integration interface.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older general integration interface.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#23@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the general audit trail.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older audit trail feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#5@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers older purchase order matching for incoming invoices.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older purchase order matching for incoming invoices.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#8@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the framework introduced in 2024.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older framework introduction, too general.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/kAFdLxb2ghc#9@4fd2e37480787752": {
         "verdict": "drop",
-        "reason": "Covers the older Peppol service.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older Peppol service, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/oL8OlbEoUnQ#8@3173b0ba5c4c022b": {
         "verdict": "drop",
-        "reason": "Covers Peppol format extensibility, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "PEPPOL format extensibility is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#0@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer interface, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer interface, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#1@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer interface, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer interface, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#2@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer interface, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer interface, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#3@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer interface, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer interface, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#4@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer interface, not EDI.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer interface, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#5@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers error handling improvements.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Error handling improvement, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#6@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer wrapper.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer parameter, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#7@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers a developer wrapper.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Developer wrapper, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/QGIr_XPp8lk#8@0bfac569289876fd": {
         "verdict": "drop",
-        "reason": "Covers an Avalara connector update.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Avalara connector update, not EDI.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/S5Xw-b8YF-c#0@433b26d30984e9c6": {
         "verdict": "drop",
-        "reason": "Covers e-document APIs, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "E-document APIs are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/S5Xw-b8YF-c#1@433b26d30984e9c6": {
         "verdict": "drop",
-        "reason": "Covers business events, a different feature.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Business events are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/S5Xw-b8YF-c#2@433b26d30984e9c6": {
         "verdict": "drop",
-        "reason": "Covers the API for creating e-documents from external sources.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "API-based creation of e-documents is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/S5Xw-b8YF-c#3@433b26d30984e9c6": {
         "verdict": "drop",
-        "reason": "Covers export via business events.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Business event export is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#0@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the core app introduced in 2023.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older core app introduction.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#1@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers general e-invoicing.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older e-invoicing introduction.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#10@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the older workflow.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older workflow feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#11@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers document sending profiles in general.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older document sending profile feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#12@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the older status tracking.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older status tracking feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#13@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the older manual actions.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older manual actions feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#14@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the older background receiving.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older background receiving job.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#15@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older invoice import.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older purchase invoice import.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#16@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older error handling during import.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older import error handling.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#17@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older import to journal lines.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older journal line import.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#18@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older sales e-invoices.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older sales e-invoice creation.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#19@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older credit memo handling.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older credit memo handling.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#20@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers local configurability in general.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "General statement about local configuration.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#22@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the access points app.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older access point app announcement.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#23@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers localizations.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Country localizations are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#24@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers the choice of access point providers.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Access point provider options are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#5@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers older access point messaging, not EDI order exchange.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older access point messaging description.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#6@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers localizations.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Localizations are a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#7@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers general partner extensibility.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "General partner extensibility.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#8@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers third-party access point integration.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Third-party access point extensibility is a different capability.",
+        "at": "2026-10-22T01:09:15.109Z"
       },
       "video/tCmDKBszA1w#9@0d5557e2659be684": {
         "verdict": "drop",
-        "reason": "Covers general service setup.",
-        "at": "2026-10-21T00:46:44.721Z"
+        "reason": "Older service setup feature.",
+        "at": "2026-10-22T01:09:15.109Z"
       }
     },
     "573306": {
@@ -1019,283 +1019,283 @@
     "573312": {
       "docs/learn-devitpro/dev-itpro/administration/scheduled-performance-profiler-overview.md@db4630f76e2a6891": {
         "verdict": "drop",
-        "reason": "Performance profiler page only mentions MCP server integration, not data query tools.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Performance profiler page only mentions MCP integration in general.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "docs/learn-devitpro/dev-itpro/administration/telemetry-mcp-server-trace.md@db7c98ddb611482d": {
         "verdict": "drop",
-        "reason": "Telemetry for MCP tool calls is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Telemetry for MCP tool calls, not custom data queries.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/configure-mcp-server.md@cc63727d859c177e": {
         "verdict": "keep",
-        "reason": "Configuration page documents Data Query Tools for the MCP server.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Configuration page lists Data Query Tools as part of the MCP server features.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "docs/learn-devitpro/dev-itpro/ai/mcp-overview.md@6ad7e44dc99c3d81": {
         "verdict": "keep",
-        "reason": "Overview lists Data Query Tools and querying data via the MCP server.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Overview lists Data Query Tools and querying data through the MCP server.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/al-agent-tools/al-mcp-server.md@26880425a8a6a893": {
         "verdict": "drop",
-        "reason": "AL development MCP server is a different product.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "AL development MCP server, a different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
-      "video/0WAOtNaKjws#5@883efe077c7f8955": {
+      "video/0WAOtNaKjws#5@67b5dc3e3d4caebe": {
         "verdict": "drop",
-        "reason": "MCP resources protocol support is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "MCP resources support is a different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
-      "video/0WAOtNaKjws#6@883efe077c7f8955": {
+      "video/0WAOtNaKjws#6@67b5dc3e3d4caebe": {
         "verdict": "drop",
-        "reason": "Embedded file resources for large data sets is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Embedded resources for large data is a different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/4HE3BBCcV84#0@0379d615b88b4044": {
         "verdict": "drop",
-        "reason": "Exposing existing API queries is an older, different capability from custom data queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Exposes existing API queries, not custom queries without APIs.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/4HE3BBCcV84#2@0379d615b88b4044": {
         "verdict": "drop",
-        "reason": "Selecting API query objects in configuration differs from defining custom queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Configuring API query objects is an older, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/AMVAiPTfSrU#1@fdf56a54062de31b": {
         "verdict": "drop",
-        "reason": "General MCP server mention only.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "General MCP server mention.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/B9VbZzC2p7E#0@1c7864b7a7ca9eb1": {
         "verdict": "drop",
-        "reason": "Spreadsheet app SQL agent is not the MCP server feature.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "SQL generation in a spreadsheet app, not MCP data query tools.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/B9VbZzC2p7E#1@1c7864b7a7ca9eb1": {
         "verdict": "drop",
-        "reason": "Third-party spreadsheet agent, not MCP data query tools.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Spreadsheet app agent, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/C5cmG3sNjUg#0@61c5c136953fe58c": {
         "verdict": "drop",
-        "reason": "General description of the MCP server exposing APIs.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "General MCP server API exposure.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/C5cmG3sNjUg#3@61c5c136953fe58c": {
         "verdict": "drop",
-        "reason": "Dynamic tool search for API pages is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Dynamic tool search is a different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/EpDIrJE0HzA#1@56eadacabad2d7dd": {
         "verdict": "drop",
-        "reason": "General MCP server introduction.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "General MCP introduction.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/EpDIrJE0HzA#2@56eadacabad2d7dd": {
         "verdict": "drop",
-        "reason": "MCP configurations page for APIs, not data queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "MCP configurations page, not data query tools.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#0@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "MCP configurations are a different, earlier capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "MCP configurations, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#1@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Dynamic tool mode is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Dynamic tool mode, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#2@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Discovering additional API pages is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Discover additional API pages, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#3@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Bound actions on API pages are a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Bound actions, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#4@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Read-only default config is unrelated to custom queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Read-only default, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/GeT5E_f9A9Q#5@3b7c0adab89fa533": {
         "verdict": "drop",
-        "reason": "Authentication model is a general topic.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Authentication model, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/iViHfCgL2L8#0@cb3091d83a2a7160": {
         "verdict": "drop",
         "reason": "General MCP server introduction.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/LerAo-GGl8U#0@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP server is a different product.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin MCP server, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/LerAo-GGl8U#1@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "General MCP fundamentals.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "MCP fundamentals, too general.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/LerAo-GGl8U#4@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP setup is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin MCP setup, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/LerAo-GGl8U#8@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP tool invocation is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin MCP tool invocation, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/LerAo-GGl8U#9@3cc73e55743376c5": {
         "verdict": "drop",
-        "reason": "Admin MCP connection is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin MCP connection, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/mBU2Iu0urw8#18@bcc370cd29e8b52b": {
         "verdict": "drop",
-        "reason": "AL MCP server for development is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "AL MCP server, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/mBU2Iu0urw8#34@bcc370cd29e8b52b": {
         "verdict": "drop",
-        "reason": "AL development MCP tooling is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "AL development MCP tools, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/mBU2Iu0urw8#8@bcc370cd29e8b52b": {
         "verdict": "drop",
-        "reason": "AL development MCP servers are unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "AL development MCP servers, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/NE7NIjpkX3c#12@07dbc076d6b83beb": {
         "verdict": "drop",
-        "reason": "Copilot extension tools in AL are a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Copilot extension tools in AL, not MCP data queries.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/NE7NIjpkX3c#13@07dbc076d6b83beb": {
         "verdict": "drop",
-        "reason": "Function calling in AI toolkit is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Function calling in AI toolkit, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/nPF84Ufkn4k#20@3d3617bb3a860456": {
         "verdict": "drop",
-        "reason": "MCP tools for custom agents is a general topic.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "MCP tools for agent runtime, too general.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/q3xnjJD32kk#0@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the new MCP data query tool set.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Find tables tool is part of the new data query tool set.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/q3xnjJD32kk#1@1c105f82f2b2e77f": {
         "verdict": "keep",
         "reason": "Table relations tool supports writing join queries in the data query feature.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/q3xnjJD32kk#2@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Table schema tool is part of the data query tool set for defining queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Table schema tool is part of the data query tool set.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/q3xnjJD32kk#3@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Data query tool lets agents write and execute queries via MCP.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Data query tool lets agents write and execute AL queries.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/q3xnjJD32kk#4@1c105f82f2b2e77f": {
         "verdict": "keep",
-        "reason": "Describes running queries via MCP tools without needing APIs.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Describes running queries through MCP tools without APIs.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/qs1cg-GoDeQ#0@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Find tables tool is part of the data tool feature set.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Find tables tool, part of the data tool feature set.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/qs1cg-GoDeQ#1@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Table relations tool supports defining join queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Table relations tool for building queries.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/qs1cg-GoDeQ#2@a3902918f9454621": {
         "verdict": "keep",
-        "reason": "Table schema tool helps agents define queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Table schema tool for understanding table structure when querying.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/qs1cg-GoDeQ#3@a3902918f9454621": {
         "verdict": "keep",
         "reason": "Data query tool runs AL queries without APIs.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/rm-FstU_I80#0@3006156ceea2c1cf": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/rm-FstU_I80#14@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Search/describe/invoke dynamic tools are a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Search/describe/invoke dynamic tools, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/rm-FstU_I80#22@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Exposing existing query objects via configuration differs from custom data queries.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Exposing existing queries through configuration, not custom data query tools.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/rm-FstU_I80#6@3006156ceea2c1cf": {
         "verdict": "drop",
         "reason": "General MCP server description.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/rm-FstU_I80#9@3006156ceea2c1cf": {
         "verdict": "drop",
-        "reason": "Dynamic tool configuration is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Dynamic tool configuration, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/U1dAdtUjidc#0@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin Center MCP server is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin Center MCP server, different product.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/U1dAdtUjidc#1@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Admin environment management is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin environment management, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/U1dAdtUjidc#2@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Failed update analysis is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin failed update analysis, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/U1dAdtUjidc#3@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Extension management is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin extension management, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/U1dAdtUjidc#4@c4cb2f6c55e58ca1": {
         "verdict": "drop",
-        "reason": "Environment copy is unrelated.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Admin environment copy, different capability.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/UIL8ej7mSKQ#6@8e1e775d4fe8dd45": {
         "verdict": "drop",
-        "reason": "General MCP server announcement from 2025 wave 2.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "General MCP server announcement.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/x0XF0lBvgEE#2@8fb48cfb42691e7e": {
         "verdict": "keep",
-        "reason": "Explicitly announces the Run Data Queries with MCP Server feature.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Announces the Run Data Queries with MCP Server feature by name.",
+        "at": "2026-10-22T01:09:20.604Z"
       },
       "video/zei-IszvYNU#0@124c9200aa0e6061": {
         "verdict": "drop",
-        "reason": "Availability of published APIs is a different capability.",
-        "at": "2026-10-21T00:46:46.245Z"
+        "reason": "Published APIs in MCP, not custom data queries.",
+        "at": "2026-10-22T01:09:20.604Z"
       }
     },
     "573313": {
@@ -1377,33 +1377,38 @@
     "573316": {
       "docs/learn-smb-docs/business-central/manage-indexes.md@f805324de2f7ffe0": {
         "verdict": "drop",
-        "reason": "This page covers turning general database indexes on and off and does not mention SIFT indexes.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "Documents general per-company index management, not turning SIFT indexes on/off.",
+        "at": "2026-10-22T01:09:02.406Z"
       },
-      "video/1x3QyBX3swg#0@7b3125ef0b8c0881": {
+      "video/1x3QyBX3swg#0@3b163e9926c1176c": {
         "verdict": "drop",
-        "reason": "This shows the general Index Management page, not SIFT index toggling.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "Shows the general index management page without any mention of SIFT indexes.",
+        "at": "2026-10-22T01:09:02.406Z"
       },
-      "video/1x3QyBX3swg#1@7b3125ef0b8c0881": {
+      "video/1x3QyBX3swg#1@3b163e9926c1176c": {
         "verdict": "drop",
-        "reason": "This covers enabling and disabling regular indexes, the earlier capability, with no mention of SIFT.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "Covers enabling/disabling regular indexes, which is the earlier wave 1 capability, not SIFT.",
+        "at": "2026-10-22T01:09:02.406Z"
+      },
+      "video/1x3QyBX3swg#2@3b163e9926c1176c": {
+        "verdict": "drop",
+        "reason": "Covers per-company management of regular indexes, not SIFT indexes.",
+        "at": "2026-10-22T01:09:02.406Z"
       },
       "video/2u5_F9Ztt7U#4@5f9d4c8c9a280fdc": {
         "verdict": "drop",
-        "reason": "This covers general index usage insights from 2026 release wave 1, not SIFT indexes.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "General index usage insights from 2026 wave 1, with no mention of SIFT.",
+        "at": "2026-10-22T01:09:02.406Z"
       },
       "video/bVPFIhkvZEA#0@d6f24e9b6495c903": {
         "verdict": "keep",
-        "reason": "This directly shows administrators turning SIFT indexes on or off from the Business Central client.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "Directly shows administrators turning SIFT indexes on or off from the Business Central client.",
+        "at": "2026-10-22T01:09:02.406Z"
       },
       "video/IAacWsvav1E#2@10e102899bf4bd1a": {
         "verdict": "drop",
-        "reason": "This covers turning regular indexes on and off at runtime, the 2026 release wave 1 capability, not SIFT indexes.",
-        "at": "2026-10-21T00:46:34.500Z"
+        "reason": "Covers the runtime toggle for regular indexes from 2026 wave 1, which the SIFT feature extends but which is not itself the SIFT capability.",
+        "at": "2026-10-22T01:09:02.406Z"
       }
     },
     "573317": {
@@ -1867,70 +1872,90 @@
     "573326": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md@b49300527ab2b4d3": {
         "verdict": "keep",
-        "reason": "It documents Word layouts with separate header, footer and theme parts, including the HeaderFooter subtype and the DefaultHeaderFooterPart property, which is the developer side of this feature.",
-        "at": "2026-10-21T00:46:23.876Z"
+        "reason": "It documents the Word HeaderFooter layout subtype and the DefaultHeaderFooterPart property used in composite rendering.",
+        "at": "2026-10-22T01:08:56.896Z"
       },
       "docs/learn-smb-docs/business-central/ui-get-started-layouts.md@d20be07775fe14d3": {
         "verdict": "keep",
-        "reason": "The page explicitly lists header/footer layouts and reusable themes among the layout tasks it covers.",
-        "at": "2026-10-21T00:46:23.876Z"
+        "reason": "The page lists header/footer layouts and reusable themes among the layout features it covers.",
+        "at": "2026-10-22T01:08:56.896Z"
       },
       "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md@090b13676252f804": {
         "verdict": "keep",
-        "reason": "It is the setup page for reusable header/footer layouts, with global, company and layout-specific defaults.",
-        "at": "2026-10-21T00:46:23.876Z"
+        "reason": "It directly explains setting up reusable header/footer layouts, with global, company and layout-specific defaults.",
+        "at": "2026-10-22T01:08:56.896Z"
       },
-      "video/-vdhfNMNZQk#0@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#0@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "The video introduces composite layouts that split reports into reusable themes and header-footer parts applied across reports.",
-        "at": "2026-10-21T00:46:23.876Z"
+        "reason": "It announces composite layouts, where reusable header-footer layouts are applied across different reports.",
+        "at": "2026-10-22T01:08:56.896Z"
       },
-      "video/-vdhfNMNZQk#3@361e96bce5ccfd4e": {
-        "verdict": "keep",
-        "reason": "The segment shows header-footer layouts being applied at the global, company, report or layout level.",
-        "at": "2026-10-21T00:46:23.876Z"
+      "video/-vdhfNMNZQk#1@427bb8def36971bc": {
+        "verdict": "drop",
+        "reason": "It only describes the body layout and does not mention header/footer reuse.",
+        "at": "2026-10-22T01:08:56.896Z"
       },
-      "video/-vdhfNMNZQk#4@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#3@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "The segment explains the layered defaults for header-footer layouts at the global, company, report and layout levels.",
-        "at": "2026-10-21T00:46:23.876Z"
+        "reason": "It shows header-footer layouts being applied at global, company, report or layout level.",
+        "at": "2026-10-22T01:08:56.896Z"
+      },
+      "video/-vdhfNMNZQk#4@427bb8def36971bc": {
+        "verdict": "keep",
+        "reason": "It shows the layered default settings for header-footer layouts at global, company, report and layout level.",
+        "at": "2026-10-22T01:08:56.896Z"
+      },
+      "video/-vdhfNMNZQk#5@427bb8def36971bc": {
+        "verdict": "keep",
+        "reason": "It shows how to create custom header-footer layouts in the UI or in AL code.",
+        "at": "2026-10-22T01:08:56.896Z"
       }
     },
     "573327": {
       "docs/learn-devitpro/dev-itpro/developer/devenv-howto-report-layout.md@7b0694e56492f12e": {
         "verdict": "drop",
-        "reason": "General Word layout creation page with no mention of report themes or composable layouts.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "General guide to creating Word layouts with XML mapping; it doesn't describe themes or composite layouts.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
       "docs/learn-devitpro/dev-itpro/developer/devenv-report-layout-declaration.md@b49300527ab2b4d3": {
         "verdict": "keep",
-        "reason": "Documents the Theme layout subtype and the DefaultThemePart property, which are part of the composite theming capability.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Documents the AL side of composite Word layouts, including the Theme subtype and DefaultThemePart property.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
       "docs/learn-smb-docs/business-central/ui-set-up-report-themes-header-footer-layouts.md@090b13676252f804": {
         "verdict": "keep",
-        "reason": "Directly documents setting up report themes, with defaults resolved from the layout level up to the global level.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Explains how to set up reusable report themes with global, company and layout-specific defaults.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
-      "video/-vdhfNMNZQk#0@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#0@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "Introduces composite layouts, with themes as reusable branding components.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Introduces composite layouts, which split layouts into a body layout and reusable themes for branding.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
-      "video/-vdhfNMNZQk#2@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#1@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "Shows themes being applied to body layouts for consistent styling.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Explains the body layout, the part of composable layouts that themes are applied to.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
-      "video/-vdhfNMNZQk#4@361e96bce5ccfd4e": {
+      "video/-vdhfNMNZQk#2@427bb8def36971bc": {
         "verdict": "keep",
-        "reason": "Shows the global, company, report and layout default levels described in the feature.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Shows themes being applied to body layouts at runtime for colors and fonts.",
+        "at": "2026-10-22T01:08:58.199Z"
+      },
+      "video/-vdhfNMNZQk#4@427bb8def36971bc": {
+        "verdict": "keep",
+        "reason": "Shows default themes set at global, company, report and layout level, matching the feature's flexibility.",
+        "at": "2026-10-22T01:08:58.199Z"
+      },
+      "video/-vdhfNMNZQk#5@427bb8def36971bc": {
+        "verdict": "keep",
+        "reason": "Shows custom themes being created through the UI page or from AL code.",
+        "at": "2026-10-22T01:08:58.199Z"
       },
       "video/V8CSor5qBRE#7@66e257ecbf0e47f7": {
         "verdict": "drop",
-        "reason": "Describes an older 2024 capability of editing Office themes inside Word layouts, not composable report themes.",
-        "at": "2026-10-21T00:46:32.949Z"
+        "reason": "Describes the older 2024 Office theme approach of editing in Word and uploading again, not composable report themes.",
+        "at": "2026-10-22T01:08:58.199Z"
       }
     },
     "573328": {
@@ -4292,103 +4317,108 @@
     "573374": {
       "docs/learn-smb-docs/business-central/finance-sustainability-journal.md@86a3d012739d2656": {
         "verdict": "drop",
-        "reason": "General journal page listing formulas and purchase document emissions separately; doesn't describe formulas on purchase documents.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "General Learn page that lists journal formulas and purchase document emissions as separate features; it doesn't describe formulas on purchase documents.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "docs/learn-smb-docs/business-central/value-chain-howto-purchase.md@f52d983d5d37c04c": {
         "verdict": "drop",
-        "reason": "Covers the existing purchase-document emissions and value chain setup, not formula-based calculation on purchase lines.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Covers the existing purchase document emissions and value chain setup, not formula-based calculation on purchase lines.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/_ynMUzh956w#2@ad47308cbf784198": {
         "verdict": "drop",
-        "reason": "Describes the original journal emission formulas from 2024 wave 1, an older capability.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Describes the 2024 formulas in sustainability journals, an older capability, not formulas on purchase documents.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/_ynMUzh956w#9@ad47308cbf784198": {
         "verdict": "drop",
-        "reason": "Emission factors in subcategories for journal calculations, not purchase document formulas.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Emission factor setup for journal calculations is an existing capability, not this purchase document feature.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
-      "video/2_yYu3RgYwo#7@5797089027537e8a": {
+      "video/2_yYu3RgYwo#4@2dcddf4f6629f649": {
         "verdict": "drop",
-        "reason": "Default sustainability values transferring to purchase lines is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "About the setup option for default sustainability values, a different feature.",
+        "at": "2026-10-22T01:09:11.193Z"
+      },
+      "video/2_yYu3RgYwo#7@2dcddf4f6629f649": {
+        "verdict": "drop",
+        "reason": "Default values carried over to purchase documents is a different capability from formula calculation.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/D2KPQEbO40Q#2@cd03e11427380187": {
         "verdict": "drop",
         "reason": "Scope 3 value chain automation is a different capability.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#0@74d83afb744ed8bf": {
         "verdict": "drop",
         "reason": "Copilot CO2 calculation in journals is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#1@74d83afb744ed8bf": {
         "verdict": "drop",
-        "reason": "Copilot emission factor file upload is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Copilot emission factor file uploads are unrelated to formulas on purchase documents.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#2@74d83afb744ed8bf": {
         "verdict": "drop",
         "reason": "Copilot emission factor suggestions are a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#4@74d83afb744ed8bf": {
         "verdict": "drop",
-        "reason": "Copilot public information fallback is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Copilot's fallback to public data is a different feature.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#5@74d83afb744ed8bf": {
         "verdict": "drop",
-        "reason": "Copilot description regeneration is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Copilot description refinement is a different feature.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#6@74d83afb744ed8bf": {
         "verdict": "drop",
         "reason": "Copilot calculation explanations are a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JBGuaqk5nXk#7@74d83afb744ed8bf": {
         "verdict": "drop",
         "reason": "Copilot emission factor update settings are a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/JoGW2xlIq0I#3@4a6926c45e7ac003": {
         "verdict": "drop",
-        "reason": "Assembly order value chain automation is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Value chain automation with assembly orders is a different capability.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/lcy36b9GS38#1@3709750aa34102de": {
         "verdict": "drop",
-        "reason": "Scope 3 value chain tracking overview is a different feature.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Scope 3 value chain tracking is a different capability.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/NYG4pOtW-Xw#11@b38590df920c3086": {
         "verdict": "drop",
-        "reason": "Manual emissions entry on purchase invoices is the older capability, not formulas.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Shows manual emissions entry on purchase invoices, the older capability, not formulas.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/NYG4pOtW-Xw#2@b38590df920c3086": {
         "verdict": "drop",
-        "reason": "Direct emission entry in purchase documents is the older capability, not formulas.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Covers the 2024 manual emissions entry in purchase documents, not formula-based calculation.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/Sc8eGyMkBTA#5@82bc1ea9284d6cb6": {
         "verdict": "drop",
-        "reason": "Value chain tracking setup field is a different setting.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "The value chain tracking setup field is a different feature.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/t_UXxbvgnHY#0@1e97f213f651912d": {
         "verdict": "keep",
-        "reason": "Directly announces sustainability formulas in purchase orders and invoices, calculated as in journals.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Announces sustainability formulas on purchase orders and invoices that work the same way as in journals.",
+        "at": "2026-10-22T01:09:11.193Z"
       },
       "video/uan4dV9eVCA#4@5684d5f3a5c2a9c0": {
         "verdict": "drop",
-        "reason": "General journal emission formulas, not specific to purchase documents.",
-        "at": "2026-10-07T00:16:32.721Z"
+        "reason": "Describes emission formulas in general, without tying them to purchase documents.",
+        "at": "2026-10-22T01:09:11.193Z"
       }
     },
     "573375": {
@@ -4813,99 +4843,119 @@
       }
     },
     "576802": {
-      "video/-SGaVGOkiF0#0@fde5d049a7aa4157": {
+      "video/-SGaVGOkiF0#0@a2e517c88f6451df": {
         "verdict": "drop",
-        "reason": "General introduction of the global payment times feature, too broad to show a specific part of this Australian reporting capability.",
-        "at": "2026-10-20T08:46:34.147Z"
+        "reason": "Introduces the older general Payment Times Analysis feature, not the Australian payment times reporting.",
+        "at": "2026-10-22T01:09:01.075Z"
       },
-      "video/-SGaVGOkiF0#1@fde5d049a7aa4157": {
-        "verdict": "keep",
-        "reason": "Shows grouping payment data by company size, which matches the feature's organizing of vendors by size.",
-        "at": "2026-10-20T08:46:34.147Z"
+      "video/-SGaVGOkiF0#1@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Shows grouping by company size for Swedish requirements, which is not the Australian reporting capability.",
+        "at": "2026-10-22T01:09:01.075Z"
       },
-      "video/-SGaVGOkiF0#2@fde5d049a7aa4157": {
-        "verdict": "keep",
-        "reason": "Shows period-based grouping via a payment periods table, the mechanism behind the day-range categories in the report.",
-        "at": "2026-10-20T08:46:34.147Z"
+      "video/-SGaVGOkiF0#2@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Shows period grouping in the 2023 general feature and never mentions the Australian reporting time ranges.",
+        "at": "2026-10-22T01:09:01.075Z"
       },
-      "video/-SGaVGOkiF0#3@fde5d049a7aa4157": {
-        "verdict": "keep",
-        "reason": "Demonstrates the average agreed and actual payment period statistics the feature reports.",
-        "at": "2026-10-20T08:46:34.147Z"
+      "video/-SGaVGOkiF0#3@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Shows the statistics of the older general feature, not the Australian reporting format.",
+        "at": "2026-10-22T01:09:01.075Z"
+      },
+      "video/-SGaVGOkiF0#4@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Shows drill-down in the earlier general feature, with nothing specific to the Australian reporting.",
+        "at": "2026-10-22T01:09:01.075Z"
+      },
+      "video/-SGaVGOkiF0#5@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Historical storage of payment data is a general feature behavior that this roadmap item does not describe.",
+        "at": "2026-10-22T01:09:01.075Z"
+      },
+      "video/-SGaVGOkiF0#6@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Shows general report printing with no link to the required Australian format.",
+        "at": "2026-10-22T01:09:01.075Z"
       }
     },
     "576815": {
-      "video/22duXC6j_No#0@5a52c94c72ddd5df": {
+      "video/22duXC6j_No#0@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Describes a general update action in the all apps view, not PTE upload, install or scheduling.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Covers the general update action in the all-apps view, not PTE upload or install.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
-      "video/22duXC6j_No#2@5a52c94c72ddd5df": {
-        "verdict": "keep",
-        "reason": "Shows the install scheduling options (now, update window, next minor/major) that the feature adds.",
-        "at": "2026-10-21T00:46:31.932Z"
-      },
-      "video/22duXC6j_No#3@5a52c94c72ddd5df": {
-        "verdict": "keep",
-        "reason": "Demonstrates installing apps directly from the admin center with timing choices, a core part of the feature.",
-        "at": "2026-10-21T00:46:31.932Z"
-      },
-      "video/22duXC6j_No#4@5a52c94c72ddd5df": {
+      "video/22duXC6j_No#1@1749378cf112edee": {
         "verdict": "drop",
-        "reason": "Covers monitoring installation progress in general, which the feature does not describe.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Covers dependency status for app updates, which is a different capability.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
-      "video/22duXC6j_No#5@5a52c94c72ddd5df": {
+      "video/22duXC6j_No#2@1749378cf112edee": {
         "verdict": "keep",
-        "reason": "Shows uninstalling PTEs from the admin center, which is part of the described management capability.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Shows scheduling installations for right now, the update window, or the next minor or major version, which matches the feature's scheduling.",
+        "at": "2026-10-22T01:09:05.955Z"
+      },
+      "video/22duXC6j_No#3@1749378cf112edee": {
+        "verdict": "keep",
+        "reason": "Shows installing apps directly from the admin center with timing options, which is part of the feature.",
+        "at": "2026-10-22T01:09:05.955Z"
+      },
+      "video/22duXC6j_No#4@1749378cf112edee": {
+        "verdict": "drop",
+        "reason": "Only covers the general Operations page for monitoring, not PTE management itself.",
+        "at": "2026-10-22T01:09:05.955Z"
+      },
+      "video/22duXC6j_No#5@1749378cf112edee": {
+        "verdict": "drop",
+        "reason": "Uninstalling extensions is an existing capability that the feature builds on, not what it adds.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#0@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Directly announces PTE upload, install and update in the admin center.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Directly announces uploading, installing and updating PTEs in the admin center.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#1@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Shows the immediate or scheduled deployment options for installing PTEs.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Shows the choice between immediate and scheduled PTE installation.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#2@5b60f5a91387ba30": {
-        "verdict": "keep",
-        "reason": "Shows filtering installed apps by PTE type, part of viewing and managing PTEs in the admin center.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "verdict": "drop",
+        "reason": "Filtering apps by type is a viewing convenience, not the upload, install or schedule capability.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#3@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Shows several scheduled PTE installations, part of scheduling and viewing upcoming versions.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Shows several scheduled PTE versions at once, which matches viewing upcoming extension versions.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#4@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Shows cancelling a scheduled PTE installation, part of managing scheduled installs.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Cancelling a scheduled PTE installation is part of managing scheduled installations.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#5@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Shows the operations view of PTE installs and schedules, which supports viewing upcoming extension versions.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Shows the PTE install and scheduling operations along with their deployment schedules, as part of the PTE lifecycle.",
+        "at": "2026-10-22T01:09:05.955Z"
       },
       "video/3Xus5tm2xKI#6@5b60f5a91387ba30": {
         "verdict": "keep",
-        "reason": "Explains the admin center API permissions for orchestrating PTE installation programmatically.",
-        "at": "2026-10-21T00:46:31.932Z"
+        "reason": "Explains simpler permissions for using the admin center API to automate PTE installation, which is the feature's API part.",
+        "at": "2026-10-22T01:09:05.955Z"
       }
     },
     "576832": {
-      "video/07G7aC14Y_w#10@17c76eba730f57a8": {
+      "video/07G7aC14Y_w#10@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows the new French e-document formats set up in the E-Document Service, which is part of this feature.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "The segment shows new French e-document formats being set up on the E-Document Service, which is part of this feature's France e-invoicing and e-reporting setup.",
+        "at": "2026-10-22T01:09:05.104Z"
       },
-      "video/07G7aC14Y_w#11@17c76eba730f57a8": {
+      "video/07G7aC14Y_w#11@25400612de857d0f": {
         "verdict": "keep",
-        "reason": "Shows French lifecycle statuses stored as messages linked to the original invoice, matching the feature's mandatory lifecycle statuses.",
-        "at": "2026-10-20T08:46:34.151Z"
+        "reason": "The segment shows French lifecycle status tracking linked to invoice e-documents, which matches the feature's mandatory lifecycle statuses.",
+        "at": "2026-10-22T01:09:05.104Z"
       }
     },
     "576836": {
@@ -4923,6 +4973,38 @@
         "verdict": "drop",
         "reason": "It describes the 2024 settings for exporting B2B companies, an older capability, and does not cover company sync on non-Plus plans.",
         "at": "2026-10-18T00:53:14.040Z"
+      }
+    },
+    "576839": {
+      "video/-SGaVGOkiF0#0@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "This 2023 overview of the original payment analysis feature doesn't mention the new UK data points, disputes or CSV export.",
+        "at": "2026-10-22T01:08:54.576Z"
+      },
+      "video/-SGaVGOkiF0#2@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Grouping payments by period is an existing feature, not one of the UK additions.",
+        "at": "2026-10-22T01:08:54.576Z"
+      },
+      "video/-SGaVGOkiF0#3@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "These are the existing statistics; none of the new UK metrics, such as the share of late payments caused by disputes, appear.",
+        "at": "2026-10-22T01:08:54.576Z"
+      },
+      "video/-SGaVGOkiF0#4@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Drilling down into details is part of the older feature and isn't related to the UK update.",
+        "at": "2026-10-22T01:08:54.576Z"
+      },
+      "video/-SGaVGOkiF0#5@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "Storing historical data is an existing behavior, not part of this feature.",
+        "at": "2026-10-22T01:08:54.576Z"
+      },
+      "video/-SGaVGOkiF0#6@a2e517c88f6451df": {
+        "verdict": "drop",
+        "reason": "This covers printing reports from the original feature, not the new CSV export or the UK data points.",
+        "at": "2026-10-22T01:08:54.576Z"
       }
     }
   }

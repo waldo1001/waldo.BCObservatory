@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:55.960Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,6 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
     - post/thinkaboutit-be/8132
   guidelines: []
   changes:
@@ -74,7 +73,7 @@ links:
     - change/bcquality/161
     - change/bcquality/193
     - change/bcquality/198
-    - change/bcquality/249
+    - change/bcquality/225
     - change/bcquality/65
     - change/bcquality/95
 learn_toc_path:
@@ -89,7 +88,7 @@ coverage:
   learn: 4
   code: 0
   video: 0
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: ba956ebb86ef285878ddc0a53474259a24c07dfcd7d43b7bbd61833d0d693b78
@@ -142,10 +141,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#161 AL methods limited during write transactions (RunModal, Codeunit.Run)](../../../../../changes/bcquality/161.md) (code change): "Recommended structure follows Base Application's Commit before Page.RunModal pattern"
 - [#193 Clarify locale-safe DateFormula Evaluate inputs](../../../../../changes/bcquality/193.md) (code change): "Clarify locale-safe DateFormula Evaluate inputs. Adds a Microsoft Style article"
 - [#198 Add BC performance knowledge from OptimAL learnings](../../../../../changes/bcquality/198.md) (code change): "Each new article has paired good and bad AL examples"
-- [#249 Route guard-dependent and/or conditions to the short-circuit article](../../../../../changes/bcquality/249.md) (code change): "performance review now directs developers to the short-circuit article when guard"
+- [#225 Performance and style knowledge: compute Role Center headlines in the background; build client links with GetUrl](../../../../../changes/bcquality/225.md) (code change): "links into the running environment's client should come from GetUrl"
 - [#65 Add data-modeling and appsource knowledge articles (MICROSOFT layer)](../../../../../changes/bcquality/65.md) (code change): "Seven remedial BCQuality knowledge articles added to the MICROSOFT layer covering data-modeling patterns, AppSource conventions, and styling best practices"
 - [#95 style-review: calibrate analyzer-redundant rules to info; keep correctness bugs out of style scope](../../../../../changes/bcquality/95.md) (code change): "al-style-review skill recalibrates analyzer-redundant rules to info severity and clarifies domain boundaries"
-- [Introducing ALCops — LinterCop's Next Chapter](../../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "It has 30 code fixes compared with LinterCop's five or six, plus correctness fixes"
 - [BCQuality: A Shared Quality Bar for AL Code, Built for Agents](../../../../../posts/thinkaboutit-be/8132.md) (community post): "BCQuality is Microsoft's open repository of quality knowledge for AL code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

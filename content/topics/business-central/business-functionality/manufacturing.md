@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:14:34.799Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -431,7 +431,6 @@ links:
     - video/DHODFt_jVO4
     - video/GEuUFcgFZF0
     - video/giNi8WtCX_s
-    - video/HvgGcTnYo9g
     - video/oIoH3gxc0uk
     - video/Pt8LrNv_Lgc
     - video/QdWPlIV3Avk
@@ -440,9 +439,7 @@ links:
     - video/vnaySMIKnp8
     - video/xqFpiqmXjk0
   posts:
-    - post/gerardorenteria-blog/11616
     - post/olofsimren-com/3545
-    - post/olofsimren-com/3865
   guidelines: []
   changes:
     - change/bcapps/10131
@@ -454,6 +451,7 @@ links:
     - change/bcapps/12059
     - change/bcapps/12068
     - change/bcapps/12552
+    - change/bcapps/12584
     - change/bcapps/9075
     - change/bcapps/9087
     - change/bcapps/9660
@@ -471,8 +469,8 @@ children:
 coverage:
   learn: 65
   code: 110
-  video: 11
-  blog: 3
+  video: 10
+  blog: 1
   guideline: 0
 bc_forms:
   - 50
@@ -647,19 +645,17 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12059 [Master]-Reverse Production Entry fails when production output is posted using a non-base Unit of Measure.](../../../changes/bcapps/12059.md) (code change): "Reversing a production entry no longer fails when the production output"
 - [#12068 Bug 651757: [Repair Item] [Manufacturing] Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away](../../../changes/bcapps/12068.md) (code change): "Warehouse Pick is not generated for Make-to-Order subassembly after registered put-away"
 - [#12552 [29.x]-Validation of the "No." field on the sales order additionally re-validates the Unit of Measure Code](../../../changes/bcapps/12552.md) (code change): "sales order with a linked released production order caused repeated production order status warnings"
+- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../changes/bcapps/12584.md) (code change): "Uninvoiced subcontracting receipts can now be included in Get Receipt Lines workflow"
 - [#9075 Bug 598820: Item Availability by Event from Prod. Order ignores demand after Due Date](../../../changes/bcapps/9075.md) (code change): "Item Availability by Event from Prod. Order ignores demand after Due Date"
 - [#9087 Bug 641331: Copy Production Order Document lookup shows the current document](../../../changes/bcapps/9087.md) (code change): "Copy Production Order Document report now excludes the current production order from the document lookup"
 - [#9660 [Master]-Act Consumption Qty field in Component of a Firm Planned Order has amounts that point to a Released Production Order that has the same Document No if the component is the same](../../../changes/bcapps/9660.md) (code change): "Act. Consumption Qty shown for components of a firm planned production order"
 - [#9670 [Main] - Posting from Released production order affects Firm planned production order with same ID.](../../../changes/bcapps/9670.md) (code change): "Posting from Released production order affects Firm planned production order"
 - [#9803 [master] Variant Code mandatory should not allow to refresh the production order with no variant code](../../../changes/bcapps/9803.md) (code change): "Variant Code mandatory should not allow to refresh the production order"
 - [#9967 [Main]-Production BOM Version certification does not check Variant Mandatory on lines](../../../changes/bcapps/9967.md) (code change): "Production BOM Version certification now validates that variant codes are populated"
-- [What’s new and planned Business Central 2025 Wave 2 – v27🔔](../../../posts/gerardorenteria-blog/11616.md) (community post): "Manufacturing gains focus on quality management and outsourcing"
 - [Reopen Finished Production Orders](../../../posts/olofsimren-com/3545.md) (community post): "Reopen Finished Production Orders. Business Central now allows users to reopen finished production orders"
-- [Business Central Case Study: How World Emblem Automated High-Volume Manufacturing Processes](../../../posts/olofsimren-com/3865.md) (community post): "high-volume embroidered garment manufacturer, used Business Central automation and configuration-driven customizations to scale operations"
 - [What's New in Manufacturing: Costing (2025 release wave 1)](../../../videos/DHODFt_jVO4.md) (video): "Production bill of material and routing on stock keeping unit; Standard cost per stock keeping unit"
 - [Manufacturing Foundations BOM (2026)](../../../videos/GEuUFcgFZF0.md) (video): "bill of materials; production order; assembly; replenishment; components; bom versions"
 - [What's New in Manufacturing: Streamline Product Design (2025 release wave 1)](../../../videos/giNi8WtCX_s.md) (video): "production bom; document attachments; bom versions; version comparison"
-- [Bartek Ingredients Inc.](../../../videos/HvgGcTnYo9g.md) (video): "Production order management; Power Apps integration for data entry; Production reporting"
 - [Execution & Control Flushing Methods (2026)](../../../videos/oIoH3gxc0uk.md) (video): "flushing methods; production orders; material consumption"
 - [Manufacturing Fundamentals Routing (2026)](../../../videos/Pt8LrNv_Lgc.md) (video): "routing; production order; serial operations; parallel operations; operational times"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../videos/QdWPlIV3Avk.md) (video): "production orders; routing; work in progress items"

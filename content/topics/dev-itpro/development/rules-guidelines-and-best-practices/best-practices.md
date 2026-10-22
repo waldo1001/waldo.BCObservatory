@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices
 type: topic
 title: Best practices
-summary: "Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure, monitor and prepare extensions for Marketplace validation."
+summary: "Best practices for developing Business Central extensions: AL code style and deprecation, restrictions to avoid, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It answers how to write, test, secure and submit extensions to Marketplace."
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 4d4a0f4d6c22dd0883e53e8a1da8ee89dcd1c5c7d6fe95becad8335dff03b000
+  input_hash: 433b81cfba098a94ac539db0a85a20f3f9c23b92227e68abd9569121c6a66d5c
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-app-key-vault-overview
@@ -152,10 +152,10 @@ links:
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/performance
     - topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices/security
   localizations: []
-  videos:
-    - video/reUoIdQZaNM
+  videos: []
   posts:
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca
   guidelines: []
   changes:
     - change/bcapps/10514
@@ -170,7 +170,6 @@ links:
     - change/bcquality/175
     - change/bcquality/183
     - change/bcquality/196
-    - change/bcquality/237
     - change/bcquality/98
 learn_toc_path:
   - Development
@@ -187,8 +186,8 @@ children:
 coverage:
   learn: 17
   code: 0
-  video: 1
-  blog: 1
+  video: 0
+  blog: 2
   guideline: 0
 bc_forms: []
 member_hash: eaa6ed8c79aa4a9f6ef08300f6537b69d953326e78b7456545701d47f00a6f3d
@@ -197,28 +196,28 @@ narrative: generated
 
 # Best practices
 
-> Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure, monitor and prepare extensions for Marketplace validation.
+> Best practices for developing Business Central extensions: AL code style and deprecation, restrictions to avoid, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It answers how to write, test, secure and submit extensions to Marketplace.
 
 Path: [Development](../../development.md) > [Rules, guidelines, and best practices](../rules-guidelines-and-best-practices.md) > Best practices · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section collects guidance for developers building Business Central extensions. Five subtopics cover the core areas: AL code (naming, file structure, formatting, obsolete attributes, prefix and suffix rules), Restrictions (what AL code should avoid), Testing, Performance and Security.
+This section collects guidance for developers building Business Central extensions. Five subtopics cover the core areas: AL code (naming, file structure, formatting, obsolete attributes and CLEAN symbols, prefix and suffix rules), Restrictions (what AL code should avoid), Testing (a Customer Rewards sample and the Application Test Toolkit), Performance (troubleshooting and AL guidance) and Security (the layered security model and Azure Key Vaults).
 
-Three pages sit directly in the hub. One explains how to build telemetry into an application using logmessage and sendtracetag, custom events and Application Insights. Another lists requirements for connectivity apps in Business Central online. The third defines how to write user scenario documentation so Microsoft validation teams can test an extension.
+Three standalone pages cover other needs. One explains how to add custom telemetry signals for usage, errors and performance, using Application Insights or the Event Log. One lists requirements for connectivity apps in Business Central online. One sets rules for user scenario documentation that Microsoft validation teams use to test extensions.
 
-Start with AL code best practices for general conventions. Then read Testing and the user scenario documentation page if you plan to submit to Marketplace. Use Performance, Security and telemetry when you design or troubleshoot an extension in production.
+Start with AL code for conventions, then Testing and the scenario documentation page if you plan to publish to Marketplace. Use Performance, Security and telemetry when hardening an app for production.
 
 ## Key points
 
-- AL code guidance covers naming conventions, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.
+- AL code pages cover naming, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.
+- Marketplace submission has validation rules for AL code and testing steps to complete before validation.
 - Restrictions: avoid UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events, to prevent sign-in errors, login slowdowns and web service exceptions.
-- Testing uses a Customer Rewards sample extension with the Application Test Toolkit, plus required pre-submission steps before Marketplace validation.
+- Testing guidance uses a Customer Rewards sample extension tested with the Application Test Toolkit.
 - Performance troubleshooting follows three steps: measure, locate the bottleneck, eliminate it. Guidance covers pages, web services, reports, AL code, data access and testing.
-- Security covers the layered model (authentication, authorization, encryption, auditing, change logging) and Azure Key Vaults for extension secrets.
-- Telemetry is implemented with logmessage, sendtracetag, custom events and Application Insights to collect usage, error, performance and lifecycle data.
-- Connectivity apps listed in Business Central online need 85% test coverage, sales volume thresholds and regulatory compliance such as PSD2 licensing (2022 release wave 2).
-- User scenario documentation needs step-by-step guides with screenshots, prerequisite steps, demo data and rapid start packages.
+- Security covers authentication, authorization, encryption, auditing and change logging, plus Azure Key Vaults for extension secrets.
+- Telemetry can be built into apps with custom signals for usage, errors and performance, sent to Application Insights or the Event Log.
+- Connectivity apps listed in Business Central online need 85% test coverage, sales volume thresholds, onboarding framework use and regulatory compliance such as PSD2 licensing (2022 release wave 2).
 
 ## Subtopics
 
@@ -250,9 +249,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#175 9 AL/BC patterns: document distribution, price calculation & barcode extensibility](../../../../changes/bcquality/175.md) (code change): "Nine new AL/BC patterns document best practices for document distribution"
 - [#183 Add reporting review guidance and evaluation fixtures](../../../../changes/bcquality/183.md) (code change): "Included bad and good AL code samples for each rule to guide developers"
 - [#196 Strengthen review contracts and add AL reliability guidance](../../../../changes/bcquality/196.md) (code change): "Strengthen review contracts and add AL reliability guidance. Adds seven AL reliability rules"
-- [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../changes/bcquality/237.md) (code change): "keep business state independent of Job Queue lifetime"
 - [#98 Add P0 event and interface compatibility knowledge](../../../../changes/bcquality/98.md) (code change): "Guidance added for event and interface compatibility patterns, covering enum unknown value handling"
 - [Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-the-no-shortcuts-series-the-100-correct-way-to-develop-for-b--ea07ff0b07.md) (community post): "Shortcuts in development create technical debt and upgrade problems tomorrow"
-- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../../videos/reUoIdQZaNM.md) (video): "AL architecture; design principles; system design; abstraction levels"
+- [BC Friday Tips #33 Month Enum](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-month-enum--b394762bca.md) (community post): "Developers can reuse these existing enums rather than creating custom ones"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

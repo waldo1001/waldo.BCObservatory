@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:38.168Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -286,7 +286,7 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-app-file
-    title: The Microsoft_Application.app file
+    title: The Microsoft_Application.app File
     date: "2024-01-16"
     commit: null
     t: null
@@ -326,7 +326,6 @@ links:
   videos:
     - video/uxYuoJP-uH8
   posts:
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f
     - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212
   guidelines: []
   changes:
@@ -352,7 +351,7 @@ coverage:
   learn: 42
   code: 9
   video: 1
-  blog: 2
+  blog: 1
   guideline: 0
 bc_forms:
   - 4500
@@ -417,7 +416,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#8115 Subscription Billing: respect Default Dimension Priorities on Subscription Lines](../../../changes/bcapps/8115.md) (code change): "Subscription Billing now respects Default Dimension Priorities when creating subscription lines"
 - [#8634 [MCP] Register MCP server as a Copilot capability](../../../changes/bcapps/8634.md) (code change): "MCP server is now registered as a Copilot capability"
 - [#9272 Fix duplicate in-transit location in localized Contoso demo data](../../../changes/bcapps/9272.md) (code change): "Replaced the warehousing module's independent in-transit location definition"
-- [Business Central 2026 Release Wave 2 Preview Is Now Available](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-426088323488837430--eb8c04886f.md) (community post): "Developers and partners should check AL extensions, custom pages and reports, APIs"
 - [BC Friday Tips #75 Dynamics BC Excel Reports](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-75-dynamics-bc-excel-reports--cd3c716212.md) (community post): "Excel Reports objects in Business Central belong to the Dynamics BC Excel Reports extension"
 - [Let's pass MB-820: Episode 19 - Extend ApplicationArea with custom areas](../../../videos/uxYuoJP-uH8.md) (video): "Application Area extension; Enable custom area function; Application area validation"
 

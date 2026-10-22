@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -66,11 +66,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/handling-security
   localizations: []
   videos: []
-  posts:
-    - post/aardvarklabs-blog/1609
-    - post/aardvarklabs-blog/2640
-    - post/demiliani-com/11796
-    - post/freddysblog/https-freddysblog-com-2026-08-19-new-feature-in-fkh-keyvault-and-secrets-handling--fcb0e31f1b
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/8999
@@ -86,7 +82,7 @@ coverage:
   learn: 5
   code: 0
   video: 0
-  blog: 4
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: ded668fce5698d554014a03cb0248739e1b8cce7882db2d6f6f80adf71b920e1
@@ -131,9 +127,5 @@ Developers then use "Use Key Vault Secrets in Business Central Extensions" to co
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#8999 Migrate Recommended Apps & Connectivity Apps to Official Marketplace Catalog API](../../../../../changes/bcapps/8999.md) (code change): "Integrated Azure Key Vault for secure API key management"
-- [Integrating AI in Business Central: A Step-by-Step Guide](../../../../../posts/aardvarklabs-blog/1609.md) (community post): "Azure OpenAI resources and credentials must be securely stored in Isolated Storage"
-- [Securing Sensitive Data in Business Central AL using SecretText](../../../../../posts/aardvarklabs-blog/2640.md) (community post): "SecretText can be retrieved from Isolated Storage or Azure Vault"
-- [Dynamics 365 Business Central: using secrets in JsonObjects.](../../../../../posts/demiliani-com/11796.md) (community post): "WriteWithSecretsTo method in runtime 15.1 allows embedding secrets into JSON using placeholders"
-- [New feature in Fkh: A KeyVault and secrets handling](../../../../../posts/freddysblog/https-freddysblog-com-2026-08-19-new-feature-in-fkh-keyvault-and-secrets-handling--fcb0e31f1b.md) (community post): "Azure Key Vault in your subscription to securely store and manage secrets"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

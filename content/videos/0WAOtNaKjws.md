@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:50:40.392Z"
   flags: []
 generated:
-  at: "2026-10-07T22:50:40.432Z"
+  at: "2026-10-22T01:09:20.607Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -82,7 +82,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573349
   topics: []
   localizations: []
   videos: []
@@ -140,10 +141,12 @@ features:
     verified: false
     status_source: video
   - name: MCP Configuration Telemetry
-    status: unclear
+    status: ga
     t: 322
     verified: false
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573349"
   - name: MCP Resources Support
     status: unclear
     t: 443
@@ -220,9 +223,11 @@ It also covers connecting other MCP hosts, a connection string under advanced se
 | Configuration Import Export | status not stated | [2:44](https://www.youtube.com/watch?v=0WAOtNaKjws&t=164s) |  |
 | Support for Multiple MCP Hosts | preview, demoed | [3:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=202s) | "Other hosts would be in public preview and not kind of fully supported" ([3:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=202s)) |
 | Connection String Setup | status not stated, demoed | [4:29](https://www.youtube.com/watch?v=0WAOtNaKjws&t=269s) |  |
-| MCP Configuration Telemetry | status not stated | [5:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=322s) |  |
+| MCP Configuration Telemetry | generally available (roadmap [Diagnose AL MCP server activity with file logging](../features/573349.md)) | [5:22](https://www.youtube.com/watch?v=0WAOtNaKjws&t=322s) |  |
 | MCP Resources Support | status not stated, demoed | [7:23](https://www.youtube.com/watch?v=0WAOtNaKjws&t=443s) |  |
 | Embedded Resources | status not stated, demoed | [7:57](https://www.youtube.com/watch?v=0WAOtNaKjws&t=477s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

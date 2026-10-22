@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:22:09.958Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -69,10 +69,8 @@ links:
     - video/GbMjcJurkFE
     - video/mHrY_OI0qNo
     - video/ofq4OBTuPvE
-    - video/Rh1AFX9A1x4
     - video/SHOAw9GehdI
-  posts:
-    - post/bertverbeek-nl/1196
+  posts: []
   guidelines: []
 learn_toc_path:
   - Copilot and agent capabilities
@@ -83,8 +81,8 @@ children: []
 coverage:
   learn: 2
   code: 24
-  video: 5
-  blog: 1
+  video: 4
+  blog: 0
   guideline: 0
 bc_forms:
   - 16
@@ -148,11 +146,9 @@ Start with the analyze data in lists page to understand what you can ask for, th
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Data agent inside Fabric ask question on your Business Central Data](../../../posts/bertverbeek-nl/1196.md) (community post): "Data Agents in Microsoft Fabric enable users to ask"
 - [What's New: Analysis Assist with Copilot (2024 release wave 2)](../../../videos/GbMjcJurkFE.md) (video): "Analysis Assist; Copilot toolbar and menu; Field personalization through Analysis Assist"
 - [Introducing: AI-Powered Analysis with Copilot (2024 release wave 1)](../../../videos/mHrY_OI0qNo.md) (video): "AI-Powered Analysis with Copilot; analysis assist; natural language; ad hoc analytics"
 - [AI-Powered Analysis with Copilot in Dynamics 365 Business Central (2024)](../../../videos/ofq4OBTuPvE.md) (video): "AI-Powered Analysis with Copilot trends and outliers summaries"
-- [What's New: Data Analysis (2025 release wave 1)](../../../videos/Rh1AFX9A1x4.md) (video): "Copilot analysis assist"
 - [What's New: Data Analysis (2025 release wave 2)](../../../videos/SHOAw9GehdI.md) (video): "Analysis Assist Copilot"
 
 ## Business Central pages and reports

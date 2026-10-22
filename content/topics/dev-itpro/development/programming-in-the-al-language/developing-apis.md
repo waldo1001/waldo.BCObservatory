@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,8 +105,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language
   localizations: []
-  videos:
-    - video/oN0XfuCe6Qg
+  videos: []
   posts:
     - post/thinkaboutit-be/7061
   guidelines: []
@@ -125,7 +124,7 @@ children: []
 coverage:
   learn: 10
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -178,6 +177,5 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9725 [Master] - Slice 626127: [Excise Tax][VENDOR] Multiple Excise Taxes per Item](../../../../changes/bcapps/9725.md) (code change): "Item Excise Tax API page (7417)"
 - [#156 18 AL/BC patterns: style, data-modeling, web-services, appsource, breaking-changes, performance, testing](../../../../changes/bcquality/156.md) (code change): "2 web-services articles: keep consumer-provided key fields editable on insert"
 - [Quick Tip: Say Goodbye to OData on Microsoft Pages in Business Central 2027 Wave 1 (version 30.0)](../../../../posts/thinkaboutit-be/7061.md) (community post): "Developers must audit current integrations, migrate to custom extensions or query objects"
-- [What's Cooking in Business Central: External File Storage Module](../../../../videos/oN0XfuCe6Qg.md) (video): "External File Storage API Methods; Storage Browser"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

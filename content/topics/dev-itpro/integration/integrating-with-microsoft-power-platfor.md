@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -184,8 +184,7 @@ links:
     - topic/dev-itpro/integration/integrating-with-microsoft-power-platfor/integrating-with-microsoft-copilot-studi
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/14064
+  posts: []
   guidelines: []
   changes:
     - change/al-go/2346
@@ -203,7 +202,7 @@ coverage:
   learn: 21
   code: 5
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 6316
@@ -256,7 +255,6 @@ Start with the overview page, then go to the subtopic for the product you need. 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#2346 Pin all actions that are not currently pinned](../../../changes/al-go/2346.md) (code change): "Unpinned action references are pinned in Power Platform action.yaml files"
-- [How can I move my Business Central-related Azure resources to a new Azure region?](../../../posts/demiliani-com/14064.md) (community post): "Business Central needs updated connection strings and endpoints afterward"
 
 ## Business Central pages and reports
 

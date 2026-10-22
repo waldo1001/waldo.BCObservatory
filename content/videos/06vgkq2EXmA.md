@@ -25,7 +25,7 @@ review:
   at: "2026-10-07T23:07:04.646Z"
   flags: []
 generated:
-  at: "2026-10-07T23:07:04.692Z"
+  at: "2026-10-22T01:09:20.607Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -168,7 +168,8 @@ evidence:
 links:
   learn: []
   objects: []
-  features: []
+  features:
+    - feature/573362
   topics: []
   localizations: []
   videos: []
@@ -214,10 +215,12 @@ chapters:
     title: Getting Started with AI Development in Business Central
 features:
   - name: Copilot Chat
-    status: preview
+    status: ga
     t: 10
     verified: true
-    status_source: video
+    status_source: roadmap
+    roadmap_ids:
+      - "573362"
   - name: Marketing Text Suggestions
     status: ga
     t: 50
@@ -388,7 +391,7 @@ The speakers explain how the conversation is condensed into a single intent mess
 
 | Feature | Status | At | Evidence |
 |---|---|---|---|
-| Copilot Chat | preview | [0:10](https://www.youtube.com/watch?v=06vgkq2EXmA&t=10s) | "it's currently in a public preview um and um it's only available in US environments for now" ([2:51](https://www.youtube.com/watch?v=06vgkq2EXmA&t=171s)) |
+| Copilot Chat | generally available (roadmap [Enable Microsoft Copilot chat experience](../features/573362.md)) | [0:10](https://www.youtube.com/watch?v=06vgkq2EXmA&t=10s) | "it's currently in a public preview um and um it's only available in US environments for now" ([2:51](https://www.youtube.com/watch?v=06vgkq2EXmA&t=171s)) |
 | Marketing Text Suggestions | generally available | [0:50](https://www.youtube.com/watch?v=06vgkq2EXmA&t=50s) | "we came up with the idea for the marketing text suggestions at the start uh and obviously we then released that as a feature" ([0:50](https://www.youtube.com/watch?v=06vgkq2EXmA&t=50s)) |
 | Intent Condensation | status not stated | [5:11](https://www.youtube.com/watch?v=06vgkq2EXmA&t=311s) |  |
 | Find and Go Capability | status not stated | [6:11](https://www.youtube.com/watch?v=06vgkq2EXmA&t=371s) |  |
@@ -403,6 +406,8 @@ The speakers explain how the conversation is condensed into a single intent mess
 | LLM-Assisted Prompt Improvement | status not stated | [21:10](https://www.youtube.com/watch?v=06vgkq2EXmA&t=1270s) |  |
 | Copilot Developer Tools | status not stated | [23:52](https://www.youtube.com/watch?v=06vgkq2EXmA&t=1432s) |  |
 | Prompt Storage in Key Vault | status not stated | [24:53](https://www.youtube.com/watch?v=06vgkq2EXmA&t=1493s) |  |
+
+A status with a roadmap link comes from the Microsoft 365 roadmap feature this part of the video covers (matched by Haiku; links Opus dropped are not used); other statuses need a status word in the video itself.
 
 ## AL objects mentioned
 

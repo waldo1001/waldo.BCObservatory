@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/rules-guidelines-and-best-practices/best-practices",
-  "input_hash": "4d4a0f4d6c22dd0883e53e8a1da8ee89dcd1c5c7d6fe95becad8335dff03b000",
-  "summary": "Best practices for developing Business Central extensions: AL code conventions, restrictions, testing, performance, security, telemetry, connectivity app requirements and user scenario documentation. It answers how to write, test, secure, monitor and prepare extensions for Marketplace validation.",
-  "overview": "This section collects guidance for developers building Business Central extensions. Five subtopics cover the core areas: AL code (naming, file structure, formatting, obsolete attributes, prefix and suffix rules), Restrictions (what AL code should avoid), Testing, Performance and Security.\n\nThree pages sit directly in the hub. One explains how to build telemetry into an application using logmessage and sendtracetag, custom events and Application Insights. Another lists requirements for connectivity apps in Business Central online. The third defines how to write user scenario documentation so Microsoft validation teams can test an extension.\n\nStart with AL code best practices for general conventions. Then read Testing and the user scenario documentation page if you plan to submit to Marketplace. Use Performance, Security and telemetry when you design or troubleshoot an extension in production.",
+  "input_hash": "433b81cfba098a94ac539db0a85a20f3f9c23b92227e68abd9569121c6a66d5c",
+  "summary": "Best practices for developing Business Central extensions: AL code style and deprecation, restrictions to avoid, testing, performance, security, telemetry, connectivity app requirements, and user scenario documentation. It answers how to write, test, secure and submit extensions to Marketplace.",
+  "overview": "This section collects guidance for developers building Business Central extensions. Five subtopics cover the core areas: AL code (naming, file structure, formatting, obsolete attributes and CLEAN symbols, prefix and suffix rules), Restrictions (what AL code should avoid), Testing (a Customer Rewards sample and the Application Test Toolkit), Performance (troubleshooting and AL guidance) and Security (the layered security model and Azure Key Vaults).\n\nThree standalone pages cover other needs. One explains how to add custom telemetry signals for usage, errors and performance, using Application Insights or the Event Log. One lists requirements for connectivity apps in Business Central online. One sets rules for user scenario documentation that Microsoft validation teams use to test extensions.\n\nStart with AL code for conventions, then Testing and the scenario documentation page if you plan to publish to Marketplace. Use Performance, Security and telemetry when hardening an app for production.",
   "key_points": [
-    "AL code guidance covers naming conventions, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.",
+    "AL code pages cover naming, file structure, formatting, prefix and suffix rules, and deprecation with obsolete attributes and CLEAN symbols.",
+    "Marketplace submission has validation rules for AL code and testing steps to complete before validation.",
     "Restrictions: avoid UI in web service objects, the obsolete OnCompanyOpen event, and the deprecated OnBeforeCompanyOpen and OnAfterCompanyOpen events, to prevent sign-in errors, login slowdowns and web service exceptions.",
-    "Testing uses a Customer Rewards sample extension with the Application Test Toolkit, plus required pre-submission steps before Marketplace validation.",
+    "Testing guidance uses a Customer Rewards sample extension tested with the Application Test Toolkit.",
     "Performance troubleshooting follows three steps: measure, locate the bottleneck, eliminate it. Guidance covers pages, web services, reports, AL code, data access and testing.",
-    "Security covers the layered model (authentication, authorization, encryption, auditing, change logging) and Azure Key Vaults for extension secrets.",
-    "Telemetry is implemented with logmessage, sendtracetag, custom events and Application Insights to collect usage, error, performance and lifecycle data.",
-    "Connectivity apps listed in Business Central online need 85% test coverage, sales volume thresholds and regulatory compliance such as PSD2 licensing (2022 release wave 2).",
-    "User scenario documentation needs step-by-step guides with screenshots, prerequisite steps, demo data and rapid start packages."
+    "Security covers authentication, authorization, encryption, auditing and change logging, plus Azure Key Vaults for extension secrets.",
+    "Telemetry can be built into apps with custom signals for usage, errors and performance, sent to Application Insights or the Event Log.",
+    "Connectivity apps listed in Business Central online need 85% test coverage, sales volume thresholds, onboarding framework use and regulatory compliance such as PSD2 licensing (2022 release wave 2)."
   ],
   "members_used": 3,
   "subtopics_used": 5,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:14.022Z",
+  "at": "2026-10-22T01:11:59.042Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.015303
+    "cost_usd": 0.015871
   }
 }

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -84,10 +84,7 @@ links:
     - video/JI5KlMxrtoA
     - video/tMqCSibSRug
   posts:
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696
-    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504
     - post/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f
-    - post/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc
     - post/vondervoort-be/130
     - post/vondervoort-be/147
   guidelines: []
@@ -132,7 +129,7 @@ coverage:
   learn: 7
   code: 0
   video: 2
-  blog: 6
+  blog: 3
   guideline: 0
 bc_forms: []
 member_hash: 3ee08ce36ed002f91ed98ef858f5a1924674bfb16cf4f0159250341b35e40911
@@ -188,10 +185,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#180 Normalize recoverable leaf finding ranges](../../../../changes/bcquality/180.md) (code change): "Normalize recoverable leaf finding ranges. Review findings whose primary line"
 - [#204 Validate composed reviews against the expected leaf worklist](../../../../changes/bcquality/204.md) (code change): "Validate composed reviews against the expected leaf worklist. The findings-report validator"
 - [#54 Emit human-readable domain label on review findings](../../../../changes/bcquality/54.md) (code change): "BCQuality review leaves now set an optional human-readable domain label on every finding"
-- [How to Migrate Business Central Table Fields from Integer to BigInteger.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3697577773817687094--e070102696.md) (community post): "The compiler warns when a BigInteger field is narrowed to Integer"
-- [Business Central 29: How Many Fields Can a Table Really Have?](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6265805346314332006--6288317504.md) (community post): "The new BC 29 compiler warning signals when tables approach SQL extensibility limits"
 - [Introducing ALCops — LinterCop's Next Chapter](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-introducing-alcops--dd54d0b34f.md) (community post): "ALCops is a complete replacement for LinterCop that splits code analysis into six domain-specific analyzers"
-- [Weekly Recap: August 7-14](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-weekly-recap-2026-08-14--fcd92522cc.md) (community post): "bc-code-atlas enhancements for cross-app call graphs with deterministic global IDs"
 - [ALCops: The Next Chapter of LinterCop](../../../../posts/vondervoort-be/130.md) (community post): "code analyzer collection for AL that succeeds LinterCop"
 - [ALCops: The Story So Far](../../../../posts/vondervoort-be/147.md) (community post): "ALCops is a community-driven collection of code analyzers for AL"
 - [How Good Can AL Code Get? — A Live ISO 5055 Review](../../../../videos/JI5KlMxrtoA.md) (video): "Code quality; static analysis; al cops; Default Analyzers Configuration"

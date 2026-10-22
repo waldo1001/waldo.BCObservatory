@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:54.665Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -234,7 +234,8 @@ links:
   topics:
     - topic/business-central/business-functionality/fixed-assets/fixed-assets-analytics
   localizations: []
-  videos: []
+  videos:
+    - video/jricCM_04H4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -248,7 +249,7 @@ children: []
 coverage:
   learn: 23
   code: 25
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -331,6 +332,12 @@ Insurance reports show policies, coverage, over- or under-insured status and uni
 - [Maintenance - Analysis (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5630): Review your maintenance expenses for fixed assets for different time periods broken down by maintenance types or other categories, such as fixed asset class.
 - [Maintenance - Details (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5634): Get detailed information about the maintenance ledger entries for your fixed assets.
 - [Maintenance - Next Service (report)](https://learn.microsoft.com/dynamics365/business-central/reports/report-5635): Get an overview of when service and repairs are planned for your fixed assets.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Excel Reporting (2025 release wave 1)](../../../../../videos/jricCM_04H4.md) (video): "Fixed Assets Excel Reports (Generally Available)"
 
 ## Business Central pages and reports
 

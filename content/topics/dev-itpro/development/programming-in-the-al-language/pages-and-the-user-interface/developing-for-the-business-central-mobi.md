@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:21:48.019Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -90,6 +90,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
   localizations: []
   videos:
+    - video/KYsrBoHVA70
     - video/W2yhU8eXT5w
   posts: []
   guidelines: []
@@ -104,7 +105,7 @@ children: []
 coverage:
   learn: 8
   code: 0
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms: []
@@ -151,6 +152,7 @@ For testing, you can open the tablet or phone client directly in a browser with 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [What's New: Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities (2023)](../../../../../videos/KYsrBoHVA70.md) (video): "Business Central Mobile Apps Featuring Brand New Barcode Scanning Capabilities"
 - [What's new: Business Central Mobile App and Barcode Scanning (2024 release wave 1)](../../../../../videos/W2yhU8eXT5w.md) (video): "Worksheet pages on mobile phones; Native barcode scanning on SaaS; Camera barcode scanning"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

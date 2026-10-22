@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:40:39.296Z"
+  at: "2026-10-22T01:03:16.851Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 4031d2e272f5de5483b0a07bc6326b012e265441af9ec73fa842b482037beece
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al
+    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al
     title: src/System Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al (releases/29.x)
     date: null
-    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
+    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
     t: null
     quote: null
 links:
@@ -82,7 +82,7 @@ relations:
 
 > Interface "Telemetry Logger" in System Application (System.Telemetry). 1 public procedures. Present since at least BC23, still in BC30.
 
-System Application · System.Telemetry · BC23-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/System%20Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al) · facts from BC29
+System Application · System.Telemetry · BC23-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/System%20Application/App/Telemetry/src/Logging/TelemetryLogger.Interface.al) · facts from BC29
 
 ## Procedures
 

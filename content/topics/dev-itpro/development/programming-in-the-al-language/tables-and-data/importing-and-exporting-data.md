@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:23:22.537Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -76,11 +76,11 @@ links:
   videos: []
   posts:
     - post/aardvarklabs-blog/2204
-    - post/aardvarklabs-blog/2333
     - post/aardvarklabs-blog/2603
     - post/aardvarklabs-blog/2838
     - post/aardvarklabs-blog/2866
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3
   guidelines: []
   changes:
     - change/bcapps/10331
@@ -150,10 +150,10 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12309 Fix infinite recursion in Config. Package Field XML name generation](../../../../../changes/bcapps/12309.md) (code change): "Prevents stack overflow when adding tables to Configuration Packages"
 - [#9073 Data Exchange Definition export performance improvement](../../../../../changes/bcapps/9073.md) (code change): "Data Exchange Definition exports now use in-memory mapping with bulk saves"
 - [Best Practices for Handling Delimited Data Imports into Business Central](../../../../../posts/aardvarklabs-blog/2204.md) (community post): "CSV is an unstructured flat file format where data is separated by delimiters"
-- [Essential Guides to Data Imports in Business Central](../../../../../posts/aardvarklabs-blog/2333.md) (community post): "Data import and export are central to onboarding, cross-system sync"
 - [Guide to Handling Header and Detail Imports into Business Central with AL](../../../../../posts/aardvarklabs-blog/2603.md) (community post): "parse and import delimited files containing header and detail records"
 - [Importing Multi-Tab Excel Files into Business Central](../../../../../posts/aardvarklabs-blog/2838.md) (community post): "explains how to import multi-tab Excel files into Business Central with a header/line relationship structure"
 - [Importing XML into Business Central with AL](../../../../../posts/aardvarklabs-blog/2866.md) (community post): "demonstrates how to parse cXML (commerce eXtensible Markup Language) files in Business Central using AL code"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "how to export data from Business Central to CSV format"
+- [BC Friday Tips #82 Excel Buffer Character Limit](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-82-excel-buffer-character-limit--e27af9f4a3.md) (community post): "Excel Buffer in Business Central has a 250-character limit on field values."
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

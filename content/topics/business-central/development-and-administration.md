@@ -7,12 +7,12 @@ tier: official
 language: en
 system: administration
 review:
-  state: unreviewed
-  by: null
-  at: null
+  state: reviewed
+  by: opus
+  at: "2026-10-22T01:12:33.100Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -479,9 +479,9 @@ links:
     - topic/business-central/development-and-administration/synchronize-master-data-across-companies
     - topic/business-central/development-and-administration/migrate-to-business-central-online
   localizations: []
-  videos: []
-  posts:
-    - post/jpearson-blog/1563
+  videos:
+    - video/bvGdaxC3sq8
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/9281
@@ -498,8 +498,8 @@ children:
 coverage:
   learn: 77
   code: 165
-  video: 0
-  blog: 1
+  video: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 1
@@ -736,7 +736,7 @@ narrative: generated
 
 > Development and administration in Business Central covers online tenant administration, environment tasks, Copilot and agent settings, AL extension development, customization, performance, deprecated features, master data sync across companies, and migration to online. It answers how-to questions for administrators, developers, and partners.
 
-Path: Development and administration · tier official · system administration · narrative **unreviewed** (model text not yet checked)
+Path: Development and administration · tier official · system administration · narrative reviewed (checked by Opus)
 
 ## Overview
 
@@ -752,7 +752,7 @@ Subtopics cover synchronizing master data across companies with Master Data Mana
 - The Copilot & agent capabilities page controls feature activation, user access through permissions, data movement across geographies, Bing Search, feedback settings and agent model selection (versions 28 and 29).
 - AL extension development uses Visual Studio Code and covers table extensions, page extensions, code snippets, compiler validation and a drag-and-drop designer.
 - Performance guidance covers the Performance toolkit extension, page caching and performance monitoring for consultants, developers and administrators.
-- The deprecated features page lists removals from 2020 release wave 1 to 2025 release wave 2, such as API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages.
+- The deprecated features page covers the W1 version across release waves from 2020 to 2027, including removal of API v1.0, the Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages, deprecation of Excel reports, and moved subcontracting objects.
 - Administration tasks (34 pages) include access and licensing, user settings and profiles, company creation, job queues, web services, API templates, indexes, printers and languages.
 - Master Data Management pulls customers, vendors and items from a source company into subsidiaries, with coupling, filtering and job queue management.
 - Migration to online supports Business Central, Dynamics GP, SL and NAV data, including choosing between full migration and reimplementation.
@@ -779,7 +779,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#9281 Add read isolation support to Isolated Storage Management](../../changes/bcapps/9281.md) (code change): "Isolated Storage Management codeunit now provides Get method overloads"
 - [#9291 Add [NonDebuggable] to Cryptography Management encrypt/decrypt procedures](../../changes/bcapps/9291.md) (code change): "Cryptography Management system application now marks all encryption and decryption procedures"
-- [Using Azure DevOps Wiki as a WYSIWYG Editor for Your Static Site](../../posts/jpearson-blog/1563.md) (community post): "documentation; azure devops; static site; git workflow; wysiwyg editor"
+- [Introducing: Contoso Demo Tool (2023 release wave 2)](../../videos/bvGdaxC3sq8.md) (video): "demo data; contoso; demo modules; rapid start package"
 
 ## Business Central pages and reports
 

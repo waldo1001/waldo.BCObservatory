@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:16.469Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -359,8 +359,13 @@ links:
     - topic/business-central/copilot-and-agent-capabilities/summarize-preview
   localizations: []
   videos:
+    - video/0h8QBNmeORQ
+    - video/58yOwN3GY2Q
     - video/H5EuObmeF4o
+    - video/K0i5rvqPC_o
+    - video/xJ8gYzvWnTI
   posts:
+    - post/aardvarklabs-blog/3315
     - post/demiliani-com/11739
   guidelines: []
   changes:
@@ -388,8 +393,8 @@ children:
 coverage:
   learn: 54
   code: 35
-  video: 1
-  blog: 1
+  video: 5
+  blog: 2
   guideline: 0
 bc_forms:
   - 16
@@ -486,8 +491,13 @@ The subtopics each cover one feature or agent, with usage and FAQ or responsible
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#9359 Sales Order Agent: ignore attachments larger than 25 MB during email retrieval](../../changes/bcapps/9359.md) (code change): "Sales Order Agent now ignores email attachments larger than 25 MB during retrieval"
+- [Effective Steps for Troubleshooting Business Central Agents](../../posts/aardvarklabs-blog/3315.md) (community post): "This post explains how to troubleshoot Business Central agents by examining task logs"
 - [Dynamics 365 Business Central agent capabilities: how much does they cost me?](../../posts/demiliani-com/11739.md) (community post): "Copilot Studio message-based pricing pay-as-you-go at $0.01 per message"
+- [Microsoft Sizzle: Business Central Agents In Action](../../videos/0h8QBNmeORQ.md) (video): "Microsoft Sizzle: Business Central Agents In Action"
+- [Microsoft Copilot in Business Central](../../videos/58yOwN3GY2Q.md) (video): "Microsoft Copilot in Business Central. Topics: copilot"
 - [Everything Coming to Business Central 2025 Wave 2 (You Need to Know This)](../../videos/H5EuObmeF4o.md) (video): "Everything Coming to Business Central 2025 Wave 2"
+- [What's New: Troubleshooting Business Central Agents](../../videos/K0i5rvqPC_o.md) (video): "Agent task logging and view log entries"
+- [What's New: Business Central User Experience and Productivity (2026 release wave 1)](../../videos/xJ8gYzvWnTI.md) (video): "Dedicated agent task pane"
 
 ## Business Central pages and reports
 

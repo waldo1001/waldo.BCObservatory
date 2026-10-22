@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -311,9 +311,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/administration/analyzing-database-performance
   localizations: []
   videos: []
-  posts:
-    - post/demiliani-com/17480
-    - post/gerardorenteria-blog/13744
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -331,7 +329,7 @@ coverage:
   learn: 38
   code: 3
   video: 0
-  blog: 2
+  blog: 0
   guideline: 0
 bc_forms:
   - 8700
@@ -385,13 +383,6 @@ Start with the Administration Shell or Administration Center to learn how instan
 - [Set up the add-ins for Outlook in Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/Setting-up-Office-Add-Ins-Outlook-Inbox): Learn how to configure your Business Central on-premises solution so that users can work with Business Central data in Outlook.
 - [Setting up App Key Vaults for Business Central on-premises](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/setup-app-key-vault-onprem): Describes how to set up App Key Vault with Business Central on-premises.
 - [Setting up the Excel Add-In for Editing Data](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin): Learn about how to configure the Excel add-in so users can edit data in Excel and push back to Business Central.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): "BC 29 supports .NET 10 natively, while BC 27 and 28 are getting cumulative updates"
-- [Cumulative Updates for Business Central – versions](../../../posts/gerardorenteria-blog/13744.md) (community post): "Updates include hotfixes for all countries and localized versions"
 
 ## Business Central pages and reports
 

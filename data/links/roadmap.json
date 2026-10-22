@@ -31316,48 +31316,111 @@
     "video/-SGaVGOkiF0": {
       "kind": "video",
       "key": "video/-SGaVGOkiF0",
-      "hash": "fde5d049a7aa415757b2180dd59d7ca8f199ec30624e095e04d8316be2a7f6d4",
+      "hash": "a2e517c88f6451df57aedd5fc510dbb7c7b72eb0829611bfd8f5b08db1fe61a4",
       "video_id": "-SGaVGOkiF0",
       "title": "Introducing Payment Times Analysis in Business Central (2023 release wave 2)",
-      "at": "2026-10-20T08:46:34.003Z",
+      "at": "2026-10-22T01:08:32.060Z",
       "matches": [
         {
           "feature": 0,
           "name": "Payment Times Analysis",
           "t": 47,
           "roadmap_id": "576802",
-          "quote": "analyzes payment behavior against vendors and customers"
+          "quote": "analyzes payment behavior against vendors and customers, tracking whether payments occur"
+        },
+        {
+          "feature": 0,
+          "name": "Payment Times Analysis",
+          "t": 47,
+          "roadmap_id": "576839",
+          "quote": "analyzes payment behavior against vendors and customers, tracking whether payments occur"
         },
         {
           "feature": 1,
           "name": "Aggregation by Company Size",
           "t": 153,
           "roadmap_id": "576802",
-          "quote": "Aggregation by Company Size analysis option"
+          "quote": "Analysis option that groups payment data by company size categories"
         },
         {
           "feature": 2,
           "name": "Aggregation by Period",
           "t": 343,
           "roadmap_id": "576802",
-          "quote": "Aggregation by Period analysis option that groups payment data"
+          "quote": "Analysis option that groups payment data by custom periods defined"
+        },
+        {
+          "feature": 2,
+          "name": "Aggregation by Period",
+          "t": 343,
+          "roadmap_id": "576839",
+          "quote": "Analysis option that groups payment data by custom periods defined"
         },
         {
           "feature": 3,
           "name": "Payment Analysis Statistics",
           "t": 174,
           "roadmap_id": "576802",
-          "quote": "average agreed payment period, average actual payment period"
+          "quote": "average agreed payment period, average actual payment period, percentage paid"
+        },
+        {
+          "feature": 3,
+          "name": "Payment Analysis Statistics",
+          "t": 174,
+          "roadmap_id": "576839",
+          "quote": "average agreed payment period, average actual payment period, percentage paid"
+        },
+        {
+          "feature": 4,
+          "name": "Payment Analysis Drill-Down",
+          "t": 268,
+          "roadmap_id": "576802",
+          "quote": "Ability to drill down into payment analysis details to see specific"
+        },
+        {
+          "feature": 4,
+          "name": "Payment Analysis Drill-Down",
+          "t": 268,
+          "roadmap_id": "576839",
+          "quote": "Ability to drill down into payment analysis details to see specific"
+        },
+        {
+          "feature": 5,
+          "name": "Historical Payment Data Storage",
+          "t": 288,
+          "roadmap_id": "576802",
+          "quote": "Payment analysis data is stored for historical purposes"
+        },
+        {
+          "feature": 5,
+          "name": "Historical Payment Data Storage",
+          "t": 288,
+          "roadmap_id": "576839",
+          "quote": "Payment analysis data is stored for historical purposes"
+        },
+        {
+          "feature": 6,
+          "name": "Payment Analysis Print Reports",
+          "t": 308,
+          "roadmap_id": "576802",
+          "quote": "Ability to print payment analysis reports with appropriate layout"
+        },
+        {
+          "feature": 6,
+          "name": "Payment Analysis Print Reports",
+          "t": 308,
+          "roadmap_id": "576839",
+          "quote": "Ability to print payment analysis reports with appropriate layout"
         }
       ]
     },
     "video/-uAvdZAWWwI": {
       "kind": "video",
       "key": "video/-uAvdZAWWwI",
-      "hash": "94c20c93d3590b9ad07f822b491fc7f2a5262601737025dcc7d4cf09b5987eff",
+      "hash": "2612481bc6bf84045667f34471643bd1938639f719b88bd4850d298a00920f9a",
       "video_id": "-uAvdZAWWwI",
       "title": "Transfer Environments",
-      "at": "2026-10-21T00:45:49.936Z",
+      "at": "2026-10-22T01:08:29.040Z",
       "matches": []
     },
     "video/-vCiEloR61U": {
@@ -31408,10 +31471,10 @@
     "video/-vdhfNMNZQk": {
       "kind": "video",
       "key": "video/-vdhfNMNZQk",
-      "hash": "361e96bce5ccfd4ec52fdca8bcba92bed80d8a5468120ae26eee58e40c961278",
+      "hash": "427bb8def36971bc288eba3a0b3d9a454b5648f64fa4456daa9240de211f193d",
       "video_id": "-vdhfNMNZQk",
       "title": "Introducing: Composite Document Layouts (2026 release wave 2)",
-      "at": "2026-10-21T00:45:51.223Z",
+      "at": "2026-10-22T01:08:28.960Z",
       "matches": [
         {
           "feature": 0,
@@ -31425,21 +31488,35 @@
           "name": "Composite layouts for documents",
           "t": 6,
           "roadmap_id": "573327",
-          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding"
+          "quote": "Composite layouts for documents. Split report layouts into reusable components - body layout for structure, themes for branding colors and fonts"
+        },
+        {
+          "feature": 1,
+          "name": "Body layout",
+          "t": 61,
+          "roadmap_id": "573326",
+          "quote": "Body layout. Structural report layout without styling - defines the raw structure and data presentation"
+        },
+        {
+          "feature": 1,
+          "name": "Body layout",
+          "t": 61,
+          "roadmap_id": "573327",
+          "quote": "Body layout. Structural report layout without styling - defines the raw structure and data presentation"
         },
         {
           "feature": 2,
           "name": "Theme application",
           "t": 87,
           "roadmap_id": "573327",
-          "quote": "Apply themes to body layouts at runtime to add colors, fonts, and visual styling"
+          "quote": "Apply themes to body layouts at runtime to add colors, fonts, and visual styling."
         },
         {
           "feature": 3,
           "name": "Header-footer layout application",
           "t": 87,
           "roadmap_id": "573326",
-          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report"
+          "quote": "Apply header-footer layouts to body layouts at runtime. Can be set at global, company, report, or specific layout level."
         },
         {
           "feature": 4,
@@ -31459,79 +31536,72 @@
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
-          "roadmap_id": "573328",
-          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
+          "roadmap_id": "573326",
+          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header and footer layouts page"
         },
         {
           "feature": 5,
           "name": "Custom theme and header-footer layouts",
           "t": 297,
-          "roadmap_id": "573330",
-          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
-        },
-        {
-          "feature": 5,
-          "name": "Custom theme and header-footer layouts",
-          "t": 297,
-          "roadmap_id": "573331",
-          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header"
+          "roadmap_id": "573327",
+          "quote": "Create custom themes and header-footer layouts through the UI on the managed theme and header and footer layouts page"
         },
         {
           "feature": 9,
           "name": "Layout status control",
           "t": 647,
           "roadmap_id": "573320",
-          "quote": "Set layout status to retired or draft to hide layouts from users"
+          "quote": "Set layout status to retired or draft to hide layouts from users."
         }
       ]
     },
     "video/01GoAUnpBnw": {
       "kind": "video",
       "key": "video/01GoAUnpBnw",
-      "hash": "28da02aaf114da0ec99df23ecb1a9ebe1e920d06e229229588c5fb1e46391e8a",
+      "hash": "60d27d9ef1a9fe619dc8b7a364f002850cafcfc6df634cce74c75ba3d0a0beff",
       "video_id": "01GoAUnpBnw",
       "title": "What's New: Migrate Record Links and Notes (2025 release wave 2)",
-      "at": "2026-10-21T00:45:48.598Z",
+      "at": "2026-10-22T01:08:27.408Z",
       "matches": []
     },
     "video/06vgkq2EXmA": {
       "kind": "video",
       "key": "video/06vgkq2EXmA",
-      "hash": "a07d478ca5f2f04664f966fed8a123b7b4e053a5b7ed683ef6568a23865209ce",
+      "hash": "228b032c310e8cedc348ef7f8eee208b3dcc45971c5a92b6c52028f5894dea13",
       "video_id": "06vgkq2EXmA",
       "title": "Business Central Under the Hood episode 4: How we built Copilot Chat in Business Central",
-      "at": "2026-10-20T08:46:34.003Z",
+      "at": "2026-10-22T01:08:29.090Z",
       "matches": [
         {
           "feature": 0,
           "name": "Copilot Chat",
           "t": 10,
           "roadmap_id": "573362",
-          "quote": "Copilot Chat. An open chat interface in Business Central that allows users to look up documentation"
+          "quote": "An open chat interface in Business Central that allows users to look up documentation"
         }
       ]
     },
     "video/07G7aC14Y_w": {
       "kind": "video",
       "key": "video/07G7aC14Y_w",
-      "hash": "9d9bc040441d135b04c8a21a0f53540fd624b21594804b5ef56ed22ca98b00e4",
+      "hash": "25400612de857d0f0ba5d668a1c64352f99b50a110b5de9f30731470f8f1b917",
       "video_id": "07G7aC14Y_w",
       "title": "What's new in E-Documents: Overview (2026 release wave 2)",
-      "at": "2026-10-21T00:45:57.514Z",
+      "at": "2026-10-22T01:08:28.600Z",
       "matches": [
         {
           "feature": 0,
           "name": "EDI functionality in Business Central",
           "t": 6,
           "roadmap_id": "573305",
-          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI standards"
+          "quote": "exchange order information, order confirmations, and related documents between buyer and seller companies electronically using EDI"
         },
         {
           "feature": 1,
           "name": "Purchase order EDI document type",
           "t": 59,
           "roadmap_id": "573305",
-          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents"
+          "quote": "Support for sending purchase orders from buyer to seller company automatically as e-documents in XML format"
         },
         {
           "feature": 2,
@@ -31545,7 +31615,7 @@
           "name": "Order response messaging",
           "t": 91,
           "roadmap_id": "573305",
-          "quote": "Seller can send back an order response accepted or rejected to the buyer"
+          "quote": "Seller can send back an order response (accepted or rejected) to the buyer"
         },
         {
           "feature": 4,
@@ -31559,7 +31629,7 @@
           "name": "Bidirectional EDI document direction control",
           "t": 158,
           "roadmap_id": "573305",
-          "quote": "Ability to configure document directions as inbound only, outbound only, or both"
+          "quote": "Ability to configure document directions as inbound only, outbound only, or both inbound and outbound"
         },
         {
           "feature": 6,
@@ -31573,21 +31643,21 @@
           "name": "Item reference support for EDI matching",
           "t": 201,
           "roadmap_id": "573305",
-          "quote": "Support for item reference or JIN codes on items to ensure correct item matching"
+          "quote": "Support for item reference or JIN codes on items to ensure correct item matching between buyer and seller"
         },
         {
           "feature": 8,
           "name": "EDI message logging and tracking",
           "t": 231,
           "roadmap_id": "573305",
-          "quote": "Log functionality for each EDI exchange showing which files were created"
+          "quote": "Log functionality for each EDI exchange showing which files were created and how the exchange progressed"
         },
         {
           "feature": 9,
           "name": "PPPLE format for EDI",
           "t": 143,
           "roadmap_id": "573305",
-          "quote": "Use of PPPLE format as the underlying technology for EDI exchanges"
+          "quote": "Use of PPPLE (people) format as the underlying technology for EDI exchanges"
         },
         {
           "feature": 12,
@@ -31615,10 +31685,10 @@
     "video/0h8QBNmeORQ": {
       "kind": "video",
       "key": "video/0h8QBNmeORQ",
-      "hash": "7999337359381738a7c679aa29d3bcfe7082ec4567e42d918228076c92446c30",
+      "hash": "1a6ca71b433b31866b69d8c2a45ee766524fbd928dde3efa77224cc552489a20",
       "video_id": "0h8QBNmeORQ",
       "title": "Microsoft Sizzle: Business Central Agents In Action",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-22T01:08:36.973Z",
       "matches": []
     },
     "video/0qt0Zy9ZsRo": {
@@ -31669,17 +31739,17 @@
     "video/0WAOtNaKjws": {
       "kind": "video",
       "key": "video/0WAOtNaKjws",
-      "hash": "883efe077c7f895543b98d53b68242f78c3d3f3b4cee8ca92cd4dc3ed86a3e49",
+      "hash": "67b5dc3e3d4caebe73625a870b238384bfef80d532bac6429dea7fb06bc390a8",
       "video_id": "0WAOtNaKjws",
       "title": "What's New: Enhanced MCP Server (2026 release wave 1)",
-      "at": "2026-10-21T00:45:55.837Z",
+      "at": "2026-10-22T01:08:33.940Z",
       "matches": [
         {
           "feature": 5,
           "name": "MCP Resources Support",
           "t": 443,
           "roadmap_id": "573312",
-          "quote": "Business Central MCP server now supports the MCP resources protocol"
+          "quote": "Business Central MCP server now supports the MCP resources protocol feature"
         },
         {
           "feature": 6,
@@ -31687,6 +31757,13 @@
           "t": 477,
           "roadmap_id": "573312",
           "quote": "MCP server returns large data sets as embedded file references"
+        },
+        {
+          "feature": 4,
+          "name": "MCP Configuration Telemetry",
+          "t": 322,
+          "roadmap_id": "573349",
+          "quote": "All MCP configuration changes are logged to Microsoft audit logs as auditable events"
         }
       ]
     },
@@ -31702,35 +31779,35 @@
     "video/1ft4o9lQzsU": {
       "kind": "video",
       "key": "video/1ft4o9lQzsU",
-      "hash": "0a87cd2897c26cd5a7b4234b73442a918f6b5f25e06b7047266d3cb57b4ae1b2",
+      "hash": "340e76ddd96872312fe7226d5fd4892e8a904fc17f6bb5a9dc2239a539e2ce45",
       "video_id": "1ft4o9lQzsU",
       "title": "20260126 - Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-      "at": "2026-10-21T00:45:57.881Z",
+      "at": "2026-10-22T01:08:35.104Z",
       "matches": []
     },
     "video/1ht5nxubZ9c": {
       "kind": "video",
       "key": "video/1ht5nxubZ9c",
-      "hash": "fd71da608b19b945b0b7b3ef84943e5f7d614e481ecb3f5a47222912d7313bd4",
+      "hash": "5967dab2ce3c2870dbb42dc5509237306b121886cb40ec0bace2b405836f1be4",
       "video_id": "1ht5nxubZ9c",
       "title": "Sales Order Agent - Working with a Personal or Shared Folder (2026)",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-22T01:08:37.962Z",
       "matches": []
     },
     "video/1IIlArcHpOY": {
       "kind": "video",
       "key": "video/1IIlArcHpOY",
-      "hash": "1f416b3b86a6927034fbc66d651a655d65005e1788b5fbf9e6cf02cae9bf6d49",
+      "hash": "f755be31cddbe30dea0c688278c86276d9e54cf34f7d1d70f4de31165b4d6b2b",
       "video_id": "1IIlArcHpOY",
       "title": "What's New: Working with Instructions for Agents in Business Central",
-      "at": "2026-10-20T08:46:34.007Z",
+      "at": "2026-10-22T01:08:36.787Z",
       "matches": [
         {
           "feature": 3,
           "name": "Agent Review Experience",
           "t": 650,
           "roadmap_id": "573366",
-          "quote": "Agent Review Experience. A user interface experience where users can review agent-filled fields with explanations"
+          "quote": "review agent-filled fields with explanations for why the agent took specific actions"
         }
       ]
     },
@@ -31746,35 +31823,35 @@
     "video/1QuV_vkbNVU": {
       "kind": "video",
       "key": "video/1QuV_vkbNVU",
-      "hash": "066598845fb949d41bb231ca5a48cc57d53b045962d7e4e7c90153f328f18a11",
+      "hash": "d8ef463fd6f8a3d0bdd7ee4e5729e891c961530652dbe2390aab88f70be0a85d",
       "video_id": "1QuV_vkbNVU",
       "title": "Introducing Spreadsheets for Business Central",
-      "at": "2026-10-21T00:45:57.910Z",
+      "at": "2026-10-22T01:08:35.658Z",
       "matches": []
     },
     "video/1ugAYeEZLaU": {
       "kind": "video",
       "key": "video/1ugAYeEZLaU",
-      "hash": "72d5c30d03e63829d8c34812fd34cebe6b94f22d707e55b6635203e3214c2954",
+      "hash": "d74ab9c65119461d9d62422b24b209146d37d4f1fd12eda633e457abd578c95c",
       "video_id": "1ugAYeEZLaU",
       "title": "Working with Amount Fields",
-      "at": "2026-10-18T00:52:23.005Z",
+      "at": "2026-10-22T01:08:41.215Z",
       "matches": []
     },
     "video/1x3QyBX3swg": {
       "kind": "video",
       "key": "video/1x3QyBX3swg",
-      "hash": "7b3125ef0b8c088185eb904ff7564a6e61d1eb98489d44933350abf0e5a9b57b",
+      "hash": "3b163e9926c1176cddaf12783c35b9ff1555952113186261e383882f96f97237",
       "video_id": "1x3QyBX3swg",
       "title": "Microsoft presents: Index management",
-      "at": "2026-10-21T00:46:01.672Z",
+      "at": "2026-10-22T01:08:42.328Z",
       "matches": [
         {
           "feature": 0,
           "name": "Index Management Page",
           "t": 124,
           "roadmap_id": "573316",
-          "quote": "view and manage indexes on tables, showing index key names"
+          "quote": "new hidden page that allows users to view and manage indexes"
         },
         {
           "feature": 1,
@@ -31784,18 +31861,11 @@
           "quote": "Users can disable indexes immediately and enable them on-demand"
         },
         {
-          "feature": 1,
-          "name": "Enable/Disable Indexes",
-          "t": 256,
-          "roadmap_id": "573314",
-          "quote": "Users can disable indexes immediately and enable them on-demand"
-        },
-        {
-          "feature": 18,
-          "name": "Extension fields merging to base tables in version 29",
-          "t": 1779,
-          "roadmap_id": "573315",
-          "quote": "extension fields will be merged back into the base table in SQL schema"
+          "feature": 2,
+          "name": "Per-Company Index Management",
+          "t": 353,
+          "roadmap_id": "573316",
+          "quote": "indexes can now be managed on a per-company basis"
         }
       ]
     },
@@ -31811,36 +31881,43 @@
     "video/2_yYu3RgYwo": {
       "kind": "video",
       "key": "video/2_yYu3RgYwo",
-      "hash": "74cb9bb327da42392aaf5a55875168821e425c641d03dff3683e6e6185ec95dd",
+      "hash": "2dcddf4f6629f649aca3a9927d2aa48fe268a7734178cbbe83e1d875bd1cd050",
       "video_id": "2_yYu3RgYwo",
       "title": "What's New: Default Sustainability Information (2025 release wave 1)",
-      "at": "2026-10-18T00:52:31.795Z",
+      "at": "2026-10-22T01:08:46.166Z",
       "matches": [
+        {
+          "feature": 4,
+          "name": "Sustainability setup enablement",
+          "t": 24,
+          "roadmap_id": "573374",
+          "quote": "New sustainability setup option to enable or disable default sustainability values"
+        },
         {
           "feature": 7,
           "name": "Default sustainability values transfer to purchase documents",
           "t": 296,
           "roadmap_id": "573374",
-          "quote": "Default sustainability values transfer to purchase documents"
+          "quote": "Default sustainability account and emissions values set on master data"
         }
       ]
     },
     "video/205F8ljmInU": {
       "kind": "video",
       "key": "video/205F8ljmInU",
-      "hash": "5a4fb9ff6846fc11a7ed5a4d5b5edb51d74735924c497f988fcf77f38d40eb37",
+      "hash": "c99955cc08dd2de7543713ff95f8d7037a6300313405a49370b79fa919c58d0c",
       "video_id": "205F8ljmInU",
       "title": "What's New: The Danish Bookkeeping Act (2023 release wave 2)",
-      "at": "2026-10-21T00:46:01.857Z",
+      "at": "2026-10-22T01:08:42.295Z",
       "matches": []
     },
     "video/22duXC6j_No": {
       "kind": "video",
       "key": "video/22duXC6j_No",
-      "hash": "5a52c94c72ddd5df69ee0697715923df02e47cd9fcab2bc8b0c4bccba10b9442",
+      "hash": "1749378cf112edee223d2d86b5eef9477aac966575816dacf6ccd5fb5e5bafd6",
       "video_id": "22duXC6j_No",
       "title": "Manage all your Apps And Updates in Admin Center for Business Central",
-      "at": "2026-10-21T00:46:04.256Z",
+      "at": "2026-10-22T01:08:43.231Z",
       "matches": [
         {
           "feature": 0,
@@ -31848,6 +31925,13 @@
           "t": 99,
           "roadmap_id": "576815",
           "quote": "All apps view with update actions"
+        },
+        {
+          "feature": 1,
+          "name": "Action required status for dependent apps",
+          "t": 165,
+          "roadmap_id": "576815",
+          "quote": "Action required status for dependent apps"
         },
         {
           "feature": 2,
@@ -31882,10 +31966,10 @@
     "video/2430rfEywuI": {
       "kind": "video",
       "key": "video/2430rfEywuI",
-      "hash": "e94eb8265a9db3e85e71fb074e59c15e333528f07010a36cdabe5897100acd03",
+      "hash": "e9e4dc33db17939fddfe252886100ce9acef943cd164be6811e644bd1f41fa0b",
       "video_id": "2430rfEywuI",
       "title": "GP Assessment Tool - Optimize Your Migration to Dynamics 365 Business Central (2024)",
-      "at": "2026-10-21T00:46:03.823Z",
+      "at": "2026-10-22T01:08:43.573Z",
       "matches": []
     },
     "video/2isrH3RcSK8": {
@@ -32011,10 +32095,10 @@
     "video/2Zz55J8rt8I": {
       "kind": "video",
       "key": "video/2Zz55J8rt8I",
-      "hash": "0c21a2d1fac4073d621dab7d57961d1e99857fa6a7c766bfdb931b43db9609fb",
+      "hash": "43caa917df9da19467566e601ceb98e22028774ad6cf241725c0d78ca418b423",
       "video_id": "2Zz55J8rt8I",
       "title": "Use Teaching Tips to Educate and Guide Users",
-      "at": "2026-10-18T00:52:33.094Z",
+      "at": "2026-10-22T01:08:45.391Z",
       "matches": []
     },
     "video/3jr6gUuGem4": {

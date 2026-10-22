@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:27:20.637Z"
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -105,7 +105,6 @@ links:
     - video/vpJg1BxIrs0
   posts:
     - post/aardvarklabs-blog/3120
-    - post/thedynamicsexplorer-com/36744
     - post/thedynamicsexplorer-com/9227
   guidelines: []
   changes:
@@ -123,7 +122,7 @@ coverage:
   learn: 3
   code: 48
   video: 5
-  blog: 3
+  blog: 2
   guideline: 0
 bc_forms:
   - 116
@@ -218,7 +217,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10571 [Master]-User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10571.md) (code change): "Deferral Summary - G/L report now correctly filters and displays totals"
 - [#10874 [29.x]User is unable to filter the Deferral Summary-GL Report Not Filtering Totals by Global Dimensions.](../../../../changes/bcapps/10874.md) (code change): "Deferral Summary - G/L report now applies global dimension filters to its totals"
 - [Understanding Dimension Set Id in AL for Business Central](../../../../posts/aardvarklabs-blog/3120.md) (community post): "Dimension Set ID deduplicates dimension combinations to reduce data storage"
-- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../../../../posts/thedynamicsexplorer-com/36744.md) (community post): "other segments become dimensions in Business Central"
 - [Dynamics GP to Business Central – How to Control your General Ledger Code and Dimension Combinations using Allowed Values Filter](../../../../posts/thedynamicsexplorer-com/9227.md) (community post): "Allowed Values Filter on the GL Account card restricts which dimension values can be posted"
 - [Comparing Subaccount Segments and Dimension Setup between Dynamics SL and Dynamics 365 Business](../../../../videos/4EnvGMwbuBY.md) (video): "Subaccount segments; dimensions; dimension values; flex key"
 - [Comparing Subaccounts Segments and Dimensions Transaction and Reporting Dynamics SL and Dynamics](../../../../videos/BC82BSrtng0.md) (video): "Segments; dimensions; default dimensions; posting; reporting; migration"

@@ -15,10 +15,10 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:07:00.885Z"
+  at: "2026-10-22T01:07:14.456Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fb8dcb0d751f28002a95842fd6b54d1f582da7ec36be565cede18e90b3086518
+  input_hash: 0dbaa4948a0154fd0215788f720f46c6be464671d489e171254608231b16b590
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps/tree/eb2bfe5258a473c969a6b85cdc98ce8524408706/src/Apps/W1/External%20File%20Storage%20-%20SharePoint%20Connector/app

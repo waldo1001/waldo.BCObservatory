@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:43.200Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -81,7 +81,8 @@ links:
   topics:
     - topic/dev-itpro/integration/web-services
   localizations: []
-  videos: []
+  videos:
+    - video/2u5_F9Ztt7U
   posts: []
   guidelines: []
   changes:
@@ -99,7 +100,7 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms: []
@@ -148,5 +149,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#11967 Block Edit in Excel for pages based on the User table](../../../../changes/bcapps/11967.md) (code change): "prevent authentication corruption when users are edited via Excel"
 - [#12133 Block file scheme in Web Request Helper](../../../../changes/bcapps/12133.md) (code change): "prevent unauthorized local file access through crafted URLs"
 - [#12194 Harden web request helpers: opt-in default credentials](../../../../changes/bcapps/12194.md) (code change): "preventing unintended transmission of Business Central service account credentials"
+- [What's New: Server and Database (2026 release wave 1)](../../../../videos/2u5_F9Ztt7U.md) (video): "Hardened URI Validation in HTTP Client; Intra Security Groups for On-Premises Auth"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:25:12.507Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,6 +62,7 @@ links:
   videos:
     - video/DVgclv3alZU
     - video/fy96_jdL1PQ
+    - video/hSJW3LiOBxg
   posts:
     - post/thinkaboutit-be/7753
   guidelines: []
@@ -75,7 +76,7 @@ children: []
 coverage:
   learn: 4
   code: 2
-  video: 2
+  video: 3
   blog: 1
   guideline: 0
 bc_forms:
@@ -123,6 +124,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Which Power BI License Do You Need for Business Central?](../../../../posts/thinkaboutit-be/7753.md) (community post): "Power BI Pro is required for any practical use of Power BI with Business Central"
 - [What's New: Enhanced Power BI and Excel with Business Central (2026 release wave 1)](../../../../videos/DVgclv3alZU.md) (video): "Excel as Client for Power BI Semantic Models; Agentic Excel Capabilities"
 - [Episode 520: Reports, Dashboards, and Scorecards: A Complete Guide to Reporting in Business Central](../../../../videos/fy96_jdL1PQ.md) (video): "PowerBI integration and reporting; PowerBI Data Modeling; PowerBI Dashboards"
+- [What's New: Power BI and Reporting for Developers (2023 release wave 2)](../../../../videos/hSJW3LiOBxg.md) (video): "power bi integration; analytical reports"
 
 ## Business Central pages and reports
 

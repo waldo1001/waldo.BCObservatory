@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -314,8 +314,7 @@ links:
     - topic/dev-itpro/development/development-environment/other-tools
   localizations: []
   videos: []
-  posts:
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10212
@@ -338,7 +337,7 @@ coverage:
   learn: 54
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 149000
@@ -396,7 +395,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10212 Add SetReferenceType method to SignedXml and SignedXmlImpl (#10139)](../../../changes/bcapps/10212.md) (code change): "SetReferenceType method is added to the SignedXml codeunit to allow callers"
 - [#10449 Remove permission set ref and move the Page Inspector changes to BCApps](../../../changes/bcapps/10449.md) (code change): "Page Inspector changes are moved from Platform into BCApps"
-- [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (community post): "Business Central is transitioning from .NET 8 to .NET 10 across online and on-premises"
 
 ## Business Central pages and reports
 

@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -123,9 +123,8 @@ links:
   localizations: []
   videos:
     - video/TY82NR2hGEg
-  posts:
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b
+    - video/tzeO0mc8RJo
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/12320
@@ -139,8 +138,8 @@ children: []
 coverage:
   learn: 12
   code: 0
-  video: 1
-  blog: 2
+  video: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: ee453a3841cc13e047eb0ecef3884b62fea0ba28cf771b2964fcbe8fa81ddd66
@@ -192,8 +191,7 @@ Signing an app package and using Microsoft Entra authentication for on-premises 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12320 Fix 409 conflict in APIV2 Company Info E2E description test](../../../../changes/bcapps/12320.md) (code change): "Fixed 409 conflict errors in APIV2 Company Info E2E tests"
-- [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (community post): "requiring matching AL extension versions and careful pipeline validation"
-- [Public Preview for Business Central 29.0 (2026 Release Wave 2) Is Here](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-5842643051210707156--c6fa25205b.md) (community post): "Test by recompiling AL extensions against 29.0 symbols"
 - [What's New: Business Central Developer Tools (2023 release wave 2)](../../../../videos/TY82NR2hGEg.md) (video): "AL language extension pre-release versions; AL language extension for Linux"
+- [What's New: Developer Tools (2024 release wave 1)](../../../../videos/tzeO0mc8RJo.md) (video): "AL tool; pipelines; object extensions; debugger upgrade"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,45 +1,45 @@
 {
   "schema": "bcobs-index@1",
-  "pages": 29030,
+  "pages": 29048,
   "shards": [
     {
-      "file": "pages-hubs-1cad51a31b22.json",
-      "count": 926,
-      "sha256": "1cad51a31b22bd50972ac6409967a54b4115f6f70246377c2c62318cc0237e7b",
+      "file": "pages-hubs-ab24b0376f7d.json",
+      "count": 931,
+      "sha256": "ab24b0376f7dc4e45760891b7e8278fb6d396e1e66d51e39384692c6a9979f0f",
       "kind": "hubs"
     },
     {
-      "file": "pages-media-dac08c100408.json",
-      "count": 2439,
-      "sha256": "dac08c100408a3b26711918b5f6821709d1c15fdf136b5d34122db4768e2ca9d",
+      "file": "pages-media-bd47ae8dda06.json",
+      "count": 2451,
+      "sha256": "bd47ae8dda060a046b77bc14207fa3370a39ce461449e91e6b2d5f3cad5de9f6",
       "kind": "media"
     },
     {
-      "file": "pages-objects-1-323131fef26b.json",
-      "count": 14417,
-      "sha256": "323131fef26ba0b3ab84e5bfd9912e3de91f94a374df08bc1714869ba7517e19",
+      "file": "pages-objects-1-6ffb116f4b3f.json",
+      "count": 14418,
+      "sha256": "6ffb116f4b3f9b138803480fecc1ab566e947607a12babb4cb64b0fd2dc618fb",
       "kind": "objects"
     },
     {
-      "file": "pages-objects-2-257245375ff7.json",
+      "file": "pages-objects-2-7e122b61e7c8.json",
       "count": 11248,
-      "sha256": "257245375ff7880d5cf4ab34146a1d48c434a3ee2d37e9d2046632fbb6f189c7",
+      "sha256": "7e122b61e7c8f8afbc1c929dbf4838dac5dfc134df01b6c101b68a2c05bdbb67",
       "kind": "objects"
     }
   ],
   "learn": {
-    "file": "learn-b7b29e805033.json",
+    "file": "learn-fce2ad252843.json",
     "count": 8054,
-    "sha256": "b7b29e805033a6bf3c1336e8550c9a57d88c725f7c74c56294ef2633c4b4a60e"
+    "sha256": "fce2ad2528432baa4e4519eb15d1be4414815e856e6bd5243cf698dc3361de37"
   },
   "by_type": {
     "app": 96,
-    "change": 1196,
+    "change": 1207,
     "digest": 6,
-    "feature": 99,
+    "feature": 104,
     "localization": 22,
-    "object": 25665,
-    "post": 622,
+    "object": 25666,
+    "post": 623,
     "release": 64,
     "source": 33,
     "topic": 606,

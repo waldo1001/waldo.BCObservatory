@@ -1,25 +1,25 @@
 {
   "hub_id": "topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface",
-  "input_hash": "de036bdd39840e7b48dc3bcf10bd69e7feb8e91cf43c1687c43b75a15fa98c94",
-  "summary": "Pages and the user interface in Business Central AL development: page objects and extensions, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, lay out, tailor and debug the UI for different user roles and clients.",
-  "overview": "This section covers how to build the Business Central user interface in AL. It starts with general design guidance (Designing the User Interface) and a page on customizing the UI for user roles. That page describes a layered approach: Role Centers, page extensions, profiles, page customizations and personalization.\n\nThe subtopics go deeper on each layer. Pages covers page types, layout controls, FactBoxes and extensions. Actions covers action placement and promotion. Role centers, Views and Profiles cover role-tailored home pages, alternative list views and user roles. Deep links explains URLs that open specific content. The mobile app subtopic covers tablet and phone development and testing.\n\nTwo standalone pages help with finishing and debugging. The Control Add-in Style Guide gives CSS colors, typography and design principles so add-ins match the Business Central theme. Inspecting pages describes Page Inspection in the web client, which shows page structure, data sources, extensions, filters and source table fields without reading code. A good start is Designing the User Interface, then Pages.",
+  "input_hash": "dc174c17b403f782918c401e4559b74f208188c779b53111b56cbb7e2ad634ed",
+  "summary": "Pages and the user interface covers how to design and build the Business Central UI in AL: pages, role centers, actions, views, profiles, deep links, and mobile app development. It answers questions on layout, role-based customization, page inspection, and control add-in styling.",
+  "overview": "This section is about everything a user sees in the Business Central client and how to build it with AL. The core is the Pages subtopic (page objects, page types, extensions, user assistance), supported by Role centers, Actions, and Views for home pages, commands, and alternative list layouts.\n\nRole-based tailoring is layered. The page \"Customize the user interface for user roles\" describes the layers: Role Centers, page extensions, profiles, page customizations, and personalization. The Profiles subtopic covers the objects that define roles. Deep links and the mobile app subtopic cover reaching content from URLs and building for tablet and phone.\n\nStart with \"Designing the User Interface\" for an overview of page types, role centers, actions, views, queries, and profiles. Then go to Pages. Use \"Inspecting pages\" (Page Inspection in the web client) to debug existing page structure, and the Control Add-in Style Guide when building add-ins that should match the Business Central look.",
   "key_points": [
-    "Customizing the UI for roles works in layers: Role Centers, page extensions, profiles, page customizations and personalization.",
-    "Pages subtopic covers page and page extension objects, types such as Card, List, Document, parts, PromptDialog, ConfigurationDialog and NavigatePage, FactBoxes, tooltips and Power BI embedding.",
-    "Actions subtopic covers actionref syntax, action areas, the modern action bar with split buttons, promoted groups and prompt actions that launch Copilot.",
+    "Pages subtopic (33 pages) covers page objects and extensions, card, list, part, NavigatePage, PromptDialog and ConfigurationDialog types, field layout, tooltips, Tell me, and teaching tips.",
+    "Role centers cover role-tailored home pages, navigation menus, cues, headlines, and a user onboarding checklist.",
+    "Actions cover adding, organizing and promoting actions, the modern action bar with split buttons, actionref syntax, and prompt actions that launch Copilot.",
     "Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.",
-    "Profiles define user roles that control which pages and reports a user sees, using profile, profile extension and page customization objects.",
-    "Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.",
-    "Page Inspection in the web client (2023 release wave 2) shows page structure, source table fields, extensions and filters for debugging.",
-    "The Control Add-in Style Guide supplies the color palette, typography, font families and chart colors for add-ins that match the theme."
+    "Profiles define user roles through profile objects, profile extensions, and page customization objects.",
+    "Deep links are URLs that open pages, reports or tables using parameters such as company, page, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.",
+    "Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code (2023 release wave 2).",
+    "The Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client."
   ],
   "members_used": 4,
   "subtopics_used": 7,
   "prompt_version": 1,
-  "at": "2026-10-17T01:13:05.827Z",
+  "at": "2026-10-22T01:11:57.955Z",
   "llm": {
     "model": "claude-sonnet-5-5",
     "cached": false,
-    "cost_usd": 0.016589
+    "cost_usd": 0.016193
   }
 }

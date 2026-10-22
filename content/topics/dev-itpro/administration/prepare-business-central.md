@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -143,9 +143,7 @@ links:
     - topic/dev-itpro/administration
   localizations: []
   videos:
-    - video/8037fdtrU1o
-    - video/bvGdaxC3sq8
-    - video/KQRT25igPTk
+    - video/lRiED3AUfps
   posts:
     - post/thinkaboutit-be/7443
   guidelines: []
@@ -158,7 +156,7 @@ children: []
 coverage:
   learn: 13
   code: 13
-  video: 3
+  video: 1
   blog: 1
   guideline: 0
 bc_forms:
@@ -221,9 +219,7 @@ This section is for partners and administrators who prepare Business Central for
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [How Do I: Create a Business Central Trial From Scratch](../../../posts/thinkaboutit-be/7443.md) (community post): "Creating a Business Central trial requires starting with a clean Microsoft 365 trial"
-- [What's New: Contoso Demo Tool (2025 release wave 1)](../../../videos/8037fdtrU1o.md) (video): "Modular demo data architecture; Code-based demo data definition"
-- [Introducing: Contoso Demo Tool (2023 release wave 2)](../../../videos/bvGdaxC3sq8.md) (video): "Demo Data Module Interface; Helper Code Units for Demo Data"
-- [Guidelines for Using the Welcome Banner](../../../videos/KQRT25igPTk.md) (video): "welcome banner; onboarding experience; user checklists; role center"
+- [Getting Started with Business Central (2025)](../../../videos/lRiED3AUfps.md) (video): "getting started; sample company; data migration; setup guide; company creation"
 
 ## Business Central pages and reports
 

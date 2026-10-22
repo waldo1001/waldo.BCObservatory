@@ -6,11 +6,11 @@
   "systems_joined": [],
   "summary": "Six knowledge articles added to guide developers on isolated events, FilterGroup scope, BLOB CalcFields, and text encoding in streams, with paired good and bad code examples.",
   "key_points": [
-    "Isolated events isolation guarantees only hold outside write transactions; runs as normal event after uncommitted writes",
-    "FilterGroup scope filters must not use group 0 to avoid removal from filter pane; hidden filters need restoration to prevent replacement",
-    "BLOB streams must call CalcFields before reading to avoid empty stream returns; text encoding must be set for external exchange to prevent character corruption",
-    "Variant rollback behavior: isolated events don't undo var parameters; subscribers can set IsHandled to skip default logic despite rollback",
-    "Review skills updated with new articles and evaluation fixtures populated for deterministic article selection"
+    "Isolated events are only isolated outside a write transaction; after uncommitted writes they run as normal events",
+    "Rollback of a failing isolated subscriber does not undo var parameters, so IsHandled can stay true and skip default logic",
+    "Page scope filters must not sit in filter group 0, and the filter group must be restored after setting hidden filters",
+    "Call CalcFields on a BLOB before reading its stream, and set a text encoding on streams exchanged externally",
+    "Four review skills and the evaluation fixtures are wired to the new articles"
   ],
   "change_kind": "feature",
   "behavior_change": false,

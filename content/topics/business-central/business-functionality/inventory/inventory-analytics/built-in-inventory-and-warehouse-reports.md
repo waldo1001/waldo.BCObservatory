@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:06.979Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -305,8 +305,7 @@ links:
     - topic/business-central/business-functionality/inventory/inventory-analytics
   localizations: []
   videos: []
-  posts:
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10663
@@ -327,7 +326,7 @@ coverage:
   learn: 31
   code: 31
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 704
@@ -435,7 +434,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9582 636017 Move Inventory report action tooltips to report objects](../../../../../changes/bcapps/9582.md) (code change): "Report action tooltips for 11 inventory reports are moved from page actions to the report objects themselves"
 - [#9774 [Extensibility Request] issue 30378: add OnItemVariantOnAfterGetRecordOnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9774.md) (code change): "Item Sales Statistics report when "Only Items with Sales" and "Breakdown By Variant" are both enabled"
 - [#9777 [Extensibility Request] issue 30377: add OnBeforePrintOnlyIfSalesCheck event in Item Sales Statistics report](../../../../../changes/bcapps/9777.md) (code change): "Item Sales Statistics report now exposes an integration event that allows extensions to override the skip decision"
-- [Weekly Review: Business Central AL Development – June 7–13, 2026](../../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-weekly-review-business-central-al-development-june-7-13-2026--e3fab4ba38.md) (community post): "BC28 includes a new Item - ABC Analysis report that classifies inventory"
 
 ## Business Central pages and reports
 

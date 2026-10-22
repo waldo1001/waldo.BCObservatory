@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.932Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -340,9 +340,7 @@ links:
     - topic/dev-itpro/development/programming-in-the-al-language/tables-and-data/importing-and-exporting-data
   localizations: []
   videos:
-    - video/a8W1x0xwkv4
-    - video/OLN-2Ec2GMM
-    - video/uCJ48biqLf8
+    - video/a1LQ3-SCtPE
   posts:
     - post/demiliani-com/15968
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4
@@ -354,7 +352,6 @@ links:
     - change/bcapps/10255
     - change/bcapps/10486
     - change/bcquality/203
-    - change/bcquality/237
 learn_toc_path:
   - Development
   - Programming in the AL language
@@ -373,7 +370,7 @@ children:
 coverage:
   learn: 56
   code: 24
-  video: 3
+  video: 1
   blog: 5
   guideline: 0
 bc_forms:
@@ -453,15 +450,12 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#10255 Add expense activity history foundation](../../../../changes/bcapps/10255.md) (code change): "New append-only activity log table records expense report lifecycle events"
 - [#10486 [Quality Management] Use Bin code selection for transfer disposition in workflow response](../../../../changes/bcapps/10486.md) (code change): "The Quality Management transfer disposition now uses the bin"
 - [#203 knowledge(data-modeling): Prices Including VAT decides the basis of sales/purchase/service line amounts](../../../../changes/bcquality/203.md) (code change): "Prices Including VAT header flag affects the basis of line amount fields in sales, purchase, and service documents"
-- [#237 knowledge(data-modeling): keep business state independent of Job Queue lifetime](../../../../changes/bcquality/237.md) (code change): "storing it on business-owned records rather than relying on Job Queue Entry"
 - [Dynamics 365 Business Central: AL Query objects and the new ReadState property.](../../../../posts/demiliani-com/15968.md) (community post): "AL query objects now support the ReadState property in Dynamics 365 Business Central"
 - [Record.IsDirty in Business Central 29: a worked example](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-3210455512131359826--dd131816e4.md) (community post): "Record.IsDirty() returns true when in-memory values differ"
 - [How to Export CSV Files from Business Central Using CSV Buffer (Developer Guide)](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4218333995173748236--f38f8fc25c.md) (community post): "CSV Buffer is a built-in table with Line No., Field No., and Value"
 - [How to Group and Consolidate General Journal Lines Using Query Object in Business Central.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-7756402263170151476--0af9b880b1.md) (community post): "consolidate General Journal Lines in Business Central using Query Objects"
 - [BC Friday Tips #83 Check Whether a Record Has Changed](../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-83-record-isdirty--62bcf5d8a3.md) (community post): "Record.IsDirty() method detects whether a record has been modified"
-- [... but can it play DOOM? (In Business Central)](../../../../videos/a8W1x0xwkv4.md) (video): "WAD file storage in tables; Save game persistence"
-- [What’s New: AL Runtime and Database (2024 release wave 1)](../../../../videos/OLN-2Ec2GMM.md) (video): "number sequence; change log cleanup; alter key; field tooltips; translatable texts"
-- [FieldExist() and Field() get a text overload](../../../../videos/uCJ48biqLf8.md) (video): "FieldExist() and Field() get a text overload"
+- [What's New: Server and Database - A Faster Data Stack (2023 release wave 2)](../../../../videos/a1LQ3-SCtPE.md) (video): "New companion table schema for table extensions"
 
 ## Business Central pages and reports
 

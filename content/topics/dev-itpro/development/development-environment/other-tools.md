@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:28:14.151Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -50,7 +50,7 @@ links:
     - topic/dev-itpro/development/development-environment
   localizations: []
   videos:
-    - video/8t3WaWh7K9Y
+    - video/LDRziYUdlAg
   posts: []
   guidelines: []
 learn_toc_path:
@@ -106,6 +106,6 @@ Start with Inspecting pages or Viewing table data for day-to-day debugging. Use 
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [What's New in AL: Easy Access to Source Code with Open In VS Code and GitHub Projects (2024)](../../../../videos/8t3WaWh7K9Y.md) (video): "AL-Go for GitHub automatic population of source control details"
+- [AL-Go for Github April Office Hour](../../../../videos/LDRziYUdlAg.md) (video): "AL-Go for Github April Office Hour"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

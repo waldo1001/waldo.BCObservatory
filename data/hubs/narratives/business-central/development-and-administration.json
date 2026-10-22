@@ -8,7 +8,7 @@
     "The Copilot & agent capabilities page controls feature activation, user access through permissions, data movement across geographies, Bing Search, feedback settings and agent model selection (versions 28 and 29).",
     "AL extension development uses Visual Studio Code and covers table extensions, page extensions, code snippets, compiler validation and a drag-and-drop designer.",
     "Performance guidance covers the Performance toolkit extension, page caching and performance monitoring for consultants, developers and administrators.",
-    "The deprecated features page lists removals from 2020 release wave 1 to 2025 release wave 2, such as API v1.0, Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages.",
+    "The deprecated features page covers the W1 version across release waves from 2020 to 2027, including removal of API v1.0, the Finance reports API, legacy Power BI apps, Intelligent Cloud Insights and configuration packages, deprecation of Excel reports, and moved subcontracting objects.",
     "Administration tasks (34 pages) include access and licensing, user settings and profiles, company creation, job queues, web services, API templates, indexes, printers and languages.",
     "Master Data Management pulls customers, vendors and items from a source company into subsidiaries, with coupling, filtering and job queue management.",
     "Migration to online supports Business Central, Dynamics GP, SL and NAV data, including choosing between full migration and reimplementation."
@@ -21,5 +21,17 @@
     "model": "claude-sonnet-5-5",
     "cached": false,
     "cost_usd": 0.016815
+  },
+  "review": {
+    "state": "reviewed",
+    "by": "opus",
+    "at": "2026-10-22T01:12:33.100Z",
+    "verdict": "fix",
+    "issues": [
+      "Deprecated features key point says the page spans 2020 release wave 1 to 2025 release wave 2, but the page summary describes release waves 2020-2027; the end of the range is understated.",
+      "The same key point calls everything 'removals'; the source also lists Excel reports as a deprecation and subcontracting objects as moved, not removed."
+    ],
+    "input_hash": "9ef757ba2bcb788af679358464c5037ab413b02422ef73c1b08bbc020ad90001",
+    "cost_usd": 0.0600378
   }
 }

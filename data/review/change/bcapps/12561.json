@@ -1,0 +1,19 @@
+{
+  "item_id": "change/bcapps-prs/12561",
+  "input_hash": "3074c0d51e2df6111d2cc273aa23981efbd7befd2e3374e1801c7bffc065b568",
+  "verdict": "approve",
+  "by": "opus",
+  "at": "2026-10-22T01:10:58.676Z",
+  "issues": [
+    "Content matches the description. The changed OnBeforeCreateSalesHeader event is internal and existing error behavior is unchanged, so not breaking is reasonable."
+  ],
+  "applied": [],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026382,
+    "changes_in_call": 5
+  }
+}

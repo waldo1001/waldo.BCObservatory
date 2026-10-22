@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -322,7 +322,8 @@ links:
   localizations: []
   videos:
     - video/eUkx_VCcyoU
-  posts: []
+  posts:
+    - post/gerardorenteria-blog/10701
   guidelines: []
 learn_toc_path:
   - Development
@@ -338,7 +339,7 @@ coverage:
   learn: 45
   code: 0
   video: 1
-  blog: 0
+  blog: 1
   guideline: 0
 bc_forms: []
 member_hash: dc77893b4664aae97ffd100f26ecf3c5de655899ad5186dcfe50dc0d23450399
@@ -395,6 +396,7 @@ Start with "Programming in AL" for the fundamentals, then move to statements and
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [AL Language extension for Microsoft Dynamics 365 Business Central version 15.0.1433841 (New version)](../../../posts/gerardorenteria-blog/10701.md) (community post): "The AL Language extension version 15.0 introduces implicit conversion between Record and RecordRef"
 - [What's New: AL Language (2025 release wave 1)](../../../videos/eUkx_VCcyoU.md) (video): "AL Language; resources; pages; reports; strings; json; yaml"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

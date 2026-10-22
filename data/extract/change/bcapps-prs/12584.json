@@ -8,13 +8,13 @@
   ],
   "summary": "Restores the ability to copy uninvoiced subcontracting receipts to separate purchase invoices, allowing cumulative vendor invoicing while correctly assigning vendor costs to the original Capacity Ledger Entry and production order.",
   "key_points": [
-    "Uninvoiced subcontracting receipts can now be included in Get Receipt Lines workflow",
-    "Posted receipt lines can be copied to separate purchase invoices for cumulative vendor invoicing",
-    "Posting correctly assigns vendor cost to original Capacity Ledger Entry without creating duplicate output",
-    "Supports untracked and item-tracked receipts from non-final routing operations",
-    "Item-tracked receipts from final operations and warehouse receipts remain explicitly blocked pending further validation"
+    "Posted, uninvoiced subcontracting receipts can again be pulled into a separate purchase invoice with Get Receipt Lines",
+    "Posting assigns the vendor cost to the original Capacity Ledger Entry without duplicate capacity or output entries",
+    "Covers untracked receipts, item-tracked non-final operation receipts, partial receipts and invoices, put-away, multiple receipts and orders, and alternate units of measure",
+    "Item-tracked final-operation receipts, warehouse receipts with tracked final output, and cancel, correct or corrective credit memo on these invoices stay explicitly blocked",
+    "Get Order Lines remains excluded"
   ],
-  "change_kind": "feature",
+  "change_kind": "fix",
   "behavior_change": true,
   "breaking": false,
   "obsoletions": [],

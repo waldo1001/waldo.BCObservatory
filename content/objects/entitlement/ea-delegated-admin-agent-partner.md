@@ -18,16 +18,16 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-21T00:40:39.296Z"
+  at: "2026-10-22T01:03:16.851Z"
   pipeline: 0.2.0
   prompts: {}
-  input_hash: fbf38c8971cd044848e19241b481962e40339a36dc30736e8b414736f277705e
+  input_hash: 550466c0e46cf8e6490a86915273bc3ba5535aaa71676868db209ec0301904db
 evidence:
   - kind: code
-    url: https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al
+    url: https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al
     title: src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al (releases/29.x)
     date: null
-    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
+    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
     t: null
     quote: null
 links:
@@ -40,6 +40,7 @@ links:
   posts: []
   guidelines: []
   changes:
+    - change/bcapps/12763
     - change/bcapps/9859
 object_type: entitlement
 object_id: null
@@ -77,10 +78,11 @@ relations:
 
 > Entitlement "EA - Delegated Admin agent - Partner" in ExpenseAgent (Microsoft.ExpenseAgent). Introduced in BC29, still in BC30.
 
-ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at 7f41d357](https://github.com/microsoft/BCApps/blob/7f41d35742230d336aa3ef0076182523d6ab433b/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al) · facts from BC29
+ExpenseAgent · Microsoft.ExpenseAgent · BC29-30 · [source at e9be5bb8](https://github.com/microsoft/BCApps/blob/e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc/src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al) · facts from BC29
 
 ## Recent changes
 
+- 2026-10-21 [#12763 [Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: "'IndirectInsert' permission on TableData 6913 'Expense Pmt Method" - 2610091420000495](../../changes/bcapps/12763.md) (main, BC30, fix)
 - 2026-08-04 [#9859 [Master] - Move Expense Agent (Preview) app into BCApps](../../changes/bcapps/9859.md) (main, BC30, feature, added)
 
 ## Across versions

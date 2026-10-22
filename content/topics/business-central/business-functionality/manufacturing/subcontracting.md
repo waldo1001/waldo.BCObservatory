@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:24:24.212Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -72,6 +72,7 @@ links:
     - topic/business-central/business-functionality/manufacturing
   localizations: []
   videos:
+    - video/nb_a42dmSqE
     - video/QdWPlIV3Avk
   posts: []
   guidelines: []
@@ -100,6 +101,7 @@ links:
     - change/bcapps/12082
     - change/bcapps/12143
     - change/bcapps/12459
+    - change/bcapps/12584
     - change/bcapps/12669
     - change/bcapps/8747
     - change/bcapps/8750
@@ -134,7 +136,7 @@ children: []
 coverage:
   learn: 5
   code: 6
-  video: 1
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -211,6 +213,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12082 Bug 650429: [Repair Item] [Subcontracting] Show Document opens the wrong transfer order from Transfer Lines (Page 5749)](../../../../changes/bcapps/12082.md) (code change): "Show Document on the Transfer Lines page no longer opens the wrong transfer order for legacy subcontracting"
 - [#12143 Bug 649440: [Subcontracting] [IT] Disable Legacy Subcontracting leaves Component Supply Method empty after conversion](../../../../changes/bcapps/12143.md) (code change): "Italian subcontracting legacy migration now correctly maps the vendor's"
 - [#12459 [Master][All-E] Subcontractor Price ignores Run Time when creating purchase cost for time-based subcontracting operations](../../../../changes/bcapps/12459.md) (code change): "Subcontractor price now correctly incorporates operation run time for time-based"
+- [#12584 Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts](../../../../changes/bcapps/12584.md) (code change): "Restores the ability to copy uninvoiced subcontracting receipts to separate purchase invoices"
 - [#12669 [Main]Subcontracting Order Date does not account for lead time before the routing operation starts](../../../../changes/bcapps/12669.md) (code change): "Subcontracting order dates now correctly calculate backward from the routing operation start date"
 - [#8747 [Subcontracting] Disable "WIP Item Transfer" for Machine Center](../../../../changes/bcapps/8747.md) (code change): "Transfer WIP Item field on routing lines is now restricted"
 - [#8750 [Bug Fix] #638688: Suppress availability warning for Transfer WIP Item lines](../../../../changes/bcapps/8750.md) (code change): "WIP items are intermediate goods managed by subcontracting"
@@ -235,6 +238,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9797 Bug 641388: Fix WIP transfer remainder over-creation when open line quantity is reduced](../../../../changes/bcapps/9797.md) (code change): "Fix WIP transfer remainder over-creation when open line quantity is reduced"
 - [#9818 [Subcontracting] Added assisted setup guide for initial app configuration](../../../../changes/bcapps/9818.md) (code change): "Subcontracting app now includes a three-step assisted setup wizard"
 - [#9892 [main] Bug 644283: Renumber Subcontracting app object ids as it clashes with partner range](../../../../changes/bcapps/9892.md) (code change): "Subcontracting app object IDs renumbered to avoid clashing"
+- [What's new in SCM: Migrate Italian Subcontracting (2026 release wave 2)](../../../../videos/nb_a42dmSqE.md) (video): "New global subcontracting app; Italian subcontracting migration app"
 - [What's new in SCM: Subcontracting (2026 release wave 2)](../../../../videos/QdWPlIV3Avk.md) (video): "Subcontracting extension; Component supply method; Vendor location tracking"
 
 ## Business Central pages and reports

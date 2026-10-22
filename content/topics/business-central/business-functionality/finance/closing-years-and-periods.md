@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:18:55.812Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -154,7 +154,12 @@ links:
     - topic/business-central/business-functionality/finance
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899
+    - post/olofsimren-com/3853
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9
+    - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26
+    - post/thedynamicsexplorer-com/36744
   guidelines: []
   changes:
     - change/bcapps/10096
@@ -170,7 +175,7 @@ coverage:
   learn: 13
   code: 24
   video: 0
-  blog: 0
+  blog: 5
   guideline: 0
 bc_forms:
   - 5
@@ -248,6 +253,11 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#10096 Fix Close Income Statement grouping when no dimensions are selected](../../../../changes/bcapps/10096.md) (code change): "Fixed the Close Income Statement report to properly group G/L entries by account"
 - [#9733 [main] bug 644111 - Reorder "Open Balance Sheet" action in Accountant CZ Role Center CZL page](../../../../changes/bcapps/9733.md) (code change): "Open Balance Sheet action after the Close Balance Sheet action, aligning the menu with the standard year-end closing workflow"
+- [Allow Posting From/To DateFormula: No More Monthly Date Updates from Business Central v28](../../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-8913658799123411419--5a782b6899.md) (community post): "eliminating manual monthly updates to posting period dates"
+- [Allow Posting Date Formula](../../../../posts/olofsimren-com/3853.md) (community post): "supports date formulas for allowed posting dates in General Ledger Setup"
+- [How to Use Date Formulas for Allowed Posting Periods in Business Central BC28.](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4662412510469862425--2edabbcaf9.md) (community post): "Business Central BC28 introduces dynamic date formulas for allowed posting periods"
+- [Automating Posting Periods in Business Central with Date Formulas](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-6476700913383925526--f5fa15da26.md) (community post): "Date formulas enable automatic posting period adjustments in Business Central based on today's date"
+- [Dynamics GP to Business Central Migration Post – Part 1: What do my migrated Opening Balances look like in Business Central](../../../../posts/thedynamicsexplorer-com/36744.md) (community post): "opening balances are migrated as unapplied transactions requiring year-end close procedures"
 
 ## Business Central pages and reports
 

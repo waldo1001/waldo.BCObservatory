@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T13:37:26.819Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -375,8 +375,7 @@ links:
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/manage-user-settings
     - topic/business-central/development-and-administration/administration-tasks-in-business-central/control-your-data
   localizations: []
-  videos:
-    - video/n4qog_IpKqw
+  videos: []
   posts:
     - post/duiliotacconi-com/1983
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9
@@ -398,7 +397,7 @@ children:
 coverage:
   learn: 34
   code: 93
-  video: 1
+  video: 0
   blog: 3
   guideline: 0
 bc_forms:
@@ -563,7 +562,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central 2026 Wave 1. What’s New in Performance.](../../../posts/duiliotacconi-com/1983.md) (community post): "enable or disable database indexes directly in the UI, available per company"
 - [Business Central 2026 Release Wave 2: Turn SIFT Indexes On or Off](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-3728891053687741480--7cb5bca9a9.md) (community post): "administrators can now turn SIFT indexes on or off directly"
 - [Manage Database Index Usage in Business Central.](../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-4052415603111434126--e2c225526c.md) (community post): "Administrators can view index details (name, size, usage statistics, enabled status)"
-- [BCTalent Stories: Navitrans](../../../videos/n4qog_IpKqw.md) (video): "Business Central adoption; consultant training; professional certification"
 
 ## Business Central pages and reports
 

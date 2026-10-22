@@ -12,7 +12,7 @@ review:
   at: "2026-10-19T01:12:08.909Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -388,7 +388,8 @@ links:
     - topic/business-central/business-functionality/local-functionality/united-kingdom
     - topic/business-central/business-functionality/local-functionality/united-states
   localizations: []
-  videos: []
+  videos:
+    - video/Ax8yXCf7BY4
   posts: []
   guidelines: []
 learn_toc_path:
@@ -422,7 +423,7 @@ children:
 coverage:
   learn: 603
   code: 58
-  video: 0
+  video: 1
   blog: 0
   guideline: 0
 bc_forms:
@@ -928,6 +929,12 @@ Start with the strategy page to see how local functionality is organized. Then g
 - [Development of validated localization apps](https://learn.microsoft.com/dynamics365/business-central/about-validated-localization-apps): Comply with regulatory requirements in Business Central as a Validated Localization App.
 - [Local functionality and localization strategy](https://learn.microsoft.com/dynamics365/business-central/about-localization): Learn about local availability and regulatory compliance in Business Central for the countries/regions where Microsoft provides the local functionality.
 - [Submit regulatory alerts](https://learn.microsoft.com/dynamics365/business-central/submit-regulatory-alerts): If you know about new legislation that requires feature support in Business Central, you can follow this guide to submit a regulatory alert to the product team.
+
+## Videos and posts
+
+Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
+
+- [What's New: Legislation and Localization (2023 release wave 2)](../../../videos/Ax8yXCf7BY4.md) (video): "Topics: legislation compliance; delocalization; eu three-party trade"
 
 ## Business Central pages and reports
 

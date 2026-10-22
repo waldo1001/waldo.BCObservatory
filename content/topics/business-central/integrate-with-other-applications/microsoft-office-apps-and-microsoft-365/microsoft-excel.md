@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:23.617Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -62,8 +62,6 @@ links:
   localizations: []
   videos:
     - video/_OClSlushOU
-    - video/1QuV_vkbNVU
-    - video/6dEZQlmBlyI
     - video/PIWxU93eCT4
   posts: []
   guidelines: []
@@ -77,7 +75,7 @@ children: []
 coverage:
   learn: 4
   code: 3
-  video: 4
+  video: 2
   blog: 0
   guideline: 0
 bc_forms:
@@ -122,8 +120,6 @@ The pages are independent tasks. Start with "Viewing and editing in Excel from B
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [Work Seamlessly with Microsoft Outlook, Excel, and Teams](../../../../videos/_OClSlushOU.md) (video): "Export to Excel for analysis; Item discounts in Excel"
-- [Introducing Spreadsheets for Business Central](../../../../videos/1QuV_vkbNVU.md) (video): "Spreadsheets for Business Central; Regions; Virtual Fields; Page Regions"
-- [Use Data from a Report inside your Spreadsheet with Business Central (Advanced Spreadsheets)](../../../../videos/6dEZQlmBlyI.md) (video): "Use Data from a Report inside your Spreadsheet with Business Central"
 - [What's Cooking in Business Central: Edit Sales Price Lists in Excel](../../../../videos/PIWxU93eCT4.md) (video): "Edit sales price lists in Excel"
 
 ## Business Central pages and reports

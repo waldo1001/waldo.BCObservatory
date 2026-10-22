@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:19:25.371Z"
   flags: []
 generated:
-  at: "2026-10-08T06:31:25.130Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -162,6 +162,7 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/aardvarklabs-blog/3706
     - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725
   guidelines: []
   changes:
@@ -178,7 +179,7 @@ coverage:
   learn: 13
   code: 32
   video: 0
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 119
@@ -263,6 +264,7 @@ This section collects tools and pages that help developers, administrators, and 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#10335 Unblock bc login due to pp failures](../../../../changes/bcapps/10335.md) (code change): "Prevents sign-in blocking when linked Power Platform environment lookup fails"
+- [Troubleshooting AL Extension in VS Code: Phantom Errors](../../../../posts/aardvarklabs-blog/3706.md) (community post): "Troubleshooting AL Extension in VS Code: Phantom Errors"
 - [Quick Tips: Find a Field on a Business Central Page](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-quick-tips-find-a-field-on-a-business-central-page--b11b83b725.md) (community post): "Page Inspection is a built-in tool in Business Central that helps you quickly find"
 
 ## Business Central pages and reports

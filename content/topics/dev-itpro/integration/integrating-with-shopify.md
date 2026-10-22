@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:58.336Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -112,6 +112,7 @@ links:
     - change/bcapps/12214
     - change/bcapps/12215
     - change/bcapps/12260
+    - change/bcapps/12561
     - change/bcapps/8554
     - change/bcapps/8587
     - change/bcapps/8871
@@ -222,6 +223,7 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#12214 [Shopify] Store currency handling for auto-created orders](../../../changes/bcapps/12214.md) (code change): "The Shopify connector now persists the currency handling mode used during order processing"
 - [#12215 [Shopify] Link grouped invoice to all originating orders](../../../changes/bcapps/12215.md) (code change): "Invoice document linking to Shopify orders now correctly associates a single invoice"
 - [#12260 [Shopify] Fix shop card transaction navigation](../../../changes/bcapps/12260.md) (code change): "Shopify Shop Card payment transaction navigation now opens"
+- [#12561 [Shopify] Preserve tax match after rate conflict](../../../changes/bcapps/12561.md) (code change): "Shopify order processing now preserves tax mappings and holds document creation when a tax rate conflict occurs"
 - [#8554 [Shopify] Fix incorrect G/L line on credit memo for refund with exchange item](../../../changes/bcapps/8554.md) (code change): "Shopify connector now correctly handles credit memos for refunds involving exchange items"
 - [#8587 [Shopify] Make codeunit 30272 "Shpfy Update Price Source" public](../../../changes/bcapps/8587.md) (code change): "Codeunit 30272 "Shpfy Update Price Source" is now public, allowing partners to reference it for custom Shopify price calculation logic"
 - [#8871 Issue#7867: Removed the access restriction for procedures in the confirmation window.](../../../changes/bcapps/8871.md) (code change): "The Shopify Add Item Confirm page now allows unrestricted access to its procedures"

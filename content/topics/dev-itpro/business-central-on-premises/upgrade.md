@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:39.599Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,18 +317,8 @@ links:
   localizations: []
   videos: []
   posts:
+    - post/demiliani-com/17470
     - post/demiliani-com/17480
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920
-    - post/gerardorenteria-blog/10921
-    - post/gerardorenteria-blog/11452
-    - post/gerardorenteria-blog/11766
-    - post/gerardorenteria-blog/12231
-    - post/gerardorenteria-blog/12460
-    - post/gerardorenteria-blog/12728
-    - post/gerardorenteria-blog/13744
   guidelines: []
   changes:
     - change/bcapps/12307
@@ -349,7 +339,7 @@ coverage:
   learn: 113
   code: 0
   video: 0
-  blog: 12
+  blog: 2
   guideline: 0
 bc_forms:
   - 19010
@@ -403,18 +393,8 @@ Start with the supported upgrade paths page to see whether your source version c
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [#12307 Make UpgradeDefaultDimensions ParentId backfill set-based (via DataTransfer)](../../../changes/bcapps/12307.md) (code change): "UpgradeDefaultDimensions procedure now uses set-based DataTransfer operations"
+- [Dynamics 365 Business Central license keys: what changes from version 28.](../../../posts/demiliani-com/17470.md) (community post): "requiring administrators to download a refreshed license file before each version upgrade"
 - [End of .NET 8 support and what it means for Dynamics 365 Business Central on-prem.](../../../posts/demiliani-com/17480.md) (community post): ".NET 8 and .NET 9 reach end of support on November 10, 2026"
-- [June 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-06-june-2026-cumulative-updates-for-dynamics-365-business-central--4240d05509.md) (community post): "cumulative update links for Business Central on-premises: 28.2, 27.8 and 26.14"
-- [July 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-07-july-2026-cumulative-updates-for-dynamics-365-business-central--36ef84971d.md) (community post): "July 2026 cumulative updates are available for Dynamics 365 Business Central"
-- [August 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-08-august-2026-cumulative-updates-for-dynamics-365-business-central--6c6d521699.md) (community post): "August 2026 cumulative updates are available for Dynamics 365 Business Central"
-- [September 2026 Cumulative Updates for Dynamics 365 Business Central](../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-09-september-2026-cumulative-updates-for-dynamics-365-business-central--f7d4d25920.md) (community post): "September 2026 cumulative updates are available for Dynamics 365 Business Central"
-- [(2025 MAY) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/10921.md) (community post): "Cumulative updates for Business Central replace previously released updates"
-- [(2025 JUL) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11452.md) (community post): "Cumulative updates for Business Central replace previous updates and fix vulnerabilities"
-- [(2025 AUG) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/11766.md) (community post): "latest Business Central cumulative updates: 26.4 for 2025 release wave 1"
-- [(2025 SEP) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12231.md) (community post): "latest Business Central cumulative updates: 26.5 for v26 (2025 release wave 1)"
-- [(2025 OCT) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12460.md) (community post): "Lists the latest cumulative updates for Business Central: 26.6 for v26"
-- [(2025 NOV) Cumulative Updates for Business Central](../../../posts/gerardorenteria-blog/12728.md) (community post): "Cumulative updates for Business Central replace previously released updates for each version"
-- [Cumulative Updates for Business Central – versions](../../../posts/gerardorenteria-blog/13744.md) (community post): "cumulative updates available for all versions of Dynamics 365 Business Central on-premises"
 
 ## Business Central pages and reports
 

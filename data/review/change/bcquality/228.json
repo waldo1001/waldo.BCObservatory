@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcquality-prs/228",
+  "input_hash": "4936aa360bd2057db6c69276f47a1420288c749e856f2eb2dec94d2e117f7289",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-22T01:10:58.676Z",
+  "issues": [
+    "Key point 4 is garbled ('Variant rollback behavior') and misstates the article. Rollback does not undo var parameters, so a failing subscriber can leave IsHandled true and the publisher then skips its default logic."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.026382,
+    "changes_in_call": 5
+  }
+}

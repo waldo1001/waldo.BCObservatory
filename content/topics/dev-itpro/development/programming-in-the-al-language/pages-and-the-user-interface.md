@@ -2,7 +2,7 @@
 id: topic/dev-itpro/development/programming-in-the-al-language/pages-and-the-user-interface
 type: topic
 title: Pages and the user interface
-summary: "Pages and the user interface in Business Central AL development: page objects and extensions, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, lay out, tailor and debug the UI for different user roles and clients."
+summary: "Pages and the user interface covers how to design and build the Business Central UI in AL: pages, role centers, actions, views, profiles, deep links, and mobile app development. It answers questions on layout, role-based customization, page inspection, and control add-in styling."
 tier: official
 language: en
 system: development
@@ -12,11 +12,11 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: de036bdd39840e7b48dc3bcf10bd69e7feb8e91cf43c1687c43b75a15fa98c94
+  input_hash: dc174c17b403f782918c401e4559b74f208188c779b53111b56cbb7e2ad634ed
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-action-bar-improvements
@@ -75,16 +75,16 @@ evidence:
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control
-    title: Arrange Fields Using Grid Control
-    date: "2023-02-06"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control
+    title: Arrange Fields in Rows and Columns Using a Fixed Control
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
   - kind: learn
-    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control
-    title: Arranging Fields in Rows and Columns Using a fixed Control
-    date: "2023-02-06"
+    url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control
+    title: Arrange Fields Using Grid Control
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -258,8 +258,8 @@ evidence:
     quote: null
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-on-fasttab
-    title: Field Arrangement on FastTabs
-    date: "2025-01-14"
+    title: FastTab Field Arrangement in Business Central
+    date: "2026-10-09"
     commit: null
     t: null
     quote: null
@@ -318,11 +318,11 @@ links:
   localizations: []
   videos:
     - video/2Zz55J8rt8I
-    - video/LaA6UNdkvso
-    - video/rWZcmEwwVHg
+    - video/ugHFHtSxTlw
   posts:
     - post/demiliani-com/12498
     - post/demiliani-com/12623
+    - post/gerardorenteria-blog/12961
     - post/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee
   guidelines: []
   changes:
@@ -349,8 +349,8 @@ children:
 coverage:
   learn: 69
   code: 0
-  video: 3
-  blog: 3
+  video: 2
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 4b85c5a961bfa013683b351bf15cdd48537c4ed457c3eb55957b8da3fe6729b7
@@ -359,28 +359,28 @@ narrative: generated
 
 # Pages and the user interface
 
-> Pages and the user interface in Business Central AL development: page objects and extensions, role centers, actions, views, profiles, deep links, mobile app development, page inspection and the control add-in style guide. It answers how to design, lay out, tailor and debug the UI for different user roles and clients.
+> Pages and the user interface covers how to design and build the Business Central UI in AL: pages, role centers, actions, views, profiles, deep links, and mobile app development. It answers questions on layout, role-based customization, page inspection, and control add-in styling.
 
 Path: [Development](../../development.md) > [Programming in the AL language](../programming-in-the-al-language.md) > Pages and the user interface · tier official · system development · narrative **unreviewed** (model text not yet checked)
 
 ## Overview
 
-This section covers how to build the Business Central user interface in AL. It starts with general design guidance (Designing the User Interface) and a page on customizing the UI for user roles. That page describes a layered approach: Role Centers, page extensions, profiles, page customizations and personalization.
+This section is about everything a user sees in the Business Central client and how to build it with AL. The core is the Pages subtopic (page objects, page types, extensions, user assistance), supported by Role centers, Actions, and Views for home pages, commands, and alternative list layouts.
 
-The subtopics go deeper on each layer. Pages covers page types, layout controls, FactBoxes and extensions. Actions covers action placement and promotion. Role centers, Views and Profiles cover role-tailored home pages, alternative list views and user roles. Deep links explains URLs that open specific content. The mobile app subtopic covers tablet and phone development and testing.
+Role-based tailoring is layered. The page "Customize the user interface for user roles" describes the layers: Role Centers, page extensions, profiles, page customizations, and personalization. The Profiles subtopic covers the objects that define roles. Deep links and the mobile app subtopic cover reaching content from URLs and building for tablet and phone.
 
-Two standalone pages help with finishing and debugging. The Control Add-in Style Guide gives CSS colors, typography and design principles so add-ins match the Business Central theme. Inspecting pages describes Page Inspection in the web client, which shows page structure, data sources, extensions, filters and source table fields without reading code. A good start is Designing the User Interface, then Pages.
+Start with "Designing the User Interface" for an overview of page types, role centers, actions, views, queries, and profiles. Then go to Pages. Use "Inspecting pages" (Page Inspection in the web client) to debug existing page structure, and the Control Add-in Style Guide when building add-ins that should match the Business Central look.
 
 ## Key points
 
-- Customizing the UI for roles works in layers: Role Centers, page extensions, profiles, page customizations and personalization.
-- Pages subtopic covers page and page extension objects, types such as Card, List, Document, parts, PromptDialog, ConfigurationDialog and NavigatePage, FactBoxes, tooltips and Power BI embedding.
-- Actions subtopic covers actionref syntax, action areas, the modern action bar with split buttons, promoted groups and prompt actions that launch Copilot.
+- Pages subtopic (33 pages) covers page objects and extensions, card, list, part, NavigatePage, PromptDialog and ConfigurationDialog types, field layout, tooltips, Tell me, and teaching tips.
+- Role centers cover role-tailored home pages, navigation menus, cues, headlines, and a user onboarding checklist.
+- Actions cover adding, organizing and promoting actions, the modern action bar with split buttons, actionref syntax, and prompt actions that launch Copilot.
 - Views define alternative filtering, sorting and layout for list pages, and legacy Role Center views can be migrated to modern list views.
-- Profiles define user roles that control which pages and reports a user sees, using profile, profile extension and page customization objects.
-- Deep links use URL parameters such as company, page, report, table, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.
-- Page Inspection in the web client (2023 release wave 2) shows page structure, source table fields, extensions and filters for debugging.
-- The Control Add-in Style Guide supplies the color palette, typography, font families and chart colors for add-ins that match the theme.
+- Profiles define user roles through profile objects, profile extensions, and page customization objects.
+- Deep links are URLs that open pages, reports or tables using parameters such as company, page, mode, profile, filter and bookmark, plus the ms-businesscentral URI scheme for the mobile app.
+- Page Inspection in the web client shows page structure, source table fields, extensions and filters without reading code (2023 release wave 2).
+- The Control Add-in Style Guide gives CSS colors, typography, chart colors and design principles for add-ins that blend into the client.
 
 ## Subtopics
 
@@ -411,9 +411,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#214 UI knowledge: notification recall needs a known Id; open mixed-type documents through Page Management](../../../../changes/bcquality/214.md) (code change): "handle multi-document routing through Page Management instead of hard-coded mappings"
 - [Dynamics 365 Business Central: introducing the new MaskedType enum field-level property.](../../../../posts/demiliani-com/12498.md) (community post): "MaskType enum property for table fields supports None and Concealed"
 - [Dynamics 365 Business Central: previewing PDF files in web client using the new ExtendedDataType = Document.](../../../../posts/demiliani-com/12623.md) (community post): "new ExtendedDataType called Document that enables PDF file previews in web client FactBoxes"
+- [🕐 Remember When Lists Could Sort By Any Key? 🔄](../../../../posts/gerardorenteria-blog/12961.md) (community post): "a solution to sort Business Central list pages by any predefined table key"
 - [Business Central ToolTip and ToolTipML Properties Are Now Available on Pages](../../../../posts/sauravdhyani-com/tag-blogger-com-1999-blog-3122193036149030463-post-9167085598395012736--e9edbb4eee.md) (community post): "ToolTip and ToolTipML properties directly on page objects"
 - [Use Teaching Tips to Educate and Guide Users](../../../../videos/2Zz55J8rt8I.md) (video): "Teaching Tips; Tours with Teaching Tips"
-- [Generate Mermaid.js Diagrams with AL Code (2026 Edition)](../../../../videos/LaA6UNdkvso.md) (video): "Interactive Diagram Elements; Multiple Diagram Types Support; CSS Theming Support"
-- [What's New: Business Central User Experience (2024 release wave 2)](../../../../videos/rWZcmEwwVHg.md) (video): "Access Keys for Additional Languages; Modernized Search with Full-Text Index; Faster Column Resizing"
+- [Business Central Under the Hood episode 7: Designing Business Central's UI, From Concept To Code](../../../../videos/ugHFHtSxTlw.md) (video): "Designing Business Central's UI, From Concept To Code"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

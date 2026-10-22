@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:16:49.622Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -204,12 +204,11 @@ links:
   localizations: []
   videos:
     - video/3UcLmXqyl44
-    - video/9zQZHfXK-PQ
     - video/aNRzlbxVPWE
+    - video/jWqjDTbqjeE
     - video/MKuOgMWXJ_8
     - video/moPzf04Mwlc
     - video/nbGw2g3KMXI
-    - video/reUoIdQZaNM
     - video/Vq9Nk6_uxmQ
     - video/WFAZLsUTk20
   posts:
@@ -217,10 +216,8 @@ links:
     - post/bertverbeek-nl/1219
     - post/bertverbeek-nl/1237
     - post/bertverbeek-nl/1290
-    - post/gerardorenteria-blog/13993
-    - post/katson-com/4530
+    - post/demiliani-com/17508
     - post/kauffmann-nl/8436
-    - post/vondervoort-be/84
   guidelines: []
   changes:
     - change/bcapps/10386
@@ -241,8 +238,8 @@ children:
 coverage:
   learn: 23
   code: 0
-  video: 9
-  blog: 8
+  video: 8
+  blog: 6
   guideline: 0
 bc_forms: []
 member_hash: 2363f50364b2a6e5ec17552aa75d99987877fc7bce7ed791a7189963ccc729d0
@@ -312,17 +309,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Agents in Business Central – part 1 – the architecture](../../../posts/bertverbeek-nl/1219.md) (community post): "Agents in Business Central 27.4 allow you to create"
 - [Agents in Business Central – part 2 – the prompt](../../../posts/bertverbeek-nl/1237.md) (community post): "Building effective agents in Business Central requires well-structured prompts"
 - [Agents in Business Central – part 6 – The conclusion](../../../posts/bertverbeek-nl/1290.md) (community post): "Agents in Business Central with those created in Copilot"
-- [🧠 Agent Skills + MCPs: check your BC extension health in VS Code 🔍](../../../posts/gerardorenteria-blog/13993.md) (community post): "Agent Skills are reusable instruction packages in VS Code that orchestrate"
-- [Meet Custom Agents in Business Central](../../../posts/katson-com/4530.md) (community post): "Meet Custom Agents in Business Central"
+- [Me @ Directions EMEA 2026](../../../posts/demiliani-com/17508.md) (community post): "monitoring and governing multiple types of AI agents running within Business Central"
 - [Designing Agents for Business Central](../../../posts/kauffmann-nl/8436.md) (community post): "Agent Design Experience in Business Central v27.4 is a sandbox tool for designing, testing, and refining agent instructions"
-- [Dutch Dynamics Community Event 10 February 2026](../../../posts/vondervoort-be/84.md) (community post): "Creating AI agents in Business Central version 27.4 allows developers to build agents"
 - [What's New: Exporting and Importing Agent in Business Central](../../../videos/3UcLmXqyl44.md) (video): "agent export; agent import; agent definition; xml; agent backup"
-- [From Code to Docs: Using GitHub Copilot to Automate Business Central Documentation](../../../videos/9zQZHfXK-PQ.md) (video): "Using GitHub Copilot to automate Business Central documentation with agents"
 - [Getting Started With Agent Testing: How to Write Agent Evals in AL (Part 2)](../../../videos/aNRzlbxVPWE.md) (video): "How to Write Agent Evals in AL; agent testing; evals; yaml-driven tests"
+- [Introducing: Envision, Design and Code Business Central Agents](../../../videos/jWqjDTbqjeE.md) (video): "Introducing: Envision, Design and Code Business Central Agents"
 - [What's New: Sales Validation Sample Agent for Business Central](../../../videos/MKuOgMWXJ_8.md) (video): "Sales Validation Agent; Agent Configuration Card; Agent Dedicated Profile"
 - [What's New: How To Create Agents in Business Central](../../../videos/moPzf04Mwlc.md) (video): "How To Create Agents in Business Central; agent creation; no-code configuration; task execution"
 - [20260713 - From Zero to Agent Building agents in Business Central](../../../videos/nbGw2g3KMXI.md) (video): "From Zero to Agent Building agents in Business Central"
-- [20260209 - Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions](../../../videos/reUoIdQZaNM.md) (video): "Architecture clarity improves AI prompts; Structurizer playground"
 - [Business Central Under the Hood episode 14: Building Agents in Business Central](../../../videos/Vq9Nk6_uxmQ.md) (video): "Building Agents in Business Central; custom agents; agent instructions; permissions"
 - [What's New: Business Central Agent Instruction History](../../../videos/WFAZLsUTk20.md) (video): "Agent Instruction History Autosave; Download Instructions; View Instruction History"
 

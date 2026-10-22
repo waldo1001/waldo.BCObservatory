@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -260,6 +260,8 @@ links:
     - topic/dev-itpro/administration/admin-center/admin-center-api
   localizations: []
   videos:
+    - video/_6bYqpKzL8s
+    - video/_nmA6xJXKiY
     - video/-uAvdZAWWwI
     - video/22duXC6j_No
     - video/3Xus5tm2xKI
@@ -267,14 +269,17 @@ links:
     - video/HixajKEd-A4
     - video/KNy2KujjheU
     - video/LerAo-GGl8U
+    - video/qYW5wo0fKgA
+    - video/TBBlYpwbAFk
     - video/uv2NsSD5P7U
     - video/wPEZ3U5j4zw
   posts:
+    - post/demiliani-com/14163
     - post/duiliotacconi-com/1537
-    - post/duiliotacconi-com/1748
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368
     - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46
     - post/thinkaboutit-be/7897
     - post/thinkaboutit-be/7930
     - post/thinkaboutit-be/8077
@@ -290,8 +295,8 @@ children:
 coverage:
   learn: 31
   code: 0
-  video: 9
-  blog: 9
+  video: 13
+  blog: 10
   guideline: 0
 bc_forms: []
 member_hash: 930971b86417f2cb2b2eec1be9a17360eecf5bc00c57b0be177b1f74f8f8c24d
@@ -350,15 +355,18 @@ Monitoring and cost pages cover environment telemetry with Application Insights,
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
+- [Dynamics 365 Business Central: important changes in PTE management.](../../../posts/demiliani-com/14163.md) (community post): "upload PTEs and schedule their installation via the Admin Center's Manage Apps page"
 - [How to choose the best Update Window in Dynamics 365 Business Central Online](../../../posts/duiliotacconi-com/1537.md) (community post): "pick a Business Central Online update window so that application hotfixes"
-- [Cloud Customer Management System (CCMS): to avoid reinventing the wheel](../../../posts/duiliotacconi-com/1748.md) (community post): "free, open-source Business Central app written in AL for managing partners' cloud customer tenants"
 - [Managing Apps in the Business Central Admin Center](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-1170961607735589786--c4e7aa9368.md) (community post): "The Manage Apps page in the Business Central admin center controls the stack"
 - [How I Recreated the Extension Upload Experience in Business Central](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-2501623073598492643--ce507d65a8.md) (community post): "calling the Business Central admin center API from AL"
 - [BC Friday Tips #34 Restore Environment](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-33-restore-environment--42bac06f08.md) (community post): "An environment can be restored to any point within the last 28 days from the Admin Center"
+- [BC Friday Tips #85 Schedule PTE Extension Updates from the Admin Centre](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-85-schedule-pte-extension-updates--b3aee1ab46.md) (community post): "schedule PTE extension updates from the Business Central Admin Centre"
 - [How Do I: Manage and Postpone BC Updates in the Admin Center](../../../posts/thinkaboutit-be/7897.md) (community post): "Managing Business Central SaaS updates in the Admin Center allows you to schedule, delay, and respond to rollout pauses"
 - [Quick Tip: Almost Every BC Major Release Gets Paused. Are Your Environments Ready?](../../../posts/thinkaboutit-be/7930.md) (community post): "schedule production updates late in the window, configure notification recipients"
 - [Quick Tip: Reading the Capacity Page in the Business Central Admin Center](../../../posts/thinkaboutit-be/8077.md) (community post): "Two independent limits govern environment creation: environment count"
 - [Troubleshooting Series – Ep2 – Admin Center – Sessions](../../../posts/waldo-be/317739.md) (community post): "The Sessions window in the Business Central Admin Center allows partners and delegated admins"
+- [Upgrade Business Central Sandbox to Preview Version](../../../videos/_6bYqpKzL8s.md) (video): "Schedule preview version update from admin center"
+- [Introducing: PTEs in Admin Center (2025 release wave 1)](../../../videos/_nmA6xJXKiY.md) (video): "Uninstall Apps from Admin Center"
 - [Transfer Environments](../../../videos/-uAvdZAWWwI.md) (video): "Environment transfers between Entra tenants; Transfer scheduling; Pending transfer cancellation"
 - [Manage all your Apps And Updates in Admin Center for Business Central](../../../videos/22duXC6j_No.md) (video): "Manage all your Apps And Updates in Admin Center for Business Central"
 - [What's new: Manage PTEs in the Admin Center (2026 release wave 2)](../../../videos/3Xus5tm2xKI.md) (video): "PTE upload, install, and update in admin center; Flexible deployment schedule for PTE"
@@ -366,6 +374,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [What's new: Match Production Database Configuration (2026 release wave 2)](../../../videos/HixajKEd-A4.md) (video): "sandbox configuration; production database matching; admin center"
 - [What's new: Database Export Enhancements (2026 release wave 2)](../../../videos/KNy2KujjheU.md) (video): "database export; admin center; operations page; reliability; visibility"
 - [Microsoft presents: Next level administration skills with the admin MCP server and agents](../../../videos/LerAo-GGl8U.md) (video): "Admin MCP Server for Business Central; Multi-Tenant Administration via MCP"
+- [What's Cooking in Business Central: Early Access Preview](../../../videos/qYW5wo0fKgA.md) (video): "sandbox environments; admin center; version 28.0"
+- [What's New: Environment-Level Access Controls for Delegated Administrators (2024 release wave 2)](../../../videos/TBBlYpwbAFk.md) (video): "Partner access control by environment; All partners access mode"
 - [What's New: Flexible Update Management (2024 release wave 2)](../../../videos/uv2NsSD5P7U.md) (video): "update management; major versions; minor updates; grace period; enforced updates"
 - [What's New: Flexible Update Management (2025 release wave 1)](../../../videos/wPEZ3U5j4zw.md) (video): "Flexible update management - General availability; Five-month update period"
 

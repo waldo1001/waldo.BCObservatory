@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -74,9 +74,7 @@ links:
     - topic/dev-itpro/development/troubleshooting
   localizations: []
   videos: []
-  posts:
-    - post/aardvarklabs-blog/3706
-    - post/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244
+  posts: []
   guidelines: []
 learn_toc_path:
   - Development
@@ -89,7 +87,7 @@ coverage:
   learn: 6
   code: 0
   video: 0
-  blog: 2
+  blog: 0
   guideline: 0
 bc_forms: []
 member_hash: 9da1fe15b2f204fe13ee3995e8174dab30aa920160aa61853ce3b3395b01e924
@@ -129,12 +127,5 @@ Start with Debug AL Code for general errors, the AL Profiler for slow code, and 
 - [Performance Articles for AL Developers](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/performance/performance-developer): Learn how to write efficient AL code, pages, reports, and web services, and use tools like the AL Profiler to improve performance in Business Central.
 - [Snapshot debugging](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging): Overview of how snapshot debugging allows recording running AL code for Business Central.
 - [Troubleshooting Printing](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-reports-troubleshoot-printing): Dynamics 365 Business Central supports different types of events including BusinessEvent, IntegrationEvent, Global, and trigger events.
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Troubleshooting AL Extension in VS Code: Phantom Errors](../../../../posts/aardvarklabs-blog/3706.md) (community post): "Phantom AL extension errors in VS Code where tables appear marked as missing permission sets"
-- [Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland](../../../../posts/stefanmaron-com/https-stefanmaron-com-posts-fixing-al-debugger-linux-wayland--13617af244.md) (community post): "The AL Language Extension debugger fails on Linux with Wayland/Hyprland, showing empty"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

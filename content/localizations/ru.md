@@ -14,17 +14,17 @@ review:
   at: "2026-10-21T00:39:45.490Z"
   flags: []
 generated:
-  at: "2026-10-21T00:40:39.296Z"
+  at: "2026-10-22T01:03:16.851Z"
   pipeline: 0.2.0
   prompts:
     hub-localization: 2
-  input_hash: 8e71f02f5d926e02e634ffeb83e102a18518392fbadcf1cc9f64c35948960cfc
+  input_hash: dc9c1b7ce2132d8c4407df4734d9e99213499acebf7c5ab11a07cc86ff2cedd3
 evidence:
   - kind: code
     url: https://github.com/microsoft/BCApps
     title: country diff 29-ru
     date: null
-    commit: 7f41d35742230d336aa3ef0076182523d6ab433b
+    commit: e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc
     t: null
     quote: null
 links:

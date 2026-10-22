@@ -23,7 +23,7 @@ review:
   at: "2026-10-07T22:43:05.096Z"
   flags: []
 generated:
-  at: "2026-10-21T00:46:46.250Z"
+  at: "2026-10-22T01:09:20.607Z"
   pipeline: 0.2.0
   prompts:
     extract-video: 1
@@ -142,12 +142,10 @@ features:
     roadmap_ids:
       - "576815"
   - name: App filtering by type in admin center
-    status: ga
+    status: unclear
     t: 175
     verified: false
-    status_source: roadmap
-    roadmap_ids:
-      - "576815"
+    status_source: video
   - name: Multiple concurrent PTE schedules
     status: ga
     t: 301
@@ -259,7 +257,7 @@ It then covers considerations: the old extension management pages and automation
 |---|---|---|
 | PTE upload, install, and update in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [0:23](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=23s) |
 | Flexible deployment schedule for PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [1:28](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=88s) |
-| App filtering by type in admin center | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
+| App filtering by type in admin center | status not stated, demoed | [2:55](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=175s) |
 | Multiple concurrent PTE schedules | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [5:01](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=301s) |
 | Cancel scheduled PTE installation | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:19](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=379s) |
 | Environment operations audit page | generally available (roadmap [Upload, install, and manage PTEs in the admin center](../features/576815.md)), demoed | [6:49](https://www.youtube.com/watch?v=3Xus5tm2xKI&t=409s) |

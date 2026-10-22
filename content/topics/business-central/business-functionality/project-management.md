@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:15:19.424Z"
   flags: []
 generated:
-  at: "2026-10-19T01:12:12.504Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -383,8 +383,7 @@ links:
     - video/pEXl-POet_4
     - video/sVlPlmok5U8
     - video/wlVewBgq9-Q
-  posts:
-    - post/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68
+  posts: []
   guidelines: []
   changes:
     - change/bcapps/10361
@@ -403,7 +402,7 @@ coverage:
   learn: 43
   code: 61
   video: 5
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 88
@@ -519,7 +518,6 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9083 Bug 639857: Project journal ignores task-level Bill-to Customer for pricing](../../../changes/bcapps/9083.md) (code change): "Project journal pricing now respects task-level bill-to customer settings"
 - [#9280 Project Task Billing Method reverts to original value in project card without validation or error](../../../changes/bcapps/9280.md) (code change): "Project Task Billing Method field now persists correctly when changed from One Customer to Multiple Customers"
 - [#9315 [Projects] Add Assigned Resources to projects and project tasks](../../../changes/bcapps/9315.md) (code change): "Projects now support assigning resources at the project level or to specific posting-type tasks"
-- [Testing Your MCP Connection with Real Business Central Questions and Best Practices (BLOG 4 OF 4)](../../../posts/mohana-blog/tag-blogger-com-1999-blog-1492436440038408053-post-7429326284625186983--78752bab68.md) (community post): "project budget analysis and inventory visualization"
 - [What's New: Project Management (2024 release wave 1)](../../../videos/dD_2NEs3A40.md) (video): "Jobs renamed to Projects; Project details box visible by default"
 - [What's New: Entering and Approving Time Sheets (2024 release wave 1)](../../../videos/MgWlmZAlqGI.md) (video): "time sheet entry; time sheet approval; context-aware actions"
 - [What's New: Project and Service Management (2024 release wave 1)](../../../videos/pEXl-POet_4.md) (video): "directed put-away; warehouse pick; project locations"

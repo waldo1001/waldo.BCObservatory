@@ -12,7 +12,7 @@ review:
   at: null
   flags: []
 generated:
-  at: "2026-10-18T00:56:54.350Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts: {}
   input_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -81,13 +81,17 @@ links:
   localizations: []
   videos:
     - video/D7GxnNiGQ14
+    - video/G0avZpiDFtI
+    - video/snVsG69X-kw
+    - video/XcQFvNnKpxk
   posts:
     - post/demiliani-com/11962
     - post/demiliani-com/13096
     - post/demiliani-com/13254
     - post/demiliani-com/13369
+    - post/duiliotacconi-com/1457
+    - post/duiliotacconi-com/1624
     - post/duiliotacconi-com/2001
-    - post/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb
     - post/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97
     - post/waldo-be/318212
   guidelines: []
@@ -101,8 +105,8 @@ children: []
 coverage:
   learn: 7
   code: 0
-  video: 1
-  blog: 8
+  video: 4
+  blog: 9
   guideline: 0
 bc_forms: []
 member_hash: 3c132f98db248cb597b6542b46c3cf41dc0905fc13766ee01ca7d1390c61ca68
@@ -134,10 +138,14 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [Dynamics 365 Business Central UI performance: what about the browser and the local machine?](../../posts/demiliani-com/13096.md) (community post): "Business Central UI performance depends on network latency, browser capabilities, and local machine hardware"
 - [Dynamics 365 Business Central: understanding the Database Wait Statistics page.](../../posts/demiliani-com/13254.md) (community post): "Understanding wait categories, task counts, wait times, signal waits helps identify performance bottlenecks"
 - [Dynamics 365 Business Central: monitoring your customer’s network speed from telemetry.](../../posts/demiliani-com/13369.md) (community post): "New deviceHardware telemetry node contains CPU cores, memory, network downlink speed and round-trip time"
+- [Dynamics 365 Business Central 2025 Wave 1 (26.x): real values to upgrade](../../posts/duiliotacconi-com/1457.md) (community post): "introduces a less-locking inventory posting engine and optimizes FlowField calculations on pages"
+- [Dynamics 365 Business Central 2025 Wave 2. What’s New in Performance.](../../posts/duiliotacconi-com/1624.md) (community post): "performance gains are cumulative across versions"
 - [Index Management with Dynamics 365 Business Central 2026 Wave 1](../../posts/duiliotacconi-com/2001.md) (community post): "disable and enable indexes on demand, allowing organizations to improve write performance"
-- [Optimizing BC Code History Downloads with HTTP Range Requests](../../posts/stefanmaron-com/https-stefanmaron-com-posts-optimizing-bc-code-history-range-requests--ad9c9f15cb.md) (community post): "Optimizing the MSDyn365BC.Sandbox.Code.History repository's daily download pipeline by fixing silent failures"
 - [Planning Table Indexes for the Best Performance](../../posts/stefanmaron-com/https-stefanmaron-com-posts-planning-table-indexes-bc-performance--d30e727e97.md) (community post): "justify each index by confirming it's actually needed and used"
 - [Troubleshooting Series – Ep3 – Missing Indexes](../../posts/waldo-be/318212.md) (community post): "careful analysis using telemetry to track missing indexes over time"
 - [20260223 - If You Can’t Make It Fast, Make It Feel Fast](../../videos/D7GxnNiGQ14.md) (video): "If You Can't Make It Fast, Make It Feel Fast"
+- [What's New: Server and Database (2025 release wave 1)](../../videos/G0avZpiDFtI.md) (video): "Faster Copy Company; Database Missing Indexes Page Enhancements"
+- [Business Central Under the Hood episode 3: How Many Users Can Business Central Handle in the Cloud?](../../videos/snVsG69X-kw.md) (video): "User scalability in Business Central cloud"
+- [What's New: Performance Testing before Go-Live with Performance Toolkit (2023 release wave 2)](../../videos/XcQFvNnKpxk.md) (video): "Performance Testing before Go-Live with Performance Toolkit"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

@@ -1,0 +1,21 @@
+{
+  "item_id": "change/bcapps-prs/12767",
+  "input_hash": "a23647f704f078a89733e87d0bb06ebeeac1692ad2eeb19ce4162a6dce904172",
+  "verdict": "fix",
+  "by": "opus",
+  "at": "2026-10-22T01:10:52.904Z",
+  "issues": [
+    "Nothing given supports the key point 'Affects vendor subscription contracts only'. The one-line change is in the shared Create Billing Documents codeunit."
+  ],
+  "applied": [
+    "key points rewritten"
+  ],
+  "rejected_edits": [],
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-opus-5-5",
+    "cached": false,
+    "cost_usd": 0.02081,
+    "changes_in_call": 6
+  }
+}

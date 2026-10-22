@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T21:13:11.968Z"
   flags: []
 generated:
-  at: "2026-10-17T01:13:14.128Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -41,8 +41,7 @@ links:
   topics:
     - topic/dev-itpro/development/programming-in-the-al-language/developing-reports
   localizations: []
-  videos:
-    - video/2N2NhNH7dsk
+  videos: []
   posts:
     - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604
   guidelines: []
@@ -57,7 +56,7 @@ children: []
 coverage:
   learn: 2
   code: 0
-  video: 1
+  video: 0
   blog: 1
   guideline: 0
 bc_forms: []
@@ -99,6 +98,5 @@ Start with "Add pages and reports to Tell me" if you need a report to show up in
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
 - [BC Friday Tips #54 Report Explorer](../../../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-54-report-explorer--38c2959604.md) (community post): "Report Explorer is a discovery tool in Business Central that helps users browse"
-- [What's new in reporting: Layout Management and Report Inbox API's (2026 release wave 2)](../../../../../videos/2N2NhNH7dsk.md) (video): "layout management; layout status; report layouts; report inbox"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

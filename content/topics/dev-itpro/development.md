@@ -2,21 +2,21 @@
 id: topic/dev-itpro/development
 type: topic
 title: Development
-summary: "Development for Business Central covers building extensions in AL with Visual Studio Code: setup, language reference, extensibility, extension lifecycle, best practices, troubleshooting and AL-Go DevOps automation. It answers questions on how to set up, write, extend, deploy, publish and debug AL code."
+summary: "Development in Business Central covers building AL extensions: setting up Visual Studio Code, the AL language, extensibility, extension lifecycle, best practices, troubleshooting, and AL-Go for GitHub DevOps. It answers setup, syntax, design, deployment and diagnosis questions for AL developers."
 tier: official
 language: en
 system: development
 review:
   state: reviewed
   by: opus
-  at: "2026-10-19T01:12:10.962Z"
+  at: "2026-10-22T01:12:25.216Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
-  input_hash: 5bbceb42a3d83bbec8bd10c957000ad08a814bef5d66a9bf4c0070d9ed6d0623
+  input_hash: 63895d27a8e684f5f0e677589c054634116ed06bc238035a64b63e3c06aa286f
 evidence:
   - kind: learn
     url: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-dotnet-controladdins
@@ -397,7 +397,8 @@ links:
   videos:
     - video/mnxOSl1Y9PI
   posts:
-    - post/demiliani-com/11858
+    - post/gerardorenteria-blog/13675
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d
   guidelines: []
   changes:
     - change/bcapps/10545
@@ -432,7 +433,7 @@ coverage:
   learn: 523
   code: 77
   video: 1
-  blog: 1
+  blog: 2
   guideline: 0
 bc_forms:
   - 16
@@ -529,28 +530,28 @@ narrative: generated
 
 # Development
 
-> Development for Business Central covers building extensions in AL with Visual Studio Code: setup, language reference, extensibility, extension lifecycle, best practices, troubleshooting and AL-Go DevOps automation. It answers questions on how to set up, write, extend, deploy, publish and debug AL code.
+> Development in Business Central covers building AL extensions: setting up Visual Studio Code, the AL language, extensibility, extension lifecycle, best practices, troubleshooting, and AL-Go for GitHub DevOps. It answers setup, syntax, design, deployment and diagnosis questions for AL developers.
 
 Path: Development · tier official · system development · narrative reviewed (checked by Opus)
 
 ## Overview
 
-Development is the entry point for AL developers working on Business Central extensions. Its own pages introduce the extension model (table extensions, page extensions, codeunits, reports), the AL Language reference (data types, methods, properties, attributes, diagnostics, code analyzers) and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
+Development is the entry point for AL developers working on Business Central extensions. The hub's own pages introduce the extension model (table, page, codeunit and report objects built with AL and Visual Studio Code), the AL Language reference (data types, methods, properties, attributes, diagnostics and code analyzers), and AL-Go for GitHub, which provides templates and actions for CI/CD, automated testing and version control.
 
-The subtopics follow the work from start to finish. Get started and Development environment cover VS Code, the AL Language extension, a first extension, compiling, publishing, debugging, sandboxes and packaging. Programming in the AL language and The AL programming language cover syntax and objects. Extensibility explains how to change behavior without touching base code. Rules, guidelines, and best practices, Extension lifecycle and Troubleshooting cover obsoleting code, deploying and updating apps, and diagnosing problems.
+The subtopics follow a typical developer path. Start with Get started and Development environment for VS Code setup, first extension, compiling, publishing, debugging and sandboxes. Then use Programming in the AL language and The AL programming language for syntax and object details, and Extensibility for extending base code through events and extensions without changing it.
 
-Start with Get started and Developing extensions in AL if you are new. Move to Extensibility and the language sections when you build features. Use AL-Go, the lifecycle pages and Troubleshooting when you prepare for delivery, per-tenant deployment or Marketplace publishing.
+Later stages are covered by Rules, guidelines, and best practices (deprecation, code style, performance, security, Marketplace submission), Extension lifecycle (testing, deploying, updating, migrating data), and Troubleshooting (debugging, profiling, telemetry in Application Insights, TSGs). Smaller sections cover data analytics and reporting and the System Application and Business Foundation layers.
 
 ## Key points
 
-- Extensions are built in AL with Visual Studio Code and the AL Language extension, using objects such as tables, pages, codeunits and reports.
-- The extension model uses table extensions and page extensions to change behavior without modifying base code.
-- AL Language reference covers data types, methods, properties, method attributes, AL and AVS diagnostics, and code analyzers.
+- Developing extensions in AL uses Visual Studio Code and covers creating or extending tables, pages, codeunits and reports, with table and page extensions, snippets and compiler validation.
+- The AL Language reference covers data types, methods, properties, triggers, method attributes, AL and AVS diagnostics and code analyzers.
 - AL-Go for GitHub offers templates and actions for CI/CD, automated testing, version control and repository maintenance, for per-tenant extensions or Marketplace apps.
-- Extensibility covers events, requesting changes to Microsoft code, client add-ins, Power BI embedding and System Application modules.
-- Rules and best practices explain how to obsolete AL objects, methods and symbols, and how to deprecate external business events.
-- Extension lifecycle covers testing, deploying, updating, translating, data migration, extension types and scopes.
-- Troubleshooting covers AL debugging and profiling, Application Insights telemetry and troubleshooting guides for errors, slow performance, locks and web service failures.
+- Get started and Development environment cover VS Code setup, projects, workspaces, compiling, publishing, debugging, testing and sandboxes.
+- Extensibility explains extending code flow, tables, pages, reports, enums and permission sets through events, without changing base code.
+- Rules and best practices include deprecating objects and methods, code style, testing, performance, security, telemetry and Marketplace submission.
+- Extension lifecycle covers extension types and scopes, deployment, updates, translation, data migration and deprecation.
+- Troubleshooting covers AL debugging and profiling, Application Insights telemetry and guides for errors, slow performance, locks and web service or migration failures.
 
 ## Subtopics
 
@@ -588,7 +589,8 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 - [#9650 [Master] -Revert Changes- 'Greater Than' Withholding Tax Calculation Rule is not applied correctly in Withholding Tax Posting Setup.](../../changes/bcapps/9650.md) (code change): "Reverts the earlier change from PR 9515 to how the 'Greater Than' withholding tax calculation"
 - [#9876 [Subscription Billing] Rename progress tracker](../../changes/bcapps/9876.md) (code change): "Codeunit 8035 renamed from 'Progress Tracker' to 'Sub. Billing Progress Tracker'"
 - [#87 Fix knowledge corpus integrity issues](../../changes/bcquality/87.md) (code change): "Dead knowledge and sample references in skill documentation were replaced with canonical current articles"
-- [GitHub Copilot Coding Agent helps you stay strong on the bike…](../../posts/demiliani-com/11858.md) (community post): "GitHub Copilot Coding Agent helps you stay strong on the bike. The author assigned an urgent issue"
+- [📝 Adding Notes to Financial Report Lines 📊](../../posts/gerardorenteria-blog/13675.md) (community post): "AL extension adds line-level notes to financial reports; new fields added"
+- [BC Friday Tips #62 VS Code AL Themes](../../posts/thatnavguy-com/https-thatnavguy-com-blog-2026-bc-friday-tips-62-vs-code-al-themes--b6e93a2c5d.md) (community post): "The AL Language extension in VS Code includes built-in themes called Business Central Light and Business Central Dark"
 - [What's New: Key Updates in our Learning Content (documentation) For Developers (2024 release wave 1)](../../videos/mnxOSl1Y9PI.md) (video): "Key Updates in our Learning Content documentation For Developers 2024 release wave 1"
 
 ## Business Central pages and reports

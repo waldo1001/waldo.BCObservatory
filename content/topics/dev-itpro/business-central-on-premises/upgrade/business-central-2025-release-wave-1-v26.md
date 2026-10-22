@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:26:42.546Z"
   flags: []
 generated:
-  at: "2026-10-20T08:48:51.539Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -59,7 +59,7 @@ links:
   localizations: []
   videos: []
   posts:
-    - post/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2
+    - post/gerardorenteria-blog/11452
     - post/gerardorenteria-blog/13195
   guidelines: []
 learn_toc_path:
@@ -115,7 +115,7 @@ Both procedures follow the same broad flow: convert the database, publish extens
 
 Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
 
-- [Business Central Is Transitioning to .NET 10, and Here's What You Should Check](../../../../posts/dvlprlife-com/https-www-dvlprlife-com-2026-10-business-central-is-transitioning-to-dotnet-10--d3cb2afda2.md) (community post): "BC 28 at CU 28.6, BC 29 at release. Each BC release and CU combination requires"
+- [(2025 JUL) Cumulative Updates for Business Central](../../../../posts/gerardorenteria-blog/11452.md) (community post): "Cumulative updates for Business Central replace previous updates and fix vulnerabilities"
 - [(2025 DEC) Cumulative Updates for Business Central](../../../../posts/gerardorenteria-blog/13195.md) (community post): "Cumulative Updates for Business Central. This post lists cumulative updates released"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.

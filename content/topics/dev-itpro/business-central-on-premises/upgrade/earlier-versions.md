@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T05:20:49.753Z"
   flags: []
 generated:
-  at: "2026-10-21T00:49:06.669Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -317,8 +317,7 @@ links:
     - topic/dev-itpro/business-central-on-premises/upgrade/earlier-versions/business-central-spring-2019
   localizations: []
   videos: []
-  posts:
-    - post/gerardorenteria-blog/13744
+  posts: []
   guidelines: []
 learn_toc_path:
   - Business Central on-premises
@@ -342,7 +341,7 @@ coverage:
   learn: 92
   code: 0
   video: 0
-  blog: 1
+  blog: 0
   guideline: 0
 bc_forms:
   - 19010
@@ -384,12 +383,6 @@ This section holds one subtopic per release, from Business Central spring 2019 (
 - [Business Central 2020 release wave 1](earlier-versions/business-central-2020-release-wave-1.md) (13 pages)
 - [Business Central 2019 release wave 2](earlier-versions/business-central-2019-release-wave-2.md) (5 pages)
 - [Business Central spring 2019](earlier-versions/business-central-spring-2019.md) (10 pages)
-
-## Videos and posts
-
-Linked by a Haiku matcher with a grounding quote from the item's summary (link/topics.ts); machine-generated.
-
-- [Cumulative Updates for Business Central – versions](../../../../posts/gerardorenteria-blog/13744.md) (community post): "Versions v13 to v25 are listed as no longer updated"
 
 ## Business Central pages and reports
 

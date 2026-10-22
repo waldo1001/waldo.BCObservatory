@@ -8,10 +8,9 @@
   ],
   "summary": "When vendor subscription contract invoice creation fails, billing lines are now properly rolled back instead of remaining in an incomplete state.",
   "key_points": [
-    "Billing lines are rolled back if invoice creation fails",
-    "Affects vendor subscription contracts only",
-    "Bug fix in the Create Billing Documents codeunit",
-    "Test coverage added for the rollback behavior"
+    "Billing lines are rolled back when vendor subscription contract invoice creation fails",
+    "One-line fix in the Create Billing Documents codeunit",
+    "Test added in the recurring billing documents tests"
   ],
   "change_kind": "fix",
   "behavior_change": true,

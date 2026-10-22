@@ -12,7 +12,7 @@ review:
   at: "2026-10-07T02:22:35.706Z"
   flags: []
 generated:
-  at: "2026-10-08T00:04:31.553Z"
+  at: "2026-10-22T01:12:33.102Z"
   pipeline: 0.2.0
   prompts:
     hub-topic: 1
@@ -77,7 +77,11 @@ links:
     - topic/dev-itpro/development/system-and-application-reference-documen/creating-new-modules
   localizations: []
   videos: []
-  posts: []
+  posts:
+    - post/aardvarklabs-blog/2678
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-32-unit-of-measure-management-codeunit--bcda67d854
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-42-user-setup-management--0c395048ea
+    - post/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-43-regex-codeunit--c80818b540
   guidelines: []
   changes:
     - change/al-go/2301
@@ -93,7 +97,7 @@ coverage:
   learn: 7
   code: 0
   video: 0
-  blog: 0
+  blog: 4
   guideline: 0
 bc_forms: []
 member_hash: 98ef6732d6681797c8297b386cfded76d205884c7f79b1f257a2ad1cf3d51205
@@ -138,5 +142,9 @@ Linked by a Haiku matcher with a grounding quote from the item's summary (link/t
 
 - [#2301 Provide package cache to aldoc when building reference documentation](../../../changes/al-go/2301.md) (code change): "aldoc when building reference documentation for artifact-based apps"
 - [#2334 Handle app names with underscores correctly for reference documentation](../../../changes/al-go/2334.md) (code change): "Handle app names with underscores correctly for reference documentation"
+- [Understanding AL Development: The Type Helper Code Unit](../../../posts/aardvarklabs-blog/2678.md) (community post): "The Type Helper code unit is a utility in Business Central's System.Reflection"
+- [BC Friday Tips #32 Unit of Measure Management Codeunit](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-32-unit-of-measure-management-codeunit--bcda67d854.md) (community post): "built-in functions for handling unit of measure conversions"
+- [BC Friday Tips #42 User Setup Management](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-42-user-setup-management--0c395048ea.md) (community post): "The User Setup Management codeunit provides built-in functions for checking posting dates"
+- [BC Friday Tips #43 Regex Codeunit](../../../posts/thatnavguy-com/https-thatnavguy-com-blog-2025-bc-friday-tips-43-regex-codeunit--c80818b540.md) (community post): "Business Central includes a Regex codeunit that enables pattern matching in text"
 
 Source: Microsoft Learn (CC BY 4.0). Descriptions are Learn's own.
