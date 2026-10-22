@@ -1,27 +1,29 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arranging-fields-using-grid-and-fixed-controls.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-using-grid-and-fixed-controls",
-  "title": "Arranging fields in multiple rows and columns",
-  "blob": "fec941299bfe31061190e953ff508da014f3b7de",
-  "summary": "Grid and Fixed controls arrange page fields in rows and columns. Grid is the preferred method offering more layout options, while Fixed creates table-like configurations for statistical or worksheet data.",
+  "title": "Arrange Fields with Grid and Fixed Controls",
+  "blob": "bf0c30c6a2c59a2b60baba3dcc35f8239712ce25",
+  "summary": "Grid and fixed controls arrange page fields in columns or matrix-like layouts. Use grid for editable grouped fields or fixed for read-only matrix displays, with important web client limitations on spanning and row layouts.",
   "systems": [
-    "development"
+    "development",
+    "platform"
   ],
   "topics": [
-    "page layout",
+    "page design",
     "field arrangement",
     "grid control",
     "fixed control",
-    "user interface"
+    "layout",
+    "web client"
   ],
   "objects": [],
   "features": [
-    "Grid control",
-    "Fixed control",
+    "grid control",
+    "fixed control",
+    "column layout",
+    "matrix layout",
     "field captions",
-    "row spanning",
-    "column spanning",
-    "field appearance"
+    "page editability"
   ],
   "versions": [],
   "parts": 1,
@@ -30,8 +32,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003305,
-      "pages_in_call": 8
+      "cost_usd": 0.003394,
+      "pages_in_call": 1
     }
   ]
 }

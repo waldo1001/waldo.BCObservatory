@@ -1,0 +1,61 @@
+{
+  "id": "change/bcapps-prs/12599",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Master] - Slice 629913: [Expense Agent][VENDOR] Enforced background itemization required for approvals",
+  "url": "https://github.com/microsoft/BCApps/pull/12599",
+  "published_at": "2026-10-21T17:13:14Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:20:27.152Z",
+      "change_class": "code",
+      "files": 13,
+      "al": 11,
+      "objects": 11,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:20:36.306Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004492
+    },
+    "linked": {
+      "at": "2026-10-22T00:20:36.525Z",
+      "objects": 11,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:20:36.536Z",
+      "path": "content/changes/bcapps/12599.md"
+    }
+  },
+  "input_hash": "ca52a4dab5486f7408867c7a06655bbc6af7e827:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12599,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "ca52a4dab5486f7408867c7a06655bbc6af7e827",
+    "author": "v-rohangarg20",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "master slice 629913 expense agent vendor enforced background itemization required for approvals"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "9de2234a96d981b17d593fb46a3c9d654fb70619e22d073f198406a52840167f"
+}

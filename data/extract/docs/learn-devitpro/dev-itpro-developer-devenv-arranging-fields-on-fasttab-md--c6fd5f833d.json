@@ -1,33 +1,38 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arranging-fields-on-fasttab.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-on-fasttab",
-  "title": "Field Arrangement on FastTabs",
-  "blob": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
-  "summary": "FastTabs on Business Central pages organize data into collapsible groups that automatically distribute fields across columns based on screen size, with the Importance property controlling field visibility on summary lines and Show more actions.",
+  "title": "FastTab Field Arrangement in Business Central",
+  "blob": "13b396ef305071a87d5e5ed625ace1e53b2d94e3",
+  "summary": "FastTab field arrangement in Business Central controls how fields display in groups on card pages, with automatic reflow across one to three columns based on screen width. Use this to understand and configure field organization and promotion using Importance properties.",
   "systems": [
-    "development",
-    "platform"
+    "development"
   ],
   "topics": [
+    "fasttab",
+    "field arrangement",
     "page layout",
-    "fasttabs",
-    "fields",
-    "ui design"
+    "columns",
+    "responsive design"
   ],
   "objects": [
     {
       "type": "page",
       "name": "SimpleCustomerCard"
+    },
+    {
+      "type": "page",
+      "name": "Customer Card"
     }
   ],
   "features": [
-    "FastTabs",
+    "FastTab groups",
     "field distribution",
+    "column balancing",
     "Importance property",
-    "Show more action",
-    "GridLayout",
-    "FixedLayout",
-    "responsive layout"
+    "promoted fields",
+    "Show more functionality",
+    "nested groups",
+    "page parts"
   ],
   "versions": [],
   "parts": 1,
@@ -36,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.003352,
-      "pages_in_call": 8
+      "cost_usd": 0.003667,
+      "pages_in_call": 1
     }
   ]
 }

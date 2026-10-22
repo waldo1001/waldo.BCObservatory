@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Field Arrangement on FastTabs",
+  "title": "FastTab Field Arrangement in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-on-fasttab",
-  "published_at": "2025-05-06T19:27:10.000Z",
+  "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,50 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.703Z",
-      "blob": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
-      "words": 737,
+      "at": "2026-10-22T00:20:39.986Z",
+      "blob": "13b396ef305071a87d5e5ed625ace1e53b2d94e3",
+      "words": 487,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:02.701Z",
+      "at": "2026-10-22T00:20:51.384Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 1,
-      "cost_usd": 0.003352
+      "objects": 2,
+      "cost_usd": 0.003667
     },
     "summarized": {
-      "at": "2026-10-06T19:35:02.720Z",
+      "at": "2026-10-22T00:20:57.232Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:02.721Z",
+      "at": "2026-10-22T00:20:57.234Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:04.468Z",
+      "at": "2026-10-22T00:20:57.235Z",
       "page": false
     }
   },
-  "input_hash": "310dd2b5b8bd5f2497b981822afa40b31d9c1380",
+  "input_hash": "13b396ef305071a87d5e5ed625ace1e53b2d94e3",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-arranging-fields-on-fasttab.md",
-    "description": "FastTabs in Dynamics 365 Business Central allow users to find key information on a page displayed in separate groups.",
-    "ms_date": "2025-01-14",
-    "ms_topic": "article",
+    "description": "Learn how Business Central arranges fields on FastTabs, adapts columns to screen space, and uses field importance to show summaries and additional fields.",
+    "ms_date": "2026-10-09",
+    "ms_topic": "conceptual",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 737,
-    "identifiers": [],
+    "words": 487,
+    "identifiers": [
+      "CaptionML"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "29d23295bce5d91ab4f9bf838003c27c6fb23c005e871a79ab7c5c87af681fd6"
+  "output_hash": "172449aa94a2f74bf5684b6b81be1663482de2c8929308a0d14120b804e44a4a"
 }

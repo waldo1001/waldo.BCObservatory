@@ -1,18 +1,18 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-fixedlayout-control",
-  "title": "Arranging Fields in Rows and Columns Using a fixed Control",
-  "blob": "cc079ef49c9424d1f29b79f8f98db45e1a62a1a7",
-  "summary": "Arranging fields in rows and columns using the fixed control enables matrix-like page layouts for displaying statistical data, with group controls defining separate rows and columns.",
+  "title": "Arrange Fields in Rows and Columns Using a Fixed Control",
+  "blob": "64182e6f96e16a54106a03c38de4ca3ef10f0791",
+  "summary": "The fixed control displays read-only page fields in a matrix-like layout with columns and rows, useful for comparing statistical values across periods. Fields in fixed layouts cannot be edited even if Editable is true.",
   "systems": [
     "development"
   ],
   "topics": [
-    "page layout",
-    "fields",
+    "page design",
+    "field layout",
     "fixed control",
-    "matrix format",
-    "al development"
+    "matrix display",
+    "read-only fields"
   ],
   "objects": [
     {
@@ -22,22 +22,18 @@
     {
       "type": "page",
       "name": "Item Journal"
-    },
-    {
-      "type": "page",
-      "name": "Fixed Control Example"
     }
   ],
   "features": [
     "fixed control",
-    "matrix layout",
-    "field grouping",
     "column headers",
-    "row arrangement",
-    "statistical display"
+    "row headings",
+    "matrix layout",
+    "group controls",
+    "field captions"
   ],
   "versions": [
-    "2023 release wave 1"
+    "2023 release wave 1 version 22.0"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -45,8 +41,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.004062,
+      "pages_in_call": 1
     }
   ]
 }

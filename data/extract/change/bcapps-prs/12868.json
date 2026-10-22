@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12868",
+  "number": 12868,
+  "title": "[29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "inventory"
+  ],
+  "summary": "Fixed a rounding precision issue in the Adjust Cost process that was creating unexpected variance amounts during inventory cost adjustments.",
+  "key_points": [
+    "Rounding precision errors were causing additional variances during cost adjustment calculations",
+    "The fix applies to inventory and assembly costing modules",
+    "Test case added to verify the rounding behavior is correct",
+    "Changes affect both W1 and localized versions (APAC, RU)"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "inventory",
+    "assembly",
+    "finance"
+  ],
+  "quote": "Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003315,
+    "changes_in_call": 1
+  }
+}

@@ -683,6 +683,24 @@
       "title_key": "contoso demo data refresh common g l mappings before manufacturing demo setup"
     }
   ],
+  "12584": [
+    {
+      "number": 12433,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T15:15:09Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12433",
+      "title_key": "bug 649862 29 x restore subcontracting get receipt lines"
+    }
+  ],
+  "12696": [
+    {
+      "number": 12899,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T08:29:17Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12899",
+      "title_key": "bug 653927 29 x saf t no totaldebit and totalcredit differ from exported amounts after reversals"
+    }
+  ],
   "13001": [
     {
       "number": 13002,
@@ -1672,6 +1690,34 @@
       "merged_at": "2026-10-20T13:12:00Z",
       "url": "https://github.com/microsoft/BCApps/pull/13016",
       "title_key": "master data management cleanup when copying environment"
+    },
+    {
+      "number": 13077,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T09:45:37Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13077",
+      "title_key": "in add extensibility events to support deferred tds calculation on purchase documents"
+    },
+    {
+      "number": 12989,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T12:02:40Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12989",
+      "title_key": "backport external attachment storage fix pack ab 655874"
+    },
+    {
+      "number": 13064,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T13:38:32Z",
+      "url": "https://github.com/microsoft/BCApps/pull/13064",
+      "title_key": "expense agent travel request api lifecycle alignment and release spend request permission fix"
+    },
+    {
+      "number": 12820,
+      "base": "releases/29.x",
+      "merged_at": "2026-10-21T14:48:10Z",
+      "url": "https://github.com/microsoft/BCApps/pull/12820",
+      "title_key": "subcontracting order date does not account for lead time before the routing operation starts"
     }
   ]
 }

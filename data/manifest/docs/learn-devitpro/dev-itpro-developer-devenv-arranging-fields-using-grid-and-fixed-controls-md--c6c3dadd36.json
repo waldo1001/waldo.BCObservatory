@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Arranging fields in multiple rows and columns",
+  "title": "Arrange Fields with Grid and Fixed Controls",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arranging-fields-using-grid-and-fixed-controls",
-  "published_at": "2025-05-06T19:27:10.000Z",
+  "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,51 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.708Z",
-      "blob": "fec941299bfe31061190e953ff508da014f3b7de",
-      "words": 589,
+      "at": "2026-10-22T00:20:41.056Z",
+      "blob": "bf0c30c6a2c59a2b60baba3dcc35f8239712ce25",
+      "words": 332,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:35:25.346Z",
+      "at": "2026-10-22T00:20:57.243Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.003305
+      "cost_usd": 0.003394
     },
     "summarized": {
-      "at": "2026-10-06T19:35:25.355Z",
+      "at": "2026-10-22T00:20:57.244Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:35:25.356Z",
+      "at": "2026-10-22T00:20:57.246Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:35:25.357Z",
+      "at": "2026-10-22T00:20:57.247Z",
       "page": false
     }
   },
-  "input_hash": "fec941299bfe31061190e953ff508da014f3b7de",
+  "input_hash": "bf0c30c6a2c59a2b60baba3dcc35f8239712ce25",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-arranging-fields-using-grid-and-fixed-controls.md",
-    "description": "Arrange fields in rows and columns in a gird-like format using the Grid and Fixed controls.",
-    "ms_date": "2024-01-15",
-    "ms_topic": "concept-article",
+    "description": "Compare Grid and Fixed controls for Business Central page layouts, understand web client limitations, and choose a suitable structure for grouped fields.",
+    "ms_date": "2026-10-09",
+    "ms_topic": "conceptual",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 589,
-    "identifiers": [],
+    "words": 332,
+    "identifiers": [
+      "RowSpan",
+      "ColumnSpan"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "65a14203ee20295ea9a304dfa7ed8e93dc709eee91e8737f09b3197786f25cbf"
+  "output_hash": "ba72778859f35bcf203f3fdea30f7fd7c9afb60dbca00dc3faf3ba161a3ebc68"
 }

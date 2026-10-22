@@ -3,9 +3,9 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Setting up telemetry in an app/extension",
+  "title": "Set Up Extension Telemetry in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions",
-  "published_at": "2025-07-15T20:40:22.000Z",
+  "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,52 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:34.210Z",
-      "blob": "60888629dd279ad66dc60f33b1f4eb320b743331",
-      "words": 611,
+      "at": "2026-10-22T00:20:25.578Z",
+      "blob": "f85543c3cf35b908f1f6c4e42a9c82f2c190ff3f",
+      "words": 479,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:17:47.881Z",
+      "at": "2026-10-22T00:20:31.944Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 0,
-      "cost_usd": 0.004432
+      "cost_usd": 0.003946
     },
     "summarized": {
-      "at": "2026-10-06T19:17:47.891Z",
+      "at": "2026-10-22T00:20:31.946Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:17:47.892Z",
+      "at": "2026-10-22T00:20:31.947Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:17:47.892Z",
+      "at": "2026-10-22T00:20:31.948Z",
       "page": false
     }
   },
-  "input_hash": "60888629dd279ad66dc60f33b1f4eb320b743331",
+  "input_hash": "f85543c3cf35b908f1f6c4e42a9c82f2c190ff3f",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-application-insights-for-extensions.md",
-    "description": "Describes how to configure an extension to send telemetry data to Azure Application Insights.",
-    "ms_date": "2024-02-09",
+    "description": "Configure a Business Central extension to send telemetry to Azure Application Insights, monitor deployed apps, and add feature or custom telemetry events.",
+    "ms_date": "2026-10-09",
     "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 611,
-    "identifiers": [],
+    "words": 479,
+    "identifiers": [
+      "applicationInsightsConnectionString",
+      "applicationInsightsKey",
+      "InstrumentationKey"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "fe5d4648b045c4d8dddca599e1f953e4b1f671e8ce9159965b0e05774709bf62"
+  "output_hash": "cbd88975e3bdac3bbf57d926e4b7673176f0e0a05d2bebc623d4ed3e8e2a8923"
 }

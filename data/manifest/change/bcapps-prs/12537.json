@@ -1,0 +1,36 @@
+{
+  "id": "change/bcapps-prs/12537",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[Main]-VAT Group Management Tests fail after removing CLEAN25",
+  "url": "https://github.com/microsoft/BCApps/pull/12537",
+  "published_at": "2026-10-21T17:57:28Z",
+  "state": "skipped",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    }
+  },
+  "input_hash": "950525054ccb424b73c496f1ea1ac455fe20b9f8:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12537,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "950525054ccb424b73c496f1ea1ac455fe20b9f8",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "vat group management tests fail after removing clean25"
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-22T00:20:26.770Z",
+  "retry_after": null
+}

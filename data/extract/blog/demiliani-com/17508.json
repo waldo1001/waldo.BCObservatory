@@ -1,0 +1,59 @@
+{
+  "item_id": "blog/demiliani-com/17508",
+  "url": "https://demiliani.com/2026/10/21/me-directions-emea-2026/",
+  "title": "Me @ Directions EMEA 2026",
+  "source": "demiliani-com",
+  "published_at": "2026-10-21T09:24:26.000Z",
+  "words": 697,
+  "summary": "The author describes two AI-focused sessions at Directions EMEA 2026: fine-tuning open-source language models locally with Business Central data for domain-specific intelligence, and monitoring and governing multiple types of AI agents running within Business Central using Application Insights.",
+  "key_points": [
+    "Organizations can fine-tune open-source LLMs locally using Business Central data and open source tools without sending sensitive data to the cloud",
+    "The workflow covers extracting training data from BC's relational model, building datasets in AL, fine-tuning locally, and integrating models back into processes",
+    "AI agents (native AL, Copilot Studio, Azure Logic Apps, Foundry Agents) running in Business Central need monitoring and governance across different platforms",
+    "Application Insights telemetry enables observability, cost tracking, and forecasting for agent workloads with dashboards for throughput, latency, and quality"
+  ],
+  "systems": [
+    "copilot",
+    "development",
+    "integration"
+  ],
+  "topics": [
+    "ai",
+    "llm fine-tuning",
+    "agents",
+    "monitoring",
+    "governance",
+    "observability",
+    "cost control"
+  ],
+  "objects": [],
+  "features": [
+    "fine-tuning open-source LLMs",
+    "training data extraction",
+    "AI agent monitoring",
+    "Application Insights telemetry",
+    "cost forecasting",
+    "anomaly alerts",
+    "agent governance"
+  ],
+  "versions": [],
+  "language": "en",
+  "quotes": [
+    {
+      "text": "Organizations want AI that understands their business, but generic LLMs don't know your processes, data model, or operational context",
+      "why_it_matters": "Explains the core challenge that domain-specific fine-tuning addresses"
+    },
+    {
+      "text": "enterprise-grade monitoring blueprint that transforms agent workloads from opaque to transparent, enabling cost control, predictability, and sustainable scaling",
+      "why_it_matters": "Summarizes the practical outcome of implementing proper agent observability and governance"
+    }
+  ],
+  "trimmed_for_policy": 0,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005908,
+    "posts_in_call": 1
+  }
+}

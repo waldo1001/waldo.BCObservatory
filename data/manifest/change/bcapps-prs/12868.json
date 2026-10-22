@@ -1,0 +1,60 @@
+{
+  "id": "change/bcapps-prs/12868",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment",
+  "url": "https://github.com/microsoft/BCApps/pull/12868",
+  "published_at": "2026-10-21T16:05:07Z",
+  "state": "published",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:20:28.216Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 4,
+      "objects": 3,
+      "unjoined": 1
+    },
+    "extracted": {
+      "at": "2026-10-22T00:20:35.957Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003315
+    },
+    "linked": {
+      "at": "2026-10-22T00:20:36.222Z",
+      "objects": 3,
+      "unjoined": 1,
+      "commit": "7f41d35742230d336aa3ef0076182523d6ab433b"
+    },
+    "published": {
+      "at": "2026-10-22T00:20:36.284Z",
+      "path": "content/changes/bcapps/12868.md"
+    }
+  },
+  "input_hash": "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12868,
+    "repo": "microsoft/BCApps",
+    "base": "releases/29.x",
+    "major": "29",
+    "merge_commit_sha": "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
+    "author": "DeepsShukla",
+    "author_type": "User",
+    "labels": [
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "29x adjust cost creates an additional unexpected variance amount due to rounding precision during cost adjustment"
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "475acef51bd80cf679edd9351c9e94fee67af3b63c34e63d0cea20fd6ea8ff35"
+}

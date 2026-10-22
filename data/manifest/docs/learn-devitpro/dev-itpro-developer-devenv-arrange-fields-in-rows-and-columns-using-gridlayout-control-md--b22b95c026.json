@@ -5,7 +5,7 @@
   "tier": "official",
   "title": "Arrange Fields Using Grid Control",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control",
-  "published_at": "2025-05-06T19:26:23.000Z",
+  "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
   "state": "published",
   "stages": {
@@ -13,48 +13,51 @@
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.289Z",
-      "blob": "f9c7d2d6983db77ef5948ab9768f11a65dd639fc",
-      "words": 696,
+      "at": "2026-10-22T00:20:32.338Z",
+      "blob": "170f78f5eb429a718a409c7aa4e346c031d5b9f4",
+      "words": 276,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:37:50.189Z",
+      "at": "2026-10-22T00:20:38.783Z",
       "prompt": "extract-docs@1",
       "parts": 1,
       "objects": 1,
-      "cost_usd": 0.005214
+      "cost_usd": 0.004121
     },
     "summarized": {
-      "at": "2026-10-06T19:37:50.203Z",
+      "at": "2026-10-22T00:20:38.784Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:37:50.204Z",
+      "at": "2026-10-22T00:20:38.785Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:37:50.205Z",
+      "at": "2026-10-22T00:20:38.786Z",
       "page": false
     }
   },
-  "input_hash": "f9c7d2d6983db77ef5948ab9768f11a65dd639fc",
+  "input_hash": "170f78f5eb429a718a409c7aa4e346c031d5b9f4",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control.md",
-    "description": "Fields in a FastTab are arranged automatically. Use Grid control to manually set up rows, columns, span fields across, and show or hide captions.",
-    "ms_date": "2023-02-06",
-    "ms_topic": "concept-article",
+    "description": "Arrange Business Central page fields in grid columns, control caption visibility, and understand the web client's limits for row layouts and field spanning.",
+    "ms_date": "2026-10-09",
+    "ms_topic": "how-to",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 696,
-    "identifiers": [],
+    "words": 276,
+    "identifiers": [
+      "RowSpan",
+      "ColumnSpan"
+    ],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "66455dcbee43909a34e10df7ac69a22c3f2b3e673eeef8ec42ae13e606a44538"
+  "output_hash": "415bfa5a1bc1dd6ea21d15ec97d60d1c93703dea04288ee0132ab062e3049939"
 }

@@ -1,0 +1,40 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12537,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12537",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-21T17:57:28Z",
+  "merge_commit_sha": "950525054ccb424b73c496f1ea1ac455fe20b9f8",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Main]-VAT Group Management Tests fail after removing CLEAN25",
+  "body_hash": "636ee21b3fc94eade424db4a7a0d97f3733b2d283e656e78b273189e27453348",
+  "fixes_issues": [],
+  "work_items": [
+    609282
+  ],
+  "change_class": "test-only",
+  "files": [],
+  "totals": {
+    "files": 2,
+    "additions": 115,
+    "deletions": 38,
+    "al": 0
+  },
+  "join": {
+    "major": "30",
+    "commit": null,
+    "objects": [],
+    "unjoined": []
+  },
+  "systems": [],
+  "apps": []
+}

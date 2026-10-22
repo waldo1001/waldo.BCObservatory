@@ -1,0 +1,119 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12868,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12868",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-21T16:05:07Z",
+  "merge_commit_sha": "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
+  "author": "DeepsShukla",
+  "author_type": "User",
+  "labels": [
+    "Team: SCM"
+  ],
+  "community_contribution": false,
+  "title": "[29x]-Adjust Cost creates an additional unexpected variance amount due to rounding precision during cost adjustment",
+  "body_hash": "8047c0d476c5bdff15416e53354cdfb51de7413961c77cd575bd5be55cd7d695",
+  "fixes_issues": [],
+  "work_items": [
+    654418
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Layers/APAC/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/RU/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Costing/AsmInventoryAdjmtEntry.TableExt.al",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Layers/W1/Tests/SCM-Costing/SCMCostingBugsII.Codeunit.al",
+      "status": "modified",
+      "additions": 98,
+      "deletions": 0,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "additions": 103,
+    "deletions": 5,
+    "al": 4
+  },
+  "join": {
+    "major": "29",
+    "commit": "7f41d35742230d336aa3ef0076182523d6ab433b",
+    "objects": [
+      {
+        "path": "src/Layers/RU/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5895",
+        "type": "codeunit",
+        "id": 5895,
+        "name": "Inventory Adjustment",
+        "app": "Base Application",
+        "cc": "ru",
+        "page": "codeunit/5895"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Assembly/Inventory/Costing/AsmInventoryAdjmtEntry.TableExt.al",
+        "status": "modified",
+        "key": "tableextension/990",
+        "type": "tableextension",
+        "id": 990,
+        "name": "Asm. Inventory Adjmt. Entry",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "tableextension/990"
+      },
+      {
+        "path": "src/Layers/W1/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/5895",
+        "type": "codeunit",
+        "id": 5895,
+        "name": "Inventory Adjustment",
+        "app": "Base Application",
+        "cc": "w1",
+        "page": "codeunit/5895"
+      }
+    ],
+    "unjoined": [
+      {
+        "path": "src/Layers/APAC/BaseApp/Inventory/Costing/InventoryAdjustment.Codeunit.al",
+        "status": "modified",
+        "reason": "not-in-snapshot"
+      }
+    ]
+  },
+  "systems": [
+    "inventory"
+  ],
+  "apps": [
+    "Base Application"
+  ]
+}

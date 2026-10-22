@@ -2,16 +2,17 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-arrange-fields-in-rows-and-columns-using-gridlayout-control",
   "title": "Arrange Fields Using Grid Control",
-  "blob": "f9c7d2d6983db77ef5948ab9768f11a65dd639fc",
-  "summary": "Arranging fields in rows and columns using the Grid control enables grid-like page layouts with manual control over field positioning, row/column spanning, and caption visibility.",
+  "blob": "170f78f5eb429a718a409c7aa4e346c031d5b9f4",
+  "summary": "Grid control arranges groups of page fields in columns within FastTabs. Use GridLayout = Columns to set up column layouts; note that the web client has limited support for row/column spanning features.",
   "systems": [
     "development"
   ],
   "topics": [
     "page layout",
     "grid control",
-    "fields",
-    "al development"
+    "field arrangement",
+    "fasttab",
+    "web client"
   ],
   "objects": [
     {
@@ -21,11 +22,12 @@
   ],
   "features": [
     "grid control",
-    "field spanning",
-    "row arrangement",
-    "column arrangement",
-    "caption visibility",
-    "GridLayout property"
+    "GridLayout property",
+    "column layout",
+    "nested grid",
+    "RowSpan property",
+    "ColumnSpan property",
+    "ShowCaption property"
   ],
   "versions": [],
   "parts": 1,
@@ -34,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.005214,
-      "pages_in_call": 8
+      "cost_usd": 0.004121,
+      "pages_in_call": 1
     }
   ]
 }

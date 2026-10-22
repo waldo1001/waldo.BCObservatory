@@ -1,30 +1,34 @@
 {
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-application-insights-for-extensions.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions",
-  "title": "Setting up telemetry in an app/extension",
-  "blob": "60888629dd279ad66dc60f33b1f4eb320b743331",
-  "summary": "Setting up telemetry in extensions to send monitoring data to Azure Application Insights. Use when publishers need insight into extension performance and issues across the customer install base.",
+  "title": "Set Up Extension Telemetry in Business Central",
+  "blob": "f85543c3cf35b908f1f6c4e42a9c82f2c190ff3f",
+  "summary": "Extension telemetry setup enables publishers to send telemetry data to Azure Application Insights for monitoring extension use, errors, and performance across installed environments. Configure the connection string in app.json and optionally add feature or custom telemetry calls to AL code.",
   "systems": [
     "development",
     "integration",
-    "copilot"
+    "administration"
   ],
   "topics": [
+    "extension",
     "telemetry",
     "application insights",
-    "extensions",
     "monitoring",
-    "custom events"
+    "performance",
+    "al code",
+    "diagnostics"
   ],
   "objects": [],
   "features": [
-    "applicationInsightsConnectionString",
-    "applicationInsightsKey",
+    "applicationInsightsConnectionString property",
+    "applicationInsightsKey property",
     "feature telemetry",
-    "custom telemetry events"
+    "custom telemetry events",
+    "Session.LogMessage",
+    "extension telemetry data logging"
   ],
   "versions": [
-    "runtime version 7.2"
+    "runtime 7.2"
   ],
   "parts": 1,
   "prompt_version": 1,
@@ -32,8 +36,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.004432,
-      "pages_in_call": 8
+      "cost_usd": 0.003946,
+      "pages_in_call": 1
     }
   ]
 }

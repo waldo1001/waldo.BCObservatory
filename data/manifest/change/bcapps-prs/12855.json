@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/12855",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "[E-Documents] Add support for credit memos, recognised from the PDF and applied to the original invoice",
+  "url": "https://github.com/microsoft/BCApps/pull/12855",
+  "published_at": "2026-10-21T13:04:49Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    }
+  },
+  "input_hash": "5a037d36ec59ca8f9c57a041f06451f640ce8464:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12855,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "5a037d36ec59ca8f9c57a041f06451f640ce8464",
+    "author": "Explorer986",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "e documents add support for credit memos recognised from the pdf and applied to the original invoice"
+  }
+}

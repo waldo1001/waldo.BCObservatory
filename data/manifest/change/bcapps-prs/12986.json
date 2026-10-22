@@ -1,0 +1,34 @@
+{
+  "id": "change/bcapps-prs/12986",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Fix Work Center field persistence when auto-save is disabled",
+  "url": "https://github.com/microsoft/BCApps/pull/12986",
+  "published_at": "2026-10-21T12:34:14Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    }
+  },
+  "input_hash": "1a1f9b0fe342c7127ceb8d7e06ecd0ad989d5a6a:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 12986,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "1a1f9b0fe342c7127ceb8d7e06ecd0ad989d5a6a",
+    "author": "alexei-dobriansky",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Subcontracting",
+      "Team: SCM"
+    ],
+    "community_contribution": false,
+    "title_key": "fix work center field persistence when auto save is disabled"
+  }
+}

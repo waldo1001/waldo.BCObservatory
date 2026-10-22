@@ -3,19 +3,19 @@
   "pillar": "docs",
   "source": "learn-devitpro",
   "tier": "official",
-  "title": "Data logged to app/extension telemetry",
+  "title": "Extension Telemetry Data in Business Central",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-application-insights-for-extensions-data",
-  "published_at": "2025-05-06T19:27:26.000Z",
+  "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
-  "state": "published",
+  "state": "fetched",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:39.554Z",
-      "blob": "660e64e16fc62886c6cfc565e51bd48b82fe86ac",
-      "words": 126,
+      "at": "2026-10-22T00:20:25.463Z",
+      "blob": "8c1e5427caf304357bf7e06a348ab212b9db8cd6",
+      "words": 117,
       "forms": 0
     },
     "extracted": {
@@ -38,23 +38,23 @@
       "page": false
     }
   },
-  "input_hash": "660e64e16fc62886c6cfc565e51bd48b82fe86ac",
+  "input_hash": "8c1e5427caf304357bf7e06a348ab212b9db8cd6",
   "attempts": 0,
   "flags": [],
   "meta": {
     "repo": "MicrosoftDocs/dynamics365smb-devitpro-pb",
     "path": "dev-itpro/developer/devenv-application-insights-for-extensions-data.md",
-    "description": "Describes what data is sent to Azure Application Insights for app/extensions.",
+    "description": "Learn which Business Central events can reach an extension's Application Insights resource and how to identify signals that support extension telemetry.",
     "ms_date": "2024-02-09",
-    "ms_topic": "article",
+    "ms_topic": "reference",
     "search_form": [],
     "keywords": [],
     "ai_usage": null,
-    "words": 126,
+    "words": 117,
     "identifiers": [],
     "identifiers_rule": 2
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "f39419b9c930403425c8aea69ebddd29b49f88b0ad080525a2fd43f563191117"
+  "output_hash": "8c1e5427caf304357bf7e06a348ab212b9db8cd6"
 }

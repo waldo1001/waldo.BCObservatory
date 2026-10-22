@@ -1,0 +1,33 @@
+{
+  "id": "change/bcapps-prs/13058",
+  "pillar": "change",
+  "source": "bcapps-prs",
+  "tier": "official",
+  "title": "Bug 656064: Expense Agent: Itemization table holds unrounded values, leading to rounding errors. Also missing currency code.",
+  "url": "https://github.com/microsoft/BCApps/pull/13058",
+  "published_at": "2026-10-21T10:52:32Z",
+  "state": "discovered",
+  "stages": {
+    "discovered": {
+      "at": "2026-10-22T00:20:01.868Z"
+    }
+  },
+  "input_hash": "e36310c59cf287cf49c90f9e946a8879e88318fc:c1",
+  "attempts": 0,
+  "flags": [],
+  "meta": {
+    "number": 13058,
+    "repo": "microsoft/BCApps",
+    "base": "main",
+    "major": "30",
+    "merge_commit_sha": "e36310c59cf287cf49c90f9e946a8879e88318fc",
+    "author": "BardurKnudsen",
+    "author_type": "User",
+    "labels": [
+      "AL: Apps (W1)",
+      "Team: Finance"
+    ],
+    "community_contribution": false,
+    "title_key": "bug 656064 expense agent itemization table holds unrounded values leading to rounding errors also missing currency code"
+  }
+}
