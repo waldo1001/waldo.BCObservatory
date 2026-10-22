@@ -6,14 +6,39 @@
   "title": "[Shopify] Preserve tax match after rate conflict",
   "url": "https://github.com/microsoft/BCApps/pull/12561",
   "published_at": "2026-10-20T10:12:25Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:25:29.972Z",
+      "change_class": "code",
+      "files": 6,
+      "al": 5,
+      "objects": 5,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:25:34.765Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.004046
+    },
+    "linked": {
+      "at": "2026-10-22T00:25:35.030Z",
+      "objects": 5,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:25:35.041Z",
+      "path": "content/changes/bcapps/12561.md"
     }
   },
   "input_hash": "d3054a3d41d7c9ca2ecedf1b7c2b49c7e638ca8f:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12561,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "shopify preserve tax match after rate conflict"
   },
-  "last_error": "github lane: fetched took longer than 120 s",
-  "retry_after": "2026-10-21T02:25:25.005Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "65733c176236a65bcb5d52eca459586e54d687d4d1cb7e114d15739172f83726"
 }

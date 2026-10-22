@@ -13,7 +13,7 @@
     }
   },
   "input_hash": "e36310c59cf287cf49c90f9e946a8879e88318fc:c1",
-  "attempts": 0,
+  "attempts": 1,
   "flags": [],
   "meta": {
     "number": 13058,
@@ -29,5 +29,7 @@
     ],
     "community_contribution": false,
     "title_key": "bug 656064 expense agent itemization table holds unrounded values leading to rounding errors also missing currency code"
-  }
+  },
+  "last_error": "fetch failed",
+  "retry_after": "2026-10-22T02:23:28.358Z"
 }

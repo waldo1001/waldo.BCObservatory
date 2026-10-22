@@ -2,28 +2,40 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
   "title": "Developing telemetry into your Business Central application",
-  "blob": "82fbdea7d33f9b3e890d53973858a7660c0153db",
-  "summary": "Developing Telemetry into Your Business Central Application explains how to implement telemetry signals for collecting application usage, error, performance, and lifecycle data in production environments.",
+  "blob": "e4c1e7f74691b79994ad789918898c9197f81c85",
+  "summary": "Instrumenting applications with telemetry signals allows collection and analysis of production data about user activities, errors, and performance for troubleshooting and monitoring against business goals.",
   "systems": [
     "development",
-    "reporting",
-    "administration"
+    "administration",
+    "platform"
   ],
   "topics": [
     "telemetry",
+    "instrumentation",
+    "monitoring",
     "application insights",
     "event logging",
-    "monitoring",
-    "diagnostics"
+    "custom events"
   ],
-  "objects": [],
+  "objects": [
+    {
+      "type": "other",
+      "name": "LOGMESSAGE"
+    },
+    {
+      "type": "other",
+      "name": "SendTraceTag"
+    }
+  ],
   "features": [
-    "logmessage method",
-    "sendtracetag method",
-    "custom telemetry events",
-    "application insights integration",
-    "event log",
-    "feature telemetry"
+    "custom telemetry signals",
+    "Application Insights",
+    "Event Log",
+    "usage telemetry",
+    "error telemetry",
+    "performance telemetry",
+    "lifecycle event telemetry",
+    "feature usage system"
   ],
   "versions": [],
   "parts": 1,
@@ -32,8 +44,8 @@
     {
       "model": "claude-haiku-4-5-20251001",
       "cached": false,
-      "cost_usd": 0.00602,
-      "pages_in_call": 8
+      "cost_usd": 0.004389,
+      "pages_in_call": 1
     }
   ]
 }

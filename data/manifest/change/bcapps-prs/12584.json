@@ -6,14 +6,39 @@
   "title": "Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts",
   "url": "https://github.com/microsoft/BCApps/pull/12584",
   "published_at": "2026-10-20T09:51:27Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-21T00:19:55.996Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:25:31.247Z",
+      "change_class": "code",
+      "files": 5,
+      "al": 1,
+      "objects": 1,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:25:36.187Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.004316
+    },
+    "linked": {
+      "at": "2026-10-22T00:25:42.073Z",
+      "objects": 1,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:25:42.082Z",
+      "path": "content/changes/bcapps/12584.md"
     }
   },
   "input_hash": "643e393adc8fe55dd17f46c5da29ef90fd9cdeb7:c1",
-  "attempts": 1,
+  "attempts": 0,
   "flags": [],
   "meta": {
     "number": 12584,
@@ -30,6 +55,7 @@
     "community_contribution": false,
     "title_key": "bug 649862 subcontracting restore get receipt lines for subcontracting receipts"
   },
-  "last_error": "fetch failed",
-  "retry_after": "2026-10-21T02:23:54.678Z"
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "f79bebff07f40906ce4f970e3612b0a367aecc4cd41ded5ac964cf02f5430e6c"
 }

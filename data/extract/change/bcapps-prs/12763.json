@@ -1,0 +1,32 @@
+{
+  "item_id": "change/bcapps-prs/12763",
+  "number": 12763,
+  "title": "[Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: \"'IndirectInsert' permission on TableData 6913 'Expense Pmt Method\" - 2610091420000495",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "copilot"
+  ],
+  "summary": "Expense Agent delegated admin partner entitlements are updated to grant Expense Management Admin permissions instead of read-only access.",
+  "key_points": [
+    "Three entitlements updated: Delegated Admin agent, BC Admin agent, and Dynamics 365 Admin (all Partner variants)",
+    "Permission level changed from 'Expense Mgmt. Read' to 'Expense Mgmt. Admin'",
+    "Resolves permission error when delegated admins create setup-only companies",
+    "Allows delegated admins to perform administrative operations on expense management"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "copilot"
+  ],
+  "quote": "Updates the Expense Agent delegated admin partner entitlements to grant the required Expense Management Admin permissions.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003743,
+    "changes_in_call": 1
+  }
+}

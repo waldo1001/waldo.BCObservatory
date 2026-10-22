@@ -7,34 +7,34 @@
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry",
   "published_at": "2026-10-21T11:05:54.000Z",
   "language": "en",
-  "state": "stale",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-06T11:15:53.411Z"
     },
     "fetched": {
-      "at": "2026-10-06T12:26:40.384Z",
-      "blob": "82fbdea7d33f9b3e890d53973858a7660c0153db",
+      "at": "2026-10-22T00:21:01.514Z",
+      "blob": "e4c1e7f74691b79994ad789918898c9197f81c85",
       "words": 589,
       "forms": 0
     },
     "extracted": {
-      "at": "2026-10-06T19:38:17.982Z",
+      "at": "2026-10-22T00:21:13.546Z",
       "prompt": "extract-docs@1",
       "parts": 1,
-      "objects": 0,
-      "cost_usd": 0.00602
+      "objects": 2,
+      "cost_usd": 0.004389
     },
     "summarized": {
-      "at": "2026-10-06T19:38:20.703Z",
+      "at": "2026-10-22T00:21:13.547Z",
       "from": "extract-docs"
     },
     "linked": {
-      "at": "2026-10-06T19:38:20.704Z",
+      "at": "2026-10-22T00:21:13.548Z",
       "via": "topic hubs"
     },
     "published": {
-      "at": "2026-10-06T19:38:20.704Z",
+      "at": "2026-10-22T00:21:13.549Z",
       "page": false
     }
   },
@@ -56,5 +56,5 @@
   },
   "last_error": null,
   "retry_after": null,
-  "output_hash": "e63a0ab72a746e98a289fa4ed6b5ec55c79b7f954c9ecce9451b9918cdeebb06"
+  "output_hash": "2ab522c6c54089534bf3132f09954d1b68eb629fe6e5518ad19572328c577a99"
 }

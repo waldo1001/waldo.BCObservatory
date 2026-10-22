@@ -6,10 +6,35 @@
   "title": "[Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: \"'IndirectInsert' permission on TableData 6913 'Expense Pmt Method\" - 2610091420000495",
   "url": "https://github.com/microsoft/BCApps/pull/12763",
   "published_at": "2026-10-21T11:49:32Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:22:50.881Z",
+      "change_class": "code",
+      "files": 3,
+      "al": 3,
+      "objects": 3,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:23:02.648Z",
+      "prompt": "extract-change@1",
+      "kind": "fix",
+      "behavior": true,
+      "cost_usd": 0.003743
+    },
+    "linked": {
+      "at": "2026-10-22T00:23:02.896Z",
+      "objects": 3,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:23:02.909Z",
+      "path": "content/changes/bcapps/12763.md"
     }
   },
   "input_hash": "104f95f731477c0f7755bd9d4e0ed01f12ceac78:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "master bug 654021 expense agent professional online creating production setup data only company with delegated admin access indirectinsert permission on tabledata 6913 expense pmt method 2610091420000495"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "d2a355c34236fd24955ab1b0029676e72222eb2ffc74567b27dbf15a807417b1"
 }

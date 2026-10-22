@@ -1,0 +1,89 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12967,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12967",
+  "base": "releases/29.x",
+  "major": "29",
+  "merged_at": "2026-10-21T11:28:41Z",
+  "merge_commit_sha": "197bed54ee37fba7b5d2ef2499d3c7244835256a",
+  "author": "neeleshsinghal",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[29.x]Incorrect Purchase Credit Memo created when Customer and Vendor Subscription Contracts have the same Contract Number.",
+  "body_hash": "b4aa1c1df5904f62fc61a6b566531565390f38d1f6def597f3683dc27ce304c3",
+  "fixes_issues": [],
+  "work_items": [
+    654959
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/BillingProposal.Codeunit.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 13,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/App/Billing/Tables/BillingLine.Table.al",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 7,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/Subscription Billing/Test/Billing/BillingCorrectionTest.Codeunit.al",
+      "status": "modified",
+      "additions": 150,
+      "deletions": 5,
+      "class": "al-test"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 164,
+    "deletions": 25,
+    "al": 2
+  },
+  "join": {
+    "major": "29",
+    "commit": "e9be5bb80644ee0302e5a7eb3b0b01e1c91cb5fc",
+    "objects": [
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Codeunits/BillingProposal.Codeunit.al",
+        "status": "modified",
+        "key": "codeunit/8062",
+        "type": "codeunit",
+        "id": 8062,
+        "name": "Billing Proposal",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "codeunit/8062"
+      },
+      {
+        "path": "src/Apps/W1/Subscription Billing/App/Billing/Tables/BillingLine.Table.al",
+        "status": "modified",
+        "key": "table/8061",
+        "type": "table",
+        "id": 8061,
+        "name": "Billing Line",
+        "app": "Subscription Billing",
+        "cc": "w1",
+        "page": "table/8061"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "sales"
+  ],
+  "apps": [
+    "Subscription Billing"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "bcobs-change@1",
+  "number": 12763,
+  "repo": "microsoft/BCApps",
+  "source": "bcapps-prs",
+  "url": "https://github.com/microsoft/BCApps/pull/12763",
+  "base": "main",
+  "major": "30",
+  "merged_at": "2026-10-21T11:49:32Z",
+  "merge_commit_sha": "104f95f731477c0f7755bd9d4e0ed01f12ceac78",
+  "author": "v-rohangarg20",
+  "author_type": "User",
+  "labels": [
+    "AL: Apps (W1)",
+    "Team: Finance"
+  ],
+  "community_contribution": false,
+  "title": "[Master] - Bug 654021: [Expense Agent] [Professional] Online: Creating Production - Setup Data Only Company with Delegated Admin access: \"'IndirectInsert' permission on TableData 6913 'Expense Pmt Method\" - 2610091420000495",
+  "body_hash": "80576415ebcaf86e6bff05f54b8c953661968c2163305fe43d49d0eb348920d8",
+  "fixes_issues": [],
+  "work_items": [
+    654021
+  ],
+  "change_class": "code",
+  "files": [
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    },
+    {
+      "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365AdminPartner.Entitlement.al",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "class": "al-src"
+    }
+  ],
+  "totals": {
+    "files": 3,
+    "additions": 3,
+    "deletions": 3,
+    "al": 3
+  },
+  "join": {
+    "major": "30",
+    "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706",
+    "objects": [
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedAdminagentPartner.Entitlement.al",
+        "status": "modified",
+        "key": "entitlement/ea - delegated admin agent - partner",
+        "type": "entitlement",
+        "id": null,
+        "name": "EA - Delegated Admin agent - Partner",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "entitlement/ea-delegated-admin-agent-partner"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADelegatedBCAdminAgentPartner.Entitlement.al",
+        "status": "modified",
+        "key": "entitlement/ea - delegated bc admin agent - partner",
+        "type": "entitlement",
+        "id": null,
+        "name": "EA - Delegated BC Admin agent - Partner",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "entitlement/ea-delegated-bc-admin-agent-partner"
+      },
+      {
+        "path": "src/Apps/W1/ExpenseAgent/app/src/Entitlements/Roles/EADynamics365AdminPartner.Entitlement.al",
+        "status": "modified",
+        "key": "entitlement/ea - dynamics 365 admin - partner",
+        "type": "entitlement",
+        "id": null,
+        "name": "EA - Dynamics 365 Admin - Partner",
+        "app": "ExpenseAgent",
+        "cc": "w1",
+        "page": "entitlement/ea-dynamics-365-admin-partner"
+      }
+    ],
+    "unjoined": []
+  },
+  "systems": [
+    "copilot"
+  ],
+  "apps": [
+    "ExpenseAgent"
+  ]
+}

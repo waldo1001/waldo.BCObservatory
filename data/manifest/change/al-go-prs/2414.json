@@ -6,7 +6,7 @@
   "title": "Add Copilot review orchestration E2E coverage",
   "url": "https://github.com/microsoft/AL-Go/pull/2414",
   "published_at": "2026-10-21T13:29:48Z",
-  "state": "discovered",
+  "state": "skipped",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
@@ -26,5 +26,8 @@
     "labels": [],
     "community_contribution": false,
     "title_key": "add copilot review orchestration e2e coverage"
-  }
+  },
+  "skip": "non-code",
+  "skipped_at": "2026-10-22T00:21:15.356Z",
+  "retry_after": null
 }

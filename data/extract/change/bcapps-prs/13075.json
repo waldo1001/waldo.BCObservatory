@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/13075",
+  "number": 13075,
+  "title": "[MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "finance",
+    "purchasing"
+  ],
+  "summary": "Three integration events with IsHandled parameters are added to support deferred TDS calculation on purchase documents, allowing extensions to control tax recalculation when quantity, unit cost, or document-level fields change.",
+  "key_points": [
+    "New events for TDS certificate usage updates",
+    "New events for recalculation on Applies-to Doc. No. or Posting Date changes",
+    "New events for recalculation on Include GST in TDS Base changes",
+    "IsHandled parameter enables extensions to defer or customize processing",
+    "Standard behavior unchanged unless a subscriber explicitly handles an event"
+  ],
+  "change_kind": "feature",
+  "behavior_change": false,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "localization"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.003735,
+    "changes_in_call": 1
+  }
+}

@@ -2,41 +2,34 @@
   "item_id": "docs/learn-devitpro/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights.md",
   "url": "https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights",
   "title": "Creating custom telemetry events for Azure Application Insights",
-  "blob": "c1483396f7329b8324e0c7a10f79c9cf53051e33",
-  "summary": "Creating custom telemetry events for Azure Application Insights explains how to emit custom trace events to Application Insights using the LogMessage method for monitoring application activities and operations.",
+  "blob": "7d95301901a3c8e311f155472e9c508e01b3c867",
+  "summary": "Creating custom telemetry events for Azure Application Insights explains how to develop extensions that emit custom telemetry trace events to Application Insights using the LogMessage method in AL code.",
   "systems": [
     "development",
-    "integration",
-    "reporting"
+    "administration"
   ],
   "topics": [
     "telemetry",
     "application insights",
     "custom events",
+    "al development",
     "logging",
-    "azure",
-    "monitoring",
     "diagnostics"
   ],
   "objects": [
     {
       "type": "other",
-      "name": "Session.LogMessage method"
-    },
-    {
-      "type": "other",
-      "name": "Dictionary of [Text, Text]"
+      "name": "Session.LogMessage"
     }
   ],
   "features": [
-    "Custom telemetry trace events",
-    "LogMessage method with dictionary and overload variants",
-    "Verbosity levels (Critical, Error, Warning, Normal, Verbose)",
-    "DataClassification for privacy",
-    "TelemetryScope (extensionpublisher, all)",
-    "Default dimensions in CustomDimensions",
-    "Feature usage module integration",
-    "Best practices for event design"
+    "LogMessage method",
+    "Dictionary for custom dimensions",
+    "Dimension overloads",
+    "TelemetryScope control",
+    "DataClassification filtering",
+    "Default dimensions",
+    "EventID conventions"
   ],
   "versions": [],
   "parts": 1,
@@ -44,9 +37,9 @@
   "llm": [
     {
       "model": "claude-haiku-4-5-20251001",
-      "cached": true,
-      "cost_usd": null,
-      "pages_in_call": 5
+      "cached": false,
+      "cost_usd": 0.011794,
+      "pages_in_call": 1
     }
   ]
 }

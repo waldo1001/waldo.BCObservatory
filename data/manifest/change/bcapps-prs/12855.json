@@ -6,10 +6,35 @@
   "title": "[E-Documents] Add support for credit memos, recognised from the PDF and applied to the original invoice",
   "url": "https://github.com/microsoft/BCApps/pull/12855",
   "published_at": "2026-10-21T13:04:49Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:21:49.156Z",
+      "change_class": "code",
+      "files": 20,
+      "al": 12,
+      "objects": 12,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:21:55.881Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": true,
+      "cost_usd": 0.005376
+    },
+    "linked": {
+      "at": "2026-10-22T00:21:56.153Z",
+      "objects": 12,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:21:56.168Z",
+      "path": "content/changes/bcapps/12855.md"
     }
   },
   "input_hash": "5a037d36ec59ca8f9c57a041f06451f640ce8464:c1",
@@ -29,5 +54,8 @@
     ],
     "community_contribution": false,
     "title_key": "e documents add support for credit memos recognised from the pdf and applied to the original invoice"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "445586b25458db8ebeb7581e44fb28f03ae7b9be71577236328dbc8e412b11c7"
 }

@@ -6,10 +6,35 @@
   "title": "[MAIN] [IN] Add extensibility events to support deferred TDS calculation on purchase documents",
   "url": "https://github.com/microsoft/BCApps/pull/13075",
   "published_at": "2026-10-21T11:17:50Z",
-  "state": "discovered",
+  "state": "published",
   "stages": {
     "discovered": {
       "at": "2026-10-22T00:20:01.868Z"
+    },
+    "fetched": {
+      "at": "2026-10-22T00:23:02.226Z",
+      "change_class": "code",
+      "files": 2,
+      "al": 2,
+      "objects": 2,
+      "unjoined": 0
+    },
+    "extracted": {
+      "at": "2026-10-22T00:23:17.876Z",
+      "prompt": "extract-change@1",
+      "kind": "feature",
+      "behavior": false,
+      "cost_usd": 0.003735
+    },
+    "linked": {
+      "at": "2026-10-22T00:23:18.105Z",
+      "objects": 2,
+      "unjoined": 0,
+      "commit": "eb2bfe5258a473c969a6b85cdc98ce8524408706"
+    },
+    "published": {
+      "at": "2026-10-22T00:23:18.117Z",
+      "path": "content/changes/bcapps/13075.md"
     }
   },
   "input_hash": "a33bf9b959162d759439b52be4c70225c271a39a:c1",
@@ -28,5 +53,8 @@
     ],
     "community_contribution": false,
     "title_key": "in add extensibility events to support deferred tds calculation on purchase documents"
-  }
+  },
+  "last_error": null,
+  "retry_after": null,
+  "output_hash": "ec3125c2d9329c727c342fb0dbdd902df168c57a5d646d0a8e526a0fce3438da"
 }

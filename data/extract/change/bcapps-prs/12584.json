@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12584",
+  "number": 12584,
+  "title": "Bug 649862: [Subcontracting] Restore Get Receipt Lines for subcontracting receipts",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "manufacturing"
+  ],
+  "summary": "Restores the ability to copy uninvoiced subcontracting receipts to separate purchase invoices, allowing cumulative vendor invoicing while correctly assigning vendor costs to the original Capacity Ledger Entry and production order.",
+  "key_points": [
+    "Uninvoiced subcontracting receipts can now be included in Get Receipt Lines workflow",
+    "Posted receipt lines can be copied to separate purchase invoices for cumulative vendor invoicing",
+    "Posting correctly assigns vendor cost to original Capacity Ledger Entry without creating duplicate output",
+    "Supports untracked and item-tracked receipts from non-final routing operations",
+    "Item-tracked receipts from final operations and warehouse receipts remain explicitly blocked pending further validation"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "manufacturing",
+    "purchasing"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004316,
+    "changes_in_call": 1
+  }
+}

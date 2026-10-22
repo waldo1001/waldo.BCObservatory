@@ -1,0 +1,33 @@
+{
+  "item_id": "change/bcapps-prs/12561",
+  "number": 12561,
+  "title": "[Shopify] Preserve tax match after rate conflict",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "Shopify order processing now preserves tax mappings and holds document creation when a tax rate conflict occurs, rather than rolling back changes on error, allowing merchants to review and resolve the conflict.",
+  "key_points": [
+    "Tax rate conflicts are treated as intentional processing holds instead of exceptions",
+    "Successful tax area and jurisdiction mappings persist when conflicts occur",
+    "Orders remain unprocessed without creating a Sales Document, keeping the Review Tax Match recovery action available",
+    "The internal OnBeforeCreateSalesHeader event can now return an intentional hold message",
+    "Behavior applies consistently to both manual and automatic order processing"
+  ],
+  "change_kind": "fix",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "integration",
+    "sales"
+  ],
+  "quote": "The order retains successful mappings and tax-match state, remains unprocessed with the existing guidance message, and no Sales Document is created.",
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.004046,
+    "changes_in_call": 1
+  }
+}

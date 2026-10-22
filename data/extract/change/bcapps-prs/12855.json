@@ -1,0 +1,34 @@
+{
+  "item_id": "change/bcapps-prs/12855",
+  "number": 12855,
+  "title": "[E-Documents] Add support for credit memos, recognised from the PDF and applied to the original invoice",
+  "repo": "microsoft/BCApps",
+  "systems_joined": [
+    "integration"
+  ],
+  "summary": "E-Documents now recognizes vendor credit notes from PDFs and automatically creates purchase credit memos applied to the original invoice, eliminating manual rework when credit notes are received.",
+  "key_points": [
+    "Credit notes (document type 381) are recognized and create purchase credit memos instead of invoices",
+    "Extraction returns EN 16931 document type codes and billing references to distinguish credit notes from invoices",
+    "Credit memos are automatically applied only to matching open invoices from the same pay-to vendor in applicable currencies",
+    "Draft includes editable 'Applies-to Vendor Inv. No.' field and read-only outcome field explaining what will happen",
+    "Negative amounts are normalized and multiple validation checks prevent incorrect applications"
+  ],
+  "change_kind": "feature",
+  "behavior_change": true,
+  "breaking": false,
+  "obsoletions": [],
+  "systems": [
+    "finance",
+    "integration",
+    "copilot"
+  ],
+  "quote": null,
+  "prompt_version": 1,
+  "llm": {
+    "model": "claude-haiku-4-5-20251001",
+    "cached": false,
+    "cost_usd": 0.005376,
+    "changes_in_call": 1
+  }
+}
