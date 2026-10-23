@@ -557,7 +557,52 @@ Definition of Done:
       status lines into docs/built/layered-answers.md; the PR's review moves them in (sdd-build section 4, sdd-review
       section 6).
 
-## 12. Proposed edits to other files (not applied)
+## 12. Built, deviations (2026-10-23, awaiting the first nightly)
+
+Built by hand on stacked branches, one PR per phase: phase 0 #27, phase 1 #28 (`build/layered-answers-p1`), phase 2 #29
+(`-p2`), phase 3 #30 (`-p3`), phase 4 to 6 on `-p4`, `-p5`, `-p6`. Each phase passes `npm test` and typecheck on its
+own; the top branch: 710 of 711 pass, 1 skipped; `validate:content` and `validate:sources` OK; the site builds with
+and without `content/hotfixes/`. `check:leak` needs the vault: operator check on the Mini.
+
+Measured on the committed tree:
+- Phase 1: 4,840 cross-link rows on 1,902 pages (2,549 certain); Pages tar +4.41 MB (objects 2.71, videos 0.62,
+  changes 0.60, posts 0.49), budget 5 MB. Codeunit 80 now links Learn "Types of events for extensibility".
+- Phase 1d: 3,968 learn-confirm units (about 500 Haiku calls, ~$5 once); quota 80 units a night.
+- Phase 2: 265 Learn pages in scope (~30 calls); hubs estimated +0.9 MB (they render from the Learn mirrors on the Mini).
+- Phase 3: video disclaimers attach 44 cautions to 36 objects; post cautions come with the nightly (~620 posts, ~$5).
+- Phase 4: the live 28.4, 28.5 and 28.6 pages parse into 401 entries; 2 work-item fixes (#11339, #11135), 19 named
+  objects. Hotfix 645085 is in Update 28.5 (the draft said Learn).
+- Phase 6: on a locally re-rendered tree (no hub render, no key facts) the never-less check holds for 0 of 6
+  questions; see Open after the build.
+
+Deviations:
+- 1d: candidates from an IDF word overlap over the extracted Learn pages, not the shared search scorer (it needs every
+  query word to match); one record file `data/links/learn-confirm.json`, not one per unit.
+- 1b: certain rows made by code are not repeated in `links.related` (bytes; they are in `links.<kind>`); an object's
+  code-made Learn names join "Documented on Microsoft Learn".
+- 1c: a Learn page naming more than 40 objects is a list and names none; a change or video reaches Learn only through
+  an object on at most 3 Learn pages; the seeds #10207/#12152 to Codeunit 1886 were dropped (their codeunits do not
+  subscribe), #13005 kept (Codeunit 7237 subscribes to OnClearCompanyConfig).
+- 2: key facts are their own stage (`extract-learn-facts`, quota `learn_facts`), not a field of extract-docs with a
+  rewind (that would make every scoped hub stale and pay narratives and reviews); the Learn search shard is unchanged,
+  the MCP reads a separate `learn-facts-<sha12>.json`.
+- 3: the stage reads posts only; video cautions come from their disclaimers without a call, frontmatter keeps eight,
+  quotes clipped at 240 characters; a disclaimer applies to objects named within 30 seconds.
+- 4: entry IDs are search tags on the update page instead of one search record per entry.
+- 5: brief reads the pages' rendered sections (the MCP has no YAML library) and adds three steps: a query no page fully
+  matches is retried with one word left out; one hop along certain links; Learn articles sharing a third of the
+  query's words. Search groups also "Code members" (fields, events, values), last unless one is the best hit.
+
+Open after the build (operator):
+- The first nightly: cross-links rewrite ~1,900 pages; ingest of ms-support-updates writes the hotfix pages; hub
+  "In the observatory" lines. Then `npm run check:never-less` and un-pend the rows that hold.
+- Backfills within quotas or by hand: `npm run link:learn-confirm -- --write`, learn facts, cautions.
+- MCP 0.9.0 and plugin 0.5.0 publish.
+- Never-less gap that remains by design today: Learn concept pages found by meaning ("Work with VAT on sales and
+  purchases", "Event types") share too few words with the questions; the brief says so under Gaps. Closing it needs
+  a meaning search over Learn records in the MCP (the D63 model covers pages, not Learn rows): a follow-up.
+
+## 13. Proposed edits to other files (applied 2026-10-23: DECISIONS D106, CONTENT-NOTICE, AGENTS.md; PLAN and HANDOFF updated)
 
 **DECISIONS.md, D106** (at ship time of phase 1, extended per phase): the text of section 3, "D106 (draft)", with the
 owner decisions (a)-(d) and the rejected list.

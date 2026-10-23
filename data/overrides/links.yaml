@@ -101,3 +101,14 @@ links:
     label: relation unknown
     why: both are about VAT Product Posting Group behaviour on sales lines since 28.4; nothing says what the regression is or that one fixes the other
     evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  # Environment copy: the precautions list (setups disabled, data cleared) is on the environment types page (D107 never-less)
+  - from: object/codeunit/1886
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
+    label: documents
+    why: lists what a copy disables and clears (job queue, agents, integration setups, webhooks), the cleanup these events carry out
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }
+  - from: object/codeunit/8912
+    to: https://learn.microsoft.com/dynamics365/business-central/dev-itpro/administration/environment-types
+    label: documents
+    why: lists the setups a copy disables and the data it clears, which Microsoft's cleanup subscribers carry out
+    evidence: { by: waldo, at: "2026-10-23", url: https://github.com/waldo1001/waldo.BCObservatory/issues/26 }

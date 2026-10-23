@@ -27,6 +27,8 @@ export interface BriefDeps {
   learnFacts: () => Promise<Map<string, [string, string][]>>;
   /** Learn articles sharing at least half the query's distinctive words (title and summary), best first; optional. */
   learnByWords?: (query: string) => PageRecord[];
+  /** Learn articles nearest the query by meaning (the D63 model over Learn rows, D107); absent or empty without a model. */
+  learnByMeaning?: (query: string) => Promise<PageRecord[]>;
 }
 export interface BriefArgs { query?: string; path?: string }
 
@@ -34,6 +36,8 @@ export interface BriefArgs { query?: string; path?: string }
 export const PER_LAYER = 3;
 /** Pages reached in one hop along certain links (a found page's "Linked pages", a Learn article's "In the observatory"). */
 export const HOPS = 8;
+/** Learn articles found by meaning per brief (D107): the static model ranks the page Learn's own search leads with within its first five more often than within three. */
+export const MEANING = 5;
 const ROWS = 5;
 
 type Layer = "learn" | "code" | "changes" | "heads" | "other";
@@ -59,6 +63,8 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
   if (!subject) return "Give a query (what you want to know) or a path (a page to start from).";
   // the pages to read: a path alone, or per layer the best keyword hits (a symbol counts for its object)
   const seeds: PageRecord[] = [], learnHits: PageRecord[] = [];
+  /** How a Learn article was found when not by the keyword search: " (found by words)", " (found by meaning)". */
+  const how = new Map<PageRecord, string>();
   if (a.path) {
     const r = d.record(a.path.replace(/^\/+|\/+$|\.md$/g, ""));
     if (!r) return `No page at ${a.path}. search() finds the path.`;
@@ -82,7 +88,10 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
       (layer === "learn" ? learnHits : seeds).push(r);
     }
     // never less than Learn: Learn articles that share most of the query's words, when the every-word search found few
-    if (learnHits.length < PER_LAYER) for (const r of d.learnByWords?.(subject) ?? []) if (learnHits.length < PER_LAYER + 2 && !learnHits.includes(r)) learnHits.push(r);
+    if (learnHits.length < PER_LAYER) for (const r of d.learnByWords?.(subject) ?? []) if (learnHits.length < PER_LAYER + 2 && !learnHits.includes(r)) { learnHits.push(r); how.set(r, " (found by words)"); }
+    // and the ones nearest by meaning (D107): what Learn's own search finds for a question in other words
+    let byMeaning = 0;
+    for (const r of (await d.learnByMeaning?.(subject)) ?? []) if (byMeaning < MEANING && !learnHits.includes(r)) { learnHits.push(r); how.set(r, " (found by meaning)"); byMeaning++; }
     if (!seeds.length && !learnHits.length) return `Nothing found for "${subject}". Try fewer words, or search() to see what there is.`;
   }
   const facts = await d.learnFacts();
@@ -118,7 +127,7 @@ export async function brief(a: BriefArgs, d: BriefDeps): Promise<string> {
     learn.push(`- ${title} [official, ${url}]${via}`, ...factLines(url));
     for (const [k, t] of facts.get(url) ?? []) if (k === "status") status.push(`- Learn, ${title}: ${t} [official, ${url}]`);
   };
-  for (const r of learnHits) addLearn(r.path, r.title, r.path_label ? ` (in ${r.path_label})` : "");
+  for (const r of learnHits) addLearn(r.path, r.title, how.get(r) ?? (r.path_label ? ` (in ${r.path_label})` : ""));
 
   for (const r of seeds) {
     const m = md.get(r.path) ?? "";

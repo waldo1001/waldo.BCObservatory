@@ -14,10 +14,15 @@ the owner applies `spec-approved` to that issue: branch `league/<issue>-<topic>`
 whose issue carries that label, or that has such a branch or PR, is the League's: do not build it by hand (take it over
 with `CLAUDE.md` "Taking over from the League"), and do not approve a spec you are building. `/sdd-build <spec>` builds
 one in either mode.
-- **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: proposed 2026-10-23, being built
-  by hand in worktree `../waldo.BCObservatory-build-layered-answers` (branch `build/layered-answers`), one PR per phase;
-  do not apply `spec-approved` to #26. Next: phase 1 (cross-links), tests first. Until it lands, no codeunit, enum,
-  code change, video or post has a Learn link, and hotfix lists are no source.
+- **Layered answers, D106** (`docs/specs/layered-answers.md`, M44, issue #26). Status: built 2026-10-23 on stacked
+  branches `build/layered-answers` and `-p1` to `-p6`, one PR per phase (#27 docs, #28 cross-links, #29 key facts, #30
+  cautions, then hotfix lists, brief and search, never-less); merge in order. Not done until the first nightly ran:
+  then `npm run check:never-less` (0 of 6 hold before it), un-pend rows that hold, backfill learn-confirm, learn facts
+  and cautions within their quotas, publish MCP 0.9.0 and plugin 0.5.0. Spec section 12 lists the deviations and the
+  open never-less gap (Learn concept pages found only by meaning). Do not apply `spec-approved` to #26.
+- **Learn by meaning in brief, D107** (`docs/specs/learn-meaning-brief.md`, M45, issue #34). Status: built 2026-10-23 on
+  `build/layered-answers-p7`, stacked on #33; unreachable Learn URLs of the never-less check 11 -> 8 of 16. Ships with MCP
+  0.9.0. The rest is an owner decision (spec section 8).
 - **Observatory in Claude chat and Desktop, D105** (`docs/specs/mcp-in-claude-chat.md`, M43, issue #24). Status:
   proposed 2026-10-22, nothing implemented; the owner wants it specced, not built yet, and phase 2 waits for a host
   choice (spec section 4, host criteria). Start with phase 1 task 1 (the tests). Until it lands, claude.ai users who add

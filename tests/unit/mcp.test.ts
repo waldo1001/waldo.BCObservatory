@@ -436,6 +436,32 @@ test("D95 review: filters never read as an absence, the kind parameter counts, s
   }
 });
 
+test("D107: brief finds a Learn article by meaning when its words differ from the question; off without a model", async () => {
+  const root = fixture();
+  const base = "https://learn.microsoft.com/dynamics365/business-central/", vat = "finance-work-with-vat";
+  writeJson(join(root, "data/manifest/docs/learn-smb-docs/vat.json"), { id: `docs/learn-smb-docs/${vat}.md`, pillar: "docs", source: "learn-smb-docs", tier: "official", title: "How to work with VAT on sales and purchases",
+    url: `${base}${vat}`, state: "fetched", stages: { fetched: { at: "2026-10-01T00:00:00.000Z", blob: "b" } }, attempts: 0, meta: { description: "Calculate and correct VAT amounts on documents.", ms_date: "2026-10-05", identifiers: [] } });
+  renderSearchIndex(join(root, "content"), join(root, "data"));
+  const modelDir = mkdtempSync(join(tmpdir(), "bcobs-model-"));
+  const t = toyModel({ vat: [0, 0, 1], tax: [0, 0, 1], purchase: [0, 0, 1], customer: [1, 0, 0] });
+  writeText(join(modelDir, "tokenizer.json"), t.tokenizer);
+  writeFileSync(join(modelDir, "model.safetensors"), t.bytes);
+  writeJson(join(modelDir, "config.json"), t.config);
+  const { client, call } = await connect({ BC_OBSERVATORY_LOCAL: root, BC_OBSERVATORY_MODEL_DIR: modelDir });
+  try {
+    const b = await call("brief", { query: "purchase tax" });
+    assert.match(b, new RegExp(`- How to work with VAT on sales and purchases \\[official, ${base}${vat}\\] \\(found by meaning\\)`));
+  } finally {
+    await client.close();
+  }
+  const off = await connect({ BC_OBSERVATORY_LOCAL: root, BC_OBSERVATORY_EMBEDDINGS: "0" });
+  try {
+    assert.doesNotMatch(await off.call("brief", { query: "purchase tax" }), /found by meaning/);
+  } finally {
+    await off.client.close();
+  }
+});
+
 test("D94: search finds Learn articles by an identifier they document, with their url and hub; type learn filters; ls and whats_new stay pages", async () => {
   const root = fixture();
   const base = "https://learn.microsoft.com/dynamics365/business-central/", sec = "dev-itpro/developer/devenv-security-settings-and-ip-protection";
